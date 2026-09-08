@@ -1,0 +1,202 @@
+[
+  {
+    "id": "026",
+    "title": "The complete Crouzeix conjecture",
+    "area": "Operator theory and numerical linear algebra",
+    "file": "problems/026-complete-crouzeix.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "027",
+    "title": "Lieb’s permanental dominance conjecture",
+    "area": "Matrix analysis and quantum information",
+    "file": "problems/027-lieb-permanental-dominance.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "028",
+    "title": "Chollet’s Hadamard-product permanent inequality",
+    "area": "Matrix analysis and bosonic computation",
+    "file": "problems/028-chollet-permanent.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "029",
+    "title": "Hadamard matrices in every admissible order",
+    "area": "Matrix design, coding and experimental design",
+    "file": "problems/029-hadamard-all-orders.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "030",
+    "title": "The exact real Grothendieck constant",
+    "area": "Operator norms and semidefinite optimization",
+    "file": "problems/030-real-grothendieck-constant.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "031",
+    "title": "Komlós’s vector-balancing conjecture",
+    "area": "Discrepancy and matrix rounding",
+    "file": "problems/031-komlos.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "032",
+    "title": "The Beck–Fiala discrepancy conjecture",
+    "area": "Sparse constraint rounding",
+    "file": "problems/032-beck-fiala.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "033",
+    "title": "Is the matrix-multiplication exponent two?",
+    "area": "Numerical linear algebra and algebraic complexity",
+    "file": "problems/033-matrix-multiplication-exponent.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "034",
+    "title": "Explicit matrices with Valiant-scale rigidity",
+    "area": "Matrix computation and complexity lower bounds",
+    "file": "problems/034-explicit-rigid-matrices.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "035",
+    "title": "SIC measurements in every finite dimension",
+    "area": "Quantum measurement and frame theory",
+    "file": "problems/035-sic-povms.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "036",
+    "title": "The maximum number of mutually unbiased bases in dimension six",
+    "area": "Quantum information and matrix design",
+    "file": "problems/036-mub-dimension-six.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "037",
+    "title": "Existence of NPT bound entanglement",
+    "area": "Quantum information and positive operators",
+    "file": "problems/037-npt-bound-entanglement.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "038",
+    "title": "Exact quantum capacity of the qubit depolarizing channel",
+    "area": "Quantum communication and operator optimization",
+    "file": "problems/038-depolarizing-quantum-capacity.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "039",
+    "title": "Uniform spatial stability of von Neumann algebras",
+    "area": "Operator perturbation theory",
+    "file": "problems/039-kadison-kastler.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "040",
+    "title": "Are the standard quantum entropy inequalities complete?",
+    "area": "Quantum information and convex optimization",
+    "file": "problems/040-quantum-entropy-cone.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "041",
+    "title": "Arveson–Douglas essential normality for homogeneous ideals",
+    "area": "Multivariable operator theory",
+    "file": "problems/041-arveson-douglas.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "042",
+    "title": "Kadison’s similarity problem",
+    "area": "Operator representations and stability",
+    "file": "problems/042-kadison-similarity.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "043",
+    "title": "Dixmier’s unitarizability problem for countable groups",
+    "area": "Group representations and operator theory",
+    "file": "problems/043-dixmier-unitarizability.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "044",
+    "title": "Deterministic sensing matrices with optimal RIP measurement count",
+    "area": "Compressed sensing and matrix construction",
+    "file": "problems/044-deterministic-rip.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "045",
+    "title": "Uniformly effective algebraic multigrid for diagonally dominant systems",
+    "area": "Numerical PDE solvers and preconditioning",
+    "file": "problems/045-universal-algebraic-multigrid.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "046",
+    "title": "Deterministic pseudospectral shattering in nearly cubic time",
+    "area": "Eigenvalue computation and nonnormal operators",
+    "file": "problems/046-deterministic-pseudospectral-shattering.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "047",
+    "title": "Accurate selected bidiagonal singular vectors in O(kn) work",
+    "area": "Numerical linear algebra and low-rank approximation",
+    "file": "problems/047-accurate-bidiagonal-svd.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "048",
+    "title": "A nearly cubic Schur algorithm using only linear precision",
+    "area": "Stable algorithms for general eigenproblems",
+    "file": "problems/048-linear-precision-schur.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "049",
+    "title": "Quadratic-scale bit complexity for well-conditioned sparse systems",
+    "area": "Sparse numerical linear algebra",
+    "file": "problems/049-sparse-linear-solve-bit-complexity.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "050",
+    "title": "Improve the worst-case tensor-train approximation factor",
+    "area": "Tensor computation and high-dimensional models",
+    "file": "problems/050-tensor-train-approximation.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  }
+]

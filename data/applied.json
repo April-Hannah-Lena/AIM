@@ -1,0 +1,202 @@
+[
+  {
+    "id": "076",
+    "title": "Global regularity of the three-dimensional Navier–Stokes equations",
+    "area": "Fluid dynamics",
+    "file": "problems/076-navier-stokes-global-regularity.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "077",
+    "title": "Finite-time singularity for smooth three-dimensional Euler flow without a boundary",
+    "area": "Fluid dynamics",
+    "file": "problems/077-euler-smooth-free-space.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "078",
+    "title": "Global regularity for supercritical dissipative surface quasi-geostrophic flow",
+    "area": "Geophysical fluid dynamics",
+    "file": "problems/078-supercritical-sqg.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "079",
+    "title": "Large-data global classical solutions of relativistic Vlasov–Maxwell",
+    "area": "Kinetic theory and plasma physics",
+    "file": "problems/079-vlasov-maxwell-global-classical.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "080",
+    "title": "Large-data global smoothness for the spatially inhomogeneous Boltzmann equation",
+    "area": "Kinetic theory",
+    "file": "problems/080-inhomogeneous-boltzmann-regularity.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "081",
+    "title": "The no-slip inviscid limit in two dimensions",
+    "area": "Fluid dynamics and boundary layers",
+    "file": "problems/081-no-slip-inviscid-limit.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "082",
+    "title": "Bressan's logarithmic lower bound on the cost of mixing",
+    "area": "Transport and mixing",
+    "file": "problems/082-bressan-mixing-cost.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "083",
+    "title": "Global smoothness for the real scalar defocusing septic wave equation",
+    "area": "Nonlinear waves",
+    "file": "problems/083-scalar-supercritical-wave.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "084",
+    "title": "Soliton resolution for bounded nonradial energy-critical waves",
+    "area": "Nonlinear waves",
+    "file": "problems/084-nonradial-soliton-resolution.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "085",
+    "title": "Global regularity of two-dimensional ideal incompressible MHD",
+    "area": "Magnetohydrodynamics",
+    "file": "problems/085-ideal-mhd-two-dimensions.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "086",
+    "title": "Large-data global regularity for creeping-flow Oldroyd–B without stress diffusion",
+    "area": "Viscoelasticity",
+    "file": "problems/086-non-diffusive-oldroyd-b.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "087",
+    "title": "Preservation of strict positivity for the cubic thin-film equation",
+    "area": "Thin films and lubrication",
+    "file": "problems/087-thin-film-positivity.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "088",
+    "title": "Smooth unforced inviscid Boussinesq evolution on the whole plane",
+    "area": "Geophysical fluid dynamics",
+    "file": "problems/088-inviscid-boussinesq-plane.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "089",
+    "title": "The bulk ground-state energy of the planar Lennard–Jones system",
+    "area": "Atomistic materials",
+    "file": "problems/089-lennard-jones-planar-crystallization.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "090",
+    "title": "The three-dimensional lattice-periodic Kelvin problem",
+    "area": "Foams and geometric optimization",
+    "file": "problems/090-kelvin-lattice-foam.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "091",
+    "title": "The optimal three-dimensional quadratic quantization constant",
+    "area": "Quantization and mesh generation",
+    "file": "problems/091-bcc-quantization.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "092",
+    "title": "The symmetric Mahler inequality in four dimensions",
+    "area": "Convex geometry and optimization",
+    "file": "problems/092-mahler-symmetric-four-dimensions.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "093",
+    "title": "Gaussian-energy optimality of the triangular lattice among periodic configurations",
+    "area": "Crystallization and energy minimization",
+    "file": "problems/093-triangular-universal-optimality.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "094",
+    "title": "Absence of an infinite cluster at criticality in three-dimensional percolation",
+    "area": "Random media",
+    "file": "problems/094-critical-percolation-three-dimensions.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "095",
+    "title": "The planar Mumford–Shah regularity conjecture",
+    "area": "Image segmentation and fracture",
+    "file": "problems/095-mumford-shah-planar-cracks.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "096",
+    "title": "One-dimensionality of monotone Allen–Cahn fronts in dimension five",
+    "area": "Phase transitions",
+    "file": "problems/096-de-giorgi-dimension-five.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "097",
+    "title": "Cardy's crossing formula for square-lattice bond percolation",
+    "area": "Random media and conformal invariance",
+    "file": "problems/097-square-bond-cardy-formula.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "098",
+    "title": "The planar self-avoiding-walk displacement exponent",
+    "area": "Polymer models",
+    "file": "problems/098-planar-self-avoiding-walk-exponent.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "099",
+    "title": "The dimension-free Kannan–Lovász–Simonovits inequality",
+    "area": "High-dimensional probability and sampling",
+    "file": "problems/099-kls-poincare.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "100",
+    "title": "A strongly polynomial pivot rule for the simplex method",
+    "area": "Numerical optimization",
+    "file": "problems/100-strongly-polynomial-simplex.md",
+    "status": "Open in cited literature; no later resolution located",
+    "last_checked": "2026-09-08"
+  }
+]
