@@ -1,0 +1,59 @@
+{
+  "status": "exact_certificates_passed",
+  "scope": "synthetic sequence only; no domain or realizability claim",
+  "K": 100,
+  "q": "399/4",
+  "changed_indices": [
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100
+  ],
+  "neighbor_levels": {
+    "a_89": 99,
+    "a_101": 112
+  },
+  "polya_violation": {
+    "index": 100,
+    "value": "399/4",
+    "required_lower_bound": 100
+  },
+  "order_one_all_energy_certificate": {
+    "total_downward_displacement": "231/4",
+    "minimum_classical_gap_for_E_ge_q": "397/4",
+    "certified_margin": "83/2",
+    "analytic_argument": "gain=0 for E<=q; gain<=delta and E-1/2>=gap for E>=q"
+  },
+  "positive_order_cutoff_certificate": {
+    "cutoff": "1/128",
+    "strip_left": "199/4",
+    "strip_right_excluded": "399/4",
+    "strip_length": "50",
+    "counting_deficit_lower_bound": "7",
+    "maximum_positive_counting_defect": "1/4",
+    "scale": "201",
+    "required_root": "29/28",
+    "integer_inequality": "29^128 <= 201 * 28^128",
+    "integer_left": 15379553637331060112761913978605796321375285139709027219974877012245307377494185493752721145970991774601021735877033122355561876302404450968171790351682768319433864936007334746849150159361,
+    "integer_right": 34627733719985221795941487425573291982073062037868036097058149986726238294812172860337796304550395721112849789079645850493205439025823567972529060606653614457257132254246413483880728231936,
+    "all_orders_at_least_cutoff": true,
+    "all_energies": true,
+    "method": "localized counting-deficit lemma and beta integration"
+  },
+  "general_theorem_secondary_certificate": {
+    "cutoff": "1/32",
+    "integer_inequality": "21^32 <= 5 * 20^32"
+  },
+  "heat_bound": "sum_j exp(-t*b_j) <= 1/t for all t>0",
+  "weyl_law": "N_b(E)=E-sqrt(E)+O(1)",
+  "limitation": "not all positive orders on a single counterexample sequence",
+  "energy_sampling_used": false,
+  "uncontrolled_floating_point_used": false
+}

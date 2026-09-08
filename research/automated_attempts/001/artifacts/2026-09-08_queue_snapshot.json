@@ -1,0 +1,1037 @@
+{
+  "actual_problem_count": 100,
+  "index_count": 100,
+  "legacy_constraint_notice": "scripts/catalogue.py hard-codes 001–100; do not use it to cap discovery. Left unchanged under scope guard.",
+  "missing_problem_files": [],
+  "newly_discovered_problems": [],
+  "problems": [
+    {
+      "blob_sha": "ae92371520cac5d4f601fa02d692ee6a478c3dc2",
+      "id": "001",
+      "path": "problems/001-polya-eigenvalue-bound.md",
+      "title": "Pólya's eigenvalue inequalities"
+    },
+    {
+      "blob_sha": "5c89ef9ee89c8558c6a6ff48a2e7c76158e7fc93",
+      "id": "002",
+      "path": "problems/002-ivrii-periodic-billiards.md",
+      "title": "Ivrii's measure-zero conjecture for billiards"
+    },
+    {
+      "blob_sha": "9eecfacb6faf031fdd34280d1a0faf841ee6d376",
+      "id": "003",
+      "path": "problems/003-planar-convex-hot-spots.md",
+      "title": "Hot spots on convex planar domains"
+    },
+    {
+      "blob_sha": "7c24e2efd80ea92799df628ea6c536d18785ce22",
+      "id": "004",
+      "path": "problems/004-polygonal-faber-krahn.md",
+      "title": "Pólya–Szegő polygonal Faber–Krahn conjecture"
+    },
+    {
+      "blob_sha": "699636a7fa96a537d29cf1e10dabdae31f80fa42",
+      "id": "005",
+      "path": "problems/005-third-dirichlet-disk.md",
+      "title": "Does the disk minimize the third Dirichlet eigenvalue?"
+    },
+    {
+      "blob_sha": "d5ef59eb2d10a059f39921de33389a4735005943",
+      "id": "006",
+      "path": "problems/006-rayleigh-clamped-plate.md",
+      "title": "Rayleigh's clamped-plate conjecture in higher dimensions"
+    },
+    {
+      "blob_sha": "04eb58487ca839ae061323ba85578a53bcf47bb9",
+      "id": "007",
+      "path": "problems/007-buckling-load-ball.md",
+      "title": "Pólya–Szegő conjecture for the first buckling load"
+    },
+    {
+      "blob_sha": "493d0dc6d2fd0ca258ccf966e895e4ecce8e8665",
+      "id": "008",
+      "path": "problems/008-buckling-eigenvalue-ratio.md",
+      "title": "The sharp ratio of the first two buckling eigenvalues"
+    },
+    {
+      "blob_sha": "e3d0d1b089e779de63a9cd489be976a1a8a9d5a9",
+      "id": "009",
+      "path": "problems/009-spectral-honeycomb.md",
+      "title": "The spectral honeycomb conjecture"
+    },
+    {
+      "blob_sha": "72bfccce81d49be35d2c3b5b60ca7950b2300efb",
+      "id": "010",
+      "path": "problems/010-mercedes-disk-partition.md",
+      "title": "The Mercedes-star partition of a disk"
+    },
+    {
+      "blob_sha": "c51b4d15453f520edffe1de56aa075f59b836ff9",
+      "id": "011",
+      "path": "problems/011-yau-nodal-upper-bound.md",
+      "title": "Yau's sharp upper bound for nodal volume"
+    },
+    {
+      "blob_sha": "1aed57a39456b69678baf1285a27b23d93f84251",
+      "id": "012",
+      "path": "problems/012-sharp-pleijel-constant.md",
+      "title": "The sharp planar Pleijel constant"
+    },
+    {
+      "blob_sha": "592e56f0f929b2abf4f3e9b4c9db02b1984e21c0",
+      "id": "013",
+      "path": "problems/013-quantum-unique-ergodicity.md",
+      "title": "Quantum unique ergodicity in negative curvature"
+    },
+    {
+      "blob_sha": "58653bfe8862c81711716652e5c8aa1d950035e9",
+      "id": "014",
+      "path": "problems/014-berry-random-waves.md",
+      "title": "Berry's random-wave conjecture as a local limit"
+    },
+    {
+      "blob_sha": "b446bdb11b5175b43400cd41252ec5ac736a8665",
+      "id": "015",
+      "path": "problems/015-anderson-extended-states.md",
+      "title": "Extended states in the three-dimensional Anderson model"
+    },
+    {
+      "blob_sha": "458edee0b7f1010c97f52fefec39c3cb8b9bc851",
+      "id": "016",
+      "path": "problems/016-anderson-planar-localization.md",
+      "title": "Localization at every disorder strength in two dimensions"
+    },
+    {
+      "blob_sha": "c7d4de54317b7c411bd75e563482470e86fc7564",
+      "id": "017",
+      "path": "problems/017-fractal-weyl-resonances.md",
+      "title": "A fractal Weyl lower bound for obstacle resonances"
+    },
+    {
+      "blob_sha": "7aecb1252e466c2c30265e0a9cc02abf046cc2e9",
+      "id": "018",
+      "path": "problems/018-lieb-thirring-three-dimensional.md",
+      "title": "The three-dimensional Lieb–Thirring constant"
+    },
+    {
+      "blob_sha": "299ba5c7c0f2441f4046796bb1eaf75bd55b329e",
+      "id": "019",
+      "path": "problems/019-ovals-conjecture.md",
+      "title": "The Benguria–Loss ovals conjecture"
+    },
+    {
+      "blob_sha": "75e287ed3976eafd0a4cb2924426d185daeb2be4",
+      "id": "020",
+      "path": "problems/020-polygonal-ppw.md",
+      "title": "The polygonal Payne–Pólya–Weinberger ratio conjecture"
+    },
+    {
+      "blob_sha": "bb5868350662bbe25fd86dcdbc90e91b0a904bff",
+      "id": "021",
+      "path": "problems/021-bareket-simply-connected.md",
+      "title": "Bareket's conjecture for simply connected planar domains"
+    },
+    {
+      "blob_sha": "2fc319e5fcbc7f000e3022680ae79cacdcb1c7f8",
+      "id": "022",
+      "path": "problems/022-robin-fundamental-gap.md",
+      "title": "The Robin fundamental gap conjecture"
+    },
+    {
+      "blob_sha": "d911f5010aa07615e1723e5e2b3a44c0008d68c0",
+      "id": "023",
+      "path": "problems/023-robin-ppw.md",
+      "title": "The Robin eigenvalue ratio at fixed volume"
+    },
+    {
+      "blob_sha": "9e80a4c510c7eaf86dfcde976a0736589583ebbd",
+      "id": "024",
+      "path": "problems/024-steklov-polygon-optimizer.md",
+      "title": "The regular-polygon Steklov conjecture"
+    },
+    {
+      "blob_sha": "9dc9816faaab7823d3994fef20ca7a6cad23237c",
+      "id": "025",
+      "path": "problems/025-steklov-smooth-interior-decay.md",
+      "title": "Exponential interior decay for smooth Steklov domains"
+    },
+    {
+      "blob_sha": "6e96ebb227517a7e774030be634a087410257772",
+      "id": "026",
+      "path": "problems/026-complete-crouzeix.md",
+      "title": "The complete Crouzeix conjecture"
+    },
+    {
+      "blob_sha": "deaea679c0bf7b8f9aaa7e64fc4d3aa968ae20e8",
+      "id": "027",
+      "path": "problems/027-lieb-permanental-dominance.md",
+      "title": "Lieb’s permanental dominance conjecture"
+    },
+    {
+      "blob_sha": "32d2ad1ae1f82ed2cd77c563ecdaf32477a65f2d",
+      "id": "028",
+      "path": "problems/028-chollet-permanent.md",
+      "title": "Chollet’s Hadamard-product permanent inequality"
+    },
+    {
+      "blob_sha": "9b3bd369518b5f9dc0fbfcc333cf60daafeddbd5",
+      "id": "029",
+      "path": "problems/029-hadamard-all-orders.md",
+      "title": "Hadamard matrices in every admissible order"
+    },
+    {
+      "blob_sha": "0a0c282dc356cb20fe07989d74e753b6402c8fec",
+      "id": "030",
+      "path": "problems/030-real-grothendieck-constant.md",
+      "title": "The exact real Grothendieck constant"
+    },
+    {
+      "blob_sha": "7018b90c083460917214bf58100b85b1ad94c17a",
+      "id": "031",
+      "path": "problems/031-komlos.md",
+      "title": "Komlós’s vector-balancing conjecture"
+    },
+    {
+      "blob_sha": "09d9ab805da153a9e5e950881a4490824f4d43ba",
+      "id": "032",
+      "path": "problems/032-beck-fiala.md",
+      "title": "The Beck–Fiala discrepancy conjecture"
+    },
+    {
+      "blob_sha": "d383c883e826a88bda6dba1a38d6d9ad64687d26",
+      "id": "033",
+      "path": "problems/033-matrix-multiplication-exponent.md",
+      "title": "Is the matrix-multiplication exponent two?"
+    },
+    {
+      "blob_sha": "441258f937b106ce7370906596f54873d76fa1a0",
+      "id": "034",
+      "path": "problems/034-explicit-rigid-matrices.md",
+      "title": "Explicit matrices with Valiant-scale rigidity"
+    },
+    {
+      "blob_sha": "67be1804f680b8ce8154d2bd6ba987427d9bdca9",
+      "id": "035",
+      "path": "problems/035-sic-povms.md",
+      "title": "SIC measurements in every finite dimension"
+    },
+    {
+      "blob_sha": "d25471420da4dba48f5858246ed65e2c9e07b80c",
+      "id": "036",
+      "path": "problems/036-mub-dimension-six.md",
+      "title": "The maximum number of mutually unbiased bases in dimension six"
+    },
+    {
+      "blob_sha": "e3ba026b4acf8fe9348841b23bb37222747f5f9f",
+      "id": "037",
+      "path": "problems/037-npt-bound-entanglement.md",
+      "title": "Existence of NPT bound entanglement"
+    },
+    {
+      "blob_sha": "f90c2ae9d00970f6b7cadcb3ac3b6ecbd79f6a04",
+      "id": "038",
+      "path": "problems/038-depolarizing-quantum-capacity.md",
+      "title": "Exact quantum capacity of the qubit depolarizing channel"
+    },
+    {
+      "blob_sha": "9eb7b5f12d711a8495ffe1c65bb4db9784fc632b",
+      "id": "039",
+      "path": "problems/039-kadison-kastler.md",
+      "title": "Uniform spatial stability of von Neumann algebras"
+    },
+    {
+      "blob_sha": "9eaa1c2282d10fa83ac7ec85dbb5fd87a12cba26",
+      "id": "040",
+      "path": "problems/040-quantum-entropy-cone.md",
+      "title": "Are the standard quantum entropy inequalities complete?"
+    },
+    {
+      "blob_sha": "f7d77726dc8638f8aa4a8adab4ffbcbc504d5a05",
+      "id": "041",
+      "path": "problems/041-arveson-douglas.md",
+      "title": "Arveson–Douglas essential normality for homogeneous ideals"
+    },
+    {
+      "blob_sha": "10fd7e1481cbacdf21784d823bea3b8b61f60f1b",
+      "id": "042",
+      "path": "problems/042-kadison-similarity.md",
+      "title": "Kadison’s similarity problem"
+    },
+    {
+      "blob_sha": "4f2e1b8e8cf55802a4af187118d5c7b82ae83125",
+      "id": "043",
+      "path": "problems/043-dixmier-unitarizability.md",
+      "title": "Dixmier’s unitarizability problem for countable groups"
+    },
+    {
+      "blob_sha": "74ca6ab84340765e22e50ddc1a470f533efd16a7",
+      "id": "044",
+      "path": "problems/044-deterministic-rip.md",
+      "title": "Deterministic sensing matrices with optimal RIP measurement count"
+    },
+    {
+      "blob_sha": "d3c4102d58b21b1e9c9959b160765bfef4466a38",
+      "id": "045",
+      "path": "problems/045-universal-algebraic-multigrid.md",
+      "title": "Uniformly effective algebraic multigrid for diagonally dominant systems"
+    },
+    {
+      "blob_sha": "1ed0bb8679a533dfcee109ddfd13c1d1e386d2c2",
+      "id": "046",
+      "path": "problems/046-deterministic-pseudospectral-shattering.md",
+      "title": "Deterministic pseudospectral shattering in nearly cubic time"
+    },
+    {
+      "blob_sha": "798dc0cd8c0136953cb301c7b89283aefae094a8",
+      "id": "047",
+      "path": "problems/047-accurate-bidiagonal-svd.md",
+      "title": "Accurate selected bidiagonal singular vectors in O(kn) work"
+    },
+    {
+      "blob_sha": "06e4864bf61927585dbbccf1492bbcc47c5f791b",
+      "id": "048",
+      "path": "problems/048-linear-precision-schur.md",
+      "title": "A nearly cubic Schur algorithm using only linear precision"
+    },
+    {
+      "blob_sha": "244d054e0216c4150caf798e40f075f102283e5f",
+      "id": "049",
+      "path": "problems/049-sparse-linear-solve-bit-complexity.md",
+      "title": "Quadratic-scale bit complexity for well-conditioned sparse systems"
+    },
+    {
+      "blob_sha": "ee0e32d9ceb6e3bf7847715ed263694dd2e070e9",
+      "id": "050",
+      "path": "problems/050-tensor-train-approximation.md",
+      "title": "Improve the worst-case tensor-train approximation factor"
+    },
+    {
+      "blob_sha": "df9118dbcc5644a135aa4ee910d1912d0242d054",
+      "id": "051",
+      "path": "problems/051-rough-conductivity-calderon.md",
+      "title": "Calderón uniqueness for bounded measurable conductivities"
+    },
+    {
+      "blob_sha": "301f0df1d3267748536b0ec1e21556fd59b45f33",
+      "id": "052",
+      "path": "problems/052-smooth-anisotropic-calderon.md",
+      "title": "Smooth anisotropic Calderón uniqueness"
+    },
+    {
+      "blob_sha": "73cbaccd05cf175464b73aeed82d6b243d1d788f",
+      "id": "053",
+      "path": "problems/053-arbitrary-local-calderon-data.md",
+      "title": "Calderón uniqueness from an arbitrary local boundary patch"
+    },
+    {
+      "blob_sha": "df2e430bdefa658ae2a50106ea78c5f8b12db303",
+      "id": "054",
+      "path": "problems/054-nonlinear-p-calderon.md",
+      "title": "Global conductivity uniqueness for the p-Laplacian in higher dimensions"
+    },
+    {
+      "blob_sha": "d0f6befcbdcd830f71b9be1af5dd65b921324469",
+      "id": "055",
+      "path": "problems/055-static-lame-uniqueness.md",
+      "title": "Recover both Lamé moduli from static boundary measurements"
+    },
+    {
+      "blob_sha": "5fa0f1fd6b94d188841ef2dd7fb280fe6021a5a9",
+      "id": "056",
+      "path": "problems/056-potential-on-general-manifold.md",
+      "title": "Recover a potential on a general known Riemannian manifold"
+    },
+    {
+      "blob_sha": "e306abb68cbac97677ff9b6ba075f99473cba24d",
+      "id": "057",
+      "path": "problems/057-inverse-backscattering.md",
+      "title": "Global uniqueness from inverse backscattering data"
+    },
+    {
+      "blob_sha": "b523be061c4219cc4030a346781c0d28cd915b05",
+      "id": "058",
+      "path": "problems/058-fixed-angle-sound-speed.md",
+      "title": "Recover an arbitrary sound speed from one incident direction"
+    },
+    {
+      "blob_sha": "d11ff28bc9c353d40fccd0dae4495cb1306547e9",
+      "id": "059",
+      "path": "problems/059-single-wave-obstacle.md",
+      "title": "Determine a smooth sound-soft obstacle from one far-field pattern"
+    },
+    {
+      "blob_sha": "72cd6f4d756704efc13fa9a73001f97312b23e03",
+      "id": "060",
+      "path": "problems/060-simple-boundary-rigidity.md",
+      "title": "Boundary rigidity of simple manifolds in dimensions at least three"
+    },
+    {
+      "blob_sha": "2cd32958842a8dc00216da0ffd9ad33ede4534bc",
+      "id": "061",
+      "path": "problems/061-tensor-ray-injectivity.md",
+      "title": "Solenoidal injectivity of the geodesic ray transform on 2-tensors"
+    },
+    {
+      "blob_sha": "64cd1a5823c2f5767f73814f0a0166f3ba815714",
+      "id": "062",
+      "path": "problems/062-marked-length-rigidity.md",
+      "title": "Marked length rigidity in negative curvature"
+    },
+    {
+      "blob_sha": "db131f743ba7409154cb396103ba0db4ea2e5860",
+      "id": "063",
+      "path": "problems/063-spherical-mean-noninjectivity-sets.md",
+      "title": "Classify noninjectivity sets of spherical mean tomography"
+    },
+    {
+      "blob_sha": "6713c33724dd09e5bdc025544b4be3e651aee4c4",
+      "id": "064",
+      "path": "problems/064-photoacoustic-joint-recovery.md",
+      "title": "Simultaneously recover sound speed and initial pressure"
+    },
+    {
+      "blob_sha": "a379ef835c0afc00826a8ffcff8f6d559842c869",
+      "id": "065",
+      "path": "problems/065-two-obstacle-broken-rays.md",
+      "title": "Broken-ray tomography with two smooth convex obstacles"
+    },
+    {
+      "blob_sha": "cdf472a7671eaf89589908fbf19a8fa6b950eee4",
+      "id": "066",
+      "path": "problems/066-pestov-uhlmann-fredholm-invertibility.md",
+      "title": "Invertibility of the Pestov–Uhlmann reconstruction operator"
+    },
+    {
+      "blob_sha": "18cd9dae7830c255e47492f43bc731b270f6c9be",
+      "id": "067",
+      "path": "problems/067-finite-angular-attenuation.md",
+      "title": "Injectivity with attenuation of finite angular degree"
+    },
+    {
+      "blob_sha": "de589ff3a764e3bf2b58dec4764733c5ecc52a40",
+      "id": "068",
+      "path": "problems/068-range-of-geodesic-scattering.md",
+      "title": "Characterizing realizable geodesic scattering data"
+    },
+    {
+      "blob_sha": "9c9132cffcfa0afdcdc69ded470e81e86c553d15",
+      "id": "069",
+      "path": "problems/069-birkhoff-billiard-integrability.md",
+      "title": "Global Birkhoff billiard integrability conjecture"
+    },
+    {
+      "blob_sha": "da98192aea5d2ccd5737cfc09c4d539f2944441a",
+      "id": "070",
+      "path": "problems/070-standard-map-metric-entropy.md",
+      "title": "Positive metric entropy for a standard map"
+    },
+    {
+      "blob_sha": "69432ce907166996c66baee77c164646cb203f45",
+      "id": "071",
+      "path": "problems/071-small-time-superlinear-heat-control.md",
+      "title": "Small-time global control of a slightly superlinear heat equation"
+    },
+    {
+      "blob_sha": "6e7ea59d7463f6c72688820f893308c6ddcb057f",
+      "id": "072",
+      "path": "problems/072-burgers-shock-uniform-control-time.md",
+      "title": "Exact uniform control time near a viscous Burgers shock"
+    },
+    {
+      "blob_sha": "55e37f0ebd951528c0c509fcf4457c07ac00dde3",
+      "id": "073",
+      "path": "problems/073-p-harmonic-unique-continuation.md",
+      "title": "Unique continuation for the higher-dimensional p-Laplace equation"
+    },
+    {
+      "blob_sha": "f716c3a7680d5a1333cccb1edfe9fbab26c0e9a3",
+      "id": "074",
+      "path": "problems/074-convex-function-on-simple-manifold.md",
+      "title": "A strictly convex function on every simple manifold"
+    },
+    {
+      "blob_sha": "906274c9ad6f132580bf895dd8541715142e68ad",
+      "id": "075",
+      "path": "problems/075-thermostatic-nonabelian-tomography.md",
+      "title": "Non-Abelian ray transform for simple Gaussian thermostats"
+    },
+    {
+      "blob_sha": "eb21f90ac2b7c003ebdfed3f7809b586e76e1fe1",
+      "id": "076",
+      "path": "problems/076-navier-stokes-global-regularity.md",
+      "title": "Global regularity of the three-dimensional Navier–Stokes equations"
+    },
+    {
+      "blob_sha": "55445422ebef2bf95061a76c7963b1ee4c0ec100",
+      "id": "077",
+      "path": "problems/077-euler-smooth-free-space.md",
+      "title": "Finite-time singularity for smooth three-dimensional Euler flow without a boundary"
+    },
+    {
+      "blob_sha": "b0e4c26a8d48dfd52c3e88e1731fc2b66119b03f",
+      "id": "078",
+      "path": "problems/078-supercritical-sqg.md",
+      "title": "Global regularity for supercritical dissipative surface quasi-geostrophic flow"
+    },
+    {
+      "blob_sha": "41a228f666b4385fd717aa0ae2270073792ed10e",
+      "id": "079",
+      "path": "problems/079-vlasov-maxwell-global-classical.md",
+      "title": "Large-data global classical solutions of relativistic Vlasov–Maxwell"
+    },
+    {
+      "blob_sha": "b7ea9458f897b0552595adff2380a2019e597904",
+      "id": "080",
+      "path": "problems/080-inhomogeneous-boltzmann-regularity.md",
+      "title": "Large-data global smoothness for the spatially inhomogeneous Boltzmann equation"
+    },
+    {
+      "blob_sha": "ab475f5733d477cb8fb6c0bcc0dcb7876756daa7",
+      "id": "081",
+      "path": "problems/081-no-slip-inviscid-limit.md",
+      "title": "The no-slip inviscid limit in two dimensions"
+    },
+    {
+      "blob_sha": "4856284c9bf86599d97cc4460dac83b961474a08",
+      "id": "082",
+      "path": "problems/082-bressan-mixing-cost.md",
+      "title": "Bressan's logarithmic lower bound on the cost of mixing"
+    },
+    {
+      "blob_sha": "3eec0c041b7883155694b8678a25c499acdb76fc",
+      "id": "083",
+      "path": "problems/083-scalar-supercritical-wave.md",
+      "title": "Global smoothness for the real scalar defocusing septic wave equation"
+    },
+    {
+      "blob_sha": "5dca5d0e14cca601da6d8e10a89bb82205d0c3d9",
+      "id": "084",
+      "path": "problems/084-nonradial-soliton-resolution.md",
+      "title": "Soliton resolution for bounded nonradial energy-critical waves"
+    },
+    {
+      "blob_sha": "2d601e4f34fd666360b27666e9332a71d10e0471",
+      "id": "085",
+      "path": "problems/085-ideal-mhd-two-dimensions.md",
+      "title": "Global regularity of two-dimensional ideal incompressible MHD"
+    },
+    {
+      "blob_sha": "a91b87ba6fa48e479364fddc47842118fd2e2e16",
+      "id": "086",
+      "path": "problems/086-non-diffusive-oldroyd-b.md",
+      "title": "Large-data global regularity for creeping-flow Oldroyd–B without stress diffusion"
+    },
+    {
+      "blob_sha": "c56b3e271f0aa4ca242fee5ee5f86382cd99050f",
+      "id": "087",
+      "path": "problems/087-thin-film-positivity.md",
+      "title": "Preservation of strict positivity for the cubic thin-film equation"
+    },
+    {
+      "blob_sha": "68580a33ac6c12ba2c14e5eb943cca90f6d312c7",
+      "id": "088",
+      "path": "problems/088-inviscid-boussinesq-plane.md",
+      "title": "Smooth unforced inviscid Boussinesq evolution on the whole plane"
+    },
+    {
+      "blob_sha": "faff4e3ce1c615e9c5645ad5f2278826028660eb",
+      "id": "089",
+      "path": "problems/089-lennard-jones-planar-crystallization.md",
+      "title": "The bulk ground-state energy of the planar Lennard–Jones system"
+    },
+    {
+      "blob_sha": "67f7fa01708e179452f2e4ce9aee69d8d5342a50",
+      "id": "090",
+      "path": "problems/090-kelvin-lattice-foam.md",
+      "title": "The three-dimensional lattice-periodic Kelvin problem"
+    },
+    {
+      "blob_sha": "8780866957e750a865c02645e5b90d7727bb86e2",
+      "id": "091",
+      "path": "problems/091-bcc-quantization.md",
+      "title": "The optimal three-dimensional quadratic quantization constant"
+    },
+    {
+      "blob_sha": "4fd25cbf332fddf8d4bd8c6722a02e162b40881d",
+      "id": "092",
+      "path": "problems/092-mahler-symmetric-four-dimensions.md",
+      "title": "The symmetric Mahler inequality in four dimensions"
+    },
+    {
+      "blob_sha": "7e4f254b43d56f902d724d9ccbcda45d1652b743",
+      "id": "093",
+      "path": "problems/093-triangular-universal-optimality.md",
+      "title": "Gaussian-energy optimality of the triangular lattice among periodic configurations"
+    },
+    {
+      "blob_sha": "fca2bde21d9b0901daea2a5399fe7cc700685424",
+      "id": "094",
+      "path": "problems/094-critical-percolation-three-dimensions.md",
+      "title": "Absence of an infinite cluster at criticality in three-dimensional percolation"
+    },
+    {
+      "blob_sha": "70ee697d8561ed238db23e49a0132494e2100726",
+      "id": "095",
+      "path": "problems/095-mumford-shah-planar-cracks.md",
+      "title": "The planar Mumford–Shah regularity conjecture"
+    },
+    {
+      "blob_sha": "d4e0e7d738b072f2e84888ad6d44f0933c02bb1d",
+      "id": "096",
+      "path": "problems/096-de-giorgi-dimension-five.md",
+      "title": "One-dimensionality of monotone Allen–Cahn fronts in dimension five"
+    },
+    {
+      "blob_sha": "53b321f1b8f5c871c539d761a094724bd536a495",
+      "id": "097",
+      "path": "problems/097-square-bond-cardy-formula.md",
+      "title": "Cardy's crossing formula for square-lattice bond percolation"
+    },
+    {
+      "blob_sha": "bcc10beedc59bd5064326c23c9ac09de0d1c3178",
+      "id": "098",
+      "path": "problems/098-planar-self-avoiding-walk-exponent.md",
+      "title": "The planar self-avoiding-walk displacement exponent"
+    },
+    {
+      "blob_sha": "ba629223260e30dd4fc0ff4c7617ade40d981733",
+      "id": "099",
+      "path": "problems/099-kls-poincare.md",
+      "title": "The dimension-free Kannan–Lovász–Simonovits inequality"
+    },
+    {
+      "blob_sha": "32924cfd76d6b41f383704bcf74d8cd56a6572e4",
+      "id": "100",
+      "path": "problems/100-strongly-polynomial-simplex.md",
+      "title": "A strongly polynomial pivot rule for the simplex method"
+    }
+  ],
+  "queue_count": 100,
+  "queue_integrity_issues": [],
+  "queue_statuses": [
+    {
+      "id": "001",
+      "status": "research"
+    },
+    {
+      "id": "002",
+      "status": "queued"
+    },
+    {
+      "id": "003",
+      "status": "queued"
+    },
+    {
+      "id": "004",
+      "status": "queued"
+    },
+    {
+      "id": "005",
+      "status": "queued"
+    },
+    {
+      "id": "006",
+      "status": "queued"
+    },
+    {
+      "id": "007",
+      "status": "queued"
+    },
+    {
+      "id": "008",
+      "status": "queued"
+    },
+    {
+      "id": "009",
+      "status": "queued"
+    },
+    {
+      "id": "010",
+      "status": "queued"
+    },
+    {
+      "id": "011",
+      "status": "queued"
+    },
+    {
+      "id": "012",
+      "status": "queued"
+    },
+    {
+      "id": "013",
+      "status": "queued"
+    },
+    {
+      "id": "014",
+      "status": "queued"
+    },
+    {
+      "id": "015",
+      "status": "queued"
+    },
+    {
+      "id": "016",
+      "status": "queued"
+    },
+    {
+      "id": "017",
+      "status": "queued"
+    },
+    {
+      "id": "018",
+      "status": "queued"
+    },
+    {
+      "id": "019",
+      "status": "queued"
+    },
+    {
+      "id": "020",
+      "status": "queued"
+    },
+    {
+      "id": "021",
+      "status": "queued"
+    },
+    {
+      "id": "022",
+      "status": "queued"
+    },
+    {
+      "id": "023",
+      "status": "queued"
+    },
+    {
+      "id": "024",
+      "status": "queued"
+    },
+    {
+      "id": "025",
+      "status": "queued"
+    },
+    {
+      "id": "026",
+      "status": "queued"
+    },
+    {
+      "id": "027",
+      "status": "queued"
+    },
+    {
+      "id": "028",
+      "status": "queued"
+    },
+    {
+      "id": "029",
+      "status": "queued"
+    },
+    {
+      "id": "030",
+      "status": "queued"
+    },
+    {
+      "id": "031",
+      "status": "queued"
+    },
+    {
+      "id": "032",
+      "status": "queued"
+    },
+    {
+      "id": "033",
+      "status": "queued"
+    },
+    {
+      "id": "034",
+      "status": "queued"
+    },
+    {
+      "id": "035",
+      "status": "queued"
+    },
+    {
+      "id": "036",
+      "status": "queued"
+    },
+    {
+      "id": "037",
+      "status": "queued"
+    },
+    {
+      "id": "038",
+      "status": "queued"
+    },
+    {
+      "id": "039",
+      "status": "queued"
+    },
+    {
+      "id": "040",
+      "status": "queued"
+    },
+    {
+      "id": "041",
+      "status": "queued"
+    },
+    {
+      "id": "042",
+      "status": "queued"
+    },
+    {
+      "id": "043",
+      "status": "queued"
+    },
+    {
+      "id": "044",
+      "status": "queued"
+    },
+    {
+      "id": "045",
+      "status": "queued"
+    },
+    {
+      "id": "046",
+      "status": "queued"
+    },
+    {
+      "id": "047",
+      "status": "queued"
+    },
+    {
+      "id": "048",
+      "status": "queued"
+    },
+    {
+      "id": "049",
+      "status": "queued"
+    },
+    {
+      "id": "050",
+      "status": "queued"
+    },
+    {
+      "id": "051",
+      "status": "queued"
+    },
+    {
+      "id": "052",
+      "status": "queued"
+    },
+    {
+      "id": "053",
+      "status": "queued"
+    },
+    {
+      "id": "054",
+      "status": "queued"
+    },
+    {
+      "id": "055",
+      "status": "queued"
+    },
+    {
+      "id": "056",
+      "status": "queued"
+    },
+    {
+      "id": "057",
+      "status": "queued"
+    },
+    {
+      "id": "058",
+      "status": "queued"
+    },
+    {
+      "id": "059",
+      "status": "queued"
+    },
+    {
+      "id": "060",
+      "status": "queued"
+    },
+    {
+      "id": "061",
+      "status": "queued"
+    },
+    {
+      "id": "062",
+      "status": "queued"
+    },
+    {
+      "id": "063",
+      "status": "queued"
+    },
+    {
+      "id": "064",
+      "status": "queued"
+    },
+    {
+      "id": "065",
+      "status": "queued"
+    },
+    {
+      "id": "066",
+      "status": "queued"
+    },
+    {
+      "id": "067",
+      "status": "queued"
+    },
+    {
+      "id": "068",
+      "status": "queued"
+    },
+    {
+      "id": "069",
+      "status": "queued"
+    },
+    {
+      "id": "070",
+      "status": "queued"
+    },
+    {
+      "id": "071",
+      "status": "queued"
+    },
+    {
+      "id": "072",
+      "status": "queued"
+    },
+    {
+      "id": "073",
+      "status": "queued"
+    },
+    {
+      "id": "074",
+      "status": "queued"
+    },
+    {
+      "id": "075",
+      "status": "queued"
+    },
+    {
+      "id": "076",
+      "status": "queued"
+    },
+    {
+      "id": "077",
+      "status": "queued"
+    },
+    {
+      "id": "078",
+      "status": "queued"
+    },
+    {
+      "id": "079",
+      "status": "queued"
+    },
+    {
+      "id": "080",
+      "status": "queued"
+    },
+    {
+      "id": "081",
+      "status": "queued"
+    },
+    {
+      "id": "082",
+      "status": "queued"
+    },
+    {
+      "id": "083",
+      "status": "queued"
+    },
+    {
+      "id": "084",
+      "status": "queued"
+    },
+    {
+      "id": "085",
+      "status": "queued"
+    },
+    {
+      "id": "086",
+      "status": "queued"
+    },
+    {
+      "id": "087",
+      "status": "queued"
+    },
+    {
+      "id": "088",
+      "status": "queued"
+    },
+    {
+      "id": "089",
+      "status": "queued"
+    },
+    {
+      "id": "090",
+      "status": "queued"
+    },
+    {
+      "id": "091",
+      "status": "queued"
+    },
+    {
+      "id": "092",
+      "status": "queued"
+    },
+    {
+      "id": "093",
+      "status": "queued"
+    },
+    {
+      "id": "094",
+      "status": "queued"
+    },
+    {
+      "id": "095",
+      "status": "queued"
+    },
+    {
+      "id": "096",
+      "status": "queued"
+    },
+    {
+      "id": "097",
+      "status": "queued"
+    },
+    {
+      "id": "098",
+      "status": "queued"
+    },
+    {
+      "id": "099",
+      "status": "queued"
+    },
+    {
+      "id": "100",
+      "status": "queued"
+    }
+  ],
+  "snapshot_commit": "05e95237c571731534faaee9d4aa29865b5962b1",
+  "index_paths": [
+    {
+      "path": "data/applied.json",
+      "blob_sha": "639506f8edbb039b23bcda97ccbaede8b6160ceb"
+    },
+    {
+      "path": "data/inverse.json",
+      "blob_sha": "52141a8d23aba34c2bc4eaf5d9f28553a01a0d5b"
+    },
+    {
+      "path": "data/operators.json",
+      "blob_sha": "109676d41587c05fb8e252245ecbda0e556e843e"
+    },
+    {
+      "path": "data/spectral.json",
+      "blob_sha": "cb49f9c342d60ee795e747282a5488e7c9f91227"
+    }
+  ],
+  "root_index_blob_sha": "55a5502fdfddceea9b3d59055c102f2928093eba",
+  "heading_syntax": [
+    "# <id>. <title>",
+    "# <id> — <title>"
+  ]
+}

@@ -1,8 +1,12 @@
 # Research Queue
 
-Source: the repository problem index at `README.md` on initialization commit `12c58a0b7bd736f07bbab57366b5d35574228f13`.
+Source: initialized from the repository index at commit `12c58a0b7bd736f07bbab57366b5d35574228f13`; synchronized against all current problem-file headings, `README.md`, and every current `data/*.json` index at commit `05e95237c571731534faaee9d4aa29865b5962b1` on 2026-09-08.
 
-The source index records every listed problem as open as of 2026-09-08. `Programme status` tracks this autonomous programme: `research` is the current problem and `queued` has not yet been started.
+The current snapshot contains 100 problem files. This is an observed count, never a cap or a discovery rule. Actual problem files determine membership; indexes provide cross-checks. Preserve canonical identifiers as strings, including gaps and identifiers of any length.
+
+Existing status strings are preserved: legacy `research` means active and legacy `queued` means unstarted. Newly discovered problems receive `unstarted`. New entries join future campaign selection without interrupting the current campaign. Selection considers all unstarted/queued entries before routinely revisiting exhausted deferred entries; use recorded discovery time and waiting history to avoid starvation, with mathematical promise as a secondary consideration.
+
+Latest synchronization: no new, missing, renamed, duplicate, or inconsistent entries. All existing research history is preserved. `scripts/catalogue.py` still assumes a fixed initial range; it is read-only and must not cap this programme's discovery.
 
 | ID | Problem | Literature status | Programme status |
 | --- | --- | --- | --- |
@@ -106,3 +110,11 @@ The source index records every listed problem as open as of 2026-09-08. `Program
 | 098 | [The planar self-avoiding-walk displacement exponent](../../problems/098-planar-self-avoiding-walk-exponent.md) | open | queued |
 | 099 | [The dimension-free Kannan–Lovász–Simonovits inequality](../../problems/099-kls-poincare.md) | open | queued |
 | 100 | [A strongly polynomial pivot rule for the simplex method](../../problems/100-strongly-polynomial-simplex.md) | open | queued |
+
+## Campaign metadata
+
+| ID | Campaign | Campaigns completed | Last researched | Strongest programme result |
+| --- | --- | --- | --- | --- |
+| 001 | 1, continuing | 0 | 2026-09-08 | Known full k=1,2 chain and Dirichlet nodal band confirmed; exact cylinder reduction and scalar-method obstructions. Quantitative third-mode stability is the next bottleneck. |
+
+Discovery dates for legacy entries have not been reconstructed. Record real discovery dates for future additions. A missing or ambiguously renumbered file must retain its old entry and research directory with a `queue_integrity_issue`; never guess or delete history.

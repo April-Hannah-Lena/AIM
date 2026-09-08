@@ -1,0 +1,17 @@
+{
+  "arithmetic": "integers and exact rational fractions only",
+  "baseline_half_riesz_deficit_upper_bound": 1028,
+  "block_variance": "89478400",
+  "certified_half_riesz_excess_lower_bound": "20948/75",
+  "counting_excess": "2041/4",
+  "counting_test_energy": "1050627/4",
+  "half_riesz_gain_lower_bound": "98048/75",
+  "half_riesz_test_energy": 263168,
+  "infinite_proof": "see companion note: Jensen, exact gap quadratics, and variance identity",
+  "m": 1024,
+  "n": 262144,
+  "plateau": "525313/2",
+  "scope": "abstract sequence; no Euclidean-domain realization asserted",
+  "status": "PASS",
+  "yang_at_plateau_per_active_term": "-530427/4"
+}

@@ -1,0 +1,224 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm,geometry,hyperref}
+\geometry{margin=1in}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\newcommand{\Tr}{\operatorname{Tr}}
+\title{AIM 001: cylinder reduction and the missing geometric estimate}
+\author{Autonomous research programme: senior run 1}
+\date{8 September 2026}
+\begin{document}
+\maketitle
+
+\paragraph{Status.} This is a cumulative starting note, not a candidate solution.
+The exact target is both P\'olya inequalities for every bounded connected
+Lipschitz domain in every dimension $d\geq2$, at every eigenvalue index.
+The results below are exact reductions and method obstructions; no new
+inequality for arbitrary actual domains is claimed, and novelty is not claimed.
+Source-scope checks and detailed countermodel proofs are separate accompanying
+artifacts. Earlier off-repository research has not been imported as evidence.
+
+\section{Normalization and endpoints}
+Let $C_d=\omega_d/(2\pi)^d$ and $V=|\Omega|$. Dirichlet eigenvalues are
+$\lambda_1,\lambda_2,\ldots$, while Neumann eigenvalues are
+$\mu_0=0,\mu_1,\ldots$, always with multiplicity. Put
+\[
+ N_D(E)=\#\{j\geq1:\lambda_j\leq E\},\qquad
+ N_N(E)=\#\{j\geq0:\mu_j<E\}.
+\]
+The target is equivalently $N_D(E)\leq C_dVE^{d/2}\leq N_N(E)$ for all
+$E\geq0$. For example, writing $m=N_N(E)$ for $E>0$, one has
+$\mu_m\geq E$ and thus $C_dVE^{d/2}\leq m$ from the eigenvalue formulation.
+Conversely a failure $\mu_k>(k/(C_dV))^{2/d}$ allows an energy strictly
+between these values, contradicting the counting formulation.
+The Dirichlet equivalence follows by evaluating at eigenvalues, including
+the last index in each multiplicity block. At $E=0$ both inequalities are
+trivial. Strict/inclusive counting must not be interchanged at a fixed energy.
+
+\section{Actual-domain cylinder bridge}
+For $E\geq0$ set $R_{1/2}^D(E)=\sum_j(E-\lambda_j)_+^{1/2}$ and define
+$R_{1/2}^N$ using all $\mu_j$, including $\mu_0$. All these sums are finite
+for a bounded Lipschitz domain. Write $I_L=(0,L)$.
+
+\begin{proposition}
+For a fixed bounded connected Lipschitz $\Omega\subset\mathbb R^d$, the
+Dirichlet P\'olya inequality on $\Omega\times I_L$ for every $L>0$ is
+equivalent to
+\[
+ R_{1/2}^D(E)\leq\pi C_{d+1}VE^{(d+1)/2}\quad(E\geq0).
+\]
+The corresponding Neumann assertion is equivalent to the reversed
+half-Riesz inequality, with the zero mode included.
+\end{proposition}
+
+\begin{proof}
+The Dirichlet and Neumann quadratic forms on the product give the tensor
+sum spectra $\lambda_j+\pi^2n^2/L^2$, $n\geq1$, and
+$\mu_j+\pi^2n^2/L^2$, $n\geq0$, respectively. This follows by taking the
+tensor products of the complete form eigenbases; smooth boundary or $H^2$
+regularity is not required. Products of bounded Lipschitz domains with an
+interval remain bounded connected Lipschitz domains. Consequently
+\[
+ N_{D,L}(E)=\sum_{\lambda_j\leq E}
+ \left\lfloor\frac L\pi\sqrt{E-\lambda_j}\right\rfloor,
+\quad
+ N_{N,L}(E)=\sum_{\mu_j<E}
+ \left\lceil\frac L\pi\sqrt{E-\mu_j}\right\rceil.
+\]
+The Neumann formula counts nonnegative integers strictly less than a
+positive real number, which explains both the ceiling and the restriction.
+Thus $0\leq LR_{1/2}^D/\pi-N_{D,L}\leq N_D(E)$ and
+$0\leq N_{N,L}-LR_{1/2}^N/\pi\leq N_N(E)$.
+The signs imply sufficiency. For necessity divide by $L$ and let $L$ tend
+to infinity at each fixed $E$: the finite rounding bounds prove the limit.
+There is no exchange with an unbounded energy or spectral-index limit.
+Finally the volume of the cylinder is $LV$ and
+\[
+ \pi C_{d+1}=\frac{\Gamma(3/2)}{(4\pi)^{d/2}\Gamma((d+3)/2)},
+\]
+the sharp half-Riesz coefficient.
+\end{proof}
+
+\paragraph{Explicit finite transfer.}
+If a Dirichlet excess $\delta>0$ at energy $E$ is witnessed using only
+$m$ base eigenvalues, that is
+\[
+ \sum_{j=1}^m(E-\lambda_j)_+^{1/2}
+ >\pi C_{d+1}VE^{(d+1)/2}+\delta,
+\]
+then every $L>\pi m/\delta$ yields a cylinder counterexample by
+$\lfloor x\rfloor\geq x-1$. A Neumann deficit $\delta>0$ transfers for
+$L>\pi N_N(E)/\delta$, using $\lceil x\rceil\leq x+1$.
+For a computational Dirichlet certificate, certified upper bounds on the
+chosen eigenvalues give lower bounds on the sum; an upper bound on volume
+is safe. For a Neumann certificate, an upper bound on the entire half-Riesz
+sum and a certified tail cutoff are necessary; lower bounds on finitely
+many eigenvalues alone do not control omitted modes. Energy powers, square
+roots, and constants must have exact or outward-rounded enclosures.
+No such actual-domain violation or certificate has been obtained.
+
+In a planar base the coefficient is $V/(6\pi)$. The next concrete
+intermediate target is therefore $R_{1/2}^D(E)\leq VE^{3/2}/(6\pi)$,
+or its Neumann reverse. It concerns actual domains and would settle a
+nontrivial subclass of the three-dimensional target. It would not settle
+arbitrary three-dimensional domains or the full repository problem.
+
+\section{A geometric identity and an impossible stronger inequality}
+Let $U:L^2(\Omega)\to L^2(\mathbb R^d)$ be zero extension and use the
+unitary Fourier transform $\mathcal F$. For $E>0$ define
+\[
+ A_E=1_{\{|\xi|^2\leq E\}}\mathcal F U,\qquad T_E=A_E^*A_E.
+\]
+The integral kernel of $A_E$ has constant squared modulus $(2\pi)^{-d}$,
+so it is Hilbert--Schmidt, $0\leq T_E\leq I$, and
+$\Tr T_E=C_dVE^{d/2}$. Let $P_E$ be the finite-rank Dirichlet projection
+onto eigenvalues at most $E$. Trace cyclicity for trace-class operators
+gives the exact identity
+\[
+ C_dVE^{d/2}-N_D(E)
+ =\Tr((I-P_E)T_E)-\Tr(P_E(I-T_E)).                 \tag{1}
+\]
+Thus the desired counting inequality compares the Fourier mass inside the
+ball contributed by high Dirichlet modes against the Fourier mass outside
+the ball contributed by low modes. Both traces are well defined and
+nonnegative. Parseval and Tonelli identify the first trace with the
+convergent sum of high-mode masses inside the ball.
+
+\begin{lemma}
+If $P_E\ne0$, then $T_E\geq P_E$ is impossible.
+\end{lemma}
+\begin{proof}
+For nonzero $f\in L^2(\Omega)$, zero extension is integrable and compactly
+supported. Its Fourier transform is real analytic. If
+$\langle f,(I-T_E)f\rangle=0$, that transform vanishes almost everywhere
+outside the ball; continuity and analytic uniqueness imply it vanishes
+identically, a contradiction. Hence this quadratic form is strictly
+positive on every nonzero $f$. In particular it is positive for a nonzero
+$f$ in the range of $P_E$, contradicting $T_E\geq P_E$.
+\end{proof}
+
+Equation (1) is a reformulation, not a bound or a claimed new result about
+domains. It shows why a direct operator domination argument fails and
+identifies the compensation that a successful geometric proof must control.
+Zero-extended Dirichlet eigenfunctions belong to $H^1(\mathbb R^d)$, so
+their Fourier second moments equal their energies; this weighted control
+does not by itself give the unweighted trace comparison (1). No unproved
+boundary-normal regularity or interchange of infinite energy sums is used.
+
+\section{Adversarial results and remaining scope}
+The accompanying exact notes establish the following logical obstructions.
+\begin{itemize}
+\item The sequence $a_j=j+\lceil\sqrt j\rceil$ with entries $90$ through
+$100$ lowered to $399/4$ violates its planar pointwise Weyl bound, despite
+sharp heat and sharp Riesz bounds of every order at least $1/128$, and the counting asymptotic
+$N(E)=E-\sqrt E+O(1)$. The accompanying referee note quantifies how far
+below order one the same example remains a valid obstruction.
+\item A different mean-flattened block of $j+1$ preserves every sharp
+Riesz bound of order at least one and the full planar Yang inequality,
+but violates the sharp half-Riesz bound by an explicitly certified margin.
+Its proof and rational verifier are in the spectral-attack artifacts.
+An independently audited asymptotic extension starts from square eigenvalues
+and preserves the exact eventual square spectrum as well as Yang and these
+convex trace bounds. It uses the stated external positive-order two-term
+Riesz theorem and supplies no effective block threshold.
+\end{itemize}
+These are abstract sequences, not Laplacian spectra. They exclude
+inferences based only on the stated scalar inequalities and asymptotics.
+They do not exclude a proof using additional geometric information, and
+they are not counterexamples to P\'olya. Bounds for one fixed positive
+Riesz order cannot simply be differentiated or sent to order zero. If a
+single spectrum satisfied all positive orders down to zero, the fixed
+energy limit would recover counting; the cutoff-dependent countermodels
+do not contradict this fact.
+
+\paragraph{Source baseline.}
+The source audit records the precise scope of balls, planar annuli,
+convex-domain positive-order improvements, and epsilon-loss high-energy
+bounds. In particular, the explicit threshold in
+\href{https://arxiv.org/abs/2507.04307}{Jiang--Lin} depends on epsilon;
+it gives no exact all-index reduction by setting epsilon to zero.
+\href{https://arxiv.org/abs/2407.11808}{Frank--Larson's two-term Riesz
+asymptotics} apply to positive order and are not automatically counting
+asymptotics. The standard product connection may also be compared with
+\href{https://arxiv.org/abs/2402.12093}{He--Wang's thin-products work}.
+
+\section{Concurrent Sol audit and the updated first bottleneck}
+Sol attempt 1 committed during this run and is preserved unchanged. Its
+full $k=1,2$ chain follows from the four established shape inequalities;
+the source audit checks Bucur--Henrot's indexing and Lipschitz scope.
+Its criterion $k\leq r\beta_d$, where
+$\beta_d=j_{d/2-1,1}^d\omega_d^2/(2\pi)^d$ and $r$ is the actual nodal
+count, is valid. The universal band $2\leq k\leq\lfloor2\beta_d\rfloor$
+also follows directly from the second-eigenvalue bound and
+$\lambda_k\geq\lambda_2$, with no nodal-boundary regularity assumption.
+The independent polynomial verifier confirms the unit-disk trial quotients
+$6,16,16$ and the strict failure of the stronger equal-three-ball proposal.
+
+The generic stability route has an existing external theorem:
+\href{https://arxiv.org/html/2506.05870v3}{de Villeroch\'e, Theorem 1.1}.
+Normalize area to $\pi$, set $A=2j_{0,1}^2<12$ and
+$B=\lambda_3(\Theta)=2\lambda_2(D)>12$, with $\Theta$ two equal disks.
+That theorem implies that any $\lambda_3(\Omega)\leq12$ must have
+\[
+ \lambda_2(\Omega)-A\geq
+ \left(\frac{B-12}{81C_2\,12^{17/18}}\right)^{18}=:\eta>0.
+\]
+The separate stability addendum proves this consequence and records its
+external dependency. No usable numerical $C_2$ was obtained; no comparison
+of $\eta$ with the whole width $12-A$ is asserted. The stronger
+positive-part exponent in that paper has the wrong direction for this
+lower-bound task.
+
+\paragraph{Campaign decision.}
+Continue problem 001 in research phase, now incorporating Sol attempt 1.
+Prioritize quantitative lower-side planar third-mode stability, followed
+by the Neumann third mode; retain half-Riesz as a secondary route.
+There is no complete proof
+candidate and no publishable actual-domain partial result established by
+this run. Subsequent work must quantify the surviving third-mode interval
+or supply a new geometric premise for the
+half-Riesz inequality or (1), or a rigorous actual-domain violation; more
+scalar desmoothing or larger unvalidated numerical tables do not address
+the identified gap. The full Dirichlet and Neumann target remains open.
+\end{document}
