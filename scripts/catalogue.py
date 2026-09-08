@@ -16,7 +16,12 @@ GROUPS = (
     ("operators", "Operators, matrices and computation", 26, 50),
     ("inverse", "Inverse problems, control and dynamics", 51, 75),
     ("applied", "PDEs, materials, probability and optimization", 76, 100),
+    ("spectral2", "Waves, quantum systems and spectral geometry", 101, 125),
+    ("inverse2", "Imaging, control, geometry and dynamics", 126, 150),
+    ("continuum2", "Fluids, kinetic theory and continuum mechanics", 151, 175),
+    ("stochastic2", "Stochastic growth, populations and statistical mechanics", 176, 200),
 )
+TOTAL = GROUPS[-1][3]
 REQUIRED = {"id", "title", "area", "file", "status", "last_checked"}
 SECTIONS = ("Problem statement", "Applied significance", "References", "Status review")
 
@@ -59,10 +64,11 @@ def load_entries():
 
 def render_readme(entries):
     lines = [
-        "# AIM — 100 Open Applied Problems", "",
-        "A sourced collection of **100 precise mathematical research problems** in spectral theory, operator theory, applied mathematics, and related fields. Each problem has a self-contained statement, an applied motivation, brief references, and a dated literature-status review. No solutions are attempted.", "",
+        f"# AIM — {TOTAL} Open Applied Problems", "",
+        f"A sourced collection of **{TOTAL} precise mathematical research problems** in spectral theory, operator theory, applied mathematics, and related fields. Each problem has a self-contained statement, an applied motivation, brief references, and a dated literature-status review. The problem pages do not attempt solutions.", "",
+        "**Expanded collection:** Problems **101–200** add 100 questions drawn from books, surveys, and specific research papers. They broaden the existing subjects into wave propagation, quantum systems, control, continuum mechanics, spatial ecology, stochastic transport, and statistical mechanics. The additional 100 contain no numerical linear algebra (NLA) problems. The original 001–100 are retained.", "",
         "**Status checked: 8 September 2026.** The entries are open in the cited literature, and targeted searches did not locate later resolutions of their exact statements. This is a documented literature check, not a guarantee that no proof exists. Restrictions and relevant partial results are explained on each page.", "",
-        "Read the [research methodology](research/METHODOLOGY.md) and [contribution guide](CONTRIBUTING.md). The [exclusion records](research/README.md) explain why some familiar older open problems are absent. Machine-readable index metadata lives in [data/](data/).", "",
+        "Read the [research methodology](research/METHODOLOGY.md) and [contribution guide](CONTRIBUTING.md). The [source maps and exclusion records](research/README.md) identify the books and paper sections used, and explain why some older open problems are absent. Machine-readable index metadata lives in [data/](data/).", "",
         "The collection includes foundational questions as well as directly applied ones, with a wide range of difficulty. Related entries may have mathematical implications for one another; the count does not assert logical independence.", "",
         "| Subject group | Problems |", "| --- | ---: |",
     ]
@@ -84,9 +90,9 @@ def render_readme(entries):
 def validate(entries):
     errors = []
     ids = [row["id"] for row in entries]
-    expected = [f"{i:03d}" for i in range(1, 101)]
+    expected = [f"{i:03d}" for i in range(1, TOTAL + 1)]
     if ids != expected:
-        errors.append("Catalogue must contain each ID 001–100 exactly once")
+        errors.append(f"Catalogue must contain each ID 001–{TOTAL:03d} exactly once")
     for key in ("title", "file"):
         values = [row[key] for row in entries]
         if len(set(values)) != len(values):
@@ -151,9 +157,9 @@ def main():
         raise SystemExit(1)
     if args.write:
         (ROOT / "README.md").write_text(readme)
-        print("Wrote README.md with 100 indexed problems.")
+        print(f"Wrote README.md with {TOTAL} indexed problems.")
     else:
-        print("Validated 100 unique problems, metadata, required sections, math delimiters, local links, and README freshness.")
+        print(f"Validated {TOTAL} unique problems, metadata, required sections, math delimiters, local links, and README freshness.")
 
 
 if __name__ == "__main__":

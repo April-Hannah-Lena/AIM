@@ -1,10 +1,12 @@
-# AIM — 100 Open Applied Problems
+# AIM — 200 Open Applied Problems
 
-A sourced collection of **100 precise mathematical research problems** in spectral theory, operator theory, applied mathematics, and related fields. Each problem has a self-contained statement, an applied motivation, brief references, and a dated literature-status review. No solutions are attempted.
+A sourced collection of **200 precise mathematical research problems** in spectral theory, operator theory, applied mathematics, and related fields. Each problem has a self-contained statement, an applied motivation, brief references, and a dated literature-status review. The problem pages do not attempt solutions.
+
+**Expanded collection:** Problems **101–200** add 100 questions drawn from books, surveys, and specific research papers. They broaden the existing subjects into wave propagation, quantum systems, control, continuum mechanics, spatial ecology, stochastic transport, and statistical mechanics. The additional 100 contain no numerical linear algebra (NLA) problems. The original 001–100 are retained.
 
 **Status checked: 8 September 2026.** The entries are open in the cited literature, and targeted searches did not locate later resolutions of their exact statements. This is a documented literature check, not a guarantee that no proof exists. Restrictions and relevant partial results are explained on each page.
 
-Read the [research methodology](research/METHODOLOGY.md) and [contribution guide](CONTRIBUTING.md). The [exclusion records](research/README.md) explain why some familiar older open problems are absent. Machine-readable index metadata lives in [data/](data/).
+Read the [research methodology](research/METHODOLOGY.md) and [contribution guide](CONTRIBUTING.md). The [source maps and exclusion records](research/README.md) identify the books and paper sections used, and explain why some older open problems are absent. Machine-readable index metadata lives in [data/](data/).
 
 The collection includes foundational questions as well as directly applied ones, with a wide range of difficulty. Related entries may have mathematical implications for one another; the count does not assert logical independence.
 
@@ -14,6 +16,10 @@ The collection includes foundational questions as well as directly applied ones,
 | [Operators, matrices and computation](#operators-matrices-and-computation) | 026–050 |
 | [Inverse problems, control and dynamics](#inverse-problems-control-and-dynamics) | 051–075 |
 | [PDEs, materials, probability and optimization](#pdes-materials-probability-and-optimization) | 076–100 |
+| [Waves, quantum systems and spectral geometry](#waves-quantum-systems-and-spectral-geometry) | 101–125 |
+| [Imaging, control, geometry and dynamics](#imaging-control-geometry-and-dynamics) | 126–150 |
+| [Fluids, kinetic theory and continuum mechanics](#fluids-kinetic-theory-and-continuum-mechanics) | 151–175 |
+| [Stochastic growth, populations and statistical mechanics](#stochastic-growth-populations-and-statistical-mechanics) | 176–200 |
 
 ## Spectral theory and spectral geometry
 
@@ -134,6 +140,126 @@ The collection includes foundational questions as well as directly applied ones,
 | 098 | [The planar self-avoiding-walk displacement exponent](problems/098-planar-self-avoiding-walk-exponent.md) | Polymer models |
 | 099 | [The dimension-free Kannan–Lovász–Simonovits inequality](problems/099-kls-poincare.md) | High-dimensional probability and sampling |
 | 100 | [A strongly polynomial pivot rule for the simplex method](problems/100-strongly-polynomial-simplex.md) | Numerical optimization |
+
+## Waves, quantum systems and spectral geometry
+
+| ID | Problem | Area |
+| --- | --- | --- |
+| 101 | [Absolute continuity for smooth periodic scalar elliptic operators](problems/101-periodic-elliptic-absolute-continuity.md) | Periodic media and spectral theory |
+| 102 | [Irreducibility of complex Fermi varieties](problems/102-complex-fermi-irreducibility.md) | Periodic quantum Hamiltonians |
+| 103 | [Sunada’s no-gap conjecture for abelian covers](problems/103-sunada-no-gap-cover.md) | Wave spectra on periodic curved spaces |
+| 104 | [Simon’s multidimensional weighted square-integrability conjecture](problems/104-simon-weighted-l2.md) | Quantum scattering and transport |
+| 105 | [A universal bound on excess molecular charge](problems/105-maximal-molecular-ionization.md) | Many-electron quantum mechanics |
+| 106 | [Uniform boundedness of the first atomic ionization energy](problems/106-uniform-first-ionization.md) | Atomic spectroscopy |
+| 107 | [Convexity of atomic ground-state energy in electron number](problems/107-atomic-energy-convexity.md) | Quantum chemistry and density functional theory |
+| 108 | [Concentration of nuclear charge minimizes the Dirac gap level](problems/108-dirac-charge-concentration.md) | Relativistic quantum chemistry |
+| 109 | [Faber–Krahn inequality for graphene quantum dots](problems/109-quantum-dot-dirac-faber-krahn.md) | Dirac spectral geometry |
+| 110 | [The disk maximizes the first magnetic Neumann eigenvalue](problems/110-magnetic-neumann-disk.md) | Magnetic spectral optimization |
+| 111 | [Strict angle monotonicity of magnetic wedge ground energy](problems/111-magnetic-wedge-angle-monotonicity.md) | Corner superconductivity |
+| 112 | [Baur’s high-field disk conjecture for all higher eigenvalues](problems/112-baur-high-field-disk.md) | Magnetic confinement and shape design |
+| 113 | [Is the optimal magnetic rectangle always a square?](problems/113-optimal-magnetic-rectangle.md) | Magnetic quantum wells |
+| 114 | [A sharp universal inequality for clamped-plate eigenvalues](problems/114-clamped-plate-universal-bound.md) | Elastic vibration |
+| 115 | [Uniqueness of the critical catenoid](problems/115-critical-catenoid-uniqueness.md) | Capillary surfaces and spectral geometry |
+| 116 | [The first Steklov eigenvalue of a free-boundary minimal hypersurface](problems/116-free-boundary-first-steklov.md) | Capillary geometry and boundary vibrations |
+| 117 | [Linear growth of interior Steklov nodal volume](problems/117-steklov-bulk-nodal-volume.md) | Boundary-driven wave patterns |
+| 118 | [Unbounded first Steklov multiplicity with fixed boundary count](problems/118-steklov-fixed-boundary-multiplicity.md) | Boundary-mode degeneracy |
+| 119 | [Arbitrarily large Steklov frequency with a prescribed embedded boundary](problems/119-fixed-embedded-boundary-steklov.md) | Geometric design of boundary-loaded media |
+| 120 | [Anderson localization for the cosine skew-shift model at every coupling](problems/120-skew-shift-localization.md) | Deterministic quantum disorder |
+| 121 | [A universal central limit law for quantum-graph nodal surplus](problems/121-quantum-graph-nodal-clt.md) | Wave networks and quantum chaos |
+| 122 | [Jakobson–Naud’s essential spectral-gap conjecture](problems/122-jakobson-naud-essential-gap.md) | Open chaotic scattering |
+| 123 | [Full-order resonance growth for every nonzero real compact potential](problems/123-full-order-potential-resonances.md) | Wave scattering by a localized medium |
+| 124 | [Boundary contact of the second nodal set in convex domains](problems/124-convex-higher-dimensional-payne.md) | Vibration interfaces and geometry |
+| 125 | [Subpolynomial compact-set peaks of Hecke–Maass waves](problems/125-sarnak-compact-supnorm.md) | Arithmetic quantum chaos |
+
+## Imaging, control, geometry and dynamics
+
+| ID | Problem | Area |
+| --- | --- | --- |
+| 126 | [Local scalar geodesic tomography on smooth surfaces](problems/126-local-ray-injectivity-surfaces.md) | Geometric inverse problems / local tomography |
+| 127 | [Lens rigidity for nontrapping surfaces with conjugate points](problems/127-nontrapping-surface-lens-rigidity.md) | Geometric inverse problems / travel-time imaging |
+| 128 | [Minimal filling volume of a simple manifold](problems/128-simple-manifold-minimal-filling.md) | Geometric analysis / travel-time bounds |
+| 129 | [Exact minimum length of an opaque barrier for a square](problems/129-shortest-opaque-square-barrier.md) | Geometric optimization / sensing |
+| 130 | [Sard conjecture for smooth bracket-generating distributions](problems/130-sard-conjecture-endpoint-map.md) | Nonholonomic control / sub-Riemannian geometry |
+| 131 | [Continuous velocity of every sub-Riemannian length minimizer](problems/131-c1-subriemannian-minimizers.md) | Nonholonomic optimal control / regularity |
+| 132 | [Nonbranching of analytic equiregular sub-Riemannian geodesics](problems/132-equiregular-analytic-nonbranching.md) | Nonholonomic geometry / optimal transport |
+| 133 | [Pansu's isoperimetric conjecture in the Heisenberg group](problems/133-pansu-heisenberg-isoperimetry.md) | Sub-Riemannian geometric optimization |
+| 134 | [Euclidean isoperimetry in higher-dimensional Cartan–Hadamard manifolds](problems/134-cartan-hadamard-isoperimetry.md) | Geometric analysis / volume and boundary optimization |
+| 135 | [An SRB measure for the classical Hénon parameters](problems/135-classical-henon-srb-measure.md) | Dissipative dynamics / chaotic statistics |
+| 136 | [Saari's constant-inertia conjecture for planar gravitation](problems/136-saari-constant-inertia.md) | Celestial mechanics / rigid gravitational motions |
+| 137 | [Finiteness of planar central configurations for fixed masses](problems/137-finite-planar-central-configurations.md) | Celestial mechanics / relative equilibria |
+| 138 | [Almost-everywhere global existence for Newtonian gravitation](problems/138-almost-sure-global-newtonian-motion.md) | Celestial mechanics / singular dynamics |
+| 139 | [Exactly n or infinitely many periodic orbits on a convex energy surface](problems/139-convex-hamiltonian-n-or-infinity.md) | Hamiltonian mechanics / periodic motions |
+| 140 | [Irrational ellipticity when a convex energy surface has finitely many orbits](problems/140-finite-convex-orbits-irrational-ellipticity.md) | Hamiltonian mechanics / orbital stability |
+| 141 | [Exact optimal control in the scalar Witsenhausen benchmark](problems/141-witsenhausen-exact-optimum.md) | Decentralized stochastic control |
+| 142 | [Symmetric capacity of the binary multiplying two-way channel](problems/142-binary-multiplying-two-way-capacity.md) | Interactive communication / information theory |
+| 143 | [Capacity of the Gaussian relay channel with independent receiver noises](problems/143-gaussian-relay-capacity.md) | Network information theory / cooperative communication |
+| 144 | [Exact capacity of the binary deletion channel](problems/144-binary-deletion-channel-capacity.md) | Information theory / synchronization errors |
+| 145 | [Uniqueness of nonnegative heat controls at the minimum time](problems/145-unique-minimum-time-positive-heat-control.md) | Constrained PDE control / thermal processes |
+| 146 | [Sharp characterization of exactly trackable boundary heat fluxes](problems/146-sharp-heat-tracking-range.md) | PDE control / thermal flux tracking |
+| 147 | [Global null control of a heat equation with cubic growth](problems/147-global-cubic-heat-null-control.md) | Nonlinear PDE control / reaction-diffusion |
+| 148 | [Finite-jet determination of small-time local controllability](problems/148-finite-jet-small-time-control.md) | Nonlinear control / local system identification |
+| 149 | [An irrational polygon with nonergodic billiard flow](problems/149-irrational-nonergodic-polygon.md) | Billiard dynamics / transport and ergodicity |
+| 150 | [Positive metric entropy for billiards arbitrarily close to an ellipse](problems/150-positive-entropy-billiards-near-ellipse.md) | Hamiltonian billiards / chaotic ray transport |
+
+## Fluids, kinetic theory and continuum mechanics
+
+| ID | Problem | Area |
+| --- | --- | --- |
+| 151 | [Energy conservation at the exact Onsager Hölder exponent](problems/151-onsager-endpoint.md) | Fluid mechanics and turbulence |
+| 152 | [Surjectivity of the two-dimensional Euler endpoint map](problems/152-euler-endpoint-map.md) | Geometric hydrodynamics |
+| 153 | [A closed Lagrangian Euler trajectory on a surface of higher genus](problems/153-closed-euler-geodesic.md) | Geometric hydrodynamics |
+| 154 | [An inertial manifold for the two-dimensional Navier–Stokes flow](problems/154-navier-stokes-inertial-manifold.md) | Fluid mechanics and reduced models |
+| 155 | [The unregularized Coulomb mean-field limit](problems/155-uncut-coulomb-mean-field.md) | Kinetic theory and plasma physics |
+| 156 | [Tagged-particle thermalization with an interacting background](problems/156-lenard-balescu-thermalization.md) | Kinetic theory and plasma relaxation |
+| 157 | [The nonlinear Landau limit of weakly interacting particles](problems/157-newton-landau-weak-coupling.md) | Kinetic theory and collisional relaxation |
+| 158 | [The finite-Dirichlet Liouville problem for steady three-dimensional flow](problems/158-steady-navier-stokes-liouville.md) | Viscous fluid mechanics |
+| 159 | [Steady planar flow around an obstacle at arbitrary Reynolds number](problems/159-exterior-steady-flow.md) | Viscous flow around bodies |
+| 160 | [Smooth approximation of three-dimensional Sobolev homeomorphisms](problems/160-ball-evans-three-dimensions.md) | Nonlinear elasticity and approximation |
+| 161 | [Approximation preserving a compressible elastic energy](problems/161-elastic-energy-approximation.md) | Nonlinear elasticity and variational approximation |
+| 162 | [The full set of zero-energy cubic-to-tetragonal strains](problems/162-tetragonal-quasiconvex-hull.md) | Materials science and nonlinear elasticity |
+| 163 | [Concentration of eikonal entropy production on jump curves](problems/163-eikonal-entropy-concentration.md) | Variational interfaces and nonlinear PDE |
+| 164 | [The first dimension with a singular one-phase minimizing cone](problems/164-one-phase-critical-dimension.md) | Free boundaries and fluid interfaces |
+| 165 | [Multiplicity one at planar network singularities](problems/165-network-multiplicity-one.md) | Grain-boundary evolution |
+| 166 | [Uniqueness of the limiting shape at a network singularity](problems/166-network-tangent-uniqueness.md) | Grain-boundary evolution |
+| 167 | [Sharp enstrophy-limited heat transport in two dimensions](problems/167-two-dimensional-wall-transport.md) | Heat transfer and flow optimization |
+| 168 | [The maximal heat-transfer exponent at finite Prandtl number](problems/168-finite-prandtl-heat-scaling.md) | Buoyant convection and heat transfer |
+| 169 | [An extreme solitary wave for the bidirectional Whitham system](problems/169-extreme-bidirectional-solitary-wave.md) | Nonlinear water-wave models |
+| 170 | [Uniqueness of the Brownian coagulation similarity profile](problems/170-brownian-coagulation-profile.md) | Aerosol kinetics and aggregation |
+| 171 | [A uniform limit-cycle bound for quadratic planar dynamics](problems/171-quadratic-hilbert-sixteen.md) | Nonlinear oscillations and dynamical systems |
+| 172 | [A stationary isotropic gas of freely moving non-colliding disks](problems/172-stationary-noncolliding-billiards.md) | Kinetic geometry and hard-particle systems |
+| 173 | [Anomalous viscous dissipation with fixed large-scale forcing](problems/173-large-scale-forced-dissipation.md) | Turbulence and energy transfer |
+| 174 | [The Euler vortex-filament limit for a general moving curve](problems/174-vortex-filament-binormal.md) | Vortex dynamics and fluid mechanics |
+| 175 | [Sustained double-exponential gradient growth on the Euler torus](problems/175-euler-sustained-double-exponential-growth.md) | Fluid mixing and creation of small scales |
+
+## Stochastic growth, populations and statistical mechanics
+
+| ID | Problem | Area |
+| --- | --- | --- |
+| 176 | [Strict convexity of the planar exponential first-passage shape](problems/176-strict-convexity-fpp.md) | Stochastic growth and random media |
+| 177 | [The two-thirds passage-time variance exponent](problems/177-fpp-kpz-variance.md) | Random interfaces and growth fluctuations |
+| 178 | [Absence of doubly infinite minimizing paths in planar first-passage percolation](problems/178-absence-fpp-bigeodesics.md) | Optimal transport through random media |
+| 179 | [Exclusion of coexistence for unequal Richardson growth rates](problems/179-unequal-richardson-competition.md) | Competing infections and stochastic growth |
+| 180 | [Monotonicity of transport speed on Galton–Watson trees](problems/180-galton-watson-speed-monotonicity.md) | Transport on random branching networks |
+| 181 | [Connectivity of the three-dimensional minimal spanning forest](problems/181-three-dimensional-minimal-spanning-forest.md) | Disordered network optimization |
+| 182 | [Does supercritical percolation preserve transience?](problems/182-percolation-preserves-transience.md) | Diffusion in diluted networks |
+| 183 | [A nonuniqueness phase on every nonamenable transitive graph](problems/183-nonamenable-nonuniqueness-phase.md) | Percolation and network resilience |
+| 184 | [A deterministic nontrivial growth exponent for planar DLA](problems/184-dla-growth-exponent.md) | Aggregation and fractal growth |
+| 185 | [Does directional transience imply ballistic transport in an iid medium?](problems/185-rwre-transience-ballisticity.md) | Diffusion and transport in random environments |
+| 186 | [The directional zero–one law in three-dimensional random media](problems/186-rwre-directional-zero-one.md) | Random transport and ergodicity |
+| 187 | [The density conjecture for activated random walk on the square lattice](problems/187-activated-random-walk-density.md) | Self-organized criticality |
+| 188 | [Coexistence for every positive cyclic invasion rate](problems/188-cyclic-spatial-coexistence.md) | Spatial ecology and evolutionary dynamics |
+| 189 | [Coexistence in a three-strain colicin model](problems/189-three-strain-colicin-coexistence.md) | Spatial microbiology |
+| 190 | [Competitive exclusion with unequal death rates](problems/190-competing-contact-unequal-deaths.md) | Spatial epidemics and population competition |
+| 191 | [Liouville invariance under changing local moves on a Cayley network](problems/191-liouville-generating-set-invariance.md) | Random walks and network potential theory |
+| 192 | [Selection of the carbon-monoxide poisoning phase](problems/192-catalytic-carbon-monoxide-poisoning.md) | Catalytic surface reactions |
+| 193 | [Two stationary phases in a positive-rate nonlinear voter perturbation](problems/193-positive-rate-nonlinear-voter.md) | Spatial population dynamics and phase coexistence |
+| 194 | [A phase transition for continuum hard disks](problems/194-hard-disk-phase-transition.md) | Equilibrium fluids and phase transitions |
+| 195 | [A roughening transition in the three-dimensional Ising model](problems/195-ising-three-dimensional-roughening.md) | Interfaces and equilibrium statistical mechanics |
+| 196 | [Uniqueness of the planar spin-glass ground-state pair](problems/196-planar-spin-glass-ground-states.md) | Disordered magnetic materials |
+| 197 | [Pathwise uniqueness at the three-quarter Hölder threshold](problems/197-stochastic-heat-critical-uniqueness.md) | Stochastic reaction–diffusion equations |
+| 198 | [Strong disorder versus a shifted pinning threshold](problems/198-pinning-strong-disorder-critical-shift.md) | Disordered polymers and adsorption |
+| 199 | [Polynomial mixing of planar Ising dynamics with plus boundary](problems/199-ising-plus-boundary-polynomial-mixing.md) | Statistical mechanics and stochastic relaxation |
+| 200 | [A continuous strictly decreasing moment spectrum for Gaussian polymers](problems/200-directed-polymer-moment-spectrum.md) | Polymers in random media |
 
 ## Maintaining the collection
 

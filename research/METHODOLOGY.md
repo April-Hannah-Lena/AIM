@@ -1,6 +1,6 @@
 # Selection and status-check methodology
 
-The initial collection was researched on **8 September 2026**. Its 100 entries cover spectral theory, operator and matrix theory, inverse problems and control, and related applied analysis. Some are foundational rather than immediately implementable engineering tasks. Difficulty is not ranked; this is not a list of 100 tractable projects or 100 logically independent conjectures.
+The collection was researched on **8 September 2026**. The initial 100 entries cover spectral theory, operator and matrix theory, inverse problems and control, and related applied analysis. A second search added **100 entries (101–200)**, broadening these areas through monographs, lecture notes, surveys and specific papers, with no additional numerical linear algebra problems. The expansion includes continuum mechanics, kinetic theory, mathematical physics, stochastic growth, spatial ecology and statistical mechanics. Some questions are foundational rather than immediately implementable engineering tasks. Difficulty is not ranked; the count does not assert tractability or logical independence.
 
 ## What an entry means
 
@@ -23,4 +23,6 @@ No attempt was made to solve the included problems or to validate every proof in
 
 Bibliographies link to author manuscripts, arXiv records, publishers, institutional repositories, and expert problem lists. Mathematical statements are rewritten and scoped; books and publications are not reproduced wholesale. A reference may provide the original question, a later status assessment, a known partial result, or explanatory background; its role is described when it affects interpretation.
 
-The exclusion notes are research records, not part of the count of 100. They include both resolved problems and candidates omitted because the available claims required further adjudication; those reasons are kept distinct.
+The [source maps](README.md) record the main books and specific paper locators used for the additional 100. They distinguish published books from evolving author manuscripts and lecture notes. In particular, a recently updated manuscript is a source for its stated open questions, not an independent verification of every historical statement it contains.
+
+The exclusion notes are research records, not part of the count of 200. They include both resolved problems and candidates omitted because the available claims required further adjudication; those reasons are kept distinct.
