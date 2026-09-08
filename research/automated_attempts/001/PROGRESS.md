@@ -3,7 +3,7 @@
 - Source: [`problems/001-polya-eigenvalue-bound.md`](../../../problems/001-polya-eigenvalue-bound.md).
 - Status: active research (`research` in the legacy queue); campaign 1 continues.
 - Latest senior record: [2026-09-08_0834_astra.md](reviews/2026-09-08_0834_astra.md).
-- Sol attempts incorporated: [attempt 1](attempts/2026-09-08_0825_sol.md), [attempt 2](attempts/2026-09-08_1002_sol.md), and [attempt 3](attempts/2026-09-08_1104_sol.md).
+- Sol attempts incorporated: [attempt 1](attempts/2026-09-08_0825_sol.md), [attempt 2](attempts/2026-09-08_1002_sol.md), [attempt 3](attempts/2026-09-08_1104_sol.md), and [attempt 4](attempts/2026-09-08_1206_sol.md).
 
 ## Exact target
 
@@ -26,6 +26,7 @@ Equivalent endpoint convention: `N_D^le(E)<=C_d*|Omega|*E^(d/2)<=N_N^lt(E)`, whe
   \]
   while the radial trial `(1-r^2)(1-2r^2/5)` gives `a<295/51` and hence the interval requiring coverage has width `12-A>22/51>1/4`. Thus no valid constant in that all-`k` theorem can make the direct stability strip cover the full interval, even if every hidden proof constant is optimized. This exhausts global-constant extraction, not specialized lower-side stability. See [attempt 2](attempts/2026-09-08_1002_sol.md).
 - **New in Sol 3 — exact `mu_3` reduction and three-center holonomy obstruction:** a vector test field must satisfy the `3d` moment equations `int_Omega F u_l=0` for `l=0,1,2`; then summing componentwise min--max inequalities gives `mu_3 int|F|^2<=int|DF|_F^2`. The canonical three-site Voronoi extension `F=Q_i W_{A_i}` cannot be made globally `H^1` with nonsingular constant frames when the sites are noncollinear. Trace matching on face `ij` forces `Q_i=Q_jR_ij`; around the triangular adjacency cycle this gives `R_12R_23R_31=I`, impossible because its determinant is `-1`. The obstruction applies on a fixed domain when all three faces are active, but does not exclude tree-like induced adjacencies, hierarchical binary folds, variable or singular frames, or scalar constructions. See [attempt 3](attempts/2026-09-08_1104_sol.md) and the [standalone certificate](artifacts/2026-09-08_three_center_holonomy.md).
+- **New in Sol 4 — Cartesian-product closure:** each Pólya counting side implies its sharp Riesz inequality of every order `gamma>0` by layer-cake. Tensorizing two factors of dimensions `a,b` and using order `b/2` on the first proves the same counting side on their product, since `C_b L_(b/2,a)^cl=C_(a+b)`. Dirichlet inclusive and Neumann strict counts, including `mu_0`, were checked separately. Hence finite products of Euclidean balls and intervals satisfy the full chain at every index; ball products and circular cylinders give actual non-ball covered classes. A half-Riesz violation of size `delta` at energy `E` forces a base counting violation of size at least `delta/sqrt(E)` at some lower energy. See [attempt 4](attempts/2026-09-08_1206_sol.md) and the [product certificate](artifacts/2026-09-08_product_closure.md).
 - **Cylinder equivalence:** sharp half-Riesz on a fixed base is equivalent to Pólya for every interval cylinder over it, separately for Dirichlet and Neumann. Floor/ceiling formulas give a finite counterexample length `L>pi*N(E)/delta` from an actual half-Riesz violation; a Dirichlet witness with `m` terms needs `L>pi*m/delta`.
 - **Scalar-method countermodels:** exact modified sequences show that sharp heat, fixed-positive-order Riesz, Li--Yau, Yang, scalar asymptotics, and even an eventual actual-square tail do not by themselves imply counting or half-Riesz. These spectra are synthetic and are not domain counterexamples.
 - **Fourier compression identity:** the Dirichlet counting deficit equals `Tr((I-P_E)T_E)-Tr(P_E(I-T_E))`. Direct operator domination `T_E>=P_E` is impossible for nonzero `P_E`; no favorable sign of the trace difference is proved.
@@ -40,29 +41,30 @@ Detailed earlier proofs and audits remain in the Astra-linked artifacts: `2026-0
   \]
   A more natural target is `B-lambda_3<=K*sqrt(lambda_2-A)` on `A<=lambda_2<=12`, with `K<=(B-12)/sqrt(12-A)`. Neither estimate is established. The positive-part Theorem 1.2 has the wrong direction.
 - **Neumann `mu_3`:** the moment problem and radial quotient are now separated exactly. The direct noncollinear Voronoi fold is obstructed. A hierarchical two-stage fold has tree adjacency and avoids this obstruction, but still needs a `3d` center-selection theorem and an equal-third mass-displacement inequality.
-- A geometric half-Riesz estimate or spatial control of the two Fourier compensation traces could bypass scalar impossibility results.
+- Cartesian products are now closed. A genuinely non-product spatial control of the two Fourier compensation traces could still bypass scalar impossibility results.
 
 ## 3. COMPUTATIONAL EVIDENCE
 
-All computations used for programme results are exact arithmetic verifiers, not floating-point evidence for a domain-level solution. Sol 2's [verifier](artifacts/2026-09-08_verify_global_stability_obstruction.py) passes and records [JSON output](artifacts/2026-09-08_global_stability_obstruction.json). Sol 3 is analytic and required no numerical computation. Earlier exact verifiers for the scalar obstructions and disk audit also passed. External literature proofs were source-audited but not fully rerun.
+All computations used for programme results are exact arithmetic verifiers, not floating-point evidence for a domain-level solution. Sol 2's [verifier](artifacts/2026-09-08_verify_global_stability_obstruction.py) passes and records [JSON output](artifacts/2026-09-08_global_stability_obstruction.json). Sol 3 and Sol 4 are analytic and required no numerical computation. Earlier exact verifiers for the scalar obstructions and disk audit also passed. External literature proofs were source-audited but not fully rerun.
 
 ## 4. FAILED / EXHAUSTED ROUTES
 
 - Equal-`k`-ball minimization for `lambda_k`; replacing nodal count by `k`; and a uniform connected-domain improvement of the sharp `lambda_2` constant.
 - **New:** extracting the shared all-index `C_2` in de Villeroché Theorem 1.1 cannot close planar `k=3`; the theorem itself forces `C_2>sqrt(2)/4`, making its strip `<2^-18` versus required width `>22/51`.
 - **New:** the direct three-noncollinear-center Voronoi analogue of the Bucur--Henrot reflected field has odd-cycle holonomy and cannot be globally `H^1` with nonsingular constant frames. This is a method obstruction, not a failure of all three-center families.
+- **Narrowed in Sol 4:** an actual half-Riesz violation cannot occur over a Pólya-valid base; its positive Abel kernel already localizes a base counting violation. The cylinder route remains useful for propagation, while known factor cases now yield product closure.
 - Positive-part stability cannot be read backwards. Sharp heat/Riesz bounds cannot be differentiated into counting; Yang and scalar asymptotics do not repair this. Epsilon-dependent thresholds cannot be ignored.
 - Fourier-ball compression cannot dominate a nonzero Dirichlet spectral projection.
 
 ## 5. CURRENT BOTTLENECK
 
-The first untreated full-chain index is `k=3`. On the Neumann side, the symmetric noncollinear Voronoi fold is now eliminated; the surviving sharp-looking variant is a hierarchical tree fold, whose center-selection and equal-third mass displacement are both open. On the planar Dirichlet side, only a genuinely `k=3`-specific lower-side stability estimate can continue the two-ball route. Under Astra's allocation, geometric half-Riesz/Fourier compensation is the next run.
+The first untreated full-chain index is `k=3`. Sol 4 enlarged the solved actual-domain class by Cartesian products but does not touch arbitrary non-product domains. On the Neumann side, the surviving sharp-looking variant is a hierarchical tree fold, whose center-selection and equal-third mass displacement are both open. On the planar Dirichlet side, only a genuinely `k=3`-specific lower-side stability estimate can continue the two-ball route. Sol 5 should adversarially consolidate these results before the Astra checkpoint.
 
 ## 6. NEXT HIGH-VALUE ATTACKS
 
-1. **Sol 4:** attack geometric half-Riesz or spatial Fourier compensation for actual domains, respecting the cylinder certification requirements.
+1. **Sol 5:** adversarially consolidate the product theorem and both third-mode method obstructions; attack the strongest surviving actual-domain lemma and prepare the Astra checkpoint.
 2. On the next Neumann return, define a two-stage hierarchical fold, count its genuine free parameters, and test its `3d` moment map separately from equal-third mass displacement. Do not reuse the triangular Voronoi constant-frame ansatz.
 3. On returning to planar Dirichlet `lambda_3`, optimize the restricted one-sided coefficient above or establish the square-root estimate; do not continue global `C_2` bookkeeping.
-4. **Sol 5:** adversarially consolidate the strongest actual-domain lemma or rigorously certify a finite cylinder violation. Reassess at the Astra checkpoint after Sol 5 unless a proof candidate appears earlier.
+4. For Fourier compensation, require a genuinely non-product spatial estimate. Do not search for a half-Riesz violation over factors already known to satisfy Pólya.
 
-Campaign decision remains Astra's: continue problem 001. No queue additions or integrity issues were observed in Sol 2.
+Campaign decision remains Astra's: continue problem 001. No queue additions or integrity issues were observed in Sol 4.
