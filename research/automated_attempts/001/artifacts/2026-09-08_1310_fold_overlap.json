@@ -1,0 +1,22 @@
+{
+  "P_at_three_fourteenths": "-59643/38416",
+  "P_at_three_thirteenths": "30852/28561",
+  "all_checks_pass": true,
+  "checks": {
+    "coarse_bound_at_one_twentieth": true,
+    "coarse_margin": true,
+    "energy_integral_28_over_27": true,
+    "energy_joins_constant_extension": true,
+    "energy_polynomial": true,
+    "four_distinct_preimages": true,
+    "mass_integral_11_over_36": true,
+    "mass_polynomial": true,
+    "one_fifteenth_maps_to_three_fourteenths": true,
+    "positive_derivative_certificate": true,
+    "quartic_threshold_identity": true,
+    "radial_energy_derivative_negative_on_unit_interval": true,
+    "threshold_bracket": true
+  },
+  "scope": "Finite algebra only; analytic proof and unproved moment-existence conditions are in the companion note.",
+  "sharp_density_quotient_over_pi_at_one_fifteenth": "5159640/432179"
+}
