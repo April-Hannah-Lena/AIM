@@ -1,0 +1,16 @@
+{
+  "all_checks_pass": true,
+  "angular_trial_quotient": "16",
+  "bessel_fourth_rayleigh_sum": "1/32",
+  "checks": {
+    "angular_trial_quotient_is_16": true,
+    "bessel_fourth_rayleigh_sum_is_1_over_32": true,
+    "forty_over_81_sqrt2_is_below_one_half": true,
+    "radial_trial_quotient_is_295_over_51": true,
+    "twelve_to_17_over_18_exceeds_2_after_powering": true,
+    "width_lower_bound_22_over_51_exceeds_1_over_4": true
+  },
+  "radial_trial_quotient": "295/51",
+  "stability_strip_upper_bound": "(40/(81*sqrt(2)))^18 < 2^-18",
+  "width_rational_lower_bound": "22/51"
+}
