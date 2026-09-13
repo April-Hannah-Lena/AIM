@@ -1,6 +1,6 @@
 # Contributing
 
-This collection contains 200 distinct, precise research problems with an applied motivation and a traceable literature status. Corrections to an existing statement or its status are especially useful. The expansion (101–200) focuses on applied mathematics and the established subject areas, excluding numerical linear algebra; the original 001–100 remain available.
+This collection contains 300 distinct, precise research problems with an applied motivation and a traceable literature status. Corrections to an existing statement or its status are especially useful. The expansions (101–200 and 201–300) focus on applied mathematics and the established subject areas, excluding numerical linear algebra; the original 001–100 remain available.
 
 ## Adding or revising a problem
 

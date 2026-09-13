@@ -20,6 +20,10 @@ GROUPS = (
     ("inverse2", "Imaging, control, geometry and dynamics", 126, 150),
     ("continuum2", "Fluids, kinetic theory and continuum mechanics", 151, 175),
     ("stochastic2", "Stochastic growth, populations and statistical mechanics", 176, 200),
+    ("spectral3", "Many-body physics, quantum information and wave analysis", 201, 225),
+    ("continuum3", "Nonlinear evolution, materials and continuum models", 226, 250),
+    ("inverse3", "Applied geometry, control and information", 251, 275),
+    ("stochastic3", "Stochastic dynamics, reaction networks and applied optimization", 276, 300),
 )
 TOTAL = GROUPS[-1][3]
 REQUIRED = {"id", "title", "area", "file", "status", "last_checked"}
@@ -66,8 +70,8 @@ def render_readme(entries):
     lines = [
         f"# AIM — {TOTAL} Open Applied Problems", "",
         f"A sourced collection of **{TOTAL} precise mathematical research problems** in spectral theory, operator theory, applied mathematics, and related fields. Each problem has a self-contained statement, an applied motivation, brief references, and a dated literature-status review. The problem pages do not attempt solutions.", "",
-        "**Expanded collection:** Problems **101–200** add 100 questions drawn from books, surveys, and specific research papers. They broaden the existing subjects into wave propagation, quantum systems, control, continuum mechanics, spatial ecology, stochastic transport, and statistical mechanics. The additional 100 contain no numerical linear algebra (NLA) problems. The original 001–100 are retained.", "",
-        "**Status checked: 8 September 2026.** The entries are open in the cited literature, and targeted searches did not locate later resolutions of their exact statements. This is a documented literature check, not a guarantee that no proof exists. Restrictions and relevant partial results are explained on each page.", "",
+        "**Latest addition:** Problems **201–300** add 100 questions from applied mathematics books, surveys, and specific papers, including many-body physics, nonlinear evolution, materials, geometry, control, stochastic kinetics, and optimization. Problems 101–200 form the preceding expansion. Both additions exclude numerical linear algebra (NLA); entries 001–200 are retained.", "",
+        "**Literature checks:** Entries **201–300 were checked on 13 September 2026**; entries 001–200 retain their **8 September 2026** reviews. The entries are open in the cited literature, and targeted searches did not locate later resolutions of their exact statements as of their review dates. This is a documented literature check, not a guarantee that no proof exists. Restrictions and relevant partial results are explained on each page.", "",
         "Read the [research methodology](research/METHODOLOGY.md) and [contribution guide](CONTRIBUTING.md). The [source maps and exclusion records](research/README.md) identify the books and paper sections used, and explain why some older open problems are absent. Machine-readable index metadata lives in [data/](data/).", "",
         "The collection includes foundational questions as well as directly applied ones, with a wide range of difficulty. Related entries may have mathematical implications for one another; the count does not assert logical independence.", "",
         "| Subject group | Problems |", "| --- | ---: |",

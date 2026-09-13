@@ -6,7 +6,7 @@
 - [Inverse-problem and control candidates excluded or narrowed](excluded-inverse.md)
 - [Related applied-analysis candidates excluded or narrowed](excluded-applied.md)
 
-## Additional 100: sources and screening
+## Second 100: sources and screening, 8 September 2026
 
 | Entries | Source map | Exclusion record |
 | --- | --- | --- |
@@ -15,4 +15,13 @@
 | 151–175 | [Fluids, kinetic theory and continuum mechanics](sources-continuum2.md) | [Continuum exclusions](excluded-continuum2.md) |
 | 176–200 | [Stochastic models and statistical mechanics](sources-stochastic2.md) | [Stochastic exclusions](excluded-stochastic2.md) |
 
-These records document editorial decisions made during the 8 September 2026 literature review. They are outside the active count of 200 problems. A verified resolution, a restricted theorem, and an unresolved proof claim are different reasons for changing or excluding an entry. The expansion adds no numerical linear algebra problems.
+## Third 100: sources and screening, 13 September 2026
+
+| Entries | Source map | Exclusion record |
+| --- | --- | --- |
+| 201–225 | [Many-body physics, quantum information and wave analysis](sources-spectral3.md) | [Spectral exclusions](excluded-spectral3.md) |
+| 226–250 | [Nonlinear evolution, materials and continuum models](sources-continuum3.md) | [Continuum exclusions](excluded-continuum3.md) |
+| 251–275 | [Applied geometry, control and information](sources-inverse3.md) | [Geometry and control exclusions](excluded-inverse3.md) |
+| 276–300 | [Stochastic dynamics, reaction networks and applied optimization](sources-stochastic3.md) | [Stochastic and optimization exclusions](excluded-stochastic3.md) |
+
+These records document editorial decisions made during the respective literature reviews. They are outside the active count of 300 problems. A verified resolution, a restricted theorem, and an unresolved proof claim are different reasons for changing or excluding an entry. Both expansions add no numerical linear algebra problems. The third addition retains the first 200 entries and their earlier review dates.

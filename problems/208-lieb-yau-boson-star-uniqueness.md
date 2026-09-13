@@ -1,0 +1,31 @@
+# 208. Uniqueness of a boson star at every subcritical mass
+
+**Area:** Relativistic quantum matter; self-gravitating waves
+
+## Problem statement
+
+For $u\in H^{1/2}(\mathbb R^3)$ define
+$$D(u)=\iint\frac{|u(x)|^2|u(y)|^2}{|x-y|}\,dx\,dy,\qquad K(u)=\langle u,\sqrt{-\Delta}\,u\rangle,$$
+$$N_* =\inf_{u\ne0}\frac{2K(u)\|u\|_2^2}{D(u)},\qquad \mathcal E(u)=\langle u,(\sqrt{-\Delta+1}-1)u\rangle-\tfrac12D(u).$$
+The square roots are Fourier multipliers. For every $0<N<N_*$, the infimum of $\mathcal E$ over $\|u\|_2^2=N$ is attained.
+
+Is this minimizer unique modulo translation and constant phase for every such $N$? Precisely, must any two minimizers satisfy $v(x)=e^{i\theta}u(x-x_0)$ for some $\theta\in\mathbb R$, $x_0\in\mathbb R^3$?
+
+## Applied significance
+
+The model balances relativistic kinetic energy and Newtonian attraction. Uniqueness would determine whether a fixed subcritical stellar mass selects a single equilibrium density profile.
+
+## References
+
+1. Yujin Guo and Xiaoyu Zeng, [The Lieb–Yau Conjecture for Ground States of Pseudo-Relativistic Boson Stars](https://arxiv.org/abs/1904.06957), *J. Funct. Anal.* 278 (2020), 108510. Section 1 states the full conjecture and proves its small-mass case.
+2. Pan Chen and Xiaoyu Zeng, [A new proof of uniqueness of ground state for pseudo-relativistic Hartree equation](https://arxiv.org/abs/2608.08493), preprint, 9 August 2026. Section 1, equations (1.1)–(1.3) and the paragraph before (1.4), explicitly retain the full conjecture; Theorem 1.1 concerns the nonrelativistic regime.
+
+## Status review
+
+**Status:** Open in cited literature; no later resolution located.
+
+**Last checked:** 2026-09-13.
+
+The August 2026 paper expressly leaves the entire interval $0<N<N_*$ open. Its new proof, like the earlier result of Guo and Zeng, establishes uniqueness only for sufficiently small mass. Fixing the rest mass at one is a choice of units.
+
+**Search audit:** Queries: “Lieb Yau boson star uniqueness 2025 2026”, “pseudo relativistic Hartree uniqueness full mass conjecture”; checked the August 2026 theorem against the full interval. Searches included later proofs, counterexamples, and 2025–2026 updates. No resolution matching the stated hypotheses was located.

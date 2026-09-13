@@ -1,0 +1,202 @@
+[
+  {
+    "id": "226",
+    "title": "Fast dynamo action of the unit ABC flow",
+    "area": "Magnetohydrodynamics",
+    "file": "problems/226-abc-fast-dynamo.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "227",
+    "title": "Axisymmetry of equilibrium distributions for Onsager rods",
+    "area": "Liquid-crystal statistical mechanics",
+    "file": "problems/227-onsager-axisymmetric-minimizers.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "228",
+    "title": "Finiteness of interior defects in Oseen–Frank minimizers",
+    "area": "Liquid-crystal continuum mechanics",
+    "file": "problems/228-oseen-frank-interior-defects.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "229",
+    "title": "Strict physicality for anisotropic singular Q-tensor minimizers",
+    "area": "Liquid-crystal continuum theory",
+    "file": "problems/229-anisotropic-q-physicality.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "230",
+    "title": "Do finite-energy elastic minimizers satisfy force balance?",
+    "area": "Nonlinear elasticity",
+    "file": "problems/230-elastic-minimizer-equilibrium.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "231",
+    "title": "The critical mass threshold for continuous coagulation–fragmentation",
+    "area": "Aggregation and fragmentation kinetics",
+    "file": "problems/231-critical-coagulation-fragmentation.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "232",
+    "title": "Giga’s embedded curve-diffusion conjecture",
+    "area": "Surface diffusion and geometric evolution",
+    "file": "problems/232-embedded-curve-diffusion.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "233",
+    "title": "Finite-time singularity formation for unconstrained Willmore flow",
+    "area": "Membrane bending and geometric evolution",
+    "file": "problems/233-willmore-finite-time-singularity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "234",
+    "title": "A length-independent mean energy bound for Kuramoto–Sivashinsky",
+    "area": "Combustion fronts and spatiotemporal chaos",
+    "file": "problems/234-kuramoto-sivashinsky-energy-density.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "235",
+    "title": "One cubic NLS trajectory with unbounded Sobolev norm",
+    "area": "Nonlinear wave turbulence",
+    "file": "problems/235-cubic-nls-unbounded-orbit.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "236",
+    "title": "Uniqueness of entropy-admissible renormalized Boltzmann solutions",
+    "area": "Rarefied-gas kinetics",
+    "file": "problems/236-renormalized-boltzmann-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "237",
+    "title": "Fourier’s law for a boundary-thermostated anharmonic chain",
+    "area": "Nonequilibrium heat transport",
+    "file": "problems/237-anharmonic-chain-fourier-law.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "238",
+    "title": "Finite-time growth of total variation in physical gas dynamics",
+    "area": "Nonlinear hyperbolic conservation laws",
+    "file": "problems/238-p-system-finite-time-bv.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "239",
+    "title": "Global finite-energy compressible flow at the diatomic exponent",
+    "area": "Viscous compressible gas dynamics",
+    "file": "problems/239-compressible-ns-physical-exponent.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "240",
+    "title": "Nonlinear orbital stability of small solitary gravity waves",
+    "area": "Free-surface fluid dynamics",
+    "file": "problems/240-solitary-gravity-wave-nonlinear-stability.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "241",
+    "title": "Asymptotic stability of the phi-four kink without odd symmetry",
+    "area": "Nonlinear scalar fields",
+    "file": "problems/241-phi-four-general-kink-stability.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "242",
+    "title": "The attainable stiffness tensors of two-phase elastic composites",
+    "area": "Composite materials and homogenization",
+    "file": "problems/242-elastic-two-phase-g-closure.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "243",
+    "title": "Global optimality of the Abrikosov triangular lattice",
+    "area": "Superconductivity and Coulomb crystallization",
+    "file": "problems/243-abrikosov-global-crystallization.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "244",
+    "title": "Rigidity of positively curved shells above one-half Hölder regularity",
+    "area": "Thin-shell geometry and elasticity",
+    "file": "problems/244-holder-isometric-shell-rigidity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "245",
+    "title": "The quadruple-bubble conjecture in three-dimensional space",
+    "area": "Soap films and interfacial energy",
+    "file": "problems/245-spatial-quadruple-bubble.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "246",
+    "title": "The exact minimum ropelength of a trefoil",
+    "area": "Geometry of ropes and knotted polymers",
+    "file": "problems/246-ideal-trefoil-ropelength.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "247",
+    "title": "The densest packing of congruent regular tetrahedra",
+    "area": "Granular packing and particle assembly",
+    "file": "problems/247-regular-tetrahedron-packing.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "248",
+    "title": "Uniqueness of the homogeneous cooling state for inelastic hard spheres",
+    "area": "Granular-gas kinetic theory",
+    "file": "problems/248-inelastic-cooling-profile-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "249",
+    "title": "Existence of an optimal asymmetric Bloch wall of prescribed angle",
+    "area": "Micromagnetics and magnetic interfaces",
+    "file": "problems/249-asymmetric-bloch-wall-attainment.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "250",
+    "title": "Uniqueness of a hemispheric saddle profile on a magnetic sphere",
+    "area": "Curved-film micromagnetics",
+    "file": "problems/250-spherical-ferromagnet-profile-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  }
+]

@@ -1,6 +1,8 @@
 # Selection and status-check methodology
 
-The collection was researched on **8 September 2026**. The initial 100 entries cover spectral theory, operator and matrix theory, inverse problems and control, and related applied analysis. A second search added **100 entries (101–200)**, broadening these areas through monographs, lecture notes, surveys and specific papers, with no additional numerical linear algebra problems. The expansion includes continuum mechanics, kinetic theory, mathematical physics, stochastic growth, spatial ecology and statistical mechanics. Some questions are foundational rather than immediately implementable engineering tasks. Difficulty is not ranked; the count does not assert tractability or logical independence.
+Entries **001–200 were researched on 8 September 2026**. The initial 100 cover spectral theory, operator and matrix theory, inverse problems and control, and related applied analysis. The second 100 broaden these areas into continuum mechanics, kinetic theory, mathematical physics, stochastic growth, spatial ecology and statistical mechanics.
+
+A third search on **13 September 2026** added **100 entries (201–300)** from monographs, book manuscripts, surveys and specific papers. It extends the collection into many-body physics, quantum information, nonlinear evolution, materials, applied geometry, control, chemical kinetics, Monte Carlo dynamics and optimization. Both expansions exclude numerical linear algebra. The third addition preserves the first 200 pages and their review dates; it is not a claim that those earlier entries were rechecked. Some questions are foundational rather than immediately implementable engineering tasks. Difficulty is not ranked; the count does not assert tractability or logical independence.
 
 ## What an entry means
 
@@ -23,6 +25,6 @@ No attempt was made to solve the included problems or to validate every proof in
 
 Bibliographies link to author manuscripts, arXiv records, publishers, institutional repositories, and expert problem lists. Mathematical statements are rewritten and scoped; books and publications are not reproduced wholesale. A reference may provide the original question, a later status assessment, a known partial result, or explanatory background; its role is described when it affects interpretation.
 
-The [source maps](README.md) record the main books and specific paper locators used for the additional 100. They distinguish published books from evolving author manuscripts and lecture notes. In particular, a recently updated manuscript is a source for its stated open questions, not an independent verification of every historical statement it contains.
+The [source maps](README.md) record the main books and specific paper locators used for each expansion. They distinguish published books from evolving author manuscripts and lecture notes. In particular, a recently updated manuscript is a source for its stated open questions, not an independent verification of every historical statement it contains.
 
-The exclusion notes are research records, not part of the count of 200. They include both resolved problems and candidates omitted because the available claims required further adjudication; those reasons are kept distinct.
+The exclusion notes are research records, not part of the count of 300. They include both resolved problems and candidates omitted because the available claims required further adjudication; those reasons are kept distinct.

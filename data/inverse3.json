@@ -1,0 +1,202 @@
+[
+  {
+    "id": "251",
+    "title": "Minimum volume of a three-dimensional body of constant width",
+    "area": "Convex geometry / geometric design",
+    "file": "problems/251-constant-width-volume.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "252",
+    "title": "The least-area convex cover of every unit-length planar curve",
+    "area": "Geometric optimization / coverage",
+    "file": "problems/252-convex-worm-cover.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "253",
+    "title": "An overlap-free edge unfolding for every convex polyhedron",
+    "area": "Computational geometry / sheet fabrication",
+    "file": "problems/253-durer-edge-unfolding.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "254",
+    "title": "The full three-dimensional Newton minimum-resistance problem",
+    "area": "Calculus of variations / aerodynamic shape optimization",
+    "file": "problems/254-newton-minimum-resistance.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "255",
+    "title": "The shortest space curve of prescribed minimum width",
+    "area": "Geometric optimization / search paths",
+    "file": "problems/255-shortest-width-one-space-curve.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "256",
+    "title": "Maximum convex-hull volume for a closed curve of fixed length",
+    "area": "Geometric optimization / spatial enclosures",
+    "file": "problems/256-closed-curve-hull-volume.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "257",
+    "title": "A sharp surface-area bound for the convex hull of a closed curve",
+    "area": "Geometric inequalities / enclosure design",
+    "file": "problems/257-closed-curve-hull-area.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "258",
+    "title": "Existence of a flexible closed C\u00b2 surface in three-space",
+    "area": "Differential geometry / shell kinematics",
+    "file": "problems/258-smooth-flexible-closed-shell.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "259",
+    "title": "A periodic nonsingular billiard trajectory in every triangle",
+    "area": "Hamiltonian dynamics / ray transport",
+    "file": "problems/259-periodic-triangular-billiard.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "260",
+    "title": "Asymptotic density of reflected wavefronts in a disk",
+    "area": "Geometric optics / long-time propagation",
+    "file": "problems/260-disk-wavefront-density.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "261",
+    "title": "Rigidity of a totally integrable Minkowski billiard in its own unit ball",
+    "area": "Finsler geometry / anisotropic ray mechanics",
+    "file": "problems/261-self-ball-minkowski-integrability.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "262",
+    "title": "Circular rigidity of totally integrable strong-field magnetic billiards",
+    "area": "Magnetic dynamics / charged-particle confinement",
+    "file": "problems/262-strong-magnetic-billiard-rigidity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "263",
+    "title": "Quadratic growth when a Hamiltonian map has infinitely many periodic orbits",
+    "area": "Hamiltonian dynamics / recurrent mechanical motion",
+    "file": "problems/263-hamiltonian-periodic-orbit-growth.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "264",
+    "title": "Small-time global null control of no-slip Navier\u2013Stokes flow",
+    "area": "Fluid control / distributed actuation",
+    "file": "problems/264-localized-navier-stokes-global-null-control.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "265",
+    "title": "A data-independent time for global control of the defocusing cubic wave",
+    "area": "Nonlinear wave control / vibration suppression",
+    "file": "problems/265-uniform-time-cubic-wave-control.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "266",
+    "title": "A complete boundary-control criterion for coupled heat systems in higher dimensions",
+    "area": "Parabolic control / coupled diffusion",
+    "file": "problems/266-boundary-coupled-heat-control-criterion.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "267",
+    "title": "Global constrained null control of a two-phase Stefan interface",
+    "area": "Free-boundary control / thermal processing",
+    "file": "problems/267-global-two-phase-stefan-control.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "268",
+    "title": "Minimum-time eradication of an expanding set inside a geographic barrier",
+    "area": "Geometric optimal control / invasive-species containment",
+    "file": "problems/268-minimum-time-constrained-eradication.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "269",
+    "title": "The most informative Boolean function conjecture",
+    "area": "Information theory / noisy one-bit compression",
+    "file": "problems/269-most-informative-boolean-function.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "270",
+    "title": "The exact zero-error Shannon capacity of the seven-cycle",
+    "area": "Zero-error communication / combinatorial coding",
+    "file": "problems/270-seven-cycle-shannon-capacity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "271",
+    "title": "Matheron\u2019s covariogram uniqueness problem in three dimensions",
+    "area": "Geometric tomography / phase retrieval",
+    "file": "problems/271-three-dimensional-covariogram-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "272",
+    "title": "The minimum-area universal cover of planar diameter-one sets",
+    "area": "Geometric optimization / universal containment",
+    "file": "problems/272-lebesgue-universal-cover.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "273",
+    "title": "Decidability of exact hyperplane reachability for a linear ODE",
+    "area": "Continuous dynamics / formal verification",
+    "file": "problems/273-continuous-skolem-decidability.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "274",
+    "title": "A closed nonplanar totally integrable wire billiard in three-space",
+    "area": "Geometric mechanics / constrained ray dynamics",
+    "file": "problems/274-nonplanar-integrable-wire-billiard.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "275",
+    "title": "Are all totally integrable outer-length billiards ellipses?",
+    "area": "Geometric dynamics / optimal circumscribed paths",
+    "file": "problems/275-outer-length-billiard-integrability.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-13"
+  }
+]
