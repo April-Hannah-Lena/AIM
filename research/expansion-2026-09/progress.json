@@ -98,12 +98,16 @@
     {
       "commit": "5425d734cc3b44d840ba4a9ae54c3716a1ce9cb4",
       "purpose": "Record research publication and interference-channel claim warning; pushed directly to main."
+    },
+    {
+      "commit": "77021476a366ae9ef5d8ef12e13a3639a0898b91",
+      "purpose": "Record reviewed discrete Skolem draft and evidence; pushed directly to main and independently verified."
     }
   ],
-  "remote_state": "Latest independently verified remote main before this research addition: 5425d734cc3b44d840ba4a9ae54c3716a1ce9cb4 (September 17, 2026). Discrete Skolem draft currently local. Direct pushes remain authorized; no PR required.",
+  "remote_state": "Remote main independently verified at 77021476a366ae9ef5d8ef12e13a3639a0898b91 via SSH ls-remote after the Skolem research push on September 17, 2026. It contains all 27 accepted research records, including 20 active additions through entry 320. Direct pushes remain authorized; no PR required.",
   "next_actions": [
     "Accumulate the next reviewed batch from deterministic PIT, polynomial Hirsch, asymmetric TSP gap, additive-goods EFX, nonamenable contact-process weak survival, optimal online bin-packing ratio and discrete Skolem decidability; refresh status and upstream duplicates before assigning IDs.",
-    "Broaden discovery beyond the latest optimization and fairness candidates; retain slow-server threshold lead outside counts until the remaining model is precisely source-matched.",
+    "Broaden discovery in statistics and population dynamics: U-conjecture polynomial unlinking, heat-flow entropy derivatives and rebellious voter extinction require current independent corroboration and full scope checks. Retain the slow-server lead outside counts.",
     "Continue broader discovery toward at least 200 new problems, integrating and pushing further reviewed batches directly to main.",
     "All ten handoff seeds investigated: eight accepted drafts, Morrey and Yang–Mills held on matching unadjudicated claims.",
     "Discover candidates across all twelve sections, with deliberate biology, statistics, information, control, operations-research and stochastic-network coverage.",

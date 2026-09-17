@@ -6446,5 +6446,29 @@
     "query": "\"Conjectural Decidability of the Skolem Problem\" correction erratum withdrawal",
     "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
     "review_stage": "Separated adversarial self-pass for discrete Skolem; DSSEP26 and PAD26 theorem checks"
+  },
+  {
+    "search_id": "S181-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"McKean\" \"conjecture\" \"entropy\" \"2026\" \"derivatives\"",
+    "date_filter_or_unrestricted": "unrestricted (literal year where shown)",
+    "review_stage": "Broader statistics and population-dynamics discovery after Skolem review; no new admission"
+  },
+  {
+    "search_id": "S181-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"U-conjecture\" \"Gaussian\" independence counterexample solved",
+    "date_filter_or_unrestricted": "unrestricted (literal year where shown)",
+    "review_stage": "Broader statistics and population-dynamics discovery after Skolem review; no new admission"
+  },
+  {
+    "search_id": "S181-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"rebellious voter\" \"extinction\" \"conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted (literal year where shown)",
+    "review_stage": "Broader statistics and population-dynamics discovery after Skolem review; no new admission"
   }
 ]
