@@ -1,0 +1,532 @@
+{
+  "candidate_id": "asymmetric-tsp-integrality-gap",
+  "proposed_catalogue_id": null,
+  "title": "The factor-two integrality gap for asymmetric metric routing",
+  "aliases": [
+    "ATSP subtour integrality ratio two",
+    "asymmetric Held–Karp gap conjecture"
+  ],
+  "primary_section": "stochastic3",
+  "secondary_tags": [
+    "directed routing",
+    "combinatorial optimization",
+    "linear programming"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit formulation, current full-source resolution checks, independent specialist status, semantic distinctness and separated A24 self-review passed. Await batch refresh for active integration.",
+  "problem_fingerprint": {
+    "model_or_objects": "Complete loopless directed graph; directed Hamiltonian cycle; degree-one subtour LP.",
+    "dimension": "n vertices, n(n-1) arc variables; no upper bound on n.",
+    "domain": "All finite nonnegative directed metric costs; c_ii=0, triangle inequality, no symmetry.",
+    "regularity_and_data_class": "Real-valued costs, including zeros; no randomness or genericity.",
+    "boundary_or_initial_conditions": "Closed cycle, no designated endpoints.",
+    "parameter_range": "Every integer n>=3 and all admissible costs.",
+    "quantifiers": "For every instance there exists a Hamiltonian cycle costing at most twice the minimum LP value.",
+    "normalization": "Each vertex has fractional incoming and outgoing degree one; every nonempty proper outgoing cut has weight at least one.",
+    "observable_or_norm": "Optimal integral tour cost relative to optimal subtour LP cost.",
+    "limit_regime_and_order": "Uniform finite-instance inequality; lower-bound families approach two as size grows.",
+    "requested_conclusion": "OPT(c)<=2 HK(c).",
+    "computational_model_and_dependencies": "Unconditional existential integrality bound; no polynomial-time algorithm assertion."
+  },
+  "statement_source_and_scope_match": "TV25 Open Problem 3.19 concerns circulation LP (3.2). Theorem 3.4 and Proposition 3.14 identify the same integrality ratio for degree-constrained metric LP (3.1); balance makes the two-sided cut bound 2 equivalent to outgoing cut bound 1. SBG26 equation (1), with integrality removed, supplies the exact degree-one formulation. Singleton and co-singleton cuts follow from degrees. Zero LP handled as inequality.",
+  "proposed_statement_text": "For all n>=3 and nonnegative costs on the complete digraph satisfying the directed triangle inequality, minimum Hamiltonian tour cost is at most twice the degree-one subtour LP optimum.",
+  "applied_significance": "Worst-case accuracy of a fractional lower-bound certificate for direction-dependent vehicle routing; shortest-path closure converts strongly connected nonnegative road networks to this model.",
+  "application_evidence_source_ids": [
+    "TV25",
+    "V26"
+  ],
+  "source_records": [
+    {
+      "source_id": "TV25",
+      "role": "explicit formulation, LP equivalence, lower bound and application",
+      "authors": [
+        "Vera Traub",
+        "Jens Vygen"
+      ],
+      "title": "Approximation Algorithms for Traveling Salesman Problems",
+      "venue_or_repository": "Cambridge University Press",
+      "publication_type": "monograph",
+      "publication_date": "2025",
+      "latest_version_date": "2025",
+      "identifier": "10.1017/9781009445436",
+      "version": "Author electronic prepublication text, copyright 2024",
+      "stable_url": "https://www.or.uni-bonn.de/tspbook/book.pdf",
+      "locator": "§3.1 equations (3.1)–(3.2), Theorem 3.4 (p. 51), Proposition 3.14 (pp. 56–57), Theorem 3.18 (p. 59), Open Problem 3.19 and §18.2 (p. 403)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Preface and §3.1 model definitions",
+        "Theorem 3.4 including splitting-off proof",
+        "Proposition 3.14 including metric-closure comparison",
+        "Theorem 3.18 and opening of construction proof",
+        "§18.2 Open Problem 3.19",
+        "Entire author companion and errata page: https://www.or.uni-bonn.de/tspbook/tsp_book.html"
+      ],
+      "supported_claim": "Explicit factor-two question; metric degree-one and closed-walk circulation formulations have equal integrality ratio; lower bound two.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Publisher DOI open failed; title/authors and 2025 publication verified on author companion and publication list. Relevant full mathematical text accessible in author PDF; no claim to have checked every proof."
+    },
+    {
+      "source_id": "V26",
+      "role": "latest general upper bound",
+      "authors": [
+        "Jens Vygen"
+      ],
+      "title": "Better approximation guarantee for Asymmetric TSP",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-03-15",
+      "latest_version_date": "2026-03-15",
+      "identifier": "arXiv:2603.14334",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2603.14334v1",
+      "locator": "§1 equation (1), Theorem 1; §2.1 Theorems 2–3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§1 and §§2.1–2.2",
+        "Current arXiv abstract/history: https://arxiv.org/abs/2603.14334",
+        "Author publication list: https://www.or.uni-bonn.de/cards/home/vygen/publications.html"
+      ],
+      "supported_claim": "For any constant alpha>3+2sqrt(2), a tour costs at most (9+alpha) LP; this yields an integrality upper bound 12+2sqrt(2).",
+      "independent_of_source_ids": [],
+      "access_limitations": "Preprint; same author as TV25, not independent corroboration. Relevant theorem read, not complete proof verification."
+    },
+    {
+      "source_id": "SBG26",
+      "role": "independent recent specialist status and bounded computations",
+      "authors": [
+        "Alessandro Sosso",
+        "Ambrogio Maria Bernardelli",
+        "Stefano Gualandi"
+      ],
+      "title": "The cloven traveling salesman: cycle covers and the integrality gap of small ATSP instances",
+      "venue_or_repository": "Optimization Letters",
+      "publication_type": "journal article",
+      "publication_date": "2026-06-14",
+      "latest_version_date": "2026-06-14",
+      "identifier": "10.1007/s11590-026-02312-x",
+      "version": "Published online version",
+      "stable_url": "https://link.springer.com/article/10.1007/s11590-026-02312-x",
+      "locator": "§§1–2.2, equations (1a)–(1f), §§5–6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§1 status and scope",
+        "§2.1 full LP and metric condition",
+        "§2.2 definition and decomposition statement",
+        "§§5–6 computation limits and future work"
+      ],
+      "supported_claim": "Maximum gap remains undetermined; exact computations restrict to half-integer vertices through n=12. The introduction still quotes the superseded upper bound 17.",
+      "independent_of_source_ids": [
+        "TV25",
+        "V26",
+        "BF26",
+        "CGK06",
+        "STV20"
+      ],
+      "access_limitations": "No code or certificate audit. Theorem 3 wording says edge-disjoint for general half-integer points, although x=1 requires shared arcs; no statement here relies on that theorem. Use the paper for independent status and reported computational scope."
+    },
+    {
+      "source_id": "BF26",
+      "role": "apparent exact-solution scope check",
+      "authors": [
+        "Tolson Bell",
+        "Alan M. Frieze"
+      ],
+      "title": "Solving a Random Asymmetric TSP Exactly in Quasi-Polynomial Time w.h.p.",
+      "venue_or_repository": "arXiv; journal record Random Structures & Algorithms",
+      "publication_type": "revised preprint with journal version",
+      "publication_date": "2023-08-05",
+      "latest_version_date": "2026-07-28",
+      "identifier": "arXiv:2308.02946; 10.1002/rsa.70052",
+      "version": "v15",
+      "stable_url": "https://arxiv.org/html/2308.02946v15",
+      "locator": "§1 assumptions (i)–(iii), Theorem 1; §2.1 and Proposition 5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§1 full model and theorem",
+        "§1.1 background",
+        "§2.1 assignment LP and Proposition 5",
+        "Opening proof outline",
+        "Current arXiv version history"
+      ],
+      "supported_claim": "Exact algorithm takes exp(log^(2+o(1)) n) time with high probability over independent random costs obeying density and tail conditions; no uniform worst-case metric integrality claim.",
+      "independent_of_source_ids": [
+        "TV25",
+        "V26",
+        "SBG26"
+      ],
+      "access_limitations": "Older v4 and v6 were withdrawn, followed by further versions; current v15 is not withdrawn. Latest full theorem used instead of older author PDF. Complete proof not independently verified."
+    },
+    {
+      "source_id": "CGK06",
+      "role": "original lower-bound construction and formulation",
+      "authors": [
+        "Moses Charikar",
+        "Michel X. Goemans",
+        "Howard Karloff"
+      ],
+      "title": "On the Integrality Ratio for the Asymmetric Traveling Salesman Problem",
+      "venue_or_repository": "Mathematics of Operations Research 31(2), 245–252",
+      "publication_type": "journal article",
+      "publication_date": "2006-05",
+      "latest_version_date": "2006-05",
+      "identifier": "10.1287/moor.1060.0191",
+      "version": "Published author-hosted PDF",
+      "stable_url": "https://math.mit.edu/~goemans/PAPERS/CharikarGoemansKarloff-2006-ATSP.pdf",
+      "locator": "§1 degree-one LP and Theorem 1.1; §2 definitions",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§1 introduction, LP and distinction from old four-thirds conjecture",
+        "Theorem 1.1 and §2 model definitions"
+      ],
+      "supported_claim": "Metric ATSP family has ratios tending to two. This disproves the old asymmetric four-thirds conjecture, not the factor-two upper bound.",
+      "independent_of_source_ids": [
+        "TV25",
+        "V26",
+        "SBG26"
+      ],
+      "access_limitations": "PDF extraction garbles some mathematical characters; only the clearly stated limiting bound and model are used, not an exact finite-size formula."
+    },
+    {
+      "source_id": "STV20",
+      "role": "previous claimed conjecture resolution scope",
+      "authors": [
+        "Ola Svensson",
+        "Jakub Tarnawski",
+        "László A. Végh"
+      ],
+      "title": "A Constant-Factor Approximation Algorithm for the Asymmetric Traveling Salesman Problem",
+      "venue_or_repository": "Journal of the ACM 67(6)",
+      "publication_type": "journal accepted manuscript",
+      "publication_date": "2020",
+      "latest_version_date": "2020",
+      "identifier": "10.1145/3424306",
+      "version": "Accepted version dated September 15, 2020",
+      "stable_url": "https://eprints.lse.ac.uk/106582/1/ATSP.pdf",
+      "locator": "§1 Theorem 1.1 (printed p. 4)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Title and repository version metadata",
+        "§1 through Theorem 1.1"
+      ],
+      "supported_claim": "The theorem establishes a factor 506 against Held–Karp, settling existence of a constant bound, not its conjectured value two.",
+      "independent_of_source_ids": [
+        "TV25",
+        "V26",
+        "SBG26"
+      ],
+      "access_limitations": null
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S143-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "Traub Vygen 2024 approximation algorithms traveling salesman problems book pdf integrality gap 17 conjecture 2",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Asymmetric metric routing discovery and current-resolution check"
+    },
+    {
+      "search_id": "S143-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"asymmetric traveling salesman\" \"integrality gap\" \"2026\" proof conjecture",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Asymmetric metric routing discovery and current-resolution check"
+    },
+    {
+      "search_id": "S143-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"asymmetric travelling salesman\" \"gap\" \"two\" conjecture resolved",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Asymmetric metric routing discovery and current-resolution check"
+    },
+    {
+      "search_id": "S144-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"asymmetric traveling salesman\" \"integrality\" \"2\" conjecture proof disproof counterexample 2026 2025",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Asymmetric routing resolution and version checks"
+    },
+    {
+      "search_id": "S144-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"ATSP\" \"Held-Karp\" \"gap\" solved resolution refutation",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Asymmetric routing resolution and version checks"
+    },
+    {
+      "search_id": "S144-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Vygen\" \"2603.14334\" correction withdrawal erratum",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Asymmetric routing resolution and version checks"
+    },
+    {
+      "search_id": "S144-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Solving a Random Asymmetric TSP\" Bell Frieze pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Asymmetric routing resolution and version checks"
+    },
+    {
+      "search_id": "A24-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"asymmetric traveling salesman\" \"integrality gap\" proof proved solved resolution counterexample disproof refutation",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+    },
+    {
+      "search_id": "A24-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"asymmetric travelling salesman\" \"integrality ratio\" \"2\" \"2026\" \"2025\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+    },
+    {
+      "search_id": "A24-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"ATSP\" \"subtour\" \"two\" \"conjecture\" proof",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+    },
+    {
+      "search_id": "A24-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Charikar\" \"Goemans\" \"Karloff\" \"integrality\" 2025 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+    },
+    {
+      "search_id": "A24-5",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Sosso\" \"Bernardelli\" \"Gualandi\" \"cloven\" correction erratum",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+    },
+    {
+      "search_id": "A24-6",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Vygen\" \"Better approximation guarantee\" withdrawn correction gap",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+    },
+    {
+      "search_id": "A24-7",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Boyd\" \"Elliott-Magwood\" \"ATSP\" \"gap\" proof",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+    },
+    {
+      "search_id": "A24-8",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"directed triangle inequality\" \"Held-Karp\" \"2\" conjecture solved",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "V26",
+      "theorem_locator": "§1 equation (1), Theorem 1",
+      "claim_type": "improved general upper bound",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same nonnegative directed costs after metric closure; tours may repeat vertices in the original graph.",
+        "Balanced circulation LP is equivalent in gap to metric degree-one LP by TV25.",
+        "For every fixed alpha>3+2sqrt(2), factor is 9+alpha, which remains above two."
+      ],
+      "scope_relation": "matching_model_weaker_conclusion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "General gap at most 12+2sqrt(2), obtained by taking arbitrary epsilon>0; no exact-limit running-time assertion.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "SBG26",
+      "theorem_locator": "§§2.1–2.2 and 5–6",
+      "claim_type": "finite computational enumeration",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same directed metric LP.",
+        "Restricts fractional extreme points to coordinates 0,1/2,1.",
+        "Reports exhaustive computations only through n=12."
+      ],
+      "scope_relation": "strict_finite_and_fractional_subclass",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No assertion for all n or all denominators. The auxiliary decomposition wording is not needed for the status assessment.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BF26",
+      "theorem_locator": "§1 Theorem 1 with assumptions (i)–(iii); §2.1 Proposition 5",
+      "claim_type": "exact random-instance algorithm",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Costs are independent copies of a continuous nonnegative variable.",
+        "Density near zero has expansion a+bx+O(x^2) on [0,L], with aL>=1, bounded density f<=aM, and exponential upper tail.",
+        "Conclusion is high probability over random input costs and quasipolynomial time.",
+        "Assignment LP discussed in §2.1 has degree equations without subtour inequalities."
+      ],
+      "scope_relation": "random_instance_and_algorithmic_conclusion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not supply a universal LP-to-tour inequality for all directed metric costs.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CGK06",
+      "theorem_locator": "Theorem 1.1 and §1 discussion",
+      "claim_type": "integrality lower bound approaching two",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same directed metric degree-one subtour relaxation.",
+        "Examples tend to two; they disprove the older four-thirds conjecture."
+      ],
+      "scope_relation": "matching_model_compatible_lower_bound",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Sharpness evidence for factor two, not counterexample above two.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "STV20",
+      "theorem_locator": "§1 Theorem 1.1",
+      "claim_type": "constant integrality bound",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same asymmetric metric / closed-walk setting.",
+        "Explicit guarantee is 506 times Held–Karp."
+      ],
+      "scope_relation": "matching_model_weaker_conclusion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "A constant-factor conjecture was solved; the sharp factor-two question survives.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "bb94590c6a42221b61e898829f50ef49194e2235",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "285",
+        "difference": "Undirected symmetric metric costs, degree two and cut two, conjectured factor four-thirds. Here costs and tours are directed and asymmetric, with sharp lower bound two. This is the separately sourced general asymmetric model, not a renaming or a new constant for the same assertion."
+      },
+      {
+        "id": "284",
+        "difference": "Central limit law for optimal Euclidean tours through random planar points, not a deterministic integrality gap."
+      }
+    ],
+    "distinctness_reason": "Retained all-320 inventory and baseline full-page review; repeated title/alias/content screening and fully reread entries 284 and 285. No existing asymmetric subtour-gap entry.",
+    "implications_or_equivalences": [
+      "Degree-constrained metric and balanced-circulation closed-walk LP formulations are counted once.",
+      "The symmetric four-thirds assertion alone does not cover asymmetric costs.",
+      "Existential cost bound is not itself a polynomial-time factor-two algorithm."
+    ]
+  },
+  "open_status_evidence_summary": "TV25 explicitly states the factor-two conjecture. SBG26 independently retains the unknown maximum gap; V26 improves only to 12+2sqrt(2). Relevant lower-bound, constant-factor and random-exact results do not resolve it.",
+  "independent_status_corroboration": {
+    "source_ids": [
+      "SBG26"
+    ],
+    "independence_basis": "All three authors are disjoint from TV25/V26. Journal/preprint mirrors count as one source; V26 is not independent of TV25."
+  },
+  "strongest_known_partial_results_and_gap": "Verified lower bound two and general upper bound 12+2sqrt(2) from V26; half-integer finite computations and random exact algorithms leave the uniform upper bound two unresolved.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Book publisher DOI inaccessible; author full text and companion metadata/errata checked.",
+    "Relevant full statements and scope, not every proof, were reviewed.",
+    "No computational code or certificate validation is claimed for SBG26."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass by the researching agent; no independent agent or human review",
+    "reviewer_or_pass_identifier": "A24",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A24-1",
+      "A24-2",
+      "A24-3",
+      "A24-4",
+      "A24-5",
+      "A24-6",
+      "A24-7",
+      "A24-8"
+    ],
+    "issues_found": [
+      "Old constant-factor resolution might be mistaken for sharp factor two.",
+      "Original asymmetric four-thirds conjecture is already false.",
+      "The June 2026 paper repeats superseded bound 17.",
+      "Zero costs require an inequality rather than undefined ratio.",
+      "Computational results restrict both size and denominator; reported edge-disjoint decomposition wording is too broad when coordinates equal one."
+    ],
+    "issues_resolved": [
+      "Read STV20 Theorem 1.1 and CGK06 Theorem 1.1.",
+      "Preserved current factor-two conjecture and updated upper bound from V26.",
+      "Used OPT<=2HK, all directed triangle inequalities and proper cuts.",
+      "Read SBG26 full scope and do not rely on its auxiliary decomposition theorem.",
+      "Compared full existing pages 284 and 285; cost-bound existence distinguished from efficient rounding."
+    ],
+    "verdict": "pass_for_research_draft"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Due before active catalogue integration."
+  },
+  "public_page_path": null,
+  "validation_results": [
+    {
+      "checked_on": "2026-09-17",
+      "check": "Candidate JSON, source/search references and aggregate progress counts",
+      "result": "pass; 29 investigated, 24 accepted, five held, 689 unique search rows"
+    },
+    {
+      "checked_on": "2026-09-17",
+      "check": "Draft local links, math delimiters and KaTeX rendering",
+      "result": "pass; 11 math expressions rendered with throwOnError and strict error mode"
+    },
+    {
+      "checked_on": "2026-09-17",
+      "check": "python3 scripts/catalogue.py --check",
+      "result": "pass; active catalogue remains 320; draft has no active ID"
+    }
+  ],
+  "remote_publication": {
+    "state": "research_record_only; no active catalogue publication",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/asymmetric-tsp-integrality-gap.md",
+  "search_assessment": "Exact names, spelling variants, formulation, original/later authors, current/prior years, unrestricted resolution terms and errata searched. Full sources inspected for the latest constant bound, old constant-factor result, two lower bound, bounded computations and random exact algorithm. Current arXiv histories, publisher article, author companion/errata and publication list used as additional discovery routes. No matching factor-two proof or counterexample located."
+}

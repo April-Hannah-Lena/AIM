@@ -1,0 +1,904 @@
+{
+  "candidate_id": "efx-additive-goods",
+  "proposed_catalogue_id": null,
+  "title": "Complete EFX allocation of indivisible goods with additive values",
+  "aliases": [
+    "EFX existence for additive goods",
+    "EFX0 universal existence",
+    "envy-free up to any good",
+    "envy-freeness up to the least positively valued good"
+  ],
+  "primary_section": "stochastic3",
+  "secondary_tags": [
+    "fair division",
+    "resource allocation",
+    "algorithmic game theory"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Exact source-backed formulation, independent specialist status, current theorem-level scope checks, semantic distinctness and separated A25 self-review passed. Await batch refresh for active integration.",
+  "problem_fingerprint": {
+    "model_or_objects": "Complete partition of finitely many indivisible goods among finitely many agents; additive utilities.",
+    "dimension": "n agents and m goods, arbitrary finite sizes.",
+    "domain": "All profiles of nonnegative real item values.",
+    "regularity_and_data_class": "Each v_i(S) is the sum of item values; zeros allowed; no common ordering, type, sparsity or bounded value-alphabet assumptions.",
+    "boundary_or_initial_conditions": "No goods discarded, shared or fractionally assigned; empty bundles allowed.",
+    "parameter_range": "n>=1, m>=0.",
+    "quantifiers": "For every valuation profile, there exists one complete allocation satisfying every ordered-pair and every removed-good comparison.",
+    "normalization": "v_i(empty)=0 from additivity; no fixed total utility.",
+    "observable_or_norm": "v_i(A_i)>=v_i(A_j minus g) for all i,j and g in A_j, including zero-valued g.",
+    "limit_regime_and_order": "Finite-instance exact existence, no asymptotic or probabilistic qualifier.",
+    "requested_conclusion": "Universal existence of complete EFX0 allocations for additive goods.",
+    "computational_model_and_dependencies": "Existence only; no runtime, Pareto optimality, welfare, payments or incentive constraints."
+  },
+  "statement_source_and_scope_match": "B25 §1 and definitions use nonnegative additive values, complete partition and every g in A_j. AFM26 §1 Definition 1 explicitly distinguishes EFX0 and positive-good EFX, and footnote 1 establishes equivalence of their universal existence questions; completeness and arbitrary nonnegative reals retained. Original CKM16 Definition 4.4 tests only positive goods, so zero-inclusive convention is attributed to modern restatements, not silently to the original.",
+  "proposed_statement_text": "For every finite additive nonnegative goods instance there is a partition A with v_i(A_i)>=v_i(A_j minus g) for all i,j and every g in A_j.",
+  "applied_significance": "Feasibility of a demanding fairness criterion for allocating indivisible assets/equipment under additive recipient preferences; differs from optimization of minimum utility.",
+  "application_evidence_source_ids": [
+    "CKM16",
+    "B25",
+    "HV25"
+  ],
+  "source_records": [
+    {
+      "source_id": "CKM16",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Ioannis Caragiannis",
+        "David Kurokawa",
+        "Hervé Moulin",
+        "Ariel D. Procaccia",
+        "Nisarg Shah",
+        "Junxing Wang"
+      ],
+      "title": "The Unreasonable Fairness of Maximum Nash Welfare",
+      "venue_or_repository": "EC 2016, pp. 305–322",
+      "publication_type": "conference paper",
+      "publication_date": "2016",
+      "latest_version_date": "2016",
+      "identifier": "10.1145/2940716.2940726",
+      "version": "Author manuscript",
+      "stable_url": "https://eprints.gla.ac.uk/123283/1/123283.pdf",
+      "locator": "§4.2 Definition 4.4 and following question",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Title and introduction, application examples",
+        "§4.2 definition and explicit open question"
+      ],
+      "supported_claim": "Original EFX question uses removal of positively valued goods.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Original positive-good convention distinguished from modern zero-inclusive formulation; PDF inequality extraction is imperfect. The later journal version was not used as full-text evidence."
+    },
+    {
+      "source_id": "B25",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Simina Brânzei"
+      ],
+      "title": "Computing Envy-Free up to Any Good (EFX) Allocations via Local Search",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2025-10-06",
+      "latest_version_date": "2025-10-06",
+      "identifier": "arXiv:2510.05429",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2510.05429v1",
+      "locator": "§§1–2, §5 Proposition 1, §6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§§1–2 full formulation",
+        "§5 Proposition 1 and proof",
+        "§6 discussion",
+        "Current abstract and version history"
+      ],
+      "supported_claim": "Explicit open question for complete allocations and nonnegative additive values; local search is proved for identical strictly positive values, with broader experimental evidence.",
+      "independent_of_source_ids": [
+        "CKM16",
+        "AFM26",
+        "HV25",
+        "AFR26",
+        "HT26",
+        "AZ26"
+      ],
+      "access_limitations": "Relevant definitions and theorem statements read; complete proof not independently verified."
+    },
+    {
+      "source_id": "AFM26",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Eyad Alkassar",
+        "Mahmoud Fouz",
+        "Kurt Mehlhorn"
+      ],
+      "title": "Complete EFX Allocations Exist for Four Additive Agents and Up to Nine Goods",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-08-09",
+      "latest_version_date": "2026-08-09",
+      "identifier": "arXiv:2608.08590",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2608.08590v1",
+      "locator": "§1 Definition 1, Theorem 1 and footnote 1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full introduction through contributions",
+        "Definition 1, Theorem 1, footnote 1",
+        "Current abstract and version history"
+      ],
+      "supported_claim": "Complete zero-inclusive EFX exists for four agents and at most nine goods; arbitrary goods count remains open. Footnote 1 gives the perturbation equivalence of universal EFX conventions.",
+      "independent_of_source_ids": [
+        "CKM16",
+        "B25",
+        "HV25",
+        "HT26",
+        "AZ26"
+      ],
+      "access_limitations": "Computer-assisted existence theorem reported; certificates were not independently executed."
+    },
+    {
+      "source_id": "HV25",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Vishwa Prakash HV",
+        "Pratik Ghosal",
+        "Prajakta Nimbhorkar",
+        "Nithin Varma"
+      ],
+      "title": "EFX Exists for Three Types of Agents",
+      "venue_or_repository": "EC 2025; arXiv",
+      "publication_type": "conference paper, revised preprint",
+      "publication_date": "2024-10-17",
+      "latest_version_date": "2025-05-23",
+      "identifier": "arXiv:2410.13580",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/html/2410.13580v3",
+      "locator": "§1 Theorem 1; §2 model; §3 three types",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Current §1 through Theorem 1",
+        "§2 model and EFX definition; earlier v2 definitions also read",
+        "§3 type definition",
+        "Current abstract and version history"
+      ],
+      "supported_claim": "Exact EFX for any number of agents with at most three distinct additive valuation functions; general question retained.",
+      "independent_of_source_ids": [
+        "CKM16",
+        "B25",
+        "AFM26",
+        "AFR26",
+        "HT26",
+        "AZ26"
+      ],
+      "access_limitations": "Relevant definitions and theorem statements read; complete proof not independently verified."
+    },
+    {
+      "source_id": "AFR26",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Georgios Amanatidis",
+        "Aris Filos-Ratsikas",
+        "Alkmini Sgouritsa"
+      ],
+      "title": "Pushing the Frontier on Approximate EFX Allocations",
+      "venue_or_repository": "EC 2024; arXiv",
+      "publication_type": "conference paper, revised preprint",
+      "publication_date": "2024-06-18",
+      "latest_version_date": "2026-07-29",
+      "identifier": "arXiv:2406.12413",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/html/2406.12413v3",
+      "locator": "§§1–2.1; Theorems 4.4, 4.6, 5.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§§1–1.1 status and contributions",
+        "§§2–2.1 definitions 2.1–2.6",
+        "Full statements of Theorems 4.4, 4.6 and 5.1",
+        "Current abstract and version history"
+      ],
+      "supported_claim": "Reports unrestricted factor (sqrt(5)-1)/2; proves 2/3-EFX in three restricted classes. Neither constant is exact EFX.",
+      "independent_of_source_ids": [
+        "B25",
+        "AFM26",
+        "HV25",
+        "HT26",
+        "AZ26"
+      ],
+      "access_limitations": "Relevant definitions and theorem statements read; complete proof not independently verified."
+    },
+    {
+      "source_id": "HT26",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Wentao He",
+        "Biaoshuai Tao"
+      ],
+      "title": "EFX for Additive Chores: Nonexistence, Pareto Incompatibility, and Bi-Valued Existence",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-06-07",
+      "latest_version_date": "2026-07-09",
+      "identifier": "arXiv:2606.08872",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2606.08872v2",
+      "locator": "§§1–3; Definition 2, Theorem 1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§1 status and related work",
+        "§2 Definitions 1–3",
+        "§3 Theorem 1, four-agent example and Proposition 1 proof",
+        "Current abstract and version history"
+      ],
+      "supported_claim": "Additive chores can lack EFX; the goods existence question remains open.",
+      "independent_of_source_ids": [
+        "CKM16",
+        "B25",
+        "AFM26",
+        "HV25",
+        "AFR26",
+        "AZ26"
+      ],
+      "access_limitations": "Relevant definitions and theorem statements read; complete proof not independently verified."
+    },
+    {
+      "source_id": "AMMSW26",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Hannaneh Akrami",
+        "Alexander Mayorov",
+        "Kurt Mehlhorn",
+        "Shreyas Srinivas",
+        "Christoph Weidenbach"
+      ],
+      "title": "A Counterexample to EFX: n≥3 Agents, m≥n+5 Items, Submodular Valuations via SAT-Solving",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-04-20",
+      "latest_version_date": "2026-05-14",
+      "identifier": "arXiv:2604.18216",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/html/2604.18216v3",
+      "locator": "§1 Theorems 1–2; §2 Proposition 1 and Corollary 1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§1 theorem statements and additive-case distinction",
+        "§2 rank transformation, Proposition 1 proof and Corollary 1",
+        "Current abstract and version history"
+      ],
+      "supported_claim": "Submodular counterexamples do not meet the additive model.",
+      "independent_of_source_ids": [
+        "B25",
+        "HV25",
+        "HT26",
+        "AZ26"
+      ],
+      "access_limitations": "SAT artifacts not independently audited. Current submodular v3 used, rather than original monotone-title version."
+    },
+    {
+      "source_id": "MS26",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Simon Mackenzie",
+        "Mashbat Suzuki"
+      ],
+      "title": "Counterexamples to EFX for Submodular and Subadditive Valuations",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-05-07",
+      "latest_version_date": "2026-05-07",
+      "identifier": "arXiv:2605.06451",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2605.06451v1",
+      "locator": "§1 Theorems 1.1–1.2; §3.2 Proposition 3.5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§1 Theorems 1.1–1.2",
+        "§2 model",
+        "§3.2 coverage formula and Proposition 3.5 proof",
+        "Theorem 3.4 proof",
+        "Current abstract and version history"
+      ],
+      "supported_claim": "Weighted coverage counterexample has duplicate item types with nonadditive utility; broader negative results leave additive goods unresolved.",
+      "independent_of_source_ids": [
+        "B25",
+        "AFM26",
+        "HV25",
+        "HT26",
+        "AZ26"
+      ],
+      "access_limitations": "Relevant definitions and theorem statements read; complete proof not independently verified."
+    },
+    {
+      "source_id": "AAMMS26",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Mahyar Afshinmehr",
+        "Arash Ashuri",
+        "Pouria Mahmoudkhan",
+        "Kurt Mehlhorn",
+        "Amir Mohammad Shahrezaei"
+      ],
+      "title": "EFX Allocations Exist on Multi-Graphs",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-06-17",
+      "latest_version_date": "2026-06-17",
+      "identifier": "arXiv:2606.18665",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2606.18665v1",
+      "locator": "§1.1; §2 Multigraph Instances; §3 result 3.4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§1.1 contributions",
+        "§2 cancelable valuations and multigraph instances",
+        "§3 main result 3.4 and proof outline",
+        "Current abstract and version history"
+      ],
+      "supported_claim": "Exact EFX for cancelable multigraph instances; each good has at most two positively valuing agents in the additive case.",
+      "independent_of_source_ids": [
+        "B25",
+        "HV25",
+        "HT26",
+        "AZ26"
+      ],
+      "access_limitations": "Relevant definitions and theorem statements read; complete proof not independently verified."
+    },
+    {
+      "source_id": "AFMMR26",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Hannaneh Akrami",
+        "Uriel Feige",
+        "Ryoga Mahara",
+        "Kurt Mehlhorn",
+        "Nidhi Rathi"
+      ],
+      "title": "The Power of Share-Based Notions in Proving Envy-Based Fairness Guarantees",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-02-12",
+      "latest_version_date": "2026-08-04",
+      "identifier": "arXiv:2602.11732",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2602.11732v2",
+      "locator": "§§1.2–1.3 Theorem 1.2, Proposition 1.1; §2 Definitions 2.1, 2.4–2.7",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§§1.2–1.3 statements",
+        "§2 definitions of fairness and completeness",
+        "Current abstract and version history"
+      ],
+      "supported_claim": "Complete epistemic EFX plus EFL uses per-agent certificates, not exact EFX of the single allocation.",
+      "independent_of_source_ids": [
+        "B25",
+        "HV25",
+        "HT26",
+        "AZ26"
+      ],
+      "access_limitations": "Current v2 changed title and authors from v1; v2 used for the scope comparison."
+    },
+    {
+      "source_id": "AZ26",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Haris Aziz"
+      ],
+      "title": "Pairwise Maximin Share Allocations Need Not Exist",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-09-05",
+      "latest_version_date": "2026-09-05",
+      "identifier": "arXiv:2609.06282",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2609.06282v1",
+      "locator": "§1 Theorem 1; §3 Definition 1 and EFX comparison",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§1 full statement and explicit non-implication for EFX",
+        "§3 PMMS definition and EFX comparison",
+        "Current abstract and version history"
+      ],
+      "supported_claim": "Four-agent strictly positive additive PMMS counterexample; author explicitly says this is not an EFX counterexample.",
+      "independent_of_source_ids": [
+        "CKM16",
+        "B25",
+        "AFM26",
+        "HV25",
+        "AFR26",
+        "HT26",
+        "AMMSW26",
+        "MS26",
+        "AAMMS26",
+        "AFMMR26"
+      ],
+      "access_limitations": "Relevant definitions and theorem statements read; complete proof not independently verified."
+    },
+    {
+      "source_id": "HKPV26",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Hadi Hosseini",
+        "Payas Khurana",
+        "Shraddha Pathak",
+        "Rohit Vaish"
+      ],
+      "title": "To EFX OR to MMS, That is the Question",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-08-11",
+      "latest_version_date": "2026-09-15",
+      "identifier": "arXiv:2608.10397",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2608.10397v2",
+      "locator": "§§1, 3.1, 3.3, 4; Theorems 1, 3, 4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§1 contributions",
+        "§3.1 Theorem 1 and construction opening",
+        "§3.3 Theorem 3 and fractional Pareto optimality definition",
+        "§4 Theorem 4 and valuation-type hypotheses",
+        "Current abstract and version history"
+      ],
+      "supported_claim": "Disjunctive fairness negatives concern nonadditive goods or require fractional Pareto optimality; the positive type-restricted result is also weaker than universal EFX.",
+      "independent_of_source_ids": [
+        "B25",
+        "AFM26",
+        "HV25",
+        "HT26",
+        "AZ26"
+      ],
+      "access_limitations": "Relevant definitions and theorem statements read; complete proof not independently verified."
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S145-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"envy free up to any good\" conjecture 2026 existence additive",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Broader optimization and allocation discovery"
+    },
+    {
+      "search_id": "S146-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "EFX complete additive valuations conjecture proof proved solved resolution counterexample disproof refutation 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "EFX status and original-source discovery"
+    },
+    {
+      "search_id": "S146-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"EFX\" \"zero\" \"existence\" \"2025\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "EFX status and original-source discovery"
+    },
+    {
+      "search_id": "S146-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "Caragiannis Kurokawa Moulin Procaccia Shah Wang unreasonable fairness maximum Nash welfare EFX pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "EFX status and original-source discovery"
+    },
+    {
+      "search_id": "S147-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"EFX\" \"additive\" \"existence\" \"2026\" proof counterexample resolved",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "EFX formulation, current status and strongest partial results"
+    },
+    {
+      "search_id": "S147-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"EFX\" \"additive\" \"2025\" \"2026\" \"approximation\" best",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "EFX formulation, current status and strongest partial results"
+    },
+    {
+      "search_id": "S147-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Caragiannis\" \"Procaccia\" \"Shah\" \"EFX\" solved proof",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "EFX formulation, current status and strongest partial results"
+    },
+    {
+      "search_id": "S147-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Complete EFX Allocations\" \"2608.08590\" correction withdrawn",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "EFX formulation, current status and strongest partial results"
+    },
+    {
+      "search_id": "S148-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"additive valuations\" \"EFX\" \"best known\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "EFX formulation, current status and strongest partial results"
+    },
+    {
+      "search_id": "S148-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"complete\" \"EFX\" \"0.618\" \"2025\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "EFX formulation, current status and strongest partial results"
+    },
+    {
+      "search_id": "S148-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Chaudhury\" \"Garg\" \"Mehlhorn\" \"EFX exists\" three agents",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "EFX formulation, current status and strongest partial results"
+    },
+    {
+      "search_id": "S149-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"EFX\" \"additive\" \"approximation\" \"Akrami\" \"2025\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "EFX formulation, current status and strongest partial results"
+    },
+    {
+      "search_id": "S149-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"EFX Exists for Three Types of Agents\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "EFX formulation, current status and strongest partial results"
+    },
+    {
+      "search_id": "S149-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"additive\" \"EFX\" \"best-known\" approximation",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "EFX formulation, current status and strongest partial results"
+    },
+    {
+      "search_id": "S149-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"additive\" \"EFX\" \"0.618\" \"improve\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "EFX formulation, current status and strongest partial results"
+    },
+    {
+      "search_id": "A25-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"EFX\" \"additive goods\" proof proved solved resolution counterexample disproof refutation",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+    },
+    {
+      "search_id": "A25-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"EFX0\" \"additive\" \"existence\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+    },
+    {
+      "search_id": "A25-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"envy-freeness up to any good\" \"complete\" \"2025\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+    },
+    {
+      "search_id": "A25-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Caragiannis\" \"Kurokawa\" \"Moulin\" \"EFX\" correction erratum",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+    },
+    {
+      "search_id": "A25-5",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Brânzei\" \"EFX\" correction proof gap withdrawal",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+    },
+    {
+      "search_id": "A25-6",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Alkassar\" \"Fouz\" \"Mehlhorn\" \"EFX\" correction withdrawn",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+    },
+    {
+      "search_id": "A25-7",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Pairwise Maximin Share Allocations Need Not Exist\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+    },
+    {
+      "search_id": "A25-8",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"EFX Exists for Three Types of Agents\" correction erratum",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "B25",
+      "theorem_locator": "§5 Proposition 1",
+      "claim_type": "exact local-search theorem",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "All agents have the same strictly positive item values; broader profiles only tested experimentally."
+      ],
+      "scope_relation": "strict_subclass",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not prove universal heterogeneous existence.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "AFM26",
+      "theorem_locator": "§1 Theorem 1",
+      "claim_type": "finite-size exact existence",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Four agents, at most nine goods; nonnegative real values, complete EFX0."
+      ],
+      "scope_relation": "strict_subclass",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Arbitrary numbers of goods and agents remain outside this theorem.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HV25",
+      "theorem_locator": "§1 Theorem 1 and §3 type definition",
+      "claim_type": "exact existence for three types",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Arbitrary population, at most three distinct additive valuation functions."
+      ],
+      "scope_relation": "strict_subclass",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "General instances can have four or more distinct valuation functions.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "AFR26",
+      "theorem_locator": "Theorems 4.4, 4.6, 5.1",
+      "claim_type": "approximate guarantees",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Factor 2/3 for multigraph instances, n<=7, or a common three-value alphabet."
+      ],
+      "scope_relation": "weaker_conclusion_and_restricted_models",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Factor multiplies the right-hand side; less than one does not imply EFX. Later exact multigraph result also remains restricted.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HT26",
+      "theorem_locator": "§2 Definition 2; §3 Theorem 1",
+      "claim_type": "counterexample for additive chores",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Disutilities; remove a chore from own bundle and compare remaining cost against another bundle."
+      ],
+      "scope_relation": "different_model",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Goods use nonnegative utility and removal from the envied bundle. Reversing utilities does not preserve these conditions.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "AMMSW26",
+      "theorem_locator": "§1 Theorem 2; §2 Proposition 1",
+      "claim_type": "submodular nonexistence",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Rank-based transformation has strictly diminishing marginals, rather than additive item values."
+      ],
+      "scope_relation": "larger_class_counterexample",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The transformation does not preserve additivity; no additive counterexample follows.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "MS26",
+      "theorem_locator": "Theorem 1.1; §3.2 Proposition 3.5",
+      "claim_type": "coverage-function counterexample",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Two distinct goods a,a_prime of type A satisfy u({a,a_prime})=u({a})=u({a_prime})>0."
+      ],
+      "scope_relation": "nonadditive_counterexample",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Explicit violation of additivity excludes this instance from the candidate domain.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "AAMMS26",
+      "theorem_locator": "§2 model and §3 result 3.4",
+      "claim_type": "exact multigraph existence",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Each edge-good can be positively valued only by its endpoints."
+      ],
+      "scope_relation": "strict_subclass",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "An unrestricted additive good may be valued by more than two agents.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "AFMMR26",
+      "theorem_locator": "Theorem 1.2; §2 Definition 2.7",
+      "claim_type": "complete epistemic EFX and EFL",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "For each agent, epistemic EFX permits a different repartition of the remaining goods as a certificate."
+      ],
+      "scope_relation": "weaker_conclusion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No common actual partition satisfying all EFX comparisons is guaranteed. EFL itself still concerns the actual allocation.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "AZ26",
+      "theorem_locator": "§1 Theorem 1; §3 Definition 1",
+      "claim_type": "additive PMMS counterexample",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "PMMS implies EFX but EFX need not imply PMMS."
+      ],
+      "scope_relation": "stronger_condition_counterexample",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Failure of PMMS cannot establish failure of EFX; source explicitly preserves the EFX question.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HKPV26",
+      "theorem_locator": "Theorems 1, 3, 4",
+      "claim_type": "disjunctive fairness results",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Theorem 1 has nonadditive submodular values.",
+        "Theorem 3 adds fractional Pareto optimality to additive EFX-or-MMS.",
+        "Theorem 4 yields EFX-or-MMS for an (n1,n2,1)-type instance."
+      ],
+      "scope_relation": "different_model_or_weaker_conclusion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither nonexistence theorem refutes unrestricted additive EFX, and the positive theorem does not establish it.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "bb94590c6a42221b61e898829f50ef49194e2235",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "290",
+        "difference": "General Santa Claus optimizes minimum utility with an algorithmic approximation guarantee; EFX is exact pairwise envy relaxation feasibility."
+      },
+      {
+        "id": "289",
+        "difference": "Unrelated-machine makespan minimizes maximum load, not pairwise fairness of allocated utility."
+      }
+    ],
+    "distinctness_reason": "Retained all-320 inventory and baseline full-page review; repeated EFX, envy-freeness and PMMS text/alias screening; fully reread 289 and 290. No existing EFX entry.",
+    "implications_or_equivalences": [
+      "Zero-inclusive and positive-good universal existence are counted once; positive perturbations and a finite allocation subsequence give the former from the latter.",
+      "Chores, partial allocations, algorithmic runtime, welfare and Pareto constraints are not additional variants counted here."
+    ]
+  },
+  "open_status_evidence_summary": "Explicit formulation in CKM16 and B25; independent HV25, HT26 and September 2026 AZ26 retain additive-goods existence as open. Current full-text comparisons cover the apparent 2026 positive and negative results, including September 15 HKPV26.",
+  "independent_status_corroboration": "B25, HV25, HT26 and AZ26 have mutually disjoint author groups and independently describe the remaining question. AFM26 corroborates exact finite scope but shares an author with several other partial-result sources, so those are not treated as independent of it.",
+  "strongest_known_partial_results_and_gap": "Exact existence for at most three valuation types and, in the August preprint, four agents with at most nine goods; exact multigraph existence. AFR26 July revision reports unrestricted factor (sqrt(5)-1)/2. No universal exact additive-goods theorem or matching counterexample located.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Full relevant mathematical statements accessed; complete proof verification is not claimed.",
+    "AFM26 and SAT counterexample certificates were not independently executed.",
+    "Original conference paper uses positive-good EFX; modern zero-inclusive definitions and equivalence are separately sourced.",
+    "Recent results are preprints where specified; publication and revision dates are distinct."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass by the researching agent; no independent agent or human review",
+    "reviewer_or_pass_identifier": "A25",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A25-1",
+      "A25-2",
+      "A25-3",
+      "A25-4",
+      "A25-5",
+      "A25-6",
+      "A25-7",
+      "A25-8"
+    ],
+    "issues_found": [
+      "Original EFX convention excludes zero-valued goods.",
+      "Recent additive-chore and submodular counterexamples may be confused with additive goods.",
+      "September PMMS and EFX-or-MMS results require direct implication and hypothesis checks.",
+      "Epistemic EFX is not EFX of the actual allocation; EFL does not itself allow hypothetical rearrangements.",
+      "HV25 locator changed between versions; AFR26 is a research paper, not a survey."
+    ],
+    "issues_resolved": [
+      "Read AFM26 Definition 1 and footnote 1; retain all nonnegative values and completeness.",
+      "Compared HT26 definition and theorem; exhibited nonadditivity in both submodular constructions.",
+      "Read AZ26 full Theorem 1 and model, and HKPV26 Theorems 1, 3, 4 with hypotheses.",
+      "Corrected the draft explanation of epistemic certificates.",
+      "Corrected current-version locators and bibliographic description; read AFR26 full restricted theorem statements."
+    ],
+    "verdict": "pass_for_research_draft"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "not_performed"
+  },
+  "public_page_path": null,
+  "validation_results": [
+    {
+      "checked_on": "2026-09-17",
+      "check": "Candidate JSON, source/search references and aggregate progress counts",
+      "result": "pass; 29 investigated, 24 accepted, five held, 689 unique search rows"
+    },
+    {
+      "checked_on": "2026-09-17",
+      "check": "Draft local links, math delimiters and KaTeX rendering",
+      "result": "pass; 13 math expressions rendered with throwOnError and strict error mode"
+    },
+    {
+      "checked_on": "2026-09-17",
+      "check": "python3 scripts/catalogue.py --check",
+      "result": "pass; active catalogue remains 320; draft has no active ID"
+    }
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": null,
+    "branch": null,
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/efx-additive-goods.md"
+}

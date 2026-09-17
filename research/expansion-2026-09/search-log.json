@@ -5190,5 +5190,325 @@
     "query": "\"polynomial Hirsch\" \"proved\" \"2026\" -site:theoremdb.org -site:mathconjectures.com -site:prove2.me",
     "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
     "review_stage": "Separated adversarial self-pass for polynomial Hirsch"
+  },
+  {
+    "search_id": "S143-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Traub Vygen 2024 approximation algorithms traveling salesman problems book pdf integrality gap 17 conjecture 2",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Asymmetric metric routing discovery and current-resolution check"
+  },
+  {
+    "search_id": "S143-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"asymmetric traveling salesman\" \"integrality gap\" \"2026\" proof conjecture",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Asymmetric metric routing discovery and current-resolution check"
+  },
+  {
+    "search_id": "S143-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"asymmetric travelling salesman\" \"gap\" \"two\" conjecture resolved",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Asymmetric metric routing discovery and current-resolution check"
+  },
+  {
+    "search_id": "S144-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"asymmetric traveling salesman\" \"integrality\" \"2\" conjecture proof disproof counterexample 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Asymmetric routing resolution and version checks"
+  },
+  {
+    "search_id": "S144-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"ATSP\" \"Held-Karp\" \"gap\" solved resolution refutation",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Asymmetric routing resolution and version checks"
+  },
+  {
+    "search_id": "S144-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Vygen\" \"2603.14334\" correction withdrawal erratum",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Asymmetric routing resolution and version checks"
+  },
+  {
+    "search_id": "S144-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Solving a Random Asymmetric TSP\" Bell Frieze pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Asymmetric routing resolution and version checks"
+  },
+  {
+    "search_id": "S145-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"thin tree conjecture\" proof solved counterexample 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Broader optimization and allocation discovery"
+  },
+  {
+    "search_id": "S145-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Goddyn\" \"thin tree\" conjecture resolution",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Broader optimization and allocation discovery"
+  },
+  {
+    "search_id": "S145-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"envy free up to any good\" conjecture 2026 existence additive",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Broader optimization and allocation discovery"
+  },
+  {
+    "search_id": "S146-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "EFX complete additive valuations conjecture proof proved solved resolution counterexample disproof refutation 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "EFX status and original-source discovery"
+  },
+  {
+    "search_id": "S146-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"EFX\" \"zero\" \"existence\" \"2025\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "EFX status and original-source discovery"
+  },
+  {
+    "search_id": "S146-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Caragiannis Kurokawa Moulin Procaccia Shah Wang unreasonable fairness maximum Nash welfare EFX pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "EFX status and original-source discovery"
+  },
+  {
+    "search_id": "A24-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"asymmetric traveling salesman\" \"integrality gap\" proof proved solved resolution counterexample disproof refutation",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+  },
+  {
+    "search_id": "A24-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"asymmetric travelling salesman\" \"integrality ratio\" \"2\" \"2026\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+  },
+  {
+    "search_id": "A24-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"ATSP\" \"subtour\" \"two\" \"conjecture\" proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+  },
+  {
+    "search_id": "A24-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Charikar\" \"Goemans\" \"Karloff\" \"integrality\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+  },
+  {
+    "search_id": "A24-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Sosso\" \"Bernardelli\" \"Gualandi\" \"cloven\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+  },
+  {
+    "search_id": "A24-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Vygen\" \"Better approximation guarantee\" withdrawn correction gap",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+  },
+  {
+    "search_id": "A24-7",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Boyd\" \"Elliott-Magwood\" \"ATSP\" \"gap\" proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+  },
+  {
+    "search_id": "A24-8",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"directed triangle inequality\" \"Held-Karp\" \"2\" conjecture solved",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for asymmetric TSP"
+  },
+  {
+    "search_id": "S147-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"EFX\" \"additive\" \"existence\" \"2026\" proof counterexample resolved",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "EFX formulation, current status and strongest partial results"
+  },
+  {
+    "search_id": "S147-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"EFX\" \"additive\" \"2025\" \"2026\" \"approximation\" best",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "EFX formulation, current status and strongest partial results"
+  },
+  {
+    "search_id": "S147-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Caragiannis\" \"Procaccia\" \"Shah\" \"EFX\" solved proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "EFX formulation, current status and strongest partial results"
+  },
+  {
+    "search_id": "S147-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Complete EFX Allocations\" \"2608.08590\" correction withdrawn",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "EFX formulation, current status and strongest partial results"
+  },
+  {
+    "search_id": "S148-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"additive valuations\" \"EFX\" \"best known\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "EFX formulation, current status and strongest partial results"
+  },
+  {
+    "search_id": "S148-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"complete\" \"EFX\" \"0.618\" \"2025\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "EFX formulation, current status and strongest partial results"
+  },
+  {
+    "search_id": "S148-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Chaudhury\" \"Garg\" \"Mehlhorn\" \"EFX exists\" three agents",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "EFX formulation, current status and strongest partial results"
+  },
+  {
+    "search_id": "S149-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"EFX\" \"additive\" \"approximation\" \"Akrami\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "EFX formulation, current status and strongest partial results"
+  },
+  {
+    "search_id": "S149-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"EFX Exists for Three Types of Agents\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "EFX formulation, current status and strongest partial results"
+  },
+  {
+    "search_id": "S149-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"additive\" \"EFX\" \"best-known\" approximation",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "EFX formulation, current status and strongest partial results"
+  },
+  {
+    "search_id": "S149-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"additive\" \"EFX\" \"0.618\" \"improve\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "EFX formulation, current status and strongest partial results"
+  },
+  {
+    "search_id": "A25-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"EFX\" \"additive goods\" proof proved solved resolution counterexample disproof refutation",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+  },
+  {
+    "search_id": "A25-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"EFX0\" \"additive\" \"existence\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+  },
+  {
+    "search_id": "A25-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"envy-freeness up to any good\" \"complete\" \"2025\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+  },
+  {
+    "search_id": "A25-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Caragiannis\" \"Kurokawa\" \"Moulin\" \"EFX\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+  },
+  {
+    "search_id": "A25-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Brânzei\" \"EFX\" correction proof gap withdrawal",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+  },
+  {
+    "search_id": "A25-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Alkassar\" \"Fouz\" \"Mehlhorn\" \"EFX\" correction withdrawn",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+  },
+  {
+    "search_id": "A25-7",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Pairwise Maximin Share Allocations Need Not Exist\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+  },
+  {
+    "search_id": "A25-8",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"EFX Exists for Three Types of Agents\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
   }
 ]
