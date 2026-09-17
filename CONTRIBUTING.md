@@ -1,6 +1,6 @@
 # Contributing
 
-This collection contains 300 distinct, precise research problems with an applied motivation and a traceable literature status. Corrections to an existing statement or its status are especially useful. The expansions (101–200 and 201–300) focus on applied mathematics and the established subject areas, excluding numerical linear algebra; the original 001–100 remain available.
+This collection contains distinct, precise research problems with an applied motivation and a traceable literature status. The generated README reports the current active count. Corrections to an existing statement or its status are especially useful. Further additions exclude numerical linear algebra; the original 001–300 and their review dates are preserved unless separately reviewed.
 
 ## Adding or revising a problem
 
@@ -27,3 +27,13 @@ python3 scripts/catalogue.py --check
 ```
 
 The check validates catalogue structure and local links. It does not verify proofs, certify open status, or check availability of external websites.
+
+### IDs, subject membership and publication batches
+
+`catalogue.json` (schema version 1) declares the twelve ordered subject groups and the publication batches. A group's `key` names its existing `data/KEY.json` file. Its `title` supplies the README heading. The metadata row fields are unchanged; membership comes from the containing file, independently of ID. New IDs can therefore appear in any subject group.
+
+Allocate permanent IDs only after admission, in a single integration pass above the largest active or retired identifier. Append every admitted ID to exactly one named batch's `ids` array in the manifest. Batches record publication history, not subject ranges; their counts and review-date ranges are derived from active metadata. Existing pages keep their IDs and paths.
+
+Never reuse an ID. If an entry is retired after a sourced correction, move its page into `research/`, repair incoming links, and add a `retired` record with `id`, `reason`, and a local `record` path. Keep its batch membership. The validator requires every issued ID to be either active or explicitly retired and rejects reuse, silent gaps, unindexed pages, and unregistered metadata files. Retirement decisions do not count as new problems.
+
+Run `python3 scripts/test_catalogue.py` when changing the catalogue machinery. The integrity tests operate on temporary copies and remove their fixtures automatically.
