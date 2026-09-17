@@ -2,7 +2,7 @@
 
 **Area:** Disordered quantum transport
 
-**Status:** Accepted; integrated as entry 314
+**Status:** Accepted; published as entry 314
 
 **Last checked:** 2026-09-17
 

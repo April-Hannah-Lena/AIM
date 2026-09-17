@@ -2,7 +2,7 @@
 
 **Area:** Quantum information and zero-error communication
 
-**Status:** Accepted; integrated as entry 313
+**Status:** Accepted; published as entry 313
 
 **Last checked:** 2026-09-17
 

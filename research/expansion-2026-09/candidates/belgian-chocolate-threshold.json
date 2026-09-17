@@ -382,20 +382,26 @@
     {
       "check": "external_links",
       "result": "54 distinct page URLs checked: 53 succeed, including Numdam GET fallback; one publisher DOI returns HTTP 403. Its institutional full-text copy succeeds. See batch-02-link-check.json."
+    },
+    {
+      "check": "staged_whitespace",
+      "result": "git diff --cached --check passed before the content commit."
     }
   ],
   "remote_publication": {
-    "state": "not_published",
+    "state": "published",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null,
-    "pull_request_url": null
+    "commit": "7e1c7d7de3bf58063c7578edb77cc84e323a03fd",
+    "pull_request_url": null,
+    "verification": "git push reported a normal fast-forward; git ls-remote independently returned the content commit on main.",
+    "date": "2026-09-17"
   },
   "draft_path": "research/expansion-2026-09/drafts/belgian-chocolate-threshold.md",
   "integration": {
     "batch": "expansion-2026-09-17-02",
     "date": "2026-09-17",
-    "state": "local_worktree",
+    "state": "published",
     "numerical_ids_assigned_centrally": true
   }
 }

@@ -2,7 +2,7 @@
 
 **Area:** Adaptive data structures and online computation
 
-**Status:** Accepted; integrated as entry 316
+**Status:** Accepted; published as entry 316
 
 **Last checked:** 2026-09-17
 

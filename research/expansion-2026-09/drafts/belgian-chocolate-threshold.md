@@ -2,7 +2,7 @@
 
 **Area:** Feedback control and polynomial stability
 
-**Status:** Accepted; integrated as entry 319
+**Status:** Accepted; published as entry 319
 
 **Last checked:** 2026-09-17
 

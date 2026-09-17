@@ -1,6 +1,6 @@
 # September 2026 expansion research
 
-The active catalogue contains 320 entries: the original 300 and twenty accepted additions. Batch 1 (301–310) is published on `main`; batch 2 (311–320) is integrated locally and undergoing final validation before its authorized direct push. The requested expansion remains 200–300 new problems, with a working target of 250. At least 180 further additions are needed.
+The active catalogue contains 320 entries: the original 300 and twenty accepted additions. Both ten-entry batches (301–310 and 311–320) are published directly on `main`. The requested expansion remains 200–300 new problems, with a working target of 250. At least 180 further additions are needed.
 
 - [Progress and reading coverage](progress.json): authoritative counts, publication state and next actions.
 - [Baseline inventory](baseline-inventory.json): all 300 original statements, metadata and page hashes at `a602073d986b7f5ce57b1aa0db1687d1bd87761d`.

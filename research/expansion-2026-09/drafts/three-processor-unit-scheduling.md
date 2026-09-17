@@ -2,7 +2,7 @@
 
 **Area:** Scheduling and operations research
 
-**Status:** Accepted; integrated as entry 312
+**Status:** Accepted; published as entry 312
 
 **Last checked:** 2026-09-17
 

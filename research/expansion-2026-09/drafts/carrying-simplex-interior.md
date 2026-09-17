@@ -2,7 +2,7 @@
 
 **Area:** Mathematical biology and dynamical systems
 
-**Status:** Accepted; integrated as entry 311
+**Status:** Accepted; published as entry 311
 
 **Last checked:** 2026-09-17
 

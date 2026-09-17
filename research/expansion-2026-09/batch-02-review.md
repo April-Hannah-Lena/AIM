@@ -21,7 +21,7 @@ The refresh inspected the 2026 LPN hardness-amplification reductions, which assu
 | 319 | Belgian chocolate threshold | inverse |
 | 320 | Ruskai–Audenaert channel decomposition | spectral3 |
 
-There are now 20 accepted and locally integrated additions, 320 active entries and four held candidates without numerical IDs. At least 180 further additions are needed for the requested minimum; the working target of 250 requires 230 more. All twelve primary sections have at least one accepted addition. No new numerical-linear-algebra problem is included.
+There are now 20 accepted and published additions, 320 active entries and four held candidates without numerical IDs. At least 180 further additions are needed for the requested minimum; the working target of 250 requires 230 more. All twelve primary sections have at least one accepted addition. No new numerical-linear-algebra problem is included.
 
 ## Integration and validation
 
@@ -32,11 +32,12 @@ Permanent IDs were assigned centrally after admission. Before integration, `git 
 - Research counts agree: 24 investigated records, 20 accepted and integrated, and four holds. Section counts, numerical IDs, accepted page paths and batch-2 archived draft paths agree.
 - All 194 mathematics expressions in the ten new pages parsed with KaTeX without errors. All ten statements were visually inspected in five browser screenshots; equations were legible and unclipped. Temporary rendering assets remain outside the repository. This checks typesetting, not mathematical truth.
 - Checked 54 distinct new-page URLs. Of these, 53 succeeded, including a Numdam URL that rejected HEAD and succeeded with GET. One publisher DOI returned HTTP 403; the institutional full-text copy used for source review remains accessible. The [link report](batch-02-link-check.json) records the attempts and limitation.
+- The staged whitespace check passed before the content commit.
 - The catalogue machinery is unchanged; its 17 regression tests passed in batch 1. No new machinery tests were required by `CONTRIBUTING.md`.
 
 ## Publication
 
-Pending final validation and the authorized direct push to `main`.
+Content commit [`7e1c7d7`](https://github.com/MColbrook/AIM/commit/7e1c7d7de3bf58063c7578edb77cc84e323a03fd) was pushed directly to `main` on 2026-09-17. Git reported a normal fast-forward from `7fe62d5`, and `git ls-remote --heads origin main` independently returned the new content commit. No remote work was overwritten and no PR was created.
 
 ## Limits
 

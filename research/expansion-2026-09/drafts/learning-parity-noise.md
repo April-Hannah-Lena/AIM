@@ -2,7 +2,7 @@
 
 **Area:** Statistical learning and average-case computational complexity
 
-**Status:** Accepted; integrated as entry 317
+**Status:** Accepted; published as entry 317
 
 **Last checked:** 2026-09-17
 

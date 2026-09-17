@@ -2,7 +2,7 @@
 
 **Area:** Statistical learning and combinatorial dimension
 
-**Status:** Accepted; integrated as entry 318
+**Status:** Accepted; published as entry 318
 
 **Last checked:** 2026-09-17
 

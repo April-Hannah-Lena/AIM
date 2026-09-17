@@ -2,7 +2,7 @@
 
 **Area:** Quantum information and channel simulation
 
-**Status:** Accepted; integrated as entry 320
+**Status:** Accepted; published as entry 320
 
 **Last checked:** 2026-09-17
 

@@ -70,11 +70,15 @@
     {
       "commit": "7fe62d5",
       "purpose": "Record reviewed sample-compression and stabilization-threshold drafts; pushed directly to main."
+    },
+    {
+      "commit": "7e1c7d7de3bf58063c7578edb77cc84e323a03fd",
+      "purpose": "Integrate entries 311–320 with source audits and batch validation; pushed directly to main."
     }
   ],
-  "remote_state": "Before batch 2, origin/main and the only remote branch were verified at 7fe62d53378cb3f5ebbe7caeda9f3a4d72039395. Open PR search returned none. Direct pushes remain authorized; no PR is required.",
+  "remote_state": "Batch 2 content was pushed directly to main at 7e1c7d7de3bf58063c7578edb77cc84e323a03fd and independently verified with git ls-remote. No PR was created. Direct pushes remain authorized.",
   "next_actions": [
-    "Complete batch 2 catalogue, bibliography and rendered-math checks; commit and push directly to main, then continue broader discovery.",
+    "Continue broader discovery toward at least 200 new problems, integrating and pushing further reviewed batches directly to main.",
     "All ten handoff seeds investigated: eight accepted drafts, Morrey and Yang–Mills held on matching unadjudicated claims.",
     "Discover candidates across all twelve sections, with deliberate biology, statistics, information, control, operations-research and stochastic-network coverage.",
     "Refresh resolution searches and upstream duplicate checks before each later batch; assign permanent IDs centrally after acceptance."
@@ -95,8 +99,8 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 20,
-  "count_semantics": "Twenty accepted additions: ten published in batch 1 and ten integrated locally in batch 2 awaiting validation and direct push. Active total is 320; held records do not count.",
+  "count_semantics": "Twenty accepted additions are integrated and published on main in two ten-entry batches. Active total is 320; held records do not count.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
-  "new_published": 10,
+  "new_published": 20,
   "coverage_semantics": "Accepted additions by primary section, including accepted drafts awaiting integration."
 }

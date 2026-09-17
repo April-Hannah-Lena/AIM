@@ -2,7 +2,7 @@
 
 **Area:** Chemical reaction–diffusion / continuum biology
 
-**Status:** Accepted; integrated as entry 315
+**Status:** Accepted; published as entry 315
 
 **Last checked:** 2026-09-17
 
