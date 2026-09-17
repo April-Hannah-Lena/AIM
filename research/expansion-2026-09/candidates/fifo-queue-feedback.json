@@ -1,0 +1,282 @@
+{
+  "candidate_id": "fifo-queue-feedback",
+  "proposed_catalogue_id": null,
+  "title": "Feedback gain for FIFO timing channels with non-exponential service",
+  "aliases": [
+    "Anantharam–Verdú feedback conjecture",
+    "bits through queues",
+    "FIFO queue-channel capacity",
+    "departure-feedback gain"
+  ],
+  "primary_section": "stochastic3",
+  "secondary_tags": [
+    "information theory",
+    "queueing theory",
+    "communication networks"
+  ],
+  "decision": "hold_unverified",
+  "decision_reason": "Separated adversarial self-pass found a shifted-exponential obstruction to the proposed universal formulation. Do not accept this statement. A precisely sourced repair with independent status corroboration is still needed.",
+  "problem_fingerprint": {
+    "model_or_objects": "Initially empty FIFO single-server queue; message encoded only by packet times; iid nonnegative service",
+    "dimension": "Continuous time; arbitrary block length n",
+    "domain": "Arrival times 0<=a1<=...<=an; d0=0; di=max(ai,d(i-1))+Si",
+    "regularity_and_data_class": "Absolutely continuous S; finite positive mean and finite differential entropy",
+    "boundary_or_initial_conditions": "Initially empty, work-conserving, nonpreemptive server, unlimited waiting buffer",
+    "parameter_range": "Every such non-exponential service law, including unbounded support",
+    "quantifiers": "For every admissible non-exponential S, C_F(S)>C(S)",
+    "normalization": "log2(M_n)/T_n, E[d_n]<=T_n; average over uniform messages and service",
+    "observable_or_norm": "Supremum achievable rate with average decoding error tending to zero",
+    "limit_regime_and_order": "Fix S, take block lengths and T_n to infinity with error tending to zero, then supremize rates",
+    "requested_conclusion": "Strict advantage from instantaneous noiseless causal departure feedback",
+    "computational_model_and_dependencies": "Unrestricted coding/decoding; causal feedback; no packet payload, no secrecy constraint, no computational bound"
+  },
+  "statement_source_and_scope_match": "AV §III p.14 poses strict feedback gain outside exponential service; ST §I restates the hypothesis and §V leaves unbounded service laws unresolved. Absolute continuity and finite differential entropy exclude infinite-capacity singular/degenerate cases. One general continuous-time conjecture; do not count individual distributions or the discrete-time analogue separately.",
+  "proposed_statement_text": "Let S be a nonnegative absolutely continuous service time with 0<E[S]<infinity and finite differential entropy. For the initially empty, work-conserving FIFO single-server timing channel d_i=max(a_i,d_(i-1))+S_i with iid service independent of the message, define C(S) and C_F(S) as vanishing-average-error capacities in bits per expected time of the final departure, respectively without feedback and with causal noiseless instantaneous departure feedback. If S is not exponential, must C_F(S)>C(S)?",
+  "applied_significance": "Determines whether acknowledgement timing can increase the asymptotic throughput of information encoded in packet arrival times through a stochastic server.",
+  "application_evidence_source_ids": [
+    "AV",
+    "ST"
+  ],
+  "source_records": [
+    {
+      "source_id": "AV",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Venkat Anantharam",
+        "Sergio Verdú"
+      ],
+      "title": "Bits through queues",
+      "venue_or_repository": "published article",
+      "publication_type": "published article",
+      "publication_date": "1996-01",
+      "latest_version_date": null,
+      "identifier": "IEEE Transactions on Information Theory 42(1) (1996), 4–18; DOI 10.1109/18.481773",
+      "version": null,
+      "stable_url": "https://people.eecs.berkeley.edu/~ananth/1996-1998/Sergio/BTQ96.pdf",
+      "locator": "§II.A Definitions 1–3 and Theorem 1, p.6; §III Definitions 4–5, Theorem 8, Eqs. (3.2)–(3.4) and penultimate discussion on p.14",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§II.A Definitions 1–3 and Theorem 1, p.6; §III Definitions 4–5, Theorem 8, Eqs. (3.2)–(3.4) and penultimate discussion on p.14"
+      ],
+      "supported_claim": "Original operational model, feedback expression, and conjectural strictness outside exponential service.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Initial download timed out; alternate www.eecs author URL succeeded. OCR used for discovery; complete pp.6 and 14 rendered and visually read. No remaining access limitation for decisive model or conjecture."
+    },
+    {
+      "source_id": "ST",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "K. R. Sahasranand",
+        "Aslan Tchamkerten"
+      ],
+      "title": "Feedback Increases the Capacity of Queues with Bounded Service Times",
+      "venue_or_repository": "author manuscript of published article",
+      "publication_type": "author manuscript of published article",
+      "publication_date": "2024-10",
+      "latest_version_date": "2024-06-30",
+      "identifier": "arXiv:2309.14145v2; IEEE Transactions on Information Theory 70(10) (2024), 6823–6833",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2309.14145v2",
+      "locator": "§I; §II Definitions 1–3, Propositions 1–3; §III Theorems 1–3; §V",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§I; §II Definitions 1–3, Propositions 1–3; §III Theorems 1–3; §V"
+      ],
+      "supported_claim": "Independent status assessment and bounded-support partial result; explicitly open unbounded-support case.",
+      "independent_of_source_ids": [
+        "AV"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "arXiv abstract record: v1 2023-09-25; latest v2 2024-06-30. Author LINCS bibliography confirms 2024 journal publication; no later version listed."
+    },
+    {
+      "source_id": "AT",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Laure Aptel",
+        "Aslan Tchamkerten"
+      ],
+      "title": "Bits Through Queues With Feedback",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2017-10-17",
+      "latest_version_date": "2017-10-17",
+      "identifier": "arXiv:1710.06190v1; later journal article DOI 10.1109/TIT.2020.2970421",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/1710.06190v1",
+      "locator": "§§1–2 Definitions 1–3; §3 Theorems 3, 6, 8, 9 and Corollary 10",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1–2 Definitions 1–3; §3 Theorems 3, 6, 8, 9 and Corollary 10"
+      ],
+      "supported_claim": "Sufficient feedback-gain condition, uniform-service example, and distinct LCFS result.",
+      "independent_of_source_ids": [
+        "AV"
+      ],
+      "access_limitations": "The v1 Theorem 8 text has a displayed lambda>mu typo, inconsistent with its model. Candidate does not use this typo or claim a full proof from it.",
+      "version_history_checked": "arXiv abstract record lists v1 only. Later journal bibliographic record checked, but journal full text not used; locators refer to v1."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Web search, arXiv latest-version records/full HTML, author bibliography and original scanned PDF",
+      "query": "S33-2, S34-1–2, S35-1 and S36–S42 in ../search-log.json",
+      "date_filter_or_unrestricted": "Unrestricted, with literal 2025/2026 and proof/counterexample/disproof/refutation/erratum variants",
+      "results_inspected": [
+        "AV",
+        "ST",
+        "AT"
+      ],
+      "outcome": "Bounded-support partial results, a separate bound conjecture refutation and LCFS equality located; no matching full resolution located.",
+      "limitations": "Several tightly constrained searches returned no exact matches. Search absence does not establish openness; accepted status also requires independent scholarly evidence and the separate review."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "AV",
+      "theorem_locator": "§III, Theorem 8, Eq. (3.4) and discussion p.14",
+      "claim_type": "exact_feedback_capacity_only",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Formula computes feedback capacity.",
+        "The no-feedback capacity has only the corresponding upper bound.",
+        "Exponential equality is a special case."
+      ],
+      "scope_relation": "The formula alone supplies neither strictness nor a counterexample for non-exponential service.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The formula alone supplies neither strictness nor a counterexample for non-exponential service.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "ST",
+      "theorem_locator": "§III, Theorem 2",
+      "claim_type": "bounded_support_partial_result",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Continuous-time service has support [a,b], b finite.",
+        "Either a>0 or a>=0 with density continuous on [a,b].",
+        "The candidate also permits unbounded support."
+      ],
+      "scope_relation": "Proves feedback advantage under these bounded-support hypotheses; does not cover arbitrary unbounded density.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Proves feedback advantage under these bounded-support hypotheses; does not cover arbitrary unbounded density.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "ST",
+      "theorem_locator": "§III, Theorem 3 and discussion; §V",
+      "claim_type": "different_conjecture_refuted",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Theorem compares two supremal entropy bounds.",
+        "It does not give an achievable no-feedback coding scheme.",
+        "The authors explicitly retain both possibilities C_WF<C_F and C_WF=C_F."
+      ],
+      "scope_relation": "Refutation of the earlier bound-equality conjecture does not refute strict actual-capacity gain. No inferred equality from matching bounds.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Refutation of the earlier bound-equality conjecture does not refute strict actual-capacity gain. No inferred equality from matching bounds.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "AT",
+      "theorem_locator": "§3.2, Theorem 9 and Corollary 10",
+      "claim_type": "different_service_discipline",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "LCFS corollary uses preemption when a newer packet arrives.",
+        "Candidate is nonpreemptive FIFO.",
+        "The general entropy-rate condition is only sufficient."
+      ],
+      "scope_relation": "No FIFO non-exponential counterexample follows from the LCFS corollary.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No FIFO non-exponential counterexample follows from the LCFS corollary.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "142",
+        "difference": "Binary multiplying two-way channel is a different discrete memoryless interaction model."
+      },
+      {
+        "id": "143",
+        "difference": "Gaussian relay capacity concerns a multi-terminal additive-noise channel, without this random-server timing model."
+      },
+      {
+        "id": "144",
+        "difference": "Deletion capacity concerns random symbol loss rather than random waiting/service times."
+      }
+    ],
+    "distinctness_reason": "No baseline entry, pending accepted draft or exclusion has this operational FIFO timing-channel capacity comparison.",
+    "implications_or_equivalences": [
+      "Do not add separate queue-capacity entries for particular non-exponential distributions, weak-feedback bounds, or equivalent telephone timing formulations without a genuinely distinct question."
+    ]
+  },
+  "open_status_evidence_summary": "Sources describe a general conjecture, but the candidate formulation cannot yet pass a direct mathematical check. Keep outside accepted count.",
+  "independent_status_corroboration": "ST authors K. R. Sahasranand and Aslan Tchamkerten are distinct from both AV authors. AT overlaps ST and is not counted as a third independent assessment.",
+  "strongest_known_partial_results_and_gap": "Exponential service has no feedback gain. ST Theorem 2 treats bounded interval-supported densities under its stated endpoint/continuity hypotheses. ST Theorem 3 concerns equality of optimization bounds, not equality of capacities; its §V explicitly leaves unbounded service unresolved.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "AV scanned source recovered through alternate author URL and OCR plus visual inspection; no remaining access barrier to the decisive p.14 statement.",
+    "AT later published version not read; only precisely located arXiv v1 conclusions used.",
+    "Review limitation: shifted-exponential reasoning is an internal mathematical audit, not an independently published resolution; neither a repaired conjecture nor a public open page is approved."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass",
+    "reviewer_or_pass_identifier": "A8",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A8-1",
+      "A8-2",
+      "A8-3",
+      "A8-4",
+      "A8-5",
+      "A8-6",
+      "A8-7",
+      "A8-8",
+      "A8-9",
+      "A8-10"
+    ],
+    "issues_found": [
+      "The universal statement includes S=a+E with a>0 and E exponential. For any exponential-queue no-feedback code with arrivals b_i and departures z_i, arrivals a_i=b_i+(i-1)a through the shifted-service queue yield departures d_i=z_i+i*a, by the FIFO recursion. The code conveys the same message with total duration increased by n*a. The feedback capacity expression also transforms by precisely that time cost. This appears to give no feedback gain for a non-exponential law.",
+      "Finite differential entropy does not exclude shifted exponentials.",
+      "No independent source was found confirming a repaired essential-infimum-zero formulation.",
+      "Bound equality is not operational capacity equality; LCFS remains a distinct model."
+    ],
+    "issues_resolved": [
+      "Read AV pp.6 and 14 visually, retaining the expected final-departure normalization.",
+      "Distinguished the bounded-support theorem and the bound-conjecture refutation from the proposed universal claim."
+    ],
+    "verdict": "hold_unverified"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "codex/expand-open-problems-2026-09",
+    "commit": null,
+    "pull_request_url": null
+  }
+}

@@ -198,5 +198,13 @@
     "file": "problems/175-euler-sustained-double-exponential-growth.md",
     "status": "Open in cited literature; no later resolution located",
     "last_checked": "2026-09-08"
+  },
+  {
+    "id": "308",
+    "title": "Global classical solutions of the spatially inhomogeneous Landau–Coulomb equation",
+    "area": "Fluids, kinetic theory and continuum mechanics",
+    "file": "problems/308-landau-coulomb-inhomogeneous.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

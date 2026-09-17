@@ -1,0 +1,413 @@
+{
+  "candidate_id": "li-li-multiple-unicast",
+  "proposed_catalogue_id": "309",
+  "title": "The Li–Li multiple-unicast conjecture",
+  "aliases": [
+    "undirected k-pairs conjecture",
+    "multiple-unicast conjecture",
+    "network coding versus multicommodity flow"
+  ],
+  "primary_section": "inverse3",
+  "secondary_tags": [
+    "information theory",
+    "communication networks",
+    "operations research"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Precise source-matched formulation, independent specialist status, resolution/scope checks, completed baseline duplicate review and separated adversarial self-pass passed. Await first-batch refresh and integration.",
+  "problem_fingerprint": {
+    "model_or_objects": "Finite connected undirected graph G=(V,E), capacities c_e >= 0, k independent unicast messages with specified pairs (s_i,t_i)",
+    "dimension": "Arbitrary finite graph and finite k",
+    "domain": "All such graphs, capacities and source-destination pairs, s_i != t_i",
+    "regularity_and_data_class": "Noiseless links; independent messages; arbitrary nonlinear causal coding allowed",
+    "boundary_or_initial_conditions": "Initially each source knows its own message; each sink requests that message alone",
+    "parameter_range": "All nonnegative rate vectors r; terminal locations may coincide across sessions",
+    "quantifiers": "For every G,c and session collection, every achievable coding rate vector is fractionally routable",
+    "normalization": "Sum of both directional communication rates on an undirected edge is at most c_e",
+    "observable_or_norm": "Asymptotic zero-error throughput region",
+    "limit_regime_and_order": "Closure over finite block codes and common packet/block scaling; no bound on completion latency",
+    "requested_conclusion": "C_NC(G,c,H)=C_MCF(G,c,H)",
+    "computational_model_and_dependencies": "Unrestricted local computation, deterministic causal coding, arbitrary packet splitting for routing; no linear-code restriction"
+  },
+  "statement_source_and_scope_match": "LL §3.2 Proposition 3.1 is explicitly conjectural despite its proposition label. LQLL §III Conjecture 1 restates the capacity-region equality; cost-domain equivalents count as one problem.",
+  "proposed_statement_text": "For every finite undirected capacitated graph and finite collection of independent unicast sessions, is the zero-error network-coding throughput region equal to the fractional multicommodity-flow region, with both directions sharing each edge capacity?",
+  "applied_significance": "Determines whether mixing independent data streams at routers can increase sustained transmission rates over optimal fractional packet routing in bidirectional networks.",
+  "application_evidence_source_ids": [
+    "LL",
+    "LQLL",
+    "BH"
+  ],
+  "source_records": [
+    {
+      "source_id": "LL",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Zongpeng Li",
+        "Baochun Li"
+      ],
+      "title": "Network Coding: The Case of Multiple Unicast Sessions",
+      "venue_or_repository": "conference paper",
+      "publication_type": "conference paper",
+      "publication_date": "2004-09-29",
+      "latest_version_date": null,
+      "identifier": "42nd Allerton Conference (2004); archival handle 2142/131797",
+      "version": null,
+      "stable_url": "https://iqua.ece.utoronto.ca/papers/allerton04.pdf",
+      "locator": "§3.2, pp. 4–6, particularly Proposition 3.1; §4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§3.2, pp. 4–6, particularly Proposition 3.1; §4"
+      ],
+      "supported_claim": "Original conjecture and equivalent cost formulations; directed and integral variants differ.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "LQLL",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Sirui Liu",
+        "Li Que",
+        "Zongpeng Li",
+        "Baochun Li"
+      ],
+      "title": "On the Multiple-Unicast Conjecture: Beyond Cut Metrics",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-08-06",
+      "latest_version_date": "2026-08-06",
+      "identifier": "arXiv:2608.06070v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2608.06070v1",
+      "locator": "§III-A–C, Conjectures 1–2; Theorems 1, 3–8; §VII",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§III-A–C, Conjectures 1–2; Theorems 1, 3–8; §VII"
+      ],
+      "supported_claim": "Precise zero-error model and recent restricted results; general conjecture explicitly open.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "arXiv abstract record read; v1 only as accessed on 2026-09-17."
+    },
+    {
+      "source_id": "BH",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Mark Braverman",
+        "Zhongtian He"
+      ],
+      "title": "Undirected Multicast Network Coding Gaps via Locally Decodable Codes",
+      "venue_or_repository": "conference preprint",
+      "publication_type": "conference preprint",
+      "publication_date": "2025-10-21",
+      "latest_version_date": "2025-10-21",
+      "identifier": "arXiv:2510.18737v1; FOCS 2025",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2510.18737v1",
+      "locator": "§§1–1.2, Theorems 1.1–1.2, Lemma 1.5 and Appendix A",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1–1.2, Theorems 1.1–1.2, Lemma 1.5 and Appendix A"
+      ],
+      "supported_claim": "Independent status corroboration; multicast throughput gaps do not refute unicast.",
+      "independent_of_source_ids": [
+        "LL",
+        "LQLL"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "arXiv abstract record read; v1 only as accessed on 2026-09-17."
+    },
+    {
+      "source_id": "LLFC",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Sirui Liu",
+        "Zongpeng Li",
+        "Xiying Fan",
+        "Haifeng Chen"
+      ],
+      "title": "A Session Interaction Framework for The Multiple-Unicast Conjecture",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-08-06",
+      "latest_version_date": "2026-08-06",
+      "identifier": "arXiv:2608.06042v1; ISIT 2026 presentation",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2608.06042v1",
+      "locator": "§II model and Theorem II.1; §III Theorems III.1–III.7; §IV",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§II model and Theorem II.1; §III Theorems III.1–III.7; §IV"
+      ],
+      "supported_claim": "Universal conjecture equivalent to universal independence of irreducible cores; independence not proved universally.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "arXiv abstract record read; v1 only as accessed on 2026-09-17."
+    },
+    {
+      "source_id": "HWZ",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Bernhard Haeupler",
+        "David Wajc",
+        "Goran Zuzic"
+      ],
+      "title": "Network Coding Gaps for Completion Times of Multiple Unicasts",
+      "venue_or_repository": "author manuscript",
+      "publication_type": "author manuscript",
+      "publication_date": "2020",
+      "latest_version_date": null,
+      "identifier": "arXiv:1905.02805; FOCS 2020",
+      "version": null,
+      "stable_url": "https://www.cs.cmu.edu/~dwajc/pdfs/haeupler19.pdf",
+      "locator": "§1, Theorems 1.2–1.3; §1.3; Appendix A, Definition A.1 and Observation A.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1, Theorems 1.2–1.3; §1.3; Appendix A, Definition A.1 and Observation A.2"
+      ],
+      "supported_claim": "Finite-packet makespan separation does not establish asymptotic throughput separation.",
+      "independent_of_source_ids": [
+        "LL",
+        "LQLL",
+        "BH"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "arXiv latest v3 dated April 29, 2020; theorem locators refer to separately accessed author PDF, not an asserted byte-identical mirror."
+    },
+    {
+      "source_id": "CTL",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Cheuk Ting Li"
+      ],
+      "title": "Undecidability of Network Coding, Conditional Information Inequalities, and Conditional Independence Implication",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2022-05-23",
+      "latest_version_date": "2022-05-29",
+      "identifier": "arXiv:2205.11461v3; DOI 10.1109/TIT.2023.3247570",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/pdf/2205.11461v3",
+      "locator": "§IV, pp. 11–12, network definition and Theorems 22–23",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§IV, pp. 11–12, network definition and Theorems 22–23"
+      ],
+      "supported_claim": "Solvability undecidability is for directed acyclic networks with general message demands; not the undirected unicast region.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "arXiv v1 May 23, v2 May 25, v3 May 29, 2022; journal metadata identifies IEEE TIT 69(6), June 2023. Locators refer to v3."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "query": "S43–S46 and A9-1 through A9-11 in ../search-log.json",
+      "discovery_route": "web search and primary author/arXiv full text",
+      "date_filter_or_unrestricted": "unrestricted; explicit 2025/2026 terms where recorded",
+      "results_inspected": [
+        "LL",
+        "LQLL",
+        "BH",
+        "LLFC",
+        "HWZ",
+        "CTL"
+      ],
+      "outcome": "No matching full-resolution claim located; scope comparisons recorded.",
+      "limitations": "Search absence alone is not openness evidence."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "LQLL",
+      "theorem_locator": "Theorems 3–8",
+      "claim_type": "restricted_results_and_conditional_reduction",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Theorem 3 requires a suitable metric decomposition, not shown for every instance.",
+        "Theorems 4–7 restrict terminal locations, embedding, demand graph or coding-node count.",
+        "Theorem 8 assumes the conjecture on Gamma_3,3 before deducing the matching-number-two class."
+      ],
+      "scope_relation": "None covers every undirected capacitated graph and session family.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "None covers every undirected capacitated graph and session family.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BH",
+      "theorem_locator": "Theorem 1.1 and Lemma 1.5",
+      "claim_type": "different_demand_model",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Each independent message may be requested by multiple sinks.",
+        "Candidate has exactly one destination per independent message; duplicating a message as correlated unicasts violates independence."
+      ],
+      "scope_relation": "Multicast coding gap is not a unicast counterexample.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Multicast coding gap is not a unicast counterexample.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "LLFC",
+      "theorem_locator": "Theorems III.2–III.7",
+      "claim_type": "conditional_characterization",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Theorem III.2 requires every irreducible core to be independent for every weight vector.",
+        "Theorems III.3–III.7 require cycle geometry, decoupling or cut topology.",
+        "Definition III.1 includes a conference-version quantifier correction to a common optimal solution; this does not supply universal independence."
+      ],
+      "scope_relation": "An equivalence to another unproved property does not settle the conjecture.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "An equivalence to another unproved property does not settle the conjecture.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HWZ",
+      "theorem_locator": "Theorems 1.2–1.3 and Appendix A",
+      "claim_type": "different_objective",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "The lower bound compares completion times for finite packet demands.",
+        "Candidate compares asymptotic throughput under common demand scaling; Appendix A separates the models."
+      ],
+      "scope_relation": "Finite completion-time gains do not imply persistent throughput gains.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Finite completion-time gains do not imply persistent throughput gains.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CTL",
+      "theorem_locator": "Theorems 22–23 and §IV definition",
+      "claim_type": "different_network_model",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Directed acyclic multigraph, prescribed edge directions, general source/demand subsets.",
+        "Undirected edges with a shared bidirectional budget and independent one-destination sessions are not covered."
+      ],
+      "scope_relation": "General directed solvability undecidability does not refute equality in the specified undirected subclass.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "General directed solvability undecidability does not refute equality in the specified undirected subclass.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "142",
+        "difference": "Binary multiplying two-way channel has a fixed noisy/interactive channel law; no arbitrary noiseless network comparison."
+      },
+      {
+        "id": "143",
+        "difference": "Gaussian relay channel concerns a different noisy three-node capacity question."
+      },
+      {
+        "id": "144",
+        "difference": "Binary deletion channel is a single stochastic channel."
+      },
+      {
+        "id": "270",
+        "difference": "Cycle-graph Shannon capacity is a zero-error confusability product problem, not network routing."
+      },
+      {
+        "id": "log-rank",
+        "difference": "Two-party deterministic communication versus matrix rank, not a network throughput region."
+      }
+    ],
+    "distinctness_reason": "No baseline statement or accepted draft asserts coding/routing equality for all undirected independent-unicast networks.",
+    "implications_or_equivalences": [
+      "Cost-domain inequality and throughput-domain equality are one canonical conjecture. Restricted graph subcases are not counted separately."
+    ]
+  },
+  "open_status_evidence_summary": "LQLL August 2026 explicitly retains the general conjecture; independent BH October 2025 distinguishes its multicast separation from the unresolved unicast problem.",
+  "independent_status_corroboration": "Braverman and He have no authors in common with the original Li–Li paper or LQLL. HWZ also independently distinguishes completion-time gains from unicast throughput.",
+  "strongest_known_partial_results_and_gap": "LQLL covers at most five terminal locations, designated-face planar cases, restricted demand graphs and at most six coding nodes. General undirected networks remain outside those theorems.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Yang et al., IEEE Communications Letters 18(5) (2014), 869–872, DOI 10.1109/LCOMM.2014.040214.140280, located at bibliographic level only; not used for a theorem claim or status corroboration. No matching full-resolution assertion located."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass by the primary agent; no independent agent or human review",
+    "reviewer_or_pass_identifier": "A9 plus final quantifier and model review",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A9-1",
+      "A9-2",
+      "A9-3",
+      "A9-4",
+      "A9-5",
+      "A9-6",
+      "A9-7",
+      "A9-8",
+      "A9-9",
+      "A9-10",
+      "A9-11"
+    ],
+    "issues_found": [
+      "Edge directions must share one budget.",
+      "Independent unicast differs from multicast copies of the same message.",
+      "Exact recovery and asymptotic throughput must be distinguished from epsilon-error and completion-time models.",
+      "Original Proposition 3.1 is explicitly conjectural.",
+      "2026 interaction theorem is an equivalence, not a universal proof.",
+      "2014 note by Yang et al. located at metadata level only; no full-resolution claim located, and later independent BH plus LQLL still explicitly leave the general conjecture open."
+    ],
+    "issues_resolved": [
+      "Draft defines shared capacities, arbitrary causal nonlinear codes, asymptotic packet scaling and fractional routing.",
+      "Full statements of all located apparent recent resolution results were compared. Cost and throughput equivalents counted once."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": "2026-09-17",
+    "latest_target_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R1-9",
+      "R1-11",
+      "R1-13"
+    ],
+    "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented."
+  },
+  "public_page_path": "problems/309-li-li-multiple-unicast.md",
+  "validation_results": [
+    {
+      "date": "2026-09-17",
+      "check": "Batch 1 catalogue validation, 17 integrity tests, baseline preservation, bibliography links and rendered math",
+      "result": "pass",
+      "record": "research/expansion-2026-09/batch-01-review.md"
+    }
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "codex/expand-open-problems-2026-09",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/li-li-multiple-unicast.md",
+  "integration": {
+    "batch": "expansion-2026-09-17-01",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
+  }
+}

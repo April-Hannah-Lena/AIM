@@ -198,5 +198,13 @@
     "file": "problems/050-tensor-train-approximation.md",
     "status": "Open in cited literature; no later resolution located",
     "last_checked": "2026-09-08"
+  },
+  {
+    "id": "301",
+    "title": "The log-rank conjecture for deterministic communication",
+    "area": "Communication complexity and distributed computation",
+    "file": "problems/301-log-rank.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

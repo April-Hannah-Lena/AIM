@@ -1,0 +1,321 @@
+{
+  "checked_on": "2026-09-17",
+  "method": "HTTP HEAD following redirects; bibliographic identity and source contents checked separately in candidate ledgers",
+  "results": [
+    {
+      "url": "https://arxiv.org/html/1003.6082v3",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2209.11216v1",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2301.04112v6",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2309.15690v2",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2311.09420v2",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2312.09400v2",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2510.02583v3",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2510.12365v2",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2510.18737v1",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2512.00608v1",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2605.20426v1",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2606.18752v2",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2607.19675v1",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2608.01812v1",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2608.06042v1",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2608.06070v1",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2608.10557v2",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2608.31071v1",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/0710.0655v3",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/0903.3362v3",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/1102.3214",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/1202.4626v11",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/1403.0885v3",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/1404.2520",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/1404.2584",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/2205.11461v3",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/2508.15655v4",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/2602.05981v1",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/2608.00333v1",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/2608.24245v1",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.1007/s00222-025-01397-y",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.1007/s10955-024-03246-3",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.1017/fms.2021.56",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.1109/TIT.1981.1056372",
+      "http_status": "202",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.1109/TIT.2012.2196789",
+      "http_status": "202",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.1109/TIT.2013.2287531",
+      "http_status": "202",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.1109/TIT.2023.3247570",
+      "http_status": "202",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.3389/fphy.2024.1507250",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.4007/annals.2017.186.1.7",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://doi.org/10.4007/annals.2022.196.3.4",
+      "http_status": "200",
+      "exit_code": 92,
+      "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)\n"
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2018/176/download",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2024/058/download",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2026/179/download/",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://iqua.ece.utoronto.ca/papers/allerton04.pdf",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://isl.stanford.edu/groups/elgamal/abbas_publications/J009.pdf",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://michaellevitin.net/Book/TSG230529.pdf",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://people.math.ethz.ch/~sudakovb/discrepancy-logrank-conjecture.pdf",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://proceedings.mlr.press/v75/brennan18a/brennan18a.pdf",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://web.math.princeton.edu/~aizenman/OpenProblems_MathPhys/9803.SpinGlass.html",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://www.cs.cmu.edu/~dwajc/pdfs/haeupler19.pdf",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://www.jmlr.org/papers/volume25/22-0395/22-0395.pdf",
+      "http_status": "200",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://www.numdam.org/item/10.1016/j.anihpc.2020.04.004.pdf",
+      "http_status": "405",
+      "exit_code": 0,
+      "error": null,
+      "get_recheck_http_status": "200",
+      "get_recheck_exit_code": 0,
+      "note": "HEAD method rejected; ordinary GET downloaded the PDF successfully."
+    }
+  ]
+}

@@ -27,4 +27,8 @@ Bibliographies link to author manuscripts, arXiv records, publishers, institutio
 
 The [source maps](README.md) record the main books and specific paper locators used for each expansion. They distinguish published books from evolving author manuscripts and lecture notes. In particular, a recently updated manuscript is a source for its stated open questions, not an independent verification of every historical statement it contains.
 
-The exclusion notes are research records, not part of the count of 300. They include both resolved problems and candidates omitted because the available claims required further adjudication; those reasons are kept distinct.
+The exclusion notes are research records, not part of the active catalogue count. They include both resolved problems and candidates omitted because the available claims required further adjudication; those reasons are kept distinct.
+
+## September 17, 2026 expansion
+
+The first ten additions, entries 301–310, have individual evidence ledgers, current resolution searches and a separated adversarial self-review by the researching agent. The [expansion records](expansion-2026-09/README.md) distinguish accepted entries from held claims and discovery leads, and record batch refreshes. This first batch is partial progress toward the requested 200–300 additions; it does not revalidate the original 300. No independent agent or human review is claimed.

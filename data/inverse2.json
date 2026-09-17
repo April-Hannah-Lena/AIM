@@ -198,5 +198,13 @@
     "file": "problems/150-positive-entropy-billiards-near-ellipse.md",
     "status": "Open in cited literature; no later resolution located",
     "last_checked": "2026-09-08"
+  },
+  {
+    "id": "302",
+    "title": "The Černý synchronizing-automaton conjecture",
+    "area": "Finite-state control and synchronization",
+    "file": "problems/302-cerny.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

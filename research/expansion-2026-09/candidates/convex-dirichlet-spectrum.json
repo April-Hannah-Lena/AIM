@@ -1,6 +1,6 @@
 {
   "candidate_id": "convex-dirichlet-spectrum",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "306",
   "title": "Dirichlet spectral determination of smooth strictly convex planar domains",
   "aliases": [
     "hearing the shape of a convex drum",
@@ -322,19 +322,35 @@
     "verdict": "accept_open"
   },
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "Not performed; draft outside active catalogue."
+    "date": "2026-09-17",
+    "latest_target_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R1-6"
+    ],
+    "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented."
   },
-  "public_page_path": null,
-  "validation_results": [],
+  "public_page_path": "problems/306-convex-dirichlet-spectrum.md",
+  "validation_results": [
+    {
+      "date": "2026-09-17",
+      "check": "Batch 1 catalogue validation, 17 integrity tests, baseline preservation, bibliography links and rendered math",
+      "result": "pass",
+      "record": "research/expansion-2026-09/batch-01-review.md"
+    }
+  ],
   "remote_publication": {
     "state": "not_published",
     "repository": "MColbrook/AIM",
     "branch": "codex/expand-open-problems-2026-09",
     "commit": null,
     "pull_request_url": null
+  },
+  "integration": {
+    "batch": "expansion-2026-09-17-01",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
   }
 }

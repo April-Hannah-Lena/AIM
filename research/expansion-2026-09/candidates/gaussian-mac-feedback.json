@@ -1,0 +1,343 @@
+{
+  "candidate_id": "gaussian-mac-feedback",
+  "proposed_catalogue_id": null,
+  "title": "Capacity region of the Gaussian multiple-access channel with feedback",
+  "aliases": [
+    "GMAC feedback capacity region",
+    "N-user AWGN multiple access with noiseless feedback"
+  ],
+  "primary_section": "inverse3",
+  "secondary_tags": [
+    "information theory",
+    "wireless communications"
+  ],
+  "decision": "hold_claimed_resolution",
+  "decision_reason": "Later specialist sources explicitly leave the general region open, but the 2005 Wu–Vishwanath–Arapostathis paper claims a general capacity characterization in its introduction and §IV-C. The actual argument has been read, but no explicit independent adjudication of this claim was located. Conservative hold under the handoff rule.",
+  "problem_fingerprint": {
+    "model_or_objects": "Real scalar memoryless Gaussian multiple-access channel",
+    "dimension": "Every finite J>=3",
+    "domain": "Independent senders and one common receiver",
+    "regularity_and_data_class": "iid N(0,1) noise independent of uniform messages",
+    "boundary_or_initial_conditions": "Each encoder initially knows its own message only",
+    "parameter_range": "All positive finite individual powers",
+    "quantifiers": "Determine all achievable rate vectors for every J and power tuple",
+    "normalization": "Bits per discrete channel use; expected block powers",
+    "observable_or_norm": "Average joint transmission decoding error",
+    "limit_regime_and_order": "Fixed channel parameters, blocklength tends to infinity, error tends to zero",
+    "requested_conclusion": "Exact full capacity region",
+    "computational_model_and_dependencies": "Arbitrary measurable causal encoders, no linearity restriction"
+  },
+  "statement_source_and_scope_match": "SGK §II specifies the operational model; §V leaves the full region unresolved even in the symmetric case. Equal-power sum capacity is already known and is not the proposed problem.",
+  "proposed_statement_text": "Determine the Shannon transmission capacity region for every finite J>=3 and positive finite P_1,...,P_J of Y_t=sum_j X_jt+Z_t, with iid standard real Gaussian noise, independent uniform messages W_j, causal encoders X_jt=f_jt(W_j,Y^(t-1)), expected block power <=nP_j, one joint decoder, and average probability of any decoding error tending to zero.",
+  "applied_significance": "Fundamental rate tradeoffs for independent wireless uplink transmitters supplied with common output feedback.",
+  "application_evidence_source_ids": [
+    "SGK",
+    "DLLMS"
+  ],
+  "source_records": [
+    {
+      "source_id": "SGK",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Erixhen Sula",
+        "Michael Gastpar",
+        "Gerhard Kramer"
+      ],
+      "title": "Sum-Rate Capacity for Symmetric Gaussian Multiple Access Channels with Feedback",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2018-11-23",
+      "latest_version_date": "2018-11-23",
+      "identifier": "arXiv:1811.09525v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/1811.09525v1",
+      "locator": "§II model; Theorems 1–2; §V and Example 1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§II model; Theorems 1–2; §V and Example 1"
+      ],
+      "supported_claim": "Symmetric sum capacity is proved; arbitrary-power bound is a converse only; full region remains unresolved.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "arXiv abstract record read; v1 only."
+    },
+    {
+      "source_id": "AJKW",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Ehsan Ardestanizadeh",
+        "Michèle A. Wigger",
+        "Young-Han Kim",
+        "Tara Javidi"
+      ],
+      "title": "Linear Sum Capacity for Gaussian Multiple Access Channels with Feedback",
+      "venue_or_repository": "author manuscript",
+      "publication_type": "author manuscript",
+      "publication_date": "2012",
+      "latest_version_date": null,
+      "identifier": "Author manuscript; journal version IEEE TIT 58(1) (2012), 224–236",
+      "version": null,
+      "stable_url": "https://perso.telecom-paristech.fr/wigger/ardestanizadehjavidikimwigger10-2.pdf",
+      "locator": "§§I–II, Definition 1, Theorem 1; §V final paragraph; reference [13]",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§I–II, Definition 1, Theorem 1; §V final paragraph; reference [13]"
+      ],
+      "supported_claim": "Linear equal-power sum theorem; explicitly cites Wu et al. for Riccati analysis while leaving general region open. This is not an explicit published error adjudication.",
+      "independent_of_source_ids": [
+        "SGK"
+      ],
+      "access_limitations": null
+    },
+    {
+      "source_id": "DLLMS",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Bin Dai",
+        "Chong Li",
+        "Yingbin Liang",
+        "Zheng Ma",
+        "Shlomo Shamai"
+      ],
+      "title": "Self-Secure Capacity-Achieving Feedback Schemes of Gaussian Multiple-Access Wiretap Channels with Degraded Message Sets",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2020-07-29",
+      "latest_version_date": "2021-11-18",
+      "identifier": "arXiv:2007.14555v2",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2007.14555v2",
+      "locator": "§I footnote 1; §II-A1; §III-A1 Corollary 1 and Eq. (3.3)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§I footnote 1; §II-A1; §III-A1 Corollary 1 and Eq. (3.3)"
+      ],
+      "supported_claim": "Independently says N>=3 full GMAC region open. Solved model has two senders and one already knows both messages.",
+      "independent_of_source_ids": [
+        "SGK",
+        "AJKW"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "arXiv abstract record read: v1 2020-07-29, v2 2021-11-18."
+    },
+    {
+      "source_id": "ZLBJD",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Yaning Zhao",
+        "Wafa Labidi",
+        "Holger Boche",
+        "Eduard Jorswieck",
+        "Christian Deppe"
+      ],
+      "title": "Identification via Gaussian Multiple Access Channels in the Presence of Feedback",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2024-08-17",
+      "latest_version_date": null,
+      "identifier": "arXiv:2408.09119v1",
+      "version": null,
+      "stable_url": "https://arxiv.org/html/2408.09119v1",
+      "locator": "§III Definitions 4–5 and Theorems 6, 8; §IV-B start",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§III Definitions 4–5 and Theorems 6, 8; §IV-B start"
+      ],
+      "supported_claim": "Unlimited identification rates concern testing a proposed identity, not recovering all messages.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "WVA",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Wei Wu",
+        "Sriram Vishwanath",
+        "Ari Arapostathis"
+      ],
+      "title": "Gaussian Interference Networks with Feedback: Duality, Sum Capacity and Dynamic Team Problems",
+      "venue_or_repository": "conference manuscript",
+      "publication_type": "conference manuscript",
+      "publication_date": "2005-09-28",
+      "latest_version_date": null,
+      "identifier": "43rd Allerton (2005); https://hdl.handle.net/2142/132097",
+      "version": null,
+      "stable_url": "https://www.researchgate.net/publication/228854683_Gaussian_Interference_Networks_with_Feedback_Duality_Sum_capacity_and_Dynamic_Team_Problems",
+      "locator": "Introduction; §IV-A–C, especially Eqs. (15)–(26), manuscript pp. 5–8",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Introduction; §IV-A–C, especially Eqs. (15)–(26), manuscript pp. 5–8"
+      ],
+      "supported_claim": "Author-uploaded full text makes broad MAC claim; actual BC Theorem 4.1 and duality Theorem 4.2 are achievability statements.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "query": "S56–S58 and A10-1–A10-11 in ../search-log.json",
+      "discovery_route": "Web search and primary/full author text",
+      "date_filter_or_unrestricted": "unrestricted; literal years 2025/2026 as logged",
+      "results_inspected": [
+        "SGK",
+        "AJKW",
+        "DLLMS",
+        "ZLBJD",
+        "WVA"
+      ],
+      "outcome": "Identification claim outside scope; older broad MAC claim prevents acceptance.",
+      "limitations": "No independent expert adjudication located."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "SGK",
+      "theorem_locator": "Theorems 1–2 and §V",
+      "claim_type": "partial_resolution",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Equal powers and scalar sum objective in Theorem 1.",
+        "Theorem 2 supplies an upper bound for general powers."
+      ],
+      "scope_relation": "A sum optimum does not characterize the full region.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "A sum optimum does not characterize the full region.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "DLLMS",
+      "theorem_locator": "Corollary 1 and Eq. (3.3)",
+      "claim_type": "different_information_pattern",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Only two senders.",
+        "One encoder knows both messages before transmission."
+      ],
+      "scope_relation": "Does not imply the J>=3 independent-encoder region.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not imply the J>=3 independent-encoder region.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "ZLBJD",
+      "theorem_locator": "Theorem 6, Definitions 4–5",
+      "claim_type": "different_decoding_task",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Identity testing instead of joint message recovery.",
+        "Double-exponential message-size normalization."
+      ],
+      "scope_relation": "Identification achievability does not give a Shannon transmission converse or region.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Identification achievability does not give a Shannon transmission converse or region.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "WVA",
+      "theorem_locator": "Introduction and §IV-C Eqs. (15)–(26)",
+      "claim_type": "matching_capacity_claim",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Claims general more-than-two-user MAC capacity.",
+        "Full argument inspected; later sources do not accept the general conclusion."
+      ],
+      "scope_relation": "Material conflict held for explicit specialist adjudication; this record neither certifies nor refutes the proof.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Material conflict held for explicit specialist adjudication; this record neither certifies nor refutes the proof.",
+      "material_unresolved_conflict": true
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "142",
+        "difference": "Two-way binary multiplication."
+      },
+      {
+        "id": "143",
+        "difference": "Gaussian relay with one message."
+      },
+      {
+        "id": "144",
+        "difference": "Deletion capacity."
+      },
+      {
+        "id": "li-li-multiple-unicast",
+        "difference": "Noiseless graph routing/coding comparison."
+      }
+    ],
+    "distinctness_reason": "No baseline entry has this multi-sender feedback capacity target.",
+    "implications_or_equivalences": [
+      "Do not split unequal-power sum capacity or different J into separate entries."
+    ]
+  },
+  "open_status_evidence_summary": "SGK §V and independent DLLMS §I footnote 1 describe the full region as open; older conflicting claim needs adjudication.",
+  "independent_status_corroboration": "DLLMS authors are disjoint from SGK and AJKW.",
+  "strongest_known_partial_results_and_gap": "Exact two-user region and exact equal-power sum capacity for arbitrary user count; neither determines all rate points for J>=3.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "2026 Deng et al. cognitive MAC paper DOI 10.1109/ISIT62367.2026.11653969: publisher access failed; third-party abstract describes upper/lower bounds with one cognitive relay and two non-cognitive users. Not counted as primary evidence or a read theorem.",
+    "2022 journal PDF of DLLMS on Zenodo failed; full arXiv v2 read instead.",
+    "Kramer 2105.03901 sum-gain paper and Sula thesis discovered but not fully read; no dependence on them for acceptance."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass",
+    "reviewer_or_pass_identifier": "A10",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A10-1",
+      "A10-2",
+      "A10-3",
+      "A10-4",
+      "A10-5",
+      "A10-6",
+      "A10-7",
+      "A10-8",
+      "A10-9",
+      "A10-10",
+      "A10-11"
+    ],
+    "issues_found": [
+      "Symmetric sum capacity already solved.",
+      "Identification differs from transmission.",
+      "Older matching broad claim unresolved in this review."
+    ],
+    "issues_resolved": [
+      "First two separated in operational statement."
+    ],
+    "verdict": "hold_claimed_resolution"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "codex/expand-open-problems-2026-09",
+    "commit": null,
+    "pull_request_url": null
+  }
+}

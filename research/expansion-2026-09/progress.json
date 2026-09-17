@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 8,
-  "active_total": 300,
-  "candidates_investigated": 10,
-  "held_unverified": 0,
-  "held_claimed_resolution": 2,
+  "new_accepted": 10,
+  "active_total": 310,
+  "candidates_investigated": 14,
+  "held_unverified": 1,
+  "held_claimed_resolution": 3,
   "excluded": 0,
-  "remaining_to_minimum": 192,
-  "remaining_to_target": 242,
+  "remaining_to_minimum": 190,
+  "remaining_to_target": 240,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -38,11 +38,15 @@
     {
       "commit": "e5e481a",
       "purpose": "Baseline inventory, five accepted drafts and evidence; no active catalogue integration."
+    },
+    {
+      "commit": "1381a37",
+      "purpose": "Eight vetted expansion drafts and two seed holds; active catalogue unchanged."
     }
   ],
   "remote_state": "No push, pull request or merge performed.",
   "next_actions": [
-    "Complete first 10–20-entry publication batch; eight accepted drafts remain outside active catalogue.",
+    "Complete structural, rendering and bibliography checks for batch 1, then preserve the local commit and authorized draft PR.",
     "All ten handoff seeds investigated: eight accepted drafts, Morrey and Yang–Mills held on matching unadjudicated claims.",
     "Discover candidates across all twelve sections, with deliberate biology, statistics, information, control, operations-research and stochastic-network coverage.",
     "Refresh resolution searches and upstream duplicate checks, then assign permanent IDs centrally when the first batch is ready."
@@ -58,10 +62,10 @@
     "stochastic2": 1,
     "spectral3": 0,
     "continuum3": 0,
-    "inverse3": 1,
+    "inverse3": 3,
     "stochastic3": 1
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
-  "new_integrated": 0,
-  "count_semantics": "Accepted counts are reviewed drafts; integrated counts are active new pages. Integration awaits a complete 10–20-entry batch. Baseline active count remains 300."
+  "new_integrated": 10,
+  "count_semantics": "Ten accepted additions are integrated locally; active total is the 300-entry baseline plus these ten. Held records and drafts are excluded."
 }

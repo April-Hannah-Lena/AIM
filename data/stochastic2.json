@@ -198,5 +198,13 @@
     "file": "problems/200-directed-polymer-moment-spectrum.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-08"
+  },
+  {
+    "id": "307",
+    "title": "Positive-temperature order in the three-dimensional Edwards–Anderson spin glass",
+    "area": "Stochastic growth, populations and statistical mechanics",
+    "file": "problems/307-ea-three-dimensional-order.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

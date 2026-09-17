@@ -1,0 +1,23 @@
+# Discovery queue — not accepted entries
+
+These leads have not passed the candidate-record requirements and do not increase any accepted or integrated count. Checked/discovered on 2026-09-17. Search IDs refer to `search-log.json`.
+
+| Lead | Primary source and reading | Remaining work |
+| --- | --- | --- |
+| Algebraic limit cycles in cubic weakly reversible two-species reaction systems | Craciun–Erban, *Journal of Mathematical Biology* 90 (2025), 64, DOI [10.1007/s00285-025-02221-0](https://doi.org/10.1007/s00285-025-02221-0); arXiv:2406.05057. Definitions and explicit open question in §§4, 6 inspected. Cubic bounds both reactant and product molecularity; algebraic curve degree is unrestricted. | Need independent specialist status corroboration and complete theorem comparison. Quartic algebraic construction and cubic non-algebraic cycles do not answer this question. Same-paper mirrors and talks by its authors are not independent corroboration. S29–S31. |
+| Delays and motif-avoidant Boolean-network attractors | Pastva et al., *Journal of Mathematical Biology* 91 (2025), 11, DOI [10.1007/s00285-025-02235-8](https://doi.org/10.1007/s00285-025-02235-8); arXiv:2410.03976. Definitions, counterexample discussion, §§7.3–8 inspected. | Broad rarity question not yet reduced to a source-matched precise catalogue question. Check supplementary optimal-delay statements and independent status evidence. Several tempting structural conjectures are already refuted in this paper. S29–S31. |
+| Quarnet encoding of semi-directed level-3 phylogenetic networks outside the known obstruction family | Huber–van Iersel–Jones–Moulton–Veenema-Nipius, *Bulletin of Mathematical Biology* 87 (2025), 136, DOI [10.1007/s11538-025-01510-5](https://doi.org/10.1007/s11538-025-01510-5). Introductory theorems, network definitions, §7 conjecture inspected. | Need exact graph description of the excluded family, independent specialist corroboration, and later-result searches. Level-2 encoding is proved; unrestricted level-3 encoding is false. Neither is an open candidate. S32–S34. |
+| FIFO queue timing capacity with departure feedback | Anantharam–Verdú (1996); Aptel–Tchamkerten (2020); Sahasranand–Tchamkerten (2024), arXiv:2309.14145v2. Latest manuscript §§I–III and V read, along with parts of proofs; 2017 manuscript definitions and Theorems 1–9/Corollary 10 read. | Held after adversarial review: shifted-exponential service appears to preserve feedback/no-feedback equality by a deterministic arrival/departure-time transformation. Independent adjudication and a source-backed corrected scope are missing. Original PDF was subsequently obtained and relevant scanned pages read. See candidates/fifo-queue-feedback.json; not accepted. |
+
+Resolved discovery leads (not public catalogue entries):
+
+- The general leaf-reconstruction conjecture for unrooted binary phylogenetic networks has a matching counterexample paper, *Not all phylogenetic networks are leaf-reconstructible*, arXiv:1803.03197 (abstract located; full proof not reviewed). Do not promote the older conjecture from arXiv:1701.08982 without adjudicating that result.
+- *Recognizing Level-k-Based Phylogenetic Networks is NP-Complete*, arXiv:2605.26852, advertises a proof of the Suzuki–Hayamizu hardness conjecture (abstract located; full theorem not reviewed). It is not an accepted open lead.
+
+Other discovery-only sources: Vittadello–Stumpf, *Open Problems in Mathematical Biology*, DOI 10.1016/j.mbs.2022.108926; WABI 2025 *Average-Tree Phylogenetic Diversity of Networks*; *Insensitivity for Matching Systems*, DOI 10.1007/s11134-025-09943-4; *Open Problem—Load Balancing Using Delayed Information*, DOI 10.1287/stsy.2019.0045. Their relevant full statements have not yet been reviewed in this expansion.
+
+Additional screened leads: SIC existence and the spin-one Heisenberg gap duplicate baseline 035 and 201. The strong Gaussian product inequality has a matching July 2026 full-proof claim by Frédéric Ouimet and Dylan Greaves (author-posted ResearchGate manuscript located through S50); its proof and adjudication have not been reviewed. These leads produce no new accepted count.
+
+Feige’s small-deviation conjecture has matching July 2026 proofs (arXiv:2607.23980 and 2607.24528); only abstracts were inspected here. Thin-shell is identified as proved in Randomstrasse101 (arXiv:2603.29571v1), Entry 13, Theorem 13.2, which was read. Neither is an accepted open lead.
+
+Talagrand’s Boolean convolution conjecture has matching August/September 2026 resolution claims in arXiv:2608.15515 and 2609.11290; only abstracts and the authors’ formalization description were inspected. Do not add it from the earlier near-sharp result. S53.

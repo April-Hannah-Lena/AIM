@@ -198,5 +198,13 @@
     "file": "problems/300-majority-ising-fixation.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-13"
+  },
+  {
+    "id": "305",
+    "title": "Balanced Gaussian simplex noise stability for four or more classes",
+    "area": "Gaussian geometry and noise robustness",
+    "file": "problems/305-gaussian-simplex.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

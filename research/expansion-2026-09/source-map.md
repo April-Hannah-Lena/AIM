@@ -23,4 +23,11 @@ All ten handoff seeds now have investigation records; eight passed draft review 
 
 ## Coverage still required
 
-Eight sections have one accepted draft each; the remaining four sections still need accepted coverage. All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
+Eight sections have accepted drafts (inverse3 now has three); the remaining four sections still need accepted coverage. All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
+
+## Information-network discovery
+
+- **Undirected multiple unicast:** Li–Li Allerton 2004 §3.2; Liu–Que–Li–Li August 2026 Conjecture 1 and Theorems 3–8; independent Braverman–He October 2025 introduction. Interaction-framework, completion-time and directed-undecidability scopes are compared in the [accepted record](candidates/li-li-multiple-unicast.json).
+- **Queue timing:** Anantharam–Verdú original scanned author PDF obtained and relevant printed pp. 6 and 14 visually read; Aptel–Tchamkerten and Sahasranand–Tchamkerten full model/theorem sections inspected. An adversarial shifted-service check caused a [hold](candidates/fifo-queue-feedback.json).
+
+- **Gaussian feedback channels:** Gastpar–Lapidoth–Steinberg–Wigger §§I–II; independent Ardestanizadeh–Minero–Franceschetti §§I–II and Theorem 2; Belhadj Amor–Steinberg–Wigger linear duality; Truong–Yamamoto Theorem 2; Malayter et al. November 2025 learned-code results. El Gamal’s published degraded-channel model resolves an apparent historical conflict. [Accepted broadcast record](candidates/gaussian-broadcast-feedback.json). The separate [multiple-access record](candidates/gaussian-mac-feedback.json) remains held on Wu–Vishwanath–Arapostathis’s unadjudicated capacity claim.

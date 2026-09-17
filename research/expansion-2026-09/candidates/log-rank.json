@@ -1,6 +1,6 @@
 {
   "candidate_id": "log-rank",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "301",
   "title": "The log-rank conjecture for deterministic communication",
   "aliases": [
     "log rank",
@@ -325,14 +325,24 @@
     "verdict": "accept_open"
   },
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "not_performed"
+    "date": "2026-09-17",
+    "latest_target_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R1-1"
+    ],
+    "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented."
   },
-  "public_page_path": null,
-  "validation_results": [],
+  "public_page_path": "problems/301-log-rank.md",
+  "validation_results": [
+    {
+      "date": "2026-09-17",
+      "check": "Batch 1 catalogue validation, 17 integrity tests, baseline preservation, bibliography links and rendered math",
+      "result": "pass",
+      "record": "research/expansion-2026-09/batch-01-review.md"
+    }
+  ],
   "remote_publication": {
     "state": "not_published",
     "repository": "MColbrook/AIM",
@@ -340,5 +350,11 @@
     "commit": null,
     "pull_request_url": null
   },
-  "draft_path": "research/expansion-2026-09/drafts/log-rank.md"
+  "draft_path": "research/expansion-2026-09/drafts/log-rank.md",
+  "integration": {
+    "batch": "expansion-2026-09-17-01",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
+  }
 }

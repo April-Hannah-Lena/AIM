@@ -24,4 +24,8 @@
 | 251–275 | [Applied geometry, control and information](sources-inverse3.md) | [Geometry and control exclusions](excluded-inverse3.md) |
 | 276–300 | [Stochastic dynamics, reaction networks and applied optimization](sources-stochastic3.md) | [Stochastic and optimization exclusions](excluded-stochastic3.md) |
 
-These records document editorial decisions made during the respective literature reviews. They are outside the active count of 300 problems. A verified resolution, a restricted theorem, and an unresolved proof claim are different reasons for changing or excluding an entry. Both expansions add no numerical linear algebra problems. The third addition retains the first 200 entries and their earlier review dates.
+These records document editorial decisions made during the respective literature reviews. They are outside the active problem count. A verified resolution, a restricted theorem, and an unresolved proof claim are different reasons for changing or excluding an entry. Both expansions add no numerical linear algebra problems. The third addition retains the first 200 entries and their earlier review dates.
+
+## September 2026 expansion, beginning 17 September
+
+[Expansion progress and evidence](expansion-2026-09/README.md) records the first ten additions (301–310), held candidates, source discovery and the remaining work toward 200–300 new problems. [Batch 1 audit](expansion-2026-09/batch-01-review.md).

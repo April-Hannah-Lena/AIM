@@ -974,5 +974,1213 @@
     "query": "\"Yang Mills\" \"2506.00284\"",
     "date_filter_or_unrestricted": "unrestricted",
     "review_stage": "Yang–Mills status investigation; hold, not acceptance"
+  },
+  {
+    "search_id": "S29-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Pastva motif avoidant attractors Boolean networks 2025 open problems",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S29-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Craciun Erban 2025 planar chemical reaction networks limit cycles open problems",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S30-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"weakly reversible\" \"cubic\" \"algebraic\" \"limit cycle\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S30-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"cubic\" \"chemical\" \"algebraic limit\" proof counterexample solved",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S30-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"motif-avoidant\" \"2026\" proof bound delays",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S30-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"motif avoidance\" \"unreachability\" problem",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S31-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"weakly reversible\" \"algebraic limit cycles\" -site:pmc.ncbi.nlm.nih.gov -site:link.springer.com -site:researchgate.net -site:arxiv.org",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S31-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Craciun\" \"Erban\" \"algebraic\" 2026 proof proved solved resolution disproof refutation",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S31-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"motif-avoidant\" \"2026\" -site:pmc.ncbi.nlm.nih.gov -site:link.springer.com",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S31-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Boolean networks\" \"minimal number of delays\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S32-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"open problems\" \"mathematical biology\" conjecture 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S32-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"phylogenetic\" \"conjecture\" \"open\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S32-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"information theory\" \"open problems\" 2026 survey broadcast capacity",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S33-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"phylogenetic networks\" \"conjecture\" 2026 2025 open",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S33-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"queue\" \"feedback\" \"capacity\" \"open problem\" service distribution",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S34-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Feedback Increases the Capacity of Queues With Bounded Service Times\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S34-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Bits Through Queues\" feedback conjecture 2025 2026 proof proved counterexample",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S34-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"semi-directed\" \"tree-child\" \"quarnets\" 2026 conjecture",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S35-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Anantharam\" \"Verdu\" \"Bits through queues\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery/status screening; not evidence of acceptance. Per-candidate records or discovery-queue.md specify what was actually read."
+  },
+  {
+    "search_id": "S36-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Sahasranand\" \"Tchamkerten\" \"queues\" 2025 2026 correction erratum",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S36-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"feedback\" \"queues\" \"non-exponential\" proof conjecture",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S36-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"queue\" \"feedback capacity\" \"unbounded\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S37-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Bits through queues\" \"pdf\" Anantharam Verdu 1996 -site:researchgate.net -site:scispace.com -site:citeseerx.ist.psu.edu",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S37-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"queue\" \"feedback capacity\" \"unbounded support\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S37-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Bits Through Queues\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S37-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Bits Through Queues\" proof solved resolution counterexample disproof refutation",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S38-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"timing\" \"queue\" \"feedback\" \"conjecture\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S38-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"timing\" \"queue\" \"feedback\" \"conjecture\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S38-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"feedback capacity\" \"unbounded\" proof counterexample disproof refutation resolution",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S39-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Anantharam\" \"feedback\" \"conjecture\" -site:researchgate.net -site:emergentmind.com -site:arxiv-troller.com",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S39-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Bits through queues\" \"conjecture\" feedback -site:researchgate.net -site:emergentmind.com -site:arxiv.org",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S40-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Feedback Increases the Capacity of Queues With Bounded Service Times\" \"doi\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S40-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"queue timing\" \"feedback\" 2026 capacity proof",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S40-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Sahasranand\" \"Tchamkerten\" \"feedback\" 2026 queue",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S41-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Sahasranand\" \"6823\" \"10.1109\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S41-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Feedback Increases\" \"Bounded\" \"erratum\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S41-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"FIFO\" \"feedback\" \"capacity\" \"conjecture\" 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S42-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Feedback Increases the Capacity of Queues With Bounded Service Times\" site:ieeexplore.ieee.org",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S42-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Feedback Increases the Capacity of Queues With Bounded Service Times\" site:hal.science",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S43-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Li Li undirected network coding conjecture 2026 2025 resolved",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "S43-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Li Li conjecture undirected multiple unicast open 2025 survey",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary queue-capacity discovery/status pass, or multiple-unicast discovery for S43. Some heavily constrained searches returned no exact matches; these are not proof of openness."
+  },
+  {
+    "search_id": "A8-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"FIFO\" \"timing\" \"feedback\" proof proved solved counterexample disproof refutation",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for FIFO queue candidate; direct shifted-service transformation caused hold."
+  },
+  {
+    "search_id": "A8-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Anantharam\" \"Verdú\" \"service\" \"conjecture\" 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for FIFO queue candidate; direct shifted-service transformation caused hold."
+  },
+  {
+    "search_id": "A8-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"2309.14145\" correction erratum withdrawal",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for FIFO queue candidate; direct shifted-service transformation caused hold."
+  },
+  {
+    "search_id": "A8-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"queue\" \"nonexponential\" \"capacity\" feedback",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for FIFO queue candidate; direct shifted-service transformation caused hold."
+  },
+  {
+    "search_id": "A8-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"feedback\" \"queues\" \"unbounded service\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for FIFO queue candidate; direct shifted-service transformation caused hold."
+  },
+  {
+    "search_id": "A8-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Bits Through Queues\" \"2025\" \"2026\" resolution",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for FIFO queue candidate; direct shifted-service transformation caused hold."
+  },
+  {
+    "search_id": "A8-7",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"shifted exponential\" \"queue\" \"capacity\" \"feedback\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for FIFO queue candidate; direct shifted-service transformation caused hold."
+  },
+  {
+    "search_id": "A8-8",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"shifted exponential\" \"timing channel\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for FIFO queue candidate; direct shifted-service transformation caused hold."
+  },
+  {
+    "search_id": "A8-9",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"feedback\" \"service time\" \"essential infimum\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for FIFO queue candidate; direct shifted-service transformation caused hold."
+  },
+  {
+    "search_id": "A8-10",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"non-exponential\" \"timing\" \"capacity\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for FIFO queue candidate; direct shifted-service transformation caused hold."
+  },
+  {
+    "search_id": "S44-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Li-Li conjecture\" proof proved solved counterexample disproof refutation",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Multiple-unicast candidate disqualification pass."
+  },
+  {
+    "search_id": "S44-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"multiple-unicast conjecture\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Multiple-unicast candidate disqualification pass."
+  },
+  {
+    "search_id": "S45-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Network coding: the case of multiple unicast sessions\" pdf",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Li–Li original-source and apparent-resolution checks"
+  },
+  {
+    "search_id": "S45-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Li-Li\" conjecture 2025 proof",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Li–Li original-source and apparent-resolution checks"
+  },
+  {
+    "search_id": "S45-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"multiple unicast\" conjecture counterexample disproved refuted 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Li–Li original-source and apparent-resolution checks"
+  },
+  {
+    "search_id": "S45-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"2608.06070\" correction erratum withdrawal",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Li–Li original-source and apparent-resolution checks"
+  },
+  {
+    "search_id": "S46-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Haeupler\" \"network coding\" \"makespan\" routing 2020",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Li–Li original-source and apparent-resolution checks"
+  },
+  {
+    "search_id": "S46-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Li\" \"Undecidability of Network Coding\" 2205.11461",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Li–Li original-source and apparent-resolution checks"
+  },
+  {
+    "search_id": "A9-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Li-Li conjecture\" solved proof disproof 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for Li–Li candidate"
+  },
+  {
+    "search_id": "A9-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"undirected k-pairs\" conjecture counterexample refutation",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for Li–Li candidate"
+  },
+  {
+    "search_id": "A9-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"multiple-unicast conjecture\" \"Li\" \"erratum\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for Li–Li candidate"
+  },
+  {
+    "search_id": "A9-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"network coding\" \"fractional routing\" \"2025\" conjecture proved",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for Li–Li candidate"
+  },
+  {
+    "search_id": "A9-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"A Note on the Multiple-Unicast Network Coding Conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for Li–Li candidate"
+  },
+  {
+    "search_id": "A9-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Li-Li\" conjecture \"2026\" counterexample proof",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for Li–Li candidate"
+  },
+  {
+    "search_id": "A9-7",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Li\" \"Li\" \"multiple-unicast\" \"September\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for Li–Li candidate"
+  },
+  {
+    "search_id": "A9-8",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"multiple-unicast conjecture\" \"solved\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for Li–Li candidate"
+  },
+  {
+    "search_id": "A9-9",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"140280\" \"coding\" \"conjecture\" abstract",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for Li–Li candidate"
+  },
+  {
+    "search_id": "A9-10",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"A Note on\" \"Yang\" \"multiple-unicast\" six",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for Li–Li candidate"
+  },
+  {
+    "search_id": "A9-11",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"A Note on the Multiple-Unicast\" pdf",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated adversarial self-pass for Li–Li candidate"
+  },
+  {
+    "search_id": "S47-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"SIC POVM\" existence conjecture \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; SIC existence is baseline 035, rejected as duplicate lead without new candidate count"
+  },
+  {
+    "search_id": "S47-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Zauner\" conjecture \"2025\" open proof",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; SIC existence is baseline 035, rejected as duplicate lead without new candidate count"
+  },
+  {
+    "search_id": "S47-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"SIC\" \"conjecture\" \"2026\" proof disproof",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; SIC existence is baseline 035, rejected as duplicate lead without new candidate count"
+  },
+  {
+    "search_id": "S48-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "spin 1 antiferromagnetic Heisenberg chain spectral gap Haldane conjecture rigorous proof 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; Haldane gap is baseline 201, no new count."
+  },
+  {
+    "search_id": "S48-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Haldane conjecture spin 1 gap open problem 2025 rigorous",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; Haldane gap is baseline 201, no new count."
+  },
+  {
+    "search_id": "S48-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Haldane conjecture proof disproved counterexample Heisenberg chain 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; Haldane gap is baseline 201, no new count."
+  },
+  {
+    "search_id": "S49-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "open problems mathematical biology 2025 2026 conjecture permanence global attractor",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; Haldane gap is baseline 201, no new count."
+  },
+  {
+    "search_id": "S49-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "open problem statistics \"2026\" conjecture Stein admissibility",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; Haldane gap is baseline 201, no new count."
+  },
+  {
+    "search_id": "S49-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"spectral gap\" \"open problems\" \"2025\" quantum",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; Haldane gap is baseline 201, no new count."
+  },
+  {
+    "search_id": "S50-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Gaussian product inequality conjecture 2026 proof disproof",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; full matching July 2026 proof claim by Ouimet–Greaves located, not eligible without adjudication"
+  },
+  {
+    "search_id": "S50-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Gaussian product inequality 2025 open conjecture applications statistics",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; full matching July 2026 proof claim by Ouimet–Greaves located, not eligible without adjudication"
+  },
+  {
+    "search_id": "S50-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Gaussian product conjecture general centered Gaussian even moments independent status",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; full matching July 2026 proof claim by Ouimet–Greaves located, not eligible without adjudication"
+  },
+  {
+    "search_id": "S51-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Feige conjecture probability sum independent nonnegative 2026 proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; Feige and thin-shell matching resolutions found; random-circulant and tree-reconstruction leads require further screening."
+  },
+  {
+    "search_id": "S51-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Feige conjecture 2025 1 e open small deviations",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; Feige and thin-shell matching resolutions found; random-circulant and tree-reconstruction leads require further screening."
+  },
+  {
+    "search_id": "S51-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Feige conjecture applications scheduling stochastic optimization",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; Feige and thin-shell matching resolutions found; random-circulant and tree-reconstruction leads require further screening."
+  },
+  {
+    "search_id": "S52-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"thin shell conjecture\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; Feige and thin-shell matching resolutions found; random-circulant and tree-reconstruction leads require further screening."
+  },
+  {
+    "search_id": "S52-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"random circulant\" \"Lovász\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; Feige and thin-shell matching resolutions found; random-circulant and tree-reconstruction leads require further screening."
+  },
+  {
+    "search_id": "S52-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"reconstruction\" \"three-state\" \"tree\" \"open\" Potts 2025",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; Feige and thin-shell matching resolutions found; random-circulant and tree-reconstruction leads require further screening."
+  },
+  {
+    "search_id": "S53-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Talagrand convolution conjecture discrete cube 2026 solved",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; matching August and September 2026 full-resolution papers found, not an accepted open candidate"
+  },
+  {
+    "search_id": "S53-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Talagrand convolution conjecture Boolean cube 2025 open",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; matching August and September 2026 full-resolution papers found, not an accepted open candidate"
+  },
+  {
+    "search_id": "S53-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Talagrand\" \"convolution\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Discovery only; matching August and September 2026 full-resolution papers found, not an accepted open candidate"
+  },
+  {
+    "search_id": "S54-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian interference channel\" \"sum capacity\" \"2026\" open",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S54-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"symmetric Gaussian interference channel\" \"2025\" capacity open",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S54-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian interference channel\" exact capacity proof solved 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S55-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian interference channel\" \"2025\" \"capacity\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S55-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian interference channel\" \"2026\" \"capacity region\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S55-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian interference channel\" \"capacity\" \"proof\" \"Khandani\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S55-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian interference\" capacity solved exact counterexample disproof",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S56-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Gaussian multiple access channel feedback three users capacity open 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S56-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian MAC\" \"sum capacity\" \"conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S56-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian\" \"MAC\" \"feedback\" \"2026\" optimality",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S56-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian multiple-access\" \"feedback\" \"2025\" open",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S57-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian\" \"multiple access\" \"feedback\" \"capacity region\" \"remains open\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S57-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian MAC\" feedback \"three\" capacity region open",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S57-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian multiple-access\" \"feedback\" \"2026\" \"capacity region\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S58-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian multiple access\" \"feedback\" capacity region solved proof 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S58-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian MAC\" feedback capacity 2025 2026 resolution",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S58-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Capacity Results on Gaussian Cognitive Multiple Access Channel with Feedback\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S58-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Sula\" \"Gastpar\" \"Kramer\" feedback capacity erratum",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "A10-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian multiple-access\" feedback \"capacity region\" proof solved counterexample disproof",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A10-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian\" \"feedback\" \"three users\" capacity 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A10-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian MAC\" \"feedback\" \"capacity\" 2025 -site:researchgate.net",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A10-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Sula\" \"Feedback and Common Information\" capacity thesis",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A10-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian Interference Networks with Feedback: Duality\" pdf",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A10-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian\" \"feedback\" \"capacity region\" \"Sula\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A10-7",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian multiple access\" \"feedback\" refutation errata capacity",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A10-8",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian multiple access\" \"feedback\" \"capacity region\" \"2026\" -site:eurekamag.com -site:capacityatlas.org",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A10-9",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Wu\" \"Vishwanath\" \"Arapostathis\" \"incorrect\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A10-10",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian Interference Networks\" \"gap\" proof Wu capacity",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A10-11",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian Interference Networks\" \"error\" \"2005\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "S59-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast\" \"feedback\" \"2025\" \"capacity\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S59-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast\" \"feedback\" \"2026\" \"capacity\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S59-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast\" \"feedback\" \"capacity region\" \"unknown\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S60-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast\" \"feedback\" \"remains open\" Murin",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S60-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast\" \"feedback\" \"capacity\" \"2026\" proof solved",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S60-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast channel\" \"feedback\" \"counterexample\" capacity",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S60-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast\" \"feedback\" \"capacity region\" \"2025\" \"unknown\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S61-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Belhadj Amor Steinberg Wigger linear feedback duality Gaussian MAC BC 2015 arxiv",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S61-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast\" feedback capacity disproof resolution erratum 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S62-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"LQG Control Approach to Gaussian Broadcast Channels With Feedback\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S62-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"New Achievable Rates for the Gaussian Broadcast Channel\" Gastpar 2011",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "S62-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast channel\" \"feedback\" \"Murin\" capacity unknown",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary research and resolution screening"
+  },
+  {
+    "search_id": "A11-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast\" \"feedback\" \"capacity\" \"proved\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A11-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast channel with feedback\" solved proof resolution",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A11-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"linear-feedback\" \"broadcast\" optimality conjecture disproof counterexample",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A11-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast\" \"feedback\" \"capacity region\" \"2025\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A11-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast\" feedback Gastpar Wigger erratum capacity 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "A11-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast\" feedback \"El Gamal\" physically degraded 1978",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Clearly separated adversarial self-pass"
+  },
+  {
+    "search_id": "R1-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"log-rank conjecture\" proof solved counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "First publication batch preintegration refresh"
+  },
+  {
+    "search_id": "R1-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Černý conjecture\" proof resolution 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "First publication batch preintegration refresh"
+  },
+  {
+    "search_id": "R1-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"planted clique\" conjecture refuted solved 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "First publication batch preintegration refresh"
+  },
+  {
+    "search_id": "R1-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Unique Games\" conjecture solved proof 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "First publication batch preintegration refresh"
+  },
+  {
+    "search_id": "R1-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian simplex\" conjecture solved counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "First publication batch preintegration refresh"
+  },
+  {
+    "search_id": "R1-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"convex\" \"Dirichlet spectrum\" determination 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "First publication batch preintegration refresh"
+  },
+  {
+    "search_id": "R1-7",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Edwards-Anderson\" \"three\" \"2026\" spin glass transition rigorous",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "First publication batch preintegration refresh"
+  },
+  {
+    "search_id": "R1-8",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"inhomogeneous\" \"Landau\" \"Coulomb\" global regularity 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "First publication batch preintegration refresh"
+  },
+  {
+    "search_id": "R1-9",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Li-Li\" conjecture solved 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "First publication batch preintegration refresh"
+  },
+  {
+    "search_id": "R1-10",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian broadcast\" \"feedback\" capacity solved 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "First publication batch preintegration refresh"
+  },
+  {
+    "search_id": "R1-11",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Li-Li\" conjecture solved proof September 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "First publication batch preintegration refresh"
+  },
+  {
+    "search_id": "R1-12",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"The hereditariness problem\" Černý pdf",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "First publication batch preintegration refresh"
+  },
+  {
+    "search_id": "R1-13",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"multiple-unicast conjecture\" proof counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "First publication batch preintegration refresh"
   }
 ]

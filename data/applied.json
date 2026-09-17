@@ -198,5 +198,13 @@
     "file": "problems/100-strongly-polynomial-simplex.md",
     "status": "Open in cited literature; no later resolution located",
     "last_checked": "2026-09-08"
+  },
+  {
+    "id": "304",
+    "title": "The Unique Games Conjecture",
+    "area": "Constraint satisfaction and approximation algorithms",
+    "file": "problems/304-unique-games.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

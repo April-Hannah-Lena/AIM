@@ -1,6 +1,6 @@
 {
   "candidate_id": "cerny",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "302",
   "title": "The Černý synchronizing-automaton conjecture",
   "aliases": [
     "Cerny",
@@ -173,6 +173,33 @@
         "VOLKOV"
       ],
       "access_limitations": "arXiv HTML failed; PDF accessible."
+    },
+    {
+      "source_id": "RV",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Emanuele Rodaro",
+        "Riccardo Venturi"
+      ],
+      "title": "The hereditariness problem for the Černý conjecture",
+      "venue_or_repository": "author manuscript of journal article",
+      "publication_type": "author manuscript of journal article",
+      "publication_date": "2026-02-10",
+      "latest_version_date": "2026-02-10",
+      "identifier": "arXiv:2509.17992v2; European Journal of Combinatorics 136 (2026), 104388; DOI 10.1016/j.ejc.2026.104388",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2509.17992v2",
+      "locator": "§1 main theorem (Theorem 7.20); §7 Theorem 7.19",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 main theorem (Theorem 7.20); §7 Theorem 7.19"
+      ],
+      "supported_claim": "A reduction to three structural classes, not a proof of the universal bound.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "v1 September 22, 2025; v2 February 10, 2026, latest history inspected September 17."
     }
   ],
   "search_log": [
@@ -235,6 +262,20 @@
       "indirect_resolution_considered": true,
       "assessment_and_remaining_gap": "The general alphabet and automaton class remain uncovered.",
       "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "RV",
+      "theorem_locator": "§1 statement of Theorem 7.20; Theorem 7.19",
+      "claim_type": "conditional_reduction",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Assumes the bound for strongly connected simple, quasi-simple and radical automata.",
+        "These hypotheses are not established universally in the paper; a one-cluster theorem does not cover these algebraically defined classes."
+      ],
+      "scope_relation": "No indirect resolution from combining this conditional reduction with the one-cluster result.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No indirect resolution from combining this conditional reduction with the one-cluster result.",
+      "material_unresolved_conflict": false
     }
   ],
   "duplicate_review": {
@@ -283,14 +324,25 @@
     "verdict": "accept_open"
   },
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "not_performed"
+    "date": "2026-09-17",
+    "latest_target_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R1-2",
+      "R1-12"
+    ],
+    "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented."
   },
-  "public_page_path": null,
-  "validation_results": [],
+  "public_page_path": "problems/302-cerny.md",
+  "validation_results": [
+    {
+      "date": "2026-09-17",
+      "check": "Batch 1 catalogue validation, 17 integrity tests, baseline preservation, bibliography links and rendered math",
+      "result": "pass",
+      "record": "research/expansion-2026-09/batch-01-review.md"
+    }
+  ],
   "remote_publication": {
     "state": "not_published",
     "repository": "MColbrook/AIM",
@@ -298,5 +350,11 @@
     "commit": null,
     "pull_request_url": null
   },
-  "draft_path": "research/expansion-2026-09/drafts/cerny.md"
+  "draft_path": "research/expansion-2026-09/drafts/cerny.md",
+  "integration": {
+    "batch": "expansion-2026-09-17-01",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
+  }
 }

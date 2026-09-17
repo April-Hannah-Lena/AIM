@@ -1,6 +1,6 @@
 {
   "candidate_id": "gaussian-simplex",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "305",
   "title": "Balanced Gaussian simplex noise stability for four or more classes",
   "aliases": [
     "standard simplex conjecture",
@@ -396,18 +396,23 @@
     "verdict": "accept_open"
   },
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "Not performed; draft outside active catalogue."
+    "date": "2026-09-17",
+    "latest_target_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R1-5"
+    ],
+    "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented.",
+    "additional_scope_note": "MathDB Gaussian simplex measure hit describes a simplex containing a fixed ball and one Gaussian marginal measure, not noise stability of arbitrary equal-mass partitions. Its reader-submitted formalization is not used as specialist evidence; primary weak-simplex comparison already recorded."
   },
-  "public_page_path": null,
+  "public_page_path": "problems/305-gaussian-simplex.md",
   "validation_results": [
     {
       "date": "2026-09-17",
-      "check": "Semantic draft review",
-      "result": "Passed: equations, quantifiers, normalization, source locators, application scope and baseline distinction reviewed. No permanent ID or active metadata assigned yet."
+      "check": "Batch 1 catalogue validation, 17 integrity tests, baseline preservation, bibliography links and rendered math",
+      "result": "pass",
+      "record": "research/expansion-2026-09/batch-01-review.md"
     }
   ],
   "remote_publication": {
@@ -417,5 +422,11 @@
     "commit": null,
     "pull_request_url": null
   },
-  "draft_page_path": "research/expansion-2026-09/drafts/gaussian-simplex.md"
+  "draft_page_path": "research/expansion-2026-09/drafts/gaussian-simplex.md",
+  "integration": {
+    "batch": "expansion-2026-09-17-01",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
+  }
 }

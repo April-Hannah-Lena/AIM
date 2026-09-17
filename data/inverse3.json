@@ -198,5 +198,29 @@
     "file": "problems/275-outer-length-billiard-integrability.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-13"
+  },
+  {
+    "id": "303",
+    "title": "Polynomial-time detection below the planted-clique square-root threshold",
+    "area": "Statistical inference and average-case computational complexity",
+    "file": "problems/303-planted-clique.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
+  },
+  {
+    "id": "309",
+    "title": "The Li–Li multiple-unicast conjecture",
+    "area": "Applied geometry, control and information",
+    "file": "problems/309-li-li-multiple-unicast.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
+  },
+  {
+    "id": "310",
+    "title": "Capacity of the two-receiver Gaussian broadcast channel with feedback",
+    "area": "Applied geometry, control and information",
+    "file": "problems/310-gaussian-broadcast-feedback.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

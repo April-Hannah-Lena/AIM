@@ -1,0 +1,550 @@
+{
+  "candidate_id": "gaussian-broadcast-feedback",
+  "proposed_catalogue_id": "310",
+  "title": "Capacity of the two-receiver Gaussian broadcast channel with feedback",
+  "aliases": [
+    "AWGN-BC-F capacity region",
+    "Gaussian BC with noiseless output feedback",
+    "nondegraded Gaussian broadcast feedback capacity"
+  ],
+  "primary_section": "inverse3",
+  "secondary_tags": [
+    "information theory",
+    "communication networks",
+    "feedback coding"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Sourced exact model and independent status corroboration, scoped theorem comparisons, semantic duplicate review and A11 adversarial self-pass passed; no matching unresolved material claim located.",
+  "problem_fingerprint": {
+    "model_or_objects": "Real memoryless two-receiver Gaussian broadcast channel with two independent private messages",
+    "dimension": "One real channel input and two real outputs per use",
+    "domain": "All finite block codes, closed asymptotic achievable region",
+    "regularity_and_data_class": "Mutually independent zero-mean Gaussian noises across receivers and time, independent of messages; arbitrary measurable causal encoders",
+    "boundary_or_initial_conditions": "Encoder knows both messages and both output histories; receiver k sees only its own length-n output",
+    "parameter_range": "Every fixed finite P,N1,N2>0",
+    "quantifiers": "Determine region for every parameter triple; rate achievable via a sequence of codes",
+    "normalization": "Bits per channel use; n^(-1) sum E[Xt^2] <= P",
+    "observable_or_norm": "Pr[at least one private message decoded incorrectly] tends to zero",
+    "limit_regime_and_order": "Fix P,N1,N2; let block length tend to infinity",
+    "requested_conclusion": "Exact unrestricted capacity region, with matching achievability and converse",
+    "computational_model_and_dependencies": "No linearity, complexity or high-SNR restriction; strictly causal noiseless feedback"
+  },
+  "statement_source_and_scope_match": "GLSW §II-A specializes its operational model to noise correlation zero. AMF §§I–II independently describes the unresolved capacity problem; ABW characterizes only linear-feedback codes.",
+  "proposed_statement_text": "Determine the exact private-message capacity region for all P,N1,N2>0 of the real two-receiver channel Ykt=Xt+Zkt with mutually independent Gaussian noises of variances Nk, noiseless strictly causal feedback of both outputs, expected block-average input power P, separate decoding and vanishing average joint error, without restricting the encoding functions to be linear.",
+  "applied_significance": "Gives the ultimate reliable rates for one transmitter serving two receivers while using returned observations to refine its transmissions; benchmarks practical feedback coding.",
+  "application_evidence_source_ids": [
+    "GLSW",
+    "MZDWBL"
+  ],
+  "source_records": [
+    {
+      "source_id": "GLSW",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Michael Gastpar",
+        "Amos Lapidoth",
+        "Yossef Steinberg",
+        "Michèle Wigger"
+      ],
+      "title": "Coding Schemes and Asymptotic Capacity of the Gaussian Broadcast and Interference Channels with Feedback",
+      "venue_or_repository": "author manuscript of journal article",
+      "publication_type": "author manuscript of journal article",
+      "publication_date": "2013-10-20",
+      "latest_version_date": "2013-10-20",
+      "identifier": "arXiv:1003.6082v3; published title uses “for”; IEEE TIT 60(1), 54–71 (2014), DOI 10.1109/TIT.2013.2287531",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/html/1003.6082v3",
+      "locator": "§I; §II-A operational model; §II-B Definition 1, Theorem 1, Corollary 2 and Notes 1–3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§I; §II-A operational model; §II-B Definition 1, Theorem 1, Corollary 2 and Notes 1–3"
+      ],
+      "supported_claim": "Formulation and open status; high-SNR theorem does not give the finite-power region.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "Current arXiv abstract record and submission history inspected on 2026-09-17; this is the latest listed version."
+    },
+    {
+      "source_id": "AMF",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Ehsan Ardestanizadeh",
+        "Paolo Minero",
+        "Massimo Franceschetti"
+      ],
+      "title": "LQG Control Approach to Gaussian Broadcast Channels with Feedback",
+      "venue_or_repository": "author manuscript",
+      "publication_type": "author manuscript",
+      "publication_date": "2011-02-16",
+      "latest_version_date": "2011-02-16",
+      "identifier": "arXiv:1102.3214v1; journal DOI 10.1109/TIT.2012.2196789",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/1102.3214",
+      "locator": "§§I–II; §V Theorem 2, manuscript p. 7",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§I–II; §V Theorem 2, manuscript p. 7"
+      ],
+      "supported_claim": "Independent explicit open-status statement and achievable LQG sum rate.",
+      "independent_of_source_ids": [
+        "GLSW"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "Current arXiv abstract record and submission history inspected on 2026-09-17; this is the latest listed version."
+    },
+    {
+      "source_id": "ABW",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Selma Belhadj Amor",
+        "Yossef Steinberg",
+        "Michèle Wigger"
+      ],
+      "title": "MIMO MAC–BC Duality with Linear-Feedback Coding Schemes",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2014-04-09",
+      "latest_version_date": "2014-04-09",
+      "identifier": "arXiv:1404.2584v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/1404.2584",
+      "locator": "§V-A, Theorem 1, Corollaries 1–4 and discussion, pp. 8–9; model also read in authors’ ISIT 2014 manuscript §§I–II",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§V-A, Theorem 1, Corollaries 1–4 and discussion, pp. 8–9; model also read in authors’ ISIT 2014 manuscript §§I–II"
+      ],
+      "supported_claim": "Exact duality is restricted to linear-feedback regions.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "Current arXiv abstract record and submission history inspected on 2026-09-17; this is the latest listed version."
+    },
+    {
+      "source_id": "TY",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Lan V. Truong",
+        "Hirosuke Yamamoto"
+      ],
+      "title": "Posterior Matching for Gaussian Broadcast Channels with Feedback",
+      "venue_or_repository": "author manuscript of journal article",
+      "publication_type": "author manuscript of journal article",
+      "publication_date": "2016-12-29",
+      "latest_version_date": "2016-12-29",
+      "identifier": "arXiv:1404.2520v7; IEICE Transactions on Fundamentals E100-A(5), 1165–1178 (2017)",
+      "version": "v7",
+      "stable_url": "https://arxiv.org/pdf/1404.2520",
+      "locator": "§I; §II-A/B; §6 Theorem 2, Eqs. (76)–(77), pp. 8–9",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§I; §II-A/B; §6 Theorem 2, Eqs. (76)–(77), pp. 8–9"
+      ],
+      "supported_claim": "Posterior matching reaches the symmetric linear-feedback sum rate; general capacity remains open.",
+      "independent_of_source_ids": [
+        "GLSW",
+        "AMF",
+        "ABW"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "Current arXiv abstract record and submission history inspected on 2026-09-17; this is the latest listed version."
+    },
+    {
+      "source_id": "MZDWBL",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Jacqueline Malayter",
+        "Yingyao Zhou",
+        "Natasha Devroye",
+        "Chih-Chun Wang",
+        "Christopher Brinton",
+        "David J. Love"
+      ],
+      "title": "Deep Broadcast Feedback Codes",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2025-11-29",
+      "latest_version_date": "2025-11-29",
+      "identifier": "arXiv:2512.00608v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2512.00608v1",
+      "locator": "§I; §II-A/B; §IV opening and §IV-A; §V",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§I; §II-A/B; §IV opening and §IV-A; §V"
+      ],
+      "supported_claim": "Learned feedback codes improve finite-block error performance; no unrestricted capacity converse.",
+      "independent_of_source_ids": [
+        "GLSW",
+        "AMF",
+        "ABW",
+        "TY"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "Current arXiv abstract record and submission history inspected on 2026-09-17; this is the latest listed version."
+    },
+    {
+      "source_id": "EG",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Abbas El Gamal"
+      ],
+      "title": "The Capacity of the Physically Degraded Gaussian Broadcast Channel with Feedback",
+      "venue_or_repository": "published journal article",
+      "publication_type": "published journal article",
+      "publication_date": "1981-07",
+      "latest_version_date": null,
+      "identifier": "IEEE TIT 27(4), 508–511 (1981); DOI 10.1109/TIT.1981.1056372",
+      "version": null,
+      "stable_url": "https://isl.stanford.edu/groups/elgamal/abbas_publications/J009.pdf",
+      "locator": "§III, Eq. (10), Theorem 3 and proof; final remark, pp. 509–510",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§III, Eq. (10), Theorem 3 and proof; final remark, pp. 509–510"
+      ],
+      "supported_claim": "No-feedback-gain result assumes physically degraded, correlated receiver noises.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "EG77",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Abbas El Gamal"
+      ],
+      "title": "The Capacity of the Gaussian Broadcast Channel with Feedback",
+      "venue_or_repository": "technical report",
+      "publication_type": "technical report",
+      "publication_date": "1977-06",
+      "latest_version_date": null,
+      "identifier": "Stanford technical report COV NSF 25",
+      "version": null,
+      "stable_url": "https://purl.stanford.edu/zn940st1968",
+      "locator": "Abstract; printed pp. 1–6, especially Theorem 3 and Markov step preceding Eq. (17)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Abstract; printed pp. 1–6, especially Theorem 3 and Markov step preceding Eq. (17)"
+      ],
+      "supported_claim": "Broad title requires model check; published version EG makes the physical-degradation assumption explicit.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Scanned primary PDF downloaded from Stanford stacks. Printed pp. 1–6 read via OCR; printed pp. 3 and 5 also visually inspected. Later published EG paper directly resolves the model scope."
+    },
+    {
+      "source_id": "WVA",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Wei Wu",
+        "Sriram Vishwanath",
+        "Ari Arapostathis"
+      ],
+      "title": "Gaussian Interference Networks with Feedback: Duality, Sum Capacity and Dynamic Team Problems",
+      "venue_or_repository": "author-uploaded full conference text",
+      "publication_type": "author-uploaded full conference text",
+      "publication_date": "2005-09-28",
+      "latest_version_date": null,
+      "identifier": "43rd Allerton Conference, 2005; institutional record https://www.ideals.illinois.edu/items/139098",
+      "version": null,
+      "stable_url": "https://www.researchgate.net/publication/228854683_Gaussian_Interference_Networks_with_Feedback_Duality_Sum_capacity_and_Dynamic_Team_Problems",
+      "locator": "§IV, Theorems 4.1–4.2 and §IV-C",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§IV, Theorems 4.1–4.2 and §IV-C"
+      ],
+      "supported_claim": "BC theorem states an achievable Riccati-code region and duality of achievable regions; separate MAC capacity claim is held in its own record.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "RPPW",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Aditya Narayan Ravi",
+        "Sibi Raj B. Pillai",
+        "Vinod Prabhakaran",
+        "Michèle Wigger"
+      ],
+      "title": "On the Capacity Enlargement of Gaussian Broadcast Channels with Passive Noisy Feedback",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2020-09-18",
+      "latest_version_date": "2020-09-18",
+      "identifier": "arXiv:2009.08765v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/2009.08765",
+      "locator": "§I; §II Theorem 1 and Corollaries 2–3; §III-A Theorem 4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§I; §II Theorem 1 and Corollaries 2–3; §III-A Theorem 4"
+      ],
+      "supported_claim": "Classifies when noisy feedback enlarges capacity, without characterizing the enlarged noiseless region.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "Only v1 listed September 17, 2026; four-author identity verified on PDF p. 1 despite inconsistent abstract-page author count."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "query": "S59-1 through S62-3 and A11-1 through A11-6 in ../search-log.json",
+      "discovery_route": "Web search; arXiv histories and full manuscripts; primary author publication pages; Stanford scanned technical report and journal PDF",
+      "date_filter_or_unrestricted": "unrestricted; literal 2025/2026 terms included as recorded",
+      "results_inspected": [
+        "GLSW",
+        "AMF",
+        "ABW",
+        "TY",
+        "MZDWBL",
+        "EG",
+        "EG77",
+        "WVA"
+      ],
+      "outcome": "Recent learned-code results and older apparent capacity results do not determine the proposed unrestricted region.",
+      "limitations": "No matching full claim left unreviewed among the material search hits; absence of a located theorem is not proof of openness."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "GLSW",
+      "theorem_locator": "§II-B Theorem 1",
+      "claim_type": "asymptotic_capacity",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same independent-noise specialization is included.",
+        "The limit sends P to infinity rather than fixing P."
+      ],
+      "scope_relation": "An asymptotic sum-rate formula does not determine the finite-power full region.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "An asymptotic sum-rate formula does not determine the finite-power full region.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "AMF",
+      "theorem_locator": "§V Theorem 2",
+      "claim_type": "achievability",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Symmetric unit noise and arbitrary receiver count include a two-receiver case.",
+        "Statement gives an achievable LQG rate."
+      ],
+      "scope_relation": "No converse for arbitrary nonlinear encoders.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No converse for arbitrary nonlinear encoders.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "ABW",
+      "theorem_locator": "§V-A Theorem 1 and Corollaries 1–4",
+      "claim_type": "restricted_code_characterization",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Dual MAC has a sum-power constraint.",
+        "Both sides of duality are explicitly linear-feedback regions."
+      ],
+      "scope_relation": "MAC capacity knowledge supplies the BC linear region, not an unrestricted BC converse.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "MAC capacity knowledge supplies the BC linear region, not an unrestricted BC converse.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "TY",
+      "theorem_locator": "§6 Theorem 2",
+      "claim_type": "restricted_code_achievability",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Independent equal-variance receiver noises.",
+        "Conclusion explicitly says linear-feedback sum-capacity."
+      ],
+      "scope_relation": "No exact full nonlinear region follows.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No exact full nonlinear region follows.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "MZDWBL",
+      "theorem_locator": "§II-A/B, §IV opening and §V",
+      "claim_type": "finite_block_numerical_improvement",
+      "theorem_statement_actually_read": false,
+      "hypothesis_comparison": [
+        "Noisy or noiseless feedback experiments.",
+        "Fixed message sizes and blocklength error comparisons."
+      ],
+      "scope_relation": "Improved finite-block error does not establish an asymptotic unrestricted capacity boundary.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Improved finite-block error does not establish an asymptotic unrestricted capacity boundary.",
+      "material_unresolved_conflict": false,
+      "non_theorem_result_actually_read": true
+    },
+    {
+      "source_id": "EG",
+      "theorem_locator": "§III Eq. (10) and Theorem 3",
+      "claim_type": "different_channel_law",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Second output includes the first receiver’s noise plus an independent increment.",
+        "Candidate noises across receivers are independent."
+      ],
+      "scope_relation": "Physical degradation is a different joint channel law when feedback is present.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Physical degradation is a different joint channel law when feedback is present.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "EG77",
+      "theorem_locator": "Theorem 3, proof Eq. (17), compared to EG §III",
+      "claim_type": "earlier_formulation_scope",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Proof invokes channel Markovity.",
+        "EG explicitly specifies the correlated degraded model."
+      ],
+      "scope_relation": "Published model restriction resolves the apparent broad-title conflict.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Published model restriction resolves the apparent broad-title conflict.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "WVA",
+      "theorem_locator": "Theorems 4.1–4.2",
+      "claim_type": "achievable_scheme_duality",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "BC DARE region is introduced as achievable.",
+        "The separate §IV-C global-capacity claim concerns a MAC."
+      ],
+      "scope_relation": "No full BC converse is asserted by these theorems; the MAC hold does not establish BC capacity.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No full BC converse is asserted by these theorems; the MAC hold does not establish BC capacity.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "RPPW",
+      "theorem_locator": "Theorem 1, Eq. (5); Theorem 4",
+      "claim_type": "different_conclusion_and_parameters",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "No-enlargement condition requires sufficiently noisy feedback; its RHS diverges as either feedback variance goes to zero.",
+        "The converse characterizes unchanged capacity, not the enlarged full-feedback region.",
+        "Theorem 4 requires preservation of feedback joint law under physical degradation, which independent full-output feedback lacks."
+      ],
+      "scope_relation": "No unrestricted noiseless-feedback capacity formula follows.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No unrestricted noiseless-feedback capacity formula follows.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "142",
+        "difference": "Binary multiplying two-way channel has two encoders, not one broadcast encoder."
+      },
+      {
+        "id": "143",
+        "difference": "Gaussian relay channel includes a relay and one destination."
+      },
+      {
+        "id": "144",
+        "difference": "Deletion channel has a distinct synchronization-noise law."
+      },
+      {
+        "id": "li-li-multiple-unicast",
+        "difference": "Noiseless undirected network throughput, not a noisy scalar broadcast channel."
+      },
+      {
+        "id": "gaussian-mac-feedback",
+        "difference": "Held multiple-access problem has separate encoders and one decoder; linear duality does not identify unrestricted regions."
+      }
+    ],
+    "distinctness_reason": "No baseline entry or accepted draft specifies this private-message broadcast feedback capacity problem.",
+    "implications_or_equivalences": [
+      "Symmetric and unequal-noise cases, and the linear optimality subquestion, belong to this single canonical entry."
+    ]
+  },
+  "open_status_evidence_summary": "GLSW and independent AMF explicitly describe the full feedback region as unknown. ABW and TY provide linear-code characterizations; 2025 learned-code results concern finite-block performance. Searches through the check date found no matching unrestricted capacity theorem.",
+  "independent_status_corroboration": "AMF shares no authors with GLSW or ABW; TY also has disjoint authors and explicitly separates the unknown general capacity from linear-feedback achievability.",
+  "strongest_known_partial_results_and_gap": "Exact linear-feedback region via MAC–BC duality, optimal symmetric linear-feedback sum rate, and high-SNR sum-capacity asymptotics. The unrestricted finite-power region remains unidentified.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "AMF journal PDF fetch failed; full arXiv author manuscript was read. No claim to have read the journal body.",
+    "Searches are not exhaustive and the adversarial pass is self-review, not independent expert review."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass",
+    "reviewer_or_pass_identifier": "A11",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A11-1",
+      "A11-2",
+      "A11-3",
+      "A11-4",
+      "A11-5",
+      "A11-6"
+    ],
+    "issues_found": [
+      "Physical and stochastic degradation must not be conflated.",
+      "Linear MAC–BC duality is not unrestricted BC duality.",
+      "High-SNR sum capacity and finite-block neural-code performance do not give the finite-power capacity region."
+    ],
+    "issues_resolved": [
+      "Read EG published channel Eq. (10) and Theorem 3.",
+      "Read ABW linear qualifiers and TY Theorem 2.",
+      "Checked GLSW limit and MZDWBL coding objective.",
+      "Final written statement checked: independent noises; strictly causal full output feedback; expected block power; separate private-message decoding; fixed-power limit; no restriction to linear codes."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": "2026-09-17",
+    "latest_target_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R1-10"
+    ],
+    "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented."
+  },
+  "public_page_path": "problems/310-gaussian-broadcast-feedback.md",
+  "validation_results": [
+    {
+      "date": "2026-09-17",
+      "check": "Batch 1 catalogue validation, 17 integrity tests, baseline preservation, bibliography links and rendered math",
+      "result": "pass",
+      "record": "research/expansion-2026-09/batch-01-review.md"
+    }
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "codex/expand-open-problems-2026-09",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "integration": {
+    "batch": "expansion-2026-09-17-01",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
+  }
+}

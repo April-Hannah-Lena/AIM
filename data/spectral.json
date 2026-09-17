@@ -198,5 +198,13 @@
     "file": "problems/025-steklov-smooth-interior-decay.md",
     "status": "Open in cited literature; no later resolution located",
     "last_checked": "2026-09-08"
+  },
+  {
+    "id": "306",
+    "title": "Dirichlet spectral determination of smooth strictly convex planar domains",
+    "area": "Spectral theory and spectral geometry",
+    "file": "problems/306-convex-dirichlet-spectrum.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]
