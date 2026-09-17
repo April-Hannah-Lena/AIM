@@ -1,0 +1,426 @@
+{
+  "candidate_id": "unique-games",
+  "proposed_catalogue_id": null,
+  "title": "The Unique Games Conjecture",
+  "aliases": [
+    "UGC",
+    "unique label cover",
+    "hardness of almost satisfiable permutation constraints"
+  ],
+  "primary_section": "applied",
+  "secondary_tags": [
+    "constraint satisfaction",
+    "approximation algorithms",
+    "operations research"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Exact source formulation, independent specialist corroboration, baseline duplicate screening, current resolution searches and a separated adversarial draft review support admission as an open problem. No matching later resolution located as of September 17, 2026.",
+  "problem_fingerprint": {
+    "model_or_objects": "Finite bipartite graph with a permutation [r]->[r] on each edge",
+    "dimension": "Unbounded instance size, fixed r for each epsilon",
+    "domain": "All finite nonempty-edge bipartite unique-game instances",
+    "regularity_and_data_class": "Explicit graph and permutation tables",
+    "boundary_or_initial_conditions": "Not applicable",
+    "parameter_range": "Every epsilon in (0,1/2); exists r depending only on epsilon",
+    "quantifiers": "For each epsilon, one fixed alphabet yields NP-hardness of the promise distinction",
+    "normalization": "Number of satisfied edges divided by total number of edges, counting multiplicity if present",
+    "observable_or_norm": "Maximum classical labeling value",
+    "limit_regime_and_order": "Fix epsilon and r before instance size varies",
+    "requested_conclusion": "NP-hardness of distinguishing value >=1-epsilon from value <=epsilon",
+    "computational_model_and_dependencies": "Classical NP-hardness; no entanglement; no P!=NP assumption needed to state hardness"
+  },
+  "statement_source_and_scope_match": "FMW Conjecture 1.4 states the symmetric-gap version exactly. KRT Conjecture 1.2 states the equivalent two-error-parameter version; take both errors epsilon, or their minimum for the reverse implication.",
+  "proposed_statement_text": "For every epsilon in (0,1/2), does some fixed alphabet size r make it NP-hard to distinguish bipartite unique games of classical value at least 1-epsilon from those of value at most epsilon? Each edge carries a permutation of [r], and value is the largest fraction of simultaneously satisfied edge constraints.",
+  "applied_significance": "Would establish limits on polynomial-time approximation of finite optimization problems. HEILMAN26 Theorem 1.4 gives a current concrete conditional sharp MAX-3-CUT hardness consequence.",
+  "application_evidence_source_ids": [
+    "FMW",
+    "HEILMAN26"
+  ],
+  "source_records": [
+    {
+      "source_id": "FMW",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Yumou Fei",
+        "Dor Minzer",
+        "Shuo Wang"
+      ],
+      "title": "On the Hardness of 4-to-1 Games with Perfect Completeness",
+      "venue_or_repository": "ECCC technical report",
+      "publication_type": "ECCC technical report",
+      "publication_date": "2026-09-14",
+      "latest_version_date": "2026-09-14",
+      "identifier": "ECCC TR26-179",
+      "version": "Initial report",
+      "stable_url": "https://eccc.weizmann.ac.il/report/2026/179/download/",
+      "locator": "§§1.1–1.2, Definitions 1.1 and 1.3, Conjecture 1.4, Theorem 1.6, printed pp. 4–6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1.1–1.2, Definitions 1.1 and 1.3, Conjecture 1.4, Theorem 1.6, printed pp. 4–6"
+      ],
+      "supported_claim": "Exact UGC statement and comparison with recent d-to-1 hardness.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "ECCC report page https://eccc.weizmann.ac.il/report/2026/179/"
+    },
+    {
+      "source_id": "KRT",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Julia Kempe",
+        "Oded Regev",
+        "Ben Toner"
+      ],
+      "title": "Unique Games with Entangled Provers are Easy",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2009-10-03",
+      "latest_version_date": "2009-10-03",
+      "identifier": "arXiv:0710.0655v3",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/pdf/0710.0655v3",
+      "locator": "Conjecture 1.2, p. 2; Theorem 1.3 and discussion, pp. 3–5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Conjecture 1.2, p. 2; Theorem 1.3 and discussion, pp. 3–5"
+      ],
+      "supported_claim": "Classical conjecture and distinct tractable entangled-value promise.",
+      "independent_of_source_ids": [
+        "FMW"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/0710.0655; initial submission October 2, 2007"
+    },
+    {
+      "source_id": "HEILMAN26",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Steven Heilman"
+      ],
+      "title": "Sharp Hardness for MAX-3-CUT and Quantum MAX-CUT",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-07-31",
+      "latest_version_date": "2026-07-31",
+      "identifier": "arXiv:2608.00333v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/2608.00333v1",
+      "locator": "§1.1, Theorems 1.2–1.5; Appendix A, Theorem A.1, printed p. 38",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1.1, Theorems 1.2–1.5; Appendix A, Theorem A.1, printed p. 38"
+      ],
+      "supported_claim": "Three-part positive-noise theorem covers 0<rho<=2/5; approximation hardness in Theorem 1.4 assumes UGC.",
+      "independent_of_source_ids": [
+        "FMW",
+        "KRT"
+      ],
+      "access_limitations": "arXiv submission metadata is July 31, 2026; the PDF/HTML manuscript bears August 24, 2026. The latter is not recorded as a separate arXiv revision.",
+      "version_history_checked": "https://arxiv.org/abs/2608.00333"
+    },
+    {
+      "source_id": "VEGA-H",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Frank Vega"
+      ],
+      "title": "An Approximate Solution to the Minimum Vertex Cover Problem: The Hallelujah Algorithm",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-03-10",
+      "latest_version_date": "2026-03-10",
+      "identifier": "Preprints.org 202510.2392v2",
+      "version": "v2",
+      "stable_url": "https://www.preprints.org/manuscript/202510.2392",
+      "locator": "§§1, 3 and 4; Theorems 2 and 3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1, 3 and 4; Theorems 2 and 3"
+      ],
+      "supported_claim": "Displayed guarantee is pointwise strictly below twice optimum, not a uniform 2-delta approximation.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Author preprint read. Linked journal counterpart DOI 10.1080/17445760.2026.2660724 returned HTTP 403; publisher version not read.",
+      "version_history_checked": "Preprints.org version page; submitted March 9, posted March 10, 2026"
+    },
+    {
+      "source_id": "VEGA-S",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Frank Vega"
+      ],
+      "title": "An Approximate Solution to the Minimum Vertex Cover Problem: The Salvador Algorithm",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-07-06",
+      "latest_version_date": "2026-07-06",
+      "identifier": "Preprints.org 202605.2000v3",
+      "version": "v3",
+      "stable_url": "https://www.preprints.org/manuscript/202605.2000",
+      "locator": "§1; §§5.5–5.7, Proposition 3 and Conjecture 1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1; §§5.5–5.7, Proposition 3 and Conjecture 1"
+      ],
+      "supported_claim": "The proposed uniform 7/4 upper bound is explicitly a conjecture; Proposition 3 is a worst-case lower bound.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "Preprints.org version page; submitted July 3, posted July 6, 2026"
+    },
+    {
+      "source_id": "VEGA-V",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Frank Vega"
+      ],
+      "title": "An Approximate Solution to the Minimum Vertex Cover Problem: The Hvala Algorithm",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-04-24",
+      "latest_version_date": "2026-04-24",
+      "identifier": "DOI 10.20944/preprints202506.0875.v12",
+      "version": "v12",
+      "stable_url": "https://www.preprints.org/manuscript/202506.0875/v12",
+      "locator": "§§1, 4.2–4.3; Theorem 2, Corollary 1 and following remarks, printed pp. 6–8",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1",
+        "§§4.2–4.3, Theorem 2, Corollary 1 and following remarks"
+      ],
+      "supported_claim": "Companion author explicitly says the pointwise strictness supplies no uniform 2-epsilon guarantee.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Read the discovered v12 PDF, not a verified latest-version record; used only to clarify the author’s guarantee, not as an open-status authority."
+    },
+    {
+      "source_id": "KM26",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Karthik C. S.",
+        "Dor Minzer"
+      ],
+      "title": "Improved Multilayered PCPs and Hypergraph Vertex Cover",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-09-06",
+      "latest_version_date": "2026-09-06",
+      "identifier": "arXiv:2609.06775v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2609.06775v1",
+      "locator": "§§1.1–1.2, Theorems 1.4–1.7",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1.1–1.2, Theorems 1.4–1.7"
+      ],
+      "supported_claim": "Improves hypergraph vertex-cover hardness through 2-to-2 and general projection constraints; does not prove permutation-game hardness.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/2609.06775; v1 only"
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Web search and direct primary-source full text/version history",
+      "query": "S6-2, S7-3, S10-1/2, S11-1/2, S13-1/2, A3-1 in ../search-log.json; A4 follow-up in same search log",
+      "date_filter_or_unrestricted": "Unrestricted; year terms 2025 and 2026 also searched",
+      "results_inspected": [
+        "FMW",
+        "KRT",
+        "HEILMAN26",
+        "VEGA-H",
+        "VEGA-S"
+      ],
+      "outcome": "No later resolution located for the exact candidate after the scope comparisons below.",
+      "limitations": "Search coverage is finite; no claim of proof certification."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "FMW",
+      "theorem_locator": "Theorem 1.6 and §1.1",
+      "claim_type": "restricted_constraint_hardness",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "4-to-1 maps have fibers of size four; the candidate requires one-to-one permutations.",
+        "Existing unique-game completeness 1/2 does not give 1-epsilon."
+      ],
+      "scope_relation": "Does not settle the permutation-constraint gap. No reduction establishing the missing completeness amplification is provided.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not settle the permutation-constraint gap. No reduction establishing the missing completeness amplification is provided.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "KRT",
+      "theorem_locator": "Theorem 1.3",
+      "claim_type": "different_value_model",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Its promise and output concern entangled strategies.",
+        "Entangled optimum can exceed classical optimum; a low classical-value input need not satisfy the quantum soundness promise."
+      ],
+      "scope_relation": "Does not decide the classical promise problem.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not decide the classical promise problem.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HEILMAN26",
+      "theorem_locator": "Theorem 1.4",
+      "claim_type": "conditional_application",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "UGC appears among the theorem hypotheses."
+      ],
+      "scope_relation": "Proves a consequence under the conjecture, not the conjecture itself.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Proves a consequence under the conjecture, not the conjecture itself.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "VEGA-H",
+      "theorem_locator": "Theorem 2",
+      "claim_type": "overstated_disproof_claim",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "For each graph the theorem states |S_R|<2 OPT.",
+        "It does not exhibit a fixed delta>0 with ratio <=2-delta uniformly over graph sizes."
+      ],
+      "scope_relation": "Even if the displayed theorem is correct, its guarantee can approach two as size grows and does not contradict UGC-based vertex-cover hardness. This review does not certify the algorithm proof.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Even if the displayed theorem is correct, its guarantee can approach two as size grows and does not contradict UGC-based vertex-cover hardness. This review does not certify the algorithm proof.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "VEGA-S",
+      "theorem_locator": "Proposition 3; Conjecture 1 in §5.6",
+      "claim_type": "conditional_disproof_proposal",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Proposition 3 supplies an example giving worst-case ratio at least 7/4.",
+        "An upper bound of 7/4 is conjectured, not proved."
+      ],
+      "scope_relation": "The proposed contradiction requires an additional unproved upper bound and P!=NP; no matching resolution theorem.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The proposed contradiction requires an additional unproved upper bound and P!=NP; no matching resolution theorem.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "VEGA-V",
+      "theorem_locator": "§4.3, Corollary 1 and following remarks",
+      "claim_type": "author_scope_clarification",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Explicitly separates pointwise ratio <2 from a uniform constant below two."
+      ],
+      "scope_relation": "Supports the quantifier distinction in the VEGA-H comparison. No reliance on the asserted supremum proof or algorithm correctness.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Supports the quantifier distinction in the VEGA-H comparison. No reliance on the asserted supremum proof or algorithm correctness.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "KM26",
+      "theorem_locator": "Theorems 1.4–1.6",
+      "claim_type": "unconditional_special_consequence",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Theorem 1.4 uses 2-to-2 relations; Theorem 1.5 uses general projections.",
+        "Theorem 1.6 proves particular hypergraph approximation lower bounds previously conditional on UGC."
+      ],
+      "scope_relation": "Proving particular consequences does not establish UGC; no reverse reduction to the full permutation promise is supplied.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Proving particular consequences does not establish UGC; no reverse reduction to the full permutation promise is supplied.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "207",
+        "difference": "Quantum PCP concerns local Hamiltonians and quantum states, not classical permutation CSP value."
+      },
+      {
+        "id": "285",
+        "difference": "A particular traveling-salesperson integrality gap differs from general unique-game promise hardness."
+      }
+    ],
+    "distinctness_reason": "One canonical classical UGC question; related d-to-1 and entangled versions are not separate additions.",
+    "implications_or_equivalences": [
+      "Symmetric and two-error-parameter UGC formulations are counted once.",
+      "Conditional approximation consequences are not treated as equivalent proofs without a reverse reduction."
+    ]
+  },
+  "open_status_evidence_summary": "FMW still explicitly formulates UGC as Conjecture 1.4 on September 14, 2026. Independent KRT gives the classical formulation and HEILMAN26 uses it as an assumption.",
+  "independent_status_corroboration": "KRT and HEILMAN26 have no authors in common with FMW; the latter is a contemporary conditional application, not an independent proof of the conjecture.",
+  "strongest_known_partial_results_and_gap": "FMW explains the existing (1/2,epsilon) unique-game hardness and proves perfect-completeness hardness for 4-to-1 games. Neither supplies almost-one completeness for permutation constraints.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "VEGA-H journal version returned 403; matching author preprint was read in full at the relevant sections.",
+    "No entire mathematical proof was independently certified. FMW original 2-to-2 bibliography source could not be fetched; the review uses FMW’s explicit scope comparison rather than claiming to have read that original proof."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass by primary agent; no independent reviewer",
+    "reviewer_or_pass_identifier": "A3 plus A4 and completed written-draft audit",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A3-1",
+      "A4-1"
+    ],
+    "issues_found": [
+      "Fixed alphabet versus alphabet growing with input.",
+      "Near-one completeness versus the known half-completeness result.",
+      "Classical versus entangled game values.",
+      "Pointwise versus uniform sub-two approximation.",
+      "Unconditional consequences do not prove their former UGC hypothesis."
+    ],
+    "issues_resolved": [
+      "Draft fixes epsilon and alphabet before instance size.",
+      "FMW theorem and conjecture explicitly separated.",
+      "KRT value-model distinction recorded.",
+      "VEGA-H, VEGA-S and companion VEGA-V examined without certifying proofs.",
+      "KM26 exact constraint classes inspected."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [
+    {
+      "date": "2026-09-17",
+      "check": "Semantic draft review",
+      "result": "Passed: equations, quantifiers, normalization, source locators, application scope and baseline distinction reviewed. No permanent ID or active metadata assigned yet."
+    }
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "codex/expand-open-problems-2026-09",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_page_path": "research/expansion-2026-09/drafts/unique-games.md"
+}

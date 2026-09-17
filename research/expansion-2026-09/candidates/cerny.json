@@ -1,0 +1,302 @@
+{
+  "candidate_id": "cerny",
+  "proposed_catalogue_id": null,
+  "title": "The Černý synchronizing-automaton conjecture",
+  "aliases": [
+    "Cerny",
+    "Černy",
+    "Černý",
+    "Cerny–Starke",
+    "reset threshold"
+  ],
+  "primary_section": "inverse2",
+  "secondary_tags": [
+    "finite-state control",
+    "synchronization"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Source formulation, independent status corroboration, actual resolution searches and scope comparisons, full baseline screening, applied significance and separate adversarial self-review passed. Accepted draft awaits a 10–20-entry integration batch and prepublication refresh.",
+  "problem_fingerprint": {
+    "model_or_objects": "Complete deterministic finite automaton (Q,Sigma,delta)",
+    "dimension": "n = |Q| finite",
+    "domain": "Finite nonempty state set and finite nonempty alphabet; total transition function",
+    "regularity_and_data_class": "Synchronizing automata only",
+    "boundary_or_initial_conditions": "Unknown initial state; same word must reset all states",
+    "parameter_range": "Every integer n >= 1",
+    "quantifiers": "Every synchronizing n-state automaton admits a reset word of length at most (n-1)^2",
+    "normalization": "One input letter costs one time step",
+    "observable_or_norm": "Minimum reset-word length",
+    "limit_regime_and_order": "Finite-instance universal bound",
+    "requested_conclusion": "Reset threshold <= (n-1)^2",
+    "computational_model_and_dependencies": "Deterministic automaton; existential word bound, not a polynomial-time word-finding algorithm"
+  },
+  "statement_source_and_scope_match": "Volkov §1.1 defines completeness and words; §1.2 gives exact bound. No restriction to two-letter, Eulerian or one-cluster automata.",
+  "proposed_statement_text": "Let Q be a nonempty n-element set and Sigma a nonempty finite alphabet, with a total transition map delta: Q x Sigma -> Q extended by composition to words. Suppose some word sends every state to the same state. Must there be such a word with at most (n-1)^2 letters?",
+  "applied_significance": "A reset word drives a finite-state device to a known state from any unknown initial state without observing the state. The bound would quantify the worst-case number of control inputs needed for this form of synchronization; it does not itself provide an efficient shortest-word algorithm.",
+  "application_evidence_source_ids": [
+    "SZ",
+    "VOLKOV"
+  ],
+  "source_records": [
+    {
+      "source_id": "VOLKOV",
+      "role": "formulation and specialist status",
+      "authors": [
+        "Mikhail V. Volkov"
+      ],
+      "title": "List of Results on the Černý Conjecture and Reset Thresholds for Synchronizing Automata",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2025-08-21",
+      "latest_version_date": "2026-01-13",
+      "identifier": "arXiv:2508.15655v4",
+      "version": "v4",
+      "stable_url": "https://arxiv.org/pdf/2508.15655v4",
+      "locator": "§§1.1–1.2, printed pp. 1–4; footnote 1 on p. 3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1.1–1.2 in PDF",
+        "Footnote 1 on p. 3",
+        "References 65–73 in HTML",
+        "arXiv version history"
+      ],
+      "supported_claim": "States universal reset bound as open; footnote reports Trahtman acknowledged a proof error in February 2024.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Version metadata says January 13, 2026 and PDF introduction January 14; HTML carries an inconsistent August date. Status is corroborated independently by Szykuła, August 2026. The PDF, not the inconsistent HTML date, is used."
+    },
+    {
+      "source_id": "TRAHTMAN",
+      "role": "historical claimed proof",
+      "authors": [
+        "A. N. Trahtman"
+      ],
+      "title": "The Černy conjecture",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2012-02-21",
+      "latest_version_date": "2022-01-18",
+      "identifier": "arXiv:1202.4626",
+      "version": "v11",
+      "stable_url": "https://arxiv.org/pdf/1202.4626v11",
+      "locator": "Abstract; introduction pp. 1–3; Theorem 2, p. 11; arXiv version history",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Abstract",
+        "Introduction pp. 1–3",
+        "Theorem 2, p. 11",
+        "Version history"
+      ],
+      "supported_claim": "Theorem 2 claims the full universal bound. Volkov reports a February 2024 acknowledgement of an error; we have read the claimed theorem but have not independently audited the proof error.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "BERLINKOV",
+      "role": "withdrawn claim",
+      "authors": [
+        "Mikhail Berlinkov"
+      ],
+      "title": "The Cerny Conjecture",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2012-04-04",
+      "latest_version_date": "2012-04-10",
+      "identifier": "arXiv:1204.0856",
+      "version": "v4",
+      "stable_url": "https://arxiv.org/abs/1204.0856",
+      "locator": "Withdrawal notice and abstract",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "abstract_and_metadata",
+      "sections_actually_read": [],
+      "supported_claim": "Record explicitly marks manuscript withdrawn; not evidence of a resolution.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "ZHU",
+      "role": "Recent restricted-class claim",
+      "authors": [
+        "Yinfeng Zhu"
+      ],
+      "title": "The Černý Conjecture for One-Cluster Automata via Annular Spectral Descent",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-07-22",
+      "latest_version_date": "2026-07-22",
+      "identifier": "arXiv:2607.19675v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2607.19675v1",
+      "locator": "§§1–2, Theorems 2.3–2.4; Lemma 3.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 introduction",
+        "§2 definitions and Theorems 2.3–2.4",
+        "Beginning of §3 including Lemma 3.1"
+      ],
+      "supported_claim": "Claims the quadratic bound when a letter has exactly one directed cycle; does not cover arbitrary synchronizing automata.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "SZ",
+      "role": "Independent recent specialist formulation and status",
+      "authors": [
+        "Marek Szykuła"
+      ],
+      "title": "Synchronizing Automata: Open Problems",
+      "venue_or_repository": "EPTCS 451 (2026), 33–47, AFL 2026",
+      "publication_type": "published proceedings article",
+      "publication_date": "2026-08-25",
+      "latest_version_date": "2026-08-25",
+      "identifier": "10.4204/EPTCS.451.3; arXiv:2608.24245v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/2608.24245v1",
+      "locator": "§2.1, Conjecture 1, printed p. 34",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 definitions",
+        "§§2.1–2.6, pp. 34–39",
+        "Beginning of §2.7",
+        "arXiv metadata/version history"
+      ],
+      "supported_claim": "Poses the full quadratic reset-threshold conjecture as open and reports a general cubic upper bound.",
+      "independent_of_source_ids": [
+        "VOLKOV"
+      ],
+      "access_limitations": "arXiv HTML failed; PDF accessible."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search and direct arXiv version/HTML access",
+      "query": "See ../search-log.json: S1-3, S2-4, S4-4",
+      "date_filter_or_unrestricted": "unrestricted; 2025/2026 wording",
+      "results_inspected": [
+        "VOLKOV",
+        "TRAHTMAN",
+        "BERLINKOV",
+        "https://arxiv.org/abs/2607.19675"
+      ],
+      "outcome": "Primary full-theorem scope comparisons, independent corroboration and PDF/version comparison completed.",
+      "limitations": null
+    },
+    {
+      "searched_at": "2026-09-17",
+      "query": "S5-1 through S5-4 and A1-3 through A1-4 in ../search-log.json",
+      "outcome": "Found August 2026 independent specialist survey; no later general resolution or corrected historical proof located.",
+      "date_filter_or_unrestricted": "unrestricted",
+      "discovery_route": "primary and separate adversarial web searches",
+      "results_inspected": [
+        "SZ",
+        "VOLKOV",
+        "TRAHTMAN",
+        "ZHU"
+      ],
+      "limitations": "Historical proof error not independently audited."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "TRAHTMAN",
+      "theorem_locator": "Theorem 2, printed p. 11",
+      "claim_type": "historical_full_claim",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Completeness, synchronization, all n and quadratic length bound match the candidate.",
+        "Volkov footnote 1 reports a specific acknowledged error in February 2024, after the latest arXiv revision.",
+        "Independent August 2026 specialist survey still lists the full conjecture as open."
+      ],
+      "scope_relation": "Does not establish the full candidate.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Historical claim is not treated as an established resolution; the proof error is attributed to Volkov, not independently certified.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "ZHU",
+      "theorem_locator": "Theorem 2.4",
+      "claim_type": "restricted_class_claim",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Requires an original alphabet letter whose functional graph has exactly one directed cycle.",
+        "A general synchronizing automaton need not have such a letter.",
+        "Adding an arbitrary reset word as a new letter changes the letter-count cost and cannot transfer the bound."
+      ],
+      "scope_relation": "Does not establish the full candidate.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The general alphabet and automaton class remain uncovered.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "273",
+        "difference": "Continuous Skolem asks zero reachability of a continuous-time exponential polynomial, not reset words for every state of a finite automaton."
+      },
+      {
+        "id": "148",
+        "difference": "Analytic small-time local controllability concerns differential control systems, not finite-state synchronization."
+      }
+    ],
+    "distinctness_reason": "Universal reset-word length is distinct from all existing control and reachability questions. Restricted automaton classes are not separately counted.",
+    "implications_or_equivalences": []
+  },
+  "open_status_evidence_summary": "Volkov and Szykuła explicitly leave the general conjecture open. Historical full-proof claims were checked against withdrawal/error evidence; the July 2026 theorem concerns only one-cluster automata.",
+  "independent_status_corroboration": "Szykuła §2.1 Conjecture 1, August 2026, independently lists the full bound as open.",
+  "strongest_known_partial_results_and_gap": "The general bound reported by both surveys is (7/48 + 15625/798768)n^3 + o(n^3), approximately 0.1654 n^3, far from the conjectured quadratic bound.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass by the primary agent; no independent agent or human review",
+    "reviewer_or_pass_identifier": "A1 plus final draft/quantifier review",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A1-3",
+      "A1-4"
+    ],
+    "issues_found": [
+      "Completeness and synchronization are explicit; empty word handles n=1.",
+      "Length is measured in original alphabet letters.",
+      "Unknown-state resetting differs from reachability of a specified state.",
+      "Historical error report attributed to its source; no unsupported assertion of an independently found proof flaw.",
+      "PDF date discrepancy disclosed and independent August 2026 source used."
+    ],
+    "issues_resolved": [
+      "Final statement, source scope, application and duplicate comparisons reviewed; listed issues addressed in draft."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "not_performed"
+  },
+  "public_page_path": null,
+  "validation_results": [],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "codex/expand-open-problems-2026-09",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/cerny.md"
+}

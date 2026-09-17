@@ -1,0 +1,63 @@
+{
+  "repository": "MColbrook/AIM",
+  "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+  "branch": "codex/expand-open-problems-2026-09",
+  "updated_on": "2026-09-17",
+  "goal_target": 250,
+  "acceptable_range": [
+    200,
+    300
+  ],
+  "baseline_active": 300,
+  "new_accepted": 5,
+  "active_total": 300,
+  "candidates_investigated": 6,
+  "held_unverified": 0,
+  "held_claimed_resolution": 1,
+  "excluded": 0,
+  "remaining_to_minimum": 195,
+  "remaining_to_target": 245,
+  "baseline_reading": {
+    "problem_pages_fully_read": [
+      [
+        1,
+        300
+      ]
+    ],
+    "problem_pages_pending": [],
+    "all_source_maps_and_exclusion_logs_read": true,
+    "all_metadata_parsed": true,
+    "all_metadata_semantic_read_complete": true,
+    "reading_is_status_revalidation": false
+  },
+  "local_commits": [
+    {
+      "commit": "8126792",
+      "purpose": "Dynamic catalogue membership, permanent IDs and publication batches; validation regression tests."
+    }
+  ],
+  "remote_state": "No push, pull request or merge performed.",
+  "next_actions": [
+    "Complete the first 10–20-entry publication batch; five accepted drafts are outside the active catalogue.",
+    "Investigate remaining handoff seeds: convex planar spectral determination, inhomogeneous Coulomb Landau, 3D Edwards–Anderson order, and 4D Yang–Mills. Morrey remains held.",
+    "Discover candidates across all twelve sections, with deliberate biology, statistics, information, control, operations-research and stochastic-network coverage.",
+    "Refresh resolution searches and upstream duplicate checks, then assign permanent IDs centrally when the first 10–20-entry batch is ready."
+  ],
+  "coverage": {
+    "spectral": 0,
+    "operators": 1,
+    "inverse": 0,
+    "applied": 1,
+    "spectral2": 0,
+    "inverse2": 1,
+    "continuum2": 0,
+    "stochastic2": 0,
+    "spectral3": 0,
+    "continuum3": 0,
+    "inverse3": 1,
+    "stochastic3": 1
+  },
+  "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
+  "new_integrated": 0,
+  "count_semantics": "Accepted counts are reviewed drafts; integrated counts are active new pages. Integration awaits a complete 10–20-entry batch. Baseline active count remains 300."
+}

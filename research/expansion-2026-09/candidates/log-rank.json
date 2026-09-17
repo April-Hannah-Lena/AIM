@@ -1,0 +1,344 @@
+{
+  "candidate_id": "log-rank",
+  "proposed_catalogue_id": null,
+  "title": "The log-rank conjecture for deterministic communication",
+  "aliases": [
+    "log rank",
+    "Lovasz–Saks conjecture",
+    "monochromatic rectangle formulation"
+  ],
+  "primary_section": "operators",
+  "secondary_tags": [
+    "communication complexity",
+    "distributed computation"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Source formulation, independent status corroboration, actual resolution searches and scope comparisons, full baseline screening, applied significance and separate adversarial self-review passed. Accepted draft awaits a 10–20-entry integration batch and prepublication refresh.",
+  "problem_fingerprint": {
+    "model_or_objects": "Total Boolean matrix M in {0,1}^{m x n}; two parties hold a row and column index",
+    "dimension": "Arbitrary finite m,n >= 1",
+    "domain": "All input pairs [m] x [n], with no promise",
+    "regularity_and_data_class": "Exact Boolean entries",
+    "boundary_or_initial_conditions": "Not applicable",
+    "parameter_range": "Universal constants C,c > 0 independent of the matrix",
+    "quantifiers": "There exist C,c such that for every finite Boolean matrix a deterministic protocol satisfies the bound",
+    "normalization": "Real matrix rank; logarithms base two with 2+rank to cover ranks zero and one",
+    "observable_or_norm": "Worst-case number of communicated bits D(M)",
+    "limit_regime_and_order": "Uniform finite-instance inequality",
+    "requested_conclusion": "D(M) <= C [log_2(2+rank_R M)]^c",
+    "computational_model_and_dependencies": "Deterministic interactive two-party exact communication; local computation unrestricted; no conjectural assumption"
+  },
+  "statement_source_and_scope_match": "HLS §1, Conjecture 1.1 and its immediately following communication interpretation. Equivalent rectangle and cross-intersecting formulations are one problem, not additional entries. The harmless 2+rank normalization covers constant matrices.",
+  "proposed_statement_text": "For each finite Boolean matrix M, two parties who know M receive respectively i and j and exchange bits until both can determine M_ij exactly. Let D(M) be the minimum worst-case communication over deterministic protocols. Do universal C,c > 0 exist with D(M) <= C [log_2(2+rank_R M)]^c for all M?",
+  "applied_significance": "Two processors holding separate inputs must compute a prescribed Boolean decision exactly. The conjecture asks whether the real linear-algebraic complexity of its truth table universally controls the required interaction, up to a fixed power of a logarithm; local computation is unrestricted.",
+  "application_evidence_source_ids": [
+    "HLS",
+    "HHLO"
+  ],
+  "source_records": [
+    {
+      "source_id": "HLS",
+      "role": "formulation and recent status",
+      "authors": [
+        "Lianna Hambardzumyan",
+        "Shachar Lovett",
+        "Morgan Shirley"
+      ],
+      "title": "The Log-Rank Conjecture: New Equivalent Formulations",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2025-10-02",
+      "latest_version_date": "2026-08-14",
+      "identifier": "arXiv:2510.02583v3",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/html/2510.02583v3",
+      "locator": "§1 Conjecture 1.1; Theorem 1.2; Corollary 1.4; Theorem 1.7",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 through equivalent formulations",
+        "§2 main-theorem proof",
+        "§3 equivalence theorem"
+      ],
+      "supported_claim": "Explicitly leaves log-rank open. Signed rectangle rank approximates real rank, but positivity conversion remains conjectural.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "ST",
+      "role": "independent status and upper bound",
+      "authors": [
+        "Benny Sudakov",
+        "István Tomon"
+      ],
+      "title": "Matrix discrepancy and the log-rank conjecture",
+      "venue_or_repository": "author manuscript / scholarly repository",
+      "publication_type": "published article, Mathematical Programming 212 (2025), 567–579",
+      "publication_date": "2025",
+      "latest_version_date": null,
+      "identifier": "10.1007/s10107-024-02117-9",
+      "version": null,
+      "stable_url": "https://people.math.ethz.ch/~sudakovb/discrepancy-logrank-conjecture.pdf",
+      "locator": "§1, printed pp. 567–569, Theorem 1.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 statement and upper-bound discussion",
+        "Theorem 1.1"
+      ],
+      "supported_claim": "General bound O(sqrt(r)); conjectural target remains polylogarithmic.",
+      "independent_of_source_ids": [
+        "HLS"
+      ],
+      "access_limitations": null,
+      "online_publication_date": "2024-07-05",
+      "arxiv_version_history": "2311.18524: v1 2023-11-30 only; journal version inspected separately"
+    },
+    {
+      "source_id": "SONG",
+      "role": "later lower bound",
+      "authors": [
+        "Zhao Song"
+      ],
+      "title": "Alphabet-Preserving Lifting for the Log-Rank Conjecture",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-08-03",
+      "latest_version_date": "2026-08-03",
+      "identifier": "arXiv:2608.01812v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2608.01812v1",
+      "locator": "Theorems 1.1 and 3.5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Theorem 1.1 and adjacent discussion",
+        "Theorem 3.5 and proof parts (a)–(c)",
+        "arXiv version history: v1 only"
+      ],
+      "supported_claim": "Provides an explicit lower-bound construction still compatible with a fixed polylogarithmic upper bound; not asserted here to be the strongest known lower bound among all constructions.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "CMS",
+      "role": "apparent disproof scope",
+      "authors": [
+        "Arkadev Chattopadhyay",
+        "Nikhil S. Mande",
+        "Suhail Sherif"
+      ],
+      "title": "The Log-Approximate-Rank Conjecture is False",
+      "venue_or_repository": "author manuscript / scholarly repository",
+      "publication_type": "ECCC research report TR18-176",
+      "publication_date": "2018",
+      "latest_version_date": null,
+      "identifier": "ECCC TR18-176",
+      "version": null,
+      "stable_url": "https://eccc.weizmann.ac.il/report/2018/176/download",
+      "locator": "Theorems 1.9–1.10, printed pp. 5–6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Theorems 1.9–1.10 and following conclusion"
+      ],
+      "supported_claim": "Separates randomized bounded-error communication from approximate rank, not deterministic communication from exact real rank.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "HHLO",
+      "role": "apparent disproof scope",
+      "authors": [
+        "Hamed Hatami",
+        "Kaave Hosseini",
+        "Shachar Lovett",
+        "Anthony Ostuni"
+      ],
+      "title": "Refuting approaches to the log-rank conjecture for XOR functions",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2023",
+      "latest_version_date": "2024-05-03",
+      "identifier": "arXiv:2312.09400v2",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2312.09400v2",
+      "locator": "§1; Theorems 1.3, 3.1 and 4.1; §5 conclusion",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 through §1.3",
+        "§2 definitions",
+        "Theorems 3.1 and 4.1",
+        "§5 conclusion"
+      ],
+      "supported_claim": "Refutes auxiliary Fourier-support assertions; §5 explicitly explains why its functions do not refute log-rank.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search and direct primary-source/arXiv author-PDF access",
+      "query": "See ../search-log.json: S1-2, S2-2, S2-3, S3-1 through S3-4, S4-1 through S4-3",
+      "date_filter_or_unrestricted": "unrestricted; explicit 2025/2026 terms in selected queries",
+      "results_inspected": [
+        "HLS",
+        "ST",
+        "SONG",
+        "CMS",
+        "HHLO"
+      ],
+      "outcome": "Primary review completed, with HHLO and Song theorem scopes read and arXiv versions checked.",
+      "limitations": null
+    },
+    {
+      "searched_at": "2026-09-17",
+      "query": "A1-1 and A1-2 in ../search-log.json",
+      "outcome": "No later full proof or counterexample located; mathematical wording and historical aliases checked.",
+      "date_filter_or_unrestricted": "unrestricted",
+      "discovery_route": "separate adversarial web search",
+      "results_inspected": [
+        "Recent primary formulations and previously identified apparent refutations"
+      ],
+      "limitations": "Search absence is not a proof of openness."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "ST",
+      "theorem_locator": "§1, Theorem 1.1",
+      "claim_type": "partial_result_or_different_model",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "All Boolean matrices and real rank match.",
+        "Conclusion is O(sqrt(r)), rather than polylog(r)."
+      ],
+      "scope_relation": "Does not imply the conjectured rate.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not imply the conjectured rate.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "SONG",
+      "theorem_locator": "Theorem 1.1",
+      "claim_type": "partial_result_or_different_model",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Total Boolean matrices and deterministic complexity match.",
+        "Lower bound permits exponents c >= 2 in the conjectured upper bound."
+      ],
+      "scope_relation": "A lower-bound improvement does not refute every fixed exponent.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "A lower-bound improvement does not refute every fixed exponent.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CMS",
+      "theorem_locator": "Theorems 1.9–1.10",
+      "claim_type": "partial_result_or_different_model",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Randomized error-1/3 cost differs from zero-error deterministic cost.",
+        "Approximate rank differs from exact real rank."
+      ],
+      "scope_relation": "No exact-rank counterexample follows from the displayed separation.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No exact-rank counterexample follows from the displayed separation.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HHLO",
+      "theorem_locator": "Theorems 3.1 and 4.1; §5",
+      "claim_type": "refutation_of_auxiliary_claims",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "The constructed functions have sparse Fourier support with limited translated intersections.",
+        "These are counterexamples to proposed proof ingredients, not superpolylogarithmic communication lower bounds.",
+        "Section 5 supplies small parity-decision-tree protocols for the examples."
+      ],
+      "scope_relation": "Does not resolve the original conjecture.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Exact general deterministic communication upper bound remains open.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "034",
+        "difference": "Explicit rigidity changes entries to reduce rank and seeks circuit lower bounds; log-rank bounds communication of all Boolean matrices without perturbation."
+      },
+      {
+        "id": "030",
+        "difference": "Grothendieck asks an exact vector-versus-sign optimization constant; no communication-complexity assertion."
+      },
+      {
+        "id": "142",
+        "difference": "Adaptive zero-error channel capacity is an asymptotic rate, not exact deterministic two-party communication complexity."
+      },
+      {
+        "id": "270",
+        "difference": "Binary-channel zero-error capacity concerns block coding rather than a universal truth-table rank bound."
+      }
+    ],
+    "distinctness_reason": "No baseline entry asks this universal relation between exact communication and real rank. Equivalent rectangle/XOR reformulations are not separate entries.",
+    "implications_or_equivalences": [
+      "HLS signed-rectangle formulation and cross-intersecting-set formulation must not be counted separately."
+    ]
+  },
+  "open_status_evidence_summary": "HLS v3 (August 2026) explicitly formulates the unresolved conjecture; independent ST gives a square-root-rank bound. Located apparent refutations concern approximate rank or proposed proof methods; the recent lower bound does not exceed every fixed polylogarithm.",
+  "independent_status_corroboration": "ST independently formulates the problem and supplies only a square-root-rank upper bound; HLS reaffirms the gap in August 2026.",
+  "strongest_known_partial_results_and_gap": "ST proves D(M)=O(sqrt(rank_R M)); this does not give any fixed power of log rank.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass by the primary agent; no independent agent or human review",
+    "reviewer_or_pass_identifier": "A1 plus final draft/quantifier review",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A1-1",
+      "A1-2"
+    ],
+    "issues_found": [
+      "Both-party output differs by at most one final bit from standard one-party output; fixed constants absorb it.",
+      "Constant matrices handled by log(2+rank).",
+      "Real exact rank and total deterministic communication preserved.",
+      "Auxiliary Fourier refutation and randomized approximate-rank disproof do not settle this statement.",
+      "No arbitrary split into equivalent formulations."
+    ],
+    "issues_resolved": [
+      "Final statement, source scope, application and duplicate comparisons reviewed; listed issues addressed in draft."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "not_performed"
+  },
+  "public_page_path": null,
+  "validation_results": [],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "codex/expand-open-problems-2026-09",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/log-rank.md"
+}

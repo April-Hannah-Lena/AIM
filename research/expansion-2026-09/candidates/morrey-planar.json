@@ -1,0 +1,156 @@
+{
+  "candidate_id": "morrey-planar",
+  "proposed_catalogue_id": null,
+  "title": "Morrey’s planar rank-one convexity versus quasiconvexity",
+  "aliases": [
+    "Morrey 2x2 problem",
+    "rank-one convexity implies quasiconvexity",
+    "two-dimensional two-component maps"
+  ],
+  "primary_section": "continuum3",
+  "secondary_tags": [
+    "elasticity",
+    "calculus of variations"
+  ],
+  "decision": "hold_claimed_resolution",
+  "decision_reason": "Pedregal v5 (June 18, 2026) Theorems 1.1(2) and 1.2 claim exactly the planar implication. Earlier withdrawal does not adjudicate the new proof. No independent specialist adjudication of this revised argument was located; keep outside accepted count.",
+  "problem_fingerprint": {
+    "model_or_objects": "Finite-valued continuous W on real 2x2 matrices",
+    "dimension": "Two space and two target dimensions",
+    "domain": "All R^(2x2)",
+    "regularity_and_data_class": "Rank-one convex continuous integrands",
+    "boundary_or_initial_conditions": "Zero-trace Lipschitz test maps on bounded Lipschitz domains",
+    "parameter_range": "All matrices and test maps",
+    "quantifiers": "Every rank-one-convex W; all F,D,phi",
+    "normalization": "Divide integral by domain area",
+    "observable_or_norm": "Quasiconvex Jensen inequality",
+    "limit_regime_and_order": "No limit",
+    "requested_conclusion": "Rank-one convexity implies quasiconvexity",
+    "computational_model_and_dependencies": "Unconditional variational question"
+  },
+  "statement_source_and_scope_match": "Pedregal v5 introduction defines the precise notions, and Theorem 1.2 claims the full implication, not a symmetry-restricted subclass.",
+  "proposed_statement_text": "Does every continuous rank-one-convex function W:R^(2x2)->R satisfy W(F) <= |D|^(-1) integral_D W(F+gradient phi) for every F, bounded Lipschitz D in R^2 and phi in W_0^(1,infinity)(D;R^2)?",
+  "applied_significance": "Concerns whether stability of an elastic energy along rank-one directions suffices for stability under arbitrary fine-scale gradient perturbations in a planar variational model.",
+  "application_evidence_source_ids": [
+    "PEDREGAL"
+  ],
+  "source_records": [
+    {
+      "source_id": "PEDREGAL",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Pablo Pedregal"
+      ],
+      "title": "Morrey’s conjecture: rank-one convexity implies quasi-convexity for two-dimensional, two-component maps",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-06-18",
+      "latest_version_date": "2026-06-18",
+      "identifier": "arXiv:1905.06571v5",
+      "version": "v5",
+      "stable_url": "https://arxiv.org/html/1905.06571v5",
+      "locator": "§1, Theorems 1.1 and 1.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1, Theorems 1.1 and 1.2"
+      ],
+      "supported_claim": "Claims the exact candidate implication.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/1905.06571; v3 withdrawn August 29, 2024, v4 reinstated May 12, 2025, v5 June 18, 2026",
+      "earlier_withdrawal": "https://arxiv.org/abs/1905.06571v3; notice says some proof steps need more transparent and convincing treatment, without adjudicating v5."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "query": "S6-1, S7-1, S9-3 and S9-4 in ../search-log.json",
+      "discovery_route": "web search, direct arXiv full text and version history",
+      "date_filter_or_unrestricted": "unrestricted",
+      "results_inspected": [
+        "PEDREGAL v5 and v3"
+      ],
+      "outcome": "Matching current full-proof claim found.",
+      "limitations": "Full disqualification families and independent proof adjudication are unfinished; not accepted."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "PEDREGAL",
+      "theorem_locator": "Theorem 1.2",
+      "claim_type": "matching_full_proof_claim",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Both dimensions equal two.",
+        "Finite-valued real matrix integrand; no isotropy or special-growth restriction.",
+        "Full zero-boundary Lipschitz perturbation inequality."
+      ],
+      "scope_relation": "If correct, resolves the full proposed entry. Current review does not certify or refute the proof.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "If correct, resolves the full proposed entry. Current review does not certify or refute the proof.",
+      "material_unresolved_conflict": true
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "160/161",
+        "difference": "Sobolev homeomorphism approximation differs."
+      },
+      {
+        "id": "162",
+        "difference": "A specific tetragonal hull differs."
+      },
+      {
+        "id": "242",
+        "difference": "Linear composite G-closure differs."
+      },
+      {
+        "id": "230",
+        "difference": "Elastic force balance differs."
+      }
+    ],
+    "distinctness_reason": "Baseline has no equivalent full planar rank-one/quasiconvexity implication.",
+    "implications_or_equivalences": []
+  },
+  "open_status_evidence_summary": "Material matching proof claim remains unadjudicated.",
+  "independent_status_corroboration": null,
+  "strongest_known_partial_results_and_gap": null,
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [],
+  "second_review": {
+    "arrangement": "Primary agent hold decision",
+    "reviewer_or_pass_identifier": null,
+    "date": null,
+    "independent_searches": [],
+    "issues_found": [
+      "Matching current claim"
+    ],
+    "issues_resolved": [],
+    "verdict": "not_reviewed_for_acceptance"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "codex/expand-open-problems-2026-09",
+    "commit": null,
+    "pull_request_url": null
+  }
+}

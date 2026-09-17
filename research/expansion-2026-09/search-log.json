@@ -1,0 +1,530 @@
+[
+  {
+    "search_id": "S1-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Problems, Progress and Perspectives in Mathematical and Computational Biology\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S1-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "log rank conjecture survey 2025 2026 open",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S1-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Cerny conjecture 2025 2026 proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S2-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Problems, Progress and Perspectives in Mathematical and Computational Biology\" editors 2024 2025",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S2-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"log-rank conjecture\" proof proved solved resolution counterexample disproof refutation",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S2-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"log rank\" \"2026\" Sudakov Tomon Song",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S2-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Černý conjecture\" proof proved solved resolution counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S3-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Sudakov Tomon \"Matrix discrepancy and the log-rank conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S3-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"log-rank\" \"Song\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S3-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Lovasz Saks Lovett Lee Shraibman \"log-rank\" 2025 2026 proof erratum correction withdrawal",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S3-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "deterministic two party communication Boolean matrix rank polynomial logarithm open 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S4-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"The Log-Approximate-Rank Conjecture is False\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S4-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"log-rank conjecture\" 2026 2025 resolution refutation counterexample erratum",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S4-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Song\" \"log-rank\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S4-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Černý conjecture\" \"2026\" \"disproof\" \"refutation\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Initial discovery/status pass; per-candidate records distinguish full text read from results not yet assessed."
+  },
+  {
+    "search_id": "S5-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "synchronizing automata reset word \"(n-1)\" \"2026\" conjecture solved",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary status and resolution-scope review"
+  },
+  {
+    "search_id": "S5-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Černý Cerny Starke conjecture Shitov Szykula Volkov 2025 2026 correction erratum withdrawal",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary status and resolution-scope review"
+  },
+  {
+    "search_id": "S5-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"synchronizing automata\" \"open\" \"2026\" Černý Szykuła",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary status and resolution-scope review"
+  },
+  {
+    "search_id": "S5-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Cerny conjecture\" proof proved solved resolution counterexample disproof refutation",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary status and resolution-scope review"
+  },
+  {
+    "search_id": "A1-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"log-rank\" \"2026\" \"September\" proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separate adversarial self-review after primary source reading"
+  },
+  {
+    "search_id": "A1-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Lovasz\" \"Saks\" \"log rank\" conjecture solved refutation",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separate adversarial self-review after primary source reading"
+  },
+  {
+    "search_id": "A1-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Černý\" \"2026\" \"September\" conjecture proof",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separate adversarial self-review after primary source reading"
+  },
+  {
+    "search_id": "A1-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Černý conjecture\" \"Trakhtman\" corrected proof error",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separate adversarial self-review after primary source reading"
+  },
+  {
+    "search_id": "S6-1",
+    "query": "\"Morrey\" \"2x2\" quasiconvexity rank-one convexity 2026 2025 open proof",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Seed discovery and primary review"
+  },
+  {
+    "search_id": "S6-2",
+    "query": "\"unique games conjecture\" 2026 2025 proof solved",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Seed discovery and primary review"
+  },
+  {
+    "search_id": "S6-3",
+    "query": "\"planted clique\" \"conjecture\" detection polynomial time 2026 2025",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Seed discovery and primary review"
+  },
+  {
+    "search_id": "S6-4",
+    "query": "\"standard simplex conjecture\" 2026 2025 proof",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Seed discovery and primary review"
+  },
+  {
+    "search_id": "S7-1",
+    "query": "\"Pedregal\" \"rank-one convexity\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Seed discovery and primary review"
+  },
+  {
+    "search_id": "S7-2",
+    "query": "\"standard simplex conjecture\" Heilman 2025 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Seed discovery and primary review"
+  },
+  {
+    "search_id": "S7-3",
+    "query": "\"unique games\" \"4-to-1\" Fei Minzer Wang 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Seed discovery and primary review"
+  },
+  {
+    "search_id": "S7-4",
+    "query": "\"planted clique conjecture\" \"Conjecture\" detection Brennan Bresler",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Seed discovery and primary review"
+  },
+  {
+    "search_id": "S8-1",
+    "query": "\"planted clique conjecture\" proof proved solved resolution counterexample disproof refutation",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S8-2",
+    "query": "\"planted clique\" \"2026\" \"2025\" algorithm sub sqrt detection",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S8-3",
+    "query": "\"planted clique\" Brennan Bresler Huleihel \"correction\" OR \"erratum\" OR \"withdrawn\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S8-4",
+    "query": "\"planted clique\" \"2026\" conjecture detection polynomial",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S9-1",
+    "query": "\"planted clique\" \"2026\" \"algorithm\" \"-epsilon\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S9-2",
+    "query": "\"planted clique\" \"2025\" \"break\" \"barrier\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S9-3",
+    "query": "\"Pedregal\" \"2026\" \"Morrey\" gap correction proof review",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S9-4",
+    "query": "\"Rank-one convexity\" \"2026\" \"Pedregal\" erratum withdrawal",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "A2-1",
+    "query": "\"hidden clique\" Jerrum Kucera Kučera polynomial \"2026\" \"2025\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial source and formulation pass"
+  },
+  {
+    "search_id": "A2-2",
+    "query": "\"Planted Clique Conjectures Are Equivalent\" correction erratum version",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial source and formulation pass"
+  },
+  {
+    "search_id": "A2-3",
+    "query": "\"planted clique\" \"September 2026\" detection solved refutation",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial source and formulation pass"
+  },
+  {
+    "search_id": "A2-4",
+    "query": "\"planted clique\" \"fixed\" \"advantage\" \"counterexample\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial source and formulation pass"
+  },
+  {
+    "search_id": "S10-1",
+    "query": "\"unique games\" \"4-to-1\" Fei Minzer Wang site:eccc.weizmann.ac.il",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S10-2",
+    "query": "\"unique games conjecture\" \"2026\" site:arxiv.org",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S10-3",
+    "query": "\"standard simplex\" \"2026\" site:arxiv.org",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S10-4",
+    "query": "\"strictly convex\" \"isospectral\" \"2026\" \"2025\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S11-1",
+    "query": "\"Fei\" \"Minzer\" \"Wang\" \"4-to-1\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S11-2",
+    "query": "\"unique games conjecture\" \"2026\" \"Vertex Cover\" disproof",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S12-1",
+    "query": "\"standard simplex conjecture\" proof proved solved resolution counterexample disproof refutation",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S12-2",
+    "query": "\"Gaussian\" \"simplex\" partition equal measure \"2025\" \"2026\" Heilman Mossel Neeman",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S12-3",
+    "query": "\"Isaksson\" \"Mossel\" \"Maximally stable Gaussian partitions\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S12-4",
+    "query": "\"standard simplex\" hyperstable correction erratum withdrawn",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S13-1",
+    "query": "\"Unique Games Conjecture\" proof proved solved resolution counterexample disproof refutation",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S13-2",
+    "query": "\"unique games\" permutation constraints almost satisfiable Khot Minzer 2025 2026 correction erratum withdrawn",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S13-3",
+    "query": "\"Gaussian\" equal measure partition four simplex noise stability 2026 2025",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "S13-4",
+    "query": "\"standard simplex conjecture\" \"four\" proof counterexample Heilman Tarter Isaksson Mossel",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary scope and status review"
+  },
+  {
+    "search_id": "A3-1",
+    "query": "\"Unique Games Conjecture\" \"September 2026\" resolved counterexample permutation",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial self-pass"
+  },
+  {
+    "search_id": "A3-2",
+    "query": "\"standard simplex conjecture\" \"September 2026\" \"four\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial self-pass"
+  },
+  {
+    "search_id": "A3-3",
+    "query": "\"Gaussian\" \"simplex\" \"q >= 4\" \"proof\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial self-pass"
+  },
+  {
+    "search_id": "A3-4",
+    "query": "\"Weak Simplex Conjecture\" \"Stochastic Domination of Gaussian Maxima\" arxiv",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial self-pass"
+  },
+  {
+    "search_id": "S14-1",
+    "query": "\"plurality is stablest\" proof counterexample 2025 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Alias follow-up and primary-source corroboration"
+  },
+  {
+    "search_id": "S14-2",
+    "query": "\"standard simplex conjecture\" proved solved resolution disproof 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Alias follow-up and primary-source corroboration"
+  },
+  {
+    "search_id": "A4-1",
+    "query": "\"unique games conjecture\" Vega \"uniform\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated written-draft adversarial follow-up"
+  },
+  {
+    "search_id": "A4-2",
+    "query": "\"standard simplex conjecture\" \"four\" \"2026\" proof",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated written-draft adversarial follow-up"
+  },
+  {
+    "search_id": "A4-3",
+    "query": "\"Gaussian\" \"simplex\" \"equal\" \"counterexample\" 2025 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated written-draft adversarial follow-up"
+  }
+]

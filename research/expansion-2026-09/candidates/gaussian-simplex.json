@@ -1,0 +1,421 @@
+{
+  "candidate_id": "gaussian-simplex",
+  "proposed_catalogue_id": null,
+  "title": "Balanced Gaussian simplex noise stability for four or more classes",
+  "aliases": [
+    "standard simplex conjecture",
+    "Gaussian noise stability",
+    "plurality is stablest",
+    "balanced Gaussian partition conjecture"
+  ],
+  "primary_section": "stochastic3",
+  "secondary_tags": [
+    "Gaussian geometry",
+    "information theory",
+    "noise robustness"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Exact source formulation, independent specialist corroboration, baseline duplicate screening, current resolution searches and a separated adversarial draft review support admission as an open problem. No matching later resolution located as of September 17, 2026.",
+  "problem_fingerprint": {
+    "model_or_objects": "Measurable partition A_1,...,A_q and a jointly Gaussian pair (X,Y)",
+    "dimension": "Every integer q>=4 and n>=q-1",
+    "domain": "R^n with standard Gaussian measure",
+    "regularity_and_data_class": "All measurable partitions modulo Gaussian-null sets; no smoothness or hyperstability assumption",
+    "boundary_or_initial_conditions": "Partition covers space and is disjoint modulo null sets",
+    "parameter_range": "Every rho in (0,1)",
+    "quantifiers": "For every q,n,rho and every partition with gamma_n(A_i)=1/q",
+    "normalization": "X,Y standard normal; Cov(X,Y)=rho I_n",
+    "observable_or_norm": "Sum_i P(X in A_i,Y in A_i)",
+    "limit_regime_and_order": "Finite n and fixed rho, not merely rho->1",
+    "requested_conclusion": "Total stability bounded above by centered regular-simplex cone partition",
+    "computational_model_and_dependencies": "Unconditional Gaussian extremal inequality; no algorithm model or UGC assumption"
+  },
+  "statement_source_and_scope_match": "The positive-correlation part of IM Conjecture 1.4, restricted to q>=4. HT Conjecture 1.6 with equal masses and w=0 corroborates this exact regime. No uniqueness claim is added.",
+  "proposed_statement_text": "For every q>=4, n>=q-1 and rho in (0,1), does every measurable equal-Gaussian-measure q-partition of R^n have total rho-noise stability at most that of the centered regular-simplex cone partition?",
+  "applied_significance": "For balanced classification of Gaussian data, noise stability is the probability that the label survives correlated Gaussian perturbation. HT §§1.1–1.3 relates this continuous extremal problem to noise robustness of low-influence voting.",
+  "application_evidence_source_ids": [
+    "IM",
+    "HT"
+  ],
+  "source_records": [
+    {
+      "source_id": "IM",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Marcus Isaksson",
+        "Elchanan Mossel"
+      ],
+      "title": "Maximally Stable Gaussian Partitions with Discrete Applications",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2009-08-03",
+      "latest_version_date": "2009-08-03",
+      "identifier": "arXiv:0903.3362v3",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/pdf/0903.3362v3",
+      "locator": "Definition 1.3 and Conjecture 1.4, p. 2; §1.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Definition 1.3 and Conjecture 1.4, p. 2; §1.2"
+      ],
+      "supported_claim": "Canonical simplex noise-stability conjecture.",
+      "independent_of_source_ids": [],
+      "access_limitations": "arXiv v3 metadata is August 3, 2009; the PDF body bears November 26, 2024. The body date is not treated as a version-history update.",
+      "version_history_checked": "https://arxiv.org/abs/0903.3362"
+    },
+    {
+      "source_id": "HT",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Steven Heilman",
+        "Alex Tarter"
+      ],
+      "title": "Three candidate plurality is stablest for small correlations",
+      "venue_or_repository": "journal article",
+      "publication_type": "journal article",
+      "publication_date": "2021-09-28",
+      "latest_version_date": null,
+      "identifier": "Forum of Mathematics, Sigma 9 (2021), e65; DOI 10.1017/fms.2021.56",
+      "version": null,
+      "stable_url": "https://doi.org/10.1017/fms.2021.56",
+      "locator": "§§1.1–1.4; Problem 1.5, Conjecture 1.6, Theorems 1.9 and 1.10",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1.1–1.4; Problem 1.5, Conjecture 1.6, Theorems 1.9 and 1.10"
+      ],
+      "supported_claim": "Independent balanced conjecture, dimension reduction and three-class partial result.",
+      "independent_of_source_ids": [
+        "IM"
+      ],
+      "access_limitations": null
+    },
+    {
+      "source_id": "HYPER",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Steven Heilman"
+      ],
+      "title": "Hyperstable Sets with Voting and Algorithmic Hardness Applications",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2022-09-22",
+      "latest_version_date": "2022-09-22",
+      "identifier": "arXiv:2209.11216v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2209.11216v1",
+      "locator": "Introduction, Definition 1.3, Theorems 1.5 and 1.6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Introduction, Definition 1.3, Theorems 1.5 and 1.6"
+      ],
+      "supported_claim": "Conditional q=3 or 4 conclusion needs hyperstability.",
+      "independent_of_source_ids": [
+        "IM"
+      ],
+      "access_limitations": "arXiv lists only v1 September 22, 2022; served manuscript body bears August 24, 2026. Cite version identity, not an inferred revision date.",
+      "version_history_checked": "https://arxiv.org/abs/2209.11216"
+    },
+    {
+      "source_id": "HEILMAN26",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Steven Heilman"
+      ],
+      "title": "Sharp Hardness for MAX-3-CUT and Quantum MAX-CUT",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-07-31",
+      "latest_version_date": "2026-07-31",
+      "identifier": "arXiv:2608.00333v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/2608.00333v1",
+      "locator": "§1.1, Theorems 1.2–1.5; Appendix A, Theorem A.1, printed p. 38",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1.1, Theorems 1.2–1.5; Appendix A, Theorem A.1, printed p. 38"
+      ],
+      "supported_claim": "Three-part positive-noise theorem covers 0<rho<=2/5; approximation hardness in Theorem 1.4 assumes UGC.",
+      "independent_of_source_ids": [],
+      "access_limitations": "arXiv submission metadata is July 31, 2026; the PDF/HTML manuscript bears August 24, 2026. The latter is not recorded as a separate arXiv revision.",
+      "version_history_checked": "https://arxiv.org/abs/2608.00333"
+    },
+    {
+      "source_id": "HMN",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Steven Heilman",
+        "Elchanan Mossel",
+        "Joe Neeman"
+      ],
+      "title": "Standard Simplices and Pluralities are Not the Most Noise Stable",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2014-07-09",
+      "latest_version_date": "2014-07-09",
+      "identifier": "arXiv:1403.0885v3",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/pdf/1403.0885v3",
+      "locator": "Definitions 2.1–2.5 and Theorem 2.6, printed p. 4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Definitions 2.1–2.5 and Theorem 2.6, printed p. 4"
+      ],
+      "supported_claim": "Unequal-measure counterexamples explicitly exclude the balanced masses.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/1403.0885"
+    },
+    {
+      "source_id": "MULGUND",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Abhijeet Mulgund"
+      ],
+      "title": "Stochastic Domination of Gaussian Maxima: A Resolution of the Weak Simplex Conjecture",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-08-21",
+      "latest_version_date": "2026-08-21",
+      "identifier": "arXiv:2607.14087v4",
+      "version": "v4",
+      "stable_url": "https://arxiv.org/html/2607.14087v4",
+      "locator": "§1, Eqs. (1)–(5); Corollaries 2.5–2.7, especially Corollary 2.6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1, Eqs. (1)–(5); Corollaries 2.5–2.7, especially Corollary 2.6"
+      ],
+      "supported_claim": "Gaussian channel codebook/ML decoding problem differs from arbitrary balanced partitions of a correlated Gaussian pair.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/2607.14087"
+    },
+    {
+      "source_id": "SYXI",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Mengwei Su",
+        "Kaiwen Yang",
+        "Hao Xu",
+        "Chih-Lin I"
+      ],
+      "title": "The Equality Cases of the Weak Simplex Conjecture",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-08-19",
+      "latest_version_date": "2026-08-19",
+      "identifier": "arXiv:2608.19093v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2608.19093v1",
+      "locator": "§I; §III, Theorems 1–3 and Corollary 4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§I; §III, Theorems 1–3 and Corollary 4"
+      ],
+      "supported_claim": "Claims equality cases for the Gaussian codebook and mean-width optimization, not arbitrary balanced partitions.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/2608.19093; v1 only"
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Web search and direct primary-source full text/version history",
+      "query": "S6-4, S7-2, S10-3, S12-1/2/3/4, S13-3/4, A3-2/3/4, S14-1/2 in ../search-log.json; A4 follow-up in same search log",
+      "date_filter_or_unrestricted": "Unrestricted; year terms 2025 and 2026 also searched",
+      "results_inspected": [
+        "IM",
+        "HT",
+        "HYPER",
+        "HEILMAN26",
+        "HMN",
+        "MULGUND"
+      ],
+      "outcome": "No later resolution located for the exact candidate after the scope comparisons below.",
+      "limitations": "Search coverage is finite; no claim of proof certification."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "HT",
+      "theorem_locator": "Theorem 1.9",
+      "claim_type": "dimension_reduction",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "For positive rho and q parts, maximizers depend on at most q-1 coordinates.",
+        "The reduced partition is not characterized as a regular simplex by this theorem."
+      ],
+      "scope_relation": "Reduces ambient dimension but leaves the extremal shape problem.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Reduces ambient dimension but leaves the extremal shape problem.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HYPER",
+      "theorem_locator": "Definition 1.3; Theorem 1.5",
+      "claim_type": "conditional_geometric_theorem",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "q=3 or 4.",
+        "Hyperstability imposes mixed variation/correlation derivative conditions beyond ordinary maximization."
+      ],
+      "scope_relation": "No proof that every maximizer is hyperstable; cannot drop this assumption.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No proof that every maximizer is hyperstable; cannot drop this assumption.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HEILMAN26",
+      "theorem_locator": "Appendix A, Theorem A.1",
+      "claim_type": "three_class_partial_result",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Exactly three equal-measure sets.",
+        "Positive correlation restricted to 0<rho<=2/5."
+      ],
+      "scope_relation": "Does not cover four or more classes. No automatic dimension/number-of-classes extension follows.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not cover four or more classes. No automatic dimension/number-of-classes extension follows.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HMN",
+      "theorem_locator": "Theorem 2.6",
+      "claim_type": "unequal_measure_counterexample",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "The mass vector is explicitly different from the uniform vector."
+      ],
+      "scope_relation": "Does not refute balanced q-partitions.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not refute balanced q-partitions.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "MULGUND",
+      "theorem_locator": "Corollary 2.6",
+      "claim_type": "different_simplex_optimization",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Uniform discrete message selects one of d+1 unit code vectors.",
+        "Observation is a selected code vector scaled by lambda plus Gaussian noise; objective is ML decoding accuracy.",
+        "Our input is Gaussian with arbitrary measurable equal-mass classification cells, and the pair has fixed correlation."
+      ],
+      "scope_relation": "A finite-codebook Gaussian-mixture optimization does not establish the arbitrary Gaussian-partition inequality. No reduction transferring this theorem to the candidate is given.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "A finite-codebook Gaussian-mixture optimization does not establish the arbitrary Gaussian-partition inequality. No reduction transferring this theorem to the candidate is given.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "SYXI",
+      "theorem_locator": "§III, Theorem 3",
+      "claim_type": "different_simplex_equality_problem",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Uniform discrete messages encoded as unit vectors with additive Gaussian noise.",
+        "Characterizes equality in codebook optimization; no arbitrary Gaussian-source classification cells."
+      ],
+      "scope_relation": "Does not resolve balanced correlated-Gaussian partition noise stability. No proof certification asserted.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not resolve balanced correlated-Gaussian partition noise stability. No proof certification asserted.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "269",
+        "difference": "Binary mutual-information maximization has a different observable and alphabet."
+      },
+      {
+        "id": "245",
+        "difference": "Euclidean bubble perimeter is local, whereas this is nonlocal Gaussian stability at finite rho."
+      },
+      {
+        "id": "099",
+        "difference": "KLS is an isoperimetric bound for log-concave measures, not exact balanced multiclass Gaussian extremizers."
+      }
+    ],
+    "distinctness_reason": "One canonical balanced positive-noise simplex question. Discrete plurality reformulation, per-q splits and negative-noise variants will not be counted as additional entries.",
+    "implications_or_equivalences": [
+      "HT §1.2 describes the invariance-principle relation to balanced low-influence voting; do not count both.",
+      "A rho->1 perimeter result alone does not prove the finite-rho inequality.",
+      "The weak simplex coding conjecture is not this Gaussian-partition conjecture."
+    ]
+  },
+  "open_status_evidence_summary": "IM formulates the conjecture; independent HT preserves the balanced case and proves dimension reduction, while HYPER has an additional hypothesis. HEILMAN26 concerns only three classes.",
+  "independent_status_corroboration": "Heilman and Tarter have no authors in common with Isaksson and Mossel. HYPER and HEILMAN26 share Heilman with HT and are not counted as additional independent sources.",
+  "strongest_known_partial_results_and_gap": "Dimension reduction to q-1 dimensions; conditional q=4 result under hyperstability; recent three-class results do not settle general balanced q>=4 partitions.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Version/body-date discrepancies for IM, HYPER and HEILMAN26 are recorded above.",
+    "No full proof certification of the recent partial results or Mulgund claim is asserted; exact theorem scope was inspected."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass by primary agent; no independent reviewer",
+    "reviewer_or_pass_identifier": "A3 plus A4 and completed written-draft audit",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A3-2/3/4",
+      "A4-2/3"
+    ],
+    "issues_found": [
+      "Unequal-measure counterexamples.",
+      "Three-class results versus q>=4.",
+      "Hyperstability is an additional assumption.",
+      "Weak simplex coding and mean-width results use different objects.",
+      "Positive-noise formulation alone should not claim negative-noise MAX-q-CUT consequences."
+    ],
+    "issues_resolved": [
+      "Draft fixes all masses at 1/q.",
+      "Recent Theorem A.1 is restricted to three classes.",
+      "Draft admits all measurable partitions.",
+      "MULGUND and SYXI full relevant statements compared.",
+      "Application paragraph uses direct Gaussian label agreement and balanced voting only."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [
+    {
+      "date": "2026-09-17",
+      "check": "Semantic draft review",
+      "result": "Passed: equations, quantifiers, normalization, source locators, application scope and baseline distinction reviewed. No permanent ID or active metadata assigned yet."
+    }
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "codex/expand-open-problems-2026-09",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_page_path": "research/expansion-2026-09/drafts/gaussian-simplex.md"
+}
