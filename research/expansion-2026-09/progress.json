@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 21,
+  "new_accepted": 22,
   "active_total": 320,
-  "candidates_investigated": 26,
+  "candidates_investigated": 27,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 179,
-  "remaining_to_target": 229,
+  "remaining_to_minimum": 178,
+  "remaining_to_target": 228,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -78,11 +78,16 @@
     {
       "commit": "0ad9dcd7ba00b2fddc73a7ad69e30f985811bf6e",
       "purpose": "Record direct publication of batch 2; remote main independently reverified on September 17, 2026."
+    },
+    {
+      "commit": "8ff4a7ff2bb854907e14fe7044f5407dd927f23e",
+      "purpose": "Record reviewed identity-testing draft and graph-isomorphism hold; pushed directly to main."
     }
   ],
-  "remote_state": "Remote main was independently verified at 0ad9dcd7ba00b2fddc73a7ad69e30f985811bf6e before the next research-draft commit. It contains both published batches, through entry 320. No PR was created. Direct pushes remain authorized.",
+  "remote_state": "Remote main was independently verified at 8ff4a7ff2bb854907e14fe7044f5407dd927f23e before the next research-draft commit. It contains both published batches, through entry 320. SSH direct push access was rechecked successfully. No PR was created; direct pushes remain authorized.",
   "next_actions": [
-    "Accumulate the next reviewed batch starting with the accepted deterministic-PIT draft; refresh sources and duplicates before assigning active IDs. Keep graph isomorphism held pending claim adjudication.",
+    "Accumulate the next reviewed batch starting with deterministic PIT and polynomial Hirsch; refresh sources and duplicates before assigning active IDs. Keep graph isomorphism held pending claim adjudication.",
+    "Pursue exact asymmetric metric TSP integrality-gap formulation and current bounds; retain slow-server threshold lead outside counts until the remaining model is precisely source-matched.",
     "Continue broader discovery toward at least 200 new problems, integrating and pushing further reviewed batches directly to main.",
     "All ten handoff seeds investigated: eight accepted drafts, Morrey and Yang–Mills held on matching unadjudicated claims.",
     "Discover candidates across all twelve sections, with deliberate biology, statistics, information, control, operations-research and stochastic-network coverage.",
@@ -92,7 +97,7 @@
     "spectral": 1,
     "operators": 3,
     "inverse": 2,
-    "applied": 3,
+    "applied": 4,
     "spectral2": 1,
     "inverse2": 1,
     "continuum2": 1,
@@ -104,7 +109,7 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 20,
-  "count_semantics": "Twenty accepted additions are integrated and published on main in two ten-entry batches; one further accepted research draft awaits refresh and integration. Active total remains 320. Held records do not count. Remaining-to-minimum/target fields measure further acceptances, not remaining integrations.",
+  "count_semantics": "Twenty accepted additions are integrated and published on main in two ten-entry batches; two further accepted research drafts await refresh and integration. Active total remains 320. Held records do not count. Remaining-to-minimum/target fields measure further acceptances, not remaining integrations.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 20,
   "coverage_semantics": "Accepted additions by primary section, including accepted drafts awaiting integration.",

@@ -1,0 +1,472 @@
+{
+  "candidate_id": "polynomial-hirsch",
+  "proposed_catalogue_id": null,
+  "title": "Polynomial bounds for the graph diameter of polytopes",
+  "aliases": [
+    "polynomial Hirsch conjecture",
+    "polynomial combinatorial diameter",
+    "polynomial vertex-edge graph diameter"
+  ],
+  "primary_section": "applied",
+  "secondary_tags": [
+    "convex geometry",
+    "linear optimization",
+    "polyhedral combinatorics"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit source formulation, independent current status, exact theorem-scope checks, semantic duplicate comparison and separated A23 self-pass passed. Research draft only; batch refresh remains due.",
+  "problem_fingerprint": {
+    "model_or_objects": "Vertex-edge graph of a bounded convex polytope",
+    "dimension": "All d>=1, full-dimensional in R^d",
+    "domain": "Bounded intersection of finitely many real closed half-spaces",
+    "regularity_and_data_class": "No simplicity, lattice, rationality or conditioning restriction",
+    "boundary_or_initial_conditions": "Every pair of vertices; paths along actual edges",
+    "parameter_range": "Exactly n facets, n>=d+1",
+    "quantifiers": "Exist absolute C,k>0; for every d,n and every such polytope",
+    "normalization": "Edge count, not Euclidean length",
+    "observable_or_norm": "Maximum shortest undirected graph distance",
+    "limit_regime_and_order": "Uniform polynomial bound as dimension and facet count jointly vary",
+    "requested_conclusion": "diam G(P) <= C(n+d)^k",
+    "computational_model_and_dependencies": "Existence only; no algorithm, prescribed objective, monotonicity or conditional complexity hypothesis"
+  },
+  "statement_source_and_scope_match": "S12 Conjecture 1.3 asks for a polynomial in n alone; n>=d+1 makes this equivalent to an absolute polynomial bound in n+d. BX26 §1 and W25 §I explicitly use dimension and facet count. Bounded, full-dimensional representation loses no bounded polytope after passage to its affine hull. Vertices/edges/facets and graph distance agree with T14 and S19.",
+  "proposed_statement_text": "A convex polytope $P\\subset\\mathbb R^d$ is a bounded intersection of finitely many closed half-spaces. Assume $P$ has nonempty interior in $\\mathbb R^d$, where $d\\ge1$, and exactly $n$ facets, its faces of dimension $d-1$. In particular, $n\\ge d+1$.\n\nThe vertex-edge graph $G(P)$ has the vertices of $P$ as its nodes; two nodes are adjacent precisely when they are the endpoints of an edge of $P$. For vertices $u,v$, let $\\operatorname{dist}_{G(P)}(u,v)$ be the minimum number of edges in a path joining them. Define\n\n$$\n\\operatorname{diam}G(P)=\\max_{u,v\\in V(P)}\\operatorname{dist}_{G(P)}(u,v).\n$$\n\nDo there exist absolute constants $C,k>0$ such that every such polytope satisfies\n\n$$\n\\operatorname{diam}G(P)\\le C(n+d)^k?\n$$\n\nThe same constants must work for all dimensions and all facet counts. There are no rationality, simplicity or conditioning assumptions. Paths use actual edges and may move in either direction; no linear objective is prescribed. This is the polynomial Hirsch conjecture for bounded polytopes. It asks for the existence of short paths, without requiring an algorithm to find them.",
+  "applied_significance": "A bounded feasible region in linear programming is a polytope, and nondegenerate simplex pivots move between its vertices along edges. Its graph diameter therefore gives a geometric lower bound on the worst-case number of pivots needed when the starting vertex and objective vary. A superpolynomial diameter family would obstruct every uniformly polynomial pivot bound. A polynomial diameter bound would remove that obstruction, while leaving the additional tasks of choosing objective-improving steps and computing them efficiently. These extra algorithmic requirements are the subject of existing [entry 100](../../../problems/100-strongly-polynomial-simplex.md); the present question concerns the geometry of the feasible region.",
+  "application_evidence_source_ids": [
+    "S12",
+    "BX26",
+    "W25"
+  ],
+  "source_records": [
+    {
+      "source_id": "S12",
+      "role": "formulation, independent status, partial result or resolution-scope comparison",
+      "authors": [
+        "Francisco Santos"
+      ],
+      "title": "A counterexample to the Hirsch conjecture",
+      "venue_or_repository": "Annals of Mathematics 176 (2012), 383–412; DOI 10.4007/annals.2012.176.1.7",
+      "publication_type": "published paper; accepted manuscript",
+      "publication_date": "2012",
+      "version": "arXiv:1006.2814v3, 2011-11-08",
+      "stable_url": "https://arxiv.org/html/1006.2814v3",
+      "locator": "§1, Conjecture 1.3, Theorems 1.5–1.6, Corollary 1.7, Theorem 1.8; §6 Lemmas 6.1–6.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1, Conjecture 1.3, Theorems 1.5–1.6, Corollary 1.7, Theorem 1.8; §6 Lemmas 6.1–6.2"
+      ],
+      "supported_claim": "Explicit polynomial-in-facet-count conjecture; linear Hirsch counterexample and its scope.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "arXiv current record lists v1 2010-06-14, v2 2011-05-04, v3 2011-11-08; journal and DOI verified."
+    },
+    {
+      "source_id": "BX26",
+      "role": "formulation, independent status, partial result or resolution-scope comparison",
+      "authors": [
+        "Alexander E. Black",
+        "Lei Xue"
+      ],
+      "title": "Any Proof of Polynomial Hirsch Must be Completely Incoherent",
+      "venue_or_repository": "arXiv:2607.11628",
+      "publication_type": "preprint",
+      "publication_date": "2026-07-13",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2607.11628v1",
+      "locator": "§1, complete Theorem 1.1, Corollary 1.2 and §1.1; §2 definitions",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1, complete Theorem 1.1, Corollary 1.2 and §1.1; §2 definitions"
+      ],
+      "supported_claim": "General polynomial Hirsch remains open; all coherent monotone paths may be exponentially long.",
+      "independent_of_source_ids": [
+        "S12"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "Current arXiv record lists only v1, 2026-07-13."
+    },
+    {
+      "source_id": "N26",
+      "role": "formulation, independent status, partial result or resolution-scope comparison",
+      "authors": [
+        "Bento Natura"
+      ],
+      "title": "Circuit Diameter of Polyhedra is Strongly Polynomial",
+      "venue_or_repository": "arXiv:2602.06958",
+      "publication_type": "preprint",
+      "publication_date": "2026-02-06",
+      "version": "v2, 2026-02-10",
+      "stable_url": "https://arxiv.org/html/2602.06958v2",
+      "locator": "§§1–1.4, circuit-walk definitions, full Theorem 1.1 and Existence versus Computation paragraph",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1–1.4, circuit-walk definitions, full Theorem 1.1 and Existence versus Computation paragraph"
+      ],
+      "supported_claim": "Independent status; O(m² log m) circuit diameter for Ax=b, x>=0 is a different path model.",
+      "independent_of_source_ids": [
+        "BX26",
+        "S12"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "Current arXiv record lists v1 2026-02-06 and v2 2026-02-10; v2 text read after initial v1 check."
+    },
+    {
+      "source_id": "W25",
+      "role": "formulation, independent status, partial result or resolution-scope comparison",
+      "authors": [
+        "Lasse Wulf"
+      ],
+      "title": "Computing the Polytope Diameter is Even Harder than NP-Hard (Already for Perfect Matchings)",
+      "venue_or_repository": "FOCS 2025; DOI 10.1109/FOCS63196.2025.00029",
+      "publication_type": "published proceedings paper",
+      "publication_date": "2025",
+      "version": "FOCS proceedings PDF",
+      "stable_url": "https://ieee-focs.org/FOCS-2025-Papers/pdfs/FOCS2025-4pLZMZRP5BPG9n0GSua5T9/713200a531/713200a531.pdf",
+      "locator": "§I and §I.A, full Theorem 1 with adjoining discussion; §II decision-problem definition",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§I and §I.A, full Theorem 1 with adjoining discussion; §II decision-problem definition"
+      ],
+      "supported_claim": "Independent polynomial Hirsch formulation; hardness of deciding diameter coexists with small diameters.",
+      "independent_of_source_ids": [
+        "BX26",
+        "N26",
+        "S12"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "Published proceedings identity checked; no separate arXiv version is treated as another source."
+    },
+    {
+      "source_id": "T14",
+      "role": "formulation, independent status, partial result or resolution-scope comparison",
+      "authors": [
+        "Michael J. Todd"
+      ],
+      "title": "An Improved Kalai–Kleitman Bound for the Diameter of a Polyhedron",
+      "venue_or_repository": "2014 author manuscript; arXiv:1402.3579",
+      "publication_type": "author manuscript of published paper",
+      "publication_date": "2014",
+      "version": "author PDF; arXiv current v2 dated 2014-03-20",
+      "stable_url": "https://people.orie.cornell.edu/~miketodd/diampolynn.pdf",
+      "locator": "§1 definitions, complete Theorem 2.1, Lemma 2.2 and theorem proof",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 definitions, complete Theorem 2.1, Lemma 2.2 and theorem proof"
+      ],
+      "supported_claim": "Diameter <= (n-d)^(log_2 d); exponent depends on dimension.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "arXiv history v1 2014-02-14, v2 2014-03-20 checked; author manuscript theorem numbering used."
+    },
+    {
+      "source_id": "S17",
+      "role": "formulation, independent status, partial result or resolution-scope comparison",
+      "authors": [
+        "Noriyoshi Sukegawa"
+      ],
+      "title": "Improving bounds on the diameter of a polyhedron in high dimensions",
+      "venue_or_repository": "Discrete Mathematics 340 (2017), 2134–2142; DOI 10.1016/j.disc.2017.04.005",
+      "publication_type": "published paper; preprint full text",
+      "publication_date": "2017",
+      "version": "arXiv:1604.04039v3, 2017-03-29",
+      "stable_url": "https://arxiv.org/html/1604.04039v3",
+      "locator": "§§1–1.1 and all parts of Theorem 1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1–1.1 and all parts of Theorem 1"
+      ],
+      "supported_claim": "Sharper dimension-dependent exponents; no absolute-degree polynomial bound.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "Current arXiv v1 2016-04-14, v2 2017-03-27, v3 2017-03-29 and journal reference checked."
+    },
+    {
+      "source_id": "S19",
+      "role": "formulation, independent status, partial result or resolution-scope comparison",
+      "authors": [
+        "Noriyoshi Sukegawa"
+      ],
+      "title": "An Asymptotically Improved Upper Bound on the Diameter of Polyhedra",
+      "venue_or_repository": "Discrete & Computational Geometry 62 (2019), 690–699; DOI 10.1007/s00454-018-0016-y",
+      "publication_type": "published paper; accessible 2017 conference predecessor",
+      "publication_date": "2018-06-19",
+      "version": "2017 conference text; journal issue 2019-10-15",
+      "stable_url": "https://real.mtak.hu/80732/1/jXaio4T11ygd57.pdf",
+      "locator": "Printed pp. 459–462, §§1–1.3, Theorem 1, Observation 2, Corollary 3 and §2.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Printed pp. 459–462, §§1–1.3, Theorem 1, Observation 2, Corollary 3 and §2.1"
+      ],
+      "supported_claim": "For n>=d>=2, diameter <= (n-d)^(log_2 g(d)), g(d)=3 sum_{j=2}^d 1/log_2 j=Theta(d/log d).",
+      "independent_of_source_ids": [],
+      "access_limitations": "Journal full text is subscription-only here. Author conference manuscript supplies the full theorem; no line-by-line comparison of journal proof is claimed.",
+      "version_history_checked": "Publisher metadata and abstract https://link.springer.com/article/10.1007/s00454-018-0016-y verified; accessible conference text supplies exact theorem."
+    },
+    {
+      "source_id": "B26",
+      "role": "formulation, independent status, partial result or resolution-scope comparison",
+      "authors": [
+        "Alexander E. Black"
+      ],
+      "title": "Monotone Diameters of Lattice Polytopes",
+      "venue_or_repository": "arXiv:2609.08647",
+      "publication_type": "preprint",
+      "publication_date": "2026-09-08",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2609.08647v1",
+      "locator": "§1, full Theorems 1.1–1.2 and construction overview; §2 Lemma 2.1 and proof, initial construction",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1, full Theorems 1.1–1.2 and construction overview; §2 Lemma 2.1 and proof, initial construction"
+      ],
+      "supported_claim": "Exponential monotone diameter in [0,3]^(6d); separate exponential-in-dimension example is unbounded.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "Current arXiv record lists only v1, 2026-09-08; no facet-count bound appears in the theorems."
+    },
+    {
+      "source_id": "Y22W",
+      "role": "formulation, independent status, partial result or resolution-scope comparison",
+      "authors": [
+        "Yaguang Yang"
+      ],
+      "title": "On the facet pivot simplex method for linear programming II: a linear iteration bound",
+      "venue_or_repository": "arXiv:2201.00193",
+      "publication_type": "withdrawn preprint",
+      "publication_date": "2022-01-01",
+      "version": "v2 withdrawal, 2025-04-20",
+      "stable_url": "https://arxiv.org/abs/2201.00193",
+      "locator": "Current primary withdrawal notice, author comment and version history",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "primary_withdrawal_record",
+      "sections_actually_read": [
+        "Current primary withdrawal notice, author comment and version history"
+      ],
+      "supported_claim": "Author withdrew the claim after finding an error in §3.",
+      "independent_of_source_ids": [],
+      "access_limitations": "No PDF available for the withdrawal version; no independent proof adjudication is needed to assert the withdrawal.",
+      "version_history_checked": "v2 explicitly withdrawn; comment says an error was found in §3 and author is working on a fix."
+    },
+    {
+      "source_id": "Y26",
+      "role": "formulation, independent status, partial result or resolution-scope comparison",
+      "authors": [
+        "Yaguang Yang"
+      ],
+      "title": "On the facet pivot simplex method for linear programming",
+      "venue_or_repository": "arXiv:2107.08468",
+      "publication_type": "preprint",
+      "publication_date": "2021-07-18",
+      "version": "v3, 2026-05-02",
+      "stable_url": "https://arxiv.org/html/2107.08468v3",
+      "locator": "§1; §§4.6–4.7 Theorems 4.2–4.4; full Theorem 4.7 in §4.10",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1; §§4.6–4.7 Theorems 4.2–4.4; full Theorem 4.7 in §4.10"
+      ],
+      "supported_claim": "Current finite-termination theorem supplies no polynomial iteration bound; intermediate basic solutions may be infeasible.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "Current v3 2026-05-02 is distinct from stale v2 search abstracts advertising the withdrawn companion claim."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Live search plus primary arXiv, author, publisher and proceedings pages",
+      "query": "S136-4, S137-4, S138-4, S139-3, S140-3, S141-3/4, S142-1; literal queries in ../search-log.json",
+      "date_filter_or_unrestricted": "unrestricted, including 2025 and 2026 terms",
+      "results_inspected": [
+        "BX26",
+        "N26",
+        "W25",
+        "T14",
+        "S17"
+      ],
+      "outcome": "Polynomial edge-diameter question distinguished from solved circuit and coherent-path variants.",
+      "limitations": "No exhaustive review of all proofs or search indexing coverage claimed."
+    },
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Separated adversarial self-pass after initial draft",
+      "query": "A23-1 through A23-11",
+      "date_filter_or_unrestricted": "unrestricted, including current/prior years and corrections/withdrawals",
+      "results_inspected": [
+        "S12",
+        "S19",
+        "B26",
+        "Y22W",
+        "Y26"
+      ],
+      "outcome": "Added September monotone/unbounded scope check, corrected strongest-partial-result citation to 2019 improvement, and verified author withdrawal of old facet-pivot claim.",
+      "limitations": "Journal full proof of S19 inaccessible; precise author-conference theorem read instead."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "S12",
+      "locator": "Conjecture 1.3, Theorems 1.5–1.6, Corollary 1.7 and Theorem 1.8",
+      "comparison": "Same undirected bounded model, but counterexample defeats n-d; linear lower-bound family is compatible with higher polynomial bounds. The paper explicitly retains the polynomial conjecture.",
+      "disposition": "does_not_resolve_polynomial_question"
+    },
+    {
+      "source_id": "BX26",
+      "locator": "§1 coherent-path definition and Theorem 1.1",
+      "comparison": "Dimension d+1, (2d+1)(d+1)+1 facets, every coherent monotone path >=2^(d-1)-1. Extra coherence and prescribed objective restrict admissible paths; candidate minimizes over all undirected edge paths.",
+      "disposition": "different_path_class"
+    },
+    {
+      "source_id": "N26",
+      "locator": "§§1.1–1.2, Theorem 1.1",
+      "comparison": "Ax=b, x>=0, rank(A)=m; maximal steps along support-minimal kernel vectors may cross interior and reach nonvertices. O(m² log m) therefore bounds a relaxation of edge paths, not G(P).",
+      "disposition": "different_path_model"
+    },
+    {
+      "source_id": "W25",
+      "locator": "§I.A Theorem 1; §II definition",
+      "comparison": "Pi_2^p-complete decision of whether diameter<=input t for bipartite perfect-matching polytopes. Even these 0/1 polytopes satisfy small diameter bounds, so exact-value hardness does not imply superpolynomial diameter.",
+      "disposition": "different_requested_conclusion"
+    },
+    {
+      "source_id": "S19",
+      "locator": "Conference §1.1 Theorem 1, Observation 2 and Corollary 3",
+      "comparison": "All n>=d>=2, but exponent log_2 g(d) grows like log_2 d-log_2 log d+O(1). It is not a universal constant; no polynomial Hirsch resolution.",
+      "disposition": "partial_upper_bound"
+    },
+    {
+      "source_id": "B26",
+      "locator": "§1, Theorems 1.1–1.2",
+      "comparison": "Theorem 1.1 restricts to objective-increasing paths, while ordinary diameter in the same integer box is <=18d by the recalled lattice bound. Theorem 1.2 concerns unbounded polyhedra and measures exponential growth in dimension without controlling facet count. Both differ from bounded undirected diameter polynomial in n+d.",
+      "disposition": "different_monotonicity_boundedness_and_parameters"
+    },
+    {
+      "source_id": "Y22W",
+      "locator": "Current withdrawal notice and author comment",
+      "comparison": "Author explicitly withdrew purported linear iteration bound on 2025-04-20. No unsupported assertion that the proof was independently disproved is made.",
+      "disposition": "withdrawn_claim"
+    },
+    {
+      "source_id": "Y26",
+      "locator": "§§4.6–4.7 and §4.10 Theorem 4.7",
+      "comparison": "May 2026 successor proves finite termination with least-index selection, not a polynomial count; basic iterates can be infeasible. Old indexed companion claims do not describe current theorem.",
+      "disposition": "finite_termination_not_polynomial_edge_bound"
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "8ff4a7ff2bb854907e14fe7044f5407dd927f23e",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "100",
+        "difference": "Requests a computable deterministic monotone simplex pivot rule on rational LPs with bit-length and auxiliary-operation bounds. Here the assertion is existence of undirected short paths for every real bounded polytope; it gives no rule, objective monotonicity or cost for discovering paths."
+      },
+      {
+        "id": "311",
+        "difference": "Carrying simplex concerns regularity of a dynamical invariant hypersurface; the shared word simplex has no mathematical equivalence."
+      },
+      {
+        "id": "deterministic-polynomial-identity-testing",
+        "difference": "Arithmetic circuits are symbolic computation DAGs; circuit walks in the scope checks here are geometric kernel directions. No common assertion."
+      }
+    ],
+    "distinctness_reason": "Existing 320-entry inventory and all baseline full-page reading retained; titles, aliases, metadata, holds and exclusions searched again, and full entry 100 compared. This is a separately sourced geometric existence conjecture and a necessary geometric obstruction for pivot bounds; no numerical-linear-algebra problem is added.",
+    "implications_or_equivalences": [
+      "Polynomial in n and d is equivalent to polynomial in n for bounded d-polytopes with n facets.",
+      "The exact linear, monotone, strict monotone and coherent variants are not counted as additional entries.",
+      "Small undirected diameter alone does not produce an efficient objective-improving pivot algorithm."
+    ]
+  },
+  "open_status_evidence_summary": "S12 supplies the explicit classical conjecture; W25, N26 and BX26 independently retain it. September B26 has a different scope, and the old Yang iteration claim is explicitly withdrawn. No matching later resolution located.",
+  "independent_status_corroboration": {
+    "source_ids": [
+      "W25",
+      "N26",
+      "BX26"
+    ],
+    "independence_basis": "Disjoint authorship among these three primary specialist works. Versions or mirrors are not counted as independent."
+  },
+  "strongest_known_partial_results_and_gap": "General quasipolynomial bounds, including S19 exponent log_2 d-log_2 log d+O(1), and polynomial bounds on restricted classes do not yield one absolute exponent. Linear Hirsch counterexamples do not rule one out.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "S19 journal proof not accessible; full statement read in accessible author conference predecessor and journal metadata/abstract cross-checked.",
+    "Only relevant full statements, definitions and selected proof discussions reviewed; no claim of exhaustive proof verification.",
+    "Y22W has no current PDF because the author withdrew it; primary withdrawal record read."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass by the researching agent; no independent agent or human review",
+    "reviewer_or_pass_identifier": "A23",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A23-1",
+      "A23-2",
+      "A23-3",
+      "A23-4",
+      "A23-5",
+      "A23-6",
+      "A23-7",
+      "A23-8",
+      "A23-9",
+      "A23-10",
+      "A23-11"
+    ],
+    "issues_found": [
+      "Newest lattice result could be mistaken for a graph-diameter counterexample.",
+      "Initial partial-result bibliography stopped at Sukegawa 2017 instead of the asymptotic 2019 improvement.",
+      "Stale facet-pivot abstracts preserve an author-withdrawn linear-bound claim.",
+      "Entry 100 requires explicit distinction between short paths and an efficient monotone pivot rule."
+    ],
+    "issues_resolved": [
+      "Compared both full B26 theorems and their parameter dependencies.",
+      "Read S19 conference Theorem 1 and Corollary 3; corrected bibliography and bound.",
+      "Verified Y22W withdrawal and Y26 current finite-termination theorem.",
+      "Retained undirected bounded real-polytope existence scope, central constants, and cross-link to 100."
+    ],
+    "verdict": "pass_for_research_draft"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Due before active catalogue integration."
+  },
+  "public_page_path": null,
+  "draft_path": "research/expansion-2026-09/drafts/polynomial-hirsch.md",
+  "validation_results": [
+    "Candidate fields, counts, source references and 649 distinct actual-query IDs validated.",
+    "All 20 draft math expressions rendered with KaTeX without errors.",
+    "47 local Markdown links in updated notes and draft checked.",
+    "python3 scripts/catalogue.py --check passed: 320 active entries; draft not integrated.",
+    "git diff --check passed; fetch confirmed remote main unchanged at 8ff4a7ff2bb854907e14fe7044f5407dd927f23e before commit."
+  ],
+  "remote_publication": {
+    "state": "research_record_only; no active catalogue publication",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  }
+}
