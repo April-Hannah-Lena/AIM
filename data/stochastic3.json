@@ -206,5 +206,13 @@
     "file": "problems/305-gaussian-simplex.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "312",
+    "title": "Exact complexity of unit-job precedence scheduling on three processors",
+    "area": "Scheduling and operations research",
+    "file": "problems/312-three-processor-unit-scheduling.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

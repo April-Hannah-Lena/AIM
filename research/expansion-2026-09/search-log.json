@@ -4430,5 +4430,245 @@
     "query": "\"Belgian chocolate problem\" exact supremum stabilization",
     "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
     "review_stage": "Separate adversarial self-review of the completed draft"
+  },
+  {
+    "search_id": "S126-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Ruskai\" \"Audenaert\" conjecture 2026 proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Ruskai–Audenaert discovery and resolution review"
+  },
+  {
+    "search_id": "S126-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Ruskai\" channel decomposition conjecture 2025 solved",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Ruskai–Audenaert discovery and resolution review"
+  },
+  {
+    "search_id": "S126-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Ruskai\" \"generalized extreme\" conjecture decomposition proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Ruskai–Audenaert discovery and resolution review"
+  },
+  {
+    "search_id": "S127-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Ruskai Audenaert\" conjecture proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Ruskai–Audenaert discovery and resolution review"
+  },
+  {
+    "search_id": "S127-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"quantum channel\" \"decomposition\" \"Cho\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Ruskai–Audenaert discovery and resolution review"
+  },
+  {
+    "search_id": "S127-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Ruskai\" \"barycentric\" counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Ruskai–Audenaert discovery and resolution review"
+  },
+  {
+    "search_id": "S127-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Ruskai\" \"equal weights\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Ruskai–Audenaert discovery and resolution review"
+  },
+  {
+    "search_id": "A21-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Ruskai\" \"decomposition\" conjecture solved 2026 counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate A21 adversarial pass and follow-up"
+  },
+  {
+    "search_id": "A21-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Audenaert\" \"equal-weight\" \"decomposition\" proof 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate A21 adversarial pass and follow-up"
+  },
+  {
+    "search_id": "A21-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Cho\" \"convex\" \"quantum channels\" 2025 September",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate A21 adversarial pass and follow-up"
+  },
+  {
+    "search_id": "S128-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Cho\" \"three-channel\" \"Petz\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate A21 adversarial pass and follow-up"
+  },
+  {
+    "search_id": "S128-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"non-commutative Schur-Horn\" \"Ruskai\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate A21 adversarial pass and follow-up"
+  },
+  {
+    "search_id": "S129-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Non-commutative Schur-Horn theorems\" Massey arxiv",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate A21 adversarial pass and follow-up"
+  },
+  {
+    "search_id": "R2-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" interior smoothness 2025 2026 proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"three processors\" \"unit\" \"precedence\" scheduling complexity 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted\" \"Lovász\" capacity conjecture 2026 counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Anderson model\" \"fixed disorder\" diffusion proof 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"reversible\" \"reaction diffusion\" \"classical\" \"blowup\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"splay\" \"dynamic optimality\" proof counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-7",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"learning parity with noise\" polynomial algorithm hardness 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-8",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"sample compression\" conjecture proof counterexample 2026 linear VC",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-9",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Belgian chocolate problem\" exact threshold solved 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-10",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Ruskai-Audenaert\" conjecture proof counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-11",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Global classical solutions by transport noise\" deterministic 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-12",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Splay trees are almost dynamically optimal\" 2026 correction",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-13",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Anderson model\" \"diffusion\" \"2026\" \"Black\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-14",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"P3\" \"prec\" \"2026\" scheduling",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-15",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Nederlof Swennenhuis Wegrzycki three processors unit jobs scheduling 2026 polynomial",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-16",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Anderson quantum diffusion fixed disorder 2026 proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "R2-17",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "entanglement assisted Shannon capacity Lovasz theta equality 2026 proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Immediate batch 2 prepublication refresh"
   }
 ]

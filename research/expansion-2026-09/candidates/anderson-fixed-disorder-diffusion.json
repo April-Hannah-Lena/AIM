@@ -1,6 +1,6 @@
 {
   "candidate_id": "anderson-fixed-disorder-diffusion",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "314",
   "title": "Diffusive mean-square displacement at fixed disorder",
   "aliases": [
     "Anderson quantum diffusion conjecture",
@@ -14,7 +14,7 @@
     "statistical mechanics"
   ],
   "decision": "accept_open",
-  "decision_reason": "Source-matched averaged growth question, independent specialist corroboration, resolution and duplicate comparisons, and a separate adversarial self-pass passed. Awaiting prepublication refresh and integration.",
+  "decision_reason": "Accepted after source formulation, independent corroboration, resolution/duplicate review and separated adversarial self-pass; immediate batch refresh passed.",
   "problem_fingerprint": {
     "model_or_objects": "Nearest-neighbor lattice Schrödinger operator with static iid diagonal disorder and deterministic hopping",
     "dimension": "3",
@@ -446,25 +446,40 @@
     "verdict": "accept_open"
   },
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "Not performed; draft outside active catalogue."
+    "date": "2026-09-17",
+    "latest_target_commit": "7fe62d53378cb3f5ebbe7caeda9f3a4d72039395",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R2-4",
+      "R2-13",
+      "R2-16"
+    ],
+    "outcome": "No matching resolution located. Finite-time weak-disorder estimates and different graph/hopping models do not supply fixed-positive-disorder all-large-time bounds. No new theorem matching the uniform Z^3 model surfaced.",
+    "upstream_check": "git fetch origin main and git ls-remote --heads confirm only main at 7fe62d53378cb3f5ebbe7caeda9f3a4d72039395; GitHub connector open-PR search returned none. No intervening upstream content or competing addition.",
+    "duplicate_scope": "All 310 active pages/metadata, prior exclusion/source records and all pending additions screened; closest full pages and statement scopes reviewed in each candidate ledger."
   },
-  "public_page_path": null,
+  "public_page_path": "problems/314-anderson-fixed-disorder-diffusion.md",
   "validation_results": [
     {
-      "date": "2026-09-17",
-      "scope": "Research checkpoint; no active catalogue integration",
-      "checks": [
-        "All 18 candidate records agree with progress counts and section coverage.",
-        "Source references and adversarial search IDs resolve, including older compact slash notation.",
-        "Four accepted unpublished drafts have required headings, balanced math delimiters and resolving local links.",
-        "python3 scripts/catalogue.py --check passed for the unchanged 310-entry catalogue.",
-        "git diff --check passed."
-      ],
-      "limitations": "Rendered-math inspection, resolution refresh and upstream duplicate refresh remain required at batch integration."
+      "check": "catalogue",
+      "result": "Passed --write and --check for 320 unique entries, metadata, required sections, math delimiters, local links and README freshness."
+    },
+    {
+      "check": "preservation",
+      "result": "All original 300 pages match baseline a602073 byte-for-byte; all 310 prior pages match 7fe62d5. Prior metadata rows and dates are unchanged."
+    },
+    {
+      "check": "research_consistency",
+      "result": "24 candidate records, 20 accepted and integrated; section counts, IDs, accepted page paths and batch-2 draft paths agree."
+    },
+    {
+      "check": "math_rendering",
+      "result": "All 194 math expressions in the ten new pages parse with KaTeX without errors; all ten statements visually inspected in five browser screenshots with no clipping."
+    },
+    {
+      "check": "external_links",
+      "result": "54 distinct page URLs checked: 53 succeed, including Numdam GET fallback; one publisher DOI returns HTTP 403. Its institutional full-text copy succeeds. See batch-02-link-check.json."
     }
   ],
   "remote_publication": {
@@ -474,5 +489,11 @@
     "commit": null,
     "pull_request_url": null
   },
-  "draft_path": "research/expansion-2026-09/drafts/anderson-fixed-disorder-diffusion.md"
+  "draft_path": "research/expansion-2026-09/drafts/anderson-fixed-disorder-diffusion.md",
+  "integration": {
+    "batch": "expansion-2026-09-17-02",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
+  }
 }

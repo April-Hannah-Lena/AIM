@@ -1,8 +1,8 @@
-# Interior smoothness of carrying simplices in competitive population maps
+# 311. Interior smoothness of carrying simplices in competitive population maps
 
 **Area:** Mathematical biology and dynamical systems
 
-**Status:** Accepted; integrated as entry 311
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -38,4 +38,4 @@ Competition maps describe populations whose per-capita growth decreases with eve
 
 Baigent and the independently authored Mierczyński–Niu–Ruiz-Herrera paper identify the interior regularity gap. Convexity gives smoothness under additional hypotheses; local conjugacy or smoothness near particular fixed points does not settle the entire interior. Later retrotone and time-periodic existence results supply Lipschitz geometry and topological reduction. Known boundary singularities are outside the question.
 
-Current resolution searches and comparisons are recorded in the [candidate ledger](../candidates/carrying-simplex-interior.json). A separate adversarial self-pass also compared older strongly monotone hypersurface theorems: their global positivity and basin assumptions do not establish this conclusion for all interior points. The original Tereščák preprint was not obtained; its scope was checked through Mierczyński’s full primary discussion, not represented as a direct reading. Integrated as [entry 311](../../../problems/311-carrying-simplex-interior.md) after the September 17, 2026 batch refresh.
+Current resolution searches and comparisons are recorded in the [candidate ledger](../research/expansion-2026-09/candidates/carrying-simplex-interior.json). A separate adversarial self-pass also compared older strongly monotone hypersurface theorems: their global positivity and basin assumptions do not establish this conclusion for all interior points. The original Tereščák preprint was not obtained; its scope was checked through Mierczyński’s full primary discussion, not represented as a direct reading. Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration.

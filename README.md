@@ -1,6 +1,6 @@
-# AIM — 310 Open Applied Problems
+# AIM — 320 Open Applied Problems
 
-A sourced collection of **310 precise mathematical research problems** in spectral theory, operator theory, applied mathematics, and related fields. Each problem has a self-contained statement, an applied motivation, brief references, and a dated literature-status review. The problem pages do not attempt solutions.
+A sourced collection of **320 precise mathematical research problems** in spectral theory, operator theory, applied mathematics, and related fields. Each problem has a self-contained statement, an applied motivation, brief references, and a dated literature-status review. The problem pages do not attempt solutions.
 
 **Literature checks:** Each entry records its own review date. Adding a batch does not revalidate earlier entries. The entries are open in the cited literature, and targeted searches did not locate later resolutions of their exact statements as of their review dates. This is a documented literature check, not a guarantee that no proof exists. Restrictions and relevant partial results are explained on each page. Further additions exclude numerical linear algebra (NLA).
 
@@ -14,21 +14,22 @@ The collection includes foundational questions as well as directly applied ones,
 | Second collection | 100 | 2026-09-08 |
 | Third collection | 100 | 2026-09-13 |
 | September 2026 expansion — batch 1 | 10 | 2026-09-17 |
+| September 2026 expansion — batch 2 | 10 | 2026-09-17 |
 
 | Subject group | Problems |
 | --- | ---: |
 | [Spectral theory and spectral geometry](#spectral-theory-and-spectral-geometry) | 26 |
-| [Operators, matrices and computation](#operators-matrices-and-computation) | 26 |
-| [Inverse problems, control and dynamics](#inverse-problems-control-and-dynamics) | 25 |
-| [PDEs, materials, probability and optimization](#pdes-materials-probability-and-optimization) | 26 |
-| [Waves, quantum systems and spectral geometry](#waves-quantum-systems-and-spectral-geometry) | 25 |
+| [Operators, matrices and computation](#operators-matrices-and-computation) | 27 |
+| [Inverse problems, control and dynamics](#inverse-problems-control-and-dynamics) | 27 |
+| [PDEs, materials, probability and optimization](#pdes-materials-probability-and-optimization) | 28 |
+| [Waves, quantum systems and spectral geometry](#waves-quantum-systems-and-spectral-geometry) | 26 |
 | [Imaging, control, geometry and dynamics](#imaging-control-geometry-and-dynamics) | 26 |
 | [Fluids, kinetic theory and continuum mechanics](#fluids-kinetic-theory-and-continuum-mechanics) | 26 |
 | [Stochastic growth, populations and statistical mechanics](#stochastic-growth-populations-and-statistical-mechanics) | 26 |
-| [Many-body physics, quantum information and wave analysis](#many-body-physics-quantum-information-and-wave-analysis) | 25 |
-| [Nonlinear evolution, materials and continuum models](#nonlinear-evolution-materials-and-continuum-models) | 25 |
+| [Many-body physics, quantum information and wave analysis](#many-body-physics-quantum-information-and-wave-analysis) | 27 |
+| [Nonlinear evolution, materials and continuum models](#nonlinear-evolution-materials-and-continuum-models) | 26 |
 | [Applied geometry, control and information](#applied-geometry-control-and-information) | 28 |
-| [Stochastic dynamics, reaction networks and applied optimization](#stochastic-dynamics-reaction-networks-and-applied-optimization) | 26 |
+| [Stochastic dynamics, reaction networks and applied optimization](#stochastic-dynamics-reaction-networks-and-applied-optimization) | 27 |
 
 ## Spectral theory and spectral geometry
 
@@ -91,6 +92,7 @@ The collection includes foundational questions as well as directly applied ones,
 | 049 | [Quadratic-scale bit complexity for well-conditioned sparse systems](problems/049-sparse-linear-solve-bit-complexity.md) | Sparse numerical linear algebra |
 | 050 | [Improve the worst-case tensor-train approximation factor](problems/050-tensor-train-approximation.md) | Tensor computation and high-dimensional models |
 | 301 | [The log-rank conjecture for deterministic communication](problems/301-log-rank.md) | Communication complexity and distributed computation |
+| 316 | [Dynamic optimality of splay trees](problems/316-splay-dynamic-optimality.md) | Adaptive data structures and online computation |
 
 ## Inverse problems, control and dynamics
 
@@ -121,6 +123,8 @@ The collection includes foundational questions as well as directly applied ones,
 | 073 | [Unique continuation for the higher-dimensional p-Laplace equation](problems/073-p-harmonic-unique-continuation.md) | Nonlinear potential theory and inverse problems |
 | 074 | [A strictly convex function on every simple manifold](problems/074-convex-function-on-simple-manifold.md) | Geometric tomography |
 | 075 | [Non-Abelian ray transform for simple Gaussian thermostats](problems/075-thermostatic-nonabelian-tomography.md) | Matrix-valued transport tomography |
+| 311 | [Interior smoothness of carrying simplices in competitive population maps](problems/311-carrying-simplex-interior.md) | Mathematical biology and dynamical systems |
+| 319 | [The sharp Belgian chocolate stabilization threshold](problems/319-belgian-chocolate-threshold.md) | Feedback control and polynomial stability |
 
 ## PDEs, materials, probability and optimization
 
@@ -152,6 +156,8 @@ The collection includes foundational questions as well as directly applied ones,
 | 099 | [The dimension-free Kannan–Lovász–Simonovits inequality](problems/099-kls-poincare.md) | High-dimensional probability and sampling |
 | 100 | [A strongly polynomial pivot rule for the simplex method](problems/100-strongly-polynomial-simplex.md) | Numerical optimization |
 | 304 | [The Unique Games Conjecture](problems/304-unique-games.md) | Constraint satisfaction and approximation algorithms |
+| 317 | [Classical hardness of learning parity with noise](problems/317-learning-parity-noise.md) | Statistical learning and average-case computational complexity |
+| 318 | [Linear-size sample compression for binary concept classes](problems/318-linear-sample-compression.md) | Statistical learning and combinatorial dimension |
 
 ## Waves, quantum systems and spectral geometry
 
@@ -182,6 +188,7 @@ The collection includes foundational questions as well as directly applied ones,
 | 123 | [Full-order resonance growth for every nonzero real compact potential](problems/123-full-order-potential-resonances.md) | Wave scattering by a localized medium |
 | 124 | [Boundary contact of the second nodal set in convex domains](problems/124-convex-higher-dimensional-payne.md) | Vibration interfaces and geometry |
 | 125 | [Subpolynomial compact-set peaks of Hecke–Maass waves](problems/125-sarnak-compact-supnorm.md) | Arithmetic quantum chaos |
+| 314 | [Diffusive mean-square displacement at fixed disorder](problems/314-anderson-fixed-disorder-diffusion.md) | Disordered quantum transport |
 
 ## Imaging, control, geometry and dynamics
 
@@ -305,6 +312,8 @@ The collection includes foundational questions as well as directly applied ones,
 | 223 | [Bounded harmonic lifting for complex media](problems/223-complex-harmonic-lifting.md) | Elliptic equations / complex material coefficients |
 | 224 | [Boundary-flux commutators for rough conductors](problems/224-rough-coefficient-boundary-commutator.md) | Boundary operators / heterogeneous conduction |
 | 225 | [Does subcritical heat flow always decay faster?](problems/225-critical-subcritical-heat-ratio.md) | Heat propagation / Schrödinger semigroups |
+| 313 | [Does entanglement-assisted capacity equal the Lovász bound?](problems/313-entanglement-assisted-lovasz.md) | Quantum information and zero-error communication |
+| 320 | [Equal-weight decomposition of quantum channels with bounded Kraus rank](problems/320-ruskai-audenaert-decomposition.md) | Quantum information and channel simulation |
 
 ## Nonlinear evolution, materials and continuum models
 
@@ -335,6 +344,7 @@ The collection includes foundational questions as well as directly applied ones,
 | 248 | [Uniqueness of the homogeneous cooling state for inelastic hard spheres](problems/248-inelastic-cooling-profile-uniqueness.md) | Granular-gas kinetic theory |
 | 249 | [Existence of an optimal asymmetric Bloch wall of prescribed angle](problems/249-asymmetric-bloch-wall-attainment.md) | Micromagnetics and magnetic interfaces |
 | 250 | [Uniqueness of a hemispheric saddle profile on a magnetic sphere](problems/250-spherical-ferromagnet-profile-uniqueness.md) | Curved-film micromagnetics |
+| 315 | [Global classical continuation for a reversible mass-action reaction](problems/315-reversible-reaction-classical-continuation.md) | Chemical reaction–diffusion / continuum biology |
 
 ## Applied geometry, control and information
 
@@ -399,6 +409,7 @@ The collection includes foundational questions as well as directly applied ones,
 | 299 | [Polynomial equilibration at the four-state planar Potts critical point](problems/299-critical-four-state-potts-mixing.md) | Critical dynamics and statistical simulation |
 | 300 | [Does every strict initial majority win zero-temperature Ising dynamics?](problems/300-majority-ising-fixation.md) | Coarsening and phase selection |
 | 305 | [Balanced Gaussian simplex noise stability for four or more classes](problems/305-gaussian-simplex.md) | Gaussian geometry and noise robustness |
+| 312 | [Exact complexity of unit-job precedence scheduling on three processors](problems/312-three-processor-unit-scheduling.md) | Scheduling and operations research |
 
 ## Maintaining the collection
 

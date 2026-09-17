@@ -1,8 +1,8 @@
-# The sharp Belgian chocolate stabilization threshold
+# 319. The sharp Belgian chocolate stabilization threshold
 
 **Area:** Feedback control and polynomial stability
 
-**Status:** Accepted; integrated as entry 319
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -43,6 +43,6 @@ Charles–Boston report feasibility for every $0<\delta\le0.9808348$. Their fini
 
 The solved $\delta=0.9$ prize instance is weaker than determining $\delta_*$. The switching and periodic-controller paper changes the time-invariance assumption and explicitly leaves the original problem unresolved. Likewise, exact results for other Goldberg constants impose different zero and one-point conditions.
 
-September 17, 2026 searches covering recent and unrestricted resolution claims found no matching sharp-threshold result. The [evidence ledger](../candidates/belgian-chocolate-threshold.json) records the source scopes, duplicate comparison and access limits. The polynomial, rational-control and equivalent holomorphic formulations are one problem family.
+September 17, 2026 searches covering recent and unrestricted resolution claims found no matching sharp-threshold result. The [evidence ledger](../research/expansion-2026-09/candidates/belgian-chocolate-threshold.json) records the source scopes, duplicate comparison and access limits. The polynomial, rational-control and equivalent holomorphic formulations are one problem family.
 
-A clearly separated adversarial self-pass passed on September 17. Integrated as [entry 319](../../../problems/319-belgian-chocolate-threshold.md) after the September 17, 2026 batch refresh.
+A clearly separated adversarial self-pass passed on September 17. Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration.

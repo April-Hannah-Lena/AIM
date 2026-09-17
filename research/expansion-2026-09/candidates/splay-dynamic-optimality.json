@@ -1,6 +1,6 @@
 {
   "candidate_id": "splay-dynamic-optimality",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "316",
   "title": "Dynamic optimality of splay trees",
   "aliases": [
     "splay-tree dynamic optimality",
@@ -13,7 +13,7 @@
     "adaptive dictionaries"
   ],
   "decision": "accept_open",
-  "decision_reason": "Source-matched statement, independent specialist corroboration, resolution and duplicate searches, full scope comparisons and a separate adversarial self-pass completed. Final batch refresh remains due.",
+  "decision_reason": "Accepted after source formulation, independent corroboration, resolution/duplicate review and separated adversarial self-pass; immediate batch refresh passed.",
   "problem_fingerprint": {
     "model_or_objects": "Bottom-up splaying and offline rotation schedules on ordered binary search trees",
     "dimension": "n keys, arbitrary n",
@@ -331,25 +331,39 @@
     "verdict": "accept_open"
   },
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "Not performed; draft outside active catalogue."
+    "date": "2026-09-17",
+    "latest_target_commit": "7fe62d53378cb3f5ebbe7caeda9f3a4d72039395",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R2-6",
+      "R2-12"
+    ],
+    "outcome": "No matching resolution located. July 2026 almost-optimal competitive bound still depends on n; no correction or constant-factor replacement found.",
+    "upstream_check": "git fetch origin main and git ls-remote --heads confirm only main at 7fe62d53378cb3f5ebbe7caeda9f3a4d72039395; GitHub connector open-PR search returned none. No intervening upstream content or competing addition.",
+    "duplicate_scope": "All 310 active pages/metadata, prior exclusion/source records and all pending additions screened; closest full pages and statement scopes reviewed in each candidate ledger."
   },
-  "public_page_path": null,
+  "public_page_path": "problems/316-splay-dynamic-optimality.md",
   "validation_results": [
     {
-      "date": "2026-09-17",
-      "scope": "Research checkpoint; no active catalogue integration",
-      "checks": [
-        "Candidate JSON, source IDs, actual search IDs and local evidence links resolve.",
-        "Draft statement and evidence record match exactly; required sections and paired display delimiters checked.",
-        "All 21 candidate records agree with progress: 17 accepted, one unverified hold, three resolution-claim holds.",
-        "python3 scripts/catalogue.py --check passed for 310 active entries.",
-        "git diff --check passed; fetched origin/main equals local HEAD 3ddf14b before checkpoint."
-      ],
-      "limitations": "Mathematical correctness and open status are not mechanically certified. Batch resolution refresh and rendered-math inspection remain due at integration."
+      "check": "catalogue",
+      "result": "Passed --write and --check for 320 unique entries, metadata, required sections, math delimiters, local links and README freshness."
+    },
+    {
+      "check": "preservation",
+      "result": "All original 300 pages match baseline a602073 byte-for-byte; all 310 prior pages match 7fe62d5. Prior metadata rows and dates are unchanged."
+    },
+    {
+      "check": "research_consistency",
+      "result": "24 candidate records, 20 accepted and integrated; section counts, IDs, accepted page paths and batch-2 draft paths agree."
+    },
+    {
+      "check": "math_rendering",
+      "result": "All 194 math expressions in the ten new pages parse with KaTeX without errors; all ten statements visually inspected in five browser screenshots with no clipping."
+    },
+    {
+      "check": "external_links",
+      "result": "54 distinct page URLs checked: 53 succeed, including Numdam GET fallback; one publisher DOI returns HTTP 403. Its institutional full-text copy succeeds. See batch-02-link-check.json."
     }
   ],
   "remote_publication": {
@@ -359,5 +373,11 @@
     "commit": null,
     "pull_request_url": null
   },
-  "draft_path": "research/expansion-2026-09/drafts/splay-dynamic-optimality.md"
+  "draft_path": "research/expansion-2026-09/drafts/splay-dynamic-optimality.md",
+  "integration": {
+    "batch": "expansion-2026-09-17-02",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
+  }
 }

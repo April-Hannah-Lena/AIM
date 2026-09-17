@@ -1,8 +1,8 @@
-# Dynamic optimality of splay trees
+# 316. Dynamic optimality of splay trees
 
 **Area:** Adaptive data structures and online computation
 
-**Status:** Accepted; integrated as entry 316
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -35,6 +35,6 @@ An ordered dictionary must serve lookups whose frequencies and locality can chan
 
 The July 2026 preprint reports a bound $O((\operatorname{OPT}+n)\log\log n\,\log^2\log\log n)$. Its competitive factor still grows with $n$. Russo's constant-factor comparison assumes the unproved regular-access conjecture. The tournament-heap refutation changes the allowed operations and removes the ordered-search model; it is not a refutation for splay trees.
 
-The September 17 review searched the conjecture and aliases, authors, constant competitiveness, proofs and counterexamples, recent and unrestricted dates, corrections and version histories. The [evidence ledger](../candidates/splay-dynamic-optimality.json) records the source comparisons, initialization convention and duplicate review. A constant factor for this particular algorithm remains the requested conclusion; existence of some dynamically optimal search tree is not counted as a second entry here.
+The September 17 review searched the conjecture and aliases, authors, constant competitiveness, proofs and counterexamples, recent and unrestricted dates, corrections and version histories. The [evidence ledger](../research/expansion-2026-09/candidates/splay-dynamic-optimality.json) records the source comparisons, initialization convention and duplicate review. A constant factor for this particular algorithm remains the requested conclusion; existence of some dynamically optimal search tree is not counted as a second entry here.
 
-A clearly separated adversarial self-pass passed on September 17. Integrated as [entry 316](../../../problems/316-splay-dynamic-optimality.md) after the September 17, 2026 batch refresh.
+A clearly separated adversarial self-pass passed on September 17. Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration.

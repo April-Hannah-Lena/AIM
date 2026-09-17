@@ -198,5 +198,13 @@
     "file": "problems/250-spherical-ferromagnet-profile-uniqueness.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-13"
+  },
+  {
+    "id": "315",
+    "title": "Global classical continuation for a reversible mass-action reaction",
+    "area": "Chemical reaction–diffusion / continuum biology",
+    "file": "problems/315-reversible-reaction-classical-continuation.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

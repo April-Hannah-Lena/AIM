@@ -1,6 +1,6 @@
 {
   "candidate_id": "reversible-reaction-classical-continuation",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "315",
   "title": "Global classical continuation for a reversible mass-action reaction",
   "aliases": [
     "single reversible reaction-diffusion global regularity",
@@ -15,7 +15,7 @@
     "entropy methods"
   ],
   "decision": "accept_open",
-  "decision_reason": "Explicit source-backed single-reaction no-flux question; independent specialist status sources; resolution-scope and duplicate checks; separate adversarial self-pass A16 completed. Not yet integrated or counted as published.",
+  "decision_reason": "Accepted after source formulation, independent corroboration, resolution/duplicate review and separated adversarial self-pass; immediate batch refresh passed.",
   "problem_fingerprint": {
     "model_or_objects": "One reversible mass-action reaction; disjoint reactant and product species; linear species-dependent Fick diffusion",
     "dimension": "Every finite spatial dimension n>=1 and arbitrary finite I,J>=1",
@@ -727,33 +727,39 @@
     "verdict": "pass; accept_open as a research draft awaiting batch prepublication refresh"
   },
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "Not performed; research draft outside active catalogue."
+    "date": "2026-09-17",
+    "latest_target_commit": "7fe62d53378cb3f5ebbe7caeda9f3a4d72039395",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R2-5",
+      "R2-11"
+    ],
+    "outcome": "No matching resolution located. The August 2026 transport-noise theorem remains a stochastic result, with a restricted high-diffusivity deterministic component, as already compared in the ledger.",
+    "upstream_check": "git fetch origin main and git ls-remote --heads confirm only main at 7fe62d53378cb3f5ebbe7caeda9f3a4d72039395; GitHub connector open-PR search returned none. No intervening upstream content or competing addition.",
+    "duplicate_scope": "All 310 active pages/metadata, prior exclusion/source records and all pending additions screened; closest full pages and statement scopes reviewed in each candidate ledger."
   },
-  "public_page_path": null,
+  "public_page_path": "problems/315-reversible-reaction-classical-continuation.md",
   "validation_results": [
     {
-      "date": "2026-09-17",
-      "check": "python3 scripts/catalogue.py --check",
-      "result": "Pass: 310 active problems; new research draft not yet indexed."
+      "check": "catalogue",
+      "result": "Passed --write and --check for 320 unique entries, metadata, required sections, math delimiters, local links and README freshness."
     },
     {
-      "date": "2026-09-17",
-      "check": "Research-record consistency, source/search IDs, local Markdown links and math delimiters",
-      "result": "Pass: 19 candidate records, 15 accepted, 4 held; all twelve section counts agree; draft and ledger statements identical."
+      "check": "preservation",
+      "result": "All original 300 pages match baseline a602073 byte-for-byte; all 310 prior pages match 7fe62d5. Prior metadata rows and dates are unchanged."
     },
     {
-      "date": "2026-09-17",
-      "check": "git diff --check",
-      "result": "Pass."
+      "check": "research_consistency",
+      "result": "24 candidate records, 20 accepted and integrated; section counts, IDs, accepted page paths and batch-2 draft paths agree."
     },
     {
-      "date": "2026-09-17",
-      "check": "Upstream refresh before research checkpoint",
-      "result": "git fetch origin main succeeded; HEAD and origin/main both 7fcc587f9c76efa4941e0df37acba03c422134b6. No intervening upstream additions."
+      "check": "math_rendering",
+      "result": "All 194 math expressions in the ten new pages parse with KaTeX without errors; all ten statements visually inspected in five browser screenshots with no clipping."
+    },
+    {
+      "check": "external_links",
+      "result": "54 distinct page URLs checked: 53 succeed, including Numdam GET fallback; one publisher DOI returns HTTP 403. Its institutional full-text copy succeeds. See batch-02-link-check.json."
     }
   ],
   "remote_publication": {
@@ -763,5 +769,11 @@
     "commit": null,
     "pull_request_url": null
   },
-  "draft_path": "research/expansion-2026-09/drafts/reversible-reaction-classical-continuation.md"
+  "draft_path": "research/expansion-2026-09/drafts/reversible-reaction-classical-continuation.md",
+  "integration": {
+    "batch": "expansion-2026-09-17-02",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
+  }
 }

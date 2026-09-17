@@ -1,8 +1,8 @@
-# Classical hardness of learning parity with noise
+# 317. Classical hardness of learning parity with noise
 
 **Area:** Statistical learning and average-case computational complexity
 
-**Status:** Accepted; integrated as entry 317
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -42,8 +42,8 @@ This is a basic test case for learning a discrete signal from independently corr
 
 Pietrzak specifies the average-case search assumption, and the independently authored Bai–Jin–Yu paper states polynomial-time LPN hardness as a conjecture. The July 2026 Yamasaki–Isogai–Murao discussion still identifies efficient Search-LPN as unresolved. Its exhaustive search is polynomial in an external size $N$ because the secret dimension is only $O(\log N)$; it is exponential in that dimension.
 
-Aggarwal et al. derive hardness from additional worst-case assumptions rather than proving unconditional hardness. Noise can be added to transfer hardness to larger noise rates, but this does not remove those assumptions. BKW gives a subexponential algorithm using subexponentially many examples; polynomial-sample algorithms discussed in the cited surveys also remain superpolynomial. Statistical-query lower bounds restrict the algorithm class.
+Aggarwal et al. derive hardness from additional worst-case assumptions rather than proving unconditional hardness. The May 2026 [hardness-amplification paper](https://arxiv.org/html/2605.10056v2), Theorem 4.1 and Corollary 3, likewise assumes an LPN solver at transformed parameters; it supplies a reduction, not an unconditional lower bound. Noise can be added to transfer hardness to larger noise rates, but this does not remove those assumptions. BKW gives a subexponential algorithm using subexponentially many examples; polynomial-sample algorithms discussed in the cited surveys also remain superpolynomial. Statistical-query lower bounds restrict the algorithm class.
 
-The September 17 searches also checked recent balanced-code preprocessing and sparse-XOR algorithms. Their full theorem statements change the advice or example distribution and do not settle this dense, uniform, fixed-noise question. The [evidence ledger](../candidates/learning-parity-noise.json) records these comparisons, version checks, duplicate screening and access limits. Search/decision formulations are treated as one problem family, not separate additions.
+The September 17 searches also checked recent balanced-code preprocessing and sparse-XOR algorithms. Their full theorem statements change the advice or example distribution and do not settle this dense, uniform, fixed-noise question. The [evidence ledger](../research/expansion-2026-09/candidates/learning-parity-noise.json) records these comparisons, version checks, duplicate screening and access limits. Search/decision formulations are treated as one problem family, not separate additions.
 
-A clearly separated adversarial self-pass passed on September 17. Integrated as [entry 317](../../../problems/317-learning-parity-noise.md) after the September 17, 2026 batch refresh.
+A clearly separated adversarial self-pass passed on September 17. Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration.

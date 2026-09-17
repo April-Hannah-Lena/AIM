@@ -1,8 +1,8 @@
-# Linear-size sample compression for binary concept classes
+# 318. Linear-size sample compression for binary concept classes
 
 **Area:** Statistical learning and combinatorial dimension
 
-**Status:** Accepted; integrated as entry 318
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -45,6 +45,6 @@ The April 2026 graph paper explicitly retains the linear-size conjecture with th
 
 The embedding obstruction rules out one proposed route through extremal classes, rather than all compression maps. Results for graph balls and complexes of oriented matroids impose structural hypotheses. The Pálvölgyi–Tardos counterexample concerns unlabeled compression of size exactly $d$. A 2026 negative result additionally requires monotonicity under inserted examples. Neither is a counterexample to this formulation.
 
-The apparent March 2026 compression claim, later retitled, is [withdrawn in arXiv v4](https://arxiv.org/abs/2603.23561), with the authors reporting an incorrect proof of Lemma 2. Its withdrawal is not an independent verification of the argument. Full scope comparisons and source limitations are in the [evidence ledger](../candidates/linear-sample-compression.json). This family is counted once, without separate entries for stronger or restricted compression variants.
+The apparent March 2026 compression claim, later retitled, is [withdrawn in arXiv v4](https://arxiv.org/abs/2603.23561), with the authors reporting an incorrect proof of Lemma 2. Its withdrawal is not an independent verification of the argument. Full scope comparisons and source limitations are in the [evidence ledger](../research/expansion-2026-09/candidates/linear-sample-compression.json). This family is counted once, without separate entries for stronger or restricted compression variants.
 
-A clearly separated adversarial self-pass passed on September 17. Integrated as [entry 318](../../../problems/318-linear-sample-compression.md) after the September 17, 2026 batch refresh.
+A clearly separated adversarial self-pass passed on September 17. Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration.

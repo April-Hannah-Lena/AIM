@@ -1,29 +1,16 @@
 # September 2026 expansion research
 
-The requested expansion is 200–300 accepted problems (target 250). **Nineteen additions have passed the formulation, evidence, duplicate and adversarial-review gates.** The first batch has passed its prepublication resolution and upstream duplicate refresh and is published on `main` as entries 301–310. The active catalogue is now 310. These research records do not count separately from their linked problem pages.
+The active catalogue contains 320 entries: the original 300 and twenty accepted additions. Batch 1 (301–310) is published on `main`; batch 2 (311–320) is integrated locally and undergoing final validation before its authorized direct push. The requested expansion remains 200–300 new problems, with a working target of 250. At least 180 further additions are needed.
 
-- [Progress and reading coverage](progress.json): exact counts, completed baseline reading, and next actions.
-- [Baseline inventory](baseline-inventory.json): complete mechanical extraction of all 300 statements, references, metadata, and page hashes at `a602073d986b7f5ce57b1aa0db1687d1bd87761d`. Extraction alone does not constitute semantic review or status revalidation.
-- [Candidate records](candidates/): accepted drafts and held leads, with source locators, actual searches and scope comparisons.
-- [Search log](search-log.json): searches actually run on 2026-09-17.
-- [Source map](source-map.md), [exclusions](exclusions.md), and [infrastructure audit](infrastructure-audit.md).
+- [Progress and reading coverage](progress.json): authoritative counts, publication state and next actions.
+- [Baseline inventory](baseline-inventory.json): all 300 original statements, metadata and page hashes at `a602073d986b7f5ce57b1aa0db1687d1bd87761d`.
+- [Candidate evidence](candidates/), [actual search log](search-log.json), [source map](source-map.md), [exclusions](exclusions.md) and [discovery queue](discovery-queue.md).
+- [Batch 1 audit](batch-01-review.md) and [batch 2 audit](batch-02-review.md).
 
-The original 300 pages and their historical review dates are preserved. Candidate IDs are descriptive research keys; permanent IDs 301–310 were assigned centrally after acceptance. The first batch was pushed directly to `main` in commit `ce50f8b` on 2026-09-17. The user authorized direct pushes; no PR is required. Accepted additions cover log-rank, Černý, planted-clique detection, Unique Games, balanced Gaussian simplex noise stability, convex Dirichlet spectral determination, three-dimensional Edwards–Anderson order, inhomogeneous Landau–Coulomb continuation, the Li–Li multiple-unicast conjecture and Gaussian broadcast feedback capacity. Morrey’s planar conjecture and Yang–Mills existence and mass gap remain held because matching proof claims have not been adjudicated. The ten handoff seeds are now investigated; substantial discovery beyond them remains necessary.
+The original 300 pages and historical review dates are preserved. Permanent numerical IDs are assigned centrally after admission. Research drafts and evidence records are not additional catalogue entries. Each accepted problem has a separated adversarial self-pass; no independent agent or human review is claimed.
 
-The FIFO queue-feedback candidate is held after an adversarial model check; see [exclusions](exclusions.md) and the [discovery queue](discovery-queue.md).
+The twenty additions cover all twelve primary sections. Batch 2 adds competitive population-map regularity, exact three-processor scheduling, entanglement-assisted zero-error capacity, fixed-disorder quantum diffusion, reversible reaction–diffusion continuation, splay-tree optimality, noisy-parity hardness, sample compression, the Belgian chocolate control threshold and Ruskai–Audenaert channel decomposition. The ten handoff seeds have all been investigated; substantial discovery beyond them remains necessary.
 
-The Gaussian multiple-access feedback candidate is also held on an older conflicting claim; see its candidate record.
+Four candidates remain held and have no active IDs: Morrey’s planar implication, Yang–Mills existence/mass gap and Gaussian multiple-access feedback have unresolved matching claims; FIFO queue feedback has a formulation/evidence hold. Discovery-only leads are not counted as investigated records.
 
-The carrying-simplex interior smoothness question has passed a separate adversarial self-pass and is an accepted draft for the next batch. It is not yet an active or published entry. See its [evidence ledger](candidates/carrying-simplex-interior.json).
-
-The exact three-processor unit-job scheduling question has also passed formulation, theorem-scope and separate adversarial review. Its [accepted draft record](candidates/three-processor-unit-scheduling.json) awaits the next batch.
-
-The entanglement-assisted Lovász equality passed a separate adversarial self-pass, including the corrected March 2026 restricted-capacity result. Its [accepted draft record](candidates/entanglement-assisted-lovasz.json) awaits the next batch. There are now nine accepted drafts beyond the ten published entries.
-
-Fixed-disorder quantum diffusion passed the separate A15 adversarial self-pass. Its [accepted draft record](candidates/anderson-fixed-disorder-diffusion.json) distinguishes disorder-averaged linear growth from spectral delocalization, finite-time estimates and vanishing-disorder scaling limits. It awaits the next batch.
-
-The reversible mass-action reaction–diffusion continuation question passed the separate A16 adversarial self-pass. Its [accepted draft record](candidates/reversible-reaction-classical-continuation.json) distinguishes arbitrary-order deterministic classical continuation from renormalized existence, restricted-growth or diffusion theorems, transport-noise regularization and generic mass-control blowup. All twelve primary sections now have at least one accepted addition; substantial further work remains toward the minimum of 200.
-
-Splay-tree dynamic optimality and classical learning-parity-with-noise hardness passed the separate A17 and A18 self-passes. Their accepted records distinguish initialization conventions, conditional competitive bounds and heap models, and fixed-noise random examples, preprocessing, sparsity and quantum inputs: [splay](candidates/splay-dynamic-optimality.json), [LPN](candidates/learning-parity-noise.json). Both await the next batch; 181 further accepted additions are needed to reach the minimum.
-
-Linear-size labeled sample compression and the sharp Belgian chocolate stabilization threshold passed the separate A19 and A20 self-passes. Their [compression](candidates/linear-sample-compression.json) and [control](candidates/belgian-chocolate-threshold.json) records distinguish side information, restricted learning models and withdrawn claims, and arbitrary controller degree, strict stability and time-varying feedback. Both are accepted drafts awaiting batch integration.
+The user explicitly authorized repository uploads and direct pushes to `main`. No PR is required. The latest upstream and open-PR checks are recorded in the batch audit and individual refresh records.

@@ -206,5 +206,21 @@
     "file": "problems/304-unique-games.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "317",
+    "title": "Classical hardness of learning parity with noise",
+    "area": "Statistical learning and average-case computational complexity",
+    "file": "problems/317-learning-parity-noise.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
+  },
+  {
+    "id": "318",
+    "title": "Linear-size sample compression for binary concept classes",
+    "area": "Statistical learning and combinatorial dimension",
+    "file": "problems/318-linear-sample-compression.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

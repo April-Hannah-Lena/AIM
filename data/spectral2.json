@@ -198,5 +198,13 @@
     "file": "problems/125-sarnak-compact-supnorm.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-08"
+  },
+  {
+    "id": "314",
+    "title": "Diffusive mean-square displacement at fixed disorder",
+    "area": "Disordered quantum transport",
+    "file": "problems/314-anderson-fixed-disorder-diffusion.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

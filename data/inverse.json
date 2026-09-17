@@ -198,5 +198,21 @@
     "file": "problems/075-thermostatic-nonabelian-tomography.md",
     "status": "Open in cited literature; no later resolution located",
     "last_checked": "2026-09-08"
+  },
+  {
+    "id": "311",
+    "title": "Interior smoothness of carrying simplices in competitive population maps",
+    "area": "Mathematical biology and dynamical systems",
+    "file": "problems/311-carrying-simplex-interior.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
+  },
+  {
+    "id": "319",
+    "title": "The sharp Belgian chocolate stabilization threshold",
+    "area": "Feedback control and polynomial stability",
+    "file": "problems/319-belgian-chocolate-threshold.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

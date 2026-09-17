@@ -206,5 +206,13 @@
     "file": "problems/301-log-rank.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "316",
+    "title": "Dynamic optimality of splay trees",
+    "area": "Adaptive data structures and online computation",
+    "file": "problems/316-splay-dynamic-optimality.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

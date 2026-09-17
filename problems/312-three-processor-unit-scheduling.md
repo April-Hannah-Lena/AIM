@@ -1,8 +1,8 @@
-# Exact complexity of unit-job precedence scheduling on three processors
+# 312. Exact complexity of unit-job precedence scheduling on three processors
 
 **Area:** Scheduling and operations research
 
-**Status:** Accepted; integrated as entry 312
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -33,4 +33,4 @@ Precedence edges represent dependencies between computational tasks or project a
 
 Nederlof–Swennenhuis–Węgrzycki pose the exact three-processor problem and give an algorithm with running time $2^{O(\sqrt n\log n)}$. Independent papers by Das–Wiese and Büsing–Draeger–Mathwieser identify the remaining fixed-machine gap. Approximation schemes do not give exact polynomial-time feasibility by taking arbitrarily small error. The inspected hardness reductions either let the number of processors grow or introduce OR dependencies; a makespan of three must not be confused with three processors.
 
-Current resolution searches cover the three-field notation, unit execution times, three machines/processors, author names, proof and counterexample claims, 2025–2026 and unrestricted dates, and version/correction checks. The [candidate ledger](../candidates/three-processor-unit-scheduling.json) records the comparisons and access limits. A separate adversarial self-pass also checked processor-allocation hardness and the outforest restriction in an older linear-time algorithm. Integrated as [entry 312](../../../problems/312-three-processor-unit-scheduling.md) after the September 17, 2026 batch refresh.
+Current resolution searches cover the three-field notation, unit execution times, three machines/processors, author names, proof and counterexample claims, 2025–2026 and unrestricted dates, and version/correction checks. The [candidate ledger](../research/expansion-2026-09/candidates/three-processor-unit-scheduling.json) records the comparisons and access limits. A separate adversarial self-pass also checked processor-allocation hardness and the outforest restriction in an older linear-time algorithm. Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration.

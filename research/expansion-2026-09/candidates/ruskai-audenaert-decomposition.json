@@ -1,0 +1,459 @@
+{
+  "candidate_id": "ruskai-audenaert-decomposition",
+  "proposed_catalogue_id": "320",
+  "title": "Equal-weight decomposition of quantum channels with bounded Kraus rank",
+  "aliases": [
+    "Strong Ruskai–Audenaert conjecture",
+    "Audenaert–Ruskai channel decomposition",
+    "Equal-weight generalized extreme channel decomposition"
+  ],
+  "primary_section": "spectral3",
+  "secondary_tags": [
+    "quantum information",
+    "channel simulation",
+    "convex geometry"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Accepted after source formulation, independent corroboration, resolution/duplicate review and separated adversarial self-pass; immediate batch refresh passed.",
+  "problem_fingerprint": {
+    "model_or_objects": "Complex finite-dimensional completely positive trace-preserving maps",
+    "dimension": "Input m and output n independently arbitrary integers >=2",
+    "domain": "M_m(C) to M_n(C)",
+    "regularity_and_data_class": "All channels; no unitality or classical-input/output restriction",
+    "boundary_or_initial_conditions": "Not applicable",
+    "parameter_range": "All m,n>=2",
+    "quantifiers": "Every channel admits n channel components, each of Kraus rank at most m",
+    "normalization": "Each component trace-preserving; all mixing weights 1/n",
+    "observable_or_norm": "Exact equality of linear maps; minimal Kraus representation length",
+    "limit_regime_and_order": "Finite-dimensional exact existence, no approximation limit",
+    "requested_conclusion": "Prove or refute universal equal-weight decomposition",
+    "computational_model_and_dependencies": "No algorithmic runtime bound; components may repeat and need not be actual extreme points"
+  },
+  "statement_source_and_scope_match": "KW26 Conjecture 1 gives n output-dimension parts of rank at most the input dimension m; its channel formulation and §3.1 Kraus/Choi convention match the draft exactly. R07 Theorem 1 and Conjectures 3–5 corroborate the input rank bound despite the printed typo in Conjecture 2.",
+  "proposed_statement_text": "Write $M_d(\\mathbb C)$ for the complex $d\\times d$ matrices. A quantum channel $\\Phi:M_m(\\mathbb C)\\to M_n(\\mathbb C)$ is a complex-linear map that preserves trace and is completely positive: $\\operatorname{id}_k\\otimes\\Phi$ preserves positive semidefiniteness for every integer $k\\ge1$. Its Kraus rank is the least integer $r$ for which matrices $A_1,\\ldots,A_r\\in\\mathbb C^{n\\times m}$ satisfy\n\n$$\n\\Phi(X)=\\sum_{a=1}^r A_aXA_a^*,\\qquad\n\\sum_{a=1}^r A_a^*A_a=I_m\n\\quad\\text{for every }X\\in M_m(\\mathbb C).\n$$\n\nFor every pair of integers $m,n\\ge2$ and every such channel $\\Phi$, do there exist channels $\\Phi_1,\\ldots,\\Phi_n:M_m(\\mathbb C)\\to M_n(\\mathbb C)$ such that\n\n$$\n\\Phi=\\frac1n\\sum_{j=1}^n\\Phi_j,\n\\qquad \\operatorname{KrausRank}(\\Phi_j)\\le m\\quad(1\\le j\\le n)?\n$$\n\nRepeated channels are allowed. These rank-bounded channels are the generalized extreme points, meaning the closure of the extreme points of the convex set of channels; they need not themselves be extreme. The question requires exactly $n$ equal weights and exact equality of maps, with no unitality assumption. This is the strong Ruskai–Audenaert conjecture.",
+  "applied_significance": "Quantum channels describe noisy quantum dynamics. Such a decomposition would implement any channel by choosing uniformly among $n$ simpler channels, each admitting an environment of dimension at most $m$ in a Stinespring implementation. This links classical randomness to the quantum resources needed for channel simulation. It is an existence question; an efficient procedure for finding the components is a further issue.",
+  "application_evidence_source_ids": [
+    "IC19"
+  ],
+  "source_records": [
+    {
+      "source_id": "R07",
+      "role": "Formulation, independent status or scope comparison",
+      "authors": [
+        "Mary Beth Ruskai"
+      ],
+      "title": "Some Open Problems in Quantum Information Theory",
+      "venue_or_repository": "Primary author manuscript",
+      "publication_type": "author manuscript",
+      "publication_date": "2007-08-14",
+      "latest_version_date": "2007-08-14",
+      "identifier": "https://arxiv.org/pdf/0708.1902v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/0708.1902v1",
+      "locator": "§1 Theorem 1; §2 Conjectures 2–5 and opening qubit-output discussion",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 Theorem 1; §2 Conjectures 2–5 and opening qubit-output discussion"
+      ],
+      "supported_claim": "Origin, generalized extreme point characterization and equal-weight formulation.",
+      "independent_of_source_ids": [
+        "KW26",
+        "IC19",
+        "M07"
+      ],
+      "access_limitations": "The rendered PDF title date is 2018, but arXiv history records only v1 August 14, 2007. Conjecture 2 prints rank d2; Conjectures 3–5 use d1. The modern KW26 statement resolves the dimensional discrepancy."
+    },
+    {
+      "source_id": "IC19",
+      "role": "Formulation, independent status or scope comparison",
+      "authors": [
+        "Raban Iten",
+        "Roger Colbeck"
+      ],
+      "title": "Smooth manifold structure for extreme channels",
+      "venue_or_repository": "Journal of Mathematical Physics 59, 012202 (2018); corrected author manuscript v2",
+      "publication_type": "author manuscript",
+      "publication_date": "2019-09-25",
+      "latest_version_date": "2019-09-25",
+      "identifier": "https://arxiv.org/html/1610.02513v2",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/1610.02513v2",
+      "locator": "§I; §III.1 Theorem 3; §IV Theorem 22 and Remark 3; §V Definitions 8–9, Lemma 23 and Theorem 24",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§I; §III.1 Theorem 3; §IV Theorem 22 and Remark 3; §V Definitions 8–9, Lemma 23 and Theorem 24"
+      ],
+      "supported_claim": "Independent unresolved weak term-bound statement, Kraus convention and implementation motivation.",
+      "independent_of_source_ids": [
+        "KW26",
+        "R07",
+        "M07"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "v1 October 8, 2016; v2 September 25, 2019, minor corrections to match journal version."
+    },
+    {
+      "source_id": "KW26",
+      "role": "Formulation, independent status or scope comparison",
+      "authors": [
+        "Niranjan Kumar",
+        "Michael M. Wolf"
+      ],
+      "title": "The Ruskai-Audenaert conjecture & equipartitions of positive operators",
+      "venue_or_repository": "Primary author manuscript",
+      "publication_type": "author manuscript",
+      "publication_date": "2026-07-25",
+      "latest_version_date": "2026-07-25",
+      "identifier": "https://arxiv.org/html/2607.23066v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2607.23066v1",
+      "locator": "§1; §2 Conjecture 1, Proposition 3, Theorem 1 and Corollaries 1–2; §3.1 Choi normalization; §3.2 Theorems 2–3; §3.3 Theorems 4–5; §4 Theorems 6–7",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1; §2 Conjecture 1, Proposition 3, Theorem 1 and Corollaries 1–2; §3.1 Choi normalization; §3.2 Theorems 2–3; §3.3 Theorems 4–5; §4 Theorems 6–7"
+      ],
+      "supported_claim": "Current exact formulation and special-case progress.",
+      "independent_of_source_ids": [
+        "R07",
+        "IC19",
+        "M07"
+      ],
+      "access_limitations": "The displayed HTML date differs from the arXiv submission history; use the verified v1 submission date July 25, 2026. No independent proof certification performed.",
+      "version_history_checked": "arXiv current history lists only v1 July 25, 2026."
+    },
+    {
+      "source_id": "M07",
+      "role": "Formulation, independent status or scope comparison",
+      "authors": [
+        "Pedro G. Massey"
+      ],
+      "title": "Non-commutative Schur-Horn theorems and extended majorization for Hermitian matrices",
+      "venue_or_repository": "Primary author manuscript",
+      "publication_type": "author manuscript",
+      "publication_date": "2007-12-13",
+      "latest_version_date": null,
+      "identifier": "https://ri.conicet.gov.ar/bitstream/11336/19430/1/CONICET_Digital_Nro.23444.pdf",
+      "version": null,
+      "stable_url": "https://ri.conicet.gov.ar/bitstream/11336/19430/1/CONICET_Digital_Nro.23444.pdf",
+      "locator": "§1; full §4.3 Conjecture 4.8, Proposition 4.9, its proof and following limitation; Remark 4.10",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1; full §4.3 Conjecture 4.8, Proposition 4.9, its proof and following limitation; Remark 4.10"
+      ],
+      "supported_claim": "The related block decomposition need not preserve the required marginal.",
+      "independent_of_source_ids": [
+        "R07",
+        "IC19",
+        "KW26"
+      ],
+      "access_limitations": "Institutional manuscript; locators refer to that text. Publication identified in the UNLP repository as Linear and Multilinear Algebra 58(4) (2010), 465–480, DOI 10.1080/03081080802677615. No institutional manuscript revision history displayed."
+    },
+    {
+      "source_id": "CJ25",
+      "role": "Formulation, independent status or scope comparison",
+      "authors": [
+        "Gunhee Cho",
+        "Jeongwoo Jae"
+      ],
+      "title": "Support-Projected Petz Monotone Geometry of Pure Two-Qubit Families: Universal Three-Channel Decomposition and Non-Reduction of Curvature Invariants",
+      "venue_or_repository": "Primary author manuscript",
+      "publication_type": "author manuscript",
+      "publication_date": "2025-11-25",
+      "latest_version_date": "2025-11-25",
+      "identifier": "https://arxiv.org/html/2509.14578v2",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2509.14578v2",
+      "locator": "§3.1 Theorem 3.1 and Remark 3.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§3.1 Theorem 3.1 and Remark 3.2"
+      ],
+      "supported_claim": "Three-channel terminology here describes terms of a Fisher tensor, not a convex decomposition of CPTP maps.",
+      "independent_of_source_ids": [
+        "KW26",
+        "R07",
+        "IC19",
+        "M07"
+      ],
+      "access_limitations": "Inspected solely to disambiguate a search hit; no assessment of the correctness of its metric formula or later curvature claims."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Web queries followed by primary full texts",
+      "query": "S126-1 through S129-1 and A21-1 through A21-3 in ../search-log.json",
+      "date_filter_or_unrestricted": "Unrestricted, including literal 2025 and 2026",
+      "results_inspected": [
+        "R07",
+        "IC19",
+        "KW26",
+        "M07",
+        "CJ25"
+      ],
+      "outcome": "No matching resolution found. Aggregator results used only to locate or disambiguate primary texts.",
+      "limitations": "No proof certification; no exhaustive index of all literature."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "KW26",
+      "theorem_locator": "§2 Corollary 2",
+      "claim_type": "qutrit_weak_decomposition",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Input and output dimensions both three.",
+        "Three rank-at-most-three channels with arbitrary probability weights."
+      ],
+      "scope_relation": "Does not force equal weights; the general strong conjecture is not settled.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not force equal weights; the general strong conjecture is not settled.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "KW26",
+      "theorem_locator": "§3 Theorems 2–3",
+      "claim_type": "positive_measure_set",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "The decomposable set is closed, connected and semialgebraic with nonempty interior."
+      ],
+      "scope_relation": "Positive measure and connectedness do not imply all channels belong to it.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Positive measure and connectedness do not imply all channels belong to it.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "KW26",
+      "theorem_locator": "§3 Theorem 4",
+      "claim_type": "caratheodory_bound",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "At most r extreme points, where r is the original Kraus rank and can be mn."
+      ],
+      "scope_relation": "Neither the required n terms nor uniform weights follows.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither the required n terms nor uniform weights follows.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "KW26",
+      "theorem_locator": "§3 Theorem 5(1)",
+      "claim_type": "finite_equal_weight_decomposition",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Generalized extreme components; at most 2^{max(0,r-m)} terms."
+      ],
+      "scope_relation": "A finite barycentric representation with this larger bound does not establish n terms.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "A finite barycentric representation with this larger bound does not establish n terms.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "KW26",
+      "theorem_locator": "§3 Theorem 5(2) and one-dimensional-face construction",
+      "claim_type": "extreme_point_counterexample",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "m>=2 and n>=3; some channels have no finite barycentric decomposition into actual extreme points."
+      ],
+      "scope_relation": "The draft allows the closure of those points; requiring actual extreme points is stronger and false.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The draft allows the closure of those points; requiring actual extreme points is stronger and false.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "KW26",
+      "theorem_locator": "§4 Theorems 6–7",
+      "claim_type": "special_classes",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Input dimension two with arbitrary output; or cq/qc channels in any dimensions."
+      ],
+      "scope_relation": "General channels with both dimensions at least three remain outside these assertions.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "General channels with both dimensions at least three remain outside these assertions.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "IC19",
+      "theorem_locator": "§IV Theorem 22 and Remark 3",
+      "claim_type": "general_convex_existence",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "At most m^2(n^2-1)+1 extreme points with arbitrary weights."
+      ],
+      "scope_relation": "The following remark explicitly leaves the smaller n-term generalized-extreme bound conjectural.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The following remark explicitly leaves the smaller n-term generalized-extreme bound conjectural.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "M07",
+      "theorem_locator": "§4.3 Proposition 4.9 and following paragraph",
+      "claim_type": "noncommutative_horn_analogue",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Equal-size blocks and rank-bounded parts.",
+        "Partial traces become equal only after separately conjugating the parts by unitaries."
+      ],
+      "scope_relation": "The author explicitly notes that the original partial traces need not coincide; the representing CP maps can fail to be unital. Adjoints therefore need not be trace-preserving channels.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The author explicitly notes that the original partial traces need not coincide; the representing CP maps can fail to be unital. Adjoints therefore need not be trace-preserving channels.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CJ25",
+      "theorem_locator": "§3.1 Theorem 3.1 and Remark 3.2",
+      "claim_type": "terminology_collision",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Smooth two-parameter pure two-qubit state family and a Petz Fisher tensor."
+      ],
+      "scope_relation": "Its three summands are derivative tensors, not CPTP maps; this is no channel-decomposition resolution.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Its three summands are derivative tensors, not CPTP maps; this is no channel-decomposition resolution.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "latest_local_comparison_commit": "7fe62d53378cb3f5ebbe7caeda9f3a4d72039395",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "035",
+        "difference": "Existence of SIC measurements, not channel decompositions."
+      },
+      {
+        "id": "036",
+        "difference": "Maximum mutually unbiased bases in dimension six, not decomposition of an arbitrary channel."
+      },
+      {
+        "id": "213",
+        "difference": "Entanglement breaking after composition of two PPT channels; different operation and hypotheses."
+      },
+      {
+        "id": "214",
+        "difference": "Holevo additivity of amplitude damping; no bound on convex decomposition length."
+      },
+      {
+        "id": "entanglement-assisted-lovasz",
+        "difference": "Asymptotic zero-error communication for a confusability graph, not Kraus rank or channel mixtures."
+      }
+    ],
+    "distinctness_reason": "Full closest pages and pending Lovász draft read, current metadata/source/exclusion alias searches and baseline semantic review find no duplicate.",
+    "implications_or_equivalences": [
+      "Weak and strong RA forms are counted as one family.",
+      "Kraus, Choi and dual unital formulations are not separate additions.",
+      "Shared equipartition language with SIC/MUBs is not equivalence: those require different nonlinear constraints."
+    ]
+  },
+  "open_status_evidence_summary": "KW26 explicitly retains Conjecture 1 while proving restricted cases. R07 poses the strong formulation and IC19 independently leaves even the weak term-bound problem unresolved. Current resolution searches yield no matching full proof or counterexample.",
+  "independent_status_corroboration": "R07, IC19, KW26 and M07 have disjoint authors. Earlier explicit statements supplement, rather than replace, the current 2026 formulation. Search aggregators are not status authorities.",
+  "strongest_known_partial_results_and_gap": "Qubit input/output and cq/qc classes are covered; weak qutrit decomposition and larger-term barycentric existence do not give the general n-term uniform representation.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Wang 1510.01040 HTML failed; its abstract was discovery only and no theorem from it supports admission.",
+    "M07 institutional copy has no revision history; publication metadata separately verified in the author institution repository.",
+    "Theorems and scope were read, not independently proved."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass; no independent agent or human reviewer",
+    "reviewer_or_pass_identifier": "A21",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A21-1",
+      "A21-2",
+      "A21-3",
+      "S128-1",
+      "S128-2",
+      "S129-1"
+    ],
+    "issues_found": [
+      "Older printed rank bound swaps input and output.",
+      "New special-case results and finite barycentric existence may be overread as a full resolution.",
+      "Counterexamples for actual extreme points can be confused with generalized extreme points.",
+      "Noncommutative Horn and three-channel titles may look like indirect resolutions."
+    ],
+    "issues_resolved": [
+      "Use modern Conjecture 1, cross-checked against R07 dual/block formulations and IC19.",
+      "Compare full Corollary 2 and Theorems 3–7; retain arbitrary m,n and exactly n equal weights.",
+      "Explicitly allow closure points and repeated components.",
+      "Read M07 Proposition 4.9 and scope disclaimer and CJ25 Theorem 3.1."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": "2026-09-17",
+    "latest_target_commit": "7fe62d53378cb3f5ebbe7caeda9f3a4d72039395",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R2-10"
+    ],
+    "outcome": "Current arXiv v1 retained Conjecture 1; full qubit/classical channel, positive-measure, arbitrary finite-term and actual-extreme-point scope comparisons completed in A21. No matching general resolution located.",
+    "upstream_check": "git fetch origin main and git ls-remote --heads confirm only main at 7fe62d53378cb3f5ebbe7caeda9f3a4d72039395; GitHub connector open-PR search returned none. No intervening upstream content or competing addition.",
+    "duplicate_scope": "All 310 active pages/metadata, prior exclusion/source records and all pending additions screened; closest full pages and statement scopes reviewed in each candidate ledger."
+  },
+  "public_page_path": "problems/320-ruskai-audenaert-decomposition.md",
+  "validation_results": [
+    {
+      "check": "catalogue",
+      "result": "Passed --write and --check for 320 unique entries, metadata, required sections, math delimiters, local links and README freshness."
+    },
+    {
+      "check": "preservation",
+      "result": "All original 300 pages match baseline a602073 byte-for-byte; all 310 prior pages match 7fe62d5. Prior metadata rows and dates are unchanged."
+    },
+    {
+      "check": "research_consistency",
+      "result": "24 candidate records, 20 accepted and integrated; section counts, IDs, accepted page paths and batch-2 draft paths agree."
+    },
+    {
+      "check": "math_rendering",
+      "result": "All 194 math expressions in the ten new pages parse with KaTeX without errors; all ten statements visually inspected in five browser screenshots with no clipping."
+    },
+    {
+      "check": "external_links",
+      "result": "54 distinct page URLs checked: 53 succeed, including Numdam GET fallback; one publisher DOI returns HTTP 403. Its institutional full-text copy succeeds. See batch-02-link-check.json."
+    }
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/ruskai-audenaert-decomposition.md",
+  "integration": {
+    "batch": "expansion-2026-09-17-02",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
+  }
+}

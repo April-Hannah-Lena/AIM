@@ -198,5 +198,21 @@
     "file": "problems/225-critical-subcritical-heat-ratio.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-13"
+  },
+  {
+    "id": "313",
+    "title": "Does entanglement-assisted capacity equal the Lovász bound?",
+    "area": "Quantum information and zero-error communication",
+    "file": "problems/313-entanglement-assisted-lovasz.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
+  },
+  {
+    "id": "320",
+    "title": "Equal-weight decomposition of quantum channels with bounded Kraus rank",
+    "area": "Quantum information and channel simulation",
+    "file": "problems/320-ruskai-audenaert-decomposition.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

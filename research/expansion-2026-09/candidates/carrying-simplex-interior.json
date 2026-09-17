@@ -1,6 +1,6 @@
 {
   "candidate_id": "carrying-simplex-interior",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "311",
   "title": "Interior smoothness of carrying simplices in competitive population maps",
   "aliases": [
     "Hirsch carrying-simplex smoothness problem",
@@ -14,7 +14,7 @@
     "invariant manifolds"
   ],
   "decision": "accept_open",
-  "decision_reason": "Explicit source-matched interior regularity question, disjoint-author specialist corroboration, matching-theorem and duplicate checks, and separate adversarial self-pass completed. No unresolved material status conflict found.",
+  "decision_reason": "Accepted after source formulation, independent corroboration, resolution/duplicate review and separated adversarial self-pass; immediate batch refresh passed.",
   "problem_fingerprint": {
     "model_or_objects": "Discrete-time Kolmogorov map F_i=x_i f_i with strictly decreasing positive per-capita multipliers",
     "dimension": "Every integer d>=3; hypersurface dimension d-1",
@@ -144,7 +144,7 @@
       ],
       "supported_claim": "Later existence theorem for continuous retrotone maps; property (ix) is Lipschitz, not C1.",
       "independent_of_source_ids": [],
-      "access_limitations": null
+      "access_limitations": "Publisher DOI returns HTTP 403 in the batch link check; the UCL institutional full-text copy was read and remains accessible."
     },
     {
       "source_id": "BM26",
@@ -509,26 +509,38 @@
     "verdict": "accept_open"
   },
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "Not performed; draft outside active catalogue."
+    "date": "2026-09-17",
+    "latest_target_commit": "7fe62d53378cb3f5ebbe7caeda9f3a4d72039395",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R2-1"
+    ],
+    "outcome": "No matching resolution located. Convexity, boundary singularities, local invariant-manifold and time-periodic existence hits match scope distinctions already read in the ledger.",
+    "upstream_check": "git fetch origin main and git ls-remote --heads confirm only main at 7fe62d53378cb3f5ebbe7caeda9f3a4d72039395; GitHub connector open-PR search returned none. No intervening upstream content or competing addition.",
+    "duplicate_scope": "All 310 active pages/metadata, prior exclusion/source records and all pending additions screened; closest full pages and statement scopes reviewed in each candidate ledger."
   },
-  "public_page_path": null,
+  "public_page_path": "problems/311-carrying-simplex-interior.md",
   "validation_results": [
-    "Research ledger JSON parsed; required draft headings and dollar math checked. Active-catalogue validation and rendered-page review remain for batch integration.",
     {
-      "date": "2026-09-17",
-      "scope": "Research checkpoint; no active catalogue integration",
-      "checks": [
-        "Candidate JSON and source references parse and resolve.",
-        "Draft has all four required headings and resolving local evidence link.",
-        "Accepted, held and section counts agree across all 17 candidate records.",
-        "python3 scripts/catalogue.py --check passed for unchanged 310-entry catalogue.",
-        "git diff --check passed."
-      ],
-      "limitations": "Draft rendered-math inspection and publication refresh remain required at batch integration."
+      "check": "catalogue",
+      "result": "Passed --write and --check for 320 unique entries, metadata, required sections, math delimiters, local links and README freshness."
+    },
+    {
+      "check": "preservation",
+      "result": "All original 300 pages match baseline a602073 byte-for-byte; all 310 prior pages match 7fe62d5. Prior metadata rows and dates are unchanged."
+    },
+    {
+      "check": "research_consistency",
+      "result": "24 candidate records, 20 accepted and integrated; section counts, IDs, accepted page paths and batch-2 draft paths agree."
+    },
+    {
+      "check": "math_rendering",
+      "result": "All 194 math expressions in the ten new pages parse with KaTeX without errors; all ten statements visually inspected in five browser screenshots with no clipping."
+    },
+    {
+      "check": "external_links",
+      "result": "54 distinct page URLs checked: 53 succeed, including Numdam GET fallback; one publisher DOI returns HTTP 403. Its institutional full-text copy succeeds. See batch-02-link-check.json."
     }
   ],
   "remote_publication": {
@@ -538,5 +550,11 @@
     "commit": null,
     "pull_request_url": null
   },
-  "draft_path": "research/expansion-2026-09/drafts/carrying-simplex-interior.md"
+  "draft_path": "research/expansion-2026-09/drafts/carrying-simplex-interior.md",
+  "integration": {
+    "batch": "expansion-2026-09-17-02",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
+  }
 }

@@ -1,8 +1,8 @@
-# Global classical continuation for a reversible mass-action reaction
+# 315. Global classical continuation for a reversible mass-action reaction
 
 **Area:** Chemical reaction–diffusion / continuum biology
 
-**Status:** Accepted; integrated as entry 315
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -53,8 +53,8 @@ The May 2026 Bouton–Desvillettes–Dietert [Theorem 1](https://arxiv.org/pdf/2
 
 Known generic mass-control blowup examples require a separate scope check. Pierre’s [2021 author statement](https://math.univ-cotedazur.fr/u/delarue/GE2MI_MPierre1.pdf), PDF pp. 57–63, uses prescribed Dirichlet data, or explicitly space/time-dependent reactions for its no-flux adaptation. Hopf–Tang’s [2026 specialist discussion](https://www.wias-berlin.de/preprint/3263/wias_preprints_3263.pdf), printed p. 4, still distinguishes these examples from the entropy-dissipating setting. The original Pierre–Schmitt journal PDF required login; the author restatement and later discussion were used instead.
 
-Searches on 2026-09-17 covered reversible mass-action classical existence, smooth continuation, blowup, counterexamples, recent results, version histories and corrections. The separate adversarial self-pass A16 checked additional diffusion-closeness and low-dimensional results; none covers the full statement. See the [evidence ledger](../candidates/reversible-reaction-classical-continuation.json).
+Searches on 2026-09-17 covered reversible mass-action classical existence, smooth continuation, blowup, counterexamples, recent results, version histories and corrections. The separate adversarial self-pass A16 checked additional diffusion-closeness and low-dimensional results; none covers the full statement. See the [evidence ledger](../research/expansion-2026-09/candidates/reversible-reaction-classical-continuation.json).
 
-Related entries [282](../../../problems/282-reaction-network-positive-recurrence.md) and [283](../../../problems/283-reaction-network-persistence.md) concern stochastic molecule counts and spatially homogeneous ODE persistence, respectively; neither asks for PDE continuation.
+Related entries [282](282-reaction-network-positive-recurrence.md) and [283](283-reaction-network-persistence.md) concern stochastic molecule counts and spatially homogeneous ODE persistence, respectively; neither asks for PDE continuation.
 
-Integrated as [entry 315](../../../problems/315-reversible-reaction-classical-continuation.md) after the September 17, 2026 batch refresh.
+Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration.
