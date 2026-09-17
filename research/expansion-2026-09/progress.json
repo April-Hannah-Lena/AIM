@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 26,
+  "new_accepted": 27,
   "active_total": 320,
-  "candidates_investigated": 31,
+  "candidates_investigated": 32,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 174,
-  "remaining_to_target": 224,
+  "remaining_to_minimum": 173,
+  "remaining_to_target": 223,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -94,11 +94,15 @@
     {
       "commit": "9a8fe52396d798124641ca73eba91011cc333b5d",
       "purpose": "Record reviewed contact-process and online bin-packing drafts; pushed directly to main and independently verified."
+    },
+    {
+      "commit": "5425d734cc3b44d840ba4a9ae54c3716a1ce9cb4",
+      "purpose": "Record research publication and interference-channel claim warning; pushed directly to main."
     }
   ],
-  "remote_state": "Remote main was independently verified at 9a8fe52396d798124641ca73eba91011cc333b5d via SSH ls-remote after the contact-process and bin-packing research push on September 17, 2026. It contains all 26 accepted research records, including 20 active additions through entry 320. Direct pushes remain authorized; no PR is required.",
+  "remote_state": "Latest independently verified remote main before this research addition: 5425d734cc3b44d840ba4a9ae54c3716a1ce9cb4 (September 17, 2026). Discrete Skolem draft currently local. Direct pushes remain authorized; no PR required.",
   "next_actions": [
-    "Accumulate the next reviewed batch from deterministic PIT, polynomial Hirsch, asymmetric TSP gap, additive-goods EFX, nonamenable contact-process weak survival and optimal online bin-packing ratio; refresh status and upstream duplicates before assigning IDs.",
+    "Accumulate the next reviewed batch from deterministic PIT, polynomial Hirsch, asymmetric TSP gap, additive-goods EFX, nonamenable contact-process weak survival, optimal online bin-packing ratio and discrete Skolem decidability; refresh status and upstream duplicates before assigning IDs.",
     "Broaden discovery beyond the latest optimization and fairness candidates; retain slow-server threshold lead outside counts until the remaining model is precisely source-matched.",
     "Continue broader discovery toward at least 200 new problems, integrating and pushing further reviewed batches directly to main.",
     "All ten handoff seeds investigated: eight accepted drafts, Morrey and Yang–Mills held on matching unadjudicated claims.",
@@ -116,12 +120,12 @@
     "stochastic2": 2,
     "spectral3": 2,
     "continuum3": 1,
-    "inverse3": 3,
+    "inverse3": 4,
     "stochastic3": 5
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 20,
-  "count_semantics": "Twenty accepted additions are integrated and published on main; six further accepted research drafts await batch refresh and integration. Active total remains 320. Held records do not count. Remaining-to-minimum/target fields measure further acceptances.",
+  "count_semantics": "Twenty accepted additions are integrated and published on main; seven further accepted research drafts await batch refresh and integration. Active total remains 320. Held records do not count. Remaining-to-minimum/target fields measure further acceptances.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 20,
   "coverage_semantics": "Accepted additions by primary section, including accepted drafts awaiting integration.",

@@ -1,0 +1,852 @@
+{
+  "candidate_id": "discrete-skolem-decidability",
+  "proposed_catalogue_id": null,
+  "title": "Decidability of zeros in integer linear recurrences",
+  "aliases": [
+    "Discrete Skolem problem",
+    "Integer LRS zero problem",
+    "Discrete hyperplane reachability"
+  ],
+  "primary_section": "inverse3",
+  "secondary_tags": [
+    "formal verification",
+    "discrete dynamical systems",
+    "exact symbolic decision problems"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Source-matched formulation, independent September status, full scope comparisons, separate A28 self-pass and local validation passed; no matching unresolved general-resolution claim located.",
+  "problem_fingerprint": {
+    "model_or_objects": "Homogeneous constant-coefficient integer linear recurrence.",
+    "dimension": "Arbitrary finite order d≥1, part of the input.",
+    "domain": "Index n∈N_0; values and input coefficients in Z.",
+    "regularity_and_data_class": "All integer initial values and coefficients with c_d≠0; repeated roots permitted.",
+    "boundary_or_initial_conditions": "d prescribed initial terms u_0,…,u_{d-1}.",
+    "parameter_range": "No fixed upper bound on order, coefficient size or time index.",
+    "quantifiers": "One algorithm must halt with the correct zero-existence answer for every finite input.",
+    "normalization": "Monic forward recurrence u_{n+d}=c_1u_{n+d-1}+…+c_du_n.",
+    "observable_or_norm": "Exact equality u_n=0; no tolerance.",
+    "limit_regime_and_order": "Unbounded existential natural-number index; no asymptotic approximation.",
+    "requested_conclusion": "Determine whether the decision problem is decidable.",
+    "computational_model_and_dependencies": "Finite binary integer input; ordinary effective algorithm, no runtime constraint and no number-theoretic conjectural assumptions."
+  },
+  "statement_source_and_scope_match": "SUR26 Problem 2 uses nonsingular rational recurrences and explicitly reduces rational input to integer input preserving zeros. DS26 §1 independently gives the c_d≠0 integer convention and open status. BAC26 Problem 0 supplies current explicit formulation.",
+  "proposed_statement_text": "Does an algorithm always halt and decide whether an arbitrary nonsingular integer linear recurrence, specified by its coefficients and initial values, has a zero at a nonnegative integer index?",
+  "applied_significance": "Exact hyperplane reachability for discrete linear systems and termination from a specified state of a loop guarded by a linear disequality; foundational verification rather than numerical linear algebra.",
+  "application_evidence_source_ids": [
+    "SUR26",
+    "DS26",
+    "BAC26"
+  ],
+  "source_records": [
+    {
+      "source_id": "SUR26",
+      "role": "formulation and expert survey",
+      "authors": [
+        "Piotr Bacik",
+        "Toghrul Karimov",
+        "Florian Luca",
+        "Joris Nieuwveld",
+        "Joël Ouaknine",
+        "David Purser",
+        "James Worrell"
+      ],
+      "title": "A Survey of the Skolem and Positivity Problems for Linear Recurrence Sequences",
+      "venue_or_repository": "Author manuscript; listed as submitted at https://people.mpi-sws.org/~joel/pubs.html",
+      "publication_type": "submitted survey",
+      "publication_date": "2026-07-26",
+      "latest_version_date": "2026-07-26",
+      "identifier": "https://people.mpi-sws.org/~joel/publications/skolem_and_positivity_survey26.pdf",
+      "version": "author PDF dated July 26, 2026",
+      "stable_url": "https://people.mpi-sws.org/~joel/publications/skolem_and_positivity_survey26.pdf",
+      "locator": "§1 Problem 2/Theorem 5, pp. 2–3; §5.3 Theorem 25; §5.4 Theorem 26; §6.2 Theorems 32–33; §§9.1,9.3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Title/date; §1 definitions and zero-preserving rational scaling; §5.1 Proposition 20; full Theorems 25,26,32,33 and adjacent scope discussion; continuous-time analogues and closing problems; author publication list"
+      ],
+      "supported_claim": "Nonsingular rational formulation; equivalent integer input; ineffective zero-set structure; low-order and conditional results; distinct continuous analogue.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Original historical Skolem papers not used as the formulation source; reliable expert restatement read. Author lists this as submitted, not published."
+    },
+    {
+      "source_id": "DS26",
+      "role": "independent status corroboration and scope comparison",
+      "authors": [
+        "Ruiwen Dong",
+        "Doron Shafrir"
+      ],
+      "title": "The Skolem Problem in rings of positive characteristic",
+      "venue_or_repository": "arXiv",
+      "publication_type": "arXiv author manuscript",
+      "publication_date": "2026-03-11",
+      "latest_version_date": "2026-03-11",
+      "identifier": "https://arxiv.org/abs/2510.27603",
+      "version": "v3; first submitted 2025-10-31",
+      "stable_url": "https://arxiv.org/abs/2510.27603",
+      "locator": "§1, Theorem 1.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full introductory integer-status statement; recurrence and ring-presentation definitions; Theorem 1.1 and Propositions 1.2–1.3; arXiv version history"
+      ],
+      "supported_claim": "Integer decidability remains open; theorem applies to finitely generated commutative unitary rings of positive characteristic.",
+      "independent_of_source_ids": [
+        "SUR26",
+        "LOW26",
+        "BOW26",
+        "BAC26"
+      ],
+      "access_limitations": "v3 explicitly corrects a small error in Lemma 3.2; corrected version used. DSSEP26 references the paper as STOC 2026; publisher fetch failed, so no page assignment is asserted."
+    },
+    {
+      "source_id": "BOW26",
+      "role": "status or theorem-scope comparison",
+      "authors": [
+        "Piotr Bacik",
+        "Joël Ouaknine",
+        "James Worrell"
+      ],
+      "title": "On the Complexity of the Skolem Problem at Low Orders",
+      "venue_or_repository": "SODA 2026, pp. 5255–5269",
+      "publication_type": "published conference paper",
+      "publication_date": "2026",
+      "latest_version_date": "2026",
+      "identifier": "https://people.mpi-sws.org/~joel/publications/skolem-complexity25.pdf",
+      "version": "published conference PDF",
+      "stable_url": "https://people.mpi-sws.org/~joel/publications/skolem-complexity25.pdf",
+      "locator": "§1 Problems 1.1–1.2; Theorem 3.1, Corollary 3.7; §3.3 Algorithm 3.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Introduction and bounded-input encoding; full Theorem 3.1, Corollary 3.7 and relevant proof through effective finite bounds; algorithm input/output"
+      ],
+      "supported_claim": "For each fixed order, bounded Skolem lies in coRP; unbounded problem covered through order four.",
+      "independent_of_source_ids": [],
+      "access_limitations": "DOI 10.1137/1.9781611978971.191. Oxford metadata had been read in the preceding research pass; repeat fetch returned 403. Published PDF and author listing corroborate identity."
+    },
+    {
+      "source_id": "LOW26",
+      "role": "status or theorem-scope comparison",
+      "authors": [
+        "Florian Luca",
+        "Joël Ouaknine",
+        "James Worrell"
+      ],
+      "title": "Conjectural Decidability of the Skolem Problem",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-07-16",
+      "latest_version_date": "2026-07-16",
+      "identifier": "https://arxiv.org/abs/2607.15510",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/abs/2607.15510",
+      "locator": "§4 Conjecture 4.2/Theorem 4.3; §5 Theorem 5.1/Corollary 5.2; §6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full introduction; Conjecture 4.2 and Theorem 4.3 with proof scope; Theorem 5.1 and Corollary 5.2 including proof; §6 finite-height exceptions; current history and author listing"
+      ],
+      "supported_claim": "General decidability conditional on strengthened good-prime gap conjecture; unconditional density-one universal set leaves exceptional indices.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Author publication list calls it submitted; the HTML's journal-style header does not establish journal publication."
+    },
+    {
+      "source_id": "BV26",
+      "role": "status or theorem-scope comparison",
+      "authors": [
+        "Piotr Bacik",
+        "Anton Varonka"
+      ],
+      "title": "On the Subspace Orbit Problem and the Simultaneous Skolem Problem",
+      "venue_or_repository": "arXiv full version of LICS 2026 paper",
+      "publication_type": "conference full manuscript",
+      "publication_date": "2026-05-14",
+      "latest_version_date": "2026-05-14",
+      "identifier": "https://arxiv.org/abs/2601.18349",
+      "version": "v2; first submitted 2026-01-26",
+      "stable_url": "https://arxiv.org/abs/2601.18349",
+      "locator": "§1 reduced LDS/inherent dimension, SimSkolem definitions and Theorem 2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "v1 introduction initially; then current v2 full introductory definitions, result overview, Theorem 2 and complexity conditions; current version history"
+      ],
+      "supported_claim": "Decidability when target dimension t≤2 log_3 d, using inherent orbit dimension; arbitrary hyperplanes remain outside this regime.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Theorem numbering and fixed-target complexity qualification updated from v1 to v2. Dagstuhl publication page verified: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.LICS.2026.8 ."
+    },
+    {
+      "source_id": "BAC26",
+      "role": "status or theorem-scope comparison",
+      "authors": [
+        "Piotr Bacik"
+      ],
+      "title": "Twisted Rational Zeros and Local-Global Principles for Linear Recurrence Sequences",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-09-14",
+      "latest_version_date": "2026-09-14",
+      "identifier": "https://arxiv.org/abs/2609.16392",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/abs/2609.16392",
+      "locator": "§1.1 Problem 0; §§1.2–1.4, Example 3 and Theorem 4; §5.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full introduction, local-global conjectures, regular prime and coprimality hypotheses; Example 3; Theorems 4–6; effectivity discussion; current arXiv history"
+      ],
+      "supported_claim": "Latest explicit open status; prime-power local-global counterexample and conditional coprime-pair theorem do not decide arbitrary single recurrences.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Counterexample used to distinguish the assertions, not independently certify its full proof."
+    },
+    {
+      "source_id": "LUC26",
+      "role": "status or theorem-scope comparison",
+      "authors": [
+        "Monalisa Mohapatra",
+        "Pritam Kumar Bhoi",
+        "Gopal Krishna Panda"
+      ],
+      "title": "Resolution of the Skolem Problem for k-Generalized Lucas Sequences",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-03-07",
+      "latest_version_date": "2026-03-07",
+      "identifier": "https://arxiv.org/abs/2603.07172",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/abs/2603.07172",
+      "locator": "§1 recurrence/initial data and Theorem 1.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full specified-family definition, Theorem 1.1; arXiv authors and version history"
+      ],
+      "supported_claim": "Claimed zero bound concerns a fixed Lucas family, especially negative indices.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Proof not certified; apparent typographical inconsistencies in introductory characteristic-root prose are not needed for the scope exclusion."
+    },
+    {
+      "source_id": "BL26",
+      "role": "nondecisive claimed-result scope check",
+      "authors": [
+        "Luca Blanchi"
+      ],
+      "title": "Toric Certificates for Effective Skolem Tails and Subspace Orbit Reachability",
+      "venue_or_repository": "Author website",
+      "publication_type": "preliminary mathematical note",
+      "publication_date": "2026-06",
+      "latest_version_date": "2026-06",
+      "identifier": "https://lucablanchi.it/presentation-theory/toric-certificates-effective-skolem-tails-subspace-orbit-reachability",
+      "version": "undesignated web revision accessed 2026-09-17",
+      "stable_url": "https://lucablanchi.it/presentation-theory/toric-certificates-effective-skolem-tails-subspace-orbit-reachability",
+      "locator": "§2; Theorem 7.1 and proof; §27",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Preliminary status; introduction; extended certificate input; full Theorem 7.1 and proof; boundary of certified class"
+      ],
+      "supported_claim": "The advertised procedure requires additional lower-bound certificates and expressly lacks completeness.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Author labels this preliminary and AI-assisted; not used as scholarly corroboration, established partial progress or proof certification."
+    },
+    {
+      "source_id": "DSSEP26",
+      "role": "A28 status and theorem-scope check",
+      "authors": [
+        "Ruiwen Dong",
+        "Doron Shafrir"
+      ],
+      "title": "Skolem-Mahler-Lech in rings of positive characteristic: a shorter proof and a multi-dimensional generalization",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-09-02",
+      "latest_version_date": "2026-09-02",
+      "identifier": "https://arxiv.org/abs/2609.03127",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/abs/2609.03127",
+      "locator": "§1.3, Theorems 1.5–1.6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Current arXiv history; §1.3 recurrence definitions and explicit characteristic-zero status; Theorems 1.5–1.6; §1.2 module distinctions"
+      ],
+      "supported_claim": "Independent September status corroboration; multidimensional result still requires a positive integer annihilating the module.",
+      "independent_of_source_ids": [
+        "SUR26",
+        "LOW26",
+        "BOW26",
+        "BAC26"
+      ],
+      "access_limitations": "Relevant statements and scope read; proof not independently certified."
+    },
+    {
+      "source_id": "PAD26",
+      "role": "A28 status and theorem-scope check",
+      "authors": [
+        "Piotr Bacik",
+        "Joël Ouaknine",
+        "David Purser",
+        "James Worrell"
+      ],
+      "title": "On the p-adic Skolem Problem",
+      "venue_or_repository": "STACS 2026, LIPIcs 364, 8:1–8:20; DOI 10.4230/LIPIcs.STACS.2026.8",
+      "publication_type": "published conference paper",
+      "publication_date": "2026",
+      "latest_version_date": "2026",
+      "identifier": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol364-stacs2026/LIPIcs.STACS.2026.8/LIPIcs.STACS.2026.8.pdf",
+      "version": "published PDF",
+      "stable_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol364-stacs2026/LIPIcs.STACS.2026.8/LIPIcs.STACS.2026.8.pdf",
+      "locator": "§1.4 Problem 3; §1.5 Theorems 4–5, pp. 8:4–8:5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Title and DOI; p-adic zero definition; complete Theorems 4–5 and discussion of rationality obstruction"
+      ],
+      "supported_claim": "Conditional p-adic zero computation; conditional simultaneous algorithm for coprime pairs.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Relevant statements and scope read; proof not independently certified."
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S177-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Skolem problem\" \"2026\" decidability",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "SUR26",
+        "DS26",
+        "BOW26",
+        "LOW26",
+        "BV26",
+        "BAC26",
+        "LUC26",
+        "BL26"
+      ],
+      "outcome": "Collectively yielded current scholarly status and restricted/conditional results; each actually read source is described above.",
+      "limitations": "Some broad queries returned unrelated Skolem logic/paradox hits. AI-generated aggregator pages were not used as evidence; sources listed collectively, not all attributed to each query."
+    },
+    {
+      "search_id": "S178-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "Skolem problem decidability solved proof counterexample refutation -site:theoremdb.org",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "SUR26",
+        "DS26",
+        "BOW26",
+        "LOW26",
+        "BV26",
+        "BAC26",
+        "LUC26",
+        "BL26"
+      ],
+      "outcome": "Collectively yielded current scholarly status and restricted/conditional results; each actually read source is described above.",
+      "limitations": "Some broad queries returned unrelated Skolem logic/paradox hits. AI-generated aggregator pages were not used as evidence; sources listed collectively, not all attributed to each query."
+    },
+    {
+      "search_id": "S178-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Skolem\" \"decidable\" \"2026\" \"integer\" -site:theoremdb.org",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "SUR26",
+        "DS26",
+        "BOW26",
+        "LOW26",
+        "BV26",
+        "BAC26",
+        "LUC26",
+        "BL26"
+      ],
+      "outcome": "Collectively yielded current scholarly status and restricted/conditional results; each actually read source is described above.",
+      "limitations": "Some broad queries returned unrelated Skolem logic/paradox hits. AI-generated aggregator pages were not used as evidence; sources listed collectively, not all attributed to each query."
+    },
+    {
+      "search_id": "S178-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Skolem problem\" erratum correction withdrawn -site:theoremdb.org",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "SUR26",
+        "DS26",
+        "BOW26",
+        "LOW26",
+        "BV26",
+        "BAC26",
+        "LUC26",
+        "BL26"
+      ],
+      "outcome": "Collectively yielded current scholarly status and restricted/conditional results; each actually read source is described above.",
+      "limitations": "Some broad queries returned unrelated Skolem logic/paradox hits. AI-generated aggregator pages were not used as evidence; sources listed collectively, not all attributed to each query."
+    },
+    {
+      "search_id": "S179-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Skolem problem\" proof solved resolution counterexample refutation undecidable -site:theoremdb.org",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "SUR26",
+        "DS26",
+        "BOW26",
+        "LOW26",
+        "BV26",
+        "BAC26",
+        "LUC26",
+        "BL26"
+      ],
+      "outcome": "Collectively yielded current scholarly status and restricted/conditional results; each actually read source is described above.",
+      "limitations": "Some broad queries returned unrelated Skolem logic/paradox hits. AI-generated aggregator pages were not used as evidence; sources listed collectively, not all attributed to each query."
+    },
+    {
+      "search_id": "S179-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Skolem problem\" \"2026\" \"decidability\" -site:theoremdb.org",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "SUR26",
+        "DS26",
+        "BOW26",
+        "LOW26",
+        "BV26",
+        "BAC26",
+        "LUC26",
+        "BL26"
+      ],
+      "outcome": "Collectively yielded current scholarly status and restricted/conditional results; each actually read source is described above.",
+      "limitations": "Some broad queries returned unrelated Skolem logic/paradox hits. AI-generated aggregator pages were not used as evidence; sources listed collectively, not all attributed to each query."
+    },
+    {
+      "search_id": "S179-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"linear recurrence\" \"zero term\" \"decidable\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "SUR26",
+        "DS26",
+        "BOW26",
+        "LOW26",
+        "BV26",
+        "BAC26",
+        "LUC26",
+        "BL26"
+      ],
+      "outcome": "Collectively yielded current scholarly status and restricted/conditional results; each actually read source is described above.",
+      "limitations": "Some broad queries returned unrelated Skolem logic/paradox hits. AI-generated aggregator pages were not used as evidence; sources listed collectively, not all attributed to each query."
+    },
+    {
+      "search_id": "S179-4",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Skolem problem\" Bacik Luca Ouaknine Worrell correction erratum withdrawn",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "SUR26",
+        "DS26",
+        "BOW26",
+        "LOW26",
+        "BV26",
+        "BAC26",
+        "LUC26",
+        "BL26"
+      ],
+      "outcome": "Collectively yielded current scholarly status and restricted/conditional results; each actually read source is described above.",
+      "limitations": "Some broad queries returned unrelated Skolem logic/paradox hits. AI-generated aggregator pages were not used as evidence; sources listed collectively, not all attributed to each query."
+    },
+    {
+      "search_id": "S180-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Skolem problem\" \"solved\" \"integer\" -site:theoremdb.org -site:www.theoremdb.org",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "SUR26",
+        "DS26",
+        "BOW26",
+        "LOW26",
+        "BV26",
+        "BAC26",
+        "LUC26",
+        "BL26"
+      ],
+      "outcome": "Collectively yielded current scholarly status and restricted/conditional results; each actually read source is described above.",
+      "limitations": "Some broad queries returned unrelated Skolem logic/paradox hits. AI-generated aggregator pages were not used as evidence; sources listed collectively, not all attributed to each query."
+    },
+    {
+      "search_id": "S180-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Skolem problem\" \"undecidable\" \"linear recurrence\" 2025 2026 -site:theoremdb.org",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "SUR26",
+        "DS26",
+        "BOW26",
+        "LOW26",
+        "BV26",
+        "BAC26",
+        "LUC26",
+        "BL26"
+      ],
+      "outcome": "Collectively yielded current scholarly status and restricted/conditional results; each actually read source is described above.",
+      "limitations": "Some broad queries returned unrelated Skolem logic/paradox hits. AI-generated aggregator pages were not used as evidence; sources listed collectively, not all attributed to each query."
+    },
+    {
+      "search_id": "S180-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Skolem problem\" \"disproof\" \"counterexample\" -site:theoremdb.org",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "SUR26",
+        "DS26",
+        "BOW26",
+        "LOW26",
+        "BV26",
+        "BAC26",
+        "LUC26",
+        "BL26"
+      ],
+      "outcome": "Collectively yielded current scholarly status and restricted/conditional results; each actually read source is described above.",
+      "limitations": "Some broad queries returned unrelated Skolem logic/paradox hits. AI-generated aggregator pages were not used as evidence; sources listed collectively, not all attributed to each query."
+    },
+    {
+      "search_id": "S180-4",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Skolem problem\" \"Ouaknine\" \"Worrell\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "SUR26",
+        "DS26",
+        "BOW26",
+        "LOW26",
+        "BV26",
+        "BAC26",
+        "LUC26",
+        "BL26"
+      ],
+      "outcome": "Collectively yielded current scholarly status and restricted/conditional results; each actually read source is described above.",
+      "limitations": "Some broad queries returned unrelated Skolem logic/paradox hits. AI-generated aggregator pages were not used as evidence; sources listed collectively, not all attributed to each query."
+    },
+    {
+      "search_id": "A28-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Skolem problem\" \"proved\" \"2026\" \"integer\" -site:theoremdb.org -site:emergentmind.com",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "DSSEP26",
+        "PAD26",
+        "BAC26",
+        "LOW26",
+        "BL26"
+      ],
+      "outcome": "New September positive-characteristic extension checked in primary full text; no matching unrestricted resolution found.",
+      "limitations": "Results listed collectively across A28; nonprimary summaries used only to locate primary papers."
+    },
+    {
+      "search_id": "A28-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Skolem-Mahler-Lech\" \"effective\" \"decidability\" \"2026\" -site:theoremdb.org",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "DSSEP26",
+        "PAD26",
+        "BAC26",
+        "LOW26",
+        "BL26"
+      ],
+      "outcome": "New September positive-characteristic extension checked in primary full text; no matching unrestricted resolution found.",
+      "limitations": "Results listed collectively across A28; nonprimary summaries used only to locate primary papers."
+    },
+    {
+      "search_id": "A28-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"discrete hyperplane reachability\" solved decidable -site:theoremdb.org",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "DSSEP26",
+        "PAD26",
+        "BAC26",
+        "LOW26",
+        "BL26"
+      ],
+      "outcome": "New September positive-characteristic extension checked in primary full text; no matching unrestricted resolution found.",
+      "limitations": "Results listed collectively across A28; nonprimary summaries used only to locate primary papers."
+    },
+    {
+      "search_id": "A28-4",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Conjectural Decidability of the Skolem Problem\" correction erratum withdrawal",
+      "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+      "results_inspected": [
+        "DSSEP26",
+        "PAD26",
+        "BAC26",
+        "LOW26",
+        "BL26"
+      ],
+      "outcome": "New September positive-characteristic extension checked in primary full text; no matching unrestricted resolution found.",
+      "limitations": "Results listed collectively across A28; nonprimary summaries used only to locate primary papers."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "SUR26",
+      "theorem_locator": "Theorem 5; Theorems 25–26",
+      "claim_type": "structural zero-set theorem and low-order algorithms",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Zero-set finiteness is ineffective in general.",
+        "Effective algorithms impose low order or a restricted characteristic-root configuration."
+      ],
+      "scope_relation": "does not resolve the unrestricted integer recurrence decision problem",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "A general terminating emptiness test does not follow from an ineffective finite description.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "SUR26",
+      "theorem_locator": "Theorem 33",
+      "claim_type": "conditional simple-recurrence decidability",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Simple roots required.",
+        "Both exponential local-global principle and weak p-adic Schanuel are assumed."
+      ],
+      "scope_relation": "does not resolve the unrestricted integer recurrence decision problem",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither simplicity nor unproved number-theoretic assumptions are part of the candidate.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BOW26",
+      "theorem_locator": "Theorem 3.1 and Corollary 3.7",
+      "claim_type": "bounded-horizon and low-order complexity",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Order fixed for bounded coRP result; N supplied in binary.",
+        "Only through order four is an effective unrestricted cutoff supplied here."
+      ],
+      "scope_relation": "does not resolve the unrestricted integer recurrence decision problem",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "An arbitrary finite search gives no halting negative answer for all orders.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "LOW26",
+      "theorem_locator": "Conjecture 4.2, Theorem 4.3; Theorem 5.1/Corollary 5.2; §6",
+      "claim_type": "conditional general algorithm; unconditional sparse exceptional set",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "A strengthened prime-gap conjecture is a hypothesis.",
+        "Unconditional density one is not every index."
+      ],
+      "scope_relation": "does not resolve the unrestricted integer recurrence decision problem",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Checking the universal set cannot decide all exceptional indices; the conjectural route remains conditional.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "DS26",
+      "theorem_locator": "Theorem 1.1",
+      "claim_type": "positive-characteristic decision algorithm",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Finitely generated commutative unitary ring of characteristic T>0, with explicit finite presentation.",
+        "Integer inputs have characteristic zero."
+      ],
+      "scope_relation": "does not resolve the unrestricted integer recurrence decision problem",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Reduction modulo individual integers does not establish a uniform decision procedure over Z.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BV26",
+      "theorem_locator": "v2 Theorem 2 and preceding definitions",
+      "claim_type": "subspace-orbit decidability",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Inherent orbit dimension d; target dimension t≤2 log_3 d.",
+        "Equivalent SimSkolem(d,k) uses k independent nondegenerate sequences with common recurrence; d-k=t."
+      ],
+      "scope_relation": "does not resolve the unrestricted integer recurrence decision problem",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "General hyperplanes have t=d-1, which need not satisfy the bound. Adding zero coordinates does not increase inherent dimension.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BAC26",
+      "theorem_locator": "§1.3 Example 3 and Theorem 4",
+      "claim_type": "prime-power counterexample; conditional simultaneous theorem",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Example refutes a strengthened local-global condition, not existence of every algorithm.",
+        "Theorem 4 assumes p-adic Schanuel and coprime, not weakly degenerate pairs."
+      ],
+      "scope_relation": "does not resolve the unrestricted integer recurrence decision problem",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Duplicating a single recurrence fails coprimality; neither result is an unrestricted resolution.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "LUC26",
+      "theorem_locator": "Theorem 1.1 with §1 definitions",
+      "claim_type": "named special-family resolution",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Lucas-family coefficients and initial values fixed by k.",
+        "Bounds concern L_{-n}^{(k)}, not arbitrary input data."
+      ],
+      "scope_relation": "does not resolve the unrestricted integer recurrence decision problem",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Even correctness of the advertised result would leave the general candidate untouched.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BL26",
+      "theorem_locator": "Theorem 7.1 and proof; §§2,27",
+      "claim_type": "certificate-conditioned algorithm claim",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Computable dominant-term lower bound supplied.",
+        "Dominant zeros must already be effectively controlled; certificate generation expressly incomplete."
+      ],
+      "scope_relation": "does not resolve the unrestricted integer recurrence decision problem",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Fails to claim a complete decision method on every recurrence; no need to adjudicate all internal lemmas to exclude a general-resolution reading.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "DSSEP26",
+      "theorem_locator": "Theorems 1.5–1.6",
+      "claim_type": "A28 recent/related result scope check",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "There exists an integer ell>0 with ell M=0.",
+        "Multidimensional inputs differ from the single integer recurrence."
+      ],
+      "scope_relation": "does not resolve the unrestricted integer recurrence decision problem",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The module Z is not annihilated by any positive integer; the result does not decide the candidate. The separate characteristic-zero module undecidability discussion concerns more general input structures.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "PAD26",
+      "theorem_locator": "Theorems 4–5; Problem 3",
+      "claim_type": "A28 recent/related result scope check",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "p-adic Schanuel is assumed.",
+        "Zeros range over p-adic integers; rational/integer membership is not generally decidable by the algorithm.",
+        "Simultaneous theorem requires coprimality."
+      ],
+      "scope_relation": "does not resolve the unrestricted integer recurrence decision problem",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Computing a p-adic zero does not decide whether it is a nonnegative integer. Repeating the same recurrence in a pair fails the coprimality requirement.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": 273,
+        "distinction": "Real-time c^T exp(tA)x_0=0 for rational ODE data, versus natural-number powers and integer recurrence zeros."
+      },
+      {
+        "candidate_id": "deterministic-polynomial-identity-testing",
+        "distinction": "Polynomial-time finite-circuit identity decision, versus existence of any halting procedure for an unbounded recurrence index."
+      }
+    ],
+    "distinctness_reason": "Retained complete 300-page baseline reading; current 320 metadata and accepted records screened, exclusions searched and page 273 reread. Survey §9.1 expressly treats continuous and discrete problems separately.",
+    "implications_or_equivalences": [
+      "Integer and rational versions equivalent by effective scaling; companion-matrix hyperplane reachability is the same entry.",
+      "General Positivity decidability would imply Skolem via squaring and subtracting one. No extra Positivity or low-order variant counted."
+    ]
+  },
+  "open_status_evidence_summary": "Explicit current formulation in SUR26, independent integer-status assessment in DS26 and September BAC26; all located apparent resolutions have a recorded hypothesis mismatch.",
+  "independent_status_corroboration": "Dong and Shafrir are disjoint from the survey and other main cited authors; their full §1 states the integer problem is open. Multiple arXiv versions are not counted as independent sources. DSSEP26 §1.3 provides a second, September 2026 assessment by the same independent author pair; it is not counted as a third independent team.",
+  "strongest_known_partial_results_and_gap": "Unconditional order≤4; bounded-horizon fixed-order algorithms and restricted root classes. Simple recurrences have conditional algorithms; July 2026 gives conditional general decidability and an unconditional density-one universal set. No general unconditional algorithm or undecidability result located.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Relevant theorem statements and scope inspected, not independent proof certification.",
+    "Original historical problem accessed via expert restatement.",
+    "BOW26 repeated Oxford metadata fetch failed; author-hosted published PDF accessible.",
+    "LUC26 and BL26 used only to compare claimed scope, not as status corroboration.",
+    "Search indexing may lag."
+  ],
+  "second_review": {
+    "arrangement": "Separate adversarial self-pass; no independent agent or human review.",
+    "reviewer_or_pass_identifier": "A28",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A28-1",
+      "A28-2",
+      "A28-3",
+      "A28-4"
+    ],
+    "issues_found": [
+      "Needed latest version: BV26 v2 changes theorem numbering and qualifies complexity.",
+      "New September positive-characteristic extension needed full scope comparison.",
+      "p-adic zero computation and conditional certificate correctness must not be mistaken for total integer decision.",
+      "Retain nonnegative time and unrestricted order; no separate low-order entries."
+    ],
+    "issues_resolved": [
+      "Current v2 Theorem 2 and definitions read; no ambient-dimension padding argument.",
+      "DSSEP26 full Theorems 1.5–1.6 checked; explicit September open status corroborates independently.",
+      "PAD26 full Theorems 4–5 and rationality obstruction read; conjectural dependencies preserved.",
+      "Draft and fingerprint compared with SUR26 Problem 2 and existing 273; integer scaling and loop guard consistent."
+    ],
+    "verdict": "pass"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Research accepted; refresh before later active integration."
+  },
+  "public_page_path": null,
+  "draft_page_path": "research/expansion-2026-09/drafts/discrete-skolem-decidability.md",
+  "validation_results": [
+    "2026-09-17: candidate JSON, source IDs and actual search IDs resolve; all required draft headings and local links checked.",
+    "2026-09-17: all 18 math expressions passed strict KaTeX; rendered statement and applied-significance screenshot visually inspected.",
+    "2026-09-17: catalogue.py --write and --check passed at 320 active entries; git diff --check passed.",
+    "2026-09-17: 32 investigated records, 27 accepted, 20 integrated and seven pending; accepted primary-section counts reconciled.",
+    "2026-09-17: remote main verified at 5425d734cc3b44d840ba4a9ae54c3716a1ce9cb4 immediately before preparing this research push."
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": null,
+    "commit": null,
+    "pull_request_url": null
+  }
+}

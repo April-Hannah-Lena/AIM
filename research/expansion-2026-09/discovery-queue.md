@@ -2,6 +2,10 @@
 
 These leads have not passed the candidate-record requirements and do not increase any accepted or integrated count. Checked/discovered on 2026-09-17. Search IDs refer to `search-log.json`.
 
+Discrete-dynamics follow-up (S177–S180, A28): the integer Skolem decidability problem passed source and separated self-review and moved to an [accepted draft record](candidates/discrete-skolem-decidability.json). Current conditional, low-order, positive-characteristic and special-family results were compared at theorem level. The September 2 Dong–Shafrir extension retains positive-characteristic assumptions. Blanchi's preliminary toric-certificate note explicitly lacks completeness, so it is a scoped claim rather than an unresolved claim to solve the general problem. No additional low-order, local-global or positivity variants were counted.
+
+Other S177 discovery queries concerned heat-flow entropy derivatives, rebellious voter dynamics and Gaussian polynomial independence. They did not establish a new admission. Heat-flow entropy derivatives must not be conflated with the excluded Kac entropy-production conjecture; independent current formulation and corroboration remain necessary.
+
 | Lead | Primary source and reading | Remaining work |
 | --- | --- | --- |
 | Algebraic limit cycles in cubic weakly reversible two-species reaction systems | Craciun–Erban, *Journal of Mathematical Biology* 90 (2025), 64, DOI [10.1007/s00285-025-02221-0](https://doi.org/10.1007/s00285-025-02221-0); arXiv:2406.05057. Definitions and explicit open question in §§4, 6 inspected. Cubic bounds both reactant and product molecularity; algebraic curve degree is unrestricted. | Need independent specialist status corroboration and complete theorem comparison. Quartic algebraic construction and cubic non-algebraic cycles do not answer this question. Same-paper mirrors and talks by its authors are not independent corroboration. S29–S31. |
