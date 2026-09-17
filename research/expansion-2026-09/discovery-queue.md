@@ -79,3 +79,15 @@ Nguyen–Tang, [ZAMP 77 (2026), article 199](https://link.springer.com/article/1
 ## Fair division (S145–S149; 2026-09-17)
 
 - Complete EFX existence for additive goods passed A25 and is an [accepted research draft](candidates/efx-additive-goods.json). Full comparisons distinguish nonadditive and chore counterexamples, PMMS impossibility, restricted exact existence, approximations and epistemic certificates. September 15 EFX-or-MMS results were included. Positive-only and zero-inclusive conventions are one universal-existence family; no active ID yet.
+
+
+## Population persistence and further breadth screening (S150–S166; 2026-09-17)
+
+- Nonamenable Cayley-graph contact-process weak survival passed A26 and is an [accepted research draft](candidates/contact-process-nonamenable-weak-survival.json). One canonical global/local threshold-separation question is counted. Critical endpoint behavior, tree restrictions and local sharpness are not separate additions.
+- Craciun–Erban’s weakly reversible cubic mass-action algebraic-cycle lead remains discovery-only: adequate independent status corroboration was not obtained. The phylogenetic threshold lead at [arXiv:2606.06905](https://arxiv.org/abs/2606.06905) was inspected only at abstract level; no mathematical formulation has been admitted.
+- Swart’s interacting-particle-system notes [arXiv:1703.10007](https://arxiv.org/abs/1703.10007), v5, surfaced a rebellious-voter coexistence lead near parameter one. Exact scope, duplicates and independent status still need investigation.
+- Two-user Gaussian interference-channel capacity and symmetric rendezvous on four locations were screened in S166. They remain discovery-only; no full candidate audit or count is asserted.
+
+## Online packing (S167–S173; 2026-09-17)
+
+The exact optimal deterministic asymptotic ratio for classical online bin packing passed A27 and is an [accepted research draft](candidates/online-bin-packing-optimal-ratio.json). The model allows all rational sizes and an unknown sequence length, with a single irrevocable packing and no time bound. The A27 pass also obtained the published parallel-algorithm metadata and a WADS 2025 restatement of the classical gap. The numerical bounds are not separate entries. Together with contact-process weak survival, this brings the accepted count to 26; six await the next batch integration, and the active catalogue remains 320.

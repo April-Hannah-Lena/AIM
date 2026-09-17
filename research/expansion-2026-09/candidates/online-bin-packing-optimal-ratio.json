@@ -1,0 +1,740 @@
+{
+  "candidate_id": "online-bin-packing-optimal-ratio",
+  "proposed_catalogue_id": null,
+  "title": "Optimal asymptotic competitiveness for online bin packing",
+  "aliases": [
+    "Optimal deterministic online bin-packing ratio",
+    "Classical online bin packing",
+    "Asymptotic online bin-packing performance"
+  ],
+  "primary_section": "stochastic3",
+  "secondary_tags": [
+    "operations research",
+    "online algorithms",
+    "capacity allocation"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Exact classical formulation, two independent contemporary status sources, full relevant theorem comparisons and separated A27 self-pass; no matching unresolved claim found.",
+  "problem_fingerprint": {
+    "model_or_objects": "One-dimensional bin packing, unit bins and sequential rational items.",
+    "dimension": "One scalar capacity constraint.",
+    "domain": "All finite rational sequences in (0,1], no announced length.",
+    "regularity_and_data_class": "Arbitrary input sizes and order; no fixed finite size alphabet.",
+    "boundary_or_initial_conditions": "Initially all bins empty; unlimited bins.",
+    "parameter_range": "Unbounded sequence length and offline optimum.",
+    "quantifiers": "Infimum over single deterministic online algorithms of their worst-case asymptotic ratios over all inputs.",
+    "normalization": "Bin capacity 1 for online and offline algorithms alike.",
+    "observable_or_norm": "Number of nonempty online bins / minimum offline bin count.",
+    "limit_regime_and_order": "For each algorithm take N→infinity of sup over OPT≥N, then infimum over algorithms.",
+    "requested_conclusion": "Determine exact R_*.",
+    "computational_model_and_dependencies": "No time bound, forecasts, advice, repacking, resource augmentation, stochastic-input restriction or best-of-k selection. No assumption infimum attained."
+  },
+  "statement_source_and_scope_match": "UB §1 fixes the rational-input model and exact limit definition. HP26 §4 explicitly calls the canonical problem open; GU25 §§1.1–1.3 and EL25 §1 identify the remaining unrestricted asymptotic gap. R_* is notation for the best possible ratio described there, not a newly proposed bound.",
+  "proposed_statement_text": "Determine inf_A lim_{N→∞} sup_{I:OPT(I)≥N} A(I)/OPT(I) for deterministic irrevocable online packing of arbitrary rational items in (0,1] into unit bins, with no advance input information.",
+  "applied_significance": "Worst-case excess capacity resources caused by irrevocable allocation under unknown future demand; LB §1 gives storage and cutting-stock origins. Applications are idealized scalar-capacity models.",
+  "application_evidence_source_ids": [
+    "LB",
+    "GU25"
+  ],
+  "source_records": [
+    {
+      "source_id": "UB",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "János Balogh",
+        "József Békési",
+        "György Dósa",
+        "Leah Epstein",
+        "Asaf Levin"
+      ],
+      "title": "A New and Improved Algorithm for Online Bin Packing",
+      "venue_or_repository": "ESA 2018, LIPIcs 112, 5:1–5:14; arXiv:1707.01728",
+      "publication_type": "published conference paper and full manuscript",
+      "publication_date": "2018-08-14",
+      "latest_version_date": "2017-07-06",
+      "identifier": "https://arxiv.org/abs/1707.01728",
+      "version": "arXiv v1 dated 2017-07-06",
+      "stable_url": "https://arxiv.org/abs/1707.01728",
+      "locator": "§1; Appendix B, Theorem 25, p. 38",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§1 model and ratio; ESA §1; full Theorem 25 and its table context; arXiv history and Dagstuhl metadata"
+      ],
+      "supported_claim": "Rational-item model and asymptotic definition; AH upper bound 1.57828956.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Computer-assisted proof calculations not independently reproduced; conference DOI 10.4230/LIPIcs.ESA.2018.5."
+    },
+    {
+      "source_id": "LB",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "János Balogh",
+        "József Békési",
+        "György Dósa",
+        "Leah Epstein",
+        "Asaf Levin"
+      ],
+      "title": "A New Lower Bound for Classic Online Bin Packing",
+      "venue_or_repository": "Algorithmica 83(7) (2021), 2047–2062; arXiv:1807.05554",
+      "publication_type": "published journal article; author manuscript",
+      "publication_date": "2021-07",
+      "latest_version_date": "2018-07-15",
+      "identifier": "https://arxiv.org/abs/1807.05554",
+      "version": "arXiv v1 dated 2018-07-15",
+      "stable_url": "https://arxiv.org/abs/1807.05554",
+      "locator": "§1; Theorem 9, p. 12",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full introduction, rational sizes and adaptive input model; Theorem 9 and its algebraic proof; arXiv history; author institutional publication record"
+      ],
+      "supported_claim": "Universal deterministic asymptotic lower bound (1363-sqrt(1387369))/120. Introduction records data-storage and cutting-stock origins.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Theorem numbering from arXiv; publication metadata verified at https://cris.haifa.ac.il/en/publications/a-new-lower-bound-for-classic-online-bin-packing/ (DOI 10.1007/s00453-021-00818-7)."
+    },
+    {
+      "source_id": "GU25",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Matthias Gehnen",
+        "Andreas Usdenski"
+      ],
+      "title": "Online Bin Packing with Item Size Estimates",
+      "venue_or_repository": "arXiv:2505.09321",
+      "publication_type": "preprint",
+      "publication_date": "2025-05-14",
+      "latest_version_date": "2025-05-14",
+      "identifier": "https://arxiv.org/abs/2505.09321",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/abs/2505.09321",
+      "locator": "§§1–1.3, Definitions 2–4; Theorem 7 p. 9 and Theorem 12 p. 11",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full introduction and classical-bound discussion; estimates and ratio definitions; Theorems 7 and 12; version history"
+      ],
+      "supported_claim": "Independent current classical gap; stronger guarantees use foreknowledge of estimated item sizes and/or a restricted input class.",
+      "independent_of_source_ids": [
+        "UB",
+        "LB"
+      ],
+      "access_limitations": null
+    },
+    {
+      "source_id": "HP26",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Julien Herrmann",
+        "Guillaume Pallez"
+      ],
+      "title": "An In-depth Study of LLM Contributions to the Bin Packing Problem",
+      "venue_or_repository": "arXiv:2510.27353; accepted in ACM Transactions on Evolutionary Learning and Optimization",
+      "publication_type": "accepted manuscript",
+      "publication_date": "2026-06-17",
+      "latest_version_date": "2026-06-17",
+      "identifier": "https://arxiv.org/abs/2510.27353",
+      "version": "v2; v1 2025-10-31",
+      "stable_url": "https://arxiv.org/abs/2510.27353",
+      "locator": "§4 opening, p. 12",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "v1 §§1–3.1 and §4 opening; v2 title and §4 opening; current history and accepted-publication metadata"
+      ],
+      "supported_claim": "Explicit canonical open-problem statement distinguishes heuristic experiments on uniform/Weibull inputs.",
+      "independent_of_source_ids": [
+        "UB",
+        "LB",
+        "GU25"
+      ],
+      "access_limitations": "Uses author's accepted-publication label, not an independently verified volume/page assignment. Related DOI 10.1145/3821574."
+    },
+    {
+      "source_id": "ABS",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "János Balogh",
+        "József Békési",
+        "György Dósa",
+        "Jiří Sgall",
+        "Rob van Stee"
+      ],
+      "title": "The optimal absolute ratio for online bin packing",
+      "venue_or_repository": "SODA 2015, 1425–1438",
+      "publication_type": "published conference paper; author PDF",
+      "publication_date": "2015",
+      "latest_version_date": "2015",
+      "identifier": "https://iuuk.mff.cuni.cz/~sgall/ps/below.pdf",
+      "version": "conference manuscript",
+      "stable_url": "https://iuuk.mff.cuni.cz/~sgall/ps/below.pdf",
+      "locator": "§1 equations (1.1)–(1.2); §2; Theorems 4.1, 5.4, 6.14, 6.15",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Model and two ratio definitions; full 18-item lower-bound construction; three-case theorem statements and main Theorem 6.15"
+      ],
+      "supported_claim": "Optimal absolute ratio 5/3; includes small OPT instances that do not establish an asymptotic lower bound.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Later journal version JCSS 102 (2019), 1–17, DOI 10.1016/j.jcss.2018.11.005 identified; theorem numbering here is from conference PDF."
+    },
+    {
+      "source_id": "STO",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Nikhil Ayyadevara",
+        "Rajni Dabas",
+        "Arindam Khan",
+        "K. V. N. Sreenivas"
+      ],
+      "title": "Near-Optimal Algorithms for Stochastic Online Bin Packing",
+      "venue_or_repository": "ICALP 2022, LIPIcs 229, 12:1–12:20",
+      "publication_type": "published conference paper",
+      "publication_date": "2022",
+      "latest_version_date": "2022",
+      "identifier": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol229-icalp2022/LIPIcs.ICALP.2022.12/LIPIcs.ICALP.2022.12.pdf",
+      "version": "published PDF",
+      "stable_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol229-icalp2022/LIPIcs.ICALP.2022.12/LIPIcs.ICALP.2022.12.pdf",
+      "locator": "§1 expected competitive ratio, §1.1 Theorem 1 and Corollary 2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Input models, ratio of expectations, full Theorem 1 and Corollary 2, §2 opening"
+      ],
+      "supported_claim": "Near-optimal guarantee for iid samples from unknown F, not an arbitrary adversarial sequence.",
+      "independent_of_source_ids": [
+        "UB",
+        "LB"
+      ],
+      "access_limitations": null
+    },
+    {
+      "source_id": "PAR",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Sándor P. Fekete",
+        "Jonas Grosse-Holz",
+        "Phillip Keldenich",
+        "Arne Schmidt"
+      ],
+      "title": "Parallel Online Algorithms for the Bin Packing Problem",
+      "venue_or_repository": "arXiv:1910.03249; Algorithmica 85 (2023), 296–323",
+      "publication_type": "published article; earlier manuscript",
+      "publication_date": "2022-09-03",
+      "latest_version_date": "2022-09-03",
+      "identifier": "https://arxiv.org/abs/1910.03249",
+      "version": "arXiv v1 2019-10-08; journal metadata and model checked",
+      "stable_url": "https://arxiv.org/abs/1910.03249",
+      "locator": "§2.1 and Lemma 1; Theorem 7; §4.2 (arXiv numbering)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§§1.1–1.3; best-of-k definition and advice Lemma 1; full Theorem 7; §4.2 construction opening; journal model, metadata and concluding proof"
+      ],
+      "supported_claim": "Parallel performance selects minimum cost among k different packings; no single irrevocable packing obtains this guarantee.",
+      "independent_of_source_ids": [
+        "UB",
+        "LB"
+      ],
+      "access_limitations": "Older numerical prose in arXiv §4 is stale relative to its introduction; no such numerical assertion is used. Journal DOI 10.1007/s00453-022-01030-x."
+    },
+    {
+      "source_id": "CYS",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Lin Chen",
+        "Deshi Ye",
+        "Guochuan Zhang"
+      ],
+      "title": "An Asymptotic Competitive Scheme for Online Bin Packing",
+      "venue_or_repository": "COCOA 2014, LNCS 8881, 13–24",
+      "publication_type": "published conference chapter; publisher-formatted preview",
+      "publication_date": "2014",
+      "latest_version_date": "2014",
+      "identifier": "https://bilder.buecher.de/zusatz/41/41529/41529386_lese_1.pdf",
+      "version": "conference version",
+      "stable_url": "https://bilder.buecher.de/zusatz/41/41529/41529386_lese_1.pdf",
+      "locator": "§1 Theorem 1 p. 14; §2 integer-size definitions",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full theorem, model, general-idea discussion, §2 definitions and §3 opening"
+      ],
+      "supported_claim": "Competitive scheme is within O(epsilon) of unknown optimum for finite integer size alphabet; no exact unrestricted constant.",
+      "independent_of_source_ids": [
+        "UB",
+        "LB"
+      ],
+      "access_limitations": "Journal version TCS 607(3) (2015), 446–454, DOI 10.1016/j.tcs.2015.04.038 located at publisher abstract level; full conference theorem substitutes. Chapter DOI 10.1007/978-3-319-12691-3_2."
+    },
+    {
+      "source_id": "CC",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "János Balogh",
+        "József Békési",
+        "György Dósa",
+        "Leah Epstein",
+        "Asaf Levin"
+      ],
+      "title": "Online bin packing with cardinality constraints resolved",
+      "venue_or_repository": "arXiv:1608.06415; JCSS 112 (2020), 34–49",
+      "publication_type": "published article; earlier manuscript",
+      "publication_date": "2020-09",
+      "latest_version_date": "2016-08-23",
+      "identifier": "https://arxiv.org/abs/1608.06415",
+      "version": "arXiv v1 2016-08-23",
+      "stable_url": "https://arxiv.org/abs/1608.06415",
+      "locator": "§1; §4 Theorem 5 and limit immediately preceding it; Theorems 6–7",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Definitions, intro, complete Theorem 5 and its k-to-infinity context; Theorems 6–7; current metadata"
+      ],
+      "supported_claim": "Overall ratio 2 with maximum k items per bin; cardinality remains an additional constraint for each finite k.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Uses arXiv theorem numbering; journal DOI 10.1016/j.jcss.2020.03.002."
+    },
+    {
+      "source_id": "EL25",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Leah Epstein",
+        "Asaf Levin"
+      ],
+      "title": "Lower Bounds for Several Standard Bin Packing Algorithms in the Random Order Model",
+      "venue_or_repository": "WADS 2025, LIPIcs 349, 26:1–26:15",
+      "publication_type": "published conference paper",
+      "publication_date": "2025",
+      "latest_version_date": "2025",
+      "identifier": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol349-wads2025/LIPIcs.WADS.2025.26/LIPIcs.WADS.2025.26.pdf",
+      "version": "published PDF",
+      "stable_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol349-wads2025/LIPIcs.WADS.2025.26/LIPIcs.WADS.2025.26.pdf",
+      "locator": "§1 pp. 26:1–26:2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Title and authors; asymptotic/absolute definitions and explicit worst-case interval; random-order definition"
+      ],
+      "supported_claim": "Recent specialist paper retains classical interval [1.54278,1.57829].",
+      "independent_of_source_ids": [],
+      "access_limitations": "Not independent of the authors of UB and LB; independent corroboration instead comes from GU25 and HP26."
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S167-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"online bin packing\" \"optimal\" \"competitive ratio\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S167-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"online bin packing\" \"open problem\" \"2025\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S167-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"online bin packing\" \"1.54\" \"1.57\" survey",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S168-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"A New and Improved Algorithm for Online Bin Packing\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S168-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"bin packing\" \"1.54278\" lower bound",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S168-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"An In-depth Study of LLM Contributions to the Bin Packing Problem\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S169-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"online bin packing\" \"optimal competitive ratio\" \"open problem\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S169-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"online bin packing\" \"1.57829\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S169-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"online bin packing\" \"optimal\" \"breakthrough\" 2025 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S170-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"online bin packing\" \"optimal asymptotic competitive ratio\" open",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S170-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Balogh\" \"Békési\" \"bin packing\" correction erratum 1.57829 1.54278",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S170-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"online bin packing\" \"competitive ratio\" improved 2026 2025 deterministic",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S171-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"The optimal absolute ratio for online bin packing\" pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S171-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Near-optimal Algorithms for Stochastic Online Bin Packing\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S172-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"online bin packing\" \"asymptotic\" solved resolution proof counterexample 2026 2025",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S172-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"optimal online bin packing\" proved disproof refutation",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S172-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Balogh\" \"Békési\" \"Epstein\" \"bin packing\" erratum correction withdrawn",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S172-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Gehnen\" \"Usdenski\" \"Item Size Estimates\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S173-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"A new lower bound for classic online bin packing\" \"2021\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S173-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Leah Epstein\" \"bin packing\" \"publications\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S173-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"online bin packing\" \"1.57828956\" correction",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "S173-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"An asymptotic competitive scheme for online bin packing\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Online bin-packing formulation and resolution checks"
+    },
+    {
+      "search_id": "A27-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"online bin packing\" \"asymptotic competitive ratio\" \"optimal\" 2026 proof",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for optimal online bin-packing ratio"
+    },
+    {
+      "search_id": "A27-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"online bin packing\" \"1.54278\" \"1.57829\" 2025 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for optimal online bin-packing ratio"
+    },
+    {
+      "search_id": "A27-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Advanced Harmonic\" \"bin packing\" correction erratum counterexample",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for optimal online bin-packing ratio"
+    },
+    {
+      "search_id": "A27-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"asymptotic competitive scheme\" \"bin packing\" \"optimal\" Chen Ye Zhang",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for optimal online bin-packing ratio"
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "UB",
+      "theorem_locator": "Theorem 25, p. 38",
+      "claim_type": "upper bound",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same online model and asymptotic objective.",
+        "Explicit algorithm AH with ratio at most 1.57828956."
+      ],
+      "scope_relation": "does not resolve the exact unrestricted asymptotic constant",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not meet the known lower bound; not claimed optimal.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "LB",
+      "theorem_locator": "Theorem 9, p. 12",
+      "claim_type": "lower bound",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Adaptive adversary against any deterministic algorithm.",
+        "Same rational-item model and OPT→infinity objective."
+      ],
+      "scope_relation": "does not resolve the exact unrestricted asymptotic constant",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Exact algebraic lower bound remains below AH upper bound.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "ABS",
+      "theorem_locator": "§1 equations (1.1)–(1.2), §2, Theorem 6.15",
+      "claim_type": "nearby solved optimization problem",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Input and deterministic decision model coincide.",
+        "Absolute supremum includes small OPT; explicit lower construction uses at most 18 items."
+      ],
+      "scope_relation": "does not resolve the exact unrestricted asymptotic constant",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Cannot promote small-instance 5/3 to asymptotic lower bound. AH itself has a smaller asymptotic ratio.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "STO",
+      "theorem_locator": "§1.1 Theorem 1 and Corollary 2",
+      "claim_type": "near-optimal stochastic guarantee",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Unknown F and n, but independent identically distributed inputs.",
+        "Cost guarantee uses ratio of expected costs."
+      ],
+      "scope_relation": "does not resolve the exact unrestricted asymptotic constant",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No worst-case deterministic-input guarantee follows.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "GU25",
+      "theorem_locator": "Definition 3, Theorems 7 and 12",
+      "claim_type": "improvement with extra information",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "All size estimates and accuracy delta supplied before arrivals.",
+        "Theorem 7 needs delta≤1/35; Theorem 12 additionally restricts inputs so at most two items fit."
+      ],
+      "scope_relation": "does not resolve the exact unrestricted asymptotic constant",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Extra information / restricted class absent from catalogue formulation.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "PAR",
+      "theorem_locator": "§2.1, Lemma 1, Theorem 7, §4.2",
+      "claim_type": "parallel/advice improvement",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Best cost chosen from k complete distinct online packings.",
+        "Advice lemma explicitly encodes which algorithm succeeds."
+      ],
+      "scope_relation": "does not resolve the exact unrestricted asymptotic constant",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Cannot exchange per-input min over packings with choice of a single universally best algorithm.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CYS",
+      "theorem_locator": "Theorem 1 and §2",
+      "claim_type": "competitive-ratio approximation scheme",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Integer sizes 1,…,B; polynomial time only asserted for fixed B.",
+        "Guarantee rho*+O(epsilon), retaining unknown rho*."
+      ],
+      "scope_relation": "does not resolve the exact unrestricted asymptotic constant",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "An approximation scheme does not supply exact R_* or a matching numeric lower/upper bound.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CC",
+      "theorem_locator": "§4 Theorem 5 with preceding limit",
+      "claim_type": "resolved cardinality-constrained model",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Unit capacity AND at most k items in each bin.",
+        "Overall lower bound tends to 2 as k→infinity."
+      ],
+      "scope_relation": "does not resolve the exact unrestricted asymptotic constant",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Removing the cardinality constraint is not justified by taking k→infinity after a worst-case optimization.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": 286,
+        "distinction": "Fixed mobile servers, metric distance cost; not unit-bin count."
+      },
+      {
+        "id": 289,
+        "distinction": "Offline assignment on fixed unrelated machines with makespan objective."
+      },
+      {
+        "id": 312,
+        "distinction": "Exact precedence feasibility on three fixed processors, not online bin count."
+      }
+    ],
+    "distinctness_reason": "Baseline full reading retained; current metadata, accepted drafts and exclusions re-screened. Closest 286,289,312 pages reread. No bin-packing entry. One universal optimal-ratio question; no algorithm-specific or random-order variants counted.",
+    "implications_or_equivalences": [
+      "Absolute performance and stochastic/parallel/advice models recorded as related results, not equivalent targets."
+    ]
+  },
+  "open_status_evidence_summary": "GU25 and EL25 retain nonmatching lower/upper constants; HP26 explicitly treats canonical online packing as open. Current exact-name, model, author and resolution searches yielded no unrestricted matching resolution.",
+  "independent_status_corroboration": "GU25 and HP26 have disjoint authors from UB/LB and each other. EL25 repeats the original authors and is supplementary, not independent corroboration.",
+  "strongest_known_partial_results_and_gap": "(1363-sqrt(1387369))/120≈1.5427809064729 ≤ R_* ≤1.57828956; exact value unknown in checked literature.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "No independent proof certification or rerun of AH computer calculations.",
+    "The 2026 small-cardinality paper DOI 10.1016/j.tcs.2026.115774 was inspected through primary indexed text but full open failed; it is not decisive evidence. The prior full cardinality theorem is checked in CC.",
+    "CYS journal full text unavailable; full conference theorem read instead.",
+    "Author publication list at https://math.haifa.ac.il/lea/papers.htm is stale; current arXiv histories, publisher and institutional metadata supplemented it.",
+    "Search indexing can lag; absence of hits is not a proof of openness."
+  ],
+  "second_review": {
+    "arrangement": "Separate adversarial self-pass; no independent agent or human review.",
+    "reviewer_or_pass_identifier": "A27",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A27-1",
+      "A27-2",
+      "A27-3",
+      "A27-4"
+    ],
+    "issues_found": [
+      "Absolute versus asymptotic quantifier mismatch is the main false-resolution hazard.",
+      "Finite-size alphabet scheme, estimates, parallel min and stochastic expectations can appear to beat the classical lower bound.",
+      "Draft's related 286 filename was initially incorrect."
+    ],
+    "issues_resolved": [
+      "Rational input and limit order copied in scope from UB; no polynomial-time or attained-infimum assertion added.",
+      "Full relevant theorem comparisons recorded; new A27 WADS source confirms interval and journal PAR metadata checked.",
+      "Corrected link to 286-deterministic-k-server.md."
+    ],
+    "verdict": "pass"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Research draft accepted; refresh before later active integration."
+  },
+  "public_page_path": null,
+  "draft_page_path": "research/expansion-2026-09/drafts/online-bin-packing-optimal-ratio.md",
+  "validation_results": [
+    "2026-09-17: candidate JSON parsed; source IDs and actual search IDs resolve.",
+    "2026-09-17: required headings and local draft links checked.",
+    "2026-09-17: all 16 math expressions rendered with strict KaTeX, zero errors; statement screenshot visually inspected.",
+    "2026-09-17: python3 scripts/catalogue.py --write and --check passed at 320 active entries; git diff --check passed.",
+    "2026-09-17: 31 candidate records, 26 accepted and coverage counts reconciled."
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": null,
+    "commit": null,
+    "pull_request_url": null
+  }
+}

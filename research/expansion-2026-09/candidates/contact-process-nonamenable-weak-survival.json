@@ -1,0 +1,828 @@
+{
+  "candidate_id": "contact-process-nonamenable-weak-survival",
+  "proposed_catalogue_id": null,
+  "title": "Weak survival of the contact process on nonamenable Cayley graphs",
+  "aliases": [
+    "Nonamenable-group contact-process weak phase",
+    "Separation of global and local contact-process critical values",
+    "Intermediate contact-process survival phase"
+  ],
+  "primary_section": "stochastic2",
+  "secondary_tags": [
+    "spatial epidemics",
+    "population persistence",
+    "homogeneous networks"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit Cayley formulation and independent specialist corroboration; exact-scope resolution comparisons and separated A26 self-pass completed. Await later batch refresh.",
+  "problem_fingerprint": {
+    "model_or_objects": "Ordinary one-type continuous-time contact process on an undirected Cayley graph.",
+    "dimension": "No Euclidean dimension; arbitrary infinite finitely generated group.",
+    "domain": "Every finite symmetric generating set excluding the identity, with positive edge Cheeger constant.",
+    "regularity_and_data_class": "Homogeneous isotropic nearest-neighbor infection, no disorder, avoidance or additional species.",
+    "boundary_or_initial_conditions": "Initially only group identity infected; infinite graph, no boundary.",
+    "parameter_range": "lambda>0; generating set finite.",
+    "quantifiers": "For every specified nonamenable Cayley graph, the global critical infection rate is strictly below the local one.",
+    "normalization": "Recovery 1; infection lambda per infected neighbor, not lambda divided by degree.",
+    "observable_or_norm": "Positive probability of never-empty infection versus positive probability of infections at the origin at arbitrarily large times.",
+    "limit_regime_and_order": "Infinite graph fixed first; time tends to infinity. No finite-network limit.",
+    "requested_conclusion": "lambda_g(G)<lambda_l(G).",
+    "computational_model_and_dependencies": "Unconditional mathematical existence of a weak-survival interval; no algorithmic or critical-endpoint assertion."
+  },
+  "statement_source_and_scope_match": "LA06 slide 31 explicitly poses the finitely generated nonamenable group problem after defining isotropic rates; LY00 p. 34 poses the broader transitive version. SWNOTE equation (3) and p. 3 corroborate the Cayley model with fixed infection and variable death. Time rescaling reverses the threshold inequality without changing strictness.",
+  "proposed_statement_text": "For every nonamenable Cayley graph from a finite symmetric generating set, must the ordinary contact process have strictly separated global and local survival thresholds?",
+  "applied_significance": "Idealized SIS network epidemics and population persistence can persist globally without returning to monitored sites. The significance is foundational infinite-network behavior, not a finite-data forecast.",
+  "application_evidence_source_ids": [
+    "LA06",
+    "SW09"
+  ],
+  "source_records": [
+    {
+      "source_id": "LY00",
+      "authors": [
+        "Russell Lyons"
+      ],
+      "title": "Phase Transitions on Nonamenable Graphs",
+      "venue_or_repository": "Journal of Mathematical Physics 41 (2000), 1099–1126",
+      "publication_type": "published survey; author revision",
+      "publication_date": "2000",
+      "latest_version_date": "2000-07-11",
+      "identifier": "10.1063/1.533179",
+      "version": "Author revision of 11 July 2000",
+      "stable_url": "https://rdlyons.pages.iu.edu/pdf/review.pdf",
+      "locator": "§2 and §8, pp. 31–34; Theorems 8.1, 8.6, 8.7 and intervening question",
+      "sections_actually_read": [
+        "Title, graph definitions, full §8"
+      ],
+      "supported_claim": "Explicit transitive-graph question; regular-tree and quantitative-expansion partial results; precise restatement of bounded-degree nonamenable tree counterexamples.",
+      "access_limitations": "Original Schonmann and Pemantle–Stacey papers were not accessible; this full expert restatement substitutes for them.",
+      "role": "formulation, independent status or theorem-scope comparison",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "independent_of_source_ids": []
+    },
+    {
+      "source_id": "LA06",
+      "authors": [
+        "Steven P. Lalley"
+      ],
+      "title": "The weak/strong survival transition on trees and nonamenable graphs",
+      "venue_or_repository": "Author-hosted lecture slides",
+      "publication_type": "expert lecture",
+      "publication_date": "2006-09-04",
+      "latest_version_date": "2006-09-04",
+      "identifier": null,
+      "version": "77-slide PDF",
+      "stable_url": "https://galton.uchicago.edu/~lalley/Talks/kyoto.pdf",
+      "locator": "Slides 6–9, 22–31; conjecture on slide 31",
+      "sections_actually_read": [
+        "Title/date; nonamenability and BRW comparison; contact rates, isotropy, tree theorems and explicit conjecture"
+      ],
+      "supported_claim": "Independent explicit Cayley-group weak-phase conjecture, including isotropic rates.",
+      "access_limitations": "Slides are distinct from the ICM proceedings article; the latter was not treated as containing the same explicit conjecture.",
+      "role": "formulation, independent status or theorem-scope comparison",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "independent_of_source_ids": [
+        "LY00",
+        "SWNOTE"
+      ]
+    },
+    {
+      "source_id": "SWNOTE",
+      "authors": [
+        "Jan M. Swart"
+      ],
+      "title": "Sharpness of the phase transition for local survival",
+      "venue_or_repository": "Jan’s open problems; author-hosted note",
+      "publication_type": "specialist problem note",
+      "publication_date": null,
+      "latest_version_date": null,
+      "identifier": null,
+      "version": "Undated four-page PDF retrieved 2026-09-17",
+      "stable_url": "https://staff.utia.cas.cz/swart/problems/locsharp.pdf",
+      "locator": "pp. 1–3, especially p. 3 'What is conjectured'",
+      "sections_actually_read": [
+        "All four pages, including model, Conjecture 1, Theorem 2, separate amenability question and bibliography"
+      ],
+      "supported_claim": "Independent statement of conjectural equality of local/global death thresholds exactly on amenable groups; Cayley nearest-neighbor model in (3).",
+      "access_limitations": "Web fetch failed, but public PDF downloaded with curl and full text extracted locally. No document date; crawl time is not a publication date.",
+      "role": "formulation, independent status or theorem-scope comparison",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "independent_of_source_ids": [
+        "LY00",
+        "LA06"
+      ]
+    },
+    {
+      "source_id": "SW09",
+      "authors": [
+        "Jan M. Swart"
+      ],
+      "title": "The contact process seen from a typical infected site",
+      "venue_or_repository": "Journal of Theoretical Probability 22(3) (2009), 711–740; arXiv",
+      "publication_type": "published article; author manuscript",
+      "publication_date": "2009",
+      "latest_version_date": "2008-08-28",
+      "identifier": "arXiv:math/0507578; 10.1007/s10959-008-0184-4",
+      "version": "arXiv v5",
+      "stable_url": "https://arxiv.org/abs/math/0507578",
+      "locator": "§§1.1–1.3, equations (1.1), (1.7), Theorem 1.2 and Corollary 1.3",
+      "sections_actually_read": [
+        "Model and irreducibility assumptions; full main statements; proof of Corollary 1.3; current version history"
+      ],
+      "supported_claim": "Critical global extinction for irreducible contact processes on nonamenable groups, not separation from local criticality.",
+      "access_limitations": "Full proof of Theorem 1.2 not independently verified.",
+      "role": "formulation, independent status or theorem-scope comparison",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "independent_of_source_ids": []
+    },
+    {
+      "source_id": "HU19",
+      "authors": [
+        "Xiangying Huang"
+      ],
+      "title": "Exponential growth and continuous phase transitions for the contact process on trees",
+      "venue_or_repository": "arXiv",
+      "publication_type": "arXiv manuscript",
+      "publication_date": "2019-11-08",
+      "latest_version_date": "2019-12-11",
+      "identifier": "arXiv:1911.03330",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/abs/1911.03330",
+      "locator": "§1, periodic-tree definition and Theorem 7, manuscript pp. 4–5",
+      "sections_actually_read": [
+        "§1 through Theorem 7; §2 opening and threshold definitions; current version history"
+      ],
+      "supported_claim": "Strict gap on periodic trees; tree geometry is an explicit assumption.",
+      "access_limitations": "Uses manuscript theorem numbering; publication DOI discovered but publisher text unavailable.",
+      "role": "formulation, independent status or theorem-scope comparison",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "independent_of_source_ids": []
+    },
+    {
+      "source_id": "SW26",
+      "authors": [
+        "Jan M. Swart"
+      ],
+      "title": "Percolation representations of additive particle systems",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-05-13",
+      "latest_version_date": "2026-09-02",
+      "identifier": "arXiv:2605.13371",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2605.13371v2",
+      "locator": "§§1.1–1.6, equation (1.4), Theorem 6",
+      "sections_actually_read": [
+        "Full relevant setup and main theorem; distributive-lattice extensions and two-stage example; current metadata"
+      ],
+      "supported_claim": "Minimal additive extensions give graphical representations; no conclusion separating survival thresholds.",
+      "access_limitations": "Not used as evidence of current openness; theorem-scope check only.",
+      "role": "formulation, independent status or theorem-scope comparison",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "independent_of_source_ids": []
+    },
+    {
+      "source_id": "LA02",
+      "authors": [
+        "Steven P. Lalley"
+      ],
+      "title": "Correction: Growth profile and invariant measures for the weakly supercritical contact process on a homogeneous tree",
+      "venue_or_repository": "Annals of Probability 30(4) (2002), 2108–2112",
+      "publication_type": "published correction",
+      "publication_date": "2002",
+      "latest_version_date": "2002",
+      "identifier": null,
+      "version": "Author-hosted published PDF",
+      "stable_url": "https://www.stat.uchicago.edu/~lalley/Papers/AOP122.pdf",
+      "locator": "p. 2108, corrected Theorem 3′ and surrounding discussion",
+      "sections_actually_read": [
+        "Full five-page correction"
+      ],
+      "supported_claim": "Repairs a strict-growth assertion for a hitting-probability exponent on homogeneous trees; does not assert a general Cayley-graph threshold theorem.",
+      "access_limitations": "No independent proof certification; correction scope is what was checked.",
+      "role": "formulation, independent status or theorem-scope comparison",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "independent_of_source_ids": []
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S152-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"nonamenable\" \"conjecture\" \"weak survival\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Broader biology and stochastic-network discovery"
+    },
+    {
+      "search_id": "S152-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"open problems\" \"2025\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Broader biology and stochastic-network discovery"
+    },
+    {
+      "search_id": "S152-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"algebraic limit cycle\" \"weakly reversible\" \"cubic\" -site:scirate.com -site:researchgate.net -site:mardi4nfdi.de",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Broader biology and stochastic-network discovery"
+    },
+    {
+      "search_id": "S153-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"nonamenable\" \"open\" \"survival\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S153-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"non-amenable\" conjecture solved counterexample 2026 2025",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S153-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Lalley\" \"weak survival phase\" conjecture proof",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S153-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"lambda_1\" \"lambda_2\" \"conjecture\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S154-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"nonamenable\" \"conjectured\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S154-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"weak survival\" \"nonamenable\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S154-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"weak survival\" \"nonamenable\" \"2025\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S154-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"non-amenable\" \"open problem\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S155-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"nonamenable\" \"Schonmann\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S155-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"weak survival phase\" conjecture -site:researchgate.net -site:scirate.com",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S155-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Probability on Graphs\" \"contact process\" \"conjecture\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S155-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Swart\" \"contact process\" \"nonamenable\" \"2024\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S156-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "Steven Lalley 2006 weak strong survival transition trees nonamenable graphs pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S156-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "Russell Lyons phase transitions nonamenable graphs 2000 pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S156-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"weak survival\" \"nonamenable\" proof solved resolution counterexample disproof refutation",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S157-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"The contact process seen from a typical infected site\" arxiv",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S157-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Pemantle\" \"Stacey\" \"nonamenable\" contact process 2001",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S157-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Schonmann\" \"2000\" \"contact\" \"nonamenable\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S157-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"Cayley\" \"weak survival\" 2026 2025",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S158-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "Pemantle Stacey contact process trees one phase transition nonamenable 2001",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S158-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "Roberto Schonmann contact process transitive graph isoperimetric 2000",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S158-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"nonamenable\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S158-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"nonamenable\" \"2025\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S159-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"The Branching Random Walk and Contact Process on Galton-Watson\" pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S159-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Multiplicity of Phase Transitions\" \"Schonmann\" pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S160-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"A Course in Interacting Particle Systems\" Swart 2026 pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S160-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"nonamenable\" \"conjecture\" proof correction",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S160-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Pemantle\" \"Stacey\" \"Theorem 1.4\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S161-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Swart\" \"A Course in Interacting Particle Systems\" arxiv",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S161-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"Cayley graphs\" \"weak\" \"open\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S162-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"stacey.pdf\" \"Pemantle\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S162-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"1015345762\" pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S162-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"branching random walk and contact process\" \"Theorem 2.4\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S163-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"nonamenable\" \"conjecture\" 2025 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S163-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"Cayley\" \"weak survival\" open",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S163-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"nonamenable\" \"phase transitions\" solved correction",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S164-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"non-amenable\" \"open\" \"2024\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S164-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"Cayley graphs\" \"conjecture\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S164-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Lyons\" \"contact process\" \"weak survival\" correction proof",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S164-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"degree-penalized contact processes\" arxiv",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process weak-survival formulation and resolution review"
+    },
+    {
+      "search_id": "S165-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Pemantle\" \"Stacey\" \"contact\" \"correction\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process source identities, corrections and publication checks"
+    },
+    {
+      "search_id": "S165-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Swart\" \"nonamenable\" \"contact\" \"erratum\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process source identities, corrections and publication checks"
+    },
+    {
+      "search_id": "S165-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Huang\" \"Exponential growth\" \"contact\" journal",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Contact-process source identities, corrections and publication checks"
+    },
+    {
+      "search_id": "A26-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"nonamenable\" proof solved counterexample refutation",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for nonamenable contact-process weak survival"
+    },
+    {
+      "search_id": "A26-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"Cayley\" \"two phase transitions\" 2025 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for nonamenable contact-process weak survival"
+    },
+    {
+      "search_id": "A26-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"weak survival\" \"Lalley\" \"Swart\" conjecture resolution",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for nonamenable contact-process weak survival"
+    },
+    {
+      "search_id": "A26-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"non-amenable\" \"critical values\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for nonamenable contact-process weak survival"
+    },
+    {
+      "search_id": "A26-5",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"weak survival\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for nonamenable contact-process weak survival"
+    },
+    {
+      "search_id": "A26-6",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"nonamenable\" \"contact process\" \"Hutchcroft\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for nonamenable contact-process weak survival"
+    },
+    {
+      "search_id": "A26-7",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"contact process\" \"Cayley graphs\" disproof withdrawn",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass for nonamenable contact-process weak survival"
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "LY00",
+      "theorem_locator": "Theorems 8.1 and 8.7",
+      "claim_type": "known partial results",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Regular trees of degree at least three, or transitive graphs with h_E/d >= 1/sqrt(2).",
+        "The proposed graph need only have h_E>0 and may contain cycles."
+      ],
+      "scope_relation": "strict_subclasses",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "These full restated theorems do not handle every generating set and nonamenable Cayley graph.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "LY00",
+      "theorem_locator": "§8 final sentence, p. 34; reliable restatement of Pemantle–Stacey Theorem 2.4",
+      "claim_type": "counterexample",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Bounded-degree nonamenable trees with equal thresholds exist.",
+        "Every Cayley tree is regular; Theorem 8.1 excludes equality for nonamenable regular trees."
+      ],
+      "scope_relation": "larger_graph_class",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Inference: these tree counterexamples cannot satisfy the Cayley assumption. No construction details or full original-paper access claimed.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HU19",
+      "theorem_locator": "§1, Theorem 7 and definition of T_kappa",
+      "claim_type": "proved conjecture",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Periodic rooted tree with a finite offspring cycle, a_i >=1 and product not equal to 1.",
+        "The candidate includes graphs with cycles and imposes no periodic tree structure."
+      ],
+      "scope_relation": "tree_subclass",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Stacey's periodic-tree conjecture is resolved, while the proposed all-Cayley assertion is not established by this theorem.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "SW09",
+      "theorem_locator": "Theorem 1.2(f), Corollary 1.3",
+      "claim_type": "critical-extinction theorem",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Left-invariant summable rates and irreducibility (1.7); finite symmetric S meets them.",
+        "Recovery parameter delta varies; rescaling gives the candidate normalization."
+      ],
+      "scope_relation": "different_conclusion_same_model",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Extinction at the global critical rate leaves equality versus strict separation undecided.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "SW26",
+      "theorem_locator": "§1.5, Theorem 6",
+      "claim_type": "new representation and correction",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Finite distributive local state lattice, countable grid, additive local maps and rate bounds (1.4).",
+        "Ordinary contact process has a graphical representation already."
+      ],
+      "scope_relation": "construction_not_phase_classification",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Theorem constructs extensions/duals, not asymptotic survival inequalities. Its correction concerns maximal extensions on infinite grids, not SW09.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "LA02",
+      "theorem_locator": "p. 2108, corrected Theorem 3′",
+      "claim_type": "published correction",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Homogeneous tree and hitting exponent beta; conclusion is conditional strict increase below 1/sqrt(d)."
+      ],
+      "scope_relation": "different_observable",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No growth-exponent assertion from the corrected 1999 theorem is used in the proposed entry.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "2a8b65d4f5db77eef1c8645eeb6ab75a9ab53d13",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "183",
+        "difference": "Static Bernoulli bond percolation, pc<pu; no local/global contact-process events."
+      },
+      {
+        "id": "190",
+        "difference": "Two-type exclusion on Z² from iid initial data; population ratios and stationary convergence."
+      },
+      {
+        "id": "179",
+        "difference": "Two irreversible growth types on Z² with unequal rates; no recovery."
+      }
+    ],
+    "distinctness_reason": "Retained all-300 full baseline review and all-320 inventory; repeated metadata/draft/hold alias search and fully reread 179, 183, 190. One-type temporal survival is a distinct model and assertion.",
+    "implications_or_equivalences": [
+      "Global/local and weak/strong terminology count once.",
+      "Harris space-time paths are oriented and do not identify this question with static bond-cluster uniqueness.",
+      "The separate amenable-direction and local-sharpness conjectures are not separately counted here."
+    ]
+  },
+  "open_status_evidence_summary": "Three specialist sources explicitly retain this question; actual current unrestricted, recent-year, author, correction and counterexample searches located no matching resolution.",
+  "independent_status_corroboration": {
+    "source_ids": [
+      "LA06",
+      "SWNOTE"
+    ],
+    "independence": "Lalley and Swart independently state the conjecture in addition to Lyons; manuscript versions and mirrors are not counted as independent.",
+    "limitation": "Corroborating statements are historical or undated, not a dated September 2026 expert review."
+  },
+  "strongest_known_partial_results_and_gap": "See full comparisons: regular and periodic trees and a quantitative expansion range are covered; critical extinction is known more generally. Arbitrary nonamenable Cayley graphs remain the requested remainder.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Pemantle–Stacey primary PDF and publisher download inaccessible (403/non-PDF); LY00 full explicit restatement used, allowed by handoff Gate A. Cayley exclusion follows from the regular-tree theorem.",
+    "Schonmann original author PostScript missing and publisher full text unavailable; LY00 Theorem 8.7 supplies complete hypotheses.",
+    "Swart note accessed through direct public curl download because web fetch failed; no date invented.",
+    "Current search indexing can lag; no independent expert or human review."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass by researching agent; no independent agent or human review.",
+    "reviewer_or_pass_identifier": "A26",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A26-1",
+      "A26-2",
+      "A26-3",
+      "A26-4",
+      "A26-5",
+      "A26-6",
+      "A26-7"
+    ],
+    "issues_found": [
+      "Do not replace all generating sets by existence of one favorable set.",
+      "Bounded-degree nonamenable-tree counterexample might be misread as a Cayley counterexample.",
+      "Critical global extinction and percolation representation are different conclusions.",
+      "A September aggregator snippet attached contact-process text to arXiv:2609.11845."
+    ],
+    "issues_resolved": [
+      "Kept universal generating-set quantifier and isotropic per-neighbor normalization.",
+      "Full reliable counterexample restatement plus regular-tree theorem excludes Cayley trees, explicitly labeled inference and original access limit.",
+      "Compared SW09 and SW26 theorem hypotheses/conclusions; read LA02 correction; no corrected exponent claim used.",
+      "Opened primary 2609.11845: it concerns skewed maximal spanning forests, not the contact process; aggregator discarded as evidence."
+    ],
+    "verdict": "pass_for_research_draft"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "not_performed"
+  },
+  "public_page_path": null,
+  "validation_results": [
+    "2026-09-17: candidate JSON parsed; source IDs and actual search IDs resolve.",
+    "2026-09-17: required headings and local draft links checked.",
+    "2026-09-17: all 25 math expressions rendered with strict KaTeX, zero errors; statement screenshot visually inspected.",
+    "2026-09-17: python3 scripts/catalogue.py --write and --check passed at 320 active entries; git diff --check passed.",
+    "2026-09-17: 31 candidate records, 26 accepted and coverage counts reconciled."
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": null,
+    "branch": null,
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/contact-process-nonamenable-weak-survival.md"
+}

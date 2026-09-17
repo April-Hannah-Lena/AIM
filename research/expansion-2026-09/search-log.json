@@ -5510,5 +5510,717 @@
     "query": "\"EFX Exists for Three Types of Agents\" correction erratum",
     "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
     "review_stage": "Separated adversarial self-pass for complete additive-goods EFX"
+  },
+  {
+    "search_id": "S150-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"open problems\" \"reaction networks\" \"2025\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Broader biology and stochastic-network discovery"
+  },
+  {
+    "search_id": "S150-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Craciun\" \"Erban\" \"cubic\" \"algebraic\" limit cycles",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Broader biology and stochastic-network discovery"
+  },
+  {
+    "search_id": "S150-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"phylogenetic\" \"conjecture\" \"2026\" open",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Broader biology and stochastic-network discovery"
+  },
+  {
+    "search_id": "S150-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"queueing\" \"open problem\" \"insensitivity\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Broader biology and stochastic-network discovery"
+  },
+  {
+    "search_id": "S151-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Craciun\" \"Erban\" \"algebraic limit cycles\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Broader biology and stochastic-network discovery"
+  },
+  {
+    "search_id": "S151-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"stochastic reaction networks\" \"conjecture\" \"weakly reversible\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Broader biology and stochastic-network discovery"
+  },
+  {
+    "search_id": "S151-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"phylogenetic\" \"conjecture\" \"identifiability\" open 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Broader biology and stochastic-network discovery"
+  },
+  {
+    "search_id": "S152-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"nonamenable\" \"conjecture\" \"weak survival\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Broader biology and stochastic-network discovery"
+  },
+  {
+    "search_id": "S152-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"open problems\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Broader biology and stochastic-network discovery"
+  },
+  {
+    "search_id": "S152-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"algebraic limit cycle\" \"weakly reversible\" \"cubic\" -site:scirate.com -site:researchgate.net -site:mardi4nfdi.de",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Broader biology and stochastic-network discovery"
+  },
+  {
+    "search_id": "S153-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"nonamenable\" \"open\" \"survival\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S153-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"non-amenable\" conjecture solved counterexample 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S153-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Lalley\" \"weak survival phase\" conjecture proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S153-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"lambda_1\" \"lambda_2\" \"conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S154-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"nonamenable\" \"conjectured\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S154-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"weak survival\" \"nonamenable\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S154-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"weak survival\" \"nonamenable\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S154-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"non-amenable\" \"open problem\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S155-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"nonamenable\" \"Schonmann\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S155-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"weak survival phase\" conjecture -site:researchgate.net -site:scirate.com",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S155-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Probability on Graphs\" \"contact process\" \"conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S155-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Swart\" \"contact process\" \"nonamenable\" \"2024\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S156-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Steven Lalley 2006 weak strong survival transition trees nonamenable graphs pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S156-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Russell Lyons phase transitions nonamenable graphs 2000 pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S156-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"weak survival\" \"nonamenable\" proof solved resolution counterexample disproof refutation",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S157-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"The contact process seen from a typical infected site\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S157-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Pemantle\" \"Stacey\" \"nonamenable\" contact process 2001",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S157-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Schonmann\" \"2000\" \"contact\" \"nonamenable\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S157-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"Cayley\" \"weak survival\" 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S158-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Pemantle Stacey contact process trees one phase transition nonamenable 2001",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S158-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Roberto Schonmann contact process transitive graph isoperimetric 2000",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S158-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"nonamenable\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S158-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"nonamenable\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S159-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"The Branching Random Walk and Contact Process on Galton-Watson\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S159-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Multiplicity of Phase Transitions\" \"Schonmann\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S160-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"A Course in Interacting Particle Systems\" Swart 2026 pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S160-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"nonamenable\" \"conjecture\" proof correction",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S160-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Pemantle\" \"Stacey\" \"Theorem 1.4\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S161-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Swart\" \"A Course in Interacting Particle Systems\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S161-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"Cayley graphs\" \"weak\" \"open\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S162-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"stacey.pdf\" \"Pemantle\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S162-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"1015345762\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S162-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"branching random walk and contact process\" \"Theorem 2.4\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S163-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"nonamenable\" \"conjecture\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S163-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"Cayley\" \"weak survival\" open",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S163-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"nonamenable\" \"phase transitions\" solved correction",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S164-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"non-amenable\" \"open\" \"2024\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S164-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"Cayley graphs\" \"conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S164-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Lyons\" \"contact process\" \"weak survival\" correction proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S164-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"degree-penalized contact processes\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process weak-survival formulation and resolution review"
+  },
+  {
+    "search_id": "S165-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Pemantle\" \"Stacey\" \"contact\" \"correction\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process source identities, corrections and publication checks"
+  },
+  {
+    "search_id": "S165-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Swart\" \"nonamenable\" \"contact\" \"erratum\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process source identities, corrections and publication checks"
+  },
+  {
+    "search_id": "S165-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Huang\" \"Exponential growth\" \"contact\" journal",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Contact-process source identities, corrections and publication checks"
+  },
+  {
+    "search_id": "A26-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"nonamenable\" proof solved counterexample refutation",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for nonamenable contact-process weak survival"
+  },
+  {
+    "search_id": "A26-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"Cayley\" \"two phase transitions\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for nonamenable contact-process weak survival"
+  },
+  {
+    "search_id": "A26-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"weak survival\" \"Lalley\" \"Swart\" conjecture resolution",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for nonamenable contact-process weak survival"
+  },
+  {
+    "search_id": "A26-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"non-amenable\" \"critical values\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for nonamenable contact-process weak survival"
+  },
+  {
+    "search_id": "A26-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"weak survival\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for nonamenable contact-process weak survival"
+  },
+  {
+    "search_id": "A26-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"nonamenable\" \"contact process\" \"Hutchcroft\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for nonamenable contact-process weak survival"
+  },
+  {
+    "search_id": "A26-7",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"Cayley graphs\" disproof withdrawn",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for nonamenable contact-process weak survival"
+  },
+  {
+    "search_id": "S166-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian interference channel\" \"capacity region\" \"open\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Information-theory and rendezvous discovery"
+  },
+  {
+    "search_id": "S166-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian interference channel\" \"capacity region\" solved proof 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Information-theory and rendezvous discovery"
+  },
+  {
+    "search_id": "S166-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"symmetric rendezvous\" \"K4\" conjecture 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Information-theory and rendezvous discovery"
+  },
+  {
+    "search_id": "S167-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"online bin packing\" \"optimal\" \"competitive ratio\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S167-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"online bin packing\" \"open problem\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S167-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"online bin packing\" \"1.54\" \"1.57\" survey",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S168-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"A New and Improved Algorithm for Online Bin Packing\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S168-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"bin packing\" \"1.54278\" lower bound",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S168-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"An In-depth Study of LLM Contributions to the Bin Packing Problem\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S169-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"online bin packing\" \"optimal competitive ratio\" \"open problem\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S169-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"online bin packing\" \"1.57829\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S169-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"online bin packing\" \"optimal\" \"breakthrough\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S170-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"online bin packing\" \"optimal asymptotic competitive ratio\" open",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S170-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Balogh\" \"Békési\" \"bin packing\" correction erratum 1.57829 1.54278",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S170-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"online bin packing\" \"competitive ratio\" improved 2026 2025 deterministic",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S171-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"The optimal absolute ratio for online bin packing\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S171-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Near-optimal Algorithms for Stochastic Online Bin Packing\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S172-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"online bin packing\" \"asymptotic\" solved resolution proof counterexample 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S172-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"optimal online bin packing\" proved disproof refutation",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S172-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Balogh\" \"Békési\" \"Epstein\" \"bin packing\" erratum correction withdrawn",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S172-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gehnen\" \"Usdenski\" \"Item Size Estimates\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S173-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"A new lower bound for classic online bin packing\" \"2021\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S173-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Leah Epstein\" \"bin packing\" \"publications\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S173-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"online bin packing\" \"1.57828956\" correction",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "S173-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"An asymptotic competitive scheme for online bin packing\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Online bin-packing formulation and resolution checks"
+  },
+  {
+    "search_id": "A27-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"online bin packing\" \"asymptotic competitive ratio\" \"optimal\" 2026 proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for optimal online bin-packing ratio"
+  },
+  {
+    "search_id": "A27-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"online bin packing\" \"1.54278\" \"1.57829\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for optimal online bin-packing ratio"
+  },
+  {
+    "search_id": "A27-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Advanced Harmonic\" \"bin packing\" correction erratum counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for optimal online bin-packing ratio"
+  },
+  {
+    "search_id": "A27-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"asymptotic competitive scheme\" \"bin packing\" \"optimal\" Chen Ye Zhang",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for optimal online bin-packing ratio"
   }
 ]
