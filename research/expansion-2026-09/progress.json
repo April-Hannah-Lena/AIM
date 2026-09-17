@@ -90,9 +90,13 @@
     {
       "commit": "2a8b65d4f5db77eef1c8645eeb6ab75a9ab53d13",
       "purpose": "Record reviewed asymmetric TSP and additive EFX drafts; pushed directly to main."
+    },
+    {
+      "commit": "9a8fe52396d798124641ca73eba91011cc333b5d",
+      "purpose": "Record reviewed contact-process and online bin-packing drafts; pushed directly to main and independently verified."
     }
   ],
-  "remote_state": "Remote main was independently verified at 2a8b65d4f5db77eef1c8645eeb6ab75a9ab53d13 via SSH ls-remote before the contact-process and bin-packing research commit on September 17, 2026. It contains both published batches through entry 320. Direct pushes remain authorized; no PR is required.",
+  "remote_state": "Remote main was independently verified at 9a8fe52396d798124641ca73eba91011cc333b5d via SSH ls-remote after the contact-process and bin-packing research push on September 17, 2026. It contains all 26 accepted research records, including 20 active additions through entry 320. Direct pushes remain authorized; no PR is required.",
   "next_actions": [
     "Accumulate the next reviewed batch from deterministic PIT, polynomial Hirsch, asymmetric TSP gap, additive-goods EFX, nonamenable contact-process weak survival and optimal online bin-packing ratio; refresh status and upstream duplicates before assigning IDs.",
     "Broaden discovery beyond the latest optimization and fairness candidates; retain slow-server threshold lead outside counts until the remaining model is precisely source-matched.",

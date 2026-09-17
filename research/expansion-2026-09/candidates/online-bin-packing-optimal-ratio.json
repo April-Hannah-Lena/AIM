@@ -736,5 +736,13 @@
     "branch": null,
     "commit": null,
     "pull_request_url": null
+  },
+  "research_publication": {
+    "state": "pushed",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": "9a8fe52396d798124641ca73eba91011cc333b5d",
+    "verified_on": "2026-09-17",
+    "verification": "SSH ls-remote equals local HEAD after push; draft and ledger only, no active catalogue ID."
   }
 }

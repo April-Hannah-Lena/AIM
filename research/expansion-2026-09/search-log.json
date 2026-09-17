@@ -6222,5 +6222,77 @@
     "query": "\"asymptotic competitive scheme\" \"bin packing\" \"optimal\" Chen Ye Zhang",
     "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
     "review_stage": "Separated adversarial self-pass for optimal online bin-packing ratio"
+  },
+  {
+    "search_id": "S174-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian product inequality\" \"conjecture\" 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+    "review_stage": "Statistics discovery; prior matching claim rediscovered"
+  },
+  {
+    "search_id": "S174-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian product inequality\" proof counterexample resolved",
+    "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+    "review_stage": "Statistics discovery; prior matching claim rediscovered"
+  },
+  {
+    "search_id": "S174-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian product conjecture\" statistics open",
+    "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+    "review_stage": "Statistics discovery; prior matching claim rediscovered"
+  },
+  {
+    "search_id": "S175-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian interference channel\" \"capacity region\" \"open problem\" 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+    "review_stage": "Gaussian interference-channel discovery"
+  },
+  {
+    "search_id": "S175-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian interference channel\" \"capacity region\" \"Costa\" \"Nair\" \"Ng\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+    "review_stage": "Gaussian interference-channel discovery"
+  },
+  {
+    "search_id": "S175-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian interference channel\" capacity region solved proof 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+    "review_stage": "Gaussian interference-channel discovery"
+  },
+  {
+    "search_id": "S176-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian interference channel\" \"capacity region\" \"2025\" -site:theoremdb.org -site:scifaro.com",
+    "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+    "review_stage": "Gaussian interference-channel discovery"
+  },
+  {
+    "search_id": "S176-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian interference channel\" \"capacity region\" \"2026\" -site:theoremdb.org -site:scifaro.com",
+    "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+    "review_stage": "Gaussian interference-channel discovery"
+  },
+  {
+    "search_id": "S176-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian interference channel\" \"capacity region\" Khandani proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years and domain exclusions where shown)",
+    "review_stage": "Gaussian interference-channel discovery"
   }
 ]
