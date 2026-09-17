@@ -23,7 +23,7 @@ All ten handoff seeds now have investigation records; eight passed draft review 
 
 ## Coverage still required
 
-Eight sections have accepted drafts (inverse3 now has three); the remaining four sections still need accepted coverage. All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
+Ten sections have accepted drafts (inverse3 has three and stochastic3 has two); spectral2 and continuum3 still need accepted coverage. All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
 
 ## Information-network discovery
 
@@ -31,3 +31,9 @@ Eight sections have accepted drafts (inverse3 now has three); the remaining four
 - **Queue timing:** Anantharam–Verdú original scanned author PDF obtained and relevant printed pp. 6 and 14 visually read; Aptel–Tchamkerten and Sahasranand–Tchamkerten full model/theorem sections inspected. An adversarial shifted-service check caused a [hold](candidates/fifo-queue-feedback.json).
 
 - **Gaussian feedback channels:** Gastpar–Lapidoth–Steinberg–Wigger §§I–II; independent Ardestanizadeh–Minero–Franceschetti §§I–II and Theorem 2; Belhadj Amor–Steinberg–Wigger linear duality; Truong–Yamamoto Theorem 2; Malayter et al. November 2025 learned-code results. El Gamal’s published degraded-channel model resolves an apparent historical conflict. [Accepted broadcast record](candidates/gaussian-broadcast-feedback.json). The separate [multiple-access record](candidates/gaussian-mac-feedback.json) remains held on Wu–Vishwanath–Arapostathis’s unadjudicated capacity claim.
+
+- **Population-map geometry:** Baigent’s 2019 chapter, Theorem 1 and §6; independent Mierczyński–Niu–Ruiz-Herrera 2019 §§1–4; 2018 convexity theorem; 2023/2024 retrotone existence and 2026 time-periodic results. Boundary counterexamples, local fixed-point results and older strongly monotone basin theorems were compared in the [accepted interior-smoothness record](candidates/carrying-simplex-interior.json). The original Tereščák preprint was not obtained; its application was read in Mierczyński’s 1999 primary paper.
+
+- **Exact scheduling complexity:** Nederlof–Swennenhuis–Węgrzycki, SODA 2025, Open Question 1 and Theorem 1.1; independent Das–Wiese, ESA 2022 (uploaded to arXiv in 2025), and Büsing–Draeger–Mathwieser, IPEC 2025, §5. Full theorem checks separate variable machine counts, mixed AND/OR dependencies, prespecified processor allocation and outforest restrictions from the arbitrary-DAG three-processor question. [Accepted record](candidates/three-processor-unit-scheduling.json).
+
+- **Entanglement-assisted graph capacity:** Li–Zuiddam Conjecture 19 and independently authored Cubitt et al. §V supply the asymptotic equality question. Full scope comparisons cover quantum-channel counterexamples, one-shot bounds, no-signalling resources, and corrected March 2026 restricted-capacity undecidability. [Accepted record](candidates/entanglement-assisted-lovasz.json).

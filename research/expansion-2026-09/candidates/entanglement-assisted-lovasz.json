@@ -1,0 +1,487 @@
+{
+  "candidate_id": "entanglement-assisted-lovasz",
+  "proposed_catalogue_id": null,
+  "title": "Does entanglement-assisted capacity equal the Lovász bound?",
+  "aliases": [
+    "entanglement-assisted Shannon capacity conjecture",
+    "Theta_star equals theta",
+    "Lovász bound with entanglement assistance"
+  ],
+  "primary_section": "spectral3",
+  "secondary_tags": [
+    "quantum information",
+    "zero-error communication",
+    "graph capacity"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit source-matched conjecture, independently authored specialist corroboration, current resolution and duplicate searches, full relevant theorem comparisons, and separate adversarial self-pass passed. Awaiting prepublication refresh and integration.",
+  "problem_fingerprint": {
+    "model_or_objects": "Finite nonempty simple confusability graph of a classical memoryless channel",
+    "dimension": "Arbitrary finite graph and finite quantum ancilla dimension, unbounded across block lengths",
+    "domain": "Tensor-product finite-dimensional quantum assistance",
+    "regularity_and_data_class": "Exact positive semidefinite matrices and exact orthogonality constraints",
+    "boundary_or_initial_conditions": "Shared entanglement before communication; no feedback or extra communication resource",
+    "parameter_range": "All finite nonempty simple graphs; all positive block lengths",
+    "quantifiers": "Equality for every graph after optimizing all finite-dimensional entangled states and local measurements",
+    "normalization": "Capacity in messages per use (exponential convention), trace-one common state",
+    "observable_or_norm": "Regularized entanglement-assisted independence number versus Lovász theta",
+    "limit_regime_and_order": "Optimize the code and its finite ancilla at each block length; then take the supremum of nth roots",
+    "requested_conclusion": "Prove equality or exhibit a graph with a strict asymptotic gap",
+    "computational_model_and_dependencies": "Unconditional information-theoretic identity; no restriction to maximally entangled states/projective measurements and no commuting-operator relaxation"
+  },
+  "statement_source_and_scope_match": "LZ §§2.1–2.2 and §2.5.2 supply graph products, theta and the matrix formulation; §3.1 Conjecture 19 is the equality asked. Normalizing the nonzero common matrix to trace one removes scaling; restriction to its support gives the positive-definite convention in Remark 8. CMR §II uses the complementary distinguishability graph and a logarithmic capacity convention; these have been converted explicitly.",
+  "proposed_statement_text": "Let $G=(V,E)$ be a finite nonempty simple graph. Define $\\alpha_*(G)$ as the largest integer $m$ for which there are a finite dimension $d$, a positive semidefinite matrix $\\rho\\in\\mathbb C^{d\\times d}$ with $\\operatorname{Tr}\\rho=1$, and positive semidefinite matrices $\\rho_{i,x}$, for $1\\le i\\le m$ and $x\\in V$, satisfying\n\n$$\n\\sum_{x\\in V}\\rho_{i,x}=\\rho\\quad(1\\le i\\le m),\\qquad\n\\rho_{i,x}\\rho_{j,y}=0\\quad\\text{if }i\\ne j\\text{ and }(x=y\\text{ or }\\{x,y\\}\\in E).\n$$\n\nFor $n\\ge1$, the strong power $G^{\\boxtimes n}$ has vertex set $V^n$; two distinct words are adjacent exactly when their entries are equal or adjacent in every coordinate. Set\n\n$$\n\\Theta_*(G)=\\sup_{n\\ge1}\\alpha_*(G^{\\boxtimes n})^{1/n}.\n$$\n\nThis also equals the limit as $n\\to\\infty$. The dimension and shared state may vary with $n$.\n\nDefine the Lovász number by\n\n$$\n\\vartheta(G)=\\inf_{c,(u_x)}\\max_{x\\in V}\\frac{1}{|c^Tu_x|^2},\n$$\n\nwhere $c$ and the $u_x$ are real unit vectors in a common finite-dimensional space, and $u_x^Tu_y=0$ whenever $x\\ne y$ and $\\{x,y\\}\\notin E$. A zero denominator has value $+\\infty$.\n\nIs $\\Theta_*(G)=\\vartheta(G)$ for every such graph? The inequality $\\Theta_*(G)\\le\\vartheta(G)$ is known. The question allows arbitrary finite-dimensional shared entanglement and local measurements and concerns exact zero error at each block length.",
+  "applied_significance": "The graph records which input symbols a noisy classical channel can confuse. The matrices describe coding with a shared quantum state, and the logarithm of Theta_* gives the rate in bits per use with no decoding errors. Equality would turn a regularized optimization over arbitrarily large codes and quantum resources into an efficiently approximable semidefinite quantity. A strict gap would identify a limitation of entanglement that this familiar upper bound misses.",
+  "application_evidence_source_ids": [
+    "LZ",
+    "CMR",
+    "WD"
+  ],
+  "source_records": [
+    {
+      "source_id": "LZ",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Yinan Li",
+        "Jeroen Zuiddam"
+      ],
+      "title": "Quantum asymptotic spectra of graphs and non-commutative graphs, and quantum Shannon capacities",
+      "venue_or_repository": "author manuscript of published article",
+      "publication_type": "author manuscript of published article",
+      "publication_date": "2021",
+      "latest_version_date": "2020-10-18",
+      "identifier": "IEEE Transactions on Information Theory 67(1) (2021), 416–432; DOI 10.1109/TIT.2020.3032686; arXiv:1810.00744v3",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/html/1810.00744v3",
+      "locator": "Author v3 §§1, 2.1–2.2, 2.5; §3.1 Theorems 17–18 and Conjecture 19; §3.2 Theorems 21–22, Conjecture 26 and Corollary 27; §2.5 Remark 8; §4 Lemmas 28–29 normalization and POVM discussion",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Author v3 §§1, 2.1–2.2, 2.5; §3.1 Theorems 17–18 and Conjecture 19; §3.2 Theorems 21–22, Conjecture 26 and Corollary 27; §2.5 Remark 8; §4 Lemmas 28–29 normalization and POVM discussion"
+      ],
+      "supported_claim": "Exact equality question and distinction from restricted quantum graph capacity.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "v1 2018-10-01, v2 2019-09-09, v3 2020-10-18; CWI institutional publication record confirms 2021 journal identity. Theorem numbering refers to author v3."
+    },
+    {
+      "source_id": "CMR",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Toby Cubitt",
+        "Laura Mančinska",
+        "David Roberson",
+        "Simone Severini",
+        "Dan Stahlke",
+        "Andreas Winter"
+      ],
+      "title": "Bounds on Entanglement Assisted Source-channel Coding via the Lovász Theta Number and its Variants",
+      "venue_or_repository": "author manuscript of published article",
+      "publication_type": "author manuscript of published article",
+      "publication_date": "2014",
+      "latest_version_date": "2014-08-07",
+      "identifier": "IEEE Transactions on Information Theory 60(11) (2014), 7330–7344; DOI 10.1109/TIT.2014.2349502; arXiv:1310.7120v3",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/html/1310.7120v3",
+      "locator": "§II channel/graph conventions; §III Theorem 10, Corollary 11 and surrounding discussion; §V conclusion",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§II channel/graph conventions; §III Theorem 10, Corollary 11 and surrounding discussion; §V conclusion"
+      ],
+      "supported_claim": "Independent explicit asymptotic gap question; one-shot separation does not settle it.",
+      "independent_of_source_ids": [
+        "LZ"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "v1 2013-10-26, v2 2013-12-09, v3 2014-08-07; latest version notes a fixed multiplicativity proof."
+    },
+    {
+      "source_id": "WD",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Xin Wang",
+        "Runyao Duan"
+      ],
+      "title": "Separation between quantum Lovász number and entanglement-assisted zero-error classical capacity",
+      "venue_or_repository": "author manuscript",
+      "publication_type": "author manuscript",
+      "publication_date": "2018-01-18",
+      "latest_version_date": "2018-01-18",
+      "identifier": "arXiv:1608.04508v3",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/pdf/1608.04508v3",
+      "locator": "§I; §III channel definition, Propositions 1–2 and Theorem 3, manuscript pp. 5–8",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§I; §III channel definition, Propositions 1–2 and Theorem 3, manuscript pp. 5–8"
+      ],
+      "supported_claim": "Separation uses qutrit quantum channels, not classical confusability graphs.",
+      "independent_of_source_ids": [
+        "LZ",
+        "CMR"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "v1 2016-08-16, v2 2017-10-29, v3 2018-01-18."
+    },
+    {
+      "source_id": "WBCDT",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Lasse H. Wolff",
+        "Paula Belzig",
+        "Matthias Christandl",
+        "Bergfinnur Durhuus",
+        "Marco Tomamichel"
+      ],
+      "title": "Fundamental Limit on the Power of Entanglement Assistance in Quantum Communication",
+      "venue_or_repository": "published article",
+      "publication_type": "published article",
+      "publication_date": "2025-01-17",
+      "latest_version_date": null,
+      "identifier": "Physical Review Letters 134 (2025), 020802; DOI 10.1103/PhysRevLett.134.020802",
+      "version": null,
+      "stable_url": "https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.134.020802",
+      "locator": "Published p. 020802-2, capacity definitions and main Theorem; conclusion p. 020802-5; author v2 §II",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Published p. 020802-2, capacity definitions and main Theorem; conclusion p. 020802-5; author v2 §II"
+      ],
+      "supported_claim": "The resolved capacity-ratio conjecture permits asymptotically vanishing error and does not determine exact zero-error graph capacity.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "arXiv 2408.17290 v3 2025-01-25 is latest; published primary PDF was read after the older v2 HTML."
+    },
+    {
+      "source_id": "DW",
+      "role": "resolution-scope comparison",
+      "authors": [
+        "Runyao Duan",
+        "Andreas Winter"
+      ],
+      "title": "No-Signalling Assisted Zero-Error Capacity of Quantum Channels and an Information Theoretic Interpretation of the Lovász Number",
+      "venue_or_repository": "author manuscript",
+      "publication_type": "author manuscript",
+      "publication_date": "2015-12-09",
+      "latest_version_date": "2015-12-09",
+      "identifier": "IEEE Transactions on Information Theory 62(2) (2016), 891–914; DOI 10.1109/TIT.2015.2507979; arXiv:1409.3426v3",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/html/1409.3426v3",
+      "locator": "§I Theorems 4–5; §II.1–II.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§I Theorems 4–5; §II.1–II.2"
+      ],
+      "supported_claim": "The theta interpretation allows no-signalling resources beyond shared entanglement.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "v1 2014-09-11, v2 2015-02-11, v3 2015-12-09 (final journal version). An institutional v2 was inspected first; the relevant v3 statements were then checked."
+    },
+    {
+      "source_id": "BMZ",
+      "role": "resolution-scope comparison",
+      "authors": [
+        "Archishna Bhattacharyya",
+        "Arthur Mehta",
+        "Yuming Zhao"
+      ],
+      "title": "On the undecidability of quantum channel capacities",
+      "venue_or_repository": "author manuscript",
+      "publication_type": "author manuscript",
+      "publication_date": "2026-03-30",
+      "latest_version_date": "2026-03-30",
+      "identifier": "arXiv:2601.22471v3; arXiv metadata lists FOCS 2026",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/html/2601.22471v3",
+      "locator": "§§1.1, 1.2.2, 1.4; §2.1 Definitions 2.2–2.3; §4 Theorem 4.1 and Corollary 4.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1.1, 1.2.2, 1.4; §2.1 Definitions 2.2–2.3; §4 Theorem 4.1 and Corollary 4.2"
+      ],
+      "supported_claim": "Undecidability concerns one-shot capacity with maximal entanglement and projective encoding.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "v1 2026-01-30, v2 2026-02-10, v3 2026-03-30; v3 corrects an error in v2 Section 4 by updating Sections 2 and 4. The corrected version was read."
+    },
+    {
+      "source_id": "BD",
+      "role": "resolution-scope comparison",
+      "authors": [
+        "Holger Boche",
+        "Christian Deppe"
+      ],
+      "title": "Computability of the Zero-Error Capacity of Noisy Channels",
+      "venue_or_repository": "author manuscript",
+      "publication_type": "author manuscript",
+      "publication_date": "2024-05-19",
+      "latest_version_date": "2024-05-19",
+      "identifier": "arXiv:2010.06873v3; related published article Information 16(7) (2025), 571, DOI 10.3390/info16070571",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/pdf/2010.06873v3",
+      "locator": "§I; §II Definitions 8–12 and zero-error definition; §III Theorem 22, proof and Remark 23",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§I; §II Definitions 8–12 and zero-error definition; §III Theorem 22, proof and Remark 23"
+      ],
+      "supported_claim": "The input is a computable-real transition matrix; the coding model has no entanglement.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Published MDPI full-text requests returned HTTP 429; its indexed definitions were inspected. The full theorem and formulas were read in author v3 PDF because HTML omitted mathematics. No claim that the entire published version was compared.",
+      "version_history_checked": "v1 2020-10-14, v2 2021-05-19, v3 2024-05-19. TUM publication metadata confirms the 2025 article."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "query": "S82–S88 in ../search-log.json",
+      "discovery_route": "Web search, direct arXiv histories/full texts, CWI publication metadata and published APS PDF",
+      "date_filter_or_unrestricted": "unrestricted; 2024/2025/2026 literals where recorded",
+      "results_inspected": [
+        "LZ",
+        "CMR",
+        "WD",
+        "WBCDT"
+      ],
+      "outcome": "No matching classical-graph asymptotic resolution found; three potentially misleading resolution families compared.",
+      "limitations": "Modern database summaries used only for discovery, not status evidence."
+    },
+    {
+      "searched_at": "2026-09-17",
+      "query": "A14-1–A14-10 in ../search-log.json",
+      "discovery_route": "Web search and full primary-source follow-up",
+      "date_filter_or_unrestricted": "unrestricted; 2025/2026 literals where recorded",
+      "results_inspected": [
+        "DW",
+        "BMZ",
+        "BD",
+        "LZ",
+        "CMR",
+        "WD"
+      ],
+      "outcome": "No matching resolution located. Compared no-signalling assistance, corrected 2026 restricted one-shot undecidability, and unassisted transition-matrix noncomputability.",
+      "limitations": "CCHS 2011 quantum-noise superactivation hit inspected at primary abstract only; not used as theorem evidence. BD published text access limited as recorded."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "LZ",
+      "theorem_locator": "§3.1 Theorems 17–18; §3.2 Theorem 22 and Corollary 27",
+      "claim_type": "dual_characterization_and_restricted_separation",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "The spectral characterization includes theta as an upper bound, without proving it is minimal.",
+        "Haemers bounds are monotone for the restricted projector model; their unrestricted-assistance monotonicity is left unknown.",
+        "Corollary 27 is a disjunction of two possible gaps."
+      ],
+      "scope_relation": "It does not select the theta-versus-unrestricted-capacity gap or settle the candidate.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "It does not select the theta-versus-unrestricted-capacity gap or settle the candidate.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CMR",
+      "theorem_locator": "§III Corollary 11 and §V",
+      "claim_type": "one_shot_counterexample",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Bounds the one-use message number by the Schrijver parameter.",
+        "That parameter is not multiplicative under strong products."
+      ],
+      "scope_relation": "The one-shot gap cannot be directly promoted to a strict nth-root asymptotic gap.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The one-shot gap cannot be directly promoted to a strict nth-root asymptotic gap.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "WD",
+      "theorem_locator": "§III Propositions 1–2 and Theorem 3",
+      "claim_type": "quantum_channel_counterexample",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "The channel has qutrit quantum input and output with two coherent Kraus operators.",
+        "Its associated operator system is not supplied as an ordinary classical confusability graph.",
+        "The theorem compares the generalized quantum theta with quantum-channel capacities."
+      ],
+      "scope_relation": "This refutes a broader quantum-channel conjecture, not the classical-graph equality; LZ explicitly retains the latter after this result.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "This refutes a broader quantum-channel conjecture, not the classical-graph equality; LZ explicitly retains the latter after this result.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "WBCDT",
+      "theorem_locator": "Published p. 020802-2, main Theorem",
+      "claim_type": "vanishing_error_capacity_ratio",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Both capacities use error tending to zero with block length.",
+        "The conclusion bounds an assisted/unassisted ratio by an input-dimension-dependent function."
+      ],
+      "scope_relation": "No exact-zero-error coding identity follows.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No exact-zero-error coding identity follows.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "DW",
+      "theorem_locator": "§I Theorems 4–5; §II.1–II.2",
+      "claim_type": "stronger_resource_operational_interpretation",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Minimizes no-signalling-assisted capacity over cq-channels compatible with a graph.",
+        "No-signalling maps need not be locally implementable from shared entanglement."
+      ],
+      "scope_relation": "Does not supply an entanglement-only protocol for each classical channel.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not supply an entanglement-only protocol for each classical channel.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BMZ",
+      "theorem_locator": "§2.1 Definition 2.3; §4 Theorem 4.1 and Corollary 4.2",
+      "claim_type": "restricted_one_shot_undecidability",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Requires a maximally entangled state and projective encoding.",
+        "Concerns one use, without regularization."
+      ],
+      "scope_relation": "Cannot infer uncomputability of unrestricted asymptotic capacity or a strict theta gap.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Cannot infer uncomputability of unrestricted asymptotic capacity or a strict theta gap.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BD",
+      "theorem_locator": "Author v3 §III Theorem 22 and Remark 23",
+      "claim_type": "unassisted_capacity_noncomputability",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Studies unassisted codes and computable-real channel matrices.",
+        "The proof varies whether a binary channel has zero crossover probability."
+      ],
+      "scope_relation": "Does not refute computability of an assisted capacity given a finite adjacency matrix.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not refute computability of an assisted capacity given a finite adjacency matrix.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "270",
+        "difference": "The unassisted Shannon capacity of C7 does not permit quantum assistance; equality here would not determine that unassisted capacity."
+      },
+      {
+        "id": "038",
+        "difference": "Depolarizing quantum capacity transmits quantum states through a quantum channel with vanishing error."
+      },
+      {
+        "id": "214",
+        "difference": "Amplitude-damping Holevo additivity uses a quantum channel and permits vanishing error."
+      },
+      {
+        "id": "301",
+        "difference": "Log-rank concerns worst-case interactive communication complexity, without this asymptotic channel model."
+      },
+      {
+        "id": "309/310",
+        "difference": "Network coding and Gaussian feedback concern different channel/resources and error criteria."
+      }
+    ],
+    "distinctness_reason": "No existing entry asks whether the Lovász graph bound is attainable with arbitrary shared entanglement.",
+    "implications_or_equivalences": [
+      "Count logarithmic and exponential capacity conventions as one problem.",
+      "Do not separately count selected graphs or the equivalent minimal-spectral-point formulation.",
+      "The companion maximally-entangled/projective-sufficiency conjecture is logically related through LZ Corollary 27; it is not an additional entry here."
+    ]
+  },
+  "open_status_evidence_summary": "Explicit LZ Conjecture 19, independently corroborated by CMR §V; current resolution searches found no matching theorem.",
+  "independent_status_corroboration": "LZ and CMR have disjoint author lists and directly discuss the same asymptotic equality. WD supplies an independently authored nearby counterexample, not direct current-open certification.",
+  "strongest_known_partial_results_and_gap": "General theta upper bound, dual asymptotic-spectrum characterization, one-shot stronger bounds and restricted-model separations do not decide unrestricted asymptotic attainability.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Latest full author versions and the cited relevant sections were read; no independent proof verification.",
+    "No newer primary source explicitly re-stating the classical-graph conjecture was located; the dated status rests on older explicit specialist statements plus current resolution searches.",
+    "The graph-convention and rate normalization differ between LZ and CMR and have been reconciled.",
+    "BD published full text was inaccessible; its model and theorem were checked in the latest author manuscript. BMZ scope was checked in corrected v3, not the erroneous v2."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass; no independent agent or human reviewer",
+    "reviewer_or_pass_identifier": "A14",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A14-1",
+      "A14-2",
+      "A14-3",
+      "A14-4",
+      "A14-5",
+      "A14-6",
+      "A14-7",
+      "A14-8",
+      "A14-9",
+      "A14-10"
+    ],
+    "issues_found": [
+      "The same terminology covers classical graphs, quantum channels, restricted assistance and no-signalling resources.",
+      "A one-use gap or undecidability result does not directly settle the asymptotic quantity.",
+      "CMR uses complementary graph and logarithmic capacity conventions.",
+      "An unnormalized zero common matrix would make the feasibility definition vacuous.",
+      "The 2026 undecidability manuscript has a correction; older versions cannot establish its current scope."
+    ],
+    "issues_resolved": [
+      "Compared the exact hypotheses in LZ, CMR, WD, WBCDT, DW, BMZ and BD; no matching resolution identified.",
+      "Kept arbitrary finite-dimensional assistance at each block length, followed by regularization.",
+      "Matched confusability/strong-product and exponential-rate conventions to LZ.",
+      "Required trace-one common state and corrected the Remark 8 source locator.",
+      "Read BMZ v3 definitions and full Section 4 theorem/corollary.",
+      "Rechecked the statement against related entries 038, 214, 270, 301, 309 and 310; the assertions differ."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [
+    {
+      "date": "2026-09-17",
+      "scope": "Research checkpoint; no active catalogue integration",
+      "checks": [
+        "Candidate JSON and source references parse and resolve.",
+        "Draft has all four required headings and resolving local evidence link.",
+        "Accepted, held and section counts agree across all 17 candidate records.",
+        "python3 scripts/catalogue.py --check passed for unchanged 310-entry catalogue.",
+        "git diff --check passed."
+      ],
+      "limitations": "Draft rendered-math inspection and publication refresh remain required at batch integration."
+    }
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/entanglement-assisted-lovasz.md"
+}

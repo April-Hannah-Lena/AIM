@@ -2182,5 +2182,997 @@
     "query": "\"multiple-unicast conjecture\" proof counterexample 2026",
     "date_filter_or_unrestricted": "unrestricted",
     "review_stage": "First publication batch preintegration refresh"
+  },
+  {
+    "search_id": "S63-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"weakly reversible\" \"algebraic limit cycles\" cubic",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S63-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Craciun\" \"Erban\" \"2026\" limit cycles",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S63-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"chemical\" \"cubic\" \"algebraic\" \"limit cycle\" open",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S63-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Planar chemical reaction systems\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S64-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "mathematical biology conjecture open 2025 2026 permanence Lotka Volterra May Leonard",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S64-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "phylogenetic networks open problems conjecture identifiability 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S64-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Boolean networks open conjecture 2025 2026 asynchronous attractor",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S65-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Craciun\" \"Erban\" \"algebraic\" -\"Planar chemical\" -site:researchgate.net -site:arxiv.org -site:ox.ac.uk",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S65-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Hirsch conjecture\" \"carrying simplex\" 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S65-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"phylogenetic\" \"full-decomposition\" conjecture solved",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S66-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"quartet distance conjecture\" 2026 proof",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S66-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Mackey Glass\" \"conjecture\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S66-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Mackey Glass\" \"conjecture\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S66-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" \"open problem\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S67-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" \"interior\" \"smoothness\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S67-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" \"interior\" \"conjecture\" proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S67-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" \"smoothness\" solved 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S67-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Hirsch\" \"carrying simplex\" smoothness open",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S68-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" \"interior\" smoothness proof counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S68-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" \"interior\" smoothness proof counterexample 2025",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S68-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" \"smoothness\" \"conjecture\" solved",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S68-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" \"non-smooth\" \"interior\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Biology discovery and carrying-simplex scope/status investigation; discovery results are not accepted until full review."
+  },
+  {
+    "search_id": "S69-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"The property of convex carrying simplices\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Carrying-simplex formulation, status and scope comparison"
+  },
+  {
+    "search_id": "S69-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Carrying simplices for competitive maps\" Baigent 2019 doi",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Carrying-simplex formulation, status and scope comparison"
+  },
+  {
+    "search_id": "S69-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Existence of the carrying simplex for a retrotone map\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Carrying-simplex formulation, status and scope comparison"
+  },
+  {
+    "search_id": "S70-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Mierczynski Baigent carrying simplex interior smoothness 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Carrying-simplex formulation, status and scope comparison"
+  },
+  {
+    "search_id": "S70-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" \"smoothness\" proof solved refuted counterexample erratum retraction",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Carrying-simplex formulation, status and scope comparison"
+  },
+  {
+    "search_id": "S70-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplices\" \"interior\" differentiability theorem",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Carrying-simplex formulation, status and scope comparison"
+  },
+  {
+    "search_id": "S70-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Hirsch\" \"smoothness\" \"carrying\" solution",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Carrying-simplex formulation, status and scope comparison"
+  },
+  {
+    "search_id": "S71-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"On peaks in carrying simplices\" Mierczynski pdf",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Carrying-simplex formulation, status and scope comparison"
+  },
+  {
+    "search_id": "S71-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" \"interior\" \"C1\" counterexample",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Carrying-simplex formulation, status and scope comparison"
+  },
+  {
+    "search_id": "S71-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" \"interior\" \"C^1\" proof",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Carrying-simplex formulation, status and scope comparison"
+  },
+  {
+    "search_id": "S71-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Hirsch\" \"carrying simplex\" \"smooth\" 2026 proof",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Carrying-simplex formulation, status and scope comparison"
+  },
+  {
+    "search_id": "S72-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Convexity of non-compact carrying simplices\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Carrying-simplex formulation, status and scope comparison"
+  },
+  {
+    "search_id": "S72-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" \"interior\" smoothness disproof resolution",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Carrying-simplex formulation, status and scope comparison"
+  },
+  {
+    "search_id": "S72-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Mierczyński\" \"smoothness\" carrying 2026 September",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Carrying-simplex formulation, status and scope comparison"
+  },
+  {
+    "search_id": "A12-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" smoothness \"2026\" counterexamples",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separate adversarial self-pass: carrying-simplex interior smoothness"
+  },
+  {
+    "search_id": "A12-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplices\" \"interior\" \"proved\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separate adversarial self-pass: carrying-simplex interior smoothness"
+  },
+  {
+    "search_id": "A12-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"retrotone\" \"C1\" \"interior\" smoothness",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separate adversarial self-pass: carrying-simplex interior smoothness"
+  },
+  {
+    "search_id": "A12-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"On invariant hypersurfaces of strongly monotone maps\" smoothness",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separate adversarial self-pass: carrying-simplex interior smoothness"
+  },
+  {
+    "search_id": "A12-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Tereščák \"nonmonotone manifolds\" smoothness compact",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separate adversarial self-pass: carrying-simplex interior smoothness"
+  },
+  {
+    "search_id": "A12-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Tereščák\" \"carrying simplex\" smoothness interior",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separate adversarial self-pass: carrying-simplex interior smoothness"
+  },
+  {
+    "search_id": "A12-7",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Dynamics of C1 smooth strongly monotone discrete\" Tereščák pdf",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separate adversarial self-pass: carrying-simplex interior smoothness"
+  },
+  {
+    "search_id": "A12-8",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Smoothness of the carrying simplex\" \"Tere\" 2009 pdf",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separate adversarial self-pass: carrying-simplex interior smoothness"
+  },
+  {
+    "search_id": "A12-9",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" \"precompact\" \"smooth\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separate adversarial self-pass: carrying-simplex interior smoothness"
+  },
+  {
+    "search_id": "A12-10",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Tereščák\" \"nonmonotone\" \"compact\" theorem",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separate adversarial self-pass: carrying-simplex interior smoothness"
+  },
+  {
+    "search_id": "A12-11",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Jiang\" \"Mierczynski\" \"1623\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separate adversarial self-pass: carrying-simplex interior smoothness"
+  },
+  {
+    "search_id": "A12-12",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Smoothness of the carrying simplex\" \"pdf\" Mierczynski",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separate adversarial self-pass: carrying-simplex interior smoothness"
+  },
+  {
+    "search_id": "A12-13",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplex\" \"interior\" smoothness erratum correction 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separate adversarial self-pass: carrying-simplex interior smoothness"
+  },
+  {
+    "search_id": "A12-14",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"carrying simplices\" smoothness solved refutation Tereščák",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separate adversarial self-pass: carrying-simplex interior smoothness"
+  },
+  {
+    "search_id": "S73-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Open Problem\" \"Load Balancing Using Delayed Information\" solution",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S73-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"queueing\" \"conjecture\" \"2026\" open insensitivity matching",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S73-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"scheduling\" \"open problems\" \"2025\" conjecture stochastic",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S74-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"three machines\" \"unit\" \"precedence\" \"2026\" NP hard",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S74-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"P3\" \"prec\" \"p_j=1\" solved polynomial",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S74-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"unit-time\" \"three\" \"precedence\" scheduling complexity 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S74-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"A simpler QPTAS\" scheduling revised published",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S75-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Scheduling of precedence constrained unit jobs\" \"1.995\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S75-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"three machines\" \"precedence\" \"polynomial\" \"2026\" scheduling solved",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S75-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Garey\" \"Johnson\" \"three\" \"scheduling\" resolution proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S75-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"P3\" \"prec\" \"p\" \"NP-hard\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S76-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"P3|prec\" scheduling solved proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S76-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"three processors\" \"unit\" \"scheduling\" \"2026\" complexity",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S76-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Nederlof\" \"Swennenhuis\" \"Węgrzycki\" scheduling 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S77-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"A Subexponential Time Algorithm\" \"535\" 2025 scheduling",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S77-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"A simpler QPTAS\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S77-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"three machines\" \"precedence constraints\" \"unit\" proof counterexample resolution 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S78-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"P3\" \"unit\" scheduling \"2026\" \"polynomial-time\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S78-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"three-machine\" \"unit-time\" scheduling solved proof refutation",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "S78-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Nederlof\" \"scheduling\" \"erratum\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Operations research discovery and three-processor scheduling formulation/status"
+  },
+  {
+    "search_id": "A13-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"three-processor\" scheduling \"polynomial\" solved",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: exact three-processor unit-job scheduling"
+  },
+  {
+    "search_id": "A13-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"P3\" \"prec\" \"2026\" scheduling algorithm",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: exact three-processor unit-job scheduling"
+  },
+  {
+    "search_id": "A13-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"unit execution time\" \"three processors\" \"proof\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: exact three-processor unit-job scheduling"
+  },
+  {
+    "search_id": "A13-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"precedence\" \"three machines\" \"NP-complete\" unit jobs 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: exact three-processor unit-job scheduling"
+  },
+  {
+    "search_id": "A13-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"A linear time algorithm for three-processor scheduling\" delays",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: exact three-processor unit-job scheduling"
+  },
+  {
+    "search_id": "A13-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"three\" \"unit-time\" \"precedence\" \"scheduling\" \"counterexample\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: exact three-processor unit-job scheduling"
+  },
+  {
+    "search_id": "A13-7",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"P3\" \"prec\" \"scheduling\" \"solved\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: exact three-processor unit-job scheduling"
+  },
+  {
+    "search_id": "A13-8",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"P3\" \"prec\" \"scheduling\" \"disproof\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: exact three-processor unit-job scheduling"
+  },
+  {
+    "search_id": "A13-9",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Dell Amico Finta three processor scheduling communication delays linear algorithm",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: exact three-processor unit-job scheduling"
+  },
+  {
+    "search_id": "A13-10",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"three-processor scheduling\" \"linear\" Finta",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: exact three-processor unit-job scheduling"
+  },
+  {
+    "search_id": "A13-11",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"three processors\" \"unit time\" \"open\" 2026 scheduling",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: exact three-processor unit-job scheduling"
+  },
+  {
+    "search_id": "S79-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "NPT bound entanglement conjecture open 2026 2025 distillability Werner states",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S79-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "NPT bound entanglement proof counterexample resolution 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S79-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Werner states undistillability conjecture 2025 2026 open problem",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S80-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "defocusing energy supercritical nonlinear Schrodinger global regularity open problem 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S80-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "defocusing supercritical NLS global regularity proof 2026 scalar",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S80-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "four dimensional quintic defocusing NLS global well posedness open problem",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S81-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "defocusing NLS dimension three blowup septic 2026 open",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S81-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "defocusing quintic NLS four dimensions blow up Merle 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S81-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Bose gas critical temperature shift rigorous conjecture open 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S81-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Lieb Liniger generalized hydrodynamics rigorous open problem 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S82-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "entanglement assisted Shannon capacity Lovasz theta equality open 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S82-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "entanglement assisted zero error capacity Lovasz conjecture 2025 disproved",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S82-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "quantum channel embedding problem open Lindblad Markovian 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S83-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted\" \"Lovász\" \"conjecture\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S83-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted\" \"Shannon capacity\" \"2025\" theta",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S83-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted\" \"theta\" \"counterexample\" capacity",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S84-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted Shannon capacity\" \"open\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S84-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted\" \"capacity\" \"Lovasz\" \"2026\" conjecture proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S85-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "entanglement assisted Lovasz theta conjecture separation 2025 2026 graph",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S85-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Theta\" \"entanglement-assisted\" \"conjecture\" \"2024\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S85-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted\" \"Lovász\" \"resolved\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S86-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Quantum asymptotic spectra\" Li Zuiddam journal 2021",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S86-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted\" \"Shannon\" \"conjecture\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S86-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted\" \"Shannon\" \"conjecture\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S86-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted\" \"Lovasz\" erratum correction",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S87-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement\" \"zero-error\" \"Lovász\" \"conjecture\" proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S87-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted\" \"theta\" \"disproved\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S87-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Theta_*(G)\" \"vartheta\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S87-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Fundamental Limit on the Power of Entanglement Assistance quantum communication arxiv 2024",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S88-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Lovasz\" \"entanglement-assisted\" \"classical\" counterexample proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S88-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Lovász\" \"entanglement-assisted\" \"classical\" \"2024\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S88-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"quantum Shannon capacity\" \"entanglement-assisted\" equality solved 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "S88-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted\" \"asymptotic\" \"theta\" refutation",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave/quantum discovery and entanglement-assisted graph-capacity investigation"
+  },
+  {
+    "search_id": "A14-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "entanglement-assisted graph capacity Lovasz bound strict gap classical",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: unrestricted entanglement-assisted asymptotic graph capacity"
+  },
+  {
+    "search_id": "A14-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted\" \"Lovász\" \"2026\" \"proof\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: unrestricted entanglement-assisted asymptotic graph capacity"
+  },
+  {
+    "search_id": "A14-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Theta_*\" \"Theta_q\" \"counterexample\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: unrestricted entanglement-assisted asymptotic graph capacity"
+  },
+  {
+    "search_id": "A14-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Li\" \"Zuiddam\" \"capacity\" \"correction\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: unrestricted entanglement-assisted asymptotic graph capacity"
+  },
+  {
+    "search_id": "A14-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Entanglement can completely defeat quantum noise\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: unrestricted entanglement-assisted asymptotic graph capacity"
+  },
+  {
+    "search_id": "A14-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted\" \"Lovasz\" \"classical\" \"disproof\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: unrestricted entanglement-assisted asymptotic graph capacity"
+  },
+  {
+    "search_id": "A14-7",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"entanglement-assisted\" \"Lovász\" \"2025\" \"zero-error\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: unrestricted entanglement-assisted asymptotic graph capacity"
+  },
+  {
+    "search_id": "A14-8",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Schläfli\" \"entanglement-assisted\" capacity 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: unrestricted entanglement-assisted asymptotic graph capacity"
+  },
+  {
+    "search_id": "A14-9",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Computability of the Zero-Error Capacity of Noisy Channels\" 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: unrestricted entanglement-assisted asymptotic graph capacity"
+  },
+  {
+    "search_id": "A14-10",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Computability of the Zero-Error Capacity\" \"entanglement\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass: unrestricted entanglement-assisted asymptotic graph capacity"
   }
 ]

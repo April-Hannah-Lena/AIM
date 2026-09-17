@@ -1,6 +1,6 @@
 # September 2026 expansion research
 
-The requested expansion is 200–300 accepted problems (target 250). **Ten additions have passed the formulation, evidence, duplicate and adversarial-review gates.** The first batch has passed its prepublication resolution and upstream duplicate refresh and is published on `main` as entries 301–310. The active catalogue is now 310. These research records do not count separately from their linked problem pages.
+The requested expansion is 200–300 accepted problems (target 250). **Thirteen additions have passed the formulation, evidence, duplicate and adversarial-review gates.** The first batch has passed its prepublication resolution and upstream duplicate refresh and is published on `main` as entries 301–310. The active catalogue is now 310. These research records do not count separately from their linked problem pages.
 
 - [Progress and reading coverage](progress.json): exact counts, completed baseline reading, and next actions.
 - [Baseline inventory](baseline-inventory.json): complete mechanical extraction of all 300 statements, references, metadata, and page hashes at `a602073d986b7f5ce57b1aa0db1687d1bd87761d`. Extraction alone does not constitute semantic review or status revalidation.
@@ -13,3 +13,9 @@ The original 300 pages and their historical review dates are preserved. Candidat
 The FIFO queue-feedback candidate is held after an adversarial model check; see [exclusions](exclusions.md) and the [discovery queue](discovery-queue.md).
 
 The Gaussian multiple-access feedback candidate is also held on an older conflicting claim; see its candidate record.
+
+The carrying-simplex interior smoothness question has passed a separate adversarial self-pass and is an accepted draft for the next batch. It is not yet an active or published entry. See its [evidence ledger](candidates/carrying-simplex-interior.json).
+
+The exact three-processor unit-job scheduling question has also passed formulation, theorem-scope and separate adversarial review. Its [accepted draft record](candidates/three-processor-unit-scheduling.json) awaits the next batch.
+
+The entanglement-assisted Lovász equality passed a separate adversarial self-pass, including the corrected March 2026 restricted-capacity result. Its [accepted draft record](candidates/entanglement-assisted-lovasz.json) awaits the next batch. There are now three accepted drafts beyond the ten published entries.

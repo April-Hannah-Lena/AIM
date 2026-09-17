@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 10,
+  "new_accepted": 13,
   "active_total": 310,
-  "candidates_investigated": 14,
+  "candidates_investigated": 17,
   "held_unverified": 1,
   "held_claimed_resolution": 3,
   "excluded": 0,
-  "remaining_to_minimum": 190,
-  "remaining_to_target": 240,
+  "remaining_to_minimum": 187,
+  "remaining_to_target": 237,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -46,11 +46,15 @@
     {
       "commit": "ce50f8b",
       "purpose": "Integrate the first ten reviewed additions as 301–310 and record batch validation."
+    },
+    {
+      "commit": "329615a",
+      "purpose": "Record direct publication of the first ten additions; pushed to main."
     }
   ],
-  "remote_state": "First ten accepted additions and research records pushed directly to main at ce50f8b8c021d7fd29e12f304ff5b6b86e848a02; verified through GitHub branch API. No PR created. User authorized direct pushes on 2026-09-17.",
+  "remote_state": "The first ten additions and publication records are on main at 329615ad63600656820b0cb42c939db009cc2a7d, verified by git ls-remote on 2026-09-17. No PR created; user authorized direct pushes.",
   "next_actions": [
-    "Continue independent candidate research, starting with mathematical biology; push later reviewed batches directly to main after upstream checks.",
+    "Continue candidate discovery, prioritizing missing spectral2/continuum3 coverage and broader application areas; push reviewed batches directly to main after upstream checks.",
     "All ten handoff seeds investigated: eight accepted drafts, Morrey and Yang–Mills held on matching unadjudicated claims.",
     "Discover candidates across all twelve sections, with deliberate biology, statistics, information, control, operations-research and stochastic-network coverage.",
     "Refresh resolution searches and upstream duplicate checks before each later batch; assign permanent IDs centrally after acceptance."
@@ -58,20 +62,21 @@
   "coverage": {
     "spectral": 1,
     "operators": 1,
-    "inverse": 0,
+    "inverse": 1,
     "applied": 1,
     "spectral2": 0,
     "inverse2": 1,
     "continuum2": 1,
     "stochastic2": 1,
-    "spectral3": 0,
+    "spectral3": 1,
     "continuum3": 0,
     "inverse3": 3,
-    "stochastic3": 1
+    "stochastic3": 2
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 10,
-  "count_semantics": "Ten accepted additions are integrated locally; active total is the 300-entry baseline plus these ten. Held records and drafts are excluded.",
+  "count_semantics": "Thirteen accepted additions: ten integrated and published, three drafts awaiting the next batch. Active total is 310; held records do not count.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
-  "new_published": 10
+  "new_published": 10,
+  "coverage_semantics": "Accepted additions by primary section, including accepted drafts awaiting integration."
 }

@@ -1,0 +1,443 @@
+{
+  "candidate_id": "three-processor-unit-scheduling",
+  "proposed_catalogue_id": null,
+  "title": "Exact complexity of unit-job precedence scheduling on three processors",
+  "aliases": [
+    "P3|prec,p_j=1|Cmax",
+    "three-processor unit execution time scheduling",
+    "Garey–Johnson OPEN8"
+  ],
+  "primary_section": "stochastic3",
+  "secondary_tags": [
+    "operations research",
+    "scheduling",
+    "computational complexity"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit source-matched formulation, pairwise-disjoint-author specialist status corroboration, current/prior/unrestricted resolution and correction searches, exact theorem-scope comparisons, duplicate review and separate adversarial self-pass completed. No matching resolution found; prepublication refresh remains due.",
+  "problem_fingerprint": {
+    "model_or_objects": "Finite DAG of unit jobs and exactly three identical processors",
+    "dimension": "Unbounded number n of jobs; fixed processor count 3",
+    "domain": "Arbitrary directed acyclic precedence graph",
+    "regularity_and_data_class": "All processing times exactly one; all jobs available initially",
+    "boundary_or_initial_conditions": "Nonpreemptive, single-processor jobs; ordinary conjunctive precedence; no communication delays",
+    "parameter_range": "All n and binary integer deadlines T; T>=n is trivially feasible",
+    "quantifiers": "One deterministic polynomial-time algorithm for every instance, or a rigorous complexity classification",
+    "normalization": "Unit execution time; integer slots without loss of generality",
+    "observable_or_norm": "Exact feasibility by deadline / minimum makespan",
+    "limit_regime_and_order": "Worst-case input size grows; machine count remains exactly three",
+    "requested_conclusion": "Resolve polynomial-time solvability or establish NP-completeness/other precise complexity status",
+    "computational_model_and_dependencies": "Classical deterministic bit complexity; NP-completeness uses polynomial many-one reductions; not assuming P!=NP or ETH"
+  },
+  "statement_source_and_scope_match": "NSW published §1 Open Question 1 and §2 define the exact three-machine unit-job makespan problem. DW §1 independently singles out m=3; BDM §5 retains the fixed-machine ordinary-precedence gap. Integral-slot formulation is equivalent to nonpreemptive unit-job scheduling: fix machine orders in a feasible schedule and left-justify using longest paths in the combined precedence/order DAG. Binary search on T in [0,n] converts feasibility to optimum makespan; no release dates, communication delays, OR constraints or machine-dependent durations are introduced.",
+  "proposed_statement_text": "Let $G=(J,E)$ be a directed acyclic graph with $n$ vertices, one for each job, and let $T$ be a nonnegative integer supplied in binary. Every job takes exactly one unit of time on any of three identical processors. A job must finish before any of its successors begins. Jobs cannot be interrupted; each processor runs at most one job at a time; all jobs are available at time zero subject to the precedence constraints.\n\nDecide whether there is a schedule that completes all jobs by time $T$. Equivalently, does there exist a map $s:J\\to\\{0,\\ldots,T-1\\}$ such that\n\n$$\ns(v)\\ge s(u)+1\\quad((u,v)\\in E),\\qquad\n|\\{j\\in J:s(j)=t\\}|\\le3\\quad(0\\le t<T)?\n$$\n\nDetermine the computational complexity of this decision problem, conventionally written $P3\\mid\\mathrm{prec},p_j=1\\mid C_{\\max}$. In particular, is it solvable by a deterministic algorithm polynomial in the input length, or can NP-completeness be established under polynomial-time many-one reductions? No dichotomy between these outcomes is assumed. The number of processors is fixed at three, while the job graph and deadline are unrestricted input. The goal is exact feasibility, not an approximation to the minimum completion time.",
+  "applied_significance": "Precedence edges represent dependencies between computational tasks or project activities. Fixing three identical processors removes machine heterogeneity and numerical processing-time encoding, isolating the algorithmic difficulty created by dependencies and limited parallelism. Resolving exact tractability would clarify when an optimal schedule can be computed efficiently for this basic resource-allocation model.",
+  "application_evidence_source_ids": [
+    "NSW",
+    "DW"
+  ],
+  "source_records": [
+    {
+      "source_id": "NSW",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Jesper Nederlof",
+        "Céline M. F. Swennenhuis",
+        "Karol Węgrzycki"
+      ],
+      "title": "A Subexponential Time Algorithm for Makespan Scheduling of Unit Jobs with Precedence Constraints",
+      "venue_or_repository": "published conference article",
+      "publication_type": "published conference article",
+      "publication_date": "2025",
+      "latest_version_date": null,
+      "identifier": "SODA 2025, 535–552; DOI 10.1137/1.9781611978322.16; arXiv:2312.03495v1",
+      "version": null,
+      "stable_url": "https://research-portal.uu.nl/ws/portalfiles/portal/254249631/1.9781611978322.16.pdf",
+      "locator": "§1 Open Question 1 and Theorem 1.1, p. 536; §1.1 approximation discussion, p. 537; §2; §8; §9 Theorem 9.1 and reduction, pp. 550–551",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 Open Question 1 and Theorem 1.1, p. 536; §1.1 approximation discussion, p. 537; §2; §8; §9 Theorem 9.1 and reduction, pp. 550–551"
+      ],
+      "supported_claim": "Explicit exact-complexity question and subexponential algorithm; lower-bound reduction uses a growing processor count.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "arXiv 2312.03495 lists v1 December 6, 2023 only; the full published SODA 2025 version was obtained separately and its additional lower-bound section inspected."
+    },
+    {
+      "source_id": "DW",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Syamantak Das",
+        "Andreas Wiese"
+      ],
+      "title": "A Simpler QPTAS for Scheduling Jobs with Precedence Constraints",
+      "venue_or_repository": "published conference article, with later author arXiv upload",
+      "publication_type": "published conference article, with later author arXiv upload",
+      "publication_date": "2022-09-01",
+      "latest_version_date": null,
+      "identifier": "LIPIcs ESA 2022, 40:1–40:11; DOI 10.4230/LIPIcs.ESA.2022.40; later arXiv:2501.09091v1",
+      "version": null,
+      "stable_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol244-esa2022/LIPIcs.ESA.2022.40/LIPIcs.ESA.2022.40.pdf",
+      "locator": "Published §1 pp. 40:1–40:2; arXiv full §§1–2 and §3 Lemma 1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Published §1 pp. 40:1–40:2; arXiv full §§1–2 and §3 Lemma 1"
+      ],
+      "supported_claim": "Independent fixed-three-machine status assessment; QPTAS does not imply an exact polynomial algorithm.",
+      "independent_of_source_ids": [
+        "NSW"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "arXiv 2501.09091 lists v1 January 15, 2025 only. Primary Dagstuhl metadata and published PDF establish ESA 2022 publication; no claim of a new 2025 algorithm."
+    },
+    {
+      "source_id": "BDM",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Christina Büsing",
+        "Maurice Draeger",
+        "Corinna Mathwieser"
+      ],
+      "title": "Parameterized Complexity of Scheduling Unit-Time Jobs with Generalized Precedence Constraints",
+      "venue_or_repository": "published conference article",
+      "publication_type": "published conference article",
+      "publication_date": "2025",
+      "latest_version_date": null,
+      "identifier": "LIPIcs IPEC 2025, 7:1–7:16; DOI 10.4230/LIPIcs.IPEC.2025.7",
+      "version": null,
+      "stable_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol358-ipec2025/LIPIcs.IPEC.2025.7/LIPIcs.IPEC.2025.7.pdf",
+      "locator": "§§1–2 model definitions; §5 pp. 7:12–7:13, Theorem 13 and reduction; §6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1–2 model definitions; §5 pp. 7:12–7:13, Theorem 13 and reduction; §6"
+      ],
+      "supported_claim": "Independent current fixed-machine open-status statement; two-machine hardness uses mixed AND/OR constraints absent from the candidate.",
+      "independent_of_source_ids": [
+        "NSW",
+        "DW"
+      ],
+      "access_limitations": null
+    },
+    {
+      "source_id": "AHV",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Christian Artigues",
+        "Sönke Hartmann",
+        "Mario Vanhoucke"
+      ],
+      "title": "Fifty years of research on resource-constrained project scheduling explored from different perspectives",
+      "venue_or_repository": "published survey",
+      "publication_type": "published survey",
+      "publication_date": "2025-04-26",
+      "latest_version_date": null,
+      "identifier": "European Journal of Operational Research 328 (2026), 367–389; DOI 10.1016/j.ejor.2025.03.024",
+      "version": null,
+      "stable_url": "https://backoffice.biblio.ugent.be/download/01KGFBXBA8Y76KTRCX9AAESNQD/01KGFBY5GFG1D9QWS8B68Q00DQ",
+      "locator": "§1 notation, pp. 367–368; §2.1 complexity discussion, pp. 369–370",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 notation, pp. 367–368; §2.1 complexity discussion, pp. 369–370"
+      ],
+      "supported_claim": "Survey hardness statements concern general machine counts/resources; notation explicitly distinguishes P from fixed Pm. Not used as direct open-status evidence.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "HVV",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "J. A. Hoogeveen",
+        "S. L. van de Velde",
+        "B. Veltman"
+      ],
+      "title": "Complexity of scheduling multiprocessor tasks with prespecified processor allocations",
+      "venue_or_repository": "institutional technical report",
+      "publication_type": "institutional technical report",
+      "publication_date": "1992-08",
+      "latest_version_date": null,
+      "identifier": "Memorandum COSOR 92-32, Eindhoven University of Technology",
+      "version": null,
+      "stable_url": "https://pure.tue.nl/ws/portalfiles/portal/1897221/385188.pdf",
+      "locator": "§1; §2.1 Theorems 1–2; §2.2 Theorem 3 and reduction; §2.3 Theorem 4 and proof, Theorem 6 and reduction setup",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1; §2.1 Theorems 1–2; §2.2 Theorem 3 and reduction; §2.3 Theorem 4 and proof, Theorem 6 and reduction setup"
+      ],
+      "supported_claim": "Hardness results impose processor allocations and/or nonunit durations; fixed-machine unit-job tractability omits precedence.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "DA97",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Mauro Dell’Amico"
+      ],
+      "title": "A Linear Time Algorithm for Scheduling Outforests with Communication Delays on Two or Three Processors",
+      "venue_or_repository": "institutional technical report",
+      "publication_type": "institutional technical report",
+      "publication_date": "1997-05",
+      "latest_version_date": null,
+      "identifier": "Università degli Studi di Modena, Dipartimento di Economia Politica, report 173",
+      "version": null,
+      "stable_url": "https://iris.unimore.it/retrieve/e355df1c-e06c-47dc-8de4-d69c37084574/0173.pdf",
+      "locator": "§§1–2, printed pp. 1–3; Theorem 3, p. 13; §4 algorithm input and Theorem 4, pp. 14–17; §5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1–2, printed pp. 1–3; Theorem 3, p. 13; §4 algorithm input and Theorem 4, pp. 14–17; §5"
+      ],
+      "supported_claim": "Linear-time algorithm restricts the precedence graph to an outforest and includes unit communication delays.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "query": "S73–S78 in ../search-log.json",
+      "discovery_route": "Web search; arXiv histories and full manuscripts; published Dagstuhl/SIAM institutional PDFs",
+      "date_filter_or_unrestricted": "unrestricted; literal 2025/2026 terms as recorded",
+      "results_inspected": [
+        "NSW",
+        "DW",
+        "BDM",
+        "AHV"
+      ],
+      "outcome": "Explicit independent status corroboration and full model/theorem checks; no exact polynomial algorithm or fixed-three-machine hardness proof found.",
+      "limitations": "Search absence is not proof of openness; relevant theorem statements and scopes were checked, not entire proofs independently verified."
+    },
+    {
+      "searched_at": "2026-09-17",
+      "query": "A13-1 through A13-11 in ../search-log.json",
+      "discovery_route": "Web search followed by full institutional reports",
+      "date_filter_or_unrestricted": "unrestricted; literal 2025/2026 where recorded",
+      "results_inspected": [
+        "HVV",
+        "DA97",
+        "MAPSP 1997 program; Dell’Amico–Finta 2002 institutional metadata"
+      ],
+      "outcome": "Apparent hardness and linear-time results concern different processing, allocation or graph assumptions; no matching resolution found.",
+      "limitations": "The 2002 journal article was identified by institutional metadata and abstract only; the theorem-level check uses the distinct single-author 1997 full report."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "NSW",
+      "theorem_locator": "Theorem 1.1, p. 536",
+      "claim_type": "subexponential_exact_algorithm",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "The model and m=3 specialize exactly.",
+        "Runtime is (1+n/m)^{O(sqrt(nm))}; for fixed m it is 2^{O(sqrt(n) log n)}."
+      ],
+      "scope_relation": "Provides an exact subexponential upper bound, which is not a polynomial bound; the theorem does not settle the question.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Provides an exact subexponential upper bound, which is not a polynomial bound; the theorem does not settle the question.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "NSW",
+      "theorem_locator": "§9 Theorem 9.1 and reduction, pp. 550–551",
+      "claim_type": "growing_machine_count_hardness",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Conditional on a sparse Densest-k-Subgraph hypothesis.",
+        "Reduction sets m=2 Delta N+1 and creates n=3m jobs.",
+        "Makespan is 3; the machine count is not 3."
+      ],
+      "scope_relation": "A deadline of three is not three processors. Fixing m=3 removes this reduction family.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "A deadline of three is not three processors. Fixing m=3 removes this reduction family.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "DW",
+      "theorem_locator": "§1.1 and §3 Lemma 1 in arXiv full text",
+      "claim_type": "approximation_scheme",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Works for constant m and fixed positive approximation error.",
+        "Guarantee is multiplicative 1+epsilon with quasipolynomial runtime, not exact feasibility.",
+        "Setting epsilon below 1/n to exploit integrality does not retain polynomial runtime; this distinction is explicit in NSW published §1.1."
+      ],
+      "scope_relation": "No indirect exact polynomial algorithm follows from the inspected schemes.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No indirect exact polynomial algorithm follows from the inspected schemes.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BDM",
+      "theorem_locator": "§5 Theorem 13 and proof",
+      "claim_type": "generalized_precedence_hardness",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Two identical machines and unit jobs.",
+        "The reduction has edge jobs requiring either endpoint, an OR constraint.",
+        "The candidate requires all graph predecessors and allows no disjunctive dependencies."
+      ],
+      "scope_relation": "Hardness for mixed AND/OR precedence does not imply hardness for ordinary DAG precedence.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Hardness for mixed AND/OR precedence does not imply hardness for ordinary DAG precedence.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "AHV",
+      "theorem_locator": "§1 footnote 2 and §2.1",
+      "claim_type": "survey_scope_comparison",
+      "theorem_statement_actually_read": false,
+      "hypothesis_comparison": [
+        "P denotes a variable input machine count; Pm a fixed count.",
+        "Resource-constrained hardness adds capacity requirements beyond three identical processors."
+      ],
+      "scope_relation": "Survey statements do not provide a fixed-three-machine hardness proof.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Survey statements do not provide a fixed-three-machine hardness proof.",
+      "material_unresolved_conflict": false,
+      "scope_discussion_actually_read": true
+    },
+    {
+      "source_id": "HVV",
+      "theorem_locator": "§2.2 Theorem 3; §2.3 Theorems 4 and 6",
+      "claim_type": "processor_allocation_and_graph_scope",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Tasks can require a prespecified simultaneous set of processors, unlike freely assignable single-processor jobs.",
+        "Theorem 3 uses arbitrary durations in its three-processor reduction.",
+        "Theorem 4 removes precedence constraints; Theorem 6 forces jobs to specified processors."
+      ],
+      "scope_relation": "Neither the hardness theorems nor the polynomial special case match the candidate model.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither the hardness theorems nor the polynomial special case match the candidate model.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "DA97",
+      "theorem_locator": "§§1–2 definitions; §4 input to LP2-3 and Theorem 4",
+      "claim_type": "outforest_special_case_algorithm",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "An outforest has indegree at most one at every vertex.",
+        "The candidate permits arbitrary DAGs, including jobs with multiple predecessors.",
+        "The algorithm also assumes unit communication delays between different processors."
+      ],
+      "scope_relation": "The linear-time result does not settle arbitrary-DAG scheduling without communication delays.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The linear-time result does not settle arbitrary-DAG scheduling without communication delays.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "289",
+        "difference": "Asks for a better-than-two approximation with arbitrary machine-dependent processing times and no precedence constraints; candidate asks exact complexity with three identical processors and unit jobs."
+      },
+      {
+        "id": "290",
+        "difference": "Max-min item allocation with arbitrary values is not precedence scheduling."
+      },
+      {
+        "id": "100",
+        "difference": "Strongly polynomial simplex pivoting concerns linear programming and arithmetic magnitudes, not exact discrete scheduling."
+      },
+      {
+        "id": "304",
+        "difference": "Unique Games is a distinct general hardness conjecture; conditional approximation hardness for growing machine counts does not settle this exact fixed-machine question."
+      }
+    ],
+    "distinctness_reason": "No baseline or accepted expansion entry has both this constrained scheduling model and exact complexity target.",
+    "implications_or_equivalences": [
+      "Decision and exact optimization versions count as one problem.",
+      "Do not separately count each fixed machine count or approximation scheme target as extra entries in this family without a separate source-backed distinction."
+    ]
+  },
+  "open_status_evidence_summary": "NSW published Open Question 1 and DW §1 identify the exact m=3 gap; BDM §5 independently retains fixed-machine ordinary-precedence complexity as open. Current resolution searches found no matching result.",
+  "independent_status_corroboration": "NSW, DW and BDM have pairwise disjoint author lists. The arXiv and published versions of one paper are counted as one scholarly source.",
+  "strongest_known_partial_results_and_gap": "NSW gives an exact 2^{O(sqrt(n) log n)} algorithm at m=3. QPTAS results and tractability under extra graph parameters leave exact polynomial solvability and fixed-three-machine NP-completeness unresolved.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "The original Garey–Johnson book was not used as a directly read source; exact restatements in full specialist primary papers were available.",
+    "The author URL for an additional 2016 parameterized paper failed; no admission claim relies on that inaccessible text.",
+    "Only listed theorem statements, definitions and relevant proof portions were inspected; no independent verification of entire proofs."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass; no independent agent or human reviewer",
+    "reviewer_or_pass_identifier": "A13",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A13-1",
+      "A13-2",
+      "A13-3",
+      "A13-4",
+      "A13-5",
+      "A13-6",
+      "A13-7",
+      "A13-8",
+      "A13-9",
+      "A13-10",
+      "A13-11"
+    ],
+    "issues_found": [
+      "A three-unit deadline is not a three-processor restriction.",
+      "The 2025 arXiv upload of Das–Wiese is an ESA 2022 paper.",
+      "Mixed AND/OR precedence and prespecified processor allocation alter the candidate model.",
+      "A conference talk title omits the outforest restriction present in the full algorithm report."
+    ],
+    "issues_resolved": [
+      "Kept exact fixed-three ordinary-AND formulation.",
+      "Corrected public bibliographic date to ESA 2022.",
+      "Compared hardness hypotheses and reduction constructions explicitly.",
+      "Read the 1997 report definitions, algorithm input and theorem; recorded the outforest scope."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [
+    {
+      "date": "2026-09-17",
+      "scope": "Research checkpoint; no active catalogue integration",
+      "checks": [
+        "Candidate JSON and source references parse and resolve.",
+        "Draft has all four required headings and resolving local evidence link.",
+        "Accepted, held and section counts agree across all 17 candidate records.",
+        "python3 scripts/catalogue.py --check passed for unchanged 310-entry catalogue.",
+        "git diff --check passed."
+      ],
+      "limitations": "Draft rendered-math inspection and publication refresh remain required at batch integration."
+    }
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/three-processor-unit-scheduling.md"
+}

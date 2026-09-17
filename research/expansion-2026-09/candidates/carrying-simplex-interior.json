@@ -1,0 +1,542 @@
+{
+  "candidate_id": "carrying-simplex-interior",
+  "proposed_catalogue_id": null,
+  "title": "Interior smoothness of carrying simplices in competitive population maps",
+  "aliases": [
+    "Hirsch carrying-simplex smoothness problem",
+    "interior C1 regularity of carrying simplices",
+    "retrotone Kolmogorov maps"
+  ],
+  "primary_section": "inverse",
+  "secondary_tags": [
+    "mathematical biology",
+    "population dynamics",
+    "invariant manifolds"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit source-matched interior regularity question, disjoint-author specialist corroboration, matching-theorem and duplicate checks, and separate adversarial self-pass completed. No unresolved material status conflict found.",
+  "problem_fingerprint": {
+    "model_or_objects": "Discrete-time Kolmogorov map F_i=x_i f_i with strictly decreasing positive per-capita multipliers",
+    "dimension": "Every integer d>=3; hypersurface dimension d-1",
+    "domain": "Nonnegative orthant C; requested regularity only on positive orthant",
+    "regularity_and_data_class": "f extends C1 to an open neighborhood of C; all partial derivatives strictly negative",
+    "boundary_or_initial_conditions": "Positive axial fixed points q_i e_i; every nonzero initial state asymptotic to a carrying-simplex orbit",
+    "parameter_range": "Spectral radius of M_ij=-(x_i/f_i)partial_j f_i strictly below 1 throughout [0,q]",
+    "quantifiers": "For every dimension and every map satisfying the displayed hypotheses, at every interior carrying-simplex point",
+    "normalization": "Radial projection x/sum_i x_i to probability simplex; no rescaling of map time",
+    "observable_or_norm": "C1 embedded regularity, equivalently C1 radial function on relative interior",
+    "limit_regime_and_order": "Asymptotic completeness defines the existing object; regularity itself is a local geometric conclusion",
+    "requested_conclusion": "Universal C1 interior regularity or a counterexample in this exact class",
+    "computational_model_and_dependencies": "Unconditional dynamical-systems question; no convexity, Lyapunov gap or permanence assumption added"
+  },
+  "statement_source_and_scope_match": "Baigent B, Theorem 1 AS1–AS4 gives the precise C1 map class; §6 asks about unresolved interior regularity. MNR §1 independently reports the unknown nonconvex case and lack of known interior nonsmooth examples. The question fixes C1 interior regularity, not the known conditional boundary-neat-embedding characterization. Radial and embedded formulations agree since an unordered C1 interior hypersurface has a nonnegative normal and every radial vector there is strictly positive, hence transverse.",
+  "proposed_statement_text": "For an integer $d\\ge3$, set $C=[0,\\infty)^d$ and consider the population map $F_i(x)=x_i f_i(x)$. Suppose $f$ is $C^1$ on an open neighborhood of $C$, $f_i(x)>0$ and $\\partial f_i/\\partial x_j(x)<0$ on $C$ for all $i,j$. Each positive coordinate axis has a fixed point $q_i e_i$, with $q_i>0$. For $q=(q_1,\\ldots,q_d)$ assume\n\n$$\n\\rho(M(x))<1\\quad(x\\in[0,q]),\\qquad\nM_{ij}(x)=-\\frac{x_i}{f_i(x)}\\frac{\\partial f_i}{\\partial x_j}(x),\n$$\n\nwhere $\\rho$ denotes spectral radius and $[0,q]=\\prod_i[0,q_i]$. These hypotheses guarantee a carrying simplex $\\Sigma\\subset C\\setminus\\{0\\}$: a compact invariant unordered hypersurface to whose trajectories every nonzero trajectory is asymptotic. Here unordered means that no two distinct points are comparable coordinatewise.\n\nIs $\\Sigma\\cap(0,\\infty)^d$ necessarily a $C^1$ embedded $(d-1)$-dimensional submanifold for every such map? Equivalently, write $\\Sigma=\\{R(u)u:u\\in\\Delta\\}$, where $\\Delta=\\{u\\in C:\\sum_i u_i=1\\}$ and $R:\\Delta\\to(0,\\infty)$ is its continuous radial representation: must $R$ be $C^1$ on the relative interior of $\\Delta$? Only interior regularity is requested; no smoothness or transverse embedding at extinction faces is assumed.",
+  "applied_significance": "Competition maps describe populations whose per-capita growth decreases with every population density. Their carrying simplex contains the long-term nonzero dynamics. Interior C1 regularity would justify smooth geometric reduction when analyzing coexistence, invariant manifolds and changes of stability.",
+  "application_evidence_source_ids": [
+    "B",
+    "MNR"
+  ],
+  "source_records": [
+    {
+      "source_id": "B",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Stephen Baigent"
+      ],
+      "title": "Carrying Simplices for Competitive Maps",
+      "venue_or_repository": "published chapter, author accepted manuscript",
+      "publication_type": "published chapter, author accepted manuscript",
+      "publication_date": "2019",
+      "latest_version_date": null,
+      "identifier": "DOI 10.1007/978-3-030-20016-9_1; Springer Proceedings in Mathematics & Statistics 287 (2019), 3–29",
+      "version": null,
+      "stable_url": "https://www.homepages.ucl.ac.uk/~ucess29/resources/ICDEA_RPS.pdf",
+      "locator": "Definition 1; §3 Theorem 1 AS1–AS4 (manuscript p. 9); §5.1 Leslie–Gower example; §6 (manuscript p. 24)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Definition 1; §3 Theorem 1 AS1–AS4 (manuscript p. 9); §5.1 Leslie–Gower example; §6 (manuscript p. 24)"
+      ],
+      "supported_claim": "Precise existence hypotheses, ecological interpretation, and explicit interior-smoothness gap.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "visual_verification": "Theorem 1 on manuscript p. 9 rendered and inspected: f>>0, Df<<0, xi numerator, [0,q] inclusive, strict spectral-radius inequality."
+    },
+    {
+      "source_id": "MNR",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Janusz Mierczyński",
+        "Lei Niu",
+        "Alfonso Ruiz-Herrera"
+      ],
+      "title": "Linearization and invariant manifolds on the carrying simplex for competitive maps",
+      "venue_or_repository": "accepted manuscript of Journal of Differential Equations article",
+      "publication_type": "accepted manuscript of Journal of Differential Equations article",
+      "publication_date": "2019",
+      "latest_version_date": "2019-08-07",
+      "identifier": "arXiv:1902.08914v2; DOI 10.1016/j.jde.2019.08.001",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/pdf/1902.08914v2",
+      "locator": "§1 pp. 2–3; §2 H1–H5; §3 C1 and Theorem 3.1; §4 Theorem 4.1, Corollaries 4.8–4.9, Theorem 4.12; §5 Lemma 5.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 pp. 2–3; §2 H1–H5; §3 C1 and Theorem 3.1; §4 Theorem 4.1, Corollaries 4.8–4.9, Theorem 4.12; §5 Lemma 5.1"
+      ],
+      "supported_claim": "Independent status statement; local topological conjugacy and conditional local smoothness do not imply full interior C1 regularity.",
+      "independent_of_source_ids": [
+        "B"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "arXiv abstract submission history inspected on 2026-09-17; this is the latest listed version."
+    },
+    {
+      "source_id": "CONVEX",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Janusz Mierczyński"
+      ],
+      "title": "The C1 property of convex carrying simplices for competitive maps",
+      "venue_or_repository": "author manuscript of Ergodic Theory and Dynamical Systems article",
+      "publication_type": "author manuscript of Ergodic Theory and Dynamical Systems article",
+      "publication_date": "2018",
+      "latest_version_date": "2018-07-30",
+      "identifier": "arXiv:1801.01032v2; DOI 10.1017/etds.2018.85",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/pdf/1801.01032v2",
+      "locator": "§1 manuscript p. 2; §2 H1–H6; §3 Definition 3.1, Main Theorem and Theorem 3.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§2 H1–H6; §3 Definition 3.1, Main Theorem and Theorem 3.2",
+        "§1 manuscript p. 2, explicit interior smoothness gap"
+      ],
+      "supported_claim": "Under the paper’s C2 competitive-diffeomorphism assumptions, convexity of the enclosed attractor implies C1 neat embedding. The introduction explicitly says interior smoothness remains unresolved, separate from boundary neat embedding.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "arXiv abstract submission history inspected on 2026-09-17; this is the latest listed version."
+    },
+    {
+      "source_id": "MB",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Janusz Mierczyński",
+        "Stephen Baigent"
+      ],
+      "title": "Existence of the carrying simplex for a retrotone map",
+      "venue_or_repository": "published article",
+      "publication_type": "published article",
+      "publication_date": "2023-11-23",
+      "latest_version_date": null,
+      "identifier": "DOI 10.1080/10236198.2023.2285394; Journal of Difference Equations and Applications 30(3) (2024), 287–319",
+      "version": null,
+      "stable_url": "https://discovery.ucl.ac.uk/id/eprint/10183280/1/Existence%20of%20the%20carrying%20simplex%20for%20a%20retrotone%20map.pdf",
+      "locator": "§1; definition and properties (vi)–(ix); §3 assumptions A1–A4 and Theorem 3.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1; definition and properties (vi)–(ix); §3 assumptions A1–A4 and Theorem 3.1"
+      ],
+      "supported_claim": "Later existence theorem for continuous retrotone maps; property (ix) is Lipschitz, not C1.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "BM26",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Stephen Baigent",
+        "Janusz Mierczyński"
+      ],
+      "title": "Time-periodic carrying simplex for a competitive system of Carathéodory ODEs",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-05-02",
+      "latest_version_date": "2026-05-02",
+      "identifier": "arXiv:2605.01287v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2605.01287v1",
+      "locator": "Introduction; §2 H1; §6 Theorems 6.4–6.5 and Lemma 6.6; §7 Theorem 7.2 and preceding Lipschitz construction",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Introduction; §2 H1; §6 Theorems 6.4–6.5 and Lemma 6.6; §7 Theorem 7.2 and preceding Lipschitz construction"
+      ],
+      "supported_claim": "Time-periodic existence and topological conjugacy; no universal C1 regularity conclusion.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "arXiv abstract submission history inspected on 2026-09-17; this is the latest listed version."
+    },
+    {
+      "source_id": "M99",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Janusz Mierczyński"
+      ],
+      "title": "On smoothness of carrying simplices",
+      "venue_or_repository": "published article, author repost",
+      "publication_type": "published article, author repost",
+      "publication_date": "1999",
+      "latest_version_date": null,
+      "identifier": "Proceedings of the American Mathematical Society 127(2) (1999), 543–551; arXiv:1708.05195v1 is a 2017 repost",
+      "version": null,
+      "stable_url": "https://arxiv.org/pdf/1708.05195",
+      "locator": "§1 standing hypotheses; §2 assumption A, Theorems A–B; §3 Theorem 3.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 standing hypotheses; §2 assumption A, Theorems A–B; §3 Theorem 3.2",
+        "§1 manuscript p. 3, precise repulsion-basin use of Tereščák’s theorem"
+      ],
+      "supported_claim": "Continuous-time smoothness requires extra invasion/Lyapunov-exponent hypotheses, not automatic from strict competition.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "PEAK",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Janusz Mierczyński"
+      ],
+      "title": "On peaks in carrying simplices",
+      "venue_or_repository": "published article, full journal PDF mirror",
+      "publication_type": "published article, full journal PDF mirror",
+      "publication_date": "1999",
+      "latest_version_date": null,
+      "identifier": "Colloquium Mathematicum 81(2) (1999), 285–292; DOI 10.4064/cm-81-2-285-292",
+      "version": null,
+      "stable_url": "https://pdfs.semanticscholar.org/ff9c/8de4db93a1ea585c31abdec2b58c84fd66ae.pdf",
+      "locator": "§1; §2 Proposition 2.2 and Main Theorem, pp. 287–288",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1; §2 Proposition 2.2 and Main Theorem, pp. 287–288"
+      ],
+      "supported_claim": "Peak singularities proved here are at axial equilibria on the boundary, so do not refute interior regularity.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "YB",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Hamid Naderi Yeganeh",
+        "Stephen Baigent"
+      ],
+      "title": "Convexity of non-compact carrying simplices in logarithmic coordinates",
+      "venue_or_repository": "published article",
+      "publication_type": "published article",
+      "publication_date": "2024-06-26",
+      "latest_version_date": null,
+      "identifier": "Journal of Difference Equations and Applications 30(10) (2024), 1671–1691; DOI 10.1080/10236198.2024.2369215",
+      "version": null,
+      "stable_url": "https://discovery.ucl.ac.uk/id/eprint/10197962/7/Baigent_Convexity%20of%20non-compact%20carrying%20simplices%20in%20logarithmic%20coordinates.pdf",
+      "locator": "§1 planar model and Definition 1.1; §3 Lemma 3.10, Theorem 3.2 and Corollary 3.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 planar model and Definition 1.1; §3 Lemma 3.10, Theorem 3.2 and Corollary 3.1"
+      ],
+      "supported_claim": "Two-dimensional logarithmic Leslie–Gower/Ricker convexity and existence results do not give general d>=3 C1 interior regularity.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "BEN",
+      "role": "apparent indirect resolution scope check",
+      "authors": [
+        "Michel Benaïm"
+      ],
+      "title": "On Invariant Hypersurfaces of Strongly Monotone Maps",
+      "venue_or_repository": "Journal of Differential Equations 137 (1997), 302–319",
+      "publication_type": "published article",
+      "publication_date": "1997",
+      "latest_version_date": null,
+      "identifier": "DOI 10.1006/jdeq.1997.3269",
+      "version": null,
+      "stable_url": "https://libra.unine.ch/server/api/core/bitstreams/c6fe2a93-8853-4641-820e-5b23656b0077/content",
+      "locator": "§1 pp. 302–303; §2 Theorems 2.1–2.2 and remarks, pp. 304–305; §3 Theorem 3.4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 pp. 302–303",
+        "§2 Theorems 2.1–2.2 and remarks, pp. 304–305",
+        "§3 Theorem 3.4"
+      ],
+      "supported_claim": "Strongly monotone hypersurface results require comparison with the global positivity/domain and compact-attractor setting; they do not directly settle arbitrary competitive carrying-simplex interiors.",
+      "independent_of_source_ids": [],
+      "access_limitations": "The original Tereščák preprint cited by BEN was not obtained. Its use for carrying simplices was checked through M99 §1, rather than claiming to have read its original theorem."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "query": "S66-4, S67–S72 in ../search-log.json",
+      "discovery_route": "Web search and primary author/institution/arXiv full manuscripts; version histories; visual hypothesis verification",
+      "date_filter_or_unrestricted": "unrestricted, with literal 2025/2026 terms where recorded",
+      "results_inspected": [
+        "B",
+        "MNR",
+        "CONVEX",
+        "MB",
+        "BM26",
+        "M99",
+        "PEAK",
+        "YB"
+      ],
+      "outcome": "No matching universal C1 proof or interior counterexample found; followed by the separately recorded A12 adversarial pass.",
+      "limitations": "Search absence is not proof of openness; no independent agent or expert review."
+    },
+    {
+      "searched_at": "2026-09-17",
+      "query": "A12-1–A12-14 in ../search-log.json",
+      "discovery_route": "Web search; primary institutional full text; arXiv manuscript sections",
+      "date_filter_or_unrestricted": "unrestricted; literal current/prior years in specified queries",
+      "results_inspected": [
+        "BEN",
+        "M99",
+        "CONVEX",
+        "MNR",
+        "B"
+      ],
+      "outcome": "No matching universal interior proof or counterexample found. Apparent strong-monotonicity resolution fails the stated global/basin hypotheses; boundary examples and conditional regularity do not answer the candidate.",
+      "limitations": "No independent agent or specialist review; inaccessible original Tereščák preprint is not represented as read."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "MNR",
+      "theorem_locator": "Theorem 4.1; Corollaries 4.8–4.9; Theorem 4.12",
+      "claim_type": "conditional_local_regularities",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Conjugating map in Theorem 4.1 is only a homeomorphism.",
+        "Corollaries require an interior fixed point with transverse dynamics repelling on S.",
+        "Tangent-cone continuity in Theorem 4.12 is at a fixed point, not at all interior points."
+      ],
+      "scope_relation": "Local fixed-point results and topological reduction do not establish C1 regularity throughout the interior.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Local fixed-point results and topological reduction do not establish C1 regularity throughout the interior.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CONVEX",
+      "theorem_locator": "§2 H1–H6; Main Theorem; Theorem 3.2",
+      "claim_type": "additional_convexity_or_boundary_lyapunov_hypotheses",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Requires C2 diffeomorphism and convex enclosed attractor, neither imposed on the candidate.",
+        "Lyapunov characterization concerns the entire neatly embedded manifold, including boundary."
+      ],
+      "scope_relation": "Neither extra convexity nor required Lyapunov inequalities follow from the candidate hypotheses. The boundary characterization does not decide interior regularity.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither extra convexity nor required Lyapunov inequalities follow from the candidate hypotheses. The boundary characterization does not decide interior regularity.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "MB",
+      "theorem_locator": "Theorem 3.1 and property (ix)",
+      "claim_type": "existence_and_lipschitz_regularities",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Continuous retrotone maps; includes strictly competitive differentiable examples.",
+        "The strongest regularity conclusion inspected is Lipschitz inverse orthogonal projection."
+      ],
+      "scope_relation": "Even when the candidate falls in this class, existence plus Lipschitz regularity leaves the C1 question.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Even when the candidate falls in this class, existence plus Lipschitz regularity leaves the C1 question.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BM26",
+      "theorem_locator": "Theorems 6.4–6.5, 7.2",
+      "claim_type": "time_periodic_existence_and_conjugacy",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Carathéodory periodic ODEs rather than every discrete map.",
+        "Conjugacy is topological; inverse orthogonal projection is Lipschitz."
+      ],
+      "scope_relation": "Neither specializing to autonomous dynamics nor applying the Poincaré map supplies C1 interior regularity.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither specializing to autonomous dynamics nor applying the Poincaré map supplies C1 interior regularity.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "M99",
+      "theorem_locator": "Theorems A–B and 3.2",
+      "claim_type": "conditional_ode_smoothness",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Time-continuous dynamics.",
+        "Theorem A imposes extra nonnegative invasion growth at componentwise joins of axial equilibria.",
+        "Theorem 3.2 assumes nonnegative external exponents; higher regularity needs an additional gap."
+      ],
+      "scope_relation": "These extra hypotheses are not consequences of arbitrary positive decreasing map multipliers.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "These extra hypotheses are not consequences of arbitrary positive decreasing map multipliers.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "PEAK",
+      "theorem_locator": "Proposition 2.2 and Main Theorem",
+      "claim_type": "boundary_singularities",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Three-dimensional totally competitive ODE.",
+        "A peak is a half-line tangent cone; Proposition 2.2 places every such peak at an axial equilibrium."
+      ],
+      "scope_relation": "No interior counterexample; candidate explicitly excludes boundary regularity.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No interior counterexample; candidate explicitly excludes boundary regularity.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "YB",
+      "theorem_locator": "Theorem 3.2 and Corollary 3.1",
+      "claim_type": "planar_convexity_and_existence",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Exactly two species; logarithmic coordinates.",
+        "Specific Leslie–Gower and Ricker maps, restricted parameter ranges."
+      ],
+      "scope_relation": "Does not cover arbitrary dimension d>=3 and does not remove the interior regularity gap.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not cover arbitrary dimension d>=3 and does not remove the interior regularity gap.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BEN",
+      "theorem_locator": "§1 standing assumptions and Theorem 1.1; §2 Theorems 2.1–2.2; M99 §1 for application to carrying simplices",
+      "claim_type": "strongly_monotone_hypersurfaces_indirect_resolution_check",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "BEN works with a diffeomorphism to its image defined on all of R^m, with a strictly positive derivative everywhere. The inverse of the candidate map has the needed positivity locally in the positive orthant; a global extension retaining these hypotheses has not been established.",
+        "The stated higher-regularity results concern a basin of a compact attractor within a nonmonotone manifold and impose differentiability/gap conditions. Neither such an interior compact core for inverse dynamics nor those extra conditions is part of the candidate.",
+        "M99 §1 explicitly applies Tereščák only to the repulsion basin of a repeller contained in the positive orthant. The whole carrying simplex meets coordinate faces where the strong positivity fails; the candidate does not assume all backward interior orbits remain away from those faces.",
+        "CONVEX §1 and MNR §1 continue to identify the interior problem as open after these monotone-dynamics results."
+      ],
+      "scope_relation": "No matching direct or indirect resolution identified; a local inverse-positivity observation is insufficient to import the global theorem.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The inspected conditional basin results leave arbitrary interior points in the stated class unresolved. The original Tereščák theorem is not claimed to have been read.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "154",
+        "difference": "Existence of a finite-dimensional Lipschitz inertial manifold for an infinite-dimensional Navier–Stokes PDE; candidate concerns C1 regularity of an already existing finite-dimensional population hypersurface."
+      },
+      {
+        "id": "190",
+        "difference": "Competitive exclusion for a spatial stochastic particle model, not discrete deterministic geometric regularity."
+      },
+      {
+        "id": "283",
+        "difference": "Persistence of bounded weakly reversible mass-action ODEs; neither map model nor regularity target agrees."
+      },
+      {
+        "id": "296",
+        "difference": "Global attraction for a scalar delay equation under local stability, not carrying-simplex differentiability."
+      }
+    ],
+    "distinctness_reason": "No baseline, accepted or held candidate has this model and interior-geometric target. Broad biological competition or dimension-reduction motivation is not equivalence.",
+    "implications_or_equivalences": [
+      "Do not separately count continuous-time, species-specific, radial-coordinate or extra-convexity variants of this carrying-simplex question."
+    ]
+  },
+  "open_status_evidence_summary": "B §6 and MNR §1 independently describe the unresolved interior smoothness gap. Full matching resolution was not located in current author/name/mathematical searches; later results inspected retain additional assumptions, lower regularity, local scope or different dimensions.",
+  "independent_status_corroboration": "B is authored only by Stephen Baigent; MNR has the disjoint authors Janusz Mierczyński, Lei Niu and Alfonso Ruiz-Herrera. Both discuss the open interior gap. Their later joint papers MB/BM26 are scope checks, not additional independent corroboration.",
+  "strongest_known_partial_results_and_gap": "Convexity plus the established competitive-diffeomorphism hypotheses gives C1 neat embedding; local smoothness near suitable interior repellers and tangent cones at fixed points are known. General carrying simplices remain only Lipschitz without those additional hypotheses.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Publisher fetches for MB and YB failed; full published PDFs were read through UCL Discovery instead.",
+    "PEAK publisher and CiteSeer links failed; full identifiable journal PDF read via Semantic Scholar mirror.",
+    "The Kudos author perspective was visible in search results but direct fetch failed; it is not a required admission source.",
+    "Only the listed sections/theorem statements were reviewed, not an independent verification of all proofs.",
+    "Author-hosted final CONVEX and MNR PDFs returned 502 during the final pass; arXiv full manuscripts and their version histories were available and read.",
+    "The original Tereščák preprint was not obtained; the available full primary application in M99 and BEN’s exact scope were compared."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass",
+    "reviewer_or_pass_identifier": "A12",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A12-1",
+      "A12-2",
+      "A12-3",
+      "A12-4",
+      "A12-5",
+      "A12-6",
+      "A12-7",
+      "A12-8",
+      "A12-9",
+      "A12-10",
+      "A12-11",
+      "A12-12",
+      "A12-13",
+      "A12-14"
+    ],
+    "issues_found": [
+      "Generic strongly monotone C1 hypersurface theorems could appear to resolve the interior question indirectly.",
+      "Boundary peaks and neat embedding must not be conflated with interior smoothness.",
+      "Local conjugacy and tangent cones at fixed points are weaker than smoothness at every interior point.",
+      "The map class and matrix numerator must match the formulation source exactly; radial equivalence needs transversality."
+    ],
+    "issues_resolved": [
+      "Read BEN standing assumptions and basin theorems, compared M99’s full primary discussion of Tereščák, and checked CONVEX §1’s explicit remaining interior gap.",
+      "PEAK Proposition 2.2 places its singularities at axial equilibria; no interior counterexample.",
+      "MNR Theorem 4.1 is topological; Corollaries 4.8–4.9 have extra local hypotheses; Theorem 4.12 treats fixed points.",
+      "B Theorem 1 was visually checked earlier, including the xi numerator and closed box. Unordered C1 hypersurfaces have nonnegative normals, transverse to strictly positive radial vectors, which justifies the radial formulation.",
+      "Repeated local semantic comparison with baseline 154, 190, 283 and 296; none has the same model and regularity conclusion. Corrected the draft heading to the required Applied significance."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [
+    "Research ledger JSON parsed; required draft headings and dollar math checked. Active-catalogue validation and rendered-page review remain for batch integration.",
+    {
+      "date": "2026-09-17",
+      "scope": "Research checkpoint; no active catalogue integration",
+      "checks": [
+        "Candidate JSON and source references parse and resolve.",
+        "Draft has all four required headings and resolving local evidence link.",
+        "Accepted, held and section counts agree across all 17 candidate records.",
+        "python3 scripts/catalogue.py --check passed for unchanged 310-entry catalogue.",
+        "git diff --check passed."
+      ],
+      "limitations": "Draft rendered-math inspection and publication refresh remain required at batch integration."
+    }
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/carrying-simplex-interior.md"
+}
