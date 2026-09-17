@@ -42,14 +42,18 @@
     {
       "commit": "1381a37",
       "purpose": "Eight vetted expansion drafts and two seed holds; active catalogue unchanged."
+    },
+    {
+      "commit": "ce50f8b",
+      "purpose": "Integrate the first ten reviewed additions as 301–310 and record batch validation."
     }
   ],
-  "remote_state": "No push, pull request or merge performed.",
+  "remote_state": "First ten accepted additions and research records pushed directly to main at ce50f8b8c021d7fd29e12f304ff5b6b86e848a02; verified through GitHub branch API. No PR created. User authorized direct pushes on 2026-09-17.",
   "next_actions": [
-    "Complete structural, rendering and bibliography checks for batch 1, then preserve the local commit and authorized draft PR.",
+    "Continue independent candidate research, starting with mathematical biology; push later reviewed batches directly to main after upstream checks.",
     "All ten handoff seeds investigated: eight accepted drafts, Morrey and Yang–Mills held on matching unadjudicated claims.",
     "Discover candidates across all twelve sections, with deliberate biology, statistics, information, control, operations-research and stochastic-network coverage.",
-    "Refresh resolution searches and upstream duplicate checks, then assign permanent IDs centrally when the first batch is ready."
+    "Refresh resolution searches and upstream duplicate checks before each later batch; assign permanent IDs centrally after acceptance."
   ],
   "coverage": {
     "spectral": 1,
@@ -67,5 +71,7 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 10,
-  "count_semantics": "Ten accepted additions are integrated locally; active total is the 300-entry baseline plus these ten. Held records and drafts are excluded."
+  "count_semantics": "Ten accepted additions are integrated locally; active total is the 300-entry baseline plus these ten. Held records and drafts are excluded.",
+  "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
+  "new_published": 10
 }

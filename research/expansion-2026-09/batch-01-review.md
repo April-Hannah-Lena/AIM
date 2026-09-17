@@ -59,4 +59,6 @@ Search indexing and source availability limit the status review; absence of a lo
 
 ## Publication
 
-The batch is integrated in the local worktree. Staging review, a content commit, push and draft PR are pending. No default-branch write or merge has occurred.
+Content commit [`ce50f8b`](https://github.com/MColbrook/AIM/commit/ce50f8b8c021d7fd29e12f304ff5b6b86e848a02) was pushed directly to `main` on 2026-09-17, and the new remote head was independently verified through the GitHub branch API. The original upstream was an ancestor, so the update was a normal fast-forward; no remote work was overwritten. No PR was created.
+
+The user explicitly authorized repository uploads and direct pushes, overriding the handoff draft-PR workflow. An initial automatic approval rejection was resolved by that explicit authorization. A subsequent repository-access failure was resolved after the user restored push access. Future reviewed batches can be pushed directly to `main` after upstream checks.

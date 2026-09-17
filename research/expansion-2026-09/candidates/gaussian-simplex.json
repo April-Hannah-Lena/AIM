@@ -416,11 +416,14 @@
     }
   ],
   "remote_publication": {
-    "state": "not_published",
+    "state": "published",
     "repository": "MColbrook/AIM",
-    "branch": "codex/expand-open-problems-2026-09",
-    "commit": null,
-    "pull_request_url": null
+    "branch": "main",
+    "commit": "ce50f8b8c021d7fd29e12f304ff5b6b86e848a02",
+    "pull_request_url": null,
+    "published_on": "2026-09-17",
+    "verification": "Git push fast-forward succeeded; GitHub branches/main API returned the same commit.",
+    "authorization": "User explicitly authorized direct pushes, superseding the handoff draft-PR workflow."
   },
   "draft_page_path": "research/expansion-2026-09/drafts/gaussian-simplex.md",
   "integration": {

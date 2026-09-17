@@ -15,7 +15,7 @@
     "synchronization"
   ],
   "decision": "accept_open",
-  "decision_reason": "Source formulation, independent status corroboration, actual resolution searches and scope comparisons, full baseline screening, applied significance and separate adversarial self-review passed. Accepted draft awaits a 10–20-entry integration batch and prepublication refresh.",
+  "decision_reason": "Source formulation, independent status corroboration, actual resolution searches and scope comparisons, full baseline screening, applied significance and separate adversarial self-review passed. Prepublication refresh passed; integrated and published in batch 1.",
   "problem_fingerprint": {
     "model_or_objects": "Complete deterministic finite automaton (Q,Sigma,delta)",
     "dimension": "n = |Q| finite",
@@ -344,11 +344,14 @@
     }
   ],
   "remote_publication": {
-    "state": "not_published",
+    "state": "published",
     "repository": "MColbrook/AIM",
-    "branch": "codex/expand-open-problems-2026-09",
-    "commit": null,
-    "pull_request_url": null
+    "branch": "main",
+    "commit": "ce50f8b8c021d7fd29e12f304ff5b6b86e848a02",
+    "pull_request_url": null,
+    "published_on": "2026-09-17",
+    "verification": "Git push fast-forward succeeded; GitHub branches/main API returned the same commit.",
+    "authorization": "User explicitly authorized direct pushes, superseding the handoff draft-PR workflow."
   },
   "draft_path": "research/expansion-2026-09/drafts/cerny.md",
   "integration": {
