@@ -1,0 +1,478 @@
+{
+  "candidate_id": "anderson-fixed-disorder-diffusion",
+  "proposed_catalogue_id": null,
+  "title": "Diffusive mean-square displacement at fixed disorder",
+  "aliases": [
+    "Anderson quantum diffusion conjecture",
+    "mean-square-displacement form of quantum Brownian motion",
+    "Simon Problem 3"
+  ],
+  "primary_section": "spectral2",
+  "secondary_tags": [
+    "disordered quantum transport",
+    "random Schrödinger operators",
+    "statistical mechanics"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Source-matched averaged growth question, independent specialist corroboration, resolution and duplicate comparisons, and a separate adversarial self-pass passed. Awaiting prepublication refresh and integration.",
+  "problem_fingerprint": {
+    "model_or_objects": "Nearest-neighbor lattice Schrödinger operator with static iid diagonal disorder and deterministic hopping",
+    "dimension": "3",
+    "domain": "Infinite Z^3; Hilbert space ell^2(Z^3)",
+    "regularity_and_data_class": "Independent Uniform[-sqrt(3),sqrt(3)] site energies, bounded real potential",
+    "boundary_or_initial_conditions": "No boundary; initial state delta_0; no spectral projection",
+    "parameter_range": "Every sufficiently small fixed positive lambda",
+    "quantifiers": "Exists lambda_0>0; for every 0<lambda<lambda_0, positive finite lower and upper constants and a finite starting time exist",
+    "normalization": "Hopping coefficient 1; site mean zero and variance one; lattice spacing and hbar equal 1",
+    "observable_or_norm": "Disorder expectation of the unaveraged-in-time Euclidean second position moment",
+    "limit_regime_and_order": "Infinite lattice from the outset; fixed nonzero lambda then t to infinity",
+    "requested_conclusion": "Two-sided linear growth for all sufficiently large times",
+    "computational_model_and_dependencies": "Unconditional assertion, without assuming absolute continuity or replacing static disorder by noise in time"
+  },
+  "statement_source_and_scope_match": "SP §1.4 explicitly defines the disorder-averaged second moment and its expected linear growth in 3D. SIM Example 2.1 and Problem 3 supply uniform site disorder and the dynamical question. E §5.3(iii) distinguishes fixed disorder from weak-coupling scaling. The displayed target is two-sided linear comparability, not an asserted exact coefficient or quenched limit. Unit variance fixes the coupling convention; changing the uniform interval rescales lambda.",
+  "proposed_statement_text": "Let $(V_x)_{x\\in\\mathbb Z^3}$ be independent random variables, each uniform on $[-\\sqrt3,\\sqrt3]$. For $\\lambda>0$, define the bounded self-adjoint operator\n\n$$\n(H_{\\lambda,\\omega}\\psi)(x)=\\sum_{|y-x|_1=1}\\psi(y)+\\lambda V_x(\\omega)\\psi(x)\n$$\n\non $\\ell^2(\\mathbb Z^3)$. Let $\\delta_0$ be the unit vector at the origin and set\n\n$$\nM_\\lambda(t)=\\mathbb E_\\omega\\!\\left[\\sum_{x\\in\\mathbb Z^3}|x|_2^2\\,\n\\big|\\langle\\delta_x,e^{-itH_{\\lambda,\\omega}}\\delta_0\\rangle\\big|^2\\right].\n$$\n\nDoes there exist $\\lambda_0>0$ such that, for every $0<\\lambda<\\lambda_0$, there are constants $0<c_\\lambda\\le C_\\lambda<\\infty$ and $t_\\lambda<\\infty$ with\n\n$$\nc_\\lambda t\\le M_\\lambda(t)\\le C_\\lambda t\\qquad(t\\ge t_\\lambda)?\n$$\n\nThe expectation averages the static random potential. The lattice is infinite, the initial state is fixed, and $\\lambda$ is held fixed as $t\\to\\infty$. This asks for the disorder-averaged, order-of-growth form of quantum diffusion for a standard bounded single-site law. It does not prescribe a limiting diffusion coefficient or a Brownian path limit.",
+  "applied_significance": "This model describes the spreading of an initially localized quantum particle through a crystal with random site energies. Linear growth of the mean-square displacement would justify the diffusive transport scale used to model weakly disordered solids directly from unitary microscopic dynamics. It gives quantitative transport information beyond the existence of extended spectral states.",
+  "application_evidence_source_ids": [
+    "SP",
+    "E"
+  ],
+  "source_records": [
+    {
+      "source_id": "SIM",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Barry Simon"
+      ],
+      "title": "Schrödinger operators in the twenty-first century",
+      "venue_or_repository": "Mathematical Physics 2000, pp. 283–288; DOI 10.1142/9781848160224_0014",
+      "publication_type": "primary specialist article or author manuscript",
+      "publication_date": "2000",
+      "latest_version_date": null,
+      "identifier": "Mathematical Physics 2000, pp. 283–288; DOI 10.1142/9781848160224_0014",
+      "version": null,
+      "stable_url": "https://math.caltech.edu/papers/bsimon/r40.pdf",
+      "locator": "Author PDF pp. 1–2; §2 Example 2.1 and Problems 1–3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Author PDF pp. 1–2; §2 Example 2.1 and Problems 1–3"
+      ],
+      "supported_claim": "Uniform-disorder model and separate diffusion question. Probability averaging is specified here using SP, not inferred from Simon.",
+      "independent_of_source_ids": [],
+      "access_limitations": "PDF text extraction corrupts mathematics; the first two pages were rendered and visually read.",
+      "version_history_checked": "Author publication index and mp_arc 00-78 identify the paper; no later revision located."
+    },
+    {
+      "source_id": "SP",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Thomas Spencer"
+      ],
+      "title": "Duality, statistical mechanics, and random matrices",
+      "venue_or_repository": "Current Developments in Mathematics 2012, pp. 229–260",
+      "publication_type": "primary specialist article or author manuscript",
+      "publication_date": "2012 volume; PDF copyright 2013",
+      "latest_version_date": null,
+      "identifier": "Current Developments in Mathematics 2012, pp. 229–260",
+      "version": null,
+      "stable_url": "https://intlpress.com/site/pub/files/_fulltext/journals/cdm/2012/2012/0001/CDM-2012-2012-0001-a005.pdf",
+      "locator": "§1.2 p. 232 Eq. (1.4); §1.3 pp. 235–236; §1.4 pp. 236–237 Eq. (1.19)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1.2 p. 232 Eq. (1.4); §1.3 pp. 235–236; §1.4 pp. 236–237 Eq. (1.19)"
+      ],
+      "supported_claim": "Explicit disorder-averaged displacement, expected diffusive growth and its physical interpretation.",
+      "independent_of_source_ids": [
+        "SIM"
+      ],
+      "access_limitations": "Uses asymptotic approximation notation; the proposed entry asks only for two-sided order of growth.",
+      "version_history_checked": "Publisher PDF read; focused erratum search found no matching correction. Bielefeld mirror returned a non-PDF page and was not used."
+    },
+    {
+      "source_id": "E",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "László Erdős"
+      ],
+      "title": "Lecture Notes on Quantum Brownian Motion",
+      "venue_or_repository": "arXiv:1009.0843v1; published in Les Houches volume 95 (2012), pp. 3–98",
+      "publication_type": "primary specialist article or author manuscript",
+      "publication_date": "2010-09-04",
+      "latest_version_date": "2010-09-04",
+      "identifier": "arXiv:1009.0843v1; published in Les Houches volume 95 (2012), pp. 3–98",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/1009.0843v1",
+      "locator": "§5.1 model and normalization; §5.3(iii), Eq. (5.8), and following fixed-lambda discussion, author PDF pp. 29–31",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§5.1 model and normalization; §5.3(iii), Eq. (5.8), and following fixed-lambda discussion, author PDF pp. 29–31"
+      ],
+      "supported_claim": "Diffusive second-moment question and why a weak-coupling theorem does not settle fixed-disorder dynamics.",
+      "independent_of_source_ids": [
+        "SIM",
+        "SP"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "arXiv lists only v1, 2010-09-04. ISTA record verifies 2012 publication."
+    },
+    {
+      "source_id": "ESY",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "László Erdős",
+        "Manfred Salmhofer",
+        "Horng-Tzer Yau"
+      ],
+      "title": "Quantum diffusion for the Anderson model in the scaling limit",
+      "venue_or_repository": "Annales Henri Poincaré 8 (2007), 621–685; DOI 10.1007/s00023-006-0318-0; arXiv:math-ph/0502025v5",
+      "publication_type": "primary specialist article or author manuscript",
+      "publication_date": "2007-03-26",
+      "latest_version_date": "2007-03-26",
+      "identifier": "Annales Henri Poincaré 8 (2007), 621–685; DOI 10.1007/s00023-006-0318-0; arXiv:math-ph/0502025v5",
+      "version": "v5",
+      "stable_url": "https://arxiv.org/pdf/math-ph/0502025v5",
+      "locator": "Introduction; §2.1 model/moments; §2.2 Theorem 2.1 and surrounding scaling definitions, pp. 7–9",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Introduction; §2.1 model/moments; §2.2 Theorem 2.1 and surrounding scaling definitions, pp. 7–9"
+      ],
+      "supported_claim": "Heat-equation limit of expected rescaled Wigner distributions as disorder tends to zero.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "v1 2005-02-07; v2 2006-04-18; v3 2007-03-04; v4 2007-03-06; v5 2007-03-26. Harvard repository verifies journal identity."
+    },
+    {
+      "source_id": "BDH",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Adam Black",
+        "Reuben Drogin",
+        "Felipe Hernández"
+      ],
+      "title": "Self-consistent equations and quantum diffusion for the Anderson model",
+      "venue_or_repository": "arXiv:2506.06468v2",
+      "publication_type": "primary specialist article or author manuscript",
+      "publication_date": "2025-11-06",
+      "latest_version_date": "2025-11-06",
+      "identifier": "arXiv:2506.06468v2",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/pdf/2506.06468v2",
+      "locator": "§1 pp. 1–4, including Eq. (1.2) and Theorems 1.1–1.3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 pp. 1–4, including Eq. (1.2) and Theorems 1.1–1.3"
+      ],
+      "supported_claim": "New finite-time diffusion estimates and scaling-limit resolvent results; Gaussian diagonal disorder.",
+      "independent_of_source_ids": [
+        "SIM",
+        "SP",
+        "E"
+      ],
+      "access_limitations": "The unversioned HTML endpoint returned a different lecture-note body. The versioned PDF with matching title and authors supplies the theorem comparison.",
+      "version_history_checked": "v1 2025-06-06; v2 2025-11-06. Version comments report corrected high-dimensional kappa values; PDF internal date is 2025-11-10."
+    },
+    {
+      "source_id": "SLF",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Elizaveta Safonova",
+        "Aleksey Lunkin",
+        "Mikhail Feigel’man"
+      ],
+      "title": "Analytical Theory for Anomalous Diffusion in the Anderson Model with Heavy Tails",
+      "venue_or_repository": "arXiv:2608.10868v1",
+      "publication_type": "primary specialist article or author manuscript",
+      "publication_date": "2026-08-11",
+      "latest_version_date": "2026-08-11",
+      "identifier": "arXiv:2608.10868v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2608.10868v1",
+      "locator": "Introduction; Model and conductivity correlation function Eqs. (2)–(7); Physical discussion and regime of validity; Eqs. (8)–(16); Direct numerical simulations; Conclusions",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Introduction; Model and conductivity correlation function Eqs. (2)–(7); Physical discussion and regime of validity; Eqs. (8)–(16); Direct numerical simulations; Conclusions"
+      ],
+      "supported_claim": "Apparent recent diffusion result has random heavy-tailed hopping and a large-connectivity approximation.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Relevant model, claimed formulas and validity assumptions read; no proof verification or examination of all supplementary derivations.",
+      "version_history_checked": "Versioned v1 was inspected; the HTML body displays August 24, 2026, separately from its arXiv submission date."
+    },
+    {
+      "source_id": "JKS",
+      "role": "apparent resolution scope comparison",
+      "authors": [
+        "V. Janiš",
+        "J. Kolorenč",
+        "V. Špička"
+      ],
+      "title": "Density and current response functions in strongly disordered electron systems: Diffusion, electrical conductivity and Einstein relation",
+      "venue_or_repository": "arXiv:cond-mat/0203414v3",
+      "publication_type": "author manuscript",
+      "publication_date": "2003-01-03",
+      "latest_version_date": "2003-01-03",
+      "identifier": "arXiv:cond-mat/0203414v3",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/pdf/cond-mat/0203414v3",
+      "locator": "§§I–II; §V Eqs. (38)–(48); §VI opening and §VII",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§I–II; §V Eqs. (38)–(48); §VI opening and §VII"
+      ],
+      "supported_claim": "Response identities and diffusion-pole representation, with analyticity assumptions; explicit solution is in infinite dimension.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Relevant claims and assumptions were read; no independent proof verification.",
+      "version_history_checked": "v1 2002-03-20; v2 2002-03-21; v3 2003-01-03. PDF body date differs; arXiv history determines the version date."
+    },
+    {
+      "source_id": "JK",
+      "role": "apparent resolution scope comparison",
+      "authors": [
+        "V. Janiš",
+        "J. Kolorenč"
+      ],
+      "title": "Quantum diffusion in a random potential: A consistent perturbation theory",
+      "venue_or_repository": "arXiv:1504.05504v2; European Physical Journal B 89 (2016), 170; DOI 10.1140/epjb/e2016-70188-1",
+      "publication_type": "author manuscript",
+      "publication_date": "2016-02-10",
+      "latest_version_date": "2016-02-10",
+      "identifier": "arXiv:1504.05504v2; European Physical Journal B 89 (2016), 170; DOI 10.1140/epjb/e2016-70188-1",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/pdf/1504.05504v2",
+      "locator": "§II; §V Eqs. (49)–(52) and discussion preceding §VI; §VI conclusion",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§II; §V Eqs. (49)–(52) and discussion preceding §VI; §VI conclusion"
+      ],
+      "supported_claim": "Represents a diffusion coefficient through unknown Green functions; quantitative evaluation uses approximations.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Relevant claims and assumptions were read; no independent proof verification.",
+      "version_history_checked": "v1 2015-04-21; v2 2016-02-10. Internal PDF date is 2021-07-19 and is not a new arXiv revision."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Web queries plus direct author, arXiv, institutional and publisher sources",
+      "query": "S92–S97 in ../search-log.json",
+      "date_filter_or_unrestricted": "Unrestricted, with 2025/2026 literal-year queries",
+      "results_inspected": [
+        "SIM",
+        "SP",
+        "E",
+        "ESY",
+        "BDH",
+        "SLF"
+      ],
+      "outcome": "No matching fixed-disorder resolution located. Recent heavy-tail transport has a different hopping law.",
+      "limitations": "A search does not certify absence of a proof; the cited relevant sections, not every proof, were read."
+    },
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Separate web searches, full primary PDFs and arXiv histories",
+      "query": "A15-1 through A15-4 in ../search-log.json",
+      "date_filter_or_unrestricted": "Unrestricted, with a literal 2026 correction query",
+      "results_inspected": [
+        "BDH",
+        "JKS",
+        "JK"
+      ],
+      "outcome": "Diffusion-pole identities were compared at formula and assumption level; they do not prove the candidate growth bounds.",
+      "limitations": "No claim to verify the full diagrammatic derivations."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "ESY",
+      "theorem_locator": "§2.2 Theorem 2.1",
+      "claim_type": "weak_coupling_scaling_limit",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "d=3 includes the proposed dimension.",
+        "Symmetric bounded uniform disorder satisfies the stated moment assumptions after normalization.",
+        "Time and space rescale with lambda, which tends to zero; macroscopic times lie in a fixed compact interval.",
+        "Conclusion concerns weak convergence of expected Wigner distributions against test functions."
+      ],
+      "scope_relation": "No all-large-time bound for one fixed positive disorder follows.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No all-large-time bound for one fixed positive disorder follows.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BDH",
+      "theorem_locator": "§1 Theorems 1.1–1.3",
+      "claim_type": "finite_time_and_resolvent_scaling",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Static Gaussian site disorder, unlike the bounded uniform law here.",
+        "Theorem 1.1 controls a time-averaged second moment and escape probability up to a lambda-dependent finite upper horizon.",
+        "Theorem 1.2 takes lambda to zero with a coupled resolvent scale.",
+        "Theorem 1.3 concerns a finite torus whose size depends on lambda."
+      ],
+      "scope_relation": "Neither the law, the time averaging nor the order of limits gives the proposed fixed-disorder pointwise-in-time assertion.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither the law, the time averaging nor the order of limits gives the proposed fixed-disorder pointwise-in-time assertion.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "SLF",
+      "theorem_locator": "Model Eqs. (2)–(7), regime-of-validity discussion and Eqs. (8)–(16)",
+      "claim_type": "different_model_analytical_transport",
+      "theorem_statement_actually_read": false,
+      "hypothesis_comparison": [
+        "Hopping amplitudes are random, sparse and heavy-tailed, with large mean coordination.",
+        "Analytical transport uses a mean-field regime with large connectivity and small hybridization.",
+        "The candidate has six deterministic nearest-neighbor hoppings per site."
+      ],
+      "scope_relation": "This is not a theorem for the candidate Hamiltonian. No transfer to deterministic hopping is supplied.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "This is not a theorem for the candidate Hamiltonian. No transfer to deterministic hopping is supplied.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "JKS",
+      "theorem_locator": "§§I–II; §V Eqs. (38)–(48); §VI opening and §VII",
+      "claim_type": "response_identity_and_approximation",
+      "theorem_statement_actually_read": false,
+      "claim_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "The site-disorder Anderson framework overlaps the candidate model.",
+        "The result represents a response/diffusion coefficient in terms of correlations; it does not bound the exact coefficient away from zero and infinity for the candidate law.",
+        "The explicit quantitative evaluations use infinite-dimensional or mean-field/diagrammatic approximations."
+      ],
+      "scope_relation": "No rigorous two-sided second-moment estimate for fixed disorder on Z^3 is supplied.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The representation is not an estimate establishing the candidate transport law.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "JK",
+      "theorem_locator": "§II; §V Eqs. (49)–(52) and discussion preceding §VI; §VI conclusion",
+      "claim_type": "response_identity_and_approximation",
+      "theorem_statement_actually_read": false,
+      "claim_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "The site-disorder Anderson framework overlaps the candidate model.",
+        "The result represents a response/diffusion coefficient in terms of correlations; it does not bound the exact coefficient away from zero and infinity for the candidate law.",
+        "The explicit quantitative evaluations use infinite-dimensional or mean-field/diagrammatic approximations."
+      ],
+      "scope_relation": "No rigorous two-sided second-moment estimate for fixed disorder on Z^3 is supplied.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The representation is not an estimate establishing the candidate transport law.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "015",
+        "difference": "Same model up to disorder normalization, but asks for an absolutely continuous spectral interval, without a displacement growth law."
+      },
+      {
+        "id": "016",
+        "difference": "Asks spectral localization in dimension two."
+      },
+      {
+        "id": "104",
+        "difference": "Deterministic potentials on R^d satisfying weighted square-integrability; asks absolutely continuous spectral multiplicity. The candidate has stationary iid lattice disorder and a dynamical observable."
+      },
+      {
+        "id": "120",
+        "difference": "Dynamically generated skew-shift potential and spectral localization, not iid transport."
+      }
+    ],
+    "distinctness_reason": "The quantitative time-dependent second moment is a separate sourced target; no active or accepted entry asks for its linear growth.",
+    "implications_or_equivalences": [
+      "Do not count different disorder normalizations, dimensions or quenched/annealed variants as separate additions.",
+      "Absolute continuity alone gives no prescribed diffusion rate; conversely no equivalence of this averaged second-moment bound with entry 015 is asserted.",
+      "Simon lists the spectral and dynamical questions separately. The stronger full Brownian-limit formulation is not another addition here."
+    ]
+  },
+  "open_status_evidence_summary": "SP states the averaged diffusion scenario; SIM and E pose the dynamical question. Current searches and recent theorem comparisons locate no matching fixed-disorder result.",
+  "independent_status_corroboration": "SIM, SP and E have disjoint author lists. E and ESY are one author lineage, as are Hernández’s lecture notes and BDH; neither pair is counted twice as independent support.",
+  "strongest_known_partial_results_and_gap": "ESY establishes a weak-coupling heat-equation limit; BDH extends quantitative finite-time control. Fixed positive disorder and arbitrarily large unaveraged times remain the proposed gap.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "No independent verification of the long technical proofs.",
+    "The order-of-growth formulation is weaker than an exact asymptotic coefficient or a Brownian process limit, and explicitly uses disorder averaging.",
+    "The current open-status assessment combines older explicit specialist formulations with searches and the November 2025 primary theorem."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass; no independent agent or human reviewer",
+    "reviewer_or_pass_identifier": "A15",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A15-1",
+      "A15-2",
+      "A15-3",
+      "A15-4"
+    ],
+    "issues_found": [
+      "Probability mode is not explicit in Simon’s terse statement.",
+      "An exact limiting coefficient would be stronger than the selected order-of-growth target.",
+      "Spectral delocalization, time-averaged estimates and weak-coupling limits may be confused with this assertion.",
+      "Diffusion-pole papers use the same Anderson terminology and require full scope checks.",
+      "Initial duplicate note incorrectly described entry 104 as a random-potential problem."
+    ],
+    "issues_resolved": [
+      "Used Spencer’s explicit disorder expectation and unprojected delta initial state.",
+      "Kept only positive finite two-sided linear bounds.",
+      "Retained fixed positive lambda, infinite lattice and no time averaging; checked ESY and BDH scope.",
+      "Read JKS response identities and analyticity caveats and JK coefficient representation/approximation discussion.",
+      "Reread entry 104 and corrected its deterministic continuum model.",
+      "Unit-variance uniform law is a coupling rescaling of Simon’s box distribution. Spencer’s kinetic normalization differs by a constant energy shift and the parity unitary U psi(x)=(-1)^(x1+x2+x3) psi(x), preserving transition probabilities.",
+      "Finite-range hopping makes the second moment finite at each finite time through bounded position commutators."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [
+    {
+      "date": "2026-09-17",
+      "scope": "Research checkpoint; no active catalogue integration",
+      "checks": [
+        "All 18 candidate records agree with progress counts and section coverage.",
+        "Source references and adversarial search IDs resolve, including older compact slash notation.",
+        "Four accepted unpublished drafts have required headings, balanced math delimiters and resolving local links.",
+        "python3 scripts/catalogue.py --check passed for the unchanged 310-entry catalogue.",
+        "git diff --check passed."
+      ],
+      "limitations": "Rendered-math inspection, resolution refresh and upstream duplicate refresh remain required at batch integration."
+    }
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/anderson-fixed-disorder-diffusion.md"
+}
