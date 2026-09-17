@@ -3934,5 +3934,237 @@
     "query": "\"Pierre\" \"Schmitt\" \"superquadratic\" correction erratum entropy",
     "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
     "review_stage": "Separate adversarial self-pass A16"
+  },
+  {
+    "search_id": "S113-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "sparse PCA computational statistical gap conjecture 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Statistics, learning and online-algorithm discovery"
+  },
+  {
+    "search_id": "S113-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "dynamic optimality conjecture splay trees 2026 solved proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Statistics, learning and online-algorithm discovery"
+  },
+  {
+    "search_id": "S113-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "matroid secretary conjecture 2026 constant competitive algorithm solved",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Statistics, learning and online-algorithm discovery"
+  },
+  {
+    "search_id": "S113-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "statistics open problems 2025 2026 conjecture log concave maximum likelihood",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Statistics, learning and online-algorithm discovery"
+  },
+  {
+    "search_id": "S114-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"sparse PCA\" \"conjecture\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Statistics, learning and online-algorithm discovery"
+  },
+  {
+    "search_id": "S114-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"sample compression conjecture\" 2026 proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Statistics, learning and online-algorithm discovery"
+  },
+  {
+    "search_id": "S114-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"log-concave\" \"maximum likelihood\" \"open problem\" rate 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Statistics, learning and online-algorithm discovery"
+  },
+  {
+    "search_id": "S114-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"learning parity with noise\" conjecture 2026 polynomial",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Statistics, learning and online-algorithm discovery"
+  },
+  {
+    "search_id": "S115-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"splay\" \"dynamic optimality\" proof counterexample refutation 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Splay, LPN and sample-compression primary and resolution checks"
+  },
+  {
+    "search_id": "S115-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"A study on splay trees\" dynamic optimality Tsai",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Splay, LPN and sample-compression primary and resolution checks"
+  },
+  {
+    "search_id": "S115-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Iacono \"In pursuit of the dynamic optimality conjecture\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Splay, LPN and sample-compression primary and resolution checks"
+  },
+  {
+    "search_id": "S115-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Splay trees are almost dynamically optimal\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Splay, LPN and sample-compression primary and resolution checks"
+  },
+  {
+    "search_id": "S116-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"learning parity with noise\" \"polynomial time\" \"2026\" algorithm solved",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Splay, LPN and sample-compression primary and resolution checks"
+  },
+  {
+    "search_id": "S116-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"learning parity with noise\" \"polynomial\" \"2025\" breakthrough",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Splay, LPN and sample-compression primary and resolution checks"
+  },
+  {
+    "search_id": "S116-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"learning parity with noise\" \"proof\" \"counterexample\" hardness",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Splay, LPN and sample-compression primary and resolution checks"
+  },
+  {
+    "search_id": "S116-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"learning parity with noise\" \"refutation\" OR \"solved\" OR \"erratum\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Splay, LPN and sample-compression primary and resolution checks"
+  },
+  {
+    "search_id": "S117-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"sample compression\" conjecture 2026 solved proof counterexample -site:reddit.com -site:emergentmind.com -site:mathdb.com",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Splay, LPN and sample-compression primary and resolution checks"
+  },
+  {
+    "search_id": "S117-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"sample compression conjecture\" \"2025\" \"2026\" Moran Yehudayoff",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Splay, LPN and sample-compression primary and resolution checks"
+  },
+  {
+    "search_id": "S117-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Labeled Compression Schemes for Concept Classes of Finite Functions\" withdrawn",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Splay, LPN and sample-compression primary and resolution checks"
+  },
+  {
+    "search_id": "S117-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Cryptography from Learning Parity with Noise\" Pietrzak pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Splay, LPN and sample-compression primary and resolution checks"
+  },
+  {
+    "search_id": "A17-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"splay tree\" \"dynamic optimality\" proved solved disproof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-review of splay dynamic optimality"
+  },
+  {
+    "search_id": "A17-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Sleator\" \"Tarjan\" \"Russo\" \"regular access\" conjecture proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-review of splay dynamic optimality"
+  },
+  {
+    "search_id": "A17-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"constant competitive\" \"binary search tree\" 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-review of splay dynamic optimality"
+  },
+  {
+    "search_id": "A17-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"dynamic optimality\" counterexample correction withdrawn tournament heaps",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-review of splay dynamic optimality"
+  },
+  {
+    "search_id": "A18-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"learning parity with noise\" \"polynomial time\" solved disproof 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-review of classical fixed-noise LPN"
+  },
+  {
+    "search_id": "A18-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Blum\" \"Kalai\" \"Wasserman\" \"parity\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-review of classical fixed-noise LPN"
+  },
+  {
+    "search_id": "A18-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Towards Worst-case Hardness for Low-Noise LPN\" correction",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-review of classical fixed-noise LPN"
+  },
+  {
+    "search_id": "A18-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"LPN\" \"constant noise\" \"polynomial\" algorithm 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-review of classical fixed-noise LPN"
+  },
+  {
+    "search_id": "A17-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"The generalized work function algorithm is\" binary search trees",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial self-review: apparent constant-competitive theorem"
   }
 ]

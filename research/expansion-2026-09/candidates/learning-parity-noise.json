@@ -1,0 +1,552 @@
+{
+  "candidate_id": "learning-parity-noise",
+  "proposed_catalogue_id": null,
+  "title": "Classical hardness of learning parity with noise",
+  "aliases": [
+    "Learning Parity with Noise",
+    "search-LPN hardness",
+    "noisy parity learning"
+  ],
+  "primary_section": "applied",
+  "secondary_tags": [
+    "statistical learning",
+    "cryptography",
+    "average-case complexity"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Source-matched statement, independent specialist corroboration, resolution and duplicate searches, full scope comparisons and a separate adversarial self-pass completed. Final batch refresh remains due.",
+  "problem_fingerprint": {
+    "model_or_objects": "Uniform random binary secret and noisy random parity examples",
+    "dimension": "n secret bits, n grows",
+    "domain": "F_2^n with uniform dense example vectors",
+    "regularity_and_data_class": "Independent uniform rows; iid Bernoulli label flips independent of the secret",
+    "boundary_or_initial_conditions": "No precomputed matrix-dependent advice; secret initially unknown",
+    "parameter_range": "Each constant eta in (0,1/2); every efficiently computable polynomially bounded sample count",
+    "quantifiers": "For every eta, sample-count function and uniform PPT algorithm, success is negligible",
+    "normalization": "Binary inner products modulo two",
+    "observable_or_norm": "Probability of exact secret recovery averaged over all instance and algorithm randomness",
+    "limit_regime_and_order": "n tends to infinity after eta and algorithm are fixed",
+    "requested_conclusion": "Prove or refute negligible recovery probability for every classical polynomial-time algorithm",
+    "computational_model_and_dependencies": "Uniform randomized bit complexity; all preprocessing charged; no quantum sample access or chosen examples"
+  },
+  "statement_source_and_scope_match": "P12 Definition 1 and footnote 7 give average-case recovery and non-negligible-success hardness. BJY20 independently states polynomial-time hardness; YIM26 uses the same classical sample model. The draft spells out negligible probability and uniform computation rather than assuming a deterministic worst-case lower bound.",
+  "proposed_statement_text": "Fix a noise probability $0<\\eta<1/2$, independent of the dimension $n$. Draw a secret $s$ uniformly from $\\mathbb F_2^n$, where $\\mathbb F_2=\\{0,1\\}$ with arithmetic modulo two. An algorithm receives $q(n)$ independent examples\n\n$$\n(a_i,b_i),\\qquad a_i\\sim\\operatorname{Unif}(\\mathbb F_2^n),\\qquad\nb_i=\\langle a_i,s\\rangle+e_i\\pmod2,\n$$\n\nwhere the $e_i$ are independent Bernoulli$(\\eta)$ bits, independent of $s$ and of all $a_i$.\n\nProve or refute the classical search-LPN hardness conjecture: for every such fixed $\\eta$, every polynomial-time computable, polynomially bounded sample count $q:\\mathbb N\\to\\mathbb N$, and every uniform randomized algorithm $A$ running in time polynomial in $n$, the success probability\n\n$$\np_{A,q,\\eta}(n)=\\Pr\\!\\left[A\\bigl(n,(a_i,b_i)_{i=1}^{q(n)}\\bigr)=s\\right]\n$$\n\nis negligible in $n$. Here negligible means that for every $c>0$ there is $n_0$ such that $p_{A,q,\\eta}(n)\\le n^{-c}$ for every $n\\ge n_0$. Probability includes the algorithm's randomness. The algorithm and sample-count function are fixed before taking $n\\to\\infty$ and may depend on the fixed noise rate.\n\nTime includes reading the examples and computing any preprocessing; no advice depending on the randomly drawn example matrix is supplied. The data are ordinary classical random examples, not chosen queries or coherent quantum examples. This asserts a computational barrier for recovering a hidden parity, not an information-theoretic impossibility.",
+  "applied_significance": "This is a basic test case for learning a discrete signal from independently corrupted labels. The conjectured gap between statistical identifiability and efficient recovery also underlies security arguments for lightweight authentication and other cryptographic constructions. Those security conclusions remain conditional on the relevant LPN assumption.",
+  "application_evidence_source_ids": [
+    "P12"
+  ],
+  "source_records": [
+    {
+      "source_id": "P12",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Krzysztof Pietrzak"
+      ],
+      "title": "Cryptography from Learning Parity with Noise",
+      "venue_or_repository": "SOFSEM 2012, LNCS 7147, 99–114",
+      "publication_type": "published scholarly article",
+      "publication_date": "2012",
+      "latest_version_date": null,
+      "identifier": "https://wiki.epfl.ch/edicpublic/documents/Candidacy%20exam/Cryptography_from_learning_parity_with_noise.pdf",
+      "version": null,
+      "stable_url": "https://wiki.epfl.ch/edicpublic/documents/Candidacy%20exam/Cryptography_from_learning_parity_with_noise.pdf",
+      "locator": "§1, Definition 1, Lemma 1, footnote 7 and algorithm discussion, pp. 99–102",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1, Definition 1, Lemma 1, footnote 7 and algorithm discussion, pp. 99–102"
+      ],
+      "supported_claim": "Average-case search assumption, negligible-success interpretation, search/decision relation and applications.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": null
+    },
+    {
+      "source_id": "BJY20",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Yu Bai",
+        "Chi Jin",
+        "Tiancheng Yu"
+      ],
+      "title": "Near-Optimal Reinforcement Learning with Self-Play",
+      "venue_or_repository": "NeurIPS 2020",
+      "publication_type": "published scholarly article",
+      "publication_date": "2020",
+      "latest_version_date": null,
+      "identifier": "https://proceedings.neurips.cc/paper_files/paper/2020/file/172ef5a94b4dd0aa120c6878fc29f70c-Paper.pdf",
+      "version": null,
+      "stable_url": "https://proceedings.neurips.cc/paper_files/paper/2020/file/172ef5a94b4dd0aa120c6878fc29f70c-Paper.pdf",
+      "locator": "Title page and §5, Conjecture 7, p. 9",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Title page and §5, Conjecture 7, p. 9"
+      ],
+      "supported_claim": "Independent explicit polynomial-time LPN hardness conjecture.",
+      "independent_of_source_ids": [
+        "P12"
+      ],
+      "access_limitations": "Supplementary Appendix E was not obtained; precise distribution is sourced to P12 rather than inferred from this shorthand conjecture.",
+      "version_history_checked": null
+    },
+    {
+      "source_id": "AG26",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Divesh Aggarwal",
+        "Rishav Gupta",
+        "Hai Hoang Nguyen",
+        "Kel Zin Tan",
+        "Prashant Nalini Vasudevan"
+      ],
+      "title": "Towards Worst-case Hardness for Low-Noise LPN",
+      "venue_or_repository": "arXiv:2606.05834",
+      "publication_type": "preprint",
+      "publication_date": "2026-06-04",
+      "latest_version_date": null,
+      "identifier": "https://arxiv.org/html/2606.05834v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2606.05834v1",
+      "locator": "§1; Theorem 3.1; Corollary 4.1 and proof",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1; Theorem 3.1; Corollary 4.1 and proof"
+      ],
+      "supported_claim": "Recent algorithm overview and conditional worst-case-to-average-case hardness.",
+      "independent_of_source_ids": [
+        "P12",
+        "BJY20"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "arXiv record lists v1 June 4, 2026 only; the HTML date is not treated as a new arXiv version."
+    },
+    {
+      "source_id": "YIM26",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Hayata Yamasaki",
+        "Natsuto Isogai",
+        "Mio Murao"
+      ],
+      "title": "Advantage of quantum machine learning from general computational advantages",
+      "venue_or_repository": "npj Quantum Information 12 (2026), article 125",
+      "publication_type": "published scholarly article",
+      "publication_date": "2026-07-28",
+      "latest_version_date": null,
+      "identifier": "https://www.nature.com/articles/s41534-026-01279-y",
+      "version": null,
+      "stable_url": "https://www.nature.com/articles/s41534-026-01279-y",
+      "locator": "Noisy-label discussion around Eqs. (21)–(23); publication metadata",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Noisy-label discussion around Eqs. (21)–(23); publication metadata"
+      ],
+      "supported_claim": "Independent recent status and explicit dimension-versus-input-size distinction.",
+      "independent_of_source_ids": [
+        "P12",
+        "BJY20",
+        "AG26"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "Publisher gives July 28 publication and August 3, 2026 version of record."
+    },
+    {
+      "source_id": "BKW00",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Avrim Blum",
+        "Adam Kalai",
+        "Hal Wasserman"
+      ],
+      "title": "Noise-Tolerant Learning, the Parity Problem, and the Statistical Query Model",
+      "venue_or_repository": "STOC 2000 conference version, pp. 435–440",
+      "publication_type": "published scholarly article",
+      "publication_date": "2000",
+      "latest_version_date": null,
+      "identifier": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/2003-Noise-Tolerant_Learning-STOC.pdf",
+      "version": null,
+      "stable_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/2003-Noise-Tolerant_Learning-STOC.pdf",
+      "locator": "Title/copyright; §2.1; Theorem 1; §3.1 Theorem 2 and proof, pp. 437–438",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Title/copyright; §2.1; Theorem 1; §3.1 Theorem 2 and proof, pp. 437–438"
+      ],
+      "supported_claim": "Subexponential time and samples; SQ lower bounds restrict the access model.",
+      "independent_of_source_ids": [
+        "P12",
+        "BJY20",
+        "AG26",
+        "YIM26"
+      ],
+      "access_limitations": "The filename says 2003, but this accessed six-page PDF is the STOC 2000 version, not the longer JACM version.",
+      "version_history_checked": null
+    },
+    {
+      "source_id": "BCLV25",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Andrej Bogdanov",
+        "Rohit Chatterjee",
+        "Yunqi Li",
+        "Prashant Nalini Vasudevan"
+      ],
+      "title": "Decoding Balanced Linear Codes With Preprocessing",
+      "venue_or_repository": "ECCC TR25-147",
+      "publication_type": "preprint",
+      "publication_date": "2025-10-16",
+      "latest_version_date": null,
+      "identifier": "https://eccc.weizmann.ac.il/report/2025/147/download/",
+      "version": null,
+      "stable_url": "https://eccc.weizmann.ac.il/report/2025/147/download/",
+      "locator": "Introduction; §3 preprocessing definition; Theorem 3.2 and Corollary 3.3, p. 7",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Introduction; §3 preprocessing definition; Theorem 3.2 and Corollary 3.3, p. 7"
+      ],
+      "supported_claim": "Polynomial decoder in a vanishing-noise regime with code-dependent advice.",
+      "independent_of_source_ids": [
+        "P12",
+        "BJY20",
+        "YIM26",
+        "BKW00"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "ECCC report page has no listed revision; the comparison uses that text, not the separately indexed ITCS 2026 version."
+    },
+    {
+      "source_id": "BHLM26",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Arpon Basu",
+        "Jun-Ting Hsieh",
+        "Andrew D. Lin",
+        "Peter Manohar"
+      ],
+      "title": "Solving Random Planted CSPs Below the n^{k/2} Threshold",
+      "venue_or_repository": "LIPIcs ICALP 2026, article 23",
+      "publication_type": "published scholarly article",
+      "publication_date": "2026",
+      "latest_version_date": null,
+      "identifier": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.23/LIPIcs.ICALP.2026.23.html",
+      "version": null,
+      "stable_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.23/LIPIcs.ICALP.2026.23.html",
+      "locator": "§1 Definition 5 and full Theorem 6, including Eq. (1)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 Definition 5 and full Theorem 6, including Eq. (1)"
+      ],
+      "supported_claim": "Sparse-row LPN algorithm, not the uniform dense sample model.",
+      "independent_of_source_ids": [
+        "P12",
+        "BJY20",
+        "AG26",
+        "YIM26",
+        "BKW00"
+      ],
+      "access_limitations": null,
+      "version_history_checked": null
+    },
+    {
+      "source_id": "KKKO20",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Matti Karppa",
+        "Petteri Kaski",
+        "Jukka Kohonen",
+        "Padraig Ó Catháin"
+      ],
+      "title": "Explicit Correlation Amplifiers for Finding Outlier Correlations in Deterministic Subquadratic Time",
+      "venue_or_repository": "Algorithmica 82 (2020), 3306–3337",
+      "publication_type": "published scholarly article",
+      "publication_date": "2020-06-20",
+      "latest_version_date": null,
+      "identifier": "https://link.springer.com/article/10.1007/s00453-020-00727-1",
+      "version": null,
+      "stable_url": "https://link.springer.com/article/10.1007/s00453-020-00727-1",
+      "locator": "§1 Problem 3 and Corollary 2, including constraints (1)–(2)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 Problem 3 and Corollary 2, including constraints (1)–(2)"
+      ],
+      "supported_claim": "Deterministic polynomial guarantee fixes the secret support size.",
+      "independent_of_source_ids": [
+        "P12",
+        "BJY20",
+        "AG26",
+        "YIM26",
+        "BKW00"
+      ],
+      "access_limitations": null,
+      "version_history_checked": null
+    },
+    {
+      "source_id": "PQS26",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Alexander Poremba",
+        "Yihui Quek",
+        "Peter Shor"
+      ],
+      "title": "The Learning Stabilizers with Noise Problem",
+      "venue_or_repository": "LIPIcs ITCS 2026, article 108",
+      "publication_type": "published scholarly article",
+      "publication_date": "2026",
+      "latest_version_date": null,
+      "identifier": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol362-itcs2026/html/LIPIcs.ITCS.2026.108/LIPIcs.ITCS.2026.108.html",
+      "version": null,
+      "stable_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol362-itcs2026/html/LIPIcs.ITCS.2026.108/LIPIcs.ITCS.2026.108.html",
+      "locator": "§4 Definition 2; §5.1 Theorem 5 and proof; §5.2 input description",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§4 Definition 2; §5.1 Theorem 5 and proof; §5.2 input description"
+      ],
+      "supported_claim": "Polynomial quantum theorem uses stabilizer-code quantum input and noise 1/n.",
+      "independent_of_source_ids": [
+        "P12",
+        "BJY20",
+        "AG26",
+        "YIM26",
+        "BKW00"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "Related arXiv:2410.18953 lists latest v5 April 14, 2025; theorem comparison uses published ITCS text."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Web search followed by primary arXiv, publisher and author full texts",
+      "query": "S114-4, S116-1 through S116-4, S117-4 and A18-1 through A18-4 in ../search-log.json",
+      "date_filter_or_unrestricted": "Unrestricted; literal 2025/2026 and correction terms as recorded",
+      "results_inspected": [
+        "P12",
+        "BJY20",
+        "AG26",
+        "YIM26",
+        "BKW00",
+        "BCLV25",
+        "BHLM26",
+        "KKKO20",
+        "PQS26"
+      ],
+      "outcome": "No matching resolution located; exact scope comparisons recorded below.",
+      "limitations": "Search absence does not prove openness; whole proofs were not independently certified."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "AG26",
+      "theorem_locator": "Theorem 3.1; Corollary 4.1",
+      "claim_type": "conditional_hardness",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Corollary assumes joint worst-case hardness for decoding a code and distinguishing dual syndromes.",
+        "Conclusion is negligible success at noise n^(-alpha)."
+      ],
+      "scope_relation": "Adding independent noise can transfer the conclusion to larger rates, but cannot remove the hardness assumptions.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Adding independent noise can transfer the conclusion to larger rates, but cannot remove the hardness assumptions.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BCLV25",
+      "theorem_locator": "§3 Theorem 3.2; Corollary 3.3",
+      "claim_type": "preprocessed_low_noise_decoding",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Advice depends on the code and need not be efficiently computed.",
+        "Polynomial regime: balance n^(-Omega(1)), noise O(log^2(n)/n)."
+      ],
+      "scope_relation": "Both preprocessing and noise assumptions differ; this is not a uniform polynomial fixed-noise decoder.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Both preprocessing and noise assumptions differ; this is not a uniform polynomial fixed-noise decoder.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BHLM26",
+      "theorem_locator": "Definition 5; Theorem 6",
+      "claim_type": "sparse_example_algorithm",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Rows are generated from k-tuples; k=o(n^(1/4)).",
+        "Runtime n^{O(ell)}, with ell>=2k, and explicit sample lower bound (1)."
+      ],
+      "scope_relation": "Uniform dense rows have no such bounded-arity promise. Taking k proportional to n violates the theorem and would not retain polynomial time.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Uniform dense rows have no such bounded-arity promise. Taking k proportional to n violates the theorem and would not retain polynomial time.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "KKKO20",
+      "theorem_locator": "Problem 3 and Corollary 2",
+      "claim_type": "sparse_secret_algorithm",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Secret support size k is fixed.",
+        "Displayed runtime is v raised to a constant multiple of k."
+      ],
+      "scope_relation": "Uniform n-bit secrets do not have fixed support size; the theorem gives no polynomial-in-n bound for this distribution.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Uniform n-bit secrets do not have fixed support size; the theorem gives no polynomial-in-n bound for this distribution.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "YIM26",
+      "theorem_locator": "Discussion around Eqs. (22)–(23)",
+      "claim_type": "dimension_rescaling",
+      "theorem_statement_actually_read": false,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Exhaustive search enumerates 2^D secrets.",
+        "Dimension D=O(log N) makes that polynomial in an external N."
+      ],
+      "scope_relation": "Candidate input size is polynomial in its secret dimension n, so this does not supply a polynomial-in-n algorithm.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Candidate input size is polynomial in its secret dimension n, so this does not supply a polynomial-in-n algorithm.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BKW00",
+      "theorem_locator": "§3.1 Theorem 2; §2.2 Theorem 1",
+      "claim_type": "subexponential_algorithm_and_restricted_lower_bound",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Algorithm uses 2^{O(n/log n)} time and samples.",
+        "Lower-bound theorem uses statistical queries."
+      ],
+      "scope_relation": "Neither result settles arbitrary polynomial-time algorithms on polynomially many classical examples.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither result settles arbitrary polynomial-time algorithms on polynomially many classical examples.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "PQS26",
+      "theorem_locator": "Definition 2; Theorem 5",
+      "claim_type": "quantum_stabilizer_decoder",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Input includes a noisy quantum codeword and classical stabilizer description.",
+        "Theorem 5 sets p=1/n and runs a quantum decoding algorithm."
+      ],
+      "scope_relation": "Different data, computational model and noise scaling; no classical LPN resolution.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Different data, computational model and noise scaling; no classical LPN resolution.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "latest_local_comparison_commit": "3ddf14baaa072bfedacce680dc1906474770fd8a",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "303",
+        "difference": "Planted-clique detection observes random graphs and asks for nonvanishing distinguishing advantage; LPN recovers a binary secret from labeled parity examples."
+      },
+      {
+        "id": "269",
+        "difference": "Most-informative Boolean functions maximize a mutual-information inequality, without a recovery algorithm or complexity restriction."
+      },
+      {
+        "id": "044",
+        "difference": "Deterministic RIP constructs real sensing matrices; this uses random binary rows and noisy decoding."
+      }
+    ],
+    "distinctness_reason": "Full closest statements have different observations and conclusions. Source-map, exclusion and pending-draft searches found no parity-learning alias or equivalent accepted entry.",
+    "implications_or_equivalences": [
+      "Search and decision LPN are polynomially related as in P12 Lemma 1; count one family.",
+      "Do not count separate constant noise values, sparse variants or alternative success formulations without distinct source-backed questions."
+    ]
+  },
+  "open_status_evidence_summary": "Independent specialist sources state LPN hardness as an assumption, and the 2026 status discussion retains the efficient-recovery gap. Reviewed apparent algorithms do not match the candidate.",
+  "independent_status_corroboration": "P12, BJY20, YIM26 and BKW00 have disjoint authors. AG26 and BCLV25 share Vasudevan and are not independent corroboration of each other.",
+  "strongest_known_partial_results_and_gap": "BKW is subexponential with superpolynomial samples. P12 and AG26 also discuss 2^{O(n/log log n)} polynomial-sample algorithms. No optimality of these bounds is asserted; neither is polynomial.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "BJY supplementary Appendix E was not obtained; P12 supplies the exact model.",
+    "A newly discovered pseudorandom-code paper PDF returned an access error; its abstract only asserts conditional constructions, and no admission claim relies on it.",
+    "The original polynomial-sample Lyubashevsky theorem was not separately read; its runtime is reported only as an overview from P12 and AG26.",
+    "Full relevant theorem statements were inspected; their proofs were not independently certified."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass; no independent agent or human reviewer",
+    "reviewer_or_pass_identifier": "A18",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A18-1",
+      "A18-2",
+      "A18-3",
+      "A18-4"
+    ],
+    "issues_found": [
+      "Polynomial runtime can hide free code-dependent preprocessing.",
+      "Polynomial in an external input size can be exponential in secret dimension.",
+      "Sparse examples, sparse secrets and quantum codeword inputs are different models.",
+      "A polynomially bounded but noncomputable sample-count function could encode nonuniform information."
+    ],
+    "issues_resolved": [
+      "Charged preprocessing in the statement and checked the full BCLV theorem.",
+      "Read YIM dimension choice and compared the actual asymptotic variable.",
+      "Read BHLM, KKKO and PQS definitions and complete relevant theorem statements.",
+      "Required q to be polynomial-time computable as well as polynomially bounded."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [
+    {
+      "date": "2026-09-17",
+      "scope": "Research checkpoint; no active catalogue integration",
+      "checks": [
+        "Candidate JSON, source IDs, actual search IDs and local evidence links resolve.",
+        "Draft statement and evidence record match exactly; required sections and paired display delimiters checked.",
+        "All 21 candidate records agree with progress: 17 accepted, one unverified hold, three resolution-claim holds.",
+        "python3 scripts/catalogue.py --check passed for 310 active entries.",
+        "git diff --check passed; fetched origin/main equals local HEAD 3ddf14b before checkpoint."
+      ],
+      "limitations": "Mathematical correctness and open status are not mechanically certified. Batch resolution refresh and rendered-math inspection remain due at integration."
+    }
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/learning-parity-noise.md"
+}

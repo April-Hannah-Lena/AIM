@@ -23,7 +23,7 @@ All ten handoff seeds now have investigation records; eight passed draft review 
 
 ## Coverage still required
 
-All twelve sections have accepted additions, including drafts awaiting integration (inverse3 has three and stochastic3 has two). All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
+All twelve sections have accepted additions, including drafts awaiting integration (inverse3 has three; operators, applied and stochastic3 each have two). All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
 
 ## Information-network discovery
 
@@ -41,3 +41,7 @@ All twelve sections have accepted additions, including drafts awaiting integrati
 - **Fixed-disorder quantum transport:** Simon Example 2.1 and Problem 3, independently authored Spencer §1.4 and Erdős §5.3(iii). ESY Theorem 2.1, BDH v2 Theorems 1.1–1.3, Safonova–Lunkin–Feigel’man’s heavy-tail model, and Janiš et al. diffusion-pole identities were compared. The [accepted record](candidates/anderson-fixed-disorder-diffusion.json) specifies disorder averaging and two-sided growth at fixed positive disorder; it is distinct from entry 015’s spectral assertion.
 
 - **Chemical reaction–diffusion continuation:** Fischer §§1–2 and Fellner–Tang’s disjoint-species no-flux model supply the formulation; Agresti’s independent discussion and Agresti–Kniely–Tang’s August 2026 examples retain the deterministic gap. Classical, renormalized, low-growth, close/high-diffusivity and noisy results were compared at theorem level. Pierre’s 2021 author counterexample statement and Hopf–Tang’s February 2026 scope discussion replace inaccessible original Pierre–Schmitt full text. The [accepted record](candidates/reversible-reaction-classical-continuation.json) includes the separate A16 review and access limitations.
+
+- **Adaptive dictionaries:** Iacono §1 Conjecture 1 and independent Chmel et al. July 2026 Theorem 1; Russo v3 Conjecture 3.1/Theorem 4.6; Munro–Peng–Wild–Zhang Definition 1.1/Theorems 1.2–1.3. Sitters §4 Theorem 2 and §6.1 resolve a misleading constant-competitive search hit. [Accepted splay record](candidates/splay-dynamic-optimality.json).
+
+- **Noisy parity learning:** Pietrzak Definition 1/footnote 7, independent Bai–Jin–Yu Conjecture 7 and Yamasaki–Isogai–Murao Eqs. (22)–(23); Aggarwal et al. June 2026 conditional reduction. Full BKW, balanced-code preprocessing, sparse-XOR, sparse-secret and quantum-stabilizer theorem comparisons appear in the [accepted LPN record](candidates/learning-parity-noise.json). The matrix is over a finite field; this is statistical learning and cryptographic complexity, not numerical linear algebra.

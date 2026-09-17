@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 15,
+  "new_accepted": 17,
   "active_total": 310,
-  "candidates_investigated": 19,
+  "candidates_investigated": 21,
   "held_unverified": 1,
   "held_claimed_resolution": 3,
   "excluded": 0,
-  "remaining_to_minimum": 185,
-  "remaining_to_target": 235,
+  "remaining_to_minimum": 183,
+  "remaining_to_target": 233,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -58,9 +58,13 @@
     {
       "commit": "7fcc587",
       "purpose": "Record the reviewed fixed-disorder quantum diffusion draft; pushed directly to main."
+    },
+    {
+      "commit": "3ddf14b",
+      "purpose": "Record the reviewed reversible reaction–diffusion continuation draft; pushed directly to main."
     }
   ],
-  "remote_state": "Direct push access verified on 2026-09-17: git push origin HEAD:main returned Everything up-to-date and git ls-remote showed 7fcc587f9c76efa4941e0df37acba03c422134b6 before this research checkpoint. First ten entries are published. The user authorizes direct pushes to main; no PR is required or created.",
+  "remote_state": "Direct push access reverified on 2026-09-17: git push origin HEAD:main returned Everything up-to-date and git ls-remote showed 3ddf14baaa072bfedacce680dc1906474770fd8a before this checkpoint. First ten entries are published. The user authorizes direct pushes to main; no PR is required or created.",
   "next_actions": [
     "Continue discovery across all twelve sections and broader application areas; assemble the next batch of approximately 10–20 accepted drafts, refresh evidence and upstream duplicate checks, then push directly to main.",
     "All ten handoff seeds investigated: eight accepted drafts, Morrey and Yang–Mills held on matching unadjudicated claims.",
@@ -69,9 +73,9 @@
   ],
   "coverage": {
     "spectral": 1,
-    "operators": 1,
+    "operators": 2,
     "inverse": 1,
-    "applied": 1,
+    "applied": 2,
     "spectral2": 1,
     "inverse2": 1,
     "continuum2": 1,
@@ -83,7 +87,7 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 10,
-  "count_semantics": "Fifteen accepted additions: ten integrated and published, five drafts awaiting the next batch. Active total is 310; held records do not count.",
+  "count_semantics": "Seventeen accepted additions: ten integrated and published, seven drafts awaiting the next batch. Active total is 310; held records do not count.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 10,
   "coverage_semantics": "Accepted additions by primary section, including accepted drafts awaiting integration."
