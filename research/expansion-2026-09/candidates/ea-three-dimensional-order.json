@@ -1,0 +1,329 @@
+{
+  "candidate_id": "ea-three-dimensional-order",
+  "proposed_catalogue_id": null,
+  "title": "Positive-temperature order in the three-dimensional Edwards–Anderson spin glass",
+  "aliases": [
+    "3D EA spin-glass transition",
+    "finite-temperature Edwards–Anderson order",
+    "positive overlap broadening in short-range spin glasses"
+  ],
+  "primary_section": "stochastic2",
+  "secondary_tags": [
+    "disordered materials",
+    "statistical mechanics",
+    "random media"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "The source-defined finite-temperature overlap question passes current-result comparisons, independent status corroboration, baseline duplicate review and a separated adversarial draft pass. No later matching resolution located as of September 17, 2026.",
+  "problem_fingerprint": {
+    "model_or_objects": "Ising spins with quenched independent Gaussian nearest-neighbor bonds and two independent thermal replicas of the same disorder",
+    "dimension": "3",
+    "domain": "Boxes Lambda_L={1,...,L}^3 in Z^3",
+    "regularity_and_data_class": "Bonds J_e iid N(0,1); spins +/-1",
+    "boundary_or_initial_conditions": "Free boundary; no external field; zero replica coupling",
+    "parameter_range": "All fixed beta>beta_0 for some finite beta_0>0",
+    "quantifiers": "Exists finite beta_0; for every beta>beta_0 the disorder-averaged squared site overlap has positive limsup",
+    "normalization": "Hamiltonian -sum_unordered_edges J_e sigma_x sigma_y; R=L^(-3)sum_sites sigma_x^1 sigma_x^2; Boltzmann factor exp(-beta H)",
+    "observable_or_norm": "E_J expectation under product Gibbs measure of R^2",
+    "limit_regime_and_order": "Fix beta finite; then limsup L->infinity. No beta->infinity before volume limit.",
+    "requested_conclusion": "Strictly positive overlap broadening at sufficiently low positive temperature",
+    "computational_model_and_dependencies": "Equilibrium phase question; no numerical evidence or mean-field approximation assumed"
+  },
+  "statement_source_and_scope_match": "IMT §3.1 explicitly states the low-temperature expectation for d>=3 and defines the open-boundary, uncoupled-replica broadening parameter by limsup in Eq. (3.3). We use d=3 and the standard Gaussian law permitted by §2.1 and independently specified by NS and CHAT. Positivity of the displayed limsup is exactly q_br>0.",
+  "proposed_statement_text": "For the nearest-neighbor Ising Edwards–Anderson model on [1,L]^3 with free boundary, zero field and independent N(0,1) bonds, does there exist finite beta_0 such that limsup_{L->infinity} E_J <(L^(-3) sum_x sigma_x^1 sigma_x^2)^2>_{beta,J}^{tensor 2}>0 for every beta>beta_0?",
+  "applied_significance": "A model of a magnet with frustrated, frozen random interactions. Nonzero overlap fluctuations indicate that two equilibrated replicas retain macroscopic common spin structure, even though spin-flip symmetry makes the signed mean overlap zero.",
+  "application_evidence_source_ids": [
+    "IMT",
+    "CHAT",
+    "HK"
+  ],
+  "source_records": [
+    {
+      "source_id": "IMT",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Chigak Itoi",
+        "Hisamitsu Mukaida",
+        "Hal Tasaki"
+      ],
+      "title": "Griffiths-Type Theorems for Short-Range Spin Glass Models",
+      "venue_or_repository": "journal article",
+      "publication_type": "journal article",
+      "publication_date": "2024-02-23",
+      "latest_version_date": null,
+      "identifier": "Journal of Statistical Physics 191 (2024), 28; DOI 10.1007/s10955-024-03246-3",
+      "version": null,
+      "stable_url": "https://link.springer.com/article/10.1007/s10955-024-03246-3",
+      "locator": "§§2.1–2.2 model and Eq. (2.25); §3.1 Eq. (3.3), Theorem 3.1 and discussion",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§2.1–2.2 model and Eq. (2.25); §3.1 Eq. (3.3), Theorem 3.1 and discussion"
+      ],
+      "supported_claim": "Precise overlap definition and low-temperature expectation; inequality between order parameters does not prove positivity.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "NS",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "C. M. Newman",
+        "D. L. Stein"
+      ],
+      "title": "Short-Range Spin Glasses",
+      "venue_or_repository": "specialist problem collection",
+      "publication_type": "specialist problem collection",
+      "publication_date": "1998-09-18",
+      "latest_version_date": null,
+      "identifier": "IAMP Open Problems in Mathematical Physics, contribution dated September 18, 1998",
+      "version": null,
+      "stable_url": "https://web.math.princeton.edu/~aizenman/OpenProblems_MathPhys/9803.SpinGlass.html",
+      "locator": "Model paragraph and Questions 1–2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Model paragraph and Questions 1–2"
+      ],
+      "supported_claim": "Independent historical formulation of the unresolved short-range zero-field finite-temperature transition, allowing Gaussian bonds.",
+      "independent_of_source_ids": [
+        "IMT"
+      ],
+      "access_limitations": null
+    },
+    {
+      "source_id": "HK",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Koji Hukushima",
+        "Werner Krauth"
+      ],
+      "title": "Damage spreading and coupling in spin glasses and hard spheres",
+      "venue_or_repository": "journal article",
+      "publication_type": "journal article",
+      "publication_date": "2025-02-13",
+      "latest_version_date": null,
+      "identifier": "Frontiers in Physics 12, 1507250; DOI 10.3389/fphy.2024.1507250",
+      "version": null,
+      "stable_url": "https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2024.1507250/full",
+      "locator": "§3.1, discussion of thermodynamics in finite dimensions",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§3.1, discussion of thermodynamics in finite dimensions"
+      ],
+      "supported_claim": "Independent statement that finite-temperature transition in 3D has numerical evidence but no rigorous proof.",
+      "independent_of_source_ids": [
+        "IMT",
+        "NS"
+      ],
+      "access_limitations": "Publisher labels volume 12 as 2024, but publication and recommended citation year are 2025; recorded actual publication February 13, 2025. Mathematical formulation taken from IMT because publisher HTML omits some equations."
+    },
+    {
+      "source_id": "CHAT",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Sourav Chatterjee"
+      ],
+      "title": "Spin glass phase at zero temperature in the Edwards–Anderson model",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2023-01-10",
+      "latest_version_date": "2026-05-02",
+      "identifier": "arXiv:2301.04112v6",
+      "version": "v6",
+      "stable_url": "https://arxiv.org/html/2301.04112v6",
+      "locator": "§§1–1.2, model, Theorem 1 and Corollary 1; §§1.3–1.5 Theorems 3–6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1–1.2, model, Theorem 1 and Corollary 1; §§1.3–1.5 Theorems 3–6"
+      ],
+      "supported_claim": "Gaussian ground-state results at zero temperature; not a finite-temperature overlap theorem.",
+      "independent_of_source_ids": [
+        "IMT",
+        "NS",
+        "HK"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/2301.04112; six versions, latest May 2, 2026."
+    },
+    {
+      "source_id": "IS",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "C. Itoi",
+        "Y. Sakamoto"
+      ],
+      "title": "Self-averaging of replica overlaps in the random field Edwards-Anderson model",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-06-17",
+      "latest_version_date": "2026-06-18",
+      "identifier": "arXiv:2606.18752v2",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2606.18752v2",
+      "locator": "§2.1 h>0 model; §3.3 Theorem 3.1; §4.1 Lemma 4.1; §5.2 Eqs. (5.3)–(5.6)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§2.1 h>0 model; §3.3 Theorem 3.1; §4.1 Lemma 4.1; §5.2 Eqs. (5.3)–(5.6)"
+      ],
+      "supported_claim": "Site-overlap result excludes zero field; zero-field bond-overlap statement concerns a different observable.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/2606.18752; v1 June 17 and v2 June 18, 2026. v2 model and theorem checked after v1 discovery."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "query": "S15-3, S16-5–6, S17-2, S19-1–3, S20-1, S24-1–3 in ../search-log.json",
+      "discovery_route": "Web search, journal full text, arXiv full text and version records",
+      "date_filter_or_unrestricted": "unrestricted",
+      "results_inspected": [
+        "IMT",
+        "NS",
+        "HK",
+        "CHAT",
+        "IS"
+      ],
+      "outcome": "No matching positive-temperature proof or counterexample located.",
+      "limitations": "No independent expert review; searched absence does not establish open status."
+    },
+    {
+      "searched_at": "2026-09-17",
+      "query": "A6-1–3 in ../search-log.json",
+      "discovery_route": "Independent search after draft and scope/duplicate self-review",
+      "date_filter_or_unrestricted": "unrestricted",
+      "results_inspected": [
+        "IMT",
+        "IS",
+        "CHAT"
+      ],
+      "outcome": "No matching finite-beta 3D Gaussian zero-field proof or refutation located; tree-model order and zero-temperature claims do not match.",
+      "limitations": "Separated self-review only."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "IMT",
+      "theorem_locator": "§3.1 Theorem 3.1",
+      "claim_type": "conditional_order_implication",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same zero-field model class.",
+        "q_EA>=q_br does not establish either positive.",
+        "No equality of the two order parameters is asserted in the candidate."
+      ],
+      "scope_relation": "The missing conclusion is positive q_br at finite beta, not a characterization conditional on positivity.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The missing conclusion is positive q_br at finite beta, not a characterization conditional on positivity.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CHAT",
+      "theorem_locator": "§1.1 and Theorem 1, Corollary 1",
+      "claim_type": "zero_temperature_result",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Gaussian nearest-neighbor disorder agrees with candidate.",
+        "Paper explicitly restricts to beta=infinity.",
+        "Theorem 1 compares ground states with different, perturbed disorder; candidate compares thermal replicas at the same disorder."
+      ],
+      "scope_relation": "No bound uniform in volume supplies a fixed finite-temperature positive overlap; swapping temperature and volume limits is unjustified.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No bound uniform in volume supplies a fixed finite-temperature positive overlap; swapping temperature and volume limits is unjustified.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "IS",
+      "theorem_locator": "§3.3 Theorem 3.1; §4.1 Lemma 4.1; §5.2",
+      "claim_type": "different_field_and_observable",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Theorem assumes positive Gaussian field strength h and differentiability parameters in A.",
+        "Formula for the mean overlap divides by beta*h; §5.2 explicitly excludes h=0 from this argument.",
+        "Zero-field claim (5.5) concerns centered variance of a nearest-neighbor bond overlap, not the squared site overlap."
+      ],
+      "scope_relation": "Does not refute zero-field site-overlap order. A nearest-neighbor bond average is not the all-pairs average underlying R^2 in a finite-dimensional lattice.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not refute zero-field site-overlap order. A nearest-neighbor bond average is not the all-pairs average underlying R^2 in a finite-dimensional lattice.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "196",
+        "difference": "Uniqueness of 2D infinite-volume ground-state pairs; here 3D finite-temperature thermal overlap positivity."
+      },
+      {
+        "id": "195",
+        "difference": "Ferromagnetic interface classification, without signed Gaussian disorder."
+      }
+    ],
+    "distinctness_reason": "Neither baseline nor accepted additions has this positive-temperature short-range disordered overlap assertion.",
+    "implications_or_equivalences": [
+      "All versions of the same low-temperature order question remain one canonical entry.",
+      "Positive q_br implies positive q_EA by IMT, but the converse is not claimed.",
+      "No claim about replica symmetry breaking beyond global spin-flip structure is included."
+    ]
+  },
+  "open_status_evidence_summary": "IMT identifies expected low-temperature order and characterizes it without proving positivity. NS independently poses the phase-transition question; HK §3.1 says the 3D finite-temperature transition remains unproved. CHAT v6 gives only zero-temperature results.",
+  "independent_status_corroboration": "NS, HK and CHAT have no authors in common with IMT. HK provides 2025 published status corroboration, while CHAT May 2026 explicitly limits its scope to zero temperature.",
+  "strongest_known_partial_results_and_gap": "IMT proves q_EA>=q_br, conditional on overlap broadening rather than its positivity. CHAT establishes several rigorous ground-state glassy signatures. Neither establishes nonzero q_br at any finite beta in three dimensions.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass",
+    "reviewer_or_pass_identifier": "A6",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A6-1",
+      "A6-2",
+      "A6-3"
+    ],
+    "issues_found": [
+      "Need finite beta before volume limit, and limsup rather than unsupported existence of a limit.",
+      "Two replicas must use the same disorder.",
+      "Site overlap differs from bond overlap, and zero-field variance equals second moment only through spin-flip symmetry.",
+      "Do not infer replica symmetry breaking or equality q_EA=q_br."
+    ],
+    "issues_resolved": [
+      "Checked against IMT §§2–3; all conventions explicit.",
+      "Fixed finite beta and product Gibbs law at fixed J stated.",
+      "IS v2 positive-field hypothesis and explicit zero-field limitation checked.",
+      "No extra structural claim about the spin-glass phase added.",
+      "Baseline 195 and 196 reread and distinctness confirmed."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "codex/expand-open-problems-2026-09",
+    "commit": null,
+    "pull_request_url": null
+  }
+}

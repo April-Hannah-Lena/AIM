@@ -1,0 +1,651 @@
+{
+  "candidate_id": "landau-coulomb-inhomogeneous",
+  "proposed_catalogue_id": null,
+  "title": "Global classical solutions of the spatially inhomogeneous Landau–Coulomb equation",
+  "aliases": [
+    "inhomogeneous Coulomb Landau global regularity",
+    "large-data Landau–Coulomb well-posedness"
+  ],
+  "primary_section": "continuum2",
+  "secondary_tags": [
+    "plasma physics",
+    "kinetic theory",
+    "nonlinear evolution"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Source-backed nice-data continuation question passed recent-theorem comparisons, independent status corroboration, baseline duplicate review and separated adversarial review.",
+  "problem_fingerprint": {
+    "model_or_objects": "Nonnegative one-species density f(t,x,v); classical anisotropic Landau collision integral with no force term",
+    "dimension": "Three space and three velocity dimensions",
+    "domain": "T^3=(R/Z)^3 in x; R^3 in v",
+    "regularity_and_data_class": "C-infinity initial data, every x/v derivative rapidly decreasing in v uniformly in x; f0>=delta on |v|<=r for some delta,r>0",
+    "boundary_or_initial_conditions": "Periodic in x; f(0)=f0",
+    "parameter_range": "Coulomb gamma=-3, arbitrary data size",
+    "quantifiers": "Every admissible f0; every finite T and velocity weight m>=0",
+    "normalization": "a(z)=|z|^(-1)(I-z tensor z/|z|^2); collision prefactor one; no prescribed total mass",
+    "observable_or_norm": "Global nonnegative solution, smooth for t>0, continuous at t=0 and sup_[0,T] ||<v>^m f||_infinity finite",
+    "limit_regime_and_order": "Global continuation; no homogeneous, grazing, semiclassical or small-data limit",
+    "requested_conclusion": "Maximal classical existence time is infinity",
+    "computational_model_and_dependencies": "Unconditional PDE question; no assumed hydrodynamic bounds"
+  },
+  "statement_source_and_scope_match": "HST Theorems 1.2–1.4 supply the local class and uniqueness, including periodic data. GHS Theorem 1.3 explicitly includes T^3 and gamma=-3 and leaves global continuation unresolved. Nice arbitrary-size data are a standard precise subcase, not a conjecture about every weak solution.",
+  "proposed_statement_text": "For every smooth, nonnegative, velocity-Schwartz initial density on T^3 x R^3, uniformly positive on a fixed velocity ball, does the local classical Landau solution with Coulomb kernel extend for all positive times with every polynomially weighted L-infinity norm finite on each finite time interval?",
+  "applied_significance": "The Coulomb operator models collisional redistribution of charged-particle velocities in a plasma. Global classical continuation determines whether a smooth kinetic density remains a valid description at every finite time far from equilibrium.",
+  "application_evidence_source_ids": [
+    "HST",
+    "SS",
+    "GHS"
+  ],
+  "source_records": [
+    {
+      "source_id": "HST",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Christopher Henderson",
+        "Stanley Snelson",
+        "Andrei Tarfulea"
+      ],
+      "title": "Local solutions of the Landau equation with rough, slowly decaying initial data",
+      "venue_or_repository": "journal article",
+      "publication_type": "journal article",
+      "publication_date": "2020-05-12",
+      "latest_version_date": null,
+      "identifier": "Ann. IHP AN 37 (2020), 1345–1377; DOI 10.1016/j.anihpc.2020.04.004",
+      "version": null,
+      "stable_url": "https://www.numdam.org/item/10.1016/j.anihpc.2020.04.004.pdf",
+      "locator": "§1, pp. 1346–1349; Definition 1.1 and Theorems 1.2–1.4 in full",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1, pp. 1346–1349; Definition 1.1 and Theorems 1.2–1.4 in full"
+      ],
+      "supported_claim": "Local classical class, uniqueness for nice data and explicit open global problem.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "GHS",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "William Golding",
+        "Christopher Henderson",
+        "Luis Silvestre"
+      ],
+      "title": "Pointwise bounds and obstructions to blowup for the Landau and Boltzmann equations",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-05-19",
+      "latest_version_date": "2026-05-19",
+      "identifier": "arXiv:2605.20426v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2605.20426v1",
+      "locator": "§§1.1–1.2, Theorems 1.1 and 1.3; §§2.3–2.4; §3.3 solution convention",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1.1–1.2, Theorems 1.1 and 1.3; §§2.3–2.4; §3.3 solution convention"
+      ],
+      "supported_claim": "Periodic Coulomb continuation criterion and restrictions on hydrodynamic implosion, not unconditional global regularity.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/2605.20426; submission history inspected on 2026-09-17. Body dates were not treated as version dates."
+    },
+    {
+      "source_id": "SS",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Stanley Snelson",
+        "Caleb Solomon"
+      ],
+      "title": "A continuation criterion for the Landau equation with very soft and Coulomb potentials",
+      "venue_or_repository": "accepted author manuscript",
+      "publication_type": "accepted author manuscript",
+      "publication_date": "2026-03-25",
+      "latest_version_date": "2026-02-18",
+      "identifier": "ARMA 250 (2026), 20; DOI 10.1007/s00205-026-02182-8; arXiv:2309.15690v2",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2309.15690v2",
+      "locator": "§1, Definition 1.1, Theorems 1.2–1.3 and Corollary 1.4 in full; §1.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1, Definition 1.1, Theorems 1.2–1.3 and Corollary 1.4 in full; §1.2"
+      ],
+      "supported_claim": "Independent open-status statement and conditional continuation.",
+      "independent_of_source_ids": [
+        "GHS"
+      ],
+      "access_limitations": "Publisher metadata read; full accepted arXiv manuscript used because publisher full text was paywalled.",
+      "version_history_checked": "https://arxiv.org/abs/2309.15690; submission history inspected on 2026-09-17. Body dates were not treated as version dates."
+    },
+    {
+      "source_id": "GS",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Nestor Guillen",
+        "Luis Silvestre"
+      ],
+      "title": "The Landau equation does not blow up",
+      "venue_or_repository": "author manuscript of published article",
+      "publication_type": "author manuscript of published article",
+      "publication_date": "2025",
+      "latest_version_date": "2025-01-27",
+      "identifier": "Acta Mathematica 234 (2025), 315–375; DOI 10.4310/ACTA.2025.V234.N2.A2; arXiv:2311.09420v2",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2311.09420v2",
+      "locator": "§1, Theorems 1.1–1.2 and Remark 1.3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1, Theorems 1.1–1.2 and Remark 1.3"
+      ],
+      "supported_claim": "Global result is spatially homogeneous.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/2311.09420; submission history inspected on 2026-09-17. Body dates were not treated as version dates."
+    },
+    {
+      "source_id": "GH",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "William Golding",
+        "Christopher Henderson"
+      ],
+      "title": "Global smooth solutions to the inhomogeneous Landau–Fermi–Dirac equation",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-08-31",
+      "latest_version_date": "2026-08-31",
+      "identifier": "arXiv:2608.31071v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2608.31071v1",
+      "locator": "§1, quantum operator and Theorem 1.4; discussion after Theorem 1.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1, quantum operator and Theorem 1.4; discussion after Theorem 1.1"
+      ],
+      "supported_claim": "Pauli exclusion yields quantum global regularity; constants degenerate in the classical limit.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/2608.31071; submission history inspected on 2026-09-17. Body dates were not treated as version dates."
+    },
+    {
+      "source_id": "BCGJVY",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Jacob Bedrossian",
+        "Jiajie Chen",
+        "Maria Pia Gualdani",
+        "Sehyun Ji",
+        "Vlad Vicol",
+        "Jincheng Yang"
+      ],
+      "title": "Finite time singularities in the Landau equation with very hard potentials",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-02-05",
+      "latest_version_date": "2026-02-05",
+      "identifier": "arXiv:2602.05981v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/2602.05981v1",
+      "locator": "§1, equation (1.1) and full Theorem 1.1, pp. 3–4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1, equation (1.1) and full Theorem 1.1, pp. 3–4"
+      ],
+      "supported_claim": "Finite-time singularities concern gamma in (sqrt(3),2], not Coulomb gamma=-3.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Web parser file-size limit; primary PDF downloaded and theorem read with local pdftotext.",
+      "version_history_checked": "https://arxiv.org/abs/2602.05981; submission history inspected on 2026-09-17. Body dates were not treated as version dates."
+    },
+    {
+      "source_id": "SAMPAIO",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Paulo Sampaio"
+      ],
+      "title": "On the semi-classical limit for the Landau-Fermi-Dirac equation",
+      "venue_or_repository": "author manuscript of published article",
+      "publication_type": "author manuscript of published article",
+      "publication_date": "2026-02-27",
+      "latest_version_date": "2025-01-23",
+      "identifier": "Kinetic and Related Models 21 (2026), 104–139; DOI 10.3934/krm.2026005; arXiv:2501.13800v1",
+      "version": "v1",
+      "stable_url": "https://paulo-sampaio.pages.math.cnrs.fr/assets/articles/semi-classical%20limit.pdf",
+      "locator": "Author manuscript §2, Definition 3 and Theorems 1–2, pp. 7–9",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Author manuscript §2, Definition 3 and Theorems 1–2, pp. 7–9"
+      ],
+      "supported_claim": "Semiclassical limit gives a renormalized solution with defect measure, not classical regularity.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Publisher abstract/metadata read; author PDF used for full theorem after arXiv HTML failed. Author PDF is not represented as the typeset journal pagination.",
+      "version_history_checked": "https://arxiv.org/abs/2501.13800; submission history inspected on 2026-09-17. Body dates were not treated as version dates."
+    },
+    {
+      "source_id": "FUZZY",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Maria Pia Gualdani",
+        "Nestor Guillen",
+        "Nataša Pavlović",
+        "Maja Tasković",
+        "Nicola Zamponi"
+      ],
+      "title": "The fuzzy Landau equation: global well-posedness and Fisher information",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2025-07-11",
+      "latest_version_date": "2025-08-18",
+      "identifier": "arXiv:2507.08689v2",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2507.08689v2",
+      "locator": "§1 Eqs. (1.1)–(1.3); §2 full Theorem 1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 Eqs. (1.1)–(1.3); §2 full Theorem 1"
+      ],
+      "supported_claim": "Global theorem uses spatially delocalized collisions and moderately soft potentials.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/2507.08689; submission history inspected on 2026-09-17. Body dates were not treated as version dates."
+    },
+    {
+      "source_id": "CHEN",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Jiajie Chen"
+      ],
+      "title": "Nearly self-similar blowup of the slightly perturbed homogeneous Landau equation with very soft potentials",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2023-11-20",
+      "latest_version_date": "2023-11-20",
+      "identifier": "arXiv:2311.11511v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2311.11511v1",
+      "locator": "§1 Eqs. (1.1)–(1.3), full Theorem 1.1 and following discussion",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 Eqs. (1.1)–(1.3), full Theorem 1.1 and following discussion"
+      ],
+      "supported_claim": "Added reaction term changes the equation; alpha=1 is excluded from the blowup theorem.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/2311.11511; submission history inspected on 2026-09-17. Body dates were not treated as version dates."
+    },
+    {
+      "source_id": "JK",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Jin Woo Jang",
+        "Junsung Kim"
+      ],
+      "title": "Local Existence and Finite-Time Singularity Formation in the Vlasov-Poisson-Isotropic Landau System",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-03-16",
+      "latest_version_date": "2026-03-16",
+      "identifier": "arXiv:2603.14871v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2603.14871v1",
+      "locator": "§1 Eqs. (1.1)–(1.2); §2 Definitions 2.1–2.2 and 2.5–2.6, Theorems 2.3 and 2.7",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 Eqs. (1.1)–(1.2); §2 Definitions 2.1–2.2 and 2.5–2.6, Theorems 2.3 and 2.7"
+      ],
+      "supported_claim": "Conditional singularity formation for an isotropic collision operator with attractive self-consistent force.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/2603.14871; submission history inspected on 2026-09-17. Body dates were not treated as version dates."
+    },
+    {
+      "source_id": "GGL",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "William Golding",
+        "Maria Gualdani",
+        "Amélie Loher"
+      ],
+      "title": "Global smooth solutions to the Landau-Coulomb equation in L^(3/2)",
+      "venue_or_repository": "accepted author manuscript",
+      "publication_type": "accepted author manuscript",
+      "publication_date": "2025",
+      "latest_version_date": "2025-05-08",
+      "identifier": "ARMA 249 (2025); DOI 10.1007/s00205-025-02107-x; arXiv:2401.06939v3",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/html/2401.06939v3",
+      "locator": "Introduction Eq. (0.1), Theorems 0.1–0.3 and Remark 0.4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Introduction Eq. (0.1), Theorems 0.1–0.3 and Remark 0.4"
+      ],
+      "supported_claim": "Rough-data extension remains spatially homogeneous.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/2401.06939; submission history inspected on 2026-09-17. Body dates were not treated as version dates."
+    },
+    {
+      "source_id": "CM",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Kleber Carrapatoso",
+        "Stéphane Mischler"
+      ],
+      "title": "Landau equation for very soft and Coulomb potentials near Maxwellians",
+      "venue_or_repository": "author manuscript of published article",
+      "publication_type": "author manuscript of published article",
+      "publication_date": "2017",
+      "latest_version_date": "2017-01-09",
+      "identifier": "Annals of PDE 3 (2017), 1; DOI 10.1007/s40818-017-0021-0; arXiv:1512.01638v3",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/html/1512.01638v3",
+      "locator": "§§1.1–1.2, Theorem 1.1 and Corollary 1.4 in full",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1.1–1.2, Theorem 1.1 and Corollary 1.4 in full"
+      ],
+      "supported_claim": "Perturbative global existence and conditional convergence do not supply arbitrary-data global existence.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Author PDF URL returned 404; full arXiv HTML used. August 2026 body date is not the January 2017 arXiv version date."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "query": "Landau searches S25-1 through S27-4 in ../search-log.json; earlier seed searches also include Landau.",
+      "discovery_route": "Primary journal/author/arXiv full texts and version histories; web resolution searches",
+      "date_filter_or_unrestricted": "Unrestricted, with literal 2025/2026 terms where logged",
+      "results_inspected": [
+        "HST",
+        "GHS",
+        "SS",
+        "GS",
+        "GH",
+        "BCGJVY",
+        "SAMPAIO",
+        "FUZZY",
+        "CHEN",
+        "JK",
+        "GGL"
+      ],
+      "outcome": "No matching resolution located; latest nearby results scoped in theorem comparisons.",
+      "limitations": "Search absence is not proof; no external expert proof verification."
+    },
+    {
+      "searched_at": "2026-09-17",
+      "query": "A7-1 through A7-5 in ../search-log.json",
+      "discovery_route": "Adversarial web search and direct full-theorem reads",
+      "date_filter_or_unrestricted": "unrestricted, years literal where shown",
+      "results_inspected": [
+        "GHS",
+        "SAMPAIO",
+        "BCGJVY",
+        "CM",
+        "Formal Vlasov–Maxwell–Landau steady-state characterization search result"
+      ],
+      "outcome": "No matching evolutionary continuation result. The steady-state formalization concerns classification of equilibria, not existence of an evolution from arbitrary initial data.",
+      "limitations": "Did not audit the steady-state Lean proof or represent it as a global-evolution theorem."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "GHS",
+      "theorem_locator": "Theorem 1.3",
+      "claim_type": "conditional_continuation",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "T^3 explicitly permitted; gamma=-3 permitted.",
+        "Finite maximal time forces divergent time-integrated L-infinity norm."
+      ],
+      "scope_relation": "Does not prove that norm stays integrable for all finite times.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not prove that norm stays integrable for all finite times.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "SS",
+      "theorem_locator": "Theorems 1.2–1.3 and Corollary 1.4",
+      "claim_type": "conditional_continuation",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Requires bounds on local mass and velocity integrability.",
+        "Gaussian-data version also assumes a small positive moment bound."
+      ],
+      "scope_relation": "Neither conservation of total mass/energy nor this theorem supplies the required uniform-in-x bounds.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither conservation of total mass/energy nor this theorem supplies the required uniform-in-x bounds.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "GS",
+      "theorem_locator": "Theorems 1.1–1.2",
+      "claim_type": "homogeneous_global_result",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "No x dependence or transport term."
+      ],
+      "scope_relation": "Cannot apply the homogeneous estimate pointwise in x to an equation containing v dot grad_x f.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Cannot apply the homogeneous estimate pointwise in x to an equation containing v dot grad_x f.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "GGL",
+      "theorem_locator": "Theorems 0.2–0.3",
+      "claim_type": "homogeneous_global_result",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Equation (0.1) has only time and velocity."
+      ],
+      "scope_relation": "Lower initial integrability threshold does not add spatial transport.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Lower initial integrability threshold does not add spatial transport.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "GH",
+      "theorem_locator": "Theorem 1.4 and discussion after Theorem 1.1",
+      "claim_type": "quantum_global_result",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Collision integral contains Pauli factors 1-epsilon*f.",
+        "Upper bound f<=1/epsilon degenerates as epsilon tends to zero."
+      ],
+      "scope_relation": "No uniform classical regularity conclusion from simply taking the quantum parameter to zero.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No uniform classical regularity conclusion from simply taking the quantum parameter to zero.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "SAMPAIO",
+      "theorem_locator": "Theorems 1–2",
+      "claim_type": "semiclassical_limit",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Suitable weak approximating solutions; subsequential compactness.",
+        "Limit is renormalized with a defect measure."
+      ],
+      "scope_relation": "Combining quantum global existence with this limit still does not give classical regularity or uniqueness.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Combining quantum global existence with this limit still does not give classical regularity or uniqueness.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BCGJVY",
+      "theorem_locator": "Theorem 1.1",
+      "claim_type": "different_potential_blowup",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "gamma in (sqrt(3),2], not -3.",
+        "Smooth positive initial data but different velocity kernel; full-space x."
+      ],
+      "scope_relation": "Does not disprove the Coulomb question; no theorem transferring this construction to gamma=-3.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not disprove the Coulomb question; no theorem transferring this construction to gamma=-3.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "FUZZY",
+      "theorem_locator": "Theorem 1 and Eq. (1.2)",
+      "claim_type": "different_collision_model",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "gamma in (-2,0], excluding -3.",
+        "Smooth spatial convolution kernel positive everywhere; a Dirac spatial kernel is outside the assumptions."
+      ],
+      "scope_relation": "Neither the potential nor the local-in-space collision operator matches; no controlled localization limit established.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither the potential nor the local-in-space collision operator matches; no controlled localization limit established.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CHEN",
+      "theorem_locator": "Theorem 1.1",
+      "claim_type": "modified_reaction_blowup",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "alpha>1 multiplies reaction relative to diffusion; classical Landau has alpha=1."
+      ],
+      "scope_relation": "Taking alpha down to one is excluded and does not yield a classical singularity.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Taking alpha down to one is excluded and does not yield a classical singularity.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "JK",
+      "theorem_locator": "Theorem 2.7 and Eqs. (1.1)–(1.2)",
+      "claim_type": "different_operator_and_force",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Attractive self-consistent gravitational field.",
+        "Isotropic scalar diffusion replaces the anisotropic Coulomb matrix."
+      ],
+      "scope_relation": "Setting the force to zero or restoring the original collision tensor destroys the stated hypotheses.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Setting the force to zero or restoring the original collision tensor destroys the stated hypotheses.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CM",
+      "theorem_locator": "Theorem 1.1; Corollary 1.4",
+      "claim_type": "perturbative_or_conditional",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Theorem 1.1 assumes small H_x^2 L_v^2(m) distance to a Maxwellian.",
+        "Corollary 1.4 assumes an already global strong solution with uniform Sobolev/moment bounds."
+      ],
+      "scope_relation": "No way to infer arbitrary-data global existence from a theorem whose hypothesis already includes global existence.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No way to infer arbitrary-data global existence from a theorem whose hypothesis already includes global existence.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "080",
+        "difference": "Boltzmann global classical regularity uses a different collision operator."
+      },
+      {
+        "id": "157",
+        "difference": "Homogeneous Landau particle approximation asks convergence of an N-particle model."
+      },
+      {
+        "id": "155",
+        "difference": "Vlasov mean-field limit has a different collisionless model and target."
+      },
+      {
+        "id": "156",
+        "difference": "Tagged-particle diffusion concerns a stochastic limit."
+      },
+      {
+        "id": "236",
+        "difference": "Weak Boltzmann uniqueness is not classical Landau continuation."
+      }
+    ],
+    "distinctness_reason": "No baseline or accepted draft asks global classical continuation for this inhomogeneous Coulomb PDE.",
+    "implications_or_equivalences": [
+      "Do not count finite-time blowup exclusion and global continuation as separate entries.",
+      "Do not count changes of velocity weights or periodic box size separately."
+    ]
+  },
+  "open_status_evidence_summary": "HST and GHS explicitly identify large-data inhomogeneous global regularity as unresolved. Independent SS repeats that status in its February 2026 accepted version. Recent homogeneous, quantum and modified-operator results have different hypotheses.",
+  "independent_status_corroboration": "SS has no authors in common with GHS; both explicitly discuss the unresolved classical large-data inhomogeneous problem. HST and SS overlap, so that pair alone is not treated as independent.",
+  "strongest_known_partial_results_and_gap": "Local classical existence and uniqueness for the stated nice data; global perturbative solutions and homogeneous solutions. Continuation criteria require bounds not yet proved for arbitrary inhomogeneous data.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Publisher metadata read; full accepted arXiv manuscript used because publisher full text was paywalled.",
+    "Web parser file-size limit; primary PDF downloaded and theorem read with local pdftotext.",
+    "Publisher abstract/metadata read; author PDF used for full theorem after arXiv HTML failed. Author PDF is not represented as the typeset journal pagination."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass by the primary agent; no independent agent or human review",
+    "reviewer_or_pass_identifier": "A7",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A7-1",
+      "A7-2",
+      "A7-3",
+      "A7-4",
+      "A7-5"
+    ],
+    "issues_found": [
+      "Periodic data must meet the precise local positivity and uniqueness assumptions.",
+      "A global convergence corollary could be mistaken for global existence.",
+      "Quantum semiclassical compactness might appear to imply a classical result.",
+      "Collision integral differential had a missing LaTeX spacing backslash."
+    ],
+    "issues_resolved": [
+      "Uniform positivity on a fixed velocity ball and smooth velocity-Schwartz data satisfy HST Theorems 1.2–1.4; periodic lift follows by uniqueness.",
+      "Read CM Theorem 1.1 and Corollary 1.4: smallness or already-global solution is required.",
+      "Read Sampaio Theorems 1–2: renormalized defect-measure limit, no classical continuation.",
+      "Corrected the differential typography; reread exact equation and normalization.",
+      "Reread baseline 080 and 157: different collision equation and particle-limit target, respectively.",
+      "Rechecked GHS polynomial-tail propagation and Theorem 1.3: weighted norms add no separate conjecture."
+    ],
+    "verdict": "pass"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "codex/expand-open-problems-2026-09",
+    "commit": null,
+    "pull_request_url": null
+  }
+}

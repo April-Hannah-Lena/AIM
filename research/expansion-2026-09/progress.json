@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 5,
+  "new_accepted": 8,
   "active_total": 300,
-  "candidates_investigated": 6,
+  "candidates_investigated": 10,
   "held_unverified": 0,
-  "held_claimed_resolution": 1,
+  "held_claimed_resolution": 2,
   "excluded": 0,
-  "remaining_to_minimum": 195,
-  "remaining_to_target": 245,
+  "remaining_to_minimum": 192,
+  "remaining_to_target": 242,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -34,24 +34,28 @@
     {
       "commit": "8126792",
       "purpose": "Dynamic catalogue membership, permanent IDs and publication batches; validation regression tests."
+    },
+    {
+      "commit": "e5e481a",
+      "purpose": "Baseline inventory, five accepted drafts and evidence; no active catalogue integration."
     }
   ],
   "remote_state": "No push, pull request or merge performed.",
   "next_actions": [
-    "Complete the first 10–20-entry publication batch; five accepted drafts are outside the active catalogue.",
-    "Investigate remaining handoff seeds: convex planar spectral determination, inhomogeneous Coulomb Landau, 3D Edwards–Anderson order, and 4D Yang–Mills. Morrey remains held.",
+    "Complete first 10–20-entry publication batch; eight accepted drafts remain outside active catalogue.",
+    "All ten handoff seeds investigated: eight accepted drafts, Morrey and Yang–Mills held on matching unadjudicated claims.",
     "Discover candidates across all twelve sections, with deliberate biology, statistics, information, control, operations-research and stochastic-network coverage.",
-    "Refresh resolution searches and upstream duplicate checks, then assign permanent IDs centrally when the first 10–20-entry batch is ready."
+    "Refresh resolution searches and upstream duplicate checks, then assign permanent IDs centrally when the first batch is ready."
   ],
   "coverage": {
-    "spectral": 0,
+    "spectral": 1,
     "operators": 1,
     "inverse": 0,
     "applied": 1,
     "spectral2": 0,
     "inverse2": 1,
-    "continuum2": 0,
-    "stochastic2": 0,
+    "continuum2": 1,
+    "stochastic2": 1,
     "spectral3": 0,
     "continuum3": 0,
     "inverse3": 1,

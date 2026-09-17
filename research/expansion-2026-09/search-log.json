@@ -526,5 +526,453 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted",
     "review_stage": "Separated written-draft adversarial follow-up"
+  },
+  {
+    "search_id": "S15-1",
+    "query": "smooth strictly convex planar domains Dirichlet spectrum open isospectral 2026 2025",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S15-2",
+    "query": "inhomogeneous Coulomb Landau equation global regularity large data 2026 2025",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S15-3",
+    "query": "three dimensional Edwards Anderson spin glass phase transition rigorous proof 2026 2025",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S15-4",
+    "query": "Yang Mills existence mass gap four dimensions proof 2026 2025",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S16-1",
+    "query": "\"strictly convex\" \"isospectral\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S16-2",
+    "query": "\"smooth\" \"planar domains\" \"isospectral\" \"open\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S16-3",
+    "query": "\"inhomogeneous\" \"Coulomb\" \"Landau\" \"2026\" \"global\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S16-4",
+    "query": "\"Landau\" \"inhomogeneous\" \"open problems\" Silvestre",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S16-5",
+    "query": "\"Edwards-Anderson\" \"three\" \"open problem\" overlap",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S16-6",
+    "query": "\"Edwards-Anderson\" \"phase transition\" \"rigorous\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S17-1",
+    "query": "\"strictly convex\" \"Dirichlet\" \"spectrally\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S17-2",
+    "query": "\"Griffiths-Type Theorems for Short-Range Spin Glass Models\" arxiv",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S18-1",
+    "query": "\"spectral rigidity\" \"De Simoi\" \"Kaloshin\" \"Wei\" conjecture convex",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S18-2",
+    "query": "\"strictly convex\" \"Dirichlet\" \"isospectral\" proof proved solved counterexample 2025 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S18-3",
+    "query": "\"A Continuation Criterion for the Landau Equation with Very Soft and Coulomb Potentials\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S18-4",
+    "query": "\"Golding\" \"Henderson\" \"Silvestre\" \"2026\" Landau",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S19-1",
+    "query": "\"Edwards-Anderson\" \"q\" \"open\" \"phase transition\" Chatterjee",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S19-2",
+    "query": "\"Edwards-Anderson\" \"three-dimensional\" \"proof\" \"2025\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S19-3",
+    "query": "\"Edwards-Anderson\" \"phase transition\" proof proved solved resolution counterexample disproof refutation",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S20-1",
+    "query": "\"Spin glass phase at zero temperature in the Edwards-Anderson model\" arxiv",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S20-2",
+    "query": "\"Local strong Birkhoff conjecture\" \"arxiv\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S21-1",
+    "query": "\"Open Problem 6.2.26\" spectral geometry",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S21-2",
+    "query": "\"Levitin\" \"Mangoubi\" \"Polterovich\" \"book\" pdf",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S22-1",
+    "query": "\"convex\" \"Dirichlet\" \"isospectral\" \"disproof\" OR \"refutation\" OR \"resolution\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S22-2",
+    "query": "\"smooth planar\" \"hear the shape\" \"solved\" OR \"counterexample\" 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S22-3",
+    "query": "\"Topics in Spectral Geometry\" errata \"6.2.26\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary seed investigation and current-result scope comparisons"
+  },
+  {
+    "search_id": "S23-1",
+    "query": "\"Dirichlet\" \"convex domains\" \"isospectral\" \"2026\" proof",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary resolution and source-update follow-up"
+  },
+  {
+    "search_id": "S23-2",
+    "query": "\"Koval\" \"spectral uniqueness\" erratum OR correction OR counterexample",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary resolution and source-update follow-up"
+  },
+  {
+    "search_id": "S23-3",
+    "query": "\"convex\" \"isospectral\" \"Dirichlet\" \"refutation\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary resolution and source-update follow-up"
+  },
+  {
+    "search_id": "S24-1",
+    "query": "\"Edwards Anderson\" \"positive temperature\" \"proof\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary EA status and source-update searches"
+  },
+  {
+    "search_id": "S24-2",
+    "query": "\"Griffiths-Type Theorems\" erratum correction",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary EA status and source-update searches"
+  },
+  {
+    "search_id": "S24-3",
+    "query": "\"Edwards-Anderson\" \"squared overlap\" \"phase transition\" proof",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Primary EA status and source-update searches"
+  },
+  {
+    "search_id": "A5-1",
+    "query": "\"smooth\" \"strictly convex\" \"Dirichlet\" \"isospectral\" proof proved solved resolution counterexample disproof refutation",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated written-draft adversarial self-pass"
+  },
+  {
+    "search_id": "A5-2",
+    "query": "\"can one hear\" \"convex\" \"2026\" \"Dirichlet\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated written-draft adversarial self-pass"
+  },
+  {
+    "search_id": "A5-3",
+    "query": "\"One can hear the shape of ellipses of small eccentricity\" erratum correction",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated written-draft adversarial self-pass"
+  },
+  {
+    "search_id": "A6-1",
+    "query": "\"Edwards-Anderson\" \"positive temperature\" solved resolution disproof refutation 2025 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated written-draft adversarial self-pass"
+  },
+  {
+    "search_id": "A6-2",
+    "query": "\"Edwards-Anderson\" \"limsup\" \"overlap\" \"three\" proof",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated written-draft adversarial self-pass"
+  },
+  {
+    "search_id": "A6-3",
+    "query": "\"Itoi\" \"Sakamoto\" \"zero field\" \"2026\" correction counterexample",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated written-draft adversarial self-pass"
+  },
+  {
+    "search_id": "S25-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Local solutions of the Landau equation with rough\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years literal where shown)",
+    "review_stage": "Landau source and resolution investigation; theorem scope recorded in candidate ledger."
+  },
+  {
+    "search_id": "S25-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Landau equation does not blow up\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years literal where shown)",
+    "review_stage": "Landau source and resolution investigation; theorem scope recorded in candidate ledger."
+  },
+  {
+    "search_id": "S25-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Bedrossian\" \"Chen\" \"Gualdani\" \"blowup\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (years literal where shown)",
+    "review_stage": "Landau source and resolution investigation; theorem scope recorded in candidate ledger."
+  },
+  {
+    "search_id": "S26-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"On the semi-classical limit for the Landau-Fermi-Dirac equation\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years literal where shown)",
+    "review_stage": "Landau source and resolution investigation; theorem scope recorded in candidate ledger."
+  },
+  {
+    "search_id": "S26-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"inhomogeneous\" \"Coulomb\" \"Landau\" proof proved solved resolution counterexample disproof refutation 2026",
+    "date_filter_or_unrestricted": "unrestricted (years literal where shown)",
+    "review_stage": "Landau source and resolution investigation; theorem scope recorded in candidate ledger."
+  },
+  {
+    "search_id": "S26-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"fuzzy Landau\" \"global\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years literal where shown)",
+    "review_stage": "Landau source and resolution investigation; theorem scope recorded in candidate ledger."
+  },
+  {
+    "search_id": "S27-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Landau\" \"inhomogeneous\" \"Coulomb\" \"2025\" \"2026\" regularity solved proof",
+    "date_filter_or_unrestricted": "unrestricted (years literal where shown)",
+    "review_stage": "Landau source and resolution investigation; theorem scope recorded in candidate ledger."
+  },
+  {
+    "search_id": "S27-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Henderson\" \"Snelson\" \"Solomon\" \"Landau\" erratum correction",
+    "date_filter_or_unrestricted": "unrestricted (years literal where shown)",
+    "review_stage": "Landau source and resolution investigation; theorem scope recorded in candidate ledger."
+  },
+  {
+    "search_id": "S27-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Nearly self-similar blowup\" \"Landau\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years literal where shown)",
+    "review_stage": "Landau source and resolution investigation; theorem scope recorded in candidate ledger."
+  },
+  {
+    "search_id": "S27-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Landau\" \"Coulomb\" \"global\" disproof refutation counterexample resolution",
+    "date_filter_or_unrestricted": "unrestricted (years literal where shown)",
+    "review_stage": "Landau source and resolution investigation; theorem scope recorded in candidate ledger."
+  },
+  {
+    "search_id": "A7-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Landau\" \"Coulomb\" \"torus\" global regularity proof solved 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated Landau review"
+  },
+  {
+    "search_id": "A7-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"inhomogeneous Landau\" \"singularity\" counterexample disproof 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated Landau review"
+  },
+  {
+    "search_id": "A7-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Pointwise bounds and obstructions to blowup\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated Landau review"
+  },
+  {
+    "search_id": "A7-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Landau-Fermi-Dirac\" \"classical limit\" \"global\" regularity 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated Landau review"
+  },
+  {
+    "search_id": "A7-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Carrapatoso Mischler \"Landau equation for very soft\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated Landau review"
+  },
+  {
+    "search_id": "S28-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"The Yang–Mills Millennium problem\" 2026",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Yang–Mills status investigation; hold, not acceptance"
+  },
+  {
+    "search_id": "S28-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Yang Mills\" \"Nielsen\" \"Definitive\" 2026 proof",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Yang–Mills status investigation; hold, not acceptance"
+  },
+  {
+    "search_id": "S28-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Yang Mills\" \"2506.00284\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Yang–Mills status investigation; hold, not acceptance"
   }
 ]

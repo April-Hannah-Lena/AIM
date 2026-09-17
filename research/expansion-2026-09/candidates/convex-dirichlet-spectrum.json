@@ -1,0 +1,340 @@
+{
+  "candidate_id": "convex-dirichlet-spectrum",
+  "proposed_catalogue_id": null,
+  "title": "Dirichlet spectral determination of smooth strictly convex planar domains",
+  "aliases": [
+    "hearing the shape of a convex drum",
+    "Kac inverse spectral problem for convex domains",
+    "convex planar Dirichlet isospectrality"
+  ],
+  "primary_section": "spectral",
+  "secondary_tags": [
+    "inverse problems",
+    "vibration",
+    "spectral geometry"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Source formulation, independent corroboration, current scope checks, baseline screening and separated adversarial review support admission; no matching later resolution located as of September 17, 2026.",
+  "problem_fingerprint": {
+    "model_or_objects": "Two Euclidean planar domains and their scalar Laplacians",
+    "dimension": "2",
+    "domain": "Bounded strictly convex open subsets of R^2",
+    "regularity_and_data_class": "C-infinity boundaries; full infinite spectra including multiplicities",
+    "boundary_or_initial_conditions": "Homogeneous Dirichlet boundary values",
+    "parameter_range": "Every such pair of domains; no closeness or symmetry hypothesis",
+    "quantifiers": "Equality of every indexed eigenvalue implies congruence",
+    "normalization": "Standard Euclidean Laplacian with no variable density or potential; exact spectra without rescaling",
+    "observable_or_norm": "Full eigenvalue multiset of -Delta",
+    "limit_regime_and_order": "No asymptotic truncation: all eigenvalues",
+    "requested_conclusion": "Omega_2=Q Omega_1+a for Q in O(2) and a in R^2",
+    "computational_model_and_dependencies": "Exact identifiability; neither numerical reconstruction nor stability is asserted"
+  },
+  "statement_source_and_scope_match": "Smooth strictly convex subcase of LMP Open Problem 6.2.26(ii); DSKW §1 independently states the inverse spectral problem for smooth convex classes. Strict convexity means each open chord between distinct closure points lies in the domain; no positive curvature convention is silently imposed.",
+  "proposed_statement_text": "If two bounded strictly convex open subsets of R^2 have C-infinity boundaries and identical Dirichlet Laplacian eigenvalue multisets, must a Euclidean isometry map one onto the other?",
+  "applied_significance": "In the ideal homogeneous membrane model with known tension and density and fixed boundary, the square roots of Dirichlet eigenvalues give vibration frequencies up to a known factor. The question asks whether complete exact frequency data identify a convex membrane shape.",
+  "application_evidence_source_ids": [
+    "DSKW"
+  ],
+  "source_records": [
+    {
+      "source_id": "LMP",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Michael Levitin",
+        "Dan Mangoubi",
+        "Iosif Polterovich"
+      ],
+      "title": "Topics in Spectral Geometry, preliminary version dated May 29, 2023",
+      "venue_or_repository": "author book manuscript",
+      "publication_type": "author book manuscript",
+      "publication_date": "2023-05-29",
+      "latest_version_date": null,
+      "identifier": "Preliminary author version; published book AMS GSM 237 (2023)",
+      "version": null,
+      "stable_url": "https://michaellevitin.net/Book/TSG230529.pdf",
+      "locator": "§6.2.6, Open Problem 6.2.26, p. 223; Theorem 6.2.27 and discussion pp. 224–225",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§6.2.6, Open Problem 6.2.26, p. 223; Theorem 6.2.27 and discussion pp. 224–225"
+      ],
+      "supported_claim": "Smooth and convex planar inverse questions; global uniqueness for a ball and discussion of restricted progress.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Web PDF tool rejected the 11 MB file; full author PDF downloaded to /tmp and relevant pages read using pdftotext.",
+      "version_history_checked": "Author book page https://michaellevitin.net/Book/ checked. January 27, 2025 preliminary-version erratum (https://michaellevitin.net/Book/TSG-230529-Erratum.pdf) and addendum (https://michaellevitin.net/Book/TSG-230529-Addendum.pdf) read in full: no change to Problem 6.2.26."
+    },
+    {
+      "source_id": "DSKW",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Jacopo De Simoi",
+        "Vadim Kaloshin",
+        "Qiaoling Wei"
+      ],
+      "title": "Dynamical spectral rigidity among Z2-symmetric strictly convex domains close to a circle (Appendix B coauthored with H. Hezari)",
+      "venue_or_repository": "journal article",
+      "publication_type": "journal article",
+      "publication_date": "2017",
+      "latest_version_date": null,
+      "identifier": "Annals of Mathematics 186 (2017), 277–314; DOI 10.4007/annals.2017.186.1.7",
+      "version": null,
+      "stable_url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v186-n1-p07-p.pdf",
+      "locator": "§1 pp. 277–279; §2 Main Theorem, Remark 2.10 and Corollary pp. 283–284",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 pp. 277–279; §2 Main Theorem, Remark 2.10 and Corollary pp. 283–284"
+      ],
+      "supported_claim": "Independent open-status discussion, vibrating-membrane interpretation and restricted deformation rigidity.",
+      "independent_of_source_ids": [
+        "LMP"
+      ],
+      "access_limitations": null
+    },
+    {
+      "source_id": "KOVAL",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Illya Koval"
+      ],
+      "title": "Local strong Birkhoff conjecture and local spectral uniqueness of almost every ellipse",
+      "venue_or_repository": "journal article",
+      "publication_type": "journal article",
+      "publication_date": "2025-12-11",
+      "latest_version_date": null,
+      "identifier": "Inventiones mathematicae 244 (2026), 221–298; DOI 10.1007/s00222-025-01397-y",
+      "version": null,
+      "stable_url": "https://link.springer.com/article/10.1007/s00222-025-01397-y",
+      "locator": "§1.2, Theorem 2 and Remarks 3–5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1.2, Theorem 2 and Remarks 3–5"
+      ],
+      "supported_claim": "Local uniqueness for most ellipses, with proximity and regularity conditions.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "HST",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Tao Hu",
+        "Jiachen Shi",
+        "Quanyu Tang"
+      ],
+      "title": "Strictly Convex Steklov-Isospectral Plane Domains",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-08-11",
+      "latest_version_date": "2026-08-15",
+      "identifier": "arXiv:2608.10557v2",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2608.10557v2",
+      "locator": "§§1–1.1, Problem 1.1.1 and Theorem 1.1.2; §2.1 Proposition 2.1.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1–1.1, Problem 1.1.1 and Theorem 1.1.2; §2.1 Proposition 2.1.1"
+      ],
+      "supported_claim": "Analytic strictly convex isospectral counterexamples are for Steklov boundary conditions.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "https://arxiv.org/abs/2608.10557: v1 August 11, v2 August 15, 2026. v2 full introductory theorem checked after discovery of v1."
+    },
+    {
+      "source_id": "HZ",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Hamid Hezari",
+        "Steve Zelditch"
+      ],
+      "title": "One can hear the shape of ellipses of small eccentricity",
+      "venue_or_repository": "journal article",
+      "publication_type": "journal article",
+      "publication_date": "2022-10-30",
+      "latest_version_date": null,
+      "identifier": "Annals of Mathematics 196 (2022), 1083–1134; DOI 10.4007/annals.2022.196.3.4",
+      "version": null,
+      "stable_url": "https://par.nsf.gov/servlets/purl/10558107",
+      "locator": "§1 Theorems 1.1, 1.3 and 1.6, pp. 1084–1086",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 Theorems 1.1, 1.3 and 1.6, pp. 1084–1086"
+      ],
+      "supported_claim": "Global determination of sufficiently low-eccentricity ellipses and deformation rigidity near a circle.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "query": "S15-1, S16-1–2, S17-1, S18-1–2, S20-2, S21-1–2, S22-1–3, S23-1–3 in ../search-log.json",
+      "discovery_route": "Unrestricted web search; primary full text and author updates",
+      "date_filter_or_unrestricted": "unrestricted",
+      "results_inspected": [
+        "LMP",
+        "DSKW",
+        "KOVAL",
+        "HST"
+      ],
+      "outcome": "No matching full resolution located.",
+      "limitations": "Absence in searches is not a proof of open status; no independent specialist review performed."
+    },
+    {
+      "searched_at": "2026-09-17",
+      "query": "A5-1–3 in ../search-log.json",
+      "discovery_route": "Independent search after written draft; full HZ theorem and baseline page reread",
+      "date_filter_or_unrestricted": "unrestricted",
+      "results_inspected": [
+        "HZ",
+        "DSKW",
+        "HST"
+      ],
+      "outcome": "No matching resolution or duplicate; locator corrected.",
+      "limitations": "Separated self-review only."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "DSKW",
+      "theorem_locator": "§2 Main Theorem and Corollary, pp. 283–284",
+      "claim_type": "restricted_rigidity",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Z2 symmetry and proximity to a circle.",
+        "Main result concerns length spectrum and smooth deformations.",
+        "Laplace corollary assumes generic periodic orbit conditions."
+      ],
+      "scope_relation": "Deformation rigidity in a restricted class does not establish pairwise uniqueness in the entire proposed class.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Deformation rigidity in a restricted class does not establish pairwise uniqueness in the entire proposed class.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "KOVAL",
+      "theorem_locator": "§1.2 Theorem 2 and Remark 3",
+      "claim_type": "restricted_local_uniqueness",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Reference shape must be an ellipse with eccentricity outside a small exceptional set.",
+        "Comparison domains satisfy C^k bounds (k>=39) and C^10 closeness.",
+        "Remark 3 explicitly states that the spectral theorem is local."
+      ],
+      "scope_relation": "No global determination of arbitrary convex domains follows.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No global determination of arbitrary convex domains follows.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HST",
+      "theorem_locator": "§1.1 Theorem 1.1.2 and §2.1",
+      "claim_type": "different_boundary_spectrum",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same dimension, smoothness and convexity as proposed question.",
+        "Steklov problem: Delta u=0, partial_nu u=sigma u on boundary.",
+        "Candidate: -Delta u=lambda u, u=0 on boundary.",
+        "Conformal boundary-weight construction preserves Steklov data, not Dirichlet eigenvalues."
+      ],
+      "scope_relation": "Not a Dirichlet counterexample; no implication supplying equal Dirichlet spectra is stated.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Not a Dirichlet counterexample; no implication supplying equal Dirichlet spectra is stated.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HZ",
+      "theorem_locator": "§1 Theorems 1.1 and 1.6",
+      "claim_type": "restricted_global_uniqueness",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Theorem 1.1 requires that one domain be an ellipse of sufficiently small eccentricity.",
+        "No restriction is needed on the other smooth domain, but arbitrary pairs need not contain such an ellipse.",
+        "Theorem 1.6 requires a deformation within the axially symmetric near-circle class."
+      ],
+      "scope_relation": "Substantial special cases, not a theorem for all strictly convex pairs.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Substantial special cases, not a theorem for all strictly convex pairs.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "060",
+        "difference": "Boundary-distance recovery uses labeled geometric measurements rather than the Dirichlet eigenvalue multiset."
+      },
+      {
+        "id": "069",
+        "difference": "Billiard integrability characterizes ellipses; does not assert global inverse spectral uniqueness."
+      },
+      {
+        "id": "001",
+        "difference": "Eigenvalue inequalities concern extremal bounds rather than full-spectrum identifiability."
+      }
+    ],
+    "distinctness_reason": "No equivalent full Dirichlet spectral determination assertion among baseline or five accepted drafts.",
+    "implications_or_equivalences": [
+      "Do not count smooth nonconvex, Neumann, deformation-rigidity or convex parameter restrictions as automatic additional entries.",
+      "DSKW and Koval relate billiards and spectra but their theorems do not equate general integrability with spectral determination."
+    ]
+  },
+  "open_status_evidence_summary": "LMP explicitly lists convex and smooth planar isospectrality as open; independent DSKW §1 explains the unresolved smooth convex inverse problem. Current searches locate restricted Dirichlet uniqueness and Steklov counterexamples, not full Dirichlet resolution.",
+  "independent_status_corroboration": "DSKW authors are disjoint from LMP authors; their introduction explicitly distinguishes the unresolved inverse problem from deformation rigidity.",
+  "strongest_known_partial_results_and_gap": "Disks and sufficiently low-eccentricity ellipses are determined globally; Koval proves local spectral uniqueness for ellipses outside a small exceptional set. These do not cover arbitrary pairs of smooth strictly convex domains.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass",
+    "reviewer_or_pass_identifier": "A5",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A5-1",
+      "A5-2",
+      "A5-3"
+    ],
+    "issues_found": [
+      "Draft book subsection was incorrectly 6.2.3.",
+      "Current near-circle Laplace rigidity is stronger than the generic 2017 corollary; read HZ full main theorems.",
+      "Congruence must allow reflections.",
+      "Ordinary Steklov equality must not be confused with strong Steklov isospectrality, which includes extra spectral data."
+    ],
+    "issues_resolved": [
+      "Corrected locator to §6.2.6 using the full downloaded book.",
+      "Added HZ source and exact scope assessment.",
+      "O(2) conclusion and explicit reflections retained.",
+      "HST Theorem 1.1.2 only asserts ordinary Steklov equality; no full Dirichlet data supplied.",
+      "Re-read baseline 060 and 069; distinct measurements and conclusions."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "codex/expand-open-problems-2026-09",
+    "commit": null,
+    "pull_request_url": null
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "candidate_id": "yang-mills-four-dimensional",
+  "proposed_catalogue_id": null,
+  "title": "Four-dimensional quantum Yang–Mills existence and mass gap",
+  "aliases": [
+    "Yang–Mills Millennium problem",
+    "quantum Yang–Mills mass gap"
+  ],
+  "primary_section": "spectral3",
+  "secondary_tags": [
+    "particle physics",
+    "constructive quantum field theory"
+  ],
+  "decision": "hold_claimed_resolution",
+  "decision_reason": "CMI still labels the problem unsolved, but Nielsen’s February 2026 manuscript abstract claims the matching continuum construction and gap for compact simple non-Abelian groups. Full access and specialist adjudication of that manuscript are unresolved; do not count it as accepted.",
+  "problem_fingerprint": {
+    "model_or_objects": "Nontrivial pure quantum Yang–Mills field with compact simple gauge group G",
+    "dimension": "Four-dimensional spacetime",
+    "domain": "R^4, not a fixed lattice or finite torus",
+    "regularity_and_data_class": "Operator-valued distributions with Wightman or equivalent OS axioms and prescribed ultraviolet behavior",
+    "boundary_or_initial_conditions": "Infinite-volume vacuum theory",
+    "parameter_range": "Every compact simple G",
+    "quantifiers": "For every G exists a nontrivial theory and Delta>0",
+    "normalization": "Vacuum energy zero; H>=0",
+    "observable_or_norm": "Spectrum of Hamiltonian H",
+    "limit_regime_and_order": "Any regularization must yield the full continuum infinite-volume theory",
+    "requested_conclusion": "Existence and 0<sup{Delta:spec(H) intersects (0,Delta) trivially}<infinity",
+    "computational_model_and_dependencies": "Unconditional construction, not numerical evidence or a postulated effective Hamiltonian"
+  },
+  "statement_source_and_scope_match": "Jaffe–Witten official description §§3–4, printed pp. 5–6, specifies quantum-field axioms, local curvature observables, short-distance behavior, and finite positive mass gap.",
+  "proposed_statement_text": "For every compact simple gauge group G, construct a nontrivial quantum Yang–Mills theory on R^4 with axioms at least as strong as Wightman/Osterwalder–Schrader, the prescribed short-distance behavior, and Hamiltonian spectrum disjoint from (0,Delta) for some Delta>0, with finite supremal gap.",
+  "applied_significance": "Seeks a rigorous continuum foundation for the gauge-field description of fundamental interactions and the positive excitation-energy scale suggested by pure strong-interaction models.",
+  "application_evidence_source_ids": [
+    "JW",
+    "CMI"
+  ],
+  "source_records": [
+    {
+      "source_id": "JW",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Arthur Jaffe",
+        "Edward Witten"
+      ],
+      "title": "Quantum Yang–Mills Theory",
+      "venue_or_repository": "official problem description",
+      "publication_type": "official problem description",
+      "publication_date": null,
+      "latest_version_date": null,
+      "identifier": "CMI official Millennium problem description",
+      "version": null,
+      "stable_url": "https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf",
+      "locator": "§§3–4, printed pp. 5–6; §5 comments",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§3–4, printed pp. 5–6; §5 comments"
+      ],
+      "supported_claim": "Exact full formulation.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "CMI",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Clay Mathematics Institute"
+      ],
+      "title": "Yang-Mills & the Mass Gap",
+      "venue_or_repository": "official institutional page",
+      "publication_type": "official institutional page",
+      "publication_date": null,
+      "latest_version_date": null,
+      "identifier": "Maintained official problem page",
+      "version": null,
+      "stable_url": "https://www.claymath.org/millennium/yang-mills-the-maths-gap/",
+      "locator": "Unsolved label, Overview and Advanced text",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Unsolved label, Overview and Advanced text"
+      ],
+      "supported_claim": "Current official open status.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "DOUGLAS",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Michael R. Douglas"
+      ],
+      "title": "The Yang–Mills Millennium problem",
+      "venue_or_repository": "journal review",
+      "publication_type": "journal review",
+      "publication_date": "2026-01-12",
+      "latest_version_date": null,
+      "identifier": "Nature Reviews Physics 8 (2026), 86–97; DOI 10.1038/s42254-025-00909-2",
+      "version": null,
+      "stable_url": "https://www.nature.com/articles/s42254-025-00909-2",
+      "locator": "Abstract, key points and publisher bibliographic record",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "abstract_and_metadata",
+      "sections_actually_read": [
+        "Abstract, key points and publisher bibliographic record"
+      ],
+      "supported_claim": "Independent specialist description of unresolved construction and gap.",
+      "independent_of_source_ids": [
+        "JW"
+      ],
+      "access_limitations": "Full theorem or proof not read; not used to certify resolution or openness."
+    },
+    {
+      "source_id": "NIELSEN",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "Jennifer L. Nielsen"
+      ],
+      "title": "The Definitive Proof of the Four-Dimensional Yang–Mills Mass Gap",
+      "venue_or_repository": "preprint",
+      "publication_type": "preprint",
+      "publication_date": "2026-02-19",
+      "latest_version_date": "2026-02-19",
+      "identifier": "PhilArchive NIETEO-12v12",
+      "version": "v12",
+      "stable_url": "https://philarchive.org/archive/NIETEO-12v12",
+      "locator": "Indexed manuscript title page and abstract only",
+      "accessed_on": "2026-09-17",
+      "identity_verified": false,
+      "access_level": "abstract_and_metadata",
+      "sections_actually_read": [
+        "Indexed manuscript title page and abstract only"
+      ],
+      "supported_claim": "Claims compact simple non-Abelian continuum YM measure satisfying OS and a positive gap.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Search-indexed primary manuscript title/author/abstract read; direct PDF repeatedly failed (403/internal error). Full theorem, latest-version history and independent adjudication not verified."
+    },
+    {
+      "source_id": "JACOBSEN",
+      "role": "formulation, status or scope comparison",
+      "authors": [
+        "D. C. Jacobsen"
+      ],
+      "title": "A Constructive Proof of Existence and Mass Gap for Pure SU(3) Yang-Mills in Four-Dimensional Space-Time",
+      "venue_or_repository": "withdrawn preprint",
+      "publication_type": "withdrawn preprint",
+      "publication_date": "2025-05-30",
+      "latest_version_date": "2025-06-13",
+      "identifier": "arXiv:2506.00284v2 (withdrawn)",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/abs/2506.00284v2",
+      "locator": "Abstract, admin withdrawal notice and submission history",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "abstract_and_metadata",
+      "sections_actually_read": [
+        "Abstract, admin withdrawal notice and submission history"
+      ],
+      "supported_claim": "SU(3) proof claim was withdrawn by arXiv admin for research-content quality standards.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Full theorem or proof not read; not used to certify resolution or openness.",
+      "version_history_checked": "arXiv abstract record read; v2 withdrawn by admin, no PDF for this version."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "query": "S28-1 through S28-3 in ../search-log.json and earlier Yang–Mills seed searches",
+      "discovery_route": "CMI official formulation, arXiv version history, publisher/indexed-primary metadata",
+      "date_filter_or_unrestricted": "unrestricted",
+      "results_inspected": [
+        "JW",
+        "CMI",
+        "DOUGLAS",
+        "NIELSEN",
+        "JACOBSEN"
+      ],
+      "outcome": "Matching unresolved claim; hold.",
+      "limitations": "Full systematic disqualification and proof adjudication not completed; not accepted."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "NIELSEN",
+      "theorem_locator": "Abstract only; full theorem inaccessible",
+      "claim_type": "matching_full_proof_claim",
+      "theorem_statement_actually_read": false,
+      "hypothesis_comparison": [
+        "Claims all compact simple non-Abelian G on R^4.",
+        "Claims OS continuum construction and positive gap."
+      ],
+      "scope_relation": "Potentially resolves the exact target; current review cannot certify or reject it.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Potentially resolves the exact target; current review cannot certify or reject it.",
+      "material_unresolved_conflict": true
+    },
+    {
+      "source_id": "JACOBSEN",
+      "theorem_locator": "Abstract and withdrawal notice",
+      "claim_type": "withdrawn_proof_claim",
+      "theorem_statement_actually_read": false,
+      "hypothesis_comparison": [
+        "SU(3) only, not all groups.",
+        "Withdrawal is recorded; proof not independently audited."
+      ],
+      "scope_relation": "Not an accepted solution; withdrawal does not adjudicate other manuscripts.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Not an accepted solution; withdrawal does not adjudicate other manuscripts.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "201/202",
+        "difference": "Discrete many-body gap questions do not construct four-dimensional continuum gauge theory."
+      }
+    ],
+    "distinctness_reason": "No equivalent quantum Yang–Mills construction in the baseline; held on status/access grounds.",
+    "implications_or_equivalences": []
+  },
+  "open_status_evidence_summary": "Current CMI page labels unsolved. A matching new proof claim has not been adjudicated by this review.",
+  "independent_status_corroboration": "Douglas January 2026 review abstract/key points also describes the open construction and gap; full review not accessed.",
+  "strongest_known_partial_results_and_gap": null,
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Full theorem or proof not read; not used to certify resolution or openness.",
+    "Search-indexed primary manuscript title/author/abstract read; direct PDF repeatedly failed (403/internal error). Full theorem, latest-version history and independent adjudication not verified.",
+    "Full theorem or proof not read; not used to certify resolution or openness."
+  ],
+  "second_review": {
+    "arrangement": "Primary agent hold decision",
+    "reviewer_or_pass_identifier": null,
+    "date": null,
+    "independent_searches": [],
+    "issues_found": [
+      "Matching proof claim inaccessible and unadjudicated."
+    ],
+    "issues_resolved": [],
+    "verdict": "not_reviewed_for_acceptance"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "codex/expand-open-problems-2026-09",
+    "commit": null,
+    "pull_request_url": null
+  }
+}
