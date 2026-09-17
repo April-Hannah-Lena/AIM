@@ -1,0 +1,382 @@
+{
+  "candidate_id": "belgian-chocolate-threshold",
+  "proposed_catalogue_id": null,
+  "title": "The sharp Belgian chocolate stabilization threshold",
+  "aliases": [
+    "Belgian chocolate problem",
+    "generalized Belgian chocolate problem",
+    "Blondel bistable stabilization threshold"
+  ],
+  "primary_section": "inverse",
+  "secondary_tags": [
+    "feedback control",
+    "polynomial stability",
+    "complex analysis"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Source-matched formulation, independent corroboration, actual resolution searches, complete relevant scope comparisons and a separate adversarial self-pass passed. Final batch refresh remains due.",
+  "problem_fingerprint": {
+    "model_or_objects": "Real strictly stable polynomial pairs and their prescribed quadratic combination",
+    "dimension": "Scalar transfer function; controller degree arbitrary finite",
+    "domain": "Complex s-plane with roots in the open left half-plane",
+    "regularity_and_data_class": "Nonzero real polynomials; constants allowed",
+    "boundary_or_initial_conditions": "Strict stability, not roots on the imaginary axis",
+    "parameter_range": "0<delta<1; all finite degrees with deg(y)<=deg(x)",
+    "quantifiers": "Supremum over all admissible parameters and all polynomial pairs",
+    "normalization": "a=s^2-2delta*s+1, b=s^2-1; no artificial degree cap or coefficient normalization",
+    "observable_or_norm": "Sharp scalar threshold delta*",
+    "limit_regime_and_order": "Take the union of feasible values over every finite controller degree before the supremum",
+    "requested_conclusion": "Determine exact delta* with matching feasibility and impossibility",
+    "computational_model_and_dependencies": "Mathematical threshold, not a finite-precision optimization claim; underlying controller is time-invariant"
+  },
+  "statement_source_and_scope_match": "CB17 Eq. (1.1) and Definition 3.1 give the exact polynomial formulation; BE13 §11 independently uses the same degree inequality and delta in (0,1). Nonzero constants are explicit to avoid an undefined zero-polynomial degree. No unproved equality with a finite-order optimum is imposed.",
+  "proposed_statement_text": "Let $\\mathcal H$ be the set of nonzero real polynomials whose roots all have strictly negative real part; nonzero constant polynomials belong to $\\mathcal H$. Define\n\n$$\n\\mathcal D=\\left\\{\\delta\\in(0,1):\\quad\n\\begin{array}{l}\n\\text{there exist }x,y\\in\\mathcal H\\text{ with }\\deg y\\le\\deg x,\\\\[2pt]\n(s^2-2\\delta s+1)x(s)+(s^2-1)y(s)\\in\\mathcal H\n\\end{array}\\right\\}.\n$$\n\nDetermine the exact value of\n\n$$\n\\delta_* = \\sup\\mathcal D.\n$$\n\nThe polynomial degrees are arbitrary finite integers, and coefficients are arbitrary real numbers. Stability is strict. The question asks for the sharp threshold over all degrees, with matching feasibility and impossibility arguments, rather than an optimum within a prescribed controller family. It is a supremum: the endpoint need not be attained by a pair of strictly stable polynomials.",
+  "applied_significance": "For the plant $G_\\delta(s)=(s^2-1)/(s^2-2\\delta s+1)$, the quotient $y/x$ represents a proper, stable, minimum-phase linear time-invariant controller. The displayed combination is its closed-loop characteristic polynomial under negative feedback. The problem tests stabilization limits when an unstable pole approaches an unstable zero, a difficulty that also arises in engineering control design.",
+  "application_evidence_source_ids": [
+    "CB17",
+    "CH06"
+  ],
+  "source_records": [
+    {
+      "source_id": "CB17",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Zachary Charles",
+        "Nigel Boston"
+      ],
+      "title": "Exploiting Algebraic Structure in Global Optimization and the Belgian Chocolate Problem",
+      "venue_or_repository": "arXiv:1708.08114; J. Global Optimization 72 (2018), 241–254",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2017-08-27",
+      "latest_version_date": null,
+      "identifier": "https://arxiv.org/pdf/1708.08114v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/1708.08114v1",
+      "locator": "§1 Eq. (1.1); §3.1 Definitions 3.1–3.2; §3.2 Theorems 3.4–3.6; §4 Theorems 4.1–4.2; §5 Eq. (5.1) and Theorem 5.1; §7 Conjecture 7.1; §8",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 Eq. (1.1); §3.1 Definitions 3.1–3.2; §3.2 Theorems 3.4–3.6; §4 Theorems 4.1–4.2; §5 Eq. (5.1) and Theorem 5.1; §7 Conjecture 7.1; §8"
+      ],
+      "supported_claim": "Exact polynomial model; reported feasible lower bound; remaining global-degree question.",
+      "independent_of_source_ids": [
+        "BE13",
+        "E15",
+        "CH06",
+        "HWY08"
+      ],
+      "access_limitations": "Publisher DOI route failed; read arXiv author manuscript. Publication metadata is also listed in the 2025 author-hosted Boston memorial bibliography, not treated as new status evidence.",
+      "version_history_checked": "Primary arXiv history lists v1 August 27, 2017. PDF title date August 29."
+    },
+    {
+      "source_id": "BE13",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Walter Bergweiler",
+        "Alexandre Eremenko"
+      ],
+      "title": "Goldberg’s constants",
+      "venue_or_repository": "J. d’Analyse Mathématique 119 (2013), 365–402",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2013",
+      "latest_version_date": null,
+      "identifier": "https://www.math.purdue.edu/~eremenko/dvi/goldbergconst.pdf",
+      "version": null,
+      "stable_url": "https://www.math.purdue.edu/~eremenko/dvi/goldbergconst.pdf",
+      "locator": "§1 Theorems 1.1, 1.3–1.6 and following scope discussion; full §11 Theorem 11.1, proof and remark",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 Theorems 1.1, 1.3–1.6 and following scope discussion; full §11 Theorem 11.1, proof and remark"
+      ],
+      "supported_claim": "Independent exact threshold formulation, disk equivalence and universal upper bound.",
+      "independent_of_source_ids": [
+        "CB17",
+        "CH06",
+        "HWY08"
+      ],
+      "access_limitations": "Author manuscript; publication metadata corroborated in E15 reference 1. No manuscript revision history was displayed.",
+      "version_history_checked": null
+    },
+    {
+      "source_id": "E15",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Alexandre Eremenko"
+      ],
+      "title": "Goldberg’s constant and its relatives",
+      "venue_or_repository": "Author’s problem note",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2015-04-04",
+      "latest_version_date": null,
+      "identifier": "https://www.math.purdue.edu/~eremenko/dvi/goldconst.pdf",
+      "version": null,
+      "stable_url": "https://www.math.purdue.edu/~eremenko/dvi/goldconst.pdf",
+      "locator": "Full two-page note; especially Problem 3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Full two-page note; especially Problem 3"
+      ],
+      "supported_claim": "Explicit independent extremal problem for the same constant.",
+      "independent_of_source_ids": [
+        "CB17",
+        "CH06",
+        "HWY08"
+      ],
+      "access_limitations": null,
+      "version_history_checked": null
+    },
+    {
+      "source_id": "CH06",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Patrizio Colaneri",
+        "Didier Henrion"
+      ],
+      "title": "Switching and periodic control of the Belgian chocolate system",
+      "venue_or_repository": "IFAC ROCOND 2006",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2006",
+      "latest_version_date": null,
+      "identifier": "https://homepages.laas.fr/henrion/papers/chocoswitch.pdf",
+      "version": null,
+      "stable_url": "https://homepages.laas.fr/henrion/papers/chocoswitch.pdf",
+      "locator": "Title/abstract; §§3–4 construction Eqs. (7)–(16); §5 explicit scope qualification",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Title/abstract; §§3–4 construction Eqs. (7)–(16); §5 explicit scope qualification"
+      ],
+      "supported_claim": "Time-varying feedback examples are outside LTI polynomial-pair formulation.",
+      "independent_of_source_ids": [
+        "CB17",
+        "BE13",
+        "E15",
+        "HWY08"
+      ],
+      "access_limitations": "Initial publication-list link failed; direct author PDF obtained. No numbered theorem; full construction formulas and final qualification read.",
+      "version_history_checked": null
+    },
+    {
+      "source_id": "HWY08",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Guannan He",
+        "Long Wang",
+        "Wensheng Yu"
+      ],
+      "title": "French Champagne and Belgian Chocolate Problems in Simultaneous Stabilization of Linear Systems",
+      "venue_or_repository": "IFAC Proceedings Volumes 41(2) (2008), 1105–1110",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2008",
+      "latest_version_date": null,
+      "identifier": "https://skoge.folk.ntnu.no/prost/proceedings/ifac2008/data/papers/1511.pdf",
+      "version": null,
+      "stable_url": "https://skoge.folk.ntnu.no/prost/proceedings/ifac2008/data/papers/1511.pdf",
+      "locator": "§1; §2.2 Proposition 1 and Examples 5–8; §2.3 Conjecture 1; Appendix C table",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1; §2.2 Proposition 1 and Examples 5–8; §2.3 Conjecture 1; Appendix C table"
+      ],
+      "supported_claim": "Low-degree exact bounds do not fix the unrestricted threshold.",
+      "independent_of_source_ids": [
+        "CB17",
+        "BE13",
+        "E15",
+        "CH06"
+      ],
+      "access_limitations": null,
+      "version_history_checked": null
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Web search followed by primary author, arXiv and publisher texts",
+      "query": "S120-1, S120-2, S121-1, S121-2, S121-3, S122-1, S122-2, S123-1, S123-2, S123-3, S124-1, S124-2, S124-3, S125-1, S125-2, S125-3, A20-1, A20-2, A20-3, A20-4, A20-5 in ../search-log.json",
+      "date_filter_or_unrestricted": "Unrestricted searches, including literal current/prior years, proof and counterexample terms",
+      "results_inspected": [
+        "CB17",
+        "BE13",
+        "E15",
+        "CH06",
+        "HWY08"
+      ],
+      "outcome": "No matching unadjudicated resolution located; scope comparisons below.",
+      "limitations": "Absence from search is not proof of openness; proofs were not independently certified."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "CB17",
+      "theorem_locator": "§3.2 Theorems 3.4–3.6; §5 Theorem 5.1",
+      "claim_type": "constructive_feasibility",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Strictly stable polynomials; quasistable constructions can be perturbed at smaller delta; reported admissibility through 0.9808348."
+      ],
+      "scope_relation": "Supremum over all finite degrees remains undetermined; numerical constructions do not prove a matching universal upper bound.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Supremum over all finite degrees remains undetermined; numerical constructions do not prove a matching universal upper bound.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BE13",
+      "theorem_locator": "§11 Theorem 11.1 and proof",
+      "claim_type": "universal_impossibility_bound",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "One simple zero and two prescribed simple one-points in the real holomorphic disk formulation; t*>0.01450779."
+      ],
+      "scope_relation": "Gives delta*<0.999579, not an exact value or matching feasible construction.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Gives delta*<0.999579, not an exact value or matching feasible construction.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BE13",
+      "theorem_locator": "§1 Theorems 1.1 and 1.5–1.6; discussion before §2",
+      "claim_type": "related_extremal_constant_solved",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Exact A0 concerns annular maps; A5 extremals have only one zero location and one one-point location, with unequal multiplicities."
+      ],
+      "scope_relation": "Belgian chocolate has one simple zero and two distinct simple one-points. The source explicitly leaves this case outside those exact results.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Belgian chocolate has one simple zero and two distinct simple one-points. The source explicitly leaves this case outside those exact results.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CH06",
+      "theorem_locator": "§§3–4 Eqs. (7)–(16); §5",
+      "claim_type": "time_varying_feedback",
+      "theorem_statement_actually_read": false,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Piecewise-constant switching gains or continuously periodic gains depending on time."
+      ],
+      "scope_relation": "No fixed rational y/x is supplied. The conclusion explicitly disclaims a solution of Blondel’s LTI problem.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No fixed rational y/x is supplied. The conclusion explicitly disclaims a solution of Blondel’s LTI problem.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HWY08",
+      "theorem_locator": "§2.2 Examples 5–8; §2.3 Conjecture 1",
+      "claim_type": "fixed_order_bounds",
+      "theorem_statement_actually_read": false,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Denominator degrees one to four; several statements impose constant numerator."
+      ],
+      "scope_relation": "Fixed-order extrema, and the separate French champagne model, do not determine the all-degree supremum.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Fixed-order extrema, and the separate French champagne model, do not determine the all-degree supremum.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "latest_local_comparison_commit": "3335df41da2dd0da8a3717e68ba0eda16ac6cd68",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "141",
+        "difference": "Decentralized noisy two-stage expected-cost optimization, not LTI polynomial stability."
+      },
+      {
+        "id": "148",
+        "difference": "Finite-jet local controllability of nonlinear analytic vector fields, not this scalar sharp stabilizability threshold."
+      },
+      {
+        "id": "273",
+        "difference": "Decidability of unbounded-time hyperplane reachability for rational linear ODEs, not existence of a stable polynomial controller."
+      }
+    ],
+    "distinctness_reason": "Full baseline review, current metadata and alias searches, pending-draft comparison and full closest-page reading found no matching statement.",
+    "implications_or_equivalences": [
+      "Polynomial, proper rational-controller and real holomorphic-disk formulations count once.",
+      "Fixed-degree subproblems and the solved delta=0.9 challenge are not separate additions.",
+      "Goldberg constants with different prescribed multiplicities are not automatically equivalent."
+    ]
+  },
+  "open_status_evidence_summary": "CB17 retains the all-degree problem while improving constructions; BE13 and E15 independently formulate the unresolved equivalent extremal constant. Fresh current-year, prior-year and unrestricted searches located no matching sharp resolution.",
+  "independent_status_corroboration": "CB17 and the BE13/E15 author family have disjoint authors; BE13 and E15 are not independent of one another. CH06 and HWY08 are further independent scope checks. Old publication dates are disclosed; a recent crawl date or memorial is not presented as recent status evidence.",
+  "strongest_known_partial_results_and_gap": "Reviewed literature reports admissibility through 0.9808348 and a universal upper bound below 0.999579. These provide a nontrivial gap; neither numerical bound is claimed optimal. Source calculations were not independently certified.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "CB journal DOI access failed; all mathematical locators refer to the obtained arXiv manuscript.",
+    "BE author PDF has no displayed revision history; E15 verifies its publication details.",
+    "Fresh queries mostly return older mathematics and irrelevant food results. Openness is grounded in explicit scholarly formulations plus resolution searches, not the absence of newer search hits alone.",
+    "No independent certification of the proofs or numerical root computations was performed."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass; no independent agent or human reviewer",
+    "reviewer_or_pass_identifier": "A20",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A20-1",
+      "A20-2",
+      "A20-3",
+      "A20-4",
+      "A20-5"
+    ],
+    "issues_found": [
+      "Solved delta=0.9 results and fixed-order exact bounds can be mistaken for the all-degree threshold.",
+      "Switching and periodic control seem to stabilize larger parameters.",
+      "Quasistability and exact Goldberg-constant results use different admissible classes.",
+      "Some current-year search hits only reflect reindexing of older manuscripts."
+    ],
+    "issues_resolved": [
+      "Read HWY08 full fixed-degree result statements; draft leaves degree arbitrary.",
+      "Read CH06 Eqs. (7)–(16) and §5; these change time-invariance.",
+      "Retained strict stability, supremum language and the exact prescribed polynomial combination; compared BE Theorems 1.1, 1.5–1.6 and 11.1.",
+      "Kept actual publication dates and explicitly recorded the age of status sources."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [
+    {
+      "date": "2026-09-17",
+      "scope": "Research checkpoint; no active catalogue integration",
+      "checks": [
+        "Candidate JSON, source IDs, actual search IDs and local evidence links resolve.",
+        "Draft statement matches candidate record; required headings and display delimiters checked.",
+        "All 23 candidate records agree with progress: 19 accepted, one unverified hold, three resolution-claim holds.",
+        "python3 scripts/catalogue.py --check passed for all 310 active entries.",
+        "git diff --check passed; freshly fetched origin/main equals local HEAD 3335df4 before checkpoint."
+      ],
+      "limitations": "Mathematical correctness and open status are not mechanically certified. Final batch resolution refresh, duplicate refresh and rendered-math inspection remain due at integration."
+    }
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/belgian-chocolate-threshold.md"
+}

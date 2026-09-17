@@ -1,0 +1,584 @@
+{
+  "candidate_id": "linear-sample-compression",
+  "proposed_catalogue_id": null,
+  "title": "Linear-size sample compression for binary concept classes",
+  "aliases": [
+    "sample compression conjecture",
+    "linear VC compression",
+    "Floyd–Warmuth sample compression"
+  ],
+  "primary_section": "applied",
+  "secondary_tags": [
+    "statistical learning",
+    "VC dimension",
+    "data compression"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Source-matched formulation, independent corroboration, actual resolution searches, complete relevant scope comparisons and a separate adversarial self-pass passed. Final batch refresh remains due.",
+  "problem_fingerprint": {
+    "model_or_objects": "Total binary concepts and realizable labeled sample sets",
+    "dimension": "Positive VC dimension d; arbitrary finite domain size",
+    "domain": "Finite set X",
+    "regularity_and_data_class": "Any nonempty total binary concept class",
+    "boundary_or_initial_conditions": "Exact consistency on every realizable sample, including empty samples",
+    "parameter_range": "All d>=1; a universal constant K",
+    "quantifiers": "For every class, one pair of maps serves every realizable sample",
+    "normalization": "Retained points plus explicit bitstring length; separate maxima",
+    "observable_or_norm": "Compression size and zero training-label error",
+    "limit_regime_and_order": "Uniform bound independent of domain and sample size as d varies",
+    "requested_conclusion": "Prove or refute existence of schemes of size Kd",
+    "computational_model_and_dependencies": "No efficiency requirement; class-dependent maps; improper reconstruction allowed; no free ordering or original sample supplied"
+  },
+  "statement_source_and_scope_match": "BHMR26 §1 gives the exact finite-set, labeled, improper, side-bit convention. AHR25 and CCHMY24 independently state the linear-VC question but use sequences. Finite X is explicit, avoiding an unproved infinite-domain compactness equivalence. Excluding d=0 removes a trivial class of identical concepts.",
+  "proposed_statement_text": "Let $X$ be a finite set and let $\\varnothing\\ne\\mathcal C\\subseteq\\{0,1\\}^{X}$. A set $B\\subseteq X$ is shattered if every binary labeling of $B$ is the restriction of a member of $\\mathcal C$; write $d$ for the largest size of such a set. Assume $d\\ge1$.\n\nLet $\\mathcal S_{\\mathcal C}$ consist of labeled samples $S\\subseteq X\\times\\{0,1\\}$ consistent with some $c\\in\\mathcal C$. A compression scheme consists of maps\n\n$$\n\\kappa:\\mathcal S_{\\mathcal C}\\longrightarrow\n\\mathcal S_{\\mathcal C}\\times\\{0,1\\}^{*},\\qquad\n\\rho:\\mathcal S_{\\mathcal C}\\times\\{0,1\\}^{*}\n\\longrightarrow\\{0,1\\}^{X}.\n$$\n\nFor every $S$, writing $\\kappa(S)=(T,b)$, require $T\\subseteq S$ and $\\rho(T,b)(x)=y$ for all $(x,y)\\in S$. Here $b$ is a finite bitstring. The size of the scheme is\n\n$$\n\\max_{S\\in\\mathcal S_{\\mathcal C}}|T(S)|\n+\\max_{S\\in\\mathcal S_{\\mathcal C}}|b(S)|.\n$$\n\nDoes a universal constant $K$ exist such that every such class admits a scheme of size at most $Kd$? The maps may depend on $X$ and $\\mathcal C$, but the same maps must serve every realizable sample. No runtime bound is imposed. The reconstructor receives only $(T,b)$ and may output a function outside $\\mathcal C$. The retained sample is an unordered set; additional ordering information must be encoded in $b$.",
+  "applied_significance": "Sample compression models learning from a small selection of observed examples. Such schemes yield generalization guarantees; a linear bound would tie the retained information directly to VC dimension, independently of the original sample size. This is an existence question, so efficient implementation would require further work.",
+  "application_evidence_source_ids": [
+    "MY16",
+    "AHR25"
+  ],
+  "source_records": [
+    {
+      "source_id": "BHMR26",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Romain Bourneuf",
+        "Jędrzej Hodor",
+        "Piotr Micek",
+        "Clément Rambaud"
+      ],
+      "title": "Sample compression schemes for balls in structurally sparse graphs",
+      "venue_or_repository": "arXiv:2604.02949",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2026-04-03",
+      "latest_version_date": null,
+      "identifier": "https://arxiv.org/html/2604.02949v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2604.02949v1",
+      "locator": "§1 definitions and conjecture; §1 graph theorem statements; §2.1 array schemes; §9 open questions",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 definitions and conjecture; §1 graph theorem statements; §2.1 array schemes; §9 open questions"
+      ],
+      "supported_claim": "Finite-hypergraph formulation with retained labels and counted bits; explicit continuing linear-size conjecture.",
+      "independent_of_source_ids": [
+        "AHR25",
+        "MY16",
+        "CCHMY24"
+      ],
+      "access_limitations": "HTML omits theorem numbers; locators identify statements by section and hypothesis. The introduction attributes a size-two obstruction to PT21 without saying unlabeled; the original PT21 theorem was checked and that shorthand is not copied.",
+      "version_history_checked": "arXiv history lists v1 April 3, 2026."
+    },
+    {
+      "source_id": "AHR25",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Idan Attias",
+        "Steve Hanneke",
+        "Arvind Ramaswami"
+      ],
+      "title": "Sample Compression Scheme Reductions",
+      "venue_or_repository": "PMLR 272 (2025), 134–162; arXiv:2410.13012",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2025",
+      "latest_version_date": null,
+      "identifier": "https://arxiv.org/pdf/2410.13012v3",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/pdf/2410.13012v3",
+      "locator": "§1; §2 Definition 2.1 and conjecture; §5 Theorem 5.6 and accompanying proof sketch",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1; §2 Definition 2.1 and conjecture; §5 Theorem 5.6 and accompanying proof sketch"
+      ],
+      "supported_claim": "Binary O(d) conjecture, learning applications and restricted robust-compression obstruction.",
+      "independent_of_source_ids": [
+        "BHMR26"
+      ],
+      "access_limitations": "PMLR metadata read; publisher/OpenReview PDF routes failed. The cited definitions and theorem numbers are from arXiv v3, whose sequence convention differs from BHMR26.",
+      "version_history_checked": "v1 October 16, 2024; v2 October 18; v3 April 7, 2025."
+    },
+    {
+      "source_id": "MY16",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Shay Moran",
+        "Amir Yehudayoff"
+      ],
+      "title": "Sample compression schemes for VC classes",
+      "venue_or_repository": "JACM 63(3) (2016); arXiv:1503.06960",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2016",
+      "latest_version_date": null,
+      "identifier": "https://arxiv.org/pdf/1503.06960v2",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/pdf/1503.06960v2",
+      "locator": "§1.2 definition and Theorem 1.2; §1.3 Theorems 1.3–1.4; §3 construction overview",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1.2 definition and Theorem 1.2; §1.3 Theorems 1.3–1.4; §3 construction overview"
+      ],
+      "supported_claim": "Exponential bound and learning connection.",
+      "independent_of_source_ids": [
+        "BHMR26"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "v2 April 14, 2015 corrects a multiclass claim; primary version comment explicitly preserves the binary construction."
+    },
+    {
+      "source_id": "CCHMY24",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Zachary Chase",
+        "Bogdan Chornomaz",
+        "Steve Hanneke",
+        "Shay Moran",
+        "Amir Yehudayoff"
+      ],
+      "title": "Dual VC Dimension Obstructs Sample Compression by Embeddings",
+      "venue_or_repository": "arXiv:2405.17120",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2024-05-27",
+      "latest_version_date": null,
+      "identifier": "https://arxiv.org/html/2405.17120v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2405.17120v1",
+      "locator": "§1.1 Definitions 1–3; §1.2 Definition 4, Conjecture 1, Theorem A and discussion",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1.1 Definitions 1–3; §1.2 Definition 4, Conjecture 1, Theorem A and discussion"
+      ],
+      "supported_claim": "Extremal embedding barrier and explicit linear compression conjecture.",
+      "independent_of_source_ids": [
+        "BHMR26"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "arXiv history lists v1 May 27, 2024."
+    },
+    {
+      "source_id": "PT21",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Dömötör Pálvölgyi",
+        "Gábor Tardos"
+      ],
+      "title": "Unlabeled Compression Schemes Exceeding the VC-dimension",
+      "venue_or_repository": "arXiv:1811.12471",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2018-11-29",
+      "latest_version_date": null,
+      "identifier": "https://arxiv.org/pdf/1811.12471v2",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/pdf/1811.12471v2",
+      "locator": "§1 Definitions 1, 4, 5 and Remarks 2–3; §2 Theorem 6 and proof",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 Definitions 1, 4, 5 and Remarks 2–3; §2 Theorem 6 and proof"
+      ],
+      "supported_claim": "VC dimension two versus unlabeled compression size three.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "v2 October 14, 2021; PDF title date October 15."
+    },
+    {
+      "source_id": "CKP23",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Victor Chepoi",
+        "Kolja Knauer",
+        "Manon Philibert"
+      ],
+      "title": "Labeled sample compression schemes for complexes of oriented matroids",
+      "venue_or_repository": "arXiv:2110.15168; JCSS 144 (2024), 103543",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2021-10-28",
+      "latest_version_date": null,
+      "identifier": "https://arxiv.org/pdf/2110.15168v3",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/pdf/2110.15168v3",
+      "locator": "§1.4 Definition 1; §2.1 Definitions 2–3; §4 Theorem 3 and main-idea paragraph",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1.4 Definition 1; §2.1 Definitions 2–3; §4 Theorem 3 and main-idea paragraph"
+      ],
+      "supported_claim": "Size-d proper labeled construction under COM structure.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Publisher full text failed; theorem read in corrected arXiv manuscript. Journal metadata corroborated by author publication list.",
+      "version_history_checked": "v3 April 19, 2023 corrects distinguishing lemma; inspected current v3, not the earlier author PDF."
+    },
+    {
+      "source_id": "J26",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Joseph Sankoorikal Johny"
+      ],
+      "title": "When Does More Correct Data Hurt? Insertion-Stability and the Limits of Dimension-Based Theory",
+      "venue_or_repository": "arXiv:2608.14020",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2026-08-14",
+      "latest_version_date": null,
+      "identifier": "https://arxiv.org/html/2608.14020v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2608.14020v1",
+      "locator": "§1 scope limits; §4 Corollary 12; §5.3 Theorem 18, proof and qualifications",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 scope limits; §4 Corollary 12; §5.3 Theorem 18, proof and qualifications"
+      ],
+      "supported_claim": "Negative compression statement requires superset-monotone learning.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "arXiv history lists v1 August 14, 2026."
+    },
+    {
+      "source_id": "CO26",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Leonardo N. Coregliano",
+        "William Opich"
+      ],
+      "title": "High-arity Sample Compression",
+      "venue_or_repository": "arXiv:2605.12465",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2026-05-12",
+      "latest_version_date": null,
+      "identifier": "https://arxiv.org/html/2605.12465v2",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2605.12465v2",
+      "locator": "§1 overview in v1; full §2 Theorem 2.4 and Eqs. (2.5)–(2.7) in v2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 overview in v1; full §2 Theorem 2.4 and Eqs. (2.5)–(2.7) in v2"
+      ],
+      "supported_claim": "Assumes a suitable compression scheme to deduce PAC learnability.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "v2 May 14, 2026 corrects minor typos. A19 re-read the complete theorem in v2 after initially inspecting v1."
+    },
+    {
+      "source_id": "LL26",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Jiahua Liu",
+        "Benchong Li"
+      ],
+      "title": "The No-Clash Teaching Dimension is Bounded by VC Dimension",
+      "venue_or_repository": "arXiv:2603.23561 (withdrawn)",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2026-03-24",
+      "latest_version_date": null,
+      "identifier": "https://arxiv.org/abs/2603.23561",
+      "version": "v4",
+      "stable_url": "https://arxiv.org/abs/2603.23561",
+      "locator": "Primary abstract, withdrawal comment and complete submission history",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "primary_metadata_and_withdrawal_notice",
+      "sections_actually_read": [
+        "Primary abstract, withdrawal comment and complete submission history"
+      ],
+      "supported_claim": "Author withdrawal of an apparent general-resolution claim.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Withdrawal notice and history read; no independent proof refutation claimed.",
+      "version_history_checked": "v1 March 24: Benchong Li, Labeled Compression Schemes for Concept Classes of Finite Functions; v2 March 26 withdrawn; v3 April 1 retitled with Liu; v4 August 3 withdrawn for an incorrect Lemma 2 proof."
+    },
+    {
+      "source_id": "HMW26",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Steve Hanneke",
+        "Shay Moran",
+        "Tom Waknine"
+      ],
+      "title": "List Sample Compression and Uniform Convergence",
+      "venue_or_repository": "arXiv:2403.10889",
+      "publication_type": "author manuscript or primary scholarly record",
+      "publication_date": "2024-03-16",
+      "latest_version_date": null,
+      "identifier": "https://arxiv.org/html/2403.10889v3",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/html/2403.10889v3",
+      "locator": "§1.1.1 full Theorems 1–3 and adjacent definition/scope discussion",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1.1.1 full Theorems 1–3 and adjacent definition/scope discussion"
+      ],
+      "supported_claim": "List-learning and infinite-label counterexamples, not total binary VC classes.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "v2 March 4, 2026; v3 March 21, 2026. Current theorem text and primary history read."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Web search followed by primary author, arXiv and publisher texts",
+      "query": "S118-1, S120-3, S122-3, S123-4, S124-4, A19-1, A19-2, A19-3 in ../search-log.json",
+      "date_filter_or_unrestricted": "Unrestricted searches, including literal current/prior years, proof and counterexample terms",
+      "results_inspected": [
+        "BHMR26",
+        "AHR25",
+        "MY16",
+        "CCHMY24",
+        "PT21",
+        "CKP23",
+        "J26",
+        "CO26",
+        "LL26",
+        "HMW26"
+      ],
+      "outcome": "No matching unadjudicated resolution located; scope comparisons below.",
+      "limitations": "Absence from search is not proof of openness; proofs were not independently certified."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "MY16",
+      "theorem_locator": "Theorems 1.3–1.4",
+      "claim_type": "general_exponential_construction",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "All binary VC classes; size 2^{O(d)}, or O(dd* log(dd*))."
+      ],
+      "scope_relation": "The general bound does not give O(d); dual dimension may be exponential.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The general bound does not give O(d); dual dimension may be exponential.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CCHMY24",
+      "theorem_locator": "§1.2 Theorem A",
+      "claim_type": "embedding_obstruction",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "For each d, an example requires every containing extremal class to have VC dimension at least 2^d-1."
+      ],
+      "scope_relation": "Restricts an embedding strategy; does not lower-bound every compressor.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Restricts an embedding strategy; does not lower-bound every compressor.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "PT21",
+      "theorem_locator": "§2 Theorem 6",
+      "claim_type": "unlabeled_exact_dimension_counterexample",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Five-point class, VC dimension two; unlabeled minimum size three."
+      ],
+      "scope_relation": "No labels or side bits in this model; a constant-factor linear bound is also different from exact size d.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No labels or side bits in this model; a constant-factor linear bound is also different from exact size d.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BHMR26",
+      "theorem_locator": "§1 treewidth/cliquewidth and bounded-radius theorem statements",
+      "claim_type": "structured_graph_constructions",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Ball hypergraphs; bounds depend on graph width or radius."
+      ],
+      "scope_relation": "Arbitrary concept classes have no bounded graph parameter controlled linearly by d supplied here.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Arbitrary concept classes have no bounded graph parameter controlled linearly by d supplied here.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CKP23",
+      "theorem_locator": "§2.1 Definition 3; §4 Theorem 3",
+      "claim_type": "structured_matroid_construction",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Topes of a simple sign-vector system satisfying strong elimination and face symmetry."
+      ],
+      "scope_relation": "The candidate imposes no COM structure; the theorem does not extend all classes to COMs with controlled dimension.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The candidate imposes no COM structure; the theorem does not extend all classes to COMs with controlled dimension.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "AHR25",
+      "theorem_locator": "§5 Theorem 5.6 and proof sketch",
+      "claim_type": "robust_compression_counterexample",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Adversarially robust loss and an associated perturbation map; derived from partial concepts."
+      ],
+      "scope_relation": "Ordinary exact consistency for total binary concepts has different requirements; no contradiction to finite-VC binary compression.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Ordinary exact consistency for total binary concepts has different requirements; no contradiction to finite-VC binary compression.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "J26",
+      "theorem_locator": "§5.3 Theorem 18 and proof",
+      "claim_type": "monotonicity_obstruction",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Consistent permutation-invariant learner, superset-monotone, finite compression, invariant reconstruction."
+      ],
+      "scope_relation": "The candidate does not require superset-monotonicity; generic compression error bounds retain the logarithmic factor used in this contradiction.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The candidate does not require superset-monotonicity; generic compression error bounds retain the logarithmic factor used in this contradiction.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CO26",
+      "theorem_locator": "§2 Theorem 2.4, Eqs. (2.5)–(2.7)",
+      "claim_type": "compression_implies_learning",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Standard Borel product spaces, bounded loss; assumes compression quality ln(h_m)+k s_m ln(m)=o(m)."
+      ],
+      "scope_relation": "Assumes the compression map; supplies no universal linear-VC construction.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Assumes the compression map; supplies no universal linear-VC construction.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "LL26",
+      "theorem_locator": "v4 withdrawal and version history",
+      "claim_type": "withdrawn_resolution_claim",
+      "theorem_statement_actually_read": false,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Primary author comment identifies an incorrect Lemma 2 proof."
+      ],
+      "scope_relation": "Withdrawn claim is not treated as a theorem or as a still-standing unresolved proof claim.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Withdrawn claim is not treated as a theorem or as a still-standing unresolved proof claim.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HMW26",
+      "theorem_locator": "§1.1.1 Theorems 1–3",
+      "claim_type": "list_and_multiclass_counterexamples",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Theorem 1 uses three labels and 2-list learnability. Theorem 2 changes the label space with the list size; Theorem 3 necessarily uses infinitely many labels."
+      ],
+      "scope_relation": "Neither total binary labels nor ordinary PAC learnability with finite VC dimension supplies those counterexamples; binary-encoding labels gives no preserved VC bound in the stated theorems.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither total binary labels nor ordinary PAC learnability with finite VC dimension supplies those counterexamples; binary-encoding labels gives no preserved VC bound in the stated theorems.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "latest_local_comparison_commit": "3335df41da2dd0da8a3717e68ba0eda16ac6cd68",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "269",
+        "difference": "Mutual-information inequality for noisy Boolean signals; no consistent-sample reconstruction or VC parameter."
+      },
+      {
+        "id": "303",
+        "difference": "Average-case polynomial-time detection of planted graphs; this is an unrestricted existence question for noiseless samples."
+      },
+      {
+        "id": "learning-parity-noise",
+        "difference": "Noisy computational recovery of a random parity; this asks existential consistency on arbitrary realizable samples."
+      }
+    ],
+    "distinctness_reason": "Full baseline review, current metadata and alias searches, pending-draft comparison and full closest-page reading found no matching statement.",
+    "implications_or_equivalences": [
+      "The hypergraph and total-binary-function formulations are identical under c↔c^{-1}(1).",
+      "Stronger exact-d, unlabeled, proper, infinite-domain and graph-family variants are not separate counted entries.",
+      "Sequence/array schemes may encode extra ordering; do not claim an O(d) conversion by ignoring O(d log d) bits."
+    ]
+  },
+  "open_status_evidence_summary": "BHMR26 explicitly retains the linear conjecture in April 2026. Independent AHR25 and CCHMY24 state it as open; the apparent later full claim is withdrawn by its authors.",
+  "independent_status_corroboration": "BHMR26 has no shared authors with AHR25, CCHMY24 or MY16. AHR25, CCHMY24 and HMW26 share authors and are not counted as independent of one another.",
+  "strongest_known_partial_results_and_gap": "General exponential size 2^{O(d)} is established. Reviewed special structures admit smaller schemes; no universal linear bound or matching general counterexample was located.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Published AHR25 and CKP24 PDFs were inaccessible; current corrected arXiv texts supply theorem locators.",
+    "BHMR26 HTML loses theorem numbering; statements identified by section and hypotheses.",
+    "Primary histories supersede stale search snippets, especially the withdrawn March 2026 claim.",
+    "No full proof has been independently certified; admission relies on source-matched statements and explicit scope comparison."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass; no independent agent or human reviewer",
+    "reviewer_or_pass_identifier": "A19",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A19-1",
+      "A19-2",
+      "A19-3"
+    ],
+    "issues_found": [
+      "Ordering can hide uncounted bits; sequence and set conventions differ.",
+      "Exact-d unlabeled counterexamples can be misreported as general linear-size obstructions.",
+      "List, partial and robust concepts need not be ordinary finite-VC binary classes.",
+      "High-arity source initially read at v1; latest history lists v2."
+    ],
+    "issues_resolved": [
+      "Used the explicit finite-set convention of BHMR26 and charged side information; decoder sees only its message.",
+      "Read PT21 Definition 5 and full Theorem 6 rather than copying the BHMR shorthand.",
+      "Compared full AHR and HMW negative statements and J26 monotonicity hypothesis.",
+      "Read full CO26 Theorem 2.4 in current v2; it assumes a compression scheme."
+    ],
+    "verdict": "accept_open"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [
+    {
+      "date": "2026-09-17",
+      "scope": "Research checkpoint; no active catalogue integration",
+      "checks": [
+        "Candidate JSON, source IDs, actual search IDs and local evidence links resolve.",
+        "Draft statement matches candidate record; required headings and display delimiters checked.",
+        "All 23 candidate records agree with progress: 19 accepted, one unverified hold, three resolution-claim holds.",
+        "python3 scripts/catalogue.py --check passed for all 310 active entries.",
+        "git diff --check passed; freshly fetched origin/main equals local HEAD 3335df4 before checkpoint."
+      ],
+      "limitations": "Mathematical correctness and open status are not mechanically certified. Final batch resolution refresh, duplicate refresh and rendered-math inspection remain due at integration."
+    }
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/linear-sample-compression.md"
+}

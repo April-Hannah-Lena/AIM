@@ -23,7 +23,7 @@ All ten handoff seeds now have investigation records; eight passed draft review 
 
 ## Coverage still required
 
-All twelve sections have accepted additions, including drafts awaiting integration (inverse3 has three; operators, applied and stochastic3 each have two). All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
+All twelve sections have accepted additions, including drafts awaiting integration (inverse3 and applied have three; operators, inverse and stochastic3 each have two). All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
 
 ## Information-network discovery
 
@@ -45,3 +45,7 @@ All twelve sections have accepted additions, including drafts awaiting integrati
 - **Adaptive dictionaries:** Iacono §1 Conjecture 1 and independent Chmel et al. July 2026 Theorem 1; Russo v3 Conjecture 3.1/Theorem 4.6; Munro–Peng–Wild–Zhang Definition 1.1/Theorems 1.2–1.3. Sitters §4 Theorem 2 and §6.1 resolve a misleading constant-competitive search hit. [Accepted splay record](candidates/splay-dynamic-optimality.json).
 
 - **Noisy parity learning:** Pietrzak Definition 1/footnote 7, independent Bai–Jin–Yu Conjecture 7 and Yamasaki–Isogai–Murao Eqs. (22)–(23); Aggarwal et al. June 2026 conditional reduction. Full BKW, balanced-code preprocessing, sparse-XOR, sparse-secret and quantum-stabilizer theorem comparisons appear in the [accepted LPN record](candidates/learning-parity-noise.json). The matrix is over a finite field; this is statistical learning and cryptographic complexity, not numerical linear algebra.
+
+- **Learning from retained examples:** Bourneuf–Hodor–Micek–Rambaud §1 supplies the exact finite-set/side-bit formulation; independent Attias–Hanneke–Ramaswami and Chase et al. state the linear conjecture. Moran–Yehudayoff exponential compression, unlabeled and embedding obstructions, corrected COM constructions, monotonicity and list-learning counterexamples, high-arity implication and the withdrawn 2026 claim are compared in the [accepted compression record](candidates/linear-sample-compression.json).
+
+- **Bistable controller design:** Charles–Boston Eq. (1.1) and Theorem 5.1; independent Bergweiler–Eremenko §11 Theorem 11.1 and Eremenko’s 2015 Problem 3. Colaneri–Henrion periodic gains and He–Wang–Yu fixed-order results were checked at their full stated scopes. The [accepted threshold record](candidates/belgian-chocolate-threshold.json) distinguishes the all-degree supremum from the solved 0.9 instance and other Goldberg constants. Current searches found older status sources, whose dates and limitations are explicit.

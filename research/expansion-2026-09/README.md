@@ -1,6 +1,6 @@
 # September 2026 expansion research
 
-The requested expansion is 200–300 accepted problems (target 250). **Seventeen additions have passed the formulation, evidence, duplicate and adversarial-review gates.** The first batch has passed its prepublication resolution and upstream duplicate refresh and is published on `main` as entries 301–310. The active catalogue is now 310. These research records do not count separately from their linked problem pages.
+The requested expansion is 200–300 accepted problems (target 250). **Nineteen additions have passed the formulation, evidence, duplicate and adversarial-review gates.** The first batch has passed its prepublication resolution and upstream duplicate refresh and is published on `main` as entries 301–310. The active catalogue is now 310. These research records do not count separately from their linked problem pages.
 
 - [Progress and reading coverage](progress.json): exact counts, completed baseline reading, and next actions.
 - [Baseline inventory](baseline-inventory.json): complete mechanical extraction of all 300 statements, references, metadata, and page hashes at `a602073d986b7f5ce57b1aa0db1687d1bd87761d`. Extraction alone does not constitute semantic review or status revalidation.
@@ -18,10 +18,12 @@ The carrying-simplex interior smoothness question has passed a separate adversar
 
 The exact three-processor unit-job scheduling question has also passed formulation, theorem-scope and separate adversarial review. Its [accepted draft record](candidates/three-processor-unit-scheduling.json) awaits the next batch.
 
-The entanglement-assisted Lovász equality passed a separate adversarial self-pass, including the corrected March 2026 restricted-capacity result. Its [accepted draft record](candidates/entanglement-assisted-lovasz.json) awaits the next batch. There are now seven accepted drafts beyond the ten published entries.
+The entanglement-assisted Lovász equality passed a separate adversarial self-pass, including the corrected March 2026 restricted-capacity result. Its [accepted draft record](candidates/entanglement-assisted-lovasz.json) awaits the next batch. There are now nine accepted drafts beyond the ten published entries.
 
 Fixed-disorder quantum diffusion passed the separate A15 adversarial self-pass. Its [accepted draft record](candidates/anderson-fixed-disorder-diffusion.json) distinguishes disorder-averaged linear growth from spectral delocalization, finite-time estimates and vanishing-disorder scaling limits. It awaits the next batch.
 
 The reversible mass-action reaction–diffusion continuation question passed the separate A16 adversarial self-pass. Its [accepted draft record](candidates/reversible-reaction-classical-continuation.json) distinguishes arbitrary-order deterministic classical continuation from renormalized existence, restricted-growth or diffusion theorems, transport-noise regularization and generic mass-control blowup. All twelve primary sections now have at least one accepted addition; substantial further work remains toward the minimum of 200.
 
-Splay-tree dynamic optimality and classical learning-parity-with-noise hardness passed the separate A17 and A18 self-passes. Their accepted records distinguish initialization conventions, conditional competitive bounds and heap models, and fixed-noise random examples, preprocessing, sparsity and quantum inputs: [splay](candidates/splay-dynamic-optimality.json), [LPN](candidates/learning-parity-noise.json). Both await the next batch; 183 further accepted additions are needed to reach the minimum.
+Splay-tree dynamic optimality and classical learning-parity-with-noise hardness passed the separate A17 and A18 self-passes. Their accepted records distinguish initialization conventions, conditional competitive bounds and heap models, and fixed-noise random examples, preprocessing, sparsity and quantum inputs: [splay](candidates/splay-dynamic-optimality.json), [LPN](candidates/learning-parity-noise.json). Both await the next batch; 181 further accepted additions are needed to reach the minimum.
+
+Linear-size labeled sample compression and the sharp Belgian chocolate stabilization threshold passed the separate A19 and A20 self-passes. Their [compression](candidates/linear-sample-compression.json) and [control](candidates/belgian-chocolate-threshold.json) records distinguish side information, restricted learning models and withdrawn claims, and arbitrary controller degree, strict stability and time-varying feedback. Both are accepted drafts awaiting batch integration.
