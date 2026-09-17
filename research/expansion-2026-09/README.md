@@ -1,6 +1,6 @@
 # September 2026 expansion research
 
-The requested expansion is 200–300 accepted problems (target 250). **Fourteen additions have passed the formulation, evidence, duplicate and adversarial-review gates.** The first batch has passed its prepublication resolution and upstream duplicate refresh and is published on `main` as entries 301–310. The active catalogue is now 310. These research records do not count separately from their linked problem pages.
+The requested expansion is 200–300 accepted problems (target 250). **Fifteen additions have passed the formulation, evidence, duplicate and adversarial-review gates.** The first batch has passed its prepublication resolution and upstream duplicate refresh and is published on `main` as entries 301–310. The active catalogue is now 310. These research records do not count separately from their linked problem pages.
 
 - [Progress and reading coverage](progress.json): exact counts, completed baseline reading, and next actions.
 - [Baseline inventory](baseline-inventory.json): complete mechanical extraction of all 300 statements, references, metadata, and page hashes at `a602073d986b7f5ce57b1aa0db1687d1bd87761d`. Extraction alone does not constitute semantic review or status revalidation.
@@ -18,6 +18,8 @@ The carrying-simplex interior smoothness question has passed a separate adversar
 
 The exact three-processor unit-job scheduling question has also passed formulation, theorem-scope and separate adversarial review. Its [accepted draft record](candidates/three-processor-unit-scheduling.json) awaits the next batch.
 
-The entanglement-assisted Lovász equality passed a separate adversarial self-pass, including the corrected March 2026 restricted-capacity result. Its [accepted draft record](candidates/entanglement-assisted-lovasz.json) awaits the next batch. There are now four accepted drafts beyond the ten published entries.
+The entanglement-assisted Lovász equality passed a separate adversarial self-pass, including the corrected March 2026 restricted-capacity result. Its [accepted draft record](candidates/entanglement-assisted-lovasz.json) awaits the next batch. There are now five accepted drafts beyond the ten published entries.
 
 Fixed-disorder quantum diffusion passed the separate A15 adversarial self-pass. Its [accepted draft record](candidates/anderson-fixed-disorder-diffusion.json) distinguishes disorder-averaged linear growth from spectral delocalization, finite-time estimates and vanishing-disorder scaling limits. It awaits the next batch.
+
+The reversible mass-action reaction–diffusion continuation question passed the separate A16 adversarial self-pass. Its [accepted draft record](candidates/reversible-reaction-classical-continuation.json) distinguishes arbitrary-order deterministic classical continuation from renormalized existence, restricted-growth or diffusion theorems, transport-noise regularization and generic mass-control blowup. All twelve primary sections now have at least one accepted addition; substantial further work remains toward the minimum of 200.

@@ -23,7 +23,7 @@ All ten handoff seeds now have investigation records; eight passed draft review 
 
 ## Coverage still required
 
-Eleven sections have accepted drafts (inverse3 has three and stochastic3 has two); continuum3 still needs accepted coverage. All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
+All twelve sections have accepted additions, including drafts awaiting integration (inverse3 has three and stochastic3 has two). All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
 
 ## Information-network discovery
 
@@ -39,3 +39,5 @@ Eleven sections have accepted drafts (inverse3 has three and stochastic3 has two
 - **Entanglement-assisted graph capacity:** Li–Zuiddam Conjecture 19 and independently authored Cubitt et al. §V supply the asymptotic equality question. Full scope comparisons cover quantum-channel counterexamples, one-shot bounds, no-signalling resources, and corrected March 2026 restricted-capacity undecidability. [Accepted record](candidates/entanglement-assisted-lovasz.json).
 
 - **Fixed-disorder quantum transport:** Simon Example 2.1 and Problem 3, independently authored Spencer §1.4 and Erdős §5.3(iii). ESY Theorem 2.1, BDH v2 Theorems 1.1–1.3, Safonova–Lunkin–Feigel’man’s heavy-tail model, and Janiš et al. diffusion-pole identities were compared. The [accepted record](candidates/anderson-fixed-disorder-diffusion.json) specifies disorder averaging and two-sided growth at fixed positive disorder; it is distinct from entry 015’s spectral assertion.
+
+- **Chemical reaction–diffusion continuation:** Fischer §§1–2 and Fellner–Tang’s disjoint-species no-flux model supply the formulation; Agresti’s independent discussion and Agresti–Kniely–Tang’s August 2026 examples retain the deterministic gap. Classical, renormalized, low-growth, close/high-diffusivity and noisy results were compared at theorem level. Pierre’s 2021 author counterexample statement and Hopf–Tang’s February 2026 scope discussion replace inaccessible original Pierre–Schmitt full text. The [accepted record](candidates/reversible-reaction-classical-continuation.json) includes the separate A16 review and access limitations.

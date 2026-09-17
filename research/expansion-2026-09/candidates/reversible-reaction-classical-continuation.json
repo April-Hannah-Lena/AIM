@@ -1,0 +1,767 @@
+{
+  "candidate_id": "reversible-reaction-classical-continuation",
+  "proposed_catalogue_id": null,
+  "title": "Global classical continuation for a reversible mass-action reaction",
+  "aliases": [
+    "single reversible reaction-diffusion global regularity",
+    "mass-action reaction-diffusion classical existence",
+    "Fick diffusion with arbitrary stoichiometric coefficients"
+  ],
+  "primary_section": "continuum3",
+  "secondary_tags": [
+    "chemical kinetics",
+    "continuum biology",
+    "nonlinear parabolic PDE",
+    "entropy methods"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit source-backed single-reaction no-flux question; independent specialist status sources; resolution-scope and duplicate checks; separate adversarial self-pass A16 completed. Not yet integrated or counted as published.",
+  "problem_fingerprint": {
+    "model_or_objects": "One reversible mass-action reaction; disjoint reactant and product species; linear species-dependent Fick diffusion",
+    "dimension": "Every finite spatial dimension n>=1 and arbitrary finite I,J>=1",
+    "domain": "Bounded connected smooth domain in R^n",
+    "regularity_and_data_class": "Smooth nonnegative initial concentrations on the closure; arbitrary amplitude; classical positive-time solution",
+    "boundary_or_initial_conditions": "Homogeneous Neumann conditions; initial first-order Neumann compatibility",
+    "parameter_range": "Positive integer stoichiometric coefficients; arbitrary positive constant forward/backward rates and diffusivities",
+    "quantifiers": "For every reaction, domain, coefficient choice and admissible initial state, extend the local solution for every finite T",
+    "normalization": "R=k_plus a^alpha-k_minus b^beta; reactants consume alpha_i R and products gain beta_j R; no normalized volume required",
+    "observable_or_norm": "Sum of species L-infinity norms bounded on each finite time interval",
+    "limit_regime_and_order": "Finite-time continuation; no uniform-in-time bound or singular diffusion limit required",
+    "requested_conclusion": "Global classical existence, equivalently absence of finite-time L-infinity blowup; classical uniqueness follows from local parabolic theory",
+    "computational_model_and_dependencies": "Not a computational-complexity or numerical-linear-algebra question"
+  },
+  "statement_source_and_scope_match": "F17 §1 explicitly conjectures smooth global existence even for one reversible reaction, equations (1)–(3). FT17 equations (1.12)–(1.14), Theorem 1.2 and Remark 1.1 specialize to disjoint reactant/product species on a bounded no-flux domain. The smooth-data case is explicit in F17; integer coefficients are the mass-action molecular counts. General positive rate constants are retained as in F17. The finite-time L-infinity continuation criterion is stated in FMT20 proof overview item (1). AKT26 §1.3 supplies current explicit unresolved disjoint-species examples; its periodic setting is identified separately, not attributed to a Neumann theorem.",
+  "proposed_statement_text": "Let $I,J,n\\ge1$ be integers and let $\\Omega\\subset\\mathbb R^n$ be a bounded connected domain with smooth boundary. Consider distinct chemical species undergoing one reversible reaction\n$$\n\\sum_{i=1}^{I}\\alpha_i A_i\\ \\rightleftarrows\\ \\sum_{j=1}^{J}\\beta_j B_j,\n\\qquad \\alpha_i,\\beta_j\\in\\{1,2,\\ldots\\}.\n$$\nFor concentrations $a=(a_1,\\ldots,a_I)$ and $b=(b_1,\\ldots,b_J)$, set\n$$\nR(a,b)=k_+\\prod_{i=1}^{I}a_i^{\\alpha_i}\n       -k_-\\prod_{j=1}^{J}b_j^{\\beta_j},\\qquad k_+,k_->0.\n$$\nFix arbitrary constant diffusivities $d_i,e_j>0$ and solve\n$$\n\\partial_t a_i-d_i\\Delta a_i=-\\alpha_i R(a,b),\\qquad\n\\partial_t b_j-e_j\\Delta b_j=\\beta_j R(a,b)\n$$\nin $(0,\\infty)\\times\\Omega$, with $\\partial_\\nu a_i=\\partial_\\nu b_j=0$ on the boundary, where $\\nu$ is the outward normal. The initial concentrations are arbitrary nonnegative smooth functions on $\\overline\\Omega$ satisfying these boundary conditions.\n\nMust the unique local nonnegative classical solution extend to every finite time? Equivalently, can finite-time concentration blowup be excluded for every such reaction, domain, set of coefficients and initial state? The required bound is\n$$\n\\sup_{0\\le t\\le T}\\left(\\sum_{i=1}^{I}\\|a_i(t)\\|_{L^\\infty(\\Omega)}\n+\\sum_{j=1}^{J}\\|b_j(t)\\|_{L^\\infty(\\Omega)}\\right)<\\infty\n\\quad\\text{for each }T<\\infty.\n$$\nHere classical means continuous to the initial data and continuously differentiable in time and twice in space for positive times, satisfying the equations and boundary conditions pointwise. Bounds may depend on $T$, the data and all coefficients. No upper bound on reaction order, smallness of the initial data, or closeness of diffusivities is assumed. This is the single-reaction, disjoint-species version of the broader chemical reaction-network regularity question; its parameter cases count as one entry.",
+  "applied_significance": "This models a closed reaction vessel containing diffusing chemical or biochemical species. Forward and backward mass-action rates couple local concentrations, while species move at different rates. A positive answer would justify using the classical concentration equations through any finite observation interval, even for large spatially uneven initial concentrations and higher-order reactions. Integrated mass and entropy estimates alone do not give the pointwise concentration control needed for that conclusion.",
+  "application_evidence_source_ids": [
+    "F17",
+    "FT17",
+    "BDD26"
+  ],
+  "source_records": [
+    {
+      "source_id": "F17",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Julian Fischer"
+      ],
+      "title": "Weak–strong uniqueness of solutions to entropy-dissipating reaction–diffusion equations",
+      "venue_or_repository": "Nonlinear Analysis 159, 181–207",
+      "publication_type": "published article; accessible author or published text",
+      "publication_date": "2017",
+      "latest_version_date": "2017-03-02",
+      "identifier": "DOI 10.1016/j.na.2017.03.001; arXiv:1703.00730v1",
+      "version": "arXiv v1",
+      "stable_url": "https://arxiv.org/abs/1703.00730",
+      "locator": "§1 pp. 1–3, equations (1)–(9); §2 assumptions, Definitions 1–2, Theorems 3–4 and 7, Remark 8",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text_relevant_sections",
+      "sections_actually_read": [
+        "§1 pp. 1–3, equations (1)–(9); §2 assumptions, Definitions 1–2, Theorems 3–4 and 7, Remark 8"
+      ],
+      "supported_claim": "Explicit smooth-continuation question; global renormalized existence and conditional weak–strong uniqueness.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Theorem locators refer to the 32-page arXiv text. Publication identity checked against ISTA record 712.",
+      "version_history_checked": "arXiv v1 only; ISTA publication metadata and journal DOI inspected; targeted correction searches run."
+    },
+    {
+      "source_id": "FT17",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Klemens Fellner",
+        "Bao Quoc Tang"
+      ],
+      "title": "Explicit exponential convergence to equilibrium for nonlinear reaction–diffusion systems with detailed balance condition",
+      "venue_or_repository": "Nonlinear Analysis 159, 145–180",
+      "publication_type": "published article; accessible author or published text",
+      "publication_date": "2017",
+      "latest_version_date": "2017-02-10",
+      "identifier": "DOI 10.1016/j.na.2017.02.007; arXiv:1601.05992v3",
+      "version": "author manuscript; arXiv v3 counterpart",
+      "stable_url": "https://imsc.uni-graz.at/fellnerk/preprints/FTfinal.pdf",
+      "locator": "§1 equations (1.1)–(1.2), (1.12)–(1.18), Proposition 1.1, Theorem 1.2 and Remark 1.1; §3 model setup",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text_relevant_sections",
+      "sections_actually_read": [
+        "§1 equations (1.1)–(1.2), (1.12)–(1.18), Proposition 1.1, Theorem 1.2 and Remark 1.1; §3 model setup"
+      ],
+      "supported_claim": "Bounded-domain no-flux disjoint-species formulation; entropy convergence does not supply classical regularity.",
+      "independent_of_source_ids": [
+        "F17"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "arXiv v3 dated 2017-02-10; author PDF and publisher bibliographic record inspected."
+    },
+    {
+      "source_id": "FMT20",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Klemens Fellner",
+        "Jeff Morgan",
+        "Bao Quoc Tang"
+      ],
+      "title": "Global classical solutions to quadratic systems with mass control in arbitrary dimensions",
+      "venue_or_repository": "Annales de l’Institut Henri Poincaré C 37(2), 281–307",
+      "publication_type": "published article; accessible author or published text",
+      "publication_date": "2020",
+      "latest_version_date": null,
+      "identifier": "DOI 10.1016/j.anihpc.2019.09.003",
+      "version": "published article",
+      "stable_url": "https://www.numdam.org/item/10.1016/j.anihpc.2019.09.003.pdf",
+      "locator": "§1 pp. 281–284, assumptions (A1)–(A5), Definition 1.1, Theorem 1.1, Remark 1.1, proof overview item (1)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text_relevant_sections",
+      "sections_actually_read": [
+        "§1 pp. 281–284, assumptions (A1)–(A5), Definition 1.1, Theorem 1.1, Remark 1.1, proof overview item (1)"
+      ],
+      "supported_claim": "Global classical existence for quadratic and sufficiently slightly superquadratic rates, including weighted mass control.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "A23",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Antonio Agresti"
+      ],
+      "title": "Delayed blow-up and enhanced diffusion by transport noise for systems of reaction-diffusion equations",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2022-07-17",
+      "latest_version_date": "2023-11-29",
+      "identifier": "arXiv:2207.08293v4; publication DOI 10.1007/s40072-023-00319-4",
+      "version": "v4; accepted for publication",
+      "stable_url": "https://arxiv.org/abs/2207.08293",
+      "locator": "Published author-access PDF §1 and §1.2, equations (1.6)–(1.7), Theorem 1.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text_relevant_sections",
+      "sections_actually_read": [
+        "Published author-access PDF §1 and §1.2, equations (1.6)–(1.7), Theorem 1.2"
+      ],
+      "supported_claim": "Independent reversible-reaction status discussion and finite-horizon regularization using transport noise.",
+      "independent_of_source_ids": [
+        "F17",
+        "FT17"
+      ],
+      "access_limitations": null
+    },
+    {
+      "source_id": "AKT26",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Antonio Agresti",
+        "Michael Kniely",
+        "Bao Quoc Tang"
+      ],
+      "title": "Global classical solutions by transport noise for reaction-diffusion systems with entropy dissipation",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-08-13",
+      "latest_version_date": "2026-08-13",
+      "identifier": "arXiv:2608.13332v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2608.13332v1",
+      "locator": "§1 deterministic discussion; §1.3; §3.2 Theorem 3.4; §6.3 Proposition 6.5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text_relevant_sections",
+      "sections_actually_read": [
+        "§1 deterministic discussion; §1.3; §3.2 Theorem 3.4; §6.3 Proposition 6.5"
+      ],
+      "supported_claim": "Current deterministic gap; arbitrary-high-probability stochastic global existence and a deterministic high-diffusivity result.",
+      "independent_of_source_ids": [
+        "F17"
+      ],
+      "access_limitations": "arXiv history has one submission, August 13; generated HTML displays August 24, which is not treated as a second submission date. Full proof not independently checked.",
+      "version_history_checked": "arXiv v1 only; Tang publication page lists this as a preprint. Targeted correction search found no primary correction."
+    },
+    {
+      "source_id": "BDD26",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Hector Bouton",
+        "Laurent Desvillettes",
+        "Helge Dietert"
+      ],
+      "title": "Simple proofs for the existence of smooth solutions to a reaction-diffusion system modeling reversible chemistry",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-05-22",
+      "latest_version_date": "2026-05-22",
+      "identifier": "arXiv:2605.23709v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/2605.23709",
+      "locator": "§1 pp. 1–2, equations (1)–(4), Theorem 1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text_relevant_sections",
+      "sections_actually_read": [
+        "§1 pp. 1–2, equations (1)–(4), Theorem 1"
+      ],
+      "supported_claim": "New proof for a quadratic four-species model in n<=3; not arbitrary reaction order.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "CJPT21",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Gheorghe Craciun",
+        "Jiaxin Jin",
+        "Casian Pantea",
+        "Adrian Tudorascu"
+      ],
+      "title": "Convergence to the complex balanced equilibrium for some chemical reaction-diffusion systems with boundary equilibria",
+      "venue_or_repository": "Discrete and Continuous Dynamical Systems B 26(3), 1305–1335",
+      "publication_type": "published article; accessible author or published text",
+      "publication_date": "2021",
+      "latest_version_date": null,
+      "identifier": "DOI 10.3934/dcdsb.2020164",
+      "version": "NSF-hosted author text; journal metadata checked",
+      "stable_url": "https://par.nsf.gov/servlets/purl/10175565",
+      "locator": "§1 model discussion; §3.1 Theorems 3.1–3.2 and following application, manuscript pp. 20–21",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text_relevant_sections",
+      "sections_actually_read": [
+        "§1 model discussion; §3.1 Theorems 3.1–3.2 and following application, manuscript pp. 20–21"
+      ],
+      "supported_claim": "Invariant rectangles give boundedness for the two-species setting under stated positivity assumptions.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "FLT20",
+      "role": "formulation, status or theorem-scope comparison",
+      "authors": [
+        "Klemens Fellner",
+        "Evangelos Latos",
+        "Bao Quoc Tang"
+      ],
+      "title": "Global regularity and convergence to equilibrium of reaction–diffusion systems with nonlinear diffusion",
+      "venue_or_repository": "Journal of Evolution Equations 20, 957–1003",
+      "publication_type": "published article; accessible author or published text",
+      "publication_date": "2020",
+      "latest_version_date": null,
+      "identifier": "DOI 10.1007/s00028-019-00543-3",
+      "version": "published text; online copyright 2019, volume year 2020",
+      "stable_url": "https://d-nb.info/1204614164/34",
+      "locator": "§1 system (S), Theorems 1.1–1.2 and Remark 1.3, PDF pp. 1–4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text_relevant_sections",
+      "sections_actually_read": [
+        "§1 system (S), Theorems 1.1–1.2 and Remark 1.3, PDF pp. 1–4"
+      ],
+      "supported_claim": "Regularity requires sufficiently strong porous-medium diffusion, distinct from the linear diffusion here.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "P21",
+      "role": "counterexample or later-result scope check",
+      "authors": [
+        "Michel Pierre"
+      ],
+      "title": "Global existence for reaction-diffusion systems with a control of the total mass",
+      "venue_or_repository": "GE2MI lecture slides",
+      "publication_type": "primary author text",
+      "publication_date": "2021-12-15/16",
+      "latest_version_date": null,
+      "identifier": "https://math.univ-cotedazur.fr/u/delarue/GE2MI_MPierre1.pdf",
+      "version": "linked primary text",
+      "stable_url": "https://math.univ-cotedazur.fr/u/delarue/GE2MI_MPierre1.pdf",
+      "locator": "PDF pages 57–63 (one-based): full blowup statement and comments",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text_relevant_sections",
+      "sections_actually_read": [
+        "PDF pages 57–63 (one-based): full blowup statement and comments"
+      ],
+      "supported_claim": "The displayed autonomous two-species blowup theorem uses prescribed Dirichlet data; the no-flux adaptation allows explicitly space/time-dependent reactions.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Author restatement substitutes for the inaccessible Pierre–Schmitt journal text; it is not a reading of that journal paper."
+    },
+    {
+      "source_id": "HT26",
+      "role": "counterexample or later-result scope check",
+      "authors": [
+        "Katharina Hopf",
+        "Bao Quoc Tang"
+      ],
+      "title": "Renormalised solutions to reaction-diffusion systems with interface conditions: Global existence and weak-strong uniqueness",
+      "venue_or_repository": "WIAS Preprint 3263; DOI 10.20347/WIAS.PREPRINT.3263",
+      "publication_type": "primary author text",
+      "publication_date": "2026-02-26",
+      "latest_version_date": null,
+      "identifier": "https://www.wias-berlin.de/preprint/3263/wias_preprints_3263.pdf",
+      "version": "linked primary text",
+      "stable_url": "https://www.wias-berlin.de/preprint/3263/wias_preprints_3263.pdf",
+      "locator": "Title page and §1 State-of-the-art, printed p. 4 (PDF p. 6)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text_relevant_sections",
+      "sections_actually_read": [
+        "Title page and §1 State-of-the-art, printed p. 4 (PDF p. 6)"
+      ],
+      "supported_claim": "Explicitly distinguishes mass-control counterexamples from the still-unresolved possibility of blowup under entropy dissipation.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Used for specialist scope assessment, not a full review of its interface existence proof. Overlaps with Tang-authored sources."
+    },
+    {
+      "source_id": "FLS15",
+      "role": "counterexample or later-result scope check",
+      "authors": [
+        "Klemens Fellner",
+        "Evangelos Latos",
+        "Takashi Suzuki"
+      ],
+      "title": "Global classical solutions for mass-conserving, (super)-quadratic reaction-diffusion systems in three and higher space dimensions",
+      "venue_or_repository": "Author manuscript",
+      "publication_type": "primary author text",
+      "publication_date": "2015-11-17",
+      "latest_version_date": null,
+      "identifier": "https://imsc.uni-graz.at/fellnerk/preprints/FLS10.pdf",
+      "version": "linked primary text",
+      "stable_url": "https://imsc.uni-graz.at/fellnerk/preprints/FLS10.pdf",
+      "locator": "§1 Theorem 1.1, Corollary 1.4 and Remarks 1.5–1.6, pp. 2–4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text_relevant_sections",
+      "sections_actually_read": [
+        "§1 Theorem 1.1, Corollary 1.4 and Remarks 1.5–1.6, pp. 2–4"
+      ],
+      "supported_claim": "Both the quadratic theorem and higher-order corollary require a diffusion-closeness inequality.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "FL15",
+      "role": "counterexample or later-result scope check",
+      "authors": [
+        "Klemens Fellner",
+        "El-Haj Laamri"
+      ],
+      "title": "Exponential decay towards equilibrium and global classical solutions for nonlinear reaction-diffusion systems",
+      "venue_or_repository": "Author manuscript",
+      "publication_type": "primary author text",
+      "publication_date": "2015-12-16",
+      "latest_version_date": null,
+      "identifier": "https://imsc.uni-graz.at/fellnerk/preprints/FLfinal.pdf",
+      "version": "linked primary text",
+      "stable_url": "https://imsc.uni-graz.at/fellnerk/preprints/FLfinal.pdf",
+      "locator": "§1 Theorems 1.1–1.2 and Remark 1.4, pp. 4–6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text_relevant_sections",
+      "sections_actually_read": [
+        "§1 Theorems 1.1–1.2 and Remark 1.4, pp. 4–6"
+      ],
+      "supported_claim": "Three-species arbitrary-order classical existence assumes one reactant diffusivity sufficiently close to the product diffusivity; entropy decay holds while the assumed solution exists.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "T17",
+      "role": "counterexample or later-result scope check",
+      "authors": [
+        "Bao Quoc Tang"
+      ],
+      "title": "Global classical solutions to reaction-diffusion systems in one and two dimensions",
+      "venue_or_repository": "arXiv:1702.07003",
+      "publication_type": "primary author text",
+      "publication_date": "2017",
+      "latest_version_date": null,
+      "identifier": "https://arxiv.org/pdf/1702.07003",
+      "version": "linked primary text",
+      "stable_url": "https://arxiv.org/pdf/1702.07003",
+      "locator": "§1 conditions (P), (E), (G), Theorem 2 and Remarks 3–4, pp. 2–4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text_relevant_sections",
+      "sections_actually_read": [
+        "§1 conditions (P), (E), (G), Theorem 2 and Remarks 3–4, pp. 2–4"
+      ],
+      "supported_claim": "Classical existence assumes cubic-or-lower growth in one dimension or quadratic-or-lower growth in two dimensions.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Used only for the displayed theorem scope; no new general claim of latest-version verification."
+    },
+    {
+      "source_id": "NT26",
+      "role": "counterexample or later-result scope check",
+      "authors": [
+        "Thi Lien Nguyen",
+        "Bao Quoc Tang"
+      ],
+      "title": "Stability analysis of irreversible chemical reaction-diffusion systems with boundary equilibria",
+      "venue_or_repository": "Zeitschrift für angewandte Mathematik und Physik 77, article 199; DOI 10.1007/s00033-026-02847-0",
+      "publication_type": "primary author text",
+      "publication_date": "2026-07-01",
+      "latest_version_date": null,
+      "identifier": "https://link.springer.com/article/10.1007/s00033-026-02847-0",
+      "version": "linked primary text",
+      "stable_url": "https://link.springer.com/article/10.1007/s00033-026-02847-0",
+      "locator": "§1 equations (1.1), (1.5); §2 assumptions (A1)–(A2), Theorem 2.1 and proof; §3 Theorem 3.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text_relevant_sections",
+      "sections_actually_read": [
+        "§1 equations (1.1), (1.5); §2 assumptions (A1)–(A2), Theorem 2.1 and proof; §3 Theorem 3.1"
+      ],
+      "supported_claim": "Global classical bounds in the two displayed three-species quadratic systems do not address arbitrary reaction orders.",
+      "independent_of_source_ids": [],
+      "access_limitations": null
+    },
+    {
+      "source_id": "PS23",
+      "role": "original counterexample metadata; replaced by author restatement for scope",
+      "authors": [
+        "Michel Pierre",
+        "Didier Schmitt"
+      ],
+      "title": "Examples of finite time blow up in mass dissipative reaction-diffusion systems with superquadratic growth",
+      "venue_or_repository": "Discrete and Continuous Dynamical Systems 43(3&4), 1686–1701",
+      "publication_type": "published article",
+      "publication_date": "2023; online 2022-04-07",
+      "identifier": "DOI 10.3934/dcds.2022039",
+      "stable_url": "https://www.aimsciences.org/article/doi/10.3934/dcds.2022039",
+      "locator": "Publisher abstract and metadata only",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "abstract_and_metadata",
+      "sections_actually_read": [
+        "Publisher abstract and bibliographic metadata"
+      ],
+      "supported_claim": "Existence of general mass-dissipative counterexamples warrants a scope check.",
+      "access_limitations": "Publisher full-PDF request required login; no full journal text obtained. Scope was checked using the author statement P21 and specialist assessment HT26, not search snippets."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Web search, then arXiv histories, publisher pages, author publication list and full primary texts",
+      "query": "S102-2, S102-3 and S103–S112 in ../search-log.json",
+      "date_filter_or_unrestricted": "unrestricted; literal 2024, 2025, 2026 where recorded",
+      "results_inspected": [
+        "F17",
+        "FT17",
+        "FMT20",
+        "A23",
+        "AKT26",
+        "BDD26",
+        "CJPT21",
+        "FLT20"
+      ],
+      "outcome": "Independent explicit formulations and current status located; principal regularity results have additional growth, diffusion, species-count or noise hypotheses.",
+      "limitations": "Full proofs were not independently certified. PS23 journal text was inaccessible; its author restatement and a 2026 specialist scope discussion were read."
+    },
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "separate adversarial web search followed by full primary theorem statements and local duplicate searches",
+      "query": "A16-1 through A16-4 in ../search-log.json",
+      "date_filter_or_unrestricted": "unrestricted; literal 2025 and 2026 where recorded",
+      "results_inspected": [
+        "P21",
+        "HT26",
+        "FLS15",
+        "FL15",
+        "T17",
+        "NT26"
+      ],
+      "outcome": "No matching resolution located. Additional classical-existence hits retain diffusion-closeness, dimension or degree restrictions.",
+      "limitations": "AI-generated Pith and Emergent Mind pages were discovery hits only and were not used as scholarly evidence."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "F17",
+      "theorem_locator": "Theorems 3 and 7",
+      "claim_type": "renormalized_existence_and_conditional_uniqueness",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Theorem 3 supplies entropy-controlled renormalized solutions.",
+        "Theorem 7 assumes a bounded positive strong solution with bounded derivatives on its time interval."
+      ],
+      "scope_relation": "partial result or different equation",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither supplies the missing global classical bounds.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "FT17",
+      "theorem_locator": "Theorem 1.2 and Remark 1.1",
+      "claim_type": "entropy_equilibration",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same disjoint-species Neumann reaction.",
+        "The convergence conclusion concerns global renormalized solutions and an L1 metric."
+      ],
+      "scope_relation": "partial result or different equation",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "L1 convergence to equilibrium cannot by itself exclude a finite-time L-infinity singularity.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "FMT20",
+      "theorem_locator": "Theorem 1.1, (A5), Remark 1.1(i)",
+      "claim_type": "restricted_reaction_growth",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "The allowed excess over quadratic growth depends on domain, dimension, species and diffusivities.",
+        "Positive weighted mass conservation is allowed."
+      ],
+      "scope_relation": "partial result or different equation",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Arbitrary integer reaction orders are outside the growth guarantee.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "A23",
+      "theorem_locator": "Theorem 1.2",
+      "claim_type": "finite_horizon_noise",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Periodic spatial domain; suitable nonzero noise is chosen after the finite horizon and probability tolerance."
+      ],
+      "scope_relation": "partial result or different equation",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No deterministic global continuation theorem follows by setting that noise to zero.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "AKT26",
+      "theorem_locator": "Theorem 3.4; Proposition 6.5",
+      "claim_type": "noise_and_high_diffusivity",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "The stochastic theorem selects nonzero noise and assumes no boundary equilibria in the prescribed positive mass classes.",
+        "Proposition 6.5 requires all diffusion coefficients to exceed a threshold depending on a data bound and other parameters; periodic domain."
+      ],
+      "scope_relation": "partial result or different equation",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither covers fixed arbitrary positive diffusivities with zero noise. Sending probability error to zero changes the equation; enlarging diffusion changes the parameter instance.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BDD26",
+      "theorem_locator": "Theorem 1",
+      "claim_type": "quadratic_four_species",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Four species with bilinear forward/backward products; n<=3; no-flux smooth compatible data."
+      ],
+      "scope_relation": "partial result or different equation",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The theorem does not address reactions of unrestricted degree.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CJPT21",
+      "theorem_locator": "§3.1 Theorems 3.1–3.2 and application",
+      "claim_type": "two_species_invariant_rectangle",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Only two concentration variables in the single-reaction calculation; initial values in a positive compact rectangle."
+      ],
+      "scope_relation": "partial result or different equation",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No invariant box for arbitrary numbers of species is established by these statements.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "FLT20",
+      "theorem_locator": "Theorems 1.1–1.2",
+      "claim_type": "porous_medium_diffusion",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Diffusion is d_i Delta(u_i^{m_i}); m_i>max{reaction_growth-1,1}, plus a dimensional condition for boundedness."
+      ],
+      "scope_relation": "partial result or different equation",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Candidate fixes every diffusion exponent to one; the stronger-diffusion estimate does not specialize to arbitrary high reaction degree.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "P21",
+      "theorem_locator": "PDF pp. 57–63 (one-based)",
+      "claim_type": "generic_mass_control_blowup",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Autonomous displayed construction uses prescribed Dirichlet boundary values.",
+        "Its no-flux modification permits explicit space/time dependence in the reaction rates.",
+        "No single reversible mass-action form or entropy dissipation is asserted."
+      ],
+      "scope_relation": "partial result or different equation",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "These constructions do not match the constant-rate reversible no-flux system. HT26 explicitly retains the entropy-dissipative blowup question; the original PS23 journal text was not obtained.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "FLS15",
+      "theorem_locator": "Theorem 1.1 and Corollary 1.4",
+      "claim_type": "close_diffusivities",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "The general-degree corollary retains condition (7), bounding the spread of diffusion coefficients."
+      ],
+      "scope_relation": "partial result or different equation",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Candidate coefficients are arbitrary; conservation alone does not imply this closeness condition.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "FL15",
+      "theorem_locator": "Theorems 1.1–1.2 and Remark 1.4",
+      "claim_type": "three_species_close_diffusivities",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Theorem 1.2 requires sufficiently small difference between a reactant and product diffusion coefficient.",
+        "Theorem 1.1 assumes a solution on its existing interval and proves L1 decay there."
+      ],
+      "scope_relation": "partial result or different equation",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Arbitrary unequal diffusivities remain outside the classical existence statement; the entropy conclusion is not a continuation bound.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "T17",
+      "theorem_locator": "Conditions (P), (E), (G) and Theorem 2",
+      "claim_type": "low_dimension_growth_restriction",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Dimension is one or two.",
+        "Growth is at most cubic in dimension one and at most quadratic in dimension two."
+      ],
+      "scope_relation": "partial result or different equation",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not treat arbitrary spatial dimension and arbitrary molecular orders.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "NT26",
+      "theorem_locator": "Equations (1.1), (1.5), Theorems 2.1 and 3.1",
+      "claim_type": "quadratic_irreversible_models",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Both models have three species and quadratic reaction polynomials.",
+        "No-flux boundary and arbitrary bounded nonnegative data are allowed."
+      ],
+      "scope_relation": "partial result or different equation",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Different reaction networks, with bounded growth order; no general-degree continuation claim.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "147",
+        "difference": "Scalar growing heat equation with a chosen internal control and Dirichlet boundary; asks exact null controllability."
+      },
+      {
+        "id": "197",
+        "difference": "Stochastic scalar heat equation with rough noise coefficient; asks pathwise uniqueness at a Hölder threshold."
+      },
+      {
+        "id": "282",
+        "difference": "Discrete molecular-count Markov chain; asks nonexplosion and positive recurrence."
+      },
+      {
+        "id": "283",
+        "difference": "Spatially homogeneous ODE; assumes a bounded global trajectory and asks asymptotic nonextinction."
+      },
+      {
+        "id": "236",
+        "difference": "Boltzmann kinetic equation in position/velocity variables; asks unconditional uniqueness of entropy-admissible renormalized solutions, not classical continuation of concentration PDEs."
+      }
+    ],
+    "distinctness_reason": "No existing or accepted expansion statement asks classical continuation for this multi-species deterministic diffusion system.",
+    "implications_or_equivalences": [
+      "Finite-time L-infinity continuation and global classical existence are one canonical question.",
+      "Do not separately count dimensions, reaction orders, species counts, or a broader restatement of this same continuation gap."
+    ],
+    "current_repository_commit": "7fcc587f9c76efa4941e0df37acba03c422134b6"
+  },
+  "open_status_evidence_summary": "F17 explicitly poses the smooth global question. FT17 treats the same disjoint-species no-flux model with renormalized solutions. A23 independently retains the deterministic reversible-reaction gap; AKT26 still identifies high-order deterministic examples as open. P21 and HT26 distinguish known generic mass-control blowup from the entropy-dissipating chemical setting. A16 found no matching later resolution.",
+  "independent_status_corroboration": "F17, FT17 and A23 have disjoint author lists. AKT26 is also author-disjoint from F17, but overlaps with FT17 and A23; it is not counted as an independent source from those two.",
+  "strongest_known_partial_results_and_gap": "General entropy-based renormalized existence; classical continuation at quadratic growth and under special diffusion/data/structural assumptions. Arbitrary-order, arbitrary-positive-diffusivity classical continuation remains the target.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Only the listed sections and theorem statements were read, not every proof.",
+    "Fischer 2015 author PDF was unavailable; its existence theorem was read as Theorem 3 in F17 and Proposition 1.1 in FT17.",
+    "PS23 journal PDF required login and was not obtained. Full author counterexample statement P21 and the current specialist scope assessment HT26 were read as replacements; no claim to have read PS23 Theorems 2.1–2.3 directly."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass after drafting; no independent agent or human reviewer",
+    "reviewer_or_pass_identifier": "A16",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A16-1",
+      "A16-2",
+      "A16-3",
+      "A16-4"
+    ],
+    "issues_found": [
+      "Generic mass-control blowup counterexamples needed an explicit comparison.",
+      "Older higher-order classical-existence titles could conceal a resolution.",
+      "Finite-time continuation must not be strengthened to a uniform-in-time bound.",
+      "The ledger statement had doubled LaTeX escapes relative to the draft."
+    ],
+    "issues_resolved": [
+      "Read P21 full counterexample statement and no-flux adaptation comments; checked HT26 current entropy-dissipation distinction.",
+      "Read FLS15, FL15, T17 and NT26 theorem hypotheses: each retains restrictions absent from the proposed universal statement.",
+      "Retained bounds depending on each finite T and checked source-backed Neumann/disjoint-species formulation.",
+      "Copied the mathematical statement exactly from the draft into the ledger.",
+      "Rechecked local reaction-network, reaction-diffusion and renormalized-solution entries; no equivalent target located."
+    ],
+    "verdict": "pass; accept_open as a research draft awaiting batch prepublication refresh"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not performed; research draft outside active catalogue."
+  },
+  "public_page_path": null,
+  "validation_results": [
+    {
+      "date": "2026-09-17",
+      "check": "python3 scripts/catalogue.py --check",
+      "result": "Pass: 310 active problems; new research draft not yet indexed."
+    },
+    {
+      "date": "2026-09-17",
+      "check": "Research-record consistency, source/search IDs, local Markdown links and math delimiters",
+      "result": "Pass: 19 candidate records, 15 accepted, 4 held; all twelve section counts agree; draft and ledger statements identical."
+    },
+    {
+      "date": "2026-09-17",
+      "check": "git diff --check",
+      "result": "Pass."
+    },
+    {
+      "date": "2026-09-17",
+      "check": "Upstream refresh before research checkpoint",
+      "result": "git fetch origin main succeeded; HEAD and origin/main both 7fcc587f9c76efa4941e0df37acba03c422134b6. No intervening upstream additions."
+    }
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/reversible-reaction-classical-continuation.md"
+}

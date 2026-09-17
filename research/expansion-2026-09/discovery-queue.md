@@ -41,3 +41,16 @@ Further wave and continuum screening (S89–S97):
 - The original De Giorgi diffuse-Willmore conjecture has a matching Bellettini–Freguglia–Picenni counterexample lead, [DOI 10.1007/s00205-023-01870-z](https://doi.org/10.1007/s00205-023-01870-z); indexed primary abstract inspected, full proof not reviewed. Modified functionals require separate formulation.
 - Two-dimensional fully parabolic Keller–Segel blowup has older Mizoguchi–Winkler claims and a 2026 Annals of PDE lead, [DOI 10.1007/s40818-026-00241-7](https://doi.org/10.1007/s40818-026-00241-7). The latter full text was not obtained and its exact model has not been adjudicated. Discovery only.
 - Fixed-disorder quantum diffusion moved to an [accepted draft](candidates/anderson-fixed-disorder-diffusion.json) after the separate A15 self-pass.
+
+Continuum discovery (S98–S104):
+
+- Berestycki–Graham, *The steady states of strong-KPP reactions in general domains*, [arXiv:2212.06611](https://arxiv.org/html/2212.06611), Conjectures 1.3 and 1.7, gives precise unbounded-domain equilibrium questions. Their 2026 [stable-compact method paper](https://doi.org/10.1007/s00205-026-02168-6), §7.7 Theorem 7.1, resolves the bounded Lipschitz-domain Conjecture 4.2, not the general unbounded-domain question. Relevant statements read. Independent specialist status corroboration for the retained questions has not been located; discovery only.
+- Hamel–Rossi, *Spreading, flattening and logarithmic lag for reaction-diffusion equations in R^N: old and new results*, [arXiv:2307.03555](https://arxiv.org/abs/2307.03555), supplies further front-propagation leads. PDF and primary publication metadata located; individual conjectures still require review.
+- Agresti–Veraar, *Nonlinear SPDEs and Maximal Regularity: An Extended Survey*, [arXiv:2501.18561](https://arxiv.org/html/2501.18561), open-problem section: Problems 7–8 concern reaction–diffusion systems with transport noise. Deterministic quadratic global existence is already established; the noisy and noise-free models must be distinguished. These leads are not counted.
+- Wave discovery repeated several existing families (084 nonradial soliton resolution, 235 Sobolev growth, 240 water-wave stability, 241 kink stability). No additional entry was created by changing a parameter or alias.
+
+## Reaction–diffusion follow-up disposition (2026-09-17)
+
+The single reversible mass-action classical-continuation lead is now an [accepted research draft](candidates/reversible-reaction-classical-continuation.json) after A16, not an active catalogue entry yet. Further species-count, dimensional or reaction-order restrictions of this same continuation target should not be counted separately.
+
+Nguyen–Tang, [ZAMP 77 (2026), article 199](https://link.springer.com/article/10.1007/s00033-026-02847-0), §1, states equilibration conjectures for quadratic irreversible networks. These are discovery leads only. Its literal nonnegative-data formulation for (1.1) includes stationary boundary states (b=0), so it cannot be copied as a universal positive-equilibrium assertion; a corrected source-backed initial-data class and independent corroboration would be required before further admission work. No additional candidate is counted here.

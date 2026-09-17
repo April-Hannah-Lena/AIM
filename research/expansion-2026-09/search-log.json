@@ -3470,5 +3470,469 @@
     "query": "\"Self-consistent equations and quantum diffusion\" correction erratum 2026",
     "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
     "review_stage": "Separate adversarial self-pass for fixed-disorder quantum diffusion"
+  },
+  {
+    "search_id": "S98-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"open problems\" \"wave equations\" \"2025\" soliton",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S98-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"conjecture\" \"KdV\" \"soliton resolution\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S98-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"open problem\" \"water waves\" \"2025\" splash",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S98-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"open problems\" \"elasticity\" \"2026\" cavitation",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S99-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"open problem\" \"2025\" \"Prandtl\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S99-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"open problems\" \"2025\" \"Gross-Pitaevskii\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S99-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"open problem\" \"2026\" \"water waves\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S99-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"open problems\" \"2025\" \"reaction diffusion\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S100-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"The steady states of strong-KPP reactions\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S100-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Spreading, flattening, and logarithmic lag\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S101-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"strong-KPP\" \"uniqueness\" conjecture -site:emergentmind.com -site:researchgate.net",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S101-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Berestycki\" \"Graham\" \"Conjecture 1.3\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S101-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"uniqueness\" \"KPP\" \"unbounded domains\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S101-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"strong-KPP\" counterexample proof conjecture",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S102-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"global regularity\" \"Shigesada\" \"open\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S102-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"reaction diffusion\" \"cubic\" \"open problem\" mass",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S102-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"global existence\" \"mass action\" \"open problem\" 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S102-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"strong-KPP\" \"uniqueness\" -Berestycki -Graham -site:researchgate.net -site:emergentmind.com",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S103-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Fischer global existence renormalized solutions entropy dissipating reaction diffusion systems 2015 pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S103-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"single reversible reaction\" \"global classical\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S103-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"reaction diffusion\" \"detailed balance\" \"global classical\" \"open\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S104-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Delayed blow-up and enhanced diffusion by transport noise\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S104-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"reversible\" \"reaction-diffusion\" \"classical\" \"2026\" \"global\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S104-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"reversible\" \"reaction-diffusion\" \"classical\" \"2025\" \"global\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S104-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"single reversible\" reaction diffusion counterexample blowup",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Wave and continuum discovery; KPP and reaction-diffusion source investigation"
+  },
+  {
+    "search_id": "S105-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"single reversible reaction\" \"global\" \"classical\" proof solved",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S105-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"reaction diffusion\" \"mass action\" \"global classical\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S105-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"reaction diffusion\" \"reversible\" \"blowup\" counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S105-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Fischer\" \"reactdiffexist.pdf\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S106-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"single reversible reaction\" \"global existence\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S106-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"mass action\" \"global classical\" proof counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S106-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Global classical solutions to quadratic systems with mass control in arbitrary dimensions\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S106-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"reversible\" \"reaction-diffusion\" solved disproved refutation correction erratum",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S107-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Examples of finite time blow up\" Pierre Schmitt pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S107-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"single reversible reaction\" \"global existence\" \"2024\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S107-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"single reversible reaction\" \"global existence\" \"2026\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S107-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Explicit exponential convergence\" \"Fellner\" \"Tang\" erratum correction",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S108-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"single reversible\" \"global\" \"regularity\" proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S108-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"reaction-diffusion\" \"Fischer\" \"global\" \"2025\" \"classical\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S108-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Agresti\" \"Kniely\" \"Tang\" \"2608.13332\" correction",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S108-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Fellner\" \"Morgan\" \"Tang\" quadratic erratum correction withdrawal",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reversible mass-action reaction-diffusion formulation and resolution investigation"
+  },
+  {
+    "search_id": "S109-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Pierre\" \"Schmitt\" \"2022039\" pdf -site:researchgate.net -site:mardi4nfdi.de",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reaction-diffusion resolution, version and counterexample access checks"
+  },
+  {
+    "search_id": "S109-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Global existence\" \"reversible chemical reaction\" \"2026\" -site:researchgate.net",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reaction-diffusion resolution, version and counterexample access checks"
+  },
+  {
+    "search_id": "S109-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"single reversible reaction\" \"proved\" OR \"solved\" OR \"disproof\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reaction-diffusion resolution, version and counterexample access checks"
+  },
+  {
+    "search_id": "S109-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Weak-strong uniqueness\" \"Fischer\" \"reaction-diffusion\" erratum correction",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reaction-diffusion resolution, version and counterexample access checks"
+  },
+  {
+    "search_id": "S110-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Explicit exponential convergence to equilibrium for nonlinear\" Fellner Tang 2017 SIAM",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reaction-diffusion resolution, version and counterexample access checks"
+  },
+  {
+    "search_id": "S110-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Convergence to the complex balanced equilibrium\" \"2020164\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reaction-diffusion resolution, version and counterexample access checks"
+  },
+  {
+    "search_id": "S111-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Examples of finite time blow up\" filetype:pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reaction-diffusion resolution, version and counterexample access checks"
+  },
+  {
+    "search_id": "S111-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Pierre\" \"Schmitt\" \"superquadratic\" site:hal.science",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reaction-diffusion resolution, version and counterexample access checks"
+  },
+  {
+    "search_id": "S111-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Examples of finite time blow up\" \"Theorem 2.3\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reaction-diffusion resolution, version and counterexample access checks"
+  },
+  {
+    "search_id": "S111-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"2022039.pdf\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reaction-diffusion resolution, version and counterexample access checks"
+  },
+  {
+    "search_id": "S112-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Didier Schmitt Pierre superquadratic 2023 preprint",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reaction-diffusion resolution, version and counterexample access checks"
+  },
+  {
+    "search_id": "S112-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Examples of finite time blow up in mass\" -site:researchgate.net -site:citeseerx.ist.psu.edu",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reaction-diffusion resolution, version and counterexample access checks"
+  },
+  {
+    "search_id": "S112-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"10.3934/dcds.2022039\" \"pdf\" download",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Reaction-diffusion resolution, version and counterexample access checks"
+  },
+  {
+    "search_id": "A16-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"single reversible reaction\" \"global\" \"classical\" 2026 proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass A16"
+  },
+  {
+    "search_id": "A16-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"mass action\" \"entropy\" \"blow-up\" counterexample reaction diffusion 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass A16"
+  },
+  {
+    "search_id": "A16-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"reversible\" \"reaction-diffusion\" \"global classical\" solved disproved",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass A16"
+  },
+  {
+    "search_id": "A16-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Pierre\" \"Schmitt\" \"superquadratic\" correction erratum entropy",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separate adversarial self-pass A16"
   }
 ]

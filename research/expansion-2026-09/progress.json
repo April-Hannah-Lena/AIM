@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 14,
+  "new_accepted": 15,
   "active_total": 310,
-  "candidates_investigated": 18,
+  "candidates_investigated": 19,
   "held_unverified": 1,
   "held_claimed_resolution": 3,
   "excluded": 0,
-  "remaining_to_minimum": 186,
-  "remaining_to_target": 236,
+  "remaining_to_minimum": 185,
+  "remaining_to_target": 235,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -54,11 +54,15 @@
     {
       "commit": "f35c055",
       "purpose": "Three reviewed drafts and source audits; pushed directly to main."
+    },
+    {
+      "commit": "7fcc587",
+      "purpose": "Record the reviewed fixed-disorder quantum diffusion draft; pushed directly to main."
     }
   ],
-  "remote_state": "Direct push access verified on 2026-09-17: git push origin HEAD:main returned Everything up-to-date, and git ls-remote showed f35c0557fef29beb0074c58d5c6eef4d5f0bfc40 immediately before this research checkpoint. The first ten entries are published on main. No PR is required or created; subsequent research checkpoints also use direct pushes.",
+  "remote_state": "Direct push access verified on 2026-09-17: git push origin HEAD:main returned Everything up-to-date and git ls-remote showed 7fcc587f9c76efa4941e0df37acba03c422134b6 before this research checkpoint. First ten entries are published. The user authorizes direct pushes to main; no PR is required or created.",
   "next_actions": [
-    "Continue discovery, prioritizing missing continuum3 coverage and broader application areas; push reviewed batches directly to main after upstream checks.",
+    "Continue discovery across all twelve sections and broader application areas; assemble the next batch of approximately 10–20 accepted drafts, refresh evidence and upstream duplicate checks, then push directly to main.",
     "All ten handoff seeds investigated: eight accepted drafts, Morrey and Yang–Mills held on matching unadjudicated claims.",
     "Discover candidates across all twelve sections, with deliberate biology, statistics, information, control, operations-research and stochastic-network coverage.",
     "Refresh resolution searches and upstream duplicate checks before each later batch; assign permanent IDs centrally after acceptance."
@@ -73,13 +77,13 @@
     "continuum2": 1,
     "stochastic2": 1,
     "spectral3": 1,
-    "continuum3": 0,
+    "continuum3": 1,
     "inverse3": 3,
     "stochastic3": 2
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 10,
-  "count_semantics": "Fourteen accepted additions: ten integrated and published, four drafts awaiting the next batch. Active total is 310; held records do not count.",
+  "count_semantics": "Fifteen accepted additions: ten integrated and published, five drafts awaiting the next batch. Active total is 310; held records do not count.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 10,
   "coverage_semantics": "Accepted additions by primary section, including accepted drafts awaiting integration."
