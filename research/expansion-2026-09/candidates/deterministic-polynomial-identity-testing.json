@@ -1,0 +1,654 @@
+{
+  "candidate_id": "deterministic-polynomial-identity-testing",
+  "proposed_catalogue_id": null,
+  "title": "Deterministic identity testing for arithmetic circuits",
+  "aliases": [
+    "PIT derandomization",
+    "arithmetic circuit identity testing",
+    "ACIT",
+    "commutative circuit zero testing"
+  ],
+  "primary_section": "operators",
+  "secondary_tags": [
+    "symbolic computation",
+    "derandomization",
+    "exact verification"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Precise general-circuit source formulation, independently authored status evidence, theorem-level resolution checks and separate A22 self-pass passed. Accepted only as a research draft; batch refresh remains due.",
+  "problem_fingerprint": {
+    "model_or_objects": "Explicit arithmetic DAG with rational constants and binary +/× gates",
+    "dimension": "Arbitrary number of variables",
+    "domain": "Ordinary commutative associative Q[x1,...,xn]",
+    "regularity_and_data_class": "Binary-encoded rational constants; every gate polynomial has promised total degree at most d",
+    "boundary_or_initial_conditions": "Not applicable; promise decision problem",
+    "parameter_range": "All circuit encodings of length L and unary d>=1",
+    "quantifiers": "One deterministic algorithm and absolute constants K,c serve every valid input",
+    "normalization": "Bit-cost Turing model, entire circuit supplied",
+    "observable_or_norm": "Whether every output coefficient is zero",
+    "limit_regime_and_order": "Worst-case complexity as L+d grows; no average-case regime",
+    "requested_conclusion": "Decide f_C identically zero in K(L+d)^c bit operations",
+    "computational_model_and_dependencies": "White-box, uniform, unconditional; no randomness, depth/read/sparsity restriction or hardness assumption"
+  },
+  "statement_source_and_scope_match": "SY10 defines the DAG and general white-box PIT question; KSS14 specifies the degree-at-every-gate convention and Q bit-complexity dependence. Unary d and binary constants make the customary polynomial-in-size-and-degree request explicit. This is the rational bounded-degree version; no equivalence with every field or arithmetic-network model is asserted.",
+  "proposed_statement_text": "An arithmetic circuit is a finite directed acyclic graph with one designated output. Input gates contain variables $x_1,\\ldots,x_n$ or rational constants; every other gate has two inputs and applies addition or multiplication. Gates may feed more than one later gate. Operations take place in the ordinary commutative, associative polynomial ring $\\mathbb Q[x_1,\\ldots,x_n]$; subtraction can be implemented using the constant $-1$.\n\nLet $L$ be the bit length of an explicit encoding of the graph, its gate labels and its rational constants, whose numerators and nonzero denominators are written in binary. The input also contains an integer $d\\ge1$ in unary, with the promise that the polynomial computed at every gate has total degree at most $d$. The zero polynomial is permitted at any gate. Write $f_C$ for the output polynomial.\n\nDo there exist a deterministic Turing machine $A$ and absolute constants $K,c>0$ such that, for every valid input $(C,d)$, $A$ uses at most $K(L+d)^c$ bit operations and correctly decides whether\n\n$$\nf_C\\equiv0\\quad\\text{in }\\mathbb Q[x_1,\\ldots,x_n]?\n$$\n\nThe machine receives the entire circuit and must work for all inputs satisfying the degree promise. There is no restriction on circuit depth, number of occurrences of a variable, or number of monomials. The conclusion is unconditional and requires no random choices. This is the rational-coefficient, bounded-degree, white-box version of polynomial identity testing (PIT).",
+  "applied_significance": "Testing whether two symbolic computations are exactly equivalent reduces to applying PIT to their difference. Circuits retain shared intermediate computations and can describe polynomials whose expanded coefficient lists are exponentially larger. A deterministic polynomial-time test would give a worst-case guarantee for such identity checks without expanding the expressions. PIT also controls deterministic multivariate factorization when both the input polynomial and its factors are represented by circuits; the relevant reduction preserves this compact representation.",
+  "application_evidence_source_ids": [
+    "SY10",
+    "KSS14"
+  ],
+  "source_records": [
+    {
+      "source_id": "SY10",
+      "role": "formulation, independent status, application or resolution-scope comparison",
+      "authors": [
+        "Amir Shpilka",
+        "Amir Yehudayoff"
+      ],
+      "title": "Arithmetic Circuits: A Survey of Recent Results and Open Questions",
+      "venue_or_repository": "Foundations and Trends in Theoretical Computer Science 5(3–4), 207–388",
+      "publication_type": "published paper or author manuscript",
+      "publication_date": "2010",
+      "latest_version_date": "2010",
+      "identifier": "10.1561/0400000039",
+      "version": "author manuscript of published survey",
+      "stable_url": "https://www.cs.tau.ac.il/~shpilka/publications/SY10.pdf",
+      "locator": "Definition 1.1; Chapter 4 introduction, author pp. 53–54; §4.1 Lemma 4.1 and Fact 4.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Definition 1.1; Chapter 4 introduction, author pp. 53–54; §4.1 Lemma 4.1 and Fact 4.1"
+      ],
+      "supported_claim": "DAG circuit representation and general white-box PIT question; randomized evaluation baseline.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "Publisher DOI 10.1561/0400000039 confirms 2010; do not adopt a conflicting 2009 secondary metadata date."
+    },
+    {
+      "source_id": "KSS14",
+      "role": "formulation, independent status, application or resolution-scope comparison",
+      "authors": [
+        "Swastik Kopparty",
+        "Shubhangi Saraf",
+        "Amir Shpilka"
+      ],
+      "title": "Equivalence of Polynomial Identity Testing and Deterministic Multivariate Polynomial Factorization",
+      "venue_or_repository": "ECCC TR14-001",
+      "publication_type": "preprint",
+      "publication_date": "2014-01-04",
+      "latest_version_date": "2014-01-04",
+      "identifier": "https://www.math.toronto.edu/ssaraf/PITfactoring.pdf",
+      "version": "2014 ECCC/author manuscript",
+      "stable_url": "https://www.math.toronto.edu/ssaraf/PITfactoring.pdf",
+      "locator": "§1 through §1.2.1, especially §1.1 Theorem 1 and Observation 1, pp. 1–4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 through §1.2.1, especially §1.1 Theorem 1 and Observation 1, pp. 1–4"
+      ],
+      "supported_claim": "Specifies degree at every gate and rational constant bit complexity; relates deterministic PIT to factorization with circuits for the factors.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "ECCC https://eccc.weizmann.ac.il/report/2014/001/ inspected; no revision listed. No later journal date asserted."
+    },
+    {
+      "source_id": "S14",
+      "role": "formulation, independent status, application or resolution-scope comparison",
+      "authors": [
+        "Nitin Saxena"
+      ],
+      "title": "Progress on Polynomial Identity Testing - II",
+      "venue_or_repository": "arXiv:1401.0976v1",
+      "publication_type": "preprint",
+      "publication_date": "2014-01-06",
+      "latest_version_date": "2014-01-06",
+      "identifier": "https://arxiv.org/html/1401.0976v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/1401.0976v1",
+      "locator": "§§1, 1.1, 2.1; adjoining §§2.2 and 3.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1, 1.1, 2.1; adjoining §§2.2 and 3.1"
+      ],
+      "supported_claim": "Independent formulation of deterministic PIT and depth-reduction caveats.",
+      "independent_of_source_ids": [
+        "SY10",
+        "KSS14"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "Current arXiv history lists only v1, January 6, 2014."
+    },
+    {
+      "source_id": "RMS25",
+      "role": "formulation, independent status, application or resolution-scope comparison",
+      "authors": [
+        "Partha Mukhopadhyay",
+        "C. Ramya",
+        "Pratik Shastri"
+      ],
+      "title": "Efficient Polynomial Identity Testing Over Nonassociative Algebras",
+      "venue_or_repository": "arXiv:2509.11349v1",
+      "publication_type": "preprint",
+      "publication_date": "2025-09-14",
+      "latest_version_date": "2025-09-14",
+      "identifier": "https://arxiv.org/html/2509.11349v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2509.11349v1",
+      "locator": "§1 and §§1.1–1.1.2, full Theorem 3; §4.1 opening proof paragraphs",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 and §§1.1–1.1.2, full Theorem 3; §4.1 opening proof paragraphs"
+      ],
+      "supported_claim": "Independent recent source retains ordinary PIT as unresolved; Theorem 3 solves a commutative nonassociative problem.",
+      "independent_of_source_ids": [
+        "SY10",
+        "KSS14",
+        "ST26"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "Current arXiv history lists only v1, September 14, 2025; ECCC posting is earlier, not a new September theorem."
+    },
+    {
+      "source_id": "AKT25",
+      "role": "formulation, independent status, application or resolution-scope comparison",
+      "authors": [
+        "Robert Andrews",
+        "Deepanshu Kush",
+        "Roei Tell"
+      ],
+      "title": "Polynomial-Time PIT from (Almost) Necessary Assumptions",
+      "venue_or_repository": "ECCC TR25-042; arXiv:2504.06044v1",
+      "publication_type": "preprint",
+      "publication_date": "2025-04-08",
+      "latest_version_date": "2025-04-08",
+      "identifier": "https://eccc.weizmann.ac.il/report/2025/042/download",
+      "version": "ECCC original / arXiv v1",
+      "stable_url": "https://eccc.weizmann.ac.il/report/2025/042/download",
+      "locator": "§§1–1.3, Theorems 1.2–1.4 and Remark 1.5; Theorem 7.3 and proof; Theorem 7.4 statement",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§§1–1.3, Theorems 1.2–1.4 and Remark 1.5; Theorem 7.3 and proof; Theorem 7.4 statement"
+      ],
+      "supported_claim": "Hardness assumptions imply arithmetic-network PIT; assumptions are not proved, and arithmetic networks are not the specified Turing bit model.",
+      "independent_of_source_ids": [
+        "SY10",
+        "KSS14"
+      ],
+      "access_limitations": null,
+      "version_history_checked": "ECCC record and arXiv history inspected; only April 8, 2025 v1 listed."
+    },
+    {
+      "source_id": "ST26",
+      "role": "formulation, independent status, application or resolution-scope comparison",
+      "authors": [
+        "Amir Shpilka",
+        "Yann Tal"
+      ],
+      "title": "Polynomial Identity Testing and Reconstruction for Depth-4 Powering Circuits of High Degree",
+      "venue_or_repository": "ECCC TR26-029; arXiv:2602.20832v1",
+      "publication_type": "preprint",
+      "publication_date": "2026-02-24",
+      "latest_version_date": "2026-02-24",
+      "identifier": "https://eccc.weizmann.ac.il/report/2026/029/download",
+      "version": "v1",
+      "stable_url": "https://eccc.weizmann.ac.il/report/2026/029/download",
+      "locator": "§1 through Theorem 1.1 and beginning §1.2; §1.2.1 summary",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 through Theorem 1.1 and beginning §1.2; §1.2.1 summary"
+      ],
+      "supported_claim": "Polynomial-size hitting sets for a restricted sum of powers of sparse low-degree polynomials, with an exponent/top-fan-in condition.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "Current arXiv history lists only v1, February 24, 2026."
+    },
+    {
+      "source_id": "G26",
+      "role": "formulation, independent status, application or resolution-scope comparison",
+      "authors": [
+        "Zeyu Guo"
+      ],
+      "title": "A Note on Deterministic PIT for Σ^[3]ΠΣΠ^[δ] Circuits",
+      "venue_or_repository": "ECCC TR26-168",
+      "publication_type": "preprint",
+      "publication_date": "2026-09-06",
+      "latest_version_date": "2026-09-06",
+      "identifier": "https://eccc.weizmann.ac.il/report/2026/168/download",
+      "version": "original report",
+      "stable_url": "https://eccc.weizmann.ac.il/report/2026/168/download",
+      "locator": "Entire four-page note, particularly Theorem 2.6 and Corollary 2.7",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Entire four-page note, particularly Theorem 2.6 and Corollary 2.7"
+      ],
+      "supported_claim": "At most three product terms and constant bottom degree; polynomial exponent depends on that degree.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "ECCC posted September 6, 2026; PDF dated September 5; no revision listed."
+    },
+    {
+      "source_id": "SS26",
+      "role": "formulation, independent status, application or resolution-scope comparison",
+      "authors": [
+        "Shalender Singh",
+        "Vishnupriya Singh"
+      ],
+      "title": "An Algebraic Rigidity Framework for Order-Oblivious Deterministic Black-Box PIT of ROABPs",
+      "venue_or_repository": "arXiv:2602.13449v1",
+      "publication_type": "preprint",
+      "publication_date": "2026-02-13",
+      "latest_version_date": "2026-02-13",
+      "identifier": "https://arxiv.org/pdf/2602.13449v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/2602.13449v1",
+      "locator": "Theorems 7.4–7.5, associated proofs and §7.7 algorithm input; §4.7.5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Theorems 7.4–7.5, associated proofs and §7.7 algorithm input; §4.7.5"
+      ],
+      "supported_claim": "ROABP claim: unconditional size n(wd)^{O(w²)}; polynomial size is conditional on Modular Stability.",
+      "independent_of_source_ids": [],
+      "access_limitations": "The restricted-model proof is not independently validated. HTML access failed; relevant PDF statements were read. Do not call the displayed unconditional bound polynomial or quasipolynomial for unrestricted width.",
+      "version_history_checked": "Current arXiv history lists only v1, February 13, 2026."
+    },
+    {
+      "source_id": "GGOW16",
+      "role": "formulation, independent status, application or resolution-scope comparison",
+      "authors": [
+        "Ankit Garg",
+        "Leonid Gurvits",
+        "Rafael Oliveira",
+        "Avi Wigderson"
+      ],
+      "title": "A Deterministic Polynomial Time Algorithm for Non-commutative Rational Identity Testing",
+      "venue_or_repository": "FOCS 2016 author proceedings PDF",
+      "publication_type": "published paper or author manuscript",
+      "publication_date": "2016",
+      "latest_version_date": "2016",
+      "identifier": "https://www.math.ias.edu/~avi/PUBLICATIONS/GargGuOlWi_FOCS_2016.pdf",
+      "version": "unversioned published or author manuscript",
+      "stable_url": "https://www.math.ias.edu/~avi/PUBLICATIONS/GargGuOlWi_FOCS_2016.pdf",
+      "locator": "§I and §I-A, Theorems I.1–I.2 and Corollary I.3; §I-B rank comparison",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§I and §I-A, Theorems I.1–I.2 and Corollary I.3; §I-B rank comparison"
+      ],
+      "supported_claim": "Polynomial-time rational-expression identity testing uses noncommuting variables and the free skew field; it does not decide ordinary commutative identities.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "No separately numbered revision identified in the primary record consulted."
+    },
+    {
+      "source_id": "CCGM26",
+      "role": "formulation, independent status, application or resolution-scope comparison",
+      "authors": [
+        "Abhranil Chatterjee",
+        "Prerona Chatterjee",
+        "Utsab Ghosal",
+        "Partha Mukhopadhyay"
+      ],
+      "title": "Quasi-polynomial Frege Simulation of IPS beyond Noncommutativity",
+      "venue_or_repository": "ECCC TR26-166",
+      "publication_type": "preprint",
+      "publication_date": "2026-09-05",
+      "latest_version_date": "2026-09-05",
+      "identifier": "https://eccc.weizmann.ac.il/report/2026/166/download",
+      "version": "original report",
+      "stable_url": "https://eccc.weizmann.ac.il/report/2026/166/download",
+      "locator": "Theorems 1.2–1.3, adjoining two-bucket definitions, Remark 1.5 and §3.2 setup",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "Theorems 1.2–1.3, adjoining two-bucket definitions, Remark 1.5 and §3.2 setup"
+      ],
+      "supported_claim": "Two-bucket partially commutative ABPs admit deterministic PIT; variables within each bucket do not commute. Remark 1.5 extends the algorithm to Q.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "ECCC submitted September 4 and posted September 5, 2026; current record inspected; no revision listed."
+    },
+    {
+      "source_id": "BHLV09",
+      "role": "formulation, independent status, application or resolution-scope comparison",
+      "authors": [
+        "Markus Bläser",
+        "Moritz Hardt",
+        "Richard J. Lipton",
+        "Nisheeth K. Vishnoi"
+      ],
+      "title": "Deterministically Testing Sparse Polynomial Identities of Unbounded Degree",
+      "venue_or_repository": "Information Processing Letters 109(3), 187–192",
+      "publication_type": "published paper or author manuscript",
+      "publication_date": "2009-01-16",
+      "latest_version_date": "2009-01-16",
+      "identifier": "https://www.cs.yale.edu/homes/vishnoi/Publications_files/BHLV08-ipl.pdf",
+      "version": "author manuscript dated September 21, 2008",
+      "stable_url": "https://www.cs.yale.edu/homes/vishnoi/Publications_files/BHLV08-ipl.pdf",
+      "locator": "§1 introduction and §1.2 Theorems 1–2, pp. 1–4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1 introduction and §1.2 Theorems 1–2, pp. 1–4"
+      ],
+      "supported_claim": "Runtime depends on the number of nonzero monomials and coefficient height; these are not bounded polynomially by the current circuit encoding.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "Publisher DOI 10.1016/j.ipl.2008.09.029 confirms January 16, 2009 publication; no separate revision history located."
+    },
+    {
+      "source_id": "CS26",
+      "role": "formulation, independent status, application or resolution-scope comparison",
+      "authors": [
+        "Aminadav Chuyoon",
+        "Amir Shpilka"
+      ],
+      "title": "On Factorization of Sparse Polynomials of Bounded Individual Degree",
+      "venue_or_repository": "ECCC TR26-036",
+      "publication_type": "preprint",
+      "publication_date": "2026-03-08",
+      "latest_version_date": "2026-03-08",
+      "identifier": "https://eccc.weizmann.ac.il/report/2026/036/download/",
+      "version": "original report",
+      "stable_url": "https://eccc.weizmann.ac.il/report/2026/036/download/",
+      "locator": "§2.2 Theorems 2.6–2.8 and Lemma 2.9; §2.3; §9.1 Theorem 1.12 and proof",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§2.2 Theorems 2.6–2.8 and Lemma 2.9; §2.3; §9.1 Theorem 1.12 and proof"
+      ],
+      "supported_claim": "Dense factorization has a d^n factor; sparse factorization assumes bounded individual degree and sparse input. Neither gives polynomial-time general circuit factorization.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "ECCC posted March 8, 2026; current page inspected; no revision listed."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Live web search, primary full texts and current primary version histories",
+      "query": "S130-4, S132-4 and S133–S135; literal queries in ../search-log.json",
+      "date_filter_or_unrestricted": "unrestricted, with current/prior-year terms where shown",
+      "results_inspected": [
+        "SY10",
+        "KSS14",
+        "S14",
+        "RMS25",
+        "AKT25",
+        "ST26",
+        "G26",
+        "SS26",
+        "GGOW16"
+      ],
+      "outcome": "General question retained; restricted, conditional and different-algebra results compared.",
+      "limitations": "Search indexing may lag; no exhaustive proof-correctness review claimed."
+    },
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Separated A22 adversarial self-pass after initial draft",
+      "query": "A22-1 through A22-8 in ../search-log.json",
+      "date_filter_or_unrestricted": "unrestricted, including 2025/2026",
+      "results_inspected": [
+        "CCGM26",
+        "BHLV09",
+        "CS26",
+        "AKT25 current version history"
+      ],
+      "outcome": "Additional partially commutative and sparse/factorization results do not match; no full resolution located.",
+      "limitations": "Secondary/AI aggregators were not used as status authorities."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "ST26",
+      "theorem_locator": "Theorem 1.1",
+      "claim_type": "restricted_model",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Depth four; sum of r powers of s-sparse degree-δ polynomials.",
+        "Power exponent must dominate r²; characteristic restrictions include characteristic zero."
+      ],
+      "scope_relation": "Does not cover arbitrary-depth circuits or arbitrary sums/products.",
+      "indirect_resolution_considered": false,
+      "assessment_and_remaining_gap": "Does not cover arbitrary-depth circuits or arbitrary sums/products.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "G26",
+      "theorem_locator": "Theorem 2.6 and Corollary 2.7",
+      "claim_type": "restricted_model",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "At most three product terms.",
+        "Bottom degree δ is fixed; runtime (nd)^{O_δ(1)}."
+      ],
+      "scope_relation": "Removing squarefreeness and homogeneity does not remove the top-fan-in and bottom-degree restrictions.",
+      "indirect_resolution_considered": false,
+      "assessment_and_remaining_gap": "Removing squarefreeness and homogeneity does not remove the top-fan-in and bottom-degree restrictions.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "RMS25",
+      "theorem_locator": "Theorem 3",
+      "claim_type": "different_algebra",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Commutativity is retained but associativity is absent.",
+        "Monomials retain bracketings."
+      ],
+      "scope_relation": "Ordinary polynomial equality identifies bracketings; the tested formal algebra differs from Q[x].",
+      "indirect_resolution_considered": false,
+      "assessment_and_remaining_gap": "Ordinary polynomial equality identifies bracketings; the tested formal algebra differs from Q[x].",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "GGOW16",
+      "theorem_locator": "Corollary I.3",
+      "claim_type": "different_algebra",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Noncommuting variables; formulas in the free skew field.",
+        "Rational expressions can use inverses; rational does not mean only Q coefficients."
+      ],
+      "scope_relation": "No general commutative circuit zero-test follows from the stated theorem.",
+      "indirect_resolution_considered": false,
+      "assessment_and_remaining_gap": "No general commutative circuit zero-test follows from the stated theorem.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CCGM26",
+      "theorem_locator": "Theorem 1.3 and Remark 1.5",
+      "claim_type": "different_algebra_and_model",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Variables within each of two buckets do not commute.",
+        "ABPs rather than arbitrary circuits; extension to Q acknowledged."
+      ],
+      "scope_relation": "Two buckets do not supply arbitrary many mutually commuting variables in the original model.",
+      "indirect_resolution_considered": false,
+      "assessment_and_remaining_gap": "Two buckets do not supply arbitrary many mutually commuting variables in the original model.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "AKT25",
+      "theorem_locator": "Theorems 1.2–1.4, 7.3–7.4; Remark 1.5",
+      "claim_type": "conditional_result",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Assumes families hard against specified uniform arithmetic networks with PIT gates.",
+        "Reverse implication has different models and quantitative bounds; it is not a proof of the premise.",
+        "Characteristic-zero conclusion is in an arithmetic-network model."
+      ],
+      "scope_relation": "Unproved hardness premise remains; no unconditional Turing bit-time solution is established.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Unproved hardness premise remains; no unconditional Turing bit-time solution is established.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "SS26",
+      "theorem_locator": "Theorems 7.4–7.5",
+      "claim_type": "restricted_and_conditional_claim",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Read-once oblivious ABP input.",
+        "Unconditional bound n(wd)^{O(w²)} is not polynomial in unbounded width.",
+        "Polynomial construction assumes Modular Stability."
+      ],
+      "scope_relation": "Does not match unrestricted commutative circuits; no assertion about correctness within its own restricted model.",
+      "indirect_resolution_considered": false,
+      "assessment_and_remaining_gap": "Does not match unrestricted commutative circuits; no assertion about correctness within its own restricted model.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BHLV09",
+      "theorem_locator": "Theorems 1–2",
+      "claim_type": "sparsity_sensitive_result",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Runtime includes sparsity m and log coefficient-height H.",
+        "Compact circuits may have exponentially many monomials and very large coefficients."
+      ],
+      "scope_relation": "The promise in this candidate bounds degree, not sparsity or all intermediate coefficient bit lengths.",
+      "indirect_resolution_considered": false,
+      "assessment_and_remaining_gap": "The promise in this candidate bounds degree, not sparsity or all intermediate coefficient bit lengths.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "KSS14",
+      "theorem_locator": "Theorem 1 and Observation 1",
+      "claim_type": "equivalence",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Factors are represented by circuits.",
+        "Bit complexity of Q constants is included; field and degree conventions retained."
+      ],
+      "scope_relation": "A general deterministic factorization algorithm would indirectly resolve PIT; the equivalence itself is not such an algorithm.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "A general deterministic factorization algorithm would indirectly resolve PIT; the equivalence itself is not such an algorithm.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CS26",
+      "theorem_locator": "Theorem 2.8, Lemma 2.9 and Theorem 1.12",
+      "claim_type": "representation_and_sparsity_restrictions",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Dense factorization/interpolation contains d^n or (d+1)^n cost.",
+        "New factorization theorem assumes sparse input and bounded individual degree."
+      ],
+      "scope_relation": "Does not supply the general circuit factorization required to invoke KSS14.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not supply the general circuit factorization required to invoke KSS14.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "0ad9dcd7ba00b2fddc73a7ad69e30f985811bf6e",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "033",
+        "difference": "Matrix multiplication exponent asks arithmetic cost of computing a particular bilinear map, not zero-testing arbitrary symbolic circuits."
+      },
+      {
+        "id": "034",
+        "difference": "Explicit rigidity is a matrix construction/lower-bound question, not this universal decision algorithm."
+      },
+      {
+        "id": "046",
+        "difference": "Pseudospectral shattering concerns numerical perturbation and eigenvalue conditioning, not exact formal polynomial equality."
+      },
+      {
+        "id": "301",
+        "difference": "Log-rank controls communication while allowing unrestricted local computation; it is not a Turing-runtime PIT assertion."
+      }
+    ],
+    "distinctness_reason": "All 320 titles/metadata and established baseline reading were screened; closest full pages re-read. Alias/content search found no equivalent existing or pending entry. No numerical-linear-algebra entry is introduced.",
+    "implications_or_equivalences": [
+      "Circuit factorization equivalence is disclosed, not separately counted.",
+      "Black-box hitting sets are a stronger access restriction, not another new entry.",
+      "Noncommutative/nonassociative identities have different formal algebras."
+    ]
+  },
+  "open_status_evidence_summary": "General ordinary commutative PIT remains explicitly unresolved in RMS25 §1 and ST26 §1; current searches and theorem comparisons found no matching unconditional polynomial-time result.",
+  "independent_status_corroboration": "RMS25 authors are disjoint from SY10/KSS14/ST26; their introduction explicitly retains ordinary PIT as a major gap. Saxena S14 is a further independent survey.",
+  "strongest_known_partial_results_and_gap": "Randomized polynomial-time testing is available. Representative recent deterministic advances include ST26 powering circuits and G26 three-term constant-bottom-degree circuits. AKT25 provides conditional general derandomization, not the hardness premise. No exhaustive ranking of all partial algorithms is claimed.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "No full-proof verification of every referenced theorem; comparisons use the complete relevant theorem statements.",
+    "SS26 HTML failed but the PDF theorem statements were accessible.",
+    "Bit-cost formulation must not be silently replaced by unit-cost arithmetic networks.",
+    "Recent search results whose titles explicitly restrict read complexity or noncommutativity were discovery-only unless recorded above."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass by the researching agent; no independent agent/human review",
+    "reviewer_or_pass_identifier": "A22",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A22-1",
+      "A22-2",
+      "A22-3",
+      "A22-4",
+      "A22-5",
+      "A22-6",
+      "A22-7",
+      "A22-8"
+    ],
+    "issues_found": [
+      "Need to preserve semantic degree-at-every-gate promise and binary constant input length.",
+      "Arithmetic-network conditional conclusions can be mistaken for unconditional bit-time algorithms.",
+      "September 2026 partially commutative ABP theorem extends to Q but has a different algebra.",
+      "Sparsity/height-sensitive algorithms and dense factorization can look polynomial until parameters are compared."
+    ],
+    "issues_resolved": [
+      "Precise degree, encoding, uniformity and cost model included.",
+      "All conditional/model/representation distinctions recorded at theorem level.",
+      "Closest full pages 033/034/046/301 and current aliases compared.",
+      "Current version records checked for Saxena, AKT25, ST26, RMS25 and SS26; ECCC current postings inspected."
+    ],
+    "verdict": "pass_for_research_draft"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not yet performed for active-catalogue integration; required before a later batch."
+  },
+  "public_page_path": null,
+  "draft_path": "research/expansion-2026-09/drafts/deterministic-polynomial-identity-testing.md",
+  "validation_results": [
+    "Candidate schema, source references, decision counts and 613 distinct actual-query IDs validated.",
+    "All 14 draft math expressions rendered with KaTeX without errors.",
+    "python3 scripts/catalogue.py --check passed: 320 active entries; draft not integrated.",
+    "git diff --check passed before commit."
+  ],
+  "remote_publication": {
+    "state": "research_record_only; no active catalogue publication",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  }
+}

@@ -23,7 +23,7 @@ All ten handoff seeds now have investigation records; eight passed draft review 
 
 ## Coverage still required
 
-All twelve sections have accepted additions, including drafts awaiting integration (inverse3 and applied have three; operators, inverse and stochastic3 each have two). All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
+All twelve sections have accepted additions, including drafts awaiting integration (inverse3, applied and operators have three; inverse and stochastic3 each have two). All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
 
 ## Information-network discovery
 
@@ -51,3 +51,7 @@ All twelve sections have accepted additions, including drafts awaiting integrati
 - **Bistable controller design:** Charles–Boston Eq. (1.1) and Theorem 5.1; independent Bergweiler–Eremenko §11 Theorem 11.1 and Eremenko’s 2015 Problem 3. Colaneri–Henrion periodic gains and He–Wang–Yu fixed-order results were checked at their full stated scopes. The [accepted threshold record](candidates/belgian-chocolate-threshold.json) distinguishes the all-degree supremum from the solved 0.9 instance and other Goldberg constants. Current searches found older status sources, whose dates and limitations are explicit.
 
 - **Randomized implementation of quantum dynamics:** Ruskai §1 Theorem 1 and §2 Conjectures 2–5, independent Iten–Colbeck §IV Remark 3, and Kumar–Wolf July 2026 Conjecture 1. Full special-case, component-count and extremality distinctions; Massey §4.3 and Cho–Jae §3.1 indirect-result checks appear in the [accepted decomposition record](candidates/ruskai-audenaert-decomposition.json). The A21 self-pass retained input-dimensional rank and output-dimensional term count.
+
+- **Symbolic identity verification:** Shpilka–Yehudayoff Definition 1.1 and Chapter 4; Kopparty–Saraf–Shpilka §1.1 Theorem 1; independent Saxena §§1–2.1 and Mukhopadhyay–Ramya–Shastri §1. The [accepted PIT draft record](candidates/deterministic-polynomial-identity-testing.json) preserves the rational bit-cost and gate-degree conventions. The A22 pass compares conditional arithmetic networks, sparse/dense representations, powering circuits, the September 2026 three-term and partially commutative results, and different formal algebras. This is exact symbolic computation, not numerical linear algebra.
+
+- **Graph-structure recognition:** Neuen, Computer Science Review 60 (2026), 100918, §§1–2.1, retains general polynomial-time graph isomorphism as open. Ren–Li, High-Confidence Computing 4(4) (2024), 100224, has a matching indexed publisher-abstract claim. Its full proof was inaccessible, and no independent adjudication was located. The [held record](candidates/graph-isomorphism-polynomial-time.json) is not an accepted addition.

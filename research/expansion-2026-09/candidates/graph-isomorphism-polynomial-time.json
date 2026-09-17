@@ -1,0 +1,175 @@
+{
+  "candidate_id": "graph-isomorphism-polynomial-time",
+  "proposed_catalogue_id": null,
+  "title": "Polynomial-time graph isomorphism",
+  "aliases": [
+    "GI in P",
+    "general graph isomorphism testing"
+  ],
+  "primary_section": "operators",
+  "secondary_tags": [
+    "discrete algorithms",
+    "chemical information"
+  ],
+  "decision": "hold_claimed_resolution",
+  "decision_reason": "Ren–Li 2024 primary abstract claims a matching cubic-time algorithm. Its full proof and independent adjudication were not obtained. A 2026 specialist survey still treats the general problem as open. Keep outside accepted count.",
+  "problem_fingerprint": {
+    "model_or_objects": "Two finite simple undirected graphs",
+    "dimension": "Arbitrary number n of vertices",
+    "domain": "All finite simple undirected graphs",
+    "regularity_and_data_class": "Explicit binary adjacency encodings",
+    "boundary_or_initial_conditions": "None",
+    "parameter_range": "All n; no degree, genus or width restriction",
+    "quantifiers": "One deterministic algorithm with universal polynomial bound for every graph pair",
+    "normalization": "Standard bit-time on explicit graph input",
+    "observable_or_norm": "Existence of a vertex bijection preserving adjacency in both directions",
+    "limit_regime_and_order": "Worst-case polynomial dependence on n",
+    "requested_conclusion": "Decide graph isomorphism in deterministic polynomial time",
+    "computational_model_and_dependencies": "Unconditional uniform Turing model; not restricted graph classes or heuristic average-case performance"
+  },
+  "statement_source_and_scope_match": "N26 §1 and §2.1 give the general decision question and unresolved polynomial bound; RL24 indexed primary abstract appears to claim that same scope.",
+  "proposed_statement_text": "Is there a deterministic Turing algorithm and constants K,c such that, for every pair of simple undirected n-vertex graphs G,H given by adjacency matrices, the algorithm decides in at most K n^c steps whether a bijection phi:V(G)->V(H) preserves adjacency in both directions?",
+  "applied_significance": "Graph identity under relabeling underlies comparison and indexing of relational structures; N26 traces the computational problem to chemical information systems.",
+  "application_evidence_source_ids": [
+    "N26"
+  ],
+  "source_records": [
+    {
+      "source_id": "N26",
+      "role": "formulation, independent status, application or resolution-scope comparison",
+      "authors": [
+        "Daniel Neuen"
+      ],
+      "title": "Parameterized complexity of graph isomorphism testing",
+      "venue_or_repository": "Computer Science Review 60, 100918",
+      "publication_type": "published paper or author manuscript",
+      "publication_date": "2026-02-05",
+      "latest_version_date": "2026-02-05",
+      "identifier": "10.1016/j.cosrev.2026.100918",
+      "version": "unversioned published or author manuscript",
+      "stable_url": "https://epub.uni-regensburg.de/78630/1/1-s2.0-S1574013726000274-main.pdf",
+      "locator": "§1, §2.1, §2.3 and §3.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_text",
+      "sections_actually_read": [
+        "§1, §2.1, §2.3 and §3.1"
+      ],
+      "supported_claim": "Independent recent specialist survey explicitly retains general polynomial-time GI as unresolved; also documents chemical-information origin.",
+      "independent_of_source_ids": [],
+      "access_limitations": null,
+      "version_history_checked": "No separately numbered revision identified in the primary record consulted."
+    },
+    {
+      "source_id": "RL24",
+      "role": "formulation, independent status, application or resolution-scope comparison",
+      "authors": [
+        "Jian Ren",
+        "Tongtong Li"
+      ],
+      "title": "Graph isomorphism—Characterization and efficient algorithms",
+      "venue_or_repository": "High-Confidence Computing 4(4), 100224",
+      "publication_type": "published paper or author manuscript",
+      "publication_date": "2024",
+      "latest_version_date": "2024",
+      "identifier": "10.1016/j.hcc.2024.100224",
+      "version": "published article",
+      "stable_url": "https://www.sciencedirect.com/science/article/pii/S2667295224000278",
+      "locator": "Indexed publisher abstract only",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "indexed_primary_abstract",
+      "sections_actually_read": [
+        "Indexed publisher abstract only"
+      ],
+      "supported_claim": "Claims O(n^3) for general undirected graph isomorphism.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Direct publisher URL returned 403; HEP PDF route also failed. Abstract-level scope only; no correctness judgment.",
+      "version_history_checked": "Primary indexed article identity located; full theorem and any revised proof not reviewed."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-17",
+      "discovery_route": "Live web search and primary sources",
+      "query": "S130-3, S131-1 through S131-4, S132-1 through S132-3 in ../search-log.json",
+      "date_filter_or_unrestricted": "unrestricted, including 2025/2026 terms",
+      "results_inspected": [
+        "N26 full relevant sections",
+        "RL24 indexed primary abstract",
+        "Wiley DOI 10.1002/cpe.6599 indexed correction/algorithm claim"
+      ],
+      "outcome": "Matching claims located; no independent adjudication obtained.",
+      "limitations": "Wiley full text and Ren–Li full text inaccessible; the Wiley bibliographic correction relationship is not adjudicated."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "RL24",
+      "theorem_locator": "Publisher abstract",
+      "claim_type": "matching_full_algorithm_claim",
+      "theorem_statement_actually_read": false,
+      "hypothesis_comparison": [
+        "Unrestricted undirected graphs in the indexed claim.",
+        "Advertised O(n^3) matches the desired polynomial conclusion."
+      ],
+      "scope_relation": "If correct at advertised scope it would resolve the proposed entry; no acceptance or refutation is asserted.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "If correct at advertised scope it would resolve the proposed entry; no acceptance or refutation is asserted.",
+      "material_unresolved_conflict": true
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "0ad9dcd7ba00b2fddc73a7ad69e30f985811bf6e",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "313",
+        "difference": "Entanglement-assisted capacity is an asymptotic communication invariant of one graph, not identity testing for a pair of graphs."
+      }
+    ],
+    "distinctness_reason": "No existing graph-isomorphism polynomial-time entry found in all-title/metadata and alias screening; admission remains blocked by evidence conflict, independent of distinctness.",
+    "implications_or_equivalences": [
+      "N26 distinguishes graph canonization: GI reduces to canonization, and a converse is not asserted."
+    ]
+  },
+  "open_status_evidence_summary": "Recent specialist open status conflicts with a matching published abstract claim; unresolved here.",
+  "independent_status_corroboration": "N26 is independent of RL24, but does not explicitly adjudicate the located claim.",
+  "strongest_known_partial_results_and_gap": "N26 reports Babai quasipolynomial time and polynomial-time algorithms on restricted classes; these do not supply the target bound for all graphs.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "RL24 full text inaccessible.",
+    "Wiley algorithm/correction lead at DOI 10.1002/cpe.6599 requires full bibliographic and proof review before any adjudication."
+  ],
+  "second_review": {
+    "arrangement": "Primary-agent hold disposition; not reviewed for admission",
+    "reviewer_or_pass_identifier": null,
+    "date": null,
+    "independent_searches": [],
+    "issues_found": [
+      "Unadjudicated matching claim"
+    ],
+    "issues_resolved": [],
+    "verdict": "not_reviewed_for_acceptance"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Not applicable to active publication while held."
+  },
+  "public_page_path": null,
+  "validation_results": [],
+  "remote_publication": {
+    "state": "not_published_in_active_catalogue",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  }
+}

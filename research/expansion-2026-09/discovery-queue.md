@@ -26,21 +26,21 @@ Further biology discovery (S63–S68):
 
 - The full-decomposition conjecture for minimum-recombination phylogenetic networks has counterexamples in §5.3 of the 2008 primary paper *A Decomposition Theory for Phylogenetic Networks and Incompatible Characters* ([author PDF](https://people.eecs.berkeley.edu/~yss/Pub/decomposition.pdf)). Relevant section text inspected; figures and full proof not reviewed. Do not add the old conjecture as open.
 - The maximum quartet-distance conjecture has an August 2026 matching resolution lead, arXiv:2608.03542, discovered through secondary indexing; primary claim and proof not yet inspected. Not accepted.
-- Carrying-simplex interior smoothness completed source and adversarial review; moved to an [accepted draft record](candidates/carrying-simplex-interior.json). It awaits batch integration and is not part of the active catalogue yet.
+- Carrying-simplex interior smoothness completed source and adversarial review; moved to an [accepted draft record](candidates/carrying-simplex-interior.json). It was integrated and published as entry 311 after the batch 2 refresh.
 
-Operations-research discovery (S73–S78): Lipshutz’s two-page 2019 [delayed-information load-balancing note](https://pubsonline.informs.org/doi/epdf/10.1287/stsy.2019.0045) was read in full. Its four development/analysis directions do not yet supply a single fully specified theorem-level target, so it remains discovery-only. Three-processor precedence-constrained unit-job scheduling passed the separate A13 adversarial self-pass and moved to an accepted draft; it awaits batch integration. Das–Wiese’s arXiv upload is from 2025, but the work was published at ESA 2022; do not treat the upload as a new 2025 theorem.
+Operations-research discovery (S73–S78): Lipshutz’s two-page 2019 [delayed-information load-balancing note](https://pubsonline.informs.org/doi/epdf/10.1287/stsy.2019.0045) was read in full. Its four development/analysis directions do not yet supply a single fully specified theorem-level target, so it remains discovery-only. Three-processor precedence-constrained unit-job scheduling passed A13 and was published as entry 312 after the batch 2 refresh. Das–Wiese’s arXiv upload is from 2025, but the work was published at ESA 2022; do not treat the upload as a new 2025 theorem.
 
 
 Further wave/quantum screening (S79–S88): NPT bound entanglement duplicates 037. The unrestricted energy-supercritical defocusing NLS global-regularity conjecture has a matching published blowup result by Merle–Raphaël–Rodnianski–Szeftel (Cambridge primary repository abstract inspected, DOI 10.1007/s00222-021-01067-9); do not add that broad conjecture. The four-dimensional quintic restriction would need its own explicit current formulation and theorem comparisons. Generalized-hydrodynamic shock exclusion in the Lieb–Liniger model has a 2025 Hübner–Doyon result (primary abstract inspected); a microscopic derivation question has not been formulated here.
 
-Wolff et al., PRL 134 (2025), 020802, conclusion p. 5, explicitly ask whether their capacity-ratio bound can be improved to linear input dimension and whether an output-dimension-only bound exists. These are discovery leads requiring independent corroboration and later-result review. The asymptotic classical-channel Lovász equality passed the separate A14 adversarial self-pass and is an accepted draft awaiting integration; it does not concern these vanishing-error ratios.
+Wolff et al., PRL 134 (2025), 020802, conclusion p. 5, explicitly ask whether their capacity-ratio bound can be improved to linear input dimension and whether an output-dimension-only bound exists. These are discovery leads requiring independent corroboration and later-result review. The asymptotic classical-channel Lovász equality passed A14 and was published as entry 313; it does not concern these vanishing-error ratios.
 
 Further wave and continuum screening (S89–S97):
 
 - The Laptev–Safronov conjecture has a matching counterexample lead by Bögli–Cuenin, [arXiv:2109.06135](https://arxiv.org/abs/2109.06135); primary abstract inspected, full proof not reviewed. Do not add the old unrestricted conjecture.
 - The original De Giorgi diffuse-Willmore conjecture has a matching Bellettini–Freguglia–Picenni counterexample lead, [DOI 10.1007/s00205-023-01870-z](https://doi.org/10.1007/s00205-023-01870-z); indexed primary abstract inspected, full proof not reviewed. Modified functionals require separate formulation.
 - Two-dimensional fully parabolic Keller–Segel blowup has older Mizoguchi–Winkler claims and a 2026 Annals of PDE lead, [DOI 10.1007/s40818-026-00241-7](https://doi.org/10.1007/s40818-026-00241-7). The latter full text was not obtained and its exact model has not been adjudicated. Discovery only.
-- Fixed-disorder quantum diffusion moved to an [accepted draft](candidates/anderson-fixed-disorder-diffusion.json) after the separate A15 self-pass.
+- Fixed-disorder quantum diffusion passed A15 and was published as entry 314; see the [record](candidates/anderson-fixed-disorder-diffusion.json).
 
 Continuum discovery (S98–S104):
 
@@ -51,15 +51,20 @@ Continuum discovery (S98–S104):
 
 ## Reaction–diffusion follow-up disposition (2026-09-17)
 
-The single reversible mass-action classical-continuation lead is now an [accepted research draft](candidates/reversible-reaction-classical-continuation.json) after A16, not an active catalogue entry yet. Further species-count, dimensional or reaction-order restrictions of this same continuation target should not be counted separately.
+The single reversible mass-action classical-continuation lead passed A16 and was published as entry 315; see the [record](candidates/reversible-reaction-classical-continuation.json). Further species-count, dimensional or reaction-order restrictions of this same continuation target should not be counted separately.
 
 Nguyen–Tang, [ZAMP 77 (2026), article 199](https://link.springer.com/article/10.1007/s00033-026-02847-0), §1, states equilibration conjectures for quadratic irreversible networks. These are discovery leads only. Its literal nonnegative-data formulation for (1.1) includes stationary boundary states (b=0), so it cannot be copied as a universal positive-equilibrium assertion; a corrected source-backed initial-data class and independent corroboration would be required before further admission work. No additional candidate is counted here.
 
 ## Learning and online-algorithm discovery (S113–S117; 2026-09-17)
 
-- Splay dynamic optimality and classical fixed-noise LPN completed A17/A18 and moved to accepted research drafts. They await batch integration.
-- Sample compression advanced from discovery to an [accepted draft](candidates/linear-sample-compression.json) after full definition, side-information, current-version and apparent-resolution checks and the separate A19 self-pass. It awaits final batch refresh and integration.
+- Splay dynamic optimality and classical fixed-noise LPN completed A17/A18 and were published as entries 316–317.
+- Sample compression advanced from discovery to an [accepted draft](candidates/linear-sample-compression.json) after full definition, side-information, current-version and apparent-resolution checks and the separate A19 self-pass. It was published as entry 318 after the batch 2 refresh.
 - The matroid-secretary lead has a matching September 13, 2026 claim by Sahil Singla, [arXiv:2609.14555v1](https://arxiv.org/abs/2609.14555v1). Its primary abstract claims an online 1/4 selection guarantee with independence-oracle access. Full theorem and proof review remains due; do not admit the older conjecture as open from prior surveys.
 
-- The all-degree Belgian chocolate threshold is an [accepted draft](candidates/belgian-chocolate-threshold.json) after the A20 pass. Witsenhausen was dropped as a discovery lead because entry 141 already states that benchmark.
-- Kumar–Wolf's Ruskai–Audenaert decomposition lead completed source, version, scope, duplicate and A21 adversarial checks and became an [accepted candidate](candidates/ruskai-audenaert-decomposition.json). Strong/weak, Choi/Kraus and dual formulations are one family.
+- The all-degree Belgian chocolate threshold passed A20 and was published as entry 319; see the [record](candidates/belgian-chocolate-threshold.json). Witsenhausen was dropped as a discovery lead because entry 141 already states that benchmark.
+- Kumar–Wolf's Ruskai–Audenaert decomposition lead completed source, version, scope, duplicate and A21 adversarial checks and was published as entry 320; see the [accepted record](candidates/ruskai-audenaert-decomposition.json). Strong/weak, Choi/Kraus and dual formulations are one family.
+
+## Exact symbolic computation and graph recognition (S130–S135; 2026-09-17)
+
+- Deterministic polynomial identity testing passed the separated A22 self-pass and is an [accepted research draft](candidates/deterministic-polynomial-identity-testing.json) for the next batch. Its full-circuit rational bit-cost formulation, recent theorem restrictions and factorization equivalence are documented. It has no active ID yet.
+- Polynomial-time graph isomorphism moved to a [held candidate record](candidates/graph-isomorphism-polynomial-time.json): a matching Ren–Li claim remains inaccessible at proof level and unadjudicated. The recent specialist survey does not itself settle that conflict.

@@ -4670,5 +4670,237 @@
     "query": "entanglement assisted Shannon capacity Lovasz theta equality 2026 proof counterexample",
     "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
     "review_stage": "Immediate batch 2 prepublication refresh"
+  },
+  {
+    "search_id": "S130-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "mathematical biology conjecture 2025 2026 \"open\" \"Lotka\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S130-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"phylogenetic\" \"conjecture\" \"2026\" open problems",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S130-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"graph isomorphism\" \"polynomial\" \"2026\" open problem",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S130-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"polynomial identity testing\" \"2026\" \"deterministic\" open",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S131-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "graph isomorphism polynomial time proof algorithm 2025 2026 -site:theoremdb.org -site:qiqc-op.com -site:clawrxiv.io",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S131-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Babai graph isomorphism quasipolynomial time corrected 2017 arxiv",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S131-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"graph isomorphism\" \"polynomial\" \"resolved\" \"2026\" -site:theoremdb.org",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S131-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"graph isomorphism\" \"polynomial time\" proof counterexample refutation correction",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S132-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Graph isomorphism—Characterization\" counterexample correction",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S132-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"10.1002/cpe.6599\" error retraction",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S132-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"graph isomorphism\" \"He\" \"counterexamples\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S132-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"polynomial identity testing\" \"2026\" \"open problem\" -site:theoremdb.org -site:clawrxiv.io",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S133-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "polynomial identity testing deterministic polynomial time solved proof 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S133-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "polynomial identity testing derandomization 2025 2026 survey open conjecture",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S133-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Shpilka Yehudayoff arithmetic circuits survey polynomial identity testing deterministic applications pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S134-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "Saxena 2014 \"Progress on Polynomial Identity Testing\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S134-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Shpilka\" \"Tal\" \"2602.20832\" correction withdrawal",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S134-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"polynomial identity testing\" \"general circuits\" \"deterministic\" \"2026\" -site:theoremdb.org -site:clawrxiv.io",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S135-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"polynomial identity testing\" \"rational\" \"bit complexity\" deterministic",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S135-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Kopparty\" \"Saraf\" \"Shpilka\" \"Equivalence\" 2015 journal",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "S135-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"polynomial identity testing\" derandomization proof solved counterexample refutation withdrawal correction 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Post-batch-2 discovery and graph-isomorphism/PIT source review"
+  },
+  {
+    "search_id": "A22-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"polynomial identity testing\" \"general circuits\" proof solved 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for deterministic PIT"
+  },
+  {
+    "search_id": "A22-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"arithmetic circuit\" \"zero testing\" \"deterministic\" rational polynomial time",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for deterministic PIT"
+  },
+  {
+    "search_id": "A22-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"polynomial identity testing\" counterexample refutation correction withdrawal deterministic",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for deterministic PIT"
+  },
+  {
+    "search_id": "A22-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"commutative\" \"identity testing\" \"polynomial time\" September 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for deterministic PIT"
+  },
+  {
+    "search_id": "A22-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"polynomial identity testing\" \"deterministic\" \"2026\" -site:theoremdb.org -site:clawrxiv.io",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for deterministic PIT"
+  },
+  {
+    "search_id": "A22-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"arithmetic circuit identity testing\" solved deterministic proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for deterministic PIT"
+  },
+  {
+    "search_id": "A22-7",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"deterministic multivariate\" factorization \"2026\" general circuits",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for deterministic PIT"
+  },
+  {
+    "search_id": "A22-8",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Polynomial-Time PIT from\" correction withdrawal proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass for deterministic PIT"
   }
 ]

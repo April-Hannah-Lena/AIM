@@ -31,4 +31,4 @@ The exclusion notes are research records, not part of the active catalogue count
 
 ## September 17, 2026 expansion
 
-The first ten additions, entries 301–310, have individual evidence ledgers, current resolution searches and a separated adversarial self-review by the researching agent. The [expansion records](expansion-2026-09/README.md) distinguish accepted entries from held claims and discovery leads, and record batch refreshes. This first batch is partial progress toward the requested 200–300 additions; it does not revalidate the original 300. No independent agent or human review is claimed.
+The first twenty additions, entries 301–320, have individual evidence ledgers, current resolution searches and a separated adversarial self-review by the researching agent. They were published in two ten-entry batches. The [expansion records](expansion-2026-09/README.md) distinguish accepted entries, reviewed drafts awaiting integration, held claims and discovery leads, and record batch refreshes. These batches are partial progress toward the requested 200–300 additions; they do not revalidate the original 300. No independent agent or human review is claimed.
