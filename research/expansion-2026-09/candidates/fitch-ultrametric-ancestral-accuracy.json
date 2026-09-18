@@ -456,7 +456,7 @@
       "assessment": "Abstract explicitly concerns likelihood/empirical-Bayes consistency on star trees; not used as a theorem-level resolution comparison or status evidence."
     }
   ],
-  "publication_state": "Accepted draft; catalogue ID and batch integration pending.",
+  "publication_state": "Accepted research draft pushed directly to main in 9fe8c0b204ef323ca6bbf11c9366c9cbdfb68393; remote ref independently verified 2026-09-18. Catalogue ID and batch integration pending.",
   "quality_checks": {
     "strict_katex_expressions": 31,
     "render": "Full local HTML rendered with headless Chrome; PNG visually inspected 2026-09-18. No clipped or malformed equations.",

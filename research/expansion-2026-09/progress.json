@@ -158,9 +158,13 @@
     {
       "commit": "b4106af4399b66c4e70bf21a3dffcfa4f40e71f9",
       "purpose": "Record reviewed Aaronson–Ambainis influence draft; pushed directly to main and independently verified September 18, 2026."
+    },
+    {
+      "commit": "9fe8c0b204ef323ca6bbf11c9366c9cbdfb68393",
+      "purpose": "Record reviewed molecular-clock ancestral accuracy draft and discovery audits; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "All thirty active additions through entry 330 are published directly on main. Eight earlier accepted pending drafts are already in the remote research records. The newly accepted Fitch draft and its evidence are prepared locally for a direct research-checkpoint push; nine drafts await catalogue integration. One more is needed for the next ten-entry batch, followed by a status and upstream-duplicate refresh. No PR required.",
+  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit 9fe8c0b204ef323ca6bbf11c9366c9cbdfb68393 includes nine accepted pending drafts and was independently verified September 18, 2026. The accepted total is 39; one more draft is needed for the next ten-entry batch, followed by status and upstream-duplicate refreshes. No PR required.",
   "next_actions": [
     "Continue discovery toward at least 200 new problems, deliberately broadening biology, statistics, control and operations research.",
     "Accumulate the next reviewable batch; nine drafts are accepted: rendezvous, trace reconstruction, generalized Wright attraction, strong thin trees, chemotaxis-consumption continuation, strong prefix discrepancy, classical uniform DNF learning, Aaronson–Ambainis influence and Fitch molecular-clock ancestral accuracy. One more is needed for a ten-entry batch. Refresh status and upstream duplicates before integration.",
