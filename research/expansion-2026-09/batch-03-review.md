@@ -4,7 +4,7 @@ Target: private MColbrook/AIM, upstream cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64
 
 ## Admission and refresh
 
-Ten accepted additions are integrated locally as 321–330. Each ledger records the primary formulation, independent specialist corroboration, comparison with possible resolutions, mathematical duplicate screening and a separated adversarial self-pass. No independent agent or human review is claimed.
+Ten accepted additions are integrated and published as 321–330. Each ledger records the primary formulation, independent specialist corroboration, comparison with possible resolutions, mathematical duplicate screening and a separated adversarial self-pass. No independent agent or human review is claimed.
 
 The immediate publication refresh is recorded as R3-1 through R3-24 in the [search log](search-log.json). It added Kaplan–Shpilka's July 2026 read-4 formula theorem to the identity-testing scope review, and Löfberg's September 15 static-feedback hardness theorem to the control review. The latter concerns worst-case individual plants outside the critical equality. Neither supplies the requested general conclusion. Current Lan–Ouimet–Sun and Legrand–Maillard versions were reopened and their relevant status passages read. The inaccessible Pemantle–Stacey original was retried and remains HTTP 403; the explicit Lyons restatement remains the evidence used.
 
@@ -34,10 +34,10 @@ All 320 prior entries remain unchanged. Fresh fetch and SSH branch listing found
 
 ## Publication
 
-Local integration only; commit and authorized direct push pending.
+Content commit [`103e4cd`](https://github.com/MColbrook/AIM/commit/103e4cd6acc9efcb48f12b65f275249ec66f3825) was pushed directly to `main` on 2026-09-17. Git reported a normal fast-forward from `cde9391`, and an independent `git ls-remote --heads origin main` returned the exact content commit. No remote work was overwritten and no PR was created.
 
 ## Counts and limits
 
-Thirty accepted additions; thirty locally integrated; twenty published before this batch; 330 local active entries; 35 investigated records and five holds. At least 170 further additions are needed for the requested minimum, and 220 for the working target of 250. All twelve primary sections have additions. No further numerical-linear-algebra problem is included.
+Thirty accepted, integrated and published additions; 330 active entries; 35 investigated records and five holds. At least 170 further additions are needed for the requested minimum, and 220 for the working target of 250. All twelve primary sections have additions. No further numerical-linear-algebra problem is included.
 
 Older and undated status sources and incomplete access are stated in the individual ledgers. No search certifies the absence of an unindexed resolution, and mathematical proofs were not independently certified. The original 300 historical review dates are preserved; this expansion does not revalidate their open status.

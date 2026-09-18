@@ -910,10 +910,12 @@
     }
   ],
   "remote_publication": {
-    "state": "active_catalogue_publication_pending",
+    "state": "published_direct_to_main",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null,
+    "commit": "103e4cd6acc9efcb48f12b65f275249ec66f3825",
+    "verified_on": "2026-09-17",
+    "verification": "Normal fast-forward push succeeded; independent git ls-remote --heads origin main matched content commit.",
     "pull_request_url": null
   },
   "draft_path": "research/expansion-2026-09/drafts/efx-additive-goods.md",
@@ -921,7 +923,7 @@
   "integration": {
     "batch": "expansion-2026-09-17-03",
     "date": "2026-09-17",
-    "state": "local_worktree",
+    "state": "published",
     "numerical_ids_assigned_centrally": true
   }
 }
