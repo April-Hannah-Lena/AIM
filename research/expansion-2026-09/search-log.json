@@ -10775,5 +10775,239 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "S298-1",
+    "candidate_id": "discovery-gaussian-product",
+    "query": "\"Gaussian product inequality\" conjecture 2026 proof counterexample",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S298-2",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"matroid secretary conjecture\" 2026 2025 solved",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S298-3",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"matroid secretary\" \"conjecture\" survey constant competitive",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S298-4",
+    "candidate_id": "discovery-gaussian-product",
+    "query": "\"Gaussian product inequality\" \"open\" 2025 2024",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S299-1",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"strong matroid secretary conjecture\" proof counterexample disproof 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S299-2",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"matroid secretary\" \"e-competitive\" \"2026\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S299-3",
+    "candidate_id": "discovery-gaussian-product",
+    "query": "\"Gaussian product inequality\" proof conjecture 2026 -site:reddit.com",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S299-4",
+    "candidate_id": "discovery-gaussian-product",
+    "query": "\"Gaussian product inequality\" conjecture 2025 arxiv",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S300-1",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"strong matroid secretary\" proof proved solved resolution",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S300-2",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"strong matroid secretary\" counterexample disproof refutation",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S300-3",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"matroid secretary\" \"1/e\" 2026 2025",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S300-4",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"Singla\" \"matroid secretary\" correction erratum withdrawn",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S301-1",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"On the Strong Matroid Secretary Conjecture and Beyond\" correction",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S301-2",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"matroid secretary\" \"e-competitive\" arbitrary matroids",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S301-3",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"matroid secretary\" strong conjecture numerical ordinal",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "S301-4",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"Sahil Singla\" publications secretary 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 discovery and exact-scope review"
+  },
+  {
+    "search_id": "A42-1",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"strong matroid secretary conjecture\" \"2026\" solved known matroid",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated A42 adversarial review and follow-up of newly found primary claim"
+  },
+  {
+    "search_id": "A42-2",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"matroid secretary\" \"1/e\" \"counterexample\" weights",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated A42 adversarial review and follow-up of newly found primary claim"
+  },
+  {
+    "search_id": "A42-3",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"2609.19118\" erratum correction withdrawal",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated A42 adversarial review and follow-up of newly found primary claim"
+  },
+  {
+    "search_id": "A42-4",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"2609.14555\" revised \"e\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated A42 adversarial review and follow-up of newly found primary claim"
+  },
+  {
+    "search_id": "S302-1",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"The strong secretary conjecture is true for linear matroids\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated A42 adversarial review and follow-up of newly found primary claim"
+  },
+  {
+    "search_id": "S302-2",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "Berczi Dughmi Livanos Soto Verdugo \"secretary\" \"2026\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated A42 adversarial review and follow-up of newly found primary claim"
+  },
+  {
+    "search_id": "S302-3",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"strong matroid secretary\" \"nonlinear\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated A42 adversarial review and follow-up of newly found primary claim"
+  },
+  {
+    "search_id": "S302-4",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"Strong Algorithms for the Ordinal Matroid Secretary Problem\" correction erratum",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated A42 adversarial review and follow-up of newly found primary claim"
+  },
+  {
+    "search_id": "S303-1",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"2609.20797\" correction erratum withdrawn general matroids",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated A42 adversarial review and follow-up of newly found primary claim"
+  },
+  {
+    "search_id": "S303-2",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"strong secretary\" \"finitary modular\" conjecture",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated A42 adversarial review and follow-up of newly found primary claim"
   }
 ]

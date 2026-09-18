@@ -23,7 +23,7 @@ All ten handoff seeds now have investigation records; eight passed draft review 
 
 ## Coverage still required
 
-All twelve sections have accepted additions. Thirty additions are integrated through entry 330; current section counts and publication status are recorded in [progress.json](progress.json). All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
+All twelve sections have accepted additions. Forty additions are integrated through entry 340, and one accepted draft awaits integration; current section counts and publication status are recorded in [progress.json](progress.json). All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
 
 ## Information-network discovery
 
@@ -102,3 +102,9 @@ Potential counterexamples and indirect resolutions were compared using Regner's 
 ## Correlated Gaussian global testing (2026-09-18)
 
 The [Simes record](candidates/two-sided-gaussian-simes.json) uses Chi–Ramdas–Wang, Remark 11, and Sarkar (2023), Section 1, for the exact unweighted two-sided global-null question. The record separates covariance-restricted classical results from the recent mixed-mean FDR counterexamples and modified procedures. Historical full-text access limits are explicit. A41 passed after drafting; the problem is integrated as 340, with no extra count for the equivalent all-null BH formulation.
+
+## Sharp online matroid selection (2026-09-18)
+
+The [sharp matroid secretary record](candidates/sharp-matroid-secretary.json) uses Banihashem et al., ESA 2025, §1, and independently authored Soto–Turkieltaub–Verdugo, *Mathematics of Operations Research* 46 (2021), §§1–1.1, for the general expected-weight formulation. Singla's September 2026 §4 supplies a current independent sharp-status assessment. The accepted target allows numerical weights on arrival and unrestricted computation, while requiring the policy to be chosen before those weights are known.
+
+The theorem-level audit distinguishes general constant-factor progress, linear representability, finitary modular extensions, samples and queries about future weights, and barriers to restricted policy classes. A42 found the September 17 Bérczi–Dughmi–Livanos–Soto–Verdugo paper and read its full extension argument and remaining scope before admission. Eight primary works have exact read locations in the ledger. One canonical accepted draft awaits integration; no additional count is assigned to weak, ordinal, probability or special-class variants.
