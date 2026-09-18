@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 31,
+  "new_accepted": 32,
   "active_total": 330,
-  "candidates_investigated": 36,
+  "candidates_investigated": 37,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 169,
-  "remaining_to_target": 219,
+  "remaining_to_minimum": 168,
+  "remaining_to_target": 218,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -126,17 +126,21 @@
     {
       "commit": "dd5b9c1b7aa188850706e1ac5c0fd4856c043833",
       "purpose": "Record direct publication of batch 3; thirty additions published, remote main independently verified."
+    },
+    {
+      "commit": "e429195f7dc29ad4bead9c51a29c3d4d5d2c5e6e",
+      "purpose": "Record reviewed symmetric rendezvous draft and historical k-server status follow-up; pushed directly to main and independently reverified."
     }
   ],
-  "remote_state": "Batch-3 content commit 103e4cd6acc9efcb48f12b65f275249ec66f3825 was pushed directly to main and independently verified on September 17, 2026. It contains all 30 accepted additions through entry 330. A subsequent audit commit records this verification. Direct pushes remain authorized; no PR required.",
+  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit e429195f7dc29ad4bead9c51a29c3d4d5d2c5e6e adds the accepted rendezvous draft and historical-status follow-up; remote main independently reverified September 17, 2026. The accepted trace-reconstruction draft is prepared for the next direct research push. No PR required.",
   "next_actions": [
     "Continue discovery toward at least 200 new problems, deliberately broadening biology, statistics, control and operations research.",
-    "Accumulate the next reviewable batch; symmetric rendezvous is accepted research only. Refresh status and upstream duplicates before integration.",
+    "Accumulate the next reviewable batch; symmetric rendezvous and polynomial trace reconstruction are accepted research drafts. Refresh status and upstream duplicates before integration.",
     "CFN sunlet projective quadratic-generation lead needs independent corroboration and saturation-scope review.",
     "Keep matching unresolved claims outside new additions; separately follow up the September 14 k-server claim for historical entry 286."
   ],
   "coverage": {
-    "inverse3": 4,
+    "inverse3": 5,
     "spectral2": 1,
     "applied": 5,
     "inverse2": 2,
@@ -151,11 +155,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 30,
-  "count_semantics": "Thirty additions are integrated and published directly on main. One further accepted research draft awaits batch 4; active total 330. Five held records excluded.",
+  "count_semantics": "Thirty additions are integrated and published directly on main. Two accepted research drafts await batch 4; active total 330. Five held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 30,
-  "coverage_semantics": "Accepted additions by primary section; thirty integrated and one pending research draft.",
+  "coverage_semantics": "Accepted additions by primary section; thirty integrated and two pending research drafts.",
   "remaining_integrations_to_minimum": 170,
   "remaining_integrations_to_target": 220,
-  "pending_accepted": 1
+  "pending_accepted": 2
 }

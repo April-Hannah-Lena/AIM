@@ -140,3 +140,9 @@ Symmetric rendezvous is now an [accepted research draft](candidates/symmetric-re
 S213-4 and B286-1 found a direct k-server resolution claim dated September 14, after historical entry 286’s review. The [separate follow-up](baseline-status-followup.md) records the full matching theorem and unfinished proof assessment; it counts as no addition.
 
 Biology/phylogeny searches S213-1, S213-2, S214-3 and S214-4 supplied no admission-ready candidate. The 2026 morphogenesis-framework paper is an unopened lead, and the CFN projective ideal still lacks the independent corroboration and saturation analysis described above.
+
+## Trace reconstruction and breadth follow-up (S220–S225, A33; 2026-09-17)
+
+Polynomial-sample deletion-trace reconstruction passed A33 and is an [accepted research draft](candidates/polynomial-trace-reconstruction.json), with no active ID. One family covers every fixed deletion probability, with constants allowed to depend on that probability. All unknown strings and arbitrary computation are allowed. The current quasipolynomial upper bound supersedes older exponential bounds; smoothed-source algorithms and restricted-query lower bounds do not resolve this formulation. Counts: 32 accepted, 30 integrated, two pending accepted drafts, 37 investigated, five held; active total 330.
+
+S220 revisited the 2026 mathematical/computational-biology collection. Only its metadata, abstract and opening discussion were read. The August morphogenesis framework and July phylogenetic-network identifiability claim remain discovery leads without full theorem audits; no additional count or formulation is inferred from their titles. The latter should be checked before admitting an older network-identifiability question.

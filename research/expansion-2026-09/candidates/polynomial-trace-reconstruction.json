@@ -1,0 +1,958 @@
+{
+  "candidate_id": "polynomial-trace-reconstruction",
+  "proposed_catalogue_id": null,
+  "title": "Polynomial sample complexity for deletion-trace reconstruction",
+  "aliases": [
+    "worst-case trace reconstruction",
+    "polynomial-trace reconstruction"
+  ],
+  "primary_section": "inverse3",
+  "secondary_tags": [
+    "statistical inference",
+    "DNA data retrieval",
+    "synchronization errors"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit primary question and independent scholarly corroboration; current general bound and apparent resolutions compared in full relevant scope. A33 and local math, link, layout and catalogue checks passed. One accepted family; not yet an active catalogue entry.",
+  "problem_fingerprint": {
+    "model_or_objects": "Unknown binary string x; independent traces from deleting each bit independently with known probability q.",
+    "dimension": "String length n.",
+    "domain": "x ranges over all {0,1}^n; each observed trace has length at most n and retains order.",
+    "regularity_and_data_class": "No distribution, sparsity, separation, codebook, or nearby-reference promise on x.",
+    "boundary_or_initial_conditions": "Known n and fixed q; deleted positions not observed.",
+    "parameter_range": "Every fixed q in (0,1), then all integers n≥2.",
+    "quantifiers": "For every q there exist finite Cq,kq and, for each n, one decoder succeeding on every x from at most ceil(Cq n^kq) traces.",
+    "normalization": "One sample is one complete independently deleted copy; success probability ≥2/3.",
+    "observable_or_norm": "Exact recovery of every bit; worst-case over x, probability over deletions and decoder randomization.",
+    "limit_regime_and_order": "q fixed independently of n; constants may depend on q.",
+    "requested_conclusion": "Are polynomially many samples sufficient?",
+    "computational_model_and_dependencies": "Information-theoretic decoder, no running-time or statistical-query restriction."
+  },
+  "statement_source_and_scope_match": "ALN25 explicitly asks polynomial sufficiency at constant deletion rate. SB21 §V independently repeats it; BPRS20 §IV defines worst-case trace complexity, and BVW26 Definition 2 supplies the 2/3 convention. Constant error probabilities above 1/2 are equivalent up to constant repetition factors.",
+  "proposed_statement_text": "For every fixed q∈(0,1), can a decoder recover every unknown n-bit binary string with probability at least 2/3 from at most Cq n^kq independent deletion traces, with no time restriction?",
+  "applied_significance": "Foundational sample budget for reconstructing a molecularly stored sequence from repeated reads with missing symbols; ignores insertions, substitutions and clustering.",
+  "application_evidence_source_ids": [
+    "BPRS20"
+  ],
+  "source_records": [
+    {
+      "source_id": "ALN25",
+      "role": "explicit formulation and restricted result",
+      "authors": [
+        "Anders Aamand",
+        "Allen Liu",
+        "Shyam Narayanan"
+      ],
+      "title": "Near-Optimal Trace Reconstruction for Mildly Separated Strings",
+      "venue_or_repository": "ICALP 2025, LIPIcs 334, 3:1–3:20",
+      "publication_type": "conference paper",
+      "publication_date": "2025",
+      "latest_version_date": "2025",
+      "identifier": "10.4230/LIPIcs.ICALP.2025.3",
+      "version": "published",
+      "stable_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol334-icalp2025/LIPIcs.ICALP.2025.3/LIPIcs.ICALP.2025.3.pdf",
+      "locator": "§1, Theorem 1, pp. 3:2–3:3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Cover, abstract, full introductory model/status, full Theorem 1, comparison to related work; technical-outline opening."
+      ],
+      "supported_claim": "Retains general polynomial-sample question; solves separated strings at small constant deletion rate.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Full proof not certified. Quoted general upper bound predates BVW26."
+    },
+    {
+      "source_id": "SB21",
+      "role": "independent status and bounded-reference result",
+      "authors": [
+        "Jin Sima",
+        "Jehoshua Bruck"
+      ],
+      "title": "Trace Reconstruction with Bounded Edit Distance",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2021-02-10",
+      "latest_version_date": "2021-04-14",
+      "identifier": "arXiv:2102.05372v2",
+      "version": "v2, 2021-04-14",
+      "stable_url": "https://arxiv.org/pdf/2102.05372v2",
+      "locator": "§I, Theorem 1, Remark 1; §V",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Cover, abstract, full §I model and testing comparison, full Theorem 1/Remark 1, full §V; version history."
+      ],
+      "supported_claim": "Polynomial samples with bounded edit distance to a known reference; general polynomial question remains.",
+      "independent_of_source_ids": [
+        "ALN25"
+      ],
+      "access_limitations": "No journal metadata asserted; full proof not certified."
+    },
+    {
+      "source_id": "BVW26",
+      "role": "current general upper bound",
+      "authors": [
+        "Arnav Burudgunte",
+        "Paul Valiant",
+        "Hongao Wang"
+      ],
+      "title": "Quasipolynomial Trace Reconstruction",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-07-05",
+      "latest_version_date": "2026-07-05",
+      "identifier": "arXiv:2607.04073v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2607.04073v1",
+      "locator": "§1; §2 Definitions 1–3; §8.2 Theorem 43, pp. 40–42",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Complete introduction/outline/related work; definitions; full Theorem 43 and final proof/reduction; version history rechecked September 17."
+      ],
+      "supported_claim": "Quasipolynomial samples for fixed retention p=1−q; polynomial sufficiency not established.",
+      "independent_of_source_ids": [
+        "ALN25",
+        "SB21"
+      ],
+      "access_limitations": "Only v1 shown. PDF cover July 7, submission July 5. Intermediate technical proofs not all read or certified."
+    },
+    {
+      "source_id": "CH21",
+      "role": "polynomial lower bound",
+      "authors": [
+        "Zachary Chase"
+      ],
+      "title": "New lower bounds for trace reconstruction",
+      "venue_or_repository": "Annales de l’Institut Henri Poincaré, Probabilités et Statistiques 57(2), 627–643",
+      "publication_type": "journal article with author preprint",
+      "publication_date": "2021",
+      "latest_version_date": "2021",
+      "identifier": "10.1214/20-AIHP1089; arXiv:1905.03031v2",
+      "version": "published; author v2, 2020-07-23",
+      "stable_url": "https://arxiv.org/pdf/1905.03031v2",
+      "locator": "§1 Theorems 1–2; §2 opening",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Publisher issue metadata; author cover, complete model, full Theorems 1–2 and outline; Hellinger-reduction opening; arXiv history."
+      ],
+      "supported_claim": "Explicit n=4k+3 pairs require Ω(n^(3/2)/log^7 n) traces at fixed q and constant success.",
+      "independent_of_source_ids": [
+        "ALN25",
+        "SB21",
+        "BVW26"
+      ],
+      "access_limitations": "Publisher full issue fetch returned 502; author v2 used. No every-n extrapolation or full proof certification."
+    },
+    {
+      "source_id": "BPRS20",
+      "role": "application and independent formulation",
+      "authors": [
+        "Vinnu Bhardwaj",
+        "Pavel A. Pevzner",
+        "Cyrus Rashtchian",
+        "Yana Safonova"
+      ],
+      "title": "Trace Reconstruction Problems in Computational Biology",
+      "venue_or_repository": "arXiv; accepted IEEE Transactions on Information Theory manuscript",
+      "publication_type": "accepted author manuscript",
+      "publication_date": "2020-10-12",
+      "latest_version_date": "2020-10-12",
+      "identifier": "arXiv:2010.06083v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/2010.06083v1",
+      "locator": "§I.B pp. 3–4; §IV pp. 12–13; §V pp. 13–14",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Cover/abstract, introduction opening, relevant DNA-storage discussion, success/sample definitions, worst-case paragraphs and average-case contrast opening."
+      ],
+      "supported_claim": "Worst-case trace complexity and DNA-storage application, including clustering and additional errors.",
+      "independent_of_source_ids": [
+        "ALN25",
+        "SB21",
+        "BVW26"
+      ],
+      "access_limitations": "PMC direct access challenged; accessible accepted manuscript used. Older bounds superseded."
+    },
+    {
+      "source_id": "CDLSS20",
+      "role": "smoothed polynomial result",
+      "authors": [
+        "Xi Chen",
+        "Anindya De",
+        "Chin Ho Lee",
+        "Rocco A. Servedio",
+        "Sandip Sinha"
+      ],
+      "title": "Polynomial-time trace reconstruction in the smoothed complexity model",
+      "venue_or_repository": "arXiv; author page lists SODA 2021, pp. 54–73",
+      "publication_type": "author manuscript",
+      "publication_date": "2020-08-27",
+      "latest_version_date": "2020-08-27",
+      "identifier": "arXiv:2008.12386v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/2008.12386v1",
+      "locator": "§1.2 Theorem 1, pp. 2–3; §1.3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Cover, full perturbation model and Theorem 1, §1.3 outline/subword ambiguity; version history and author publication page."
+      ],
+      "supported_claim": "Polynomial recovery after positive random perturbation; no zero-perturbation worst-case conclusion.",
+      "independent_of_source_ids": [
+        "ALN25",
+        "SB21",
+        "BVW26"
+      ],
+      "access_limitations": "Later journal metadata not verified or used. Full proof not certified."
+    },
+    {
+      "source_id": "CDLSS21",
+      "role": "vanishing-deletion polynomial result",
+      "authors": [
+        "Xi Chen",
+        "Anindya De",
+        "Chin Ho Lee",
+        "Rocco A. Servedio",
+        "Sandip Sinha"
+      ],
+      "title": "Polynomial-Time Trace Reconstruction in the Low Deletion Rate Regime",
+      "venue_or_repository": "ITCS 2021, LIPIcs 185, 20:1–20:20",
+      "publication_type": "conference paper",
+      "publication_date": "2021",
+      "latest_version_date": "2021",
+      "identifier": "10.4230/LIPIcs.ITCS.2021.20",
+      "version": "published",
+      "stable_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol185-itcs2021/LIPIcs.ITCS.2021.20/LIPIcs.ITCS.2021.20.pdf",
+      "locator": "§1.1 Theorem 1, p. 20:3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Cover, abstract, introductory context, full §1.1 theorem/following paragraph, technical outline."
+      ],
+      "supported_claim": "Polynomial recovery for q=n^(−1/3−ε), ε>0, and smaller rates.",
+      "independent_of_source_ids": [
+        "ALN25",
+        "SB21",
+        "BVW26"
+      ],
+      "access_limitations": "Heading inequality conflicts with body; use body equality and abstract/following smaller-rate statement. Full proof not certified."
+    },
+    {
+      "source_id": "DOS16",
+      "role": "mean-based lower bound",
+      "authors": [
+        "Anindya De",
+        "Ryan O’Donnell",
+        "Rocco A. Servedio"
+      ],
+      "title": "Optimal mean-based algorithms for trace reconstruction",
+      "venue_or_repository": "arXiv; author-hosted manuscript",
+      "publication_type": "preprint",
+      "publication_date": "2016-12-09",
+      "latest_version_date": "2016-12-09",
+      "identifier": "arXiv:1612.03148v1",
+      "version": "v1; PDF dated 2016-12-12",
+      "stable_url": "https://www.cs.cmu.edu/~odonnell/papers/trace-reconstruction.pdf",
+      "locator": "§1.2 Theorems 1.1–1.3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Cover/abstract, §1.1, complete §1.2 model/theorems, §1.3 concurrent-work comparison; arXiv history."
+      ],
+      "supported_claim": "Exponential barrier restricts observations to aggregate coordinate means.",
+      "independent_of_source_ids": [
+        "ALN25",
+        "SB21",
+        "BVW26"
+      ],
+      "access_limitations": "No unrestricted-decoder lower bound inferred; full proof not certified."
+    },
+    {
+      "source_id": "CDLS24",
+      "role": "local-query lower bound",
+      "authors": [
+        "Xi Chen",
+        "Anindya De",
+        "Chin Ho Lee",
+        "Rocco A. Servedio"
+      ],
+      "title": "Trace Reconstruction from Local Statistical Queries",
+      "venue_or_repository": "APPROX/RANDOM 2024, LIPIcs 317, 52:1–52:24",
+      "publication_type": "conference paper",
+      "publication_date": "2024-09-16",
+      "latest_version_date": "2024-09-16",
+      "identifier": "10.4230/LIPIcs.APPROX/RANDOM.2024.52",
+      "version": "published",
+      "stable_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol317-approx-random2024/LIPIcs.APPROX-RANDOM.2024.52/LIPIcs.APPROX-RANDOM.2024.52.pdf",
+      "locator": "§2.1; §3 Theorem 6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Cover/metadata, introduction, §1.1 informal theorems; full §2.1 definitions/Lemma 5 proof; Theorem 6, Lemma 7 and proof-reduction opening."
+      ],
+      "supported_claim": "Exponential precision barrier for specified local statistical queries.",
+      "independent_of_source_ids": [
+        "ALN25",
+        "SB21",
+        "BVW26"
+      ],
+      "access_limitations": "Later proof details not certified. General-bound speculation superseded by BVW26."
+    },
+    {
+      "source_id": "GREEN25",
+      "role": "independent question collection",
+      "authors": [
+        "Ben Green"
+      ],
+      "title": "100 Open Problems",
+      "venue_or_repository": "author problem collection",
+      "publication_type": "problem collection",
+      "publication_date": "2025-12",
+      "latest_version_date": "2025-12",
+      "identifier": "Problem 92",
+      "version": "collection update footnote: December 2025",
+      "stable_url": "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+      "locator": "Problem 92 and comment, p. 43",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Title/introduction/update footnote, full Problem 92/comment, cited Chase and Holden–Lyons bibliography."
+      ],
+      "supported_claim": "Sample question at q=1/2.",
+      "independent_of_source_ids": [
+        "ALN25",
+        "SB21",
+        "BVW26",
+        "BPRS20"
+      ],
+      "access_limitations": "Collection date does not certify individual-item status. Stale upper and logarithmic lower-bound factors not copied."
+    },
+    {
+      "source_id": "HL22",
+      "role": "correction check",
+      "authors": [
+        "Nina Holden",
+        "Russell Lyons"
+      ],
+      "title": "Erratum to “Lower bounds for trace reconstruction”",
+      "venue_or_repository": "The Annals of Applied Probability 32(4), 3201–3203",
+      "publication_type": "erratum",
+      "publication_date": "2022",
+      "latest_version_date": "2022",
+      "identifier": "10.1214/22-AAP1827",
+      "version": "published",
+      "stable_url": "https://rdlyons.pages.iu.edu/errata/trace-erratum-pub.pdf",
+      "locator": "Lemma 3.1 replacement proof, E.1–E.6; final Proposition 1.4 note",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "All three pages, including metadata, lemma, derivation, upper/lower conclusions and final correction."
+      ],
+      "supported_claim": "Repairs omitted terms in a statistic calculation and a constant in Proposition 1.4.",
+      "independent_of_source_ids": [
+        "ALN25",
+        "SB21",
+        "BVW26"
+      ],
+      "access_limitations": "No independent proof certification. Chase's cited Hellinger Lemma A.5 is a different statement."
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S221-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"polynomial\" \"open\" 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S221-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"worst case\" \"solved\" 2025 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S221-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"polynomial\" \"counterexample\" \"proof\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S221-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" survey DNA storage open problem samples",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S222-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"2026\" \"polynomial\" -site:pmc.ncbi.nlm.nih.gov",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S222-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"solved\" \"worst-case\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S222-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"refutation\" OR \"disproof\" OR \"counterexample\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S222-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"Chase\" \"2025\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S223-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Quasipolynomial Trace Reconstruction\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S223-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"polynomial\" \"September\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S223-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"conjecture\" \"disproved\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S224-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Quasipolynomial Trace Reconstruction\" correction erratum withdrawn",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S224-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"polynomial traces\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S224-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"polynomial-time\" \"smoothed\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S224-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"Chase\" lower bound 2021",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S225-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"New lower bounds for trace reconstruction\" \"10.1214/20-AIHP1089\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S225-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"polynomial\" \"resolution\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S225-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"Burudgunte\" \"polynomial\" \"September\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "S225-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction from local statistical queries\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+      "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+    },
+    {
+      "search_id": "A33-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"polynomial\" \"proved\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+      "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer."
+    },
+    {
+      "search_id": "A33-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"superpolynomial lower bound\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+      "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer."
+    },
+    {
+      "search_id": "A33-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Quasipolynomial Trace Reconstruction\" \"error\" OR \"correction\" OR \"withdrawn\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+      "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer."
+    },
+    {
+      "search_id": "A33-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Chase\" \"New lower bounds for trace reconstruction\" \"erratum\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+      "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer."
+    },
+    {
+      "search_id": "A33-5",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Erratum\" \"Lower bounds for trace reconstruction\" Holden Lyons pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+      "review_stage": "Separated adversarial self-pass: correction and latest-status follow-up."
+    },
+    {
+      "search_id": "A33-6",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"trace reconstruction\" \"polynomial number\" \"September 2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+      "review_stage": "Separated adversarial self-pass: correction and latest-status follow-up."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "BVW26",
+      "theorem_locator": "§8.2 Theorem 43 and full final proof",
+      "claim_type": "general upper bound",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same independent-deletion model, unrestricted binary strings.",
+        "exp(p^(−7/3)(log_2 n)^c) bound, p=1−q; c not asserted at most one.",
+        "Full reconstruction may enumerate candidates; time and samples differ."
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Quasipolynomial bound neither proves nor disproves polynomial sufficiency.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "ALN25",
+      "theorem_locator": "§1 Theorem 1",
+      "claim_type": "restricted input",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "At least C(log n)^8 zeros between consecutive ones.",
+        "Small universal upper bound on q; O(n log n) traces."
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not cover all strings or all fixed q.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "SB21",
+      "theorem_locator": "Theorem 1, Remark 1 and §I",
+      "claim_type": "bounded edit distance",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Pair within k insertions and k deletions; n^O(k) samples.",
+        "Recovery formulation has a known nearby reference."
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "k growing with n does not give a fixed-degree polynomial.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CH21",
+      "theorem_locator": "§1 Theorem 1",
+      "claim_type": "worst-case lower bound",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Explicit lengths n=4k+3; fixed q and success 2/3.",
+        "Ω_q(n^(3/2)/log^7 n) samples."
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Higher-degree polynomial sufficiency remains possible.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CDLSS20",
+      "theorem_locator": "§1.2 Theorem 1",
+      "claim_type": "smoothed algorithm",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Positive fixed source perturbation.",
+        "Success partly over source perturbation; exponent depends on its inverse."
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No conclusion for zero perturbation or every deterministic string.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CDLSS21",
+      "theorem_locator": "§1.1 Theorem 1 and following paragraph",
+      "claim_type": "vanishing deletion rate",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "q=n^(−1/3−ε), fixed ε>0; smaller rates via extra deletions.",
+        "O(n^(4/3)) samples, O(n^(7/3)) time, success 0.9.",
+        "Body/abstract clarify conflicting heading inequality."
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not cover arbitrary fixed q>0.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "DOS16",
+      "theorem_locator": "§1.2 Theorems 1.1–1.3",
+      "claim_type": "restricted-method lower bound",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Aggregate coordinate means of padded traces.",
+        "exp(Θ(n^(1/3))) barrier for mean-based methods."
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not restrict joint statistics or general decoders.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CDLS24",
+      "theorem_locator": "§2.1; §3 Theorem 6",
+      "claim_type": "local-query lower bound",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Consecutive query blocks proportional to n^(1/5)/(log n)^(2/5).",
+        "Oracle tolerance exponentially small in that scale."
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Full traces and nonlocal statistics are outside this oracle restriction.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HL22",
+      "theorem_locator": "Lemma 3.1 replacement proof; final Proposition 1.4 note",
+      "claim_type": "erratum",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same asserted order/sign of a specific expected statistic.",
+        "Replaces four omitted terms; c becomes sqrt(c) in two definitions."
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No matching general-complexity resolution; algebra not independently certified.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": 144,
+        "distinction": "Optimizes single-use code rate over chosen codebooks; here every string must be recovered from repeated traces."
+      },
+      {
+        "id": 288,
+        "distinction": "Exact asymptotic LCS mean between independent random strings, not inference of a shared unknown source."
+      },
+      {
+        "id": 297,
+        "distinction": "LCS variance for independent fair strings, not exact reconstruction sample complexity."
+      }
+    ],
+    "distinctness_reason": "Retained full baseline reading, fresh full-repository keyword screen and full closest-page reread; no matching target among 330 entries or 31 accepted additions.",
+    "implications_or_equivalences": [
+      "Constant success thresholds >1/2 differ by a constant sample factor.",
+      "Pairwise trace-distribution distinguishability is a standard polynomial-factor equivalent formulation, not a second entry.",
+      "No separate counts for q=1/2, other fixed q, or equivalent finite-alphabet versions."
+    ]
+  },
+  "open_status_evidence_summary": "ALN25 and independent SB21 explicitly retain polynomial-sample sufficiency. July 2026 BVW26 reduces the upper bound to quasipolynomial, leaving the polynomial question unresolved by its theorem.",
+  "independent_status_corroboration": "Aamand–Liu–Narayanan, Sima–Bruck and the BPRS survey have disjoint author groups; Green's maintained Problem 92 separately records the q=1/2 sample question. BVW26 is a further independent current partial result.",
+  "strongest_known_partial_results_and_gap": "July 2026 quasipolynomial upper bound versus polynomial lower bounds; neither proves nor disproves polynomial sufficiency.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "A33 is a separated adversarial self-pass; no independent agent, human review or proof certification.",
+    "Source records identify relevant text actually read; most full technical proofs were not audited.",
+    "PMC direct access challenged; accessible BPRS accepted manuscript used.",
+    "Chase publisher issue fetch returned 502; metadata and author v2 used.",
+    "Green's collection date is not an individual status check; stale bounds not reused.",
+    "No matching resolution located by queries; absence alone is not evidence of openness."
+  ],
+  "second_review": {
+    "arrangement": "Separated adversarial self-pass; no independent agent or human review.",
+    "reviewer_or_pass_identifier": "A33",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A33-1",
+      "A33-2",
+      "A33-3",
+      "A33-4",
+      "A33-5",
+      "A33-6"
+    ],
+    "issues_found": [
+      "Possible conflation of sample complexity, runtime and pairwise testing.",
+      "Fixed versus vanishing q; every input versus smoothed sources; restricted oracle access.",
+      "July 2026 upper bound supersedes older sources.",
+      "Low-deletion theorem heading conflicts with its body.",
+      "Older collection has a different logarithmic lower-bound factor; a lower-bound erratum exists."
+    ],
+    "issues_resolved": [
+      "Defined common decoder, all randomness, known n/q and exact success; no time bound.",
+      "Compared full relevant theorems against the fingerprint.",
+      "Read BVW26 theorem and complete final reduction; preserved preprint/version status.",
+      "Used theorem body, abstract and following smaller-rate statement.",
+      "Used Chase v2 log^7 bound for explicit lengths; read entire HL22 including final constant correction."
+    ],
+    "verdict": "pass"
+  },
+  "prepublication_refresh": {
+    "date": "2026-09-17",
+    "latest_target_commit": "e429195f7dc29ad4bead9c51a29c3d4d5d2c5e6e",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "outcome": "Research-draft scope review completed. Local catalogue remains 330; refresh target and searches again before active batch integration."
+  },
+  "public_page_path": null,
+  "draft_page_path": "research/expansion-2026-09/drafts/polynomial-trace-reconstruction.md",
+  "validation_results": [
+    "2026-09-17: 27 expressions passed strict KaTeX. Initial screenshot preceded math-font loading; rerendered with a font-loading delay and visually inspected the complete statement and applied paragraph, with no clipping.",
+    "2026-09-17: 11 sources, nine scope comparisons, 25 candidate queries; all source/search references, required headings and local draft links valid.",
+    "2026-09-17: catalogue.py --check passed for 330 entries; active pages, metadata, manifest, root README and scripts unchanged from e429195. Original 300 pages remain byte-preserved.",
+    "2026-09-17: all 14 bibliography URLs returned HTTP 200. Remote main independently verified at e429195f7dc29ad4bead9c51a29c3d4d5d2c5e6e before the research update.",
+    "2026-09-17: final ledger cross-check passed: 37 candidates, 32 accepted, five holds, two pending accepted drafts, 30 integrated/published and 330 total; 1,020 unique actual query IDs. Existing review-verdict vocabulary was preserved. git diff --check passed."
+  ],
+  "remote_publication": {
+    "state": "not_integrated",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "research_publication": {
+    "state": "local_pending_push",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null
+  },
+  "search_outcomes": [
+    {
+      "search_ids": [
+        "S221-1",
+        "S221-2",
+        "S221-3",
+        "S221-4",
+        "S222-1",
+        "S222-2",
+        "S222-3",
+        "S222-4"
+      ],
+      "results_inspected": [
+        "ALN25",
+        "SB21",
+        "BPRS20",
+        "BVW26",
+        "GREEN25"
+      ],
+      "outcome": "Explicit polynomial-sample question and July improvement located; older general upper bounds superseded."
+    },
+    {
+      "search_ids": [
+        "S223-1",
+        "S223-2",
+        "S223-3",
+        "S224-1",
+        "S224-2",
+        "S224-3",
+        "S224-4",
+        "S225-1",
+        "S225-2",
+        "S225-3",
+        "S225-4"
+      ],
+      "results_inspected": [
+        "BVW26",
+        "CH21",
+        "CDLSS20",
+        "CDLSS21",
+        "DOS16",
+        "CDLS24"
+      ],
+      "outcome": "Full relevant theorems compared for rate, input, decoder access and sample/time scope. No matching resolution located."
+    },
+    {
+      "search_ids": [
+        "A33-1",
+        "A33-2",
+        "A33-3",
+        "A33-4",
+        "A33-5",
+        "A33-6"
+      ],
+      "results_inspected": [
+        "BVW26",
+        "CH21",
+        "HL22",
+        "DOS16",
+        "CDLS24"
+      ],
+      "outcome": "Read Holden–Lyons erratum. Restricted-method barriers do not establish general impossibility; BVW26 still only v1. No unrestricted polynomial upper or superpolynomial lower bound located.",
+      "limitations": "Search absence alone is not evidence of openness; explicit independent scholarly formulations and theorem comparisons supply corroboration. AI-generated secondary audit not used."
+    }
+  ],
+  "bibliography_link_check": {
+    "checked_on": "2026-09-17",
+    "method": "curl --http1.1 -L, bounded timeouts; initial sandbox DNS failure retried with network access",
+    "results": [
+      {
+        "url": "https://arxiv.org/html/2607.04073v1",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/pdf/1905.03031v2",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/pdf/2008.12386v1",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/pdf/2010.06083v1",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/pdf/2102.05372v2",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://doi.org/10.1214/20-AIHP1089",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2024.52",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://doi.org/10.4230/LIPIcs.ICALP.2025.3",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol185-itcs2021/LIPIcs.ITCS.2021.20/LIPIcs.ITCS.2021.20.pdf",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol317-approx-random2024/LIPIcs.APPROX-RANDOM.2024.52/LIPIcs.APPROX-RANDOM.2024.52.pdf",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol334-icalp2025/LIPIcs.ICALP.2025.3/LIPIcs.ICALP.2025.3.pdf",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://rdlyons.pages.iu.edu/errata/trace-erratum-pub.pdf",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://www.cs.cmu.edu/~odonnell/papers/trace-reconstruction.pdf",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      }
+    ]
+  }
+}

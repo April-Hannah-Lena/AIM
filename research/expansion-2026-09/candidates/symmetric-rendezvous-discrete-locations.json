@@ -1139,10 +1139,12 @@
     "pull_request_url": null
   },
   "research_publication": {
-    "state": "local_pending_push",
+    "state": "pushed",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null
+    "commit": "e429195f7dc29ad4bead9c51a29c3d4d5d2c5e6e",
+    "verified_on": "2026-09-17",
+    "verification": "Independent git ls-remote origin refs/heads/main, reverified before the trace-reconstruction update."
   },
   "bibliography_link_check": {
     "checked_on": "2026-09-17",

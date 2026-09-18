@@ -7973,5 +7973,237 @@
     ],
     "outcome": "Matching baseline k-server claim; version history still v1. See baseline-status-followup.md.",
     "limitations": "Full proof and independent assessment not reviewed."
+  },
+  {
+    "search_id": "S220-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Problems, Progress and Perspectives in Mathematical and Computational Biology\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Breadth discovery; collection metadata, phylogeny and discrepancy leads."
+  },
+  {
+    "search_id": "S220-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"mathematical biology\" \"open problem\" \"conjecture\" 2026 -rendezvous",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Breadth discovery; collection metadata, phylogeny and discrepancy leads."
+  },
+  {
+    "search_id": "S220-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"phylogenetic\" \"identifiability\" \"open problems\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Breadth discovery; collection metadata, phylogeny and discrepancy leads."
+  },
+  {
+    "search_id": "S220-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Tusnady\" \"conjecture\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Breadth discovery; collection metadata, phylogeny and discrepancy leads."
+  },
+  {
+    "search_id": "S221-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"polynomial\" \"open\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S221-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"worst case\" \"solved\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S221-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"polynomial\" \"counterexample\" \"proof\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S221-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" survey DNA storage open problem samples",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S222-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"2026\" \"polynomial\" -site:pmc.ncbi.nlm.nih.gov",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S222-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"solved\" \"worst-case\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S222-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"refutation\" OR \"disproof\" OR \"counterexample\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S222-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"Chase\" \"2025\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S223-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Quasipolynomial Trace Reconstruction\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S223-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"polynomial\" \"September\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S223-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"conjecture\" \"disproved\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S224-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Quasipolynomial Trace Reconstruction\" correction erratum withdrawn",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S224-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"polynomial traces\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S224-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"polynomial-time\" \"smoothed\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S224-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"Chase\" lower bound 2021",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S225-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"New lower bounds for trace reconstruction\" \"10.1214/20-AIHP1089\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S225-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"polynomial\" \"resolution\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S225-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"Burudgunte\" \"polynomial\" \"September\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "S225-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction from local statistical queries\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates/exclusions where shown)",
+    "review_stage": "Trace reconstruction formulation, resolution, author, recent-year and version searches."
+  },
+  {
+    "search_id": "A33-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"polynomial\" \"proved\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer."
+  },
+  {
+    "search_id": "A33-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"superpolynomial lower bound\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer."
+  },
+  {
+    "search_id": "A33-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Quasipolynomial Trace Reconstruction\" \"error\" OR \"correction\" OR \"withdrawn\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer."
+  },
+  {
+    "search_id": "A33-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Chase\" \"New lower bounds for trace reconstruction\" \"erratum\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer."
+  },
+  {
+    "search_id": "A33-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Erratum\" \"Lower bounds for trace reconstruction\" Holden Lyons pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Separated adversarial self-pass: correction and latest-status follow-up."
+  },
+  {
+    "search_id": "A33-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"trace reconstruction\" \"polynomial number\" \"September 2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Separated adversarial self-pass: correction and latest-status follow-up."
   }
 ]
