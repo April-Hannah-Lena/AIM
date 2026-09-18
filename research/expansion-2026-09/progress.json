@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 33,
+  "new_accepted": 34,
   "active_total": 330,
-  "candidates_investigated": 38,
+  "candidates_investigated": 39,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 167,
-  "remaining_to_target": 217,
+  "remaining_to_minimum": 166,
+  "remaining_to_target": 216,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -134,12 +134,16 @@
     {
       "commit": "f9172498d6eea7bf45752c6852787851c35c15d3",
       "purpose": "Record reviewed polynomial trace-reconstruction draft; pushed directly to main and independently reverified."
+    },
+    {
+      "commit": "66995c4fdbe452bcaa254bc5d7187cecee467e83",
+      "purpose": "Record reviewed generalized Wright attraction draft; pushed directly to main and independently reverified."
     }
   ],
-  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit f9172498d6eea7bf45752c6852787851c35c15d3 includes the accepted rendezvous and trace-reconstruction drafts; remote main independently reverified September 17, 2026. The accepted generalized-Wright draft is prepared for the next direct research push. No PR required.",
+  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit 66995c4fdbe452bcaa254bc5d7187cecee467e83 includes the three accepted rendezvous, trace-reconstruction and generalized-Wright drafts; remote main independently reverified September 17, 2026. The accepted strong thin-tree draft is prepared for the next direct research push. No PR required.",
   "next_actions": [
     "Continue discovery toward at least 200 new problems, deliberately broadening biology, statistics, control and operations research.",
-    "Accumulate the next reviewable batch; symmetric rendezvous, polynomial trace reconstruction and generalized Wright attraction are accepted research drafts. Refresh status and upstream duplicates before integration.",
+    "Accumulate the next reviewable batch; symmetric rendezvous, polynomial trace reconstruction, generalized Wright attraction and strong thin trees are accepted research drafts. Refresh status and upstream duplicates before integration.",
     "CFN sunlet projective quadratic-generation lead needs independent corroboration and saturation-scope review.",
     "Keep matching unresolved claims outside new additions; separately follow up the September 14 k-server claim for historical entry 286."
   ],
@@ -147,7 +151,7 @@
     "inverse3": 5,
     "spectral2": 1,
     "applied": 5,
-    "stochastic3": 6,
+    "stochastic3": 7,
     "inverse2": 2,
     "operators": 3,
     "inverse": 3,
@@ -159,11 +163,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 30,
-  "count_semantics": "Thirty additions are integrated and published directly on main. Three accepted research drafts await batch 4; active total 330. Five held records excluded.",
+  "count_semantics": "Thirty additions are integrated and published directly on main. Four accepted research drafts await batch 4; active total 330. Five held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 30,
-  "coverage_semantics": "Accepted additions by primary section; thirty integrated and three pending research drafts.",
+  "coverage_semantics": "Accepted additions by primary section; thirty integrated and four pending research drafts.",
   "remaining_integrations_to_minimum": 170,
   "remaining_integrations_to_target": 220,
-  "pending_accepted": 3
+  "pending_accepted": 4
 }

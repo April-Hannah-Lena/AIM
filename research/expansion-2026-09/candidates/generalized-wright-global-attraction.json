@@ -777,10 +777,12 @@
     "pull_request_url": null
   },
   "research_publication": {
-    "state": "local_pending_push",
+    "state": "pushed_directly_to_main",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null
+    "commit": "66995c4fdbe452bcaa254bc5d7187cecee467e83",
+    "verified_on": "2026-09-17",
+    "verification": "Independent git ls-remote --heads origin returned this exact main hash."
   },
   "bibliography_link_check": {
     "date": "2026-09-17",

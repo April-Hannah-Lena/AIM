@@ -8485,5 +8485,157 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal date where shown",
     "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "S236-1",
+    "query": "\"thin tree conjecture\" 2026 proof solved counterexample",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Operations research discovery and possible-resolution screening"
+  },
+  {
+    "search_id": "S236-2",
+    "query": "\"Goddyn\" \"thin\" conjecture \"open\" 2025",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Operations research discovery and possible-resolution screening"
+  },
+  {
+    "search_id": "S236-3",
+    "query": "\"Thin Trees for Structured Families\" Olver",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Operations research discovery and possible-resolution screening"
+  },
+  {
+    "search_id": "S237-1",
+    "query": "\"Thin Trees for Near Minimum Cuts\" ICALP 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Canonical formulation, current publication and resolution searches"
+  },
+  {
+    "search_id": "S237-2",
+    "query": "\"strong thin tree conjecture\" proof proved solved counterexample",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Canonical formulation, current publication and resolution searches"
+  },
+  {
+    "search_id": "S237-3",
+    "query": "\"Goddyn\" \"thin tree\" resolution disproof refutation 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Canonical formulation, current publication and resolution searches"
+  },
+  {
+    "search_id": "S238-1",
+    "query": "\"Effective-Resistance-Reducing Flows\" \"Asymmetric\" arxiv",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Independent corroboration, versions and apparent-resolution searches"
+  },
+  {
+    "search_id": "S238-2",
+    "query": "\"thin tree conjecture\" \"2024\" \"2025\" proof counterexample",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Independent corroboration, versions and apparent-resolution searches"
+  },
+  {
+    "search_id": "S238-3",
+    "query": "\"Thin Trees for Near Minimum Cuts\" erratum correction withdrawal",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Independent corroboration, versions and apparent-resolution searches"
+  },
+  {
+    "search_id": "S239-1",
+    "query": "\"thin spanning tree\" \"Goddyn\" proof gap correction 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Author, recent-paper and correction searches before drafting"
+  },
+  {
+    "search_id": "S239-2",
+    "query": "\"Anari\" \"Oveis Gharan\" \"thin\" \"conjecture\" 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Author, recent-paper and correction searches before drafting"
+  },
+  {
+    "search_id": "S239-3",
+    "query": "\"Klein\" \"Olver\" \"Yeoh\" \"thin\" September 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Author, recent-paper and correction searches before drafting"
+  },
+  {
+    "search_id": "A35-1",
+    "query": "\"strong thin tree conjecture\" resolved proof counterexample September 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A35-2",
+    "query": "\"edge-connected\" \"spanning tree\" \"all cuts\" \"constant\" proof thin",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A35-3",
+    "query": "\"thin tree\" \"Goddyn\" refuted disproved",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A35-4",
+    "query": "\"Klein\" \"Olver\" \"Yeoh\" thin trees erratum correction withdrawal",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A35-5",
+    "query": "\"Thin Tree Verification\" proof gap erratum correction",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A35-6",
+    "query": "\"Thin Trees via\" correction withdrawal",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A35-7",
+    "query": "\"Thin Trees beyond Laminar Families\" proof",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Adversarial follow-up of an author's forthcoming-paper listing"
   }
 ]

@@ -1,0 +1,686 @@
+{
+  "candidate_id": "strong-thin-tree",
+  "proposed_catalogue_id": null,
+  "title": "Strong thin-tree conjecture",
+  "aliases": [
+    "O(1/k)-thin spanning trees",
+    "Strong form of Goddyn's thin-tree conjecture",
+    "Uniform cut-thin spanning trees"
+  ],
+  "primary_section": "stochastic3",
+  "secondary_tags": [
+    "network design",
+    "combinatorial optimization",
+    "routing",
+    "graph connectivity"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit strong all-cuts formulation and independent corroboration; current literature and full relevant partial-result statements reviewed; duplicate and separated A35 adversarial checks passed. Accepted as a research draft awaiting batch integration.",
+  "problem_fingerprint": {
+    "model_or_objects": "Finite undirected unweighted loopless multigraph G=(V,E); parallel edges are distinct and counted with multiplicity. A spanning tree T is a subset of its edges.",
+    "dimension": "Arbitrary finite n=|V| at least 2.",
+    "domain": "All such multigraphs, without planarity, genus, transitivity or prescribed-cut-family restrictions.",
+    "regularity_and_data_class": "No numerical edge weights or costs; no spectral assumption.",
+    "boundary_or_initial_conditions": "For every nonempty proper vertex set S, delta_G(S) consists of edges with exactly one endpoint in S.",
+    "parameter_range": "Every positive integer k; G is k-edge-connected, meaning each nontrivial cut has at least k edges.",
+    "quantifiers": "There exists one finite absolute constant C>0 such that for every k and every eligible G there exists one spanning tree T satisfying the bound simultaneously for every nontrivial cut S.",
+    "normalization": "Unweighted edge counts, with multiplicity. The constant is independent of graph size, connectivity, graph and cut.",
+    "observable_or_norm": "max over nontrivial S of |T intersect delta_G(S)|/|delta_G(S)|.",
+    "limit_regime_and_order": "Uniform finite-graph assertion; no probabilistic or thermodynamic limit.",
+    "requested_conclusion": "|T intersect delta_G(S)| <= (C/k)|delta_G(S)| for all nontrivial S.",
+    "computational_model_and_dependencies": "Existence only; no polynomial runtime, efficient certificate or assumption such as P != NP."
+  },
+  "fingerprint_recorded_before_drafting": true,
+  "source_records": [
+    {
+      "source_id": "KOY26",
+      "role": "Current explicit formulation, status and near-minimum-cut progress",
+      "authors": [
+        "Nathan Klein",
+        "Neil Olver",
+        "Zi Song Yeoh"
+      ],
+      "title": "Thin Trees for near Minimum Cuts",
+      "venue_or_repository": "ICALP 2026, LIPIcs 374, 129:1–129:18",
+      "publication_type": "Published conference article",
+      "publication_date": "2026-07-01",
+      "identifier": "10.4230/LIPIcs.ICALP.2026.129; arXiv:2605.12669",
+      "version": "Published HTML; arXiv v1 May 12, 2026",
+      "stable_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.129/LIPIcs.ICALP.2026.129.html",
+      "locator": "§1, Theorems 1–2, §1.1 and §2.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full text for the stated sections",
+      "sections_actually_read": [
+        "Publisher authors, date, bibliographic fields and references",
+        "Full introduction including both conjecture versions, Pritchard implication and Theorems 1–2",
+        "§1.1 counterexample to an arbitrary-laminar-family strategy",
+        "§2.1 multigraph, edge-connectivity and near-minimum-cut definitions",
+        "ArXiv version history"
+      ],
+      "supported_claim": "Strong all-cuts conjecture remains open; 88-edge bound covers cuts smaller than 41k/40; laminar-family guarantee is 66/k.",
+      "access_limitations": "Proofs of the main construction and Appendix A were not independently certified. 'Some constant k' in the introduction is a typographical slip; the abstract and AG15 establish the universal numerator interpretation. The reference labelled Anari et al. [2] is Asadpour et al.; no original-attribution claim is based on that sentence.",
+      "additional_urls": [
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2026.129",
+        "https://arxiv.org/abs/2605.12669"
+      ]
+    },
+    {
+      "source_id": "AG15",
+      "role": "Independent strong-form restatement, general partial result and routing implication",
+      "authors": [
+        "Nima Anari",
+        "Shayan Oveis Gharan"
+      ],
+      "title": "Effective-Resistance-Reducing Flows, Spectrally Thin Trees, and Asymmetric TSP",
+      "venue_or_repository": "FOCS 2015, 20–39; arXiv author manuscript",
+      "publication_type": "Conference result; accessible author manuscript",
+      "publication_date": "2015-09-01 (v4)",
+      "identifier": "arXiv:1411.4613; 10.1109/FOCS.2015.11",
+      "version": "v4; previous versions November 17 and December 11, 2014, April 12, 2015",
+      "stable_url": "https://arxiv.org/html/1411.4613v4",
+      "locator": "§1 Definition 1.1, Theorem 1.2, Conjecture 1.3 and following strong-form discussion; §1.1 Lemma 1.4 and Theorem 1.5; §1.2 Theorems 1.6–1.7 and Corollary 1.8",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full text for the stated sections",
+      "sections_actually_read": [
+        "Full introductory problem and ATSP discussion",
+        "Full spectral-thinness definitions, effective-resistance obstruction and Lemma 1.4 proof",
+        "Full §1.2 statements through Theorem 1.9; Corollary 1.8 proof",
+        "ArXiv authors and complete version history; conference citation checked against KOY26 bibliography"
+      ],
+      "supported_claim": "All-graph guarantee retains a polyloglog(n) numerator. Explicitly distinguishes cut thinness from spectral thinness. Existence yields an ATSP integrality bound; efficient construction is a further condition for an algorithm.",
+      "access_limitations": "FOCS PDF reader failed; the complete author version is accessible. Old ATSP open-status discussion is superseded by KOY26 and is not copied as current.",
+      "additional_urls": [
+        "https://arxiv.org/abs/1411.4613"
+      ]
+    },
+    {
+      "source_id": "M25",
+      "role": "Independent recent status discussion and verification-versus-existence distinction",
+      "authors": [
+        "Alice Moayyedi"
+      ],
+      "title": "Thin Tree Verification is coNP-Complete",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2025-12-31",
+      "identifier": "arXiv:2512.25043",
+      "version": "v1; only version displayed",
+      "stable_url": "https://arxiv.org/html/2512.25043v1",
+      "locator": "§1 Definition 1, Conjecture 1, ThinTreeValid, Theorem 1 and Remark 1; §2 proof strategy",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full text for the stated sections",
+      "sections_actually_read": [
+        "Full introduction, verification problem and theorem",
+        "Remark 1 limitations and proof strategy",
+        "ArXiv version history"
+      ],
+      "supported_claim": "Retains the general thin-tree problem and explicitly separates the difficulty of verifying a supplied tree from finding or guaranteeing a sufficiently thin tree.",
+      "access_limitations": "The preprint's hardness proof was not independently certified. Admission does not depend on that complexity theorem being correct.",
+      "additional_urls": [
+        "https://arxiv.org/abs/2512.25043"
+      ]
+    },
+    {
+      "source_id": "D25",
+      "role": "Plausible recent certification result requiring quantifier comparison",
+      "authors": [
+        "Mohit Daga"
+      ],
+      "title": "Thin Trees via k-Respecting Cut Identities",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2025-10-14",
+      "identifier": "arXiv:2510.12050",
+      "version": "v1; only version displayed",
+      "stable_url": "https://arxiv.org/html/2510.12050v1",
+      "locator": "§§1.1–1.3, §2 Eq. (1), Theorems 2.1–2.5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full text for the stated sections",
+      "sections_actually_read": [
+        "Full introduction and exact restricted-certificate definition",
+        "Full statements of Theorems 2.1–2.5 and accompanying ensemble discussion",
+        "ArXiv version history"
+      ],
+      "supported_claim": "Computes a maximum over cuts meeting a supplied tree in at most r edges; ensemble conclusions allow a different tree for each cut.",
+      "access_limitations": "These claims were assessed for scope, not independently proved. The introductory o(k) wording is not used as a definition of weak thinness; the standard formulation comes from KOY26 and AG15.",
+      "additional_urls": [
+        "https://arxiv.org/abs/2510.12050"
+      ]
+    },
+    {
+      "source_id": "HG26",
+      "role": "Recent thin-object counterexample and upper bound in a different feasible class",
+      "authors": [
+        "Alireza Haqi",
+        "Shayan Oveis Gharan"
+      ],
+      "title": "On Thin Perfect Matchings up to Polylogarithmic Factors",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2026-07-01 (v2); first submitted May 31, 2026",
+      "identifier": "arXiv:2606.01330",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2606.01330v2",
+      "locator": "§1.1 Lemma 1.2, Theorems 1.3–1.4 and discussion",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full text for the stated sections",
+      "sections_actually_read": [
+        "Full named theorem statements, support comparison and proof overview",
+        "version history",
+        "Full introduction and Conjecture 1.1 during A35; retained as a related fractional-polytope formulation, not a separate count."
+      ],
+      "supported_claim": "Linear support-restricted lower bound concerns perfect matchings relative to a fractional perfect matching, not spanning trees in a k-edge-connected graph.",
+      "access_limitations": "No independent proof certification and no separate candidate count for thin matchings.",
+      "additional_urls": [
+        "https://arxiv.org/abs/2606.01330"
+      ]
+    },
+    {
+      "source_id": "DWEB26",
+      "role": "Follow-up of a forthcoming-paper lead discovered in A35",
+      "authors": [
+        "Mohit Daga"
+      ],
+      "title": "Author homepage: working papers and pre-prints",
+      "venue_or_repository": "Author-maintained page",
+      "publication_type": "Author publication list",
+      "publication_date": "Undated page; accessed September 17, 2026",
+      "identifier": null,
+      "version": "Live page",
+      "stable_url": "https://sites.google.com/view/mohitdaga",
+      "locator": "Working papers and pre-prints",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full listed section",
+      "sections_actually_read": [
+        "Entire working-paper list and its links"
+      ],
+      "supported_claim": "Lists Thin Trees beyond Laminar Families as forthcoming without a linked manuscript or theorem.",
+      "access_limitations": "No theorem is available to assess; the title does not assert a general resolution. Retained as a refresh lead, not evidence of openness or a proof."
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S236-1",
+      "query": "\"thin tree conjecture\" 2026 proof solved counterexample",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Operations research discovery and possible-resolution screening"
+    },
+    {
+      "search_id": "S236-2",
+      "query": "\"Goddyn\" \"thin\" conjecture \"open\" 2025",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Operations research discovery and possible-resolution screening"
+    },
+    {
+      "search_id": "S236-3",
+      "query": "\"Thin Trees for Structured Families\" Olver",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Operations research discovery and possible-resolution screening"
+    },
+    {
+      "search_id": "S237-1",
+      "query": "\"Thin Trees for Near Minimum Cuts\" ICALP 2026",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Canonical formulation, current publication and resolution searches"
+    },
+    {
+      "search_id": "S237-2",
+      "query": "\"strong thin tree conjecture\" proof proved solved counterexample",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Canonical formulation, current publication and resolution searches"
+    },
+    {
+      "search_id": "S237-3",
+      "query": "\"Goddyn\" \"thin tree\" resolution disproof refutation 2026",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Canonical formulation, current publication and resolution searches"
+    },
+    {
+      "search_id": "S238-1",
+      "query": "\"Effective-Resistance-Reducing Flows\" \"Asymmetric\" arxiv",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Independent corroboration, versions and apparent-resolution searches"
+    },
+    {
+      "search_id": "S238-2",
+      "query": "\"thin tree conjecture\" \"2024\" \"2025\" proof counterexample",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Independent corroboration, versions and apparent-resolution searches"
+    },
+    {
+      "search_id": "S238-3",
+      "query": "\"Thin Trees for Near Minimum Cuts\" erratum correction withdrawal",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Independent corroboration, versions and apparent-resolution searches"
+    },
+    {
+      "search_id": "S239-1",
+      "query": "\"thin spanning tree\" \"Goddyn\" proof gap correction 2026",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Author, recent-paper and correction searches before drafting"
+    },
+    {
+      "search_id": "S239-2",
+      "query": "\"Anari\" \"Oveis Gharan\" \"thin\" \"conjecture\" 2026",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Author, recent-paper and correction searches before drafting"
+    },
+    {
+      "search_id": "S239-3",
+      "query": "\"Klein\" \"Olver\" \"Yeoh\" \"thin\" September 2026",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Author, recent-paper and correction searches before drafting"
+    },
+    {
+      "search_id": "A35-1",
+      "query": "\"strong thin tree conjecture\" resolved proof counterexample September 2026",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A35-2",
+      "query": "\"edge-connected\" \"spanning tree\" \"all cuts\" \"constant\" proof thin",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A35-3",
+      "query": "\"thin tree\" \"Goddyn\" refuted disproved",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A35-4",
+      "query": "\"Klein\" \"Olver\" \"Yeoh\" thin trees erratum correction withdrawal",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A35-5",
+      "query": "\"Thin Tree Verification\" proof gap erratum correction",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A35-6",
+      "query": "\"Thin Trees via\" correction withdrawal",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A35-7",
+      "query": "\"Thin Trees beyond Laminar Families\" proof",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted",
+      "review_stage": "Adversarial follow-up of an author's forthcoming-paper listing"
+    }
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass after drafting; no independent agent or human review.",
+    "reviewer_or_pass_identifier": "A35",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A35-1",
+      "A35-2",
+      "A35-3",
+      "A35-4",
+      "A35-5",
+      "A35-6",
+      "A35-7"
+    ],
+    "issues_found": [
+      "Possible confusion between one tree for all cuts and one tree per cut.",
+      "Possible confusion between cut thinness and spectral thinness, or perfect matching thinness.",
+      "The 2026 source has a constant-symbol and citation-name typo; D25's weak-conjecture asymptotic wording is not used.",
+      "Author-page forthcoming paper has no linked theorem; research draft must preserve this as a refresh lead.",
+      "Existence does not assert a polynomial-time algorithm or that constant-factor ATSP remains open."
+    ],
+    "issues_resolved": [
+      "Retained the universal C, all finite multigraphs, all k, and simultaneous-cut quantifiers; loops may be deleted without changing any cut or tree, so the loopless convention does not narrow the problem.",
+      "Compared D25's complete statements and M25's input/verdict; neither changes the existence status.",
+      "Read HG26's full relevant statements and July-version introduction; its lower bound is for a different feasible class.",
+      "Cross-checked the strong formulation with AG15; avoided disputed attribution and incorrect weak asymptotic wording.",
+      "Derived the redundancy implication with k>C and distinguished the sharp factor-two ATSP entry.",
+      "Reread closest active pages and all accepted candidate conclusions; no duplicate or unsupported application found."
+    ],
+    "verdict": "pass_for_research_draft"
+  },
+  "public_page_path": null,
+  "draft_page_path": "research/expansion-2026-09/drafts/strong-thin-tree.md",
+  "actual_status_check_date": "2026-09-17",
+  "statement_source_and_scope_match": "Klein–Olver–Yeoh (ICALP 2026), §1 and §2.1, with independent Anari–Oveis Gharan (2015), §1 Definition 1.1 and discussion after Conjecture 1.3. Their strong form fixes a universal numerator; the ICALP introduction's 'some constant k' is a typographical slip, resolved by its abstract and independent explicit strong formulation.",
+  "remote_publication": {
+    "state": "not_integrated",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "research_publication": {
+    "state": "local_pending_push",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null
+  },
+  "later_results_and_resolution_checks": [
+    {
+      "source_ids": [
+        "KOY26"
+      ],
+      "locator": "Theorem 1",
+      "result": "One spanning tree crosses each cut smaller than 41k/40 in at most 88 edges.",
+      "hypothesis_comparison": {
+        "graph": "Same unweighted multigraph setting.",
+        "quantifiers": "One tree, but only a restricted family of small cuts.",
+        "constant": "Absolute 88 on the restricted family.",
+        "missing": "No constraint on every larger cut."
+      },
+      "assessment": "Partial result; does not settle all-cuts existence."
+    },
+    {
+      "source_ids": [
+        "KOY26"
+      ],
+      "locator": "Theorem 2 and §1.1 example",
+      "result": "66/k thinness for any prescribed laminar family; an arbitrary maximal laminar selection can miss a badly crossed near-minimum cut.",
+      "hypothesis_comparison": {
+        "graph": "General graph.",
+        "cut_family": "Any two shores in the prescribed family must be disjoint or nested.",
+        "counterexample": "Shows failure of a selection strategy, not failure of all possible trees."
+      },
+      "assessment": "Neither the restricted theorem nor its strategy counterexample resolves the conjecture."
+    },
+    {
+      "source_ids": [
+        "AG15"
+      ],
+      "locator": "Corollary 1.8 and following discussion",
+      "result": "Every k-edge-connected multigraph has a polyloglog(n)/k-thin tree.",
+      "hypothesis_comparison": {
+        "graph": "Matches graph class.",
+        "quantifiers": "One tree across all cuts.",
+        "uniformity": "Numerator depends on n; candidate needs one absolute C."
+      },
+      "assessment": "Strongest reviewed general existence guarantee leaves size dependence."
+    },
+    {
+      "source_ids": [
+        "AG15"
+      ],
+      "locator": "§1.1, Lemma 1.4, Theorem 1.5 and Figure 3 discussion",
+      "result": "Effective-resistance hypotheses yield spectral thinness; some highly connected graphs lack spectrally thin trees.",
+      "hypothesis_comparison": {
+        "premise": "Bounded effective resistance is stronger than edge connectivity.",
+        "conclusion": "A Laplacian inequality for all real vectors is stronger than cut inequalities on indicator vectors."
+      },
+      "assessment": "Stronger sufficient conditions and stronger-model counterexamples do not prove or refute cut thinness."
+    },
+    {
+      "source_ids": [
+        "D25"
+      ],
+      "locator": "Theorems 2.2–2.5; §1.3",
+      "result": "Exact restricted-cut certificates and per-cut ensemble guarantees.",
+      "hypothesis_comparison": {
+        "graph": "Weighted model includes unweighted graphs.",
+        "cut_family": "Only cuts meeting the supplied tree in at most r edges; r is distinct from connectivity k.",
+        "quantifiers": "For each near-minimum cut there exists a sampled tree, not one tree for every cut.",
+        "bound": "Numerator may grow with log n."
+      },
+      "assessment": "No full-thinness verification or uniform one-tree existence result."
+    },
+    {
+      "source_ids": [
+        "M25"
+      ],
+      "locator": "ThinTreeValid, Theorem 1 and Remark 1",
+      "result": "Claims coNP-completeness for deciding whether a supplied tree meets a supplied thinness bound.",
+      "hypothesis_comparison": {
+        "input": "Includes a particular tree T and threshold alpha.",
+        "conclusion": "Computational difficulty of checking T, not a graph with no suitable T.",
+        "candidate": "Pure existence; no efficient certificate or construction required."
+      },
+      "assessment": "Even if correct, does not refute the candidate; no mathematical correctness certification of the hardness proof."
+    },
+    {
+      "source_ids": [
+        "HG26"
+      ],
+      "locator": "Lemma 1.2, Theorems 1.3–1.4",
+      "result": "Support-constrained matching lower bound and polylogarithmic upper bound with relaxed support.",
+      "hypothesis_comparison": {
+        "object": "Perfect matching has degree one at each vertex, rather than connected acyclic spanning tree.",
+        "denominator": "Fractional perfect-matching cut weights, not k-scaled unweighted graph cuts.",
+        "support": "Relaxed result permits pairs outside original support.",
+        "uniformity": "Upper bound still depends on n."
+      },
+      "assessment": "Different feasible objects and hypotheses; not a tree counterexample or proof."
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "local_head_reviewed": "66995c4fdbe452bcaa254bc5d7187cecee467e83",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "review_scope": "Retained full baseline reading and all 330 current entries; fresh model/alias search over active pages, data, baseline inventory, exclusions and all candidate records. Read all accepted candidate conclusions and reread the closest five complete pages.",
+    "closest_existing_or_new_entries": [
+      {
+        "id": 181,
+        "path": "problems/181-three-dimensional-minimal-spanning-forest.md",
+        "difference": "Almost-sure connectivity of a random infinite-lattice minimum forest; no finite-graph cut-thinness bound."
+      },
+      {
+        "id": 253,
+        "path": "problems/253-durer-edge-unfolding.md",
+        "difference": "Nonoverlapping unfolding along a polyhedral edge tree; no simultaneous network cut requirement."
+      },
+      {
+        "id": 285,
+        "path": "problems/285-metric-tsp-four-thirds.md",
+        "difference": "Sharp 4/3 cost gap for symmetric metric Hamiltonian tours, not tree cut counts."
+      },
+      {
+        "id": 309,
+        "path": "problems/309-li-li-multiple-unicast.md",
+        "difference": "Equality of coding and fractional-flow throughput regions for independent messages; no spanning-tree existence criterion."
+      },
+      {
+        "id": 323,
+        "path": "problems/323-asymmetric-tsp-integrality-gap.md",
+        "difference": "Sharp factor-two directed tour-cost certificate. Strong thin trees imply an unspecified constant gap already known by other methods, not the factor two or its converse."
+      }
+    ],
+    "distinctness_reason": "A distinct simultaneous-cut existence problem in network design. Counts one family across all k, sizes and graph subclasses.",
+    "implications_or_equivalences": [
+      "Strong thinness implies Goddyn's weaker arbitrary f(k) tending to zero formulation; converse is not asserted.",
+      "Removing the tree leaves every cut at least k-C when k>C; this implies strong removable-tree connectivity, whose converse is not asserted.",
+      "The ATSP connection is foundational, not a new claim that constant-factor approximation remains unresolved."
+    ]
+  },
+  "applied_significance": "A connected network backbone should use only a controlled fraction of every cut's available links. Strong thinness would guarantee such a tree uniformly in network size; for k>C removing it retains edge connectivity at least k-C. It also provides a route to rounding directed routing relaxations, with existence and efficient construction supplying different guarantees.",
+  "application_evidence_source_ids": [
+    "KOY26",
+    "AG15"
+  ],
+  "independent_status_corroboration": {
+    "source_ids": [
+      "AG15",
+      "M25"
+    ],
+    "independent_of": "KOY26",
+    "explanation": "Disjoint author sets provide an explicit strong formulation and a recent open-problem discussion. D25 offers additional corroboration but is not the sole foundation.",
+    "limitations": "These are independent scholarly sources; the research and adversarial review are conducted by the same assistant."
+  },
+  "open_status_evidence_summary": "The published July 2026 KOY26 paper explicitly retains the strong conjecture; current primary preprints and full relevant partial-result statements supply no matching all-cuts resolution.",
+  "strongest_known_partial_results_and_gap": "AG15's general polyloglog(n)/k guarantee still depends on graph size. KOY26 removes size dependence on near-minimum cuts and prescribed laminar families, leaving arbitrary cuts unresolved.",
+  "source_access_limitations": "All decisive formulation and theorem statements were accessible in primary full text. AG15 uses the author manuscript because the conference PDF reader failed. No full technical proof or computational certification is claimed.",
+  "search_outcomes": [
+    {
+      "search_ids": [
+        "S236-1",
+        "S236-2",
+        "S236-3",
+        "S237-1",
+        "S237-2",
+        "S237-3",
+        "S238-1",
+        "S238-2",
+        "S238-3",
+        "S239-1",
+        "S239-2",
+        "S239-3"
+      ],
+      "outcome": "Located current ICALP publication, certificate/verification preprints, the general polyloglog bound, and a July 2026 perfect-matching result. Compared their full relevant statements; no matching general proof or counterexample located. Search snippets and aggregation sites are discovery only."
+    },
+    {
+      "search_ids": [
+        "A35-1",
+        "A35-2",
+        "A35-3",
+        "A35-4",
+        "A35-5",
+        "A35-6",
+        "A35-7"
+      ],
+      "outcome": "No matching proof, counterexample, withdrawal or correction located. Followed the primary author page for a forthcoming beyond-laminar title; no manuscript or resolution theorem linked. Rechecked single-version histories for D25/M25, and HG26's July revision. Laminar-family publication listings keep the same restricted target; the precise bound is read in KOY26's published Theorem 2."
+    }
+  ],
+  "proposed_statement_text": "Let $G=(V,E)$ be a finite undirected loopless multigraph with at least two vertices. Parallel edges are counted separately. For a nonempty proper set $S\\subsetneq V$, write $\\delta_G(S)$ for the edges with exactly one endpoint in $S$. For an integer $k\\ge1$, call $G$ $k$-edge-connected if $|\\delta_G(S)|\\ge k$ for every such $S$.\n\nDoes there exist an absolute constant $C>0$ such that every $k$-edge-connected $G$, for every $k\\ge1$, has a spanning tree $T\\subseteq E$ satisfying\n\n$$\n|T\\cap\\delta_G(S)|\\le\\frac{C}{k}\\,|\\delta_G(S)|\n\\qquad\\text{for every }\\varnothing\\ne S\\subsetneq V?\n$$\n\nThe same tree must satisfy every cut inequality, and $C$ must be independent of $k$, $G$ and $|V|$. Edges are unweighted. This is the strong thin-tree conjecture; the question requires existence, without an efficient construction or verification algorithm. Goddyn's weaker version permits an arbitrary thinness bound tending to zero with connectivity. It is included here as context, without a separate count or a claim of equivalence. [1, 2]\n",
+  "prepublication_refresh": {
+    "date": "2026-09-17",
+    "latest_target_commit": "66995c4fdbe452bcaa254bc5d7187cecee467e83",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "outcome": "A35 current search and local duplicate refresh passed. Independent remote branch listing returned only main at unchanged local HEAD 66995c4fdbe452bcaa254bc5d7187cecee467e83. This publication adds research files only; refresh again before active batch integration."
+  },
+  "validation_results": [
+    "2026-09-17: 26 mathematics expressions passed strict KaTeX. The complete draft was visually inspected in a font-loaded browser image; mathematical notation was legible without clipping.",
+    "2026-09-17: all 12 public bibliography and author-page URLs returned HTTP 200. Source-access claims remain limited to the sections actually read.",
+    "2026-09-17: catalogue.py --check passed for 330 entries. Active pages, data, scripts and root README are unchanged; the original 300 problem pages remain byte-preserved.",
+    "2026-09-17: six source records, seven scope comparisons and 19 candidate queries checked; headings, local links and source/search references valid.",
+    "2026-09-17: counts reconciled at 39 investigated, 34 accepted, five held, four pending accepted drafts and 30 integrated/published; 1,074 unique actual query IDs."
+  ],
+  "bibliography_link_check": {
+    "checked_on": "2026-09-17",
+    "results": [
+      {
+        "url": "https://arxiv.org/abs/1411.4613",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/abs/2510.12050",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/abs/2512.25043",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/abs/2605.12669",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/abs/2606.01330",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/html/1411.4613v4",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/html/2510.12050v1",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/html/2512.25043v1",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/html/2606.01330v2",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2026.129",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.129/LIPIcs.ICALP.2026.129.html",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://sites.google.com/view/mohitdaga",
+        "http_status": "200",
+        "exit_code": 0,
+        "error": ""
+      }
+    ]
+  }
+}
