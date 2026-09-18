@@ -327,11 +327,16 @@
     "checked_on": "2026-09-18",
     "catalogue_write": "Passed; generated README retains 340 indexed problems.",
     "catalogue_check": "Passed; 340 unique problems, metadata, required sections, math delimiters, links and README freshness.",
-    "git_diff_check": "Passed before staging; staged check still to run.",
+    "git_diff_check": "Passed before staging and for all staged checkpoint files.",
     "upstream_refresh": "Fetched origin/main; equals local pre-checkpoint HEAD f6cee3df9d6d30a62961767e1ddb3db7194d04f5. No new upstream catalogue entries.",
     "preservation": "No original problem pages, metadata, historical dates or user handoff files changed."
   },
   "remote_publication": {
-    "state": "Pending authorized direct push to main; research draft only, no active ID."
+    "state": "Published directly to main as a reviewed research draft; no active ID.",
+    "content_commit": "1cd75f103c69dfe2879f386bcad2c58bae6ed17c",
+    "verified_on": "2026-09-18",
+    "verification": "Push completed; a separate git ls-remote read of refs/heads/main matched the full content commit.",
+    "repository": "MColbrook/AIM",
+    "target": "refs/heads/main"
   }
 }

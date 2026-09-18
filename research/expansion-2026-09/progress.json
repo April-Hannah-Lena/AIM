@@ -174,9 +174,13 @@
     {
       "commit": "42b66b93464d3ffd970dc53f70d6d64d8504bd64",
       "purpose": "Record reviewed optimal binary-code rate draft and information/control discovery audits; pushed directly to main and independently verified September 18, 2026."
+    },
+    {
+      "commit": "1cd75f103c69dfe2879f386bcad2c58bae6ed17c",
+      "purpose": "Record reviewed arbitrary-switching stability draft and evidence; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "Forty catalogue additions (301–340) are published directly on main. The accepted sharp matroid secretary and binary-code rate drafts are published. The newly accepted arbitrary-switching stability draft and its evidence await this checkpoint push; all three await catalogue integration. Active total remains 340.",
+  "remote_state": "Forty catalogue additions (301–340) are published directly on main. All three accepted research drafts—sharp matroid secretary, binary-code rate and arbitrary-switching stability—and their evidence are published. The control checkpoint 1cd75f103c69dfe2879f386bcad2c58bae6ed17c was independently verified by ls-remote on September 18, 2026. All three await batch integration; active total remains 340.",
   "next_actions": [
     "Prepare seven more reviewed drafts for the next ten-entry batch; refresh statuses and upstream duplicates before allocating IDs. Sharp matroid secretary, binary-code rate and arbitrary-switching stability are accepted without active IDs.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
