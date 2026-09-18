@@ -1,0 +1,514 @@
+{
+  "candidate_id": "fitch-ultrametric-ancestral-accuracy",
+  "proposed_catalogue_id": null,
+  "title": "Accuracy of parsimony reconstruction under a molecular clock",
+  "decision": "accept_open",
+  "decision_reason": "Explicit source conjecture and independently authored specialist corroboration for r>4; later and potentially conflicting results compared at their actual scope; duplicate and separated A40 reviews passed.",
+  "problem_fingerprint": {
+    "recorded_before_drafting": true,
+    "objects": "A finite rooted binary phylogenetic tree with at least two labelled leaves; each edge has a finite nonnegative length; every root-to-leaf path has the same length H. An alphabet of r states, r >= 5.",
+    "model": "Neyman symmetric r-state continuous-time substitution model, with uniform root state and conditionally independent evolution down distinct branches. Normalize total departure rate to one: Q_ii=-1 and Q_ij=1/(r-1) for i != j.",
+    "edge_transition": "For edge length l, diagonal probability is 1/r+(r-1)/r*exp(-r*l/(r-1)); each specified off-diagonal probability is (1-exp(-r*l/(r-1)))/r.",
+    "observation": "One character: the random state at every leaf of the known tree. No repeated-site asymptotic limit or tree-topology estimation.",
+    "estimator": "Start with singleton leaf-state sets. At each internal vertex take the child-set intersection when nonempty, otherwise their union. Choose the root estimate uniformly from the final nonempty set.",
+    "observable": "Accuracy = probability that the estimator equals the actual root state, including both character generation and uniform tie-breaking.",
+    "quantifiers": "For every integer r >= 5 and every such finite tree and equal-height length assignment, including zero edge lengths, does accuracy exceed or equal 1/r+(r-1)/r*exp(-r*H/(r-1))?",
+    "conclusion": "The all-leaf Fitch estimator is at least as accurate as the state at any single leaf, whose conservation probability is the displayed common-height expression.",
+    "normalization_checks": "Herbst-Fischer use p_e for the probability of a transition to one specified different state. Herbst-Li-Steel use total change probability (r-1)*p_e. The displayed generator follows the latter expected-substitution-length convention.",
+    "scope_limits": "One conjecture across all alphabet sizes; r=2,3,4 are proved cases. No arbitrary-subset monotonicity, unequal root-to-leaf heights, asymmetric substitution rates, or deterministic/adversarial tie-breaking is asserted."
+  },
+  "statement_sources": [
+    {
+      "source_id": "LSZ08",
+      "authors": [
+        "Guoliang Li",
+        "Mike Steel",
+        "Louxin Zhang"
+      ],
+      "title": "More Taxa Are Not Necessarily Better for the Reconstruction of Ancestral Character States",
+      "year": 2008,
+      "venue": "Systematic Biology 57(4), 647–653",
+      "doi": "10.1080/10635150802203898",
+      "url": "https://www2.gwu.edu/~clade/bisc%20207/LiEtAl2008.pdf",
+      "locator": "p. 652, final paragraph before Acknowledgments",
+      "access": "Published PDF model, accuracy convention, counterexample discussions and final conjecture read."
+    },
+    {
+      "source_id": "HF18",
+      "authors": [
+        "Lina Herbst",
+        "Mareike Fischer"
+      ],
+      "title": "On the Accuracy of Ancestral Sequence Reconstruction for Ultrametric Trees with Parsimony",
+      "year": 2018,
+      "venue": "Bulletin of Mathematical Biology 80, 864–879",
+      "doi": "10.1007/s11538-018-0407-5",
+      "url": "https://arxiv.org/abs/1706.06085",
+      "locator": "Author manuscript §§2–3 definitions, Theorems 1–2; §5 final paragraph, printed manuscript p. 18",
+      "access": "Full arXiv PDF obtained; relevant definitions, statements and §5 read. Publisher metadata verified; publisher full text is subscription-only.",
+      "role": "Independent authors explicitly retain r>4 as open."
+    }
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/fitch-ultrametric-ancestral-accuracy.md",
+  "public_page_path": null,
+  "actual_status_check_date": "2026-09-18",
+  "second_review": {
+    "status": "passed",
+    "arrangement": "Separated adversarial self-pass after writing the draft; no independent agent or human review.",
+    "checked_on": "2026-09-18",
+    "search_ids": [
+      "A40-1",
+      "A40-2",
+      "A40-3",
+      "A40-4"
+    ],
+    "checks": [
+      "Matched the finite binary-tree, equal-height and every-r>=5 quantifiers to HF18's explicit unsolved remainder.",
+      "Recomputed the transition normalization from Q: specified off-diagonal probability (1-exp(-r*l/(r-1)))/r; total change is r-1 times this.",
+      "Checked random choice from the root Fitch set, not uniform choice among full most-parsimonious extensions.",
+      "Checked source-conditional root accuracy equals uniform-root accuracy by state symmetry.",
+      "Checked the two-leaf equality and H=0 boundary as consistency checks, not evidence of openness.",
+      "Compared full nearest repository statements and all current active titles/pending families.",
+      "Read the additional ZSYL10 and GS14 main statements surfaced in the resolution chain.",
+      "Retained a qualified protein-model application and access limits; no unsupported practical guarantee.",
+      "Inspected all 31 strict KaTeX expressions in the full rendered draft."
+    ],
+    "result": "No admission-blocking issue found; source-version naming and probability conventions recorded."
+  },
+  "aliases": [
+    "Li–Steel–Zhang molecular-clock conjecture",
+    "Fitch single-taxon accuracy bound",
+    "Neyman r-state ultrametric reconstruction accuracy"
+  ],
+  "primary_section": "stochastic2",
+  "secondary_tags": [
+    "mathematical biology",
+    "phylogenetics",
+    "statistical inference",
+    "Markov processes on trees"
+  ],
+  "fingerprint_recorded_on": "2026-09-18",
+  "fingerprint_recorded_before_draft": true,
+  "source_records": [
+    {
+      "source_id": "LSZ08",
+      "authors": [
+        "Guoliang Li",
+        "Mike Steel",
+        "Louxin Zhang"
+      ],
+      "title": "More Taxa Are Not Necessarily Better for the Reconstruction of Ancestral Character States",
+      "venue": "Systematic Biology 57(4) (2008), 647–653",
+      "doi": "10.1080/10635150802203898",
+      "url": "https://www2.gwu.edu/~clade/bisc%20207/LiEtAl2008.pdf",
+      "version": "Published PDF; arXiv:0803.0195 record has v1, 2008-03-03",
+      "locator": "pp.647–648 model and accuracy; pp.649–652 counterexamples; p.652 final paragraph before acknowledgments",
+      "read": "Model, uniform tie rule, single-leaf and subset counterexamples, concluding conjecture and surrounding discussion.",
+      "role": "Original explicit conjecture and application context.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "FT09",
+      "authors": [
+        "Mareike Fischer",
+        "Bhalchandra D. Thatte"
+      ],
+      "title": "Maximum Parsimony on Subsets of Taxa",
+      "venue": "Journal of Theoretical Biology 260(2) (2009), 290–293",
+      "doi": "10.1016/j.jtbi.2009.06.010",
+      "url": "https://arxiv.org/pdf/0809.3653v2",
+      "version": "Author manuscript v2, 2009-07-06",
+      "locator": "Model and accuracy pp.3–5; Theorem 1 p.6; Theorem 2 pp.8–10",
+      "read": "Definitions, both theorem statements, clock-case proof, and relevant counterexample discussion.",
+      "role": "Proved r=2 restriction; non-clock misleading-taxon example.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "HF18",
+      "authors": [
+        "Lina Herbst",
+        "Mareike Fischer"
+      ],
+      "title": "On the Accuracy of Ancestral Sequence Reconstruction for Ultrametric Trees with Parsimony",
+      "venue": "Bulletin of Mathematical Biology 80 (2018), 864–879",
+      "doi": "10.1007/s11538-018-0407-5",
+      "url": "https://arxiv.org/abs/1706.06085",
+      "version": "arXiv v1 submitted 2017-06-19; served author PDF bears 2018-07-23; published online 2018-02-23",
+      "locator": "Author manuscript §§2–3; Theorem 1 p.7; §4 Theorem 2 p.17; §5 pp.17–18",
+      "read": "Model and probability normalization, accuracy Eq.(1), full Theorems 1–2 and entire conclusion.",
+      "role": "Independent authors explicitly leave r>4 unresolved after proving r=3,4.",
+      "access_limit": "Publisher metadata verified; publisher full text subscription-only. Author-manuscript pagination is used, not asserted to be journal pagination.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "HLS19",
+      "authors": [
+        "Lina Herbst",
+        "Heyang Li",
+        "Mike Steel"
+      ],
+      "title": "Quantifying the accuracy of ancestral state prediction in a phylogenetic tree under maximum parsimony",
+      "venue": "Journal of Mathematical Biology 78(6) (2019), 1953–1979",
+      "doi": "10.1007/s00285-019-01330-x",
+      "url": "https://www.math.canterbury.ac.nz/~m.steel/Non_UC/files/research/lina.pdf",
+      "version": "Published PDF, online 2019-02-13. arXiv:1805.00548v1 (2018-05-01) names Thomas Li; published PDF/publisher name Heyang Li.",
+      "locator": "§1.1 pp.1955–1958; §3 Theorem 2 and Eq.(7) pp.1962–1963; §4 Theorem 4 p.1965; §5 Theorem 5 p.1972 and Corollary 3 p.1974; §6 Theorem 6 p.1975; §7 Conjecture 1 p.1977",
+      "read": "Introduction and definitions; listed full statements and scope discussion; coin-toss proof and deterministic substitution-spectrum hypothesis.",
+      "role": "Expected-substitution-length normalization, all-r baseline 1/r, and stronger conjecture. Shares authors with prior works; not counted as a second independent team.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "RW21",
+      "authors": [
+        "Sebastien Roch",
+        "Kun-Chieh Wang"
+      ],
+      "title": "Sufficient condition for root reconstruction by parsimony on binary trees with general weights",
+      "venue": "Electronic Communications in Probability 26 (2021), article 55, 1–13",
+      "doi": "10.1214/21-ECP423",
+      "url": "https://par.nsf.gov/servlets/purl/10342268",
+      "version": "Published PDF; arXiv:1708.02524 latest v2, 2020-12-31",
+      "locator": "§1 pp.1–4, Definition 1.1, Theorems 1.2/1.5, Corollary 1.4; Definition 2.1",
+      "read": "Full introductory model and main theorem statements, branching condition, examples and state-count restriction.",
+      "role": "Later two-state infinite-tree reconstruction result.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "HF17",
+      "authors": [
+        "Lina Herbst",
+        "Mareike Fischer"
+      ],
+      "title": "Ancestral sequence reconstruction with Maximum Parsimony",
+      "venue": "Bulletin of Mathematical Biology 79 (2017), 2865–2886",
+      "doi": "10.1007/s11538-017-0354-6",
+      "url": "https://arxiv.org/pdf/1702.01436v1",
+      "version": "Author manuscript v1, 2017-02-05; journal identity cross-checked on Fischer's institutional publication page",
+      "locator": "§1; definition of f_{k,r} p.5; Conjecture 1 p.6; §2.1 Observation 1, Example 1 and Main Theorem 1 pp.6–8",
+      "read": "Definitions and full odd-state counterexample construction, plus Main Theorem 1.",
+      "role": "Counterexample concerns a deterministic minimum leaf-color count, not expected accuracy.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "F25",
+      "authors": [
+        "Mareike Fischer"
+      ],
+      "title": "On the Correctness of Maximum Parsimony for Data with Few Substitutions in the NNI Neighborhood of Phylogenetic Trees",
+      "venue": "Annals of Combinatorics 29 (2025), 615–635",
+      "doi": "10.1007/s00026-024-00725-y",
+      "url": "https://arxiv.org/pdf/2403.01282v5",
+      "version": "Author manuscript v5, 2024-10-01; published online 2024-11-14",
+      "locator": "§§1–2 model and binary alignments; §3.1 Theorem 3 p.7; §3.2 Theorem 4 and Table 1 p.11",
+      "read": "Definitions, full main theorem and counterexample statements, Table 1. v2 was first retrieved but replaced for the comparison by current v5.",
+      "role": "Tree-topology optimization on prescribed binary alignments, not root-state accuracy.",
+      "access_limit": "Institutional published-PDF route returned a bot challenge; current arXiv version read.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "R12",
+      "authors": [
+        "Peter Regner"
+      ],
+      "title": "Phylogenetic Trees: Selected Combinatorial Problems",
+      "venue": "Diploma thesis, Technische Universität Wien",
+      "url": "https://www.dmg.tuwien.ac.at/bgitten/Theses/regner.pdf",
+      "version": "2012-04-25, dated title page",
+      "locator": "§4.4, Conjecture 4.6 and Definition 4.7 pp.96–97; negative-polynomial discussion pp.99–100; Remark 4.11 pp.101–102",
+      "read": "Title page and listed full statements/discussion; not the entire thesis or appendices.",
+      "role": "Non-realizability caveat for apparent polynomial counterexamples and restricted small-tree calculations.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "YLDG11",
+      "authors": [
+        "Jialiang Yang",
+        "Jun Li",
+        "Liuhuan Dong",
+        "Stefan Grünewald"
+      ],
+      "title": "Analysis on the reconstruction accuracy of the Fitch method for inferring ancestral states",
+      "venue": "BMC Bioinformatics 12 (2011), article 18",
+      "doi": "10.1186/1471-2105-12-18",
+      "url": "https://link.springer.com/article/10.1186/1471-2105-12-18",
+      "version": "Published 2011-01-13",
+      "locator": "Methods, Eqs.(1)–(2); Results and Discussion, complete-binary and both comb-shaped-tree subsections",
+      "read": "Full model and accuracy definitions; listed result subsections and conclusions. Supplementary recurrences not independently verified.",
+      "role": "General-state special-shape and limiting analyses; numerical observations are identified as such.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "ZSYL10",
+      "authors": [
+        "Louxin Zhang",
+        "Jian Shen",
+        "Jialiang Yang",
+        "Guoliang Li"
+      ],
+      "title": "Analyzing the Fitch method for reconstructing ancestral states on ultrametric phylogenetic trees",
+      "venue": "Bulletin of Mathematical Biology 72 (2010), 1760–1782",
+      "doi": "10.1007/s11538-010-9505-8",
+      "url": "https://arxiv.org/pdf/0906.3106v1",
+      "version": "arXiv v1, 2009-06-17; served PDF title page bears 2018-11-12. Journal identity checked through the primary YLDG11 bibliography.",
+      "locator": "§§1–3 model; §5 Lemma 5.2 and Theorem 5.1, manuscript pp.11–12",
+      "read": "Full introductory model and two-state restriction; full Lemma 5.2 and Theorem 5.1.",
+      "role": "Improved bound within the two-state model.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "GS14",
+      "authors": [
+        "Olivier Gascuel",
+        "Mike Steel"
+      ],
+      "title": "Predicting the Ancestral Character Changes in a Tree is Typically Easier than Predicting the Root State",
+      "venue": "Systematic Biology 63(3) (2014), 421–435",
+      "doi": "10.1093/sysbio/syu010",
+      "url": "https://www.math.canterbury.ac.nz/~m.steel/Non_UC/files/research/arxiv_predicting.pdf",
+      "version": "Published PDF; online 2014-02-21",
+      "locator": "Definitions pp.422–423; Theorems 2–3 p.424; Proposition 4 p.425; Proposition 5 and Theorem 6 p.426",
+      "read": "Definitions, full listed statements, construction explanations, and Yule-model discussion.",
+      "role": "Root versus internal-node and method-comparison results with different quantifiers.",
+      "access_limit": "Direct download failed; full published PDF readable through web tool.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    }
+  ],
+  "independent_corroboration": {
+    "source": "HF18 §5",
+    "assessment": "Authors disjoint from LSZ08 explicitly retain the r>4 conjecture. This is an independently authored scholarly assessment, not an independent review of this catalogue draft.",
+    "currency": "2018 status source, checked against later HLS19 and RW21 results, current author/arXiv/publisher records and unrestricted and 2025–2026 resolution searches.",
+    "limitation": "The original and corroborating sources are not recent surveys; present status is qualified by the actual searches, not guaranteed."
+  },
+  "resolution_scope_comparisons": [
+    {
+      "source": "LSZ08 pp.649–652; FT09 Theorem 1",
+      "proposed_scope": "Equal root-to-leaf lengths, all leaves versus a single leaf.",
+      "result_scope": "Nearest-leaf counterexamples use unequal root-to-leaf distances. Subset counterexamples compare more than one retained leaf.",
+      "assessment": "Neither contradicts the displayed clock/single-leaf inequality."
+    },
+    {
+      "source": "FT09 Theorem 2; HF18 Theorems 1–2",
+      "proposed_scope": "Every integer r>=5.",
+      "result_scope": "Two, four and three states, respectively.",
+      "assessment": "Solved cases explicitly omitted; no alphabet-size splitting into extra entries."
+    },
+    {
+      "source": "HLS19 Theorem 5 and Corollary 3",
+      "proposed_scope": "Accuracy at least q_r(H).",
+      "result_scope": "All-state Fitch-set inequalities imply accuracy at least 1/r.",
+      "assessment": "q_r(H)>1/r for finite H; the theorem does not provide the required stronger benchmark."
+    },
+    {
+      "source": "HLS19 Theorem 2, Theorem 4 and Conjecture 1",
+      "proposed_scope": "Clock-tree Fitch accuracy versus common leaf accuracy.",
+      "result_scope": "Coin-toss accuracy equals the leaf benchmark in clock trees for all r. Fitch dominates coin toss as a theorem only for r=2; general r is conjectural.",
+      "assessment": "The conjectural all-tree comparison would imply this entry, but is not a proved resolution; no separate count."
+    },
+    {
+      "source": "HLS19 Theorem 6",
+      "proposed_scope": "Unconditional expectation over all model-generated characters.",
+      "result_scope": "Exact root recovery conditional on a deterministic weighted substitution-spectrum bound.",
+      "assessment": "The event hypothesis is not automatic; this does not give the unconditional bound."
+    },
+    {
+      "source": "RW21 Theorems 1.2 and 1.5; ZSYL10 Theorem 5.1",
+      "proposed_scope": "Finite arbitrary clock trees and r>=5, benchmark q_r(H).",
+      "result_scope": "Two-state model only. RW21 imposes a weighted branching condition to beat 1/2 uniformly over finite cutsets of an infinite tree; ZSYL10 strengthens the finite two-state bound.",
+      "assessment": "Wrong alphabet range; RW21 also changes benchmark and limit regime."
+    },
+    {
+      "source": "HF17 §2.1 Observation 1 and Example 1",
+      "proposed_scope": "Probability of correctly estimating a random ancestral state.",
+      "result_scope": "Minimum number of leaves bearing a designated color needed for a prescribed Fitch root set on a completely balanced tree.",
+      "assessment": "Odd-state counterexample disproves a different combinatorial recurrence. It is not a stochastic-accuracy counterexample."
+    },
+    {
+      "source": "F25 Theorems 3–4 and Table 1",
+      "proposed_scope": "Known rooted topology, random single character, r>=5.",
+      "result_scope": "Binary alignments comprising all characters of specified parsimony score; compare unrooted topologies in an NNI neighborhood.",
+      "assessment": "Both the positive result and counterexamples address reconstruction of topology, not this estimator's root-state accuracy."
+    },
+    {
+      "source": "R12 §4.4",
+      "proposed_scope": "Probabilities realizable by actual clock trees.",
+      "result_scope": "Negative formal polynomial values without a realizing tree; only certain small-tree cases proved.",
+      "assessment": "The author explicitly does not claim a counterexample. The affected r=3,4 cases are subsequently proved by HF18."
+    },
+    {
+      "source": "YLDG11 Results and Discussion",
+      "proposed_scope": "All finite clock trees and their finite-height leaf accuracy.",
+      "result_scope": "Equal-edge comb examples are non-clock. Hennigian combs and balanced-tree analyses address special families and limiting/numerical behavior.",
+      "assessment": "Convergence to 1/r as height grows does not contradict a finite-H bound whose right-hand side also tends to 1/r. No matching finite-tree counterexample or all-tree theorem is provided."
+    },
+    {
+      "source": "GS14 Theorems 2–3, Proposition 4, Theorem 6",
+      "proposed_scope": "Fitch root-state probability versus one leaf for every finite clock tree.",
+      "result_scope": "Theorem 2 compares root and internal nodes; Theorem 3/Proposition 4 compare methods in a two-state model; Theorem 6 averages over growing Yule trees and contrasts root and random internal nodes.",
+      "assessment": "Different observables, model restrictions or asymptotic/averaging quantifiers; no all-r finite-tree single-leaf resolution."
+    }
+  ],
+  "duplicate_review": {
+    "checked_on": "2026-09-18",
+    "active_pages": 330,
+    "pending_accepted": 8,
+    "method": "Inventory of all active titles and models from the established baseline; current rg search for Fitch, ancestral-state, phylogenetic, ultrametric, molecular-clock, parsimony and Neyman terminology across active pages, metadata, drafts and candidate records. Nearest full statements reread.",
+    "nearest": [
+      {
+        "entry": "329-selected-brownian-population-genealogy",
+        "difference": "Random selected-population ancestry and rescaled partition-process convergence, not estimating a finite-state root on a fixed known tree."
+      },
+      {
+        "entry": "polynomial-trace-reconstruction (pending)",
+        "difference": "Worst-case exact string recovery from repeated deletion-channel samples, not one tree-indexed character and a prescribed estimator."
+      },
+      {
+        "entry": "305-gaussian-simplex",
+        "difference": "Optimizing balanced measurable Gaussian partitions under correlated noise, not the accuracy of a fixed Fitch recursion under a finite-state tree process."
+      }
+    ],
+    "canonical_family": "One conjecture across all r>4. Stronger non-clock coin-toss comparison and individual protein/codon alphabet cases are not separate additions.",
+    "result": "No equivalent active or accepted-pending statement located."
+  },
+  "search_review": {
+    "search_ids": [
+      "S279-1",
+      "S279-2",
+      "S279-3",
+      "S279-4",
+      "S280-1",
+      "S280-2",
+      "S280-3",
+      "S280-4",
+      "S281-1",
+      "S281-2",
+      "S281-3",
+      "S281-4",
+      "S282-1",
+      "S282-2",
+      "S282-3",
+      "S282-4",
+      "S283-1",
+      "S283-2",
+      "S283-3",
+      "S283-4",
+      "S284-1",
+      "S284-2",
+      "S284-3",
+      "S284-4",
+      "S285-1",
+      "S285-2",
+      "S285-3",
+      "S285-4",
+      "S286-1",
+      "S286-2",
+      "S286-3",
+      "S286-4",
+      "S287-1",
+      "S287-2",
+      "S287-3",
+      "S287-4"
+    ],
+    "date": "2026-09-18",
+    "routes": [
+      "Web search",
+      "Primary arXiv records and PDFs",
+      "Publisher full text and metadata",
+      "Fischer institutional publication list",
+      "Author-hosted published PDFs"
+    ],
+    "version_checks": "LSZ08, HF18 and HLS19 records each expose v1 only. RW21 latest v2; F25 latest v5. No relevant withdrawal or erratum notice located in the checked records/searches.",
+    "author_page": "https://math-inf.uni-greifswald.de/institut/ueber-uns/mitarbeitende/fischer/",
+    "author_page_limit": "The institutional publication list stops at 2023; it was used for bibliographic corroboration, not treated as a complete 2026 list.",
+    "outcome": "No matching resolution claim located. Recurring results were scoped above; unrelated empirical/software and AI-summary search returns were not primary status evidence."
+  },
+  "supplementary_discovery": [
+    {
+      "title": "Ancestral state reconstruction with large numbers of sequences and edge-length estimation",
+      "authors": [
+        "Lam Si Tung Ho",
+        "Edward Susko"
+      ],
+      "url": "https://arxiv.org/abs/2104.00151",
+      "doi": "10.1007/s00285-022-01715-5",
+      "access": "Primary abstract and version record only.",
+      "assessment": "Abstract explicitly concerns likelihood/empirical-Bayes consistency on star trees; not used as a theorem-level resolution comparison or status evidence."
+    }
+  ],
+  "publication_state": "Accepted draft; catalogue ID and batch integration pending.",
+  "quality_checks": {
+    "strict_katex_expressions": 31,
+    "render": "Full local HTML rendered with headless Chrome; PNG visually inspected 2026-09-18. No clipped or malformed equations.",
+    "external_links": "Nine bibliography URLs checked with GET: eight successful; original-paper DOI returned 403, while its linked published-PDF mirror succeeded. HLS19 published PDF succeeded in this check despite an earlier failed direct download.",
+    "structural_validation": "PASS: catalogue.py --write and --check (330 entries), git diff --check, required draft headings, every relative draft link, 44/39/9 candidate counts, section totals and 1281 unique actual searches. Active catalogue files unchanged.",
+    "review_limit": "Automated and self-review checks do not certify proofs or exhaustive open status.",
+    "external_link_results": [
+      {
+        "url": "https://arxiv.org/abs/1706.06085",
+        "status": 200,
+        "redirect_host": "arxiv.org"
+      },
+      {
+        "url": "https://arxiv.org/pdf/0809.3653v2",
+        "status": 200,
+        "redirect_host": "arxiv.org"
+      },
+      {
+        "url": "https://doi.org/10.1007/s11538-018-0407-5",
+        "status": 200,
+        "redirect_host": "link.springer.com"
+      },
+      {
+        "url": "https://doi.org/10.1016/j.jtbi.2009.06.010",
+        "status": 200,
+        "redirect_host": "linkinghub.elsevier.com"
+      },
+      {
+        "url": "https://doi.org/10.1080/10635150802203898",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://doi.org/10.1214/21-ECP423",
+        "status": 200,
+        "redirect_host": "projecteuclid.org"
+      },
+      {
+        "url": "https://par.nsf.gov/servlets/purl/10342268",
+        "status": 200,
+        "redirect_host": "par.nsf.gov"
+      },
+      {
+        "url": "https://www.math.canterbury.ac.nz/~m.steel/Non_UC/files/research/lina.pdf",
+        "status": 200,
+        "redirect_host": "www.math.canterbury.ac.nz"
+      },
+      {
+        "url": "https://www2.gwu.edu/~clade/bisc%20207/LiEtAl2008.pdf",
+        "status": 200,
+        "redirect_host": "www2.gwu.edu"
+      }
+    ]
+  },
+  "public_status": "Open in cited literature; no later resolution located as of 2026-09-18."
+}

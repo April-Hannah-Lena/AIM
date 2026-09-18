@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 38,
+  "new_accepted": 39,
   "active_total": 330,
-  "candidates_investigated": 43,
+  "candidates_investigated": 44,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 162,
-  "remaining_to_target": 212,
+  "remaining_to_minimum": 161,
+  "remaining_to_target": 211,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -160,13 +160,14 @@
       "purpose": "Record reviewed Aaronson–Ambainis influence draft; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit b4106af4399b66c4e70bf21a3dffcfa4f40e71f9 includes eight accepted pending drafts and was independently verified September 18, 2026. The accepted total is 38; two more drafts are needed for the next ten-entry batch, followed by a status and upstream-duplicate refresh. No PR required.",
+  "remote_state": "All thirty active additions through entry 330 are published directly on main. Eight earlier accepted pending drafts are already in the remote research records. The newly accepted Fitch draft and its evidence are prepared locally for a direct research-checkpoint push; nine drafts await catalogue integration. One more is needed for the next ten-entry batch, followed by a status and upstream-duplicate refresh. No PR required.",
   "next_actions": [
     "Continue discovery toward at least 200 new problems, deliberately broadening biology, statistics, control and operations research.",
-    "Accumulate the next reviewable batch; eight drafts are accepted: rendezvous, trace reconstruction, generalized Wright attraction, strong thin trees, chemotaxis-consumption continuation, strong prefix discrepancy, classical uniform DNF learning and Aaronson–Ambainis influence. Two more are needed for a ten-entry batch. Refresh status and upstream duplicates before integration.",
+    "Accumulate the next reviewable batch; nine drafts are accepted: rendezvous, trace reconstruction, generalized Wright attraction, strong thin trees, chemotaxis-consumption continuation, strong prefix discrepancy, classical uniform DNF learning, Aaronson–Ambainis influence and Fitch molecular-clock ancestral accuracy. One more is needed for a ten-entry batch. Refresh status and upstream duplicates before integration.",
     "CFN sunlet projective quadratic-generation lead needs independent corroboration and saturation-scope review.",
     "Keep matching unresolved claims outside new additions; separately follow up historical entries 031, 032 and 286.",
-    "Broaden discovery in biology, statistics, control and operations research; retain private-learning and CFN sunlet leads outside the count until their formulation and corroboration gates pass."
+    "Broaden discovery in biology, statistics, control and operations research; retain private-learning and CFN sunlet leads outside the count until their formulation and corroboration gates pass.",
+    "Phylogenetic character-threshold and strong cane-toad spreading leads have full formulations but still need independent corroboration. General strongly polynomial LP has matching proof claims; do not admit it as open without adjudication."
   ],
   "coverage": {
     "inverse3": 5,
@@ -176,7 +177,7 @@
     "inverse2": 2,
     "operators": 5,
     "inverse": 3,
-    "stochastic2": 3,
+    "stochastic2": 4,
     "spectral": 1,
     "spectral3": 2,
     "continuum3": 2,
@@ -184,11 +185,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 30,
-  "count_semantics": "Thirty additions are integrated and published directly on main. Eight accepted research drafts await batch 4; active total 330. Five held records excluded.",
+  "count_semantics": "Thirty additions are integrated and published directly on main. Nine accepted research drafts await batch 4; active total 330. Five held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 30,
-  "coverage_semantics": "Accepted additions by primary section; thirty integrated and eight pending research drafts.",
+  "coverage_semantics": "Accepted additions by primary section; thirty integrated and nine pending research drafts.",
   "remaining_integrations_to_minimum": 170,
   "remaining_integrations_to_target": 220,
-  "pending_accepted": 8
+  "pending_accepted": 9
 }

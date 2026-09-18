@@ -9813,5 +9813,485 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Cane-toad and character-threshold source/status discovery"
+  },
+  {
+    "search_id": "S274-1",
+    "query": "\"Defining a Phylogenetic Tree with the Minimum Number\" Bordewich Semple",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Full-source discovery for phylogenetic and invasion-front targets"
+  },
+  {
+    "search_id": "S274-2",
+    "query": "\"phylogenetic\" \"threshold\" \"3r\" characters conjecture",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Full-source discovery for phylogenetic and invasion-front targets"
+  },
+  {
+    "search_id": "S274-3",
+    "query": "\"Semple Steel\" \"threshold\" \"2026\" proof",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Full-source discovery for phylogenetic and invasion-front targets"
+  },
+  {
+    "search_id": "S274-4",
+    "query": "\"Non-local competition slows down\" strong spreading open",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Full-source discovery for phylogenetic and invasion-front targets"
+  },
+  {
+    "search_id": "S275-1",
+    "query": "\"phylogenetic\" \"n_r\" \"characters\" conjecture",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Independent specialist corroboration for two biology leads"
+  },
+  {
+    "search_id": "S275-2",
+    "query": "\"phylogenetic\" \"characters\" \"3r+1\" -site:arxiv.org",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Independent specialist corroboration for two biology leads"
+  },
+  {
+    "search_id": "S275-3",
+    "query": "\"minimum\" \"r-state characters\" \"open\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Independent specialist corroboration for two biology leads"
+  },
+  {
+    "search_id": "S275-4",
+    "query": "\"cane toads\" \"level\" \"open\" \"strong\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Independent specialist corroboration for two biology leads"
+  },
+  {
+    "search_id": "S276-1",
+    "query": "\"cane toads\" \"strong spreading\" -site:researchgate.net",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Independent and recent status of the strong nonlocal spreading law"
+  },
+  {
+    "search_id": "S276-2",
+    "query": "\"cane toads\" \"level sets\" \"open\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Independent and recent status of the strong nonlocal spreading law"
+  },
+  {
+    "search_id": "S276-3",
+    "query": "\"cane toads\" \"weak sense\" 2025 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Independent and recent status of the strong nonlocal spreading law"
+  },
+  {
+    "search_id": "S276-4",
+    "query": "\"cane toads\" \"oscillatory\" -site:researchgate.net",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Independent and recent status of the strong nonlocal spreading law"
+  },
+  {
+    "search_id": "S277-1",
+    "query": "\"strongly polynomial\" \"linear programming\" \"2026\" solved",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "General linear-optimization discovery and resolution screening"
+  },
+  {
+    "search_id": "S277-2",
+    "query": "\"strongly polynomial\" \"linear programming\" open problem 2025 survey",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "General linear-optimization discovery and resolution screening"
+  },
+  {
+    "search_id": "S277-3",
+    "query": "\"Smale\" \"ninth problem\" proof algorithm",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "General linear-optimization discovery and resolution screening"
+  },
+  {
+    "search_id": "S277-4",
+    "query": "\"linear programming\" \"substitution method\" strongly polynomial",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "General linear-optimization discovery and resolution screening"
+  },
+  {
+    "search_id": "S278-1",
+    "query": "\"strongly polynomial\" \"linear programming\" \"2026\" \"open problem\" -site:proofatlas.ai -site:ordos-problems.github.io -site:emergentmind.com",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "General LP claim scope and independent status screening"
+  },
+  {
+    "search_id": "S278-2",
+    "query": "\"Truffet\" \"2604.06726\" correction counterexample",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "General LP claim scope and independent status screening"
+  },
+  {
+    "search_id": "S278-3",
+    "query": "\"strongly polynomial linear programming\" proof counterexample refutation",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "General LP claim scope and independent status screening"
+  },
+  {
+    "search_id": "S278-4",
+    "query": "\"strongly polynomial\" \"linear programming\" Dadush 2025 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "General LP claim scope and independent status screening"
+  },
+  {
+    "search_id": "S279-1",
+    "query": "\"maximum parsimony\" \"reconstruction accuracy\" conjecture 2025 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Root-state inference discovery from the phylogenetic citation chain"
+  },
+  {
+    "search_id": "S279-2",
+    "query": "\"reconstruction accuracy\" \"ultrametric\" \"conjecture\" proof",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Root-state inference discovery from the phylogenetic citation chain"
+  },
+  {
+    "search_id": "S279-3",
+    "query": "\"phylogenetic\" \"parsimony\" \"four-state\" conjecture",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Root-state inference discovery from the phylogenetic citation chain"
+  },
+  {
+    "search_id": "S279-4",
+    "query": "\"root\" \"parsimony\" \"single leaf\" \"open\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Root-state inference discovery from the phylogenetic citation chain"
+  },
+  {
+    "search_id": "S280-1",
+    "query": "\"Fitch\" \"conjecture\" \"r-state\" reconstruction",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Disqualifying the all-state ancestral-inference lead"
+  },
+  {
+    "search_id": "S280-2",
+    "query": "\"ancestral reconstruction\" \"ultrametric\" \"2026\" \"parsimony\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Disqualifying the all-state ancestral-inference lead"
+  },
+  {
+    "search_id": "S280-3",
+    "query": "\"maximum parsimony\" \"reconstruction accuracy\" \"five\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Disqualifying the all-state ancestral-inference lead"
+  },
+  {
+    "search_id": "S280-4",
+    "query": "\"Li Steel Zhang\" conjecture solved general states",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Disqualifying the all-state ancestral-inference lead"
+  },
+  {
+    "search_id": "S281-1",
+    "query": "\"Fitch\" \"ultrametric\" \"r-state\" \"open\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "All-state Fitch status, original source and later authors"
+  },
+  {
+    "search_id": "S281-2",
+    "query": "\"parsimony\" \"reconstruction accuracy\" \"conjecture\" \"2019\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "All-state Fitch status, original source and later authors"
+  },
+  {
+    "search_id": "S281-3",
+    "query": "\"parsimony\" \"reconstruction accuracy\" \"conjecture\" \"2024\" \"2025\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "All-state Fitch status, original source and later authors"
+  },
+  {
+    "search_id": "S281-4",
+    "query": "\"Li\" \"Steel\" \"Zhang\" \"More taxa\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "All-state Fitch status, original source and later authors"
+  },
+  {
+    "search_id": "S282-1",
+    "query": "\"Quantifying the accuracy of ancestral state prediction\" parsimony",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Later Fitch accuracy work and unresolved all-alphabet scope"
+  },
+  {
+    "search_id": "S282-2",
+    "query": "\"Fitch\" \"Li\" \"conjecture\" \"2020\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Later Fitch accuracy work and unresolved all-alphabet scope"
+  },
+  {
+    "search_id": "S282-3",
+    "query": "\"ancestral state\" \"parsimony\" \"r\" \"5\" conjecture",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Later Fitch accuracy work and unresolved all-alphabet scope"
+  },
+  {
+    "search_id": "S282-4",
+    "query": "\"ancestral state\" \"parsimony\" \"conjecture\" \"2026\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Later Fitch accuracy work and unresolved all-alphabet scope"
+  },
+  {
+    "search_id": "S283-1",
+    "query": "\"On the accuracy of ancestral sequence reconstruction for ultrametric trees with parsimony\" journal",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch conjecture status and publication/version verification"
+  },
+  {
+    "search_id": "S283-2",
+    "query": "\"Herbst\" \"Li\" \"Steel\" \"conjecture\" parsimony",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch conjecture status and publication/version verification"
+  },
+  {
+    "search_id": "S283-3",
+    "query": "\"Li Steel Zhang\" conjecture counterexample refutation proof",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch conjecture status and publication/version verification"
+  },
+  {
+    "search_id": "S283-4",
+    "query": "\"Fitch\" \"reconstruction accuracy\" \"2025\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch conjecture status and publication/version verification"
+  },
+  {
+    "search_id": "S284-1",
+    "query": "\"Fitch\" \"ultrametric\" conjecture proof solved counterexample",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch accuracy exact mathematics, resolution and correction searches"
+  },
+  {
+    "search_id": "S284-2",
+    "query": "\"Herbst Fischer\" parsimony \"r > 4\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch accuracy exact mathematics, resolution and correction searches"
+  },
+  {
+    "search_id": "S284-3",
+    "query": "\"ancestral\" \"reconstruction accuracy\" \"2024\" \"2026\" conjecture",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch accuracy exact mathematics, resolution and correction searches"
+  },
+  {
+    "search_id": "S284-4",
+    "query": "\"Li Steel Zhang\" conjecture correction erratum",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch accuracy exact mathematics, resolution and correction searches"
+  },
+  {
+    "search_id": "S285-1",
+    "query": "\"Sufficient condition for root reconstruction by parsimony\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch later-results, model aliases and author-page discovery"
+  },
+  {
+    "search_id": "S285-2",
+    "query": "\"Fitch\" \"accuracy\" \"Neyman\" conjecture",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch later-results, model aliases and author-page discovery"
+  },
+  {
+    "search_id": "S285-3",
+    "query": "\"Mareike Fischer\" publications parsimony accuracy",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch later-results, model aliases and author-page discovery"
+  },
+  {
+    "search_id": "S285-4",
+    "query": "\"ultrametric\" \"parsimony\" \"conjecture\" \"2025\" \"2026\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch later-results, model aliases and author-page discovery"
+  },
+  {
+    "search_id": "S286-1",
+    "query": "\"ultrametric\" \"parsimony\" \"r\" \"conjecture\" proof solved",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch current-status and disqualification search"
+  },
+  {
+    "search_id": "S286-2",
+    "query": "\"Li Steel Zhang\" \"conjecture\" counterexample disproof refutation",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch current-status and disqualification search"
+  },
+  {
+    "search_id": "S286-3",
+    "query": "\"ancestral reconstruction\" \"Fitch\" \"2026\" \"2025\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch current-status and disqualification search"
+  },
+  {
+    "search_id": "S286-4",
+    "query": "\"accuracy\" \"parsimony\" \"Herbst\" correction erratum withdrawn",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch current-status and disqualification search"
+  },
+  {
+    "search_id": "S287-1",
+    "query": "\"Ancestral state reconstruction with large numbers of sequences and edge-length estimation\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch indirect-resolution and larger-state review"
+  },
+  {
+    "search_id": "S287-2",
+    "query": "\"TKF91\" \"ancestral\" \"2024\" reconstruction",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch indirect-resolution and larger-state review"
+  },
+  {
+    "search_id": "S287-3",
+    "query": "\"parsimony\" \"coin-toss\" conjecture proof 2025 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch indirect-resolution and larger-state review"
+  },
+  {
+    "search_id": "S287-4",
+    "query": "\"ultrametric\" \"reconstruction accuracy\" \"r>4\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fitch indirect-resolution and larger-state review"
+  },
+  {
+    "search_id": "A40-1",
+    "query": "\"Fitch\" \"ultrametric\" \"accuracy\" \"disproof\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after Fitch draft creation"
+  },
+  {
+    "search_id": "A40-2",
+    "query": "\"Li\" \"Steel\" \"Zhang\" conjecture parsimony resolved r-state",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after Fitch draft creation"
+  },
+  {
+    "search_id": "A40-3",
+    "query": "\"Neyman\" \"parsimony\" \"accuracy\" counterexample 2025 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after Fitch draft creation"
+  },
+  {
+    "search_id": "A40-4",
+    "query": "\"Herbst\" \"Fischer\" \"ultrametric\" proof gap correction",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after Fitch draft creation"
   }
 ]
