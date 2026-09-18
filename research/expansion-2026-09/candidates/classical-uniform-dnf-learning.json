@@ -831,10 +831,12 @@
     }
   ],
   "remote_publication": {
-    "state": "integrated_local_push_pending",
+    "state": "published_direct_to_main",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null,
+    "commit": "12ec3dcab61711bcf85b4ffab16eb38254d004e2",
+    "verified_on": "2026-09-18",
+    "verification": "Normal fast-forward push succeeded; independent git ls-remote --heads origin main matched content commit.",
     "pull_request_url": null
   },
   "proposed_statement_text": "For positive integers $n,s$, let $\\mathcal D_{n,s}$ be the Boolean functions on $\\{0,1\\}^n$ representable as a disjunction of at most $s$ terms. Each term is a conjunction of literals, and a literal is either a coordinate $x_j$ or its negation $1-x_j$. Term lengths, overlaps and signs are unrestricted.\n\nDoes there exist a classical randomized algorithm $A$ and a polynomial $p$ with the following property? For every $n,s$, every unknown $f\\in\\mathcal D_{n,s}$, and every $\\varepsilon,\\delta\\in(0,1/2)$, the algorithm is given $n,s,\\varepsilon,\\delta$ and access only to independent labeled examples\n$$\n(X,f(X)),\\qquad X\\sim\\operatorname{Unif}(\\{0,1\\}^n).\n$$\nWithin time at most\n$$\np\\!\\left(n,s,\\varepsilon^{-1},\\log(1/\\delta)\\right),\n$$\nit outputs a description of a Boolean function $h:\\{0,1\\}^n\\to\\{0,1\\}$ satisfying\n$$\n\\Pr_{\\text{training examples and algorithm}}\\!\n\\left[\n\\Pr_{X\\sim\\operatorname{Unif}(\\{0,1\\}^n)}\n\\{h(X)\\ne f(X)\\}\\le\\varepsilon\n\\right]\\ge1-\\delta?\n$$\n\nThe inner probability uses a fresh input. Reading examples and all preprocessing count toward the runtime; evaluating the resulting hypothesis on any input must also take polynomial time in the same parameters. The algorithm receives a size bound, not a formula for $f$. It may output a hypothesis outside the DNF class. Neither chosen label queries nor quantum examples are available. This is the noiseless, examples-only uniform-distribution PAC-learning question. [1–3]",
@@ -882,7 +884,7 @@
     "independently_verified_on": "2026-09-18",
     "verification": "git ls-remote --heads origin main matched acfc09e before the following research push."
   },
-  "publication_state": "Accepted and integrated locally in batch 4; direct push pending.",
+  "publication_state": "Accepted, integrated and published directly to main in batch 4.",
   "batch_integration_validation": {
     "checked_on": "2026-09-18",
     "catalogue": "PASS: --write and --check, 340 active entries",

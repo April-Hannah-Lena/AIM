@@ -162,11 +162,14 @@
     {
       "commit": "9fe8c0b204ef323ca6bbf11c9366c9cbdfb68393",
       "purpose": "Record reviewed molecular-clock ancestral accuracy draft and discovery audits; pushed directly to main and independently verified September 18, 2026."
+    },
+    {
+      "commit": "12ec3dcab61711bcf85b4ffab16eb38254d004e2",
+      "purpose": "Integrate entries 331–340 with source audits and batch validation; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "Remote main remains a2d4fa66a66d0113e91214ce00006084d04d118c. Batch 4 (331–340) is integrated and validated locally after September 18 status/upstream refresh; direct publication pending.",
+  "remote_state": "Batch 4 (331–340) published directly to main at 12ec3dcab61711bcf85b4ffab16eb38254d004e2. Normal fast-forward push succeeded and independent ls-remote verification matched on September 18, 2026. All forty accepted additions are published; the full expansion goal remains incomplete.",
   "next_actions": [
-    "Push validated batch 4 directly to main, verify the remote ref and record publication.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the five held candidates and discovery-only leads outside the active count; preserve original identifiers and historical dates.",
     "CFN sunlet projective quadratic generation needs independent corroboration and saturation-scope review; private-learning leads still need complete formulation and corroboration.",
@@ -189,9 +192,9 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 40,
-  "count_semantics": "Forty accepted additions are integrated locally; thirty are published on main and batch 4 (331–340) awaits direct push. Active local total 340. Five held records excluded.",
+  "count_semantics": "Forty accepted additions are integrated and published on main. Active catalogue total 340. Five held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
-  "new_published": 30,
+  "new_published": 40,
   "coverage_semantics": "Accepted additions by primary section; forty integrated, no pending accepted drafts.",
   "remaining_integrations_to_minimum": 160,
   "remaining_integrations_to_target": 210,

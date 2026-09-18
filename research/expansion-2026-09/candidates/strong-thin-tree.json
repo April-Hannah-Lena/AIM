@@ -393,10 +393,12 @@
   "actual_status_check_date": "2026-09-18",
   "statement_source_and_scope_match": "Klein–Olver–Yeoh (ICALP 2026), §1 and §2.1, with independent Anari–Oveis Gharan (2015), §1 Definition 1.1 and discussion after Conjecture 1.3. Their strong form fixes a universal numerator; the ICALP introduction's 'some constant k' is a typographical slip, resolved by its abstract and independent explicit strong formulation.",
   "remote_publication": {
-    "state": "integrated_local_push_pending",
+    "state": "published_direct_to_main",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null,
+    "commit": "12ec3dcab61711bcf85b4ffab16eb38254d004e2",
+    "verified_on": "2026-09-18",
+    "verification": "Normal fast-forward push succeeded; independent git ls-remote --heads origin main matched content commit.",
     "pull_request_url": null
   },
   "research_publication": {
@@ -690,7 +692,7 @@
       }
     ]
   },
-  "publication_state": "Accepted and integrated locally in batch 4; direct push pending.",
+  "publication_state": "Accepted, integrated and published directly to main in batch 4.",
   "batch_integration_validation": {
     "checked_on": "2026-09-18",
     "catalogue": "PASS: --write and --check, 340 active entries",

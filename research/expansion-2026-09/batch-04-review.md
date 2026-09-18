@@ -4,7 +4,7 @@ Target: private MColbrook/AIM, upstream a2d4fa66a66d0113e91214ce00006084d04d118c
 
 ## Admission and refresh
 
-Ten accepted additions are integrated locally as 331–340. All have an explicit source formulation, independently authored specialist corroboration, comparisons with possible resolutions, duplicate screening and a separated adversarial self-pass. No independent agent or human review is claimed.
+Ten accepted additions are integrated and published on main as 331–340. All have an explicit source formulation, independently authored specialist corroboration, comparisons with possible resolutions, duplicate screening and a separated adversarial self-pass. No independent agent or human review is claimed.
 
 | ID | Topic | Primary section |
 | --- | --- | --- |
@@ -39,10 +39,10 @@ SSH fetch found HEAD equal to origin/main at the commit above. Connected GitHub 
 
 ## Publication
 
-Validation passed. Integrated locally; direct publication is the remaining batch step.
+Validation passed. Content commit [12ec3dc](https://github.com/MColbrook/AIM/commit/12ec3dcab61711bcf85b4ffab16eb38254d004e2) was pushed directly to main on September 18, 2026. The normal fast-forward push succeeded, and an independent `git ls-remote --heads origin main` returned the exact content commit. All forty accepted additions are now published. No PR was opened.
 
 ## Counts and limits
 
-Forty accepted and locally integrated additions; 340 local active entries; 45 formal candidate records and five holds. Thirty additions are already published. The minimum requires 160 more additions; the working target requires 210. All twelve primary sections have additions and no further numerical linear algebra is included.
+Forty accepted, integrated and published additions; 340 active entries; 45 formal candidate records and five holds. The minimum requires 160 more additions; the working target requires 210. All twelve primary sections have additions and no further numerical linear algebra is included.
 
 The original 300 historical review dates are preserved. Literature searches and structural checks do not certify mathematical truth or exhaustive absence of later resolutions.
