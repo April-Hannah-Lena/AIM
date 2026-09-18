@@ -244,3 +244,5 @@ A42 found an additional September 17 primary paper. Its broader modular-extensio
 The four Gaussian-product queries in S298–S299 remain discovery only. A partial-result source and an unsupported online proof discussion were surfaced, but no complete source/status investigation was performed; neither openness nor resolution is asserted, and no candidate count is assigned.
 
 Counts: 46 formal records, 41 accepted, five held, 40 integrated and published, one pending accepted draft, 340 active catalogue entries and 1,365 unique actual searches. There are 159 further acceptances and 160 further integrations to the minimum. Nine more accepted drafts are needed for the next ten-entry batch. Next discovery should return to biology, statistics, information or control, while maintaining all twelve sections.
+
+Research publication receipt: [bdcecb7](https://github.com/MColbrook/AIM/commit/bdcecb7dad63b280bdb2f0d91f9f1842d07c3f3b) was pushed directly to main on September 18, 2026. An independent remote-ref read matched the full commit. This saves the accepted draft and evidence; active membership remains 340 and the published-problem count remains 40.

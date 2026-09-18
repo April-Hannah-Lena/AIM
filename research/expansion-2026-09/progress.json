@@ -166,9 +166,13 @@
     {
       "commit": "12ec3dcab61711bcf85b4ffab16eb38254d004e2",
       "purpose": "Integrate entries 331–340 with source audits and batch validation; pushed directly to main and independently verified September 18, 2026."
+    },
+    {
+      "commit": "bdcecb7dad63b280bdb2f0d91f9f1842d07c3f3b",
+      "purpose": "Record reviewed sharp matroid secretary draft and evidence; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "Batch 4 (331–340) published directly to main at 12ec3dcab61711bcf85b4ffab16eb38254d004e2. Normal fast-forward push succeeded and independent ls-remote verification matched on September 18, 2026. All forty accepted additions are published; the full expansion goal remains incomplete.",
+  "remote_state": "Forty catalogue additions (301–340) are published directly on main. The forty-first accepted problem is a research draft, published at bdcecb7dad63b280bdb2f0d91f9f1842d07c3f3b and independently verified by ls-remote on September 18, 2026. It awaits batch integration; active catalogue total remains 340.",
   "next_actions": [
     "Prepare nine more reviewed drafts for the next ten-entry batch; refresh all batch statuses and upstream duplicates before allocating IDs. The sharp matroid secretary draft is accepted without an active ID.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
