@@ -154,9 +154,13 @@
     {
       "commit": "acfc09e5f5ff35f5dab62ae8c8de8af83c0c7d6b",
       "purpose": "Record reviewed uniform DNF-learning draft; pushed directly to main and independently reverified September 18, 2026."
+    },
+    {
+      "commit": "b4106af4399b66c4e70bf21a3dffcfa4f40e71f9",
+      "purpose": "Record reviewed Aaronson–Ambainis influence draft; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit acfc09e5f5ff35f5dab62ae8c8de8af83c0c7d6b includes seven accepted pending drafts and was independently reverified September 18, 2026. An eighth accepted draft, Aaronson–Ambainis influence, is prepared for the next direct research push. No PR required.",
+  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit b4106af4399b66c4e70bf21a3dffcfa4f40e71f9 includes eight accepted pending drafts and was independently verified September 18, 2026. The accepted total is 38; two more drafts are needed for the next ten-entry batch, followed by a status and upstream-duplicate refresh. No PR required.",
   "next_actions": [
     "Continue discovery toward at least 200 new problems, deliberately broadening biology, statistics, control and operations research.",
     "Accumulate the next reviewable batch; eight drafts are accepted: rendezvous, trace reconstruction, generalized Wright attraction, strong thin trees, chemotaxis-consumption continuation, strong prefix discrepancy, classical uniform DNF learning and Aaronson–Ambainis influence. Two more are needed for a ten-entry batch. Refresh status and upstream duplicates before integration.",

@@ -652,9 +652,11 @@
     "note": "Research checkpoint only; no active ID. Status and upstream duplicates must be refreshed immediately before catalogue integration."
   },
   "research_publication": {
-    "state": "local_pending_push",
+    "state": "published",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null
+    "commit": "b4106af4399b66c4e70bf21a3dffcfa4f40e71f9",
+    "independently_verified_on": "2026-09-18",
+    "verification": "Successful direct push followed by a separate git ls-remote --heads origin main matching this commit."
   }
 }
