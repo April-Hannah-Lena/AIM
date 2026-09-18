@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 47,
+  "new_accepted": 48,
   "active_total": 340,
-  "candidates_investigated": 52,
+  "candidates_investigated": 53,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 153,
-  "remaining_to_target": 203,
+  "remaining_to_minimum": 152,
+  "remaining_to_target": 202,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -194,11 +194,15 @@
     {
       "commit": "66617e03315b6184d0ec802ff7132d9cbf5bccc1",
       "purpose": "Record reviewed binary broadcast capacity draft and evidence; pushed directly to main and independently verified September 18, 2026."
+    },
+    {
+      "commit": "4f9a1c7ed781f672169df9417bbf64fc35f81df2",
+      "purpose": "Record continuous-time control discovery and scope audit; pushed directly to main and independently reverified September 18, 2026."
     }
   ],
-  "remote_state": "Forty catalogue additions (301–340) and all seven pending accepted research drafts are published directly on main. The binary skew-symmetric broadcast checkpoint 66617e03315b6184d0ec802ff7132d9cbf5bccc1 was pushed and verified through a separate remote-ref read on September 18, 2026. Seven accepted drafts await batch integration; active total remains 340.",
+  "remote_state": "Forty catalogue additions (301–340) and seven pending accepted research drafts are published directly on main. Fetched main equals local HEAD 4f9a1c7ed781f672169df9417bbf64fc35f81df2 on September 18, 2026. The eighth accepted draft, Reed colouring, passed review locally and awaits this checkpoint push. Active total remains 340.",
   "next_actions": [
-    "Prepare three more reviewed drafts for the next ten-entry batch; refresh statuses and upstream duplicates before allocating IDs. Seven accepted drafts await integration: sharp matroid secretary, binary-code rate, arbitrary-switching stability, list edge-colouring, chemostat exclusion, Tuza triangle packing–covering and binary skew-symmetric broadcast capacity.",
+    "Prepare two more reviewed drafts for the next ten-entry batch; refresh statuses and upstream duplicates before allocating IDs. Eight accepted drafts await integration: sharp matroid secretary, binary-code rate, arbitrary-switching stability, list edge-colouring, chemostat exclusion, Tuza triangle packing–covering, binary skew-symmetric broadcast capacity and Reed colouring.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the five held candidates and discovery-only leads outside the active count; preserve original identifiers and historical dates.",
     "CFN sunlet projective quadratic generation needs independent corroboration and saturation-scope review; private-learning leads still need complete formulation and corroboration.",
@@ -210,7 +214,7 @@
   "coverage": {
     "inverse3": 7,
     "spectral2": 1,
-    "applied": 8,
+    "applied": 9,
     "stochastic3": 10,
     "inverse2": 3,
     "operators": 5,
@@ -223,11 +227,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 40,
-  "count_semantics": "Forty-seven accepted additions: forty integrated and published, seven accepted research drafts pending integration. Active catalogue total 340. Five held records excluded.",
+  "count_semantics": "Forty-eight accepted additions: forty integrated and published, eight accepted research drafts pending integration. Active catalogue total 340. Five held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 40,
-  "coverage_semantics": "Accepted additions by primary section; forty integrated, seven pending accepted drafts.",
+  "coverage_semantics": "Accepted additions by primary section; forty integrated, eight pending accepted drafts.",
   "remaining_integrations_to_minimum": 160,
   "remaining_integrations_to_target": 210,
-  "pending_accepted": 7
+  "pending_accepted": 8
 }

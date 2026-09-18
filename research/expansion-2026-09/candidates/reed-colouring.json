@@ -1,0 +1,341 @@
+{
+  "candidate_id": "reed-colouring",
+  "proposed_catalogue_id": null,
+  "title": "Reed's bound for the chromatic number",
+  "decision": "accept_open",
+  "decision_reason": "Explicit full formulation and independently authored current corroboration, exact-scope and duplicate checks, separated A49 self-review, bibliography checks and rendering passed. No unresolved material matching resolution claim located; accepted as one draft pending batch integration.",
+  "primary_section": "applied",
+  "secondary_tags": [
+    "combinatorial optimization",
+    "conflict scheduling",
+    "vertex colouring"
+  ],
+  "aliases": [
+    "Reed's omega Delta chi conjecture",
+    "Reed's chromatic-number conjecture",
+    "Reed's colouring conjecture"
+  ],
+  "problem_fingerprint": {
+    "model": "Every finite nonempty simple undirected graph G=(V,E), with no loops or parallel edges; disconnected graphs allowed.",
+    "parameters": "Delta(G) is the maximum vertex degree; omega(G) is the maximum number of pairwise adjacent vertices; chi(G) is the minimum number of colours in a proper vertex colouring.",
+    "quantifiers": "For every such graph, with all finite orders and all degrees; no asymptotic threshold, forbidden-subgraph condition or density restriction.",
+    "target": "Prove or disprove chi(G) <= ceil((Delta(G)+1+omega(G))/2).",
+    "normalization": "Ordinary integral colouring with one common palette; adjacent vertices must have distinct colours. The ceiling is essential.",
+    "success": "Existence of a colouring within the exact bound; no running-time or sampling guarantee is required.",
+    "canonical_scope": "One general inequality, including its equivalent formulations and all graph subclasses. Fractional, list, edge and directed variants are not additional entries.",
+    "applied_interpretation": "Unit-duration tasks represented by vertices, pairwise incompatibilities by edges and time slots by colours; omega is an unavoidable number of slots and Delta+1 the elementary greedy guarantee."
+  },
+  "fingerprint_recorded_on": "2026-09-18",
+  "fingerprint_recorded_before_draft": true,
+  "statement_sources": [
+    {
+      "source_id": "BPP18",
+      "url": "https://arxiv.org/html/1810.06704v1",
+      "locator": "Section 1, Conjecture 1.1 and definitions immediately preceding it."
+    },
+    {
+      "source_id": "KP26",
+      "url": "https://arxiv.org/html/2607.06928v1",
+      "locator": "Section 1, Conjecture 1; Corollaries 2–3 and Theorem 7 delimit the established progress."
+    }
+  ],
+  "independently_authored_corroboration": {
+    "formulation": "Bonamy–Perrett–Postle, Conjecture 1.1",
+    "corroboration": "Kawarabayashi–Picasarri-Arrieta, July 8, 2026, Conjecture 1; the same disjoint team retains the exact statement in September 8, 2026 revision KP24v4, Conjecture 1.1.",
+    "independence": "The author teams are disjoint. HJK22 supplies another disjoint full formulation and partial result.",
+    "limitation": "Reed's 1998 original article has not been read here; admission uses explicit primary research-paper restatements, not an inaccessible original citation."
+  },
+  "actual_status_check_date": "2026-09-18",
+  "second_review": {
+    "arrangement": "Primary agent research followed by a separated adversarial self-pass; no independent agent or human review.",
+    "verdict": "passed",
+    "pass_id": "A49",
+    "date": "2026-09-18",
+    "independent_searches": [
+      "A49-1",
+      "A49-2",
+      "A49-3",
+      "A49-4",
+      "A49-5",
+      "A49-6",
+      "A49-7",
+      "A49-8"
+    ],
+    "issues_found": [
+      "The draft title used conflict-free, which is a distinct technical colouring notion.",
+      "A49 identified a September 8 revision of the directed analogue beyond the July paper.",
+      "The 0.119 partial result has a correction history and a dependency labelled claimed.",
+      "Recent resolution searches include different conjectures involving Reed and computational explorations without a matching claim."
+    ],
+    "issues_resolved": [
+      "Retitled the problem as a bound for the chromatic number, retaining ordinary proper vertex colouring and the exact ceiling. Removed the unnecessary empty-graph convention.",
+      "Read the complete latest introductory statements, definitions and version history. Theorem 1.7 still gives a small positive coefficient, while Conjecture 1.1 retains the exact target. Added precise citation and scope comparison.",
+      "Preserved the corrected v3 citation, full Section 3.2 caveat, and the distinct 0.113 alternative. No independent proof certification is asserted.",
+      "Compared RS26 and Z26 full mathematical statements. The public c5-k4 exploration explicitly reports safe finite cases and restricted operation closures, not a general proof or counterexample; it is not scholarly openness evidence."
+    ],
+    "quantifier_checks": "Every finite nonempty simple undirected graph, all degrees, integral common-palette colouring and exact ceiling retained; C5 checks rounding. No algorithmic, fractional, list, directed or subclass assertion substituted.",
+    "application_check": "Unit-duration pairwise-conflict schedules correspond exactly to proper colourings. No polynomial-time algorithm, weighted job, precedence or availability guarantee is claimed.",
+    "duplicate_check": "Read nearest complete statements 279, list-edge-colouring and Tuza; searched baseline, metadata and all candidate records by aliases and degree/clique/chromatic wording. No duplicate target located.",
+    "search_limit": "A49-3 returned substantial unrelated noise; it supplies no positive status evidence."
+  },
+  "nearest_existing": [
+    {
+      "entry": "279",
+      "path": "problems/279-coloring-glauber-threshold.md",
+      "comparison": "Polynomial-time mixing of a Markov chain on q-colourings for q at least Delta+2. The proposed target instead asks for existence with an exact clique-sensitive number of colours; neither sampling nor mixing appears.",
+      "full_statement_read": true
+    },
+    {
+      "entry": "list-edge-colouring",
+      "path": "research/expansion-2026-09/drafts/list-edge-colouring.md",
+      "comparison": "Equality between list and ordinary edge-chromatic indices of loopless multigraphs. Reed concerns ordinary vertex colourings of arbitrary simple graphs and an explicit bound in degree and clique number, without edge-specific lists.",
+      "full_statement_read": true
+    },
+    {
+      "entry": "tuza-triangle-packing-covering",
+      "path": "research/expansion-2026-09/drafts/tuza-triangle-packing-covering.md",
+      "comparison": "An integral relation between triangle-edge deletion and edge-disjoint packing. No vertex-colouring optimum or clique-degree interpolation is asserted there.",
+      "full_statement_read": true
+    }
+  ],
+  "duplicate_check": {
+    "searched": "Baseline inventory, active pages, all metadata, candidate records and exclusions; aliases and mathematical terms, followed by full nearest-statement reads.",
+    "findings": "No matching accepted or active inequality located. Davie–Reeds references are an unrelated surname collision.",
+    "refreshed_on": "2026-09-18"
+  },
+  "source_records": [
+    {
+      "source_id": "BPP18",
+      "authors": [
+        "Marthe Bonamy",
+        "Thomas Perrett",
+        "Luke Postle"
+      ],
+      "title": "Colouring Graphs with Sparse Neighbourhoods: Bounds and Applications",
+      "url": "https://arxiv.org/html/1810.06704v1",
+      "version": "arXiv:1810.06704v1, October 15, 2018; sole version in inspected history. HTML's regenerated August 2026 date is not a revision.",
+      "locator": "Section 1, full Conjecture 1.1, Theorems 1.2 and 1.5–1.7; introductory definitions.",
+      "read": "Exact general conjecture and complete large-degree 1/26 interpolation theorem. Cited preprint, not an independently compared journal version.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "HJK22",
+      "authors": [
+        "Eoin Hurley",
+        "Rémi de Joannis de Verclos",
+        "Ross J. Kang"
+      ],
+      "title": "An Improved Procedure for Colouring Graphs of Bounded Local Density",
+      "venue": "Advances in Combinatorics 2022:7, 33 pp.; published September 22, 2022",
+      "doi": "10.19086/aic.2022.7",
+      "url": "https://arxiv.org/pdf/2007.07874v3",
+      "publisher": "https://www.advancesincombinatorics.com/article/38107-an-improved-procedure-for-colouring-graphs-of-bounded-local-density",
+      "version": "v1 July 15, 2020; v2 October 9, 2020; v3 September 10, 2022, explicitly final published version. History says v2 corrected the Reed bound.",
+      "locator": "Section 1.2, Conjecture 1.7 and full Theorems 1.8–1.10; entire §3.2, Theorem 3.2, proof of Theorem 1.10 and Remark 3.1, printed pp.5 and 24.",
+      "read": "The 0.119 result assumes sufficiently large degree and uses the Delcourt–Postle statement explicitly labelled claimed. Remark 3.1 offers 0.113 using Kelly–Postle instead. Neither numerical coefficient reaches one half. Primary publisher metadata and v3 both read; no certification of all supporting proofs.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "KP26",
+      "authors": [
+        "Ken-ichi Kawarabayashi",
+        "Lucas Picasarri-Arrieta"
+      ],
+      "title": "Coloring digraphs with tilde-Delta minus b colors",
+      "url": "https://arxiv.org/html/2607.06928v1",
+      "version": "arXiv:2607.06928v1, July 8, 2026; sole version in inspected history. Abstract-page title omits the tilde displayed in the full text.",
+      "locator": "Complete §1: Conjectures 1,4,5, Corollaries 2–3, Theorems 6–7 and discussion of threshold dependence; technical-overview opening.",
+      "read": "Explicit recent retention of the exact undirected conjecture. Full directed theorem retains a b-dependent degree threshold. Read definition of symmetric digraphs, biclique number, geometric mean degree and dichromatic number. Authors identify restriction to symmetric digraphs with their Corollary 3, not Conjecture 4.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "KR12",
+      "authors": [
+        "Andrew D. King",
+        "Bruce A. Reed"
+      ],
+      "title": "Claw-free graphs, skeletal graphs, and a stronger conjecture on omega, Delta, and chi",
+      "url": "https://arxiv.org/pdf/1212.3036v1",
+      "version": "arXiv:1212.3036v1, December 13, 2012, sole version in inspected history; PDF displays a regenerated August 2021 date, not adopted as a new version.",
+      "locator": "Introduction and §1.1, Conjectures 1.1–1.2, full Theorems 1.3–1.8; §1.2 overview.",
+      "read": "Finite simple graph conventions, exact conjecture, fractional bound and exact claw-free result. Claw-free excludes an induced K1,3; the structural theorem does not cover arbitrary graphs. Source's gamma definition has a minor printed notation defect; numeric target independently matches BPP18, HJK22 and KP26.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "HZC26",
+      "authors": [
+        "Shenwei Huang",
+        "Yidong Zhou",
+        "Yeonsu Chang"
+      ],
+      "title": "The optimal chromatic bound for even-hole-free graphs without induced seven-vertex paths",
+      "url": "https://arxiv.org/pdf/2602.04403v1",
+      "version": "arXiv:2602.04403v1, February 4, 2026, sole version in inspected history. PDF prints February 5.",
+      "locator": "Full §1 model, Theorem 1.1, following remark and proof outline; beginning of §2 graph conventions, printed pp.2–5.",
+      "read": "Full theorem gives chi at most ceil(5 omega/4) for graphs excluding induced P7 and every even hole. Remark states the Reed consequence for exactly that class. The 109-page technical proof was not independently certified. HTML exceeded reader size; PDF was accessible.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "RS26",
+      "authors": [
+        "Oliver Riordan",
+        "Alex Scott"
+      ],
+      "title": "A short proof of the Erdős–Sós Conjecture",
+      "url": "https://arxiv.org/html/2609.15893v1",
+      "version": "arXiv:2609.15893v1, September 14, 2026; cited exact version.",
+      "locator": "Introductory Conjectures 1 and 3, Theorems 2,4,5; §§1–2 proof and deduction.",
+      "read": "Recent search collision with a conjecture coauthored by Reed. Its assertion forces a copy of every antidirected tree from an average-outdegree hypothesis. No clique-degree colouring assertion. Written proof read for scope, no separate Lean verification.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "Z26",
+      "authors": [
+        "Yinfeng Zhu"
+      ],
+      "title": "Paths maximize the expected range of graph-indexed random walks",
+      "url": "https://arxiv.org/html/2609.19728v1",
+      "version": "arXiv:2609.19728v1, September 17, 2026; cited exact version.",
+      "locator": "Section 1, complete pinned integer-height definitions, Theorem 1.1, Corollary 1.2 and distinction between expectation and stochastic domination.",
+      "read": "Namesake Loebl–Nešetřil–Reed claim concerns expected range of uniformly sampled integer Lipschitz functions. It does not bound the ordinary chromatic number in terms of degree and clique number. Formalization not rerun.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "KP24v4",
+      "authors": [
+        "Ken-ichi Kawarabayashi",
+        "Lucas Picasarri-Arrieta"
+      ],
+      "title": "An analogue of Reed's conjecture for digraphs",
+      "url": "https://arxiv.org/html/2407.05827v4",
+      "version": "v1 July 8, 2024; v2 July 27, 2024; v3 August 27, 2025; v4 September 8, 2026. Full history inspected; shorter SODA 2025 version disclosed in v4.",
+      "locator": "Complete Section 1, Conjectures 1.1 and 1.6, Theorems 1.5 and 1.7–1.10 and following discussions; Section 2.1 conventions.",
+      "read": "Exact undirected conjecture retained. Full main theorem supplies an unspecified positive interpolation coefficient for every digraph; authors say their coefficient is smaller than established partial values. Restriction to symmetric digraphs therefore does not give one half. Oriented-graph results exclude digons.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "BPP18",
+      "locator": "Theorem 1.7",
+      "result_scope": "Sufficiently large maximum degree; weights 25/26 and 1/26.",
+      "mismatch": "Exact one-half coefficient and all finite degrees remain beyond the theorem."
+    },
+    {
+      "source_id": "HJK22",
+      "locator": "Theorem 1.10; §3.2 and Remark 3.1",
+      "result_scope": "Sufficiently large degree; reported 0.119 clique coefficient with explicitly stated dependency, or 0.113 alternative.",
+      "mismatch": "Both coefficients are below one half; neither removes the degree threshold."
+    },
+    {
+      "source_id": "KR12",
+      "locator": "Theorem 1.3",
+      "result_scope": "Fractional chromatic number with local degree/clique data.",
+      "mismatch": "The integral optimum may exceed the fractional optimum; the theorem does not establish integral colourability at the requested ceiling."
+    },
+    {
+      "source_id": "KR12",
+      "locator": "Theorems 1.6–1.7",
+      "result_scope": "Claw-free graphs, with further complement restriction for the stronger local result.",
+      "mismatch": "The candidate permits induced claws and has no structural exclusion."
+    },
+    {
+      "source_id": "HZC26",
+      "locator": "Theorem 1.1 and following remark",
+      "result_scope": "Graphs with no induced seven-vertex path or even hole.",
+      "mismatch": "The candidate permits both forbidden configurations; the claimed class-specific implication does not establish the universal assertion."
+    },
+    {
+      "source_id": "KP26",
+      "locator": "Theorem 7; Corollary 3 and Conjecture 4",
+      "result_scope": "For each fixed b, degree above a b-dependent threshold and biclique-size deficit at least 2b.",
+      "mismatch": "Substituting symmetric digraphs recovers a large-degree partial result. Taking b to depend on an arbitrary input graph does not guarantee that the degree exceeds its threshold."
+    },
+    {
+      "source_id": "RS26",
+      "locator": "Conjecture 3 and Theorem 5",
+      "result_scope": "Average-outdegree condition for containing every antidirected tree.",
+      "mismatch": "A different conjecture involving Reed; no asserted colouring upper bound."
+    },
+    {
+      "source_id": "Z26",
+      "locator": "Theorem 1.1 and Corollary 1.2",
+      "result_scope": "Expected ranges of pinned integer graph homomorphisms/Lipschitz functions.",
+      "mismatch": "A different observable and model; no assertion about chi, omega and Delta."
+    },
+    {
+      "source_id": "KP24v4",
+      "locator": "Conjectures 1.1 and 1.6; Theorems 1.5 and 1.7 with following discussion",
+      "result_scope": "All digraphs with an unspecified small positive interpolation coefficient; separate stronger bounds for oriented graphs.",
+      "mismatch": "The main coefficient is not one half; the stronger oriented results exclude the symmetric digraphs needed to recover general ordinary colouring."
+    }
+  ],
+  "actual_search_ids": [
+    "S377-1",
+    "S377-2",
+    "S377-3",
+    "S377-4",
+    "S378-1",
+    "S378-2",
+    "S378-3",
+    "S378-4",
+    "S379-1",
+    "S379-2",
+    "S379-3",
+    "S379-4",
+    "S380-1",
+    "S380-2",
+    "S380-3",
+    "S380-4",
+    "S381-1",
+    "S381-2",
+    "S381-3",
+    "S381-4",
+    "S382-1",
+    "S382-2",
+    "S382-3",
+    "S382-4",
+    "A49-1",
+    "A49-2",
+    "A49-3",
+    "A49-4",
+    "A49-5",
+    "A49-6",
+    "A49-7",
+    "A49-8"
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/reed-colouring.md",
+  "validation": {
+    "state": "passed",
+    "checked_on": "2026-09-18",
+    "math_rendering": "23 expressions passed strict KaTeX; full local page visually inspected with loaded fonts, no clipping or malformed formulae found.",
+    "bibliography": "Seven targets probed: five matching HTTP 200 documents; two direct GET 406 responses, both successfully accessed through the web reader. See reed-colouring-link-check.json.",
+    "local_links": "All four relative Markdown links resolve.",
+    "catalogue": "catalogue.py --write and --check passed for 340 active problems; no active membership changes.",
+    "json_and_searches": "All expansion JSON parses; 1,726 distinct logged search identifiers.",
+    "upstream_refresh": "Fetched origin/main equals reviewed local HEAD 4f9a1c7ed781f672169df9417bbf64fc35f81df2; no new upstream additions to compare."
+  },
+  "access_limits": [
+    "Abrishami–Erfanian, A note on Reed's conjecture for triangle-free graphs, DOI 10.1016/j.disc.2023.113609: publisher excerpt surfaced in search, but both direct article routes returned 403. Not used as a full-text admission source or as proof of a scope comparison.",
+    "Reed's original 1998 article not directly read. Explicit full primary-paper restatements supply the formulation.",
+    "The full Delcourt–Postle dependency and all technical colouring proofs were not independently certified. HJK22's caveat is preserved.",
+    "AI-maintained conjecture aggregators and automated dataset labels were discovery leads only, not openness evidence."
+  ],
+  "applied_significance": "Exact minimum-slot guarantee in the finite pairwise-conflict scheduling model. The identification is mathematical: an integral colouring is a partition of tasks into feasible simultaneous sets. No implementation, deployment, weighted scheduling or efficient optimization claim.",
+  "supplementary_discovery_checks": [
+    {
+      "url": "https://github.com/Kuberwastaken/c5-k4",
+      "locator": "README Reed finite-bound rows and operation-closure discussion",
+      "checked_on": "2026-09-18",
+      "assessment": "Reports no matching general proof or counterexample. Limited computational and transformation-family results only; not a primary admission source and computations not independently rerun."
+    }
+  ]
+}

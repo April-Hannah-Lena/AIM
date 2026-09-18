@@ -13922,5 +13922,293 @@
     "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
     "candidate_id": null,
     "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S377-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed conjecture\" proof solved counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S377-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed colouring conjecture\" \"open\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S377-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed\" \"omega\" \"Delta\" \"chromatic\" conjecture survey",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S377-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed conjecture\" \"proof\" correction refutation",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S378-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed conjecture\" 2026 graph chromatic",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S378-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed's conjecture\" 2025 colouring",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S378-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Colouring graphs with sparse neighbourhoods\" \"Bounds and Applications\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S378-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed\" \"chromatic number\" \"0.119\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S379-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Hurley\" \"Joannis de Verclos\" \"Kang\" \"Reed\" 2022",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S379-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed\" \"omega Delta\" 1998 pdf",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S379-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed conjecture\" \"2026\" proof -site:huggingface.co -site:mlelarge.github.io",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S379-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed's conjecture\" \"2025\" counterexample -site:mathconjectures.com",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S380-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed conjecture\" \"disproof\" chromatic",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S380-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed conjecture\" \"refutation\" colouring",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S380-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed conjecture\" \"proved\" \"2026\" chromatic",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S380-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"An improved procedure for colouring graphs of bounded local density\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S381-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chromatic number\" \"clique number\" \"maximum degree\" \"Reed\" \"proof\" \"ceiling\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S381-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed's conjecture\" chromatic September 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S381-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Bonamy\" \"Perrett\" \"Postle\" \"Reed\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S381-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed\" \"Delta\" \"omega\" \"counterexample\" 2024 2025",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S382-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed's conjecture\" \"proof\" -site:researchgate.net -site:scribd.com -site:mathconjectures.com",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S382-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Coloring digraphs\" \"2607.06928\" correction",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S382-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"A note on Reed's conjecture for triangle-free graphs\" pdf",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S382-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed conjecture\" colouring \"withdrawn\" OR \"gap\" OR \"erratum\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, independent corroboration, resolution and version checks before drafting.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "A49-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed's conjecture\" \"chromatic\" \"solved\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact target, unrestricted and recent resolutions, corrections and duplicate scope.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "A49-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed conjecture\" \"omega\" \"Delta\" \"counterexample\" -site:mlelarge.github.io",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact target, unrestricted and recent resolutions, corrections and duplicate scope.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "A49-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed conjecture\" \"one half\" proof",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact target, unrestricted and recent resolutions, corrections and duplicate scope.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "A49-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed conjecture\" \"0.119\" \"0.5\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact target, unrestricted and recent resolutions, corrections and duplicate scope.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "A49-5",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed conjecture\" \"ceil\" \"proved\" \"general graphs\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact target, unrestricted and recent resolutions, corrections and duplicate scope.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "A49-6",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed's colouring conjecture\" proof counterexample September 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact target, unrestricted and recent resolutions, corrections and duplicate scope.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "A49-7",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Hurley\" \"Reed\" \"0.119\" correction gap",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact target, unrestricted and recent resolutions, corrections and duplicate scope.",
+    "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "A49-8",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed\" \"chromatic\" \"ceiling\" \"conjecture\" 2025 2026 -site:researchgate.net",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact target, unrestricted and recent resolutions, corrections and duplicate scope.",
+    "candidate_id": "reed-colouring"
   }
 ]

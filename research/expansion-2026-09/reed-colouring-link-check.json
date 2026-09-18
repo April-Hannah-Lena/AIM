@@ -1,0 +1,65 @@
+{
+  "checked_on": "2026-09-18",
+  "method": "Direct HTTPS GET; up to 65536 response bytes inspected for document type/title and browser challenges; four concurrent workers.",
+  "links": [
+    {
+      "url": "https://arxiv.org/html/1810.06704v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/1810.06704v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Colouring Graphs with Sparse Neighbourhoods:Bounds and Applications"
+    },
+    {
+      "url": "https://arxiv.org/html/2407.05827v4",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2407.05827v4",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "An analogue of Reed’s conjecture for digraphs"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.06928v1",
+      "error": "HTTP Error 406: Not Acceptable",
+      "successful_full_text_access": {
+        "route": "web reader",
+        "date": "2026-09-18",
+        "url": "https://arxiv.org/html/2607.06928v1",
+        "result": "Matching full document retrieved; title/authors and relevant mathematical statements checked."
+      }
+    },
+    {
+      "url": "https://arxiv.org/pdf/1212.3036v1",
+      "error": "HTTP Error 406: Not Acceptable",
+      "successful_full_text_access": {
+        "route": "web reader",
+        "date": "2026-09-18",
+        "url": "https://arxiv.org/pdf/1212.3036v1",
+        "result": "Matching full document retrieved; title/authors and relevant mathematical statements checked."
+      }
+    },
+    {
+      "url": "https://arxiv.org/pdf/2007.07874v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2007.07874v3",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://arxiv.org/pdf/2602.04403v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2602.04403v1",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://doi.org/10.19086/aic.2022.7",
+      "status": 200,
+      "final_url": "https://www.advancesincombinatorics.com/article/38107-an-improved-procedure-for-colouring-graphs-of-bounded-local-density",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "An improved procedure for colouring graphs of bounded local density | Published in Advances in Combinatorics"
+    }
+  ],
+  "permission_context": "Network GETs used permission-reviewed execution; no credentials copied."
+}
