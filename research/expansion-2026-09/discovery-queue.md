@@ -256,3 +256,11 @@ Research publication receipt: [bdcecb7](https://github.com/MColbrook/AIM/commit/
 All 52 actual queries from S304–S315 and A43 are saved, bringing the log to 1,417 unique queries. Counts at this local checkpoint: 47 formal records, 42 accepted, five held, 40 integrated and published, two pending accepted drafts, and 340 active entries. The binary-code research draft awaits the checkpoint push. Eight more accepted drafts are needed for the next ten-entry integration batch; 158 more acceptances and 160 more integrations are needed for the minimum of 200 additions.
 
 Research publication receipt: [42b66b9](https://github.com/MColbrook/AIM/commit/42b66b93464d3ffd970dc53f70d6d64d8504bd64) was pushed directly to main on September 18, 2026. A separate remote-ref read matched the full commit. Both accepted drafts and their evidence are now saved remotely; active catalogue membership remains 340, with 40 integrated/published additions and two pending accepted drafts.
+
+## Control review and breadth discovery (2026-09-18)
+
+The arbitrary-switching strict-stability lead has now passed the full source/model, current-version, duplicate and separated A44 review; see the [accepted record](candidates/switched-linear-stability-decidability.json). Its equivalent joint-spectral-radius formulation is not a second candidate.
+
+- [*High-Dimensional Statistics: Reflections on Progress and Open Problems*](https://arxiv.org/html/2605.05076v1): contents inspected only. No precise candidate or current-status verdict yet.
+- [*Randomstrasse 101: Open Problems of 2025*](https://arxiv.org/html/2603.29571v1): introduction, contents and initial tensor/circulant entries inspected. Several topics overlap established catalogue families; any new candidate still needs a scope check against the numerical-linear-algebra exclusion. No acceptance or formal record assigned.
+- Mathematical-biology search results included an asynchronous Boolean-network attractor question and a phylogenetic network-distance conjecture. Full model, precision and independent-corroboration checks remain due; neither is counted.

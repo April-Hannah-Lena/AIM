@@ -11477,5 +11477,419 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "S316-1",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"switched linear systems\" \"absolute asymptotic stability\" decidability open 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S316-2",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"strictly less than one\" decidability 2025 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S316-3",
+    "candidate_id": "discovery-statistics-biology",
+    "query": "\"statistics\" \"open problems\" \"conjectures\" \"2026\" survey",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S316-4",
+    "candidate_id": "discovery-statistics-biology",
+    "query": "\"mathematical biology\" \"open problems\" \"conjecture\" \"2025\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S317-1",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"absolute asymptotic stability\" \"decidability\" \"open\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S317-2",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"undecidable\" \"< 1\" \"open\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S317-3",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"switched systems\" \"decidability\" \"strict\" \"2026\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S317-4",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"stability\" \"rational matrices\" \"undecidable\" \"open problem\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S318-1",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"absolute asymptotic stability\" \"decidable\" \"2026\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S318-2",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"decidability\" \"2025\" \"open\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S318-3",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"decidability\" \"stability\" \"rational matrices\" proof",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S318-4",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"strictly less than\" \"undecidability\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S319-1",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"stability\" \"decidability\" \"2026\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S319-2",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"stability\" \"decidable\" \"2024\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S319-3",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"absolute asymptotic stability\" \"proof\" \"undecidable\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S319-4",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"Polynomial norms\" Ahmadi Klerk Hall",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S320-1",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"decidability\" -site:researchgate.net -site:emergentmind.com -site:cstheory.stackexchange.com",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S320-2",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"absolute asymptotic stability\" \"open problem\" -site:researchgate.net",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S320-3",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"switched linear\" \"stability\" \"decidability\" 2026 2025 2024",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S320-4",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"strict stability\" \"joint spectral radius\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S321-1",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "joint spectral radius 2026 decidable rational finiteness",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S321-2",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"finiteness\" \"rational matrices\" \"2025\" \"2026\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S321-3",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"absolute asymptotic stability\" \"solved\" OR \"resolution\" OR \"proof\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S321-4",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"Growth of bilinear maps III\" arxiv",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S322-1",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"decidability\" \"2026\" -site:researchgate.net",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S322-2",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"switched\" \"asymptotic stability\" \"undecidable\" \"2025\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S322-3",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"stability\" \"algorithm\" \"2026\" rational",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S322-4",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"less than 1\" \"open\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S323-1",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"A hybrid approach to joint spectral radius computation\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S323-2",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"absolute asymptotic stability\" \"decidability\" proof proved solved resolution",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S323-3",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"strict\" \"counterexample\" \"disproof\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S323-4",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"Jungers\" \"stability\" \"decidability\" \"correction\" OR \"erratum\" OR \"refutation\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and strict-stability decision scope review"
+  },
+  {
+    "search_id": "S324-1",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"absolute asymptotic stability\" \"undecidable\" OR \"solved\" OR \"refutation\" OR \"disproof\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Current versions, corrections and theorem-scope follow-up"
+  },
+  {
+    "search_id": "S324-2",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"strictly less than one\" \"2026\" OR \"2025\" OR \"2024\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Current versions, corrections and theorem-scope follow-up"
+  },
+  {
+    "search_id": "S324-3",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"Polynomial Norms\" \"correction\" OR \"erratum\" OR \"withdrawn\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Current versions, corrections and theorem-scope follow-up"
+  },
+  {
+    "search_id": "S324-4",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"A hybrid approach to joint spectral radius computation\" \"10.1016/j.laa.2025.06.024\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Current versions, corrections and theorem-scope follow-up"
+  },
+  {
+    "search_id": "S325-1",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"switched linear systems\" \"decidability\" \"2026\" -site:researchgate.net -site:emergentmind.com",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Current versions, corrections and theorem-scope follow-up"
+  },
+  {
+    "search_id": "S325-2",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"strict stability\" \"rational matrices\" decision",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Current versions, corrections and theorem-scope follow-up"
+  },
+  {
+    "search_id": "S325-3",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"Mejstrik\" \"Reif\" \"hybrid\" filetype:pdf",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Current versions, corrections and theorem-scope follow-up"
+  },
+  {
+    "search_id": "S325-4",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"Iterative graph lifting\" correction OR erratum OR decidability",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Current versions, corrections and theorem-scope follow-up"
+  },
+  {
+    "search_id": "A44-1",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"absolute asymptotic stability\" \"rational\" \"proved\" OR \"solved\" OR \"undecidable\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A44-2",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"strictly less than\" \"decidable\" \"2026\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A44-3",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"strict stability\" \"switched\" counterexample disproof refutation",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A44-4",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"Iterative graph lifting\" \"September\" \"termination\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A44-5",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "decidability absolute asymptotic stability rational matrices open 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A44-6",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"strictly less than one\" decidability",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
   }
 ]

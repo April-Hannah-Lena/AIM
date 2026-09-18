@@ -1,0 +1,56 @@
+{
+  "checked_on": "2026-09-18",
+  "method": "Direct HTTPS GET; first 1024 bytes; four concurrent workers.",
+  "links": [
+    {
+      "url": "https://arxiv.org/html/1704.07462v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/1704.07462v3",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/html/2201.09850v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2201.09850v3",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/html/2308.05244v2",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.00637v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2607.00637v2",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://doi.org/10.1016/j.laa.2025.06.024",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0024379525002836",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://doi.org/10.1137/18M1172843",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://perso.uclouvain.be/raphael.jungers/sites/default/files/kcfinder/files/book.pdf",
+      "status": 200,
+      "final_url": "https://perso.uclouvain.be/raphael.jungers/sites/default/files/kcfinder/files/book.pdf",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://perso.uclouvain.be/vincent.blondel/publications/08JB.pdf",
+      "status": 200,
+      "final_url": "https://perso.uclouvain.be/vincent.blondel/publications/08JB.pdf",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://www.mit.edu/~jnt/Papers/J081-00-vb-products.pdf",
+      "status": 200,
+      "final_url": "https://www.mit.edu/~jnt/Papers/J081-00-vb-products.pdf",
+      "sample_bytes": 1024
+    }
+  ]
+}

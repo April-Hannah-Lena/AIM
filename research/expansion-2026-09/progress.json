@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 42,
+  "new_accepted": 43,
   "active_total": 340,
-  "candidates_investigated": 47,
+  "candidates_investigated": 48,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 158,
-  "remaining_to_target": 208,
+  "remaining_to_minimum": 157,
+  "remaining_to_target": 207,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -176,22 +176,22 @@
       "purpose": "Record reviewed optimal binary-code rate draft and information/control discovery audits; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "Forty catalogue additions (301–340) are published directly on main. Both accepted research drafts, sharp matroid secretary and optimal binary-code rate, are published; the latter checkpoint 42b66b93464d3ffd970dc53f70d6d64d8504bd64 was independently verified by ls-remote on September 18, 2026. Both await batch integration; active catalogue total remains 340.",
+  "remote_state": "Forty catalogue additions (301–340) are published directly on main. The accepted sharp matroid secretary and binary-code rate drafts are published. The newly accepted arbitrary-switching stability draft and its evidence await this checkpoint push; all three await catalogue integration. Active total remains 340.",
   "next_actions": [
-    "Prepare eight more reviewed drafts for the next ten-entry batch; refresh all batch statuses and upstream duplicates before allocating IDs. The sharp matroid secretary and binary-code rate drafts are accepted without active IDs.",
+    "Prepare seven more reviewed drafts for the next ten-entry batch; refresh statuses and upstream duplicates before allocating IDs. Sharp matroid secretary, binary-code rate and arbitrary-switching stability are accepted without active IDs.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the five held candidates and discovery-only leads outside the active count; preserve original identifiers and historical dates.",
     "CFN sunlet projective quadratic generation needs independent corroboration and saturation-scope review; private-learning leads still need complete formulation and corroboration.",
     "Phylogenetic character-threshold and strong cane-toad spreading leads have full formulations but still need independent corroboration.",
     "Do not admit general strongly polynomial LP without adjudicating matching claims; keep historical entries 031, 032 and 286 follow-ups separate from new counts.",
-    "Bernoulli Renyi joint-parameter concavity still needs independently authored status corroboration. Switched-system stability discovery needs precise strict-versus-nonstrict threshold and computational-model review; neither lead is accepted or a new formal record."
+    "Bernoulli Renyi joint-parameter concavity still needs independently authored status corroboration. Recent statistics and mathematical-biology surveys remain discovery only; extract precise questions and independent corroboration before any admission."
   ],
   "coverage": {
     "inverse3": 6,
     "spectral2": 1,
     "applied": 7,
     "stochastic3": 8,
-    "inverse2": 2,
+    "inverse2": 3,
     "operators": 5,
     "inverse": 3,
     "stochastic2": 4,
@@ -202,11 +202,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 40,
-  "count_semantics": "Forty-two accepted additions: forty integrated and published, two accepted research drafts pending integration. Active catalogue total 340. Five held records excluded.",
+  "count_semantics": "Forty-three accepted additions: forty integrated and published, three accepted research drafts pending integration. Active catalogue total 340. Five held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 40,
-  "coverage_semantics": "Accepted additions by primary section; forty integrated, two pending accepted drafts.",
+  "coverage_semantics": "Accepted additions by primary section; forty integrated, three pending accepted drafts.",
   "remaining_integrations_to_minimum": 160,
   "remaining_integrations_to_target": 210,
-  "pending_accepted": 2
+  "pending_accepted": 3
 }

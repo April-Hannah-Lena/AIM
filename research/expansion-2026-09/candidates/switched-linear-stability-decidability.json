@@ -1,0 +1,337 @@
+{
+  "candidate_id": "switched-linear-stability-decidability",
+  "proposed_catalogue_id": null,
+  "title": "Decidability of stability under arbitrary switching",
+  "decision": "accept_open",
+  "decision_reason": "Explicit sourced question, independent scholarly corroboration, current theorem/version comparisons, duplicate audit and separated A44 adversarial self-review passed.",
+  "primary_section": "inverse2",
+  "secondary_tags": [
+    "switched systems",
+    "robust control",
+    "formal verification",
+    "decidability"
+  ],
+  "aliases": [
+    "absolute asymptotic stability of rational discrete linear inclusions",
+    "strict subunit joint spectral radius decision problem"
+  ],
+  "problem_fingerprint": {
+    "recorded_before_drafting": true,
+    "objects": "Positive integers n,m and a finite list A_1,...,A_m in Q^(n x n), given exactly by finite binary encodings of rational numerators and nonzero denominators.",
+    "model": "x_(k+1)=A_(sigma(k)) x_k for arbitrary sigma:N_0->{1,...,m}.",
+    "quantifiers": "One algorithm must halt on every input, with n and m unbounded across inputs; its YES condition is convergence to zero for every real initial state and every infinite switching signal.",
+    "observable": "Convergence ||x_k||_2 -> 0 as k -> infinity; equivalently the joint spectral radius is strictly less than one.",
+    "conclusion": "Decide whether such a total algorithm exists. No polynomial-time requirement and no separation promise around the threshold.",
+    "scope": "Ordinary real linear dynamics with rationally specified modes; unrestricted switching. Not boundedness, the nonstrict threshold rho<=1, mortality, one chosen switching policy, Markov switching, or dwell-time constraints. Equivalent JSR formulation is one entry."
+  },
+  "fingerprint_recorded_on": "2026-09-18",
+  "actual_status_check_date": "2026-09-18",
+  "statement_sources": [
+    {
+      "source": "Jungers, The Joint Spectral Radius: Theory and Applications",
+      "url": "https://perso.uclouvain.be/raphael.jungers/sites/default/files/kcfinder/files/book.pdf",
+      "locator": "Section 2.2.3, Open question 1, printed p.29; Definition 1.3 and Theorem 1.2.",
+      "role": "Explicit strict-threshold decision question and dynamical formulation."
+    },
+    {
+      "source": "Ahmadi, de Klerk, Hall, Polynomial Norms",
+      "url": "https://arxiv.org/html/1704.07462v3",
+      "locator": "Section 5.2, equations (21)–(22), Theorems 5.1–5.2.",
+      "role": "Independently authored open-status statement and stability certificates; latest arXiv version July 16, 2018; journal 2019."
+    }
+  ],
+  "search_ids": [
+    "S316-1",
+    "S316-2",
+    "S317-1",
+    "S317-2",
+    "S317-3",
+    "S317-4",
+    "S318-1",
+    "S318-2",
+    "S318-3",
+    "S318-4",
+    "S319-1",
+    "S319-2",
+    "S319-3",
+    "S319-4",
+    "S320-1",
+    "S320-2",
+    "S320-3",
+    "S320-4",
+    "S321-1",
+    "S321-2",
+    "S321-3",
+    "S321-4",
+    "S322-1",
+    "S322-2",
+    "S322-3",
+    "S322-4",
+    "S323-1",
+    "S323-2",
+    "S323-3",
+    "S323-4",
+    "S324-1",
+    "S324-2",
+    "S324-3",
+    "S324-4",
+    "S325-1",
+    "S325-2",
+    "S325-3",
+    "S325-4",
+    "A44-1",
+    "A44-2",
+    "A44-3",
+    "A44-4",
+    "A44-5",
+    "A44-6"
+  ],
+  "publication_state": "Accepted research draft awaiting batch integration; no active ID.",
+  "review_arrangement": "Primary-agent research followed by a separated adversarial self-pass; no independent agent or human review.",
+  "source_records": [
+    {
+      "source_id": "J09",
+      "authors": [
+        "Raphaël M. Jungers"
+      ],
+      "title": "The Joint Spectral Radius: Theory and Applications",
+      "venue": "Springer, 2009; author manuscript dated March 5, 2009",
+      "url": "https://perso.uclouvain.be/raphael.jungers/sites/default/files/kcfinder/files/book.pdf",
+      "locator": "Definition 1.1; Definition 1.3, Theorem 1.2 and Corollary 1.1; Section 2.1.3 proof; Section 2.2.3, Open question 1, printed p.29",
+      "read": "Definitions, full stability equivalence and proof, explicit strict-threshold question, computational barriers and their distinct scopes.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "BT00",
+      "authors": [
+        "Vincent D. Blondel",
+        "John N. Tsitsiklis"
+      ],
+      "title": "The boundedness of all products of a pair of matrices is undecidable",
+      "venue": "Systems & Control Letters 41(2) (2000), 135–140; DOI 10.1016/S0167-6911(00)00049-9",
+      "url": "https://www.mit.edu/~jnt/Papers/J081-00-vb-products.pdf",
+      "locator": "Section 1; Section 2 definitions and Theorems 1–2, pp.136–138; Sections 3–4",
+      "read": "Full rational-input problems, reductions and Theorem 2, plus strict-threshold distinction. General rational matrix input is preserved; proof uses nonnegative matrices. Historical finiteness discussion is not copied as current.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "JB08",
+      "authors": [
+        "Raphaël M. Jungers",
+        "Vincent D. Blondel"
+      ],
+      "title": "On the finiteness property for rational matrices",
+      "venue": "Linear Algebra and its Applications 428 (2008), 2283–2295; DOI 10.1016/j.laa.2007.07.007",
+      "url": "https://perso.uclouvain.be/vincent.blondel/publications/08JB.pdf",
+      "locator": "Section 1, equations (1.1)–(1.2), definition and Proposition 1, pp.2284–2285",
+      "read": "Full formulation, finite-product approximation and conditional stopping argument. No general rational finiteness theorem is inferred.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "ADH19",
+      "authors": [
+        "Amir Ali Ahmadi",
+        "Etienne de Klerk",
+        "Georgina Hall"
+      ],
+      "title": "Polynomial Norms",
+      "venue": "SIAM Journal on Optimization 29(1) (2019), 399–422; DOI 10.1137/18M1172843",
+      "url": "https://arxiv.org/html/1704.07462v3",
+      "locator": "Section 5.2, equations (21)–(22), Theorems 5.1–5.2",
+      "read": "Complete stability model, explicit undecided strict-threshold statement, application discussion and contracting-norm characterization.",
+      "version": "arXiv v1 April 24, 2017; v3 July 16, 2018 is latest in the checked record. Journal metadata checked through Tilburg. Later institutional PDF endpoints failed; full arXiv v3 was read.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "Bui25",
+      "authors": [
+        "Vuong Bui"
+      ],
+      "title": "Growth of bilinear maps III: Decidability",
+      "venue": "Theoretical Computer Science 1056 (2025), 115515; DOI 10.1016/j.tcs.2025.115515",
+      "url": "https://arxiv.org/html/2201.09850v3",
+      "locator": "Section 1; Section 2, Theorem 1; Section 6.2; Section 6.3, Theorem 7 and proof; Section 8, Theorem 8 and reduction setup",
+      "read": "Full relevant threshold and computability statements. Bilinear nonstrict-growth decisions and positive-matrix nonstrict JSR decision differ from the target.",
+      "version": "Latest v3 August 6, 2025; history records unconditional positive-setting result and minor corrections before publication.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "MR26",
+      "authors": [
+        "Thomas Mejstrik",
+        "Ulrich Reif"
+      ],
+      "title": "A hybrid approach to joint spectral radius computation",
+      "venue": "Linear Algebra and its Applications 744 (2026), 204–223; DOI 10.1016/j.laa.2025.06.024",
+      "url": "https://arxiv.org/html/2308.05244v2",
+      "locator": "Author version Theorems 2.5–2.7 with proof of certificate implication; Section 3.2, Algorithm 3.1",
+      "read": "Full relevant certificate statements, algorithm input and termination-dependent output; journal identity checked through primary publisher metadata.",
+      "version": "Latest arXiv v2 July 8, 2024, initial v1 August 9, 2023. Author publication page inspected; publisher full-text open failed. Journal abstract also frames its result as verification of supplied spectrum-maximizing candidates.",
+      "access_limits": "Journal full text was not read; theorem numbering and detailed comparisons refer explicitly to the accessible author version.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "NJ26",
+      "authors": [
+        "Léa Ninite",
+        "Raphaël M. Jungers"
+      ],
+      "title": "Iterative graph lifting for automatic design of path-complete stability certificates",
+      "venue": "arXiv:2607.00637v2, September 10, 2026; extended preprint of an accepted CDC 2026 paper",
+      "url": "https://arxiv.org/html/2607.00637v2",
+      "locator": "Section II-A; Section IV-C, Theorem 4 and proof; Section V, Algorithm 1 and Remark 2; Section VI stopping rules",
+      "read": "Initial v1 reviewed, then current v2 found by version check. Full main certificate and explicit absence of termination/convergence guarantee read in v2.",
+      "version": "v1 July 1, 2026; latest v2 September 10, 2026. Attainment assumption and Remark 2 retained in public audit.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    }
+  ],
+  "independent_corroboration": {
+    "source": "ADH19",
+    "relation": "No author in common with J09; independently authored explicit strict-stability status statement in Section 5.2.",
+    "limit": "The explicit status source dates from 2018/2019. The 2025–2026 works are current scope checks, not new independent statements that every possible resolution has been ruled out."
+  },
+  "resolution_scope_comparisons": [
+    {
+      "source": "BT00, Theorem 2",
+      "input_match": "Finite rational matrices, including two-mode instances.",
+      "target_difference": "Decides boundedness or rho<=1, not rho<1. Section 1 explicitly leaves the latter question unresolved.",
+      "assessment": "No matching resolution."
+    },
+    {
+      "source": "JB08, Proposition 1",
+      "input_match": "Ordinary finite matrix families.",
+      "extra_hypothesis": "The family has the finiteness property.",
+      "target_difference": "The enumeration argument's boundary termination uses that hypothesis; arbitrary rational inputs have no such promise.",
+      "assessment": "Conditional/class-restricted decision result."
+    },
+    {
+      "source": "ADH19, Theorem 5.2",
+      "input_match": "Finite real matrix families, hence rational inputs are included.",
+      "conclusion": "Existence of a contracting polynomial norm characterizes stable cases.",
+      "target_difference": "No degree bound or total procedure with negative termination is supplied.",
+      "assessment": "Complete positive certificate characterization, not a total decider."
+    },
+    {
+      "source": "Bui25, Theorems 1, 7, 8",
+      "input_match": "Theorem 8 discusses ordinary positive matrices; Theorems 1 and 7 discuss bilinear maps.",
+      "target_difference": "Undecidability statements retain <=1; computability is approximation. Strict positivity of entries is not strictness of the threshold.",
+      "assessment": "No transfer to the requested strict rational-matrix decision problem."
+    },
+    {
+      "source": "MR26, accessible author-version Theorems 2.5–2.7 and Algorithm 3.1",
+      "input_match": "Finite ordinary matrix families.",
+      "extra_hypothesis": "Certificate tree/vertices or spectrum-maximizing candidate products; termination is conditional.",
+      "target_difference": "Wider applicability of the certificate algorithm does not establish a finite answer for every rational input.",
+      "assessment": "Reviewed author-version scope does not settle the question; journal full-text access limit retained."
+    },
+    {
+      "source": "NJ26 v2, Theorem 4; Algorithm 1 and Remark 2",
+      "input_match": "Finite ordinary matrix families under arbitrary switching.",
+      "extra_hypothesis": "Attained graph optimization optimum and tight subgraph with at most one outgoing edge per node.",
+      "target_difference": "The theorem proves exactness under these conditions. Remark 2 explicitly provides no termination or convergence guarantee.",
+      "assessment": "Current September 10 version does not give a total decider."
+    },
+    {
+      "source": "J09, Theorem 2.5 and Section 2.2.2",
+      "target_difference": "Non-semialgebraicity rules out a finite polynomial description over real parameters, not an arbitrary Turing algorithm on rational inputs.",
+      "assessment": "Distinct computational barrier, not an undecidability proof for this target."
+    }
+  ],
+  "duplicate_review": {
+    "baseline": "Original 300 statements and metadata were previously fully inventoried; current 340 active pages and all accepted pending records searched by model/aliases.",
+    "nearest": [
+      {
+        "ids": [
+          273,
+          327
+        ],
+        "difference": "Fixed continuous/discrete orbit hitting a hyperplane, not convergence under all switching sequences."
+      },
+      {
+        "ids": [
+          319
+        ],
+        "difference": "Sharp threshold for existence of a stable dynamic controller for a scalar plant family."
+      },
+      {
+        "ids": [
+          330
+        ],
+        "difference": "Generic dimension classification for existence of static output feedback; no arbitrary switching."
+      },
+      {
+        "ids": [
+          148
+        ],
+        "difference": "Finite-jet determination of nonlinear local controllability."
+      }
+    ],
+    "result": "No equivalent active or pending entry found. JSR and dynamical formulations counted once."
+  },
+  "search_review": {
+    "routes": [
+      "Web searches with current years and unrestricted dates",
+      "Primary author PDFs and monograph",
+      "arXiv full texts and version histories",
+      "Primary publisher/institutional metadata",
+      "Author publication page and Kozyakin specialist bibliography"
+    ],
+    "outcome": "No matching resolution located. Primary-source theorem/model comparisons are above; discovery snippets alone do not establish status.",
+    "nonadopted_sources": "Gurvits's StackExchange answer is a discovery lead, not primary evidence. The Lagarias correction PDF was badly encoded in web extraction and is not used for mathematical claims. Bibliography update dates are not treated as fresh status dates."
+  },
+  "access_limits": [
+    "Publisher full text for MR26 was not retrieved; the accessible latest arXiv version and publisher description were checked, with numbering explicitly attributed to the author version.",
+    "Tilburg institutional PDF endpoints failed; ADH19's latest arXiv full text was accessible.",
+    "No specialist or independent human review has occurred. Literature search does not prove nonexistence of an unindexed resolution."
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/switched-linear-stability-decidability.md",
+  "public_page_path": null,
+  "public_status": "Open in cited literature; no later resolution located as of 2026-09-18.",
+  "second_review": {
+    "reviewer": "Primary agent in a separated adversarial self-pass after drafting",
+    "searched_on": "2026-09-18",
+    "search_ids": [
+      "A44-1",
+      "A44-2",
+      "A44-3",
+      "A44-4",
+      "A44-5",
+      "A44-6"
+    ],
+    "result": "Passed formulation, strict endpoint, unrestricted quantifiers, rational encoding, source independence, latest-version scope and duplicate checks.",
+    "issues_checked": [
+      "No replacement of rational inputs by integers or arbitrary unencoded real numbers.",
+      "All initial conditions and infinite switching signals retained; no finite-horizon surrogate.",
+      "rho=1 must receive NO; rho<=1 undecidability is not reused as a strict result.",
+      "Existence of some controller or switching policy is not the target.",
+      "No NLA approximation or runtime problem is added; application is exact control verification.",
+      "Current NJ26 v2's explicit Remark 2 checked rather than relying on v1."
+    ],
+    "limitations": "Not an independent-agent or expert review; no claim of proof certification."
+  },
+  "quality_checks": {
+    "mathematical_review": "Passed separated A44 self-pass after drafting.",
+    "math_render": "13 expressions passed strict KaTeX; full-page Chrome screenshot visually inspected with fonts loaded.",
+    "local_links": "All four draft links and all 108 local links across the four updated research Markdown files resolve.",
+    "external_links": "Nine bibliography URLs checked: seven HTTP 200; arXiv MR26 direct GET returned 406, but its full text was read through the web tool; SIAM DOI returned 403, with accessible arXiv author version. See separate link-check JSON.",
+    "counts": "48 formal records = 43 accepted + 5 held; 40 integrated/published + 3 pending accepted; 340 active; coverage and 1463 unique query IDs reconcile."
+  },
+  "research_checkpoint_validation": {
+    "checked_on": "2026-09-18",
+    "catalogue_write": "Passed; generated README retains 340 indexed problems.",
+    "catalogue_check": "Passed; 340 unique problems, metadata, required sections, math delimiters, links and README freshness.",
+    "git_diff_check": "Passed before staging; staged check still to run.",
+    "upstream_refresh": "Fetched origin/main; equals local pre-checkpoint HEAD f6cee3df9d6d30a62961767e1ddb3db7194d04f5. No new upstream catalogue entries.",
+    "preservation": "No original problem pages, metadata, historical dates or user handoff files changed."
+  },
+  "remote_publication": {
+    "state": "Pending authorized direct push to main; research draft only, no active ID."
+  }
+}
