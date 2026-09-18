@@ -202,9 +202,13 @@
     {
       "commit": "e49b24d6fcd6fa3be767df39595fd8ca08062445",
       "purpose": "Record reviewed Reed colouring draft and evidence; pushed directly to main and independently verified September 18, 2026."
+    },
+    {
+      "commit": "e2a291c4328224f406e29f1b9811f744faeb1040",
+      "purpose": "Record reviewed polynomial local-stability draft and evidence; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "Forty catalogue additions (301–340) and the first eight pending accepted research drafts are published directly on main. The ninth accepted draft, polynomial local-stability decidability, has passed review and validation and awaits the current checkpoint push. Active total remains 340.",
+  "remote_state": "Forty catalogue additions (301–340) and all nine pending accepted research drafts are published directly on main. The polynomial local-stability checkpoint e2a291c4328224f406e29f1b9811f744faeb1040 was pushed and verified through a separate remote-ref read on September 18, 2026. Nine accepted drafts await batch integration; active total remains 340.",
   "next_actions": [
     "Prepare one more reviewed draft for the next ten-entry batch; refresh statuses and upstream duplicates before allocating IDs. Nine accepted drafts await integration: sharp matroid secretary, binary-code rate, arbitrary-switching stability, list edge-colouring, chemostat exclusion, Tuza triangle packing–covering, binary skew-symmetric broadcast capacity, Reed colouring and polynomial local-stability decidability.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",

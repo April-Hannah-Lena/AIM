@@ -338,5 +338,13 @@
     "The Wiley HTML omits displayed formula images; the full fixed-degree and failure-branch prose was readable. The Hindawi PDF route failed. This source is used only for the documented algorithm scope.",
     "Journal versions of cited arXiv preprints were not independently compared; exact accessed versions and histories are retained. No Lean formalization or all supporting proofs were independently certified."
   ],
-  "applied_significance": "Foundational limit of automated local stability verification for polynomial nonlinear-control models: small state disturbances must remain nearby and relax to equilibrium. No efficient-runtime guarantee, controller-synthesis result or unproved transfer from a Taylor approximation is asserted."
+  "applied_significance": "Foundational limit of automated local stability verification for polynomial nonlinear-control models: small state disturbances must remain nearby and relax to equilibrium. No efficient-runtime guarantee, controller-synthesis result or unproved transfer from a Taylor approximation is asserted.",
+  "publication": {
+    "kind": "accepted research draft; not active catalogue integration",
+    "destination": "MColbrook/AIM main",
+    "content_commit": "e2a291c4328224f406e29f1b9811f744faeb1040",
+    "commit_url": "https://github.com/MColbrook/AIM/commit/e2a291c4328224f406e29f1b9811f744faeb1040",
+    "pushed_on": "2026-09-18",
+    "remote_verification": "Separate ls-remote read returned the exact full content commit after the successful direct push."
+  }
 }
