@@ -13310,5 +13310,377 @@
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Separated adversarial self-pass after drafting: exact integral quantifiers, duplicate review, current claims and counterexample scope.",
     "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S362-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "open problems statistics conjecture multivariate log concave maximum likelihood risk 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S362-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "control theory Kalman conjecture discrete time second order counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S362-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "information theory \"conjecture\" \"binary\" \"broadcast\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S362-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "mathematical biology \"conjecture\" \"open\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S363-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Gaussian completely monotone conjecture\" proof counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S363-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"McKean\" \"Fisher information\" \"conjecture\" 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S363-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Carrasco conjecture\" solved proof 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S363-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew symmetric\" \"capacity\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S364-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Carrasco conjecture\" necessity multipliers",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S364-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"log-concave\" \"minimax\" \"open problem\" density estimation",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S364-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Gaussian\" \"rate distortion\" \"open problem\" multiterminal",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S364-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric broadcast channel\" capacity proof solved counterexample",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S365-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Carrasco conjecture\" proof counterexample 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S365-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"O’Shea\" \"Zames\" \"Falb\" necessity 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S365-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric broadcast channel\" \"capacity\" \"solved\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S365-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew symmetric\" \"open\" Gohari Anantharam",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S366-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric\" \"capacity\" 2025 2026 Marton",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S366-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric\" \"proof\" \"capacity region\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S366-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"On the necessity and sufficiency\" \"bounded operators\" Khong Su arxiv",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S366-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Carrasco conjecture\" 2024 2025 2026 -site:sotwe.com",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S367-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Blahut–Arimoto Algorithms for Inner and Outer Bounds\" authors",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S367-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric\" \"capacity\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S367-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric\" \"capacity\" \"2026\" -site:capacityatlas.org",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S367-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric\" \"An information inequality\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery and initial resolution screening; full source and theorem review follows for selected leads."
+  },
+  {
+    "search_id": "S368-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric\" resolution disproof refutation capacity",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, author and version checks, and later-result comparisons before drafting.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "S368-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew symmetric\" \"capacity region\" \"J\" Gohari",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, author and version checks, and later-result comparisons before drafting.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "S368-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"An information inequality and evaluation\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, author and version checks, and later-result comparisons before drafting.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "S368-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric\" \"capacity\" September",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, author and version checks, and later-result comparisons before drafting.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "S369-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"A Two Auxiliary Receiver Outer Bound\" authors 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, author and version checks, and later-result comparisons before drafting.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "S369-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Outer bounds for multiuser settings\" \"auxiliary receiver\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, author and version checks, and later-result comparisons before drafting.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "S369-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric\" \"capacity\" \"counterexample\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, author and version checks, and later-result comparisons before drafting.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "S369-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric\" \"capacity\" \"resolved\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, author and version checks, and later-result comparisons before drafting.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "S370-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Gohari\" \"Liu\" \"Nair\" \"Two Auxiliary\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, author and version checks, and later-result comparisons before drafting.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "S370-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"An information inequality and evaluation of Marton\" \"2011\" \"2013\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, author and version checks, and later-result comparisons before drafting.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "S370-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric\" \"outer bound\" \"2026\" -site:capacityatlas.org",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, author and version checks, and later-result comparisons before drafting.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "S370-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric\" \"capacity\" \"solved\" -site:capacityatlas.org",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary formulation, author and version checks, and later-result comparisons before drafting.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "A48-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric broadcast channel\" proof solved resolution 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting; independent agent or human review not performed.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "A48-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Marton\" \"capacity\" \"binary\" \"2026\" proof",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting; independent agent or human review not performed.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "A48-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew-symmetric\" counterexample disproof correction erratum",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting; independent agent or human review not performed.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "A48-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Gohari\" \"Liu\" \"Nair\" capacity September 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting; independent agent or human review not performed.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "A48-5",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"BSSC\" \"capacity\" \"feedback\" \"without\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting; independent agent or human review not performed.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "A48-6",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"An information inequality for the BSSC\" withdrawn gap correction",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting; independent agent or human review not performed.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "A48-7",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"sum-broadcast\" \"binary\" \"skew\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting; independent agent or human review not performed.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "A48-8",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"binary skew symmetric\" capacity new bound 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting; independent agent or human review not performed.",
+    "candidate_id": "binary-skew-symmetric-broadcast"
   }
 ]

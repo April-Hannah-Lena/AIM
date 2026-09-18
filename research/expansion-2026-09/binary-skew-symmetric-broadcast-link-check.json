@@ -1,0 +1,89 @@
+{
+  "checked_on": "2026-09-18",
+  "method": "Direct HTTPS GET; up to 65536 response bytes inspected for document type/title and browser challenges; four concurrent workers.",
+  "links": [
+    {
+      "url": "https://arxiv.org/html/0901.1492v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/0901.1492v3",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "An information inequality for the BSSC channel"
+    },
+    {
+      "url": "https://arxiv.org/html/2606.12839v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2606.12839v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "The Capacity Region for Classes of Sum-Broadcast Channels"
+    },
+    {
+      "url": "https://chandra.ie.cuhk.edu.hk/pub/papers/BC/GK-outer.pdf",
+      "status": 200,
+      "final_url": "https://chandra.ie.cuhk.edu.hk/pub/papers/BC/GK-outer.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://chandra.ie.cuhk.edu.hk/pub/papers/BC/inineq.pdf",
+      "status": 200,
+      "final_url": "https://chandra.ie.cuhk.edu.hk/pub/papers/BC/inineq.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://doi.org/10.1109/TIT.2021.3128136",
+      "status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9615041/",
+      "content_type": "text/html; charset=UTF-8",
+      "sample_bytes": 0,
+      "access_warning": "Empty HTTP 202 response; author manuscript returned HTTP 200 and supplied the full-text reading."
+    },
+    {
+      "url": "https://doi.org/10.3390/e26030178",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10969477/",
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10969477/",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Blahut–Arimoto Algorithms for Inner and Outer Bounds on Capacity Regions of Broadcast Channels - PMC"
+    },
+    {
+      "url": "https://staff.ie.cuhk.edu.hk/~cnair/pub/papers/BC/loc-ten-bin.pdf",
+      "status": 200,
+      "final_url": "https://staff.ie.cuhk.edu.hk/~cnair/pub/papers/BC/loc-ten-bin.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://staff.ie.cuhk.edu.hk/~cnair/pub/papers/NIT/Auxiliary-Receiver.pdf",
+      "status": 200,
+      "final_url": "https://staff.ie.cuhk.edu.hk/~cnair/pub/papers/NIT/Auxiliary-Receiver.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://staff.ie.cuhk.edu.hk/~cnair/pub/publications.html",
+      "status": 200,
+      "final_url": "https://staff.ie.cuhk.edu.hk/~cnair/pub/publications.html",
+      "content_type": "text/html; charset=UTF-8",
+      "sample_bytes": 39974,
+      "html_title": "Publications – Prof. Chandra Nair"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10969477/fullTextXML",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10969477/fullTextXML",
+      "content_type": "application/xml",
+      "sample_bytes": 65536,
+      "article_title": "Blahut–Arimoto Algorithms for Inner and Outer Bounds on Capacity Regions of Broadcast Channels",
+      "title_verification": "Full primary XML was downloaded and parsed earlier in the source review."
+    }
+  ],
+  "access_summary": "Nine HTTP 200 responses with matching HTML titles or PDF/XML types; IEEE DOI returned an empty 202 response; Entropy DOI returned 403. Both papers have successfully accessed full-text alternatives among the checked links. PMC article title was accessible on this direct check, following an earlier browser challenge through the web reader.",
+  "initial_sandbox_attempt": "All eleven initial direct probes failed DNS resolution inside the network-restricted sandbox. These results are the successful permission-reviewed network retry, not inferred availability."
+}

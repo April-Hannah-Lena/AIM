@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 46,
+  "new_accepted": 47,
   "active_total": 340,
-  "candidates_investigated": 51,
+  "candidates_investigated": 52,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 154,
-  "remaining_to_target": 204,
+  "remaining_to_minimum": 153,
+  "remaining_to_target": 203,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -192,18 +192,19 @@
       "purpose": "Record reviewed Tuza packing-covering draft and evidence; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "Forty catalogue additions (301–340) and all six pending accepted research drafts are published directly on main. The Tuza triangle packing–covering checkpoint 02e5ac183cddf5e1d4559a15394340353981baf3 was pushed and verified through a separate remote-ref read on September 18, 2026. Six accepted drafts await batch integration; active total remains 340.",
+  "remote_state": "Forty catalogue additions (301–340) and the preceding six accepted research drafts are published directly on main. The seventh accepted draft, binary skew-symmetric broadcast capacity, is locally validated and awaits the checkpoint push. Active total remains 340.",
   "next_actions": [
-    "Prepare four more reviewed drafts for the next ten-entry batch; refresh statuses and upstream duplicates before allocating IDs. Six accepted drafts await integration: sharp matroid secretary, binary-code rate, arbitrary-switching stability, list edge-colouring, chemostat exclusion and Tuza triangle packing–covering.",
+    "Prepare three more reviewed drafts for the next ten-entry batch; refresh statuses and upstream duplicates before allocating IDs. Seven accepted drafts await integration: sharp matroid secretary, binary-code rate, arbitrary-switching stability, list edge-colouring, chemostat exclusion, Tuza triangle packing–covering and binary skew-symmetric broadcast capacity.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the five held candidates and discovery-only leads outside the active count; preserve original identifiers and historical dates.",
     "CFN sunlet projective quadratic generation needs independent corroboration and saturation-scope review; private-learning leads still need complete formulation and corroboration.",
     "Phylogenetic character-threshold and strong cane-toad spreading leads have full formulations but still need independent corroboration.",
     "Do not admit general strongly polynomial LP without adjudicating matching claims; keep historical entries 031, 032 and 286 follow-ups separate from new counts.",
-    "Bernoulli Renyi joint-parameter concavity and the small-sample entangled-Gaussian mean question still need independently authored status corroboration. The 2026 statistics survey does not explicitly corroborate that precise small-sample remainder. Continue precise statistics, biology, information and control discovery."
+    "Bernoulli Renyi joint-parameter concavity and the small-sample entangled-Gaussian mean question still need independently authored status corroboration. The 2026 statistics survey does not explicitly corroborate that precise small-sample remainder. Continue precise statistics, biology, information and control discovery.",
+    "Complete the Carrasco absolute-stability formulation and independent corroboration; only the survey introduction/model and later abstract-level leads have been inspected. Keep continuous/discrete time and static-nonlinearity/operator assumptions separate."
   ],
   "coverage": {
-    "inverse3": 6,
+    "inverse3": 7,
     "spectral2": 1,
     "applied": 8,
     "stochastic3": 10,
@@ -218,11 +219,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 40,
-  "count_semantics": "Forty-six accepted additions: forty integrated and published, six accepted research drafts pending integration. Active catalogue total 340. Five held records excluded.",
+  "count_semantics": "Forty-seven accepted additions: forty integrated and published, seven accepted research drafts pending integration. Active catalogue total 340. Five held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 40,
-  "coverage_semantics": "Accepted additions by primary section; forty integrated, six pending accepted drafts.",
+  "coverage_semantics": "Accepted additions by primary section; forty integrated, seven pending accepted drafts.",
   "remaining_integrations_to_minimum": 160,
   "remaining_integrations_to_target": 210,
-  "pending_accepted": 6
+  "pending_accepted": 7
 }
