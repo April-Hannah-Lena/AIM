@@ -284,3 +284,11 @@ All 45 actual queries are saved. The unaccepted leads above do not affect the 44
 - Shi–Bai–Bao's [2026 unstirred model](https://doi.org/10.3934/dcdsb.2026053) was screened through its publisher introduction and displayed density-dependent reaction–diffusion model. The full theorem text is restricted and was not read. It is not an admission source. The 2017 recycle-sludge and 2025 plasmid/toxin papers likewise remain supplementary discovery with explicit access limits in the ledger.
 
 All 70 actual queries are saved. Counts are now 45 accepted additions and 50 formal records; none of the discovery-only leads above is counted.
+
+## Heterogeneous Gaussian estimation follow-up (S352–S353; 2026-09-18)
+
+The [Diakonikolas–Kane–Liu–Pittas author manuscript](https://cseweb.ucsd.edu/~dakane/EntangledMean.pdf), *Entangled Mean Estimation in High-Dimensions*, was read through Definition 1.1, equation (1), the full Theorem 1.2 and its following open-question paragraph. Its arbitrary covariance model already has an efficient near-optimal error guarantee, up to logarithmic factors, when the sample size is at least the dimension divided by the good-sample fraction times a logarithmic factor. Extending the guarantee to smaller sample sizes is explicitly left open. The formula itself assigns an infinite bound in the very sparse signal regime; that convention must be handled before proposing any all-parameter statement.
+
+The [arXiv history](https://arxiv.org/abs/2501.05425) has only v1, January 9, 2025; the author PDF prints January 10. Independent corroboration of the precise remaining question, the conference-version comparison and a full later-resolution audit are still needed. [Compton–Valiant](https://arxiv.org/abs/2312.02417) supplies the earlier near-optimal one-dimensional result and must be read at theorem level before using it as an admission source. The 2020 broad-rate lead cannot be presented as if these advances had not occurred. No candidate record or accepted addition is created by this follow-up.
+
+Eight actual queries were saved, bringing the search log to 1,586 unique records. Accepted and integrated counts remain 45 and 40.

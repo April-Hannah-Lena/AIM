@@ -400,8 +400,11 @@
     "upstream": "Fetched origin/main equals local HEAD 11f381f936d81d54edc68dd81c107bda6c42117d; no upstream additions to reconcile."
   },
   "remote_publication": {
-    "status": "not yet published",
-    "catalogue_state": "Accepted research draft only; no active ID."
+    "status": "published directly to main",
+    "commit": "a40740e74384c46e368784bb395fed49bb0b249b",
+    "verified_on": "2026-09-18",
+    "verification": "Successful direct push followed by a separate git ls-remote origin refs/heads/main returning the full checkpoint hash.",
+    "catalogue_state": "Accepted research draft only; no active ID or added integrated count."
   },
   "prepublication_refresh": {
     "date": "2026-09-18",

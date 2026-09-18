@@ -12903,5 +12903,69 @@
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Separated adversarial self-pass after draft creation; finite-species scope, later model/theorem comparisons and normalization checked.",
     "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S352-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entangled Gaussians\" \"optimal\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Statistics discovery only: recent entangled-Gaussian results and remaining sample-size regime; no candidate admission."
+  },
+  {
+    "search_id": "S352-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"subset-of-signals\" \"open\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Statistics discovery only: recent entangled-Gaussian results and remaining sample-size regime; no candidate admission."
+  },
+  {
+    "search_id": "S352-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"heteroskedastic\" \"mean estimation\" \"open problem\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Statistics discovery only: recent entangled-Gaussian results and remaining sample-size regime; no candidate admission."
+  },
+  {
+    "search_id": "S352-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entangled single-sample\" solved minimax",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Statistics discovery only: recent entangled-Gaussian results and remaining sample-size regime; no candidate admission."
+  },
+  {
+    "search_id": "S353-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Entangled Mean Estimation in High-Dimensions\" 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Statistics discovery only: recent entangled-Gaussian results and remaining sample-size regime; no candidate admission."
+  },
+  {
+    "search_id": "S353-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entangled mean\" \"open\" \"sample\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Statistics discovery only: recent entangled-Gaussian results and remaining sample-size regime; no candidate admission."
+  },
+  {
+    "search_id": "S353-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"subset-of-signals\" \"small\" \"sample\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Statistics discovery only: recent entangled-Gaussian results and remaining sample-size regime; no candidate admission."
+  },
+  {
+    "search_id": "S353-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Diakonikolas\" \"Pittas\" \"entangled\" 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Statistics discovery only: recent entangled-Gaussian results and remaining sample-size regime; no candidate admission."
   }
 ]

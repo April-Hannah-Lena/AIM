@@ -182,9 +182,13 @@
     {
       "commit": "d33762befc329d523217811b84df150fd370ee9a",
       "purpose": "Record reviewed list edge-colouring draft, evidence and breadth discovery; pushed directly to main and independently verified September 18, 2026."
+    },
+    {
+      "commit": "a40740e74384c46e368784bb395fed49bb0b249b",
+      "purpose": "Record reviewed chemostat exclusion draft and evidence; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "Forty catalogue additions (301–340) and the first four pending accepted drafts are published directly on main. The fifth accepted draft, chemostat unequal-removal exclusion, awaits final checkpoint validation and upload; active total remains 340.",
+  "remote_state": "Forty catalogue additions (301–340) are published directly on main. All five accepted research drafts—sharp matroid secretary, binary-code rate, arbitrary-switching stability, list edge-colouring and chemostat exclusion—and their evidence are published. The chemostat checkpoint a40740e74384c46e368784bb395fed49bb0b249b was independently verified by ls-remote on September 18, 2026. All five await batch integration; active total remains 340.",
   "next_actions": [
     "Prepare five more reviewed drafts for the next ten-entry batch; refresh statuses and upstream duplicates before allocating IDs. Sharp matroid secretary, binary-code rate, arbitrary-switching stability, list edge-colouring and chemostat unequal-removal exclusion are accepted without active IDs.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
