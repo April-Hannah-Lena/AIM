@@ -8205,5 +8205,285 @@
     "query": "\"trace reconstruction\" \"polynomial number\" \"September 2026\"",
     "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
     "review_stage": "Separated adversarial self-pass: correction and latest-status follow-up."
+  },
+  {
+    "search_id": "S226-1",
+    "query": "\"bipartite bound information\" 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Breadth discovery"
+  },
+  {
+    "search_id": "S226-2",
+    "query": "\"bound information\" \"open problem\" bipartite 2025",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Breadth discovery"
+  },
+  {
+    "search_id": "S226-3",
+    "query": "\"Problems, Progress and Perspectives\" \"open\" biology 2026 conjecture",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Breadth discovery"
+  },
+  {
+    "search_id": "S227-1",
+    "query": "\"Mackey Glass\" \"conjecture\" global stability 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Breadth discovery and apparent-resolution screening"
+  },
+  {
+    "search_id": "S227-2",
+    "query": "\"negative Schwarzian\" \"global stability\" conjecture delay 2025",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Breadth discovery and apparent-resolution screening"
+  },
+  {
+    "search_id": "S227-3",
+    "query": "\"Goddyn\" \"thin tree conjecture\" 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Breadth discovery and apparent-resolution screening"
+  },
+  {
+    "search_id": "S228-1",
+    "query": "\"Wright type delay differential equations with negative Schwarzian\" Liz Pinto",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Generalized Wright candidate formulation and disqualification"
+  },
+  {
+    "search_id": "S228-2",
+    "query": "\"Hopf bifurcation and period functions for Wright type delay differential equations\" conjecture",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Generalized Wright candidate formulation and disqualification"
+  },
+  {
+    "search_id": "S228-3",
+    "query": "\"negative Schwarzian\" \"conjecture\" \"counterexample\" delay",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Generalized Wright candidate formulation and disqualification"
+  },
+  {
+    "search_id": "S229-1",
+    "query": "\"Global stability and periodicity in a delay differential model\" 130555",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Current results and resolution searches"
+  },
+  {
+    "search_id": "S229-2",
+    "query": "\"generalized Wright conjecture\" 2026 proof counterexample",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Current results and resolution searches"
+  },
+  {
+    "search_id": "S229-3",
+    "query": "\"Wright\" \"negative Schwarzian\" \"2026\" \"proof\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Current results and resolution searches"
+  },
+  {
+    "search_id": "S230-1",
+    "query": "\"Hopf bifurcation for Wright-type\" pdf Balazs Rost",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Current versions, corrected results and full-text access"
+  },
+  {
+    "search_id": "S230-2",
+    "query": "\"Global stability and periodicity in a delay differential model\" pdf Adimy",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Current versions, corrected results and full-text access"
+  },
+  {
+    "search_id": "S230-3",
+    "query": "\"A proof of Wright\" Jaquette conjecture pdf",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Current versions, corrected results and full-text access"
+  },
+  {
+    "search_id": "S231-1",
+    "query": "\"Global stability and periodicity\" \"Crauste\" arxiv",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Current versions, corrected results and full-text access"
+  },
+  {
+    "search_id": "S231-2",
+    "query": "\"generalized Wright\" \"disproved\" OR \"refuted\" OR \"solved\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Current versions, corrected results and full-text access"
+  },
+  {
+    "search_id": "S231-3",
+    "query": "\"Global stability of Wright-type equations with negative Schwarzian\" \"erratum\" OR \"correction\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Current versions, corrected results and full-text access"
+  },
+  {
+    "search_id": "S232-1",
+    "query": "\"van den Berg\" \"Jaquette\" \"A proof of Wright’s conjecture\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Current status, versions, and possible counterexample access"
+  },
+  {
+    "search_id": "S232-2",
+    "query": "\"Wright type\" \"negative Schwarzian\" \"2025\" \"2026\" \"counterexample\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Current status, versions, and possible counterexample access"
+  },
+  {
+    "search_id": "S232-3",
+    "query": "\"Liz\" \"Pinto\" \"Robledo\" \"conjecture\" \"solved\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Current status, versions, and possible counterexample access"
+  },
+  {
+    "search_id": "S233-1",
+    "query": "\"BalazsRost2020.pdf\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Current status, versions, and possible counterexample access"
+  },
+  {
+    "search_id": "S233-2",
+    "query": "\"Global stability and periodicity in a delay differential model\" \"hal-05363003\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Current status, versions, and possible counterexample access"
+  },
+  {
+    "search_id": "S234-1",
+    "query": "\"Hopf bifurcation for Wright-type delay differential equations\" \"105188\" pdf",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Updated sources and counterexample access"
+  },
+  {
+    "search_id": "S234-2",
+    "query": "\"Global stability and periodicity in a delay differential model\" \"pdf\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Updated sources and counterexample access"
+  },
+  {
+    "search_id": "S234-3",
+    "query": "\"L.A.S. and negative Schwarzian derivative do not imply G.A.S.\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Updated sources and counterexample access"
+  },
+  {
+    "search_id": "S235-1",
+    "query": "\"Jiménez López\" \"Parreño\" \"Clark\" pdf 2016",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Author variants and apparent-resolution full text"
+  },
+  {
+    "search_id": "S235-2",
+    "query": "\"Wright\" \"negative Schwarzian\" \"2024\" \"2025\" solved",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Author variants and apparent-resolution full text"
+  },
+  {
+    "search_id": "S235-3",
+    "query": "\"Díaz\" \"Hasík\" \"Kopfová\" \"Trofimchuk\" global stability correction withdrawal",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Author variants and apparent-resolution full text"
+  },
+  {
+    "search_id": "A34-1",
+    "query": "\"generalized Wright conjecture\" proof proved solved resolution",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A34-2",
+    "query": "\"negative Schwarzian\" \"global attractor\" counterexample disproof refutation",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A34-3",
+    "query": "\"Wright type\" \"local stability\" \"global\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A34-4",
+    "query": "\"negative Schwarzian\" \"37/24\" \"pi/2\" proof",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A34-5",
+    "query": "\"Balazs\" \"Rost\" \"Wright\" erratum correction withdrawal",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A34-6",
+    "query": "\"Wright conjecture\" generalized \"September\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
   }
 ]

@@ -795,10 +795,11 @@
     "pull_request_url": null
   },
   "research_publication": {
-    "state": "local_pending_push",
+    "state": "pushed_and_independently_verified",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null
+    "commit": "f9172498d6eea7bf45752c6852787851c35c15d3",
+    "verified_on": "2026-09-17"
   },
   "search_outcomes": [
     {

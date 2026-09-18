@@ -1,0 +1,851 @@
+{
+  "candidate_id": "generalized-wright-global-attraction",
+  "proposed_catalogue_id": null,
+  "title": "Global attraction for Wright-type delayed feedback",
+  "aliases": [
+    "generalized Wright conjecture",
+    "negative-Schwarzian global stability conjecture"
+  ],
+  "primary_section": "inverse",
+  "secondary_tags": [
+    "population dynamics",
+    "delay differential equations",
+    "nonlinear feedback"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Exact sourced formulation, independent specialist corroboration, current status search, model/theorem comparisons and separated A34 review passed. Await batch integration and its fresh upstream/status review.",
+  "problem_fingerprint": {
+    "model_or_objects": "Autonomous scalar x'(t)=f(x(t−1)) with a single constant delay.",
+    "dimension": "Scalar state; phase space C([-1,0],R).",
+    "domain": "All real state values and continuous real histories.",
+    "regularity_and_data_class": "f in C^3(R,R), f(0)=0, xf(x)<0 for x≠0; f bounded below; at most one critical point, which if present is a local extremum; Sf<0 wherever f'≠0.",
+    "boundary_or_initial_conditions": "Arbitrary continuous history φ on [-1,0], no smallness or sign restriction.",
+    "parameter_range": "0<−f'(0)<π/2, the original strict conjecture.",
+    "quantifiers": "For every such f and every continuous history, does its forward solution tend to zero?",
+    "normalization": "Delay one; a positive fixed delay can be rescaled, changing the effective slope by its factor.",
+    "observable_or_norm": "Scalar convergence x(t)→0; no uniform rate or uniform-in-history convergence requested.",
+    "limit_regime_and_order": "t→∞ for each fixed f and history.",
+    "requested_conclusion": "Global attraction of the unique equilibrium from local exponential stability.",
+    "computational_model_and_dependencies": "No numerical or finite-horizon success criterion."
+  },
+  "source_records": [
+    {
+      "source_id": "L03",
+      "role": "Original formulation, applications and partial theorem",
+      "authors": [
+        "Eduardo Liz",
+        "Manuel Pinto",
+        "Gonzalo Robledo",
+        "Sergei Trofimchuk",
+        "Victor Tkachenko"
+      ],
+      "title": "Wright type delay differential equations with negative Schwarzian",
+      "venue_or_repository": "Discrete and Continuous Dynamical Systems 9(2), 309–321",
+      "publication_type": "Scholarly publication; version and access described below",
+      "publication_date": "2003",
+      "identifier": "10.3934/dcds.2003.9.309; arXiv:math/0111285",
+      "version": "arXiv v2, March 5, 2002; publisher identity checked",
+      "stable_url": "https://arxiv.org/pdf/math/0111285v2",
+      "locator": "§1, pp. 1–5: H1–H3, Conjecture 1.2, Theorems 1.1 and 1.3, Examples 1.4–1.5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full text for the stated sections",
+      "sections_actually_read": [
+        "Complete introduction including assumptions, conjecture, named theorem statements and population transformations",
+        "Publisher metadata and arXiv version history"
+      ],
+      "supported_claim": "Exact strict-slope conjecture; the 3/2 range is proved.",
+      "independent_of_source_ids": [],
+      "access_limitations": "The PDF's generated November 2018 date is not its arXiv version date. Its classical-Wright open-status sentence is superseded by VJ18; it is not used as current status evidence.",
+      "additional_urls": [
+        "https://www.aimsciences.org/article/doi/10.3934/dcds.2003.9.309",
+        "https://arxiv.org/abs/math/0111285"
+      ]
+    },
+    {
+      "source_id": "BR20",
+      "role": "Independent specialist status and local-bifurcation comparison",
+      "authors": [
+        "István Balázs",
+        "Gergely Röst"
+      ],
+      "title": "Hopf bifurcation for Wright-type delay differential equations: The simplest formula, period estimates, and the absence of folds",
+      "venue_or_repository": "Communications in Nonlinear Science and Numerical Simulation 84, 105188",
+      "publication_type": "Scholarly publication; version and access described below",
+      "publication_date": "2020-05",
+      "identifier": "10.1016/j.cnsns.2020.105188; earlier arXiv:1801.04325",
+      "version": "Accepted manuscript dated January 14, 2020; public institutional deposit",
+      "stable_url": "https://publicatio.bibl.u-szeged.hu/18524/3/31123767.pdf",
+      "locator": "§§1–2; §4.1 Theorem 14; §5 Corollary 15, pp. 7–8",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full text for the stated sections",
+      "sections_actually_read": [
+        "Cover, abstract, model normalization and complete Theorem 1",
+        "Full §4.1 including Theorem 14 and its proof",
+        "Full §5 including conjecture discussion, Corollary 15 and proof",
+        "Earlier arXiv v1 §5 and institutional publication metadata"
+      ],
+      "supported_claim": "Explicitly retains the generalized conjecture; negative Schwarzian excludes subcritical Hopf bifurcation.",
+      "independent_of_source_ids": [
+        "L03",
+        "D26"
+      ],
+      "access_limitations": "Locators refer to the updated accepted manuscript, not the 2018 numbering. No independent proof certification.",
+      "additional_urls": [
+        "https://publicatio.bibl.u-szeged.hu/18524/",
+        "https://arxiv.org/abs/1801.04325"
+      ]
+    },
+    {
+      "source_id": "D26",
+      "role": "Current formulation and strongest reviewed general partial result",
+      "authors": [
+        "Mauro Díaz",
+        "Karel Hasík",
+        "Jana Kopfová",
+        "Sergei Trofimchuk"
+      ],
+      "title": "Global Stability of Wright-Type Equations with Negative Schwarzian",
+      "venue_or_repository": "SIAM Journal on Applied Dynamical Systems 25(2), 964–997",
+      "publication_type": "Scholarly publication; version and access described below",
+      "publication_date": "2026-04-23 (online); June 2026 issue",
+      "identifier": "10.1137/25M1737298; arXiv:2502.15965",
+      "version": "arXiv v1, February 21, 2025; journal metadata checked",
+      "stable_url": "https://arxiv.org/pdf/2502.15965v1",
+      "locator": "§1 pp. 1–5: H1–H3, Conjecture 1, Proposition 1.3, Theorem 1.4, Propositions 1.5–1.6, Corollaries 1.7–1.8",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full text for the stated sections",
+      "sections_actually_read": [
+        "Full introduction, named statements, applications and proof outline",
+        "ArXiv history (only v1 displayed) and journal authors, volume, pages and publication history"
+      ],
+      "supported_claim": "Retains the general conjecture while proving 37/24 for decreasing feedback and the f''(0)=0 case.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Full journal text redirects to its subscription preview; theorem locators use the accessible author version. Interval computations were not rerun. Shares an author with L03 and is not independent corroboration.",
+      "additional_urls": [
+        "https://epubs.siam.org/doi/abs/10.1137/25M1737298?af=R",
+        "https://arxiv.org/abs/2502.15965"
+      ]
+    },
+    {
+      "source_id": "VJ18",
+      "role": "Resolution of classical exponential special case",
+      "authors": [
+        "Jan Bouwe van den Berg",
+        "Jonathan Jaquette"
+      ],
+      "title": "A proof of Wright's conjecture",
+      "venue_or_repository": "Journal of Differential Equations 264(12), 7412–7462",
+      "publication_type": "Scholarly publication; version and access described below",
+      "publication_date": "2018",
+      "identifier": "10.1016/j.jde.2018.02.018",
+      "version": "Institutional copy of published version",
+      "stable_url": "https://research.vu.nl/ws/portalfiles/portal/119991482/A_proof_of_Wrights_conjecture.pdf",
+      "locator": "§1, Theorems 1.4–1.5 and 1.7, printed pp. 7413–7416",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full text for the stated sections",
+      "sections_actually_read": [
+        "Institutional metadata, abstract and entire introduction",
+        "Full statements of global attraction and no-fold results; proof outline"
+      ],
+      "supported_claim": "Classical Wright's exponential feedback is solved through the boundary π/2.",
+      "independent_of_source_ids": [],
+      "access_limitations": "The computational proof was not independently reexecuted or certified."
+    },
+    {
+      "source_id": "ACIP26",
+      "role": "Recent apparent counterexamples and sufficient stability conditions",
+      "authors": [
+        "Mostafa Adimy",
+        "Fabien Crauste",
+        "Anatoli Ivanov",
+        "Laurent Pujo-Menjouet"
+      ],
+      "title": "Global stability and periodicity in a delay differential model",
+      "venue_or_repository": "Journal of Mathematical Analysis and Applications 561(1), 130555",
+      "publication_type": "Scholarly publication; version and access described below",
+      "publication_date": "2026-09-01",
+      "identifier": "10.1016/j.jmaa.2026.130555; hal-05363003v2",
+      "version": "HAL author manuscript v2, deposited April 17, 2026",
+      "stable_url": "https://hal.science/hal-05363003v2",
+      "locator": "Eq. (1), H1–H2, Theorems 3.1, 3.5–3.6 and 4.1; §5 Eq. (24), Propositions 5.1–5.4, §5.4 and §6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full text for the stated sections",
+      "sections_actually_read": [
+        "Cover and full introduction/model assumptions",
+        "Full listed stability/periodicity theorem statements and surrounding scope discussion",
+        "§§5.1–5.4 constructions, complete propositions and numerical-example hypotheses",
+        "Conclusion and discussion through the alternative-approach paragraph"
+      ],
+      "supported_claim": "The explicit coexisting-orbit examples contain instantaneous decay; C1 numerical joins do not establish the candidate's Schwarzian condition.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Publisher direct access and HAL web reader were restricted. The public HAL document downloaded successfully by HTTP and was read locally; HAL API verified v2 metadata. No numerical experiments were rerun.",
+      "additional_urls": [
+        "https://hal.science/hal-05363003/document",
+        "https://fcrauste.perso.math.cnrs.fr/"
+      ]
+    },
+    {
+      "source_id": "JL11",
+      "role": "Original counterexample theorem in a distinct discrete model",
+      "authors": [
+        "Víctor Jiménez López"
+      ],
+      "title": "A counterexample on global attractivity for Clark's equation",
+      "venue_or_repository": "Proceedings of the International Workshop Future Directions in Difference Equations, Vigo, pp. 97–105",
+      "publication_type": "Scholarly publication; version and access described below",
+      "publication_date": "2011; workshop June 13–17",
+      "identifier": "Author-hosted proceedings contribution",
+      "version": "Published proceedings text",
+      "stable_url": "https://www.dma.uvigo.es/~eliz/pdf/Jimenez.pdf",
+      "locator": "Eq. (1), Definition 1.2, Theorems 2.1–2.2, Eq. (8), pp. 97–104",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full text for the stated sections",
+      "sections_actually_read": [
+        "Introduction, full model and S-class definition",
+        "Full Theorems 2.1–2.2, their hypotheses, rational example and invariant-curve discussion",
+        "Theorem 2.3 and discussion of small discrete delays"
+      ],
+      "supported_claim": "Counterexample for a recurrence with k≥3; the full theorem explicitly gives a locally attracting equilibrium coexisting with an invariant curve.",
+      "independent_of_source_ids": [],
+      "access_limitations": "This proceedings paper announces the theorems and defers proofs to the later paper; it is not represented as a reading of that later proof."
+    },
+    {
+      "source_id": "JP16",
+      "role": "Published counterexample identity and scope corroboration",
+      "authors": [
+        "Víctor Jiménez López",
+        "Enrique Parreño"
+      ],
+      "title": "L.A.S. and Negative Schwarzian Derivative Do Not Imply G.A.S. in Clark's Equation",
+      "venue_or_repository": "Journal of Dynamics and Differential Equations 28, 339–374",
+      "publication_type": "Scholarly publication; version and access described below",
+      "publication_date": "2016-03-10 (online); June 2016 issue",
+      "identifier": "10.1007/s10884-016-9525-7",
+      "version": "Publisher preview and complete primary conference abstract",
+      "stable_url": "https://link.springer.com/article/10.1007/s10884-016-9525-7",
+      "locator": "Publisher abstract and metadata; 2012 ICDEA PL-05 abstract",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "publisher preview and full primary conference abstract",
+      "sections_actually_read": [
+        "Full publisher abstract, authors and publication history",
+        "Complete one-page primary 2012 conference abstract"
+      ],
+      "supported_claim": "The published claim is for Clark's discrete equation and k≥3.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Full journal proof not accessible; JL11 supplies full counterexample statements and L20 the later scholarly scope restatement.",
+      "additional_urls": [
+        "https://www.gsd.uab.cat/icdea2012/Abstracts-pdf/PL-05.pdf"
+      ]
+    },
+    {
+      "source_id": "L20",
+      "role": "Later expert restatement distinguishing the discrete model",
+      "authors": [
+        "Eduardo Liz"
+      ],
+      "title": "Clark's Equation: A Useful Difference Equation for Population Models, Predictive Control, and Numerical Approximations",
+      "venue_or_repository": "Qualitative Theory of Dynamical Systems 19, 71",
+      "publication_type": "Scholarly publication; version and access described below",
+      "publication_date": "2020",
+      "identifier": "10.1007/s12346-020-00405-1",
+      "version": "Author-hosted published text",
+      "stable_url": "https://dma.uvigo.es/~eliz/pdf/QTDS2020.pdf",
+      "locator": "Eq. (1.3), §2.1 and §3, pp. 3, 6–7, 9",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full text for the stated sections",
+      "sections_actually_read": [
+        "Cover and full introduction with recurrence definition",
+        "§2.1 assumptions and global-attraction statements",
+        "§3 small-delay discussion and JP16 reference"
+      ],
+      "supported_claim": "Confirms the counterexample for k≥3 and distinguishes k=1,2.",
+      "independent_of_source_ids": [],
+      "access_limitations": "No access limitation in the stated reading scope."
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S227-1",
+      "query": "\"Mackey Glass\" \"conjecture\" global stability 2026",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Breadth discovery and apparent-resolution screening"
+    },
+    {
+      "search_id": "S227-2",
+      "query": "\"negative Schwarzian\" \"global stability\" conjecture delay 2025",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Breadth discovery and apparent-resolution screening"
+    },
+    {
+      "search_id": "S228-1",
+      "query": "\"Wright type delay differential equations with negative Schwarzian\" Liz Pinto",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted",
+      "review_stage": "Generalized Wright candidate formulation and disqualification"
+    },
+    {
+      "search_id": "S228-2",
+      "query": "\"Hopf bifurcation and period functions for Wright type delay differential equations\" conjecture",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted",
+      "review_stage": "Generalized Wright candidate formulation and disqualification"
+    },
+    {
+      "search_id": "S228-3",
+      "query": "\"negative Schwarzian\" \"conjecture\" \"counterexample\" delay",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted",
+      "review_stage": "Generalized Wright candidate formulation and disqualification"
+    },
+    {
+      "search_id": "S229-1",
+      "query": "\"Global stability and periodicity in a delay differential model\" 130555",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Current results and resolution searches"
+    },
+    {
+      "search_id": "S229-2",
+      "query": "\"generalized Wright conjecture\" 2026 proof counterexample",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Current results and resolution searches"
+    },
+    {
+      "search_id": "S229-3",
+      "query": "\"Wright\" \"negative Schwarzian\" \"2026\" \"proof\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Current results and resolution searches"
+    },
+    {
+      "search_id": "S230-1",
+      "query": "\"Hopf bifurcation for Wright-type\" pdf Balazs Rost",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted",
+      "review_stage": "Current versions, corrected results and full-text access"
+    },
+    {
+      "search_id": "S230-2",
+      "query": "\"Global stability and periodicity in a delay differential model\" pdf Adimy",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted",
+      "review_stage": "Current versions, corrected results and full-text access"
+    },
+    {
+      "search_id": "S230-3",
+      "query": "\"A proof of Wright\" Jaquette conjecture pdf",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted",
+      "review_stage": "Current versions, corrected results and full-text access"
+    },
+    {
+      "search_id": "S231-1",
+      "query": "\"Global stability and periodicity\" \"Crauste\" arxiv",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted",
+      "review_stage": "Current versions, corrected results and full-text access"
+    },
+    {
+      "search_id": "S231-2",
+      "query": "\"generalized Wright\" \"disproved\" OR \"refuted\" OR \"solved\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted",
+      "review_stage": "Current versions, corrected results and full-text access"
+    },
+    {
+      "search_id": "S231-3",
+      "query": "\"Global stability of Wright-type equations with negative Schwarzian\" \"erratum\" OR \"correction\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted",
+      "review_stage": "Current versions, corrected results and full-text access"
+    },
+    {
+      "search_id": "S232-1",
+      "query": "\"van den Berg\" \"Jaquette\" \"A proof of Wright’s conjecture\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Current status, versions, and possible counterexample access"
+    },
+    {
+      "search_id": "S232-2",
+      "query": "\"Wright type\" \"negative Schwarzian\" \"2025\" \"2026\" \"counterexample\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Current status, versions, and possible counterexample access"
+    },
+    {
+      "search_id": "S232-3",
+      "query": "\"Liz\" \"Pinto\" \"Robledo\" \"conjecture\" \"solved\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Current status, versions, and possible counterexample access"
+    },
+    {
+      "search_id": "S233-1",
+      "query": "\"BalazsRost2020.pdf\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Current status, versions, and possible counterexample access"
+    },
+    {
+      "search_id": "S233-2",
+      "query": "\"Global stability and periodicity in a delay differential model\" \"hal-05363003\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Current status, versions, and possible counterexample access"
+    },
+    {
+      "search_id": "S234-1",
+      "query": "\"Hopf bifurcation for Wright-type delay differential equations\" \"105188\" pdf",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Updated sources and counterexample access"
+    },
+    {
+      "search_id": "S234-2",
+      "query": "\"Global stability and periodicity in a delay differential model\" \"pdf\" \"2026\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Updated sources and counterexample access"
+    },
+    {
+      "search_id": "S234-3",
+      "query": "\"L.A.S. and negative Schwarzian derivative do not imply G.A.S.\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Updated sources and counterexample access"
+    },
+    {
+      "search_id": "S235-1",
+      "query": "\"Jiménez López\" \"Parreño\" \"Clark\" pdf 2016",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Author variants and apparent-resolution full text"
+    },
+    {
+      "search_id": "S235-2",
+      "query": "\"Wright\" \"negative Schwarzian\" \"2024\" \"2025\" solved",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Author variants and apparent-resolution full text"
+    },
+    {
+      "search_id": "S235-3",
+      "query": "\"Díaz\" \"Hasík\" \"Kopfová\" \"Trofimchuk\" global stability correction withdrawal",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Author variants and apparent-resolution full text"
+    },
+    {
+      "search_id": "A34-1",
+      "query": "\"generalized Wright conjecture\" proof proved solved resolution",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A34-2",
+      "query": "\"negative Schwarzian\" \"global attractor\" counterexample disproof refutation",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A34-3",
+      "query": "\"Wright type\" \"local stability\" \"global\" \"2026\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A34-4",
+      "query": "\"negative Schwarzian\" \"37/24\" \"pi/2\" proof",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A34-5",
+      "query": "\"Balazs\" \"Rost\" \"Wright\" erratum correction withdrawal",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A34-6",
+      "query": "\"Wright conjecture\" generalized \"September\" \"2026\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal date where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    }
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass after drafting. No independent agent or human review.",
+    "reviewer_or_pass_identifier": "A34",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A34-1",
+      "A34-2",
+      "A34-3",
+      "A34-4",
+      "A34-5",
+      "A34-6"
+    ],
+    "issues_found": [
+      "Original strict slope and later closed range differ.",
+      "The 2018 and 2020 Balázs–Röst versions have different theorem numbering.",
+      "D26 paraphrases the Clark threshold as k≥2, while the primary sources give k≥3.",
+      "A shared-author later source is not independent corroboration; recent coexisting-orbit examples require full model inspection."
+    ],
+    "issues_resolved": [
+      "Retained the original strict formulation and disclosed the endpoint extension without an additional entry.",
+      "Used the updated accepted manuscript's Corollary 15.",
+      "Read JL11 Theorem 2.2 and recorded the k≥3 scope; no inaccurate small-delay inference.",
+      "BR20 supplies disjoint-author corroboration; ACIP26 full model and counterexample sections read.",
+      "Checked all-history quantifier, bounded-below direction, local-extremum requirement and Schwarzian domain. Applied paragraph traces the original population coordinate changes and makes no claim each named model remains open."
+    ],
+    "verdict": "pass_for_research_draft"
+  },
+  "public_page_path": null,
+  "draft_page_path": "research/expansion-2026-09/drafts/generalized-wright-global-attraction.md",
+  "actual_status_check_date": "2026-09-17",
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "L03",
+      "theorem_locator": "Theorem 1.3",
+      "claim_type": "Partial proof",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same scalar equation, H1–H3, all continuous histories and attraction conclusion",
+        "Additional slope bound −f'(0)≤3/2"
+      ],
+      "scope_relation": "Does not settle the stated general conjecture",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The interval (3/2,π/2) is not covered in general.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "L03",
+      "theorem_locator": "Theorem 1.1 and adjacent Walther discussion",
+      "claim_type": "Counterexample without all candidate hypotheses",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same pure-delay form and small equilibrium slope",
+        "The theorem assumes H1–H2, not H3; adjacent discussion explicitly excludes negative Schwarzian for the earlier Walther examples"
+      ],
+      "scope_relation": "Does not settle the stated general conjecture",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "This is not a verified counterexample satisfying all three hypotheses. The source then poses Conjecture 1.2; D26 retains it.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "D26",
+      "theorem_locator": "Theorem 1.4",
+      "claim_type": "Partial proof",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same equation, H and all-history attraction",
+        "Requires decreasing f and −f'(0)≤37/24"
+      ],
+      "scope_relation": "Does not settle the stated general conjecture",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "37/24<π/2; general decreasing feedback above that bound and nonmonotone admissible feedback remain outside this theorem.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "D26",
+      "theorem_locator": "Corollary 1.7 and Proposition 1.6",
+      "claim_type": "Special geometry and stronger derivative bound",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Corollary 1.7 additionally requires decreasing f with f''(0)=0",
+        "Proposition 1.6 bounds f'(u) throughout a solution's range; the candidate bounds f'(0) alone"
+      ],
+      "scope_relation": "Does not settle the stated general conjecture",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither extra condition follows from the candidate assumptions. No transfer from absence of SOPS in the monotone case to all unimodal feedback is assumed.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "VJ18",
+      "theorem_locator": "Theorem 1.5",
+      "claim_type": "Classical Wright resolution",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "y'=-αy(t−1)(1+y), y>−1, 0<α≤π/2",
+        "x=−log(1+y) gives f(x)=α(exp(−x)−1), a single feedback family"
+      ],
+      "scope_relation": "Does not settle the stated general conjecture",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Global attraction for this exponential family does not prove it for every admissible f.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BR20",
+      "theorem_locator": "Corollary 15; Theorem 14",
+      "claim_type": "Local Hopf and classical no-fold results",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Its normalization x'=−μg(xτ), g'(0)=1 becomes candidate f=−μg; Schwarzian is unchanged by nonzero output scaling",
+        "Corollary 15 controls Hopf criticality, not all recurrent behavior; Theorem 14 concerns exponential Wright feedback"
+      ],
+      "scope_relation": "Does not settle the stated general conjecture",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No local subcritical Hopf counterexample is available; distant periodic branches are not excluded for general f.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "ACIP26",
+      "theorem_locator": "Theorems 3.1, 3.5–3.6 and 4.1; Eq. (24), Propositions 5.1–5.4 and §5.4",
+      "claim_type": "Recent stability/periodicity claims",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Model x'=−h(x)+f(x)g(xτ) retains current-state dependence",
+        "Stability results impose attraction of an induced interval map; periodic existence theorem assumes linear instability",
+        "Explicit multiple-orbit constructions use z'=−z+Q(zτ); numerical examples have C1 connections and no global negative-Schwarzian hypothesis"
+      ],
+      "scope_relation": "Does not settle the stated general conjecture",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The results provide no all-H counterexample or full-slope proof for the pure-delay model. Removing decay by an integrating factor would generally create nonautonomous feedback, outside the conjecture.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "JL11",
+      "theorem_locator": "Theorem 2.2, Definition 1.2, Eq. (1) and Eq. (8); JP16 publisher scope; L20 §2.1",
+      "claim_type": "Discrete negative-Schwarzian counterexample",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Discrete recurrence x[n+1]=a x[n]+(1−a)h(x[n−k]), 0<a<1, k≥3",
+        "Finite history vector and Neimark–Sacker bifurcation, rather than continuous histories and Hopf bifurcation",
+        "The full theorem's hε hypotheses and rational example were read; negative Schwarzian and local attraction coexist with an invariant curve"
+      ],
+      "scope_relation": "Does not settle the stated general conjecture",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "A fixed-step recurrence counterexample does not imply a counterexample for the continuous pure-delay flow. D26's k≥2 paraphrase conflicts with the primary k≥3 statement; the latter is used and no new small-delay claim is made.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "statement_source_and_scope_match": "L03 Conjecture 1.2, with all H1–H3 retained. The fingerprint was written before the draft. Original strict slope <π/2 is used; D26's boundary-inclusive extension is disclosed rather than silently substituted.",
+  "proposed_statement_text": "Let $f\\in C^3(\\mathbb R,\\mathbb R)$ satisfy $f(0)=0$ and $u f(u)<0$ for $u\\ne0$. Assume that $f$ is bounded below and has at most one critical point; if a critical point exists, it is a local extremum. At every point with $f'(u)\\ne0$, require the Schwarzian derivative to satisfy\n\n$$\n(Sf)(u)=\\frac{f'''(u)}{f'(u)}\n-\\frac32\\left(\\frac{f''(u)}{f'(u)}\\right)^2<0.\n$$\n\nSuppose also that $0<-f'(0)<\\pi/2$. For an arbitrary continuous history $\\phi:[-1,0]\\to\\mathbb R$, consider the scalar delay equation\n\n$$\nx'(t)=f(x(t-1))\\quad(t\\ge0),\n\\qquad x(s)=\\phi(s)\\quad(-1\\le s\\le0).\n$$\n\n**Must every such solution satisfy $\\lim_{t\\to\\infty}x(t)=0$?**\n\nThis is the strict-parameter version of the generalized Wright conjecture in Liz–Pinto–Robledo–Trofimchuk–Tkachenko, Conjecture 1.2. The slope condition makes the zero equilibrium locally exponentially stable; the question concerns convergence from every history, with no smallness or sign restriction. No uniform convergence rate is requested. The delay is normalized to one: for delay $\\tau>0$, time rescaling replaces the slope by $\\tau f'(0)$. Later formulations also include the boundary $-f'(0)=\\pi/2$; that extension belongs to the same problem family and is not counted separately.\n",
+  "applied_significance": "Delayed density feedback models reproduction responding to an earlier population level. The original paper's Examples 1.4–1.5 transform food-limited growth and growth with a weak Allee effect into this class using logarithmic population coordinates. Attraction to zero then means return to the positive population equilibrium after any positive continuous population history. The conjecture asks whether a local stability calculation suffices to predict recovery even after a large disturbance, under the specified feedback-shape assumptions. Its significance is a general stability criterion across response functions; it does not assert that each illustrative biological model separately remains unresolved.\n",
+  "application_evidence_source_ids": [
+    "L03",
+    "D26"
+  ],
+  "search_outcomes": [
+    {
+      "search_ids": "S227-1–2, S228–S230",
+      "results_inspected": [
+        "L03",
+        "D26",
+        "BR20",
+        "VJ18",
+        "ACIP26",
+        "JP16"
+      ],
+      "outcome": "Located exact conjecture, independent corroboration, modern partial theorem and apparent counterexamples; no title-only disposition."
+    },
+    {
+      "search_ids": "S231–S235",
+      "results_inspected": [
+        "D26",
+        "VJ18",
+        "BR20",
+        "ACIP26",
+        "JP16",
+        "L20"
+      ],
+      "outcome": "Checked current versions, publication metadata and author/institutional copies. Accessible HAL v2 replaced failed publisher/web-reader access."
+    },
+    {
+      "search_ids": "A34-1–6",
+      "results_inspected": [
+        "JL11",
+        "BR20",
+        "D26"
+      ],
+      "outcome": "Separate searches located the full original Clark counterexample statement and confirmed its discrete k≥3 scope. No matching full resolution or correction was located; unrelated search hits and AI claim aggregators were not treated as scholarly status evidence."
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "local_head_reviewed": "f9172498d6eea7bf45752c6852787851c35c15d3",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "review_scope": "Retained completed reading of all original 300 pages and metadata; all 330 current titles and accepted fingerprints screened. Closest complete pages reread; fresh Wright/Schwarzian/feedback search and exclusions inspection during A34.",
+    "closest_existing_or_new_entries": [
+      {
+        "id": 296,
+        "path": "problems/296-nicholson-local-global-stability.md",
+        "difference": "Nicholson has instantaneous −x(t), a particular positive unimodal recruitment term, positive histories and a two-parameter characteristic equation. It is not the autonomous pure-delay arbitrary-f conjecture."
+      },
+      {
+        "id": 311,
+        "path": "problems/311-carrying-simplex-interior.md",
+        "difference": "Interior manifold regularity for d-dimensional competitive maps; no equivalent attraction assertion."
+      },
+      {
+        "id": 330,
+        "path": "problems/330-generic-static-output-feedback-stabilization.md",
+        "difference": "The keyword match is an author name; this problem concerns finite-dimensional linear output-feedback gains."
+      }
+    ],
+    "distinctness_reason": "One canonical pure-delay function-class problem, not a new name or parameter split of an existing entry.",
+    "implications_or_equivalences": [
+      "Positive population variables become real logarithmic coordinates in L03 Examples 1.4–1.5.",
+      "The exponential Wright special case is already solved and contributes no separate accepted entry.",
+      "The endpoint extension is one family; no extra count."
+    ]
+  },
+  "open_status_evidence_summary": "D26 explicitly restates the unresolved conjecture after the classical Wright proof and proves a narrower range. BR20 independently discusses the same conjecture and excludes one counterexample mechanism. Current resolution searches and model-level comparisons found no unresolved matching claim.",
+  "independent_status_corroboration": {
+    "source_id": "BR20",
+    "locator": "§5, pp. 8; Corollary 15 and surrounding text",
+    "independence": "Neither author is an author of L03 or D26; arXiv and journal versions count as one scholarly work."
+  },
+  "strongest_known_partial_results_and_gap": "Full H: slope up to 3/2. Decreasing H: up to 37/24; decreasing H with f''(0)=0: through π/2. General feedback up to the local-stability threshold is not covered.",
+  "source_access_limitations": [
+    "D26 journal full text restricted; full relevant statements read in its sole displayed arXiv version and journal identity verified.",
+    "JP16 full proof inaccessible; original JL11 full theorem and explicit example, later L20 restatement, publisher abstract and primary conference abstract checked.",
+    "ACIP26 public HAL PDF obtained despite web-reader and publisher restrictions.",
+    "Computational proofs and simulations were not reexecuted; this is a source-scope review, not independent proof certification."
+  ],
+  "prepublication_refresh": {
+    "date": "2026-09-17",
+    "latest_target_commit": "f9172498d6eea7bf45752c6852787851c35c15d3",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "outcome": "Remote branch listing independently verified only main at the unchanged local HEAD. Current source and local-duplicate review passed for research-draft publication; refresh again before active batch integration."
+  },
+  "validation_results": [
+    "2026-09-17: 23 mathematics expressions passed strict KaTeX; statement and applied paragraph visually inspected in a font-loaded local browser screenshot, with no clipping.",
+    "2026-09-17: 12 external bibliography URLs checked: 11 HTTP 200 and the SIAM DOI endpoint HTTP 403. The accessible author manuscript is linked; publisher preview and publication metadata were read via the web reader. HTTP success is not a claim of unrestricted full-text access.",
+    "2026-09-17: catalogue.py --check passed for 330 entries. Active pages, metadata, root README, manifest and scripts are unchanged; original 300 pages remain byte-preserved.",
+    "2026-09-17: eight source records, eight scope comparisons and 31 candidate search IDs checked; all required headings, local links and source/search references valid.",
+    "2026-09-17: counts reconciled at 38 investigated, 33 accepted, five held, three pending accepted drafts and 30 integrated/published; 1,055 unique actual query IDs."
+  ],
+  "remote_publication": {
+    "state": "not_integrated",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "research_publication": {
+    "state": "local_pending_push",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null
+  },
+  "bibliography_link_check": {
+    "date": "2026-09-17",
+    "method": "HTTP/1.1 GET following redirects; status only",
+    "results": [
+      {
+        "url": "https://arxiv.org/pdf/2502.15965v1",
+        "http_status": 200,
+        "transport_exit_code": 0
+      },
+      {
+        "url": "https://arxiv.org/pdf/math/0111285v2",
+        "http_status": 200,
+        "transport_exit_code": 0
+      },
+      {
+        "url": "https://dma.uvigo.es/~eliz/pdf/QTDS2020.pdf",
+        "http_status": 200,
+        "transport_exit_code": 0
+      },
+      {
+        "url": "https://doi.org/10.1007/s12346-020-00405-1",
+        "http_status": 200,
+        "transport_exit_code": 0
+      },
+      {
+        "url": "https://doi.org/10.1016/j.cnsns.2020.105188",
+        "http_status": 200,
+        "transport_exit_code": 0
+      },
+      {
+        "url": "https://doi.org/10.1016/j.jde.2018.02.018",
+        "http_status": 200,
+        "transport_exit_code": 0
+      },
+      {
+        "url": "https://doi.org/10.1016/j.jmaa.2026.130555",
+        "http_status": 200,
+        "transport_exit_code": 0
+      },
+      {
+        "url": "https://doi.org/10.1137/25M1737298",
+        "http_status": 403,
+        "transport_exit_code": 0
+      },
+      {
+        "url": "https://doi.org/10.3934/dcds.2003.9.309",
+        "http_status": 200,
+        "transport_exit_code": 0
+      },
+      {
+        "url": "https://hal.science/hal-05363003v2",
+        "http_status": 200,
+        "transport_exit_code": 0
+      },
+      {
+        "url": "https://publicatio.bibl.u-szeged.hu/18524/3/31123767.pdf",
+        "http_status": 200,
+        "transport_exit_code": 0
+      },
+      {
+        "url": "https://research.vu.nl/ws/portalfiles/portal/119991482/A_proof_of_Wrights_conjecture.pdf",
+        "http_status": 200,
+        "transport_exit_code": 0
+      }
+    ]
+  }
+}
