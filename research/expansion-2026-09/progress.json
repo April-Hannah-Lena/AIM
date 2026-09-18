@@ -198,9 +198,13 @@
     {
       "commit": "4f9a1c7ed781f672169df9417bbf64fc35f81df2",
       "purpose": "Record continuous-time control discovery and scope audit; pushed directly to main and independently reverified September 18, 2026."
+    },
+    {
+      "commit": "e49b24d6fcd6fa3be767df39595fd8ca08062445",
+      "purpose": "Record reviewed Reed colouring draft and evidence; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "Forty catalogue additions (301–340) and seven pending accepted research drafts are published directly on main. Fetched main equals local HEAD 4f9a1c7ed781f672169df9417bbf64fc35f81df2 on September 18, 2026. The eighth accepted draft, Reed colouring, passed review locally and awaits this checkpoint push. Active total remains 340.",
+  "remote_state": "Forty catalogue additions (301–340) and all eight pending accepted research drafts are published directly on main. The Reed colouring checkpoint e49b24d6fcd6fa3be767df39595fd8ca08062445 was pushed and verified through a separate remote-ref read on September 18, 2026. Eight accepted drafts await batch integration; active total remains 340.",
   "next_actions": [
     "Prepare two more reviewed drafts for the next ten-entry batch; refresh statuses and upstream duplicates before allocating IDs. Eight accepted drafts await integration: sharp matroid secretary, binary-code rate, arbitrary-switching stability, list edge-colouring, chemostat exclusion, Tuza triangle packing–covering, binary skew-symmetric broadcast capacity and Reed colouring.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",

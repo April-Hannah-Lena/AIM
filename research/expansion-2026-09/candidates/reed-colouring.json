@@ -337,5 +337,13 @@
       "checked_on": "2026-09-18",
       "assessment": "Reports no matching general proof or counterexample. Limited computational and transformation-family results only; not a primary admission source and computations not independently rerun."
     }
-  ]
+  ],
+  "publication": {
+    "kind": "accepted research draft; not active catalogue integration",
+    "destination": "MColbrook/AIM main",
+    "content_commit": "e49b24d6fcd6fa3be767df39595fd8ca08062445",
+    "commit_url": "https://github.com/MColbrook/AIM/commit/e49b24d6fcd6fa3be767df39595fd8ca08062445",
+    "pushed_on": "2026-09-18",
+    "remote_verification": "Separate ls-remote read returned the exact full content commit after the successful direct push."
+  }
 }
