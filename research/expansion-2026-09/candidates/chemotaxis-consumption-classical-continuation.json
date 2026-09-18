@@ -1,0 +1,926 @@
+{
+  "candidate_id": "chemotaxis-consumption-classical-continuation",
+  "proposed_catalogue_id": null,
+  "title": "Global classical continuation in the chemotaxis-consumption system",
+  "aliases": [
+    "Fully parabolic nutrient-taxis global classical solvability",
+    "Large-data regularity for the minimal signal-consumption Keller–Segel system"
+  ],
+  "primary_section": "continuum3",
+  "secondary_tags": [
+    "mathematical biology",
+    "bacterial migration",
+    "cross-diffusion",
+    "nutrient consumption"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit full-text formulation, independent scholarly corroboration, current source/version searches, theorem-scope comparisons, duplicate and application review, and separated A36 self-pass completed. No unresolved material status conflict located.",
+  "problem_fingerprint": {
+    "recorded_on": "2026-09-17",
+    "source": "Lankeit–Winkler arXiv:2304.02449v1 §1 (CC1), §2 (2.7)–(2.8), open paragraph immediately after Theorem 2.2",
+    "question_kind": "Global classical continuation; not uniform boundedness or a prescribed decay rate",
+    "model": "u_t = Δu − div(u ∇v); v_t = Δv − uv",
+    "quantifiers": "Every integer n≥3, every bounded smooth domain Ω⊂R^n, and every admissible initial pair, with no smallness restriction",
+    "boundary": "Homogeneous Neumann for u and v, outward normal ν; no flux",
+    "data": "u0,v0∈W^{1,∞}(Ω); u0≥0 not identically zero; v0>0 on Ω closure",
+    "target": "The maximal local classical solution has T_max=∞",
+    "solution_class": "u∈C^0(Ωbar×[0,∞))∩C^{2,1}(Ωbar×(0,∞)); v∈⋂_{finite q>n}C^0([0,∞);W^{1,q}(Ω))∩C^{2,1}(Ωbar×(0,∞))",
+    "normalization": "Both diffusivities, attraction coefficient and bilinear consumption coefficient are 1; no fluid, logistic source, control, singular sensitivity or modified diffusion",
+    "family": "One all-higher-dimensional family; convex domains/3D restrictions not extra entries",
+    "scope_note": "General smooth bounded domains are explicit in Lankeit–Winkler 2025 §1, Eq. (1.2) and its global-classical gap discussion; Winkler 2026 §1 repeats the fully isolated linear-diffusion higher-dimensional gap. Convexity was a restriction on older weak-solution results, not imposed here."
+  },
+  "fingerprint_recorded_before_drafting": true,
+  "actual_status_check_date": "2026-09-17",
+  "public_page_path": null,
+  "draft_path": "research/expansion-2026-09/drafts/chemotaxis-consumption-classical-continuation.md",
+  "source_records": [
+    {
+      "source_id": "LW23",
+      "role": "Explicit formulation and model",
+      "authors": [
+        "Johannes Lankeit",
+        "Michael Winkler"
+      ],
+      "title": "Depleting the signal: Analysis of chemotaxis-consumption models – A survey",
+      "venue_or_repository": "Studies in Applied Mathematics 151(4), 1197–1229",
+      "publication_type": "Published article; accessible primary text",
+      "publication_date": "2023",
+      "identifier": "10.1111/sapm.12625; arXiv:2304.02449",
+      "version": "arXiv v1, April 5, 2023; only arXiv version displayed",
+      "stable_url": "https://arxiv.org/html/2304.02449v1",
+      "locator": "§1 (CC1); §2 (2.7)–(2.8), Theorems 2.1–2.4 and open question immediately after Theorem 2.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for the sections listed",
+      "sections_actually_read": [
+        "Introduction and normalized model",
+        "Full stated data/solution classes and Theorems 2.1–2.4",
+        "Open-status paragraph; version history and publisher metadata"
+      ],
+      "supported_claim": "Explicitly asks for arbitrary-size-data global classical solutions when n≥3. The planar, weak and small-signal results have different conclusions or assumptions.",
+      "access_limitations": "Relevant statements and discussion were read; no independent certification of the complete technical proofs. A later curl link check received HTTP 403 from the Wiley DOI destination; the full primary arXiv text remained accessible.",
+      "additional_urls": [
+        "https://arxiv.org/abs/2304.02449",
+        "https://doi.org/10.1111/sapm.12625"
+      ]
+    },
+    {
+      "source_id": "CVFG25",
+      "role": "Independent scholarly corroboration and biological setting",
+      "authors": [
+        "André Luiz Corrêa Vianna Filho",
+        "Francisco Guillén-González"
+      ],
+      "title": "A Review on the Analysis and Optimal Control of Chemotaxis-Consumption Models",
+      "venue_or_repository": "SeMA Journal 82, 317–350",
+      "publication_type": "Published article; accessible primary text",
+      "publication_date": "2025 volume; first published online July 19, 2024",
+      "identifier": "10.1007/s40324-024-00362-8; arXiv:2402.06564",
+      "version": "Published HTML; arXiv v1, February 9, 2024",
+      "stable_url": "https://link.springer.com/article/10.1007/s40324-024-00362-8",
+      "locator": "Published §§1–2, equation (1) with s=1 and paragraphs on 3D blow-up; author-version Theorems 2.4 and 2.7",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for the sections listed",
+      "sections_actually_read": [
+        "Published introduction, model and §2 open-status/conditional-regularity discussion",
+        "Author manuscript full Theorem 2.4 (3D weak solutions) and Theorem 2.7 (2D strong solutions)",
+        "Publisher dates and arXiv version history"
+      ],
+      "supported_claim": "Independently retains the 3D large-data regularity question and distinguishes weak/conditional solutions from unconditional smooth evolution.",
+      "access_limitations": "The arXiv numbering differs from the publication. Full cited theorem statements were read in the author manuscript; the published introduction and status discussion were read directly. The Seville download URL returned 403; the publisher and arXiv texts are accessible.",
+      "independent_of_source_ids": [
+        "LW23",
+        "LW25",
+        "W26"
+      ],
+      "additional_urls": [
+        "https://arxiv.org/html/2402.06564v1",
+        "https://arxiv.org/abs/2402.06564"
+      ]
+    },
+    {
+      "source_id": "LW25",
+      "role": "Current general-domain partial result",
+      "authors": [
+        "Johannes Lankeit",
+        "Michael Winkler"
+      ],
+      "title": "Chemotaxis-consumption interaction: Solvability and asymptotics in general high-dimensional domains",
+      "venue_or_repository": "Nonlinear Analysis 260, 113853",
+      "publication_type": "Published article; accessible primary text",
+      "publication_date": "2025-11",
+      "identifier": "10.1016/j.na.2025.113853; arXiv:2502.17338",
+      "version": "arXiv v1, February 24, 2025; only version displayed",
+      "stable_url": "https://arxiv.org/html/2502.17338v1",
+      "locator": "§1 equation (1.2), Definition 1.1, Theorem 1.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for the sections listed",
+      "sections_actually_read": [
+        "Complete introduction and its explicit higher-dimensional classical-solvability gap",
+        "Full weak-solution definition and Theorem 1.2",
+        "§2 regularized model and Lemma 2.2 statement/proof opening",
+        "ArXiv version history and indexed publisher volume/article/DOI metadata"
+      ],
+      "supported_claim": "Constructs global weak solutions in every smooth bounded domain and dimension, with smoothness after a data-dependent positive waiting time and convergence to the homogeneous equilibrium.",
+      "access_limitations": "The publisher full-page fetch failed; mathematical claims use the accessible primary author manuscript. The journal citation was checked in publisher-indexed metadata, not inferred from a secondary bibliography.",
+      "additional_urls": [
+        "https://arxiv.org/abs/2502.17338",
+        "https://doi.org/10.1016/j.na.2025.113853"
+      ]
+    },
+    {
+      "source_id": "ZW25",
+      "role": "Later small-signal global existence",
+      "authors": [
+        "Jiashan Zheng",
+        "Yuying Wang"
+      ],
+      "title": "Blow-up prevention and rate of convergence of solutions for N-dimensional parabolic-parabolic systems with consumption of chemoattractant",
+      "venue_or_repository": "Electronic Journal of Differential Equations 2025, No. 98, 1–21",
+      "publication_type": "Published article; accessible primary text",
+      "publication_date": "2025-10-16",
+      "identifier": "10.58997/ejde.2025.98",
+      "version": "Published PDF",
+      "stable_url": "https://ejde.math.txstate.edu/Volumes/2025/98/zheng.pdf",
+      "locator": "§§1–2, especially Theorem 2.1, equations (2.1)–(2.5), and Theorem 2.5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for the sections listed",
+      "sections_actually_read": [
+        "PDF pp. 1–4 including full model, data assumptions, Theorem 2.1, all following remarks and Theorem 2.5"
+      ],
+      "supported_claim": "The global classical result requires a strict upper bound on chi times the initial signal supremum; its convergence assertion concerns a globally classical solution.",
+      "access_limitations": "Relevant statements and discussion were read; no independent certification of the complete technical proofs."
+    },
+    {
+      "source_id": "JWZ18",
+      "role": "Conditional blow-up criteria, not a blow-up construction",
+      "authors": [
+        "Jie Jiang",
+        "Hao Wu",
+        "Songmu Zheng"
+      ],
+      "title": "Blow-up for a Three Dimensional Keller-Segel Model with Consumption of Chemoattractant",
+      "venue_or_repository": "Journal of Differential Equations 264(8), 5432–5464",
+      "publication_type": "Published article; accessible primary text",
+      "publication_date": "2018",
+      "identifier": "10.1016/j.jde.2018.01.004; arXiv:1610.06684",
+      "version": "arXiv v1, October 21, 2016; only arXiv version displayed; PDF header separately prints October 7, 2018",
+      "stable_url": "https://arxiv.org/pdf/1610.06684",
+      "locator": "§1 equations (1.1)–(1.4), full Theorems 1.1–1.3 and Corollary 1.1, PDF pp. 1–5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for the sections listed",
+      "sections_actually_read": [
+        "Full introduction and explicit general-smooth-domain open question",
+        "Complete Theorems 1.1–1.3 and Corollary 1.1, including finite-maximal-time hypotheses",
+        "ArXiv metadata, related journal DOI and version history"
+      ],
+      "supported_claim": "In dimension three, finite maximal existence time implies critical-norm divergence and lower blow-up rates. No initial condition yielding finite-time blow-up is constructed.",
+      "access_limitations": "Relevant statements and discussion were read; no independent certification of the complete technical proofs.",
+      "additional_urls": [
+        "https://arxiv.org/abs/1610.06684"
+      ]
+    },
+    {
+      "source_id": "W26",
+      "role": "2026 status restatement and changed-model global theorem",
+      "authors": [
+        "Michael Winkler"
+      ],
+      "title": "A dimension-independent critical exponent in a nutrient taxis system",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2026-01-08",
+      "identifier": "arXiv:2601.05338",
+      "version": "v1; only version displayed",
+      "stable_url": "https://arxiv.org/html/2601.05338v1",
+      "locator": "§1 equations (1.2), (1.7), Theorem 1.1 and preceding status discussion",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for the sections listed",
+      "sections_actually_read": [
+        "Full introduction, no-flux fully parabolic status discussion and changed model",
+        "Full Theorem 1.1 and beginning of §2 local theory",
+        "ArXiv version history"
+      ],
+      "supported_claim": "Retains the arbitrary-data classical gap for isolated linear-diffusion systems in n≥3. Its theorem instead treats radial parabolic-elliptic evolution with positive Dirichlet signal data.",
+      "access_limitations": "Relevant statements and discussion were read; no independent certification of the complete technical proofs.",
+      "additional_urls": [
+        "https://arxiv.org/abs/2601.05338"
+      ]
+    },
+    {
+      "source_id": "BGP25",
+      "role": "Scope check of a claimed global-solution advance",
+      "authors": [
+        "Daniel Barbosa",
+        "Francisco Guillén-González",
+        "Gabriela Planas"
+      ],
+      "title": "A convergent time scheme for a chemotaxis-fluids model with potential consumption",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2025-06-23 (v3); first submitted March 24, 2025",
+      "identifier": "arXiv:2503.19184",
+      "version": "v3; title differs from the earlier Global solutions for a chemotaxis-Navier-Stokes model with potential consumption",
+      "stable_url": "https://arxiv.org/html/2503.19184v3",
+      "locator": "§2 Definition 2.1 and Theorem 2.1; §1 contributions",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for the sections listed",
+      "sections_actually_read": [
+        "Introduction contributions and solution concept",
+        "Full Definition 2.1 and Theorem 2.1, domain assumptions and beginning of discrete-scheme discussion",
+        "All three version dates and current title"
+      ],
+      "supported_claim": "Provides global weak solutions through a convergent time scheme for a fluid-coupled system with potential consumption; does not give classical continuation for the fluid-free bilinear system.",
+      "access_limitations": "Relevant statements and discussion were read; no independent certification of the complete technical proofs.",
+      "additional_urls": [
+        "https://arxiv.org/abs/2503.19184"
+      ]
+    },
+    {
+      "source_id": "RT25",
+      "role": "Supplementary small-data lead and explicit access limitation",
+      "authors": [
+        "Poonam Rani",
+        "Jagmohan Tyagi"
+      ],
+      "title": "Global classical solutions to a chemotaxis consumption system with nonlinear sensitivity and signal consumption",
+      "venue_or_repository": "Zeitschrift für angewandte Mathematik und Physik 76, article 92",
+      "publication_type": "Published article; abstract/metadata accessed",
+      "publication_date": "2025-04-16",
+      "identifier": "10.1007/s00033-025-02477-y",
+      "version": "Publisher preview",
+      "stable_url": "https://link.springer.com/article/10.1007/s00033-025-02477-y",
+      "locator": "Publisher abstract and bibliography",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Publisher abstract and metadata only",
+      "sections_actually_read": [
+        "Full publisher abstract and model; publication date/authors",
+        "Relevant bibliography"
+      ],
+      "supported_claim": "The authors explicitly advertise a small-initial-data result in n=2,3, with nonlinear sensitivity and consumption. No unrestricted-data claim is made in the accessed text.",
+      "access_limitations": "Full theorem/proof not retrieved; ResearchGate returned 429 and exact-title/DOI/author searches did not locate a primary full manuscript. No specific quantitative theorem or proof-scope certification is inferred. This is a supplementary restricted-result lead, not relied on for admission. The nominal publisher PDF URL returned HTML, not a readable PDF."
+    },
+    {
+      "source_id": "KA26",
+      "role": "Adversarial global-existence and blow-up scope check",
+      "authors": [
+        "Dongkwang Kim",
+        "Jaewook Ahn"
+      ],
+      "title": "Chemotaxis-consumption system with Robin boundary conditions coupled to the (Navier–)Stokes equations",
+      "venue_or_repository": "Advances in Nonlinear Analysis 15(1), 20250152",
+      "publication_type": "Published article; publisher-supplied full text",
+      "publication_date": "2026-04-07",
+      "identifier": "10.1515/anona-2025-0152",
+      "version": "Published version",
+      "stable_url": "https://doi.org/10.1515/anona-2025-0152",
+      "additional_urls": [
+        "https://www.researchgate.net/publication/403466957_Chemotaxis-consumption_system_with_Robin_boundary_conditions_coupled_to_the_Navier-Stokes_equations"
+      ],
+      "locator": "§1, (1.1)–(1.11), Proposition 1.1, Theorems 1.1–1.3 and Remarks 1.1–1.3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full relevant statements",
+      "sections_actually_read": [
+        "Full introduction, model, hypotheses, three main theorems and following discussion"
+      ],
+      "supported_claim": "Elliptic-signal Robin model; its blow-up construction uses repulsion and sublinear diffusion.",
+      "access_limitations": "Direct publisher fetch failed; publisher-provided full text was read on ResearchGate. Proofs were not independently certified."
+    },
+    {
+      "source_id": "PSX26",
+      "role": "Adversarial check of a 2026 global-classical result",
+      "authors": [
+        "Liqiong Pu",
+        "Cunsai Shen",
+        "Guanyu Xue"
+      ],
+      "title": "Global behavior in a chemotaxis system with consumption and logistic source: new insights on parameter α",
+      "venue_or_repository": "Communications on Pure and Applied Analysis 36, 232–262",
+      "publication_type": "Published article; primary HTML introduction",
+      "publication_date": "2026-06-09",
+      "identifier": "10.3934/cpaa.2026082",
+      "version": "Published HTML",
+      "stable_url": "https://www.aimsciences.org/article/doi/10.3934/cpaa.2026082",
+      "locator": "§1, models (1.1)–(1.5), Theorems 1.1 and 1.5, Remarks 1.2–1.6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full introduction and main theorem statements",
+      "sections_actually_read": [
+        "Complete introduction delivered by the publisher page’s introduction-content endpoint; bibliographic metadata"
+      ],
+      "supported_claim": "The global theorem concerns an independently evolving migration velocity, including zero logistic growth in dimension three.",
+      "access_limitations": "The PDF was unavailable. Full main statements were obtained from the publisher HTML endpoint; technical proofs were not retrieved."
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S246-1",
+      "query": "\"chemotaxis-consumption\" \"global classical\" \"open\" 2026",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Signal-consumption chemotaxis regularity discovery"
+    },
+    {
+      "search_id": "S246-2",
+      "query": "\"Depleting the signal\" \"survey\" arxiv",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Signal-consumption chemotaxis regularity discovery"
+    },
+    {
+      "search_id": "S246-3",
+      "query": "\"chemotaxis-consumption\" \"three-dimensional\" \"2025\" \"open\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Signal-consumption chemotaxis regularity discovery"
+    },
+    {
+      "search_id": "S247-1",
+      "query": "\"Blow-up prevention and rate of convergence of solutions\" consumption",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Chemotaxis-consumption full-scope and possible-resolution checks"
+    },
+    {
+      "search_id": "S247-2",
+      "query": "\"Global classical solutions to a chemotaxis consumption system\" Rani Tyagi",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Chemotaxis-consumption full-scope and possible-resolution checks"
+    },
+    {
+      "search_id": "S247-3",
+      "query": "\"chemotaxis-consumption\" \"global classical\" 2026 blow-up",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Chemotaxis-consumption full-scope and possible-resolution checks"
+    },
+    {
+      "search_id": "S248-1",
+      "query": "\"A Review on the Analysis and Optimal Control of Chemotaxis-Consumption Models\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Independent chemotaxis status and recent scope checks"
+    },
+    {
+      "search_id": "S248-2",
+      "query": "\"Global classical solutions\" \"Rani\" \"Tyagi\" consumption filetype:pdf",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Independent chemotaxis status and recent scope checks"
+    },
+    {
+      "search_id": "S248-3",
+      "query": "\"chemotaxis-consumption\" \"arbitrary\" \"2026\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Independent chemotaxis status and recent scope checks"
+    },
+    {
+      "search_id": "S248-4",
+      "query": "\"chemotaxis-consumption\" \"classical\" \"solved\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Independent chemotaxis status and recent scope checks"
+    },
+    {
+      "search_id": "S249-1",
+      "query": "\"Rani\" \"Tyagi\" \"consumption\" \"Theorem 1.1\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Small-data theorem access and unrestricted resolution screening"
+    },
+    {
+      "search_id": "S249-2",
+      "query": "\"Global classical solutions to a chemotaxis consumption\" arxiv",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Small-data theorem access and unrestricted resolution screening"
+    },
+    {
+      "search_id": "S249-3",
+      "query": "\"chemotaxis\" \"consumption\" \"global classical\" \"large data\" proof",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Small-data theorem access and unrestricted resolution screening"
+    },
+    {
+      "search_id": "S249-4",
+      "query": "\"chemotaxis-consumption\" \"blow-up\" \"2025\" \"2026\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Small-data theorem access and unrestricted resolution screening"
+    },
+    {
+      "search_id": "S250-1",
+      "query": "\"s00033-025-02477-y\" theorem",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Possible-resolution theorem and continuation criterion retrieval"
+    },
+    {
+      "search_id": "S250-2",
+      "query": "\"Rani\" \"Tyagi\" \"nonlinear sensitivity\" pdf",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Possible-resolution theorem and continuation criterion retrieval"
+    },
+    {
+      "search_id": "S250-3",
+      "query": "\"chemotaxis consumption\" \"Theorem 1.1\" \"2025\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Possible-resolution theorem and continuation criterion retrieval"
+    },
+    {
+      "search_id": "S250-4",
+      "query": "\"Jiang\" \"Wu\" \"Zheng\" \"consumption\" \"Blow-up\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Possible-resolution theorem and continuation criterion retrieval"
+    },
+    {
+      "search_id": "S251-1",
+      "query": "\"chemotaxis-consumption\" \"global\" proof proved solved resolution counterexample disproof refutation",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Aliases, author trail, corrections and current resolution searches"
+    },
+    {
+      "search_id": "S251-2",
+      "query": "\"nutrient taxis\" \"fully parabolic\" \"arbitrary\" \"2026\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Aliases, author trail, corrections and current resolution searches"
+    },
+    {
+      "search_id": "S251-3",
+      "query": "\"Depleting the signal\" correction erratum withdrawal",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Aliases, author trail, corrections and current resolution searches"
+    },
+    {
+      "search_id": "S251-4",
+      "query": "\"Lankeit\" \"Winkler\" \"chemotaxis-consumption\" 2025 2026",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Aliases, author trail, corrections and current resolution searches"
+    },
+    {
+      "search_id": "S252-1",
+      "query": "\"chemotaxis-consumption interaction\" correction erratum",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Indirect resolutions, hyphenation alias and correction checks"
+    },
+    {
+      "search_id": "S252-2",
+      "query": "\"Blow-up prevention and rate of convergence\" correction erratum",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Indirect resolutions, hyphenation alias and correction checks"
+    },
+    {
+      "search_id": "S252-3",
+      "query": "\"chemotaxis consumption\" \"global regularity\" 2026",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Indirect resolutions, hyphenation alias and correction checks"
+    },
+    {
+      "search_id": "S252-4",
+      "query": "\"nutrient-taxis\" \"Neumann\" \"counterexample\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Indirect resolutions, hyphenation alias and correction checks"
+    },
+    {
+      "search_id": "A36-1",
+      "query": "\"chemotaxis-consumption\" \"classical\" \"2026\" \"Neumann\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A36-2",
+      "query": "\"chemotaxis-consumption\" \"finite-time blow-up\" \"linear diffusion\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A36-3",
+      "query": "\"chemotaxis consumption\" \"arbitrary initial data\" \"global\" \"proof\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A36-4",
+      "query": "\"Zheng\" \"Wang\" \"2025.98\" erratum correction",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A36-5",
+      "query": "\"Chemotaxis-consumption system with Robin boundary\" arxiv",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted",
+      "review_stage": "Adversarial follow-up of newly located changed-model results and access limits"
+    },
+    {
+      "search_id": "A36-6",
+      "query": "\"Global behavior in a chemotaxis system with consumption\" \"Theorem\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted",
+      "review_stage": "Adversarial follow-up of newly located changed-model results and access limits"
+    },
+    {
+      "search_id": "A36-7",
+      "query": "\"s00033-025-02477-y\" \"smallness\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted",
+      "review_stage": "Adversarial follow-up of newly located changed-model results and access limits"
+    }
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass after drafting; no independent agent or human review.",
+    "reviewer_or_pass_identifier": "A36",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A36-1",
+      "A36-2",
+      "A36-3",
+      "A36-4",
+      "A36-5",
+      "A36-6",
+      "A36-7"
+    ],
+    "issues_found": [
+      "A 2026 global-classical theorem allows zero logistic growth in 3D, so a logistic-only dismissal would be incorrect.",
+      "A 2026 Robin-boundary paper constructs actual blow-up; its full model and diffusion range needed checking.",
+      "Conditional blow-up rates can be mistaken for an example; eventual smoothness can be mistaken for smoothness throughout the earlier interval.",
+      "The general-domain formulation, time-zero data class and distinction from reaction–diffusion entry 315 needed preserving."
+    ],
+    "issues_resolved": [
+      "PSX26 retains independent velocity dynamics and a different boundary condition even at zero logistic growth.",
+      "KA26 has an elliptic signal with Robin input; its counterexample also requires repulsion and sublinear diffusion.",
+      "Read the complete relevant JWZ18 and LW25 statements; neither establishes a matching counterexample or unconditional classical continuation.",
+      "Retained LW23 data/solution classes and LW25 general-domain scope; no extra uniform-in-time bound was imposed. Reread the nearest active entries and retained one higher-dimensional family.",
+      "Recorded inaccessible RT25 full text without using its abstract as decisive status evidence."
+    ],
+    "verdict": "pass_for_research_draft"
+  },
+  "remote_publication": {
+    "state": "not_integrated",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "research_publication": {
+    "state": "local_pending_push",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null
+  },
+  "statement_source_and_scope_match": "LW23 explicitly poses arbitrary-data global classical existence for CC1 in n≥3, using the data and solution conventions (2.7)–(2.8). LW25 §1 and W26 §1 confirm the general smooth bounded-domain model. The target is one family across higher dimensions, with classical continuation at every positive time; neither uniform-in-time bounds nor a decay rate is added.",
+  "later_results_and_resolution_checks": [
+    {
+      "source_ids": [
+        "LW23"
+      ],
+      "locator": "Theorems 2.1–2.4",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": {
+        "equations": "CC1 matches both parabolic equations and Neumann conditions.",
+        "dimension": "Planar global classical result covers n=2.",
+        "large_data": "For n≥3 arbitrary data yield only weak/renormalized solutions in these older results.",
+        "small_signal": "Classical global existence in every dimension assumes a small initial signal."
+      },
+      "assessment": "These partial results do not establish the all-large-data n≥3 target.",
+      "indirect_resolution_considered": true
+    },
+    {
+      "source_ids": [
+        "CVFG25"
+      ],
+      "locator": "Author-version Theorems 2.4 and 2.7; published §2 status discussion",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": {
+        "equations": "s=1 is the target; s>1 belongs to the broader model considered there.",
+        "dimension_and_solution": "Three-dimensional result is weak; global strong result is two-dimensional.",
+        "conditional_upgrade": "The published discussion of regularity criteria imposes extra integrability, which is not an a priori bound for every admissible datum."
+      },
+      "assessment": "Independent corroboration of the gap; neither weak existence nor a conditional regularity criterion supplies the missing unconditional continuation.",
+      "indirect_resolution_considered": true
+    },
+    {
+      "source_ids": [
+        "LW25"
+      ],
+      "locator": "Definition 1.1 and Theorem 1.2",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": {
+        "equations": "Exactly the target equations and boundary conditions.",
+        "dimension_domain": "All smooth bounded domains and all n, including nonconvex geometry.",
+        "initial_data": "Includes the target data, and allows a rougher initial class.",
+        "conclusion": "Global weak solution, C^{2,1} only after some T>0, followed by equilibrium convergence."
+      },
+      "assessment": "Strongest reviewed unrestricted-data result leaves possible loss of classical regularity before the smoothing time. Forward eventual regularity does not imply regularity throughout the earlier interval.",
+      "indirect_resolution_considered": true
+    },
+    {
+      "source_ids": [
+        "ZW25"
+      ],
+      "locator": "Theorem 2.1 and (2.5); Theorem 2.5",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": {
+        "equations": "Same model with constant attraction coefficient chi>0, including chi=1.",
+        "domain": "Smooth bounded convex domain in N≥2.",
+        "initial_data": "Requires 0<||v0||_infinity<(pi/chi)*sqrt(2/N).",
+        "conclusion": "Unique global bounded classical solution under this smallness condition. Theorem 2.5 states convergence of a globally classical solution."
+      },
+      "assessment": "The explicit smallness restriction excludes arbitrary signal size. The asymptotic theorem cannot independently supply a global classical solution for all data.",
+      "indirect_resolution_considered": true
+    },
+    {
+      "source_ids": [
+        "JWZ18"
+      ],
+      "locator": "Theorems 1.1–1.3 and Corollary 1.1",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": {
+        "equations": "Matches the three-dimensional case, with chi=1 allowed.",
+        "domain": "General smooth bounded 3D domain.",
+        "data": "Positive continuous cell density and W^{1,q}, q>3, signal.",
+        "crucial_premise": "Every blow-up theorem assumes finite maximal existence time.",
+        "conclusion": "Necessary critical-norm divergence and quantitative lower bounds conditional on blow-up."
+      },
+      "assessment": "Does not construct blow-up or refute global continuation. The title alone would misclassify the result.",
+      "indirect_resolution_considered": true
+    },
+    {
+      "source_ids": [
+        "W26"
+      ],
+      "locator": "Theorem 1.1 and (1.7)",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": {
+        "equations": "Signal is elliptic: 0=Delta v-uv, not v_t=Delta v-uv.",
+        "boundary": "Prescribed positive Dirichlet signal data, not homogeneous Neumann.",
+        "symmetry": "Radial data in a ball.",
+        "diffusion": "General D with lower bound exponent alpha<1 includes D=1, but the signal dynamics and boundary data still differ."
+      },
+      "assessment": "Neither this global theorem nor its discussed degenerate-diffusion blow-up precedent resolves the fully parabolic, fully isolated problem.",
+      "indirect_resolution_considered": true
+    },
+    {
+      "source_ids": [
+        "BGP25"
+      ],
+      "locator": "Definition 2.1 and Theorem 2.1",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": {
+        "equations": "Coupled Navier–Stokes system with n^s c consumption and s>1.",
+        "domain": "Three-dimensional bounded domains with stated elliptic regularity.",
+        "conclusion": "Convergence to global weak solutions in the defined energy spaces."
+      },
+      "assessment": "A weak-solvability advance, not the requested classical regularity. Turning off fluid coupling does not upgrade the solution class or supply the s=1 conclusion.",
+      "indirect_resolution_considered": true
+    },
+    {
+      "source_ids": [
+        "KA26"
+      ],
+      "locator": "(1.1)–(1.4), Theorems 1.1–1.3, Remark 1.2",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": {
+        "signal": "Elliptic with Robin boundary input, unlike the target.",
+        "global_results": "2D with positive diffusivity lower bound; 3D Stokes with a sufficiently large diffusivity bound.",
+        "blow_up": "Radial fluid-free ball, S=+I (repulsion), D≤K(1+rho)^(m−1), 0<m<2/n, and sufficiently large boundary input."
+      },
+      "assessment": "Neither the existence nor blow-up theorem covers the fully parabolic attractive Neumann model with D=1.",
+      "indirect_resolution_considered": true
+    },
+    {
+      "source_ids": [
+        "PSX26"
+      ],
+      "locator": "(1.4)–(1.5), Theorems 1.1 and 1.5",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": {
+        "migration": "Flux −div(u w), with w_t=Delta w−w+chi grad(v) and w=0 on the boundary.",
+        "signal": "v_t=Delta v−uv matches.",
+        "logistic_term": "gamma(u−u^alpha); gamma=0 is allowed for n≤3.",
+        "conclusion": "Global bounded classical solutions under the stated dimensional/logistic hypotheses; small-chi stabilization.",
+        "dimension_and_parameters": "n≤3, gamma≥0, alpha>1; or n≥4, gamma>0, alpha>(n+6−sqrt(n²+4n+20))/2.",
+        "initial_data": "Nonzero nonnegative u0∈C0 and v0∈W2,infinity; independent vector datum w0∈W2,infinity."
+      },
+      "assessment": "Setting gamma=0 does not identify w with grad(v). The extra velocity dynamics and boundary condition remain; no equivalence to the target is established.",
+      "indirect_resolution_considered": true
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "local_head_reviewed": "5b503704a653afeb1af2f2e9ca45cb1434859295",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "review_scope": "Retained completed reading of baseline and all 330 current pages. Fresh model/alias search across active pages, data and research; reread complete pages 315, 147 and 197. No active or accepted chemotaxis-consumption entry found. Discovery-only production-model Keller–Segel lead is separately noted.",
+    "closest_existing_or_new_entries": [
+      {
+        "id": 315,
+        "path": "problems/315-reversible-reaction-classical-continuation.md",
+        "difference": "Spatial mass-action reaction system with diagonal constant diffusion and reversible reaction terms. The candidate's directed flux −div(u grad v) is cross-diffusion and is not an included reaction term; the chemical is consumed without a reversible species network."
+      },
+      {
+        "id": 147,
+        "path": "problems/147-global-cubic-heat-null-control.md",
+        "difference": "Existence of a chosen localized control for a scalar heat equation with cubic growth and Dirichlet conditions. Here no actuator is present and continuation of a coupled no-flux taxis system is asked."
+      },
+      {
+        "id": 197,
+        "path": "problems/197-stochastic-heat-critical-uniqueness.md",
+        "difference": "Pathwise uniqueness for a one-dimensional stochastic mild equation. The candidate is deterministic, n≥3, and asks global classical existence."
+      }
+    ],
+    "distinctness_reason": "A separate nutrient-driven migration model and unconditional classical-continuation question. Count one canonical family across all n≥3, domain geometries and initial sizes.",
+    "implications_or_equivalences": [
+      "Classical continuation excludes finite-time loss of the specified solution class; no claim that every known weak solution is unique or immediately regular.",
+      "The signal-production Keller–Segel system has a different second equation and its blow-up results do not transfer."
+    ]
+  },
+  "applied_significance": "Cells or bacteria diffuse and move toward higher nutrient concentration while consuming that same nutrient. The question tests whether this closed-domain continuum model always supplies finite classical concentration fields over each observation interval despite the concentrating taxis flux. Consumption bounds the signal itself, but does not directly control its gradient or cell aggregation.",
+  "application_evidence_source_ids": [
+    "LW23",
+    "CVFG25",
+    "JWZ18"
+  ],
+  "independent_status_corroboration": {
+    "source_ids": [
+      "CVFG25",
+      "JWZ18"
+    ],
+    "independent_of": [
+      "LW23",
+      "LW25",
+      "W26"
+    ],
+    "explanation": "Disjoint author sets explicitly retain the three-dimensional classical/regularity gap; the later Lankeit–Winkler and Winkler texts retain the same higher-dimensional gap. Sources, not reviewers, are independent.",
+    "limitations": "Independent survey first appeared in 2024 and was published in a 2025 volume. Current 2025/2026 papers, theorem comparisons and fresh searches supplement it."
+  },
+  "open_status_evidence_summary": "Explicit source-backed open question retained in LW23, independently discussed in CVFG25, and still distinguished from weak/eventual regularity in LW25 and W26. No matching all-data classical theorem or counterexample located in searches through September 17, 2026.",
+  "strongest_known_partial_results_and_gap": "LW25 constructs weak solutions with eventual smoothness for all n and smooth bounded domains. ZW25 increases the permitted initial-signal size for classical solutions but keeps an explicit smallness bound. Classical regularity throughout every positive time for arbitrary data in n≥3 remains the target.",
+  "source_access_limitations": [
+    "RT25 was read only in the publisher preview and is not used as decisive status evidence; no detailed theorem assessment is claimed.",
+    "Published LW25 full-page fetch failed; its complete author theorem is accessible. Bibliographic metadata was obtained from the indexed publisher page.",
+    "Proofs were read only as needed to determine statement scope; this work does not certify all cited technical arguments.",
+    "KA26 direct publisher access failed; complete relevant published statements were read in publisher-provided ResearchGate full text.",
+    "PSX26 PDF retrieval failed; the publisher’s full HTML introduction contains the model and both main theorem statements, which were read."
+  ],
+  "search_outcomes": [
+    {
+      "search_ids": [
+        "S246-1",
+        "S246-2",
+        "S246-3",
+        "S247-1",
+        "S247-2",
+        "S247-3",
+        "S248-1",
+        "S248-2",
+        "S248-3",
+        "S248-4",
+        "S249-1",
+        "S249-2",
+        "S249-3",
+        "S249-4",
+        "S250-1",
+        "S250-2",
+        "S250-3",
+        "S250-4",
+        "S251-1",
+        "S251-2",
+        "S251-3",
+        "S251-4",
+        "S252-1",
+        "S252-2",
+        "S252-3",
+        "S252-4"
+      ],
+      "outcome": "Located two surveys, the 2025 all-dimension weak/eventually smooth theorem, explicit small-signal classical theorem, a conditional blow-up paper, a 2026 parabolic-elliptic radial result, and the current fluid-coupled weak-solution version. No matching unconditional classical resolution located. RT25 access limits remain explicit."
+    },
+    {
+      "search_ids": [
+        "A36-1",
+        "A36-2",
+        "A36-3",
+        "A36-4",
+        "A36-5",
+        "A36-6",
+        "A36-7"
+      ],
+      "outcome": "A36 found and fully compared the KA26 Robin parabolic–elliptic theorems and PSX26 independently evolving velocity model. Neither matches the target. Correction searches supplied no material contradiction. RT25 remains a supplementary abstract-only small-data result."
+    }
+  ],
+  "proposed_statement": "Let $n\\ge3$ and let $\\Omega\\subset\\mathbb R^n$ be a bounded connected domain with smooth boundary. Let $u_0,v_0\\in W^{1,\\infty}(\\Omega)$, with $u_0\\ge0$, $u_0\\not\\equiv0$, and $v_0>0$ on $\\overline\\Omega$. Consider\n\n$$\n\\begin{aligned}\n\\partial_tu&=\\Delta u-\\nabla\\!\\cdot(u\\nabla v),\\\\\n\\partial_tv&=\\Delta v-uv\n\\end{aligned}\n\\qquad\\text{in }\\Omega\\times(0,\\infty),\n$$\n\nwith homogeneous Neumann conditions $\\partial_\\nu u=\\partial_\\nu v=0$ on $\\partial\\Omega$, where $\\nu$ is the outward unit normal, and initial values $(u,v)|_{t=0}=(u_0,v_0)$.\n\nDoes the maximal local classical solution extend to all positive times for every such domain and initial pair, without any smallness assumption? The required solution class is\n\n$$\n\\begin{aligned}\nu&\\in C^0(\\overline\\Omega\\times[0,\\infty))\n       \\cap C^{2,1}(\\overline\\Omega\\times(0,\\infty)),\\\\\nv&\\in C^{2,1}(\\overline\\Omega\\times(0,\\infty))\n       \\cap\\bigcap_{n<q<\\infty}C^0([0,\\infty);W^{1,q}(\\Omega)),\n\\end{aligned}\n$$\n\nwith $u\\ge0$ and $v>0$ for positive times. Here $C^{2,1}$ means continuous spatial derivatives through order two and a continuous first time derivative; the equations and boundary conditions hold pointwise. The initial conditions are attained in the displayed spaces. No derivative compatibility at time zero is imposed beyond these data assumptions. [1]\n\nBoth diffusivities, the attraction coefficient and the consumption coefficient are fixed at one. The question concerns classical continuation through every finite time; a uniform bound as $t\\to\\infty$ or a specified convergence rate is not an additional requirement. All dimensions $n\\ge3$ form one problem family. [1, 3, 6]",
+  "validation": {
+    "checked_on": "2026-09-17",
+    "catalogue_write": "python3 scripts/catalogue.py --write: 330 indexed problems; no resulting active-file changes.",
+    "catalogue_check": "python3 scripts/catalogue.py --check: passed for 330 unique problems, metadata, required sections, math delimiters, local links and README freshness.",
+    "diff_check": "git diff --check: passed.",
+    "math_rendering": "All 19 inline/display expressions passed strict KaTeX with throwOnError and strict:error. Full draft rendered in headless Chrome and visually inspected, including references and status review; no clipping or malformed notation found.",
+    "local_links_and_headings": "All draft local links resolve; required headings and title match checked.",
+    "count_and_preservation_audit": "35 accepted, 40 candidate records, five held, five accepted drafts pending, 330 active; 1126 unique saved search IDs. Original 300 problem pages unchanged from baseline.",
+    "external_bibliography_links": [
+      {
+        "url": "https://arxiv.org/html/2304.02449v1",
+        "http_status": 200,
+        "note": "URL returned 200 after redirects."
+      },
+      {
+        "url": "https://arxiv.org/html/2502.17338v1",
+        "http_status": 200,
+        "note": "URL returned 200 after redirects."
+      },
+      {
+        "url": "https://arxiv.org/html/2601.05338v1",
+        "http_status": 200,
+        "note": "URL returned 200 after redirects."
+      },
+      {
+        "url": "https://arxiv.org/pdf/1610.06684",
+        "http_status": 200,
+        "note": "URL returned 200 after redirects."
+      },
+      {
+        "url": "https://doi.org/10.1016/j.na.2025.113853",
+        "http_status": 200,
+        "note": "URL returned 200 after redirects."
+      },
+      {
+        "url": "https://doi.org/10.1111/sapm.12625",
+        "http_status": 403,
+        "note": "DOI resolves to Wiley; automated request returned 403. The linked primary arXiv manuscript returned 200."
+      },
+      {
+        "url": "https://ejde.math.txstate.edu/Volumes/2025/98/zheng.pdf",
+        "http_status": 200,
+        "note": "URL returned 200 after redirects."
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s40324-024-00362-8",
+        "http_status": 200,
+        "note": "Publisher returned a cookie-related redirect; full text was separately read through the web tool."
+      }
+    ],
+    "limitations": "Automated validation and visual review do not certify mathematical correctness or open status."
+  }
+}

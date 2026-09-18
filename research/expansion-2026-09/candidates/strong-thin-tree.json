@@ -400,10 +400,12 @@
     "pull_request_url": null
   },
   "research_publication": {
-    "state": "local_pending_push",
+    "state": "pushed_directly_to_main",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null
+    "commit": "5b503704a653afeb1af2f2e9ca45cb1434859295",
+    "verified_on": "2026-09-17",
+    "verification": "Independent git ls-remote origin refs/heads/main matched the local commit."
   },
   "later_results_and_resolution_checks": [
     {

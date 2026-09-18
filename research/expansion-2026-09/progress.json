@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 34,
+  "new_accepted": 35,
   "active_total": 330,
-  "candidates_investigated": 39,
+  "candidates_investigated": 40,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 166,
-  "remaining_to_target": 216,
+  "remaining_to_minimum": 165,
+  "remaining_to_target": 215,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -138,12 +138,16 @@
     {
       "commit": "66995c4fdbe452bcaa254bc5d7187cecee467e83",
       "purpose": "Record reviewed generalized Wright attraction draft; pushed directly to main and independently reverified."
+    },
+    {
+      "commit": "5b503704a653afeb1af2f2e9ca45cb1434859295",
+      "purpose": "Record reviewed strong thin-tree draft; pushed directly to main and independently reverified."
     }
   ],
-  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit 66995c4fdbe452bcaa254bc5d7187cecee467e83 includes the three accepted rendezvous, trace-reconstruction and generalized-Wright drafts; remote main independently reverified September 17, 2026. The accepted strong thin-tree draft is prepared for the next direct research push. No PR required.",
+  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit 5b503704a653afeb1af2f2e9ca45cb1434859295 includes the four accepted rendezvous, trace-reconstruction, generalized-Wright and strong thin-tree drafts; remote main independently reverified September 17, 2026. The accepted chemotaxis-consumption draft is prepared for the next direct research push. No PR required.",
   "next_actions": [
     "Continue discovery toward at least 200 new problems, deliberately broadening biology, statistics, control and operations research.",
-    "Accumulate the next reviewable batch; symmetric rendezvous, polynomial trace reconstruction, generalized Wright attraction and strong thin trees are accepted research drafts. Refresh status and upstream duplicates before integration.",
+    "Accumulate the next reviewable batch; symmetric rendezvous, polynomial trace reconstruction, generalized Wright attraction, strong thin trees and chemotaxis-consumption continuation are accepted research drafts. Refresh status and upstream duplicates before integration.",
     "CFN sunlet projective quadratic-generation lead needs independent corroboration and saturation-scope review.",
     "Keep matching unresolved claims outside new additions; separately follow up the September 14 k-server claim for historical entry 286."
   ],
@@ -158,16 +162,16 @@
     "stochastic2": 3,
     "spectral": 1,
     "spectral3": 2,
-    "continuum3": 1,
+    "continuum3": 2,
     "continuum2": 1
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 30,
-  "count_semantics": "Thirty additions are integrated and published directly on main. Four accepted research drafts await batch 4; active total 330. Five held records excluded.",
+  "count_semantics": "Thirty additions are integrated and published directly on main. Five accepted research drafts await batch 4; active total 330. Five held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 30,
-  "coverage_semantics": "Accepted additions by primary section; thirty integrated and four pending research drafts.",
+  "coverage_semantics": "Accepted additions by primary section; thirty integrated and five pending research drafts.",
   "remaining_integrations_to_minimum": 170,
   "remaining_integrations_to_target": 220,
-  "pending_accepted": 4
+  "pending_accepted": 5
 }

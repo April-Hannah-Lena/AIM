@@ -8637,5 +8637,421 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted",
     "review_stage": "Adversarial follow-up of an author's forthcoming-paper listing"
+  },
+  {
+    "search_id": "S240-1",
+    "query": "\"mathematical biology\" \"open problems\" 2026 conjecture",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Biology and statistics breadth discovery"
+  },
+  {
+    "search_id": "S240-2",
+    "query": "\"log-concave density estimation\" \"open\" \"sample\" 2025 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Biology and statistics breadth discovery"
+  },
+  {
+    "search_id": "S240-3",
+    "query": "\"phylogenetic\" \"conjecture\" \"open\" 2026 identifiability",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Biology and statistics breadth discovery"
+  },
+  {
+    "search_id": "S240-4",
+    "query": "\"Problems, Progress and Perspectives\" \"Biology\" 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Biology and statistics breadth discovery"
+  },
+  {
+    "search_id": "S241-1",
+    "query": "\"cane toads\" \"open problem\" 2025 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Population dynamics and current tutorial follow-up"
+  },
+  {
+    "search_id": "S241-2",
+    "query": "\"Phenotype structuring in collective cell migration\" open problems conjecture",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Population dynamics and current tutorial follow-up"
+  },
+  {
+    "search_id": "S241-3",
+    "query": "\"rebellious voter\" extinction conjecture 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Population dynamics and current tutorial follow-up"
+  },
+  {
+    "search_id": "S242-1",
+    "query": "\"Is Interaction Necessary for Order-Optimal\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Explicit statistics and chemical-reaction formulations"
+  },
+  {
+    "search_id": "S242-2",
+    "query": "\"cubic\" \"algebraic limit cycles\" \"Craciun\" \"Erban\" conjecture",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Explicit statistics and chemical-reaction formulations"
+  },
+  {
+    "search_id": "S242-3",
+    "query": "\"log-concave\" \"sample complexity\" \"open problem\" 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Explicit statistics and chemical-reaction formulations"
+  },
+  {
+    "search_id": "S243-1",
+    "query": "\"Non-Adaptive 1-Bit Mean Estimation: Minimax Rates\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "One-bit mean estimation current claims and independent corroboration"
+  },
+  {
+    "search_id": "S243-2",
+    "query": "\"one bit\" \"nonparametric\" \"mean estimation\" \"open\" 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "One-bit mean estimation current claims and independent corroboration"
+  },
+  {
+    "search_id": "S243-3",
+    "query": "\"1-bit mean estimation\" \"non-adaptive\" solved proof counterexample",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "One-bit mean estimation current claims and independent corroboration"
+  },
+  {
+    "search_id": "S244-1",
+    "query": "\"parabolic-parabolic\" \"Keller-Segel\" \"two-dimensional\" \"open\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Mathematical biology and privacy candidate screening"
+  },
+  {
+    "search_id": "S244-2",
+    "query": "\"Keller-Segel\" \"finite time blow-up\" \"two dimensional\" 2025 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Mathematical biology and privacy candidate screening"
+  },
+  {
+    "search_id": "S244-3",
+    "query": "\"Does Differential Privacy Make PAC Learning Much Harder\" solved",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Mathematical biology and privacy candidate screening"
+  },
+  {
+    "search_id": "S245-1",
+    "query": "\"fully parabolic\" \"two-dimensional\" \"blow-up\" \"open problem\" Keller",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Precise two-dimensional chemotaxis blow-up scope screening"
+  },
+  {
+    "search_id": "S245-2",
+    "query": "\"parabolic-parabolic\" \"Keller-Segel\" \"finite-time\" \"still open\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Precise two-dimensional chemotaxis blow-up scope screening"
+  },
+  {
+    "search_id": "S245-3",
+    "query": "\"minimal Keller\" \"two\" \"finite\" \"open\" 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Precise two-dimensional chemotaxis blow-up scope screening"
+  },
+  {
+    "search_id": "S246-1",
+    "query": "\"chemotaxis-consumption\" \"global classical\" \"open\" 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Signal-consumption chemotaxis regularity discovery"
+  },
+  {
+    "search_id": "S246-2",
+    "query": "\"Depleting the signal\" \"survey\" arxiv",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Signal-consumption chemotaxis regularity discovery"
+  },
+  {
+    "search_id": "S246-3",
+    "query": "\"chemotaxis-consumption\" \"three-dimensional\" \"2025\" \"open\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Signal-consumption chemotaxis regularity discovery"
+  },
+  {
+    "search_id": "S247-1",
+    "query": "\"Blow-up prevention and rate of convergence of solutions\" consumption",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Chemotaxis-consumption full-scope and possible-resolution checks"
+  },
+  {
+    "search_id": "S247-2",
+    "query": "\"Global classical solutions to a chemotaxis consumption system\" Rani Tyagi",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Chemotaxis-consumption full-scope and possible-resolution checks"
+  },
+  {
+    "search_id": "S247-3",
+    "query": "\"chemotaxis-consumption\" \"global classical\" 2026 blow-up",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Chemotaxis-consumption full-scope and possible-resolution checks"
+  },
+  {
+    "search_id": "S248-1",
+    "query": "\"A Review on the Analysis and Optimal Control of Chemotaxis-Consumption Models\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Independent chemotaxis status and recent scope checks"
+  },
+  {
+    "search_id": "S248-2",
+    "query": "\"Global classical solutions\" \"Rani\" \"Tyagi\" consumption filetype:pdf",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Independent chemotaxis status and recent scope checks"
+  },
+  {
+    "search_id": "S248-3",
+    "query": "\"chemotaxis-consumption\" \"arbitrary\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Independent chemotaxis status and recent scope checks"
+  },
+  {
+    "search_id": "S248-4",
+    "query": "\"chemotaxis-consumption\" \"classical\" \"solved\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Independent chemotaxis status and recent scope checks"
+  },
+  {
+    "search_id": "S249-1",
+    "query": "\"Rani\" \"Tyagi\" \"consumption\" \"Theorem 1.1\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Small-data theorem access and unrestricted resolution screening"
+  },
+  {
+    "search_id": "S249-2",
+    "query": "\"Global classical solutions to a chemotaxis consumption\" arxiv",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Small-data theorem access and unrestricted resolution screening"
+  },
+  {
+    "search_id": "S249-3",
+    "query": "\"chemotaxis\" \"consumption\" \"global classical\" \"large data\" proof",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Small-data theorem access and unrestricted resolution screening"
+  },
+  {
+    "search_id": "S249-4",
+    "query": "\"chemotaxis-consumption\" \"blow-up\" \"2025\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Small-data theorem access and unrestricted resolution screening"
+  },
+  {
+    "search_id": "S250-1",
+    "query": "\"s00033-025-02477-y\" theorem",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Possible-resolution theorem and continuation criterion retrieval"
+  },
+  {
+    "search_id": "S250-2",
+    "query": "\"Rani\" \"Tyagi\" \"nonlinear sensitivity\" pdf",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Possible-resolution theorem and continuation criterion retrieval"
+  },
+  {
+    "search_id": "S250-3",
+    "query": "\"chemotaxis consumption\" \"Theorem 1.1\" \"2025\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Possible-resolution theorem and continuation criterion retrieval"
+  },
+  {
+    "search_id": "S250-4",
+    "query": "\"Jiang\" \"Wu\" \"Zheng\" \"consumption\" \"Blow-up\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Possible-resolution theorem and continuation criterion retrieval"
+  },
+  {
+    "search_id": "S251-1",
+    "query": "\"chemotaxis-consumption\" \"global\" proof proved solved resolution counterexample disproof refutation",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Aliases, author trail, corrections and current resolution searches"
+  },
+  {
+    "search_id": "S251-2",
+    "query": "\"nutrient taxis\" \"fully parabolic\" \"arbitrary\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Aliases, author trail, corrections and current resolution searches"
+  },
+  {
+    "search_id": "S251-3",
+    "query": "\"Depleting the signal\" correction erratum withdrawal",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Aliases, author trail, corrections and current resolution searches"
+  },
+  {
+    "search_id": "S251-4",
+    "query": "\"Lankeit\" \"Winkler\" \"chemotaxis-consumption\" 2025 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Aliases, author trail, corrections and current resolution searches"
+  },
+  {
+    "search_id": "S252-1",
+    "query": "\"chemotaxis-consumption interaction\" correction erratum",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Indirect resolutions, hyphenation alias and correction checks"
+  },
+  {
+    "search_id": "S252-2",
+    "query": "\"Blow-up prevention and rate of convergence\" correction erratum",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Indirect resolutions, hyphenation alias and correction checks"
+  },
+  {
+    "search_id": "S252-3",
+    "query": "\"chemotaxis consumption\" \"global regularity\" 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Indirect resolutions, hyphenation alias and correction checks"
+  },
+  {
+    "search_id": "S252-4",
+    "query": "\"nutrient-taxis\" \"Neumann\" \"counterexample\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Indirect resolutions, hyphenation alias and correction checks"
+  },
+  {
+    "search_id": "A36-1",
+    "query": "\"chemotaxis-consumption\" \"classical\" \"2026\" \"Neumann\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A36-2",
+    "query": "\"chemotaxis-consumption\" \"finite-time blow-up\" \"linear diffusion\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A36-3",
+    "query": "\"chemotaxis consumption\" \"arbitrary initial data\" \"global\" \"proof\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A36-4",
+    "query": "\"Zheng\" \"Wang\" \"2025.98\" erratum correction",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A36-5",
+    "query": "\"Chemotaxis-consumption system with Robin boundary\" arxiv",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Adversarial follow-up of newly located changed-model results and access limits"
+  },
+  {
+    "search_id": "A36-6",
+    "query": "\"Global behavior in a chemotaxis system with consumption\" \"Theorem\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Adversarial follow-up of newly located changed-model results and access limits"
+  },
+  {
+    "search_id": "A36-7",
+    "query": "\"s00033-025-02477-y\" \"smallness\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Adversarial follow-up of newly located changed-model results and access limits"
   }
 ]
