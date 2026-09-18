@@ -14210,5 +14210,284 @@
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Separated adversarial self-pass after drafting: exact target, unrestricted and recent resolutions, corrections and duplicate scope.",
     "candidate_id": "reed-colouring"
+  },
+  {
+    "search_id": "S383-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "polynomial vector fields global asymptotic stability decidability open problem 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S383-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "statistics log concave density estimation open problems minimax conjecture 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "discovery-log-concave-statistics"
+  },
+  {
+    "search_id": "S383-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "control polynomial differential equations stability undecidable conjecture homogeneous cubic",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S384-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"polynomial vector fields\" \"decidability\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S384-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"asymptotic stability\" \"undecidable\" \"polynomial\" Arnold",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S384-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"homogeneous\" \"stability\" \"decidable\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S384-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"stability of polynomial\" \"open\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S385-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"polynomial vector fields\" \"stability\" proof solved undecidable",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S385-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"local asymptotic stability\" \"polynomial\" \"undecidable\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S385-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Arnold\" \"stability\" \"decidability\" 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S385-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"rational coefficients\" \"asymptotic stability\" algorithm decidable",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S386-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Liu\" \"Fitzsimmons\" \"2607.16171\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S386-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Ahmadi\" \"Parrilo\" \"stability\" \"undecidability\" proof",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S386-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"polynomial differential equations\" \"decidable\" stability 2024 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S386-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Arnold\" \"stability\" conjecture solved refutation correction",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S387-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"On Algebraic Proofs of Stability for Homogeneous Vector Fields\" arxiv IEEE 2020",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S387-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"On Arnold’s Hilbert symposium problems\" pdf",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S387-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Computational bounds on polynomial differential equations\" pdf Graca",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S387-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Revisiting the Complexity of Stability\" continuous hybrid polynomial",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and primary formulation/status investigation before drafting.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S388-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Arnold's conjecture\" stability decidability proof",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and resolution/correction search before drafting. Namesake and unrelated hits are not status evidence.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S388-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"local asymptotic stability\" \"polynomial\" \"algorithm\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and resolution/correction search before drafting. Namesake and unrelated hits are not status evidence.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S388-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"stability\" \"rational polynomial\" \"decidable\" counterexample disproof",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and resolution/correction search before drafting. Namesake and unrelated hits are not status evidence.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S388-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Stability of Polynomial Differential Equations\" correction erratum withdrawal",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Source discovery and resolution/correction search before drafting. Namesake and unrelated hits are not status evidence.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "A50-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"polynomial\" \"local asymptotic stability\" \"decidability\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after the complete draft: exact inputs, stability notions, missed algorithms, resolutions and corrections. No independent reviewer.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "A50-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Arnold\" \"polynomial\" \"stability\" \"undecidable\" proof",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after the complete draft: exact inputs, stability notions, missed algorithms, resolutions and corrections. No independent reviewer.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "A50-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"polynomial differential equations\" stability decidable algorithm solved",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after the complete draft: exact inputs, stability notions, missed algorithms, resolutions and corrections. No independent reviewer.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "A50-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"polynomial vector fields\" \"asymptotic stability\" resolution counterexample",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after the complete draft: exact inputs, stability notions, missed algorithms, resolutions and corrections. No independent reviewer.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "A50-5",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"1308.6833\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after the complete draft: exact inputs, stability notions, missed algorithms, resolutions and corrections. No independent reviewer.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "A50-6",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"2607.16171\" correction withdrawal",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after the complete draft: exact inputs, stability notions, missed algorithms, resolutions and corrections. No independent reviewer.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "A50-7",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"rational coefficients\" \"local asymptotic stability\" decidable",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after the complete draft: exact inputs, stability notions, missed algorithms, resolutions and corrections. No independent reviewer.",
+    "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "A50-8",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"stability\" \"polynomial ODE\" algorithm 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after the complete draft: exact inputs, stability notions, missed algorithms, resolutions and corrections. No independent reviewer.",
+    "candidate_id": "polynomial-local-stability-decidability"
   }
 ]

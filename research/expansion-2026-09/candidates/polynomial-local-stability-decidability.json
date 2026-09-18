@@ -1,0 +1,342 @@
+{
+  "candidate_id": "polynomial-local-stability-decidability",
+  "proposed_catalogue_id": null,
+  "title": "Decidability of local asymptotic stability for polynomial ODEs",
+  "decision": "accept_open",
+  "decision_reason": "Explicit rational-input local-asymptotic formulation, independent July 2026 corroboration, ten exact-scope comparisons, duplicate check, separated A50 review and final validation passed. No matching unresolved resolution claim located.",
+  "primary_section": "inverse2",
+  "secondary_tags": [
+    "nonlinear control",
+    "algorithmic verification",
+    "polynomial dynamics"
+  ],
+  "aliases": [
+    "Arnold's stability decidability problem",
+    "algorithmic local asymptotic stability of rational polynomial vector fields"
+  ],
+  "problem_fingerprint": {
+    "model": "Autonomous continuous-time ODE x'=f(x) on R^n, f in Q[x_1,...,x_n]^n and f(0)=0.",
+    "input": "Finite exact binary encoding of n and all rational coefficients/monomial exponents; dimension and polynomial degree vary over finite inputs.",
+    "solution": "Unique maximal classical solution from each initial state. No promise of global existence away from the equilibrium's neighbourhood.",
+    "stability": "For every epsilon>0 there is delta>0 such that every solution with Euclidean norm of its initial state less than delta exists for all nonnegative times and remains inside the epsilon-ball.",
+    "attraction": "There is r>0 such that every solution starting in the r-ball exists for all nonnegative times and converges to zero.",
+    "target": "Does one Turing algorithm halt on every valid input and decide whether the origin is locally asymptotically stable, meaning both stability and local attraction?",
+    "scope": "No time-complexity bound, hyperbolicity promise, homogeneity assumption or gap from a stability boundary. A negative answer includes stable but nonattracting equilibria.",
+    "canonical_scope": "One local-asymptotic-stability decision problem. Homogeneous/fixed-degree cases and certificate existence are not separately counted."
+  },
+  "fingerprint_recorded_on": "2026-09-18",
+  "fingerprint_recorded_before_draft": true,
+  "statement_sources": [
+    {
+      "source_id": "AP13",
+      "url": "https://arxiv.org/pdf/1308.6833v1",
+      "locator": "Section 2 definitions, Section 3 rational-input question and its explicit local-asymptotic version, Theorem 3.1 and Lemma 3.2."
+    }
+  ],
+  "independently_authored_corroboration": {
+    "source_id": "LF26",
+    "url": "https://arxiv.org/html/2607.16171v1",
+    "locator": "Section I opening discussion; Section II model and complete Theorem II.2.",
+    "independence": "Liu–Fitzsimmons and Ahmadi–Parrilo are disjoint author teams.",
+    "scope": "Current paper retains algorithmic stability question while disproving a distinct polynomial-certificate converse."
+  },
+  "actual_status_check_date": "2026-09-18",
+  "second_review": {
+    "arrangement": "Primary-agent research followed by a separated adversarial self-pass; no independent agent or human review.",
+    "verdict": "passed",
+    "pass_id": "A50",
+    "date": "2026-09-18",
+    "independent_searches": [
+      "A50-1",
+      "A50-2",
+      "A50-3",
+      "A50-4",
+      "A50-5",
+      "A50-6",
+      "A50-7",
+      "A50-8"
+    ],
+    "issues_found": [
+      "The initial draft did not explicitly explain the decidability of the stronger exponential-stability property.",
+      "Searches surfaced stability-preserving quadratization and an asymptotic/exponential transformation title.",
+      "Negative output must include stable but nonattracting equilibria; degree-bound obstructions must not be mistaken for Turing undecidability."
+    ],
+    "issues_resolved": [
+      "Read Corollary 3.3 and proof, and added its exact scope to the draft.",
+      "Read complete CP24 and J25 theorem statements with definitions: Hurwitz-Jacobian preservation and homotopy conditional on prior stability do not decide the candidate.",
+      "Checked exact rational encoding, all-neighbourhood quantifiers, local forward existence, separate attraction, arbitrary finite dimension/degree and no runtime bound. Draft consistently uses failure of local asymptotic stability."
+    ],
+    "quantifier_checks": "One terminating Turing algorithm for all finite rational polynomial inputs; all real initial states in the quantified neighbourhoods; no global forward-completeness, homogeneity or hyperbolicity promise. Polynomial local Lipschitzness provides unique maximal solutions.",
+    "application_check": "Foundational verification of an already specified polynomial model. No efficient controller synthesis or automatic transfer from a polynomial approximation.",
+    "duplicate_check": "Full nearest statements read again; refreshed aliases across active pages, metadata, candidate records and exclusions. No duplicate located.",
+    "search_limit": "Generic numerical-solver, periodic-orbit, special-model and namesake hits were not treated as openness evidence. Exact correction queries returned substantial unrelated results."
+  },
+  "nearest_existing": [
+    {
+      "entry": "switched-linear-stability-decidability",
+      "path": "research/expansion-2026-09/drafts/switched-linear-stability-decidability.md",
+      "comparison": "Discrete-time products of finitely many rational matrices, quantified over every switching sequence, at a strict spectral-radius threshold. This candidate concerns one autonomous continuous-time nonlinear vector field and local stability plus attraction.",
+      "full_statement_read": true
+    },
+    {
+      "entry": "330",
+      "path": "problems/330-generic-static-output-feedback-stabilization.md",
+      "comparison": "Generic existence of a static output-feedback gain at the critical dimension, across input/output dimensions. It does not ask for a total decision procedure for nonlinear polynomial equilibria.",
+      "full_statement_read": true
+    },
+    {
+      "entry": "273",
+      "path": "problems/273-continuous-skolem-decidability.md",
+      "comparison": "Whether a specified trajectory of a rational linear ODE hits a hyperplane. The candidate instead quantifies over an entire neighbourhood and tests stability and attraction for a nonlinear equilibrium.",
+      "full_statement_read": true
+    }
+  ],
+  "source_records": [
+    {
+      "source_id": "AP13",
+      "authors": [
+        "Amir Ali Ahmadi",
+        "Pablo A. Parrilo"
+      ],
+      "title": "Stability of Polynomial Differential Equations: Complexity and Converse Lyapunov Questions",
+      "url": "https://arxiv.org/pdf/1308.6833v1",
+      "version": "arXiv:1308.6833v1, August 30, 2013; sole version in inspected history. Cited preprint.",
+      "locator": "Full §2 definitions; §3 rational-input question and ensuing local/global discussion, Theorem 3.1 and Lemma 3.2. Corollary 3.3 and its full proof; preceding algebraic-unsolvability discussion.",
+      "read": "Exact formulation and complete cubic hardness statement. The author-hosted copy at https://web.mit.edu/~a_a_a/Public/Publications/Selected_Papers/dTAC.pdf repeats the same question in §3; its publication identity was not separately verified.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "LF26",
+      "authors": [
+        "Jun Liu",
+        "Maxwell Fitzsimmons"
+      ],
+      "title": "A Globally Asymptotically Stable Planar Homogeneous Polynomial Vector Field With No Polynomial Lyapunov Function",
+      "url": "https://arxiv.org/html/2607.16171v1",
+      "version": "arXiv:2607.16171v1, July 17, 2026; sole version in inspected history; preprint.",
+      "locator": "§I; §II full Theorem II.2; §III-A stability proof; §§IV-C–E and conclusion.",
+      "read": "Independent current statement that algorithmic stability remains unresolved. The reported counterexample concerns polynomial/analytic certificates; an explicit rational certificate is supplied. The Lean project was not rerun.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "AE18",
+      "authors": [
+        "Amir Ali Ahmadi",
+        "Bachir El Khadir"
+      ],
+      "title": "On Algebraic Proofs of Stability for Homogeneous Vector Fields",
+      "url": "https://arxiv.org/pdf/1803.01877v4",
+      "version": "v1 March 5, 2018; v2 March 10; v3 March 16; v4 August 16, 2018. Cited v4 preprint, not a separately compared journal version.",
+      "locator": "§1 definitions; §3.1; §4 complete Theorems 4.2–4.3 and hierarchy; §5 Proposition 5.1.",
+      "read": "Necessary and sufficient rational-certificate hierarchy for homogeneous systems. Certificate degrees are searched without a stopping bound on negative instances. Proposition 5.1 uses irrational parameters; no rational-input undecidability claim is inferred from it.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "K22",
+      "authors": [
+        "Milan Korda"
+      ],
+      "title": "Stability and performance verification of dynamical systems controlled by neural networks: algorithms and complexity",
+      "url": "https://arxiv.org/html/2102.02273v5",
+      "version": "v1 February 3, 2021; v2 February 8; v3 March 3; v4 June 5, 2021; v5 September 24, 2022. Cited v5 preprint.",
+      "locator": "§2 complete model; §3.2 full Theorem 3 and proof; §3.3 Assumption 1, Definition 2 and Theorem 4.",
+      "read": "Undecidability for discrete-time linear dynamics with rational ReLU-network feedback, reduced from componentwise saturation. The later certificate theorem has extra regularity and Lyapunov assumptions.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "GBC09",
+      "authors": [
+        "Daniel S. Graça",
+        "Jorge Buescu",
+        "Manuel L. Campagnolo"
+      ],
+      "title": "Computational bounds on polynomial differential equations",
+      "venue": "Applied Mathematics and Computation 215(4) (2009), 1375–1385",
+      "url": "https://sapientia.ualg.pt/bitstreams/5e035076-6f0c-4622-980d-14060d6c33a4/download",
+      "metadata_url": "https://sapientia.ualg.pt/entities/publication/00c128ff-662a-44d4-b627-8c0078756075",
+      "locator": "Definition 1; §3 simulation statements; §5 Definition 21 and full Theorems 22–23, reduction through the blow-up construction.",
+      "read": "Undecidability of finite maximal existence interval from supplied initial data. The coefficient presentation uses an effectively comparable class containing Q[pi]; it is not asserted to be rational-coefficient equilibrium stability.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "GKC14",
+      "authors": [
+        "Sicun Gao",
+        "Soonho Kong",
+        "Edmund M. Clarke"
+      ],
+      "title": "Revisiting the Complexity of Stability of Continuous and Hybrid Systems",
+      "url": "https://arxiv.org/pdf/1404.7169v4",
+      "version": "v1 April 28, 2014; v2 May 1; v3 May 11; v4 June 4, 2014. Regenerated June 2021 PDF date not treated as revision.",
+      "locator": "§§3.1–3.2 full language, Definition 3.3 and Theorem 3.5; §4.1 flow representation; §4.3 complete asymptotic-stability formulas and Theorems 4.17–4.20.",
+      "read": "Broad Type-2-computable-function language. Bounded delta-decisions permit overlap between perturbed truth and exact falsity. Unbounded arithmetical-hierarchy membership is not a rational-polynomial-specific undecidability reduction.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "WYL13",
+      "authors": [
+        "Min Wu",
+        "Zhengfeng Yang",
+        "Wang Lin"
+      ],
+      "title": "Exact Asymptotic Stability Analysis and Region-of-Attraction Estimation for Nonlinear Systems",
+      "venue": "Abstract and Applied Analysis 2013, Article 146137; published April 4, 2013",
+      "doi": "10.1155/2013/146137",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/2013/146137",
+      "locator": "§1; §3.1 fixed template and truncated degree; complete §4.3 Algorithm 9 and §6 conclusion.",
+      "read": "Exact certificate recovery with degree, denominator and tolerance inputs. Both failure branches report inability to find a certificate at the specified bound. Formula images were absent from the text conversion; no full algebraic verification of those equations is claimed.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "CP24",
+      "authors": [
+        "Yubo Cai",
+        "Gleb Pogudin"
+      ],
+      "title": "Dissipative quadratizations of polynomial ODE systems",
+      "url": "https://arxiv.org/html/2311.02508v2",
+      "version": "v1 November 4, 2023; v2 January 24, 2024. Cited v2 author preprint; arXiv records TACAS 2024 publication.",
+      "locator": "§1; §2 Definitions 1–4; complete Theorem 3.1 and Remark 1.",
+      "read": "Dissipativity here means a Hurwitz Jacobian at an equilibrium. The transformation preserves that property; it does not decide general local asymptotic stability.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "J25",
+      "authors": [
+        "Wouter Jongeneel"
+      ],
+      "title": "Asymptotic stability equals exponential stability—while you twist your eyes",
+      "url": "https://wjongeneel.nl/pub/SCL2024.pdf",
+      "version": "Author manuscript dated May 30, 2025. Filename not used as publication date.",
+      "locator": "Full §1.3 stability definitions; Assumption 3.5; complete Theorem 3.6 and proof.",
+      "read": "For a smooth manifold of dimension other than five, two locally Lipschitz fields sharing a globally asymptotically stable equilibrium have a homotopy of semiflows preserving that property. Stability is a hypothesis, not decided from rational polynomial input.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "AP13",
+      "locator": "Theorem 3.1; Lemma 3.2",
+      "result_scope": "Strong NP-hardness already for homogeneous cubic fields; linear systems admit a polynomial-time decision.",
+      "mismatch": "Hardness does not preclude all terminating algorithms, while the linear restriction excludes the nonlinear input class."
+    },
+    {
+      "source_id": "LF26",
+      "locator": "Theorem II.2; §IV-C; conclusion",
+      "result_scope": "Stable integer-coefficient cubic example with no local real-analytic Lyapunov function and with an explicit rational certificate.",
+      "mismatch": "Eliminates a particular certificate family, not every possible exact algorithm for the stability decision."
+    },
+    {
+      "source_id": "AE18",
+      "locator": "Theorem 4.3 and following hierarchy; Proposition 5.1",
+      "result_scope": "Existential certificate degrees for homogeneous fields; no dimension-and-degree-only bound in the stated real-parameter family.",
+      "mismatch": "No guaranteed finite stopping on negative instances and no general nonhomogeneous decision procedure. The degree-bound obstruction is not an undecidability proof for rational inputs."
+    },
+    {
+      "source_id": "K22",
+      "locator": "§3.2 Theorem 3 and proof; §2 model",
+      "result_scope": "Global asymptotic stability of a discrete-time rational ReLU-feedback system is undecidable.",
+      "mismatch": "Discrete time, piecewise affine feedback and global target differ from a continuous-time polynomial field and local target. No transfer to the candidate is established by this theorem."
+    },
+    {
+      "source_id": "GBC09",
+      "locator": "§5 Theorems 22–23 and proof",
+      "result_scope": "Finite-time blow-up/maximal-interval boundedness of a specified trajectory for polynomial differential equations.",
+      "mismatch": "A different observable and input/coefficient presentation; no equivalence to stability plus attraction of an equilibrium neighbourhood is supplied."
+    },
+    {
+      "source_id": "GKC14",
+      "locator": "Definitions 3.3, 4.16 and Theorems 3.5, 4.17–4.20",
+      "result_scope": "Bounded delta-decision algorithms and unbounded arithmetic-hierarchy upper classifications in a broader computable-function language.",
+      "mismatch": "Positive tolerance and bounded quantifiers do not decide the exact all-time property. Broad-class membership or undecidability does not supply hardness for rational polynomial fields."
+    },
+    {
+      "source_id": "WYL13",
+      "locator": "§3.1 and §4.3 Algorithm 9",
+      "result_scope": "Truncated SOS certificate search followed by exact rational recovery, with explicit failure outputs.",
+      "mismatch": "Failure to find a certificate at the supplied degree does not decide that the equilibrium fails local asymptotic stability."
+    },
+    {
+      "source_id": "AP13",
+      "locator": "Corollary 3.3 and proof; §3 preceding Theorem 3.1",
+      "result_scope": "Local exponential stability is decided by the Jacobian. Earlier algebraic-unsolvability examples have a non-semialgebraic parameter locus.",
+      "mismatch": "Asymptotic convergence need not be exponential. Failure of a finite semialgebraic characterization is not by itself Turing undecidability."
+    },
+    {
+      "source_id": "CP24",
+      "locator": "Definitions 3–4; Theorem 3.1 and Remark 1",
+      "result_scope": "Preserves strict negativity of Jacobian eigenvalue real parts under a quadratic lifting.",
+      "mismatch": "Does not classify nonhyperbolic equilibria or supply a total local-asymptotic-stability test."
+    },
+    {
+      "source_id": "J25",
+      "locator": "Assumption 3.5; Theorem 3.6 and proof",
+      "result_scope": "Existential homotopy between systems already assumed globally asymptotically stable.",
+      "mismatch": "No effective test of the stability hypothesis, no finite rational-polynomial transformation supplied for all inputs, and no negative-instance stopping rule."
+    }
+  ],
+  "actual_search_ids": [
+    "S383-1",
+    "S383-3",
+    "S384-1",
+    "S384-2",
+    "S384-3",
+    "S384-4",
+    "S385-1",
+    "S385-2",
+    "S385-3",
+    "S385-4",
+    "S386-1",
+    "S386-2",
+    "S386-3",
+    "S386-4",
+    "S387-1",
+    "S387-2",
+    "S387-3",
+    "S387-4",
+    "S388-1",
+    "S388-2",
+    "S388-3",
+    "S388-4",
+    "A50-1",
+    "A50-2",
+    "A50-3",
+    "A50-4",
+    "A50-5",
+    "A50-6",
+    "A50-7",
+    "A50-8"
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/polynomial-local-stability-decidability.md",
+  "validation": {
+    "state": "passed",
+    "checked_on": "2026-09-18",
+    "math_rendering": "19 expressions passed strict KaTeX. Final full local page visually inspected after the exponential-stability clarification; fonts and formulae rendered without clipping.",
+    "bibliography": "Seven targets probed: three matching HTTP 200 documents and four direct HTTP 403/406 responses. All seven full sources were accessible through the web reader; Wiley formula-image limits retained. See polynomial-local-stability-decidability-link-check.json.",
+    "local_links": "All four relative Markdown links resolve.",
+    "catalogue": "catalogue.py --write and --check passed for 340 active problems; active membership unchanged.",
+    "json_and_searches": "All expansion JSON parses; 1,757 distinct logged search identifiers and all 30 candidate references resolve.",
+    "upstream_refresh": "Fetched origin/main equals reviewed local HEAD 0136b68e2344d4120df22ab7b5b149e430368b9f; no new upstream additions."
+  },
+  "duplicate_check": {
+    "searched": "Baseline inventory, active pages, metadata, all candidate records and exclusions; polynomial/stability/Arnold aliases and full nearest-statement comparisons.",
+    "findings": "No matching local-asymptotic-stability decision target located.",
+    "refreshed_on": "2026-09-18"
+  },
+  "access_limits": [
+    "Arnold's original 1976 text was not directly read. Admission uses Ahmadi–Parrilo's explicit scholarly restatement and independently authored 2026 discussion.",
+    "The original da Costa–Doria and Hainry sources were not read in full. Ahmadi–Parrilo §3 explains the elementary-function scope; these are not presented as directly checked polynomial undecidability theorems.",
+    "The Wiley HTML omits displayed formula images; the full fixed-degree and failure-branch prose was readable. The Hindawi PDF route failed. This source is used only for the documented algorithm scope.",
+    "Journal versions of cited arXiv preprints were not independently compared; exact accessed versions and histories are retained. No Lean formalization or all supporting proofs were independently certified."
+  ],
+  "applied_significance": "Foundational limit of automated local stability verification for polynomial nonlinear-control models: small state disturbances must remain nearby and relax to equilibrium. No efficient-runtime guarantee, controller-synthesis result or unproved transfer from a Taylor approximation is asserted."
+}

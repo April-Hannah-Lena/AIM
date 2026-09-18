@@ -1,0 +1,46 @@
+{
+  "checked_on": "2026-09-18",
+  "method": "Direct HTTPS GET; up to 65536 response bytes inspected for document type/title and browser challenges; four concurrent workers.",
+  "links": [
+    {
+      "url": "https://arxiv.org/html/2102.02273v5",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2102.02273v5",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Stability and performance verification of dynamical systems controlled by neural networks: algorithms and complexity"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.16171v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2607.16171v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "A Globally Asymptotically Stable Planar Homogeneous Polynomial Vector Field With No Polynomial Lyapunov Function"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1308.6833v1",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1404.7169v4",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1803.01877v4",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1803.01877v4",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/2013/146137",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://sapientia.ualg.pt/bitstreams/5e035076-6f0c-4622-980d-14060d6c33a4/download",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "reader_access": "All seven references were opened in the web reader during the source review. Direct GET access restrictions above are transport outcomes, not reported as broken references. Wiley formula images were not included in its text conversion."
+}
