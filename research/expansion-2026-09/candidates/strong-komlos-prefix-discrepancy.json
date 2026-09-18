@@ -608,10 +608,12 @@
     "pull_request_url": null
   },
   "research_publication": {
-    "state": "local_pending_push",
+    "state": "published",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null
+    "commit": "adf1f4041684ea2fd7179a522852f6e45c7f19ba",
+    "verified_on": "2026-09-18",
+    "verification": "git ls-remote --heads origin returned only main at this exact commit."
   },
   "statement_source_and_scope_match": "BJMSS22 Open Problem 6.1 and KL26 Conjecture 1.6 have the same real-vector normalization, fixed order, one sign per vector and dimension/length-independent bound. No online or runtime demand is added.",
   "independent_status_corroboration": {

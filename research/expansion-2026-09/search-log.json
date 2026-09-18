@@ -9373,5 +9373,165 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "S262-1",
+    "query": "\"learning DNF\" \"uniform distribution\" \"2026\" polynomial",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "DNF learning formulation, current status and source identity"
+  },
+  {
+    "search_id": "S262-2",
+    "query": "\"learning DNF\" \"uniform\" solved proof counterexample",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "DNF learning formulation, current status and source identity"
+  },
+  {
+    "search_id": "S262-3",
+    "query": "\"Learnability of DNF with Representation-Specific Queries\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "DNF learning formulation, current status and source identity"
+  },
+  {
+    "search_id": "S262-4",
+    "query": "\"Iterative Chow Filtering for Learning with Distribution Shift\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "DNF learning formulation, current status and source identity"
+  },
+  {
+    "search_id": "S263-1",
+    "query": "\"DNF\" \"uniform\" \"polynomial-time\" \"2026\" learning",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Examples-only DNF learning current/prior-year resolution audit"
+  },
+  {
+    "search_id": "S263-2",
+    "query": "\"DNF learning\" solved resolution refutation",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Examples-only DNF learning current/prior-year resolution audit"
+  },
+  {
+    "search_id": "S263-3",
+    "query": "\"learning DNF\" \"random examples\" \"2025\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Examples-only DNF learning current/prior-year resolution audit"
+  },
+  {
+    "search_id": "S263-4",
+    "query": "\"Learnability of DNF with representation-specific queries\" site:cmu.edu",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Examples-only DNF learning current/prior-year resolution audit"
+  },
+  {
+    "search_id": "S264-1",
+    "query": "\"The Quantum Learning Menagerie\" DNF",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "DNF learning resolution, author and correction audit"
+  },
+  {
+    "search_id": "S264-2",
+    "query": "\"uniform\" \"DNF\" learning solved proved counterexample disproof refutation",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "DNF learning resolution, author and correction audit"
+  },
+  {
+    "search_id": "S264-3",
+    "query": "\"learning DNF\" Heidari Khardon Kanade Rocchetto correction erratum withdrawal",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "DNF learning resolution, author and correction audit"
+  },
+  {
+    "search_id": "S264-4",
+    "query": "\"DNF learning\" \"random examples\" \"2024\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "DNF learning resolution, author and correction audit"
+  },
+  {
+    "search_id": "S265-1",
+    "query": "\"DNF\" \"uniform\" \"random examples\" \"2026\" algorithm",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Current theorem and author-version audit before drafting"
+  },
+  {
+    "search_id": "S265-2",
+    "query": "\"uniform-distribution DNF learning\" polynomial proof",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Current theorem and author-version audit before drafting"
+  },
+  {
+    "search_id": "S265-3",
+    "query": "\"Alman\" \"Nadimpalli\" \"DNF\" correction erratum",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Current theorem and author-version audit before drafting"
+  },
+  {
+    "search_id": "S265-4",
+    "query": "\"Heidari\" \"Khardon\" \"DNF\" \"2026\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Current theorem and author-version audit before drafting"
+  },
+  {
+    "search_id": "A38-1",
+    "query": "\"DNF\" \"uniform\" \"classical\" \"polynomial\" \"2026\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A38-2",
+    "query": "\"learning DNF\" \"random examples\" solved breakthrough",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A38-3",
+    "query": "\"DNF\" learning \"without membership queries\" polynomial",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A38-4",
+    "query": "\"uniform DNF learning\" counterexample disproof",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
   }
 ]

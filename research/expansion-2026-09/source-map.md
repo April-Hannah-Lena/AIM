@@ -1,6 +1,6 @@
 # Source map
 
-This is a discovery and reading log, not a certificate of open status. Actual access date: 2026-09-17.
+This is a discovery and reading log, not a certificate of open status. Actual access dates: 2026-09-17–2026-09-18; individual records identify the actual check date.
 
 ## Sources inspected
 
@@ -86,3 +86,5 @@ All twelve sections have accepted additions. Thirty additions are integrated thr
 - **Nutrient-directed cell migration:** Lankeit–Winkler (2023), (CC1), (2.7)–(2.8) and the question after Theorem 2.2; independent Corrêa Vianna Filho–Guillén-González §§1–2; Lankeit–Winkler (2025), Definition 1.1 and Theorem 1.2. The [accepted continuation record](candidates/chemotaxis-consumption-classical-continuation.json) distinguishes classical continuation from eventual smoothness, small-signal bounds and conditional blow-up rates. A36 compared the complete relevant 2026 Kim–Ahn and Pu–Shen–Xue statements, including elliptic/Robin and independently evolving velocity differences. The inaccessible Rani–Tyagi full text is supplementary only. This is one higher-dimensional family and is distinct from entry 315's reversible reaction network.
 
 - **Cumulative allocation and rounding:** Bansal–Jiang–Meka–Singla–Sinha, ITCS 2022, author-version Open Problem 6.1; independent Karingula–Lovett, ECCC TR26-188, Conjecture 1.6. The [accepted prefix record](candidates/strong-komlos-prefix-discrepancy.json) preserves fixed order and full-sequence access. A37 checked Euclidean-output estimates, sparse online guarantees and positional-game obstructions in addition to the terminal, complex-coloring, discard, smoothed and structured-rounding comparisons. This is one explicitly sourced companion to ordinary Komlós, not a separate count for each dimension or norm. Recent terminal claims affecting historical entries 031–032 are recorded separately.
+
+- **Passive Boolean-rule inference (September 18):** Yang–Blum–Carbonell §§1.1–1.2 supplies the explicit uniform examples-only DNF question; Feldman §2 fixes size/accuracy conventions; independently authored Kanade–Rocchetto–Severini and Chatterjee §5.5 retain the classical access gap. Current Heidari–Khardon Corollary 47/Lemma 71 and Chandrasekaran et al. Theorem 4.1 were read in full scope. The [accepted record](candidates/classical-uniform-dnf-learning.json) compares twelve sources, including random targets, smoothed laws, local/quantum queries, positive-only lower bounds and conditional distribution-free hardness. A38 added the July 2025 faster exact-query theorem; no DNF subclass or CNF complement receives a separate count.

@@ -1,0 +1,877 @@
+{
+  "candidate_id": "classical-uniform-dnf-learning",
+  "proposed_catalogue_id": null,
+  "title": "Polynomial-time DNF learning from uniform random examples",
+  "aliases": [
+    "Uniform-distribution DNF learning",
+    "Examples-only PAC learning of DNF",
+    "Efficient learning of disjunctive normal forms"
+  ],
+  "primary_section": "applied",
+  "secondary_tags": [
+    "statistical learning",
+    "Boolean rule inference",
+    "computational complexity"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit uniform examples-only question, independently authored status corroboration including 2026 sources, current full relevant scope comparisons, duplicate screening and separated A38 self-pass completed. One underlying DNF family; no active ID until batch integration.",
+  "problem_fingerprint": {
+    "model_or_objects": "Unknown Boolean f represented by an OR of at most s conjunctions of literals x_j or NOT x_j; the representation is not given to the learner.",
+    "dimension": "Arbitrary positive integers n and s.",
+    "domain": "Input cube {0,1}^n with the uniform probability law.",
+    "regularity_and_data_class": "All Boolean functions with an s-term DNF representation, arbitrary widths, signs, overlap and relevant variables; noiseless realizable labels.",
+    "boundary_or_initial_conditions": "Not applicable.",
+    "parameter_range": "Every n,s>=1 and accuracy/confidence parameters epsilon,delta in (0,1/2). A bound s is supplied, not the target formula.",
+    "quantifiers": "There exist one classical randomized learner and one polynomial p that work for every n,s,epsilon,delta and every such unknown f.",
+    "normalization": "Uniform independent bits; s counts terms, each of length at most n, so literal-size and term-size polynomial bounds agree.",
+    "observable_or_norm": "Uniform classification error Pr_X[h(X)!=f(X)] at most epsilon, with probability at least 1-delta over samples and internal randomness.",
+    "limit_regime_and_order": "One polynomial bounds all parameters jointly; no fixed-s exponent or input-dependent advice.",
+    "requested_conclusion": "Existence or nonexistence of an examples-only efficient PAC learner, with improper efficiently evaluatable Boolean hypotheses allowed.",
+    "computational_model_and_dependencies": "Classical randomized computation; only independent labeled examples (X,f(X)), X uniform. Training time, samples, output description and hypothesis evaluation are bounded by p(n,s,1/epsilon,log(1/delta)). All preprocessing is charged. No membership, similarity, random-walk or quantum example oracle."
+  },
+  "fingerprint_recorded_on": "2026-09-18",
+  "fingerprint_recorded_before_draft": true,
+  "statement_source_and_scope_match": "Yang–Blum–Carbonell, author manuscript §§1.1–1.2, explicitly identifies the uniform random-examples-only gap. Feldman arXiv:1203.0594 §2 p.5 defines iid EX access and permits polynomial dependence on the number s of terms; Alman–Nadimpalli–Patel–Servedio §1.1 explicitly distinguishes arbitrary efficiently evaluatable hypotheses from proper DNF hypotheses and explains confidence amplification. These are used together to state the standard all-parameter problem, not to impose proper learning.",
+  "source_records": [
+    {
+      "source_id": "YBC13",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Liu Yang",
+        "Avrim Blum",
+        "Jaime Carbonell"
+      ],
+      "title": "Learnability of DNF with Representation-Specific Queries",
+      "venue_or_repository": "ITCS 2013; CMU author manuscript",
+      "publication_type": "conference paper / author manuscript",
+      "publication_date": "2013-01-09",
+      "latest_version_date": null,
+      "identifier": "10.1145/2422436.2422441",
+      "version": null,
+      "stable_url": "https://www.cs.cmu.edu/~liuy/dnf_queries.pdf",
+      "locator": "§§1.1–1.3, pp. 1–3; Theorems 2.1 and 3.3",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "sections_actually_read": [
+        "Introduction and learning/query model",
+        "Related work with explicit uniform-distribution question",
+        "Main-results overview",
+        "Theorem 2.1",
+        "§3.2 Theorem 3.3 and proof"
+      ],
+      "supported_claim": "Explicit examples-only uniform DNF gap; distinguishes improper hypotheses and representation-specific similarity queries.",
+      "independent_of_source_ids": [
+        "F13",
+        "ANPS25",
+        "HK26",
+        "KRS19",
+        "CGKSV26",
+        "C26",
+        "AFK13",
+        "DS14",
+        "JS06",
+        "LLR17",
+        "ANPS25B"
+      ],
+      "access_limitations": "ACM full text was not obtained; author's publication page verifies title, authors and ITCS 2013. Author PDF has no explicit revision date.",
+      "metadata_verification": {
+        "url": "https://api.crossref.org/works/10.1145/2422436.2422441",
+        "checked_on": "2026-09-18",
+        "result": "DOI registration metadata matches all three authors, title, ITCS 2013, publication January 9, 2013, pp. 37–46."
+      }
+    },
+    {
+      "source_id": "F13",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Vitaly Feldman"
+      ],
+      "title": "Learning DNF Expressions from Fourier Spectrum",
+      "venue_or_repository": "COLT 2012; arXiv",
+      "publication_type": "conference paper / revised author manuscript",
+      "publication_date": "2012-03-03",
+      "latest_version_date": "2013-04-03",
+      "identifier": "arXiv:1203.0594",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/pdf/1203.0594v3",
+      "locator": "§2, p. 5; §5 Corollary 5.1, Definition 5.2, Theorems 5.3–5.5",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "sections_actually_read": [
+        "PAC definition and size parameter",
+        "Corollary 5.1 and proof",
+        "Full smoothed-product definition and Theorems 5.3–5.4",
+        "Monotone Theorem 5.5 and proof opening"
+      ],
+      "supported_claim": "Efficiency allows polynomial dependence on n, size s and accuracy. Query and smoothed-product algorithms do not give the fixed-uniform examples-only guarantee.",
+      "independent_of_source_ids": [
+        "YBC13",
+        "ANPS25",
+        "HK26",
+        "KRS19",
+        "CGKSV26",
+        "C26",
+        "DS14",
+        "JS06",
+        "LLR17",
+        "ANPS25B"
+      ],
+      "access_limitations": "Original Kalai–Samorodnitsky–Teng result read through Feldman's explicit restatement and derivation, not separately in its original paper."
+    },
+    {
+      "source_id": "ANPS25",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Josh Alman",
+        "Shivam Nadimpalli",
+        "Shyamal Patel",
+        "Rocco A. Servedio"
+      ],
+      "title": "DNF Learning via Locally Mixing Random Walks",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2025-05-24",
+      "latest_version_date": "2025-05-24",
+      "identifier": "arXiv:2505.18839",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2505.18839v1",
+      "locator": "§§1.1–1.3; Theorems 1 and 3",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "sections_actually_read": [
+        "Learning model, efficient evaluation and confidence-amplification footnote",
+        "Prior uniform-distribution bounds",
+        "Full Theorems 1 and 3 and exact-DNF definition",
+        "Opening random-walk technical discussion"
+      ],
+      "supported_claim": "General uniform examples-only quasipolynomial upper bound is recalled; new results use membership queries and give term-list decoding or learning with equal term lengths.",
+      "independent_of_source_ids": [
+        "YBC13",
+        "F13",
+        "HK26",
+        "KRS19",
+        "CGKSV26",
+        "C26",
+        "AFK13",
+        "DS14",
+        "LLR17"
+      ],
+      "access_limitations": "Verbeurgt's original upper bound and the historical random-walk algorithm are used through this explicit specialist restatement."
+    },
+    {
+      "source_id": "HK26",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Mohsen Heidari",
+        "Roni Khardon"
+      ],
+      "title": "Learning DNF through Generalized Fourier Representations",
+      "venue_or_repository": "COLT 2025, PMLR 291:2788–2804; arXiv",
+      "publication_type": "conference paper / extended revised manuscript",
+      "publication_date": "2025-06-01",
+      "latest_version_date": "2026-06-02",
+      "identifier": "arXiv:2506.01075",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/pdf/2506.01075v2",
+      "locator": "§2 Definition 1; §9.2 Corollary 47; Appendix A.2 Lemmas 69–71",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "sections_actually_read": [
+        "Introduction and contribution summary",
+        "PAC/MQ and Bayesian-network definitions",
+        "Corollary 47",
+        "Appendix A.2 model, Lemmas 69–71 and algorithm discussion"
+      ],
+      "supported_claim": "The extended Fourier learner has MQ access to the target; specializing its distribution to uniform does not remove that oracle.",
+      "independent_of_source_ids": [
+        "YBC13",
+        "F13",
+        "ANPS25",
+        "KRS19",
+        "CGKSV26",
+        "C26",
+        "AFK13",
+        "DS14",
+        "JS06",
+        "LLR17",
+        "ANPS25B"
+      ],
+      "access_limitations": "HTML cross-references were unreliable; the current 60-page PDF was used for the actual theorem/model comparison."
+    },
+    {
+      "source_id": "KRS19",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Varun Kanade",
+        "Andrea Rocchetto",
+        "Simone Severini"
+      ],
+      "title": "Learning DNFs under product distributions via μ-biased quantum Fourier sampling",
+      "venue_or_repository": "arXiv",
+      "publication_type": "revised preprint version",
+      "publication_date": "2018-02-15",
+      "latest_version_date": "2019-11-25",
+      "identifier": "arXiv:1802.05690",
+      "version": "v3",
+      "stable_url": "https://arxiv.org/html/1802.05690",
+      "locator": "§§1–1.1 and 2.5; Theorem 6; Corollary 7",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "sections_actually_read": [
+        "Introduction and classical/quantum comparison",
+        "PAC, EX, MQ and QEX definitions",
+        "Theorem 3 restatement of Feldman's approximation result",
+        "Full Theorem 6 and Corollary 7 with intervening explanation"
+      ],
+      "supported_claim": "Independently retains the classical gap; its positive algorithm uses coherent QEX states, not ordinary iid classical labels.",
+      "independent_of_source_ids": [
+        "YBC13",
+        "F13",
+        "ANPS25",
+        "HK26",
+        "CGKSV26",
+        "C26",
+        "DS14",
+        "JS06",
+        "LLR17",
+        "ANPS25B"
+      ],
+      "access_limitations": "Unversioned HTML explicitly identifies v3, November 25, 2019; versioned HTML initially failed. Submission history independently checked."
+    },
+    {
+      "source_id": "CGKSV26",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Gautam Chandrasekaran",
+        "Georgios Gkrinias",
+        "Adam R. Klivans",
+        "Konstantinos Stavropoulos",
+        "Arsen Vasilyan"
+      ],
+      "title": "Iterative Chow Filtering for Learning with Distribution Shift",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-05-17",
+      "latest_version_date": "2026-05-17",
+      "identifier": "arXiv:2605.17251",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2605.17251v1",
+      "locator": "§§1–1.3, Definition 1.1, Table 1; Theorem 4.1",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "sections_actually_read": [
+        "Introduction and related work",
+        "PQ definition and L1 sandwiching definition",
+        "Full Theorem 1.1 and DNF table row",
+        "Full Theorem 4.1 and surrounding discussion"
+      ],
+      "supported_claim": "The PQ extension has quasipolynomial DNF runtime; its selective-prediction model can specialize to ordinary learning without becoming polynomial.",
+      "independent_of_source_ids": [
+        "YBC13",
+        "F13",
+        "ANPS25",
+        "HK26",
+        "KRS19",
+        "C26",
+        "AFK13",
+        "DS14",
+        "JS06",
+        "LLR17",
+        "ANPS25B"
+      ],
+      "access_limitations": null
+    },
+    {
+      "source_id": "C26",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Sagnik Chatterjee"
+      ],
+      "title": "The Quantum Learning Menagerie (A survey on Quantum learning for Classical concepts)",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint survey",
+      "publication_date": "2026-02-01",
+      "latest_version_date": "2026-02-01",
+      "identifier": "arXiv:2602.01054",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2602.01054v1",
+      "locator": "§5.5; §9.1",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "sections_actually_read": [
+        "DNF definition and full §5.5 comparison",
+        "§5.5.1 quantum agnostic questions",
+        "Hypothesis-evaluation convention in §9.1"
+      ],
+      "supported_claim": "Current independent survey distinguishes classical uniform learning with membership queries from quantum-example learning.",
+      "independent_of_source_ids": [
+        "YBC13",
+        "F13",
+        "ANPS25",
+        "HK26",
+        "KRS19",
+        "CGKSV26",
+        "AFK13",
+        "DS14",
+        "JS06",
+        "LLR17",
+        "ANPS25B"
+      ],
+      "access_limitations": "Used only for the relevant access/status comparison; its separate junta-size and other assertions were not adopted."
+    },
+    {
+      "source_id": "AFK13",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Pranjal Awasthi",
+        "Vitaly Feldman",
+        "Varun Kanade"
+      ],
+      "title": "Learning using Local Membership Queries",
+      "venue_or_repository": "COLT 2013, PMLR 30; publisher PDF",
+      "publication_type": "conference paper",
+      "publication_date": "2013",
+      "latest_version_date": null,
+      "identifier": "PMLR 30, Awasthi13",
+      "version": null,
+      "stable_url": "https://jmlr.csail.mit.edu/proceedings/papers/v30/Awasthi13.pdf",
+      "locator": "§1 Theorem 3; §2 Definition 4; §4 Theorems 7–8 and Figure 2",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "sections_actually_read": [
+        "Title and author page",
+        "Theorem 3",
+        "Full local-query model Definition 4",
+        "Full Theorems 7–8 and displayed algorithm"
+      ],
+      "supported_claim": "The local DNF algorithm queries labels near observed points and retains superpolynomial dependence in its general parameters.",
+      "independent_of_source_ids": [
+        "YBC13",
+        "ANPS25",
+        "HK26",
+        "CGKSV26",
+        "C26",
+        "DS14",
+        "JS06",
+        "LLR17",
+        "ANPS25B"
+      ],
+      "access_limitations": null
+    },
+    {
+      "source_id": "DS14",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Amit Daniely",
+        "Shai Shalev-Shwartz"
+      ],
+      "title": "Complexity theoretic limitations on learning DNF's",
+      "venue_or_repository": "arXiv",
+      "publication_type": "revised preprint version",
+      "publication_date": "2014-04-13",
+      "latest_version_date": "2014-11-04",
+      "identifier": "arXiv:1404.3378",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/pdf/1404.3378v2",
+      "locator": "§1 Assumption 1.1, Theorem 1.3, Corollary 1.4; §2.1",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "sections_actually_read": [
+        "Introduction",
+        "Random-SAT assumption and terminology",
+        "Full DNF theorem and corollary",
+        "PAC definition and distribution quantifiers"
+      ],
+      "supported_claim": "The lower bound assumes random-SAT hardness and concerns distribution-free learning; it is not an unconditional uniform-input impossibility.",
+      "independent_of_source_ids": [
+        "YBC13",
+        "F13",
+        "ANPS25",
+        "HK26",
+        "KRS19",
+        "CGKSV26",
+        "C26",
+        "AFK13",
+        "JS06",
+        "LLR17",
+        "ANPS25B"
+      ],
+      "access_limitations": "PDF cover says November 5 while arXiv revision stamp/history say November 4; use submission history for version date."
+    },
+    {
+      "source_id": "JS06",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Jeffrey C. Jackson",
+        "Rocco A. Servedio"
+      ],
+      "title": "On Learning Random DNF Formulas Under the Uniform Distribution",
+      "venue_or_repository": "Theory of Computing 2 (2006), 147–172",
+      "publication_type": "journal paper",
+      "publication_date": "2006-09-19",
+      "latest_version_date": null,
+      "identifier": "10.4086/toc.2006.v002a008",
+      "version": null,
+      "stable_url": "https://theoryofcomputing.org/articles/v002a008/v002a008.pdf",
+      "locator": "§§1.1, 2 and 2.2; Theorems 3.13 and 4.11",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "sections_actually_read": [
+        "Title and bibliographic page",
+        "Introductory statistical-query restriction discussion",
+        "Random target generation and learning success probability",
+        "Full Theorems 3.13 and 4.11 plus parameter discussion"
+      ],
+      "supported_claim": "Random-formula guarantees average over targets, unlike the candidate's every-target guarantee. The recalled statistical-query barrier restricts the learner model.",
+      "independent_of_source_ids": [
+        "YBC13",
+        "F13",
+        "HK26",
+        "KRS19",
+        "CGKSV26",
+        "C26",
+        "AFK13",
+        "DS14",
+        "LLR17"
+      ],
+      "access_limitations": "Original statistical-query lower-bound proof was not separately read; only the explicit specialist restatement is used."
+    },
+    {
+      "source_id": "LLR17",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Maciej Liśkiewicz",
+        "Matthias Lutter",
+        "Rüdiger Reischuk"
+      ],
+      "title": "Proper Learning of k-term DNF Formulas from Satisfying Assignments",
+      "venue_or_repository": "ECCC TR17-114",
+      "publication_type": "report version",
+      "publication_date": "2017",
+      "latest_version_date": null,
+      "identifier": "ECCC TR17-114",
+      "version": null,
+      "stable_url": "https://eccc.weizmann.ac.il/report/2017/114/download",
+      "locator": "§1 model; Theorem 1; §7 Theorem 2 and proof; §8",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "sections_actually_read": [
+        "Title/author page and positive-only model",
+        "Full Theorem 1",
+        "Full Theorem 2 and proof",
+        "Conclusions"
+      ],
+      "supported_claim": "The polynomial upper bound fixes the number of terms. The sample lower bound requires positive-only data and no false positives, absent here.",
+      "independent_of_source_ids": [
+        "YBC13",
+        "F13",
+        "ANPS25",
+        "HK26",
+        "KRS19",
+        "CGKSV26",
+        "C26",
+        "AFK13",
+        "DS14",
+        "JS06",
+        "ANPS25B"
+      ],
+      "access_limitations": "Only the ECCC report version is cited; no later journal pagination is asserted."
+    },
+    {
+      "source_id": "ANPS25B",
+      "role": "formulation, status or resolution-scope evidence",
+      "authors": [
+        "Josh Alman",
+        "Shivam Nadimpalli",
+        "Shyamal Patel",
+        "Rocco A. Servedio"
+      ],
+      "title": "Faster exact learning of k-term DNFs with membership and equivalence queries",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2025-07-27",
+      "latest_version_date": "2025-07-27",
+      "identifier": "arXiv:2507.20336",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2507.20336v1",
+      "locator": "§§1.1–1.3; Theorem 1",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "sections_actually_read": [
+        "Exact-learning membership/equivalence model",
+        "Full Theorem 1",
+        "Parameter-range consequences and related-work discussion"
+      ],
+      "supported_claim": "The new runtime is subexponential in term count but retains both query oracles; it is not jointly polynomial in n and arbitrary s.",
+      "independent_of_source_ids": [
+        "YBC13",
+        "F13",
+        "HK26",
+        "KRS19",
+        "CGKSV26",
+        "C26",
+        "AFK13",
+        "DS14",
+        "LLR17"
+      ],
+      "access_limitations": "Same authors as ANPS25: not independent corroboration of that paper."
+    }
+  ],
+  "search_log": [
+    {
+      "searched_at": "2026-09-18",
+      "discovery_route": "Web search followed by author, arXiv, ECCC and publisher full texts and submission histories",
+      "query": "S262-1 through S265-4 and A38-1 through A38-4 in ../search-log.json",
+      "date_filter_or_unrestricted": "Unrestricted searches, including explicit 2024, 2025 and 2026 wording",
+      "results_inspected": [
+        "YBC13",
+        "F13",
+        "ANPS25",
+        "HK26",
+        "KRS19",
+        "CGKSV26",
+        "C26",
+        "AFK13",
+        "DS14",
+        "JS06",
+        "LLR17",
+        "ANPS25B"
+      ],
+      "outcome": "No matching resolution located. A38 found the July 2025 exact-learning improvement; its full theorem retains queries and nonpolynomial term dependence.",
+      "limitations": "Search absence does not prove openness; not every paper or proof in the field was read."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "YBC13",
+      "theorem_locator": "§3.2 Theorem 3.3 and proof",
+      "claim_type": "numerical_similarity_queries",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Uniform input and arbitrary DNF do match.",
+        "Pairwise answers count common satisfied terms in a particular representation."
+      ],
+      "scope_relation": "Ordinary labels do not reveal those counts; the theorem supplies extra information.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Ordinary labels do not reveal those counts; the theorem supplies extra information.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "F13",
+      "theorem_locator": "Corollary 5.1; Definition 5.2; Theorems 5.3–5.5",
+      "claim_type": "queries_smoothed_laws_and_monotone_targets",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Corollary 5.1 requires a membership oracle.",
+        "Smoothed learning randomizes the bias vector and includes that choice in its success probability.",
+        "Monotone examples-only time is quasipolynomial in term count."
+      ],
+      "scope_relation": "Neither setting the perturbation center to zero nor letting its radius vanish supplies the desired theorem: fixed uniform bias is not guaranteed, and the polynomial degree may depend on the fixed positive radius.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither setting the perturbation center to zero nor letting its radius vanish supplies the desired theorem: fixed uniform bias is not guaranteed, and the polynomial degree may depend on the fixed positive radius.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HK26",
+      "theorem_locator": "§2 Definition 1; §9.2 Corollary 47; Appendix A.2 Lemma 71",
+      "claim_type": "generalized_fourier_learning",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Uniform is included among the Bayesian-network laws.",
+        "Lemma 71 explicitly supplies a membership-query oracle for f."
+      ],
+      "scope_relation": "Changing the law to uniform removes neither the oracle nor the coefficient-identification step; no examples-only algorithm follows.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Changing the law to uniform removes neither the oracle nor the coefficient-identification step; no examples-only algorithm follows.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "KRS19",
+      "theorem_locator": "§2.5; Theorem 6; Corollary 7",
+      "claim_type": "quantum_examples",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "DNF target and uniform/product laws overlap.",
+        "Quantum QEX produces a coherent superposition of labeled inputs."
+      ],
+      "scope_relation": "Measuring QEX gives ordinary examples, but that does not provide the inverse simulation needed to apply the quantum algorithm to classical examples.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Measuring QEX gives ordinary examples, but that does not provide the inverse simulation needed to apply the quantum algorithm to classical examples.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CGKSV26",
+      "theorem_locator": "Definition 1.1, Table 1; Theorem 4.1",
+      "claim_type": "pq_distribution_shift",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Training data are labeled; test examples are unlabeled; selective predictions are permitted.",
+        "Theorem 4.1 is polynomial in (d+1)^ell, A^ell, 1/epsilon, 1/eta and log(1/delta)^ell.",
+        "The DNF table gives d^{O(log^2 s)} at constant parameters."
+      ],
+      "scope_relation": "For equal uniform train/test laws, total error is at most selective error plus rejection probability. This inference removes the abstention mismatch, but the displayed bound remains quasipolynomial.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "For equal uniform train/test laws, total error is at most selective error plus rejection probability. This inference removes the abstention mismatch, but the displayed bound remains quasipolynomial.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "ANPS25",
+      "theorem_locator": "§1.2 Theorems 1 and 3",
+      "claim_type": "locally_mixing_query_algorithms",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Theorem 1 outputs a quasipolynomial list containing some target term, not a full predictor.",
+        "Theorem 3 learns equal-length-term DNFs with membership queries in quasipolynomial time."
+      ],
+      "scope_relation": "Specializing the distribution to uniform does not remove queries or give a general polynomial bound.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Specializing the distribution to uniform does not remove queries or give a general polynomial bound.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "AFK13",
+      "theorem_locator": "Definition 4; Theorems 3 and 8",
+      "claim_type": "local_membership_queries",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Queries lie within a logarithmic Hamming radius of observed inputs.",
+        "They still request unobserved labels.",
+        "The displayed general size dependence is superpolynomial."
+      ],
+      "scope_relation": "An iid sample cannot be assumed to contain all requested nearby labeled points; both oracle and time gaps remain.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "An iid sample cannot be assumed to contain all requested nearby labeled points; both oracle and time gaps remain.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "DS14",
+      "theorem_locator": "Assumption 1.1; Theorem 1.3; Corollary 1.4; §2.1",
+      "claim_type": "conditional_distribution_free_hardness",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "The theorem assumes random K-SAT refutation hardness.",
+        "A PAC learner in its definition must work for every realizable input distribution."
+      ],
+      "scope_relation": "Failure of a learner for some distribution does not establish failure at the fixed uniform distribution; the hypothesis is also conditional.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Failure of a learner for some distribution does not establish failure at the fixed uniform distribution; the hypothesis is also conditional.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "JS06",
+      "theorem_locator": "§§2–2.2; Theorems 3.13 and 4.11",
+      "claim_type": "random_target_algorithms",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Target terms are independently sampled from specified random-formula laws.",
+        "Success includes averaging over the target; special term-count/length ranges enter the theorems."
+      ],
+      "scope_relation": "The target in the candidate is adversarially fixed. Uniform examples do not make its formula random.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The target in the candidate is adversarially fixed. Uniform examples do not make its formula random.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "LLR17",
+      "theorem_locator": "§1 model; Theorems 1–2",
+      "claim_type": "fixed_term_upper_bound_and_positive_only_lower_bound",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Theorem 1 fixes k before polynomial runtime and has explicit n^{k+1} sample dependence.",
+        "Theorem 2 supplies only positive samples and requires no false positives."
+      ],
+      "scope_relation": "The upper bound is not one polynomial for arbitrary term counts; the lower bound does not apply to ordinary positive-and-negative labels with two-sided classification error.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The upper bound is not one polynomial for arbitrary term counts; the lower bound does not apply to ordinary positive-and-negative labels with two-sided classification error.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "ANPS25B",
+      "theorem_locator": "§1.1; §1.2 Theorem 1",
+      "claim_type": "faster_exact_query_learning",
+      "theorem_statement_actually_read": true,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "Both membership and equivalence oracles are supplied.",
+        "Time is poly(n,2^{tilde O(sqrt(k))}), with k the number of terms."
+      ],
+      "scope_relation": "Equivalence queries can be approximately tested using fresh PAC examples, but membership queries remain, and the term-count bound is not polynomial.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Equivalence queries can be approximately tested using fresh PAC examples, but membership queries remain, and the term-count bound is not polynomial.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "JS06",
+      "theorem_locator": "§1.1 explicit statistical-query restatement",
+      "claim_type": "restricted_algorithm_lower_bound",
+      "theorem_statement_actually_read": false,
+      "scope_discussion_actually_read": true,
+      "hypothesis_comparison": [
+        "The recalled lower bound applies to statistical-query algorithms.",
+        "The candidate permits arbitrary randomized computation on actual examples."
+      ],
+      "scope_relation": "A restricted algorithm-class barrier is not a lower bound for all allowed learners.",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "A restricted algorithm-class barrier is not a lower bound for all allowed learners.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "latest_local_comparison_commit": "adf1f4041684ea2fd7179a522852f6e45c7f19ba",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": "317",
+        "difference": "Dense fixed-noise parity-secret recovery asks for negligible recovery probability. This is noiseless prediction for arbitrary DNF; a general n-bit parity can require exponentially many DNF terms."
+      },
+      {
+        "id": "318",
+        "difference": "Compression maps for every finite VC class have no runtime requirement and reconstruct finite samples from retained data; this asks for a uniform efficient predictor for one representation class."
+      },
+      {
+        "id": "303",
+        "difference": "Planted-clique detection concerns two graph laws and nonvanishing testing advantage, not labeled Boolean-rule prediction."
+      }
+    ],
+    "distinctness_reason": "All current active/pending text, metadata and research exclusions were searched with DNF/disjunctive-normal/PAC/junta/Boolean-rule terminology; closest full statements were reread. The inherited full baseline inventory contains no equivalent DNF entry.",
+    "implications_or_equivalences": [
+      "All term counts and common sign/bit conventions are one entry.",
+      "A DNF learner would also handle subclasses such as polynomial-size decision trees; no subclass is counted separately.",
+      "Complementing labels yields the corresponding CNF learning formulation, which receives no separate entry.",
+      "Do not transfer distribution-free monotone/general-DNF reductions to uniform inputs without preserving the input law."
+    ]
+  },
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass; no independent agent or human reviewer",
+    "reviewer_or_pass_identifier": "A38",
+    "date": "2026-09-18",
+    "independent_searches": [
+      "A38-1",
+      "A38-2",
+      "A38-3",
+      "A38-4"
+    ],
+    "issues_found": [
+      "Possible confusion between poly(n) for fixed s and a polynomial jointly in n,s.",
+      "Potential transfer from random target formulas or randomly perturbed laws to every fixed DNF under exact uniform inputs.",
+      "Potential combination of query-removal equivalences with known uniform MQ algorithms.",
+      "The new July 2025 exact-learning theorem was absent from the first source set.",
+      "PQ abstention alone is not a sufficient distinction when train and test laws agree.",
+      "Need to charge hypothesis evaluation, allow improper outputs and justify log-confidence dependence."
+    ],
+    "issues_resolved": [
+      "Specified one learner and one polynomial for all sizes.",
+      "Compared full random-target and smoothing definitions and theorem statements.",
+      "Distribution-free query equivalence is explicitly scoped in HK26 introduction and ANPS25 background; it does not transfer a distribution-specific MQ learner to the examples-only model.",
+      "Read ANPS25B's full Theorem 1 and both oracle definitions; added the scope comparison.",
+      "Recorded the equal-law reduction and retained the actual quasipolynomial runtime obstacle.",
+      "Statement and normalization review explicitly handle these conventions."
+    ],
+    "verdict": "accept_open"
+  },
+  "public_page_path": null,
+  "draft_path": "research/expansion-2026-09/drafts/classical-uniform-dnf-learning.md",
+  "validation_results": [
+    {
+      "check": "strict_math_rendering",
+      "result": "All 18 math expressions passed KaTeX with strict:error and throwOnError."
+    },
+    {
+      "check": "visual_review",
+      "result": "Full 1280×4700 Chrome rendering inspected, including statement, all displays, bibliography and status; no clipping or malformed notation."
+    },
+    {
+      "check": "external_bibliography_links",
+      "date": "2026-09-18",
+      "result": "All nine distinct public URLs returned HTTP 200 on GET with redirects.",
+      "record": "../classical-uniform-dnf-learning-link-check.json"
+    },
+    {
+      "check": "catalogue",
+      "result": "catalogue.py --write and --check pass for 330 active entries; this draft is outside active metadata."
+    },
+    {
+      "check": "research_consistency",
+      "result": "42 candidate records: 37 accepted, 7 pending, 5 held; section counts agree; 1186 actual search IDs are unique. Source IDs, title, headings and local links checked."
+    },
+    {
+      "check": "baseline_preservation",
+      "result": "All original 300 problem pages match a602073; baseline metadata rows unchanged."
+    },
+    {
+      "check": "whitespace",
+      "result": "git diff --check passed."
+    }
+  ],
+  "remote_publication": {
+    "state": "not_integrated",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "proposed_statement_text": "For positive integers $n,s$, let $\\mathcal D_{n,s}$ be the Boolean functions on $\\{0,1\\}^n$ representable as a disjunction of at most $s$ terms. Each term is a conjunction of literals, and a literal is either a coordinate $x_j$ or its negation $1-x_j$. Term lengths, overlaps and signs are unrestricted.\n\nDoes there exist a classical randomized algorithm $A$ and a polynomial $p$ with the following property? For every $n,s$, every unknown $f\\in\\mathcal D_{n,s}$, and every $\\varepsilon,\\delta\\in(0,1/2)$, the algorithm is given $n,s,\\varepsilon,\\delta$ and access only to independent labeled examples\n$$\n(X,f(X)),\\qquad X\\sim\\operatorname{Unif}(\\{0,1\\}^n).\n$$\nWithin time at most\n$$\np\\!\\left(n,s,\\varepsilon^{-1},\\log(1/\\delta)\\right),\n$$\nit outputs a description of a Boolean function $h:\\{0,1\\}^n\\to\\{0,1\\}$ satisfying\n$$\n\\Pr_{\\text{training examples and algorithm}}\\!\n\\left[\n\\Pr_{X\\sim\\operatorname{Unif}(\\{0,1\\}^n)}\n\\{h(X)\\ne f(X)\\}\\le\\varepsilon\n\\right]\\ge1-\\delta?\n$$\n\nThe inner probability uses a fresh input. Reading examples and all preprocessing count toward the runtime; evaluating the resulting hypothesis on any input must also take polynomial time in the same parameters. The algorithm receives a size bound, not a formula for $f$. It may output a hypothesis outside the DNF class. Neither chosen label queries nor quantum examples are available. This is the noiseless, examples-only uniform-distribution PAC-learning question. [1–3]",
+  "applied_significance": "DNFs encode alternative combinations of binary features. The question separates availability of a compact rule model and polynomial sample information from efficient prediction using passive observations. Uniform input is an idealized benchmark; improper learning need not identify an interpretable rule formula.",
+  "application_evidence_source_ids": [
+    "ANPS25",
+    "ANPS25B"
+  ],
+  "open_status_evidence_summary": "YBC13 explicitly identifies this exact question; KRS19 and independently authored C26 retain the access distinction. ANPS25 and CGKSV26 discuss the continuing quasipolynomial examples-only baseline. Checked plausible positive and negative results change the oracle, input law, target family, success quantifier or runtime.",
+  "independent_status_corroboration": "YBC13, KRS19 and C26 have disjoint author sets. ANPS25, HK26 and CGKSV26 give further independently authored current scope evidence. Versions of a paper are one source, ANPS25B shares all ANPS25 authors, and AFK13 overlaps F13/KRS19.",
+  "strongest_known_partial_results_and_gap": "The general uniform examples-only bound recalled in ANPS25 is n^{O(log(s/epsilon))} at constant confidence, with standard amplification. Polynomial algorithms are known under stronger oracle access. No claim of optimality is made for every parameter regime.",
+  "actual_status_check_date": "2026-09-18",
+  "source_access_limitations": [
+    "Original ITCS publisher access failed; the full CMU manuscript and author's publication list supply formulation and identity.",
+    "Feldman HTML failed and Heidari–Khardon HTML had broken theorem references; current PDFs were read instead.",
+    "Unversioned KRS HTML explicitly identifies v3; arXiv history was separately checked.",
+    "Some historical algorithms and statistical-query lower bounds were read through precise specialist restatements, as identified per source.",
+    "Whole technical proofs were not independently certified. Search snippets, AI summaries and repository prose were not treated as primary openness evidence."
+  ],
+  "normalization_review": [
+    "Replacing {-1,1} bits by {0,1} preserves uniform input and DNF literal representations.",
+    "Number of literals is at most ns, so conventional term/literal size choices give polynomially equivalent complexity requirements.",
+    "Known size bound s need not reveal the representation.",
+    "Confidence amplification: repeat a constant-success learner O(log(1/delta)) times with smaller target error, evaluate candidates on fresh labeled examples, and select by empirical error; all costs remain polynomial. This is consistent with ANPS25 footnote 1.",
+    "Elementary sample-bound inference: at most (3^n+1)^s padded formulas imply log class size O(ns); exhaustive consistent search needs O((ns+log(1/delta))/epsilon) iid examples. This is not an efficient search algorithm."
+  ],
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Required immediately before active-catalogue batch integration. Research check completed September 18; ls-remote confirms only main at adf1f4041684ea2fd7179a522852f6e45c7f19ba."
+  },
+  "research_publication": {
+    "state": "local_pending_push",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null
+  }
+}

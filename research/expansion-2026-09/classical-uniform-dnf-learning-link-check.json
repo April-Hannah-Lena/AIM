@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://www.cs.cmu.edu/~liuy/dnf_queries.pdf",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": ""
+  },
+  {
+    "url": "https://www.cs.cmu.edu/~liuy/",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/1203.0594v3",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2505.18839v1",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": ""
+  },
+  {
+    "url": "https://proceedings.mlr.press/v291/heidari25a.html",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": ""
+  },
+  {
+    "url": "https://arxiv.org/pdf/2506.01075v2",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": ""
+  },
+  {
+    "url": "https://arxiv.org/html/1802.05690",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2605.17251v1",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": ""
+  },
+  {
+    "url": "https://arxiv.org/html/2602.01054v1",
+    "http_status": "200",
+    "exit_code": 0,
+    "error": ""
+  }
+]

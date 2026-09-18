@@ -2,21 +2,21 @@
   "repository": "MColbrook/AIM",
   "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
   "branch": "codex/expand-open-problems-2026-09",
-  "updated_on": "2026-09-17",
+  "updated_on": "2026-09-18",
   "goal_target": 250,
   "acceptable_range": [
     200,
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 36,
+  "new_accepted": 37,
   "active_total": 330,
-  "candidates_investigated": 41,
+  "candidates_investigated": 42,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 164,
-  "remaining_to_target": 214,
+  "remaining_to_minimum": 163,
+  "remaining_to_target": 213,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -146,20 +146,24 @@
     {
       "commit": "619d451c1600d49c28b79f4e9def440ff6a3a5d2",
       "purpose": "Record reviewed chemotaxis-consumption continuation draft; pushed directly to main and independently reverified."
+    },
+    {
+      "commit": "adf1f4041684ea2fd7179a522852f6e45c7f19ba",
+      "purpose": "Record reviewed strong prefix-discrepancy draft; pushed directly to main and independently reverified September 18, 2026."
     }
   ],
-  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit 619d451c1600d49c28b79f4e9def440ff6a3a5d2 includes five accepted pending drafts and was independently reverified September 17, 2026. The sixth accepted draft, strong prefix discrepancy, is prepared for the next direct research push. No PR required.",
+  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit adf1f4041684ea2fd7179a522852f6e45c7f19ba includes six accepted pending drafts and was independently reverified September 18, 2026. A seventh accepted draft, classical uniform DNF learning, is prepared for the next direct research push. No PR required.",
   "next_actions": [
     "Continue discovery toward at least 200 new problems, deliberately broadening biology, statistics, control and operations research.",
-    "Accumulate the next reviewable batch; rendezvous, trace reconstruction, generalized Wright attraction, strong thin trees, chemotaxis-consumption continuation and strong prefix discrepancy are accepted drafts. Refresh status and upstream duplicates before integration.",
+    "Accumulate the next reviewable batch; seven drafts are accepted: rendezvous, trace reconstruction, generalized Wright attraction, strong thin trees, chemotaxis-consumption continuation, strong prefix discrepancy and classical uniform DNF learning. Refresh status and upstream duplicates before integration.",
     "CFN sunlet projective quadratic-generation lead needs independent corroboration and saturation-scope review.",
     "Keep matching unresolved claims outside new additions; separately follow up historical entries 031, 032 and 286.",
-    "Continue the examples-only uniform DNF-learning lead with current full theorems and independent status corroboration; retain privacy and CFN leads outside the count until their gates pass."
+    "Broaden discovery in biology, statistics, control and operations research; retain private-learning and CFN sunlet leads outside the count until their formulation and corroboration gates pass."
   ],
   "coverage": {
     "inverse3": 5,
     "spectral2": 1,
-    "applied": 5,
+    "applied": 6,
     "stochastic3": 7,
     "inverse2": 2,
     "operators": 4,
@@ -172,11 +176,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 30,
-  "count_semantics": "Thirty additions are integrated and published directly on main. Six accepted research drafts await batch 4; active total 330. Five held records excluded.",
+  "count_semantics": "Thirty additions are integrated and published directly on main. Seven accepted research drafts await batch 4; active total 330. Five held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 30,
-  "coverage_semantics": "Accepted additions by primary section; thirty integrated and six pending research drafts.",
+  "coverage_semantics": "Accepted additions by primary section; thirty integrated and seven pending research drafts.",
   "remaining_integrations_to_minimum": 170,
   "remaining_integrations_to_target": 220,
-  "pending_accepted": 6
+  "pending_accepted": 7
 }
