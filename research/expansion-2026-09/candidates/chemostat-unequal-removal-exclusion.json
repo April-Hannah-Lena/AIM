@@ -1,0 +1,413 @@
+{
+  "candidate_id": "chemostat-unequal-removal-exclusion",
+  "proposed_catalogue_id": null,
+  "title": "Competitive exclusion in a chemostat with unequal removal rates",
+  "decision": "accept_open",
+  "decision_reason": "Full primary formulation and independent scholarly corroboration, later model/theorem comparisons, duplicate checks and separated A46 adversarial self-review passed; no unresolved material matching resolution claim.",
+  "primary_section": "stochastic3",
+  "secondary_tags": [
+    "mathematical biology",
+    "microbial competition",
+    "bioreactors",
+    "global dynamics"
+  ],
+  "aliases": [
+    "competitive exclusion for general monotone chemostat growth",
+    "Hsu chemostat Open problem 1"
+  ],
+  "problem_fingerprint": {
+    "recorded_before_drafting": true,
+    "objects": "Any positive integer n, D>0, S_in>0 and d_i>0; C^1 growth functions f_i:[0,infinity)->[0,infinity), f_i(0)=0, f_i'(s)>0 for s>0. Each f_i(lambda_i)=d_i has a finite positive solution.",
+    "model": "S'=D(S_in-S)-sum_i f_i(S)x_i; x_i'=(f_i(S)-d_i)x_i. Constant yield coefficients normalized to one by biomass rescaling.",
+    "quantifiers": "For every such model with 0<lambda_1<lambda_2<=...<=lambda_n and lambda_1<S_in, and every initial state S(0)>=0, x_i(0)>0, ask whether every solution converges to the single-winner equilibrium.",
+    "observable": "lim S(t)=lambda_1; lim x_1(t)=D(S_in-lambda_1)/d_1; lim x_i(t)=0 for i>=2 as t->infinity.",
+    "conclusion": "Prove or disprove global convergence to the lowest-break-even species. Species removal constants may differ freely from one another and from nutrient dilution D.",
+    "scope": "Single well-mixed resource, autonomous ODE, constant yields, strictly increasing growth functions and a strict unique best competitor. No variable yields, density-dependent growth, immigration, seasonal forcing, inhibition, stochasticity, spatial diffusion or restricted Monod response. One family across n and kinetic parameters."
+  },
+  "fingerprint_recorded_on": "2026-09-18",
+  "actual_status_check_date": "2026-09-18",
+  "statement_sources": [
+    {
+      "source": "Sze-Bi Hsu, A survey of constructing Lyapunov functions for mathematical models in population biology (2005)",
+      "url": "https://www.math.nthu.edu.tw/~sbhsu/0416.pdf",
+      "locator": "Author manuscript pp.4–9: response assumptions after (2.3), hypothesis (H), model (2.9), Open problem 1."
+    },
+    {
+      "source": "Tewfik Sari and Frédéric Mazenc, Global dynamics of the chemostat with different removal rates and variable yields (2011)",
+      "url": "https://www.aimspress.com/aimspress-data/mbe/2011/3/PDF/1551-0018_2011_3_827.pdf",
+      "locator": "Introduction, printed p.828, explicit monotone/no-removal-restriction open question; constant-yield model (7).",
+      "role": "Independent authorship corroboration for the constant-yield problem despite the broader title."
+    }
+  ],
+  "publication_state": "Accepted research draft awaiting batch integration; no active ID.",
+  "review_arrangement": "Primary-agent research followed by a separated adversarial self-pass; no independent agent or human review.",
+  "source_records": [
+    {
+      "source_id": "H05",
+      "authors": [
+        "Sze-Bi Hsu"
+      ],
+      "title": "A survey of constructing Lyapunov functions for mathematical models in population biology",
+      "venue": "Taiwanese Journal of Mathematics 9(2) (2005), 151–173",
+      "url": "https://www.math.nthu.edu.tw/~sbhsu/0416.pdf",
+      "locator": "Author manuscript pp.4–9: model (2.3), hypothesis (H), Theorem 2.3, model (2.9), Open problem 1",
+      "read": "Full model, response conditions, constant-yield scaling, finite ordered break-even hypotheses, equilibrium and explicit open question; relevant Monod and conditional Lyapunov results.",
+      "version": "Author-hosted manuscript; publication metadata checked against the NTHU institutional record.",
+      "metadata_url": "https://scholars.nthu.edu.tw/esploro/outputs/journalArticle/A-survey-of-constructing-Lyapunov-functions/9957774467006774",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "SM11",
+      "authors": [
+        "Tewfik Sari",
+        "Frédéric Mazenc"
+      ],
+      "title": "Global dynamics of the chemostat with different removal rates and variable yields",
+      "venue": "Mathematical Biosciences and Engineering 8(3) (2011), 827–840",
+      "identifier": "10.3934/mbe.2011.8.827",
+      "url": "https://www.aimspress.com/aimspress-data/mbe/2011/3/PDF/1551-0018_2011_3_827.pdf",
+      "locator": "Introduction p.828; Theorems 2–3 pp.830–832; constant-yield model (7)",
+      "read": "Explicit independent unresolved-status statement for unrestricted removal and monotone responses, complete relevant global-stability theorem hypotheses, ratio-separation condition and constant-yield specialization.",
+      "version": "Publisher full PDF, July 2011.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "FH09",
+      "authors": [
+        "Bernold Fiedler",
+        "Sze-Bi Hsu"
+      ],
+      "title": "Non-periodicity of chemostats: a multi-dimensional Bendixson-Dulac approach",
+      "venue": "Journal of Mathematical Biology 59 (2009), 233–253; accessible author manuscript dated April 25, 2008",
+      "url": "https://www.math.nthu.edu.tw/~sbhsu/FiedlerHsu_08_04_25_%282%29.pdf",
+      "locator": "Section 1, model (1.6), Theorem 1.1 and (1.7)–(1.9), pp.1–3; Section 6 discussion, pp.17–18",
+      "read": "Full non-periodicity theorem, response assumptions, extra interspecies inequality and discussion of its restrictive role.",
+      "version": "Dated author PDF, downloaded and read after web-reader failure; full proof not independently certified.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "S11",
+      "authors": [
+        "Tewfik Sari"
+      ],
+      "title": "Competitive exclusion for chemostat equations with variable yields",
+      "venue": "arXiv:1005.3611v2, author version",
+      "url": "https://arxiv.org/abs/1005.3611v2",
+      "locator": "Introduction; Theorem 1.2 and (14)–(16); Theorem 4.1 and (27)–(29), p.7",
+      "read": "Full relevant theorem statements, definitions of net growth and uptake, and conditions comparing competing species.",
+      "version": "v1 May 20, 2010; latest v2 July 28, 2011, verified in arXiv history.",
+      "access_limits": "Springer journal full text was not accessible. The citation and theorem numbering explicitly use the read arXiv version; inconsistent year/volume strings in discovery records are not copied.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "full_text_read_url": "https://arxiv.org/pdf/1005.3611"
+    },
+    {
+      "source_id": "RV17",
+      "authors": [
+        "Alain Rapaport",
+        "Mario Veruete"
+      ],
+      "title": "A new proof of the competitive exclusion principle in the chemostat",
+      "venue": "arXiv:1711.06928v2, author version",
+      "url": "https://arxiv.org/abs/1711.06928",
+      "locator": "Section 2, model (1), Assumptions 1–2 and Proposition 1; Section 3.5 discussion of tied break-even levels",
+      "read": "Full original common-D model and precise global convergence proposition; general increasing kinetics do not imply independent species removal constants.",
+      "version": "v1 November 18, 2017; latest v2 November 30, 2017, verified in arXiv history.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "full_text_read_url": "https://arxiv.org/pdf/1711.06928"
+    },
+    {
+      "source_id": "ABC26",
+      "authors": [
+        "Claudia Alvarez-Latuz",
+        "Terence Bayen",
+        "Jérôme Coville"
+      ],
+      "title": "Global stability of perturbed chemostat systems",
+      "venue": "Nonlinear Analysis: Real World Applications 88 (April 2026), 104509",
+      "identifier": "10.1016/j.nonrwa.2025.104509",
+      "url": "https://arxiv.org/pdf/2501.08011v1",
+      "publisher_url": "https://www.sciencedirect.com/science/article/abs/pii/S1468121825001919",
+      "locator": "Author version Sections 2.1–2.4, models (2.1)/(2.3), (A1)–(A4), Theorem 2.4 and Corollary 2.1; journal introduction and model preview",
+      "read": "Full common-removal model, nonnegative mass-conserving exchange conditions, compact initial-state sets and small-perturbation convergence theorem.",
+      "version": "Only arXiv v1 January 14, 2025 in checked history; PDF displays January 15. Publisher identifies April 2026 article and its same model.",
+      "access_limits": "Full journal text not available; the compared theorem is explicitly author-version Theorem 2.4, not journal Theorem 4.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "H19",
+      "authors": [
+        "Sze-Bi Hsu"
+      ],
+      "title": "Mathematical Modeling and Mathematical Analysis in Mathematical Biology",
+      "venue": "2019 summer-course lecture notes",
+      "url": "https://www.math.nthu.edu.tw/~sbhsu/7-26-2019final%20lecture1-6.pdf",
+      "locator": "Lecture 1, pp.8–10: model (4), response assumptions, (H), requested limits and open problem on p.10",
+      "read": "Complete repeated finite-species monotone/unequal-removal formulation; nearby delay question is distinct.",
+      "version": "2019 date on title page; authorship and course identity checked through the author homepage Lecture Notes link. Homepage and PDF give different ending days, so no exact course date range is asserted.",
+      "independence": "Same author as H05; this is later retention, not independent corroboration.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "BDG25",
+      "authors": [
+        "Jean-Baptiste Burie",
+        "Arnaud Ducrot",
+        "Quentin Griette"
+      ],
+      "title": "Epidemic models in measure spaces: persistence, concentration and oscillations",
+      "venue": "Journal of Evolution Equations 25 (2025), article 32",
+      "identifier": "10.1007/s00028-025-01060-2",
+      "url": "https://link.springer.com/article/10.1007/s00028-025-01060-2",
+      "locator": "Model (2.1), Assumption 2.1, Theorem 2.2; Section 2.3 initial measure and Claim 2.14",
+      "read": "Full resource-linear measure model, theorem assumptions and both conclusions (including visually read equation images), and full oscillation construction assumptions and Claim 2.14.",
+      "version": "Published 2025 article, publisher HTML; metadata gives June 2025 issue.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "H3D",
+      "authors": [
+        "Sze-Bi Hsu"
+      ],
+      "title": "On the global stability of equilibrium for a class of three dimensional competitive systems",
+      "venue": "Author manuscript; author page lists forthcoming Pure and Applied Functional Analysis",
+      "url": "https://www.math.nthu.edu.tw/~sbhsu/20260312_On_the_Global_Stability_of_Equilibrium_for_a_class_of_three_Dimensional_Competitive_Systems-copy.pdf",
+      "locator": "Section 1, (H1)–(H4b) and Theorem A; Section 2 Arabidopsis-clock model; Section 3 global-stability theorems",
+      "read": "Full three-dimensional model and conditional global-stability statements; no arbitrary-dimensional resource competition theorem.",
+      "version": "URL contains 20260312; exact publication/revision date is not established from the manuscript.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "DHH17",
+      "authors": [
+        "Bo Deng",
+        "Maoan Han",
+        "Sze-Bi Hsu"
+      ],
+      "title": "Numerical Proof For Chemostat Chaos of Shilnikov’s Type",
+      "venue": "Author manuscript linked as a 2017 Chaos article on Hsu’s publication page",
+      "url": "https://www.math.nthu.edu.tw/~sbhsu/ChemoChaos.pdf",
+      "locator": "Introduction pp.1–4; full food-chain model (2) on p.5 and reduced model (3) on p.6",
+      "read": "Full model explicitly includes producer-consumer-predator feeding across three trophic levels. No certification of the numerical chaos proof is claimed.",
+      "version": "Author-hosted manuscript; used only to distinguish its food-chain model from exploitative competition.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    }
+  ],
+  "search_ids": [
+    "S336-1",
+    "S337-1",
+    "S337-2",
+    "S337-3",
+    "S338-1",
+    "S338-2",
+    "S338-3",
+    "S339-1",
+    "S339-2",
+    "S339-3",
+    "S339-4",
+    "S340-1",
+    "S340-2",
+    "S340-3",
+    "S340-4",
+    "S341-1",
+    "S341-2",
+    "S341-3",
+    "S341-4",
+    "S342-1",
+    "S342-2",
+    "S342-3",
+    "S342-4",
+    "S343-1",
+    "S343-2",
+    "S343-3",
+    "S343-4",
+    "S344-1",
+    "S344-2",
+    "S344-3",
+    "S344-4",
+    "S345-1",
+    "S345-2",
+    "S345-3",
+    "S345-4",
+    "S346-1",
+    "S346-2",
+    "S346-3",
+    "S346-4",
+    "S347-1",
+    "S347-2",
+    "S347-3",
+    "S347-4",
+    "S348-1",
+    "S348-2",
+    "S348-3",
+    "S348-4",
+    "S349-1",
+    "S349-2",
+    "S349-3",
+    "S349-4",
+    "S350-1",
+    "S350-2",
+    "S350-4",
+    "S351-3",
+    "A46-1",
+    "A46-2",
+    "A46-3",
+    "A46-4",
+    "A46-5",
+    "A46-6"
+  ],
+  "resolution_comparisons": [
+    {
+      "source": "H05 and H19",
+      "result": "Constant-yield Monod/Holling-II kinetics admit a Lyapunov proof with different species removals. Common washout and monotone response results are also reviewed.",
+      "difference": "Arbitrary C1 strictly increasing response functions need not be Monod functions, and d_i are not required to equal D."
+    },
+    {
+      "source": "SM11",
+      "theorem_locator": "Theorems 2–3 and model (7)",
+      "theorem_statement_actually_read": true,
+      "result": "Theorem 2 allows variable yields with a crossing condition and constants alpha_i separating response ratios. Theorem 3 restates the constant-yield Wolkowicz–Lu sufficient condition (8).",
+      "difference": "The additional max/min ratio-separation condition is not a hypothesis of the candidate. The introduction explicitly says suitable constants cannot be found for every growth function. Constant-yield specialization is checked, not inferred from the paper title."
+    },
+    {
+      "source": "S11",
+      "theorem_locator": "Theorems 1.2 and 4.1",
+      "theorem_statement_actually_read": true,
+      "result": "Global convergence follows from winner-crossing and nutrient-balance conditions plus an interspecies inequality with a positive constant for each invadable competitor.",
+      "difference": "In Theorem 4.1, f_1(S)p_i(S)>c_i f_i(S)p_1(S) for 0<S<1 is an extra condition. Here that source’s f_i denotes net growth, p_i uptake; the candidate’s f_i is gross growth. No assumption that these inequalities follow from monotonicity is made."
+    },
+    {
+      "source": "FH09",
+      "theorem_locator": "Theorem 1.1, (1.7)–(1.9)",
+      "theorem_statement_actually_read": true,
+      "result": "Positive nonstationary periodic solutions are excluded when f_i(s)<1+f_j(s)+(1-s)p_j_prime(s)/p_j(s), in the normalized net-growth/uptake notation, for all i!=j and 0<s<1.",
+      "difference": "The extra inequality is not automatic for arbitrary responses/removals. Excluding periodic solutions is weaker than establishing every trajectory’s convergence in arbitrary dimension."
+    },
+    {
+      "source": "RV17",
+      "theorem_locator": "Model (1) and Proposition 1",
+      "theorem_statement_actually_read": true,
+      "result": "General increasing growth functions yield exclusion when one common D appears in every removal term.",
+      "difference": "The model requires d_i=D, while the candidate allows arbitrary positive d_i. The abstract’s broad phrase about increasing growth does not remove this model restriction."
+    },
+    {
+      "source": "ABC26",
+      "theorem_locator": "Author-version Theorem 2.4, models (2.1)/(2.3), (A1)–(A4)",
+      "theorem_statement_actually_read": true,
+      "result": "Each compact initial-state set keeping the winning species above a positive threshold admits a sufficiently small exchange perturbation with convergence to a perturbed equilibrium.",
+      "difference": "The unperturbed system has common removal u. The exchange vector must sum to zero for every state and vanish at perturbation zero. Terms (u-d_i)x_i do not satisfy that identity for arbitrary d_i. No iteration of local perturbation stability is justified to all removal parameters. Journal model preview agrees; full journal theorem not directly read."
+    },
+    {
+      "source": "BDG25",
+      "theorem_locator": "Model (2.1), Assumption 2.1, Theorem 2.2 and Section 2.3/Claim 2.14",
+      "theorem_statement_actually_read": true,
+      "result": "Convergence when maximal-fitness strains carry positive initial mass; an explicit measure-valued counterexample without that mass oscillates around a circle of fitness maxima.",
+      "difference": "Finite support specializes to f_i(S)=alpha_i gamma_i S, a linear response family. The counterexample uses the pushforward of e^(-tau) d tau along an infinite spiral with zero initial mass on the limiting circle. Finite n, strict unique lowest break-even and positive x_1(0) exclude this mechanism."
+    },
+    {
+      "source": "H3D",
+      "theorem_locator": "Theorem A and (H1)–(H4b); Section 3",
+      "theorem_statement_actually_read": true,
+      "result": "A conditional convergence criterion for three-dimensional competitive flows; clock-model applications impose additional compound-matrix conditions.",
+      "difference": "The candidate has arbitrary dimension n+1 and opposite-sign substrate/species cross derivatives, not the displayed all-off-diagonal-nonpositive model. Absence or orbital stability of periodic orbits is an additional assumption, not proved for the candidate."
+    },
+    {
+      "source": "DHH17",
+      "theorem_locator": "Full model (2), pp.4–5",
+      "theorem_statement_actually_read": false,
+      "result": "Chaotic food-chain dynamics are investigated with predation between trophic levels.",
+      "difference": "Y consumes X and Z consumes Y; their growth depends on other species concentrations. This is not the candidate model, where every population grows only through the common nutrient. Classified from the full displayed model and discussion, not the abstract; numerical proof itself not audited."
+    }
+  ],
+  "independent_corroboration": {
+    "formulation": "H05 Open problem 1 and model (2.9).",
+    "independent_source": "SM11 Introduction, printed p.828, explicitly describes general monotone growth with unrestricted species removal as unresolved.",
+    "authorship_check": "Hsu and Sari–Mazenc have disjoint author lists; H19 retains the statement but is not an independent author source."
+  },
+  "mathematical_checks": [
+    "Constants yields are positive constants and can be absorbed by x_i=original_biomass_i/Y_i. No variable yield is silently admitted.",
+    "Setting all derivatives to zero at the winner yields x_1=D(S_in-lambda_1)/d_1. The D factor is kept; one preceding line in H05’s proof appears to omit it, while model (2.9)’s equilibrium includes it.",
+    "For M=S+sum_i x_i, M_prime=D*S_in-D*S-sum_i d_i*x_i <= D*S_in-min(D,d_1,...,d_n)*M. Together with local C1 uniqueness and positivity this excludes finite-time blow-up; convergence is the actual open demand.",
+    "The strict gap applies only between lambda_1 and the remaining break-even values. Ties among losing species are allowed. n=1 is explicitly vacuous in the ordering tail and already solved; it does not receive a separate count.",
+    "All populations are initially positive, avoiding absence of the proposed winner. S(0)=0 is allowed; positive feed drives S into the positive region.",
+    "All finite n and arbitrary allowed kinetic parameters form one canonical question. No arbitrary-data, species-number or common-D variants are separately counted."
+  ],
+  "duplicate_review": {
+    "searched": "All active problem pages, metadata, candidate/draft records and existing research inventories; chemostat, break-even, competitive exclusion, single nutrient and carrying simplex.",
+    "nearest_entries": [
+      {
+        "id": 190,
+        "difference": "Spatial stochastic contact process on Z2; no shared-resource chemostat ODE."
+      },
+      {
+        "id": 311,
+        "difference": "Interior smoothness of the carrying simplex for discrete population maps, rather than global selection of a resource competitor."
+      },
+      {
+        "id": 179,
+        "difference": "Irreversible spatial Richardson growth competition; not a finite-dimensional resource model."
+      }
+    ],
+    "result": "No duplicate located; nearest pages 190 and 311 read in full again during this review."
+  },
+  "source_access_limitations": [
+    "S11 and RV17 are cited as the actually read arXiv versions; no unread journal theorem is asserted to have identical numbering.",
+    "ABC26 full journal article was not retrieved; full author-version theorem plus 2026 publisher model preview were compared. The paper’s perturbative mass-conserving model is explicit.",
+    "Shi–Bai–Bao, Dynamics of an unstirred chemostat model with intra- and interspecific competition, DOI 10.3934/dcdsb.2026053, was a discovery lead. The indexed publisher introduction displays density-dependent Monod responses, a two-species reaction-diffusion model and Robin boundaries. The full-theorem page requires access; public PDF links returned empty/404. No full theorem reading or proof certification is claimed. It is not used as a formulation or status source, or as evidence that the finite well-mixed conjecture is resolved.",
+    "The 2017 recycle-sludge paper DOI 10.1007/s10441-017-9309-4 was seen through PubMed metadata/abstract only and is supplementary discovery, not independent full-text corroboration.",
+    "The 2025 plasmid/toxin paper DOI 10.1142/S0218339025500354 appeared as a discovery hit; primary full text was not retrieved and no theorem-level assessment is claimed. No admission evidence is taken from its abstract.",
+    "The McMaster file 28731.pdf is a delayed chemostat paper, not the Wolkowicz–Lu constant-yield source. The latter is assessed through SM11 Theorem 3’s full restatement, not a misidentified PDF.",
+    "Berlin-hosted FH09 PDF failed TLS hostname validation; the public NTHU author copy was read instead. No certificate validation was bypassed."
+  ],
+  "adversarial_review": {
+    "review_id": "A46",
+    "date": "2026-09-18",
+    "arrangement": "Separated self-pass after draft creation; no independent agent or human review.",
+    "checks": [
+      "Fresh searches A46-1–A46-6 for overlooked proof, disproof, counterexample, correction and author/alias variants.",
+      "Rechecked all quantifiers, strictly increasing C1 responses, finite break-even levels, unique winning threshold, positive initial populations and the equilibrium normalization.",
+      "Compared BDG25’s complete theorem and counterexample model, including both theorem equation images.",
+      "Followed Hsu’s author publication page to later three-dimensional stability and food-chain chaos manuscripts; checked the actual displayed models and applicable theorem conditions.",
+      "Rechecked duplicates and the biological interpretation without adding spatial, stochastic or variable-yield claims."
+    ],
+    "corrections": [
+      "Added H19’s explicit retained question with verified author-page provenance.",
+      "Added BDG25 reference and finite/infinite-population comparison.",
+      "Kept author-version citations where journal metadata/numbering could not be verified directly; made access limits explicit."
+    ],
+    "result": "pass",
+    "remaining_material_resolution_claims": []
+  },
+  "open_status_evidence_summary": "Open in cited literature; no later resolution located as of 2026-09-18. H05 and independent SM11 explicitly state the exact problem; H19 retains it. Current and unrestricted searches and full material model/theorem comparisons did not identify a resolution matching arbitrary finite n, general increasing constant-yield growth and unrestricted positive species removal.",
+  "public_page_path": "research/expansion-2026-09/drafts/chemostat-unequal-removal-exclusion.md",
+  "qa": {
+    "status": "pass",
+    "catalogue": "scripts/catalogue.py --write and --check passed, 340 active entries.",
+    "counts": "50 records: 45 accepted, five holds, 40 integrated/published, five pending; primary-section coverage and 1578 unique search IDs reconcile.",
+    "math": "24 expressions passed strict KaTeX with throwOnError; the full 1280x6500 Chrome render was visually inspected with readable mathematical glyphs and no clipping. Subsequent changes only replace reference hrefs and clarify one version label.",
+    "local_links": "117 links across the updated research README, source-map, discovery-queue and this draft resolve.",
+    "external_links": "All ten bibliography links have checked accessible routes. Seven original direct GETs returned 200; arXiv 406s and verified landing-page/full-text routes are detailed in chemostat-unequal-removal-exclusion-link-check.json.",
+    "diff": "git diff --check passed.",
+    "upstream": "Fetched origin/main equals local HEAD 11f381f936d81d54edc68dd81c107bda6c42117d; no upstream additions to reconcile."
+  },
+  "remote_publication": {
+    "status": "not yet published",
+    "catalogue_state": "Accepted research draft only; no active ID."
+  },
+  "prepublication_refresh": {
+    "date": "2026-09-18",
+    "latest_target_commit": "11f381f936d81d54edc68dd81c107bda6c42117d",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "outcome": "A46 and subsequent author-page/model checks complete; fetched upstream unchanged; research draft only, with batch integration refresh still due."
+  }
+}

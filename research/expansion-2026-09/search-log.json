@@ -12282,5 +12282,626 @@
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Separated adversarial self-pass after draft creation; later Chang–Dolatabadi result inspected at theorem/model level.",
     "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S336-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"competitive exclusion conjecture\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S336-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entangled Gaussian\" \"open problem\" \"optimal\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Discovery only; no admission verdict."
+  },
+  {
+    "search_id": "S336-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"convex regression\" \"open problem\" minimax 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Discovery only; no admission verdict."
+  },
+  {
+    "search_id": "S336-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"motif-avoidant attractors\" \"conjecture\" \"delay\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Discovery only; no admission verdict."
+  },
+  {
+    "search_id": "S337-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"competitive exclusion\" \"conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S337-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat conjecture\" solved counterexample",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S337-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"global\" \"open problem\" \"removal rates\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S337-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entangled Gaussians\" \"mean estimation\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Discovery only; no admission verdict."
+  },
+  {
+    "search_id": "S338-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"conjecture\" \"Sari\" \"Wolkowicz\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S338-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"competitive exclusion\" \"open problem\" chemostat monotone",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S338-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"conjecture\" proof refutation counterexample 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S338-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entangled Gaussians\" estimation open",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Discovery only; no admission verdict."
+  },
+  {
+    "search_id": "S339-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Global dynamics of the chemostat with different removal rates and variable yields\" pdf",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S339-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"exclusion\" \"conjecture\" Sari 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S339-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"competitive exclusion\" \"monotone\" \"open\" 2024 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S339-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"Hsu\" \"open problem\" general response",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S340-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"competitive exclusion\" \"chemostat\" \"conjecture\" -site:scribd.com -site:researchgate.net -site:chempedia.info",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S340-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"general monotone\" \"chemostat\" \"global\" 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S340-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Sari\" \"chemostat\" \"open problem\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S340-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Competitive exclusion for chemostat equations\" \"variable yields\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S341-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"A new proof of the competitive exclusion principle in the chemostat\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S341-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"A survey of constructing Lyapunov functions\" Hsu journal",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S341-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"different removal rates\" \"open\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S341-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"monotone\" \"conjecture\" counterexample proof",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S342-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"different removal\" \"monotone\" \"open\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S342-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"competitive exclusion principle\" \"conjecture\" proof solved refutation",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S342-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"A survey of constructing Lyapunov functions for mathematical models in population biology\" DOI",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S342-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"general monotone\" 2024 2025 2026 -site:scribd.com -site:researchgate.net",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S343-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"Hsu\" \"conjecture\" solution",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S343-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"different removal rates\" \"proof\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S343-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"general monotone\" \"counterexample\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S343-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"A survey of constructing Lyapunov functions\" \"2005\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S344-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Hsu\" \"A survey of constructing\" \"151\" \"2005\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S344-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Non-periodicity of chemostats\" Fiedler Hsu",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S344-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"monotone growth\" \"different removal\" 2026 2025 2024",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S344-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"competitive exclusion\" \"Hsu\" \"Mazenc\" 2026 2025 2024",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S345-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"open problem\" \"different removal rates\" -site:scribd.com -site:plaza.rakuten.co.jp",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S345-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"monotone functional responses\" \"limit cycles\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S345-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Non-periodicity of chemostats\" pdf Fiedler",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S345-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Hsu\" \"Lyapunov functions\" \"Taiwanese\" \"9\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S346-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Asymptotic Behavior of a Chemostat Model with Constant Recycle Sludge Concentration\" pdf",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S346-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Hsu\" chemostat \"Open problem 1\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S346-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"competitive exclusion\" \"different removal rates\" correction erratum withdrawn",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S346-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Rapaport\" \"Veruete\" chemostat correction erratum",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S347-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"different removal rates\" \"global stability\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S347-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"competitive exclusion\" \"2025\" \"monotone\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S347-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Sari\" \"chemostat\" \"conjecture\" \"2024\" OR \"2025\" OR \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S347-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"constant yield\" \"counterexample\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S348-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Global stability of perturbed chemostat systems\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S348-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Global stability of perturbed chemostat systems\" authors pdf",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S348-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Dynamics of an unstirred chemostat model with intra- and interspecific competition\" pdf",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S348-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"different removal\" \"2026\" global convergence",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S349-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Dynamics of an unstirred chemostat model with intra- and interspecific competition\" authors",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S349-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Global stability of perturbed chemostat systems\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S349-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"unequal removal\" solved disproof refutation",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S349-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Sari\" \"Competitive exclusion for chemostat equations with variable yields\" Acta 2012",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S350-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Dynamics of an unstirred chemostat model\" \"2026053\" pdf",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S350-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Dynamics of an unstirred chemostat model with intra- and interspecific competition\" \"Theorem\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S350-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"10.3934/dcdsb.2026053\" \"system\" \"4\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Discovery only; no admission verdict."
+  },
+  {
+    "search_id": "S350-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Global stability of perturbed chemostat systems\" \"104509\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S351-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"dcdsb.2026053\" \"Theorem 1.1\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Discovery only; no admission verdict."
+  },
+  {
+    "search_id": "S351-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"dcdsb.2026053\" \"Theorem 3.1\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Discovery only; no admission verdict."
+  },
+  {
+    "search_id": "S351-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Dynamics of an unstirred chemostat\" \"a_{1}\" \"Theorem\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Chemostat formulation, primary-source discovery, bibliographic verification and resolution-scope review.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "S351-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Shi\" \"Bai\" \"Bao\" \"2026053\" pdf",
+    "date_filter_or_unrestricted": "unrestricted; literal years and exclusions where shown",
+    "review_stage": "Discovery only; no admission verdict."
+  },
+  {
+    "search_id": "A46-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"general monotone\" proved solved counterexample",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after draft creation; finite-species scope, later model/theorem comparisons and normalization checked.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "A46-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Hsu\" \"chemostat\" \"Open problem 1\" resolution",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after draft creation; finite-species scope, later model/theorem comparisons and normalization checked.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "A46-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"different removal rates\" 2026 2025 proof disproof",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after draft creation; finite-species scope, later model/theorem comparisons and normalization checked.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "A46-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"competitive exclusion\" \"monotone\" \"Sari\" correction erratum withdrawn",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after draft creation; finite-species scope, later model/theorem comparisons and normalization checked.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "A46-5",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"chemostat\" \"unequal washout\" \"global\" conjecture",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after draft creation; finite-species scope, later model/theorem comparisons and normalization checked.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
+  },
+  {
+    "search_id": "A46-6",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Wolkowicz\" \"Lu\" \"chemostat\" \"counterexample\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after draft creation; finite-species scope, later model/theorem comparisons and normalization checked.",
+    "candidate_id": "chemostat-unequal-removal-exclusion"
   }
 ]

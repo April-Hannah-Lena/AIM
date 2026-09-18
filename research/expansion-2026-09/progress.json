@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 44,
+  "new_accepted": 45,
   "active_total": 340,
-  "candidates_investigated": 49,
+  "candidates_investigated": 50,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 156,
-  "remaining_to_target": 206,
+  "remaining_to_minimum": 155,
+  "remaining_to_target": 205,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -184,9 +184,9 @@
       "purpose": "Record reviewed list edge-colouring draft, evidence and breadth discovery; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "Forty catalogue additions (301–340) are published directly on main. All four accepted research drafts—sharp matroid secretary, binary-code rate, arbitrary-switching stability and list edge-colouring—and their evidence are published. The scheduling checkpoint d33762befc329d523217811b84df150fd370ee9a was independently verified by ls-remote on September 18, 2026. All four await batch integration; active total remains 340.",
+  "remote_state": "Forty catalogue additions (301–340) and the first four pending accepted drafts are published directly on main. The fifth accepted draft, chemostat unequal-removal exclusion, awaits final checkpoint validation and upload; active total remains 340.",
   "next_actions": [
-    "Prepare six more reviewed drafts for the next ten-entry batch; refresh statuses and upstream duplicates before allocating IDs. Sharp matroid secretary, binary-code rate, arbitrary-switching stability and list edge-colouring are accepted without active IDs.",
+    "Prepare five more reviewed drafts for the next ten-entry batch; refresh statuses and upstream duplicates before allocating IDs. Sharp matroid secretary, binary-code rate, arbitrary-switching stability, list edge-colouring and chemostat unequal-removal exclusion are accepted without active IDs.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the five held candidates and discovery-only leads outside the active count; preserve original identifiers and historical dates.",
     "CFN sunlet projective quadratic generation needs independent corroboration and saturation-scope review; private-learning leads still need complete formulation and corroboration.",
@@ -198,7 +198,7 @@
     "inverse3": 6,
     "spectral2": 1,
     "applied": 7,
-    "stochastic3": 9,
+    "stochastic3": 10,
     "inverse2": 3,
     "operators": 5,
     "inverse": 3,
@@ -210,11 +210,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 40,
-  "count_semantics": "Forty-four accepted additions: forty integrated and published, four accepted research drafts pending integration. Active catalogue total 340. Five held records excluded.",
+  "count_semantics": "Forty-five accepted additions: forty integrated and published, five accepted research drafts pending integration. Active catalogue total 340. Five held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 40,
-  "coverage_semantics": "Accepted additions by primary section; forty integrated, four pending accepted drafts.",
+  "coverage_semantics": "Accepted additions by primary section; forty integrated, five pending accepted drafts.",
   "remaining_integrations_to_minimum": 160,
   "remaining_integrations_to_target": 210,
-  "pending_accepted": 4
+  "pending_accepted": 5
 }

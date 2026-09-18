@@ -275,3 +275,12 @@ The arbitrary-switching strict-stability lead has now passed the full source/mod
 - The [list edge-colouring candidate](candidates/list-edge-colouring.json) passed formulation, independent corroboration, theorem/version comparisons, duplicate checks and separated A45 self-review. It is the fourth accepted draft awaiting the next integration batch. Its graph subclasses and equivalent index statement are one entry.
 
 All 45 actual queries are saved. The unaccepted leads above do not affect the 44 accepted additions or 49 formal records.
+
+## Chemostat review and breadth follow-up (S336–S351, A46; 2026-09-18)
+
+- The [chemostat candidate](candidates/chemostat-unequal-removal-exclusion.json) passed primary formulation, independent corroboration, model/theorem comparisons and separated A46 self-review. It is the fifth accepted draft awaiting integration. Its arbitrary species numbers and kinetic parameters form one question.
+- The entangled-Gaussian estimation and convex-regression searches remain discovery only. [Liang–Yuan's COLT 2020 paper](https://proceedings.mlr.press/v125/liang20b.html) is a lead for the subset-of-signals formulation; full formulation, present bounds and independent corroboration still need reading before any new candidate. Search hits about quantum entanglement are unrelated.
+- The [2019 Hsu lectures](https://www.math.nthu.edu.tw/~sbhsu/7-26-2019final%20lecture1-6.pdf) contain further predator–prey and multi-resource questions. Their discovery does not establish current openness or distinctness; each needs its own source, fingerprint and resolution investigation. They are not additional accepted chemostat variants.
+- Shi–Bai–Bao's [2026 unstirred model](https://doi.org/10.3934/dcdsb.2026053) was screened through its publisher introduction and displayed density-dependent reaction–diffusion model. The full theorem text is restricted and was not read. It is not an admission source. The 2017 recycle-sludge and 2025 plasmid/toxin papers likewise remain supplementary discovery with explicit access limits in the ledger.
+
+All 70 actual queries are saved. Counts are now 45 accepted additions and 50 formal records; none of the discovery-only leads above is counted.

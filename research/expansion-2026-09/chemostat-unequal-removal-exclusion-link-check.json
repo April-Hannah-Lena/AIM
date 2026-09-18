@@ -1,0 +1,71 @@
+{
+  "checked_on": "2026-09-18",
+  "method": "Direct HTTPS GET of the original draft links, first 1024 bytes, followed by web-reader checks and replacement with accessible arXiv landing-page routes where necessary.",
+  "links": [
+    {
+      "url": "https://arxiv.org/abs/1005.3611v2",
+      "original_attempt": {
+        "url": "https://arxiv.org/pdf/1005.3611v2",
+        "error": "HTTP Error 406: Not Acceptable"
+      },
+      "web_reader_result": "Exact version landing page opened successfully; author/title and v2 July 28, 2011 verified. Full PDF read through https://arxiv.org/pdf/1005.3611, whose latest version is v2."
+    },
+    {
+      "url": "https://arxiv.org/abs/1711.06928",
+      "original_attempt": {
+        "url": "https://arxiv.org/pdf/1711.06928v2",
+        "error": "HTTP Error 406: Not Acceptable"
+      },
+      "web_reader_result": "Canonical landing page opened successfully and identifies latest v2 November 30, 2017. Full PDF read through https://arxiv.org/pdf/1711.06928. Exact-version PDF and abstract routes had tool transport failures."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2501.08011v1",
+      "error": "HTTP Error 406: Not Acceptable",
+      "web_reader_result": "Same exact URL opened successfully as the 23-page full author manuscript despite direct GET 406."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.nonrwa.2025.104509",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1468121825001919",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://doi.org/10.3934/mbe.2011.8.827",
+      "status": 200,
+      "final_url": "http://www.aimspress.com/article/10.3934/mbe.2011.8.827",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00028-025-01060-2",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s00028-025-01060-2?error=cookies_not_supported&code=c9253ece-5d56-4615-adc3-3f62c88b42b6",
+      "sample_bytes": 1024,
+      "content_verification": "Full article HTML and both theorem equation images were separately retrieved and read; sample-link check followed a cookie-related redirect."
+    },
+    {
+      "url": "https://www.aimspress.com/aimspress-data/mbe/2011/3/PDF/1551-0018_2011_3_827.pdf",
+      "status": 200,
+      "final_url": "https://www.aimspress.com/aimspress-data/mbe/2011/3/PDF/1551-0018_2011_3_827.pdf",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://www.math.nthu.edu.tw/~sbhsu/0416.pdf",
+      "status": 200,
+      "final_url": "https://www.math.nthu.edu.tw/~sbhsu/0416.pdf",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://www.math.nthu.edu.tw/~sbhsu/7-26-2019final%20lecture1-6.pdf",
+      "status": 200,
+      "final_url": "https://www.math.nthu.edu.tw/~sbhsu/7-26-2019final%20lecture1-6.pdf",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://www.math.nthu.edu.tw/~sbhsu/FiedlerHsu_08_04_25_%282%29.pdf",
+      "status": 200,
+      "final_url": "https://www.math.nthu.edu.tw/~sbhsu/FiedlerHsu_08_04_25_%282%29.pdf",
+      "sample_bytes": 1024
+    }
+  ],
+  "summary": "All ten current draft bibliography targets have verified accessible routes. Seven original direct requests returned 200; three arXiv requests returned 406. Two draft links were replaced by verified landing-page routes; the third exact PDF works in the web reader."
+}
