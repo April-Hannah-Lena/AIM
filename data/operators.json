@@ -214,5 +214,13 @@
     "file": "problems/316-splay-dynamic-optimality.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "321",
+    "title": "Deterministic identity testing for arithmetic circuits",
+    "area": "Symbolic computation and derandomization",
+    "file": "problems/321-deterministic-polynomial-identity-testing.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

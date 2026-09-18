@@ -206,5 +206,21 @@
     "file": "problems/307-ea-three-dimensional-order.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "325",
+    "title": "Weak survival of the contact process on nonamenable Cayley graphs",
+    "area": "Spatial epidemics and nonequilibrium phase transitions",
+    "file": "problems/325-contact-process-nonamenable-weak-survival.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
+  },
+  {
+    "id": "329",
+    "title": "Bolthausen–Sznitman ancestry for a fixed-size selected population",
+    "area": "Population genetics and stochastic selection",
+    "file": "problems/329-selected-brownian-population-genealogy.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

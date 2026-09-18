@@ -1,6 +1,6 @@
 {
   "candidate_id": "efx-additive-goods",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "324",
   "title": "Complete EFX allocation of indivisible goods with additive values",
   "aliases": [
     "EFX existence for additive goods",
@@ -869,13 +869,19 @@
     "verdict": "pass_for_research_draft"
   },
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "not_performed"
+    "date": "2026-09-17",
+    "latest_target_commit": "cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R3-4",
+      "R3-14"
+    ],
+    "outcome": "No complete general additive-goods existence proof or counterexample located. Four-agent/nine-good, three-type, multigraph, chore and stronger fairness results retain their documented restrictions.",
+    "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
+    "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": null,
+  "public_page_path": "problems/324-efx-additive-goods.md",
   "validation_results": [
     {
       "checked_on": "2026-09-17",
@@ -891,14 +897,31 @@
       "checked_on": "2026-09-17",
       "check": "python3 scripts/catalogue.py --check",
       "result": "pass; active catalogue remains 320; draft has no active ID"
+    },
+    {
+      "checked_on": "2026-09-17",
+      "check": "Batch 3 catalogue, preservation and research-record integrity",
+      "result": "Pass: 330 active entries; original 300 and prior 320 pages and metadata unchanged; 35 investigated, 30 accepted/integrated, five holds; 956 unique search IDs; source/search references and local links resolve."
+    },
+    {
+      "checked_on": "2026-09-17",
+      "check": "Batch 3 typesetting and bibliography access",
+      "result": "Pass: all 201 mathematics expressions strictly rendered across ten new pages; all ten statement/application screenshots visually inspected. 87 of 92 URLs loaded; five HTTP 403 restrictions retained in batch-03-link-check.json. No independent proof certification claimed."
     }
   ],
   "remote_publication": {
-    "state": "not_published",
-    "repository": null,
-    "branch": null,
+    "state": "active_catalogue_publication_pending",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
     "commit": null,
     "pull_request_url": null
   },
-  "draft_path": "research/expansion-2026-09/drafts/efx-additive-goods.md"
+  "draft_path": "research/expansion-2026-09/drafts/efx-additive-goods.md",
+  "draft_page_path": "research/expansion-2026-09/drafts/efx-additive-goods.md",
+  "integration": {
+    "batch": "expansion-2026-09-17-03",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
+  }
 }

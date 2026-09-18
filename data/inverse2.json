@@ -206,5 +206,13 @@
     "file": "problems/302-cerny.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "330",
+    "title": "Generic stabilization by static output feedback",
+    "area": "Feedback control and real algebraic geometry",
+    "file": "problems/330-generic-static-output-feedback-stabilization.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

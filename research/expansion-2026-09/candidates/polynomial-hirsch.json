@@ -1,6 +1,6 @@
 {
   "candidate_id": "polynomial-hirsch",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "322",
   "title": "Polynomial bounds for the graph diameter of polytopes",
   "aliases": [
     "polynomial Hirsch conjecture",
@@ -447,26 +447,49 @@
     "verdict": "pass_for_research_draft"
   },
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "Due before active catalogue integration."
+    "date": "2026-09-17",
+    "latest_target_commit": "cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R3-2",
+      "R3-12"
+    ],
+    "outcome": "No matching bounded-polytope undirected-diameter result located. Coherent monotone paths, circuit walks and unbounded examples remain different targets, as compared in A23.",
+    "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
+    "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": null,
+  "public_page_path": "problems/322-polynomial-hirsch.md",
   "draft_path": "research/expansion-2026-09/drafts/polynomial-hirsch.md",
   "validation_results": [
     "Candidate fields, counts, source references and 649 distinct actual-query IDs validated.",
     "All 20 draft math expressions rendered with KaTeX without errors.",
     "47 local Markdown links in updated notes and draft checked.",
     "python3 scripts/catalogue.py --check passed: 320 active entries; draft not integrated.",
-    "git diff --check passed; fetch confirmed remote main unchanged at 8ff4a7ff2bb854907e14fe7044f5407dd927f23e before commit."
+    "git diff --check passed; fetch confirmed remote main unchanged at 8ff4a7ff2bb854907e14fe7044f5407dd927f23e before commit.",
+    {
+      "checked_on": "2026-09-17",
+      "check": "Batch 3 catalogue, preservation and research-record integrity",
+      "result": "Pass: 330 active entries; original 300 and prior 320 pages and metadata unchanged; 35 investigated, 30 accepted/integrated, five holds; 956 unique search IDs; source/search references and local links resolve."
+    },
+    {
+      "checked_on": "2026-09-17",
+      "check": "Batch 3 typesetting and bibliography access",
+      "result": "Pass: all 201 mathematics expressions strictly rendered across ten new pages; all ten statement/application screenshots visually inspected. 87 of 92 URLs loaded; five HTTP 403 restrictions retained in batch-03-link-check.json. No independent proof certification claimed."
+    }
   ],
   "remote_publication": {
-    "state": "research_record_only; no active catalogue publication",
+    "state": "active_catalogue_publication_pending",
     "repository": "MColbrook/AIM",
     "branch": "main",
     "commit": null,
     "pull_request_url": null
+  },
+  "draft_page_path": "research/expansion-2026-09/drafts/polynomial-hirsch.md",
+  "integration": {
+    "batch": "expansion-2026-09-17-03",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
   }
 }

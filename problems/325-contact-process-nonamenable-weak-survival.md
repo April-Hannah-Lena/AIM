@@ -1,8 +1,8 @@
-# Weak survival of the contact process on nonamenable Cayley graphs
+# 325. Weak survival of the contact process on nonamenable Cayley graphs
 
 **Area:** Spatial epidemics and nonequilibrium phase transitions
 
-**Status:** Accepted; integrated as entry 325
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -43,12 +43,12 @@ The contact process is a basic susceptible–infected–susceptible epidemic mod
 
 ## Status review
 
-The literature check on 2026-09-17 covered weak/intermediate survival, distinct local and global critical values, Cayley/transitive nonamenable graphs, proof and counterexample searches, and author corrections. The [evidence record](../candidates/contact-process-nonamenable-weak-survival.json) gives exact queries, hypotheses and access limits.
+The literature check on 2026-09-17 covered weak/intermediate survival, distinct local and global critical values, Cayley/transitive nonamenable graphs, proof and counterexample searches, and author corrections. The [evidence record](../research/expansion-2026-09/candidates/contact-process-nonamenable-weak-survival.json) gives exact queries, hypotheses and access limits.
 
 The gap is established for regular trees and for transitive degree-$d$ graphs satisfying $h_E(G)/d\ge1/\sqrt2$; see Lyons’s Theorems 8.1 and 8.7. Huang’s Theorem 7 extends tree results to general periodic trees. These restrictions leave nonamenable Cayley graphs with cycles and without the stated quantitative expansion bound untreated. Swart’s critical-extinction theorem applies to this model, but extinction at $\lambda_{\mathrm{g}}$ does not itself separate $\lambda_{\mathrm{g}}$ from $\lambda_{\mathrm{l}}$.
 
 Pemantle–Stacey counterexamples show that nonamenability alone is insufficient on arbitrary bounded-degree trees. Their primary manuscript was inaccessible, so this fact was checked through Lyons’s explicit restatement on p. 34. Such a counterexample cannot be a Cayley tree: Cayley graphs are regular, and the regular-tree theorem gives a strict gap. This scope conclusion is an inference from the two statements, not a claim to have read the inaccessible construction. The separate adversarial review is recorded in the ledger.
 
-The closest catalogue question, [183](../../../problems/183-nonamenable-nonuniqueness-phase.md), concerns the uniqueness of static, independent bond-percolation clusters. Contact-process infection paths are directed in space-time and do not identify these two questions. Entries 179 and 190 concern competition between two populations, rather than one population's local versus global survival. Independent expert corroboration was obtained, but the source statements are historical or undated; no later resolution matching the formulation was located.
+The closest catalogue question, [183](183-nonamenable-nonuniqueness-phase.md), concerns the uniqueness of static, independent bond-percolation clusters. Contact-process infection paths are directed in space-time and do not identify these two questions. Entries 179 and 190 concern competition between two populations, rather than one population's local versus global survival. Independent expert corroboration was obtained, but the source statements are historical or undated; no later resolution matching the formulation was located.
 
-Integrated as [entry 325](../../../problems/325-contact-process-nonamenable-weak-survival.md) after the September 17, 2026 batch refresh.
+Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration. Review was a separated adversarial self-pass; no independent agent or human review is claimed.

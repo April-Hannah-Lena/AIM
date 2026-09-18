@@ -1,6 +1,6 @@
 {
   "candidate_id": "gaussian-polynomial-unlinking",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "328",
   "title": "Orthogonal separation of independent Gaussian polynomial statistics",
   "aliases": [
     "Gaussian polynomial U-conjecture",
@@ -177,7 +177,7 @@
       ],
       "supported_claim": "Claim concerns absolute powers of jointly Gaussian coordinates.",
       "independent_of_source_ids": [],
-      "access_limitations": "No arXiv ID assigned on author page. No independent proof adjudication attempted. No U-conjecture theorem or implication found."
+      "access_limitations": "No arXiv ID assigned on author page. No independent proof adjudication attempted. No U-conjecture theorem or implication found. Batch-3 direct HTTP HEAD/GET link check returned 403 after the earlier web-reader theorem access; full proof not certified."
     },
     {
       "source_id": "LONG26",
@@ -813,23 +813,41 @@
     "verdict": "pass"
   },
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "Accepted research draft; refresh before active batch integration."
+    "date": "2026-09-17",
+    "latest_target_commit": "cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R3-8",
+      "R3-18",
+      "R3-21",
+      "R3-22"
+    ],
+    "outcome": "No arbitrary-polynomial unlinking resolution located. Reopened current Lan–Ouimet–Sun record (August 27 v3) and p.1 U-conjecture restatement. Gaussian-coordinate product inequalities and complex-moment claims remain different.",
+    "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
+    "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": null,
+  "public_page_path": "problems/328-gaussian-polynomial-unlinking.md",
   "validation_results": [
     "2026-09-17: source/search IDs, headings and all draft local links checked.",
     "2026-09-17: all 19 math expressions passed strict KaTeX; statement and applied-significance screenshot visually inspected.",
     "2026-09-17: catalogue.py --write and --check passed at 320 active entries; git diff --check passed.",
-    "2026-09-17: 33 investigated, 28 accepted, 20 integrated and eight pending; primary-section counts reconciled."
+    "2026-09-17: 33 investigated, 28 accepted, 20 integrated and eight pending; primary-section counts reconciled.",
+    {
+      "checked_on": "2026-09-17",
+      "check": "Batch 3 catalogue, preservation and research-record integrity",
+      "result": "Pass: 330 active entries; original 300 and prior 320 pages and metadata unchanged; 35 investigated, 30 accepted/integrated, five holds; 956 unique search IDs; source/search references and local links resolve."
+    },
+    {
+      "checked_on": "2026-09-17",
+      "check": "Batch 3 typesetting and bibliography access",
+      "result": "Pass: all 201 mathematics expressions strictly rendered across ten new pages; all ten statement/application screenshots visually inspected. 87 of 92 URLs loaded; five HTTP 403 restrictions retained in batch-03-link-check.json. No independent proof certification claimed."
+    }
   ],
   "remote_publication": {
-    "state": "not_published",
+    "state": "active_catalogue_publication_pending",
     "repository": "MColbrook/AIM",
-    "branch": null,
+    "branch": "main",
     "commit": null,
     "pull_request_url": null
   },
@@ -841,5 +859,11 @@
     "commit": "861b9dda10045de2cd0179b1426a966468749881",
     "verified_on": "2026-09-17",
     "verification": "SSH ls-remote independently matched local HEAD after push; draft and research ledger only, no active catalogue ID."
+  },
+  "integration": {
+    "batch": "expansion-2026-09-17-03",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
   }
 }

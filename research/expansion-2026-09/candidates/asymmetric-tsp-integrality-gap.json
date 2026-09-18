@@ -1,6 +1,6 @@
 {
   "candidate_id": "asymmetric-tsp-integrality-gap",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "323",
   "title": "The factor-two integrality gap for asymmetric metric routing",
   "aliases": [
     "ATSP subtour integrality ratio two",
@@ -496,13 +496,19 @@
     "verdict": "pass_for_research_draft"
   },
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "Due before active catalogue integration."
+    "date": "2026-09-17",
+    "latest_target_commit": "cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R3-3",
+      "R3-13"
+    ],
+    "outcome": "No factor-two worst-case bound located. Current Vygen result retains 12+2sqrt(2) upper bound; half-integer finite-size computations and random-instance exact algorithms remain restricted.",
+    "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
+    "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": null,
+  "public_page_path": "problems/323-asymmetric-tsp-integrality-gap.md",
   "validation_results": [
     {
       "checked_on": "2026-09-17",
@@ -518,15 +524,32 @@
       "checked_on": "2026-09-17",
       "check": "python3 scripts/catalogue.py --check",
       "result": "pass; active catalogue remains 320; draft has no active ID"
+    },
+    {
+      "checked_on": "2026-09-17",
+      "check": "Batch 3 catalogue, preservation and research-record integrity",
+      "result": "Pass: 330 active entries; original 300 and prior 320 pages and metadata unchanged; 35 investigated, 30 accepted/integrated, five holds; 956 unique search IDs; source/search references and local links resolve."
+    },
+    {
+      "checked_on": "2026-09-17",
+      "check": "Batch 3 typesetting and bibliography access",
+      "result": "Pass: all 201 mathematics expressions strictly rendered across ten new pages; all ten statement/application screenshots visually inspected. 87 of 92 URLs loaded; five HTTP 403 restrictions retained in batch-03-link-check.json. No independent proof certification claimed."
     }
   ],
   "remote_publication": {
-    "state": "research_record_only; no active catalogue publication",
+    "state": "active_catalogue_publication_pending",
     "repository": "MColbrook/AIM",
     "branch": "main",
     "commit": null,
     "pull_request_url": null
   },
   "draft_path": "research/expansion-2026-09/drafts/asymmetric-tsp-integrality-gap.md",
-  "search_assessment": "Exact names, spelling variants, formulation, original/later authors, current/prior years, unrestricted resolution terms and errata searched. Full sources inspected for the latest constant bound, old constant-factor result, two lower bound, bounded computations and random exact algorithm. Current arXiv histories, publisher article, author companion/errata and publication list used as additional discovery routes. No matching factor-two proof or counterexample located."
+  "search_assessment": "Exact names, spelling variants, formulation, original/later authors, current/prior years, unrestricted resolution terms and errata searched. Full sources inspected for the latest constant bound, old constant-factor result, two lower bound, bounded computations and random exact algorithm. Current arXiv histories, publisher article, author companion/errata and publication list used as additional discovery routes. No matching factor-two proof or counterexample located.",
+  "draft_page_path": "research/expansion-2026-09/drafts/asymmetric-tsp-integrality-gap.md",
+  "integration": {
+    "batch": "expansion-2026-09-17-03",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
+  }
 }

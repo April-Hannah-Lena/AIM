@@ -1,0 +1,1553 @@
+{
+  "candidate_id": "generic-static-output-feedback-stabilization",
+  "proposed_catalogue_id": "330",
+  "title": "Generic stabilization by static output feedback",
+  "aliases": [
+    "Byrnes–Anderson generic stabilizability",
+    "generic static output-feedback stabilisation",
+    "critical-dimension real output feedback"
+  ],
+  "primary_section": "inverse2",
+  "secondary_tags": [
+    "control",
+    "actuator and sensor limitations",
+    "real algebraic geometry"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit primary question, independent specialist restatement, live status and resolution-scope checks, mathematical duplicate review and separated A31 self-pass passed.",
+  "problem_fingerprint": {
+    "model_or_objects": "Real continuous-time LTI triples (A,B,C); constant real gain K; closed loop A+BKC",
+    "dimension": "A n×n, B n×m, C p×n, K m×p; n=mp",
+    "domain": "All real matrix triples with usual Euclidean topology",
+    "regularity_and_data_class": "Constant finite-dimensional real matrices without structural constraints",
+    "boundary_or_initial_conditions": "Strict Hurwitz spectrum ensures asymptotic stability for every initial state",
+    "parameter_range": "Positive integer m,p; all real gains allowed",
+    "quantifiers": "Classify m,p such that an open dense set of plants each admits some K; gain depends on plant",
+    "normalization": "n=mp; u=Ky sign convention",
+    "observable_or_norm": "Spectral real parts strictly negative",
+    "limit_regime_and_order": "Genericity over all triples for each pair; no random-plant law",
+    "requested_conclusion": "Exact dimension criterion for density of stabilizable triples",
+    "computational_model_and_dependencies": "Not a decidability problem; real-algebraic decision procedures already exist in principle"
+  },
+  "statement_source_and_scope_match": "E10 p. 2 Question; BA84 §2 Question 2 at critical n=mp; EG02 Euclidean generic convention. Inputs/outputs swapped relative to E10 notation only. Stabilizable locus is open. Algebraic genericity agrees here because the locus is semialgebraic; this equivalence is an inference from the polynomial Hurwitz formulation, not an additional conjecture.",
+  "proposed_statement_text": "For n=mp, determine all positive integer pairs (m,p) for which {(A,B,C): there is a real constant K with A+BKC Hurwitz} is dense in R^(n×n)×R^(n×m)×R^(p×n).",
+  "applied_significance": "Fundamental sufficiency of actuator/sensor counts for memoryless measured-output stabilization; no numerical linear algebra problem or universal robust design claim.",
+  "application_evidence_source_ids": [
+    "BA84",
+    "E10"
+  ],
+  "source_records": [
+    {
+      "source_id": "BA84",
+      "role": "formulation, status or resolution-scope comparison",
+      "authors": [
+        "Christopher I. Byrnes",
+        "Brian D. O. Anderson"
+      ],
+      "title": "Output feedback and generic stabilizability",
+      "venue_or_repository": "SIAM J. Control Optim. 22(3), 362–380",
+      "publication_type": "journal article; earlier manuscript read in February 1983 NASA CR-166441",
+      "publication_date": "1984-05",
+      "latest_version_date": null,
+      "identifier": "https://doi.org/10.1137/0322024",
+      "version": "Linked version accessed 2026-09-17",
+      "stable_url": "https://doi.org/10.1137/0322024",
+      "locator": "Earlier manuscript: report pp. 105–117, §2 Question 2 and Theorems 1–3; §4 pp. 132–136",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Publisher/ANU metadata; NASA report manuscript title, introduction, main statements and counterexample proof; scanned Question 2 page visually checked"
+      ],
+      "supported_claim": "Explicit dimension question; mp<n impossible, (2,2,4) open set of nonstabilizable systems; decision algebra in principle already applies.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Final journal full text not accessed. Manuscript is July 1981/revised September 1982; report pages differ from journal. OCR checked against scanned question page.",
+      "alternate_full_text_url": "https://ntrs.nasa.gov/api/citations/19830010078/downloads/19830010078.pdf"
+    },
+    {
+      "source_id": "E10",
+      "role": "formulation, status or resolution-scope comparison",
+      "authors": [
+        "Alexandre Eremenko"
+      ],
+      "title": "Stabilizability by static output feedback",
+      "venue_or_repository": "Author problem note",
+      "publication_type": "author problem note",
+      "publication_date": "2010-10-20",
+      "latest_version_date": null,
+      "identifier": "https://www.math.purdue.edu/~eremenko/dvi/gpolep.pdf",
+      "version": "Linked version accessed 2026-09-17",
+      "stable_url": "https://www.math.purdue.edu/~eremenko/dvi/gpolep.pdf",
+      "locator": "p. 2 Question; pp. 1–4 model and geometric equivalence",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "All five pages"
+      ],
+      "supported_claim": "Asks precisely which m,p give generic stabilization at n=mp.",
+      "independent_of_source_ids": [
+        "BA84"
+      ],
+      "access_limitations": "Scope review, not independent proof certification."
+    },
+    {
+      "source_id": "ELIST",
+      "role": "formulation, status or resolution-scope comparison",
+      "authors": [
+        "Alexandre Eremenko"
+      ],
+      "title": "My favorite unsolved problems",
+      "venue_or_repository": "Purdue author website",
+      "publication_type": "expert-maintained problem list",
+      "publication_date": null,
+      "latest_version_date": null,
+      "identifier": "https://www.math.purdue.edu/~eremenko/uns1.html",
+      "version": "Linked version accessed 2026-09-17",
+      "stable_url": "https://www.math.purdue.edu/~eremenko/uns1.html",
+      "locator": "Polynomial matrices (Control theory)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full page and linked stabilization note"
+      ],
+      "supported_claim": "Still lists generic static stabilization; other entries have 2026 updates.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Stabilization item undated; surrounding 2026 edits do not certify a 2026 item-specific review. Same author as E10/EG02."
+    },
+    {
+      "source_id": "EG02",
+      "role": "formulation, status or resolution-scope comparison",
+      "authors": [
+        "Alexandre Eremenko",
+        "Andrei Gabrielov"
+      ],
+      "title": "Pole placement by static output feedback for generic linear systems",
+      "venue_or_repository": "SIAM J. Control Optim. 41(1), 303–312",
+      "publication_type": "published article / linked author text as specified",
+      "publication_date": "2002-06-05",
+      "latest_version_date": null,
+      "identifier": "https://www.math.purdue.edu/~gabriea/feedback_siam.pdf",
+      "version": "Linked version accessed 2026-09-17",
+      "stable_url": "https://www.math.purdue.edu/~gabriea/feedback_siam.pdf",
+      "locator": "§1 Theorem A, Theorem 1.1, open stabilization question p. 306; §2 Propositions 2.1–2.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Introduction/model/topology and full main statements; counterexample construction and proposition mechanism; relevant portion of §3"
+      ],
+      "supported_claim": "Even-even generic nonsurjectivity of pole map does not establish absence of all stable spectra; stabilization separately open.",
+      "independent_of_source_ids": [
+        "BA84"
+      ],
+      "access_limitations": "Published p. 306 reports mixed-parity positivity while author preprint reports odd Schubert degree. Draft relies on shared odd-degree positive cases and does not assert a complete parity classification."
+    },
+    {
+      "source_id": "F14",
+      "role": "formulation, status or resolution-scope comparison",
+      "authors": [
+        "Matthias Franke"
+      ],
+      "title": "Eigenvalue assignment by static output feedback—on a new solvability condition and the computation of low gain feedback matrices",
+      "venue_or_repository": "International Journal of Control 87(1), 64–75",
+      "publication_type": "published article; author accepted manuscript",
+      "publication_date": "2014",
+      "latest_version_date": "2013-09-02",
+      "identifier": "10.1080/00207179.2013.822102",
+      "version": "Linked version accessed 2026-09-17",
+      "stable_url": "https://publica-rest.fraunhofer.de/server/api/core/bitstreams/ae917e07-970e-4d22-a0d5-f4842c9fbb08/content",
+      "locator": "§§1–2, Lemma 2.2, Theorem 2.3, Remark 5; §3 and §5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Introduction and §2 through Remark 5, including Lemma 2.2/Theorem 2.3 proofs; algorithm hypotheses, Example 3.1 and conclusion"
+      ],
+      "supported_claim": "Plant-specific density criterion for pole-map image, not a classification of generic dimension pairs.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Publisher full text returned 403; complete accepted manuscript read via Fraunhofer."
+    },
+    {
+      "source_id": "RV20",
+      "role": "formulation, status or resolution-scope comparison",
+      "authors": [
+        "Klaus Röbenack",
+        "Rick Voßwinkel"
+      ],
+      "title": "Eigenvalue Placement by Quantifier Elimination – the Static Output Feedback Problem",
+      "venue_or_repository": "Acta Cybernetica 24, 409–427",
+      "publication_type": "published article / linked author text as specified",
+      "publication_date": "2020",
+      "latest_version_date": null,
+      "identifier": "10.14232/actacyb.24.3.2020.8",
+      "version": "Linked version accessed 2026-09-17",
+      "stable_url": "https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/download/4054/3995",
+      "locator": "§§1–3, §4 Theorem 1, §5 Propositions 1–5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "§§1–3",
+        "QE theorem",
+        "propositions and examples distinguishing stabilization from pole placement",
+        "bibliography"
+      ],
+      "supported_claim": "Claimed solved pole-placement question cites F14; finite-system QE conditions do not classify all critical dimensions.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Scope review, not independent proof certification."
+    },
+    {
+      "source_id": "IK21",
+      "role": "formulation, status or resolution-scope comparison",
+      "authors": [
+        "Achim Ilchmann",
+        "Jonas Kirchhoff"
+      ],
+      "title": "Differential-algebraic systems are generically controllable and stabilizable",
+      "venue_or_repository": "Mathematics of Control, Signals, and Systems 33, 359–377",
+      "publication_type": "published article / linked author text as specified",
+      "publication_date": "2021-05-15",
+      "latest_version_date": null,
+      "identifier": "https://link.springer.com/article/10.1007/s00498-021-00287-x",
+      "version": "Linked version accessed 2026-09-17",
+      "stable_url": "https://link.springer.com/article/10.1007/s00498-021-00287-x",
+      "locator": "§1, Definition 1.1, Proposition 1.2; §3 Proposition 3.1 and Theorem 3.3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Model, genericity definitions, stabilization definitions, full Theorem 3.3 and proof"
+      ],
+      "supported_claim": "Existence of stabilizing input trajectories for descriptor systems, without fixed output C/static K constraint.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Scope review, not independent proof certification."
+    },
+    {
+      "source_id": "IKS25",
+      "role": "formulation, status or resolution-scope comparison",
+      "authors": [
+        "Achim Ilchmann",
+        "Jonas Kirchhoff",
+        "Manuel Schaller"
+      ],
+      "title": "Port-Hamiltonian descriptor systems are relative generically controllable and stabilizable",
+      "venue_or_repository": "Mathematics of Control, Signals, and Systems 37, 23–59",
+      "publication_type": "published article / linked author text as specified",
+      "publication_date": "2025",
+      "latest_version_date": "2024-06-24",
+      "identifier": "https://link.springer.com/article/10.1007/s00498-024-00392-7",
+      "version": "Linked version accessed 2026-09-17",
+      "stable_url": "https://link.springer.com/article/10.1007/s00498-024-00392-7",
+      "locator": "§2.1 model, Proposition 2.2; Theorem 5.1 and Corollary 5.2",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Model/behavioral definitions; full stabilization theorem and proof"
+      ],
+      "supported_claim": "Structured descriptor-system trajectory stabilizability has no prescribed measurement/static-feedback restriction.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Scope review, not independent proof certification."
+    },
+    {
+      "source_id": "S16",
+      "role": "formulation, status or resolution-scope comparison",
+      "authors": [
+        "Jan Sieber"
+      ],
+      "title": "Generic stabilizability for time-delayed feedback control",
+      "venue_or_repository": "Proceedings of the Royal Society A 472, 20150593",
+      "publication_type": "published article / linked author text as specified",
+      "publication_date": "2016",
+      "latest_version_date": null,
+      "identifier": "10.1098/rspa.2015.0593",
+      "version": "Linked version accessed 2026-09-17",
+      "stable_url": "https://arxiv.org/abs/1508.05671",
+      "locator": "§1 Theorem 1.1 and following remarks",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "arXiv abstract; PDF model, full Theorem 1.1 and following discussion; primary published metadata"
+      ],
+      "supported_claim": "Uses extended delay and periodic gains around a periodic orbit; not constant-gain LTI output feedback.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Scope review, not independent proof certification.",
+      "alternate_full_text_url": "https://arxiv.org/pdf/1508.05671"
+    },
+    {
+      "source_id": "BM25",
+      "role": "formulation, status or resolution-scope comparison",
+      "authors": [
+        "Abdulrahman H. Bajodah",
+        "Hassen Mibar"
+      ],
+      "title": "Static output feedback pole placement via parameter-dependent Ackermann and Greville matrix formulae",
+      "venue_or_repository": "ISA Transactions 167, Part B, 1660–1670",
+      "publication_type": "published article / linked author text as specified",
+      "publication_date": "2025",
+      "latest_version_date": null,
+      "identifier": "10.1016/j.isatra.2025.09.017",
+      "version": "Linked version accessed 2026-09-17",
+      "stable_url": "https://www.sciencedirect.com/science/article/abs/pii/S0019057825005221",
+      "locator": "Publisher-indexed introduction and SOFPP formulation",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "publisher_indexed_excerpt",
+      "sections_actually_read": [
+        "Publisher search-index text: formulation, overview of dimension restrictions, parameterized gain equation discussion"
+      ],
+      "supported_claim": "Describes nonlinear plant-dependent solvability constraints; no all-dimensions classification claim found in accessible material.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Direct publisher access repeatedly failed; no full theorem/proof review claimed. Not used as evidence that generic question is open."
+    },
+    {
+      "source_id": "IM23",
+      "role": "formulation, status or resolution-scope comparison",
+      "authors": [
+        "Adrian Ilka",
+        "Nikolce Murgovski"
+      ],
+      "title": "Novel Results on Output-Feedback LQR Design",
+      "venue_or_repository": "IEEE Transactions on Automatic Control 68(9), 5187–5200",
+      "publication_type": "published article / linked author text as specified",
+      "publication_date": "2023",
+      "latest_version_date": null,
+      "identifier": "10.1109/TAC.2022.3218560",
+      "version": "Linked version accessed 2026-09-17",
+      "stable_url": "https://research.chalmers.se/publication/533170/file/533170_Fulltext.pdf",
+      "locator": "Definitions 1–4; Theorem 1 and proof; §III.B Proposition 1, Theorem 2 and proof",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Institutional cover metadata; definitions and full Theorems 1–2 with intervening assumptions/proof"
+      ],
+      "supported_claim": "Riccati conditions and conditional convergence depend on given matrices and assumed existence; no generic critical dimension criterion.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Author manuscript defines stable by nonpositive real parts; not silently identified with draft's strict Hurwitz stability. Proof validity not certified."
+    },
+    {
+      "source_id": "MPT25",
+      "role": "formulation, status or resolution-scope comparison",
+      "authors": [
+        "Laura Menini",
+        "Corrado Possieri",
+        "Antonio Tornambè"
+      ],
+      "title": "Exact certificates for the solvability of stabilization problems through numerical algebraic geometry",
+      "venue_or_repository": "Automatica 182, 112523",
+      "publication_type": "published article / linked author text as specified",
+      "publication_date": "2025-12",
+      "latest_version_date": null,
+      "identifier": "https://doi.org/10.1016/j.automatica.2025.112523",
+      "version": "Linked version accessed 2026-09-17",
+      "stable_url": "https://doi.org/10.1016/j.automatica.2025.112523",
+      "locator": "Publisher-indexed introduction, benchmark discussion, Theorem 3 and proof excerpt",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "publisher_indexed_excerpt",
+      "sections_actually_read": [
+        "Publisher metadata and abstract; indexed introduction and bounded/unbounded parameter discussion; full displayed Theorem 3, proof opening"
+      ],
+      "supported_claim": "Exact certificates for parameters of a given polynomial; not a dimension classification.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Full-page tool open failed, and no downloadable author PDF located. Theorem 3 available in indexed text; full proof not read. No matching dimension-classification claim surfaced; not open-status evidence."
+    },
+    {
+      "source_id": "L26",
+      "role": "recent worst-case hardness claim",
+      "authors": [
+        "Johan Löfberg"
+      ],
+      "title": "Static output-feedback stabilization is NP-hard",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-09-15",
+      "latest_version_date": "2026-09-15",
+      "identifier": "arXiv:2609.16886v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/html/2609.16886v1",
+      "locator": "§1 Theorem 1.1 and §1.2 proof blueprint",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Title/metadata; full model and Theorem 1.1; proof blueprint"
+      ],
+      "supported_claim": "Hardness for specified SIMO integer plants of state dimension 6(m+n), with n outputs, using the source notation.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Fresh preprint; reduction proof not certified."
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S200-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"generic stabilizability\" \"open\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S200-4",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Byrnes\" \"Anderson\" \"stabilizability\" conjecture solved",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S201-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "site:math.purdue.edu/~eremenko \"stabilizability\" \"mp\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S201-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"generic\" \"static output feedback\" \"open problem\" 2025 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S201-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Byrnes\" \"Anderson\" \"conjecture\" \"stabilization\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S202-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"generic stabilizability\" \"static\" 2025 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S202-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"stabilizability\" \"n = mp\" -site:researchgate.net",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S202-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"generic stabilizability\" proof solved counterexample",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S202-4",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Eremenko\" \"stabilizability\" correction erratum",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S203-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"On generic stabilizability and pole assignability\" pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S203-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Output feedback and generic stabilizability\" pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S203-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"generic stabilizability\" \"unresolved\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S203-4",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"generic stabilizability\" \"remains\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S204-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Ravi\" \"Rosenthal\" \"Wang\" \"1994\" \"stabilizability\" pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S204-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"static output feedback\" \"generic\" \"classification\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S204-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"static output feedback\" \"critical case\" stabilizability",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S205-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Open problems in the area of pole placement\" pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S205-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"static output feedback\" \"stabilizability\" \"m=p=3\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S205-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"generic stabilization\" \"real\" \"open problem\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S206-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Eigenvalue assignment by static output feedback\" \"Franke\" \"2014\" pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S206-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Franke\" \"822102\" \"solvability\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S206-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"generic stabilizability\" 2024 2025 2026 solved -site:openalex.org",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S207-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Franke\" \"eigenvalue assignment\" filetype:pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S207-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Eigenvalue assignment\" \"Franke\" \"Theorem\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S207-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Franke\" \"statische Ausgangsrückführungen\" dissertation",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S208-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "site:publica.fraunhofer.de \"Eigenvalue assignment by static output feedback\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S208-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"822102\" filetype:pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S208-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Franke\" \"statische Ausgangsrückführungen\" pdf Dresden",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S209-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Franke\" \"Polzuweisung\" qucosa",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S209-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Franke\" \"low gain feedback matrices\" full text",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S209-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"static output feedback\" \"Franke\" \"necessary and sufficient\" \"condition\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S210-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Static output feedback pole placement via parameter-dependent Ackermann and Greville matrix formulae\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S210-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"generic stabilizability\" \"static\" solved 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S210-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"stabilizability\" \"n=mp\" Eremenko Gabrielov",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S211-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Exact certificates for the solvability of stabilization problems through numerical algebraic geometry\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S212-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Exact certificates for the solvability\" filetype:pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "S212-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Novel Results on Output-Feedback LQR Design\" Ilka authors",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "results_inspected": [
+        "BA84",
+        "E10",
+        "ELIST",
+        "EG02",
+        "F14",
+        "RV20",
+        "IK21",
+        "IKS25",
+        "S16",
+        "BM25",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Combined source review: explicit critical-dimension question and plant-specific/changed-controller results; no matching complete classification located.",
+      "limitations": "Results are combined group inspection, not a claim that every query returned every source. Full text access limits recorded per source."
+    },
+    {
+      "search_id": "A31-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"generic stabilizability\" \"static output feedback\" proof proved solved resolution counterexample disproof refutation",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "results_inspected": [
+        "EG02",
+        "ELIST",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Separate pass found LQR and exact-certificate papers; these use plant-specific conditions, not a generic dimension classification.",
+      "limitations": "IM23 theorem scopes read; MPT25 indexed excerpts only. No current complete classification claim located."
+    },
+    {
+      "search_id": "A31-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Byrnes\" \"Anderson\" \"stabilizability\" erratum correction withdrawn",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "results_inspected": [
+        "EG02",
+        "ELIST",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Separate pass found LQR and exact-certificate papers; these use plant-specific conditions, not a generic dimension classification.",
+      "limitations": "IM23 theorem scopes read; MPT25 indexed excerpts only. No current complete classification claim located."
+    },
+    {
+      "search_id": "A31-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Eremenko\" \"Gabrielov\" \"stabilizability\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "results_inspected": [
+        "EG02",
+        "ELIST",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Separate pass found LQR and exact-certificate papers; these use plant-specific conditions, not a generic dimension classification.",
+      "limitations": "IM23 theorem scopes read; MPT25 indexed excerpts only. No current complete classification claim located."
+    },
+    {
+      "search_id": "A31-4",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Franke\" \"stabilizability\" \"generic\" \"critical\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "results_inspected": [
+        "EG02",
+        "ELIST",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Separate pass found LQR and exact-certificate papers; these use plant-specific conditions, not a generic dimension classification.",
+      "limitations": "IM23 theorem scopes read; MPT25 indexed excerpts only. No current complete classification claim located."
+    },
+    {
+      "search_id": "A31-5",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"static output feedback\" \"m+p\" \"odd\" stabilizable",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "results_inspected": [
+        "EG02",
+        "ELIST",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Separate pass found LQR and exact-certificate papers; these use plant-specific conditions, not a generic dimension classification.",
+      "limitations": "IM23 theorem scopes read; MPT25 indexed excerpts only. No current complete classification claim located."
+    },
+    {
+      "search_id": "A31-6",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"generic stabilisability\" \"output\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "results_inspected": [
+        "EG02",
+        "ELIST",
+        "IM23",
+        "MPT25"
+      ],
+      "outcome": "Separate pass found LQR and exact-certificate papers; these use plant-specific conditions, not a generic dimension classification.",
+      "limitations": "IM23 theorem scopes read; MPT25 indexed excerpts only. No current complete classification claim located."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "BA84",
+      "theorem_locator": "§2 Theorems 1–3; §4",
+      "claim_type": "necessary condition / known negative case",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "n=mp; real constant gain; nondegenerate 2×2 degree-4 counterexample"
+      ],
+      "scope_relation": "partial case or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Only (2,2) negative case established here; generic all-pairs criterion remains unspecified.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "EG02",
+      "theorem_locator": "Theorem 1.1 and §2 Propositions 2.1–2.2",
+      "claim_type": "pole-placement obstruction",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Both m,p even; target polynomial in omitted projective neighborhood, not exclusion of every Hurwitz polynomial"
+      ],
+      "scope_relation": "partial case or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Failure to assign arbitrary poles does not imply impossibility of stabilization.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "F14",
+      "theorem_locator": "Lemma 2.2 and Theorem 2.3, Remark 5",
+      "claim_type": "necessary-and-sufficient pole-map condition",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Given controllable/observable plant G; closure of union of derivative images at degenerate feedbacks covers coefficient space"
+      ],
+      "scope_relation": "partial case or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The criterion requires the individual plant; does not identify all generic stabilizable dimensions. Rank-n+1 sufficient derivative test cannot apply at n=mp, m,p≥2.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "RV20",
+      "theorem_locator": "§3; §4 Theorem 1; §5 propositions",
+      "claim_type": "quantifier elimination",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Finite polynomial formulas for specified real systems"
+      ],
+      "scope_relation": "partial case or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "QE already decides finite-dimensional input instances; no uniform explicit dimension criterion follows from the reported examples.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "IK21",
+      "theorem_locator": "§3 Theorem 3.3",
+      "claim_type": "descriptor generic stabilizability",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Admissible input trajectories for (E,A,B), no output C/static gain restriction"
+      ],
+      "scope_relation": "partial case or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "General stabilizability changes admissible controls.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "IKS25",
+      "theorem_locator": "Proposition 2.2, Theorem 5.1",
+      "claim_type": "structured generic stabilizability",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Port-Hamiltonian descriptor behavior and arbitrary compatible inputs"
+      ],
+      "scope_relation": "partial case or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "A dimension criterion for this different model does not settle fixed measured-output feedback.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "S16",
+      "theorem_locator": "Theorem 1.1 and remarks",
+      "claim_type": "generic delayed stabilization",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Periodic orbit, extended delay, time-periodic impulse gains"
+      ],
+      "scope_relation": "partial case or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Controller contains memory/time variation, outside the question.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "IM23",
+      "theorem_locator": "Theorems 1–2 and proofs",
+      "claim_type": "LQR criterion and convergence",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Given plant; existence of F,G satisfying a Riccati condition is an assumption; manuscript permits nonpositive spectral real parts"
+      ],
+      "scope_relation": "partial case or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No all-dimension assertion; neither plant-specific solvability nor conditional convergence supplies generic classification.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "L26",
+      "theorem_locator": "Theorem 1.1",
+      "claim_type": "NP-hardness",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Individual integer SIMO plants; state dimension D=6(q+r) and r outputs; q,r positive."
+      ],
+      "scope_relation": "different conclusion and dimension regime",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Worst-case computational difficulty does not classify an open dense locus; these SIMO plants have D>r rather than D=r. No matching resolution claim.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": 141,
+        "distinction": "Nonlinear decentralized Gaussian two-controller cost optimum."
+      },
+      {
+        "id": 273,
+        "distinction": "Uncontrolled rational ODE hyperplane reachability, not feedback stabilization."
+      },
+      {
+        "id": 319,
+        "distinction": "One-parameter scalar plant with stable dynamic controller of unrestricted order, not all matrix triples under memoryless gains."
+      }
+    ],
+    "distinctness_reason": "Completed full baseline reading retained; fresh whole-repository keyword/metadata screen and full closest-page reread. No matching generic-dimension/static-controller assertion. Only remote main at cde9391; open PR search empty.",
+    "implications_or_equivalences": [
+      "One all-pairs critical-dimension classification, no separate counts for dimensions or deadbeat/geometric versions.",
+      "Full pole placement implies stabilization; nonassignability of some poles does not negate stabilization."
+    ]
+  },
+  "open_status_evidence_summary": "BA84 explicit unsolved dimension question; independent EG02 and E10 restatements; maintained expert list retains question. Later named apparent solutions do not match full scope.",
+  "independent_status_corroboration": "Eremenko/Gabrielov independent of original Byrnes/Anderson. E10, EG02 and ELIST overlap in authorship and are not counted as three independent groups. No dated 2026 item-specific status assertion found.",
+  "strongest_known_partial_results_and_gap": "n<mp generically pole assignable; critical min(m,p)=1 and odd Schubert degree positive; (2,2) negative. EG02 published discussion also reports mixed-parity positivity, while its earlier author text uses odd Schubert degree. No complete classification or remaining even-even stabilization result located; no uncertain parity inference used to narrow the question.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Original journal replaced by legally accessible earlier report manuscript; final pagination not transferred.",
+    "BM25 and MPT25 accessible only through primary publisher-indexed text; no complete proof assessment claimed and neither supplies a matching dimension-classification claim in accessible material.",
+    "Explicit dated status sources are older; currently maintained author item is undated.",
+    "Read theorem scopes and relevant proofs, not independent certification of every argument; indexing can lag."
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass; no independent agent or human review.",
+    "reviewer_or_pass_identifier": "A31",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A31-1",
+      "A31-2",
+      "A31-3",
+      "A31-4",
+      "A31-5",
+      "A31-6"
+    ],
+    "issues_found": [
+      "Individual-system characterization can be mistaken for generic dimension classification.",
+      "Open dense and proper-algebraic-exception generic conventions require care.",
+      "Pole-assignment counterexamples do not automatically obstruct all stable spectra.",
+      "Mixed-parity sentence differs across EG02 versions.",
+      "A31 found IM23/MPT25; draft needed newer scope/access accounting."
+    ],
+    "issues_resolved": [
+      "Question explicitly requests all integer pairs, not a decision algorithm.",
+      "Used ordinary topology from EG02 and noted semialgebraic equivalence in ledger.",
+      "Preserved strict Hurwitz requirement and explained gap.",
+      "Relied on shared positive cases; made no complete parity claim.",
+      "Read IM23 full theorem hypotheses/proofs; recorded MPT25 exact access limits and individual-parameter scope."
+    ],
+    "verdict": "pass"
+  },
+  "prepublication_refresh": {
+    "date": "2026-09-17",
+    "latest_target_commit": "cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R3-10",
+      "R3-20",
+      "R3-24"
+    ],
+    "outcome": "Added full September 15 Löfberg Theorem 1.1 scope comparison. Individual SIMO NP-hardness with D>number of outputs is not the generic critical-dimension classification. Other alleged solutions checked in A31; no matching criterion located.",
+    "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
+    "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
+  },
+  "public_page_path": "problems/330-generic-static-output-feedback-stabilization.md",
+  "validation_results": [
+    {
+      "checked_on": "2026-09-17",
+      "check": "Batch 3 catalogue, preservation and research-record integrity",
+      "result": "Pass: 330 active entries; original 300 and prior 320 pages and metadata unchanged; 35 investigated, 30 accepted/integrated, five holds; 956 unique search IDs; source/search references and local links resolve."
+    },
+    {
+      "checked_on": "2026-09-17",
+      "check": "Batch 3 typesetting and bibliography access",
+      "result": "Pass: all 201 mathematics expressions strictly rendered across ten new pages; all ten statement/application screenshots visually inspected. 87 of 92 URLs loaded; five HTTP 403 restrictions retained in batch-03-link-check.json. No independent proof certification claimed."
+    }
+  ],
+  "remote_publication": {
+    "state": "active_catalogue_publication_pending",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_page_path": "research/expansion-2026-09/drafts/generic-static-output-feedback-stabilization.md",
+  "integration": {
+    "batch": "expansion-2026-09-17-03",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
+  }
+}

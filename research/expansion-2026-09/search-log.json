@@ -7054,5 +7054,597 @@
     "query": "\"Rank Dependent Branching-Selection Particle Systems\" genealogy theorem",
     "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
     "review_stage": "Separated adversarial self-pass for fixed-size Brownian genealogy"
+  },
+  {
+    "search_id": "S199-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "phylogenetic network sunlet quadratic invariants conjecture 2026 proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Phylogenetic sunlet and generic static-feedback discovery; source scopes recorded in discovery queue"
+  },
+  {
+    "search_id": "S199-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"phylogenetic\" \"open problems\" \"identifiability\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Phylogenetic sunlet and generic static-feedback discovery; source scopes recorded in discovery queue"
+  },
+  {
+    "search_id": "S199-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"control theory\" \"open problems\" \"conjecture\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Phylogenetic sunlet and generic static-feedback discovery; source scopes recorded in discovery queue"
+  },
+  {
+    "search_id": "S199-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"static output feedback\" \"conjecture\" decidability",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Phylogenetic sunlet and generic static-feedback discovery; source scopes recorded in discovery queue"
+  },
+  {
+    "search_id": "S200-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"sunlet\" \"quadratics\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Phylogenetic sunlet and generic static-feedback discovery; source scopes recorded in discovery queue"
+  },
+  {
+    "search_id": "S200-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"sunlet\" \"quadratic\" \"conjecture\" -site:theoremdb.org",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Phylogenetic sunlet and generic static-feedback discovery; source scopes recorded in discovery queue"
+  },
+  {
+    "search_id": "S200-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"generic stabilizability\" \"open\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Phylogenetic sunlet and generic static-feedback discovery; source scopes recorded in discovery queue"
+  },
+  {
+    "search_id": "S200-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Byrnes\" \"Anderson\" \"stabilizability\" conjecture solved",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Phylogenetic sunlet and generic static-feedback discovery; source scopes recorded in discovery queue"
+  },
+  {
+    "search_id": "S201-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "site:math.purdue.edu/~eremenko \"stabilizability\" \"mp\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Phylogenetic sunlet and generic static-feedback discovery; source scopes recorded in discovery queue"
+  },
+  {
+    "search_id": "S201-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"generic\" \"static output feedback\" \"open problem\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Phylogenetic sunlet and generic static-feedback discovery; source scopes recorded in discovery queue"
+  },
+  {
+    "search_id": "S201-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Byrnes\" \"Anderson\" \"conjecture\" \"stabilization\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Phylogenetic sunlet and generic static-feedback discovery; source scopes recorded in discovery queue"
+  },
+  {
+    "search_id": "S201-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"sunlet\" \"quadratics\" conjecture independent invariants 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Phylogenetic sunlet and generic static-feedback discovery; source scopes recorded in discovery queue"
+  },
+  {
+    "search_id": "S202-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"generic stabilizability\" \"static\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S202-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"stabilizability\" \"n = mp\" -site:researchgate.net",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S202-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"generic stabilizability\" proof solved counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S202-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Eremenko\" \"stabilizability\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S203-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"On generic stabilizability and pole assignability\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S203-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Output feedback and generic stabilizability\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S203-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"generic stabilizability\" \"unresolved\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S203-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"generic stabilizability\" \"remains\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S204-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Ravi\" \"Rosenthal\" \"Wang\" \"1994\" \"stabilizability\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S204-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"static output feedback\" \"generic\" \"classification\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S204-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"static output feedback\" \"critical case\" stabilizability",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S205-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Open problems in the area of pole placement\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S205-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"static output feedback\" \"stabilizability\" \"m=p=3\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S205-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"generic stabilization\" \"real\" \"open problem\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S206-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Eigenvalue assignment by static output feedback\" \"Franke\" \"2014\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S206-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Franke\" \"822102\" \"solvability\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S206-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"generic stabilizability\" 2024 2025 2026 solved -site:openalex.org",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S207-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Franke\" \"eigenvalue assignment\" filetype:pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S207-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Eigenvalue assignment\" \"Franke\" \"Theorem\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S207-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Franke\" \"statische Ausgangsrückführungen\" dissertation",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S208-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "site:publica.fraunhofer.de \"Eigenvalue assignment by static output feedback\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S208-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"822102\" filetype:pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S208-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Franke\" \"statische Ausgangsrückführungen\" pdf Dresden",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S209-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Franke\" \"Polzuweisung\" qucosa",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S209-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Franke\" \"low gain feedback matrices\" full text",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S209-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"static output feedback\" \"Franke\" \"necessary and sufficient\" \"condition\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S210-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Static output feedback pole placement via parameter-dependent Ackermann and Greville matrix formulae\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S210-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"generic stabilizability\" \"static\" solved 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "S210-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"stabilizability\" \"n=mp\" Eremenko Gabrielov",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Generic static output-feedback stabilization formulation and resolution audit"
+  },
+  {
+    "search_id": "A31-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"generic stabilizability\" \"static output feedback\" proof proved solved resolution counterexample disproof refutation",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial self-pass for generic static output feedback"
+  },
+  {
+    "search_id": "A31-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Byrnes\" \"Anderson\" \"stabilizability\" erratum correction withdrawn",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial self-pass for generic static output feedback"
+  },
+  {
+    "search_id": "A31-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Eremenko\" \"Gabrielov\" \"stabilizability\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial self-pass for generic static output feedback"
+  },
+  {
+    "search_id": "A31-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Franke\" \"stabilizability\" \"generic\" \"critical\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial self-pass for generic static output feedback"
+  },
+  {
+    "search_id": "A31-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"static output feedback\" \"m+p\" \"odd\" stabilizable",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial self-pass for generic static output feedback"
+  },
+  {
+    "search_id": "A31-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"generic stabilisability\" \"output\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separate adversarial self-pass for generic static output feedback"
+  },
+  {
+    "search_id": "S211-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Exact certificates for the solvability of stabilization problems through numerical algebraic geometry\"",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "A31 follow-up scope and metadata checks"
+  },
+  {
+    "search_id": "S212-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Exact certificates for the solvability\" filetype:pdf",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "A31 follow-up scope and metadata checks"
+  },
+  {
+    "search_id": "S212-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Novel Results on Output-Feedback LQR Design\" Ilka authors",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "A31 follow-up scope and metadata checks"
+  },
+  {
+    "search_id": "R3-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"polynomial identity testing\" deterministic general circuits solved 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"polynomial Hirsch\" proof counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"asymmetric TSP\" \"integrality gap\" \"2\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"EFX\" \"additive\" \"existence\" proof 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"Cayley\" \"weak survival\" proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"online bin packing\" optimal asymptotic ratio 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-7",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Skolem problem\" decidability solved 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-8",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian\" \"U-conjecture\" unlinking solved 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-9",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"N-BBM\" genealogy Bolthausen Sznitman proof 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-10",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"generic stabilizability\" \"static output feedback\" solved 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-11",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"polynomial identity testing\" Shpilka Tal Guo correction 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-12",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"polynomial Hirsch\" \"Black\" \"Xue\" \"Natura\" correction",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-13",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Vygen\" \"asymmetric\" \"2026\" \"integrality\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-14",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"EFX\" \"complete\" \"additive\" September 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-15",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"contact process\" \"nonamenable\" \"critical values\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-16",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"online bin packing\" \"1.542\" \"1.578\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-17",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Skolem\" \"Bacik\" \"Dong\" \"Shafrir\" September 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-18",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Lan\" \"Ouimet\" \"Sun\" \"unlinking\" correction",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-19",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Legrand\" \"Maillard\" \"genealogy\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-20",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"generic stabilization\" \"memoryless\" \"critical dimension\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-21",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian polynomial\" \"unlinking\" proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-22",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"U-conjecture\" Gaussian 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-23",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"N-BBM\" \"genealogy\" \"Legrand\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "R3-24",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Static output-feedback stabilization is NP-hard\"",
+    "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
+    "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
   }
 ]

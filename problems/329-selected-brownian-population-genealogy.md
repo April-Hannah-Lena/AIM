@@ -1,8 +1,8 @@
-# Bolthausen–Sznitman ancestry for a fixed-size selected population
+# 329. Bolthausen–Sznitman ancestry for a fixed-size selected population
 
 **Area:** Population genetics and stochastic selection
 
-**Status:** Accepted; integrated as entry 329
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -45,7 +45,7 @@ Particle position represents inherited fitness, Brownian motion models changes i
 
 ## Status review
 
-The 2026-09-17 check covered the Brunet–Derrida and Bolthausen–Sznitman aliases, fixed-size branching selection, recent proofs and counterexamples, author listings, and manuscript histories. The [evidence record](../candidates/selected-brownian-population-genealogy.json) documents the scope comparisons and separate self-review.
+The 2026-09-17 check covered the Brunet–Derrida and Bolthausen–Sznitman aliases, fixed-size branching selection, recent proofs and counterexamples, author listings, and manuscript histories. The [evidence record](../research/expansion-2026-09/candidates/selected-brownian-population-genealogy.json) documents the scope comparisons and separate self-review.
 
 The April 2026 Legrand–Maillard manuscript still presents the genealogy limit as an expected extension of displacement results. Its current title and version supersede the older author-hosted PDF found during searching.
 
@@ -55,4 +55,4 @@ Berestycki–Berestycki–Schweinsberg prove the coalescent limit for absorption
 
 This is one genealogy problem. The discrete branching-random-walk analogue, other mutation laws, pairwise moments and alternative normalizations are not counted as separate additions. Existing entries on spatial competition and exclusion concern different observables and mechanisms.
 
-Integrated as [entry 329](../../../problems/329-selected-brownian-population-genealogy.md) after the September 17, 2026 batch refresh.
+Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration. Review was a separated adversarial self-pass; no independent agent or human review is claimed.

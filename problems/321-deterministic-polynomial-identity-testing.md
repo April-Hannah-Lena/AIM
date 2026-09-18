@@ -1,8 +1,8 @@
-# Deterministic identity testing for arithmetic circuits
+# 321. Deterministic identity testing for arithmetic circuits
 
 **Area:** Symbolic computation and derandomization
 
-**Status:** Accepted; integrated as entry 321
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -45,6 +45,6 @@ Kaplan–Shpilka's Theorem 3 gives polynomial-time white-box testing for formula
 
 Andrews–Kush–Tell assume uniform arithmetic hardness that their paper does not establish. Their arithmetic-network conclusions must also be distinguished from the explicit rational bit-cost formulation here. The polynomial-time result for commutative nonassociative algebras retains bracketings of products and does not test equality in the associative ring used here. Noncommutative rational identity testing likewise concerns a different algebra.
 
-White-box PIT, stronger black-box hitting-set constructions, and the associated factorization equivalence are treated as one problem family for this expansion. The [evidence ledger](../candidates/deterministic-polynomial-identity-testing.json) records exact theorem scopes, source access, aliases and duplicate comparisons. The separated A22 adversarial self-pass passed on September 17, 2026; no independent agent or human review occurred.
+White-box PIT, stronger black-box hitting-set constructions, and the associated factorization equivalence are treated as one problem family for this expansion. The [evidence ledger](../research/expansion-2026-09/candidates/deterministic-polynomial-identity-testing.json) records exact theorem scopes, source access, aliases and duplicate comparisons. The separated A22 adversarial self-pass passed on September 17, 2026; no independent agent or human review occurred.
 
-Integrated as [entry 321](../../../problems/321-deterministic-polynomial-identity-testing.md) after the September 17, 2026 batch refresh.
+Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration. Review was a separated adversarial self-pass; no independent agent or human review is claimed.

@@ -222,5 +222,21 @@
     "file": "problems/318-linear-sample-compression.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "322",
+    "title": "Polynomial bounds for the graph diameter of polytopes",
+    "area": "Convex geometry and linear optimization",
+    "file": "problems/322-polynomial-hirsch.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
+  },
+  {
+    "id": "328",
+    "title": "Orthogonal separation of independent Gaussian polynomial statistics",
+    "area": "Probability and mathematical statistics",
+    "file": "problems/328-gaussian-polynomial-unlinking.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

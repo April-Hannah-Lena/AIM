@@ -1,16 +1,16 @@
 # September 2026 expansion research
 
-The active catalogue contains 320 entries: the original 300 and twenty accepted additions. Both ten-entry batches (301–310 and 311–320) are published directly on `main`. Nine further candidates—deterministic polynomial identity testing, the polynomial Hirsch conjecture, the asymmetric TSP integrality gap, complete additive-goods EFX, nonamenable contact-process weak survival, optimal online bin-packing ratio, discrete Skolem decidability, Gaussian polynomial unlinking and fixed-size Brownian population genealogy—have passed research review and await a later batch refresh and integration. The requested expansion remains 200–300 new problems, with a working target of 250: 171 more acceptances and 180 more catalogue integrations are needed to reach the minimum.
+The local active catalogue contains 330 entries: the original 300 and thirty accepted additions. Batches 1–2 (301–320) are published directly on main. Batch 3 (321–330) has passed local validation and awaits its authorized direct push. The requested expansion remains 200–300 new problems, with a working target of 250: 170 further additions are needed for the minimum and 220 for the working target.
 
-- [Progress and reading coverage](progress.json): authoritative counts, publication state and next actions.
-- [Baseline inventory](baseline-inventory.json): all 300 original statements, metadata and page hashes at `a602073d986b7f5ce57b1aa0db1687d1bd87761d`.
+- [Progress and reading coverage](progress.json): counts, publication state and next actions.
+- [Baseline inventory](baseline-inventory.json): all original statements and metadata at a602073d986b7f5ce57b1aa0db1687d1bd87761d.
 - [Candidate evidence](candidates/), [actual search log](search-log.json), [source map](source-map.md), [exclusions](exclusions.md) and [discovery queue](discovery-queue.md).
-- [Batch 1 audit](batch-01-review.md) and [batch 2 audit](batch-02-review.md).
+- [Batch 1 audit](batch-01-review.md), [batch 2 audit](batch-02-review.md) and [batch 3 audit](batch-03-review.md).
 
-The original 300 pages and historical review dates are preserved. Permanent numerical IDs are assigned centrally after admission. Research drafts and evidence records are not additional catalogue entries. Each accepted problem has a separated adversarial self-pass; no independent agent or human review is claimed.
+The original 300 pages and historical review dates are preserved. Permanent IDs are assigned centrally after admission. Research drafts and evidence records are not additional catalogue entries. Review consists of source research followed by a separated adversarial self-pass; no independent agent or human review is claimed.
 
-The twenty additions cover all twelve primary sections. Batch 2 adds competitive population-map regularity, exact three-processor scheduling, entanglement-assisted zero-error capacity, fixed-disorder quantum diffusion, reversible reaction–diffusion continuation, splay-tree optimality, noisy-parity hardness, sample compression, the Belgian chocolate control threshold and Ruskai–Audenaert channel decomposition. The ten handoff seeds have all been investigated; substantial discovery beyond them remains necessary.
+The thirty additions cover all twelve primary sections. Batch 3 adds symbolic identity testing, polytope diameter, asymmetric routing certificates, fair division, spatial epidemic persistence, online capacity allocation, exact discrete reachability, independence of Gaussian statistics, population ancestry and static-feedback capability. No further numerical-linear-algebra problems were added.
 
-Thirty-four candidates have investigation records: twenty-nine accepted and five held. Morrey’s planar implication, Yang–Mills existence/mass gap, Gaussian multiple-access feedback and polynomial-time graph isomorphism have unresolved matching claims; FIFO queue feedback has a formulation/evidence hold. Held candidates have no active IDs. Discovery-only leads are not counted as investigated records.
+Thirty-five candidates have investigation records: thirty accepted and five held. Morrey, Yang–Mills, Gaussian multiple-access feedback and graph isomorphism have unresolved matching claims; FIFO queue feedback has a formulation/evidence hold. These have no active IDs. Discovery-only leads are not counted as investigated records.
 
-The user explicitly authorized repository uploads and direct pushes to `main`. No PR is required. The latest upstream and open-PR checks are recorded in the batch audit and individual refresh records.
+The user authorized repository uploads and direct pushes to main. No PR is required. Current upstream and open-PR checks are recorded in the batch audit and individual refresh records.

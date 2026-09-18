@@ -1,8 +1,8 @@
-# Optimal asymptotic competitiveness for online bin packing
+# 326. Optimal asymptotic competitiveness for online bin packing
 
 **Area:** Online optimization and resource allocation
 
-**Status:** Accepted; integrated as entry 326
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -50,8 +50,8 @@ The 2025 Gehnen–Usdenski introduction reports the same unresolved classical lo
 
 Several nearby results require care. The optimal absolute ratio $5/3$ does not determine $R_*$. Ayyadevara–Dabas–Khan–Sreenivas, ICALP 2022, Theorem 1 and Corollary 2, give near-optimal expected guarantees for independent identically distributed inputs. Gehnen–Usdenski's $3/2$ guarantee requires advance estimates of every item. Fekete and coauthors evaluate the best of several parallel packings, rather than one irrevocable packing. Chen–Ye–Zhang's competitive scheme approaches an optimal ratio in its finite integer-size model without determining the exact unrestricted constant. The resolved cardinality-constrained problem imposes an additional item-count limit per bin. These statements do not close the classical gap.
 
-Searches on September 17, 2026 covered asymptotic/absolute performance, classic online packing, current bounds, original and later authors, proof and counterexample claims, corrections and withdrawals, 2025–2026 and unrestricted dates. Full scope comparisons, independent corroboration and access limits are recorded in the [candidate ledger](../candidates/online-bin-packing-optimal-ratio.json). The dated review is not a certificate that no unindexed result exists.
+Searches on September 17, 2026 covered asymptotic/absolute performance, classic online packing, current bounds, original and later authors, proof and counterexample claims, corrections and withdrawals, 2025–2026 and unrestricted dates. Full scope comparisons, independent corroboration and access limits are recorded in the [candidate ledger](../research/expansion-2026-09/candidates/online-bin-packing-optimal-ratio.json). The dated review is not a certificate that no unindexed result exists.
 
-The [mobile-server problem](../../../problems/286-deterministic-k-server.md) concerns movement cost for a fixed number of servers; this question minimizes the number of fixed-capacity bins. Unrelated-machine and precedence scheduling likewise have different objectives and input models. This is one canonical competitive-ratio question, without separate entries for algorithms, size classes or numerical improvements.
+The [mobile-server problem](286-deterministic-k-server.md) concerns movement cost for a fixed number of servers; this question minimizes the number of fixed-capacity bins. Unrelated-machine and precedence scheduling likewise have different objectives and input models. This is one canonical competitive-ratio question, without separate entries for algorithms, size classes or numerical improvements.
 
-Integrated as [entry 326](../../../problems/326-online-bin-packing-optimal-ratio.md) after the September 17, 2026 batch refresh.
+Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration. Review was a separated adversarial self-pass; no independent agent or human review is claimed.

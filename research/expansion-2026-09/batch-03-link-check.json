@@ -1,0 +1,1170 @@
+{
+  "checked_on": "2026-09-17",
+  "method": "HTTP HEAD following redirects, with GET fallback for non-2xx responses and HTTP/1.1 GET fallback for transport errors; bibliographic identity and source contents checked separately in candidate ledgers.",
+  "results": [
+    {
+      "url": "https://alea.impa.br/articles/v14/14-07.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://aps.ecnu.edu.cn/cn/article/pdf/preview/10.3969/j.issn.1001-4268.2022.01.011.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "403",
+          "exit_code": 0,
+          "error": null
+        },
+        {
+          "method": "GET",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/1001.2337",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/1304.0562",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/1402.3579",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/1707.01728",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/1807.05554",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/1911.03330",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2102.12424",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2301.07762",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.04917",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2407.05792",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.09321",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.27353",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.27603",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.18349",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2602.20832v1",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.15510",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.03127",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2609.16392",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/abs/math/0507578",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/1006.2814v3",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/1401.0976v1",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/1503.02154v1",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2308.02946v15",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2311.00202v3",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2406.12413v3",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2410.13580v3",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2509.11349v1",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2510.05429v1",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2602.06958v2",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2602.11732v2",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2603.14334v1",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2605.06451v1",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2606.08872v2",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2606.18665v1",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2607.11628v1",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2607.18186v1",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2608.08590v1",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2608.10397v2",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2609.06282v1",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2609.08647v1",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2609.16886v1",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/pdf/2505.09976v3",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/download/4054/3995",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://doi.org/10.1007/s00453-021-00818-7",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://doi.org/10.1007/s00454-018-0016-y",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://doi.org/10.1016/j.anihpb.2004.05.005",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://doi.org/10.1016/j.automatica.2025.112523",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://doi.org/10.1016/j.isatra.2025.09.017",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jfa.2015.10.013",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://doi.org/10.1016/j.spa.2026.104975",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://doi.org/10.1080/00207179.2013.822102",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "403",
+          "exit_code": 0,
+          "error": null
+        },
+        {
+          "method": "GET",
+          "http_status": "403",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": false
+    },
+    {
+      "url": "https://doi.org/10.1137/0322024",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "403",
+          "exit_code": 0,
+          "error": null
+        },
+        {
+          "method": "GET",
+          "http_status": "403",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": false
+    },
+    {
+      "url": "https://doi.org/10.1137/1.9781611978971.191",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "403",
+          "exit_code": 0,
+          "error": null
+        },
+        {
+          "method": "GET",
+          "http_status": "403",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": false
+    },
+    {
+      "url": "https://doi.org/10.1214/22-EJP806",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 92,
+          "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)\n"
+        },
+        {
+          "method": "GET HTTP/1.1",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://doi.org/10.1214/24-EJP1222",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 92,
+          "error": "curl: (92) HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)\n"
+        },
+        {
+          "method": "GET HTTP/1.1",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://doi.org/10.1561/0400000039",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "403",
+          "exit_code": 0,
+          "error": null
+        },
+        {
+          "method": "GET",
+          "http_status": "403",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": false
+    },
+    {
+      "url": "https://doi.org/10.3969/j.issn.1001-4268.2022.01.011",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://doi.org/10.4007/annals.2012.176.1.7",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://doi.org/10.4230/LIPIcs.ESA.2018.5",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://doi.org/10.4230/LIPIcs.WADS.2025.26",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CCC.2026.25",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2014/001/",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2025/042/",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2026/029/download",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2026/168/",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://eprints.gla.ac.uk/123283/1/123283.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://galton.uchicago.edu/~lalley/Talks/kyoto.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://ieee-focs.org/FOCS-2025-Papers/pdfs/FOCS2025-4pLZMZRP5BPG9n0GSua5T9/713200a531/713200a531.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://iuuk.mff.cuni.cz/~sgall/ps/below.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s11590-026-02312-x",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://ntrs.nasa.gov/api/citations/19830010078/downloads/19830010078.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://people.mpi-sws.org/~joel/publications/skolem-complexity25.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://people.mpi-sws.org/~joel/publications/skolem_and_positivity_survey26.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://people.orie.cornell.edu/~miketodd/diampolynn.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://publica-rest.fraunhofer.de/server/api/core/bitstreams/ae917e07-970e-4d22-a0d5-f4842c9fbb08/content",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://rdlyons.pages.iu.edu/pdf/review.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://real.mtak.hu/80732/1/jXaio4T11ygd57.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://research.chalmers.se/publication/533170/file/533170_Fulltext.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "405",
+          "exit_code": 0,
+          "error": null
+        },
+        {
+          "method": "GET",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://staff.utia.cas.cz/swart/problems/locsharp.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://www.cs.tau.ac.il/~shpilka/publications/SY10.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://www.math.purdue.edu/~eremenko/dvi/gpolep.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://www.math.purdue.edu/~eremenko/uns1.html",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://www.math.purdue.edu/~gabriea/feedback_siam.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://www.math.toronto.edu/ssaraf/PITfactoring.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://www.numdam.org/article/AIHPB_2005__41_4_753_0.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "405",
+          "exit_code": 0,
+          "error": null
+        },
+        {
+          "method": "GET",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://www.or.uni-bonn.de/tspbook/book.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://www.or.uni-bonn.de/tspbook/tsp_book.html",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://www.researchgate.net/publication/410720385_A_proof_of_the_strong_Gaussian_product_inequality_conjecture",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "403",
+          "exit_code": 0,
+          "error": null
+        },
+        {
+          "method": "GET",
+          "http_status": "403",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": false
+    },
+    {
+      "url": "https://www.stat.berkeley.edu/~aldous/206-Exch/Papers/berestycki.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    },
+    {
+      "url": "https://www.stats.ox.ac.uk/~berestyc/Articles/EBP18_v2.pdf",
+      "attempts": [
+        {
+          "method": "HEAD",
+          "http_status": "200",
+          "exit_code": 0,
+          "error": null
+        }
+      ],
+      "success": true
+    }
+  ]
+}

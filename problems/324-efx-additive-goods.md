@@ -1,8 +1,8 @@
-# Complete EFX allocation of indivisible goods with additive values
+# 324. Complete EFX allocation of indivisible goods with additive values
 
 **Area:** Fair division and resource allocation
 
-**Status:** Accepted; integrated as entry 324
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -25,7 +25,7 @@ Thus any envy disappears after the hypothetical removal of any single good from 
 
 ## Applied significance
 
-When allocating indivisible assets, equipment or donated items, exact envy-freeness can fail even with two recipients and one desired object. EFX asks whether a strong relaxation is always feasible when each recipient's values add across items. A positive answer would justify this fairness requirement for every instance of the additive model; a counterexample would identify a limit that no allocation method can overcome. The question concerns comparisons between recipients' bundles, whereas [entry 290](../../../problems/290-general-santa-claus.md) asks for an efficient approximation to the largest possible minimum utility.
+When allocating indivisible assets, equipment or donated items, exact envy-freeness can fail even with two recipients and one desired object. EFX asks whether a strong relaxation is always feasible when each recipient's values add across items. A positive answer would justify this fairness requirement for every instance of the additive model; a counterexample would identify a limit that no allocation method can overcome. The question concerns comparisons between recipients' bundles, whereas [entry 290](290-general-santa-claus.md) asks for an efficient approximation to the largest possible minimum utility.
 
 ## References
 
@@ -44,6 +44,6 @@ Open in cited literature; no later resolution located as of 2026-09-17. Exact ex
 
 The 2026 [submodular counterexamples](https://arxiv.org/html/2605.06451v1) use nonadditive values. The additive-chore counterexample removes an item from the comparing agent's own bundle and reverses the preference inequality, so it does not establish impossibility for goods. Recent [positive results for multigraph valuations](https://arxiv.org/html/2606.18665v1) limit each good's positive values to its endpoints. The simultaneous [epistemic EFX and EFL guarantee](https://arxiv.org/html/2602.11732v2) uses, for its epistemic condition, a potentially different rearrangement of the remaining goods for each agent. It does not ensure EFX of the single actual allocation. The September PMMS counterexample concerns a stronger fairness condition; the EFX-or-MMS counterexamples require nonadditive values or an additional efficiency condition. These results, partial allocations and successful local-search experiments leave the unrestricted complete additive-goods question unresolved.
 
-The [evidence ledger](../candidates/efx-additive-goods.json) records full theorem comparisons, current versions, duplicate screening and access limits. The separated A25 adversarial self-pass passed on 2026-09-17; no independent agent or human review is claimed.
+The [evidence ledger](../research/expansion-2026-09/candidates/efx-additive-goods.json) records full theorem comparisons, current versions, duplicate screening and access limits. The separated A25 adversarial self-pass passed on 2026-09-17; no independent agent or human review is claimed.
 
-Integrated as [entry 324](../../../problems/324-efx-additive-goods.md) after the September 17, 2026 batch refresh.
+Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration. Review was a separated adversarial self-pass; no independent agent or human review is claimed.

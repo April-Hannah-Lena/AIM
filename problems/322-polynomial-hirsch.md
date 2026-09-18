@@ -1,8 +1,8 @@
-# Polynomial bounds for the graph diameter of polytopes
+# 322. Polynomial bounds for the graph diameter of polytopes
 
 **Area:** Convex geometry and linear optimization
 
-**Status:** Accepted; integrated as entry 322
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -26,7 +26,7 @@ The same constants must work for all dimensions and all facet counts. There are 
 
 ## Applied significance
 
-A bounded feasible region in linear programming is a polytope, and nondegenerate simplex pivots move between its vertices along edges. Its graph diameter therefore gives a geometric lower bound on the worst-case number of pivots needed when the starting vertex and objective vary. A superpolynomial diameter family would obstruct every uniformly polynomial pivot bound. A polynomial diameter bound would remove that obstruction, while leaving the additional tasks of choosing objective-improving steps and computing them efficiently. These extra algorithmic requirements are the subject of existing [entry 100](../../../problems/100-strongly-polynomial-simplex.md); the present question concerns the geometry of the feasible region.
+A bounded feasible region in linear programming is a polytope, and nondegenerate simplex pivots move between its vertices along edges. Its graph diameter therefore gives a geometric lower bound on the worst-case number of pivots needed when the starting vertex and objective vary. A superpolynomial diameter family would obstruct every uniformly polynomial pivot bound. A polynomial diameter bound would remove that obstruction, while leaving the additional tasks of choosing objective-improving steps and computing them efficiently. These extra algorithmic requirements are the subject of existing [entry 100](100-strongly-polynomial-simplex.md); the present question concerns the geometry of the feasible region.
 
 ## References
 
@@ -44,6 +44,6 @@ Open in cited literature; no later resolution located as of 2026-09-17. The inde
 
 Black–Xue's Theorem 1.1 concerns coherent monotone paths, a restricted class obtained by varying a linear objective along an affine line in objective space. Its exponential lower bound does not apply to all undirected edge paths. Natura's Theorem 1.1 bounds circuit walks, whose steps can pass through the interior and finish at nonvertices. Such walks are not paths in $G(P)$. Black's September 2026 Theorem 1.1 imposes objective monotonicity, while Theorem 1.2 concerns unbounded polyhedra and does not control facet count. Neither gives a counterexample to the statement here. Wulf's hardness theorem concerns deciding the diameter of an input polytope; it does not provide a family with superpolynomial diameter.
 
-The [evidence ledger](../candidates/polynomial-hirsch.json) records source versions, theorem comparisons, duplicate checks and the separate adversarial review. The separated A23 adversarial self-pass passed on September 17, 2026. No independent agent or human review is claimed.
+The [evidence ledger](../research/expansion-2026-09/candidates/polynomial-hirsch.json) records source versions, theorem comparisons, duplicate checks and the separate adversarial review. The separated A23 adversarial self-pass passed on September 17, 2026. No independent agent or human review is claimed.
 
-Integrated as [entry 322](../../../problems/322-polynomial-hirsch.md) after the September 17, 2026 batch refresh.
+Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration. Review was a separated adversarial self-pass; no independent agent or human review is claimed.

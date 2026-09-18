@@ -1,8 +1,8 @@
-# Decidability of zeros in integer linear recurrences
+# 327. Decidability of zeros in integer linear recurrences
 
 **Area:** Discrete dynamics and formal verification
 
-**Status:** Accepted; integrated as entry 327
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -47,10 +47,10 @@ Unconditional decidability is known through order four; Bacik–Ouaknine–Worre
 
 Luca–Ouaknine–Worrell obtain general decidability assuming a strengthened Cramér-type prime-gap conjecture. Their unconditional density-one result still leaves an exceptional set of possible zero indices. Dong–Shafrir's theorem requires positive characteristic, whereas the integers have characteristic zero. Bacik–Varonka decide specified relations between inherent orbit dimension and target dimension; these do not include arbitrary hyperplanes. Bacik's September counterexample concerns a prime-power strengthening of a local-global principle and is not an undecidability proof for the displayed problem.
 
-The September 17 search covered the problem's name, recurrence-zero and orbit formulations, recent and unrestricted dates, principal authors, resolution and counterexample claims, corrections and version histories. A title advertising a resolution for generalized Lucas sequences fixes a special recurrence family. A preliminary toric-certificate note explicitly requires certificates that it cannot produce for all inputs. Neither supplies a general decision procedure; the [candidate ledger](../candidates/discrete-skolem-decidability.json) records the theorem comparisons and access limits. This literature review does not certify the nonexistence of an unindexed result.
+The September 17 search covered the problem's name, recurrence-zero and orbit formulations, recent and unrestricted dates, principal authors, resolution and counterexample claims, corrections and version histories. A title advertising a resolution for generalized Lucas sequences fixes a special recurrence family. A preliminary toric-certificate note explicitly requires certificates that it cannot produce for all inputs. Neither supplies a general decision procedure; the [candidate ledger](../research/expansion-2026-09/candidates/discrete-skolem-decidability.json) records the theorem comparisons and access limits. This literature review does not certify the nonexistence of an unindexed result.
 
-The existing [continuous Skolem entry](../../../problems/273-continuous-skolem-decidability.md) asks about $c^Te^{tA}x_0=0$ at a real time $t\ge0$. Here the evolution is by integer powers at integer times. The sources treat them as separate decision problems. No separate entries are counted for particular orders, restricted root patterns or the equivalent discrete hyperplane formulation.
+The existing [continuous Skolem entry](273-continuous-skolem-decidability.md) asks about $c^Te^{tA}x_0=0$ at a real time $t\ge0$. Here the evolution is by integer powers at integer times. The sources treat them as separate decision problems. No separate entries are counted for particular orders, restricted root patterns or the equivalent discrete hyperplane formulation.
 
 The separated A28 adversarial self-pass passed on September 17, 2026.
 
-Integrated as [entry 327](../../../problems/327-discrete-skolem-decidability.md) after the September 17, 2026 batch refresh.
+Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration. Review was a separated adversarial self-pass; no independent agent or human review is claimed.

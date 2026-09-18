@@ -1,6 +1,6 @@
 {
   "candidate_id": "online-bin-packing-optimal-ratio",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "326",
   "title": "Optimal asymptotic competitiveness for online bin packing",
   "aliases": [
     "Optimal deterministic online bin-packing ratio",
@@ -715,25 +715,41 @@
     "verdict": "pass"
   },
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "Research draft accepted; refresh before later active integration."
+    "date": "2026-09-17",
+    "latest_target_commit": "cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R3-6",
+      "R3-16"
+    ],
+    "outcome": "No exact unrestricted asymptotic constant located. Absolute 5/3, cardinality constraints, bounded-space and iid results use different objectives/models. Current interval retained.",
+    "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
+    "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": null,
+  "public_page_path": "problems/326-online-bin-packing-optimal-ratio.md",
   "draft_page_path": "research/expansion-2026-09/drafts/online-bin-packing-optimal-ratio.md",
   "validation_results": [
     "2026-09-17: candidate JSON parsed; source IDs and actual search IDs resolve.",
     "2026-09-17: required headings and local draft links checked.",
     "2026-09-17: all 16 math expressions rendered with strict KaTeX, zero errors; statement screenshot visually inspected.",
     "2026-09-17: python3 scripts/catalogue.py --write and --check passed at 320 active entries; git diff --check passed.",
-    "2026-09-17: 31 candidate records, 26 accepted and coverage counts reconciled."
+    "2026-09-17: 31 candidate records, 26 accepted and coverage counts reconciled.",
+    {
+      "checked_on": "2026-09-17",
+      "check": "Batch 3 catalogue, preservation and research-record integrity",
+      "result": "Pass: 330 active entries; original 300 and prior 320 pages and metadata unchanged; 35 investigated, 30 accepted/integrated, five holds; 956 unique search IDs; source/search references and local links resolve."
+    },
+    {
+      "checked_on": "2026-09-17",
+      "check": "Batch 3 typesetting and bibliography access",
+      "result": "Pass: all 201 mathematics expressions strictly rendered across ten new pages; all ten statement/application screenshots visually inspected. 87 of 92 URLs loaded; five HTTP 403 restrictions retained in batch-03-link-check.json. No independent proof certification claimed."
+    }
   ],
   "remote_publication": {
-    "state": "not_published",
+    "state": "active_catalogue_publication_pending",
     "repository": "MColbrook/AIM",
-    "branch": null,
+    "branch": "main",
     "commit": null,
     "pull_request_url": null
   },
@@ -744,5 +760,11 @@
     "commit": "9a8fe52396d798124641ca73eba91011cc333b5d",
     "verified_on": "2026-09-17",
     "verification": "SSH ls-remote equals local HEAD after push; draft and ledger only, no active catalogue ID."
+  },
+  "integration": {
+    "batch": "expansion-2026-09-17-03",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
   }
 }

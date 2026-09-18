@@ -1,8 +1,8 @@
-# Orthogonal separation of independent Gaussian polynomial statistics
+# 328. Orthogonal separation of independent Gaussian polynomial statistics
 
 **Area:** Probability and mathematical statistics
 
-**Status:** Accepted; integrated as entry 328
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -45,8 +45,8 @@ Malicet–Nourdin–Peccati–Poly prove unlinking for their class of finite sum
 
 The September 17, 2026 searches covered the name, unlinking and independence formulations, authors, unrestricted dates, 2025–2026, proofs, counterexamples, corrections and withdrawals. Two recent neighboring claims were checked at statement level. Ouimet–Greaves' [strong Gaussian product-inequality manuscript](https://www.researchgate.net/publication/410720385_A_proof_of_the_strong_Gaussian_product_inequality_conjecture), Theorem 2.1, concerns products of absolute powers of jointly Gaussian coordinates. Long's [Gaussian-moments counterexample](https://arxiv.org/html/2607.18186v1), Theorem 5.1, uses complex polynomials and vanishing moments, without an independent pair of real polynomial statistics. Neither statement supplies the conclusion or a counterexample required here. This scope comparison does not certify those proofs.
 
-Lan–Ouimet–Sun's August 2026 revision also retains the U-conjecture. It shares an author with the Wishart paper, so these two works are not counted as separate independent teams. The historical monograph was accessed through explicit scholarly restatements. No matching general resolution was located; indexing and access limitations remain. The [evidence ledger](../candidates/gaussian-polynomial-unlinking.json) records the searches and theorem comparisons. Existing entries [269](../../../problems/269-most-informative-boolean-function.md) and [305](../../../problems/305-gaussian-simplex.md) optimize noisy information or partition agreement; neither asks for structural separation of independent polynomial statistics. No separate entries are counted for special dimensions or polynomial classes.
+Lan–Ouimet–Sun's August 2026 revision also retains the U-conjecture. It shares an author with the Wishart paper, so these two works are not counted as separate independent teams. The historical monograph was accessed through explicit scholarly restatements. No matching general resolution was located; indexing and access limitations remain. The [evidence ledger](../research/expansion-2026-09/candidates/gaussian-polynomial-unlinking.json) records the searches and theorem comparisons. Existing entries [269](269-most-informative-boolean-function.md) and [305](305-gaussian-simplex.md) optimize noisy information or partition agreement; neither asks for structural separation of independent polynomial statistics. No separate entries are counted for special dimensions or polynomial classes.
 
 The separated A29 adversarial self-pass passed on September 17, 2026.
 
-Integrated as [entry 328](../../../problems/328-gaussian-polynomial-unlinking.md) after the September 17, 2026 batch refresh.
+Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration. Review was a separated adversarial self-pass; no independent agent or human review is claimed.

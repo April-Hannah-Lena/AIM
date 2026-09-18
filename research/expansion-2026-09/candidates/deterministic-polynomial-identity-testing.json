@@ -1,6 +1,6 @@
 {
   "candidate_id": "deterministic-polynomial-identity-testing",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "321",
   "title": "Deterministic identity testing for arithmetic circuits",
   "aliases": [
     "PIT derandomization",
@@ -378,6 +378,32 @@
       "independent_of_source_ids": [],
       "access_limitations": null,
       "version_history_checked": "ECCC posted March 8, 2026; current page inspected; no revision listed."
+    },
+    {
+      "source_id": "KS26",
+      "role": "restricted PIT result and current general-status statement",
+      "authors": [
+        "Nimrod Kaplan",
+        "Amir Shpilka"
+      ],
+      "title": "Polynomial Identity Testing for Read-4 Arithmetic Formulas",
+      "venue_or_repository": "CCC 2026, LIPIcs 383, 25:1–25:18",
+      "publication_type": "published conference paper",
+      "publication_date": "2026-07-23",
+      "latest_version_date": null,
+      "identifier": "10.4230/LIPIcs.CCC.2026.25",
+      "version": "Published proceedings",
+      "stable_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CCC.2026.25",
+      "locator": "§1 and §1.1, Theorems 2–3",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Publisher metadata, introduction/model and full Theorems 2–3"
+      ],
+      "supported_claim": "Polynomial-time white-box algorithm assumes a read-4 formula; general PIT remains open in introduction.",
+      "independent_of_source_ids": [],
+      "access_limitations": "No complete proof certification; shares Shpilka with other sources."
     }
   ],
   "search_log": [
@@ -557,6 +583,19 @@
       "indirect_resolution_considered": true,
       "assessment_and_remaining_gap": "Does not supply the general circuit factorization required to invoke KSS14.",
       "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "KS26",
+      "theorem_locator": "§1.1 Theorem 3",
+      "claim_type": "restricted polynomial-time PIT",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Formula tree, each variable occurs at most four times; field characteristic zero or at least five."
+      ],
+      "scope_relation": "strictly restricted model",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Arbitrary circuits can reuse gates and variables without a read bound; no polynomial-size reduction to the restricted class supplied.",
+      "material_unresolved_conflict": false
     }
   ],
   "duplicate_review": {
@@ -630,25 +669,48 @@
     "verdict": "pass_for_research_draft"
   },
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "Not yet performed for active-catalogue integration; required before a later batch."
+    "date": "2026-09-17",
+    "latest_target_commit": "cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R3-1",
+      "R3-11"
+    ],
+    "outcome": "No matching general algorithm located. Added full Kaplan–Shpilka CCC 2026 Theorem 3 comparison: read-4 formula restriction; arbitrary shared-gate circuits are outside scope. Other conditional/depth restrictions retain the gaps already recorded.",
+    "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
+    "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": null,
+  "public_page_path": "problems/321-deterministic-polynomial-identity-testing.md",
   "draft_path": "research/expansion-2026-09/drafts/deterministic-polynomial-identity-testing.md",
   "validation_results": [
     "Candidate schema, source references, decision counts and 613 distinct actual-query IDs validated.",
     "All 14 draft math expressions rendered with KaTeX without errors.",
     "python3 scripts/catalogue.py --check passed: 320 active entries; draft not integrated.",
-    "git diff --check passed before commit."
+    "git diff --check passed before commit.",
+    {
+      "checked_on": "2026-09-17",
+      "check": "Batch 3 catalogue, preservation and research-record integrity",
+      "result": "Pass: 330 active entries; original 300 and prior 320 pages and metadata unchanged; 35 investigated, 30 accepted/integrated, five holds; 956 unique search IDs; source/search references and local links resolve."
+    },
+    {
+      "checked_on": "2026-09-17",
+      "check": "Batch 3 typesetting and bibliography access",
+      "result": "Pass: all 201 mathematics expressions strictly rendered across ten new pages; all ten statement/application screenshots visually inspected. 87 of 92 URLs loaded; five HTTP 403 restrictions retained in batch-03-link-check.json. No independent proof certification claimed."
+    }
   ],
   "remote_publication": {
-    "state": "research_record_only; no active catalogue publication",
+    "state": "active_catalogue_publication_pending",
     "repository": "MColbrook/AIM",
     "branch": "main",
     "commit": null,
     "pull_request_url": null
+  },
+  "draft_page_path": "research/expansion-2026-09/drafts/deterministic-polynomial-identity-testing.md",
+  "integration": {
+    "batch": "expansion-2026-09-17-03",
+    "date": "2026-09-17",
+    "state": "local_worktree",
+    "numerical_ids_assigned_centrally": true
   }
 }

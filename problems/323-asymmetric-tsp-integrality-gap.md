@@ -1,8 +1,8 @@
-# The factor-two integrality gap for asymmetric metric routing
+# 323. The factor-two integrality gap for asymmetric metric routing
 
 **Area:** Operations research and directed routing
 
-**Status:** Accepted; integrated as entry 323
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-17
 
@@ -36,7 +36,7 @@ This is the asymmetric traveling-salesman subtour integrality-gap conjecture. Kn
 
 ## Applied significance
 
-Directed routing models allow travel costs to depend on direction, as with one-way roads and direction-dependent journey times. Shortest-path costs in a strongly connected nonnegative road network satisfy the directed triangle inequality. The subtour LP provides a lower bound on the optimal tour cost. Determining its worst-case gap would identify the accuracy of this certificate and a target for rounding fractional routing solutions. The directed model differs from the symmetric metric model in [entry 285](../../../problems/285-metric-tsp-four-thirds.md).
+Directed routing models allow travel costs to depend on direction, as with one-way roads and direction-dependent journey times. Shortest-path costs in a strongly connected nonnegative road network satisfy the directed triangle inequality. The subtour LP provides a lower bound on the optimal tour cost. Determining its worst-case gap would identify the accuracy of this certificate and a target for rounding fractional routing solutions. The directed model differs from the symmetric metric model in [entry 285](285-metric-tsp-four-thirds.md).
 
 ## References
 
@@ -51,6 +51,6 @@ Open in cited literature; no later resolution located as of 2026-09-17. Vygen's 
 
 Sosso–Bernardelli–Gualandi examine half-integer extreme points with at most twelve vertices, leaving arbitrary sizes and fractional solutions unresolved. Bell–Frieze's exact algorithm applies with high probability to independent random arc costs satisfying distributional hypotheses; it supplies no worst-case factor-two bound for all directed metrics. A symmetric four-thirds bound would likewise leave the asymmetric assertion open.
 
-The [evidence ledger](../candidates/asymmetric-tsp-integrality-gap.json) records source versions, scope comparisons and duplicate checks. The separate A24 adversarial self-pass passed on September 17, 2026; no independent agent or human review is claimed.
+The [evidence ledger](../research/expansion-2026-09/candidates/asymmetric-tsp-integrality-gap.json) records source versions, scope comparisons and duplicate checks. The separate A24 adversarial self-pass passed on September 17, 2026; no independent agent or human review is claimed.
 
-Integrated as [entry 323](../../../problems/323-asymmetric-tsp-integrality-gap.md) after the September 17, 2026 batch refresh.
+Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration. Review was a separated adversarial self-pass; no independent agent or human review is claimed.

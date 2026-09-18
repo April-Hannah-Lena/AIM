@@ -214,5 +214,29 @@
     "file": "problems/312-three-processor-unit-scheduling.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "323",
+    "title": "The factor-two integrality gap for asymmetric metric routing",
+    "area": "Operations research and directed routing",
+    "file": "problems/323-asymmetric-tsp-integrality-gap.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
+  },
+  {
+    "id": "324",
+    "title": "Complete EFX allocation of indivisible goods with additive values",
+    "area": "Fair division and resource allocation",
+    "file": "problems/324-efx-additive-goods.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
+  },
+  {
+    "id": "326",
+    "title": "Optimal asymptotic competitiveness for online bin packing",
+    "area": "Online optimization and resource allocation",
+    "file": "problems/326-online-bin-packing-optimal-ratio.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-17"
   }
 ]

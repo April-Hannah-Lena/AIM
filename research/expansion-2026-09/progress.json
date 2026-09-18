@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 29,
-  "active_total": 320,
-  "candidates_investigated": 34,
+  "new_accepted": 30,
+  "active_total": 330,
+  "candidates_investigated": 35,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 171,
-  "remaining_to_target": 221,
+  "remaining_to_minimum": 170,
+  "remaining_to_target": 220,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -114,37 +114,39 @@
     {
       "commit": "728d83a3f212bcb08c18834275444b8dbc974186",
       "purpose": "Record unlinking research publication and population discovery; remote main verified after direct push."
+    },
+    {
+      "commit": "cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64",
+      "purpose": "Record reviewed fixed-size Brownian genealogy draft; pushed directly to main and independently verified."
     }
   ],
-  "remote_state": "Remote main independently verified at 861b9dda10045de2cd0179b1426a966468749881 via SSH ls-remote after the Gaussian unlinking research push on September 17, 2026. It contains all 28 accepted research records, including 20 active additions through entry 320. Direct pushes remain authorized; no PR required.",
+  "remote_state": "Remote main independently verified at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64 after direct push on September 17, 2026. It contains 29 accepted research records, including 20 active additions through entry 320. Direct pushes remain authorized; no PR required.",
   "next_actions": [
-    "Accumulate the next reviewed batch from nine accepted drafts, including fixed-size Brownian genealogy; refresh resolution status and upstream duplicates before assigning IDs.",
-    "Continue biology/statistics discovery beyond the accepted Brownian genealogy problem; rebellious voter still lacks independent corroboration. Heat-flow complete monotonicity has a matching counterexample claim.",
-    "Continue broader discovery toward at least 200 new problems, integrating and pushing further reviewed batches directly to main.",
-    "All ten handoff seeds investigated: eight accepted drafts, Morrey and Yang–Mills held on matching unadjudicated claims.",
-    "Discover candidates across all twelve sections, with deliberate biology, statistics, information, control, operations-research and stochastic-network coverage.",
-    "Refresh resolution searches and upstream duplicate checks before each later batch; assign permanent IDs centrally after acceptance."
+    "Directly push validated batch 3 (321–330), then independently verify remote main.",
+    "Continue source discovery across all twelve sections toward at least 200 new problems; biology, statistics, control and operations research remain deliberate priorities.",
+    "CFN sunlet projective quadratic-generation lead requires independent corroboration and exact saturation-scope review; statistical affine-patch and dimension questions already have substantial solutions.",
+    "Keep matching unresolved claims and inadequately supported leads outside the catalogue; refresh each later publication batch."
   ],
   "coverage": {
-    "spectral": 1,
+    "inverse3": 4,
+    "spectral2": 1,
+    "applied": 5,
+    "inverse2": 2,
     "operators": 3,
     "inverse": 2,
-    "applied": 5,
-    "spectral2": 1,
-    "inverse2": 1,
-    "continuum2": 1,
     "stochastic2": 3,
+    "stochastic3": 5,
+    "spectral": 1,
     "spectral3": 2,
     "continuum3": 1,
-    "inverse3": 4,
-    "stochastic3": 5
+    "continuum2": 1
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
-  "new_integrated": 20,
-  "count_semantics": "Twenty accepted additions are integrated and published on main; nine further accepted research drafts await batch refresh and integration. Active total remains 320. Held records do not count. Remaining-to-minimum/target fields measure further acceptances.",
+  "new_integrated": 30,
+  "count_semantics": "Thirty accepted additions are integrated: twenty published and ten in validated local batch 3 awaiting direct push. Active total 330; held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 20,
-  "coverage_semantics": "Accepted additions by primary section, including accepted drafts awaiting integration.",
-  "remaining_integrations_to_minimum": 180,
-  "remaining_integrations_to_target": 230
+  "coverage_semantics": "Accepted additions by primary section; all thirty currently integrated.",
+  "remaining_integrations_to_minimum": 170,
+  "remaining_integrations_to_target": 220
 }
