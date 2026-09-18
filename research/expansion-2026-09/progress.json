@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 37,
+  "new_accepted": 38,
   "active_total": 330,
-  "candidates_investigated": 42,
+  "candidates_investigated": 43,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 163,
-  "remaining_to_target": 213,
+  "remaining_to_minimum": 162,
+  "remaining_to_target": 212,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -150,12 +150,16 @@
     {
       "commit": "adf1f4041684ea2fd7179a522852f6e45c7f19ba",
       "purpose": "Record reviewed strong prefix-discrepancy draft; pushed directly to main and independently reverified September 18, 2026."
+    },
+    {
+      "commit": "acfc09e5f5ff35f5dab62ae8c8de8af83c0c7d6b",
+      "purpose": "Record reviewed uniform DNF-learning draft; pushed directly to main and independently reverified September 18, 2026."
     }
   ],
-  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit adf1f4041684ea2fd7179a522852f6e45c7f19ba includes six accepted pending drafts and was independently reverified September 18, 2026. A seventh accepted draft, classical uniform DNF learning, is prepared for the next direct research push. No PR required.",
+  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit acfc09e5f5ff35f5dab62ae8c8de8af83c0c7d6b includes seven accepted pending drafts and was independently reverified September 18, 2026. An eighth accepted draft, Aaronson–Ambainis influence, is prepared for the next direct research push. No PR required.",
   "next_actions": [
     "Continue discovery toward at least 200 new problems, deliberately broadening biology, statistics, control and operations research.",
-    "Accumulate the next reviewable batch; seven drafts are accepted: rendezvous, trace reconstruction, generalized Wright attraction, strong thin trees, chemotaxis-consumption continuation, strong prefix discrepancy and classical uniform DNF learning. Refresh status and upstream duplicates before integration.",
+    "Accumulate the next reviewable batch; eight drafts are accepted: rendezvous, trace reconstruction, generalized Wright attraction, strong thin trees, chemotaxis-consumption continuation, strong prefix discrepancy, classical uniform DNF learning and Aaronson–Ambainis influence. Two more are needed for a ten-entry batch. Refresh status and upstream duplicates before integration.",
     "CFN sunlet projective quadratic-generation lead needs independent corroboration and saturation-scope review.",
     "Keep matching unresolved claims outside new additions; separately follow up historical entries 031, 032 and 286.",
     "Broaden discovery in biology, statistics, control and operations research; retain private-learning and CFN sunlet leads outside the count until their formulation and corroboration gates pass."
@@ -166,7 +170,7 @@
     "applied": 6,
     "stochastic3": 7,
     "inverse2": 2,
-    "operators": 4,
+    "operators": 5,
     "inverse": 3,
     "stochastic2": 3,
     "spectral": 1,
@@ -176,11 +180,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 30,
-  "count_semantics": "Thirty additions are integrated and published directly on main. Seven accepted research drafts await batch 4; active total 330. Five held records excluded.",
+  "count_semantics": "Thirty additions are integrated and published directly on main. Eight accepted research drafts await batch 4; active total 330. Five held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 30,
-  "coverage_semantics": "Accepted additions by primary section; thirty integrated and seven pending research drafts.",
+  "coverage_semantics": "Accepted additions by primary section; thirty integrated and eight pending research drafts.",
   "remaining_integrations_to_minimum": 170,
   "remaining_integrations_to_target": 220,
-  "pending_accepted": 7
+  "pending_accepted": 8
 }

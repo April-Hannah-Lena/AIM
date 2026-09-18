@@ -196,3 +196,9 @@ The uniform examples-only lead passed source review and the separated A38 advers
 A38 found Alman–Nadimpalli–Patel–Servedio’s July 2025 exact-learning improvement, arXiv:2507.20336v1. Full Theorem 1 and its oracle definitions were read: membership and equivalence queries remain, as does nonpolynomial dependence on unrestricted term count. An efficient fixed-term result and a positive-only/no-false-positives lower bound likewise do not resolve the entry.
 
 Counts: 37 accepted, 30 integrated, seven pending accepted drafts, 42 investigated, five held; active catalogue 330. Three more accepted drafts are needed for a ten-entry batch. The research checkpoint is eligible for the user-authorized direct push; catalogue publication still requires the batch refresh.
+
+## Boolean influence and quantum queries (S266–S269, A39; 2026-09-18)
+
+The Aaronson–Ambainis influence conjecture passed research review and the separated A39 self-pass. The [accepted draft record](candidates/aaronson-ambainis-influence.json) uses scalar boundedness and defines the uniform-cube squared influence, with affine normalization checked against the original published conjecture. Current independently authored sources retain the conjecture. Ten primary works and eleven scope comparisons distinguish partial theorems from a general resolution. The 2019 matching proof claim was withdrawn by its authors; a 2026 random-restriction title is not a proof for unrestricted polynomials. A39 found the ITCS 2026 switching lemma and checked its full restriction quantifiers. No AI-generated summary is used as scholarly evidence.
+
+Counts: 38 accepted, 30 integrated, eight pending accepted drafts, 43 investigated, five held; active catalogue 330. Two more accepted drafts are needed for the next ten-entry integration batch. Next discovery should return to biology, statistics or control.

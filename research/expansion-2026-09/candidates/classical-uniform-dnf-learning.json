@@ -869,9 +869,11 @@
     "outcome": "Required immediately before active-catalogue batch integration. Research check completed September 18; ls-remote confirms only main at adf1f4041684ea2fd7179a522852f6e45c7f19ba."
   },
   "research_publication": {
-    "state": "local_pending_push",
+    "state": "published",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null
+    "commit": "acfc09e5f5ff35f5dab62ae8c8de8af83c0c7d6b",
+    "independently_verified_on": "2026-09-18",
+    "verification": "git ls-remote --heads origin main matched acfc09e before the following research push."
   }
 }

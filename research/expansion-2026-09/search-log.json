@@ -9533,5 +9533,157 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "S266-1",
+    "query": "\"Aaronson Ambainis conjecture\" 2026 proof",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Quantum query and Boolean influence discovery"
+  },
+  {
+    "search_id": "S266-2",
+    "query": "\"Aaronson Ambainis conjecture\" solved counterexample",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Quantum query and Boolean influence discovery"
+  },
+  {
+    "search_id": "S266-3",
+    "query": "\"Aaronson Ambainis\" \"influence\" \"2025\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Quantum query and Boolean influence discovery"
+  },
+  {
+    "search_id": "S266-4",
+    "query": "\"bounded polynomials\" \"influential variable\" conjecture",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Quantum query and Boolean influence discovery"
+  },
+  {
+    "search_id": "S267-1",
+    "query": "\"Aaronson-Ambainis\" Keller Klein withdrawn Lemma 5.3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "AA withdrawal and resolution search"
+  },
+  {
+    "search_id": "S267-2",
+    "query": "\"Aaronson Ambainis conjecture\" proved proof solved resolution counterexample disproof refutation",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "AA withdrawal and resolution search"
+  },
+  {
+    "search_id": "S267-3",
+    "query": "\"Aaronson-Ambainis\" 2025 2026 erratum correction",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "AA withdrawal and resolution search"
+  },
+  {
+    "search_id": "S267-4",
+    "query": "\"influential variable\" \"bounded\" polynomial 2024 2025 proof",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "AA withdrawal and resolution search"
+  },
+  {
+    "search_id": "S268-1",
+    "query": "site:arxiv.org \"Quantum Speedups Need Structure\" Keller Klein",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "AA primary version and recent resolution discovery"
+  },
+  {
+    "search_id": "S268-2",
+    "query": "\"2608.04411\" \"Aaronson\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "AA primary version and recent resolution discovery"
+  },
+  {
+    "search_id": "S268-3",
+    "query": "\"Aaronson-Ambainis\" \"2026\" proof influence -site:emergentmind.com -site:mathdb.co -site:qiqc-op.com",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "AA primary version and recent resolution discovery"
+  },
+  {
+    "search_id": "S269-1",
+    "query": "\"bounded low-degree polynomials\" influence proof 2025",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "AA mathematical wording, authors and prior/current-year searches"
+  },
+  {
+    "search_id": "S269-2",
+    "query": "\"Aaronson Ambainis\" influence counterexample 2024",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "AA mathematical wording, authors and prior/current-year searches"
+  },
+  {
+    "search_id": "S269-3",
+    "query": "\"Scott Aaronson\" \"Andris Ambainis\" influential variables resolution",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "AA mathematical wording, authors and prior/current-year searches"
+  },
+  {
+    "search_id": "S269-4",
+    "query": "\"Aaronson-Ambainis\" \"2026\" correction erratum withdrawal",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "AA mathematical wording, authors and prior/current-year searches"
+  },
+  {
+    "search_id": "A39-1",
+    "query": "\"Aaronson-Ambainis\" conjecture \"proof\" September 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A39-2",
+    "query": "\"bounded polynomials\" \"influential variables\" counterexample",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A39-3",
+    "query": "\"Aaronson Ambainis\" \"random restrictions\" implies conjecture",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A39-4",
+    "query": "\"Aaronson-Ambainis\" \"completely bounded\" scalar norm reduction",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
   }
 ]

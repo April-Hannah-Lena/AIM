@@ -1,0 +1,660 @@
+{
+  "candidate_id": "aaronson-ambainis-influence",
+  "proposed_catalogue_id": null,
+  "title": "Aaronson–Ambainis influential-variable conjecture",
+  "aliases": [
+    "AA conjecture",
+    "Bounded polynomials have influential variables",
+    "bounded low-degree polynomial influence conjecture"
+  ],
+  "primary_section": "operators",
+  "secondary_tags": [
+    "quantum query complexity",
+    "Boolean Fourier analysis",
+    "classical simulation"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit full formulation; disjoint current specialist corroboration; withdrawn matching claim resolved by authors notice; relevant partial theorems compared; distinctness and A39 self-pass passed.",
+  "problem_fingerprint": {
+    "objects": "A real multilinear polynomial p on the Boolean cube {-1,1}^n, with its unique Walsh–Fourier expansion.",
+    "quantifiers": "Do there exist absolute constants c,C>0 such that for every n,d>=1 and every such p of degree at most d with |p(x)|<=1 at every cube vertex, max_i Inf_i(p)>=c(Var(p)/d)^C?",
+    "domain_and_measure": "Finite Boolean cube, uniform probability measure; n and d are arbitrary positive integers.",
+    "normalization": "Scalar supremum over Boolean vertices at most one. No completely bounded, Fourier completely bounded, or matrix-input norm restriction.",
+    "observable": "Var(p)=E[(p(X)-E p(X))^2]; Inf_i(p)=E[((p(X)-p(X^(i)))/2)^2]=sum_{S containing i} hat p(S)^2. X^(i) flips coordinate i.",
+    "degree": "The maximum cardinality of a nonzero Fourier support set is at most d; nonhomogeneous polynomials allowed.",
+    "conclusion": "A dimension-free polynomial lower bound for at least one coordinate influence; constants independent of n,d,p.",
+    "limits_and_success": "No asymptotic order of limits, probability over polynomials, algorithm for finding i, or computational-time bound is part of the statement. Constant polynomials satisfy the inequality trivially.",
+    "source_normalization_conversion": "AA14 Conjecture 1.7 uses q:{0,1}^n->[0,1] and unhalved squared differences. With q(y)=(p(2y-1)+1)/2, Var(q)=Var(p)/4 and their Inf_i(q) equals the influence defined here. These fixed factors are absorbed in c. EGSP26 Conjecture 1.2 directly uses the present normalization.",
+    "equivalence_and_scope": "A polynomial lower bound in Var(p) and 1/d can be written c(Var(p)/d)^C because 0<=Var(p)<=1 and d>=1. Boolean-valued, homogeneous, block-multilinear, random-restriction, and completely bounded cases are not the full scalar-bounded assertion. The conjecture implies the almost-everywhere classical simulation conjecture; no converse is asserted.",
+    "excluded_neighbor_targets": "No separate count for L1 influence reformulations, the simulation consequence, fixed-degree subcases, or quantum noncommutative analogues. No numerical linear algebra."
+  },
+  "fingerprint_recorded_on": "2026-09-18",
+  "fingerprint_recorded_before_draft": true,
+  "statement_source_and_scope_match": [
+    {
+      "source_id": "AA14",
+      "locator": "§1.2, Conjecture 1.7 and Theorem 1.8, printed p.139; §1.3 on L1/L2 conventions",
+      "read": "Full conjecture, theorem, surrounding scope and convention discussion"
+    },
+    {
+      "source_id": "EGSP26",
+      "locator": "§1, Conjecture 1.2 and definitions of variance and influence",
+      "read": "Full introduction and §1.1.1"
+    }
+  ],
+  "source_records": [
+    {
+      "source_id": "AA14",
+      "authors": [
+        "Scott Aaronson",
+        "Andris Ambainis"
+      ],
+      "title": "The Need for Structure in Quantum Speedups",
+      "stable_url": "https://theoryofcomputing.org/articles/v010a006/v010a006.pdf",
+      "publication_date": "2014-08-12",
+      "version": "published",
+      "publication_type": "journal article",
+      "locator": "§§1.1–1.3; Conjecture 1.7, Theorems 1.8–1.10, printed pp.136–140",
+      "sections_actually_read": [
+        "Title/publication page",
+        "Query model definitions",
+        "Full Conjecture 1.7 and Theorem 1.8",
+        "DFKO bound discussion and Theorem 1.10",
+        "L1/L2 correction discussion"
+      ],
+      "supported_claim": "Original scalar influence conjecture and its quantum-query application.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "access_limitations": "Complete proofs not independently certified.",
+      "venue_or_repository": "Theory of Computing 10(6), 133–166",
+      "identifier": "10.4086/toc.2014.v010a006"
+    },
+    {
+      "source_id": "EGSP26",
+      "authors": [
+        "Francisco Escudero Gutiérrez",
+        "Miquel Saucedo",
+        "Carlos Palazuelos"
+      ],
+      "title": "Optimal inequalities for completely bounded polynomials and the limitations of quantum query algorithms",
+      "stable_url": "https://arxiv.org/html/2609.05201v1",
+      "publication_date": "2026-09-04",
+      "version": "v1",
+      "publication_type": "preprint version",
+      "locator": "§1 Conjecture 1.2; §1.1.1 Theorems 1.3–1.4, Corollary 1.5 and comments; §§1.1.2–1.1.3 Theorem 1.6, Proposition 1.7, Corollary 1.8",
+      "sections_actually_read": [
+        "Title and author/version record",
+        "Full introduction and norm definitions",
+        "Full Theorems 1.3–1.4 and Corollary 1.5 with surrounding scope",
+        "Full Theorem 1.6",
+        "Full Proposition 1.7/Corollary 1.8 and comments"
+      ],
+      "supported_claim": "Retains full scalar conjecture; improves completely bounded block-polynomial and restricted quantum-algorithm estimates.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "access_limitations": "Complete proofs not independently certified."
+    },
+    {
+      "source_id": "BDST26",
+      "authors": [
+        "Guy Blanc",
+        "Jordan Docter",
+        "Carmen Strassle",
+        "Li-Yang Tan"
+      ],
+      "title": "Quantum Speedups Require Structure or Depth",
+      "stable_url": "https://arxiv.org/html/2608.19158v1",
+      "publication_date": "2026-08-19",
+      "version": "v1",
+      "publication_type": "preprint version",
+      "locator": "§1; §§2.1–2.2, Theorem 1, printed pp.1–5",
+      "sections_actually_read": [
+        "Title/authors/version",
+        "Full §1 including explicit influence conjecture and best general bound",
+        "Query-weight comparison in §2.1",
+        "Full Theorem 1 and round model and following scope discussion"
+      ],
+      "supported_claim": "Independent current statement of open influence conjecture and fixed-round simulation progress.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "access_limitations": "Complete proofs not independently certified.",
+      "pdf_title_page_date": "2026-08-20",
+      "metadata_note": "arXiv submission date is August 19; title page is dated August 20. arXiv comments say FOCS 2026; cited as the read preprint version."
+    },
+    {
+      "source_id": "B26",
+      "authors": [
+        "Sreejata Kishor Bhattacharya"
+      ],
+      "title": "Aaronson-Ambainis Conjecture Is True For Random Restrictions",
+      "stable_url": "https://eccc.weizmann.ac.il/report/2024/035/revision/2/download",
+      "publication_date": "2024-02-21",
+      "version": "ECCC revision 2 / arXiv v2",
+      "publication_type": "preprint version",
+      "locator": "Conjecture 1.3; §3 definitions; §6.2 Theorem 6.3 and proof; §6.3 Theorem 6.4 and proof; §7",
+      "sections_actually_read": [
+        "Title/authors",
+        "Full introduction and conjectures",
+        "Variance, influence and restriction definitions",
+        "Full Theorems 6.3–6.4 and their proofs",
+        "Conclusion and proposed extension to full AA"
+      ],
+      "supported_claim": "Independent specialist formulation and a random-restriction theorem, not a fixed-coordinate theorem for the original polynomial.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "access_limitations": "Complete proofs not independently certified.",
+      "latest_version_date": "2026-03-04",
+      "identifier": "arXiv:2402.13952v2 / ECCC TR24-035 revision 2",
+      "alternate_url": "https://arxiv.org/abs/2402.13952v2",
+      "conference_version": {
+        "title": "Random Restrictions of Bounded Low Degree Polynomials Are Juntas",
+        "venue": "ITCS 2025, LIPIcs 325, 17:1–17:21",
+        "published_on": "2025-02-11",
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2025.17",
+        "status": "Publisher identity checked; conference and revised manuscripts are one work."
+      }
+    },
+    {
+      "source_id": "EG23",
+      "authors": [
+        "Francisco Escudero Gutiérrez"
+      ],
+      "title": "Influences of Fourier Completely Bounded Polynomials and Classical Simulation of Quantum Algorithms",
+      "stable_url": "https://arxiv.org/html/2304.06713",
+      "publication_date": "2023-04-13",
+      "version": "v2",
+      "publication_type": "preprint version",
+      "locator": "§§1–2: Conjectures 1.2 and 1.5; Theorems 1.4, 1.6, 1.8; Definition 2.2",
+      "sections_actually_read": [
+        "Full introduction",
+        "Full theorem statements and norm comparison including footnote after Theorem 1.4",
+        "Definition 2.2 and Proposition 2.3"
+      ],
+      "supported_claim": "Homogeneous Fourier completely bounded and block-multilinear completely bounded special cases.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "access_limitations": "Complete proofs not independently certified.",
+      "latest_version_date": "2023-06-28",
+      "identifier": "arXiv:2304.06713v2"
+    },
+    {
+      "source_id": "KK19",
+      "authors": [
+        "Nathan Keller",
+        "Ohad Klein"
+      ],
+      "title": "Quantum speedups need structure",
+      "stable_url": "https://arxiv.org/abs/1911.03748",
+      "publication_date": "2019-11-09",
+      "version": "v2 withdrawn",
+      "publication_type": "withdrawn preprint",
+      "locator": "Author correction notice and submission history",
+      "sections_actually_read": [
+        "Complete correction notice",
+        "Version history"
+      ],
+      "supported_claim": "The authors withdrew the full proof claim because the defect in Lemma 5.3 invalidates their argument.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "full author withdrawal notice; original proof not re-adjudicated",
+      "access_limitations": "No independent proof checking of withdrawn v1 is claimed.",
+      "latest_version_date": "2019-12-02"
+    },
+    {
+      "source_id": "LM26",
+      "authors": [
+        "Qipeng Liu",
+        "Saachi Mutreja"
+      ],
+      "title": "Parallel Quantum Advantage with Limited Adaptivity Requires Structure",
+      "stable_url": "https://arxiv.org/pdf/2608.20297v1",
+      "publication_date": "2026-08-20",
+      "version": "v1",
+      "publication_type": "preprint version",
+      "locator": "§1; Theorems 1.5–1.8; §9 Theorem 9.1",
+      "sections_actually_read": [
+        "Title/authors",
+        "Influence/simulation distinction in introduction",
+        "Parallel and terminal-parallel query models",
+        "Full Theorems 1.5–1.8 and surrounding discussion",
+        "Full Theorem 9.1"
+      ],
+      "supported_claim": "Parallel, limited-prefix and fixed-layer simulation theorems leave growing adaptivity and arbitrary scalar polynomials outside their conclusion.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "access_limitations": "Complete proofs not independently certified."
+    },
+    {
+      "source_id": "SVZ26",
+      "authors": [
+        "Joseph Slote",
+        "Alexander Volberg",
+        "Haonan Zhang"
+      ],
+      "title": "Tightness of and counterexamples to several quantum estimates",
+      "stable_url": "https://arxiv.org/pdf/2608.04411v2",
+      "publication_date": "2026-08-05",
+      "version": "v2",
+      "publication_type": "preprint version",
+      "locator": "§5 equations (62)–(63); §6 opening; §7; §8.1 Theorem 4; §8.2 opening and equation (86)",
+      "sections_actually_read": [
+        "Title/authors/version",
+        "Full scalar/quantum distinction in §5",
+        "Exact quantum entropy-influence target in §6",
+        "§7 ancilla and degree discussion",
+        "Theorem 4 and its hypotheses",
+        "§8.2 Hamiltonian class, normalization and target"
+      ],
+      "supported_claim": "The counterexamples concern noncommutative inequalities; its AA examples have an influential ancilla or restricted anti-commuting structure.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "access_limitations": "Did not adopt the claimed equivalence in Remark 2 between different variance powers. The public formulation follows AA14/EGSP26. Complete proofs not certified.",
+      "latest_version_date": "2026-08-06"
+    },
+    {
+      "source_id": "CKMRST26",
+      "authors": [
+        "Andrea Coladangelo",
+        "Dakshita Khurana",
+        "Saachi Mutreja",
+        "Bhaskar Roberts",
+        "Joseph Slote",
+        "Avishay Tal"
+      ],
+      "title": "Unconditional Certified Randomness without Structure",
+      "stable_url": "https://arxiv.org/html/2608.31112v1",
+      "publication_date": "2026-08-31",
+      "version": "v1",
+      "publication_type": "preprint version",
+      "locator": "§1.1 Theorem 1.1 and scope discussion; §6.1 syntax; Theorems 6.3, 6.5 and 7.1; Corollary 7.2",
+      "sections_actually_read": [
+        "Title/authors/version",
+        "Full §1.1 including biased-oracle change",
+        "Definition 6.1 opening and syntax",
+        "Full Theorems 6.3, 6.5 and 7.1 and Corollary 7.2"
+      ],
+      "supported_claim": "Unconditional min-entropy certification for a constructed protocol removes an AA assumption in one consequence; it does not prove AA.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "access_limitations": "Complete proofs not independently certified."
+    },
+    {
+      "source_id": "AB26",
+      "authors": [
+        "Avantika Agarwal",
+        "Shalev Ben-David"
+      ],
+      "title": "Oracle Separations for the Quantum-Classical Polynomial Hierarchy",
+      "stable_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol362-itcs2026/html/LIPIcs.ITCS.2026.2/LIPIcs.ITCS.2026.2.html",
+      "publication_date": "2026-01-23",
+      "version": "published",
+      "publication_type": "conference article",
+      "locator": "§1.1 Theorems 3 and 5, Corollary 4 and following explanation",
+      "sections_actually_read": [
+        "Publisher author/date/DOI metadata",
+        "Full Theorems 3 and 5 and Corollary 4",
+        "Restriction quantifiers and real-valued extension discussion"
+      ],
+      "supported_claim": "A switching lemma applies after a dimension-dependent random restriction; it does not yield the unrestricted influence bound.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "access_level": "relevant full text",
+      "access_limitations": "Complete proofs not independently certified.",
+      "venue_or_repository": "ITCS 2026, LIPIcs 362, 2:1–2:22",
+      "identifier": "10.4230/LIPIcs.ITCS.2026.2"
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S266-1",
+      "query": "\"Aaronson Ambainis conjecture\" 2026 proof",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Quantum query and Boolean influence discovery"
+    },
+    {
+      "search_id": "S266-2",
+      "query": "\"Aaronson Ambainis conjecture\" solved counterexample",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Quantum query and Boolean influence discovery"
+    },
+    {
+      "search_id": "S266-3",
+      "query": "\"Aaronson Ambainis\" \"influence\" \"2025\"",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Quantum query and Boolean influence discovery"
+    },
+    {
+      "search_id": "S266-4",
+      "query": "\"bounded polynomials\" \"influential variable\" conjecture",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Quantum query and Boolean influence discovery"
+    },
+    {
+      "search_id": "S267-1",
+      "query": "\"Aaronson-Ambainis\" Keller Klein withdrawn Lemma 5.3",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "AA withdrawal and resolution search"
+    },
+    {
+      "search_id": "S267-2",
+      "query": "\"Aaronson Ambainis conjecture\" proved proof solved resolution counterexample disproof refutation",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "AA withdrawal and resolution search"
+    },
+    {
+      "search_id": "S267-3",
+      "query": "\"Aaronson-Ambainis\" 2025 2026 erratum correction",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "AA withdrawal and resolution search"
+    },
+    {
+      "search_id": "S267-4",
+      "query": "\"influential variable\" \"bounded\" polynomial 2024 2025 proof",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "AA withdrawal and resolution search"
+    },
+    {
+      "search_id": "S268-1",
+      "query": "site:arxiv.org \"Quantum Speedups Need Structure\" Keller Klein",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "AA primary version and recent resolution discovery"
+    },
+    {
+      "search_id": "S268-2",
+      "query": "\"2608.04411\" \"Aaronson\"",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "AA primary version and recent resolution discovery"
+    },
+    {
+      "search_id": "S268-3",
+      "query": "\"Aaronson-Ambainis\" \"2026\" proof influence -site:emergentmind.com -site:mathdb.co -site:qiqc-op.com",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "AA primary version and recent resolution discovery"
+    },
+    {
+      "search_id": "S269-1",
+      "query": "\"bounded low-degree polynomials\" influence proof 2025",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "AA mathematical wording, authors and prior/current-year searches"
+    },
+    {
+      "search_id": "S269-2",
+      "query": "\"Aaronson Ambainis\" influence counterexample 2024",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "AA mathematical wording, authors and prior/current-year searches"
+    },
+    {
+      "search_id": "S269-3",
+      "query": "\"Scott Aaronson\" \"Andris Ambainis\" influential variables resolution",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "AA mathematical wording, authors and prior/current-year searches"
+    },
+    {
+      "search_id": "S269-4",
+      "query": "\"Aaronson-Ambainis\" \"2026\" correction erratum withdrawal",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "AA mathematical wording, authors and prior/current-year searches"
+    },
+    {
+      "search_id": "A39-1",
+      "query": "\"Aaronson-Ambainis\" conjecture \"proof\" September 2026",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A39-2",
+      "query": "\"bounded polynomials\" \"influential variables\" counterexample",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A39-3",
+      "query": "\"Aaronson Ambainis\" \"random restrictions\" implies conjecture",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A39-4",
+      "query": "\"Aaronson-Ambainis\" \"completely bounded\" scalar norm reduction",
+      "searched_on": "2026-09-18",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "AA14",
+      "locator": "Theorem 1.10 and preceding DFKO influence restatement",
+      "hypotheses_and_conclusion": "Same scalar-bounded class and uniform cube; arbitrary degree; dimension-free but inverse-exponential degree dependence.",
+      "comparison_with_candidate": "The lower bound Var^3/2^{O(d)} is weaker than inverse polynomial in arbitrary d. Polynomial consequences for total Boolean functions do not handle real-valued acceptance probabilities.",
+      "matching_resolution": false
+    },
+    {
+      "source_id": "EG23",
+      "locator": "Theorems 1.4, 1.6 and 1.8",
+      "hypotheses_and_conclusion": "Theorem 1.6 assumes homogeneity and Fourier completely bounded norm <=1. Theorem 1.8 assumes block-multilinearity and completely bounded norm <=1.",
+      "comparison_with_candidate": "Scalar supremum normalization does not imply the matrix normalization: the discussion after Theorem 1.4 identifies unbounded norm ratios even at degree 3. The weaker conjecture 1.5 also remains conjectural.",
+      "matching_resolution": false
+    },
+    {
+      "source_id": "EGSP26",
+      "locator": "Theorems 1.3–1.4, equation (6), Corollary 1.5",
+      "hypotheses_and_conclusion": "For t-block multilinear a, sum sqrt(Inf) <= t||a||cb, hence max Inf >= Var^2/t^2 only after imposing ||a||cb<=1. General junta theorem uses the root-influence sum.",
+      "comparison_with_candidate": "The candidate allows all bounded scalar polynomials. The paper explicitly explains that the root-influence sum can be exponential in degree for the address function, so its general junta result does not indirectly provide the requested polynomial bound.",
+      "matching_resolution": false
+    },
+    {
+      "source_id": "EGSP26",
+      "locator": "Theorem 1.6, Proposition 1.7 and Corollary 1.8",
+      "hypotheses_and_conclusion": "Highest Fourier level of actual quantum acceptance polynomials; separate parallel-algorithm simulation has polynomial dependence on number r of accepting full-register outcomes.",
+      "comparison_with_candidate": "Highest-level Fourier growth is not a maximum influence bound across all scalar polynomials. Quantum realizability and parallel/output restrictions do not follow from scalar boundedness.",
+      "matching_resolution": false
+    },
+    {
+      "source_id": "B26",
+      "locator": "Theorems 6.3–6.4 and §7",
+      "hypotheses_and_conclusion": "d>=2, f in [0,1], Var(f)>=1/d, survival log(d)/(C1 d); with probability >=Var(f)log(d)/(50 C1 d), a coordinate of f_rho has influence >=Var(f)^2/d^{C2}.",
+      "comparison_with_candidate": "The witness coordinate depends on rho. Averaging a maximum is not the maximum of averages; pigeonholing can lose dimension. §7 explicitly leaves transfer to a coordinate of f open. Theorem 6.3 proof defines its influential set using f_rho; isolated f/f_rho typography is not read as a full AA theorem.",
+      "matching_resolution": false
+    },
+    {
+      "source_id": "BDST26",
+      "locator": "Theorem 1",
+      "hypotheses_and_conclusion": "t total quantum queries in r rounds; classical query cost 2^{O(r^2)}(t log(1/delta)/epsilon)^{O(r)}.",
+      "comparison_with_candidate": "Fixed-round polynomial complexity does not remain polynomial uniformly in growing r. The theorem is about acceptance probabilities of quantum algorithms, a narrower class than arbitrary scalar-bounded polynomials; full influence conjecture remains explicit in §1.",
+      "matching_resolution": false
+    },
+    {
+      "source_id": "LM26",
+      "locator": "Theorems 1.6–1.8 and 9.1",
+      "hypotheses_and_conclusion": "Parallel queries; quantum prefix r=O(log K/log log K) or classical preprocessing; fixed-layer bound (C d T/(epsilon sqrt(delta)))^{c4^d}.",
+      "comparison_with_candidate": "The exponent grows with layer count; no uniform unrestricted simulation follows. Separate parallel-model norm results and constant-round results cannot be composed to remove this dependence.",
+      "matching_resolution": false
+    },
+    {
+      "source_id": "KK19",
+      "locator": "Author withdrawal notice, December 2, 2019",
+      "hypotheses_and_conclusion": "The original claim matched the full scalar statement, but its authors say a fatal flaw in Lemma 5.3 collapses the proof.",
+      "comparison_with_candidate": "This is an explicitly withdrawn claim, not an unresolved competing result. No later repaired full proof appeared in the reviewed version history or searches.",
+      "matching_resolution": false
+    },
+    {
+      "source_id": "SVZ26",
+      "locator": "§§5–8.2",
+      "hypotheses_and_conclusion": "Noncommutative Pauli Hamiltonians; quantum entropy-influence counterexamples. Scalar AA is explicitly retained as open in §5. Hermitian dilation example has ancilla influence one.",
+      "comparison_with_candidate": "A counterexample to a noncommutative extension or to entropy-influence does not refute the scalar influence assertion. No all-coordinate-small scalar construction is supplied.",
+      "matching_resolution": false
+    },
+    {
+      "source_id": "CKMRST26",
+      "locator": "Theorems 6.3, 6.5, 7.1 and Corollary 7.2",
+      "hypotheses_and_conclusion": "Security/min-entropy guarantee for a particular code-based biased-YZ protocol and its standard-QROM implementation, with query-bounded adversaries.",
+      "comparison_with_candidate": "Proving a consequence without its previous AA assumption does not prove AA. The output is a solution string/distribution; no low-influence scalar polynomial counterexample is constructed.",
+      "matching_resolution": false
+    },
+    {
+      "source_id": "AB26",
+      "locator": "Theorems 3 and 5 and Corollary 4",
+      "hypotheses_and_conclusion": "Large N, query complexity or approximate degree <=N^{1/3}, survival p=N^{-10/11}, approximation by depth-h trees for h<=N^{1/3}, probability over retained positions.",
+      "comparison_with_candidate": "Theorem 5 and its discussion retain random restriction even for real-valued polynomials. Keeping all coordinates would require p=1, outside the theorem. No dimension-free original-coordinate bound follows.",
+      "matching_resolution": false
+    }
+  ],
+  "duplicate_review": {
+    "completed": true,
+    "baseline": "All original 300 pages, metadata and source/exclusion records were read in the baseline audit; active catalogue refreshed at 330, with seven other accepted pending drafts.",
+    "reviewed_on": "2026-09-18",
+    "searches": [
+      "Aaronson|Ambainis|influential.variable|polynomial.method across problems, data, drafts, source maps and exclusions: no matching prior target.",
+      "Influence, Boolean, quantum-query, Fourier entropy and log-rank searches across full page text."
+    ],
+    "closest_entries": [
+      {
+        "entry": "269",
+        "difference": "All Boolean encoders and a binary-noise channel; maximize mutual information. No degree-dependent variance/influence conclusion."
+      },
+      {
+        "entry": "301",
+        "difference": "All finite Boolean communication matrices; deterministic worst-case interaction bounded by a polylogarithm of exact real rank. Different two-party resource, observable and quantifiers."
+      },
+      {
+        "entry": "207",
+        "difference": "QMA hardness of constant-gap local-Hamiltonian ground-energy approximation under quantum reductions. No cube influence theorem or average-input query simulation."
+      },
+      {
+        "entry": "328",
+        "difference": "Two independent real polynomial statistics of a Gaussian vector; orthogonal separation into disjoint coordinate blocks. Different measure, independence premise and conclusion."
+      },
+      {
+        "entry": "pending classical-uniform-dnf-learning",
+        "difference": "Unknown Boolean formula observed through random labeled examples; polynomial total runtime and prediction error. AA concerns real-valued known functions, adaptive input access and existence of a coordinate, without runtime guarantees."
+      }
+    ],
+    "nearest_pages_fully_reread": [
+      "problems/269-most-informative-boolean-function.md",
+      "problems/301-log-rank.md",
+      "problems/207-quantum-pcp.md",
+      "problems/328-gaussian-polynomial-unlinking.md",
+      "research/expansion-2026-09/drafts/classical-uniform-dnf-learning.md"
+    ],
+    "counting_rule": "One scalar influence family; no additional entries for simulation, L1 conventions, special degrees, homogeneous/block cases or noncommutative variants."
+  },
+  "second_review": {
+    "completed": true,
+    "reviewed_on": "2026-09-18",
+    "arrangement": "Separated adversarial self-pass A39 after drafting, by the primary researching agent; no independent agent or human review.",
+    "search_ids": [
+      "A39-1",
+      "A39-2",
+      "A39-3",
+      "A39-4"
+    ],
+    "checks": [
+      "Recomputed affine normalization: original variance is present variance/4, original unhalved influence equals present halved influence. Constants absorb the fixed factor.",
+      "Checked constant and degree-one cases, d>=n redundancy, arbitrary n, all polynomials and uniform measure.",
+      "Challenged random-restriction-to-fixed-coordinate implication and cb-to-scalar norm conversion. Neither is supplied by the checked partial theorems.",
+      "Separated query complexity from total runtime and typical-input acceptance probability from search/sampling simulation.",
+      "Rechecked full nearest catalogue/draft assertions; no equivalent target.",
+      "A39 found AB26; full Theorems 3/5 and Corollary 4 retain dimension-dependent random restriction. Added an explicit scope comparison."
+    ],
+    "outcome": "pass",
+    "changes": "Added the AB26 switching-lemma comparison; clarified that no converse to the simulation implication is asserted."
+  },
+  "public_page_path": null,
+  "draft_path": "research/expansion-2026-09/drafts/aaronson-ambainis-influence.md",
+  "validation_results": {
+    "checked_on": "2026-09-18",
+    "catalogue": "catalogue.py --write and --check passed: 330 active entries. Draft remains outside active catalogue.",
+    "math": "22 math expressions passed strict KaTeX; full 1280x5600 Chrome screenshot inspected. All content and display mathematics fit without clipping.",
+    "structure": "Required headings, title equality, date, relative local links, fingerprint and second-review fields checked.",
+    "external_links": "All 12 distinct draft/evidence URLs returned HTTP 200 via unauthenticated GET; see aaronson-ambainis-influence-link-check.json.",
+    "counts": "43 investigation records = 38 accepted + 4 claim holds + 1 evidence hold; 30 integrated + 8 pending; primary-section totals reconcile. 1205 actual search IDs are unique.",
+    "baseline": "All original 300 problem pages and metadata rows compared with baseline a602073 and preserved.",
+    "diff": "git diff --check passed."
+  },
+  "remote_publication": {
+    "state": "not_integrated"
+  },
+  "independent_status_corroboration": {
+    "original_source": "AA14",
+    "independent_sources": [
+      "BDST26",
+      "B26"
+    ],
+    "additional_current_source": "EGSP26",
+    "author_independence": "BDST26, B26, AA14 and EGSP26 have disjoint author sets. EG23 overlaps EGSP26 and is not a further independent team. Versions of B26 are one work.",
+    "evidence": "All three current sources explicitly retain the scalar influence conjecture; complete relevant formulations were read, not just abstracts."
+  },
+  "actual_status_check_date": "2026-09-18",
+  "proposed_statement_text": "Let $n,d\\ge1$ be integers and let $p:\\{-1,1\\}^n\\to\\mathbb R$ have the multilinear expansion\n$$\np(x)=\\sum_{S\\subseteq[n]}\\widehat p(S)\\prod_{j\\in S}x_j,\n\\qquad [n]=\\{1,\\ldots,n\\},\n$$\nwith $\\widehat p(S)=0$ whenever $|S|>d$. Assume $|p(x)|\\le1$ for every vertex of the cube. For a uniform random vertex $X$, write $X^{(i)}$ for $X$ with coordinate $i$ flipped, and define\n$$\n\\operatorname{Var}(p)=\\mathbb E\\bigl[(p(X)-\\mathbb E p(X))^2\\bigr],\n\\qquad\n\\operatorname{Inf}_i(p)=\\mathbb E\\!\\left[\\left(\\frac{p(X)-p(X^{(i)})}{2}\\right)^2\\right]\n=\\sum_{S\\ni i}\\widehat p(S)^2.\n$$\n\nDo there exist absolute constants $c,C>0$, independent of $n,d,p$, such that every such polynomial satisfies\n$$\n\\max_{1\\le i\\le n}\\operatorname{Inf}_i(p)\n\\ \\ge\\ c\\left(\\frac{\\operatorname{Var}(p)}{d}\\right)^C?\n$$\n\nThis is a bound for all scalar-valued polynomials bounded on the cube, including nonhomogeneous ones. No matrix-input norm bound or special decomposition is assumed. Constant polynomials satisfy the inequality trivially. The statement asks for existence of an influential coordinate, without requiring an efficient procedure to find it. It is the normalization used in [2, Conjecture 1.2]; the $[0,1]$ formulation in [1] is equivalent by affine changes of input and output.\n",
+  "applied_significance": "The acceptance probability of a quantum algorithm making $T$ queries to a binary input is a bounded polynomial of degree at most $2T$. The conjecture would let a classical decision tree repeatedly query influential coordinates and reduce the remaining uncertainty. As [1, Theorem 1.8] shows, it would imply that, for any positive errors $\\varepsilon,\\delta$, a deterministic classical algorithm can approximate that acceptance probability to additive error $\\varepsilon$ on a $1-\\delta$ fraction of uniformly distributed inputs using $\\operatorname{poly}(T,1/\\varepsilon,1/\\delta)$ queries. This would constrain quantum advantage on typical inputs in the query model. It is a statement about access to input bits, not total runtime or simulation on every input. The reverse implication from the simulation conjecture to the influence conjecture is not asserted.\n",
+  "application_evidence_source_ids": [
+    "AA14",
+    "EG23",
+    "BDST26"
+  ],
+  "open_status_evidence_summary": "Original AA14 Conjecture 1.7 is restated as open in B26, BDST26 and EGSP26. No matching surviving proof or counterexample was found.",
+  "strongest_known_partial_results_and_gap": "Current BDST26 §1 retains inverse-exponential degree dependence in the general scalar class. Polynomial estimates are available with stronger norm, Boolean-output, restriction or query-round hypotheses; unrestricted inverse-polynomial influence remains the requested gap.",
+  "source_access_limitations": [
+    "The 2019 blog could not be retrieved by the first web open; the decisive author withdrawal notice on arXiv was fully read instead.",
+    "DFKO and older special-case bounds were checked through explicit scholarly restatements in AA14/EG23/BDST26; their original proofs were not audited.",
+    "Relevant statements and scope discussions, not all proofs, were reviewed. Search indexing can lag.",
+    "Third-party/AI-generated problem summaries were discovery leads only; no admission or theorem-scope conclusion relies on them."
+  ],
+  "prepublication_refresh": {
+    "required_before_integration": true,
+    "status": "pending batch 4 refresh",
+    "note": "Research checkpoint only; no active ID. Status and upstream duplicates must be refreshed immediately before catalogue integration."
+  },
+  "research_publication": {
+    "state": "local_pending_push",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null
+  }
+}

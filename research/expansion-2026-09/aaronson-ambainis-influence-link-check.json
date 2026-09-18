@@ -1,0 +1,90 @@
+{
+  "checked_on": "2026-09-18",
+  "method": "Unauthenticated curl GET, following redirects; links in draft and evidence sources.",
+  "results": [
+    {
+      "url": "https://arxiv.org/abs/1911.03748",
+      "http_status": 200,
+      "effective_url": "https://arxiv.org/abs/1911.03748",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.13952v2",
+      "http_status": 200,
+      "effective_url": "https://arxiv.org/abs/2402.13952v2",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2304.06713",
+      "http_status": 200,
+      "effective_url": "https://arxiv.org/html/2304.06713",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2608.19158v1",
+      "http_status": 200,
+      "effective_url": "https://arxiv.org/html/2608.19158v1",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2608.31112v1",
+      "http_status": 200,
+      "effective_url": "https://arxiv.org/html/2608.31112v1",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/html/2609.05201v1",
+      "http_status": 200,
+      "effective_url": "https://arxiv.org/html/2609.05201v1",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/2608.04411v2",
+      "http_status": 200,
+      "effective_url": "https://arxiv.org/pdf/2608.04411v2",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://arxiv.org/pdf/2608.20297v1",
+      "http_status": 200,
+      "effective_url": "https://arxiv.org/pdf/2608.20297v1",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2025.17",
+      "http_status": 200,
+      "effective_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2025.17",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol362-itcs2026/html/LIPIcs.ITCS.2026.2/LIPIcs.ITCS.2026.2.html",
+      "http_status": 200,
+      "effective_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol362-itcs2026/html/LIPIcs.ITCS.2026.2/LIPIcs.ITCS.2026.2.html",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2024/035/revision/2/download",
+      "http_status": 200,
+      "effective_url": "https://eccc.weizmann.ac.il/report/2024/035/revision/2/download/",
+      "exit_code": 0,
+      "error": null
+    },
+    {
+      "url": "https://theoryofcomputing.org/articles/v010a006/v010a006.pdf",
+      "http_status": 200,
+      "effective_url": "https://theoryofcomputing.org/articles/v010a006/v010a006.pdf",
+      "exit_code": 0,
+      "error": null
+    }
+  ]
+}
