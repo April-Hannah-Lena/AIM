@@ -178,9 +178,13 @@
     {
       "commit": "1cd75f103c69dfe2879f386bcad2c58bae6ed17c",
       "purpose": "Record reviewed arbitrary-switching stability draft and evidence; pushed directly to main and independently verified September 18, 2026."
+    },
+    {
+      "commit": "d33762befc329d523217811b84df150fd370ee9a",
+      "purpose": "Record reviewed list edge-colouring draft, evidence and breadth discovery; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "Forty catalogue additions (301–340) and the first three pending accepted drafts are published directly on main through the control checkpoint. The fourth accepted draft, list edge-colouring, and its evidence await the current checkpoint push. Active total remains 340.",
+  "remote_state": "Forty catalogue additions (301–340) are published directly on main. All four accepted research drafts—sharp matroid secretary, binary-code rate, arbitrary-switching stability and list edge-colouring—and their evidence are published. The scheduling checkpoint d33762befc329d523217811b84df150fd370ee9a was independently verified by ls-remote on September 18, 2026. All four await batch integration; active total remains 340.",
   "next_actions": [
     "Prepare six more reviewed drafts for the next ten-entry batch; refresh statuses and upstream duplicates before allocating IDs. Sharp matroid secretary, binary-code rate, arbitrary-switching stability and list edge-colouring are accepted without active IDs.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",

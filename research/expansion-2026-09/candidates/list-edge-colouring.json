@@ -312,6 +312,10 @@
     "upstream": "Fetched origin/main matches local HEAD e5c92a488863b9cca4955f0f5c8ae4681bc3dc7f before checkpoint publication."
   },
   "remote_publication": {
-    "status": "not yet pushed"
+    "status": "published directly to main",
+    "commit": "d33762befc329d523217811b84df150fd370ee9a",
+    "verified_on": "2026-09-18",
+    "verification": "After the successful push, a separate git ls-remote origin refs/heads/main returned the full checkpoint commit.",
+    "catalogue_state": "Accepted research draft only; no active ID or additional integrated count."
   }
 }
