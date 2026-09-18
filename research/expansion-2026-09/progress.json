@@ -190,9 +190,13 @@
     {
       "commit": "02e5ac183cddf5e1d4559a15394340353981baf3",
       "purpose": "Record reviewed Tuza packing-covering draft and evidence; pushed directly to main and independently verified September 18, 2026."
+    },
+    {
+      "commit": "66617e03315b6184d0ec802ff7132d9cbf5bccc1",
+      "purpose": "Record reviewed binary broadcast capacity draft and evidence; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "Forty catalogue additions (301–340) and the preceding six accepted research drafts are published directly on main. The seventh accepted draft, binary skew-symmetric broadcast capacity, is locally validated and awaits the checkpoint push. Active total remains 340.",
+  "remote_state": "Forty catalogue additions (301–340) and all seven pending accepted research drafts are published directly on main. The binary skew-symmetric broadcast checkpoint 66617e03315b6184d0ec802ff7132d9cbf5bccc1 was pushed and verified through a separate remote-ref read on September 18, 2026. Seven accepted drafts await batch integration; active total remains 340.",
   "next_actions": [
     "Prepare three more reviewed drafts for the next ten-entry batch; refresh statuses and upstream duplicates before allocating IDs. Seven accepted drafts await integration: sharp matroid secretary, binary-code rate, arbitrary-switching stability, list edge-colouring, chemostat exclusion, Tuza triangle packing–covering and binary skew-symmetric broadcast capacity.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
