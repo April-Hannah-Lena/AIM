@@ -132,3 +132,11 @@ Broader S191/S192/S193 searches also returned phylogenetic identifiability and P
 ## Batch 3 disposition
 
 All ten pending accepted drafts were integrated as 321–330 after the September 17 R3 refresh. Counts: 30 accepted, 35 investigated, five held, 330 local active entries. Publication state and validation evidence are maintained in [the batch audit](batch-03-review.md) and [progress](progress.json). The requested 200–300 additions remain incomplete.
+
+## Discrete rendezvous and baseline follow-up (S213–S219, A32; 2026-09-17)
+
+Symmetric rendezvous is now an [accepted research draft](candidates/symmetric-rendezvous-discrete-locations.json), with no active ID. All n≥4 are one family. A32 checked the current August revision, exact clock convention, full strategy class, one-step quantum/shared-label variants and token-assisted claims. Counts: 31 accepted, 30 integrated, 36 investigated, five held; active total 330.
+
+S213-4 and B286-1 found a direct k-server resolution claim dated September 14, after historical entry 286’s review. The [separate follow-up](baseline-status-followup.md) records the full matching theorem and unfinished proof assessment; it counts as no addition.
+
+Biology/phylogeny searches S213-1, S213-2, S214-3 and S214-4 supplied no admission-ready candidate. The 2026 morphogenesis-framework paper is an unopened lead, and the CFN projective ideal still lacks the independent corroboration and saturation analysis described above.

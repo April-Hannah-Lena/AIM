@@ -7646,5 +7646,332 @@
     "query": "\"Static output-feedback stabilization is NP-hard\"",
     "date_filter_or_unrestricted": "unrestricted (literal dates where shown)",
     "review_stage": "Immediate prepublication refresh for batch 3; per-entry outcomes in ledgers and batch audit"
+  },
+  {
+    "search_id": "S213-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"phylogenetic\" \"conjecture\" \"2026\" identifiability",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Discovery and initial disqualification; source access and decisions recorded separately."
+  },
+  {
+    "search_id": "S213-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"mathematical biology\" \"open problems\" \"conjecture\" statistics",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Discovery and initial disqualification; source access and decisions recorded separately."
+  },
+  {
+    "search_id": "S213-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"rendezvous search\" \"four\" \"optimal\" solved",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Discovery and initial disqualification; source access and decisions recorded separately."
+  },
+  {
+    "search_id": "S213-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"k-server conjecture\" solved proof 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Discovery and initial disqualification; source access and decisions recorded separately."
+  },
+  {
+    "search_id": "S214-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"symmetric rendezvous\" \"four\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Discovery and initial disqualification; source access and decisions recorded separately."
+  },
+  {
+    "search_id": "S214-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"rendezvous\" \"K4\" optimal solved proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Discovery and initial disqualification; source access and decisions recorded separately."
+  },
+  {
+    "search_id": "S214-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"CFN\" \"sunlet\" \"quadrics\" conjecture",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Discovery and initial disqualification; source access and decisions recorded separately."
+  },
+  {
+    "search_id": "S214-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"phylogenetic reconstruction\" \"conjecture\" threshold 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Discovery and initial disqualification; source access and decisions recorded separately."
+  },
+  {
+    "search_id": "S215-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"symmetric rendezvous\" \"optimal\" \"2026\" proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Rendezvous formulation and resolution search."
+  },
+  {
+    "search_id": "S215-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"symmetric rendezvous\" \"four\" solved resolution counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Rendezvous formulation and resolution search."
+  },
+  {
+    "search_id": "S215-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"rendezvous value\" \"K4\" proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Rendezvous formulation and resolution search."
+  },
+  {
+    "search_id": "S215-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Cembrano\" \"Fischer\" \"Klimm\" \"rendezvous\" correction",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Rendezvous formulation and resolution search."
+  },
+  {
+    "search_id": "S216-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"symmetric rendezvous\" \"optimal strategy\" \"complete graph\" proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Rendezvous disqualification and version/correction search."
+  },
+  {
+    "search_id": "S216-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Mozart\" \"cafe\" rendezvous solved",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Rendezvous disqualification and version/correction search."
+  },
+  {
+    "search_id": "S216-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Anderson\" \"Weber\" rendezvous \"2025\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Rendezvous disqualification and version/correction search."
+  },
+  {
+    "search_id": "S216-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"symmetric rendezvous\" \"refutation\" \"correction\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Rendezvous disqualification and version/correction search."
+  },
+  {
+    "search_id": "S217-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"On the effect of symmetry requirement for rendezvous on the complete graph\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Primary-source discovery and later-result search."
+  },
+  {
+    "search_id": "S217-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Codes, Lower Bounds, and Phase Transitions in the Symmetric Rendezvous Problem\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Primary-source discovery and later-result search."
+  },
+  {
+    "search_id": "S217-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Faster Symmetric Rendezvous\" \"withdrawn\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Primary-source discovery and later-result search."
+  },
+  {
+    "search_id": "S217-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"symmetric rendezvous\" \"complete graph\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Primary-source discovery and later-result search."
+  },
+  {
+    "search_id": "S218-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"rendezvous\" \"same strategy\" \"expected\" \"optimal\" \"2026\" -site:weber.edu",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Mathematical-formulation, current-year, author and metadata searches."
+  },
+  {
+    "search_id": "S218-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"symmetric rendezvous\" \"n\" \"refuted\" OR \"solved\" OR \"resolution\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Mathematical-formulation, current-year, author and metadata searches."
+  },
+  {
+    "search_id": "S218-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Cembrano\" \"Fischer\" \"Klimm\" \"rendezvous\" \"August\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Mathematical-formulation, current-year, author and metadata searches."
+  },
+  {
+    "search_id": "S218-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Optimal Symmetric Rendezvous Search on Three Locations\" \"2012\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Mathematical-formulation, current-year, author and metadata searches."
+  },
+  {
+    "search_id": "S219-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Ten Open Problems in Rendezvous Search\" \"223\" \"2013\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Bibliographic identity and matching-scope searches before draft."
+  },
+  {
+    "search_id": "S219-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"On the Effect of Symmetry Requirement\" \"Weber\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Bibliographic identity and matching-scope searches before draft."
+  },
+  {
+    "search_id": "S219-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"symmetric rendezvous\" \"optimal\" \"K4\" \"2025\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Bibliographic identity and matching-scope searches before draft."
+  },
+  {
+    "search_id": "S219-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"two\" \"random labelings\" \"rendezvous\" \"optimal\" \"proof\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Bibliographic identity and matching-scope searches before draft."
+  },
+  {
+    "search_id": "A32-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"symmetric rendezvous\" \"optimal\" \"September 2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer.",
+    "results_inspected": [
+      "CFK26",
+      "W12",
+      "P21"
+    ],
+    "outcome": "Combined self-pass: primary current revision retains optimum; token-assisted thesis has changed observations. No matching unrestricted optimum located.",
+    "limitations": "Some queries returned irrelevant popular summaries; those were not used as evidence. Source list records combined follow-up, not every query returning every source."
+  },
+  {
+    "search_id": "A32-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Mozart Cafe\" \"solution\" \"without\" tokens",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer.",
+    "results_inspected": [
+      "CFK26",
+      "W12",
+      "P21"
+    ],
+    "outcome": "Combined self-pass: primary current revision retains optimum; token-assisted thesis has changed observations. No matching unrestricted optimum located.",
+    "limitations": "Some queries returned irrelevant popular summaries; those were not used as evidence. Source list records combined follow-up, not every query returning every source."
+  },
+  {
+    "search_id": "A32-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"rendezvous\" \"Cembrano\" \"correction\" OR \"erratum\" OR \"withdrawn\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer.",
+    "results_inspected": [
+      "CFK26",
+      "W12",
+      "P21"
+    ],
+    "outcome": "Combined self-pass: primary current revision retains optimum; token-assisted thesis has changed observations. No matching unrestricted optimum located.",
+    "limitations": "Some queries returned irrelevant popular summaries; those were not used as evidence. Source list records combined follow-up, not every query returning every source."
+  },
+  {
+    "search_id": "A32-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"symmetric rendezvous\" \"complete graph\" \"exact value\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer.",
+    "results_inspected": [
+      "CFK26",
+      "W12",
+      "P21"
+    ],
+    "outcome": "Combined self-pass: primary current revision retains optimum; token-assisted thesis has changed observations. No matching unrestricted optimum located.",
+    "limitations": "Some queries returned irrelevant popular summaries; those were not used as evidence. Source list records combined follow-up, not every query returning every source."
+  },
+  {
+    "search_id": "A32-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"symmetric rendezvous\" \"four\" \"optimal\" proof 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal year where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer.",
+    "results_inspected": [
+      "CFK26",
+      "W12",
+      "P21"
+    ],
+    "outcome": "Combined self-pass: primary current revision retains optimum; token-assisted thesis has changed observations. No matching unrestricted optimum located.",
+    "limitations": "Some queries returned irrelevant popular summaries; those were not used as evidence. Source list records combined follow-up, not every query returning every source."
+  },
+  {
+    "search_id": "A32-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Mozart cafe\" \"rendezvous\" \"solved\" -site:bookey.app",
+    "date_filter_or_unrestricted": "unrestricted (literal year where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer.",
+    "results_inspected": [
+      "CFK26",
+      "W12",
+      "P21"
+    ],
+    "outcome": "Combined self-pass: primary current revision retains optimum; token-assisted thesis has changed observations. No matching unrestricted optimum located.",
+    "limitations": "Some queries returned irrelevant popular summaries; those were not used as evidence. Source list records combined follow-up, not every query returning every source."
+  },
+  {
+    "search_id": "B286-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"k-server conjecture is true\" correction erratum withdrawn",
+    "date_filter_or_unrestricted": "unrestricted (literal year where shown)",
+    "review_stage": "Separate baseline status follow-up, not a new candidate.",
+    "results_inspected": [
+      "arXiv:2609.15979v1"
+    ],
+    "outcome": "Matching baseline k-server claim; version history still v1. See baseline-status-followup.md.",
+    "limitations": "Full proof and independent assessment not reviewed."
   }
 ]

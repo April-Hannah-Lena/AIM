@@ -1,0 +1,1230 @@
+{
+  "candidate_id": "symmetric-rendezvous-discrete-locations",
+  "proposed_catalogue_id": null,
+  "title": "Optimal symmetric rendezvous among discrete locations",
+  "aliases": [
+    "Mozart Café problem",
+    "symmetric rendezvous on the complete graph",
+    "discrete-location rendezvous value"
+  ],
+  "primary_section": "stochastic3",
+  "secondary_tags": [
+    "decentralized coordination",
+    "search theory",
+    "communication protocols"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit problem, independent August 2026 status, exact strategy/time conventions, theorem-scope comparisons and separated A32 self-pass passed.",
+  "problem_fingerprint": {
+    "model_or_objects": "Two independent draws from one probability law on infinite location sequences; an independent uniform fixed permutation matches private labels.",
+    "dimension": "No spatial dimension; n discrete locations.",
+    "domain": "[n] at each integer time in N0.",
+    "regularity_and_data_class": "All probability laws on the product sigma-algebra; arbitrary memory and within-agent temporal dependence.",
+    "boundary_or_initial_conditions": "First visit at time zero; no conditioning on initially distinct locations.",
+    "parameter_range": "Every integer n≥4, counted as one family.",
+    "quantifiers": "For each n determine the infimum over all common strategies.",
+    "normalization": "One simultaneous visit per unit time; meeting at time zero has cost zero.",
+    "observable_or_norm": "Expected first time at the same physical location.",
+    "limit_regime_and_order": "Exact finite-n values; asymptotic bounds are context, not an assumed limit.",
+    "requested_conclusion": "Determine r_n exactly.",
+    "computational_model_and_dependencies": "No computational or memory restriction; no tokens, shared random bits, common labels or assigned roles."
+  },
+  "statement_source_and_scope_match": "A13 Problem 5 states the family. CFK26 §2 gives the sequence/permutation model used here. The draft asks for its infimum value without imposing the later section's block strategies or asserting attainment.",
+  "proposed_statement_text": "For iid X,Y with arbitrary common law μ on [n]^N0 and an independent uniform fixed π∈Sn, determine infμ E[inf{t≥0:π(Xt)=Yt}] for every n≥4.",
+  "applied_significance": "Delay of anonymous decentralized coordination: simultaneous terminal selection under an unknown matching and common-channel attempts. Synchronization and equal travel cost are explicit modeling assumptions.",
+  "application_evidence_source_ids": [
+    "A13",
+    "W12",
+    "DHMR16"
+  ],
+  "source_records": [
+    {
+      "source_id": "A13",
+      "role": "explicit open problem",
+      "authors": [
+        "Steve Alpern"
+      ],
+      "title": "Ten Open Problems in Rendezvous Search",
+      "venue_or_repository": "Search Theory: A Game Theoretic Perspective, pp. 223–230",
+      "publication_type": "book chapter",
+      "publication_date": "2013",
+      "latest_version_date": "2013",
+      "identifier": "10.1007/978-1-4614-6825-7_14",
+      "version": "author-hosted excerpt",
+      "stable_url": "https://diamhomes.ewi.tudelft.nl/~rfokkink/rendezvousproblems.pdf",
+      "locator": "§14.2, Problem 5, p. 226",
+      "supported_claim": "Asks for the best symmetric discrete-location strategy for n≥4.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Excerpt omits the chapter's final two pages; publisher metadata independently checked.",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "All six available pages (223–228), especially definitions, Problem 5 and telephone interpretation."
+      ]
+    },
+    {
+      "source_id": "CFK26",
+      "role": "current independent status and improvement",
+      "authors": [
+        "Javier Cembrano",
+        "Felix Fischer",
+        "Max Klimm"
+      ],
+      "title": "Faster Symmetric Rendezvous on Four or More Locations",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-04-02",
+      "latest_version_date": "2026-08-02",
+      "identifier": "arXiv:2604.02058v2",
+      "version": "v2",
+      "stable_url": "https://arxiv.org/html/2604.02058v2",
+      "locator": "§§1–2.1; §4.2 Theorem 2; §5",
+      "supported_claim": "Retains unrestricted optimum after an all-n≥4 improvement over Anderson–Weber.",
+      "independent_of_source_ids": [
+        "A13"
+      ],
+      "access_limitations": "No independent proof certification. v2 locators replace v1's open-questions section.",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full introduction/proof outline, model, strategy definitions, Theorem 2 and surrounding discussion, conclusion; version history."
+      ]
+    },
+    {
+      "source_id": "W12",
+      "role": "solved small case and conventions",
+      "authors": [
+        "Richard Weber"
+      ],
+      "title": "Optimal Symmetric Rendezvous Search on Three Locations",
+      "venue_or_repository": "Mathematics of Operations Research 37(1), 111–122",
+      "publication_type": "published paper",
+      "publication_date": "2012",
+      "latest_version_date": "2012",
+      "identifier": "10.1287/moor.1110.0528",
+      "version": "author manuscript; published metadata checked",
+      "stable_url": "https://www.statslab.cam.ac.uk/~rrw1/research/K3%20revised.pdf",
+      "locator": "§§1–2, Theorem 2.1",
+      "supported_claim": "Optimal three-location conditional expectation 5/2; truncated-expectation result.",
+      "independent_of_source_ids": [
+        "A13"
+      ],
+      "access_limitations": "Author manuscript bears draft publication placeholders. Journal metadata supplies 2012 date. Entire proof not certified.",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full introduction, time-convention note, complete theorem and following discussion; proof setup."
+      ]
+    },
+    {
+      "source_id": "W09",
+      "role": "four-location improvement",
+      "authors": [
+        "Richard Weber"
+      ],
+      "title": "The Anderson–Weber strategy is not optimal for symmetric rendezvous search on K4",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2009-12-03",
+      "latest_version_date": "2009-12-03",
+      "identifier": "arXiv:0912.0670v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/0912.0670v1",
+      "locator": "§§1–2",
+      "supported_claim": "Exhibits an improved four-location strategy without determining the optimum.",
+      "independent_of_source_ids": [
+        "A13"
+      ],
+      "access_limitations": "PDF internal date July 8, 2009 differs from arXiv submission. Full matrix calculation not audited.",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Introduction and strategy construction through the first three-tour matrix."
+      ]
+    },
+    {
+      "source_id": "DHMR16",
+      "role": "asymptotic bounds and changed objective",
+      "authors": [
+        "Varsha Dani",
+        "Thomas P. Hayes",
+        "Cristopher Moore",
+        "Alexander Russell"
+      ],
+      "title": "Codes, lower bounds, and phase transitions in the symmetric rendezvous problem",
+      "venue_or_repository": "Random Structures & Algorithms 49(4), 742–765",
+      "publication_type": "published paper",
+      "publication_date": "2016",
+      "latest_version_date": "2016-09-06",
+      "identifier": "10.1002/rsa.20691; arXiv:1609.01582v1",
+      "version": "author preprint",
+      "stable_url": "https://arxiv.org/pdf/1609.01582v1",
+      "locator": "§2 Definitions 1–5; §3 Theorems 1–3 and Proposition 9",
+      "supported_claim": "Asymptotic expectation lower bound and high-probability/short-horizon results.",
+      "independent_of_source_ids": [
+        "A13"
+      ],
+      "access_limitations": "Journal metadata checked through primary publisher listing; DOI direct access failed. Number-of-locations and first-step conventions differ by one.",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Introduction, model, full principal statements; Theorem 2 short proof and §3.6 bound derivation."
+      ]
+    },
+    {
+      "source_id": "BPS20",
+      "role": "additional lower bound",
+      "authors": [
+        "Marthe Bonamy",
+        "Michał Pilipczuk",
+        "Jean-Sébastien Sereni"
+      ],
+      "title": "On the effect of symmetry requirement for rendezvous on the complete graph",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2020-02-10",
+      "latest_version_date": "2020-02-10",
+      "identifier": "arXiv:2002.03764v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/pdf/2002.03764v1",
+      "locator": "§§1–2, Theorems 1–2",
+      "supported_claim": "A truncated-expectation lower bound, not an exact infinite-horizon value.",
+      "independent_of_source_ids": [
+        "A13"
+      ],
+      "access_limitations": "2023 journal version adds Richard Weber; its full text not obtained. Do not transfer journal constants or the preprint's priority assertion.",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Introduction, truncated model and complete theorem statements."
+      ]
+    },
+    {
+      "source_id": "GGKM26",
+      "role": "recent line solution",
+      "authors": [
+        "Konstantinos Georgiou",
+        "Claude Gravel",
+        "Lazar Mandic",
+        "Joey Kapusin"
+      ],
+      "title": "Oblivious Self-Distance Symmetric Rendezvous on the Integer Line",
+      "venue_or_repository": "arXiv; accepted for ISAAC according to record",
+      "publication_type": "preprint",
+      "publication_date": "2026-09-12",
+      "latest_version_date": "2026-09-12",
+      "identifier": "arXiv:2609.13632v1",
+      "version": "v1",
+      "stable_url": "https://arxiv.org/abs/2609.13632v1",
+      "locator": "§2.1 and §3.3 Theorem 1",
+      "supported_claim": "Optimal adjacent-start value within oblivious self-distance line strategies.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Complete proof not certified; accepted proceedings status is not a claim of publication.",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Introduction, full model and complete theorem; version history."
+      ]
+    },
+    {
+      "source_id": "BNN26",
+      "role": "labeled-line solution",
+      "authors": [
+        "Yann Bourreau",
+        "Ananth Narayanan",
+        "Alexandre Nolin"
+      ],
+      "title": "Optimal Deterministic Rendezvous in Labeled Lines",
+      "venue_or_repository": "STACS 2026, LIPIcs 364, article 18",
+      "publication_type": "published proceedings",
+      "publication_date": "2026",
+      "latest_version_date": "2026",
+      "identifier": "10.4230/LIPIcs.STACS.2026.18",
+      "version": "published HTML",
+      "stable_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol364-stacs2026/html/LIPIcs.STACS.2026.18/LIPIcs.STACS.2026.18.html",
+      "locator": "§1.1 Theorem 1",
+      "supported_claim": "Optimal deterministic round complexity on an infinite globally labeled line.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Not a review of the complete proof.",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full introductory model and theorem; proof outline and later statement excerpts."
+      ]
+    },
+    {
+      "source_id": "TSMQ24",
+      "role": "quantum and one-step comparison",
+      "authors": [
+        "J. Tucker",
+        "P. Strange",
+        "P. Mironowicz",
+        "J. Quintanilla"
+      ],
+      "title": "Quantum-assisted rendezvous on graphs: explicit algorithms and quantum computer simulations",
+      "venue_or_repository": "New Journal of Physics 26, 093038",
+      "publication_type": "published paper",
+      "publication_date": "2024-09-25",
+      "latest_version_date": "2024-09-25",
+      "identifier": "10.1088/1367-2630/ad78f8",
+      "version": "institution-hosted published PDF",
+      "stable_url": "https://kar.kent.ac.uk/id/document/3440877",
+      "locator": "§2 pp. 2–3; §5 pp. 12–13",
+      "supported_claim": "One-move success probability with shared vertex labels; quantum strategies have entanglement.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Entire quantum derivation not reviewed; scope mismatch established by explicit model.",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Metadata/abstract, model and K4 classical optimum paragraph/table description."
+      ]
+    },
+    {
+      "source_id": "P21",
+      "role": "token-assisted apparent solution",
+      "authors": [
+        "Leonard J. Pick III"
+      ],
+      "title": "On the Mozart Cafe Problem in Rendezvous Search Theory",
+      "venue_or_repository": "Johns Hopkins University",
+      "publication_type": "MSE thesis",
+      "publication_date": "2021-12",
+      "latest_version_date": "2021-12",
+      "identifier": "JScholarship institutional thesis",
+      "version": "deposited PDF",
+      "stable_url": "https://jscholarship.library.jhu.edu/bitstreams/7fe3fe14-33c1-4f06-9604-4a4f88f76106/download",
+      "locator": "§1.2 pp. 7–8; §2.1; Chapter 7 pp. 50–51",
+      "supported_claim": "Claims concern detectable tokens; n=3 optimality and larger-n improvements use changed observations.",
+      "independent_of_source_ids": [],
+      "access_limitations": "No formal numbered main theorem. Baseline 8/3 convention statement conflicts with W12; not used for classical values.",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Cover, abstract, table of contents, full setup, two-location token example, conclusion and open-questions opening."
+      ]
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S213-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"rendezvous search\" \"four\" \"optimal\" solved",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Discovery and initial disqualification; source access and decisions recorded separately.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S214-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"symmetric rendezvous\" \"four\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Discovery and initial disqualification; source access and decisions recorded separately.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S214-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"rendezvous\" \"K4\" optimal solved proof",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Discovery and initial disqualification; source access and decisions recorded separately.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S215-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"symmetric rendezvous\" \"optimal\" \"2026\" proof",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Rendezvous formulation and resolution search.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S215-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"symmetric rendezvous\" \"four\" solved resolution counterexample",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Rendezvous formulation and resolution search.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S215-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"rendezvous value\" \"K4\" proof",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Rendezvous formulation and resolution search.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S215-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Cembrano\" \"Fischer\" \"Klimm\" \"rendezvous\" correction",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Rendezvous formulation and resolution search.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S216-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"symmetric rendezvous\" \"optimal strategy\" \"complete graph\" proof",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Rendezvous disqualification and version/correction search.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S216-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Mozart\" \"cafe\" rendezvous solved",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Rendezvous disqualification and version/correction search.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S216-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Anderson\" \"Weber\" rendezvous \"2025\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Rendezvous disqualification and version/correction search.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S216-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"symmetric rendezvous\" \"refutation\" \"correction\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Rendezvous disqualification and version/correction search.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S217-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"On the effect of symmetry requirement for rendezvous on the complete graph\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Primary-source discovery and later-result search.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S217-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Codes, Lower Bounds, and Phase Transitions in the Symmetric Rendezvous Problem\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Primary-source discovery and later-result search.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S217-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Faster Symmetric Rendezvous\" \"withdrawn\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Primary-source discovery and later-result search.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S217-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"symmetric rendezvous\" \"complete graph\" \"2025\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Primary-source discovery and later-result search.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S218-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"rendezvous\" \"same strategy\" \"expected\" \"optimal\" \"2026\" -site:weber.edu",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Mathematical-formulation, current-year, author and metadata searches.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S218-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"symmetric rendezvous\" \"n\" \"refuted\" OR \"solved\" OR \"resolution\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Mathematical-formulation, current-year, author and metadata searches.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S218-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Cembrano\" \"Fischer\" \"Klimm\" \"rendezvous\" \"August\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Mathematical-formulation, current-year, author and metadata searches.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S218-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Optimal Symmetric Rendezvous Search on Three Locations\" \"2012\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Mathematical-formulation, current-year, author and metadata searches.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S219-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Ten Open Problems in Rendezvous Search\" \"223\" \"2013\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Bibliographic identity and matching-scope searches before draft.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S219-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"On the Effect of Symmetry Requirement\" \"Weber\" pdf",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Bibliographic identity and matching-scope searches before draft.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S219-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"symmetric rendezvous\" \"optimal\" \"K4\" \"2025\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Bibliographic identity and matching-scope searches before draft.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "S219-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"two\" \"random labelings\" \"rendezvous\" \"optimal\" \"proof\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Bibliographic identity and matching-scope searches before draft.",
+      "results_inspected": [
+        "A13",
+        "CFK26",
+        "W12",
+        "W09",
+        "DHMR16",
+        "BPS20",
+        "GGKM26",
+        "BNN26",
+        "TSMQ24",
+        "P21"
+      ],
+      "outcome": "Combined source-chain review supports remaining exact optimum; improved strategies and different observation/graph/objective models distinguished.",
+      "limitations": "Grouped investigation results, not a claim that every query returned every source; exact access limits listed per source."
+    },
+    {
+      "search_id": "A32-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"symmetric rendezvous\" \"optimal\" \"September 2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer.",
+      "results_inspected": [
+        "CFK26",
+        "W12",
+        "P21"
+      ],
+      "outcome": "Combined self-pass: primary current revision retains optimum; token-assisted thesis has changed observations. No matching unrestricted optimum located.",
+      "limitations": "Some queries returned irrelevant popular summaries; those were not used as evidence. Source list records combined follow-up, not every query returning every source."
+    },
+    {
+      "search_id": "A32-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Mozart Cafe\" \"solution\" \"without\" tokens",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer.",
+      "results_inspected": [
+        "CFK26",
+        "W12",
+        "P21"
+      ],
+      "outcome": "Combined self-pass: primary current revision retains optimum; token-assisted thesis has changed observations. No matching unrestricted optimum located.",
+      "limitations": "Some queries returned irrelevant popular summaries; those were not used as evidence. Source list records combined follow-up, not every query returning every source."
+    },
+    {
+      "search_id": "A32-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"rendezvous\" \"Cembrano\" \"correction\" OR \"erratum\" OR \"withdrawn\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer.",
+      "results_inspected": [
+        "CFK26",
+        "W12",
+        "P21"
+      ],
+      "outcome": "Combined self-pass: primary current revision retains optimum; token-assisted thesis has changed observations. No matching unrestricted optimum located.",
+      "limitations": "Some queries returned irrelevant popular summaries; those were not used as evidence. Source list records combined follow-up, not every query returning every source."
+    },
+    {
+      "search_id": "A32-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"symmetric rendezvous\" \"complete graph\" \"exact value\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+      "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer.",
+      "results_inspected": [
+        "CFK26",
+        "W12",
+        "P21"
+      ],
+      "outcome": "Combined self-pass: primary current revision retains optimum; token-assisted thesis has changed observations. No matching unrestricted optimum located.",
+      "limitations": "Some queries returned irrelevant popular summaries; those were not used as evidence. Source list records combined follow-up, not every query returning every source."
+    },
+    {
+      "search_id": "A32-5",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"symmetric rendezvous\" \"four\" \"optimal\" proof 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal year where shown)",
+      "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer.",
+      "results_inspected": [
+        "CFK26",
+        "W12",
+        "P21"
+      ],
+      "outcome": "Combined self-pass: primary current revision retains optimum; token-assisted thesis has changed observations. No matching unrestricted optimum located.",
+      "limitations": "Some queries returned irrelevant popular summaries; those were not used as evidence. Source list records combined follow-up, not every query returning every source."
+    },
+    {
+      "search_id": "A32-6",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Mozart cafe\" \"rendezvous\" \"solved\" -site:bookey.app",
+      "date_filter_or_unrestricted": "unrestricted (literal year where shown)",
+      "review_stage": "Separated adversarial self-pass after drafting; no independent reviewer.",
+      "results_inspected": [
+        "CFK26",
+        "W12",
+        "P21"
+      ],
+      "outcome": "Combined self-pass: primary current revision retains optimum; token-assisted thesis has changed observations. No matching unrestricted optimum located.",
+      "limitations": "Some queries returned irrelevant popular summaries; those were not used as evidence. Source list records combined follow-up, not every query returning every source."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "W12",
+      "theorem_locator": "Theorem 2.1 and §1 time note",
+      "claim_type": "solved restricted size",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "n=3 rather than n≥4",
+        "Distinct initial positions; first move at time one",
+        "Minimizes each truncated expectation, not every individual tail"
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Converts to time-zero r3=5/3. No conclusion for the requested sizes.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "W09",
+      "theorem_locator": "§2 strategy construction",
+      "claim_type": "strategy improvement",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "n=4; independent players with temporal correlation",
+        "Improved expected time is an upper bound"
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "An upper bound alone does not determine r4.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CFK26",
+      "theorem_locator": "§4.2 Theorem 2; §5",
+      "claim_type": "later all-size improvement",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Same symmetric finite-location model",
+        "One explicit correlated family",
+        "No lower bound proving that family optimal"
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Leaves the exact optimum open; its gain vanishes asymptotically.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "DHMR16",
+      "theorem_locator": "§3 Theorems 1–3; Proposition 9",
+      "claim_type": "bounds and alternative objectives",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "n→∞",
+        "High-probability meeting by 4n and failure below it",
+        "Short horizon T≤n versus unrestricted expected time"
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Integrating applicable tails yields a lower bound, not equality with a feasible strategy's expectation.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BPS20",
+      "theorem_locator": "Theorems 1–2",
+      "claim_type": "truncated lower bound",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Stop after n moves and charge n+1 for failure",
+        "Lower bound above the asymmetric benchmark"
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Transfers as a lower bound only; does not identify finite-n exact values.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "GGKM26",
+      "theorem_locator": "§3.3 Theorem 1",
+      "claim_type": "recent optimality result",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Infinite integer line with unit moves",
+        "Adjacent initial positions",
+        "Transition law uses only distance from own start; no clock or history"
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Both graph and strategy class differ; no implication for unrestricted complete-graph schedules.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BNN26",
+      "theorem_locator": "§1.1 Theorem 1",
+      "claim_type": "optimal algorithmic complexity",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Infinite globally labeled line",
+        "Deterministic movement; asynchronous wakeups",
+        "Worst-case round complexity depending on distance and labels"
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Common labels and a different performance criterion prevent transfer.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "TSMQ24",
+      "theorem_locator": "§2 model and §5 K4 comparison",
+      "claim_type": "one-step classical/quantum optimum",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Common vertex labels",
+        "One move; no waiting in default game",
+        "Quantum version supplies shared entanglement"
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Neither the classical 5/8 one-step success nor quantum improvement gives the required expected-time optimum.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "P21",
+      "theorem_locator": "§1.2 and Chapter 7 main-result summary",
+      "claim_type": "token-assisted optimality claim",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Tokens are observed when visiting a location",
+        "Marked sites are removed from future searches",
+        "Distinct starts"
+      ],
+      "scope_relation": "partial result or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Extra observations change the problem. Classical time convention in its introduction is not authoritative.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": 302,
+        "distinction": "A deterministic word simultaneously resets all automaton states; no independent agents or unknown label matching."
+      },
+      {
+        "id": 286,
+        "distinction": "Online metric service cost against an offline comparator; a later matching claim is separately flagged."
+      },
+      {
+        "id": 326,
+        "distinction": "Irrevocable bin assignments and asymptotic competitive ratio against offline packing."
+      }
+    ],
+    "distinctness_reason": "Completed baseline reading retained; fresh full-repository keyword screen and full closest-page reread. No matching assertion among 330 active entries or 35 prior records. Remote has only main at dd5b9c1; connected open-PR search empty.",
+    "implications_or_equivalences": [
+      "All n≥4, K4, Mozart Café and complete-graph formulations are one entry.",
+      "Asymptotic optimality of a particular strategy is discussed within this family, not counted separately."
+    ]
+  },
+  "open_status_evidence_summary": "A13 explicit question and independent CFK26 v2 §5 retain exact finite-size optimality; current resolution searches found only partial or changed-model results.",
+  "independent_status_corroboration": "Cembrano–Fischer–Klimm are independent of Alpern. Author-hosted and arXiv versions of their paper count once.",
+  "strongest_known_partial_results_and_gap": "Solved n=2,3; strict improvements over Anderson–Weber for all finite n≥4. Asymptotic expectation bounds remain separated, approximately 0.6389n and 0.8289n; no exact finite-n optimum found.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Source-specific access and reading limits appear above.",
+    "No independent certification of mathematical proofs.",
+    "Search indexing may lag; absence of a matching search result is not a guarantee.",
+    "P21's classical time-convention error and CFK26's informal n=3 tail statement are not imported into the draft."
+  ],
+  "second_review": {
+    "arrangement": "Separated adversarial self-pass; no independent agent or human review.",
+    "reviewer_or_pass_identifier": "A32",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A32-1",
+      "A32-2",
+      "A32-3",
+      "A32-4",
+      "A32-5",
+      "A32-6"
+    ],
+    "issues_found": [
+      "Time-zero, step-one and distinct-start conventions differ.",
+      "A restricted block strategy could accidentally replace the full optimization class.",
+      "A newer August revision changes locators.",
+      "Token and quantum search hits appear to solve K4.",
+      "Draft had an incorrect filename for entry 286."
+    ],
+    "issues_resolved": [
+      "Defined all randomness, starting convention and clock; checked W12 directly.",
+      "Allowed arbitrary laws, memory and temporal correlations.",
+      "Read v2 and its §5; retained arXiv version-history date.",
+      "Read explicit models and main-result scopes; added source limitations.",
+      "Repaired link and recorded baseline status claim separately."
+    ],
+    "verdict": "pass"
+  },
+  "prepublication_refresh": {
+    "date": "2026-09-17",
+    "latest_target_commit": "dd5b9c1b7aa188850706e1ac5c0fd4856c043833",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "A32-5",
+      "A32-6"
+    ],
+    "outcome": "No matching full optimum located; reopened current primary version history and §5. SSH remote heads and connected GitHub PR/metadata checks passed. This publishes research only; refresh again before catalogue integration."
+  },
+  "public_page_path": null,
+  "draft_page_path": "research/expansion-2026-09/drafts/symmetric-rendezvous-discrete-locations.md",
+  "validation_results": [
+    "2026-09-17: 23 math expressions passed strict KaTeX. Rendered statement and applied-significance screenshot visually inspected; no clipping.",
+    "2026-09-17: source/search IDs, local draft links and required headings checked. Counts: 36 investigated, 31 accepted, five held, 30 integrated; 991 unique search IDs.",
+    "2026-09-17: catalogue.py --write and --check passed at 330 active entries; all 330 active pages, metadata, manifest and catalogue machinery unchanged from dd5b9c1; git diff --check passed.",
+    "2026-09-17: 13 external links checked: ten HTTP 200, three HTTP 403 (two publisher DOIs with accessible author manuscripts and the JHU thesis available through the web reader). See bibliography_link_check."
+  ],
+  "remote_publication": {
+    "state": "not_integrated",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "research_publication": {
+    "state": "local_pending_push",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null
+  },
+  "bibliography_link_check": {
+    "checked_on": "2026-09-17",
+    "results": [
+      {
+        "url": "https://arxiv.org/abs/2609.13632v1",
+        "status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/html/2604.02058v2",
+        "status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/pdf/0912.0670v1",
+        "status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/pdf/1609.01582v1",
+        "status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://arxiv.org/pdf/2002.03764v1",
+        "status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://diamhomes.ewi.tudelft.nl/~rfokkink/rendezvousproblems.pdf",
+        "status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/rsa.20691",
+        "status": "403",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/978-1-4614-6825-7_14",
+        "status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://doi.org/10.1287/moor.1110.0528",
+        "status": "403",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol364-stacs2026/html/LIPIcs.STACS.2026.18/LIPIcs.STACS.2026.18.html",
+        "status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://jscholarship.library.jhu.edu/bitstreams/7fe3fe14-33c1-4f06-9604-4a4f88f76106/download",
+        "status": "403",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://kar.kent.ac.uk/id/document/3440877",
+        "status": "200",
+        "exit_code": 0,
+        "error": ""
+      },
+      {
+        "url": "https://www.statslab.cam.ac.uk/~rrw1/research/K3%20revised.pdf",
+        "status": "200",
+        "exit_code": 0,
+        "error": ""
+      }
+    ]
+  }
+}
