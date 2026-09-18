@@ -1,0 +1,71 @@
+{
+  "checked_on": "2026-09-18",
+  "method": "Direct HTTPS GET; first 1024 bytes; four concurrent workers.",
+  "links": [
+    {
+      "url": "https://arxiv.org/html/1812.10309v3",
+      "error": "HTTP Error 406: Not Acceptable",
+      "alternate_access": "Exact same URL opened successfully through the web reader on 2026-09-18; complete HTML with 816 lines. Direct GET returned 406."
+    },
+    {
+      "url": "https://arxiv.org/html/2007.14944v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2007.14944v2",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/html/2302.12914v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2302.12914v1",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/html/2307.12094v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2307.12094v3",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/html/2402.18339v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2402.18339v1",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/html/2608.22895v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.22895v2",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/html/2609.10044v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2609.10044v1",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://doi.org/10.1016/j.disc.2025.114420",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0012365X25000287",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jctb.2023.10.010",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S009589562300093X",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://emis.de/ft/30050",
+      "status": 200,
+      "final_url": "https://emis.de/ft/30050",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://sites.math.rutgers.edu/~jkahn/LMULTI.pdf",
+      "status": 200,
+      "final_url": "https://sites.math.rutgers.edu/~jkahn/LMULTI.pdf",
+      "sample_bytes": 1024
+    }
+  ]
+}

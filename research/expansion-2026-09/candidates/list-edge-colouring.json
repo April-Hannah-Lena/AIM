@@ -1,0 +1,317 @@
+{
+  "candidate_id": "list-edge-colouring",
+  "proposed_catalogue_id": null,
+  "title": "List edge-colouring with no extra colours",
+  "decision": "accept_open",
+  "decision_reason": "Precise primary formulation, independently authored scholarly corroboration, full relevant claim-scope comparisons, duplicate audit and separated A45 self-review passed.",
+  "primary_section": "stochastic3",
+  "secondary_tags": [
+    "scheduling",
+    "resource allocation",
+    "graph colouring",
+    "operations research"
+  ],
+  "aliases": [
+    "List Edge-Coloring Conjecture",
+    "List Colouring Conjecture for multigraphs",
+    "equality of list and ordinary chromatic indices"
+  ],
+  "problem_fingerprint": {
+    "recorded_before_drafting": true,
+    "objects": "Every finite loopless multigraph G=(V,E) with at least one edge; parallel edges are allowed and count as distinct adjacent edges.",
+    "model": "Each edge e has an arbitrary finite list L(e) of permissible colour labels. Distinct edges sharing an endpoint must receive different labels.",
+    "quantifiers": "For every such G and every list assignment satisfying |L(e)| >= chi'(G) on all edges, there exists a proper edge colouring c with c(e) in L(e).",
+    "observable": "The list chromatic index chi'_ell(G), the smallest list-size guarantee that works for every assignment.",
+    "conclusion": "Prove or disprove chi'_ell(G)=chi'(G), where chi'(G) is the ordinary chromatic index.",
+    "scope": "Offline existence for all loopless multigraphs, with no algorithmic running-time condition. One canonical problem, including its simple-graph and complete-graph special cases. Neither vertex list colouring nor online paintability, correspondence colouring, edge recolouring, or a Delta+1 bound is the target."
+  },
+  "fingerprint_recorded_on": "2026-09-18",
+  "actual_status_check_date": "2026-09-18",
+  "statement_sources": [
+    {
+      "source": "Uwe Schauz, Proof of the List Edge Coloring Conjecture for Complete Graphs of Prime Degree (2014)",
+      "url": "https://emis.de/ft/30050",
+      "locator": "Definition on p.1 and Conjecture 1.1 on p.2"
+    },
+    {
+      "source": "Abhishek Dhawan, Multigraph edge-coloring with local list sizes (2025)",
+      "url": "https://arxiv.org/html/2307.12094v3",
+      "locator": "Section 1, Definitions 1.1–1.2 and the immediately following explicit conjecture",
+      "role": "Independently authored corroboration, including finite undirected loopless convention."
+    },
+    {
+      "source": "Amir Jafari, The List Edge-Coloring Conjecture for New Infinite Families (2026)",
+      "url": "https://arxiv.org/html/2608.22895v2",
+      "locator": "Section 1, multigraph formulation; latest v2 September 16, 2026",
+      "role": "Independently authored current formulation; family-specific claimed progress requires scope comparison."
+    }
+  ],
+  "publication_state": "Accepted research draft awaiting batch integration; no active ID.",
+  "review_arrangement": "Primary-agent research followed by a separated adversarial self-pass; no independent agent or human review.",
+  "source_records": [
+    {
+      "source_id": "S14",
+      "authors": [
+        "Uwe Schauz"
+      ],
+      "title": "Proof of the List Edge Coloring Conjecture for Complete Graphs of Prime Degree",
+      "venue": "Electronic Journal of Combinatorics 21(3) (2014), P3.43; DOI 10.37236/4084",
+      "url": "https://emis.de/ft/30050",
+      "locator": "pp.1–3, definition, Conjecture 1.1 and Theorems 1.2–1.5",
+      "read": "Full definitions, explicit multigraph conjecture and complete relevant theorem statements.",
+      "version": "Published September 18, 2014; publisher-hosted EMIS copy.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "D25",
+      "authors": [
+        "Abhishek Dhawan"
+      ],
+      "title": "Multigraph edge-coloring with local list sizes",
+      "venue": "Discrete Mathematics 348(6) (2025), 114420; DOI 10.1016/j.disc.2025.114420",
+      "url": "https://arxiv.org/html/2307.12094v3",
+      "locator": "Section 1, finite undirected loopless convention, Definitions 1.1–1.2, equation (1.3), Theorem 1.4 and Proposition 1.5",
+      "read": "Full model and independently authored explicit open formulation, intersection hypotheses, conclusions and algorithmic qualification.",
+      "version": "v1 July 22, 2023; v2 August 3, 2023; latest v3 January 15, 2025. Publisher metadata corroborated.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "K00",
+      "authors": [
+        "Jeff Kahn"
+      ],
+      "title": "Asymptotics of the list-chromatic index for multigraphs",
+      "venue": "Random Structures & Algorithms 17(2) (2000), 117–156",
+      "url": "https://sites.math.rutgers.edu/~jkahn/LMULTI.pdf",
+      "locator": "Section 1, printed pp.1–3, equation (1), Theorem 1.1 and equation (3)",
+      "read": "Full multigraph definitions, exact epsilon/threshold asymptotic statement and conjecture. Historical ordinary-colouring conjecture discussion is not treated as current.",
+      "version": "Author manuscript reached through the author's selected-papers page; publication identity verified against Wiley.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "BDLP24",
+      "authors": [
+        "Marthe Bonamy",
+        "Michelle Delcourt",
+        "Richard Lang",
+        "Luke Postle"
+      ],
+      "title": "Edge-colouring graphs with local list sizes",
+      "venue": "Journal of Combinatorial Theory, Series B 165 (2024), 68–96; DOI 10.1016/j.jctb.2023.10.010",
+      "url": "https://arxiv.org/html/2007.14944v2",
+      "locator": "Section 1, Conjecture 1, Theorems 2–7; Section 1.3, Theorem 8",
+      "read": "Definitions and full main local-list hypotheses; full restatements of Galvin and Kahn, including explicit multigraph scope for Galvin.",
+      "version": "v1 July 29, 2020; latest v2 November 8, 2023. HTML prints August 24, 2026, but the arXiv submission history supplies the version date.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "J26",
+      "authors": [
+        "Amir Jafari"
+      ],
+      "title": "The List Edge-Coloring Conjecture for New Infinite Families",
+      "venue": "arXiv:2608.22895v2, preprint",
+      "url": "https://arxiv.org/html/2608.22895v2",
+      "locator": "Section 1, Theorems 1.1–1.2; Section 6, Proposition 6.1, Theorem 6.2, Corollaries 6.3–6.4; Conclusion",
+      "read": "Full relevant theorem statements, deletion hypotheses and conclusion. Scope audit only; no independent proof certification.",
+      "version": "v1 August 24, 2026 had the longer complete-graph title; latest v2 September 16, 2026. Both history and current full text checked.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "IS21",
+      "authors": [
+        "Fotis Iliopoulos",
+        "Alistair Sinclair"
+      ],
+      "title": "Efficiently list-edge coloring multigraphs asymptotically optimally",
+      "venue": "arXiv:1812.10309v3, author version",
+      "url": "https://arxiv.org/html/1812.10309v3",
+      "locator": "Section 1, definitions, packet-exchange example, Theorems 1.2–1.4",
+      "read": "Full model, application, asymptotic guarantees and runtime statement.",
+      "version": "Latest v3 December 7, 2021; v1 December 26, 2018; v2 July 10, 2021.",
+      "access_limits": "Wiley DOI 10.1002/rsa.21074 lists Iliopoulos alone. The draft cites the verified two-author arXiv version and makes no claim about identical authorship or theorem numbering in the later journal text.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "BSVW24",
+      "authors": [
+        "Joakim Blikstad",
+        "Ola Svensson",
+        "Radu Vintan",
+        "David Wajc"
+      ],
+      "title": "Online Edge Coloring is (Nearly) as Easy as Offline",
+      "venue": "arXiv:2402.18339v1",
+      "url": "https://arxiv.org/html/2402.18339v1",
+      "locator": "Section 1, arrival model and Theorem 1.2; Appendix A, Theorem A.1",
+      "read": "Full relevant online guarantee, explicit positive additive slack q, known maximum degree, and high-probability conclusion.",
+      "version": "Only v1, February 28, 2024, in the checked arXiv history.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "N23",
+      "authors": [
+        "Jonathan Narboni"
+      ],
+      "title": "Vizing's edge-recoloring conjecture holds",
+      "venue": "arXiv:2302.12914v1",
+      "url": "https://arxiv.org/html/2302.12914v1",
+      "locator": "Section 1, Kempe-swap definition, Theorem 7 and Lemma 8",
+      "read": "Full recolouring model and relevant claims. No edge-specific lists are preserved.",
+      "version": "Only v1, February 24, 2023, in the checked arXiv history; HTML shortens the title.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    },
+    {
+      "source_id": "CD26",
+      "authors": [
+        "Yi-Jun Chang",
+        "Nima Dolatabadi"
+      ],
+      "title": "Introvert Clustering for Distributed Graph Algorithms",
+      "venue": "arXiv:2609.10044v1, preprint",
+      "url": "https://arxiv.org/html/2609.10044v1",
+      "locator": "Section 1, LOCAL model and Theorem 1",
+      "read": "Full graph/list-input model and list-colouring theorem, including degree threshold and bipartite exception.",
+      "version": "Only v1, September 9, 2026, in the checked history; discovered during A45.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true
+    }
+  ],
+  "search_ids": [
+    "S328-1",
+    "S329-1",
+    "S329-2",
+    "S330-1",
+    "S330-2",
+    "S330-3",
+    "S330-4",
+    "S331-1",
+    "S331-2",
+    "S331-3",
+    "S332-1",
+    "S332-2",
+    "S332-3",
+    "S332-4",
+    "S333-1",
+    "S333-2",
+    "S333-3",
+    "S333-4",
+    "S334-1",
+    "S334-2",
+    "S334-3",
+    "S334-4",
+    "S335-1",
+    "S335-2",
+    "S335-3",
+    "A45-1",
+    "A45-2",
+    "A45-3",
+    "A45-4",
+    "A45-5",
+    "A45-6"
+  ],
+  "resolution_comparisons": [
+    {
+      "source": "S14",
+      "result": "Equality for K_(p+1), p an odd prime, also in the painting game.",
+      "difference": "Only a complete-graph family, not arbitrary multigraphs."
+    },
+    {
+      "source": "J26",
+      "result": "Theorems 1.1–1.2 address K_(p-1) and K_(2p), p odd prime. Corollaries 6.3–6.4 delete specified cross-matchings or one perfect matching; the K_(p-1) deletion needs p>=5.",
+      "difference": "No theorem covers all multigraphs. Proposition 6.1's general even-order deletion consequence assumes a nonzero signed count; it does not establish that assumption for every order."
+    },
+    {
+      "source": "K00 and IS21",
+      "result": "Fractional and list indices agree up to a relative error tending to zero; expected-polynomial algorithms achieve asymptotic list sizes.",
+      "difference": "The degree threshold depends on the error parameter. Shrinking the error to force exact integer equality for a fixed graph is unjustified."
+    },
+    {
+      "source": "BDLP24",
+      "result": "Theorem 5 assumes simple graphs, sufficiently large maximum degree Delta, minimum degree at least ln^25 Delta, and lists at least (1+epsilon) times the larger endpoint degree.",
+      "difference": "Both the degree condition and the extra list-size allowance remain. Theorem 8 likewise uses a strict interior matching-polytope condition."
+    },
+    {
+      "source": "D25",
+      "result": "Theorem 1.4 bounds the size of the intersection of all incident edge lists at each vertex, with local degree/multiplicity conditions; its third case is bipartite.",
+      "difference": "List cardinality alone gives no common-intersection bound. In particular incident edges can have disjoint lists. Full algorithmic clause is conditional on polynomially bounded intersection input."
+    },
+    {
+      "source": "BSVW24",
+      "result": "Theorem A.1 requires list size at least Delta+q, where q=10^24 ln(n)+10^4(Delta^(3/4) ln(Delta)^(1/2)+Delta^(2/3) ln(n)^(1/3)).",
+      "difference": "This is an online algorithm with explicit additive slack and a known-degree assumption, not exact offline list-index equality."
+    },
+    {
+      "source": "N23",
+      "result": "Theorem 7 and Lemma 8 concern Kempe equivalence of ordinary edge colourings.",
+      "difference": "A Kempe swap need not preserve arbitrary lists; the claims therefore do not establish the target."
+    },
+    {
+      "source": "CD26",
+      "result": "Theorem 1 uses lists of size (3/2+epsilon)Delta, large Delta outside the bipartite case, and bounds communication rounds.",
+      "difference": "Communication efficiency under a larger list budget does not supply the exact chi'(G)-sized guarantee."
+    }
+  ],
+  "independent_corroboration": {
+    "formulation": "S14 Conjecture 1.1",
+    "independent_source": "D25 Section 1 after Definition 1.2; J26 Section 1 is a further recent independent formulation.",
+    "authorship_check": "Schauz, Dhawan and Jafari are distinct authors with no shared byline on these works."
+  },
+  "duplicate_review": {
+    "searched": "All active problem pages, data metadata and pending drafts; edge/list colouring, line graphs, chromatic index and named aliases.",
+    "nearest_entries": [
+      {
+        "id": 312,
+        "title": "Exact complexity of unit-job precedence scheduling on three processors",
+        "difference": "Precedence DAG and one interchangeable processor per job, with an algorithmic complexity target; here specified pairs of resources and an existence guarantee under arbitrary availability sets."
+      }
+    ],
+    "result": "No duplicate located. Simple graphs, complete graphs, parameter cases and the index identity remain one problem."
+  },
+  "adversarial_review": {
+    "review_id": "A45",
+    "date": "2026-09-18",
+    "arrangement": "Separated self-pass after draft creation; no independent agent or human review.",
+    "checks": [
+      "Rechecked loopless multigraph conventions, parallel-edge conflicts and the all-graphs/all-lists/existence quantifier order.",
+      "Checked equivalence of at-least-k and exactly-k finite lists by restricting lists; empty-edge case is vacuous.",
+      "Checked ordinary vertex colouring, correspondence colouring, total colouring, online colouring and Kempe recolouring are not silently substituted.",
+      "Reviewed later current claims and version histories; added the September 9 CD26 theorem comparison.",
+      "Checked asymptotic estimates do not imply exact equality by graph-dependent epsilon selection.",
+      "Read entry 312 and reran catalogue/draft alias searches.",
+      "Checked applied scheduling interpretation states simultaneous two-resource occupancy and does not promise a short common horizon."
+    ],
+    "corrections": [
+      "Added CD26 reference and explicit larger-list scope to the draft.",
+      "Used the IS21 two-author version explicitly because publisher metadata lists one author.",
+      "Used BDLP arXiv version history to avoid presenting a generated HTML date as a revision."
+    ],
+    "result": "pass",
+    "remaining_material_resolution_claims": []
+  },
+  "discovery_not_evidence": [
+    "Search indexes and AI-generated problem pages were discovery routes only. No such page is used for admission.",
+    "List Cascade Coloring on an AI-claims index is a differently named target; that index is not relied on as mathematical evidence."
+  ],
+  "qa": {
+    "status": "pass",
+    "catalogue": "scripts/catalogue.py --write and --check passed, 340 active entries.",
+    "counts": "49 records: 44 accepted, five holds, 40 integrated/published, four accepted drafts pending integration; all coverage and 1508 unique search IDs reconcile.",
+    "math": "14 expressions passed strict KaTeX with throwOnError; 1280x5600 full-page Chrome render visually inspected with fonts loaded and no clipping.",
+    "local_links": "All 111 links across README, source-map, discovery-queue and this draft resolve.",
+    "external_links": "10 of 11 direct GET checks returned HTTP 200. IS21 returned HTTP 406, but the same exact URL opened successfully in the web reader; transport limits recorded in list-edge-colouring-link-check.json.",
+    "diff": "git diff --check passed.",
+    "upstream": "Fetched origin/main matches local HEAD e5c92a488863b9cca4955f0f5c8ae4681bc3dc7f before checkpoint publication."
+  },
+  "remote_publication": {
+    "status": "not yet pushed"
+  }
+}

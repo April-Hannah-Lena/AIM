@@ -11891,5 +11891,396 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "S326-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"NANUQ\" \"level-2\" \"conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "Breadth discovery; no admission or full-text review implied by search alone."
+  },
+  {
+    "search_id": "S326-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"asynchronous Boolean networks\" \"motif-avoidant\" \"conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "Breadth discovery; no admission or full-text review implied by search alone."
+  },
+  {
+    "search_id": "S326-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"high dimensional statistics\" \"open problem\" \"minimax\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "Breadth discovery; no admission or full-text review implied by search alone."
+  },
+  {
+    "search_id": "S326-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Bernoulli sums\" \"Renyi\" \"concavity\" conjecture",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "Breadth discovery; no admission or full-text review implied by search alone."
+  },
+  {
+    "search_id": "S327-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Open Problem\" \"Hypergraphic Planted Clique\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "Breadth discovery; no admission or full-text review implied by search alone."
+  },
+  {
+    "search_id": "S327-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entangled\" \"Gaussian\" \"open problem\" mean estimation 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "Breadth discovery; no admission or full-text review implied by search alone."
+  },
+  {
+    "search_id": "S327-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Holtgrefe\" \"NANUQ\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "Breadth discovery; no admission or full-text review implied by search alone."
+  },
+  {
+    "search_id": "S327-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"An open problem: Why are motif-avoidant attractors\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "Breadth discovery; no admission or full-text review implied by search alone."
+  },
+  {
+    "search_id": "S328-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list edge colouring conjecture\" \"2026\" OR \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S328-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed conjecture\" \"2026\" \"proof\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "Breadth discovery; no admission or full-text review implied by search alone."
+  },
+  {
+    "search_id": "S328-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"NANUQ\" \"circular\" \"conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "Breadth discovery; no admission or full-text review implied by search alone."
+  },
+  {
+    "search_id": "S328-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entangled Gaussian\" \"optimal\" \"2026\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "Breadth discovery; no admission or full-text review implied by search alone."
+  },
+  {
+    "search_id": "S329-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list edge colouring conjecture\" survey",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S329-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list edge coloring conjecture\" 2026 proof solved",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S329-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed's conjecture\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "Breadth discovery; no admission or full-text review implied by search alone."
+  },
+  {
+    "search_id": "S329-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed conjecture\" \"2025\" coloring",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "Breadth discovery; no admission or full-text review implied by search alone."
+  },
+  {
+    "search_id": "S330-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list edge coloring conjecture\" proof counterexample disproof refutation",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S330-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list edge colouring conjecture\" solved resolution 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S330-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Asymptotics of the list-chromatic index for multigraphs\" pdf",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S330-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Edge-colouring graphs with local list sizes\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S331-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Kahn\" \"Asymptotics\" \"list-chromatic\" filetype:pdf",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S331-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list edge\" conjecture \"multigraph\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S331-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list edge coloring conjecture\" correction erratum withdrawn",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S331-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Reed's conjecture\" \"chromatic\" proof refutation",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "Breadth discovery; no admission or full-text review implied by search alone."
+  },
+  {
+    "search_id": "S332-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Kahn\" \"Asymptotics of the list-chromatic index for multigraphs\" Rutgers",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S332-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list edge coloring conjecture\" \"2026\" proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S332-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"The List Edge-Coloring Conjecture for New Infinite Families\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S332-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Vizing's edge-recoloring conjecture holds\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S333-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "site.math.rutgers.edu \"~jkahn\" list multigraphs",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S333-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Asymptotics of the list-chromatic index for multigraphs\" \"pdf\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S333-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list edge coloring\" conjecture scheduling availability",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S333-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list edge colouring\" conjecture refuted proved 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S334-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Asymptotics of the list-chromatic index\" \"Theorem\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S334-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Kahn\" \"list-chromatic index\" \"Theorem 1.1\" multigraph",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S334-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"List Edge-Coloring\" \"two resources\" scheduling",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S334-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list edge coloring conjecture\" \"proof\" -site:mathdb.com -site:researchgate.net -site:wikipedia.org",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S335-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Multigraph edge-coloring with local list sizes\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S335-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Efficiently list-edge coloring multigraphs asymptotically optimally\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "S335-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list edge coloring conjecture\" \"2026\" September resolution",
+    "date_filter_or_unrestricted": "unrestricted; literal years and domain exclusions where shown",
+    "review_stage": "List edge-colouring source and resolution investigation; exact full-text comparisons in the candidate ledger.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "A45-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list edge coloring conjecture\" proof disproof counterexample refutation \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after draft creation; later Chang–Dolatabadi result inspected at theorem/model level.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "A45-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list colouring conjecture\" multigraph solved proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after draft creation; later Chang–Dolatabadi result inspected at theorem/model level.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "A45-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Goldberg Seymour\" \"list\" conjecture proof 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after draft creation; later Chang–Dolatabadi result inspected at theorem/model level.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "A45-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Jafari\" \"list edge\" correction erratum withdrawn",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after draft creation; later Chang–Dolatabadi result inspected at theorem/model level.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "A45-5",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Bonamy\" \"Dhawan\" \"list\" \"colouring\" correction",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after draft creation; later Chang–Dolatabadi result inspected at theorem/model level.",
+    "candidate_id": "list-edge-colouring"
+  },
+  {
+    "search_id": "A45-6",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"list chromatic index\" \"ordinary\" equality counterexample",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after draft creation; later Chang–Dolatabadi result inspected at theorem/model level.",
+    "candidate_id": "list-edge-colouring"
   }
 ]
