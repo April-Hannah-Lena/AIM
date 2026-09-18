@@ -170,9 +170,13 @@
     {
       "commit": "bdcecb7dad63b280bdb2f0d91f9f1842d07c3f3b",
       "purpose": "Record reviewed sharp matroid secretary draft and evidence; pushed directly to main and independently verified September 18, 2026."
+    },
+    {
+      "commit": "42b66b93464d3ffd970dc53f70d6d64d8504bd64",
+      "purpose": "Record reviewed optimal binary-code rate draft and information/control discovery audits; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "Forty catalogue additions (301–340) and the sharp matroid secretary research draft are published directly on main. The binary-code rate draft has passed review locally and awaits this research-checkpoint push. Active catalogue total remains 340.",
+  "remote_state": "Forty catalogue additions (301–340) are published directly on main. Both accepted research drafts, sharp matroid secretary and optimal binary-code rate, are published; the latter checkpoint 42b66b93464d3ffd970dc53f70d6d64d8504bd64 was independently verified by ls-remote on September 18, 2026. Both await batch integration; active catalogue total remains 340.",
   "next_actions": [
     "Prepare eight more reviewed drafts for the next ten-entry batch; refresh all batch statuses and upstream duplicates before allocating IDs. The sharp matroid secretary and binary-code rate drafts are accepted without active IDs.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",

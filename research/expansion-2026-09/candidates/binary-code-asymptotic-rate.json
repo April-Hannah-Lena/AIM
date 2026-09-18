@@ -500,5 +500,15 @@
     "research": "PASS: all 47 records and section/progress counts reconcile; 103 local links across updated research Markdown files resolve; 1,417 unique actual searches.",
     "whitespace": "PASS: git diff --check.",
     "scope": "Research checkpoint only; no active ID allocated. A fresh review is required before batch integration."
+  },
+  "remote_publication": {
+    "state": "accepted_research_published_direct_to_main",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": "42b66b93464d3ffd970dc53f70d6d64d8504bd64",
+    "verified_on": "2026-09-18",
+    "verification": "Normal fast-forward push succeeded; separate git ls-remote --heads origin main matched the full commit.",
+    "catalogue_integration": "Pending. Research publication adds no active ID and does not increase the integrated/published-problem counts.",
+    "pull_request_url": null
   }
 }
