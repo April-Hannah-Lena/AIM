@@ -1,0 +1,578 @@
+{
+  "checked_on": "2026-09-18",
+  "method": "Direct GET, redirect-following, up to 25 seconds per request; response body sampled to confirm access, not used as a substitute for source reading.",
+  "total_unique_urls": 86,
+  "results": [
+    {
+      "url": "https://arxiv.org/abs/1706.06085",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.2
+    },
+    {
+      "url": "https://arxiv.org/abs/1911.03748",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.2
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.13952v2",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.2
+    },
+    {
+      "url": "https://arxiv.org/html/1411.4613v4",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.2
+    },
+    {
+      "url": "https://arxiv.org/html/1802.05690",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.2
+    },
+    {
+      "url": "https://arxiv.org/html/2111.07049v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.2
+    },
+    {
+      "url": "https://arxiv.org/html/2304.02449v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.2
+    },
+    {
+      "url": "https://arxiv.org/html/2304.05261v1",
+      "error": "HTTP Error 406: Not Acceptable",
+      "elapsed_seconds": 0.2
+    },
+    {
+      "url": "https://arxiv.org/html/2304.06713",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/html/2502.17338v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/html/2505.18839v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/html/2510.12050v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/html/2512.25043v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/html/2601.05338v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/html/2602.01054v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/html/2604.02058v2",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/html/2605.13107v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/html/2605.17251v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/html/2606.01330v2",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/html/2607.04073v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 1.1
+    },
+    {
+      "url": "https://arxiv.org/html/2607.04388v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 1.1
+    },
+    {
+      "url": "https://arxiv.org/html/2607.12208v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 1.1
+    },
+    {
+      "url": "https://arxiv.org/html/2607.14812v3",
+      "error": "HTTP Error 406: Not Acceptable",
+      "elapsed_seconds": 1.1
+    },
+    {
+      "url": "https://arxiv.org/html/2608.12490v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 1.1
+    },
+    {
+      "url": "https://arxiv.org/html/2608.19158v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/html/2608.21267v2",
+      "error": "HTTP Error 406: Not Acceptable",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/html/2609.05201v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/html/2609.11189v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/pdf/0809.3653v2",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/pdf/0912.0670v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/pdf/1203.0594v3",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/pdf/1609.01582v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/pdf/1610.06684",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/pdf/1905.03031v2",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/pdf/2008.12386v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/pdf/2010.06083v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/pdf/2102.05372v2",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/pdf/2502.15965v1",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/pdf/2506.01075v2",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://arxiv.org/pdf/math/0111285v2",
+      "status": 200,
+      "redirect_host": "arxiv.org",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://diamhomes.ewi.tudelft.nl/~rfokkink/rendezvousproblems.pdf",
+      "status": 200,
+      "redirect_host": "diamhomes.ewi.tudelft.nl",
+      "elapsed_seconds": 0.9
+    },
+    {
+      "url": "https://dma.uvigo.es/~eliz/pdf/QTDS2020.pdf",
+      "status": 200,
+      "redirect_host": "dma.uvigo.es",
+      "elapsed_seconds": 0.9
+    },
+    {
+      "url": "https://doi.org/10.1002/rsa.20691",
+      "error": "HTTP Error 403: Forbidden",
+      "elapsed_seconds": 1.4
+    },
+    {
+      "url": "https://doi.org/10.1007/978-1-4614-6825-7_14",
+      "status": 200,
+      "redirect_host": "link.springer.com",
+      "elapsed_seconds": 9.5
+    },
+    {
+      "url": "https://doi.org/10.1007/s11538-018-0407-5",
+      "status": 200,
+      "redirect_host": "link.springer.com",
+      "elapsed_seconds": 3.7
+    },
+    {
+      "url": "https://doi.org/10.1007/s12346-020-00405-1",
+      "status": 200,
+      "redirect_host": "link.springer.com",
+      "elapsed_seconds": 10.3
+    },
+    {
+      "url": "https://doi.org/10.1016/j.cnsns.2020.105188",
+      "status": 200,
+      "redirect_host": "linkinghub.elsevier.com",
+      "elapsed_seconds": 2.2
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jde.2018.02.018",
+      "status": 200,
+      "redirect_host": "linkinghub.elsevier.com",
+      "elapsed_seconds": 2.2
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jmaa.2026.130555",
+      "status": 200,
+      "redirect_host": "linkinghub.elsevier.com",
+      "elapsed_seconds": 1.8
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jtbi.2009.06.010",
+      "status": 200,
+      "redirect_host": "linkinghub.elsevier.com",
+      "elapsed_seconds": 1.8
+    },
+    {
+      "url": "https://doi.org/10.1016/j.na.2025.113853",
+      "status": 200,
+      "redirect_host": "linkinghub.elsevier.com",
+      "elapsed_seconds": 1.2
+    },
+    {
+      "url": "https://doi.org/10.1080/10635150802203898",
+      "error": "HTTP Error 403: Forbidden",
+      "elapsed_seconds": 0.3
+    },
+    {
+      "url": "https://doi.org/10.1111/sapm.12625",
+      "error": "HTTP Error 403: Forbidden",
+      "elapsed_seconds": 1.2
+    },
+    {
+      "url": "https://doi.org/10.1137/25M1737298",
+      "error": "HTTP Error 403: Forbidden",
+      "elapsed_seconds": 0.3
+    },
+    {
+      "url": "https://doi.org/10.1214/193940307000000167",
+      "status": 200,
+      "redirect_host": "projecteuclid.org",
+      "elapsed_seconds": 0.8
+    },
+    {
+      "url": "https://doi.org/10.1214/20-AIHP1089",
+      "status": 200,
+      "redirect_host": "projecteuclid.org",
+      "elapsed_seconds": 0.8
+    },
+    {
+      "url": "https://doi.org/10.1214/21-ECP423",
+      "status": 200,
+      "redirect_host": "projecteuclid.org",
+      "elapsed_seconds": 0.5
+    },
+    {
+      "url": "https://doi.org/10.1214/aos/1028144846",
+      "status": 200,
+      "redirect_host": "projecteuclid.org",
+      "elapsed_seconds": 0.5
+    },
+    {
+      "url": "https://doi.org/10.1287/moor.1110.0528",
+      "error": "HTTP Error 403: Forbidden",
+      "elapsed_seconds": 0.3
+    },
+    {
+      "url": "https://doi.org/10.3150/24-BEJ1768",
+      "status": 200,
+      "redirect_host": "projecteuclid.org",
+      "elapsed_seconds": 0.3
+    },
+    {
+      "url": "https://doi.org/10.3934/dcds.2003.9.309",
+      "status": 200,
+      "redirect_host": "www.aimsciences.org",
+      "elapsed_seconds": 0.5
+    },
+    {
+      "url": "https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2024.52",
+      "status": 200,
+      "redirect_host": "drops.dagstuhl.de",
+      "elapsed_seconds": 0.8
+    },
+    {
+      "url": "https://doi.org/10.4230/LIPIcs.ICALP.2025.3",
+      "status": 200,
+      "redirect_host": "drops.dagstuhl.de",
+      "elapsed_seconds": 0.6
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ICALP.2026.129",
+      "status": 200,
+      "redirect_host": "drops.dagstuhl.de",
+      "elapsed_seconds": 0.5
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2022.13",
+      "status": 200,
+      "redirect_host": "drops.dagstuhl.de",
+      "elapsed_seconds": 0.5
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2025.17",
+      "status": 200,
+      "redirect_host": "drops.dagstuhl.de",
+      "elapsed_seconds": 0.4
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.129/LIPIcs.ICALP.2026.129.html",
+      "status": 200,
+      "redirect_host": "drops.dagstuhl.de",
+      "elapsed_seconds": 0.4
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2024/035/revision/2/download",
+      "status": 200,
+      "redirect_host": "eccc.weizmann.ac.il",
+      "elapsed_seconds": 1.8
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2026/188/",
+      "status": 200,
+      "redirect_host": "eccc.weizmann.ac.il",
+      "elapsed_seconds": 1.2
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2026/188/download",
+      "status": 200,
+      "redirect_host": "eccc.weizmann.ac.il",
+      "elapsed_seconds": 9.0
+    },
+    {
+      "url": "https://ejde.math.txstate.edu/Volumes/2025/98/zheng.pdf",
+      "status": 200,
+      "redirect_host": "ejde.math.txstate.edu",
+      "elapsed_seconds": 0.5
+    },
+    {
+      "url": "https://hal.science/hal-05363003v2",
+      "status": 200,
+      "redirect_host": "hal.science",
+      "elapsed_seconds": 0.6
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s40324-024-00362-8",
+      "status": 200,
+      "redirect_host": "link.springer.com",
+      "elapsed_seconds": 14.9
+    },
+    {
+      "url": "https://par.nsf.gov/servlets/purl/10342268",
+      "status": 200,
+      "redirect_host": "par.nsf.gov",
+      "elapsed_seconds": 3.6
+    },
+    {
+      "url": "https://proceedings.mlr.press/v291/heidari25a.html",
+      "status": 200,
+      "redirect_host": "proceedings.mlr.press",
+      "elapsed_seconds": 0.2
+    },
+    {
+      "url": "https://publicatio.bibl.u-szeged.hu/18524/3/31123767.pdf",
+      "error": "<urlopen error timed out>",
+      "elapsed_seconds": 25.6
+    },
+    {
+      "url": "https://research.vu.nl/ws/portalfiles/portal/119991482/A_proof_of_Wrights_conjecture.pdf",
+      "status": 200,
+      "redirect_host": "research.vu.nl",
+      "elapsed_seconds": 0.7
+    },
+    {
+      "url": "https://theoryofcomputing.org/articles/v010a006/v010a006.pdf",
+      "status": 200,
+      "redirect_host": "theoryofcomputing.org",
+      "elapsed_seconds": 0.2
+    },
+    {
+      "url": "https://www.cs.cmu.edu/~liuy/",
+      "status": 200,
+      "redirect_host": "www.cs.cmu.edu",
+      "elapsed_seconds": 0.9
+    },
+    {
+      "url": "https://www.cs.cmu.edu/~liuy/dnf_queries.pdf",
+      "error": "[Errno 54] Connection reset by peer",
+      "elapsed_seconds": 10.2
+    },
+    {
+      "url": "https://www.math.canterbury.ac.nz/~m.steel/Non_UC/files/research/lina.pdf",
+      "error": "HTTP Error 403: Forbidden",
+      "elapsed_seconds": 0.8
+    },
+    {
+      "url": "https://www.math.uwaterloo.ca/~wang/papers/2024Chi-Ramdas-Wang-BJ.pdf",
+      "status": 200,
+      "redirect_host": "www.math.uwaterloo.ca",
+      "elapsed_seconds": 0.4
+    },
+    {
+      "url": "https://www.researchgate.net/publication/1923874_On_the_Simes_inequality_and_its_generalization",
+      "error": "HTTP Error 403: Forbidden",
+      "elapsed_seconds": 0.2
+    },
+    {
+      "url": "https://www.researchgate.net/publication/38348568_Some_probability_inequalities_for_ordered_rm_MTPsb_2_random_variables_a_proof_of_the_Simes_conjecture",
+      "error": "HTTP Error 403: Forbidden",
+      "elapsed_seconds": 0.1
+    },
+    {
+      "url": "https://www.statslab.cam.ac.uk/~rrw1/research/K3%20revised.pdf",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)>",
+      "elapsed_seconds": 0.4
+    },
+    {
+      "url": "https://www2.gwu.edu/~clade/bisc%20207/LiEtAl2008.pdf",
+      "status": 200,
+      "redirect_host": "www2.gwu.edu",
+      "elapsed_seconds": 1.1
+    }
+  ],
+  "retries": [
+    {
+      "url": "https://publicatio.bibl.u-szeged.hu/18524/3/31123767.pdf",
+      "method": "HTTP/1.1 GET via curl with normal TLS verification",
+      "exit_code": 28,
+      "http_status": "000",
+      "bytes": 0,
+      "error": "curl: (28) Connection timed out after 30011 milliseconds"
+    },
+    {
+      "url": "https://www.cs.cmu.edu/~liuy/dnf_queries.pdf",
+      "method": "HTTP/1.1 GET via curl with normal TLS verification",
+      "exit_code": 0,
+      "http_status": "200",
+      "bytes": 192669
+    },
+    {
+      "url": "https://www.math.canterbury.ac.nz/~m.steel/Non_UC/files/research/lina.pdf",
+      "method": "HTTP/1.1 GET via curl with normal TLS verification",
+      "exit_code": 0,
+      "http_status": "403",
+      "bytes": 4575
+    },
+    {
+      "url": "https://www.statslab.cam.ac.uk/~rrw1/research/K3%20revised.pdf",
+      "method": "HTTP/1.1 GET via curl with normal TLS verification",
+      "exit_code": 0,
+      "http_status": "200",
+      "bytes": 391239
+    }
+  ],
+  "alternate_reader_access": [
+    {
+      "url": "https://arxiv.org/html/2304.05261v1",
+      "checked_on": "2026-09-18",
+      "result": "Full text accessible through web reader; direct GET restriction retained above."
+    },
+    {
+      "url": "https://arxiv.org/html/2607.14812v3",
+      "checked_on": "2026-09-18",
+      "result": "Full text accessible through web reader; direct GET restriction retained above."
+    },
+    {
+      "url": "https://arxiv.org/html/2608.21267v2",
+      "checked_on": "2026-09-18",
+      "result": "Full text accessible through web reader; direct GET restriction retained above."
+    },
+    {
+      "url": "https://www.researchgate.net/publication/1923874_On_the_Simes_inequality_and_its_generalization",
+      "checked_on": "2026-09-18",
+      "result": "Full text accessible through web reader; direct GET restriction retained above."
+    },
+    {
+      "url": "https://www.researchgate.net/publication/38348568_Some_probability_inequalities_for_ordered_rm_MTPsb_2_random_variables_a_proof_of_the_Simes_conjecture",
+      "checked_on": "2026-09-18",
+      "result": "Full text accessible through web reader; direct GET restriction retained above."
+    },
+    {
+      "url": "https://publicatio.bibl.u-szeged.hu/18524/3/31123767.pdf",
+      "checked_on": "2026-09-18",
+      "result": "Full text accessible through web reader; direct GET restriction retained above."
+    },
+    {
+      "url": "https://www.math.canterbury.ac.nz/~m.steel/Non_UC/files/research/lina.pdf",
+      "checked_on": "2026-09-18",
+      "result": "Full text accessible through web reader; direct GET restriction retained above."
+    }
+  ],
+  "summary": "74 of 86 URLs succeeded by direct GET including two HTTP/1.1 retries. Five restricted publisher DOI destinations have successful author/institutional alternatives linked on the same pages. Seven other restricted/timed-out full-text routes were accessible through the web reader during this review."
+}

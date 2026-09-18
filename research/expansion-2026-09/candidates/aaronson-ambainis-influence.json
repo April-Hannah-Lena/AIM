@@ -1,6 +1,6 @@
 {
   "candidate_id": "aaronson-ambainis-influence",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "338",
   "title": "Aaronson–Ambainis influential-variable conjecture",
   "aliases": [
     "AA conjecture",
@@ -605,7 +605,7 @@
     "outcome": "pass",
     "changes": "Added the AB26 switching-lemma comparison; clarified that no converse to the simulation implication is asserted."
   },
-  "public_page_path": null,
+  "public_page_path": "problems/338-aaronson-ambainis-influence.md",
   "draft_path": "research/expansion-2026-09/drafts/aaronson-ambainis-influence.md",
   "validation_results": {
     "checked_on": "2026-09-18",
@@ -618,7 +618,11 @@
     "diff": "git diff --check passed."
   },
   "remote_publication": {
-    "state": "not_integrated"
+    "state": "integrated_local_push_pending",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
   },
   "independent_status_corroboration": {
     "original_source": "AA14",
@@ -647,9 +651,16 @@
     "Third-party/AI-generated problem summaries were discovery leads only; no admission or theorem-scope conclusion relies on them."
   ],
   "prepublication_refresh": {
-    "required_before_integration": true,
-    "status": "pending batch 4 refresh",
-    "note": "Research checkpoint only; no active ID. Status and upstream duplicates must be refreshed immediately before catalogue integration."
+    "date": "2026-09-18",
+    "latest_target_commit": "a2d4fa66a66d0113e91214ce00006084d04d118c",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R4-8"
+    ],
+    "outcome": "Fresh searches recovered the reviewed random-restriction, completely bounded and quantum-estimate results. No matching unrestricted scalar influence proof located; AI-generated problem databases were not used as evidence.",
+    "upstream": "SSH fetch shows HEAD equals origin/main. Connected GitHub metadata verifies private MColbrook/AIM, main default and push permission; paginated branch search contains only main; open-PR search returns none.",
+    "duplicate_scope": "Established full baseline and 330 active entries, all ten batch statements and closest prior families. No new upstream files or equivalent accepted statement located."
   },
   "research_publication": {
     "state": "published",
@@ -658,5 +669,15 @@
     "commit": "b4106af4399b66c4e70bf21a3dffcfa4f40e71f9",
     "independently_verified_on": "2026-09-18",
     "verification": "Successful direct push followed by a separate git ls-remote --heads origin main matching this commit."
+  },
+  "publication_state": "Accepted and integrated locally in batch 4; direct push pending.",
+  "batch_integration_validation": {
+    "checked_on": "2026-09-18",
+    "catalogue": "PASS: --write and --check, 340 active entries",
+    "whitespace": "PASS",
+    "preservation": "Original 300 and prior 330 pages byte-identical to their respective bases; prior metadata rows unchanged.",
+    "math": "All 225 batch expressions pass strict KaTeX; prior nine drafts retain identical expressions and recorded visual checks; new Simes full-page visual check passed.",
+    "links": "Research/public local links valid; 86 external bibliography URLs checked with route/access limitations in batch-04-link-check.json.",
+    "counts": "45 investigated, 40 accepted/integrated, five held; 1339 unique actual searches."
   }
 }

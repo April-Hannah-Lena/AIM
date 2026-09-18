@@ -1,8 +1,8 @@
-# Aaronson–Ambainis influential-variable conjecture
+# 338. Aaronson–Ambainis influential-variable conjecture
 
 **Area:** Boolean Fourier analysis and quantum query complexity
 
-**Status:** Accepted; integrated as entry 338
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -50,10 +50,8 @@ For unrestricted bounded polynomials, the general influence estimate recalled in
 
 In [4, Theorem 6.4], the influential coordinate belongs to a randomly restricted polynomial, with a variance hypothesis and a probability guarantee over restrictions. The coordinate can vary with the restriction; this is not a dimension-free bound for a fixed coordinate of the original polynomial. The algorithmic result [3, Theorem 1] is polynomial for a fixed number of query rounds, with constants and exponents depending on that number. It does not prove the unrestricted scalar-polynomial assertion. The authors of [6] explicitly withdrew their proof because a flaw in Lemma 5.3 invalidated the argument.
 
-The [evidence record](../candidates/aaronson-ambainis-influence.json) also compares the Liu–Mutreja parallel-query theorem, noncommutative counterexamples, unconditional randomness certification, and Agarwal–Ben-David's 2026 switching lemma. The latter still applies after a dimension-dependent random restriction. The others concern different models or consequences. Relevant full statements and scope discussions were read; complete proofs have not been independently certified. Historical bounds were checked through explicit scholarly restatements.
+The [evidence record](../research/expansion-2026-09/candidates/aaronson-ambainis-influence.json) also compares the Liu–Mutreja parallel-query theorem, noncommutative counterexamples, unconditional randomness certification, and Agarwal–Ben-David's 2026 switching lemma. The latter still applies after a dimension-dependent random restriction. The others concern different models or consequences. Relevant full statements and scope discussions were read; complete proofs have not been independently certified. Historical bounds were checked through explicit scholarly restatements.
 
-This differs from the mutual-information optimization in [entry 269](../../../problems/269-most-informative-boolean-function.md), exact communication in [entry 301](../../../problems/301-log-rank.md), and efficient learning from examples in the [DNF draft](classical-uniform-dnf-learning.md). Equivalent influence conventions and the simulation consequence receive no additional count. The separated A39 adversarial self-pass passed on September 18; no independent agent or human review is claimed.
+This differs from the mutual-information optimization in [entry 269](269-most-informative-boolean-function.md), exact communication in [entry 301](301-log-rank.md), and efficient learning from examples in the [entry 337](337-classical-uniform-dnf-learning.md). Equivalent influence conventions and the simulation consequence receive no additional count. The separated A39 adversarial self-pass passed on September 18; no independent agent or human review is claimed.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
-
-Integrated page: [338. Aaronson–Ambainis influential-variable conjecture](../../../problems/338-aaronson-ambainis-influence.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../research/expansion-2026-09/batch-04-review.md). No matching later resolution was located.

@@ -206,5 +206,13 @@
     "file": "problems/315-reversible-reaction-classical-continuation.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "335",
+    "title": "Global classical continuation in the chemotaxis-consumption system",
+    "area": "Mathematical biology / chemotaxis and cross-diffusion",
+    "file": "problems/335-chemotaxis-consumption-classical-continuation.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
   }
 ]

@@ -222,5 +222,13 @@
     "file": "problems/329-selected-brownian-population-genealogy.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "339",
+    "title": "Accuracy of parsimony reconstruction under a molecular clock",
+    "area": "Mathematical phylogenetics and ancestral-state inference",
+    "file": "problems/339-fitch-ultrametric-ancestral-accuracy.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
   }
 ]

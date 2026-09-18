@@ -1,6 +1,6 @@
 {
   "candidate_id": "symmetric-rendezvous-discrete-locations",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "331",
   "title": "Optimal symmetric rendezvous among discrete locations",
   "aliases": [
     "Mozart Café problem",
@@ -1077,7 +1077,7 @@
   "open_status_evidence_summary": "A13 explicit question and independent CFK26 v2 §5 retain exact finite-size optimality; current resolution searches found only partial or changed-model results.",
   "independent_status_corroboration": "Cembrano–Fischer–Klimm are independent of Alpern. Author-hosted and arXiv versions of their paper count once.",
   "strongest_known_partial_results_and_gap": "Solved n=2,3; strict improvements over Anderson–Weber for all finite n≥4. Asymptotic expectation bounds remain separated, approximately 0.6389n and 0.8289n; no exact finite-n optimum found.",
-  "actual_status_check_date": "2026-09-17",
+  "actual_status_check_date": "2026-09-18",
   "source_access_limitations": [
     "Source-specific access and reading limits appear above.",
     "No independent certification of mathematical proofs.",
@@ -1113,17 +1113,18 @@
     "verdict": "pass"
   },
   "prepublication_refresh": {
-    "date": "2026-09-17",
-    "latest_target_commit": "dd5b9c1b7aa188850706e1ac5c0fd4856c043833",
+    "date": "2026-09-18",
+    "latest_target_commit": "a2d4fa66a66d0113e91214ce00006084d04d118c",
     "resolution_searches_refreshed": true,
     "duplicate_review_refreshed": true,
     "search_ids": [
-      "A32-5",
-      "A32-6"
+      "R4-1"
     ],
-    "outcome": "No matching full optimum located; reopened current primary version history and §5. SSH remote heads and connected GitHub PR/metadata checks passed. This publishes research only; refresh again before catalogue integration."
+    "outcome": "Fresh search recovered the reviewed Cembrano–Fischer–Klimm improvement and solved two-/three-location cases; no exact all-n>=4 optimum located.",
+    "upstream": "SSH fetch shows HEAD equals origin/main. Connected GitHub metadata verifies private MColbrook/AIM, main default and push permission; paginated branch search contains only main; open-PR search returns none.",
+    "duplicate_scope": "Established full baseline and 330 active entries, all ten batch statements and closest prior families. No new upstream files or equivalent accepted statement located."
   },
-  "public_page_path": null,
+  "public_page_path": "problems/331-symmetric-rendezvous-discrete-locations.md",
   "draft_page_path": "research/expansion-2026-09/drafts/symmetric-rendezvous-discrete-locations.md",
   "validation_results": [
     "2026-09-17: 23 math expressions passed strict KaTeX. Rendered statement and applied-significance screenshot visually inspected; no clipping.",
@@ -1132,7 +1133,7 @@
     "2026-09-17: 13 external links checked: ten HTTP 200, three HTTP 403 (two publisher DOIs with accessible author manuscripts and the JHU thesis available through the web reader). See bibliography_link_check."
   ],
   "remote_publication": {
-    "state": "not_integrated",
+    "state": "integrated_local_push_pending",
     "repository": "MColbrook/AIM",
     "branch": "main",
     "commit": null,
@@ -1228,5 +1229,15 @@
         "error": ""
       }
     ]
+  },
+  "publication_state": "Accepted and integrated locally in batch 4; direct push pending.",
+  "batch_integration_validation": {
+    "checked_on": "2026-09-18",
+    "catalogue": "PASS: --write and --check, 340 active entries",
+    "whitespace": "PASS",
+    "preservation": "Original 300 and prior 330 pages byte-identical to their respective bases; prior metadata rows unchanged.",
+    "math": "All 225 batch expressions pass strict KaTeX; prior nine drafts retain identical expressions and recorded visual checks; new Simes full-page visual check passed.",
+    "links": "Research/public local links valid; 86 external bibliography URLs checked with route/access limitations in batch-04-link-check.json.",
+    "counts": "45 investigated, 40 accepted/integrated, five held; 1339 unique actual searches."
   }
 }

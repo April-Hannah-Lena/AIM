@@ -214,5 +214,13 @@
     "file": "problems/319-belgian-chocolate-threshold.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "333",
+    "title": "Global attraction for Wright-type delayed feedback",
+    "area": "Population dynamics and nonlinear delayed feedback",
+    "file": "problems/333-generalized-wright-global-attraction.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
   }
 ]

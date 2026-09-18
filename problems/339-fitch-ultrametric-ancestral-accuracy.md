@@ -1,8 +1,8 @@
-# Accuracy of parsimony reconstruction under a molecular clock
+# 339. Accuracy of parsimony reconstruction under a molecular clock
 
 **Area:** Mathematical phylogenetics and ancestral-state inference
 
-**Status:** Accepted; integrated as entry 339
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -60,16 +60,14 @@ Ancestral-state inference estimates a trait or a sequence position of a common a
 
 Open in cited literature; no later resolution located as of 2026-09-18.
 
-The September 18, 2026 search covered the conjecture's authors, Fitch/Neyman and molecular-clock terminology, general-state accuracy inequalities, proof and counterexample terms, 2025–2026 work, unrestricted dates, corrections and manuscript histories. Herbst–Fischer supplies a specialist assessment with authors disjoint from the original paper. Its publisher text was subscription-only; the relevant author-manuscript sections were read. The [evidence record](../candidates/fitch-ultrametric-ancestral-accuracy.json) records access and version differences and the full scope comparisons.
+The September 18, 2026 search covered the conjecture's authors, Fitch/Neyman and molecular-clock terminology, general-state accuracy inequalities, proof and counterexample terms, 2025–2026 work, unrestricted dates, corrections and manuscript histories. Herbst–Fischer supplies a specialist assessment with authors disjoint from the original paper. Its publisher text was subscription-only; the relevant author-manuscript sections were read. The [evidence record](../research/expansion-2026-09/candidates/fitch-ultrametric-ancestral-accuracy.json) records access and version differences and the full scope comparisons.
 
 Herbst–Li–Steel proves the general bound $\Pr\{\widehat\sigma_\rho=\sigma_\rho\}\ge1/r$. For finite $H$, the requested $q_r(H)$ is larger. Its comparison with a recursive coin-toss estimator is proved for two states and conjectured for general $r$; Theorem 2 identifies the coin-toss benchmark with $q_r(H)$ under the clock assumption. Roch–Wang also treats two states, with a branching condition and an infinite-depth benchmark.
 
 The non-clock counterexamples in Li–Steel–Zhang and Fischer–Thatte do not satisfy the equal-height hypothesis. Counterexamples to improvement over arbitrary subsets do not refute comparison with a single leaf. Other checked results concern prescribed leaf patterns, reconstruction of tree topology, or special tree shapes, rather than the asserted probability bound for all finite clock-like trees. No matching later resolution was located.
 
-This is one problem across alphabet sizes. Unequal substitution rates, arbitrary subsets, and the stronger non-clock coin-toss conjecture are not separate additions. It differs from [selected-population genealogy](../../../problems/329-selected-brownian-population-genealogy.md), which asks for a random ancestry process, and [trace reconstruction](polynomial-trace-reconstruction.md), which asks how many deletion-channel observations identify an unknown string.
+This is one problem across alphabet sizes. Unequal substitution rates, arbitrary subsets, and the stronger non-clock coin-toss conjecture are not separate additions. It differs from [selected-population genealogy](329-selected-brownian-population-genealogy.md), which asks for a random ancestry process, and [trace reconstruction](332-polynomial-trace-reconstruction.md), which asks how many deletion-channel observations identify an unknown string.
 
 Review was a separated adversarial self-pass after drafting. No independent agent or human review is claimed.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
-
-Integrated page: [339. Accuracy of parsimony reconstruction under a molecular clock](../../../problems/339-fitch-ultrametric-ancestral-accuracy.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../research/expansion-2026-09/batch-04-review.md). No matching later resolution was located.

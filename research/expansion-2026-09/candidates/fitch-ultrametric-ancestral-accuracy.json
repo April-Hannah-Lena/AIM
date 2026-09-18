@@ -1,6 +1,6 @@
 {
   "candidate_id": "fitch-ultrametric-ancestral-accuracy",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "339",
   "title": "Accuracy of parsimony reconstruction under a molecular clock",
   "decision": "accept_open",
   "decision_reason": "Explicit source conjecture and independently authored specialist corroboration for r>4; later and potentially conflicting results compared at their actual scope; duplicate and separated A40 reviews passed.",
@@ -50,7 +50,7 @@
     }
   ],
   "draft_path": "research/expansion-2026-09/drafts/fitch-ultrametric-ancestral-accuracy.md",
-  "public_page_path": null,
+  "public_page_path": "problems/339-fitch-ultrametric-ancestral-accuracy.md",
   "actual_status_check_date": "2026-09-18",
   "second_review": {
     "status": "passed",
@@ -456,7 +456,7 @@
       "assessment": "Abstract explicitly concerns likelihood/empirical-Bayes consistency on star trees; not used as a theorem-level resolution comparison or status evidence."
     }
   ],
-  "publication_state": "Accepted research draft pushed directly to main in 9fe8c0b204ef323ca6bbf11c9366c9cbdfb68393; remote ref independently verified 2026-09-18. Catalogue ID and batch integration pending.",
+  "publication_state": "Accepted and integrated locally in batch 4; direct push pending.",
   "quality_checks": {
     "strict_katex_expressions": 31,
     "render": "Full local HTML rendered with headless Chrome; PNG visually inspected 2026-09-18. No clipped or malformed equations.",
@@ -510,5 +510,33 @@
       }
     ]
   },
-  "public_status": "Open in cited literature; no later resolution located as of 2026-09-18."
+  "public_status": "Open in cited literature; no later resolution located as of 2026-09-18.",
+  "prepublication_refresh": {
+    "date": "2026-09-18",
+    "latest_target_commit": "a2d4fa66a66d0113e91214ce00006084d04d118c",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R4-9"
+    ],
+    "outcome": "Fresh searches recovered the reviewed two-/four-state results and subset comparisons; no all-r>4 finite-clock-tree single-leaf resolution located.",
+    "upstream": "SSH fetch shows HEAD equals origin/main. Connected GitHub metadata verifies private MColbrook/AIM, main default and push permission; paginated branch search contains only main; open-PR search returns none.",
+    "duplicate_scope": "Established full baseline and 330 active entries, all ten batch statements and closest prior families. No new upstream files or equivalent accepted statement located."
+  },
+  "remote_publication": {
+    "state": "integrated_local_push_pending",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "batch_integration_validation": {
+    "checked_on": "2026-09-18",
+    "catalogue": "PASS: --write and --check, 340 active entries",
+    "whitespace": "PASS",
+    "preservation": "Original 300 and prior 330 pages byte-identical to their respective bases; prior metadata rows unchanged.",
+    "math": "All 225 batch expressions pass strict KaTeX; prior nine drafts retain identical expressions and recorded visual checks; new Simes full-page visual check passed.",
+    "links": "Research/public local links valid; 86 external bibliography URLs checked with route/access limitations in batch-04-link-check.json.",
+    "counts": "45 investigated, 40 accepted/integrated, five held; 1339 unique actual searches."
+  }
 }

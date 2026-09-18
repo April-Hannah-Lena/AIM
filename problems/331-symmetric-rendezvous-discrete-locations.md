@@ -1,8 +1,8 @@
-# Optimal symmetric rendezvous among discrete locations
+# 331. Optimal symmetric rendezvous among discrete locations
 
 **Area:** Decentralized coordination and search theory
 
-**Status:** Accepted; integrated as entry 331
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -38,7 +38,7 @@ The model measures the cost of coordination when two identical agents can use th
 
 ## Status review
 
-The September 17, 2026 investigation covered symmetric rendezvous, discrete locations, complete graphs, the Mozart Café name, the original and later authors, recent proofs, counterexamples, corrections and version histories. Alpern's explicit problem and the independent Cembrano–Fischer–Klimm August 2026 revision support the formulation and remaining gap. Full access and scope comparisons are recorded in the [evidence ledger](../candidates/symmetric-rendezvous-discrete-locations.json).
+The September 17, 2026 investigation covered symmetric rendezvous, discrete locations, complete graphs, the Mozart Café name, the original and later authors, recent proofs, counterexamples, corrections and version histories. Alpern's explicit problem and the independent Cembrano–Fischer–Klimm August 2026 revision support the formulation and remaining gap. Full access and scope comparisons are recorded in the [evidence ledger](../research/expansion-2026-09/candidates/symmetric-rendezvous-discrete-locations.json).
 
 Two and three locations are solved. Weber's value $5/2$ assumes distinct initial locations; it becomes $r_3=5/3$ with the time-zero convention here. His four-location result and Cembrano–Fischer–Klimm's Theorem 2 improve the Anderson–Weber strategy without determining the optimum. The latter gives an explicit improvement for every finite $n\ge4$ and explicitly leaves optimal strategies open in §5. It therefore refutes optimality of that particular strategy, not the present open optimization question.
 
@@ -46,10 +46,8 @@ Dani–Hayes–Moore–Russell give an asymptotic lower bound $(0.6389\ldots-o(1
 
 Other apparently relevant solutions use detectable tokens, one-step success probabilities, shared location labels, an infinite line, or restricted memory. In particular, the September 12, 2026 integer-line result concerns oblivious self-distance strategies and does not solve the complete-graph problem. The ledger records the exact restrictions and source-reading limits. Mathematical proofs have not been independently certified.
 
-Unlike [entry 302](../../../problems/302-cerny.md), this question concerns two agents with independent random choices and an unknown label matching, not one word resetting every state of a deterministic automaton. The online allocation objectives in [entry 286](../../../problems/286-deterministic-k-server.md) and [entry 326](../../../problems/326-online-bin-packing-optimal-ratio.md) instead compare performance with an offline optimum under adversarial requests. A recent matching claim for historical entry 286 is recorded in a [separate status follow-up](../baseline-status-followup.md).
+Unlike [entry 302](302-cerny.md), this question concerns two agents with independent random choices and an unknown label matching, not one word resetting every state of a deterministic automaton. The online allocation objectives in [entry 286](286-deterministic-k-server.md) and [entry 326](326-online-bin-packing-optimal-ratio.md) instead compare performance with an offline optimum under adversarial requests. A recent matching claim for historical entry 286 is recorded in a [separate status follow-up](../research/expansion-2026-09/baseline-status-followup.md).
 
 The separated A32 adversarial self-pass checked the time convention, unrestricted strategy class, source versions and related-result scopes. No independent agent or human review occurred.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
-
-Integrated page: [331. Optimal symmetric rendezvous among discrete locations](../../../problems/331-symmetric-rendezvous-discrete-locations.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../research/expansion-2026-09/batch-04-review.md). No matching later resolution was located.

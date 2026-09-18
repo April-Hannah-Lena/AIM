@@ -238,5 +238,21 @@
     "file": "problems/328-gaussian-polynomial-unlinking.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "337",
+    "title": "Polynomial-time DNF learning from uniform random examples",
+    "area": "Statistical learning, Boolean rules and computational complexity",
+    "file": "problems/337-classical-uniform-dnf-learning.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
+  },
+  {
+    "id": "340",
+    "title": "Simes error control for two-sided Gaussian tests",
+    "area": "Multiple testing and statistical inference",
+    "file": "problems/340-two-sided-gaussian-simes.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
   }
 ]

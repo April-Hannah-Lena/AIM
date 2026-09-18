@@ -1,6 +1,6 @@
 {
   "candidate_id": "strong-thin-tree",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "334",
   "title": "Strong thin-tree conjecture",
   "aliases": [
     "O(1/k)-thin spanning trees",
@@ -388,12 +388,12 @@
     ],
     "verdict": "pass_for_research_draft"
   },
-  "public_page_path": null,
+  "public_page_path": "problems/334-strong-thin-tree.md",
   "draft_page_path": "research/expansion-2026-09/drafts/strong-thin-tree.md",
-  "actual_status_check_date": "2026-09-17",
+  "actual_status_check_date": "2026-09-18",
   "statement_source_and_scope_match": "Klein–Olver–Yeoh (ICALP 2026), §1 and §2.1, with independent Anari–Oveis Gharan (2015), §1 Definition 1.1 and discussion after Conjecture 1.3. Their strong form fixes a universal numerator; the ICALP introduction's 'some constant k' is a typographical slip, resolved by its abstract and independent explicit strong formulation.",
   "remote_publication": {
-    "state": "not_integrated",
+    "state": "integrated_local_push_pending",
     "repository": "MColbrook/AIM",
     "branch": "main",
     "commit": null,
@@ -595,11 +595,16 @@
   ],
   "proposed_statement_text": "Let $G=(V,E)$ be a finite undirected loopless multigraph with at least two vertices. Parallel edges are counted separately. For a nonempty proper set $S\\subsetneq V$, write $\\delta_G(S)$ for the edges with exactly one endpoint in $S$. For an integer $k\\ge1$, call $G$ $k$-edge-connected if $|\\delta_G(S)|\\ge k$ for every such $S$.\n\nDoes there exist an absolute constant $C>0$ such that every $k$-edge-connected $G$, for every $k\\ge1$, has a spanning tree $T\\subseteq E$ satisfying\n\n$$\n|T\\cap\\delta_G(S)|\\le\\frac{C}{k}\\,|\\delta_G(S)|\n\\qquad\\text{for every }\\varnothing\\ne S\\subsetneq V?\n$$\n\nThe same tree must satisfy every cut inequality, and $C$ must be independent of $k$, $G$ and $|V|$. Edges are unweighted. This is the strong thin-tree conjecture; the question requires existence, without an efficient construction or verification algorithm. Goddyn's weaker version permits an arbitrary thinness bound tending to zero with connectivity. It is included here as context, without a separate count or a claim of equivalence. [1, 2]\n",
   "prepublication_refresh": {
-    "date": "2026-09-17",
-    "latest_target_commit": "66995c4fdbe452bcaa254bc5d7187cecee467e83",
+    "date": "2026-09-18",
+    "latest_target_commit": "a2d4fa66a66d0113e91214ce00006084d04d118c",
     "resolution_searches_refreshed": true,
     "duplicate_review_refreshed": true,
-    "outcome": "A35 current search and local duplicate refresh passed. Independent remote branch listing returned only main at unchanged local HEAD 66995c4fdbe452bcaa254bc5d7187cecee467e83. This publication adds research files only; refresh again before active batch integration."
+    "search_ids": [
+      "R4-4"
+    ],
+    "outcome": "Current ICALP near-minimum-cut result remains restricted. Daga author page reopened September 18: beyond-laminar title still has no linked manuscript or theorem.",
+    "upstream": "SSH fetch shows HEAD equals origin/main. Connected GitHub metadata verifies private MColbrook/AIM, main default and push permission; paginated branch search contains only main; open-PR search returns none.",
+    "duplicate_scope": "Established full baseline and 330 active entries, all ten batch statements and closest prior families. No new upstream files or equivalent accepted statement located."
   },
   "validation_results": [
     "2026-09-17: 26 mathematics expressions passed strict KaTeX. The complete draft was visually inspected in a font-loaded browser image; mathematical notation was legible without clipping.",
@@ -684,5 +689,15 @@
         "error": ""
       }
     ]
+  },
+  "publication_state": "Accepted and integrated locally in batch 4; direct push pending.",
+  "batch_integration_validation": {
+    "checked_on": "2026-09-18",
+    "catalogue": "PASS: --write and --check, 340 active entries",
+    "whitespace": "PASS",
+    "preservation": "Original 300 and prior 330 pages byte-identical to their respective bases; prior metadata rows unchanged.",
+    "math": "All 225 batch expressions pass strict KaTeX; prior nine drafts retain identical expressions and recorded visual checks; new Simes full-page visual check passed.",
+    "links": "Research/public local links valid; 86 external bibliography URLs checked with route/access limitations in batch-04-link-check.json.",
+    "counts": "45 investigated, 40 accepted/integrated, five held; 1339 unique actual searches."
   }
 }

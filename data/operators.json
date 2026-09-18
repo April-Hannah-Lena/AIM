@@ -222,5 +222,21 @@
     "file": "problems/321-deterministic-polynomial-identity-testing.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "336",
+    "title": "A constant bound for fixed-order prefix discrepancy",
+    "area": "Discrepancy, cumulative allocation and integer optimization",
+    "file": "problems/336-strong-komlos-prefix-discrepancy.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
+  },
+  {
+    "id": "338",
+    "title": "Aaronson–Ambainis influential-variable conjecture",
+    "area": "Boolean Fourier analysis and quantum query complexity",
+    "file": "problems/338-aaronson-ambainis-influence.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
   }
 ]

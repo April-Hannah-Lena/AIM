@@ -1,0 +1,427 @@
+{
+  "candidate_id": "two-sided-gaussian-simes",
+  "proposed_catalogue_id": "340",
+  "title": "Simes error control for two-sided Gaussian tests",
+  "decision": "accept_open",
+  "decision_reason": "Explicit exact conjecture, independent specialist discussion, scoped current counterexamples, duplicate screening and separated A41 self-review passed.",
+  "problem_fingerprint": {
+    "recorded_before_drafting": true,
+    "objects": "Every positive integer n, real symmetric positive semidefinite n by n correlation matrix Sigma with diagonal entries 1, and X distributed N_n(0,Sigma).",
+    "model": "All coordinates have zero means and known unit marginal variances. The correlation matrix is arbitrary and fixed; no sample covariance is estimated.",
+    "observable": "P_i=2 Phi(-|X_i|), increasingly ordered as P_(1),...,P_(n); S_n=min_{1<=k<=n} n P_(k)/k.",
+    "quantifiers": "For every such n and Sigma and every fixed alpha in (0,1).",
+    "conclusion": "Pr(S_n<=alpha)<=alpha.",
+    "normalization_checks": "Each marginal P_i is uniform. The statistic already belongs to [0,1] because its k=n term is P_(n). Rank thresholds are k alpha/n. A positive-definite formulation extends to semidefinite matrices by Gaussian weak convergence, since rejection boundaries lie in finitely many sets P_i=k alpha/n of marginal probability zero.",
+    "scope_limits": "Two-sided unweighted Gaussian global-null test. Not one-sided Gaussian copulas, nonzero mean configurations, Student t statistics, asymptotic alpha-only control, covariance-adjusted procedures, or arbitrary non-Gaussian uniform p-values."
+  },
+  "statement_sources": [
+    {
+      "source": "Ziyu Chi, Aaditya Ramdas, Ruodu Wang, Multiple testing under negative dependence",
+      "url": "https://www.math.uwaterloo.ca/~wang/papers/2024Chi-Ramdas-Wang-BJ.pdf",
+      "locator": "Author manuscript dated May 8, 2024, Section 3.1 Eq. (13), p. 7; Section 3.3 Remark 11, p. 11.",
+      "role": "Explicit exact conjecture; published in Bernoulli 31(2) (2025), 1230–1255, DOI 10.3150/24-BEJ1768."
+    },
+    {
+      "source": "Sanat K. Sarkar, On Controlling the False Discovery Rate in Multiple Testing of the Means of Correlated Normals Against Two-Sided Alternatives",
+      "url": "https://arxiv.org/html/2304.05261v1",
+      "locator": "Section 1, paragraph immediately before paper outline; Section 3.1, Eq. (3.1), Theorem 1.",
+      "role": "Independently authored explicit reference to the unweighted two-sided Simes conjecture; contrasts with the weighted procedures actually proved."
+    }
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/two-sided-gaussian-simes.md",
+  "public_page_path": "problems/340-two-sided-gaussian-simes.md",
+  "actual_status_check_date": "2026-09-18",
+  "second_review": {
+    "status": "passed",
+    "arrangement": "Separated adversarial self-pass after drafting; no independent agent or human review.",
+    "checked_on": "2026-09-18",
+    "search_ids": [
+      "A41-1",
+      "A41-2",
+      "A41-3",
+      "A41-4",
+      "S297-1",
+      "S297-2"
+    ],
+    "checks": [
+      "Every dimension, alpha and correlation matrix; all means zero; rank thresholds and continuous singular-limit boundary.",
+      "All-null BH equivalence does not extend to mixed-mean FDR.",
+      "Signed-inverse sufficient condition does not cover all covariance matrices.",
+      "Full established baseline, nine accepted pending families and current full-text duplicate search.",
+      "Applied statement limited to prespecified Gaussian global-null groups.",
+      "Strict KaTeX and full-page visual inspection passed."
+    ],
+    "result": "No admission-blocking issue found."
+  },
+  "aliases": [
+    "Two-sided Gaussian Simes conjecture",
+    "Simes inequality for absolute-valued multivariate normal observations",
+    "Unweighted Gaussian Simes global-null validity"
+  ],
+  "primary_section": "applied",
+  "secondary_tags": [
+    "multiple testing",
+    "mathematical statistics",
+    "correlated observations",
+    "genomics"
+  ],
+  "fingerprint_recorded_on": "2026-09-18",
+  "fingerprint_recorded_before_draft": true,
+  "publication_state": "Accepted and integrated locally in batch 4; direct push pending.",
+  "source_records": [
+    {
+      "source_id": "CRW25",
+      "authors": [
+        "Ziyu Chi",
+        "Aaditya Ramdas",
+        "Ruodu Wang"
+      ],
+      "title": "Multiple testing under negative dependence",
+      "venue": "Bernoulli 31(2) (2025), 1230–1255",
+      "doi": "10.3150/24-BEJ1768",
+      "url": "https://www.math.uwaterloo.ca/~wang/papers/2024Chi-Ramdas-Wang-BJ.pdf",
+      "version": "Author manuscript May 8, 2024; arXiv:2212.09706v4",
+      "locator": "§3.1 Eq.(13), manuscript p.7; §3.3 Theorem 8 and Remark 11, pp.10–11; Remark 20 p.17; §5.3",
+      "read": "Definitions, relevant theorem and proof, explicit conjecture and surrounding discussion.",
+      "role": "Precise source formulation; author publication page verifies the 2025 journal identity.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "S23",
+      "authors": [
+        "Sanat K. Sarkar"
+      ],
+      "title": "On Controlling the False Discovery Rate in Multiple Testing of the Means of Correlated Normals Against Two-Sided Alternatives",
+      "venue": "arXiv:2304.05261v1, April 11, 2023",
+      "url": "https://arxiv.org/html/2304.05261v1",
+      "locator": "§1 paragraph before outline; §3.1 Eqs.(3.1)–(3.2), Theorem 1; §§4–5",
+      "read": "Introduction, weighted z-test model, full Theorem 1 and its proof, relevant discussion.",
+      "role": "Independently authored explicit reference to the unweighted Simes conjecture; weighted result uses changed statistics and thresholds.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "S98",
+      "authors": [
+        "Sanat K. Sarkar"
+      ],
+      "title": "Some probability inequalities for ordered MTP2 random variables: A proof of the Simes conjecture",
+      "venue": "Annals of Statistics 26(2) (1998), 494–504",
+      "doi": "10.1214/aos/1028144846",
+      "url": "https://www.researchgate.net/publication/38348568_Some_probability_inequalities_for_ordered_rm_MTPsb_2_random_variables_a_proof_of_the_Simes_conjecture",
+      "locator": "Introduction pp.494–496; Theorem 3.1 pp.499–500; Remark 3.1 and Proposition 3.1 p.501",
+      "read": "Author-uploaded full text: definitions, theorem and proof, relevant positive-dependence discussion.",
+      "access_limit": "Publisher full text unavailable through attempted route; author upload identified as Sarkar, April 9, 2014. Later correction concerns the scale-mixture corollary, not the main MTP2 theorem.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "S08",
+      "authors": [
+        "Sanat K. Sarkar"
+      ],
+      "title": "On the Simes inequality and its generalization",
+      "venue": "IMS Collections 1 (2008), 231–242",
+      "doi": "10.1214/193940307000000167",
+      "url": "https://www.researchgate.net/publication/1923874_On_the_Simes_inequality_and_its_generalization",
+      "version": "arXiv:0805.2322v1, May 15, 2008",
+      "locator": "Introduction; §3 Theorem 3.1 and immediately following discussion",
+      "read": "Author-uploaded full text: correction discussion, full theorem, signed-inverse covariance criterion.",
+      "access_limit": "arXiv HTML unavailable and PDF request returned 406; author upload used. Complete proof not independently certified.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "D26",
+      "authors": [
+        "Edgar Dobriban"
+      ],
+      "title": "The Benjamini–Hochberg Procedure Can Fail to Control the FDR for Correlated Two-Sided Gaussian Tests",
+      "venue": "arXiv:2607.12208v1, July 13, 2026",
+      "url": "https://arxiv.org/html/2607.12208v1",
+      "locator": "§1 Theorem 1; §§2 and 4 construction; §8 discussion",
+      "read": "Full main statement and covariance/mean construction; scope discussion.",
+      "version_note": "arXiv submission history lists July 13; served HTML displays August 24, 2026.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "L26",
+      "authors": [
+        "Lihua Lei"
+      ],
+      "title": "How Much Can Gaussian Dependence Inflate the Benjamini–Hochberg Procedure’s FDR?",
+      "venue": "arXiv:2607.14812v3, July 22, 2026",
+      "url": "https://arxiv.org/html/2607.14812v3",
+      "locator": "§2.1 Theorem 2.1, Propositions 2.2–2.3; §2.5 Table 3 and Eqs.(37)–(41); §4 Remark 4.3",
+      "read": "Full listed statements, three-component design, and full null-block MTP2 argument.",
+      "version_note": "v1 July 16; v2 July 20; current v3 July 22. Current title differs from v1.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "GS26",
+      "authors": [
+        "Deepra Ghosh",
+        "Sanat K. Sarkar"
+      ],
+      "title": "Further Results on Controlling the False Discovery Rate in Two-Sided Gaussian Mean Testing",
+      "venue": "arXiv:2608.21267v2, August 24, 2026",
+      "url": "https://arxiv.org/html/2608.21267v2",
+      "locator": "§§2–3 model, Theorem 3.1 Eqs.(6)–(7), Remark 3.2; §4 Definition 4.1 and Theorem 4.2",
+      "read": "Model and complete relevant bounds and modified-procedure theorem; Theorem 4.2 proof.",
+      "version_note": "v1 August 21; v2 August 24. Current v2 used for final comparison.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "GF13",
+      "authors": [
+        "Veronika Gontscharuk",
+        "Helmut Finner"
+      ],
+      "title": "Asymptotic FDR control under weak dependence: A counterexample",
+      "venue": "Statistics and Probability Letters 83(8) (2013), 1888–1893",
+      "url": "https://www.researchgate.net/publication/257013163_Asymptotic_FDR_control_under_weak_dependence_A_counterexample",
+      "locator": "§3 Corollary 3.1, Example 3.1, Lemmas 3.1–3.2, Corollary 3.2, pp.1890–1891",
+      "read": "Full all-null counterexample construction and listed statements/proofs in the available full text.",
+      "role": "All-null counterexample using a discrete mixture of restricted uniform variables, not folded jointly Gaussian statistics.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "Su18",
+      "authors": [
+        "Weijie J. Su"
+      ],
+      "title": "The FDR-Linking Theorem",
+      "url": "https://www.weijie-su.com/files/FDR_linking.pdf",
+      "version": "Author manuscript dated December 21, 2018",
+      "locator": "Theorem 1 pp.2–3; Definition 1.3 p.6; concluding open problem p.24",
+      "read": "Complete displayed linking theorem, consistency definition and concluding question.",
+      "accessed_on": "2026-09-18",
+      "proof_certification": false
+    }
+  ],
+  "independent_corroboration": {
+    "source": "S23 §1",
+    "assessment": "Sarkar explicitly identifies the conjecture for the unweighted Simes global test; authors are disjoint from CRW25. This is independent scholarly corroboration, not an independent review of this draft.",
+    "currency": "2023/2025 source status checked against July–August 2026 results and unrestricted/current-year searches."
+  },
+  "resolution_scope_comparisons": [
+    {
+      "source": "CRW25 Theorem 8 and Remark 11",
+      "result_scope": "Gaussian copulas obtained by coordinatewise monotone transforms.",
+      "assessment": "Taking absolute values folds the distribution; Remark 11 expressly separates this conjecture. Its asymptotic small-alpha and inflated bounds are not the exact all-alpha target."
+    },
+    {
+      "source": "S98 Theorem 3.1; S08 Theorem 3.1 and discussion",
+      "result_scope": "MTP2 dependence; for absolute Gaussian vectors a sufficient condition is nonpositive off-diagonal entries of D Sigma^{-1} D for some diagonal sign matrix D.",
+      "assessment": "The covariance restriction is not automatic. For example, the valid 3-by-3 correlation matrix with off-diagonals (0.4,0.4,-0.1) has inverse off-diagonal signs (-,-,+); their product cannot become negative under sign changes. The title 'proof of the Simes conjecture' therefore does not resolve the arbitrary-correlation formulation.",
+      "inference": "The explicit three-dimensional diagnostic and sign-product argument are catalogue scope checks, not new literature results."
+    },
+    {
+      "source": "S23 Theorem 1",
+      "result_scope": "Squared statistics are rescaled using 1-R_i^2 and the first critical value solves a covariance-dependent equation.",
+      "assessment": "Different statistics and critical values. Specializing every mean to zero retains those changes and does not recover the original rule."
+    },
+    {
+      "source": "D26 Theorem 1 and §4",
+      "result_scope": "100N coordinates: 96N zero means, N means 12/5, and 3N means 22/5, with a specified positive-definite factor covariance; general-configuration FDR exceeds nominal level.",
+      "assessment": "Four percent non-null coordinates. The required all-zero mean hypothesis fails; no global-null counterexample is asserted."
+    },
+    {
+      "source": "L26 Theorem 2.1, §2.5 Table 3, Remark 4.3",
+      "result_scope": "Worst-case FDR over means and correlation matrices; construction includes positive masses of primary and secondary non-null coordinates.",
+      "assessment": "Not an all-null result. The same paper proves MTP2 for the centered null block in its one-factor class, consistent with Simes validity there. No conversion to the requested counterexample follows."
+    },
+    {
+      "source": "GS26 Theorems 3.1 and 4.2",
+      "result_scope": "Conditional-variance-dependent upper bounds for the ordinary rule and guarantees for modified shifted/calibrated procedures, including independent covariance estimation.",
+      "assessment": "The ordinary-rule upper bound need not be alpha. The calibrated procedures change the question; zero means alone do not yield the desired inequality from these bounds."
+    },
+    {
+      "source": "GF13 Example 3.1 and Corollaries 3.1–3.2",
+      "result_scope": "All-null triangular arrays of uniform p-values generated by a discrete choice of subset followed by draws from restricted intervals.",
+      "assessment": "Not the stipulated joint Gaussian construction. Its pairs have zero simultaneous probability below alpha/n. A pair of unit-variance centered Gaussians has positive probability of simultaneous sufficiently large absolute values, including the perfectly correlated cases; thus these p-value pairs cannot be folded Gaussian. This incompatibility is a direct scope inference."
+    },
+    {
+      "source": "Su18 Theorem 1 and Definition 1.3",
+      "assessment": "The linking inequality still depends on null-block Simes error; consistency only requires vanishing error as alpha tends to zero. Neither supplies the exact finite-alpha Gaussian inequality."
+    }
+  ],
+  "duplicate_review": {
+    "checked_on": "2026-09-18",
+    "active_pages": 330,
+    "pending_accepted": 9,
+    "method": "Full established baseline inventory plus current active/pending full-text search for multiple testing, Simes, false discovery, p-values and Gaussian formulations. Nearest full statements reread.",
+    "nearest": [
+      {
+        "entry": "328-gaussian-polynomial-unlinking",
+        "difference": "Independence of polynomial statistics from moment identities, not a rank-based rejection probability."
+      },
+      {
+        "entry": "305-gaussian-simplex",
+        "difference": "Optimal Gaussian partitions under correlated noise, not error control for a prescribed test."
+      }
+    ],
+    "canonical_family": "One global-null Simes problem; equivalent all-null BH error control is not counted separately. No splitting by dimension or correlation signs.",
+    "result": "No equivalent accepted statement located."
+  },
+  "search_review": {
+    "search_ids": [
+      "S288-1",
+      "S289-1",
+      "S289-2",
+      "S289-3",
+      "S289-4",
+      "S290-1",
+      "S290-2",
+      "S290-3",
+      "S290-4",
+      "S291-1",
+      "S291-2",
+      "S292-1",
+      "S292-2",
+      "S292-3",
+      "S292-4",
+      "S293-1",
+      "S293-2",
+      "S293-3",
+      "S293-4",
+      "S294-1",
+      "S294-2",
+      "S294-3",
+      "S294-4",
+      "S295-1",
+      "S295-2",
+      "S295-3",
+      "S295-4",
+      "S296-1",
+      "S296-2",
+      "S296-3",
+      "S296-4",
+      "S297-1",
+      "S297-2"
+    ],
+    "date": "2026-09-18",
+    "routes": [
+      "Web search",
+      "Primary arXiv version records and full HTML",
+      "Author-hosted PDF and publication lists",
+      "Publisher metadata",
+      "Author-uploaded historical full texts"
+    ],
+    "version_checks": "CRW25 current arXiv v4; S23 v1; D26 v1; L26 v3; GS26 v2. Searches covered proof, solved, resolution, counterexample, disproof, refutation, correction, erratum, withdrawal, 2025, 2026 and unrestricted dates.",
+    "outcome": "No matching arbitrary-correlation global-null resolution located. General-FDR counterexamples and older dependence-restricted proofs have been scoped, not dismissed from titles."
+  },
+  "access_limits": [
+    {
+      "source": "Finner–Roters–Strassburger, On the Simes test under dependence, Statistical Papers 58(3) (2017), 775–789; DOI 10.1007/s00362-015-0725-8",
+      "access": "Publisher metadata and first-page preview only; §7 not read. CRW25's explicit full-text restatement and S23's independent discussion supply the formulation/status evidence.",
+      "used_as_primary_statement": false
+    },
+    {
+      "source": "Block–Savits–Wang–Sarkar, The multivariate-t distribution and the Simes inequality (2013)",
+      "access": "Publisher abstract only; not used for a theorem-level comparison or admission.",
+      "used_as_primary_statement": false
+    },
+    {
+      "source": "Einar Andreas Rødland, Simes procedure is valid on average, Biometrika 93(3) (2006), 742–746, DOI 10.1093/biomet/93.3.742",
+      "url": "https://academic.oup.com/biomet/article/93/3/742/380729",
+      "access": "Primary metadata/abstract only; full text subscription-only. General dependence counterexamples are mentioned, but no matching two-sided Gaussian counterexample was located. This is not used as primary evidence or represented as a full theorem review."
+    }
+  ],
+  "public_status": "Open in cited literature; no later resolution located as of 2026-09-18.",
+  "quality_checks": {
+    "strict_katex_expressions": 24,
+    "render": "Full local HTML and headless-Chrome PNG visually inspected; no malformed or clipped equations.",
+    "external_links": "Ten direct GETs: five HTTP 200; three arXiv HTML 406 and two ResearchGate 403 responses. All five restricted full texts were accessible through the web reader during source review; stable links retained with this limitation.",
+    "external_link_results": [
+      {
+        "url": "https://arxiv.org/html/2304.05261v1",
+        "error": "HTTP Error 406: Not Acceptable"
+      },
+      {
+        "url": "https://arxiv.org/html/2607.12208v1",
+        "status": 200,
+        "redirect_host": "arxiv.org"
+      },
+      {
+        "url": "https://arxiv.org/html/2607.14812v3",
+        "error": "HTTP Error 406: Not Acceptable"
+      },
+      {
+        "url": "https://arxiv.org/html/2608.21267v2",
+        "error": "HTTP Error 406: Not Acceptable"
+      },
+      {
+        "url": "https://doi.org/10.1214/193940307000000167",
+        "status": 200,
+        "redirect_host": "projecteuclid.org"
+      },
+      {
+        "url": "https://doi.org/10.1214/aos/1028144846",
+        "status": 200,
+        "redirect_host": "projecteuclid.org"
+      },
+      {
+        "url": "https://doi.org/10.3150/24-BEJ1768",
+        "status": 200,
+        "redirect_host": "projecteuclid.org"
+      },
+      {
+        "url": "https://www.math.uwaterloo.ca/~wang/papers/2024Chi-Ramdas-Wang-BJ.pdf",
+        "status": 200,
+        "redirect_host": "www.math.uwaterloo.ca"
+      },
+      {
+        "url": "https://www.researchgate.net/publication/1923874_On_the_Simes_inequality_and_its_generalization",
+        "error": "HTTP Error 403: Forbidden"
+      },
+      {
+        "url": "https://www.researchgate.net/publication/38348568_Some_probability_inequalities_for_ordered_rm_MTPsb_2_random_variables_a_proof_of_the_Simes_conjecture",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ],
+    "structural_validation": "PASS in batch 4; see batch_integration_validation."
+  },
+  "prepublication_refresh": {
+    "date": "2026-09-18",
+    "latest_target_commit": "a2d4fa66a66d0113e91214ce00006084d04d118c",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R4-10",
+      "R4-14"
+    ],
+    "outcome": "Fresh A41 and R4 searches found no matching all-null two-sided Gaussian resolution; the July mixed-mean constructions and August modified-procedure results are scoped in the ledger.",
+    "upstream": "SSH fetch shows HEAD equals origin/main. Connected GitHub metadata verifies private MColbrook/AIM, main default and push permission; paginated branch search contains only main; open-PR search returns none.",
+    "duplicate_scope": "Established full baseline and 330 active entries, all ten batch statements and closest prior families. No new upstream files or equivalent accepted statement located."
+  },
+  "remote_publication": {
+    "state": "integrated_local_push_pending",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "batch_integration_validation": {
+    "checked_on": "2026-09-18",
+    "catalogue": "PASS: --write and --check, 340 active entries",
+    "whitespace": "PASS",
+    "preservation": "Original 300 and prior 330 pages byte-identical to their respective bases; prior metadata rows unchanged.",
+    "math": "All 225 batch expressions pass strict KaTeX; prior nine drafts retain identical expressions and recorded visual checks; new Simes full-page visual check passed.",
+    "links": "Research/public local links valid; 86 external bibliography URLs checked with route/access limitations in batch-04-link-check.json.",
+    "counts": "45 investigated, 40 accepted/integrated, five held; 1339 unique actual searches."
+  }
+}

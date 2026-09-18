@@ -1,8 +1,8 @@
-# Polynomial-time DNF learning from uniform random examples
+# 337. Polynomial-time DNF learning from uniform random examples
 
 **Area:** Statistical learning, Boolean rules and computational complexity
 
-**Status:** Accepted; integrated as entry 337
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -51,10 +51,8 @@ The general examples-only bound recalled in [3, §1.1] has runtime $n^{O(\log(s/
 
 The polynomial algorithms in [2, 4] use membership queries; [5] uses coherent quantum examples. The numerical similarity queries in [1] supply information beyond ordinary labels. Smoothed-distribution learning in [2] succeeds with high probability over a random perturbation of the input law; that guarantee does not include every fixed law, such as the uniform one. The new local-mixing algorithms in [3] use queries and remain quasipolynomial; their full learning theorem also assumes equal term lengths.
 
-The [evidence record](../candidates/classical-uniform-dnf-learning.json) additionally compares random-target algorithms, local queries, positive-only lower bounds and conditional distribution-free hardness. None supplies a matching result for the stated model. Historical results are sometimes checked through explicit scholarly restatements; complete proofs have not been independently certified.
+The [evidence record](../research/expansion-2026-09/candidates/classical-uniform-dnf-learning.json) additionally compares random-target algorithms, local queries, positive-only lower bounds and conditional distribution-free hardness. None supplies a matching result for the stated model. Historical results are sometimes checked through explicit scholarly restatements; complete proofs have not been independently certified.
 
-This differs from noisy-parity recovery in [entry 317](../../../problems/317-learning-parity-noise.md) and runtime-unrestricted sample compression in [entry 318](../../../problems/318-linear-sample-compression.md). All DNF sizes are one problem family; monotone, bounded-width and quantum variants receive no additional count. The separated A38 adversarial self-pass passed on September 18.
+This differs from noisy-parity recovery in [entry 317](317-learning-parity-noise.md) and runtime-unrestricted sample compression in [entry 318](318-linear-sample-compression.md). All DNF sizes are one problem family; monotone, bounded-width and quantum variants receive no additional count. The separated A38 adversarial self-pass passed on September 18.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
-
-Integrated page: [337. Polynomial-time DNF learning from uniform random examples](../../../problems/337-classical-uniform-dnf-learning.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../research/expansion-2026-09/batch-04-review.md). No matching later resolution was located.

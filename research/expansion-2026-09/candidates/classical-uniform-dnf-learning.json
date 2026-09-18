@@ -1,6 +1,6 @@
 {
   "candidate_id": "classical-uniform-dnf-learning",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "337",
   "title": "Polynomial-time DNF learning from uniform random examples",
   "aliases": [
     "Uniform-distribution DNF learning",
@@ -796,7 +796,7 @@
     ],
     "verdict": "accept_open"
   },
-  "public_page_path": null,
+  "public_page_path": "problems/337-classical-uniform-dnf-learning.md",
   "draft_path": "research/expansion-2026-09/drafts/classical-uniform-dnf-learning.md",
   "validation_results": [
     {
@@ -831,7 +831,7 @@
     }
   ],
   "remote_publication": {
-    "state": "not_integrated",
+    "state": "integrated_local_push_pending",
     "repository": "MColbrook/AIM",
     "branch": "main",
     "commit": null,
@@ -862,11 +862,17 @@
     "Elementary sample-bound inference: at most (3^n+1)^s padded formulas imply log class size O(ns); exhaustive consistent search needs O((ns+log(1/delta))/epsilon) iid examples. This is not an efficient search algorithm."
   ],
   "prepublication_refresh": {
-    "date": null,
-    "latest_target_commit": null,
-    "resolution_searches_refreshed": false,
-    "duplicate_review_refreshed": false,
-    "outcome": "Required immediately before active-catalogue batch integration. Research check completed September 18; ls-remote confirms only main at adf1f4041684ea2fd7179a522852f6e45c7f19ba."
+    "date": "2026-09-18",
+    "latest_target_commit": "a2d4fa66a66d0113e91214ce00006084d04d118c",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R4-7",
+      "R4-13"
+    ],
+    "outcome": "Fresh searches recovered random-target, query and quantum-access results, plus the already scoped quasipolynomial Chow-filtering theorem; no classical all-target passive polynomial learner located.",
+    "upstream": "SSH fetch shows HEAD equals origin/main. Connected GitHub metadata verifies private MColbrook/AIM, main default and push permission; paginated branch search contains only main; open-PR search returns none.",
+    "duplicate_scope": "Established full baseline and 330 active entries, all ten batch statements and closest prior families. No new upstream files or equivalent accepted statement located."
   },
   "research_publication": {
     "state": "published",
@@ -875,5 +881,15 @@
     "commit": "acfc09e5f5ff35f5dab62ae8c8de8af83c0c7d6b",
     "independently_verified_on": "2026-09-18",
     "verification": "git ls-remote --heads origin main matched acfc09e before the following research push."
+  },
+  "publication_state": "Accepted and integrated locally in batch 4; direct push pending.",
+  "batch_integration_validation": {
+    "checked_on": "2026-09-18",
+    "catalogue": "PASS: --write and --check, 340 active entries",
+    "whitespace": "PASS",
+    "preservation": "Original 300 and prior 330 pages byte-identical to their respective bases; prior metadata rows unchanged.",
+    "math": "All 225 batch expressions pass strict KaTeX; prior nine drafts retain identical expressions and recorded visual checks; new Simes full-page visual check passed.",
+    "links": "Research/public local links valid; 86 external bibliography URLs checked with route/access limitations in batch-04-link-check.json.",
+    "counts": "45 investigated, 40 accepted/integrated, five held; 1339 unique actual searches."
   }
 }

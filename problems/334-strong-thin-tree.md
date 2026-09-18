@@ -1,8 +1,8 @@
-# Strong thin-tree conjecture
+# 334. Strong thin-tree conjecture
 
 **Area:** Network design and combinatorial optimization
 
-**Status:** Accepted; integrated as entry 334
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -23,7 +23,7 @@ The same tree must satisfy every cut inequality, and $C$ must be independent of 
 
 A spanning tree supplies a connected backbone in a communication or transport network. Thinness limits the fraction of available links that this backbone uses across every partition of the network. A positive answer would also guarantee that, when $k>C$, removing the tree leaves edge connectivity at least $k-C$: every remaining cut has at least $(1-C/k)|\delta_G(S)|$ edges. This connects the conjecture to preserving network redundancy while reserving a connected subnetwork. [1]
 
-Thin trees also support rounding arguments for asymmetric routing. An existence theorem would provide a constant integrality bound for the directed traveling-salesman relaxation; a corresponding efficient construction would yield an approximation algorithm. Constant bounds for that routing problem already exist by other methods. This connection does not establish the sharp factor two asked for in [entry 323](../../../problems/323-asymmetric-tsp-integrality-gap.md). [1, 2]
+Thin trees also support rounding arguments for asymmetric routing. An existence theorem would provide a constant integrality bound for the directed traveling-salesman relaxation; a corresponding efficient construction would yield an approximation algorithm. Constant bounds for that routing problem already exist by other methods. This connection does not establish the sharp factor two asked for in [entry 323](323-asymmetric-tsp-integrality-gap.md). [1, 2]
 
 ## References
 
@@ -41,10 +41,8 @@ Theorem 1 of [1] finds one tree crossing each cut of size less than $41k/40$ in 
 
 The certification results [4] restrict the cuts under examination or allow a different tree for each cut. The verification-hardness claim [3] concerns a supplied tree and does not disprove existence. The matching counterexample [5] uses a fractional perfect-matching model with degree-one constraints, a different feasible class from connected spanning trees.
 
-The [evidence record](../candidates/strong-thin-tree.json) documents source versions, exact resolution searches, scope comparisons and duplicate checks. The research review examines full relevant statements and model assumptions; it does not certify the cited technical proofs.
+The [evidence record](../research/expansion-2026-09/candidates/strong-thin-tree.json) documents source versions, exact resolution searches, scope comparisons and duplicate checks. The research review examines full relevant statements and model assumptions; it does not certify the cited technical proofs.
 
 The September 17, 2026 check covered named and mathematical formulations, author pages, current and preceding years, unrestricted resolution searches, versions, corrections and withdrawals. A35 was a separated adversarial self-pass by the same assistant. The forthcoming beyond-laminar title was rechecked on September 18; no manuscript or theorem was linked.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
-
-Integrated page: [334. Strong thin-tree conjecture](../../../problems/334-strong-thin-tree.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../research/expansion-2026-09/batch-04-review.md). No matching later resolution was located.

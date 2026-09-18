@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 39,
-  "active_total": 330,
-  "candidates_investigated": 44,
+  "new_accepted": 40,
+  "active_total": 340,
+  "candidates_investigated": 45,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 161,
-  "remaining_to_target": 211,
+  "remaining_to_minimum": 160,
+  "remaining_to_target": 210,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -164,19 +164,19 @@
       "purpose": "Record reviewed molecular-clock ancestral accuracy draft and discovery audits; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit 9fe8c0b204ef323ca6bbf11c9366c9cbdfb68393 includes nine accepted pending drafts and was independently verified September 18, 2026. The accepted total is 39; one more draft is needed for the next ten-entry batch, followed by status and upstream-duplicate refreshes. No PR required.",
+  "remote_state": "Remote main remains a2d4fa66a66d0113e91214ce00006084d04d118c. Batch 4 (331–340) is integrated and validated locally after September 18 status/upstream refresh; direct publication pending.",
   "next_actions": [
-    "Continue discovery toward at least 200 new problems, deliberately broadening biology, statistics, control and operations research.",
-    "Accumulate the next reviewable batch; nine drafts are accepted: rendezvous, trace reconstruction, generalized Wright attraction, strong thin trees, chemotaxis-consumption continuation, strong prefix discrepancy, classical uniform DNF learning, Aaronson–Ambainis influence and Fitch molecular-clock ancestral accuracy. One more is needed for a ten-entry batch. Refresh status and upstream duplicates before integration.",
-    "CFN sunlet projective quadratic-generation lead needs independent corroboration and saturation-scope review.",
-    "Keep matching unresolved claims outside new additions; separately follow up historical entries 031, 032 and 286.",
-    "Broaden discovery in biology, statistics, control and operations research; retain private-learning and CFN sunlet leads outside the count until their formulation and corroboration gates pass.",
-    "Phylogenetic character-threshold and strong cane-toad spreading leads have full formulations but still need independent corroboration. General strongly polynomial LP has matching proof claims; do not admit it as open without adjudication."
+    "Push validated batch 4 directly to main, verify the remote ref and record publication.",
+    "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
+    "Keep the five held candidates and discovery-only leads outside the active count; preserve original identifiers and historical dates.",
+    "CFN sunlet projective quadratic generation needs independent corroboration and saturation-scope review; private-learning leads still need complete formulation and corroboration.",
+    "Phylogenetic character-threshold and strong cane-toad spreading leads have full formulations but still need independent corroboration.",
+    "Do not admit general strongly polynomial LP without adjudicating matching claims; keep historical entries 031, 032 and 286 follow-ups separate from new counts."
   ],
   "coverage": {
     "inverse3": 5,
     "spectral2": 1,
-    "applied": 6,
+    "applied": 7,
     "stochastic3": 7,
     "inverse2": 2,
     "operators": 5,
@@ -188,12 +188,12 @@
     "continuum2": 1
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
-  "new_integrated": 30,
-  "count_semantics": "Thirty additions are integrated and published directly on main. Nine accepted research drafts await batch 4; active total 330. Five held records excluded.",
+  "new_integrated": 40,
+  "count_semantics": "Forty accepted additions are integrated locally; thirty are published on main and batch 4 (331–340) awaits direct push. Active local total 340. Five held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 30,
-  "coverage_semantics": "Accepted additions by primary section; thirty integrated and nine pending research drafts.",
-  "remaining_integrations_to_minimum": 170,
-  "remaining_integrations_to_target": 220,
-  "pending_accepted": 9
+  "coverage_semantics": "Accepted additions by primary section; forty integrated, no pending accepted drafts.",
+  "remaining_integrations_to_minimum": 160,
+  "remaining_integrations_to_target": 210,
+  "pending_accepted": 0
 }

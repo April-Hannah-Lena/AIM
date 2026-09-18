@@ -1,8 +1,8 @@
-# Polynomial sample complexity for deletion-trace reconstruction
+# 332. Polynomial sample complexity for deletion-trace reconstruction
 
 **Area:** Statistical inference and molecular data retrieval
 
-**Status:** Accepted; integrated as entry 332
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -42,10 +42,8 @@ The September 17, 2026 investigation covered worst-case and polynomial trace rec
 
 Chase's lower bound uses pairs of length $n=4k+3$ requiring $\Omega_q(n^{3/2}/\log^7 n)$ traces at constant success probability. This does not rule out a larger polynomial upper bound. The current gap is therefore between polynomial lower bounds and quasipolynomial upper bounds. Older surveys' exponential upper bounds have been superseded.
 
-The polynomial algorithms in the cited smoothed and mildly separated models impose additional assumptions on the source string. Sima–Bruck require a bounded edit-distance promise relative to a known reference. A separate Chen–De–Lee–Servedio–Sinha low-deletion theorem allows a deletion rate tending to zero with $n$, not an arbitrary fixed positive rate. Exponential lower bounds for mean-based or local-statistical-query methods restrict the decoder and do not establish an information-theoretic obstruction for general traces. These full-scope comparisons and access limitations are in the [evidence record](../candidates/polynomial-trace-reconstruction.json).
+The polynomial algorithms in the cited smoothed and mildly separated models impose additional assumptions on the source string. Sima–Bruck require a bounded edit-distance promise relative to a known reference. A separate Chen–De–Lee–Servedio–Sinha low-deletion theorem allows a deletion rate tending to zero with $n$, not an arbitrary fixed positive rate. Exponential lower bounds for mean-based or local-statistical-query methods restrict the decoder and do not establish an information-theoretic obstruction for general traces. These full-scope comparisons and access limitations are in the [evidence record](../research/expansion-2026-09/candidates/polynomial-trace-reconstruction.json).
 
-Unlike [entry 144](../../../problems/144-binary-deletion-channel-capacity.md), this question allows repeated independent channel outputs and requires recovery of every input string instead of optimizing a codebook's transmission rate. [Entries 288](../../../problems/288-binary-lcs-constant.md) and [297](../../../problems/297-binary-lcs-linear-variance.md) study alignment statistics of two independent random strings, rather than observations of one unknown source. No independent mathematical proof certification is claimed.
+Unlike [entry 144](144-binary-deletion-channel-capacity.md), this question allows repeated independent channel outputs and requires recovery of every input string instead of optimizing a codebook's transmission rate. [Entries 288](288-binary-lcs-constant.md) and [297](297-binary-lcs-linear-variance.md) study alignment statistics of two independent random strings, rather than observations of one unknown source. No independent mathematical proof certification is claimed.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
-
-Integrated page: [332. Polynomial sample complexity for deletion-trace reconstruction](../../../problems/332-polynomial-trace-reconstruction.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../research/expansion-2026-09/batch-04-review.md). No matching later resolution was located.

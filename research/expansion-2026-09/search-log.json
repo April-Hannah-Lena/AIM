@@ -10293,5 +10293,487 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Separated adversarial self-review after Fitch draft creation"
+  },
+  {
+    "search_id": "S288-1",
+    "query": "\"Simes\" \"two-sided\" \"Gaussian\" conjecture 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery; Simes lead selected"
+  },
+  {
+    "search_id": "S288-2",
+    "query": "\"Renyi entropy\" \"Bernoulli\" concavity conjecture 2025 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery; Simes lead selected"
+  },
+  {
+    "search_id": "S288-3",
+    "query": "\"switched linear systems\" \"decidability\" \"open problem\" 2025 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery; Simes lead selected"
+  },
+  {
+    "search_id": "S288-4",
+    "query": "\"statistics\" \"conjecture\" \"Fisher information\" 2026 open",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Breadth discovery; Simes lead selected"
+  },
+  {
+    "search_id": "S289-1",
+    "query": "\"Simes inequality\" \"two-sided\" Gaussian proof counterexample",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S289-2",
+    "query": "\"Simes conjecture\" 2025 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S289-3",
+    "query": "\"Simes\" \"absolute\" \"Gaussian\" conjecture solved",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S289-4",
+    "query": "\"Simes inequality\" \"Finner\" \"Roters\" \"Sarkar\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S290-1",
+    "query": "\"two-sided\" \"Simes\" 2026 proof conjecture",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S290-2",
+    "query": "\"two-sided Gaussian\" \"Simes\" 2025",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S290-3",
+    "query": "\"Simes inequality\" \"counterexample\" \"Gaussian\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S290-4",
+    "query": "\"On the Simes test under dependence\" pdf Finner Roters Strassburger",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S291-1",
+    "query": "\"Sarkar\" \"1998\" \"Simes\" pdf",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S291-2",
+    "query": "\"Multiple testing under negative dependence\" Chi Ramdas Wang arxiv 2024",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S292-1",
+    "query": "\"Simes inequality\" two sided proved solved resolution refutation",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S292-2",
+    "query": "\"two-sided Gaussian BH conjecture\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S292-3",
+    "query": "\"On Controlling the False Discovery Rate\" \"Sarkar\" 2023 2025 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S292-4",
+    "query": "\"Simes\" \"Chi\" \"Ramdas\" \"Wang\" correction erratum withdrawal",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S293-1",
+    "query": "\"Dobriban\" \"Simes\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S293-2",
+    "query": "\"Further Results on Controlling the False Discovery Rate in Two-Sided Gaussian Mean Testing\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S293-3",
+    "query": "\"two-sided\" \"Simes inequality\" counterexample disproof 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S293-4",
+    "query": "\"Simes\" \"Sarkar\" \"Zhang\" 2025 \"conjecture\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S294-1",
+    "query": "\"Some probability inequalities for ordered\" site:projecteuclid.org",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S294-2",
+    "query": "\"Simes\" \"global null\" Gaussian 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S294-3",
+    "query": "\"Simes inequality\" \"two-sided\" \"Gaussian\" 2024 2025 proof",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S294-4",
+    "query": "\"Simes inequality\" \"two sided\" \"counterexample\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S295-1",
+    "query": "\"Simes\" \"Gaussian\" \"global null\" proof solved counterexample refutation",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S295-2",
+    "query": "\"Simes inequality\" \"Gaussian correlation inequality\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S295-3",
+    "query": "\"Simes\" \"Finner\" \"Sarkar\" correction erratum gap",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S295-4",
+    "query": "\"two-sided\" \"Simes\" \"2026\" \"2025\" conjecture",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S296-1",
+    "query": "\"Simes\" \"two-sided\" \"Gaussian\" \"withdrawn\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S296-2",
+    "query": "\"Simes\" \"Chi\" \"Ramdas\" \"Wang\" \"erratum\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S296-3",
+    "query": "\"Simes\" \"Sarkar\" \"2026\" \"proof\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "S296-4",
+    "query": "\"Simes\" \"Finner\" \"Roters\" \"Strassburger\" \"counterexample\" normal",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Two-sided Gaussian Simes source and resolution review"
+  },
+  {
+    "search_id": "A41-1",
+    "query": "\"Simes\" \"global null\" \"two-sided\" Gaussian proof counterexample",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after Simes draft creation"
+  },
+  {
+    "search_id": "A41-2",
+    "query": "\"Simes inequality\" \"absolute\" Gaussian solved 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after Simes draft creation"
+  },
+  {
+    "search_id": "A41-3",
+    "query": "\"two-sided Gaussian\" \"Simes\" \"2025\" \"2026\" counterexample",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after Simes draft creation"
+  },
+  {
+    "search_id": "A41-4",
+    "query": "\"Simes\" \"correlation inequality\" \"Royen\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after Simes draft creation"
+  },
+  {
+    "search_id": "S297-1",
+    "query": "\"Simes’ procedure is\" \"valid on average\" Gaussian counterexample",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Follow-up of historical Simes counterexample citation"
+  },
+  {
+    "search_id": "S297-2",
+    "query": "\"Rodland\" \"Simes\" \"normal\" counterexample",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Follow-up of historical Simes counterexample citation"
+  },
+  {
+    "search_id": "R4-1",
+    "candidate_id": "symmetric-rendezvous-discrete-locations",
+    "query": "\"symmetric rendezvous\" \"n locations\" optimal 2025 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-2",
+    "candidate_id": "polynomial-trace-reconstruction",
+    "query": "\"trace reconstruction\" \"polynomial\" worst-case 2026 solved",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-3",
+    "candidate_id": "generalized-wright-global-attraction",
+    "query": "\"generalized Wright conjecture\" proof counterexample 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-4",
+    "candidate_id": "strong-thin-tree",
+    "query": "\"strong thin tree conjecture\" proof counterexample 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-5",
+    "candidate_id": "chemotaxis-consumption-classical-continuation",
+    "query": "\"chemotaxis consumption\" \"global classical\" arbitrary large data 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-6",
+    "candidate_id": "strong-komlos-prefix-discrepancy",
+    "query": "\"strong Komlós\" prefix solved proof 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-7",
+    "candidate_id": "classical-uniform-dnf-learning",
+    "query": "\"DNF\" \"uniform\" \"random examples\" polynomial 2026 learning",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-8",
+    "candidate_id": "aaronson-ambainis-influence",
+    "query": "\"Aaronson Ambainis\" influence conjecture proof 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-9",
+    "candidate_id": "fitch-ultrametric-ancestral-accuracy",
+    "query": "\"Fitch\" \"ultrametric\" \"accuracy\" 2026 conjecture",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-10",
+    "candidate_id": "two-sided-gaussian-simes",
+    "query": "\"Simes inequality\" \"two-sided Gaussian\" proof counterexample 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-11",
+    "candidate_id": "generalized-wright-global-attraction",
+    "query": "\"generalized Wright\" \"Schwarzian\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-12",
+    "candidate_id": "strong-komlos-prefix-discrepancy",
+    "query": "\"prefix discrepancy\" \"Komlos\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-13",
+    "candidate_id": "classical-uniform-dnf-learning",
+    "query": "\"DNF learning\" \"uniform\" \"examples\" 2026 polynomial proof",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-14",
+    "candidate_id": "two-sided-gaussian-simes",
+    "query": "\"two-sided\" \"Simes\" Gaussian \"global null\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-15",
+    "candidate_id": "chemotaxis-consumption-classical-continuation",
+    "query": "\"Finite-time blow-up and global boundedness in a repulsive chemotaxis-consumption\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-16",
+    "candidate_id": "chemotaxis-consumption-classical-continuation",
+    "query": "\"An improvement toward global boundedness in a fully parabolic chemotaxis\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-17",
+    "candidate_id": "generalized-wright-global-attraction",
+    "query": "Liz Trofimchuk Tkachenko \"Wright\" conjecture 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
+  },
+  {
+    "search_id": "R4-18",
+    "candidate_id": "strong-komlos-prefix-discrepancy",
+    "query": "\"Karingula\" \"Lovett\" \"prefix\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Immediate batch 4 prepublication refresh"
   }
 ]

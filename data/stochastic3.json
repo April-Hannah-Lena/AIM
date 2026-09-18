@@ -238,5 +238,21 @@
     "file": "problems/326-online-bin-packing-optimal-ratio.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "331",
+    "title": "Optimal symmetric rendezvous among discrete locations",
+    "area": "Decentralized coordination and search theory",
+    "file": "problems/331-symmetric-rendezvous-discrete-locations.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
+  },
+  {
+    "id": "334",
+    "title": "Strong thin-tree conjecture",
+    "area": "Network design and combinatorial optimization",
+    "file": "problems/334-strong-thin-tree.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
   }
 ]

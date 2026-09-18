@@ -230,5 +230,13 @@
     "file": "problems/327-discrete-skolem-decidability.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "332",
+    "title": "Polynomial sample complexity for deletion-trace reconstruction",
+    "area": "Statistical inference and molecular data retrieval",
+    "file": "problems/332-polynomial-trace-reconstruction.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
   }
 ]

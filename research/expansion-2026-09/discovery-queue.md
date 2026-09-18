@@ -225,3 +225,10 @@ The Fitch molecular-clock accuracy question passed research and separated advers
 Fischer's [arXiv:2403.01282v5](https://arxiv.org/pdf/2403.01282v5), published in *Annals of Combinatorics* 29 (2025), also poses a different topology-reconstruction conjecture in §1. Its NNI-neighborhood theorem is local in tree space. That is a possible future discovery route, requiring its own independent corroboration and current-resolution review; it is not accepted or counted here.
 
 All sixty actual queries from S274–S287 and A40 are saved. Counts: 39 accepted, 30 integrated and published, nine pending accepted drafts, 44 candidate records and 330 active catalogue entries. One more accepted problem is needed for the next ten-entry batch; the full 200–300-addition objective remains incomplete.
+
+
+## Gaussian global testing and batch 4 (S288–S297, A41, R4; 2026-09-18)
+
+The two-sided Gaussian Simes question passed the source, current-resolution, duplicate and separated adversarial checks. The [record](candidates/two-sided-gaussian-simes.json) preserves exact zero-mean quantifiers and the July–August 2026 scope comparisons. General FDR control under mixed means is excluded from the target. Historical generic Simes counterexamples are not assumed Gaussian.
+
+S288 also touched Rényi-entropy and switched-system leads, without completing admission evidence; neither is accepted. The ten reviewed candidates are now integrated locally as 331–340. The [batch 4 audit](batch-04-review.md) records the immediate status and upstream refresh. Counts before publication: 40 accepted/integrated, 30 published, 45 formal records, five holds and 340 local active entries. There are 1,339 actual logged queries. Validation passed and direct publication remains due; 160 more additions are needed for the minimum.

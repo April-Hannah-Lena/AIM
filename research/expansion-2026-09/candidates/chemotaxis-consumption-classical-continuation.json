@@ -1,6 +1,6 @@
 {
   "candidate_id": "chemotaxis-consumption-classical-continuation",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "335",
   "title": "Global classical continuation in the chemotaxis-consumption system",
   "aliases": [
     "Fully parabolic nutrient-taxis global classical solvability",
@@ -30,8 +30,8 @@
     "scope_note": "General smooth bounded domains are explicit in Lankeit–Winkler 2025 §1, Eq. (1.2) and its global-classical gap discussion; Winkler 2026 §1 repeats the fully isolated linear-diffusion higher-dimensional gap. Convexity was a restriction on older weak-solution results, not imposed here."
   },
   "fingerprint_recorded_before_drafting": true,
-  "actual_status_check_date": "2026-09-17",
-  "public_page_path": null,
+  "actual_status_check_date": "2026-09-18",
+  "public_page_path": "problems/335-chemotaxis-consumption-classical-continuation.md",
   "draft_path": "research/expansion-2026-09/drafts/chemotaxis-consumption-classical-continuation.md",
   "source_records": [
     {
@@ -615,7 +615,7 @@
     "verdict": "pass_for_research_draft"
   },
   "remote_publication": {
-    "state": "not_integrated",
+    "state": "integrated_local_push_pending",
     "repository": "MColbrook/AIM",
     "branch": "main",
     "commit": null,
@@ -923,5 +923,60 @@
       }
     ],
     "limitations": "Automated validation and visual review do not certify mathematical correctness or open status."
+  },
+  "prepublication_refresh": {
+    "date": "2026-09-18",
+    "latest_target_commit": "a2d4fa66a66d0113e91214ce00006084d04d118c",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R4-5",
+      "R4-15",
+      "R4-16"
+    ],
+    "outcome": "No matching resolution located. Three additional publisher/preprint model definitions were screened: saturated flux/consumption, repulsive elliptic signal with Dirichlet boundary data, and singular-sensitivity signal production. Their equations already differ from this entry; full theorem review is not claimed for these supplementary model screens.",
+    "upstream": "SSH fetch shows HEAD equals origin/main. Connected GitHub metadata verifies private MColbrook/AIM, main default and push permission; paginated branch search contains only main; open-PR search returns none.",
+    "duplicate_scope": "Established full baseline and 330 active entries, all ten batch statements and closest prior families. No new upstream files or equivalent accepted statement located."
+  },
+  "publication_state": "Accepted and integrated locally in batch 4; direct push pending.",
+  "supplementary_refresh_model_screens": [
+    {
+      "title": "Existence theory and qualitative analysis for a parabolic system modeling bacterial chemotaxis and attractant consumption at high cell density",
+      "authors": [
+        "Wenyan Yang",
+        "Yichen Zhang"
+      ],
+      "url": "https://www.aimsciences.org/article/doi/10.3934/dcdsb.2026019",
+      "locator": "Publisher abstract, displayed system (*)",
+      "difference": "Flux u/(u+1) grad log(v+1) and consumption uv/((u+1)(v+1)) remain saturated even with zero growth.",
+      "access": "Explicit model read; full HTML subscription-only; no full-theorem review claimed."
+    },
+    {
+      "title": "Finite-time blow-up and global boundedness in a repulsive chemotaxis-consumption system with general density-dependent sensitivity",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022039626001257",
+      "doi": "10.1016/j.jde.2026.114218",
+      "locator": "Publisher abstract, displayed equations",
+      "difference": "Repulsive flux, elliptic signal 0=Delta v-uv and positive Dirichlet signal boundary data.",
+      "access": "Primary indexed abstract and model read; direct full route 403; no full-theorem review claimed."
+    },
+    {
+      "title": "An improvement toward global boundedness in a fully parabolic chemotaxis with singular sensitivity in any dimension",
+      "authors": [
+        "Minh Le"
+      ],
+      "url": "https://arxiv.org/abs/2506.19318",
+      "locator": "Primary abstract, displayed system",
+      "difference": "Singular flux u/v and signal production v_t=Delta v-v+u, not consumption.",
+      "access": "Primary abstract/model only; no full-theorem review claimed."
+    }
+  ],
+  "batch_integration_validation": {
+    "checked_on": "2026-09-18",
+    "catalogue": "PASS: --write and --check, 340 active entries",
+    "whitespace": "PASS",
+    "preservation": "Original 300 and prior 330 pages byte-identical to their respective bases; prior metadata rows unchanged.",
+    "math": "All 225 batch expressions pass strict KaTeX; prior nine drafts retain identical expressions and recorded visual checks; new Simes full-page visual check passed.",
+    "links": "Research/public local links valid; 86 external bibliography URLs checked with route/access limitations in batch-04-link-check.json.",
+    "counts": "45 investigated, 40 accepted/integrated, five held; 1339 unique actual searches."
   }
 }

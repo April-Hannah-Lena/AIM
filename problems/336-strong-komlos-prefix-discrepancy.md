@@ -1,8 +1,8 @@
-# A constant bound for fixed-order prefix discrepancy
+# 336. A constant bound for fixed-order prefix discrepancy
 
 **Area:** Discrepancy, cumulative allocation and integer optimization
 
-**Status:** Accepted; integrated as entry 336
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -20,7 +20,7 @@ $$
 
 The order is fixed. The signs may depend on the entire sequence, but the same signs must work for every prefix and coordinate. The constant must be independent of $d$, $T$ and the vectors. This is the strong, or prefix, Komlós conjecture. No online decision rule or efficient algorithm is required. [1, 2]
 
-Taking $k=T$ gives the ordinary terminal-sum question in [entry 031](../../../problems/031-komlos.md). Controlling each prefix with a separately chosen signing would not answer the stronger question here.
+Taking $k=T$ gives the ordinary terminal-sum question in [entry 031](031-komlos.md). Controlling each prefix with a separately chosen signing would not answer the stronger question here.
 
 ## Applied significance
 
@@ -43,8 +43,6 @@ For general fixed inputs, [4, Theorem 2] gives an $O(\sqrt{\log(2T)})$ prefix bo
 
 The constant bounds in [5] require sufficiently small coordinates; their failure estimates can be vacuous without that restriction. Its lower bound concerns online signing, while the signs here may use future vectors. Source [6] permits discarding some terms, which this question forbids.
 
-The [evidence record](../candidates/strong-komlos-prefix-discrepancy.json) also compares complex colors, adaptive games, partial colorings and structured flow/assignment rounding at full relevant statement level. Historical results were read through explicit scholarly restatements where noted. Source research and a separated adversarial self-pass examine scope and status, without certifying the complete technical proofs.
+The [evidence record](../research/expansion-2026-09/candidates/strong-komlos-prefix-discrepancy.json) also compares complex colors, adaptive games, partial colorings and structured flow/assignment rounding at full relevant statement level. Historical results were read through explicit scholarly restatements where noted. Source research and a separated adversarial self-pass examine scope and status, without certifying the complete technical proofs.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
-
-Integrated page: [336. A constant bound for fixed-order prefix discrepancy](../../../problems/336-strong-komlos-prefix-discrepancy.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../research/expansion-2026-09/batch-04-review.md). No matching later resolution was located.

@@ -28,4 +28,4 @@ These records document editorial decisions made during the respective literature
 
 ## September 2026 expansion, beginning 17 September
 
-[Expansion progress and evidence](expansion-2026-09/README.md) records the first ten additions (301–310), held candidates, source discovery and the remaining work toward 200–300 new problems. [Batch 1 audit](expansion-2026-09/batch-01-review.md).
+[Expansion progress and evidence](expansion-2026-09/README.md) records additions 301–340, each batch's publication state, held candidates, source discovery and the remaining work toward 200–300 new problems. See the [latest batch audit](expansion-2026-09/batch-04-review.md) and the linked earlier audits.
