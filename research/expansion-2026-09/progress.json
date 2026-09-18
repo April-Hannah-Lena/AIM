@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 27,
+  "new_accepted": 28,
   "active_total": 320,
-  "candidates_investigated": 32,
+  "candidates_investigated": 33,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 173,
-  "remaining_to_target": 223,
+  "remaining_to_minimum": 172,
+  "remaining_to_target": 222,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -102,12 +102,16 @@
     {
       "commit": "77021476a366ae9ef5d8ef12e13a3639a0898b91",
       "purpose": "Record reviewed discrete Skolem draft and evidence; pushed directly to main and independently verified."
+    },
+    {
+      "commit": "1b96413e1be1066e41840b9d7cf85415f5081237",
+      "purpose": "Record Skolem research publication and follow-up leads; pushed directly to main and independently verified."
     }
   ],
-  "remote_state": "Remote main independently verified at 77021476a366ae9ef5d8ef12e13a3639a0898b91 via SSH ls-remote after the Skolem research push on September 17, 2026. It contains all 27 accepted research records, including 20 active additions through entry 320. Direct pushes remain authorized; no PR required.",
+  "remote_state": "Remote main was independently verified at 1b96413e1be1066e41840b9d7cf85415f5081237 after the Skolem audit push. Gaussian unlinking is newly accepted locally and awaits the next research push. Direct main pushes remain authorized; no PR required.",
   "next_actions": [
-    "Accumulate the next reviewed batch from deterministic PIT, polynomial Hirsch, asymmetric TSP gap, additive-goods EFX, nonamenable contact-process weak survival, optimal online bin-packing ratio and discrete Skolem decidability; refresh status and upstream duplicates before assigning IDs.",
-    "Broaden discovery in statistics and population dynamics: U-conjecture polynomial unlinking, heat-flow entropy derivatives and rebellious voter extinction require current independent corroboration and full scope checks. Retain the slow-server lead outside counts.",
+    "Accumulate the next reviewed batch from eight accepted drafts, including Gaussian polynomial unlinking; refresh resolution status and upstream duplicates before assigning IDs.",
+    "Broaden biology/statistics discovery, including rebellious voter extinction with independent corroboration. Heat-flow complete monotonicity has a matching Gu–Sellke 2026 counterexample claim and must not be admitted from older status sources.",
     "Continue broader discovery toward at least 200 new problems, integrating and pushing further reviewed batches directly to main.",
     "All ten handoff seeds investigated: eight accepted drafts, Morrey and Yang–Mills held on matching unadjudicated claims.",
     "Discover candidates across all twelve sections, with deliberate biology, statistics, information, control, operations-research and stochastic-network coverage.",
@@ -117,7 +121,7 @@
     "spectral": 1,
     "operators": 3,
     "inverse": 2,
-    "applied": 4,
+    "applied": 5,
     "spectral2": 1,
     "inverse2": 1,
     "continuum2": 1,
@@ -129,7 +133,7 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 20,
-  "count_semantics": "Twenty accepted additions are integrated and published on main; seven further accepted research drafts await batch refresh and integration. Active total remains 320. Held records do not count. Remaining-to-minimum/target fields measure further acceptances.",
+  "count_semantics": "Twenty accepted additions are integrated and published on main; eight further accepted research drafts await batch refresh and integration. Active total remains 320. Held records do not count. Remaining-to-minimum/target fields measure further acceptances.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 20,
   "coverage_semantics": "Accepted additions by primary section, including accepted drafts awaiting integration.",

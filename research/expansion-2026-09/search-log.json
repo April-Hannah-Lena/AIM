@@ -6470,5 +6470,261 @@
     "query": "\"rebellious voter\" \"extinction\" \"conjecture\"",
     "date_filter_or_unrestricted": "unrestricted (literal year where shown)",
     "review_stage": "Broader statistics and population-dynamics discovery after Skolem review; no new admission"
+  },
+  {
+    "search_id": "S182-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"U-conjecture\" Gaussian polynomials proof counterexample 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S182-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"unlinking conjecture\" polynomial independent solved",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S182-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"U-conjecture\" Hong Hu correction erratum",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S182-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"McKean\" \"heat\" \"complete monotonicity\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S183-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"U-conjecture\" \"2026\" -site:theoremdb.org",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S183-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"U-conjecture\" \"2025\" -site:theoremdb.org",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S183-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"unlinking\" \"Gaussian\" \"counterexample\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S183-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"U-conjecture\" \"proved\" OR \"refuted\" OR \"disproved\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S184-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"U-conjecture\" \"Gaussian\" \"2025\" OR \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S184-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"unlinking conjecture\" \"Gaussian\" proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S184-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Malicet\" \"Nourdin\" \"Peccati\" \"Poly\" squared chaotic",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S184-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Kagan\" \"Linnik\" \"Rao\" \"U-conjecture\" latest",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S185-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"U-conjecture\" Gaussian independent polynomials survey",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S185-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"unlinking conjecture\" polynomials 2024 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S185-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian product inequality\" \"U-conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S186-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Ouimet\" \"Greaves\" \"Gaussian product\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S186-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"On the Gaussian product inequality conjecture for disjoint principal minors\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S186-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"U-conjecture\" \"independent\" \"polynomials\" resolution proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S187-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"U-conjecture\" Gaussian \"proof\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S187-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"unlinking theorem\" Hong Hu correction erratum withdrawal",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S187-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"independent polynomials\" \"Gaussian\" \"counterexample\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "S187-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"U-conjecture\" Gaussian resolution solved refutation",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Gaussian polynomial unlinking discovery and current resolution/scope checks; S182-4 heat-entropy discovery"
+  },
+  {
+    "search_id": "A29-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"U-conjecture\" \"Gaussian\" disproof refutation \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Separated adversarial self-pass for Gaussian polynomial unlinking"
+  },
+  {
+    "search_id": "A29-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gaussian\" \"independent polynomials\" \"unlinked\" solved",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Separated adversarial self-pass for Gaussian polynomial unlinking"
+  },
+  {
+    "search_id": "A29-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Hong\" \"Hu\" \"Unlinking\" erratum withdrawn correction",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Separated adversarial self-pass for Gaussian polynomial unlinking"
+  },
+  {
+    "search_id": "A29-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Malicet\" \"Nourdin\" \"Peccati\" \"Poly\" \"U-conjecture\" proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+    "review_stage": "Separated adversarial self-pass for Gaussian polynomial unlinking"
+  },
+  {
+    "search_id": "S188-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"McKean\" \"entropy\" \"complete monotonicity\" 2026 proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Heat-flow entropy discovery; found directly matching Gu–Sellke counterexample claim; not admitted"
+  },
+  {
+    "search_id": "S188-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"heat flow\" \"entropy derivatives\" \"conjecture\" solved",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Heat-flow entropy discovery; found directly matching Gu–Sellke counterexample claim; not admitted"
+  },
+  {
+    "search_id": "S188-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Cheng\" \"Geng\" \"entropy\" \"complete monotonicity\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Heat-flow entropy discovery; found directly matching Gu–Sellke counterexample claim; not admitted"
+  },
+  {
+    "search_id": "S188-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"McKean conjecture\" heat counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Heat-flow entropy discovery; found directly matching Gu–Sellke counterexample claim; not admitted"
+  },
+  {
+    "search_id": "S189-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Gu\" \"Sellke\" \"Gaussian Completely Monotone\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Heat-flow entropy discovery; found directly matching Gu–Sellke counterexample claim; not admitted"
+  },
+  {
+    "search_id": "S189-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"A Counterexample to the Gaussian Completely Monotone Conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Heat-flow entropy discovery; found directly matching Gu–Sellke counterexample claim; not admitted"
   }
 ]

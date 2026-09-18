@@ -1,0 +1,837 @@
+{
+  "candidate_id": "gaussian-polynomial-unlinking",
+  "proposed_catalogue_id": null,
+  "title": "Orthogonal separation of independent Gaussian polynomial statistics",
+  "aliases": [
+    "Gaussian polynomial U-conjecture",
+    "Unlinking conjecture",
+    "Kagan–Linnik–Rao U-conjecture"
+  ],
+  "primary_section": "applied",
+  "secondary_tags": [
+    "mathematical statistics",
+    "Gaussian analysis",
+    "independence"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Exact formulation, independent current restatement, theorem-scope checks and separated A29 self-pass passed; no matching unresolved resolution claim located.",
+  "problem_fingerprint": {
+    "model_or_objects": "Two nonconstant real polynomials evaluated at one standard Gaussian vector.",
+    "dimension": "Every finite n≥2; n=2 is known.",
+    "domain": "R^n with standard Gaussian probability.",
+    "regularity_and_data_class": "Arbitrary finite polynomial degrees and real coefficients; no evenness, convexity or chaos restriction.",
+    "boundary_or_initial_conditions": "None.",
+    "parameter_range": "All pairs whose outputs are independent.",
+    "quantifiers": "For every n and such pair, there exist a single orthogonal O, a split 1≤k<n and two polynomials on the disjoint blocks.",
+    "normalization": "X has mean zero and covariance I_n.",
+    "observable_or_norm": "Independence of distributions, defined on all Borel rectangles.",
+    "limit_regime_and_order": "Finite-dimensional exact identity; no limit.",
+    "requested_conclusion": "After composition with O, both polynomials depend on disjoint coordinate blocks, pointwise on R^n.",
+    "computational_model_and_dependencies": "Existence statement, no algorithm, approximate independence or unproved dependency."
+  },
+  "statement_source_and_scope_match": "HH22 §1 gives the standard-Gaussian formulation and n=2 exception; MNPP16 §1.5 defines the disjoint-coordinate split. Removing constant statistics only omits trivial endpoint cases. LOS26 §1 explicitly specifies a standard Gaussian.",
+  "proposed_statement_text": "Must every independent pair of nonconstant real polynomial statistics of a standard Gaussian vector separate into disjoint coordinate blocks after an orthogonal transformation?",
+  "applied_significance": "Foundational characterization of independence of polynomial summaries of Gaussian observations. The interpretation as separating orthogonal sources of variation follows directly from the statement; no finite-sample inference guarantee is claimed.",
+  "application_evidence_source_ids": [
+    "HH22",
+    "HAR05",
+    "LOS26"
+  ],
+  "source_records": [
+    {
+      "source_id": "HH22",
+      "role": "formulation and restricted theorem",
+      "authors": [
+        "He-Jing Hong",
+        "Ze-Chun Hu"
+      ],
+      "title": "Unlinking Theorem for Symmetric Quasi-Convex Polynomials",
+      "venue_or_repository": "Chinese Journal of Applied Probability and Statistics 38(1), 151–158",
+      "publication_type": "published paper",
+      "publication_date": "2022-02",
+      "latest_version_date": "2022-02",
+      "identifier": "10.3969/j.issn.1001-4268.2022.01.011",
+      "version": "Published PDF; arXiv:2012.14568v1 (2020-12-29) also inspected",
+      "stable_url": "https://aps.ecnu.edu.cn/cn/article/pdf/preview/10.3969/j.issn.1001-4268.2022.01.011.pdf",
+      "locator": "§1 pp. 151–152; Theorem 1; proof ending p. 157",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Published introduction and theorem; arXiv §§1–2 including Theorem 2.6/proof; published final proof step; arXiv history"
+      ],
+      "supported_claim": "General U formulation; n=2 known; even quasi-convex case proved.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Historical Kagan–Linnik–Rao monograph accessed through this explicit restatement; journal and arXiv versions count as one source."
+    },
+    {
+      "source_id": "HAR05",
+      "role": "independent formulation and partial theorem",
+      "authors": [
+        "Gilles Hargé"
+      ],
+      "title": "Characterization of equality in the correlation inequality for convex functions, the U-conjecture",
+      "venue_or_repository": "Ann. I. H. Poincaré, Probab. Statist. 41(4), 753–765",
+      "publication_type": "published paper",
+      "publication_date": "2005",
+      "latest_version_date": "2005",
+      "identifier": "10.1016/j.anihpb.2004.05.005",
+      "version": "Published PDF",
+      "stable_url": "https://www.numdam.org/article/AIHPB_2005__41_4_753_0.pdf",
+      "locator": "§1, Theorems 1.1–1.2, pp. 753–754",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Introduction; full Theorems 1.1–1.2; relevant closing proof scope"
+      ],
+      "supported_claim": "Convex analytic minimum-at-origin theorem is restricted.",
+      "independent_of_source_ids": [
+        "HH22"
+      ],
+      "access_limitations": "Relevant statements and scope read; not a proof certification."
+    },
+    {
+      "source_id": "MNPP16",
+      "role": "independent formulation and nonconvex partial result",
+      "authors": [
+        "Dominique Malicet",
+        "Ivan Nourdin",
+        "Giovanni Peccati",
+        "Guillaume Poly"
+      ],
+      "title": "Squared chaotic random variables: new moment inequalities with applications",
+      "venue_or_repository": "Journal of Functional Analysis 270(2), 649–670",
+      "publication_type": "published paper",
+      "publication_date": "2016-01-15",
+      "latest_version_date": "2016-01-15",
+      "identifier": "10.1016/j.jfa.2015.10.013; arXiv:1503.02154",
+      "version": "arXiv:1503.02154v1 (2015-03-07); published metadata checked",
+      "stable_url": "https://arxiv.org/html/1503.02154v1",
+      "locator": "§1.5 Theorem 1.7; full proof §3.6",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Gaussian/chaos definitions; full §1.5 and §3.6; arXiv history; publisher metadata"
+      ],
+      "supported_claim": "Unlinking for sums of specified chaos squares; does not cover arbitrary polynomial pairs.",
+      "independent_of_source_ids": [
+        "HH22",
+        "HAR05"
+      ],
+      "access_limitations": "Author manuscript supplies theorem numbering. DOI landing-page fetch failed, but indexed publisher metadata and cited published bibliography agree."
+    },
+    {
+      "source_id": "GOR24",
+      "role": "independent specialist restatement",
+      "authors": [
+        "Christian Genest",
+        "Frédéric Ouimet",
+        "Donald Richards"
+      ],
+      "title": "On the Gaussian product inequality conjecture for disjoint principal minors of Wishart random matrices",
+      "venue_or_repository": "Electronic Journal of Probability 29, 26 pp.",
+      "publication_type": "published paper",
+      "publication_date": "2024",
+      "latest_version_date": "2024",
+      "identifier": "10.1214/24-EJP1222; arXiv:2311.00202",
+      "version": "arXiv:2311.00202v3 (2024-10-01)",
+      "stable_url": "https://arxiv.org/html/2311.00202v3",
+      "locator": "§1 following Eq. (1)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Introduction; arXiv metadata and history; Ouimet author publication list"
+      ],
+      "supported_claim": "Restates the U-conjecture in the GPI literature.",
+      "independent_of_source_ids": [
+        "HH22",
+        "HAR05",
+        "MNPP16"
+      ],
+      "access_limitations": "Relevant statements and scope read; not a proof certification."
+    },
+    {
+      "source_id": "OG26",
+      "role": "neighboring resolution-claim scope check",
+      "authors": [
+        "Frédéric Ouimet",
+        "Dylan Greaves"
+      ],
+      "title": "A proof of the strong Gaussian product inequality conjecture",
+      "venue_or_repository": "Author-uploaded ResearchGate manuscript; author lists as submitted",
+      "publication_type": "preprint",
+      "publication_date": "2026-07-27",
+      "latest_version_date": "2026-07-27",
+      "identifier": "10.13140/RG.2.2.17569.77923/1",
+      "version": "Version served September 17, 2026; upload date displayed by ResearchGate",
+      "stable_url": "https://www.researchgate.net/publication/410720385_A_proof_of_the_strong_Gaussian_product_inequality_conjecture",
+      "locator": "§1; Theorem 2.1 and opening proof",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full theorem and equality clause; Gaussian standardization at start of proof; introduction/corollary overview; author listing; full-text U-conjecture search"
+      ],
+      "supported_claim": "Claim concerns absolute powers of jointly Gaussian coordinates.",
+      "independent_of_source_ids": [],
+      "access_limitations": "No arXiv ID assigned on author page. No independent proof adjudication attempted. No U-conjecture theorem or implication found."
+    },
+    {
+      "source_id": "LONG26",
+      "role": "neighboring counterexample scope check",
+      "authors": [
+        "Christopher D. Long"
+      ],
+      "title": "Small Counterexamples to the Gaussian Moments Conjecture",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2026-07-20",
+      "latest_version_date": "2026-07-20",
+      "identifier": "https://arxiv.org/html/2607.18186v1",
+      "version": "arXiv:2607.18186v1",
+      "stable_url": "https://arxiv.org/html/2607.18186v1",
+      "locator": "§1; Proposition 4.1; Theorem 5.1 and proof",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full GMC formulation; complex polynomial definitions; Proposition 4.1 and Theorem 5.1 with proofs; arXiv metadata"
+      ],
+      "supported_claim": "Complex-polynomial vanishing-moment counterexample, not real polynomial unlinking.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Used only for the exact scope comparison; unrelated Jacobian claims are not adjudicated."
+    },
+    {
+      "source_id": "LOS26",
+      "role": "A29 current specialist restatement",
+      "authors": [
+        "Guolie Lan",
+        "Frédéric Ouimet",
+        "Wei Sun"
+      ],
+      "title": "Results related to the Gaussian product inequality conjecture for mixed-sign exponents in arbitrary dimension",
+      "venue_or_repository": "arXiv; author lists as submitted",
+      "publication_type": "preprint",
+      "publication_date": "2026-08-27",
+      "latest_version_date": "2026-08-27",
+      "identifier": "https://arxiv.org/pdf/2505.09976v3",
+      "version": "arXiv:2505.09976v3; first submitted 2025-05-15",
+      "stable_url": "https://arxiv.org/pdf/2505.09976v3",
+      "locator": "§1 p. 1, paragraph after Eq. (1)",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "v2 introduction initially; current history then v3 complete introduction, p. 1 precise U restatement and Theorem 1"
+      ],
+      "supported_claim": "August 2026 restatement of standard-Gaussian U-conjecture.",
+      "independent_of_source_ids": [
+        "HH22",
+        "HAR05",
+        "MNPP16"
+      ],
+      "access_limitations": "Shares Ouimet with GOR24/OG26, so not an additional independent team relative to them; v2/v3 are one source. Header of old v2 does not establish publication."
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S182-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"U-conjecture\" Gaussian polynomials proof counterexample 2025 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S182-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"unlinking conjecture\" polynomial independent solved",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S182-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"U-conjecture\" Hong Hu correction erratum",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S183-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"U-conjecture\" \"2026\" -site:theoremdb.org",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S183-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"U-conjecture\" \"2025\" -site:theoremdb.org",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S183-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"unlinking\" \"Gaussian\" \"counterexample\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S183-4",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"U-conjecture\" \"proved\" OR \"refuted\" OR \"disproved\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S184-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"U-conjecture\" \"Gaussian\" \"2025\" OR \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S184-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"unlinking conjecture\" \"Gaussian\" proof counterexample",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S184-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Malicet\" \"Nourdin\" \"Peccati\" \"Poly\" squared chaotic",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S184-4",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Kagan\" \"Linnik\" \"Rao\" \"U-conjecture\" latest",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S185-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"U-conjecture\" Gaussian independent polynomials survey",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S185-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"unlinking conjecture\" polynomials 2024 2025 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S185-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Gaussian product inequality\" \"U-conjecture\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S186-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Ouimet\" \"Greaves\" \"Gaussian product\" 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S186-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"On the Gaussian product inequality conjecture for disjoint principal minors\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S186-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"U-conjecture\" \"independent\" \"polynomials\" resolution proof",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S187-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"U-conjecture\" Gaussian \"proof\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S187-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"unlinking theorem\" Hong Hu correction erratum withdrawal",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S187-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"independent polynomials\" \"Gaussian\" \"counterexample\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "S187-4",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"U-conjecture\" Gaussian resolution solved refutation",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "A29-1",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"U-conjecture\" \"Gaussian\" disproof refutation \"2025\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "A29-2",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Gaussian\" \"independent polynomials\" \"unlinked\" solved",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "A29-3",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Hong\" \"Hu\" \"Unlinking\" erratum withdrawn correction",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    },
+    {
+      "search_id": "A29-4",
+      "searched_at": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Malicet\" \"Nourdin\" \"Peccati\" \"Poly\" \"U-conjecture\" proof",
+      "date_filter_or_unrestricted": "unrestricted (literal years/domain exclusions where shown)",
+      "results_inspected": [
+        "HH22",
+        "HAR05",
+        "MNPP16",
+        "GOR24",
+        "OG26",
+        "LONG26",
+        "LOS26"
+      ],
+      "outcome": "Group-level outcomes: restricted unlinking theorems; two neighboring 2026 claims with scope mismatch; current LOS26 restatement; no matching general resolution located.",
+      "limitations": "Results inspected are the combined source set for S182–S187/A29, not a claim that every query returned every source. Broad U queries returned unrelated topics. S182-4 concerns a separate heat-entropy lead."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "HH22",
+      "theorem_locator": "Theorem 1",
+      "claim_type": "restricted unlinking",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Both polynomials even and quasi-convex."
+      ],
+      "scope_relation": "restricted or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Arbitrary real polynomials need not have symmetric convex sublevel sets.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "HAR05",
+      "theorem_locator": "Theorem 1.2",
+      "claim_type": "restricted unlinking",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Both functions convex; one analytic and globally minimized at zero."
+      ],
+      "scope_relation": "restricted or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Polynomial analyticity alone does not supply convexity or the minimum condition.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "MNPP16",
+      "theorem_locator": "Theorem 1.7 and §3.6",
+      "claim_type": "chaos-square class",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Each statistic is a finite sum of squares, the jth term lying in the jth chaos."
+      ],
+      "scope_relation": "restricted or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Proof separates nonnegative component covariances; arbitrary polynomial expansions do not provide this representation.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "OG26",
+      "theorem_locator": "Theorem 2.1",
+      "claim_type": "strong GPI claim",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Vector jointly Gaussian; positive absolute-power exponents; equality criterion for its coordinates."
+      ],
+      "scope_relation": "restricted or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Polynomial outputs are generally not jointly Gaussian. No extension to arbitrary independent polynomial functions is supplied; no indirect unlinking implication located.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "LONG26",
+      "theorem_locator": "Theorem 5.1",
+      "claim_type": "Gaussian-moments counterexample",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Complex coefficients; all pure moments vanish but mixed moments do not."
+      ],
+      "scope_relation": "restricted or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Does not construct an independent pair of real statistics. Indeed the displayed nonzero mixed moments fail the factorization independence would impose.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": 269,
+        "distinction": "Mutual-information extremization for Boolean inputs through binary noise, not Gaussian polynomial independence."
+      },
+      {
+        "id": 305,
+        "distinction": "Balanced measurable Gaussian partitions maximizing noisy agreement, not an orthogonal decomposition theorem."
+      }
+    ],
+    "distinctness_reason": "Retained completed baseline/full-metadata reading; fresh whole data/problems/research text search, accepted/held record screening and reread of closest pages. No matching model-and-conclusion target.",
+    "implications_or_equivalences": [
+      "Orthogonal composition and a rotated-coordinate random-vector formulation are one problem.",
+      "One canonical arbitrary-degree/all-dimension entry; no extra counts for known n=2 or convex/chaos subclasses."
+    ]
+  },
+  "open_status_evidence_summary": "Explicit general open question in HH22; independent MNPP16/GOR24 formulations and current LOS26 restatement. Located claims do not match the requested conclusion.",
+  "independent_status_corroboration": "HAR05, MNPP16 and GOR24/LOS26 are independent of the HH22 authors. LOS26 v3 supplies August 2026 corroboration; overlapping Ouimet sources are not counted as distinct independent teams.",
+  "strongest_known_partial_results_and_gap": "Known n=2; convex analytic and even quasi-convex cases; specified sums of chaos squares. Arbitrary higher-dimensional polynomial pairs remain the question.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "Historical monograph used through explicit scholarly restatements.",
+    "Proof scopes checked, not independent certification of all proofs.",
+    "Search indexing may lag; no guarantee against an unindexed resolution.",
+    "Application is foundational; practical finite-sample recovery is not claimed."
+  ],
+  "second_review": {
+    "arrangement": "Separated adversarial self-pass; no independent agent or human review.",
+    "reviewer_or_pass_identifier": "A29",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A29-1",
+      "A29-2",
+      "A29-3",
+      "A29-4"
+    ],
+    "issues_found": [
+      "Orthogonal matrix/inverse convention must be consistent.",
+      "Independence must not become mere zero covariance; polynomial degrees unrestricted.",
+      "Sums of chaos squares are a special class, not all finite chaos expansions.",
+      "Newer Lan–Ouimet–Sun version discovered; old 2025 manuscript was superseded."
+    ],
+    "issues_resolved": [
+      "Used f(Oy) and rotated X via O^T; pointwise polynomial identities match the source.",
+      "Borel-rectangle definition retained; no symmetry, convexity or homogeneity imposed.",
+      "Partial-class restriction and proof mechanism stated.",
+      "Read v3 dated August 27, 2026, including current standard-Gaussian U restatement; publication remains preprint."
+    ],
+    "verdict": "pass"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Accepted research draft; refresh before active batch integration."
+  },
+  "public_page_path": null,
+  "validation_results": [
+    "2026-09-17: source/search IDs, headings and all draft local links checked.",
+    "2026-09-17: all 19 math expressions passed strict KaTeX; statement and applied-significance screenshot visually inspected.",
+    "2026-09-17: catalogue.py --write and --check passed at 320 active entries; git diff --check passed.",
+    "2026-09-17: 33 investigated, 28 accepted, 20 integrated and eight pending; primary-section counts reconciled."
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": null,
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_page_path": "research/expansion-2026-09/drafts/gaussian-polynomial-unlinking.md"
+}
