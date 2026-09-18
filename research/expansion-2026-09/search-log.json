@@ -13682,5 +13682,245 @@
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Separated adversarial self-pass after drafting; independent agent or human review not performed.",
     "candidate_id": "binary-skew-symmetric-broadcast"
+  },
+  {
+    "search_id": "S371-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Carrasco's conjecture\" solved proof counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S371-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Carrasco conjecture\" \"2025\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S371-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Zames-Falb\" \"necessity\" \"continuous-time\" conjecture",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S371-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"On the Necessity and Sufficiency of the Zames-Falb Multipliers\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S372-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Carrasco\" \"conjecture\" \"Zames\" proof 2024 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S372-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Zames-Falb\" \"necessity\" static monotone \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S372-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Carrasco conjecture\" counterexample disproof resolution",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S372-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Zames-Falb multipliers\" \"necessity\" Scherer",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S373-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Carrasco\" \"conjecture\" \"continuous\" proof",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S373-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"On the necessity and sufficiency\" \"Zames\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S373-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Zames\" \"Carrasco\" conjecture 2026 -site:researchgate.net",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S373-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Carrasco\" \"conjecture\" counterexample \"static\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S374-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"2607.23599\" continuous",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S374-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Kharitenko\" \"Carrasco\" \"continuous\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S374-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Existence of stable Lur'e systems\" correction erratum withdrawal",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S374-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Carrasco conjecture\" \"continuous-time\" September 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S375-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Carrasco\" \"continuous-time\" \"disproved\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S375-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Kharitenko\" \"continuous-time\" \"counterexample\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S375-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Zames-Falb\" \"continuous-time\" \"counterexample\" 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S375-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"O'Shea\" \"necessity\" \"continuous\" 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S376-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Carrasco conjecture\" \"continuous-time\" \"discrete-time\" counterexample",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S376-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"2607.23599\" \"continuous-time\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S376-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Zames-Falb\" \"necessity\" \"continuous-time\" bilinear",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
+  },
+  {
+    "search_id": "S376-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Carrasco\" \"conjecture\" solved continuous 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery-only continuous-time Carrasco lead: full formulations, versions and resolution-scope comparison; no admission decision.",
+    "candidate_id": null,
+    "lead": "continuous-time Carrasco necessity conjecture"
   }
 ]

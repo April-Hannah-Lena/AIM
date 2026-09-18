@@ -316,3 +316,9 @@ The Carrasco absolute-stability lead still requires the survey's complete open-q
 All 44 actual queries are saved, for 1,670 distinct search identifiers. Counts before the checkpoint push: 52 formal records, 47 accepted, five held, 40 integrated/published, seven pending accepted drafts and 340 active entries. The new broadcast research draft awaits publication; three more accepted drafts are needed for the next ten-entry integration batch. The remaining minimum gap is 153 acceptances and 160 integrations.
 
 Research publication receipt: [66617e0](https://github.com/MColbrook/AIM/commit/66617e03315b6184d0ec802ff7132d9cbf5bccc1) was pushed directly to main on September 18, 2026. A separate remote-ref read matched the full content commit. All seven accepted drafts and their evidence are uploaded; active membership remains 340, with 40 integrated/published additions and 47 accepted additions.
+
+## Continuous-time control audit (S371–S376; 2026-09-18)
+
+The [Carrasco discovery checkpoint](carrasco-discovery.md) saves the complete original formulation, independent Khong–Su status discussion and detailed reading limits. A July 2026 claim was followed through its full discrete-time model, infinite-horizon certificate theorem, example and conclusion. The connection to the original continuous-time question is still under investigation; neither a resolution nor a new open candidate is asserted. Stability conventions and positive versus signed multiplier classes also need reconciliation before drafting.
+
+All 24 actual queries are saved, bringing the search log to 1,694 distinct identifiers. No admission or separated A49 review has occurred. Counts remain 47 accepted additions, 40 integrated/published, seven accepted drafts pending integration, five formal holds, 52 formal records and 340 active entries. Three more accepted drafts are needed for the next integration batch.

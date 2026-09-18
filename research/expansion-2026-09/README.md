@@ -35,3 +35,7 @@ The [Tuza record](candidates/tuza-triangle-packing-covering.json) preserves fini
 ## Binary broadcast capacity (2026-09-18)
 
 The [broadcast record](candidates/binary-skew-symmetric-broadcast.json) fixes the two binary transition matrices, independent private messages, no feedback, separate decoders and vanishing average block error. Nair's explicit open question and Dou and coauthors' independently authored account supply the core evidence. Nine source records and nine scope comparisons distinguish evaluation of an achievable region, numerical outer bounds, local tensorization and exact-capacity results for other channel classes. A48 found and checked the expanded June 2026 sum-channel theorem and a solved single-user channel sharing the BSSC acronym. Twenty-four expressions passed strict KaTeX and a full-page visual check. The accepted research draft was [published directly to main](https://github.com/MColbrook/AIM/commit/66617e03315b6184d0ec802ff7132d9cbf5bccc1) and the full remote commit independently checked on September 18, 2026. It awaits later batch integration.
+
+## Continuous-time control discovery (2026-09-18)
+
+The [Carrasco discovery audit](carrasco-discovery.md) records a July 2026 discrete-time disproof claim and the original continuous-time formulation. Their relationship and precise stability conventions remain under review. This lead is not counted among accepted drafts or formal candidate records. The current totals remain 47 accepted additions, 40 integrated/published, seven pending drafts and 340 active entries.
