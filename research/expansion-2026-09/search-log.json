@@ -9053,5 +9053,325 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted",
     "review_stage": "Adversarial follow-up of newly located changed-model results and access limits"
+  },
+  {
+    "search_id": "S253-1",
+    "query": "\"sunlet\" \"quadratic\" \"conjecture\" 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Biology and statistical-learning follow-up"
+  },
+  {
+    "search_id": "S253-2",
+    "query": "\"CFN\" \"sunlet\" \"ideal\" \"conjecture\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Biology and statistical-learning follow-up"
+  },
+  {
+    "search_id": "S253-3",
+    "query": "\"sunlet\" \"saturation\" \"quadrics\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Biology and statistical-learning follow-up"
+  },
+  {
+    "search_id": "S253-4",
+    "query": "\"Littlestone\" \"VC\" \"private learning\" \"conjecture\" 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Biology and statistical-learning follow-up"
+  },
+  {
+    "search_id": "S254-1",
+    "query": "\"sunlet\" \"quadratically generated\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "CFN sunlet independent corroboration and resolution search"
+  },
+  {
+    "search_id": "S254-2",
+    "query": "\"sunlet\" \"quadratic generation\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "CFN sunlet independent corroboration and resolution search"
+  },
+  {
+    "search_id": "S254-3",
+    "query": "\"sunlet\" \"Conjecture 6.1\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "CFN sunlet independent corroboration and resolution search"
+  },
+  {
+    "search_id": "S254-4",
+    "query": "\"Pfaffian\" \"sunlet\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "CFN sunlet independent corroboration and resolution search"
+  },
+  {
+    "search_id": "S255-1",
+    "query": "\"sunlet\" \"quadratic\" -\"Cummings\" -\"Hollering\" -\"Manon\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Independent phylogenetic follow-up and broader learning/discrepancy discovery"
+  },
+  {
+    "search_id": "S255-2",
+    "query": "\"learning DNF\" \"uniform\" \"open problem\" 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Independent phylogenetic follow-up and broader learning/discrepancy discovery"
+  },
+  {
+    "search_id": "S255-3",
+    "query": "\"Komlos conjecture\" 2026 proved counterexample",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Independent phylogenetic follow-up and broader learning/discrepancy discovery"
+  },
+  {
+    "search_id": "S255-4",
+    "query": "\"Komlós conjecture\" \"rounding\" \"survey\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Independent phylogenetic follow-up and broader learning/discrepancy discovery"
+  },
+  {
+    "search_id": "S256-1",
+    "query": "\"learning DNF\" \"uniform distribution\" \"2025\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Learning-theory discovery and baseline Komlos follow-up"
+  },
+  {
+    "search_id": "S256-2",
+    "query": "\"learning DNF\" \"uniform distribution\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Learning-theory discovery and baseline Komlos follow-up"
+  },
+  {
+    "search_id": "S256-3",
+    "query": "\"Komlós\" \"2026\" \"proof\" \"September\" arxiv",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Learning-theory discovery and baseline Komlos follow-up"
+  },
+  {
+    "search_id": "S256-4",
+    "query": "\"Mansour\" \"conjecture\" 2026 solved",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Learning-theory discovery and baseline Komlos follow-up"
+  },
+  {
+    "search_id": "S257-1",
+    "query": "\"strong Komlos conjecture\" proof solved counterexample",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fixed-order prefix vector-balancing discovery and resolution checks"
+  },
+  {
+    "search_id": "S257-2",
+    "query": "\"prefix Komlós\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fixed-order prefix vector-balancing discovery and resolution checks"
+  },
+  {
+    "search_id": "S257-3",
+    "query": "\"Bansal\" \"Jiang\" \"Meka\" \"Singla\" \"Sinha\" \"Open Problem 6.1\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fixed-order prefix vector-balancing discovery and resolution checks"
+  },
+  {
+    "search_id": "S257-4",
+    "query": "\"Guo\" \"Fang\" \"Lu\" \"Komlos\" arxiv",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Fixed-order prefix vector-balancing discovery and resolution checks"
+  },
+  {
+    "search_id": "S258-1",
+    "query": "\"prefix discrepancy\" constant proof counterexample 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Prefix-signing formulation, aliases and possible-resolution search"
+  },
+  {
+    "search_id": "S258-2",
+    "query": "\"strong Komlós\" solved resolution refutation",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Prefix-signing formulation, aliases and possible-resolution search"
+  },
+  {
+    "search_id": "S258-3",
+    "query": "\"signed series\" \"Komlos\" \"2025\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Prefix-signing formulation, aliases and possible-resolution search"
+  },
+  {
+    "search_id": "S258-4",
+    "query": "\"Prefix Discrepancy, Smoothed Analysis\" correction erratum",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Prefix-signing formulation, aliases and possible-resolution search"
+  },
+  {
+    "search_id": "S259-1",
+    "query": "\"strong Komlos conjecture\" \"2025\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Prefix-signing follow-up of online, discard and constant-bound results"
+  },
+  {
+    "search_id": "S259-2",
+    "query": "\"prefix discrepancy\" \"constant\" proved solved disproof refutation",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Prefix-signing follow-up of online, discard and constant-bound results"
+  },
+  {
+    "search_id": "S259-3",
+    "query": "\"Online Komlós converges to mean curvature flow\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Prefix-signing follow-up of online, discard and constant-bound results"
+  },
+  {
+    "search_id": "S259-4",
+    "query": "\"Smirnov\" \"Vershynin\" \"discard\" vectors 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Prefix-signing follow-up of online, discard and constant-bound results"
+  },
+  {
+    "search_id": "S260-1",
+    "query": "\"strong Komlós conjecture\" proof proved solved resolution counterexample disproof refutation",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Strong prefix discrepancy current status, authors and corrections"
+  },
+  {
+    "search_id": "S260-2",
+    "query": "\"prefix discrepancy\" \"unit\" \"constant\" \"2026\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Strong prefix discrepancy current status, authors and corrections"
+  },
+  {
+    "search_id": "S260-3",
+    "query": "\"Karingula\" \"Lovett\" \"Komlos\" correction erratum",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Strong prefix discrepancy current status, authors and corrections"
+  },
+  {
+    "search_id": "S260-4",
+    "query": "\"Bansal\" \"Jiang\" \"Meka\" \"Singla\" \"Sinha\" \"prefix\" 2025 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Strong prefix discrepancy current status, authors and corrections"
+  },
+  {
+    "search_id": "S261-1",
+    "query": "\"strong Komlos\" 2024 2025 proof",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Prefix discrepancy aliases, prior years and correction audit"
+  },
+  {
+    "search_id": "S261-2",
+    "query": "\"prefix discrepancy\" \"counterexample\" \"constant\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Prefix discrepancy aliases, prior years and correction audit"
+  },
+  {
+    "search_id": "S261-3",
+    "query": "\"signed series\" \"Komlós\" resolution",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Prefix discrepancy aliases, prior years and correction audit"
+  },
+  {
+    "search_id": "S261-4",
+    "query": "\"prefix discrepancy\" erratum correction withdrawn",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Prefix discrepancy aliases, prior years and correction audit"
+  },
+  {
+    "search_id": "A37-1",
+    "query": "\"prefix Komlos\" proof",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A37-2",
+    "query": "\"strong Komlós conjecture\"",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A37-3",
+    "query": "\"prefix discrepancy\" \"constant bound\" 2026",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A37-4",
+    "query": "\"Banaszczyk\" \"prefix\" counterexample",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
   }
 ]

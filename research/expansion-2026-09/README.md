@@ -1,6 +1,6 @@
 # September 2026 expansion research
 
-The active catalogue contains 330 entries: the original 300 and thirty accepted additions. All three ten-entry batches (301–330) are published directly on main. The requested expansion remains 200–300 new problems, with a working target of 250: Five further accepted research drafts await batch integration. Another 165 acceptances are needed for the minimum and 215 for the working target; 170 and 220 integrations, respectively, remain.
+The active catalogue contains 330 entries: the original 300 and thirty accepted additions. All three ten-entry batches (301–330) are published directly on main. The requested expansion remains 200–300 new problems, with a working target of 250: Six further accepted research drafts await batch integration. Another 164 acceptances are needed for the minimum and 214 for the working target; 170 and 220 integrations, respectively, remain.
 
 - [Progress and reading coverage](progress.json): counts, publication state and next actions.
 - [Baseline inventory](baseline-inventory.json): all original statements and metadata at a602073d986b7f5ce57b1aa0db1687d1bd87761d.
@@ -12,6 +12,6 @@ The original 300 pages and historical review dates are preserved. Permanent IDs 
 
 The thirty additions cover all twelve primary sections. Batch 3 adds symbolic identity testing, polytope diameter, asymmetric routing certificates, fair division, spatial epidemic persistence, online capacity allocation, exact discrete reachability, independence of Gaussian statistics, population ancestry and static-feedback capability. No further numerical-linear-algebra problems were added.
 
-Forty candidates have investigation records: thirty-five accepted and five held. Morrey, Yang–Mills, Gaussian multiple-access feedback and graph isomorphism have unresolved matching claims; FIFO queue feedback has a formulation/evidence hold. These have no active IDs. Discovery-only leads are not counted as investigated records.
+Forty-one candidates have investigation records: thirty-six accepted and five held. Morrey, Yang–Mills, Gaussian multiple-access feedback and graph isomorphism have unresolved matching claims; FIFO queue feedback has a formulation/evidence hold. These have no active IDs. Discovery-only leads are not counted as investigated records.
 
 The user authorized repository uploads and direct pushes to main. No PR is required. Current upstream and open-PR checks are recorded in the batch audit and individual refresh records.

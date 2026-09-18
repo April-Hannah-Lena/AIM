@@ -1,0 +1,798 @@
+{
+  "candidate_id": "strong-komlos-prefix-discrepancy",
+  "proposed_catalogue_id": null,
+  "title": "A constant bound for fixed-order prefix discrepancy",
+  "aliases": [
+    "Strong Komlós conjecture",
+    "Prefix Komlós conjecture",
+    "Constant bound for the signed series problem"
+  ],
+  "primary_section": "operators",
+  "secondary_tags": [
+    "combinatorial discrepancy",
+    "integer optimization",
+    "cumulative allocation",
+    "scheduling"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit sourced conjecture and independently authored current restatement; full relevant resolution-scope, implication and duplicate comparisons passed the separated A37 review.",
+  "problem_fingerprint": {
+    "recorded_on": "2026-09-17",
+    "source": "Bansal–Jiang–Meka–Singla–Sinha, arXiv:2111.07049v1, §1 definition and §6 Open Problem 6.1; independently restated by Karingula–Lovett, ECCC TR26-188, Conjecture 1.6.",
+    "quantifiers": "There exists a finite universal C such that for every positive integer d, every positive integer T, and every ordered sequence v1,...,vT in R^d of Euclidean norm at most one, there exists one sign vector epsilon in {−1,+1}^T.",
+    "target": "max_{1≤k≤T} ||sum_{i=1}^k epsilon_i v_i||_infinity ≤ C.",
+    "normalization": "Real vectors, Euclidean input norm ≤1; coordinate maximum output norm.",
+    "order_and_information": "The order is prescribed and cannot be permuted. Signs may depend on the entire sequence; no online or efficient-algorithm requirement.",
+    "simultaneity": "The same signs must control every prefix and coordinate, with C independent of dimension, sequence length, and data.",
+    "family": "One canonical all-dimension prefix-signing question; related norm/sparsity versions receive no extra count."
+  },
+  "fingerprint_recorded_before_drafting": true,
+  "actual_status_check_date": "2026-09-17",
+  "draft_path": "research/expansion-2026-09/drafts/strong-komlos-prefix-discrepancy.md",
+  "public_page_path": null,
+  "source_records": [
+    {
+      "source_id": "BJMSS22",
+      "role": "Explicit conjecture, formulation and applications",
+      "authors": [
+        "Nikhil Bansal",
+        "Haotian Jiang",
+        "Raghu Meka",
+        "Sahil Singla",
+        "Makrand Sinha"
+      ],
+      "title": "Prefix Discrepancy, Smoothed Analysis, and Combinatorial Vector Balancing",
+      "venue_or_repository": "ITCS 2022, LIPIcs 215, 13:1–13:22",
+      "publication_type": "Published proceedings article; primary author manuscript",
+      "publication_date": "2022-01-25; arXiv first submitted 2021-11-13",
+      "identifier": "10.4230/LIPIcs.ITCS.2022.13; arXiv:2111.07049",
+      "version": "arXiv v1; only version displayed",
+      "stable_url": "https://arxiv.org/html/2111.07049v1",
+      "locator": "§1; Theorems 1.1–1.7; §6 Open Problem 6.1",
+      "supported_claim": "Defines the fixed-order question. Smoothed bounds retain input noise; rooted-tree lower bounds concern multiple paths.",
+      "sections_actually_read": [
+        "Full introduction and listed theorem statements; complete §6; arXiv history and publisher metadata."
+      ],
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for listed sections; no certification of complete technical proofs",
+      "additional_urls": [
+        "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2022.13",
+        "https://arxiv.org/abs/2111.07049"
+      ]
+    },
+    {
+      "source_id": "KL26",
+      "role": "Independent current scholarly restatement; ordinary-resolution scope",
+      "authors": [
+        "Sankeerth Rao Karingula",
+        "Shachar Lovett"
+      ],
+      "title": "An elementary proof of the Komlos conjecture",
+      "venue_or_repository": "ECCC TR26-188",
+      "publication_type": "Preprint report",
+      "publication_date": "2026-09-17",
+      "identifier": "ECCC TR26-188",
+      "version": "Report PDF dated September 17, 2026",
+      "stable_url": "https://eccc.weizmann.ac.il/report/2026/188/download",
+      "locator": "§1, Theorem 1.2, Lemmas 1.4–1.5, proof of Theorem 1.2, Conjecture 1.6, pp. 1–3",
+      "supported_claim": "Explicitly retains the strong prefix conjecture while claiming a terminal-sum constant 36.",
+      "sections_actually_read": [
+        "Full introduction, listed statements and proof of Theorem 1.2; §4 Lemma 4.1 and Lemma 1.5 discussion; report metadata."
+      ],
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for listed sections; no certification of complete technical proofs",
+      "additional_urls": [
+        "https://eccc.weizmann.ac.il/report/2026/188/"
+      ],
+      "independent_of_source_ids": [
+        "BJMSS22"
+      ]
+    },
+    {
+      "source_id": "GFL26",
+      "role": "Recent ordinary Komlós and Beck–Fiala claims",
+      "authors": [
+        "Shengtao Guo",
+        "Ethan X. Fang",
+        "Junwei Lu"
+      ],
+      "title": "Vector Balancing via Directional Total Variation",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2026-09-10",
+      "identifier": "arXiv:2609.11189",
+      "version": "v1; only version displayed",
+      "stable_url": "https://arxiv.org/html/2609.11189v1",
+      "locator": "§1 Theorem 1.1, Corollary 1.2 and proof; §1.2",
+      "supported_claim": "Claims terminal discrepancy below 3 sqrt(2 pi), and the corresponding Beck–Fiala bound; explicitly excludes an all-prefix guarantee.",
+      "sections_actually_read": [
+        "Full §1 through §1.2; arXiv metadata and version history."
+      ],
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for listed sections; no certification of complete technical proofs"
+    },
+    {
+      "source_id": "AA26",
+      "role": "General applicable partial bound",
+      "authors": [
+        "Ishaq Aden-Ali"
+      ],
+      "title": "Optimal Online Discrepancy Minimization in Linear Time",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2026-07-05",
+      "identifier": "arXiv:2607.04388",
+      "version": "v1; only version displayed",
+      "stable_url": "https://arxiv.org/html/2607.04388v1",
+      "locator": "§1 Theorems 1–2 and Corollary 3",
+      "supported_claim": "For any fixed input, the all-prefix guarantee is sqrt(18 log(2 T^2/delta)) with success probability at least 1-delta. It grows with T.",
+      "sections_actually_read": [
+        "Full online model, Theorems 1–2, Corollary 3 and discussion; metadata/history."
+      ],
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for listed sections; no certification of complete technical proofs"
+    },
+    {
+      "source_id": "H26",
+      "role": "Small-coordinate upper bounds and online obstruction",
+      "authors": [
+        "Antonios Hmadi"
+      ],
+      "title": "Online balancing of vectors with small coordinates",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2026-08-12",
+      "identifier": "arXiv:2608.12490",
+      "version": "v1; only version displayed",
+      "stable_url": "https://arxiv.org/html/2608.12490v1",
+      "locator": "Theorems 1.1–1.2; Theorem 6.1, Proposition 6.2 and proof; Theorem 7.1 and proof opening",
+      "supported_claim": "Constant guarantees require sufficiently small coordinates; setting its small-coordinate parameter to one leaves a possibly vacuous failure bound. The obstruction is online; the convex-body extension retains size restrictions.",
+      "sections_actually_read": [
+        "Full introduction and listed statements, Proposition 6.2 proof, Theorem 7.1 through its concentration argument; history."
+      ],
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for listed sections; no certification of complete technical proofs"
+    },
+    {
+      "source_id": "GKC26",
+      "role": "Complex-coloring relaxation",
+      "authors": [
+        "Nestor Guillen",
+        "Vladimir A. Kobzar"
+      ],
+      "title": "The Komlós conjecture for complex discrepancy",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2026-09-14",
+      "identifier": "arXiv:2609.15071",
+      "version": "v1; only version displayed",
+      "stable_url": "https://arxiv.org/html/2609.15071v1",
+      "locator": "§1 Theorems 1.1 and 1.3, Proposition 1.2, Corollary 1.5",
+      "supported_claim": "Uses unit-modulus complex coefficients or rank-two vector colors, and controls a terminal sum.",
+      "sections_actually_read": [
+        "Full introductory model and listed statements; arXiv history; author's publication list."
+      ],
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for listed sections; no certification of complete technical proofs",
+      "additional_urls": [
+        "https://people.math.osu.edu/kobzar.1/pubs.html"
+      ]
+    },
+    {
+      "source_id": "GKO26",
+      "role": "Adaptive online game asymptotics",
+      "authors": [
+        "Nestor Guillen",
+        "Vladimir A. Kobzar"
+      ],
+      "title": "Online Komlós converges to mean curvature flow",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2026-07-09",
+      "identifier": "arXiv:2607.08943",
+      "version": "v1; only version displayed; HTML manuscript separately prints August 24, 2026",
+      "stable_url": "https://arxiv.org/html/2607.08943v1",
+      "locator": "§1 equation (1.1), Theorems 1.1–1.2; §2 Theorems 2.1–2.2",
+      "supported_claim": "The maximizer chooses batches adaptively and the signer commits immediately. Growth of this minimax value does not preclude signs chosen after seeing an entire fixed sequence.",
+      "sections_actually_read": [
+        "Full game definition and listed theorem statements, §3 opening strategy discussion; history and author page."
+      ],
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for listed sections; no certification of complete technical proofs"
+    },
+    {
+      "source_id": "SV26",
+      "role": "Constant bounds with discarded steps",
+      "authors": [
+        "Gleb Smirnov",
+        "Roman Vershynin"
+      ],
+      "title": "Discrepancy and Fisher information",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2026-05-13",
+      "identifier": "arXiv:2605.13107",
+      "version": "v1; only version displayed",
+      "stable_url": "https://arxiv.org/html/2605.13107v1",
+      "locator": "§§1.1–1.4; Theorem 1.1",
+      "supported_claim": "Bounds accepted partial sums after allowing discarded signed terms. Every term is mandatory in the candidate.",
+      "sections_actually_read": [
+        "Full model and Theorem 1.1, Fisher-information definition and following discussion; history."
+      ],
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for listed sections; no certification of complete technical proofs"
+    },
+    {
+      "source_id": "CCSWZ24",
+      "role": "Prefix Spencer partial coloring",
+      "authors": [
+        "Dongrun Cai",
+        "Xue Chen",
+        "Wenxuan Shu",
+        "Haoyu Wang",
+        "Guangyi Zou"
+      ],
+      "title": "Revisit the Partial Coloring Method: Prefix Spencer and Sampling",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2024-08-25",
+      "identifier": "arXiv:2408.13756",
+      "version": "v1; only version displayed",
+      "stable_url": "https://arxiv.org/html/2408.13756v1",
+      "locator": "§1.1 Theorems 1.1–1.2",
+      "supported_claim": "The prefix theorem concerns 0/1 matrices; its O(sqrt(m)) result is partial coloring. The full coloring has an additional logarithm, even before extending the model.",
+      "sections_actually_read": [
+        "Full introductory model, Theorems 1.1–1.2 and accompanying discussion; history."
+      ],
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for listed sections; no certification of complete technical proofs"
+    },
+    {
+      "source_id": "TVKZ26",
+      "role": "Structured flow rounding with constant prefix error",
+      "authors": [
+        "Vera Traub",
+        "Laura Vargas Koch",
+        "Rico Zenklusen"
+      ],
+      "title": "Single-source unsplittable flows in planar and bounded-genus graphs",
+      "venue_or_repository": "Mathematical Programming",
+      "publication_type": "Published article",
+      "publication_date": "2026-07-22",
+      "identifier": "10.1007/s10107-026-02365-x",
+      "version": "Current published HTML accessed September 17, 2026",
+      "stable_url": "https://link.springer.com/article/10.1007/s10107-026-02365-x",
+      "locator": "§2.2 Definitions 2.4–2.7; §5.1 Theorems 2.10 and 5.1; Lemma 5.2",
+      "supported_claim": "Rounds a scalar weighted selection with a non-interleaving partition constraint; it does not sign arbitrary multidimensional vectors.",
+      "sections_actually_read": [
+        "Full cited definitions and theorem statements, Lemma 5.2 and proof; publication metadata."
+      ],
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for listed sections; no certification of complete technical proofs"
+    },
+    {
+      "source_id": "LR25",
+      "role": "Weighted assignment rounding and a fixed-constant counterexample",
+      "authors": [
+        "Siyue Liu",
+        "Victor Reis"
+      ],
+      "title": "Weighted Chairman Assignment and Flow-Time Scheduling",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2025-11-23",
+      "identifier": "arXiv:2511.18546",
+      "version": "v1 shown in primary HTML; later history not separately checked",
+      "stable_url": "https://arxiv.org/html/2511.18546v1",
+      "locator": "§1 assignment definition, Theorem 1, Propositions 4–5; §2 opening",
+      "supported_claim": "Rounds column-stochastic nonnegative assignments to one selected row per column. Proposition 5 refutes constant one for interval rounding, not existence of any universal signing constant.",
+      "sections_actually_read": [
+        "Full listed model and statements; introduction and beginning of related work."
+      ],
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full text for listed sections; no certification of complete technical proofs"
+    },
+    {
+      "source_id": "DJJ26",
+      "role": "Adversarial scope check",
+      "authors": [
+        "Kunal Dutta",
+        "Agastya Vibhuti Jha",
+        "Haotian Jiang"
+      ],
+      "title": "Near-Optimal Constructive Bounds for l2 Prefix Discrepancy and Steinitz Problems via Affine Spectral Independence",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2026-04-14",
+      "identifier": "arXiv:2604.13355",
+      "version": "v1 shown in primary HTML",
+      "stable_url": "https://arxiv.org/html/2604.13355v1",
+      "locator": "§1.1 Theorems 1.1 and 1.3, Corollary 1.2; §5.3 and Lemma 5.2",
+      "supported_claim": "The Euclidean-output bound retains sqrt(d) and a length-dependent additive term; the internal infinity-norm estimate is O(log(n)^(3/2)). Neither supplies a universal coordinate bound.",
+      "sections_actually_read": [
+        "Full introductory model, Theorems 1.1 and 1.3, Corollary 1.2; Lemma 5.2 and its proof; opening of Section 5.3."
+      ],
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full relevant model and statements; complete proofs not certified"
+    },
+    {
+      "source_id": "AT26",
+      "role": "Adversarial scope check",
+      "authors": [
+        "Dylan J. Altschuler",
+        "Konstantin Tikhomirov"
+      ],
+      "title": "Online Beck–Fiala Down to Logarithmic Sparsity",
+      "venue_or_repository": "arXiv",
+      "publication_type": "Preprint",
+      "publication_date": "2026-07-15",
+      "identifier": "arXiv:2607.14238",
+      "version": "v1 shown in primary HTML; manuscript date July 13",
+      "stable_url": "https://arxiv.org/html/2607.14238v1",
+      "locator": "§1.1 Theorem 1.1, Corollaries 1.2–1.3, Remark 1.4",
+      "supported_claim": "The sparse-input theorem needs a sparsity/length regime for a positive constant-scale guarantee. The Spencer corollary has a length restriction and a sqrt(dimension) bound.",
+      "sections_actually_read": [
+        "§1.1 Theorem 1.1, Corollaries 1.2–1.3, Remark 1.4"
+      ],
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full relevant model and statements; complete proofs not certified"
+    },
+    {
+      "source_id": "GKN25",
+      "role": "Adversarial scope check",
+      "authors": [
+        "Dániel Gerbner",
+        "Balázs Keszegh",
+        "Dániel T. Nagy",
+        "Kartal Nagy",
+        "Dömötör Pálvölgyi",
+        "Balázs Patkós",
+        "Gábor Wiener"
+      ],
+      "title": "Query complexity of Boolean functions on the middle slice of the cube",
+      "venue_or_repository": "Discrete Applied Mathematics 362, 43–49",
+      "publication_type": "Published article",
+      "publication_date": "2025 volume; online 2024-11-20",
+      "identifier": "10.1016/j.dam.2024.11.018",
+      "version": "Published PDF",
+      "stable_url": "https://real.mtak.hu/232495/1/1-s2.0-S0166218X24004888-main.pdf",
+      "locator": "§3 positional game definition and Claim 3.4 with proof, printed p. 47",
+      "supported_claim": "The logarithmic obstruction concerns positions selected adaptively and signs committed immediately; it is not a fixed-sequence offline impossibility.",
+      "sections_actually_read": [
+        "§3 positional game definition and Claim 3.4 with proof, printed p. 47"
+      ],
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "Full relevant model and statements; complete proofs not certified"
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S257-1",
+      "query": "\"strong Komlos conjecture\" proof solved counterexample",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Fixed-order prefix vector-balancing discovery and resolution checks"
+    },
+    {
+      "search_id": "S257-2",
+      "query": "\"prefix Komlós\" \"2026\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Fixed-order prefix vector-balancing discovery and resolution checks"
+    },
+    {
+      "search_id": "S257-3",
+      "query": "\"Bansal\" \"Jiang\" \"Meka\" \"Singla\" \"Sinha\" \"Open Problem 6.1\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Fixed-order prefix vector-balancing discovery and resolution checks"
+    },
+    {
+      "search_id": "S257-4",
+      "query": "\"Guo\" \"Fang\" \"Lu\" \"Komlos\" arxiv",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Fixed-order prefix vector-balancing discovery and resolution checks"
+    },
+    {
+      "search_id": "S258-1",
+      "query": "\"prefix discrepancy\" constant proof counterexample 2026",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Prefix-signing formulation, aliases and possible-resolution search"
+    },
+    {
+      "search_id": "S258-2",
+      "query": "\"strong Komlós\" solved resolution refutation",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Prefix-signing formulation, aliases and possible-resolution search"
+    },
+    {
+      "search_id": "S258-3",
+      "query": "\"signed series\" \"Komlos\" \"2025\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Prefix-signing formulation, aliases and possible-resolution search"
+    },
+    {
+      "search_id": "S258-4",
+      "query": "\"Prefix Discrepancy, Smoothed Analysis\" correction erratum",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Prefix-signing formulation, aliases and possible-resolution search"
+    },
+    {
+      "search_id": "S259-1",
+      "query": "\"strong Komlos conjecture\" \"2025\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Prefix-signing follow-up of online, discard and constant-bound results"
+    },
+    {
+      "search_id": "S259-2",
+      "query": "\"prefix discrepancy\" \"constant\" proved solved disproof refutation",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Prefix-signing follow-up of online, discard and constant-bound results"
+    },
+    {
+      "search_id": "S259-3",
+      "query": "\"Online Komlós converges to mean curvature flow\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Prefix-signing follow-up of online, discard and constant-bound results"
+    },
+    {
+      "search_id": "S259-4",
+      "query": "\"Smirnov\" \"Vershynin\" \"discard\" vectors 2026",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Prefix-signing follow-up of online, discard and constant-bound results"
+    },
+    {
+      "search_id": "S260-1",
+      "query": "\"strong Komlós conjecture\" proof proved solved resolution counterexample disproof refutation",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Strong prefix discrepancy current status, authors and corrections"
+    },
+    {
+      "search_id": "S260-2",
+      "query": "\"prefix discrepancy\" \"unit\" \"constant\" \"2026\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Strong prefix discrepancy current status, authors and corrections"
+    },
+    {
+      "search_id": "S260-3",
+      "query": "\"Karingula\" \"Lovett\" \"Komlos\" correction erratum",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Strong prefix discrepancy current status, authors and corrections"
+    },
+    {
+      "search_id": "S260-4",
+      "query": "\"Bansal\" \"Jiang\" \"Meka\" \"Singla\" \"Sinha\" \"prefix\" 2025 2026",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Strong prefix discrepancy current status, authors and corrections"
+    },
+    {
+      "search_id": "S261-1",
+      "query": "\"strong Komlos\" 2024 2025 proof",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Prefix discrepancy aliases, prior years and correction audit"
+    },
+    {
+      "search_id": "S261-2",
+      "query": "\"prefix discrepancy\" \"counterexample\" \"constant\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Prefix discrepancy aliases, prior years and correction audit"
+    },
+    {
+      "search_id": "S261-3",
+      "query": "\"signed series\" \"Komlós\" resolution",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Prefix discrepancy aliases, prior years and correction audit"
+    },
+    {
+      "search_id": "S261-4",
+      "query": "\"prefix discrepancy\" erratum correction withdrawn",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Prefix discrepancy aliases, prior years and correction audit"
+    },
+    {
+      "search_id": "A37-1",
+      "query": "\"prefix Komlos\" proof",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A37-2",
+      "query": "\"strong Komlós conjecture\"",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A37-3",
+      "query": "\"prefix discrepancy\" \"constant bound\" 2026",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    },
+    {
+      "search_id": "A37-4",
+      "query": "\"Banaszczyk\" \"prefix\" counterexample",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+      "review_stage": "Separated adversarial self-pass after drafting"
+    }
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass after drafting; no independent agent or human review.",
+    "reviewer_or_pass_identifier": "A37",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A37-1",
+      "A37-2",
+      "A37-3",
+      "A37-4"
+    ],
+    "issues_found": [
+      "A third-party database mixes the strong conjecture's name with the Euclidean-output variant; primary formulas must control coordinate maximum norm.",
+      "Online obstructions, small-coordinate success probabilities and ordinary terminal proofs can be mistaken for a resolution.",
+      "The April 2026 Euclidean result includes a separate infinity-norm estimate needing inspection.",
+      "A 2025 positional-game counterexample and July 2026 online Beck–Fiala theorem required full scope checks.",
+      "The asymptotic O(sqrt(log T)) notation vanishes at T=1 if read literally."
+    ],
+    "issues_resolved": [
+      "Retained BJMSS22 Open Problem 6.1 and KL26 Conjecture 1.6 verbatim mathematical scope in original prose; no database status used.",
+      "Checked quantifiers and indirect reductions; one fixed order with full-sequence access is preserved.",
+      "DJJ26 Theorem 1.1 retains dimension dependence, and Lemma 5.2 has a polylogarithmic bound.",
+      "Read GKN25 §3 and AT26 §1.1. Their adaptive information or input/horizon restrictions do not cover the candidate.",
+      "Use O(sqrt(log(2T))) in the draft and general partial-result description.",
+      "Duplicate search and full rereading of entries 031, 032 and 221 found a separately sourced companion; half-allocation interpretation is exact, with no algorithmic promise."
+    ],
+    "verdict": "pass_for_research_draft"
+  },
+  "remote_publication": {
+    "state": "not_integrated",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "research_publication": {
+    "state": "local_pending_push",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null
+  },
+  "statement_source_and_scope_match": "BJMSS22 Open Problem 6.1 and KL26 Conjecture 1.6 have the same real-vector normalization, fixed order, one sign per vector and dimension/length-independent bound. No online or runtime demand is added.",
+  "independent_status_corroboration": {
+    "primary": "BJMSS22",
+    "independent": "KL26",
+    "basis": "Disjoint author sets; KL26 explicitly restates the prefix conjecture after its terminal-sum result.",
+    "limitation": "An independently authored scholarly status statement, not independent review of this draft or a certification of the ordinary-conjecture proofs."
+  },
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "GFL26",
+      "locator": "§1 Theorem 1.1, Corollary 1.2 and proof; §1.2",
+      "scope_verdict": "Claims terminal discrepancy below 3 sqrt(2 pi), and the corresponding Beck–Fiala bound; explicitly excludes an all-prefix guarantee."
+    },
+    {
+      "source_id": "AA26",
+      "locator": "§1 Theorems 1–2 and Corollary 3",
+      "scope_verdict": "For any fixed input, the all-prefix guarantee is sqrt(18 log(2 T^2/delta)) with success probability at least 1-delta. It grows with T."
+    },
+    {
+      "source_id": "H26",
+      "locator": "Theorems 1.1–1.2; Theorem 6.1, Proposition 6.2 and proof; Theorem 7.1 and proof opening",
+      "scope_verdict": "Constant guarantees require sufficiently small coordinates; setting its small-coordinate parameter to one leaves a possibly vacuous failure bound. The obstruction is online; the convex-body extension retains size restrictions."
+    },
+    {
+      "source_id": "GKC26",
+      "locator": "§1 Theorems 1.1 and 1.3, Proposition 1.2, Corollary 1.5",
+      "scope_verdict": "Uses unit-modulus complex coefficients or rank-two vector colors, and controls a terminal sum."
+    },
+    {
+      "source_id": "GKO26",
+      "locator": "§1 equation (1.1), Theorems 1.1–1.2; §2 Theorems 2.1–2.2",
+      "scope_verdict": "The maximizer chooses batches adaptively and the signer commits immediately. Growth of this minimax value does not preclude signs chosen after seeing an entire fixed sequence."
+    },
+    {
+      "source_id": "SV26",
+      "locator": "§§1.1–1.4; Theorem 1.1",
+      "scope_verdict": "Bounds accepted partial sums after allowing discarded signed terms. Every term is mandatory in the candidate."
+    },
+    {
+      "source_id": "CCSWZ24",
+      "locator": "§1.1 Theorems 1.1–1.2",
+      "scope_verdict": "The prefix theorem concerns 0/1 matrices; its O(sqrt(m)) result is partial coloring. The full coloring has an additional logarithm, even before extending the model."
+    },
+    {
+      "source_id": "TVKZ26",
+      "locator": "§2.2 Definitions 2.4–2.7; §5.1 Theorems 2.10 and 5.1; Lemma 5.2",
+      "scope_verdict": "Rounds a scalar weighted selection with a non-interleaving partition constraint; it does not sign arbitrary multidimensional vectors."
+    },
+    {
+      "source_id": "LR25",
+      "locator": "§1 assignment definition, Theorem 1, Propositions 4–5; §2 opening",
+      "scope_verdict": "Rounds column-stochastic nonnegative assignments to one selected row per column. Proposition 5 refutes constant one for interval rounding, not existence of any universal signing constant."
+    },
+    {
+      "source_id": "DJJ26",
+      "locator": "§1.1 Theorems 1.1 and 1.3, Corollary 1.2; §5.3 and Lemma 5.2",
+      "scope_verdict": "The Euclidean-output bound retains sqrt(d) and a length-dependent additive term; the internal infinity-norm estimate is O(log(n)^(3/2)). Neither supplies a universal coordinate bound."
+    },
+    {
+      "source_id": "AT26",
+      "locator": "§1.1 Theorem 1.1, Corollaries 1.2–1.3, Remark 1.4",
+      "scope_verdict": "The sparse-input theorem needs a sparsity/length regime for a positive constant-scale guarantee. The Spencer corollary has a length restriction and a sqrt(dimension) bound."
+    },
+    {
+      "source_id": "GKN25",
+      "locator": "§3 positional game definition and Claim 3.4 with proof, printed p. 47",
+      "scope_verdict": "The logarithmic obstruction concerns positions selected adaptively and signs committed immediately; it is not a fixed-sequence offline impossibility."
+    }
+  ],
+  "indirect_implication_checks": [
+    "Separate terminal signings for different prefixes need not agree. Stacking all prefix constraints duplicates v_i in T-i+1 coordinate blocks, making its Euclidean norm sqrt(T-i+1) times larger; normalization loses the desired constant.",
+    "Making all vectors small enough for H26 by scaling and then rescaling restores a length-dependent bound. Its displayed failure estimate need not be below one without smallness.",
+    "A discarded-term guarantee does not ensure zero discards at a fixed universal radius. Complex phases are a larger feasible class than real signs.",
+    "Online lower bounds reverse the information quantifiers: a fixed sequence may have good offline signs despite defeating every online strategy.",
+    "The all-prefix statement implies the ordinary terminal statement by k=T. No converse or logical independence is asserted."
+  ],
+  "duplicate_review": {
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "local_head_reviewed": "619d451c1600d49c28b79f4e9def440ff6a3a5d2",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "review_scope": "Retained complete baseline/all-active inventory reading; fresh alias/model search of problems, data and accepted drafts. Reread full pages 031, 032 and 221. No active or pending fixed-order prefix entry.",
+    "closest_existing_or_new_entries": [
+      {
+        "id": 31,
+        "path": "problems/031-komlos.md",
+        "difference": "Only the terminal sum is constrained; the new sourced companion requires the same signs at every prefix. Implication disclosed."
+      },
+      {
+        "id": 32,
+        "path": "problems/032-beck-fiala.md",
+        "difference": "Terminal set-system discrepancy with element degree bound; no prescribed temporal prefixes."
+      },
+      {
+        "id": 221,
+        "path": "problems/221-bilu-linial-signing.md",
+        "difference": "Spectral norm of a signed adjacency matrix, rather than coordinate norms of cumulative vector sums."
+      },
+      {
+        "candidate_id": "strong-thin-tree",
+        "difference": "One spanning tree controls graph cuts; different feasible objects and observable."
+      }
+    ],
+    "distinctness_reason": "One separately named and explicitly sourced stronger companion, not arbitrary dimensions or aliases counted separately.",
+    "remote_main_refreshed": "619d451c1600d49c28b79f4e9def440ff6a3a5d2",
+    "remote_refresh_date": "2026-09-17"
+  },
+  "applied_significance": "In a two-group allocation interpretation, epsilon assigns each whole vector and each prefix sum measures cumulative feature/resource imbalance. Equivalently x_i=(1+epsilon_i)/2 rounds a half-allocation with error one-half the displayed discrepancy. BJMSS22 §1 links prefix discrepancy to Steinitz bounds, integer programming and scheduling; no efficient construction follows merely from existence.",
+  "application_evidence_source_ids": [
+    "BJMSS22"
+  ],
+  "strongest_known_partial_results_and_gap": "AA26 Theorem 2 gives O(sqrt(log(2T))) for arbitrary fixed inputs at fixed positive success probability. BJMSS22 also records O(d) uniformly in T. Neither is independent of both parameters; H26 provides a constant for sufficiently small coordinates.",
+  "source_access_limitations": [
+    "Primary full text was accessible for each stated scope comparison. The Banaszczyk and Bárány–Grinberg historical theorems were checked through explicit scholarly restatements, not their original full proofs.",
+    "KL26 is a same-day preprint. Its ordinary-proof status is not used to assert the prefix conjecture proved or refuted.",
+    "No exhaustive proof verification, human review or independent-agent review has occurred."
+  ],
+  "search_outcomes": "Exact-name, spelling, mathematical, author, unrestricted/current/prior-year, version and correction routes found no matching all-input offline prefix proof or counterexample. The terminal, online, small-coordinate, discarded-term, complex-coloring, partial-coloring and structured-rounding leads were compared at full relevant statement/model level.",
+  "open_status_evidence_summary": "Open in cited literature; no later resolution located as of 2026-09-17. BJMSS22 and independently authored KL26 explicitly retain the fixed-order, offline, universal all-prefix question. No unresolved matching claim was found after the recorded scope checks.",
+  "proposed_statement": "Does there exist an absolute constant $C>0$ with the following property? For every pair of positive integers $d,T$ and every ordered sequence $v_1,\\ldots,v_T\\in\\mathbb R^d$ with Euclidean norms $\\|v_i\\|_2\\le1$, one can choose signs $\\varepsilon_1,\\ldots,\\varepsilon_T\\in\\{-1,1\\}$ such that\n\n$$\n\\max_{1\\le k\\le T}\n\\left\\|\\sum_{i=1}^{k}\\varepsilon_i v_i\\right\\|_\\infty\n\\le C,\n\\qquad\n\\|z\\|_\\infty=\\max_{1\\le j\\le d}|z_j|?\n$$\n\nThe order is fixed. The signs may depend on the entire sequence, but the same signs must work for every prefix and coordinate. The constant must be independent of $d$, $T$ and the vectors. This is the strong, or prefix, Komlós conjecture. No online decision rule or efficient algorithm is required. [1, 2]\n\nTaking $k=T$ gives the ordinary terminal-sum question in [entry 031](../../../problems/031-komlos.md). Controlling each prefix with a separately chosen signing would not answer the stronger question here.",
+  "validation": {
+    "checked_on": "2026-09-17",
+    "catalogue_write": "python3 scripts/catalogue.py --write: 330 indexed problems; no active-file change.",
+    "catalogue_check": "python3 scripts/catalogue.py --check: passed for 330 unique problems, metadata, required sections, math delimiters, local links and README freshness.",
+    "diff_check": "git diff --check: passed.",
+    "math_rendering": "All 12 expressions passed strict KaTeX with throwOnError and strict:error. Full draft rendered in headless Chrome and visually inspected; no clipping or malformed notation found.",
+    "local_links_and_headings": "Draft title, required sections and all local links checked.",
+    "count_and_preservation_audit": "36 accepted, 41 candidate records, five held, six accepted drafts pending, 330 active; 1166 unique saved search IDs. Coverage agrees with candidate records; original 300 pages unchanged.",
+    "external_bibliography_links": [
+      {
+        "url": "https://arxiv.org/html/2111.07049v1",
+        "http_status": 200,
+        "exit_code": 0,
+        "note": "Primary full text or publication record also inspected through web tool."
+      },
+      {
+        "url": "https://arxiv.org/html/2605.13107v1",
+        "http_status": 200,
+        "exit_code": 0,
+        "note": "Primary full text or publication record also inspected through web tool."
+      },
+      {
+        "url": "https://arxiv.org/html/2607.04388v1",
+        "http_status": 200,
+        "exit_code": 0,
+        "note": "Primary full text or publication record also inspected through web tool."
+      },
+      {
+        "url": "https://arxiv.org/html/2608.12490v1",
+        "http_status": 200,
+        "exit_code": 0,
+        "note": "Primary full text or publication record also inspected through web tool."
+      },
+      {
+        "url": "https://arxiv.org/html/2609.11189v1",
+        "http_status": 200,
+        "exit_code": 0,
+        "note": "Primary full text or publication record also inspected through web tool."
+      },
+      {
+        "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2022.13",
+        "http_status": 200,
+        "exit_code": 0,
+        "note": "Primary full text or publication record also inspected through web tool."
+      },
+      {
+        "url": "https://eccc.weizmann.ac.il/report/2026/188/",
+        "http_status": 200,
+        "exit_code": 0,
+        "note": "Primary full text or publication record also inspected through web tool."
+      },
+      {
+        "url": "https://eccc.weizmann.ac.il/report/2026/188/download",
+        "http_status": 200,
+        "exit_code": 0,
+        "note": "Primary full text or publication record also inspected through web tool."
+      }
+    ],
+    "limitations": "Mechanical checks do not certify mathematical correctness or open status."
+  }
+}

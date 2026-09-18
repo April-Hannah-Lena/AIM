@@ -622,10 +622,11 @@
     "pull_request_url": null
   },
   "research_publication": {
-    "state": "local_pending_push",
+    "state": "pushed_directly_to_main",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null
+    "commit": "619d451c1600d49c28b79f4e9def440ff6a3a5d2",
+    "verified_on": "2026-09-17"
   },
   "statement_source_and_scope_match": "LW23 explicitly poses arbitrary-data global classical existence for CC1 in n≥3, using the data and solution conventions (2.7)–(2.8). LW25 §1 and W26 §1 confirm the general smooth bounded-domain model. The target is one family across higher dimensions, with classical continuation at every positive time; neither uniform-in-time bounds nor a decay rate is added.",
   "later_results_and_resolution_checks": [

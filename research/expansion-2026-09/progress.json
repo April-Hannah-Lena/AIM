@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 35,
+  "new_accepted": 36,
   "active_total": 330,
-  "candidates_investigated": 40,
+  "candidates_investigated": 41,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 165,
-  "remaining_to_target": 215,
+  "remaining_to_minimum": 164,
+  "remaining_to_target": 214,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -142,14 +142,19 @@
     {
       "commit": "5b503704a653afeb1af2f2e9ca45cb1434859295",
       "purpose": "Record reviewed strong thin-tree draft; pushed directly to main and independently reverified."
+    },
+    {
+      "commit": "619d451c1600d49c28b79f4e9def440ff6a3a5d2",
+      "purpose": "Record reviewed chemotaxis-consumption continuation draft; pushed directly to main and independently reverified."
     }
   ],
-  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit 5b503704a653afeb1af2f2e9ca45cb1434859295 includes the four accepted rendezvous, trace-reconstruction, generalized-Wright and strong thin-tree drafts; remote main independently reverified September 17, 2026. The accepted chemotaxis-consumption draft is prepared for the next direct research push. No PR required.",
+  "remote_state": "All thirty active additions through entry 330 are published directly on main. Research commit 619d451c1600d49c28b79f4e9def440ff6a3a5d2 includes five accepted pending drafts and was independently reverified September 17, 2026. The sixth accepted draft, strong prefix discrepancy, is prepared for the next direct research push. No PR required.",
   "next_actions": [
     "Continue discovery toward at least 200 new problems, deliberately broadening biology, statistics, control and operations research.",
-    "Accumulate the next reviewable batch; symmetric rendezvous, polynomial trace reconstruction, generalized Wright attraction, strong thin trees and chemotaxis-consumption continuation are accepted research drafts. Refresh status and upstream duplicates before integration.",
+    "Accumulate the next reviewable batch; rendezvous, trace reconstruction, generalized Wright attraction, strong thin trees, chemotaxis-consumption continuation and strong prefix discrepancy are accepted drafts. Refresh status and upstream duplicates before integration.",
     "CFN sunlet projective quadratic-generation lead needs independent corroboration and saturation-scope review.",
-    "Keep matching unresolved claims outside new additions; separately follow up the September 14 k-server claim for historical entry 286."
+    "Keep matching unresolved claims outside new additions; separately follow up historical entries 031, 032 and 286.",
+    "Continue the examples-only uniform DNF-learning lead with current full theorems and independent status corroboration; retain privacy and CFN leads outside the count until their gates pass."
   ],
   "coverage": {
     "inverse3": 5,
@@ -157,7 +162,7 @@
     "applied": 5,
     "stochastic3": 7,
     "inverse2": 2,
-    "operators": 3,
+    "operators": 4,
     "inverse": 3,
     "stochastic2": 3,
     "spectral": 1,
@@ -167,11 +172,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 30,
-  "count_semantics": "Thirty additions are integrated and published directly on main. Five accepted research drafts await batch 4; active total 330. Five held records excluded.",
+  "count_semantics": "Thirty additions are integrated and published directly on main. Six accepted research drafts await batch 4; active total 330. Five held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 30,
-  "coverage_semantics": "Accepted additions by primary section; thirty integrated and five pending research drafts.",
+  "coverage_semantics": "Accepted additions by primary section; thirty integrated and six pending research drafts.",
   "remaining_integrations_to_minimum": 170,
   "remaining_integrations_to_target": 220,
-  "pending_accepted": 5
+  "pending_accepted": 6
 }
