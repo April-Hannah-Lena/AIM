@@ -23,7 +23,7 @@ All ten handoff seeds now have investigation records; eight passed draft review 
 
 ## Coverage still required
 
-All twelve sections have accepted additions. Forty additions are integrated through entry 340, and one accepted draft awaits integration; current section counts and publication status are recorded in [progress.json](progress.json). All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
+All twelve sections have accepted additions. Forty additions are integrated through entry 340; the pending accepted drafts, current section counts and publication status are recorded in [progress.json](progress.json). All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
 
 ## Information-network discovery
 
@@ -146,3 +146,11 @@ The 70 actual queries S336–S351 and A46 bring the search log to 1,578 unique r
 Research publication receipt: [a40740e](https://github.com/MColbrook/AIM/commit/a40740e74384c46e368784bb395fed49bb0b249b) was pushed directly to main on September 18, 2026. A separate remote-ref read matched the full commit. All five accepted drafts and their evidence are now published; active membership remains 340 and the integrated/published addition count remains 40.
 
 Subsequent statistics discovery S352–S353 added eight actual queries, bringing the log to 1,586 unique records. The full Diakonikolas–Kane–Liu–Pittas model and Theorem 1.2 identify the smaller-sample extension as the remaining lead; precise parameter conventions, independent corroboration and later-result review are pending. Details are in the discovery queue. No additional candidate is counted.
+
+## Triangle packing–covering and statistics follow-up (2026-09-18)
+
+- **Integral network modification:** Krivelevich §1, Conjecture 1, and independently authored Bennett–Cushman–Dudek–Pérez-Giménez §1, Conjecture 1 (June 2026), supply the exact Tuza inequality. Guruswami–Sandeep's §1 places it in integral matching/covering optimization. The [accepted record](candidates/tuza-triangle-packing-covering.json) compares fractional relaxations, random and dense graph results, forbidden-hypergraph counterexamples, and August degree/split-graph claims. A47 located and checked Bake AI's September three-type extension at its complete released statement and written reduction; the eight-clique split restriction remains. Eleven source records and ten scope comparisons are saved. No code-assisted proof certificates were independently rerun.
+- **Heterogeneous Gaussian means:** the [2026 statistics survey](https://arxiv.org/html/2605.05076v1), §3.4.3, was read in full. It describes broad adaptation and computational questions, but does not explicitly corroborate the particular small-sample remainder following DKLP's Theorem 1.2. The lead remains discovery only; its finite-error parameter regime still requires care.
+- **Rediscovered claims and duplicates:** S356 rediscovered the existing matching strong-Gaussian-product proof claim; it was not adjudicated or admitted. The entropy photon-number lead duplicates existing entry 212 and produces no addition. S358's Ryser result is only a metadata-level possible future route, with complete formulation and current-claim review still due.
+
+All 40 actual queries from S354–S361 and A47 are recorded: 1,626 logged queries with distinct search identifiers. Current totals are 46 accepted additions, 40 integrated/published, six accepted drafts awaiting integration and 340 active entries; the newest research checkpoint still awaits its push.

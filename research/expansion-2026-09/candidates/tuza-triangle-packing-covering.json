@@ -1,0 +1,425 @@
+{
+  "candidate_id": "tuza-triangle-packing-covering",
+  "proposed_catalogue_id": null,
+  "title": "The factor-two relation between triangle deletion and packing",
+  "decision": "accept_open",
+  "decision_reason": "Full formulation, independent recent corroboration, source/model comparisons, duplicate review and separated A47 adversarial self-review passed; no unresolved material matching resolution claim located.",
+  "primary_section": "applied",
+  "secondary_tags": [
+    "combinatorial optimization",
+    "network modification",
+    "integer packing and covering"
+  ],
+  "aliases": [
+    "Tuza's triangle packing-covering conjecture",
+    "Tuza's triangle edge-cover conjecture"
+  ],
+  "problem_fingerprint": {
+    "recorded_before_drafting": true,
+    "model_or_objects": "An arbitrary finite simple undirected graph G=(V,E). T(G) is the set of three-edge subsets forming triangles.",
+    "quantifiers": "For every such graph, without restrictions on order, degrees, density, planarity or randomness.",
+    "observable_or_norm": "nu_triangle(G) is the maximum number of pairwise edge-disjoint triangles, whose vertices may overlap. tau_triangle(G) is the minimum cardinality of an edge subset meeting every triangle, equivalently whose deletion makes G triangle-free.",
+    "requested_conclusion": "Prove or disprove tau_triangle(G) <= 2 nu_triangle(G). Both extrema are integral and unweighted; this is an exact finite-graph inequality, with no additive error or asymptotic qualification.",
+    "computational_model_and_dependencies": "An unconditional extremal assertion. No algorithm, polynomial running time, or method of obtaining an optimal packing is postulated.",
+    "scope": "Count one canonical conjecture. Exclude arbitrary hypergraph matching-covering conjectures, weighted relaxations, vertex-disjoint triangle packing, and separate entries for graph subclasses. The edge-decomposition formulation is equivalent and not a separate problem."
+  },
+  "fingerprint_recorded_on": "2026-09-18",
+  "statement_sources": [
+    {
+      "source": "Michael Krivelevich, On a conjecture of Tuza about packing and covering of triangles, Discrete Mathematics 142 (1995), 281–286",
+      "url": "https://www.math.tau.ac.il/~krivelev/2.pdf",
+      "locator": "Section 1, definitions p.281 and Conjecture 1 p.282"
+    },
+    {
+      "source": "Patrick Bennett, Ryan Cushman, Andrzej Dudek and Xavier Pérez-Giménez, Almost-perfect packings and Tuza's conjecture in the random geometric graph, arXiv:2606.09736v1 (June 8, 2026)",
+      "url": "https://arxiv.org/html/2606.09736v1",
+      "locator": "Section 1, definitions and Conjecture 1; Theorems 1–2 and Corollary 3",
+      "independent_of_first_source": true
+    }
+  ],
+  "second_review": {
+    "arrangement": "Clearly separated adversarial self-pass by the same assistant; no independent agent or human reviewer.",
+    "reviewer_or_pass_identifier": "A47",
+    "date": "2026-09-18",
+    "independent_searches": [
+      "A47-1",
+      "A47-2",
+      "A47-3",
+      "A47-4",
+      "A47-5",
+      "A47-6",
+      "A47-7",
+      "A47-8"
+    ],
+    "issues_found": [
+      "September Bake AI three-type extension was missing from the first draft.",
+      "A search snippet about an improved general coefficient was ambiguous.",
+      "Displayed equations in Baron–Kahn's web text were incomplete."
+    ],
+    "issues_resolved": [
+      "Read the primary released theorem and written reduction; added its fixed-clique/three-type scope and artifact reference.",
+      "Fetched tracker text; improved coefficient belonged to Bilu–Linial spectral signings. No matching new Tuza coefficient claim was found.",
+      "Downloaded and read the complete exact-version PDF theorem before finalizing the negative-result comparison."
+    ],
+    "verdict": "passed"
+  },
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null
+  },
+  "actual_status_check_date": "2026-09-18",
+  "applied_significance": "Foundational integral packing-covering optimization. A triangle-free edge-deletion budget is compared with the lower bound certified by edge-disjoint triangles; the triangle-incidence hypergraph makes the matching/covering relationship exact. No empirical network-performance or polynomial-time guarantee is claimed.",
+  "source_records": [
+    {
+      "source_id": "K95",
+      "authors": [
+        "Michael Krivelevich"
+      ],
+      "title": "On a conjecture of Tuza about packing and covering of triangles",
+      "venue": "Discrete Mathematics 142 (1995), 281–286",
+      "url": "https://www.math.tau.ac.il/~krivelev/2.pdf",
+      "version": "Published PDF hosted by the author",
+      "locator": "Section 1, pp.281–282, Conjecture 1; Section 2 Theorem 6; Section 3 Theorems 7–8, pp.283–284",
+      "read": "Full definitions, conjecture, subdivision-free theorem, fractional statements and their surrounding arguments. OCR inequality symbols were cross-checked against the introduction and independent scholarly restatements.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "GS20",
+      "authors": [
+        "Venkatesan Guruswami",
+        "Sai Sandeep"
+      ],
+      "title": "Approximate Hypergraph Vertex Cover and generalized Tuza's conjecture",
+      "venue": "SIAM Journal on Discrete Mathematics 39(2) (2025), 1312–1334; published June 10, 2025",
+      "url": "https://arxiv.org/html/2008.07344v2",
+      "doi": "10.1137/23M1570351",
+      "version": "arXiv:2008.07344v2, November 10, 2020; latest arXiv history checked",
+      "locator": "Section 1, triangle-hypergraph equivalence; Sections 1.1–1.2, complete Theorems 1 and 3",
+      "read": "Formulation, sharpness, LP relaxation, algorithmic interpretation and counterexamples to the forbidden-subhypergraph approach. Journal metadata and abstract were checked; journal full theorem text was not accessed.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "BCDP26",
+      "authors": [
+        "Patrick Bennett",
+        "Ryan Cushman",
+        "Andrzej Dudek",
+        "Xavier Pérez-Giménez"
+      ],
+      "title": "Almost-perfect packings and Tuza's conjecture in the random geometric graph",
+      "venue": "arXiv preprint",
+      "url": "https://arxiv.org/html/2606.09736v1",
+      "version": "arXiv:2606.09736v1, June 8, 2026; only version in checked history",
+      "locator": "Section 1, Conjecture 1, geometric-graph definitions, Theorems 1–2, Corollary 3; Theorem 6 and its surrounding scope discussion",
+      "read": "Full general formulation and current partial-status assessment. Complete sparse/dense random-geometric guarantees, radius ranges, cube/torus distinction, probability and limit. Negative theorem concerns large-clique almost-perfect packings, not a triangle packing-covering counterexample.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "KP20",
+      "authors": [
+        "Jeff Kahn",
+        "Jinyoung Park"
+      ],
+      "title": "Tuza's conjecture for random graphs",
+      "venue": "Cited arXiv preprint",
+      "url": "https://arxiv.org/html/2007.04351v2",
+      "version": "arXiv:2007.04351v2, July 10, 2020; latest history checked",
+      "locator": "Section 1, definitions, Conjecture 1.1 and Theorem 1.2",
+      "read": "Full all-p(n) high-probability theorem and the explicit definition of high probability. Current draft does not imply a deterministic all-graph result.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "BK15",
+      "authors": [
+        "Jacob D. Baron",
+        "Jeff Kahn"
+      ],
+      "title": "Tuza's Conjecture is Asymptotically Tight for Dense Graphs",
+      "venue": "Combinatorics, Probability and Computing 25(5) (2016), 645–667",
+      "url": "https://arxiv.org/pdf/1408.4870v2",
+      "doi": "10.1017/S0963548316000067",
+      "version": "arXiv:1408.4870v2, October 20, 2015; history says typographical/expository corrections, results unchanged",
+      "locator": "Section 1, Conjectures 1.1–1.2, equations (1)–(2) and full Theorem 1.3, pp.1–3",
+      "read": "Downloaded full PDF after the web text omitted displayed expressions; read the complete main theorem and its density/limit conventions. The construction refutes Yuster's strengthening, not Tuza's conjecture. Full technical proof not certified.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "G26",
+      "authors": [
+        "Anish Gupta"
+      ],
+      "title": "Tuza's conjecture for graphs of maximum degree at most seven",
+      "venue": "arXiv preprint",
+      "url": "https://arxiv.org/html/2608.06538v1",
+      "version": "arXiv:2608.06538v1, August 6, 2026; only version in checked history",
+      "locator": "Section 1, finite simple undirected convention, Conjecture 1.1, Theorems 1.2–1.4 and Proposition 1.5",
+      "read": "Full degree-seven and seven-regular statements, strict maximum-average-degree comparison, equivalent edge-decomposition formulation and stated certificate dependence. Certificates were not rerun.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "Z26",
+      "authors": [
+        "Zijian Zeng"
+      ],
+      "title": "Tuza's Conjecture for Split Graphs with an Eight-Vertex Clique Part and Two Neighborhood Types",
+      "venue": "Preprints.org",
+      "url": "https://www.preprints.org/manuscript/202608.1304",
+      "version": "Version 1; submitted August 17, posted August 19, 2026; page says latest version",
+      "locator": "Section 1 Theorem 1 and scope paragraph; Section 3 Theorem 2, proof and Corollary 1",
+      "read": "Full split partition/eight-clique/two-active-type theorem; complete conditional maximum-cut criterion and seven-edge-shadow corollary. The site's supplied certificates were not executed.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "CG24",
+      "authors": [
+        "Luis Chahua",
+        "Juan Gutiérrez"
+      ],
+      "title": "On Tuza's conjecture in dense graphs",
+      "venue": "Cited arXiv preprint",
+      "url": "https://arxiv.org/html/2405.11409",
+      "version": "arXiv:2405.11409v1, May 18, 2024",
+      "locator": "Section 1 Conjecture 1; Section 2 Theorem 5; Section 3 Theorem 12; Section 4 Theorem 15",
+      "read": "Full relevant statements for dense split graphs, dense tripartite graphs, and complete four-partite graphs of order at least five. No unrestricted graph theorem is asserted.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "CDHT16",
+      "authors": [
+        "Xujin Chen",
+        "Zhuo Diao",
+        "Xiaodong Hu",
+        "Zhongzheng Tang"
+      ],
+      "title": "Sufficient Conditions for Tuza's Conjecture on Packing and Covering Triangles",
+      "venue": "Cited arXiv preprint",
+      "url": "https://arxiv.org/html/1605.01816",
+      "version": "arXiv:1605.01816v3, May 24, 2016; latest history checked",
+      "locator": "Section 1, irreducibility convention and complete Theorems 1.2–1.3",
+      "read": "Full ratio conditions for a polynomial-time cover and the conditional reduction that would follow from improved thresholds. Neither hypothesis is silently dropped.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "BCD20",
+      "authors": [
+        "Patrick Bennett",
+        "Ryan Cushman",
+        "Andrzej Dudek"
+      ],
+      "title": "Closing the Random Graph Gap in Tuza's Conjecture Through the Online Triangle Packing Process",
+      "venue": "Cited arXiv preprint",
+      "url": "https://arxiv.org/html/2007.04478",
+      "version": "arXiv:2007.04478v1, July 8, 2020",
+      "locator": "Section 1, Conjecture 1.2 and Theorems 1.3–1.4",
+      "read": "Complete all-m G(n,m) high-probability statement. This shares authors with BCDP26, so it is not a separate independent team for corroboration.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "BAKE26",
+      "authors": [
+        "Épi Team / Bake AI"
+      ],
+      "title": "Tuza's inequality with three neighborhood types",
+      "venue": "Public research artifact, BakeLab/Epi-results, mathematics/tuza/PROOF.md",
+      "url": "https://github.com/BakeLab/Epi-results/blob/97fa6a420f417458e11723c8bceb70f1529e447a/mathematics/tuza/PROOF.md",
+      "version": "File's latest commit 97fa6a420f417458e11723c8bceb70f1529e447a, September 14, 2026 08:27:59 UTC, checked via public GitHub API",
+      "locator": "Opening theorem; Classification, Finite certificate and Arbitrary multiplicities sections",
+      "read": "Complete theorem and written reduction: finite simple split graph, specified K8 clique, independent side, at most three active neighborhoods with unrestricted multiplicity. Exact-certificate claim is recorded, not independently certified; no checker was executed.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18",
+      "artifact_sha256": "dc7d100e56a586ba698fd9e621cde6afd8ee88d09c252645b270243f52685b94",
+      "pinned_content_checked": true
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source": "K95",
+      "theorem_locator": "Theorems 6–8",
+      "theorem_statement_actually_read": true,
+      "result": "Integral inequality without K3,3 subdivisions; tau<=2 tau* and nu*<=2 nu generally.",
+      "difference": "The candidate permits K3,3 subdivisions and requires the two integral extrema. The fractional inequalities together yield only factor four by direct chaining."
+    },
+    {
+      "source": "GS20",
+      "theorem_locator": "Theorems 1 and 3",
+      "theorem_statement_actually_read": true,
+      "result": "Fractional approximation for blown-up hypergraphs; hypergraphs with nearly t matching-covering ratio despite exclusion of a finite list of forbidden configurations.",
+      "difference": "Fractional comparison does not prove the integral target. The counterexamples inhabit the broader forbidden-subhypergraph class; the theorem does not exhibit a graph whose actual triangle hypergraph violates Tuza."
+    },
+    {
+      "source": "BCDP26",
+      "theorem_locator": "Theorems 1–2 and Corollary 3; Theorem 6",
+      "theorem_statement_actually_read": true,
+      "result": "With probability tending to one for geometric graphs on a cube or torus, the inequality holds when r lies outside an intermediate order-n^(-1/d) interval and below a stated upper cutoff. Theorem 6 limits almost-perfect packing of sufficiently large cliques.",
+      "difference": "Probability-one-in-the-limit on those radius ranges is not every finite graph. Failure of almost-perfect large-clique packing is not tau_triangle>2 nu_triangle."
+    },
+    {
+      "source": "KP20 and BCD20",
+      "theorem_locator": "KP20 Theorem 1.2; BCD20 Theorem 1.4",
+      "theorem_statement_actually_read": true,
+      "result": "High-probability validity for every edge-probability sequence p(n), or every edge-count range m, respectively.",
+      "difference": "The event need not contain every realization or every finite graph. No deterministic universal conclusion follows."
+    },
+    {
+      "source": "BK15",
+      "theorem_locator": "Theorem 1.3 and preceding Conjecture 1.2/equation (2)",
+      "theorem_statement_actually_read": true,
+      "result": "For every alpha>0, some beta>0 and arbitrarily large graphs have |E|>=beta binom(n,2), tau>(1-o(1))|E|/2 and nu<(1+alpha)|E|/4.",
+      "difference": "This contradicts a stronger dense-graph near-decomposition proposal. It forces ratios near two, but does not assert any ratio greater than two. Density beta may depend on alpha."
+    },
+    {
+      "source": "G26",
+      "theorem_locator": "Theorems 1.3–1.4",
+      "theorem_statement_actually_read": true,
+      "result": "Claims Tuza for maximum degree at most seven, reduced to seven-regular graphs.",
+      "difference": "No maximum-degree bound is imposed in the candidate. Certificate verification is not required to see the strict scope restriction, and is not claimed here."
+    },
+    {
+      "source": "Z26",
+      "theorem_locator": "Theorems 1–2 and Corollary 1",
+      "theorem_statement_actually_read": true,
+      "result": "Specified split partition with clique size eight and at most two active types; alternatively a sufficient maximum-cut inequality, including a seven-edge shadow case.",
+      "difference": "General finite graphs need not be split or have such a clique partition. The maximum-cut hypothesis is additional, not automatic."
+    },
+    {
+      "source": "CG24",
+      "theorem_locator": "Theorems 5, 12 and 15",
+      "theorem_statement_actually_read": true,
+      "result": "Split graphs with minimum degree at least 3n/5; a ratio bound for tripartite graphs with m>n^2/4; factor 3/2 for complete four-partite graphs of order at least five.",
+      "difference": "Every theorem retains structural or density hypotheses absent from the candidate. Complete K4 is not mistakenly included in the factor-3/2 statement."
+    },
+    {
+      "source": "CDHT16",
+      "theorem_locator": "Theorems 1.2–1.3",
+      "theorem_statement_actually_read": true,
+      "result": "For graphs whose edges all lie in triangles, factor-two covers are found when nu/t>=1/3, nu/m>=1/4, or m/t>=2. Relaxing specified thresholds by a positive amount would imply the general conjecture.",
+      "difference": "Those numerical conditions are not automatic. Theorem 1.3 is a conditional implication, not the claimed relaxation."
+    },
+    {
+      "source": "BAKE26",
+      "theorem_locator": "Opening theorem and entire written proof outline",
+      "theorem_statement_actually_read": true,
+      "result": "Extends the fixed-eight-clique split-graph claim from two to three active neighborhood types, allowing arbitrary multiplicities.",
+      "difference": "The fixed clique and split-partition assumptions remain. This is a more recent restricted claim, not an unrestricted proof. Finite certificates and checker were not independently validated."
+    }
+  ],
+  "independent_corroboration": {
+    "formulation": "K95 Section 1, Conjecture 1; exact graph/edge/integral definitions checked.",
+    "independent_source": "BCDP26 Section 1, Conjecture 1 and current partial-result discussion; GS20 Section 1 gives additional independent scholarly support.",
+    "authorship_check": "Krivelevich, Bennett–Cushman–Dudek–Pérez-Giménez, and Guruswami–Sandeep are disjoint author teams. Multiple versions and the overlapping BCD20 team are not counted separately."
+  },
+  "mathematical_checks": [
+    "Triangle sets are edge sets; vertex overlap between packed triangles is allowed.",
+    "Cover deletes edges rather than vertices; the graph is finite, simple, undirected, unweighted and unrestricted in degree/order.",
+    "The inequality form handles triangle-free graphs without dividing by nu=0.",
+    "For K4, any two triangles share an edge, while a matching of two edges meets all four triangles; factor two is sharp.",
+    "Fractional LP duality is not integral matching-covering duality. An existence inequality does not itself prove efficient construction.",
+    "No asymptotic error, random-graph exception probability, or restriction to sparse/dense graph families is admitted.",
+    "Equivalent edge decomposition is one problem. No separate counts for restricted degree, planarity, split graphs or hypergraph restatements."
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "current_review_head": "df5ab078496e7bb3a1f29bf4fdc3dd3930f41457",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "searched": "Current problems, data, baseline inventory, source map, exclusions and pending candidates; triangle packing/covering, edge-disjoint triangles, triangle-free deletion and Tuza aliases.",
+    "closest_existing_or_new_entries": [
+      {
+        "id": 334,
+        "difference": "Strong thin trees select a connected spanning structure with simultaneous cut inequalities, not triangle packing or deletion."
+      },
+      {
+        "candidate_id": "list-edge-colouring",
+        "difference": "Assignments of available colours to edges, equivalent to scheduling into matchings. No triangle deletion/packing optimum."
+      },
+      {
+        "id": 326,
+        "difference": "Sequential bin capacity allocation and competitive ratios, not edge-disjoint motifs or covers."
+      }
+    ],
+    "distinctness_reason": "No existing entry asks for the integral triangle-cover versus triangle-packing bound."
+  },
+  "open_status_evidence_summary": "Full explicit formulation and independently authored recent corroboration; unrestricted and dated resolution searches; matching-looking negative results and recent subclass claims compared at full statement level. No unresolved material claim for arbitrary finite simple graphs was located.",
+  "source_access_limitations": [
+    "Tuza's historical original problem notice was accessed through explicit scholarly restatements, rather than the original proceedings page.",
+    "Haxell's 1999 publisher full text failed to open. Its 66/23 bound is explicitly restated in the independently authored BCDP26 and KP20 introductions; the original proof is not claimed read.",
+    "GS20 journal metadata and abstract were accessible; full model/theorem reading used the 2020 arXiv v2.",
+    "Baron–Kahn web text omitted some displayed formulas; the exact v2 PDF was downloaded and read instead.",
+    "Gupta, Zeng and Bake AI computer-assisted proof certificates were not rerun; their restricted theorem statements suffice for the scope comparison.",
+    "Erdosproblems.com/167 failed to open and was not used as admission evidence. An AI-results tracker was used only to locate primary sources; its improved-coefficient snippet concerned Bilu–Linial signings, not Tuza."
+  ],
+  "prepublication_refresh": {
+    "date": "2026-09-18",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "outcome": "Bounded SSH fetch completed; origin/main exactly equals the reviewed HEAD. No upstream additions or collisions.",
+    "latest_target_commit": "df5ab078496e7bb3a1f29bf4fdc3dd3930f41457"
+  },
+  "validation_results": [
+    {
+      "check": "Catalogue write and check",
+      "result": "340 active entries validated; no active membership changes."
+    },
+    {
+      "check": "Mathematical rendering",
+      "result": "15 expressions passed strict KaTeX; 1280x6000 headless Chrome image visually inspected with fonts and formulas intact; no clipping."
+    },
+    {
+      "check": "External bibliography",
+      "result": "10 direct GET checks: seven HTTP 200, one 406 and two 403. Exact Baron–Kahn PDF had been successfully downloaded and read with a browser user agent. SIAM metadata and Preprints.org full text were read via the web reader; the SIAM preprint alternative returned 200. See link-check record."
+    },
+    {
+      "check": "Research ledger and counts",
+      "result": "51 formal records, 46 accepted, five holds, six pending accepted drafts; all coverage and progress counts agree. All 1626 search identifiers are unique; candidate references resolve."
+    },
+    {
+      "check": "Local Markdown links",
+      "result": "122 local links across the research README, source map, discovery queue and new draft resolve."
+    },
+    {
+      "check": "Whitespace and scope",
+      "result": "git diff --check passed. No code, active catalogue entries, original identifiers, historical dates or user handoff files changed."
+    }
+  ],
+  "search_ids": [
+    "S358-1",
+    "S358-2",
+    "S358-3",
+    "S359-1",
+    "S359-2",
+    "S359-3",
+    "S359-4",
+    "S360-1",
+    "S360-2",
+    "S360-3",
+    "S360-4",
+    "S361-1",
+    "S361-2",
+    "S361-3",
+    "S361-4",
+    "A47-1",
+    "A47-2",
+    "A47-3",
+    "A47-4",
+    "A47-5",
+    "A47-6",
+    "A47-7",
+    "A47-8"
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/tuza-triangle-packing-covering.md"
+}

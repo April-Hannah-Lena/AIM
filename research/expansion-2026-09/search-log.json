@@ -12967,5 +12967,348 @@
     "query": "\"Diakonikolas\" \"Pittas\" \"entangled\" 2026",
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Statistics discovery only: recent entangled-Gaussian results and remaining sample-size regime; no candidate admission."
+  },
+  {
+    "search_id": "S354-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entangled mean estimation\" \"small\" \"sample\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S354-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Entangled Mean Estimation in High-Dimensions\" 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S354-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entangled mean\" \"open\" covariance",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S354-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"heteroskedastic\" \"mean estimation\" \"small sample\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S355-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entangled mean estimation\" proof solved counterexample refutation",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S355-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Entangled Mean Estimation\" \"small\" -site:researchgate.net -site:themoonlight.io",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S355-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Diakonikolas\" \"Liu\" \"Pittas\" \"Entangled\" corrections",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S355-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"subset-of-signals\" \"optimal\" 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S356-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Gaussian product inequality\" conjecture proof 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S356-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Gaussian product inequality\" disproof counterexample refutation",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S356-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Gaussian product inequality\" conjecture survey 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S356-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Gaussian product inequality\" \"open\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S357-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entropy photon number inequality\" \"open\" 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S357-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entropy photon-number inequality\" proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S357-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entropy photon number\" conjecture 2025",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S357-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"entropy photon-number\" survey",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery follow-up; entangled-Gaussian corroboration, Gaussian product claim and photon-number duplicate checks."
+  },
+  {
+    "search_id": "S358-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza conjecture\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Packing-covering discovery and current-status search.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S358-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza conjecture\" proof solved counterexample",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Packing-covering discovery and current-status search.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S358-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"triangle packing covering\" \"Tuza\" survey",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Packing-covering discovery and current-status search.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S358-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Ryser conjecture\" hypergraphs 2026 resolved",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Packing-covering discovery and current-status search."
+  },
+  {
+    "search_id": "S359-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Approximate Hypergraph Vertex Cover and Generalized Tuza\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tuza formulation, current and older resolutions, counterexamples, corrections and author/source checks.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S359-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" \"triangle\" conjecture proved 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tuza formulation, current and older resolutions, counterexamples, corrections and author/source checks.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S359-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" \"triangle packing\" counterexample disproof refutation",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tuza formulation, current and older resolutions, counterexamples, corrections and author/source checks.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S359-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" \"triangle covering\" solved resolution",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tuza formulation, current and older resolutions, counterexamples, corrections and author/source checks.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S360-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" \"triangle\" \"conjecture\" \"proof\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tuza formulation, current and older resolutions, counterexamples, corrections and author/source checks.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S360-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" \"triangle\" \"conjecture\" \"refutation\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tuza formulation, current and older resolutions, counterexamples, corrections and author/source checks.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S360-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" \"triangle\" conjecture erratum correction withdrawal",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tuza formulation, current and older resolutions, counterexamples, corrections and author/source checks.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S360-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"triangle packing\" \"triangle cover\" \"2\" conjecture disproved",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tuza formulation, current and older resolutions, counterexamples, corrections and author/source checks.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S361-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Packing and covering triangles in graphs\" Haxell 1999",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tuza formulation, current and older resolutions, counterexamples, corrections and author/source checks.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S361-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Baron\" \"Kahn\" \"Tuza\" conjecture dense graphs",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tuza formulation, current and older resolutions, counterexamples, corrections and author/source checks.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S361-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" triangle conjecture \"2025\" \"solved\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tuza formulation, current and older resolutions, counterexamples, corrections and author/source checks.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "S361-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" \"triangle packing\" \"disproof\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tuza formulation, current and older resolutions, counterexamples, corrections and author/source checks.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "A47-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" \"triangle\" \"conjecture\" \"proof\" \"September\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact integral quantifiers, duplicate review, current claims and counterexample scope.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "A47-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"triangle packing\" \"triangle covering\" \"conjecture\" counterexample",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact integral quantifiers, duplicate review, current claims and counterexample scope.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "A47-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" \"Gupta\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact integral quantifiers, duplicate review, current claims and counterexample scope.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "A47-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" \"Guruswami\" \"Sandeep\" conjecture solved",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact integral quantifiers, duplicate review, current claims and counterexample scope.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "A47-5",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" \"2026\" \"66/23\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact integral quantifiers, duplicate review, current claims and counterexample scope.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "A47-6",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" \"2026\" \"general bound\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact integral quantifiers, duplicate review, current claims and counterexample scope.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "A47-7",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" \"three\" \"Zeng\" \"Épi\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact integral quantifiers, duplicate review, current claims and counterexample scope.",
+    "candidate_id": "tuza-triangle-packing-covering"
+  },
+  {
+    "search_id": "A47-8",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Tuza\" \"counterexample\" -\"Schwartz\" -\"asymptotically\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting: exact integral quantifiers, duplicate review, current claims and counterexample scope.",
+    "candidate_id": "tuza-triangle-packing-covering"
   }
 ]

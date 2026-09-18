@@ -1,0 +1,74 @@
+{
+  "checked_on": "2026-09-18",
+  "method": "Direct HTTPS GET; first 1024 bytes; four concurrent workers.",
+  "links": [
+    {
+      "url": "https://arxiv.org/html/2007.04351v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2007.04351v2",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/html/2008.07344v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2008.07344v2",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/html/2606.09736v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2606.09736v1",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/html/2608.06538v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.06538v1",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/pdf/1408.4870v2",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "url": "https://doi.org/10.1017/S0963548316000067",
+      "status": 200,
+      "final_url": "https://www.cambridge.org/core/journals/combinatorics-probability-and-computing/article/abs/tuzas-conjecture-is-asymptotically-tight-for-dense-graphs/14C03274ADF24F51444023CD4B3892F9",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://doi.org/10.1137/23M1570351",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://github.com/BakeLab/Epi-results/blob/97fa6a420f417458e11723c8bceb70f1529e447a/mathematics/tuza/PROOF.md",
+      "status": 200,
+      "final_url": "https://github.com/BakeLab/Epi-results/blob/97fa6a420f417458e11723c8bceb70f1529e447a/mathematics/tuza/PROOF.md",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://www.math.tau.ac.il/~krivelev/2.pdf",
+      "status": 200,
+      "final_url": "https://www.math.tau.ac.il/~krivelev/2.pdf",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://www.preprints.org/manuscript/202608.1304",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "access_followup": [
+    {
+      "url": "https://arxiv.org/pdf/1408.4870v2",
+      "outcome": "Exact PDF downloaded successfully earlier in this check with User-Agent Mozilla/5.0; complete relevant theorem read after pdftotext extraction. Later bibliography probe with its research User-Agent returned 406."
+    },
+    {
+      "url": "https://doi.org/10.1137/23M1570351",
+      "outcome": "Publisher metadata and abstract read through the web reader. Full statement reading used the linked arXiv v2, whose direct GET returned 200."
+    },
+    {
+      "url": "https://www.preprints.org/manuscript/202608.1304",
+      "outcome": "Full text and latest-version metadata accessible and read through the web reader despite direct-probe 403."
+    }
+  ]
+}
