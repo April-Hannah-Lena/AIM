@@ -186,9 +186,13 @@
     {
       "commit": "a40740e74384c46e368784bb395fed49bb0b249b",
       "purpose": "Record reviewed chemostat exclusion draft and evidence; pushed directly to main and independently verified September 18, 2026."
+    },
+    {
+      "commit": "02e5ac183cddf5e1d4559a15394340353981baf3",
+      "purpose": "Record reviewed Tuza packing-covering draft and evidence; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "Forty catalogue additions (301–340) and the first five pending accepted drafts are published directly on main. The sixth accepted draft, Tuza triangle packing–covering, and its evidence are ready for the checkpoint push. Upstream main was fetched and matches df5ab078496e7bb3a1f29bf4fdc3dd3930f41457. Active total remains 340.",
+  "remote_state": "Forty catalogue additions (301–340) and all six pending accepted research drafts are published directly on main. The Tuza triangle packing–covering checkpoint 02e5ac183cddf5e1d4559a15394340353981baf3 was pushed and verified through a separate remote-ref read on September 18, 2026. Six accepted drafts await batch integration; active total remains 340.",
   "next_actions": [
     "Prepare four more reviewed drafts for the next ten-entry batch; refresh statuses and upstream duplicates before allocating IDs. Six accepted drafts await integration: sharp matroid secretary, binary-code rate, arbitrary-switching stability, list edge-colouring, chemostat exclusion and Tuza triangle packing–covering.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",

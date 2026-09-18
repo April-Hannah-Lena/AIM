@@ -64,10 +64,13 @@
     "verdict": "passed"
   },
   "remote_publication": {
-    "state": "not_published",
+    "state": "published directly to main",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null
+    "commit": "02e5ac183cddf5e1d4559a15394340353981baf3",
+    "verified_on": "2026-09-18",
+    "verification": "Successful direct push followed by a separate git ls-remote origin refs/heads/main returning 02e5ac183cddf5e1d4559a15394340353981baf3.",
+    "catalogue_state": "Accepted research draft only; no active ID or added integrated count."
   },
   "actual_status_check_date": "2026-09-18",
   "applied_significance": "Foundational integral packing-covering optimization. A triangle-free edge-deletion budget is compared with the lower bound certified by edge-disjoint triangles; the triangle-incidence hypergraph makes the matching/covering relationship exact. No empirical network-performance or polynomial-time guarantee is claimed.",
