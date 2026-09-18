@@ -6726,5 +6726,37 @@
     "query": "\"A Counterexample to the Gaussian Completely Monotone Conjecture\"",
     "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
     "review_stage": "Heat-flow entropy discovery; found directly matching Gu–Sellke counterexample claim; not admitted"
+  },
+  {
+    "search_id": "S190-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"rebellious voter model\" \"open problem\" extinction",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Population-dynamics discovery; repeated overlapping Swart-author sources; independent corroboration still missing"
+  },
+  {
+    "search_id": "S190-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"rebellious voter\" 2026 2025 phase transition proof",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Population-dynamics discovery; repeated overlapping Swart-author sources; independent corroboration still missing"
+  },
+  {
+    "search_id": "S190-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"heterozygosity selection\" \"extinction\" conjecture",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Population-dynamics discovery; repeated overlapping Swart-author sources; independent corroboration still missing"
+  },
+  {
+    "search_id": "S190-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"rebellious voter\" \"Sturm\" \"Swart\" survey critical",
+    "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
+    "review_stage": "Population-dynamics discovery; repeated overlapping Swart-author sources; independent corroboration still missing"
   }
 ]

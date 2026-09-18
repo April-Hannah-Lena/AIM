@@ -833,5 +833,13 @@
     "commit": null,
     "pull_request_url": null
   },
-  "draft_page_path": "research/expansion-2026-09/drafts/gaussian-polynomial-unlinking.md"
+  "draft_page_path": "research/expansion-2026-09/drafts/gaussian-polynomial-unlinking.md",
+  "research_publication": {
+    "state": "pushed",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": "861b9dda10045de2cd0179b1426a966468749881",
+    "verified_on": "2026-09-17",
+    "verification": "SSH ls-remote independently matched local HEAD after push; draft and research ledger only, no active catalogue ID."
+  }
 }

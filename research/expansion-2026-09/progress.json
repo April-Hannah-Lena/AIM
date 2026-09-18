@@ -106,9 +106,13 @@
     {
       "commit": "1b96413e1be1066e41840b9d7cf85415f5081237",
       "purpose": "Record Skolem research publication and follow-up leads; pushed directly to main and independently verified."
+    },
+    {
+      "commit": "861b9dda10045de2cd0179b1426a966468749881",
+      "purpose": "Record reviewed Gaussian polynomial unlinking draft, source audit and heat-entropy claim warning; pushed directly to main and independently verified."
     }
   ],
-  "remote_state": "Remote main was independently verified at 1b96413e1be1066e41840b9d7cf85415f5081237 after the Skolem audit push. Gaussian unlinking is newly accepted locally and awaits the next research push. Direct main pushes remain authorized; no PR required.",
+  "remote_state": "Remote main independently verified at 861b9dda10045de2cd0179b1426a966468749881 via SSH ls-remote after the Gaussian unlinking research push on September 17, 2026. It contains all 28 accepted research records, including 20 active additions through entry 320. Direct pushes remain authorized; no PR required.",
   "next_actions": [
     "Accumulate the next reviewed batch from eight accepted drafts, including Gaussian polynomial unlinking; refresh resolution status and upstream duplicates before assigning IDs.",
     "Broaden biology/statistics discovery, including rebellious voter extinction with independent corroboration. Heat-flow complete monotonicity has a matching Gu–Sellke 2026 counterexample claim and must not be admitted from older status sources.",
