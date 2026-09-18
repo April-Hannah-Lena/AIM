@@ -6758,5 +6758,301 @@
     "query": "\"rebellious voter\" \"Sturm\" \"Swart\" survey critical",
     "date_filter_or_unrestricted": "unrestricted (literal years where shown)",
     "review_stage": "Population-dynamics discovery; repeated overlapping Swart-author sources; independent corroboration still missing"
+  },
+  {
+    "search_id": "S191-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"rebellious voter\" conjecture -Swart -site:theoremdb.org",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Biology/statistics discovery; no admission from search snippets"
+  },
+  {
+    "search_id": "S191-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"mathematical biology\" \"open problems\" 2025 2026 conjecture",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Biology/statistics discovery; no admission from search snippets"
+  },
+  {
+    "search_id": "S191-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"identifiability\" \"phylogenetic\" \"conjecture\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Biology/statistics discovery; no admission from search snippets"
+  },
+  {
+    "search_id": "S191-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"log-concave\" \"entropy\" \"open problem\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Biology/statistics discovery; no admission from search snippets"
+  },
+  {
+    "search_id": "S192-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"broadcasting\" \"three states\" \"Kesten\" conjecture 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S192-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"phylogenetic reconstruction\" \"open problem\" \"Kesten\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S192-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Brunet\" \"Derrida\" \"conjecture\" \"genealogy\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S192-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"N-BBM\" \"Bolthausen\" \"open\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S193-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"N-BBM\" \"genealogy\" 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S193-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Brunet\" \"genealogy conjecture\" proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S193-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"branching Brownian motion with selection\" genealogy Bolthausen Sznitman 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S193-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"three-state\" \"Potts\" \"reconstruction\" \"conjecture\" 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S194-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"N-BBM\" \"genealogy\" \"conjecture\" \"stationary\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S194-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"N-BBM\" \"genealogies\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S194-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"N-BBM\" \"genealogies\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S194-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Brunet–Derrida\" \"coalescent\" proof 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S195-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"N-BRW\" \"genealogy\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S195-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"N-BRW\" \"Bolthausen\" \"proof\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S195-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Brunet\" \"Derrida\" \"genealogy\" \"stationary regime\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S195-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Brunet Derrida\" \"genealogy\" \"equilibrium\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S196-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"N-BRW\" \"genealogy\" \"stationary\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S196-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"genealogy\" \"N-BBM\" \"initial\" conjecture",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S196-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"N-BRW\" \"genealogies\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S196-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Brunet\" \"Derrida\" \"genealogy\" counterexample proof 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy formulation and resolution audit; precise long-time regime under review"
+  },
+  {
+    "search_id": "S197-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"N-BBM\" \"genealogy\" proof 2025 2026 -site:emergentmind.com -site:theoremdb.org",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit"
+  },
+  {
+    "search_id": "S197-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Bolthausen-Sznitman\" \"selection\" \"2026\" genealogy",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit"
+  },
+  {
+    "search_id": "S197-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Berestycki\" \"Tough\" \"Selection principle\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit"
+  },
+  {
+    "search_id": "S197-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Maillard\" \"N-BBM\" \"genealogy\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit"
+  },
+  {
+    "search_id": "S198-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Genealogical transition in the noisy N-Branching Random Walk\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit"
+  },
+  {
+    "search_id": "S198-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Speed and fluctuations\" \"Maillard\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit"
+  },
+  {
+    "search_id": "S198-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Genealogy and spatial distribution\" \"2022\" \"10.1214\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit"
+  },
+  {
+    "search_id": "A30-1",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"N-BBM\" genealogy conjecture solved",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Separated adversarial self-pass for fixed-size Brownian genealogy"
+  },
+  {
+    "search_id": "A30-2",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"branching Brownian\" \"selection\" \"genealogy\" \"stationary\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Separated adversarial self-pass for fixed-size Brownian genealogy"
+  },
+  {
+    "search_id": "A30-3",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Brunet-Derrida\" \"genealogy\" counterexample resolution",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Separated adversarial self-pass for fixed-size Brownian genealogy"
+  },
+  {
+    "search_id": "A30-4",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Bolthausen\" \"Berestycki\" \"Maillard\" \"genealogy\" erratum correction withdrawn",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Separated adversarial self-pass for fixed-size Brownian genealogy"
+  },
+  {
+    "search_id": "A30-5",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Maximal displacement\" \"time-inhomogeneous\" \"Legrand\" \"Maillard\"",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Separated adversarial self-pass for fixed-size Brownian genealogy"
+  },
+  {
+    "search_id": "A30-6",
+    "searched_on": "2026-09-17",
+    "discovery_route": "web search",
+    "query": "\"Rank Dependent Branching-Selection Particle Systems\" genealogy theorem",
+    "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+    "review_stage": "Separated adversarial self-pass for fixed-size Brownian genealogy"
   }
 ]

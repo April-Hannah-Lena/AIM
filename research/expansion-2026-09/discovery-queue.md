@@ -115,3 +115,10 @@ The exact optimal deterministic asymptotic ratio for classical online bin packin
 ## Population-dynamics follow-up (S190; 2026-09-17)
 
 The rebellious-voter search again returned Swart and collaborators, including *Noninvadability implies noncoexistence for a class of cancellative systems* ([author PDF](https://staff.utia.cas.cz/swart/stight_rev.pdf)) and *A particle system with cooperative branching and coalescence* ([author-hosted published PDF](https://staff.utia.cas.cz/swart/AAP1032_published_article.pdf)), at indexed-text level. The latter studies a distinct model; its phase-transition theorem must not be transferred to rebellious voter dynamics. Independent corroboration and complete statement checks remain missing for the proposed voter lead. No new candidate record or accepted count was created. Further discovery should broaden beyond repeated sources with overlapping authors.
+
+
+## Selected-population genealogy (S191–S198 and A30; 2026-09-17)
+
+The Brunet–Derrida lead passed A30 and moved to an [accepted research record](candidates/selected-brownian-population-genealogy.json). One equilibrium N-BBM ancestry question is counted; the N-BRW analogue, mutation-law variants and pairwise moments are not extra entries. Berestycki–Tough already settled the stationary empirical-profile question mentioned as open in older Maillard sources. Schertzer–Wences’s September 2026 genealogy theorem has different Poisson reproduction and selection rules. The final A30 search found a stale Legrand–Maillard author PDF; the current April 2026 version was obtained and read.
+
+Broader S191/S192/S193 searches also returned phylogenetic identifiability and Potts reconstruction leads. Those remain discovery-only: no exact formulation/current-status audit or new count. Rebellious-voter searches again lacked independent corroboration. The new total is 29 accepted, including nine pending drafts; 20 additions are active and the catalogue remains at 320.

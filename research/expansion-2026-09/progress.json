@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 28,
+  "new_accepted": 29,
   "active_total": 320,
-  "candidates_investigated": 33,
+  "candidates_investigated": 34,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 172,
-  "remaining_to_target": 222,
+  "remaining_to_minimum": 171,
+  "remaining_to_target": 221,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -110,12 +110,16 @@
     {
       "commit": "861b9dda10045de2cd0179b1426a966468749881",
       "purpose": "Record reviewed Gaussian polynomial unlinking draft, source audit and heat-entropy claim warning; pushed directly to main and independently verified."
+    },
+    {
+      "commit": "728d83a3f212bcb08c18834275444b8dbc974186",
+      "purpose": "Record unlinking research publication and population discovery; remote main verified after direct push."
     }
   ],
   "remote_state": "Remote main independently verified at 861b9dda10045de2cd0179b1426a966468749881 via SSH ls-remote after the Gaussian unlinking research push on September 17, 2026. It contains all 28 accepted research records, including 20 active additions through entry 320. Direct pushes remain authorized; no PR required.",
   "next_actions": [
-    "Accumulate the next reviewed batch from eight accepted drafts, including Gaussian polynomial unlinking; refresh resolution status and upstream duplicates before assigning IDs.",
-    "Broaden biology/statistics discovery, including rebellious voter extinction with independent corroboration. Heat-flow complete monotonicity has a matching Gu–Sellke 2026 counterexample claim and must not be admitted from older status sources.",
+    "Accumulate the next reviewed batch from nine accepted drafts, including fixed-size Brownian genealogy; refresh resolution status and upstream duplicates before assigning IDs.",
+    "Continue biology/statistics discovery beyond the accepted Brownian genealogy problem; rebellious voter still lacks independent corroboration. Heat-flow complete monotonicity has a matching counterexample claim.",
     "Continue broader discovery toward at least 200 new problems, integrating and pushing further reviewed batches directly to main.",
     "All ten handoff seeds investigated: eight accepted drafts, Morrey and Yang–Mills held on matching unadjudicated claims.",
     "Discover candidates across all twelve sections, with deliberate biology, statistics, information, control, operations-research and stochastic-network coverage.",
@@ -129,7 +133,7 @@
     "spectral2": 1,
     "inverse2": 1,
     "continuum2": 1,
-    "stochastic2": 2,
+    "stochastic2": 3,
     "spectral3": 2,
     "continuum3": 1,
     "inverse3": 4,
@@ -137,7 +141,7 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 20,
-  "count_semantics": "Twenty accepted additions are integrated and published on main; eight further accepted research drafts await batch refresh and integration. Active total remains 320. Held records do not count. Remaining-to-minimum/target fields measure further acceptances.",
+  "count_semantics": "Twenty accepted additions are integrated and published on main; nine further accepted research drafts await batch refresh and integration. Active total remains 320. Held records do not count. Remaining-to-minimum/target fields measure further acceptances.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 20,
   "coverage_semantics": "Accepted additions by primary section, including accepted drafts awaiting integration.",

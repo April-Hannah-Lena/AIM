@@ -1,0 +1,1110 @@
+{
+  "candidate_id": "selected-brownian-population-genealogy",
+  "proposed_catalogue_id": null,
+  "title": "Bolthausen–Sznitman ancestry for a fixed-size selected population",
+  "aliases": [
+    "Brunet–Derrida genealogy conjecture",
+    "N-BBM genealogy conjecture"
+  ],
+  "primary_section": "stochastic2",
+  "secondary_tags": [
+    "population genetics",
+    "branching processes",
+    "natural selection"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit N-BBM conjecture, independent status evidence, precisely declared equilibrium formulation, later-theorem scope checks and separated A30 self-pass passed.",
+  "problem_fingerprint": {
+    "model_or_objects": "N standard Brownian particles with binary reproduction at rate one per particle and instantaneous removal of a leftmost particle.",
+    "dimension": "One fitness coordinate.",
+    "domain": "R; offsets anchored at current minimum.",
+    "regularity_and_data_class": "Brownian variance t; independent driving motions and branching clocks.",
+    "boundary_or_initial_conditions": "Initial N-particle offsets have the unique invariant law ψ_N; do not replace it with iid limiting densities.",
+    "parameter_range": "N→∞; every fixed sample size k≥2 and T>0.",
+    "quantifiers": "There exists one c>0, independent of k,T,N, giving FDD convergence for every fixed sample and window.",
+    "normalization": "a_N=c(log N)^3; target coalescent each specified r-tuple merges at (r−2)!(b−r)!/(b−1)!.",
+    "observable_or_norm": "Partition of a uniform sample without replacement by shared ancestors.",
+    "limit_regime_and_order": "Stationary configuration at each fixed N, then N→∞; finite-dimensional distributions only.",
+    "requested_conclusion": "Bolthausen–Sznitman partition process over each finite backward time window.",
+    "computational_model_and_dependencies": "No computational restriction; uses proved existence of ψ_N."
+  },
+  "statement_source_and_scope_match": "JB14 Conjecture 86 includes precisely Model 2 (binary N-BBM). MAI16 and PRT22 independently retain its genealogy question. The draft explicitly formulates its equilibrium regime using BT24 Theorem 1.1, with a finite observation window to avoid an undefined pre-initial history. This is a specified equilibrium form of the standard conjecture, not a verbatim theorem-style quantification in JB14. NB09 supplies FDD/rate conventions. No universal constant-one normalization, all-initial-laws claim or BRW equivalence is asserted.",
+  "proposed_statement_text": "In the stationary offset regime of standard binary N-BBM, does the genealogy of every fixed uniform sample converge in finite-dimensional distributions to the standard Bolthausen–Sznitman coalescent after one common c(log N)^3 time rescaling?",
+  "applied_significance": "Rigorous ancestry model for an asexual population under strong selection, where position is fitness and population size stays fixed.",
+  "application_evidence_source_ids": [
+    "JB14",
+    "CM17",
+    "SW26"
+  ],
+  "source_records": [
+    {
+      "source_id": "JB14",
+      "role": "explicit conjecture",
+      "authors": [
+        "Julien Berestycki"
+      ],
+      "title": "Topics on Branching Brownian motion",
+      "venue_or_repository": "EBP XVIII lecture notes",
+      "publication_type": "lecture notes",
+      "publication_date": "2014-08-07",
+      "latest_version_date": "2014-08-07",
+      "identifier": "Author PDF",
+      "version": "Author PDF",
+      "stable_url": "https://www.stats.ox.ac.uk/~berestyc/Articles/EBP18_v2.pdf",
+      "locator": "§9.1.1 Model 2; §9.1.3 Conjecture 86, printed pp. 71–74",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Title page; model definitions; complete conjecture and coalescent explanation"
+      ],
+      "supported_claim": "Exact-size binary N-BBM genealogy predicted to converge on a clock of order log³N.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Draft notes have unresolved bibliography placeholders; model and conjecture are explicit."
+    },
+    {
+      "source_id": "NB09",
+      "role": "coalescent definition and related formulation",
+      "authors": [
+        "Nathanaël Berestycki"
+      ],
+      "title": "Recent progress in coalescent theory",
+      "venue_or_repository": "Ensaios Matemáticos 16, 1–193",
+      "publication_type": "published survey",
+      "publication_date": "2009",
+      "latest_version_date": "2009",
+      "identifier": "Published PDF",
+      "version": "Published PDF",
+      "stable_url": "https://www.stat.berkeley.edu/~aldous/206-Exch/Papers/berestycki.pdf",
+      "locator": "§6.1 Eq. (6.1); §6.3.3 Conjecture 6.1 pp. 158–161",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Title page, merger rates, full selected-BRW discussion"
+      ],
+      "supported_claim": "Defines merger rates and uses finite-dimensional convergence for the discrete analogue.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Discrete model is not asserted equivalent to N-BBM; no constant-one clock imported."
+    },
+    {
+      "source_id": "MAI16",
+      "role": "independent status and position theorem",
+      "authors": [
+        "Pascal Maillard"
+      ],
+      "title": "Speed and fluctuations of N-particle branching Brownian motion with spatial selection",
+      "venue_or_repository": "Probability Theory and Related Fields 166, 1061–1173",
+      "publication_type": "published paper",
+      "publication_date": "2016",
+      "latest_version_date": "2018-06-19",
+      "identifier": "arXiv:1304.0562v4, journal version",
+      "version": "arXiv:1304.0562v4, journal version",
+      "stable_url": "https://arxiv.org/html/1304.0562v4",
+      "locator": "§1.1 Theorem 1.1; §§1.3–1.4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full model and theorem; proof overview and genealogy obstruction; arXiv history; author HDR pp. 32–34"
+      ],
+      "supported_claim": "Particle-position Lévy limit does not determine ancestry; authors explicitly retain genealogy conjecture.",
+      "independent_of_source_ids": [
+        "JB14"
+      ],
+      "access_limitations": "Branching-rate normalization differs; not used to assign the coalescent time constant."
+    },
+    {
+      "source_id": "PRT22",
+      "role": "independent status and heavy-tail comparison",
+      "authors": [
+        "Sarah Penington",
+        "Matthew I. Roberts",
+        "Zsófia Talyigás"
+      ],
+      "title": "Genealogy and spatial distribution of the N-particle branching random walk with polynomial tails",
+      "venue_or_repository": "Electronic Journal of Probability 27, article 93, 1–65",
+      "publication_type": "published paper",
+      "publication_date": "2022",
+      "latest_version_date": "2021-02-24",
+      "identifier": "arXiv:2102.12424v1; published metadata independently checked",
+      "version": "arXiv:2102.12424v1; published metadata independently checked",
+      "stable_url": "https://arxiv.org/pdf/2102.12424v1",
+      "locator": "§§1.1–1.3, §1.6 p. 6; §2.2 Theorem 2.1",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full model/tail assumptions, light-tail/N-BBM status paragraph and complete theorem/events; Bath institutional publication metadata"
+      ],
+      "supported_claim": "States N-BBM conjecture unproved; proves star-shaped genealogy for regularly varying nonnegative jumps.",
+      "independent_of_source_ids": [
+        "JB14"
+      ],
+      "access_limitations": "Theorem numbering follows 2021 manuscript; online publication 26 July 2022. Full proof not certified."
+    },
+    {
+      "source_id": "BT24",
+      "role": "equilibrium setup and later spatial-profile resolution",
+      "authors": [
+        "Julien Berestycki",
+        "Oliver Tough"
+      ],
+      "title": "Selection principle for the N-BBM",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2024-07-08",
+      "latest_version_date": "2024-07-08",
+      "identifier": "arXiv:2407.05792v1",
+      "version": "arXiv:2407.05792v1",
+      "stable_url": "https://arxiv.org/html/2407.05792v1",
+      "locator": "§1, Theorems 1.1–1.4",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Model, centered configuration, Doeblin theorem and proof; full empirical-measure theorems; version history and author listing"
+      ],
+      "supported_claim": "Unique stationary offset law and its empirical spatial limit.",
+      "independent_of_source_ids": [],
+      "access_limitations": "HTML header has a 2026 compilation date; arXiv version history, not that header, supplies date. No ancestry theorem."
+    },
+    {
+      "source_id": "BBS13",
+      "role": "apparent resolution in a different model",
+      "authors": [
+        "Julien Berestycki",
+        "Nathanaël Berestycki",
+        "Jason Schweinsberg"
+      ],
+      "title": "The genealogy of branching Brownian motion with absorption",
+      "venue_or_repository": "Annals of Probability 41(2), 527–618",
+      "publication_type": "published paper",
+      "publication_date": "2013",
+      "latest_version_date": "2013-03-14",
+      "identifier": "arXiv:1001.2337v3, published reprint",
+      "version": "arXiv:1001.2337v3, published reprint",
+      "stable_url": "https://arxiv.org/pdf/1001.2337v3",
+      "locator": "§§1.1–1.5, Proposition 1, Theorem 3; §7.5 closing proof",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full drift/killing model, initial assumptions and genealogy theorem; proof strategy and excerpts of the closing partition/bridge construction"
+      ],
+      "supported_claim": "BS limit for absorption with tuned negative drift and random population of order N.",
+      "independent_of_source_ids": [],
+      "access_limitations": "Reprint pagination differs from journal; no independent proof certification."
+    },
+    {
+      "source_id": "CM17",
+      "role": "solvable selected genealogy",
+      "authors": [
+        "Aser Cortines",
+        "Bastien Mallein"
+      ],
+      "title": "A N-branching random walk with random selection",
+      "venue_or_repository": "ALEA 14, 117–137",
+      "publication_type": "published paper",
+      "publication_date": "2017",
+      "latest_version_date": "2017",
+      "identifier": "Published PDF; DOI 10.30757/ALEA.v14-07",
+      "version": "Published PDF; DOI 10.30757/ALEA.v14-07",
+      "stable_url": "https://alea.impa.br/articles/v14/14-07.pdf",
+      "locator": "§1 Theorem 1.2 and its proof on pp. 135–136",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full model, theorem and closing proof"
+      ],
+      "supported_claim": "Infinite exponential Poisson offspring clouds; log N clock.",
+      "independent_of_source_ids": [
+        "JB14"
+      ],
+      "access_limitations": "The final proof line prints an inconsistent c_N asymptotic; the full theorem gives c_N log N→1. Scope separation does not depend on that typo."
+    },
+    {
+      "source_id": "SW26",
+      "role": "current genealogy theorem comparison",
+      "authors": [
+        "Emmanuel Schertzer",
+        "Alejandro H. Wences"
+      ],
+      "title": "Genealogical transition in the noisy N-Branching Random Walk. How stronger selection may promote genetic diversity",
+      "venue_or_repository": "Stochastic Processes and their Applications 199, 104975",
+      "publication_type": "published paper",
+      "publication_date": "2026-09",
+      "latest_version_date": "2025-03-13",
+      "identifier": "arXiv:2301.07762v2; published DOI 10.1016/j.spa.2026.104975",
+      "version": "arXiv:2301.07762v2; published DOI 10.1016/j.spa.2026.104975",
+      "stable_url": "https://arxiv.org/html/2301.07762v2",
+      "locator": "§1.1; Proposition 2.4 and Theorem 2.5; §5",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Full reproduction/selection model and genealogy theorem; integrability Proposition 5.1/proof and Proposition 2.4 proof; arXiv history and publisher metadata"
+      ],
+      "supported_claim": "Poisson offspring plus two-stage selection gives BS or discrete PD limits.",
+      "independent_of_source_ids": [
+        "JB14"
+      ],
+      "access_limitations": "Used accessible author manuscript for precise theorem scope, publisher for September 2026 publication."
+    },
+    {
+      "source_id": "LM26",
+      "role": "A30 current specialist restatement",
+      "authors": [
+        "Alexandre Legrand",
+        "Pascal Maillard"
+      ],
+      "title": "Time-inhomogeneous N-particle Branching Brownian Motion and the continuous random energy model",
+      "venue_or_repository": "arXiv",
+      "publication_type": "preprint",
+      "publication_date": "2024-02-07",
+      "latest_version_date": "2026-04-09",
+      "identifier": "arXiv:2402.04917v4",
+      "version": "v4; supersedes differently titled author-hosted v1",
+      "stable_url": "https://arxiv.org/html/2402.04917v4",
+      "locator": "Theorem 1.1; §2.6, Genealogy of the N-BBM",
+      "accessed_on": "2026-09-17",
+      "identity_verified": true,
+      "access_level": "full_relevant_text",
+      "sections_actually_read": [
+        "Current metadata/history; full Theorem 1.1; full genealogy paragraph in §2.6"
+      ],
+      "supported_claim": "Current manuscript still presents the genealogical limit as an expected extension of displacement results.",
+      "independent_of_source_ids": [
+        "JB14",
+        "PRT22"
+      ],
+      "access_limitations": "Shares Maillard with MAI16, not a new independent team relative to it. General time-inhomogeneous setting does not itself state our stationary finite-window convention."
+    }
+  ],
+  "search_log": [
+    {
+      "search_id": "S192-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Brunet\" \"Derrida\" \"conjecture\" \"genealogy\" 2025 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S192-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"N-BBM\" \"Bolthausen\" \"open\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S193-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"N-BBM\" \"genealogy\" 2026 2025",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S193-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Brunet\" \"genealogy conjecture\" proof counterexample",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S193-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"branching Brownian motion with selection\" genealogy Bolthausen Sznitman 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S194-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"N-BBM\" \"genealogy\" \"conjecture\" \"stationary\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S194-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"N-BBM\" \"genealogies\" \"2025\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S194-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"N-BBM\" \"genealogies\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S194-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Brunet–Derrida\" \"coalescent\" proof 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S195-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"N-BRW\" \"genealogy\" \"2026\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S195-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"N-BRW\" \"Bolthausen\" \"proof\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S195-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Brunet\" \"Derrida\" \"genealogy\" \"stationary regime\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S195-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Brunet Derrida\" \"genealogy\" \"equilibrium\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S196-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"N-BRW\" \"genealogy\" \"stationary\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S196-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"genealogy\" \"N-BBM\" \"initial\" conjecture",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S196-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"N-BRW\" \"genealogies\" correction erratum",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S196-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Brunet\" \"Derrida\" \"genealogy\" counterexample proof 2025 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S197-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"N-BBM\" \"genealogy\" proof 2025 2026 -site:emergentmind.com -site:theoremdb.org",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S197-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Bolthausen-Sznitman\" \"selection\" \"2026\" genealogy",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S197-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Berestycki\" \"Tough\" \"Selection principle\" correction erratum",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S197-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Maillard\" \"N-BBM\" \"genealogy\" 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S198-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Genealogical transition in the noisy N-Branching Random Walk\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S198-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Speed and fluctuations\" \"Maillard\" arxiv",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "S198-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Genealogy and spatial distribution\" \"2022\" \"10.1214\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Brunet–Derrida genealogy model, formulation and resolution audit",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "A30-1",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"N-BBM\" genealogy conjecture solved",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Separated adversarial self-pass for fixed-size Brownian genealogy",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "A30-2",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"branching Brownian\" \"selection\" \"genealogy\" \"stationary\" 2025 2026",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Separated adversarial self-pass for fixed-size Brownian genealogy",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "A30-3",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Brunet-Derrida\" \"genealogy\" counterexample resolution",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Separated adversarial self-pass for fixed-size Brownian genealogy",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "A30-4",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Bolthausen\" \"Berestycki\" \"Maillard\" \"genealogy\" erratum correction withdrawn",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Separated adversarial self-pass for fixed-size Brownian genealogy",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "A30-5",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Maximal displacement\" \"time-inhomogeneous\" \"Legrand\" \"Maillard\"",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Separated adversarial self-pass for fixed-size Brownian genealogy",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    },
+    {
+      "search_id": "A30-6",
+      "searched_on": "2026-09-17",
+      "discovery_route": "web search",
+      "query": "\"Rank Dependent Branching-Selection Particle Systems\" genealogy theorem",
+      "date_filter_or_unrestricted": "unrestricted (literal years and exclusions where shown)",
+      "review_stage": "Separated adversarial self-pass for fixed-size Brownian genealogy",
+      "searched_at": "2026-09-17",
+      "results_inspected": [
+        "JB14",
+        "NB09",
+        "MAI16",
+        "PRT22",
+        "BT24",
+        "BBS13",
+        "CM17",
+        "SW26",
+        "LM26"
+      ],
+      "outcome": "Combined review located explicit open statements and related theorems with different models or observables; A30 upgraded a stale author PDF to April 2026 LM26 v4.",
+      "limitations": "Source list describes combined group inspection, not every query returning every paper. No matching exact-size Brownian genealogy resolution located."
+    }
+  ],
+  "later_results_and_resolution_checks": [
+    {
+      "source_id": "BT24",
+      "theorem_locator": "Theorems 1.1–1.4",
+      "claim_type": "stationary profile",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Exact N-BBM, stationary positions; empirical measure converges to 2x exp(−√2 x)."
+      ],
+      "scope_relation": "restricted or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "No ancestry marks in the conclusion. A spatial marginal cannot determine a genealogy.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "MAI16",
+      "theorem_locator": "Theorem 1.1; §§1.3–1.4",
+      "claim_type": "position fluctuations",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Specified iid initial density, different rate normalization; position quantile on log³N clock."
+      ],
+      "scope_relation": "restricted or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Author explicitly says comparison coupling deforms ancestry; no transfer theorem.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "BBS13",
+      "theorem_locator": "Proposition 1; Theorem 3; §7.5",
+      "claim_type": "genealogy limit",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Absorption at zero; drift −sqrt(2−2π²/(log N+3loglog N)²); population variable. Weighted initial size and negligible leading-particle assumptions."
+      ],
+      "scope_relation": "restricted or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The finite-size constraint is absent; no genealogy-preserving comparison to the selected model.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "PRT22",
+      "theorem_locator": "Theorem 2.1 with Eqs. (2.3)–(2.4)",
+      "claim_type": "star-shaped ancestry",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Discrete binary offspring, nonnegative regularly varying jumps, logarithmic generation clock."
+      ],
+      "scope_relation": "restricted or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Different mutation tails and time law; not a Brownian counterexample.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "CM17",
+      "theorem_locator": "Theorem 1.2 and closing proof",
+      "claim_type": "BS genealogy",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Discrete infinite exponential PPP offspring, weighted selection including rightmost limit."
+      ],
+      "scope_relation": "restricted or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Not Brownian binary branching.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_id": "SW26",
+      "theorem_locator": "Theorem 2.5; §5",
+      "claim_type": "2026 genealogy theorem",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Exponential PPP offspring, N^ρ truncation, fitness-weighted selection; semi-pulled clock χ log N."
+      ],
+      "scope_relation": "restricted or different assertion",
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Full model and integrability proof do not include fixed-rate binary N-BBM.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "duplicate_review": {
+    "baseline_repository": "MColbrook/AIM",
+    "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
+    "existing_pages_and_metadata_screened": true,
+    "exclusion_records_screened": true,
+    "pending_additions_screened": true,
+    "other_new_candidates_screened": true,
+    "closest_existing_or_new_entries": [
+      {
+        "id": 190,
+        "distinction": "Two-type contact-process survival and competition on Z²; no fixed-size Brownian fitness genealogy."
+      },
+      {
+        "id": 280,
+        "distinction": "Finite-graph exclusion mixing; no reproduction or ancestral partition limit."
+      }
+    ],
+    "distinctness_reason": "Retained complete 300-page baseline review; current whole data/problems/exclusion text search found no genealogy/selection match; reread closest pages and section metadata.",
+    "implications_or_equivalences": [
+      "Treat N-BRW, different light-tail laws, pairwise times and normalizations as one discovery family; no additional counts.",
+      "Stationary spatial convergence is a different observable, now proved; do not admit that older open question."
+    ]
+  },
+  "open_status_evidence_summary": "JB14 explicit conjecture, independent MAI16/PRT22 open statements, no matching resolution located in current searches. A30 found and read April 2026 LM26 v4, which still expects the genealogy extension.",
+  "independent_status_corroboration": "Maillard and Penington–Roberts–Talyigás are independent of the JB14 author. Dates are historical; current searching does not manufacture a 2026 restatement. LM26 v4 provides a 2026 perspective (overlapping Maillard with MAI16).",
+  "strongest_known_partial_results_and_gap": "Exact selected-particle spatial limits and analogous coalescent results for absorption and solvable offspring models; precise fixed-size Brownian genealogy remains the gap.",
+  "actual_status_check_date": "2026-09-17",
+  "source_access_limitations": [
+    "No independent certification of published proofs.",
+    "Full 2026 published SW26 article not used; accessible current author manuscript supplies theorem scope.",
+    "Equilibrium/FDD formulation combines explicit model/conjecture with proved stationary-law construction, as explained.",
+    "Searches can miss unindexed work."
+  ],
+  "second_review": {
+    "arrangement": "Separated adversarial self-pass; no independent agent or human review.",
+    "reviewer_or_pass_identifier": "A30",
+    "date": "2026-09-17",
+    "independent_searches": [
+      "A30-1",
+      "A30-2",
+      "A30-3",
+      "A30-4",
+      "A30-5",
+      "A30-6"
+    ],
+    "issues_found": [
+      "Initial observation time cannot be left undefined; ancestral partition must not trace before initialization.",
+      "Standard Brownian variance and branch rate fix the population clock; different papers use rate 1/2.",
+      "An iid approximation to the limiting density is not the finite-N stationary configuration law.",
+      "Search found a superseded 2024 author PDF with a later title/version.",
+      "Spatial-profile and position-fluctuation theorems could be mistaken for genealogy results; exponential offspring has different branching."
+    ],
+    "issues_resolved": [
+      "Used proved ψ_N and a finite forward/backward window; fixed k,T, then N→∞. Equilibrium specialization is explicitly identified.",
+      "Retained an unknown common positive c; no unjustified numerical normalization or moment claim.",
+      "Defined ψ_N as the joint configuration law.",
+      "Read April 9, 2026 v4, full current genealogy paragraph and displacement Theorem 1.1.",
+      "Compared full models and main statements; recorded explicit coupling limitation and Poisson integrability mechanism."
+    ],
+    "verdict": "pass"
+  },
+  "prepublication_refresh": {
+    "date": null,
+    "latest_target_commit": null,
+    "resolution_searches_refreshed": false,
+    "duplicate_review_refreshed": false,
+    "outcome": "Refresh before active catalogue integration."
+  },
+  "public_page_path": null,
+  "validation_results": [
+    "2026-09-17: all 34 existing math expressions passed strict KaTeX; rendered statement and applied significance visually inspected.",
+    "2026-09-17: source/search IDs, required headings and draft local links checked.",
+    "2026-09-17: catalogue.py --write and --check passed at 320 active entries; git diff --check passed.",
+    "2026-09-17: 34 investigated, 29 accepted, 20 integrated and nine pending; primary-section counts reconciled; 882 unique search IDs."
+  ],
+  "remote_publication": {
+    "state": "not_published",
+    "repository": "MColbrook/AIM",
+    "branch": null,
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_page_path": "research/expansion-2026-09/drafts/selected-brownian-population-genealogy.md"
+}
