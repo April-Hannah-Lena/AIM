@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 41,
+  "new_accepted": 42,
   "active_total": 340,
-  "candidates_investigated": 46,
+  "candidates_investigated": 47,
   "held_unverified": 1,
   "held_claimed_resolution": 4,
   "excluded": 0,
-  "remaining_to_minimum": 159,
-  "remaining_to_target": 209,
+  "remaining_to_minimum": 158,
+  "remaining_to_target": 208,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -172,17 +172,18 @@
       "purpose": "Record reviewed sharp matroid secretary draft and evidence; pushed directly to main and independently verified September 18, 2026."
     }
   ],
-  "remote_state": "Forty catalogue additions (301–340) are published directly on main. The forty-first accepted problem is a research draft, published at bdcecb7dad63b280bdb2f0d91f9f1842d07c3f3b and independently verified by ls-remote on September 18, 2026. It awaits batch integration; active catalogue total remains 340.",
+  "remote_state": "Forty catalogue additions (301–340) and the sharp matroid secretary research draft are published directly on main. The binary-code rate draft has passed review locally and awaits this research-checkpoint push. Active catalogue total remains 340.",
   "next_actions": [
-    "Prepare nine more reviewed drafts for the next ten-entry batch; refresh all batch statuses and upstream duplicates before allocating IDs. The sharp matroid secretary draft is accepted without an active ID.",
+    "Prepare eight more reviewed drafts for the next ten-entry batch; refresh all batch statuses and upstream duplicates before allocating IDs. The sharp matroid secretary and binary-code rate drafts are accepted without active IDs.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the five held candidates and discovery-only leads outside the active count; preserve original identifiers and historical dates.",
     "CFN sunlet projective quadratic generation needs independent corroboration and saturation-scope review; private-learning leads still need complete formulation and corroboration.",
     "Phylogenetic character-threshold and strong cane-toad spreading leads have full formulations but still need independent corroboration.",
-    "Do not admit general strongly polynomial LP without adjudicating matching claims; keep historical entries 031, 032 and 286 follow-ups separate from new counts."
+    "Do not admit general strongly polynomial LP without adjudicating matching claims; keep historical entries 031, 032 and 286 follow-ups separate from new counts.",
+    "Bernoulli Renyi joint-parameter concavity still needs independently authored status corroboration. Switched-system stability discovery needs precise strict-versus-nonstrict threshold and computational-model review; neither lead is accepted or a new formal record."
   ],
   "coverage": {
-    "inverse3": 5,
+    "inverse3": 6,
     "spectral2": 1,
     "applied": 7,
     "stochastic3": 8,
@@ -197,11 +198,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 40,
-  "count_semantics": "Forty-one accepted additions: forty integrated and published, one accepted research draft pending integration. Active catalogue total 340. Five held records excluded.",
+  "count_semantics": "Forty-two accepted additions: forty integrated and published, two accepted research drafts pending integration. Active catalogue total 340. Five held records excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 40,
-  "coverage_semantics": "Accepted additions by primary section; forty integrated, one pending accepted draft.",
+  "coverage_semantics": "Accepted additions by primary section; forty integrated, two pending accepted drafts.",
   "remaining_integrations_to_minimum": 160,
   "remaining_integrations_to_target": 210,
-  "pending_accepted": 1
+  "pending_accepted": 2
 }

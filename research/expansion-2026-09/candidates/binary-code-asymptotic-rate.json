@@ -1,0 +1,504 @@
+{
+  "candidate_id": "binary-code-asymptotic-rate",
+  "proposed_catalogue_id": null,
+  "title": "The optimal asymptotic rate of binary error-correcting codes",
+  "decision": "accept_open",
+  "decision_reason": "Explicit published problem, independent current specialist corroboration, full relevant claim-scope comparisons, duplicate screening and separated A43 self-review passed.",
+  "primary_section": "inverse3",
+  "secondary_tags": [
+    "coding theory",
+    "information theory",
+    "data storage"
+  ],
+  "aliases": [
+    "binary code rate-distance problem",
+    "optimal asymptotic binary code rate",
+    "asymptotic Hamming code bound"
+  ],
+  "problem_fingerprint": {
+    "recorded_before_drafting": true,
+    "objects": "All binary codes C subset {0,1}^n, without a linearity restriction; Hamming distance counts differing coordinates.",
+    "model": "A_2(n,d) is the largest code cardinality for which every distinct pair has Hamming distance at least d.",
+    "quantifiers": "For each fixed real delta in (0,1/2), let n tend to infinity and determine R_2(delta) throughout that interval.",
+    "observable": "R_2(delta)=limsup_{n->infinity} n^{-1} log_2 A_2(n,ceil(delta*n)).",
+    "conclusion": "Determine the exact optimal asymptotic rate function, rather than only improve an upper or lower bound.",
+    "normalization": "Binary alphabet; logarithm base 2; fixed delta before the limsup; integer distance rounded up, following Alrabiah-Guruswami 2026 and Barg 2026.",
+    "scope": "Existential, unrestricted codes. No efficient construction/encoding/decoding requirement. Not stochastic Shannon capacity, list decoding, quantum codes, fixed finite blocklength, or an entry restricted to linear/LDPC/constant-weight codes."
+  },
+  "fingerprint_recorded_on": "2026-09-18",
+  "actual_status_check_date": "2026-09-18",
+  "statement_sources": [
+    {
+      "source": "Coregliano, Jeronimo, Jones, A Complete Linear Programming Hierarchy for Linear Codes",
+      "url": "https://doi.org/10.4230/LIPIcs.ITCS.2022.51",
+      "locator": "Section 1, printed p.51:2; asymptotic growth question and definition of R_2.",
+      "role": "Published explicit open question; this source uses floor rounding."
+    },
+    {
+      "source": "Alrabiah, Guruswami, Binary code rate bounds via classical–quantum channels",
+      "url": "https://arxiv.org/html/2608.09347v1",
+      "locator": "Section 1, model and rate definition; Theorems 1–3; Corollary 24 and Eq.46.",
+      "role": "Independently authored current statement; uses ceiling rounding and leaves exact rate undetermined."
+    },
+    {
+      "source": "Barg, Comments on the recent improvements of the MRRW bounds",
+      "url": "https://arxiv.org/html/2609.01860v1",
+      "locator": "Sections 1–2.",
+      "role": "September 2026 specialist account of the new bounds; same ceiling convention."
+    }
+  ],
+  "publication_state": "Accepted research draft; awaiting batch integration and immediate prepublication refresh. No active ID.",
+  "review_arrangement": "Primary-agent research to be followed by a separated adversarial self-pass; no independent agent or human review.",
+  "search_ids": [
+    "S309-3",
+    "S309-4",
+    "S310-1",
+    "S310-2",
+    "S310-3",
+    "S310-4",
+    "S311-1",
+    "S311-2",
+    "S311-3",
+    "S311-4",
+    "S312-1",
+    "S312-2",
+    "S312-3",
+    "S312-4",
+    "S313-1",
+    "S313-2",
+    "S313-3",
+    "S313-4",
+    "S314-1",
+    "S314-2",
+    "S314-3",
+    "S314-4",
+    "S315-1",
+    "S315-2",
+    "S315-3",
+    "S315-4",
+    "A43-1",
+    "A43-2",
+    "A43-3",
+    "A43-4"
+  ],
+  "source_records": [
+    {
+      "source_id": "CJJ22",
+      "authors": [
+        "Leonardo Nagami Coregliano",
+        "Fernando Granha Jeronimo",
+        "Chris Jones"
+      ],
+      "title": "A Complete Linear Programming Hierarchy for Linear Codes",
+      "venue": "ITCS 2022, LIPIcs 215, 51:1–51:22; January 25, 2022",
+      "url": "https://doi.org/10.4230/LIPIcs.ITCS.2022.51",
+      "full_text": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol215-itcs2022/LIPIcs.ITCS.2022.51/LIPIcs.ITCS.2022.51.pdf",
+      "locator": "§1, p.51:2; §1.1, Theorem 1 and Proposition 2, p.51:4",
+      "read": "Published model and explicit asymptotic question; full main completeness and collapse statements. Author version arXiv:2112.09221 also inspected.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "AG26",
+      "authors": [
+        "Omar Alrabiah",
+        "Venkatesan Guruswami"
+      ],
+      "title": "Binary code rate bounds via classical–quantum channels",
+      "venue": "arXiv:2608.09347v1, August 10, 2026; preprint; also ECCC TR26-140",
+      "url": "https://arxiv.org/html/2608.09347v1",
+      "locator": "§1; Theorems 1–4; §1.1; §1.7; §5.2.3, Corollary 24 and Eq.46",
+      "read": "Full relevant model and theorem statements; channel hypotheses and complete 2MQC optimization domain. Current account says the exact unrestricted rate is not determined.",
+      "version": "Only v1 shown in the submission history; ECCC report page independently opened.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "GJL26",
+      "authors": [
+        "William Gay",
+        "Fernando Granha Jeronimo",
+        "Lenny Liu"
+      ],
+      "title": "The Honeycomb Framework for Code Bounds",
+      "venue": "arXiv:2608.20287v1, August 20, 2026; preprint",
+      "url": "https://arxiv.org/html/2608.20287v1",
+      "locator": "§§1–1.3, Definition 1.1 and Theorem 1.2; §8, Proposition 8.1, Definition 8.2 and Theorem 8.3; §9.2, Theorem 9.2",
+      "read": "Full cited formal statements, first-bound parameters and domain, channel construction and finite-completeness proof. Introduction explicitly retains an exponential gap.",
+      "version": "Only v1 shown; author's publication page confirms identity.",
+      "author_record": "https://granha.github.io/",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "Barg26",
+      "authors": [
+        "Alexander Barg"
+      ],
+      "title": "Comments on the recent improvements of the MRRW bounds",
+      "venue": "arXiv:2609.01860v1, September 1, 2026; preprint",
+      "url": "https://arxiv.org/html/2609.01860v1",
+      "locator": "§§1–2; §6 asymptotic bound; opening of §7",
+      "read": "Model, ceiling convention, comparison of the whole-cube/MQC branch, and discussion of the two proof mechanisms. Not a certification of every newer bound.",
+      "version": "Only v1 shown.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "JV04",
+      "authors": [
+        "Tao Jiang",
+        "Alexander Vardy"
+      ],
+      "title": "Asymptotic Improvement of the Gilbert-Varshamov Bound on the Size of Binary Codes",
+      "venue": "IEEE Transactions on Information Theory 50(8) (2004), 1655–1664; DOI 10.1109/TIT.2004.831751",
+      "url": "https://arxiv.org/html/math/0404325",
+      "locator": "§I, Theorems 1–2 and Eq.7",
+      "read": "Complete relevant finite-size bound and the discussion distinguishing multiplicative improvements from rate-exponent improvements.",
+      "version": "arXiv:math/0404325v1, April 19, 2004; journal identity and DOI verified on primary metadata.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "YZ26",
+      "authors": [
+        "Chen Yuan",
+        "Ruiqi Zhu"
+      ],
+      "title": "Improvement of the Gilbert-Varshamov Bound for Linear Codes and Quantum Codes",
+      "venue": "arXiv:2601.18590v1, January 26, 2026; preprint",
+      "url": "https://arxiv.org/html/2601.18590v1",
+      "locator": "§1.1, Theorems 1.2–1.3; Theorem 1.6 and Corollary 1.7",
+      "read": "Full classical and quantum existence statements. For fixed alphabet and distance fraction the classical gain is a square-root factor, not a changed normalized exponent.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "Blinovsky17",
+      "authors": [
+        "Vladimir Blinovsky"
+      ],
+      "title": "Proof of Tightness of Varshamov-Gilbert Bound for Linear Binary Codes",
+      "venue": "arXiv:1606.01592v5, June 12, 2017; preprint",
+      "url": "https://arxiv.org/abs/1606.01592",
+      "full_text": "https://arxiv.org/pdf/1606.01592",
+      "locator": "All three pages",
+      "read": "Full extracted manuscript, including subspace, parity-check and claimed tightness argument. Proof not adjudicated.",
+      "version_note": "The abstract-page title omits 'Linear'; the PDF title and mathematical setup expressly restrict codes to linear subspaces. v1 June 6, 2016; latest displayed v5 June 12, 2017.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "OAI26",
+      "authors": [
+        "OpenAI"
+      ],
+      "title": "Ten Advances in Mathematics and Theoretical Computer Science",
+      "venue": "2026 research manuscript; not an independently certified result",
+      "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "locator": "Chapter 2, Improved Bounds for Binary and Spherical Codes; §1.1, Eqs.1–8 and Theorem 1.1, printed pp.28–30 (PDF pages 31–33, zero-based)",
+      "read": "Full binary-code model, optimization definitions and main upper-bound theorem. Other chapters and the complete proof are not represented as audited.",
+      "role": "Direct primary research claim requiring scope review, not an AI answer used as an open-problem source.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CJJ23",
+      "authors": [
+        "Leonardo Nagami Coregliano",
+        "Fernando Granha Jeronimo",
+        "Chris Jones"
+      ],
+      "title": "Exact Completeness of LP Hierarchies for Linear Codes",
+      "venue": "ITCS 2023, LIPIcs 251, 40:1–40:18; February 1, 2023",
+      "url": "https://doi.org/10.4230/LIPIcs.ITCS.2023.40",
+      "full_text": "https://arxiv.org/html/2211.01248",
+      "locator": "§1, Theorems 1.1–1.3 and following discussion",
+      "read": "Full exact-completeness statements at level at least n and remaining asymptotic-analysis discussion. Published metadata checked.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CJJLL26",
+      "authors": [
+        "Leonardo Nagami Coregliano",
+        "Fernando Granha Jeronimo",
+        "Chris Jones",
+        "Nati Linial",
+        "Elyassaf Loyfer"
+      ],
+      "title": "Higher-Order Delsarte Dual LPs: Lifting, Constructions and Completeness",
+      "venue": "ITCS 2026, LIPIcs 362, 44:1–44:22; January 23, 2026",
+      "url": "https://doi.org/10.4230/LIPIcs.ITCS.2026.44",
+      "full_text": "https://arxiv.org/html/2501.04854v1",
+      "locator": "Author manuscript §§1–1.1, informal Theorems 1.1, 1.3–1.4; formal §5 Theorem 5.1",
+      "read": "Main scope and balanced-linear-code restriction; complete formal dual-completeness statement. Published identity checked; full proofs of higher-order asymptotic constructions not audited.",
+      "version": "Author manuscript v1 January 8, 2025; publication status refreshed to ITCS 2026 rather than retained as a 2025-only preprint.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "BR26",
+      "authors": [
+        "Martijn Brehm",
+        "Nicolas Resch"
+      ],
+      "title": "Linear Time Encodable Binary Code Achieving GV Bound with Linear Time Encodable Dual Achieving GV Bound",
+      "venue": "ITCS 2026, LIPIcs 362, article 28; also IEEE Transactions on Information Theory 72(9) (2026), 6615–6641, DOI 10.1109/TIT.2026.3711421",
+      "url": "https://arxiv.org/html/2509.07639v2",
+      "locator": "§§1–1.1, Theorem 1.2",
+      "read": "Full model and main existence theorem: rate one half, both primal and dual approach GV distance and have linear-size encoding circuits.",
+      "version": "arXiv v2 January 9, 2026; v1 September 9, 2025. Published metadata found and checked.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CDGM26",
+      "authors": [
+        "Gil Cohen",
+        "Dean Doron",
+        "Noam Goldgraber",
+        "Tomer Manket"
+      ],
+      "title": "Tracing AG Codes: Toward Meeting the Gilbert–Varshamov Bound",
+      "venue": "ICALP 2026, LIPIcs 374, article 68",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.68/LIPIcs.ICALP.2026.68.html",
+      "locator": "§§1–1.1; §2 informal Theorems 1–2; §2.1.2 Theorem 3",
+      "read": "Introductory construction scope and complete conditional high-distance statement. Full technical curve-extension Proposition 14 was not read; this is supplementary construction background, not admission evidence.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "LL26",
+      "authors": [
+        "Nati Linial",
+        "Elyassaf Loyfer"
+      ],
+      "title": "An Elementary Proof of the First LP Bound on the Rate of Binary Codes",
+      "venue": "APPROX/RANDOM 2026, LIPIcs 392, 48:1–48:10; September 9, 2026",
+      "url": "https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2026.48",
+      "full_text": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol392-approx-random2026/LIPIcs.APPROX-RANDOM.2026.48/LIPIcs.APPROX-RANDOM.2026.48.pdf",
+      "locator": "§1, pp.48:1–2, Theorem 1",
+      "read": "Full problem definition and first-LP-bound theorem. The published text's 'best bound' description predates August advances and is not copied as current status.",
+      "version": "Related earlier manuscript arXiv:2303.16619; publication date alone is not treated as proof of a newly updated status review.",
+      "accessed_on": "2026-09-18",
+      "identity_verified": true,
+      "proof_certification": false
+    }
+  ],
+  "independent_corroboration": {
+    "sources": [
+      "AG26 §1",
+      "Barg26 §§1–2"
+    ],
+    "assessment": "AG26 has no authors in common with CJJ22 and explicitly treats the optimal unrestricted rate as undetermined, alongside its own improved bounds. Barg gives a separately authored subsequent specialist account.",
+    "limitation": "GJL26 shares an author with CJJ22 and is not counted as independent of it. The late-published LL26 text retains an obsolete upper-bound description. Scholarly corroboration does not mean independent review of this draft."
+  },
+  "resolution_scope_comparisons": [
+    {
+      "source": "AG26 Theorems 1–3 and Corollary 24",
+      "result_scope": "General linear and nonlinear binary codes; variational upper bounds under a cq-channel error condition.",
+      "assessment": "Stronger upper bounds without a matching achievability theorem. Quantum channels are a proof device; the bounded codes remain classical."
+    },
+    {
+      "source": "GJL26 Theorems 1.2 and 8.3",
+      "result_scope": "Further asymptotic upper bounds and a monotone Horn–channel hierarchy.",
+      "assessment": "No equality with the unrestricted optimal rate is asserted; §1 explicitly retains the exponential gap."
+    },
+    {
+      "source": "GJL26 Theorem 9.2",
+      "result_scope": "For fixed n,d, exact recovery at anchor order t at least A_2(n,d); full finite-completeness proof read.",
+      "assessment": "A finite optimization hierarchy does not evaluate its asymptotic exponent. The statement does not claim a fixed order determines R_2."
+    },
+    {
+      "source": "OAI26 Chapter 2 Theorem 1.1",
+      "result_scope": "R_2(delta) bounded above by a combined moving-projection exponent, below the second MRRW bound.",
+      "assessment": "An upper-bound improvement, with no matching lower bound. Do not admit 'improve MRRW' as a separate open question."
+    },
+    {
+      "source": "JV04 Theorem 2; YZ26 Theorems 1.2–1.3",
+      "result_scope": "Polynomial factors improve finite code-cardinality/existence estimates at fixed relative distance.",
+      "assessment": "Taking log_2 and dividing by n makes these gains O(log n/n). This rate-scope conclusion is an inference from the stated bounds, not a claim the finite improvements are trivial."
+    },
+    {
+      "source": "Blinovsky17 full manuscript",
+      "result_scope": "Claims Gilbert–Varshamov asymptotic tightness for linear subspaces; proof not adjudicated.",
+      "assessment": "Even if valid, this does not upper-bound all nonlinear codes without a separate linear-optimality theorem. The original candidate was already unrestricted; no convenient new restriction was invented to evade the claim."
+    },
+    {
+      "source": "CJJ22 Theorem 1 and Proposition 2; CJJ23 Theorems 1.2–1.3; CJJLL26 Theorem 5.1",
+      "result_scope": "Finite completeness for linear-code hierarchies; CJJ22's unrestricted hierarchy collapses to Delsarte.",
+      "assessment": "No evaluation of the exact general asymptotic rate. LPs here are theoretical coding bounds, not numerical-linear-algebra questions."
+    },
+    {
+      "source": "BR26 Theorem 1.2",
+      "result_scope": "Rate-half binary linear codes and duals approach their GV distances with efficient encoders.",
+      "assessment": "Achieves a benchmark with extra algorithmic structure; does not prove optimality among all codes."
+    },
+    {
+      "source": "CDGM26 §2 and Theorem 3",
+      "result_scope": "TAG constructions and a conditional limitation of one curve-bound approach.",
+      "assessment": "No improved general existential exponent or optimality theorem is claimed. Technical curve theorem was not relied on."
+    },
+    {
+      "source": "LL26 Theorem 1",
+      "result_scope": "Elementary proof of the historical first MRRW upper bound.",
+      "assessment": "Re-proves an upper bound; no exact rate theorem. Its dated superlative is superseded by the August papers."
+    }
+  ],
+  "duplicate_review": {
+    "checked_on": "2026-09-18",
+    "baseline_commit": "d4203d19769aaac408eb5bf456db09115e5038dc",
+    "active_pages": 340,
+    "pending_accepted_before_this_candidate": 1,
+    "method": "Established full baseline and source/exclusion-map inventory, current full-text searches for Hamming/Gilbert/Varshamov/rate-distance/code aliases, all current titles, and rereading nearest statements.",
+    "nearest": [
+      {
+        "entry": "144-binary-deletion-channel-capacity",
+        "difference": "Stochastic deletions with unreported positions and average vanishing decoding error."
+      },
+      {
+        "entry": "270-seven-cycle-shannon-capacity",
+        "difference": "Strong powers of one fixed seven-symbol confusability graph, not growing binary Hamming-distance thresholds."
+      },
+      {
+        "entry": "317-learning-parity-noise",
+        "difference": "Computational recovery from random noisy parity samples, not codebook cardinality."
+      },
+      {
+        "entry": "332-polynomial-trace-reconstruction",
+        "difference": "Sample complexity for reconstructing one string from deletion traces, not packing codewords."
+      },
+      {
+        "entry": "sharp-matroid-secretary (pending)",
+        "difference": "Online weighted independent-set selection; unrelated information model and target."
+      }
+    ],
+    "canonical_family": "One unrestricted binary asymptotic rate function. No separate counts for GV tightness, linear codes, subintervals, finite blocklengths or efficient constructions.",
+    "result": "No equivalent accepted statement located."
+  },
+  "search_review": {
+    "date": "2026-09-18",
+    "routes": [
+      "Web search",
+      "Primary arXiv full texts and version histories",
+      "Published proceedings and DOI metadata",
+      "Author publication pages",
+      "ECCC record"
+    ],
+    "coverage": "Exact question and aliases, distinctive rate-distance language, proof/proved/solved/resolution/counterexample/disproof/refutation, 2025–2026 and unrestricted dates, corrections/withdrawals, author and journal records.",
+    "outcome": "No theorem determining the unrestricted rate function located. New upper bounds, finite improvements, restricted linear claims and finite completeness were compared at model/statement level.",
+    "search_ids": [
+      "S309-3",
+      "S309-4",
+      "S310-1",
+      "S310-2",
+      "S310-3",
+      "S310-4",
+      "S311-1",
+      "S311-2",
+      "S311-3",
+      "S311-4",
+      "S312-1",
+      "S312-2",
+      "S312-3",
+      "S312-4",
+      "S313-1",
+      "S313-2",
+      "S313-3",
+      "S313-4",
+      "S314-1",
+      "S314-2",
+      "S314-3",
+      "S314-4",
+      "S315-1",
+      "S315-2",
+      "S315-3",
+      "S315-4",
+      "A43-1",
+      "A43-2",
+      "A43-3",
+      "A43-4"
+    ]
+  },
+  "access_limits": [
+    {
+      "source": "Blinovsky17",
+      "access": "HTML route failed; the complete three-page PDF supplied the formulation and argument. Direct versioned abstract GET returned 406; the unversioned primary record and PDF were accessible through the research tool."
+    },
+    {
+      "source": "Barg26",
+      "access": "Direct automated HTTPS GET returned 406; full primary HTML and arXiv metadata were accessible through the research tool."
+    },
+    {
+      "source": "JV04 publisher DOI",
+      "access": "Direct DOI GET returned HTTP 202 with no body; accessible author full text and primary metadata supplied the theorem and publication identity."
+    },
+    {
+      "source": "CJJ23 legacy publisher URL",
+      "access": "Legacy path returned a cache miss; canonical publisher metadata and full arXiv author HTML replaced it."
+    },
+    {
+      "source": "CDGM26",
+      "access": "Technical Proposition 14 not read. Introductory and conditional statements are supplementary only; no claim of complete proof review."
+    },
+    {
+      "source": "Discovery aggregates and mirrors",
+      "access": "Search engines returned AI summaries and nonprimary mirrors. They were not used as mathematical or status evidence."
+    }
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/binary-code-asymptotic-rate.md",
+  "public_page_path": null,
+  "public_status": "Open in cited literature; no later resolution located as of 2026-09-18.",
+  "second_review": {
+    "status": "passed",
+    "arrangement": "Separated adversarial self-pass after drafting; no independent agent or human review.",
+    "checked_on": "2026-09-18",
+    "search_ids": [
+      "A43-1",
+      "A43-2",
+      "A43-3",
+      "A43-4"
+    ],
+    "checks": [
+      "Unrestricted binary codebooks, universal pair separation, fixed positive relative distance, base-two normalization and limsup preserved.",
+      "Ceiling rounding follows explicit current primary formulations; floor rounding in the historical source is disclosed.",
+      "All-code upper-bound advances were distinguished from exact-rate determination; no obsolete 'MRRW is best' claim retained.",
+      "GJL26 finite completeness and higher-row channel statements were inspected; neither asserts equality with the asymptotic rate.",
+      "Blinovsky's linear-subspace claim remains unadjudicated and is not silently dismissed or upgraded to a theorem for arbitrary codes.",
+      "Polynomial finite-cardinality improvements vanish after normalized logarithms; fast GV encoders do not establish rate optimality.",
+      "A43 found the published Linial–Loyfer elementary-proof paper; its full Theorem 1 only re-proves the historical bound. Its publication date is not treated as a fresh upper-bound assessment.",
+      "Nearest active/pending statements checked; one canonical family, with no numerical-linear-algebra addition.",
+      "Applied error-ball argument and distinction from average-error stochastic capacity checked; no algorithmic performance promised."
+    ],
+    "result": "Passed. No admission-blocking conflict located; transport access limits and proof-review limits remain explicit."
+  },
+  "quality_checks": {
+    "strict_katex_expressions": 20,
+    "render": "Full local HTML and loaded-font headless-Chrome PNG visually inspected; definitions, ceilings, limsup, entropy expression and lower-bound discussion visible without clipping.",
+    "external_links": "Six direct GETs returned HTTP 200; two returned 406; the publisher DOI returned 202 with no body. Full source text was obtained through the primary research routes documented in access_limits.",
+    "external_link_record": "research/expansion-2026-09/binary-code-asymptotic-rate-link-check.json",
+    "structural_validation": "PASS: catalogue --write and --check validate 340 active entries; all four local draft links resolve; title/date and JSON agree; git diff --check clean. Active membership unchanged."
+  },
+  "research_checkpoint_validation": {
+    "checked_on": "2026-09-18",
+    "upstream_commit": "d4203d19769aaac408eb5bf456db09115e5038dc",
+    "upstream": "Bounded SSH fetch succeeded; HEAD and origin/main have zero commits of divergence. Origin is the user-authorized private MColbrook/AIM.",
+    "catalogue": "PASS: --write and --check validate 340 indexed active entries.",
+    "research": "PASS: all 47 records and section/progress counts reconcile; 103 local links across updated research Markdown files resolve; 1,417 unique actual searches.",
+    "whitespace": "PASS: git diff --check.",
+    "scope": "Research checkpoint only; no active ID allocated. A fresh review is required before batch integration."
+  }
+}

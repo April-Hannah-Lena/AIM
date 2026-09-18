@@ -11009,5 +11009,473 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Separated A42 adversarial review and follow-up of newly found primary claim"
+  },
+  {
+    "search_id": "S304-1",
+    "candidate_id": "discovery-information-control",
+    "query": "\"Renyi entropy power\" \"conjecture\" 2026 2025 concavity",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S304-2",
+    "candidate_id": "discovery-information-control",
+    "query": "\"Rényi entropy\" \"open problem\" heat flow concavity",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S304-3",
+    "candidate_id": "discovery-information-control",
+    "query": "\"switched systems\" \"open problems\" 2025 2026 stability",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S304-4",
+    "candidate_id": "discovery-information-control",
+    "query": "\"information theory\" \"open problems\" \"2026\" entropy inequality",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S305-1",
+    "candidate_id": "discovery-information-control",
+    "query": "\"Renyi entropy\" \"Bernoulli\" concavity conjecture proof 2026 2025",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S305-2",
+    "candidate_id": "discovery-information-control",
+    "query": "\"Hillion\" \"Johnson\" \"Renyi\" conjecture",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S305-3",
+    "candidate_id": "discovery-information-control",
+    "query": "\"asymptotic stability\" \"switched\" \"decidability\" open 2026 2025",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S305-4",
+    "candidate_id": "discovery-information-control",
+    "query": "\"joint spectral radius\" \"strictly less\" \"undecidable\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S306-1",
+    "candidate_id": "discovery-information-control",
+    "query": "\"Renyi\" \"Shepp\" \"conjecture\" proof counterexample",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S306-2",
+    "candidate_id": "discovery-information-control",
+    "query": "\"Rényi entropy\" \"Bernoulli sums\" concavity 2026 2025",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S306-3",
+    "candidate_id": "discovery-information-control",
+    "query": "\"Hillion\" \"Johnson\" \"Conjecture 4.2\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S306-4",
+    "candidate_id": "discovery-information-control",
+    "query": "\"Shepp-Olkin\" \"Rényi\" solved refutation",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S307-1",
+    "candidate_id": "discovery-information-control",
+    "query": "\"Shepp\" \"Renyi\" \"concavity\" conjecture -site:scribd.com -site:reddit.com",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S307-2",
+    "candidate_id": "discovery-information-control",
+    "query": "\"Hillion\" \"Rényi\" \"open\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S307-3",
+    "candidate_id": "discovery-information-control",
+    "query": "\"Rényi entropy\" \"Conjecture 4.2\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S307-4",
+    "candidate_id": "discovery-information-control",
+    "query": "\"Bernoulli\" \"Renyi\" \"concave\" counterexample proof",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S308-1",
+    "candidate_id": "discovery-information-control",
+    "query": "\"generalized Shepp\" \"conjecture\" -site:bristol.ac.uk -site:arxiv.org",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S308-2",
+    "candidate_id": "discovery-information-control",
+    "query": "\"Rényi\" \"Bernoulli sums\" \"conjecture\" -site:projecteuclid.org",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S308-3",
+    "candidate_id": "discovery-information-control",
+    "query": "\"switched\" \"stability\" \"undecidability\" \"open problem\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S308-4",
+    "candidate_id": "discovery-information-control",
+    "query": "\"joint spectral radius\" \"strictly less than one\" \"open\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S309-1",
+    "candidate_id": "discovery-information-control",
+    "query": "\"decidability\" \"asymptotic stability\" \"switched linear\" 2026 2025",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S309-2",
+    "candidate_id": "discovery-information-control",
+    "query": "\"absolute asymptotic stability\" \"open\" undecidable",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S309-3",
+    "candidate_id": "discovery-information-control",
+    "query": "\"Gilbert Varshamov\" \"binary\" \"open problem\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S309-4",
+    "candidate_id": "discovery-information-control",
+    "query": "\"binary codes\" \"Gilbert-Varshamov\" \"conjecture\" 2025 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 5 breadth discovery and formulation checks"
+  },
+  {
+    "search_id": "S310-1",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"binary codes\" \"Gilbert-Varshamov\" proof counterexample 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S310-2",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"rate-distance tradeoff\" \"binary\" 2026 2025",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S310-3",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"Gilbert-Varshamov\" \"bound\" \"improvement\" binary 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S310-4",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"A Complete Linear Programming Hierarchy for Linear Codes\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S311-1",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"Blinovsky\" \"Gilbert\" \"proof\" \"gap\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S311-2",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"Proof of tightness of Varshamov\" correction withdrawn",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S311-3",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"Binary code rate bounds via classical\" correction erratum",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S311-4",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"binary codes\" \"rate\" \"distance\" \"exact\" \"2026\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S312-1",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"binary codes\" \"MRRW\" \"OpenAI\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S312-2",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"Blinovsky\" \"1606.01592\" error",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S312-3",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"binary\" \"Gilbert-Varshamov\" \"refutation\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S312-4",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"asymptotic\" \"binary codes\" \"rate\" \"solved\" \"2025\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S313-1",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"binary code\" \"rate-distance\" \"resolution\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S313-2",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"binary codes\" \"Gilbert-Varshamov\" \"disproof\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S313-3",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"A Complete Linear Programming Hierarchy for Linear Codes\" journal correction",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S313-4",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"Omar Alrabiah\" publications codes 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S314-1",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"Linear Time Encodable Binary Code\" \"Dual\" Gilbert",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S314-2",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"Exact Completeness of LP Hierarchies for Linear Codes\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S314-3",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"Binary code rate bounds\" \"withdrawn\" OR \"correction\" OR \"erratum\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S314-4",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"optimal\" \"binary\" \"rate-distance\" proof 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary statement, recent claims, versions and theorem-scope comparisons"
+  },
+  {
+    "search_id": "S315-1",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"The Honeycomb Framework for Code Bounds\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Recent bounds, independent specialist discussion and author records"
+  },
+  {
+    "search_id": "S315-2",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"Alexander Barg\" \"MRRW\" 2026 corrections",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Recent bounds, independent specialist discussion and author records"
+  },
+  {
+    "search_id": "S315-3",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"Blinovsky\" \"Gilbert\" \"nonlinear\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Recent bounds, independent specialist discussion and author records"
+  },
+  {
+    "search_id": "S315-4",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"binary codes\" \"rate-distance\" \"solved\" \"refutation\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Recent bounds, independent specialist discussion and author records"
+  },
+  {
+    "search_id": "A43-1",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"binary codes\" \"optimal asymptotic rate\" \"proved\" OR \"solved\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A43-2",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"Gilbert Varshamov\" \"binary\" \"counterexample\" OR \"disproof\" OR \"refutation\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A43-3",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"The Honeycomb Framework for Code Bounds\" \"correction\" OR \"withdrawn\" OR \"erratum\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
+  },
+  {
+    "search_id": "A43-4",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"binary code\" \"rate-distance\" \"September\" \"2026\"",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass after drafting"
   }
 ]

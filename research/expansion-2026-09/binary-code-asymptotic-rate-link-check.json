@@ -1,0 +1,56 @@
+{
+  "checked_on": "2026-09-18",
+  "method": "Direct HTTPS GET; read first 1024 bytes; four concurrent workers.",
+  "links": [
+    {
+      "url": "https://arxiv.org/abs/1606.01592v5",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "url": "https://arxiv.org/abs/math/0404325",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/math/0404325",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/html/2601.18590v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2601.18590v1",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/html/2608.09347v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.09347v1",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/html/2608.20287v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.20287v1",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://arxiv.org/html/2609.01860v1",
+      "error": "HTTP Error 406: Not Acceptable"
+    },
+    {
+      "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "status": 200,
+      "final_url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "sample_bytes": 1024
+    },
+    {
+      "url": "https://doi.org/10.1109/TIT.2004.831751",
+      "status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1317112/",
+      "sample_bytes": 0
+    },
+    {
+      "url": "https://doi.org/10.4230/LIPIcs.ITCS.2022.51",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2022.51",
+      "sample_bytes": 1024
+    }
+  ]
+}
