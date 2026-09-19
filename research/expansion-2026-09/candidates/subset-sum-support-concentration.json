@@ -111,7 +111,7 @@
     "application_check": "NPSS23 Lemma 3.5 explicitly indexes dynamic-programming states by attainable sums; JSS21 Section 1.1 describes how the concentration/support tradeoff improves the fixed-bin runtime dependence. No random-input assumption or current-best-algorithm claim.",
     "search_limit": "This is a separated self-pass, not independent expert review. Full proofs and computational artifacts were not independently certified; source-level access and reading limits are recorded."
   },
-  "publication_state": "Accepted local research draft; direct upload to main pending. No permanent ID until the next integration batch.",
+  "publication_state": "Accepted research draft uploaded directly to main; no permanent ID until the next integration batch.",
   "source_records": [
     {
       "source_id": "JSS21",
@@ -451,5 +451,15 @@
     "bibliography_report": "research/expansion-2026-09/subset-sum-support-concentration-link-check.json",
     "ledger": "Ten primary source records, ten formal scope comparisons and 28 unique actual search IDs present in the log.",
     "catalogue": "python3 scripts/catalogue.py --check passed for 350 unique entries, metadata, headings, math delimiters, local links and README freshness. git diff --check passed."
+  },
+  "publication": {
+    "state": "pushed",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": "0b1548b97fb283bd5478387bbeb21c6e233ca348",
+    "pushed_on": "2026-09-19",
+    "remote_ref_verified_on": "2026-09-19",
+    "verified_remote_commit": "0b1548b97fb283bd5478387bbeb21c6e233ca348",
+    "method": "Normal direct push; a subsequent authenticated ls-remote read matched the exact content commit. No PR, per user authorization."
   }
 }
