@@ -1,0 +1,78 @@
+{
+  "checked_on": "2026-09-19",
+  "method": "Direct GET of every external bibliography link; full source identities and exact read locations are recorded in the candidate ledger.",
+  "results": [
+    {
+      "url": "https://www.renyi.hu/~gyarfas/Cikkek/52_FaudreeSchelpGyarfasTuza_TheStrongChromaticIindexOfGraphs.pdf",
+      "status": 200,
+      "final_url": "https://www.renyi.hu/~gyarfas/Cikkek/52_FaudreeSchelpGyarfasTuza_TheStrongChromaticIindexOfGraphs.pdf",
+      "content_type": "application/pdf",
+      "bytes": 335662,
+      "pdf_magic": true,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i3p31/pdf/",
+      "status": 200,
+      "final_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i3p31/pdf/",
+      "content_type": "application/pdf",
+      "bytes": 363963,
+      "pdf_magic": true,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/ds25/pdf/",
+      "status": 200,
+      "final_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/ds25/pdf/",
+      "content_type": "application/pdf",
+      "bytes": 652876,
+      "pdf_magic": true,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2007.07874v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2007.07874v3",
+      "content_type": "application/pdf",
+      "bytes": 536515,
+      "pdf_magic": true,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.17421v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2607.17421v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 728001,
+      "pdf_magic": false,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://kostochk.web.illinois.edu/docs/submit/ejc18ckr.pdf",
+      "status": 200,
+      "final_url": "https://kostochk.web.illinois.edu/docs/submit/ejc18ckr.pdf",
+      "content_type": "application/pdf",
+      "bytes": 556833,
+      "pdf_magic": true,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2112.01443v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2112.01443v1",
+      "content_type": "application/pdf",
+      "bytes": 115448,
+      "pdf_magic": true,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://github.com/rossjkang/localflagalgebras/blob/main/RESULTS.md",
+      "status": 200,
+      "final_url": "https://github.com/rossjkang/localflagalgebras/blob/main/RESULTS.md",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 471588,
+      "pdf_magic": false,
+      "checked_on": "2026-09-19"
+    }
+  ]
+}

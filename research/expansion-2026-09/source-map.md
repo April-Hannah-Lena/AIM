@@ -252,3 +252,12 @@ The [accepted draft](drafts/private-pac-vc-logstar.md) and [eleven-source ledger
 - BF26, [v1](https://arxiv.org/html/2602.07370v1): decision-list PAC cost retains feature count; the separate online theorem retains a margin parameter.
 
 S425–S429 and separated A56 contain 28 actual queries. Complete nearest statements 318, 317 and 337 were compared. No matching resolution was located; reported preprint results and access limitations remain explicit. This is one problem family and no permanent ID is assigned before batch integration.
+
+
+## Strong edge-colouring (S430–S433 and A57; 2026-09-19)
+
+The [accepted draft](drafts/strong-edge-colouring.md) and [evidence ledger](candidates/strong-edge-colouring.json) preserve the full parity-sensitive multigraph formulation in FSGT90 and HSY18. The independently authored HSY18 and July 2026 Cranston survey supply corroboration. Eleven source records include exact versions, read locations and access limits; different versions of one work are not counted as independent evidence.
+
+Ten complete comparisons distinguish the degree-four gap, newer asymptotic coefficients, bipartite and random inputs, the cubic five-colour counterexample, clique bounds, higher-distance counterexamples, fixed-forbidden-subgraph asymptotics and formalization dependencies. Regular completion does not improve the coefficient, and a forbidden-subgraph threshold depending on fixed t cannot be made uniform by setting t above the input degree. Finite-order issue extracts and inaccessible restricted-class papers are discovery-only records, not theorem audits or admission evidence.
+
+The separated A57 self-pass repeated aliases, corrections, proof and counterexample searches and reread complete nearest entries 344 and 348. All 24 actual queries are logged, bringing the total to 2,028 unique identifiers. Strict KaTeX checked 28 expressions; full-page rendering, three local links, eight external targets and catalogue validation passed. Remote main matched local base f631ab8824ed468bf2967e155c712a865c8dc9d7 before this checkpoint. No independent agent or human review is claimed.

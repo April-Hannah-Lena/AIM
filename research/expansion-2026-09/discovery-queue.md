@@ -417,3 +417,10 @@ The review checked the general polynomial-Littlestone bound, VC-one and Cartesia
 These 28 actual queries bring the search log to 2,004 unique identifiers. There are 54 accepted additions, 50 integrated/published, four pending accepted drafts, six holds and 60 completed formal records. The active catalogue remains 350. Six more accepted drafts are needed for the next ten-entry integration batch; the minimum requires 146 further acceptances and 150 integrations. The reviewed checkpoint is ready for the authorized direct push to main.
 
 Publication receipt: [9fa7854](https://github.com/MColbrook/AIM/commit/9fa7854c5ee5195b22231421e4aec170fcc43a36) was pushed directly to main on September 19, 2026. A separate remote-ref read matched the full content commit. All four accepted drafts and their evidence are uploaded; counts remain 54 accepted additions, 50 integrated and 350 active catalogue entries.
+
+
+### Strong edge-colouring lead promoted (S430–S433 and A57; September 19)
+
+The sharp strong edge-colouring question is now an [accepted research draft](drafts/strong-edge-colouring.md), supported by its [eleven-source ledger](candidates/strong-edge-colouring.json). Original multigraph conventions and the sharper odd-degree bound are retained. Recent results and purported-resolution search hits were compared at their actual theorem/model scope; limited-access discovery items remain explicitly separate. No permanent ID is assigned before batch integration.
+
+These 24 actual queries bring the search log to 2,028 unique identifiers. There are 55 accepted additions, 50 integrated/published, five pending accepted drafts, six holds and 61 completed formal records. The active catalogue remains 350. Five further accepted drafts are needed for the next ten-entry batch; the minimum requires 145 further acceptances and 150 integrations. The reviewed checkpoint is ready for the authorized direct push to main.

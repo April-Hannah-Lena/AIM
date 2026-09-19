@@ -1,0 +1,543 @@
+{
+  "candidate_id": "strong-edge-colouring",
+  "proposed_catalogue_id": null,
+  "title": "The sharp degree bound for strong edge-colouring",
+  "primary_section": "inverse3",
+  "secondary_tags": [
+    "wireless scheduling",
+    "graph colouring",
+    "induced matchings"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit source formulation, independent scholarly corroboration, fresh resolution and duplicate checks, separated A57 self-review and technical validation passed. No matching unresolved resolution claim was found.",
+  "aliases": [
+    "Erdős–Nešetřil strong edge-colouring conjecture",
+    "Strong chromatic index conjecture",
+    "Colouring the square of a line graph"
+  ],
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "problem_fingerprint": {
+    "model_or_objects": "Every finite undirected loopless multigraph G with at least one edge; parallel edges are distinct edges.",
+    "degree": "Delta is the maximum vertex degree, counting multiplicity.",
+    "constraint": "A strong edge-colouring c:E(G)->{1,...,k} assigns different colours to distinct edges if they share an endpoint or some third edge shares an endpoint with each.",
+    "observable": "chi'_s(G), the least number of colours in such a colouring; an ordinary integral common-palette optimum.",
+    "requested_conclusion": "For every G, chi'_s(G)<=5 Delta^2/4 for even Delta, and chi'_s(G)<=(5 Delta^2-2 Delta+1)/4 for odd Delta.",
+    "quantifiers": "All finite sizes, degrees and loopless multigraphs; no bipartiteness, planarity, girth, sparsity, random-graph or sufficiently-large-degree assumption.",
+    "computational_model": "Existence only; no runtime guarantee, lists or fractional colour weights.",
+    "equivalence": "Proper vertex-colouring of L(G)^2, where distinct original edges are vertices of the simple line graph.",
+    "family_policy": "One underlying strong-edge-colouring family; no extra count for parity, a degree value, a restricted graph class, the simple-graph case or the square-line-graph formulation."
+  },
+  "statement_sources": [
+    {
+      "source_id": "FSGT90",
+      "locator": "Section 1, graph conventions p. 205 and Conjecture 1 with f(Delta) p. 206."
+    },
+    {
+      "source_id": "HSY18",
+      "locator": "Section 1, explicit multigraph conventions p. 1 and Conjecture 1 p. 2."
+    },
+    {
+      "source_id": "C26",
+      "locator": "Section 4.1, Conjecture 28 and extremal examples, p. 20."
+    }
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/strong-edge-colouring.md",
+  "status_search_ids": [
+    "S430-1",
+    "S430-2",
+    "S430-3",
+    "S430-4",
+    "S431-1",
+    "S431-2",
+    "S431-3",
+    "S431-4",
+    "S432-1",
+    "S432-2",
+    "S432-3",
+    "S432-4",
+    "S433-1",
+    "S433-2",
+    "S433-3",
+    "S433-4",
+    "A57-1",
+    "A57-2",
+    "A57-3",
+    "A57-4",
+    "A57-5",
+    "A57-6",
+    "A57-7",
+    "A57-8"
+  ],
+  "second_review": {
+    "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass; no independent agent or human review.",
+    "pass_id": "A57",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "independent_searches": [
+      "A57-1",
+      "A57-2",
+      "A57-3",
+      "A57-4",
+      "A57-5",
+      "A57-6",
+      "A57-7",
+      "A57-8"
+    ],
+    "issues_found": [
+      "Simple-graph shorthand would omit parallel edges explicitly included in the two full formulation sources.",
+      "The sharper odd-degree expression and original-graph degree must survive the line-graph reformulation.",
+      "Recent clique, higher-distance, cubic counterexample and finite-order claims can be confused with a resolution of the sharp colouring question.",
+      "Regularity reductions and fixed-forbidden-subgraph asymptotics need explicit scope checks.",
+      "The accompanying Lean dependency record lists project assumptions; a blanket claim of independent formal verification would be unsupported."
+    ],
+    "issues_resolved": [
+      "Retained the source multigraph conventions and a direct edge-conflict definition; checked extremal constructions at both parities.",
+      "Compared the full relevant theorem/model statements in the eleven-source ledger; separated ten scope comparisons from discovery-only items.",
+      "Checked regular completion, dependence of the K_{t,t}-free threshold on fixed t, clique-versus-colouring and worst-case-versus-random quantifiers.",
+      "Disclosed the artifact's certificate and literature assumptions and that its code was not rerun.",
+      "Repeated repository alias/formula searches, reread complete nearest entries 344 and 348, and checked current remote main."
+    ],
+    "application_check": "Frequency or slot assignment is an exact interpretation of the stated graph conflicts. No physical propagation model or efficient algorithm is promised.",
+    "search_limit": "No independent certification of all proofs or formal artifacts. Version, read-location and access limits are recorded for each source; finite-order issue text remains only partly accessible."
+  },
+  "publication_state": "Accepted research draft, ready for the authorized direct push to main; no permanent ID until batch integration.",
+  "scope_normalization": "The full parity-sensitive formulation in FSGT90 and HSY18 explicitly includes finite loopless multigraphs. Degree counts multiplicity. The edge-conflict definition avoids ambiguous uses of induced matching for parallel edges. Recent simple-graph bounds are compared only on that subclass; their proofs are not silently extended.",
+  "source_records": [
+    {
+      "source_id": "FSGT90",
+      "authors": [
+        "R. J. Faudree",
+        "R. H. Schelp",
+        "A. Gyárfás",
+        "Zs. Tuza"
+      ],
+      "title": "The strong chromatic index of graphs",
+      "url": "https://www.renyi.hu/~gyarfas/Cikkek/52_FaudreeSchelpGyarfasTuza_TheStrongChromaticIindexOfGraphs.pdf",
+      "version": "Ars Combinatoria 29(B) (1990), 205–211; seven-page author-hosted published scan.",
+      "locator": "Section 1, pp. 205–206: graph conventions, f(Delta), Conjectures 1–3 and extremal construction.",
+      "read": "Full formulation and adjacent distinctions read; printed p. 206 visually checked to verify the odd-degree expression.",
+      "metadata_urls": [],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Scan used; no independent proof certification."
+    },
+    {
+      "source_id": "HSY18",
+      "authors": [
+        "Mingfang Huang",
+        "Michael Santana",
+        "Gexin Yu"
+      ],
+      "title": "Strong chromatic index of graphs with maximum degree four",
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i3p31/pdf/",
+      "version": "Electronic Journal of Combinatorics 25(3) (2018), P3.31, published August 24; DOI 10.37236/7016.",
+      "locator": "Section 1, pp. 1–2: multigraph conventions, Conjecture 1 and Theorem 2; Section 2 through Lemma 5.",
+      "read": "Full model and conjecture read; degree-four theorem and initial minimal-counterexample reduction checked.",
+      "metadata_urls": [
+        "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v25i3p31"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Published PDF used; the complete discharging proof was not independently certified."
+    },
+    {
+      "source_id": "C26",
+      "authors": [
+        "Daniel W. Cranston"
+      ],
+      "title": "Coloring, List Coloring, and Painting Squares of Graphs (and other related problems)",
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/ds25/pdf/",
+      "version": "Electronic Journal of Combinatorics Dynamic Survey DS25, DOI 10.37236/10898; v1 April 21, 2023, v2 April 14, 2026, v3 July 3, 2026.",
+      "locator": "PDF pp. 1–2 and Section 4.1, pp. 20–22; Conjecture 28.",
+      "read": "Full indicated pages read, including parity, extremal examples, small-degree status, clique versus colouring and restricted-class results.",
+      "metadata_urls": [],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Current publisher PDF downloaded and extracted; original proofs cited by the survey were not all read. This version predates DHJKV26."
+    },
+    {
+      "source_id": "HJK22",
+      "authors": [
+        "Eoin Hurley",
+        "Rémi de Joannis de Verclos",
+        "Ross J. Kang"
+      ],
+      "title": "An Improved Procedure for Colouring Graphs of Bounded Local Density",
+      "url": "https://arxiv.org/pdf/2007.07874v3",
+      "version": "Advances in Combinatorics 2022:7, 33 pp., DOI 10.19086/aic.2022.7. arXiv v3 September 10, 2022 is the final published version; journal publication September 22.",
+      "locator": "Section 1.1, Conjecture 1.4 and Theorem 1.6; Section 3.1, Theorem 3.1 and proof of Theorem 1.6.",
+      "read": "Strong-colouring theorem and its scope/reduction read. Version history checked, including the v2 correction to the separate Reed-bound component.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2007.07874"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Only the simple-graph consequence is asserted here; no independent certification of the full probabilistic argument."
+    },
+    {
+      "source_id": "DHJKV26",
+      "authors": [
+        "Eoin Davey",
+        "Eoin Hurley",
+        "Rémi de Joannis de Verclos",
+        "Ross J. Kang",
+        "Jan Volec"
+      ],
+      "title": "Strong edge-colouring via local flag algebras",
+      "url": "https://arxiv.org/html/2607.17421v1",
+      "version": "arXiv:2607.17421v1, submitted July 19, 2026, preprint; sole version in history on the check date. August 24 is the HTML typesetting date.",
+      "locator": "Section 1, Theorems 1.1–1.4 and formalization note; full Section 3, Theorem 3.1, Corollary 3.2 and Lemma 3.3 with proofs.",
+      "read": "General, bipartite and random theorem hypotheses and the density/regularity reductions read.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2607.17421"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Reported preprint bounds, compared on simple graphs. Numerical certificates and Lean code were not rerun; see ART26 for explicit formalization dependencies."
+    },
+    {
+      "source_id": "CKKR18",
+      "authors": [
+        "Ilkyoo Choi",
+        "Jaehoon Kim",
+        "Alexandr V. Kostochka",
+        "André Raspaud"
+      ],
+      "title": "Strong edge-colorings of sparse graphs with large maximum degree",
+      "url": "https://kostochk.web.illinois.edu/docs/submit/ejc18ckr.pdf",
+      "version": "European Journal of Combinatorics 67 (2018), 21–39; DOI 10.1016/j.ejc.2017.06.001; online August 1, 2017.",
+      "locator": "Section 1, printed pp. 21–22.",
+      "read": "Definition, parity-sensitive conjecture and radio-frequency assignment connection read.",
+      "metadata_urls": [],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Used for formulation/application. Sparse-graph bounds seen in its abstract are not represented as fully audited theorem comparisons."
+    },
+    {
+      "source_id": "C21",
+      "authors": [
+        "Daniel W. Cranston"
+      ],
+      "title": "Strong Edge-Coloring of Cubic Bipartite Graphs: A Counterexample",
+      "url": "https://arxiv.org/pdf/2112.01443v1",
+      "version": "arXiv:2112.01443v1, submitted December 2, 2021; manuscript typeset December 3. Later Discrete Applied Mathematics 321 (2022), 258–260.",
+      "locator": "Section 1, six-part conjecture; Section 2, Main Theorem and Lemmas 1–2.",
+      "read": "Entire three-page manuscript, including counterexample construction and proof, read.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2112.01443"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Locators refer to arXiv; journal pagination was corroborated in C26, but versions were not line-compared."
+    },
+    {
+      "source_id": "HYY26",
+      "authors": [
+        "Yanli Hao",
+        "Tianchi Yang",
+        "Xingxing Yu"
+      ],
+      "title": "Strong chromatic index of bipartite graphs",
+      "url": "https://arxiv.org/html/2606.23824v2",
+      "version": "arXiv:2606.23824v2, July 23, 2026; v1 June 22, 2026, preprint.",
+      "locator": "Section 1, Theorem 1.2, definitions and following biregular reduction.",
+      "read": "Formal theorem and full model/reduction surrounding it read.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2606.23824"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Comparison uses the formal statement's sufficiently-large condition on both side degrees, not the abstract's broader product wording. Complete proof not independently certified."
+    },
+    {
+      "source_id": "KMP26",
+      "authors": [
+        "Hitesh Kumar",
+        "Bojan Mohar",
+        "Shivaramakrishna Pragada"
+      ],
+      "title": "An improved bound for the strong clique index of graphs",
+      "url": "https://arxiv.org/html/2607.02698v1",
+      "version": "arXiv:2607.02698v1, July 2, 2026, preprint; sole listed version.",
+      "locator": "Full Section 1, particularly Theorem 1.6, Corollary 1.7, definition (1.1) and Theorem 1.11.",
+      "read": "Complete model and relevant theorem hypotheses read; clique and higher-distance counterexample claims separated.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2607.02698"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "The full proofs were not independently certified. Neither the clique coefficient nor the h_3 counterexample is used as an exact colouring result."
+    },
+    {
+      "source_id": "BBDX26",
+      "authors": [
+        "Richard Bi",
+        "Peter Bradshaw",
+        "Abhishek Dhawan",
+        "Jingwei Xu"
+      ],
+      "title": "The strong chromatic index of K_{t,t}-free graphs",
+      "url": "https://arxiv.org/html/2603.15207v1",
+      "version": "arXiv:2603.15207v1, March 16, 2026, preprint; sole listed version.",
+      "locator": "Section 1.1 in full, particularly Conjectures 1.1 and 1.4 and Theorem 1.5; beginning of Section 1.2.",
+      "read": "Full quantified main theorem and its comparison with the general conjecture read.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2603.15207"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Complete nibble proof not independently certified; only the stated fixed-forbidden-subgraph scope is used."
+    },
+    {
+      "source_id": "ART26",
+      "authors": [
+        "rossjkang/localflagalgebras contributors"
+      ],
+      "title": "Results correspondence: papers ↔ Lean",
+      "url": "https://github.com/rossjkang/localflagalgebras/blob/main/RESULTS.md",
+      "version": "Authors' accompanying repository, main branch as accessed September 19, 2026; a mutable technical artifact, not an additional scholarly corroboration.",
+      "locator": "Section 1, axiom legend, and Section 4, Paper 2 theorem rows.",
+      "read": "Read explicit dependency descriptions and headline theorem statements.",
+      "metadata_urls": [],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "No pinned commit or build/certificate rerun. SEC headlines list certificate-bridge/output assumptions and a cited colouring lemma; this is not treated as assumption-free independent verification."
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_ids": [
+        "HSY18"
+      ],
+      "theorem_locator": "Section 1, Theorem 2; Section 2, Lemma 5",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Finite loopless multigraphs, maximum degree four.",
+        "The conclusion allows 21 colours."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The target at degree four is 20. Simplicity arising later for a minimal counterexample does not restrict the theorem's original multigraph scope or sharpen its constant.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "HJK22"
+      ],
+      "theorem_locator": "Theorem 1.6 and Section 3.1",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "The stated upper bound is 1.772 Delta^2.",
+        "A sufficiently-large-degree threshold is required."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The coefficient exceeds 5/4 and the theorem is not an all-degree sharp bound. No multigraph extension is assumed in this comparison.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "DHJKV26"
+      ],
+      "theorem_locator": "Theorem 1.1; Section 3, especially Lemma 3.3",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Reported coefficient 1.73, for sufficiently large degree.",
+        "Regular graphs are completed from arbitrary graphs without raising the original maximum degree."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The regularity reduction removes regularity, not the gap in coefficient or degree threshold. Even granting the reported bound, it does not give the target.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "DHJKV26"
+      ],
+      "theorem_locator": "Theorems 1.2–1.4",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Bipartite upper bounds retain large-degree hypotheses and coefficients above the bipartite target.",
+        "The random theorem fixes edge density in (0,1), bounds the part-size ratio, and holds asymptotically almost surely."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "These hypotheses do not cover every finite graph. A high-probability assertion cannot rule out worst-case counterexamples; no bipartite-to-arbitrary transfer giving the sharp bound was identified.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "HYY26"
+      ],
+      "theorem_locator": "Theorem 1.2 and its following biregular reduction",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Bipartite input with side maxima Delta_A and Delta_B both sufficiently large.",
+        "Conclusion permits 1.676 Delta_A Delta_B."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Biregular completion preserves a bipartite restriction. It neither covers arbitrary nonbipartite graphs nor yields the exact sharp constant.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "C21"
+      ],
+      "theorem_locator": "Section 2, Main Theorem and Lemmas 1–2",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Simple cubic bipartite graphs of arbitrarily large girth.",
+        "The construction needs more than five colours."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "This disproves a separate five-colour proposal. The current conjecture permits ten colours at degree three; the counterexample does not contradict it.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "KMP26"
+      ],
+      "theorem_locator": "Section 1.1, Theorem 1.6 and Corollary 1.7",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Finite simple graphs; the observable is omega(L(G)^2).",
+        "The Ore-degree theorem concerns a bipartite subgraph whose edges form a clique."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "An upper bound on clique number does not upper-bound chromatic number in general. The reported 2607/1987 coefficient also exceeds 5/4; neither conclusion supplies a strong colouring.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "KMP26"
+      ],
+      "theorem_locator": "Section 1.2, definition (1.1) and Theorem 1.11",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "h_t restricts to graphs whose entire t-th line-graph power is complete.",
+        "The new counterexamples concern t=3 and a cubic-in-degree proposal; the older t=2 edge-count theorem is separately stated."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "These address a different distance or a restricted complete-conflict case. The solved h_2 statement does not partition arbitrary edge sets into colour classes.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "BBDX26"
+      ],
+      "theorem_locator": "Theorem 1.5",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Fixed epsilon>0 and fixed integer t>=2.",
+        "Input excludes K_{t,t} as a subgraph; the degree threshold depends on epsilon and t."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Choosing t larger than the input degree does not provide a uniform threshold independent of t. C5 blow-ups contain large bicliques. The fixed-t result does not resolve the unrestricted conjecture.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "ART26"
+      ],
+      "theorem_locator": "Sections 1 and 4, Theorem 1.1–1.4 rows",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Formalized headlines have the same nonsharp coefficients or random/bipartite restrictions.",
+        "The general SEC row explicitly lists project-specific certificate assumptions and an external colouring theorem."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The artifact is not a separate proof of the sharp conjecture, and the listed dependencies are disclosed rather than described as independently certified. No code was rerun.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "independently_authored_corroboration": {
+    "source_ids": [
+      "HSY18",
+      "C26"
+    ],
+    "independent_of_source_ids": [
+      "FSGT90"
+    ],
+    "reason": "Both author sets are disjoint from the original formulation paper. HSY18 restates the parity-sensitive multigraph problem; C26's July 2026 Conjecture 28 and surrounding discussion retain the sharp question.",
+    "scope": "Exact parity and multigraph conventions come from full FSGT90/HSY18 text; the current survey and 2026 primary progress papers corroborate continued study of the unresolved sharp bound. Different versions of any one work count only once."
+  },
+  "nearest_existing": [
+    {
+      "id": 344,
+      "path": "problems/344-list-edge-colouring.md",
+      "full_statement_read": true,
+      "distinction": "Arbitrary edge-specific colour lists with only shared-endpoint conflicts; asks for equality with the ordinary chromatic index. The new question has a common palette, distance-two conflicts and a sharp degree bound."
+    },
+    {
+      "id": 348,
+      "path": "problems/348-reed-colouring.md",
+      "full_statement_read": true,
+      "distinction": "A vertex-colouring bound in the degree and clique number of the graph being coloured. Substitution H=L(G)^2 does not turn its right-hand side into the required expression in Delta(G); no logical independence is asserted."
+    }
+  ],
+  "duplicate_check": {
+    "checked_on": "2026-09-19",
+    "repository": "MColbrook/AIM",
+    "local_and_target_commit": "f631ab8824ed468bf2967e155c712a865c8dc9d7",
+    "coverage": "Baseline inventory, active titles/metadata, candidates, source maps, exclusions and discovery notes screened; fresh aliases/formulas searched across problems, data and research. Full nearest pages 344 and 348 reread during A57.",
+    "terms": [
+      "strong edge colour/color",
+      "strong chromatic index",
+      "Erdős–Nešetřil",
+      "Erdos Nesetril",
+      "square of a line graph",
+      "induced matching"
+    ],
+    "result": "No equivalent active or accepted entry located. Degree, parity and graph-subclass variants remain one candidate.",
+    "upstream": "Authenticated ls-remote matched local HEAD and main before checkpoint publication; no additional upstream content to compare."
+  },
+  "normalization_checks": [
+    "Every pair of parallel edges shares endpoints and must receive distinct colours. Degree counts their multiplicity; loops are excluded as in the source conventions.",
+    "The line graph is simple even for a multigraph: each original edge is a separate vertex. The conflict rule is adjacency at line-graph distance one or two, not an ambiguous endpoint-distance convention.",
+    "The bound uses the original graph's maximum degree. Integral common-palette colouring, arbitrary finite input and no runtime constraint are retained.",
+    "For odd Delta=2s+1, the five part sizes s+1,s+1,s,s,s give 5s^2+4s+1 edges and maximum degree 2s+1; for even Delta the balanced construction gives 5 Delta^2/4. Delta=1 is immediate.",
+    "Both proposed expressions are integers at their respective parity. No floor, ceiling, hidden asymptotic slack or sufficiently-large-degree condition is inserted.",
+    "Applying the broad Reed inequality to a line-graph square with only general degree/clique estimates leaves slack; the formulations are not equivalent.",
+    "The application is exact only for the stated graph interference rule. It promises neither a physical SINR model nor a polynomial-time construction."
+  ],
+  "discovery_access_limits": [
+    {
+      "url": "https://github.com/edisonymy/erdos-lean-research/issues/6",
+      "access": "Indexed primary issue extract read. Full web open failed; the public GitHub issue API returned HTTP 404.",
+      "scope": "The title says through order 16, while the indexed body gives order at most 11 and maximum degree at most four. Exact current finite limit and certificates were not verified.",
+      "assessment": "The indexed author text explicitly labels this partial, not a solution. Finite-order evidence cannot settle all finite inputs. It is not admission evidence or a verified theorem in this ledger."
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0166218X2300433X",
+      "access": "Discovery extract only; full publisher open failed.",
+      "scope": "The displayed degree-five result additionally imposes a maximum-average-degree restriction. No full theorem or proof audit is claimed.",
+      "assessment": "Not used as evidence for admission or as the strongest general bound."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s10878-026-01390-y",
+      "access": "Discovered through a bibliographic-index extract, not a full primary read.",
+      "scope": "A 2026 subquartic colouring result has an additional maximum-average-degree condition in the indexed abstract.",
+      "assessment": "Discovery-only restricted-class item; no theorem comparison or proof certification is asserted."
+    }
+  ],
+  "prepublication_refresh": {
+    "date": "2026-09-19",
+    "latest_target_commit": "f631ab8824ed468bf2967e155c712a865c8dc9d7",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "outcome": "Eight fresh A57 searches completed after the draft; relevant 2026 claims compared at formal theorem/model level. Remote main matches local base."
+  },
+  "validation": {
+    "state": "passed",
+    "checked_on": "2026-09-19",
+    "strict_katex": {
+      "expressions": 28,
+      "result": "passed"
+    },
+    "visual_review": "Full 1280-by-4300 browser render inspected; all four sections, formulas and references visible without clipping. Temporary image /private/tmp/aim-strong-edge-research/draft-final.png.",
+    "structure": "Required metadata and four headings passed; all three relative links resolve.",
+    "bibliography": "All eight external bibliography/formalization targets returned HTTP 200; all six PDF targets have PDF signatures.",
+    "bibliography_report": "research/expansion-2026-09/strong-edge-colouring-link-check.json",
+    "ledger": "Eleven source records, ten complete scope comparisons and 24 unique actual search IDs present in the log. Discovery-only access limitations are separate.",
+    "catalogue": "python3 scripts/catalogue.py --check passed: 350 unique entries, metadata, headings, math delimiters, local links and README freshness. git diff --check passed."
+  }
+}
