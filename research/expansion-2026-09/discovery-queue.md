@@ -531,3 +531,6 @@ A65 followed the August quantum-disproof titles to their full operator models an
 S493's Mansour, mathematical-biology and nonlinear-control queries remain discovery only. No additional candidate, independently verified formulation or resolved theorem scope is claimed for those searches. The remaining batch should continue breadth beyond Boolean analysis.
 
 The log has 2,369 actual queries with distinct identifiers. Counts are 63 accepted additions, 60 integrated/published, three pending drafts, six holds, 69 formal records and 360 active entries. Seven further accepted drafts would form the next ten-entry batch. The minimum requires 137 further acceptances and 140 integrations; the working target requires 187 acceptances and 190 integrations. Next discovery group: S498; next separated review: A66.
+
+
+Publication receipt: [2175545](https://github.com/MColbrook/AIM/commit/2175545c8b77706aac5ca66d872fd37b477f02a4) was pushed directly to main on September 19, 2026; a separate remote-ref read matched the exact full commit. All three accepted pending drafts and their evidence are uploaded. Counts remain 63 accepted, 60 integrated catalogue additions, three pending drafts and 360 active entries.
