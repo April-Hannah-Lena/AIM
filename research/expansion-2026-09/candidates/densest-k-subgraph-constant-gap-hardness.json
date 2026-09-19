@@ -1,0 +1,465 @@
+{
+  "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+  "proposed_catalogue_id": null,
+  "title": "Constant-gap NP-hardness of densest k-subgraph",
+  "primary_section": "stochastic3",
+  "secondary_tags": [
+    "network optimization",
+    "approximation complexity",
+    "dense community selection"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit exact-gap source and independent specialist corroboration; current and unrestricted resolution/version searches; full relevant scope comparisons; mathematical duplicate checks; separated A69 self-review; technical validation passed. No unresolved matching claim located.",
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "problem_fingerprint": {
+    "model_or_objects": "Finite explicitly encoded simple undirected unweighted graph G=(V,E), n=|V|, integers 2<=k<=n and 1<=ell<=binomial(k,2).",
+    "observable": "OPT_k(G)=max_{S subset V, |S|=k} |E(G[S])|, the number of induced edges in the best exactly-k-vertex set.",
+    "requested_conclusion": "Does an absolute rational constant lambda>1 exist such that distinguishing OPT_k(G)>=ell from OPT_k(G)<ell/lambda is NP-hard under deterministic polynomial-time many-one reductions?",
+    "reduction_convention": "Equivalently, seek one deterministic polynomial-time map taking every Boolean 3-CNF formula to (G,k,ell), taking satisfiable formulas to the high case and unsatisfiable formulas to the low case. Graph size must be polynomial in formula length.",
+    "quantifiers": "lambda is fixed independently of n,k,ell; k is part of the input; arbitrary graphs; promise gap; no planted or random input model, ETH, Gap-ETH, Small Set Expansion or planted-clique assumption.",
+    "normalization": "Counting induced edges is equivalent to maximizing either standard density normalization when |S|=k is fixed. Exactly k differs from the variable-cardinality at-least-k problem. Strict soundness inequality follows the source's Definition 1.",
+    "family_policy": "One canonical constant-gap NP-hardness question. Do not separately count factors, restricted classes, equivalent density normalizations, or the at-least/at-most variants from this investigation."
+  },
+  "statement_sources": [
+    {
+      "source_id": "LMT26",
+      "url": "https://arxiv.org/html/2605.25464v1",
+      "locator": "Section 1 explicit unresolved constant-factor NP-hardness of DkS; section 1.1 Definition 1 gives the exact gap promise."
+    }
+  ],
+  "publication_state": "Accepted local research draft with completed checks; ready for direct upload. No permanent ID or active catalogue integration.",
+  "draft_path": "research/expansion-2026-09/drafts/densest-k-subgraph-constant-gap-hardness.md",
+  "nearest_existing_entries": [
+    {
+      "id": 303,
+      "difference": "Average-case detection in an independently sampled Erdos-Renyi graph with a planted clique; target is an unconditional worst-case polynomial reduction for an edge-count promise."
+    },
+    {
+      "id": 304,
+      "difference": "Almost-satisfiable permutation constraints with an alphabet fixed by error; target is fixed-cardinality graph selection. No equivalence or consequence from Unique Games alone is asserted."
+    },
+    {
+      "id": 312,
+      "difference": "Exact deadline feasibility on three identical processors. Its evidence mentions a sparse DkS assumption, but the catalogue does not state the present graph-selection question."
+    },
+    {
+      "id": 350,
+      "difference": "Power-of-job-count hardness for precedence schedules on prescribed machines; distinct objective, input model and requested gap."
+    }
+  ],
+  "duplicate_check": {
+    "baseline": "All 300 original pages and source/exclusion maps read in the initial audit; current 360-entry inventory retained. Nearest pages 303, 304, 312 and 350 read in full for this candidate.",
+    "current_search": "Repository-wide densest-subgraph, constant-gap, densest-k-set, k-cluster, induced-edge and min-union searches found no equivalent active or accepted entry. Discovery-only references and the scheduling hypothesis were inspected.",
+    "family_policy": "One canonical fixed-gap question; no extra count for approximation factors, weighted variants, equivalent normalizations, at-most/at-least variants or downstream reductions.",
+    "upstream_refresh": "September 19: fetched origin/main and HEAD both 8e0dae5a6e83cac559df71ace366dd0dccb9aeab. Connected GitHub confirmed private MColbrook/AIM, push permission, no open PRs and only main; second branch page was empty."
+  },
+  "independent_corroboration": {
+    "primary": "LMT26 section 1 explicitly leaves constant-factor NP-hardness unresolved and Definition 1 supplies the exact gap.",
+    "independent": "JPRX23 section 1.4 and CDGT23 introduction explicitly retain this same gap; their author teams are disjoint from LMT26.",
+    "not_counted_twice": "M17 and LMT26 share Manurangsi. Preprint/conference/journal versions are one work. LMFB24 is model/application/algorithm background, not claimed as an explicit formulation of this exact NP-hardness question."
+  },
+  "normalization_checks": [
+    "One rational lambda>1 works independently of n,k,ell. A weaker rational gap can replace any real gap.",
+    "The input has exactly k selected vertices and nonnegative unit edge weights. Density by k or binomial(k,2) has the same approximation ratio at fixed k.",
+    "Allowing at most k while maximizing raw nonnegative edge count is equivalent by padding; this does not identify variable-cardinality density objectives.",
+    "The strict low-case inequality is that of LMT26 Definition 1. The integer threshold and explicit graph encoding exclude precision or succinct-input ambiguity.",
+    "NP-hardness requires a deterministic polynomial-size map from every 3-CNF; ETH, Gap-ETH, planted distributions, or a superpolynomial reduction are insufficient.",
+    "A lambda-approximation distinguishes the promise by comparing its returned edge count with ell/lambda. Exact CLIQUE hardness alone leaves only a gap tending to one.",
+    "No equivalence to P versus NP, no dichotomy between constant approximation and NP-hardness, and no statement that all constant factors are hard is asserted."
+  ],
+  "aliases": [
+    "Densest k-Subgraph",
+    "DkS",
+    "GapDkS",
+    "densest k-set",
+    "k-cluster",
+    "maximum edge subgraph",
+    "constant-factor NP-hardness"
+  ],
+  "source_records": [
+    {
+      "source_id": "LMT26",
+      "authors": [
+        "Bundit Laekhanukit",
+        "Pasin Manurangsi",
+        "Ohad Trabelsi"
+      ],
+      "title": "A Note on Approximability of Densest At-Least-k-Subgraph",
+      "url": "https://arxiv.org/html/2605.25464v1",
+      "version": "arXiv:2605.25464v1, May 25, 2026; one version in the inspected history.",
+      "locator": "Section 1; section 1.1 Definition 1, Theorems 2,5,7, Corollaries 3,6; beginning of section 2.1.",
+      "read": "Explicit unresolved constant gap; full promise; conditional transfers and exact parameterized theorem.",
+      "access_limit": "The later publisher record was located but full journal text was inaccessible; cited locators are the preprint.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "JPRX23",
+      "authors": [
+        "Chris Jones",
+        "Aaron Potechin",
+        "Goutham Rajendran",
+        "Jeff Xu"
+      ],
+      "title": "Sum-of-Squares Lower Bounds for Densest k-Subgraph",
+      "url": "https://arxiv.org/html/2303.17506v1",
+      "version": "arXiv:2303.17506v1, March 30, 2023; STOC 2023, DOI 10.1145/3564246.3585221.",
+      "locator": "Section 1.1, Theorem 1.1 and Corollary 1.2; section 1.4 lower-bound discussion. Conference header separately verified in NSF PDF.",
+      "read": "Independent explicit constant-gap status; full SoS result and its random-input parameter regime.",
+      "access_limit": "The full-preprint theorem locators are used; not a certification of the full SoS proof.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "M17",
+      "authors": [
+        "Pasin Manurangsi"
+      ],
+      "title": "Almost-Polynomial Ratio ETH-Hardness of Approximating Densest k-Subgraph",
+      "url": "https://arxiv.org/html/1611.05991v2",
+      "version": "arXiv:1611.05991v2, April 10, 2017; v1 November 18, 2016; STOC 2017 confirmed on author publication page.",
+      "locator": "Sections 1 and 1.1, Theorems 1-2 and reduction-size discussion.",
+      "read": "Full conditional gap statements, density convention, ETH/Gap-ETH distinction and non-polynomial size regime.",
+      "access_limit": "No independent proof certification; shares an author with LMT26.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "BCCFV10",
+      "authors": [
+        "Aditya Bhaskara",
+        "Moses Charikar",
+        "Eden Chlamtac",
+        "Uriel Feige",
+        "Aravindan Vijayaraghavan"
+      ],
+      "title": "Detecting High Log-Densities—an O(n^{1/4}) Approximation for Densest k-Subgraph",
+      "url": "https://users.cs.northwestern.edu/~aravindv/DkS.pdf",
+      "version": "STOC 2010, 201-210, DOI 10.1145/1806689.1806718; cited author manuscript. arXiv:1001.2891v1 is January 17, 2010.",
+      "locator": "Section 1.1, Theorem 1.2; Theorem 4.5 and following approximation/runtime discussion.",
+      "read": "Fixed-epsilon polynomial algorithm versus exact-quarter-exponent quasipolynomial guarantee.",
+      "access_limit": "Author PDF supplies the cited author list and locators; no full proof certification.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "LMFB24",
+      "authors": [
+        "Tommaso Lanciano",
+        "Atsushi Miyauchi",
+        "Adriano Fazzone",
+        "Francesco Bonchi"
+      ],
+      "title": "A Survey on the Densest Subgraph Problem and Its Variants",
+      "url": "https://arxiv.org/html/2303.14467v2",
+      "version": "arXiv:2303.14467v2, April 18, 2024; v1 March 25, 2023. Metadata states accepted to ACM Computing Surveys and links DOI 10.1145/3653298.",
+      "locator": "Complete section 3.1.1; section 7 applications; section 8 conclusion.",
+      "read": "Model, approximation landscape, restricted classes and concrete network-selection setting.",
+      "access_limit": "Only the specified author version is used. Conclusion does not explicitly pose this exact NP-hardness question.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CCHHKK26",
+      "authors": [
+        "Shih-Chia Chang",
+        "Li-Hsuan Chen",
+        "Sun-Yuan Hsieh",
+        "Ling-Ju Hung",
+        "Shih-Shun Kao",
+        "Ralf Klasing"
+      ],
+      "title": "On the Hardness and Approximation of the Densest k-Subgraph Problem in Parameterized Metric Graphs",
+      "url": "https://hal.science/hal-05747494/document",
+      "version": "Acta Informatica 63, article 2 (2026), DOI 10.1007/s00236-025-00518-7; publisher date January 31, 2026. HAL hal-05747494v1 deposited September 11, 2026.",
+      "locator": "Introduction and full section 2: Theorems 1-3, Lemma 1 and their proofs; section 3 Theorem 4.",
+      "read": "Actual full manuscript distinguishes exact NP-hardness from planted-clique-based approximation barriers.",
+      "access_limit": "Publisher/SSRN full-text routes failed; public HAL API located the valid 613237-byte author PDF. Proofs read for scope, not independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "LSK25",
+      "authors": [
+        "Qiheng Lu",
+        "Nicholas D. Sidiropoulos",
+        "Aritra Konar"
+      ],
+      "title": "The Vertex-Attribute-Constrained Densest k-Subgraph Problem",
+      "url": "https://arxiv.org/html/2508.06655v1",
+      "version": "arXiv:2508.06655v1, August 8, 2025; inspected history has one version. A May 2026 TMLR record was located.",
+      "locator": "Sections 1-3; Definition 1; Theorem 1 and full proof; Theorems 2-4 and Corollaries 1-2; section 4.1 and Algorithm 2; Theorem 5.",
+      "read": "Hardness direction, exact cardinality/group constraints, tight nonconvex relaxation and stationary-point convergence.",
+      "access_limit": "TMLR PDF was not retrieved in full. Locators and scope statements refer only to v1; appendix proofs not independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "GSS25",
+      "authors": [
+        "Mehrdad Ghadiri",
+        "Richard Santiago",
+        "Bruce Shepherd"
+      ],
+      "title": "Beyond submodular maximization via one-sided smoothness",
+      "url": "https://link.springer.com/article/10.1007/s10107-025-02301-5",
+      "version": "Mathematical Programming, published November 24, 2025, DOI 10.1007/s10107-025-02301-5; earlier extended abstract SODA 2021.",
+      "locator": "Section 7, Theorem 22 and full reduction proof; Corollary 23.",
+      "read": "ETH-based semimetric-diversity approximation hardness retains its additional hypothesis.",
+      "access_limit": "Relevant result and proof read; no audit of the unrelated rounding algorithms.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CDGT23",
+      "authors": [
+        "Julia Chuzhoy",
+        "Mina Dalirrooyfard",
+        "Vadim Grinberg",
+        "Zihan Tan"
+      ],
+      "title": "A New Conjecture on Hardness of 2-CSP's with Implications to Hardness of Densest k-Subgraph and Other Problems",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol251-itcs2023/LIPIcs.ITCS.2023.38/LIPIcs.ITCS.2023.38.pdf",
+      "version": "ITCS 2023, LIPIcs 251, 38:1-38:23, DOI 10.4230/LIPIcs.ITCS.2023.38.",
+      "locator": "Introduction DkS discussion pp.38:2-38:3; section 3.1 complete 2-CSP gap definition; Conjecture 3 and Theorems 4-5 p.38:13.",
+      "read": "Independent open assessment; extra conjecture and complete conditional algorithm implication. Introduction explicitly restates Khot hardness with its stronger hypothesis.",
+      "access_limit": "The earlier author conference PDF has placeholder article/DOI number 17; official published PDF checked and number 38 used. Full reduction proofs not independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "LMT26",
+      "locator": "Theorem 2 and Corollary 3",
+      "result_scope": "Hardness of DALkS below 3/2 assuming all fixed-factor GapDkS problems hard.",
+      "comparison_with_target": "Neither its premise nor its conclusion proves existence of one unconditional NP-hard gap for DkS.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "LMT26",
+      "locator": "Definition 4, Theorem 5 and Corollary 6",
+      "result_scope": "Hardness below 2 for DALkS under stronger PolyGapDkS or Strongish Planted Clique assumptions.",
+      "comparison_with_target": "Additional hypotheses and changed objective; no unconditional 3SAT map.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "LMT26",
+      "locator": "Theorem 7",
+      "result_scope": "Exact DALkS is W[1]-hard when parameterized by k.",
+      "comparison_with_target": "Exact parameterized hardness does not give a constant approximation gap.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "M17",
+      "locator": "Section 1.1, Theorem 1 and following reduction-size discussion",
+      "result_scope": "Under ETH, almost-polynomial ratio hardness even with a clique in the high case.",
+      "comparison_with_target": "The reduction regime is not polynomial in the source formula size; conditional exclusion of polynomial algorithms is not NP-hardness under the target reduction convention.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "M17",
+      "locator": "Section 1.1, Theorem 2",
+      "result_scope": "Near-polynomial gap under Gap-ETH, stated for subconstant exponents f(n).",
+      "comparison_with_target": "Retains Gap-ETH and does not construct the required unconditional polynomial-time map.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "BCCFV10",
+      "locator": "Section 1.1 and discussion following Theorem 4.5",
+      "result_scope": "O(n^(1/4+epsilon)) approximation in n^O(1/epsilon) time for fixed epsilon; exact exponent 1/4 via quasipolynomial time.",
+      "comparison_with_target": "Neither is a constant-factor polynomial-time guarantee; taking epsilon=0 is invalid.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "JPRX23",
+      "locator": "Theorem 1.1 and Corollary 1.2",
+      "result_scope": "High-probability pseudoexpectations on random null graphs, k=n^alpha with alpha in (0,1/2], p=n^-beta, q=n^-gamma and gamma>alpha beta; high-degree SoS gaps.",
+      "comparison_with_target": "A lower bound against this relaxation family does not quantify over all algorithms or produce NP-hardness reductions.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "CCHHKK26",
+      "locator": "Section 2, Theorem 1 and proof",
+      "result_scope": "Exact hardness of complete weighted beta-metric selection by weights 2 beta on original edges and 1 elsewhere.",
+      "comparison_with_target": "The additive baseline binomial(k,2) preserves the exact optimizer, not a new unconditional constant gap.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "CCHHKK26",
+      "locator": "Section 2, Lemma 1 and Theorems 2-3 with proofs",
+      "result_scope": "Polynomial and parameterized approximation barriers assume Planted Clique and Strongish Planted Clique respectively.",
+      "comparison_with_target": "Actual full theorem hypotheses resolve the ambiguous inapproximability wording in the abstract; no matching unconditional claim.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "LSK25",
+      "locator": "Theorem 1 and proof",
+      "result_scope": "Ordinary DkS is the special case of attribute-constrained DkS with all group minimum counts zero.",
+      "comparison_with_target": "Hardness transfers outward to a generalization; it is not a new hardness theorem for the starting problem.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "LSK25",
+      "locator": "Theorem 3, Corollaries 1-2, Theorem 4 and section 4.1",
+      "result_scope": "Diagonal loading permits integral global optima; Frank-Wolfe converges to a stationary point of a nonconvex problem.",
+      "comparison_with_target": "Tightness and stationarity do not provide polynomial global optimization or a uniform constant approximation.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "GSS25",
+      "locator": "Section 7, Theorem 22 and Corollary 23",
+      "result_scope": "ETH-based semimetric diversity hardness via weights 2 sigma and 1.",
+      "comparison_with_target": "The reduction imports M17 conditional DkS hardness; it does not remove ETH.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "CDGT23",
+      "locator": "Section 3.1, Conjecture 3 and Theorems 4-5",
+      "result_scope": "Subpolynomial approximation hardness follows from a d(n)-to-d(n) 2-CSP hardness conjecture.",
+      "comparison_with_target": "The conjectural source-gap assertion is not established by the reduction, so this does not solve the target.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "CDGT23",
+      "locator": "Introduction, pp.38:2-38:3, explicit Khot result restatement",
+      "result_scope": "No PTAS under NP not contained in the intersection, over epsilon>0, of BPTIME(2^(n^epsilon)).",
+      "comparison_with_target": "This is stronger than P not equal NP. Unqualified no-PTAS background sentences in two 2024 papers cite this result and cannot be upgraded to the requested NP-hardness.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    }
+  ],
+  "supplementary_access_and_citation_traces": [
+    {
+      "url": "https://doi.org/10.1137/S0097539705447037",
+      "title": "Ruling Out PTAS for Graph Min-Bisection, Dense k-Subgraph, and Bipartite Clique",
+      "author": "Subhash Khot",
+      "version": "SIAM Journal on Computing 36(4), 1025-1071 (2006).",
+      "access": "Publisher metadata and abstract inspected; full publisher PDF returned 403. Author homepage/publication page did not provide the full original. The complete relevant conditional-result restatement in CDGT23 supplies the scope comparison; original proof not read."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s10898-024-01429-6",
+      "title": "On convergence of a q-random coordinate constrained algorithm for non-convex problems",
+      "access": "Full publisher page accessed. Section 5.1 no-PTAS sentence cites Khot, reference 23. Theorem 4.10 asserts stationarity of accumulation points, not an approximation guarantee. General algorithm assumptions/proof not fully audited; no independent resolution claim inferred."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s10994-024-06595-y",
+      "title": "Jaccard-constrained dense subgraph discovery",
+      "access": "Full publisher page accessed; background cardinality-constraint paragraph and Khot bibliography entry read. Its abbreviated no-PTAS citation is not treated as a new unconditional theorem."
+    }
+  ],
+  "second_review": {
+    "review_id": "A69",
+    "date": "2026-09-19",
+    "arrangement": "Clearly separated post-draft adversarial self-pass by the researching primary agent; no independent agent or human review.",
+    "independent_search_queries": [
+      "A69-1",
+      "A69-2",
+      "A69-3",
+      "A69-4"
+    ],
+    "followup_searches": [
+      "S554-1",
+      "S554-2",
+      "S554-3",
+      "S554-4",
+      "S555-1",
+      "S555-2"
+    ],
+    "checks": [
+      "Fixed existential lambda versus hardness at every factor; strict threshold, rational convention and positive integer ell.",
+      "Input k versus fixed k, exact cardinality and density denominator.",
+      "Deterministic polynomial reduction versus ETH/subexponential arguments and planted distributions.",
+      "Exact CLIQUE hardness versus a gap bounded away from one.",
+      "Tight relaxation, stationary point and SoS gap versus unrestricted algorithms.",
+      "Three independent author teams for open assessment; author/preprint versions not double-counted.",
+      "Full metric-paper theorem hypotheses after HAL retrieval.",
+      "Abbreviated no-PTAS citations traced to the stronger Khot hypothesis through the published CDGT23 statement.",
+      "Actual nearest mathematical assertions and scope-limited application paragraph."
+    ],
+    "outcome": "Passed. No unresolved matching claim or formulation conflict located; final rendered statement retains the audited scope.",
+    "search_limit": "Dated literature and theorem-scope review; not exhaustive search or proof certification."
+  },
+  "status_search_ids": [
+    "S542-4",
+    "S543-1",
+    "S544-1",
+    "S544-2",
+    "S544-3",
+    "S544-4",
+    "S545-1",
+    "S545-2",
+    "S545-3",
+    "S545-4",
+    "S546-1",
+    "S546-2",
+    "S546-3",
+    "S546-4",
+    "S547-1",
+    "S547-2",
+    "S547-3",
+    "S547-4",
+    "S548-1",
+    "S548-2",
+    "S548-3",
+    "S548-4",
+    "S549-1",
+    "S549-2",
+    "S549-3",
+    "S549-4",
+    "S550-1",
+    "S550-2",
+    "S550-3",
+    "S551-1",
+    "S551-2",
+    "S551-3",
+    "S551-4",
+    "S553-1",
+    "S553-2",
+    "S553-3",
+    "S553-4",
+    "S554-1",
+    "S554-2",
+    "S554-3",
+    "S554-4",
+    "S555-1",
+    "S555-2",
+    "S552-1",
+    "A69-1",
+    "A69-2",
+    "A69-3",
+    "A69-4"
+  ],
+  "validation": {
+    "strict_katex_expressions": 29,
+    "render": "Complete 1300x6400 Chrome screenshot inspected, including original-resolution inspection; all formulas, references and final paragraphs visible without clipping.",
+    "external_links": "All nine bibliography targets ultimately succeeded; four returned valid PDF signatures. HAL first returned HTML but a separate retry returned the same 613237-byte PDF previously read. Both outcomes retained.",
+    "external_link_record": "research/expansion-2026-09/densest-k-subgraph-constant-gap-hardness-link-check.json",
+    "local_links": "All four relative draft links resolve.",
+    "structure": "Catalogue validator passed all 360 entries. Nine unique source IDs, fourteen full relevant result-scope comparisons and all source/search references passed. Counts and primary coverage match 67 accepted, 60 integrated, seven pending, six holds and 73 formal records. git diff --check passed; no active metadata or permanent ID changed."
+  }
+}

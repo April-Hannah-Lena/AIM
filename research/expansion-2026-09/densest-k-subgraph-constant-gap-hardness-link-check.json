@@ -1,0 +1,112 @@
+{
+  "checked_on": "2026-09-19",
+  "method": "Direct unauthenticated HTTPS GET; PDF targets checked for a PDF signature; no authenticated URLs saved.",
+  "external": [
+    {
+      "url": "https://arxiv.org/html/1611.05991v2",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 383472,
+      "valid_pdf_signature": null,
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2303.14467v2",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 818151,
+      "valid_pdf_signature": null,
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2303.17506v1",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 2592385,
+      "valid_pdf_signature": null,
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2508.06655v1",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 473595,
+      "valid_pdf_signature": null,
+      "success": true
+    },
+    {
+      "url": "https://arxiv.org/html/2605.25464v1",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 411370,
+      "valid_pdf_signature": null,
+      "success": true
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol251-itcs2023/LIPIcs.ITCS.2023.38/LIPIcs.ITCS.2023.38.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 779361,
+      "valid_pdf_signature": true,
+      "success": true
+    },
+    {
+      "url": "https://hal.science/hal-05747494/document",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 12505,
+      "valid_pdf_signature": false,
+      "success": false
+    },
+    {
+      "url": "https://par.nsf.gov/servlets/purl/10483143",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 319207,
+      "valid_pdf_signature": true,
+      "success": true
+    },
+    {
+      "url": "https://users.cs.northwestern.edu/~aravindv/DkS.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 277250,
+      "valid_pdf_signature": true,
+      "success": true
+    }
+  ],
+  "local": [
+    {
+      "target": "../candidates/densest-k-subgraph-constant-gap-hardness.json",
+      "exists": true
+    },
+    {
+      "target": "../../../problems/303-planted-clique.md",
+      "exists": true
+    },
+    {
+      "target": "../../../problems/304-unique-games.md",
+      "exists": true
+    },
+    {
+      "target": "../../../problems/350-unit-job-unique-machine-hardness.md",
+      "exists": true
+    }
+  ],
+  "hal_followup": {
+    "retry": {
+      "url": "https://hal.science/hal-05747494/document",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 613237,
+      "valid_pdf_signature": true,
+      "html_title": null
+    },
+    "previous_retrieval": {
+      "bytes": 613237,
+      "valid_pdf_signature": true,
+      "sha256": "a0a861a6197a6dea1f23ae9bd4912e8ddd3e117d34187625977d30f73cd66f42",
+      "text_inspection": "Full relevant section read from the previously downloaded legal author manuscript; HAL cover identifies hal-05747494v1, September 11, 2026, and the matching article DOI."
+    }
+  }
+}

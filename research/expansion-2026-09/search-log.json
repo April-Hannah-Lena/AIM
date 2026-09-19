@@ -21192,5 +21192,601 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
     "review_stage": "Separated post-draft adversarial self-review."
+  },
+  {
+    "search_id": "S539-1",
+    "candidate_id": "discovery",
+    "query": "\"open problem\" \"mathematical biology\" \"conjecture\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; not an admission or resolution adjudication."
+  },
+  {
+    "search_id": "S539-2",
+    "candidate_id": "discovery",
+    "query": "\"statistical mechanics\" \"open problems\" \"2025\" conductivity",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; not an admission or resolution adjudication."
+  },
+  {
+    "search_id": "S539-3",
+    "candidate_id": "discovery",
+    "query": "\"statistics\" \"conjecture\" \"open\" \"minimax\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; not an admission or resolution adjudication."
+  },
+  {
+    "search_id": "S539-4",
+    "candidate_id": "discovery",
+    "query": "\"Lieb\" \"Gaussian\" \"optimizer\" \"Wehrl\" \"open\" 2025",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; not an admission or resolution adjudication."
+  },
+  {
+    "search_id": "S540-1",
+    "candidate_id": "discovery",
+    "query": "\"Maxwell conjecture\" \"equilibria\" 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; not an admission or resolution adjudication."
+  },
+  {
+    "search_id": "S540-2",
+    "candidate_id": "discovery",
+    "query": "\"Maxwell conjecture\" \"electrostatic\" \"counterexample\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; not an admission or resolution adjudication."
+  },
+  {
+    "search_id": "S540-3",
+    "candidate_id": "discovery",
+    "query": "\"Schiffer conjecture\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; not an admission or resolution adjudication."
+  },
+  {
+    "search_id": "S540-4",
+    "candidate_id": "discovery",
+    "query": "\"Schiffer conjecture\" proof solved counterexample 2025",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; not an admission or resolution adjudication."
+  },
+  {
+    "search_id": "S541-1",
+    "candidate_id": "discovery",
+    "query": "\"g95C4zIEPg\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; not an admission or resolution adjudication."
+  },
+  {
+    "search_id": "S541-2",
+    "candidate_id": "discovery",
+    "query": "\"94y5XfiJ7N\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; not an admission or resolution adjudication."
+  },
+  {
+    "search_id": "S541-3",
+    "candidate_id": "discovery",
+    "query": "\"one-bit\" \"symmetric\" \"log-concave\" \"adaptive\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; not an admission or resolution adjudication."
+  },
+  {
+    "search_id": "S541-4",
+    "candidate_id": "discovery",
+    "query": "\"logistic\" \"Thompson\" \"information ratio\" \"conjecture\" 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; not an admission or resolution adjudication."
+  },
+  {
+    "search_id": "S542-1",
+    "candidate_id": "discovery",
+    "query": "\"An Information-Theoretic Analysis of Thompson Sampling for Logistic Bandit Problems\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S542-2",
+    "candidate_id": "discovery",
+    "query": "\"one-bit\" \"Kumar\" \"Vatedka\" \"conjecture\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S542-3",
+    "candidate_id": "discovery",
+    "query": "\"three-dimensional\" \"Potts\" \"q=3\" \"open\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S542-4",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Densest k-Subgraph\" \"constant\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S543-1",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"densest k-subgraph\" \"constant-factor\" approximation survey open",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S543-2",
+    "candidate_id": "discovery",
+    "query": "\"Potts\" \"three dimensions\" \"first-order\" \"open problem\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S543-3",
+    "candidate_id": "discovery",
+    "query": "\"Potts\" \"dimension three\" \"q=3\" rigorous",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S543-4",
+    "candidate_id": "discovery",
+    "query": "\"One-Bit Distributed Mean Estimation with Unknown Variance\" conjecture gap 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S544-1",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"densest k-subgraph\" \"NP-hardness\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S544-2",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"densest k-subgraph\" \"constant factor\" \"NP-hard\" \"open\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S544-3",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"densest k-subgraph\" \"constant\" \"hardness\" proof breakthrough 2025",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S544-4",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"A Survey on the Densest Subgraph Problem and Its Variants\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S545-1",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"On the hardness and approximation of the densest\" pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S545-2",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"VAC-DkS\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S545-3",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"densest k-subgraph\" \"constant\" \"NP-hardness\" proof solved resolution counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S545-4",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Manurangsi\" \"densest\" erratum correction 2025 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S546-1",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"VAC-DkS\" \"Theorem\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S546-2",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"9ce7af31662b0d78f82a1091a17e0f56ae50c5c6\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S546-3",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Chang\" \"Klasing\" \"densest\" \"metric\" pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S546-4",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Densest\" \"parameterized metric graphs\" \"inapproximability\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S547-1",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"On the hardness and approximation\" \"densest\" site:hal.science",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S547-2",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Densest k-subgraph\" \"Detecting high log-densities\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S547-3",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"densest k-subgraph\" \"NP-hard\" \"September\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S547-4",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Lanciano\" \"Miyauchi\" \"densest\" correction erratum",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S548-1",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"The Hardness and Approximation\" \"Densest\" \"pdf\" Klasing",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S548-2",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"ae8hda3atq\" title",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S548-3",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Vertex Attribute\" \"Densest\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S548-4",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Densest k-Subgraph\" \"constant\" \"NP-hardness\" 2024 2025 2026 solved",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S549-1",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"densest\" \"metric\" site:labri.fr klasing",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S549-2",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"ae8hda3atq\" \"authors\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S549-3",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Vertex-Attribute-Constrained Densest\" arxiv",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S549-4",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"s00236-025-00518-7\" pdf theorem",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S550-1",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Sum-of-Squares Lower Bounds for Densest k-Subgraph\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S550-2",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Densest\" \"metric\" \"Chang\" \"inapproximability\" theorem",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S550-3",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"s00236-025-00518-7\" \"Theorem\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S551-1",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"densest k-subgraph\" \"parameterized metric\" manuscript",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S551-2",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"densest\" \"metric\" \"Hung\" filetype:pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S551-3",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"s00236-025-00518-7\" inapproximability ratio",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S551-4",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"hardness\" \"densest\" \"Klasing\" site:hal.science",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S553-1",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"A New Conjecture on Hardness of 2-CSP\" \"10.4230\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S553-2",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"densest k-subgraph\" \"proved\" \"disproof\" \"refutation\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S553-3",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Laekhanukit\" \"Manurangsi\" \"Trabelsi\" \"densest\" correction withdrawal",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S553-4",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Jones\" \"Potechin\" \"Rajendran\" \"Xu\" \"densest\" erratum correction",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Formulation, source access, resolution, author and version checks."
+  },
+  {
+    "search_id": "S554-1",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Khot\" \"Ruling Out PTAS\" pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial follow-up; aliases and abbreviated no-PTAS claims."
+  },
+  {
+    "search_id": "S554-2",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"densest k-set\" \"constant\" approximation proof 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial follow-up; aliases and abbreviated no-PTAS claims."
+  },
+  {
+    "search_id": "S554-3",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"k-cluster\" \"NP-hardness\" approximation 2025 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial follow-up; aliases and abbreviated no-PTAS claims."
+  },
+  {
+    "search_id": "S554-4",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Chuzhoy\" \"Dalirrooyfard\" \"Grinberg\" \"Tan\" \"2-CSP\" correction resolved",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial follow-up; aliases and abbreviated no-PTAS claims."
+  },
+  {
+    "search_id": "S555-1",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "Subhash Khot Ruling Out PTAS min bisection densest subgraph pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial follow-up; aliases and abbreviated no-PTAS claims."
+  },
+  {
+    "search_id": "S555-2",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"Ruling Out PTAS\" \"Densest\" site:cims.nyu.edu",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial follow-up; aliases and abbreviated no-PTAS claims."
+  },
+  {
+    "search_id": "S552-1",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "title_t:\"densest\" AND authLastName_s:\"Klasing\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "HAL public search API",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Author-manuscript retrieval; query returned hal-05747494 and hal-03441672.",
+    "endpoint": "https://api.archives-ouvertes.fr/search/",
+    "fields": "title_s,uri_s,fileMain_s,doiId_s"
+  },
+  {
+    "search_id": "A69-1",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"densest k-subgraph\" \"NP-hard\" \"solved\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review."
+  },
+  {
+    "search_id": "A69-2",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"densest k-subgraph\" \"constant-factor\" \"proof\" 2025 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review."
+  },
+  {
+    "search_id": "A69-3",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"GapDkS\" hardness refutation counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review."
+  },
+  {
+    "search_id": "A69-4",
+    "candidate_id": "densest-k-subgraph-constant-gap-hardness",
+    "query": "\"densest k subgraph\" polynomial approximation breakthrough September 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review."
   }
 ]

@@ -392,3 +392,16 @@ Counts are 66 accepted additions, 60 integrated/published, six accepted pending 
 
 
 Publication receipt: [531558c](https://github.com/MColbrook/AIM/commit/531558cbaa9141745c42ad7a5437ca8fc6104472) was pushed directly to main on September 19, 2026; a separate remote-ref read matched the exact full commit. All six accepted pending drafts and their evidence are uploaded. Counts remain 66 accepted additions, 60 integrated catalogue additions, six pending drafts and 360 active entries.
+
+
+## Densest k-subgraph constant-gap hardness (S542–S555 and A69; September 19, 2026)
+
+The [accepted draft](drafts/densest-k-subgraph-constant-gap-hardness.md) fixes a simple explicit unweighted graph, input cardinality, integer edge threshold, strict soundness inequality and one absolute rational approximation factor. LMT26 section 1 and Definition 1 supply the statement; JPRX23 and CDGT23 are independently authored explicit status assessments. Complete nearest pages 303, 304, 312 and 350 were compared, with aliases checked across the active catalogue, accepted records and research history.
+
+The [ledger](candidates/densest-k-subgraph-constant-gap-hardness.json) contains nine source works and fourteen comparisons. Full metric-paper text was recovered through the public HAL API: its exact-hardness theorem and conditional approximation theorems have distinct conclusions. M17 retains ETH or Gap-ETH; GSS25 imports that conditional premise. CDGT23 retains its own 2-CSP conjecture. JPRX23 rules out a relaxation family. LSK25 transfers hardness to a generalization and proves relaxation tightness/stationarity, without a global approximation guarantee. LMT26's at-least-k and exact parameterized results do not prove the requested gap. A69 traced unqualified no-PTAS background sentences to the stronger Khot hypothesis, explicitly restated in CDGT23; the inaccessible original proof is not claimed read. The official CDGT23 publisher record corrects the placeholder article number in its author draft.
+
+A69 was a clearly separated adversarial self-pass, not independent expert review. All 29 formulas passed strict KaTeX and a complete original-resolution 1300x6400 screenshot inspection. All four local links resolve; all nine bibliography targets ultimately succeeded, with four valid PDF signatures. The HAL first-response failure and successful retry are both recorded. The catalogue validator passed 360 active entries. No original page, date, active metadata or permanent identifier changed.
+
+The log adds 66 actual queries: 48 candidate/source/adversarial queries (including one HAL API query) and eighteen breadth queries. It now contains 2,617 unique records. The [breadth notes](densest-subgraph-breadth-discovery.md) preserve the incomplete one-bit/logistic work and unadjudicated electrostatic claim warning separately. Fetched origin/main matched HEAD at 8e0dae5a6e83cac559df71ace366dd0dccb9aeab; connected GitHub confirmed private push access, no open PRs and only main after complete branch pagination.
+
+Counts are 67 accepted additions, 60 integrated/published, seven accepted pending drafts, six holds, 73 formal candidate records and 360 active catalogue entries. The minimum requires 133 further acceptances and 140 integrations. This reviewed research is ready for direct upload; no permanent ID is assigned until the next integration batch.
