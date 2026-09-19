@@ -274,9 +274,13 @@
     {
       "commit": "2bc4fb6fdd212629136732fb778adb1f073cf1f3",
       "purpose": "Reviewed general-graph perfect-matching NC draft, twelve sources, fourteen scope comparisons, A67 and technical validation; direct main push separately verified September 19, 2026. No new active catalogue entry."
+    },
+    {
+      "commit": "531558cbaa9141745c42ad7a5437ca8fc6104472",
+      "purpose": "Reviewed simple-stochastic-games draft, nine source/scope comparisons, A68 and technical validation; direct main push separately verified September 19, 2026. No active catalogue integration."
     }
   ],
-  "remote_state": "Sixty catalogue additions (301–360) are published directly on main; active total 360. Five accepted pending drafts were already uploaded. The sixth, simple stochastic games, has passed review and is ready for direct research upload; no permanent ID yet. Fresh fetched origin/main matched HEAD at 4bdd1674193922739a409b88c5f31e3ad5d6da61 on September 19, 2026.",
+  "remote_state": "All sixty catalogue additions (301–360) are published directly on main. All six accepted pending drafts and their evidence are uploaded, including simple stochastic games. The latest research commit 531558cbaa9141745c42ad7a5437ca8fc6104472 was separately verified on remote main September 19, 2026. Active total 360; six accepted drafts await batch integration.",
   "next_actions": [
     "Continue toward at least 200 integrated additions: 66 accepted, 60 published, six pending drafts; 134 acceptances and 140 integrations remain to the minimum. Four more accepted drafts would form the next ten-entry batch before assigning permanent IDs.",
     "Prioritize distinct families in statistics, information, biology, control and operations research alongside all twelve sections.",

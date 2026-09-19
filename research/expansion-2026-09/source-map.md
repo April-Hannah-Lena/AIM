@@ -389,3 +389,6 @@ A68 was a separated adversarial self-pass. All 21 formulas passed strict KaTeX a
 The 26 candidate queries and nine breadth queries S531–S532/S533-4 bring the actual log to 2,551 unique entries. The [breadth notes](stochastic-games-breadth-discovery.md) preserve the unadjudicated unknot-recognition claim and incomplete biology, memory, approximation and queueing leads. No discovery-only lead is counted.
 
 Counts are 66 accepted additions, 60 integrated/published, six accepted pending drafts, six holds, 72 formal candidate records and 360 active catalogue entries. The minimum requires 134 more acceptances and 140 integrations. No permanent ID is assigned to the draft; its reviewed research is ready for direct upload.
+
+
+Publication receipt: [531558c](https://github.com/MColbrook/AIM/commit/531558cbaa9141745c42ad7a5437ca8fc6104472) was pushed directly to main on September 19, 2026; a separate remote-ref read matched the exact full commit. All six accepted pending drafts and their evidence are uploaded. Counts remain 66 accepted additions, 60 integrated catalogue additions, six pending drafts and 360 active entries.

@@ -315,7 +315,7 @@
     "outcome": "No unresolved matching claim or formulation conflict located. Retained the sourced binary decision problem and recorded all material restrictions.",
     "search_limit": "Dated literature and theorem-scope review, not an exhaustive search or proof certification."
   },
-  "publication_state": "Accepted local research draft, ready for direct upload to main; no permanent ID or active integration.",
+  "publication_state": "Accepted research draft and evidence uploaded directly to main; exact research commit separately verified September 19, 2026. No permanent ID or active catalogue integration.",
   "draft_path": "research/expansion-2026-09/drafts/simple-stochastic-games-polynomial-time.md",
   "independent_corroboration": {
     "statement": "GHH26 supplies the exact binary strict-threshold formulation; GH09 and HP11 explicitly pose the polynomial-time problem.",
@@ -371,5 +371,13 @@
     "external_link_record": "research/expansion-2026-09/simple-stochastic-games-polynomial-time-link-check.json",
     "local_links": "All three relative draft links resolve.",
     "structure": "Nine unique source IDs, nine full relevant scope comparisons, required headings/dates and consistent counts passed. Catalogue validator passed all 360 active entries; git diff --check passed. No active metadata or permanent ID changed."
+  },
+  "remote_publication": {
+    "date": "2026-09-19",
+    "destination": "MColbrook/AIM:main",
+    "commit": "531558cbaa9141745c42ad7a5437ca8fc6104472",
+    "scope": "Research draft and evidence only; active catalogue remains 360.",
+    "verified_by": "Successful direct fast-forward push followed by separate git ls-remote returning the exact full commit.",
+    "pull_request": null
   }
 }

@@ -24,7 +24,7 @@ The user authorized repository uploads and direct pushes to main. No PR is requi
 
 The [accepted draft](drafts/simple-stochastic-games-polynomial-time.md) asks for deterministic polynomial-time exact half-threshold decision in binary simple stochastic games. The [ledger](candidates/simple-stochastic-games-polynomial-time.json) records nine sources and nine scope comparisons, distinguishing growing runtime exponents, stopping ladders, exact SDP feasibility, approximate intervals, conditional proof-complexity implications and deterministic strategy repair.
 
-A68 was a separated post-draft self-review. All 21 mathematical expressions passed strict KaTeX and full-page visual inspection; all three local links resolve and all ten bibliography targets responded successfully. This sixth accepted pending draft has no permanent ID. The [breadth notes](stochastic-games-breadth-discovery.md) preserve the unadjudicated September unknot-recognition claim and unfinished biology/memory leads outside the count. Research is ready for direct upload.
+A68 was a separated post-draft self-review. All 21 mathematical expressions passed strict KaTeX and full-page visual inspection; all three local links resolve and all ten bibliography targets responded successfully. This sixth accepted pending draft has no permanent ID. The [breadth notes](stochastic-games-breadth-discovery.md) preserve the unadjudicated September unknot-recognition claim and unfinished biology/memory leads outside the count. Its [research checkpoint](https://github.com/MColbrook/AIM/commit/531558cbaa9141745c42ad7a5437ca8fc6104472) was pushed directly to main, and a separate remote-ref read matched the exact commit on September 19, 2026.
 
 ## Quantum magnetic order discovery (2026-09-19)
 
