@@ -360,7 +360,7 @@
     "application_check": "Relates coexistence recovery from arbitrary positive population perturbations to local robustness across growth vectors, within the stated ordinary differential-equation model.",
     "search_limit": "The search and theorem-scope audit are not an exhaustive literature survey or independent certification of the cited proofs."
   },
-  "publication_state": "Accepted research draft; pending direct upload. No permanent ID or active catalogue integration.",
+  "publication_state": "Accepted research draft and evidence uploaded directly to main; exact research commit separately verified September 19, 2026. No permanent ID or active catalogue integration.",
   "draft_path": "research/expansion-2026-09/drafts/lotka-volterra-d-stable-global-attraction.md",
   "aliases": [
     "Hofbauer–Sigmund conjecture",
@@ -452,5 +452,13 @@
     "external_link_record": "research/expansion-2026-09/lotka-volterra-d-stable-global-attraction-link-check.json",
     "local_links": "All four relative links resolve.",
     "structure": "Required headings, citations, source IDs, search IDs, counts and research links checked. Catalogue validator passed all 360 existing entries; no active metadata changed."
+  },
+  "remote_publication": {
+    "date": "2026-09-19",
+    "destination": "MColbrook/AIM:main",
+    "commit": "84709e5e095b12a72f18147a3c12a204f718250e",
+    "scope": "Research draft and evidence only; active catalogue remains 360.",
+    "verified_by": "Successful direct fast-forward push followed by a separate git ls-remote returning the exact full commit.",
+    "pull_request": null
   }
 }

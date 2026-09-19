@@ -543,3 +543,6 @@ The Hofbauer–Sigmund D-stable Lotka–Volterra candidate passed formulation, c
 S498–S500's broader biology, control and inference searches remain discovery only except for this admitted candidate. Reaction-network recurrence overlaps entry 282 and is not a new addition. Other model leads still require exact formulations and current scope checks. The separate Carrasco discovery record remains unresolved; no additional candidate count is inferred.
 
 The log has 2,417 actual queries with unique identifiers. Counts are 64 accepted additions, 60 integrated/published, four pending drafts, six holds, 70 formal records and 360 active entries. Six further accepted drafts would form the next ten-entry batch. The minimum requires 136 further acceptances and 140 integrations; the working target requires 186 acceptances and 190 integrations. Next discovery group: S508; next separated review: A67.
+
+
+Publication receipt: [84709e5](https://github.com/MColbrook/AIM/commit/84709e5e095b12a72f18147a3c12a204f718250e) was pushed directly to main on September 19, 2026; a separate remote-ref read matched the exact full commit. All four accepted pending drafts and their evidence are uploaded. Counts remain 64 accepted, 60 integrated catalogue additions, four pending drafts and 360 active entries.
