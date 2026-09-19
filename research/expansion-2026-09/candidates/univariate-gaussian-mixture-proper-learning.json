@@ -1,0 +1,508 @@
+{
+  "candidate_id": "univariate-gaussian-mixture-proper-learning",
+  "proposed_catalogue_id": null,
+  "title": "Polynomial-time proper learning of univariate Gaussian mixtures",
+  "primary_section": "applied",
+  "secondary_tags": [
+    "density estimation",
+    "unsupervised learning",
+    "mixture models"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit source formulation, independently authored corroboration, twelve theorem-scope comparisons, current resolution/duplicate refresh and separated A60 self-review passed. Technical checks passed; no unresolved material status conflict located.",
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "problem_fingerprint": {
+    "objects": "An unknown density f on R expressible as a mixture of at most k univariate Gaussians with arbitrary real means, strictly positive variances and nonnegative weights summing to one; k>=1 is an input parameter.",
+    "access": "Independent exact real-valued samples from f; k and error tolerance 0<epsilon<1 are supplied; no separation, bounded means, variance-ratio or positive-weight lower bound is supplied.",
+    "output": "An explicit list of at most k Gaussian means, strictly positive variances and nonnegative normalized weights defining a density g.",
+    "target": "A randomized algorithm and a fixed polynomial p, uniform in k and epsilon, with at most p(k,1/epsilon) samples and operations and probability at least 2/3 that TV(f,g)<=epsilon. TV=one half the integral of the absolute density difference.",
+    "computation_model": "The infinite-precision real-arithmetic sample model used by Daskalakis–Kamath (COLT 2014), Section 2, including exact Gaussian-density evaluation. This is an arithmetic-operation question, not a bit-complexity assertion for arbitrary real parameters.",
+    "scope": "Realizable density approximation only, not recovery of the hidden parameters or labels and not arbitrary-data likelihood optimization. The degree of the polynomial may not depend on k. Extra output components are not allowed; zero weights permit padding to exactly k.",
+    "family_policy": "One canonical proper Gaussian-mixture learning entry; do not count each component number, a metric convention, parameter recovery or a nearly-proper variant separately."
+  },
+  "statement_sources": [
+    {
+      "source_id": "LS17",
+      "locator": "Sections 1.1–1.2.1, pp.2–5; Theorem 1; Section 2.1, p.13."
+    },
+    {
+      "source_id": "LLM22",
+      "locator": "Sections 1.1–1.3, pp.2–4: exact-k open question explicitly retained even without noise."
+    },
+    {
+      "source_id": "DK14",
+      "locator": "Section 2, internal p.5: explicit infinite-precision real-arithmetic model and total-variation normalization."
+    },
+    {
+      "source_id": "D16",
+      "locator": "Section 1.6, author-manuscript pp.13–14, Open Problem 1.6.2 on parametric mixtures in the context of univariate Gaussian mixtures."
+    }
+  ],
+  "publication_state": "Accepted local research draft and evidence; ready for authorized direct push to main. No permanent ID until the next integration batch.",
+  "aliases": [
+    "proper density learning of univariate Gaussian mixtures",
+    "polynomial-time exact-k GMM learning",
+    "proper learning of mixtures of one-dimensional Gaussians"
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/univariate-gaussian-mixture-proper-learning.md",
+  "status_search_ids": [
+    "S453-1",
+    "S453-2",
+    "S453-3",
+    "S453-4",
+    "S454-1",
+    "S454-2",
+    "S454-3",
+    "S454-4",
+    "S455-1",
+    "S455-2",
+    "S455-3",
+    "S455-4",
+    "S456-1",
+    "S456-2",
+    "S456-3",
+    "S456-4",
+    "S457-1",
+    "S457-2",
+    "S457-3",
+    "S457-4",
+    "S458-1",
+    "S458-2",
+    "S458-3",
+    "S458-4",
+    "S459-1",
+    "S459-2",
+    "S459-3",
+    "S459-4",
+    "S460-1",
+    "S460-2",
+    "S460-3",
+    "S460-4",
+    "A60-1",
+    "A60-2",
+    "A60-3",
+    "A60-4",
+    "A60-5",
+    "A60-6",
+    "A60-7",
+    "A60-8"
+  ],
+  "source_records": [
+    {
+      "source_id": "D16",
+      "authors": [
+        "Ilias Diakonikolas"
+      ],
+      "title": "Learning Structured Distributions",
+      "url": "http://www.iliasdiakonikolas.org/distribution-learning-survey.pdf",
+      "version": "Author manuscript of the Handbook of Big Data contribution (2016).",
+      "locator": "Sections 1.2–1.3, pp.2–4; Section 1.6, pp.13–14, Open Problem 1.6.2.",
+      "read": "Read learning-model definitions, total variation and confidence conventions, the full Gaussian-mixture discussion and the numbered proper-learning question. The numbered question is about simple parametric mixtures broadly; its Gaussian instance is supported by this context and the explicit LS17 statement.",
+      "access_limit": "Historical formulation and independent corroboration, not a current-status certificate. Printed book page ranges differ between publisher and institutional metadata; citations use internal manuscript pages.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "LS17",
+      "authors": [
+        "Jerry Li",
+        "Ludwig Schmidt"
+      ],
+      "title": "Robust and Proper Learning for Mixtures of Gaussians via Systems of Polynomial Inequalities",
+      "url": "https://proceedings.mlr.press/v65/li17a/li17a.pdf",
+      "version": "COLT 2017, PMLR 65, 1302–1382. Earlier arXiv:1506.01367v1 (June 3, 2015) has a different title; published version controls.",
+      "locator": "Sections 1.1–1.2.1, internal pp.2–5; Theorem 1; Sections 2.1–2.2.1, p.13, including Fact 4.",
+      "read": "Read full introductory distinctions among density, proper and parameter learning, explicit unresolved uniform-k question, complete Theorem 1 and normalized mixture definitions. Also read the two-component spherical result and its separate projection conjecture.",
+      "access_limit": "No certification of the full polynomial-inequality proof. The actual theorem has an O(k^4) exponent, not the O(k) sometimes suggested by snippets.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "DK14",
+      "authors": [
+        "Constantinos Daskalakis",
+        "Gautam Kamath"
+      ],
+      "title": "Faster and Sample Near-Optimal Algorithms for Proper Learning Mixtures of Gaussians",
+      "url": "https://proceedings.mlr.press/v35/daskalakis14.pdf",
+      "version": "COLT 2014, PMLR 35, 1183–1213.",
+      "locator": "Introduction, Theorem 1, and Section 2, internal p.5; Appendix H statement of the theorem reduction.",
+      "read": "Read the full two-component theorem and discussion, normalized densities, total variation, and the explicitly infinite-precision arithmetic model including Gaussian PDF evaluation. Appendix H explains candidate-mixture selection and simulation.",
+      "access_limit": "Model and theorem scope inspected; no full proof certification.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "LLM22",
+      "authors": [
+        "Allen Liu",
+        "Jerry Li",
+        "Ankur Moitra"
+      ],
+      "title": "Robust Model Selection and Nearly-Proper Learning for GMMs",
+      "url": "https://papers.nips.cc/paper/2022/file/8f75af4704feac629a560f4ad6b67cef-Paper-Conference.pdf",
+      "version": "NeurIPS 2022, 22830–22843; expanded arXiv:2106.02774v2, April 23, 2023. History shows v1 June 5, 2021 and v2 only.",
+      "locator": "Sections 1.1–1.3, pp.2–4, Theorems 1.1–1.3 and the paragraph after Theorem 1.3; Section 2.1 and Lemma 2.2.",
+      "read": "Read these complete sections in the published and revised manuscripts, including the explicit statement that proper learning remains open even without noise, the authors' hardness conjecture, and the near-proper output-component guarantee.",
+      "access_limit": "Published and preprint versions are one work. Author overlap with LS17 is not counted as independent corroboration. Full appendix proofs are not certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false,
+      "additional_url": "https://arxiv.org/pdf/2106.02774v2"
+    },
+    {
+      "source_id": "CL26",
+      "authors": [
+        "Spencer Compton",
+        "Jerry Li"
+      ],
+      "title": "Density estimation for Hellinger via minimum-distance estimators: mixtures of Gaussians, log-concave, and more",
+      "url": "https://raw.githubusercontent.com/mlresearch/v336/main/assets/compton26a/compton26a.pdf",
+      "version": "COLT 2026, PMLR 336, 1436–1475.",
+      "locator": "Section 1.1, Theorem 2, p.3, including the output discussion; Section 1.2; Appendix A, pp.18–19.",
+      "read": "Read full introductory theorem, Hellinger/TV normalizations, method and appendix discussion. The estimator is explicitly piecewise polynomial.",
+      "access_limit": "The full PDF was successfully downloaded; an earlier failed lead is superseded by this access. No full proof certification or separate independent-status claim.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "BDJ21",
+      "authors": [
+        "Ainesh Bakshi",
+        "Ilias Diakonikolas",
+        "He Jia",
+        "Daniel M. Kane",
+        "Pravesh K. Kothari",
+        "Santosh S. Vempala"
+      ],
+      "title": "Robustly Learning Mixtures of k Arbitrary Gaussians",
+      "url": "https://arxiv.org/pdf/2012.02119v3",
+      "version": "Inspected arXiv:2012.02119v3, June 7, 2021; v1 December 3, 2020, v2 December 31, 2020. Later JACM 73(3) (2026), article 18, DOI 10.1145/3804445, identified through institutional metadata.",
+      "locator": "Definition 1.2 and Theorem 1.4, pp.2–3; Theorem 1.5, p.5; full Theorem 8.1, p.80; finite-precision discussion.",
+      "read": "Read contamination model, full density-estimation theorems and their parameter ranges. In particular, poly_k(1/epsilon) and the k-dependent accuracy exponent persist at d=1.",
+      "access_limit": "Full formal statements audited in v3, not the later journal full text. The introduction refers to Corollary 8.1, while the formal result is labelled Theorem 8.1. No full proof certification.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CKS25",
+      "authors": [
+        "Sitan Chen",
+        "Vasilis Kontonis",
+        "Kulin Shah"
+      ],
+      "title": "Learning general Gaussian mixtures with efficient score matching",
+      "url": "https://raw.githubusercontent.com/mlresearch/v291/main/assets/chen25e/chen25e.pdf",
+      "version": "COLT 2025, PMLR 291.",
+      "locator": "Section 1.1, Definition 1 and Theorem 2, p.3; full Theorem 11, p.22, Algorithm 1 output and Lemma 12 conditions.",
+      "read": "Read the conditioning, bounded-parameter and minimum-weight assumptions and full formal sample/runtime guarantee and sampling output.",
+      "access_limit": "Published PDF controls; no separate claim about the uninspected arXiv revision history or full proof certification.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "BRST20",
+      "authors": [
+        "Joan Bruna",
+        "Oded Regev",
+        "Min Jae Song",
+        "Yi Tang"
+      ],
+      "title": "Continuous LWE",
+      "url": "https://arxiv.org/pdf/2005.09595v2",
+      "version": "arXiv:2005.09595v2, October 24, 2020; v1 May 19, 2020.",
+      "locator": "Introductory hardness discussion; Section 5, Definition 5.1 and Proposition 5.2, p.18, including proof and surrounding fixed-accuracy discussion.",
+      "read": "Read the complete truncation-reduction proposition and proof and how the Gaussian-mixture class depends on ambient dimension and component count.",
+      "access_limit": "The underlying lattice-hardness proof was not independently certified. The dimension-growing reduction is not a one-dimensional hardness theorem.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "PS25",
+      "authors": [
+        "Yury Polyanskiy",
+        "Mark Sellke"
+      ],
+      "title": "Nonparametric MLE for Gaussian Location Mixtures: Certified Computation and Generic Behavior",
+      "url": "https://arxiv.org/pdf/2503.20193v1",
+      "version": "arXiv:2503.20193v1, March 26, 2025; history lists only v1.",
+      "locator": "Introduction, equations (1.1)–(1.2); Theorems 1.9–1.10 and surrounding discussion, p.8.",
+      "read": "Read the fixed-unit-variance convolution model, arbitrary-data NPMLE objective, complete computation theorems, generic-data and accuracy thresholds, and output measure interpretation.",
+      "access_limit": "No full proof certification. Its certified computation solves a different optimization target, not proper TV learning with the original component cap.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "TD18",
+      "authors": [
+        "Christopher Tosh",
+        "Sanjoy Dasgupta"
+      ],
+      "title": "Maximum Likelihood Estimation for Mixtures of Spherical Gaussians is NP-hard",
+      "url": "https://www.jmlr.org/papers/volume18/16-657/16-657.pdf",
+      "version": "JMLR 18(175) (2018), 1–11; April 2018.",
+      "locator": "Section 1.1, full mog-sv input/output specification, pp.1–2; Theorem 1; Lemma 2 and Theorem 3 discussion.",
+      "read": "Read the complete arbitrary-point-set likelihood objective with shared variance, the two-component hardness statement and dimension-padding conditions.",
+      "access_limit": "No claim to have independently adjudicated every reduction. Worst-case likelihood optimization is not the realizable sampling problem.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "ABH20",
+      "authors": [
+        "Hassan Ashtiani",
+        "Shai Ben-David",
+        "Nicholas J. A. Harvey",
+        "Christopher Liaw",
+        "Abbas Mehrabian",
+        "Yaniv Plan"
+      ],
+      "title": "Near-optimal Sample Complexity Bounds for Robust Learning of Gaussian Mixtures via Compression Schemes",
+      "url": "https://www.cs.ubc.ca/~nickhar/papers/MixtureOfGaussians/MixtureOfGaussians.pdf",
+      "version": "JACM 67(6) (2020), article 32.",
+      "locator": "Introduction and compression overview; Theorems 1.5–1.7, p.32:5; Section 7.",
+      "read": "Read full statistical bounds and the runtime discussion, including exponential computational cost and the scope of statistical-query restrictions.",
+      "access_limit": "The historical general high-dimensional open question is not used as an up-to-date certificate; later CLWE-based results are separately compared. No full proof certification.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "AAL23",
+      "authors": [
+        "Jamil Arbas",
+        "Hassan Ashtiani",
+        "Christopher Liaw"
+      ],
+      "title": "Polynomial Time and Private Learning of Unbounded Gaussian Mixture Models",
+      "url": "https://arxiv.org/pdf/2303.04288v2",
+      "version": "arXiv:2303.04288v2, June 7, 2023; v1 March 7, 2023.",
+      "locator": "Introduction, Theorem 1.1 and fixed-k discussion; Section 6, Definition 6.1, Theorem 6.2, Definition 6.4, Theorem 6.5 and Corollary 6.6, pp.10–12.",
+      "read": "Read full parameter-learning definitions and reduction; the concrete corollary uses statistically learnable mixtures (minimum weight and component-TV separation) and fixes k for polynomial runtime.",
+      "access_limit": "OpenReview PDF attempt returned a browser challenge; the versioned arXiv full text supplied the formal statements. No full proof certification.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "HC26",
+      "authors": [
+        "Hengzhi He",
+        "Guang Cheng"
+      ],
+      "title": "Sharp proper estimation of fixed-component Gaussian location mixtures in polynomial time",
+      "url": "https://arxiv.org/pdf/2608.12701v1",
+      "version": "arXiv:2608.12701v1, August 13, 2026; history lists only v1.",
+      "locator": "Section 1, model (1.1), Theorem 1.1 and immediate scope paragraph; Section 2.1, Theorem 2.1; Section 3 algorithm/net construction; Section 8, equation (8.1), pp.11–12.",
+      "read": "Read the complete fixed-k sharp-risk statement and arithmetic-complexity section. The exhaustive-net exponent is km_k+k−1 with m_k depending on k; the source explicitly disclaims a polynomial bound when k is an input.",
+      "access_limit": "A recent preprint with fixed unit covariance and bounded means. The relevant statement and algorithmic scope are inspected; the full moment argument is not independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source": "LS17 Theorem 1",
+      "result_scope": "Proper semi-agnostic univariate learning with time (k log(1/epsilon))^{O(k^4)} plus nearly optimal sample processing.",
+      "assessment": "The realizable setting is included, but a degree depending on k fails the single fixed-polynomial target. The two-spherical-component multivariate result is a separate restriction."
+    },
+    {
+      "source": "DK14 Theorem 1",
+      "result_scope": "Unrestricted means and variances, proper TV approximation and polynomial sample/time bounds for two univariate components.",
+      "assessment": "Matches the access and metric but fixes k=2. It supplies the explicit computation model and a partial case, not a uniform-k algorithm."
+    },
+    {
+      "source": "LLM22 Theorems 1.1–1.3 and following open-question paragraph",
+      "result_scope": "Polynomial-k-and-accuracy robust approximation using O-tilde(k) components, and model selection with comparable slack.",
+      "assessment": "The output may exceed k by a polylogarithmic factor. No polynomial-time component reduction to exactly the target cap is supplied. The source conjectures hardness of proper learning even without noise; it does not prove that hardness."
+    },
+    {
+      "source": "CL26 Theorem 2",
+      "result_scope": "Near-linear-time Hellinger density estimation with piecewise-polynomial output.",
+      "assessment": "TV^2<=2H^2 transfers statistical accuracy under the source normalization. It does not turn the output into at most k Gaussians. Efficient conversion would require precisely the missing proper-learning step."
+    },
+    {
+      "source": "BDJ21 Theorems 1.5 and 8.1",
+      "result_scope": "Robust proper learning of arbitrary multivariate k-mixtures for fixed k, with poly_k accuracy dependence and k-dependent error exponent.",
+      "assessment": "Setting ambient dimension d=1 does not remove the k-dependent accuracy degree, constants and small-noise range. It does not establish a uniform polynomial in k and inverse target TV error."
+    },
+    {
+      "source": "CKS25 Definition 1 and Theorem 11",
+      "result_scope": "Score-based learning under covariance, parameter-range and minimum-weight conditions; outputs a sampler with k/accuracy/conditioning-dependent complexity.",
+      "assessment": "The target requires an explicit at-most-k mixture for every univariate mixture without those restrictions. A good sampler is insufficient, and neither d=1 nor the theorem headline provides the missing representation guarantee."
+    },
+    {
+      "source": "BRST20 Definition 5.1 and Proposition 5.2",
+      "result_scope": "Conditional density-learning hardness obtained from continuous LWE in a growing ambient dimension, with component count tied to that dimension.",
+      "assessment": "The candidate fixes d=1. This reduction does not imply hardness for that dimension. Projection onto an arbitrary known scalar direction need not preserve the distinguishing task."
+    },
+    {
+      "source": "PS25 equations (1.1)–(1.2), Theorems 1.9–1.10",
+      "result_scope": "Certified nonparametric maximum-likelihood computation for fixed-unit-variance location mixtures, with generic-data and accuracy conditions.",
+      "assessment": "The model fixes variance and optimizes over unrestricted mixing measures; the output support is not capped by the unknown true k. Wasserstein/parameter computation of the MLE does not give the stated realizable-TV learner."
+    },
+    {
+      "source": "TD18 mog-sv specification, Theorem 1 and Lemma 2",
+      "result_scope": "NP-hard arbitrary-data empirical likelihood optimization for spherical Gaussians, including a two-component result and varying dimension.",
+      "assessment": "The data need not be iid from the target family, the objective is likelihood and the guarantee is optimization accuracy. It is not a theorem ruling out one-dimensional realizable proper TV learning."
+    },
+    {
+      "source": "ABH20 Theorems 1.5–1.7 and Section 7",
+      "result_scope": "Near-optimal robust statistical sample bounds via compression, with an exponential-time implementation and restricted computational lower bounds.",
+      "assessment": "Polynomial sample complexity alone does not prove polynomial runtime. A statistical-query barrier also does not rule out unrestricted randomized learners in the stated model."
+    },
+    {
+      "source": "AAL23 Definition 6.4, Theorem 6.5 and Corollary 6.6",
+      "result_scope": "Private parameter estimation using a reduction from nonprivate learning; the displayed polynomial-time guarantee fixes k and imposes statistical learnability.",
+      "assessment": "Unbounded means do not remove the minimum-weight/separation conditions or fixed-k quantifier. Private parameter recovery differs from unrestricted density approximation and is not a matching all-k theorem."
+    },
+    {
+      "source": "HC26 Theorem 1.1 and Section 8 equation (8.1)",
+      "result_scope": "Proper sharp Hellinger estimation for fixed k, fixed-radius bounded means and unit covariance; explicit exhaustive-net runtime.",
+      "assessment": "The runtime exponent depends on k (the paper gives a crude n^58 example already at k=3). The source explicitly says it does not give polynomial runtime when k is an input, and its parameter restrictions are stronger than the target."
+    }
+  ],
+  "independently_authored_corroboration": {
+    "sources": [
+      "D16 Section 1.6, Open Problem 1.6.2",
+      "LS17 Sections 1.1–1.2.1"
+    ],
+    "assessment": "Diakonikolas and Li–Schmidt are disjoint author sets. D16 poses the broader parametric-mixture question in a univariate-Gaussian context; LS17 explicitly states the Gaussian instance. LLM22 supplies a later explicit no-noise open-status discussion but shares an author with LS17. Versions and mirrors are not counted independently."
+  },
+  "nearest_existing": [
+    {
+      "path": "problems/318-linear-sample-compression.md",
+      "read": "Full page reread.",
+      "difference": "Existence of small encodings for finite binary concept classes, with no runtime requirement; no density model or Gaussian output cap."
+    },
+    {
+      "path": "problems/328-gaussian-polynomial-unlinking.md",
+      "read": "Full page reread.",
+      "difference": "A structural independence implication for Gaussian polynomial statistics, not density estimation from samples."
+    },
+    {
+      "path": "problems/337-classical-uniform-dnf-learning.md",
+      "read": "Full page reread.",
+      "difference": "Prediction from labelled Boolean examples under the uniform distribution, with improper output permitted; distinct model and target."
+    },
+    {
+      "path": "research/expansion-2026-09/drafts/private-pac-vc-logstar.md",
+      "read": "Full draft reread.",
+      "difference": "Sample existence for private classification on finite binary classes, with unrestricted computation; no proper Gaussian density output."
+    }
+  ],
+  "duplicate_check": {
+    "checked_on": "2026-09-19",
+    "baseline_commit": "82700726a26ac9bc3229f13c57d279a75342ac12",
+    "active_pages": 350,
+    "pending_accepted_before_this_candidate": 7,
+    "method": "Established full inventory and metadata, fresh full-text searches for Gaussian mixture, mixture of Gaussian, proper learning and density estimation, and complete closest statements reread.",
+    "result": "No equivalent active or accepted draft. Authorized origin main equals local HEAD; connected GitHub search returns no open PRs."
+  },
+  "normalization_checks": [
+    "The density integrates to one; sigma_i>0 and w_i>=0 with sum one. Zero weights make at most k and padded exactly k equivalent.",
+    "TV is one half of L1; changing this fixed factor does not change polynomial learnability.",
+    "k is input, not a constant hidden in runtime; the same fixed polynomial bounds samples and arithmetic operations for every k and epsilon.",
+    "The explicit real-arithmetic model includes exact Gaussian PDF evaluation and does not assert arbitrary-real bit complexity.",
+    "No separation, parameter-range bound, variance-ratio bound or lower bound on nonzero weights is supplied.",
+    "The output need only approximate the density, not identify physical components or labels; empirical likelihood optimization is a different objective.",
+    "Success 2/3 is a conventional fixed confidence; D16 uses 9/10 and discusses amplification. Fixed-factor confidence changes do not introduce a distinct problem family.",
+    "All k, alternate metric normalizations and fixed-k special cases form one counted family."
+  ],
+  "second_review": {
+    "pass_id": "A60",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass; no independent agent or human review.",
+    "independent_searches": [
+      "A60-1",
+      "A60-2",
+      "A60-3",
+      "A60-4",
+      "A60-5",
+      "A60-6",
+      "A60-7",
+      "A60-8"
+    ],
+    "follow_up_searches": [
+      "S460-1",
+      "S460-2",
+      "S460-3",
+      "S460-4"
+    ],
+    "issues_found": [
+      "The initial fingerprint gave DK14 Section 2 as p.6; the actual internal page is p.5.",
+      "Recent titles can obscure fixed-k quantifiers, extra output components, parameter restrictions or a sampler output.",
+      "The D16 numbered question is about parametric mixtures broadly rather than a verbatim Gaussian-only assertion.",
+      "A60 surfaced the August 2026 fixed-component sharp-estimation preprint."
+    ],
+    "issues_resolved": [
+      "Corrected the source locator and kept the explicitly sourced arithmetic model.",
+      "Read the full displayed theorem ranges, output objects and complexity statements, including the AAL23 formal corollary and HC26 arithmetic section.",
+      "Attributed D16 in context and used LS17 for the explicit Gaussian statement; author independence is stated precisely.",
+      "Added the recent preprint to the public bibliography and compared its fixed-k exponent, unit covariance and bounded means."
+    ],
+    "application_check": "Compact Gaussian descriptions and density-versus-parameter distinctions are explicit in LS17 and LLM22. TV controls every event probability by definition; this is a direct explanatory consequence, not a claim of recovering latent physical mechanisms.",
+    "search_limit": "Relevant full statements, definitions and needed proof portions were inspected. No independent proof certification, complete rederivation or execution of the cited algorithms."
+  },
+  "prepublication_refresh": {
+    "date": "2026-09-19",
+    "latest_target_commit": "82700726a26ac9bc3229f13c57d279a75342ac12",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "A60-1",
+      "A60-2",
+      "A60-3",
+      "A60-4",
+      "A60-5",
+      "A60-6",
+      "A60-7",
+      "A60-8",
+      "S460-1",
+      "S460-2",
+      "S460-3",
+      "S460-4"
+    ],
+    "upstream": "Bounded SSH fetch succeeded; local HEAD and origin/main exactly equal, zero divergence. Only origin git@github.com:MColbrook/AIM.git is configured. Connected GitHub open-PR search returned an empty list.",
+    "outcome": "No equivalent upstream addition or matching resolution located. Refresh again before assigning a permanent ID in a later integration batch."
+  },
+  "discovery_access_limits": [
+    {
+      "source": "D16 author manuscript",
+      "access": "HTTPS retrieval failed with a certificate error; the author HTTP URL returned the complete PDF. No TLS verification was disabled."
+    },
+    {
+      "source": "AAL23 OpenReview PDF",
+      "access": "OpenReview returned a browser challenge; the versioned arXiv PDF was retrieved and read instead."
+    },
+    {
+      "source": "BDJ journal publication",
+      "access": "Institutional publication metadata was inspected, but journal full text was not audited. Formal comparisons use the accessible versioned arXiv manuscript."
+    },
+    {
+      "source": "General discovery",
+      "access": "Synthetic summaries, social-media posts and aggregator snippets were discovery leads only, not mathematical evidence."
+    }
+  ],
+  "validation": {
+    "strict_katex_expressions": 31,
+    "render": "All 31 expressions passed strict KaTeX. Final full-page Chrome screenshot visually inspected: all statement, reference and status text visible with no clipped or failed mathematics.",
+    "external_links": "All eight external bibliography URLs returned HTTP 200 with PDF headers in direct GET checks.",
+    "external_link_record": "research/expansion-2026-09/univariate-gaussian-mixture-proper-learning-link-check.json",
+    "structural": "Catalogue validation passed for 350 entries; all five draft local links resolve. All source and search IDs exist. Sixty-four records reconcile to 58 accepted, five claimed-resolution holds and one unverified hold; 50 integrated, eight pending. Coverage by primary section exactly matches the accepted records and sums to 58. Actual search log has 2,160 unique IDs. Git diff whitespace checks passed."
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "checked_on": "2026-09-19",
+  "method": "Direct GET of every external draft bibliography link, following redirects and checking for a PDF header; source-content audits are in the candidate ledger.",
+  "links": [
+    {
+      "url": "http://www.iliasdiakonikolas.org/distribution-learning-survey.pdf",
+      "status": 200,
+      "final_url": "http://www.iliasdiakonikolas.org/distribution-learning-survey.pdf",
+      "content_type": "application/pdf",
+      "bytes": 276841,
+      "pdf_header": true
+    },
+    {
+      "url": "https://proceedings.mlr.press/v65/li17a/li17a.pdf",
+      "status": 200,
+      "final_url": "https://proceedings.mlr.press/v65/li17a/li17a.pdf",
+      "content_type": "application/pdf",
+      "bytes": 769271,
+      "pdf_header": true
+    },
+    {
+      "url": "https://proceedings.mlr.press/v35/daskalakis14.pdf",
+      "status": 200,
+      "final_url": "https://proceedings.mlr.press/v35/daskalakis14.pdf",
+      "content_type": "application/pdf",
+      "bytes": 495344,
+      "pdf_header": true
+    },
+    {
+      "url": "https://papers.nips.cc/paper/2022/file/8f75af4704feac629a560f4ad6b67cef-Paper-Conference.pdf",
+      "status": 200,
+      "final_url": "https://papers.nips.cc/paper/2022/file/8f75af4704feac629a560f4ad6b67cef-Paper-Conference.pdf",
+      "content_type": "application/pdf",
+      "bytes": 302527,
+      "pdf_header": true
+    },
+    {
+      "url": "https://arxiv.org/pdf/2106.02774v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2106.02774v2",
+      "content_type": "application/pdf",
+      "bytes": 537456,
+      "pdf_header": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mlresearch/v336/main/assets/compton26a/compton26a.pdf",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/mlresearch/v336/main/assets/compton26a/compton26a.pdf",
+      "content_type": "application/octet-stream",
+      "bytes": 426924,
+      "pdf_header": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mlresearch/v291/main/assets/chen25e/chen25e.pdf",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/mlresearch/v291/main/assets/chen25e/chen25e.pdf",
+      "content_type": "application/octet-stream",
+      "bytes": 1120263,
+      "pdf_header": true
+    },
+    {
+      "url": "https://arxiv.org/pdf/2608.12701v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2608.12701v1",
+      "content_type": "application/pdf",
+      "bytes": 328347,
+      "pdf_header": true
+    }
+  ]
+}

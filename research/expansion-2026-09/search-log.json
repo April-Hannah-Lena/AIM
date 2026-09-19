@@ -17409,5 +17409,357 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal year where shown",
     "review_stage": "Separated post-draft A59 adversarial self-review and follow-up."
+  },
+  {
+    "search_id": "S452-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"density estimation\" \"open problem\" \"2026\" Compton Li",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S452-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"statistical\" \"open problems\" \"log-concave\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S452-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Autocatalytic Cores in Reaction Networks with Explicit Catalysis\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S452-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"information theory\" \"conjecture\" \"entropy power\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S453-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"proper learning\" \"univariate\" \"Gaussians\" \"open\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S453-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"mixtures of Gaussians\" \"open problem\" \"polynomial\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S453-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Hellinger\" \"Compton\" \"Li\" \"open\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S453-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"minimax\" \"conjecture\" \"2026\" statistics",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S454-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"univariate\" \"proper learning\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S454-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"univariate\" \"proper learning\" \"Gaussians\" polynomial time 2024 2025",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S454-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"univariate\" \"Gaussian mixtures\" \"hardness\" proper",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S454-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"proper learning\" \"Gaussians\" \"Li\" \"Schmidt\" \"open\" -site:emergentmind.com -site:researchgate.net",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S455-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"nearly-proper learning\" \"Gaussian\" polynomial",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S455-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"proper learning\" \"univariate\" \"open problem\" -Li -Schmidt",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S455-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"proper learning\" \"univariate\" \"Gaussian\" hardness proof solved",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S455-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Faster and sample near-optimal algorithms for proper learning mixtures of gaussians\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S456-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"univariate Gaussian\" \"proper\" \"open\" \"Diakonikolas\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S456-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Robust Model Selection\" \"Nearly-Proper\" 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S456-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"proper learning\" \"univariate\" counterexample resolution correction",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S456-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Learning Structured Distributions\" Diakonikolas pdf",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Statistics and biology discovery, then proper univariate Gaussian-mixture learning formulation and status research; full-source scope checks recorded separately."
+  },
+  {
+    "search_id": "S457-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Learning Structured Distributions\" \"pdf\" \"Gaussians\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Proper univariate Gaussian-mixture learning: primary formulations, algorithm and hardness scopes, source access and version checks."
+  },
+  {
+    "search_id": "S457-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"univariate\" \"proper learning\" \"2025\" Gaussian",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Proper univariate Gaussian-mixture learning: primary formulations, algorithm and hardness scopes, source access and version checks."
+  },
+  {
+    "search_id": "S457-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"univariate\" \"proper learning\" \"2026\" Gaussian proof",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Proper univariate Gaussian-mixture learning: primary formulations, algorithm and hardness scopes, source access and version checks."
+  },
+  {
+    "search_id": "S457-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"univariate\" \"Gaussian mixtures\" \"NP-hard\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Proper univariate Gaussian-mixture learning: primary formulations, algorithm and hardness scopes, source access and version checks."
+  },
+  {
+    "search_id": "S458-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Learning general Gaussian mixtures with efficient score matching\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Proper univariate Gaussian-mixture learning: primary formulations, algorithm and hardness scopes, source access and version checks."
+  },
+  {
+    "search_id": "S458-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Robustly Learning Mixtures of k Arbitrary Gaussians\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Proper univariate Gaussian-mixture learning: primary formulations, algorithm and hardness scopes, source access and version checks."
+  },
+  {
+    "search_id": "S458-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"proper learning\" \"univariate\" Gaussian erratum correction withdrawal",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Proper univariate Gaussian-mixture learning: primary formulations, algorithm and hardness scopes, source access and version checks."
+  },
+  {
+    "search_id": "S458-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"univariate Gaussian mixtures\" \"proper\" \"polynomial\" 2025 2026 -site:researchgate.net -site:emergentmind.com",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Proper univariate Gaussian-mixture learning: primary formulations, algorithm and hardness scopes, source access and version checks."
+  },
+  {
+    "search_id": "S459-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"proper learning\" \"univariate\" \"Gaussian\" \"open question\" -site:researchgate.net -site:emergentmind.com -site:scribd.com",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Proper univariate Gaussian-mixture learning: primary formulations, algorithm and hardness scopes, source access and version checks."
+  },
+  {
+    "search_id": "S459-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"univariate Gaussian mixtures\" \"polynomial time\" proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Proper univariate Gaussian-mixture learning: primary formulations, algorithm and hardness scopes, source access and version checks."
+  },
+  {
+    "search_id": "S459-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Gaussian mixtures\" \"proper learning\" \"correction\" OR \"erratum\" OR \"withdrawn\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Proper univariate Gaussian-mixture learning: primary formulations, algorithm and hardness scopes, source access and version checks."
+  },
+  {
+    "search_id": "S459-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Maximum likelihood estimation for mixtures of spherical gaussians is NP-hard\" JMLR",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Proper univariate Gaussian-mixture learning: primary formulations, algorithm and hardness scopes, source access and version checks."
+  },
+  {
+    "search_id": "S460-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"univariate\" \"proper learning\" \"Gaussian mixtures\" 2026 resolution",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Final resolution and correction refresh after A60; compare exact fixed-k and output-component restrictions."
+  },
+  {
+    "search_id": "S460-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Sharp proper estimation of fixed-component Gaussian location mixtures\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Final resolution and correction refresh after A60; compare exact fixed-k and output-component restrictions."
+  },
+  {
+    "search_id": "S460-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Robust Model Selection and Nearly-Proper Learning for GMMs\" correction withdrawal",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Final resolution and correction refresh after A60; compare exact fixed-k and output-component restrictions."
+  },
+  {
+    "search_id": "S460-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"polynomial\" \"proper\" \"univariate Gaussian\" hardness proof",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Final resolution and correction refresh after A60; compare exact fixed-k and output-component restrictions."
+  },
+  {
+    "search_id": "A60-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"proper learning\" \"univariate Gaussian\" proof solved hardness",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting: uniformity in k, proper output, density versus parameter estimation, resolution and correction searches."
+  },
+  {
+    "search_id": "A60-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"learning\" \"one-dimensional Gaussian mixtures\" \"polynomial\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting: uniformity in k, proper output, density versus parameter estimation, resolution and correction searches."
+  },
+  {
+    "search_id": "A60-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"proper\" \"Gaussian mixtures\" \"Li\" \"Schmidt\" erratum correction",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting: uniformity in k, proper output, density versus parameter estimation, resolution and correction searches."
+  },
+  {
+    "search_id": "A60-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Gaussian mixture\" \"at most k\" \"polynomial-time\" learning",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting: uniformity in k, proper output, density versus parameter estimation, resolution and correction searches."
+  },
+  {
+    "search_id": "A60-5",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Sharp proper estimation of fixed-component Gaussian location mixtures\" correction",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting: uniformity in k, proper output, density versus parameter estimation, resolution and correction searches."
+  },
+  {
+    "search_id": "A60-6",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"univariate\" \"proper learning\" \"mixtures\" \"hardness\" 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting: uniformity in k, proper output, density versus parameter estimation, resolution and correction searches."
+  },
+  {
+    "search_id": "A60-7",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"polynomial-time\" \"univariate Gaussian mixtures\" \"solved\" OR \"resolve\" OR \"resolution\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting: uniformity in k, proper output, density versus parameter estimation, resolution and correction searches."
+  },
+  {
+    "search_id": "A60-8",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Polynomial Time and Private Learning of Unbounded Gaussian Mixture Models\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-pass after drafting: uniformity in k, proper output, density versus parameter estimation, resolution and correction searches."
   }
 ]
