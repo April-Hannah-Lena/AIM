@@ -39,7 +39,7 @@
       "locator": "Section 1, pp.1–3: full Brownian construction, earlier proof error and distinct drift counterexamples."
     }
   ],
-  "publication_state": "Accepted local research draft; authorized direct publication pending. No permanent ID before batch integration.",
+  "publication_state": "Accepted research draft and evidence pushed directly to main in 97362b77ba6a8108c3c92fe1b9f631dafe660834; a separate remote-ref read matched the exact commit on September 19, 2026. No permanent ID until the next integration batch.",
   "source_records": [
     {
       "source_id": "B-open",

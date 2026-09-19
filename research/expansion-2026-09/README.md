@@ -24,7 +24,7 @@ The user authorized repository uploads and direct pushes to main. No PR is requi
 
 The [accepted draft](drafts/brownian-fleming-viot-nonexplosion.md) asks whether uniformly resampled Brownian particles avoid accumulation of infinitely many boundary-exit events in finite time, for every bounded connected open domain and every fixed particle count at least three. The [ledger](candidates/brownian-fleming-viot-nonexplosion.json) records eight inspected source works and ten scope comparisons, with separate access limits for a Bessel-drift lead. The two-particle case is solved. The separated A61 self-review checked domain assumptions, initial configurations, the acknowledged earlier proof error and drift-based counterexamples.
 
-Twenty-one expressions passed strict KaTeX and full-page visual inspection; all nine bibliography URLs responded successfully. This ninth accepted draft has no permanent ID. It is ready for the authorized direct research push; the active catalogue remains 350.
+Twenty-one expressions passed strict KaTeX and full-page visual inspection; all nine bibliography URLs responded successfully. This ninth accepted draft has no permanent ID. Its [research checkpoint](https://github.com/MColbrook/AIM/commit/97362b77ba6a8108c3c92fe1b9f631dafe660834) was pushed directly to main, and a separate remote-ref read matched the exact commit on September 19, 2026. The active catalogue remains 350.
 
 ## Proper Gaussian-mixture density estimation (2026-09-19)
 

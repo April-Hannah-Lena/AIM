@@ -246,9 +246,13 @@
     {
       "commit": "b232a42d35c4b0c5081dca103553e7084e774a06",
       "purpose": "Record reviewed proper univariate Gaussian-mixture learning draft, thirteen-source audit and bibliography checks; pushed directly to main and exact remote commit separately verified September 19, 2026."
+    },
+    {
+      "commit": "97362b77ba6a8108c3c92fe1b9f631dafe660834",
+      "purpose": "Record reviewed Brownian Fleming\u2013Viot non-explosion draft, eight-source audit, bibliography checks and related discovery; pushed directly to main and exact remote commit separately verified September 19, 2026."
     }
   ],
-  "remote_state": "All fifty integrated additions and the preceding eight accepted drafts are published directly on main, last separately verified at 430d1597b2d5f8f0f2a76cac38271bb09ea0db0b. Brownian Fleming\u2013Viot non-explosion is the ninth accepted draft, currently local and ready for authorized direct publication. Active catalogue remains 350.",
+  "remote_state": "All fifty catalogue additions (301\u2013350) and their research records are published directly on main. All nine accepted drafts are uploaded: integer 3SUM, MIRUP, entanglement-of-purification additivity, private-PAC VC/log-star learning, strong edge-colouring, subset-sum support/concentration, planar halving lines, proper univariate Gaussian-mixture learning and Brownian Fleming\u2013Viot non-explosion. The latest research commit 97362b77ba6a8108c3c92fe1b9f631dafe660834 was separately verified on remote main on September 19, 2026. Nine accepted drafts await integration; active catalogue remains 350.",
   "next_actions": [
     "Continue research toward the next ten-to-twenty-entry integration batch. Nine accepted drafts are ready; no permanent IDs until the batch is ready.",
     "Continue discovery in other distinct families. Tensor detection is held after A52 found a potentially matching sparse-parity theorem whose modulus and hierarchy-level scope require clarification; see spiked-tensor-scope-hold.md.",
