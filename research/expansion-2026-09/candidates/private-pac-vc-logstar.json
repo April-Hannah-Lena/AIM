@@ -1,0 +1,543 @@
+{
+  "candidate_id": "private-pac-vc-logstar",
+  "proposed_catalogue_id": null,
+  "title": "Private PAC learning with polynomial VC and iterated-logarithm sample cost",
+  "primary_section": "applied",
+  "secondary_tags": [
+    "statistical learning",
+    "data privacy",
+    "sample complexity"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit scholarly formulation, independently authored 2026 corroboration, complete relevant theorem-scope comparisons, duplicate screening, separated A56 adversarial review and technical validation passed. No matching later resolution was located. The stated finite fixed-accuracy inverse-cubic-slack specialization is explicit.",
+  "aliases": [
+    "Private learning near the VC and log-star Littlestone lower bound",
+    "Quantitative private PAC learnability"
+  ],
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "problem_fingerprint": {
+    "model_or_objects": "Every finite nonempty domain X and nonempty class C of total functions X -> {0,1}, with VC dimension v>=1 and Littlestone dimension d. A class-dependent randomized learner outputs one complete binary function h, possibly outside C.",
+    "dimension": "v is the maximum size of a shattered point set. d is the maximum depth of a complete binary tree with X-labeled internal nodes whose every root-to-leaf binary edge sequence is realized by a concept.",
+    "data": "For every unknown law D on X and every unknown target c in C, n iid examples (x_i,c(x_i)) with x_i~D; no additional examples, public data, chosen-label queries or known D.",
+    "normalization": "Accuracy alpha=1/16, failure beta=1/16, epsilon=0.1, privacy slack delta_n=1/(100 n^3), for integer n>=1. Output privacy under replacement of one entire labeled record holds for all datasets, including nonrealizable ones.",
+    "privacy": "For all replacement-neighbor S,S' and all sets E of output hypotheses, Pr[A(S) in E] <= exp(0.1) Pr[A(S') in E] + 1/(100n^3).",
+    "utility": "Pr_{S,A}[Pr_{x~D}(h(x)!=c(x))<=1/16]>=15/16.",
+    "observable": "m_priv(C) is the least positive sample size for which such a learner exists.",
+    "target": "Are there universal K>0 and integer q>=1 such that m_priv(C) <= K(1+v+log*_2(max{2,d}))^q for every such finite X,C?",
+    "logarithms": "log*_2(t) is the number of iterated base-two logarithms needed to reach at most one; max{2,d} avoids endpoint conventions.",
+    "quantifiers": "K and q are independent of X,C,v,d. At a chosen n the same learner must work for all D and c. It may depend on X,C,n and has no running-time restriction.",
+    "scope": "One finite-domain, fixed-accuracy and inverse-cubic-slack formulation of the sourced quantitative private-PAC question. No equivalence with all infinite measurable domains, pure privacy, all privacy curves, or the broader combinatorial-characterization question is asserted."
+  },
+  "statement_sources": [
+    {
+      "source_id": "ABLM22",
+      "locator": "Section 6, first open question, author-manuscript page 33; Section 3.1 and Definition 12 for the model; Theorem 2 for the small-delta regime."
+    },
+    {
+      "source_id": "NST26",
+      "locator": "Section 2, paragraph following Open Question 1, PDF page 3; Section 1 footnotes 1-2, PDF page 1, specify small privacy slack and suppressed parameters."
+    }
+  ],
+  "scope_normalization": "The source questions suppress accuracy/privacy dependence. The finite, constant-accuracy version here fixes epsilon and alpha,beta to the ABLM22 lower-bound constants and delta_n to an explicit O(1/(n^2 log n)) regime. NST26 explicitly motivates finite classes. This does not add an unverified optimal dependence on every privacy parameter or claim equivalence with the infinite-domain problem. The n-dependent slack is essential: keeping delta a fixed positive constant would permit a subsampling shortcut.",
+  "status_search_ids": [
+    "S425-1",
+    "S425-2",
+    "S425-3",
+    "S425-4",
+    "S426-1",
+    "S426-2",
+    "S426-3",
+    "S426-4",
+    "S427-1",
+    "S427-2",
+    "S427-3",
+    "S427-4",
+    "S428-1",
+    "S428-2",
+    "S428-3",
+    "S428-4",
+    "S429-1",
+    "S429-2",
+    "S429-3",
+    "S429-4",
+    "A56-1",
+    "A56-2",
+    "A56-3",
+    "A56-4",
+    "A56-5",
+    "A56-6",
+    "A56-7",
+    "A56-8"
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/private-pac-vc-logstar.md",
+  "second_review": {
+    "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass; no independent agent or human review.",
+    "pass_id": "A56",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "independent_searches": [
+      "A56-1",
+      "A56-2",
+      "A56-3",
+      "A56-4",
+      "A56-5",
+      "A56-6",
+      "A56-7",
+      "A56-8"
+    ],
+    "issues_found": [
+      "Suppressed privacy parameters could make a fixed-positive-slack formulation vacuous.",
+      "Qualitative learnability, proper/pure privacy, computational separation and density estimation can be mistaken for the quantitative target.",
+      "Recent product, smoothness and decision-list theorems require checking possible reductions, not just naming a restricted class.",
+      "The finite specialization must not be presented as equivalent to the full infinite-domain or all-parameter question."
+    ],
+    "issues_resolved": [
+      "Retained explicit inverse-cubic slack and checked the subsampling loophole and general upper-bound substitution.",
+      "Compared the complete relevant models and theorem hypotheses of all eleven sources.",
+      "Checked the product lower bound against v and d, the finite-domain smoothness substitution, and the feature-count dependence of decision-list learning.",
+      "Stated exact source normalization and limits; repeated duplicate searches and read full nearest entries."
+    ],
+    "application_check": "The applied claim concerns the amount of sensitive data needed to release a complete classifier. It makes no promise about efficient training, an identifiable target formula or practical privacy certification.",
+    "search_limit": "No independent proof certification. Some recent partial results are preprints; source access/version limits are recorded individually."
+  },
+  "publication_state": "Accepted local research draft ready for the authorized direct push to main; no permanent ID or active catalogue entry. Awaiting the next integration batch.",
+  "source_records": [
+    {
+      "source_id": "ABLM22",
+      "authors": [
+        "Noga Alon",
+        "Mark Bun",
+        "Roi Livni",
+        "Maryanthe Malliaris",
+        "Shay Moran"
+      ],
+      "title": "Private and Online Learnability Are Equivalent",
+      "url": "https://web.math.princeton.edu/~nalon/PDFS/JACMjoint1.pdf",
+      "version": "Author manuscript dated January 28, 2022, 41 PDF pages; Journal of the ACM 69(4), article 28 (2022), DOI 10.1145/3526074.",
+      "locator": "Sections 2–3, Theorems 2–3, 5 and 8, Definition 12; Section 6 first question, author-manuscript p. 33.",
+      "read": "Exact question, PAC and tree definitions, privacy on all neighboring datasets, lower-bound parameter regime and general upper theorem read.",
+      "metadata_urls": [
+        "https://web.math.princeton.edu/~nalon/PDFS/publications.html"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Author version used for locators; publisher text not line-compared and complete proofs not independently certified."
+    },
+    {
+      "source_id": "NST26",
+      "authors": [
+        "Kobbi Nissim",
+        "Uri Stemmer",
+        "Eliad Tsfadia"
+      ],
+      "title": "Invited Open Problem: Does Differential Privacy Make PAC Learning Much Harder?",
+      "url": "https://raw.githubusercontent.com/mlresearch/v336/main/assets/nissim26a/nissim26a.pdf",
+      "version": "COLT 2026, PMLR 336:7129–7135, June 29–July 3, 2026; seven-page published full text.",
+      "locator": "Section 1 footnotes 1–2 and Theorems 1–3; Section 2 paragraph following Open Question 1, PDF p. 3.",
+      "read": "Entire paper, including appendices, read. Explicitly retains the polynomial VC/log-star question and motivates finite classes.",
+      "metadata_urls": [
+        "https://proceedings.mlr.press/v336/nissim26a.html"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Browser rejected the raw PDF content type; direct download and local text extraction succeeded. Other specialized results mentioned in its survey are not treated as independently audited proofs."
+    },
+    {
+      "source_id": "Y25",
+      "authors": [
+        "Chao Yan"
+      ],
+      "title": "An Õptimal Differentially Private Learner for Concept Classes with VC Dimension 1",
+      "url": "https://arxiv.org/html/2505.06581v2",
+      "version": "arXiv:2505.06581v2, July 29, 2025; v1 May 10, 2025. The v2 HTML heading adds 'PAC' to the canonical abstract-page title.",
+      "locator": "Section 1, Section 1.1 Theorems 1–2, Section 1.3, Section 3 definitions.",
+      "read": "Full theorem hypotheses and parameter dependence, proper/improper distinction, definitions and structural outline read.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2505.06581"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Scope review; not a complete proof certification."
+    },
+    {
+      "source_id": "L25",
+      "authors": [
+        "Xin Lyu"
+      ],
+      "title": "Private Learning of Littlestone Classes, Revisited",
+      "url": "https://arxiv.org/html/2510.00076v1",
+      "version": "arXiv:2510.00076v1, September 30, 2025; sole arXiv version checked. A STOC 2026 program listing was located, but locators here use the manuscript.",
+      "locator": "Section 1.1 Theorems 1–2; Section 5 Theorem 3 and Corollary 5.1.",
+      "read": "Batch and online models, full relevant theorem statements, ERM-to-PAC deduction and surrounding parameter discussion read.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2510.00076"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Conference text not line-compared; proof not independently certified."
+    },
+    {
+      "source_id": "VALG26",
+      "authors": [
+        "Dechen Zhang",
+        "Xuan Tang",
+        "Xinxiang Yin",
+        "Xingwu Chen",
+        "Jian Qian",
+        "Difan Zou"
+      ],
+      "title": "VALG: An Agentic System for ML Theory Research and Demonstrations on COLT 2026 Open Problems",
+      "url": "https://arxiv.org/html/2608.13060v2",
+      "version": "arXiv:2608.13060v2, September 10, 2026; v1 August 13. Canonical abstract-page title is 'VALG: An Agentic System for ML Theory Research'; the checked HTML has the expanded heading.",
+      "locator": "Complete Section 4.4, Assumptions 4.43–4.50 and Theorems 4.10–4.11.",
+      "read": "Full product, threshold-minor, dimension and privacy hypotheses and concluding scope discussion read.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2608.13060"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Reported preprint results, not independently certified proofs. A separate public evaluation file was encountered only in search extracts and supplies no admission premise."
+    },
+    {
+      "source_id": "BKMS24",
+      "authors": [
+        "Mark Bun",
+        "Gautam Kamath",
+        "Argyris Mouzakis",
+        "Vikrant Singhal"
+      ],
+      "title": "Not All Learnable Distribution Classes are Privately Learnable",
+      "url": "https://proceedings.mlr.press/v237/bun24b/bun24b.pdf",
+      "version": "ALT 2024, PMLR 237:390–401.",
+      "locator": "Introduction/model and Theorem 12, PDF p. 8, with surrounding proof.",
+      "read": "Full density-estimation target, constructed distribution family and relevant impossibility theorem read.",
+      "metadata_urls": [
+        "https://proceedings.mlr.press/v237/bun24b.html"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Scope comparison; complete proof not independently certified."
+    },
+    {
+      "source_id": "BCD24",
+      "authors": [
+        "Mark Bun",
+        "Aloni Cohen",
+        "Rathin Desai"
+      ],
+      "title": "Private PAC Learning May be Harder than Online Learning",
+      "url": "https://proceedings.mlr.press/v237/bun24a/bun24a.pdf",
+      "version": "ALT 2024, PMLR 237:362–389, February 25–28.",
+      "locator": "Section 1; Definitions 5, 6, 8 and 13; Theorems 19, 22, 32 and 37; Corollary 30; Section 8.",
+      "read": "Computational model, cryptographic hypotheses and full separation statements read; proof dependencies checked to interpret Theorem 37's abbreviated wording.",
+      "metadata_urls": [
+        "https://proceedings.mlr.press/v237/bun24a.html"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "No independent cryptographic proof certification."
+    },
+    {
+      "source_id": "BSR26",
+      "authors": [
+        "Moïse Blanchard",
+        "Abhishek Shetty",
+        "Alexander Rakhlin"
+      ],
+      "title": "Characterizing Online and Private Learnability under Distributional Constraints via Generalized Smoothness",
+      "url": "https://arxiv.org/html/2602.20585v1",
+      "version": "arXiv:2602.20585v1, February 24, 2026; sole version checked, preprint.",
+      "locator": "Definitions 2–4 and 9; Theorems 11–12; Appendix F.2 Lemma 20 and Theorem 21 with proof.",
+      "read": "Known distribution-family/base-measure model, smoothness modulus and covering argument read.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2602.20585"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "The HTML has notation inconsistencies in the displayed bound; no exact numerical formula is adopted. The retained dependence on the modulus is explicit."
+    },
+    {
+      "source_id": "V16",
+      "authors": [
+        "Salil Vadhan"
+      ],
+      "title": "The Complexity of Differential Privacy",
+      "url": "https://privacytools.seas.harvard.edu/sites/g/files/omnuum6656/files/privacytools/files/complexityprivacy_1.pdf",
+      "version": "Author/tutorial manuscript dated August 9, 2016, 95 PDF pages.",
+      "locator": "Section 8.1 Theorem 8.3 and following sample-bound calculation; Section 8.3 discussion.",
+      "read": "Finite-class cardinality bound and its domain-description-length interpretation read.",
+      "metadata_urls": [],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Locators refer to this manuscript, not a later typeset version."
+    },
+    {
+      "source_id": "BKN10",
+      "authors": [
+        "Amos Beimel",
+        "Shiva Prasad Kasiviswanathan",
+        "Kobbi Nissim"
+      ],
+      "title": "Bounds on the Sample Complexity for Private Learning and Private Data Release",
+      "url": "https://www.cs.bgu.ac.il/~beimel/Papers/BKN.pdf",
+      "version": "18-page author manuscript; TCC 2010, pp. 437–454, as identified in NST26's bibliography. No manuscript revision date is printed in the accessed copy.",
+      "locator": "Definitions 1–4 and 6–7; Section 3.1 Theorem 3 and Corollary 1, PDF pp. 9–10; Section 3.2 opening discussion.",
+      "read": "Pure privacy, proper-output restriction, full lower-bound statement and its proof read.",
+      "metadata_urls": [],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Publisher copy not line-compared; no independent certification of the later improper-learner construction."
+    },
+    {
+      "source_id": "BF26",
+      "authors": [
+        "Mark Bun",
+        "William Fang"
+      ],
+      "title": "Privately Learning Decision Lists and a Differentially Private Winnow",
+      "url": "https://arxiv.org/html/2602.07370v1",
+      "version": "arXiv:2602.07370v1, February 7, 2026, sole version; ALT 2026, PMLR 313:1–27.",
+      "locator": "Sections 1–2; Definitions 4–5; Theorem 7; Section 4.2 Theorem 12 and Section 4.3 margin conversion.",
+      "read": "Feature-class decision-list model, complete PAC sample bound and margin/online theorem hypotheses read.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2602.07370",
+        "https://proceedings.mlr.press/v313/bun26a.html"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Theorem locators refer to the arXiv version; published full text not line-compared and proofs not independently certified."
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_ids": [
+        "ABLM22"
+      ],
+      "theorem_locator": "Theorems 2–3, 5 and 8; Section 6",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Realizable binary PAC learning, approximate privacy, unrestricted computation.",
+        "The qualitative characterization and a general upper bound are already established."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The quantitative VC/log-star bound is posed separately. The boosting constant may depend on the class, so boosting does not supply the required universal polynomial.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "L25"
+      ],
+      "theorem_locator": "Theorem 2 and Corollary 5.1",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "General finite Littlestone dimension d; upper bound polynomial in d with logarithmic privacy dependence.",
+        "Separate online mistake bounds also retain polynomial d dependence."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Putting delta=1/(100 n^3) into the sample inequality leaves logarithmic n factors absorbable into a polynomial in d. It does not yield a polynomial in v+log-star d.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "Y25"
+      ],
+      "theorem_locator": "Theorems 1–2",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "VC dimension exactly one and finite Littlestone dimension.",
+        "Improper and proper variants retain this dimension restriction."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Iterated-logarithm dependence is proved for this special case; the target is uniform over arbitrary v.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "VALG26"
+      ],
+      "theorem_locator": "Assumptions 4.43–4.47 and Theorem 4.10",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Finite finest Cartesian decomposition into VC-one factors, each with finite Littlestone dimension.",
+        "Countable evaluation quotients and stated privacy restrictions."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The factorwise result retains product structure. No reduction of arbitrary finite concept classes to such products with the requested uniform cost is established.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "VALG26"
+      ],
+      "theorem_locator": "Assumptions 4.48–4.50 and Theorem 4.11",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Disjoint k-threshold minor of length N with a small-slack privacy curve.",
+        "Reported lower bound is of order k log-star N."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "As a scope calculation, the minor gives v>=k and d>=floor(log2 N). Thus this lower bound is at most a constant times v(1+log-star d), compatible with a polynomial in the target sum; it is not a superpolynomial counterexample.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "BKMS24"
+      ],
+      "theorem_locator": "Theorem 12",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Distribution/density estimation under total-variation loss.",
+        "Constructed family varies ambient dimension and is not a binary target concept class."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "This impossibility does not concern realizable zero-one classification with finite Littlestone dimension.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "BCD24"
+      ],
+      "theorem_locator": "Definition 13; Theorems 19 and 37; Section 8",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Cryptographic security and separation quantify over polynomial-time algorithms.",
+        "Theorem 37 relies on Theorem 19's explicit computational restriction despite abbreviated wording."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "An efficiency separation does not rule out the unrestricted-time learners allowed here. The discussion retains the statistical question.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "BSR26"
+      ],
+      "theorem_locator": "Definition 4; Theorem 12; Appendix F.2 Theorem 21",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Known distribution family dominated through a known base law and smoothness modulus rho.",
+        "Sample cost retains a covering/modulus dependence."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "All laws on finite X can be included with uniform base law and rho(a)=min(|X|a,1), but that substitution retains domain-size dependence. The theorem therefore does not indirectly supply the requested uniform bound.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "V16"
+      ],
+      "theorem_locator": "Theorem 8.3",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Finite hypothesis class over a b-bit domain.",
+        "Generic cost is logarithmic in class cardinality, bounded using b times VC dimension."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "The extra description-length parameter cannot be discarded; this polynomial bound is not in v+log-star d alone.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "BKN10"
+      ],
+      "theorem_locator": "Definition 1; Theorem 3 and Corollary 1",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "Pure epsilon privacy and proper learning of point functions.",
+        "The output hypothesis class is fixed to the point class in the stated lower bound."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Both restrictions are stronger than the present approximate-private, improper model. The lower bound does not refute this entry.",
+      "material_unresolved_conflict": false
+    },
+    {
+      "source_ids": [
+        "BF26"
+      ],
+      "theorem_locator": "Theorems 7 and 12; Section 2",
+      "theorem_statement_actually_read": true,
+      "hypothesis_comparison": [
+        "PAC theorem uses M=|F| feature functions and a term linear in M, up to logarithmic factors.",
+        "Winnow is for margin-separated halfspaces in an online model."
+      ],
+      "indirect_resolution_considered": true,
+      "assessment_and_remaining_gap": "Encoding an arbitrary class by taking F=C retains dependence on |C|. Neither that substitution nor the margin theorem removes the extra parameters in favor of v+log-star d.",
+      "material_unresolved_conflict": false
+    }
+  ],
+  "independently_authored_corroboration": {
+    "source_id": "NST26",
+    "independent_of_source_ids": [
+      "ABLM22"
+    ],
+    "reason": "The author sets are disjoint. Section 2 expressly proposes the same polynomial VC/log-star upper bound after discussing the existing general upper and lower bounds.",
+    "scope": "Finite-domain constant-accuracy inverse-cubic-slack specialization of the suppressed-parameter question; no equivalence with all privacy curves is asserted."
+  },
+  "nearest_existing": [
+    {
+      "id": 318,
+      "path": "problems/318-linear-sample-compression.md",
+      "full_statement_read": true,
+      "distinction": "A set-and-bitstring compression scheme reconstructs every realizable sample. It need not privatize the released records or classifier."
+    },
+    {
+      "id": 317,
+      "path": "problems/317-learning-parity-noise.md",
+      "full_statement_read": true,
+      "distinction": "Average-case noisy-parity recovery with a polynomial-time restriction; no output-privacy condition."
+    },
+    {
+      "id": 337,
+      "path": "problems/337-classical-uniform-dnf-learning.md",
+      "full_statement_read": true,
+      "distinction": "Efficient learning of one Boolean family under uniform inputs; no privacy constraint and a different runtime objective."
+    }
+  ],
+  "duplicate_check": {
+    "checked_on": "2026-09-19",
+    "repository": "MColbrook/AIM",
+    "local_and_target_commit": "78a0995dad88dd7f70c881c964999ec585731651",
+    "coverage": "Baseline inventory, all active pages/metadata, expansion candidates, source maps, exclusions and discovery records screened; fresh alias/formula searches repeated during A56 and nearest full statements reread.",
+    "terms": [
+      "Littlestone",
+      "differential privacy",
+      "private PAC",
+      "log-star learning",
+      "VC and log-star"
+    ],
+    "result": "No equivalent active or accepted entry found. Earlier private-PAC discovery notes are this same lead and add no separate count.",
+    "upstream": "A fresh authenticated ls-remote read matched local HEAD and main before this research-checkpoint upload. No new upstream catalogue content."
+  },
+  "normalization_checks": [
+    "Finite X makes the class, output space and all events finite; v>=1 implies d>=1. Labels 0/1 instead of +/-1 do not change the model.",
+    "The learner may depend on the known class but must work for every unknown input law and target. Privacy compares all replacement-neighbor datasets, not just realizable samples. No additional data, queries or runtime promise is included.",
+    "The source questions suppress privacy/accuracy dependence. Fixed alpha=beta=1/16 and epsilon=0.1 match the ABLM22 lower-bound constants; delta_n=1/(100 n^3) lies asymptotically within its O(1/(n^2 log n)) regime. The finite fixed-parameter question is deliberately narrower than a uniform theorem over all curves or infinite domains.",
+    "A fixed positive delta would permit a different, trivial subsampling bound: release a nonprivate learner on k random selected records from n; coupling gives (0,k/n)-privacy. The n-dependent delta here prevents that shortcut.",
+    "For finite C, the generic pure-private finite-class learner ensures that a least positive admissible sample size exists. No monotonicity in n is assumed for the n-dependent privacy definition.",
+    "The requested polynomial in a sum is equivalent, up to a change of universal constants/exponent, to a polynomial upper bound in the two nonnegative complexity parameters. Max{2,d} only handles logarithm endpoints.",
+    "This is one problem family. Pure privacy, efficient training, fixed v, infinite domains and the separate combinatorial-characterization question do not receive additional counts."
+  ],
+  "prepublication_refresh": {
+    "date": "2026-09-19",
+    "latest_target_commit": "78a0995dad88dd7f70c881c964999ec585731651",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "outcome": "A56 searches and scope checks completed; remote main matches local base before the draft upload."
+  },
+  "validation": {
+    "state": "passed",
+    "checked_on": "2026-09-19",
+    "strict_katex": {
+      "expressions": 39,
+      "result": "passed"
+    },
+    "visual_review": "Full 1280-by-4300 browser render inspected; all four sections, formulas and references visible without clipping. Temporary image /private/tmp/aim-private-learning-research/draft-final.png.",
+    "structure": "Required metadata and four headings passed; all four relative links resolve.",
+    "bibliography": "All six external bibliography targets returned HTTP 200, including both full-text PDFs.",
+    "bibliography_report": "research/expansion-2026-09/private-pac-link-check.json",
+    "ledger": "Eleven source records, eleven scope comparisons and 28 unique search IDs, all present in the search log.",
+    "catalogue": "python3 scripts/catalogue.py --check passed: 350 unique entries, metadata, headings, math delimiters, local links and README freshness. git diff --check passed."
+  }
+}

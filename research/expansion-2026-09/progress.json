@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 53,
+  "new_accepted": 54,
   "active_total": 350,
-  "candidates_investigated": 59,
+  "candidates_investigated": 60,
   "held_unverified": 1,
   "held_claimed_resolution": 5,
   "excluded": 0,
-  "remaining_to_minimum": 147,
-  "remaining_to_target": 197,
+  "remaining_to_minimum": 146,
+  "remaining_to_target": 196,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -228,24 +228,24 @@
       "purpose": "Record reviewed entanglement-of-purification draft, eight-source audit and bibliography checks; pushed directly to main and exact remote commit separately verified September 19, 2026."
     }
   ],
-  "remote_state": "All fifty catalogue additions (301–350) and their research records are published directly on main. Integer 3SUM, MIRUP and entanglement-of-purification additivity are uploaded as accepted research drafts, the latest in f2a1955608c3045330208be169de9360dc845df9. A separate remote-ref read verified that exact research commit on September 19, 2026. Three accepted drafts await integration; active catalogue remains 350.",
+  "remote_state": "All fifty catalogue additions (301–350) and their research records are published directly on main. Integer 3SUM, MIRUP and entanglement-of-purification additivity are uploaded accepted drafts. Private-PAC VC/log-star learning has passed review and technical checks locally and is ready for the authorized direct research-checkpoint push. Four accepted drafts await integration; active catalogue remains 350.",
   "next_actions": [
-    "Continue research toward the next ten-to-twenty-entry integration batch. Integer 3SUM, MIRUP and entanglement-of-purification additivity are accepted drafts; no permanent IDs until the batch is ready.",
+    "Continue research toward the next ten-to-twenty-entry integration batch. Integer 3SUM, MIRUP, entanglement-of-purification additivity and private-PAC VC/log-star learning are accepted drafts; no permanent IDs until the batch is ready.",
     "Continue discovery in other distinct families. Tensor detection is held after A52 found a potentially matching sparse-parity theorem whose modulus and hierarchy-level scope require clarification; see spiked-tensor-scope-hold.md.",
-    "Research and review seven or more further distinct additions for the next batch; refresh status and upstream duplicates before assigning permanent IDs. Fifty additions are integrated/published, and three accepted drafts await integration.",
+    "Research and review six or more further distinct additions for the next batch; refresh status and upstream duplicates before assigning permanent IDs. Fifty additions are integrated/published, and four accepted drafts await integration.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the six held candidates and discovery-only leads outside the active count; preserve original identifiers and historical dates.",
-    "CFN sunlet projective quadratic generation needs independent corroboration and saturation-scope review; private-learning leads still need complete formulation and corroboration.",
+    "CFN sunlet projective quadratic generation needs independent corroboration and saturation-scope review. The private-PAC quantitative lead is now an accepted draft; its restricted variants do not add counts.",
     "Phylogenetic character-threshold and strong cane-toad spreading leads have full formulations but still need independent corroboration.",
     "Do not admit general strongly polynomial LP without adjudicating matching claims; keep historical entries 031, 032 and 286 follow-ups separate from new counts.",
     "Bernoulli Renyi joint-parameter concavity and the small-sample entangled-Gaussian mean question still need independently authored status corroboration. The 2026 statistics survey does not explicitly corroborate that precise small-sample remainder. Continue precise statistics, biology, information and control discovery.",
     "Continue the continuous-time Carrasco discovery audit in carrasco-discovery.md: original full formulation and independent status discussion read; July 2026 discrete-time disproof inspected at model/theorem level. Reconcile multiplier and stability conventions and investigate any continuous-time transfer before fingerprinting or admission. No candidate or accepted count assigned.",
-    "Entanglement-of-purification additivity is accepted and uploaded. Continue distinct families toward the next batch; keep the mammillary identifiability lead outside admission while its matching September claim is investigated."
+    "The private-PAC VC/log-star draft has passed A56 and technical validation. Continue distinct families toward the next batch; keep the mammillary identifiability lead outside admission while its matching September claim is investigated."
   ],
   "coverage": {
     "inverse3": 7,
     "spectral2": 1,
-    "applied": 9,
+    "applied": 10,
     "stochastic3": 12,
     "inverse2": 4,
     "operators": 6,
@@ -258,11 +258,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 50,
-  "count_semantics": "Fifty accepted additions are integrated and published directly on main; integer 3SUM, MIRUP and entanglement-of-purification additivity are accepted drafts awaiting the next integration batch. Active total 350. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
+  "count_semantics": "Fifty accepted additions are integrated and published directly on main; integer 3SUM, MIRUP, entanglement-of-purification additivity and private-PAC VC/log-star learning are accepted drafts awaiting the next integration batch. Active total 350. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 50,
-  "coverage_semantics": "Accepted additions by primary section; fifty integrated and three pending accepted drafts.",
+  "coverage_semantics": "Accepted additions by primary section; fifty integrated and four pending accepted drafts.",
   "remaining_integrations_to_minimum": 150,
   "remaining_integrations_to_target": 200,
-  "pending_accepted": 3
+  "pending_accepted": 4
 }

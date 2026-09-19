@@ -233,3 +233,22 @@ Publication receipt: [64a2a6e](https://github.com/MColbrook/AIM/commit/64a2a6e2a
 ## Entanglement-of-purification additivity — accepted draft, September 19
 
 [Draft](drafts/entanglement-of-purification-additivity.md); [evidence ledger](candidates/entanglement-of-purification-additivity.json). Terhal–Horodecki–Leung–DiVincenzo Definition 1, Lemma 1 and Theorem 2 supply the optimization and preparation-cost model; Chen–Winter §I supplies the arbitrary-pair question. The independent August 2026 Negari–Baghali Khanian preprint retains the von Neumann problem. Its Theorems 1–3 and Appendix C.2 distinguish exact one-copy values, subunit Rényi counterexamples and higher-order additivity. The audit also compares the numerical Werner claim, Faraji–Baghali Khanian's constrained channel norms, Hastings's unconstrained minimum-output-entropy theorem and Takayanagi–Umemoto's geometric inequality. One canonical general question; no separate counts for state subclasses or Rényi orders. A55 passed after drafting. No permanent ID until the next batch.
+
+
+## Private PAC sample complexity (2026-09-19)
+
+The [accepted draft](drafts/private-pac-vc-logstar.md) and [eleven-source ledger](candidates/private-pac-vc-logstar.json) develop the earlier quantitative private-learning lead. ABLM22 §6 and the independently authored NST26 §2 support the question; the explicit finite-domain privacy normalization is recorded in the ledger. The source versions and complete read locators are preserved there.
+
+- ABLM22, [author manuscript](https://web.math.princeton.edu/~nalon/PDFS/JACMjoint1.pdf): definitions, existing qualitative characterization, small-slack lower bound and explicit quantitative question.
+- NST26, [COLT 2026 paper](https://proceedings.mlr.press/v336/nissim26a.html): independent current corroboration and finite-class motivation; full seven-page paper read after a direct PDF download.
+- Y25, [v2](https://arxiv.org/html/2505.06581v2): VC-one result.
+- L25, [v1](https://arxiv.org/html/2510.00076v1): general polynomial-Littlestone upper bound.
+- VALG26, [September 10 v2](https://arxiv.org/html/2608.13060v2): reported Cartesian-factor upper bound and threshold-minor lower bound, with full assumptions compared.
+- BKMS24, [ALT density-estimation paper](https://proceedings.mlr.press/v237/bun24b/bun24b.pdf): total-variation estimation impossibility, a different output target.
+- BCD24, [ALT computational-separation paper](https://proceedings.mlr.press/v237/bun24a/bun24a.pdf): polynomial-time restriction checked through formal dependencies.
+- BSR26, [generalized-smoothness manuscript](https://arxiv.org/html/2602.20585v1): known modulus and covering cost; finite-domain substitution does not remove the extra dependence.
+- V16, [tutorial manuscript](https://privacytools.seas.harvard.edu/sites/g/files/omnuum6656/files/privacytools/files/complexityprivacy_1.pdf): generic finite-class bound retains description length.
+- BKN10, [author manuscript](https://www.cs.bgu.ac.il/~beimel/Papers/BKN.pdf): pure-private proper-learning lower bound.
+- BF26, [v1](https://arxiv.org/html/2602.07370v1): decision-list PAC cost retains feature count; the separate online theorem retains a margin parameter.
+
+S425–S429 and separated A56 contain 28 actual queries. Complete nearest statements 318, 317 and 337 were compared. No matching resolution was located; reported preprint results and access limitations remain explicit. This is one problem family and no permanent ID is assigned before batch integration.

@@ -16289,5 +16289,229 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal year where shown",
     "review_stage": "Discovery follow-up: autocatalytic-core degradation uniqueness needs complete exceptional-family formulation and independent corroboration; private-learning historical questions need comparison with newer primary theorems. No admission."
+  },
+  {
+    "search_id": "S425-1",
+    "searched_on": "2026-09-19",
+    "query": "\"Does Differential Privacy Make PAC Learning Much Harder\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC quantitative question: explicit formulation, independent corroboration, recent upper bounds and candidate resolutions."
+  },
+  {
+    "search_id": "S425-2",
+    "searched_on": "2026-09-19",
+    "query": "\"Private Learning of Littlestone Classes, Revisited\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC quantitative question: explicit formulation, independent corroboration, recent upper bounds and candidate resolutions."
+  },
+  {
+    "search_id": "S425-3",
+    "searched_on": "2026-09-19",
+    "query": "\"private learning\" \"sample complexity\" \"log*\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC quantitative question: explicit formulation, independent corroboration, recent upper bounds and candidate resolutions."
+  },
+  {
+    "search_id": "S425-4",
+    "searched_on": "2026-09-19",
+    "query": "\"differential privacy\" \"Littlestone\" \"optimal\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC quantitative question: explicit formulation, independent corroboration, recent upper bounds and candidate resolutions."
+  },
+  {
+    "search_id": "S426-1",
+    "searched_on": "2026-09-19",
+    "query": "\"private learning\" \"poly\" \"log\" \"VC\" \"open\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC quantitative question: explicit formulation, independent corroboration, recent upper bounds and candidate resolutions."
+  },
+  {
+    "search_id": "S426-2",
+    "searched_on": "2026-09-19",
+    "query": "\"VC dimension\" \"Littlestone\" \"sample complexity\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC quantitative question: explicit formulation, independent corroboration, recent upper bounds and candidate resolutions."
+  },
+  {
+    "search_id": "S426-3",
+    "searched_on": "2026-09-19",
+    "query": "\"An Õptimal Differentially Private Learner for Concept Classes with VC Dimension 1\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC quantitative question: explicit formulation, independent corroboration, recent upper bounds and candidate resolutions."
+  },
+  {
+    "search_id": "S426-4",
+    "searched_on": "2026-09-19",
+    "query": "\"private PAC\" \"sample complexity\" \"superpolynomial\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC quantitative question: explicit formulation, independent corroboration, recent upper bounds and candidate resolutions."
+  },
+  {
+    "search_id": "S427-1",
+    "searched_on": "2026-09-19",
+    "query": "\"private learning\" \"log*\" \"VC\" \"counterexample\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC quantitative question: explicit formulation, independent corroboration, recent upper bounds and candidate resolutions."
+  },
+  {
+    "search_id": "S427-2",
+    "searched_on": "2026-09-19",
+    "query": "\"private learning\" \"polynomial\" \"Littlestone\" \"2026\" proof",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC quantitative question: explicit formulation, independent corroboration, recent upper bounds and candidate resolutions."
+  },
+  {
+    "search_id": "S427-3",
+    "searched_on": "2026-09-19",
+    "query": "\"private PAC\" \"sample complexity\" \"resolved\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC quantitative question: explicit formulation, independent corroboration, recent upper bounds and candidate resolutions."
+  },
+  {
+    "search_id": "S427-4",
+    "searched_on": "2026-09-19",
+    "query": "\"VC dimension\" \"private\" \"superpolynomial\" \"2025\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC quantitative question: explicit formulation, independent corroboration, recent upper bounds and candidate resolutions."
+  },
+  {
+    "search_id": "S428-1",
+    "searched_on": "2026-09-19",
+    "query": "\"Private and Online Learnability are Equivalent\" \"Journal\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC disqualification and metadata: density-estimation and efficient-learning separations; new distribution-restricted and Cartesian results; corrections and full parameter scope."
+  },
+  {
+    "search_id": "S428-2",
+    "searched_on": "2026-09-19",
+    "query": "\"Not All Learnable Distribution Classes are Privately Learnable\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC disqualification and metadata: density-estimation and efficient-learning separations; new distribution-restricted and Cartesian results; corrections and full parameter scope."
+  },
+  {
+    "search_id": "S428-3",
+    "searched_on": "2026-09-19",
+    "query": "\"private\" \"poly(VC\" \"log\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC disqualification and metadata: density-estimation and efficient-learning separations; new distribution-restricted and Cartesian results; corrections and full parameter scope."
+  },
+  {
+    "search_id": "S428-4",
+    "searched_on": "2026-09-19",
+    "query": "\"private PAC\" \"log-star\" proof counterexample",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC disqualification and metadata: density-estimation and efficient-learning separations; new distribution-restricted and Cartesian results; corrections and full parameter scope."
+  },
+  {
+    "search_id": "S429-1",
+    "searched_on": "2026-09-19",
+    "query": "\"private PAC\" \"VC\" \"log*\" \"proof\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC disqualification and metadata: density-estimation and efficient-learning separations; new distribution-restricted and Cartesian results; corrections and full parameter scope."
+  },
+  {
+    "search_id": "S429-2",
+    "searched_on": "2026-09-19",
+    "query": "\"Littlestone\" \"sample complexity\" \"September 2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC disqualification and metadata: density-estimation and efficient-learning separations; new distribution-restricted and Cartesian results; corrections and full parameter scope."
+  },
+  {
+    "search_id": "S429-3",
+    "searched_on": "2026-09-19",
+    "query": "\"private learning\" \"polynomial\" \"counterexample\" \"VC\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC disqualification and metadata: density-estimation and efficient-learning separations; new distribution-restricted and Cartesian results; corrections and full parameter scope."
+  },
+  {
+    "search_id": "S429-4",
+    "searched_on": "2026-09-19",
+    "query": "\"Private Learning of Littlestone Classes\" correction OR erratum",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft private-PAC disqualification and metadata: density-estimation and efficient-learning separations; new distribution-restricted and Cartesian results; corrections and full parameter scope."
+  },
+  {
+    "search_id": "A56-1",
+    "searched_on": "2026-09-19",
+    "query": "\"private PAC learning\" \"VC\" \"polynomial\" \"2026\" \"lower bound\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A56 adversarial private-PAC review: privacy normalization, proper/pure and computational separations, decision-list bounds, recent counterexamples and indirect reductions."
+  },
+  {
+    "search_id": "A56-2",
+    "searched_on": "2026-09-19",
+    "query": "\"Littlestone\" \"log-star\" \"sample\" solved",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A56 adversarial private-PAC review: privacy normalization, proper/pure and computational separations, decision-list bounds, recent counterexamples and indirect reductions."
+  },
+  {
+    "search_id": "A56-3",
+    "searched_on": "2026-09-19",
+    "query": "\"private learning\" \"VC dimension\" \"inverse polynomial\" delta",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A56 adversarial private-PAC review: privacy normalization, proper/pure and computational separations, decision-list bounds, recent counterexamples and indirect reductions."
+  },
+  {
+    "search_id": "A56-4",
+    "searched_on": "2026-09-19",
+    "query": "\"sample complexity\" \"log*\" \"Littlestone\" \"counterexample\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A56 adversarial private-PAC review: privacy normalization, proper/pure and computational separations, decision-list bounds, recent counterexamples and indirect reductions."
+  },
+  {
+    "search_id": "A56-5",
+    "searched_on": "2026-09-19",
+    "query": "\"Privately Learning Decision Lists and a Differentially Private Winnow\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A56 adversarial private-PAC review: privacy normalization, proper/pure and computational separations, decision-list bounds, recent counterexamples and indirect reductions."
+  },
+  {
+    "search_id": "A56-6",
+    "searched_on": "2026-09-19",
+    "query": "\"private PAC\" \"poly(VC\" \"log\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A56 adversarial private-PAC review: privacy normalization, proper/pure and computational separations, decision-list bounds, recent counterexamples and indirect reductions."
+  },
+  {
+    "search_id": "A56-7",
+    "searched_on": "2026-09-19",
+    "query": "\"private learning\" \"inverse cubic\" privacy",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A56 adversarial private-PAC review: privacy normalization, proper/pure and computational separations, decision-list bounds, recent counterexamples and indirect reductions."
+  },
+  {
+    "search_id": "A56-8",
+    "searched_on": "2026-09-19",
+    "query": "\"private PAC\" \"log\" \"Littlestone\" \"counterexample\" 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A56 adversarial private-PAC review: privacy normalization, proper/pure and computational separations, decision-list bounds, recent counterexamples and indirect reductions."
   }
 ]
