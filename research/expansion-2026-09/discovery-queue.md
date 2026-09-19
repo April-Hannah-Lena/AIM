@@ -484,3 +484,13 @@ The [accepted research draft](drafts/brownian-fleming-viot-nonexplosion.md) asks
 The 48 actual queries in this discovery/review pass bring the search log to 2,208 unique identifiers. There are 59 accepted additions, 50 integrated/published, nine pending accepted drafts, six holds and 65 formal records. The active catalogue remains 350. One further accepted draft is needed for the next ten-entry batch; the minimum requires 141 further acceptances and 150 integrations. Rendering and bibliography checks passed. The reviewed research checkpoint is ready for the authorized direct push to main. The next discovery group is S471 and the next separated review is A62.
 
 Publication receipt: [97362b7](https://github.com/MColbrook/AIM/commit/97362b77ba6a8108c3c92fe1b9f631dafe660834) was pushed directly to main on September 19, 2026. A separate remote-ref read matched the full research commit. All nine accepted drafts and their evidence are uploaded; counts remain 59 accepted additions, 50 integrated and 350 active catalogue entries.
+
+
+## September 19 breadth discovery before batch 6
+
+S471–S472 found two potentially matching recent disproof claims. These remain discovery-only and receive no formal candidate or accepted count:
+
+- Mihail–Vazirani 0/1-polytope edge expansion: Xiongxin Yang's [August 3, 2026 claim](https://arxiv.org/abs/2608.01870), *0/1-Polytopes with Exponentially Small Edge Expansion*, matches the named target at abstract level. The full proof was not adjudicated; do not admit the conjecture on an old open-status citation.
+- Complementary–quantum correlation: [Jinbo Wang, Qihang Wang and Kun Chen](https://arxiv.org/abs/2608.03828) claim counterexamples to CQC and ECQC. The primary abstract was opened, but the full counterexample proof was not adjudicated. Hasan Iqbal's [2026 sufficient-condition paper](https://link.springer.com/article/10.1007/s11128-026-05258-2), including its conditional Proposition 3, does not resolve this later claim.
+
+Moser's worm is already represented by entry 252 and receives no duplicate count. Hadwiger illumination and related packing leads have not passed formulation, corroboration and resolution review. Ulam's distinct global convex-solid packing question passed A62 and joins batch 6.

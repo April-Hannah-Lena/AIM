@@ -1,8 +1,8 @@
-# Polynomial-time proper learning of univariate Gaussian mixtures
+# 358. Polynomial-time proper learning of univariate Gaussian mixtures
 
 **Area:** Statistical density estimation and unsupervised learning
 
-**Status:** Accepted; integrated as entry 358
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-19
 
@@ -55,6 +55,6 @@ Li–Schmidt obtain nearly optimal sample complexity, with a runtime containing 
 
 The score-matching result retains conditioning and weight parameters and produces a sampler. Robust Gaussian-mixture algorithms with a fixed number of components retain $k$-dependent accuracy exponents. He–Cheng's August 2026 preprint obtains a sharp statistical rate for fixed-$k$ location mixtures; its explicit runtime bound still has a $k$-dependent exponent, and its means and variances are restricted. Certified nonparametric maximum-likelihood computation for location mixtures uses a common fixed variance and does not impose the target component limit. Known hardness results inspected here concern arbitrary-data likelihood optimization or a growing ambient dimension; neither establishes hardness of this one-dimensional sampling question.
 
-Searches covered proper and nearly-proper learning, univariate Gaussian mixtures, recent algorithms, resolution claims, corrections and withdrawals. Exact theorem comparisons, source versions and access limits are recorded in the [evidence ledger](../candidates/univariate-gaussian-mixture-proper-learning.json). Nearby catalogue questions concern [sample compression](../../../problems/318-linear-sample-compression.md), [independence of Gaussian polynomial statistics](../../../problems/328-gaussian-polynomial-unlinking.md) and [Boolean rule learning](../../../problems/337-classical-uniform-dnf-learning.md). The [private-PAC problem](private-pac-vc-logstar.md) concerns the sample cost of private classification. None asks for this density-estimation algorithm. All component counts and equivalent total-variation conventions are one problem family.
+Searches covered proper and nearly-proper learning, univariate Gaussian mixtures, recent algorithms, resolution claims, corrections and withdrawals. Exact theorem comparisons, source versions and access limits are recorded in the [evidence ledger](../research/expansion-2026-09/candidates/univariate-gaussian-mixture-proper-learning.json). Nearby catalogue questions concern [sample compression](318-linear-sample-compression.md), [independence of Gaussian polynomial statistics](328-gaussian-polynomial-unlinking.md) and [Boolean rule learning](337-classical-uniform-dnf-learning.md). The [private-PAC problem](354-private-pac-vc-logstar.md) concerns the sample cost of private classification. None asks for this density-estimation algorithm. All component counts and equivalent total-variation conventions are one problem family.
 
 A separate adversarial self-review checked the quantifiers, computation model, source versions and possible indirect resolutions. This was not an independent expert review or a certification of the cited proofs. The source ledger records full-text access alternatives and the limits of each comparison.

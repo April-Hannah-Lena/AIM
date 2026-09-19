@@ -1,6 +1,6 @@
 {
   "candidate_id": "brownian-fleming-viot-nonexplosion",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "359",
   "title": "Non-explosion of Brownian Fleming–Viot systems in arbitrary domains",
   "primary_section": "stochastic2",
   "secondary_tags": [
@@ -39,7 +39,7 @@
       "locator": "Section 1, pp.1–3: full Brownian construction, earlier proof error and distinct drift counterexamples."
     }
   ],
-  "publication_state": "Accepted research draft and evidence pushed directly to main in 97362b77ba6a8108c3c92fe1b9f631dafe660834; a separate remote-ref read matched the exact commit on September 19, 2026. No permanent ID until the next integration batch.",
+  "publication_state": "Accepted and integrated locally in batch 6; direct publication pending final validation.",
   "source_records": [
     {
       "source_id": "B-open",
@@ -168,6 +168,20 @@
       "accessed_on": "2026-09-19",
       "identity_verified": true,
       "proof_certification": false
+    },
+    {
+      "source_id": "V13",
+      "authors": [
+        "Denis Villemonais"
+      ],
+      "title": "Uniform tightness for time-inhomogeneous particle systems and for conditional distributions of time-inhomogeneous diffusion processes",
+      "url": "https://arxiv.org/pdf/1203.4825v1",
+      "version": "Inspected arXiv v1, March 21, 2012; published Markov Processes and Related Fields 19(3) (2013), 543–562.",
+      "locator": "Section 2 construction, Hypotheses 1–2 and Theorem 1, internal pp.4–6.",
+      "read": "Read full boundary-distance regularity, diffusion and jump-kernel assumptions, and complete non-explosion theorem.",
+      "accessed_on": "2026-09-19",
+      "access_limit": "The theorem is a restatement of an earlier non-explosion criterion; no independent proof certification.",
+      "proof_certification": false
     }
   ],
   "aliases": [
@@ -266,6 +280,14 @@
       "source_id": "BBF12",
       "locator": "Preprint Theorems 7.1–7.2.",
       "comparison": "Ergodicity and the stationary Dirichlet-eigenfunction approximation use the specified regular Lipschitz class. They justify the application connection without solving fixed-N existence for arbitrary D."
+    },
+    {
+      "source_id": "V13",
+      "locator": "Hypothesis 1(1) and Theorem 1, pp.5–6",
+      "result_scope": "Non-explosion follows under Hypotheses 1–2, including a C^2 boundary-distance function with uniformly bounded derivatives in a fixed boundary neighbourhood.",
+      "comparison_with_target": "This repeats a regular-boundary sufficient criterion and does not address all bounded connected open domains.",
+      "full_relevant_statement_read": true,
+      "proof_certification": false
     }
   ],
   "nearest_existing_entries": [
@@ -336,21 +358,17 @@
   },
   "prepublication_refresh": {
     "date": "2026-09-19",
-    "latest_target_commit": "430d1597b2d5f8f0f2a76cac38271bb09ea0db0b",
+    "latest_target_commit": "73c787d1add623ce7ede59766e018b51ea4e1a1e",
     "resolution_searches_refreshed": true,
     "duplicate_review_refreshed": true,
     "search_ids": [
-      "A61-1",
-      "A61-2",
-      "A61-3",
-      "A61-4",
-      "A61-5",
-      "A61-6",
-      "A61-7",
-      "A61-8"
+      "R6-17",
+      "R6-18",
+      "R6-21"
     ],
-    "upstream": "Bounded SSH fetch succeeded; HEAD and origin/main match exactly, with zero divergence. Origin is git@github.com:MColbrook/AIM.git. Connected GitHub search returned no open PRs.",
-    "outcome": "No matching resolution or equivalent upstream addition located. Refresh again before permanent-ID integration."
+    "outcome": "Additionally inspected V13 full non-explosion criterion; it retains C^2 boundary-distance regularity. The arbitrary-domain N>=3 remainder is unchanged.",
+    "upstream": "SSH fetch matches HEAD and origin/main; private MColbrook/AIM and push permission reconfirmed. No open PRs; paginated branch search found only main.",
+    "duplicate_scope": "Established complete baseline, all 350 active entries, all ten complete drafts and nearest-family comparisons. No new upstream change or duplicate target."
   },
   "discovery_access_limits": [
     {
@@ -376,5 +394,14 @@
     "external_links": "All nine bibliography URLs returned HTTP 200; the six PDF URLs have PDF headers. Springer metadata and preview access are distinguished from full text.",
     "external_link_record": "research/expansion-2026-09/brownian-fleming-viot-nonexplosion-link-check.json",
     "structural": "Catalogue validation passed for 350 unique entries; all four draft local links resolve. All source/search IDs exist. Sixty-five records reconcile to 59 accepted, five claimed-resolution holds and one unverified hold; 50 integrated, nine pending. Primary-section coverage exactly matches accepted records. The search log has 2,208 unique IDs. Git whitespace checks passed."
+  },
+  "public_page_path": "problems/359-brownian-fleming-viot-nonexplosion.md",
+  "batch_validation": {
+    "batch": "351–360",
+    "date": "2026-09-19",
+    "strict_katex_expressions": 21,
+    "draft_public_math_match": true,
+    "structural": "Catalogue validation passed for 360 unique entries. All 350 earlier pages and metadata values are unchanged.",
+    "links": "See batch-06-link-check.json; all checked local links resolve."
   }
 }

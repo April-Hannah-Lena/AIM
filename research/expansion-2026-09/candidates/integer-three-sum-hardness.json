@@ -1,6 +1,6 @@
 {
   "candidate_id": "integer-three-sum-hardness",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "351",
   "title": "The modern integer 3SUM conjecture",
   "primary_section": "operators",
   "decision": "accept_open",
@@ -27,7 +27,7 @@
   },
   "fingerprint_recorded_on": "2026-09-18",
   "fingerprint_recorded_before_draft": true,
-  "actual_status_check_date": "2026-09-18",
+  "actual_status_check_date": "2026-09-19",
   "statement_sources": [
     {
       "source_id": "BRSV17",
@@ -97,7 +97,7 @@
     "A53-12"
   ],
   "draft_path": "research/expansion-2026-09/drafts/integer-three-sum-hardness.md",
-  "publication_state": "Accepted draft and evidence pushed directly to main; no permanent ID or active catalogue entry. Awaiting the next integration batch.",
+  "publication_state": "Accepted and integrated locally in batch 6; direct publication pending final validation.",
   "second_review": {
     "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass; no independent agent or human review.",
     "pass_id": "A53",
@@ -325,6 +325,20 @@
       "read": "Original full text is subscription restricted. Exact logarithmic bound is visible in publisher mathematics and independently restated in the accessible C19 full text. No claim of reading the paywalled proof.",
       "identity_verified": true,
       "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "KP19",
+      "authors": [
+        "Tsvi Kopelowitz",
+        "Ely Porat"
+      ],
+      "title": "The Strong 3SUM-INDEXING Conjecture is False",
+      "url": "https://arxiv.org/html/1907.11206v1",
+      "version": "arXiv:1907.11206v1, July 25, 2019; sole listed revision.",
+      "locator": "Section 1, Conjecture 1.1 and Theorem 1.1; Section 2, Theorems 2.1–2.2, footnote 1 and hashing/preprocessing discussion.",
+      "read": "Read complete model, theorem statements and algorithm analysis. The proof explicitly allows unlimited preprocessing.",
+      "accessed_on": "2026-09-19",
+      "proof_certification": false
     }
   ],
   "resolution_comparisons": [
@@ -405,6 +419,14 @@
       "locator": "Publisher abstract; accessible full-text restatement C19 §1, p. 7:2",
       "result_scope": "Deterministic O(n^2*log log n/log n) for 3SUM.",
       "mismatch": "The improvement is logarithmic. Original proof inaccessible; exact bound is independently restated in full scholarly text, with no conflicting claim located."
+    },
+    {
+      "source_id": "KP19",
+      "locator": "Theorem 1.1 and Section 2, footnote 1",
+      "result_scope": "Subquadratic space and sublinear query time for 3SUM indexing, allowing unlimited preprocessing time.",
+      "comparison_with_target": "This refutes the strong indexing conjecture, not the total-time integer 3SUM conjecture. The present entry counts preprocessing on each input.",
+      "full_relevant_statement_read": true,
+      "proof_certification": false
     }
   ],
   "validation": {
@@ -422,5 +444,27 @@
     "pushed_to": "MColbrook/AIM main",
     "verified_on": "2026-09-18",
     "verification": "A separate git ls-remote origin refs/heads/main call matched the full local commit after the push."
+  },
+  "public_page_path": "problems/351-integer-three-sum-hardness.md",
+  "prepublication_refresh": {
+    "date": "2026-09-19",
+    "latest_target_commit": "73c787d1add623ce7ede59766e018b51ea4e1a1e",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R6-1",
+      "R6-2"
+    ],
+    "outcome": "General 2026 indexing results retain preprocessing costs; additionally inspected KP19 full theorem/algorithm and unlimited-preprocessing footnote. No total-time fixed-power speedup found.",
+    "upstream": "SSH fetch matches HEAD and origin/main; private MColbrook/AIM and push permission reconfirmed. No open PRs; paginated branch search found only main.",
+    "duplicate_scope": "Established complete baseline, all 350 active entries, all ten complete drafts and nearest-family comparisons. No new upstream change or duplicate target."
+  },
+  "batch_validation": {
+    "batch": "351–360",
+    "date": "2026-09-19",
+    "strict_katex_expressions": 17,
+    "draft_public_math_match": true,
+    "structural": "Catalogue validation passed for 360 unique entries. All 350 earlier pages and metadata values are unchanged.",
+    "links": "See batch-06-link-check.json; all checked local links resolve."
   }
 }

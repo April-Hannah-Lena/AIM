@@ -1,0 +1,65 @@
+{
+  "checked_on": "2026-09-19",
+  "candidate": "ulam-convex-solid-packing",
+  "method": "Direct GET; PDF headers checked. Access is distinct from proof review.",
+  "bibliography": [
+    {
+      "url": "https://arxiv.org/pdf/1305.0289v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1305.0289v2",
+      "pdf_header": true,
+      "bytes": 616930
+    },
+    {
+      "url": "https://arxiv.org/pdf/1212.2551v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1212.2551v3",
+      "pdf_header": true,
+      "bytes": 423044
+    },
+    {
+      "url": "https://hmakse.ccny.cuny.edu/wp-content/uploads/2015/06/RevModPhys.90.015006-1.pdf",
+      "status": 200,
+      "final_url": "https://hmakse.ccny.cuny.edu/wp-content/uploads/2015/06/RevModPhys.90.015006-1.pdf",
+      "pdf_header": true,
+      "bytes": 6321889
+    },
+    {
+      "url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v162-n3-p01.pdf",
+      "status": 200,
+      "final_url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v162-n3-p01.pdf",
+      "pdf_header": true,
+      "bytes": 2104959
+    },
+    {
+      "url": "https://arxiv.org/pdf/1001.0586v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1001.0586v3",
+      "pdf_header": true,
+      "bytes": 6107891
+    },
+    {
+      "url": "https://arxiv.org/pdf/1508.05398v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1508.05398v2",
+      "pdf_header": true,
+      "bytes": 1261524
+    }
+  ],
+  "additional_source_checks": [
+    {
+      "url": "https://arxiv.org/pdf/2508.11633v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2508.11633v1",
+      "pdf_header": true,
+      "bytes": 3913223
+    },
+    {
+      "url": "https://glotzerlab.engin.umich.edu/home/publications-pdfs/2010/Fs00454-010-9273-0.pdf",
+      "status": 403,
+      "final_url": "https://glotzerlab.engin.umich.edu/home/publications-pdfs/2010/Fs00454-010-9273-0.pdf",
+      "pdf_header": false,
+      "bytes": 146
+    }
+  ]
+}

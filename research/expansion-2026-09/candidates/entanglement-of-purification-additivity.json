@@ -1,6 +1,6 @@
 {
   "candidate_id": "entanglement-of-purification-additivity",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "353",
   "title": "Additivity of entanglement of purification",
   "primary_section": "spectral3",
   "decision": "accept_open",
@@ -109,7 +109,7 @@
     "A55-8"
   ],
   "draft_path": "research/expansion-2026-09/drafts/entanglement-of-purification-additivity.md",
-  "publication_state": "Accepted draft and evidence pushed directly to main; no permanent ID or active catalogue entry. Awaiting the next integration batch.",
+  "publication_state": "Accepted and integrated locally in batch 6; direct publication pending final validation.",
   "second_review": {
     "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass; no independent agent or human review.",
     "pass_id": "A55",
@@ -378,5 +378,27 @@
     "commit": "f2a1955608c3045330208be169de9360dc845df9",
     "verified_on": "2026-09-19",
     "verification": "Normal HEAD:main push succeeded; a separate git ls-remote origin refs/heads/main returned the exact full content commit."
+  },
+  "public_page_path": "problems/353-entanglement-of-purification-additivity.md",
+  "prepublication_refresh": {
+    "date": "2026-09-19",
+    "latest_target_commit": "73c787d1add623ce7ede59766e018b51ea4e1a1e",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R6-5",
+      "R6-6"
+    ],
+    "outcome": "The August 28 preprint still lists only v1; subunit Renyi-order counterexamples and von Neumann remainder unchanged.",
+    "upstream": "SSH fetch matches HEAD and origin/main; private MColbrook/AIM and push permission reconfirmed. No open PRs; paginated branch search found only main.",
+    "duplicate_scope": "Established complete baseline, all 350 active entries, all ten complete drafts and nearest-family comparisons. No new upstream change or duplicate target."
+  },
+  "batch_validation": {
+    "batch": "351–360",
+    "date": "2026-09-19",
+    "strict_katex_expressions": 19,
+    "draft_public_math_match": true,
+    "structural": "Catalogue validation passed for 360 unique entries. All 350 earlier pages and metadata values are unchanged.",
+    "links": "See batch-06-link-check.json; all checked local links resolve."
   }
 }

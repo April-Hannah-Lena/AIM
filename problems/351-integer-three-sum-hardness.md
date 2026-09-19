@@ -1,8 +1,8 @@
-# The modern integer 3SUM conjecture
+# 351. The modern integer 3SUM conjecture
 
 **Area:** Exact algorithms and computational complexity
 
-**Status:** Accepted; integrated as entry 351
+**Status:** Open in cited literature; no later resolution located as of 2026-09-19.
 
 **Last checked:** 2026-09-19
 
@@ -64,6 +64,6 @@ Chan–Lewenstein's truly subquadratic result assumes that an input set can be c
 
 The 2026 triangle algorithms [8] save factors depending on the word size. At $w=\Theta(\log n)$ their relevant guarantees supply logarithmic savings, preserving the polynomial exponents. Their four-cycle result allowing larger words and their dense-graph special case do not establish the displayed general 3SUM speedup.
 
-The September 18–19, 2026 searches covered the integer and modern 3SUM names, proof and refutation claims, unrestricted dates, 2025–2026 results, author corrections and version histories. The [evidence ledger](../candidates/integer-three-sum-hardness.json) records exact scopes and the separated review. Supporting proofs were inspected as needed for scope, not independently certified in full.
+The September 18–19, 2026 searches covered the integer and modern 3SUM names, proof and refutation claims, unrestricted dates, 2025–2026 results, author corrections and version histories. The [evidence ledger](../research/expansion-2026-09/candidates/integer-three-sum-hardness.json) records exact scopes and the separated review. Supporting proofs were inspected as needed for scope, not independently certified in full.
 
-[Matrix multiplication](../../../problems/033-matrix-multiplication-exponent.md) asks about a different operation in an exact scalar-arithmetic model. [Log-rank](../../../problems/301-log-rank.md) counts communication with unrestricted local computation. [Polynomial identity testing](../../../problems/321-deterministic-polynomial-identity-testing.md) asks for deterministic polynomial time on a compact circuit representation. None is the same assertion as this bounded-word, randomized exponent lower bound.
+[Matrix multiplication](033-matrix-multiplication-exponent.md) asks about a different operation in an exact scalar-arithmetic model. [Log-rank](301-log-rank.md) counts communication with unrestricted local computation. [Polynomial identity testing](321-deterministic-polynomial-identity-testing.md) asks for deterministic polynomial time on a compact circuit representation. None is the same assertion as this bounded-word, randomized exponent lower bound.

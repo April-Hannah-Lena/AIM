@@ -214,5 +214,13 @@
     "file": "problems/335-chemotaxis-consumption-classical-continuation.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-18"
+  },
+  {
+    "id": "360",
+    "title": "The ball as the least densely packable convex solid",
+    "area": "Convex geometry and particle packing",
+    "file": "problems/360-ulam-convex-solid-packing.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-19"
   }
 ]

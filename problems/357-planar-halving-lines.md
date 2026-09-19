@@ -1,8 +1,8 @@
-# The near-linear bound for planar halving lines
+# 357. The near-linear bound for planar halving lines
 
 **Area:** Computational geometry and parametric selection
 
-**Status:** Accepted; integrated as entry 357
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-19
 
@@ -49,6 +49,6 @@ halving edges, for all sufficiently large even $n$, with natural logarithms. Thi
 
 The 2024 upper-bound improvement subtracts a term of order $n$ while retaining exponent $4/3$. The 2025 odd-cardinality constructions and recurrence inequalities do not close this exponent gap. Streltsova–Wagner's sublevel theorem concerns $n$ vectors in dimension $n-3$ and levels at most one; its Remark 7 separates that result from the unresolved planar question. Their nonpointed spherical configurations cannot be substituted for affine planar point sets. Bounds for dense or random point sets, for pseudolines, and for general parametric matroids also require separate scope checks.
 
-Searches covered the named conjecture, halving edges, middle levels, explicit bounds, proof and counterexample claims, corrections and 2025–2026 results. A July 2026 preprint about improved lower bounds for small sets was accessible only through indexed metadata and an incomplete abstract; its results are not used here. The [evidence ledger](../candidates/planar-halving-lines.json) records these limits and the theorem comparisons. Nearest existing entries concern [sparse discrepancy](../../../problems/032-beck-fiala.md), [opaque sensing barriers](../../../problems/129-shortest-opaque-square-barrier.md), [connection-network lengths](../../../problems/287-planar-steiner-ratio.md) and [polytope graph diameter](../../../problems/322-polynomial-hirsch.md); none asks for this extremal count. No additional entry is allocated to another formulation of the same family.
+Searches covered the named conjecture, halving edges, middle levels, explicit bounds, proof and counterexample claims, corrections and 2025–2026 results. A July 2026 preprint about improved lower bounds for small sets was accessible only through indexed metadata and an incomplete abstract; its results are not used here. The [evidence ledger](../research/expansion-2026-09/candidates/planar-halving-lines.json) records these limits and the theorem comparisons. Nearest existing entries concern [sparse discrepancy](032-beck-fiala.md), [opaque sensing barriers](129-shortest-opaque-square-barrier.md), [connection-network lengths](287-planar-steiner-ratio.md) and [polytope graph diameter](322-polynomial-hirsch.md); none asks for this extremal count. No additional entry is allocated to another formulation of the same family.
 
 The separated A59 adversarial self-review passed on September 19, 2026. No independent agent or human review is claimed.

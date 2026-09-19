@@ -286,5 +286,13 @@
     "file": "problems/350-unit-job-unique-machine-hardness.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-18"
+  },
+  {
+    "id": "352",
+    "title": "The modified integer round-up conjecture for cutting stock",
+    "area": "Stochastic dynamics, reaction networks and applied optimization",
+    "file": "problems/352-modified-integer-round-up.md",
+    "status": "Open in cited literature; no later resolution located as of 2026-09-19.",
+    "last_checked": "2026-09-19"
   }
 ]

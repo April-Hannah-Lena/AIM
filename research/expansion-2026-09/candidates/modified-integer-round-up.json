@@ -1,6 +1,6 @@
 {
   "candidate_id": "modified-integer-round-up",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "352",
   "title": "The modified integer round-up conjecture for cutting stock",
   "primary_section": "stochastic3",
   "decision": "accept_open",
@@ -111,7 +111,7 @@
     "A54-14"
   ],
   "draft_path": "research/expansion-2026-09/drafts/modified-integer-round-up.md",
-  "publication_state": "Accepted draft and evidence pushed directly to main; no permanent ID or active catalogue entry. Awaiting the next integration batch.",
+  "publication_state": "Accepted and integrated locally in batch 6; direct publication pending final validation.",
   "second_review": {
     "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass; no independent agent or human review.",
     "pass_id": "A54",
@@ -433,5 +433,27 @@
     "pushed_to": "MColbrook/AIM main",
     "verified_on": "2026-09-19",
     "verification": "A separate git ls-remote origin refs/heads/main call matched the full local content commit after the push."
+  },
+  "public_page_path": "problems/352-modified-integer-round-up.md",
+  "prepublication_refresh": {
+    "date": "2026-09-19",
+    "latest_target_commit": "73c787d1add623ce7ede59766e018b51ea4e1a1e",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R6-3",
+      "R6-4"
+    ],
+    "outcome": "Queries recover restricted-instance results and ordinary-rounding counterexamples already compared in the ledger; no ceiling-plus-one counterexample or general proof found.",
+    "upstream": "SSH fetch matches HEAD and origin/main; private MColbrook/AIM and push permission reconfirmed. No open PRs; paginated branch search found only main.",
+    "duplicate_scope": "Established complete baseline, all 350 active entries, all ten complete drafts and nearest-family comparisons. No new upstream change or duplicate target."
+  },
+  "batch_validation": {
+    "batch": "351–360",
+    "date": "2026-09-19",
+    "strict_katex_expressions": 20,
+    "draft_public_math_match": true,
+    "structural": "Catalogue validation passed for 360 unique entries. All 350 earlier pages and metadata values are unchanged.",
+    "links": "See batch-06-link-check.json; all checked local links resolve."
   }
 }

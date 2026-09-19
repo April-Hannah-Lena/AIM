@@ -1,6 +1,6 @@
 {
   "candidate_id": "univariate-gaussian-mixture-proper-learning",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "358",
   "title": "Polynomial-time proper learning of univariate Gaussian mixtures",
   "primary_section": "applied",
   "secondary_tags": [
@@ -40,7 +40,7 @@
       "locator": "Section 1.6, author-manuscript pp.13–14, Open Problem 1.6.2 on parametric mixtures in the context of univariate Gaussian mixtures."
     }
   ],
-  "publication_state": "Accepted research draft and evidence pushed directly to main in b232a42d35c4b0c5081dca103553e7084e774a06; a separate remote-ref read matched the exact commit on September 19, 2026. No permanent ID until the next integration batch.",
+  "publication_state": "Accepted and integrated locally in batch 6; direct publication pending final validation.",
   "aliases": [
     "proper density learning of univariate Gaussian mixtures",
     "polynomial-time exact-k GMM learning",
@@ -460,25 +460,16 @@
   },
   "prepublication_refresh": {
     "date": "2026-09-19",
-    "latest_target_commit": "82700726a26ac9bc3229f13c57d279a75342ac12",
+    "latest_target_commit": "73c787d1add623ce7ede59766e018b51ea4e1a1e",
     "resolution_searches_refreshed": true,
     "duplicate_review_refreshed": true,
     "search_ids": [
-      "A60-1",
-      "A60-2",
-      "A60-3",
-      "A60-4",
-      "A60-5",
-      "A60-6",
-      "A60-7",
-      "A60-8",
-      "S460-1",
-      "S460-2",
-      "S460-3",
-      "S460-4"
+      "R6-15",
+      "R6-16"
     ],
-    "upstream": "Bounded SSH fetch succeeded; local HEAD and origin/main exactly equal, zero divergence. Only origin git@github.com:MColbrook/AIM.git is configured. Connected GitHub open-PR search returned an empty list.",
-    "outcome": "No equivalent upstream addition or matching resolution located. Refresh again before assigning a permanent ID in a later integration batch."
+    "outcome": "Hits recover fixed-k and improper density-estimation results already distinguished in the source record. No uniform polynomial proper all-k algorithm or matching hardness theorem found.",
+    "upstream": "SSH fetch matches HEAD and origin/main; private MColbrook/AIM and push permission reconfirmed. No open PRs; paginated branch search found only main.",
+    "duplicate_scope": "Established complete baseline, all 350 active entries, all ten complete drafts and nearest-family comparisons. No new upstream change or duplicate target."
   },
   "discovery_access_limits": [
     {
@@ -504,5 +495,14 @@
     "external_links": "All eight external bibliography URLs returned HTTP 200 with PDF headers in direct GET checks.",
     "external_link_record": "research/expansion-2026-09/univariate-gaussian-mixture-proper-learning-link-check.json",
     "structural": "Catalogue validation passed for 350 entries; all five draft local links resolve. All source and search IDs exist. Sixty-four records reconcile to 58 accepted, five claimed-resolution holds and one unverified hold; 50 integrated, eight pending. Coverage by primary section exactly matches the accepted records and sums to 58. Actual search log has 2,160 unique IDs. Git diff whitespace checks passed."
+  },
+  "public_page_path": "problems/358-univariate-gaussian-mixture-proper-learning.md",
+  "batch_validation": {
+    "batch": "351–360",
+    "date": "2026-09-19",
+    "strict_katex_expressions": 31,
+    "draft_public_math_match": true,
+    "structural": "Catalogue validation passed for 360 unique entries. All 350 earlier pages and metadata values are unchanged.",
+    "links": "See batch-06-link-check.json; all checked local links resolve."
   }
 }

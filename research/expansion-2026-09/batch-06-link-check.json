@@ -1,0 +1,621 @@
+{
+  "checked_on": "2026-09-19",
+  "batch": "351–360",
+  "method": "Direct GET; PDF headers recorded. Bibliographic access is not proof certification.",
+  "results": [
+    {
+      "url": "http://www.iliasdiakonikolas.org/distribution-learning-survey.pdf",
+      "status": 200,
+      "final_url": "http://www.iliasdiakonikolas.org/distribution-learning-survey.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 276841
+    },
+    {
+      "url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v162-n3-p01.pdf",
+      "status": 200,
+      "final_url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v162-n3-p01.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 2104959
+    },
+    {
+      "url": "https://arxiv.org/html/1404.0799v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/1404.0799v3",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 654558
+    },
+    {
+      "url": "https://arxiv.org/html/2007.08204v4",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2007.08204v4",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 1368848
+    },
+    {
+      "url": "https://arxiv.org/html/2010.00478v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2010.00478v3",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 660570
+    },
+    {
+      "url": "https://arxiv.org/html/2505.06581v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2505.06581v2",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 528248
+    },
+    {
+      "url": "https://arxiv.org/html/2510.00076v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2510.00076v1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 548725
+    },
+    {
+      "url": "https://arxiv.org/html/2604.05152v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2604.05152v2",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 660206
+    },
+    {
+      "url": "https://arxiv.org/html/2605.15439v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2605.15439v1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 1270627
+    },
+    {
+      "url": "https://arxiv.org/html/2606.27727v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2606.27727v1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 550621
+    },
+    {
+      "url": "https://arxiv.org/html/2607.17421v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2607.17421v1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 728001
+    },
+    {
+      "url": "https://arxiv.org/html/2608.13060v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.13060v2",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 1176751
+    },
+    {
+      "url": "https://arxiv.org/html/2608.22355v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.22355v1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 465266
+    },
+    {
+      "url": "https://arxiv.org/html/2608.28897v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.28897v1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 535115
+    },
+    {
+      "url": "https://arxiv.org/html/2609.01529v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2609.01529v1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 483910
+    },
+    {
+      "url": "https://arxiv.org/pdf/0905.1999v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/0905.1999v1",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 372852
+    },
+    {
+      "url": "https://arxiv.org/pdf/1001.0586v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1001.0586v3",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 6107891
+    },
+    {
+      "url": "https://arxiv.org/pdf/1007.2170",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1007.2170",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 206585
+    },
+    {
+      "url": "https://arxiv.org/pdf/1206.1307v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1206.1307v1",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 148368
+    },
+    {
+      "url": "https://arxiv.org/pdf/1212.2551v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1212.2551v3",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 423044
+    },
+    {
+      "url": "https://arxiv.org/pdf/1305.0289v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1305.0289v2",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 616930
+    },
+    {
+      "url": "https://arxiv.org/pdf/1502.01272v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1502.01272v3",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 3527304
+    },
+    {
+      "url": "https://arxiv.org/pdf/1502.05204v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1502.05204v1",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 288009
+    },
+    {
+      "url": "https://arxiv.org/pdf/1503.08796",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1503.08796",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 207204
+    },
+    {
+      "url": "https://arxiv.org/pdf/1508.05398v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1508.05398v2",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 1261524
+    },
+    {
+      "url": "https://arxiv.org/pdf/2004.01937",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2004.01937",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 385312
+    },
+    {
+      "url": "https://arxiv.org/pdf/2007.07874v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2007.07874v3",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 536515
+    },
+    {
+      "url": "https://arxiv.org/pdf/2101.07726v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2101.07726v2",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 267746
+    },
+    {
+      "url": "https://arxiv.org/pdf/2106.02774v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2106.02774v2",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 537456
+    },
+    {
+      "url": "https://arxiv.org/pdf/2112.01443v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2112.01443v1",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 115448
+    },
+    {
+      "url": "https://arxiv.org/pdf/2207.02030v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2207.02030v3",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 815237
+    },
+    {
+      "url": "https://arxiv.org/pdf/2211.07048v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2211.07048v2",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 699282
+    },
+    {
+      "url": "https://arxiv.org/pdf/2608.12701v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2608.12701v1",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 328347
+    },
+    {
+      "url": "https://arxiv.org/pdf/quant-ph/0202044v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/quant-ph/0202044v3",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 233006
+    },
+    {
+      "url": "https://courses.cs.duke.edu/cps234/fall08/handouts/dey.pdf",
+      "status": 200,
+      "final_url": "https://courses.cs.duke.edu/cps234/fall08/handouts/dey.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 114307
+    },
+    {
+      "url": "https://d-nb.info/1321707789/34",
+      "status": 200,
+      "final_url": "https://d-nb.info/1321707789/34",
+      "content_type": "application/pdf;charset=base64",
+      "pdf_header": true,
+      "bytes": 355567
+    },
+    {
+      "url": "https://digital.lib.washington.edu/server/api/core/bitstreams/b0fd8430-4c30-4b35-bc2f-be4064c7f256/content",
+      "status": 200,
+      "final_url": "https://digital.lib.washington.edu/server/api/core/bitstreams/b0fd8430-4c30-4b35-bc2f-be4064c7f256/content",
+      "content_type": "application/pdf;charset=UTF-8",
+      "pdf_header": true,
+      "bytes": 239079
+    },
+    {
+      "url": "https://doi.org/10.1016/0377-2217%2895%2900022-I",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/037722179500022I",
+      "content_type": "text/html;charset=UTF-8",
+      "pdf_header": false,
+      "bytes": 2693
+    },
+    {
+      "url": "https://doi.org/10.1063/1.1498001",
+      "status": 403,
+      "final_url": "https://pubs.aip.org/jmp/article/43/9/4286/230896/The-entanglement-of-purification",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false,
+      "bytes": 5671,
+      "accessible_alternative_on_page": "https://arxiv.org/pdf/quant-ph/0202044v3"
+    },
+    {
+      "url": "https://doi.org/10.1137/1.9781611974782.172",
+      "status": 403,
+      "final_url": "https://epubs.siam.org/doi/10.1137/1.9781611974782.172",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false,
+      "bytes": 5562,
+      "accessible_alternative_on_page": "https://arxiv.org/pdf/1503.08796"
+    },
+    {
+      "url": "https://doi.org/10.1137/22M1478112",
+      "status": 403,
+      "final_url": "https://epubs.siam.org/doi/10.1137/22M1478112",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false,
+      "bytes": 5535,
+      "accessible_alternative_on_page": "https://arxiv.org/html/2007.08204v4"
+    },
+    {
+      "url": "https://doi.org/10.19086/aic.24872",
+      "status": 200,
+      "final_url": "https://www.advancesincombinatorics.com/article/24872-anticoncentration-versus-the-number-of-subset-sums",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 151270
+    },
+    {
+      "url": "https://drive.google.com/uc?export=download&id=1HpaNqAkazvSNFwGFteDIK92C7EY6Lbl8",
+      "status": 200,
+      "final_url": "https://drive.usercontent.google.com/download?id=1HpaNqAkazvSNFwGFteDIK92C7EY6Lbl8&export=download",
+      "content_type": "application/octet-stream",
+      "pdf_header": true,
+      "bytes": 198725
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol077-socg2017/LIPIcs.SoCG.2017.13/LIPIcs.SoCG.2017.13.pdf",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol077-socg2017/LIPIcs.SoCG.2017.13/LIPIcs.SoCG.2017.13.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 1073758
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/LIPIcs.SoCG.2025.75/LIPIcs.SoCG.2025.75.pdf",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/LIPIcs.SoCG.2025.75/LIPIcs.SoCG.2025.75.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 952807
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.126/LIPIcs.ICALP.2026.126.html",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.126/LIPIcs.ICALP.2026.126.html",
+      "content_type": "text/html",
+      "pdf_header": false,
+      "bytes": 253772
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.78/LIPIcs.ICALP.2026.78.html",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.78/LIPIcs.ICALP.2026.78.html",
+      "content_type": "text/html",
+      "pdf_header": false,
+      "bytes": 364460
+    },
+    {
+      "url": "https://eprint.iacr.org/2022/1113.pdf",
+      "status": 200,
+      "final_url": "https://eprint.iacr.org/2022/1113.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 158845
+    },
+    {
+      "url": "https://github.com/rossjkang/localflagalgebras/blob/main/RESULTS.md",
+      "status": 200,
+      "final_url": "https://github.com/rossjkang/localflagalgebras/blob/main/RESULTS.md",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 471588
+    },
+    {
+      "url": "https://hmakse.ccny.cuny.edu/wp-content/uploads/2015/06/RevModPhys.90.015006-1.pdf",
+      "status": 200,
+      "final_url": "https://hmakse.ccny.cuny.edu/wp-content/uploads/2015/06/RevModPhys.90.015006-1.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 6321889
+    },
+    {
+      "url": "https://kostochk.web.illinois.edu/docs/submit/ejc18ckr.pdf",
+      "status": 200,
+      "final_url": "https://kostochk.web.illinois.edu/docs/submit/ejc18ckr.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 556833
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00440-011-0372-5",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s00440-011-0372-5",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 267573
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00440-023-01247-z",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s00440-023-01247-z",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 398082
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s10288-020-00469-4",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s10288-020-00469-4",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 389058
+    },
+    {
+      "url": "https://mdpi-res.com/d_attachment/axioms/axioms-14-00062/article_deploy/axioms-14-00062-v2.pdf",
+      "status": 200,
+      "final_url": "https://mdpi-res.com/d_attachment/axioms/axioms-14-00062/article_deploy/axioms-14-00062-v2.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 273507
+    },
+    {
+      "url": "https://msabin.github.io/files/papers/BRSV17.pdf",
+      "status": 200,
+      "final_url": "https://msabin.github.io/files/papers/BRSV17.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 949022
+    },
+    {
+      "url": "https://numdam.org/item/10.1051/ps/2013045.pdf",
+      "status": 200,
+      "final_url": "https://numdam.org/item/10.1051/ps/2013045.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 787647
+    },
+    {
+      "url": "https://oa.upm.es/89576/1/10302927.pdf",
+      "status": 200,
+      "final_url": "https://oa.upm.es/89576/1/10302927.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 285258
+    },
+    {
+      "url": "https://papers.nips.cc/paper/2022/file/8f75af4704feac629a560f4ad6b67cef-Paper-Conference.pdf",
+      "status": 200,
+      "final_url": "https://papers.nips.cc/paper/2022/file/8f75af4704feac629a560f4ad6b67cef-Paper-Conference.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 302527
+    },
+    {
+      "url": "https://people.csail.mit.edu/mip/papers/mp-3sum/paper.pdf",
+      "status": 200,
+      "final_url": "https://people.csail.mit.edu/mip/papers/mp-3sum/paper.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 285350
+    },
+    {
+      "url": "https://people.csail.mit.edu/virgi/6.1420/papers/real3sum.pdf",
+      "status": 200,
+      "final_url": "https://people.csail.mit.edu/virgi/6.1420/papers/real3sum.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 415665
+    },
+    {
+      "url": "https://proceedings.mlr.press/v336/nissim26a.html",
+      "status": 200,
+      "final_url": "https://proceedings.mlr.press/v336/nissim26a.html",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 14441
+    },
+    {
+      "url": "https://proceedings.mlr.press/v35/daskalakis14.pdf",
+      "status": 200,
+      "final_url": "https://proceedings.mlr.press/v35/daskalakis14.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 495344
+    },
+    {
+      "url": "https://proceedings.mlr.press/v65/li17a/li17a.pdf",
+      "status": 200,
+      "final_url": "https://proceedings.mlr.press/v65/li17a/li17a.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 769271
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mlresearch/v291/main/assets/chen25e/chen25e.pdf",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/mlresearch/v291/main/assets/chen25e/chen25e.pdf",
+      "content_type": "application/octet-stream",
+      "pdf_header": true,
+      "bytes": 1120263
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mlresearch/v336/main/assets/compton26a/compton26a.pdf",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/mlresearch/v336/main/assets/compton26a/compton26a.pdf",
+      "content_type": "application/octet-stream",
+      "pdf_header": true,
+      "bytes": 426924
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mlresearch/v336/main/assets/nissim26a/nissim26a.pdf",
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/mlresearch/v336/main/assets/nissim26a/nissim26a.pdf",
+      "content_type": "application/octet-stream",
+      "pdf_header": true,
+      "bytes": 241828
+    },
+    {
+      "url": "https://sites.math.washington.edu/~burdzy/open_mathjax.php",
+      "status": 200,
+      "final_url": "https://sites.math.washington.edu/~burdzy/open_mathjax.php",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": false,
+      "bytes": 18646
+    },
+    {
+      "url": "https://web.math.princeton.edu/~nalon/PDFS/JACMjoint1.pdf",
+      "status": 200,
+      "final_url": "https://web.math.princeton.edu/~nalon/PDFS/JACMjoint1.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 1048569
+    },
+    {
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/ds25/pdf/",
+      "status": 200,
+      "final_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/ds25/pdf/",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 652876
+    },
+    {
+      "url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i3p31/pdf/",
+      "status": 200,
+      "final_url": "https://www.combinatorics.org/ojs/index.php/eljc/article/download/v25i3p31/pdf/",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 363963
+    },
+    {
+      "url": "https://www.maths.tcd.ie/EMIS/journals/EJP-ECP/article/download/1770/1770-9325-2-PB.pdf",
+      "status": 200,
+      "final_url": "https://www.maths.tcd.ie/EMIS/journals/EJP-ECP/article/download/1770/1770-9325-2-PB.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 273571
+    },
+    {
+      "url": "https://www.renyi.hu/~gyarfas/Cikkek/52_FaudreeSchelpGyarfasTuza_TheStrongChromaticIindexOfGraphs.pdf",
+      "status": 403,
+      "final_url": "https://www.renyi.hu/~gyarfas/Cikkek/52_FaudreeSchelpGyarfasTuza_TheStrongChromaticIindexOfGraphs.pdf",
+      "content_type": "text/html",
+      "pdf_header": false,
+      "bytes": 162,
+      "web_reader_check": "Primary PDF accessible by web reader on September 19, 2026; matching title/authors and Conjecture 1 on internal p.206."
+    },
+    {
+      "url": "https://www.renyi.hu/~p_erdos/1973-07.pdf",
+      "status": 403,
+      "final_url": "https://www.renyi.hu/~p_erdos/1973-07.pdf",
+      "content_type": "text/html",
+      "pdf_header": false,
+      "bytes": 162,
+      "access_limit": "Original scan was fully inspected during individual review. Immediate refresh returned 403; web reader also failed. Independently authored full formulations in the linked Roldan-Pensado–Soberon survey and Nivasch manuscript remain accessible. No new original-text access is claimed."
+    }
+  ],
+  "additional_attempts": [
+    {
+      "url": "https://renyi.hu/~p_erdos/1973-07.pdf",
+      "status": 403,
+      "final_url": "https://renyi.hu/~p_erdos/1973-07.pdf",
+      "pdf_header": false,
+      "bytes": 162
+    },
+    {
+      "url": "https://old.renyi.hu/~p_erdos/1973-07.pdf",
+      "status": 404,
+      "final_url": "https://old.renyi.hu/~p_erdos/1973-07.pdf",
+      "pdf_header": false,
+      "bytes": 296
+    }
+  ],
+  "summary": "74 public-page external URLs: 69 direct HTTP 200; three restricted DOI URLs have successful primary alternatives on the same pages; one scan succeeds through the web reader; one previously inspected original scan is currently restricted, with two accessible explicit scholarly restatements on the page."
+}

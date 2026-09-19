@@ -270,5 +270,29 @@
     "file": "problems/348-reed-colouring.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-18"
+  },
+  {
+    "id": "354",
+    "title": "Private PAC learning with polynomial VC and iterated-logarithm sample cost",
+    "area": "Statistical learning, data privacy and sample complexity",
+    "file": "problems/354-private-pac-vc-logstar.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-19"
+  },
+  {
+    "id": "356",
+    "title": "The sharp support–concentration bound for subset sums",
+    "area": "Combinatorial probability, information theory and packing algorithms",
+    "file": "problems/356-subset-sum-support-concentration.md",
+    "status": "Open in cited literature; no later resolution located as of 2026-09-19.",
+    "last_checked": "2026-09-19"
+  },
+  {
+    "id": "358",
+    "title": "Polynomial-time proper learning of univariate Gaussian mixtures",
+    "area": "Statistical density estimation and unsupervised learning",
+    "file": "problems/358-univariate-gaussian-mixture-proper-learning.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-19"
   }
 ]

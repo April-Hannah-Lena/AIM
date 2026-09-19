@@ -1,8 +1,8 @@
-# The sharp degree bound for strong edge-colouring
+# 355. The sharp degree bound for strong edge-colouring
 
 **Area:** Communication networks, interference scheduling and graph colouring
 
-**Status:** Accepted; integrated as entry 355
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-19
 
@@ -54,6 +54,6 @@ The bipartite and random-bipartite theorems in [5] impose additional hypotheses.
 
 The counterexample in [7] refutes a different proposed bound of five colours for cubic bipartite graphs of large girth. Its conclusion is $\chi'_s(G)>5$, whereas the present bound at degree three is $10$. Likewise, bounding the largest clique of $L(G)^2$ or treating graphs whose every pair of edges conflicts does not by itself bound the chromatic number for arbitrary $G$.
 
-The [evidence record](../candidates/strong-edge-colouring.json) records the full scope comparisons, source access limits and finite-order computational claims. This differs from [entry 344](../../../problems/344-list-edge-colouring.md), which uses edge-specific colour lists and only shared-endpoint conflicts, and [entry 348](../../../problems/348-reed-colouring.md), whose bound depends on the degree and clique number of the graph being vertex-coloured. Parity, fixed-degree cases and the equivalent line-graph formulation are one problem family.
+The [evidence record](../research/expansion-2026-09/candidates/strong-edge-colouring.json) records the full scope comparisons, source access limits and finite-order computational claims. This differs from [entry 344](344-list-edge-colouring.md), which uses edge-specific colour lists and only shared-endpoint conflicts, and [entry 348](348-reed-colouring.md), whose bound depends on the degree and clique number of the graph being vertex-coloured. Parity, fixed-degree cases and the equivalent line-graph formulation are one problem family.
 
 A separated adversarial self-pass checked the statement, recent theorem scopes, duplicates and applied interpretation on September 19, 2026. No independent agent or human review is claimed.

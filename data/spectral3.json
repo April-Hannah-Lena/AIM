@@ -214,5 +214,13 @@
     "file": "problems/320-ruskai-audenaert-decomposition.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "353",
+    "title": "Additivity of entanglement of purification",
+    "area": "Quantum information and correlation preparation",
+    "file": "problems/353-entanglement-of-purification-additivity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-19"
   }
 ]

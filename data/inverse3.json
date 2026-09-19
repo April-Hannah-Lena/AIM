@@ -254,5 +254,21 @@
     "file": "problems/347-binary-skew-symmetric-broadcast.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-18"
+  },
+  {
+    "id": "355",
+    "title": "The sharp degree bound for strong edge-colouring",
+    "area": "Communication networks, interference scheduling and graph colouring",
+    "file": "problems/355-strong-edge-colouring.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-19"
+  },
+  {
+    "id": "357",
+    "title": "The near-linear bound for planar halving lines",
+    "area": "Computational geometry and parametric selection",
+    "file": "problems/357-planar-halving-lines.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-19"
   }
 ]

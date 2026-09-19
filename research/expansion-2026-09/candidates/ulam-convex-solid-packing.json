@@ -1,0 +1,382 @@
+{
+  "candidate_id": "ulam-convex-solid-packing",
+  "proposed_catalogue_id": "360",
+  "title": "The ball as the least densely packable convex solid",
+  "primary_section": "continuum3",
+  "secondary_tags": [
+    "convex geometry",
+    "granular matter",
+    "particle packing"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Precise pre-draft fingerprint, independent scholarly corroboration, seven resolution-scope comparisons, separated A62 self-review and rendering/link checks passed. No unresolved material matching resolution claim located.",
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "problem_fingerprint": {
+    "objects": "Every compact convex body K in R^3 with nonempty interior; no symmetry, smoothness or polyhedral assumption.",
+    "packing": "A locally finite family of sets a_i+Q_i K with a_i in R^3 and Q_i in O(3), whose interiors are pairwise disjoint. Reflections as well as translations and rotations are permitted, as in K15's full-isometry convention.",
+    "density": "For a packing P, use the limsup as R tends to infinity of the volume fraction of the radius-R ball centered at the origin occupied by the union of its members. Let delta(K) be the supremum over all such packings.",
+    "target": "Prove or disprove delta(K)>=pi/sqrt(18) for every such K. The benchmark is the optimal packing density of congruent balls.",
+    "scope": "Unrestricted congruent packing, including nonperiodic arrangements; not lattice-only, translative-only, random close packing or a finite-container objective. Only one shape and one size in each packing. No characterization of the equality case is added.",
+    "family_policy": "One global shape-comparison problem. Local near-ball, symmetric, fixed-shape and alternative-density variants do not create additional entries."
+  },
+  "statement_sources": [
+    {
+      "source_id": "K15",
+      "url": "https://arxiv.org/pdf/1305.0289v2",
+      "locator": "Section 1, internal pp.1–3: isometry/density definitions and explicit three-dimensional global-minimum conjecture; Section 4, p.14."
+    },
+    {
+      "source_id": "K14",
+      "url": "https://arxiv.org/pdf/1212.2551v3",
+      "locator": "Introduction and Section 2 definitions, internal pp.1–3; scope of Theorem 5 and Remark 1, pp.16–17."
+    }
+  ],
+  "publication_state": "Accepted and integrated locally in batch 6; direct publication pending final validation.",
+  "source_records": [
+    {
+      "source_id": "K15",
+      "authors": [
+        "Yoav Kallus"
+      ],
+      "title": "Pessimal packing shapes",
+      "url": "https://arxiv.org/pdf/1305.0289v2",
+      "version": "Geometry & Topology 19 (2015), 343–363; DOI 10.2140/gt.2015.19.343. Inspected arXiv v2, December 9, 2014.",
+      "locator": "Section 1, internal pp.1–4; Section 3, Theorem 3, p.10 and proof p.13; Section 4, pp.14–15.",
+      "read": "Read full isometry and density definitions, global formulation, minimal-mean-width normalization, full directional theorem and proof, and discussion.",
+      "access_limit": "The internal November 2018 compilation date is not treated as a new arXiv revision. The unlabelled conjecture after Theorem 3 has an apparent dimensional typo; the explicit three-dimensional global formulation in Sections 1 and 4 controls.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "K14",
+      "authors": [
+        "Yoav Kallus"
+      ],
+      "title": "The 3-ball is a local pessimum for packing",
+      "url": "https://arxiv.org/pdf/1212.2551v3",
+      "version": "Advances in Mathematics 264 (2014), 355–370; DOI 10.1016/j.aim.2014.07.015. Inspected arXiv v3, August 2, 2014.",
+      "locator": "Introduction, Section 2 definitions; Theorem 5 and Remarks 1–2, internal pp.16–17.",
+      "read": "Read the full local theorem and proof, including the origin-symmetric and nonellipsoidal assumptions, and unrestricted-packing remark.",
+      "access_limit": "The PDF internal September 2018 date is not a later version-history entry. The full dependent proof chain was not independently certified. The remark invokes a separate ellipsoid result; that result was not independently proved or fully inspected here.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "BM14",
+      "authors": [
+        "Adrian Baule",
+        "Hernán A. Makse"
+      ],
+      "title": "Fundamental challenges in packing problems: from spherical to non-spherical particles",
+      "url": "https://hmakse.ccny.cuny.edu/wp-content/uploads/2015/06/baule1.pdf",
+      "version": "Soft Matter 10 (2014), 4423–4429; DOI 10.1039/C3SM52783B.",
+      "locator": "Introduction; Ulam discussion p.4425; conclusions/outlook pp.4427–4428.",
+      "read": "Read the explicit conjecture, ordered versus random packing distinction, and applications discussion.",
+      "access_limit": "Review source, independent of Kallus, but not independent of the later review sharing these authors.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "BMHM18",
+      "authors": [
+        "Adrian Baule",
+        "Flaviano Morone",
+        "Hans J. Herrmann",
+        "Hernán A. Makse"
+      ],
+      "title": "Edwards statistical mechanics for jammed granular matter",
+      "url": "https://hmakse.ccny.cuny.edu/wp-content/uploads/2015/06/RevModPhys.90.015006-1.pdf",
+      "version": "Reviews of Modern Physics 90 (2018), 015006; DOI 10.1103/RevModPhys.90.015006; published March 8, 2018.",
+      "locator": "Section IV.G opening, p.015006-36; Section VI discussion, p.015006-49.",
+      "read": "Read title/abstract, full relevant opening discussion of nonspherical packing, and the Ulam/materials paragraph in the conclusion.",
+      "access_limit": "Not every part of the 58-page review was read. This is independently authored corroboration relative to K14/K15, not a 2026 status certificate. Its random-packing discussion is not substituted for the congruent optimal-density conjecture.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "H05",
+      "authors": [
+        "Thomas C. Hales"
+      ],
+      "title": "A proof of the Kepler conjecture",
+      "url": "https://annals.math.princeton.edu/wp-content/uploads/annals-v162-n3-p01.pdf",
+      "version": "Annals of Mathematics 162 (2005), 1065–1185.",
+      "locator": "Section 1.1, complete Theorem 1.1, p.1067, and surrounding definitions.",
+      "read": "Read the exact congruent-ball packing statement and density value.",
+      "access_limit": "The 121-page proof and computer artifacts were not independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CEG10",
+      "authors": [
+        "Elizabeth R. Chen",
+        "Michael Engel",
+        "Sharon C. Glotzer"
+      ],
+      "title": "Dense crystalline dimer packings of regular tetrahedra",
+      "url": "https://arxiv.org/pdf/1001.0586v3",
+      "version": "Discrete & Computational Geometry 44 (2010), 253–280; DOI 10.1007/s00454-010-9273-0. Inspected arXiv v3, July 25, 2010.",
+      "locator": "Section I pp.1–2; Section II.A definitions; Lemma 4 p.6; Section II.D Theorem 1 p.7.",
+      "read": "Read historical tetrahedron suggestion, double-dimer construction, full density lemma and proof, and full existence theorem and explicit construction proof.",
+      "access_limit": "Published PDF metadata were surfaced by primary-source search, but direct and web-reader retrieval of the lab-hosted published PDF returned 403. The accessible arXiv full text controls theorem locators; its 2018 internal compilation line is not treated as a new revision. No full nonoverlap certificate was independently rerun.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "K16",
+      "authors": [
+        "Yoav Kallus"
+      ],
+      "title": "The random packing density of nearly spherical particles",
+      "url": "https://arxiv.org/pdf/1508.05398v2",
+      "version": "Soft Matter 12 (2016), 4123–4128; DOI 10.1039/C6SM00213G. Inspected arXiv v2, March 20, 2016.",
+      "locator": "Internal pp.1–3, model, assumptions and equations (6)–(11); concluding discussion pp.4–5.",
+      "read": "Read the isostatic protocol assumption, deformation/protocol equivalence hypothesis, contact changes, free-rotation minimization, positivity assumption, and first-order density conclusion.",
+      "access_limit": "The author calls the calculation heuristic. Its introductory shorthand about optimal near-ball results omits assumptions explicit in K14/K15; those original theorem statements control. This is not a proof of global optimal packing.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "Kuchel25",
+      "authors": [
+        "Philip W. Kuchel"
+      ],
+      "title": "Complementary bodies in sphere packing",
+      "url": "https://arxiv.org/pdf/2508.11633v1",
+      "version": "arXiv:2508.11633v1; primary history displays June 18, 2025. No later revision listed.",
+      "locator": "Sections 1–2 definitions; Sections 3.3 and 3.6 sphere-section fractions; Sections 4.1–4.3 theorem/proof and Section 5 conclusion, internal pp.13–16.",
+      "read": "Read the full claimed identity, its proof, model and density definitions after the A62 search surfaced an AI review.",
+      "access_limit": "Primary text rather than AI review was used. The work studies weighted sphere-section fractions of two interstitial geometric units in a fixed FCC arrangement; it does not optimize congruent packings of an arbitrary convex body. Its formulas and numbering were not independently validated.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    }
+  ],
+  "aliases": [
+    "Ulam's packing conjecture",
+    "sphere as worst-packing convex solid",
+    "ball as global packing pessimum"
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/ulam-convex-solid-packing.md",
+  "independent_corroboration": {
+    "sources": [
+      "BM14",
+      "BMHM18"
+    ],
+    "independent_of": [
+      "K14",
+      "K15"
+    ],
+    "qualification": "The two reviews share authors with each other; they supply one independent author group relative to Kallus. Both explicitly retain the global question."
+  },
+  "resolution_comparisons": [
+    {
+      "source_id": "H05",
+      "locator": "Theorem 1.1, p.1067",
+      "result_scope": "Determines the maximum density of congruent balls in R^3.",
+      "comparison_with_target": "Sets the benchmark for one shape; gives no lower bound for every convex shape.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "K14",
+      "locator": "Theorem 5, pp.16–17",
+      "result_scope": "There is a uniform small neighbourhood of B in which origin-symmetric nonellipsoidal convex solids have strictly greater lattice density.",
+      "comparison_with_target": "Both origin symmetry and closeness matter; arbitrary far-from-sphere or nonsymmetric bodies are outside the theorem.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "K14",
+      "locator": "Theorem 5 and Remark 1",
+      "result_scope": "The lattice statement excludes ellipsoids; affine invariance leaves their lattice density equal to the sphere value. Remark 1 combines other results for unrestricted symmetric local packing.",
+      "comparison_with_target": "Do not strengthen the lattice statement to all nonspherical bodies. This entry asks only the weak global inequality and not uniqueness of equality.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "K15",
+      "locator": "Theorem 3, p.10; proof p.13",
+      "result_scope": "For each nonspherical K in minimal-mean-width position, double-lattice density increases along (1-lambda)B+lambda K for 0<lambda<lambda_0(K).",
+      "comparison_with_target": "The allowable parameter interval depends on K; this is neither a uniform neighbourhood nor a global statement at lambda=1. Double lattices permit point inversions, covered by O(3).",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "K16",
+      "locator": "Model pp.1–2 and equations (6)–(11), pp.2–3",
+      "result_scope": "A first-order perturbative calculation for random packing protocols assumes isostatic sphere packings, suitable deformation behavior and orientation minimization.",
+      "comparison_with_target": "Different observable and additional modeling assumptions; it cannot establish the supremum over all congruent packings for all shapes.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "CEG10",
+      "locator": "Section I and Theorem 1, Section II.D, p.7",
+      "result_scope": "Explicit regular-tetrahedron double-dimer packing with density 4000/4671, above the sphere benchmark.",
+      "comparison_with_target": "The earlier tetrahedron counterexample suggestion is excluded by an explicit lower bound; this does not solve exact tetrahedron optimality or all convex shapes.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "Kuchel25",
+      "locator": "Sections 3.3, 3.6 and 4.1–4.3",
+      "result_scope": "Identity for a weighted combination of spherical-sector volume fractions derived from a fixed FCC cell decomposition.",
+      "comparison_with_target": "Two kinds of interstitial units and a fixed arrangement replace the single arbitrary convex body and unrestricted optimum; no general Ulam proof or counterexample is claimed.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    }
+  ],
+  "nearest_existing_entries": [
+    {
+      "id": "247",
+      "path": "problems/247-regular-tetrahedron-packing.md",
+      "difference": "Exact maximum density of one fixed regular tetrahedron; this entry compares every convex body to the sphere. Its tetrahedron instance already satisfies the lower bound, while the exact fixed-shape optimum is unknown."
+    },
+    {
+      "id": "091",
+      "path": "problems/091-bcc-quantization.md",
+      "difference": "Quadratic nearest-point distortion of point configurations and Voronoi cells, not volume occupied by nonoverlapping congruent solids."
+    },
+    {
+      "id": "251",
+      "path": "problems/251-constant-width-volume.md",
+      "difference": "Minimum volume of a single constant-width body, with a width constraint and no assembly-density optimization."
+    }
+  ],
+  "duplicate_check": {
+    "baseline": "All original 300 pages and metadata were previously read; all 350 current titles were refreshed in this research continuation. Full nearest pages 247, 091 and 251 reread.",
+    "local": "Searched problems and research for Ulam, pessimum and least/worst packing aliases. Compared all nine pending accepted fingerprints; no equivalent accepted target.",
+    "upstream": "September 19 fetch matches HEAD and origin/main at 73c787d1add623ce7ede59766e018b51ea4e1a1e. Connected metadata confirms private MColbrook/AIM, main default and push permission. Open-PR search empty; paginated branch search contains only main."
+  },
+  "normalization_checks": [
+    "Dimension is exactly three; no planar or higher-dimensional analogue is counted.",
+    "K is compact, convex and full-dimensional. All copies have the same size.",
+    "O(3) includes reflections, matching the source full-isometry definition; translations are a_i. No SO(3)-only strengthening.",
+    "The occupied-volume upper density agrees with K15 volume(K) divided by lower mean cell volume: only copies intersecting a fixed-width boundary shell differ between the two counts. A fixed inscribed-ball radius bounds their number by O(R^2), negligible after division by volume(B_R).",
+    "The sphere benchmark is pi/sqrt(18). No strict inequality for nonspheres or equality classification is added.",
+    "The applied paragraph identifies reflections/mirror shapes and does not claim a random-jamming, finite-container or dynamical guarantee."
+  ],
+  "second_review": {
+    "pass_id": "A62",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass after drafting; no independent agent or human review.",
+    "independent_searches": [
+      "A62-1",
+      "A62-2",
+      "A62-3",
+      "A62-4",
+      "A62-5",
+      "A62-6",
+      "A62-7",
+      "A62-8"
+    ],
+    "issues_found": [
+      "Ellipsoids are an exception to the strict lattice theorem.",
+      "The 2015 directional interval depends on K; the 2016 random calculation is heuristic and different in scope.",
+      "A 2025 complementary-body identity surfaced through an AI review and required primary-text inspection.",
+      "The reflection convention and historical attribution must be explicit."
+    ],
+    "issues_resolved": [
+      "Retained the full local theorem hypotheses and weak global target.",
+      "Read all relevant assumptions and separated the three different packing observables.",
+      "Inspected the primary 2025 model, theorem and proof; recorded the different objective rather than certifying its identity.",
+      "The draft defines O(3), explains mirror copies and qualifies attribution."
+    ],
+    "application_check": "Baule reviews explicitly connect shape/packing to granular assemblies and materials design. The draft describes the ideal geometric benchmark and practical protocol limitations.",
+    "search_limit": "Current searches and source-scope comparisons do not certify mathematical truth or exhaustive literature absence."
+  },
+  "discovery_access_limits": [
+    {
+      "url": "https://www.ams.org/notices/201211/rtx121101540p.pdf",
+      "limit": "Direct retrieval returned 403; search excerpts only, not used as an inspected source."
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1502280/",
+      "limit": "Conway–Torquato original was blocked by a browser challenge. Historical suggestion is read in CEG10; original full text is not claimed read."
+    },
+    {
+      "url": "https://www.proofatlas.ai/collaboration/ulam-packing-conjecture/",
+      "limit": "Search/discovery only. The project explicitly reports no complete solution; not independent scholarly admission evidence."
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol367-socg2026/html/LIPIcs.SoCG.2026.52/LIPIcs.SoCG.2026.52.html",
+      "limit": "Opened the full primary HTML and read introductory model and Theorems 2–3. This is online packing of varying planar polygons into finite bins; the Ulam namesake critical-density discussion is a different question. No full proof review of this discovery-only result."
+    }
+  ],
+  "status_search_ids": [
+    "S473-1",
+    "S473-2",
+    "S473-3",
+    "S473-4",
+    "S474-1",
+    "S474-2",
+    "S474-3",
+    "S474-4",
+    "S475-1",
+    "S475-2",
+    "S475-3",
+    "S475-4",
+    "S476-1",
+    "S476-2",
+    "S476-3",
+    "S476-4",
+    "S477-1",
+    "S477-2",
+    "S477-3",
+    "S477-4",
+    "S478-1",
+    "S478-2",
+    "S478-3",
+    "S478-4",
+    "A62-1",
+    "A62-2",
+    "A62-3",
+    "A62-4",
+    "A62-5",
+    "A62-6",
+    "A62-7",
+    "A62-8"
+  ],
+  "prepublication_refresh": {
+    "date": "2026-09-19",
+    "latest_target_commit": "73c787d1add623ce7ede59766e018b51ea4e1a1e",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R6-19",
+      "R6-20"
+    ],
+    "outcome": "A62 and batch searches recover local/directional results and different sphere-packing objectives. The global arbitrary-body assertion remains unresolved in inspected sources.",
+    "upstream": "SSH fetch matches HEAD and origin/main; private MColbrook/AIM and push permission reconfirmed. No open PRs; paginated branch search found only main.",
+    "duplicate_scope": "Established complete baseline, all 350 active entries, all ten complete drafts and nearest-family comparisons. No new upstream change or duplicate target."
+  },
+  "validation": {
+    "strict_katex_expressions": 19,
+    "render": "All 19 expressions passed strict KaTeX and full-page Chrome screenshot inspection, with no clipped or failed mathematics.",
+    "external_links": "All six bibliography URLs returned HTTP 200 with PDF headers. Additional Kuchel PDF succeeded; published CEG lab-hosted PDF returned 403, with accessible arXiv alternative.",
+    "external_link_record": "research/expansion-2026-09/ulam-convex-solid-packing-link-check.json",
+    "local_links": "All 4 local links resolve."
+  },
+  "public_page_path": "problems/360-ulam-convex-solid-packing.md",
+  "batch_validation": {
+    "batch": "351–360",
+    "date": "2026-09-19",
+    "strict_katex_expressions": 20,
+    "draft_public_math_match": true,
+    "structural": "Catalogue validation passed for 360 unique entries. All 350 earlier pages and metadata values are unchanged.",
+    "links": "See batch-06-link-check.json; all checked local links resolve."
+  }
+}

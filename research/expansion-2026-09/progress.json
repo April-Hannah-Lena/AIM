@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 59,
-  "active_total": 350,
-  "candidates_investigated": 65,
+  "new_accepted": 60,
+  "active_total": 360,
+  "candidates_investigated": 66,
   "held_unverified": 1,
   "held_claimed_resolution": 5,
   "excluded": 0,
-  "remaining_to_minimum": 141,
-  "remaining_to_target": 191,
+  "remaining_to_minimum": 140,
+  "remaining_to_target": 190,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -45,7 +45,7 @@
     },
     {
       "commit": "ce50f8b",
-      "purpose": "Integrate the first ten reviewed additions as 301\u2013310 and record batch validation."
+      "purpose": "Integrate the first ten reviewed additions as 301–310 and record batch validation."
     },
     {
       "commit": "329615a",
@@ -61,7 +61,7 @@
     },
     {
       "commit": "3ddf14b",
-      "purpose": "Record the reviewed reversible reaction\u2013diffusion continuation draft; pushed directly to main."
+      "purpose": "Record the reviewed reversible reaction–diffusion continuation draft; pushed directly to main."
     },
     {
       "commit": "3335df4",
@@ -73,7 +73,7 @@
     },
     {
       "commit": "7e1c7d7de3bf58063c7578edb77cc84e323a03fd",
-      "purpose": "Integrate entries 311\u2013320 with source audits and batch validation; pushed directly to main."
+      "purpose": "Integrate entries 311–320 with source audits and batch validation; pushed directly to main."
     },
     {
       "commit": "0ad9dcd7ba00b2fddc73a7ad69e30f985811bf6e",
@@ -121,7 +121,7 @@
     },
     {
       "commit": "103e4cd6acc9efcb48f12b65f275249ec66f3825",
-      "purpose": "Integrate entries 321\u2013330 with source audits and batch validation; pushed directly to main and independently verified."
+      "purpose": "Integrate entries 321–330 with source audits and batch validation; pushed directly to main and independently verified."
     },
     {
       "commit": "dd5b9c1b7aa188850706e1ac5c0fd4856c043833",
@@ -157,7 +157,7 @@
     },
     {
       "commit": "b4106af4399b66c4e70bf21a3dffcfa4f40e71f9",
-      "purpose": "Record reviewed Aaronson\u2013Ambainis influence draft; pushed directly to main and independently verified September 18, 2026."
+      "purpose": "Record reviewed Aaronson–Ambainis influence draft; pushed directly to main and independently verified September 18, 2026."
     },
     {
       "commit": "9fe8c0b204ef323ca6bbf11c9366c9cbdfb68393",
@@ -165,7 +165,7 @@
     },
     {
       "commit": "12ec3dcab61711bcf85b4ffab16eb38254d004e2",
-      "purpose": "Integrate entries 331\u2013340 with source audits and batch validation; pushed directly to main and independently verified September 18, 2026."
+      "purpose": "Integrate entries 331–340 with source audits and batch validation; pushed directly to main and independently verified September 18, 2026."
     },
     {
       "commit": "bdcecb7dad63b280bdb2f0d91f9f1842d07c3f3b",
@@ -209,7 +209,7 @@
     },
     {
       "commit": "1240ebfbdae361901472a7d33ca0baa7073c51cb",
-      "purpose": "Integrate entries 341\u2013350 with reviewed research, fresh status searches and validation; pushed directly to main and independently verified September 18, 2026."
+      "purpose": "Integrate entries 341–350 with reviewed research, fresh status searches and validation; pushed directly to main and independently verified September 18, 2026."
     },
     {
       "commit": "89cc7eb07875386f9912413f51573d6b253a9551",
@@ -249,44 +249,37 @@
     },
     {
       "commit": "97362b77ba6a8108c3c92fe1b9f631dafe660834",
-      "purpose": "Record reviewed Brownian Fleming\u2013Viot non-explosion draft, eight-source audit, bibliography checks and related discovery; pushed directly to main and exact remote commit separately verified September 19, 2026."
+      "purpose": "Record reviewed Brownian Fleming–Viot non-explosion draft, eight-source audit, bibliography checks and related discovery; pushed directly to main and exact remote commit separately verified September 19, 2026."
     }
   ],
-  "remote_state": "All fifty catalogue additions (301\u2013350) and their research records are published directly on main. All nine accepted drafts are uploaded: integer 3SUM, MIRUP, entanglement-of-purification additivity, private-PAC VC/log-star learning, strong edge-colouring, subset-sum support/concentration, planar halving lines, proper univariate Gaussian-mixture learning and Brownian Fleming\u2013Viot non-explosion. The latest research commit 97362b77ba6a8108c3c92fe1b9f631dafe660834 was separately verified on remote main on September 19, 2026. Nine accepted drafts await integration; active catalogue remains 350.",
+  "remote_state": "Main still contains fifty integrated additions. Batch 6 (351–360) is integrated locally; publication awaits final validation.",
   "next_actions": [
-    "Continue research toward the next ten-to-twenty-entry integration batch. Nine accepted drafts are ready; no permanent IDs until the batch is ready.",
-    "Continue discovery in other distinct families. Tensor detection is held after A52 found a potentially matching sparse-parity theorem whose modulus and hierarchy-level scope require clarification; see spiked-tensor-scope-hold.md.",
-    "Research and review one or more further distinct additions for the next batch; refresh status and upstream duplicates before assigning permanent IDs. Fifty additions are integrated/published, and nine accepted drafts await integration.",
-    "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
-    "Keep the six held candidates and discovery-only leads outside the active count; preserve original identifiers and historical dates.",
-    "CFN sunlet projective quadratic generation needs independent corroboration and saturation-scope review. The private-PAC quantitative lead is now an accepted draft; its restricted variants do not add counts.",
-    "Phylogenetic character-threshold and strong cane-toad spreading leads have full formulations but still need independent corroboration.",
-    "Do not admit general strongly polynomial LP without adjudicating matching claims; keep historical entries 031, 032 and 286 follow-ups separate from new counts.",
-    "Bernoulli Renyi joint-parameter concavity and the small-sample entangled-Gaussian mean question still need independently authored status corroboration. The 2026 statistics survey does not explicitly corroborate that precise small-sample remainder. Continue precise statistics, biology, information and control discovery.",
-    "Continue the continuous-time Carrasco discovery audit in carrasco-discovery.md: original full formulation and independent status discussion read; July 2026 discrete-time disproof inspected at model/theorem level. Reconcile multiplier and stability conventions and investigate any continuous-time transfer before fingerprinting or admission. No candidate or accepted count assigned.",
-    "Brownian Fleming\u2013Viot non-explosion joins integer 3SUM, MIRUP, entanglement-of-purification additivity, private-PAC VC/log-star learning, strong edge-colouring, subset-sum support/concentration, planar halving lines and proper univariate Gaussian-mixture learning as accepted drafts. Keep the processor-sharing queueing lead outside admission while the potentially matching stationary-insensitivity claim is compared."
+    "Finish batch 6 validation and direct publication, then continue research toward at least 200 integrated additions; working target 250.",
+    "Prioritize distinct families in statistics, information, biology, control and operations research alongside all twelve sections.",
+    "Keep the six formal holds and discovery-only claims outside admission; preserve original identifiers and historical review dates.",
+    "Continue the Carrasco and other discovery leads only after resolving the precise scope and corroboration gaps in their records."
   ],
   "coverage": {
+    "stochastic3": 12,
     "inverse3": 9,
     "spectral2": 1,
     "applied": 12,
-    "stochastic3": 12,
     "inverse2": 4,
     "operators": 6,
     "inverse": 3,
     "stochastic2": 5,
     "spectral": 1,
+    "continuum3": 3,
     "spectral3": 3,
-    "continuum3": 2,
     "continuum2": 1
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
-  "new_integrated": 50,
-  "count_semantics": "Fifty accepted additions are integrated and published directly on main; nine accepted drafts await the next integration batch. Active total 350. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
+  "new_integrated": 60,
+  "count_semantics": "Sixty accepted additions are integrated; fifty are published and batch 6 awaits final validation/direct push. No pending accepted drafts. Six held candidates excluded.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 50,
-  "coverage_semantics": "Accepted additions by primary section; fifty integrated and nine pending accepted drafts.",
-  "remaining_integrations_to_minimum": 150,
-  "remaining_integrations_to_target": 200,
-  "pending_accepted": 9
+  "coverage_semantics": "Accepted and integrated additions by primary section.",
+  "remaining_integrations_to_minimum": 140,
+  "remaining_integrations_to_target": 190,
+  "pending_accepted": 0
 }

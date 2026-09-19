@@ -238,5 +238,13 @@
     "file": "problems/338-aaronson-ambainis-influence.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-18"
+  },
+  {
+    "id": "351",
+    "title": "The modern integer 3SUM conjecture",
+    "area": "Exact algorithms and computational complexity",
+    "file": "problems/351-integer-three-sum-hardness.md",
+    "status": "Open in cited literature; no later resolution located as of 2026-09-19.",
+    "last_checked": "2026-09-19"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "candidate_id": "subset-sum-support-concentration",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "356",
   "title": "The sharp support–concentration bound for subset sums",
   "primary_section": "applied",
   "secondary_tags": [
@@ -111,7 +111,7 @@
     "application_check": "NPSS23 Lemma 3.5 explicitly indexes dynamic-programming states by attainable sums; JSS21 Section 1.1 describes how the concentration/support tradeoff improves the fixed-bin runtime dependence. No random-input assumption or current-best-algorithm claim.",
     "search_limit": "This is a separated self-pass, not independent expert review. Full proofs and computational artifacts were not independently certified; source-level access and reading limits are recorded."
   },
-  "publication_state": "Accepted research draft uploaded directly to main; no permanent ID until the next integration batch.",
+  "publication_state": "Accepted and integrated locally in batch 6; direct publication pending final validation.",
   "source_records": [
     {
       "source_id": "JSS21",
@@ -426,11 +426,17 @@
   ],
   "scope_normalization": "The finite all-real-weight statement follows Li Conjecture 1.1 and the exact linear conjecture preceding JSS equation (1.2). All models and formula conversions are explicit. No biased-bit or interval-concentration strengthening is introduced.",
   "prepublication_refresh": {
-    "checked_on": "2026-09-19",
-    "research": "A58 and S440 searched after drafting; Li and nearby-paper version histories checked.",
-    "remote_main": "3fe495aa485ae9c3459d30d03059a7bd959e5197",
-    "open_pull_requests": 0,
-    "result": "No new upstream content or matching unresolved resolution claim located. Research and technical admission checks passed."
+    "date": "2026-09-19",
+    "latest_target_commit": "73c787d1add623ce7ede59766e018b51ea4e1a1e",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R6-11",
+      "R6-12"
+    ],
+    "outcome": "The September 1 entropy-comparison preprint still lists only v1. Finite-group rearrangement results remain different in object and observable.",
+    "upstream": "SSH fetch matches HEAD and origin/main; private MColbrook/AIM and push permission reconfirmed. No open PRs; paginated branch search found only main.",
+    "duplicate_scope": "Established complete baseline, all 350 active entries, all ten complete drafts and nearest-family comparisons. No new upstream change or duplicate target."
   },
   "discovery_access_limits": [
     "Wiman direct download timed out; the full relevant statements were available through the primary PDF web reader.",
@@ -461,5 +467,14 @@
     "remote_ref_verified_on": "2026-09-19",
     "verified_remote_commit": "0b1548b97fb283bd5478387bbeb21c6e233ca348",
     "method": "Normal direct push; a subsequent authenticated ls-remote read matched the exact content commit. No PR, per user authorization."
+  },
+  "public_page_path": "problems/356-subset-sum-support-concentration.md",
+  "batch_validation": {
+    "batch": "351–360",
+    "date": "2026-09-19",
+    "strict_katex_expressions": 30,
+    "draft_public_math_match": true,
+    "structural": "Catalogue validation passed for 360 unique entries. All 350 earlier pages and metadata values are unchanged.",
+    "links": "See batch-06-link-check.json; all checked local links resolve."
   }
 }

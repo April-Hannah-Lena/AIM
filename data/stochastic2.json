@@ -230,5 +230,13 @@
     "file": "problems/339-fitch-ultrametric-ancestral-accuracy.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-18"
+  },
+  {
+    "id": "359",
+    "title": "Non-explosion of Brownian Fleming–Viot systems in arbitrary domains",
+    "area": "Interacting particles and conditioned diffusion",
+    "file": "problems/359-brownian-fleming-viot-nonexplosion.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-19"
   }
 ]

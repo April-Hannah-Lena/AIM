@@ -1,6 +1,6 @@
 {
   "candidate_id": "planar-halving-lines",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "357",
   "title": "The near-linear bound for planar halving lines",
   "primary_section": "inverse3",
   "secondary_tags": [
@@ -82,7 +82,7 @@
     "S451-3",
     "S451-4"
   ],
-  "publication_state": "Accepted research draft and evidence pushed directly to main in d65b4a8097b7a464b47e50ffaad2409fbdfe3fb8; a separate remote-ref read matched the exact commit on September 19, 2026. No permanent ID until the next integration batch.",
+  "publication_state": "Accepted and integrated locally in batch 6; direct publication pending final validation.",
   "second_review": {
     "pass_id": "A59",
     "state": "passed",
@@ -414,25 +414,17 @@
   ],
   "prepublication_refresh": {
     "date": "2026-09-19",
-    "latest_target_commit": "b0254a5fa8816376d9aedd9f6a1c1aed7627700f",
+    "latest_target_commit": "73c787d1add623ce7ede59766e018b51ea4e1a1e",
     "resolution_searches_refreshed": true,
     "duplicate_review_refreshed": true,
     "search_ids": [
-      "A59-1",
-      "A59-2",
-      "A59-3",
-      "A59-4",
-      "A59-5",
-      "A59-6",
-      "A59-7",
-      "A59-8",
-      "S451-1",
-      "S451-2",
-      "S451-3",
-      "S451-4"
+      "R6-13",
+      "R6-14"
     ],
-    "upstream": "Bounded SSH fetch of main succeeded; local HEAD and origin/main equal, zero divergence; only authorized origin git@github.com:MColbrook/AIM.git. Connected GitHub open-PR search returned an empty list.",
-    "outcome": "No equivalent upstream addition or matching resolution located. Refresh again before permanent-ID integration."
+    "outcome": "Fresh hits concern fixed small sets, pseudolines and earlier bounds. The previously inaccessible July lower-bound preprint remains discovery-only, not admission evidence.",
+    "upstream": "SSH fetch matches HEAD and origin/main; private MColbrook/AIM and push permission reconfirmed. No open PRs; paginated branch search found only main.",
+    "duplicate_scope": "Established complete baseline, all 350 active entries, all ten complete drafts and nearest-family comparisons. No new upstream change or duplicate target.",
+    "bibliography_access": "The original Renyi scan was inspected in the individual review but now returns 403; two accessible explicit scholarly restatements remain linked. See batch-06-link-check.json."
   },
   "discovery_access_limits": [
     {
@@ -457,5 +449,14 @@
     "external_links": "All seven bibliography URLs returned HTTP 200 in direct GET checks.",
     "external_link_record": "research/expansion-2026-09/planar-halving-lines-link-check.json",
     "structural": "Catalogue validation passed for 350 entries; all five draft local links resolve; 63 candidate records reconcile to 57 accepted and six held, with 50 integrated and seven pending. Coverage sums to 57. Git diff whitespace checks passed."
+  },
+  "public_page_path": "problems/357-planar-halving-lines.md",
+  "batch_validation": {
+    "batch": "351–360",
+    "date": "2026-09-19",
+    "strict_katex_expressions": 24,
+    "draft_public_math_match": true,
+    "structural": "Catalogue validation passed for 360 unique entries. All 350 earlier pages and metadata values are unchanged.",
+    "links": "See batch-06-link-check.json; all checked local links resolve."
   }
 }

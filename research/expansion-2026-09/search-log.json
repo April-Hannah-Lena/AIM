@@ -18145,5 +18145,514 @@
     "query": "\"Fleming-Viot\" resurrection \"arbitrary domains\"",
     "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
     "review_stage": "Separated adversarial self-review after drafting: Brownian Fleming–Viot formulation, all initial configurations, domain regularity, earlier proof errors and matching resolutions."
+  },
+  {
+    "search_id": "S471-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Mihail Vazirani conjecture\" 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Breadth discovery: recent claims in polytope expansion and complementary quantum correlations; convex-body packing and covering leads."
+  },
+  {
+    "search_id": "S471-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"open problem\" \"control\" \"conjecture\" \"2026\" saturation",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Breadth discovery: recent claims in polytope expansion and complementary quantum correlations; convex-body packing and covering leads."
+  },
+  {
+    "search_id": "S471-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Lotka Volterra\" \"open problem\" \"global\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Breadth discovery: recent claims in polytope expansion and complementary quantum correlations; convex-body packing and covering leads."
+  },
+  {
+    "search_id": "S471-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"entropic uncertainty\" \"conjecture\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Breadth discovery: recent claims in polytope expansion and complementary quantum correlations; convex-body packing and covering leads."
+  },
+  {
+    "search_id": "S472-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"complementary quantum correlation\" conjecture proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Breadth discovery: recent claims in polytope expansion and complementary quantum correlations; convex-body packing and covering leads."
+  },
+  {
+    "search_id": "S472-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"CQC conjecture\" solved proof 2026",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Breadth discovery: recent claims in polytope expansion and complementary quantum correlations; convex-body packing and covering leads."
+  },
+  {
+    "search_id": "S472-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"On the CQC conjecture: a sufficient condition and an extension\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Breadth discovery: recent claims in polytope expansion and complementary quantum correlations; convex-body packing and covering leads."
+  },
+  {
+    "search_id": "S472-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Mihail\" \"2608.01870\" correction",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Breadth discovery: recent claims in polytope expansion and complementary quantum correlations; convex-body packing and covering leads."
+  },
+  {
+    "search_id": "S473-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Ulam\" \"packing conjecture\" 2026 proof",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Breadth discovery: recent claims in polytope expansion and complementary quantum correlations; convex-body packing and covering leads."
+  },
+  {
+    "search_id": "S473-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Reinhardt conjecture\" 2026 solved",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Breadth discovery: recent claims in polytope expansion and complementary quantum correlations; convex-body packing and covering leads."
+  },
+  {
+    "search_id": "S473-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Hadwiger covering conjecture\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Breadth discovery: recent claims in polytope expansion and complementary quantum correlations; convex-body packing and covering leads."
+  },
+  {
+    "search_id": "S473-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Moser worm problem\" 2026 solution",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Breadth discovery: recent claims in polytope expansion and complementary quantum correlations; convex-body packing and covering leads."
+  },
+  {
+    "search_id": "S474-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Ulam packing conjecture\" proof counterexample 2026",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S474-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Ulam packing conjecture\" 2025 2024",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S474-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"sphere\" \"worst packing\" \"convex\" Ulam",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S474-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Ulam conjecture\" packing resolved disproved",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S475-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Ulam\" \"packing\" \"2026\" convex sphere -site:reddit.com -site:proofatlas.ai",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S475-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Ulam\" \"packing\" \"2025\" convex sphere",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S475-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Ulam\" \"packing\" \"2024\" convex sphere",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S475-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Ulam packing\" \"proof\" \"counterexample\" -site:reddit.com",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S476-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Ulam\" \"packing\" \"Torquato\" conjecture review",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S476-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Ulam’s packing conjecture\" \"2023\"",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S476-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Ulam's packing conjecture\" \"2022\" OR \"2021\" OR \"2020\"",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S476-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"sphere\" \"local pessimum\" packing correction",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S477-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Ulam\" \"packing\" \"Kallus\" proof disproof",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S477-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Ulam\" \"packing\" \"correction\" OR \"erratum\"",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S477-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"sphere\" \"global pessimum\" three dimensional packing",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S477-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Ulam\" \"packing\" \"2026\" proof solved convex",
+    "date_filter_or_unrestricted": "unrestricted (years and exclusions in query where shown)",
+    "review_stage": "Ulam convex-solid packing: original formulations, independence, local/global and restricted/unrestricted scope, current status and corrections."
+  },
+  {
+    "search_id": "S478-1",
+    "query": "\"Dense crystalline dimer packings of regular tetrahedra\" \"253\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Ulam source metadata and current resolution search."
+  },
+  {
+    "search_id": "S478-2",
+    "query": "\"Ulam\" \"packing\" \"Kallus\" \"nonsymmetric\" proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Ulam source metadata and current resolution search."
+  },
+  {
+    "search_id": "S478-3",
+    "query": "\"Ulam\" \"packing\" \"2026\" \"convex\" resolution",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Ulam source metadata and current resolution search."
+  },
+  {
+    "search_id": "S478-4",
+    "query": "\"Ulam packing conjecture\" \"refutation\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Ulam source metadata and current resolution search."
+  },
+  {
+    "search_id": "A62-1",
+    "query": "\"Ulam packing conjecture\" proved solved resolution",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Ulam convex-solid packing."
+  },
+  {
+    "search_id": "A62-2",
+    "query": "\"Ulam's packing conjecture\" counterexample disproof refutation",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Ulam convex-solid packing."
+  },
+  {
+    "search_id": "A62-3",
+    "query": "\"convex\" \"packing\" \"pi/sqrt(18)\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Ulam convex-solid packing."
+  },
+  {
+    "search_id": "A62-4",
+    "query": "\"Pessimal packing shapes\" correction erratum",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Ulam convex-solid packing."
+  },
+  {
+    "search_id": "A62-5",
+    "query": "\"Ulam\" \"packing\" \"2026\" proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Ulam convex-solid packing."
+  },
+  {
+    "search_id": "A62-6",
+    "query": "\"Ulam\" \"packing\" \"2025\" proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Ulam convex-solid packing."
+  },
+  {
+    "search_id": "A62-7",
+    "query": "\"ball\" \"packing density\" \"nonsymmetric\" Kallus",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Ulam convex-solid packing."
+  },
+  {
+    "search_id": "A62-8",
+    "query": "\"Ulam packing\" reflections rotations congruent",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Ulam convex-solid packing."
+  },
+  {
+    "search_id": "R6-1",
+    "candidate_id": "integer-three-sum-hardness",
+    "query": "\"integer 3SUM\" \"2026\" algorithm conjecture",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-2",
+    "candidate_id": "integer-three-sum-hardness",
+    "query": "\"3SUM conjecture\" proof refuted September 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-3",
+    "candidate_id": "modified-integer-round-up",
+    "query": "\"modified integer round-up\" proof counterexample 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-4",
+    "candidate_id": "modified-integer-round-up",
+    "query": "\"MIRUP\" cutting stock solved 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-5",
+    "candidate_id": "entanglement-of-purification-additivity",
+    "query": "\"entanglement of purification\" additivity proof counterexample 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-6",
+    "candidate_id": "entanglement-of-purification-additivity",
+    "query": "\"von Neumann\" \"entanglement of purification\" nonadditive 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-7",
+    "candidate_id": "private-pac-vc-logstar",
+    "query": "\"private learning\" \"VC\" \"log\" \"Littlestone\" 2026 solved",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-8",
+    "candidate_id": "private-pac-vc-logstar",
+    "query": "\"Does Differential Privacy Make PAC Learning Much Harder\" solution",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-9",
+    "candidate_id": "strong-edge-colouring",
+    "query": "\"Erdős Nešetřil\" strong edge colouring conjecture 2026 proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-10",
+    "candidate_id": "strong-edge-colouring",
+    "query": "\"strong edge-colouring\" \"2026\" counterexample 1.25",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-11",
+    "candidate_id": "subset-sum-support-concentration",
+    "query": "\"subset sums\" \"concentration\" \"2026\" conjecture",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-12",
+    "candidate_id": "subset-sum-support-concentration",
+    "query": "\"Multiplicative comparisons of Rényi entropies\" revision",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-13",
+    "candidate_id": "planar-halving-lines",
+    "query": "\"halving lines\" \"2026\" upper bound solved",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-14",
+    "candidate_id": "planar-halving-lines",
+    "query": "\"halving edges\" \"near-linear\" proof counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-15",
+    "candidate_id": "univariate-gaussian-mixture-proper-learning",
+    "query": "\"univariate\" \"Gaussian mixtures\" \"proper learning\" 2026 polynomial",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-16",
+    "candidate_id": "univariate-gaussian-mixture-proper-learning",
+    "query": "\"proper learning\" \"Gaussian\" \"2026\" hardness univariate",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-17",
+    "candidate_id": "brownian-fleming-viot-nonexplosion",
+    "query": "\"Brownian\" \"Fleming Viot\" \"non-explosion\" 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-18",
+    "candidate_id": "brownian-fleming-viot-nonexplosion",
+    "query": "\"Fleming-Viot\" \"arbitrary domains\" \"three\" particles proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-19",
+    "candidate_id": "ulam-convex-solid-packing",
+    "query": "\"Ulam packing conjecture\" \"2026\" solved",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-20",
+    "candidate_id": "ulam-convex-solid-packing",
+    "query": "\"ball\" \"global minimum\" \"packing\" convex 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "R6-21",
+    "candidate_id": "brownian-fleming-viot-nonexplosion",
+    "query": "\"Uniform tightness for time-inhomogeneous particle systems\" Villemonais arxiv",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Follow-up primary-source retrieval after immediate batch 6 publication refresh"
   }
 ]

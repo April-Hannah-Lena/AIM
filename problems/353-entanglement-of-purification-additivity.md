@@ -1,8 +1,8 @@
-# Additivity of entanglement of purification
+# 353. Additivity of entanglement of purification
 
 **Area:** Quantum information and correlation preparation
 
-**Status:** Accepted; integrated as entry 353
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-19
 
@@ -60,4 +60,4 @@ Chen–Winter explicitly formulate the general question and give strong numerica
 
 The August 2026 Negari–Baghali Khanian preprint explicitly retains the von Neumann problem. Its analytic counterexamples apply to Rényi orders $0\le\alpha<1$. Appendix C.2 explains why the construction does not pass uniformly to $\alpha=1$. Its additivity theorem concerns $\alpha\ge2$ and a classical two-qubit factor. Its exact one-copy formula for classical two-qubit states does not solve the joint optimization for their tensor products. Faraji–Baghali Khanian prove order-two results for specified channel families; §V leaves the Werner-state channel reformulation unresolved. These results do not decide the general von Neumann equality.
 
-The September 19 searches covered proofs, disproofs, numerical certificates, tensor-product formulations, author and citation chains, unrestricted dates, 2024–2026 results, and revisions or corrections. The cited full-text locations were read. ArXiv histories and author publication pages were checked; publisher texts were not line-compared. A separated adversarial self-pass passed on September 19; no independent agent or human review occurred. The [evidence ledger](../candidates/entanglement-of-purification-additivity.json) records the exact comparisons and the distinction from the catalogue's [amplitude-damping additivity question](../../../problems/214-amplitude-damping-additivity.md), [quantum entropy cone](../../../problems/040-quantum-entropy-cone.md) and [NPT bound entanglement](../../../problems/037-npt-bound-entanglement.md).
+The September 19 searches covered proofs, disproofs, numerical certificates, tensor-product formulations, author and citation chains, unrestricted dates, 2024–2026 results, and revisions or corrections. The cited full-text locations were read. ArXiv histories and author publication pages were checked; publisher texts were not line-compared. A separated adversarial self-pass passed on September 19; no independent agent or human review occurred. The [evidence ledger](../research/expansion-2026-09/candidates/entanglement-of-purification-additivity.json) records the exact comparisons and the distinction from the catalogue's [amplitude-damping additivity question](214-amplitude-damping-additivity.md), [quantum entropy cone](040-quantum-entropy-cone.md) and [NPT bound entanglement](037-npt-bound-entanglement.md).

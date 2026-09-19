@@ -1,8 +1,8 @@
-# Private PAC learning with polynomial VC and iterated-logarithm sample cost
+# 354. Private PAC learning with polynomial VC and iterated-logarithm sample cost
 
 **Area:** Statistical learning, data privacy and sample complexity
 
-**Status:** Accepted; integrated as entry 354
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-19
 
@@ -57,8 +57,8 @@ The known general upper bound has polynomial dependence on $d$, with Lyu's bound
 
 The September 2026 VALG manuscript reports results for Cartesian products of VC-one classes and a threshold-minor lower bound. Its complete assumptions retain the product structure, and its lower bound does not give a superpolynomial separation from the target here. These reported results are not independently certified proofs.
 
-The [evidence record](../candidates/private-pac-vc-logstar.json) also compares distribution-restricted learning, density-estimation impossibility, cryptographic computational separations, pure-private proper-learning lower bounds and private decision-list algorithms. The smoothness and feature-count bounds retain extra parameters even when applied to a finite class. None supplies a matching resolution for arbitrary finite binary classes with unrestricted training time. The record states access limits and the explicit parameter normalization.
+The [evidence record](../research/expansion-2026-09/candidates/private-pac-vc-logstar.json) also compares distribution-restricted learning, density-estimation impossibility, cryptographic computational separations, pure-private proper-learning lower bounds and private decision-list algorithms. The smoothness and feature-count bounds retain extra parameters even when applied to a finite class. None supplies a matching resolution for arbitrary finite binary classes with unrestricted training time. The record states access limits and the explicit parameter normalization.
 
-This differs from retaining a small reconstructing subsample in [entry 318](../../../problems/318-linear-sample-compression.md), efficient noisy-parity recovery in [entry 317](../../../problems/317-learning-parity-noise.md), and efficient uniform-DNF learning in [entry 337](../../../problems/337-classical-uniform-dnf-learning.md). Privacy restricts the distribution of the complete released classifier. One quantitative private-classification family is counted; no additional counts are assigned to its dimensions or parameter variants.
+This differs from retaining a small reconstructing subsample in [entry 318](318-linear-sample-compression.md), efficient noisy-parity recovery in [entry 317](317-learning-parity-noise.md), and efficient uniform-DNF learning in [entry 337](337-classical-uniform-dnf-learning.md). Privacy restricts the distribution of the complete released classifier. One quantitative private-classification family is counted; no additional counts are assigned to its dimensions or parameter variants.
 
 The separated A56 adversarial self-pass passed on September 19, 2026. This review is not an independent mathematical proof audit.

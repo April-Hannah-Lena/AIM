@@ -1,8 +1,8 @@
-# The modified integer round-up conjecture for cutting stock
+# 352. The modified integer round-up conjecture for cutting stock
 
 **Area:** Stochastic dynamics, reaction networks and applied optimization
 
-**Status:** Accepted; integrated as entry 352
+**Status:** Open in cited literature; no later resolution located as of 2026-09-19.
 
 **Last checked:** 2026-09-19
 
@@ -61,6 +61,6 @@ The stronger ordinary integer round-up assertion $z_{\mathrm{IP}}=\lceil z_{\mat
 
 For the special case in which $W/\ell_i$ is an integer for every item type, Martinovic proves the stronger bound $z_{\mathrm{IP}}-z_{\mathrm{LP}}<4/3$. That divisibility hypothesis is absent from the general conjecture.
 
-[Entry 326](../../../problems/326-online-bin-packing-optimal-ratio.md) asks for an online competitive ratio under unknown future arrivals. [Entry 336](../../../problems/336-strong-komlos-prefix-discrepancy.md) concerns signed vector prefixes, and [entry 285](../../../problems/285-metric-tsp-four-thirds.md) concerns a routing relaxation. Their full statements were compared; none is the displayed offline stock-count inequality.
+[Entry 326](326-online-bin-packing-optimal-ratio.md) asks for an online competitive ratio under unknown future arrivals. [Entry 336](336-strong-komlos-prefix-discrepancy.md) concerns signed vector prefixes, and [entry 285](285-metric-tsp-four-thirds.md) concerns a routing relaxation. Their full statements were compared; none is the displayed offline stock-count inequality.
 
-Searches on September 18–19, 2026 covered MIRUP and rounding-up aliases, the mathematical bound, proofs and counterexamples, original and later authors, recent packing algorithms, corrections and version histories. The [evidence ledger](../candidates/modified-integer-round-up.json) records theorem-level scope comparisons and access limits. The original 1995 full text was unavailable; its accessible explicit restatements supply the formulation. The researching agent completed a separate adversarial self-review; no independent agent or human review is claimed.
+Searches on September 18–19, 2026 covered MIRUP and rounding-up aliases, the mathematical bound, proofs and counterexamples, original and later authors, recent packing algorithms, corrections and version histories. The [evidence ledger](../research/expansion-2026-09/candidates/modified-integer-round-up.json) records theorem-level scope comparisons and access limits. The original 1995 full text was unavailable; its accessible explicit restatements supply the formulation. The researching agent completed a separate adversarial self-review; no independent agent or human review is claimed.
