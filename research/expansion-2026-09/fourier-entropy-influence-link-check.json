@@ -1,0 +1,115 @@
+{
+  "checked_on": "2026-09-19",
+  "source": "research/expansion-2026-09/drafts/fourier-entropy-influence.md",
+  "method": "Direct HTTP GET with redirects; response and PDF-header checks. Full mathematical readings are documented separately in the candidate record.",
+  "external": [
+    {
+      "url": "https://yuanz.web.illinois.edu/papers/fei-icalp.pdf",
+      "http_status": 200,
+      "final_url": "https://yuanz.web.illinois.edu/papers/fei-icalp.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00493-024-00133-z",
+      "http_status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s00493-024-00133-z?error=cookies_not_supported&code=06d69d07-8973-4c64-8c43-db6ed35802ff",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": null,
+      "result": "publisher cookie restriction",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://arxiv.org/html/2312.08271v2",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/html/2312.08271v2",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": null,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://arxiv.org/html/2606.00246v2",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/html/2606.00246v2",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": null,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://arxiv.org/pdf/1105.2651v1",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/pdf/1105.2651v1",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://arxiv.org/pdf/1911.10579v2",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/pdf/1911.10579v2",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://arxiv.org/pdf/1806.03646v2",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/pdf/1806.03646v2",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://arxiv.org/html/2608.04411v2",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/html/2608.04411v2",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": null,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://arxiv.org/abs/2512.03117",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/abs/2512.03117",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": null,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://arxiv.org/html/2608.01424v1",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/html/2608.01424v1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": null,
+      "result": "responded",
+      "full_text_access_claimed": false
+    }
+  ],
+  "local": [
+    {
+      "url": "../candidates/fourier-entropy-influence.json",
+      "exists": true
+    },
+    {
+      "url": "../../../problems/269-most-informative-boolean-function.md",
+      "exists": true
+    },
+    {
+      "url": "../../../problems/338-aaronson-ambainis-influence.md",
+      "exists": true
+    },
+    {
+      "url": "../../../problems/337-classical-uniform-dnf-learning.md",
+      "exists": true
+    }
+  ]
+}

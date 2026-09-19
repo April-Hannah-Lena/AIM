@@ -520,3 +520,14 @@ S486's morphogenesis and multispecies Keller–Segel searches remain unvetted di
 The log now has 2,341 actual queries with unique identifiers. Current counts are 62 accepted additions, 60 integrated/published, two pending drafts, six holds, 68 formal records and 360 active entries. The minimum requires 138 further acceptances and 140 integrations. Next discovery group: S493; next separated review: A65.
 
 Publication receipt: [112b435](https://github.com/MColbrook/AIM/commit/112b4353b8de2813fbf7447ba06661a68e806799) was pushed directly to main on September 19, 2026; a separate remote-ref read matched the exact full commit. Both accepted pending drafts and their evidence are uploaded. Counts remain 62 accepted, 60 integrated catalogue additions, two pending drafts and 360 active entries.
+
+
+## September 19 Boolean-analysis and breadth discovery (S493–S497 and A65)
+
+The Fourier entropy–influence candidate passed formulation, corroboration, resolution-scope, duplicate, separated A65 and technical checks. Its [accepted draft](drafts/fourier-entropy-influence.md) is the third pending addition for the next batch. Biased variants, minimum-entropy variants, restricted classes and spectral-concentration consequences receive no additional count.
+
+A65 followed the August quantum-disproof titles to their full operator models and the cryptographic paper's shortened title to its full restricted-class hypotheses. It also checked the latest Han revision and the Li–Han withdrawal against KMS11. The finite-constant optimization page was inspected, but numerical certificates were not replayed and no exact new lower bound is asserted.
+
+S493's Mansour, mathematical-biology and nonlinear-control queries remain discovery only. No additional candidate, independently verified formulation or resolved theorem scope is claimed for those searches. The remaining batch should continue breadth beyond Boolean analysis.
+
+The log has 2,369 actual queries with distinct identifiers. Counts are 63 accepted additions, 60 integrated/published, three pending drafts, six holds, 69 formal records and 360 active entries. Seven further accepted drafts would form the next ten-entry batch. The minimum requires 137 further acceptances and 140 integrations; the working target requires 187 acceptances and 190 integrations. Next discovery group: S498; next separated review: A66.

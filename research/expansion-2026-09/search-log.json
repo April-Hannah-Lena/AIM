@@ -19302,5 +19302,257 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
     "review_stage": "Separated post-draft adversarial self-review"
+  },
+  {
+    "search_id": "S493-1",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Fourier entropy influence\" conjecture 2026 proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft discovery and source/disqualification research"
+  },
+  {
+    "search_id": "S493-2",
+    "candidate_id": "discovery",
+    "query": "\"Mansour conjecture\" 2026 proof counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft discovery and source/disqualification research"
+  },
+  {
+    "search_id": "S493-3",
+    "candidate_id": "discovery",
+    "query": "\"mathematical biology\" \"open problems\" \"2026\" morphogenesis",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft discovery and source/disqualification research"
+  },
+  {
+    "search_id": "S493-4",
+    "candidate_id": "discovery",
+    "query": "\"stabilization\" \"open problem\" \"2026\" nonlinear control conjecture",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft discovery and source/disqualification research"
+  },
+  {
+    "search_id": "S494-1",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Fourier entropy influence conjecture\" proved solved resolution refutation",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft discovery and source/disqualification research"
+  },
+  {
+    "search_id": "S494-2",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Friedgut Kalai\" \"entropy\" conjecture counterexample 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft discovery and source/disqualification research"
+  },
+  {
+    "search_id": "S494-3",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"spectral entropy\" \"average sensitivity\" \"conjecture\" proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft discovery and source/disqualification research"
+  },
+  {
+    "search_id": "S494-4",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Fourier entropy influence\" erratum correction withdrawal",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft discovery and source/disqualification research"
+  },
+  {
+    "search_id": "S495-1",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Every monotone graph property has a sharp threshold\" pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft discovery and source/disqualification research"
+  },
+  {
+    "search_id": "S495-2",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Fourier Entropy Influence\" \"2026\" \"counterexamples\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft discovery and source/disqualification research"
+  },
+  {
+    "search_id": "S495-3",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Fourier entropy\" \"2025\" \"2026\" \"resolution\" \"Boolean\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft discovery and source/disqualification research"
+  },
+  {
+    "search_id": "S495-4",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"The Fourier Entropy–Influence Conjecture for certain classes of Boolean functions\" ICALP 2011",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft discovery and source/disqualification research"
+  },
+  {
+    "search_id": "S496-1",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Fourier entropy influence\" \"2025\" \"2026\" general bound proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S496-2",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Towards a proof of the Fourier-Entropy Conjecture\" theorem",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S496-3",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Fourier entropy influence\" \"González\" \"Pereyra\" correction",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S496-4",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Fourier entropy influence\" \"Shalev\" \"Han\" refutation",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S497-1",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Fourier entropy influence conjecture\" \"proved\" \"September\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S497-2",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Fourier entropy influence\" \"counterexample\" classical Boolean",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S497-3",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Keller\" \"Mossel\" \"Schlank\" \"Claim 4.1\" entropy influence",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S497-4",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Towards a Proof of the Fourier-Entropy Conjecture\" correction erratum",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "A65-1",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Fourier entropy influence conjecture\" proof disproof refuted 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "A65-2",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"spectral entropy\" \"Boolean\" \"universal constant\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "A65-3",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Fourier entropy influence\" correction erratum withdrawn",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "A65-4",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"González\" \"MacManus\" \"Pereyra\" \"entropy\" \"counterexample\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "A65-5",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Fourier entropy influence\" counterexample classical scalar",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "A65-6",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Further evidence towards the Fourier Entropy-Influence conjecture\" revision correction",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "A65-7",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Towards a Proof of the Fourier-Entropy Conjecture\" \"2025\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "A65-8",
+    "candidate_id": "fourier-entropy-influence",
+    "query": "\"Fourier entropy influence\" \"learning\" \"membership queries\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
   }
 ]

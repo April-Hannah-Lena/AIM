@@ -1,0 +1,458 @@
+{
+  "candidate_id": "fourier-entropy-influence",
+  "proposed_catalogue_id": null,
+  "title": "The Fourier entropy–influence conjecture",
+  "primary_section": "applied",
+  "secondary_tags": [
+    "statistical learning",
+    "Boolean models",
+    "spectral sparsity"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Exact canonical Boolean formulation, independent current corroboration, full relevant resolution-scope comparisons, duplicate review, separated A65 self-review and technical checks passed. One unintegrated family; no permanent ID.",
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "problem_fingerprint": {
+    "objects": "Every integer n>=1 and every function f:{-1,1}^n->{-1,1}, with the uniform probability measure on the cube. No monotonicity, balance, bounded degree, formula size or symmetry assumption.",
+    "fourier_normalization": "For every S subset of [n], chi_S(x)=product_(i in S) x_i, with chi_empty=1, and fhat(S)=2^(-n) sum_x f(x) chi_S(x). Parseval gives sum_S fhat(S)^2=1.",
+    "entropy": "H(f)=sum_(S subset of [n]) fhat(S)^2 log_2(1/fhat(S)^2), including the empty set and defining a zero summand to be zero.",
+    "influence": "For uniform X, X^(i) flips its ith bit. Inf_i(f)=Pr[f(X)!=f(X^(i))]=sum_(S containing i) fhat(S)^2. I(f)=sum_i Inf_i(f)=sum_S |S| fhat(S)^2.",
+    "target": "There is one finite universal constant C>0 such that H(f)<=C I(f) for every n and every Boolean-valued f.",
+    "quantifiers": "C is independent of dimension and function. The assertion is a nonasymptotic inequality, not a claim about most functions, bounded-complexity subclasses or a fixed proposed sharp numerical constant.",
+    "scope": "Shannon entropy of the squared Fourier coefficient distribution, not entropy of f(X), Fourier min-entropy, biased-input entropy, or matrix/quantum entropy. Boolean output is essential; no general real-valued extension is asserted.",
+    "family_policy": "One canonical entry; equivalent average-sensitivity wording, logarithm bases, spectral concentration consequences and restricted classes receive no separate count."
+  },
+  "statement_sources": [
+    {
+      "source_id": "OWZ11",
+      "url": "https://yuanz.web.illinois.edu/papers/fei-icalp.pdf",
+      "locator": "Section 1, unnumbered FEI Conjecture; Sections 1.1 and 2.1–2.2, author-PDF pp.2–5."
+    },
+    {
+      "source_id": "GMP26",
+      "url": "https://arxiv.org/html/2606.00246v2",
+      "locator": "June 9, 2026 revision, Section 1, unnumbered FEI Conjecture; Sections 2.1–2.4."
+    },
+    {
+      "source_id": "H25",
+      "url": "https://link.springer.com/article/10.1007/s00493-024-00133-z",
+      "locator": "Conjecture 1.1 and equations (1.1)–(1.2); non-strict inequality and constant-function convention follow OWZ11/GMP26."
+    }
+  ],
+  "nearest_existing_entries": [
+    {
+      "id": "269",
+      "path": "problems/269-most-informative-boolean-function.md",
+      "difference": "Optimizes mutual information between one output bit and a noisy input vector; FEI bounds the entropy of the entire Fourier-weight distribution by average sensitivity, with no noise parameter."
+    },
+    {
+      "id": "337",
+      "path": "problems/337-classical-uniform-dnf-learning.md",
+      "difference": "Asks for an efficient learner using only independent labels for DNF targets. FEI is a structural inequality for all Boolean functions; its sourced agnostic-DNF learning consequence uses queries and fixed accuracy, and does not assert the examples-only algorithm."
+    },
+    {
+      "id": "338",
+      "path": "problems/338-aaronson-ambainis-influence.md",
+      "difference": "Asks for one influential coordinate of a bounded real low-degree polynomial. FEI concerns total influence and Shannon Fourier entropy for Boolean-valued functions of unrestricted degree."
+    }
+  ],
+  "duplicate_check": {
+    "baseline": "Established complete baseline inventory retained. Full closest pages 269, 337 and 338 reread September 19, 2026.",
+    "local": "Alias and formulation search of problems, metadata and research records found no equivalent accepted entry. The AA record only mentions the quantum entropy-influence counterexample as a scope comparison.",
+    "upstream": "SSH fetch completed September 19, 2026; HEAD and origin/main both 0d7311e1f5461d7fbbb60a82354c312d2bb1c3c5. Connected GitHub reports private repository with push access, no open PRs, and only main after complete branch pagination."
+  },
+  "source_records": [
+    {
+      "source_id": "OWZ11",
+      "authors": [
+        "Ryan O'Donnell",
+        "John Wright",
+        "Yuan Zhou"
+      ],
+      "title": "The Fourier Entropy–Influence Conjecture for Certain Classes of Boolean Functions",
+      "url": "https://yuanz.web.illinois.edu/papers/fei-icalp.pdf",
+      "version": "ICALP 2011, LNCS 6755, 330–341; DOI 10.1007/978-3-642-22006-7_28. Author manuscript inspected; publisher identity verified.",
+      "locator": "Sections 1–2.2, author-PDF pp.2–5; unnumbered FEI formulation, Theorems 1–3 and their class definitions.",
+      "read": "Complete formulation, normalization, query-learning application and restricted-class statements.",
+      "access_limit": "Author full text available; subscription publisher text not inspected.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "H25",
+      "authors": [
+        "Xiao Han"
+      ],
+      "title": "A New Bound for the Fourier-Entropy-Influence Conjecture",
+      "url": "https://link.springer.com/article/10.1007/s00493-024-00133-z",
+      "revision_url": "https://arxiv.org/html/2312.08271v2",
+      "version": "Combinatorica 45 (2025), Article 4; online December 20, 2024. arXiv:2312.08271 v1 December 13, 2023; latest v2 December 10, 2025.",
+      "locator": "Published Sections 1.1–1.2 and Section 3 through equations (3.1)–(3.4); v2 Conjecture 1.1, Theorem 1 and Note added.",
+      "read": "Full target, theorem, relevant definitions and revision note. The note identifies KMS11 as related prior work.",
+      "access_limit": "Printed strict inequality fails for constants; draft uses the non-strict OWZ11/GMP26 convention. Ancillary min-entropy and concentration typographical errors are not copied. Direct HTTP link check returned a publisher cookie-error redirect; the full published text was read through the browser tool, and the latest arXiv alternative is directly accessible.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "GMP26",
+      "authors": [
+        "María José González",
+        "Paul MacManus",
+        "María Cristina Pereyra"
+      ],
+      "title": "Further evidence towards the Fourier Entropy-Influence conjecture",
+      "url": "https://arxiv.org/html/2606.00246v2",
+      "version": "arXiv:2606.00246; v1 May 29, 2026; latest v2 June 9, 2026.",
+      "locator": "Sections 1, 2.1–2.2, 2.4; Proposition 5.1 and proof, Definition 5.2, Theorem 5.3; Proposition 6.1, Definitions 6.2 and 6.7, Theorems 6.3 and 6.8.",
+      "read": "Full formulation, normalizations, splitting counterexample and relevant family definitions/theorem statements. Proposition 6.1 proof inspected.",
+      "access_limit": "Detailed estimates in every new-family proof were not independently certified; introductory index/KKL typos are not adopted.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "KMS11",
+      "authors": [
+        "Nathan Keller",
+        "Elchanan Mossel",
+        "Tomer Schlank"
+      ],
+      "title": "A Note on the Entropy/Influence Conjecture",
+      "url": "https://arxiv.org/pdf/1105.2651v1",
+      "version": "arXiv:1105.2651v1, submitted May 13, 2011; retrieved PDF internally dated October 22, 2018. The single arXiv version was verified.",
+      "locator": "Section 1, Definitions 1.1–1.3 and Conjectures 1.5–1.6; Claim 4.1 and full proof, internal p.10.",
+      "read": "Complete Boolean formulation and coordinate-entropy inequality with its entropy-subadditivity argument.",
+      "access_limit": "Only the first Claim 4.1 inequality is used; the printed subsequent estimate and unrestricted real-valued normalization are not imported. Later journal metadata is not treated as separately inspected full text.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "KKLMS20",
+      "authors": [
+        "Esty Kelman",
+        "Guy Kindler",
+        "Noam Lifshitz",
+        "Dor Minzer",
+        "Muli Safra"
+      ],
+      "title": "Towards a Proof of the Fourier–Entropy Conjecture?",
+      "url": "https://arxiv.org/pdf/1911.10579v2",
+      "version": "arXiv:1911.10579 v1 November 24, 2019; latest v2 May 7, 2020.",
+      "locator": "Sections 1.1–1.3.1, internal pp.3–5; Theorems 1.1–1.3.",
+      "read": "Full theorem statements, indicator-function convention, normalized influence I/Var and query-learning consequence.",
+      "access_limit": "A concentration or min-entropy theorem is not a universal Shannon-entropy bound. Published-version full text not used.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "S19",
+      "authors": [
+        "Guy Shalev"
+      ],
+      "title": "On the Fourier Entropy Influence Conjecture for Extremal Classes",
+      "url": "https://arxiv.org/pdf/1806.03646v2",
+      "version": "arXiv:1806.03646 v1 June 10, 2018; latest v2 January 24, 2019, internally dated January 25.",
+      "locator": "Introduction Conjecture 1, Theorems 2–6 and 9; Section 2.1.",
+      "read": "Complete extreme-regime statements, extension implications and global read-k definition.",
+      "access_limit": "Theorem 8's regular-DNF hypotheses were not fully audited and are not used. No unrestricted constant is inferred from a parameter-dependent bound.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "SVZ26",
+      "authors": [
+        "Joseph Slote",
+        "Alexander Volberg",
+        "Haonan Zhang"
+      ],
+      "title": "Tightness of and counterexamples to several quantum estimates",
+      "url": "https://arxiv.org/html/2608.04411v2",
+      "version": "arXiv:2608.04411 v1 August 5, 2026; latest v2 August 6, 2026.",
+      "locator": "Section 6, internal pp.18–21, especially Sections 6.1 and 6.3–6.6, Proposition 3 and equations (84)–(85).",
+      "read": "Classical statement, complex-phase model, Hermitian dilation and Pauli influence/entropy formulas.",
+      "access_limit": "Scope audit of the matrix construction, not independent proof certification. The classical display omits the empty coefficient; the normalization comparison is recorded below.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "LH25",
+      "authors": [
+        "Peijie Li",
+        "Guangyue Han"
+      ],
+      "title": "Strengthening Han's Fourier Entropy-Influence Inequality via an Information-Theoretic Proof",
+      "url": "https://arxiv.org/abs/2512.03117",
+      "inspected_text_url": "https://arxiv.org/html/2512.03117v1",
+      "version": "v1 December 2, 2025; withdrawal in v2 December 7 and v3 December 9, 2025.",
+      "locator": "Full three-page v1 argument and complete latest withdrawal notice.",
+      "read": "The notice attributes the result to KMS11 Claim 4.1.",
+      "access_limit": "Withdrawn for prior discovery, not counted as a new improvement or independent corroboration; no v3 paper PDF is available.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "S26",
+      "authors": [
+        "Joseph Slote"
+      ],
+      "title": "Dense Hamiltonians at the Parseval Limit: The Noncommutative BH Constant is Exponential and the Quantum FEI Conjecture is False",
+      "url": "https://arxiv.org/html/2608.01424v1",
+      "version": "arXiv:2608.01424v1, August 2, 2026; only version in inspected history.",
+      "locator": "Section 1 Pauli and classical embedding definitions, full Theorem 1; Section 3, Conjecture 4, Theorem 5 and its proof.",
+      "read": "Complete relevant operator hypotheses and FEI comparison; Section 4's anticommuting-family definition inspected.",
+      "access_limit": "No independent certification of the full Hamiltonian construction. Shares an author with SVZ26, so is not another independent corroboration group.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "GS14",
+      "authors": [
+        "Sugata Gangopadhyay",
+        "Pantelimon Stănică"
+      ],
+      "title": "The Fourier Entropy-Influence conjecture holds for a log-density 1 class of cryptographic Boolean functions",
+      "url": "https://eprint.iacr.org/2014/054.pdf",
+      "metadata_url": "https://eprint.iacr.org/2014/054",
+      "version": "Cryptology ePrint 2014/054, received January 26, 2014; inspected manuscript dated January 25, 2014. Archive labels a minor revision.",
+      "locator": "Sections 1–2 definitions and Theorem 2; Section 3 plateaued definition and Theorem 5; Section 4 definitions and Theorems 7–8, internal pp.1–10.",
+      "read": "Full relevant restricted-class statements, strict-avalanche and disjoint-spectrum conditions; Theorem 2 proof.",
+      "access_limit": "The full PDF was obtained directly after the browser PDF fetch failed. Other full proofs are not independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "OWZ11",
+      "locator": "Theorems 1–3 and Sections 2.1–2.2",
+      "result_scope": "Symmetric, fixed-part symmetric and globally read-once decision-tree classes.",
+      "comparison_with_target": "The restrictions do not cover arbitrary Boolean functions; the part-dependent constant is not uniform as the number of parts grows.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "KMS11",
+      "locator": "Claim 4.1, first inequality",
+      "result_scope": "H(f) <= sum_i h_2(Inf_i(f)).",
+      "comparison_with_target": "The coordinate entropy sum need not be O(I(f)); it still contains small-influence logarithmic costs.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "H25",
+      "locator": "Theorem 1; v2 Note added",
+      "result_scope": "H(f) <= c1 I(f)+c2 sum_i Inf_i(f) log(1/Inf_i(f)).",
+      "comparison_with_target": "The extra coordinate term is not uniformly bounded by I. The 2025 note acknowledges related KMS11 work; it does not announce a resolution.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "KKLMS20",
+      "locator": "Theorems 1.1–1.3",
+      "result_scope": "Min-entropy and spectral concentration with I/Var and logarithmic dependence; truncated Shannon entropy with |S| log(|S|+1) weights.",
+      "comparison_with_target": "Neither large-coefficient existence nor fixed-tail concentration proves the proposed full Shannon-entropy inequality.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "S19",
+      "locator": "Theorems 2–6",
+      "result_scope": "FEI in exponentially small-influence and linearly large-entropy regimes; constants depend on the regime or Fourier l1 norm. Sublinear extensions would imply full FEI.",
+      "comparison_with_target": "The extensions are conditional implications, not proved unrestricted inequalities.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "S19",
+      "locator": "Theorem 9 and Section 2.1",
+      "result_scope": "Read-k decision-tree FEI constant O(sqrt(k)), with at most k occurrences of each variable across the whole tree.",
+      "comparison_with_target": "A growing k leaves a growing constant; per-path read-once would incorrectly include all Boolean functions.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "GMP26",
+      "locator": "Proposition 5.1; Definition 5.2 and Theorem 5.3",
+      "result_scope": "A monotone family violates a stronger auxiliary splitting inequality for the designated variable but satisfies FEI by another split.",
+      "comparison_with_target": "Failure of this induction route does not refute the target inequality.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "GMP26",
+      "locator": "Proposition 6.1; Definitions 6.2/6.7 and Theorems 6.3/6.8",
+      "result_scope": "Semi-separated stopping trees and separated tribe families satisfy FEI; stopping functions must already satisfy FEI.",
+      "comparison_with_target": "The separated-variable and stopping hypotheses are proper restrictions, not an all-function theorem.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "SVZ26",
+      "locator": "Sections 6.1 and 6.3, Proposition 3",
+      "result_scope": "Unit-modulus complex functions lift to Hermitian involutions by a block dilation.",
+      "comparison_with_target": "Complex output is not scalar {-1,1}; the extra matrix coordinate does not supply a Boolean counterexample.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "SVZ26",
+      "locator": "Section 6.6, equations (84)–(85)",
+      "result_scope": "Quantum examples have influence below 2 and Pauli entropy growing like log n.",
+      "comparison_with_target": "Quantum Pauli weights differ from classical parity weights. Global diagonalization does not preserve the coordinate influence structure.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "S26",
+      "locator": "Theorems 1 and 5, Section 3",
+      "result_scope": "Homogeneous degree-d quantum Boolean operators have entropy Theta(d^2) and influence d.",
+      "comparison_with_target": "The model permits noncommuting Pauli directions. Only Z-supported diagonal operators recover the classical class, and no such classical construction is claimed.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "GS14",
+      "locator": "Theorems 2, 5, 7 and 8 with definitions",
+      "result_scope": "Strict-avalanche, plateaued and monomial classes; concatenation assumes already-admissible functions with disjoint Fourier support.",
+      "comparison_with_target": "Asymptotic log-density one is not all functions. Unrestricted Shannon decompositions do not satisfy the disjoint-support hypothesis.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "LH25",
+      "locator": "Latest withdrawal notice and full v1 proof",
+      "result_scope": "Coordinate-entropy result withdrawn because KMS11 already contained it.",
+      "comparison_with_target": "This is a novelty withdrawal, not a disproof, new general FEI theorem or independent current corroboration.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    }
+  ],
+  "publication_state": "Accepted local research draft ready for authorized direct upload to main; no permanent ID or active catalogue integration.",
+  "second_review": {
+    "pass_id": "A65",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass after drafting; no independent agent or human review.",
+    "independent_searches": [
+      "A65-1",
+      "A65-2",
+      "A65-3",
+      "A65-4",
+      "A65-5",
+      "A65-6",
+      "A65-7",
+      "A65-8"
+    ],
+    "issues_found": [
+      "Han's preprint has a December 2025 revision acknowledging prior work; a superficially new coordinate-entropy paper was withdrawn.",
+      "August papers disprove quantum FEI, and a cryptographic paper's truncated title can appear unrestricted.",
+      "Empty-coefficient conventions, strict inequalities at constants and global read-k definitions require care.",
+      "The learning application must retain its membership-query and fixed-accuracy model."
+    ],
+    "issues_resolved": [
+      "Read the latest Han note and LH25 withdrawal with the original KMS11 inequality; corrected the bibliography.",
+      "Read S26's complete operator theorem and GS14's full restricted statements and definitions; logged precise scope differences.",
+      "Recorded the normalization comparison, used <= with constants, and retained whole-tree variable counts.",
+      "Kept only the sourced compact spectral representation and query-learning consequence; compared the complete nearest entries."
+    ],
+    "application_check": "Connects sensitivity of binary decision rules to existence of a sparse Fourier approximation; no passive learner, coefficient-finding algorithm or reconstruction guarantee is inferred.",
+    "search_limit": "Actual searches and scope comparisons do not exhaust all literature or independently certify mathematical proofs."
+  },
+  "draft_path": "research/expansion-2026-09/drafts/fourier-entropy-influence.md",
+  "aliases": [
+    "Fourier entropy–influence conjecture",
+    "FEI conjecture",
+    "entropy/influence conjecture",
+    "spectral entropy versus average sensitivity",
+    "Friedgut–Kalai entropy conjecture"
+  ],
+  "independent_corroboration": {
+    "sources": [
+      "GMP26",
+      "SVZ26"
+    ],
+    "independent_of": [
+      "OWZ11",
+      "H25"
+    ],
+    "qualification": "Separate author groups explicitly retain the classical conjecture in June and August 2026. S26 overlaps SVZ26; LH25 is withdrawn. Versions, mirrors and the related KMS/Han coordinate-entropy estimates are not counted as extra independent works."
+  },
+  "normalization_checks": [
+    "Uniform measure; real scalar {-1,1} outputs; every dimension and every function. Parseval gives a probability measure without additional normalization.",
+    "All Fourier subsets, including the empty set, appear. A zero coefficient contributes zero; constants have H=I=0, so the target is non-strict.",
+    "SVZ26 omits the empty coefficient in one classical display. For a=fhat(empty)^2, a log_2(1/a) <= (1-a)/ln 2 <= I/ln 2, so existence of a universal constant is equivalent.",
+    "Only one finite universal C is requested. Finite lower bounds on the best C and examples defeating a chosen small C do not disprove FEI.",
+    "Spectral Shannon entropy is distinct from output entropy, min-entropy, relative/biased entropy and quantum operator entropy.",
+    "Under FEI, retaining coefficients of squared magnitude at least 2^(-C I/epsilon) gives at most 2^(C I/epsilon) terms and omitted squared mass at most epsilon. Constants are handled separately. This is a representation statement, not an algorithm.",
+    "The stated DNF consequence allows membership queries and fixes accuracy. It does not solve entry 337's passive learning model; the stronger Mansour exponent O(log(1/epsilon)) is not asserted.",
+    "Read-k counts variable occurrences over the entire tree. Restricted subclasses and equivalent formulations remain one candidate family."
+  ],
+  "discovery_access_limits": [
+    {
+      "url": "https://www.ams.org/journals/proc/1996-124-10/S0002-9939-96-03732-X/S0002-9939-96-03732-X.pdf",
+      "limit": "Original Friedgut–Kalai 1996 full text unavailable: direct publisher PDF returned 403 and DOI browser open failed. Explicit complete OWZ11/KMS11/H25/GMP26 restatements control; original text not claimed read."
+    },
+    {
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-22006-7_28",
+      "limit": "Publisher identity verified, author manuscript inspected for mathematics; publisher full text not available."
+    },
+    {
+      "url": "https://teorth.github.io/optimizationproblems/constants/71a.html",
+      "limit": "Definition, finite-constant bounds and contribution notice inspected. Numerical certificates were not replayed and precise new lower bounds are not asserted. This assisted compilation is not scholarly admission corroboration."
+    },
+    {
+      "description": "Secondary and AI-generated discovery summaries",
+      "limit": "No theorem or current-status conclusion depends on ProofAtlas, MathDB, emergentmind or other summaries. Superficially unrestricted proof titles were followed to primary text."
+    },
+    {
+      "url": "https://www.weizmann.ac.il/math/gideon/sites/math.gideon/files/uploads/entropyInfluenceformodulusonefunctions3.pdf",
+      "limit": "Search-only lead, not counted as a fully inspected source; the complex-phase obstruction was read in SVZ26."
+    }
+  ],
+  "status_search_ids": [
+    "S493-1",
+    "S494-1",
+    "S494-2",
+    "S494-3",
+    "S494-4",
+    "S495-1",
+    "S495-2",
+    "S495-3",
+    "S495-4",
+    "S496-1",
+    "S496-2",
+    "S496-3",
+    "S496-4",
+    "S497-1",
+    "S497-2",
+    "S497-3",
+    "S497-4",
+    "A65-1",
+    "A65-2",
+    "A65-3",
+    "A65-4",
+    "A65-5",
+    "A65-6",
+    "A65-7",
+    "A65-8"
+  ],
+  "validation": {
+    "strict_katex_expressions": 30,
+    "render": "All 30 expressions passed strict KaTeX. Complete 1300x6000 Chrome screenshot inspected; formulas and final paragraphs visible without clipping.",
+    "external_links": "Nine bibliography targets responded successfully, including all four PDFs with PDF headers and the withdrawal notice. The journal publisher returned a cookie-error redirect; the inspected latest primary preprint alternative also responded successfully.",
+    "external_link_record": "research/expansion-2026-09/fourier-entropy-influence-link-check.json",
+    "local_links": "All four relative links resolve.",
+    "structure": "Required headings, source references, unique search identifiers and count arithmetic checked. Existing catalogue validator passed all 360 entries; no active metadata changed."
+  }
+}
