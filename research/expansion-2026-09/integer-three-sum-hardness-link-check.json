@@ -1,0 +1,114 @@
+{
+  "checked_on": "2026-09-18",
+  "method": "Direct GET of every external bibliography link; full source identities and exact read locations are recorded in the candidate ledger.",
+  "results": [
+    {
+      "url": "https://msabin.github.io/files/papers/BRSV17.pdf",
+      "status": 200,
+      "final_url": "https://msabin.github.io/files/papers/BRSV17.pdf",
+      "content_type": "application/pdf",
+      "bytes": 949022,
+      "pdf_magic": true,
+      "checked_on": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2211.07048v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2211.07048v2",
+      "content_type": "application/pdf",
+      "bytes": 699282,
+      "pdf_magic": true,
+      "checked_on": "2026-09-18"
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.126/LIPIcs.ICALP.2026.126.html",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.126/LIPIcs.ICALP.2026.126.html",
+      "content_type": "text/html",
+      "bytes": 253772,
+      "pdf_magic": false,
+      "checked_on": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/html/1404.0799v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/1404.0799v3",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 654558,
+      "pdf_magic": false,
+      "checked_on": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1502.05204v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1502.05204v1",
+      "content_type": "application/pdf",
+      "bytes": 288009,
+      "pdf_magic": true,
+      "checked_on": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.22355v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.22355v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 465266,
+      "pdf_magic": false,
+      "checked_on": "2026-09-18"
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.78/LIPIcs.ICALP.2026.78.html",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.78/LIPIcs.ICALP.2026.78.html",
+      "content_type": "text/html",
+      "bytes": 364460,
+      "pdf_magic": false,
+      "checked_on": "2026-09-18"
+    },
+    {
+      "url": "https://arxiv.org/html/2606.27727v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2606.27727v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 550621,
+      "pdf_magic": false,
+      "checked_on": "2026-09-18"
+    },
+    {
+      "url": "https://people.csail.mit.edu/mip/papers/mp-3sum/paper.pdf",
+      "status": 200,
+      "final_url": "https://people.csail.mit.edu/mip/papers/mp-3sum/paper.pdf",
+      "content_type": "application/pdf",
+      "bytes": 285350,
+      "pdf_magic": true,
+      "checked_on": "2026-09-18"
+    },
+    {
+      "url": "https://people.csail.mit.edu/virgi/6.1420/papers/real3sum.pdf",
+      "status": 200,
+      "final_url": "https://people.csail.mit.edu/virgi/6.1420/papers/real3sum.pdf",
+      "content_type": "application/pdf",
+      "bytes": 415665,
+      "pdf_magic": true,
+      "checked_on": "2026-09-18"
+    },
+    {
+      "url": "https://eprint.iacr.org/2022/1113.pdf",
+      "status": 200,
+      "final_url": "https://eprint.iacr.org/2022/1113.pdf",
+      "content_type": "application/pdf",
+      "bytes": 158845,
+      "pdf_magic": true,
+      "checked_on": "2026-09-18"
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol077-socg2017/LIPIcs.SoCG.2017.13/LIPIcs.SoCG.2017.13.pdf",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol077-socg2017/LIPIcs.SoCG.2017.13/LIPIcs.SoCG.2017.13.pdf",
+      "content_type": "application/pdf",
+      "bytes": 1073758,
+      "pdf_magic": true,
+      "checked_on": "2026-09-18"
+    }
+  ]
+}

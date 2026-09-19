@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 50,
+  "new_accepted": 51,
   "active_total": 350,
-  "candidates_investigated": 56,
+  "candidates_investigated": 57,
   "held_unverified": 1,
   "held_claimed_resolution": 5,
   "excluded": 0,
-  "remaining_to_minimum": 150,
-  "remaining_to_target": 200,
+  "remaining_to_minimum": 149,
+  "remaining_to_target": 199,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -216,10 +216,11 @@
       "purpose": "Record held tensor-detection draft, theorem-scope audit, bibliography checks and discovery; pushed directly to main and exact remote commit separately verified September 18, 2026. No new accepted entry."
     }
   ],
-  "remote_state": "All fifty catalogue additions (301–350) and their research records are published directly on main. Batch 5 content commit 1240ebfbdae361901472a7d33ca0baa7073c51cb was pushed and verified through a separate remote-ref read on September 18, 2026. The held tensor-detection research checkpoint 89cc7eb07875386f9912413f51573d6b253a9551 was also pushed directly to main and separately verified on September 18, 2026; accepted and published additions remain fifty.",
+  "remote_state": "All fifty catalogue additions (301–350) and their research records are published directly on main. Batch 5 content commit 1240ebfbdae361901472a7d33ca0baa7073c51cb and the later held tensor-detection checkpoint 89cc7eb07875386f9912413f51573d6b253a9551 were pushed and separately verified on September 18, 2026. Integer 3SUM is the fifty-first accepted addition, currently a local draft pending research-checkpoint publication and later catalogue integration.",
   "next_actions": [
+    "Publish the reviewed integer-3SUM research draft and evidence, then continue researching the next ten-to-twenty-entry integration batch. No permanent ID until that batch is ready.",
     "Continue discovery in other distinct families. Tensor detection is held after A52 found a potentially matching sparse-parity theorem whose modulus and hierarchy-level scope require clarification; see spiked-tensor-scope-hold.md.",
-    "Research and review the next ten-to-twenty-entry batch; refresh status and upstream duplicates before assigning permanent IDs. Fifty additions are published; at least 150 more are needed.",
+    "Research and review nine or more further distinct additions for the next batch; refresh status and upstream duplicates before assigning permanent IDs. Fifty additions are integrated and published, with integer 3SUM accepted but not integrated.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the six held candidates and discovery-only leads outside the active count; preserve original identifiers and historical dates.",
     "CFN sunlet projective quadratic generation needs independent corroboration and saturation-scope review; private-learning leads still need complete formulation and corroboration.",
@@ -234,7 +235,7 @@
     "applied": 9,
     "stochastic3": 11,
     "inverse2": 4,
-    "operators": 5,
+    "operators": 6,
     "inverse": 3,
     "stochastic2": 4,
     "spectral": 1,
@@ -244,11 +245,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 50,
-  "count_semantics": "Fifty accepted additions are integrated and published directly on main. Active catalogue total 350; no accepted drafts pending integration. Six held records excluded: five material claimed-resolution/scope holds and one formulation hold.",
+  "count_semantics": "Fifty accepted additions are integrated and published directly on main; integer 3SUM is accepted as a draft awaiting the next integration batch. Active total 350. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 50,
-  "coverage_semantics": "Accepted additions by primary section; fifty integrated, no pending accepted drafts.",
+  "coverage_semantics": "Accepted additions by primary section; fifty integrated and one pending accepted draft.",
   "remaining_integrations_to_minimum": 150,
   "remaining_integrations_to_target": 200,
-  "pending_accepted": 0
+  "pending_accepted": 1
 }

@@ -15401,5 +15401,269 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Discovery after the tensor hold: graph reconstruction and existing phylogenetic leads. No new candidate admitted."
+  },
+  {
+    "search_id": "S405-1",
+    "searched_on": "2026-09-18",
+    "query": "\"graph reconstruction conjecture\" proof counterexample solved 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Graph-reconstruction discovery follow-up; explicit formulation, independent status and possible general resolution."
+  },
+  {
+    "search_id": "S405-2",
+    "searched_on": "2026-09-18",
+    "query": "\"Ulam Kelly\" \"reconstruction\" \"proof\" 2025 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Graph-reconstruction discovery follow-up; explicit formulation, independent status and possible general resolution."
+  },
+  {
+    "search_id": "S405-3",
+    "searched_on": "2026-09-18",
+    "query": "\"graph reconstruction conjecture\" Dufresne Jeronimo Kenkel Lindo Villamizar correction",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Graph-reconstruction discovery follow-up; explicit formulation, independent status and possible general resolution."
+  },
+  {
+    "search_id": "S405-4",
+    "searched_on": "2026-09-18",
+    "query": "\"vertex-deleted\" \"reconstruction conjecture\" survey open",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Graph-reconstruction discovery follow-up; explicit formulation, independent status and possible general resolution."
+  },
+  {
+    "search_id": "S406-1",
+    "searched_on": "2026-09-18",
+    "query": "\"Vertex-substitution framework verifies\" correction erratum proof",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Graph-reconstruction general-claim correction and adjudication discovery."
+  },
+  {
+    "search_id": "S406-2",
+    "searched_on": "2026-09-18",
+    "query": "\"O'Shea\" \"Wilkins\" reconstruction conjecture proof flaw",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Graph-reconstruction general-claim correction and adjudication discovery."
+  },
+  {
+    "search_id": "S406-3",
+    "searched_on": "2026-09-18",
+    "query": "\"thin shell conjecture\" 2026 proved solved counterexample",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Thin-shell statistics discovery; current status and potential resolutions."
+  },
+  {
+    "search_id": "S406-4",
+    "searched_on": "2026-09-18",
+    "query": "\"thin-shell conjecture\" 2025 2026 log-concave variance open",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Thin-shell statistics discovery; current status and potential resolutions."
+  },
+  {
+    "search_id": "S407-1",
+    "searched_on": "2026-09-18",
+    "query": "\"3SUM conjecture\" \"2026\" \"subquadratic\" integer",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "3SUM complexity discovery; precise computational model and matching-resolution searches."
+  },
+  {
+    "search_id": "S407-2",
+    "searched_on": "2026-09-18",
+    "query": "\"3SUM\" \"conjecture\" \"disproved\" OR \"solved\" OR \"refuted\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "3SUM complexity discovery; precise computational model and matching-resolution searches."
+  },
+  {
+    "search_id": "S407-3",
+    "searched_on": "2026-09-18",
+    "query": "\"3SUM conjecture\" randomized word RAM integers survey",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "3SUM complexity discovery; precise computational model and matching-resolution searches."
+  },
+  {
+    "search_id": "S407-4",
+    "searched_on": "2026-09-18",
+    "query": "\"3SUM\" \"2025\" \"2026\" \"truly subquadratic\" algorithm",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "3SUM complexity discovery; precise computational model and matching-resolution searches."
+  },
+  {
+    "search_id": "S408-1",
+    "searched_on": "2026-09-18",
+    "query": "\"Removing Additive Structure in 3SUM-Based Reductions\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "3SUM primary formulation, restricted algorithms and correction search."
+  },
+  {
+    "search_id": "S408-2",
+    "searched_on": "2026-09-18",
+    "query": "\"3SUM\" \"1.864\" \"Chan\" \"Lewenstein\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "3SUM primary formulation, restricted algorithms and correction search."
+  },
+  {
+    "search_id": "S408-3",
+    "searched_on": "2026-09-18",
+    "query": "\"Vertex-substitution framework\" \"120738\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Graph-reconstruction corrigendum source discovery."
+  },
+  {
+    "search_id": "S408-4",
+    "searched_on": "2026-09-18",
+    "query": "\"3SUM\" \"Grønlund\" correction erratum",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "3SUM primary formulation, restricted algorithms and correction search."
+  },
+  {
+    "search_id": "S409-1",
+    "searched_on": "2026-09-18",
+    "query": "\"3SUM conjecture\" \"proof\" \"2026\" randomized",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "3SUM pre-draft resolution, author/correction and current algorithm-bound checks."
+  },
+  {
+    "search_id": "S409-2",
+    "searched_on": "2026-09-18",
+    "query": "\"3SUM\" \"counterexample\" \"2025\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "3SUM pre-draft resolution, author/correction and current algorithm-bound checks."
+  },
+  {
+    "search_id": "S409-3",
+    "searched_on": "2026-09-18",
+    "query": "\"Jin\" \"Xu\" \"Removing Additive Structure\" correction erratum",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "3SUM pre-draft resolution, author/correction and current algorithm-bound checks."
+  },
+  {
+    "search_id": "S409-4",
+    "searched_on": "2026-09-18",
+    "query": "\"Baran\" \"Demaine\" \"Patrascu\" \"3SUM\" \"log\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "3SUM pre-draft resolution, author/correction and current algorithm-bound checks."
+  },
+  {
+    "search_id": "S410-1",
+    "searched_on": "2026-09-18",
+    "query": "\"Corrigendum\" \"Vertex-substitution framework\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Graph-reconstruction correction source lookup; outside accepted candidates."
+  },
+  {
+    "search_id": "A53-1",
+    "searched_on": "2026-09-18",
+    "query": "\"integer 3SUM\" \"n^3\" proof 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after the integer-3SUM draft; no independent reviewer."
+  },
+  {
+    "search_id": "A53-2",
+    "searched_on": "2026-09-18",
+    "query": "\"3SUM\" \"truly subquadratic\" \"September 2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after the integer-3SUM draft; no independent reviewer."
+  },
+  {
+    "search_id": "A53-3",
+    "searched_on": "2026-09-18",
+    "query": "\"three sum\" randomized subquadratic algorithm",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after the integer-3SUM draft; no independent reviewer."
+  },
+  {
+    "search_id": "A53-4",
+    "searched_on": "2026-09-18",
+    "query": "\"3SUM conjecture\" refutation \"word RAM\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after the integer-3SUM draft; no independent reviewer."
+  },
+  {
+    "search_id": "A53-5",
+    "searched_on": "2026-09-18",
+    "query": "\"A new algorithm for solving the rSUM problem\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A53 self-review follow-up on additional apparent algorithm/refutation hits."
+  },
+  {
+    "search_id": "A53-6",
+    "searched_on": "2026-09-18",
+    "query": "\"Subquadratic Algorithms for Algebraic Generalizations of 3SUM\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A53 self-review follow-up on additional apparent algorithm/refutation hits."
+  },
+  {
+    "search_id": "A53-7",
+    "searched_on": "2026-09-18",
+    "query": "\"Improved Subquadratic 3SUM\" \"Freund\" arxiv",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A53 self-review follow-up on additional apparent algorithm/refutation hits."
+  },
+  {
+    "search_id": "A53-8",
+    "searched_on": "2026-09-18",
+    "query": "\"3SUM\" \"2026\" \"counterexample\" \"proof\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A53 self-review follow-up on additional apparent algorithm/refutation hits."
+  },
+  {
+    "search_id": "A53-9",
+    "searched_on": "2026-09-18",
+    "query": "\"Improved Subquadratic 3SUM\" Freund arxiv",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A53 self-review: author manuscript, restricted rSUM bound, current resolution and correction follow-up."
+  },
+  {
+    "search_id": "A53-10",
+    "searched_on": "2026-09-18",
+    "query": "\"A new algorithm for solving the rSUM problem\" correction withdrawal",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A53 self-review: author manuscript, restricted rSUM bound, current resolution and correction follow-up."
+  },
+  {
+    "search_id": "A53-11",
+    "searched_on": "2026-09-18",
+    "query": "\"Integer3SUM\" \"conjecture\" \"2026\" refuted proof",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A53 self-review: author manuscript, restricted rSUM bound, current resolution and correction follow-up."
+  },
+  {
+    "search_id": "A53-12",
+    "searched_on": "2026-09-18",
+    "query": "\"3SUM\" \"Grønlund\" \"Freund\" erratum correction",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A53 self-review: author manuscript, restricted rSUM bound, current resolution and correction follow-up."
   }
 ]
