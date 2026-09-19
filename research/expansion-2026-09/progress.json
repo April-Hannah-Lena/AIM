@@ -45,7 +45,7 @@
     },
     {
       "commit": "ce50f8b",
-      "purpose": "Integrate the first ten reviewed additions as 301–310 and record batch validation."
+      "purpose": "Integrate the first ten reviewed additions as 301\u2013310 and record batch validation."
     },
     {
       "commit": "329615a",
@@ -61,7 +61,7 @@
     },
     {
       "commit": "3ddf14b",
-      "purpose": "Record the reviewed reversible reaction–diffusion continuation draft; pushed directly to main."
+      "purpose": "Record the reviewed reversible reaction\u2013diffusion continuation draft; pushed directly to main."
     },
     {
       "commit": "3335df4",
@@ -73,7 +73,7 @@
     },
     {
       "commit": "7e1c7d7de3bf58063c7578edb77cc84e323a03fd",
-      "purpose": "Integrate entries 311–320 with source audits and batch validation; pushed directly to main."
+      "purpose": "Integrate entries 311\u2013320 with source audits and batch validation; pushed directly to main."
     },
     {
       "commit": "0ad9dcd7ba00b2fddc73a7ad69e30f985811bf6e",
@@ -121,7 +121,7 @@
     },
     {
       "commit": "103e4cd6acc9efcb48f12b65f275249ec66f3825",
-      "purpose": "Integrate entries 321–330 with source audits and batch validation; pushed directly to main and independently verified."
+      "purpose": "Integrate entries 321\u2013330 with source audits and batch validation; pushed directly to main and independently verified."
     },
     {
       "commit": "dd5b9c1b7aa188850706e1ac5c0fd4856c043833",
@@ -157,7 +157,7 @@
     },
     {
       "commit": "b4106af4399b66c4e70bf21a3dffcfa4f40e71f9",
-      "purpose": "Record reviewed Aaronson–Ambainis influence draft; pushed directly to main and independently verified September 18, 2026."
+      "purpose": "Record reviewed Aaronson\u2013Ambainis influence draft; pushed directly to main and independently verified September 18, 2026."
     },
     {
       "commit": "9fe8c0b204ef323ca6bbf11c9366c9cbdfb68393",
@@ -165,7 +165,7 @@
     },
     {
       "commit": "12ec3dcab61711bcf85b4ffab16eb38254d004e2",
-      "purpose": "Integrate entries 331–340 with source audits and batch validation; pushed directly to main and independently verified September 18, 2026."
+      "purpose": "Integrate entries 331\u2013340 with source audits and batch validation; pushed directly to main and independently verified September 18, 2026."
     },
     {
       "commit": "bdcecb7dad63b280bdb2f0d91f9f1842d07c3f3b",
@@ -209,7 +209,7 @@
     },
     {
       "commit": "1240ebfbdae361901472a7d33ca0baa7073c51cb",
-      "purpose": "Integrate entries 341–350 with reviewed research, fresh status searches and validation; pushed directly to main and independently verified September 18, 2026."
+      "purpose": "Integrate entries 341\u2013350 with reviewed research, fresh status searches and validation; pushed directly to main and independently verified September 18, 2026."
     },
     {
       "commit": "89cc7eb07875386f9912413f51573d6b253a9551",
@@ -238,9 +238,13 @@
     {
       "commit": "0b1548b97fb283bd5478387bbeb21c6e233ca348",
       "purpose": "Record reviewed subset-sum support/concentration draft, ten-source audit and bibliography checks; pushed directly to main and exact remote commit separately verified September 19, 2026."
+    },
+    {
+      "commit": "d65b4a8097b7a464b47e50ffaad2409fbdfe3fb8",
+      "purpose": "Record reviewed planar halving-line draft, twelve-source audit and bibliography checks; pushed directly to main and exact remote commit separately verified September 19, 2026."
     }
   ],
-  "remote_state": "All fifty catalogue additions (301–350) and six earlier accepted drafts are published directly on main. The planar halving-line draft and its reviewed evidence are ready locally for the authorized direct upload. Main was refreshed and matches b0254a5fa8816376d9aedd9f6a1c1aed7627700f on September 19, 2026. Seven accepted drafts await catalogue integration; active catalogue remains 350.",
+  "remote_state": "All fifty catalogue additions (301\u2013350) and their research records are published directly on main. Integer 3SUM, MIRUP, entanglement-of-purification additivity, private-PAC VC/log-star learning, strong edge-colouring, subset-sum support/concentration and planar halving lines are uploaded accepted drafts, the latest in d65b4a8097b7a464b47e50ffaad2409fbdfe3fb8. A separate remote-ref read verified that exact research commit on September 19, 2026. Seven accepted drafts await integration; active catalogue remains 350.",
   "next_actions": [
     "Continue research toward the next ten-to-twenty-entry integration batch. Seven accepted drafts are ready; no permanent IDs until the batch is ready.",
     "Continue discovery in other distinct families. Tensor detection is held after A52 found a potentially matching sparse-parity theorem whose modulus and hierarchy-level scope require clarification; see spiked-tensor-scope-hold.md.",

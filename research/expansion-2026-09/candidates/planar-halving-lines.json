@@ -82,7 +82,7 @@
     "S451-3",
     "S451-4"
   ],
-  "publication_state": "Accepted local research draft, ready for the authorized direct upload; no permanent ID until the next integration batch.",
+  "publication_state": "Accepted research draft and evidence pushed directly to main in d65b4a8097b7a464b47e50ffaad2409fbdfe3fb8; a separate remote-ref read matched the exact commit on September 19, 2026. No permanent ID until the next integration batch.",
   "second_review": {
     "pass_id": "A59",
     "state": "passed",
