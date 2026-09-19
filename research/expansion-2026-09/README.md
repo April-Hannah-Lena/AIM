@@ -24,7 +24,7 @@ The user authorized repository uploads and direct pushes to main. No PR is requi
 
 The [accepted draft](drafts/hadwiger-boltyanski-illumination.md) asks for the sharp number of directions illuminating every boundary point of an arbitrary convex body, including the affine-cube equality case. The [evidence record](candidates/hadwiger-boltyanski-illumination.json) contains fifteen source records, including one erratum, and fifteen scope comparisons. Recent all-dimensional cap-body and primitive-polytope results retain geometric restrictions. The old three-dimensional proof announcement is assessed through an explicit specialist report of gaps and later independent open formulations; its original full text was unavailable.
 
-A63 was a separated adversarial self-review after drafting. All 26 mathematical expressions passed strict KaTeX and full-page visual inspection; all nine bibliography URLs returned HTTP 200, and all four local links resolve. The draft has no permanent ID and does not change the 360-entry catalogue. Its reviewed research records are ready for the authorized direct upload to main.
+A63 was a separated adversarial self-review after drafting. All 26 mathematical expressions passed strict KaTeX and full-page visual inspection; all nine bibliography URLs returned HTTP 200, and all four local links resolve. The draft has no permanent ID and does not change the 360-entry catalogue. Its [research checkpoint](https://github.com/MColbrook/AIM/commit/3da24a78c1e9ef89eed406a5644f4bb981602c3d) was pushed directly to main, and a separate remote-ref read matched the exact full commit on September 19, 2026.
 
 ## Brownian boundary-resampling systems (2026-09-19)
 

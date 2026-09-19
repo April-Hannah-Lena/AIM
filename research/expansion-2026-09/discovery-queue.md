@@ -506,3 +506,5 @@ The other searches remain discovery only and are outside the formal candidate/ac
 - Strong Gaussian correlation: searches surfaced the [Assouline–Chor–Sadovsky lead](https://arxiv.org/abs/2407.15684) and the newer [Gaussian Correlation via Inverse Brascamp–Lieb](https://link.springer.com/article/10.1007/s00440-025-01445-x). Their full statements have not been compared here. Do not conflate set correlation with the separately flagged Gaussian product claim.
 
 The research ledger now has 61 accepted additions, 60 integrated/published, one pending draft, six holds and 67 formal records; 360 active catalogue entries. There are 2,305 actual queries with distinct IDs. Nine more accepted drafts would form the next ten-entry batch. Next discovery group: S486; next separated review: A64.
+
+Publication receipt: [3da24a7](https://github.com/MColbrook/AIM/commit/3da24a78c1e9ef89eed406a5644f4bb981602c3d) was pushed directly to main on September 19, 2026; a separate remote-ref read matched the full commit. The illumination draft and review records are uploaded. Counts remain 61 accepted, 60 integrated catalogue additions, one pending draft and 360 active entries.

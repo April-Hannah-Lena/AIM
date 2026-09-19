@@ -55,7 +55,7 @@
     "local": "Alias search of active problems, candidate records and source/exclusion records located no equivalent accepted entry. All sixty earlier additions are integrated, with no pending accepted draft.",
     "upstream": "September 19 SSH fetch matches HEAD and origin/main at af61ea4f7eaa98a14194d18942bc76b13fd6e441. Connected metadata confirms private MColbrook/AIM, main default and push permission. Open-PR search empty; two-page branch search returns only main."
   },
-  "publication_state": "Accepted research draft; no permanent ID or active catalogue integration. Research upload pending.",
+  "publication_state": "Accepted research draft and evidence pushed directly to main; no permanent ID or catalogue integration.",
   "source_records": [
     {
       "source_id": "BK16",
@@ -537,5 +537,13 @@
     "A63-6",
     "A63-7",
     "A63-8"
-  ]
+  ],
+  "remote_publication": {
+    "date": "2026-09-19",
+    "destination": "MColbrook/AIM:main",
+    "commit": "3da24a78c1e9ef89eed406a5644f4bb981602c3d",
+    "scope": "Research draft and evidence only; active catalogue remains 360.",
+    "verified_by": "Successful direct fast-forward push followed by a separate git ls-remote returning the exact full commit.",
+    "pull_request": null
+  }
 }
