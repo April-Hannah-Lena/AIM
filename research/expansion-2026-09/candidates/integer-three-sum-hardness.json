@@ -97,7 +97,7 @@
     "A53-12"
   ],
   "draft_path": "research/expansion-2026-09/drafts/integer-three-sum-hardness.md",
-  "publication_state": "Accepted local draft awaiting research-checkpoint push; no permanent ID or active catalogue entry.",
+  "publication_state": "Accepted draft and evidence pushed directly to main; no permanent ID or active catalogue entry. Awaiting the next integration batch.",
   "second_review": {
     "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass; no independent agent or human review.",
     "pass_id": "A53",
@@ -416,5 +416,11 @@
     "catalogue": "catalogue.py --write and --check passed for 350 active entries; no catalogue membership change.",
     "json_and_searches": "All expansion JSON parses; 1,898 unique search identifiers; all 23 candidate search references and thirteen source/comparison identifiers resolve.",
     "upstream_refresh": "Separate remote-ref read found origin/main equal to reviewed local HEAD 04fee7827429d49dacf7c07fbe546a7c87e4f315; no new upstream additions."
+  },
+  "publication": {
+    "research_commit": "a15a8e57759c55e1f96892fbf2de664a3110f94a",
+    "pushed_to": "MColbrook/AIM main",
+    "verified_on": "2026-09-18",
+    "verification": "A separate git ls-remote origin refs/heads/main call matched the full local commit after the push."
   }
 }

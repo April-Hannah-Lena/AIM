@@ -214,11 +214,15 @@
     {
       "commit": "89cc7eb07875386f9912413f51573d6b253a9551",
       "purpose": "Record held tensor-detection draft, theorem-scope audit, bibliography checks and discovery; pushed directly to main and exact remote commit separately verified September 18, 2026. No new accepted entry."
+    },
+    {
+      "commit": "a15a8e57759c55e1f96892fbf2de664a3110f94a",
+      "purpose": "Record reviewed integer-3SUM draft, evidence, bibliography checks and discovery; pushed directly to main and exact remote commit separately verified September 18, 2026."
     }
   ],
-  "remote_state": "All fifty catalogue additions (301–350) and their research records are published directly on main. Batch 5 content commit 1240ebfbdae361901472a7d33ca0baa7073c51cb and the later held tensor-detection checkpoint 89cc7eb07875386f9912413f51573d6b253a9551 were pushed and separately verified on September 18, 2026. Integer 3SUM is the fifty-first accepted addition, currently a local draft pending research-checkpoint publication and later catalogue integration.",
+  "remote_state": "All fifty catalogue additions (301–350) and their research records are published directly on main. The fifty-first accepted addition, integer 3SUM, is published as a research draft in commit a15a8e57759c55e1f96892fbf2de664a3110f94a; a separate remote-ref read verified that exact commit on September 18, 2026. One accepted draft awaits integration; the active catalogue remains 350.",
   "next_actions": [
-    "Publish the reviewed integer-3SUM research draft and evidence, then continue researching the next ten-to-twenty-entry integration batch. No permanent ID until that batch is ready.",
+    "Continue research toward the next ten-to-twenty-entry integration batch. Integer 3SUM is accepted and its draft/evidence are pushed directly to main; no permanent ID until the batch is ready.",
     "Continue discovery in other distinct families. Tensor detection is held after A52 found a potentially matching sparse-parity theorem whose modulus and hierarchy-level scope require clarification; see spiked-tensor-scope-hold.md.",
     "Research and review nine or more further distinct additions for the next batch; refresh status and upstream duplicates before assigning permanent IDs. Fifty additions are integrated and published, with integer 3SUM accepted but not integrated.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
