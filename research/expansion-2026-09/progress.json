@@ -230,9 +230,13 @@
     {
       "commit": "9fa7854c5ee5195b22231421e4aec170fcc43a36",
       "purpose": "Record reviewed private-PAC sample-complexity draft, eleven-source audit and bibliography checks; pushed directly to main and exact remote commit separately verified September 19, 2026."
+    },
+    {
+      "commit": "83ef0ce74c9b8214dc2ac42762338032e06146fb",
+      "purpose": "Record reviewed strong edge-colouring draft, eleven-source audit and bibliography checks; pushed directly to main and exact remote commit separately verified September 19, 2026."
     }
   ],
-  "remote_state": "All fifty catalogue additions (301–350) and their research records are published directly on main. Four accepted drafts through private-PAC VC/log-star learning are uploaded; the fifth, strong edge-colouring, has passed research and technical review and is ready for the authorized direct checkpoint push. Five accepted drafts await integration; active catalogue remains 350.",
+  "remote_state": "All fifty catalogue additions (301–350) and their research records are published directly on main. Integer 3SUM, MIRUP, entanglement-of-purification additivity, private-PAC VC/log-star learning and strong edge-colouring are uploaded accepted drafts, the latest in 83ef0ce74c9b8214dc2ac42762338032e06146fb. A separate remote-ref read verified that exact research commit on September 19, 2026. Five accepted drafts await integration; active catalogue remains 350.",
   "next_actions": [
     "Continue research toward the next ten-to-twenty-entry integration batch. Integer 3SUM, MIRUP, entanglement-of-purification additivity, private-PAC VC/log-star learning and strong edge-colouring are accepted drafts; no permanent IDs until the batch is ready.",
     "Continue discovery in other distinct families. Tensor detection is held after A52 found a potentially matching sparse-parity theorem whose modulus and hierarchy-level scope require clarification; see spiked-tensor-scope-hold.md.",

@@ -103,7 +103,7 @@
     "application_check": "Frequency or slot assignment is an exact interpretation of the stated graph conflicts. No physical propagation model or efficient algorithm is promised.",
     "search_limit": "No independent certification of all proofs or formal artifacts. Version, read-location and access limits are recorded for each source; finite-order issue text remains only partly accessible."
   },
-  "publication_state": "Accepted research draft, ready for the authorized direct push to main; no permanent ID until batch integration.",
+  "publication_state": "Accepted research draft uploaded directly to main; no permanent ID until the next integration batch.",
   "scope_normalization": "The full parity-sensitive formulation in FSGT90 and HSY18 explicitly includes finite loopless multigraphs. Degree counts multiplicity. The edge-conflict definition avoids ambiguous uses of induced matching for parallel edges. Recent simple-graph bounds are compared only on that subclass; their proofs are not silently extended.",
   "source_records": [
     {
@@ -539,5 +539,15 @@
     "bibliography_report": "research/expansion-2026-09/strong-edge-colouring-link-check.json",
     "ledger": "Eleven source records, ten complete scope comparisons and 24 unique actual search IDs present in the log. Discovery-only access limitations are separate.",
     "catalogue": "python3 scripts/catalogue.py --check passed: 350 unique entries, metadata, headings, math delimiters, local links and README freshness. git diff --check passed."
+  },
+  "publication": {
+    "state": "pushed",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": "83ef0ce74c9b8214dc2ac42762338032e06146fb",
+    "pushed_on": "2026-09-19",
+    "remote_ref_verified_on": "2026-09-19",
+    "verified_remote_commit": "83ef0ce74c9b8214dc2ac42762338032e06146fb",
+    "method": "Normal direct push; a subsequent authenticated ls-remote read matched the exact content commit. No PR, per user authorization."
   }
 }
