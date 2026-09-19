@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 58,
+  "new_accepted": 59,
   "active_total": 350,
-  "candidates_investigated": 64,
+  "candidates_investigated": 65,
   "held_unverified": 1,
   "held_claimed_resolution": 5,
   "excluded": 0,
-  "remaining_to_minimum": 142,
-  "remaining_to_target": 192,
+  "remaining_to_minimum": 141,
+  "remaining_to_target": 191,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -248,11 +248,11 @@
       "purpose": "Record reviewed proper univariate Gaussian-mixture learning draft, thirteen-source audit and bibliography checks; pushed directly to main and exact remote commit separately verified September 19, 2026."
     }
   ],
-  "remote_state": "All fifty catalogue additions (301\u2013350) and their research records are published directly on main. All eight accepted drafts are uploaded: integer 3SUM, MIRUP, entanglement-of-purification additivity, private-PAC VC/log-star learning, strong edge-colouring, subset-sum support/concentration, planar halving lines and proper univariate Gaussian-mixture learning. The latest research commit b232a42d35c4b0c5081dca103553e7084e774a06 was separately verified on remote main on September 19, 2026. Eight accepted drafts await integration; active catalogue remains 350.",
+  "remote_state": "All fifty integrated additions and the preceding eight accepted drafts are published directly on main, last separately verified at 430d1597b2d5f8f0f2a76cac38271bb09ea0db0b. Brownian Fleming\u2013Viot non-explosion is the ninth accepted draft, currently local and ready for authorized direct publication. Active catalogue remains 350.",
   "next_actions": [
-    "Continue research toward the next ten-to-twenty-entry integration batch. Eight accepted drafts are ready; no permanent IDs until the batch is ready.",
+    "Continue research toward the next ten-to-twenty-entry integration batch. Nine accepted drafts are ready; no permanent IDs until the batch is ready.",
     "Continue discovery in other distinct families. Tensor detection is held after A52 found a potentially matching sparse-parity theorem whose modulus and hierarchy-level scope require clarification; see spiked-tensor-scope-hold.md.",
-    "Research and review two or more further distinct additions for the next batch; refresh status and upstream duplicates before assigning permanent IDs. Fifty additions are integrated/published, and eight accepted drafts await integration.",
+    "Research and review one or more further distinct additions for the next batch; refresh status and upstream duplicates before assigning permanent IDs. Fifty additions are integrated/published, and nine accepted drafts await integration.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the six held candidates and discovery-only leads outside the active count; preserve original identifiers and historical dates.",
     "CFN sunlet projective quadratic generation needs independent corroboration and saturation-scope review. The private-PAC quantitative lead is now an accepted draft; its restricted variants do not add counts.",
@@ -260,7 +260,7 @@
     "Do not admit general strongly polynomial LP without adjudicating matching claims; keep historical entries 031, 032 and 286 follow-ups separate from new counts.",
     "Bernoulli Renyi joint-parameter concavity and the small-sample entangled-Gaussian mean question still need independently authored status corroboration. The 2026 statistics survey does not explicitly corroborate that precise small-sample remainder. Continue precise statistics, biology, information and control discovery.",
     "Continue the continuous-time Carrasco discovery audit in carrasco-discovery.md: original full formulation and independent status discussion read; July 2026 discrete-time disproof inspected at model/theorem level. Reconcile multiplier and stability conventions and investigate any continuous-time transfer before fingerprinting or admission. No candidate or accepted count assigned.",
-    "Proper univariate Gaussian-mixture learning joins integer 3SUM, MIRUP, entanglement-of-purification additivity, private-PAC VC/log-star learning, strong edge-colouring, subset-sum support/concentration and planar halving lines as accepted drafts. Continue distinct families toward the next batch; keep the mammillary identifiability lead outside admission while its matching September claim is investigated."
+    "Brownian Fleming\u2013Viot non-explosion joins integer 3SUM, MIRUP, entanglement-of-purification additivity, private-PAC VC/log-star learning, strong edge-colouring, subset-sum support/concentration, planar halving lines and proper univariate Gaussian-mixture learning as accepted drafts. Keep the processor-sharing queueing lead outside admission while the potentially matching stationary-insensitivity claim is compared."
   ],
   "coverage": {
     "inverse3": 9,
@@ -270,7 +270,7 @@
     "inverse2": 4,
     "operators": 6,
     "inverse": 3,
-    "stochastic2": 4,
+    "stochastic2": 5,
     "spectral": 1,
     "spectral3": 3,
     "continuum3": 2,
@@ -278,11 +278,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 50,
-  "count_semantics": "Fifty accepted additions are integrated and published directly on main; eight accepted drafts await the next integration batch: integer 3SUM, MIRUP, entanglement-of-purification additivity, private-PAC VC/log-star learning, strong edge-colouring, subset-sum support/concentration, planar halving lines and proper univariate Gaussian-mixture learning. Active total 350. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
+  "count_semantics": "Fifty accepted additions are integrated and published directly on main; nine accepted drafts await the next integration batch. Active total 350. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 50,
-  "coverage_semantics": "Accepted additions by primary section; fifty integrated and eight pending accepted drafts.",
+  "coverage_semantics": "Accepted additions by primary section; fifty integrated and nine pending accepted drafts.",
   "remaining_integrations_to_minimum": 150,
   "remaining_integrations_to_target": 200,
-  "pending_accepted": 8
+  "pending_accepted": 9
 }

@@ -1,0 +1,87 @@
+{
+  "checked_on": "2026-09-19",
+  "method": "Direct HTTP GET, redirects followed; document identity separately checked in the source ledger.",
+  "links": [
+    {
+      "url": "https://sites.math.washington.edu/~burdzy/open_mathjax.php",
+      "status": 200,
+      "final_url": "https://sites.math.washington.edu/~burdzy/open_mathjax.php",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 18646,
+      "pdf_header": false,
+      "accessed_on": "2026-09-19"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00440-023-01247-z",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s00440-023-01247-z",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 398116,
+      "pdf_header": false,
+      "accessed_on": "2026-09-19"
+    },
+    {
+      "url": "https://d-nb.info/1321707789/34",
+      "status": 200,
+      "final_url": "https://d-nb.info/1321707789/34",
+      "content_type": "application/pdf;charset=base64",
+      "bytes": 355567,
+      "pdf_header": true,
+      "accessed_on": "2026-09-19"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00440-011-0372-5",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s00440-011-0372-5",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 267539,
+      "pdf_header": false,
+      "accessed_on": "2026-09-19"
+    },
+    {
+      "url": "https://arxiv.org/pdf/0905.1999v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/0905.1999v1",
+      "content_type": "application/pdf",
+      "bytes": 372852,
+      "pdf_header": true,
+      "accessed_on": "2026-09-19"
+    },
+    {
+      "url": "https://digital.lib.washington.edu/server/api/core/bitstreams/b0fd8430-4c30-4b35-bc2f-be4064c7f256/content",
+      "status": 200,
+      "final_url": "https://digital.lib.washington.edu/server/api/core/bitstreams/b0fd8430-4c30-4b35-bc2f-be4064c7f256/content",
+      "content_type": "application/pdf;charset=UTF-8",
+      "bytes": 239079,
+      "pdf_header": true,
+      "accessed_on": "2026-09-19"
+    },
+    {
+      "url": "https://www.maths.tcd.ie/EMIS/journals/EJP-ECP/article/download/1770/1770-9325-2-PB.pdf",
+      "status": 200,
+      "final_url": "https://www.maths.tcd.ie/EMIS/journals/EJP-ECP/article/download/1770/1770-9325-2-PB.pdf",
+      "content_type": "application/pdf",
+      "bytes": 273571,
+      "pdf_header": true,
+      "accessed_on": "2026-09-19"
+    },
+    {
+      "url": "https://numdam.org/item/10.1051/ps/2013045.pdf",
+      "status": 200,
+      "final_url": "https://numdam.org/item/10.1051/ps/2013045.pdf",
+      "content_type": "application/pdf",
+      "bytes": 787647,
+      "pdf_header": true,
+      "accessed_on": "2026-09-19"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2207.02030v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2207.02030v3",
+      "content_type": "application/pdf",
+      "bytes": 815237,
+      "pdf_header": true,
+      "accessed_on": "2026-09-19"
+    }
+  ]
+}

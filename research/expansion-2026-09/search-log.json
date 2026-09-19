@@ -17761,5 +17761,389 @@
     "query": "\"Polynomial Time and Private Learning of Unbounded Gaussian Mixture Models\" arxiv",
     "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
     "review_stage": "Separated adversarial self-pass after drafting: uniformity in k, proper output, density versus parameter estimation, resolution and correction searches."
+  },
+  {
+    "search_id": "S461-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Schiffer conjecture\" 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S461-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Pompeiu problem\" \"simply connected\" \"open\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S461-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"non-explosion\" \"open\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S461-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"supermarket model\" \"general service\" \"conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S462-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Schiffer\" \"convex\" \"2608.05114\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S462-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Schiffer\" \"convex\" \"2608.01579\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S462-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"supermarket\" \"processor sharing\" \"insensitivity\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S462-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"non-explosion\" \"open problem\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S463-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"supermarket model\" \"processor sharing\" \"open\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S463-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"asymptotic insensitivity\" \"processor sharing\" \"2024\" OR \"2025\" OR \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S463-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"Brownian\" \"arbitrary\" \"domain\" \"open\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S463-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"non-explosion\" \"Fleming-Viot\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S464-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"supermarket\" \"processor sharing\" \"insensitivity\" proof general",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S464-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Bramson\" \"Prabhakar\" \"processor sharing\" \"conjecture\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S464-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"three\" \"Brownian\" \"non-explosion\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S464-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"arbitrary domain\" 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S465-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot couples live forever\" \"more than two\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S465-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"non-extinction\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S465-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"non-extinction\" \"2025\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S465-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Convergence properties of many parallel servers\" correction error",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S466-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Non-extinction of a Fleming-Viot particle model\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S466-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Extinction of Fleming-Viot-type particle systems with strong drift\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S466-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"arbitrary bounded\" \"non-extinction\" proof",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S466-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"non-explosion\" \"2026\" Brownian",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S467-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"bounded domain\" \"explosion\" proof counterexample",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S467-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"non-extinction\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S467-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"non-explosion\" \"three particles\" proof",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S467-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"arbitrary domains\" \"2024\" OR \"2025\" OR \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Spectral exclusion refresh, processor-sharing queueing scope comparison, and Brownian Fleming–Viot non-explosion formulation and status discovery."
+  },
+  {
+    "search_id": "S468-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"On non-extinction in a Fleming-Viot-type particle model with Bessel drift\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Brownian Fleming–Viot non-explosion: full-source access, later results and precise theorem-scope comparisons."
+  },
+  {
+    "search_id": "S468-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Uniform convergence of the Fleming-Viot process in a hard killing metastable case\" arxiv",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Brownian Fleming–Viot non-explosion: full-source access, later results and precise theorem-scope comparisons."
+  },
+  {
+    "search_id": "S468-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Immortal particle for a catalytic branching process\" pdf",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Brownian Fleming–Viot non-explosion: full-source access, later results and precise theorem-scope comparisons."
+  },
+  {
+    "search_id": "S468-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"General approximation method for the distribution of Markov processes conditioned not to be killed\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Brownian Fleming–Viot non-explosion: full-source access, later results and precise theorem-scope comparisons."
+  },
+  {
+    "search_id": "S469-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"On non-extinction in a Fleming-Viot-type particle model with Bessel drift\" Kolb Liesenfeld",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Brownian Fleming–Viot non-explosion: full-source access, later results and precise theorem-scope comparisons."
+  },
+  {
+    "search_id": "S469-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot couples live forever\" correction withdrawal",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Brownian Fleming–Viot non-explosion: full-source access, later results and precise theorem-scope comparisons."
+  },
+  {
+    "search_id": "S469-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"rough domains\" nonexplosion",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Brownian Fleming–Viot non-explosion: full-source access, later results and precise theorem-scope comparisons."
+  },
+  {
+    "search_id": "S469-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"bounded connected\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Brownian Fleming–Viot non-explosion: full-source access, later results and precise theorem-scope comparisons."
+  },
+  {
+    "search_id": "S470-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"non-explosion\" Brownian proof 2026",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Brownian Fleming–Viot non-explosion: full-source access, later results and precise theorem-scope comparisons."
+  },
+  {
+    "search_id": "S470-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"arbitrary\" \"domains\" \"N\" 2025",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Brownian Fleming–Viot non-explosion: full-source access, later results and precise theorem-scope comparisons."
+  },
+  {
+    "search_id": "S470-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"On non-extinction in a Fleming-Viot-type particle model with Bessel drift\" \"pdf\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Brownian Fleming–Viot non-explosion: full-source access, later results and precise theorem-scope comparisons."
+  },
+  {
+    "search_id": "S470-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"General approximation method\" \"Hypothesis\" \"non-explosion\" Villemonais",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Brownian Fleming–Viot non-explosion: full-source access, later results and precise theorem-scope comparisons."
+  },
+  {
+    "search_id": "A61-1",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Brownian\" \"Fleming-Viot\" \"non-explosion\" proof solved",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Brownian Fleming–Viot formulation, all initial configurations, domain regularity, earlier proof errors and matching resolutions."
+  },
+  {
+    "search_id": "A61-2",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming Viot\" \"non-extinction\" counterexample \"domain\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Brownian Fleming–Viot formulation, all initial configurations, domain regularity, earlier proof errors and matching resolutions."
+  },
+  {
+    "search_id": "A61-3",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Kwaśnicki\" \"Fleming–Viot\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Brownian Fleming–Viot formulation, all initial configurations, domain regularity, earlier proof errors and matching resolutions."
+  },
+  {
+    "search_id": "A61-4",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"three particles\" \"arbitrary\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Brownian Fleming–Viot formulation, all initial configurations, domain regularity, earlier proof errors and matching resolutions."
+  },
+  {
+    "search_id": "A61-5",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Brownian\" \"Fleming-Viot\" \"rough\" \"2025\" OR \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Brownian Fleming–Viot formulation, all initial configurations, domain regularity, earlier proof errors and matching resolutions."
+  },
+  {
+    "search_id": "A61-6",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot couples live forever\" erratum correction",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Brownian Fleming–Viot formulation, all initial configurations, domain regularity, earlier proof errors and matching resolutions."
+  },
+  {
+    "search_id": "A61-7",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" \"non-explosion\" \"all initial\" \"domain\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Brownian Fleming–Viot formulation, all initial configurations, domain regularity, earlier proof errors and matching resolutions."
+  },
+  {
+    "search_id": "A61-8",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "query": "\"Fleming-Viot\" resurrection \"arbitrary domains\"",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting: Brownian Fleming–Viot formulation, all initial configurations, domain regularity, earlier proof errors and matching resolutions."
   }
 ]

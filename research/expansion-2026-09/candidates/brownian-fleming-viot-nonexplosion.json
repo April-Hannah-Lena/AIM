@@ -1,0 +1,380 @@
+{
+  "candidate_id": "brownian-fleming-viot-nonexplosion",
+  "proposed_catalogue_id": null,
+  "title": "Non-explosion of Brownian Fleming–Viot systems in arbitrary domains",
+  "primary_section": "stochastic2",
+  "secondary_tags": [
+    "interacting particles",
+    "conditioned diffusion",
+    "quasi-stationary simulation"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Source-backed fingerprint, independently authored corroboration, ten theorem-scope comparisons and separated A61 self-review passed; rendering and bibliography checks passed. No unresolved material status conflict located.",
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "problem_fingerprint": {
+    "objects": "For every d>=2, every nonempty bounded connected open D in R^d, every integer N>=3, and every initial configuration x in D^N, a fixed-size Brownian Fleming–Viot system.",
+    "motion": "Between resampling times each labelled particle moves as an independent standard Brownian motion, with generator (1/2)Delta, until first exit from D. There is no drift or reflection.",
+    "resampling": "At a boundary hit, the exiting particle instantaneously moves to the current position of one uniformly chosen other particle. The remaining particles are unchanged; future Brownian increments and the uniform choices use the usual independent construction.",
+    "initial_conditions": "Every deterministic interior configuration is allowed, including coincident positions. Boundary initial points are not included.",
+    "target": "If tau_k is the kth resampling time and tau_infinity=lim_k tau_k, is P_x(tau_infinity=infinity)=1 for every such d,D,N,x? Equivalently, finitely many resampling events in each finite time interval.",
+    "scope": "No boundary regularity, Lipschitz, cone or interior-ball condition is assumed. N=2 is already solved and is stated as progress. N is fixed in each system; no large-N, stationary or genealogical limiting assertion is requested.",
+    "family_policy": "One Brownian non-explosion family; dimensions, particle counts, regular-domain cases and equivalent jump-time formulations are not separate entries."
+  },
+  "statement_sources": [
+    {
+      "source_id": "B-open",
+      "url": "https://sites.math.washington.edu/~burdzy/open_mathjax.php",
+      "locator": "Problem 6, full model, question and note citing the positive N=2 result."
+    },
+    {
+      "source_id": "K24",
+      "url": "https://link.springer.com/article/10.1007/s00440-023-01247-z",
+      "locator": "Introduction, Theorem 1.1, Remark 1.2 and Corollary 1.4."
+    },
+    {
+      "source_id": "BBP12",
+      "url": "https://www.maths.tcd.ie/EMIS/journals/EJP-ECP/article/download/1770/1770-9325-2-PB.pdf",
+      "locator": "Section 1, pp.1–3: full Brownian construction, earlier proof error and distinct drift counterexamples."
+    }
+  ],
+  "publication_state": "Accepted local research draft; authorized direct publication pending. No permanent ID before batch integration.",
+  "source_records": [
+    {
+      "source_id": "B-open",
+      "authors": [
+        "Krzysztof Burdzy"
+      ],
+      "title": "My favorite open problems",
+      "url": "https://sites.math.washington.edu/~burdzy/open_mathjax.php",
+      "version": "Undated updated expert problem page; accessed September 19, 2026.",
+      "locator": "Problem 6, complete formulation and subsequent note.",
+      "read": "Read the full page, including the bounded connected domain, uniform resampling, acknowledged earlier error and positive two-particle update.",
+      "access_limit": "The October 2010 date on the older landing page is not attributed to this updated page.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "K24",
+      "authors": [
+        "Mateusz Kwaśnicki"
+      ],
+      "title": "Fleming–Viot couples live forever",
+      "url": "https://d-nb.info/1321707789/34",
+      "version": "PTRF 188 (2024), 1385–1408; online December 9, 2023; DOI 10.1007/s00440-023-01247-z.",
+      "locator": "Introduction, Theorem 1.1, Remarks 1.2–1.3, Corollary 1.4 and Theorem 1.5.",
+      "read": "Read complete statements and discussion: two particles, rough domains, every Brownian initial configuration and the retained larger-system question.",
+      "access_limit": "Published text controls; no full proof certification.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "BBF12",
+      "authors": [
+        "Mariusz Bieniek",
+        "Krzysztof Burdzy",
+        "Sam Finch"
+      ],
+      "title": "Non-extinction of a Fleming-Viot particle model",
+      "url": "https://arxiv.org/pdf/0905.1999v1",
+      "version": "Inspected arXiv:0905.1999v1, May 13, 2009; history lists only v1. PTRF 153 (2012), 293–332, DOI 10.1007/s00440-011-0372-5.",
+      "locator": "Preprint introduction and §2; §5 construction, Theorem 5.1, Remark 5.2, Example 5.3; Theorems 7.1–7.2; Definition 8.1 and Theorem 8.2.",
+      "read": "Read full statements, the proof-error discussion, the construction at the start of the counterexample and Theorem 7.1 proof.",
+      "access_limit": "Publisher metadata and preview checked; theorem locators refer to the preprint, whose numbering differs from the journal. The author listing confirms pages 293–332. No full proof certification.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "BHM00",
+      "authors": [
+        "Krzysztof Burdzy",
+        "Robert Hołyst",
+        "Peter March"
+      ],
+      "title": "A Fleming-Viot particle representation of the Dirichlet Laplacian",
+      "url": "https://digital.lib.washington.edu/server/api/core/bitstreams/b0fd8430-4c30-4b35-bc2f-be4064c7f256/content",
+      "version": "Author manuscript of CMP 214 (2000), 679–703.",
+      "locator": "Introduction, construction and Theorem 1.1; proof through equation (2.1), internal pp.4–5; Theorem 1.3.",
+      "read": "Read the original general claim and its induction, then compared the explicit later error reports.",
+      "access_limit": "The error assessment follows the original author and later scholarly sources; this review does not independently certify or refute the proof.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "BBP12",
+      "authors": [
+        "Mariusz Bieniek",
+        "Krzysztof Burdzy",
+        "Soumik Pal"
+      ],
+      "title": "Extinction of Fleming-Viot-type particle systems with strong drift",
+      "url": "https://www.maths.tcd.ie/EMIS/journals/EJP-ECP/article/download/1770/1770-9325-2-PB.pdf",
+      "version": "EJP 17 (2012), paper 11, 1–15, January 29, 2012; DOI 10.1214/EJP.v17-1770.",
+      "locator": "Complete §1, pp.1–4, especially Theorems 1.1–1.2 and equation (1.2).",
+      "read": "Read the full Brownian construction and the Bessel and stronger singular-drift extinction models, including killing and reflection conventions.",
+      "access_limit": "The full formal hypotheses were inspected; no full proof certification.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "GK12",
+      "authors": [
+        "Ilie Grigorescu",
+        "Min Kang"
+      ],
+      "title": "Immortal particle for a catalytic branching process",
+      "url": "https://www.math.miami.edu/~igrigore/pp/ipg.pdf",
+      "version": "Inspected author manuscript dated June 5, 2009. PTRF 153 (2012), 333–361; DOI 10.1007/s00440-011-0347-6, verified through author publication listing.",
+      "locator": "Introduction; §2, Definitions 1–2 and Theorem 1, internal pp.7–8; §4, Proposition 2 and surrounding regularity examples, p.15.",
+      "read": "Read the nondegenerate relocation rule, smooth diffusion coefficients, regular boundary-distance function and full sufficiently-large-N theorem.",
+      "access_limit": "This is a theorem comparison with the identified author version, not an assertion that its numbering and wording coincide with the later journal text.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "V14",
+      "authors": [
+        "Denis Villemonais"
+      ],
+      "title": "General approximation method for the distribution of Markov processes conditioned not to be killed",
+      "url": "https://numdam.org/item/10.1051/ps/2013045.pdf",
+      "version": "ESAIM: Probability and Statistics 18 (2014), 441–467; DOI 10.1051/ps/2013045.",
+      "locator": "Introduction and Hypothesis A(N), pp.442–443; §2 setup and Theorem 2.2, pp.444–445; §3 model, Hypotheses 3.1 and 3.4, Remarks 3.2–3.5 and Theorem 3.6, pp.450–453.",
+      "read": "Read the conditional approximation result and the separate non-explosion criterion with boundary and relocation assumptions.",
+      "access_limit": "Publisher download returned HTTP 403; the complete Numdam PDF was retrieved and read. No full proof certification.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "JM25",
+      "authors": [
+        "Lucas Journel",
+        "Pierre Monmarché"
+      ],
+      "title": "Uniform convergence of the Fleming–Viot process in a hard killing metastable case",
+      "url": "https://arxiv.org/pdf/2207.02030v3",
+      "version": "Inspected arXiv:2207.02030v3, November 21, 2024; v1 July 5, 2022, v2 June 20, 2024. AAP 35(2) (2025), 1019–1048, DOI 10.1214/24-AAP2134; IMS metadata verified.",
+      "locator": "Introduction and §1.1, Assumptions 1–3, construction and complete Theorems 1–2, internal pp.1–5.",
+      "read": "Read the C2 boundary, gradient potential, metastability assumptions, assumed well-definedness and mixing/propagation-of-chaos conclusions.",
+      "access_limit": "Formal comparisons use v3, not an independently audited journal full text. No full proof certification.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    }
+  ],
+  "aliases": [
+    "Brownian Fleming–Viot non-extinction",
+    "branching-time explosion for Brownian Fleming–Viot systems",
+    "finite-time accumulation of Brownian resampling events"
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/brownian-fleming-viot-nonexplosion.md",
+  "independent_corroboration": "Burdzy supplies the explicit bounded-domain problem. Independently authored Kwaśnicki retains the more-than-two-particle question. Revisions and mirrors are not independent works.",
+  "status_search_ids": [
+    "S461-3",
+    "S462-4",
+    "S463-3",
+    "S463-4",
+    "S464-3",
+    "S464-4",
+    "S465-1",
+    "S465-2",
+    "S465-3",
+    "S466-1",
+    "S466-2",
+    "S466-3",
+    "S466-4",
+    "S467-1",
+    "S467-2",
+    "S467-3",
+    "S467-4",
+    "S468-1",
+    "S468-2",
+    "S468-3",
+    "S468-4",
+    "S469-1",
+    "S469-2",
+    "S469-3",
+    "S469-4",
+    "S470-1",
+    "S470-2",
+    "S470-3",
+    "S470-4",
+    "A61-1",
+    "A61-2",
+    "A61-3",
+    "A61-4",
+    "A61-5",
+    "A61-6",
+    "A61-7",
+    "A61-8"
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "BHM00",
+      "locator": "Theorem 1.1 and proof equation (2.1).",
+      "comparison": "The statement matches a broader domain class, but its proof has an acknowledged error. BBF12 Example 5.3, BBP12 §1, K24 Remark 1.2 and B-open explicitly explain why this is not an established general solution."
+    },
+    {
+      "source_id": "K24",
+      "locator": "Theorem 1.1 and Corollary 1.4.",
+      "comparison": "The result covers every Brownian starting configuration, but only two particles. The candidate starts at N=3."
+    },
+    {
+      "source_id": "BBF12",
+      "locator": "Preprint Theorem 5.1 and Remark 5.2.",
+      "comparison": "The Lipschitz constant must be below c(N,d). Its large-N limit is 1/sqrt(d-1); the theorem does not remove the geometric restriction or cover every fixed N on arbitrary domains."
+    },
+    {
+      "source_id": "BBF12",
+      "locator": "Preprint Definition 8.1 and Theorem 8.2.",
+      "comparison": "The polyhedral-domain theorem concerns two particles; particle number cannot be increased without another argument."
+    },
+    {
+      "source_id": "GK12",
+      "locator": "2009 author manuscript Definitions 1–2, Theorem 1 and Proposition 2.",
+      "comparison": "Requires a regular boundary-distance function with bounded derivatives and nonvanishing gradient, plus a sufficiently large particle count. Arbitrary rough domains do not satisfy these assumptions."
+    },
+    {
+      "source_id": "BBP12",
+      "locator": "Theorems 1.1–1.2.",
+      "comparison": "Negative-dimensional Bessel extinction and the all-N example use singular drift. The latter also reflects at 2. Neither matches drift-free Brownian motion killed at every part of the boundary."
+    },
+    {
+      "source_id": "V14",
+      "locator": "Hypothesis A(N), §2 setup and Theorem 2.2.",
+      "comparison": "The convergence theorem presupposes non-explosion of each approximating system. Approximation of the killed process by regular domains does not establish the target for the original fixed-N dynamics."
+    },
+    {
+      "source_id": "V14",
+      "locator": "Hypotheses 3.1 and 3.4, Remarks 3.2–3.5, Theorem 3.6.",
+      "comparison": "Uniform resampling meets the relocation condition, but C2 boundary distance in a collar, or a suitable regular substitute, remains required. The candidate assumes no such function."
+    },
+    {
+      "source_id": "JM25",
+      "locator": "Assumptions 1–2 and Theorems 1–2 in v3.",
+      "comparison": "Uniform mixing and approximation estimates are obtained for C2 domains with a smooth gradient potential and metastability conditions. These do not imply rough-domain non-explosion."
+    },
+    {
+      "source_id": "BBF12",
+      "locator": "Preprint Theorems 7.1–7.2.",
+      "comparison": "Ergodicity and the stationary Dirichlet-eigenfunction approximation use the specified regular Lipschitz class. They justify the application connection without solving fixed-N existence for arbitrary D."
+    }
+  ],
+  "nearest_existing_entries": [
+    {
+      "id": 329,
+      "path": "problems/329-selected-brownian-population-genealogy.md",
+      "comparison": "Rate-one binary branching on the whole line with removal of a leftmost particle; the target is large-N ancestry on a logarithmic clock. Here branching is triggered by domain exit, cloning is uniform and the target is fixed-N non-explosion."
+    },
+    {
+      "id": 282,
+      "path": "problems/282-reaction-network-positive-recurrence.md",
+      "comparison": "Discrete population-count mass-action jump chains with weakly reversible reaction graphs, arbitrary reaction order and a recurrence conclusion; neither state space nor jump rule matches Brownian boundary resampling."
+    },
+    {
+      "id": 325,
+      "path": "problems/325-contact-process-nonamenable-weak-survival.md",
+      "comparison": "An infection process on a nonamenable graph and a gap between global and local survival thresholds; no fixed finite Brownian population or boundary-exit construction."
+    }
+  ],
+  "duplicate_check": {
+    "checked_on": "2026-09-19",
+    "baseline_commit": "430d1597b2d5f8f0f2a76cac38271bb09ea0db0b",
+    "active_pages": 350,
+    "pending_accepted_before_this_candidate": 8,
+    "method": "Established full inventory and metadata; fresh full-text Fleming–Viot/non-explosion searches; complete closest statements 282, 325 and 329 read. Pending drafts compared by model and target.",
+    "result": "No equivalent active or accepted draft; fetched main equals HEAD and connected GitHub returned no open PRs."
+  },
+  "normalization_checks": [
+    "D is bounded, connected, nonempty and open; d>=2. Its boundary has no additional geometric regularity.",
+    "N>=3 is fixed in each system; no hidden limit or sufficiently-large-N qualification.",
+    "Brownian generator is (1/2)Delta; no drift, reflection, soft killing or alternative cloning weights.",
+    "Every deterministic interior initial configuration is included, also with coincident positions.",
+    "Uniform choice is among the N-1 surviving particles; conditional future Brownian increments are independent.",
+    "The accumulating event count, not the population size, can explode. Finite events on every bounded time interval is equivalent to tau_infinity=infinity.",
+    "All particle counts, dimensions and equivalent event-time formulations comprise one family."
+  ],
+  "second_review": {
+    "pass_id": "A61",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass after drafting; no independent agent or human review.",
+    "independent_searches": [
+      "A61-1",
+      "A61-2",
+      "A61-3",
+      "A61-4",
+      "A61-5",
+      "A61-6",
+      "A61-7",
+      "A61-8"
+    ],
+    "issues_found": [
+      "Distinguish the almost-everywhere general Hunt-process theorem from the every-starting-point Brownian corollary.",
+      "Published and preprint numbering differ; the published BBF page range is 293–332.",
+      "Villemonais locators are Theorems 2.2 and 3.6 in the published text.",
+      "Initial draft used an incorrect filename for entry 282.",
+      "Regular-domain approximations and drift-based counterexamples could be mistaken for resolutions."
+    ],
+    "issues_resolved": [
+      "Read the full hypotheses and exact corollary; retain only N>=3 in the open target.",
+      "Label each version and its locators explicitly; verify author identity and publication metadata.",
+      "Corrected the bibliography and nearest-entry link.",
+      "Compare the exact dynamics and domain conditions in ten scope records."
+    ],
+    "application_check": "BBF12 stationary limits and V14 conditional-law approximation support the simulation and Dirichlet-eigenfunction motivation. The entry does not claim an error bound from non-explosion alone.",
+    "search_limit": "Full relevant formulations, theorem assumptions and needed proof portions were read. This is a literature and scope review, not independent proof certification."
+  },
+  "prepublication_refresh": {
+    "date": "2026-09-19",
+    "latest_target_commit": "430d1597b2d5f8f0f2a76cac38271bb09ea0db0b",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "A61-1",
+      "A61-2",
+      "A61-3",
+      "A61-4",
+      "A61-5",
+      "A61-6",
+      "A61-7",
+      "A61-8"
+    ],
+    "upstream": "Bounded SSH fetch succeeded; HEAD and origin/main match exactly, with zero divergence. Origin is git@github.com:MColbrook/AIM.git. Connected GitHub search returned no open PRs.",
+    "outcome": "No matching resolution or equivalent upstream addition located. Refresh again before permanent-ID integration."
+  },
+  "discovery_access_limits": [
+    {
+      "source": "Kolb–Liesenfeld, On non-extinction in a Fleming-Viot-type particle model with Bessel drift (2022), DOI 10.1214/22-EJP866.",
+      "access": "Institutional metadata inspected. DOI returned a browser challenge rather than full text; the thesis was a search lead only. No theorem or proof audit is claimed, and this work is not admission evidence. K24 independently states the surviving Brownian question after this publication."
+    },
+    {
+      "source": "BBF journal text and GK journal text",
+      "access": "Published metadata checked, formal comparisons explicitly use the accessible identified author/preprint versions."
+    },
+    {
+      "source": "Villemonais publisher PDF",
+      "access": "HTTP 403 at the publisher; successful full Numdam PDF access supplies the comparison."
+    },
+    {
+      "source": "Author and manuscript discovery",
+      "access": "Burdzy publication list and K24 arXiv page inspected; current-year search dates are not publication dates. Spine and spatial Lambda-Fleming–Viot hits are adjacent discovery, not new claimed resolutions."
+    }
+  ],
+  "validation": {
+    "strict_katex_expressions": 21,
+    "render": "All 21 expressions passed strict KaTeX. Final full-page Chrome screenshot visually inspected: statement, bibliography and status text are visible without clipped or failed mathematics.",
+    "external_links": "All nine bibliography URLs returned HTTP 200; the six PDF URLs have PDF headers. Springer metadata and preview access are distinguished from full text.",
+    "external_link_record": "research/expansion-2026-09/brownian-fleming-viot-nonexplosion-link-check.json",
+    "structural": "Catalogue validation passed for 350 unique entries; all four draft local links resolve. All source/search IDs exist. Sixty-five records reconcile to 59 accepted, five claimed-resolution holds and one unverified hold; 50 integrated, nine pending. Primary-section coverage exactly matches accepted records. The search log has 2,208 unique IDs. Git whitespace checks passed."
+  }
+}
