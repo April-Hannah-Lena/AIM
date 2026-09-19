@@ -40,7 +40,7 @@
       "locator": "Section 1.6, author-manuscript pp.13–14, Open Problem 1.6.2 on parametric mixtures in the context of univariate Gaussian mixtures."
     }
   ],
-  "publication_state": "Accepted local research draft and evidence; ready for authorized direct push to main. No permanent ID until the next integration batch.",
+  "publication_state": "Accepted research draft and evidence pushed directly to main in b232a42d35c4b0c5081dca103553e7084e774a06; a separate remote-ref read matched the exact commit on September 19, 2026. No permanent ID until the next integration batch.",
   "aliases": [
     "proper density learning of univariate Gaussian mixtures",
     "polynomial-time exact-k GMM learning",

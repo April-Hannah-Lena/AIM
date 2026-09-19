@@ -242,9 +242,13 @@
     {
       "commit": "d65b4a8097b7a464b47e50ffaad2409fbdfe3fb8",
       "purpose": "Record reviewed planar halving-line draft, twelve-source audit and bibliography checks; pushed directly to main and exact remote commit separately verified September 19, 2026."
+    },
+    {
+      "commit": "b232a42d35c4b0c5081dca103553e7084e774a06",
+      "purpose": "Record reviewed proper univariate Gaussian-mixture learning draft, thirteen-source audit and bibliography checks; pushed directly to main and exact remote commit separately verified September 19, 2026."
     }
   ],
-  "remote_state": "All fifty catalogue additions (301\u2013350) and their research records are published directly on main. Seven accepted drafts through planar halving lines are uploaded. The eighth accepted draft, proper univariate Gaussian-mixture learning, has passed research and technical checks locally and is ready for the authorized direct push. Active catalogue remains 350.",
+  "remote_state": "All fifty catalogue additions (301\u2013350) and their research records are published directly on main. All eight accepted drafts are uploaded: integer 3SUM, MIRUP, entanglement-of-purification additivity, private-PAC VC/log-star learning, strong edge-colouring, subset-sum support/concentration, planar halving lines and proper univariate Gaussian-mixture learning. The latest research commit b232a42d35c4b0c5081dca103553e7084e774a06 was separately verified on remote main on September 19, 2026. Eight accepted drafts await integration; active catalogue remains 350.",
   "next_actions": [
     "Continue research toward the next ten-to-twenty-entry integration batch. Eight accepted drafts are ready; no permanent IDs until the batch is ready.",
     "Continue discovery in other distinct families. Tensor detection is held after A52 found a potentially matching sparse-parity theorem whose modulus and hierarchy-level scope require clarification; see spiked-tensor-scope-hold.md.",
