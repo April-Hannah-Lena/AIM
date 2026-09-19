@@ -1,0 +1,465 @@
+{
+  "candidate_id": "spiked-tensor-detection-hardness",
+  "proposed_catalogue_id": null,
+  "title": "The polynomial computational gap in spiked-tensor detection",
+  "decision": "hold_claimed_resolution",
+  "decision_reason": "A52 found a potentially matching parameter substitution in ABK26 Corollary 5.18/Theorem 5.21. The formal range, introductory larger-ring scope and preceding proof bounds require clarification. Latest arXiv and IACR versions retain the formulas; no authoritative adjudication was located. Do not count this draft.",
+  "primary_section": "applied",
+  "aliases": [
+    "Tensor PCA detection hardness conjecture",
+    "Dense high-noise k-XOR detection",
+    "CONJ(k,1) for detection"
+  ],
+  "secondary_tags": [
+    "statistical inference",
+    "average-case complexity",
+    "higher-order noisy observations"
+  ],
+  "problem_fingerprint": {
+    "model": "Finite binary formulation of the spiked-tensor detection conjecture: m=n^k independent samples of a uniformly random k-element subset of [n] with a noisy parity label.",
+    "hidden_parameter": "Uniform x in {-1,+1}^n, fixed across observations; independent noise on every sample even if the same subset is observed twice.",
+    "planted_law": "For bias delta_n=n^{-k/4-epsilon}, label Y_j=(product of x_i over sampled subset S_j) W_j, with Pr(W_j=1)=(1+delta_n)/2.",
+    "null_law": "Same iid index-subset law and independent uniformly random sign labels.",
+    "quantifiers": "Each fixed integer k>=3 and each fixed epsilon>0; one uniform randomized classical algorithm with polynomial runtime, fixed before n tends to infinity.",
+    "success": "Strong detection: sum of the two error probabilities tends to zero. Internal algorithm randomness included.",
+    "encoding": "Indices are binary integers and labels are bits. Explicit input length O(n^k k log n); polynomial time in this length is polynomial in n for fixed k. Algorithm has only the prescribed sample, not an unlimited sample oracle or instance-dependent advice.",
+    "target": "Prove or refute that no such algorithm achieves strong detection. The information-computation gap is 0<epsilon<(k-2)/4; smaller signals include statistically impossible regimes.",
+    "normalization": "Source BH26 uses rho=1 and eta=2 epsilon. Bias delta is twice the excess correct-label probability over 1/2. This discrete formulation and Gaussian tensor PCA are treated as one canonical family, with source-qualified equivalence on polynomial scales.",
+    "scope": "All fixed orders are one entry. No separate entries for Gaussian/discrete representations, detection/recovery or intermediate-density sparse-XOR variants."
+  },
+  "fingerprint_recorded_on": "2026-09-18",
+  "fingerprint_recorded_before_draft": true,
+  "statement_sources": [
+    {
+      "source_id": "BH26",
+      "url": "https://arxiv.org/html/2601.19016v2",
+      "locator": "§1 equation (1), Remark 1.1; §2.1 Believed Hardness 2.1–2.2; §6.1 Definition 6.1; Appendix C.1–C.2, Definition C.2."
+    }
+  ],
+  "independently_authored_corroboration": {
+    "source_id": "Li25",
+    "url": "https://arxiv.org/html/2509.09904v1",
+    "locator": "§1 computational-statistical-gap discussion immediately before Theorem 1.1; Definition 1.2 and §2.1 Theorems 2.6–2.7.",
+    "independence": "Zhangsong Li and Bresler–Harbuzova are disjoint author teams. Kothari–Xu provide another independently authored account of the threshold algorithms.",
+    "scope": "Li independently retains the power-below-threshold hardness question for the spiked-tensor family. BH26 explicitly states the finite binary endpoint used here and its polynomial-scale connection with Gaussian tensor PCA. Mao26a is additional context, not exact dense-sampling corroboration."
+  },
+  "nearest_existing": [
+    {
+      "entry": "303",
+      "path": "problems/303-planted-clique.md",
+      "full_statement_read": true,
+      "comparison": "Bernoulli graph with a planted all-one vertex subset. Here an iid weakly biased parity observation model represents a dense rank-one tensor signal. No equality of distributions or established equivalence to entry 303 is asserted."
+    },
+    {
+      "entry": "317",
+      "path": "problems/317-learning-parity-noise.md",
+      "full_statement_read": true,
+      "comparison": "Dense uniform F2 coefficient vectors, fixed noise below 1/2 and any polynomial sample budget, asking negligible probability of exact recovery. Here each observation touches exactly k fixed variables, noise tends to 1/2, m=n^k, and the target is a tensor-inference phase boundary. Known reductions are disclosed, not taken as equivalences of the full assertions."
+    },
+    {
+      "entry": "050",
+      "path": "problems/050-tensor-train-approximation.md",
+      "full_statement_read": true,
+      "comparison": "Worst-case deterministic tensor-train approximation in arithmetic operations. The candidate is an average-case binary hypothesis-testing problem, without approximation of an input tensor in a numerical norm."
+    }
+  ],
+  "actual_status_check_date": "2026-09-18",
+  "draft_path": "research/expansion-2026-09/drafts/spiked-tensor-detection-hardness.md",
+  "second_review": {
+    "arrangement": "Primary-agent research followed by a separated adversarial self-pass; no independent agent or human review.",
+    "pass_id": "A52",
+    "date": "2026-09-18",
+    "verdict": "held_material_scope_conflict",
+    "issues_found": [
+      "A52 surfaced general rigorous low-degree implications and newer sparse-LPN attacks. Model/theorem comparisons were completed; the sparse-LPN parameter-domain conflict remains unresolved and prevents admission.",
+      "The finite-input statement needs explicit input n as well as the observations to avoid relying on labels alone.",
+      "The Gaussian comparison must distinguish polynomial scales from sharp constant thresholds, and all-algorithm conjectures from low-degree lower bounds."
+    ],
+    "independent_searches": [
+      "A52-1",
+      "A52-2",
+      "A52-3",
+      "A52-4",
+      "A52-5",
+      "A52-6",
+      "A52-7",
+      "A52-8",
+      "A52-9",
+      "A52-10",
+      "A52-11",
+      "A52-12",
+      "A52-13"
+    ],
+    "issues_resolved": [
+      "Input n made explicit; full nearest statements reread.",
+      "Exact strong-detection criterion, prior symmetrization, sample replacement and bias normalization checked.",
+      "Full current sparse-parity theorem, preceding degree conditions and two primary PDF routes inspected; the apparent boundary-case conflict was recorded instead of dismissed.",
+      "New rigorous low-degree and online-SGD results were compared at model/theorem level."
+    ],
+    "remaining_issue": "Obtain authoritative clarification or sufficient mathematical adjudication of ABK26 at modulus two and hierarchy levels close to n before admission. This is not a request to the user or a blocker for researching other candidates.",
+    "quantifier_checks": "Fixed k and epsilon, one uniform classical polynomial-time algorithm, explicit finite input, vanishing sum of errors. One canonical family.",
+    "application_check": "Higher-order noisy consistency testing; foundational inference role, no deterministic numerical-linear-algebra addition."
+  },
+  "publication_state": "Held research draft; no active ID, no accepted or integrated count. Local checkpoint pending direct publication.",
+  "source_records": [
+    {
+      "source_id": "BH26",
+      "authors": [
+        "Guy Bresler",
+        "Alina Harbuzova"
+      ],
+      "title": "Average-Case Reductions for k-XOR and Tensor PCA",
+      "url": "https://arxiv.org/html/2601.19016v2",
+      "version": "arXiv:2601.19016v2, April 2, 2026; v1 January 26, 2026. Both dates checked in submission history. Cited preprint.",
+      "locator": "§1 equations (1)–(2), Theorems 1.1–1.2, Remark 1.1, Proposition 1.1; §2.1, Believed Hardness 2.1–2.2 and Theorems 2.1–2.3; §6.1, Propositions 6.1 and 6.6; §12 opening and Corollary 12.1; Appendix A.1 Lemmas A.1–A.2, A.5 sampling algorithms and proof; Appendix C.1–C.3.",
+      "read": "Full finite observation law, task definitions, conditional reduction theorems and polynomial-scale conventions read. Proposition C.1 null comparison and Appendix A.5 sampling proof read for scope. Gaussianization lemma statements and algorithm opening read, not all supporting proofs certified. Abstract noise notation differs by a factor two from equation (1); the record uses equation (1).",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "Li25",
+      "authors": [
+        "Zhangsong Li"
+      ],
+      "title": "A Smooth Computational Transition in Tensor PCA",
+      "url": "https://arxiv.org/html/2509.09904v1",
+      "version": "arXiv:2509.09904v1, submitted September 12, 2025; inspected history lists only v1. Served title page is dated August 24, 2026; not treated as a new arXiv version. Cited preprint.",
+      "locator": "§1 exact symmetric Gaussian model, equations (1.1)–(1.2), Theorem 1.1, Definitions 1.2–1.3 and §1.3; §2.1 Proposition 2.5, Theorems 2.6–2.7; §2.2 Theorems 2.11–2.12 and Remark 2.13.",
+      "read": "Read full model and detection/recovery statements. Fixed nonvanishing lambda gives a constant polynomial exponent; allowing lambda_n to decay with n is not the theorem. Independent discussion retains the conjectural smaller-power regime.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "KX26",
+      "authors": [
+        "Pravesh K. Kothari",
+        "Jeff Xu"
+      ],
+      "title": "Smooth Trade-off for Tensor PCA via Sharp Bounds for Kikuchi Matrices",
+      "url": "https://arxiv.org/pdf/2510.03061v1",
+      "version": "arXiv:2510.03061v1, October 3, 2025; served manuscript date October 6, 2025. SODA 2026 published January 7, 2026, pp. 2617–2632; DOI metadata verified. The full preprint was inspected, not line-by-line compared with proceedings.",
+      "locator": "§1 model, Conjecture 1.2, full Theorems 1.8–1.12 and 1.14; §4.1 Claims 4.4–4.5 and complete short proof of Theorem 1.11.",
+      "read": "Sharp Kikuchi norm bounds yield detection for kappa >= C_k n^{-k/4} ell^{-(k-2)/4}, with runtime n^{O(ell)} and ell at most a small power of n. Resolves the earlier smooth constant-factor trade-off. Does not prove an algorithm polynomial in n at kappa=n^{-k/4-epsilon}.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18",
+      "doi": "10.1137/1.9781611978971.95",
+      "publication_url": "https://epubs.siam.org/doi/10.1137/1.9781611978971.95"
+    },
+    {
+      "source_id": "Mao26a",
+      "authors": [
+        "Songtao Mao"
+      ],
+      "title": "Near Optimal Algorithms for Noisy k-XOR under Low-Degree Heuristic",
+      "url": "https://arxiv.org/html/2604.10457v1",
+      "version": "arXiv:2604.10457v1, April 12, 2026; sole version in inspected history. Preprint.",
+      "locator": "§1 model, Question 1.2, Definition 1.3 and Theorems 1.4–1.5; full §3.3 sampling comparison; formal Theorems 5.8 and 6.3; §7.",
+      "read": "Strong/weak detection and computational-barrier question read. Full theorem conditions restrict algorithm time and sample/noise trade-off. Sampling equivalence requires m=o(sqrt(M)), M=binomial(n,k), so it cannot transfer the Bernoulli theorem to m=n^k. Low-degree lower bounds are not all-algorithm hardness.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "Mao26b",
+      "authors": [
+        "Songtao Mao"
+      ],
+      "title": "The Polynomial-Time Low-Degree Conjecture is False",
+      "url": "https://arxiv.org/html/2607.20318v1",
+      "version": "arXiv:2607.20318v1, July 22, 2026; sole version in inspected history. Preprint.",
+      "locator": "§1, Conjecture 1.1, full Theorem 1.2; §§1.2–1.3 construction and conventions.",
+      "read": "Read exact graph-distribution counterexample, rank-test conclusion, code construction and nonuniform sampling caveat. It does not use the independent uniformly sampled fixed-arity constraints or Rademacher rank-one tensor signal in this candidate. No full proof certification claimed.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "BLRS26",
+      "authors": [
+        "Jarosław Błasiok",
+        "Paul Lou",
+        "Alon Rosen",
+        "Madhu Sudan"
+      ],
+      "title": "Expanders Meet Reed-Muller: Easy Instances of Noisy k-XOR",
+      "url": "https://arxiv.org/html/2604.04188v2",
+      "version": "arXiv:2604.04188v2, April 11, 2026; v1 April 5, 2026. Submission history and downloaded v2 header checked. Preprint.",
+      "locator": "§1.1 Definition 1; §§1.2–1.3 complete Main Theorems 1–2.",
+      "read": "Read explicit expander/code constraint designs with polylogarithmically growing arity. Main Theorem 1 has quasipolynomial constraint count and fixed noise 1/3; the polynomial-count extension is conditional and has a different noise regime. Later formal proof theorems were not certified.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "H26",
+      "authors": [
+        "Matthew B. Hastings"
+      ],
+      "title": "Accelerating Classical and Quantum Tensor PCA",
+      "url": "https://arxiv.org/html/2602.10366v1",
+      "version": "arXiv:2602.10366v1, February 10, 2026; sole version in inspected history. Preprint.",
+      "locator": "§I model and fixed-ratio asymptotic convention; §II Algorithm 2 and surrounding projector/runtime assumptions; quantum Algorithms 3–4.",
+      "read": "Read Haar-distributed spike, mostly even order, and the assumption of large N with fixed N^{-p/4}/lambda. Classical runtime improves the power associated with a fixed hierarchy parameter. Quantum algorithms are a different computation model.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "DGLF25",
+      "authors": [
+        "Shihong Ding",
+        "Yihong Gu",
+        "Yuanshi Liu",
+        "Cong Fang"
+      ],
+      "title": "Near-Optimal Tensor PCA via Normalized Stochastic Gradient Ascent with Overparameterization",
+      "url": "https://arxiv.org/html/2510.14329v1",
+      "version": "arXiv:2510.14329v1, October 16, 2025; sole version in inspected history. Preprint.",
+      "locator": "§3 equation (1), Assumptions 3.1–3.2; full Theorems 4.1–4.2, Corollary 4.1 and equations (4)–(7); odd-order proof opening.",
+      "read": "Read unit-norm spike and multiple independent tensors. Even-order result reaches N lambda^2 at least roughly d^{k/2}; after averaging this is the usual Gaussian coefficient threshold. The result breaks a conjectured limitation of first-order methods, not the unrestricted tensor-detection conjecture.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "BHLM26",
+      "authors": [
+        "Arpon Basu",
+        "Jun-Ting Hsieh",
+        "Andrew D. Lin",
+        "Peter Manohar"
+      ],
+      "title": "Solving Random Planted CSPs Below the n^{k/2} Threshold",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.23/LIPIcs.ICALP.2026.23.html",
+      "version": "ICALP 2026, LIPIcs 374, Article 23; publisher full text and author metadata read. Also arXiv:2507.10833, not counted as an independent source.",
+      "locator": "Definition 5 and complete Theorem 6, with the following discussion.",
+      "read": "The theorem uses ordered k-tuples and correct-label probability 1/2+epsilon, runtime n^{O(ell)}, and requires epsilon^{2/k} >= Omega(n^{-1/2}). Candidate bias is twice that epsilon, and fails the displayed noise condition for every fixed positive gap exponent. Full proof not certified.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "ABK26",
+      "authors": [
+        "Shashwat Agrawal",
+        "Amitabha Bagchi",
+        "Rajendra Kumar"
+      ],
+      "title": "Spectral Method attacks Sparse LWE, Sparse LPN and Beyond",
+      "url": "https://arxiv.org/html/2603.27190v2",
+      "version": "arXiv:2603.27190v2, July 2, 2026; v1 March 28, 2026 had title Attacks on Sparse LWE and Sparse LPN with new Sample-Time tradeoffs. IACR 2026/614 gives the same revision date. Both records checked.",
+      "locator": "§1 contributions and Theorems 1.1–1.3; §3.1 ring conventions, §3.4 Definitions 3.2–3.15; construction and equations (2)–(8); Theorems 5.9 and 5.15, Corollaries 5.10–5.19, Theorem 5.21; Theorem 6.2 and §7 opening.",
+      "read": "Full relevant theorem and proof-bound statements read. ArXiv PDF and independently downloaded IACR PDF repeat the scope formulas. The q=2, k=4, ell=n-2 substitution appears to match the candidate, but the introduction restricts contributions to larger rings and preceding degree conditions do not yield that corollary at this boundary. Material scope issue retained as a hold.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18",
+      "alternate_url": "https://eprint.iacr.org/2026/614",
+      "full_pdf_url": "https://eprint.iacr.org/2026/614.pdf"
+    },
+    {
+      "source_id": "HKKLMT26",
+      "authors": [
+        "Jun-Ting Hsieh",
+        "Daniel M. Kane",
+        "Pravesh K. Kothari",
+        "Jerry Li",
+        "Sidhanth Mohanty",
+        "Stefan Tiegel"
+      ],
+      "title": "Rigorous Implications of the Low-Degree Heuristic",
+      "url": "https://arxiv.org/html/2601.05850v1",
+      "version": "arXiv:2601.05850v1, January 9, 2026; only v1 in inspected history. Served manuscript date August 24, 2026. Author publication pages list STOC 2026; cited preprint.",
+      "locator": "§1 Conjecture 1.1; §1.1 complete Theorems 1.1–1.3 and Remarks 1.1–1.3; §4 restatement of Theorem 1.1.",
+      "read": "Binary-vector theorem assumes full coordinate-permutation invariance; Gaussian results restrict distinguishers to symmetric polynomials or constant-size subgraph statistics. These do not establish hardness against every algorithm for the indexed tensor observations.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "CL26",
+      "authors": [
+        "Xuan Chen",
+        "Shuangping Li"
+      ],
+      "title": "Rigorous Low-Degree Implications for Planted Subgraph Detection: Noise and Treewidth",
+      "url": "https://arxiv.org/html/2608.06279v1",
+      "version": "arXiv:2608.06279v1, August 6, 2026; sole version in inspected history. Preprint.",
+      "locator": "§1.1 full graph/noise model, Theorems 1.1–1.2, following treewidth discussion and Remark 1.3.",
+      "read": "Deterministic graph planted in G(n,c/n), then independent edge resampling. Low-degree premise plus treewidth conditions yields total-variation closeness. This is not the dense parity or Gaussian spiked-tensor distribution.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "BGP25",
+      "authors": [
+        "Gérard Ben Arous",
+        "Cédric Gerbelot",
+        "Vanessa Piccolo"
+      ],
+      "title": "Stochastic gradient descent in high dimensions for multi-spiked tensor PCA",
+      "url": "https://arxiv.org/html/2410.18162v2",
+      "version": "arXiv:2410.18162v2, October 23, 2025; v1 October 23, 2024. Published CPAM 79(10) (2026), 2291–2369, June 24, 2026; publisher metadata and author publication page checked. Cited full preprint.",
+      "locator": "§1.1 equations (1.1)–(1.8), Definitions 1.1–1.2; §1.2 Theorems 1.3 and 1.5–1.8, including the full Theorem 1.5 and preceding initialization conventions.",
+      "read": "Online SGD receives M independent full tensors with fixed order-one signal coefficients, and M grows faster than N^{p-2} log N. It supplies no algorithm for the prescribed one-dataset power-below-threshold model. Theorem 1.3 was read through its first conclusion and following discussion; no complete review of its additional exact-label condition or proof is claimed.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18",
+      "publication_url": "https://onlinelibrary.wiley.com/doi/10.1002/cpa.70056"
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "BH26",
+      "locator": "Theorems 1.1–1.2, 2.1–2.3; Appendix C",
+      "comparison": "Average-case reductions give implications between hardness assumptions, not an unconditional proof of any base assumption. Null models agree exactly in the binary case. Gaussian comparison and sampling changes operate at polynomial scales and can lose logarithmic factors.",
+      "conclusion": "No resolution of the target; no constant-exact equivalence asserted."
+    },
+    {
+      "source_id": "Li25",
+      "locator": "Theorem 1.1; Theorems 2.6–2.7",
+      "comparison": "Source fixes lambda=Omega(1) before n tends to infinity. Candidate has lambda_n=n^{-epsilon}. A runtime exponent depending on a shrinking lambda is not a fixed polynomial exponent.",
+      "conclusion": "Resolves constant-factor smooth transition, not the power-gap conjecture."
+    },
+    {
+      "source_id": "KX26",
+      "locator": "Theorem 1.11; §4.1 proof",
+      "comparison": "To reach kappa=n^{-k/4-epsilon} in the stated sufficient inequality requires ell at least a constant multiple of n^{4epsilon/(k-2)}. The supplied runtime n^{O(ell)} then gives no polynomial-time guarantee. This calculation describes the bound, not a lower bound for their algorithm.",
+      "conclusion": "No matching polynomial-time detection theorem."
+    },
+    {
+      "source_id": "Mao26a",
+      "locator": "Question 1.2; §3.3; Theorems 5.8 and 6.3",
+      "comparison": "Formal guarantees concern specified sample models and degree/time parameters. The dense m=n^k input lies outside the stated collision-free sampling-transfer regime m=o(sqrt(binomial(n,k))). Lower bounds are restricted to polynomial statistics.",
+      "conclusion": "Context only; no direct dense-model lower-bound transfer or general resolution."
+    },
+    {
+      "source_id": "Mao26b",
+      "locator": "Theorem 1.2; §§1.2–1.3",
+      "comparison": "Constructed simple-graph distribution from Reed–Muller evaluations and alternating bilinear forms; rank test after independent edge resampling. The candidate instead has iid random fixed-size index subsets and an iid noisy parity signal.",
+      "conclusion": "Refutes a broad heuristic in another family, not this specific conjecture. Low-degree evidence alone is insufficient."
+    },
+    {
+      "source_id": "BLRS26",
+      "locator": "Main Theorems 1–2",
+      "comparison": "Explicit designed constraint graphs, growing k and either quasipolynomial M with constant noise or a conditional polynomial-M low-noise extension. The candidate has fixed k, iid uniformly sampled constraints, M=n^k and noise tending to 1/2.",
+      "conclusion": "No distribution- or parameter-matching algorithm."
+    },
+    {
+      "source_id": "H26",
+      "locator": "§I asymptotic convention; §II Algorithm 2",
+      "comparison": "Fixed dimension-normalized signal ratio and hierarchy parameter. Haar spike differs from the binary prior. Quantum runtime guarantees do not establish a classical algorithm.",
+      "conclusion": "A classical/quantum speedup within the stated threshold scale, not a target resolution."
+    },
+    {
+      "source_id": "DGLF25",
+      "locator": "Theorems 4.1–4.2 and Corollary 4.1",
+      "comparison": "Uses N independent tensors and unit spike. For even k, N lambda^2 >= roughly d^{k/2}; averaging and changing to a norm-sqrt(d) spike gives kappa=sqrt(N)lambda/d^{k/2} >= roughly d^{-k/4}. Odd-order result has additional initialization/sample conditions.",
+      "conclusion": "Improvement of a first-order-method barrier, not an algorithm below the general detection scale."
+    },
+    {
+      "source_id": "BHLM26",
+      "locator": "Definition 5 and Theorem 6",
+      "comparison": "Noise parameter epsilon in source equals delta_n/2 here. Source requires epsilon^{2/k} >= Omega(n^{-1/2}); substitution gives a constant multiple of n^{-1/2-2*gap/k}, violating that condition. Its sufficient sample count also contains epsilon^{-11}.",
+      "conclusion": "Below-threshold title does not describe an algorithm for this dense vanishing-bias input."
+    },
+    {
+      "source_id": "ABK26",
+      "locator": "Corollary 5.18 and Theorem 5.21 versus equations (6)–(8), Theorems 5.9 and 5.15, and §1 scope",
+      "comparison": "At q=2, k=4, ell=n-2 and rho=n^{-1-epsilon}, 0<epsilon<1/2, the displayed sample requirement is Theta(n^{3+2epsilon} log n)=o(n^4), and matrix size is binomial(n,2). This appears to contradict a candidate case if q=2 and this ell boundary are admitted. Equation (6) instead gives theta=12, so rho^2 Delta=Theta(n^{-2epsilon}), which fails the preceding sufficient degree condition. The introduction describes the new ring results for |R|>2.",
+      "conclusion": "Material parameter-domain conflict; candidate held. No claim that the authors intended to resolve tensor PCA or that the entire work is incorrect. See spiked-tensor-scope-hold.md."
+    },
+    {
+      "source_id": "HKKLMT26",
+      "locator": "Theorems 1.1–1.3",
+      "comparison": "Vector-coordinate exchangeability is stronger than vertex relabeling of indexed tensor observations. The Gaussian and matrix results cover specified polynomial statistics.",
+      "conclusion": "No general all-algorithm hardness theorem for the candidate."
+    },
+    {
+      "source_id": "CL26",
+      "locator": "Theorems 1.1–1.2",
+      "comparison": "Planted deterministic graph in sparse G(n,c/n), positive resampling noise and additional low-degree/treewidth premises.",
+      "conclusion": "Different statistical family and hypotheses, not a resolution of the candidate."
+    },
+    {
+      "source_id": "BGP25",
+      "locator": "Equation (1.1), fixed-SNR convention, Theorem 1.5",
+      "comparison": "Uses M independent full tensors and unit-norm spikes, with fixed order-one lambda and M >> N^{p-2} log N. In the Gaussian single-spike case, averaging produces coefficient sqrt(M)*lambda*N^{(1-p)/2} for a norm-sqrt(N) spike, which is above the N^{-p/4} scale under the theorem sample condition when p>=3.",
+      "conclusion": "Progress for a specified first-order method and different sample budget; no candidate-matching guarantee."
+    }
+  ],
+  "normalization_checks": {
+    "bias": "Equation (1), not the abstract shorthand: E[W_j]=delta and correct-label probability is (1+delta)/2.",
+    "strong_detection": "The task is vanishing sum of type-I and type-II errors. No claim of negligible advantage or exact recovery is added.",
+    "prior_symmetry": "BH26 Definition C.2 uses worst-case x. A uniform random sign mask r, multiplying each label by product_{i in S_j} r_i, preserves the null and sends every fixed x to uniform x*r. Thus a uniform-prior strong detector yields the same error for every fixed x with polynomial overhead. The converse follows by averaging.",
+    "gap": "m delta^2 = n^{k/2-2epsilon}; the information–computation interval n << m delta^2 << n^{k/2} is exactly 0<epsilon<(k-2)/4.",
+    "encoding": "All data are finite bits. At fixed k, polynomial time in explicit input length is polynomial in n. No infinite-precision Gaussian arithmetic model is needed to state the candidate.",
+    "canonical_family": "One tensor-detection entry for all fixed k. Gaussian and binary formulations, other densities and recovery are not additional counted candidates. Reported reductions are not asserted to preserve every finite-sample constant or repeated-index convention."
+  },
+  "status_search_ids": [
+    "S396-1",
+    "S396-2",
+    "S396-3",
+    "S396-4",
+    "S397-1",
+    "S397-2",
+    "S397-3",
+    "S397-4",
+    "S398-1",
+    "S398-2",
+    "S398-3",
+    "S398-4",
+    "S399-1",
+    "S399-2",
+    "S399-3",
+    "S399-4",
+    "S400-1",
+    "S400-2",
+    "S400-3",
+    "S400-4",
+    "S401-1",
+    "S401-2",
+    "S401-3",
+    "S401-4",
+    "S402-1",
+    "S402-2",
+    "S402-3",
+    "S402-4",
+    "S403-1",
+    "S403-2",
+    "S403-3",
+    "S403-4",
+    "A52-1",
+    "A52-2",
+    "A52-3",
+    "A52-4",
+    "A52-5",
+    "A52-6",
+    "A52-7",
+    "A52-8",
+    "A52-9",
+    "A52-10",
+    "A52-11",
+    "A52-12",
+    "A52-13"
+  ],
+  "duplicate_check": {
+    "searched": "Established full baseline inventory, active pages and metadata, accepted/held records and exclusions; refreshed tensor-PCA/spiked-tensor/noisy-XOR/dense-parity aliases.",
+    "findings": "No equivalent active or accepted spiked-tensor phase-boundary entry located. Full 303, 317 and 050 statements read again during A52. Reductions to or from variants do not establish equivalence of the full existing targets.",
+    "refreshed_on": "2026-09-18"
+  },
+  "applied_significance": "Foundational statistical question of detecting consistency in weak higher-order noisy interactions. Distinguishes statistical information from computationally accessible information; not worst-case numerical tensor approximation or a claim about arbitrary real-world noise.",
+  "access_limits": [
+    "The cited primary formulation and relevant theorem statements are accessible. Review is of models, theorem hypotheses and proofs needed for scope, not independent certification of all supporting proofs.",
+    "Gaussian/binary reductions are used as the literature connection between formulations, not a claim of constant-exact finite-sample equivalence or a proof that every implementation is a bit-complexity algorithm. The candidate itself uses finite binary data.",
+    "The full Kothari–Xu preprint and publisher bibliographic metadata were read; the proceedings text was not compared line by line.",
+    "Li arXiv history and served title-page dates differ; both are recorded without inventing a revision. Search results with AI summaries and third-party mirrors were not used as primary admission evidence.",
+    "Wiley full-text request for BGP25 returned a web-reader size error and direct HTTP 403. The current arXiv v2 full text supplied its model and theorem scope; no line-by-line journal comparison was performed."
+  ],
+  "validation": {
+    "state": "passed_structural_checks_for_held_record",
+    "checked_on": "2026-09-18",
+    "catalogue": "catalogue.py --write and --check passed with 350 active entries; active pages, metadata, manifest and generated README are unchanged.",
+    "research_records": "Expansion JSON parsed; 56 formal candidates reconcile as 50 accepted, five claim/scope holds and one formulation hold. All 45 search references in this candidate resolve in the 1865-query log.",
+    "math_rendering": {
+      "renderer": "KaTeX 0.16.22, strict error mode",
+      "draft_expressions": 49,
+      "scope_audit_expressions": 21,
+      "visual_review": "Both complete local HTML previews were rendered and visually inspected; mathematical notation and bibliography fit without clipping."
+    },
+    "local_links": "Relative Markdown links in the modified overview, discovery queue, exclusions, source map, draft and scope audit resolve.",
+    "bibliography_report": "research/expansion-2026-09/spiked-tensor-detection-hardness-link-check.json",
+    "admission": "Not passed; held research record. Structural and rendering checks do not resolve the mathematical scope issue."
+  },
+  "scope_hold_record": "research/expansion-2026-09/spiked-tensor-scope-hold.md"
+}

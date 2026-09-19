@@ -10,7 +10,7 @@ No candidate has received a final exclusion decision in this expansion. The exis
 
 Held candidates do not count toward the expansion. The earlier withdrawal of Pedregal v3 does not settle the status of v5. The arXiv withdrawal of Jacobsen's separate SU(3) claim does not adjudicate Nielsen's manuscript.
 
-Thirty-nine candidates have passed research review: thirty are published as entries 301–330, and nine await a later batch refresh and integration. See [progress](progress.json) and the [research overview](README.md). Equivalent formulations and parameter-only splits remain one canonical problem each.
+Fifty candidates have passed research review and are published as entries 301–350. Six candidates remain held, and no accepted draft awaits integration. See [progress](progress.json) and the [research overview](README.md). Equivalent formulations and parameter-only splits remain one canonical problem each.
 
 ## Gaussian multiple-access feedback capacity — held claim
 
@@ -19,3 +19,7 @@ The full region for three or more senders is explicitly open in later specialist
 ## Polynomial-time graph isomorphism — held claim
 
 Neuen’s February 2026 specialist survey retains the general problem as open. Ren–Li’s 2024 publisher abstract nevertheless claims an unrestricted cubic-time algorithm. Its full text and independent adjudication were not obtained. A separate Wiley algorithm/correction lead also requires review. The [candidate record](candidates/graph-isomorphism-polynomial-time.json) documents this evidence conflict without endorsing or refuting either claim. It is outside the accepted count.
+
+## Spiked-tensor detection — held theorem scope
+
+The binary conjecture and independent Gaussian-family corroboration were located. During A52, Agrawal–Bagchi–Kumar's July 2026 Corollary 5.18 and Theorem 5.21 appeared to cover a binary fourth-order case when the hierarchy level is close to the dimension. Their introductory larger-ring scope and preceding proof bounds make this application ambiguous. The arXiv and IACR PDFs repeat the formulas. The [scope audit](spiked-tensor-scope-hold.md) gives the exact substitution and unresolved condition; the [candidate ledger](candidates/spiked-tensor-detection-hardness.json) preserves other model comparisons. This is `hold_claimed_resolution`, without asserting that the authors resolved the conjecture or that their intended theorem is false.

@@ -1,0 +1,89 @@
+{
+  "checked_on": "2026-09-18",
+  "scope": "Eight external bibliography targets in the held tensor-detection draft; source access does not settle the theorem-scope hold.",
+  "results": [
+    {
+      "url": "https://arxiv.org/html/2601.19016v2",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "document_title": "Average-Case Reductions for 𝑘-XOR and Tensor PCA",
+      "pdf_header": false,
+      "bytes_inspected": 3795381,
+      "accessed_on": "2026-09-18",
+      "assessment": "Reached the expected source; title or PDF header and corresponding scholarly identity checked."
+    },
+    {
+      "url": "https://arxiv.org/html/2509.09904v1",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "document_title": "A Smooth Computational Transition in Tensor PCA",
+      "pdf_header": false,
+      "bytes_inspected": 1761151,
+      "accessed_on": "2026-09-18",
+      "assessment": "Reached the expected source; title or PDF header and corresponding scholarly identity checked."
+    },
+    {
+      "url": "https://epubs.siam.org/doi/10.1137/1.9781611978971.95",
+      "http_status": 403,
+      "transport_error": "HTTP Error 403: Forbidden",
+      "accessed_on": "2026-09-18",
+      "assessment": "Direct request returned HTTP 403. Publisher bibliographic metadata was read through the web reader; the linked full author preprint returned HTTP 200 and supplied the theorem text. No successful direct publisher download is claimed."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2510.03061v1",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "document_title": null,
+      "pdf_header": true,
+      "bytes_inspected": 996277,
+      "accessed_on": "2026-09-18",
+      "assessment": "Reached the expected source; title or PDF header and corresponding scholarly identity checked."
+    },
+    {
+      "url": "https://arxiv.org/html/2604.10457v1",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "document_title": "Near Optimal Algorithms for Noisy 𝑘-XOR under Low-Degree Heuristic",
+      "pdf_header": false,
+      "bytes_inspected": 1400030,
+      "accessed_on": "2026-09-18",
+      "assessment": "Reached the expected source; title or PDF header and corresponding scholarly identity checked."
+    },
+    {
+      "url": "https://arxiv.org/html/2607.20318v1",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "document_title": "The Polynomial-Time Low-Degree Conjecture is False",
+      "pdf_header": false,
+      "bytes_inspected": 382386,
+      "accessed_on": "2026-09-18",
+      "assessment": "Reached the expected source; title or PDF header and corresponding scholarly identity checked."
+    },
+    {
+      "url": "https://arxiv.org/html/2603.27190v2",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "document_title": "Spectral Method attacks Sparse LWE, Sparse LPN and Beyond",
+      "pdf_header": false,
+      "bytes_inspected": 922235,
+      "accessed_on": "2026-09-18",
+      "assessment": "Reached the expected source; title or PDF header and corresponding scholarly identity checked."
+    },
+    {
+      "url": "https://eprint.iacr.org/2026/614",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "document_title": "Spectral Method attacks Sparse LWE, Sparse LPN and Beyond",
+      "pdf_header": false,
+      "bytes_inspected": 16081,
+      "accessed_on": "2026-09-18",
+      "assessment": "Reached the expected source; title or PDF header and corresponding scholarly identity checked."
+    }
+  ],
+  "summary": {
+    "targets": 8,
+    "http_200": 7,
+    "http_403_with_primary_alternative": 1
+  },
+  "mathematical_status": "hold_claimed_resolution; see spiked-tensor-scope-hold.md"
+}

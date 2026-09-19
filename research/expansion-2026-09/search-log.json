@@ -14945,5 +14945,461 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
     "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "S394-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Gaussian product inequality\" conjecture 2026 2025",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S394-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Gaussian product conjecture\" proof counterexample solved",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S394-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Gaussian product inequality\" statistics moments open problem",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S394-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Gaussian product inequality\" \"conjecture\" refutation disproof",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S395-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "statistics conjecture \"open problem\" \"minimax\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S395-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"log-concave maximum likelihood\" \"conjecture\" rate",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S395-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"mathematical biology\" \"open problems\" conjecture 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S395-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"phylogenetic\" \"conjecture\" \"identifiability\" 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S396-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"tensor PCA\" \"conjecture\" \"2026\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S396-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"tensor PCA\" \"conjecture\" proof solved refutation counterexample",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S396-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"tensor PCA\" \"open problem\" polynomial time detection",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S396-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"tensor principal component analysis\" survey computational threshold conjecture",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S397-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Average-Case Reductions for k-XOR and Tensor PCA\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S397-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"tensor PCA\" \"hardness conjecture\" detection polynomial",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S397-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"tensor PCA\" \"2026\" \"algorithm\" \"threshold\" Gaussian",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S397-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"tensor PCA\" \"2025\" \"2026\" \"disproof\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Batch 6 discovery; Gaussian-product claim and statistical inference leads. Source-reading levels documented in discovery queue and any later candidate record."
+  },
+  {
+    "search_id": "S398-1",
+    "searched_on": "2026-09-18",
+    "query": "\"tensor PCA\" \"hardness\" \"proved\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S398-2",
+    "searched_on": "2026-09-18",
+    "query": "\"spiked tensor\" \"polynomial time\" \"below\" 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S398-3",
+    "searched_on": "2026-09-18",
+    "query": "\"tensor PCA\" \"counterexample\" \"hardness\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S398-4",
+    "searched_on": "2026-09-18",
+    "query": "\"Bresler\" \"Harbuzova\" \"Tensor PCA\" correction erratum withdrawn",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S399-1",
+    "searched_on": "2026-09-18",
+    "query": "\"Near Optimal Algorithms for Noisy k-XOR under Low-Degree Heuristic\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S399-2",
+    "searched_on": "2026-09-18",
+    "query": "\"tensor PCA\" \"resolution\" \"solved\" 2025 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S399-3",
+    "searched_on": "2026-09-18",
+    "query": "\"spiked tensor\" \"refutation\" \"disproof\" hardness",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S399-4",
+    "searched_on": "2026-09-18",
+    "query": "\"Zhangsong Li\" \"Smooth Computational Transition\" correction erratum",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S400-1",
+    "searched_on": "2026-09-18",
+    "query": "\"The Polynomial-Time Low-Degree Conjecture is False\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S400-2",
+    "searched_on": "2026-09-18",
+    "query": "\"tensor PCA\" \"hardness\" \"September 2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S400-3",
+    "searched_on": "2026-09-18",
+    "query": "\"tensor principal component analysis\" \"conjecture\" \"disproved\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S400-4",
+    "searched_on": "2026-09-18",
+    "query": "\"noisy k-XOR\" \"expansion\" \"polynomial time\" 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S401-1",
+    "searched_on": "2026-09-18",
+    "query": "\"tensor PCA\" \"n^{-k/4}\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S401-2",
+    "searched_on": "2026-09-18",
+    "query": "\"tensor PCA\" \"polynomial\" \"proof\" \"solved\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S401-3",
+    "searched_on": "2026-09-18",
+    "query": "\"Smooth Trade-off for Tensor PCA via Sharp Bounds for Kikuchi Matrices\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S401-4",
+    "searched_on": "2026-09-18",
+    "query": "\"Near-Optimal Tensor PCA via Normalized\" theorem",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research; active resolution and correction checks before drafting."
+  },
+  {
+    "search_id": "S402-1",
+    "searched_on": "2026-09-18",
+    "query": "\"Richard\" \"Montanari\" \"tensor PCA\" 2025 2026 hardness detection",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research before drafting; author, recent algorithm, correction and published-version checks."
+  },
+  {
+    "search_id": "S402-2",
+    "searched_on": "2026-09-18",
+    "query": "\"tensor PCA hardness conjecture\" proof solved counterexample",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research before drafting; author, recent algorithm, correction and published-version checks."
+  },
+  {
+    "search_id": "S402-3",
+    "searched_on": "2026-09-18",
+    "query": "\"spiked tensor\" \"detection\" \"polynomial-time\" 2024 2025",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research before drafting; author, recent algorithm, correction and published-version checks."
+  },
+  {
+    "search_id": "S402-4",
+    "searched_on": "2026-09-18",
+    "query": "\"Smooth Trade-off for Tensor PCA\" SODA 2026 DOI erratum",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research before drafting; author, recent algorithm, correction and published-version checks."
+  },
+  {
+    "search_id": "S403-1",
+    "searched_on": "2026-09-18",
+    "query": "\"Tensor PCA\" \"hardness\" \"proved\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research before drafting; final formulation and claim checks."
+  },
+  {
+    "search_id": "S403-2",
+    "searched_on": "2026-09-18",
+    "query": "\"CONJ\" \"Bresler\" \"Harbuzova\" correction withdrawal",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research before drafting; final formulation and claim checks."
+  },
+  {
+    "search_id": "S403-3",
+    "searched_on": "2026-09-18",
+    "query": "\"high-noise\" \"k-XOR\" \"detection\" solved proof",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research before drafting; final formulation and claim checks."
+  },
+  {
+    "search_id": "S403-4",
+    "searched_on": "2026-09-18",
+    "query": "\"The Polynomial-Time Low-Degree Conjecture is False\" correction tensor",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Tensor-detection candidate research before drafting; final formulation and claim checks."
+  },
+  {
+    "search_id": "A52-1",
+    "searched_on": "2026-09-18",
+    "query": "\"spiked tensor\" \"detection\" \"n\" \"polynomial\" \"2026\" proof",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass for the tensor-detection draft; no independent reviewer."
+  },
+  {
+    "search_id": "A52-2",
+    "searched_on": "2026-09-18",
+    "query": "\"tensor PCA\" \"hardness conjecture\" \"solved\" OR \"disproved\" OR \"proved\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass for the tensor-detection draft; no independent reviewer."
+  },
+  {
+    "search_id": "A52-3",
+    "searched_on": "2026-09-18",
+    "query": "\"Bresler\" \"Harbuzova\" \"Tensor PCA\" \"erratum\" OR \"correction\" OR \"withdrawn\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass for the tensor-detection draft; no independent reviewer."
+  },
+  {
+    "search_id": "A52-4",
+    "searched_on": "2026-09-18",
+    "query": "\"Rigorous Implications of the Low-degree Heuristic\" tensor",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass for the tensor-detection draft; no independent reviewer."
+  },
+  {
+    "search_id": "A52-5",
+    "searched_on": "2026-09-18",
+    "query": "\"dense\" \"noisy k-XOR\" \"polynomial-time\" 2025 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass for the tensor-detection draft; no independent reviewer."
+  },
+  {
+    "search_id": "A52-6",
+    "searched_on": "2026-09-18",
+    "query": "\"tensor PCA\" \"strong detection\" \"below\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass for the tensor-detection draft; no independent reviewer."
+  },
+  {
+    "search_id": "A52-7",
+    "searched_on": "2026-09-18",
+    "query": "\"Smooth Trade-off for Tensor PCA\" \"correction\" OR \"counterexample\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass for the tensor-detection draft; no independent reviewer."
+  },
+  {
+    "search_id": "A52-8",
+    "searched_on": "2026-09-18",
+    "query": "\"spiked tensor\" \"binary\" \"learning parity\" reduction hardness",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-pass for the tensor-detection draft; no independent reviewer."
+  },
+  {
+    "search_id": "A52-9",
+    "searched_on": "2026-09-18",
+    "query": "\"Attacks on Sparse LWE and Sparse LPN with new Sample-Time tradeoffs\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated A52 self-review follow-up: primary versions and scope of fresh sparse-parity and low-degree hits."
+  },
+  {
+    "search_id": "A52-10",
+    "searched_on": "2026-09-18",
+    "query": "\"Rigorous Low-Degree Implications for Planted Subgraph Detection\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated A52 self-review follow-up: primary versions and scope of fresh sparse-parity and low-degree hits."
+  },
+  {
+    "search_id": "A52-11",
+    "searched_on": "2026-09-18",
+    "query": "\"Stochastic Gradient Descent in High Dimensions for Multi-Spiked Tensor PCA\" arxiv",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated A52 self-review follow-up: primary versions and scope of fresh sparse-parity and low-degree hits."
+  },
+  {
+    "search_id": "A52-12",
+    "searched_on": "2026-09-18",
+    "query": "\"Agrawal\" \"Bagchi\" \"Kumar\" \"Spectral Method\" \"ring\" correction",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated A52 self-review follow-up: primary versions and scope of fresh sparse-parity and low-degree hits."
+  },
+  {
+    "search_id": "A52-13",
+    "searched_on": "2026-09-18",
+    "query": "\"2603.27190\" \"n/2\" OR erratum OR correction",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated A52 self-review follow-up: primary versions and scope of fresh sparse-parity and low-degree hits."
+  },
+  {
+    "search_id": "S404-1",
+    "searched_on": "2026-09-18",
+    "query": "\"graph reconstruction conjecture\" \"2026\" proof counterexample",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery after the tensor hold: graph reconstruction and existing phylogenetic leads. No new candidate admitted."
+  },
+  {
+    "search_id": "S404-2",
+    "searched_on": "2026-09-18",
+    "query": "\"Ulam reconstruction conjecture\" solved 2025 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery after the tensor hold: graph reconstruction and existing phylogenetic leads. No new candidate admitted."
+  },
+  {
+    "search_id": "S404-3",
+    "searched_on": "2026-09-18",
+    "query": "\"CFN\" \"sunlet\" \"quadratic\" conjecture phylogenetic 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery after the tensor hold: graph reconstruction and existing phylogenetic leads. No new candidate admitted."
+  },
+  {
+    "search_id": "S404-4",
+    "searched_on": "2026-09-18",
+    "query": "\"phylogenetic\" \"character\" \"threshold\" \"conjecture\" 2025 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery after the tensor hold: graph reconstruction and existing phylogenetic leads. No new candidate admitted."
   }
 ]

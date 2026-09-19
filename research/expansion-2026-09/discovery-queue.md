@@ -1,5 +1,19 @@
 # Discovery queue — not accepted entries
 
+## Tensor-detection hold (S394–S403 and A52; 2026-09-18)
+
+The tensor-detection lead now has a formal [candidate record](candidates/spiked-tensor-detection-hardness.json) and a [draft](drafts/spiked-tensor-detection-hardness.md), but remains outside the accepted count. Its [scope audit](spiked-tensor-scope-hold.md) records a potentially matching theorem parameter range found during the second pass. Continue other families while that issue awaits authoritative clarification or adequate mathematical adjudication. No contact with authors has been initiated.
+
+Earlier queries S394–S395 revisited Gaussian-product inequalities and broad log-concave, minimax and biology leads. The Gaussian-product general-resolution claim was already known in this discovery queue; a refreshed route supplied its theorem and opening proof, without independent adjudication. These searches create no additional candidate count.
+
+## Further inverse-network discovery (S404; 2026-09-18)
+
+Dufresne–Jeronimo–Kenkel–Lindo–Villamizar, [*Shuffling the Deck: Invariant Theory and the Graph Reconstruction Conjecture*](https://arxiv.org/html/2604.16567v1), April 17, 2026, supplies the full finite-simple-graph deck formulation in §1, Conjecture 1.2; its introduction and §§1–2.1 were read. Labels are forgotten separately on each card and multiplicities are retained. This is a possible inverse-network lead, pending full duplicate, application, independent corroboration and resolution review; no formal candidate record or accepted count yet.
+
+A search hit named `reconstruction-conjecture-counterexample` was opened at its [author's repository](https://github.com/nd7141/reconstruction-conjecture-counterexample/blob/main/README.md). The README explicitly identifies the examples as counterexamples to a common-card overlap bound, with unequal complete decks. That is a scope screen, not a verification of its paper or computational artifacts. Other claimed-proof and composition/restricted-measurement hits still require review before this lead could be admitted.
+
+The same discovery pass revisited CFN sunlet quadratic generation and phylogenetic character thresholds. It did not supply new verified independent corroboration. The NCSU API route failed, but the alternate [full dissertation PDF](https://repository.lib.ncsu.edu/bitstreams/dab2fab8-740e-4e18-afca-8f281bbd891b/download) succeeded. Its abstract and title page identify Benjamin Keith Hollering's *Computational and Combinatorial Techniques for Phylogenetic Algebraic Geometry* (2022). Hollering coauthored the original conjecture paper, so this is not independently authored corroboration; the chapter was not newly reviewed in full. These older discovery leads retain their existing holds. Four actual queries bring the log to 1,865 unique identifiers, without changing candidate counts.
+
 ## Gaussian statistics follow-up (S182–S187 and A29; 2026-09-17)
 
 The polynomial U-conjecture passed full formulation, current-source, restricted-result and duplicate checks and the separated A29 self-pass. It has moved to an [accepted research draft](candidates/gaussian-polynomial-unlinking.json), without an active ID. Lan–Ouimet–Sun's August 27, 2026 revision explicitly retains the standard-Gaussian unlinking formulation. The strong-GPI claim was inspected at full Theorem 2.1 and opening-proof level: it concerns powers of jointly Gaussian coordinates, not arbitrary polynomial statistics. Its broader correctness remains unadjudicated here. Long's Gaussian-moments Theorem 5.1 uses complex coefficients and a different moment condition; it does not refute real-polynomial unlinking.
