@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 63,
+  "new_accepted": 64,
   "active_total": 360,
-  "candidates_investigated": 69,
+  "candidates_investigated": 70,
   "held_unverified": 1,
   "held_claimed_resolution": 5,
   "excluded": 0,
-  "remaining_to_minimum": 137,
-  "remaining_to_target": 187,
+  "remaining_to_minimum": 136,
+  "remaining_to_target": 186,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -268,9 +268,9 @@
       "purpose": "Reviewed Fourier entropy–influence draft, ten source records, thirteen scope comparisons, A65 and technical validation; direct main push separately verified September 19, 2026. No new active catalogue entry."
     }
   ],
-  "remote_state": "All sixty catalogue additions (301–360) are published directly on main. All three accepted pending drafts and their evidence are uploaded: illumination, GNRS and Fourier entropy–influence. The latest research commit 2175545c8b77706aac5ca66d872fd37b477f02a4 was separately verified on remote main September 19, 2026. Active total 360; three accepted drafts await batch integration.",
+  "remote_state": "All sixty catalogue additions (301–360) are published directly on main. Three previously accepted drafts and evidence are uploaded. The fourth accepted draft, D-stable Lotka–Volterra global attraction, has passed review and validation and awaits this direct research upload. Latest verified pre-upload main: 3b8e31b754d4ac18645802cef2f713804b841be0. Active total 360.",
   "next_actions": [
-    "Continue broad research toward at least 200 integrated additions: 63 accepted, 60 published, three pending drafts; 137 acceptances and 140 integrations remain to the minimum. Seven more accepted drafts would form the next ten-entry batch before assigning permanent IDs.",
+    "Continue broad research toward at least 200 integrated additions: 64 accepted, 60 published, four pending drafts; 136 acceptances and 140 integrations remain to the minimum. Six more accepted drafts would form the next ten-entry batch before assigning permanent IDs.",
     "Prioritize distinct families in statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the six formal holds and discovery-only claims outside admission; preserve original identifiers and historical review dates.",
     "Continue the Carrasco and other discovery leads only after resolving the precise scope and corroboration gaps in their records."
@@ -283,7 +283,7 @@
     "inverse2": 4,
     "operators": 6,
     "inverse": 3,
-    "stochastic2": 5,
+    "stochastic2": 6,
     "spectral": 1,
     "continuum3": 3,
     "spectral3": 3,
@@ -291,11 +291,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 60,
-  "count_semantics": "Sixty-three accepted additions: sixty integrated and published directly on main, three pending drafts. Active total 360. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
+  "count_semantics": "Sixty-four accepted additions: sixty integrated and published directly on main, four pending drafts. Active total 360. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 60,
-  "coverage_semantics": "Accepted additions by primary section, including unintegrated illumination (inverse3), GNRS (stochastic3) and Fourier entropy–influence (applied) drafts. Sixty additions are integrated and published.",
+  "coverage_semantics": "Accepted additions by primary section, including unintegrated illumination (inverse3), GNRS (stochastic3), Fourier entropy–influence (applied) and D-stable Lotka–Volterra attraction (stochastic2). Sixty additions are integrated and published.",
   "remaining_integrations_to_minimum": 140,
   "remaining_integrations_to_target": 190,
-  "pending_accepted": 3
+  "pending_accepted": 4
 }

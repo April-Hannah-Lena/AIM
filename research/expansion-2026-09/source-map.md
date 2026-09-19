@@ -338,3 +338,14 @@ Twenty-five candidate queries and three breadth-discovery queries bring the log 
 
 
 Publication receipt: [2175545](https://github.com/MColbrook/AIM/commit/2175545c8b77706aac5ca66d872fd37b477f02a4) was pushed directly to main on September 19, 2026; a separate remote-ref read matched the exact full commit. All three accepted pending drafts and their evidence are uploaded. Counts remain 63 accepted, 60 integrated catalogue additions, three pending drafts and 360 active entries.
+
+
+## D-stable ecological attraction (S498–S507 and A66; September 19, 2026)
+
+The [accepted draft](drafts/lotka-volterra-d-stable-global-attraction.md) preserves strict multiplicative D-stability, arbitrary finite dimension, a strictly positive coexistence equilibrium, every strictly positive initial state and forward global convergence. No diagonal Lyapunov certificate, sign pattern or a priori boundedness is inserted. Complete nearest entries 311, 345 and 349 were compared. The model and conclusion differ from discrete carrying-simplex smoothness, chemostat exclusion and algorithmic local-stability decisions.
+
+The [ledger](candidates/lotka-volterra-d-stable-global-attraction.json) records nine source works and thirteen scope comparisons. LT93 supplies the complete explicit named formulation and HP21 the independently authored still-open assessment. The latest exact assessment located is 2021. AKLS24 and BKLM25 retain Volterra–Lyapunov assumptions; their related questions and backward-cycle structure are not promoted to newer exact openness evidence. The general Markus–Yamabe counterexample has a different vector-field class. The second pass also inspected the full split Lyapunov criteria, the lecture's stronger certificate and the 2025 nonsmooth local-stability results. Source slips in spectral conventions, local-to-D-stability wording and backward-completeness phrasing are not imported. No proof certification is claimed.
+
+A66 was a separated self-review after drafting. All 16 expressions passed strict KaTeX and complete 1300x6000 screenshot inspection; four local links resolve. Four external targets returned valid PDFs, three publishers returned cookie-error redirects and the UCL direct download returned 403. Relevant full texts were nevertheless read through the recorded browser or manuscript routes. Current fetched origin/main matched HEAD at 3b8e31b754d4ac18645802cef2f713804b841be0; connected GitHub returned a private writable repository, no open PRs and only main after complete pagination.
+
+Thirty-six candidate queries and twelve broader discovery queries bring the log to 2,417 actual queries with distinct IDs. There are 64 accepted additions, 60 integrated/published, four pending drafts, six holds, 70 formal records and 360 active entries. The minimum requires 136 further acceptances and 140 integrations. Permanent IDs await the next accepted batch; this research checkpoint is ready for direct upload.

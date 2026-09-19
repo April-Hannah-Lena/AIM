@@ -1,0 +1,93 @@
+{
+  "checked_on": "2026-09-19",
+  "source": "research/expansion-2026-09/drafts/lotka-volterra-d-stable-global-attraction.md",
+  "method": "Direct HTTP GET with redirects; response and PDF-header checks. Full mathematical readings are documented separately in the candidate record.",
+  "external": [
+    {
+      "url": "https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/0828-16.pdf",
+      "http_status": 200,
+      "final_url": "https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/0828-16.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://par.nsf.gov/servlets/purl/10289787",
+      "http_status": 200,
+      "final_url": "https://par.nsf.gov/servlets/purl/10289787",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00285-021-01638-7",
+      "http_status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s00285-021-01638-7?error=cookies_not_supported&code=dece1db8-6a65-4ba5-847c-7b232a64bd13",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": null,
+      "result": "publisher cookie restriction",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00285-024-02087-8",
+      "http_status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s00285-024-02087-8?error=cookies_not_supported&code=2b499070-517e-4e15-bbde-b1fdff268ce3",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": null,
+      "result": "publisher cookie restriction",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://arxiv.org/pdf/2209.09802v6",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/pdf/2209.09802v6",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00285-025-02190-4",
+      "http_status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s00285-025-02190-4?error=cookies_not_supported&code=082cb6e0-262b-42ce-a185-b945b697eba0",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": null,
+      "result": "publisher cookie restriction",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://www.cs.ru.nl/E.Hubbers/pubs/A-Polynomial-Counterexample-to-the-Markus-Yamabe-Co_1997_Advances-in-Mathema.pdf",
+      "http_status": 200,
+      "final_url": "https://www.cs.ru.nl/E.Hubbers/pubs/A-Polynomial-Counterexample-to-the-Markus-Yamabe-Co_1997_Advances-in-Mathema.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://www.ucl.ac.uk/~ucess29/resources/preprints/JDEDSGlobal_Stab_Rev.pdf",
+      "result": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "local": [
+    {
+      "url": "../candidates/lotka-volterra-d-stable-global-attraction.json",
+      "exists": true
+    },
+    {
+      "url": "../../../problems/311-carrying-simplex-interior.md",
+      "exists": true
+    },
+    {
+      "url": "../../../problems/345-chemostat-unequal-removal-exclusion.md",
+      "exists": true
+    },
+    {
+      "url": "../../../problems/349-polynomial-local-stability-decidability.md",
+      "exists": true
+    }
+  ]
+}

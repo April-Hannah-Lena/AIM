@@ -19554,5 +19554,437 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
     "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "S498-1",
+    "candidate_id": "discovery",
+    "query": "\"mathematical biology\" \"open problems\" conjecture 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery before next candidate"
+  },
+  {
+    "search_id": "S498-2",
+    "candidate_id": "discovery",
+    "query": "\"population dynamics\" \"conjecture\" \"open\" 2025 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery before next candidate"
+  },
+  {
+    "search_id": "S498-3",
+    "candidate_id": "discovery",
+    "query": "\"control theory\" \"open problem\" \"conjecture\" 2026 stabilization",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery before next candidate"
+  },
+  {
+    "search_id": "S498-4",
+    "candidate_id": "discovery",
+    "query": "\"statistics\" \"conjecture\" \"open problem\" \"2026\" minimax",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery before next candidate"
+  },
+  {
+    "search_id": "S499-1",
+    "candidate_id": "discovery",
+    "query": "\"Carrasco conjecture\" 2026 proof counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery before next candidate"
+  },
+  {
+    "search_id": "S499-2",
+    "candidate_id": "discovery",
+    "query": "\"stochastic reaction networks\" \"positive recurrence conjecture\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery before next candidate"
+  },
+  {
+    "search_id": "S499-3",
+    "candidate_id": "discovery",
+    "query": "\"Lotka Volterra\" \"conjecture\" \"open\" 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery before next candidate"
+  },
+  {
+    "search_id": "S499-4",
+    "candidate_id": "discovery",
+    "query": "\"statistics\" \"open conjecture\" 2026 estimation",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery before next candidate"
+  },
+  {
+    "search_id": "S500-1",
+    "candidate_id": "discovery",
+    "query": "\"Exclusion and multiplicity for stable communities in Lotka-Volterra systems\" conjecture",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery before next candidate"
+  },
+  {
+    "search_id": "S500-2",
+    "candidate_id": "discovery",
+    "query": "\"Lotka Volterra\" \"D-stability conjecture\" proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery before next candidate"
+  },
+  {
+    "search_id": "S500-3",
+    "candidate_id": "discovery",
+    "query": "\"Lotka Volterra\" \"stable communities\" conjecture 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery before next candidate"
+  },
+  {
+    "search_id": "S500-4",
+    "candidate_id": "discovery",
+    "query": "\"A theoretical and computational study of heteroclinic cycles\" arxiv",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery before next candidate"
+  },
+  {
+    "search_id": "S501-1",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Hofbauer\" \"Sigmund\" \"D-stable\" conjecture proof counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S501-2",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"D-stability\" \"Lotka-Volterra\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S501-3",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"D-stability\" \"global stability\" \"conjecture\" \"2025\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S501-4",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Hofbauer Sigmund conjecture\" global stability",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S502-1",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Stability of Ecological Systems: A Theoretical Review\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S502-2",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Hofbauer\" \"Sigmund\" \"conjecture\" \"D-stability\" 2024 2025 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S502-3",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Lotka-Volterra\" \"D-stable\" \"counterexample\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S502-4",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Lotka-Volterra\" \"D-stable\" \"global\" \"proved\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S503-1",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Hofbauer-Sigmund\" conjecture proof solved resolution counterexample refutation",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S503-2",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"D-stable\" \"Lotka-Volterra\" \"2025\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S503-3",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"D-stable\" \"Lotka-Volterra\" \"2026\" global",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S503-4",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"A theoretical and computational study of heteroclinic cycles in Lotka\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S504-1",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Lotka-Volterra\" \"D-stability\" proof disproof resolution",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S504-2",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Lotka-Volterra\" \"diagonally stable\" \"D-stable\" \"global\" counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S504-3",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Hong\" \"Pego\" \"Exclusion\" erratum correction",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S504-4",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Hofbauer-Sigmund conjecture\" refutation solved",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S505-1",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Hofbauer\" \"Sigmund\" \"D-stable\" \"200\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S505-2",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"A polynomial counterexample to the Markus-Yamabe conjecture\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S505-3",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Lotka-Volterra\" \"D-stability\" \"global asymptotic\" \"2024\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S505-4",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Global dynamical behavior for Lotka-Volterra systems\" correction",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S506-1",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"D-stable\" \"Lotka-Volterra\" \"September\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S506-2",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Lotka Volterra\" \"global stability\" \"Hofbauer\" \"counter-example\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S506-3",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Lu\" \"Takeuchi\" \"D-stable\" conjecture",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "S506-4",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Exclusion and multiplicity for stable communities\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source/disqualification research"
+  },
+  {
+    "search_id": "A66-1",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Hofbauer\" \"Sigmund\" \"D-stable\" proof counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review and primary-source follow-up"
+  },
+  {
+    "search_id": "A66-2",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Lotka-Volterra\" \"D-stability\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review and primary-source follow-up"
+  },
+  {
+    "search_id": "A66-3",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"D-stable\" \"globally asymptotically stable\" \"Lotka\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review and primary-source follow-up"
+  },
+  {
+    "search_id": "A66-4",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Exclusion and multiplicity for stable communities\" correction erratum",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review and primary-source follow-up"
+  },
+  {
+    "search_id": "A66-5",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Lotka-Volterra\" \"Markus-Yamabe\" counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review and primary-source follow-up"
+  },
+  {
+    "search_id": "A66-6",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Hofbauer-Sigmund conjecture\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review and primary-source follow-up"
+  },
+  {
+    "search_id": "A66-7",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Structural stability of invasion graphs\" correction \"D-stable\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review and primary-source follow-up"
+  },
+  {
+    "search_id": "A66-8",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"D-stable\" \"Lotka-Volterra\" \"2025\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review and primary-source follow-up"
+  },
+  {
+    "search_id": "S507-1",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Global Stability of Interior and Boundary Fixed Points for Lotka\" pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review and primary-source follow-up"
+  },
+  {
+    "search_id": "S507-2",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Hofbauer\" \"Sigmund\" \"D-stable\" solved refutation",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review and primary-source follow-up"
+  },
+  {
+    "search_id": "S507-3",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"D-stable\" \"Lotka-Volterra\" \"2024\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review and primary-source follow-up"
+  },
+  {
+    "search_id": "S507-4",
+    "candidate_id": "lotka-volterra-d-stable-global-attraction",
+    "query": "\"Stability Analysis of Nondifferentiable Systems\" Lotka Volterra",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review and primary-source follow-up"
   }
 ]

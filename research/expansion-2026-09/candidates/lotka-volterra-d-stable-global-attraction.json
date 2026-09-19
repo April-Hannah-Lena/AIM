@@ -1,0 +1,456 @@
+{
+  "candidate_id": "lotka-volterra-d-stable-global-attraction",
+  "proposed_catalogue_id": null,
+  "title": "Global attraction in D-stable Lotka–Volterra systems",
+  "primary_section": "stochastic2",
+  "secondary_tags": [
+    "mathematical biology",
+    "ecological coexistence",
+    "nonlinear stability"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit formulation, independent scholarly corroboration, full relevant resolution-scope comparisons, current searches, duplicate review, separated A66 self-review and technical validation passed. One unintegrated family; no permanent ID.",
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "problem_fingerprint": {
+    "model_or_objects": "For every finite n>=1, every real n-by-n interaction matrix A, and every strictly positive equilibrium x* in (0,infinity)^n, consider dx_i/dt=x_i sum_j a_ij(x_j-x*_j), i=1,...,n.",
+    "matrix_hypothesis": "For every positive diagonal matrix D=diag(d_1,...,d_n), d_i>0, every eigenvalue of DA has strictly negative real part. This is multiplicative D-stability; D is constant for each eigenvalue test.",
+    "domain_and_initial_conditions": "Every initial population x(0) in the open positive orthant. Boundary initial states with extinct species are excluded.",
+    "requested_conclusion": "The unique maximal solution is defined for every t>=0 and tends to x* as t tends to infinity. Local asymptotic stability already follows from D-stability of the equilibrium Jacobian diag(x*)A.",
+    "quantifiers": "No restriction on dimension, signs of off-diagonal interactions, symmetry, diagonal dominance or a common quadratic/diagonal Lyapunov certificate. No a priori boundedness assumption and no uniform decay rate.",
+    "normalization": "Equivalently dx=diag(x)(b+Ax), b=-Ax*. Hong–Pego use A_here=-B_there; their equilibrium Jacobian also has the D-stability property because left multiplication by a fixed positive diagonal matrix preserves it.",
+    "scope": "Global forward attraction for an ordinary differential equation; not a discrete population map, delay or stochastic model, a matrix-characterization algorithm, or an assertion about all boundary trajectories.",
+    "family_policy": "One family across all dimensions and interaction patterns; solved diagonal-Lyapunov and qualitative-stability subclasses are not new entries."
+  },
+  "statement_sources": [
+    {
+      "source_id": "LT93",
+      "url": "https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/0828-16.pdf",
+      "locator": "Equation (1), p.171; Section 2, Definitions 1–2 and Hofbauer–Sigmund Conjecture, p.172."
+    },
+    {
+      "source_id": "HP21",
+      "url": "https://par.nsf.gov/servlets/purl/10289787",
+      "locator": "Sections 2.1–2.4, especially Definition 2.1 and explicit conjecture on manuscript p.7; discussion following Theorem 3.4 on p.10."
+    }
+  ],
+  "nearest_existing_entries": [
+    {
+      "id": "311",
+      "path": "problems/311-carrying-simplex-interior.md",
+      "difference": "Interior differentiability of a carrying simplex for competitive discrete population maps, not global equilibrium convergence for continuous Lotka–Volterra systems."
+    },
+    {
+      "id": "345",
+      "path": "problems/345-chemostat-unequal-removal-exclusion.md",
+      "difference": "Resource-mediated nutrient dynamics with increasing responses and species-specific removal; asks for exclusion, not coexistence attraction under a D-stable interaction matrix."
+    },
+    {
+      "id": "349",
+      "path": "problems/349-polynomial-local-stability-decidability.md",
+      "difference": "A terminating algorithm for local stability of arbitrary rational polynomial ODEs. Here local stability is automatic and the question is a universal global-convergence theorem for a specified ecological model."
+    }
+  ],
+  "duplicate_check": {
+    "baseline": "Established full baseline inventory retained; full closest entries 311, 345 and 349 reread September 19, 2026.",
+    "local": "Alias/formulation searches across problems, metadata, accepted candidates and old exclusions found no equivalent accepted entry.",
+    "upstream": "SSH fetch completed September 19, 2026; HEAD and origin/main both 3b8e31b754d4ac18645802cef2f713804b841be0. Connected GitHub reports private repository with push access, no open PRs, and only main after complete pagination."
+  },
+  "source_records": [
+    {
+      "source_id": "LT93",
+      "authors": [
+        "Zhengyi Lu",
+        "Yasuhiro Takeuchi"
+      ],
+      "title": "Global Dynamical Behavior for Lotka–Volterra Systems",
+      "url": "https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/0828-16.pdf",
+      "version": "RIMS Kôkyûroku 828 (1993), 171–178; complete institutional PDF.",
+      "locator": "Equation (1), p.171; Section 2 Definitions 1–2 and named Hofbauer–Sigmund Conjecture, p.172; Definition 3, p.174; Theorem 2, p.176 and Section 4, p.177.",
+      "read": "Complete normalized model, strict D-stability definition, explicit conjecture and qualitative-stability theorem with its sign-pattern definition.",
+      "access_limit": "The general Jacobian/Markus–Yamabe discussion predates the later counterexample and is not used as a current status statement. Underlying block-structure lemmas are not independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "HP21",
+      "authors": [
+        "Won Eui Hong",
+        "Robert L. Pego"
+      ],
+      "title": "Exclusion and multiplicity for stable communities in Lotka–Volterra systems",
+      "url": "https://par.nsf.gov/servlets/purl/10289787",
+      "version": "Journal of Mathematical Biology 83 (2021), Article 16, published July 14, 2021; DOI 10.1007/s00285-021-01638-7. Institutional manuscript inspected. arXiv:2102.00611 history: v1 February 1, 2021; latest v2 May 2, 2021.",
+      "locator": "Introduction, pp.2–4; Sections 2.1–2.5, pp.4–8; Theorems 3.1, 3.3, 3.4 and Example 3.5, pp.8–10; Section 3.2 proof opening.",
+      "read": "Full model and stability definitions, explicit still-open assessment, global-attraction sufficient condition, equilibrium-exclusion theorem and nested-community counterexample.",
+      "access_limit": "Publisher identity verified but subscription full text not inspected. NSF manuscript does not identify its arXiv version; identity with v2 is not asserted. Initial browser PDF request timed out, then direct retrieval succeeded. Proof certification is not claimed. Direct HTTP bibliography check returned a publisher cookie-error redirect; this does not describe the separately recorded browser/full-manuscript reading.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false,
+      "metadata_url": "https://link.springer.com/article/10.1007/s00285-021-01638-7",
+      "revision_url": "https://arxiv.org/abs/2102.00611"
+    },
+    {
+      "source_id": "AKLS24",
+      "authors": [
+        "Pablo Almaraz",
+        "Piotr Kalita",
+        "José A. Langa",
+        "Fernando Soler-Toscano"
+      ],
+      "title": "Structural stability of invasion graphs for Lotka–Volterra systems",
+      "url": "https://link.springer.com/article/10.1007/s00285-024-02087-8",
+      "version": "Journal of Mathematical Biology 88 (2024), Article 64, published April 17, 2024. Also inspected arXiv:2209.09802v6, March 12, 2024; latest version verified in submission history.",
+      "locator": "Definitions 1–4, Theorems 5 and 8, and Section 7.1 Question 35.",
+      "read": "Full definitions of stable, D-stable and Volterra–Lyapunov stable matrices; global-equilibrium theorem; forward well-posedness/global-attractor theorem and proof; complete open extension question.",
+      "access_limit": "Question 35 concerns invasion graphs and connections in wider matrix classes, not a verbatim new formulation of Hofbauer–Sigmund. Complete graph-classification proofs are not claimed inspected. Direct HTTP bibliography check returned a publisher cookie-error redirect; this does not describe the separately recorded browser/full-manuscript reading.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false,
+      "revision_url": "https://arxiv.org/pdf/2209.09802v6"
+    },
+    {
+      "source_id": "BKLM25",
+      "authors": [
+        "M. C. Bortolan",
+        "P. Kalita",
+        "J. A. Langa",
+        "R. O. Moura"
+      ],
+      "title": "A theoretical and computational study of heteroclinic cycles in Lotka–Volterra systems",
+      "url": "https://link.springer.com/article/10.1007/s00285-025-02190-4",
+      "version": "Journal of Mathematical Biology 90 (2025), Article 28, published February 8, 2025; publisher full text.",
+      "locator": "Section 3 model; Definition 3.1; Proposition 3.2 and proof; Proposition 3.9, Corollary 3.10; Definitions 3.7 and 3.11; Theorems 3.14, 3.19, 3.20 and 3.23; Theorem 4.1 statement.",
+      "read": "Full relevant hypotheses, forward-attraction statement, standing VL assumption, basin/repeller definitions and backward-limit/cycle theorems.",
+      "access_limit": "Only the forward-time statements and bounded entire orbits are used. Proposition 3.4 is not adopted as an all-initial-state backward-completeness claim. Numerical algorithms and complete proofs of every cycle theorem were not certified. Direct HTTP bibliography check returned a publisher cookie-error redirect; this does not describe the separately recorded browser/full-manuscript reading.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CEGHM97",
+      "authors": [
+        "Anna Cima",
+        "Arno van den Essen",
+        "Armengol Gasull",
+        "Engelbert Hubbers",
+        "Francesc Mañosas"
+      ],
+      "title": "A Polynomial Counterexample to the Markus–Yamabe Conjecture",
+      "url": "https://www.cs.ru.nl/E.Hubbers/pubs/A-Polynomial-Counterexample-to-the-Markus-Yamabe-Co_1997_Advances-in-Mathema.pdf",
+      "version": "Advances in Mathematics 131(2) (1997), 453–457; DOI 10.1006/aima.1997.1673; author-hosted published PDF.",
+      "locator": "Introduction, pp.453–454; complete Theorem 1.1 and proof, pp.454–455; Theorem 1.2 and proof for the discrete analogue.",
+      "read": "Explicit polynomial field, everywhere Hurwitz Jacobian and escaping trajectory; full continuous-time construction and its scope.",
+      "access_limit": "This is a scope comparison, not independent proof certification. The inspected paper supplies no reduction preserving the present D-stable ecological model.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CWL24",
+      "authors": [
+        "Can Chen",
+        "Xu-Wen Wang",
+        "Yang-Yu Liu"
+      ],
+      "title": "Stability of ecological systems: A theoretical review",
+      "url": "https://tarheels.live/canc/wp-content/uploads/sites/5230/2024/08/1-s2.0-S0370157324002850-main.pdf",
+      "version": "Physics Reports 1088 (2024), 1–41, issue October 17, 2024; DOI 10.1016/j.physrep.2024.08.001. Author-hosted published PDF; arXiv:2312.07737 latest v2 February 7, 2024, history checked.",
+      "locator": "Section 6, published pp.20–21, especially Section 6.2.",
+      "read": "Background on ecological D-stability, restricted criteria, a Lie-algebra condition and random/mutualistic models.",
+      "access_limit": "Background only, not exact-conjecture corroboration. Its non-strict printed spectral convention is not adopted. Original Chu theorem and all cited criteria were not individually inspected; none supplies admission evidence.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "BH12",
+      "authors": [
+        "Stephen Baigent",
+        "Zhanyuan Hou"
+      ],
+      "title": "Global Stability of Interior and Boundary Fixed Points for Lotka–Volterra Systems",
+      "url": "https://www.ucl.ac.uk/~ucess29/resources/preprints/JDEDSGlobal_Stab_Rev.pdf",
+      "version": "Differential Equations and Dynamical Systems 20 (2012), 53–66, published February 11, 2012; DOI 10.1007/s12591-012-0103-0. Undated author manuscript inspected.",
+      "locator": "Sections 1–2, model and permanence/partial-permanence definitions; Theorem 5 and proof, manuscript pp.8–9; Remarks 5–7 and complete Theorem 6, p.10.",
+      "read": "Complete interior and boundary criteria, all additional eigenvector and hyperplane quadratic-form hypotheses, and standing boundedness assumptions.",
+      "access_limit": "Direct download returned HTTP 403; full text was readable through the browser PDF tool. Subscription published text not inspected. Remark 5’s inference from local stability to D-stability is not used: HP21 Example 3.5 explicitly distinguishes these properties.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false,
+      "metadata_url": "https://link.springer.com/article/10.1007/s12591-012-0103-0"
+    },
+    {
+      "source_id": "ALect",
+      "authors": [
+        "Stefano Allesina"
+      ],
+      "title": "Lecture 3: Generalized Lotka–Volterra model",
+      "url": "https://stefanoallesina.github.io/Theoretical_Community_Ecology/generalized-lotka-volterra-model.html",
+      "version": "Author-maintained Theoretical Community Ecology lecture; no publication date asserted.",
+      "locator": "Sections 3.1, 3.3.5 and complete Section 3.3.6.",
+      "read": "Exact ecological model, local Jacobian, definitions distinguishing D-stability from Lyapunov diagonal stability, and weighted-coordinate global-stability derivation.",
+      "access_limit": "A shortened lesson summary can suggest a general D-stability result; the full derivation retains a positive diagonal Lyapunov certificate. This lecture is not independent current-status corroboration.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "SWW25",
+      "authors": [
+        "Jiwoon Sim",
+        "Tianxu Wang",
+        "Hao Wang"
+      ],
+      "title": "Stability Analysis of Nondifferentiable Systems",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/sapm.12801",
+      "version": "Studies in Applied Mathematics 154(1) (2025), e12801; first published December 11, 2024; publisher full text.",
+      "locator": "Section 1, equations (1.1)–(1.3); Section 2.1 standing hypotheses and complete Theorems 2.1–2.2; Example 2.1, equations (2.16)–(2.21).",
+      "read": "Full planar piecewise-linear counterexample model, local-stability theorem assumptions and saturated-predation ecological example.",
+      "access_limit": "Counterexample appendix and every approximation proof were not independently certified. The ecological example has a min nonlinearity and external input; it is not the quadratic multiplicative system in the fingerprint.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "LT93",
+      "locator": "Definition 3 and Theorem 2",
+      "result_scope": "Global attraction for qualitatively stable interaction matrices.",
+      "comparison_with_target": "Qualitative stability requires every matrix of the same sign pattern to be Hurwitz. D-stability only tests positive row scalings and does not impose sign stability.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "HP21",
+      "locator": "Theorem 3.1 and equation (3.1)",
+      "result_scope": "VL-stability gives global attraction through a weighted relative-entropy function.",
+      "comparison_with_target": "The existence of one positive diagonal H with HA+A^T H negative definite is an additional hypothesis.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "HP21",
+      "locator": "Theorem 3.4 and following discussion",
+      "result_scope": "An internally D-stable equilibrium excludes different strictly stable subcommunity equilibria.",
+      "comparison_with_target": "Exclusion of other hyperbolically stable equilibria does not establish attraction; the authors explicitly leave degenerate equilibria and nonconvergent trajectories open.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "HP21",
+      "locator": "Example 3.5, equation (3.3)",
+      "result_scope": "A stable coexistence equilibrium and a stable single-species equilibrium coexist.",
+      "comparison_with_target": "The equilibrium interaction Jacobian is stable but not D-stable, explicitly stated in the source. Hence this is not a counterexample satisfying the target hypothesis.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "AKLS24",
+      "locator": "Definitions 1–4; Theorems 5 and 8",
+      "result_scope": "Forward global existence, a compact global attractor and global convergence to a saturated equilibrium under VL-stability.",
+      "comparison_with_target": "The stronger diagonal certificate is retained. Existence of a compact global attractor alone is not convergence to one coexistence equilibrium.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "AKLS24",
+      "locator": "Section 7.1, Question 35",
+      "result_scope": "Asks whether invasion-graph conclusions extend to D-stable or stable matrices.",
+      "comparison_with_target": "This related open question is not a proof or a new explicit status statement of the exact Hofbauer–Sigmund conjecture.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "BKLM25",
+      "locator": "Definition 3.1; Proposition 3.9 and Corollary 3.10",
+      "result_scope": "Forward global attraction under the standing VL-stable interaction hypothesis.",
+      "comparison_with_target": "The theorem does not remove the diagonal Lyapunov condition. Its all-time flow phrasing elsewhere is not needed for this forward-time target.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "BKLM25",
+      "locator": "Theorems 3.14 and 3.19–3.20, with Definitions 3.7 and 3.11",
+      "result_scope": "Backward alpha-limit sets and heteroclinic structure of bounded entire trajectories; additional admissibility assumptions exclude cycles.",
+      "comparison_with_target": "These boundary/backward structures are compatible with the forward convergence theorem. They are not a positive-initial-condition forward counterexample.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "CEGHM97",
+      "locator": "Theorem 1.1 and complete proof",
+      "result_scope": "A polynomial vector field in R^n, n>=3, has everywhere Hurwitz Jacobian and an escaping trajectory.",
+      "comparison_with_target": "Its field is not the quadratic multiplicative Lotka–Volterra form and does not preserve the population coordinate hyperplanes. The exponential class obtained by logarithmic population coordinates is a restricted subset of the larger Markus–Yamabe class; failure of the larger statement does not imply failure of this subset.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "BH12",
+      "locator": "Theorems 5–6 with Section 2 definitions",
+      "result_scope": "Split Lyapunov global-attraction criteria require permanence or partial permanence, a suitable real eigenvector and positivity of a quadratic form on its orthogonal hyperplane.",
+      "comparison_with_target": "These assumptions do not follow from D-stability. For example A_here=[[-1,-2],[2,-1]] is D-stable by the 2-by-2 trace/determinant test, but at x*=(1,1), -diag(x*)A_here has only the nonreal eigenvalues 1+/-2i, so Theorem 5’s real-positive-eigenvalue condition fails. The boundary theorem retains extra hypotheses.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "ALect",
+      "locator": "Sections 3.3.5–3.3.6",
+      "result_scope": "The weighted logarithmic Lyapunov construction proves global stability under Lyapunov diagonal stability.",
+      "comparison_with_target": "The full derivation uses AD(w)+D(w)A^T negative definite. Congruence by D(w)^(-1) makes this equivalent to HA+A^T H negative definite with H=D(w)^(-1); it is the stronger certificate, not bare D-stability.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "SWW25",
+      "locator": "Theorems 2.1–2.2 and standing definitions",
+      "result_scope": "Local stability for nearby piecewise Jacobians or a negative symmetric-Jacobian bound in a neighborhood.",
+      "comparison_with_target": "The conclusion is local and the symmetric-part/simultaneous bounds are stronger than merely negative real parts under population diagonal scalings.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "SWW25",
+      "locator": "Section 1 equations (1.2)–(1.3); Example 2.1 equations (2.16)–(2.21)",
+      "result_scope": "A planar sectorwise linear instability example and a predator–prey application with capped predation and an external input.",
+      "comparison_with_target": "The counterexample is piecewise linear on R^2. The application includes min{bxy,P} and additive c; neither is the smooth quadratic population model in the conjecture.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    }
+  ],
+  "second_review": {
+    "pass_id": "A66",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass after drafting; no independent agent or human review.",
+    "independent_searches": [
+      "A66-1",
+      "A66-2",
+      "A66-3",
+      "A66-4",
+      "A66-5",
+      "A66-6",
+      "A66-7",
+      "A66-8"
+    ],
+    "follow_up_searches": [
+      "S507-1",
+      "S507-2",
+      "S507-3",
+      "S507-4"
+    ],
+    "issues_found": [
+      "D-stability is easy to confuse with diagonal Lyapunov stability, and the review prints a non-strict convention.",
+      "Subcommunity exclusion, backward heteroclinic cycles and larger-class Markus–Yamabe counterexamples can be mistaken for convergence or its failure.",
+      "The lecture summary and split Lyapunov paper require inspection beyond broad global-stability wording.",
+      "BH12 Remark 5 does not preserve the distinction between local stability and D-stability.",
+      "The latest explicit exact-conjecture open assessment located is 2021, not 2024, 2025 or 2026."
+    ],
+    "issues_resolved": [
+      "Kept the strict multiplicative spectral condition and separately displayed the stronger Lyapunov inequality.",
+      "Compared complete relevant statements and models; separated equilibrium exclusion from trajectories and alpha-limits from forward omega-limits.",
+      "Read the complete lecture derivation, BH12 Theorems 5–6 and SWW25 local criteria/model; recorded the proper additional assumptions.",
+      "Did not use that remark; cross-checked against HP21’s explicit locally stable but non-D-stable example.",
+      "Dated the actual September 19 searches while identifying 2021 as the latest explicit exact status source and newer works only as restricted-result comparisons."
+    ],
+    "application_check": "Relates coexistence recovery from arbitrary positive population perturbations to local robustness across growth vectors, within the stated ordinary differential-equation model.",
+    "search_limit": "The search and theorem-scope audit are not an exhaustive literature survey or independent certification of the cited proofs."
+  },
+  "publication_state": "Accepted research draft; pending direct upload. No permanent ID or active catalogue integration.",
+  "draft_path": "research/expansion-2026-09/drafts/lotka-volterra-d-stable-global-attraction.md",
+  "aliases": [
+    "Hofbauer–Sigmund conjecture",
+    "Hofbauer-Sigmund global-stability conjecture",
+    "D-stable Lotka–Volterra global attraction"
+  ],
+  "independent_corroboration": {
+    "original_explicit_restatement": "LT93: complete named conjecture and normalized model.",
+    "independent_explicit_status": "HP21: independent author group, explicit still-open assessment in Section 2.4 and discussion following Theorem 3.4.",
+    "latest_explicit_status_located": "2021; no newer exact open-status assertion is claimed.",
+    "recent_scope_review": "AKLS24 and BKLM25 retain stronger assumptions and discuss related broader questions. They share Kalita and Langa, so are not counted as two independent corroboration groups.",
+    "not_status_corroboration": [
+      "CWL24 background survey",
+      "ALect explanatory lecture",
+      "different versions or mirrors of one paper",
+      "search-engine crawl dates"
+    ]
+  },
+  "normalization_checks": [
+    "D-stability means strictly negative real parts for every positive constant diagonal multiplier; not the nonpositive-real-part convention printed in CWL24.",
+    "A_here=-B_HP21=-A_BH12. Left multiplication by the fixed positive diag(x*) preserves D-stability; right multiplication has the same spectrum as left multiplication for a fixed diagonal D.",
+    "The only equilibrium under consideration has every coordinate positive. The global attraction claim concerns every strictly positive initial state and all forward times, not trajectories beginning on extinct-species faces.",
+    "No a_ii<0, symmetry, diagonal dominance, sign pattern, a priori compact attractor or common Lyapunov metric is imposed.",
+    "In logarithmic variables y_i=log(x_i/x_i*), the vector field is A diag(x*)(exp(y)-1), with Jacobian A diag(x). The polynomial Markus–Yamabe counterexample does not belong to this displayed class.",
+    "D-stability implies local asymptotic stability here, but local stability at one equilibrium does not imply D-stability. HP21 Example 3.5 supplies an explicit distinction.",
+    "The application concerns global recovery in the specified model after perturbations preserving positivity. It asserts no empirical accuracy, uniform recovery rate, or practical matrix-testing algorithm."
+  ],
+  "discovery_access_limits": [
+    {
+      "description": "Original Hofbauer–Sigmund book",
+      "limit": "Original book text not inspected. Exact complete LT93 and HP21 restatements control; no failed original-book download is claimed."
+    },
+    {
+      "description": "BH12 direct transport",
+      "url": "https://www.ucl.ac.uk/~ucess29/resources/preprints/JDEDSGlobal_Stab_Rev.pdf",
+      "limit": "Direct urllib HTTP GET returned 403; the browser tool supplied readable full PDF and relevant complete statements."
+    },
+    {
+      "description": "Search-only biological and discrete-map leads",
+      "limit": "Search hits about diffusion, delay, capped predation, discrete maps, replicators or random ecosystems are not treated as unrestricted D-stable ODE theorems. The apparently relevant capped-predation and piecewise-linear models were inspected in SWW25."
+    },
+    {
+      "description": "Misindexed older claim",
+      "limit": "A search result attributed a general D-stability implication to Hofbauer–Sigmund while linking an unrelated ResearchGate-hosted obstacle-diffraction PDF. This snippet was not used as mathematical evidence. The precise book attribution and explicit open formulation were read in LT93 and HP21."
+    }
+  ],
+  "status_search_ids": [
+    "S501-1",
+    "S501-2",
+    "S501-3",
+    "S501-4",
+    "S502-1",
+    "S502-2",
+    "S502-3",
+    "S502-4",
+    "S503-1",
+    "S503-2",
+    "S503-3",
+    "S503-4",
+    "S504-1",
+    "S504-2",
+    "S504-3",
+    "S504-4",
+    "S505-1",
+    "S505-2",
+    "S505-3",
+    "S505-4",
+    "S506-1",
+    "S506-2",
+    "S506-3",
+    "S506-4",
+    "A66-1",
+    "A66-2",
+    "A66-3",
+    "A66-4",
+    "A66-5",
+    "A66-6",
+    "A66-7",
+    "A66-8",
+    "S507-1",
+    "S507-2",
+    "S507-3",
+    "S507-4"
+  ],
+  "validation": {
+    "strict_katex_expressions": 16,
+    "render": "All 16 expressions passed strict KaTeX. Complete 1300x6000 Chrome screenshot inspected; formulas, references and final paragraphs visible without clipping.",
+    "external_links": "Four targets responded with valid PDF headers. Three publisher links returned cookie-error redirects; their identity/full-text readings are recorded separately, with inspected primary manuscript alternatives for HP21 and AKLS24. BH12 direct GET returned 403 while its full PDF was readable through the browser tool.",
+    "external_link_record": "research/expansion-2026-09/lotka-volterra-d-stable-global-attraction-link-check.json",
+    "local_links": "All four relative links resolve.",
+    "structure": "Required headings, citations, source IDs, search IDs, counts and research links checked. Catalogue validator passed all 360 existing entries; no active metadata changed."
+  }
+}

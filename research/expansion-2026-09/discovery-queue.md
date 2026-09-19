@@ -534,3 +534,12 @@ The log has 2,369 actual queries with distinct identifiers. Counts are 63 accept
 
 
 Publication receipt: [2175545](https://github.com/MColbrook/AIM/commit/2175545c8b77706aac5ca66d872fd37b477f02a4) was pushed directly to main on September 19, 2026; a separate remote-ref read matched the exact full commit. All three accepted pending drafts and their evidence are uploaded. Counts remain 63 accepted, 60 integrated catalogue additions, three pending drafts and 360 active entries.
+
+
+## September 19 ecological-stability and breadth discovery (S498–S507 and A66)
+
+The Hofbauer–Sigmund D-stable Lotka–Volterra candidate passed formulation, corroboration, resolution-scope, duplicate, separated A66 and technical checks. Its [accepted draft](drafts/lotka-volterra-d-stable-global-attraction.md) is the fourth pending addition. The [ledger](candidates/lotka-volterra-d-stable-global-attraction.json) records the stronger Lyapunov and qualitative-stability subclasses, equilibrium-exclusion theorem, backward-cycle structure, general Markus–Yamabe counterexample and additional split Lyapunov hypotheses. Dimensions and restricted interaction patterns remain one family.
+
+S498–S500's broader biology, control and inference searches remain discovery only except for this admitted candidate. Reaction-network recurrence overlaps entry 282 and is not a new addition. Other model leads still require exact formulations and current scope checks. The separate Carrasco discovery record remains unresolved; no additional candidate count is inferred.
+
+The log has 2,417 actual queries with unique identifiers. Counts are 64 accepted additions, 60 integrated/published, four pending drafts, six holds, 70 formal records and 360 active entries. Six further accepted drafts would form the next ten-entry batch. The minimum requires 136 further acceptances and 140 integrations; the working target requires 186 acceptances and 190 integrations. Next discovery group: S508; next separated review: A67.
