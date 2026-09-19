@@ -210,9 +210,13 @@
     {
       "commit": "1240ebfbdae361901472a7d33ca0baa7073c51cb",
       "purpose": "Integrate entries 341–350 with reviewed research, fresh status searches and validation; pushed directly to main and independently verified September 18, 2026."
+    },
+    {
+      "commit": "89cc7eb07875386f9912413f51573d6b253a9551",
+      "purpose": "Record held tensor-detection draft, theorem-scope audit, bibliography checks and discovery; pushed directly to main and exact remote commit separately verified September 18, 2026. No new accepted entry."
     }
   ],
-  "remote_state": "All fifty catalogue additions (301–350) and their research records are published directly on main. Batch 5 content commit 1240ebfbdae361901472a7d33ca0baa7073c51cb was pushed and verified through a separate remote-ref read on September 18, 2026.",
+  "remote_state": "All fifty catalogue additions (301–350) and their research records are published directly on main. Batch 5 content commit 1240ebfbdae361901472a7d33ca0baa7073c51cb was pushed and verified through a separate remote-ref read on September 18, 2026. The held tensor-detection research checkpoint 89cc7eb07875386f9912413f51573d6b253a9551 was also pushed directly to main and separately verified on September 18, 2026; accepted and published additions remain fifty.",
   "next_actions": [
     "Continue discovery in other distinct families. Tensor detection is held after A52 found a potentially matching sparse-parity theorem whose modulus and hierarchy-level scope require clarification; see spiked-tensor-scope-hold.md.",
     "Research and review the next ten-to-twenty-entry batch; refresh status and upstream duplicates before assigning permanent IDs. Fifty additions are published; at least 150 more are needed.",

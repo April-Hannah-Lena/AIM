@@ -100,7 +100,7 @@
     "quantifier_checks": "Fixed k and epsilon, one uniform classical polynomial-time algorithm, explicit finite input, vanishing sum of errors. One canonical family.",
     "application_check": "Higher-order noisy consistency testing; foundational inference role, no deterministic numerical-linear-algebra addition."
   },
-  "publication_state": "Held research draft; no active ID, no accepted or integrated count. Local checkpoint pending direct publication.",
+  "publication_state": "Held research draft and scope audit published directly to main in 89cc7eb07875386f9912413f51573d6b253a9551; exact remote commit verified through a separate remote-ref read on September 18, 2026. No active ID and no increase to accepted, integrated or published-problem counts.",
   "source_records": [
     {
       "source_id": "BH26",
@@ -461,5 +461,11 @@
     "bibliography_report": "research/expansion-2026-09/spiked-tensor-detection-hardness-link-check.json",
     "admission": "Not passed; held research record. Structural and rendering checks do not resolve the mathematical scope issue."
   },
-  "scope_hold_record": "research/expansion-2026-09/spiked-tensor-scope-hold.md"
+  "scope_hold_record": "research/expansion-2026-09/spiked-tensor-scope-hold.md",
+  "publication_receipt": {
+    "content_commit": "89cc7eb07875386f9912413f51573d6b253a9551",
+    "branch": "main",
+    "verified_on": "2026-09-18",
+    "verification": "Separate SSH ls-remote read matched the complete content commit."
+  }
 }
