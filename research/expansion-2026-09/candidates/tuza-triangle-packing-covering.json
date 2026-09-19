@@ -1,6 +1,6 @@
 {
   "candidate_id": "tuza-triangle-packing-covering",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "346",
   "title": "The factor-two relation between triangle deletion and packing",
   "decision": "accept_open",
   "decision_reason": "Full formulation, independent recent corroboration, source/model comparisons, duplicate review and separated A47 adversarial self-review passed; no unresolved material matching resolution claim located.",
@@ -64,13 +64,11 @@
     "verdict": "passed"
   },
   "remote_publication": {
-    "state": "published directly to main",
+    "state": "integrated_local_push_pending",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": "02e5ac183cddf5e1d4559a15394340353981baf3",
-    "verified_on": "2026-09-18",
-    "verification": "Successful direct push followed by a separate git ls-remote origin refs/heads/main returning 02e5ac183cddf5e1d4559a15394340353981baf3.",
-    "catalogue_state": "Accepted research draft only; no active ID or added integrated count."
+    "commit": null,
+    "pull_request_url": null
   },
   "actual_status_check_date": "2026-09-18",
   "applied_significance": "Foundational integral packing-covering optimization. A triangle-free edge-deletion budget is compared with the lower bound certified by edge-disjoint triangles; the triangle-incidence hypergraph makes the matching/covering relationship exact. No empirical network-performance or polynomial-time guarantee is claimed.",
@@ -368,10 +366,16 @@
   ],
   "prepublication_refresh": {
     "date": "2026-09-18",
+    "latest_target_commit": "aa3087c2cf59db1e30215f90301f356385ce163c",
     "resolution_searches_refreshed": true,
     "duplicate_review_refreshed": true,
-    "outcome": "Bounded SSH fetch completed; origin/main exactly equals the reviewed HEAD. No upstream additions or collisions.",
-    "latest_target_commit": "df5ab078496e7bb3a1f29bf4fdc3dd3930f41457"
+    "search_ids": [
+      "R5-11",
+      "R5-12"
+    ],
+    "outcome": "Recovered random-graph and maximum-degree-seven results already scoped. The new correction title concerns Tuza’s graph-saturation conjecture, as its publisher definition and abstract confirm. No all-graph triangle packing–covering resolution located.",
+    "upstream": "SSH fetch: HEAD equals origin/main. Connected GitHub confirms private MColbrook/AIM, main default and push permission. Paginated branch search contains only main; open-PR search returned none.",
+    "duplicate_scope": "Established complete baseline and 340 active entries; all ten pending draft statements reread with closest-family comparisons. No new upstream files or equivalent accepted target located."
   },
   "validation_results": [
     {
@@ -424,5 +428,21 @@
     "A47-7",
     "A47-8"
   ],
-  "draft_path": "research/expansion-2026-09/drafts/tuza-triangle-packing-covering.md"
+  "draft_path": "research/expansion-2026-09/drafts/tuza-triangle-packing-covering.md",
+  "prepublication_discovery_limits": [
+    "Calbet–Freschi, The Asymptotic Behaviour of sat(n,F), Electronic Journal of Combinatorics 33(3), P3.1 (July 3, 2026), DOI 10.37236/13055: publisher definition and full abstract read. Its flaw/correction concerns a saturation-number conjecture of Tuza, not triangle packing–covering. No full-proof review is claimed."
+  ],
+  "public_page_path": "problems/346-tuza-triangle-packing-covering.md",
+  "publication_state": "Accepted and integrated locally in batch 5; validation passed, direct push pending.",
+  "batch_validation": {
+    "state": "passed",
+    "date": "2026-09-18",
+    "batch": "expansion-2026-09-18-05",
+    "audit": "research/expansion-2026-09/batch-05-review.md",
+    "catalogue": "350 unique entries; generated index, metadata and required sections validated.",
+    "preservation": "Original 300 and all 340 prior published pages unchanged; prior metadata rows, dates and formatting retained.",
+    "math": "Strict KaTeX passed; public and archived-draft expressions match. Prior reviewed expressions unchanged; new scheduling and final coding pages visually inspected.",
+    "links": "717 relative links resolve; 88 bibliography targets have checked direct or alternate access routes.",
+    "counts": "50 accepted/integrated; 55 candidate records; five holds; 1808 distinct search IDs."
+  }
 }

@@ -1,8 +1,8 @@
-# Decidability of local asymptotic stability for polynomial ODEs
+# 349. Decidability of local asymptotic stability for polynomial ODEs
 
 **Area:** Nonlinear control and algorithmic verification
 
-**Status:** Accepted; integrated as entry 349
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -51,10 +51,8 @@ For homogeneous systems, [3, Theorem 4.3] gives a necessary and sufficient hiera
 
 Theorem 3 of [4] proves undecidability for a **discrete-time** system with ReLU feedback. Theorems 22–23 of [5] concern finite-time blow-up of a specified trajectory, with a different coefficient presentation. Neither inspected result supplies a reduction to the neighbourhood property above. The bounded, positive-tolerance decisions in [6] and the fixed-degree certificate searches in [7] likewise have different success criteria; Algorithm 9 explicitly allows failure to find a certificate.
 
-Unrestricted and recent resolution, counterexample, correction and version searches, theorem comparisons and access limits are recorded in the [evidence ledger](../candidates/polynomial-local-stability-decidability.json). Several sources are cited as exact preprint versions. Wiley's text conversion omitted formula images; its complete degree-bound and failure-branch prose was accessible. This review does not certify all cited proofs or rerun formalizations.
+Unrestricted and recent resolution, counterexample, correction and version searches, theorem comparisons and access limits are recorded in the [evidence ledger](../research/expansion-2026-09/candidates/polynomial-local-stability-decidability.json). Several sources are cited as exact preprint versions. Wiley's text conversion omitted formula images; its complete degree-bound and failure-branch prose was accessible. This review does not certify all cited proofs or rerun formalizations.
 
-The [arbitrary-switching problem](switched-linear-stability-decidability.md) concerns products of multiple linear maps in discrete time. [Generic static output feedback](../../../problems/330-generic-static-output-feedback-stabilization.md) concerns existence of a stabilizing gain, and [continuous Skolem](../../../problems/273-continuous-skolem-decidability.md) concerns a specified linear trajectory hitting a hyperplane. None states this nonlinear equilibrium decision problem. Global, homogeneous and fixed-degree variants are not counted separately.
+The [arbitrary-switching problem](343-switched-linear-stability-decidability.md) concerns products of multiple linear maps in discrete time. [Generic static output feedback](330-generic-static-output-feedback-stabilization.md) concerns existence of a stabilizing gain, and [continuous Skolem](273-continuous-skolem-decidability.md) concerns a specified linear trajectory hitting a hyperplane. None states this nonlinear equilibrium decision problem. Global, homogeneous and fixed-degree variants are not counted separately.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
-
-Integrated page: [349. Decidability of local asymptotic stability for polynomial ODEs](../../../problems/349-polynomial-local-stability-decidability.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../research/expansion-2026-09/batch-05-review.md). No matching later resolution was located.

@@ -1,6 +1,6 @@
 {
   "candidate_id": "binary-skew-symmetric-broadcast",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "347",
   "title": "Capacity of the binary skew-symmetric broadcast channel",
   "decision": "accept_open",
   "decision_reason": "Exact formulation, independent corroboration, full resolution-scope comparisons, duplicate review, separated A48 adversarial self-review and repository/rendering checks passed; no unresolved material matching resolution claim located.",
@@ -67,13 +67,11 @@
     ]
   },
   "remote_publication": {
-    "state": "published directly to main",
+    "state": "integrated_local_push_pending",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": "66617e03315b6184d0ec802ff7132d9cbf5bccc1",
-    "verified_on": "2026-09-18",
-    "verification": "Successful direct push followed by a separate git ls-remote origin refs/heads/main returning 66617e03315b6184d0ec802ff7132d9cbf5bccc1.",
-    "catalogue_state": "Accepted research draft only; no active ID or added integrated count."
+    "commit": null,
+    "pull_request_url": null
   },
   "actual_status_check_date": "2026-09-18",
   "draft_path": "research/expansion-2026-09/drafts/binary-skew-symmetric-broadcast.md",
@@ -374,10 +372,16 @@
   "open_status_evidence_summary": "Explicit fixed-channel formulation and independently authored scholarly corroboration; current and unrestricted proof/counterexample searches; full statement comparisons for later bounds and apparent capacity results. The June 2026 sum theorem and single-user acronym collision do not match this model.",
   "prepublication_refresh": {
     "date": "2026-09-18",
+    "latest_target_commit": "aa3087c2cf59db1e30215f90301f356385ce163c",
     "resolution_searches_refreshed": true,
     "duplicate_review_refreshed": true,
-    "outcome": "Bounded SSH fetch succeeded; origin/main equals the reviewed HEAD. No upstream additions or collisions.",
-    "latest_target_commit": "f9318cff12890aa9f504a97b19b7514afb5651ac"
+    "search_ids": [
+      "R5-13",
+      "R5-14"
+    ],
+    "outcome": "Recovered bound-evaluation, local-tensorization and acronym collisions already scoped in the ledger. Capacity Atlas is discovery only, not evidence for a Marton/UV equality. No fixed-channel capacity theorem located.",
+    "upstream": "SSH fetch: HEAD equals origin/main. Connected GitHub confirms private MColbrook/AIM, main default and push permission. Paginated branch search contains only main; open-PR search returned none.",
+    "duplicate_scope": "Established complete baseline and 340 active entries; all ten pending draft statements reread with closest-family comparisons. No new upstream files or equivalent accepted target located."
   },
   "validation_results": [
     {
@@ -404,5 +408,18 @@
       "check": "Whitespace and scope",
       "result": "git diff --cached --check passed for exactly eight reviewed research files. No active catalogue page, original identifier, historical review date, code or user handoff file changed."
     }
-  ]
+  ],
+  "public_page_path": "problems/347-binary-skew-symmetric-broadcast.md",
+  "publication_state": "Accepted and integrated locally in batch 5; validation passed, direct push pending.",
+  "batch_validation": {
+    "state": "passed",
+    "date": "2026-09-18",
+    "batch": "expansion-2026-09-18-05",
+    "audit": "research/expansion-2026-09/batch-05-review.md",
+    "catalogue": "350 unique entries; generated index, metadata and required sections validated.",
+    "preservation": "Original 300 and all 340 prior published pages unchanged; prior metadata rows, dates and formatting retained.",
+    "math": "Strict KaTeX passed; public and archived-draft expressions match. Prior reviewed expressions unchanged; new scheduling and final coding pages visually inspected.",
+    "links": "717 relative links resolve; 88 bibliography targets have checked direct or alternate access routes.",
+    "counts": "50 accepted/integrated; 55 candidate records; five holds; 1808 distinct search IDs."
+  }
 }

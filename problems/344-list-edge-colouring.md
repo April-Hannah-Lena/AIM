@@ -1,8 +1,8 @@
-# List edge-colouring with no extra colours
+# 344. List edge-colouring with no extra colours
 
 **Area:** Scheduling, resource allocation and graph colouring
 
-**Status:** Accepted; integrated as entry 344
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -55,12 +55,10 @@ The online result of Blikstad and coauthors requires additional colours; Theorem
 
 The separate adversarial review also checked Chang–Dolatabadi's September 9 distributed algorithm. Their Theorem 1 assumes lists of size at least $(3/2+\varepsilon)\Delta$ and, outside the bipartite case, sufficiently large maximum degree $\Delta$. Its communication-round guarantee does not remove this extra-colour requirement.
 
-The September 18 review included current and unrestricted proof, disproof, counterexample, correction and version searches. Exact reading locations and comparisons are in the [evidence ledger](../candidates/list-edge-colouring.json). The arXiv version history, rather than a regenerated date printed inside its HTML, dates the Bonamy–Delcourt–Lang–Postle manuscript.
+The September 18 review included current and unrestricted proof, disproof, counterexample, correction and version searches. Exact reading locations and comparisons are in the [evidence ledger](../research/expansion-2026-09/candidates/list-edge-colouring.json). The arXiv version history, rather than a regenerated date printed inside its HTML, dates the Bonamy–Delcourt–Lang–Postle manuscript.
 
-This is distinct from [three-processor precedence scheduling](../../../problems/312-three-processor-unit-scheduling.md), which asks about exact algorithmic complexity for jobs using one of three interchangeable processors. The present question is an existence guarantee for jobs requiring specified pairs of resources. Simple graphs, complete graphs and the equivalent index identity are included in this single entry.
+This is distinct from [three-processor precedence scheduling](312-three-processor-unit-scheduling.md), which asks about exact algorithmic complexity for jobs using one of three interchangeable processors. The present question is an existence guarantee for jobs requiring specified pairs of resources. Simple graphs, complete graphs and the equivalent index identity are included in this single entry.
 
 A separated adversarial self-pass passed on September 18, 2026. No independent agent or human review is claimed.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
-
-Integrated page: [344. List edge-colouring with no extra colours](../../../problems/344-list-edge-colouring.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../research/expansion-2026-09/batch-05-review.md). No matching later resolution was located.

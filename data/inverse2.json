@@ -214,5 +214,21 @@
     "file": "problems/330-generic-static-output-feedback-stabilization.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "343",
+    "title": "Decidability of stability under arbitrary switching",
+    "area": "Switched systems, robust control and formal verification",
+    "file": "problems/343-switched-linear-stability-decidability.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
+  },
+  {
+    "id": "349",
+    "title": "Decidability of local asymptotic stability for polynomial ODEs",
+    "area": "Nonlinear control and algorithmic verification",
+    "file": "problems/349-polynomial-local-stability-decidability.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
   }
 ]

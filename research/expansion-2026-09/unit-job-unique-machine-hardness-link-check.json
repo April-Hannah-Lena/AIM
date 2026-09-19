@@ -1,0 +1,40 @@
+{
+  "checked_on": "2026-09-18",
+  "method": "Direct HTTPS GET; up to 65536 response bytes inspected for document type/title and browser challenges; four concurrent workers.",
+  "links": [
+    {
+      "url": "https://arxiv.org/html/2105.00111v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2105.00111v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "On the Hardness of Scheduling With Non-Uniform Communication Delays"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.26590v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2607.26590v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Inapproximability of Unique-Machine Precedence Scheduling for Unit-Length Jobs"
+    },
+    {
+      "url": "https://doi.org/10.1137/1.9781611977073.15",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol261-icalp2023/LIPIcs.ICALP.2023.98/LIPIcs.ICALP.2023.98.pdf",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol261-icalp2023/LIPIcs.ICALP.2023.98/LIPIcs.ICALP.2023.98.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://par.nsf.gov/servlets/purl/10342245",
+      "status": 200,
+      "final_url": "https://par.nsf.gov/servlets/purl/10342245",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    }
+  ]
+}

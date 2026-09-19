@@ -1,6 +1,6 @@
 {
   "candidate_id": "reed-colouring",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "348",
   "title": "Reed's bound for the chromatic number",
   "decision": "accept_open",
   "decision_reason": "Explicit full formulation and independently authored current corroboration, exact-scope and duplicate checks, separated A49 self-review, bibliography checks and rendering passed. No unresolved material matching resolution claim located; accepted as one draft pending batch integration.",
@@ -345,5 +345,38 @@
     "commit_url": "https://github.com/MColbrook/AIM/commit/e49b24d6fcd6fa3be767df39595fd8ca08062445",
     "pushed_on": "2026-09-18",
     "remote_verification": "Separate ls-remote read returned the exact full content commit after the successful direct push."
+  },
+  "public_page_path": "problems/348-reed-colouring.md",
+  "prepublication_refresh": {
+    "date": "2026-09-18",
+    "latest_target_commit": "aa3087c2cf59db1e30215f90301f356385ce163c",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R5-15",
+      "R5-16"
+    ],
+    "outcome": "Recovered restricted-graph, recolouring, directed and namesake conjectures. No matching proof or counterexample to the ordinary all-graph half-sum bound located; current September-version scope and correction caveats remain in the ledger.",
+    "upstream": "SSH fetch: HEAD equals origin/main. Connected GitHub confirms private MColbrook/AIM, main default and push permission. Paginated branch search contains only main; open-PR search returned none.",
+    "duplicate_scope": "Established complete baseline and 340 active entries; all ten pending draft statements reread with closest-family comparisons. No new upstream files or equivalent accepted target located."
+  },
+  "publication_state": "Accepted and integrated locally in batch 5; validation passed, direct push pending.",
+  "remote_publication": {
+    "state": "integrated_local_push_pending",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "batch_validation": {
+    "state": "passed",
+    "date": "2026-09-18",
+    "batch": "expansion-2026-09-18-05",
+    "audit": "research/expansion-2026-09/batch-05-review.md",
+    "catalogue": "350 unique entries; generated index, metadata and required sections validated.",
+    "preservation": "Original 300 and all 340 prior published pages unchanged; prior metadata rows, dates and formatting retained.",
+    "math": "Strict KaTeX passed; public and archived-draft expressions match. Prior reviewed expressions unchanged; new scheduling and final coding pages visually inspected.",
+    "links": "717 relative links resolve; 88 bibliography targets have checked direct or alternate access routes.",
+    "counts": "50 accepted/integrated; 55 candidate records; five holds; 1808 distinct search IDs."
   }
 }

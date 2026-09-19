@@ -1,8 +1,8 @@
-# Capacity of the binary skew-symmetric broadcast channel
+# 347. Capacity of the binary skew-symmetric broadcast channel
 
 **Area:** Network information theory and broadcast communication
 
-**Status:** Accepted; integrated as entry 347
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -57,10 +57,8 @@ The established information inequality in [3, 4] evaluates Marton's achievable s
 
 The local tensorization result [2] concerns products of local optimizers and does not establish the global optimality needed for a capacity theorem. The algorithms in [1] evaluate inner and outer bounds under stated convergence hypotheses; they do not prove that a bound equals capacity. The June 2026 exact-capacity theorem [7] requires a disjoint sum of component channels, with the component identifiable from either output. From the matrices above, both inputs can produce $Y=0$, and both can produce $Z=1$. Thus this BSSC fails the theorem's output-disjointness requirement for a nontrivial sum.
 
-The September 18, 2026 investigation covered channel aliases, the exact matrices and coding model, current and unrestricted resolution searches, author publications, revisions and corrections. The withdrawn 2009 preprint was replaced by version 3; the later combined journal article [4] supplies the same pertinent inequality and bound evaluations. Bibliography access limitations and the complete theorem comparisons are recorded in the [evidence ledger](../candidates/binary-skew-symmetric-broadcast.json). A separated adversarial self-pass checked the newer version of [7] and distinguished a solved single-user channel with the same acronym. No independent agent or human review has occurred.
+The September 18, 2026 investigation covered channel aliases, the exact matrices and coding model, current and unrestricted resolution searches, author publications, revisions and corrections. The withdrawn 2009 preprint was replaced by version 3; the later combined journal article [4] supplies the same pertinent inequality and bound evaluations. Bibliography access limitations and the complete theorem comparisons are recorded in the [evidence ledger](../research/expansion-2026-09/candidates/binary-skew-symmetric-broadcast.json). A separated adversarial self-pass checked the newer version of [7] and distinguished a solved single-user channel with the same acronym. No independent agent or human review has occurred.
 
-This is one canonical channel problem. [Entry 310](../../../problems/310-gaussian-broadcast-feedback.md) has continuous Gaussian outputs, a power constraint and causal feedback. [Entry 142](../../../problems/142-binary-multiplying-two-way-capacity.md) concerns interactive two-way transmission, while [entry 143](../../../problems/143-gaussian-relay-capacity.md) has a cooperating relay. The [binary-code rate problem](binary-code-asymptotic-rate.md) requires worst-case codeword separation rather than vanishing average error on this broadcast channel. Other BSSC crossover probabilities and scalar objectives are not counted separately.
+This is one canonical channel problem. [Entry 310](310-gaussian-broadcast-feedback.md) has continuous Gaussian outputs, a power constraint and causal feedback. [Entry 142](142-binary-multiplying-two-way-capacity.md) concerns interactive two-way transmission, while [entry 143](143-gaussian-relay-capacity.md) has a cooperating relay. The [binary-code rate problem](342-binary-code-asymptotic-rate.md) requires worst-case codeword separation rather than vanishing average error on this broadcast channel. Other BSSC crossover probabilities and scalar objectives are not counted separately.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
-
-Integrated page: [347. Capacity of the binary skew-symmetric broadcast channel](../../../problems/347-binary-skew-symmetric-broadcast.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../research/expansion-2026-09/batch-05-review.md). No matching later resolution was located.

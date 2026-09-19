@@ -14489,5 +14489,461 @@
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
     "review_stage": "Separated adversarial self-pass after the complete draft: exact inputs, stability notions, missed algorithms, resolutions and corrections. No independent reviewer.",
     "candidate_id": "polynomial-local-stability-decidability"
+  },
+  {
+    "search_id": "S389-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"three machines\" \"unit\" \"precedence\" open problem 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery; three-processor model already covered by entry 312. UMPS appeared as a separate lead."
+  },
+  {
+    "search_id": "S389-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"P3\" \"prec\" \"complexity\" scheduling open",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery; three-processor model already covered by entry 312. UMPS appeared as a separate lead."
+  },
+  {
+    "search_id": "S389-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"precedence constrained scheduling\" \"unit\" \"fixed\" 2025 2026 NP-hard",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Discovery; three-processor model already covered by entry 312. UMPS appeared as a separate lead."
+  },
+  {
+    "search_id": "S390-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Inapproximability of Unique-Machine Precedence Scheduling for Unit-Length Jobs\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary-source discovery and resolution/status searches before drafting.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "S390-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"UMPS\" \"Conjecture 2\" Davies Kulkarni Rothvoss Sandeep Tarnawski Zhang",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary-source discovery and resolution/status searches before drafting.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "S390-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"unique-machine precedence scheduling\" conjecture solved proof 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary-source discovery and resolution/status searches before drafting.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "S391-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "Davies Kulkarni Rothvoss Sandeep Tarnawski Zhang \"Unique-Machine\" 2022 conjecture",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary-source discovery and resolution/status searches before drafting.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "S391-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"unique machine precedence scheduling\" \"Conjecture 2\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary-source discovery and resolution/status searches before drafting.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "S392-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"UMPS\" conjecture polynomial hardness proved solved 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary-source discovery and resolution/status searches before drafting.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "S392-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"unique-machine precedence\" approximation 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary-source discovery and resolution/status searches before drafting.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "S392-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"unique machine precedence\" \"counterexample\" OR \"disproof\" OR \"refutation\"",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary-source discovery and resolution/status searches before drafting.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "S392-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Guruswami\" \"Ren\" \"Tang\" \"2607.26590\" correction erratum withdrawal",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Primary-source discovery and resolution/status searches before drafting.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "S393-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"UMPS\" \"n^\" \"hard\" 2026 proof",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Resolution, algorithm and correction search before drafting. Acronym collisions are not status evidence.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "S393-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"unique-machine precedence scheduling\" solved algorithm",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Resolution, algorithm and correction search before drafting. Acronym collisions are not status evidence.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "S393-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Davies\" \"non-uniform communication delays\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Resolution, algorithm and correction search before drafting. Acronym collisions are not status evidence.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "S393-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"UMPS\" scheduling approximation counterexample refutation 2024 2025 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Resolution, algorithm and correction search before drafting. Acronym collisions are not status evidence.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "A51-1",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Unique Machine Precedence\" \"polynomial\" \"approximation\" proof",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Separated adversarial self-review after drafting; no independent reviewer.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "A51-2",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"unit-length UMPS\" algorithm solved",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Separated adversarial self-review after drafting; no independent reviewer.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "A51-3",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"UMPS\" \"subpolynomial\" scheduling",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Separated adversarial self-review after drafting; no independent reviewer.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "A51-4",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"2607.26590\" correction erratum",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Separated adversarial self-review after drafting; no independent reviewer.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "A51-5",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"unique-machine\" \"precedence\" \"hardness\" September 2026",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Separated adversarial self-review after drafting; no independent reviewer.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "A51-6",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"UMPS\" \"conjecture\" disproof refutation counterexample",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Separated adversarial self-review after drafting; no independent reviewer.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "A51-7",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"On the Hardness of Scheduling With Non-Uniform Communication Delays\" \"correction\"",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Separated adversarial self-review after drafting; no independent reviewer.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "A51-8",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "query": "\"Unique Machines Precedence\" \"approximation\" randomized",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Separated adversarial self-review after drafting; no independent reviewer.",
+    "candidate_id": "unit-job-unique-machine-hardness"
+  },
+  {
+    "search_id": "R5-1",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"strong matroid secretary\" \"e\" conjecture proof 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-2",
+    "candidate_id": "sharp-matroid-secretary",
+    "query": "\"matroid secretary\" \"1/e\" counterexample correction",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-3",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"binary codes\" \"asymptotic\" rate distance \"2026\" Gilbert Varshamov",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-4",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"binary code\" \"asymptotic bound\" solved breakthrough",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-5",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"strict\" decidability 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-6",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"absolute asymptotic stability\" \"undecidable\" matrices 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-7",
+    "candidate_id": "list-edge-colouring",
+    "query": "\"list edge colouring conjecture\" proof disproof 2026 September",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-8",
+    "candidate_id": "list-edge-colouring",
+    "query": "\"list chromatic index\" \"conjecture\" counterexample solved",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-9",
+    "candidate_id": "chemostat-unequal-removal-exclusion",
+    "query": "\"chemostat\" \"competitive exclusion\" \"unequal\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-10",
+    "candidate_id": "chemostat-unequal-removal-exclusion",
+    "query": "\"Hsu\" \"chemostat\" conjecture global stability solved",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-11",
+    "candidate_id": "tuza-triangle-packing-covering",
+    "query": "\"Tuza\" conjecture proof counterexample September 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-12",
+    "candidate_id": "tuza-triangle-packing-covering",
+    "query": "\"triangle packing\" \"triangle covering\" \"Tuza\" solved",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-13",
+    "candidate_id": "binary-skew-symmetric-broadcast",
+    "query": "\"binary skew-symmetric broadcast channel\" capacity solved 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-14",
+    "candidate_id": "binary-skew-symmetric-broadcast",
+    "query": "\"BSSC\" \"capacity\" \"Marton\" correction proof",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-15",
+    "candidate_id": "reed-colouring",
+    "query": "\"Reed conjecture\" coloring proof disproof September 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-16",
+    "candidate_id": "reed-colouring",
+    "query": "\"Reed\" \"chromatic\" \"conjecture\" correction counterexample 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-17",
+    "candidate_id": "polynomial-local-stability-decidability",
+    "query": "\"polynomial vector fields\" \"local asymptotic stability\" decidable undecidable 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-18",
+    "candidate_id": "polynomial-local-stability-decidability",
+    "query": "\"polynomial\" \"local stability\" \"decidability\" algorithm proof",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-19",
+    "candidate_id": "unit-job-unique-machine-hardness",
+    "query": "\"unit-length\" \"UMPS\" \"hardness\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-20",
+    "candidate_id": "unit-job-unique-machine-hardness",
+    "query": "\"unique-machine precedence\" polynomial approximation solved",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-21",
+    "candidate_id": "binary-code-asymptotic-rate",
+    "query": "\"asymptotic\" \"binary codes\" \"rate\" 2026 exact",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-22",
+    "candidate_id": "switched-linear-stability-decidability",
+    "query": "\"joint spectral radius\" \"decidability\" strict 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-23",
+    "candidate_id": "chemostat-unequal-removal-exclusion",
+    "query": "\"chemostat\" \"different removal rates\" conjecture 2026 2025",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-24",
+    "candidate_id": "list-edge-colouring",
+    "query": "\"list edge\" conjecture proof 2026 September multigraph",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-25",
+    "candidate_id": "chemostat-unequal-removal-exclusion",
+    "query": "\"Mortality can induce limit cycles\" chemostat",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-26",
+    "candidate_id": "polynomial-local-stability-decidability",
+    "query": "\"polynomial vector field\" \"stability\" \"decidable\" 2026",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
+  },
+  {
+    "search_id": "R5-27",
+    "candidate_id": "chemostat-unequal-removal-exclusion",
+    "query": "\"Mortality can induce limit cycles\" site:link.springer.com",
+    "searched_on": "2026-09-18",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal dates where shown",
+    "review_stage": "Immediate prepublication status refresh for batch 5"
   }
 ]

@@ -1,8 +1,8 @@
-# Reed's bound for the chromatic number
+# 348. Reed's bound for the chromatic number
 
 **Area:** Combinatorial optimization and conflict scheduling
 
-**Status:** Accepted; integrated as entry 348
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -45,10 +45,8 @@ King–Reed prove the exact bound for claw-free graphs, meaning graphs with no i
 
 The July 2026 directed theorem [3, Theorem 7] requires the degree parameter to exceed a threshold depending on a fixed integer $b$. Restriction to symmetric digraphs yields the older large-degree statement in Corollary 3, not the uniform assertion in Conjecture 4 equivalent to Reed's bound. The September revision [6, Theorem 1.7] gives a positive interpolation coefficient for all digraphs; the following discussion explicitly distinguishes it from the conjectured one-half coefficient. No directed variant or graph subclass is counted separately.
 
-The review covered unrestricted and recent proof, disproof, counterexample, correction and version searches. Source locations, namesake resolution claims and access limits are in the [evidence record](../candidates/reed-colouring.json). Regenerated dates printed inside older documents were not treated as revision dates.
+The review covered unrestricted and recent proof, disproof, counterexample, correction and version searches. Source locations, namesake resolution claims and access limits are in the [evidence record](../research/expansion-2026-09/candidates/reed-colouring.json). Regenerated dates printed inside older documents were not treated as revision dates.
 
-This differs from [rapid sampling of proper colourings](../../../problems/279-coloring-glauber-threshold.md), which concerns mixing with at least $\Delta+2$ colours, and from [list edge-colouring](list-edge-colouring.md), which asks for a guarantee under arbitrary lists on edges. The [triangle packing–covering question](tuza-triangle-packing-covering.md) compares edge deletion and packing optima.
+This differs from [rapid sampling of proper colourings](279-coloring-glauber-threshold.md), which concerns mixing with at least $\Delta+2$ colours, and from [list edge-colouring](344-list-edge-colouring.md), which asks for a guarantee under arbitrary lists on edges. The [triangle packing–covering question](346-tuza-triangle-packing-covering.md) compares edge deletion and packing optima.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
-
-Integrated page: [348. Reed's bound for the chromatic number](../../../problems/348-reed-colouring.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../research/expansion-2026-09/batch-05-review.md). No matching later resolution was located.

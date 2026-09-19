@@ -1,0 +1,657 @@
+{
+  "checked_on": "2026-09-18",
+  "method": "Direct HTTPS GET; up to 65536 response bytes inspected for document type/title and browser challenges; six concurrent workers.",
+  "links": [
+    {
+      "url": "https://arxiv.org/abs/1005.3611v2",
+      "error": "HTTP Error 406: Not Acceptable",
+      "web_reader_refresh": "Exact-version abstract page reopened. Exact-version PDF route returned a cache miss, while the canonical PDF opened and its header explicitly identifies arXiv:1005.3611v2, July 28, 2011.",
+      "accessible_alternative": "https://arxiv.org/pdf/1005.3611"
+    },
+    {
+      "url": "https://arxiv.org/abs/1606.01592v5",
+      "error": "HTTP Error 406: Not Acceptable",
+      "web_reader_refresh": "Exact-version abs and PDF routes returned cache misses. The canonical abstract page and its PDF opened successfully; the PDF header explicitly identifies arXiv:1606.01592v5, June 12, 2017.",
+      "accessible_alternative": "https://arxiv.org/pdf/1606.01592"
+    },
+    {
+      "url": "https://arxiv.org/abs/1711.06928",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/1711.06928",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 39096,
+      "html_title": "[1711.06928] A new proof of the competitive exclusion principle in the chemostat"
+    },
+    {
+      "url": "https://arxiv.org/abs/1802.01997",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/1802.01997",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 42778,
+      "html_title": "[1802.01997] Strong Algorithms for the Ordinal Matroid Secretary Problem"
+    },
+    {
+      "url": "https://arxiv.org/abs/2111.04114",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2111.04114",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 41804,
+      "html_title": "[2111.04114] Formal Barriers to Simple Algorithms for the Matroid Secretary Problem"
+    },
+    {
+      "url": "https://arxiv.org/abs/math/0404325",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/math/0404325",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 41539,
+      "html_title": "[math/0404325] Asymptotic Improvement of the Gilbert-Varshamov Bound on the Size of Binary Codes"
+    },
+    {
+      "url": "https://arxiv.org/html/0901.1492v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/0901.1492v3",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "An information inequality for the BSSC channel"
+    },
+    {
+      "url": "https://arxiv.org/html/1704.07462v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/1704.07462v3",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Polynomial Norms"
+    },
+    {
+      "url": "https://arxiv.org/html/1810.06704v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/1810.06704v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Colouring Graphs with Sparse Neighbourhoods:Bounds and Applications"
+    },
+    {
+      "url": "https://arxiv.org/html/1812.10309v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/1812.10309v3",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Efficiently list-edge coloring multigraphs asymptotically optimally"
+    },
+    {
+      "url": "https://arxiv.org/html/2007.04351v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2007.04351v2",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Tuza’s conjecture for random graphs"
+    },
+    {
+      "url": "https://arxiv.org/html/2007.14944v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2007.14944v2",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Edge-colouring graphs with local list sizes"
+    },
+    {
+      "url": "https://arxiv.org/html/2008.07344v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2008.07344v2",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Approximate Hypergraph Vertex Cover and generalized Tuza’s conjecture"
+    },
+    {
+      "url": "https://arxiv.org/html/2102.02273v5",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2102.02273v5",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Stability and performance verification of dynamical systems controlled by neural networks: algorithms and complexity"
+    },
+    {
+      "url": "https://arxiv.org/html/2105.00111v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2105.00111v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "On the Hardness of Scheduling With Non-Uniform Communication Delays"
+    },
+    {
+      "url": "https://arxiv.org/html/2201.09850v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2201.09850v3",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Growth of bilinear maps III: Decidability"
+    },
+    {
+      "url": "https://arxiv.org/html/2302.12914v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2302.12914v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Vizing’s conjecture holds"
+    },
+    {
+      "url": "https://arxiv.org/html/2307.12094v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2307.12094v3",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Multigraph edge-coloring with local list sizes"
+    },
+    {
+      "url": "https://arxiv.org/html/2308.05244v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2308.05244v2",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "A Hybrid Approach to Joint Spectral Radius Computation"
+    },
+    {
+      "url": "https://arxiv.org/html/2402.18339v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2402.18339v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Online Edge Coloring is (Nearly) as Easy as Offline"
+    },
+    {
+      "url": "https://arxiv.org/html/2407.05827v4",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2407.05827v4",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "An analogue of Reed’s conjecture for digraphs"
+    },
+    {
+      "url": "https://arxiv.org/html/2601.18590v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2601.18590v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Improvement of the Gilbert-Varshamov Bound for Linear Codes and Quantum Codes"
+    },
+    {
+      "url": "https://arxiv.org/html/2606.09736v1",
+      "error": "HTTP Error 406: Not Acceptable",
+      "web_reader_refresh": "Exact bibliography target reopened successfully through the web reader on September 18, 2026."
+    },
+    {
+      "url": "https://arxiv.org/html/2606.12839v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2606.12839v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "The Capacity Region for Classes of Sum-Broadcast Channels"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.00637v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2607.00637v2",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Iterative graph lifting for automatic design of path-complete stability certificates"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.06928v1",
+      "error": "HTTP Error 406: Not Acceptable",
+      "web_reader_refresh": "Exact bibliography target reopened successfully through the web reader on September 18, 2026."
+    },
+    {
+      "url": "https://arxiv.org/html/2607.16171v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2607.16171v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "A Globally Asymptotically Stable Planar Homogeneous Polynomial Vector Field With No Polynomial Lyapunov Function"
+    },
+    {
+      "url": "https://arxiv.org/html/2607.26590v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2607.26590v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Inapproximability of Unique-Machine Precedence Scheduling for Unit-Length Jobs"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.06538v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.06538v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Tuza’s conjecture for graphs of maximum degree at most seven"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.09347v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.09347v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Binary code rate bounds via classical–quantum channels"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.20287v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.20287v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "The Honeycomb Framework for Code Bounds"
+    },
+    {
+      "url": "https://arxiv.org/html/2608.22895v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2608.22895v2",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "The List Edge-Coloring Conjecture forNew Infinite Families"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.01860v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2609.01860v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Comments on the recent improvements of the MRRW bounds"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.03736v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2609.03736v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "The half-rate linear programming bound for binary codes is {1/2}-{1/𝜋}"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.10044v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2609.10044v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Introvert Clustering for Distributed Graph Algorithms"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.14555v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2609.14555v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "The Matroid Secretary Conjecture is True"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.19016v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2609.19016v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Secretary Problems with Interactive Ordinal Queries"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.19118v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2609.19118v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "On the Strong Matroid Secretary Conjecture and Beyond"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.20797v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2609.20797v1",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "The Strong Secretary Conjecture is True for Linear Matroids"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1212.3036v1",
+      "error": "HTTP Error 406: Not Acceptable",
+      "web_reader_refresh": "Exact bibliography target reopened successfully through the web reader on September 18, 2026."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1308.6833v1",
+      "error": "HTTP Error 406: Not Acceptable",
+      "web_reader_refresh": "Exact bibliography target reopened successfully through the web reader on September 18, 2026."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1404.7169v4",
+      "error": "HTTP Error 406: Not Acceptable",
+      "web_reader_refresh": "Exact bibliography target reopened successfully through the web reader on September 18, 2026."
+    },
+    {
+      "url": "https://arxiv.org/pdf/1408.4870v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1408.4870v2",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://arxiv.org/pdf/1803.01877v4",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1803.01877v4",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://arxiv.org/pdf/2007.07874v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2007.07874v3",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://arxiv.org/pdf/2501.08011v1",
+      "error": "HTTP Error 406: Not Acceptable",
+      "web_reader_refresh": "Exact bibliography target reopened successfully through the web reader on September 18, 2026."
+    },
+    {
+      "url": "https://arxiv.org/pdf/2602.04403v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2602.04403v1",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "status": 200,
+      "final_url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://chandra.ie.cuhk.edu.hk/pub/papers/BC/GK-outer.pdf",
+      "status": 200,
+      "final_url": "https://chandra.ie.cuhk.edu.hk/pub/papers/BC/GK-outer.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://chandra.ie.cuhk.edu.hk/pub/papers/BC/inineq.pdf",
+      "status": 200,
+      "final_url": "https://chandra.ie.cuhk.edu.hk/pub/papers/BC/inineq.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://doi.org/10.1016/j.disc.2025.114420",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0012365X25000287",
+      "content_type": "text/html;charset=UTF-8",
+      "sample_bytes": 2660,
+      "html_title": "Redirecting"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jctb.2023.10.010",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S009589562300093X",
+      "content_type": "text/html;charset=UTF-8",
+      "sample_bytes": 2657,
+      "html_title": "Redirecting"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.laa.2025.06.024",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0024379525002836",
+      "content_type": "text/html;charset=UTF-8",
+      "sample_bytes": 2668,
+      "html_title": "Redirecting"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.nonrwa.2025.104509",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1468121825001919",
+      "content_type": "text/html;charset=UTF-8",
+      "sample_bytes": 2661,
+      "html_title": "Redirecting"
+    },
+    {
+      "url": "https://doi.org/10.1017/S0963548316000067",
+      "status": 200,
+      "final_url": "https://www.cambridge.org/core/journals/combinatorics-probability-and-computing/article/abs/tuzas-conjecture-is-asymptotically-tight-for-dense-graphs/14C03274ADF24F51444023CD4B3892F9",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Tuza's Conjecture is Asymptotically Tight for Dense Graphs | Combinatorics, Probability and Computing | Cambridge Core"
+    },
+    {
+      "url": "https://doi.org/10.1109/TIT.2004.831751",
+      "status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/1317112/",
+      "content_type": "text/html; charset=UTF-8",
+      "sample_bytes": 0,
+      "accessible_alternative": "https://arxiv.org/abs/math/0404325",
+      "alternative_check": "Matching author/institutional full-text route on the same page returned HTTP 200 in this batch."
+    },
+    {
+      "url": "https://doi.org/10.1109/TIT.2021.3128136",
+      "status": 202,
+      "final_url": "https://ieeexplore.ieee.org/document/9615041/",
+      "content_type": "text/html; charset=UTF-8",
+      "sample_bytes": 0,
+      "accessible_alternative": "https://staff.ie.cuhk.edu.hk/~cnair/pub/papers/NIT/Auxiliary-Receiver.pdf",
+      "alternative_check": "Matching author/institutional full-text route on the same page returned HTTP 200 in this batch."
+    },
+    {
+      "url": "https://doi.org/10.1137/1.9781611977073.15",
+      "error": "HTTP Error 403: Forbidden",
+      "accessible_alternative": "https://par.nsf.gov/servlets/purl/10342245",
+      "alternative_check": "Matching author/institutional full-text route on the same page returned HTTP 200 in this batch."
+    },
+    {
+      "url": "https://doi.org/10.1137/18M1172843",
+      "error": "HTTP Error 403: Forbidden",
+      "accessible_alternative": "https://arxiv.org/html/1704.07462v3",
+      "alternative_check": "Matching author/institutional full-text route on the same page returned HTTP 200 in this batch."
+    },
+    {
+      "url": "https://doi.org/10.1137/23M1570351",
+      "error": "HTTP Error 403: Forbidden",
+      "accessible_alternative": "https://arxiv.org/html/2008.07344v2",
+      "alternative_check": "Matching author/institutional full-text route on the same page returned HTTP 200 in this batch."
+    },
+    {
+      "url": "https://doi.org/10.1287/moor.2020.1083",
+      "error": "HTTP Error 403: Forbidden",
+      "accessible_alternative": "https://arxiv.org/abs/1802.01997",
+      "alternative_check": "Matching author/institutional full-text route on the same page returned HTTP 200 in this batch."
+    },
+    {
+      "url": "https://doi.org/10.19086/aic.2022.7",
+      "status": 200,
+      "final_url": "https://www.advancesincombinatorics.com/article/38107-an-improved-procedure-for-colouring-graphs-of-bounded-local-density",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "An improved procedure for colouring graphs of bounded local density | Published in Advances in Combinatorics"
+    },
+    {
+      "url": "https://doi.org/10.3390/e26030178",
+      "error": "HTTP Error 403: Forbidden",
+      "accessible_alternative": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10969477/fullTextXML",
+      "alternative_check": "Matching author/institutional full-text route on the same page returned HTTP 200 in this batch."
+    },
+    {
+      "url": "https://doi.org/10.3934/mbe.2011.8.827",
+      "status": 200,
+      "final_url": "http://www.aimspress.com/article/10.3934/mbe.2011.8.827",
+      "content_type": "text/html;charset=UTF-8",
+      "sample_bytes": 60705,
+      "html_title": "Global dynamics of the chemostat with different removal rates and variable yields"
+    },
+    {
+      "url": "https://doi.org/10.4230/LIPIcs.ESA.2025.52",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ESA.2025.52",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Beating Competitive Ratio 4 for Graphic Matroid Secretary"
+    },
+    {
+      "url": "https://doi.org/10.4230/LIPIcs.ITCS.2022.51",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2022.51",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "A Complete Linear Programming Hierarchy for Linear Codes"
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol261-icalp2023/LIPIcs.ICALP.2023.98/LIPIcs.ICALP.2023.98.pdf",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol261-icalp2023/LIPIcs.ICALP.2023.98/LIPIcs.ICALP.2023.98.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://emis.de/ft/30050",
+      "status": 200,
+      "final_url": "https://emis.de/ft/30050",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://github.com/BakeLab/Epi-results/blob/97fa6a420f417458e11723c8bceb70f1529e447a/mathematics/tuza/PROOF.md",
+      "status": 200,
+      "final_url": "https://github.com/BakeLab/Epi-results/blob/97fa6a420f417458e11723c8bceb70f1529e447a/mathematics/tuza/PROOF.md",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Epi-results/mathematics/tuza/PROOF.md at 97fa6a420f417458e11723c8bceb70f1529e447a · BakeLab/Epi-results · GitHub"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00028-025-01060-2",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s00028-025-01060-2?error=cookies_not_supported&code=b21733c2-62fd-406b-a5d4-8b953cab129c",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Epidemic models in measure spaces: persistence, concentration and oscillations | Journal of Evolution Equations | Springer Nature Link"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/2013/146137",
+      "error": "HTTP Error 403: Forbidden",
+      "web_reader_refresh": "Exact bibliography target reopened successfully through the web reader on September 18, 2026."
+    },
+    {
+      "url": "https://par.nsf.gov/servlets/purl/10342245",
+      "status": 200,
+      "final_url": "https://par.nsf.gov/servlets/purl/10342245",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://perso.uclouvain.be/raphael.jungers/sites/default/files/kcfinder/files/book.pdf",
+      "error": "<urlopen error timed out>",
+      "web_reader_refresh": "Exact bibliography target reopened successfully through the web reader on September 18, 2026."
+    },
+    {
+      "url": "https://perso.uclouvain.be/vincent.blondel/publications/08JB.pdf",
+      "status": 200,
+      "final_url": "https://perso.uclouvain.be/vincent.blondel/publications/08JB.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10969477/",
+      "status": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10969477/",
+      "content_type": "text/html; charset=utf-8",
+      "sample_bytes": 65536,
+      "html_title": "Blahut–Arimoto Algorithms for Inner and Outer Bounds on Capacity Regions of Broadcast Channels - PMC"
+    },
+    {
+      "url": "https://sapientia.ualg.pt/bitstreams/5e035076-6f0c-4622-980d-14060d6c33a4/download",
+      "error": "HTTP Error 403: Forbidden",
+      "web_reader_refresh": "Exact bibliography target reopened successfully through the web reader on September 18, 2026."
+    },
+    {
+      "url": "https://sites.math.rutgers.edu/~jkahn/LMULTI.pdf",
+      "status": 200,
+      "final_url": "https://sites.math.rutgers.edu/~jkahn/LMULTI.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://staff.ie.cuhk.edu.hk/~cnair/pub/papers/BC/loc-ten-bin.pdf",
+      "status": 200,
+      "final_url": "https://staff.ie.cuhk.edu.hk/~cnair/pub/papers/BC/loc-ten-bin.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://staff.ie.cuhk.edu.hk/~cnair/pub/papers/NIT/Auxiliary-Receiver.pdf",
+      "status": 200,
+      "final_url": "https://staff.ie.cuhk.edu.hk/~cnair/pub/papers/NIT/Auxiliary-Receiver.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://staff.ie.cuhk.edu.hk/~cnair/pub/publications.html",
+      "status": 200,
+      "final_url": "https://staff.ie.cuhk.edu.hk/~cnair/pub/publications.html",
+      "content_type": "text/html; charset=UTF-8",
+      "sample_bytes": 39974,
+      "html_title": "Publications – Prof. Chandra Nair"
+    },
+    {
+      "url": "https://www.aimspress.com/aimspress-data/mbe/2011/3/PDF/1551-0018_2011_3_827.pdf",
+      "status": 200,
+      "final_url": "https://www.aimspress.com/aimspress-data/mbe/2011/3/PDF/1551-0018_2011_3_827.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10969477/fullTextXML",
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10969477/fullTextXML",
+      "content_type": "application/xml",
+      "sample_bytes": 65536,
+      "html_title": "1. Introduction"
+    },
+    {
+      "url": "https://www.math.nthu.edu.tw/~sbhsu/0416.pdf",
+      "status": 200,
+      "final_url": "https://www.math.nthu.edu.tw/~sbhsu/0416.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://www.math.nthu.edu.tw/~sbhsu/7-26-2019final%20lecture1-6.pdf",
+      "status": 200,
+      "final_url": "https://www.math.nthu.edu.tw/~sbhsu/7-26-2019final%20lecture1-6.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://www.math.nthu.edu.tw/~sbhsu/FiedlerHsu_08_04_25_%282%29.pdf",
+      "status": 200,
+      "final_url": "https://www.math.nthu.edu.tw/~sbhsu/FiedlerHsu_08_04_25_%282%29.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://www.math.tau.ac.il/~krivelev/2.pdf",
+      "status": 200,
+      "final_url": "https://www.math.tau.ac.il/~krivelev/2.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://www.mit.edu/~jnt/Papers/J081-00-vb-products.pdf",
+      "status": 200,
+      "final_url": "https://www.mit.edu/~jnt/Papers/J081-00-vb-products.pdf",
+      "content_type": "application/pdf",
+      "sample_bytes": 65536
+    },
+    {
+      "url": "https://www.preprints.org/manuscript/202608.1304",
+      "error": "HTTP Error 403: Forbidden",
+      "web_reader_refresh": "Exact bibliography target reopened successfully through the web reader on September 18, 2026."
+    }
+  ],
+  "interpretation": "HTTP status is transport evidence only. DOI/publisher restrictions have matching accessible alternatives. Web-reader routes were rechecked separately; access does not certify any proof.",
+  "summary": {
+    "bibliography_targets": 88,
+    "successful_direct_gets": 69,
+    "restricted_doi_targets_with_directly_accessible_alternatives": 7,
+    "other_targets_with_checked_web_reader_routes": 12,
+    "canonical_pdf_routes_with_matching_explicit_version_headers": 2,
+    "all_targets_have_checked_accessible_routes": true
+  }
+}

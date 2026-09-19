@@ -1,6 +1,6 @@
 {
   "candidate_id": "polynomial-local-stability-decidability",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "349",
   "title": "Decidability of local asymptotic stability for polynomial ODEs",
   "decision": "accept_open",
   "decision_reason": "Explicit rational-input local-asymptotic formulation, independent July 2026 corroboration, ten exact-scope comparisons, duplicate check, separated A50 review and final validation passed. No matching unresolved resolution claim located.",
@@ -346,5 +346,39 @@
     "commit_url": "https://github.com/MColbrook/AIM/commit/e2a291c4328224f406e29f1b9811f744faeb1040",
     "pushed_on": "2026-09-18",
     "remote_verification": "Separate ls-remote read returned the exact full content commit after the successful direct push."
+  },
+  "public_page_path": "problems/349-polynomial-local-stability-decidability.md",
+  "prepublication_refresh": {
+    "date": "2026-09-18",
+    "latest_target_commit": "aa3087c2cf59db1e30215f90301f356385ce163c",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R5-17",
+      "R5-18",
+      "R5-26"
+    ],
+    "outcome": "Recovered NP-hardness, restricted Lyapunov certificates and the July 2026 converse-Lyapunov counterexample. These are already compared in the A50 review; no total decider or matching undecidability reduction located.",
+    "upstream": "SSH fetch: HEAD equals origin/main. Connected GitHub confirms private MColbrook/AIM, main default and push permission. Paginated branch search contains only main; open-PR search returned none.",
+    "duplicate_scope": "Established complete baseline and 340 active entries; all ten pending draft statements reread with closest-family comparisons. No new upstream files or equivalent accepted target located."
+  },
+  "publication_state": "Accepted and integrated locally in batch 5; validation passed, direct push pending.",
+  "remote_publication": {
+    "state": "integrated_local_push_pending",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "batch_validation": {
+    "state": "passed",
+    "date": "2026-09-18",
+    "batch": "expansion-2026-09-18-05",
+    "audit": "research/expansion-2026-09/batch-05-review.md",
+    "catalogue": "350 unique entries; generated index, metadata and required sections validated.",
+    "preservation": "Original 300 and all 340 prior published pages unchanged; prior metadata rows, dates and formatting retained.",
+    "math": "Strict KaTeX passed; public and archived-draft expressions match. Prior reviewed expressions unchanged; new scheduling and final coding pages visually inspected.",
+    "links": "717 relative links resolve; 88 bibliography targets have checked direct or alternate access routes.",
+    "counts": "50 accepted/integrated; 55 candidate records; five holds; 1808 distinct search IDs."
   }
 }

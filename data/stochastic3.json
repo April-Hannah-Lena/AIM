@@ -254,5 +254,37 @@
     "file": "problems/334-strong-thin-tree.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-18"
+  },
+  {
+    "id": "341",
+    "title": "The sharp matroid secretary conjecture",
+    "area": "Online selection and resource allocation",
+    "file": "problems/341-sharp-matroid-secretary.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
+  },
+  {
+    "id": "344",
+    "title": "List edge-colouring with no extra colours",
+    "area": "Scheduling, resource allocation and graph colouring",
+    "file": "problems/344-list-edge-colouring.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
+  },
+  {
+    "id": "345",
+    "title": "Competitive exclusion in a chemostat with unequal removal rates",
+    "area": "Mathematical biology and microbial competition",
+    "file": "problems/345-chemostat-unequal-removal-exclusion.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
+  },
+  {
+    "id": "350",
+    "title": "Polynomial-factor hardness of scheduling unit jobs on prescribed machines",
+    "area": "Scheduling and approximation complexity",
+    "file": "problems/350-unit-job-unique-machine-hardness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-18"
   }
 ]

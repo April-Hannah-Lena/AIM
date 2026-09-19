@@ -1,6 +1,6 @@
 {
   "candidate_id": "list-edge-colouring",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "344",
   "title": "List edge-colouring with no extra colours",
   "decision": "accept_open",
   "decision_reason": "Precise primary formulation, independently authored scholarly corroboration, full relevant claim-scope comparisons, duplicate audit and separated A45 self-review passed.",
@@ -46,7 +46,7 @@
       "role": "Independently authored current formulation; family-specific claimed progress requires scope comparison."
     }
   ],
-  "publication_state": "Accepted research draft awaiting batch integration; no active ID.",
+  "publication_state": "Accepted and integrated locally in batch 5; validation passed, direct push pending.",
   "review_arrangement": "Primary-agent research followed by a separated adversarial self-pass; no independent agent or human review.",
   "source_records": [
     {
@@ -183,6 +183,22 @@
       "version": "Only v1, September 9, 2026, in the checked history; discovered during A45.",
       "accessed_on": "2026-09-18",
       "identity_verified": true
+    },
+    {
+      "source_id": "ZLMW26",
+      "authors": [
+        "Li Zhang",
+        "You Lu",
+        "Zhengke Miao",
+        "Yintao Wang"
+      ],
+      "title": "Signed list edge coloring in graphs of bounded treewidth",
+      "url": "https://arxiv.org/html/2608.19852v1",
+      "version": "Exact arXiv v1, August 20, 2026; cited as preprint, not as a read journal version.",
+      "locator": "Section 1 graph conventions, Definition 1.2, full Theorem 1.3; Section 2 treewidth definition.",
+      "read": "Finite simple signed graphs, treewidth three or treewidth four with maximum degree at least ten, and a maximum-degree-plus-one list bound.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
     }
   ],
   "search_ids": [
@@ -258,6 +274,12 @@
       "source": "CD26",
       "result": "Theorem 1 uses lists of size (3/2+epsilon)Delta, large Delta outside the bipartite case, and bounds communication rounds.",
       "difference": "Communication efficiency under a larger list budget does not supply the exact chi'(G)-sized guarantee."
+    },
+    {
+      "source_id": "ZLMW26",
+      "locator": "Definition 1.2 and Theorem 1.3",
+      "result_scope": "Signed list edge-colouring for two bounded-treewidth classes; at most maximum degree plus one colours.",
+      "mismatch": "Even the all-negative-sign ordinary specialization remains a restricted simple-graph class and does not ensure exactly the ordinary chromatic index for arbitrary loopless multigraphs."
     }
   ],
   "independent_corroboration": {
@@ -312,10 +334,37 @@
     "upstream": "Fetched origin/main matches local HEAD e5c92a488863b9cca4955f0f5c8ae4681bc3dc7f before checkpoint publication."
   },
   "remote_publication": {
-    "status": "published directly to main",
-    "commit": "d33762befc329d523217811b84df150fd370ee9a",
-    "verified_on": "2026-09-18",
-    "verification": "After the successful push, a separate git ls-remote origin refs/heads/main returned the full checkpoint commit.",
-    "catalogue_state": "Accepted research draft only; no active ID or additional integrated count."
+    "state": "integrated_local_push_pending",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "draft_path": "research/expansion-2026-09/drafts/list-edge-colouring.md",
+  "public_page_path": "problems/344-list-edge-colouring.md",
+  "prepublication_refresh": {
+    "date": "2026-09-18",
+    "latest_target_commit": "aa3087c2cf59db1e30215f90301f356385ce163c",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R5-7",
+      "R5-8",
+      "R5-24"
+    ],
+    "outcome": "Recovered reviewed September complete-graph families. Read ZLMW26 model and Theorem 1.3: bounded treewidth and a maximum-degree-plus-one bound do not establish the exact all-multigraph equality.",
+    "upstream": "SSH fetch: HEAD equals origin/main. Connected GitHub confirms private MColbrook/AIM, main default and push permission. Paginated branch search contains only main; open-PR search returned none.",
+    "duplicate_scope": "Established complete baseline and 340 active entries; all ten pending draft statements reread with closest-family comparisons. No new upstream files or equivalent accepted target located."
+  },
+  "batch_validation": {
+    "state": "passed",
+    "date": "2026-09-18",
+    "batch": "expansion-2026-09-18-05",
+    "audit": "research/expansion-2026-09/batch-05-review.md",
+    "catalogue": "350 unique entries; generated index, metadata and required sections validated.",
+    "preservation": "Original 300 and all 340 prior published pages unchanged; prior metadata rows, dates and formatting retained.",
+    "math": "Strict KaTeX passed; public and archived-draft expressions match. Prior reviewed expressions unchanged; new scheduling and final coding pages visually inspected.",
+    "links": "717 relative links resolve; 88 bibliography targets have checked direct or alternate access routes.",
+    "counts": "50 accepted/integrated; 55 candidate records; five holds; 1808 distinct search IDs."
   }
 }

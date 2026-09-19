@@ -1,8 +1,8 @@
-# The optimal asymptotic rate of binary error-correcting codes
+# 342. The optimal asymptotic rate of binary error-correcting codes
 
 **Area:** Coding theory and reliable data transmission
 
-**Status:** Accepted; integrated as entry 342
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -63,12 +63,10 @@ The lower-bound improvements in [5, 6] require a separate distinction. Jiang–V
 
 The older preprint [7] claims asymptotic tightness for linear codes. Its model uses linear subspaces and parity-check matrices; it supplies no matching upper bound for all nonlinear codes. Its proof has not been adjudicated here, and the claim is not used as an established rate theorem. No separate linear-code variant is admitted.
 
-Searches on September 18, 2026 covered the rate–distance problem and its aliases, Gilbert–Varshamov tightness, proofs and counterexamples, current and unrestricted dates, versions, corrections and author records. Exact queries, additional theorem comparisons, source-access details and duplicate checks are in the [evidence ledger](../candidates/binary-code-asymptotic-rate.json). Review consisted of source research followed by a separated adversarial self-pass; no independent agent or human review occurred.
+Searches on September 18, 2026 covered the rate–distance problem and its aliases, Gilbert–Varshamov tightness, proofs and counterexamples, current and unrestricted dates, versions, corrections and author records. Exact queries, additional theorem comparisons, source-access details and duplicate checks are in the [evidence ledger](../research/expansion-2026-09/candidates/binary-code-asymptotic-rate.json). Review consisted of source research followed by a separated adversarial self-pass; no independent agent or human review occurred.
 
 Two arXiv URLs rejected the direct automated link check, although their full texts were accessible through the research tool. The publisher DOI for [5] returned an empty HTTP 202 response; its accessible author manuscript supplied the theorem. These access details are retained in the ledger.
 
-[Entry 144](../../../problems/144-binary-deletion-channel-capacity.md) concerns stochastic deletion capacity. [Entry 270](../../../problems/270-seven-cycle-shannon-capacity.md) uses strong powers of a fixed seven-symbol confusability graph. [Entry 332](../../../problems/332-polynomial-trace-reconstruction.md) asks for a number of independent deletion traces. Their channel models and success criteria differ from this binary minimum-distance question.
+[Entry 144](144-binary-deletion-channel-capacity.md) concerns stochastic deletion capacity. [Entry 270](270-seven-cycle-shannon-capacity.md) uses strong powers of a fixed seven-symbol confusability graph. [Entry 332](332-polynomial-trace-reconstruction.md) asks for a number of independent deletion traces. Their channel models and success criteria differ from this binary minimum-distance question.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
-
-Integrated page: [342. The optimal asymptotic rate of binary error-correcting codes](../../../problems/342-binary-code-asymptotic-rate.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../research/expansion-2026-09/batch-05-review.md). No matching later resolution was located.

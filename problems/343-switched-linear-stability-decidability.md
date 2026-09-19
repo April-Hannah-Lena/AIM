@@ -1,8 +1,8 @@
-# Decidability of stability under arbitrary switching
+# 343. Decidability of stability under arbitrary switching
 
 **Area:** Switched systems, robust control and formal verification
 
-**Status:** Accepted; integrated as entry 343
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -58,12 +58,10 @@ Finite products give upper and lower bounds on the joint spectral radius. Under 
 
 The September 2026 Ninite–Jungers version makes the limitation explicit: its Theorem 4 assumes an attained optimum and a specified structure of the graph's tight edges; Remark 2 leaves termination and convergence guarantees for future work. The reviewed Mejstrik–Reif author version also establishes certificate-based results with additional hypotheses, and Algorithm 3.1 describes its output upon termination. Neither reviewed algorithm supplies the requested total decider.
 
-The September 18 search covered strict stability, absolute asymptotic stability, rational matrix products, original and later authors, recent and unrestricted resolution claims, counterexamples, corrections and version histories. The [evidence ledger](../candidates/switched-linear-stability-decidability.json) gives the comparisons and source-access limits. Explicit formulations are older than the recent algorithm papers; this is a dated literature review, not a certification that an unindexed resolution cannot exist.
+The September 18 search covered strict stability, absolute asymptotic stability, rational matrix products, original and later authors, recent and unrestricted resolution claims, counterexamples, corrections and version histories. The [evidence ledger](../research/expansion-2026-09/candidates/switched-linear-stability-decidability.json) gives the comparisons and source-access limits. Explicit formulations are older than the recent algorithm papers; this is a dated literature review, not a certification that an unindexed resolution cannot exist.
 
-The [continuous Skolem problem](../../../problems/273-continuous-skolem-decidability.md) and [discrete Skolem problem](../../../problems/327-discrete-skolem-decidability.md) concern reaching a hyperplane under one fixed evolution. The [static output-feedback entry](../../../problems/330-generic-static-output-feedback-stabilization.md) classifies dimensions for generic existence of a controller. Here the modes are supplied as input, and the quantifier ranges over every infinite switching sequence.
+The [continuous Skolem problem](273-continuous-skolem-decidability.md) and [discrete Skolem problem](327-discrete-skolem-decidability.md) concern reaching a hyperplane under one fixed evolution. The [static output-feedback entry](330-generic-static-output-feedback-stabilization.md) classifies dimensions for generic existence of a controller. Here the modes are supplied as input, and the quantifier ranges over every infinite switching sequence.
 
 A separated adversarial self-pass passed on September 18, 2026. No independent agent or human review is claimed.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
-
-Integrated page: [343. Decidability of stability under arbitrary switching](../../../problems/343-switched-linear-stability-decidability.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../research/expansion-2026-09/batch-05-review.md). No matching later resolution was located.

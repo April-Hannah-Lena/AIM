@@ -1,0 +1,266 @@
+{
+  "candidate_id": "unit-job-unique-machine-hardness",
+  "proposed_catalogue_id": "350",
+  "title": "Polynomial-factor hardness of scheduling unit jobs on prescribed machines",
+  "decision": "accept_open",
+  "decision_reason": "Complete primary formulation, independent July 2026 corroboration, six theorem-scope comparisons, full nearest-statement review, separated A51 self-review and rendering validation passed. No matching unresolved resolution claim located.",
+  "primary_section": "stochastic3",
+  "secondary_tags": [
+    "scheduling",
+    "approximation hardness",
+    "operations research"
+  ],
+  "aliases": [
+    "UMPS polynomial-factor hardness conjecture",
+    "Unique Machine Precedence constraints Scheduling",
+    "Davies–Kulkarni–Rothvoss–Sandeep–Tarnawski–Zhang Conjecture 2"
+  ],
+  "problem_fingerprint": {
+    "input": "A finite directed acyclic precedence graph on n jobs and a specified machine M(j) for every job; machine count may vary and empty machines can be removed.",
+    "processing": "Every job takes exactly one unit of time, without preemption or duplication, on its unique prescribed machine.",
+    "feasibility": "Nonnegative start times; every precedence edge requires predecessor completion before successor start; jobs on the same machine have disjoint half-open execution intervals.",
+    "objective": "Minimize makespan, the largest completion time, over feasible schedules.",
+    "approximation": "An alpha(n)-approximation outputs a feasible schedule of makespan at most alpha(n) times the optimum for every input, in polynomial time in the explicit input size.",
+    "target": "Prove or disprove existence of an absolute epsilon in (0,1) for which approximation within n^epsilon is NP-hard in the standard polynomial-time reduction sense.",
+    "scope": "n is the number of jobs, not the number of machines. No fixed machine count, layered-graph promise, communication delays, job release dates or variable processing lengths.",
+    "canonical_scope": "One power-of-n inapproximability conjecture; constant/polylogarithmic bounds and downstream communication-delay models are not separately counted."
+  },
+  "fingerprint_recorded_on": "2026-09-18",
+  "fingerprint_recorded_before_draft": true,
+  "statement_sources": [
+    {
+      "source_id": "DKRSTZ22",
+      "url": "https://par.nsf.gov/servlets/purl/10342245",
+      "locator": "Published §1.1 Conjecture 1.1, §1.3 and §2 Definition 2.1; numbering differs from preprint."
+    },
+    {
+      "source_id": "DKRSTZ22",
+      "url": "https://arxiv.org/html/2105.00111v1",
+      "locator": "Section 1.1, complete Conjecture 2 and preceding nonpreemptive UMPS model."
+    }
+  ],
+  "independently_authored_corroboration": {
+    "source_id": "GRT26",
+    "url": "https://arxiv.org/html/2607.26590v1",
+    "locator": "Section 1, Conjecture 1.1 and Theorems 1.2–1.3; Section 2, Definition 2.1.",
+    "independence": "The three-author July 2026 team is disjoint from the six original authors.",
+    "scope": "Explicitly retains n^epsilon hardness while proving constant-factor NP-hardness and conditional polylogarithmic inapproximability."
+  },
+  "actual_status_check_date": "2026-09-18",
+  "second_review": {
+    "arrangement": "Primary-agent research followed by a separated adversarial self-pass; no independent agent or human review.",
+    "verdict": "passed",
+    "pass_id": "A51",
+    "date": "2026-09-18",
+    "independent_searches": [
+      "A51-1",
+      "A51-2",
+      "A51-3",
+      "A51-4",
+      "A51-5",
+      "A51-6",
+      "A51-7",
+      "A51-8"
+    ],
+    "issues_checked": [
+      "Published Conjecture 1.1 and preprint Conjecture 2 are the same target; positive exponent is explicit in the independent 2026 restatement.",
+      "All processing lengths are one, assignments are prescribed, machine count varies, and n counts jobs. Integer starts suffice by acyclic left-justification.",
+      "Constant-factor NP-hardness permits a different fixed reduction for each factor; it does not give a uniform n^epsilon gap. The current polylogarithmic result also uses a quasipolynomial reduction and stronger complexity assumption.",
+      "Flexible-assignment delay algorithms and the direction of the UMPS-to-delay reduction do not yield an algorithm for this model.",
+      "The complexity conclusion concerns deterministic polynomial-time approximation under P != NP, not an unconditional nonexistence theorem or a claim about randomized algorithms."
+    ],
+    "duplicate_check": "Nearest full statements 312, 289 and list edge-colouring were compared; unique machine eligibility and a growing approximation gap distinguish this candidate.",
+    "application_check": "Fixed-location dependent tasks and worst-case approximation guarantees; no empirical heuristic or efficient-algorithm claim.",
+    "search_limit": "Acronym collisions, generic exact scheduling-hardness titles, third-party readers and the original coauthor thesis are discovery only. No new materially matching resolution claim surfaced."
+  },
+  "nearest_existing": [
+    {
+      "entry": "312",
+      "path": "problems/312-three-processor-unit-scheduling.md",
+      "full_statement_read": true,
+      "comparison": "Exact complexity for three interchangeable processors. UMPS fixes a unique eligible machine per job, lets the machine count vary, and asks for n^epsilon approximation hardness."
+    },
+    {
+      "entry": "289",
+      "path": "problems/289-unrelated-machine-makespan.md",
+      "full_statement_read": true,
+      "comparison": "Beat factor two for variable assignment-dependent processing times without precedence. UMPS has fixed assignments, unit lengths and an arbitrary precedence DAG."
+    },
+    {
+      "entry": "list-edge-colouring",
+      "path": "research/expansion-2026-09/drafts/list-edge-colouring.md",
+      "full_statement_read": true,
+      "comparison": "Two simultaneous resources per job and availability lists; an exact existence guarantee. UMPS uses one prescribed resource with precedence and a complexity-theoretic gap."
+    }
+  ],
+  "source_records": [
+    {
+      "source_id": "DKRSTZ22",
+      "authors": [
+        "Sami Davies",
+        "Janardhan Kulkarni",
+        "Thomas Rothvoss",
+        "Sai Sandeep",
+        "Jakub Tarnawski",
+        "Yihao Zhang"
+      ],
+      "title": "On the Hardness of Scheduling With Non-Uniform Communication Delays",
+      "venue": "SODA 2022, 316–328; published January 5, 2022",
+      "doi": "10.1137/1.9781611977073.15",
+      "url": "https://par.nsf.gov/servlets/purl/10342245",
+      "preprint": "https://arxiv.org/html/2105.00111v1",
+      "version": "Published SIAM text in NSF repository compared with sole arXiv version, April 30, 2021.",
+      "locator": "§1.1 Conjectures 1.1–1.2 (preprint Conjectures 2–3); §1.3; §2 Definition 2.1 and Corollary 2.1; §3 reduction.",
+      "read": "Exact conjecture, model, original open-question discussion, nonunit logarithmic hardness and communication-delay construction. Published first conjecture prints epsilon<1; the disjoint 2026 restatement explicitly supplies positive epsilon.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "GRT26",
+      "authors": [
+        "Venkatesan Guruswami",
+        "Xuandi Ren",
+        "Shaoxuan Tang"
+      ],
+      "title": "Inapproximability of Unique-Machine Precedence Scheduling for Unit-Length Jobs",
+      "url": "https://arxiv.org/html/2607.26590v1",
+      "version": "arXiv:2607.26590v1, July 29, 2026; sole version in inspected history; preprint.",
+      "locator": "Full §1 model and Conjecture 1.1, Theorems 1.2–1.3; Definition 2.1; complete §3.4 including the two main proofs and amplified-instance size estimates.",
+      "read": "Current independent corroboration. Constant-factor NP-hardness and a conditional polylogarithmic gap; the latter reduction is quasipolynomial. No certification of all underlying PCP/hypergraph proofs.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "RSY23",
+      "authors": [
+        "Rajmohan Rajaraman",
+        "David Stalfa",
+        "Sheng Yang"
+      ],
+      "title": "Scheduling Under Non-Uniform Job and Machine Delays",
+      "venue": "ICALP 2023, LIPIcs 261, 98:1–98:20",
+      "doi": "10.4230/LIPIcs.ICALP.2023.98",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol261-icalp2023/LIPIcs.ICALP.2023.98/LIPIcs.ICALP.2023.98.pdf",
+      "version": "Published proceedings PDF; extended arXiv source not independently compared.",
+      "locator": "Title and metadata; §1.1 Definition 1, full Theorems 1–4 and accompanying model discussion, pp.98:3–98:6.",
+      "read": "Additive endpoint-delay algorithms versus arbitrary job-machine delay hardness reduction. The guarantees retain their duplication and additive-delay qualifications. Theorem 4 is a reduction from UMPS, not an algorithm for it.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "GRT26",
+      "locator": "Theorem 1.2; §3.4 proof",
+      "result_scope": "For each fixed gamma>1, gamma approximation is NP-hard.",
+      "mismatch": "A separate fixed-parameter reduction for each constant is not a uniform power-of-job-count gap."
+    },
+    {
+      "source_id": "GRT26",
+      "locator": "Theorem 1.3; §3.4 proof",
+      "result_scope": "A (log N)^gamma gap for some gamma>0, with a quasipolynomial-time reduction and NP-not-in-deterministic-quasipolynomial-time assumption.",
+      "mismatch": "Both gap growth and reduction time differ from the proposed n^epsilon NP-hardness under polynomial reductions."
+    },
+    {
+      "source_id": "DKRSTZ22",
+      "locator": "Corollary 2.1 and §1.1 explanation",
+      "result_scope": "Logarithmic UMPS hardness inherited from job shop with variable processing lengths.",
+      "mismatch": "Does not establish the unit-length power-of-n target."
+    },
+    {
+      "source_id": "DKRSTZ22",
+      "locator": "Conjecture 1.2 and Theorem 1.2; preprint Conjecture 3 and Theorem 4",
+      "result_scope": "Conditional related-machine scheduling hardness from a companion UMPS conjecture restricting machine count.",
+      "mismatch": "A conditional implication is not an unconditional proof of the candidate; no second entry is counted for the companion."
+    },
+    {
+      "source_id": "RSY23",
+      "locator": "Definition 1; Theorems 1–3",
+      "result_scope": "Algorithms with flexible job assignment for delays decomposing into endpoint contributions; some permit duplication/additive rho_max.",
+      "mismatch": "Arbitrary prescribed machine assignments are not part of their input model. Setting delays to zero removes delay restrictions, not the UMPS eligibility constraints."
+    },
+    {
+      "source_id": "RSY23",
+      "locator": "Theorem 4",
+      "result_scope": "Polynomial-time approximation-preserving reduction from UMPS to arbitrary job-machine delay scheduling.",
+      "mismatch": "Transfers hardness to a different model; does not prove the conjectured hardness of the source problem or provide an algorithm for it."
+    }
+  ],
+  "actual_search_ids": [
+    "S390-1",
+    "S390-2",
+    "S390-3",
+    "S391-1",
+    "S391-2",
+    "S392-1",
+    "S392-2",
+    "S392-3",
+    "S392-4",
+    "S393-1",
+    "S393-2",
+    "S393-3",
+    "S393-4",
+    "A51-1",
+    "A51-2",
+    "A51-3",
+    "A51-4",
+    "A51-5",
+    "A51-6",
+    "A51-7",
+    "A51-8"
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/unit-job-unique-machine-hardness.md",
+  "validation": {
+    "state": "passed",
+    "checked_on": "2026-09-18",
+    "math_rendering": "19 expressions passed strict KaTeX. Full local browser screenshot visually inspected; title, formulae and bibliography render without clipping.",
+    "bibliography": "Five targets probed: four matching HTTP 200 documents; SIAM DOI returns direct HTTP 403, with the full published PDF accessible in the NSF repository and publisher metadata checked through the web reader. See unit-job-unique-machine-hardness-link-check.json.",
+    "local_links": "All 4 relative Markdown links resolve.",
+    "json_and_searches": "1,781 distinct logged search identifiers; all 21 candidate search references resolve.",
+    "catalogue": "Active membership remains 340 before batch integration."
+  },
+  "duplicate_check": {
+    "searched": "All active pages, metadata, candidate records and exclusion/discovery ledgers by UMPS, fixed/prescribed/unique machine, precedence and job-shop terms. Full nearest statements read.",
+    "findings": "Entry 312 excluded as an already covered discovery lead; the unique-machine approximation-gap target has no matching accepted entry.",
+    "refreshed_on": "2026-09-18"
+  },
+  "access_limits": [
+    "Publisher landing page verified SODA bibliographic metadata; full published text obtained from NSF repository.",
+    "The extended RSY23 manuscript and supporting PCP/hypergraph papers were not independently certified.",
+    "Third-party mirrors and acronym collisions were discovery only; primary arXiv and published PDFs supply the evidence."
+  ],
+  "applied_significance": "Worst-case approximation limits for dependency-constrained tasks already assigned to processors or equipment. Communication-delay implications follow cited reductions; no empirical workload prediction or heuristic performance claim.",
+  "publication_state": "Accepted and integrated locally in batch 5; validation passed, direct push pending.",
+  "public_page_path": "problems/350-unit-job-unique-machine-hardness.md",
+  "prepublication_refresh": {
+    "date": "2026-09-18",
+    "latest_target_commit": "aa3087c2cf59db1e30215f90301f356385ce163c",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "R5-19",
+      "R5-20"
+    ],
+    "outcome": "Fresh A51 and R5 searches recover the July 2026 constant/polylogarithmic hardness and communication-delay reductions. Their full model/theorem/proof comparisons do not establish the power-of-job-count gap under polynomial reductions.",
+    "upstream": "SSH fetch: HEAD equals origin/main. Connected GitHub confirms private MColbrook/AIM, main default and push permission. Paginated branch search contains only main; open-PR search returned none.",
+    "duplicate_scope": "Established complete baseline and 340 active entries; all ten pending draft statements reread with closest-family comparisons. No new upstream files or equivalent accepted target located."
+  },
+  "remote_publication": {
+    "state": "integrated_local_push_pending",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": null,
+    "pull_request_url": null
+  },
+  "batch_validation": {
+    "state": "passed",
+    "date": "2026-09-18",
+    "batch": "expansion-2026-09-18-05",
+    "audit": "research/expansion-2026-09/batch-05-review.md",
+    "catalogue": "350 unique entries; generated index, metadata and required sections validated.",
+    "preservation": "Original 300 and all 340 prior published pages unchanged; prior metadata rows, dates and formatting retained.",
+    "math": "Strict KaTeX passed; public and archived-draft expressions match. Prior reviewed expressions unchanged; new scheduling and final coding pages visually inspected.",
+    "links": "717 relative links resolve; 88 bibliography targets have checked direct or alternate access routes.",
+    "counts": "50 accepted/integrated; 55 candidate records; five holds; 1808 distinct search IDs."
+  }
+}

@@ -1,8 +1,8 @@
-# Competitive exclusion in a chemostat with unequal removal rates
+# 345. Competitive exclusion in a chemostat with unequal removal rates
 
 **Area:** Mathematical biology and microbial competition
 
-**Status:** Accepted; integrated as entry 345
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -62,10 +62,8 @@ Alvarez-Latuz–Bayen–Coville Theorem 2.4 concerns sufficiently small mass-con
 
 Burie–Ducrot–Griette use growth linear in the resource, with a measure describing strains. Their Theorem 2.2 gives convergence when the maximal-fitness set has positive initial mass. The oscillation counterexample in §2.3 has infinitely many strains and no initial mass on that set. It does not refute the finite-species assertion here, and the linear response does not settle arbitrary increasing responses.
 
-Current and unrestricted resolution, counterexample, correction and version searches are recorded in the [evidence ledger](../candidates/chemostat-unequal-removal-exclusion.json). A separated adversarial self-pass passed on September 18, 2026; no independent agent or human review is claimed. Access limitations and additional model comparisons are explicit in the ledger. This review does not certify the cited proofs independently.
+Current and unrestricted resolution, counterexample, correction and version searches are recorded in the [evidence ledger](../research/expansion-2026-09/candidates/chemostat-unequal-removal-exclusion.json). A separated adversarial self-pass passed on September 18, 2026; no independent agent or human review is claimed. Access limitations and additional model comparisons are explicit in the ledger. This review does not certify the cited proofs independently.
 
-The closest catalogue question, [competitive exclusion with unequal death rates](../../../problems/190-competing-contact-unequal-deaths.md), concerns a spatial stochastic contact process. [Carrying-simplex interior smoothness](../../../problems/311-carrying-simplex-interior.md) concerns geometric regularity for discrete population maps. Neither asks for this deterministic resource-mediated convergence theorem. The present family is counted once across species numbers, growth laws and removal parameters.
+The closest catalogue question, [competitive exclusion with unequal death rates](190-competing-contact-unequal-deaths.md), concerns a spatial stochastic contact process. [Carrying-simplex interior smoothness](311-carrying-simplex-interior.md) concerns geometric regularity for discrete population maps. Neither asks for this deterministic resource-mediated convergence theorem. The present family is counted once across species numbers, growth laws and removal parameters.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
-
-Integrated page: [345. Competitive exclusion in a chemostat with unequal removal rates](../../../problems/345-chemostat-unequal-removal-exclusion.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../research/expansion-2026-09/batch-05-review.md). No matching later resolution was located.

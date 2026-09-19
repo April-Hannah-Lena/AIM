@@ -1,8 +1,8 @@
-# The factor-two relation between triangle deletion and packing
+# 346. The factor-two relation between triangle deletion and packing
 
 **Area:** Combinatorial optimization and network modification
 
-**Status:** Accepted; integrated as entry 346
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -60,12 +60,10 @@ Kahn–Park prove the inequality with probability tending to one in $G(n,p)$ for
 
 Gupta's August 2026 preprint claims the maximum-degree-seven case. Zeng's theorem assumes a split partition with an eight-vertex clique and at most two active neighborhood types; its additional maximum-cut criterion is sufficient, not automatic. The September Épi artifact extends the fixed-eight-clique result to three active neighborhood types with arbitrary multiplicities. Their complete relevant statements were checked, but their computer-assisted certificates were not independently rerun. All retain hypotheses absent from the unrestricted question. [6–8]
 
-The review covered current and unrestricted searches for proofs, disproofs, counterexamples, corrections, versions and equivalent formulations. Haxell's original full text was inaccessible in this check; its bound is explicitly reported in [3, 4]. The 2025 journal metadata in [2] was verified, and its accessible preprint was read. Additional dense-graph and algorithmic sufficient-condition results are compared in the [evidence record](../candidates/tuza-triangle-packing-covering.json).
+The review covered current and unrestricted searches for proofs, disproofs, counterexamples, corrections, versions and equivalent formulations. Haxell's original full text was inaccessible in this check; its bound is explicitly reported in [3, 4]. The 2025 journal metadata in [2] was verified, and its accessible preprint was read. Additional dense-graph and algorithmic sufficient-condition results are compared in the [evidence record](../research/expansion-2026-09/candidates/tuza-triangle-packing-covering.json).
 
-The [strong thin-tree question](../../../problems/334-strong-thin-tree.md) selects a connected spanning subnetwork under all-cut bounds. The [list edge-colouring draft](list-edge-colouring.md) concerns scheduling edges into matchings. Neither compares triangle deletion with edge-disjoint triangle packing. Equivalent edge-decomposition formulations and graph subclasses are included in this single entry.
+The [strong thin-tree question](334-strong-thin-tree.md) selects a connected spanning subnetwork under all-cut bounds. The [list edge-colouring (entry 344)](344-list-edge-colouring.md) concerns scheduling edges into matchings. Neither compares triangle deletion with edge-disjoint triangle packing. Equivalent edge-decomposition formulations and graph subclasses are included in this single entry.
 
 A separated adversarial self-pass passed on September 18, 2026. No independent agent or human review is claimed.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
-
-Integrated page: [346. The factor-two relation between triangle deletion and packing](../../../problems/346-tuza-triangle-packing-covering.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../research/expansion-2026-09/batch-05-review.md). No matching later resolution was located.

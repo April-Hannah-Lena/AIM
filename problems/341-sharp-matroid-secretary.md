@@ -1,8 +1,8 @@
-# The sharp matroid secretary conjecture
+# 341. The sharp matroid secretary conjecture
 
 **Area:** Online selection and resource allocation
 
-**Status:** Accepted; integrated as entry 341
+**Status:** Open in cited literature; no later resolution located.
 
 **Last checked:** 2026-09-18
 
@@ -53,12 +53,10 @@ The concurrent paper [7] extends its claim to known matroids admitting a finitar
 
 The barriers in [5] restrict particular greedy and partition strategies. They do not exclude all online policies. The guarantees in [6] use oracle responses about unseen weights, which the present model does not provide.
 
-Searches on September 18, 2026 covered the strong conjecture, both competitive-ratio conventions, proofs and counterexamples, 2025–2026 and unrestricted dates, revisions, corrections and author records. Exact queries, theorem comparisons, review results and access details are in the [evidence ledger](../candidates/sharp-matroid-secretary.json).
+Searches on September 18, 2026 covered the strong conjecture, both competitive-ratio conventions, proofs and counterexamples, 2025–2026 and unrestricted dates, revisions, corrections and author records. Exact queries, theorem comparisons, review results and access details are in the [evidence ledger](../research/expansion-2026-09/candidates/sharp-matroid-secretary.json).
 
 The published DOI for [2] blocked the direct link check; its accessible author manuscript supplied the full formulation. Review was performed by the researching agent with a separated adversarial self-pass.
 
-[Entry 326](../../../problems/326-online-bin-packing-optimal-ratio.md) minimizes bin count under adversarial arrival order. [Entries 289](../../../problems/289-unrelated-machine-makespan.md) and [290](../../../problems/290-general-santa-claus.md) concern offline scheduling and max-min allocation. [Entry 334](../../../problems/334-strong-thin-tree.md) asks for one tree satisfying all cut inequalities. None asks for this random-order selection guarantee.
+[Entry 326](326-online-bin-packing-optimal-ratio.md) minimizes bin count under adversarial arrival order. [Entries 289](289-unrelated-machine-makespan.md) and [290](290-general-santa-claus.md) concern offline scheduling and max-min allocation. [Entry 334](334-strong-thin-tree.md) asks for one tree satisfying all cut inequalities. None asks for this random-order selection guarantee.
 
-A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
-
-Integrated page: [341. The sharp matroid secretary conjecture](../../../problems/341-sharp-matroid-secretary.md).
+A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../research/expansion-2026-09/batch-05-review.md). No matching later resolution was located.
