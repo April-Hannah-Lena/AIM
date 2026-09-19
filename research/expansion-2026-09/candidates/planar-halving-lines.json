@@ -1,0 +1,461 @@
+{
+  "candidate_id": "planar-halving-lines",
+  "proposed_catalogue_id": null,
+  "title": "The near-linear bound for planar halving lines",
+  "primary_section": "inverse3",
+  "secondary_tags": [
+    "computational geometry",
+    "parametric selection",
+    "geometric algorithms"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Original exact formulation, two independently authored explicit restatements, current theorem-scope review, duplicate check and separated A59 self-pass passed; no material matching resolution conflict located.",
+  "aliases": [
+    "halving-line conjecture",
+    "halving edges",
+    "Erdős–Lovász–Simmons–Straus conjecture",
+    "middle-level complexity",
+    "planar k-set problem"
+  ],
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "problem_fingerprint": {
+    "objects": "For each even integer n>=2, a set P of n distinct points in R^2, with no three collinear.",
+    "observable": "h(P) counts unordered pairs {p,q} whose complete supporting line leaves exactly (n-2)/2 other points in each open half-plane. h(n) is the maximum over all such P.",
+    "quantifiers": "For every real epsilon>0 there exists a finite constant C_epsilon>0 such that h(n)<=C_epsilon n^(1+epsilon) for every even n>=2.",
+    "geometry": "Actual straight lines in the Euclidean plane; no bound on spread, coordinates or convex layers; no random-input assumption.",
+    "normalization": "A halving line is counted once, not once per orientation. ELSS73 Definition 4.4 uses e_m=h(2m). Its little-o-for-every-epsilon version and the survey's big-O-for-every-epsilon version are equivalent by replacing epsilon with epsilon/2.",
+    "family_policy": "One canonical planar counting conjecture; do not count edge, line, dual-middle-level, parity or k-set formulations as additional entries.",
+    "application": "Point-line duality identifies each halving edge with a middle-level crossing of affine functions. This controls the number of membership changes when retaining the cheapest half of linearly varying costs; it does not bound arbitrary parametric matroid optimization."
+  },
+  "statement_sources": [
+    {
+      "source_id": "ELSS73",
+      "locator": "Definition 4.4, p.145; Conjecture 5.2, p.149; Section 1 definitions."
+    },
+    {
+      "source_id": "N08",
+      "locator": "Author manuscript Section 1, pp.1–3, explicit o(n^(1+epsilon)) conjecture on p.2 and duality on p.3."
+    },
+    {
+      "source_id": "RS20",
+      "locator": "Section 5.1, Conjecture 5.1.1; arXiv:2010.00478v3, December 2, 2020."
+    }
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/planar-halving-lines.md",
+  "status_search_ids": [
+    "S445-1",
+    "S445-2",
+    "S445-3",
+    "S445-4",
+    "S446-1",
+    "S446-2",
+    "S446-3",
+    "S446-4",
+    "S447-1",
+    "S447-2",
+    "S447-3",
+    "S447-4",
+    "S448-1",
+    "S448-2",
+    "S448-3",
+    "S448-4",
+    "S449-1",
+    "S449-2",
+    "S449-3",
+    "S449-4",
+    "S450-1",
+    "S450-2",
+    "S450-3",
+    "S450-4",
+    "A59-1",
+    "A59-2",
+    "A59-3",
+    "A59-4",
+    "A59-5",
+    "A59-6",
+    "A59-7",
+    "A59-8",
+    "S451-1",
+    "S451-2",
+    "S451-3",
+    "S451-4"
+  ],
+  "publication_state": "Accepted local research draft, ready for the authorized direct upload; no permanent ID until the next integration batch.",
+  "second_review": {
+    "pass_id": "A59",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass; no independent agent or human review.",
+    "independent_searches": [
+      "A59-1",
+      "A59-2",
+      "A59-3",
+      "A59-4",
+      "A59-5",
+      "A59-6",
+      "A59-7",
+      "A59-8"
+    ],
+    "follow_up_searches": [
+      "S451-1",
+      "S451-2",
+      "S451-3",
+      "S451-4"
+    ],
+    "issues_found": [
+      "Initial fingerprint placed Definition 4.4 on p.144; visual inspection shows p.145.",
+      "Several sources use different halving/bisection orientation conventions or conflate a single epsilon with every epsilon.",
+      "A general parametric-matroid lower bound could be mistaken for a uniform-selection obstruction.",
+      "The fresh search surfaced an inaccessible July 2026 small-set preprint."
+    ],
+    "issues_resolved": [
+      "Corrected the exact original locator after inspecting the printed page; retained e_m=h(2m).",
+      "Retained through-two-points definition, arbitrary real coordinates and all-epsilon quantifier.",
+      "Read Dey Section 4.1 and confined the application to unconstrained cheapest-half selection.",
+      "Recorded metadata-only access separately; did not assert or use its uninspected theorems. No complete-resolution claim was present in the available title/abstract."
+    ],
+    "application_check": "N08 p.3 identifies halving edges with middle-level vertices. A swap between ranks n/2 and n/2+1 changes the optimal cheapest-half subset. This is an explanatory inference, not a claimed runtime theorem.",
+    "search_limit": "Relevant statements and proof portions were checked; no independent proof certification or reproduction of coordinate computations."
+  },
+  "source_records": [
+    {
+      "source_id": "ELSS73",
+      "authors": [
+        "P. Erdős",
+        "L. Lovász",
+        "A. Simmons",
+        "E. G. Straus"
+      ],
+      "title": "Dissection Graphs of Planar Point Sets",
+      "url": "https://www.renyi.hu/~p_erdos/1973-07.pdf",
+      "version": "A Survey of Combinatorial Theory (1973), 139–149.",
+      "locator": "Section 1; Theorem 4.1, p.144; Definition 4.4, p.145; Conjecture 5.2, p.149.",
+      "read": "Read the definitions and precise conjecture; visually inspected pp.144–145 and 149. The original e_m counts unoriented edges on 2m points.",
+      "access_limit": "No full-proof certification. The vague n log n expectation is separated from the surviving explicit subpower assertion.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "N08",
+      "authors": [
+        "Gabriel Nivasch"
+      ],
+      "title": "An Improved, Simple Construction of Many Halving Edges",
+      "url": "https://drive.google.com/uc?export=download&id=1HpaNqAkazvSNFwGFteDIK92C7EY6Lbl8",
+      "version": "Contemporary Mathematics 453 (2008), 299–305; author manuscript supplied through the author's publication page.",
+      "locator": "Section 1, manuscript pp.1–3; equation (1.2), conjecture paragraph and dual-setting paragraph.",
+      "read": "Read the complete definitions, all-even-n lower-bound claim and exact middle-level correspondence.",
+      "access_limit": "Manuscript page numbering differs from publication. Construction proof not independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "RS20",
+      "authors": [
+        "Edgardo Roldán-Pensado",
+        "Pablo Soberón"
+      ],
+      "title": "A survey of mass partitions",
+      "url": "https://arxiv.org/html/2010.00478v3",
+      "version": "arXiv:2010.00478v3, December 2, 2020; cited preprint version; submission history checked.",
+      "locator": "Section 5.1, Conjecture 5.1.1; Section 1.2 conventions.",
+      "read": "Read the full halving-hyperplanes subsection and its bibliography; exact epsilon quantifier independently corroborated.",
+      "access_limit": "The survey counts equivalent bisections; the original and Nivasch supply the explicit through-two-points convention. Not used for current dense-set best constants.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "D98",
+      "authors": [
+        "Tamal K. Dey"
+      ],
+      "title": "Improved Bounds for Planar k-Sets and Related Problems",
+      "url": "https://courses.cs.duke.edu/cps234/fall08/handouts/dey.pdf",
+      "version": "Discrete & Computational Geometry 19 (1998), 373–382; DOI 10.1007/PL00009354.",
+      "locator": "Sections 1–2 definitions; Theorem 3.3; Sections 4–4.1.",
+      "read": "Read definitions, full main theorem and its short crossing argument, dual arrangement definition and general-matroid comparison.",
+      "access_limit": "Only relevant sections read; no independent certification of all proofs.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "ALR24",
+      "authors": [
+        "Estrella Alonso",
+        "Mariló López",
+        "Javier Rodrigo"
+      ],
+      "title": "An Improvement of the Upper Bound for the Number of Halving Lines of Planar Sets",
+      "url": "https://oa.upm.es/89576/1/10302927.pdf",
+      "version": "Symmetry 16 (2024), 936; published July 22, 2024; DOI 10.3390/sym16070936.",
+      "locator": "Sections 1–2; Section 3, Proposition 3 and Remark 1, p.5.",
+      "read": "Read full model, cubic-root upper-bound statement and proof, and asymptotic subtraction formula.",
+      "access_limit": "Small-n computational bounds were not independently reproduced; the general exponent remains 4/3.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "RLMA25",
+      "authors": [
+        "Javier Rodrigo",
+        "Mariló López",
+        "Danilo Magistrali",
+        "Estrella Alonso"
+      ],
+      "title": "An Improvement of the Lower Bound on the Maximum Number of Halving Lines for Sets in the Plane with an Odd Number of Points",
+      "url": "https://mdpi-res.com/d_attachment/axioms/axioms-14-00062/article_deploy/axioms-14-00062-v2.pdf",
+      "version": "Axioms 14 (2025), 62; published January 16, 2025; DOI 10.3390/axioms14010062.",
+      "locator": "Section 1, Definitions 1–4; Section 2 Propositions 1–2; Section 4 Proposition 7 and proof; Section 5.",
+      "read": "Read model, finite-example statements and full recurrence hypotheses; Proposition 7's deletion proof was inspected.",
+      "access_limit": "Point-coordinate computations in the finite examples were not rerun. Publisher page failed; publisher PDF succeeded.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "SW25",
+      "authors": [
+        "Elizaveta Streltsova",
+        "Uli Wagner"
+      ],
+      "title": "Levels in Arrangements: Linear Relations, the g-Matrix, and Applications to Crossing Numbers",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/LIPIcs.SoCG.2025.75/LIPIcs.SoCG.2025.75.pdf",
+      "version": "SoCG 2025, LIPIcs 332, 75:1–75:18; DOI 10.4230/LIPIcs.SoCG.2025.75.",
+      "locator": "Sections 1.1–1.2, Theorem 6 and Remark 7, pp.75:2–75:4.",
+      "read": "Read pointed/nonpointed definitions, complete main sublevel theorem and the explicit planar gap discussion.",
+      "access_limit": "Full-version records 2504.07752 and 2504.07770 show v1, April 10, 2025. Their abstracts/history were checked; the extended proofs were not audited.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "KT20",
+      "authors": [
+        "István Kovács",
+        "Géza Tóth"
+      ],
+      "title": "Dense Point Sets with Many Halving Lines",
+      "url": "https://link.springer.com/article/10.1007/s00454-019-00080-3",
+      "version": "Discrete & Computational Geometry 64 (2020), 965–984; online March 25, 2019; arXiv:1704.00229v2 March 29, 2019.",
+      "locator": "Section 1, Theorems 1.1–1.2; Section 4 proof of Theorem 1.1 and Remarks 4.1–4.2.",
+      "read": "Read density model, both full statements and planar padding argument.",
+      "access_limit": "Earlier recursive construction not independently certified. Theorem 1.1 is a lower bound for 4-dense sets, not a universal upper bound.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "W03",
+      "authors": [
+        "Ulrich Wagner"
+      ],
+      "title": "On k-Sets and Applications",
+      "url": "https://ti.inf.ethz.ch/ew/research/phdtheses/wagner03.pdf",
+      "version": "ETH dissertation 15177, 2003.",
+      "locator": "Chapter 1, pp.1–2.",
+      "read": "Read definitions and the algorithmic/output-complexity motivation.",
+      "access_limit": "Supplementary background; not current-status evidence; remaining thesis not read in this pass.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "AP86",
+      "authors": [
+        "N. Alon",
+        "M. A. Perles"
+      ],
+      "title": "On the intersection of edges of a geometric graph by straight lines",
+      "url": "https://web.math.princeton.edu/~nalon/PDFS/Publications2/On%20the%20intersection%20of%20edges%20of%20a%20geometric%20graph%20by%20straight%20lines.pdf",
+      "version": "Discrete Mathematics 60 (1986), 75–90; DOI 10.1016/0012-365X(86)90004-X.",
+      "locator": "Introduction; Section 4, Remarks (2)–(4), pp.84–85.",
+      "read": "Read which ELSS conjecture the partial settlement concerns and the separate halving-bigraph remark.",
+      "access_limit": "Proofs of the intersection extremal formula not independently audited; not treated as a resolution of Conjecture 5.2.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "AMP13",
+      "authors": [
+        "Oswin Aichholzer",
+        "Tillmann Miltzow",
+        "Alexander Pilz"
+      ],
+      "title": "Extreme point and halving edge search in abstract order types",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3688538/",
+      "version": "Computational Geometry 46 (2013), 970–978; DOI 10.1016/j.comgeo.2013.05.001.",
+      "locator": "Section 1 model; Section 2 and Theorem 2.",
+      "read": "Read full one-edge theorem and prune-and-search argument, including the extension to abstract order types.",
+      "access_limit": "Finding one incident halving edge in linear time does not enumerate or bound all halving edges.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "AOR06",
+      "authors": [
+        "Oswin Aichholzer",
+        "David Orden",
+        "Pedro A. Ramos"
+      ],
+      "title": "On the structure of sets attaining the rectilinear crossing number",
+      "url": "https://publications.ist.tugraz.at/files/publications/geometry/aor-ssarc-06.pdf",
+      "version": "EuroCG 2006, 43–46; four-page author proceedings text.",
+      "locator": "Sections 1 and 3; Theorem 9 and following paragraph, manuscript p.3.",
+      "read": "Read exact existence theorem for a maximizing configuration with triangular convex hull, and the contrasting counterexample to every maximizer being triangular.",
+      "access_limit": "The extended abstract expressly omits proofs. No theorem claims a near-linear bound.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source": "ELSS73 Conjecture 5.2 / N08 equation (1.2)",
+      "result_scope": "The historical n log n expectation is surpassed by a subpower exponential factor.",
+      "assessment": "This disproves an O(n log n) reading, while exp(c sqrt(log n))/sqrt(log n)=o(n^epsilon) for every fixed epsilon>0. The precise near-linear clause survives."
+    },
+    {
+      "source": "D98 Theorem 3.3",
+      "result_scope": "General point sets, at most 6.48 n(k+2)^(1/3) (k+1)-sets.",
+      "assessment": "Putting k near n/2 retains exponent 4/3, above 1+epsilon for epsilon<1/3."
+    },
+    {
+      "source": "ALR24 Proposition 3 and Remark 1",
+      "result_scope": "Even n>=282, bound by the largest real root a_n; a_n-(29/8)^(1/3)n(n-1)^(1/3)=-29n/6+o(n).",
+      "assessment": "A linear subtraction leaves the 4/3 exponent unchanged."
+    },
+    {
+      "source": "RLMA25 Propositions 1–7",
+      "result_scope": "Odd-cardinality recurrences and finite improvements for 35,59,95,97 points; h(n)>=(3n-1)h(n+1)/(2n+2).",
+      "assessment": "These are lower-bound transfers and finite examples, with no polynomial-exponent lower bound contradicting the target and no matching universal upper bound."
+    },
+    {
+      "source": "SW25 Theorem 6 / Remark 7",
+      "result_scope": "Cumulative levels k<=1 in dimension n-3; nonpointed coneighborly spherical configurations can concentrate quadratically many vertices at central levels.",
+      "assessment": "Affine planar point sets correspond to pointed rank-three configurations. The full remark explicitly retains their gap; neither the dimensional theorem nor nonpointed examples settle it."
+    },
+    {
+      "source": "KT20 Theorems 1.1–1.2",
+      "result_scope": "Dense-set lower bounds with subpower exponential factors, including higher-dimensional extensions.",
+      "assessment": "No contradiction to planar n^(1+epsilon); dense-set upper bounds require a fixed spread assumption absent from the question."
+    },
+    {
+      "source": "D98 Section 4.1",
+      "result_scope": "A matching n k^(1/3) lower bound for general parametric matroids.",
+      "assessment": "General matroid feasibility is broader than selecting any n/2 options. It cannot be transferred to uniform selection or middle-level complexity without a missing reduction."
+    },
+    {
+      "source": "AP86 Section 4 Remarks (2)–(4)",
+      "result_scope": "Partial settlement of ELSS Conjecture 5.4 about intersecting graph edges, while Remark (4) separately retains Conjecture 5.2.",
+      "assessment": "Different extremal observable; the adjacent original conjecture number is material."
+    },
+    {
+      "source": "AMP13 Theorem 2",
+      "result_scope": "Linear time to find a single halving edge through a specified point using orientation queries.",
+      "assessment": "Runtime for finding one witness does not bound the total number of witnesses."
+    },
+    {
+      "source": "AOR06 Theorem 9",
+      "result_scope": "For each n>=3, some maximizing point set has triangular convex hull.",
+      "assessment": "Three extreme points leave arbitrarily many interior points; this is not the all-points-in-convex-position case and gives no requested exponent."
+    }
+  ],
+  "independently_authored_corroboration": {
+    "sources": [
+      "N08 Section 1, p.2",
+      "RS20 Conjecture 5.1.1",
+      "SW25 Remark 7"
+    ],
+    "assessment": "Nivasch and Roldán-Pensado–Soberón independently state the same near-linear conjecture. Streltsova–Wagner retain the planar bound gap in 2025. None shares an author with ELSS73. Mirrors and preprint/published versions are not counted separately."
+  },
+  "nearest_existing": [
+    {
+      "entry": "032-beck-fiala",
+      "difference": "Sparse set-system sign assignment, not counting geometric bisections."
+    },
+    {
+      "entry": "129-shortest-opaque-square-barrier",
+      "difference": "Minimum length of a set intersecting all lines through a region, not a finite point-set extremal count."
+    },
+    {
+      "entry": "287-planar-steiner-ratio",
+      "difference": "Ratio of optimized network lengths, not the number of balanced separators."
+    },
+    {
+      "entry": "322-polynomial-hirsch",
+      "difference": "Uniform graph-diameter bound with variable dimension; no middle-level count."
+    }
+  ],
+  "duplicate_check": {
+    "checked_on": "2026-09-19",
+    "baseline_commit": "b0254a5fa8816376d9aedd9f6a1c1aed7627700f",
+    "active_pages": 350,
+    "pending_accepted_before_this_candidate": 6,
+    "method": "Established full inventory and all titles/metadata, fresh full-text searches for halving, k-sets, k-facets, median/middle levels and dissection graphs, and full closest statements reread.",
+    "result": "No equivalent active or accepted draft found. Upstream equals local HEAD; connected GitHub returns no open PRs."
+  },
+  "normalization_checks": [
+    "Each geometric line counted once; pair endpoints removed before taking the two equal half-plane counts.",
+    "Even n>=2 includes the two-point case. Finitely many initial sizes can be absorbed into C_epsilon.",
+    "No uniformity in epsilon is asserted. A single exponent such as 1.001 would not suffice.",
+    "ELSS73 e_m=h(2m); big-O and little-o for every positive epsilon are equivalent via epsilon/2.",
+    "Actual affine straight lines are distinguished from nonpointed spherical configurations and non-realizable pseudolines.",
+    "The application is inferred directly from the verified duality; it counts membership changes in an unconstrained cheapest-half selection problem."
+  ],
+  "prepublication_refresh": {
+    "date": "2026-09-19",
+    "latest_target_commit": "b0254a5fa8816376d9aedd9f6a1c1aed7627700f",
+    "resolution_searches_refreshed": true,
+    "duplicate_review_refreshed": true,
+    "search_ids": [
+      "A59-1",
+      "A59-2",
+      "A59-3",
+      "A59-4",
+      "A59-5",
+      "A59-6",
+      "A59-7",
+      "A59-8",
+      "S451-1",
+      "S451-2",
+      "S451-3",
+      "S451-4"
+    ],
+    "upstream": "Bounded SSH fetch of main succeeded; local HEAD and origin/main equal, zero divergence; only authorized origin git@github.com:MColbrook/AIM.git. Connected GitHub open-PR search returned an empty list.",
+    "outcome": "No equivalent upstream addition or matching resolution located. Refresh again before permanent-ID integration."
+  },
+  "discovery_access_limits": [
+    {
+      "source": "Rodrigo–Lantarón–López, Improvements to the lower bound of the maximum number of halving lines for small sets",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7073865",
+      "version": "SSRN 7073865, posted July 7, 2026; seven pages according to indexed primary metadata.",
+      "access": "Primary page and attempted PDF returned 403; searches exposed only title, authors and an incomplete abstract. No full theorem or proof inspected.",
+      "assessment": "Discovery-only finite-set lower-bound lead. Not a source for any claimed result, current best bound or admission corroboration. No complete-resolution announcement seen; retain the limitation openly."
+    },
+    {
+      "source": "Publisher and institutional transport",
+      "access": "MDPI HTML failed and the Comillas Axioms PDF returned 410. Direct MDPI PDF and UPM Symmetry PDF succeeded and supplied the full texts. Several web-tool PDF opens failed while direct scholarly HTTPS downloads succeeded."
+    },
+    {
+      "source": "General search noise",
+      "access": "Bitcoin halving, unrelated k-set terminology and social-media assertions were not used as mathematical evidence. The failed erdosproblems.com/153 lookup supplied no content."
+    }
+  ],
+  "validation": {
+    "strict_katex_expressions": 24,
+    "render": "Final full-page Chrome screenshot visually inspected after the last prose changes; all 24 strict KaTeX expressions rendered without errors or clipping.",
+    "external_links": "All seven bibliography URLs returned HTTP 200 in direct GET checks.",
+    "external_link_record": "research/expansion-2026-09/planar-halving-lines-link-check.json",
+    "structural": "Catalogue validation passed for 350 entries; all five draft local links resolve; 63 candidate records reconcile to 57 accepted and six held, with 50 integrated and seven pending. Coverage sums to 57. Git diff whitespace checks passed."
+  }
+}
