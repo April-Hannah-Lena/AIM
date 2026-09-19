@@ -270,9 +270,13 @@
     {
       "commit": "84709e5e095b12a72f18147a3c12a204f718250e",
       "purpose": "Reviewed D-stable Lotka–Volterra global-attraction draft, nine source records, thirteen scope comparisons, A66 and technical validation; direct main push separately verified September 19, 2026. No new active catalogue entry."
+    },
+    {
+      "commit": "2bc4fb6fdd212629136732fb778adb1f073cf1f3",
+      "purpose": "Reviewed general-graph perfect-matching NC draft, twelve sources, fourteen scope comparisons, A67 and technical validation; direct main push separately verified September 19, 2026. No new active catalogue entry."
     }
   ],
-  "remote_state": "All sixty catalogue additions (301–360) are published directly on main. Four accepted pending drafts and their evidence are already uploaded. The fifth pending draft, deterministic general-graph perfect matching in NC, is reviewed locally and ready for direct upload. Active total 360.",
+  "remote_state": "All sixty catalogue additions (301–360) are published directly on main. All five accepted pending drafts and their evidence are uploaded: illumination, GNRS, Fourier entropy–influence, D-stable Lotka–Volterra attraction and general-graph perfect matching in NC. The latest research commit 2bc4fb6fdd212629136732fb778adb1f073cf1f3 was separately verified on remote main September 19, 2026. Active total 360; five accepted drafts await batch integration.",
   "next_actions": [
     "Continue broad research toward at least 200 integrated additions: 65 accepted, 60 published, five pending drafts; 135 acceptances and 140 integrations remain to the minimum. Five more accepted drafts would form the next ten-entry batch before assigning permanent IDs.",
     "Prioritize distinct families in statistics, information, biology, control and operations research alongside all twelve sections.",

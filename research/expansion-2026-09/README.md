@@ -24,7 +24,7 @@ The user authorized repository uploads and direct pushes to main. No PR is requi
 
 The [accepted draft](drafts/general-graph-perfect-matching-nc.md) asks for an exact deterministic construction on every finite simple graph, with logspace-uniform polynomial-size, polylogarithmic-depth Boolean circuits. The [ledger](candidates/general-graph-perfect-matching-nc.json) contains twelve sources and fourteen scope comparisons. It separates the July bipartite breakthrough, weighted-decision reductions, fractional matching, fixed-accuracy rank approximation, catalytic workspace, restricted solution counts and GPU implementations from the requested construction.
 
-The separated A67 self-review included two September 17 preprints. All 21 mathematical expressions passed strict KaTeX and full-page visual inspection. Three local links resolve; ten external targets responded successfully, with publisher-cookie and certificate limitations documented separately. This fifth accepted pending draft has no permanent ID. Its evidence is ready for direct upload to main.
+The separated A67 self-review included two September 17 preprints. All 21 mathematical expressions passed strict KaTeX and full-page visual inspection. Three local links resolve; ten external targets responded successfully, with publisher-cookie and certificate limitations documented separately. This fifth accepted pending draft has no permanent ID. Its [research checkpoint](https://github.com/MColbrook/AIM/commit/2bc4fb6fdd212629136732fb778adb1f073cf1f3) was pushed directly to main, and a separate remote-ref read matched the exact commit on September 19, 2026.
 
 ## Global ecological attraction (2026-09-19)
 

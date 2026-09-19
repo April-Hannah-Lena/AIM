@@ -365,3 +365,6 @@ A67 was a separated adversarial self-pass after drafting. All 21 mathematical ex
 The 52 matching queries and sixteen preceding breadth-discovery queries bring the log to 2,485 actual queries with distinct identifiers. S508–S511 covered continuum/statistical-physics leads; no extra candidate was admitted. Existing resolution warnings for extreme Stokes waves and the unqualified liquid-drop problem remain in force. Fourth-order shape optimization, driven wave cascades, fast dynamo and FPU leads need precise additional source and scope work before admission.
 
 There are 65 accepted additions, 60 integrated/published, five pending drafts, six holds, 71 formal candidate records and 360 active entries. The minimum still requires 135 acceptances and 140 integrations. No permanent identifier is assigned to this draft; its reviewed research is ready for direct upload.
+
+
+Publication receipt: [2bc4fb6](https://github.com/MColbrook/AIM/commit/2bc4fb6fdd212629136732fb778adb1f073cf1f3) was pushed directly to main on September 19, 2026; a separate remote-ref read matched the exact full commit. All five accepted pending drafts and their evidence are uploaded. Counts remain 65 accepted additions, 60 integrated catalogue additions, five pending drafts and 360 active entries.

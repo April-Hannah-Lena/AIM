@@ -422,7 +422,7 @@
     "application_check": "Pairwise compatible exchanges provide a concrete model with explicitly limited asymptotic circuit implications.",
     "search_limit": "This is a status and theorem-scope audit, not exhaustive research or independent proof certification."
   },
-  "publication_state": "Accepted local research draft; direct main upload pending. No permanent ID or active catalogue integration.",
+  "publication_state": "Accepted research draft and evidence uploaded directly to main; exact research commit separately verified September 19, 2026. No permanent ID or active catalogue integration.",
   "draft_path": "research/expansion-2026-09/drafts/general-graph-perfect-matching-nc.md",
   "aliases": [
     "Perfect matching in NC",
@@ -511,6 +511,14 @@
     "external_links": "Ten of twelve targets responded successfully, including six PDF headers. Publisher cookie restriction and GPU-PDF certificate failure are recorded separately from successful full-text reading routes.",
     "external_link_record": "research/expansion-2026-09/general-graph-perfect-matching-nc-link-check.json",
     "local_links": "All three relative links resolve.",
-    "structure": "Required headings, citations, unique source/search IDs and count consistency checked. No active metadata or permanent identifier changed."
+    "structure": "Required headings, citations, unique source/search IDs and count consistency checked. No active metadata or permanent identifier changed. Catalogue validator passed all 360 active entries and git diff --check passed."
+  },
+  "remote_publication": {
+    "date": "2026-09-19",
+    "destination": "MColbrook/AIM:main",
+    "commit": "2bc4fb6fdd212629136732fb778adb1f073cf1f3",
+    "scope": "Research draft and evidence only; active catalogue remains 360.",
+    "verified_by": "Successful direct fast-forward push followed by a separate git ls-remote returning the exact full commit.",
+    "pull_request": null
   }
 }
