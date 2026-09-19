@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 52,
+  "new_accepted": 53,
   "active_total": 350,
-  "candidates_investigated": 58,
+  "candidates_investigated": 59,
   "held_unverified": 1,
   "held_claimed_resolution": 5,
   "excluded": 0,
-  "remaining_to_minimum": 148,
-  "remaining_to_target": 198,
+  "remaining_to_minimum": 147,
+  "remaining_to_target": 197,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -224,11 +224,11 @@
       "purpose": "Record reviewed cutting-stock MIRUP draft, twelve-source audit, bibliography checks and discovery; pushed directly to main and exact remote commit separately verified September 19, 2026."
     }
   ],
-  "remote_state": "All fifty catalogue additions (301–350) and their research records are published directly on main. Integer 3SUM and MIRUP are uploaded as accepted research drafts, the latter in 64a2a6e2af407a86e344d911b0023ed0877c922e. A separate remote-ref read verified that exact research commit on September 19, 2026. Two accepted drafts await integration; the active catalogue remains 350.",
+  "remote_state": "All fifty catalogue additions (301–350), integer 3SUM and MIRUP research drafts are published directly on main. Entanglement-of-purification additivity has passed review and validation locally and is ready for direct upload. Three accepted drafts await integration; active catalogue remains 350.",
   "next_actions": [
-    "Continue research toward the next ten-to-twenty-entry integration batch. Integer 3SUM and MIRUP are accepted and uploaded as drafts; no permanent IDs until the batch is ready.",
+    "Continue research toward the next ten-to-twenty-entry integration batch. Integer 3SUM, MIRUP and entanglement-of-purification additivity are accepted drafts; no permanent IDs until the batch is ready.",
     "Continue discovery in other distinct families. Tensor detection is held after A52 found a potentially matching sparse-parity theorem whose modulus and hierarchy-level scope require clarification; see spiked-tensor-scope-hold.md.",
-    "Research and review eight or more further distinct additions for the next batch; refresh status and upstream duplicates before assigning permanent IDs. Fifty additions are integrated/published, and two accepted drafts await integration.",
+    "Research and review seven or more further distinct additions for the next batch; refresh status and upstream duplicates before assigning permanent IDs. Fifty additions are integrated/published, and three accepted drafts await integration.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the six held candidates and discovery-only leads outside the active count; preserve original identifiers and historical dates.",
     "CFN sunlet projective quadratic generation needs independent corroboration and saturation-scope review; private-learning leads still need complete formulation and corroboration.",
@@ -236,7 +236,7 @@
     "Do not admit general strongly polynomial LP without adjudicating matching claims; keep historical entries 031, 032 and 286 follow-ups separate from new counts.",
     "Bernoulli Renyi joint-parameter concavity and the small-sample entangled-Gaussian mean question still need independently authored status corroboration. The 2026 statistics survey does not explicitly corroborate that precise small-sample remainder. Continue precise statistics, biology, information and control discovery.",
     "Continue the continuous-time Carrasco discovery audit in carrasco-discovery.md: original full formulation and independent status discussion read; July 2026 discrete-time disproof inspected at model/theorem level. Reconcile multiplier and stability conventions and investigate any continuous-time transfer before fingerprinting or admission. No candidate or accepted count assigned.",
-    "Read the full von Neumann entanglement-of-purification additivity formulation and recent Renyi counterexamples before fingerprinting; August 2026 alpha<1 results and earlier numerical evidence have only been screened for discovery. Keep the mammillary identifiability lead outside admission while its matching September claim is investigated."
+    "The entanglement-of-purification draft passed exact-source, current-status, duplicate and A55 review; complete direct publication and continue distinct families. Keep the mammillary identifiability lead outside admission while its matching September claim is investigated."
   ],
   "coverage": {
     "inverse3": 7,
@@ -248,17 +248,17 @@
     "inverse": 3,
     "stochastic2": 4,
     "spectral": 1,
-    "spectral3": 2,
+    "spectral3": 3,
     "continuum3": 2,
     "continuum2": 1
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 50,
-  "count_semantics": "Fifty accepted additions are integrated and published directly on main; integer 3SUM and MIRUP are accepted drafts awaiting the next integration batch. Active total 350. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
+  "count_semantics": "Fifty accepted additions are integrated and published directly on main; integer 3SUM, MIRUP and entanglement-of-purification additivity are accepted drafts awaiting the next integration batch. Active total 350. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 50,
-  "coverage_semantics": "Accepted additions by primary section; fifty integrated and two pending accepted drafts.",
+  "coverage_semantics": "Accepted additions by primary section; fifty integrated and three pending accepted drafts.",
   "remaining_integrations_to_minimum": 150,
   "remaining_integrations_to_target": 200,
-  "pending_accepted": 2
+  "pending_accepted": 3
 }

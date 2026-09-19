@@ -1,0 +1,379 @@
+{
+  "candidate_id": "entanglement-of-purification-additivity",
+  "proposed_catalogue_id": null,
+  "title": "Additivity of entanglement of purification",
+  "primary_section": "spectral3",
+  "decision": "accept_open",
+  "decision_reason": "Exact sourced formulation, independently authored current corroboration, ten claim-scope comparisons, full-statement deduplication, A55 self-review and technical validation passed. No unresolved matching rigorous resolution claim located.",
+  "aliases": [
+    "EoP additivity",
+    "E_P additivity",
+    "Nonadditivity of entanglement of purification"
+  ],
+  "secondary_tags": [
+    "quantum information",
+    "correlation preparation",
+    "resource costs"
+  ],
+  "problem_fingerprint": {
+    "input": "Arbitrary density operators rho_AB and sigma_CD on arbitrary finite-dimensional complex Hilbert spaces A,B,C,D; density operators are positive semidefinite with trace one.",
+    "entropy": "Ordinary von Neumann entropy S(tau)=-Tr(tau log_2 tau), with 0 log_2 0=0.",
+    "optimization": "E_P(A:B)_rho is the minimum of S(Tr_BB' |psi><psi|) over every normalized pure-state purification on AA'BB' of rho_AB, allowing arbitrary finite auxiliary spaces A',B'. The minimum is attained by the original dimension-bound lemma.",
+    "question": "Does E_P(AC:BD)_(rho tensor sigma)=E_P(A:B)_rho+E_P(C:D)_sigma hold for every such pair?",
+    "known_direction": "Product purifications give the less-than-or-equal direction. A negative answer requires a strict inequality for some pair; numerical local minima do not certify the necessary global lower bound.",
+    "quantifiers": "All finite dimensions and all mixed or pure input states; both factors may differ. The left-hand optimization allows arbitrary joint purifications.",
+    "canonical_scope": "One general von Neumann product-state additivity question. Identical tensor powers, classical states, two-qubit states and Renyi orders are not counted as separate additions.",
+    "distinctions": "Not strong superadditivity on arbitrary correlated four-party states, ordinary channel minimum-output-entropy additivity, entanglement of formation, or distillability. A positive general answer implies E_P equals its identical-copy regularization; no converse is needed or asserted."
+  },
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "statement_sources": [
+    {
+      "source_id": "THLD02",
+      "locator": "Section II Definition 1, equation (4), and Lemma 1; Section I operational definition and Section II Theorem 2."
+    },
+    {
+      "source_id": "CW12",
+      "locator": "Section I Definition 1 and explicit arbitrary-pair additivity equation; Section IV final unresolved rigorous-counterexample discussion."
+    }
+  ],
+  "independently_authored_corroboration": {
+    "source_ids": [
+      "NK26"
+    ],
+    "independence": "Negari and Baghali Khanian are disjoint from the original Terhal-Horodecki-Leung-DiVincenzo team and from Chen-Winter. NK26 and FK26 share Baghali Khanian and are not counted as independent of each other.",
+    "scope": "August 2026 Introduction and Outlook explicitly retain the von Neumann problem, while Theorem 2 excludes order one from its analytic counterexamples."
+  },
+  "nearest_existing": [
+    {
+      "entry": "214",
+      "path": "problems/214-amplitude-damping-additivity.md",
+      "full_statement_read": true,
+      "comparison": "Holevo-information additivity for powers of a fixed amplitude-damping channel; the optimized functional, admissible objects and communication resource are different."
+    },
+    {
+      "entry": "038",
+      "path": "problems/038-depolarizing-quantum-capacity.md",
+      "full_statement_read": true,
+      "comparison": "Exact unassisted quantum capacity of a depolarizing channel, defined by regularized coherent information; not minimum entropy over bipartite-state purifications."
+    },
+    {
+      "entry": "040",
+      "path": "problems/040-quantum-entropy-cone.md",
+      "full_statement_read": true,
+      "comparison": "Universal linear inequalities for multipartite entropy vectors; does not ask whether an optimized purification cost is additive."
+    },
+    {
+      "entry": "313",
+      "path": "problems/313-entanglement-assisted-lovasz.md",
+      "full_statement_read": true,
+      "comparison": "Entanglement-assisted zero-error capacity of classical confusion graphs versus a semidefinite graph bound; different optimization, asymptotic object and success criterion."
+    },
+    {
+      "entry": "037",
+      "path": "problems/037-npt-bound-entanglement.md",
+      "full_statement_read": true,
+      "comparison": "Existence of negative-partial-transpose states nondistillable at every copy count; concerns extraction under LOCC, not formation with vanishing communication rate."
+    }
+  ],
+  "duplicate_check": {
+    "checked_on": "2026-09-19",
+    "scope": "Established full catalogue inventory and fresh purification/Chen-Winter/E_LOq/common-information search across active pages, data, catalogue manifest, candidates, source maps, discovery and exclusions. Complete nearest statements compared.",
+    "result": "No equivalent active or accepted entry found. Existing discovery note points to this same lead and has no count."
+  },
+  "status_search_ids": [
+    "S419-1",
+    "S419-2",
+    "S419-3",
+    "S419-4",
+    "S420-1",
+    "S420-2",
+    "S420-3",
+    "S420-4",
+    "S421-1",
+    "S421-2",
+    "S421-3",
+    "S421-4",
+    "S422-1",
+    "S422-2",
+    "S422-3",
+    "S422-4",
+    "A55-1",
+    "A55-2",
+    "A55-3",
+    "A55-4",
+    "A55-5",
+    "A55-6",
+    "A55-7",
+    "A55-8"
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/entanglement-of-purification-additivity.md",
+  "publication_state": "Accepted research draft ready for direct upload to main; no permanent ID. Awaiting the next integration batch.",
+  "second_review": {
+    "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass; no independent agent or human review.",
+    "pass_id": "A55",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "independent_searches": [
+      "A55-1",
+      "A55-2",
+      "A55-3",
+      "A55-4",
+      "A55-5",
+      "A55-6",
+      "A55-7",
+      "A55-8"
+    ],
+    "issues_found": [
+      "Numerical nonadditivity and a later author summary can be mistaken for a rigorous counterexample.",
+      "The latest analytic counterexamples exclude the von Neumann endpoint.",
+      "One-copy classical formulas, order-two norm results, unconstrained channel counterexamples and holographic inequalities can be conflated with the target.",
+      "Arbitrary-pair additivity must not be silently replaced by identical-copy or strong-superadditivity assertions."
+    ],
+    "issues_resolved": [
+      "Read the complete CW12 numerical argument and explicit rigorous-proof limitation; traced the author summary to that same paper.",
+      "Checked NK26 Theorems 1–3 and Appendix C.2, including the alpha-dependent witness parameter.",
+      "Compared full relevant theorem hypotheses and models of FK26, H09 and TU18; retained only the elementary upper bound from BP15.",
+      "Kept all finite dimensions, arbitrary mixed states, unequal factors, all joint purifications and ordinary von Neumann entropy."
+    ],
+    "quantifier_checks": "All finite-dimensional complex bipartite density operators and both factors arbitrary; auxiliary systems unrestricted finite; normalized pure purifications; base-two entropy; grouping AC:BD.",
+    "application_check": "Asymptotically vanishing preparation error and o(n) communication for n copies; distinguish this total-correlation cost from unrestricted-LOCC entanglement cost. No efficient computability is claimed.",
+    "duplicate_check": "Fresh alias searches and full nearest statements 214, 038, 040, 313 and 037 compared. No equivalent accepted entry found.",
+    "search_limit": "Separated self-review, not independent mathematical adjudication; numerical searches were not rerun and cited preprints are not proof-certified."
+  },
+  "source_records": [
+    {
+      "source_id": "THLD02",
+      "authors": [
+        "Barbara M. Terhal",
+        "Michał Horodecki",
+        "Debbie W. Leung",
+        "David P. DiVincenzo"
+      ],
+      "title": "The entanglement of purification",
+      "url": "https://arxiv.org/pdf/quant-ph/0202044v3",
+      "version": "arXiv:quant-ph/0202044v3, May 1, 2002; Journal of Mathematical Physics 43, 4286–4298 (2002), DOI 10.1063/1.1498001.",
+      "locator": "Section I equation (1); Section II Definition 1, equation (4), Lemma 1 and Theorem 2.",
+      "read": "Full definition, auxiliary-dimension existence lemma, operational model and cost theorem read. LOq permits o(n) communication and asymptotically vanishing preparation error.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/quant-ph/0202044",
+        "https://qutech.nl/terhal-group/publications-terhal/"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Author manuscript read; publisher text not line-compared."
+    },
+    {
+      "source_id": "CW12",
+      "authors": [
+        "Jianxin Chen",
+        "Andreas Winter"
+      ],
+      "title": "Non-Additivity of the Entanglement of Purification (Beyond Reasonable Doubt)",
+      "url": "https://arxiv.org/pdf/1206.1307v1",
+      "version": "arXiv:1206.1307v1, June 6, 2012; sole arXiv version, preprint.",
+      "locator": "Section I Definition 1 and arbitrary-pair additivity equation; Section II Theorem 3 and Corollary 4; Sections III–IV.",
+      "read": "Exact formulation, convexity theorem, numerical optimization and concluding rigorous-proof limitation read.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/1206.1307",
+        "https://quantum.cs.tsinghua.edu.cn/publication/cw-12-1/"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "No independent rerun or numerical certificate; author publication page also labels the work a preprint."
+    },
+    {
+      "source_id": "BP15",
+      "authors": [
+        "Shrobona Bagchi",
+        "Arun Kumar Pati"
+      ],
+      "title": "Monogamy, polygamy, and other properties of entanglement of purification",
+      "url": "https://arxiv.org/pdf/1502.01272v3",
+      "version": "arXiv:1502.01272v3, submitted November 15, 2015; PDF typesetting date November 17. Physical Review A 91, 042323 (2015), DOI 10.1103/PhysRevA.91.042323.",
+      "locator": "Section VI, Theorem 2, proof and concluding strict-subadditivity question, pp. 9–10.",
+      "read": "Full tensor-product statement and proof read. Used for the elementary upper-bound direction and retained question, not its stronger characterization of every optimal purification.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/1502.01272",
+        "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.91.042323"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "The paper's unrelated historical claims and equality-characterization argument are not adopted as premises."
+    },
+    {
+      "source_id": "FK26",
+      "authors": [
+        "Shokoufe Faraji",
+        "Zahra Baghali Khanian"
+      ],
+      "title": "Additivity Results for the Rényi-2 Entanglement of Purification",
+      "url": "https://arxiv.org/html/2605.15439v1",
+      "version": "arXiv:2605.15439v1, May 14, 2026; sole version, preprint.",
+      "locator": "Section I equations (1)–(12); Theorems 14 and 32; Section IV Proposition 33, Proposition 35 and Corollary 36; Section V equations (281)–(290).",
+      "read": "Full constrained input model and relevant theorem hypotheses read. Section V distinguishes the adjoint-complement map arising for Werner states from the channel families covered by the order-two result.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Scope review, not independent validation of all norm estimates."
+    },
+    {
+      "source_id": "NK26",
+      "authors": [
+        "Amir-Reza Negari",
+        "Zahra Baghali Khanian"
+      ],
+      "title": "Rényi Entanglement of Purification Is Non-additive",
+      "url": "https://arxiv.org/html/2608.28897v1",
+      "version": "arXiv:2608.28897v1, August 28, 2026; sole version, preprint.",
+      "locator": "Section I equation (1); Theorems 1–3 with main-text proofs; Appendix C.2 equations (C13)–(C34), endpoint discussion; Section V Outlook.",
+      "read": "Definitions, complete theorem scopes and fixed-order witness argument read, including explicit failure of uniformity near order one.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "No independent proof certification; the newest status corroboration is a preprint."
+    },
+    {
+      "source_id": "H09",
+      "authors": [
+        "M. B. Hastings"
+      ],
+      "title": "Superadditivity of communication capacity using entangled inputs",
+      "url": "https://arxiv.org/pdf/0809.3972v4",
+      "version": "arXiv:0809.3972v4, December 30, 2009; Nature Physics 5, 255 (2009), DOI 10.1038/nphys1224.",
+      "locator": "Main text equations (1)–(8), Theorem 1 and following witness discussion, pp. 1–2.",
+      "read": "Complete minimum-output-entropy formulation, random-channel hypotheses and strict-inequality theorem read.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Relevant theorem and model compared; supplemental probabilistic proof not independently audited."
+    },
+    {
+      "source_id": "TU18",
+      "authors": [
+        "Tadashi Takayanagi",
+        "Koji Umemoto"
+      ],
+      "title": "Holographic Entanglement of Purification",
+      "url": "https://arxiv.org/pdf/1708.09393v2",
+      "version": "arXiv:1708.09393v2, December 14, 2018; Nature Physics 14, 573–577 (2018), DOI 10.1038/s41567-018-0075-2.",
+      "locator": "Sections 2–4, equations (4)–(18); Section 9; Appendix B.",
+      "read": "Classical-gravity model, wedge-area functional, strong-superadditivity statement and relevant geometric proof read. Conclusion identifies the proposed E_W=E_P correspondence as a conjecture for holographic CFTs.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "No general finite-dimensional E_P theorem is asserted by this source."
+    },
+    {
+      "source_id": "W25",
+      "authors": [
+        "Andreas Winter"
+      ],
+      "title": "Curriculum Vitae, December 8, 2025",
+      "url": "https://www.icrea.cat/cvs/17685/andreas-winter/",
+      "version": "Author CV dated December 8, 2025; primary author summary, not a new research paper.",
+      "locator": "Research-achievements additivity paragraph, PDF p. 20; publication item 115, PDF p. 10.",
+      "read": "The nonadditivity summary expressly uses numerical methods and cites arXiv:1206.1307.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Used only to trace stronger-sounding author wording to CW12; not independent corroboration."
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "THLD02",
+      "locator": "Definition 1; Lemma 1; Theorem 2.",
+      "claim": "Finite-ancilla attainment and the operational formula E_LOq=E_P^infinity.",
+      "comparison": "Matches the stated optimization and application. The theorem retains regularization and does not prove the displayed all-pair equality.",
+      "outcome": "Formulation and operational support; no resolution."
+    },
+    {
+      "source_id": "CW12",
+      "locator": "Theorem 3; Corollary 4; Sections III–IV.",
+      "claim": "Convexity of E_P^infinity−S and numerical Werner-state nonadditivity.",
+      "comparison": "A sufficient witness is E_P(W(0.005))>0.9663, but the paper's local minimization yields upper bounds and explicitly leaves a rigorous lower-bound certificate to future work.",
+      "outcome": "Strong numerical evidence, not a matching rigorous disproof; no unresolved competing rigorous claim in this work."
+    },
+    {
+      "source_id": "BP15",
+      "locator": "Section VI Theorem 2 and final paragraph.",
+      "claim": "General subadditivity under tensor products.",
+      "comparison": "Product purifications establish <=. The source retains strict inequality as open; no universal reverse inequality is established. No reliance is placed on its additional optimizer-characterization clause.",
+      "outcome": "Known direction only."
+    },
+    {
+      "source_id": "NK26",
+      "locator": "Theorem 2; Appendix C.2, especially after (C34).",
+      "claim": "Analytic two-copy counterexamples for every fixed 0<=alpha<1.",
+      "comparison": "The candidate fixes alpha=1. The small witness parameter depends on alpha; the proof expressly excludes a uniform passage to one.",
+      "outcome": "Different entropy-order range."
+    },
+    {
+      "source_id": "NK26",
+      "locator": "Theorem 3 and main-text proof.",
+      "claim": "Strong product additivity for alpha>=2 with a classical two-qubit factor and any finite classical second state.",
+      "comparison": "Both the entropy order and classical-factor restriction differ from the arbitrary-state von Neumann question.",
+      "outcome": "Restricted positive result."
+    },
+    {
+      "source_id": "NK26",
+      "locator": "Theorem 1; Section III opening; Section V.",
+      "claim": "Exact one-copy optimum for classical two-qubit states at all orders.",
+      "comparison": "Their two-copy product lives on a four-by-four bipartite space. This one-copy family formula does not optimize arbitrary joint purifications of that product.",
+      "outcome": "Does not settle additivity even within the classical two-qubit family at order one."
+    },
+    {
+      "source_id": "FK26",
+      "locator": "Equations (11)–(12); Theorem 32; Proposition 33; Section V.",
+      "claim": "Order-two tensor-power multiplicativity under N†N=a id+b Tr(.)I with a,b>=0.",
+      "comparison": "Restricted channel structure and order two. The Werner-state map involves the adjoint of a complementary channel; Section V leaves that problem open. Complementary invariance is not invariance under taking this adjoint.",
+      "outcome": "No general von Neumann additivity theorem."
+    },
+    {
+      "source_id": "H09",
+      "locator": "Equations (4)–(8), Theorem 1; compared with FK26 equations (11)–(12).",
+      "claim": "Nonadditivity of unconstrained minimum output entropy for random quantum channels.",
+      "comparison": "The ordinary channel problem optimizes over unrestricted pure inputs. The E_P reformulation retains an auxiliary system and a prescribed maximally mixed marginal; the theorem supplies no comparison of these constrained optima. CW12 Section I also explicitly distinguishes the known constructions.",
+      "outcome": "Different optimization; no demonstrated transfer to E_P."
+    },
+    {
+      "source_id": "TU18",
+      "locator": "Equation (18), Appendix B and Section 9.",
+      "claim": "Strong superadditivity of entanglement-wedge cross-section E_W.",
+      "comparison": "This is a geometric statement in a classical-gravity dual. The source conjectures its identification with E_P only for holographic CFTs. It is not a proof for all finite-dimensional density operators.",
+      "outcome": "Different functional and restricted model."
+    },
+    {
+      "source_id": "W25",
+      "locator": "Research-achievements paragraph and publication item 115.",
+      "claim": "Author summary says E_P nonadditivity was shown using information-theoretic and numerical methods.",
+      "comparison": "It refers to the same CW12 analysis and supplies no new rigorous theorem or numerical certificate. Read together with CW12's stated limitation and NK26's current assessment, the wording does not create an unresolved rigorous-resolution conflict.",
+      "outcome": "Same numerical evidence, not an independent resolution."
+    }
+  ],
+  "validation": {
+    "state": "passed",
+    "checked_on": "2026-09-19",
+    "strict_katex": {
+      "expressions": 19,
+      "result": "passed"
+    },
+    "visual_review": "Full 1280-by-3100 browser render inspected; all four sections, formulas and references visible without clipping. Temporary image /private/tmp/aim-eop-research/draft-final.png.",
+    "structure": "Required metadata and four headings passed; all four relative links resolve.",
+    "bibliography": "Five primary full-text links returned HTTP 200. The JMP DOI returned HTTP 403; its linked arXiv author manuscript was successfully accessed.",
+    "bibliography_report": "research/expansion-2026-09/entanglement-of-purification-link-check.json",
+    "ledger": "Eight source records, ten scope comparisons and 24 unique search IDs, all present in the search log.",
+    "catalogue": "python3 scripts/catalogue.py --check passed: 350 unique entries, metadata, headings, math delimiters, local links and README freshness. git diff --check passed."
+  },
+  "normalization_checks": [
+    "Finite ancillary dimension bound in THLD02 permits min rather than inf.",
+    "Separate optimal purifications are feasible for the product and entropy is additive on their tensor product, establishing only <=.",
+    "The subadditive sequence E_P(rho^tensor n) has a normalized limit; no monotone decrease of every normalized term is asserted.",
+    "General additivity implies equality with identical-copy regularization; no converse is asserted.",
+    "The question is posed without endorsing additivity as a likely positive conjecture."
+  ],
+  "publication": {
+    "destination": "MColbrook/AIM main",
+    "authorization": "User explicitly authorized normal direct pushes.",
+    "upstream_precheck": "refs/heads/main matched b64d0af166e62206992c277be95b7c57d363312a on 2026-09-19; no new upstream additions to compare.",
+    "state": "pending_push"
+  }
+}

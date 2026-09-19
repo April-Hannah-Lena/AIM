@@ -390,3 +390,7 @@ The [MIRUP draft](drafts/modified-integer-round-up.md) passed formulation, sourc
 All 46 actual queries from S411–S418 and A54 are logged, for 1,944 unique identifiers. There are now 52 accepted additions, 50 integrated/published, two pending accepted drafts, six formal holds and 58 formal records; the active catalogue remains 350. Eight more accepted drafts are needed for the next ten-entry integration batch. The minimum requires 148 further acceptances and 150 integrations. The reviewed MIRUP checkpoint is ready for the authorized direct push.
 
 Publication receipt: [64a2a6e](https://github.com/MColbrook/AIM/commit/64a2a6e2af407a86e344d911b0023ed0877c922e) was pushed directly to main on September 19, 2026. A separate remote-ref read matched the full research commit. Both accepted drafts and their evidence are uploaded; fifty additions remain integrated, the active total is 350, and two accepted drafts await the next batch.
+
+### Entanglement-of-purification lead promoted, September 19
+
+The earlier abstract-only lead has completed full-source and A55 review and is now an [accepted research draft](drafts/entanglement-of-purification-additivity.md). See its [ledger](candidates/entanglement-of-purification-additivity.json) for the exact von Neumann formulation and scope of the numerical and Rényi claims. This is one accepted addition, still awaiting batch integration; the earlier discovery note is historical, not an additional candidate.

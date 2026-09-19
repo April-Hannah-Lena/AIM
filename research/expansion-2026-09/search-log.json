@@ -16033,5 +16033,197 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted",
     "review_stage": "Separated A54 full-text follow-up on proper non-IRUP examples and divisible-instance bounds."
+  },
+  {
+    "search_id": "S419-1",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" additivity proved counterexample",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Entanglement-of-purification exact source, additivity status, numerical claims and recent Renyi results."
+  },
+  {
+    "search_id": "S419-2",
+    "searched_on": "2026-09-19",
+    "query": "\"Terhal\" \"Horodecki\" \"Leung\" \"DiVincenzo\" \"purification\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Entanglement-of-purification exact source, additivity status, numerical claims and recent Renyi results."
+  },
+  {
+    "search_id": "S419-3",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" \"nonadditivity\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Entanglement-of-purification exact source, additivity status, numerical claims and recent Renyi results."
+  },
+  {
+    "search_id": "S419-4",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" \"additivity\" \"2025\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Entanglement-of-purification exact source, additivity status, numerical claims and recent Renyi results."
+  },
+  {
+    "search_id": "S420-1",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" \"additivity\" proof disproof refutation",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Entanglement-of-purification numerical nonadditivity, rigorous claims, Hastings comparison and recent literature; executed before fingerprint and draft."
+  },
+  {
+    "search_id": "S420-2",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" \"Hastings\" additivity",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Entanglement-of-purification numerical nonadditivity, rigorous claims, Hastings comparison and recent literature; executed before fingerprint and draft."
+  },
+  {
+    "search_id": "S420-3",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" \"Chen\" \"Winter\" rigorous",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Entanglement-of-purification numerical nonadditivity, rigorous claims, Hastings comparison and recent literature; executed before fingerprint and draft."
+  },
+  {
+    "search_id": "S420-4",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" \"non-additive\" 2025 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Entanglement-of-purification numerical nonadditivity, rigorous claims, Hastings comparison and recent literature; executed before fingerprint and draft."
+  },
+  {
+    "search_id": "S421-1",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" solved resolution \"2024\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Predraft check of older and current resolutions, alternate EoP terminology, author chains and corrections."
+  },
+  {
+    "search_id": "S421-2",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" additivity \"2026\" correction erratum",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Predraft check of older and current resolutions, alternate EoP terminology, author chains and corrections."
+  },
+  {
+    "search_id": "S421-3",
+    "searched_on": "2026-09-19",
+    "query": "\"Non-Additivity\" \"Chen\" \"Winter\" withdrawn erratum journal",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Predraft check of older and current resolutions, alternate EoP terminology, author chains and corrections."
+  },
+  {
+    "search_id": "S421-4",
+    "searched_on": "2026-09-19",
+    "query": "\"EoP\" \"von Neumann\" additivity proof",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Predraft check of older and current resolutions, alternate EoP terminology, author chains and corrections."
+  },
+  {
+    "search_id": "S422-1",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" \"tensor products\" \"strict\" proof",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Predraft exact tensor-product wording, rigorous nonadditivity follow-up, recent author and historical correction checks."
+  },
+  {
+    "search_id": "S422-2",
+    "searched_on": "2026-09-19",
+    "query": "\"Non-Additivity of the Entanglement of Purification\" \"rigorous\" proof",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Predraft exact tensor-product wording, rigorous nonadditivity follow-up, recent author and historical correction checks."
+  },
+  {
+    "search_id": "S422-3",
+    "searched_on": "2026-09-19",
+    "query": "\"Negari\" \"Khanian\" purification correction withdrawn",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Predraft exact tensor-product wording, rigorous nonadditivity follow-up, recent author and historical correction checks."
+  },
+  {
+    "search_id": "S422-4",
+    "searched_on": "2026-09-19",
+    "query": "\"Bagchi\" \"Pati\" \"purification\" erratum correction",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Predraft exact tensor-product wording, rigorous nonadditivity follow-up, recent author and historical correction checks."
+  },
+  {
+    "search_id": "A55-1",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" additivity \"proof\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated adversarial self-review after drafting: rigorous or certified counterexamples, exact von Neumann scope, older claims, recent literature and corrections."
+  },
+  {
+    "search_id": "A55-2",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" \"counterexample\" \"von Neumann\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated adversarial self-review after drafting: rigorous or certified counterexamples, exact von Neumann scope, older claims, recent literature and corrections."
+  },
+  {
+    "search_id": "A55-3",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" \"nonadditivity\" certified",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated adversarial self-review after drafting: rigorous or certified counterexamples, exact von Neumann scope, older claims, recent literature and corrections."
+  },
+  {
+    "search_id": "A55-4",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" \"Werner\" \"lower bound\" 0.005",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated adversarial self-review after drafting: rigorous or certified counterexamples, exact von Neumann scope, older claims, recent literature and corrections."
+  },
+  {
+    "search_id": "A55-5",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" \"additive\" \"proved\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated adversarial self-review after drafting: rigorous or certified counterexamples, exact von Neumann scope, older claims, recent literature and corrections."
+  },
+  {
+    "search_id": "A55-6",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" \"non-additivity\" \"rigorous proof\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated adversarial self-review after drafting: rigorous or certified counterexamples, exact von Neumann scope, older claims, recent literature and corrections."
+  },
+  {
+    "search_id": "A55-7",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" \"2025\" \"2026\" \"resolution\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated adversarial self-review after drafting: rigorous or certified counterexamples, exact von Neumann scope, older claims, recent literature and corrections."
+  },
+  {
+    "search_id": "A55-8",
+    "searched_on": "2026-09-19",
+    "query": "\"entanglement of purification\" \"Chen\" \"Winter\" corrigendum",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated adversarial self-review after drafting: rigorous or certified counterexamples, exact von Neumann scope, older claims, recent literature and corrections."
   }
 ]
