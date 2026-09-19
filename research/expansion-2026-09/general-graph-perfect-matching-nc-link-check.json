@@ -1,0 +1,125 @@
+{
+  "checked_on": "2026-09-19",
+  "source": "research/expansion-2026-09/drafts/general-graph-perfect-matching-nc.md",
+  "method": "Direct HTTP GET with redirects; response and PDF-header checks. Full mathematical readings are documented separately in the candidate record.",
+  "external": [
+    {
+      "url": "https://arxiv.org/pdf/1704.01929v2",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/pdf/1704.01929v2",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://infoscience.epfl.ch/server/api/core/bitstreams/f4aa4b6a-5245-4adc-a748-7a0597f5368c/content",
+      "http_status": 200,
+      "final_url": "https://infoscience.epfl.ch/server/api/core/bitstreams/f4aa4b6a-5245-4adc-a748-7a0597f5368c/content",
+      "content_type": "application/pdf;charset=UTF-8",
+      "pdf_header": true,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol151-itcs2020/LIPIcs.ITCS.2020.54/LIPIcs.ITCS.2020.54.pdf",
+      "http_status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol151-itcs2020/LIPIcs.ITCS.2020.54/LIPIcs.ITCS.2020.54.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://arxiv.org/html/1901.10387v5",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/html/1901.10387v5",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": null,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2026/100/revision/2/download",
+      "http_status": 200,
+      "final_url": "https://eccc.weizmann.ac.il/report/2026/100/revision/2/download/",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://arxiv.org/html/2607.15554v1",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/html/2607.15554v1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": null,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s10107-024-02158-0",
+      "http_status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s10107-024-02158-0?error=cookies_not_supported&code=a60cca09-fba4-41af-b48f-c1c024204237",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": null,
+      "result": "publisher cookie restriction",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://gilkalai.wordpress.com/2026/06/22/matching-in-nc-and-local-events/",
+      "http_status": 200,
+      "final_url": "https://gilkalai.wordpress.com/2026/06/22/matching-in-nc-and-local-events/",
+      "content_type": "text/html; charset=UTF-8",
+      "pdf_header": null,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://dgrosu.eng.wayne.edu/_resources/pdfs/pdco24-gpu-match-cr.pdf",
+      "result": "failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)>"
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2026/185/download",
+      "http_status": 200,
+      "final_url": "https://eccc.weizmann.ac.il/report/2026/185/download/",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://arxiv.org/html/2609.19703v1",
+      "http_status": 200,
+      "final_url": "https://arxiv.org/html/2609.19703v1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": null,
+      "result": "responded",
+      "full_text_access_claimed": false
+    },
+    {
+      "url": "https://eccc.weizmann.ac.il/report/2026/080/revision/1/download",
+      "http_status": 200,
+      "final_url": "https://eccc.weizmann.ac.il/report/2026/080/revision/1/download/",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "result": "responded",
+      "full_text_access_claimed": false
+    }
+  ],
+  "local": [
+    {
+      "url": "../candidates/general-graph-perfect-matching-nc.json",
+      "exists": true
+    },
+    {
+      "url": "../../../problems/321-deterministic-polynomial-identity-testing.md",
+      "exists": true
+    },
+    {
+      "url": "../../../problems/344-list-edge-colouring.md",
+      "exists": true
+    }
+  ]
+}

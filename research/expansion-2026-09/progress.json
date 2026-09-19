@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 64,
+  "new_accepted": 65,
   "active_total": 360,
-  "candidates_investigated": 70,
+  "candidates_investigated": 71,
   "held_unverified": 1,
   "held_claimed_resolution": 5,
   "excluded": 0,
-  "remaining_to_minimum": 136,
-  "remaining_to_target": 186,
+  "remaining_to_minimum": 135,
+  "remaining_to_target": 185,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -272,9 +272,9 @@
       "purpose": "Reviewed D-stable Lotka–Volterra global-attraction draft, nine source records, thirteen scope comparisons, A66 and technical validation; direct main push separately verified September 19, 2026. No new active catalogue entry."
     }
   ],
-  "remote_state": "All sixty catalogue additions (301–360) are published directly on main. All four accepted pending drafts and their evidence are uploaded: illumination, GNRS, Fourier entropy–influence and D-stable Lotka–Volterra attraction. The latest research commit 84709e5e095b12a72f18147a3c12a204f718250e was separately verified on remote main September 19, 2026. Active total 360; four accepted drafts await batch integration.",
+  "remote_state": "All sixty catalogue additions (301–360) are published directly on main. Four accepted pending drafts and their evidence are already uploaded. The fifth pending draft, deterministic general-graph perfect matching in NC, is reviewed locally and ready for direct upload. Active total 360.",
   "next_actions": [
-    "Continue broad research toward at least 200 integrated additions: 64 accepted, 60 published, four pending drafts; 136 acceptances and 140 integrations remain to the minimum. Six more accepted drafts would form the next ten-entry batch before assigning permanent IDs.",
+    "Continue broad research toward at least 200 integrated additions: 65 accepted, 60 published, five pending drafts; 135 acceptances and 140 integrations remain to the minimum. Five more accepted drafts would form the next ten-entry batch before assigning permanent IDs.",
     "Prioritize distinct families in statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the six formal holds and discovery-only claims outside admission; preserve original identifiers and historical review dates.",
     "Continue the Carrasco and other discovery leads only after resolving the precise scope and corroboration gaps in their records."
@@ -285,7 +285,7 @@
     "spectral2": 1,
     "applied": 13,
     "inverse2": 4,
-    "operators": 6,
+    "operators": 7,
     "inverse": 3,
     "stochastic2": 6,
     "spectral": 1,
@@ -295,11 +295,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 60,
-  "count_semantics": "Sixty-four accepted additions: sixty integrated and published directly on main, four pending drafts. Active total 360. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
+  "count_semantics": "Sixty-five accepted additions: sixty integrated and published directly on main, five pending drafts. Active total 360. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 60,
-  "coverage_semantics": "Accepted additions by primary section, including unintegrated illumination (inverse3), GNRS (stochastic3), Fourier entropy–influence (applied) and D-stable Lotka–Volterra attraction (stochastic2). Sixty additions are integrated and published.",
+  "coverage_semantics": "Accepted additions by primary section, including unintegrated illumination (inverse3), GNRS (stochastic3), Fourier entropy–influence (applied), D-stable Lotka–Volterra attraction (stochastic2), and general-graph perfect matching in NC (operators). Sixty additions are integrated and published.",
   "remaining_integrations_to_minimum": 140,
   "remaining_integrations_to_target": 190,
-  "pending_accepted": 4
+  "pending_accepted": 5
 }

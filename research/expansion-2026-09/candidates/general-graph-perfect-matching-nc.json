@@ -1,0 +1,516 @@
+{
+  "candidate_id": "general-graph-perfect-matching-nc",
+  "proposed_catalogue_id": null,
+  "title": "Deterministic parallel perfect matching in general graphs",
+  "primary_section": "operators",
+  "secondary_tags": [
+    "combinatorial optimization",
+    "parallel algorithms",
+    "derandomization"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit sourced formulation, independent corroboration, current resolution searches, twelve-source scope audit, duplicate checks, separated A67 self-review and final technical validation passed. One pending family; no permanent ID.",
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "problem_fingerprint": {
+    "model_or_objects": "Every finite labelled simple undirected graph G=([n],E), n>=2, encoded by its binomial(n,2) adjacency bits.",
+    "solution": "A subset M of E in which every vertex has exactly one incident edge; output a perfect matching if one exists, otherwise report that none exists.",
+    "requested_conclusion": "A deterministic logspace-uniform Boolean circuit family, polynomial size and polylogarithmic depth, solving the search problem on every input graph.",
+    "uniformity": "One deterministic machine, given 1^n, writes the circuit description with O(log n) work space. Gates are AND/OR of fan-in two, NOT, and constants; outputs encode a success bit and a matching's edge-incidence vector.",
+    "quantifiers": "Universal fixed constants K,c,k>0 bound circuit size by K*n^c and depth by K*(log_2(n+2))^k. No randomness, advice, graph-class restriction, promise that a matching exists, approximate answer or unbounded-bit arithmetic.",
+    "scope": "Constructing an unweighted perfect matching. Merely deciding existence is not declared equivalent. The known search reduction uses a polynomially bounded weighted decision oracle.",
+    "family_policy": "One general-graph parallel-matching entry; bipartite and planar classes, weighted companions and isolation-based approaches are not separately counted or claimed equivalent."
+  },
+  "statement_sources": [
+    {
+      "source_id": "ST17",
+      "url": "https://arxiv.org/pdf/1704.01929v2",
+      "locator": "Section 1, pp.2–3, and Section 1.4, p.9; exact general-graph decision/search questions."
+    },
+    {
+      "source_id": "T19",
+      "url": "https://infoscience.epfl.ch/server/api/core/bitstreams/f4aa4b6a-5245-4adc-a748-7a0597f5368c/content",
+      "locator": "Definition 7.1, p.81, and Open question 7, p.123; logspace-uniform NC convention."
+    },
+    {
+      "source_id": "AV20",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol151-itcs2020/LIPIcs.ITCS.2020.54/LIPIcs.ITCS.2020.54.pdf",
+      "locator": "Introduction and Theorem 1, pp.54:1–54:2; independent search question and weighted-oracle limitation."
+    }
+  ],
+  "nearest_existing_entries": [
+    {
+      "id": "321",
+      "path": "problems/321-deterministic-polynomial-identity-testing.md",
+      "difference": "General rational arithmetic-circuit identity testing in sequential polynomial time; the present graph problem is already in sequential polynomial time and asks for polylogarithmic parallel depth."
+    },
+    {
+      "id": "322",
+      "path": "problems/322-polynomial-hirsch.md",
+      "difference": "Existence of short paths in polytope graphs, not a matching construction algorithm; a matching-polytope reference does not make the assertions equivalent."
+    },
+    {
+      "id": "334",
+      "path": "problems/334-strong-thin-tree.md",
+      "difference": "One spanning tree with simultaneous cut bounds; its perfect-matching comparison concerns thinness, not parallel complexity."
+    },
+    {
+      "id": "344",
+      "path": "problems/344-list-edge-colouring.md",
+      "difference": "Existence of edge-specific list colourings with no extra colours, without a complexity bound; not construction of a single vertex-covering matching."
+    }
+  ],
+  "duplicate_check": {
+    "baseline": "Retained complete baseline inventory; full nearest pages 321, 322, 334 and 344 reread September 19, 2026.",
+    "local": "Exact matching, parallel complexity, quasi-NC, isolation and Tutte aliases searched across active pages, candidates and exclusions. No equivalent entry located.",
+    "upstream": "SSH fetch September 19, 2026 matched HEAD and origin/main at b9986dea12a21143e1bded0b8c16fcf346f733ca. Connected GitHub returned private MColbrook/AIM with push access, no open PRs and only main after complete pagination."
+  },
+  "source_records": [
+    {
+      "source_id": "ST17",
+      "authors": [
+        "Ola Svensson",
+        "Jakub Tarnawski"
+      ],
+      "title": "The Matching Problem in General Graphs is in Quasi-NC",
+      "url": "https://arxiv.org/pdf/1704.01929v2",
+      "version": "FOCS 2017, 696–707; DOI 10.1109/FOCS.2017.70. arXiv v1 April 6, 2017; latest v2 September 4, 2017.",
+      "locator": "§1 pp.2–3; Lemma 1.1; Theorem 1.2; §1.4 p.9; §2.1 p.10.",
+      "read": "Explicit search question, complete isolation lemma and main weight-family theorem, remaining NC question and uniform quasi-NC resource definitions.",
+      "access_limit": "Technical proof not independently certified. Older planar and bipartite open-status statements are superseded.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "T19",
+      "authors": [
+        "Jakub Tarnawski"
+      ],
+      "title": "New Graph Algorithms via Polyhedral Techniques",
+      "url": "https://infoscience.epfl.ch/server/api/core/bitstreams/f4aa4b6a-5245-4adc-a748-7a0597f5368c/content",
+      "version": "EPFL thesis 9622 (2019); defense June 28, 2019.",
+      "locator": "Definition 7.1, printed p.81; §§7.2–7.3, pp.82–83; Open question 7, p.123.",
+      "read": "Complete logspace-uniform circuit definition, Tutte/randomized context and explicit matching question.",
+      "access_limit": "Shares an author with ST17; not independent corroboration. Complete thesis proof not certified; old bipartite status not adopted.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "AV20",
+      "authors": [
+        "Nima Anari",
+        "Vijay V. Vazirani"
+      ],
+      "title": "Matching Is as Easy as the Decision Problem, in the NC Model",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol151-itcs2020/LIPIcs.ITCS.2020.54/LIPIcs.ITCS.2020.54.pdf",
+      "version": "ITCS 2020, LIPIcs 151, 54:1–54:25; January 6, 2020; DOI 10.4230/LIPIcs.ITCS.2020.54. arXiv:1901.10387 latest v5 November 9, 2020; five-version history inspected.",
+      "locator": "Published introduction, Theorems 1 and 4; §4 Lemmas 29–30; §6.1; §6.2 Lemma 38 and Corollary 39. v5: Notation 1, Theorems 2 and 5, §1.2.",
+      "read": "Independent search formulation, full weighted oracle and reduction statements, full bounded-genus corollary and latest unweighted-decision distinction.",
+      "access_limit": "Versions are one work. Whole algorithmic proof not independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CGGRT26",
+      "authors": [
+        "Abhranil Chatterjee",
+        "Sumanta Ghosh",
+        "Rohit Gurjar",
+        "Roshan Raj",
+        "Thomas Thierauf"
+      ],
+      "title": "Bipartite Matching is in NC",
+      "url": "https://eccc.weizmann.ac.il/report/2026/100/revision/2/download",
+      "version": "ECCC TR26-100, revision 2 July 15, 2026. Original June 14; revision 1 June 15 corrects the first part of Theorem 5.2's proof; revision 2 adds weighted/search linear matroid intersection. Preprint.",
+      "locator": "Introduction pp.1–5, Theorems 1.1–1.2 and 1.5, Definitions 1.3–1.4; §2 p.6.",
+      "read": "Complete relevant matching, common-base and noncommutative-rank statements; shrunk-space/substitution definitions and circuit convention.",
+      "access_limit": "Scope and revisions checked, not entire proof certification. Matroid intersection is not treated as integral matroid parity.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "KS26",
+      "authors": [
+        "Swastik Kopparty",
+        "Shubhangi Saraf"
+      ],
+      "title": "On the CGGRT Criterion for Detecting Bipartite Perfect Matchings in NC",
+      "url": "https://arxiv.org/html/2607.15554v1",
+      "version": "arXiv:2607.15554v1, July 17, 2026; only version in inspected history. Preprint.",
+      "locator": "§1 and §1.1, complete Theorem 1.1; §2.1 Lemmas 2.1–2.2 with proofs; §2.2 Hall setup.",
+      "read": "Bipartite input, field characteristic exceeding 3n^3, explicit spaces and polynomial-dimensional rank criterion.",
+      "access_limit": "Independent bipartite account, not general-graph construction or exact-status assessment. Subsequent proof not all inspected.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "HIO25",
+      "authors": [
+        "Hiroshi Hirai",
+        "Yuni Iwamasa",
+        "Taihei Oki",
+        "Tasuku Soma"
+      ],
+      "title": "Algebraic combinatorial optimization on the degree of determinants of noncommutative symbolic matrices",
+      "url": "https://link.springer.com/article/10.1007/s10107-024-02158-0",
+      "version": "Mathematical Programming 213 (2025), 941–984; online November 2, 2024; DOI 10.1007/s10107-024-02158-0.",
+      "locator": "Complete §§2.3.1–2.3.3; equations (2.9)–(2.10).",
+      "read": "Ordinary/noncommutative rank correspondences for bipartite matching, matroid intersection, Tutte matrices and fractional matroid matching; triangle example.",
+      "access_limit": "Direct GET reached a cookie error; full publisher text was read separately through the browser. Main proofs not certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "GK26",
+      "authors": [
+        "Gil Kalai"
+      ],
+      "title": "Matching in NC and Local Events",
+      "url": "https://gilkalai.wordpress.com/2026/06/22/matching-in-nc-and-local-events/",
+      "version": "Specialist author blog, June 22, 2026; June 25 clarification inspected.",
+      "locator": "Opening matching section and Rohit Gurjar's June 25 comment.",
+      "read": "Explicit post-breakthrough assessment that construction for nonbipartite graphs remains open; weighted-decision clarification.",
+      "access_limit": "Expert commentary, not a paper proof or September certificate. Current searches are separate.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "SGS24",
+      "authors": [
+        "Gregory Schwing",
+        "Daniel Grosu",
+        "Loren Schwiebert"
+      ],
+      "title": "Parallel Maximum Cardinality Matching for General Graphs on GPUs",
+      "url": "https://dgrosu.eng.wayne.edu/_resources/pdfs/pdco24-gpu-match-cr.pdf",
+      "version": "IPDPSW 2024; author manuscript. Title/authors cross-checked against PMC and proceedings metadata.",
+      "locator": "Full §§I–III, Algorithms 1–2, especially §III.A–B.",
+      "read": "Definitions, breadth-first phases, random red/blue initialization and up-to-n search iterations per phase.",
+      "access_limit": "Browser PDF failed; verified TLS GETs failed certificate validation. Public PDF retrieved with TLS verification disabled, without credentials or private data. This is not a verified-HTTPS success. Implementation/benchmarks not rerun.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "LM26",
+      "authors": [
+        "Foram Lakhani",
+        "Partha Mukhopadhyay"
+      ],
+      "title": "Approximating commutative rank of matrix spaces in NC",
+      "url": "https://eccc.weizmann.ac.il/report/2026/185/download",
+      "version": "ECCC TR26-185; manuscript/submitted September 15, posted September 17, 2026; no revision listed. Preprint.",
+      "locator": "Introduction Theorem 1.1; §5 setup, Lemmas 5.1–5.3; §5.1 Theorem 5.4 and proof; §5.2 final enumeration bound, pp.25–26.",
+      "read": "Fixed-accuracy rank approximation, k=ceil(1/epsilon−1), iteration dependence and enumeration size.",
+      "access_limit": "Polynomial bound is for fixed accuracy. Scope checked, not complete proof certification.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "H26",
+      "authors": [
+        "Hiroshi Hirai"
+      ],
+      "title": "On integral polytopes related to Edmonds' problem",
+      "url": "https://arxiv.org/html/2609.19703v1",
+      "version": "arXiv:2609.19703v1, September 17, 2026; only version in inspected history. Preprint.",
+      "locator": "§2.2; definitions (2.7), (3.1), (3.6); Theorems 3.1, 3.5–3.6 and 3.9–3.14; Remark 3.15.",
+      "read": "Ordinary minor-support versus projected blow-up polytope; relevant complete hierarchy and fractional matching statements including second-blow-up equality and 2/3 comparison.",
+      "access_limit": "Shares Hirai with HIO25. No identification of fractional and integral polytopes. Not every preceding technical lemma independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CDKMS26",
+      "authors": [
+        "Srijan Chakraborty",
+        "Samir Datta",
+        "Aryan Kusre",
+        "Partha Mukhopadhyay",
+        "Amit Sinhababu"
+      ],
+      "title": "Maximum Matching and Related Problems in Catalytic Logspace",
+      "url": "https://eccc.weizmann.ac.il/report/2026/080/revision/1/download",
+      "version": "ECCC TR26-080, revision 1 June 1, 2026; manuscript May 31. Revision simplifies Lemma 4.1 and Theorem 4.3 proofs. arXiv:2604.24275 v1 April 27; latest v2 May 31. Preprint.",
+      "locator": "Introduction pp.1–3; Theorem 1.1 p.3; §2 matching definition and Definitions 2.1–2.2, pp.6–7.",
+      "read": "General-graph maximum matching in polynomial-time catalytic logspace; full auxiliary-tape restoration model and explicit distinction from NC.",
+      "access_limit": "A space/time bound is not parallel depth. Complete construction proof not certified. Shares Mukhopadhyay with LM26.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "H12",
+      "authors": [
+        "Jinyu Huang"
+      ],
+      "title": "Parallel Algorithms for Matroid Intersection and Matroid Parity",
+      "url": "https://eccc.weizmann.ac.il/report/2012/066/revision/1/download",
+      "version": "ECCC TR12-066, revision 1 July 17, 2012; changed title from original report. Inspected preprint.",
+      "locator": "§§1–2; Theorems 3.4–3.5, 5.3 and complete Theorem 6.1 with proof, pp.8–14; §7.",
+      "read": "Solution-count promises, conditional black-box NC PIT reduction and decision/enumeration/construction distinction.",
+      "access_limit": "Unit-time field operations and a solution-count-bound oracle are assumed. Search located possible journal DOI 10.1142/S1793830915500196; publisher access failed, so journal identity/text not independently verified or used.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "ST17",
+      "locator": "Theorem 1.2 and §2.1",
+      "result_scope": "Depth O(log^3 n) and n^{O(log^2 n)} processors.",
+      "comparison_with_target": "Quasipolynomial size does not meet the fixed-polynomial target.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "AV20",
+      "locator": "Published Theorem 1 and §4; v5 Notation 1, Theorem 2 and §1.2",
+      "result_scope": "Search reduction to polynomially bounded weighted threshold decision.",
+      "comparison_with_target": "Unweighted existence is not the required oracle; no oracle is supplied in the target.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "AV20",
+      "locator": "Published §6.2 Corollary 39",
+      "result_scope": "Minimum-weight matching for graphs embedded in genus O(log n), with polynomial weights.",
+      "comparison_with_target": "Arbitrary graphs need not have such an embedding.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "AV20",
+      "locator": "Published Theorem 4; v5 Theorem 5",
+      "result_scope": "Pseudodeterministic parallel matching.",
+      "comparison_with_target": "Computation still uses randomness.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "CGGRT26",
+      "locator": "Theorem 1.1",
+      "result_scope": "NC maximum-weight perfect matching in bipartite graphs.",
+      "comparison_with_target": "The bipartition restriction excludes general inputs.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "CGGRT26",
+      "locator": "Theorem 1.2 and common-base definition",
+      "result_scope": "Weighted common-base search for linear matroid intersection.",
+      "comparison_with_target": "Intersection is not integral parity; no unrestricted graph-matching reduction is supplied.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "KS26",
+      "locator": "Theorem 1.1 and §1.1",
+      "result_scope": "Polynomial-dimensional rank criterion for bipartite matching.",
+      "comparison_with_target": "Vertex parts and the Hall condition remain required.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "HIO25",
+      "locator": "§§2.3.1–2.3.3, equation (2.9)",
+      "result_scope": "Tutte ordinary rank detects integral matching; noncommutative rank detects fractional matching.",
+      "comparison_with_target": "The triangle ranks are 2 and 3. CGGRT26 Theorem 1.5 cannot simply substitute noncommutative rank for ordinary rank.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "SGS24",
+      "locator": "§III.A–B; Algorithms 1–2",
+      "result_scope": "GPU method with random initialization and up to n BFS iterations per phase.",
+      "comparison_with_target": "Measured speedups do not establish deterministic polylogarithmic worst-case depth.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "LM26",
+      "locator": "Theorems 1.1 and 5.4; §§5.1–5.2",
+      "result_scope": "NC rank approximation for every fixed epsilon>0.",
+      "comparison_with_target": "Forcing exact rank via epsilon<1/n makes k grow; the enumeration bound containing |H|^k is polynomial only for fixed k.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "H26",
+      "locator": "Definitions (2.7), (3.1), (3.6); Theorems 3.13–3.14",
+      "result_scope": "Second blow-up equals the fractional relaxation, with a 2/3-scaled inclusion into integral support.",
+      "comparison_with_target": "No equality with the integral polytope or exact parallel construction follows.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "CDKMS26",
+      "locator": "Theorem 1.1; Definitions 2.1–2.2",
+      "result_scope": "General matching with logarithmic clean workspace, polynomial catalytic tape and polynomial time.",
+      "comparison_with_target": "Restoring auxiliary memory does not make this ordinary logspace or a polylogarithmic-depth circuit; the introduction separates the NC question.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "H12",
+      "locator": "Theorems 3.4–3.5 and 5.3",
+      "result_scope": "NC results with polynomially many solutions, a bound oracle and the stated arithmetic convention.",
+      "comparison_with_target": "Arbitrary graphs have no solution-count promise.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "H12",
+      "locator": "Theorem 6.1 and proof",
+      "result_scope": "Black-box NC PIT implies NC existence tests for linear matroid intersection/parity.",
+      "comparison_with_target": "The hypothesis is conditional; the result is decision, not the unrestricted construction requested.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    }
+  ],
+  "second_review": {
+    "pass_id": "A67",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass after drafting; no independent agent or human review.",
+    "independent_searches": [
+      "A67-1",
+      "A67-2",
+      "A67-3",
+      "A67-4",
+      "A67-5",
+      "A67-6",
+      "A67-7",
+      "A67-8"
+    ],
+    "follow_up_searches": [
+      "S521-1",
+      "S521-2",
+      "S521-3",
+      "S521-4",
+      "S522-1",
+      "S522-2",
+      "S522-3",
+      "S522-4"
+    ],
+    "issues_found": [
+      "Bipartite and noncommutative-rank breakthroughs can be mistaken for general integral matching.",
+      "Decision/parallel titles can hide weighted oracles, randomization, large work bounds or auxiliary memory.",
+      "September 17 approximation and blow-up results need parameter and integrality checks.",
+      "Older matroid NC claims have a solution-count promise or a conditional PIT hypothesis.",
+      "Initial local preview had invisible math during font loading."
+    ],
+    "issues_resolved": [
+      "Compared graph hypotheses and the explicit triangle rank separation.",
+      "Read complete weighted oracle, genus corollary, catalytic model and GPU initialization/iteration limits.",
+      "Read fixed-epsilon bounds and full relevant integral/fractional polytope statements.",
+      "Read complete Theorems 3.4–3.5, 5.3 and 6.1 and retained their promises.",
+      "Embedded local KaTeX fonts. All 21 expressions passed strict parsing, and the complete final 1300x5000 screenshot displayed every formula, reference and final paragraph without clipping."
+    ],
+    "application_check": "Pairwise compatible exchanges provide a concrete model with explicitly limited asymptotic circuit implications.",
+    "search_limit": "This is a status and theorem-scope audit, not exhaustive research or independent proof certification."
+  },
+  "publication_state": "Accepted local research draft; direct main upload pending. No permanent ID or active catalogue integration.",
+  "draft_path": "research/expansion-2026-09/drafts/general-graph-perfect-matching-nc.md",
+  "aliases": [
+    "Perfect matching in NC",
+    "Search-PM in NC",
+    "Deterministic parallel general-graph matching"
+  ],
+  "independent_corroboration": {
+    "original_formulation": "ST17 explicitly poses general-graph NC search.",
+    "independent_research": "AV20 independently states the search problem; CDKMS26 separates its new catalytic construction from the remaining NC question.",
+    "latest_explicit_exact_status_located": "GK26, June 22, 2026, identifies general-graph construction as remaining after the bipartite breakthrough. Specialist commentary is not a September certificate.",
+    "recent_scope_review": "July bipartite results and both September 17 preprints checked in full relevant scope; actual current searches September 19.",
+    "not_independent": [
+      "T19 shares Tarnawski with ST17.",
+      "Versions/mirrors are one work.",
+      "H26 shares Hirai with HIO25; CDKMS26 shares Mukhopadhyay with LM26.",
+      "Snippets and crawl dates are not source evidence."
+    ]
+  },
+  "normalization_checks": [
+    "Vertex count n and adjacency input length binomial(n,2) differ polynomially; the circuit and uniformity classes agree.",
+    "Bounded-fan-in Boolean gates; no advice, random bits, unbounded-bit unit-time arithmetic, graph-class restriction or existence promise.",
+    "Success bit handles nonexistence, including odd n; output is an actual perfect matching, not size or a fractional vector.",
+    "Unweighted search-to-decision equivalence is not assumed; the NC reduction uses weighted threshold decision.",
+    "Quasipolynomial work, catalytic workspace and polynomial time do not meet the requested circuit bounds.",
+    "LM26 accuracy is fixed; input-dependent accuracy changes its complexity bound.",
+    "One general-graph family counted; restricted graph classes, weighting and isolation are context.",
+    "Application concerns asymptotic pairwise scheduling capability, not empirical hardware or distributed-network guarantees."
+  ],
+  "status_search_ids": [
+    "S512-1",
+    "S512-2",
+    "S512-3",
+    "S512-4",
+    "S513-1",
+    "S513-2",
+    "S513-3",
+    "S513-4",
+    "S514-1",
+    "S514-2",
+    "S514-3",
+    "S514-4",
+    "S515-1",
+    "S515-2",
+    "S515-3",
+    "S515-4",
+    "S516-1",
+    "S516-2",
+    "S516-3",
+    "S516-4",
+    "S517-1",
+    "S517-2",
+    "S517-3",
+    "S517-4",
+    "S518-1",
+    "S518-2",
+    "S518-3",
+    "S518-4",
+    "S519-1",
+    "S519-2",
+    "S519-3",
+    "S519-4",
+    "S520-1",
+    "S520-2",
+    "S520-3",
+    "S520-4",
+    "S521-1",
+    "S521-2",
+    "S521-3",
+    "S521-4",
+    "S522-1",
+    "S522-2",
+    "S522-3",
+    "S522-4",
+    "A67-1",
+    "A67-2",
+    "A67-3",
+    "A67-4",
+    "A67-5",
+    "A67-6",
+    "A67-7",
+    "A67-8"
+  ],
+  "validation": {
+    "strict_katex_expressions": 21,
+    "render": "Final updated draft passed strict KaTeX and complete 1300x5000 Chrome screenshot inspection; all math, eleven references and final paragraphs visible without clipping.",
+    "external_links": "Ten of twelve targets responded successfully, including six PDF headers. Publisher cookie restriction and GPU-PDF certificate failure are recorded separately from successful full-text reading routes.",
+    "external_link_record": "research/expansion-2026-09/general-graph-perfect-matching-nc-link-check.json",
+    "local_links": "All three relative links resolve.",
+    "structure": "Required headings, citations, unique source/search IDs and count consistency checked. No active metadata or permanent identifier changed."
+  }
+}

@@ -19986,5 +19986,617 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
     "review_stage": "Separated adversarial self-review and primary-source follow-up"
+  },
+  {
+    "search_id": "S508-1",
+    "candidate_id": "discovery",
+    "query": "\"open problem\" \"continuum\" \"2026\" \"elasticity\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S508-2",
+    "candidate_id": "discovery",
+    "query": "\"conjecture\" \"Fermi Pasta Ulam\" thermalization open",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S508-3",
+    "candidate_id": "discovery",
+    "query": "\"open problems\" \"kinetic\" \"2025\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S508-4",
+    "candidate_id": "discovery",
+    "query": "\"open problem\" \"control\" \"nonlinear\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S509-1",
+    "candidate_id": "discovery",
+    "query": "\"extreme Stokes wave\" uniqueness \"open\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S509-2",
+    "candidate_id": "discovery",
+    "query": "\"highest Stokes wave\" uniqueness conjecture 2025 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S509-3",
+    "candidate_id": "discovery",
+    "query": "\"open problems\" \"water waves\" \"Stokes\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S509-4",
+    "candidate_id": "discovery",
+    "query": "\"open problems\" \"elasticity\" \"2025\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S510-1",
+    "candidate_id": "discovery",
+    "query": "\"liquid drop\" \"conjecture\" \"2026\" minimizer",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S510-2",
+    "candidate_id": "discovery",
+    "query": "\"Ohta-Kawasaki\" \"conjecture\" \"open\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S510-3",
+    "candidate_id": "discovery",
+    "query": "\"Fourth Order Saint-Venant Inequalities\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S510-4",
+    "candidate_id": "discovery",
+    "query": "\"open problems\" \"wave turbulence\" mathematical",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S511-1",
+    "candidate_id": "discovery",
+    "query": "\"open problem\" \"dynamo\" \"fast\" mathematical conjecture",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S511-2",
+    "candidate_id": "discovery",
+    "query": "\"open problem\" \"wave kinetic equation\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S511-3",
+    "candidate_id": "discovery",
+    "query": "\"deterministic NC\" \"matching\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S511-4",
+    "candidate_id": "discovery",
+    "query": "\"Smoluchowski\" \"scaling hypothesis\" \"open\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery; no admission implied"
+  },
+  {
+    "search_id": "S512-1",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"general graphs\" \"matching\" \"NC\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S512-2",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"Bipartite Matching is in NC\" \"general\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S512-3",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"perfect matching\" \"deterministic NC\" \"2026\" proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S512-4",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"Perfect Matching in quasi-NC\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S513-1",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"general\" \"matching\" \"NC\" \"Chatterjee\" \"open\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S513-2",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"non-bipartite\" \"matching\" \"NC\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S513-3",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"general graph\" \"perfect matching\" \"NC\" solved September 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S513-4",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"The Matching Problem in General Graphs Is in Quasi-NC\" pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S514-1",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"general graph\" \"matching\" \"NC\" \"2026\" open",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S514-2",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"non-bipartite matching\" \"NC\" solved proof counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S514-3",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"perfect matching\" \"NC\" Chatterjee Ghosh Gurjar Raj Thierauf general graphs",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S514-4",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"general matching\" \"NC\" \"2025\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S515-1",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"matching\" \"general graphs\" \"July\" \"2026\" NC",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S515-2",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"matching\" \"non-bipartite\" \"September 2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S515-3",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"Bipartite Matching is in NC\" correction erratum withdrawal",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S515-4",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"perfect matching\" \"NC\" \"general graphs\" \"remains\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S516-1",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"Bipartite Matching is in NC\" \"general\" \"open\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S516-2",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"Bipartite Matching is in NC\" \"non-bipartite\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S516-3",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"matching\" \"NC\" \"2026\" \"unresolved\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S516-4",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"general graphs\" \"NC\" \"logspace-uniform\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S517-1",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"NC\" \"logspace-uniform\" \"matching\" algorithm",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S517-2",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"noncommutative rank\" \"triangle\" Tutte",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S517-3",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"Svensson\" \"Tarnawski\" matching NC correction erratum",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S517-4",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"Anari\" \"Vazirani\" \"decision\" \"matching\" correction erratum withdrawal",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and resolution audit; no admission implied"
+  },
+  {
+    "search_id": "S518-1",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"perfect matching\" \"NC\" \"2026\" solved resolution proof disproof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary status and indirect-resolution audit before drafting"
+  },
+  {
+    "search_id": "S518-2",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"perfect matching\" \"deterministic parallel\" counterexample refutation",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary status and indirect-resolution audit before drafting"
+  },
+  {
+    "search_id": "S518-3",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"noncommutative rank\" \"Tutte matrix\" \"fractional\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary status and indirect-resolution audit before drafting"
+  },
+  {
+    "search_id": "S518-4",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"Parallel Maximum Cardinality Matching for General Graphs on GPUs\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary status and indirect-resolution audit before drafting"
+  },
+  {
+    "search_id": "S519-1",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"Tutte matrix\" \"non-commutative rank\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary status and indirect-resolution audit before drafting"
+  },
+  {
+    "search_id": "S519-2",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"Tutte matrix\" \"fractional matching\" rank",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary status and indirect-resolution audit before drafting"
+  },
+  {
+    "search_id": "S519-3",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"general graph matching\" \"NC\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary status and indirect-resolution audit before drafting"
+  },
+  {
+    "search_id": "S519-4",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"matching\" \"NC\" \"2025\" \"open problem\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary status and indirect-resolution audit before drafting"
+  },
+  {
+    "search_id": "S520-1",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"Parallel Maximum Cardinality Matching for General Graphs on GPUs\" \"NC\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary status and indirect-resolution audit before drafting"
+  },
+  {
+    "search_id": "S520-2",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"Parallel Maximum Cardinality Matching\" Schwing NC pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary status and indirect-resolution audit before drafting"
+  },
+  {
+    "search_id": "S520-3",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"general\" \"matching is in NC\" \"2026\" Aaronson",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary status and indirect-resolution audit before drafting"
+  },
+  {
+    "search_id": "S520-4",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"perfect matching\" \"NC\" \"2026\" \"counterexample\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary status and indirect-resolution audit before drafting"
+  },
+  {
+    "search_id": "A67-1",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"perfect matching\" \"NC\" \"general\" \"September\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting; LM26 and H26 followed to full relevant statements"
+  },
+  {
+    "search_id": "A67-2",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"nonbipartite\" \"NC\" matching proof solved",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting; LM26 and H26 followed to full relevant statements"
+  },
+  {
+    "search_id": "A67-3",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"general graph\" \"perfect matching\" \"NC\" correction withdrawal",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting; LM26 and H26 followed to full relevant statements"
+  },
+  {
+    "search_id": "A67-4",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"noncommutative rank\" matching NC integral 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting; LM26 and H26 followed to full relevant statements"
+  },
+  {
+    "search_id": "A67-5",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"Approximating commutative rank of matrix spaces in NC\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting; LM26 and H26 followed to full relevant statements"
+  },
+  {
+    "search_id": "A67-6",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"general-graph matching\" NC solved proof refutation",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting; LM26 and H26 followed to full relevant statements"
+  },
+  {
+    "search_id": "A67-7",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"perfect matching\" \"NC\" \"2026\" \"2025\" correction",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting; LM26 and H26 followed to full relevant statements"
+  },
+  {
+    "search_id": "A67-8",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "query": "\"Bipartite Matching is in NC\" error gap revision",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting; LM26 and H26 followed to full relevant statements"
+  },
+  {
+    "search_id": "S521-1",
+    "query": "\"Approximating commutative rank of matrix spaces in NC\" correction erratum",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Follow-up to A67: approximation, relaxation, catalytic-space and restricted matroid results; final current-status refresh."
+  },
+  {
+    "search_id": "S521-2",
+    "query": "\"On integral polytopes related to Edmonds\" correction revision",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Follow-up to A67: approximation, relaxation, catalytic-space and restricted matroid results; final current-status refresh."
+  },
+  {
+    "search_id": "S521-3",
+    "query": "\"perfect matching\" \"general graphs\" \"NC\" \"2026\" resolution",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Follow-up to A67: approximation, relaxation, catalytic-space and restricted matroid results; final current-status refresh."
+  },
+  {
+    "search_id": "S521-4",
+    "query": "\"general-graph matching\" \"deterministic\" \"NC\" solved",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Follow-up to A67: approximation, relaxation, catalytic-space and restricted matroid results; final current-status refresh."
+  },
+  {
+    "search_id": "S522-1",
+    "query": "\"Maximum Matching and Related Problems in Catalytic Logspace\" revision correction",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Follow-up to A67: approximation, relaxation, catalytic-space and restricted matroid results; final current-status refresh."
+  },
+  {
+    "search_id": "S522-2",
+    "query": "\"catalytic logspace\" \"NC\" \"2026\" containment",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Follow-up to A67: approximation, relaxation, catalytic-space and restricted matroid results; final current-status refresh."
+  },
+  {
+    "search_id": "S522-3",
+    "query": "\"Parallel Algorithms for Matroid Intersection and Matroid Parity\" correction",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Follow-up to A67: approximation, relaxation, catalytic-space and restricted matroid results; final current-status refresh."
+  },
+  {
+    "search_id": "S522-4",
+    "query": "\"general graphs\" \"perfect matching\" \"NC\" September 2026",
+    "candidate_id": "general-graph-perfect-matching-nc",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Follow-up to A67: approximation, relaxation, catalytic-space and restricted matroid results; final current-status refresh."
   }
 ]
