@@ -278,9 +278,13 @@
     {
       "commit": "531558cbaa9141745c42ad7a5437ca8fc6104472",
       "purpose": "Reviewed simple-stochastic-games draft, nine source/scope comparisons, A68 and technical validation; direct main push separately verified September 19, 2026. No active catalogue integration."
+    },
+    {
+      "commit": "824114b02bb996faa97ff3f0a5c897692f136c14",
+      "purpose": "Reviewed densest-k-subgraph constant-gap draft, nine source works, fourteen scope comparisons, A69 and technical validation; direct main push separately verified September 19, 2026. No active catalogue integration."
     }
   ],
-  "remote_state": "All sixty catalogue additions (301-360) and six earlier accepted pending drafts are published directly on main. Research receipt HEAD and freshly fetched origin/main matched 8e0dae5a6e83cac559df71ace366dd0dccb9aeab on September 19, 2026. The seventh accepted pending draft, densest k-subgraph constant-gap hardness, is locally reviewed and ready for upload; active total remains 360.",
+  "remote_state": "All sixty catalogue additions (301-360) are published directly on main. All seven accepted pending drafts and their evidence are uploaded, including densest k-subgraph constant-gap hardness. The latest research commit 824114b02bb996faa97ff3f0a5c897692f136c14 was separately verified on remote main September 19, 2026. Active total 360; seven accepted drafts await batch integration.",
   "next_actions": [
     "Continue toward at least 200 integrated additions: 67 accepted, 60 published, seven pending drafts; 133 acceptances and 140 integrations remain to the minimum. Three more accepted drafts would form the next ten-entry batch before assigning permanent IDs.",
     "Prioritize distinct families in statistics, information, biology, control and operations research alongside all twelve sections.",

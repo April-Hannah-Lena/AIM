@@ -405,3 +405,6 @@ A69 was a clearly separated adversarial self-pass, not independent expert review
 The log adds 66 actual queries: 48 candidate/source/adversarial queries (including one HAL API query) and eighteen breadth queries. It now contains 2,617 unique records. The [breadth notes](densest-subgraph-breadth-discovery.md) preserve the incomplete one-bit/logistic work and unadjudicated electrostatic claim warning separately. Fetched origin/main matched HEAD at 8e0dae5a6e83cac559df71ace366dd0dccb9aeab; connected GitHub confirmed private push access, no open PRs and only main after complete branch pagination.
 
 Counts are 67 accepted additions, 60 integrated/published, seven accepted pending drafts, six holds, 73 formal candidate records and 360 active catalogue entries. The minimum requires 133 further acceptances and 140 integrations. This reviewed research is ready for direct upload; no permanent ID is assigned until the next integration batch.
+
+
+Publication receipt: [824114b](https://github.com/MColbrook/AIM/commit/824114b02bb996faa97ff3f0a5c897692f136c14) was pushed directly to main on September 19, 2026; a separate remote-ref read matched the exact full commit. All seven accepted pending drafts and their evidence are uploaded. Counts remain 67 accepted additions, 60 integrated catalogue additions, seven pending drafts and 360 active entries.

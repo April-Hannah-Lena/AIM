@@ -29,7 +29,7 @@
       "locator": "Section 1 explicit unresolved constant-factor NP-hardness of DkS; section 1.1 Definition 1 gives the exact gap promise."
     }
   ],
-  "publication_state": "Accepted local research draft with completed checks; ready for direct upload. No permanent ID or active catalogue integration.",
+  "publication_state": "Accepted research draft and evidence uploaded directly to main; exact research commit separately verified September 19, 2026. No permanent ID or active catalogue integration.",
   "draft_path": "research/expansion-2026-09/drafts/densest-k-subgraph-constant-gap-hardness.md",
   "nearest_existing_entries": [
     {
@@ -461,5 +461,13 @@
     "external_link_record": "research/expansion-2026-09/densest-k-subgraph-constant-gap-hardness-link-check.json",
     "local_links": "All four relative draft links resolve.",
     "structure": "Catalogue validator passed all 360 entries. Nine unique source IDs, fourteen full relevant result-scope comparisons and all source/search references passed. Counts and primary coverage match 67 accepted, 60 integrated, seven pending, six holds and 73 formal records. git diff --check passed; no active metadata or permanent ID changed."
+  },
+  "remote_publication": {
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "research_commit": "824114b02bb996faa97ff3f0a5c897692f136c14",
+    "pushed_on": "2026-09-19",
+    "verification": "Successful direct push followed by a separate git ls-remote origin refs/heads/main; exact 40-character hash matched.",
+    "pull_request": null
   }
 }
