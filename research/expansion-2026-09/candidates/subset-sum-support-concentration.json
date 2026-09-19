@@ -1,0 +1,455 @@
+{
+  "candidate_id": "subset-sum-support-concentration",
+  "proposed_catalogue_id": null,
+  "title": "The sharp support–concentration bound for subset sums",
+  "primary_section": "applied",
+  "secondary_tags": [
+    "combinatorial probability",
+    "information theory",
+    "bin packing"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Explicit original formulation and independently authored current corroboration, fresh status and duplicate checks, ten formal scope comparisons, separated A58 self-review and technical validation passed. No matching unresolved resolution claim located.",
+  "aliases": [
+    "Anticoncentration versus the number of subset sums",
+    "Weighted Bernoulli sum support versus maximum atom",
+    "H0 <= 2 H-infinity for weighted fair Bernoulli sums",
+    "Jain–Sah–Sawhney subset-sum conjecture"
+  ],
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "problem_fingerprint": {
+    "model_or_objects": "Every integer n>=1 and every fixed real vector w=(w_1,...,w_n), allowing repeated, negative and zero coordinates.",
+    "randomness": "X_1,...,X_n are independent Bernoulli(1/2); all 2^n labelled subsets have equal probability.",
+    "observable": "S_w=sum_i w_i X_i; R(w)={sum_i w_i x_i:x in {0,1}^n}; N(w)=|R(w)|; rho(w)=max_t Pr[S_w=t]. Distinct exact real totals and point probabilities, with no tolerance or modular arithmetic.",
+    "requested_conclusion": "N(w) rho(w)^2 <= 1 for every such n,w. Equivalently N(w)<=rho(w)^(-2). No asymptotic slack or unspecified multiplicative prefactor.",
+    "counting_equivalence": "M(w)=max_t |{x in {0,1}^n:sum_i w_i x_i=t}|=2^n rho(w); target N(w)M(w)^2<=4^n.",
+    "entropy_equivalence": "H_0(S_w)=log N(w), H_infinity(S_w)=-log rho(w) with the same logarithm base; target H_0<=2H_infinity.",
+    "degenerate_case": "If all weights are zero, N=rho=1 and both entropies vanish.",
+    "sharpness": "Exponent 2 cannot be uniformly decreased: all-one weights give N=n+1 and rho=2^(-n) binomial(n,floor(n/2)); log N/(-log rho) tends to 2.",
+    "computational_model": "A mathematical inequality, with no algorithmic running-time conclusion in its assertion.",
+    "family_policy": "One family, including real/integer, counting/probability/entropy formulations; no extra counts for parameter choices or restricted weights."
+  },
+  "statement_sources": [
+    {
+      "source_id": "JSS21",
+      "locator": "Published version p. 2, Question 1.1 and conjecture paragraph immediately before equation (1.2); equation (1.2) itself is a proved weaker bound."
+    },
+    {
+      "source_id": "L26",
+      "locator": "Section 1.1, Conjecture 1.1, p. 2; all real weights and the exact entropy factor two."
+    }
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/subset-sum-support-concentration.md",
+  "status_search_ids": [
+    "S436-1",
+    "S436-2",
+    "S436-3",
+    "S436-4",
+    "S437-1",
+    "S437-2",
+    "S437-3",
+    "S437-4",
+    "S438-1",
+    "S438-2",
+    "S438-3",
+    "S438-4",
+    "S439-1",
+    "S439-2",
+    "S439-3",
+    "S439-4",
+    "A58-1",
+    "A58-2",
+    "A58-3",
+    "A58-4",
+    "A58-5",
+    "A58-6",
+    "A58-7",
+    "A58-8",
+    "S440-1",
+    "S440-2",
+    "S440-3",
+    "S440-4"
+  ],
+  "second_review": {
+    "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass; no independent agent or human review.",
+    "pass_id": "A58",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "independent_searches": [
+      "A58-1",
+      "A58-2",
+      "A58-3",
+      "A58-4",
+      "A58-5",
+      "A58-6",
+      "A58-7",
+      "A58-8"
+    ],
+    "follow_up_searches": [
+      "S440-1",
+      "S440-2",
+      "S440-3",
+      "S440-4"
+    ],
+    "issues_found": [
+      "Possible confusion of multiplicity with probability and support cardinality with subset count.",
+      "Positive Rényi orders can obscure the unproved zero-order endpoint; the partial coefficient is undefined at the all-zero vector unless separated.",
+      "Li’s reference to JSS equation (1.2) points to the proved bound rather than the conjecture paragraph.",
+      "A fresh structural-paper version check found a renamed September 14 sequel, extending the initially inspected two-boundary result.",
+      "Conditioned distinct-element subset bounds and constructive counterexamples to stronger tradeoffs require exact model comparisons."
+    ],
+    "issues_resolved": [
+      "Retained M=2^n rho, exact real support, all-zero convention, exponent sharpness and fair-bit quantifiers.",
+      "Read both entropy theorem statements and Section 3 interpolation; retained the input-dependent logarithmic term and recorded why alpha tending to zero does not give two.",
+      "Corrected the original conjecture locator and used the published v2 rather than the older author PDF.",
+      "Read the September 14 sequel’s full main theorem, including fixed C and n>=N_C, and recorded its remaining scope restrictions.",
+      "Completed ten formal scope comparisons, checked nearby accepted statements and refreshed remote main plus open PRs."
+    ],
+    "application_check": "NPSS23 Lemma 3.5 explicitly indexes dynamic-programming states by attainable sums; JSS21 Section 1.1 describes how the concentration/support tradeoff improves the fixed-bin runtime dependence. No random-input assumption or current-best-algorithm claim.",
+    "search_limit": "This is a separated self-pass, not independent expert review. Full proofs and computational artifacts were not independently certified; source-level access and reading limits are recorded."
+  },
+  "publication_state": "Accepted local research draft; direct upload to main pending. No permanent ID until the next integration batch.",
+  "source_records": [
+    {
+      "source_id": "JSS21",
+      "authors": [
+        "Vishesh Jain",
+        "Ashwin Sah",
+        "Mehtaab Sawhney"
+      ],
+      "title": "Anticoncentration versus the Number of Subset Sums",
+      "url": "https://arxiv.org/pdf/2101.07726v2",
+      "version": "Advances in Combinatorics 2021:6, 10 pp.; DOI 10.19086/aic.24872; published June 28, 2021. arXiv v1 January 19, v2 June 14, 2021.",
+      "locator": "Published pp. 1–3: Question 1.1, conjecture paragraph before equation (1.2), Theorem 1.2, Section 1.1 and Corollary 1.3.",
+      "read": "All three pages read, including fair-bit normalization, all-real-weight domain, sharpness example and bin-packing consequence.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2101.07726",
+        "https://doi.org/10.19086/aic.24872"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "The author-hosted MIT PDF is the older seven-page text; locators and public link use the published ten-page v2. No independent certification of the full proof."
+    },
+    {
+      "source_id": "L26",
+      "authors": [
+        "Jiange Li"
+      ],
+      "title": "Multiplicative comparisons of Rényi entropies for weighted Bernoulli sums",
+      "url": "https://arxiv.org/html/2609.01529v1",
+      "version": "arXiv:2609.01529v1, September 1, 2026, preprint; sole listed version on the check date.",
+      "locator": "Sections 1.1–1.3, pp. 1–5; Conjecture 1.1, Theorems 1.5–1.6; Section 3, Theorems 3.1 and 3.3, pp. 8–10.",
+      "read": "Full introduction and Section 3 proofs read; probability, order-zero endpoint and dependence of the constants checked.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2609.01529",
+        "https://arxiv.org/pdf/2609.01529v1"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "The full proof of Theorem 1.5 was not independently certified. The conjecture cites JSS equation (1.2), but the conjecture is in the preceding paragraph. Section 1.3 has apparent binary-weight shorthand inconsistent with its formal real-weight statements; the latter control this entry. Remark 1.7 is not used as a pointwise asymptotic equality for every weight vector."
+    },
+    {
+      "source_id": "NPSS23",
+      "authors": [
+        "Jesper Nederlof",
+        "Jakub Pawlewicz",
+        "Céline M. F. Swennenhuis",
+        "Karol Węgrzycki"
+      ],
+      "title": "A Faster Exponential Time Algorithm for Bin Packing With a Constant Number of Bins via Additive Combinatorics",
+      "url": "https://arxiv.org/html/2007.08204v4",
+      "version": "SIAM Journal on Computing 52(6) (2023), 1369–1412; DOI 10.1137/22M1478112. arXiv v4 September 8, 2023; earlier SODA 2021 version.",
+      "locator": "Section 1 model, Theorems 1.1–1.2, Section 1.1.1; Section 3.2, Lemma 3.5 and proof.",
+      "read": "Full relevant formulations and the dynamic-programming lemma/proof read. The concentration parameter beta is a multiplicity, not a probability.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2007.08204",
+        "https://epubs.siam.org/doi/10.1137/22M1478112"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Publisher metadata accessible through the web reader; direct DOI GET returned HTTP 403. Primary arXiv full text was accessible. No claim that every proof or journal/preprint difference was independently checked."
+    },
+    {
+      "source_id": "W17",
+      "authors": [
+        "Mårten Wiman"
+      ],
+      "title": "Improved Constructions of Unbalanced Uniquely Decodable Code Pairs",
+      "url": "https://www.diva-portal.org/smash/get/diva2:1120593/FULLTEXT01.pdf",
+      "version": "KTH Royal Institute of Technology first-cycle degree project, 2017; 35-page deposited PDF.",
+      "locator": "Chapter 1, printed pp. 1–4, especially Definitions 1.1–1.2, Problems 1–2 and Theorems 1.1–1.2; Chapter 2, Lemma 2.1.",
+      "read": "Full model, two formal main statements, relation to uniquely decodable pairs and vector/matrix encoding read.",
+      "metadata_urls": [],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Primary PDF read through the web reader after a direct download timed out. Construction proofs and computational appendix were not independently rerun. Its explicit exponent is 0.2563 for multiplicity; no stronger probability exponent is inferred from a later paraphrase."
+    },
+    {
+      "source_id": "PS26",
+      "authors": [
+        "Huy Tuan Pham",
+        "Lisa Sauermann"
+      ],
+      "title": "On Graham’s rearrangement conjecture",
+      "url": "https://arxiv.org/html/2602.15797v1",
+      "version": "arXiv:2602.15797v1, February 17, 2026, preprint; sole listed version.",
+      "locator": "Section 1, Theorems 1.2–1.3 and Corollary 1.4 with full set and sampling conventions.",
+      "read": "Relevant theorem statements read, including the extension to central subset sizes in Corollary 1.4.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2602.15797"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Full relevant model and theorem statements inspected; complete proofs not independently certified."
+    },
+    {
+      "source_id": "CDFL26",
+      "authors": [
+        "Simone Costa",
+        "Stefano Della Fiore",
+        "Tao Feng",
+        "Hengrui Liu"
+      ],
+      "title": "Kneserized Anticoncentration and Reverse Absorption for Graham’s Rearrangement Conjecture",
+      "url": "https://arxiv.org/html/2608.10015v2",
+      "version": "arXiv:2608.10015v2, August 18, 2026; v1 August 8, preprint.",
+      "locator": "Sections 1–2 model; Section 3.3 definitions of Omega and q-large, Lemma 3.9 statement, Theorem 3.10 and proof, Theorem 3.11 statement.",
+      "read": "The structural alternative, conditioned fixed-size sampling, modulus restrictions and all quantifiers of Theorem 3.10 read.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2608.10015"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Full paper and reverse-absorption proof not independently certified. Scope comparisons use formal stated hypotheses, not an assumed extension to repeated weights."
+    },
+    {
+      "source_id": "CDK26",
+      "authors": [
+        "Ruben Carpenter",
+        "Colin Defant",
+        "Noah Kravitz"
+      ],
+      "title": "Sets with Few Subset Sums",
+      "url": "https://arxiv.org/html/2605.05498v2",
+      "version": "arXiv:2605.05498v2, August 24, 2026; v1 May 6, preprint.",
+      "locator": "Sections 1.1–1.2, Theorems 1.1–1.3 and the real/torsion-free extension paragraph; Section 5.2.",
+      "read": "Full main theorem statements and discussion relating small support to large atoms read.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2605.05498"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Full relevant model and theorem statements inspected; complete proofs not independently certified."
+    },
+    {
+      "source_id": "C26",
+      "authors": [
+        "Lizhong Chen"
+      ],
+      "title": "Fixed-Defect Inverse Theorems for Subset Sums",
+      "url": "https://arxiv.org/html/2609.00044v3",
+      "version": "arXiv:2609.00044v3, September 14, 2026, preprint. v1 August 30 and v2 September 4 have the earlier title The First Two Exceptional Boundaries for Sets with Few Subset Sums.",
+      "locator": "v3 Section 1, definitions (1.1)–(1.5), Theorem 1.1 and Corollary 1.2; Section 2.1 increment definitions. Earlier v1 introduction and Theorem 5.9 also inspected.",
+      "read": "Current full classification statement, exceptional-family parameters, fixed-defect quantifier and threshold dependence read after the version check found the renamed sequel.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2609.00044"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "Comparison uses v3, not the narrower initial version. Complete proofs, finite coefficient tables and supplementary code were not independently certified."
+    },
+    {
+      "source_id": "W26",
+      "authors": [
+        "Jing Wang"
+      ],
+      "title": "The asymptotic uniform distribution of subset sums",
+      "url": "https://arxiv.org/pdf/2505.12319v2",
+      "version": "European Journal of Combinatorics 131 (January 2026), 104239; DOI 10.1016/j.ejc.2025.104239. Inspected arXiv v2 September 10, 2025; v1 May 18.",
+      "locator": "Section 1, pp. 1–3: definition of F_a(h), Problem 1 and Theorem 1.1.",
+      "read": "Full finite-group model and asymptotic theorem read.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2505.12319",
+        "https://doi.org/10.1016/j.ejc.2025.104239"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "HTML access failed; primary preprint PDF accessible. Published metadata checked, but journal and manuscript were not line-compared."
+    },
+    {
+      "source_id": "H26",
+      "authors": [
+        "Yilong Hu"
+      ],
+      "title": "A note on The asymptotic uniform distribution of subset sums",
+      "url": "https://arxiv.org/html/2604.23787v1",
+      "version": "arXiv:2604.23787v1, April 26, 2026, preprint; sole listed version.",
+      "locator": "Complete short note, Theorems 1–2 and subsequent proof.",
+      "read": "Full note read; the finite-group population is checked against Wang’s original definition.",
+      "metadata_urls": [
+        "https://arxiv.org/abs/2604.23787"
+      ],
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "The introductory undeclared A is resolved by the cited original model: subsets of the entire finite group. No independent certification of all estimates."
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "JSS21",
+      "locator": "Theorem 1.2, p. 2",
+      "full_relevant_statement_read": true,
+      "formal_scope": "For epsilon>0, n>=epsilon^(-1/2) and real w with rho(w)>=exp(-epsilon n), N(w)<=exp(C sqrt(epsilon) n), C absolute.",
+      "assessment_and_remaining_gap": "This leaves sqrt(epsilon) instead of the conjectural exact 2 epsilon dependence. The conjecture paragraph is distinct from the proved equation (1.2)."
+    },
+    {
+      "source_id": "L26",
+      "locator": "Theorem 1.5, p. 3",
+      "full_relevant_statement_read": true,
+      "formal_scope": "For 0<alpha<1, H_alpha<=C_alpha H_infinity. For alpha>=1/2 the constant is 2; for alpha<1/2 it is [k_alpha+2(1-2^(k_alpha) alpha)]/(1-alpha), k_alpha=ceil(log_2(1/(2alpha))).",
+      "assessment_and_remaining_gap": "C_alpha diverges as alpha decreases to zero. Taking the zero-order limit therefore does not produce factor two. Monotonicity has H_0>=H_alpha, so the positive-order bound cannot be substituted for H_0."
+    },
+    {
+      "source_id": "L26",
+      "locator": "Theorem 1.6 and Section 3, Theorems 3.1 and 3.3",
+      "full_relevant_statement_read": true,
+      "formal_scope": "For nonzero real w and m nonzero coordinates, H_0<=min{log_2(m+1),2+log_2(m log(2)/H_infinity)} H_infinity, with natural logarithms in the entropies.",
+      "assessment_and_remaining_gap": "Input-dependent coefficient; the zero vector is treated separately. The proof’s interpolation keeps an alpha m log(2) term and does not remove the logarithmic loss. Separated repeated blocks scale m and H_infinity together, so repetition alone does not drive this coefficient down to two."
+    },
+    {
+      "source_id": "NPSS23",
+      "locator": "Theorem 1.2 and Section 1.1.1",
+      "full_relevant_statement_read": true,
+      "formal_scope": "A multiplicity beta>=2^((1-epsilon)n) forces support N<=2^(delta(epsilon)n), with delta=O(log log(1/epsilon)/sqrt(log(1/epsilon))) as epsilon decreases to zero.",
+      "assessment_and_remaining_gap": "Normalize rho=beta/2^n. This qualitative tradeoff does not reach the exact target; the updated introduction records the improved JSS bound. Lemma 3.5 justifies the application, not the conjecture."
+    },
+    {
+      "source_id": "W17",
+      "locator": "Definitions 1.1–1.2 and Theorem 1.1, printed pp. 2–3",
+      "full_relevant_statement_read": true,
+      "formal_scope": "For every epsilon>0 some integer n and w in Z^n have N(w)>2^((1-epsilon)n) and M(w)>2^(0.2563 n).",
+      "assessment_and_remaining_gap": "The two lower bounds only force N M^2 above 2^((1.5126-epsilon)n), not above 4^n. The stated construction theorem is not a refutation of the present inequality. This assessment does not assert a separately proved upper bound for every vector in its construction."
+    },
+    {
+      "source_id": "PS26",
+      "locator": "Theorem 1.3 and Corollary 1.4",
+      "full_relevant_statement_read": true,
+      "formal_scope": "For a prime p and a set S of distinct residues, uniform m-subsets satisfy point bounds 1/p+C/(|S| sqrt(m)) for C log|S|<=m<=10^(-3)|S|/log|S|. Corollary 1.4 covers 1<=m<=(1-epsilon)|S| with a sqrt(log|S|) loss.",
+      "assessment_and_remaining_gap": "Corollary 1.4 includes central sizes, so the theorem is not dismissed merely by Theorem 1.3’s range. Both sample without replacement from distinct group elements and bound in |S|, not the full support N(w). Even an embedding without wraparound does not supply the sharp N(w)^(-1/2) bound or handle repeated weights automatically."
+    },
+    {
+      "source_id": "CDFL26",
+      "locator": "Section 3.3, Theorem 3.10",
+      "full_relevant_statement_read": true,
+      "formal_scope": "Fix T,L>=1 and epsilon,nu in (0,1). For a set A of n>=2 elements of Z_Q, Q=tq, t<=T, gcd(t,q)=1, Omega(q)<=L, either at least (1-nu)n elements lie in a proper q-large subgroup coset or every uniform m-subset, 1<=m<=(1-epsilon)n, has point probability <=1/Q+C sqrt(log(2+n))/(n sqrt(m)). Omega counts prime factors with multiplicity; q-large means subgroup order divisible by a prime factor of q.",
+      "assessment_and_remaining_gap": "The alternative is a structural conclusion for a distinct-element set in a bounded-prime-factor cyclic group. Its probability bound depends on input cardinality, with a loss and constants, rather than arbitrary weighted real support. No stated recursion gives the present sharp inequality. The conditioned-chain result also retains these model restrictions."
+    },
+    {
+      "source_id": "CDK26",
+      "locator": "Theorems 1.1–1.3 and Section 5.2",
+      "full_relevant_statement_read": true,
+      "formal_scope": "For positive n-element sets, classify support <=binomial(n+1,2)+1+M when n>=4, 0<=M<=n-4. More generally support <=C n^2 implies a lattice bulk with total O_C(n^2) and O_C(1) exceptional elements. Theorem 1.3 gives support >=gamma_d(epsilon)n^(d+1) under a proper-subspace occupancy bound.",
+      "assessment_and_remaining_gap": "These are conditional small-support structure results and support lower bounds. They do not conclude N rho^2<=1 for all support sizes or multisets. The paper’s real/torsion-free extension and its explicit Littlewood–Offord discussion were checked, rather than excluding it solely for positive weights."
+    },
+    {
+      "source_id": "C26",
+      "locator": "v3 Theorem 1.1 and definitions (1.3)–(1.5)",
+      "full_relevant_statement_read": true,
+      "formal_scope": "For each fixed integer C>=-1 and n>=N_C, positive n-element sets with support <=T_n+n+C+1 are exactly dilates of primitive integer sets of total <=T_n+n+C or exceptional E_n(m,pi), m in {1,2}, pi of weight C+m or C+m+1. T_n=binomial(n+1,2). E_n is the stated initial integer interval with m removed and partition-displaced final elements.",
+      "assessment_and_remaining_gap": "The September 14 sequel covers all fixed defects, beyond the earlier two boundaries. It still assumes distinct positive elements, support close to its quadratic minimum, and a threshold depending on the fixed defect. Choosing a defect depending on an arbitrary input does not establish the required n>=N_C or a bound on its largest atom."
+    },
+    {
+      "source_id": "W26",
+      "locator": "Wang Theorem 1.1 and Hu Theorem 1",
+      "full_relevant_statement_read": true,
+      "formal_scope": "For a finite abelian group G of order n, count all h-element subsets of G with each group-valued sum. As n tends to infinity, the minimum count divided by the maximum tends to one for 4<=h<=floor(n/2)+1; complement symmetry extends the range in Wang.",
+      "assessment_and_remaining_gap": "The ground population is the entire finite group, each element once, with fixed subset size and an asymptotic conclusion. This is different from arbitrary repeated real weights, independent fair selections and an exact bound at every finite n. Hu supplies a shorter proof of this group theorem, not a new general entropy comparison.",
+      "also_source_ids": [
+        "H26"
+      ]
+    }
+  ],
+  "independently_authored_corroboration": {
+    "source_id": "L26",
+    "locator": "Conjecture 1.1, p. 2",
+    "assessment": "Jiange Li shares no authors with Jain–Sah–Sawhney and explicitly states the same all-real-weight, fair-bit inequality in September 2026. This is a separate scholarly work, not another version of the original paper. The author attributes its communication to Mokshay Madiman."
+  },
+  "nearest_existing": [
+    {
+      "id": null,
+      "path": "research/expansion-2026-09/drafts/integer-three-sum-hardness.md",
+      "full_statement_read": true,
+      "distinction": "A bounded-word computational lower bound for finding three distinct elements satisfying an additive equation. No support-versus-largest-atom inequality is asserted."
+    },
+    {
+      "id": null,
+      "path": "research/expansion-2026-09/drafts/modified-integer-round-up.md",
+      "full_statement_read": true,
+      "distinction": "A comparison of integer and fractional cutting-stock optima, with exact ceiling-plus-one gap. Shared packing relevance does not identify its assertion with a subset-sum entropy bound."
+    },
+    {
+      "id": 326,
+      "path": "problems/326-online-bin-packing-optimal-ratio.md",
+      "full_statement_read": true,
+      "distinction": "The best asymptotic competitive ratio of deterministic online packing. Its unknown-arrival decision model and objective differ from this inequality for fixed input weights."
+    }
+  ],
+  "duplicate_check": {
+    "checked_on": "2026-09-19",
+    "repository": "MColbrook/AIM",
+    "local_and_target_commit": "3fe495aa485ae9c3459d30d03059a7bd959e5197",
+    "coverage": "Baseline inventory and current metadata screened earlier; fresh aliases and formula terms searched across problems, data, candidate records, source maps, discovery and exclusions. Complete nearest statements reread during A58.",
+    "terms": [
+      "subset sum",
+      "weighted Bernoulli",
+      "anti-concentration/anticoncentration",
+      "Littlewood",
+      "Jain Sah",
+      "Renyi/Rényi"
+    ],
+    "result": "No equivalent active or accepted entry located. The unaccepted joint-parameter Rényi-concavity lead varies Bernoulli biases and asks about a Hessian/concavity property; this candidate fixes fair bits and compares entropy orders.",
+    "upstream": "Authenticated ls-remote --heads returned only main and matched local HEAD. Connected GitHub open-PR search returned no open PRs."
+  },
+  "normalization_checks": [
+    "All finite n>=1 and real weights; repeated, zero and negative coordinates retained. Indices distinguish equal-weight items.",
+    "Exactly fair independent bits. Already for one nonzero weight with bias p close to zero, support 2 and maximum probability close to one violate the proposed extension to arbitrary biases.",
+    "N counts distinct exact values, not subsets or approximate bins. M counts subsets; M=2^n rho, so N M^2<=4^n is the correct translation.",
+    "The target entropy factor is independent of a common logarithm base. The public partial-bound expression uses natural entropies and m log(2) exactly as in Li.",
+    "The all-zero case satisfies the main bound and is excluded only from the partial formula containing division by H_infinity.",
+    "For all-one weights, Stirling’s formula gives rho of order n^(-1/2); log(n+1)/(-log rho) tends to 2. Sharpness concerns the exponent, not nontrivial equality for every n.",
+    "Deleting zero weights leaves the probability law unchanged. Flipping a negative weight amounts to replacing its fair bit by its complement and translating the sum; this does not justify deleting repetitions or perturbing collisions.",
+    "The unconditional law is a binomial mixture of fixed-size subset laws. Conditioning alone does not convert the inspected group bounds into the target bound in total support.",
+    "No separate candidate or active ID for the entropy, counting, integer, sign-normalized or dimension-restricted formulations."
+  ],
+  "scope_normalization": "The finite all-real-weight statement follows Li Conjecture 1.1 and the exact linear conjecture preceding JSS equation (1.2). All models and formula conversions are explicit. No biased-bit or interval-concentration strengthening is introduced.",
+  "prepublication_refresh": {
+    "checked_on": "2026-09-19",
+    "research": "A58 and S440 searched after drafting; Li and nearby-paper version histories checked.",
+    "remote_main": "3fe495aa485ae9c3459d30d03059a7bd959e5197",
+    "open_pull_requests": 0,
+    "result": "No new upstream content or matching unresolved resolution claim located. Research and technical admission checks passed."
+  },
+  "discovery_access_limits": [
+    "Wiman direct download timed out; the full relevant statements were available through the primary PDF web reader.",
+    "SIAM DOI returned 403 to the direct bibliography checker; accessible arXiv author text supplied the full theorem/model evidence.",
+    "Wang HTML failed; the primary v2 PDF supplied the formal model and theorem.",
+    "Search-only material, including AI summaries and third-party mirrors, was not used as formulation or resolution evidence. The current source IDs refer to primary works actually opened."
+  ],
+  "validation": {
+    "state": "passed",
+    "checked_on": "2026-09-19",
+    "strict_katex": {
+      "expressions": 30,
+      "result": "passed"
+    },
+    "visual_review": "Full 1280-by-4300 browser render inspected: metadata, all four sections, equations and references visible without clipping. Temporary image /private/tmp/aim-subset-sums-research/draft-final.png.",
+    "structure": "Required metadata and four headings passed; all 4 relative links resolve.",
+    "bibliography": "Four targets returned HTTP 200. The SIAM DOI returned HTTP 403 to direct GET; publisher metadata was available through the web reader and the primary arXiv v4 full text linked in the same bibliography entry returned HTTP 200. No inaccessible text is claimed to have been read.",
+    "bibliography_report": "research/expansion-2026-09/subset-sum-support-concentration-link-check.json",
+    "ledger": "Ten primary source records, ten formal scope comparisons and 28 unique actual search IDs present in the log.",
+    "catalogue": "python3 scripts/catalogue.py --check passed for 350 unique entries, metadata, headings, math delimiters, local links and README freshness. git diff --check passed."
+  }
+}

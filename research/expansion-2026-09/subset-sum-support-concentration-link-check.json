@@ -1,0 +1,48 @@
+{
+  "checked_on": "2026-09-19",
+  "method": "Direct GET of every external bibliography link; full source identities and exact read locations are recorded in the candidate ledger.",
+  "results": [
+    {
+      "url": "https://arxiv.org/pdf/2101.07726v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2101.07726v2",
+      "content_type": "application/pdf",
+      "bytes": 267746,
+      "pdf_magic": true,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://doi.org/10.19086/aic.24872",
+      "status": 200,
+      "final_url": "https://www.advancesincombinatorics.com/article/24872-anticoncentration-versus-the-number-of-subset-sums",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 151270,
+      "pdf_magic": false,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://arxiv.org/html/2609.01529v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2609.01529v1",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 483910,
+      "pdf_magic": false,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://arxiv.org/html/2007.08204v4",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2007.08204v4",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 1368848,
+      "pdf_magic": false,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://doi.org/10.1137/22M1478112",
+      "error": "HTTP Error 403: Forbidden",
+      "checked_on": "2026-09-19"
+    }
+  ],
+  "access_assessment": "Four targets returned HTTP 200. The SIAM DOI returned HTTP 403 to direct GET; publisher metadata was available through the web reader and the primary arXiv v4 full text linked in the same bibliography entry returned HTTP 200. No inaccessible text is claimed to have been read."
+}

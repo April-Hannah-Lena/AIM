@@ -16705,5 +16705,293 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal year where shown",
     "review_stage": "Separated adversarial strong-edge-colouring review after drafting: exact multigraph/parity hypotheses, hidden reductions, recent counterexamples, corrections and formalization limits."
+  },
+  {
+    "search_id": "S434-1",
+    "searched_on": "2026-09-19",
+    "query": "log concave density estimation open problems conjecture computational 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Broad statistics, entropy and biology discovery; these searches do not by themselves establish admission."
+  },
+  {
+    "search_id": "S434-2",
+    "searched_on": "2026-09-19",
+    "query": "mathematical statistics open problems conjectures survey 2025 2026 estimation",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Broad statistics, entropy and biology discovery; these searches do not by themselves establish admission."
+  },
+  {
+    "search_id": "S434-3",
+    "searched_on": "2026-09-19",
+    "query": "population biology open problems conjecture mathematical 2026 coexistence",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Broad statistics, entropy and biology discovery; these searches do not by themselves establish admission."
+  },
+  {
+    "search_id": "S434-4",
+    "searched_on": "2026-09-19",
+    "query": "Bernoulli sums Renyi entropy concavity conjecture 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Broad statistics, entropy and biology discovery; these searches do not by themselves establish admission."
+  },
+  {
+    "search_id": "S435-1",
+    "searched_on": "2026-09-19",
+    "query": "\"generalized Shepp\" \"conjecture\" Renyi",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Broad statistics, entropy and biology discovery; these searches do not by themselves establish admission."
+  },
+  {
+    "search_id": "S435-2",
+    "searched_on": "2026-09-19",
+    "query": "\"Hillion\" \"Johnson\" \"Rényi\" \"concavity\" 2025 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Broad statistics, entropy and biology discovery; these searches do not by themselves establish admission."
+  },
+  {
+    "search_id": "S435-3",
+    "searched_on": "2026-09-19",
+    "query": "\"Bernoulli\" \"Rényi\" \"jointly concave\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Broad statistics, entropy and biology discovery; these searches do not by themselves establish admission."
+  },
+  {
+    "search_id": "S435-4",
+    "searched_on": "2026-09-19",
+    "query": "\"log-concave density estimation\" \"open problem\" \"Hellinger\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Broad statistics, entropy and biology discovery; these searches do not by themselves establish admission."
+  },
+  {
+    "search_id": "S436-1",
+    "searched_on": "2026-09-19",
+    "query": "\"Jain\" \"Sah\" \"Sawhney\" \"bin packing\" anticoncentration",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S436-2",
+    "searched_on": "2026-09-19",
+    "query": "\"weighted Bernoulli sums\" \"conjecture\" proof counterexample",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S436-3",
+    "searched_on": "2026-09-19",
+    "query": "\"subset sums\" \"maximum concentration\" conjecture 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S436-4",
+    "searched_on": "2026-09-19",
+    "query": "\"Multiplicative comparisons of Rényi entropies\" correction",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S437-1",
+    "searched_on": "2026-09-19",
+    "query": "\"Anticoncentration versus the number of subset sums\" conjecture",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S437-2",
+    "searched_on": "2026-09-19",
+    "query": "\"number of subset sums\" conjecture proof counterexample",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S437-3",
+    "searched_on": "2026-09-19",
+    "query": "\"Bernoulli\" \"H_0\" \"H_∞\" 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S437-4",
+    "searched_on": "2026-09-19",
+    "query": "\"Nederlof\" \"Pawlewicz\" \"Swennenhuis\" conjecture",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S438-1",
+    "searched_on": "2026-09-19",
+    "query": "\"anticoncentration\" \"subset sums\" \"2026\" proof conjecture",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S438-2",
+    "searched_on": "2026-09-19",
+    "query": "\"Anticoncentration versus the number\" erratum correction",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S438-3",
+    "searched_on": "2026-09-19",
+    "query": "\"subset sums\" \"concentration\" \"2ε\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S438-4",
+    "searched_on": "2026-09-19",
+    "query": "\"subset sums\" \"Wiman\" 2017",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S439-1",
+    "searched_on": "2026-09-19",
+    "query": "\"Jain\" \"Sah\" \"Sawhney\" \"subset sums\" \"solved\" OR \"proof\" OR \"refuted\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S439-2",
+    "searched_on": "2026-09-19",
+    "query": "\"Jiange Li\" \"Rényi\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S439-3",
+    "searched_on": "2026-09-19",
+    "query": "\"support\" \"concentration\" \"subset sums\" conjecture",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "S439-4",
+    "searched_on": "2026-09-19",
+    "query": "\"Improved constructions of unbalanced uniquely decodable code pairs\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Pre-draft subset-sum support/concentration research: original and independent formulations, exact probability/entropy scope, later bounds, versions, applications and purported resolutions."
+  },
+  {
+    "search_id": "A58-1",
+    "searched_on": "2026-09-19",
+    "query": "\"Anticoncentration versus the Number of Subset Sums\" proof counterexample resolution",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated post-draft adversarial self-review of subset-sum support/concentration: exact scope, possible resolutions and corrections, hidden endpoint arguments and duplicate families."
+  },
+  {
+    "search_id": "A58-2",
+    "searched_on": "2026-09-19",
+    "query": "\"H_0\" \"H_\\infty\" \"Bernoulli\" conjecture",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated post-draft adversarial self-review of subset-sum support/concentration: exact scope, possible resolutions and corrections, hidden endpoint arguments and duplicate families."
+  },
+  {
+    "search_id": "A58-3",
+    "searched_on": "2026-09-19",
+    "query": "\"Jiange Li\" \"weighted Bernoulli\" correction OR counterexample OR proof",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated post-draft adversarial self-review of subset-sum support/concentration: exact scope, possible resolutions and corrections, hidden endpoint arguments and duplicate families."
+  },
+  {
+    "search_id": "A58-4",
+    "searched_on": "2026-09-19",
+    "query": "\"subset sums\" \"concentration\" conjecture 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated post-draft adversarial self-review of subset-sum support/concentration: exact scope, possible resolutions and corrections, hidden endpoint arguments and duplicate families."
+  },
+  {
+    "search_id": "A58-5",
+    "searched_on": "2026-09-19",
+    "query": "\"Jain\" \"Sah\" \"Sawhney\" \"subset\" \"counterexample\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated post-draft adversarial self-review of subset-sum support/concentration: exact scope, possible resolutions and corrections, hidden endpoint arguments and duplicate families."
+  },
+  {
+    "search_id": "A58-6",
+    "searched_on": "2026-09-19",
+    "query": "\"support size\" \"Bernoulli sums\" entropy",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated post-draft adversarial self-review of subset-sum support/concentration: exact scope, possible resolutions and corrections, hidden endpoint arguments and duplicate families."
+  },
+  {
+    "search_id": "A58-7",
+    "searched_on": "2026-09-19",
+    "query": "\"number of subset sums\" inverse 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated post-draft adversarial self-review of subset-sum support/concentration: exact scope, possible resolutions and corrections, hidden endpoint arguments and duplicate families."
+  },
+  {
+    "search_id": "A58-8",
+    "searched_on": "2026-09-19",
+    "query": "\"Multiplicative comparisons of Rényi entropies\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated post-draft adversarial self-review of subset-sum support/concentration: exact scope, possible resolutions and corrections, hidden endpoint arguments and duplicate families."
+  },
+  {
+    "search_id": "S440-1",
+    "searched_on": "2026-09-19",
+    "query": "\"Sets with Few Subset Sums\" Carpenter Defant Kravitz",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Post-draft A58 follow-up on fresh structural and group-valued subset-sum results and original-author corrections."
+  },
+  {
+    "search_id": "S440-2",
+    "searched_on": "2026-09-19",
+    "query": "\"The asymptotic uniform distribution of subset sums\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Post-draft A58 follow-up on fresh structural and group-valued subset-sum results and original-author corrections."
+  },
+  {
+    "search_id": "S440-3",
+    "searched_on": "2026-09-19",
+    "query": "\"subset sums\" \"rho\" \"conjecture\" proof 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Post-draft A58 follow-up on fresh structural and group-valued subset-sum results and original-author corrections."
+  },
+  {
+    "search_id": "S440-4",
+    "searched_on": "2026-09-19",
+    "query": "\"Anticoncentration versus\" correction erratum refutation",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Post-draft A58 follow-up on fresh structural and group-valued subset-sum results and original-author corrections."
   }
 ]

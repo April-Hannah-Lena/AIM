@@ -426,3 +426,15 @@ The sharp strong edge-colouring question is now an [accepted research draft](dra
 These 24 actual queries bring the search log to 2,028 unique identifiers. There are 55 accepted additions, 50 integrated/published, five pending accepted drafts, six holds and 61 completed formal records. The active catalogue remains 350. Five further accepted drafts are needed for the next ten-entry batch; the minimum requires 145 further acceptances and 150 integrations. The reviewed checkpoint is ready for the authorized direct push to main.
 
 Publication receipt: [83ef0ce](https://github.com/MColbrook/AIM/commit/83ef0ce74c9b8214dc2ac42762338032e06146fb) was pushed directly to main on September 19, 2026. A separate remote-ref read matched the full research commit. All five accepted drafts and their evidence are uploaded; counts remain 55 accepted additions, 50 integrated and 350 active catalogue entries.
+
+### Statistics and entropy discovery (S434–S435; September 19)
+
+The earlier joint-parameter Rényi-concavity lead still lacks independently authored corroboration of its precise remaining range. Shannon concavity and same-author follow-ups do not fill that gap. Li's September 2026 paper instead supplies an explicit, different support-versus-concentration conjecture, developed below.
+
+Compton–Li's [COLT 2026 density-estimation contribution](https://proceedings.mlr.press/v336/compton26a.html) was checked at publisher-abstract and metadata level; its PDF fetch failed. Samworth's log-concave estimation review also surfaced, but its attempted full-text fetch failed in this pass. Neither supplies a new admitted formulation here. The September recursive-overlap entropy preprint and related online discussion are discovery only; their concavity questions vary Bernoulli probabilities and do not state the fair-bit entropy-order comparison. Further statistics, biology and control work remains necessary.
+
+### Subset-sum concentration lead promoted (S436–S440 and A58; September 19)
+
+The [accepted research draft](drafts/subset-sum-support-concentration.md) has an original published formulation, independently authored September corroboration and a [ten-source ledger](candidates/subset-sum-support-concentration.json). The separated A58 self-pass checked ten theorem-scope comparisons, including the latest September 14 structural-paper revision. The probability, counting and entropy formulations are one problem; no special case contributes another count.
+
+The 36 queries in S434–S440 and A58 bring the log to 2,064 unique identifiers. There are 56 accepted additions, 50 integrated/published, six pending accepted drafts, six holds and 62 completed formal records. The active catalogue remains 350. Four further accepted drafts are needed for the next ten-entry batch; the minimum requires 144 further acceptances and 150 integrations. Thirty expressions passed strict KaTeX, full-page visual inspection and local-link checks; bibliography access and its publisher restriction are recorded. The reviewed checkpoint is ready for the authorized direct push to main.
