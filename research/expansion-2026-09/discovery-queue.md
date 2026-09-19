@@ -518,3 +518,5 @@ The classical randomized k-server O(log k)-competitive conjecture is not an open
 S486's morphogenesis and multispecies Keller–Segel searches remain unvetted discovery leads; no precise formulation or independent status review has been completed for them. They contribute no candidate or accepted count.
 
 The log now has 2,341 actual queries with unique identifiers. Current counts are 62 accepted additions, 60 integrated/published, two pending drafts, six holds, 68 formal records and 360 active entries. The minimum requires 138 further acceptances and 140 integrations. Next discovery group: S493; next separated review: A65.
+
+Publication receipt: [112b435](https://github.com/MColbrook/AIM/commit/112b4353b8de2813fbf7447ba06661a68e806799) was pushed directly to main on September 19, 2026; a separate remote-ref read matched the exact full commit. Both accepted pending drafts and their evidence are uploaded. Counts remain 62 accepted, 60 integrated catalogue additions, two pending drafts and 360 active entries.

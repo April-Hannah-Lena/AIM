@@ -258,9 +258,13 @@
     {
       "commit": "3da24a78c1e9ef89eed406a5644f4bb981602c3d",
       "purpose": "Reviewed illumination draft, fifteen source records, fifteen scope comparisons, A63 and technical validation; direct main push separately verified September 19, 2026. No new active catalogue entry."
+    },
+    {
+      "commit": "112b4353b8de2813fbf7447ba06661a68e806799",
+      "purpose": "Reviewed GNRS draft, thirteen source records, fifteen scope comparisons, A64 and technical validation; direct main push separately verified September 19, 2026. No new active catalogue entry."
     }
   ],
-  "remote_state": "All sixty catalogue additions (301–360) are published directly on main. The accepted illumination draft and evidence are uploaded in 3da24a78c1e9ef89eed406a5644f4bb981602c3d. The accepted GNRS draft and evidence are locally validated and ready for the authorized direct push. Active total 360; two accepted drafts await batch integration.",
+  "remote_state": "All sixty catalogue additions (301–360) are published directly on main. Both accepted pending drafts and their evidence are uploaded: illumination in 3da24a78c1e9ef89eed406a5644f4bb981602c3d and GNRS in 112b4353b8de2813fbf7447ba06661a68e806799, each separately verified on remote main September 19, 2026. Active total 360; two accepted drafts await batch integration.",
   "next_actions": [
     "Continue broad research toward at least 200 integrated additions: 62 accepted, 60 published, two pending drafts; 138 acceptances and 140 integrations remain to the minimum. Build the next reviewed ten-entry batch before assigning permanent IDs.",
     "Prioritize distinct families in statistics, information, biology, control and operations research alongside all twelve sections.",
