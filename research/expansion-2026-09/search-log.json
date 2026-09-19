@@ -20598,5 +20598,284 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
     "review_stage": "Follow-up to A67: approximation, relaxation, catalytic-space and restricted matroid results; final current-status refresh."
+  },
+  {
+    "search_id": "S523-1",
+    "candidate_id": "discovery",
+    "query": "\"open problem\" \"Kolmogorov\" \"Zakharov\" stationary spectra rigorous",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery in wave turbulence, FPUT and control; no candidate admitted."
+  },
+  {
+    "search_id": "S523-2",
+    "candidate_id": "discovery",
+    "query": "\"Fermi Pasta Ulam\" \"conjecture\" thermalization 2025 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery in wave turbulence, FPUT and control; no candidate admitted."
+  },
+  {
+    "search_id": "S523-3",
+    "candidate_id": "discovery",
+    "query": "\"damped wave\" \"optimal decay\" \"open problem\" control 2025",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery in wave turbulence, FPUT and control; no candidate admitted."
+  },
+  {
+    "search_id": "S523-4",
+    "candidate_id": "discovery",
+    "query": "\"Heisenberg ferromagnet\" \"three dimensions\" \"open problem\" 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S524-1",
+    "candidate_id": "discovery",
+    "query": "\"quantum Heisenberg ferromagnet\" \"open\" \"long-range order\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S524-2",
+    "candidate_id": "discovery",
+    "query": "\"Heisenberg ferromagnet\" \"phase transition\" proof 2025 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S524-3",
+    "candidate_id": "discovery",
+    "query": "\"ferromagnetic\" \"Heisenberg\" \"conjecture\" \"Tóth\" 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S524-4",
+    "candidate_id": "discovery",
+    "query": "\"Kolmogorov-Zakharov\" \"conjecture\" Bedrossian",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery in wave turbulence, FPUT and control; no candidate admitted."
+  },
+  {
+    "search_id": "S525-1",
+    "candidate_id": "discovery",
+    "query": "\"quantum Heisenberg ferromagnet\" \"long-range order\" proof solved 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S525-2",
+    "candidate_id": "discovery",
+    "query": "\"Heisenberg ferromagnet\" \"phase transition\" \"2025\" rigorous",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S525-3",
+    "candidate_id": "discovery",
+    "query": "\"Heisenberg ferromagnet\" \"long-range order\" \"2024\" open",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S525-4",
+    "candidate_id": "discovery",
+    "query": "\"Toth\" \"weighted\" \"interchange\" \"lattice\" \"phase transition\" 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S526-1",
+    "candidate_id": "discovery",
+    "query": "\"Heisenberg ferromagnet\" \"open problem\" 2025 2026 Ueltschi",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S526-2",
+    "candidate_id": "discovery",
+    "query": "\"Heisenberg ferromagnet\" \"long range order\" Correggi Giuliani Seiringer",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S526-3",
+    "candidate_id": "discovery",
+    "query": "\"Heisenberg ferromagnet\" \"proof\" \"2026\" magnetization",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S526-4",
+    "candidate_id": "discovery",
+    "query": "\"quantum ferromagnet\" \"long-range order\" \"still\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S527-1",
+    "candidate_id": "discovery",
+    "query": "\"Heisenberg ferromagnet\" proof counterexample disproof refutation",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S527-2",
+    "candidate_id": "discovery",
+    "query": "\"Ueltschi\" \"ferromagnet\" \"2025\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S527-3",
+    "candidate_id": "discovery",
+    "query": "\"random loops\" \"Heisenberg ferromagnet\" \"open\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S528-1",
+    "candidate_id": "discovery",
+    "query": "\"Ueltschi\" \"Random loop representations\" Heisenberg ferromagnet",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S528-2",
+    "candidate_id": "discovery",
+    "query": "\"quantum Heisenberg ferromagnet\" \"2026\" rigorous",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S528-3",
+    "candidate_id": "discovery",
+    "query": "\"Thermodynamic properties of high-dimensional Heisenberg ferromagnets\" approximation",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S528-4",
+    "candidate_id": "discovery",
+    "query": "\"Validity of the spin-wave approximation\" correction erratum",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S529-1",
+    "candidate_id": "discovery",
+    "query": "\"Thermodynamic properties of high-dimensional Heisenberg ferromagnets\" \"decoupling\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S529-2",
+    "candidate_id": "discovery",
+    "query": "\"Bin-Zhou Mi\" \"Heisenberg\" 2025 pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S529-3",
+    "candidate_id": "discovery",
+    "query": "\"high-dimensional Heisenberg ferromagnets\" Tyablikov",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S529-4",
+    "candidate_id": "discovery",
+    "query": "\"The Heisenberg ferromagnet: a dilute Bose gas in disguise\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S530-1",
+    "candidate_id": "discovery",
+    "query": "\"Thermodynamic properties of high-dimensional Heisenberg ferromagnets with an arbitrary spin\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S530-2",
+    "candidate_id": "discovery",
+    "query": "\"Mi\" \"Wang\" \"130730\" Heisenberg pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S530-3",
+    "candidate_id": "discovery",
+    "query": "\"S0378437125003826\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S530-4",
+    "candidate_id": "discovery",
+    "query": "\"Huai-Yu Wang\" \"Bin-Zhou Mi\" \"Green\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
   }
 ]

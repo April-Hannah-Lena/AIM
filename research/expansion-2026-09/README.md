@@ -20,6 +20,10 @@ The held draft and scope audit passed structural, local-link and rendering check
 
 The user authorized repository uploads and direct pushes to main. No PR is required. Current upstream and open-PR checks are recorded in the batch audit and individual refresh records.
 
+## Quantum magnetic order discovery (2026-09-19)
+
+The [discovery and access ledger](quantum-heisenberg-ferromagnet-discovery.md) records an explicit 2025 specialist formulation, inspected spin-wave and random-loop results, and a pending full-text comparison with a 2025 Green's-function paper. This lead is outside the accepted count and has no public draft or permanent ID. The 31 additional actual queries are recorded in the search log. Counts remain 65 accepted additions, 60 integrated, five accepted pending drafts and 360 active entries.
+
 ## Deterministic parallel matching (2026-09-19)
 
 The [accepted draft](drafts/general-graph-perfect-matching-nc.md) asks for an exact deterministic construction on every finite simple graph, with logspace-uniform polynomial-size, polylogarithmic-depth Boolean circuits. The [ledger](candidates/general-graph-perfect-matching-nc.json) contains twelve sources and fourteen scope comparisons. It separates the July bipartite breakthrough, weighted-decision reductions, fractional matching, fixed-accuracy rank approximation, catalytic workspace, restricted solution counts and GPU implementations from the requested construction.

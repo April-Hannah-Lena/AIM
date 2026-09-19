@@ -368,3 +368,11 @@ There are 65 accepted additions, 60 integrated/published, five pending drafts, s
 
 
 Publication receipt: [2bc4fb6](https://github.com/MColbrook/AIM/commit/2bc4fb6fdd212629136732fb778adb1f073cf1f3) was pushed directly to main on September 19, 2026; a separate remote-ref read matched the exact full commit. All five accepted pending drafts and their evidence are uploaded. Counts remain 65 accepted additions, 60 integrated catalogue additions, five pending drafts and 360 active entries.
+
+## Quantum magnetic order discovery (S523–S530; September 19, 2026)
+
+The [discovery ledger](quantum-heisenberg-ferromagnet-discovery.md) preserves the explicit Lieb and Seiringer formulations and the full relevant comparisons read for spin-wave free energy, conditional phase-transition arguments, random-loop parameter ranges and complete-graph order. Seiringer's full 2025 contribution supplies the averaged correlation observable. The August 2026 two-dimensional free-energy result explicitly does not assert magnetic order.
+
+The relevant derivation in Mi–Wang's 2025 high-dimensional Green's-function paper remains inaccessible. Its scope has not been inferred from the abstract or the name of its method. Additional historical and random-loop comparisons and the final boundary/limit conventions also remain unfinished. This is discovery only, with no public draft, formal candidate record, assigned ID or adversarial admission review. It does not increase any accepted count.
+
+S523–S530 add 31 actual queries: 27 targeted magnetic-order/source-access searches and four breadth queries. The full log now contains 2,516 queries with distinct identifiers. Exact fetched origin/main and HEAD matched fb9844dd39deadceca943d761a80f5682549fd7e before this research checkpoint. Counts remain 65 accepted, 60 integrated/published, five accepted pending drafts, six formal holds, 71 formal records and 360 active entries. Other research can proceed while these source and scope gaps are resolved.
