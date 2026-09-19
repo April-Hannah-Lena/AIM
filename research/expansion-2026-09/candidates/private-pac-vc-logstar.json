@@ -103,7 +103,7 @@
     "application_check": "The applied claim concerns the amount of sensitive data needed to release a complete classifier. It makes no promise about efficient training, an identifiable target formula or practical privacy certification.",
     "search_limit": "No independent proof certification. Some recent partial results are preprints; source access/version limits are recorded individually."
   },
-  "publication_state": "Accepted local research draft ready for the authorized direct push to main; no permanent ID or active catalogue entry. Awaiting the next integration batch.",
+  "publication_state": "Accepted draft and evidence pushed directly to main; no permanent ID or active catalogue entry. Awaiting the next integration batch.",
   "source_records": [
     {
       "source_id": "ABLM22",
@@ -539,5 +539,15 @@
     "bibliography_report": "research/expansion-2026-09/private-pac-link-check.json",
     "ledger": "Eleven source records, eleven scope comparisons and 28 unique search IDs, all present in the search log.",
     "catalogue": "python3 scripts/catalogue.py --check passed: 350 unique entries, metadata, headings, math delimiters, local links and README freshness. git diff --check passed."
+  },
+  "publication": {
+    "state": "pushed",
+    "repository": "MColbrook/AIM",
+    "branch": "main",
+    "commit": "9fa7854c5ee5195b22231421e4aec170fcc43a36",
+    "pushed_on": "2026-09-19",
+    "remote_ref_verified_on": "2026-09-19",
+    "verified_remote_commit": "9fa7854c5ee5195b22231421e4aec170fcc43a36",
+    "method": "Normal direct push; subsequent authenticated ls-remote read matched the exact content commit. No PR, per user authorization."
   }
 }

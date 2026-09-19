@@ -22,7 +22,7 @@ The user authorized repository uploads and direct pushes to main. No PR is requi
 
 ## Private classification sample cost (2026-09-19)
 
-The [accepted draft](drafts/private-pac-vc-logstar.md) asks for a uniform polynomial bound in VC dimension and the iterated logarithm of Littlestone dimension. It specifies finite domains, constant accuracy, inverse-cubic privacy slack and unrestricted training time. Its [ledger](candidates/private-pac-vc-logstar.json) contains eleven sources and eleven scope comparisons. A56 checked recent structured-class results and possible indirect reductions. Thirty-nine expressions passed strict KaTeX and full-page visual inspection; all six bibliography targets responded successfully. This fourth accepted draft has no permanent ID. The reviewed checkpoint is ready for the authorized direct push to main.
+The [accepted draft](drafts/private-pac-vc-logstar.md) asks for a uniform polynomial bound in VC dimension and the iterated logarithm of Littlestone dimension. It specifies finite domains, constant accuracy, inverse-cubic privacy slack and unrestricted training time. Its [ledger](candidates/private-pac-vc-logstar.json) contains eleven sources and eleven scope comparisons. A56 checked recent structured-class results and possible indirect reductions. Thirty-nine expressions passed strict KaTeX and full-page visual inspection; all six bibliography targets responded successfully. This fourth accepted draft has no permanent ID. Its [research checkpoint](https://github.com/MColbrook/AIM/commit/9fa7854c5ee5195b22231421e4aec170fcc43a36) was pushed directly to main, and a separate remote-ref read matched the exact commit on September 19, 2026.
 
 ## Cutting-stock rounding (2026-09-19)
 
