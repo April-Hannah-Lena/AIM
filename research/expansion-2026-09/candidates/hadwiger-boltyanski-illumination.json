@@ -1,0 +1,541 @@
+{
+  "candidate_id": "hadwiger-boltyanski-illumination",
+  "proposed_catalogue_id": null,
+  "title": "The sharp number of directions illuminating a convex body",
+  "primary_section": "inverse3",
+  "secondary_tags": [
+    "convex geometry",
+    "geometric coverage",
+    "illumination"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Canonical pre-draft fingerprint, independent current scholarly corroboration, fifteen scope comparisons, separated A63 review, exact quantifier checks and rendering/link validation passed. No unresolved material matching resolution claim located. Historical full-text limits remain explicit.",
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "problem_fingerprint": {
+    "objects": "For every integer d>=3, every compact convex K in R^d with nonempty interior; no symmetry, smoothness or polytope assumption.",
+    "illumination": "A unit vector v illuminates x in the boundary of K if x+t v belongs to int(K) for some real t>0. A finite set V illuminates K if each boundary point is illuminated by at least one v in V. The choice of v and t can depend on x; V depends on K. I(K) is the minimum size of V.",
+    "target": "Prove or disprove that I(K)<=2^d for every such K, with equality if and only if K is an affine image of the d-cube. The affine map has invertible linear part.",
+    "equivalent_cover": "The minimum number of positive smaller homothets a_i+lambda_i K, with a_i in R^d and 0<lambda_i<1, whose union contains the entire closed K, equals I(K). Homothets may overlap; individual rotations and reflections are not permitted. Scale factors and translations may depend on K and i.",
+    "scope": "Exact integral covering/illumination number, including nonsmooth boundary points; neither fractional illumination nor a surface-almost-everywhere, quantitative brightness, or constructive placement guarantee.",
+    "family_policy": "One entry for all dimensions and the equivalent illumination, exterior-point-light and positive-homothet covering formulations. No extra entries for dimension-specific or symmetry-restricted cases."
+  },
+  "statement_sources": [
+    {
+      "source_id": "BK16",
+      "url": "https://arxiv.org/pdf/1602.06040v2",
+      "locator": "Section 1, Conjectures 1.1 and 1.2, definitions and equation (1), internal pp.1–3."
+    },
+    {
+      "source_id": "RSS26",
+      "url": "https://link.springer.com/article/10.1007/s00493-025-00195-7",
+      "locator": "Section 1.1, classical real illumination conjecture and preceding definitions."
+    }
+  ],
+  "nearest_existing_entries": [
+    {
+      "id": "129",
+      "path": "problems/129-shortest-opaque-square-barrier.md",
+      "difference": "Minimizes the length of a planar barrier intersecting every line through a fixed square; it does not minimize directions that enter every boundary point of an arbitrary convex body."
+    },
+    {
+      "id": "272",
+      "path": "problems/272-lebesgue-universal-cover.md",
+      "difference": "Minimizes the area of one universal container for all diameter-one planar sets up to isometry; the proposed problem covers a single fixed body by finitely many smaller positive homothets of itself."
+    },
+    {
+      "id": "360",
+      "path": "problems/360-ulam-convex-solid-packing.md",
+      "difference": "Asymptotic density of infinitely many congruent three-dimensional bodies with disjoint interiors and free isometries; the present finite covering permits overlaps and requires positive homothetic smaller copies."
+    }
+  ],
+  "duplicate_check": {
+    "baseline": "Complete established baseline inventory retained; all 360 current titles refreshed and full nearest pages 129, 272 and 360 reread September 19, 2026.",
+    "local": "Alias search of active problems, candidate records and source/exclusion records located no equivalent accepted entry. All sixty earlier additions are integrated, with no pending accepted draft.",
+    "upstream": "September 19 SSH fetch matches HEAD and origin/main at af61ea4f7eaa98a14194d18942bc76b13fd6e441. Connected metadata confirms private MColbrook/AIM, main default and push permission. Open-PR search empty; two-page branch search returns only main."
+  },
+  "publication_state": "Accepted research draft; no permanent ID or active catalogue integration. Research upload pending.",
+  "source_records": [
+    {
+      "source_id": "BK16",
+      "authors": [
+        "Károly Bezdek",
+        "Muhammad A. Khan"
+      ],
+      "title": "The geometry of homothetic covering and illumination",
+      "url": "https://arxiv.org/pdf/1602.06040v2",
+      "version": "arXiv v2 July 18, 2016; published in Discrete Geometry and Symmetry, Springer Proceedings in Mathematics & Statistics 234 (2018), 1–30.",
+      "locator": "Section 1, Conjectures 1.1–1.2, equation (1), pp.1–3; Section 2.1 pp.4–5; Section 2.2 pp.5–7.",
+      "read": "Read full definitions, equivalent positive-homothet covering and directional/exterior-point formulations, equality classification, historical gap discussion and full relevant restricted theorems.",
+      "access_limit": "Historical 1950s/1960s original papers and the 2000 announcement were not read in full; the survey supplies explicit restatements and its own assessment of the earlier proof.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "RSS26",
+      "authors": [
+        "Liran Rotem",
+        "Alon Schejter",
+        "Boaz A. Slomka"
+      ],
+      "title": "The complex Illumination problem",
+      "url": "https://link.springer.com/article/10.1007/s00493-025-00195-7",
+      "version": "Combinatorica 46 (2026), Article 3; published January 7, 2026; DOI 10.1007/s00493-025-00195-7.",
+      "locator": "Sections 1.1–1.4, real conjecture, complex definition, Conjectures 1.1–1.2 and Theorems 1.3–1.10.",
+      "read": "Read full real formulation, current general-bound discussion, fractional and phase-invariant complex definitions and full main theorem statements.",
+      "access_limit": "The complex polydisc proof is not independently certified. The reported error in Boltyanski–Martini concerns a different 2007 polydisc argument, not the 2000 general three-dimensional claim.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "N16",
+      "authors": [
+        "Márton Naszódi"
+      ],
+      "title": "Flavors of Translative Coverings",
+      "url": "https://arxiv.org/pdf/1603.04481v1",
+      "version": "arXiv v1 March 14, 2016.",
+      "locator": "Introduction p.1; Section 6, internal pp.10–12, equivalent definitions and Theorem 6.1.",
+      "read": "Read covering motivation, directional and point-source definitions, covering-number equivalences, smooth-body and cube examples, and historical bounds.",
+      "access_limit": "Early survey version. Current status and precise inequality are controlled by BK16 and the 2026 sources; this survey is not treated as a current status certificate.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "P23",
+      "authors": [
+        "Andriy Prymak"
+      ],
+      "title": "A New Bound for Hadwiger’s Covering Problem in E^3",
+      "url": "https://arxiv.org/pdf/2112.10698v2",
+      "version": "SIAM Journal on Discrete Mathematics 37(1) (2023), 17–24; DOI 10.1137/22M1490314. Inspected arXiv v2 September 20, 2022; abstract-page title remains Every 3-dimensional convex body can be covered by 14 smaller homothetic copies.",
+      "locator": "Introduction pp.1–3; Theorem 1.1 p.2.",
+      "read": "Read model, complete universal three-dimensional theorem and the description of the exact-arithmetic computer-assisted reduction.",
+      "access_limit": "The linear-program certificates were not rerun. The per-body C(K,int K) statement controls, without importing the introductory minimum-over-bodies notation.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CHMT22",
+      "authors": [
+        "Marcelo Campos",
+        "Peter van Hintum",
+        "Robert Morris",
+        "Marius Tiba"
+      ],
+      "title": "Towards Hadwiger’s Conjecture via Bourgain Slicing",
+      "url": "https://arxiv.org/pdf/2206.11227v1",
+      "version": "arXiv v1 June 22, 2022; International Mathematics Research Notices 2024(10), 8282–8295; DOI 10.1093/imrn/rnad198.",
+      "locator": "Section 1, definitions and Theorems 1.1–1.3, internal pp.1–3.",
+      "read": "Read exact per-body covering number, isotropic-constant definition, asymptotic theorem and its dependence exp(-Omega(d)/L_K^2)4^d.",
+      "access_limit": "Full proof and dependency chain not independently certified. The 2022 open slicing statement is superseded by KL25; RSS26 explicitly records the resulting exponential improvement.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "KL25",
+      "authors": [
+        "Boaz Klartag",
+        "Joseph Lehec"
+      ],
+      "title": "Affirmative Resolution of Bourgain’s Slicing Problem using Guan’s Bound",
+      "url": "https://arxiv.org/pdf/2412.15044v1",
+      "version": "arXiv v1 December 19, 2024; Geometric and Functional Analysis 35(4) (2025), 1147–1168; DOI 10.1007/s00039-025-00718-w.",
+      "locator": "Section 1, Theorems 1.1–1.2 and definition (2), internal pp.1–2.",
+      "read": "Read full slicing theorem, covariance normalization and dimension-uniform bound on the supremum of isotropic constants.",
+      "access_limit": "No independent certification of the proof or Guan dependency. Its consequence for illumination is obtained by substitution into CHMT22 and is independently stated in RSS26.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "SV24",
+      "authors": [
+        "Wen Rui Sun",
+        "Beatrice-Helen Vritsiou"
+      ],
+      "title": "Illuminating 1-unconditional convex bodies in R^3 and R^4, and certain cases in higher dimensions",
+      "url": "https://arxiv.org/pdf/2407.11331v1",
+      "version": "arXiv v1 July 16, 2024; related Canadian Journal of Mathematics article DOI 10.4153/S0008414X25101260.",
+      "locator": "Section 1 pp.1–4: sign-change invariance definition, Theorems 1, 2, 5 and Proposition 3.",
+      "read": "Read classical statement, exact symmetry and normalization assumptions, low-dimensional result and all stated higher-dimensional cases.",
+      "access_limit": "Direct accepted-PDF retrieval timed out and web DOI opening failed; the final direct DOI GET succeeded. Full theorem locators refer to the accessible arXiv text, not an uninspected journal revision.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "ASK26",
+      "authors": [
+        "Andrii Arman",
+        "Jaskaran Singh Kaire",
+        "Andriy Prymak"
+      ],
+      "title": "Illumination number of 3-dimensional cap bodies",
+      "url": "https://arxiv.org/pdf/2507.08712v2",
+      "version": "arXiv v2 January 29, 2026; internal manuscript date February 2, 2026; Discrete Mathematics 349(7) (2026), 115025, DOI 10.1016/j.disc.2026.115025.",
+      "locator": "Section 1 pp.1–2, Conjecture 1, cap-body definition and Theorem 2.",
+      "read": "Read full formulation, cap-body segment/spike condition, sharp class-wide bound six and theorem statement.",
+      "access_limit": "The bound six is an upper bound for each cap body and the maximum over that class, not the illumination number of every member. Computer-assisted proof not independently rerun.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "ASKcap26",
+      "authors": [
+        "Andrii Arman",
+        "Jaskaran Singh Kaire",
+        "Andriy Prymak"
+      ],
+      "title": "Hadwiger’s conjecture for cap bodies",
+      "url": "https://arxiv.org/pdf/2510.25968v3",
+      "version": "Preprint; arXiv v1 October 29, 2025, v2 December 13, 2025, v3 August 18, 2026.",
+      "locator": "Section 1 pp.1–2, Theorems 1–2 and Corollary 3; Section 2.1 pp.2–3, cap-body definition and Proposition 4.",
+      "read": "Read complete latest-version all-dimensional cap-body result, separate small/large-dimension ranges and exact convex finite union-of-spikes model.",
+      "access_limit": "Search snippets sometimes describe older versions. The v3 full text controls. No computer certificate rerun or proof certification.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "I26",
+      "authors": [
+        "Illya Ivanov"
+      ],
+      "title": "Illuminating Primitive Polytopes",
+      "url": "https://arxiv.org/pdf/2607.08944v1",
+      "version": "Preprint; arXiv v1 July 9, 2026; internal title-page date July 13, 2026.",
+      "locator": "Sections 1.1–1.4 pp.1–4, Conjecture 1, Theorem 2, definitions and Remarks 2–4.",
+      "read": "Read finite-direction definition, primitive-polytope boundedness condition, full main theorem and discussion of attempts to reduce arbitrary polytopes to primitive ones.",
+      "access_limit": "No independent proof certification. The source’s local linear-image language is not used to change the canonical translation-invariant affine-cube formulation; source normalization includes an interior origin.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "ABP24",
+      "authors": [
+        "Andrii Arman",
+        "Andriy Bondarenko",
+        "Andriy Prymak"
+      ],
+      "title": "On Hadwiger’s covering problem in small dimensions",
+      "url": "https://arxiv.org/pdf/2404.00547v1",
+      "version": "arXiv v1 March 31, 2024; Canadian Mathematical Bulletin 68(4) (2025), 1239–1250; DOI 10.4153/S0008439525000384.",
+      "locator": "Section 1, definitions, comparisons and Theorem 1, internal pp.1–4.",
+      "read": "Read full theorem giving general bounds in dimensions five through eight and symmetric bounds in dimensions four through six.",
+      "access_limit": "Journal PDF retrieval returned 404 despite a search-indexed copy. The arXiv full theorem was inspected, and the publisher’s 2026 erratum was read separately. Per-body definitions and explicit theorem scope control the comparison.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "ABP26err",
+      "authors": [
+        "Andrii Arman",
+        "Andriy Viktorovych Bondarenko",
+        "Andriy Prymak"
+      ],
+      "title": "On Hadwiger’s covering problem in small dimensions – ERRATUM",
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F759934BAFA0CD0DFB102A2ADD15C233/S0008439526101957a.pdf/on_hadwigers_covering_problem_in_small_dimensions_erratum.pdf",
+      "version": "Canadian Mathematical Bulletin (2026), one page; DOI 10.4153/S0008439526101957.",
+      "locator": "Complete one-page notice.",
+      "read": "Read the full correction: first-author name and corresponding-author email metadata.",
+      "access_limit": "This notice changes attribution/contact metadata, not the mathematical theorem. It is a correction to ABP24/25, not independent scholarly corroboration.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "LT20",
+      "authors": [
+        "Galyna Livshyts",
+        "Konstantin Tikhomirov"
+      ],
+      "title": "Cube is a Strict Local Maximizer for the Illumination Number",
+      "url": "https://link.springer.com/article/10.1007/s00454-019-00115-9",
+      "version": "Discrete & Computational Geometry 63 (2020), 209–228; online August 19, 2019.",
+      "locator": "Section 1, Banach–Mazur definition, Theorem 1.1 and ensuing discussion.",
+      "read": "Read full theorem: for each n>=3 there is delta(n)>0, and 1<d_BM(B,cube)<=1+delta(n) implies I(B)<=2^n-1.",
+      "access_limit": "The full theorem controls instead of shorthand about isometry in the abstract. It is a dimension-dependent neighbourhood statement, not a global maximum theorem.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "AS13",
+      "authors": [
+        "Shiri Artstein-Avidan",
+        "Boaz A. Slomka"
+      ],
+      "title": "On weighted covering numbers and the Levi-Hadwiger conjecture",
+      "url": "https://arxiv.org/pdf/1310.7892v2",
+      "version": "Inspected arXiv v2 December 15, 2013; Israel Journal of Mathematics 209(1) (2015), 125–155, as listed by RSS26.",
+      "locator": "Section 1.2 Definition 1.1; Section 1.5 Conjecture 1.9, Theorem 1.10 and Corollary 1.11, internal pp.2 and 6–7.",
+      "read": "Read weighted-cover definition, full symmetric weighted bound and equality condition, and the classical integral-cover corollary with its additional dimension/logarithm factor.",
+      "access_limit": "Weighted directions/copies do not give an integral cover with the same numerical bound. Proof not independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "N09",
+      "authors": [
+        "Márton Naszódi"
+      ],
+      "title": "On the Constant of Homothety for Covering a Convex Set with Its Smaller Copies",
+      "url": "https://arxiv.org/pdf/0901.2652v1",
+      "version": "Inspected arXiv v1 January 17, 2009.",
+      "locator": "Section 1, Definition 1.1, Theorem 1.2 and Conjecture 1.3; full Section 2 proof, internal pp.1–2.",
+      "read": "Read the two covering invariants, their equality theorem and the compactness/upper-semicontinuity proof.",
+      "access_limit": "Establishes equivalence with a scale factor uniform over shapes at fixed dimension, not the value 2^d. No stronger uniformity across dimensions is imported.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "BK16",
+      "locator": "Section 2.1, Theorem 2.1 and preceding paragraph; Section 2.2 Theorem 2.16",
+      "result_scope": "Survey reports gaps in the 2000 three-dimensional announcement and states the later result under md(K)=2, with minimally dependent regular-boundary normals explicitly defined.",
+      "comparison_with_target": "The general historical claim is treated according to the survey’s assessment and later current formulations. The proven restricted normal/Helly-dimension hypothesis is absent from the target; original announcement unavailable.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "P23",
+      "locator": "Theorem 1.1",
+      "result_scope": "All compact full-dimensional convex bodies in R^3 have C(K,int K)<=14.",
+      "comparison_with_target": "Fourteen exceeds eight. Equality-case classification at the sharp value is also not supplied.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "CHMT22",
+      "locator": "Theorems 1.1–1.3",
+      "result_scope": "General integral-cover bound exp(-Omega(d)/L_K^2)4^d, asymptotically.",
+      "comparison_with_target": "Same general-body domain but a weaker numerical conclusion; no sharp 2^d or equality classification.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "KL25",
+      "locator": "Definition (2), Theorem 1.2; compare RSS26 Section 1.1",
+      "result_scope": "Uniformly bounded isotropic constants in all dimensions.",
+      "comparison_with_target": "Substitution into CHMT22 yields 4^d exp(-c d) for some universal c>0, an exponential improvement already noted in RSS26, not a proof of the sharp illumination target.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "SV24",
+      "locator": "Theorem 1",
+      "result_scope": "1-unconditional convex bodies in R^3 or R^4 that are not parallelepipeds have I(K)<=2^d-2.",
+      "comparison_with_target": "Coordinate sign-change invariance is stronger than no symmetry; cannot transfer to arbitrary bodies.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "SV24",
+      "locator": "Theorems 2 and 5; Proposition 3",
+      "result_scope": "Higher-dimensional unconditional bodies satisfying specified full-subcube or nonzero-extreme-coordinate conditions.",
+      "comparison_with_target": "Both sign invariance and the additional geometric condition remain; an unrestricted all-dimensional conclusion is not proved.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "ASK26",
+      "locator": "Theorem 2 and cap-body definition",
+      "result_scope": "Three-dimensional convex ball-and-spike cap bodies have I(K)<=6.",
+      "comparison_with_target": "Proper geometric subclass; its all-dimensional extension is separately checked in ASKcap26.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "ASKcap26",
+      "locator": "Theorems 1–2, Corollary 3 and Section 2.1",
+      "result_scope": "All cap bodies in d>=3 have I(K)<2^d.",
+      "comparison_with_target": "All dimensions are covered but only convex finite unions of spikes based on one ball. Arbitrary convex bodies are not cap bodies.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "I26",
+      "locator": "Theorem 2, Section 1.3 and Remark 2",
+      "result_scope": "Primitive polytopes satisfy the bound and equality assertion.",
+      "comparison_with_target": "Every defining facet inequality must be essential for boundedness. The text does not establish a monotone reduction of all polytopes to this subclass.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "ABP24",
+      "locator": "Theorem 1",
+      "result_scope": "Bounds H5<=933, H6<=6137, H7<=41377, H8<=284096, and symmetric H4<=72, H5<=305, H6<=1292.",
+      "comparison_with_target": "These bounds are above the proposed powers of two; symmetric variants also restrict the object class.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "ABP26err",
+      "locator": "Complete notice",
+      "result_scope": "Corrects an author name and corresponding-author metadata.",
+      "comparison_with_target": "No mathematical correction or general resolution is asserted.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "RSS26",
+      "locator": "Sections 1.2–1.4, Theorems 1.3–1.10",
+      "result_scope": "Complex phase-invariant bodies, polydiscs and complex zonotopes/zonoids; distinct integral/fractional bounds.",
+      "comparison_with_target": "Complex dimension n corresponds to real dimension 2n with extra symmetry. Corrected polydisc proof and fractional results do not solve integral illumination for arbitrary real bodies.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "LT20",
+      "locator": "Theorem 1.1",
+      "result_scope": "In each fixed dimension, non-affine-cubes in a sufficiently small Banach–Mazur neighbourhood of a cube satisfy I(K)<=2^d-1.",
+      "comparison_with_target": "The neighbourhood is essential and dimension-dependent; arbitrary far-away bodies are not covered.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "AS13",
+      "locator": "Theorem 1.10 and Corollary 1.11",
+      "result_scope": "Weighted symmetric covering attains the sharp 2^d threshold; integral consequence retains an additional logarithmic/dimensional factor.",
+      "comparison_with_target": "Fractional weight cannot be counted as a number of actual directions; the exact integral result remains open.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "N09",
+      "locator": "Definition 1.1 and Theorem 1.2",
+      "result_scope": "At each fixed dimension, a shrinkage factor uniform across bodies can achieve the universal optimum covering number.",
+      "comparison_with_target": "Does not determine that optimum; an equivalence theorem cannot establish the conjectured value.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    }
+  ],
+  "aliases": [
+    "Hadwiger covering conjecture",
+    "Levi–Hadwiger covering problem",
+    "Gohberg–Markus covering conjecture",
+    "Boltyanski–Hadwiger illumination conjecture",
+    "Boltjansky illumination problem"
+  ],
+  "independent_corroboration": {
+    "sources": [
+      "RSS26",
+      "ASKcap26"
+    ],
+    "independent_of": [
+      "BK16"
+    ],
+    "qualification": "Different author groups give explicit full general statements. ASK26 and ASKcap26 are one author group; multiple versions and the ABP correction are not counted as independent corroboration."
+  },
+  "normalization_checks": [
+    "Finite V, every boundary point, and an inward ray with positive t; V may depend on K and the chosen direction/time on the boundary point.",
+    "All d>=3 and all full-dimensional compact convex bodies; equality exactly for invertible affine images of the cube.",
+    "Positive smaller homothets only, whole closed-body containment, overlaps allowed. A common scale can be obtained after recentering and enlarging the finitely many ratios to their maximum below one; no extra problem count for this equivalent form.",
+    "The vector convention is the direction of ray travel, with a point at infinity in the opposite direction. No surface-almost-everywhere relaxation.",
+    "Integer optimum is distinct from total fractional weight; no fixed brightness, incidence angle, reconstruction or efficient placement claim.",
+    "The cap-body August v3 and primitive-polytope July v1 results are scoped by full definitions; neither covers all convex bodies.",
+    "The cube needs 2^d directions because one direction cannot enter at two of its vertices; affine invariance preserves this sharp example."
+  ],
+  "discovery_access_limits": [
+    {
+      "url": "https://www.pleiades.online/cgi-perl/search.pl?name=danmath&number=6&page=353&type=abstract&year=0",
+      "limit": "Original 2000 announcement: publisher listing and empty abstract page verify author/title and pages 353–356 in Doklady Mathematics 62(3), with Russian original Dokl. Akad. Nauk 375, 298–301. No full theorem/proof obtained. BK16 explicitly reports the historical proof gaps; current independently authored sources still retain the full problem."
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00454-001-0035-x",
+      "limit": "Boltyanski 2001, Solution of the Illumination Problem for Bodies with md M=2, DCG 26, 527–541: primary metadata and abstract accessed, subscription full text unavailable. Complete restricted theorem and definition read in BK16, Theorems 2.1 and 2.16."
+    },
+    {
+      "url": "https://www.proofatlas.ai/collaboration/hadwiger-boltyanski-illumination-conjecture/",
+      "limit": "AI research-project search hits were discovery only, not primary admission evidence. No complete resolution was asserted in the retrieved hits."
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.09376",
+      "limit": "An incorrectly guessed slicing-paper identifier opened an unrelated LoRA paper. Not used; correct KL25 identifier was obtained by an actual title search."
+    }
+  ],
+  "second_review": {
+    "pass_id": "A63",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass after drafting; no independent agent or human review.",
+    "independent_searches": [
+      "A63-1",
+      "A63-2",
+      "A63-3",
+      "A63-4",
+      "A63-5",
+      "A63-6",
+      "A63-7",
+      "A63-8"
+    ],
+    "issues_found": [
+      "The minimization formula should explicitly require finite V.",
+      "Search snippets can omit the latest all-dimensional cap-body version.",
+      "Weighted and local equality theorems have superficially matching conclusions with different hypotheses.",
+      "Original historical announcement is inaccessible, and its gap must be attributed to the specialist survey rather than independently pronounced."
+    ],
+    "issues_resolved": [
+      "Added finite V explicitly and rendered the full quantifier formula.",
+      "Verified August v3 history and full Corollary 3 before acceptance.",
+      "Read LT20, AS13 and N09 full relevant statements; recorded exact scope differences.",
+      "Kept the full-text limit visible and used BK16 plus current independent open formulations."
+    ],
+    "application_check": "Foundational geometric boundary-coverage model. Resource is the number of ray directions; no numerical photometry, efficient algorithm or reconstruction guarantee is implied.",
+    "search_limit": "Searches and comparisons do not certify mathematical truth or exhaust all literature."
+  },
+  "validation": {
+    "strict_katex_expressions": 26,
+    "render": "All 26 expressions passed strict KaTeX and complete 1300x4400 Chrome screenshot inspection. No clipped or failed mathematics.",
+    "external_links": "All nine bibliography URLs returned HTTP 200; all seven arXiv PDFs had PDF headers.",
+    "external_link_record": "research/expansion-2026-09/hadwiger-boltyanski-illumination-link-check.json",
+    "local_links": "All four relative links resolve."
+  },
+  "draft_path": "research/expansion-2026-09/drafts/hadwiger-boltyanski-illumination.md",
+  "status_search_ids": [
+    "S479-3",
+    "S480-4",
+    "S481-1",
+    "S481-2",
+    "S481-3",
+    "S481-4",
+    "S482-1",
+    "S482-2",
+    "S482-3",
+    "S482-4",
+    "S483-1",
+    "S483-2",
+    "S483-3",
+    "S483-4",
+    "S484-1",
+    "S484-2",
+    "S484-3",
+    "S484-4",
+    "S485-1",
+    "S485-2",
+    "S485-3",
+    "S485-4",
+    "A63-1",
+    "A63-2",
+    "A63-3",
+    "A63-4",
+    "A63-5",
+    "A63-6",
+    "A63-7",
+    "A63-8"
+  ]
+}

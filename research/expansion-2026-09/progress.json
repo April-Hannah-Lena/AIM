@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 60,
+  "new_accepted": 61,
   "active_total": 360,
-  "candidates_investigated": 66,
+  "candidates_investigated": 67,
   "held_unverified": 1,
   "held_claimed_resolution": 5,
   "excluded": 0,
-  "remaining_to_minimum": 140,
-  "remaining_to_target": 190,
+  "remaining_to_minimum": 139,
+  "remaining_to_target": 189,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -256,16 +256,16 @@
       "purpose": "Integrate entries 351–360 with refreshed source audits and batch validation; pushed directly to main and exact remote commit separately verified September 19, 2026."
     }
   ],
-  "remote_state": "All sixty catalogue additions (301–360) and their research records are published directly on main. Batch 6 content commit a79a6d875675959d143bcf4bc7396e1e2a61d1ee was separately verified on remote main on September 19, 2026. No pending accepted drafts; active catalogue 360.",
+  "remote_state": "All sixty catalogue additions (301–360) and prior research records are published directly on main, last fetched at af61ea4f7eaa98a14194d18942bc76b13fd6e441. One new accepted illumination draft and its review records are ready locally for direct research upload; no new catalogue page yet.",
   "next_actions": [
-    "Continue broad research and reviewed batches toward at least 200 integrated additions; 60 are published, 140 remain to the minimum and 190 to the working target of 250.",
+    "Continue broad research toward at least 200 integrated additions: 61 accepted, 60 published, one pending draft; 139 acceptances and 140 integrations remain to the minimum. Build the next reviewed ten-entry batch before assigning permanent IDs.",
     "Prioritize distinct families in statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the six formal holds and discovery-only claims outside admission; preserve original identifiers and historical review dates.",
     "Continue the Carrasco and other discovery leads only after resolving the precise scope and corroboration gaps in their records."
   ],
   "coverage": {
     "stochastic3": 12,
-    "inverse3": 9,
+    "inverse3": 10,
     "spectral2": 1,
     "applied": 12,
     "inverse2": 4,
@@ -279,11 +279,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 60,
-  "count_semantics": "Sixty accepted additions are integrated and published directly on main. Active total 360; no pending accepted drafts. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
+  "count_semantics": "Sixty-one accepted additions: sixty integrated and published directly on main, one pending draft. Active total 360. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 60,
-  "coverage_semantics": "Accepted and integrated additions by primary section.",
+  "coverage_semantics": "Accepted additions by primary section, including one unintegrated illumination draft in inverse3. Sixty additions are integrated and published.",
   "remaining_integrations_to_minimum": 140,
   "remaining_integrations_to_target": 190,
-  "pending_accepted": 0
+  "pending_accepted": 1
 }

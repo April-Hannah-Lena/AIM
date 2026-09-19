@@ -18654,5 +18654,329 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted",
     "review_stage": "Follow-up primary-source retrieval after immediate batch 6 publication refresh"
+  },
+  {
+    "search_id": "S479-1",
+    "candidate_id": "breadth-discovery",
+    "query": "\"Boltzmann Grad\" \"long time\" \"Deng\" \"Hani\" 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S479-2",
+    "candidate_id": "breadth-discovery",
+    "query": "\"Delort\" \"uniqueness\" \"open problem\" 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S479-3",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"illumination conjecture\" 2026 proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S479-4",
+    "candidate_id": "breadth-discovery",
+    "query": "\"Gaussian correlation\" \"strong\" conjecture 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S480-1",
+    "candidate_id": "breadth-discovery",
+    "query": "\"Delort\" uniqueness nonuniqueness 2026 2025",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S480-2",
+    "candidate_id": "breadth-discovery",
+    "query": "\"Delort class\" uniqueness nonuniqueness",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S480-3",
+    "candidate_id": "breadth-discovery",
+    "query": "\"strong Gaussian correlation conjecture\" 2026 proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S480-4",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Hadwiger\" \"illumination\" counterexample proof 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S481-1",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"illumination conjecture\" Bezdek Khan survey",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S481-2",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"illumination conjecture\" applications optimization covering",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S481-3",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Hadwiger covering\" 2026 solved proof refuted counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S481-4",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"illumination conjecture\" \"2025\" \"2026\" general",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S482-1",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Boltyanski\" \"Solution of the illumination problem for three dimensional convex bodies\" gap",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S482-2",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Boltyanskii\" illumination solution 2000 correction",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S482-3",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Hadwiger\" illumination \"2026\" \"counterexample\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S482-4",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"illumination conjecture\" proof solved disproof refutation 2025 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S483-1",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Boltyanski\" illumination \"gaps\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S483-2",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Solution of the illumination problem for bodies with\" \"2\" 2001",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S483-3",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Prymak\" \"14\" illumination covering arxiv",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S483-4",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Campos\" \"van Hintum\" \"Morris\" \"Tiba\" Hadwiger covering slicing",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S484-1",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Affirmative resolution of Bourgain's slicing problem using Guan's bound\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S484-2",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"illumination conjecture\" \"erratum\" correction withdrawal",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S484-3",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Andriy Prymak\" publications covering illumination",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S484-4",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Boltyanski\" \"375\" \"298\" illumination pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S485-1",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Решение задачи освещения\" \"Болтянский\" 2000",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S485-2",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"illumination conjecture\" \"Boltyanski\" proof gap corrected 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S485-3",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"convex body\" \"illumination\" \"2^d\" refuted proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "S485-4",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Gohberg\" \"Markus\" covering conjecture solved 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Primary discovery and full-source scope investigation"
+  },
+  {
+    "search_id": "A63-1",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Hadwiger Boltyanski illumination conjecture\" proof proved resolution refutation 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "A63-2",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"illumination number\" \"equality\" \"parallelotope\" counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "A63-3",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Hadwiger's conjecture for cap bodies\" correction withdrawn 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "A63-4",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Illuminating Primitive Polytopes\" correction proof 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "A63-5",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"illumination conjecture\" \"14\" \"2026\" solved",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "A63-6",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Boltyanski\" \"2000\" \"illumination\" \"gap\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "A63-7",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"Towards Hadwiger\" correction erratum slicing 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "A63-8",
+    "candidate_id": "hadwiger-boltyanski-illumination",
+    "query": "\"illumination\" \"homothetic\" \"covering\" \"smaller\" conjecture uniform",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated adversarial self-review after drafting"
   }
 ]

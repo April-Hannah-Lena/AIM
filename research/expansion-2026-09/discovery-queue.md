@@ -494,3 +494,15 @@ S471–S472 found two potentially matching recent disproof claims. These remain 
 - Complementary–quantum correlation: [Jinbo Wang, Qihang Wang and Kun Chen](https://arxiv.org/abs/2608.03828) claim counterexamples to CQC and ECQC. The primary abstract was opened, but the full counterexample proof was not adjudicated. Hasan Iqbal's [2026 sufficient-condition paper](https://link.springer.com/article/10.1007/s11128-026-05258-2), including its conditional Proposition 3, does not resolve this later claim.
 
 Moser's worm is already represented by entry 252 and receives no duplicate count. Hadwiger illumination and related packing leads have not passed formulation, corroboration and resolution review. Ulam's distinct global convex-solid packing question passed A62 and joins batch 6.
+
+## September 19 discovery after batch 6 (S479–S485)
+
+Hadwiger–Boltyanski illumination has now passed the source, scope, duplicate, A63 and rendering checks. Its [accepted draft](drafts/hadwiger-boltyanski-illumination.md) is the first pending addition for the next batch; it has no permanent ID. All dimensions and equivalent covering/illumination formulations count as one family. The [ledger](candidates/hadwiger-boltyanski-illumination.json) records the August cap-body revision, primitive-polytope restriction and historical claim assessment.
+
+The other searches remain discovery only and are outside the formal candidate/accepted counts:
+
+- Long-time Boltzmann–Grad: searches surfaced recent Deng–Hani–Ma advances, including the [arXiv:2408.07818 lead](https://arxiv.org/abs/2408.07818). The full theorem and its convergence/time hypotheses have not been inspected here; do not admit a generic long-time question from older sources.
+- Delort-class Euler uniqueness: the exact domain, circulation/energy convention and distinguished-sign vorticity class must be sourced before drafting. Search hits involving numerical nonuniqueness or other vorticity spaces do not by themselves settle or formulate this lead.
+- Strong Gaussian correlation: searches surfaced the [Assouline–Chor–Sadovsky lead](https://arxiv.org/abs/2407.15684) and the newer [Gaussian Correlation via Inverse Brascamp–Lieb](https://link.springer.com/article/10.1007/s00440-025-01445-x). Their full statements have not been compared here. Do not conflate set correlation with the separately flagged Gaussian product claim.
+
+The research ledger now has 61 accepted additions, 60 integrated/published, one pending draft, six holds and 67 formal records; 360 active catalogue entries. There are 2,305 actual queries with distinct IDs. Nine more accepted drafts would form the next ten-entry batch. Next discovery group: S486; next separated review: A64.

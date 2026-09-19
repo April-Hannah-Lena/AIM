@@ -1,0 +1,69 @@
+{
+  "checked_on": "2026-09-19",
+  "method": "Direct GET, 25-second timeout, four concurrent requests. Transport checks do not establish mathematical validity.",
+  "results": [
+    {
+      "url": "https://arxiv.org/pdf/1602.06040v2",
+      "status": 200,
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 1387977
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00493-025-00195-7",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 573596
+    },
+    {
+      "url": "https://arxiv.org/pdf/2112.10698v2",
+      "status": 200,
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 174720
+    },
+    {
+      "url": "https://arxiv.org/pdf/2206.11227v1",
+      "status": 200,
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 172542
+    },
+    {
+      "url": "https://arxiv.org/pdf/2412.15044v1",
+      "status": 200,
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 222734
+    },
+    {
+      "url": "https://arxiv.org/pdf/2407.11331v1",
+      "status": 200,
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 601589
+    },
+    {
+      "url": "https://doi.org/10.4153/S0008414X25101260",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "bytes": 757289
+    },
+    {
+      "url": "https://arxiv.org/pdf/2510.25968v3",
+      "status": 200,
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 385659
+    },
+    {
+      "url": "https://arxiv.org/pdf/2607.08944v1",
+      "status": 200,
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "bytes": 366212
+    }
+  ]
+}
