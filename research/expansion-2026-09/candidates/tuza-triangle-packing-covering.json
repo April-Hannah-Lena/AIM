@@ -64,10 +64,12 @@
     "verdict": "passed"
   },
   "remote_publication": {
-    "state": "integrated_local_push_pending",
+    "state": "published_direct_to_main",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null,
+    "commit": "1240ebfbdae361901472a7d33ca0baa7073c51cb",
+    "verified_on": "2026-09-18",
+    "verification": "Normal fast-forward push succeeded; a separate git ls-remote --heads origin main returned the exact content commit.",
     "pull_request_url": null
   },
   "actual_status_check_date": "2026-09-18",
@@ -433,7 +435,7 @@
     "Calbet–Freschi, The Asymptotic Behaviour of sat(n,F), Electronic Journal of Combinatorics 33(3), P3.1 (July 3, 2026), DOI 10.37236/13055: publisher definition and full abstract read. Its flaw/correction concerns a saturation-number conjecture of Tuza, not triangle packing–covering. No full-proof review is claimed."
   ],
   "public_page_path": "problems/346-tuza-triangle-packing-covering.md",
-  "publication_state": "Accepted and integrated locally in batch 5; validation passed, direct push pending.",
+  "publication_state": "Accepted, integrated and published directly to main in batch 5.",
   "batch_validation": {
     "state": "passed",
     "date": "2026-09-18",

@@ -4,7 +4,7 @@ Target: private MColbrook/AIM, upstream aa3087c2cf59db1e30215f90301f356385ce163c
 
 ## Admission and refresh
 
-Ten accepted additions are integrated locally as 341–350. Each has a full scholarly formulation, independently authored status corroboration, comparisons with potential resolutions, duplicate screening and a separated adversarial self-pass. No independent agent or human review is claimed.
+Ten accepted additions are integrated and published on main as 341–350. Each has a full scholarly formulation, independently authored status corroboration, comparisons with potential resolutions, duplicate screening and a separated adversarial self-pass. No independent agent or human review is claimed.
 
 | ID | Topic | Primary section |
 | --- | --- | --- |
@@ -45,10 +45,10 @@ SSH fetch found HEAD equal to origin/main at the commit above. Connected GitHub 
 
 ## Publication
 
-Validation passed. Direct publication is pending the final upstream check and normal fast-forward push. No PR has been opened.
+Validation passed. The final upstream fetch still matched the reviewed target. Content commit [1240ebf](https://github.com/MColbrook/AIM/commit/1240ebfbdae361901472a7d33ca0baa7073c51cb) was pushed directly to main on September 18, 2026. The normal fast-forward push succeeded, and a separate `git ls-remote --heads origin main` returned the exact full content commit. All fifty additions are now published. No PR was opened.
 
 ## Counts and limits
 
-Fifty accepted additions are integrated locally; forty are published, with this batch awaiting direct push. There are 350 locally active entries, 55 formal candidate records and five holds. The minimum requires 150 more additions; the working target requires 200. The expansion covers all twelve primary sections and excludes further numerical linear algebra.
+Fifty accepted, integrated and published additions; 350 active entries; 55 formal candidate records and five holds. The minimum requires 150 more additions; the working target requires 200. The expansion covers all twelve primary sections and excludes further numerical linear algebra.
 
 The original 300 historical review dates are preserved. Literature searches and structural checks do not certify mathematical truth or exhaustive absence of later resolutions.

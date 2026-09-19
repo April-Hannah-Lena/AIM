@@ -1,6 +1,6 @@
 # September 2026 expansion research
 
-The active local catalogue contains 350 entries: the original 300 and fifty accepted additions. Batches 1–4 (301–340) are published directly on main. [Batch 5](batch-05-review.md), entries 341–350, is integrated locally after a fresh September 18 status and upstream check; validation and direct publication are pending. No accepted drafts remain outside the catalogue. There are 50 accepted additions toward the requested 200–300, with a working target of 250: 150 more additions are needed for the minimum.
+The active catalogue contains 350 entries: the original 300 and fifty published additions. All five ten-entry batches (301–350) are published directly on main. [Batch 5](batch-05-review.md) was pushed as [1240ebf](https://github.com/MColbrook/AIM/commit/1240ebfbdae361901472a7d33ca0baa7073c51cb), and a separate remote-ref read verified the exact commit on September 18, 2026. No accepted drafts remain outside the catalogue. There are 50 accepted additions toward the requested 200–300, with a working target of 250: 150 more additions are needed for the minimum.
 
 - [Progress and reading coverage](progress.json): counts, publication state and next actions.
 - [Baseline inventory](baseline-inventory.json): all original statements and metadata at a602073d986b7f5ce57b1aa0db1687d1bd87761d.

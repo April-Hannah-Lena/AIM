@@ -362,12 +362,14 @@
     "upstream": "SSH fetch: HEAD equals origin/main. Connected GitHub confirms private MColbrook/AIM, main default and push permission. Paginated branch search contains only main; open-PR search returned none.",
     "duplicate_scope": "Established complete baseline and 340 active entries; all ten pending draft statements reread with closest-family comparisons. No new upstream files or equivalent accepted target located."
   },
-  "publication_state": "Accepted and integrated locally in batch 5; validation passed, direct push pending.",
+  "publication_state": "Accepted, integrated and published directly to main in batch 5.",
   "remote_publication": {
-    "state": "integrated_local_push_pending",
+    "state": "published_direct_to_main",
     "repository": "MColbrook/AIM",
     "branch": "main",
-    "commit": null,
+    "commit": "1240ebfbdae361901472a7d33ca0baa7073c51cb",
+    "verified_on": "2026-09-18",
+    "verification": "Normal fast-forward push succeeded; a separate git ls-remote --heads origin main returned the exact content commit.",
     "pull_request_url": null
   },
   "batch_validation": {
