@@ -16225,5 +16225,69 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal year where shown",
     "review_stage": "Separated adversarial self-review after drafting: rigorous or certified counterexamples, exact von Neumann scope, older claims, recent literature and corrections."
+  },
+  {
+    "search_id": "S423-1",
+    "searched_on": "2026-09-19",
+    "query": "\"opaque barrier\" square \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "New-family discovery after EoP publication: opaque-square lead is duplicate 129; carrying-simplex hits overlap 311; autocatalytic-core stationary uniqueness is an unreviewed biology lead."
+  },
+  {
+    "search_id": "S423-2",
+    "searched_on": "2026-09-19",
+    "query": "\"minimum opaque\" \"square\" open",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "New-family discovery after EoP publication: opaque-square lead is duplicate 129; carrying-simplex hits overlap 311; autocatalytic-core stationary uniqueness is an unreviewed biology lead."
+  },
+  {
+    "search_id": "S423-3",
+    "searched_on": "2026-09-19",
+    "query": "\"mathematical biology\" \"open conjecture\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "New-family discovery after EoP publication: opaque-square lead is duplicate 129; carrying-simplex hits overlap 311; autocatalytic-core stationary uniqueness is an unreviewed biology lead."
+  },
+  {
+    "search_id": "S423-4",
+    "searched_on": "2026-09-19",
+    "query": "\"carrying simplex\" \"conjecture\" \"open\" 2025 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "New-family discovery after EoP publication: opaque-square lead is duplicate 129; carrying-simplex hits overlap 311; autocatalytic-core stationary uniqueness is an unreviewed biology lead."
+  },
+  {
+    "search_id": "S424-1",
+    "searched_on": "2026-09-19",
+    "query": "\"autocatalytic cores\" \"stationary\" \"uniqueness\" 2026 2025",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Discovery follow-up: autocatalytic-core degradation uniqueness needs complete exceptional-family formulation and independent corroboration; private-learning historical questions need comparison with newer primary theorems. No admission."
+  },
+  {
+    "search_id": "S424-2",
+    "searched_on": "2026-09-19",
+    "query": "\"autocatalytic cores\" \"type II\" conjecture",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Discovery follow-up: autocatalytic-core degradation uniqueness needs complete exceptional-family formulation and independent corroboration; private-learning historical questions need comparison with newer primary theorems. No admission."
+  },
+  {
+    "search_id": "S424-3",
+    "searched_on": "2026-09-19",
+    "query": "\"private learning\" \"Littlestone dimension\" \"open\" sample complexity",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Discovery follow-up: autocatalytic-core degradation uniqueness needs complete exceptional-family formulation and independent corroboration; private-learning historical questions need comparison with newer primary theorems. No admission."
+  },
+  {
+    "search_id": "S424-4",
+    "searched_on": "2026-09-19",
+    "query": "\"Littlestone\" \"polynomial\" \"sample complexity\" 2026 2025",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Discovery follow-up: autocatalytic-core degradation uniqueness needs complete exceptional-family formulation and independent corroboration; private-learning historical questions need comparison with newer primary theorems. No admission."
   }
 ]

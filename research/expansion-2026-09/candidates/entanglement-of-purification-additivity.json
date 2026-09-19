@@ -109,7 +109,7 @@
     "A55-8"
   ],
   "draft_path": "research/expansion-2026-09/drafts/entanglement-of-purification-additivity.md",
-  "publication_state": "Accepted research draft ready for direct upload to main; no permanent ID. Awaiting the next integration batch.",
+  "publication_state": "Accepted draft and evidence pushed directly to main; no permanent ID or active catalogue entry. Awaiting the next integration batch.",
   "second_review": {
     "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass; no independent agent or human review.",
     "pass_id": "A55",
@@ -374,6 +374,9 @@
     "destination": "MColbrook/AIM main",
     "authorization": "User explicitly authorized normal direct pushes.",
     "upstream_precheck": "refs/heads/main matched b64d0af166e62206992c277be95b7c57d363312a on 2026-09-19; no new upstream additions to compare.",
-    "state": "pending_push"
+    "state": "pushed_and_verified",
+    "commit": "f2a1955608c3045330208be169de9360dc845df9",
+    "verified_on": "2026-09-19",
+    "verification": "Normal HEAD:main push succeeded; a separate git ls-remote origin refs/heads/main returned the exact full content commit."
   }
 }

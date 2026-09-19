@@ -222,9 +222,13 @@
     {
       "commit": "64a2a6e2af407a86e344d911b0023ed0877c922e",
       "purpose": "Record reviewed cutting-stock MIRUP draft, twelve-source audit, bibliography checks and discovery; pushed directly to main and exact remote commit separately verified September 19, 2026."
+    },
+    {
+      "commit": "f2a1955608c3045330208be169de9360dc845df9",
+      "purpose": "Record reviewed entanglement-of-purification draft, eight-source audit and bibliography checks; pushed directly to main and exact remote commit separately verified September 19, 2026."
     }
   ],
-  "remote_state": "All fifty catalogue additions (301–350), integer 3SUM and MIRUP research drafts are published directly on main. Entanglement-of-purification additivity has passed review and validation locally and is ready for direct upload. Three accepted drafts await integration; active catalogue remains 350.",
+  "remote_state": "All fifty catalogue additions (301–350) and their research records are published directly on main. Integer 3SUM, MIRUP and entanglement-of-purification additivity are uploaded as accepted research drafts, the latest in f2a1955608c3045330208be169de9360dc845df9. A separate remote-ref read verified that exact research commit on September 19, 2026. Three accepted drafts await integration; active catalogue remains 350.",
   "next_actions": [
     "Continue research toward the next ten-to-twenty-entry integration batch. Integer 3SUM, MIRUP and entanglement-of-purification additivity are accepted drafts; no permanent IDs until the batch is ready.",
     "Continue discovery in other distinct families. Tensor detection is held after A52 found a potentially matching sparse-parity theorem whose modulus and hierarchy-level scope require clarification; see spiked-tensor-scope-hold.md.",
@@ -236,7 +240,7 @@
     "Do not admit general strongly polynomial LP without adjudicating matching claims; keep historical entries 031, 032 and 286 follow-ups separate from new counts.",
     "Bernoulli Renyi joint-parameter concavity and the small-sample entangled-Gaussian mean question still need independently authored status corroboration. The 2026 statistics survey does not explicitly corroborate that precise small-sample remainder. Continue precise statistics, biology, information and control discovery.",
     "Continue the continuous-time Carrasco discovery audit in carrasco-discovery.md: original full formulation and independent status discussion read; July 2026 discrete-time disproof inspected at model/theorem level. Reconcile multiplier and stability conventions and investigate any continuous-time transfer before fingerprinting or admission. No candidate or accepted count assigned.",
-    "The entanglement-of-purification draft passed exact-source, current-status, duplicate and A55 review; complete direct publication and continue distinct families. Keep the mammillary identifiability lead outside admission while its matching September claim is investigated."
+    "Entanglement-of-purification additivity is accepted and uploaded. Continue distinct families toward the next batch; keep the mammillary identifiability lead outside admission while its matching September claim is investigated."
   ],
   "coverage": {
     "inverse3": 7,
