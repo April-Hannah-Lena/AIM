@@ -218,11 +218,15 @@
     {
       "commit": "a15a8e57759c55e1f96892fbf2de664a3110f94a",
       "purpose": "Record reviewed integer-3SUM draft, evidence, bibliography checks and discovery; pushed directly to main and exact remote commit separately verified September 18, 2026."
+    },
+    {
+      "commit": "64a2a6e2af407a86e344d911b0023ed0877c922e",
+      "purpose": "Record reviewed cutting-stock MIRUP draft, twelve-source audit, bibliography checks and discovery; pushed directly to main and exact remote commit separately verified September 19, 2026."
     }
   ],
-  "remote_state": "All fifty catalogue additions (301–350) and their research records are published directly on main. Integer 3SUM is uploaded as a research draft in a15a8e57759c55e1f96892fbf2de664a3110f94a. MIRUP has passed admission and technical review locally; its direct research-checkpoint push is pending. Two accepted drafts await integration; active total remains 350.",
+  "remote_state": "All fifty catalogue additions (301–350) and their research records are published directly on main. Integer 3SUM and MIRUP are uploaded as accepted research drafts, the latter in 64a2a6e2af407a86e344d911b0023ed0877c922e. A separate remote-ref read verified that exact research commit on September 19, 2026. Two accepted drafts await integration; the active catalogue remains 350.",
   "next_actions": [
-    "Continue research toward the next ten-to-twenty-entry integration batch. Integer 3SUM and MIRUP are accepted drafts; publish the reviewed MIRUP checkpoint directly to main, then continue discovery without assigning IDs early.",
+    "Continue research toward the next ten-to-twenty-entry integration batch. Integer 3SUM and MIRUP are accepted and uploaded as drafts; no permanent IDs until the batch is ready.",
     "Continue discovery in other distinct families. Tensor detection is held after A52 found a potentially matching sparse-parity theorem whose modulus and hierarchy-level scope require clarification; see spiked-tensor-scope-hold.md.",
     "Research and review eight or more further distinct additions for the next batch; refresh status and upstream duplicates before assigning permanent IDs. Fifty additions are integrated/published, and two accepted drafts await integration.",
     "Continue broad discovery toward at least 200 new accepted entries, aiming for 250; prioritize statistics, information, biology, control and operations research alongside all twelve sections.",

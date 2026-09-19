@@ -111,7 +111,7 @@
     "A54-14"
   ],
   "draft_path": "research/expansion-2026-09/drafts/modified-integer-round-up.md",
-  "publication_state": "Accepted local research draft and evidence; authorized direct research-checkpoint push pending. No permanent ID; awaits next integration batch.",
+  "publication_state": "Accepted draft and evidence pushed directly to main; no permanent ID or active catalogue entry. Awaiting the next integration batch.",
   "second_review": {
     "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass; no independent agent or human review.",
     "pass_id": "A54",
@@ -427,5 +427,11 @@
     "covering_vs_equality": "For the complete downward-closed pattern set, surplus production can be removed without adding stock pieces. In the LP, a fractional amount of a pattern a can be replaced by a-e_i until surplus in coordinate i is removed, preserving cost and other coordinates. Thus exact-demand statements with this full pattern set also apply to the displayed covering optima. This elementary normalization is not a proof of MIRUP.",
     "ceiling": "For integral z_IP, z_IP<=ceil(z_LP)+1 is equivalent to z_IP-z_LP<2, including integral z_LP. It is not the stronger inequality z_IP-z_LP<=1.",
     "small_lp": "The source's O(log OPT_f) asymptotic bound is written O(log(2+z_LP)) to cover small positive LP values. If z_LP<=1 then total item length<=W and all demanded items fit in one stock piece."
+  },
+  "publication": {
+    "research_commit": "64a2a6e2af407a86e344d911b0023ed0877c922e",
+    "pushed_to": "MColbrook/AIM main",
+    "verified_on": "2026-09-19",
+    "verification": "A separate git ls-remote origin refs/heads/main call matched the full local content commit after the push."
   }
 }
