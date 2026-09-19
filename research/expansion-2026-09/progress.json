@@ -250,11 +250,15 @@
     {
       "commit": "97362b77ba6a8108c3c92fe1b9f631dafe660834",
       "purpose": "Record reviewed Brownian Fleming–Viot non-explosion draft, eight-source audit, bibliography checks and related discovery; pushed directly to main and exact remote commit separately verified September 19, 2026."
+    },
+    {
+      "commit": "a79a6d875675959d143bcf4bc7396e1e2a61d1ee",
+      "purpose": "Integrate entries 351–360 with refreshed source audits and batch validation; pushed directly to main and exact remote commit separately verified September 19, 2026."
     }
   ],
-  "remote_state": "Main still contains fifty integrated additions. Batch 6 (351–360) is integrated locally; publication awaits final validation.",
+  "remote_state": "All sixty catalogue additions (301–360) and their research records are published directly on main. Batch 6 content commit a79a6d875675959d143bcf4bc7396e1e2a61d1ee was separately verified on remote main on September 19, 2026. No pending accepted drafts; active catalogue 360.",
   "next_actions": [
-    "Finish batch 6 validation and direct publication, then continue research toward at least 200 integrated additions; working target 250.",
+    "Continue broad research and reviewed batches toward at least 200 integrated additions; 60 are published, 140 remain to the minimum and 190 to the working target of 250.",
     "Prioritize distinct families in statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the six formal holds and discovery-only claims outside admission; preserve original identifiers and historical review dates.",
     "Continue the Carrasco and other discovery leads only after resolving the precise scope and corroboration gaps in their records."
@@ -275,9 +279,9 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 60,
-  "count_semantics": "Sixty accepted additions are integrated; fifty are published and batch 6 awaits final validation/direct push. No pending accepted drafts. Six held candidates excluded.",
+  "count_semantics": "Sixty accepted additions are integrated and published directly on main. Active total 360; no pending accepted drafts. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
-  "new_published": 50,
+  "new_published": 60,
   "coverage_semantics": "Accepted and integrated additions by primary section.",
   "remaining_integrations_to_minimum": 140,
   "remaining_integrations_to_target": 190,

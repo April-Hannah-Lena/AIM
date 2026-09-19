@@ -4,7 +4,7 @@ Target: private MColbrook/AIM, upstream `73c787d1add623ce7ede59766e018b51ea4e1a1
 
 ## Admission and refresh
 
-Ten accepted additions are integrated locally as 351–360. Each has a scholarly formulation, independently authored corroboration, resolution-scope comparisons, duplicate screening and a separated adversarial self-pass. No independent agent or human review is claimed.
+Ten accepted additions are integrated and published on main as 351–360. Each has a scholarly formulation, independently authored corroboration, resolution-scope comparisons, duplicate screening and a separated adversarial self-pass. No independent agent or human review is claimed.
 
 | ID | Topic | Primary section |
 | --- | --- | --- |
@@ -44,10 +44,10 @@ SSH fetch found HEAD equal to origin/main at the commit above. Connected GitHub 
 
 ## Publication
 
-Validation passed. Batch 6 awaits the final upstream fetch and a normal direct push to main.
+Validation passed, and the final upstream fetch still matched the reviewed target. Content commit [a79a6d8](https://github.com/MColbrook/AIM/commit/a79a6d875675959d143bcf4bc7396e1e2a61d1ee) was pushed directly to main on September 19, 2026. The normal fast-forward push succeeded; a separate `git ls-remote --heads origin main` returned the exact full content commit. All sixty additions are now published. No PR was opened.
 
 ## Counts and limits
 
-Sixty accepted and integrated additions; fifty currently published; 360 active local entries; 66 formal candidate records and six holds. No accepted drafts remain pending integration. The minimum requires 140 more additions and the working target requires 190. This batch spans seven primary sections, and the accepted additions cover all twelve. No further numerical linear algebra was added.
+Sixty accepted, integrated and published additions; 360 active entries; 66 formal candidate records and six holds. No accepted drafts remain pending integration. The minimum requires 140 more additions and the working target requires 190. This batch spans seven primary sections, and the accepted additions cover all twelve. No further numerical linear algebra was added.
 
 The original 300 historical review dates are preserved. Literature searches and structural checks do not certify mathematical truth or exhaustive absence of later resolutions.

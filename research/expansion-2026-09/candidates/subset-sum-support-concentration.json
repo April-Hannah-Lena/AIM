@@ -111,7 +111,7 @@
     "application_check": "NPSS23 Lemma 3.5 explicitly indexes dynamic-programming states by attainable sums; JSS21 Section 1.1 describes how the concentration/support tradeoff improves the fixed-bin runtime dependence. No random-input assumption or current-best-algorithm claim.",
     "search_limit": "This is a separated self-pass, not independent expert review. Full proofs and computational artifacts were not independently certified; source-level access and reading limits are recorded."
   },
-  "publication_state": "Accepted and integrated locally in batch 6; direct publication pending final validation.",
+  "publication_state": "Accepted, integrated and published directly to main in batch 6.",
   "source_records": [
     {
       "source_id": "JSS21",
@@ -476,5 +476,12 @@
     "draft_public_math_match": true,
     "structural": "Catalogue validation passed for 360 unique entries. All 350 earlier pages and metadata values are unchanged.",
     "links": "See batch-06-link-check.json; all checked local links resolve."
+  },
+  "remote_publication": {
+    "date": "2026-09-19",
+    "destination": "MColbrook/AIM:main",
+    "commit": "a79a6d875675959d143bcf4bc7396e1e2a61d1ee",
+    "verified_by": "Successful fast-forward push followed by separate git ls-remote returning the exact full content commit.",
+    "pull_request": null
   }
 }

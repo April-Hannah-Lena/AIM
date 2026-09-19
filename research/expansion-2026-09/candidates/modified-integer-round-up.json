@@ -111,7 +111,7 @@
     "A54-14"
   ],
   "draft_path": "research/expansion-2026-09/drafts/modified-integer-round-up.md",
-  "publication_state": "Accepted and integrated locally in batch 6; direct publication pending final validation.",
+  "publication_state": "Accepted, integrated and published directly to main in batch 6.",
   "second_review": {
     "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass; no independent agent or human review.",
     "pass_id": "A54",
@@ -455,5 +455,12 @@
     "draft_public_math_match": true,
     "structural": "Catalogue validation passed for 360 unique entries. All 350 earlier pages and metadata values are unchanged.",
     "links": "See batch-06-link-check.json; all checked local links resolve."
+  },
+  "remote_publication": {
+    "date": "2026-09-19",
+    "destination": "MColbrook/AIM:main",
+    "commit": "a79a6d875675959d143bcf4bc7396e1e2a61d1ee",
+    "verified_by": "Successful fast-forward push followed by separate git ls-remote returning the exact full content commit.",
+    "pull_request": null
   }
 }
