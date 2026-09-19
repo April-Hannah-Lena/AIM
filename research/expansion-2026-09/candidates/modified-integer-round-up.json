@@ -1,0 +1,431 @@
+{
+  "candidate_id": "modified-integer-round-up",
+  "proposed_catalogue_id": null,
+  "title": "The modified integer round-up conjecture for cutting stock",
+  "primary_section": "stochastic3",
+  "decision": "accept_open",
+  "decision_reason": "Exact all-pattern formulation, independently authored corroboration, twelve scope comparisons, duplicate review, separated A54 self-review and technical validation passed. No matching unresolved resolution claim located.",
+  "aliases": [
+    "MIRUP",
+    "Modified integer rounding up property",
+    "Gilmore–Gomory cutting-stock integrality gap"
+  ],
+  "secondary_tags": [
+    "operations research",
+    "manufacturing",
+    "integer optimization"
+  ],
+  "problem_fingerprint": {
+    "input": "For every n>=1, positive integer stock capacity W, positive integer item lengths ell_i<=W, and positive integer demands b_i, i=1,...,n.",
+    "pattern_set": "All nonnegative integer vectors a with sum_i ell_i a_i<=W. No demand-dependent cap a_i<=b_i is imposed; nonproper patterns are allowed.",
+    "integer_optimum": "z_IP=min sum_a x_a subject to sum_a a_i x_a>=b_i for every i and x_a nonnegative integers.",
+    "fractional_optimum": "z_LP is the same finite pattern formulation with x_a nonnegative real numbers.",
+    "question": "Does z_IP<=ceil(z_LP)+1 hold for every such instance?",
+    "quantifiers": "Arbitrary number of item types, arbitrary capacity, lengths and demands; the additive one is uniform across all instances.",
+    "objective": "Total number of stock pieces, counting repeated patterns separately; not the number of distinct patterns or trim loss.",
+    "canonical_scope": "One offline cutting-stock/bin-packing LP-gap family. Proper-pattern restrictions, special item classes and weaker constant-gap questions are not counted separately.",
+    "computational_scope": "A structural relation between optima; no polynomial-time construction or algorithmic rounding guarantee is required."
+  },
+  "fingerprint_recorded_on": "2026-09-18",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "statement_sources": [
+    {
+      "source_id": "SLSCI26",
+      "locator": "§1 integer input; §2 equations (1)–(3), proper/nonproper distinction and full Property 2."
+    },
+    {
+      "source_id": "HR15",
+      "locator": "§1 equation (1), pp. 1–2, general pattern LP and MIRUP discussion."
+    }
+  ],
+  "independently_authored_corroboration": {
+    "source_ids": [
+      "SLSCI26",
+      "HR15",
+      "G20"
+    ],
+    "independence": "The three author teams are disjoint from one another and from the original Scheithauer–Terno authors.",
+    "scope": "The exact ceiling-plus-one question is retained in the June 2026 primary preprint; the 2015 algorithmic paper and 2020 counterexample survey supply independent formulation/status context."
+  },
+  "nearest_existing": [
+    {
+      "entry": "326",
+      "path": "problems/326-online-bin-packing-optimal-ratio.md",
+      "full_statement_read": true,
+      "comparison": "Unknown adversarial arrivals and irrevocable placements; asks for a deterministic asymptotic multiplicative competitive ratio. The present offline assertion compares integer and fractional optima additively."
+    },
+    {
+      "entry": "336",
+      "path": "problems/336-strong-komlos-prefix-discrepancy.md",
+      "full_statement_read": true,
+      "comparison": "Uniform infinity-norm discrepancy for signed prefixes of Euclidean unit vectors. Discrepancy can inform rounding methods, but it is not this fixed knapsack-pattern optimum inequality."
+    },
+    {
+      "entry": "285",
+      "path": "problems/285-metric-tsp-four-thirds.md",
+      "full_statement_read": true,
+      "comparison": "A multiplicative Held–Karp gap for metric tours; different feasible configurations, polytope and objective."
+    }
+  ],
+  "duplicate_check": {
+    "checked_on": "2026-09-19",
+    "scope": "Established complete baseline and accepted-addition inventory, nearest complete statements, and fresh MIRUP/modified-integer/cutting-stock/Gilmore–Gomory/Scheithauer/Hoberg search over problems, data, catalogue manifest, candidates, discovery, source maps and exclusions.",
+    "result": "No equivalent active or accepted entry located. Entry 326 shares the packing application but asks a different online question."
+  },
+  "status_search_ids": [
+    "S413-4",
+    "S414-1",
+    "S414-2",
+    "S414-3",
+    "S414-4",
+    "S415-1",
+    "S415-2",
+    "S415-3",
+    "S415-4",
+    "S416-1",
+    "S416-2",
+    "S416-3",
+    "S416-4",
+    "S417-1",
+    "S417-2",
+    "S417-3",
+    "S417-4",
+    "S418-1",
+    "S418-2",
+    "S418-3",
+    "S418-4",
+    "A54-1",
+    "A54-2",
+    "A54-3",
+    "A54-4",
+    "A54-5",
+    "A54-6",
+    "A54-7",
+    "A54-8",
+    "A54-9",
+    "A54-10",
+    "A54-11",
+    "A54-12",
+    "A54-13",
+    "A54-14"
+  ],
+  "draft_path": "research/expansion-2026-09/drafts/modified-integer-round-up.md",
+  "publication_state": "Accepted local research draft and evidence; authorized direct research-checkpoint push pending. No permanent ID; awaits next integration batch.",
+  "second_review": {
+    "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass; no independent agent or human review.",
+    "pass_id": "A54",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "independent_searches": [
+      "A54-1",
+      "A54-2",
+      "A54-3",
+      "A54-4",
+      "A54-5",
+      "A54-6",
+      "A54-7",
+      "A54-8",
+      "A54-9",
+      "A54-10",
+      "A54-11",
+      "A54-12",
+      "A54-13",
+      "A54-14"
+    ],
+    "issues_found": [
+      "Proper and nonproper pattern relaxations can be conflated; their integer optima coincide but their fractional optima need not.",
+      "Counterexamples to ordinary IRUP and a distinct-pattern conjecture may look like MIRUP refutations.",
+      "Recent benchmark algorithms, high-multiplicity runtime bounds and multiflow integrality results concern different guarantees.",
+      "A proof title refers to at most seven item sizes; divisible-instance bounds retain an extra hypothesis.",
+      "One recent overflow paper has a replacement notice, and one old arXiv PDF has a typesetting date different from its submission history.",
+      "A logarithmic asymptotic bound should use a harmless positive-argument convention when displayed for all positive LP values."
+    ],
+    "issues_resolved": [
+      "Retained all capacity-feasible patterns, arbitrary demands, covering constraints and exact ceiling-plus-one target; documented downward-closure normalization.",
+      "Read complete G20 counterexample formulations, EPR12 algorithm-class definition and KKRS14 pattern definitions/results.",
+      "Compared full SLSCI26 theorem hypotheses, JOP26 Theorem 3, ASW26 Theorems 1–2 and the corrected MS26 model.",
+      "Checked the complete EPR12 seven-size restatement and M22 Definition 3/Theorem 4; disclosed unavailable original personal communication.",
+      "Used the presently served corrected overflow model, recorded the notice's limited detail, and verified the sole KKRS14 arXiv version.",
+      "Wrote the logarithmic partial bound as O(log(2+z_LP)), preserving its asymptotic meaning without a nonpositive logarithm for small LP optima."
+    ],
+    "quantifier_checks": "All n>=1 and all positive integer capacities, lengths <=W and demands; one uniform additive one; same complete pattern set for integer and real variables; no algorithmic, fixed-type, divisibility or proper-pattern promise.",
+    "application_check": "Idealized one-dimensional production planning with uniform stock length and stock-count objective; no unsupported guarantee for trim-loss, setup-cost or machine-restricted variants.",
+    "duplicate_check": "Fresh aliases searched across active pages, data, manifest and research records; full nearest entries 326, 336 and 285 compared. No equivalent accepted assertion located.",
+    "search_limit": "No exhaustive proof certification or independent mathematical review. ST95/ST97 original full texts and the cited 2009 personal communication were unavailable; exact accessible restatements are identified. Computational enumerations were not rerun."
+  },
+  "source_records": [
+    {
+      "source_id": "SLSCI26",
+      "authors": [
+        "Renan Fernando Franco da Silva",
+        "Vinícius Loti de Lima",
+        "Rafael C. S. Schouery",
+        "Jean-François Côté",
+        "Manuel Iori"
+      ],
+      "title": "Polynomial and Pseudopolynomial Algorithms for Two Classes of Bin Packing Instances",
+      "url": "https://arxiv.org/html/2604.05152v2",
+      "version": "arXiv:2604.05152v2, June 4, 2026; first version April 6, 2026. Preprint.",
+      "locator": "§1; §2 equations (1)–(3) and Property 2; §3; §4.1 Theorem 1 and proof; §5.1 Theorems 2–3, Lemma 1 and algorithm scope; §7.",
+      "read": "Complete exact integer-input model and MIRUP property read. Full benchmark construction, AI theorem and proof, ANI theorem hypotheses and relevant proofs distinguish restricted benchmark algorithms from a universal LP-gap theorem.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "HR15",
+      "authors": [
+        "Rebecca Hoberg",
+        "Thomas Rothvoss"
+      ],
+      "title": "A Logarithmic Additive Integrality Gap for Bin Packing",
+      "url": "https://arxiv.org/pdf/1503.08796",
+      "version": "arXiv:1503.08796v1, March 30, 2015. Published SODA 2017, pp. 2616–2625, DOI 10.1137/1.9781611974782.172; metadata verified on the author publication page.",
+      "locator": "§1 equation (1), pp. 1–2; §1.1 Theorem 2 and discrepancy discussion, p. 3.",
+      "read": "Full arbitrary-multiplicity pattern LP, explicit MIRUP discussion and complete additive O(log OPT_f) theorem read. Expected polynomial runtime is in the total number of items. Discussion separates abstract three-permutation discrepancy from realizable packing instances.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18",
+      "access_limit": "Accessible preprint read; the published proceedings text was not line-compared."
+    },
+    {
+      "source_id": "G20",
+      "authors": [
+        "Constantine Goulimis"
+      ],
+      "title": "Counterexamples in the CSP",
+      "url": "https://arxiv.org/pdf/2004.01937",
+      "version": "arXiv:2004.01937v3, July 7, 2020; PDF title Counterexamples in the Cutting Stock Problem.",
+      "locator": "§1 model; §2 IRUP example and MIRUP statement, p. 2; §5.1 Conjecture A and its counterexample, pp. 6–7.",
+      "read": "Full relevant mathematical statements and explicit counterexample data read. The stock-count IRUP example obeys MIRUP. The later counterexample concerns the number of distinct patterns in a waste-optimal solution, not the number of stock pieces relative to the LP.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18",
+      "access_limit": "No independent rerun of the computational certificate for the distinct-pattern example."
+    },
+    {
+      "source_id": "ST95",
+      "authors": [
+        "Guntram Scheithauer",
+        "Johannes Terno"
+      ],
+      "title": "The modified integer round-up property of the one-dimensional cutting stock problem",
+      "url": "https://doi.org/10.1016/0377-2217(95)00022-I",
+      "version": "European Journal of Operational Research 84(3), 562–571, August 3, 1995.",
+      "locator": "Publisher abstract and bibliographic record.",
+      "read": "Original attribution, exact ceiling-plus-one claim and heuristic/numerical scope verified in the publisher record.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18",
+      "access_limit": "Full original paper inaccessible in this session. Exact formulation is supported by the fully read SLSCI26 and HR15 restatements."
+    },
+    {
+      "source_id": "ST97",
+      "authors": [
+        "Guntram Scheithauer",
+        "Johannes Terno"
+      ],
+      "title": "Theoretical investigations on the modified integer round-up property for the one-dimensional cutting stock problem",
+      "url": "https://doi.org/10.1016/S0167-6377(96)00047-8",
+      "version": "Operations Research Letters 20(2), 93–100, February 1997.",
+      "locator": "Publisher abstract and bibliographic record.",
+      "read": "Record describes proofs for special subproblems; no exact special-case threshold is inferred.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18",
+      "access_limit": "Full text not yet obtained; a CiteSeer document route timed out. No unread theorem is represented as checked."
+    },
+    {
+      "source_id": "JOP26",
+      "authors": [
+        "Klaus Jansen",
+        "Felix Ohnesorge",
+        "Lis Pirotton"
+      ],
+      "title": "A Tight Double-Exponential Lower Bound for High-Multiplicity Bin Packing",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.116/LIPIcs.ICALP.2026.116.html",
+      "version": "ICALP 2026, LIPIcs 374, article 116, DOI 10.4230/LIPIcs.ICALP.2026.116.",
+      "locator": "§1 Definitions 1–2 and complete Theorem 3; §3.3 restated theorem and proof.",
+      "read": "Exact high-multiplicity input, binary encoding and ETH-conditional running-time lower bound read. The exponent |I|^(2^o(d)) is unambiguous in the proof despite malformed extraction in the theorem heading.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "EPR12",
+      "authors": [
+        "Friedrich Eisenbrand",
+        "Dömötör Pálvölgyi",
+        "Thomas Rothvoß"
+      ],
+      "title": "Bin Packing via Discrepancy of Permutations",
+      "url": "https://arxiv.org/pdf/1007.2170",
+      "version": "arXiv:1007.2170v2, February 2, 2012; arXiv labels this the journal version of the SODA 2011 paper.",
+      "locator": "§1, pp. 2–5; §6, Definition 1 and complete Theorems 11–12, pp. 12–16.",
+      "read": "Full rounding-class definition and lower-bound statements read. The integral rounding vector is restricted to the supplied fractional support, with dominated-item replacement and discarded-item cost. The §1 scholarly restatement limits the Sebő–Shmonin result to at most seven distinct item sizes.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "The old Washington author-PDF route returned 404; the arXiv full text was read instead. The cited 2009 personal communication itself was unavailable, so only the explicit scope restatement is used."
+    },
+    {
+      "source_id": "ASW26",
+      "authors": [
+        "Mohammed Majthoub Almoghrabi",
+        "Martin Skutella",
+        "Philipp Warode"
+      ],
+      "title": "Integer and unsplittable multiflows in series-parallel digraphs",
+      "url": "https://link.springer.com/article/10.1007/s10107-026-02392-8",
+      "version": "Mathematical Programming, published June 29, 2026.",
+      "locator": "§1, complete Theorems 1–2 and integer/unsplittable distinction; §2 multiflow definition; §3 proof of Theorem 1.",
+      "read": "Full target model and arc-flow rounding bounds read. Integer flow can split an integer demand across paths; unsplittable rounding permits arc loads to exceed the original load by less than the maximum demand.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-18"
+    },
+    {
+      "source_id": "KKRS14",
+      "authors": [
+        "Vadim M. Kartak",
+        "Sascha Kurz",
+        "Artem V. Ripatti",
+        "Guntram Scheithauer"
+      ],
+      "title": "Minimal proper non-IRUP instances of the one-dimensional Cutting Stock Problem",
+      "url": "https://arxiv.org/pdf/1405.5988",
+      "version": "arXiv:1405.5988v1, May 23, 2014, the sole version in the checked history; related journal DOI 10.1016/j.dam.2015.02.020.",
+      "locator": "§§1–2, full pattern/proper-pattern and gap definitions; §8, complete computational scope and Table 1; §9 conclusions.",
+      "read": "Full relevant definitions, finite-demand enumeration range, explicit example table and conclusions read. Proper gaps are measured against a stronger LP; the largest table value is 17/16, and unrestricted MIRUP remains a separate conjecture in the introduction.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "The served PDF has a November 12, 2017 typesetting date and orders authors Kartak–Ripatti–Scheithauer–Kurz; the arXiv record gives the order stored here and only the 2014 v1. No invented revision is assigned. Enumeration certificates were not rerun."
+    },
+    {
+      "source_id": "M22",
+      "authors": [
+        "John Martinovic"
+      ],
+      "title": "A note on the integrality gap of cutting and skiving stock instances",
+      "url": "https://link.springer.com/article/10.1007/s10288-020-00469-4",
+      "version": "4OR 20, 85–104 (2022), published online December 23, 2020. Subtitle: Why 4/3 is an upper bound for the divisible case?",
+      "locator": "§§1–2, model, Definitions 2–3 and Lemma 1; §4 complete Theorem 4; §5 Theorem 5 and Remark 6; §6.",
+      "read": "Full divisible-class definition requires every W/ell_i to be a positive integer. Complete cutting-stock gap bound <4/3 read. The transfer discussion toward arbitrary instances explicitly concerns a skiving-stock bound and does not remove this condition from the cutting-stock theorem.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-19"
+    },
+    {
+      "source_id": "MS26",
+      "authors": [
+        "John Martinovic",
+        "Nico Strasdat"
+      ],
+      "title": "The overflowing bin packing problem: theoretical results and compact ILP formulations",
+      "url": "https://link.springer.com/article/10.1007/s00186-025-00913-3",
+      "version": "Mathematical Methods of Operations Research 102, 395–433 (2025 issue); accessed corrected online article, with April 1, 2026 correction.",
+      "locator": "§2 Definitions 1–3, full objective and Lemma 1; conclusion on additive gaps; change history.",
+      "read": "Full input/objective and pattern conventions read: a fixed collection of possibly unequal bins, overload permitted, objective sum of absolute deviations from capacities. Complete Lemma 1 concerns fixing an item whose size equals one bin capacity. The conclusion retains the classical constant-gap question.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-19",
+      "access_limit": "The main page displays February 24, 2026, while the correction identifies the original publication as December 1, 2025. Both dates are retained without assuming they are the same event."
+    },
+    {
+      "source_id": "MS26C",
+      "authors": [
+        "John Martinovic",
+        "Nico Strasdat"
+      ],
+      "title": "Correction: The overflowing bin packing problem: theoretical results and compact ILP formulations",
+      "url": "https://link.springer.com/article/10.1007/s00186-026-00920-y",
+      "version": "Mathematical Methods of Operations Research 103, 311 (2026), April 1, 2026.",
+      "locator": "Complete correction notice.",
+      "read": "The publisher states that an uncorrected version had been published by mistake and was replaced. The notice does not list individual mathematical changes; the presently served corrected definitions were used for comparison.",
+      "identity_verified": true,
+      "accessed_on": "2026-09-19"
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "HR15",
+      "locator": "§1.1 Theorem 2, p. 3",
+      "result_scope": "All ordinary bin-packing instances admit a solution within a logarithmic additive term of the all-pattern LP; randomized expected time is polynomial in total multiplicity.",
+      "mismatch": "A growing logarithmic term does not prove the ceiling-plus-one target. Runtime polynomial in expanded item count does not imply polynomial time in binary multiplicity encoding."
+    },
+    {
+      "source_id": "SLSCI26",
+      "locator": "§3 construction; §4 Observations 2–4; §4.1 Theorem 1 and proof",
+      "result_scope": "Polynomial exact packing for AI instances constructed from a fixed original instance by constrained augmentation.",
+      "mismatch": "The reconstruction guarantee requires membership in the constructed class. Running the same procedure on arbitrary instances may return Fail."
+    },
+    {
+      "source_id": "SLSCI26",
+      "locator": "§5.1 complete Theorems 2–3, Lemma 1 and algorithm discussion",
+      "result_scope": "Pseudopolynomial exact solution for ANI benchmark classes, using original irreducibility and constrained full triplets; constant-size residual guaranteed for the specified class.",
+      "mismatch": "The universal runtime/preprocessing statement does not supply universal optimality or a universal all-pattern LP-gap bound."
+    },
+    {
+      "source_id": "G20",
+      "locator": "§2, p. 2",
+      "result_scope": "Ordinary IRUP counterexample W=132, lengths (44,33,12), demands (2,3,6), LP=259/132, integer optimum=3.",
+      "mismatch": "ceil(259/132)+1=3. It disproves the stronger ordinary rounding assertion while satisfying the displayed MIRUP target."
+    },
+    {
+      "source_id": "G20",
+      "locator": "§5.1 Conjecture A and counterexample, pp. 6–7",
+      "result_scope": "Nine orders may need eleven distinct patterns in a waste-optimal exact-demand solution.",
+      "mismatch": "Support size and waste are different objectives from total stock multiplicity. This is not a counterexample to the number-of-stock-pieces LP-gap conjecture."
+    },
+    {
+      "source_id": "EPR12",
+      "locator": "§6 Definition 1 and Theorems 11–12",
+      "result_scope": "Logarithmic and squared-logarithmic barriers for algorithms using the supplied fractional support, with specific domination/discarding rules.",
+      "mismatch": "The unrestricted integer optimum can use other feasible patterns. A lower bound for this algorithm class is not an instance with an unrestricted MIRUP violation."
+    },
+    {
+      "source_id": "EPR12",
+      "locator": "§1, p. 2, explicit Sebő–Shmonin scope restatement and reference [23]",
+      "result_scope": "The cited partial proof has at most seven distinct item sizes.",
+      "mismatch": "The proposed n is unbounded. Only the complete scholarly scope restatement was inspected; the personal communication was not represented as a checked original proof."
+    },
+    {
+      "source_id": "JOP26",
+      "locator": "§1 Definition 1 and Theorem 3; §3.3 proof",
+      "result_scope": "ETH rules out time |I|^(2^o(d)) for exact high-multiplicity bin packing with d sizes and binary input.",
+      "mismatch": "Exact optimization complexity does not decide the structural additive gap of the LP. MIRUP neither requires an efficient algorithm nor promises exact optimization from the LP alone."
+    },
+    {
+      "source_id": "ASW26",
+      "locator": "§1 Theorems 1–2; §2 definition",
+      "result_scope": "Integer multiflow rounding and unsplittable flow with per-arc deviation below the maximum commodity demand on series-parallel digraphs.",
+      "mismatch": "Integer multiflow need not keep an item whole. Unsplittable rounding permits capacity overflow; the target instead keeps every stock capacity W and bounds the number of pieces."
+    },
+    {
+      "source_id": "KKRS14",
+      "locator": "§2; §8 and complete Table 1; §9",
+      "result_scope": "Enumerates proper-pattern IRUP for small total item counts and constructs proper gaps exceeding one, up to 17/16 in the table.",
+      "mismatch": "Ordinary proper IRUP is stronger than proper MIRUP and differs from the all-pattern relaxation. A proper gap below two alone would not bound the all-pattern gap; the paper itself retains the general MIRUP conjecture and makes no general refutation claim."
+    },
+    {
+      "source_id": "M22",
+      "locator": "§2 Definition 3; §4 Theorem 4; §5 Remark 6",
+      "result_scope": "The all-pattern cutting-stock gap is <4/3 when W/ell_i is an integer for every i.",
+      "mismatch": "Divisibility is an additional hypothesis. The subsequent transfer sentence concerns a skiving-stock bound and is not a universal cutting-stock MIRUP proof."
+    },
+    {
+      "source_id": "MS26",
+      "locator": "§2 Definitions 1–3 and Lemma 1; corrected conclusion",
+      "result_scope": "Fixed-bin overflow optimization minimizes total absolute deviations; one equal-size item/bin pair can be fixed in an optimum.",
+      "mismatch": "Capacity overflow, fixed bin count and a deviation objective change the model. Neither the corrected result nor MS26C announces a classical cutting-stock MIRUP theorem."
+    }
+  ],
+  "validation": {
+    "state": "passed",
+    "checked_on": "2026-09-19",
+    "math_rendering": "20 expressions passed strict KaTeX. The full rendered local page was visually inspected with mathematical notation visible and no clipping.",
+    "bibliography": "Six of seven external bibliography targets returned HTTP 200. The SODA DOI returned 403; the fully inspected primary arXiv alternative returned 200. ST95 original-full-text access limitation remains explicit. See modified-integer-round-up-link-check.json.",
+    "local_links": "All four relative Markdown links resolve.",
+    "catalogue": "catalogue.py --write and --check passed for 350 active entries; no active membership change.",
+    "json_and_searches": "All expansion JSON parses; 1,944 unique search identifiers. All 35 candidate search references, twelve source identifiers and twelve scope comparisons resolve.",
+    "upstream_refresh": "A separate git ls-remote call found origin/main equal to reviewed local HEAD 978728d363b3431049731a3d89a6d7c8392342a5 on September 19, 2026; no new upstream additions."
+  },
+  "normalization_checks": {
+    "proper_patterns": "Restricting a_i<=b_i can increase the LP optimum; it must not silently replace the all-pattern relaxation. The draft uses the explicit SLSCI26 Property 2 convention.",
+    "covering_vs_equality": "For the complete downward-closed pattern set, surplus production can be removed without adding stock pieces. In the LP, a fractional amount of a pattern a can be replaced by a-e_i until surplus in coordinate i is removed, preserving cost and other coordinates. Thus exact-demand statements with this full pattern set also apply to the displayed covering optima. This elementary normalization is not a proof of MIRUP.",
+    "ceiling": "For integral z_IP, z_IP<=ceil(z_LP)+1 is equivalent to z_IP-z_LP<2, including integral z_LP. It is not the stronger inequality z_IP-z_LP<=1.",
+    "small_lp": "The source's O(log OPT_f) asymptotic bound is written O(log(2+z_LP)) to cover small positive LP values. If z_LP<=1 then total item length<=W and all demanded items fit in one stock piece."
+  }
+}

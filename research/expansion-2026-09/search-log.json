@@ -15665,5 +15665,373 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal year where shown",
     "review_stage": "Separated A53 self-review: author manuscript, restricted rSUM bound, current resolution and correction follow-up."
+  },
+  {
+    "search_id": "S411-1",
+    "searched_on": "2026-09-18",
+    "query": "\"cane toads\" \"strong\" \"spreading\" conjecture 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "New-batch biology discovery and precise earlier-lead corroboration."
+  },
+  {
+    "search_id": "S411-2",
+    "searched_on": "2026-09-18",
+    "query": "\"Non-local competition slows down front acceleration\" conjecture",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "New-batch biology discovery and precise earlier-lead corroboration."
+  },
+  {
+    "search_id": "S411-3",
+    "searched_on": "2026-09-18",
+    "query": "\"phylogenetic\" \"open problems\" \"2026\" conjecture",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "New-batch biology discovery and precise earlier-lead corroboration."
+  },
+  {
+    "search_id": "S411-4",
+    "searched_on": "2026-09-18",
+    "query": "\"mathematical biology\" \"conjecture\" \"2025\" \"open\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "New-batch biology discovery and precise earlier-lead corroboration."
+  },
+  {
+    "search_id": "S412-1",
+    "searched_on": "2026-09-18",
+    "query": "\"mammillary\" \"Conjecture 3.18\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Mammillary identifiability and flow-kick conjecture screening."
+  },
+  {
+    "search_id": "S412-2",
+    "searched_on": "2026-09-18",
+    "query": "\"Parameter identifiability of linear-compartmental mammillary models\" proof conjecture",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Mammillary identifiability and flow-kick conjecture screening."
+  },
+  {
+    "search_id": "S412-3",
+    "searched_on": "2026-09-18",
+    "query": "\"mammillary\" \"identifiability\" \"2026\" conjecture",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Mammillary identifiability and flow-kick conjecture screening."
+  },
+  {
+    "search_id": "S412-4",
+    "searched_on": "2026-09-18",
+    "query": "\"flow-kick\" \"conjecture\" permanence",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Mammillary identifiability and flow-kick conjecture screening."
+  },
+  {
+    "search_id": "S413-1",
+    "searched_on": "2026-09-18",
+    "query": "\"Markov embedding problem\" \"open\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Broader discovery in stochastic models, quantum information and cutting-stock optimization."
+  },
+  {
+    "search_id": "S413-2",
+    "searched_on": "2026-09-18",
+    "query": "\"entanglement of purification\" \"additivity\" conjecture proof 2025 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Broader discovery in stochastic models, quantum information and cutting-stock optimization."
+  },
+  {
+    "search_id": "S413-3",
+    "searched_on": "2026-09-18",
+    "query": "\"quantum Wielandt\" conjecture 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Broader discovery in stochastic models, quantum information and cutting-stock optimization."
+  },
+  {
+    "search_id": "S413-4",
+    "searched_on": "2026-09-18",
+    "query": "\"modified integer round-up\" conjecture 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Broader discovery in stochastic models, quantum information and cutting-stock optimization."
+  },
+  {
+    "search_id": "S414-1",
+    "searched_on": "2026-09-18",
+    "query": "\"modified integer round-up\" proof solved counterexample conjecture",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "MIRUP name, resolution, original-source and rounding-algorithm search before any draft."
+  },
+  {
+    "search_id": "S414-2",
+    "searched_on": "2026-09-18",
+    "query": "\"MIRUP\" conjecture 2025 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "MIRUP name, resolution, original-source and rounding-algorithm search before any draft."
+  },
+  {
+    "search_id": "S414-3",
+    "searched_on": "2026-09-18",
+    "query": "\"Scheithauer\" \"Terno\" \"modified integer\" pdf",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "MIRUP name, resolution, original-source and rounding-algorithm search before any draft."
+  },
+  {
+    "search_id": "S414-4",
+    "searched_on": "2026-09-18",
+    "query": "\"logarithmic additive integrality gap\" \"bin packing\" Rothvoss Hoberg",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "MIRUP name, resolution, original-source and rounding-algorithm search before any draft."
+  },
+  {
+    "search_id": "S415-1",
+    "searched_on": "2026-09-18",
+    "query": "MIRUP 2026 bin packing cutting stock conjecture",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "MIRUP exact statement, original publication, recent algorithms and counterexample scope."
+  },
+  {
+    "search_id": "S415-2",
+    "searched_on": "2026-09-18",
+    "query": "Scheithauer Terno modified integer round up property 1995 84 562 571",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "MIRUP exact statement, original publication, recent algorithms and counterexample scope."
+  },
+  {
+    "search_id": "S415-3",
+    "searched_on": "2026-09-18",
+    "query": "modified integer round-up conjecture proof disproof 2025 2024",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "MIRUP exact statement, original publication, recent algorithms and counterexample scope."
+  },
+  {
+    "search_id": "S415-4",
+    "searched_on": "2026-09-18",
+    "query": "MIRUP proper relaxation counterexample Ripatti Kartak",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "MIRUP exact statement, original publication, recent algorithms and counterexample scope."
+  },
+  {
+    "search_id": "S416-1",
+    "searched_on": "2026-09-18",
+    "query": "\"modified integer round-up\" disproof refutation proof solved",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "MIRUP disqualification pass: refutation aliases and integer-roundup/pattern-count counterexamples."
+  },
+  {
+    "search_id": "S416-2",
+    "searched_on": "2026-09-18",
+    "query": "\"MIRUP\" \"solved\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "MIRUP disqualification pass: refutation aliases and integer-roundup/pattern-count counterexamples."
+  },
+  {
+    "search_id": "S416-3",
+    "searched_on": "2026-09-18",
+    "query": "\"Counterexamples in the CSP\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "MIRUP disqualification pass: refutation aliases and integer-roundup/pattern-count counterexamples."
+  },
+  {
+    "search_id": "S416-4",
+    "searched_on": "2026-09-18",
+    "query": "\"MIRUP\" \"Ripatti\" \"Kartak\" \"2020\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "MIRUP disqualification pass: refutation aliases and integer-roundup/pattern-count counterexamples."
+  },
+  {
+    "search_id": "S417-1",
+    "searched_on": "2026-09-18",
+    "query": "\"modified integer round-up\" erratum correction withdrawal",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "MIRUP original-source corrections, recent author results and counterexample search; queries executed before context compaction."
+  },
+  {
+    "search_id": "S417-2",
+    "searched_on": "2026-09-18",
+    "query": "\"Hoberg\" \"Rothvoss\" \"integrality gap\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "MIRUP original-source corrections, recent author results and counterexample search; queries executed before context compaction."
+  },
+  {
+    "search_id": "S417-3",
+    "searched_on": "2026-09-18",
+    "query": "\"MIRUP\" \"da Silva\" \"Schouery\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "MIRUP original-source corrections, recent author results and counterexample search; queries executed before context compaction."
+  },
+  {
+    "search_id": "S417-4",
+    "searched_on": "2026-09-18",
+    "query": "\"bin packing\" \"integrality gap\" \"counterexample\" \"2025\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "MIRUP original-source corrections, recent author results and counterexample search; queries executed before context compaction."
+  },
+  {
+    "search_id": "S418-1",
+    "searched_on": "2026-09-18",
+    "query": "\"modified integer round-up\" \"ceil\" proof counterexample",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "MIRUP mathematical wording, original-author corrections, benchmark-paper changes and discrepancy barrier scope."
+  },
+  {
+    "search_id": "S418-2",
+    "searched_on": "2026-09-18",
+    "query": "\"bin packing\" \"three permutations\" \"lower bound\" Eisenbrand Pálvölgyi Rothvoss",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "MIRUP mathematical wording, original-author corrections, benchmark-paper changes and discrepancy barrier scope."
+  },
+  {
+    "search_id": "S418-3",
+    "searched_on": "2026-09-18",
+    "query": "\"Scheithauer\" \"Terno\" \"MIRUP\" correction",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "MIRUP mathematical wording, original-author corrections, benchmark-paper changes and discrepancy barrier scope."
+  },
+  {
+    "search_id": "S418-4",
+    "searched_on": "2026-09-18",
+    "query": "\"Polynomial and Pseudopolynomial Algorithms for Two Classes\" correction withdrawn",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "MIRUP mathematical wording, original-author corrections, benchmark-paper changes and discrepancy barrier scope."
+  },
+  {
+    "search_id": "A54-1",
+    "searched_on": "2026-09-19",
+    "query": "\"modified integer round-up\" proof counterexample 2026",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after drafting: exact MIRUP, proper patterns, current bounds, original authors and correction/version searches."
+  },
+  {
+    "search_id": "A54-2",
+    "searched_on": "2026-09-19",
+    "query": "\"MIRUP\" \"non-proper\" counterexample",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after drafting: exact MIRUP, proper patterns, current bounds, original authors and correction/version searches."
+  },
+  {
+    "search_id": "A54-3",
+    "searched_on": "2026-09-19",
+    "query": "\"bin packing\" \"additive integrality gap\" \"2025\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after drafting: exact MIRUP, proper patterns, current bounds, original authors and correction/version searches."
+  },
+  {
+    "search_id": "A54-4",
+    "searched_on": "2026-09-19",
+    "query": "\"cutting stock\" \"ceil\" \"plus one\" conjecture",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after drafting: exact MIRUP, proper patterns, current bounds, original authors and correction/version searches."
+  },
+  {
+    "search_id": "A54-5",
+    "searched_on": "2026-09-19",
+    "query": "\"Scheithauer\" \"Terno\" \"round-up\" solved",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after drafting: exact MIRUP, proper patterns, current bounds, original authors and correction/version searches."
+  },
+  {
+    "search_id": "A54-6",
+    "searched_on": "2026-09-19",
+    "query": "\"Hoberg\" \"Rothvoss\" \"logarithmic\" improved",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after drafting: exact MIRUP, proper patterns, current bounds, original authors and correction/version searches."
+  },
+  {
+    "search_id": "A54-7",
+    "searched_on": "2026-09-19",
+    "query": "\"Bin Packing via Discrepancy of Permutations\" erratum correction",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after drafting: exact MIRUP, proper patterns, current bounds, original authors and correction/version searches."
+  },
+  {
+    "search_id": "A54-8",
+    "searched_on": "2026-09-19",
+    "query": "\"Polynomial and Pseudopolynomial Algorithms\" \"2604.05152\" revision",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal years where shown",
+    "review_stage": "Separated adversarial self-review after drafting: exact MIRUP, proper patterns, current bounds, original authors and correction/version searches."
+  },
+  {
+    "search_id": "A54-9",
+    "searched_on": "2026-09-19",
+    "query": "\"Proof of the modified integer round-up conjecture\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A54 follow-up: apparent full-proof title, low-dimensional restrictions and current constant-gap results."
+  },
+  {
+    "search_id": "A54-10",
+    "searched_on": "2026-09-19",
+    "query": "\"MIRUP\" \"seven\" \"nine\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A54 follow-up: apparent full-proof title, low-dimensional restrictions and current constant-gap results."
+  },
+  {
+    "search_id": "A54-11",
+    "searched_on": "2026-09-19",
+    "query": "\"modified integer round-up\" \"2026\" \"disproved\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A54 follow-up: apparent full-proof title, low-dimensional restrictions and current constant-gap results."
+  },
+  {
+    "search_id": "A54-12",
+    "searched_on": "2026-09-19",
+    "query": "\"bin packing\" \"constant additive\" \"2026\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted; literal year where shown",
+    "review_stage": "Separated A54 follow-up: apparent full-proof title, low-dimensional restrictions and current constant-gap results."
+  },
+  {
+    "search_id": "A54-13",
+    "searched_on": "2026-09-19",
+    "query": "\"Minimal proper non-IRUP instances\" arxiv",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated A54 full-text follow-up on proper non-IRUP examples and divisible-instance bounds."
+  },
+  {
+    "search_id": "A54-14",
+    "searched_on": "2026-09-19",
+    "query": "\"A note on the integrality gap of cutting and skiving stock instances\"",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted",
+    "review_stage": "Separated A54 full-text follow-up on proper non-IRUP examples and divisible-instance bounds."
   }
 ]

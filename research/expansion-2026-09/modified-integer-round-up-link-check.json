@@ -1,0 +1,70 @@
+{
+  "checked_on": "2026-09-19",
+  "method": "Direct GET of every external bibliography link; full source identities and exact read locations are recorded in the candidate ledger.",
+  "results": [
+    {
+      "url": "https://doi.org/10.1016/0377-2217%2895%2900022-I",
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/037722179500022I",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 2693,
+      "pdf_magic": false,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://arxiv.org/html/2604.05152v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2604.05152v2",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 660206,
+      "pdf_magic": false,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://doi.org/10.1137/1.9781611974782.172",
+      "error": "HTTP Error 403: Forbidden",
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1503.08796",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1503.08796",
+      "content_type": "application/pdf",
+      "bytes": 207204,
+      "pdf_magic": true,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://arxiv.org/pdf/1007.2170",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/1007.2170",
+      "content_type": "application/pdf",
+      "bytes": 206585,
+      "pdf_magic": true,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://arxiv.org/pdf/2004.01937",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2004.01937",
+      "content_type": "application/pdf",
+      "bytes": 385312,
+      "pdf_magic": true,
+      "checked_on": "2026-09-19"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s10288-020-00469-4",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s10288-020-00469-4?error=cookies_not_supported&code=e6a51f59-03a2-40a0-be85-629cdd6d4336",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 389059,
+      "pdf_magic": false,
+      "checked_on": "2026-09-19"
+    }
+  ],
+  "access_notes": [
+    "ST95 publisher route responded 200; only its publisher abstract/metadata was inspected, not the original full text.",
+    "The SODA publisher route returned 403. The complete HR15 primary arXiv alternative returned 200 and its relevant model/theorem were read.",
+    "All successful sources were identified through the full source readings recorded in the candidate ledger; HTTP success alone is not a content or status certificate."
+  ]
+}
