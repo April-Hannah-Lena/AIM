@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 65,
+  "new_accepted": 66,
   "active_total": 360,
-  "candidates_investigated": 71,
+  "candidates_investigated": 72,
   "held_unverified": 1,
   "held_claimed_resolution": 5,
   "excluded": 0,
-  "remaining_to_minimum": 135,
-  "remaining_to_target": 185,
+  "remaining_to_minimum": 134,
+  "remaining_to_target": 184,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -276,20 +276,21 @@
       "purpose": "Reviewed general-graph perfect-matching NC draft, twelve sources, fourteen scope comparisons, A67 and technical validation; direct main push separately verified September 19, 2026. No new active catalogue entry."
     }
   ],
-  "remote_state": "All sixty catalogue additions (301–360) are published directly on main. All five accepted pending drafts and their evidence are uploaded: illumination, GNRS, Fourier entropy–influence, D-stable Lotka–Volterra attraction and general-graph perfect matching in NC. The latest research commit 2bc4fb6fdd212629136732fb778adb1f073cf1f3 was separately verified on remote main September 19, 2026. Active total 360; five accepted drafts await batch integration.",
+  "remote_state": "Sixty catalogue additions (301–360) are published directly on main; active total 360. Five accepted pending drafts were already uploaded. The sixth, simple stochastic games, has passed review and is ready for direct research upload; no permanent ID yet. Fresh fetched origin/main matched HEAD at 4bdd1674193922739a409b88c5f31e3ad5d6da61 on September 19, 2026.",
   "next_actions": [
-    "Continue broad research toward at least 200 integrated additions: 65 accepted, 60 published, five pending drafts; 135 acceptances and 140 integrations remain to the minimum. Five more accepted drafts would form the next ten-entry batch before assigning permanent IDs.",
+    "Continue toward at least 200 integrated additions: 66 accepted, 60 published, six pending drafts; 134 acceptances and 140 integrations remain to the minimum. Four more accepted drafts would form the next ten-entry batch before assigning permanent IDs.",
     "Prioritize distinct families in statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the six formal holds and discovery-only claims outside admission; preserve original identifiers and historical review dates.",
     "Continue the Carrasco and other discovery leads only after resolving the precise scope and corroboration gaps in their records.",
-    "Quantum Heisenberg magnetic-order discovery is saved separately with 27 targeted queries and four breadth queries. Obtain the relevant 2025 Green's-function paper's full scope and finish formulation/claim checks before drafting or counting it; no new formal candidate or accepted entry."
+    "Quantum Heisenberg magnetic-order discovery is saved separately with 27 targeted queries and four breadth queries. Obtain the relevant 2025 Green's-function paper's full scope and finish formulation/claim checks before drafting or counting it; no new formal candidate or accepted entry.",
+    "Preserve the discovery-only unknot claim warning and Boolean-network/private-memory leads; read their missing full scope and obtain independent corroboration before admission."
   ],
   "coverage": {
     "stochastic3": 13,
     "inverse3": 10,
     "spectral2": 1,
     "applied": 13,
-    "inverse2": 4,
+    "inverse2": 5,
     "operators": 7,
     "inverse": 3,
     "stochastic2": 6,
@@ -300,11 +301,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 60,
-  "count_semantics": "Sixty-five accepted additions: sixty integrated and published directly on main, five pending drafts. Active total 360. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
+  "count_semantics": "Sixty-six accepted additions: sixty integrated and published directly on main, six pending drafts. Active total 360. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 60,
-  "coverage_semantics": "Accepted additions by primary section, including unintegrated illumination (inverse3), GNRS (stochastic3), Fourier entropy–influence (applied), D-stable Lotka–Volterra attraction (stochastic2), and general-graph perfect matching in NC (operators). Sixty additions are integrated and published.",
+  "coverage_semantics": "Accepted additions by primary section, including six pending drafts: illumination (inverse3), GNRS (stochastic3), Fourier entropy–influence (applied), D-stable Lotka–Volterra attraction (stochastic2), general-graph perfect matching in NC (operators) and simple stochastic games (inverse2). Sixty additions are integrated and published.",
   "remaining_integrations_to_minimum": 140,
   "remaining_integrations_to_target": 190,
-  "pending_accepted": 5
+  "pending_accepted": 6
 }

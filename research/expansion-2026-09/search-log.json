@@ -20877,5 +20877,320 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
     "review_stage": "Quantum Heisenberg ferromagnet discovery and source-access/scope investigation; not admitted and no public draft."
+  },
+  {
+    "search_id": "S531-1",
+    "candidate_id": "discovery",
+    "query": "\"unknot recognition\" \"polynomial time\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery: unknot, Boolean biology, approximation, queues and memory; no admission."
+  },
+  {
+    "search_id": "S531-2",
+    "candidate_id": "discovery",
+    "query": "\"unknot recognition\" \"open\" \"Lackenby\" \"2025\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery: unknot, Boolean biology, approximation, queues and memory; no admission."
+  },
+  {
+    "search_id": "S531-3",
+    "candidate_id": "discovery",
+    "query": "\"square peg\" \"smooth\" \"2026\" \"Jordan\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery: unknot, Boolean biology, approximation, queues and memory; no admission."
+  },
+  {
+    "search_id": "S531-4",
+    "candidate_id": "discovery",
+    "query": "\"biological\" \"conjecture\" \"stability\" \"open problem\" 2025",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery: unknot, Boolean biology, approximation, queues and memory; no admission."
+  },
+  {
+    "search_id": "S532-1",
+    "candidate_id": "discovery",
+    "query": "\"densest k subgraph\" \"constant factor\" \"open\" 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery: unknot, Boolean biology, approximation, queues and memory; no admission."
+  },
+  {
+    "search_id": "S532-2",
+    "candidate_id": "discovery",
+    "query": "\"coloring\" \"3-colorable\" \"constant\" \"open problem\" 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery: unknot, Boolean biology, approximation, queues and memory; no admission."
+  },
+  {
+    "search_id": "S532-3",
+    "candidate_id": "discovery",
+    "query": "\"Meyn\" \"conjecture\" \"queueing\" stability",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery: unknot, Boolean biology, approximation, queues and memory; no admission."
+  },
+  {
+    "search_id": "S532-4",
+    "candidate_id": "discovery",
+    "query": "\"Big Match\" \"finite memory\" \"open problem\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery: unknot, Boolean biology, approximation, queues and memory; no admission."
+  },
+  {
+    "search_id": "S533-1",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic games\" \"polynomial time\" 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S533-2",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic games\" \"open problem\" 2025",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S533-3",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic games\" solved proof polynomial counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S533-4",
+    "candidate_id": "discovery",
+    "query": "\"stochastic games\" \"limited public memory\" Neyman 2025",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Breadth discovery: unknot, Boolean biology, approximation, queues and memory; no admission."
+  },
+  {
+    "search_id": "S534-1",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic games\" 2026 algorithm",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S534-2",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic games\" 2025 \"polynomial\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S534-3",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"Condon\" \"complexity of stochastic games\" 1992 pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S534-4",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic games\" \"solved\" \"resolution\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S535-1",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic games\" proof proved solved resolution counterexample disproof refutation",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S535-2",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic games\" \"polynomial\" \"2024\" \"2025\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S535-3",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"Gimbert\" \"Horn\" \"stochastic\" correction erratum",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S535-4",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic game\" \"polynomial time algorithm\" breakthrough",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S536-1",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"Reducing Stochastic Games to Semidefinite Programming\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S536-2",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic games\" \"polynomial\" \"September 2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S536-3",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic games\" \"strongly polynomial\" 2025 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S537-1",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic games\" Condon Gimbert Horn erratum correction withdrawn",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S537-2",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"Sinks and Ladders\" Gärtner Haslebacher Hoang 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S537-3",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"A Recursive Algorithm for Solving Simple Stochastic Games\" published erratum",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S537-4",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic games\" \"value\" \"half\" \"polynomial\" solved",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S538-1",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"Feodorov\" \"Haslebacher\" \"contractions\" correction erratum withdrawal",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S538-2",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic games\" \"2026\" \"polynomial-time\" proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S538-3",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"stochastic games\" \"Semidefinite Program Feasibility\" correction",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "S538-4",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"Kelmendi\" \"Krämer\" \"Weininger\" \"Value iteration\" 2022 theorem",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Simple stochastic games formulation, resolution and source/version audit."
+  },
+  {
+    "search_id": "A68-1",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"simple stochastic games\" \"polynomial\" \"solved\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review."
+  },
+  {
+    "search_id": "A68-2",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"binary stochastic games\" \"polynomial time\" algorithm",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review."
+  },
+  {
+    "search_id": "A68-3",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"reachability games\" \"two players\" \"random\" \"polynomial\" 2025 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review."
+  },
+  {
+    "search_id": "A68-4",
+    "candidate_id": "simple-stochastic-games-polynomial-time",
+    "query": "\"Faster Approximate Fixed Points\" \"Semidefinite Program Feasibility\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review."
   }
 ]

@@ -1,0 +1,375 @@
+{
+  "candidate_id": "simple-stochastic-games-polynomial-time",
+  "proposed_catalogue_id": null,
+  "title": "Polynomial-time solution of simple stochastic games",
+  "primary_section": "inverse2",
+  "secondary_tags": [
+    "stochastic control",
+    "formal verification",
+    "algorithmic game theory"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Sourced exact formulation, independent corroboration, nine source/scope audits, current searches, duplicate checks, separated A68 self-review and final rendering/link/structural checks passed.",
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "problem_fingerprint": {
+    "model_or_objects": "Finite explicitly encoded directed simple graph G=(V,E), partitioned into Max, Min, random vertices and exactly two sinks 0,1. Every nonsink has two outgoing edges; every vertex has a graph path to at least one sink. Designated nonsink start o.",
+    "dynamics": "At each visited Max/Min vertex that player chooses the successor. At a random vertex a fresh independent fair coin chooses one of the two successors. All states and past moves are observed.",
+    "strategies": "Pure positional sigma and tau choose one outgoing edge at each vertex of the corresponding player. Optimal such strategies exist even among history-dependent randomized strategies.",
+    "observable": "v(o)=max_sigma min_tau Pr_o^{sigma,tau}(eventually hit sink 1). Reaching sink 0 or traversing forever without sink 1 has payoff zero.",
+    "requested_conclusion": "One deterministic algorithm and absolute constants C,c>0 deciding v(o)>1/2 on every input in at most C(L+1)^c Turing-machine steps, where L is its finite adjacency-list bit length.",
+    "quantifiers": "Unbounded numbers of all three vertex types; exact decision including v(o)=1/2 as no; no probabilistic algorithm, gap promise, fixed parameter, ladder structure, or almost-sure stopping promise.",
+    "scope": "Canonical binary reachability decision problem of GHH26 section 2.2. The underlying graph-path assumption does not ensure absorption for every strategy pair.",
+    "family_policy": "One stochastic reachability complexity family. Value/strategy computation and related payoff-game reductions are contextual; no separate count for parameters, aliases or restricted graphs."
+  },
+  "statement_sources": [
+    {
+      "source_id": "GHH26",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol366-fun2026/html/LIPIcs.FUN.2026.19/LIPIcs.FUN.2026.19.html",
+      "locator": "Introduction and full sections 2 and 2.2; strict half-threshold binary decision problem."
+    },
+    {
+      "source_id": "HP11",
+      "url": "https://www.cs.utoronto.ca/~toni/Papers/automatizability.pdf",
+      "locator": "Sections 1–2, printed pp.605–609; binary reachability values and positional optimality."
+    },
+    {
+      "source_id": "GH09",
+      "url": "https://lmcs.episciences.org/1119/pdf",
+      "locator": "Sections 1.1–1.3, Theorem 1.1; conclusion p.17 explicitly poses polynomial time."
+    }
+  ],
+  "nearest_existing_entries": [
+    {
+      "id": "100",
+      "path": "problems/100-strongly-polynomial-simplex.md",
+      "difference": "Strongly polynomial feasible simplex pivots for an LP; here any polynomial-bit-time decision algorithm for an adversarial reachability game is eligible."
+    },
+    {
+      "id": "141",
+      "path": "problems/141-witsenhausen-exact-optimum.md",
+      "difference": "Fixed scalar decentralized Gaussian control optimum with unequal information; here variable finite-state perfect-information zero-sum reachability complexity."
+    },
+    {
+      "id": "273",
+      "path": "problems/273-continuous-skolem-decidability.md",
+      "difference": "Decidability of exact hyperplane reachability for a deterministic real-time linear ODE; no adversarial players or probability threshold."
+    },
+    {
+      "id": "343",
+      "path": "problems/343-switched-linear-stability-decidability.md",
+      "difference": "Unrestricted-time decidability of asymptotic stability under all matrix switching sequences; not polynomial-time finite-graph stochastic reachability."
+    }
+  ],
+  "duplicate_check": {
+    "local": "Retained full baseline inventory. Reread all four nearest pages in full; searched active pages, candidate records and exclusions for simple stochastic games, Condon, stochastic game, mean-payoff, parity game and game/polynomial wording. No match.",
+    "upstream": "September 19 SSH fetch matched HEAD and origin/main at 4bdd1674193922739a409b88c5f31e3ad5d6da61. Connected repository metadata confirmed private MColbrook/AIM with push access; no open PRs; main was the only branch after complete pagination."
+  },
+  "source_records": [
+    {
+      "source_id": "GHH26",
+      "authors": [
+        "Bernd Gärtner",
+        "Sebastian Haslebacher",
+        "Hung P. Hoang"
+      ],
+      "title": "Sinks and Ladders: ARRIVAL and SSG with Two Vertices per Level",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol366-fun2026/html/LIPIcs.FUN.2026.19/LIPIcs.FUN.2026.19.html",
+      "version": "FUN 2026, LIPIcs 366, 19:1–19:16; published May 15, 2026; DOI 10.4230/LIPIcs.FUN.2026.19.",
+      "locator": "Introduction; §§2–2.2; §4 Theorem 2 and ladder/stopping assumptions; §4.1 Lemmas 4–8.",
+      "read": "Binary model, strict threshold, nontermination payoff and complete restricted algorithm theorem.",
+      "access_limit": "Relevant statements and scope read; complete proofs not independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "GH09",
+      "authors": [
+        "Hugo Gimbert",
+        "Florian Horn"
+      ],
+      "title": "Solving Simple Stochastic Games with Few Random Vertices",
+      "url": "https://lmcs.episciences.org/1119/pdf",
+      "version": "Logical Methods in Computer Science 5(2:9) (2009), 1–17; May 25, 2009; DOI 10.2168/LMCS-5(2:9)2009. arXiv:0712.1765 has six versions, latest v6 May 25, 2009.",
+      "locator": "Introduction; §§1.1–1.3; Theorem 1.1; Proposition 2.2; §3 Algorithm 1 and Theorems 3.1, 3.4; conclusion pp.16–17.",
+      "read": "Reachability formulation, pure positional determinacy, software-control motivation, factorial enumeration bound and explicit remaining polynomial-time question.",
+      "access_limit": "Relevant statements and scope read; complete proofs not independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CLY26",
+      "authors": [
+        "Xi Chen",
+        "Yuhao Li",
+        "Mihalis Yannakakis"
+      ],
+      "title": "The Mystery Deepens: On the Query Complexity of Tarski Fixed Points",
+      "url": "https://arxiv.org/html/2604.00268v1",
+      "version": "arXiv:2604.00268v1, March 31, 2026; sole version in inspected history; preprint.",
+      "locator": "§1 opening; §§1.1–1.2, Theorems 1–2 and Corollary 1.",
+      "read": "Independent explicit SSG status assessment; fixed-dimensional query bounds and input-parameter convention.",
+      "access_limit": "Relevant statements and scope read; complete proofs not independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "FH26",
+      "authors": [
+        "Andrei Feodorov",
+        "Sebastian Haslebacher"
+      ],
+      "title": "Faster Approximate Fixed Points of ℓ∞-Contractions",
+      "url": "https://arxiv.org/html/2604.01006v1",
+      "version": "arXiv:2604.01006v1, April 1, 2026; sole version in inspected history; preprint.",
+      "locator": "Complete §1, Theorems 1.1–1.2 and subsection Implications for Condon’s and Shapley’s Stochastic Games; §2.1.",
+      "read": "Contraction/error definitions, both query/runtime bounds and explicit deterministic SSG consequence.",
+      "access_limit": "Shares Haslebacher with GHH26; not an independent team. Scope checked, not full proof certification.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "BLS25",
+      "authors": [
+        "Manuel Bodirsky",
+        "Georg Loho",
+        "Mateusz Skomra"
+      ],
+      "title": "Reducing Stochastic Games to Semidefinite Program Feasibility",
+      "url": "https://arxiv.org/html/2411.09646v2",
+      "version": "arXiv:2411.09646v2, December 2, 2025; v1 November 14, 2024. ICALP 2025 conference version has title Reducing Stochastic Games to Semidefinite Programming, LIPIcs 334, 145:1–145:15, DOI 10.4230/LIPIcs.ICALP.2025.145.",
+      "locator": "§§1–2.2; Definition 1, Theorem 3; §5 Corollaries 10–11 and Theorem 12 with their proofs.",
+      "read": "Exact rational-input SDP feasibility, game definitions, reduction statements and the express limitation that feasibility is not known in P.",
+      "access_limit": "Latest expanded preprint inspected; versions are one work. Intermediate technical reduction proofs not all read.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "BdM21",
+      "authors": [
+        "Xavier Badin de Montjoye"
+      ],
+      "title": "A Recursive Algorithm for Solving Simple Stochastic Games",
+      "url": "https://arxiv.org/html/2110.01030v1",
+      "version": "arXiv:2110.01030v1, October 3, 2021; sole version in inspected history; preprint.",
+      "locator": "§§1–2; §5 Algorithm 2, Lemma 22, Propositions 23–24, Theorem 25 and proof.",
+      "read": "Bit-size convention, binary Max degree, no stopping promise and exponential deterministic bound.",
+      "access_limit": "The PDF/HTML retains fictitious CVIT template metadata; it is not cited as a CVIT publication. No later journal version verified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "KKKW18",
+      "authors": [
+        "Edon Kelmendi",
+        "Julia Krämer",
+        "Jan Křetínský",
+        "Maximilian Weininger"
+      ],
+      "title": "Value Iteration for Simple Stochastic Games: Stopping Criterion and Learning Algorithm",
+      "url": "https://arxiv.org/html/1804.04901v1",
+      "version": "arXiv:1804.04901v1, April 13, 2018; sole arXiv version. CAV 2018, 623–642; DOI 10.1007/978-3-319-96145-3_36.",
+      "locator": "§§1–2; Algorithms 1 and 4; §4.3 Theorem 4.2; Appendix C.5 theorem/proof.",
+      "read": "Game model, interval stopping rule, convergence guarantee and applied verification context.",
+      "access_limit": "Related 2022 journal version DOI 10.1016/j.ic.2022.104886 surfaced; its direct full-text request returned 403. Only the accessible 2018 theorem is used here; versions are not independent corroboration.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "HP11",
+      "authors": [
+        "Lei Huang",
+        "Toniann Pitassi"
+      ],
+      "title": "Automatizability and Simple Stochastic Games",
+      "url": "https://www.cs.utoronto.ca/~toni/Papers/automatizability.pdf",
+      "version": "ICALP 2011, Part I, LNCS 6755, 605–617; published author PDF.",
+      "locator": "§§1–2 pp.605–609; §3 Theorem 5 and Corollary 1, p.610.",
+      "read": "Binary strategies/payoff, threshold-preserving stopping reduction, proof-system definitions and full conditional polynomial-time statements.",
+      "access_limit": "Relevant statements and scope read; complete proofs not independently certified.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CGPP26",
+      "authors": [
+        "Tiziana Calamoneri",
+        "Pierre Gaillard",
+        "Giacomo Paesani",
+        "Giuseppe Perelli"
+      ],
+      "title": "Strategy Repair in Reachability Games via a Graph Quotientation",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol370-swat2026/html/LIPIcs.SWAT.2026.12/LIPIcs.SWAT.2026.12.html",
+      "version": "SWAT 2026; DOI 10.4230/LIPIcs.SWAT.2026.12. Published proceedings full text.",
+      "locator": "Sections 1–2, Definitions 1–2; section 3, Definition 3 and Theorem 4.",
+      "read": "Full arena and winning-strategy definitions, strategy-repair objective and quotient lifting theorem.",
+      "access_limit": "No full proof certification or rerunning experiments.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "GH09",
+      "locator": "§3 Theorem 3.4; conclusion",
+      "result_scope": "Enumeration of random-vertex permutations gives a factorial parameter bound.",
+      "comparison_with_target": "The number of random vertices is unbounded in the target; fixed-parameter tractability is insufficient. The improvement variant's possible polynomial runtime is left unproved.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "BdM21",
+      "locator": "§5 Theorem 25 and proof",
+      "result_scope": "Deterministic O(phi^m Poly(L)), phi=(1+sqrt(5))/2, m the number of Max vertices.",
+      "comparison_with_target": "This bound is exponential in an input parameter. It is historical progress, not claimed to be the latest general bound.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "FH26",
+      "locator": "Theorem 1.2 and §1 game implications",
+      "result_scope": "Deterministic SSG runtime L^{O(sqrt(n) log n)} for n vertices.",
+      "comparison_with_target": "A dimension-dependent exponent does not give one polynomial bound valid for all inputs. Query efficiency alone also does not control computation between queries.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "GHH26",
+      "locator": "§2 ladder definition, §2.2 stopping definition, §4 Theorem 2",
+      "result_scope": "Polynomial algorithm for stopping binary SSGs on ladders.",
+      "comparison_with_target": "The target permits arbitrary level sizes and strategy pairs that fail to terminate. A stopping transformation need not preserve ladder structure.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "BLS25",
+      "locator": "Definition 1; Theorem 3; Corollary 11; Theorem 12",
+      "result_scope": "Reduction of stopping half-threshold games to exact SDP feasibility.",
+      "comparison_with_target": "This supplies a reduction, not a solver for its target. Approximate numerical SDP methods do not automatically decide exact feasibility; §1 expressly leaves feasibility outside known P. Their nonstrict threshold convention is recorded, not treated as the decisive obstacle.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "CLY26",
+      "locator": "§1.2 Theorems 1–2 and Corollary 1",
+      "result_scope": "Improved Tarski query bounds in fixed dimension.",
+      "comparison_with_target": "Dimension varies with game size, and the exponent grows with dimension. No uniform polynomial bit-time game algorithm follows.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "KKKW18",
+      "locator": "Algorithm 1 and §4.3 Theorem 4.2",
+      "result_scope": "Convergent lower and upper value bounds, stopping at any supplied positive interval width.",
+      "comparison_with_target": "Finite-precision termination does not itself supply a polynomial exact threshold decider. No polynomial worst-case bound in input length and required precision is proved here.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "HP11",
+      "locator": "§3 Theorem 5 and Corollary 1",
+      "result_scope": "Polynomial SSG decision conditional on feasible interpolation for the stated Frege systems.",
+      "comparison_with_target": "The extra proof-complexity hypothesis is not established by this theorem; it is not an unconditional algorithm.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "CGPP26",
+      "locator": "Sections 2–3, Definitions 1–3 and Theorem 4",
+      "result_scope": "Repairing a winning strategy through a quotient of a two-player deterministic reachability game.",
+      "comparison_with_target": "Every vertex belongs to one of the players; there are no random transitions. Randomly generated experimental instances do not create stochastic game dynamics. The theorem lifts a quotient solution and does not solve the quantitative stochastic target.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    }
+  ],
+  "second_review": {
+    "pass_id": "A68",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "arrangement": "Primary-agent research followed by a clearly separated adversarial self-pass after drafting; no independent agent or human review.",
+    "independent_searches": [
+      "A68-1",
+      "A68-2",
+      "A68-3",
+      "A68-4"
+    ],
+    "issues_checked": [
+      "Strict threshold and equality case; payoff for nontermination; pure positional optimality.",
+      "Underlying graph paths do not imply stopping for each strategy pair.",
+      "Growing parameter exponents and oracle-query counts do not supply polynomial bit time.",
+      "Exact SDP feasibility remains a target problem, and the proof-complexity implication retains its hypothesis.",
+      "Ordinary reachability strategy-repair work has no random vertices despite random benchmark instances.",
+      "Duplicate families, explicit-input application scope and author overlap."
+    ],
+    "outcome": "No unresolved matching claim or formulation conflict located. Retained the sourced binary decision problem and recorded all material restrictions.",
+    "search_limit": "Dated literature and theorem-scope review, not an exhaustive search or proof certification."
+  },
+  "publication_state": "Accepted local research draft, ready for direct upload to main; no permanent ID or active integration.",
+  "draft_path": "research/expansion-2026-09/drafts/simple-stochastic-games-polynomial-time.md",
+  "independent_corroboration": {
+    "statement": "GHH26 supplies the exact binary strict-threshold formulation; GH09 and HP11 explicitly pose the polynomial-time problem.",
+    "current_independent_assessment": "CLY26 is an independently authored March 2026 specialist assessment. GHH26 was published May 15, 2026. Current searches were actually executed September 19.",
+    "overlap": "FH26 and GHH26 share Haslebacher; versions of any one work are not independent.",
+    "original_access": "Condon 1992 was not read in full. The 1993 author PDF had garbled extracted text and was not relied upon as a read original. Explicit accessible scholarly restatements supply Gate A."
+  },
+  "normalization_checks": [
+    "Vertex counts and graph bit length are input variables; one fixed exponent must work for every instance.",
+    "Two sinks, fair independent random choices, perfect information, turn-based moves, infinite-horizon reachability.",
+    "No almost-sure absorption or promise separating the value from one half.",
+    "Optimal pure positional strategies exist; a fixed strategy pair can be evaluated but enumerating pairs need not be polynomial.",
+    "One canonical game family; restricted graphs and payoff reductions are not additional entries.",
+    "Fixed-epsilon approximation can support exact computation only with adequate precision and runtime control; neither is silently assumed."
+  ],
+  "aliases": [
+    "Condon simple stochastic games in P",
+    "Binary stochastic reachability half-threshold",
+    "Polynomial-time SSG decision"
+  ],
+  "status_search_ids": [
+    "S533-1",
+    "S533-2",
+    "S533-3",
+    "S534-1",
+    "S534-2",
+    "S534-3",
+    "S534-4",
+    "S535-1",
+    "S535-2",
+    "S535-3",
+    "S535-4",
+    "S536-1",
+    "S536-2",
+    "S536-3",
+    "S537-1",
+    "S537-2",
+    "S537-3",
+    "S537-4",
+    "S538-1",
+    "S538-2",
+    "S538-3",
+    "S538-4",
+    "A68-1",
+    "A68-2",
+    "A68-3",
+    "A68-4"
+  ],
+  "validation": {
+    "strict_katex_expressions": 21,
+    "render": "Complete final 1300x5200 Chrome screenshot inspected with embedded KaTeX fonts; all formulas, references and final paragraphs visible without clipping.",
+    "external_links": "All ten direct unauthenticated HTTPS GETs succeeded, including two verified PDF headers. The separate 2022 journal full-text limitation is recorded in the source audit.",
+    "external_link_record": "research/expansion-2026-09/simple-stochastic-games-polynomial-time-link-check.json",
+    "local_links": "All three relative draft links resolve.",
+    "structure": "Nine unique source IDs, nine full relevant scope comparisons, required headings/dates and consistent counts passed. Catalogue validator passed all 360 active entries; git diff --check passed. No active metadata or permanent ID changed."
+  }
+}

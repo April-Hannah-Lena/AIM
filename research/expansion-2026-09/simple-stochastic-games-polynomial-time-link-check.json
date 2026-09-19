@@ -1,0 +1,86 @@
+{
+  "checked_on": "2026-09-19",
+  "method": "Direct unauthenticated HTTPS GET with normal certificate verification; inspect initial bytes. Bibliographic identity and theorem scope checked separately in primary texts.",
+  "results": [
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol366-fun2026/html/LIPIcs.FUN.2026.19/LIPIcs.FUN.2026.19.html",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol366-fun2026/html/LIPIcs.FUN.2026.19/LIPIcs.FUN.2026.19.html",
+      "content_type": "text/html",
+      "pdf_header": false,
+      "successful_response": true
+    },
+    {
+      "url": "https://lmcs.episciences.org/1119/pdf",
+      "status": 200,
+      "final_url": "https://lmcs.episciences.org/1119/pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "successful_response": true
+    },
+    {
+      "url": "https://arxiv.org/html/2604.00268v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2604.00268v1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "successful_response": true
+    },
+    {
+      "url": "https://arxiv.org/html/2604.01006v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2604.01006v1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "successful_response": true
+    },
+    {
+      "url": "https://arxiv.org/html/2411.09646v2",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2411.09646v2",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "successful_response": true
+    },
+    {
+      "url": "https://arxiv.org/html/2110.01030v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/2110.01030v1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "successful_response": true
+    },
+    {
+      "url": "https://arxiv.org/html/1804.04901v1",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/1804.04901v1",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "successful_response": true
+    },
+    {
+      "url": "https://www.cs.utoronto.ca/~toni/Papers/automatizability.pdf",
+      "status": 200,
+      "final_url": "https://www.cs.utoronto.ca/~toni/Papers/automatizability.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true,
+      "successful_response": true
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol370-swat2026/html/LIPIcs.SWAT.2026.12/LIPIcs.SWAT.2026.12.html",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol370-swat2026/html/LIPIcs.SWAT.2026.12/LIPIcs.SWAT.2026.12.html",
+      "content_type": "text/html",
+      "pdf_header": false,
+      "successful_response": true
+    },
+    {
+      "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.FUN.2026.19",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.FUN.2026.19",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "successful_response": true
+    }
+  ]
+}
