@@ -18978,5 +18978,329 @@
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
     "review_stage": "Separated adversarial self-review after drafting"
+  },
+  {
+    "search_id": "S486-1",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"GNRS conjecture\" 2026 solved proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S486-2",
+    "candidate_id": "discovery",
+    "query": "\"randomized k-server conjecture\" 2026 2025",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S486-3",
+    "candidate_id": "discovery",
+    "query": "\"mathematical biology\" \"open problems\" \"2026\" conjecture",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S486-4",
+    "candidate_id": "discovery",
+    "query": "\"persistency\" \"Lotka Volterra\" \"conjecture\" open 2025",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S487-1",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"Cuts Trees and L1 Embeddings of Graphs\" pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S487-2",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"GNRS conjecture\" 2025 2026 proof counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S487-3",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"minor-free\" \"flow-cut gap\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S487-4",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"GNRS\" conjecture \"planar\" \"2025\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S488-1",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"minor-free metrics\" \"l1\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S488-2",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"flow-cut gap\" \"planar\" \"constant\" proof 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S488-3",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"GNRS conjecture\" \"Lee\" \"Sidiropoulos\" 2025 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S488-4",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"GNRS conjecture\" refutation disproof solved proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S489-1",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"Gupta Newman Rabinovich Sinclair\" conjecture proof solved 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S489-2",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"On the geometry of graphs with a forbidden minor\" Lee Sidiropoulos pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S489-3",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"GNRS conjecture\" \"erratum\" OR \"counterexample\" OR \"disproof\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S489-4",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"A face cover perspective\" 3686800",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Discovery and pre-draft source/status research"
+  },
+  {
+    "search_id": "S490-1",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"GNRS conjecture\" proved solved resolution",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source and disqualification research"
+  },
+  {
+    "search_id": "S490-2",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"minor free\" \"l1\" \"embedding\" \"2025\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source and disqualification research"
+  },
+  {
+    "search_id": "S490-3",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"planar\" \"flow cut\" constant \"Kumar\" 2026",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source and disqualification research"
+  },
+  {
+    "search_id": "S490-4",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"GNRS\" erratum correction withdrawal",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source and disqualification research"
+  },
+  {
+    "search_id": "S491-1",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"Kumar\" \"constant\" \"flow-cut gap\" \"2022\" planar",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source and disqualification research"
+  },
+  {
+    "search_id": "S491-2",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"On the 2-sum embedding conjecture\" pdf",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source and disqualification research"
+  },
+  {
+    "search_id": "S491-3",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"Cuts Trees\" \"GNRS\" correction erratum",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source and disqualification research"
+  },
+  {
+    "search_id": "S491-4",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"GNRS conjecture\" 2024 2025 2026 counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source and disqualification research"
+  },
+  {
+    "search_id": "S492-1",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"An Approximate Generalization of the Okamura-Seymour Theorem\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source and disqualification research"
+  },
+  {
+    "search_id": "S492-2",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"On the 2-sum embedding conjecture\" site:edu",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source and disqualification research"
+  },
+  {
+    "search_id": "S492-3",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"minor-free\" \"L1\" embedding \"2026\" theorem",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source and disqualification research"
+  },
+  {
+    "search_id": "S492-4",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"planar embedding conjecture\" proof refutation solved",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Pre-draft source and disqualification research"
+  },
+  {
+    "search_id": "A64-1",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"GNRS conjecture\" \"proof\" \"2026\" September",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review"
+  },
+  {
+    "search_id": "A64-2",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"Gupta Newman Rabinovich Sinclair conjecture\" disproved counterexample",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review"
+  },
+  {
+    "search_id": "A64-3",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"planar\" \"flow-cut gap\" \"constant\" \"2026\" proof",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review"
+  },
+  {
+    "search_id": "A64-4",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"minor-free\" \"L1\" \"distortion\" \"constant\" \"2025\" resolution",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review"
+  },
+  {
+    "search_id": "A64-5",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"An Approximate Generalization of the Okamura-Seymour Theorem\" erratum correction",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review"
+  },
+  {
+    "search_id": "A64-6",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"Uncrossed Multiflows and Applications to Disjoint Paths\" correction erratum",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review"
+  },
+  {
+    "search_id": "A64-7",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"GNRS\" \"treewidth 3\" \"2026\"",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review"
+  },
+  {
+    "search_id": "A64-8",
+    "candidate_id": "gnrs-minor-free-flow-cut",
+    "query": "\"GNRS conjecture\" \"bounded distortion\" resolution refutation",
+    "searched_on": "2026-09-19",
+    "discovery_route": "web search",
+    "date_filter_or_unrestricted": "unrestricted (years in query where shown)",
+    "review_stage": "Separated post-draft adversarial self-review"
   }
 ]

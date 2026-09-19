@@ -1,6 +1,6 @@
 # Source map
 
-This is a discovery and reading log, not a certificate of open status. Actual access dates: 2026-09-17–2026-09-18; individual records identify the actual check date.
+This is a discovery and reading log, not a certificate of open status. Actual access dates: 2026-09-17–2026-09-19; individual records identify the actual check date.
 
 ## Sources inspected
 
@@ -23,7 +23,7 @@ All ten handoff seeds now have investigation records; eight passed draft review 
 
 ## Coverage still required
 
-All twelve sections have accepted additions. Forty additions are integrated through entry 340; the pending accepted drafts, current section counts and publication status are recorded in [progress.json](progress.json). All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
+All twelve sections have accepted additions. Sixty additions are integrated through entry 360; the pending accepted drafts, current section counts and publication status are recorded in [progress.json](progress.json). All twelve require substantial further discovery. Biology, statistics/inference, information theory, control, operations research and stochastic networks require deliberate additional source discovery. No further numerical-linear-algebra entries are permitted. The ten seeds are only a starting point for the full 200–300-entry assignment.
 
 ## Information-network discovery
 
@@ -312,3 +312,13 @@ The [ledger](candidates/hadwiger-boltyanski-illumination.json) contains fifteen 
 Thirty illumination queries plus six breadth-discovery queries bring the log to 2,305 actual queries with distinct IDs. All 26 mathematical expressions passed strict KaTeX and full-page visual inspection; nine external bibliography URLs and four local links passed. A fresh SSH fetch matched local HEAD and origin/main at af61ea4f7eaa98a14194d18942bc76b13fd6e441; connected checks found a private writable repository, no open PRs and only main after pagination. There are 61 accepted additions, 60 integrated/published, one pending draft, six holds, 67 formal records and 360 active entries. The remaining minimum gaps are 139 acceptances and 140 integrations. The research checkpoint is ready for direct upload; permanent IDs await the next reviewed batch.
 
 Publication receipt: [3da24a7](https://github.com/MColbrook/AIM/commit/3da24a78c1e9ef89eed406a5644f4bb981602c3d) was pushed directly to main on September 19, 2026; a separate remote-ref read matched the full commit. The illumination draft and review records are uploaded. Counts remain 61 accepted, 60 integrated catalogue additions, one pending draft and 360 active entries.
+
+## Minor-free network flow (S486–S492 and A64; September 19, 2026)
+
+The [accepted GNRS draft](drafts/gnrs-minor-free-flow-cut.md) retains arbitrary nonnegative edge lengths, all-pairs ℓ1 inequalities, a constant depending only on the excluded minor, and arbitrary fractional demand pairs. Its equivalent concurrent-flow formulation explicitly states path capacities and avoids dividing by a zero optimum. Full nearest entries 309 and 334 were reread; the coding and single-tree questions are distinct.
+
+The [ledger](candidates/gnrs-minor-free-flow-cut.json) records thirteen inspected source works and fifteen scope comparisons. Gupta–Newman–Rabinovich–Sinclair and Lee–Sidiropoulos supply complete formulations and duality statements; Chekuri's May notes and Alemán Espinosa–Schlomberg's ICALP paper provide independent current corroboration. Filtser and Kumar retain terminal-placement or cofacial-demand restrictions. The September uncrossed-flow paper assumes strongly uncrossed flows for congestion rounding and restricts its demand layouts. Its integral flow–multicut comparison is a different objective. New tree sparsifiers and directed bounds retain size dependence; maximum-norm embeddings do not supply the target ℓ1 theorem. Non-positive-curvature realizations are a proper geometric restriction. Relevant complete statements and definitions were read, without claiming independent certification of their proofs.
+
+A64 was a separated post-draft self-review. All 40 mathematical expressions passed strict KaTeX and complete 1300x6000 screenshot inspection; all three local links resolve. Eight external full-text targets responded successfully, including five PDFs. The publisher-cookie limitation and author-manuscript alternative are explicit. The fresh upstream/PR/branch audit found only main and no open PRs; fetched origin/main matched HEAD at f2aea88d26a7d5421d120d2d9412886c8dc9c314.
+
+The 36 actual queries since the previous checkpoint bring the log to 2,341 distinct identifiers. There are 62 accepted additions, 60 integrated/published, two pending drafts, six holds, 68 formal records and 360 active catalogue entries. The remaining minimum gaps are 138 acceptances and 140 integrations. Permanent IDs await the next accepted batch; the research checkpoint is ready for direct upload.

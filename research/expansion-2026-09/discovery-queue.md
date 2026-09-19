@@ -508,3 +508,13 @@ The other searches remain discovery only and are outside the formal candidate/ac
 The research ledger now has 61 accepted additions, 60 integrated/published, one pending draft, six holds and 67 formal records; 360 active catalogue entries. There are 2,305 actual queries with distinct IDs. Nine more accepted drafts would form the next ten-entry batch. Next discovery group: S486; next separated review: A64.
 
 Publication receipt: [3da24a7](https://github.com/MColbrook/AIM/commit/3da24a78c1e9ef89eed406a5644f4bb981602c3d) was pushed directly to main on September 19, 2026; a separate remote-ref read matched the full commit. The illumination draft and review records are uploaded. Counts remain 61 accepted, 60 integrated catalogue additions, one pending draft and 360 active entries.
+
+## September 19 network-flow and breadth discovery (S486–S492 and A64)
+
+GNRS passed source, scope, duplicate, separated A64 and technical validation and is now the second [accepted pending draft](drafts/gnrs-minor-free-flow-cut.md). The [ledger](candidates/gnrs-minor-free-flow-cut.json) records thirteen inspected works and fifteen comparisons. General minor-free, planar and equivalent metric/flow formulations count as one family. Eight further accepted drafts are needed for the next ten-entry batch.
+
+The classical randomized k-server O(log k)-competitive conjecture is not an open addition. Bubeck–Coester–Rabani's [The Randomized k-Server Conjecture Is False!](https://arxiv.org/pdf/2211.05753v2), inspected v2 July 6, 2023 (PDF internal date July 7), gives a matching superlogarithmic lower bound. The randomized competitive definition and k-server model, Proposition 8 linking the metrical-service systems, and full Theorem 11 in Section 4 were read. The resulting existential (k+1)-point metric has an Omega(log² k) lower bound against randomized algorithms. This discovery rejection is not a new formal candidate record and does not change the separate deterministic k-server entry or the six existing formal holds.
+
+S486's morphogenesis and multispecies Keller–Segel searches remain unvetted discovery leads; no precise formulation or independent status review has been completed for them. They contribute no candidate or accepted count.
+
+The log now has 2,341 actual queries with unique identifiers. Current counts are 62 accepted additions, 60 integrated/published, two pending drafts, six holds, 68 formal records and 360 active entries. The minimum requires 138 further acceptances and 140 integrations. Next discovery group: S493; next separated review: A65.

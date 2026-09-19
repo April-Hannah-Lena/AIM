@@ -1,0 +1,86 @@
+{
+  "checked_on": "2026-09-19",
+  "method": "Direct GET with first 1024 response bytes checked; title and theorem verification recorded separately in the candidate evidence.",
+  "candidate_id": "gnrs-minor-free-flow-cut",
+  "external_links": [
+    {
+      "url": "https://link.springer.com/article/10.1007/s00493-004-0015-x",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s00493-004-0015-x?error=cookies_not_supported&code=e27810c8-20da-48d1-8353-acd25874b6e2",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false,
+      "access_note": "HTTP 200 redirects to a cookies_not_supported notice; this is not journal full-text access. The author-manuscript alternative is accessible and separately checked."
+    },
+    {
+      "url": "https://people.eecs.berkeley.edu/~sinclair/cuts.pdf",
+      "status": 200,
+      "final_url": "https://people.eecs.berkeley.edu/~sinclair/cuts.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://people.csail.mit.edu/tasos/papers/geoforbid_stoc2009.pdf",
+      "status": 200,
+      "final_url": "https://people.csail.mit.edu/tasos/papers/geoforbid_stoc2009.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://courses.grainger.illinois.edu/CS583/sp2026/approx-algorithms-lecture-notes.pdf",
+      "status": 200,
+      "final_url": "https://courses.grainger.illinois.edu/CS583/sp2026/approx-algorithms-lecture-notes.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://arxiv.org/html/1903.02758v4",
+      "status": 200,
+      "final_url": "https://arxiv.org/html/1903.02758v4",
+      "content_type": "text/html; charset=utf-8",
+      "pdf_header": false
+    },
+    {
+      "url": "https://arxiv.org/pdf/2208.00795v3",
+      "status": 200,
+      "final_url": "https://arxiv.org/pdf/2208.00795v3",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.11/LIPIcs.ICALP.2026.11.html",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.11/LIPIcs.ICALP.2026.11.html",
+      "content_type": "text/html",
+      "pdf_header": false
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol392-approx-random2026/LIPIcs.APPROX-RANDOM.2026.12/LIPIcs.APPROX-RANDOM.2026.12.pdf",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol392-approx-random2026/LIPIcs.APPROX-RANDOM.2026.12/LIPIcs.APPROX-RANDOM.2026.12.pdf",
+      "content_type": "application/pdf",
+      "pdf_header": true
+    },
+    {
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.7/LIPIcs.ICALP.2026.7.html",
+      "status": 200,
+      "final_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.7/LIPIcs.ICALP.2026.7.html",
+      "content_type": "text/html",
+      "pdf_header": false
+    }
+  ],
+  "local_links": [
+    {
+      "path": "../candidates/gnrs-minor-free-flow-cut.json",
+      "exists": true
+    },
+    {
+      "path": "../../../problems/309-li-li-multiple-unicast.md",
+      "exists": true
+    },
+    {
+      "path": "../../../problems/334-strong-thin-tree.md",
+      "exists": true
+    }
+  ],
+  "summary": "Eight accessible primary full-text targets, including five validated PDF headers; one publisher-cookie limitation with an accessible author-manuscript alternative. All three relative links resolve."
+}

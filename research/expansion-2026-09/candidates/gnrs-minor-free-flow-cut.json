@@ -1,0 +1,518 @@
+{
+  "candidate_id": "gnrs-minor-free-flow-cut",
+  "proposed_catalogue_id": null,
+  "title": "The GNRS conjecture for minor-free network flow",
+  "primary_section": "stochastic3",
+  "secondary_tags": [
+    "multicommodity routing",
+    "metric embeddings",
+    "network optimization"
+  ],
+  "decision": "accept_open",
+  "decision_reason": "Canonical pre-draft fingerprint, current independent scholarly corroboration, thirteen inspected source records, fifteen scope comparisons, separated A64 self-review, exact quantifier checks and rendering/link validation passed. No unresolved matching general resolution claim was located; access and proof-review limits remain explicit.",
+  "fingerprint_recorded_on": "2026-09-19",
+  "fingerprint_recorded_before_draft": true,
+  "actual_status_check_date": "2026-09-19",
+  "problem_fingerprint": {
+    "objects": "For every fixed finite simple graph H, all finite connected undirected simple graphs G=(V,E) without H as a minor, and every edge-length assignment ell:E->[0,infinity). Minors allow edge contraction and edge/vertex deletion.",
+    "metric": "d_ell is shortest-path distance, allowed to be a pseudometric because lengths may vanish. The l1 norm on R^m is the sum of absolute coordinate values.",
+    "target": "A finite C_H>=1 exists such that every such (G,ell) has an integer m>=1 and a map f:V->R^m with d_ell(u,v)<=||f(u)-f(v)||_1<=C_H d_ell(u,v) for every u,v in V.",
+    "quantifiers": "C_H depends only on H, not on the number of vertices, edge lengths or their scale/ratios. The map and finite dimension may depend on (G,ell); zero-distance vertices may have the same image.",
+    "flow_formulation": "For arbitrary finite nonnegative capacities c on E and nonnegative demands D on unordered distinct vertex pairs, with at least one positive demand, let lambda* be the maximum common fraction of every demand carried by capacity-feasible fractional path flows. Let phi be the minimum across cuts with positive separated demand of total crossing capacity divided by total separated demand. The equivalent target is lambda*>=phi/C_H, for every such instance. Zero-capacity cuts are allowed; the inequality avoids an undefined zero-over-zero gap.",
+    "scope": "Supply graph is undirected and excludes H. Demand pairs are arbitrary and need not yield a planar combined graph. Flows may split across paths, no integrality or node-capacity constraints. The metric target requires all pairs and purely multiplicative distortion.",
+    "family_policy": "One entry includes general minor-free, planar and equivalent fractional flow-cut formulations. No separate count for face-cover, bounded-width or demand-layout restrictions.",
+    "normalization": "Connected finite graphs suffice for the finite-distance formulation. Simple graphs lose no metric examples because parallel edges can be replaced by their minimum length and loops discarded; in the flow formulation parallel capacities can be summed."
+  },
+  "statement_sources": [
+    {
+      "source_id": "GNRS04",
+      "url": "https://people.eecs.berkeley.edu/~sinclair/cuts.pdf",
+      "locator": "Author manuscript October 22, 2002: Introduction pp.2–3; Section 2 pp.4–6; Theorem 3.2 and unnumbered conjecture in Section 3, pp.7–8."
+    },
+    {
+      "source_id": "LS09",
+      "url": "https://people.csail.mit.edu/tasos/papers/geoforbid_stoc2009.pdf",
+      "locator": "STOC 2009 pp.245–246: metric and flow definitions, Theorem 1.1 and Conjecture 1."
+    },
+    {
+      "source_id": "C26",
+      "url": "https://courses.grainger.illinois.edu/CS583/sp2026/approx-algorithms-lecture-notes.pdf",
+      "locator": "May 4, 2026; Chapter 19, bibliographic notes p.267."
+    }
+  ],
+  "nearest_existing_entries": [
+    {
+      "id": "309",
+      "path": "problems/309-li-li-multiple-unicast.md",
+      "difference": "Asks equality of undirected network-coding and fractional-routing throughput regions for all networks. GNRS compares cut upper bounds with fractional routing on minor-free supply graphs; it does not allow coding or seek exact equality."
+    },
+    {
+      "id": "334",
+      "path": "problems/334-strong-thin-tree.md",
+      "difference": "Seeks a single spanning tree with small usage of every unweighted cut. GNRS embeds all shortest-path distances or routes arbitrary fractional demands; no spanning-tree selection is required."
+    }
+  ],
+  "duplicate_check": {
+    "baseline": "All 360 titles refreshed during this investigation; established complete baseline inventory retained. Full nearest pages 309 and 334 reread September 19, 2026.",
+    "local": "Alias/formulation search of problems, candidate records and discovery/source/exclusion records found no equivalent entry. Only illumination is an accepted pending draft.",
+    "upstream": "September 19 SSH fetch matched HEAD and origin/main at f2aea88d26a7d5421d120d2d9412886c8dc9c314. Connected metadata confirmed private MColbrook/AIM, main default and push permission; open-PR search empty, branch search exhausted after main on the first page and an empty second page."
+  },
+  "publication_state": "Accepted local research draft and evidence, pending authorized direct upload; no permanent ID or catalogue integration.",
+  "source_records": [
+    {
+      "source_id": "GNRS04",
+      "authors": [
+        "Anupam Gupta",
+        "Ilan Newman",
+        "Yuri Rabinovich",
+        "Alistair Sinclair"
+      ],
+      "title": "Cuts, Trees and ℓ1-Embeddings of Graphs",
+      "url": "https://people.eecs.berkeley.edu/~sinclair/cuts.pdf",
+      "version": "Author manuscript October 22, 2002; Combinatorica 24 (2004), 233–269, DOI 10.1007/s00493-004-0015-x.",
+      "locator": "Introduction pp.2–3, Section 2 pp.4–6, Theorem 3.2 and unnumbered conjecture in Section 3 pp.7–8; Theorems 4.1 and 4.8.",
+      "read": "Read complete relevant metric, flow, minor and cut definitions, duality theorem, conjecture, and restricted-class theorem statements.",
+      "access_limit": "Publisher metadata inspected but journal full text unavailable. Author manuscript is the inspected full-text version; notation cross-checked against LS09. Cycle rank is not surface genus.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "LS09",
+      "authors": [
+        "James R. Lee",
+        "Anastasios Sidiropoulos"
+      ],
+      "title": "On the Geometry of Graphs with a Forbidden Minor",
+      "url": "https://people.csail.mit.edu/tasos/papers/geoforbid_stoc2009.pdf",
+      "version": "STOC 2009, 245–254; DOI 10.1145/1536414.1536450.",
+      "locator": "Section 1 pp.245–248; Theorem 1.1, Conjectures 1–3, Theorems 1.4 and 1.8; Section 1.4 definitions.",
+      "read": "Read full GNRS statement and all-weighted-metrics family definition, flow duality, forest-exclusion theorem and planar-plus-clique-sum reduction.",
+      "access_limit": "Full formulation and relevant theorem statements inspected; not an independent verification of the graph-structure proof or deferred full-version arguments.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "C26",
+      "authors": [
+        "Chandra Chekuri"
+      ],
+      "title": "CS 583: Approximation Algorithms",
+      "url": "https://courses.grainger.illinois.edu/CS583/sp2026/approx-algorithms-lecture-notes.pdf",
+      "version": "Title page May 4, 2026.",
+      "locator": "Chapter 19 pp.248–252; bibliographic notes p.267; Remark 19.2.",
+      "read": "Read the unordered-pair demand model, sparsest cut, concurrent-flow LP and dual, and explicit outstanding-open-problem discussion for planar/general GNRS.",
+      "access_limit": "Selected relevant chapter sections read, not the entire lecture-note volume. A better approximation under a stronger relaxation does not establish the standard flow-cut gap.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "F24",
+      "authors": [
+        "Arnold Filtser"
+      ],
+      "title": "A Face Cover Perspective to ℓ1 Embeddings of Planar Graphs",
+      "url": "https://arxiv.org/html/1903.02758v4",
+      "version": "arXiv:1903.02758v4 July 28, 2024; earlier SODA 2020 version; journal DOI 10.1145/3686800.",
+      "locator": "Section 1, Theorem 1 and Corollaries 1–2; Section 2 definitions; Sections 1.2–1.3 related results.",
+      "read": "Read terminal/face-cover definitions and full embedding/sparsest-cut statements, including which pairs receive the lower-distance guarantee.",
+      "access_limit": "Journal DOI returned HTTP 403 during research. Inspected v4 author text; earlier preprint/proceedings and later journal metadata are the same work, not independent corroborations. Single-face case separately solved.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "K25",
+      "authors": [
+        "Nikhil Kumar"
+      ],
+      "title": "An Approximate Generalization of the Okamura–Seymour Theorem",
+      "url": "https://arxiv.org/pdf/2208.00795v3",
+      "version": "arXiv:2208.00795v3 January 10, 2025; FOCS 2022, 1093–1101, DOI 10.1109/FOCS54457.2022.00106.",
+      "locator": "Sections 2–3, Theorems 5–6, internal pp.5–6; preceding model and Theorems 1–4.",
+      "read": "Read full demand/cut model and constant flow-cut/embedding theorems requiring each demanded pair to share some face in a fixed planar drawing.",
+      "access_limit": "Faces may vary among demanded pairs. Later SIAM journal full text not inspected; no journal theorem upgrade inferred from metadata.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "AS26",
+      "authors": [
+        "David Alemán Espinosa",
+        "Niklas Schlomberg"
+      ],
+      "title": "Pinning on Tight Cuts: Improved Algorithm and Bounds for Unsplittable Multicommodity Flows in Outerplanar Graphs",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.11/LIPIcs.ICALP.2026.11.html",
+      "version": "ICALP 2026, LIPIcs 374, Article 11; DOI 10.4230/LIPIcs.ICALP.2026.11. Related arXiv:2606.04456v1 June 3, 2026.",
+      "locator": "Sections 1.1–1.3 and 2.1; Theorems 1–2.",
+      "read": "Read outerplanar fractional-to-unsplittable rounding with capacity overflow at most 2 d_max, lower-bound statement, model and explicit planar gap range [2,O(sqrt(log n))].",
+      "access_limit": "Outerplanar supply graph is a proper subclass. The theorem starts with a feasible fractional flow; no general arbitrary-planar cut sufficiency follows.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "CNPS26",
+      "authors": [
+        "Chandra Chekuri",
+        "Guyslain Naves",
+        "Joseph Poremba",
+        "F. Bruce Shepherd"
+      ],
+      "title": "Uncrossed Multiflows and Applications to Disjoint Paths",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol392-approx-random2026/LIPIcs.APPROX-RANDOM.2026.12/LIPIcs.APPROX-RANDOM.2026.12.pdf",
+      "version": "APPROX/RANDOM 2026, LIPIcs 392, 12:1–12:23, published September 9, 2026; DOI 10.4230/LIPIcs.APPROX-RANDOM.2026.12. Related arXiv:2511.00254v3 May 26, 2026.",
+      "locator": "Theorems 1–3, Corollaries 4–5; Definitions 9–12, Theorem 20.",
+      "read": "Read full rounding statements, strongly uncrossed condition, facial/pairwise-planar demand definitions and construction of strongly uncrossed flows.",
+      "access_limit": "Pairwise-planar demands are restricted. Integral flow–multicut is distinct from concurrent flow–sparsest cut. Shares Chekuri with C26, so those are not independent author groups.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "ADK26",
+      "authors": [
+        "Daniel Agassy",
+        "Dani Dorfman",
+        "Haim Kaplan"
+      ],
+      "title": "Improved Tree Sparsifiers in Near-Linear Time",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.7/LIPIcs.ICALP.2026.7.html",
+      "version": "ICALP 2026, LIPIcs 374, Article 7; DOI 10.4230/LIPIcs.ICALP.2026.7.",
+      "locator": "Section 1 definitions; Sections 2.1–2.3, Theorem 2.4, Claim 2.7 and Theorem 2.8.",
+      "read": "Read cut and flow sparsifier definitions, O(log² n log log n) cut and O(log³ n log log n) flow quality, and planar O(log^(5/2) n log log n) consequence.",
+      "access_limit": "Quality still depends on graph size. Presentation is unweighted with a polynomially bounded weight extension; no stronger arbitrary-real-weight runtime claim is imported.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "S13",
+      "authors": [
+        "Anastasios Sidiropoulos"
+      ],
+      "title": "Non-positive curvature, and the planar embedding conjecture",
+      "url": "https://arxiv.org/pdf/1304.7512",
+      "version": "arXiv:1304.7512 submission April 28, 2013; retrieved PDF has internal date September 10, 2018.",
+      "locator": "Sections 1.1–1.3, Theorem 1.2; Section 1.5 non-positive curvature definition.",
+      "read": "Read full constant-distortion theorem and the Busemann convex-distance-between-geodesics condition on a simply connected surface.",
+      "access_limit": "Only planar metrics admitting the required non-positive-curvature realization are covered. PDF internal date differs from the arXiv submission date; no unverified revision number asserted.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "SSS17",
+      "authors": [
+        "Ario Salmasi",
+        "Anastasios Sidiropoulos",
+        "Vijay Sridhar"
+      ],
+      "title": "On constant multi-commodity flow-cut gaps for directed minor-free graphs",
+      "url": "https://arxiv.org/pdf/1711.01370",
+      "version": "arXiv:1711.01370v1 November 4, 2017.",
+      "locator": "Introduction definitions; Theorems 1.1–1.2 and 1.5–1.9.",
+      "read": "Read uniform-demand constant bounds for directed series-parallel/bounded-pathwidth classes and nonuniform-demand constant bounds for directed trees/cycles.",
+      "access_limit": "The title does not mean arbitrary demands on every directed minor-free graph. Both graph-class and demand restrictions must be compared; directedness alone would not disqualify a genuinely general theorem.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "KS21",
+      "authors": [
+        "Ken-ichi Kawarabayashi",
+        "Anastasios Sidiropoulos"
+      ],
+      "title": "Embeddings of Planar Quasimetrics into Directed ℓ1 and Polylogarithmic Approximation for Directed Sparsest-Cut",
+      "url": "https://arxiv.org/pdf/2111.07974",
+      "version": "arXiv:2111.07974v1 November 15, 2021; PDF internal date November 16.",
+      "locator": "Section 1.2 Theorem 1.1; Section 1.3 Theorems 1.2–1.3.",
+      "read": "Read directed planar O(log² n) uniform and O(log³ n) nonuniform flow-cut bounds and their algorithmic consequences.",
+      "access_limit": "Authors note a constant general bound would imply the undirected planar conjecture; the actual size-dependent bounds do not.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "F25",
+      "authors": [
+        "Arnold Filtser"
+      ],
+      "title": "On Sparse Covers of Minor Free Graphs, Low Dimensional Metric Embeddings, and Other Applications",
+      "url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/LIPIcs.SoCG.2025.49/LIPIcs.SoCG.2025.49.pdf",
+      "version": "SoCG 2025, LIPIcs 332, Article 49; DOI 10.4230/LIPIcs.SoCG.2025.49.",
+      "locator": "Section 1 definitions and Theorem 2; Section 1.1 Corollary 3 and Theorem 4.",
+      "read": "Read sparse-cover definitions and constant O(r) or (3+epsilon) distortion embeddings for K_r-minor-free metrics into the maximum norm with O_(r,epsilon)(log n) coordinates.",
+      "access_limit": "Target is ℓ∞, not ℓ1; converting norms in the stated growing dimension loses a size-dependent factor. Same author as F24, not a second independent author group.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    },
+    {
+      "source_id": "BS26",
+      "authors": [
+        "Greg Bodwin",
+        "Luba Samborska"
+      ],
+      "title": "Improved Upper Bounds for the Directed Flow-Cut Gap",
+      "url": "https://arxiv.org/pdf/2604.03412",
+      "version": "Inspected arXiv:2604.03412v3 July 9, 2026.",
+      "locator": "Introduction Theorems 1–5; Section 2.1 pp.5–6 and Corollary 7.",
+      "read": "Read formal directed flow–multicut model, concurrent-flow/sparsest-cut comparison and n^(1/3+o(1)) bounds, including edge/node-capacitated scopes.",
+      "access_limit": "Main flow-cut terminology refers to multicut. Concurrent-flow corollary is also size-dependent; no fixed-minor constant follows.",
+      "accessed_on": "2026-09-19",
+      "identity_verified": true,
+      "proof_certification": false
+    }
+  ],
+  "resolution_comparisons": [
+    {
+      "source_id": "GNRS04",
+      "locator": "Theorem 4.1",
+      "result_scope": "Metrics on graphs of treewidth two embed into ℓ1 with a universal constant.",
+      "comparison_with_target": "Treewidth two is a proper restriction; arbitrary H-minor-free graphs and even all planar graphs are not covered.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "GNRS04",
+      "locator": "Theorem 4.8",
+      "result_scope": "Bound controlled by the cycle rank |E|-|V|+1.",
+      "comparison_with_target": "Cycle rank can grow without bound within planar graphs. It is not the fixed surface-genus parameter.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "LS09",
+      "locator": "Theorem 1.4",
+      "result_scope": "Fixed-forest exclusion gives constant-distortion stochastic tree embeddings.",
+      "comparison_with_target": "The forbidden graph is restricted to a forest; general forbidden minors are not settled.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "LS09",
+      "locator": "Conjectures 2–3 and Theorem 1.8",
+      "result_scope": "General GNRS reduces to its planar case together with a clique-sum embedding assertion.",
+      "comparison_with_target": "An equivalence/reduction does not prove either remaining conjecture.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "C26",
+      "locator": "Chapter 19, Remark 19.2 and p.267",
+      "result_scope": "Improved approximation under a stronger relaxation can exceed the performance implied by the standard flow LP.",
+      "comparison_with_target": "An algorithmic sparsest-cut approximation does not alone bound the maximum-concurrent-flow relaxation gap.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "F24",
+      "locator": "Theorem 1, Corollaries 1–2",
+      "result_scope": "Terminal distortion O(sqrt(log gamma)) for a face cover of size gamma, with the single-face case separately solved; distance lower bounds restricted to terminal pairs.",
+      "comparison_with_target": "Gamma may grow with graph size. A constant for a bounded face cover is not a constant for arbitrary terminal placement/all pairs.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "K25",
+      "locator": "Theorems 5–6",
+      "result_scope": "Constant fractional flow-cut guarantee when each demanded pair is cofacial in a fixed planar drawing.",
+      "comparison_with_target": "Arbitrary demand pairs need not share any face. The embedding lower bound is for the cofacial pairs, not all pairs.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "AS26",
+      "locator": "Theorems 1–2; Section 1.3",
+      "result_scope": "Outerplanar fractional flows can be rounded unsplittably with additive capacity overflow bounded by 2 d_max; a lower-bound example limits such rounding.",
+      "comparison_with_target": "Restricts the supply graph and begins with a feasible fractional flow; does not prove arbitrary-planar fractional feasibility from cut bounds.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "CNPS26",
+      "locator": "Theorems 1–3, Corollary 5, Definitions 11–12 and Theorem 20",
+      "result_scope": "Congestion rounding assumes strongly uncrossed fractional flows; pairwise-planar demand layouts yield integral flow–multicut comparisons.",
+      "comparison_with_target": "Demand layout is restricted, and multicut/value optimization differs from concurrent flow against sparsest cut. Neither the restriction nor the objective difference can be dropped.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "ADK26",
+      "locator": "Claim 2.7 and Theorem 2.8",
+      "result_scope": "Tree flow sparsifiers have polylogarithmic quality, including the improved planar bound.",
+      "comparison_with_target": "Quality depends on n and concerns a tree proxy. No size-independent ℓ1 distortion or cut-to-concurrent-flow constant results.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "S13",
+      "locator": "Theorem 1.2 and Section 1.5",
+      "result_scope": "Constant distortion for planar metrics realizable on simply connected Busemann non-positively curved surfaces.",
+      "comparison_with_target": "The curvature-realization hypothesis excludes general weighted planar metrics.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "SSS17",
+      "locator": "Theorems 1.1–1.2 and 1.5–1.9",
+      "result_scope": "Constant directed bounds for restricted graph families, with uniform demands in the series-parallel/bounded-pathwidth statements.",
+      "comparison_with_target": "The unrestricted demand/class combination required by GNRS is missing. Asymmetry alone is not the reason for the scope distinction.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "KS21",
+      "locator": "Theorem 1.1",
+      "result_scope": "Directed planar uniform and nonuniform gaps are O(log² n) and O(log³ n).",
+      "comparison_with_target": "These grow with graph size; the conjecture asks for a constant.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "F25",
+      "locator": "Section 1.1, Corollary 3 and Theorem 4",
+      "result_scope": "Constant distortion of minor-free metrics into ℓ∞ with O_(r,epsilon)(log n) coordinates.",
+      "comparison_with_target": "Target norm differs. The growing dimension prevents transferring the same constant to ℓ1 by elementary norm comparison.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    },
+    {
+      "source_id": "BS26",
+      "locator": "Section 2.1, Theorems 1–5 and Corollary 7",
+      "result_scope": "Directed multicut rounding and concurrent-flow consequences with n^(1/3+o(1)) bounds.",
+      "comparison_with_target": "Both the main objective and the size-dependent bound must be distinguished; no general fixed-minor constant is proved.",
+      "full_relevant_statement_read": true,
+      "independent_proof_certification": false
+    }
+  ],
+  "second_review": {
+    "pass_id": "A64",
+    "state": "passed",
+    "verdict": "passed",
+    "date": "2026-09-19",
+    "arrangement": "Primary-agent source research followed by a clearly separated adversarial self-pass after drafting; no independent agent or human review.",
+    "independent_searches": [
+      "A64-1",
+      "A64-2",
+      "A64-3",
+      "A64-4",
+      "A64-5",
+      "A64-6",
+      "A64-7",
+      "A64-8"
+    ],
+    "issues_found": [
+      "Flow constraints should be explicit, including arbitrary pairs, fractional splitting and finite capacities.",
+      "Zero lengths and zero-capacity cuts can create hidden injectivity or division assumptions.",
+      "Cycle rank, strongly uncrossed hypotheses and flow–multicut terminology can be misread.",
+      "Constant maximum-norm embeddings and directed restricted-class results have superficially matching titles."
+    ],
+    "issues_resolved": [
+      "Added both path-flow inequalities and a common demand multiplier; rendered them on separate aligned lines.",
+      "Allowed pseudometrics and used phi/C <= lambda* <= phi instead of an undefined ratio.",
+      "Recorded cycle rank rather than genus; retained strongly uncrossed and demand-layout conditions; separated concurrent-flow and multicut objectives.",
+      "Read full relevant SSS17, KS21, F25 and BS26 definitions/theorems and recorded the graph, demand, target-norm and size-dependence differences."
+    ],
+    "application_check": "A topology-dependent comparison between capacity bottleneck certificates and feasible fractional multicommodity throughput. No claim concerning interference, packet deadlines, queueing delay or integral scheduling.",
+    "search_limit": "Searches and theorem-scope comparisons neither exhaust all literature nor independently certify the cited proofs."
+  },
+  "aliases": [
+    "Gupta–Newman–Rabinovich–Sinclair conjecture",
+    "GNRS conjecture",
+    "minor-free ℓ1 embedding conjecture",
+    "bounded flow-cut gap for minor-closed graph families"
+  ],
+  "independent_corroboration": {
+    "sources": [
+      "C26",
+      "AS26"
+    ],
+    "independent_of": [
+      "GNRS04",
+      "LS09"
+    ],
+    "qualification": "Chekuri's May 2026 notes explicitly retain the general and planar questions; Alemán Espinosa–Schlomberg independently report the nonconstant planar gap in ICALP 2026. They are distinct author groups. Overlapping teams and multiple versions of a work are not counted as independent corroboration."
+  },
+  "normalization_checks": [
+    "Every fixed excluded finite simple graph H, every finite connected undirected simple supply graph without that minor, and every finite nonnegative edge-length assignment.",
+    "One constant depends only on H, independent of graph size and all edge-length ratios. The finite output dimension and map may depend on the instance.",
+    "Zero lengths give a pseudometric; the image may identify zero-distance vertices. No injectivity assumption is added.",
+    "All vertex pairs receive both metric inequalities. Terminal-only lower bounds do not establish the target.",
+    "Capacity-feasible nonnegative path weights meet a common demand multiplier; demands may split and need not be integral. At least one pair has positive demand.",
+    "Cut minimization is over cuts of positive separated demand. The inequality lambda* >= phi/C handles zero capacity without an undefined 0/0 ratio.",
+    "Demand topology is unrestricted. Fractional concurrent flow/sparsest cut differs from maximum-value flow/multicut and from integral or unsplittable rounding.",
+    "Planar, bounded-width and face-cover cases and the equivalent metric and flow formulations constitute one family for counting."
+  ],
+  "discovery_access_limits": [
+    {
+      "url": "https://link.springer.com/article/10.1007/s00493-004-0015-x",
+      "limit": "Publisher bibliographic metadata inspected; subscription journal full text unavailable. Later direct link check returned HTTP 200 with a cookies_not_supported redirect, not full-text access. The full author manuscript and independent restatement are accessible."
+    },
+    {
+      "url": "https://doi.org/10.1145/3686800",
+      "limit": "Journal DOI returned HTTP 403 during research. Full Filtser arXiv v4 is the inspected mathematical source; publisher metadata does not count as a second source."
+    },
+    {
+      "url": "https://homes.cs.washington.edu/~jrl/pubs-multiflow.html",
+      "limit": "Author page identifies the finite-family 2-sum result. ACM full text for DOI 10.1145/2462356.2492436 could not be obtained; not used as a fully inspected theorem admission source."
+    },
+    {
+      "url": "https://arxiv.org/abs/2208.00795",
+      "limit": "Revision history verified through v3 January 10, 2025. Later SIAM journal metadata surfaced, but no unverified later theorem or bibliographic details were imported."
+    },
+    {
+      "description": "ProofAtlas and secondary discovery hits",
+      "limit": "AI-project and secondary summaries were discovery only, not scholarly corroboration. Restricted treewidth/interface work was not treated as a proof of general GNRS."
+    }
+  ],
+  "validation": {
+    "strict_katex_expressions": 40,
+    "render": "All 40 expressions passed strict KaTeX. Complete 1300x6000 Chrome screenshot inspected; formulas and final paragraphs are visible without clipping.",
+    "external_links": "Eight full-text bibliography targets responded successfully, including all five PDFs with PDF headers. The publisher target returned HTTP 200 with a cookie-error redirect; its accessible author-manuscript alternative is checked.",
+    "external_link_record": "research/expansion-2026-09/gnrs-minor-free-flow-cut-link-check.json",
+    "local_links": "All three relative links resolve.",
+    "structure": "Source cross-references, unique search IDs, count arithmetic, required headings and checked research local links passed. git diff --check passed. Existing catalogue validator passed all 360 active entries; no active metadata changed."
+  },
+  "draft_path": "research/expansion-2026-09/drafts/gnrs-minor-free-flow-cut.md",
+  "status_search_ids": [
+    "S486-1",
+    "S487-1",
+    "S487-2",
+    "S487-3",
+    "S487-4",
+    "S488-1",
+    "S488-2",
+    "S488-3",
+    "S488-4",
+    "S489-1",
+    "S489-2",
+    "S489-3",
+    "S489-4",
+    "S490-1",
+    "S490-2",
+    "S490-3",
+    "S490-4",
+    "S491-1",
+    "S491-2",
+    "S491-3",
+    "S491-4",
+    "S492-1",
+    "S492-2",
+    "S492-3",
+    "S492-4",
+    "A64-1",
+    "A64-2",
+    "A64-3",
+    "A64-4",
+    "A64-5",
+    "A64-6",
+    "A64-7",
+    "A64-8"
+  ]
+}

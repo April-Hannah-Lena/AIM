@@ -9,14 +9,14 @@
     300
   ],
   "baseline_active": 300,
-  "new_accepted": 61,
+  "new_accepted": 62,
   "active_total": 360,
-  "candidates_investigated": 67,
+  "candidates_investigated": 68,
   "held_unverified": 1,
   "held_claimed_resolution": 5,
   "excluded": 0,
-  "remaining_to_minimum": 139,
-  "remaining_to_target": 189,
+  "remaining_to_minimum": 138,
+  "remaining_to_target": 188,
   "baseline_reading": {
     "problem_pages_fully_read": [
       [
@@ -260,15 +260,15 @@
       "purpose": "Reviewed illumination draft, fifteen source records, fifteen scope comparisons, A63 and technical validation; direct main push separately verified September 19, 2026. No new active catalogue entry."
     }
   ],
-  "remote_state": "All sixty catalogue additions (301–360) are published directly on main. The sixty-first accepted problem, illumination, is uploaded as a research draft with its evidence in 3da24a78c1e9ef89eed406a5644f4bb981602c3d, separately verified on remote main September 19, 2026. Active total 360; one accepted draft awaits batch integration.",
+  "remote_state": "All sixty catalogue additions (301–360) are published directly on main. The accepted illumination draft and evidence are uploaded in 3da24a78c1e9ef89eed406a5644f4bb981602c3d. The accepted GNRS draft and evidence are locally validated and ready for the authorized direct push. Active total 360; two accepted drafts await batch integration.",
   "next_actions": [
-    "Continue broad research toward at least 200 integrated additions: 61 accepted, 60 published, one pending draft; 139 acceptances and 140 integrations remain to the minimum. Build the next reviewed ten-entry batch before assigning permanent IDs.",
+    "Continue broad research toward at least 200 integrated additions: 62 accepted, 60 published, two pending drafts; 138 acceptances and 140 integrations remain to the minimum. Build the next reviewed ten-entry batch before assigning permanent IDs.",
     "Prioritize distinct families in statistics, information, biology, control and operations research alongside all twelve sections.",
     "Keep the six formal holds and discovery-only claims outside admission; preserve original identifiers and historical review dates.",
     "Continue the Carrasco and other discovery leads only after resolving the precise scope and corroboration gaps in their records."
   ],
   "coverage": {
-    "stochastic3": 12,
+    "stochastic3": 13,
     "inverse3": 10,
     "spectral2": 1,
     "applied": 12,
@@ -283,11 +283,11 @@
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
   "new_integrated": 60,
-  "count_semantics": "Sixty-one accepted additions: sixty integrated and published directly on main, one pending draft. Active total 360. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
+  "count_semantics": "Sixty-two accepted additions: sixty integrated and published directly on main, two pending drafts. Active total 360. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 60,
-  "coverage_semantics": "Accepted additions by primary section, including one unintegrated illumination draft in inverse3. Sixty additions are integrated and published.",
+  "coverage_semantics": "Accepted additions by primary section, including unintegrated illumination (inverse3) and GNRS (stochastic3) drafts. Sixty additions are integrated and published.",
   "remaining_integrations_to_minimum": 140,
   "remaining_integrations_to_target": 190,
-  "pending_accepted": 1
+  "pending_accepted": 2
 }
