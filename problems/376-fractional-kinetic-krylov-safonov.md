@@ -18,7 +18,7 @@ Here $C^\alpha$ uses ordinary Euclidean distance. In particular, do not assume i
 
 ## Application
 
-This models particles transported in space while undergoing velocity jumps in an irregular medium, including nonlocal diffusion in collisional kinetic equations. The estimate would bound how rapidly the particle density can vary in position, velocity and time using only its amplitude, the forcing and the stated jump-intensity bounds, without requiring smooth microscopic coefficients.
+This is a model regularity question for kinetic transport with nonlocal velocity diffusion. The estimate would bound variation of a bounded solution in position, velocity and time using its amplitude, the forcing and the stated kernel bounds, without requiring smooth coefficients.
 
 ## References
 

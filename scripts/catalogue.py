@@ -174,13 +174,13 @@ def render_readme(entries, manifest):
         summary += f" · **{other} other retained entries**"
     lines = [
         "# AIM — Open Applied Problems", "",
-        "A sourced collection of precise mathematical research problems in spectral theory, operator theory, applied mathematics, and related fields. Each entry has a self-contained statement, an applied motivation, references, and a dated literature-status review.", "",
+        "A sourced collection of precise mathematical research problems in spectral theory, operator theory, applied mathematics, and related fields. Each entry has a self-contained statement, a discussion of applications or mathematical significance, references, and a dated literature-status review.", "",
         summary + ". Counts reflect the statuses recorded in this collection.", "",
         f"**[Browse all {len(entries)} open targets →](CATALOG.md)** · **[Solved and claimed solutions →](RESOLVED.md)**", "",
         "## Browse by subject", "",
         *subject_index(entries, manifest, "CATALOG.md"), "",
         "## Reading the collection", "",
-        "Each [problem page](problems/) records its assumptions and quantifiers, an explicit **Application** section, references, a status label, and its last review date. Applications describe a concrete use or modelling consequence, including what a resolution would enable. Permanent IDs remain reserved when an entry leaves the open catalogue; its original statement and status record are retained.", "",
+        "Each [problem page](problems/) records its assumptions and quantifiers, an **Application** section, references, a status label, and its last review date. The Application section describes a supported use where one is clear, labels indirect connections, or states that no direct application has been identified. Permanent IDs remain reserved when an entry leaves the open catalogue; its original statement and status record are retained.", "",
         "The collection includes foundational questions as well as directly applied ones, with a wide range of difficulty. Related entries may imply one another; the count does not assert logical independence. Further additions exclude numerical linear algebra (NLA).", "",
         "## Problem status", "",
         "The same labels appear on problem pages and index rows. Only Open and Partial count as open targets; each problem counts once.", "",
@@ -218,7 +218,7 @@ def render_catalog(entries, manifest):
     lines = [
         "# Open targets", "",
         "[Repository overview](README.md) · [Solved and claimed solutions](RESOLVED.md)", "",
-        f"**{len(entries)} open targets**, grouped by subject. Open and Partial entries are counted once each. Every linked page gives the precise statement, an application, references, known cases, and its own literature-review date. See the [status legend](README.md#problem-status); all other statuses appear in the [resolution archive](RESOLVED.md).", "",
+        f"**{len(entries)} open targets**, grouped by subject. Open and Partial entries are counted once each. Every linked page gives the precise statement, an application where one is identified or a note on its mathematical significance, references, known cases, and its own literature-review date. See the [status legend](README.md#problem-status); all other statuses appear in the [resolution archive](RESOLVED.md).", "",
         "## Browse by subject", "",
         *subject_index(entries, manifest), "",
         "[Publication batches and review dates](#publication-batches)",

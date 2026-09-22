@@ -13,7 +13,7 @@ Can $d(\lambda)>p_i(\lambda)+r_i(\lambda)$ occur when $M(\lambda)=I$ or $M(\lamb
 
 ## Application
 
-Floquet multiplicities distinguish ordinary band edges from degeneracies in periodic gain-and-loss media. The question would determine which spectral degeneracies are compatible with two independent periodic or antiperiodic wave modes. This helps classify mode structure in the periodic wave model and the spectral data used to describe integrable wave equations.
+No direct application is identified in this entry. The mathematical significance is to determine which excess spectral multiplicities can coexist with two independent periodic or antiperiodic solutions of a complex periodic Schrödinger equation, clarifying its spectral degeneracies.
 
 ## References
 

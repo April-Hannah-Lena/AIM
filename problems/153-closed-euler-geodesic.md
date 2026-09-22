@@ -18,7 +18,7 @@ The equations are $\partial_tu+\nabla_u u=-\operatorname{grad}p$, $\operatorname
 
 ## Application
 
-A periodic velocity field alone need not return transported material to its starting position. This asks whether inviscid flow on a surface of higher genus can produce a nontrivial cycle that restores every passive tracer as well as the velocity, an exact recurrence test for transport models.
+No direct application is identified in this entry. The mathematical question is whether ideal Euler flow on every surface of higher genus admits nontrivial exact material recurrence: every particle and the velocity return together. This is a question about the geometry of fluid configuration spaces.
 
 ## References
 

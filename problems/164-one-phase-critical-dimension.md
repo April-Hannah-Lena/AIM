@@ -18,7 +18,7 @@ Let $d_*$ be the least $d$ for which there is a nonnegative, nonzero $u\in H^1_{
 
 ## Application
 
-Bernoulli free-boundary models determine a fluid interface together with the field it bounds. The critical dimension identifies when energy minimization can produce a singular cone instead of a locally flat interface, setting the dimensional limits of smooth-interface descriptions and providing a benchmark for regularity estimates.
+No direct application is identified in this entry. The question identifies the first dimension admitting a singular minimizing cone in the one-phase Bernoulli problem, refining its mathematical regularity theory. The unresolved dimensions are higher than those of ordinary physical space.
 
 ## References
 

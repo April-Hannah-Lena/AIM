@@ -15,7 +15,7 @@ Write $W_\infty^\beta$ for the nonnegative martingale limit and define $\beta_c=
 
 ## Application
 
-In a polymer model with random environmental energies, partition-function moments measure how strongly rare environments dominate fluctuations. The conjectured spectrum would identify which moments remain uniformly controlled as the polymer grows, including the disorder range in which variance stays bounded; this helps distinguish regimes of statistical stability in the model.
+In this random polymer model, partition-function moments describe fluctuations across environments. The conjecture would describe how the threshold for uniformly bounded moments changes with disorder. It does not by itself identify the exact disorder threshold for bounded variance or settle boundedness at the moment threshold.
 
 ## References
 

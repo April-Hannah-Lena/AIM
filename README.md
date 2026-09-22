@@ -1,6 +1,6 @@
 # AIM — Open Applied Problems
 
-A sourced collection of precise mathematical research problems in spectral theory, operator theory, applied mathematics, and related fields. Each entry has a self-contained statement, an applied motivation, references, and a dated literature-status review.
+A sourced collection of precise mathematical research problems in spectral theory, operator theory, applied mathematics, and related fields. Each entry has a self-contained statement, a discussion of applications or mathematical significance, references, and a dated literature-status review.
 
 **500 open targets** (455 open, 45 partial) · **0 solved entries** · **0 Lean verified** · **1 solution claim**. Counts reflect the statuses recorded in this collection.
 
@@ -25,7 +25,7 @@ A sourced collection of precise mathematical research problems in spectral theor
 
 ## Reading the collection
 
-Each [problem page](problems/) records its assumptions and quantifiers, an explicit **Application** section, references, a status label, and its last review date. Applications describe a concrete use or modelling consequence, including what a resolution would enable. Permanent IDs remain reserved when an entry leaves the open catalogue; its original statement and status record are retained.
+Each [problem page](problems/) records its assumptions and quantifiers, an **Application** section, references, a status label, and its last review date. The Application section describes a supported use where one is clear, labels indirect connections, or states that no direct application has been identified. Permanent IDs remain reserved when an entry leaves the open catalogue; its original statement and status record are retained.
 
 The collection includes foundational questions as well as directly applied ones, with a wide range of difficulty. Related entries may imply one another; the count does not assert logical independence. Further additions exclude numerical linear algebra (NLA).
 

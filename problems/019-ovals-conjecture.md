@@ -16,7 +16,7 @@ Equivalently, the lowest periodic eigenvalue of $-d^2/ds^2+\kappa^2$ is at least
 
 ## Application
 
-The operator is a quantum model on a loop with a curvature-dependent potential. The conjecture would give a shape-independent floor for its ground-state energy at fixed loop length, providing a benchmark for geometric spectral estimates.
+No direct application is identified in this entry. Its mathematical significance is a sharp, shape-independent lower bound for the lowest eigenvalue of a curvature-dependent Schrödinger operator on a loop of fixed length.
 
 ## References
 

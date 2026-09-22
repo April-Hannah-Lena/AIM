@@ -21,7 +21,7 @@ The Hölder norm itself may be random and unbounded. The question is whether the
 
 ## Application
 
-The equation models diffusion subject to random transport, with a possibly irregular diffusion coefficient. A deterministic regularity exponent would give a common power for spatial and temporal approximation errors across random realizations. The error prefactor could still depend on the realization, as the proposed statement allows the Hölder norm to be random and unbounded.
+For diffusion subject to random transport, a deterministic Hölder exponent would give a common regularity scale across realizations: spatial exponent $\gamma$ and temporal exponent $\gamma/2$. The corresponding Hölder norm may still depend on the realization and be unbounded.
 
 ## References
 

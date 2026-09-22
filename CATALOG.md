@@ -2,7 +2,7 @@
 
 [Repository overview](README.md) · [Solved and claimed solutions](RESOLVED.md)
 
-**500 open targets**, grouped by subject. Open and Partial entries are counted once each. Every linked page gives the precise statement, an application, references, known cases, and its own literature-review date. See the [status legend](README.md#problem-status); all other statuses appear in the [resolution archive](RESOLVED.md).
+**500 open targets**, grouped by subject. Open and Partial entries are counted once each. Every linked page gives the precise statement, an application where one is identified or a note on its mathematical significance, references, known cases, and its own literature-review date. See the [status legend](README.md#problem-status); all other statuses appear in the [resolution archive](RESOLVED.md).
 
 ## Browse by subject
 
