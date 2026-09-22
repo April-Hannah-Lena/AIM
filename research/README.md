@@ -1,5 +1,7 @@
 # Research records
 
+[Repository overview](../README.md) · [Open targets](../CATALOG.md) · [Solved and claimed solutions](../RESOLVED.md)
+
 - [Selection and status-check methodology](METHODOLOGY.md)
 - [Spectral candidates excluded or narrowed](excluded-spectral.md)
 - [Operator and numerical candidates excluded or narrowed](excluded-operators.md)

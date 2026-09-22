@@ -9,6 +9,7 @@ import tempfile
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
+GENERATED = ('README.md', 'CATALOG.md', 'RESOLVED.md')
 
 
 class CatalogueTests(unittest.TestCase):
@@ -18,7 +19,7 @@ class CatalogueTests(unittest.TestCase):
         self.root = Path(self.temp.name)
         for name in ('data', 'problems', 'research', 'scripts'):
             shutil.copytree(ROOT / name, self.root / name)
-        for name in ('README.md', 'CONTRIBUTING.md', 'catalogue.json'):
+        for name in (*GENERATED, 'CONTRIBUTING.md', 'CITATION.cff', 'catalogue.json'):
             shutil.copy2(ROOT / name, self.root / name)
 
     def run_catalogue(self, mode='--write', expected=0, message=None):
@@ -33,6 +34,14 @@ class CatalogueTests(unittest.TestCase):
 
     def write_json(self, name, value):
         (self.root / name).write_text(json.dumps(value, indent=2) + '\n')
+
+    def active_entries(self):
+        manifest = self.read_json('catalogue.json')
+        return [row for group in manifest['groups']
+                for row in self.read_json(f"data/{group['key']}.json")]
+
+    def section(self, text, heading):
+        return text.split(f'## {heading}\n', 1)[1].split('\n## ', 1)[0]
 
     def change_row(self, edit):
         rows = self.read_json('data/spectral.json')
@@ -51,6 +60,35 @@ class CatalogueTests(unittest.TestCase):
         self.run_catalogue('--check')
         self.assertTrue(all((self.root / p).read_bytes() == text
                             for p, text in originals.items()))
+
+    def test_browsing_is_separate_from_readme(self):
+        self.run_catalogue()
+        readme = (self.root / 'README.md').read_text()
+        catalogue = (self.root / 'CATALOG.md').read_text()
+        resolved = (self.root / 'RESOLVED.md').read_text()
+        manifest = self.read_json('catalogue.json')
+        entries = self.active_entries()
+        self.assertTrue(readme.startswith('# AIM — Open Applied Problems\n'))
+        self.assertIn(f'**{len(entries)} open targets**', readme)
+        self.assertIn('](CATALOG.md)', readme)
+        self.assertIn('](RESOLVED.md)', readme)
+        self.assertIn('](CITATION.cff)', readme)
+        self.assertNotRegex(readme, r'(?m)^\| \d{3,} \|')
+        self.assertNotIn('| Publication batch |', readme)
+        self.assertIn('| Publication batch |', catalogue)
+        for group in manifest['groups']:
+            self.assertNotIn(f"## {group['title']}\n", readme)
+            section = self.section(catalogue, group['title'])
+            for row in self.read_json(f"data/{group['key']}.json"):
+                self.assertIn(f"| {row['id']} |", section)
+                self.assertIn(f"]({row['file']})", section)
+        for row in manifest['retired']:
+            self.assertNotIn(f"| {row['id']} |", catalogue)
+            self.assertIn(f"| {row['id']} |", resolved)
+            self.assertIn(f"]({row['record']})", resolved)
+        claimed = self.section(resolved, 'Solution claimed')
+        self.assertIn('| 077 |', claimed)
+        self.assertNotIn('| 077 |', self.section(resolved, 'Solved'))
 
     def test_duplicate_id(self):
         self.change_row(lambda rows: rows.append(dict(rows[0])))
@@ -93,11 +131,35 @@ class CatalogueTests(unittest.TestCase):
         self.change_page(lambda text: text + '\n[Missing](../missing.md)\n')
         self.run_catalogue(expected=1, message='broken local link')
 
-    def test_stale_output(self):
+    def test_stale_outputs_are_detected_and_regenerated(self):
         self.run_catalogue()
-        path = self.root / 'README.md'
-        path.write_text(path.read_text() + 'Stale output\n')
-        self.run_catalogue('--check', expected=1, message='README is stale')
+        for name in GENERATED:
+            with self.subTest(name=name):
+                path = self.root / name
+                original = path.read_text()
+                path.write_text(original + 'Stale output\n')
+                self.run_catalogue('--check', expected=1, message=f'{name} is stale')
+                self.run_catalogue()
+                self.assertEqual(path.read_text(), original)
+                self.run_catalogue('--check')
+
+    def test_missing_outputs_are_detected_and_regenerated(self):
+        self.run_catalogue()
+        originals = {name: (self.root / name).read_text() for name in GENERATED}
+        for name in GENERATED:
+            with self.subTest(name=name):
+                (self.root / name).unlink()
+                self.run_catalogue('--check', expected=1, message=f'{name} is missing')
+                self.run_catalogue()
+                self.assertEqual((self.root / name).read_text(), originals[name])
+                self.run_catalogue('--check')
+        for name in GENERATED:
+            (self.root / name).unlink()
+        self.run_catalogue('--check', expected=1, message='README.md is missing')
+        self.run_catalogue()
+        for name in GENERATED:
+            self.assertEqual((self.root / name).read_text(), originals[name])
+        self.run_catalogue('--check')
 
     def test_noncontiguous_grouping_and_counts(self):
         manifest = self.read_json('catalogue.json')
@@ -122,13 +184,15 @@ class CatalogueTests(unittest.TestCase):
         self.run_catalogue()
         self.run_catalogue('--check')
         readme = (self.root / 'README.md').read_text()
-        spectral = readme.split('## Spectral theory and spectral geometry\n')[1].split('\n## ')[0]
-        operators = readme.split('## Operators, matrices and computation\n')[1].split('\n## ')[0]
+        catalogue = (self.root / 'CATALOG.md').read_text()
+        spectral = self.section(catalogue, 'Spectral theory and spectral geometry')
+        operators = self.section(catalogue, 'Operators, matrices and computation')
         self.assertIn(f'| {ids[0]} |', spectral)
         self.assertIn(f'| {ids[2]} |', spectral)
         self.assertNotIn(f'| {ids[1]} |', spectral)
         self.assertIn(f'| {ids[1]} |', operators)
-        self.assertIn(f'# AIM — {first_id + 2} Open Applied Problems', readme)
+        self.assertIn(f'**{len(self.active_entries())} open targets**', readme)
+        self.assertNotRegex(readme, r'(?m)^\| \d{3,} \|')
 
     def test_missing_batch_membership(self):
         manifest = self.read_json('catalogue.json')
@@ -142,8 +206,8 @@ class CatalogueTests(unittest.TestCase):
 
     def test_retired_id_cannot_be_reused(self):
         manifest = self.read_json('catalogue.json')
-        manifest['retired'] = [{'id': '001', 'reason': 'Test only',
-                                'record': 'research/METHODOLOGY.md'}]
+        manifest['retired'].append({'id': '001', 'reason': 'Test only',
+                                    'record': 'research/METHODOLOGY.md'})
         self.write_json('catalogue.json', manifest)
         self.run_catalogue(expected=1, message='Duplicate ID')
 
@@ -162,10 +226,63 @@ class CatalogueTests(unittest.TestCase):
             if path.parent == self.root / 'problems':
                 content = content.replace(f']({old_path.name})', f'](../{record})')
             path.write_text(content)
-        manifest['retired'] = [{'id': row['id'], 'reason': 'Test only', 'record': record}]
+        manifest['retired'].append({'id': row['id'], 'reason': 'Test only', 'record': record})
         self.write_json('catalogue.json', manifest)
         self.run_catalogue()
         self.run_catalogue('--check')
+        resolved = (self.root / 'RESOLVED.md').read_text()
+        self.assertIn(f"[Entry {row['id']}]({record})",
+                      self.section(resolved, 'Other retained entries'))
+        self.assertIn('| 077 |', self.section(resolved, 'Solution claimed'))
+        self.assertIn(f'**{len(self.active_entries())} open targets**',
+                      (self.root / 'README.md').read_text())
+
+    def test_retained_status_sections(self):
+        manifest = self.read_json('catalogue.json')
+        first_id = max(int(i) for batch in manifest['batches'] for i in batch['ids']) + 1
+        fixtures = []
+        for offset, status in enumerate(('Solved', 'Solution claimed', 'Retired')):
+            identifier = f'{first_id + offset:03d}'
+            row = {'id': identifier, 'title': f'Temporary {status.lower()} target',
+                   'status': status, 'reason': f'Temporary review for {identifier}',
+                   'record': f'research/test-{identifier}.md'}
+            (self.root / row['record']).write_text(f"# {row['title']}\n")
+            manifest['retired'].append(row)
+            fixtures.append(row)
+        manifest['batches'].append({'key': 'retained-test', 'title': 'Retained test',
+                                   'ids': [row['id'] for row in fixtures]})
+        self.write_json('catalogue.json', manifest)
+        self.run_catalogue()
+        self.run_catalogue('--check')
+        resolved = (self.root / 'RESOLVED.md').read_text()
+        catalogue = (self.root / 'CATALOG.md').read_text()
+        headings = ('Solved', 'Solution claimed', 'Other retained entries')
+        for row, heading in zip(fixtures, headings):
+            with self.subTest(status=row['status']):
+                section = self.section(resolved, heading)
+                self.assertIn(f"| {row['id']} |", section)
+                self.assertIn(f"[{row['title']}]({row['record']})", section)
+                self.assertIn(row['reason'], section)
+                self.assertNotIn(f"| {row['id']} |", catalogue)
+                for other_heading in headings:
+                    if other_heading != heading:
+                        self.assertNotIn(f"| {row['id']} |",
+                                         self.section(resolved, other_heading))
+        self.assertIn(f'**{len(self.active_entries())} open targets**',
+                      (self.root / 'README.md').read_text())
+
+    def test_invalid_optional_retirement_metadata(self):
+        for field, values in (('title', ('', '   ', None, 123)),
+                              ('status', ('', 'solved', 'Open', None, 123, [], {}))):
+            for value in values:
+                with self.subTest(field=field, value=value):
+                    manifest = self.read_json('catalogue.json')
+                    original = dict(manifest['retired'][0])
+                    manifest['retired'][0][field] = value
+                    self.write_json('catalogue.json', manifest)
+                    self.run_catalogue(expected=1, message=f'invalid retired {field}')
+                    manifest['retired'][0] = original
+                    self.write_json('catalogue.json', manifest)
 
 
 if __name__ == '__main__':

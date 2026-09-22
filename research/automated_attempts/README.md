@@ -4,7 +4,7 @@ This is the persistent coordination layer for the repository's growing problem c
 
 ## Scope and layout
 
-Programme writers may create or modify files only beneath `research/automated_attempts/` unless a later user instruction explicitly expands that scope. Problem files, the main README, and other existing research files are read-only inputs.
+Programme writers may create or modify files only beneath `research/automated_attempts/` unless a later user instruction explicitly expands that scope. Problem files, the [open-target index](../../CATALOG.md), the [resolution archive](../../RESOLVED.md), the main README, and other existing research files are read-only inputs.
 
 | Path | Purpose |
 | --- | --- |
@@ -19,7 +19,7 @@ Keep canonical identifiers as strings. New senior reviews use UTC names `YYYY-MM
 
 ## Every invocation
 
-1. Discover all current problem files, including files beyond the initial index ranges. Check their canonical headings against every current machine-readable index and the main index. Do not use the fixed-range assumptions in `scripts/catalogue.py` to limit discovery.
+1. Discover all current problem files, including files beyond the initial index ranges. Check their canonical headings against every current machine-readable index and [CATALOG.md](../../CATALOG.md). Check [RESOLVED.md](../../RESOLVED.md) for retained entries outside the open catalogue. Do not limit discovery to historical index ranges.
 2. Compare actual membership with `QUEUE.md`. Add newly discovered problems as `unstarted`, preserving canonical identifiers and titles. Preserve all existing statuses and history. Record actual discovery dates; do not invent old dates or priority scores.
 3. Preserve missing files' queue entries and research directories. Update a rename/renumber only when correspondence is unambiguous. Record duplicate IDs, contradictory indexes, malformed entries, and ambiguous correspondences as `queue_integrity_issues`; continue unaffected research.
 4. Read `STATE.md`, `QUEUE.md`, the exact current statement, and current `PROGRESS.md`. A senior run also reads all Sol attempts since the preceding Astra review and the two most recent reviews, if present. Load older history only to resolve a claim.
