@@ -2,7 +2,7 @@
 
 **Area:** Granular-gas kinetic theory
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-13
 
@@ -16,7 +16,7 @@ For every $\alpha\in(0,1)$, is there exactly one nonnegative density $F$ satisfy
 $$Q_\alpha(F,F)=\nabla_v\cdot(vF),\qquad \int F\,dv=1,\qquad \int vF\,dv=0,$$
 in distributions, with $\int(1+|v|^3)F\,dv<\infty$ and $\int F|\log F|\,dv<\infty$? The coefficient of the dilation term is fixed at one, which fixes the velocity scale. No rotational symmetry is imposed.
 
-## Applied significance
+## Application
 
 In a freely cooling granular gas, collisions dissipate energy. Uniqueness would identify a single velocity-distribution shape after the shrinking thermal velocity is rescaled.
 
@@ -26,5 +26,11 @@ In a freely cooling granular gas, collisions dissipate energy. Uniqueness would 
 - Stéphane Mischler and Clément Mouhot, [*Stability, convergence to self-similarity and elastic limit for the Boltzmann equation for inelastic hard spheres*](https://arxiv.org/abs/math/0701449) (2007 preprint; 2009 publication), §§1.2–1.4 and Theorem 1.1(i): rescaling, the Ernst–Brito question, and uniqueness for sufficiently small inelasticity.
 
 ## Status review
+
+**Known cases:** Uniqueness of the cooling profile is established for restitution coefficients sufficiently close to one.
+
+**Remaining target:** Uniqueness for every restitution coefficient strictly between zero and one in the stated hard-sphere model.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “inelastic hard spheres self similar profile uniqueness arbitrary restitution solved 2025 2026”, “homogeneous cooling state uniqueness”, and the 2025 one-dimensional moderately-hard-potential result. The near-elastic theorem covers only a neighborhood of $\alpha=1$. Results for Maxwell molecules, one-dimensional collision laws, particle-bath forcing, or diffusive heating do not settle this three-dimensional, freely cooling hard-sphere profile problem.

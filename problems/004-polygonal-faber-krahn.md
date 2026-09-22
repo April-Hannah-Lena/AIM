@@ -2,6 +2,10 @@
 
 **Area:** Spectral shape optimization
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Fix an integer $n\ge5$ and an area $A>0$. For every simple planar polygon $P$ with exactly $n$ sides and area $A$, let $\lambda_1(P)$ be the least eigenvalue of $-\Delta$ with zero Dirichlet boundary values. If $R_n$ is the regular $n$-gon of area $A$, prove or disprove
@@ -10,7 +14,7 @@ $$\lambda_1(P)\ge\lambda_1(R_n),$$
 
 with equality only for polygons congruent to $R_n$. The polygon need not be convex.
 
-## Applied significance
+## Application
 
 This is a design question for membranes and waveguides manufactured with a prescribed number of straight edges: which shape gives the lowest fundamental frequency?
 
@@ -22,9 +26,7 @@ This is a design question for membranes and waveguides manufactured with a presc
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The book and 2024 paper distinguish the open n≥5 problem from the solved triangular and quadrilateral cases. Validated computations establish local minimality for specified regular polygons; local minimality does not establish the global inequality. A July 2026 tangential-polygon paper found in the update search gives a sufficient criterion, rather than arbitrary polygons.
 

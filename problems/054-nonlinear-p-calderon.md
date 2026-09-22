@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear inverse problems / electrical materials
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-08
 
@@ -17,7 +17,7 @@ and define the nonlinear Dirichlet-to-Neumann map $\Lambda_{\gamma_j,p}f=\gamma_
 
 Prove or disprove that equality of these maps for all boundary data implies $\gamma_1=\gamma_2$. Do not assume an ordering, smallness, analyticity, or invariance in one direction.
 
-## Applied significance
+## Application
 
 The power-law constitutive relation models nonlinear conducting media. The question asks whether nonlinear boundary response identifies their spatial material coefficient.
 
@@ -28,6 +28,12 @@ The power-law constitutive relation models nonlinear conducting media. The quest
 3. C. I. Cârstea and A. Feizmohammadi, *Two uniqueness results in the inverse boundary value problem for the weighted p-Laplace equation*, Forum of Mathematics, Sigma **13** (2025), e147, Theorems 1.2–1.3 and Corollary 1.1. [Paper](https://doi.org/10.1017/fms.2025.10095).
 
 ## Status review
+
+**Known cases:** The cited 2025 paper proves higher-dimensional uniqueness for certain analytic or direction-independent weights.
+
+**Remaining target:** Uniqueness for arbitrary smooth positive weights in dimensions at least three, without those structural assumptions.
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Reference 2 explicitly records unrestricted interior uniqueness as open. The 2025 paper resolves smooth planar weights and certain higher-dimensional analytic or direction-independent weights. It does not prove the general smooth $n\geq3$ statement above.
 

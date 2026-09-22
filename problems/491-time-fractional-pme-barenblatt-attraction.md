@@ -2,7 +2,7 @@
 
 **Area:** PDEs with memory; nonlinear diffusion asymptotics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -16,7 +16,7 @@ Does every such $u$ satisfy
 $$\lim_{t\to\infty}\|t^a u(t,t^b\,\cdot)-U_{\alpha,m,M}\|_{L^1(\mathbb R^d)}=0?$$
 The rescaling changes the observation variables only; it does not replace the original Caputo memory by a derivative with a shifted lower limit.
 
-## Applied significance
+## Application
 
 The result would justify a universal spreading profile for nonlinear infiltration and anomalous diffusion, independent of the detailed initial source shape.
 
@@ -27,5 +27,7 @@ The result would justify a universal spreading profile for nonlinear infiltratio
 3. J. L. Vázquez, *The Porous Medium Equation: Mathematical Theory*, Oxford University Press (2007), classical fundamental solutions and large-time asymptotics. [Book](https://doi.org/10.1093/acprof:oso/9780198569039.001.0001).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Section 8 of the 2026 preprint explicitly asks whether its profiles attract general solutions. Searches on 2026-09-22 for nonlinear time-fractional Barenblatt attraction and long-time asymptotics found no matching convergence theorem. The classical case $\alpha=1$, linear case $m=1$, bounded-domain decay, and asymptotics of the profile itself are different results. The $L^1$ conclusion avoids imposing uniform convergence to a profile that can be spatially singular in higher dimensions.

@@ -2,6 +2,10 @@
 
 **Area:** Nonlinear elasticity and variational approximation
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\Omega,\Delta\subset\mathbb R^2$ be bounded domains, $1\le p<\infty$, $a>0$, and $f:\Omega\to\Delta$ an orientation-preserving Sobolev homeomorphism with $J_f=\det Df>0$ almost everywhere and
@@ -12,9 +16,9 @@ $$
 
 Must there exist orientation-preserving smooth diffeomorphisms $f_j:\Omega\to\Delta$ with $f_j\to f$ strongly in $W^{1,p}(\Omega)$ and $E(f_j)\to E(f)$? The question is quantified over all these choices.
 
-## Applied significance
+## Application
 
-The determinant penalty models the energetic cost of compressing material into vanishing volume. Sobolev convergence alone does not control this penalty.
+The determinant penalty models the energetic cost of compressing material into vanishing volume. The question asks whether smooth approximations of an elastic deformation can preserve that cost as well as the deformation gradient, so that replacing a rough deformation by a smooth one does not introduce an energy discrepancy.
 
 ## References
 
@@ -26,8 +30,6 @@ The determinant penalty models the energetic cost of compressing material into v
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 source poses energy approximation even in two dimensions. Searches for “Ball Evans more general functionals determinant energy approximation” and “incompressible diffeomorphisms approximation 2026” found related constrained recovery constructions but no theorem for this full injective energy class. This is a constitutive-energy question; the unweighted planar Ball–Evans theorem does not settle it.

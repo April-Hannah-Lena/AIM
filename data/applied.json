@@ -4,7 +4,7 @@
     "title": "Global regularity of the three-dimensional Navier–Stokes equations",
     "area": "Fluid dynamics",
     "file": "problems/076-navier-stokes-global-regularity.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Global regularity for supercritical dissipative surface quasi-geostrophic flow",
     "area": "Geophysical fluid dynamics",
     "file": "problems/078-supercritical-sqg.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Large-data global classical solutions of relativistic Vlasov–Maxwell",
     "area": "Kinetic theory and plasma physics",
     "file": "problems/079-vlasov-maxwell-global-classical.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Large-data global smoothness for the spatially inhomogeneous Boltzmann equation",
     "area": "Kinetic theory",
     "file": "problems/080-inhomogeneous-boltzmann-regularity.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -36,7 +36,7 @@
     "title": "The no-slip inviscid limit in two dimensions",
     "area": "Fluid dynamics and boundary layers",
     "file": "problems/081-no-slip-inviscid-limit.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -44,7 +44,7 @@
     "title": "Bressan's logarithmic lower bound on the cost of mixing",
     "area": "Transport and mixing",
     "file": "problems/082-bressan-mixing-cost.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -52,7 +52,7 @@
     "title": "Global smoothness for the real scalar defocusing septic wave equation",
     "area": "Nonlinear waves",
     "file": "problems/083-scalar-supercritical-wave.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -60,7 +60,7 @@
     "title": "Soliton resolution for bounded nonradial energy-critical waves",
     "area": "Nonlinear waves",
     "file": "problems/084-nonradial-soliton-resolution.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -68,7 +68,7 @@
     "title": "Global regularity of two-dimensional ideal incompressible MHD",
     "area": "Magnetohydrodynamics",
     "file": "problems/085-ideal-mhd-two-dimensions.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -76,7 +76,7 @@
     "title": "Large-data global regularity for creeping-flow Oldroyd–B without stress diffusion",
     "area": "Viscoelasticity",
     "file": "problems/086-non-diffusive-oldroyd-b.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -84,7 +84,7 @@
     "title": "Preservation of strict positivity for the cubic thin-film equation",
     "area": "Thin films and lubrication",
     "file": "problems/087-thin-film-positivity.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -92,7 +92,7 @@
     "title": "Smooth unforced inviscid Boussinesq evolution on the whole plane",
     "area": "Geophysical fluid dynamics",
     "file": "problems/088-inviscid-boussinesq-plane.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -100,7 +100,7 @@
     "title": "The bulk ground-state energy of the planar Lennard–Jones system",
     "area": "Atomistic materials",
     "file": "problems/089-lennard-jones-planar-crystallization.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -108,7 +108,7 @@
     "title": "The three-dimensional lattice-periodic Kelvin problem",
     "area": "Foams and geometric optimization",
     "file": "problems/090-kelvin-lattice-foam.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -116,7 +116,7 @@
     "title": "The optimal three-dimensional quadratic quantization constant",
     "area": "Quantization and mesh generation",
     "file": "problems/091-bcc-quantization.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -124,7 +124,7 @@
     "title": "The symmetric Mahler inequality in four dimensions",
     "area": "Convex geometry and optimization",
     "file": "problems/092-mahler-symmetric-four-dimensions.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -132,7 +132,7 @@
     "title": "Gaussian-energy optimality of the triangular lattice among periodic configurations",
     "area": "Crystallization and energy minimization",
     "file": "problems/093-triangular-universal-optimality.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
@@ -140,7 +140,7 @@
     "title": "Absence of an infinite cluster at criticality in three-dimensional percolation",
     "area": "Random media",
     "file": "problems/094-critical-percolation-three-dimensions.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -148,7 +148,7 @@
     "title": "The planar Mumford–Shah regularity conjecture",
     "area": "Image segmentation and fracture",
     "file": "problems/095-mumford-shah-planar-cracks.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -156,7 +156,7 @@
     "title": "One-dimensionality of monotone Allen–Cahn fronts in dimension five",
     "area": "Phase transitions",
     "file": "problems/096-de-giorgi-dimension-five.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -164,7 +164,7 @@
     "title": "Cardy's crossing formula for square-lattice bond percolation",
     "area": "Random media and conformal invariance",
     "file": "problems/097-square-bond-cardy-formula.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -172,7 +172,7 @@
     "title": "The planar self-avoiding-walk displacement exponent",
     "area": "Polymer models",
     "file": "problems/098-planar-self-avoiding-walk-exponent.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -180,7 +180,7 @@
     "title": "The dimension-free Kannan–Lovász–Simonovits inequality",
     "area": "High-dimensional probability and sampling",
     "file": "problems/099-kls-poincare.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -188,7 +188,7 @@
     "title": "A strongly polynomial pivot rule for the simplex method",
     "area": "Numerical optimization",
     "file": "problems/100-strongly-polynomial-simplex.md",
-    "status": "Open in cited literature; no later resolution located",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -196,7 +196,7 @@
     "title": "The Unique Games Conjecture",
     "area": "Constraint satisfaction and approximation algorithms",
     "file": "problems/304-unique-games.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -204,7 +204,7 @@
     "title": "Classical hardness of learning parity with noise",
     "area": "Statistical learning and average-case computational complexity",
     "file": "problems/317-learning-parity-noise.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -212,7 +212,7 @@
     "title": "Linear-size sample compression for binary concept classes",
     "area": "Statistical learning and combinatorial dimension",
     "file": "problems/318-linear-sample-compression.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -220,7 +220,7 @@
     "title": "Polynomial bounds for the graph diameter of polytopes",
     "area": "Convex geometry and linear optimization",
     "file": "problems/322-polynomial-hirsch.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -228,7 +228,7 @@
     "title": "Orthogonal separation of independent Gaussian polynomial statistics",
     "area": "Probability and mathematical statistics",
     "file": "problems/328-gaussian-polynomial-unlinking.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -236,7 +236,7 @@
     "title": "Polynomial-time DNF learning from uniform random examples",
     "area": "Statistical learning, Boolean rules and computational complexity",
     "file": "problems/337-classical-uniform-dnf-learning.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
@@ -244,7 +244,7 @@
     "title": "Simes error control for two-sided Gaussian tests",
     "area": "Multiple testing and statistical inference",
     "file": "problems/340-two-sided-gaussian-simes.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
@@ -252,7 +252,7 @@
     "title": "The factor-two relation between triangle deletion and packing",
     "area": "Combinatorial optimization and network modification",
     "file": "problems/346-tuza-triangle-packing-covering.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
@@ -260,7 +260,7 @@
     "title": "Reed's bound for the chromatic number",
     "area": "Combinatorial optimization and conflict scheduling",
     "file": "problems/348-reed-colouring.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
@@ -268,7 +268,7 @@
     "title": "Private PAC learning with polynomial VC and iterated-logarithm sample cost",
     "area": "Statistical learning, data privacy and sample complexity",
     "file": "problems/354-private-pac-vc-logstar.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-19"
   },
   {
@@ -276,7 +276,7 @@
     "title": "The sharp support–concentration bound for subset sums",
     "area": "Combinatorial probability, information theory and packing algorithms",
     "file": "problems/356-subset-sum-support-concentration.md",
-    "status": "Open in cited literature; no later resolution located as of 2026-09-19.",
+    "status": "Open",
     "last_checked": "2026-09-19"
   },
   {
@@ -284,7 +284,7 @@
     "title": "Polynomial-time proper learning of univariate Gaussian mixtures",
     "area": "Statistical density estimation and unsupervised learning",
     "file": "problems/358-univariate-gaussian-mixture-proper-learning.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-19"
   },
   {
@@ -292,7 +292,7 @@
     "title": "Continuous gradients for three-dimensional infinity-harmonic functions",
     "area": "Degenerate elliptic PDEs and supremal variational problems",
     "file": "problems/431-infinity-harmonic-c1-three-dimensions.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -300,7 +300,7 @@
     "title": "Sharp gradient regularity for higher-dimensional p-Poisson equations",
     "area": "Nonlinear elliptic PDEs and nonlinear diffusion",
     "file": "problems/432-sharp-p-poisson-gradient-regularity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -308,7 +308,7 @@
     "title": "Strong comparison for ordered p-harmonic fields",
     "area": "Nonlinear elliptic PDEs and comparison principles",
     "file": "problems/439-p-harmonic-strong-comparison.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -316,7 +316,7 @@
     "title": "A nonlinear Weyl lemma at the minimal p-harmonic integrability threshold",
     "area": "Degenerate elliptic PDEs and nonlinear potential theory",
     "file": "problems/446-very-weak-p-harmonic-energy-regularity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -324,7 +324,7 @@
     "title": "Second-order Sobolev regularity of p-harmonic functions beyond the Cordes range",
     "area": "Degenerate elliptic PDE regularity",
     "file": "problems/447-p-harmonic-second-sobolev-derivatives.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -332,7 +332,7 @@
     "title": "Bounded variation of gradients in the Rudin–Osher–Fatemi denoising model",
     "area": "Variational elliptic PDEs and image denoising",
     "file": "problems/450-rof-gradient-bounded-variation.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -340,7 +340,7 @@
     "title": "Regular MEMS extremal states without an asymptotic curvature condition",
     "area": "Semilinear elliptic PDEs and electrostatic microdevices",
     "file": "problems/451-mems-extremal-without-crandall-rabinowitz.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -348,7 +348,7 @@
     "title": "Interior bounds for stable elliptic states with sign-changing reaction laws",
     "area": "Semilinear elliptic PDEs and reaction equilibria",
     "file": "problems/452-stable-semilinear-sign-changing-interior-bound.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -356,7 +356,7 @@
     "title": "A single blow-up point for singular extremal states on convex domains",
     "area": "Semilinear elliptic PDEs and thermal ignition",
     "file": "problems/453-convex-domain-extremal-single-singularity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -364,7 +364,7 @@
     "title": "Optimal dimension for bounded subquadratic p-Laplace extremal states",
     "area": "Singular quasilinear elliptic PDEs",
     "file": "problems/457-subquadratic-p-laplace-extremal-critical-dimension.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -372,7 +372,7 @@
     "title": "A mixed Sobolev estimate for reconstructing a scalar potential",
     "area": "Elliptic potential reconstruction and critical function spaces",
     "file": "problems/464-bourgain-brezis-mixed-sobolev-gradient-estimate.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   }
 ]

@@ -2,6 +2,10 @@
 
 **Area:** Viscous flow around bodies
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $D\subset\mathbb R^2$ be a bounded simply connected domain with smooth boundary, and $\Omega=\mathbb R^2\setminus\overline D$. For every viscosity $\nu>0$ and every constant $U\in\mathbb R^2\setminus\{0\}$, does there exist a smooth solution $(u,p)$ on $\Omega$, continuous up to the boundary, satisfying
@@ -16,7 +20,7 @@ $$
 
 The far-field convergence is uniform, and no smallness condition on $|U|/\nu$ is permitted.
 
-## Applied significance
+## Application
 
 This is the basic existence question for a stationary viscous flow past a two-dimensional body with prescribed incoming velocity.
 
@@ -28,8 +32,6 @@ This is the basic existence question for a stationary viscous flow past a two-di
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searches for “stationary Navier Stokes exterior two dimensional arbitrary velocity infinity existence open 2026”, “Leray plane arbitrary Reynolds prescribed velocity infinity”, and “Korobkov Ren 2026 infinity” located small-data far-field results and later estimates. Nontriviality and convergence to some constant do not identify that constant with prescribed $U$. No arbitrary-Reynolds existence theorem satisfying all conditions above was located.

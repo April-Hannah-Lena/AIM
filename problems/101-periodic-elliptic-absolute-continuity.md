@@ -2,6 +2,10 @@
 
 **Area:** Periodic media and spectral theory
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For every $d\ge3$, let $A=(a_{ij})$ be a real symmetric $C^\infty$, $\mathbb Z^d$-periodic matrix field with $cI\le A(x)\le CI$ for some $0<c\le C<\infty$, and let $V$ be real, smooth and periodic. Let $H$ be the self-adjoint operator on $L^2(\mathbb R^d)$ associated with the quadratic form
@@ -10,7 +14,7 @@ $$q[u]=\int_{\mathbb R^d}\big(\nabla\bar u\cdot A\nabla u+V|u|^2\big)\,dx,\qquad
 
 Prove or disprove that every spectral measure of $H$ is absolutely continuous with respect to Lebesgue measure. No reflection symmetry or product structure is assumed.
 
-## Applied significance
+## Application
 
 For waves in a perfectly periodic medium, this asks whether spatially varying material coefficients can support a localized eigenmode despite the absence of a defect.
 
@@ -22,9 +26,11 @@ For waves in a perfectly periodic medium, this asks whether spatially varying ma
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** Absolute continuity is established for the periodic Schrödinger case with the principal coefficient matrix equal to the identity.
 
-**Last checked:** 2026-09-08.
+**Remaining target:** Absolute continuity for arbitrary smooth uniformly elliptic periodic principal coefficients.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The survey distinguishes the general variable-principal-coefficient problem from the established periodic Schrödinger case $A=I$. The transversal-geometry result imposes additional geometric structure. The 2026 book was checked as a current source map; the targeted search did not identify removal of all such structural assumptions.
 

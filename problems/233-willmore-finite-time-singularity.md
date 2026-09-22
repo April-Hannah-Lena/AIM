@@ -2,7 +2,7 @@
 
 **Area:** Membrane bending and geometric evolution
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -14,7 +14,7 @@ Precisely, for the induced metric $g$, second fundamental form $A$, mean curvatu
 $$\partial_t f\cdot\nu=-\big(\Delta_gH+H|A^\circ|^2\big),\qquad f(0)=f_0,$$
 with compatible curvature and normal conventions, and arbitrary tangential reparametrization. Seek an evolution that cannot be smoothly extended past a finite $T$, equivalently with curvature becoming unbounded as $t\uparrow T$. There are no area, volume or spontaneous-curvature terms in this flow.
 
-## Applied significance
+## Application
 
 Willmore energy models bending of thin membranes. A finite-time singularity would identify a failure of smooth bending relaxation even without external loading or area penalties.
 
@@ -25,5 +25,7 @@ Willmore energy models bending of thin membranes. A finite-time singularity woul
 - Pak Tung Ho and Juncheol Pyo, [*Solitons to the Willmore flow*](https://doi.org/10.1515/ans-2023-0150) (2024 online), introduction: later discussion of the finite-time question and special solutions.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “unconstrained Willmore flow finite time singularity proof 2025 2026”, “Blatt singular example finite infinite time”, and “Willmore soliton singularity”. Located results for constrained Willmore or Helfrich flows include additional terms. Blatt’s result allows infinite-time degeneration and therefore does not answer the finite-lifetime question.

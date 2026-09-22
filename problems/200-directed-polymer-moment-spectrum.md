@@ -2,7 +2,7 @@
 
 **Area:** Polymers in random media
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -13,9 +13,9 @@ $$W_N^\beta=E_S\exp\!\left(\sum_{n=1}^N(\beta\omega_{n,S_n}-\beta^2/2)\right),\q
 p^*(\beta)=\sup\{p\ge1:\sup_N\mathbb E_\omega[(W_N^\beta)^p]<\infty\}.$$
 Write $W_\infty^\beta$ for the nonnegative martingale limit and define $\beta_c=\sup\{\beta:P(W_\infty^\beta>0)=1\}$. Is $\beta\mapsto p^*(\beta)$ a continuous strictly decreasing bijection from $(0,\beta_c]$ onto $[5/3,\infty)$? Continuity at $\beta_c$ means continuity from the left.
 
-## Applied significance
+## Application
 
-The moment spectrum measures intermittency of partition functions and separates fluctuation regimes as environmental disorder increases.
+In a polymer model with random environmental energies, partition-function moments measure how strongly rare environments dominate fluctuations. The conjectured spectrum would identify which moments remain uniformly controlled as the polymer grows, including the disorder range in which variance stays bounded; this helps distinguish regimes of statistical stability in the model.
 
 ## References
 
@@ -23,6 +23,8 @@ The moment spectrum measures intermittency of partition functions and separates 
 - [Stefan Junk, *Local limit theorem for directed polymers beyond the L2-phase* (2023 preprint, revised 2025)](https://arxiv.org/abs/2307.05097), finite-support and moment-threshold progress discussed in the notes.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2026 notes explicitly conjecture the full moment-spectrum statement. Results excluding constant intervals under a finite-support disorder assumption do not apply to Gaussian disorder. Fixing dimension three and the Gaussian law avoids treating different parameter instances as separate entries.
 

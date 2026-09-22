@@ -2,7 +2,7 @@
 
 **Area:** Catalytic surface reactions
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -13,7 +13,7 @@ Consider states $0$ (vacant), $1$ (CO) and $2$ (oxygen) on $\mathbb Z^2$. A vaca
 Let the initial site states be independent and identically distributed with $P(\eta_0(0)=1)>0$. For every such initial law and every choice of the parameters above, is it true that, for every finite $K\subset\mathbb Z^2$,
 $$\lim_{t\to\infty}P(\eta_t(x)=1\text{ for all }x\in K)=1?$$
 
-## Applied significance
+## Application
 
 A surface poisoned by CO can no longer oxidize the pollutant. The statement asks whether sufficiently large CO input selects this absorbing phase from every independent initial mixture with positive CO density.
 
@@ -23,6 +23,8 @@ A surface poisoned by CO can no longer oxidize the pollutant. The statement asks
 - [Rick Durrett and Glen Swindle, *Coexistence results for catalysts* (1994)](https://doi.org/10.1007/BF01192836), model and poisoning estimates.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The book proves clustering into the two poisoned states under translation-invariant initial laws, but leaves selection of the CO state open. This entry takes independent positive-CO-density initial laws and positive finite stirring, within the setting of the original conjecture. Strict $p>q$ avoids the borderline parameter. Reaction rate $r$ is finite; results for monatomic arrivals or instantaneous reactions address different models.
 

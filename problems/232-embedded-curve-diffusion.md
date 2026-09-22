@@ -2,7 +2,7 @@
 
 **Area:** Surface diffusion and geometric evolution
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -14,7 +14,7 @@ where $s$ is arclength, $\nu$ is a chosen unit normal and $\kappa$ is the signed
 
 If $\gamma(\cdot,t)$ is an embedding for every $0\leq t<T$, must $T=\infty$? Equivalently, must every finite-time singular evolution have lost embeddedness at a strictly earlier regular time?
 
-## Applied significance
+## Application
 
 Curve diffusion models interface relaxation driven by surface transport. The conjecture asks whether singular behavior can occur while the interface remains a simple closed curve.
 
@@ -24,5 +24,7 @@ Curve diffusion models interface relaxation driven by surface transport. The con
 - Glen Wheeler, [*On the curve diffusion flow of closed plane curves*](https://arxiv.org/abs/1201.3735) (2012 preprint; 2013 publication), abstract and global-existence theorem: stability near circles and the failure of preservation of embeddedness in general.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “Giga conjecture curve diffusion proof 2025 2026” and “embedded curve diffusion finite time singularity”. The cited global-convergence result assumes global existence; it does not prove it from embeddedness. An initially embedded curve can develop a self-intersection, so the hypothesis deliberately concerns every regular time.

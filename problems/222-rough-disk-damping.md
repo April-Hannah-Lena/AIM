@@ -2,6 +2,10 @@
 
 **Area:** Wave propagation / damping
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 On the flat torus $\mathbb T^2=\mathbb R^2/(2\pi\mathbb Z)^2$, let $D=\{(x,y):x^2+y^2<1\}$ in the fundamental square $[-\pi,\pi)^2$, and let $W=\mathbf1_D$. For real $\lambda\ne0$, set
@@ -18,7 +22,7 @@ $$
 $$
 The inverse is for the periodic problem; the circle is an interface in the damping coefficient, not a boundary condition.
 
-## Applied significance
+## Application
 
 This is a model of a vibrating periodic medium with an abruptly bounded damping patch. The conjectured resolvent scale corresponds to the sharp uniform rate $E(t)^{1/2}\lesssim t^{-5/7}$ for the damped wave equation with one additional derivative of initial regularity.
 
@@ -29,9 +33,7 @@ This is a model of a vibrating periodic medium with an abruptly bounded damping 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The CIRM question explicitly concerns the discontinuous disk indicator. The June 2026 theorem assumes polynomial vanishing with exponent at least four for its lower bounds and at least nine for matching upper bounds. Thus it does not apply to $W=\mathbf1_D$, whose boundary growth exponent is zero. The lower-bound assertion here is expressed directly in resolvent norm to avoid relying on a quasimode notational ambiguity in the problem sheet.
 

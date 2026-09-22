@@ -2,7 +2,7 @@
 
 **Area:** Random walks and network potential theory
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -16,7 +16,7 @@ is constant. Must the $S$-walk be Liouville if and only if the $T$-walk is Liouv
 
 Both walks use uniform probabilities on symmetric generating sets. Arbitrary changes to the graph, directed steps, or unbounded jump distributions are outside this statement.
 
-## Applied significance
+## Application
 
 Bounded harmonic functions describe bounded equilibrium potentials for discrete diffusion. The question tests whether the existence of nonconstant equilibria, and the long-term information retained by a homogeneous network walk, depends on its microscopic choice of allowed moves.
 
@@ -27,6 +27,8 @@ Bounded harmonic functions describe bounded equilibrium potentials for discrete 
 - [Nicolás Matte Bon, Volodymyr Nekrashevych and Tianyi Zheng, *Liouville property for groups and conformal dimension* (2023 preprint, revised February 2025)](https://arxiv.org/abs/2305.14545), Theorem 1.1. Establishes the Liouville property throughout a restricted class of contracting self-similar groups and walk measures.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The updated book explicitly retains invariance under changing generators as a question. Counterexamples on nontransitive networks do not provide two Cayley graphs of one group as required here. The 2025 theorem covers groups satisfying contraction and conformal-dimension hypotheses; it does not settle arbitrary finitely generated groups.
 

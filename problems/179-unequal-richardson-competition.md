@@ -2,7 +2,7 @@
 
 **Area:** Competing infections and stochastic growth
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ Consider a continuous-time process on $\mathbb Z^2$ with states $0,1,2$. Initial
 $$\mathbb P(|C_1|=\infty,\ |C_2|=\infty)=0?$$
 This asks about every unequal pair of rates, not almost every ratio.
 
-## Applied significance
+## Application
 
 This gives a precise version of competitive exclusion when two irreversible infections compete for unoccupied space.
 
@@ -22,6 +22,12 @@ This gives a precise version of competitive exclusion when two irreversible infe
 - [Daniel Ahlberg, Maria Deijfen and Christopher Hoffman, *The two-type Richardson model in the half-plane* (2020)](https://arxiv.org/abs/1808.10796), a restricted-domain resolution.
 
 ## Status review
+
+**Known cases:** The classical full-plane argument excludes coexistence outside a possible countable exceptional set of rate ratios.
+
+**Remaining target:** Exclusion of coexistence for every unequal pair of infection rates, including any exceptional ratios.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The classical argument excludes coexistence outside a possible countable exceptional set of rate ratios. The later half-plane theorem assumes seeds on its boundary. Neither treats all rate ratios for two finite seeds in the full plane; targeted later searches found no such resolution.
 

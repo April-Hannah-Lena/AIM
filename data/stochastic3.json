@@ -4,7 +4,7 @@
     "title": "Does stronger ferromagnetic coupling always slow Ising relaxation?",
     "area": "Statistical mechanics and Monte Carlo sampling",
     "file": "problems/276-ising-gap-monotonicity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-13"
   },
   {
@@ -12,7 +12,7 @@
     "title": "A constant comparison between systematic and random Ising updates",
     "area": "Monte Carlo simulation and update scheduling",
     "file": "problems/277-ising-systematic-scan.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Abrupt equilibration on every family of transitive expanders",
     "area": "Transport and sampling on homogeneous networks",
     "file": "problems/278-transitive-expander-cutoff.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Rapid sampling of proper colorings at the ergodicity threshold",
     "area": "Antiferromagnetic spin systems and constrained sampling",
     "file": "problems/279-coloring-glauber-threshold.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Does exclusion equilibrate as fast as independent particles?",
     "area": "Interacting particle transport",
     "file": "problems/280-exclusion-independent-mixing.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -44,7 +44,7 @@
     "title": "A diameter bound for diffusion to uniform equilibrium",
     "area": "Diffusion on symmetric networks",
     "file": "problems/281-transitive-mixing-diameter.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -52,7 +52,7 @@
     "title": "Positive recurrence of every weakly reversible stochastic reaction network",
     "area": "Stochastic chemical kinetics",
     "file": "problems/282-reaction-network-positive-recurrence.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -60,7 +60,7 @@
     "title": "No asymptotic extinction in bounded weakly reversible mass-action kinetics",
     "area": "Deterministic chemical reaction networks",
     "file": "problems/283-reaction-network-persistence.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -68,7 +68,7 @@
     "title": "Gaussian fluctuations of the optimal Euclidean traveling-salesman tour",
     "area": "Spatial logistics and random optimization",
     "file": "problems/284-euclidean-tsp-clt.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -76,7 +76,7 @@
     "title": "The four-thirds integrality gap for metric routing",
     "area": "Operations research and routing",
     "file": "problems/285-metric-tsp-four-thirds.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -84,7 +84,7 @@
     "title": "Optimal deterministic competitiveness for mobile servers",
     "area": "Online service and resource allocation",
     "file": "problems/286-deterministic-k-server.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -92,7 +92,7 @@
     "title": "The sharp savings from junctions in planar connection networks",
     "area": "Geometric network design",
     "file": "problems/287-planar-steiner-ratio.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -100,7 +100,7 @@
     "title": "The exact asymptotic match fraction for independent binary sequences",
     "area": "Sequence comparison and computational biology",
     "file": "problems/288-binary-lcs-constant.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -108,7 +108,7 @@
     "title": "Beat factor two for scheduling on unrelated machines",
     "area": "Scheduling and production planning",
     "file": "problems/289-unrelated-machine-makespan.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -116,7 +116,7 @@
     "title": "A constant approximation for general max-min fair allocation",
     "area": "Fair allocation of indivisible resources",
     "file": "problems/290-general-santa-claus.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -124,7 +124,7 @@
     "title": "Localization of light rays in the planar random mirror model",
     "area": "Transport in random optical media",
     "file": "problems/291-planar-lorentz-mirrors.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -132,7 +132,7 @@
     "title": "Existence of a planar sandpile avalanche-size exponent",
     "area": "Avalanches and self-organized criticality",
     "file": "problems/292-planar-sandpile-size-exponent.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -140,7 +140,7 @@
     "title": "Spatial coexistence despite extinction in the mean-field game",
     "area": "Spatial ecology and evolutionary games",
     "file": "problems/293-spatial-hawk-dove-coexistence.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -148,7 +148,7 @@
     "title": "Consensus in the one-dimensional Axelrod model above the feature threshold",
     "area": "Cultural transmission and interacting populations",
     "file": "problems/294-axelrod-multifeature-clustering.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -156,7 +156,7 @@
     "title": "A periodic high-density limit for bounded-confidence opinion clusters",
     "area": "Opinion dynamics and distributed agreement",
     "file": "problems/295-hegselmann-krause-cluster-lattice.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -164,7 +164,7 @@
     "title": "Does local stability imply global attraction for Nicholson’s blowflies equation?",
     "area": "Population dynamics with maturation delay",
     "file": "problems/296-nicholson-local-global-stability.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -172,7 +172,7 @@
     "title": "Is the variance of fair binary sequence alignment linear?",
     "area": "Uncertainty in sequence similarity",
     "file": "problems/297-binary-lcs-linear-variance.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -180,7 +180,7 @@
     "title": "Tracy–Widom fluctuations for a Gaussian lattice polymer at fixed temperature",
     "area": "Random media and fluctuating interfaces",
     "file": "problems/298-gaussian-polymer-tracy-widom.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -188,7 +188,7 @@
     "title": "Polynomial equilibration at the four-state planar Potts critical point",
     "area": "Critical dynamics and statistical simulation",
     "file": "problems/299-critical-four-state-potts-mixing.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -196,7 +196,7 @@
     "title": "Does every strict initial majority win zero-temperature Ising dynamics?",
     "area": "Coarsening and phase selection",
     "file": "problems/300-majority-ising-fixation.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -204,7 +204,7 @@
     "title": "Balanced Gaussian simplex noise stability for four or more classes",
     "area": "Gaussian geometry and noise robustness",
     "file": "problems/305-gaussian-simplex.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -212,7 +212,7 @@
     "title": "Exact complexity of unit-job precedence scheduling on three processors",
     "area": "Scheduling and operations research",
     "file": "problems/312-three-processor-unit-scheduling.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -220,7 +220,7 @@
     "title": "The factor-two integrality gap for asymmetric metric routing",
     "area": "Operations research and directed routing",
     "file": "problems/323-asymmetric-tsp-integrality-gap.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -228,7 +228,7 @@
     "title": "Complete EFX allocation of indivisible goods with additive values",
     "area": "Fair division and resource allocation",
     "file": "problems/324-efx-additive-goods.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-17"
   },
   {
@@ -236,7 +236,7 @@
     "title": "Optimal asymptotic competitiveness for online bin packing",
     "area": "Online optimization and resource allocation",
     "file": "problems/326-online-bin-packing-optimal-ratio.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -244,7 +244,7 @@
     "title": "Optimal symmetric rendezvous among discrete locations",
     "area": "Decentralized coordination and search theory",
     "file": "problems/331-symmetric-rendezvous-discrete-locations.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
@@ -252,7 +252,7 @@
     "title": "Strong thin-tree conjecture",
     "area": "Network design and combinatorial optimization",
     "file": "problems/334-strong-thin-tree.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
@@ -260,7 +260,7 @@
     "title": "The sharp matroid secretary conjecture",
     "area": "Online selection and resource allocation",
     "file": "problems/341-sharp-matroid-secretary.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
@@ -268,7 +268,7 @@
     "title": "List edge-colouring with no extra colours",
     "area": "Scheduling, resource allocation and graph colouring",
     "file": "problems/344-list-edge-colouring.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-18"
   },
   {
@@ -276,7 +276,7 @@
     "title": "Competitive exclusion in a chemostat with unequal removal rates",
     "area": "Mathematical biology and microbial competition",
     "file": "problems/345-chemostat-unequal-removal-exclusion.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
@@ -284,7 +284,7 @@
     "title": "Polynomial-factor hardness of scheduling unit jobs on prescribed machines",
     "area": "Scheduling and approximation complexity",
     "file": "problems/350-unit-job-unique-machine-hardness.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
@@ -292,7 +292,7 @@
     "title": "The modified integer round-up conjecture for cutting stock",
     "area": "Stochastic dynamics, reaction networks and applied optimization",
     "file": "problems/352-modified-integer-round-up.md",
-    "status": "Open in cited literature; no later resolution located as of 2026-09-19.",
+    "status": "Open",
     "last_checked": "2026-09-19"
   },
   {
@@ -300,7 +300,7 @@
     "title": "Bourgain–Spencer accuracy for random elliptic media at finite contrast",
     "area": "Stochastic homogenization; diffusion in heterogeneous media",
     "file": "problems/467-bourgain-spencer-nonperturbative-homogenization.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -308,7 +308,7 @@
     "title": "Hölder continuity for parabolic SPDEs with merely bounded transport noise",
     "area": "Stochastic parabolic PDEs; passive scalar transport",
     "file": "problems/468-rough-transport-spde-holder.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -316,7 +316,7 @@
     "title": "A deterministic Hölder exponent for smooth-transport parabolic SPDEs",
     "area": "Stochastic parabolic PDEs; quantitative regularity",
     "file": "problems/469-smooth-transport-spde-deterministic-holder-exponent.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -324,7 +324,7 @@
     "title": "Global quadratic reaction–diffusion systems with general transport noise",
     "area": "Stochastic PDEs; chemical and population kinetics",
     "file": "problems/470-quadratic-mass-controlled-rd-transport-noise.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -332,7 +332,7 @@
     "title": "Transport-noise Navier–Stokes at critical smoothness minus one half",
     "area": "Stochastic fluid PDEs; rough initial velocity",
     "file": "problems/471-stochastic-navier-stokes-negative-half-critical-data.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -340,7 +340,7 @@
     "title": "Local no-slip Navier–Stokes theory under non-small transport noise",
     "area": "Stochastic fluid PDEs; solid boundaries",
     "file": "problems/472-stochastic-navier-stokes-no-slip-local.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -348,7 +348,7 @@
     "title": "A bounded critical norm continuation criterion for stochastic Navier–Stokes",
     "area": "Stochastic fluid PDEs; regularity criteria",
     "file": "problems/492-stochastic-navier-stokes-bounded-critical-norm.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -356,7 +356,7 @@
     "title": "Global regularity for critical SQG with state-dependent noise",
     "area": "Stochastic PDEs; geophysical fluid dynamics",
     "file": "problems/493-critical-stochastic-sqg-global-regularity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   }
 ]

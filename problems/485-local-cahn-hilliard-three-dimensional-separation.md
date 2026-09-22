@@ -2,7 +2,7 @@
 
 **Area:** Phase-field PDEs; binary mixtures
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -20,7 +20,7 @@ For every $\tau>0$, must there exist $\delta=\delta(\tau,u_0,\Omega,\theta,\thet
 $$\mathop{\rm ess\,sup}_{(x,t)\in\Omega\times[\tau,\infty)}|u(x,t)|\le1-\delta?$$
 There is no initial separation or small-energy assumption. The Laplacian in the chemical potential is local and the mobility is constant.
 
-## Applied significance
+## Application
 
 The separation bound prevents a binary-mixture order parameter from approaching a pure phase where its logarithmic chemical potential becomes singular.
 
@@ -31,5 +31,7 @@ The separation bound prevents a binary-mixture order parameter from approaching 
 3. A. Poiatti, *The 3D strict separation property for the nonlocal Cahn–Hilliard equation with singular potential*, Analysis & PDE **18** (2025), 109–139. [Article](https://doi.org/10.2140/apde.2025.18.109).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The first two sources distinguish this open local three-dimensional problem from proved separation in two dimensions, at sufficiently late times, or near an energy minimizer. The third source resolves the nonlocal equation, whose chemical potential has an integral interaction operator instead of $-\Delta u$. Searches on 2026-09-22 for local three-dimensional logarithmic Cahn–Hilliard instantaneous separation found no matching theorem. Numerical separation, stronger singular potentials, and eventual separation do not settle the stated quantifier “every $\tau>0$.”

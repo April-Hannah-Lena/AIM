@@ -2,7 +2,7 @@
 
 **Area:** Stochastic homogenization; diffusion in heterogeneous media
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -17,7 +17,7 @@ where $A^k_{j_1\cdots j_{k-1}}$ is a $d\times d$ matrix and repeated indices are
 $$\|\mathbb E\nabla u_\varepsilon-\nabla U_\varepsilon\|_{L^2(\mathbb R^d)}\le C_{f,\eta}\varepsilon^{2d-\eta}\qquad(0<\varepsilon\le1)$$
 valid for every $f$ and $0<\eta<1$? There is no small-contrast assumption on $a$. Constants may depend on its law and ellipticity.
 
-## Applied significance
+## Application
 
 A high-order deterministic equation for ensemble averages would improve predictions of effective transport beyond the accuracy available for individual random samples.
 
@@ -27,5 +27,7 @@ A high-order deterministic equation for ensemble averages would improve predicti
 2. M. Duerinckx, M. Lemm and F. Pagano, *On Bourgain's approach to stochastic homogenization*, Arch. Ration. Mech. Anal. **249**, 81 (2025), §2.3 and Remark 2.3. [Author manuscript](https://arxiv.org/abs/2406.09909).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The statement specializes Conjecture 1 to smooth finite-range Gaussian-generated coefficients and spells out its higher-order proxy, avoiding an ill-posed truncated high-order PDE. The 2025 paper still requires small contrast and explicitly leaves the non-perturbative improvement open. Searches on 2026-09-22 for Bourgain–Spencer, non-perturbative ensemble averages, proofs and counterexamples, including the authors' publication lists, found no full finite-contrast resolution. The $d-\eta$ non-perturbative accuracy and contrast-dependent $2d-\delta K-\eta$ results do not give the assertion above.

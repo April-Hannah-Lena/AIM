@@ -2,6 +2,10 @@
 
 **Area:** Nonlinear wave control / vibration suppression
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^3$ be bounded and smooth, and let $\omega\subset\Omega$ be open. Assume the geometric control condition: for some $T_0<\infty$, every unit-speed generalized ray of the Dirichlet wave equation meets $\omega$ within time $T_0$.
@@ -14,7 +18,7 @@ $$
 
 using $f\in L^2(\omega\times(0,T_*))$? Energy class means $(u,u_t)\in C([0,T_*];H_0^1\times L^2)$. The time may depend on the geometry but must be independent of the sizes of both endpoint states.
 
-## Applied significance
+## Application
 
 The question separates a geometric transport time from a potentially amplitude-dependent time needed to control a strongly nonlinear vibration.
 
@@ -26,8 +30,6 @@ The question separates a geometric transport time from a potentially amplitude-d
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2009 Dehman–Lebeau result on “uniform time” does not remove all low-frequency data dependence. The 2025 wave-map theorem concerns a different constrained equation; the 2026 observability result alone does not yield the displayed global endpoint control in a data-independent time. Searches included “uniform time global cubic wave controllability 2026”, “Dehman Lebeau Zuazua open problem”, and the Laurent–Loyola title. No full resolution was located.

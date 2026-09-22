@@ -2,7 +2,7 @@
 
 **Area:** Kinetic transport; anomalous velocity diffusion
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -16,9 +16,9 @@ where $h$ is bounded there. Must there be $\alpha>0$ and $C$, depending only on 
 $$\|f\|_{C^\alpha((1/2,1)\times B_{1/2}\times B_{1/2})}\le C(\|f\|_{L^\infty([0,1]\times B_1\times\mathbb R^d)}+\|h\|_{L^\infty((0,1]\times B_1\times B_1)})?$$
 Here $C^\alpha$ uses ordinary Euclidean distance. In particular, do not assume interchange symmetry $K(t,x,v,w)=K(t,x,v+w,-w)$ or continuity of the coefficients.
 
-## Applied significance
+## Application
 
-This is a robust regularity question for particles transported in space while undergoing velocity jumps in an irregular medium. It is also a model for the nonlocal diffusion in collisional kinetic equations.
+This models particles transported in space while undergoing velocity jumps in an irregular medium, including nonlocal diffusion in collisional kinetic equations. The estimate would bound how rapidly the particle density can vary in position, velocity and time using only its amplitude, the forcing and the stated jump-intensity bounds, without requiring smooth microscopic coefficients.
 
 ## References
 
@@ -27,5 +27,7 @@ This is a robust regularity question for particles transported in space while un
 3. F. Anceschi, G. Palatucci and M. Piccinini, [*Harnack inequalities for kinetic integral equations*](https://cvgmt.sns.it/media/doc/paper/6687/Anceschi-Palatucci-Piccinini_revised.pdf), revised paper, §2, symmetric-kernel framework.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using fractional kinetic Krylov–Safonov, merely measurable nondivergence kernels, and Conjecture 8.2. The newer Harnack work uses symmetry between the two velocity arguments, a stronger and different condition than evenness about the current velocity. The September 2026 announcement [arXiv:2609.15534](https://arxiv.org/abs/2609.15534) addresses second-order local kinetic diffusion; that does not supply the displayed jump-kernel estimate. No matching result under just the stated conditions was located.

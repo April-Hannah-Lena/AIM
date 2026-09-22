@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear hyperbolic conservation laws
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -18,7 +18,7 @@ but this bound diverges as $T'\uparrow T$. Require local $L^1$ continuity in tim
 $$\partial_t\left(\frac{u^2}{2}+\frac{v^{1-\gamma}}{\gamma-1}\right)+\partial_x(uv^{-\gamma})\leq0.$$
 Here $v$ is specific volume, $u$ is velocity, and $\operatorname{TV}$ is spatial total variation on $\mathbb R$.
 
-## Applied significance
+## Application
 
 Finite total variation controls interacting shocks and rarefactions in one-dimensional gas dynamics. Its loss would challenge continuation methods used for large-amplitude flow beyond classical shock formation.
 
@@ -29,5 +29,7 @@ Finite total variation controls interacting shocks and rarefactions in one-dimen
 - Sam G. Krupa, [*The computational ansatz for convex integration of hyperbolic systems and a resolution of the Strong Trace Conjecture*](https://arxiv.org/abs/2609.09353) (8 September 2026 preprint), abstract: new constructions for a selected pressure law and obstructions for strictly convex pressure laws.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “p-system exact entropy finite time BV blowup 2026”, “polytropic pressure large BV”, and both recent Krupa papers. The April construction fails the mechanical entropy condition. The September preprint concerns a specially selected pressure law; its abstract separately gives obstructions when the pressure has positive second derivative. Neither establishes the displayed polytropic, entropy-admissible finite-time scenario. Approximate front-tracking growth is not an exact solution.

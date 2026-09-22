@@ -6,7 +6,11 @@ A third search on **13 September 2026** added **100 entries (201–300)** from m
 
 ## What an entry means
 
-**Open in cited literature; no later resolution located** means that a scholarly source or specialist problem list identifies the relevant question as unresolved, and a targeted search did not locate a later resolution matching the stated hypotheses. It is an evidence-based catalogue status, not a mathematical certificate that a proof does not exist. Entries explain material restrictions, partial results, and conflicting or historical claims where found.
+The canonical status labels are defined in the [README legend](../README.md#problem-status), with [evidence requirements](../CONTRIBUTING.md#status-and-evidence) for changing them. Open and Partially resolved entries retain unresolved targets; all other statuses are listed separately in the [resolution archive](../RESOLVED.md).
+
+The literature note **Open in cited literature; no later resolution located** means that a scholarly source or specialist problem list identifies the relevant question as unresolved, and a targeted search did not locate a later complete resolution matching the stated hypotheses. It is an evidence-based literature assessment, not a mathematical certificate that a proof does not exist. It is compatible with a Partial label when substantive cases are known. Entries explain material restrictions, partial results, and conflicting or historical claims where found.
+
+Every canonical entry includes an **Application** section connecting its exact mathematical target to a concrete use or modelling consequence. A foundational connection may be indirect; prospective benefits are distinguished from established applications. A status-label or formatting update preserves the original literature-review date unless a new review is actually performed.
 
 The date is the date of the literature check, not the publication date of the latest source and not a claim of exhaustive coverage of everything published that day. Search indexing can lag, some full texts are inaccessible, and preprints can change. A source's crawl date was not treated as its publication date. Where only an abstract or introduction was accessible, the entry does not claim a line-by-line review of the whole paper.
 

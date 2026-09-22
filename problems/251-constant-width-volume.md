@@ -2,6 +2,10 @@
 
 **Area:** Convex geometry / geometric design
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 For a compact convex body $K\subset\mathbb R^3$ with nonempty interior, define its support function by $h_K(u)=\max_{x\in K}x\cdot u$ for $u\in S^2$. Determine the exact value of
@@ -12,7 +16,7 @@ $$
 
 and characterize all bodies attaining this value, up to rigid motion. The condition prescribes width one in every direction. The infimum is over all such convex bodies; no rotational or polyhedral symmetry is imposed.
 
-## Applied significance
+## Application
 
 Constant-width bodies can rotate between parallel supports at a fixed separation. The problem identifies the least material needed for a three-dimensional component with this contact geometry.
 
@@ -23,8 +27,6 @@ Constant-width bodies can rotate between parallel supports at a fixed separation
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2026 preprint still identifies the three-dimensional Blaschke–Lebesgue problem as open. Its lower bound does not coincide with the volume of the proposed Meissner minimizers. Hynd's density theorem supplies an approximation class, without establishing which body minimizes volume. Searches included “Blaschke Lebesgue conjecture 2026”, “Meissner minimum volume proof”, and “Hynd constant width 2025 2026”. No exact minimum or complete minimizing-shape theorem was located.

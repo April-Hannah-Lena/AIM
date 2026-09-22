@@ -2,7 +2,7 @@
 
 **Area:** Quasilinear elliptic PDEs / minimal interfaces
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -12,7 +12,7 @@ Does there exist an integer $n\ge8$ and a real polynomial $P:\mathbb R^n\to\math
 $$\big(1+|\nabla P|^2\big)\Delta P-\sum_{i,j=1}^nP_{x_i}P_{x_j}P_{x_ix_j}=0?$$
 Equivalently, the entire scalar graph $\{(x,P(x)):x\in\mathbb R^n\}$ must have zero mean curvature. The unknown is an exact polynomial solution, not a smooth solution bounded by a polynomial.
 
-## Applied significance
+## Application
 
 The minimal-surface equation governs isotropic interface equilibrium. An exact nonplanar polynomial graph would supply an explicit equilibrium and a concrete test case for geometric PDE analysis and interface approximation.
 
@@ -23,5 +23,7 @@ The minimal-surface equation governs isotropic interface equilibrium. An exact n
 3. L. Simon, *The minimal surface equation*, in *Geometry V*, Encyclopaedia of Mathematical Sciences 90 (1997), 239–266, discussion of entire graphs and polynomial solutions. [Chapter DOI](https://doi.org/10.1007/978-3-662-03484-2_5).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The March 2026 revision explicitly reports that no nonaffine scalar polynomial example is known. It rules out degrees two and three, homogeneous polynomials, and several possible tangent cones without resolving existence. Searches through 22 September 2026 found no later construction or general nonexistence theorem. Polynomial growth of all smooth entire graphs is a separate open assertion.

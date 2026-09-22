@@ -2,6 +2,10 @@
 
 **Area:** Quantum chaos and random waves
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $(M,g)$ be a closed negatively curved Riemannian surface. Let $u_j$ be any real Laplace eigenfunctions with $-\Delta_g u_j=\lambda_j u_j$, $\lambda_j\to\infty$, and $\int_Mu_j^2\,dV=\operatorname{Area}(M)$. Sample $x$ uniformly from $M$ and an orthonormal frame $e:\mathbb R^2\to T_xM$ uniformly in its orthogonal group. Define the random smooth function
@@ -14,7 +18,7 @@ $$\mathbb E[F(y)F(z)]=J_0(|y-z|)?$$
 
 This is the normalized isotropic monochromatic random wave; $J_0$ is the Bessel function of order zero.
 
-## Applied significance
+## Application
 
 The random-wave model underpins statistical predictions for intensity, nodal patterns and interference in chaotic microwave and acoustic resonators.
 
@@ -25,9 +29,7 @@ The random-wave model underpins statistical predictions for intensity, nodal pat
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Ingremeau gives a rigorous local-limit formulation and special deterministic examples, not a negative-curvature theorem. García-Ruiz proves equivalence of formulations. The update search found related random-wave and open-system results, but no proof of this universal local Gaussian limit. Frame randomization makes the formulation intrinsic.
 

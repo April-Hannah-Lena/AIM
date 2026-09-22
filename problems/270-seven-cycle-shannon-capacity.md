@@ -2,6 +2,10 @@
 
 **Area:** Zero-error communication / combinatorial coding
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $C_7$ have vertex set $\mathbb Z/7\mathbb Z$, with distinct vertices adjacent when their difference is $\pm1$. For $k\geq1$, let $a_k$ be the largest size of a set $\mathcal C\subset(\mathbb Z/7\mathbb Z)^k$ such that any distinct $x,y\in\mathcal C$ have some coordinate $i$ with $x_i-y_i\notin\{0,1,-1\}$ modulo seven.
@@ -14,7 +18,7 @@ $$
 
 Equivalently, $a_k$ is the independence number of the $k$-fold strong graph power. The corresponding zero-error rate is $\log_2\Theta(C_7)$ bits per channel use.
 
-## Applied significance
+## Application
 
 The seven symbols model a channel where neighboring symbols can be confused. This asks for the best asymptotic rate when decoding errors are forbidden.
 
@@ -25,8 +29,6 @@ The seven symbols model a channel where neighboring symbols can be confused. Thi
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2026 preprint reports $\Theta(C_7)\geq3.25883262\ldots$, still below the classical upper bound $7\cos(\pi/7)/(1+\cos(\pi/7))$. Searches included “C7 Shannon capacity exact 2026”, “seven cycle capacity September 2026”, and “Tandon recursive Shannon capacity”. Recent improvements construct larger finite-block codes; no matching converse or exact capacity was located.

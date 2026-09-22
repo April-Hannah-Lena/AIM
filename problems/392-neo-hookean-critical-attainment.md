@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear elasticity; critical-growth energy minimization
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ Let $\mathcal A$ consist of $u\in H^1(\Omega;\mathbb R^3)$ that equal $b$ on $\O
 $$\operatorname{Div}\bigl((\operatorname{adj}Du)g(u)\bigr)=(\operatorname{div}g)(u)\det Du\quad\hbox{in distributions}.$$
 Here $Du=(\partial_j u_i)_{ij}$ and $\operatorname{adj}Du=(\operatorname{cof}Du)^T$. Whenever $\mathcal A\ne\varnothing$, must $\inf_{u\in\mathcal A}E(u)$ be attained by an element of $\mathcal A$?
 
-## Applied significance
+## Application
 
 The quadratic stretch energy is the standard neo-Hookean model for a compressible elastic solid. Attainment would justify equilibrium deformations without interpenetration or hidden singular creation of material volume.
 
@@ -25,5 +25,7 @@ The quadratic stretch energy is the standard neo-Hookean model for a compressibl
 3. D. Kalayanamit, [*Sobolev regularity of the inverse for minimizers of the neo-Hookean energy satisfying condition INV*](https://arxiv.org/abs/2405.12156), Proceedings of the Royal Society of Edinburgh A, published online (2025), main inverse-regularity theorem.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using neo-Hookean minimizer existence, relaxation, inverse regularity and the new Lavrentiev example. The SIAM theorem minimizes a modified energy on a larger class; the extra term penalizes the singular derivative of the inverse. Kalayanamit's theorem requires the relevant topological condition. The March 2026 example gives a strict gap between the original energy on the regular class and its minimum on a weak closure. That disproves a particular unrelaxed closure strategy, but does not show nonattainment of the infimum restricted to the class displayed here. Neither theorem proves this attainment assertion or gives a counterexample to it. This critical quadratic-growth question is distinct from supercritical quasiconvex existence.

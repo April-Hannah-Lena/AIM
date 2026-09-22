@@ -2,6 +2,10 @@
 
 **Area:** Polarons; nonlinear quantum energy minimization
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 For $\psi\in H^1(\mathbb R^6)$ with $\|\psi\|_2=1$, set
@@ -13,7 +17,7 @@ For every $U\ge0$ with $E_2(U)<2E_1$, must every minimizer, after a common trans
 $$\psi(Rx,Ry)=\psi(x,y)\quad\text{for every }R\in O(3)?$$
 Equivalently, determine whether rotational symmetry breaking occurs anywhere in the binding regime.
 
-## Applied significance
+## Application
 
 A bipolaron consists of two electrons coupled through a polarizable medium. The question distinguishes a symmetric charge cloud from an equilibrium with preferred spatial directions.
 
@@ -24,9 +28,11 @@ A bipolaron consists of two electrons coupled through a polarizable medium. The 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** Rotational symmetry of bipolaron minimizers is established for sufficiently small repulsion.
 
-**Last checked:** 2026-09-13.
+**Remaining target:** Rotational symmetry throughout the full binding regime, including repulsion near the binding threshold.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The theorem covers sufficiently small repulsion only. The primary paper explicitly asks what occurs near the binding threshold. Its choice $\alpha=1/2$ is rescaled here to $\alpha=1$; the question concerns all binding values and is unchanged by that normalization.
 

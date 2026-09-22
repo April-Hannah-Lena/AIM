@@ -2,7 +2,7 @@
 
 **Area:** Finite-state control and synchronization
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -18,7 +18,7 @@ $$
 
 Each original alphabet letter costs one step. The question imposes no one-cluster, Eulerian, binary-alphabet or other structural restriction. It asks for existence of a short word, rather than an efficient algorithm for finding a shortest one. For $n=1$, the empty word has length zero.
 
-## Applied significance
+## Application
 
 A reset word drives a finite-state device from an unknown initial state to a known state without observing its intermediate states. The conjecture would bound the worst-case number of control inputs required for this form of synchronization. This is a foundational resource bound for finite-state control and testing.
 
@@ -30,6 +30,8 @@ A reset word drives a finite-state device from an unknown initial state to a kno
 4. A. N. Trahtman, [*The Černy conjecture*](https://arxiv.org/pdf/1202.4626v11), arXiv:1202.4626v11, January 18, 2022; Theorem 2, p. 11. Historical full-proof claim; see the error report in Volkov's footnote 1.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The September 17, 2026 review included Černý/Cerny/Starke aliases, reset-word wording, proof and counterexample searches, 2025–2026 updates, unrestricted searches and version/withdrawal checks. Szykuła's August 2026 specialist survey independently lists the full conjecture as open. The general upper bound reported by that survey and Volkov is
 

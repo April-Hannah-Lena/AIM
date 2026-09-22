@@ -2,7 +2,7 @@
 
 **Area:** Chemical reaction–diffusion / continuum biology
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -33,7 +33,7 @@ $$
 $$
 Here classical means continuous to the initial data and continuously differentiable in time and twice in space for positive times, satisfying the equations and boundary conditions pointwise. Bounds may depend on $T$, the data and all coefficients. No upper bound on reaction order, smallness of the initial data, or closeness of diffusivities is assumed. This is the single-reaction, disjoint-species version of the broader chemical reaction-network regularity question; its parameter cases count as one entry.
 
-## Applied significance
+## Application
 
 This models a closed reaction vessel containing diffusing chemical or biochemical species. Forward and backward mass-action rates couple local concentrations, while species move at different rates. A positive answer would justify using the classical concentration equations through any finite observation interval, even for large spatially uneven initial concentrations and higher-order reactions. Integrated mass and entropy estimates alone do not give the pointwise concentration control needed for that conclusion.
 
@@ -46,6 +46,8 @@ This models a closed reaction vessel containing diffusing chemical or biochemica
 - Antonio Agresti, Michael Kniely and Bao Quoc Tang, [*Global classical solutions by transport noise for reaction-diffusion systems with entropy dissipation*](https://arxiv.org/html/2608.13332v1), August 2026 preprint, §§1, 1.3, Theorem 3.4 and Proposition 6.5.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The cited sources distinguish global renormalized solutions from classical continuation. Quadratic reactions have global classical solutions in arbitrary dimensions; higher-order cases require further hypotheses. The August 2026 result concerns suitably chosen transport noise on a torus, and its deterministic result assumes sufficiently large diffusivities. These conclusions leave the arbitrary-coefficient deterministic question above unresolved.
 

@@ -2,7 +2,7 @@
 
 **Area:** Fluid dynamics and boundary layers
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -15,7 +15,7 @@ $$
 $$
 for every $T<\infty$ and every such $(\Omega,u_0)$? A counterexample within these hypotheses also resolves the question. The datum is fixed independently of viscosity.
 
-## Applied significance
+## Application
 
 This tests whether inviscid simulation approximates viscous flow near a solid wall, where thin boundary layers may dissipate appreciable energy.
 
@@ -25,6 +25,8 @@ This tests whether inviscid simulation approximates viscous flow near a solid wa
 - [Franck Sueur, *A Kato type Theorem for the inviscid limit of the Navier-Stokes equations with a moving rigid body* (2011 preprint), introduction and comparison with Kato's fixed-boundary criterion](https://arxiv.org/abs/1110.6065).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The cited exposition presents the general smooth-data boundary problem as open. Kato's criterion characterizes convergence through dissipation in a viscosity-scale layer; it does not establish its vanishing for all data. Recent searches returned analytic/Gevrey, special-flow and conditional results rather than the unrestricted statement.
 

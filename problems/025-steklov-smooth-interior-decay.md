@@ -2,6 +2,10 @@
 
 **Area:** Boundary waves and harmonic extension
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^2$ be any bounded connected domain with $C^\infty$ boundary. Let $u_j$ be Steklov eigenfunctions satisfying $\Delta u_j=0$ in $\Omega$, $\partial_\nu u_j=\sigma_j u_j$ on $\partial\Omega$, and $\|u_j\|_{L^2(\partial\Omega)}=1$, with $\sigma_j\to\infty$. Is it true that, for every compact $K\subset\Omega$, there are constants $C_K,c_K>0$, independent of $j$ and of the choice of normalized eigenfunction, such that
@@ -10,7 +14,7 @@ $$\sup_{x\in K}|u_j(x)|\le C_K e^{-c_K\sigma_j}?$$
 
 Prove the estimate in this smooth class, or construct a smooth domain and eigenfunction sequence that violates it.
 
-## Applied significance
+## Application
 
 The rate measures penetration of high-frequency boundary modes into an interior region and determines how accurately boundary-localized approximations neglect interior fields.
 
@@ -21,9 +25,11 @@ The rate measures penetration of high-frequency boundary modes into an interior 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** The exponential interior-decay estimate is established for real-analytic domains.
 
-**Last checked:** 2026-09-08.
+**Remaining target:** The same exponential estimate for every smooth planar domain, without analyticity.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2024 survey asks whether exponential decay survives replacement of analytic regularity by smoothness and notes that existing analytic techniques do not decide it. Galkowski–Toth prove the analytic case. Known faster-than-any-power decay in smooth domains is weaker than the displayed exponential rate. No later answer was located.
 

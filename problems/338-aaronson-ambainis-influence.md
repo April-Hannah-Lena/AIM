@@ -2,7 +2,7 @@
 
 **Area:** Boolean Fourier analysis and quantum query complexity
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -29,7 +29,7 @@ $$
 
 This is a bound for all scalar-valued polynomials bounded on the cube, including nonhomogeneous ones. No matrix-input norm bound or special decomposition is assumed. Constant polynomials satisfy the inequality trivially. The statement asks for existence of an influential coordinate, without requiring an efficient procedure to find it. It is the normalization used in [2, Conjecture 1.2]; the $[0,1]$ formulation in [1] is equivalent by affine changes of input and output.
 
-## Applied significance
+## Application
 
 The acceptance probability of a quantum algorithm making $T$ queries to a binary input is a bounded polynomial of degree at most $2T$. The conjecture would let a classical decision tree repeatedly query influential coordinates and reduce the remaining uncertainty. As [1, Theorem 1.8] shows, it would imply that, for any positive errors $\varepsilon,\delta$, a deterministic classical algorithm can approximate that acceptance probability to additive error $\varepsilon$ on a $1-\delta$ fraction of uniformly distributed inputs using $\operatorname{poly}(T,1/\varepsilon,1/\delta)$ queries. This would constrain quantum advantage on typical inputs in the query model. It is a statement about access to input bits, not total runtime or simulation on every input. The reverse implication from the simulation conjecture to the influence conjecture is not asserted.
 
@@ -43,6 +43,8 @@ The acceptance probability of a quantum algorithm making $T$ queries to a binary
 6. Nathan Keller and Ohad Klein, *Quantum speedups need structure*, [arXiv:1911.03748](https://arxiv.org/abs/1911.03748). The November 2019 proof claim was withdrawn in version 2 on December 2, 2019; see the authors' correction notice.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-18. The review searched the name, influential-variable and bounded-polynomial formulations, authors, proof and counterexample claims, 2024–2026 work, unrestricted dates, and version/correction records. Independently authored [3, §1] and [4, Conjecture 1.3] corroborate the general problem, which [2] also explicitly retains in September 2026.
 

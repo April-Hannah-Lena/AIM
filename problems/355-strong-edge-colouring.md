@@ -2,7 +2,7 @@
 
 **Area:** Communication networks, interference scheduling and graph colouring
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-19
 
@@ -28,7 +28,7 @@ Equivalently, $\chi'_s(G)=\chi(L(G)^2)$: the line graph $L(G)$ has one vertex fo
 
 The proposed values are attained already by simple graphs. For even $\Delta$, replace each vertex of a five-cycle by an independent set of size $\Delta/2$ and each cycle edge by all edges between its two sets. For odd $\Delta\ge3$, use sets of size $(\Delta+1)/2$ at two consecutive cycle vertices and $(\Delta-1)/2$ at the other three. Every two edges conflict, and their number equals the proposed bound. A single edge handles $\Delta=1$. [1, p. 206; 3, §4.1]
 
-## Applied significance
+## Application
 
 In a graph model of a communication network, edges represent transmissions and colours represent slots or frequencies. Suppose two transmissions conflict when they share a device or an endpoint of one is directly linked to an endpoint of the other. A strong edge-colouring is then exactly a schedule satisfying these interference rules. Source [6, §1] discusses the connection to radio-frequency assignment.
 
@@ -45,6 +45,8 @@ The conjecture asks for the sharp worst-case number of slots as a function of th
 7. Daniel W. Cranston, *Strong Edge-Coloring of Cubic Bipartite Graphs: A Counterexample*, [arXiv:2112.01443v1](https://arxiv.org/pdf/2112.01443v1), December 2, 2021. §1, six-part conjecture; §2, Main Theorem and Lemmas 1–2. Published subsequently in Discrete Applied Mathematics 321 (2022), 258–260; locators here refer to the three-page arXiv manuscript.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-19. Sources [1–3] explicitly pose the parity-sensitive bound. The review checked current and unrestricted searches for proofs, counterexamples, corrected versions and related formulations.
 

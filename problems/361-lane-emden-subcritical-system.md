@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear elliptic systems; reaction–diffusion
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ is it impossible to find strictly positive functions $u,v\in C^2(\mathbb R^n)$ s
 $$-\Delta u=v^p,\qquad-\Delta v=u^q\quad\hbox{on }\mathbb R^n?$$
 No radial symmetry, stability, decay, integrability or finite-energy assumption is imposed. This is the remaining higher-dimensional part of the Lane–Emden conjecture.
 
-## Applied significance
+## Application
 
 Such coupled elliptic equations describe steady states in cooperative reaction–diffusion systems. Nonexistence on the whole space is also a tool for obtaining bounds and excluding concentration in bounded-domain models.
 
@@ -24,5 +24,7 @@ Such coupled elliptic equations describe steady states in cooperative reaction�
 2. P. Souplet, [*The proof of the Lane–Emden conjecture in four space dimensions*](https://doi.org/10.1016/j.aim.2009.02.014), Advances in Mathematics 221 (2009), 1409–1427, main theorem.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using the conjecture name, the full subcritical hyperbola, and searches for higher-dimensional proofs and counterexamples. The 2025 primary paper explicitly restates the full conjecture and proves only the stricter condition $1/(p+1)+1/(q+1)\ge1-2/n+4/n^2$ (with a further large-dimension refinement). Souplet resolves dimensions at most four. Neither result covers all the parameters above. Later results for stable solutions or half-spaces impose additional hypotheses. No later resolution of the stated unrestricted problem was located.

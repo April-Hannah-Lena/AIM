@@ -2,7 +2,7 @@
 
 **Area:** Integral geometry / thermoacoustic imaging
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -20,7 +20,7 @@ $$
 $$
 where $a\in\mathbb R^d$, $h$ is a nonzero homogeneous harmonic polynomial of positive degree, and $V$ is a real algebraic set of dimension at most $d-2$. Harmonic means $\Delta h=0$. This is the necessity direction of the higher-dimensional Agranovsky–Quinto classification conjecture.
 
-## Applied significance
+## Application
 
 Spherical means describe ideal constant-speed photoacoustic data. Noninjectivity sets identify detector arrangements on which a nonzero source can be completely invisible.
 
@@ -30,6 +30,8 @@ Spherical means describe ideal constant-speed photoacoustic data. Noninjectivity
 2. P. Kuchment and L. Kunyansky, *Mathematics of thermoacoustic tomography*, European Journal of Applied Mathematics **19** (2008), §8.2.2. [Survey](https://www.cambridge.org/core/journals/european-journal-of-applied-mathematics/article/mathematics-of-thermoacoustic-tomography/322F4C7F2A05EE3CD1BD2E6E45F80125).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Reference 1 states the higher-dimensional conjecture and proves results for real-analytically ruled surfaces in three dimensions. The complete planar classification and ruled-surface result do not cover arbitrary higher-dimensional sets.
 

@@ -2,6 +2,10 @@
 
 **Area:** Fluid control / distributed actuation
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^3$ be a bounded connected smooth domain, $\varnothing\ne\omega\Subset\Omega$ an open set, and $T>0$. Let $H$ be the $L^2(\Omega)^3$ closure of smooth compactly supported divergence-free vector fields. For every $u_0\in H$, does there exist $f\in L^2(\omega\times(0,T))^3$ and a Leray–Hopf weak solution of
@@ -12,7 +16,7 @@ $$
 
 with $u=0$ on $\partial\Omega$, $u(0)=u_0$, and $u(T)=0$? Here the solution must belong to $L^\infty(0,T;H)\cap L^2(0,T;H_0^1(\Omega)^3)$, be weakly continuous in $L^2$, and satisfy the usual energy inequality with forcing. No smallness bound is imposed on $u_0$.
 
-## Applied significance
+## Application
 
 This asks whether localized forcing can stop an arbitrary finite-energy viscous flow in any prescribed positive time while the vessel wall remains fixed.
 
@@ -23,8 +27,6 @@ This asks whether localized forcing can stop an arbitrary finite-energy viscous 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 Small-data local control, large-time dissipation followed by local control, and global results with Navier slip conditions do not give the quantified no-slip statement. Searches included “Navier Stokes global null controllability 2026 no-slip”, “localized distributed Lions conjecture”, and “global controllability curved boundary no-slip”. No arbitrary-data, arbitrary-time theorem in this class was located.

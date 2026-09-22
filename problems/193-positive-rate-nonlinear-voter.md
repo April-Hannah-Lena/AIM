@@ -2,7 +2,7 @@
 
 **Area:** Spatial population dynamics and phase coexistence
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -16,7 +16,7 @@ where $Y=(Y_1,\ldots,Y_4)$ is sampled uniformly without replacement from $N_L$ a
 Do there exist finite $L_0$ and, for every $L\ge L_0$, a number $\varepsilon_0(L)>0$ such that, for $0<\varepsilon<\varepsilon_0(L)$, there are two distinct translation-invariant stationary laws $\nu^-,\nu^+$ with
 $$\nu^-(\eta(0)=1)<1/2<\nu^+(\eta(0)=1)?$$
 
-## Applied significance
+## Application
 
 Positive flip rates model spontaneous changes, eliminating absorbing consensus states. The question asks whether spatial population dynamics can still retain two stable macroscopic compositions.
 
@@ -26,6 +26,8 @@ Positive flip rates model spontaneous changes, eliminating absorbing consensus s
 - [J. Theodore Cox, Rick Durrett and Edwin A. Perkins, *Voter model perturbations and reaction diffusion equations* (Astérisque 349, 2013)](https://arxiv.org/abs/1103.1676), the scaling framework.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 This is an explicit rate realization of the book's proposed example, with a fixed small spontaneous-flip rate. The tuple uses a_3=11/2, as required by the book's displayed calculation 6a_2−4a_3=−4. Finite-time convergence to a bistable reaction equation does not establish two stationary laws at fixed positive epsilon.
 

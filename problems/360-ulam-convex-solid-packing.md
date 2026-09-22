@@ -2,7 +2,7 @@
 
 **Area:** Convex geometry and particle packing
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-19
 
@@ -32,7 +32,7 @@ $$
 $$
 Thus the proposed universal lower bound is the optimal density of congruent balls. There is no symmetry or smoothness assumption on $K$. The problem does not ask for a characterization of equality, and it imposes no packing protocol or finite container. Lattice packing, packing by translations alone and random packing have different optimization domains.
 
-## Applied significance
+## Application
 
 Packing geometry connects particle shape to the occupied volume and remaining void space in granular assemblies and particulate materials. The conjecture asks whether the ball supplies a universal benchmark when the arrangement can be optimized: every convex particle shape would admit at least that occupied fraction in the ideal infinite-volume model. This would constrain geometric shape optimization independently of the particular crystals found by simulation. The model allows reflected copies; for a chiral particle this includes its mirror shape. It is a geometric benchmark, rather than a prediction of the density attained by a pouring or compression experiment. Friction, preparation history, polydispersity and kinetic trapping affect those experiments, as the reviews of Baule and collaborators explain.
 
@@ -46,6 +46,8 @@ Packing geometry connects particle shape to the occupied volume and remaining vo
 - [Yoav Kallus, *The random packing density of nearly spherical particles*, Soft Matter 12 (2016), 4123–4128; arXiv:1508.05398v2, March 20, 2016](https://arxiv.org/pdf/1508.05398v2), internal pp. 1–3, especially the protocol assumptions and equations (6)–(11).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-19. Kallus states the global three-dimensional question explicitly, and the independently authored Baule–Morone–Herrmann–Makse review retains it. The attribution to Ulam is conventional; Kallus notes that its historical origin is a remark attributed to him by Gardner.
 

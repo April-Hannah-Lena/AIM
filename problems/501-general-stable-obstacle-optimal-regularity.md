@@ -2,7 +2,7 @@
 
 **Area:** Nonlocal obstacle problems; anisotropic jump processes
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -18,7 +18,7 @@ This is the finite-energy obstacle solution associated with $Lu=\operatorname{p.
 $$\|u\|_{C^{1,s}(\mathbb R^n)}\le C\|\phi\|_{C^3(\mathbb R^n)}?$$
 Here the left side is $\|u\|_\infty+\|\nabla u\|_\infty+\sup_{x\ne y}|\nabla u(x)-\nabla u(y)|/|x-y|^s$. There is no assumption that $a$ belongs to any $L^p$ with $p>1$, or that the kernel is positive in every direction.
 
-## Applied significance
+## Application
 
 Nonlocal obstacle equations describe optimal stopping for jump processes and equilibria constrained by contact. The estimate would control sensitivity of the value or displacement gradient when jump directions are highly concentrated and have only integrable angular intensity.
 
@@ -29,5 +29,7 @@ Nonlocal obstacle equations describe optimal stopping for jump processes and equ
 3. X. Ros-Oton and M. Weidner, [*Optimal regularity for nonlocal elliptic equations and free boundary problems*](https://arxiv.org/abs/2403.07793), preprint (2024), equations (1.1)–(1.2) and Theorem 1.3.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using general stable obstacle regularity, angular $L^1$ kernels, and later 2025–2026 optimal-regularity results. The book explicitly asks for the general stable class. The singular-kernel paper proves the stated type of estimate under $a\in L^p(\mathbb S^{n-1})$ with $p>n/(2s)$ and expressly leaves mere $L^1$ ellipticity unresolved. Its 2026 journal publication is the publication of that result, not a removal of the angular-integrability hypothesis. The third paper allows nonhomogeneous radial behavior but retains two-sided pointwise comparison with the fractional-Laplacian kernel. That assumption excludes the angular concentrations here. No result removing the stronger angular assumption was located. This target uses a smooth obstacle and rough angular intensity; it is distinct from lowering the obstacle's smoothness for a pointwise elliptic kernel, and from the auxiliary positive-harmonic-profile classification in cones.

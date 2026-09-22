@@ -2,6 +2,10 @@
 
 **Area:** Disordered quantum transport
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 On $\ell^2(\mathbb Z^2)$ let
@@ -10,7 +14,7 @@ $$ (H_\eta\psi)(n)=\sum_{|m-n|_1=1}\psi(m)+\eta V_n\psi(n),$$
 
 where the $V_n$ are independent uniform variables on $[-1,1]$. Prove or disprove that for every fixed $\eta>0$, almost surely $H_\eta$ has a complete orthonormal basis of exponentially decaying eigenfunctions. Explicitly, each basis vector $\phi$ must satisfy $|\phi(n)|\le C_\phi e^{-c_\phi|n-n_\phi|}$ for some $C_\phi,c_\phi>0$ and $n_\phi\in\mathbb Z^2$. No uniform decay rate across all eigenvalues is demanded.
 
-## Applied significance
+## Application
 
 This would establish whether arbitrarily weak disorder ultimately localizes all single-particle states in a two-dimensional material, despite apparently extended behavior at accessible finite scales.
 
@@ -22,9 +26,11 @@ This would establish whether arbitrarily weak disorder ultimately localizes all 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** Exponential localization is established in the strong-disorder regime of the stated Anderson model.
 
-**Last checked:** 2026-09-08.
+**Remaining target:** Localization throughout the spectrum at every positive disorder strength, including arbitrarily weak disorder.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 notes explicitly leave bulk localization in d=2 conjectural. Strong-disorder and spectral-edge localization do not cover every energy at weak disorder. The numerical study emphasizes finite-size effects; it cannot decide the stated infinite-lattice assertion. Simon's pure-point question is given here in its standard exponential-localization form.
 

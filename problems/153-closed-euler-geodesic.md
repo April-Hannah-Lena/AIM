@@ -2,6 +2,10 @@
 
 **Area:** Geometric hydrodynamics
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For every closed connected oriented smooth Riemannian surface $(M,g)$ of genus at least two and every $s>2$, does there exist a nonzero divergence-free $u_0\in H^s(TM)$ and $T>0$ whose Euler solution has
@@ -12,9 +16,9 @@ $$
 
 The equations are $\partial_tu+\nabla_u u=-\operatorname{grad}p$, $\operatorname{div}u=0$, and $\partial_t\eta=u\circ\eta$, with $\eta(0)=\operatorname{id}_M$. Thus every marked particle, as well as the velocity, must return; $u_0=0$ is excluded.
 
-## Applied significance
+## Application
 
-A returning velocity field alone need not restore material labels. The question concerns exact material recurrence in inviscid transport.
+A periodic velocity field alone need not return transported material to its starting position. This asks whether inviscid flow on a surface of higher genus can produce a nontrivial cycle that restores every passive tracer as well as the velocity, an exact recurrence test for transport models.
 
 ## References
 
@@ -24,8 +28,6 @@ A returning velocity field alone need not restore material labels. The question 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2023 list poses the higher-genus case separately from endpoint surjectivity. The problem is the existence of a nonconstant closed geodesic in the group of area-preserving maps, not a closed geodesic on the underlying surface. Searches for “Euler closed geodesics genus 2025 2026” and “Khesin Misiolek Shnirelman Problem 10 closed geodesic” located no resolution. Torus translations do not address the topology specified here.

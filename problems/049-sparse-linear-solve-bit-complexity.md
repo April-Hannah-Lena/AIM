@@ -2,7 +2,7 @@
 
 **Area:** Sparse numerical linear algebra
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -14,7 +14,7 @@ Is there a randomized algorithm using $\widetilde O(nm)$ bit operations which, w
 $$\|\widehat x-A^{-1}b\|_2\le n^{-c}\|A^{-1}b\|_2?$$
 Here $\widetilde O$ hides powers of $\log n$, with constants allowed to depend on fixed $c$. The input is given by its sparse nonzero list. The target is a finite-precision complexity bound, including all arithmetic costs.
 
-## Applied significance
+## Application
 
 For matrices with O(n) nonzeros, this asks for approximately quadratic bit work even when no graph or positive-definite structure is available. It targets the cost of reliable sparse solves in general scientific models.
 
@@ -24,6 +24,8 @@ For matrices with O(n) nonzeros, this asks for approximately quadratic bit work 
 2. N. Amsel et al., [Linear Systems and Eigenvalue Problems: Open Questions from a Simons Workshop](https://arxiv.org/abs/2602.05394), 2026; Problem 2.10.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. Problem 2.10 asks whether the O(n nnz(A)) arithmetic scale extends to finite precision. This entry fixes polynomial conditioning and input precision explicitly. No later bound meeting the target was located.
 

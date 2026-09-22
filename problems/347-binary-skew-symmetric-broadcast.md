@@ -2,7 +2,7 @@
 
 **Area:** Network information theory and broadcast communication
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -35,7 +35,7 @@ $$
 $$
 Let $\mathcal C_{\mathrm{BSSC}}$ be the closure of the achievable rate pairs. **Determine $\mathcal C_{\mathrm{BSSC}}$ exactly, with matching achievability and converse bounds.** Rates are measured in bits per channel use. Codes need not be linear or computationally efficient, and the input distribution is unrestricted. This is the standard private-message problem for the fixed channel above. [1, §5; 2, §1.1]
 
-## Applied significance
+## Application
 
 This channel is a basic model of one sender delivering separate data streams to two users whose reception quality depends differently on the transmitted symbol. A transmission strategy must balance their rates even though neither receiver has uniformly better observations. Its capacity region would identify the fundamental throughput tradeoff for this setting and test whether existing broadcast coding methods extract all the available information. The significance is foundational: the binary model isolates an obstacle to optimal multiuser coding without continuous alphabets or a power-allocation problem. [1, §§1, 5; 2, §1]
 
@@ -50,6 +50,8 @@ This channel is a basic model of one sender delivering separate data streams to 
 7. Amin Gohari, Yi Liu and Chandra Nair, *The Capacity Region for Classes of Sum-Broadcast Channels*, [arXiv:2606.12839v1](https://arxiv.org/html/2606.12839v1), June 11, 2026, preprint. Definitions 1–3, Lemma 5 and Theorem 4. This expanded version was checked separately from the January author manuscript.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Dou and coauthors [1] explicitly retain the fixed channel's capacity-region question, independently of Nair's account [2]. The January 2026 manuscript [6] still states that even its sum capacity is unknown. These sources use equivalent conventions obtained by interchanging receiver names or relabelling bits.
 

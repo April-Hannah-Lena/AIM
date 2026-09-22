@@ -2,7 +2,7 @@
 
 **Area:** Coding theory and reliable data transmission
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -32,7 +32,7 @@ h_2(t)=-t\log_2t-(1-t)\log_2(1-t).
 $$
 Whether this benchmark gives the exact unrestricted rate is not assumed in the question. [1, 2]
 
-## Applied significance
+## Application
 
 A code assigns a different binary word to each message. Minimum distance $d$ permits unambiguous recovery after any set of at most $\lfloor(d-1)/2\rfloor$ bit substitutions: two such error balls cannot intersect. Thus $R_2$ describes the greatest asymptotic information density compatible with a prescribed worst-case separation, and hence a fundamental redundancy cost in communication and storage. This is an existence limit; practical encoding and decoding impose additional requirements. [2, §1]
 
@@ -52,6 +52,8 @@ The noise model matters. Shannon capacity for independent random bit errors perm
 9. Andrew Salmon, *The half-rate linear programming bound for binary codes is 1/2 − 1/π*, [arXiv:2609.03736v1](https://arxiv.org/html/2609.03736v1), September 3, 2026, preprint. §1, definitions (1.2)–(1.7) and Theorem 1.1.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The published question in [1] remains unresolved in the current accounts [2, 3]. The author lists of [1] and [2] are disjoint. The August 2026 papers report upper bounds improving the historical McEliece–Rodemich–Rumsey–Welch bounds: [2] uses classical–quantum channels, [8] uses moving projections, and [3] develops further representation-based bounds. Barg [4] gives a subsequent specialist account. These advances do not identify the exact rate. The recent manuscripts are reported with their stated scope; their proofs have not been independently certified here.
 

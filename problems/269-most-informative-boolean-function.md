@@ -2,6 +2,10 @@
 
 **Area:** Information theory / noisy one-bit compression
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 For every integer $n\geq1$, let $X$ be uniform on $\{0,1\}^n$ and let $Y=X\oplus Z$, where the coordinates of $Z$ are independent Bernoulli$(\delta)$ variables independent of $X$, with $0\leq\delta\leq1/2$. Is
@@ -12,7 +16,7 @@ $$
 
 true for every $f:\{0,1\}^n\to\{0,1\}$? Here $h_2(p)=-p\log_2p-(1-p)\log_2(1-p)$, with $0\log_2 0=0$, and $I(U;V)=H(U)+H(V)-H(U,V)$ is mutual information in bits. A coordinate projection $f(X)=X_i$ attains the proposed bound.
 
-## Applied significance
+## Application
 
 This determines how much information a single retained bit can preserve about a noisy binary signal, with applications to compression and information bottlenecks.
 
@@ -24,8 +28,6 @@ This determines how much information a single retained bit can preserve about a 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searches included “most informative Boolean conjecture proof 2026”, “Courtade Kumar solved”, and the Chen–Gohari–Nair title. An older [2015 manuscript by M. Kesal](https://arxiv.org/abs/1511.01828) claims a proof, but the cited August 2026 primary work still treats the conjecture as unresolved. No independently established resolution of that discrepancy was located; the status here follows the later specialist literature, without certifying or refuting the old manuscript.

@@ -2,7 +2,7 @@
 
 **Area:** Matrix analysis and bosonic computation
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ For every $n\ge1$ and Hermitian positive semidefinite matrices $A,B\in\mathbb C^
 $$\operatorname{per}(A\circ B)\le\operatorname{per}(A)\operatorname{per}(B).$$
 The Hadamard product is $(A\circ B)_{ij}=a_{ij}b_{ij}$ and $\operatorname{per}(C)=\sum_{\sigma\in S_n}\prod_i c_{i,\sigma(i)}$. No sign condition on individual off-diagonal entries is imposed.
 
-## Applied significance
+## Application
 
 Permanents of Gram matrices occur in bosonic interference. A universal product bound would control the effect of combining two Gram structures on the resulting interference weight.
 
@@ -23,6 +23,8 @@ Permanents of Gram matrices occur in bosonic interference. A universal product b
 3. S. Sa-nguansin and K. Rodtes, [Permanents of correlation matrices and the Chollet permanental conjecture](https://doi.org/10.1080/03081087.2025.2588584), Linear and Multilinear Algebra (2025). Correlation-matrix partial results.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. The April 2026 preprint proves graph-structured cases, not arbitrary complex positive semidefinite pairs. Searches also found an August 2026 preprint claiming the inequality through order six; a finite-order result would not settle the universal statement. No all-order resolution was located.
 

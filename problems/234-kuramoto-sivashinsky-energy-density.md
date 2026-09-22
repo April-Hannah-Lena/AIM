@@ -2,7 +2,7 @@
 
 **Area:** Combustion fronts and spatiotemporal chaos
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -14,7 +14,7 @@ with spatial period $2\pi L$ and arbitrary smooth mean-zero initial data. Does t
 $$\limsup_{T\to\infty}\frac1{2\pi L T}\int_0^T\int_{-\pi L}^{\pi L}|u(x,t)|^2\,dx\,dt\leq C?$$
 This concerns the full equation on intervals of unbounded length, with its coefficients fixed.
 
-## Applied significance
+## Application
 
 The equation models unstable flame fronts and serves as a model of distributed chaos. The bound would show that long-time energy grows at most in proportion to the size of the system.
 
@@ -24,5 +24,7 @@ The equation models unstable flame fronts and serves as a model of distributed c
 - Felix Otto, [*Optimal bounds on the Kuramoto–Sivashinsky equation*](https://doi.org/10.1016/j.jfa.2009.01.034) (2009), main bounds: analytic estimates that still grow with the domain length.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “Kuramoto Sivashinsky mean energy uniform length bound”, “bounded energy density conjecture 2025 2026”, and follow-up auxiliary-functional bounds. Finite-length computations and estimates with a positive power or logarithmic dependence on length do not establish the uniform quantifier above.

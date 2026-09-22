@@ -2,7 +2,7 @@
 
 **Area:** Rarefied gas dynamics; kinetic shock layers
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -15,7 +15,7 @@ $$v_1\partial_zF=Q(F,F),\qquad z\in\mathbb R,\ v\in\mathbb R^3,$$
 $$Q(F,F)(v)=\int_{\mathbb R^3}\int_{\mathbb S^2}|(v-v_*)\cdot\omega|[F(v')F(v_*')-F(v)F(v_*)]\,d\omega\,dv_*,$$
 where $v'=v-((v-v_*)\cdot\omega)\omega$ and $v_*'=v_*+((v-v_*)\cdot\omega)\omega$, such that $F(z,\cdot)\to M_\pm$ in $L^1((1+|v|^2)\,dv)$ as $z\to\pm\infty$? Require continuity into this weighted space, locally finite entropy and a distributional solution of the profile equation. The end states obey the monatomic ideal-gas Rankine–Hugoniot relations; their jump need not be small.
 
-## Applied significance
+## Application
 
 These profiles describe the internal molecular structure of a gas shock. Small-amplitude theory does not justify kinetic shock layers at the large Mach numbers occurring in rarefied high-speed flows.
 
@@ -25,5 +25,7 @@ These profiles describe the internal molecular structure of a gas shock. Small-a
 2. R. E. Caflisch and B. Nicolaenko, [*Shock profile solutions of the Boltzmann equation*](https://doi.org/10.1007/BF01206009), Communications in Mathematical Physics 86 (1982), 161–194, weak-shock existence theorem.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using large-amplitude and arbitrary-Mach hard-sphere Boltzmann shock existence. The 2018 primary paper explicitly identifies large-amplitude profiles as an unresolved problem. Its center-manifold construction, like the 1982 theorem, assumes weak shocks. Subsequent invariant-manifold localization and stability results concern profiles already known to exist or retain small amplitude. Numerical shock computations and Navier–Stokes shock profiles do not prove kinetic existence. No theorem covering every displayed Mach number was located.

@@ -2,7 +2,7 @@
 
 **Area:** Nonlocal PDEs; conservation of diffusing mass
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -22,7 +22,7 @@ For every $u_0\ge0$ in $L^1(M)$ and every such weak dual solution with $u(0)=u_0
 $$\int_M u(t,x)\,d\mathrm{Vol}(x)=\int_Mu_0(x)\,d\mathrm{Vol}(x)\qquad(t>0).$$
 This asks for conservation at every finite time, not merely the known upper bound on the total mass.
 
-## Applied significance
+## Application
 
 The assertion rules out loss of material at spatial infinity in fractional diffusion models on unbounded curved media.
 
@@ -32,5 +32,7 @@ The assertion rules out loss of material at spatial infinity in fractional diffu
 2. G. Grillo, *The Fractional Porous Medium Equation on noncompact Riemannian manifolds*, Oberwolfach Reports 14/2025, contribution on weak dual solutions and unresolved uniqueness/fundamental solutions. [Workshop report](https://ems.press/content/serial-article-files/51358?nt=1).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Mass conservation under these geometric assumptions is explicitly listed in §7 of the final paper; the difficulty is constructing cutoffs with suitable fractional Laplacian bounds. Searches on 2026-09-22 checked conservation, stochastic completeness, and subsequent fractional diffusion papers. Results for compact manifolds, the ordinary Laplace–Beltrami operator, or fast diffusion do not settle this assertion. The separate uniqueness entry asks whether solutions coincide; this entry asks for a quantitative conservation law for each admissible solution.

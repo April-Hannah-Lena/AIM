@@ -2,6 +2,10 @@
 
 **Area:** Deterministic quantum disorder
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\alpha\in\mathbb R$ be Diophantine: there are $c,\tau>0$ such that $\|q\alpha\|_{\mathbb R/\mathbb Z}\ge c|q|^{-\tau}$ for every nonzero integer $q$. For $\lambda>0$ and $(x,y)\in(\mathbb R/\mathbb Z)^2$, define on $\ell^2(\mathbb Z)$
@@ -10,7 +14,7 @@ $$(H_{x,y}\psi)_n=\psi_{n+1}+\psi_{n-1}+2\lambda\cos\!\left(2\pi\left[y+nx+\tfra
 
 Prove or disprove that, for every such $\alpha$ and every $\lambda>0$, for Lebesgue-almost every $(x,y)$, $H_{x,y}$ has an orthonormal basis of eigenvectors, each satisfying $|\psi_n|\le C_\psi e^{-c_\psi|n|}$ for some $C_\psi,c_\psi>0$.
 
-## Applied significance
+## Application
 
 This deterministic lattice model is expected to emulate random disorder even at arbitrarily weak coupling. Localization would imply that its stationary electronic states remain spatially confined.
 
@@ -23,9 +27,7 @@ This deterministic lattice model is expected to emulate random disorder even at 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The cosine sampling function and Diophantine frequency are essential to this formulation: generic continuous sampling functions can behave differently. The 2026 results concern dynamical bounds or sufficiently large coupling, not exponential eigenfunction localization for every positive coupling in this model.
 

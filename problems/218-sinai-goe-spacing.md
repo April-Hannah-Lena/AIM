@@ -2,6 +2,10 @@
 
 **Area:** Quantum chaos / wave-cavity spectra
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let
@@ -21,7 +25,7 @@ $$
 $$
 This domain is one symmetry sector of a square containing a circular obstacle; Dirichlet conditions on the symmetry cuts prevent mixing different symmetry sectors.
 
-## Applied significance
+## Application
 
 Sinai-type cavities model ballistic electron devices and microwave resonators. An exact spacing law would justify predicting unresolved resonance statistics from classical ray chaos and time-reversal symmetry.
 
@@ -33,9 +37,7 @@ Sinai-type cavities model ballistic electron devices and microwave resonators. A
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 This is a fixed, explicitly desymmetrized Sinai instance of the BGS prediction. The original paper supplies numerical evidence; it does not prove the high-energy limit. Later constructions questioning an unrestricted relation between eigenbasis chaos and spectral statistics do not establish a counterexample for this Dirichlet billiard. $F_{\mathrm{GOE}}$ denotes the exact infinite-matrix spacing law, rather than the closely fitting two-by-two Wigner formula.
 

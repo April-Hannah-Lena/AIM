@@ -2,7 +2,7 @@
 
 **Area:** Cross-diffusion PDEs; population dispersal
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -22,7 +22,7 @@ As $\varepsilon\downarrow0$, does a subsequence converge strongly in $L^1((0,T)\
 $$\partial_tu_i=\Delta P_i(u)+u_if_i(u),\qquad\partial_\nu P_i(u)=0,\qquad u_i(0)=u_i^0?$$
 The limiting fluxes and reactions must pass to the limit in the weak formulation, not just the densities.
 
-## Applied significance
+## Application
 
 The limit would justify replacing finite-range population dispersal by a local SKT cross-diffusion law when the interaction range is small.
 
@@ -32,5 +32,7 @@ The limit would justify replacing finite-range population dispersal by a local S
 2. G. Galiano and J. Velasco, *Convergence of solutions of a rescaled evolution nonlocal cross-diffusion problem to its local diffusion counterpart*, Rev. R. Acad. Cienc. Exactas Fís. Nat. Ser. A Math. **116**, 93 (2022), the two-species $s=1$ result. [Article](https://doi.org/10.1007/s13398-022-01231-7).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The September 2026 source explicitly calls extension of the localization argument to $s\ne1$ open. Its global nonlocal theorem uses the stronger coefficient condition written here; merely copying the weaker condition for the local equation would not justify the approximating solutions. Searches on 2026-09-22 for superlinear SKT localization and the paper title found no subsequent resolution. Local limits for convolution inside the pressure or triangular diffusion matrices are different models or restrictions.

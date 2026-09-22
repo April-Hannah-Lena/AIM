@@ -2,7 +2,7 @@
 
 **Area:** Statistical mechanics and stochastic relaxation
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -14,7 +14,7 @@ Let
 $$t_{\rm mix}(n,\beta)=\inf\{t:\max_\eta\|P_t(\eta,\cdot)-\mu_{n,\beta}^+\|_{\rm TV}\le1/4\}.$$
 For every fixed $\beta>\beta_c^{(2)}$, do finite constants $C_\beta,a_\beta$ exist with $t_{\rm mix}(n,\beta)\le C_\beta n^{a_\beta}$ for all $n\ge1$?
 
-## Applied significance
+## Application
 
 This asks whether relaxation to a boundary-selected equilibrium phase is efficient even at low temperatures and from the worst initial state.
 
@@ -25,6 +25,8 @@ This asks whether relaxation to a boundary-selected equilibrium phase is efficie
 - [Reza Gheissari and Allan Sly, *Rapid phase ordering of Ising dynamics on Z2* (May 2026 preprint)](https://arxiv.org/abs/2605.08052), later progress for specified initial laws.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The book's polynomial-mixing question remains stronger than the quasi-polynomial bound. The May 2026 phase-ordering result uses biased random initial conditions in infinite volume; it does not give the finite-box worst-case polynomial bound asked here.
 

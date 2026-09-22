@@ -2,7 +2,7 @@
 
 **Area:** Geophysical fluid dynamics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -15,7 +15,7 @@ $$
 $$
 Here $\mathcal R_j$ is the periodic Riesz transform with multiplier $-ik_j/|k|$ at nonzero Fourier mode $k$, $\mathcal R^\perp=(-\mathcal R_2,\mathcal R_1)$, and the fractional Laplacian has multiplier $(2\pi|k|)^\gamma$. No smallness restriction or dependence of $\gamma$ on the datum is allowed.
 
-## Applied significance
+## Application
 
 SQG models the transport of temperature at a geophysical boundary and provides a concrete test of nonlinear transport against weak diffusion.
 
@@ -25,6 +25,8 @@ SQG models the transport of temperature at a geophysical boundary and provides a
 - [Anuj Kumar, *Existence of weak solutions to the generalized SQG equations in Sobolev spaces* (2026), introduction](https://arxiv.org/abs/2608.23059).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The August 2026 paper still identifies the supercritical smooth-solution problem as open. Coti Zelati–Vicol allow the dissipation exponent to approach the critical value depending on the size of the initial datum. That quantifier order does not resolve any fixed arbitrary exponent for all data; weak or eventual regularity is also insufficient.
 

@@ -2,7 +2,7 @@
 
 **Area:** Curved-film micromagnetics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -17,7 +17,7 @@ $$h''+\cot\theta\,h'-\frac{\sin(2h)}{2\sin^2\theta}-\frac\kappa2\sin(2h-2\theta)
 $$h(0)=0,\qquad h(\pi)=2\pi,\qquad h(\pi-\theta)=2\pi-h(\theta)?$$
 These boundary and reflection conditions specify the hemispheric class with one complete profile rotation; the corresponding map has degree zero.
 
-## Applied significance
+## Application
 
 Curvature can support magnetic configurations that differ from planar-film patterns. Uniqueness would determine whether two known constructions describe the same saddle configuration for a spherical shell.
 
@@ -27,5 +27,7 @@ Curvature can support magnetic configurations that differ from planar-film patte
 - Giovanni Di Fratta, Valeriy Slastikov and Arghir Zarnescu, [*On a sharp Poincaré-type inequality on the 2-sphere and its application in micromagnetics*](https://arxiv.org/abs/1901.04334) (2019), §1 and Theorem 2: comparison with radial ground states for the spherical micromagnetic energy.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “Saddle Point Configurations spherical ferromagnets uniqueness 2026”, “spherical ferromagnet H_0,2 unique critical profile conjecture proof”, and the journal publication. Remark 3.18 expressly conjectures uniqueness for all $\kappa\geq4$. Existence and local continuation near the explicit $\kappa=4$ profile do not prove global uniqueness in this class. No later proof or counterexample was located.

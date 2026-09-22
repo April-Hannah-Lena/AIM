@@ -2,7 +2,7 @@
 
 **Area:** PDE control / transport with weak diffusion
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -15,7 +15,7 @@ Must there exist $T_*<\infty$ such that, for every $T>T_*$, some $C_T,\varepsilo
 $$\|h\|_2\le C_T\|y_0\|_2?$$
 No scalar potential representation $B=\nabla f$ is imposed.
 
-## Applied significance
+## Application
 
 This asks whether a sensor-actuator region reached by all backward flow paths can uniformly control a weakly diffusive concentration in a bounded vessel. Rotational drift is allowed, which is important for realistic transport fields.
 
@@ -25,5 +25,7 @@ This asks whether a sensor-actuator region reached by all backward flow paths ca
 2. J. A. Bárcena-Petisco, *Cost of null controllability for parabolic equations with vanishing diffusivity and a transport term*, ESAIM: Control, Optimisation and Calculus of Variations 27 (2021), 106, introduction and main control-cost results. [DOI](https://doi.org/10.1051/cocv/2021103).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Remark 1.6 explicitly identifies removal of the gradient-field assumption as open. The statement specializes to autonomous smooth drift while retaining strict outward flux and the uniform neighborhood version of the flushing condition. The available Neumann theorem requires gradient drift; Dirichlet and tangential-boundary results do not provide this conclusion. Searches through 22 September 2026 located no resolution.

@@ -2,7 +2,7 @@
 
 **Area:** Degenerate parabolic PDEs; cell adhesion
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -25,7 +25,7 @@ $$
 $$
 Narrow continuity means convergence against bounded continuous spatial test functions. Vacuum is allowed; positivity bounded away from zero is not assumed.
 
-## Applied significance
+## Application
 
 This fourth-order local model approximates short-range cell adhesion. Uniqueness is needed for its predicted tissue evolution to be determined by the initial density.
 
@@ -35,5 +35,7 @@ This fourth-order local model approximates short-range cell adhesion. Uniqueness
 2. C. Falcó, R. E. Baker and J. A. Carrillo, *A nonlocal-to-local approach to aggregation-diffusion equations*, SIAM Review **67** (2025), 353–372, §4. [Article](https://doi.org/10.1137/25M1726248).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The formulation is the $m=2$ subcritical model and weak solution class of the first paper, which proves existence. The SIAM Review article still identifies uniqueness as unresolved. Searches on 2026-09-22 for fourth-order aggregation–diffusion weak uniqueness, cell-adhesion uniqueness, and the authors’ later papers found no theorem covering this class with vacuum. Classical uniqueness while the mobility stays uniformly positive is insufficient. This is separate from the catalogue’s cubic thin-film positivity problem: both the mobility and the attractive second-order term differ.

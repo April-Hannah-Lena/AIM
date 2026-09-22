@@ -2,7 +2,7 @@
 
 **Area:** Spatial epidemics and nonequilibrium phase transitions
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -29,7 +29,7 @@ $$
 
 This is the isotropic Cayley-graph form of the weak-survival conjecture discussed by Lyons, Lalley and Swart. A strict gap gives an interval of infection rates with positive probability of survival forever, while each fixed finite set is eventually infection-free almost surely. The generating set is arbitrary but fixed when defining the process; finding a favorable generating set for each group would not answer the question. No behavior at either endpoint is asserted.
 
-## Applied significance
+## Application
 
 The contact process is a basic susceptible–infected–susceptible epidemic model: recovery restores susceptibility, and transmission follows a contact network. A weak-survival phase separates persistence somewhere in a growing network from recurrent infection in a fixed neighborhood. The question asks whether uniform geometric expansion alone forces that distinction in homogeneous networks. This is an infinite-network foundation for interpreting persistence and local surveillance, rather than a quantitative prediction for any finite epidemic.
 
@@ -42,6 +42,8 @@ The contact process is a basic susceptible–infected–susceptible epidemic mod
 - [Xiangying Huang, *Exponential growth and continuous phase transitions for the contact process on trees*, arXiv:1911.03330v2, 11 December 2019](https://arxiv.org/abs/1911.03330), §1, periodic-tree definition and Theorem 7 (manuscript pp. 4–5).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The literature check on 2026-09-17 covered weak/intermediate survival, distinct local and global critical values, Cayley/transitive nonamenable graphs, proof and counterexample searches, and author corrections. The [evidence record](../research/expansion-2026-09/candidates/contact-process-nonamenable-weak-survival.json) gives exact queries, hypotheses and access limits.
 

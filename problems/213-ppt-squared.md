@@ -2,6 +2,10 @@
 
 **Area:** Quantum information; repeater channels
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $d\ge2$ and let $\Phi,\Psi:M_d(\mathbb C)\to M_d(\mathbb C)$ be completely positive trace-preserving maps. Assume that $T\circ\Phi$ and $T\circ\Psi$ are also completely positive, where $T$ is matrix transposition in a fixed basis. Complete positivity means that $\operatorname{id}_r\otimes\Phi$ preserves positive semidefiniteness for every $r\ge1$, and similarly for the other maps.
@@ -10,7 +14,7 @@ Must $\Psi\circ\Phi$ be entanglement breaking? Explicitly, for every density ope
 $$(\operatorname{id}_d\otimes(\Psi\circ\Phi))(\rho)=\sum_{j=1}^k p_j\alpha_j\otimes\beta_j$$
 for some finite $k$, probabilities $p_j$, and density operators $\alpha_j,\beta_j$?
 
-## Applied significance
+## Application
 
 This determines whether a pair of noisy quantum links with positive partial transpose can retain terminal entanglement, a basic limitation for quantum repeater designs.
 
@@ -21,9 +25,11 @@ This determines whether a pair of noisy quantum links with positive partial tran
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** The PPT-composition conclusion is established in complex dimension three, the qutrit case.
 
-**Last checked:** 2026-09-13.
+**Remaining target:** The entanglement-breaking conclusion for compositions of all such channels in arbitrary complex dimension.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The July 2026 paper confirms the higher-dimensional conjecture remains open. Its new composition theorems concern qutrits and additional map classes. The question here is over complex Hilbert spaces; counterexamples to real-Hilbert-space analogues do not settle it.
 

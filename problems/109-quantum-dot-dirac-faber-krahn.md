@@ -2,6 +2,10 @@
 
 **Area:** Dirac spectral geometry
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^2$ be a bounded connected $C^2$ domain, with outward unit normal $n=(n_1,n_2)$. On $L^2(\Omega;\mathbb C^2)$ consider the massless Dirac operator
@@ -10,7 +14,7 @@ $$D_\Omega=\begin{pmatrix}0&-i\partial_1-\partial_2\\-i\partial_1+\partial_2&0\e
 
 Write $\lambda_+(\Omega)$ for its smallest positive eigenvalue, and let $B$ be a disk with $|B|=|\Omega|$. Prove or disprove $\lambda_+(\Omega)\ge\lambda_+(B)$, with equality only for disks.
 
-## Applied significance
+## Application
 
 The operator models confined electronic excitations in a graphene quantum dot. The conjecture predicts the shape minimizing its lowest excitation energy at fixed area.
 
@@ -21,9 +25,7 @@ The operator models confined electronic excitations in a graphene quantum dot. T
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The February 2026 revision explicitly calls this case open. Its main results identify an equivalent family of $\overline\partial$-Robin inequalities and establish asymptotic regimes near zigzag boundary conditions, which do not prove the stated infinite-mass case.
 

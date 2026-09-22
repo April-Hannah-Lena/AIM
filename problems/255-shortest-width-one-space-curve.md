@@ -2,6 +2,10 @@
 
 **Area:** Geometric optimization / search paths
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 For a continuous rectifiable curve $\gamma:[0,1]\to\mathbb R^3$, define
@@ -12,7 +16,7 @@ $$
 
 Determine the exact infimum of $\operatorname{Length}(\gamma)$ subject to $w(\gamma)=1$, and identify all minimizing images up to rigid motion. The endpoints are free and the curve is not required to close.
 
-## Applied significance
+## Application
 
 This asks for the shortest wire that cannot pass through any gap of width less than one. Equivalently, it describes a three-dimensional search path guaranteed to span every direction by a prescribed distance.
 
@@ -23,8 +27,6 @@ This asks for the shortest wire that cannot pass through any gap of width less t
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 The established lower estimate and Zalgaller's explicit upper construction leave a nonzero gap. The later sphere-inspection theorem of Ghomi and Wenk prescribes an inscribed sphere in the convex hull, a different constraint. Searches included “shortest space curve width 2025 2026”, “Zalgaller L3 optimal proof”, and “length width inradius space curves sharp”. No proof of the exact width-constrained optimum was located.

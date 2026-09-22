@@ -2,7 +2,7 @@
 
 **Area:** PDE control / acoustic boundary dynamics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -25,7 +25,7 @@ Does there exist a finite $T_0$ such that for every $T>T_0$ there is $C_T<\infty
 $$E(0)\le C_T\int_0^T\int_{\Gamma_0}|\partial_\nu z|^2\,dS\,dt$$
 for every smooth compatible solution? By density this is an energy-space observability question. This annular equal-speed case is a concrete instance of the open threshold problem.
 
-## Applied significance
+## Application
 
 The inequality asks whether measurements on the exterior determine all vibration energy when an elastic inner surface and the surrounding medium propagate disturbances at the same speed.
 
@@ -35,5 +35,7 @@ The inequality asks whether measurements on the exterior determine all vibration
 2. S. E. Chorfi, L. Maniar and R. Morales, *Controllability and Inverse Problems for Hyperbolic and Dispersive Equations with Dynamic Boundary Conditions*, preprint (2025), §3.1 and §5.1. [arXiv:2505.14795](https://arxiv.org/abs/2505.14795).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 review explicitly leaves equal bulk and surface coefficients unresolved. Faster surface propagation is covered by its observability theorem; slower surface propagation has a counterexample in the annular wave setting. Searches through 22 September 2026 for equal-speed Wentzell/Ventcel wave observability and the authors’ subsequent work located no theorem or counterexample at equality. Results for one-dimensional dynamic endpoints do not settle a boundary with tangential propagation.

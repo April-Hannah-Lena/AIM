@@ -2,6 +2,10 @@
 
 **Area:** Free boundaries and fluid interfaces
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For $d\ge2$ and a ball $B\subset\mathbb R^d$, define
@@ -12,9 +16,9 @@ $$
 
 Let $d_*$ be the least $d$ for which there is a nonnegative, nonzero $u\in H^1_{\mathrm{loc}}(\mathbb R^d)\cap C(\mathbb R^d)$, homogeneous of degree one, with $0\in\partial\{u>0\}$, minimizing $J_B$ in every ball among nonnegative competitors $v$ with $v-u\in H^1_0(B)$, and not of the form $(x\cdot e)_+$ for a unit vector $e$. Determine $d_*$. The unresolved alternatives are $5,6,7$.
 
-## Applied significance
+## Application
 
-This determines the first spatial dimension in which an energy-minimizing Bernoulli free boundary can develop a conical singularity.
+Bernoulli free-boundary models determine a fluid interface together with the field it bounds. The critical dimension identifies when energy minimization can produce a singular cone instead of a locally flat interface, setting the dimensional limits of smooth-interface descriptions and providing a benchmark for regularity estimates.
 
 ## References
 
@@ -26,8 +30,6 @@ This determines the first spatial dimension in which an energy-minimizing Bernou
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The January 2026 paper still gives precisely the range stated here. Searches for “Stability inequalities for one-phase cones” and “one phase critical dimension five six 2026” found new symmetric cones and stability criteria, not a classification of all minimizing cones in dimensions five and six. Stable critical points and global minimizers are different classes; no conclusion is inferred merely from the symmetric examples.

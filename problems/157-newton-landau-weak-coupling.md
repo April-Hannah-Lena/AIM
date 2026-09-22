@@ -2,6 +2,10 @@
 
 **Area:** Kinetic theory and collisional relaxation
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\Phi\in C_c^\infty(\mathbb R^3)$ be nonzero, nonnegative, radial and nonincreasing in radius. Put $\epsilon=N^{-1/3}$ and periodize $\Phi_\epsilon(x)=\sum_{n\in\mathbb Z^3}\Phi((x+n)/\epsilon)$ on the unit torus. Start $N$ independent particles with uniform positions and a smooth positive rapidly decaying velocity probability density $f_0$. Evolve
@@ -22,9 +26,9 @@ $$
 
 Uniform weak convergence means $\sup_{0\le t\le T}|\int\psi\,df_N(t)-\int\psi(v)f(t,v)\,dv|\to0$ for every $\psi\in C_b(\mathbb R^3)$. The tensor has the form $c_\Phi|z|^{-1}(I-z\otimes z/|z|^2)$ for $z\ne0$. The particle hierarchy may not be truncated.
 
-## Applied significance
+## Application
 
-This would derive collisional velocity diffusion from many weak deflections of interacting particles, rather than assuming molecular chaos at the kinetic level.
+The Landau equation models collisional relaxation through diffusion in particle velocity. This limit would justify that kinetic description from many weak deflections in the specified interacting-particle system, identifying when the collective velocity distribution can replace the full particle dynamics.
 
 ## References
 
@@ -34,8 +38,6 @@ This would derive collisional velocity diffusion from many weak deflections of i
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The cited introduction labels the full nonlinear weak-coupling derivation open. Searches for “weak coupling Landau derivation Newton particles 2026” and “nonlinear Landau full BBGKY weak coupling limit” found truncated-hierarchy and linear tagged-particle theorems. This finite-volume homogeneous formulation retains all particle interactions. A Boltzmann-to-Landau grazing-collision limit starts from an already kinetic equation and does not establish it.

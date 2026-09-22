@@ -2,7 +2,7 @@
 
 **Area:** Reaction–diffusion; critical habitat thresholds
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ Let $f\in C^{1,\gamma}([0,\infty))$ satisfy $f(0)=f(1)=0$, $f'(0)>0$, $f>0$ on $
 $$-\Delta u=f(u)\quad\hbox{in }\Omega,\qquad u=0\quad\hbox{on }\partial\Omega$$
 have no bounded positive classical solution? Uniform boundary regularity means common-radius boundary graph charts with uniformly bounded $C^{2,\gamma}$ norms. The domain need not be periodic or geometrically convergent at infinity.
 
-## Applied significance
+## Application
 
 The equality balances low-density reproduction with diffusive loss exactly. Its resolution would determine whether an irregular infinite habitat can sustain a population precisely at this threshold.
 
@@ -24,5 +24,7 @@ The equality balances low-density reproduction with diffusive loss exactly. Its 
 2. H. Berestycki and C. Graham, [*A Stable-Compact Method for Qualitative Properties of Semilinear Elliptic Equations*](https://doi.org/10.1007/s00205-026-02168-6), Archive for Rational Mechanics and Analysis 250 (2026), article 21, §7, comparison and uniqueness theory, and §8.1.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using the critical-eigenvalue nonexistence conjecture and strong-KPP steady states. The JEMS paper proves the threshold statement for bounded and periodic domains, and explicitly leaves the general critical case open. Its weak-KPP critical examples use reactions linear near zero and do not satisfy the strict quotient condition here. The 2026 uniqueness theorems do not establish critical nonexistence on arbitrary unbounded domains. This is an existence threshold, distinct from uniqueness when a positive equilibrium exists. No general proof or strong-KPP counterexample was located.

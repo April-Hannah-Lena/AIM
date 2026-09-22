@@ -2,6 +2,10 @@
 
 **Area:** Nonholonomic control / sub-Riemannian geometry
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $M$ be a smooth $n$-manifold and let smooth vector fields $X_1,\ldots,X_r$ span a constant-rank distribution $\Delta\subset TM$. Suppose their iterated Lie brackets span $T_xM$ at every $x$. For fixed $x_0$, define the endpoint map
@@ -15,7 +19,7 @@ on the open subset of $L^2([0,1];\mathbb R^r)$ for which the trajectory exists. 
 
 Is the set of endpoints of all singular controls null for every smooth positive volume density on $M$, for every such distribution and every $x_0$?
 
-## Applied significance
+## Application
 
 Singular trajectories are the exceptional motions that evade ordinary first-order controllability tests in systems with nonholonomic constraints. The conjecture says their destinations occupy no volume.
 
@@ -26,8 +30,10 @@ Singular trajectories are the exceptional motions that evade ordinary first-orde
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** The null-endpoint conclusion is established for rank-three distributions in dimension four and for the cited generic corank-one class.
 
-**Last checked:** 2026-09-08
+**Remaining target:** The null-endpoint conclusion for every smooth bracket-generating distribution in the displayed class.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 paper proves the result for rank-three distributions in dimension four and for generic corank-one distributions, while retaining the general smooth conjecture. Searches included “Sard conjecture smooth distributions solution 2025 2026” and “analytic minimal rank Sard conjecture 2026”. Analytic, minimal-rank and generic-distribution theorems have narrower quantifiers than the statement above.

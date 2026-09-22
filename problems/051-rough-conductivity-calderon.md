@@ -2,7 +2,7 @@
 
 **Area:** Inverse problems / electrical impedance tomography
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-08
 
@@ -20,7 +20,7 @@ $$
 $$
 for every pair of such conductivities. No continuity, derivative, or known partition assumption is imposed.
 
-## Applied significance
+## Application
 
 This asks whether ideal boundary voltage/current measurements can distinguish arbitrary bounded heterogeneous conductors, including discontinuous tissue or material coefficients.
 
@@ -30,6 +30,12 @@ This asks whether ideal boundary voltage/current measurements can distinguish ar
 2. P. Caro, M. Á. García-Ferrero and K. M. Rogers, *Reconstruction for the Calderón problem with Lipschitz conductivities*, Analysis & PDE **18** (2025), 2033–2060, introduction and main theorem. [Paper](https://doi.org/10.2140/apde.2025.18.2033); [preprint](https://arxiv.org/abs/2401.06120).
 
 ## Status review
+
+**Known cases:** Uniqueness and reconstruction are established for Lipschitz conductivities, which belong to the displayed bounded measurable class.
+
+**Remaining target:** Uniqueness for arbitrary uniformly positive bounded measurable conductivities in three dimensions.
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Uhlmann identifies rough-conductivity uniqueness as open; the older discussion also includes Lipschitz coefficients, which have since been resolved. The 2025 paper explicitly explains that higher-dimensional uniqueness still requires regularity and proves reconstruction for Lipschitz conductivities. That theorem does not cover arbitrary $L^\infty$ coefficients. The two-dimensional bounded-conductivity theorem is also outside this three-dimensional statement.
 

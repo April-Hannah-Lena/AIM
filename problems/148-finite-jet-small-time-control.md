@@ -2,6 +2,10 @@
 
 **Area:** Nonlinear control / local system identification
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $n\ge3$ and let $X_0,\ldots,X_m$ be real-analytic vector fields near $0\in\mathbb R^n$, with $X_0(0)=0$. Controls are measurable maps into $[-1,1]^m$, and trajectories satisfy
@@ -21,7 +25,7 @@ $$
 
 has the same controllability property with the same control set? Here $\alpha$ is a multi-index; $N$ may depend on the original system.
 
-## Applied significance
+## Application
 
 The conjecture asks whether finitely many locally measured Taylor coefficients can certify a nonlinear system's ability to move in every nearby direction in arbitrarily short time.
 
@@ -32,8 +36,10 @@ The conjecture asks whether finitely many locally measured Taylor coefficients c
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** Finite-jet determination is established under a polynomial lower-growth condition on reachable neighborhoods.
 
-**Last checked:** 2026-09-08
+**Remaining target:** Finite-jet determination for all the stated real-analytic controllable systems in dimensions at least three.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Jafarpour records the conjecture as open for $n\ge3$, and proves it under a polynomial lower-growth condition on reachable neighborhoods. The planar case is established. Searches included “finite jet small-time local controllability conjecture solved 2026” and “Jafarpour finite differentiations controllability Beauchard Marbach”. The 2026 obstruction theorems do not establish finite-jet determination for all analytic systems.

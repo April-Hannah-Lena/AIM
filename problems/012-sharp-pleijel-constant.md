@@ -2,6 +2,10 @@
 
 **Area:** Nodal domains and spectral complexity
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^2$ be any bounded connected domain with piecewise smooth Lipschitz boundary. Choose any real orthonormal Dirichlet eigenbasis $(u_k)$, ordered by nondecreasing eigenvalue with multiplicity. Let $\nu(u_k)$ be the number of connected components of $\Omega\setminus\{u_k=0\}$. Prove or disprove
@@ -10,7 +14,7 @@ $$\limsup_{k\to\infty}\frac{\nu(u_k)}{k}\le\frac2\pi.$$
 
 The assertion is uniform in the choice of domain and eigenbasis. The proposed constant is attained asymptotically by rectangular examples.
 
-## Applied significance
+## Application
 
 This would give the optimal asymptotic bound on how many sign-coherent vibration cells a planar mode can contain, improving complexity estimates based on Courant’s theorem.
 
@@ -22,9 +26,7 @@ This would give the optimal asymptotic bound on how many sign-coherent vibration
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Bobkov explicitly records the 2/π conjecture and the sharp rectangular examples. Han's notes retain it as the conjectural constant. Improvements below the classical 4/j₀,₁² bound and Pleijel theorems for other operators do not attain 2/π in this class.
 

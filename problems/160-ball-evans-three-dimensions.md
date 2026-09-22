@@ -2,6 +2,10 @@
 
 **Area:** Nonlinear elasticity and approximation
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For every pair of bounded domains $\Omega,\Delta\subset\mathbb R^3$, every $1\le p<\infty$, and every orientation-preserving homeomorphism $f:\Omega\to\Delta$ belonging to $W^{1,p}(\Omega;\mathbb R^3)$, do there exist smooth diffeomorphisms $f_j:\Omega\to\Delta$ such that
@@ -12,9 +16,9 @@ $$
 
 Decide this statement in dimension three; a negative answer may specify an exponent and a homeomorphism for which approximation fails. Boundary equality is not an additional requirement in this formulation.
 
-## Applied significance
+## Application
 
-This asks whether injective elastic deformations with finite Sobolev energy can be approximated by smooth injective deformations.
+In nonlinear elasticity, injectivity prevents distinct material points from occupying the same position. The conjecture tests whether smooth deformation models can approximate every admissible three-dimensional Sobolev deformation while preserving that constraint and controlling the deformation gradient, a foundation for variational approximation of elastic bodies.
 
 ## References
 
@@ -26,8 +30,6 @@ This asks whether injective elastic deformations with finite Sobolev energy can 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Hencl states the general three-dimensional question as open. Searches for “Ball Evans approximation problem 2025 2026 diffeomorphisms” and “diffeomorphic approximation of piecewise affine homeomorphisms 2026” found the significant 2026 smoothing result. It does not construct piecewise affine approximations of arbitrary Sobolev homeomorphisms, so it does not settle this entry. Known low-exponent counterexamples in dimensions at least four are outside its scope.

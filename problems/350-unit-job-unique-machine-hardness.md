@@ -2,7 +2,7 @@
 
 **Area:** Scheduling and approximation complexity
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -34,7 +34,7 @@ $$
 
 on every instance and run in time polynomial in the explicit input length. NP-hardness is meant under polynomial-time reductions; it would rule out such a deterministic algorithm if $\mathsf P\ne\mathsf{NP}$. The conjecture asks for a fixed positive exponent, not merely exact optimization hardness or a fixed constant approximation barrier. It is Conjecture 1.1 in the published original [1], numbered Conjecture 2 in its preprint.
 
-## Applied significance
+## Application
 
 This model describes dependent computational or production tasks whose locations are already fixed: each operation must use its assigned processor or piece of equipment, and dependencies determine which results must be available before another operation begins. Scheduling still requires choosing compatible orders on the machines. Equal durations isolate the difficulty caused by dependencies and fixed assignments.
 
@@ -47,6 +47,8 @@ The conjecture asks whether even a guarantee that deteriorates as a power of wor
 3. Rajmohan Rajaraman, David Stalfa and Sheng Yang, *Scheduling Under Non-Uniform Job and Machine Delays*, ICALP 2023, LIPIcs **261**, 98:1–98:20. [Published paper](https://drops.dagstuhl.de/storage/00lipics/lipics-vol261-icalp2023/LIPIcs.ICALP.2023.98/LIPIcs.ICALP.2023.98.pdf), DOI 10.4230/LIPIcs.ICALP.2023.98. Definition 1; Theorems 1, 3 and 4, pp. 98:3–98:6.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-18. The original published paper [1] explicitly poses the conjecture. The independently authored July 2026 preprint [2] repeats it and identifies its own results as progress toward it.
 

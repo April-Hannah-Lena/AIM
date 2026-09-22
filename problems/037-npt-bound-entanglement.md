@@ -2,7 +2,7 @@
 
 **Area:** Quantum information and positive operators
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ Does there exist a density matrix $\rho\ge0$, $\operatorname{tr}\rho=1$, on some
 $$\langle v,(\rho^{T_B})^{\otimes k}v\rangle\ge0?$$
 Here $T_B$ transposes matrix entries on the second tensor factor in a fixed product basis. Schmidt rank is the rank of the coefficient matrix of $v$. The all-$k$ condition is the finite-copy criterion for nondistillability under local operations and classical communication.
 
-## Applied significance
+## Application
 
 The answer determines whether some negative-partial-transpose entanglement can never be converted into usable maximally entangled pairs, even when arbitrarily many identical copies are available.
 
@@ -22,6 +22,8 @@ The answer determines whether some negative-partial-transpose entanglement can n
 2. T. C. Fraser, F. Huber, B. Pozsgay and I. Vona, [On the two-copy distillability of Werner states and a new partial trace inequality](https://arxiv.org/abs/2607.24309), 2026. Resolves the two-copy Werner subproblem.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. The July 2026 result establishes two-copy undistillability for the stated Werner region. This is progress toward the all-copy problem, not proof of an NPT state satisfying the criterion for every k. Searches did not locate a general all-copy existence or impossibility theorem.
 

@@ -2,7 +2,7 @@
 
 **Area:** Interacting particles and conditioned diffusion
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-19
 
@@ -23,7 +23,7 @@ $$
 $$
 Equivalently, must there almost surely be only finitely many resampling events in every finite time interval? The population size remains $N$ throughout the construction; the possible failure is accumulation of infinitely many events at a finite time. The question concerns each fixed finite $N$, with no drift, reflection or change to the resampling rule.
 
-## Applied significance
+## Application
 
 Resampling lets a particle population approximate the distribution of a diffusion conditioned to remain inside a region: a path that exits is replaced by a surviving path's current state. For Brownian motion this connects the particle method to the heat equation with absorbing, or Dirichlet, boundary conditions. Related stationary particle methods approximate quasi-stationary distributions and the first Dirichlet eigenfunction. Non-explosion is a prerequisite for running the prescribed continuous-time simulation for any finite duration. Removing geometric boundary assumptions would extend this foundation to irregular regions. Accuracy, convergence to equilibrium and large-population limits require their own hypotheses and estimates.
 
@@ -38,6 +38,8 @@ Resampling lets a particle population approximate the distribution of a diffusio
 - [Lucas Journel and Pierre Monmarché, *Uniform convergence of the Fleming–Viot process in a hard killing metastable case*, Annals of Applied Probability 35 (2025), 1019–1048; arXiv:2207.02030v3, November 21, 2024](https://arxiv.org/pdf/2207.02030v3), Assumptions 1–2 and Theorems 1–2.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-19. Burdzy's Problem 6 explicitly poses the bounded-domain question. Kwaśnicki's independently authored Remark 1.2 retains the question for more than two particles. His Corollary 1.4 establishes non-explosion for two Brownian particles from every interior initial configuration, including coincident positions; the almost-everywhere qualification in the more general Theorem 1.1 is therefore not a remaining Brownian obstruction.
 

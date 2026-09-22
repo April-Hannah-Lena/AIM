@@ -1,9 +1,10 @@
 # 452. Interior bounds for stable elliptic states with sign-changing reaction laws
 
 **Area:** Semilinear elliptic PDEs and reaction equilibria
-**Status:** Open in cited literature; no later resolution located.
-**Last checked:** 2026-09-22
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-22
 ## Problem statement
 
 For each $d\in\{6,7,8,9\}$, does there exist $C_d<\infty$ such that, for every $f\in C^1(\mathbb R)$ and every $u\in C^2(B_1)$ satisfying
@@ -12,7 +13,7 @@ one has
 $$\|u\|_{L^\infty(B_{1/2})}\le C_d\|u\|_{W^{1,2}(B_1)}?$$
 Here $B_r\subset\mathbb R^d$ is a centered ball, stability means the displayed nonnegative second-variation inequality, and no sign assumption is imposed on $f$ or $u$. The constant must be independent of the reaction law.
 
-## Applied significance
+## Application
 
 Stable stationary reaction-diffusion patterns can have both production and depletion regimes. A uniform estimate would rule out concentration in dimensions below ten without requiring the reaction to have one sign.
 
@@ -22,5 +23,7 @@ Stable stationary reaction-diffusion patterns can have both production and deple
 2. F. Peng, Y. R.-Y. Zhang and Y. Zhou, [Interior Hölder regularity for stable solutions to semilinear elliptic equations up to dimension 5](https://arxiv.org/abs/2204.06345), preprint (2022), main interior estimate and discussion of dimensions 6–9.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The survey identifies the missing interior boundedness estimate in dimensions 6–9 when f may change sign. The Peng–Zhang–Zhou theorem handles dimensions at most five with a W1,2 norm. Review-date searches for sign-changing stable solutions and later higher-dimensional interior estimates found no proof of the displayed universal bound. Entire-space Liouville theorems under special assumptions on the zeros of f have different hypotheses.

@@ -2,7 +2,7 @@
 
 **Area:** Operations research and directed routing
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -34,7 +34,7 @@ $$
 
 This is the asymmetric traveling-salesman subtour integrality-gap conjecture. Known families have ratios approaching two, so the unresolved direction is this uniform upper bound. The inequality also covers zero-cost instances without division by zero. It asks for the existence of a tour with the stated cost; no efficient construction is required.
 
-## Applied significance
+## Application
 
 Directed routing models allow travel costs to depend on direction, as with one-way roads and direction-dependent journey times. Shortest-path costs in a strongly connected nonnegative road network satisfy the directed triangle inequality. The subtour LP provides a lower bound on the optimal tour cost. Determining its worst-case gap would identify the accuracy of this certificate and a target for rounding fractional routing solutions. The directed model differs from the symmetric metric model in [entry 285](285-metric-tsp-four-thirds.md).
 
@@ -46,6 +46,8 @@ Directed routing models allow travel costs to depend on direction, as with one-w
 4. Tolson Bell and Alan M. Frieze, *Solving a Random Asymmetric TSP Exactly in Quasi-Polynomial Time w.h.p.*, [arXiv:2308.02946v15](https://arxiv.org/html/2308.02946v15), revised July 28, 2026, §1, Theorem 1 and §2.1. The exact algorithm has a random-instance scope.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-17. Vygen's Theorem 1 gives a tour costing at most $(12+2\sqrt2+\varepsilon)$ times the LP value for every fixed $\varepsilon>0$. Consequently the integrality gap is at most $12+2\sqrt2\approx14.828$. This improves the older bound of 17 reported in the book and in the June 2026 computational paper. The book establishes equivalence between the degree-constrained metric LP here and its balanced-circulation formulation for closed walks.
 

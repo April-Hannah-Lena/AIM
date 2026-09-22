@@ -2,7 +2,7 @@
 
 **Area:** Combinatorial optimization and network modification
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -33,7 +33,7 @@ $$
 
 The extrema are integral and unweighted. The bound must hold exactly, without an additive error or a restriction on graph size, degree or density. This is an existence assertion; it does not require a polynomial-time algorithm. The constant cannot be reduced: the complete graph $K_4$ has packing number one and covering number two. [1, 2]
 
-## Applied significance
+## Application
 
 This is a packing–covering question in combinatorial optimization. In its network-modification interpretation, one wants to disable every three-link closed interaction by deleting as few links as possible. An edge-disjoint family of triangles certifies a necessary deletion budget, since each member needs a different deleted edge. The conjecture asks whether the optimal budget is always at most twice the strongest such certificate.
 
@@ -51,6 +51,8 @@ Equivalently, form a hypergraph whose vertices are the network edges and whose h
 8. Épi Team / Bake AI, *Tuza's inequality with three neighborhood types*, public research artifact, [released statement and proof outline](https://github.com/BakeLab/Epi-results/blob/97fa6a420f417458e11723c8bceb70f1529e447a/mathematics/tuza/PROOF.md), revision of September 14, 2026. Opening theorem and the classification, finite-certificate and arbitrary-multiplicity sections.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-18. Krivelevich gives the full formulation, while the independently authored 2026 paper [3] retains it and reports Haxell's general bound $\tau_\triangle\leq(66/23)\nu_\triangle$. The unresolved target is the exact factor two for every graph.
 

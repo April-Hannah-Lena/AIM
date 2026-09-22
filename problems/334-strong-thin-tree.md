@@ -2,7 +2,7 @@
 
 **Area:** Network design and combinatorial optimization
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -19,7 +19,7 @@ $$
 
 The same tree must satisfy every cut inequality, and $C$ must be independent of $k$, $G$ and $|V|$. Edges are unweighted. This is the strong thin-tree conjecture; the question requires existence, without an efficient construction or verification algorithm. Goddyn's weaker version permits an arbitrary thinness bound tending to zero with connectivity. It is included here as context, without a separate count or a claim of equivalence. [1, 2]
 
-## Applied significance
+## Application
 
 A spanning tree supplies a connected backbone in a communication or transport network. Thinness limits the fraction of available links that this backbone uses across every partition of the network. A positive answer would also guarantee that, when $k>C$, removing the tree leaves edge connectivity at least $k-C$: every remaining cut has at least $(1-C/k)|\delta_G(S)|$ edges. This connects the conjecture to preserving network redundancy while reserving a connected subnetwork. [1]
 
@@ -34,6 +34,8 @@ Thin trees also support rounding arguments for asymmetric routing. An existence 
 5. Alireza Haqi and Shayan Oveis Gharan, *On Thin Perfect Matchings up to Polylogarithmic Factors*, [arXiv:2606.01330v2](https://arxiv.org/html/2606.01330v2), revised July 1, 2026, preprint, Lemma 1.2 and Theorems 1.3–1.4.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-18. The July 2026 publication [1] explicitly retains the strong conjecture. The general bound in [2, Corollary 1.8] has a numerator polynomial in $\log\log |V|$, so it does not give the required absolute constant. Spectral thinness imposes inequalities for all real vectors and is stronger than the cut condition here; spectral counterexamples do not refute this statement.
 

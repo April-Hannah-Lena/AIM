@@ -2,7 +2,7 @@
 
 **Area:** Quantum information and correlation preparation
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-19
 
@@ -35,7 +35,7 @@ $$
 
 The left-hand side groups $A,C$ with one party and $B,D$ with the other, and allows arbitrary joint purifications. Products of separate minimizing purifications give the $\le$ direction. The question is whether strict inequality ever occurs. It concerns the ordinary von Neumann entropy and includes all mixed states; classical states and identical factors are special cases of this one question.
 
-## Applied significance
+## Application
 
 Two separated laboratories can prepare many copies of a correlated state using shared maximally entangled qubit pairs, local operations and a communication rate tending to zero. The optimal asymptotic number of pairs consumed per copy is
 
@@ -55,6 +55,8 @@ This is a cost for creating both classical and quantum correlations. General add
 5. Amir-Reza Negari and Zahra Baghali Khanian, *Rényi Entanglement of Purification Is Non-additive*, [preprint v1](https://arxiv.org/html/2608.28897v1), August 28, 2026. §I, Theorems 1–3, Appendix C.2 and §V Outlook.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Chen–Winter explicitly formulate the general question and give strong numerical evidence against additivity for two-qubit Werner states. Their Theorem 3 proves a convexity property of the regularized quantity minus entropy. The numerical minimization supplies feasible upper bounds; the missing rigorous lower bound for the one-copy optimum is acknowledged in §IV. Their title therefore does not constitute a rigorous counterexample to the displayed equality. Bagchi–Pati prove the general upper-bound direction and retain the strict-inequality question.
 

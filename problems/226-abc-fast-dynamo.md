@@ -2,7 +2,7 @@
 
 **Area:** Magnetohydrodynamics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -16,7 +16,7 @@ Prove or disprove that this fixed velocity field is a fast kinematic dynamo in t
 $$\liminf_{\eta\downarrow0}s(\eta)>0.$$
 The velocity and its three coefficients remain fixed while diffusivity tends to zero.
 
-## Applied significance
+## Application
 
 This asks whether a standard model of three-dimensional chaotic advection amplifies a weak magnetic field at a rate that survives the high-conductivity limit.
 
@@ -26,5 +26,7 @@ This asks whether a standard model of three-dimensional chaotic advection amplif
 - Massimo Sorella and David Villringer, [*A limsup fast dynamo on $\mathbb T^3$*](https://arxiv.org/html/2511.23024v2) (2025 preprint), abstract and §§2–3: the unresolved stronger fast-dynamo question and the distinction between fixed ABC flows and the constructed time-dependent flow.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “ABC fast dynamo rigorous proof”, “unit ABC spectral growth diffusivity 2025 2026”, and recent fast-dynamo constructions. The Sorella–Villringer result concerns a time-dependent Lipschitz velocity and a limsup formulation. It does not establish the positive liminf above for the fixed unit ABC field; finite-resolution growth-rate computations also do not establish that limit.

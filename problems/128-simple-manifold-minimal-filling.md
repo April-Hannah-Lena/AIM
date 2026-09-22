@@ -2,6 +2,10 @@
 
 **Area:** Geometric analysis / travel-time bounds
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 A compact Riemannian manifold $(M^n,g)$ is simple if its boundary is strictly convex and any two points are joined by a unique minimizing geodesic depending smoothly on its endpoints. Is every such manifold, for $n\ge2$, a minimal filling in the following sense?
@@ -14,7 +18,7 @@ $$
 
 Must $\operatorname{Vol}_h(N)\ge\operatorname{Vol}_g(M)$? The topology of $N$ is unrestricted; no equality-case rigidity is requested.
 
-## Applied significance
+## Application
 
 The conjecture would turn boundary travel times into a sharp lower bound on the amount of material or geometric volume inside an inaccessible region.
 
@@ -26,8 +30,6 @@ The conjecture would turn boundary travel times into a sharp lower bound on the 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 Ivanov explicitly states the conjecture. Two-dimensional disc-filling results must not be read as results for fillings of arbitrary topology. Searches included “simple manifold minimal filling conjecture solved 2025 2026” and “Gromov filling area Briggs Wells 2026”. The February 2026 improvement remains a lower bound rather than the conjectured sharp filling-area theorem. That closely related question is not counted as a second entry here.

@@ -2,7 +2,7 @@
 
 **Area:** Statistical inference and average-case computational complexity
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -20,7 +20,7 @@ $$
 
 The probabilities include the algorithm's internal randomness. The algorithm and $\varepsilon$ are fixed before taking the limit; polynomial time is measured in the adjacency-matrix input size. Thus no such algorithm achieves a nonvanishing advantage over guessing under equal prior probabilities. The conjecture permits advantages tending to zero and is a detection question: the algorithm need not identify the planted vertices. This fixed power-law formulation is contained explicitly in the sequence formulation of Brennan–Bresler–Huleihel and Huleihel–Mazumdar–Pal.
 
-## Applied significance
+## Application
 
 This is a basic model of detecting a dense anomalous group in a noisy network. It also supplies a conjectural foundation for reductions explaining why statistically detectable signals may remain hard to find efficiently, including submatrix detection and sparse inference. Such consequences remain conditional on the hardness conjecture.
 
@@ -32,6 +32,8 @@ This is a basic model of detecting a dense anomalous group in a noisy network. I
 4. K. Avrachenkov, A. Bobu, N. Litvak and R. Michielan, [*Planted clique recovery in random geometric graphs*](https://arxiv.org/html/2510.12365v2), arXiv:2510.12365v2, revised April 9, 2026; §§1–2 and Theorem 4. Published in Journal of Complex Networks **14**(4) (2026), cnag025, DOI 10.1093/comnet/cnag025; cited author-manuscript version.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The September 17, 2026 review searched planted/hidden-clique aliases, Jerrum and Kučera spellings, detection and square-root wording, proof/disproof terms, 2025–2026 developments, unrestricted results, corrections and version records. The exact risk conjecture is stated in the first two references. Independent work of Hirahara–Shimizu proves relations among variants without proving the hardness assertion. The April 2026 geometric-graph paper also distinguishes established lower bounds for particular algorithms from the unresolved general Erdős–Rényi barrier.
 

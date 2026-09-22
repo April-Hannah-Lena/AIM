@@ -2,7 +2,7 @@
 
 **Area:** Nonlocal diffusion PDEs; coercivity of interaction energies
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -16,7 +16,7 @@ $$\iint_{\mathbb R^n\times\mathbb R^n}|v(x)-v(z)|^2K(x,z)\,dx\,dz
 \ge c\iint_{\mathbb R^n\times\mathbb R^n}\frac{|v(x)-v(z)|^2}{|x-z|^{n+2s}}\,dx\,dz?$$
 No regularity of $K$ in the base point and no lower bound on the measure of directions carrying a pointwise kernel lower bound are assumed.
 
-## Applied significance
+## Application
 
 The inequality would turn local directional information about long-range interactions into a global dissipation estimate for heterogeneous media and kinetic diffusion.
 
@@ -27,5 +27,7 @@ The inequality would turn local directional information about long-range interac
 2. J. Chaker and L. Silvestre, *Coercivity estimates for integro-differential operators*, Calc. Var. PDE **59**, 106 (2020). [Article](https://doi.org/10.1007/s00526-020-01764-y).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The book poses this precise coercivity question immediately after Open Question 2.1 in §2.8.1 and explains its link to divergence-form regularity. Searches on 2026-09-22 checked coercivity under annular second-moment bounds and later work on singular kernels. Known results require additional thickness or energy-comparability assumptions. This entry concerns the symmetric quadratic form, unlike the separate nondivergence-form pointwise equation.

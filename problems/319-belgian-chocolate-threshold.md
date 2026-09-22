@@ -2,7 +2,7 @@
 
 **Area:** Feedback control and polynomial stability
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -26,7 +26,7 @@ $$
 
 The polynomial degrees are arbitrary finite integers, and coefficients are arbitrary real numbers. Stability is strict. The question asks for the sharp threshold over all degrees, with matching feasibility and impossibility arguments, rather than an optimum within a prescribed controller family. It is a supremum: the endpoint need not be attained by a pair of strictly stable polynomials.
 
-## Applied significance
+## Application
 
 For the plant $G_\delta(s)=(s^2-1)/(s^2-2\delta s+1)$, the quotient $y/x$ represents a proper, stable, minimum-phase linear time-invariant controller. The displayed combination is its closed-loop characteristic polynomial under negative feedback. The problem tests stabilization limits when an unstable pole approaches an unstable zero, a difficulty that also arises in engineering control design.
 
@@ -38,6 +38,8 @@ For the plant $G_\delta(s)=(s^2-1)/(s^2-2\delta s+1)$, the quotient $y/x$ repres
 4. Patrizio Colaneri and Didier Henrion, *Switching and periodic control of the Belgian chocolate system*, IFAC ROCOND 2006, [author manuscript](https://homepages.laas.fr/henrion/papers/chocoswitch.pdf), §§3–5.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Charles–Boston report feasibility for every $0<\delta\le0.9808348$. Their finite-degree constructions and perturbations of polynomials with imaginary-axis roots do not identify the unrestricted threshold. Bergweiler–Eremenko prove $\delta_*<0.999579$, leaving a gap. Eremenko’s separate problem note asks for the corresponding extremal constant in the unit disk.
 

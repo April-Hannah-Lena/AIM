@@ -2,7 +2,7 @@
 
 **Area:** Matrix-valued transport tomography
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -22,7 +22,7 @@ A_2=Q^{-1}A_1Q+Q^{-1}dQ,\qquad
 \Phi_2=Q^{-1}\Phi_1Q?
 $$
 
-## Applied significance
+## Application
 
 This is identifiability of coupled polarization or internal-state transport along externally forced rays, modulo the unavoidable change of internal basis.
 
@@ -32,5 +32,7 @@ This is identifiability of coupled polarization or internal-state transport alon
 2. Yernat M. Assylbekov and Franklin T. Rea, *The Attenuated Ray Transforms on Gaussian Thermostats with Negative Curvature* (2021 preprint). [Preprint](https://arxiv.org/abs/2102.04571).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Jathar–Kar–Railo explicitly leave the unitary injectivity problem for simple Gaussian thermostats open, while proving the magnetic-flow case and a reduction for thermostats. Assylbekov–Rea impose negative thermostat curvature, a restriction absent above. Searches on 2026-09-08: "nonabelian Gaussian thermostats open" and "nonabelian Gaussian thermostats 2026". No general simple-thermostat resolution was located.

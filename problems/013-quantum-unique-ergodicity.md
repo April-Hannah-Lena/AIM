@@ -2,6 +2,10 @@
 
 **Area:** Quantum chaos
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $(M,g)$ be any closed connected smooth Riemannian manifold of dimension at least two with strictly negative sectional curvature. For every sequence of $L^2$-normalized eigenfunctions $u_j$ with $-\Delta_g u_j=\lambda_j u_j$ and $\lambda_j\to\infty$, put $h_j=\lambda_j^{-1/2}$. Prove or disprove that, for every smooth compactly supported symbol $a$ on $T^*M$,
@@ -10,7 +14,7 @@ $$\langle\operatorname{Op}_{h_j}(a)u_j,u_j\rangle\longrightarrow\int_{S^*M}a\,dL
 
 where $S^*M=\{(x,\xi):|\xi|_g=1\}$, $L$ is normalized Liouville measure, and $\operatorname{Op}_h$ is any standard semiclassical quantization. The limit is required for every sequence, without discarding exceptional eigenfunctions.
 
-## Applied significance
+## Application
 
 QUE predicts uniform phase-space energy distribution in high-frequency chaotic modes and rules out persistent concentration on a small family of classical rays.
 
@@ -21,9 +25,7 @@ QUE predicts uniform phase-space energy distribution in high-frequency chaotic m
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2023 exposition describes the general conjecture as open. The 2025 paper likewise distinguishes it from density-one quantum ergodicity and from special arithmetic results. The displayed phase-space formulation is stronger than equidistribution against position-only observables; graph and arithmetic theorems do not settle arbitrary negatively curved manifolds.
 

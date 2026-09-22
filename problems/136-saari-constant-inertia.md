@@ -2,6 +2,10 @@
 
 **Area:** Celestial mechanics / rigid gravitational motions
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Fix $N\ge4$ and masses $m_1,\ldots,m_N>0$. Let collision-free planar positions $q_i:J\to\mathbb R^2$ solve Newton's equations on an open time interval $J$:
@@ -13,7 +17,7 @@ $$
 
 If the polar moment of inertia $I(t)=\sum_i m_i|q_i(t)|^2$ is constant, must the solution be a relative equilibrium? That is, must there be a constant $\omega$ such that $q_i(t)=R_{\omega(t-t_0)}q_i(t_0)$ for all $i,t$, where $R_\theta$ is planar rotation by $\theta$?
 
-## Applied significance
+## Application
 
 This asks whether constant spatial spread forces an isolated gravitational system into rigid rotation, connecting observable bulk quantities with the classification of orbital motions.
 
@@ -25,8 +29,6 @@ This asks whether constant spatial spread forces an isolated gravitational syste
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 The planar three-body and collinear cases are established. Tibboel withdrew the general proof on March 22, 2024, reporting an incorrect main theorem and a proof error. Searches included “Saari conjecture planar n body 2025 2026 proof”, “Saari constant moment inertia solution” and “Tibboel Saari withdrawal”. No later valid general resolution was located.

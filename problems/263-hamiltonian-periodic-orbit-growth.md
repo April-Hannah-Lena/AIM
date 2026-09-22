@@ -2,6 +2,10 @@
 
 **Area:** Hamiltonian dynamics / recurrent mechanical motion
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $(M^{2n},\omega)$ be a closed connected symplectic manifold and $\phi$ the time-one map of a smooth time-periodic Hamiltonian on $M$. Let $P(T)$ count distinct primitive periodic orbits of $\phi$ whose least integer period is at most $T$; points on the same orbit and repeated traversals are counted only once. Allow $P(T)=\infty$.
@@ -14,7 +18,7 @@ $$
 
 always true, with $\log\infty=\infty$?
 
-## Applied significance
+## Application
 
 The statement would give a universal lower rate at which distinct resonances appear as the observation period increases in periodically forced conservative systems.
 
@@ -25,8 +29,6 @@ The statement would give a universal lower rate at which distinct resonances app
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2026 problem collection distinguishes this quantitative assertion from the mere existence of infinitely many periodic orbits and discusses weaker prime-counting growth in several higher-dimensional settings. Searches included “Hamiltonian diffeomorphism quadratic periodic orbit growth 2026”, “Albach Hryniewicz Oancea Problem 1”, and “quadratic growth Hamiltonian counterexample”. No general proof or counterexample was located.

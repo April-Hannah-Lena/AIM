@@ -2,6 +2,10 @@
 
 **Area:** Nonlinear PDE control / reaction-diffusion
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^d$ be a bounded connected smooth domain, and let $\omega\Subset\Omega$ be a nonempty open actuator region. For every $T>0$ and every $y_0\in L^\infty(\Omega)$, does there exist $u\in L^\infty((0,T)\times\omega)$ such that
@@ -15,7 +19,7 @@ has a bounded weak solution throughout $[0,T]$ satisfying $y(T,\cdot)=0$?
 
 The control amplitude may depend on $y_0$ and $T$; no fixed amplitude constraint is imposed. Global refers to arbitrary initial data, and successful control must prevent finite-time blow-up before reaching zero.
 
-## Applied significance
+## Application
 
 This is a minimal model of localized intervention in a self-amplifying thermal or chemical process. The question asks whether diffusion and an internal actuator can suppress every initial state within any prescribed time.
 
@@ -26,8 +30,10 @@ This is a minimal model of localized intervention in a self-amplifying thermal o
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** Local null controllability is established for sufficiently small initial data.
 
-**Last checked:** 2026-09-08
+**Remaining target:** Null controllability in every prescribed positive time for arbitrary bounded initial data, while preventing blow-up.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The recent paper proves local null controllability for small data; it does not remove the size restriction for the scalar growing odd-power reaction. The sign $+y^3$ matters: this is not an absorbing reaction. Searches included “global null controllability cubic heat equation 2025 2026”, “Coron Open Problems 7.14 7.15” and “odd power heat equation arbitrary initial data control”. No general global result was located.

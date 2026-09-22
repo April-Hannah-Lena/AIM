@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "groups": [
     {
       "key": "spectral",
@@ -619,7 +619,8 @@
       "title": "Finite-time singularity for smooth three-dimensional Euler flow without a boundary",
       "status": "Solution claimed",
       "reason": "Matching Euler blow-up resolution announced on 2026-09-08; held outside the active count pending independent review.",
-      "record": "research/expansion-2026-09-22/077-euler-claimed-resolution.md"
+      "record": "research/expansion-2026-09-22/077-euler-claimed-resolution.md",
+      "last_checked": "2026-09-22"
     }
   ]
 }

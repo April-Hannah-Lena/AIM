@@ -2,6 +2,10 @@
 
 **Area:** Quantum magnetism
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 For even $L\ge4$, let $\Lambda_L=(\mathbb Z/L\mathbb Z)^2$. At every site put spin operators $S_x^a=\sigma_x^a/2$, where
@@ -11,7 +15,7 @@ $$H_L=\sum_{\{x,y\}\text{ nearest neighbors}}\sum_{a=1}^3S_x^aS_y^a$$
 on $\bigotimes_{x\in\Lambda_L}\mathbb C^2$, with each bond counted once. Set $\eta_x=(-1)^{x_1+x_2}$. Prove or disprove
 $$\liminf_{\substack{L\to\infty\\L\text{ even}}}\frac1{L^4}\sum_{x,y\in\Lambda_L}\eta_x\eta_y\langle\psi_L,\mathbf S_x\cdot\mathbf S_y\psi_L\rangle>0.$$
 
-## Applied significance
+## Application
 
 The predicted magnetic order underlies descriptions of insulating copper-oxide layers and provides a benchmark for quantum simulation of antiferromagnets.
 
@@ -23,9 +27,7 @@ The predicted magnetic order underlies descriptions of insulating copper-oxide l
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Löw’s result uses high-precision Monte Carlo input; it is not a proof with fully certified bounds on that input. The unconditional inequality above remains the target. Positive-temperature nonordering in two dimensions does not address this ground-state limit.
 

@@ -2,7 +2,7 @@
 
 **Area:** Phase transitions
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -19,7 +19,7 @@ u(x)=\tanh\!\left(\frac{a\cdot x-b}{\sqrt2}\right)?
 $$
 Do not assume prescribed limits as $x_5\to\pm\infty$, minimizing energy, or an additional energy-growth bound. This is the original monotone De Giorgi question specialized to five dimensions.
 
-## Applied significance
+## Application
 
 The Allen–Cahn equation models diffuse phase interfaces. The assertion would force every globally monotone stationary interface in this dimension to be planar.
 
@@ -29,6 +29,8 @@ The Allen–Cahn equation models diffuse phase interfaces. The assertion would f
 - [Enric Florit-Simon and Joaquim Serra, *On stable solutions to the Allen-Cahn equation with bounded energy density in R⁴* (2025), introduction and main theorem](https://arxiv.org/abs/2509.02739).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 classification has both a dimension restriction and a bounded-energy-density hypothesis. It does not automatically provide the required control of the four-dimensional end states of an arbitrary monotone solution in R⁵. The original unrestricted dimension-five question, rather than the already-established additional-hypothesis versions, is retained.
 

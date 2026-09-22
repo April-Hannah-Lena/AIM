@@ -2,7 +2,7 @@
 
 **Area:** PDE control / advection–diffusion
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -16,7 +16,7 @@ Is it true that for every $T>L/M$,
 $$\lim_{\varepsilon\downarrow0}C(T,\varepsilon)=0?$$
 The actuator is at the inflow endpoint and $M$ is strictly positive.
 
-## Applied significance
+## Application
 
 Advection carries a contaminant or temperature perturbation out of a channel in time L/M. The problem asks whether arbitrarily small diffusion changes that sharp control horizon or requires nonvanishing actuation after the flushing time.
 
@@ -27,5 +27,7 @@ Advection carries a contaminant or temperature perturbation out of a channel in 
 3. P. Lissy, *Explicit lower bounds for the cost of fast controls for some 1-D parabolic or dispersive equations, and a new lower bound concerning the uniform controllability of the 1-D transport-diffusion equation*, Journal of Differential Equations 259 (2015), 5331–5352, Theorem 1.3 and comparison with positive transport. [Author PDF](https://cermics.enpc.fr/~lissyp/Publi/chal.pdf).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The negative-velocity part of the original Coron–Guerrero conjecture has been disproved and is deliberately absent from this formulation. The 2023 treatment still records a gap between the positive-velocity lower and upper times. Searches through 22 September 2026 found no matching resolution for T>L/M; Lissy’s August 2026 arXiv:2608.08041 establishes a heat-control cost coefficient, not the displayed transport limit.

@@ -2,7 +2,7 @@
 
 **Area:** Reaction–diffusion PDEs / chemical kinetics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -15,7 +15,7 @@ $$M_1=\int_\Omega(a_0+c_0),\qquad M_2=\int_\Omega(b_0+c_0),$$
 and assume $M_2\le M_1<2M_2$. Is it true that
 $$\lim_{t\to\infty}\left[\|a(t)-M_1/2\|_\infty+\|b(t)-(M_2-M_1/2)\|_\infty+\|c(t)-M_1/2\|_\infty\right]=0?$$
 
-## Applied significance
+## Application
 
 A catalyst can become depleted at a boundary equilibrium even when a positive chemical equilibrium exists. This model asks whether spatial diffusion and positive initial concentrations always sustain the catalyst and select the active equilibrium.
 
@@ -25,5 +25,7 @@ A catalyst can become depleted at a boundary equilibrium even when a positive ch
 2. K. Fellner, J. Morgan and B. Q. Tang, *Uniform-in-time bounds for quadratic reaction-diffusion systems with mass dissipation in higher dimensions*, Discrete and Continuous Dynamical Systems, Series S 14 (2021), 635–651, main boundedness theorem. [DOI](https://doi.org/10.3934/dcdss.2020334).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The July 2026 paper proves boundedness, local stability of the positive equilibrium and instability of the boundary equilibrium, but states global attraction as a conjecture. Its printed nonnegative-data wording includes a stationary boundary equilibrium; the present formulation explicitly restricts to strictly positive data, removing that immediate obstruction. The irreversible network is not complex balanced, so the complex-balanced global-attractor question is distinct. Searches through 22 September 2026 located no resolution.

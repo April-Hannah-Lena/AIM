@@ -2,6 +2,10 @@
 
 **Area:** Kinetic theory and plasma relaxation
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Fix $\beta>0$ and a smooth even potential $V$ on the unit torus $\mathbb T^3$ with nonnegative Fourier coefficients. Evolve particles $0,\ldots,N$ by $\dot X_j=V_j$, $\dot V_j=-N^{-1}\sum_{l\ne j}\nabla V(X_j-X_l)$. Initially particle $0$ has uniform position and velocity density $f^\circ\in C_c^\infty(\mathbb R^3)$; independently of particle $0$, the joint background density of particles $1,\ldots,N$ is proportional to
@@ -22,7 +26,7 @@ $$
 
 Uniform weak convergence means $\sup_{0\le\tau\le T}|\int\psi\,df_N(\tau)-\int\psi(v)f(\tau,v)\,dv|\to0$ for every $T<\infty$ and $\psi\in C_b(\mathbb R^3)$. Here $\widehat V(k)=\int_{\mathbb T^3}V(x)e^{-ik\cdot x}dx$ and $\delta$ is the one-dimensional Dirac distribution.
 
-## Applied significance
+## Application
 
 This asks whether the slow thermalization of a tagged charge emerges from deterministic interactions, including collective screening by the background.
 
@@ -36,8 +40,6 @@ This asks whether the slow thermalization of a tagged charge emerges from determ
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The November 2025 source explicitly leaves the full particle derivation open and proves a truncated-hierarchy model instead. Searches for “tagged particle Lenard Balescu 2026” and “Lenard Balescu thermalization full particle derivation” also found the February 2026 free-gas theorem. Its background particles do not interact as those above do; it therefore does not settle the screened limit.

@@ -2,7 +2,7 @@
 
 **Area:** Quantum information and channel simulation
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-17
 
@@ -25,7 +25,7 @@ $$
 
 Repeated channels are allowed. These rank-bounded channels are the generalized extreme points, meaning the closure of the extreme points of the convex set of channels; they need not themselves be extreme. The question requires exactly $n$ equal weights and exact equality of maps, with no unitality assumption. This is the strong Ruskai–Audenaert conjecture.
 
-## Applied significance
+## Application
 
 Quantum channels describe noisy quantum dynamics. Such a decomposition would implement any channel by choosing uniformly among $n$ simpler channels, each admitting an environment of dimension at most $m$ in a Stinespring implementation. This links classical randomness to the quantum resources needed for channel simulation. It is an existence question; an efficient procedure for finding the components is a further issue.
 
@@ -36,6 +36,12 @@ Quantum channels describe noisy quantum dynamics. Such a decomposition would imp
 3. Niranjan Kumar and Michael M. Wolf, *The Ruskai-Audenaert conjecture & equipartitions of positive operators*, [arXiv:2607.23066v1](https://arxiv.org/html/2607.23066v1), July 25, 2026. §2 Conjecture 1 and Corollary 2; §3 Theorems 3–5; §4 Theorems 6–7.
 
 ## Status review
+
+**Known cases:** The stated equal-weight decomposition is known for qubit inputs, qubit outputs, and classical-to-quantum or quantum-to-classical channels.
+
+**Remaining target:** Exactly the output dimension many equal-weight components of the stated Kraus-rank bound for every channel in arbitrary input and output dimensions.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Kumar–Wolf retain the general assertion as Conjecture 1. They prove it for qubit inputs and classical-to-quantum or quantum-to-classical channels, and on a set with nonempty interior in every dimension. Qubit outputs were already covered by the older argument. Their qutrit-to-qutrit result permits unequal weights. Their general equal-weight existence theorem allows more than $n$ components. None establishes the displayed universal statement. Their counterexamples to equal-weight decompositions into actual extreme points do not concern the larger class allowed here.
 

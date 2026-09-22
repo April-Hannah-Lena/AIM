@@ -2,7 +2,7 @@
 
 **Area:** Transport on random branching networks
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ Let $T$ be a Galton–Watson tree whose offspring distribution $(p_k)_{k\ge1}$ h
 $$v(\lambda)=\lim_{n\to\infty}\frac{d_T(X_n,\mathrm{root})}{n},$$
 the almost-sure deterministic speed. Must $v(\lambda_1)\ge v(\lambda_2)$ whenever $0<\lambda_1<\lambda_2<m$?
 
-## Applied significance
+## Application
 
 The question tests whether a stronger bias against outward motion necessarily reduces macroscopic transport through a random branching medium.
 
@@ -22,6 +22,12 @@ The question tests whether a stronger bias against outward motion necessarily re
 - [He Song, Longmin Wang and Kainan Xiang, *The speed of a biased walk on a Galton–Watson tree without leaves is monotonic for low values of bias* (2025)](https://www.cambridge.org/core/product/identifier/S002190022400113X/type/journal_article), restricted-bias progress.
 
 ## Status review
+
+**Known cases:** The cited 2025 theorem proves speed monotonicity on a restricted interval of low bias values.
+
+**Remaining target:** Monotonicity throughout the whole positive-speed interval for every finite-support offspring law in the statement.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The updated book retains the monotonicity question. The 2025 paper proves it on a restricted bias interval; that does not cover the whole positive-speed interval. This entry uses bounded offspring to give a concrete subclass and avoids the separately studied regularity of the speed function.
 

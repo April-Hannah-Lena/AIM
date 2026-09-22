@@ -2,6 +2,10 @@
 
 **Area:** Quantum magnetism
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 For each even integer $N\ge4$, put a three-dimensional spin space at every site of a periodic chain. On $\mathbb C^3$, indexed by $m=-1,0,1$, define $S^z|m\rangle=m|m\rangle$, $S^+|m\rangle=\sqrt{2-m(m+1)}|m+1\rangle$ (zero at $m=1$), $S^-=(S^+)^*$, $S^x=(S^++S^-)/2$, and $S^y=(S^+-S^-)/(2i)$. Let
@@ -10,7 +14,7 @@ $$H_N=\sum_{j=1}^{N}\sum_{a=x,y,z}S_j^aS_{j+1}^a,\qquad S_{N+1}^a=S_1^a.$$
 
 Write $E_0(N)<E_1(N)$ for its lowest two distinct eigenvalues. Prove or disprove that there is a constant $\Delta>0$, independent of even $N$, such that $E_1(N)-E_0(N)\ge\Delta$.
 
-## Applied significance
+## Application
 
 A positive excitation threshold distinguishes an integer-spin quantum magnet from a gapless chain and underlies the robustness of the Haldane phase in magnetic materials.
 
@@ -21,9 +25,7 @@ A positive excitation threshold distinguishes an integer-spin quantum magnet fro
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Tasaki explicitly separates the unproved Heisenberg gap from his conditional topological result. His finite-chain theorem uses boundary fields; the statement here uses periodic boundaries to remove edge excitations. The rigorously gapped AKLT model contains a different, biquadratic interaction and does not settle this Hamiltonian. Searches located no uniform-gap proof for the standard chain.
 

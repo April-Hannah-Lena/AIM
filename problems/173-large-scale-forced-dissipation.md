@@ -2,6 +2,10 @@
 
 **Area:** Turbulence and energy transfer
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Does there exist a nonzero, time-independent, mean-zero, divergence-free trigonometric polynomial $f$ on $\mathbb T^3$, a sequence $\nu_j\downarrow0$, and global Leray–Hopf solutions $u_j$ of
@@ -22,7 +26,7 @@ $$
 
 Leray–Hopf means distributional solutions in $L^\infty_{\mathrm{loc},t}L^2_x\cap L^2_{\mathrm{loc},t}H^1_x$ satisfying the energy inequality. The same finite set of forced spatial frequencies and the same forcing amplitudes are used for every viscosity.
 
-## Applied significance
+## Application
 
 This is a precise large-scale-forcing version of the turbulence prediction that viscous energy loss stays positive as viscosity tends to zero, while kinetic energy remains bounded.
 
@@ -36,8 +40,6 @@ This is a precise large-scale-forcing version of the turbulence prediction that 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 This fixes the forcing in the published large-scale question and explicitly excludes divergent average kinetic energy. Searches for “anomalous dissipation fixed smooth force”, “anomalous dissipation smooth forcing open Navier”, and “Navier Stokes dissipation anomaly 2026” found constructions using viscosity-dependent small-scale forcing or other hypotheses. No result meeting this fixed trigonometric-forcing formulation was located. The order of limits is long time first, then vanishing viscosity.

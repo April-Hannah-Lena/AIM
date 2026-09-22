@@ -2,6 +2,10 @@
 
 **Area:** Kinetic theory and plasma physics
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $K(x)=x/|x|^3$ on $\mathbb R^3\setminus\{0\}$. Draw $N$ initial position–velocity pairs independently with a probability density $f_0\in C_c^\infty(\mathbb R^6)$, and evolve them by
@@ -18,9 +22,9 @@ $$
 
 Here $W_1$ is the infimum of the mean Euclidean distance over couplings of the two probability measures. No particle-size regularization or force cutoff is allowed.
 
-## Applied significance
+## Application
 
-This would justify collisionless plasma dynamics directly from repelling point charges.
+Collisionless plasma models replace individual charged-particle trajectories by a distribution evolving under a collective electric field. This limit would justify that replacement for actual point-charge interactions on fixed time intervals, without imposing an artificial short-distance force cutoff.
 
 ## References
 
@@ -30,8 +34,6 @@ This would justify collisionless plasma dynamics directly from repelling point c
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searches on 2026-09-08 for “uncut Coulomb mean field Vlasov Poisson 2026” and “Vlasov Poisson propagation chaos no cutoff solved” found regularized and conditional results. Lazarovici–Pickl use a cutoff of order $N^{-1/3+\epsilon}$. Neither that theorem nor the cited ionic limit proves the exact Newtonian particle statement above.

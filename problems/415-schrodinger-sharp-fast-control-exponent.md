@@ -2,7 +2,7 @@
 
 **Area:** PDE control / Schrödinger dynamics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -15,7 +15,7 @@ $$C_S(T,L)=\sup_{\|y_0\|_{H^{-1}(0,L)}=1}\inf\{\|h\|_{L^2(0,T)}:y(0)=y_0,\ y(T)=
 where solutions and boundary values are understood by transposition. Is it true that
 $$\lim_{T\downarrow0}T\log C_S(T,L)=L^2/4?$$
 
-## Applied significance
+## Application
 
 This coefficient measures the energy penalty for steering a quantum wave in a very short time. Bounds with unspecified exponential constants cannot determine the limiting resource requirement.
 
@@ -26,5 +26,7 @@ This coefficient measures the energy penalty for steering a quantum wave in a ve
 3. M. Tucsnak and G. Weiss, *Observation and Control for Operator Semigroups*, Birkhäuser (2009), §7.1 and Corollary 8.2.4, boundary Schrödinger control framework. [Book DOI](https://doi.org/10.1007/978-3-7643-8994-9).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 source explicitly conjectures the displayed coefficient and improves the upper coefficient to 27^(1/4)/4. Nguyen’s January 2026 preprint arXiv:2601.12810 gives fractional-order cost bounds, not this sharp classical coefficient; its Theorem 1.1 assumes 1/2<s<1. Lissy’s August 2026 arXiv:2608.08041 concerns the heat equation. Searches through 22 September 2026 located no resolution for the Schrödinger assertion.

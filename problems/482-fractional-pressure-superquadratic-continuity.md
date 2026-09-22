@@ -2,7 +2,7 @@
 
 **Area:** Nonlocal PDEs; degenerate diffusion regularity
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -21,7 +21,7 @@ $$\|u(t)\|_q^q+\frac{4q(q-1)}{(m+q-1)^2}\int_0^t\|(-\Delta)^{(1-s)/2}u^{(m+q-1)/
 
 Does every bounded energy weak solution admit a representative continuous on $\mathbb R^N\times(0,\infty)$? Continuity must hold across the boundary of the set $\{u>0\}$, not merely inside that set.
 
-## Applied significance
+## Application
 
 Continuity would justify a well-defined evolving density and interface for nonlocal infiltration laws whose mobility degenerates strongly at vacuum.
 
@@ -32,5 +32,7 @@ Continuity would justify a well-defined evolving density and interface for nonlo
 3. F. del Teso and E. R. Jakobsen, *A Convergent Finite Difference-Quadrature Scheme for the Porous Medium Equation with Nonlocal Pressure*, Found. Comput. Math. (2026), §2's review of the PDE theory. [Article](https://doi.org/10.1007/s10208-026-09752-y).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Section 7 of the survey identifies continuity of weak solutions beyond $m=2$ as unresolved. Searches on 2026-09-22 for continuity, Hölder regularity and superquadratic mobility found no theorem covering this class. The known $m=2$ Hölder theory and regularity of $u_t+(-\Delta)^s(u^m)=0$ do not apply: the latter places the nonlinearity inside a different operator. This is a regularity question rather than another uniqueness or existence entry.

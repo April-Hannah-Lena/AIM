@@ -2,7 +2,7 @@
 
 **Area:** Geometric inverse problems / periodic ray dynamics
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -17,7 +17,7 @@ L_{g_1}([\alpha])=L_{g_2}([\alpha])\text{ for every }[\alpha]
 $$
 for a diffeomorphism $F$ homotopic to the identity. The marking records which topological loop produced each measured length; unlabelled length sets are not the data.
 
-## Applied significance
+## Application
 
 This is an idealized inverse problem for periodic ray travel times in a closed medium. It also tests how much classical ray dynamics determines a wave-propagation geometry.
 
@@ -27,6 +27,8 @@ This is an idealized inverse problem for periodic ray travel times in a closed m
 2. Karen Butt, *Quantitative marked length spectrum rigidity*, Geometry & Topology **29** (2025), 3995–4054, introduction and main results. [Paper](https://msp.org/gt/2025/29-8/gt-v29-n8-p02-s.pdf).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Reference 1 explicitly states the conjecture remains open, distinguishing the solved surface case, constant-curvature comparisons, and nearby metrics. Quantitative and local rigidity results impose additional hypotheses; they do not yield the global statement for two arbitrary negatively curved metrics.
 

@@ -2,7 +2,7 @@
 
 **Area:** Mathematical biology / chemotaxis and cross-diffusion
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -35,7 +35,7 @@ with $u\ge0$ and $v>0$ for positive times. Here $C^{2,1}$ means continuous spati
 
 Both diffusivities, the attraction coefficient and the consumption coefficient are fixed at one. The question concerns classical continuation through every finite time; a uniform bound as $t\to\infty$ or a specified convergence rate is not an additional requirement. All dimensions $n\ge3$ form one problem family. [1, 3, 6]
 
-## Applied significance
+## Application
 
 The variables represent a bacterial or cell density and the concentration of a nutrient that attracts those organisms and is consumed by them. The Neumann boundary conditions describe an isolated region. Consumption keeps the nutrient concentration bounded, but migration is driven by its gradient, so this bound alone does not control cell aggregation. A positive answer would justify continuing the classical concentration model over every finite observation interval, including large and spatially uneven initial populations and nutrient supplies. This concerns the model without fluid motion or additional population-growth terms. [1, 2, 4]
 
@@ -49,6 +49,8 @@ The variables represent a bacterial or cell density and the concentration of a n
 6. Michael Winkler, [*A dimension-independent critical exponent in a nutrient taxis system*](https://arxiv.org/html/2601.05338v1), January 2026 preprint. §1 retains the fully parabolic higher-dimensional gap; Theorem 1.1 instead treats the radial parabolic-elliptic problem (1.7) with Dirichlet signal data.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The planar version has global classical solutions. In higher dimensions, [3] provides global weak solutions on arbitrary smooth bounded domains and proves that they become smooth after some waiting time. It does not establish classical regularity throughout the preceding interval. The later theorem [5] improves the permitted initial-signal size but retains a smallness restriction. The apparent blow-up result [4] assumes finite maximal existence time in each relevant theorem and therefore does not construct a counterexample. The 2026 result [6] changes the signal equation, boundary conditions and symmetry class.
 

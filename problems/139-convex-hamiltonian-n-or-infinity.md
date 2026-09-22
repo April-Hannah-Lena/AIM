@@ -2,6 +2,10 @@
 
 **Area:** Hamiltonian mechanics / periodic motions
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $n\ge3$ and let $\Sigma=\partial D\subset\mathbb R^{2n}$ be a smooth compact hypersurface bounding a strictly convex body containing the origin, with positive definite second fundamental form. Restrict
@@ -14,7 +18,7 @@ to $\Sigma$. Its Reeb vector field $R$ is characterized by $\alpha(R)=1$ and $d\
 
 Is the number of geometrically distinct simple periodic orbits of $R$ either exactly $n$ or infinite? “Simple” means traversed with its least positive period, so repeated traversals are not counted separately.
 
-## Applied significance
+## Application
 
 These orbits are the periodic motions on a convex Hamiltonian energy level. The conjecture predicts a sharp distinction between the smallest possible orbit family and an unlimited supply of periodic motions.
 
@@ -26,8 +30,6 @@ These orbits are the periodic motions on a convex Hamiltonian energy level. The 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 The lower bound of $n$ periodic orbits is now known in the dynamically convex setting. It does not exclude a finite number greater than $n$. The $n=2$ dichotomy is established. Searches included “convex Hamiltonian n or infinity conjecture 2026” and “closed orbits dynamically convex multiplicity Çineli Ginzburg Gürel”. No higher-dimensional general dichotomy was located.

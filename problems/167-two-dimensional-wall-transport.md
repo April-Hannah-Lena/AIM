@@ -2,6 +2,10 @@
 
 **Area:** Heat transfer and flow optimization
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 On $\Omega=(\mathbb R/\mathbb Z)\times(0,1)$, let $u$ range over smooth steady divergence-free velocities, periodic horizontally, with $u=0$ at both walls and $\int_\Omega|\nabla u|^2\le\mathrm{Pe}^2$. Let $T_u$ solve
@@ -12,7 +16,7 @@ $$
 
 Define $M_2(\mathrm{Pe})=\sup_u\int_\Omega|\nabla T_u|^2$. Is there $c>0$ such that $M_2(\mathrm{Pe})\ge c\,\mathrm{Pe}^{2/3}$ for all sufficiently large $\mathrm{Pe}$? Equivalently, can the known upper scaling be achieved without a logarithmic loss in two dimensions?
 
-## Applied significance
+## Application
 
 This gives the largest heat flux obtainable from planar stirring with a fixed viscous-dissipation budget.
 
@@ -24,8 +28,6 @@ This gives the largest heat flux obtainable from planar stirring with a fixed vi
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searches for “two dimensional wall to wall heat transport logarithmic gap 2026” and “three dimensional branching pipe flows optimal scalar transport” located the three-dimensional resolution and two-dimensional numerical studies. Neither gives the required two-dimensional lower bound. The velocity here is optimized freely and need not solve the momentum equation of buoyant convection.

@@ -2,6 +2,10 @@
 
 **Area:** Geometric Schrödinger operators
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\gamma$ be any smooth simple closed convex plane curve of length $2\pi$, parametrized by arclength $s$, with curvature $\kappa(s)$. Prove or disprove that every real periodic $f\in H^1(0,2\pi)$ satisfies
@@ -10,9 +14,9 @@ $$\int_0^{2\pi}\left(|f'(s)|^2+\kappa(s)^2|f(s)|^2\right)ds\ge\int_0^{2\pi}|f(s)
 
 Equivalently, the lowest periodic eigenvalue of $-d^2/ds^2+\kappa^2$ is at least one. No uniqueness of the circle is asserted: a family of distinct ovals attains the conjectural minimum.
 
-## Applied significance
+## Application
 
-This curvature-dependent quantum operator connects geometric confinement with sharp one-dimensional bound-state energy inequalities.
+The operator is a quantum model on a loop with a curvature-dependent potential. The conjecture would give a shape-independent floor for its ground-state energy at fixed loop length, providing a benchmark for geometric spectral estimates.
 
 ## References
 
@@ -21,9 +25,7 @@ This curvature-dependent quantum operator connects geometric confinement with sh
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Linde's April 2025 preprint explicitly leaves the conjecture open and improves a universal lower bound to 0.81, below the target one. Bernstein–Mettler's related geometric inequalities and local-minimality results do not establish the global statement.
 

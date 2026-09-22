@@ -2,7 +2,7 @@
 
 **Area:** Gaussian geometry and noise robustness
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -31,7 +31,7 @@ $$
 
 The question covers all measurable partitions and every fixed positive correlation. No smoothness or hyperstability hypothesis is imposed. This is the $q\ge4$ part of the balanced, positive-correlation standard simplex conjecture.
 
-## Applied significance
+## Application
 
 Assigning label $i$ to points in $A_i$ gives a balanced classification rule for Gaussian data. The displayed objective is exactly the probability that the label survives Gaussian noise with correlation $\rho$. The conjecture would identify an optimal rule in this model. The literature also connects the Gaussian problem, through an invariance principle, to the robustness of voting rules with many voters, small individual influences and equal outcome probabilities.
 
@@ -44,6 +44,8 @@ Assigning label $i$ to points in $A_i$ gives a balanced classification rule for 
 5. S. Heilman, E. Mossel and J. Neeman, [*Standard Simplices and Pluralities are Not the Most Noise Stable*](https://arxiv.org/pdf/1403.0885v3), arXiv:1403.0885v3, July 9, 2014; Theorem 2.6, printed p. 4.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The September 17, 2026 review searched standard-simplex and plurality-is-stablest aliases, balanced Gaussian partitions, four-class formulations, proof/disproof terms, 2025–2026 developments, unrestricted results, corrections and version histories. The Isaksson–Mossel conjecture and the independent Heilman–Tarter formulation include the statement above.
 

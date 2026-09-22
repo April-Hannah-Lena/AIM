@@ -2,7 +2,7 @@
 
 **Area:** Foams and geometric optimization
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -15,7 +15,7 @@ $$
 $$
 and characterize the minimizing pairs, if the infimum is attained. Here $\operatorname{Per}(E)$ is the total variation of the distributional gradient of $1_E$; the factor $1/2$ counts each cell interface once. Curved interfaces and nonconvex cells are allowed.
 
-## Applied significance
+## Application
 
 This is a precise surface-energy minimization problem for periodic equal-volume foams and cellular materials.
 
@@ -25,6 +25,8 @@ This is a precise surface-energy minimization problem for periodic equal-volume 
 - [Annalisa Cesaroni and Matteo Novaga, *Minimal periodic foams with equal cells* (2023 preprint; Springer INdAM Series, 2024), existence results and discussion of the isotropic case](https://arxiv.org/abs/2302.07112).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 paper explicitly leaves the lattice-periodic Kelvin problem open in dimensions at least three. Its existence theorem adds a fixed-inradius constraint. The earlier equal-cell paper proves existence results for the volume-constrained problem, but neither identifies the exact three-dimensional minimum and its optimizing shape. The Weaire–Phelan improvement of Kelvin's original proposal uses inequivalent cells and does not answer this single-cell lattice problem.
 

@@ -2,7 +2,7 @@
 
 **Area:** Statistical density estimation and unsupervised learning
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-19
 
@@ -33,7 +33,7 @@ Use the infinite-precision real-arithmetic sampling model of Daskalakis–Kamath
 
 This is the realizable *proper-learning* question. No separation, bounded parameter range or minimum nonzero weight is assumed. The output must use at most $k$ components, but its parameters need not match the original components. Neither recovery of hidden labels nor maximizing an empirical likelihood is required. The question is explicitly retained even without noise in Li–Liu–Moitra's revised manuscript.
 
-## Applied significance
+## Application
 
 Gaussian mixtures describe heterogeneous scalar measurements through a small collection of normal distributions. Proper learning asks whether an accurate density estimate can always retain this compact model form within feasible computation. Total variation controls the error in every event probability, while the component limit controls the size of the fitted representation. Recovering that representation does not identify physical subpopulations: different component parameters can produce very similar densities. This distinction matters when a mixture is used as a statistical approximation rather than as a uniquely identifiable mechanism. The sources discuss both the value of compact mixture descriptions and the additional difficulties of parameter estimation.
 
@@ -48,6 +48,8 @@ Gaussian mixtures describe heterogeneous scalar measurements through a small col
 7. Hengzhi He and Guang Cheng, *Sharp proper estimation of fixed-component Gaussian location mixtures in polynomial time*, [arXiv:2608.12701v1](https://arxiv.org/pdf/2608.12701v1), August 13, 2026, preprint. Theorem 1.1 and §8 retain fixed component count, unit covariance and bounded means; the runtime exponent depends on $k$.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of **2026-09-19**. The independently authored Diakonikolas survey and Li–Schmidt paper distinguish proper learning from unrestricted density estimation. Li–Liu–Moitra explicitly leave the all-$k$ proper-learning question open and conjecture computational hardness when extra components are forbidden; this is a conjecture, not a hardness theorem.
 

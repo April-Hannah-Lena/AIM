@@ -2,7 +2,7 @@
 
 **Area:** Quantum information and zero-error communication
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -33,7 +33,7 @@ where $c$ and the $u_x$ are real unit vectors in a common finite-dimensional spa
 
 Is $\Theta_*(G)=\vartheta(G)$ for every such graph? The inequality $\Theta_*(G)\le\vartheta(G)$ is known. The question allows arbitrary finite-dimensional shared entanglement and local measurements and concerns exact zero error at each block length.
 
-## Applied significance
+## Application
 
 The graph records which input symbols a noisy classical channel can confuse. The matrices describe coding with a shared quantum state, and the logarithm of $\Theta_*$ gives the rate in bits per use with no decoding errors. Equality would turn a regularized optimization over arbitrarily large codes and quantum resources into an efficiently approximable semidefinite quantity. A strict gap would identify a limitation of entanglement that this familiar upper bound misses.
 
@@ -47,6 +47,8 @@ The graph records which input symbols a noisy classical channel can confuse. The
 5. Archishna Bhattacharyya, Arthur Mehta and Yuming Zhao, *On the undecidability of quantum channel capacities*, [preprint v3](https://arxiv.org/html/2601.22471v3), March 30, 2026, Definition 2.3 and Corollary 4.2.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Li–Zuiddam explicitly pose this classical-graph equality; the independent Cubitt et al. paper explains why its single-use counterexample leaves the asymptotic question open. Li–Zuiddam prove that this conjecture and a separate conjecture restricting assistance to maximally entangled states and projective measurements cannot both hold, without deciding which fails. Wang–Duan's counterexample instead uses a quantum channel. Duan–Winter's operational theta interpretation allows stronger no-signalling resources. Bhattacharyya–Mehta–Zhao's corrected 2026 undecidability result concerns one-use capacity with maximal entanglement and projective encoding.
 

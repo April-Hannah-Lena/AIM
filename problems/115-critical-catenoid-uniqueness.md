@@ -2,6 +2,10 @@
 
 **Area:** Capillary surfaces and spectral geometry
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\Sigma\subset\overline{B^3}$ be a smooth compact connected properly embedded minimal annulus, with its interior in $B^3$ and its boundary in $S^2$, meeting $S^2$ orthogonally. Prove or disprove that a rotation carries $\Sigma$ onto the critical catenoid
@@ -10,7 +14,7 @@ $$X(t,\theta)=a(\cosh t\cos\theta,\cosh t\sin\theta,t),\quad |t|\le t_0,\quad\th
 
 where $t_0>0$ solves $t_0\tanh t_0=1$ and $a=(\cosh^2t_0+t_0^2)^{-1/2}$.
 
-## Applied significance
+## Application
 
 This class models zero-mean-curvature capillary films attached at a right angle to a spherical container. Classification would determine whether a second embedded annular equilibrium geometry is possible.
 
@@ -22,9 +26,7 @@ This class models zero-mean-curvature capillary films attached at a right angle 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Symmetry assumptions and the support-function condition in the 2023 paper yield uniqueness in subclasses. The August 2026 paper treats annulus existence and min–max characterization; it does not classify every embedded free-boundary minimal annulus in the Euclidean ball. No unrestricted uniqueness proof was located.
 

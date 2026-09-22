@@ -2,7 +2,7 @@
 
 **Area:** PDEs with memory; porous-medium diffusion
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -16,7 +16,7 @@ $$
 $$
 Require narrow convergence $u(t,x)dx\rightharpoonup M\delta_0$ as $t\downarrow0$. This Volterra identity specifies the Caputo convention for measure data. Do not impose self-similarity or radial symmetry; the known fundamental profile need not be bounded at the origin.
 
-## Applied significance
+## Application
 
 Uniqueness would make an instantaneous concentrated release well-defined in a porous-medium model with long temporal memory.
 
@@ -27,5 +27,7 @@ Uniqueness would make an instantaneous concentrated release well-defined in a po
 3. J. L. Vázquez, *The Porous Medium Equation: Mathematical Theory*, Oxford University Press (2007), classical fundamental solutions and large-time asymptotics. [Book](https://doi.org/10.1093/acprof:oso/9780198569039.001.0001).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The April 2026 preprint constructs and characterizes self-similar solutions but lists general weak uniqueness for Dirac data separately in §8. Searches on 2026-09-22 checked measure-data uniqueness, the paper title and subsequent citations. Uniqueness of the profile equation and results for regular one-dimensional initial-boundary data do not imply the assertion here. The weak formulation retains the initial measure inside the memory equation rather than restarting the equation at positive time.

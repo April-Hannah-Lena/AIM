@@ -2,6 +2,10 @@
 
 **Area:** Harmonic analysis; frequency filtering
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 For $\delta>0$ and a Schwartz function $f$ on $\mathbb R^3$, define $B^\delta f$ through its Fourier transform by
@@ -10,7 +14,7 @@ For every $1<p<\infty$ and
 $$\delta>\max\left\{3\left|\frac1p-\frac12\right|-\frac12,\,0\right\},$$
 does there exist $C_{p,\delta}<\infty$ such that $\|B^\delta f\|_{L^p}\le C_{p,\delta}\|f\|_{L^p}$ for all such $f$?
 
-## Applied significance
+## Application
 
 Bochner–Riesz means smooth a spherical frequency cutoff. The sharp threshold determines how little smoothing suffices to reconstruct a signal without unbounded amplification in the chosen integrability norm.
 
@@ -21,9 +25,11 @@ Bochner–Riesz means smooth a spherical frequency cutoff. The sharp threshold d
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** The cited results achieve the predicted smoothing threshold when the larger of p and its conjugate exponent is at least 13/4.
 
-**Last checked:** 2026-09-13.
+**Remaining target:** The predicted threshold for every exponent between one and infinity, including intermediate exponents not covered by those results.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The cited results reach $\max\{p,p/(p-1)\}\ge13/4$ with the predicted threshold. They do not cover all intermediate exponents. Two-dimensional results and improvements for maximal or weighted variants do not establish this full three-dimensional strong-type assertion.
 

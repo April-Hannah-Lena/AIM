@@ -2,6 +2,10 @@
 
 **Area:** Parabolic control / coupled diffusion
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Given a bounded connected smooth domain $\Omega\subset\mathbb R^d$, $d\geq2$, a nonempty relatively open $\Gamma\subset\partial\Omega$, $T>0$, and constant real matrices $A\in\mathbb R^{n\times n}$ and $B\in\mathbb R^{n\times m}$ with $m<n$, consider
@@ -12,7 +16,7 @@ $$
 
 Find a necessary and sufficient spectral/algebraic condition for null controllability by $f\in L^\infty(\Gamma\times(0,T))^m$: every $y_0$ must admit such a control with $y(T)=0$, interpreted by transposition. The criterion should identify the interaction of $A,B$ with the Dirichlet Laplacian spectral data of $\Omega$ and the active boundary. Merely restating controllability as an adjoint observability inequality is not the requested characterization.
 
-## Applied significance
+## Application
 
 A criterion would determine when a few boundary actuators can independently regulate many coupled diffusing quantities, such as concentrations or temperatures.
 
@@ -23,8 +27,6 @@ A criterion would determine when a few boundary actuators can independently regu
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 The distributed-control Kalman rank test and the one-dimensional boundary test are established. They do not give the requested general multidimensional boundary characterization. Searches included “coupled parabolic boundary Kalman multidimensional 2026”, “higher dimensional boundary controllability necessary sufficient”, and the 2011 paper title. Recent time-discrete, cascade and stabilization results have different scopes; no full criterion was located.

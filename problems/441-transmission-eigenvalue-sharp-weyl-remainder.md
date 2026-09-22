@@ -1,9 +1,10 @@
 # 441. An optimal Weyl remainder for interior transmission eigenvalues
 
 **Area:** Transmission PDEs and wave scattering
-**Status:** Open in cited literature; no later resolution located.
-**Last checked:** 2026-09-22
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-22
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^d$, $d\ge2$, be bounded, connected, with $C^\infty$ boundary, and fix a constant $n>1$. A nonzero number $z$ is an interior transmission eigenvalue if nonzero $(u,v)$ solve
@@ -13,7 +14,7 @@ Use algebraic multiplicity for the closed transmission operator $A(u,v)=(-n^{-1}
 $$N(r)=\frac{\omega_d}{(2\pi)^d}|\Omega|(1+n^{d/2})r^d+O_{\Omega,n}(r^{d-1})\qquad(r\to\infty),$$
 where $\omega_d=|B_1|$? This is the constant-index isotropic case of Vodev’s conjecture; no convexity is imposed.
 
-## Applied significance
+## Application
 
 Transmission eigenvalues describe frequencies at which an inclusion can fail to scatter selected incident waves. A sharp counting error measures how reliably mode density encodes the volume and refractive index.
 
@@ -23,5 +24,7 @@ Transmission eigenvalues describe frequencies at which an inclusion can fail to 
 2. V. Petkov and G. Vodev, [Asymptotics of the number of the interior transmission eigenvalues](https://www.math.u-bordeaux.fr/~vpetkov/publications/p-v2.pdf), *Journal of Spectral Theory* **7** (2017), §1, Theorem 1.1 and discussion of the remainder.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The conjecture asks to remove the positive power loss from the almost optimal $O_\varepsilon(r^{d-1+\varepsilon})$ remainder. Searches for transmission Weyl remainders, Vodev’s conjecture, and 2023–2026 asymptotics located general leading-term and special-geometry results, but no $O(r^{d-1})$ theorem for every smooth domain in this isotropic class.

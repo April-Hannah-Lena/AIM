@@ -2,7 +2,7 @@
 
 **Area:** Transport and mixing
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -20,7 +20,7 @@ $$
 $$
 Use the Frobenius norm of the velocity gradient. This is the incompressible geometric-mixing version of the conjecture.
 
-## Applied significance
+## Application
 
 The inequality would give a universal strain budget for mixing two fluids to a prescribed spatial resolution.
 
@@ -31,6 +31,8 @@ The inequality would give a universal strain budget for mixing two fluids to a p
 - [Elia Brué, Maria Colombo and Carl Johan Peter Johansson, *Lyapunov exponents, entropy and mixing for DiPerna-Lions flows* (2025), §1.5](https://arxiv.org/abs/2510.02921).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The October 2025 work proves an asymptotic version for time-periodic flows. It does not give the uniform one-time estimate above for arbitrary smooth time dependence. Results controlling an Lᵖ norm with p>1 and results restricted to shears also leave this endpoint problem.
 

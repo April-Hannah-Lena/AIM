@@ -2,7 +2,7 @@
 
 **Area:** Operator perturbation theory
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -13,7 +13,7 @@ $$d(M,N)=\max\left\{\sup_{x\in M_1}\inf_{y\in N_1}\|x-y\|,\sup_{y\in N_1}\inf_{x
 Is it true that for every $\varepsilon>0$ there exists $\delta>0$, independent of $H,M,N$, such that $d(M,N)<\delta$ implies the existence of a unitary $u\in\mathcal B(H)$ satisfying
 $$uMu^*=N,\qquad\|u-I\|<\varepsilon?$$
 
-## Applied significance
+## Application
 
 This asks whether uniformly small errors in an entire operator algebra can be corrected by a small change of coordinates. Its application is foundational stability of observable algebras, rather than a finite-dimensional numerical algorithm.
 
@@ -23,6 +23,8 @@ This asks whether uniformly small errors in an entire operator algebra can be co
 2. R. V. Kadison and D. Kastler, Perturbations of von Neumann algebras. I. Stability of type, American Journal of Mathematics 94 (1972), 38–54. Foundational paper, cited in Peterson’s problem list.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. Peterson’s May 2026 expert list retains this universal near-identity unitary-conjugacy statement. Search results on nuclear or special-type algebras concern restricted classes. No general resolution was located.
 

@@ -2,7 +2,7 @@
 
 **Area:** Nonlocal PDEs; propagation of a diffusing front
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -23,7 +23,7 @@ Does every bounded energy weak solution satisfy
 $$\int_{\{|x|>R\}}u(t,x)\,dx>0\qquad\text{for every }R>0\text{ and }t>0?$$
 This asks for unbounded essential support immediately after time zero. It does not require pointwise positivity everywhere or assume radial symmetry.
 
-## Applied significance
+## Application
 
 The assertion would locate the transition between a moving compact front and immediate long-range spreading in nonlocal porous-medium transport.
 
@@ -34,5 +34,7 @@ The assertion would locate the transition between a moving compact front and imm
 3. F. del Teso and E. R. Jakobsen, *A Convergent Finite Difference-Quadrature Scheme for the Porous Medium Equation with Nonlocal Pressure*, Found. Comput. Math. (2026), §2's review of the PDE theory. [Article](https://doi.org/10.1007/s10208-026-09752-y).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Remark 7 of the survey explicitly leaves the multidimensional extension of infinite propagation open. The 2026 PDE review still states the infinite-propagation result only for dimension one. Searches on 2026-09-22 checked higher-dimensional spreading and later pressure-model papers; no whole-space result for the stated class was located. Infinite spreading of self-similar profiles, results on a torus, and finite propagation for $m\ge2$ do not answer this question. The weak formulation uses positive exterior mass because continuity is not being assumed.

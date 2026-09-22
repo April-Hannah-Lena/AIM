@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear control / feedback design
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ Assume that for every $T>0$ some $\delta>0$ has the following property: every $|
 $$U_T:B_{\delta_T}(0)\longrightarrow L^1(0,T),\qquad U_T(0)=0,$$
 such that the trajectory driven by $U_T(y_0)$ exists on $[0,T]$ and ends at zero for every $y_0\in B_{\delta_T}(0)$? Continuity refers to the norm topology of $L^1$.
 
-## Applied significance
+## Application
 
 A continuously selected steering input changes smoothly under small errors in the measured state. This is a basic bridge from open-loop controllability to continuous time-dependent feedback for nonlinear mechanical systems.
 
@@ -25,5 +25,7 @@ A continuously selected steering input changes smoothly under small errors in th
 3. J.-M. Coron, *Links Between Local Controllability and Local Continuous Stabilization*, IFAC Proceedings Volumes 25(13) (1992), 165–171. [DOI](https://doi.org/10.1016/S1474-6670(17)52276-4).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The February 2026 notes state the analytic implication as an open problem and explain why available sufficient conditions give continuous controls without proving the implication in full. Searches through 22 September 2026 found no later theorem resolving it. This asks for continuity of an actual control selection, distinct from finite-jet tests for controllability.

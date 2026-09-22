@@ -2,7 +2,7 @@
 
 **Area:** Tensor computation and high-dimensional models
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -14,7 +14,7 @@ Does a polynomial-time algorithm return $\widehat A\in\mathcal T_r$ with
 $$\|A-\widehat A\|_F^2<(d-1)\,e_r(A)^2$$
 for every input with $e_r(A)>0$, over all dimensions and rank bounds? Use the standard arithmetic-operation model for dense tensor approximation, with polynomial work in the dense input size and rank data. When $e_r(A)=0$, exact recovery is required in exact arithmetic. The conventional sequential SVD guarantee uses a non-strict inequality with factor $d-1$. Any strict improvement is requested; the margin need not be uniform over inputs or dimensions.
 
-## Applied significance
+## Application
 
 Tensor trains represent high-dimensional states and functions in quantum dynamics, stochastic PDEs and data compression. A better guaranteed factor would make rank budgets more predictable without assuming favorable input structure.
 
@@ -25,6 +25,8 @@ Tensor trains represent high-dimensional states and functions in quantum dynamic
 3. G. Yu, J. Feng, Z. Chen, X. Cai and L. Qi, [A randomized block Krylov method for tensor train approximation](https://doi.org/10.3389/fams.2026.1824146), Frontiers in Applied Mathematics and Statistics 12 (2026). Recent approximation algorithms.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. Problem 6.1 explicitly asks even for a pointwise strict improvement of the conventional factor, with larger improvements also of interest. This entry takes its tensor-train special case and separates exact inputs to avoid demanding the impossible inequality $0<0$. The May 2026 Krylov paper concerns randomized construction and error estimates; no algorithm meeting the stated guarantee for every input was located.
 

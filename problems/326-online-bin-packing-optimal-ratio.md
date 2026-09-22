@@ -2,7 +2,7 @@
 
 **Area:** Online optimization and resource allocation
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -31,7 +31,7 @@ $$
 
 with the lower endpoint approximately $1.5427809065$. The task is to determine the optimum over all algorithms, rather than the performance of a particular heuristic. The definition does not assume that an algorithm attains the infimum. It also differs from the absolute competitive ratio, which takes a supremum over inputs of every size without the large-$\operatorname{OPT}$ limit.
 
-## Applied significance
+## Application
 
 The model isolates the capacity loss caused by irreversible decisions when future demand is unknown. Examples include allocating arriving data to storage blocks or cutting successive requested lengths from identical stock, under the model's single capacity constraint and inability to rearrange earlier assignments. The ratio measures the extra number of resources required relative to a planner who knows all requests. Its asymptotic form separates persistent inefficiency on large workloads from a fixed startup cost. Resolving the gap would establish the best possible worst-case guarantee for this basic online allocation model; it would not by itself account for multidimensional geometry or other operational constraints.
 
@@ -45,6 +45,8 @@ The model isolates the capacity loss caused by irreversible decisions when futur
 6. Leah Epstein and Asaf Levin, *Lower Bounds for Several Standard Bin Packing Algorithms in the Random Order Model*, WADS 2025, LIPIcs 349, 26:1–26:15. [Published paper](https://doi.org/10.4230/LIPIcs.WADS.2025.26), §1, pp. 26:1–26:2. Retains the classical worst-case interval while studying random arrival order.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 Gehnen–Usdenski introduction reports the same unresolved classical lower/upper gap; Herrmann–Pallez's June 2026 revision explicitly distinguishes the canonical open problem from improvements to empirical heuristics on specified input distributions. Epstein–Levin's WADS 2025 paper also retains the interval. The bounds above come from full theorem statements in the original manuscripts. Their complete proofs and computer-assisted upper-bound calculations were not independently certified.
 

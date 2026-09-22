@@ -2,7 +2,7 @@
 
 **Area:** Constraint satisfaction and approximation algorithms
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -26,7 +26,7 @@ $$
 
 The alphabet is fixed for each $\varepsilon$, independently of the number of vertices. This is a promise problem: behavior on intermediate values is unrestricted. The value uses ordinary classical labelings.
 
-## Applied significance
+## Application
 
 The conjecture is a proposed foundation for sharp limits on approximation algorithms for discrete optimization. For example, Heilman's 2026 Theorem 1.4 uses it to derive sharp approximation hardness for MAX-3-CUT, whose objective is to divide a graph into three classes while maximizing the number of edges between classes. Such hardness consequences remain conditional on this conjecture.
 
@@ -37,6 +37,8 @@ The conjecture is a proposed foundation for sharp limits on approximation algori
 3. S. Heilman, [*Sharp Hardness for MAX-3-CUT and Quantum MAX-CUT*](https://arxiv.org/pdf/2608.00333v1), arXiv:2608.00333v1, submitted July 31, 2026; §1.1 and Theorem 1.4. The served manuscript bears August 24, 2026.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The September 17, 2026 review covered Unique Games and unique-label-cover aliases, permutation constraints, proof and refutation claims, 2025–2026 papers, unrestricted searches and version/correction records. Fei–Minzer–Wang still state the exact conjecture in their September 14 report. Their new perfect-completeness hardness theorem has four-to-one constraints. The one-to-one condition required here is different. Their discussion of existing hardness with completeness $1/2$ also leaves the almost-satisfiable regime unresolved.
 

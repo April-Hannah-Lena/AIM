@@ -2,7 +2,7 @@
 
 **Area:** Mathematical phylogenetics and ancestral-state inference
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -44,7 +44,7 @@ $$
 
 Thus, does using all the leaves with Fitch parsimony perform at least as well as guessing the root state from any one leaf? This is the unresolved $r>4$ portion of the Li–Steel–Zhang conjecture. The same inequality is proved for $r=2,3,4$. The estimator uses the topology and leaf states; the edge lengths specify the probability model but are not inputs to its recursion. The question concerns one character on each finite tree, rather than an asymptotic sequence-length or tree-estimation guarantee.
 
-## Applied significance
+## Application
 
 Ancestral-state inference estimates a trait or a sequence position of a common ancestor from present-day species. Parsimony provides a fast estimator without requiring branch-length estimates. The inequality would establish a basic accuracy guarantee for using an entire clock-like phylogeny with a larger character alphabet, including a stylized 20-state model for an amino-acid position. The symmetric model isolates the effect of tree shape and shared ancestry on information use. Actual protein substitutions have unequal rates, so the proposed guarantee would be a theoretical benchmark for that application, not a conclusion for arbitrary evolutionary models.
 
@@ -57,6 +57,8 @@ Ancestral-state inference estimates a trait or a sequence position of a common a
 5. Sebastien Roch and Kun-Chieh Wang, *Sufficient condition for root reconstruction by parsimony on binary trees with general weights*, Electronic Communications in Probability 26 (2021), article 55, 1–13, [DOI](https://doi.org/10.1214/21-ECP423); [published PDF](https://par.nsf.gov/servlets/purl/10342268). Section 1, Theorems 1.2 and 1.5, treats two-state reconstruction uniformly over tree depths.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-18.
 

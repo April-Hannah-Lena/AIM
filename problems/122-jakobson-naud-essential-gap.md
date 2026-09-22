@@ -2,6 +2,10 @@
 
 **Area:** Open chaotic scattering
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $X=\Gamma\backslash\mathbb H^2$ be an infinite-area hyperbolic surface of curvature $-1$, where $\Gamma\subset\operatorname{PSL}_2(\mathbb R)$ is discrete, torsion-free, non-elementary and convex co-compact. Write $\delta\in(0,1)$ for the Hausdorff dimension of its limit set. Let $\mathcal R_X$ be the poles of the meromorphic continuation of
@@ -14,7 +18,7 @@ $$G_X=\inf\{a\in\mathbb R:\#\{s\in\mathcal R_X:\operatorname{Re}s\ge a\}<\infty\
 
 Prove or disprove $G_X=\delta/2$. Equivalently, for every $\varepsilon>0$, there are finitely many resonances to the right of $\delta/2+\varepsilon$ and infinitely many to the right of $\delta/2-\varepsilon$.
 
-## Applied significance
+## Application
 
 The rightmost high-frequency resonances determine the best persistent-wave decay scale in an open chaotic system. This predicts that scale from the fractal dimension of trapped trajectories.
 
@@ -25,9 +29,7 @@ The rightmost high-frequency resonances determine the best persistent-wave decay
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Positive spectral gaps and resonance-counting bounds do not identify the exact essential threshold. The conjecture allows finitely many exceptional resonances and is separate from a fractal Weyl counting exponent. Targeted searches through the review date located no equality theorem for every such surface.
 

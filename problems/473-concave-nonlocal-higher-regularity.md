@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear diffusion PDEs; stochastic control
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -16,9 +16,9 @@ satisfies $u\in C^{1+s+\alpha}(B_{1/2})$ and
 $$\|u\|_{C^{1+s+\alpha}(B_{1/2})}\le C\|u\|_{L^\infty(\mathbb R^n)}?$$
 The exponent and constant may depend on $n,s,\lambda,\Lambda$ and the prescribed angular smoothness bounds, but not on $u$ or the family size. No differentiability of the minimizing index as a function of $x$ is assumed.
 
-## Applied significance
+## Application
 
-This asks how smooth a controlled jump-diffusion value can be when each available diffusion kernel is smooth.
+The equation is a value equation for control of a jump process, where a controller selects among the available jump kernels. The estimate would control variation of the value gradient even where the optimal choice of kernel changes. Smoothness of each available kernel alone does not give smoothness of that choice.
 
 ## References
 
@@ -27,5 +27,7 @@ This asks how smooth a controlled jump-diffusion value can be when each availabl
 2. X. Ros-Oton, C. Torres-Latorre and M. Weidner, *Semiconvexity estimates for nonlinear integro-differential equations*, Comm. Pure Appl. Math. (2025), Introduction. [Article](https://doi.org/10.1002/cpa.22237).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open Question 3.1 in the book asks whether smooth kernels give $C^{1+s+\alpha}$ regularity. The displayed homogeneous equation is its translation-invariant, zero-source formulation. The 2025 paper discusses the remaining gap beyond the established $C^{\max\{1,2s\}+\varepsilon}$ estimates. Searches on 2026-09-22 for concave nonlocal higher regularity and smooth stable kernels found no general theorem reaching the target. Linear Schauder estimates and the classical second-order Evans–Krylov theorem concern different operators.

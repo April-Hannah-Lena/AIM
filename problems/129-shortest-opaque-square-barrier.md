@@ -2,6 +2,10 @@
 
 **Area:** Geometric optimization / sensing
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Put $Q=[0,1]^2$. A rectifiable barrier is a set $B\subset\mathbb R^2$ that is a countable union of rectifiable curves and intersects every straight line that intersects $Q$. It need not be connected or contained in $Q$. Determine exactly
@@ -12,7 +16,7 @@ $$
 
 where $\mathcal H^1$ is one-dimensional Hausdorff measure. The question concerns the unrestricted infimum; attainment by a barrier is not assumed.
 
-## Applied significance
+## Application
 
 Such a barrier models a network of line detectors that must intercept every possible straight trajectory crossing a protected region. Its length measures the required sensing infrastructure.
 
@@ -24,8 +28,6 @@ Such a barrier models a network of line detectors that must intercept every poss
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2026 paper explicitly retains the exact minimum as open. It improves the unrestricted lower bound to $2+6.3\times10^{-5}$; the familiar construction of length $\sqrt2+\sqrt6/2$ does not have a matching optimality proof. Searches included “opaque unit square shortest barrier 2026 solved” and “Kiderlen Pausinger opaque square minimum”. Results restricted to connected or interior barriers do not settle this formulation.

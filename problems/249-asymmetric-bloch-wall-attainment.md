@@ -2,7 +2,7 @@
 
 **Area:** Micromagnetics and magnetic interfaces
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -16,7 +16,7 @@ for both signs. Impose boundary winding number $+1$: under the conformal identif
 
 Is $\inf_{m\in\mathcal L_\theta}\int_\Omega|\nabla m|^2\,dx$ attained for every $\theta\in(0,\pi/2]$?
 
-## Applied significance
+## Application
 
 The divergence constraint removes the magnetic stray field, while the winding condition selects a Bloch-wall core. Attainment would justify an optimal magnetic transition layer within that topological class.
 
@@ -26,5 +26,7 @@ The divergence constraint removes the magnetic stray field, while the winding co
 - Lukas Döring and Radu Ignat, [*Asymmetric domain walls of small angle in soft ferromagnetic films*](https://arxiv.org/abs/1412.2382) (2014 preprint; 2016 publication), §1 and Theorem 1: asymptotic analysis for small-angle Néel walls, with a different topological class.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “asymmetric Bloch wall degree one infimum attained Doring Ignat Otto”, “asymmetric Bloch minimizer degree 2025 2026”, and later domain-wall existence results. No resolution of Open problem 1 was located. Existence of unrestricted asymmetric minimizers does not preserve the imposed boundary degree in a weak limit; small-angle Néel-wall results do not answer this Bloch-wall attainment question.

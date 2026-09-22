@@ -2,7 +2,7 @@
 
 **Area:** Polymer models
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -19,7 +19,7 @@ $$
 $$
 Thus the root-mean-square displacement would be $N^{3/4+o(1)}$. This asks only for the exponent, not existence of a multiplicative asymptotic constant or convergence of the entire path to SLE.
 
-## Applied significance
+## Application
 
 Self-avoidance models the excluded-volume effect in a polymer chain. The exponent predicts how the typical size of a planar polymer grows with its length.
 
@@ -29,6 +29,8 @@ Self-avoidance models the excluded-volume effect in a polymer chain. The exponen
 - [Hugo Duminil-Copin and Alan Hammond, *Self-avoiding walk is sub-ballistic* (Communications in Mathematical Physics, 2013), introduction](https://www.ihes.fr/~duminil/publi/Subballisticity.pdf).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The cited survey and sub-ballisticity theorem leave the planar 3/4 exponent conjectural. Numerical confirmation and conditional SLE predictions are not proofs for the finite uniform walk measure. The search also located a 2001 preprint claiming this exponent; the later cited literature still treats it as open. No accepted resolution was located in the 2026 search.
 

@@ -2,7 +2,7 @@
 
 **Area:** Nonlocal free-boundary PDEs; optimal stopping
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -16,7 +16,7 @@ is the interior estimate
 $$\|u\|_{C^{1+s}(B_{1/2})}\le C\bigl(\|\phi\|_{C^\beta(B_1)}+\|u\|_{L^\infty(\mathbb R^n)}\bigr)$$
 valid with $C$ depending only on $n,s,\beta,\lambda,\Lambda$ and $\|a\|_{\operatorname{Lip}}$? The interesting range is $1+s<\beta\le1+2s$. Exterior values of $u$ are arbitrary bounded data; the coincidence set need not be separated from $\partial B_1$.
 
-## Applied significance
+## Application
 
 This would obtain the expected regularity of a jump-process stopping value with less smooth payoff data, uniformly away from the observation boundary.
 
@@ -27,5 +27,7 @@ This would obtain the expected regularity of a jump-process stopping value with 
 2. X. Ros-Oton, C. Torres-Latorre and M. Weidner, *Semiconvexity estimates for nonlinear integro-differential equations*, Comm. Pure Appl. Math. (2025), Theorem 1.3. [Article](https://doi.org/10.1002/cpa.22237).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 This is Open Question 4.1 in §4.6.1. The cited theorem proves the estimate with $\beta>1+2s$; lowering that threshold to every $\beta>1+s$ is the gap. Searches on 2026-09-22 checked optimal obstacle regularity, low-regularity obstacles and later work of the authors. Results for the fractional Laplacian, smooth obstacles, or higher regularity of an already regular free boundary do not cover this anisotropic local estimate. No matching extension was located.

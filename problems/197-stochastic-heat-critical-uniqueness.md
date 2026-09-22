@@ -2,7 +2,7 @@
 
 **Area:** Stochastic reaction–diffusion equations
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -17,7 +17,7 @@ $$\sup_{0\le t\le T,\ x\in\mathbb R}e^{-a|x|}|u(t,x)|<\infty
 \quad\text{almost surely for every }a,T>0?$$
 The coefficient may vanish and solutions may have either sign.
 
-## Applied significance
+## Application
 
 Noise coefficients with limited smoothness arise in population-density and branching models. The endpoint would identify the sharp regularity at which a stochastic diffusion law determines its trajectory from its driving noise.
 
@@ -28,6 +28,8 @@ Noise coefficients with limited smoothness arise in population-density and branc
 - [Yi Han, *Stochastic heat equation with nondegenerate Hölder diffusion coefficient: uniqueness below the three-fourth threshold* (August 2026 preprint)](https://arxiv.org/abs/2608.01279), §1 and its distinction between weak and pathwise uniqueness.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2014 paper explicitly leaves the endpoint open. Han's August 2026 theorem assumes a uniformly nonvanishing coefficient and proves uniqueness in law, not pathwise uniqueness; it does not settle this general endpoint. The signed solution class is intentional: nonnegative special models have additional structure.
 

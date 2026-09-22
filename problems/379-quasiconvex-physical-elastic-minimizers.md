@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear elasticity; variational equilibrium
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ For every prescribed trace $g$ for which the class
 $$\mathcal A_g=\{y\in W^{1,p}(\Omega;\mathbb R^3):\operatorname{Tr}y=g,\ I(y):=\int_\Omega W(Dy)\,dx<\infty\}$$
 is nonempty, must $I$ attain its infimum on $\mathcal A_g$? No polyconvexity, polynomial upper growth or additional global-injectivity constraint is assumed.
 
-## Applied significance
+## Application
 
 The determinant barrier prevents local collapse and orientation reversal in a solid. Resolving existence with quasiconvexity would extend equilibrium theory to a broader class of constitutive laws than those covered by polyconvexity.
 
@@ -24,5 +24,7 @@ The determinant barrier prevents local collapse and orientation reversal in a so
 2. J. M. Ball, [*Convexity conditions and existence theorems in nonlinear elasticity*](https://doi.org/10.1007/BF00279992), Archive for Rational Mechanics and Analysis 63 (1977), 337–403, polyconvex existence theory.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using quasiconvex determinant-constrained elasticity, Ball Problem 1, and existence beyond polyconvexity. The stated $p>3$ case avoids cavitation but retains the physical infinite-energy determinant barrier. Standard quasiconvex existence theorems with a finite polynomial upper bound cannot cover that barrier. Polyconvex theorems and existence for special relaxed material energies do not prove the assertion for every $W$ here. No later general theorem or matching counterexample was located. This concerns existence of a minimizer, distinct from the repository's question about whether an existing minimizer satisfies force balance.

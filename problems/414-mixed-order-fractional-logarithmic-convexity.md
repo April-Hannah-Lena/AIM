@@ -2,7 +2,7 @@
 
 **Area:** Fractional PDE systems / inverse problems
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ with initial pair $U_0\in L^2(\Omega)^2$. Each derivative is Caputo: $\partial_t
 $$\|U(t)\|\le C\|U_0\|^{1-t/T}\|U(T)\|^{t/T}\qquad(0<t<T)$$
 for every mild solution?
 
-## Applied significance
+## Application
 
 Coupled materials or chemical species can have different memory exponents. An interpolation estimate would support stable inverse recovery for such multi-component anomalous diffusion systems.
 
@@ -24,5 +24,7 @@ Coupled materials or chemical species can have different memory exponents. An in
 2. S.-E. Chorfi, L. Maniar and M. Yamamoto, *The backward problem for time-fractional evolution equations*, Applicable Analysis 103 (2024), 2194–2212, logarithmic convexity and conditional stability theorems. [DOI](https://doi.org/10.1080/00036811.2023.2290273); [arXiv:2211.16493](https://arxiv.org/abs/2211.16493).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The recent source poses this exact coupled system. Its two distinct time orders prevent reduction to the single-order self-adjoint theorem. Searches through 22 September 2026 for mixed-order coupled diffusion, logarithmic convexity and backward recovery found no matching resolution. This concerns coupling of distinct memory laws, separate from nonsymmetric spatial drift.

@@ -4,7 +4,7 @@
     "title": "Absolute continuity for smooth periodic scalar elliptic operators",
     "area": "Periodic media and spectral theory",
     "file": "problems/101-periodic-elliptic-absolute-continuity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Irreducibility of complex Fermi varieties",
     "area": "Periodic quantum Hamiltonians",
     "file": "problems/102-complex-fermi-irreducibility.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Sunada’s no-gap conjecture for abelian covers",
     "area": "Wave spectra on periodic curved spaces",
     "file": "problems/103-sunada-no-gap-cover.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Simon’s multidimensional weighted square-integrability conjecture",
     "area": "Quantum scattering and transport",
     "file": "problems/104-simon-weighted-l2.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -36,7 +36,7 @@
     "title": "A universal bound on excess molecular charge",
     "area": "Many-electron quantum mechanics",
     "file": "problems/105-maximal-molecular-ionization.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -44,7 +44,7 @@
     "title": "Uniform boundedness of the first atomic ionization energy",
     "area": "Atomic spectroscopy",
     "file": "problems/106-uniform-first-ionization.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -52,7 +52,7 @@
     "title": "Convexity of atomic ground-state energy in electron number",
     "area": "Quantum chemistry and density functional theory",
     "file": "problems/107-atomic-energy-convexity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -60,7 +60,7 @@
     "title": "Concentration of nuclear charge minimizes the Dirac gap level",
     "area": "Relativistic quantum chemistry",
     "file": "problems/108-dirac-charge-concentration.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
@@ -68,7 +68,7 @@
     "title": "Faber–Krahn inequality for graphene quantum dots",
     "area": "Dirac spectral geometry",
     "file": "problems/109-quantum-dot-dirac-faber-krahn.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -76,7 +76,7 @@
     "title": "The disk maximizes the first magnetic Neumann eigenvalue",
     "area": "Magnetic spectral optimization",
     "file": "problems/110-magnetic-neumann-disk.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
@@ -84,7 +84,7 @@
     "title": "Strict angle monotonicity of magnetic wedge ground energy",
     "area": "Corner superconductivity",
     "file": "problems/111-magnetic-wedge-angle-monotonicity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -92,7 +92,7 @@
     "title": "Baur’s high-field disk conjecture for all higher eigenvalues",
     "area": "Magnetic confinement and shape design",
     "file": "problems/112-baur-high-field-disk.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -100,7 +100,7 @@
     "title": "Is the optimal magnetic rectangle always a square?",
     "area": "Magnetic quantum wells",
     "file": "problems/113-optimal-magnetic-rectangle.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -108,7 +108,7 @@
     "title": "A sharp universal inequality for clamped-plate eigenvalues",
     "area": "Elastic vibration",
     "file": "problems/114-clamped-plate-universal-bound.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -116,7 +116,7 @@
     "title": "Uniqueness of the critical catenoid",
     "area": "Capillary surfaces and spectral geometry",
     "file": "problems/115-critical-catenoid-uniqueness.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -124,7 +124,7 @@
     "title": "The first Steklov eigenvalue of a free-boundary minimal hypersurface",
     "area": "Capillary geometry and boundary vibrations",
     "file": "problems/116-free-boundary-first-steklov.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -132,7 +132,7 @@
     "title": "Linear growth of interior Steklov nodal volume",
     "area": "Boundary-driven wave patterns",
     "file": "problems/117-steklov-bulk-nodal-volume.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
@@ -140,7 +140,7 @@
     "title": "Unbounded first Steklov multiplicity with fixed boundary count",
     "area": "Boundary-mode degeneracy",
     "file": "problems/118-steklov-fixed-boundary-multiplicity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -148,7 +148,7 @@
     "title": "Arbitrarily large Steklov frequency with a prescribed embedded boundary",
     "area": "Geometric design of boundary-loaded media",
     "file": "problems/119-fixed-embedded-boundary-steklov.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -156,7 +156,7 @@
     "title": "Anderson localization for the cosine skew-shift model at every coupling",
     "area": "Deterministic quantum disorder",
     "file": "problems/120-skew-shift-localization.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -164,7 +164,7 @@
     "title": "A universal central limit law for quantum-graph nodal surplus",
     "area": "Wave networks and quantum chaos",
     "file": "problems/121-quantum-graph-nodal-clt.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -172,7 +172,7 @@
     "title": "Jakobson–Naud’s essential spectral-gap conjecture",
     "area": "Open chaotic scattering",
     "file": "problems/122-jakobson-naud-essential-gap.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -180,7 +180,7 @@
     "title": "Full-order resonance growth for every nonzero real compact potential",
     "area": "Wave scattering by a localized medium",
     "file": "problems/123-full-order-potential-resonances.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -188,7 +188,7 @@
     "title": "Boundary contact of the second nodal set in convex domains",
     "area": "Vibration interfaces and geometry",
     "file": "problems/124-convex-higher-dimensional-payne.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -196,7 +196,7 @@
     "title": "Subpolynomial compact-set peaks of Hecke–Maass waves",
     "area": "Arithmetic quantum chaos",
     "file": "problems/125-sarnak-compact-supnorm.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -204,7 +204,7 @@
     "title": "Diffusive mean-square displacement at fixed disorder",
     "area": "Disordered quantum transport",
     "file": "problems/314-anderson-fixed-disorder-diffusion.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -212,7 +212,7 @@
     "title": "Nonempty spectrum for a magnetic complex Airy operator at every field strength",
     "area": "Magnetic spectral PDEs and superconductivity",
     "file": "problems/435-magnetic-airy-half-plane-spectrum.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-22"
   },
   {
@@ -220,7 +220,7 @@
     "title": "Reality of the spectrum for a spherical strip with PT-symmetric boundary conditions",
     "area": "Waveguides and nonselfadjoint boundary PDEs",
     "file": "problems/436-spherical-pt-robin-real-spectrum.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -228,7 +228,7 @@
     "title": "Excess Floquet multiplicity for complex periodic Schrödinger equations",
     "area": "Periodic wave media and nonselfadjoint spectral theory",
     "file": "problems/437-complex-hill-excess-multiplicity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -236,7 +236,7 @@
     "title": "Completeness of modes for slowly growing imaginary Schrödinger potentials",
     "area": "Nonselfadjoint Schrödinger equations and modal expansions",
     "file": "problems/440-imaginary-sublinear-potential-completeness.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -244,7 +244,7 @@
     "title": "An optimal Weyl remainder for interior transmission eigenvalues",
     "area": "Transmission PDEs and wave scattering",
     "file": "problems/441-transmission-eigenvalue-sharp-weyl-remainder.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -252,7 +252,7 @@
     "title": "The Weinstock inequality for convex domains in a sphere",
     "area": "Elliptic boundary spectra and shape optimization",
     "file": "problems/456-spherical-convex-weinstock-inequality.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   }
 ]

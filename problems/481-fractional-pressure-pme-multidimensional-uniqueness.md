@@ -2,7 +2,7 @@
 
 **Area:** Nonlocal PDEs; porous-medium transport
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -21,7 +21,7 @@ $$\|u(t)\|_q^q+\frac{4q(q-1)}{(m+q-1)^2}\int_0^t\|(-\Delta)^{(1-s)/2}u^{(m+q-1)/
 
 Is there at most one bounded energy weak solution for each such initial density, without strict positivity or additional smoothness assumptions?
 
-## Applied significance
+## Application
 
 Uniqueness would reconcile the different approximation and gradient-flow constructions of this macroscopic nonlocal transport model.
 
@@ -34,5 +34,7 @@ Uniqueness would reconcile the different approximation and gradient-flow constru
 4. G. Foghem, D. Padilla-Garza and M. Schmidtchen, *Gradient flow solutions for porous medium equations with nonlocal Lévy-type pressure*, Calc. Var. PDE **64**, 88 (2025). [Article](https://doi.org/10.1007/s00526-025-02942-6).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The survey explicitly distinguishes multidimensional weak uniqueness from the one-dimensional theorem and local smooth theory. Searches on 2026-09-22 checked subsequent uniqueness and gradient-flow results. The 2025 paper constructs gradient-flow solutions and proves uniqueness of discrete minimizers, which is not uniqueness of the continuous PDE. The 2026 paper's uniqueness theorem is one-dimensional. No matching theorem for the above multidimensional energy class was located.

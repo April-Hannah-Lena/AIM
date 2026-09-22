@@ -2,7 +2,7 @@
 
 **Area:** Applied geometry, control and information
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -29,7 +29,7 @@ $$
 
 Determine this capacity region for every fixed $P,N_1,N_2>0$, with matching achievability and converse bounds. Encoding is not restricted to linear feedback schemes. [1, 2]
 
-## Applied significance
+## Application
 
 This is the basic model of one transmitter sending separate data streams to two receivers while using returned observations to correct earlier transmission errors. Its capacity region would give the ultimate throughput benchmark for feedback coding and learned communication schemes. [1, 5]
 
@@ -43,6 +43,8 @@ This is the basic model of one transmitter sending separate data streams to two 
 6. Abbas El Gamal, *The Capacity of the Physically Degraded Gaussian Broadcast Channel with Feedback*, IEEE Transactions on Information Theory 27(4), 1981, 508–511, DOI [10.1109/TIT.1981.1056372](https://doi.org/10.1109/TIT.1981.1056372). [Author-hosted full text](https://isl.stanford.edu/groups/elgamal/abbas_publications/J009.pdf), §III, Eq. (10) and Theorem 3.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Sources [1] and the independent work [2] explicitly identify the unrestricted capacity problem as open. The duality theorem [3] characterizes the linear-feedback region through a multiple-access channel; its linearity restriction does not supply a converse for all broadcast codes. Posterior matching [4] attains the symmetric linear-feedback sum rate, leaving the same restriction.
 

@@ -2,6 +2,10 @@
 
 **Area:** PDE control / thermal flux tracking
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^d$, $d\ge2$, be bounded and connected with smooth boundary. Fix $T>0$ and nonempty relatively open boundary patches $\Gamma,\Sigma$ with disjoint closures. For $u\in L^2((0,T)\times\Gamma)$ let $y_u$ be the transposition solution of
@@ -20,7 +24,7 @@ $$
 
 where $\nu$ is the outward normal. Characterize $\mathcal R_T$ by necessary and sufficient regularity and compatibility conditions on the target flux itself, including the sharp quantitative restrictions near $t=0$. Merely restating membership as existence of a control or an abstract dual inequality is not the requested function-space characterization.
 
-## Applied significance
+## Application
 
 The problem identifies precisely which temperature-flux histories can be imposed on an inaccessible boundary by heating a separate accessible boundary.
 
@@ -31,8 +35,6 @@ The problem identifies precisely which temperature-flux histories can be imposed
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 Smoothing supplies necessary regularity, while one-dimensional flatness constructions supply sufficient Gevrey classes. These do not identify the sharp multidimensional range. The 2026 moving-target result concerns approximate tracking, which is weaker than exact range membership. Searches included “heat tracking controllability sharp space Gevrey 2026” and “boundary flux heat exact tracking range characterization 2025 2026”. No sharp general characterization was located.

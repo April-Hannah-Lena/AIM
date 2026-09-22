@@ -2,6 +2,10 @@
 
 **Area:** Grain-boundary evolution
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Consider a finite embedded planar network moving by curvature, with only $120^\circ$ triple junctions and fixed endpoints on the boundary of a smooth strictly convex domain. At an interior singular point $(x_0,T)$, set
@@ -12,7 +16,7 @@ $$
 
 Is the limiting shrinker independent of the sequence $t_j\uparrow T$ used to obtain it? Precisely, must all locally convergent subsequences of the rescaled networks have the same limiting arclength varifold, including its integer multiplicities? No rotation of the limit is allowed when comparing subsequences.
 
-## Applied significance
+## Application
 
 A unique limiting shape would make the local geometry of a grain-rearrangement event predictable as observation resolution changes.
 
@@ -24,8 +28,6 @@ A unique limiting shape would make the local geometry of a grain-rearrangement e
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The source distinguishes this question from multiplicity one: different subsequences could have distinct shapes even if each had unit multiplicity. Searches for “network flow uniqueness blow up limits 2025 2026” and “Pluda Pozzetta uniqueness shrinker networks” found conditional convergence results, but no theorem covering all collapsing networks.

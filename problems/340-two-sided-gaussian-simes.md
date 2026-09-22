@@ -2,7 +2,7 @@
 
 **Area:** Multiple testing and statistical inference
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -32,7 +32,7 @@ $$
 
 Equivalently, can the global test that rejects when some $P_{(k)}\le k\alpha/n$ have probability greater than $\alpha$ of rejecting a completely true null? The question asks for exact finite-dimensional control with arbitrary correlations. Marginal variances are known; no estimated covariance or Student $t$ statistic is involved. It is enough to settle positive definite $\Sigma$: approximation by $(1-\varepsilon)\Sigma+\varepsilon I_n$ extends the bound to singular matrices, because the rejection boundary has probability zero under the continuous marginal $p$-value laws.
 
-## Applied significance
+## Application
 
 Large studies often combine correlated measurements to ask whether an entire group has any signal—for example, whether a prespecified group of gene-expression measurements departs from a null model. Under an exactly Gaussian model with known marginal variances, the proposed inequality would justify the usual Simes threshold without adjusting it for the unknown pattern of correlations. It would control the probability of declaring a signal when the whole group is null. This is a group-level guarantee; identifying which individual coordinates carry signals requires additional error-control arguments.
 
@@ -47,6 +47,8 @@ Large studies often combine correlated measurements to ask whether an entire gro
 7. Deepra Ghosh and Sanat K. Sarkar, *Further Results on Controlling the False Discovery Rate in Two-Sided Gaussian Mean Testing*, [arXiv:2608.21267v2](https://arxiv.org/html/2608.21267v2), 24 August 2026. Theorems 3.1 and 4.2 concern covariance-dependent bounds and modified procedures.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-18.
 

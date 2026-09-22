@@ -2,7 +2,7 @@
 
 **Area:** Exact algorithms and computational complexity
 
-**Status:** Open in cited literature; no later resolution located as of 2026-09-19.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-19
 
@@ -33,7 +33,7 @@ $$
 
 The exponent improvement must remain positive as $n$ grows. The finite-input problem and bounded-error convention follow [1, §§1.1–2.1]. Pătraşcu's original expected-time statement uses zero-error algorithms [9, §1.3]; the bounded-error convention here is explicitly supplied by [1]. Within bounded-error algorithms, a constant-factor timeout and amplification preserve the existence of a fixed-power speedup, so using expected time does not change that target. The standard three-set and zero-sum formulations are discussed in [2, §2.1] and are treated as one problem here. Logarithmic savings are compatible with this conjecture.
 
-## Applied significance
+## Application
 
 Integer 3SUM is a reference problem for the limits of exact combinatorial algorithms. Reductions transfer its conjectured running-time barrier to graph-triangle reporting, some dynamic reachability tasks and geometric degeneracy tests [2, §§1 and 6; 4, §1.1; 9, Theorems 3–5]. These connections help determine whether a slow step in a larger computation reflects a common unresolved algorithmic barrier. Its applied relevance is foundational: it organizes worst-case limits across these algorithmic tasks.
 
@@ -53,6 +53,8 @@ Integer 3SUM is a reference problem for the limits of exact combinatorial algori
 12. Luis Barba, Jean Cardinal, John Iacono, Stefan Langerman, Aurélien Ooms and Noam Solomon, *Subquadratic Algorithms for Algebraic Generalizations of 3SUM*, SoCG 2017, LIPIcs 77, Article 13, [published full text](https://drops.dagstuhl.de/storage/00lipics/lipics-vol077-socg2017/LIPIcs.SoCG.2017.13/LIPIcs.SoCG.2017.13.pdf). §1.2 defines the models; Theorems 8, 13, 15 and 16 separate their guarantees.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located as of 2026-09-19.
 
 The current July and August 2026 sources [3, 6] independently retain the general fixed-power hypothesis. The July account gives the best general integer running time as $n^2\operatorname{poly}(\log\log n)/(\log n)^2$. It remains $n^{2-o(1)}$. The original strict-quadratic real-input conjecture was refuted in [4]; its Theorem 1.1 provides logarithmic algorithmic savings and a much smaller decision-tree depth. Counting comparisons in a decision tree does not supply a uniform machine implementation with that total running time.
 

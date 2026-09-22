@@ -2,7 +2,7 @@
 
 **Area:** Scheduling and operations research
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -19,7 +19,7 @@ $$
 
 Determine the computational complexity of this decision problem, conventionally written $P3\mid\mathrm{prec},p_j=1\mid C_{\max}$. In particular, is it solvable by a deterministic algorithm polynomial in the input length, or can NP-completeness be established under polynomial-time many-one reductions? No dichotomy between these outcomes is assumed. The number of processors is fixed at three, while the job graph and deadline are unrestricted input. The goal is exact feasibility, not an approximation to the minimum completion time.
 
-## Applied significance
+## Application
 
 Precedence edges represent dependencies between computational tasks or project activities. Fixing three identical processors removes machine heterogeneity and numerical processing-time encoding, isolating the algorithmic difficulty created by dependencies and limited parallelism. Resolving exact tractability would clarify when an optimal schedule can be computed efficiently for this basic resource-allocation model.
 
@@ -30,6 +30,8 @@ Precedence edges represent dependencies between computational tasks or project a
 3. Christina Büsing, Maurice Draeger and Corinna Mathwieser, *Parameterized Complexity of Scheduling Unit-Time Jobs with Generalized Precedence Constraints*, IPEC 2025, 7:1–7:16. [Published paper](https://doi.org/10.4230/LIPIcs.IPEC.2025.7), §5 and Theorem 13.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Nederlof–Swennenhuis–Węgrzycki pose the exact three-processor problem and give an algorithm with running time $2^{O(\sqrt n\log n)}$. Independent papers by Das–Wiese and Büsing–Draeger–Mathwieser identify the remaining fixed-machine gap. Approximation schemes do not give exact polynomial-time feasibility by taking arbitrarily small error. The inspected hardness reductions either let the number of processors grow or introduce OR dependencies; a makespan of three must not be confused with three processors.
 

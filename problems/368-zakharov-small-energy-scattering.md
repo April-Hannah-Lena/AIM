@@ -2,7 +2,7 @@
 
 **Area:** Plasma physics; dispersive asymptotics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -16,7 +16,7 @@ that scatters as $t\to\pm\infty$? Precisely, for each sign require a free Schrö
 $$\|u-u_{\pm}^{\rm lin}\|_{H^1}+\|n-n_{\pm}^{\rm lin}\|_2+\|\partial_tn-\partial_tn_{\pm}^{\rm lin}\|_{\dot H^{-1}}\longrightarrow0.$$
 No radial symmetry, spatial weights or additional angular regularity may be imposed.
 
-## Applied significance
+## Application
 
 Scattering means a weak plasma disturbance eventually behaves as uncoupled linear waves. This asks whether finite small energy alone guarantees that nonlinear wave–density interactions become negligible.
 
@@ -26,5 +26,7 @@ Scattering means a weak plasma disturbance eventually behaves as uncoupled linea
 2. Z. Guo and K. Nakanishi, [*Small energy scattering for the Zakharov system with radial symmetry*](https://arxiv.org/abs/1203.3959), Communications in Mathematical Physics 324 (2013), 359–371, main theorem.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using nonradial Zakharov scattering, small energy, angular regularity, and 2025–2026 results. The August 2026 primary source explicitly retains the displayed issue even for small data. The radial theorem and weighted or angularly regular scattering results impose hypotheses absent here. This concerns asymptotic completeness of small disturbances, independently of finite-time collapse for large disturbances. No later unweighted nonradial energy-space theorem was located.

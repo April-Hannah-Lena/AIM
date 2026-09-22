@@ -2,7 +2,7 @@
 
 **Area:** Hyperbolic conservation laws; physical viscosity
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -12,7 +12,7 @@ Let $f\in C^4(U;\mathbb R^N)$, $N\ge2$, on an open set $U$, and suppose $Df$ is 
 $$\partial_tu^\varepsilon+\partial_xf(u^\varepsilon)=\varepsilon\partial_x\bigl(B(u^\varepsilon)\partial_xu^\varepsilon\bigr),\qquad u^\varepsilon(0)=u_0$$
 satisfy $\sup_{t\ge0}\operatorname{TV}(u^\varepsilon(t))\le C\operatorname{TV}(u_0)$ uniformly for $0<\varepsilon\le1$, and converge in $C([0,T];L^1)$ for every finite $T$ to the standard small-BV entropy semigroup solution? The matrices $B(u)$ and $Df(u)$ need not commute.
 
-## Applied significance
+## Application
 
 Real viscosity depends on the state and can mix characteristic wave families. This asks whether the well-established artificial-viscosity selection principle remains valid for a broad class of entropy-dissipating constitutive viscosities.
 
@@ -23,5 +23,7 @@ Real viscosity depends on the state and can mix characteristic wave families. Th
 3. B. Haspot and A. Jana, [*Vanishing viscosity limit for $n\times n$ hyperbolic system of conservation laws in 1-d with nonlinear viscosity: Part-I Uniform BV estimates*](https://arxiv.org/abs/2512.15620), preprint (2025), revised May 2026, main theorem and commuting-matrix hypothesis.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using nonlinear viscosity, uniform BV, noncommuting diffusion, and Haspot–Jana. The 2025 Temple-class theorem and its 2026 general-system extension assume $B(u)Df(u)=Df(u)B(u)$. That explicit restriction leaves the displayed noncommuting case untreated. The entropy compatibility imposed here rules out unstable arbitrary diffusion choices. No later theorem removing commutation in this setting was located.

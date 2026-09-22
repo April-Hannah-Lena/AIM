@@ -2,7 +2,7 @@
 
 **Area:** Disordered polymers and adsorption
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -17,7 +17,7 @@ Put $h_c(\beta)=\inf\{h:F(\beta,h)>0\}$. The normalized partition function $W_N=
 
 For every $\beta>0$, does $P(W_\infty=0)=1$ imply $h_c(\beta)>-\beta^2/2$?
 
-## Applied significance
+## Application
 
 The question asks whether strong randomness at the annealed adsorption threshold must measurably shift the true polymer-pinning transition.
 
@@ -27,6 +27,8 @@ The question asks whether strong randomness at the annealed adsorption threshold
 - [Giambattista Giacomin, *Random Polymer Models* (Imperial College Press, 2007)](https://doi.org/10.1142/P504), monograph background for disordered renewal pinning.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 This is a fixed Gaussian, renewal-exponent alpha=1/4 case of Berger's explicit conjecture for alpha≠0. The notes distinguish this unresolved pinning statement from recent resolutions of strong-versus-very-strong disorder for directed polymers in a bulk random environment.
 

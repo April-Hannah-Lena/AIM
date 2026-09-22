@@ -2,6 +2,10 @@
 
 **Area:** Geometric analysis / volume and boundary optimization
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $(M^n,g)$ be a complete simply connected smooth Riemannian manifold, with $n\ge5$ and sectional curvature everywhere nonpositive. Let $\Omega\Subset M$ be a domain with smooth boundary. Write $V=\operatorname{Vol}_g(\Omega)$, $A=\operatorname{Area}_g(\partial\Omega)$, and let $\omega_n$ be the volume of the Euclidean unit ball.
@@ -14,7 +18,7 @@ $$
 
 hold for every such domain? No pinching, symmetry, small-volume or curvature-nullity hypothesis is imposed.
 
-## Applied significance
+## Application
 
 The inequality would compare the boundary cost of enclosing material in negatively curved spaces with the Euclidean optimum. It also supplies sharp constants for diffusion and Sobolev estimates.
 
@@ -26,8 +30,6 @@ The inequality would compare the boundary cost of enclosing material in negative
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 The conjecture is established in dimensions at most four. The three 2026 results listed above have additional hypotheses and do not establish the general inequality in dimensions five and higher. Searches included “Cartan Hadamard conjecture solved 2026”, “Ghomi nullity isoperimetric 2026” and “Cartan Hadamard pinched dimension five August 2026”. Older abstracts claiming a full solution were checked against the authors' current, more limited statements.

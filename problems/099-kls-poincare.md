@@ -2,7 +2,7 @@
 
 **Area:** High-dimensional probability and sampling
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -16,7 +16,7 @@ $$
 $$
 Extended-real convex potentials include uniform measures on convex bodies. The same $C$ must work in all dimensions and for all such densities and functions. This is the Poincaré formulation of KLS.
 
-## Applied significance
+## Application
 
 A dimension-free spectral gap would strengthen guarantees for sampling log-concave distributions and for concentration in high-dimensional inference.
 
@@ -26,6 +26,8 @@ A dimension-free spectral gap would strengthen guarantees for sampling log-conca
 - [Brayden Letwin, *The KLS constant is O(log¹⁄⁴ n)* (July 2026), abstract and main result](https://arxiv.org/abs/2607.24164).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The July 2026 preprint establishes the conjectured variance bound for quadratic forms and improves a dimension-dependent KLS bound. It does not provide a dimension-free inequality for arbitrary smooth f. Bourgain's slicing problem is a separate, weaker problem and is not listed here as open.
 

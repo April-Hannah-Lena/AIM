@@ -2,7 +2,7 @@
 
 **Area:** Photoacoustic tomography / inverse wave problems
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -17,7 +17,7 @@ Does
 $u_1|_{(0,\infty)\times\partial B}=u_2|_{(0,\infty)\times\partial B}$
 imply $c_1=c_2$ and $f_1=f_2$? Each experiment has just one unknown initial pressure. No ordering between the speeds or finite-dimensional source model is assumed.
 
-## Applied significance
+## Application
 
 Photoacoustic reconstruction usually requires a known sound speed. Joint uniqueness would establish when the same pressure measurements can also calibrate the acoustic medium.
 
@@ -27,6 +27,8 @@ Photoacoustic reconstruction usually requires a known sound speed. Joint uniquen
 2. P. Stefanov and G. Uhlmann, *Thermoacoustic tomography with variable sound speed*, Inverse Problems **25** (2009), 075011. [Preprint](https://arxiv.org/abs/0902.1973).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 The 2025 paper describes the general simultaneous recovery problem and obtains uniqueness under monotonicity assumptions, including suitable piecewise constant cases. The 2009 theorem reconstructs the source with known sound speed. Neither provides the unrestricted joint conclusion above.
 

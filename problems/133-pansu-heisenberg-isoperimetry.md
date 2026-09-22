@@ -2,6 +2,10 @@
 
 **Area:** Sub-Riemannian geometric optimization
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 On $\mathbb R^3$ with coordinates $(x,y,t)$, put $X=\partial_x-\frac y2\partial_t$ and $Y=\partial_y+\frac x2\partial_t$. For a measurable set $E$ define horizontal perimeter by
@@ -21,7 +25,7 @@ $$
 
 Does every measurable $E$ of finite positive Lebesgue volume and finite horizontal perimeter satisfy $P_H(E)\ge P_H(B_R)$ when $|E|=|B_R|$? This asks for global optimality among all finite-perimeter sets, without symmetry or boundary-regularity assumptions.
 
-## Applied significance
+## Application
 
 The Heisenberg geometry is a basic model of constrained motion. A sharp perimeter inequality quantifies the least boundary cost for a prescribed accessible volume and controls related diffusion inequalities.
 
@@ -32,8 +36,6 @@ The Heisenberg geometry is a basic model of constrained motion. A sharp perimete
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 treatment explicitly distinguishes the conjectured sharp constant from established bounds. Results for symmetric sets or sufficiently regular candidate minimizers leave the unrestricted class above unresolved. Searches included “Pansu conjecture Heisenberg isoperimetric solved 2025 2026” and “Heisenberg bubble global finite perimeter minimizer”. No general resolution was located.

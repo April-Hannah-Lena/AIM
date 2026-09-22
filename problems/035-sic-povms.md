@@ -2,7 +2,7 @@
 
 **Area:** Quantum measurement and frame theory
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ For every integer $d\ge2$, do there exist $d^2$ unit vectors $\psi_1,\ldots,\psi
 $$|\langle\psi_j,\psi_k\rangle|^2=\frac1{d+1}\quad(j\ne k)?$$
 Such a family is a symmetric informationally complete set. The measurement effects $E_j=d^{-1}\psi_j\psi_j^*$ then satisfy $\sum_jE_j=I_d$. No group-covariance assumption is imposed.
 
-## Applied significance
+## Application
 
 A SIC gives a minimal, highly symmetric informationally complete measurement for reconstructing a quantum state. It is also a maximal equiangular line configuration and an optimal finite frame for several estimation criteria.
 
@@ -22,6 +22,8 @@ A SIC gives a minimal, highly symmetric informationally complete measurement for
 2. C. Butucea, J. Johannes and H. Stein, [Locally Gentle State Certification for High Dimensional Quantum Systems](https://arxiv.org/abs/2602.04550), 2026, v3. Recent measurement application and discussion of SIC existence.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. Appleby–Flammia–Kopp explicitly require two number-theoretic/special-value conjectures for their all-dimension construction. The 2026 certification work continues to treat general SIC existence as conjectural. Neither numerical examples in many dimensions nor a conditional formula prove the universal assertion.
 

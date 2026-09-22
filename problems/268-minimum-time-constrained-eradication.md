@@ -2,6 +2,10 @@
 
 **Area:** Geometric optimal control / invasive-species containment
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $V\subset\mathbb R^2$ be a bounded connected Lipschitz domain and $M>0$. A motion is a measurable set $E\subset(0,T)\times V$ of finite perimeter, meaning its indicator has distributional gradient given by a finite vector measure. Write $\partial^*E$ for its reduced boundary, $\nu=(\nu_0,\nu_1,\nu_2)$ for its generalized **inner** unit normal, and $\mathcal H^2$ for surface measure. Require
@@ -16,7 +20,7 @@ The slices $\Omega(t)=\{x:(t,x)\in E\}$ must have endpoint traces $\mathbf1_{\Om
 
 This is the published BV formulation. At a smooth front with inward speed $\beta$, effort is $\int_{\partial\Omega(t)\cap V}\max\{1+\beta,0\}\,ds$; the integrated constraint and endpoint traces account for all removal, including possible discontinuities.
 
-## Applied significance
+## Application
 
 The model asks how to allocate a bounded cleaning or suppression rate when an infestation spreads locally but cannot cross the coastline.
 
@@ -27,8 +31,6 @@ The model asks how to allocate a bounded cleaning or suppression rate when an in
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 The published paper warns that constructions satisfying necessary conditions need not beat all admissible BV strategies. Its sufficient criterion applies when compatible minimum-perimeter slices exist, which fails for general domains. Searches included “Bressan minimum time eradication 2026”, “optimally controlled moving sets geographical constraints solved”, and “optimal eradication moving sets”. No general characterization was located.

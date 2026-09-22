@@ -2,7 +2,7 @@
 
 **Area:** Hamiltonian chaos and transport
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -20,7 +20,7 @@ h_m(T)=\sup_{\mathcal P}\lim_{n\to\infty}\frac1n
 $$
 and the supremum runs over finite measurable partitions.
 
-## Applied significance
+## Application
 
 The standard map models a periodically kicked rotor. Positive entropy for physical area measure would rigorously establish sustained chaos on a set of positive phase-space area.
 
@@ -30,5 +30,7 @@ The standard map models a periodically kicked rotor. Positive entropy for physic
 2. Pierre Berger, *Wild Dynamics on Manifolds* (2025 preprint, ICM 2026 survey), §§1.4 and 2.3. [Author's survey](https://arxiv.org/abs/2510.12929).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Blumenthal explicitly notes that positive metric entropy is not known for any single standard-map parameter. Time-dependent compositions, randomly perturbed maps, topological horseshoes, and positive entropy for nearby symplectic maps do not answer this fixed-family question. Berger surveys the continuing difficulties around Chirikov's family. Searches on 2026-09-08: "standard map positive metric entropy 2025 arxiv" and "standard map entropy 2026 arxiv". No qualifying parameter with a proof was located.

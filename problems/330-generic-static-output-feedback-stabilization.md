@@ -2,7 +2,7 @@
 
 **Area:** Feedback control and real algebraic geometry
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -33,7 +33,7 @@ The set $\mathcal S_{m,p}$ is already open: a stabilizing gain continues to stab
 
 This is the critical-dimension case of the Byrnes–Anderson generic-stabilization question, explicitly posed in Eremenko's 2010 note. It asks for a dimension classification valid for all positive integer pairs, beyond known cases. It does not ask merely for an algorithm deciding stabilization of one given triple: real-algebraic decision procedures already provide that in principle.
 
-## Applied significance
+## Application
 
 A static controller directly mixes available sensor signals into actuator inputs, without maintaining an observer or other internal controller state. The classification would identify when the numbers of inputs and outputs generically suffice to stabilize a linear plant at the threshold $mp=n$, where the number of freely chosen gain coefficients equals the state dimension. It describes a basic capability of this controller architecture; it does not by itself provide a well-conditioned design method, small gains or robustness guarantees for every plant.
 
@@ -50,6 +50,8 @@ A static controller directly mixes available sensor signals into actuator inputs
 - [Abdulrahman H. Bajodah and Hassen Mibar, *Static output feedback pole placement via parameter-dependent Ackermann and Greville matrix formulae*, ISA Transactions 167, Part B (2025), 1660–1670](https://doi.org/10.1016/j.isatra.2025.09.017), accessible publisher-indexed formulation and introduction.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The September 17, 2026 search covered generic stabilizability/stabilisability, static output feedback, pole assignment, the critical equality, original and later authors, recent claims, corrections and withdrawals. The [evidence record](../research/expansion-2026-09/candidates/generic-static-output-feedback-stabilization.json) records source access and theorem comparisons. Eremenko's maintained problem list still includes the question. That item has no individual 2026 review date; the dated formulation is from 2010. Byrnes–Anderson and the independent Eremenko–Gabrielov work explicitly distinguish stabilization from full pole assignment.
 

@@ -2,7 +2,7 @@
 
 **Area:** Stochastic dynamics, reaction networks and applied optimization
 
-**Status:** Open in cited literature; no later resolution located as of 2026-09-19.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-19
 
@@ -38,7 +38,7 @@ $$
 
 This is the modified integer round-up property (MIRUP) conjectured by Scheithauer and Terno. The ceiling is the least integer no smaller than its argument. The question requires the same additive one for arbitrary item types, lengths, capacity and demands. It compares the two optima and does not prescribe the time needed to find a packing.
 
-## Applied significance
+## Application
 
 Cutting stock models production from standard rolls or bars, including paper and metal cutting. Fractional pattern optimization supplies lower bounds used to assess production plans. MIRUP would place the true stock requirement within one piece of that rounded lower bound, uniformly over the order sizes. A counterexample would expose a larger systematic gap in this planning estimate. The statement concerns the classical one-dimensional model with one stock length and the stock-count objective; setup costs and machine-specific cutting restrictions require different models.
 
@@ -52,6 +52,8 @@ Cutting stock models production from standard rolls or bars, including paper and
 6. John Martinovic, *A note on the integrality gap of cutting and skiving stock instances*, 4OR 20 (2022), 85–104, published online December 23, 2020. [Published article](https://link.springer.com/article/10.1007/s10288-020-00469-4), §2, Definition 3, and §4, Theorem 4. An improved bound under divisibility assumptions.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located as of 2026-09-19.
 
 The June 2026 preprint states the exact ceiling-plus-one conjecture with nonproper patterns and reports no known violating instance. Its polynomial and pseudopolynomial algorithms exploit the specifically constructed AI and ANI benchmark families; their optimality guarantees do not extend to arbitrary input instances.
 

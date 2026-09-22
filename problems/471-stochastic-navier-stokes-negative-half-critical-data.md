@@ -2,7 +2,7 @@
 
 **Area:** Stochastic fluid PDEs; rough initial velocity
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -16,9 +16,9 @@ locally well posed for every deterministic divergence-free $u_0\in B^{-1/2}_{6,4
 $$u\in C([0,\tau];B^{-1/2}_{6,4})\cap L^4(0,\tau;L^6)\quad\hbox{almost surely},$$
 pathwise uniqueness in this class, and continuous dependence in probability in these norms after stopping on common local intervals? The mild equation uses the heat semigroup for both the drift and stochastic convolution. The initial Besov space is the usual inhomogeneous Littlewood–Paley space. The assertion must cover all such spatially varying transport fields, with no extra smallness assumption.
 
-## Applied significance
+## Application
 
-The question asks whether a random-advection fluid model can start from velocity distributions at a critical roughness beyond the presently established transport-noise theory.
+This random-advection fluid model represents incompressible flow with spatially varying transport noise. Local well-posedness at the stated roughness would allow such initial velocity distributions to determine a unique short-time evolution and make that evolution stable under approximation of the initial data, in the specified norms and probability sense.
 
 ## References
 
@@ -26,5 +26,7 @@ The question asks whether a random-advection fluid model can start from velocity
 2. A. Agresti, *On the absence of blow-up in the 3D Navier–Stokes equations with transport noise* (2026 preprint), local theory and noise-selection hypotheses. [Preprint](https://arxiv.org/abs/2607.15140).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 This fixes an endpoint case of Open Problem 10, rather than asking vaguely for the largest critical space. The existing result covers smoothness strictly above $-1/2$ (spatial integrability below six); the requested $B^{-1/2}_{6,4}$ and $L^4_tL^6_x$ norms have the Navier–Stokes critical scaling at high frequencies. Searches on 2026-09-22 checked critical Besov transport-noise theory and recent global-noise results. Results for lower-order multiplicative noise, including general $L^3$ initial data, do not treat the derivative noise above. No matching endpoint theorem was found.

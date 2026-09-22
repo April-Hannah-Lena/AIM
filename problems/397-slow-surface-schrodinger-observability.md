@@ -2,7 +2,7 @@
 
 **Area:** PDE control / dispersive boundary dynamics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -25,7 +25,7 @@ $$
 $$
 for every smooth compatible solution? The fixed coefficient $1/2$ selects a concrete case of the unresolved regime in which surface dispersion is weaker than bulk dispersion.
 
-## Applied significance
+## Application
 
 Dynamic boundary conditions represent surface degrees of freedom coupled to a quantum or dispersive bulk field. The estimate would permit exact control using only the exterior boundary.
 
@@ -35,5 +35,7 @@ Dynamic boundary conditions represent surface degrees of freedom coupled to a qu
 2. S. E. Chorfi, L. Maniar and R. Morales, *Controllability and Inverse Problems for Hyperbolic and Dispersive Equations with Dynamic Boundary Conditions*, preprint (2025), equations (4.1)–(4.4) and §5.1. [arXiv:2505.14795](https://arxiv.org/abs/2505.14795).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The SIAM theorem assumes the surface coefficient exceeds the bulk coefficient. Section 5.1 of the 2025 review expressly distinguishes the unresolved Schrödinger regime below that threshold from the negative result for waves. Searches through 22 September 2026 included “Schrödinger dynamic boundary delta less than d observability”, Wentzell control and Mercado–Morales follow-ups. The 2026 inverse-potential reconstruction paper retains the faster-surface hypothesis; no resolution of the stated slower-surface case was located.

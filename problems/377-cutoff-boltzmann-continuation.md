@@ -2,7 +2,7 @@
 
 **Area:** Rarefied gases; nonlinear kinetic transport
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ where $v'=(v+v_*)/2+|v-v_*|\sigma/2$ and $v_*'=(v+v_*)/2-|v-v_*|\sigma/2$; all f
 $$m_0\le\int f\,dv\le M_0,\qquad\int |v|^2f\,dv\le E_0,\qquad\int f\log f\,dv\le H_0.$$
 Must $f$ extend beyond $T$ as a smooth solution with the same rapid velocity decay? No a priori bound on $f$ itself or on its derivatives is assumed.
 
-## Applied significance
+## Application
 
 The criterion would distinguish breakdown caused by concentration of observable gas density, energy or entropy from a loss of microscopic smoothness invisible to those quantities.
 
@@ -24,5 +24,7 @@ The criterion would distinguish breakdown caused by concentration of observable 
 2. R. T. Glassey, [*The Cauchy Problem in Kinetic Theory*](https://doi.org/10.1137/1.9781611971477), SIAM (1996), §§1.2–1.5, pp. 5–14, and Chapter 3, §§3.6–3.14 (hard-sphere collision operator and perturbative Cauchy theory).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using cutoff Boltzmann continuation, hydrodynamic bounds, mass energy entropy and hard-sphere regularity. Silvestre explicitly proposes propagation of initial regularity under these assumptions for the cutoff equation. The 2025 pressure-and-moment conditional-regularity theorem concerns non-cutoff collisions and uses the regularizing angular singularity; it does not settle the hard-sphere cutoff problem. Global smooth results close to Maxwellians impose smallness. No matching large-data continuation criterion was located.

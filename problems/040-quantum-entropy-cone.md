@@ -2,7 +2,7 @@
 
 **Area:** Quantum information and convex optimization
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -19,7 +19,7 @@ h(IJ)+h(JK)&\ge h(I)+h(K),
 \end{aligned}$$
 where juxtaposition denotes union. Determine whether $\Gamma_N^Q=\Sigma_N$ for every $N\ge4$, or exhibit a universal homogeneous linear inequality not implied by these constraints.
 
-## Applied significance
+## Application
 
 Entropy inequalities bound communication rates, entanglement conversion and distributed quantum information processing. Completeness would justify optimizing over a finite polyhedral set of standard constraints.
 
@@ -29,6 +29,8 @@ Entropy inequalities bound communication rates, entanglement conversion and dist
 2. N. Pippenger, [The inequalities of quantum information theory](https://doi.org/10.1109/TIT.2003.809569), IEEE Transactions on Information Theory 49 (2003), 773–789. Basic quantum entropy cone framework.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. The 2026 paper explicitly asks whether further inequalities hold for all quantum states beyond the three-party case. Its new findings concern holographic states, which form a restricted class and cannot settle this universal problem. No general completeness theorem or new universal independent inequality was located.
 

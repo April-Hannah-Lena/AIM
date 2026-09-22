@@ -2,6 +2,10 @@
 
 **Area:** Fractional quantum Hall physics
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $\mathcal P_N$ be the symmetric complex polynomials in $z_1,\ldots,z_N$ of total degree at most $N(N-1)$, with inner product
@@ -18,7 +22,7 @@ $$\inf\big(\sigma(H_N|_{\mathcal P_N})\setminus\{0\}\big)\ge c?$$
 
 This fixes the contact-interaction normalization and the angular-momentum cutoff while letting particle number grow.
 
-## Applied significance
+## Application
 
 The gap protects a correlated quantum Hall fluid against low-energy perturbations. The same model describes rapidly rotating ultracold bosons restricted to the lowest Landau level.
 
@@ -29,9 +33,7 @@ The gap protects a correlated quantum Hall fluid against low-energy perturbation
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The selected case is the full lowest-Landau-level contact interaction, with the degree cutoff used in Rougerie’s conjecture. Results for truncated pseudopotentials or thin-cylinder limits change the Hamiltonian or geometry. The 2024 paper “The charge gap is greater than the neutral gap in fractional quantum Hall systems” (arXiv:2410.11645) explicitly still treats the full pseudopotential gap as open; comparing two gaps does not prove a positive lower bound.
 

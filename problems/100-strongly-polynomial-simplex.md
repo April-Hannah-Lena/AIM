@@ -2,7 +2,7 @@
 
 **Area:** Numerical optimization
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -14,7 +14,7 @@ $$
 $$
 assume the optimal value is finite. Is there a deterministic simplex pivot rule that reaches an optimal basis using a number of rational arithmetic operations and comparisons bounded by a polynomial in $m+n$ alone, with every intermediate rational having bit length polynomial in the total input bit length? Successive bases must be connected by ordinary feasible simplex pivots along nonincreasing objective values; degenerate pivots are permitted. Rule selection and auxiliary computations count toward the bound, so a pivot oracle of unbounded computational cost is not allowed.
 
-## Applied significance
+## Application
 
 The simplex method is central to practical linear optimization. Such a rule would give a worst-case guarantee independent of numerical coefficient sizes.
 
@@ -24,6 +24,8 @@ The simplex method is central to practical linear optimization. Such a rule woul
 - [Yann Disser, Georg Loho, Matthew Maat and Nils Mosis, *Lower Bounds for Ranking-Based Pivot Rules* (STACS, 2026), abstract and problem context](https://doi.org/10.4230/LIPIcs.STACS.2026.31).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The February 2026 paper explicitly lists polynomial simplex pivot rules as an open problem and proves lower bounds for a family of rules. Lower bounds for named rules do not rule out every possible rule. Strongly polynomial algorithms for restricted LP classes, and a recent substitution-method preprint, do not supply a general strongly polynomial simplex pivot rule.
 

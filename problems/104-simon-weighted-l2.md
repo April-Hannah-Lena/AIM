@@ -2,6 +2,10 @@
 
 **Area:** Quantum scattering and transport
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For every $d\ge2$, let $V:\mathbb R^d\to\mathbb R$ be bounded and measurable with
@@ -10,7 +14,7 @@ $$\int_{\mathbb R^d}\frac{|V(x)|^2}{(1+|x|)^{d-1}}\,dx<\infty.$$
 
 For $H=-\Delta+V$ on $H^2(\mathbb R^d)\subset L^2(\mathbb R^d)$, prove or disprove that the absolutely continuous spectral part has infinite multiplicity at Lebesgue-almost every energy $E>0$. Thus the target concerns the multiplicity of propagating states, and does not exclude additional singular spectrum.
 
-## Applied significance
+## Application
 
 It asks how little spatial decay of an electric potential suffices to preserve the infinitely many scattering channels of a free particle.
 
@@ -21,9 +25,7 @@ It asks how little spatial decay of an electric potential suffices to preserve t
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The one-dimensional square-integrability theory does not settle the multidimensional assertion. The cited survey discusses additional structure or decay assumptions under which positive results hold. Recent searches returned further special-model results, but no proof for all bounded potentials satisfying precisely this weighted condition.
 

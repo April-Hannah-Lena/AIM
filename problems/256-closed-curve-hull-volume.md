@@ -2,6 +2,10 @@
 
 **Area:** Geometric optimization / spatial enclosures
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $\gamma:[0,1]\to\mathbb R^3$ range over continuous rectifiable curves with $\gamma(0)=\gamma(1)$ and $\operatorname{Length}(\gamma)=1$. Determine
@@ -12,7 +16,7 @@ $$
 
 and characterize the maximizing curves up to rigid motion and reparametrization. Self-intersections are allowed; no symmetry or bound on the number of intersections with a plane is assumed.
 
-## Applied significance
+## Application
 
 The problem asks how much spatial volume a closed wire or cyclic sampling trajectory can enclose through its convex hull for a fixed total length.
 
@@ -24,8 +28,6 @@ The problem asks how much spatial volume a closed wire or cyclic sampling trajec
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 Bohr–Markvorsen–Raffaelli explicitly retain the full question in 2026. Their estimate concerns simple curves on the hull boundary with precisely four torsion zeros. Older results for open arcs, special symmetry, or restricted hyperplane intersections do not cover the present class. Searches included “convex hull closed curves volume 2025 2026”, “Melzak convex hull maximum volume solution”, and the 2026 paper's title. No unrestricted sharp value was located.

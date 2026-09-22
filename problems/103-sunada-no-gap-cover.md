@@ -2,6 +2,10 @@
 
 **Area:** Wave spectra on periodic curved spaces
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $X$ be any closed connected orientable surface of genus $g\ge2$ with a metric of constant curvature $-1$. Let $\widetilde X$ be its universal cover and
@@ -14,7 +18,7 @@ $$\sigma(-\Delta_Y)=[0,\infty),$$
 
 for the self-adjoint Laplace–Beltrami operator on $L^2(Y)$.
 
-## Applied significance
+## Application
 
 This tests whether the topology of a periodic curved wave medium can prevent all forbidden frequency intervals. It is a geometric counterpart of band-gap questions for crystals.
 
@@ -25,9 +29,7 @@ This tests whether the topology of a periodic curved wave medium can prevent all
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2026 monograph still discusses the no-gap conjecture. The surface formulation fixes an infinite free-abelian deck group and avoids unrelated finite-cover issues in higher dimensions. Known no-gap results for some regular graphs do not answer this Laplace–Beltrami problem.
 

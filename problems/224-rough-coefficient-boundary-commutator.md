@@ -2,6 +2,10 @@
 
 **Area:** Boundary operators / heterogeneous conduction
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^d$, $d\ge2$, be bounded, connected and Lipschitz. Let $C\in L^\infty(\Omega;\mathbb R^{d\times d})$ be symmetric, with $\mu I\le C(x)\le\mu^{-1}I$ almost everywhere for some $\mu>0$.
@@ -20,7 +24,7 @@ g\varphi\in D(N),\qquad
 $$
 Here $g$ on the boundary means its restriction, and $K$ may depend on $\Omega,C,g$.
 
-## Applied significance
+## Application
 
 The operator maps an imposed boundary potential to outward current. The estimate controls how smoothly localizing a boundary voltage interacts with measuring flux through a conductor containing unresolved spatial heterogeneity.
 
@@ -32,9 +36,7 @@ The operator maps an imposed boundary potential to outward current. The estimate
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The stated question drops Hölder continuity but retains symmetry and real coefficients. Half-space results impose additional structure, including independence from the normal coordinate, and do not cover arbitrary bounded Lipschitz domains and arbitrary measurable $C(x)$.
 

@@ -2,6 +2,10 @@
 
 **Area:** Ultracold quantum gases
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Fix a nonzero, nonnegative, radial potential $V\in C_c^\infty(\mathbb R^3)$. Let $\Lambda_L=(\mathbb R/L\mathbb Z)^3$ and $V_L(x)=\sum_{k\in\mathbb Z^3}V(x+Lk)$. On symmetric $L^2(\Lambda_L^N)$ define
@@ -14,7 +18,7 @@ $$\liminf_{\substack{L\to\infty,\ N\to\infty\\N/L^3\to\rho}}\frac{\langle\phi_L,
 
 The potential and the density remain fixed during the thermodynamic limit.
 
-## Applied significance
+## Application
 
 This would derive macroscopic occupation of one orbital directly from a repulsive many-atom Hamiltonian, a basic microscopic explanation of condensation in a homogeneous dilute gas.
 
@@ -25,9 +29,7 @@ This would derive macroscopic occupation of one orbital directly from a repulsiv
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Chong–Liang–Nam prove condensation beyond the Gross–Pitaevskii regime but explicitly stop short of the fixed-density thermodynamic limit. Their scaling parameter remains below its thermodynamic endpoint. The displayed question isolates a regular repulsive-potential class and zero temperature; neither energy asymptotics nor trapped-gas condensation proves it.
 

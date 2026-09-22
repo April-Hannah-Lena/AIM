@@ -2,7 +2,7 @@
 
 **Area:** Avalanches and self-organized criticality
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -10,7 +10,7 @@
 
 Let $\nu$ be the infinite-volume weak limit of uniform recurrent Abelian sandpile configurations on wired square boxes in $\mathbb Z^2$. Stable heights are $0,1,2,3$; wiring identifies the exterior with a sink before taking the limit. Sample from $\nu$, add one grain at the origin and stabilize, toppling a site with at least four grains by sending one grain to each nearest neighbor. Let $S$ be the total number of topplings, counting repeated topplings of a site separately; $S<\infty$ almost surely is known. Does there exist $a\in[0,\infty)$ such that $\lim_{k\to\infty}\log\nu(S\ge k)/\log k=-a$? The target is existence of the exponent, without requiring a conjectural numerical value.
 
-## Applied significance
+## Application
 
 A power-law exponent describes the frequency of extreme cascade sizes in a basic model of slowly driven threshold systems.
 
@@ -21,6 +21,8 @@ A power-law exponent describes the frequency of extreme cascade sizes in a basic
 - [Tom Hutchcroft, *Universality of high-dimensional spanning forests and sandpiles* (2018)](https://arxiv.org/abs/1804.04120), results in dimensions at least five.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Known planar bounds do not establish a limiting logarithmic exponent for total topplings. The high-dimensional exponent theorem is not a planar theorem. Avalanche area, radius and total topplings are different observables; only the last is counted here.
 

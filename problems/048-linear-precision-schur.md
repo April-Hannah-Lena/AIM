@@ -2,7 +2,7 @@
 
 **Area:** Stable algorithms for general eigenproblems
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ For $A\in\mathbb C^{n\times n}$ with $\|A\|_2\le1$ and $0<\delta<1$, construct a
 $$\|Q^*Q-I\|_2\le\delta,\qquad \|A-QTQ^*\|_2\le\delta.$$
 Require $O(n^3\log^c(n/\delta))$ arithmetic operations and mantissa length $O(\log(n/\delta))$ bits, with universal constants, for every input, independently of eigenvalue gaps and nonnormality. Input entries are supplied to the working precision; input rounding must be included in the error bound. As usual in this floating-point model, exclude overflow and underflow.
 
-## Applied significance
+## Application
 
 An end-to-end error guarantee at modest precision would make fast Schur computation dependable even for severely nonnormal matrices, central to stability analysis and matrix functions.
 
@@ -23,6 +23,8 @@ An end-to-end error guarantee at modest precision would make fast Schur computat
 3. N. Amsel et al., [Linear Systems and Eigenvalue Problems: Open Questions from a Simons Workshop](https://arxiv.org/abs/2602.05394), 2026; Problem 3.3.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. Problem 3.3 asks for logarithmic working precision in a general backward-stable decomposition. Hermitian linear-precision results do not cover arbitrary A. No subsequent general solution was located.
 

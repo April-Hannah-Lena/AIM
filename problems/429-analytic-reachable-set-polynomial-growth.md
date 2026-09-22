@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear control / minimum-time regularity
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -13,7 +13,7 @@ $$\dot x=X_0(x)+\sum_{j=1}^mu_j(t)X_j(x),\qquad x(0)=0.$$
 Let $R_{\le t}(0)$ contain all endpoints reached in time at most $t$ by trajectories that exist in the vector fields' domain. Assume $0\in\operatorname{int}R_{\le t}(0)$ for every sufficiently small $t>0$. Must there exist $C,T>0$ and an integer $N\ge1$, depending on the system, such that
 $$B(0,Ct^N)\subseteq R_{\le t}(0)\qquad(0<t<T)?$$
 
-## Applied significance
+## Application
 
 Qualitative local controllability says nearby maneuvers are possible. The conjecture asks whether analytic dynamics always supply a polynomial time-versus-displacement guarantee, equivalent to Hölder behavior of the minimum-time value function near equilibrium.
 
@@ -23,5 +23,7 @@ Qualitative local controllability says nearby maneuvers are possible. The conjec
 2. F. Marbach, *Time-iteration methods for controllability*, lecture notes (2026), §4.7, equation (4.29) and Open Problem 4.24, the related norm-budget formulation. [Full text](https://arxiv.org/html/2602.19272v1).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Jafarpour separately states this quantitative growth conjecture and the finite-jet determination conjecture. The known implication from polynomial growth to finite-jet robustness does not prove polynomial growth from controllability. The 2026 notes continue to identify the quantitative issue as open. Searches through 22 September 2026 found no general proof or counterexample; results for particular polynomial systems give sufficient conditions only.

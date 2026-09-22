@@ -2,6 +2,10 @@
 
 **Area:** Arithmetic quantum chaos
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $X=\operatorname{PSL}_2(\mathbb Z)\backslash\mathbb H$ have hyperbolic measure $dx\,dy/y^2$. Let $u$ be an $L^2$-normalized smooth real cusp form with
@@ -18,7 +22,7 @@ $$\sup_K|u|\le C_{K,\varepsilon}(1+t)^\varepsilon.$$
 
 The compact set is fixed as frequency grows.
 
-## Applied significance
+## Application
 
 These functions model quantized chaotic motion on an arithmetic surface. The estimate rules out polynomially large exceptional wave peaks in any fixed observable region, beyond what average equidistribution says.
 
@@ -30,9 +34,7 @@ These functions model quantized chaotic motion on an arithmetic surface. The est
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2026 accepted paper resolves a fourth-moment conjecture, not the pointwise compact-set bound. Compactness is necessary: the noncompact cusp permits a different peak scale. Neither averaged equidistribution nor a fourth-moment bound controls every point of every eigenfunction as required here.
 

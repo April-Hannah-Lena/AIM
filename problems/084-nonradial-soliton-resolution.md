@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear waves
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -26,7 +26,7 @@ $\lambda_i/\lambda_j+\lambda_j/\lambda_i+
 |x_i-x_j|^2/(\lambda_i\lambda_j)\to\infty$ as $t\to\infty$.
 The limit is along all times.
 
-## Applied significance
+## Application
 
 This would justify describing long-time nonlinear wave evolution by finitely many coherent structures plus dispersive radiation.
 
@@ -36,6 +36,8 @@ This would justify describing long-time nonlinear wave evolution by finitely man
 - [Jacek Jendrej and Andrew Lawrie, *Soliton resolution for the energy-critical nonlinear wave equation in the radial case* (Annals of PDE, 2023)](https://doi.org/10.1007/s40818-023-00159-4).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The June 2026 paper treats compact support and additional assumptions on ground-state solitons and their velocities; it excludes a collision scenario only in certain cases. Radial results and decomposition along selected times do not provide the general nonradial all-time assertion above.
 

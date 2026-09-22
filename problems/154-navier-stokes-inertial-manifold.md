@@ -2,6 +2,10 @@
 
 **Area:** Fluid mechanics and reduced models
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 On $\mathbb T^2$, fix $\nu>0$ and a smooth time-independent, mean-zero, divergence-free force $f$. Let $S(t)$ be the solution semigroup on the Hilbert space $H$ of mean-zero divergence-free $L^2$ velocities for
@@ -18,7 +22,7 @@ $$
 
 for every bounded $B\subset H$ and all $t\ge0$.
 
-## Applied significance
+## Application
 
 An affirmative result would give an exact finite-dimensional description of the long-time flow with an exponential error bound for transients.
 
@@ -30,8 +34,6 @@ An affirmative result would give an exact finite-dimensional description of the 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The cited survey distinguishes finite-dimensional attractors from inertial manifolds. Searches for “inertial manifold two dimensional Navier Stokes open problem 2025 2026” and “inertial manifolds Zelik 2023 survey” found hyperviscous and modified-equation results but no construction or obstruction for the ordinary equation stated here. A spectral-gap obstruction to one proof method is not a nonexistence theorem.

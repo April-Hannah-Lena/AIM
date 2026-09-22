@@ -2,7 +2,7 @@
 
 **Area:** Elliptic PDEs / nonlinear boundary laws
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -16,7 +16,7 @@ Writing $\omega_n=|B_1|$, is the inequality
 $$E_\Theta(K,\Omega)\ge\min_{1\le r\le R}E_\Theta(B_1,B_r)$$
 valid whenever $|K|=\omega_n$ and $|\Omega|\le\omega_nR^n$? For $r=1$ the right side uses $K=\Omega=B_1$, so unused insulation is allowed.
 
-## Applied significance
+## Application
 
 The boundary law represents Stefan–Boltzmann radiation into an environment at nonnegative temperature. The inequality would justify spherical designs when both the heated body and the amount of insulating material can be arranged freely.
 
@@ -26,5 +26,7 @@ The boundary law represents Stefan–Boltzmann radiation into an environment at 
 2. F. Della Pietra, C. Nitsch and C. Trombetti, *An optimal insulation problem*, Mathematische Annalen 382 (2022), 745–759, §1 energy formulation and §5 open shape questions. [Full text](https://doi.org/10.1007/s00208-020-02058-6).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The primary source singles out radiative heat transfer as an unresolved instance of its constrained-volume concentric-ball question. It proves the quadratic convection law, all penalized-volume problems, and some inactive-constraint cases; those results do not establish the displayed inequality for the radiative law under an arbitrary volume budget. Searches through 22 September 2026 for nonlinear radiative insulation shape optimization and later work by the authors found no resolution.

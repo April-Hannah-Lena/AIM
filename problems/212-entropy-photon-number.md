@@ -2,6 +2,10 @@
 
 **Area:** Quantum optics; communication limits
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $\rho_A,\rho_B$ be arbitrary states of $n\ge1$ bosonic modes, each with finite expected total photon number. The joint input is $\rho_A\otimes\rho_B$. For $0\le\eta\le1$, mix corresponding modes by a beam-splitter unitary, so that the output annihilation operators are
@@ -10,7 +14,7 @@ Let $\rho_C$ be the reduced state of the $c$ modes after discarding the $d$ mode
 $$g^{-1}\!\left(\frac{S(\rho_C)}n\right)\ge\eta g^{-1}\!\left(\frac{S(\rho_A)}n\right)+(1-\eta)g^{-1}\!\left(\frac{S(\rho_B)}n\right)$$
 always true? The inverse is on $[0,\infty)$; correlations among the $n$ modes within either input are allowed.
 
-## Applied significance
+## Application
 
 This gives a sharp lower bound on optical output noise at fixed input entropies, with consequences for information rates in bosonic broadcast and wiretap communication.
 
@@ -21,9 +25,7 @@ This gives a sharp lower bound on optical output noise at fixed input entropies,
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The quantum entropy-power inequality is weaker than this conjecture. Gaussian-input results and certain one-mode Gaussian-channel optimizer theorems do not cover two arbitrary independent multimode inputs. Current searches did not locate a proof or counterexample for that class.
 

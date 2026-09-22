@@ -2,7 +2,7 @@
 
 **Area:** Discrete dynamics and formal verification
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -25,7 +25,7 @@ This is the discrete Skolem problem. The order is unbounded across inputs, and t
 
 To see its dynamical meaning, set $x_n=(u_n,\ldots,u_{n+d-1})^T$. The recurrence gives an integer companion matrix $A$ with $x_{n+1}=Ax_n$, and $u_n=e_1^TA^nx_0$, where $e_1$ is the first coordinate vector. Thus the question asks whether this discrete orbit ever meets the hyperplane whose first coordinate is zero. The recurrence and hyperplane formulations are one problem, not separate additions.
 
-## Applied significance
+## Application
 
 Exact reachability is a basic verification task for systems updated at discrete time steps. For example, a program that repeatedly replaces $x$ by $Ax$ while $e_1^Tx\ne0$ terminates from the specified initial state exactly when the corresponding recurrence has a zero. A general decision procedure would therefore settle termination for this simple class of linear loops, including a reliable negative answer when no terminating step exists. The connection also informs verification of switching boundaries in discrete linear models. This is a foundational question about exact dynamics; floating-point simulation over a long finite horizon cannot certify that a later zero is impossible.
 
@@ -40,6 +40,8 @@ Exact reachability is a basic verification task for systems updated at discrete 
 7. Ruiwen Dong and Doron Shafrir, *Skolem-Mahler-Lech in rings of positive characteristic: a shorter proof and a multi-dimensional generalization*, [arXiv:2609.03127](https://arxiv.org/abs/2609.03127), preprint, v1 (September 2, 2026). §1.3 and Theorems 1.5–1.6. Further status corroboration and a higher-dimensional result that retains a positive-characteristic hypothesis.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The survey states the problem explicitly, Dong–Shafrir independently retain the integer case as open, and Bacik's September 14 manuscript still identifies the unresolved decidability question. Dong–Shafrir's September follow-up also retains the characteristic-zero gap. The Skolem–Mahler–Lech theorem describes the zero set as finitely many arithmetic progressions and a finite exceptional set, but does not provide the general effective information needed to decide emptiness.
 

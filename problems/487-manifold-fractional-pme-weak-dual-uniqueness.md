@@ -2,7 +2,7 @@
 
 **Area:** Nonlocal PDEs; diffusion on curved spaces
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -20,7 +20,7 @@ for every compactly supported smooth space-time test function $\psi$.
 
 Given any $u_0\ge0$ with $\sup_{x_0\in M}\|u_0\|_{1,x_0,G_s}<\infty$, are any two such solutions with trace $u_0$ identical? Do not restrict solutions to those constructed by a monotone sequence of bounded integrable approximations.
 
-## Applied significance
+## Application
 
 The same initial concentration should determine one evolution when nonlinear nonlocal diffusion occurs on a curved substrate.
 
@@ -30,5 +30,7 @@ The same initial concentration should determine one evolution when nonlinear non
 2. G. Grillo, *The Fractional Porous Medium Equation on noncompact Riemannian manifolds*, Oberwolfach Reports 14/2025, contribution on weak dual solutions and unresolved uniqueness/fundamental solutions. [Workshop report](https://ems.press/content/serial-article-files/51358?nt=1).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2024 paper proves uniqueness only within its monotone approximation construction and explicitly asks for uniqueness in the full weak dual class in §7. The 2025 Oberwolfach contribution repeats the unresolved uniqueness issue. Searches on 2026-09-22 for weak dual uniqueness, fractional porous-medium manifolds, and later work of the authors found no full-class theorem. Euclidean very-weak uniqueness and local-in-space porous-medium uniqueness on manifolds concern different operators or geometries.

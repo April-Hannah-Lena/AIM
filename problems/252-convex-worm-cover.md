@@ -2,6 +2,10 @@
 
 **Area:** Geometric optimization / coverage
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $\mathcal C$ be the class of compact convex sets $K\subset\mathbb R^2$ with the following property: for every continuous rectifiable curve $\gamma:[0,1]\to\mathbb R^2$ of length one, there are a rotation $R\in SO(2)$ and a translation vector $a\in\mathbb R^2$ such that
@@ -12,7 +16,7 @@ $$
 
 Determine $\inf_{K\in\mathcal C}\operatorname{Area}(K)$ and characterize the minimizers up to rigid motion. Curves may self-intersect and need not be closed. This is the convex version of Moser's worm problem.
 
-## Applied significance
+## Application
 
 The cover is a smallest convex container that accommodates a flexible unit-length object regardless of its planar shape, after repositioning it.
 
@@ -23,8 +27,6 @@ The cover is a smallest convex container that accommodates a flexible unit-lengt
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 Existence of an optimal convex cover is known; the question is its area and shape. The September 2026 preprint claims an improved triangular cover, leaving a gap from established lower bounds. It was treated as a preprint claim, without independent proof certification. Searches included “Moser worm 2025 2026”, “worm problem convex cover exact solution”, and “Moser convex cover lower bound”. No matching lower and upper bounds identifying the optimum were located.

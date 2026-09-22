@@ -2,7 +2,7 @@
 
 **Area:** Aggregation and fragmentation kinetics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -15,7 +15,7 @@ $$\begin{aligned}
 \end{aligned}$$
 Is it true that every nonnegative initial measure with $\int(1+s^2)c_0(ds)<\infty$ and mass $m=\int s\,c_0(ds)\in[1/2,1]$ admits a global nonnegative weak solution satisfying this equation for compactly supported $C^1$ test functions and conserving $\int s\,c_t(ds)=m$ for every $t\geq0$? Require weak continuity in time and locally integrable collision and fragmentation expressions.
 
-## Applied significance
+## Application
 
 Mass loss in this model represents formation of a macroscopic gel. The question locates the balance between multiplicative aggregation and uniform binary breakup.
 
@@ -26,5 +26,7 @@ Mass loss in this model represents formation of a macroscopic gel. The question 
 - Jiwoong Jang and Hung Vinh Tran, [*Discrete coagulation-fragmentation equations with multiplicative coagulation kernel and constant fragmentation kernel*](https://doi.org/10.1186/s13662-025-03946-4) (2025), introduction: the related discrete problem and comparison with the continuous model.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “critical coagulation fragmentation mass one half one conjecture”, “Tran Van global mass conservation 2025 2026”, and subsequent Bernstein-transform work. Global mass conservation for sufficiently small mass and finite-time gelation above mass one leave the displayed intermediate interval unresolved in the cited literature. Discrete-size results do not settle the continuous-size statement.

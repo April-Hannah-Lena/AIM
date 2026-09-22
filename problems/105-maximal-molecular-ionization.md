@@ -2,6 +2,10 @@
 
 **Area:** Many-electron quantum mechanics
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For distinct nuclei $R_1,\ldots,R_M\in\mathbb R^3$ with charges $Z_a\in\mathbb N$, put $Z=\sum_aZ_a$ and let
@@ -14,7 +18,7 @@ $$N_{\max}\le Z+CM$$
 
 for all choices of charges and nuclear positions.
 
-## Applied significance
+## Application
 
 The inequality would give a mathematically uniform limit on how many additional electrons a molecule can bind.
 
@@ -26,9 +30,7 @@ The inequality would give a mathematically uniform limit on how many additional 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Lewin’s 2025 Open Problem 1 asks for this universal bound. Lieb’s general estimate $N_{\max}<2Z+M$ leaves a charge-dependent excess. Hartree–Fock bounds and large-$Z$ asymptotics do not prove a uniform bound for the full fermionic Hamiltonian; the May 2026 Solovej abstract reiterates that distinction.
 

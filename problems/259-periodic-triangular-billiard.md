@@ -2,13 +2,17 @@
 
 **Area:** Hamiltonian dynamics / ray transport
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Does every nondegenerate Euclidean triangle $D\subset\mathbb R^2$ admit a periodic specular billiard trajectory?
 
 Precisely, find an integer $m\geq2$ and boundary points $q_0,\ldots,q_{m-1}$ in the relative interiors of sides, with consecutive points distinct, such that the segments $[q_i,q_{i+1}]$ lie in $D$ and the incoming and outgoing unit velocities at each $q_i$ are related by reflection across that side's tangent line. Indices are cyclic. Vertices and grazing collisions are excluded; the final position and direction must both repeat.
 
-## Applied significance
+## Application
 
 The question asks whether every triangular optical or mechanical cavity supports at least one exactly repeating ray path, including triangles with irrational angle ratios.
 
@@ -20,8 +24,10 @@ The question asks whether every triangular optical or mechanical cavity supports
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** Periodic nonsingular trajectories are known for rational-angle triangles; acute triangles also have the classical orthic orbit.
 
-**Last checked:** 2026-09-13
+**Remaining target:** Existence for every nondegenerate triangle, including arbitrary obtuse triangles with irrational angle ratios.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Acute triangles have the classical orthic orbit, and rational-angle polygons have periodic trajectories. These results do not cover arbitrary obtuse triangles. Searches included “periodic every triangle billiards 2026 proof”, “obtuse triangular billiards existence solved”, and “McBilliards periodic triangles latest”. Papers realizing a given triangle as an orbit inside an ellipse reverse the roles of trajectory and table. No all-triangle theorem or aperiodic triangle was located.

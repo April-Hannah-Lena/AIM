@@ -4,7 +4,7 @@
     "title": "Minimum volume of a three-dimensional body of constant width",
     "area": "Convex geometry / geometric design",
     "file": "problems/251-constant-width-volume.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -12,7 +12,7 @@
     "title": "The least-area convex cover of every unit-length planar curve",
     "area": "Geometric optimization / coverage",
     "file": "problems/252-convex-worm-cover.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -20,7 +20,7 @@
     "title": "An overlap-free edge unfolding for every convex polyhedron",
     "area": "Computational geometry / sheet fabrication",
     "file": "problems/253-durer-edge-unfolding.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -28,7 +28,7 @@
     "title": "The full three-dimensional Newton minimum-resistance problem",
     "area": "Calculus of variations / aerodynamic shape optimization",
     "file": "problems/254-newton-minimum-resistance.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -36,7 +36,7 @@
     "title": "The shortest space curve of prescribed minimum width",
     "area": "Geometric optimization / search paths",
     "file": "problems/255-shortest-width-one-space-curve.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -44,7 +44,7 @@
     "title": "Maximum convex-hull volume for a closed curve of fixed length",
     "area": "Geometric optimization / spatial enclosures",
     "file": "problems/256-closed-curve-hull-volume.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -52,7 +52,7 @@
     "title": "A sharp surface-area bound for the convex hull of a closed curve",
     "area": "Geometric inequalities / enclosure design",
     "file": "problems/257-closed-curve-hull-area.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -60,7 +60,7 @@
     "title": "Existence of a flexible closed C² surface in three-space",
     "area": "Differential geometry / shell kinematics",
     "file": "problems/258-smooth-flexible-closed-shell.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -68,7 +68,7 @@
     "title": "A periodic nonsingular billiard trajectory in every triangle",
     "area": "Hamiltonian dynamics / ray transport",
     "file": "problems/259-periodic-triangular-billiard.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-13"
   },
   {
@@ -76,7 +76,7 @@
     "title": "Asymptotic density of reflected wavefronts in a disk",
     "area": "Geometric optics / long-time propagation",
     "file": "problems/260-disk-wavefront-density.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -84,7 +84,7 @@
     "title": "Rigidity of a totally integrable Minkowski billiard in its own unit ball",
     "area": "Finsler geometry / anisotropic ray mechanics",
     "file": "problems/261-self-ball-minkowski-integrability.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -92,7 +92,7 @@
     "title": "Circular rigidity of totally integrable strong-field magnetic billiards",
     "area": "Magnetic dynamics / charged-particle confinement",
     "file": "problems/262-strong-magnetic-billiard-rigidity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -100,7 +100,7 @@
     "title": "Quadratic growth when a Hamiltonian map has infinitely many periodic orbits",
     "area": "Hamiltonian dynamics / recurrent mechanical motion",
     "file": "problems/263-hamiltonian-periodic-orbit-growth.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -108,7 +108,7 @@
     "title": "Small-time global null control of no-slip Navier–Stokes flow",
     "area": "Fluid control / distributed actuation",
     "file": "problems/264-localized-navier-stokes-global-null-control.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -116,7 +116,7 @@
     "title": "A data-independent time for global control of the defocusing cubic wave",
     "area": "Nonlinear wave control / vibration suppression",
     "file": "problems/265-uniform-time-cubic-wave-control.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -124,7 +124,7 @@
     "title": "A complete boundary-control criterion for coupled heat systems in higher dimensions",
     "area": "Parabolic control / coupled diffusion",
     "file": "problems/266-boundary-coupled-heat-control-criterion.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -132,7 +132,7 @@
     "title": "Global constrained null control of a two-phase Stefan interface",
     "area": "Free-boundary control / thermal processing",
     "file": "problems/267-global-two-phase-stefan-control.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -140,7 +140,7 @@
     "title": "Minimum-time eradication of an expanding set inside a geographic barrier",
     "area": "Geometric optimal control / invasive-species containment",
     "file": "problems/268-minimum-time-constrained-eradication.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -148,7 +148,7 @@
     "title": "The most informative Boolean function conjecture",
     "area": "Information theory / noisy one-bit compression",
     "file": "problems/269-most-informative-boolean-function.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -156,7 +156,7 @@
     "title": "The exact zero-error Shannon capacity of the seven-cycle",
     "area": "Zero-error communication / combinatorial coding",
     "file": "problems/270-seven-cycle-shannon-capacity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -164,7 +164,7 @@
     "title": "Matheron’s covariogram uniqueness problem in three dimensions",
     "area": "Geometric tomography / phase retrieval",
     "file": "problems/271-three-dimensional-covariogram-uniqueness.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-13"
   },
   {
@@ -172,7 +172,7 @@
     "title": "The minimum-area universal cover of planar diameter-one sets",
     "area": "Geometric optimization / universal containment",
     "file": "problems/272-lebesgue-universal-cover.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -180,7 +180,7 @@
     "title": "Decidability of exact hyperplane reachability for a linear ODE",
     "area": "Continuous dynamics / formal verification",
     "file": "problems/273-continuous-skolem-decidability.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -188,7 +188,7 @@
     "title": "A closed nonplanar totally integrable wire billiard in three-space",
     "area": "Geometric mechanics / constrained ray dynamics",
     "file": "problems/274-nonplanar-integrable-wire-billiard.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -196,7 +196,7 @@
     "title": "Are all totally integrable outer-length billiards ellipses?",
     "area": "Geometric dynamics / optimal circumscribed paths",
     "file": "problems/275-outer-length-billiard-integrability.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
@@ -204,7 +204,7 @@
     "title": "Polynomial-time detection below the planted-clique square-root threshold",
     "area": "Statistical inference and average-case computational complexity",
     "file": "problems/303-planted-clique.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -212,7 +212,7 @@
     "title": "The Li–Li multiple-unicast conjecture",
     "area": "Applied geometry, control and information",
     "file": "problems/309-li-li-multiple-unicast.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -220,7 +220,7 @@
     "title": "Capacity of the two-receiver Gaussian broadcast channel with feedback",
     "area": "Applied geometry, control and information",
     "file": "problems/310-gaussian-broadcast-feedback.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -228,7 +228,7 @@
     "title": "Decidability of zeros in integer linear recurrences",
     "area": "Discrete dynamics and formal verification",
     "file": "problems/327-discrete-skolem-decidability.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -236,7 +236,7 @@
     "title": "Polynomial sample complexity for deletion-trace reconstruction",
     "area": "Statistical inference and molecular data retrieval",
     "file": "problems/332-polynomial-trace-reconstruction.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
@@ -244,7 +244,7 @@
     "title": "The optimal asymptotic rate of binary error-correcting codes",
     "area": "Coding theory and reliable data transmission",
     "file": "problems/342-binary-code-asymptotic-rate.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
@@ -252,7 +252,7 @@
     "title": "Capacity of the binary skew-symmetric broadcast channel",
     "area": "Network information theory and broadcast communication",
     "file": "problems/347-binary-skew-symmetric-broadcast.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
@@ -260,7 +260,7 @@
     "title": "The sharp degree bound for strong edge-colouring",
     "area": "Communication networks, interference scheduling and graph colouring",
     "file": "problems/355-strong-edge-colouring.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-19"
   },
   {
@@ -268,7 +268,7 @@
     "title": "The near-linear bound for planar halving lines",
     "area": "Computational geometry and parametric selection",
     "file": "problems/357-planar-halving-lines.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-19"
   },
   {
@@ -276,7 +276,7 @@
     "title": "Observability of an acoustic shell at equal bulk and surface speeds",
     "area": "PDE control / acoustic boundary dynamics",
     "file": "problems/396-equal-speed-wentzell-wave-observability.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -284,7 +284,7 @@
     "title": "Boundary observation of a Schrödinger field with slower surface dispersion",
     "area": "PDE control / dispersive boundary dynamics",
     "file": "problems/397-slow-surface-schrodinger-observability.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -292,7 +292,7 @@
     "title": "The sharp local maneuvering time for a shallow-water tank",
     "area": "PDE control / fluid–structure dynamics",
     "file": "problems/398-shallow-water-tank-sharp-control-time.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -300,7 +300,7 @@
     "title": "Villani’s convex-injectivity-domain conjecture",
     "area": "Optimal transport / Riemannian geometry",
     "file": "problems/405-villani-mtw-convex-injectivity-domains.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -308,7 +308,7 @@
     "title": "Exact null control of a harmonically confined kinetic equation from a wedge",
     "area": "PDE control / kinetic transport",
     "file": "problems/406-harmonic-kolmogorov-wedge-null-control.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -316,7 +316,7 @@
     "title": "Approximate velocity control of a viscoelastic fluid with prescribed transport",
     "area": "PDE control / viscoelasticity",
     "file": "problems/408-oseen-oldroyd-approximate-boundary-control.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -324,7 +324,7 @@
     "title": "Boundary control to equilibrium for a parabolic obstacle problem",
     "area": "PDE control / variational inequalities",
     "file": "problems/409-parabolic-obstacle-boundary-control.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -332,7 +332,7 @@
     "title": "Logarithmic convexity for subdiffusion with non-gradient drift",
     "area": "Fractional PDEs / inverse initial-state recovery",
     "file": "problems/413-fractional-drift-logarithmic-convexity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -340,7 +340,7 @@
     "title": "Logarithmic convexity for two coupled subdiffusion orders",
     "area": "Fractional PDE systems / inverse problems",
     "file": "problems/414-mixed-order-fractional-logarithmic-convexity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -348,7 +348,7 @@
     "title": "Sharp exponential cost of fast boundary quantum control",
     "area": "PDE control / Schrödinger dynamics",
     "file": "problems/415-schrodinger-sharp-fast-control-exponent.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -356,7 +356,7 @@
     "title": "Continuous selection of small-time null controls for analytic systems",
     "area": "Nonlinear control / feedback design",
     "file": "problems/421-analytic-controls-continuous-selection.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -364,7 +364,7 @@
     "title": "Continuity of states driven by bounded admissible inputs",
     "area": "Infinite-dimensional control / evolution equations",
     "file": "problems/423-bounded-input-state-continuity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-22"
   },
   {
@@ -372,7 +372,7 @@
     "title": "Sharp vanishing-viscosity control time for downstream transport",
     "area": "PDE control / advection–diffusion",
     "file": "problems/424-positive-transport-sharp-uniform-control-time.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -380,7 +380,7 @@
     "title": "Uniform control of Neumann advection–diffusion for non-gradient flows",
     "area": "PDE control / transport with weak diffusion",
     "file": "problems/427-nongradient-neumann-uniform-control.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
@@ -388,7 +388,7 @@
     "title": "Polynomial growth of reachable neighborhoods for analytic control systems",
     "area": "Nonlinear control / minimum-time regularity",
     "file": "problems/429-analytic-reachable-set-polynomial-growth.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-22"
   }
 ]

@@ -2,7 +2,7 @@
 
 **Area:** Fully nonlinear elliptic PDEs; blow-up analysis
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ If $u\in C^\infty(\mathbb R^n)$ satisfies
 $$F(D^2u)=0\quad\hbox{on }\mathbb R^n,\qquad\sup_{\mathbb R^n}|D^2u|<\infty,$$
 must $u$ be a polynomial of degree at most two? Neither convexity nor concavity of $F$ or its zero level set is assumed. The two dimensions are included in one problem, rather than counted separately.
 
-## Applied significance
+## Application
 
 Entire solutions describe possible limiting profiles in rescaling arguments for nonlinear elliptic models. Rigidity would constrain regularity failures beyond convex constitutive laws.
 
@@ -25,5 +25,7 @@ Entire solutions describe possible limiting profiles in rescaling arguments for 
 3. L. Liang, *Liouville theorem for fully nonlinear elliptic equations with the small oscillation and the periodicity in $x$ and the periodic right hand term* (2026 preprint), Theorem B and the subsequent hypotheses. [Preprint](https://arxiv.org/abs/2603.10797).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Mooney explicitly identifies dimensions three and four as open, with dimension two known and counterexamples in higher dimensions. Searches on 2026-09-22 located the 2025 and March 2026 Liouville papers. Reading their hypotheses confirms convexity/concavity restrictions in dimension at least three; their titles alone could misleadingly suggest a resolution. No matching result for smooth, general uniformly elliptic $F$ was found.

@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear waves
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -20,7 +20,7 @@ E(u)=\int_{\mathbb R^3}\left(\tfrac12|\partial_tu|^2+
 $$
 but its scaling is supercritical for this equation.
 
-## Applied significance
+## Application
 
 This isolates the effect of a positive nonlinear restoring force on wave concentration, a basic issue in nonlinear field and wave models.
 
@@ -30,6 +30,8 @@ This isolates the effect of a positive nonlinear restoring force on wave concent
 - [Terence Tao, *Nonlinear dispersive equations: local and global analysis* (2006), §3, local/global framework](https://math.ucla.edu/~tao/preprints/chapter.pdf).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 paper explicitly leaves scalar defocusing blowup open while constructing complex-valued blowup in other dimensions/exponents. Later search results on complex-valued septic waves in four spatial dimensions do not settle this real-valued three-dimensional formulation. The older book's broad discussion must be read with those later counterexamples in mind.
 

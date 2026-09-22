@@ -1,9 +1,10 @@
 # 438. The sharp vector Riesz inequality for multidimensional potential fields
 
 **Area:** Harmonic analysis and elliptic potential fields
-**Status:** Open in cited literature; no later resolution located.
-**Last checked:** 2026-09-22
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-22
 ## Problem statement
 
 For an integer $d\ge2$ and a real-valued $f\in C_c^\infty(\mathbb R^d)$, define $R_j f$ by
@@ -15,7 +16,7 @@ $$\left\|\left(\sum_{j=1}^d|R_jf|^2\right)^{1/2}\right\|_{L^p(\mathbb R^d)}
 \le \cot\!\left(\frac{\pi}{2p^*}\right)\|f\|_{L^p(\mathbb R^d)}?$$
 The displayed constant is a necessary lower bound already from one component. Thus the assertion identifies the exact norm, uniformly in dimension; Plancherel proves its $p=2$ case.
 
-## Applied significance
+## Application
 
 The vector transform converts a scalar field to the negative gradient of its half-order potential. Sharp bounds quantify amplification in elliptic potential reconstruction and enter estimates for nonlinear geometric PDEs and Hodge decompositions.
 
@@ -25,5 +26,7 @@ The vector transform converts a scalar field to the negative gradient of its hal
 2. R. Bañuelos, [Cotlar martingale transforms and related singular integrals](https://arxiv.org/abs/2604.09365), preprint (2026), §§5.1–5.2, especially (5.1), (5.13) and the discussion following it.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2026 paper retains the exact vector norm as open and obtains asymptotic information rather than the conjectured constant at every p. Searches through September 22, 2026 for the sharp vector norm, the complex Riesz transform, proofs and counterexamples found no matching resolution. The August 2026 result arXiv:2608.18068 concerns a dimension-free weak-(1,1) bound and does not establish this sharp strong-Lp inequality. Bounds for one Riesz component are already known and are a different assertion.

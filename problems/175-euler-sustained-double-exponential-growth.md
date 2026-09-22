@@ -2,6 +2,10 @@
 
 **Area:** Fluid mixing and creation of small scales
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For mean-zero $\omega_0\in C^\infty(\mathbb T^2)$, let $\omega$ solve
@@ -18,7 +22,7 @@ $$
 
 The initial datum must be fixed for the entire infinite time interval. The torus has no solid boundary.
 
-## Applied significance
+## Application
 
 Vorticity amplitude stays fixed along particles, so growth of its gradient measures the creation of small spatial scales in ideal two-dimensional mixing.
 
@@ -32,8 +36,6 @@ Vorticity amplitude stays fixed along particles, so growth of its gradient measu
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searches for “Euler torus double exponential vorticity gradient growth open 2026” and “Euler double exponential torus 2026 solved” located finite-duration torus constructions and boundary-assisted results on disks and half-planes. The 2025 smooth-data advance does not attain the displayed rate. Allowing a different datum for every desired observation time would weaken this question to a known result.

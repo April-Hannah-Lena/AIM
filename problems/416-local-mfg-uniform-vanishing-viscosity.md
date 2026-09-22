@@ -2,7 +2,7 @@
 
 **Area:** Hamilton–Jacobi / Fokker–Planck PDE systems
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -15,7 +15,7 @@ Is there a continuous function $u$ on $(0,T)\times\mathbb T^d$ such that for eve
 $$\|u_\nu-u\|_{L^\infty([\tau,T-\tau]\times\mathbb T^d)}\longrightarrow0\quad\text{as }\nu\downarrow0?$$
 No strictly positive lower bound on $m_{\rm in}$ is imposed; vacuum regions are allowed.
 
-## Applied significance
+## Application
 
 The value function determines an agent’s optimal future cost. Uniform convergence is needed to interpret artificial diffusion as a stable approximation in models of crowd motion and local congestion, including initially unoccupied regions.
 
@@ -25,5 +25,7 @@ The value function determines an agent’s optimal future cost. Uniform converge
 2. P. J. Graber and A. R. Mészáros, *Sobolev regularity for first order mean field games*, Annales de l’Institut Henri Poincaré C, Analyse non linéaire 35 (2018), 1557–1576, Theorem 1.2. [DOI](https://doi.org/10.1016/j.anihpc.2018.01.002).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The SIAM source asks for local uniform convergence beyond its weighted L2 results. The displayed quadratic Hamiltonian and linear local coupling form an explicit case with possible vacuum, avoiding ambiguities about a weak value function outside the density support by asking directly for convergence of the viscous family. The July 2026 paper “Beyond separability” (DOI 10.1016/j.spa.2026.105061) assumes nonlocal measure dependence. Searches through 22 September 2026 located no resolution for this local-coupling assertion.

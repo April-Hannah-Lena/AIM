@@ -2,6 +2,10 @@
 
 **Area:** Magnetic confinement and shape design
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For $B\ge0$ put $A_B(x)=\frac B2(-x_2,x_1)$ and $q_{\Omega,B}[u]=\int_\Omega|(-i\nabla-A_B)u|^2\,dx$.
@@ -12,7 +16,7 @@ $$\lambda_k(\Omega,B)\ge\lambda_k(D,B),\qquad |D|=|\Omega|,$$
 
 where $D$ is a disk. The operator here is unshifted; subtracting the same $B$ from both spectra gives the equivalent shifted convention used in the 2026 reference.
 
-## Applied significance
+## Application
 
 This predicts an explicit magnetic-flux threshold beyond which the disk minimizes each confined energy level, including excited states.
 
@@ -23,9 +27,7 @@ This predicts an explicit magnetic-flux threshold beyond which the disk minimize
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2026 paper proves that minimizing domains approach disks as $B\to\infty$, and explicitly says its theorem does not imply the conjecture even for large fields. Baur’s calculations motivate a shape theorem, not a numerical-linear-algebra task.
 

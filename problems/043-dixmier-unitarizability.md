@@ -2,7 +2,7 @@
 
 **Area:** Group representations and operator theory
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ Let $G$ be a countable discrete group. Suppose that for every complex Hilbert sp
 
 Must $G$ be amenable? Here amenability means that $\ell^\infty(G)$ has a positive linear functional $m$ with $m(1)=1$ and $m(f(g^{-1}\cdot))=m(f)$ for all $g\in G$. The reverse implication is the Day–Dixmier theorem.
 
-## Applied significance
+## Application
 
 A positive answer would identify precisely when every uniformly bounded symmetry representation admits an invariant Hilbert energy norm. This is a structural question underlying stable representations of symmetry, with indirect applied relevance.
 
@@ -22,6 +22,8 @@ A positive answer would identify precisely when every uniformly bounded symmetry
 2. J. M. F. Castillo and V. Ferenczi, [Group Actions on Twisted Sums of Banach Spaces](https://doi.org/10.1007/s40840-023-01531-0), Bulletin of the Malaysian Mathematical Sciences Society (2023). States the countable-group Dixmier problem.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. The cited research articles distinguish the proved amenable-to-unitarizable direction from the open converse for discrete groups. Searches through 2026 located no full converse or nonamenable unitarizable counterexample. Results requiring extra bounds on the similarity constants do not settle this formulation.
 

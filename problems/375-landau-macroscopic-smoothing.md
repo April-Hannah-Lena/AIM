@@ -2,7 +2,7 @@
 
 **Area:** Plasma kinetics; quantitative regularization
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ with $\widehat z=z/|z|$. Normalize $\int f\,dv=1$, $\int vf\,dv=0$ and $\int|v|^
 $$\sup_{\tau\le t\le T}\|f(t)\|_{L^\infty_v}\le C(H,\tau,T)\quad\text{whenever}\quad\int f(0,v)\log f(0,v)\,dv\le H?$$
 The constant must be independent of all initial higher moments, Fisher information, pointwise bounds and derivative norms. The question asks for a bound, without prescribing a conjectural sharp time exponent.
 
-## Applied significance
+## Application
 
 A bound in terms of mass, temperature and entropy would connect measurable plasma quantities to pointwise control of the collision distribution and provide estimates that survive approximation by rough data.
 
@@ -24,5 +24,7 @@ A bound in terms of mass, temperature and entropy would connect measurable plasm
 2. M. Gualdani and N. Guillen, [*On $A_p$ weights and the Landau equation*](https://arxiv.org/abs/1708.00067), Analysis & PDE 12 (2019), 77–170, conditional Coulomb regularization results.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using Landau–Coulomb mass-energy-entropy smoothing and quantitative $L^\infty$ estimates. The 2025 primary paper explicitly leaves this estimate open after its global smooth-existence theorem: its bounds retain stronger information about the initial distribution. The 2019 estimates are unconditional for moderately soft potentials but conditional in the Coulomb case. Later global-existence and numerical entropy-stability papers located in the search do not remove these quantitative dependencies. No matching estimate or counterexample was located.

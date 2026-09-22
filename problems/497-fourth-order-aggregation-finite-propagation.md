@@ -2,7 +2,7 @@
 
 **Area:** Degenerate parabolic PDEs; moving tissue boundaries
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -18,7 +18,7 @@ for every finite $T$, satisfying, for all $\phi\in C_c^2(\mathbb R^d)$ and $0\le
 $$\int\phi[\rho(b)-\rho(a)]=-\int_a^b\!\int\bigl(\rho\Delta\rho\Delta\phi+\Delta\rho\nabla\rho\cdot\nabla\phi+\chi\rho^2\Delta\phi\bigr)\,dx\,dt.$$
 Narrow continuity means continuity against bounded continuous spatial tests. Only existence of a solution preserving bounded support on finite time intervals is requested; weak uniqueness is a separate question.
 
-## Applied significance
+## Application
 
 This would justify a genuine moving edge for compact tissue aggregates in a fourth-order local adhesion model.
 
@@ -28,5 +28,7 @@ This would justify a genuine moving edge for compact tissue aggregates in a four
 2. C. Falcó, R. E. Baker and J. A. Carrillo, *A nonlocal-to-local approach to aggregation-diffusion equations*, SIAM Review **67** (2025), 353–372, §4. [Article](https://doi.org/10.1137/25M1726248).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2024 paper constructs weak solutions and explicitly identifies preservation of compact support as an unresolved free-boundary question, supported there by computations. The $m=2$ case above lies in its globally existing subcritical range in every finite dimension. Searches on 2026-09-22 for fourth-order aggregation–diffusion finite propagation and compact support found no later resolution for this model and class of initial data. Propagation results for other thin-film mobilities or for purely attractive second-order equations do not answer this statement.

@@ -2,7 +2,7 @@
 
 **Area:** Spatial epidemics and population competition
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ On $\mathbb Z^2$, let each site be vacant or occupied by one individual of type 
 
 Assume $\beta_2/\delta_2>\max\{\beta_1/\delta_1,\lambda_c\}$. Starting from any iid site distribution assigning positive probability to each type, must the law converge on finite sets to the upper stationary distribution of the type-$2$ contact process (the limit starting from all type $2$)?
 
-## Applied significance
+## Application
 
 Mean-field competition predicts that the larger birth-to-death ratio determines the winner. This asks whether that prediction survives local crowding when the two populations have different time scales.
 
@@ -22,6 +22,8 @@ Mean-field competition predicts that the larger birth-to-death ratio determines 
 - [Claudia Neuhauser, *Ergodic theorems for the multitype contact process* (1992)](https://doi.org/10.1007/BF01192067), the equal-death-rate theory.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The September 2026 manuscript retains the unequal-death-rate extension. The initial law here is specified to contain both populations and the winning one is assumed supercritical; these avoid degenerate readings of an informal exclusion claim. The equal-death graphical coupling does not prove the proposed ratio criterion.
 

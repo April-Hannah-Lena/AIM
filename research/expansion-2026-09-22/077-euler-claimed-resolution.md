@@ -2,7 +2,7 @@
 
 **Area:** Fluid dynamics
 
-**Status:** Matching resolution announced; awaiting independent review; excluded from the active open catalogue.
+**Status:** 🟠 SOLUTION CLAIMED
 
 **Last checked:** 2026-09-22
 
@@ -15,7 +15,7 @@ $$
 $$
 has a finite maximal smooth lifespan? Equivalently, either construct such data, or prove that every datum in this class has a smooth solution for all positive time. Solutions must have finite kinetic energy; there is no forcing and the spatial domain is all of $\mathbb R^3$.
 
-## Applied significance
+## Application
 
 Resolving whether inviscid vortex stretching creates singularities would clarify the limits of ideal-fluid models and the interpretation of numerical blowup evidence.
 
@@ -25,6 +25,8 @@ Resolving whether inviscid vortex stretching creates singularities would clarify
 - [Bojin Chen, De Huang and Xiangyuan Li, *Novel Self-similar Finite-time Blowups with Singular Profiles of the 1D Hou-Luo Model and the 2D Boussinesq Equations: A Numerical Investigation* (2026), introduction](https://arxiv.org/abs/2604.01868).
 
 ## Status review
+
+**Review note:** Matching resolution announced; awaiting independent review; excluded from the active open catalogue.
 
 On 8 September 2026, OpenAI released *Finite Time Blowup for the Euler Equation*. Its Theorem 1.1 asserts finite-time breakdown of unforced three-dimensional Euler on $\mathbb R^3$ from a divergence-free $C_c^\infty$ initial velocity, with unbounded velocity gradient and divergent time-integrated vorticity maximum. These hypotheses match this entry: compactly supported smooth data are Schwartz and have finite energy.
 

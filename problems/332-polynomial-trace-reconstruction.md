@@ -2,7 +2,7 @@
 
 **Area:** Statistical inference and molecular data retrieval
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -22,7 +22,7 @@ Here the decoder maps $\mathcal T_n^m$ to $\{0,1\}^n$, may use its own randomnes
 
 The target is exact recovery for every possible string. There is no random-source, sparsity, long-run, codebook or known-nearby-reference assumption. Replacing $2/3$ by any other fixed success probability strictly between $1/2$ and $1$ changes the sample requirement by at most a constant repetition factor. This is one problem family across fixed deletion probabilities.
 
-## Applied significance
+## Application
 
 Repeated molecular reads can lose symbols without identifying their original positions, making alignment part of the inference problem. The deletion model isolates how many independent observations are needed to recover a stored sequence despite that loss of synchronization. A polynomial bound would give a worst-case sample guarantee without designing the source string to be easy to reconstruct. This is a foundational question for DNA data retrieval: practical reads use a larger alphabet and also have substitutions and insertions, while a complete storage pipeline must cluster reads and decode error-correcting codes. A sample bound alone supplies neither a fast decoder nor a guarantee for all those additional effects.
 
@@ -37,6 +37,8 @@ Repeated molecular reads can lose symbols without identifying their original pos
 7. Xi Chen, Anindya De, Chin Ho Lee and Rocco A. Servedio, *Trace Reconstruction from Local Statistical Queries*, APPROX/RANDOM 2024, LIPIcs 317, 52:1–52:24, [published paper](https://doi.org/10.4230/LIPIcs.APPROX/RANDOM.2024.52), §2.1 and §3 Theorem 6. Its lower bound restricts access to local statistical queries.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The September 17, 2026 investigation covered worst-case and polynomial trace reconstruction, deletion-sample wording, original and later authors, recent improvements, proof and counterexample claims, corrections and version histories. Aamand–Liu–Narayanan and Sima–Bruck explicitly retain the polynomial-sample question. The July 2026 Burudgunte–Valiant–Wang theorem now gives a quasipolynomial upper bound, $\exp((\log n)^{O(1)})$ for each fixed $q$. Its full theorem and final reduction from distinguishing two strings to reconstruction were read. It does not establish polynomial sample complexity; the paper also distinguishes its sample guarantee from the running time of full reconstruction.
 

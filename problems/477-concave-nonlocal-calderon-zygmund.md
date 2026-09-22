@@ -2,7 +2,7 @@
 
 **Area:** Fully nonlinear nonlocal PDEs; integrable forcing
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -16,7 +16,7 @@ Is there a finite $p_*=p_*(n,s,\lambda,\Lambda)$ such that, for every $p>\max\{2
 $$\|u\|_{W^{2s,p}(B_{1/2})}\le C\bigl(\|u\|_{L^\infty(\mathbb R^n)}+\|f\|_{L^p(B_1)}\bigr),$$
 where $C$ depends only on $n,s,p,\lambda,\Lambda$? Use the Slobodeckij Sobolev space for noninteger $2s$ and the ordinary Sobolev space when $2s=1$. The estimate must be uniform over the kernels and must not depend on stronger norms of $f$.
 
-## Applied significance
+## Application
 
 The estimate would quantify spatial regularity under integrable forcing for nonlinear effective diffusion and controlled jump models.
 
@@ -27,5 +27,7 @@ The estimate would quantify spatial regularity under integrable forcing for nonl
 2. S. Kitano, *$W^{\sigma,p}$ a priori estimates for fully nonlinear integro-differential equations* (2022), Introduction and kernel hypotheses. [Author preprint](https://arxiv.org/abs/2207.06728).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open Question 3.2 in §3.6.2 asks for this nonlocal $W^{2s,p}$ theory at sufficiently large $p$. The smooth-source estimate is a precise necessary form of that proposed theory and avoids ambiguity about viscosity solutions with discontinuous right sides. Searches on 2026-09-22 found restricted matrix-kernel and linear-operator estimates, but no estimate uniform over the general concave class. The separate ABP entry controls the maximum of a subsolution; here the target is a full-order Sobolev norm of solutions.

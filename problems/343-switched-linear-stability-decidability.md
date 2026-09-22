@@ -2,7 +2,7 @@
 
 **Area:** Switched systems, robust control and formal verification
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -34,7 +34,7 @@ $$
 
 The limit exists, is independent of the norm, and the displayed stability property holds exactly when $\widehat\rho(\mathcal A)<1$. Thus the algorithm must decide this **strict** inequality without a promised gap around one. An input with $\widehat\rho(\mathcal A)=1$ requires a negative answer. The dynamical and spectral formulations constitute one problem.
 
-## Applied significance
+## Application
 
 Finite-mode linear systems model dynamics that change with an operating mode or with time-varying uncertainty. For a controller already incorporated into the matrices, the question asks whether perturbations decay whatever sequence of modes occurs. A decision procedure would establish the possibility of complete automated stability verification for these exact rational models. The finite-mode model is an idealization: the result would not automatically verify nonlinear dynamics, unmodeled disturbances or every real-valued uncertainty set. The target is a fundamental limit of control verification, rather than the speed or accuracy of a numerical eigenvalue routine.
 
@@ -49,6 +49,8 @@ Finite-mode linear systems model dynamics that change with an operating mode or 
 7. Vuong Bui, *Growth of bilinear maps III: Decidability*, Theoretical Computer Science 1056 (2025), article 115515; [author version, arXiv:2201.09850v3](https://arxiv.org/html/2201.09850v3), August 6, 2025. §1, Theorem 1, §6.3, Theorem 7, and §8, Theorem 8.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Jungers poses the strict-threshold decision question explicitly, and the independently authored *Polynomial Norms* retains it as unresolved. The latter's contracting-polynomial-norm characterization certifies stability when an appropriate degree and form are found; it does not provide a procedure guaranteed to terminate on every unstable input.
 

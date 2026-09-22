@@ -2,6 +2,10 @@
 
 **Area:** Electronic density-functional theory
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 For every integer $N\ge1$, consider symmetric probability measures $P$ on $(\mathbb R^3)^N$ whose one-particle density $\rho_P$ is defined by $\int\rho_P=N$ and whose one-coordinate marginal has density $\rho_P/N$. Require $\rho_P\in L^{4/3}(\mathbb R^3)$ and all the following Coulomb integrals to be finite. Define
@@ -14,7 +18,7 @@ $$C_{\rm LO}=\sup_{N,P}\frac{-E_{\rm ind}(P)}{\int_{\mathbb R^3}\rho_P(x)^{4/3}\
 
 Sharpness means both a universal inequality with this constant and admissible distributions approaching equality. No numerical conjecture for its exact value is assumed.
 
-## Applied significance
+## Application
 
 The constant controls how negative exchange and correlation energy can be. A sharp value would strengthen exact constraints used in electronic-structure approximations.
 
@@ -25,9 +29,7 @@ The constant controls how negative exchange and correlation energy can be. A sha
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2022 work substantially narrows the known bounds but does not identify the optimum. Its numerical optimization supports the quoted upper estimate; the present question asks for the actual sharp constant rather than reproducing that computation. Gradient-corrected inequalities and bounds restricted to fixed particle number have different admissible expressions or classes.
 

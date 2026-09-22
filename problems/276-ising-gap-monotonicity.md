@@ -2,7 +2,7 @@
 
 **Area:** Statistical mechanics and Monte Carlo sampling
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-13
 
@@ -10,7 +10,7 @@
 
 Let $G=(V,E)$ be a finite simple graph with at least one vertex. For $J\in[0,\infty)^E$ let $\pi_J(\sigma)\propto\exp(\sum_{uv\in E}J_{uv}\sigma_u\sigma_v)$ on $\{-1,1\}^V$, with zero external field. Each vertex, at rate one, resamples its spin from the conditional law under $\pi_J$. Write $\gamma(J)$ for the smallest positive eigenvalue of the negative generator. For every edge $e$ and $s\ge0$, must $\gamma(J+s\mathbf1_e)\le\gamma(J)$?
 
-## Applied significance
+## Application
 
 This tests whether strengthening one attractive interaction can ever accelerate equilibration of a magnetic spin system.
 
@@ -20,6 +20,12 @@ This tests whether strengthening one attractive interaction can ever accelerate 
 - [Şerban Nacu, *Glauber dynamics on the cycle is monotone* (2003)](https://arxiv.org/abs/math/0305056), the coupling-monotonicity theorem for cycles.
 
 ## Status review
+
+**Known cases:** The spectral-gap monotonicity assertion is proved on cycles with arbitrary ferromagnetic couplings.
+
+**Remaining target:** The same monotonicity for every finite simple graph.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The cycle theorem covers arbitrary ferromagnetic couplings on that graph. The catalogue asks for every finite graph; equilibrium correlation inequalities alone do not establish the dynamical comparison.
 

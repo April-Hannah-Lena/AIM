@@ -2,6 +2,10 @@
 
 **Area:** Robin spectra and surface interactions
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For a bounded simply connected planar domain $\Omega$ with smooth boundary and $\alpha<0$, set
@@ -10,7 +14,7 @@ $$\lambda_1^\alpha(\Omega)=\inf_{0\ne u\in H^1(\Omega)}\frac{\int_\Omega|\nabla 
 
 If $B$ is a disk with $|B|=|\Omega|$, prove or disprove $\lambda_1^\alpha(\Omega)\le\lambda_1^\alpha(B)$ for every $\alpha<0$. The area, not the perimeter, is fixed.
 
-## Applied significance
+## Application
 
 A negative Robin parameter models an attractive boundary interaction. The conjecture asks whether a circular quantum resonator has the largest ground-state energy at prescribed area.
 
@@ -21,9 +25,7 @@ A negative Robin parameter models an attractive boundary interaction. The conjec
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2023 paper explicitly identifies simply connected planar domains at fixed area as an open remaining class. Annular counterexamples invalidate the unrestricted conjecture, while fixed-perimeter maximization is solved. Those changes of topology or constraint are excluded here. No 2025–2026 resolution of the stated class was found.
 

@@ -2,6 +2,10 @@
 
 **Area:** Magnetic spectral optimization
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For $B\ge0$ put $A_B(x)=\frac B2(-x_2,x_1)$ and $q_{\Omega,B}[u]=\int_\Omega|(-i\nabla-A_B)u|^2\,dx$.
@@ -12,7 +16,7 @@ $$\mu_1(\Omega,B)=\inf_{0\ne u\in H^1(\Omega;\mathbb C)}\frac{q_{\Omega,B}[u]}{\
 
 If $D$ is a disk with $|D|=|\Omega|$, prove or disprove that $\mu_1(\Omega,B)\le\mu_1(D,B)$ for every $B>0$.
 
-## Applied significance
+## Application
 
 The lowest magnetic Neumann level determines the onset of superconductivity in a planar sample. This predicts an optimal sample shape under an area constraint.
 
@@ -23,9 +27,11 @@ The lowest magnetic Neumann level determines the onset of superconductivity in a
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** The disk comparison holds for magnetic-field strengths at which the disk ground eigenfunction is radial.
 
-**Last checked:** 2026-09-08.
+**Remaining target:** The same comparison for all positive field strengths and every bounded simply connected smooth planar domain.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2024 theorem proves the inequality while the disk’s ground eigenfunction is radial, not for all field strengths. The 2026 paper continues to describe the Neumann results as partial. The displayed statement keeps simple connectivity, an important geometric restriction.
 

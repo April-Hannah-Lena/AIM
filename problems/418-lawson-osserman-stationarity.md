@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear elliptic PDE systems / surface energy
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ Must the domain-variation equations also hold distributionally,
 $$\sum_{i=1}^n\partial_i\big(\sqrt{\det g}\,g^{ij}\big)=0\qquad(1\le j\le n)?$$
 No small-slope or area-decreasing condition is imposed.
 
-## Applied significance
+## Application
 
 The two systems express force balance under changes of surface height and changes of its parametrizing domain. Their equivalence would justify the stationarity and monotonicity tools used to analyze weak surface equilibria.
 
@@ -25,5 +25,7 @@ The two systems express force balance under changes of surface height and change
 3. C.-J. Tsai and M.-T. Wang, *Calibrating Forms for Minimal Graphs in Arbitrary Codimension*, preprint (2026), §5, results under two-dilation assumptions. [Full text](https://arxiv.org/html/2604.04336v1).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2026 Inventiones paper solves two-dimensional domains, and explicitly leaves higher-dimensional outer-critical maps unresolved. The April 2026 calibration paper assumes bounds on products of singular values of Du. These restrictions are absent here. Searches through 22 September 2026 for the higher-dimensional Lawson–Osserman conjecture located no general resolution.

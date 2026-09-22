@@ -2,7 +2,7 @@
 
 **Area:** Diffusion on symmetric networks
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -10,7 +10,7 @@
 
 Let $G$ be any connected finite vertex-transitive simple graph with at least two vertices, degree $d$ and graph diameter $D$. Let $A_G$ be its adjacency matrix. For the lazy simple random walk $P=\tfrac12I+\tfrac1{2d}A_G$, let $t_{\rm mix}$ be the smallest integer $t$ for which $\max_x\|P^t(x,\cdot)-\mathrm{Unif}(V(G))\|_{\rm TV}\le1/4$. Is there a universal constant $C$ with $t_{\rm mix}\le C dD^2$ for every such $G$?
 
-## Applied significance
+## Application
 
 The bound would estimate homogenization time from network size in space and local connectivity, without computing its full transition spectrum.
 
@@ -20,6 +20,8 @@ The bound would estimate homogenization time from network size in space and loca
 - [Sam Olesker-Taylor and Luca Zanetti, *Geometric bounds on the fastest mixing Markov chain* (2024)](https://link.springer.com/article/10.1007/s00440-023-01257-x), Introduction and diameter bounds for optimized chains.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 A bound of this order for relaxation time is known. Recent geometric results allow changing edge weights, transition rates, or the stationary law; the present question fixes the ordinary lazy walk and its uniform equilibrium.
 

@@ -2,7 +2,7 @@
 
 **Area:** Symbolic computation and derandomization
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -20,7 +20,7 @@ $$
 
 The machine receives the entire circuit and must work for all inputs satisfying the degree promise. There is no restriction on circuit depth, number of occurrences of a variable, or number of monomials. The conclusion is unconditional and requires no random choices. This is the rational-coefficient, bounded-degree, white-box version of polynomial identity testing (PIT).
 
-## Applied significance
+## Application
 
 Testing whether two symbolic computations are exactly equivalent reduces to applying PIT to their difference. Circuits retain shared intermediate computations and can describe polynomials whose expanded coefficient lists are exponentially larger. A deterministic polynomial-time test would give a worst-case guarantee for such identity checks without expanding the expressions. PIT also controls deterministic multivariate factorization when both the input polynomial and its factors are represented by circuits; the relevant reduction preserves this compact representation.
 
@@ -36,6 +36,8 @@ Testing whether two symbolic computations are exactly equivalent reduces to appl
 8. Nimrod Kaplan and Amir Shpilka, *Polynomial Identity Testing for Read-4 Arithmetic Formulas*, CCC 2026, LIPIcs 383, 25:1–25:18, [published paper](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CCC.2026.25), July 23, 2026, §1.1, Theorems 2–3.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 nonassociative-algebra paper and the 2026 powering-circuit paper retain ordinary commutative PIT as unresolved. Randomized polynomial-time testing is known. No unconditional deterministic polynomial-time algorithm for the stated general circuit model was located in searches through September 17, 2026.
 

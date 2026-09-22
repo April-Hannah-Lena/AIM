@@ -2,6 +2,10 @@
 
 **Area:** Grain-boundary evolution
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\Gamma(t)$ be a smooth embedded finite network in a bounded smooth strictly convex planar domain. Its interior vertices are triple junctions with $120^\circ$ angles, its boundary endpoints are fixed, and each edge moves with normal velocity equal to its curvature. Let $T<\infty$ be its first singular time and $x_0$ an interior singular point.
@@ -14,7 +18,7 @@ $$
 
 be embedded and have multiplicity one? Multiplicity counts how many rescaled arcs converge to the same limiting arc; it is retained by taking limits of the associated arclength varifolds.
 
-## Applied significance
+## Application
 
 Multiple hidden sheets at a collapsing grain boundary obstruct a geometric rule for continuing the evolution after a singular event.
 
@@ -26,8 +30,10 @@ Multiple hidden sheets at a collapsing grain boundary obstruct a geometric rule 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** Multiplicity one is established for networks with at most two triple junctions.
 
-**Last checked:** 2026-09-08.
+**Remaining target:** Embedded multiplicity-one shrinking limits for every network in the stated class, without a junction-count restriction.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The book retains the conjecture without a bound on the number of junctions. Searches for “network flow multiplicity one conjecture 2026” and “planar networks M1 solved” found no general proof. The known case with at most two triple junctions is insufficient here.

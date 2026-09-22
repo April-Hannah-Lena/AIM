@@ -2,6 +2,10 @@
 
 **Area:** Quantum chemistry and density functional theory
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For $Z>0$ and $N\ge1$, let $E(N,Z)$ be the infimum of the spectrum of
@@ -16,7 +20,7 @@ $$E(N+1,Z)+E(N-1,Z)\ge2E(N,Z).$$
 
 The external potential is the attractive Coulomb potential of one point nucleus. Arbitrary external potentials and multi-nucleus molecules are outside this statement.
 
-## Applied significance
+## Application
 
 Convexity says successive electron removals do not become cheaper as a fixed atom loses electrons. It underlies interpretations of chemical hardness and fractional electron-number interpolation.
 
@@ -28,9 +32,7 @@ Convexity says successive electron removals do not become cheaper as a fixed ato
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Lewin separates Simon’s single-nucleus atomic question from stronger external-potential claims. The six-nucleus counterexample uses fractional nuclear charges. It and the 2026 paper on Coulomb particles invalidate broad generalizations; the latter discusses model systems and molecular structures, not a resolution for the displayed one-nucleus Hamiltonian. No atomic proof or counterexample was located.
 

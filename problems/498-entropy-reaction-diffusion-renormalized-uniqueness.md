@@ -2,7 +2,7 @@
 
 **Area:** Reaction–diffusion PDEs; chemical kinetics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -23,7 +23,7 @@ $$\begin{aligned}
 \end{aligned}$$
 Products of gradients are interpreted using $\nabla u_i=2\sqrt{u_i}\nabla\sqrt{u_i}$; the cutoff makes all displayed terms integrable. The question is equality almost everywhere of any two such solutions with the same initial data, without assuming that a bounded strong solution exists.
 
-## Applied significance
+## Application
 
 General reaction networks already admit global renormalized concentration fields. Uniqueness would make these weak predictions independent of the approximation used to construct them.
 
@@ -34,5 +34,7 @@ General reaction networks already admit global renormalized concentration fields
 3. A. Agresti, M. Kniely and B. Q. Tang, *Global classical solutions by transport noise for reaction–diffusion systems with entropy dissipation* (2026 preprint), §1.1. [Preprint](https://arxiv.org/abs/2608.13332).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Fischer proves uniqueness conditional on a strong solution, while the 2023 discussion and the August 2026 preprint explicitly retain unconditional uniqueness as unresolved. Searches on 2026-09-22 for renormalized reaction–diffusion uniqueness found further weak–strong results, including interface problems, but no unconditional theorem for this entropy class. This question fixes linear diffusion and concerns uniqueness; it does not restate the separate smooth-existence question for high-order mass-action reactions.

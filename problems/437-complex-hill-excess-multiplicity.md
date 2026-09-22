@@ -1,18 +1,19 @@
 # 437. Excess Floquet multiplicity for complex periodic Schrödinger equations
 
 **Area:** Periodic wave media and nonselfadjoint spectral theory
-**Status:** Open in cited literature; no later resolution located.
-**Last checked:** 2026-09-22
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-22
 ## Problem statement
 
 Let $q\in L^1_{\mathrm{loc}}(\mathbb R;\mathbb C)$ have period $a>0$. For $-u''+qu=\lambda u$, let $c,s$ have initial values $(c,c')=(1,0)$ and $(s,s')=(0,1)$ at $x_0$. Write $M(\lambda)$ for the period monodromy matrix and $\Delta(\lambda)=\operatorname{tr}M(\lambda)$. For each $\lambda$, define $d(\lambda)$ as its zero order in $\Delta^2-4$, and $p(x_0,\lambda),r(x_0,\lambda)$ as its zero orders in $s(x_0+a,x_0,\lambda)$ and $c'(x_0+a,x_0,\lambda)$; a nonzero value has order zero. Put $p_i=\min_{x_0\in[0,a]}p$ and $r_i=\min_{x_0\in[0,a]}r$.
 
 Can $d(\lambda)>p_i(\lambda)+r_i(\lambda)$ occur when $M(\lambda)=I$ or $M(\lambda)=-I$? Equivalently, can positive excess multiplicity coexist with two linearly independent periodic or antiperiodic solutions? Either an example or a universal impossibility theorem resolves the question.
 
-## Applied significance
+## Application
 
-Floquet multiplicities distinguish ordinary band edges from degeneracies in periodic gain-and-loss media. They also enter spectral descriptions of integrable wave equations.
+Floquet multiplicities distinguish ordinary band edges from degeneracies in periodic gain-and-loss media. The question would determine which spectral degeneracies are compatible with two independent periodic or antiperiodic wave modes. This helps classify mode structure in the periodic wave model and the spectral data used to describe integrable wave equations.
 
 ## References
 
@@ -20,5 +21,7 @@ Floquet multiplicities distinguish ordinary band edges from degeneracies in peri
 2. F. Gesztesy and R. Weikard, [Picard potentials and Hill’s equation on a torus](https://doi.org/10.1007/BF02547336), *Acta Mathematica* **176** (1996), 73–107, Floquet and multiplicity framework cited by the problem note.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The excess is nonnegative, and in the real selfadjoint case positivity forces geometric multiplicity one. Searches through the review date for Weikard’s problem, complex Hill monodromy excess multiplicity, and subsequent periodic-potential papers found no resolution in the stated complex class. Classification results for special elliptic finite-gap potentials are narrower.

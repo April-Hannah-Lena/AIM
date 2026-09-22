@@ -2,7 +2,7 @@
 
 **Area:** Mathematical biology and dynamical systems
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -19,7 +19,7 @@ where $\rho$ denotes spectral radius and $[0,q]=\prod_i[0,q_i]$. These hypothese
 
 Is $\Sigma\cap(0,\infty)^d$ necessarily a $C^1$ embedded $(d-1)$-dimensional submanifold for every such map? Equivalently, write $\Sigma=\{R(u)u:u\in\Delta\}$, where $\Delta=\{u\in C:\sum_i u_i=1\}$ and $R:\Delta\to(0,\infty)$ is its continuous radial representation: must $R$ be $C^1$ on the relative interior of $\Delta$? Only interior regularity is requested; no smoothness or transverse embedding at extinction faces is assumed.
 
-## Applied significance
+## Application
 
 Competition maps describe populations whose per-capita growth decreases with every population density. Their carrying simplex contains the long-term nonzero dynamics. Interior $C^1$ regularity would justify smooth geometric reduction when analyzing coexistence, invariant manifolds and changes of stability.
 
@@ -35,6 +35,8 @@ Competition maps describe populations whose per-capita growth decreases with eve
 7. Janusz Mierczyński, *On smoothness of carrying simplices*, Proceedings of the American Mathematical Society 127 (1999), 543–551. [Author repost](https://arxiv.org/abs/1708.05195), §1, manuscript p. 3, and Theorems A–B.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Baigent and the independently authored Mierczyński–Niu–Ruiz-Herrera paper identify the interior regularity gap. Convexity gives smoothness under additional hypotheses; local conjugacy or smoothness near particular fixed points does not settle the entire interior. Later retrotone and time-periodic existence results supply Lipschitz geometry and topological reduction. Known boundary singularities are outside the question.
 

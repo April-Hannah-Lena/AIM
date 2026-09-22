@@ -2,7 +2,7 @@
 
 **Area:** Tensor tomography / linearized travel-time imaging
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -18,7 +18,7 @@ on every maximal unit-speed geodesic joining boundary points.
 Is $I_2f=0$ equivalent to $f=d^sv$ for a smooth 1-form $v$ vanishing on $\partial M$, where
 $(d^sv)_{ij}=(\nabla_i v_j+\nabla_j v_i)/2$? The reverse implication follows from integration along a geodesic; the requested result is that this describes the entire kernel.
 
-## Applied significance
+## Application
 
 The transform is the linearization of anisotropic travel-time measurements. Its potential-tensor kernel represents infinitesimal changes of coordinates that preserve the boundary.
 
@@ -29,6 +29,8 @@ The transform is the linearization of anisotropic travel-time measurements. Its 
 3. P. Stefanov, G. Uhlmann and A. Vasy, *Local and global boundary rigidity and the geodesic X-ray transform in the normal gauge* (2021). [Paper](https://doi.org/10.4007/annals.2021.194.1.1).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Reference 2 explicitly identifies $I_2$ on a general simple higher-dimensional manifold as unresolved. Surface tensor tomography is solved; the higher-dimensional results in reference 3 use extra geometry. Generic injectivity does not imply injectivity for every simple metric.
 

@@ -2,7 +2,7 @@
 
 **Area:** Fluids, kinetic theory and continuum mechanics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -40,7 +40,7 @@ $$
 
 This asks whether the maximal classical existence time is infinite in a precise nice-data class supported by the local theory of Henderson–Snelson–Tarfulea. Uniqueness within that local classical class is already known; the unresolved issue is global continuation.
 
-## Applied significance
+## Application
 
 The Coulomb Landau operator describes collisional redistribution of charged-particle velocities in a plasma. The question tests whether an initially smooth kinetic density can develop a finite-time singularity far from equilibrium, where perturbative stability theory does not apply.
 
@@ -54,6 +54,8 @@ The Coulomb Landau operator describes collisional redistribution of charged-part
 - J. Bedrossian, J. Chen, M. P. Gualdani, S. Ji, V. Vicol and J. Yang, [*Finite time singularities in the Landau equation with very hard potentials*](https://arxiv.org/pdf/2602.05981v1), arXiv:2602.05981v1, February 5, 2026, Theorem 1.1 (different potentials; preprint).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The cited local theory gives existence and uniqueness for this data class. The 2026 continuation papers leave large-data inhomogeneous global regularity open. Their conditional bounds are not consequences of conservation of total mass and energy alone. Golding–Henderson–Silvestre explicitly include the periodic domain and Coulomb kernel.
 

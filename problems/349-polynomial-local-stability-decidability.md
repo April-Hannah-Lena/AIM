@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear control and algorithmic verification
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -25,7 +25,7 @@ The equilibrium $0$ is **locally asymptotically stable** when both conditions ho
 
 There is no prescribed running-time bound, homogeneity assumption or promise about the linearization. The negative output means failure of local asymptotic stability; a stable but nonattracting equilibrium must also receive that output. Global existence for initial conditions far from the origin is not assumed. Equivalent finite binary encodings do not change the existence of a terminating decision algorithm.
 
-## Applied significance
+## Application
 
 In a nonlinear control model, an equilibrium represents a desired operating state. Local asymptotic stability asks whether sufficiently small state disturbances remain small and eventually decay. Polynomial vector fields give finite algebraic descriptions of nonlinear interactions and arise in closed-loop models, reaction systems and local approximations. The question concerns whether exact automatic verification can always finish for this model class.
 
@@ -42,6 +42,8 @@ A positive answer would establish a general decision method, potentially with pr
 7. Min Wu, Zhengfeng Yang and Wang Lin, *Exact Asymptotic Stability Analysis and Region-of-Attraction Estimation for Nonlinear Systems*, Abstract and Applied Analysis **2013**, Article 146137. [Publisher full text](https://onlinelibrary.wiley.com/doi/10.1155/2013/146137), published April 4, 2013; §3.1 and §4.3, Algorithm 9.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-18. The exact local version is stated in [1]. The independently authored July 2026 paper [2] explicitly retains the algorithmic question. Arnold's original 1976 contribution was not directly read; the formulation uses the full scholarly restatement in [1].
 

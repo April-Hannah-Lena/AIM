@@ -2,7 +2,7 @@
 
 **Area:** Statistical learning, data privacy and sample complexity
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-19
 
@@ -37,7 +37,7 @@ $$
 
 This is a finite-domain, fixed-accuracy formulation of the quantitative question in [1, §6] and [2, §2]. Those sources suppress privacy and accuracy dependence. Here the accuracy, confidence and multiplicative privacy constant are fixed, and the privacy slack is explicitly inverse cubic in sample size, within the small-slack regime of [1, Theorem 2]. This formulation does not assert equivalence with every privacy-parameter regime or with arbitrary infinite domains.
 
-## Applied significance
+## Application
 
 The question asks how many sensitive labeled records are fundamentally needed to release an accurate classifier while limiting the effect of any one record on its output distribution. Ordinary classification can have small sample cost even when the class has large Littlestone dimension. A positive answer would limit the additional data required for privacy to a polynomial in VC dimension and a very slowly growing function of that larger dimension. This is a statistical existence question; it would not itself supply a fast training algorithm. [1, §§1–2; 2, §§1–2]
 
@@ -50,6 +50,8 @@ The question asks how many sensitive labeled records are fundamentally needed to
 5. Dechen Zhang, Xuan Tang, Xinxiang Yin, Xingwu Chen, Jian Qian and Difan Zou, *VALG: An Agentic System for ML Theory Research and Demonstrations on COLT 2026 Open Problems*, [arXiv:2608.13060v2](https://arxiv.org/html/2608.13060v2), revised September 10, 2026, preprint. §4.4, Assumptions 4.43–4.50 and Theorems 4.10–4.11.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-19. Sources [1] and the independently authored [2] pose the polynomial VC/iterated-logarithm question. The review searched its mathematical wording, later bounds, purported resolutions, versions and corrections.
 

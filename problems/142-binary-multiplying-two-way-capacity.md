@@ -2,6 +2,10 @@
 
 **Area:** Interactive communication / information theory
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Two terminals have independent uniform messages $M_1,M_2$. At use $t$ they send bits $X_{1,t},X_{2,t}$ and both receive
@@ -14,7 +18,7 @@ Terminal $i$ may choose $X_{i,t}$ as any function of $(M_i,Y_1,\ldots,Y_{t-1})$.
 
 Determine the symmetric capacity $C_{\mathrm{sym}}$: the supremum of rates $R$ for which both message sets can have size at least $2^{NR}$ along a sequence of block lengths tending to infinity, while the probability that either decoder errs tends to zero. Rates are bits per terminal per channel use.
 
-## Applied significance
+## Application
 
 This channel models two-way communication through a shared logical-AND connection. Its unresolved capacity measures the full benefit of adaptive interaction even in a deterministic binary network.
 
@@ -26,8 +30,6 @@ This channel models two-way communication through a shared logical-AND connectio
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 The cited discussion gives a lower bound about $0.6307$ and a converse about $0.6463$, without equality. Searches included “binary multiplying two-way channel capacity solved 2025 2026” and “Shannon Blackwell binary multiplying symmetric capacity”. Non-adaptive zero-error results and the binary adder channel address different operational problems. No exact adaptive vanishing-error capacity was located.

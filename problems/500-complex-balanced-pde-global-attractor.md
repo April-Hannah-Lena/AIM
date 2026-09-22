@@ -2,7 +2,7 @@
 
 **Area:** Reaction–diffusion PDEs; chemical equilibration
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -18,7 +18,7 @@ Let $u_0$ be smooth, strictly positive and boundary-compatible, and suppose its 
 
 Must $\|u(t)-c_\infty\|_{L^1(\Omega)}\to0$ as $t\to\infty$, even when the same stoichiometric class contains equilibria with zero components? No uniform positive lower bound on $u$ is assumed, and the diffusion constants need not be large or nearly equal.
 
-## Applied significance
+## Application
 
 This asks whether bounded spatially varying chemical concentrations always relax to the predicted positive equilibrium, despite possible equilibria representing extinction of some species.
 
@@ -29,5 +29,7 @@ This asks whether bounded spatially varying chemical concentrations always relax
 3. T. L. Nguyen and B. Q. Tang, *Stability analysis of irreversible chemical reaction-diffusion systems with boundary equilibria*, Z. Angew. Math. Phys. **77**, 199 (2026), Introduction. [Article](https://doi.org/10.1007/s00033-026-02847-0).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The SIAM paper explicitly leaves general systems with boundary equilibria open. The 2018 and July 2026 papers explain why the absence-of-boundary-equilibria theory does not settle this regime. Searches on 2026-09-22 also found convergence for selected networks, a single reversible reaction with bounded solutions, near-equilibrium data, and sufficiently large diffusivity; these restrictions do not imply the statement for arbitrary complex-balanced networks and diffusion constants. The question assumes global boundedness to separate asymptotic selection from global existence. It is a spatial PDE problem; catalogue problem 283 concerns general weakly reversible ODE persistence without complex balance.

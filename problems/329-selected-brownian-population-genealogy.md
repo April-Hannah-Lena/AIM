@@ -2,7 +2,7 @@
 
 **Area:** Population genetics and stochastic selection
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -27,7 +27,7 @@ $$
 $$
 These are the only transitions. The same constant $c$ must work for all fixed sample sizes and time windows. It absorbs the time normalization of the population model. The question is convergence of the sampled partition process, not merely the order of a pair's expected coalescence time.
 
-## Applied significance
+## Application
 
 Particle position represents inherited fitness, Brownian motion models changes in fitness, branching models reproduction, and removal of the least-fit individual imposes a fixed population size. The limiting genealogy would give a rigorous description of ancestry under this strong-selection rule. Multiple ancestral lines can merge on the rescaled clock even though reproduction is binary. This is a foundational population-genetics model; its conclusion is not asserted for every biological reproduction or selection mechanism.
 
@@ -44,6 +44,8 @@ Particle position represents inherited fitness, Brownian motion models changes i
 - [Alexandre Legrand and Pascal Maillard, *Time-inhomogeneous N-particle Branching Brownian Motion and the continuous random energy model*, arXiv:2402.04917v4, 9 April 2026](https://arxiv.org/abs/2402.04917), §2.6, “Genealogy of the N-BBM.”
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2026-09-17 check covered the Brunet–Derrida and Bolthausen–Sznitman aliases, fixed-size branching selection, recent proofs and counterexamples, author listings, and manuscript histories. The [evidence record](../research/expansion-2026-09/candidates/selected-brownian-population-genealogy.json) documents the scope comparisons and separate self-review.
 

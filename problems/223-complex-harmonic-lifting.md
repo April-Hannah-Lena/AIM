@@ -2,6 +2,10 @@
 
 **Area:** Elliptic equations / complex material coefficients
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $d\ge2$, let $\Omega\subset\mathbb R^d$ be any bounded connected $C^\infty$ domain, and let $C\in\mathbb C^{d\times d}$ be a constant matrix satisfying
@@ -20,7 +24,7 @@ $$
 \quad\text{for every such }\varphi?
 $$
 
-## Applied significance
+## Application
 
 Complex elliptic coefficients represent phase-dependent response in frequency-domain material models. This asks whether bounded boundary excitation can produce arbitrarily large interior amplitude, even in a smooth homogeneous specimen.
 
@@ -31,9 +35,7 @@ Complex elliptic coefficients represent phase-dependent response in frequency-do
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The June 2025 problem paper specifically leaves this smooth homogeneous case open. Finite-$p$ estimates do not supply a bound at $p=\infty$ unless their constants are controlled as $p$ grows. The real-coefficient maximum principle does not settle the complex case.
 

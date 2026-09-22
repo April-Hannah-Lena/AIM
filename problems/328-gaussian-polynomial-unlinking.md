@@ -2,7 +2,7 @@
 
 **Area:** Probability and mathematical statistics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -25,7 +25,7 @@ $$
 
 This is the **U-conjecture**, or Gaussian polynomial unlinking conjecture, attributed to Kagan, Linnik and Rao. The requested conclusion separates the two statistics into disjoint coordinate blocks after one orthogonal change of variables. Its converse follows from independence of the coordinates of $O^TX$. The general question permits arbitrary finite polynomial degrees; it imposes no convexity, symmetry or single-chaos assumption. Independence is essential: zero covariance alone is not the hypothesis. The two-dimensional case is known; the unresolved general assertion concerns higher dimensions.
 
-## Applied significance
+## Application
 
 Polynomial functions of Gaussian observations include linear contrasts, quadratic statistics and higher-order summaries. Independence lets statistical procedures separate sources of random variation, but a nonlinear statistic can depend on several original coordinates. The conjecture asks whether exact independence of two polynomial summaries always has an underlying explanation through orthogonal groups of Gaussian inputs. A positive answer would give a structural characterization of such independence beyond familiar linear and quadratic cases; a counterexample would identify a limit of that explanation. This is a foundational question in multivariate statistics, rather than a proposed procedure for inferring independence from finite samples.
 
@@ -38,6 +38,8 @@ Polynomial functions of Gaussian observations include linear contrasts, quadrati
 5. Guolie Lan, Frédéric Ouimet and Wei Sun, *Results related to the Gaussian product inequality conjecture for mixed-sign exponents in arbitrary dimension*, [arXiv:2505.09976v3](https://arxiv.org/pdf/2505.09976v3), preprint, August 27, 2026. §1, p. 1, paragraph following Eq. (1). Current restatement using a standard Gaussian vector.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Hong–Hu explicitly retain the general question while proving unlinking when both polynomials are even and quasi-convex. Here quasi-convexity means that every sublevel set is convex. Hargé's Theorem 1.2 assumes two convex functions, with one analytic and attaining its minimum at the origin. These hypotheses do not include arbitrary polynomials.
 

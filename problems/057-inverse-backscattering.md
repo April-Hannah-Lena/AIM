@@ -2,7 +2,7 @@
 
 **Area:** Inverse scattering / monostatic imaging
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -20,7 +20,7 @@ a_{q_1}(-\theta,\theta,k)=a_{q_2}(-\theta,\theta,k)
 $$
 implies $q_1=q_2$. No smallness, symmetry, or angular-control assumption is imposed.
 
-## Applied significance
+## Application
 
 Backscattering models experiments in which transmitter and receiver view the target from the same direction, as in monostatic radar and pulse-echo imaging.
 
@@ -31,6 +31,8 @@ Backscattering models experiments in which transmitter and receiver view the tar
 3. K. El Maddah, M. Lassas, T. Liimatainen, V. Pohjola and T. Tyni, *Reconstruction for an inverse scattering problem with a Kerr type nonlinearity* (2026), abstract and introduction. [Preprint](https://arxiv.org/abs/2606.13337).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Reference 3 explicitly calls linear backscattering uniqueness largely open. Reference 1 requires angular control. Reference 2 obtains a small-potential result in a time-dependent setting. The Kerr-nonlinear reconstruction theorem changes the equation and does not settle this linear problem.
 

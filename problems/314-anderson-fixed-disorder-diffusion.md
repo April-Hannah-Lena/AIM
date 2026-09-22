@@ -2,7 +2,7 @@
 
 **Area:** Disordered quantum transport
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -29,7 +29,7 @@ $$
 
 The expectation averages the static random potential. The lattice is infinite, the initial state is fixed, and $\lambda$ is held fixed as $t\to\infty$. This asks for the disorder-averaged, order-of-growth form of quantum diffusion for a standard bounded single-site law. It does not prescribe a limiting diffusion coefficient or a Brownian path limit.
 
-## Applied significance
+## Application
 
 This model describes the spreading of an initially localized quantum particle through a crystal with random site energies. Linear growth of the mean-square displacement would justify the diffusive transport scale used to model weakly disordered solids directly from unitary microscopic dynamics. It gives quantitative transport information beyond the existence of extended spectral states.
 
@@ -42,6 +42,8 @@ This model describes the spreading of an initially localized quantum particle th
 5. Adam Black, Reuben Drogin and Felipe Hernández, *Self-consistent equations and quantum diffusion for the Anderson model*, [arXiv:2506.06468v2](https://arxiv.org/pdf/2506.06468v2), November 6, 2025, §1 and Theorems 1.1–1.3.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Spencer explicitly averages the squared propagator over the random potential. Simon and Erdős pose the dynamical diffusion question separately from spectral delocalization. This entry uses the two-sided growth form, with constants allowed to depend on the fixed disorder strength.
 

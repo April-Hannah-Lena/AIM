@@ -2,7 +2,7 @@
 
 **Area:** Statistical learning and combinatorial dimension
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -28,7 +28,7 @@ $$
 
 Does a universal constant $K$ exist such that every such class admits a scheme of size at most $Kd$? The maps may depend on $X$ and $\mathcal C$, but the same maps must serve every realizable sample. No runtime bound is imposed. The reconstructor receives only $(T,b)$ and may output a function outside $\mathcal C$. The retained sample is an unordered set; additional ordering information must be encoded in $b$.
 
-## Applied significance
+## Application
 
 Sample compression models learning from a small selection of observed examples. Such schemes yield generalization guarantees; a linear bound would tie the retained information directly to VC dimension, independently of the original sample size. This is an existence question, so efficient implementation would require further work.
 
@@ -40,6 +40,8 @@ Sample compression models learning from a small selection of observed examples. 
 4. Zachary Chase, Bogdan Chornomaz, Steve Hanneke, Shay Moran and Amir Yehudayoff, *Dual VC Dimension Obstructs Sample Compression by Embeddings*, [arXiv:2405.17120v1](https://arxiv.org/html/2405.17120v1), §1.2 Conjecture 1 and Theorem A.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The April 2026 graph paper explicitly retains the linear-size conjecture with the set-and-bitstring convention used here. Attias–Hanneke–Ramaswami independently discuss the unresolved binary conjecture. Moran–Yehudayoff prove a general exponential bound in $d$, already independent of sample size; the remaining issue is linear dependence on dimension.
 

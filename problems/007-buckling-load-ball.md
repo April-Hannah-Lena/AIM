@@ -2,6 +2,10 @@
 
 **Area:** Elastic stability
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For every bounded smooth planar domain $\Omega$, define its first clamped buckling eigenvalue by
@@ -10,7 +14,7 @@ $$\Lambda_1(\Omega)=\inf_{0\ne u\in H^2_0(\Omega)}\frac{\int_\Omega|\Delta u|^2\
 
 Thus $\Delta^2u=-\Lambda\Delta u$ with $u=\partial_\nu u=0$ on the boundary. If $B$ is a disk of the same area, prove or disprove $\Lambda_1(\Omega)\ge\Lambda_1(B)$. No sign condition is imposed on a first eigenfunction.
 
-## Applied significance
+## Application
 
 The eigenvalue is proportional to the compressive load at which a clamped plate buckles. The conjecture identifies the most easily buckled shape of prescribed area.
 
@@ -21,9 +25,7 @@ The eigenvalue is proportional to the compressive load at which a clamped plate 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Antunes explicitly states the conjecture without a ground-state sign assumption. The 2025 numerical study says that only partial buckling results are established. The clamped-plate vibration theorem concerns a different denominator and cannot be substituted for this buckling statement.
 

@@ -2,6 +2,10 @@
 
 **Area:** Geometric inverse problems / travel-time imaging
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $M$ be a compact connected smooth surface with boundary. Let $g_1,g_2$ be smooth metrics inducing the same metric on $\partial M$, with strictly convex boundaries, such that every maximal unit-speed geodesic exits $M$ in finite forward and backward time. Conjugate points are allowed.
@@ -14,7 +18,7 @@ $$
 
 imply $g_1=F^*g_2$ for a smooth diffeomorphism $F:M\to M$ fixing the boundary pointwise?
 
-## Applied significance
+## Application
 
 Lens data record travel times and outgoing directions of waves or particles. The question permits focusing inside the medium, which is excluded by the usual simplicity assumption.
 
@@ -25,8 +29,6 @@ Lens data record travel times and outgoing directions of waves or particles. The
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 Alexakis–Lassas initially claimed the general result in October 2025, but withdrew the manuscript on January 6, 2026 after identifying a sign error affecting the argument. A withdrawn proof is not treated here as a resolution. The established simple case excludes conjugate points. Searches included “lens rigidity nontrapping surface conjugate points 2026” and “Alexakis Lassas 2510.27085 withdrawal corrected proof”; no corrected general proof was located.

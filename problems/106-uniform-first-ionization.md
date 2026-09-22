@@ -2,6 +2,10 @@
 
 **Area:** Atomic spectroscopy
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For $Z>0$ and $N\ge1$, let $E(N,Z)$ be the infimum of the spectrum of
@@ -16,7 +20,7 @@ $$I_1(Z)=E(Z-1,Z)-E(Z,Z).$$
 
 Prove or disprove that $\sup_{Z\in\mathbb N}I_1(Z)<\infty$. The nuclear mass is infinite and electron spin has exactly two states.
 
-## Applied significance
+## Application
 
 This is a precise question about the energy needed to remove the outermost electron. It concerns a spectral energy difference, distinct from the maximum number of bound electrons.
 
@@ -28,9 +32,7 @@ This is a precise question about the energy needed to remove the outermost elect
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2016 paper explains that bounded first ionization energy remains beyond known large-$Z$ total-energy expansions. Solovej’s 2026 abstract again identifies bounded ionization energies as open for the full many-body Schrödinger model. The Hartree–Fock result uses a different admissible class of electronic states.
 

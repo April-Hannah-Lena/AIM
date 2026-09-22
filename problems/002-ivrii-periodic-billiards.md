@@ -2,11 +2,15 @@
 
 **Area:** Spectral asymptotics and ray dynamics
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For every bounded strictly convex domain $\Omega\subset\mathbb R^d$, $d\ge2$, with $C^\infty$ boundary, consider unit-speed rays that reflect specularly at the boundary (angle of incidence equals angle of reflection). The billiard map acts on the inward, nongrazing unit covectors at $\partial\Omega$. Equip this section with its invariant Liouville measure. Prove or disprove that the union of the sets of $k$-periodic points, over all integers $k\ge2$, has measure zero.
 
-## Applied significance
+## Application
 
 The conjecture removes a dynamical hypothesis from the two-term Weyl law, whose boundary term improves high-frequency mode counts in acoustic and electromagnetic cavities.
 
@@ -18,9 +22,7 @@ The conjecture removes a dynamical hypothesis from the two-term Weyl law, whose 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The notes explicitly identify the smooth Euclidean conjecture as open. Fierobe's 2024 counterexamples use projective reflection laws, so do not disprove it. Weinreich obtains algebraic special cases. Fixed-period results, including periods three and four in their stated settings, do not cover the countable union for every smooth domain.
 

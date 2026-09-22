@@ -2,7 +2,7 @@
 
 **Area:** Quasilinear elliptic PDEs / crystalline surface energy
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -12,7 +12,7 @@ Does there exist $n\in\{4,5\}$, a non-affine real polynomial $u$ on $\mathbb R^n
 $$\operatorname{div}\big(D F(\nabla u)\big)=0\quad\text{on }\mathbb R^n,\qquad F(p)=\Phi((-p,1))?$$
 Here uniform convexity means that $D^2\Phi(\nu)$ restricted to $\nu^\perp$ is positive definite with a positive lower bound uniform over $\nu\in S^n$.
 
-## Applied significance
+## Application
 
 Anisotropic surface energies describe orientation-dependent interface tension in crystals. A polynomial equilibrium would provide an exact nonplanar model in the lowest dimensions where Bernstein rigidity can fail.
 
@@ -23,5 +23,7 @@ Anisotropic surface energies describe orientation-dependent interface tension in
 3. C. Mooney and Y. Yang, *The anisotropic Bernstein problem*, Inventiones mathematicae 235 (2024), 211–232, construction of nonpolynomial four-dimensional examples. [Publisher manuscript](https://par.nsf.gov/servlets/purl/10511787).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The six-dimensional polynomial construction uses a C2,1 integrand, so that regularity is fixed explicitly here. The four-dimensional Bernstein counterexamples have subquadratic growth and do not supply a polynomial. September 2026 arXiv:2609.08972 proves a lower growth gap; August 2026 arXiv:2608.29117 concerns integrands close to isotropic area. Neither settles polynomial existence for arbitrary uniformly elliptic integrands in dimensions four or five. No matching resolution was located through 22 September 2026.

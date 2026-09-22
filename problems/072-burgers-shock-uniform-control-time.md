@@ -2,7 +2,7 @@
 
 **Area:** Singular limits and control
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -23,9 +23,9 @@ T_{\rm unif}=\inf\{T>0:\limsup_{\varepsilon\downarrow0}C(T,\varepsilon)<\infty\}
 $$
 Determine the exact dimensionless constant $T_{\rm unif}/L$, closing the known interval between $4\sqrt2-2$ and $4\sqrt3$.
 
-## Applied significance
+## Application
 
-The constant is the shortest actuation horizon robust to vanishing viscosity around a stationary shock.
+In boundary control of a viscous flow, an actuator must suppress small disturbances around a stationary shock. This constant gives the shortest time horizon for doing so without the required control cost diverging as viscosity tends to zero.
 
 ## References
 
@@ -33,5 +33,7 @@ The constant is the shortest actuation horizon robust to vanishing viscosity aro
 2. Pierre Lissy, *Explicit Lower Bounds for the Cost of Fast Controls for Some 1-D Parabolic or Dispersive Equations, and a New Lower Bound Concerning the Uniform Controllability of the 1-D Transport–Diffusion Equation*, Journal of Differential Equations **259** (2015), 5331–5352. [DOI](https://doi.org/10.1016/j.jde.2015.06.031).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Laheurte formulates the minimal-time problem and gives distinct lower and upper bounds in the 2026 theorem. The inviscid limit's own control time does not equal the proved viscous lower bound. Searches on 2026-09-08: "Cost of controllability steady shock 2026 Laheurte" and "Burgers steady shock exact uniform controllability time". No result closing the gap was located.

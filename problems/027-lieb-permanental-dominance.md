@@ -2,7 +2,7 @@
 
 **Area:** Matrix analysis and quantum information
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -15,7 +15,7 @@ Prove or disprove
 $$\frac{d_\chi(A)}{\chi(e)}\le\operatorname{per}A$$
 for every such $n,A,\chi$, where $e$ denotes the identity permutation. On this matrix class these quantities are real.
 
-## Applied significance
+## Application
 
 Immanants describe interference associated with particle exchange symmetries. Comparing their normalized values constrains multiparticle bunching and indistinguishability tests.
 
@@ -26,6 +26,8 @@ Immanants describe interference associated with particle exchange symmetries. Co
 3. K. Rodtes, [Some remarks on permanental dominance conjecture](https://doi.org/10.1016/j.aam.2024.102758), Advances in Applied Mathematics 160 (2024), 102758. Partial results.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. The dedicated survey states the conjecture is unresolved; the 2024 work treats partial cases. Searches through the check date located further applications and immanant inequalities, but no proof or counterexample for this universal statement. Permanent-on-top and Bapat–Sunder counterexamples do not themselves refute Lieb’s inequality.
 

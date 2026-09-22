@@ -2,6 +2,10 @@
 
 **Area:** Aerosol kinetics and aggregation
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For cluster masses $x,y>0$, set
@@ -19,7 +23,7 @@ $$
 
 This is the self-similar-profile equation for $f(t,x)=t^{-2}F(x/t)$ in Smoluchowski’s coagulation equation. Equality of profiles means equality almost everywhere.
 
-## Applied significance
+## Application
 
 A unique normalized profile would identify the universal particle-size distribution predicted for Brownian aerosol aggregation.
 
@@ -33,8 +37,6 @@ A unique normalized profile would identify the universal particle-size distribut
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searches for “Brownian coagulation kernel self similar profiles uniqueness 2025 2026” and “Niethammer Throm Brownian uniqueness” located perturbative results, not uniqueness for this full Brownian kernel. The coefficient of its singular ratio terms is fixed at one; a theorem requiring sufficiently small perturbations of a constant does not apply. This concerns finite-mass profiles, not uniqueness of time-dependent solutions or infinite-mass fat-tailed profiles.

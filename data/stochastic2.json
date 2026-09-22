@@ -4,7 +4,7 @@
     "title": "Strict convexity of the planar exponential first-passage shape",
     "area": "Stochastic growth and random media",
     "file": "problems/176-strict-convexity-fpp.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -12,7 +12,7 @@
     "title": "The two-thirds passage-time variance exponent",
     "area": "Random interfaces and growth fluctuations",
     "file": "problems/177-fpp-kpz-variance.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -20,7 +20,7 @@
     "title": "Absence of doubly infinite minimizing paths in planar first-passage percolation",
     "area": "Optimal transport through random media",
     "file": "problems/178-absence-fpp-bigeodesics.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -28,7 +28,7 @@
     "title": "Exclusion of coexistence for unequal Richardson growth rates",
     "area": "Competing infections and stochastic growth",
     "file": "problems/179-unequal-richardson-competition.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
@@ -36,7 +36,7 @@
     "title": "Monotonicity of transport speed on Galton–Watson trees",
     "area": "Transport on random branching networks",
     "file": "problems/180-galton-watson-speed-monotonicity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
@@ -44,7 +44,7 @@
     "title": "Connectivity of the three-dimensional minimal spanning forest",
     "area": "Disordered network optimization",
     "file": "problems/181-three-dimensional-minimal-spanning-forest.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -52,7 +52,7 @@
     "title": "Does supercritical percolation preserve transience?",
     "area": "Diffusion in diluted networks",
     "file": "problems/182-percolation-preserves-transience.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
@@ -60,7 +60,7 @@
     "title": "A nonuniqueness phase on every nonamenable transitive graph",
     "area": "Percolation and network resilience",
     "file": "problems/183-nonamenable-nonuniqueness-phase.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
@@ -68,7 +68,7 @@
     "title": "A deterministic nontrivial growth exponent for planar DLA",
     "area": "Aggregation and fractal growth",
     "file": "problems/184-dla-growth-exponent.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -76,7 +76,7 @@
     "title": "Does directional transience imply ballistic transport in an iid medium?",
     "area": "Diffusion and transport in random environments",
     "file": "problems/185-rwre-transience-ballisticity.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -84,7 +84,7 @@
     "title": "The directional zero–one law in three-dimensional random media",
     "area": "Random transport and ergodicity",
     "file": "problems/186-rwre-directional-zero-one.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -92,7 +92,7 @@
     "title": "The density conjecture for activated random walk on the square lattice",
     "area": "Self-organized criticality",
     "file": "problems/187-activated-random-walk-density.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -100,7 +100,7 @@
     "title": "Coexistence for every positive cyclic invasion rate",
     "area": "Spatial ecology and evolutionary dynamics",
     "file": "problems/188-cyclic-spatial-coexistence.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -108,7 +108,7 @@
     "title": "Coexistence in a three-strain colicin model",
     "area": "Spatial microbiology",
     "file": "problems/189-three-strain-colicin-coexistence.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -116,7 +116,7 @@
     "title": "Competitive exclusion with unequal death rates",
     "area": "Spatial epidemics and population competition",
     "file": "problems/190-competing-contact-unequal-deaths.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -124,7 +124,7 @@
     "title": "Liouville invariance under changing local moves on a Cayley network",
     "area": "Random walks and network potential theory",
     "file": "problems/191-liouville-generating-set-invariance.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -132,7 +132,7 @@
     "title": "Selection of the carbon-monoxide poisoning phase",
     "area": "Catalytic surface reactions",
     "file": "problems/192-catalytic-carbon-monoxide-poisoning.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -140,7 +140,7 @@
     "title": "Two stationary phases in a positive-rate nonlinear voter perturbation",
     "area": "Spatial population dynamics and phase coexistence",
     "file": "problems/193-positive-rate-nonlinear-voter.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -148,7 +148,7 @@
     "title": "A phase transition for continuum hard disks",
     "area": "Equilibrium fluids and phase transitions",
     "file": "problems/194-hard-disk-phase-transition.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -156,7 +156,7 @@
     "title": "A roughening transition in the three-dimensional Ising model",
     "area": "Interfaces and equilibrium statistical mechanics",
     "file": "problems/195-ising-three-dimensional-roughening.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -164,7 +164,7 @@
     "title": "Uniqueness of the planar spin-glass ground-state pair",
     "area": "Disordered magnetic materials",
     "file": "problems/196-planar-spin-glass-ground-states.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -172,7 +172,7 @@
     "title": "Pathwise uniqueness at the three-quarter Hölder threshold",
     "area": "Stochastic reaction–diffusion equations",
     "file": "problems/197-stochastic-heat-critical-uniqueness.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -180,7 +180,7 @@
     "title": "Strong disorder versus a shifted pinning threshold",
     "area": "Disordered polymers and adsorption",
     "file": "problems/198-pinning-strong-disorder-critical-shift.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -188,7 +188,7 @@
     "title": "Polynomial mixing of planar Ising dynamics with plus boundary",
     "area": "Statistical mechanics and stochastic relaxation",
     "file": "problems/199-ising-plus-boundary-polynomial-mixing.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -196,7 +196,7 @@
     "title": "A continuous strictly decreasing moment spectrum for Gaussian polymers",
     "area": "Polymers in random media",
     "file": "problems/200-directed-polymer-moment-spectrum.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
@@ -204,7 +204,7 @@
     "title": "Positive-temperature order in the three-dimensional Edwards–Anderson spin glass",
     "area": "Stochastic growth, populations and statistical mechanics",
     "file": "problems/307-ea-three-dimensional-order.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -212,7 +212,7 @@
     "title": "Weak survival of the contact process on nonamenable Cayley graphs",
     "area": "Spatial epidemics and nonequilibrium phase transitions",
     "file": "problems/325-contact-process-nonamenable-weak-survival.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -220,7 +220,7 @@
     "title": "Bolthausen–Sznitman ancestry for a fixed-size selected population",
     "area": "Population genetics and stochastic selection",
     "file": "problems/329-selected-brownian-population-genealogy.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
@@ -228,7 +228,7 @@
     "title": "Accuracy of parsimony reconstruction under a molecular clock",
     "area": "Mathematical phylogenetics and ancestral-state inference",
     "file": "problems/339-fitch-ultrametric-ancestral-accuracy.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
@@ -236,7 +236,7 @@
     "title": "Non-explosion of Brownian Fleming–Viot systems in arbitrary domains",
     "area": "Interacting particles and conditioned diffusion",
     "file": "problems/359-brownian-fleming-viot-nonexplosion.md",
-    "status": "Open in cited literature; no later resolution located.",
+    "status": "Open",
     "last_checked": "2026-09-19"
   }
 ]

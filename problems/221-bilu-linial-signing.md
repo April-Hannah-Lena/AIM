@@ -2,6 +2,10 @@
 
 **Area:** Spectral graph theory / network design
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 For an integer $d\ge2$, let $G=(V,E)$ be any finite simple undirected $d$-regular graph. A signing is a map $s:E\to\{-1,1\}$. Its signed adjacency matrix is the real symmetric matrix
@@ -14,7 +18,7 @@ $$
 $$
 Both ends of the spectrum must satisfy the bound.
 
-## Applied significance
+## Application
 
 A signing defines a two-sheeted graph lift: positive edges stay in the same sheet and negative edges cross sheets. This conjecture would let network designers double a regular network while controlling all newly introduced spectral modes at the optimal universal-cover threshold.
 
@@ -26,9 +30,11 @@ A signing defines a two-sheeted graph lift: positive edges stay in the same shee
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** The optimal two-sided spectral signing bound is established for bipartite regular graphs.
 
-**Last checked:** 2026-09-13.
+**Remaining target:** The same optimal two-sided bound for every finite simple regular graph.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The bipartite case is known, because a one-sided signing bound then controls both spectral ends. The June 2026 general result gives $2\sqrt{3(d-1)}$, which leaves the requested constant unresolved. The July preprint imposes structural hypotheses and allows an error factor; its companion result on specific circulants does not cover all regular graphs.
 

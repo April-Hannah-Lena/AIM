@@ -2,6 +2,10 @@
 
 **Area:** Spectral partitions
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $B=\{x\in\mathbb R^2:|x|<1\}$. Among triples of pairwise disjoint nonempty connected open subsets $(D_1,D_2,D_3)$ of $B$, minimize $\max_i\lambda_1(D_i)$, where $\lambda_1$ is the first Dirichlet eigenvalue. Prove or disprove that the three sectors obtained by three radii separated by angles $2\pi/3$ attain the minimum. Equivalently, is
@@ -10,7 +14,7 @@ $$\inf_{(D_1,D_2,D_3)}\max_i\lambda_1(D_i)=j_{3/2,1}^2?$$
 
 Here $j_{3/2,1}$ is the first positive zero of the Bessel function $J_{3/2}$. The optimization is over all such triples, with no prescribed interface topology or symmetry.
 
-## Applied significance
+## Application
 
 This provides a concrete three-cell benchmark for partition algorithms used to balance fundamental modes. It isolates the finite-cell geometry behind asymptotic honeycomb design.
 
@@ -21,9 +25,7 @@ This provides a concrete three-cell benchmark for partition algorithms used to b
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2013 paper studies the conjecture, and the 2025 paper still labels the Mercedes partition conjectural. Its minimality results within specified topological classes do not establish unrestricted global minimality. The analogous Y-partition result on the sphere is a different, solved problem.
 

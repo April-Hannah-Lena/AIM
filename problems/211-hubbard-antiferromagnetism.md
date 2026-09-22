@@ -2,6 +2,10 @@
 
 **Area:** Correlated electrons; quantum materials
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 For even $L\ge4$ and $U>0$, on $\Lambda_L=(\mathbb Z/L\mathbb Z)^2$ consider
@@ -11,7 +15,7 @@ The fermionic operators satisfy $\{c_{xs},c_{yt}^\dagger\}=\delta_{xy}\delta_{st
 Does every fixed $U>0$ satisfy
 $$\liminf_{\substack{L\to\infty\\L\text{ even}}}\frac1{L^4}\left\langle\psi_{L,U},\left(\sum_x(-1)^{x_1+x_2}S_x^3\right)^2\psi_{L,U}\right\rangle>0?$$
 
-## Applied significance
+## Application
 
 The statement would derive collective magnetic order directly from electron hopping and local Coulomb repulsion, rather than assuming a spin-only effective model.
 
@@ -22,9 +26,7 @@ The statement would derive collective magnetic order directly from electron hopp
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The conjecture concerns the exact many-electron ground state for all positive interaction strengths. Lieb’s singlet theorem and signs of two-point correlations do not give a nonzero limiting structure factor. The April 2026 gap theorem is explicitly about Hartree–Fock theory; finite-cluster simulations and strong-coupling expansions do not settle the stated limit.
 

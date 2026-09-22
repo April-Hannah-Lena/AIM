@@ -2,7 +2,7 @@
 
 **Area:** Reflection tomography / integral geometry
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -14,7 +14,7 @@ A measured broken ray is a finite piecewise straight unit-speed path in $M$ that
 
 For $f\in C^\infty(M)$, set $Bf(\gamma)=\int_\gamma f\,ds$. Is $Bf=0$ for every measured ray sufficient to conclude $f=0$ on $M$, for every admissible geometry?
 
-## Applied significance
+## Application
 
 This asks whether reflecting paths recover material hidden behind multiple inaccessible obstacles, a basic model of reflection-based tomography.
 
@@ -24,6 +24,8 @@ This asks whether reflecting paths recover material hidden behind multiple inacc
 2. J. Ilmavirta, *On the broken ray transform* (2014), dissertation overview, p. 21. [Dissertation](https://users.jyu.fi/~jojapeil/thesis/brt_290814.pdf).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 The 2024 survey explicitly records this two-obstacle problem as unresolved. Both sources distinguish the counterexample with merely convex flat pieces from the case with a strictly convex obstacle. Results for one obstacle or for restrictive nonsmooth multiple-obstacle geometries do not settle this statement. Trapped infinite trajectories supply no measurements here.
 

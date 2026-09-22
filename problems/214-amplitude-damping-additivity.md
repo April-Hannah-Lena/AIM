@@ -2,6 +2,10 @@
 
 **Area:** Quantum communication; dissipative qubits
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 For $0<\gamma<1$, define a qubit channel
@@ -12,7 +16,7 @@ where the supremum is over finite ensembles of input density operators and $S(\r
 
 Is $\chi(\mathcal A_\gamma^{\otimes n})=n\chi(\mathcal A_\gamma)$ for every $n\ge1$ and every $0<\gamma<1$? Equivalently, does its unassisted classical capacity $\sup_{n\ge1}\chi(\mathcal A_\gamma^{\otimes n})/n$ equal the one-use Holevo information?
 
-## Applied significance
+## Application
 
 Amplitude damping models energy relaxation, including spontaneous emission. This asks whether entangling classical-message codewords across repeated uses increases the achievable communication rate.
 
@@ -23,9 +27,7 @@ Amplitude damping models energy relaxation, including spontaneous emission. This
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The one-use Holevo quantity is known, but the cited capacity bounds do not establish its additivity over arbitrary block lengths. Recent results on symmetric generalized amplitude damping are unital-channel results; the channel here is nonunital. Known quantum-capacity formulas concern transmission of quantum states, a different task.
 

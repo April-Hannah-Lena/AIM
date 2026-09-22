@@ -2,7 +2,7 @@
 
 **Area:** Inverse scattering / acoustic tomography
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -18,7 +18,7 @@ $u^s(r\omega)=r^{-1}e^{ikr}a_c(\omega,k)+O(r^{-2})$.
 
 Does equality of $a_{c_1}(\omega,k)$ and $a_{c_2}(\omega,k)$ for all $\omega\in S^2$ and $k>0$ force $c_1=c_2$? Both speeds may be far from constant. Only one incoming plane-wave direction is used.
 
-## Applied significance
+## Application
 
 This tests whether broadband illumination from a single direction can identify an inhomogeneous acoustic propagation speed.
 
@@ -29,6 +29,8 @@ This tests whether broadband illumination from a single direction can identify a
 3. L. Oksanen, Rakesh and M. Salo, *Fixed angle inverse scattering with non-constant velocity* (August 2026), abstract and main results. [Preprint](https://arxiv.org/abs/2608.13670).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Reference 2 explicitly states the general problem is open and distinguishes any admissible metric from the Euclidean metric. Reference 1 treats speeds near constant. The August 2026 paper uses finitely many waves together with complementary solutions and geometric hypotheses; these are stronger data or restrictions than the single-direction experiment stated here.
 

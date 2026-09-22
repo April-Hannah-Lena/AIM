@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear diffusion PDEs; chemical mass conservation
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -26,7 +26,7 @@ Does this identity alone imply, for every $q\in\mathbb R^N$ with $q\cdot f(z)=0$
 $$\sum_i q_i\int_\Omega u_i(t)=\sum_i q_i\int_\Omega u_{i,0}\qquad\text{for almost every }t>0?$$
 Neither this conservation law nor an entropy inequality is added as a solution axiom. Finite entropy of the initial data means $\sum_i\int u_{i,0}(1+|\log u_{i,0}|)<\infty$, with $0|\log0|=0$.
 
-## Applied significance
+## Application
 
 The question asks whether the weakest available continuum formulation itself preserves chemical invariants when diffusion degenerates, rather than requiring conservation as an additional selection rule.
 
@@ -36,5 +36,7 @@ The question asks whether the weakest available continuum formulation itself pre
 2. J. Fischer, *Weak-strong uniqueness of solutions to entropy-dissipating reaction-diffusion equations*, Nonlinear Analysis **159** (2017), 181–207, linear-diffusion renormalization arguments. [Preprint](https://arxiv.org/abs/1703.00730).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Remark 1.2 explicitly asks whether the truncated identity entails the conservation and entropy laws for nonlinear diffusion. The present entry isolates conservation as one definite assertion and retains the source’s exponent interval. For linear diffusion, or for bounded solutions, the implication is known; neither restriction is imposed here. Searches on 2026-09-22 for nonlinear diffusion, renormalized solutions, and automatic mass conservation found no later resolution. Existence of solutions constructed to satisfy conservation does not establish the implication for every solution of the truncated identity.

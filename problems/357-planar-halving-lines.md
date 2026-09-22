@@ -2,7 +2,7 @@
 
 **Area:** Computational geometry and parametric selection
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-19
 
@@ -23,7 +23,7 @@ $$
 
 This is the near-linear halving-line conjecture of Erdős, Lovász, Simmons and Straus. The original statement uses $e_m=h(2m)$ and little-$o$ for every positive exponent increment; that formulation is equivalent to the uniform bound above. The point sets are arbitrary apart from general position. This is one planar counting problem, also expressible using halving edges or middle-level crossings in arrangements of straight lines.
 
-## Applied significance
+## Application
 
 Consider retaining the cheapest half of $n$ options whose costs are affine functions of one real parameter. For distinct slopes and no triple intersection, membership changes when two costs cross at the middle of the ordering. Under point-line duality, these events correspond to halving lines of the coefficient points. Thus the conjecture bounds how many changes a complete representation of these optimal choices must record. This is a foundational question about the size of the output in geometric selection and parametric optimization; its assertion does not itself supply an enumeration algorithm. Nivasch's dual formulation and Dey's arrangement analysis make this connection precise.
 
@@ -38,6 +38,8 @@ Consider retaining the cheapest half of $n$ options whose costs are affine funct
 7. Elizaveta Streltsova and Uli Wagner, *Levels in Arrangements: Linear Relations, the g-Matrix, and Applications to Crossing Numbers*, SoCG 2025, article 75, [proceedings paper](https://drops.dagstuhl.de/storage/00lipics/lipics-vol332-socg2025/LIPIcs.SoCG.2025.75/LIPIcs.SoCG.2025.75.pdf). §§1.1–1.2, Theorem 6 and Remark 7.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of **2026-09-19**. The independently authored formulations agree on the exponent target, and the 2025 arrangement paper retains the planar gap. Dey's general upper bound has order $n^{4/3}$. Nivasch constructs examples with at least a constant multiple of
 

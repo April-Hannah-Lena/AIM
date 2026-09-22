@@ -2,7 +2,7 @@
 
 A sourced collection of precise mathematical research problems in spectral theory, operator theory, applied mathematics, and related fields. Each entry has a self-contained statement, an applied motivation, references, and a dated literature-status review.
 
-**500 open targets** · **0 solved entries** · **1 solution claim**. Counts reflect the statuses recorded in this collection.
+**500 open targets** (455 open, 45 partial) · **0 solved entries** · **0 Lean verified** · **1 solution claim**. Counts reflect the statuses recorded in this collection.
 
 **[Browse all 500 open targets →](CATALOG.md)** · **[Solved and claimed solutions →](RESOLVED.md)**
 
@@ -25,15 +25,29 @@ A sourced collection of precise mathematical research problems in spectral theor
 
 ## Reading the collection
 
-Each [problem page](problems/) records its assumptions and quantifiers, applied significance, references, status, and last review date. Permanent IDs remain reserved when an entry leaves the open catalogue; its original statement and status record are retained.
+Each [problem page](problems/) records its assumptions and quantifiers, an explicit **Application** section, references, a status label, and its last review date. Applications describe a concrete use or modelling consequence, including what a resolution would enable. Permanent IDs remain reserved when an entry leaves the open catalogue; its original statement and status record are retained.
 
 The collection includes foundational questions as well as directly applied ones, with a wide range of difficulty. Related entries may imply one another; the count does not assert logical independence. Further additions exclude numerical linear algebra (NLA).
+
+## Problem status
+
+The same labels appear on problem pages and index rows. Only Open and Partial count as open targets; each problem counts once.
+
+| Status | Meaning | Counted as open? |
+| --- | --- | --- |
+| 🔵 OPEN | The target is unresolved in the literature checked for the entry. | Yes |
+| 🟡 PARTIAL | Some substantive cases of the stated target are proved; the page identifies what remains. | Yes |
+| 🟠 SOLUTION CLAIMED | A source claims a complete resolution; independent proof review is outstanding. | No |
+| ✅ SOLVED | A publication or documented independent audit supports a complete resolution. | No |
+| 🏆 LEAN VERIFIED | A complete resolution has reviewed Lean kernel-checking evidence and matches the original target. | No |
+| ⚪ NEEDS VERIFICATION | A statement or status issue requires further review. | No |
+| ⚫ WITHDRAWN | The entry was removed for a documented reason; its ID and original statement are retained. | No |
+
+An informal audit, including an AI audit, does not establish Lean verification. Formal proofs of special cases do not settle the whole target. See the [status and evidence requirements](CONTRIBUTING.md#status-and-evidence) and the [resolution archive](RESOLVED.md).
 
 ## What “open” means here
 
 An open target is unresolved in its cited literature, and targeted searches found no later resolution of its exact statement as of the entry's review date. Partial results and restrictions are explained on its page. These bounded checks cannot guarantee that no proof exists, and adding a batch does not revalidate earlier entries.
-
-A **solution claim** matches the target but awaits independent proof review. A **solved** entry has a documented resolution supported by the review recorded on its page. Both are listed separately from open targets in [RESOLVED.md](RESOLVED.md); other retirement reasons are kept distinct.
 
 See the [research methodology](research/METHODOLOGY.md), [source maps and exclusion records](research/README.md), and [publication batches](CATALOG.md#publication-batches) for the evidence behind the catalogue.
 

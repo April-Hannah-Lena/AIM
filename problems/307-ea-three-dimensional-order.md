@@ -2,7 +2,7 @@
 
 **Area:** Stochastic growth, populations and statistical mechanics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -24,7 +24,7 @@ $$
 
 This uses the overlap-broadening criterion of Itoi–Mukaida–Tasaki, Eq. (3.3), for the expected low-temperature order in dimension three. The volume limit is taken at a fixed finite inverse temperature. The limsup convention does not presuppose convergence of the full overlap distribution.
 
-## Applied significance
+## Application
 
 The model represents a magnet with frozen random interactions that favor incompatible local spin alignments. A positive squared overlap means that two independent equilibrium samples retain macroscopic common spin structure. This detects order hidden by the zero signed mean overlap imposed by spin-flip symmetry, and would give a rigorous basis for a finite-temperature glassy phase in a three-dimensional short-range model.
 
@@ -37,6 +37,8 @@ The model represents a magnet with frozen random interactions that favor incompa
 - C. Itoi and Y. Sakamoto, [*Self-averaging of replica overlaps in the random field Edwards-Anderson model*](https://arxiv.org/html/2606.18752v2), arXiv:2606.18752v2, June 18, 2026, §3.3 Theorem 3.1 and §5.2 (preprint).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Itoi–Mukaida–Tasaki give the precise order parameter and state the expected low-temperature order for $d\ge3$. Their theorem shows that positive overlap broadening implies a positive Edwards–Anderson order parameter; it does not prove positivity. Newman–Stein independently formulate the finite-temperature transition problem, and Hukushima–Krauth report that the three-dimensional transition remains without a rigorous proof.
 

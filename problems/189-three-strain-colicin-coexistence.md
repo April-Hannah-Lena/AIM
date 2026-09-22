@@ -2,7 +2,7 @@
 
 **Area:** Spatial microbiology
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -14,7 +14,7 @@ for which there is a stationary probability measure $\nu$, invariant under latti
 $$\nu\bigl(\#\{x\in\mathbb Z^2:\eta(x)=i\}=\infty\text{ for every }i=1,2,3\bigr)=1?$$
 The support condition requires coexistence within a configuration, excluding mixtures of laws in which one or more strains are absent.
 
-## Applied significance
+## Application
 
 The two slower-growing strains produce different levels of toxin, while the fastest strain is toxin-sensitive. Coexistence would demonstrate how local chemical interference sustains microbial diversity.
 
@@ -24,6 +24,8 @@ The two slower-growing strains produce different levels of toxin, while the fast
 - [Rick Durrett and Simon A. Levin, *Allelopathy in spatially distributed populations* (1997)](https://doi.org/10.1006/jtbi.1996.0292), the underlying spatial competition mechanism.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The new book explicitly asks whether three-strain coexistence occurs. The statement asks for existence of suitable parameters, rather than promoting illustrative simulation values to a proved or separately conjectured parameter region.
 

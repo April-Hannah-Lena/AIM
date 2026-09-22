@@ -2,7 +2,7 @@
 
 **Area:** Operator representations and stability
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ For every unital complex $C^*$-algebra $\mathcal A$, complex Hilbert space $H$, 
 $$a\longmapsto S^{-1}\pi(a)S$$
 is a $*$-homomorphism? Thus the transformed map must satisfy $S^{-1}\pi(a^*)S=(S^{-1}\pi(a)S)^*$ for every $a\in\mathcal A$. No complete-boundedness assumption is permitted.
 
-## Applied significance
+## Application
 
 The problem asks when a bounded operator representation can be put in adjoint-preserving coordinates. This concerns the mathematical stability of operator models and observable representations; it is not a claim of an immediate numerical procedure.
 
@@ -23,6 +23,8 @@ The problem asks when a bounded operator representation can be put in adjoint-pr
 3. J. Peterson, [Open problems in operator algebras](https://www.math.uwaterloo.ca/~j37peter/problems.html), updated May 2026; Problem O.5.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. Both the March 2026 research paper and the May 2026 expert list retain the general question. The paper establishes conditional equivalences, not the universal similarity property. No subsequent complete solution was located.
 

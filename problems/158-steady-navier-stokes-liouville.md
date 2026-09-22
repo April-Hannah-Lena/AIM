@@ -2,6 +2,10 @@
 
 **Area:** Viscous fluid mechanics
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Suppose $u\in C^\infty(\mathbb R^3;\mathbb R^3)$ and $p\in C^\infty(\mathbb R^3)$ satisfy
@@ -16,7 +20,7 @@ $$
 
 Must $u$ vanish identically? No additional integrability or symmetry of $u$, and no rate of its decay, is assumed.
 
-## Applied significance
+## Application
 
 This would rule out a persistent unforced viscous motion maintained by no boundary or far-field input while having finite viscous dissipation.
 
@@ -28,8 +32,6 @@ This would rule out a persistent unforced viscous motion maintained by no bounda
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Chae’s February 2026 introduction still describes the unqualified three-dimensional problem as open. Its new theorem imposes extra head-pressure and velocity asymptotics. Searches for “Navier Stokes Liouville Dirichlet integral open 2026” and the exact 2026 paper title located no subsequent resolution. Results assuming $u\in L^{9/2}$ or axial symmetry impose assumptions absent here.

@@ -2,6 +2,10 @@
 
 **Area:** Materials science and nonlinear elasticity
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Fix $\alpha,\beta>0$ with $\alpha\ne\beta$. Let $U_1=\operatorname{diag}(\alpha,\beta,\beta)$, let $U_2,U_3$ be its other coordinate permutations, and set $K=\bigcup_{i=1}^3 SO(3)U_i$, where $SO(3)$ is the rotation group.
@@ -14,7 +18,7 @@ $$
 
 The requested characterization must decide general matrices, including non-diagonal ones.
 
-## Applied significance
+## Application
 
 This set gives all macroscopic strains that a tetragonal martensite can accommodate by fine mixtures of its stress-free crystal variants.
 
@@ -26,8 +30,6 @@ This set gives all macroscopic strains that a tetragonal martensite can accommod
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The source problem asks for the full quasiconvex hull. Searches for “cubic to tetragonal quasiconvex hull 2026” and the Ball–Galanopoulou title found a July 2026 treatment of special matrices and polycrystal compatibility. Its positive-diagonal characterization does not cover arbitrary $F$; no full characterization was located.

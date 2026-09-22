@@ -2,7 +2,7 @@
 
 **Area:** Statistical learning, Boolean rules and computational complexity
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -29,7 +29,7 @@ $$
 
 The inner probability uses a fresh input. Reading examples and all preprocessing count toward the runtime; evaluating the resulting hypothesis on any input must also take polynomial time in the same parameters. The algorithm receives a size bound, not a formula for $f$. It may output a hypothesis outside the DNF class. Neither chosen label queries nor quantum examples are available. This is the noiseless, examples-only uniform-distribution PAC-learning question. [1–3]
 
-## Applied significance
+## Application
 
 DNFs express rules in which any of several combinations of binary features can trigger a classification. The problem tests whether a compact rule model can always be converted into an efficiently learned predictor from passive observations. Its difficulty is computational: an elementary count of the possible formulas gives a polynomial sample bound for exhaustive search, but that search need not be efficient. The uniform-input assumption is an idealized benchmark; a solution would not automatically handle arbitrary feature distributions or recover an interpretable DNF representation. The role of DNFs as a model for knowledge representation is discussed in [3, §1.1].
 
@@ -44,6 +44,8 @@ DNFs express rules in which any of several combinations of binary features can t
 7. Sagnik Chatterjee, *The Quantum Learning Menagerie (A survey on Quantum learning for Classical concepts)*, [arXiv:2602.01054v1](https://arxiv.org/html/2602.01054v1), February 1, 2026, preprint survey, §5.5.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-18. Source [1, §1.2] explicitly poses the uniform examples-only gap. Independent sources [5, §1] and [7, §5.5] distinguish it from efficient learning with additional access. The September 18 review searched names, mathematical and oracle wording, recent work, author pages, versions, corrections and proof/counterexample claims.
 

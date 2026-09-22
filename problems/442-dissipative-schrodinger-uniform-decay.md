@@ -1,9 +1,10 @@
 # 442. Classical attenuation versus uniform semiclassical local decay
 
 **Area:** Dissipative Schrödinger PDEs and high-frequency propagation
-**Status:** Open in cited literature; no later resolution located.
-**Last checked:** 2026-09-22
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-22
 ## Problem statement
 
 Let $V_1,V_2\in C^\infty(\mathbb R^d;\mathbb R)$, $V_2\ge0$, $V_2\not\equiv0$, and assume that for some $\rho>0$,
@@ -14,7 +15,7 @@ Must there exist $h_0>0$ such that
 $$\lim_{t\to\infty}\sup_{0<h\le h_0}\|\langle x\rangle^{-s}S_h(t)\langle x\rangle^{-s}\|_{L^2\to L^2}=0?$$
 The conclusion includes the zero-energy threshold and does not insert an energy cutoff.
 
-## Applied significance
+## Application
 
 This asks whether the decay predicted by attenuated geometric rays guarantees decay of waves uniformly as their wavelength tends to zero. Zero-energy propagation is the obstacle to using standard high-frequency arguments.
 
@@ -24,5 +25,7 @@ This asks whether the decay predicted by attenuated geometric rays guarantees de
 2. J. Royer, [Limiting absorption principle for the dissipative Helmholtz equation](https://doi.org/10.1080/03605302.2010.490287), *Communications in PDE* **35** (2010), 1458–1489, introduction and the semiclassical resolvent theorem; [preprint](https://arxiv.org/abs/0905.0355).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Wang explicitly asks whether the classical condition suffices. Searches for uniform semiclassical dissipative decay, Royer’s limiting absorption results, and later Wang threshold estimates through the review date found no theorem under precisely this global dynamical condition. Decay for each fixed h, or estimates away from zero energy, do not yield the displayed uniform limit.

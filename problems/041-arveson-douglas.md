@@ -2,7 +2,7 @@
 
 **Area:** Multivariable operator theory
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -14,7 +14,7 @@ Prove or disprove that
 $$[S_i,S_j^*]\in\mathcal S_p\qquad(1\le i,j\le d,\ p>\dim_{\mathbb C}V(I)),$$
 where $[A,B]=AB-BA$, $V(I)=\{z:f(z)=0\ \forall f\in I\}$, and $\mathcal S_p$ consists of compact operators whose singular values have summable $p$th powers. The closure is in $H_d^2$.
 
-## Applied significance
+## Application
 
 Compressed coordinate multipliers model constrained multivariable systems. Quantitative compactness of their commutators supports index theory and stable operator models; this is a foundational operator-theory application.
 
@@ -25,6 +25,8 @@ Compressed coordinate multipliers model constrained multivariable systems. Quant
 3. S. Raum, [Around the Arveson–Douglas conjecture](https://www.raum-brothers.eu/sven/AD-2026-07.html), University of Potsdam workshop, 15–17 July 2026. Recent research context.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. The surveys formulate the general homogeneous-ideal problem; the 2026 workshop and recent papers focus on partial settings. Results for smooth boundary varieties or polydisc Hardy modules do not cover arbitrary homogeneous ideals in the Drury–Arveson ball setting. No general resolution was located.
 

@@ -2,6 +2,10 @@
 
 **Area:** Geometric optics / long-time propagation
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $D=\{x\in\mathbb R^2:|x|\leq1\}$ and $P\in\operatorname{int}D\setminus\{0\}$. Launch a unit-speed ray from $P$ in every direction, reflecting specularly at $\partial D$, and let $W_t(P)$ be their positions at time $t$. Is it true that
@@ -12,7 +16,7 @@ $$
 
 for every such $P$? The limit concerns each sufficiently late individual wavefront, not the union of wavefronts over time.
 
-## Applied significance
+## Application
 
 The statement would quantify eventual spatial coverage by an impulsive point source in an ideal circular reflecting cavity. Individual rays can remain confined by caustics, making simultaneous coverage a different issue from ray recurrence.
 
@@ -23,8 +27,6 @@ The statement would quantify eventual spatial coverage by an impulsive point sou
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 The center must be excluded because its fronts periodically refocus. The cited density theorem for flat tori and square billiards does not establish the disk case. Searches included “density of wave fronts circle 2026 proof”, “reflected wavefronts billiard disk dense”, and the Kang–Knill title. A circular-table theorem on numbers of caustic cusps is a different assertion. No proof of the displayed limit was located.

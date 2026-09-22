@@ -2,7 +2,7 @@
 
 **Area:** Numerical linear algebra and low-rank approximation
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -16,7 +16,7 @@ $$|\widehat u_i^T\widehat u_j|\le C\epsilon n,\qquad
 |\widehat v_i^T\widehat v_j|\le C\epsilon n\quad(i\ne j).$$
 Here $\epsilon$ is unit roundoff and $C$ is a universal constant, independent of singular-value gaps or clusters; assume $\epsilon n$ is small and exclude overflow and underflow. A repeated value permits any orthonormal basis of its singular subspace.
 
-## Applied significance
+## Application
 
 Dense SVD algorithms reduce their input to bidiagonal form. A reliably accurate linear-work-per-vector final stage would improve selected SVD computations used for compression and scientific data analysis.
 
@@ -27,6 +27,8 @@ Dense SVD algorithms reduce their input to bidiagonal form. A reliably accurate 
 3. N. Amsel et al., [Linear Systems and Eigenvalue Problems: Open Questions from a Simons Workshop](https://arxiv.org/abs/2602.05394), 2026; Problem 3.8.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. Problem 3.8 still asks for the combined work, residual and orthogonality guarantees. This entry makes the intended selected-SVD task explicit by requiring both singular-vector equations and accuracy at the requested ordered indices; the source displays only the first residual equation. Earlier O(n²) titles alone do not establish reliable implementations for clustered spectra. No later solution was located.
 

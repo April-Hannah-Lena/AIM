@@ -2,6 +2,10 @@
 
 **Area:** Capillary geometry and boundary vibrations
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For every $n\ge3$, let $\Sigma^{n-1}\subset\overline{B^n}$ be a smooth compact connected properly embedded minimal hypersurface meeting $S^{n-1}$ orthogonally along its nonempty boundary. Give $\Sigma$ the induced Euclidean metric and set
@@ -10,7 +14,7 @@ $$\sigma_1(\Sigma)=\inf_{\substack{u\in H^1(\Sigma),\ \int_{\partial\Sigma}u=0\\
 
 Prove or disprove $\sigma_1(\Sigma)=1$. The coordinate functions are harmonic and satisfy $\partial_\eta x_j=x_j$ on the boundary, so the unresolved part is the exclusion of an eigenvalue in $(0,1)$.
 
-## Applied significance
+## Application
 
 The geometry of a freely attached capillary surface supplies exact boundary-vibration modes. The conjecture asks whether those modes always have the lowest positive frequency.
 
@@ -21,9 +25,7 @@ The geometry of a freely attached capillary surface supplies exact boundary-vibr
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2024 theorem requires a specified collection of reflection planes. Those hypotheses are absent here. Neither the coordinate-function calculation nor uniqueness results for particular annuli establish the assertion for all embedded hypersurfaces and topologies. No full resolution was located.
 

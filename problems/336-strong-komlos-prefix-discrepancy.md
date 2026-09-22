@@ -2,7 +2,7 @@
 
 **Area:** Discrepancy, cumulative allocation and integer optimization
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -22,7 +22,7 @@ The order is fixed. The signs may depend on the entire sequence, but the same si
 
 Taking $k=T$ gives the ordinary terminal-sum question in [entry 031](031-komlos.md). Controlling each prefix with a separately chosen signing would not answer the stronger question here.
 
-## Applied significance
+## Application
 
 View each vector as the feature or resource contributions of one indivisible item in a prescribed sequence. Its sign assigns it to one of two groups. The prefix sums then measure cumulative imbalance at each stage, so the conjecture asks for a uniform buffer independent of the number of items and tracked resources. Equivalently, putting $x_i=(1+\varepsilon_i)/2$ rounds a half-allocation to whole items with coordinate error at most $C/2$ at every prefix. These are interpretations of the stated model. Prefix discrepancy also feeds into Steinitz rearrangement bounds, which have applications in integer programming and scheduling. [1, §1] An existence result alone would not supply an efficient allocation algorithm.
 
@@ -36,6 +36,8 @@ View each vector as the feature or resource contributions of one indivisible ite
 6. Gleb Smirnov and Roman Vershynin, *Discrepancy and Fisher information*, [arXiv:2605.13107v1](https://arxiv.org/html/2605.13107v1), May 13, 2026, preprint, §§1.1–1.4 and Theorem 1.1.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-18. The independently authored source [2, Conjecture 1.6] explicitly retains this question. The September manuscripts [2, 3] claim universal constants for the final sum and explicitly distinguish that result from controlling all prefixes.
 

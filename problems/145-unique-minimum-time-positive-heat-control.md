@@ -2,6 +2,10 @@
 
 **Area:** Constrained PDE control / thermal processes
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Fix constants $a,b>0$, $a\ne b$. On the rod $(0,1)$ consider $y_t=y_{xx}$, $y(0,x)=a$, with nonnegative Dirichlet controls $y(t,0)=u_0(t)$ and $y(t,1)=u_1(t)$. Let $T_*$ be the infimum of times in which bounded nonnegative controls can produce $y(T,x)=b$.
@@ -16,7 +20,7 @@ $$
 
 These are the terminal-state sine-mode equations. The question is whether they have exactly one nonnegative measure pair at $T_*$, for every $a,b$ above.
 
-## Applied significance
+## Application
 
 Nonnegative boundary temperatures impose a genuine waiting time. Uniqueness would determine whether the fastest feasible heating or cooling protocol is intrinsically specified.
 
@@ -27,8 +31,6 @@ Nonnegative boundary temperatures impose a genuine waiting time. Uniqueness woul
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2017 paper proves positivity and finiteness of the waiting time and existence of measure controls, while explicitly leaving uniqueness open. The 2021 results apply to finite-dimensional systems, including spatial discretizations, and do not establish uniqueness for the continuum heat equation. Searches included “heat equation minimal time nonnegative Radon controls uniqueness 2025 2026” and “Lohéac Trélat Zuazua minimum time uniqueness”. No continuum resolution was located.

@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear wave turbulence
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -14,7 +14,7 @@ satisfies
 $$\limsup_{t\to\infty}\|u(t)\|_{H^2(\mathbb T^2)}=\infty?$$
 Here $\|u\|_{H^2}^2=\sum_{k\in\mathbb Z^2}(1+|k|^2)^2|\widehat u(k)|^2$. A single fixed initial datum and its entire forward trajectory must realize the unbounded growth.
 
-## Applied significance
+## Application
 
 This would rigorously demonstrate an indefinitely continuing transfer toward fine spatial scales in a basic conservative nonlinear-wave model, despite conservation of mass and energy.
 
@@ -24,5 +24,7 @@ This would rigorously demonstrate an indefinitely continuing transfer toward fin
 - Sebastian Herr and Beomjong Kwak, [*Global well-posedness of the cubic nonlinear Schrödinger equation on $\mathbb T^2$*](https://doi.org/10.1007/s00222-026-01418-4) (2026), introduction and main theorem: recent global existence at low regularity, a different issue from long-time Sobolev growth.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “cubic NLS torus single orbit unbounded Sobolev growth”, “weak turbulence two torus proof 2025 2026”, and the 2026 global-well-posedness result. Arbitrarily large finite growth factors obtained by choosing different data do not provide the single orbit requested here. Results on waveguides with a noncompact factor or modified nonlinearities also differ.

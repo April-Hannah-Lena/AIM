@@ -2,6 +2,10 @@
 
 **Area:** Quantum complexity; many-body energy approximation
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Do there exist an integer $k\ge2$ and a constant $\varepsilon>0$ for which the following promise problem is QMA-hard under quantum polynomial-time reductions?
@@ -12,9 +16,9 @@ distinguish $\lambda_{\min}(H)\le a$ from $\lambda_{\min}(H)\ge b$, promised tha
 
 QMA comprises promise problems with polynomial-time quantum verifiers, polynomially many witness qubits, completeness at least $2/3$, and soundness at most $1/3$. Hardness here means that every such problem reduces to this one by a uniform polynomial-time quantum computation with bounded error.
 
-## Applied significance
+## Application
 
-This asks whether estimating a material’s ground energy to a fixed error per interaction remains as hard as general quantum verification.
+Ground-energy estimates are central to computational models of quantum matter. The conjecture asks whether allowing a fixed error per interaction still leaves a worst-case problem as hard as general quantum verification, clarifying the computational limits of approximate many-body energy calculations.
 
 ## References
 
@@ -23,9 +27,7 @@ This asks whether estimating a material’s ground energy to a fixed error per i
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 paper continues to treat quantum PCP as conjectural. The proved no-low-energy-trivial-states property does not establish QMA-hardness of this constant-error energy problem. Quantum reductions are explicit to match the cited formulation.
 

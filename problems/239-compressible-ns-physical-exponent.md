@@ -2,7 +2,7 @@
 
 **Area:** Viscous compressible gas dynamics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -20,7 +20,7 @@ for $b\in C^1$ with compactly supported derivative, and, for almost every $t$,
 $$E(t)+\int_0^t\int(|\nabla u|^2+|\operatorname{div}u|^2)\,dx\,ds\leq E_0.$$
 Here $E(t)$ is the corresponding density-and-momentum energy.
 
-## Applied significance
+## Application
 
 The pressure exponent $7/5$ is the classical diatomic-gas value. General finite-energy existence would put a physically used compressible model within a complete large-data weak-solution theory.
 
@@ -30,5 +30,7 @@ The pressure exponent $7/5$ is the classical diatomic-gas value. General finite-
 - Mária Lukáčová-Medvid’ová and Andreas Schömer, [*Existence of dissipative solutions to the compressible Navier–Stokes system with potential temperature transport*](https://doi.org/10.1007/s00021-022-00713-3) (2022), §1, paragraph beginning with the simpler barotropic model: explicit unresolved range $\gamma\leq3/2$ for standard weak solutions.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “barotropic compressible Navier Stokes weak existence gamma 7/5”, “adiabatic exponent below 3/2 global weak solutions 2025 2026”, and density-dependent-viscosity results. Located all-exponent theorems for modified viscosities, stationary problems and measure-valued or dissipative solution concepts. These do not supply the standard distributional solution with constant viscosities specified above.

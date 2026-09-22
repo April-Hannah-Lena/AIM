@@ -2,7 +2,7 @@
 
 **Area:** Online selection and resource allocation
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -27,7 +27,7 @@ $$
 
 Here $e$ is Euler's number. The expectation includes the arrival order and the policy's randomness. This is the strong matroid secretary conjecture in its usual expected-weight form. No polynomial running-time bound is imposed. Numerical values of arrived elements are allowed; requiring only comparisons, or requiring each element of a fixed optimal basis to be selected with probability at least $1/e$, would strengthen the requirement. [1, 2]
 
-## Applied significance
+## Application
 
 The model describes committing to valuable requests before future requests are known, subject to a combinatorial feasibility constraint. Matroids include capacity quotas and selecting network links without creating a cycle. Unlike offline selection, where sorting by value permits optimal greedy selection, the online decision maker must reserve capacity without seeing future values. The bound asks whether these constraints can impose a larger universal loss than the classical single-selection problem. [1, §1; 5, §1]
 
@@ -44,6 +44,8 @@ The remaining general question is foundational. Recent claims cover linear matro
 7. Kristóf Bérczi, Shaddin Dughmi, Vasilis Livanos, José A. Soto and Victor Verdugo, *The Strong Secretary Conjecture is True for Linear Matroids*, [arXiv:2609.20797v1](https://arxiv.org/html/2609.20797v1), September 17, 2026, preprint. Theorem 1; §4, Corollaries 1–2 and the concluding scope discussion.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The explicit strong conjecture in [1, 2] is retained in September 2026 sources [3, 4]. Singla's Theorem 3.1 claims expected reward at least $\operatorname{OPT}/4$ for arbitrary matroids, and §4 expressly leaves the factor $e$ open. Its suggested factor near $3.16$ is labeled unverified by the author and would still fall short. This catalogue does not count the weaker constant-factor question separately.
 

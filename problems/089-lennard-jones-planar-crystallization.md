@@ -2,7 +2,7 @@
 
 **Area:** Atomistic materials
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -21,7 +21,7 @@ e_\triangle=\inf_{a>0}\frac12\sum_{p\in\Lambda_\triangle\setminus\{0\}}
 $$
 Prove or disprove $e_\infty=e_\triangle$. The finite configurations are unrestricted; they are not assumed to be lattices. This asks for the energy form of bulk crystallization, not the stronger geometric convergence of every minimizing configuration.
 
-## Applied significance
+## Application
 
 The equality would derive the energetic preference for a triangular crystal directly from a widely used atomic pair potential.
 
@@ -31,6 +31,8 @@ The equality would derive the energetic preference for a triangular crystal dire
 - [Andrea Braides and Maria Stella Gelli, *Analytical treatment for the asymptotic analysis of microscopic impenetrability constraints for atomistic systems* (ESAIM: M2AN, 2017), introduction](https://arpi.unipi.it/retrieve/e0d6c929-b5b5-fcf8-e053-d805fe0aa794/m2an160137.pdf).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 These sources separate unrestricted Lennard–Jones crystallization from results for modified potentials and restricted lattice classes. The status search found recent exact Lennard–Jones lattice optimization work; optimizing over lattices alone does not provide the lower bound over all N-point configurations above.
 

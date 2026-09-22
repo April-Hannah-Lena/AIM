@@ -2,6 +2,10 @@
 
 **Area:** Hamiltonian billiards / chaotic ray transport
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Can a smooth elliptical billiard be approximated by smooth strictly convex billiards with positive metric entropy?
@@ -16,7 +20,7 @@ Here $B_j$ is the specular billiard collision map, with phase coordinates $(s,\v
 
 The perturbation must come from changing the billiard table itself.
 
-## Applied significance
+## Application
 
 Elliptical optical cavities are integrable. The question asks whether arbitrarily small smooth changes of their shape can create chaotic transport on a set of positive physical phase-space measure.
 
@@ -27,8 +31,6 @@ Elliptical optical cavities are integrable. The question asks whether arbitraril
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 Berger's 2026 problem separates billiard-table perturbations from the established unrestricted symplectic-map perturbation theorem. A horseshoe or positive topological entropy can occur on a set of Liouville measure zero and does not answer this metric-entropy question. Searches included “ellipse billiard perturbation positive metric entropy 2026” and “Berger Problem 2.17 billiards solution”. No construction satisfying the stated approximation and measure requirements was located.

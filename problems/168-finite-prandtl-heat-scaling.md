@@ -2,6 +2,10 @@
 
 **Area:** Buoyant convection and heat transfer
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 On $\Omega=(\mathbb R/\mathbb Z)\times(0,1)$, take Prandtl number one and consider the two-dimensional Boussinesq system
@@ -18,7 +22,7 @@ $$
 
 Determine the number $\beta_*:=\limsup_{\mathrm{Ra}\to\infty}\log\mathcal N(\mathrm{Ra})/\log\mathrm{Ra}$. This asks for the optimal power-law exponent for actual solutions with these fixed boundary conditions and finite Prandtl number.
 
-## Applied significance
+## Application
 
 The exponent measures the greatest possible enhancement of heat transfer by buoyancy as the imposed temperature difference grows.
 
@@ -32,8 +36,6 @@ The exponent measures the greatest possible enhancement of heat transfer by buoy
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 This makes the published optimal-scaling question concrete at fixed Prandtl number and aspect ratio. Searches for “finite Prandtl Nusselt optimal exponent open 2026” and “Ding Wen Li optimal heat transport 2026” located model predictions rather than a matching upper and lower exponent for these solutions. The 2025 sharp infinite-Prandtl result omits fluid inertia and does not determine this exponent.

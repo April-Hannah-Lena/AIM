@@ -2,7 +2,7 @@
 
 **Area:** Spatial ecology and evolutionary dynamics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ On $\mathbb Z^2$, let $\eta_t(x)\in\{1,2,3\}$ and $f_i(x,\eta)=\frac14\sum_{|y-x
 $$\nu\bigl(\#\{x\in\mathbb Z^2:\eta(x)=i\}=\infty\text{ for every }i=1,2,3\bigr)=1?$$
 All three populations must coexist in the same configuration almost surely; a mixture of the three constant absorbing configurations does not qualify.
 
-## Applied significance
+## Application
 
 Cyclic competition occurs in spatial ecological communities. The question asks whether spatial structure sustains all three populations even when invasion rates are very unequal.
 
@@ -22,6 +22,8 @@ Cyclic competition occurs in spatial ecological communities. The question asks w
 - [Rick Durrett and Simon A. Levin, *Spatial aspects of interspecific competition* (1998)](https://doi.org/10.1006/tpbi.1997.1338), the spatial model and simulations.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The September 2026 book explicitly retains coexistence for arbitrary positive cyclic rates as an open problem. Periodic orbits of the mean-field ODE and finite simulations do not construct a coexistence law for the infinite stochastic lattice system.
 

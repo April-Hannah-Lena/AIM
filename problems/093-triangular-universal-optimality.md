@@ -2,7 +2,7 @@
 
 **Area:** Crystallization and energy minimization
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-08
 
@@ -17,9 +17,9 @@ e^{-\pi\alpha|a_i-a_j-v|^2}
 $$
 In the left sum, omit only the self-interaction $j=i,v=0$ for each $i$. All configurations have point density one. This is the periodic Gaussian formulation of triangular-lattice universal optimality.
 
-## Applied significance
+## Application
 
-Gaussian kernels represent a basic repulsive interaction; their positive mixtures generate a broad family of completely monotone pair energies.
+This is a crystallization question for particles with repulsive Gaussian interactions: at fixed density, can any periodic arrangement have lower energy than the triangular crystal? Because positive mixtures of Gaussian kernels generate a broad family of completely monotone pair energies, a proof would identify the same preferred crystal for many such interaction models.
 
 ## References
 
@@ -27,6 +27,12 @@ Gaussian kernels represent a basic repulsive interaction; their positive mixture
 - [Mircea Petrache and Sylvia Serfaty, *Crystallization for Coulomb and Riesz Interactions as a Consequence of the Cohn-Kumar Conjecture* (2019), opening discussion](https://arxiv.org/abs/1908.09714).
 
 ## Status review
+
+**Known cases:** The triangular lattice minimizes the Gaussian energy among lattices, the one-point-per-cell case of the displayed periodic formulation.
+
+**Remaining target:** The same lower bound for arbitrary periodic configurations with any number of points per cell.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The two-dimensional conjecture remains separate from the proven universal optimality of E₈ and the Leech lattice in dimensions eight and 24. The triangular lattice is known to minimize among lattices; allowing N>1 offsets is the unresolved extension here. The 2026 status search found no resolution for arbitrary periodic configurations.
 

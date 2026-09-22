@@ -2,6 +2,10 @@
 
 **Area:** Geometric optimization / universal containment
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $\mathcal U$ be the class of compact convex sets $K\subset\mathbb R^2$ such that, for every nonempty compact set $E\subset\mathbb R^2$ with $\operatorname{diam}E\leq1$, there exists a Euclidean isometry $g$ with $g(E)\subseteq K$. Reflections as well as rotations and translations are allowed.
@@ -14,7 +18,7 @@ $$
 
 and characterize the minimizing covers. The objects being covered are arbitrary diameter-bounded sets, not only curves with a prescribed length.
 
-## Applied significance
+## Application
 
 This is a universal packaging problem: one container must accommodate every planar object satisfying only a diameter specification.
 
@@ -26,8 +30,6 @@ This is a universal packaging problem: one container must accommodate every plan
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 The September 2026 preprint improves the claimed lower bound to $0.834$ while leaving a gap to the known upper construction. “Exact hierarchy” does not mean an exact evaluation of the constant. Searches included “Lebesgue universal covering solved 2026”, “universal covering minimum area September 2026”, and the Zeng and Gibbs titles. No exact value or proven minimizing shape was located.

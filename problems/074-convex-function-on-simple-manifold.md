@@ -2,7 +2,7 @@
 
 **Area:** Geometric tomography
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -15,7 +15,7 @@ $$
 $$
 Here $\operatorname{Hess}_g\rho(v,v)=g(\nabla_v\nabla\rho,v)$. No condition that $\rho$ be constant on the boundary is imposed.
 
-## Applied significance
+## Application
 
 Strictly convex level sets allow recovery of an unknown medium successively from the boundary inward in geodesic and elastic-wave tomography.
 
@@ -25,5 +25,7 @@ Strictly convex level sets allow recovery of an unknown medium successively from
 2. Plamen Stefanov, Gunther Uhlmann and András Vasy, *Local and Global Boundary Rigidity and the Geodesic X-Ray Transform in the Normal Gauge*, Annals of Mathematics **194** (2021), 1–95. [DOI](https://doi.org/10.4007/annals.2021.194.1.1).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 The 2026 paper explicitly identifies existence of a strictly convex function on every simple manifold as a major open problem. The 2021 reconstruction theory uses convexity hypotheses but does not derive them from simplicity in general. Searches on 2026-09-08: "simple manifolds strictly convex function open" and "simple manifold convex function 2026 solved". No general existence theorem or simple counterexample was located.

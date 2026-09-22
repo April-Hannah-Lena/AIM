@@ -2,6 +2,10 @@
 
 **Area:** Harmonic analysis; monochromatic wave concentration
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $\sigma$ be surface area measure on $S^2=\{\omega\in\mathbb R^3:|\omega|=1\}$ and define
@@ -10,7 +14,7 @@ Is it true that for every $p>3$ there exists $C_p<\infty$ such that
 $$\|Eg\|_{L^p(\mathbb R^3)}\le C_p\|g\|_{L^\infty(S^2,\sigma)}$$
 for every bounded measurable $g:S^2\to\mathbb C$? The constant must be independent of the angular amplitude $g$.
 
-## Applied significance
+## Application
 
 The extension operator superposes plane waves at a fixed frequency. The estimate limits how strongly such waves can concentrate throughout three-dimensional space.
 
@@ -22,9 +26,11 @@ The extension operator superposes plane waves at a fixed frequency. The estimate
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** The displayed Fourier extension estimate is established for every exponent p greater than 22/7.
 
-**Last checked:** 2026-09-13.
+**Remaining target:** The estimate for every p greater than three, including the remaining exponents up to 22/7.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The proved range $p>22/7$ leaves exponents immediately above three. A search hit for Sawyer’s original 2024 title claimed a proof; the version history records a withdrawal on 2 January 2025, and the checked February 2026 version presents testing-condition comparisons. It is not used as a resolution. The three-dimensional Kakeya set theorem alone does not imply this restriction estimate.
 

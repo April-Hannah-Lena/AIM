@@ -2,7 +2,7 @@
 
 **Area:** Convex geometry and linear optimization
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -24,7 +24,7 @@ $$
 
 The same constants must work for all dimensions and all facet counts. There are no rationality, simplicity or conditioning assumptions. Paths use actual edges and may move in either direction; no linear objective is prescribed. This is the polynomial Hirsch conjecture for bounded polytopes. It asks for the existence of short paths, without requiring an algorithm to find them.
 
-## Applied significance
+## Application
 
 A bounded feasible region in linear programming is a polytope, and nondegenerate simplex pivots move between its vertices along edges. Its graph diameter therefore gives a geometric lower bound on the worst-case number of pivots needed when the starting vertex and objective vary. A superpolynomial diameter family would obstruct every uniformly polynomial pivot bound. A polynomial diameter bound would remove that obstruction, while leaving the additional tasks of choosing objective-improving steps and computing them efficiently. These extra algorithmic requirements are the subject of existing [entry 100](100-strongly-polynomial-simplex.md); the present question concerns the geometry of the feasible region.
 
@@ -39,6 +39,8 @@ A bounded feasible region in linear programming is a polytope, and nondegenerate
 7. Alexander E. Black, *Monotone Diameters of Lattice Polytopes*, [arXiv:2609.08647v1](https://arxiv.org/html/2609.08647v1), September 8, 2026, §1, Theorems 1.1–1.2. Distinguishes monotone bounded examples from unbounded graph-diameter examples.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-17. The independently authored 2025 and 2026 sources retain the unrestricted graph-diameter question. General upper bounds remain quasipolynomial: Todd proves $(n-d)^{\log_2 d}$, while Sukegawa obtains an exponent of the form $\log_2 d-\log_2\log_2 d+O(1)$ for $d\ge2$. This exponent still grows with dimension. The original linear Hirsch bound $n-d$ is false, but its counterexamples do not refute every polynomial bound.
 

@@ -2,6 +2,10 @@
 
 **Area:** Wave networks and quantum chaos
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Consider finite connected compact metric graphs with positive edge lengths linearly independent over $\mathbb Q$. Impose the standard Kirchhoff Laplacian: $-u''$ on edges, continuity at vertices, and zero sum of outgoing derivatives at each vertex. Number its eigenvalues $0=\lambda_1\le\lambda_2\le\cdots$. Call an index generic if its eigenvalue is simple and a real eigenfunction is nonzero at every vertex. For a generic index $n$, let $\phi_n$ be the number of interior-edge zeros and let $s_n=\phi_n-(n-1)$. With cycle rank $\beta=|E|-|V|+1$, one has $0\le s_n\le\beta$.
@@ -12,7 +16,7 @@ $$\frac{S_j-\beta_j/2}{\sqrt{\operatorname{Var}(S_j)}}\ \Longrightarrow\ \mathca
 
 and that universal constants $c,C>0$ bound $c\beta_j\le\operatorname{Var}(S_j)\le C\beta_j$ for all sufficiently large $j$.
 
-## Applied significance
+## Application
 
 The surplus counts extra sign changes created by network cycles. A universal law would describe high-frequency wave patterns across large networks without requiring a particular network architecture.
 
@@ -24,9 +28,7 @@ The surplus counts extra sign changes created by network cycles. A universal law
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Graphs with sufficiently independent cycle structure supply proved Gaussian cases. The 2025 discrete-signing paper explains that analogous discrete-matrix assertions can fail; those counterexamples do not resolve the metric Kirchhoff assertion. Conditioning on generic indices handles loop-supported eigenfunctions correctly.
 

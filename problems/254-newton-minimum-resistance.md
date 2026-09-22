@@ -2,6 +2,10 @@
 
 **Area:** Calculus of variations / aerodynamic shape optimization
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Write $D=\{x\in\mathbb R^2:|x|<1\}$. For each height $M>0$, let $\mathcal U_M$ consist of concave functions $u:D\to[0,M]$. Determine the exact minimum
@@ -14,7 +18,7 @@ and characterize all minimizing functions, up to rotations of $D$. The gradient 
 
 This is the convex-body formulation of Newton's resistance functional for a body with circular base and bounded height in a dilute, parallel particle stream.
 
-## Applied significance
+## Application
 
 The functional models momentum transfer to a moving convex body. Determining its true optimizers would give a benchmark for global shape optimization beyond prescribed symmetry classes.
 
@@ -25,8 +29,6 @@ The functional models momentum transfer to a moving convex body. Determining its
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 numerical study treats the unrestricted problem as open. Classical rotationally symmetric solutions and later numerical candidates do not establish this global optimum. The 2022 paper also excludes conical pieces occurring in earlier candidate descriptions. Searches included “Newton minimal resistance open problem 2025 2026”, “Newton problem resistance solved convex bodies”, and the two cited titles. A 2026 Lorentz–Minkowski variant concerns a different ambient model. No exact all-height solution of the stated Euclidean problem was located.

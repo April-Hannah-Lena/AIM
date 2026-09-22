@@ -2,7 +2,7 @@
 
 **Area:** Aggregation and fractal growth
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ Start with $A_1=\{0\}\subset\mathbb Z^2$. Given $A_n$, attach one site of its ex
 $$\lim_{n\to\infty}\frac{\log R_n}{\log n}=\beta\qquad\text{almost surely}?$$
 This is external diffusion-limited aggregation with one lattice site added at each step.
 
-## Applied significance
+## Application
 
 DLA models diffusion-controlled deposition. A growth exponent would quantify the relation between deposited mass and aggregate radius, including its departure from compact growth.
 
@@ -22,6 +22,8 @@ DLA models diffusion-controlled deposition. A growth exponent would quantify the
 - [Harry Kesten, *How long are the arms in DLA?* (1987), institutional copy](https://www.math.stonybrook.edu/~bishop/classes/math627.S22/papers/Kesten3.pdf), the planar upper bound.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 paper retains the prediction of a deterministic nontrivial exponent and matches the existing DLA growth bound. Neither the existence of the exponent nor its strict separation from compact growth is established by that bound.
 

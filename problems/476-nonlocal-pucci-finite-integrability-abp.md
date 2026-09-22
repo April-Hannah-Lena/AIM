@@ -2,7 +2,7 @@
 
 **Area:** Fully nonlinear nonlocal PDEs; maximum principles
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -17,7 +17,7 @@ with continuous $f$ and $\|f\|_\infty\le1$, satisfies
 $$\sup_{B_1}u\le C\|f_-\|_{L^p(B_1)}^\vartheta?$$
 Viscosity testing uses a smooth function near its contact point and the original $u$ outside that neighborhood. The constants must be independent of the size of the support of $f$.
 
-## Applied significance
+## Application
 
 Such a maximum principle would control a value function for a jump-process control problem by an integrable source and support a nonlinear nonlocal analogue of Calderón–Zygmund theory.
 
@@ -29,5 +29,7 @@ Such a maximum principle would control a value function for a jump-process contr
 3. S. Kitano, *$W^{\sigma,p}$ a priori estimates for fully nonlinear integro-differential equations* (2022), the restricted matrix-kernel setting. [Preprint](https://arxiv.org/abs/2207.06728).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 This is Open Question 3.3 in §3.6.2 of the book, with the extremal operator expanded explicitly. Searches on 2026-09-22 checked nonlocal ABP estimates, finite $L^p$ data and Kitano's later work. The located finite-integrability theorems impose matrix-angular structure on kernels; they do not cover the full Pucci class above. Existing $L^\infty$ source estimates do not imply a bound tending to zero with $\|f_-\|_p$.

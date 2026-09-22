@@ -2,7 +2,7 @@
 
 **Area:** Thin-shell geometry and elasticity
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-13
 
@@ -14,7 +14,7 @@ in local coordinates, must $u(S^2)$ be the boundary of a convex body?
 
 Here $C^{1,\alpha}$ means that first derivatives are locally Hölder continuous with exponent $\alpha$, and an embedding is an injective immersion that is a homeomorphism onto its image. The unresolved assertion includes the interval $1/2<\alpha\leq2/3$.
 
-## Applied significance
+## Application
 
 An isometry models deformation of a thin shell without stretching its mid-surface. The conjecture identifies how much regularity prevents the highly folded configurations allowed by the Nash–Kuiper theorem.
 
@@ -25,5 +25,11 @@ An isometry models deformation of a thin shell without stretching its mid-surfac
 - Dominik Inauen, [*Flexibility of codimension one $C^{1,\theta}$ isometric immersions*](https://arxiv.org/abs/2603.08382) (2026 preprint), introduction: recent flexibility bounds and the still unknown optimal threshold.
 
 ## Status review
+
+**Known cases:** Classical rigidity establishes convexity when the Hölder exponent is greater than two-thirds.
+
+**Remaining target:** Convexity throughout the stated exponent range, including exponents greater than one-half and at most two-thirds.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “positive curvature isometric embedding rigidity alpha one half proof 2025 2026”, “Borisov threshold”, and the March 2026 flexibility paper. Classical rigidity above $2/3$ and results on connection preservation do not prove convexity throughout the displayed range. The 2026 preprint improves flexibility in higher dimensions; it does not close this two-dimensional rigidity gap.

@@ -2,6 +2,10 @@
 
 **Area:** Nonholonomic optimal control / regularity
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $M$ be a smooth manifold, $\Delta\subset TM$ a smooth constant-rank distribution whose iterated brackets span $TM$, and $g$ a smooth inner product on $\Delta$. A horizontal curve is an absolutely continuous curve with $\dot\gamma(t)\in\Delta_{\gamma(t)}$ almost everywhere, and its length is $\int|\dot\gamma|_g\,dt$.
@@ -10,7 +14,7 @@ Must every horizontal curve $\gamma:[0,L]\to M$ that minimizes length between it
 
 The question includes strictly abnormal minimizers, which need not arise as projections of ordinary Hamiltonian trajectories.
 
-## Applied significance
+## Application
 
 For a robot or mechanical system with nonholonomic constraints, this asks whether an optimal path always has a continuous velocity. Such regularity is relevant to reliable trajectory approximation and control synthesis.
 
@@ -22,8 +26,6 @@ For a robot or mechanical system with nonholonomic constraints, this asks whethe
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 examples are $C^2$ but not $C^3$ and therefore do not refute this statement. Known absence of corners also does not by itself imply continuous velocity. Searches included “C1 regularity sub-Riemannian minimizing geodesics 2026” and “sub-Riemannian minimizer not C1 counterexample”. The 2026 metabelian result retains structural assumptions absent here.

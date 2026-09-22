@@ -2,6 +2,10 @@
 
 **Area:** Elasticity and fourth-order spectra
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For each integer $d\ge4$ and each bounded smooth domain $\Omega\subset\mathbb R^d$, define
@@ -10,7 +14,7 @@ $$\Gamma_1(\Omega)=\inf_{0\ne u\in H^2_0(\Omega)}\frac{\int_\Omega|\Delta u|^2\,
 
 Here $H^2_0$ is the closure of compactly supported smooth functions in the Sobolev $H^2$ norm; for smooth boundaries it imposes $u=\partial_\nu u=0$. Prove or disprove $\Gamma_1(\Omega)\ge\Gamma_1(B)$ for a ball $B$ with $|B|=|\Omega|$.
 
-## Applied significance
+## Application
 
 The biharmonic eigenvalue models the fundamental clamped-plate vibration. The higher-dimensional statement tests the scope of the spectral comparison principle underlying that elastic model.
 
@@ -22,9 +26,7 @@ The biharmonic eigenvalue models the fundamental clamped-plate vibration. The hi
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Leylekian's January 2025 version explicitly leaves d≥4 open and proves conditional results on optimal eigenfunctions. Kristály's 2025 extension concerns dimensions near two or three and does not settle the displayed Euclidean problem. Dimensions two and three are solved and deliberately excluded.
 

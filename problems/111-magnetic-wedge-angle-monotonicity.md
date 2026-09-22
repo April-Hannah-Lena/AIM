@@ -2,6 +2,10 @@
 
 **Area:** Corner superconductivity
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For $0<\theta<\pi$, let $W_\theta=\{(r\cos\phi,r\sin\phi):r>0,\ 0<\phi<\theta\}$. Define the magnetic Neumann Laplacian $H_\theta$ by the closed form
@@ -14,7 +18,7 @@ $$\mu(\theta_1)<\mu(\theta_2)\qquad\text{whenever }0<\theta_1<\theta_2<\pi.$$
 
 The field strength remains one while the opening angle varies.
 
-## Applied significance
+## Application
 
 In a superconducting sample with several corners, this predicts that the sharpest corner has the lowest local magnetic energy and is the preferred site for superconductivity to nucleate.
 
@@ -25,9 +29,7 @@ In a superconducting sample with several corners, this predicts that the sharpes
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The July 2026 preprint proves that each convex sector has energy below the half-plane threshold. Its theorem compares each angle with the straight-angle endpoint, not two arbitrary convex angles. The older conjecture also concerns nonconvex sectors; the strict convex-angle ordering here is a substantive remaining part. No proof of that ordering was located.
 

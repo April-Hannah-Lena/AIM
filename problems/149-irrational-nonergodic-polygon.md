@@ -2,6 +2,10 @@
 
 **Area:** Billiard dynamics / transport and ergodicity
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Does there exist a bounded simple polygon $P\subset\mathbb R^2$, with at least one interior angle an irrational multiple of $\pi$, whose unit-speed specular billiard flow is not ergodic?
@@ -16,7 +20,7 @@ Straight motion inside $P$ is reflected at each side by equal incidence and refl
 
 The whole unit tangent bundle is used, rather than a single directional component of a rational-polygon unfolding.
 
-## Applied significance
+## Application
 
 Polygonal billiards model collision transport without curved focusing or dispersing walls. A counterexample would identify a mechanism preventing global mixing even when the reflection angles generate infinitely many directions.
 
@@ -28,8 +32,6 @@ Polygonal billiards model collision transport without curved focusing or dispers
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 Generic ergodicity or weak mixing does not imply the property for every irrational polygon. Searches included “irrational polygon nonergodic example 2025 2026” and “Gutkin Problem 8 solution”. The 2024 *Billiards with Spatial Memory* model changes its accessible region during motion and is not a fixed polygon with the standard billiard flow above. No qualifying counterexample was located.

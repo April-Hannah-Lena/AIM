@@ -2,7 +2,7 @@
 
 **Area:** Eigenvalue computation and nonnormal operators
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ For $n\ge2$, $A\in\mathbb C^{n\times n}$ with $\|A\|_2\le1$, and $0<\delta<1$, c
 $$\frac{\kappa_V(B)}{\operatorname{gap}(B)}\le C(n/\delta)^c.$$
 Here $\operatorname{gap}(B)=\min_{i\ne j}|\lambda_i(B)-\lambda_j(B)|$ and $\kappa_V(B)=\inf\{\|V\|_2\|V^{-1}\|_2:B=VDV^{-1},\ D\text{ diagonal}\}$. The constants $C,c$ must be universal. The task is to find the perturbation; a full diagonalization is not required.
 
-## Applied significance
+## Application
 
 Controlled eigenvector conditioning and eigenvalue separation enable reliable fast algorithms for general nonnormal eigenproblems. A deterministic construction would remove dependence on random perturbations.
 
@@ -22,6 +22,8 @@ Controlled eigenvector conditioning and eigenvalue separation enable reliable fa
 2. N. Amsel et al., [Linear Systems and Eigenvalue Problems: Open Questions from a Simons Workshop](https://arxiv.org/abs/2602.05394), 2026; Problem 3.1 and equation (6).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. Problem 3.1 remains the cited deterministic challenge; no later resolution was located. The displayed bound there reverses n/δ typographically; the formulation here follows its preceding equation (6), which asks for polynomially bounded conditioning.
 

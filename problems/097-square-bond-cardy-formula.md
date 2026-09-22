@@ -2,7 +2,7 @@
 
 **Area:** Random media and conformal invariance
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -16,9 +16,9 @@ $$
 $$
 Here $\Gamma$ is the gamma function and $\,{}_2F_1$ the Gauss hypergeometric function.
 
-## Applied significance
+## Application
 
-This would establish an explicit universal connectivity law for a widely used planar random-medium model.
+In a planar random network, the crossing probability measures the chance that two boundary regions remain connected through open bonds. The formula would predict that probability from the large-scale shape alone in the fine-mesh limit, giving an explicit benchmark for connectivity simulations.
 
 ## References
 
@@ -26,6 +26,8 @@ This would establish an explicit universal connectivity law for a widely used pl
 - [Mikhail Khristoforov, Mikhail Skopenkov and Stanislav Smirnov, *A Generalization of Cardy's and Schramm's Formulae* (Communications in Mathematical Physics, 2025), triangular-lattice setting and references](https://doi.org/10.1007/s00220-025-05255-z).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The Bourbaki account formulates square-lattice conformal crossing convergence as a conjecture. The 2025 paper works with triangular-lattice site percolation. Rotation invariance, knowledge of p_c=1/2, and triangular-lattice results do not establish the square-lattice formula. Later searches found no resolution.
 

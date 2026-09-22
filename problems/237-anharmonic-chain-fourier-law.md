@@ -2,7 +2,7 @@
 
 **Area:** Nonequilibrium heat transport
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -16,7 +16,7 @@ For any interior bond put $j_i=-\frac12(p_i+p_{i+1})V'(q_{i+1}-q_i)$; stationari
 $$\lim_{N\to\infty}N J_N\in(0,\infty).$$
 There is no noise or extra forcing in the bulk.
 
-## Applied significance
+## Application
 
 A finite positive limit gives the inverse-length heat-current scaling expected for a pinned anharmonic solid. The explicit reservoirs and potentials make the macroscopic transport question reproducible.
 
@@ -27,5 +27,7 @@ A finite positive limit gives the inverse-length heat-current scaling expected f
 - Giovanni Canestrari, Carlangelo Liverani and Stefano Olla, [*Heat equation from a deterministic dynamics*](https://doi.org/10.1007/s00222-026-01429-1) (2026), abstract and model definition: a recent hydrodynamic limit with an additional chaotic force.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “pinned anharmonic Hamiltonian chain Fourier law rigorous 2025 2026”, “boundary Langevin quartic chain conductivity”, and the new deterministic heat-equation result. The explicit quartic potentials specify a standard instance of the published microscopic transport question. Finite-chain ergodicity does not give the thermodynamic limit. The 2026 theorem uses an external chaotic force, and bulk-noise or self-consistent-reservoir models alter the dynamics here.

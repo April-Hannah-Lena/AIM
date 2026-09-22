@@ -2,7 +2,7 @@
 
 **Area:** Magnetohydrodynamics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -16,7 +16,7 @@ b_t+(u\cdot\nabla)b=(b\cdot\nabla)u,\qquad
 $$
 admit a global smooth finite-energy solution with $(u,b)(0)=(u_0,b_0)$? Both viscosity and magnetic resistivity are exactly zero. A finite-time singularity from data in this class would answer the question negatively.
 
-## Applied significance
+## Application
 
 The model describes the ideal coupling of conducting fluids and magnetic fields; current concentration is central to interpreting plasma computations.
 
@@ -26,6 +26,8 @@ The model describes the ideal coupling of conducting fluids and magnetic fields;
 - [D. Hirata, *A regularity criterion for the 2D inviscid MHD equations* (ZAMP, 2025)](https://doi.org/10.1007/s00033-024-02411-8).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2017 paper explicitly identifies two-dimensional ideal MHD as unresolved. The 2025 result is a continuation criterion controlled by the magnetic field. Searches through 2026 located dissipative/damped and stability theorems with extra assumptions, not unrestricted ideal evolution.
 

@@ -2,6 +2,10 @@
 
 **Area:** Elastic stability and eigenvalue inequalities
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $d\ge2$ and let $\Omega\subset\mathbb R^d$ be a bounded connected smooth domain. Let $0<\Lambda_1\le\Lambda_2\le\cdots$ be the eigenvalues, with multiplicity, of
@@ -14,7 +18,7 @@ $$\frac{\Lambda_2(\Omega)}{\Lambda_1(\Omega)}\le\frac{j_{d/2+1,1}^2}{j_{d/2,1}^2
 
 where $j_{a,1}$ is the first positive zero of $J_a$. The right side is the ratio for a ball.
 
-## Applied significance
+## Application
 
 A sharp ratio controls how far apart the first two instability loads can be when a plate or higher-dimensional elastic model changes shape.
 
@@ -25,9 +29,7 @@ A sharp ratio controls how far apart the first two instability loads can be when
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Remark 8.10 explicitly gives this Bessel-zero conjecture. The 2025 work investigates spectral quotients numerically and supplies no general proof. The 2026 counterexample to a higher-index Dirichlet membrane ratio concerns another operator and another claim.
 

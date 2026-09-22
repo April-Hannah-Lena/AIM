@@ -2,6 +2,10 @@
 
 **Area:** Spectral theory / quantum dynamics
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $G=\mathrm{SU}(2)=\{U\in\mathbb C^{2\times2}:U^*U=I,\det U=1\}$, with Haar probability measure $\mu$. For $a,b\in G$, define the lazy averaging operator on $L^2(G,\mu)$ by
@@ -15,7 +19,7 @@ $$
 $$
 The gap may depend on the chosen pair; no positive bound uniform over all pairs is requested.
 
-## Applied significance
+## Application
 
 Two single-qubit gates and their inverses generate a random quantum circuit. The conjecture asks whether almost every fixed gate pair makes square-integrable deviations from the uniform distribution decay exponentially with circuit length.
 
@@ -26,9 +30,7 @@ Two single-qubit gates and their inverses generate a random quantum circuit. The
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The March 2026 paper proves that the set of pairs with a gap has either zero or full Haar measure. It does not determine which alternative holds. Results for algebraic generators establish many examples but do not give positive Haar measure. The lazy averaging formulation above is equivalent to the spectral-gap property defined in that paper.
 

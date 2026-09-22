@@ -2,6 +2,10 @@
 
 **Area:** Elastic vibration
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For every bounded connected smooth domain $\Omega\subset\mathbb R^d$, $d\ge2$, let $0<\Gamma_1\le\Gamma_2\le\cdots$ be the eigenvalues, with multiplicity, of
@@ -14,7 +18,7 @@ $$\sum_{i=1}^k(\Gamma_{k+1}-\Gamma_i)^2\le\frac8d\sum_{i=1}^k(\Gamma_{k+1}-\Gamm
 
 The constant is required to be independent of the domain and of $k$.
 
-## Applied significance
+## Application
 
 This would constrain every higher vibration frequency of a clamped elastic plate from lower frequencies, without detailed knowledge of its shape.
 
@@ -25,9 +29,7 @@ This would constrain every higher vibration frequency of a clamped elastic plate
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The source contrasts the requested coefficient $8/d$ with the established coefficient $8(d+2)/d^2$. Later gap and averaged-energy estimates concern different inequalities. Searches found no result replacing that coefficient by $8/d$ for all Euclidean domains and all indices.
 

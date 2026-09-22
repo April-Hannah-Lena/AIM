@@ -2,6 +2,10 @@
 
 **Area:** Spectral partitions
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^2$ be a bounded connected Lipschitz domain of area $A$. For $k\ge1$, set
@@ -14,7 +18,7 @@ $$\lim_{k\to\infty}\frac{A\mathcal L_k(\Omega)}{k}=\lambda_1(H).$$
 
 In particular, the competitors are not required to be convex.
 
-## Applied significance
+## Application
 
 Spectral partitions model optimal division into cells with balanced lowest vibration or diffusion frequencies. The conjecture predicts a universal large-cell-count design.
 
@@ -25,9 +29,7 @@ Spectral partitions model optimal division into cells with balanced lowest vibra
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The book chapter states the asymptotic conjecture. Bucur and coauthors prove results for convex partitions and specified functionals; their spectral case still requires additional polygonal inequalities. Their title does not represent a solution of the unrestricted Laplacian conjecture. The update search found no such resolution.
 

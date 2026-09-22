@@ -2,7 +2,7 @@
 
 **Area:** Numerical linear algebra and algebraic complexity
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ Over $\mathbb C$, let $\omega$ be the infimum of all real $\tau$ for which two a
 
 Equivalently, for every $\varepsilon>0$, is there an arithmetic algorithm, with constants allowed to depend on $\varepsilon$, using $O(n^{2+\varepsilon})$ operations for every $n$? Arithmetic is exact; bit complexity and numerical stability are separate requirements.
 
-## Applied significance
+## Application
 
 Matrix multiplication underlies dense factorizations, least squares, eigenvalue algorithms and many scientific computing kernels. Its exponent describes a fundamental asymptotic computational limit.
 
@@ -22,6 +22,8 @@ Matrix multiplication underlies dense factorizations, least squares, eigenvalue 
 2. E. Dupont et al., [Improving the matrix multiplication exponent with modern optimization and AlphaEvolve](https://arxiv.org/abs/2608.16884), 2026. August upper-bound improvement.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. The August 2026 result reports $\omega<2.371177$, which remains strictly above the conjectured value. No theorem establishing $\omega=2$ or a lower bound $\omega>2$ was located. A small improvement in the upper bound is not a resolution.
 

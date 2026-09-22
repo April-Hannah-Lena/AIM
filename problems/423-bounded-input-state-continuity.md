@@ -2,7 +2,7 @@
 
 **Area:** Infinite-dimensional control / evolution equations
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-22
 
@@ -12,7 +12,7 @@ Let $X,U$ be Banach spaces, let $A$ generate a strongly continuous semigroup $S(
 $$\Phi_Tu:=\int_0^T S_{-1}(T-s)Bu(s)\,ds\in X,\qquad \|\Phi_Tu\|_X\le K_T\|u\|_{L^\infty}.$$
 Must $t\mapsto\int_0^t S_{-1}(t-s)Bu(s)\,ds$ be continuous from $[0,T]$ to $X$ for every such input and every $T>0$?
 
-## Applied significance
+## Application
 
 Boundary actuators for evolution PDEs are often unbounded operators on the state space. This asks whether having a well-defined state at each time automatically prevents state discontinuities under bounded measurable actuation.
 
@@ -23,5 +23,11 @@ Boundary actuators for evolution PDEs are often unbounded operators on the state
 3. P. Preußler and F. L. Schwenninger, *Implications of structured continuous maximal regularity*, preprint (2026), §4.4, Corollary 4.10 and following discussion. [Full text](https://arxiv.org/html/2605.12121v1).
 
 ## Status review
+
+**Known cases:** The cited partial theorem establishes continuity in reflexive-space cases and several further Banach-space classes.
+
+**Remaining target:** Continuity for arbitrary Banach state and input spaces under the stated bounded-input admissibility assumption.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The May 2026 source explicitly describes its answer to Weiss’s question as partial: it covers reflexive spaces and several further Banach-space classes. The statement here retains arbitrary Banach state and input spaces. Searches through 22 September 2026 located no unrestricted proof or counterexample. This concerns continuity in time, not the disproved L2 resolvent-characterization version of the Weiss conjecture.

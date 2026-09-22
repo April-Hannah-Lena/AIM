@@ -2,7 +2,7 @@
 
 **Area:** Inverse obstacle scattering / acoustic detection
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -18,7 +18,7 @@ where $u^s$ is outgoing. Let $a_D(\omega;\theta,k)$, $\omega\in S^2$, be its far
 
 Must $a_{D_1}(\omega;\theta,k)=a_{D_2}(\omega;\theta,k)$ for every observation direction $\omega$ imply $D_1=D_2$? Frequency and incident direction remain fixed, and no size bound relative to the wavelength is assumed.
 
-## Applied significance
+## Application
 
 This is the ideal identifiability limit for recovering the shape of an acoustically soft target from a single monochromatic illumination.
 
@@ -28,6 +28,8 @@ This is the ideal identifiability limit for recovering the shape of an acoustica
 2. X. Cao, H. Diao and J. Li, *Some Recent Progress on Inverse Scattering Problems Within General Polyhedral Geometry*, Electronic Research Archive **29** (2021), 1753–1782. [Paper](https://doi.org/10.3934/era.2020090).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Colton–Kress explicitly identify uniqueness for one plane wave at one wavenumber as open in §2, directly after Theorem 2.2. The cited special uniqueness results require size or shape restrictions and do not cover arbitrary smooth obstacles. This scattering question is distinct from the overdetermined-eigenfunction conjecture also associated with Schiffer's name.
 

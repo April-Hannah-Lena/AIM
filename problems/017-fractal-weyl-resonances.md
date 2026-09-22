@@ -2,6 +2,10 @@
 
 **Area:** Scattering and open wave systems
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\mathcal O$ be a union of at least three disjoint closed disks in $\mathbb R^2$, satisfying the no-eclipse condition: the convex hull of any two disks misses every other disk. Consider the exterior Dirichlet Laplacian. Let $\mathcal R$ be its outgoing scattering resonances in the wavenumber variable $z$, meaning poles of the continued resolvent $(-\Delta-z^2)^{-1}$ adjacent to the positive real axis. Count them with algebraic multiplicity.
@@ -10,7 +14,7 @@ Let $K$ be the set of unit-speed billiard states that remain bounded for both po
 
 $$\#\{z\in\mathcal R:1\le\operatorname{Re}z\le R,\ -C\le\operatorname{Im}z<0\}\ge c_C R^{1+\delta}\quad(R\ge R_C).$$
 
-## Applied significance
+## Application
 
 Resonances determine decay rates of waves leaking from an open resonator. The estimate would link the number of long-lived modes to the fractal geometry of trapped rays.
 
@@ -22,9 +26,7 @@ Resonances determine decay rates of waves leaking from an open resonator. The es
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2014 paper explicitly separates established fractal upper estimates from the missing obstacle lower bound. Zworski's survey retains the corresponding fractal Weyl conjecture. The statement asks only the lower-bound component in a concrete hyperbolic scattering class. Quantum-map theorems and numerical resonance fits do not prove it for exterior disks.
 

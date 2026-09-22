@@ -2,6 +2,10 @@
 
 **Area:** Celestial mechanics / relative equilibria
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For every integer $N\ge5$ and every fixed tuple $m_1,\ldots,m_N>0$, are there only finitely many planar central configurations up to rotation?
@@ -16,7 +20,7 @@ $$
 
 for some $\lambda>0$. Must the solution set have finitely many orbits under the common action of $SO(2)$? The normalizations remove translation and scale; the assertion includes exceptional mass ratios.
 
-## Applied significance
+## Application
 
 Central configurations generate rigidly rotating or homothetic gravitational motions and organize collision asymptotics. Finiteness would make their classification a finite task for each physical mass tuple.
 
@@ -28,8 +32,10 @@ Central configurations generate rigidly rotating or homothetic gravitational mot
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** Finiteness is established for generic five-body mass tuples and for several exceptional five-body cases treated in the cited 2026 paper.
 
-**Last checked:** 2026-09-08
+**Remaining target:** Finiteness for every positive mass tuple and every number of bodies at least five, including all exceptional mass ratios.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Finiteness for four bodies and generic five-body mass tuples does not cover every mass tuple in this statement. The 2026 five-body paper resolves several exceptional cases, not all of them. Searches included “Smale problem 6 central configurations finiteness 2026”, “five body exceptional masses finiteness 2601.01165” and “six body central configurations finiteness proof 2025 2026”. No full resolution was located.

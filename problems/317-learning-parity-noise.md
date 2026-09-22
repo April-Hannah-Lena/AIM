@@ -2,7 +2,7 @@
 
 **Area:** Statistical learning and average-case computational complexity
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -27,7 +27,7 @@ is negligible in $n$. Here negligible means that for every $c>0$ there is $n_0$ 
 
 Time includes reading the examples and computing any preprocessing; no advice depending on the randomly drawn example matrix is supplied. The data are ordinary classical random examples, not chosen queries or coherent quantum examples. This asserts a computational barrier for recovering a hidden parity, not an information-theoretic impossibility.
 
-## Applied significance
+## Application
 
 This is a basic test case for learning a discrete signal from independently corrupted labels. The conjectured gap between statistical identifiability and efficient recovery also underlies security arguments for lightweight authentication and other cryptographic constructions. Those security conclusions remain conditional on the relevant LPN assumption.
 
@@ -39,6 +39,8 @@ This is a basic test case for learning a discrete signal from independently corr
 4. Hayata Yamasaki, Natsuto Isogai and Mio Murao, *Advantage of quantum machine learning from general computational advantages*, npj Quantum Information 12 (2026), article 125, [published article](https://www.nature.com/articles/s41534-026-01279-y), noisy-label discussion around Eqs. (22)–(23).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Pietrzak specifies the average-case search assumption, and the independently authored Bai–Jin–Yu paper states polynomial-time LPN hardness as a conjecture. The July 2026 Yamasaki–Isogai–Murao discussion still identifies efficient Search-LPN as unresolved. Its exhaustive search is polynomial in an external size $N$ because the secret dimension is only $O(\log N)$; it is exponential in that dimension.
 

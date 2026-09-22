@@ -2,7 +2,7 @@
 
 **Area:** Population dynamics and nonlinear delayed feedback
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -26,7 +26,7 @@ $$
 
 This is the strict-parameter version of the generalized Wright conjecture in Liz–Pinto–Robledo–Trofimchuk–Tkachenko, Conjecture 1.2. The slope condition makes the zero equilibrium locally exponentially stable; the question concerns convergence from every history, with no smallness or sign restriction. No uniform convergence rate is requested. The delay is normalized to one: for delay $\tau>0$, time rescaling replaces the slope by $\tau f'(0)$. Later formulations also include the boundary $-f'(0)=\pi/2$; that extension belongs to the same problem family and is not counted separately.
 
-## Applied significance
+## Application
 
 Delayed density feedback models reproduction responding to an earlier population level. The original paper's Examples 1.4–1.5 transform food-limited growth and growth with a weak Allee effect into this class using logarithmic population coordinates. Attraction to zero then means return to the positive population equilibrium after any positive continuous population history. The conjecture asks whether a local stability calculation suffices to predict recovery even after a large disturbance, under the specified feedback-shape assumptions. Its significance is a general stability criterion across response functions; it does not assert that each illustrative biological model separately remains unresolved.
 
@@ -40,6 +40,8 @@ Delayed density feedback models reproduction responding to an earlier population
 6. Eduardo Liz, *Clark's Equation: A Useful Difference Equation for Population Models, Predictive Control, and Numerical Approximations*, Qualitative Theory of Dynamical Systems 19 (2020), 71, [DOI](https://doi.org/10.1007/s12346-020-00405-1); [author-hosted full text](https://dma.uvigo.es/~eliz/pdf/QTDS2020.pdf), Eq. (1.3), §2.1 and §3. Restates the distinct discrete-time counterexamples of Jiménez López–Parreño (2016).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 **Open in cited literature; no later resolution located as of 2026-09-18.** Searches covered generalized Wright and negative-Schwarzian terminology, author names, proof and counterexample claims, recent years, unrestricted dates, corrections and version histories. The 2025 manuscript published in 2026 explicitly retains the conjecture; Balázs–Röst provide independent specialist corroboration.
 

@@ -2,7 +2,7 @@
 
 **Area:** Self-organized criticality
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -14,7 +14,7 @@ For $\Lambda_n=[-n,n]^2\cap\mathbb Z^2$, kill particles that jump out. On stable
 $$\lim_{n\to\infty}\frac{\mathbb E_{\pi_n}N}{|\Lambda_n|}=\zeta_c(\lambda)$$
 for every $\lambda>0$?
 
-## Applied significance
+## Application
 
 The equality would connect the density selected by slow driving and boundary dissipation with the threshold of the closed system, a central prediction of self-organized criticality.
 
@@ -24,6 +24,8 @@ The equality would connect the density selected by slow driving and boundary dis
 - [Nicolas Forien, *A new proof of superadditivity and of the density conjecture for Activated Random Walks on the line* (2025 preprint)](https://arxiv.org/abs/2502.02579), explicitly one-dimensional progress.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The cited density-conjecture resolutions concern the line. Searches also found later complete-graph results, which do not treat expanding square boxes. This entry specifies the expectation form of the two-dimensional density equality.
 

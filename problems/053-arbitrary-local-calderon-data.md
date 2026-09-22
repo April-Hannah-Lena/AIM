@@ -2,7 +2,7 @@
 
 **Area:** Inverse problems / partial boundary data
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -17,7 +17,7 @@ u_f|_{\partial\Omega}=f\in C_c^\infty(\Gamma).
 $$
 Is $\Lambda^\Gamma_{\gamma_1}=\Lambda^\Gamma_{\gamma_2}$ sufficient to conclude $\gamma_1=\gamma_2$ throughout $\Omega$? No condition is imposed on the shape of the inaccessible boundary, and the conductivities need not be known near it.
 
-## Applied significance
+## Application
 
 In electrical imaging, electrodes may cover only one accessible part of an object. This isolates whether complete local experiments nevertheless determine its entire conductivity.
 
@@ -28,6 +28,8 @@ In electrical imaging, electrodes may cover only one accessible part of an objec
 3. Giovanni Covi, Antti Kujanpää and Jesse Railo, *Partial data stability for the inverse fractional conductivity problem* (2025), introduction comparing the classical problem. [Preprint](https://arxiv.org/abs/2505.18567).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Reference 1 explicitly lists the unrestricted partial-data problem. The 2025 comparison still describes classical partial-data uniqueness as unresolved in general. Existing reflection and Carleman-weight results impose geometric or measurement-set hypotheses; uniqueness for a linearization does not establish this nonlinear statement.
 

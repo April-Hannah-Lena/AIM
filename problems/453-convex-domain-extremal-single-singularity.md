@@ -1,9 +1,10 @@
 # 453. A single blow-up point for singular extremal states on convex domains
 
 **Area:** Semilinear elliptic PDEs and thermal ignition
-**Status:** Open in cited literature; no later resolution located.
-**Last checked:** 2026-09-22
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-22
 ## Problem statement
 
 Let $d\ge10$, let $\Omega\subset\mathbb R^d$ be bounded, smooth and convex, and let $f\in C^\infty([0,\infty))$ be positive, increasing and convex with $f(t)/t\to\infty$. For the Dirichlet problem
@@ -12,7 +13,7 @@ let $u_\lambda$ be the minimal positive classical branch, $\lambda^*$ its maxima
 $$\Sigma=\{x\in\overline\Omega:\ \operatorname*{ess\,sup}_{\Omega\cap B_r(x)}u^*=\infty\ \hbox{for every }r>0\}$$
 consist of exactly one point?
 
-## Applied significance
+## Application
 
 Minimal branches describe stable temperature or reaction equilibria up to an ignition threshold. The geometry of the singular set determines whether loss of boundedness is localized at one ignition site or several.
 
@@ -23,5 +24,7 @@ Minimal branches describe stable temperature or reaction equilibria up to an ign
 3. B. Yu and Y. Zhou, [Singular Extremal Solutions on Thin Ellipsoids with Varying Nonlinearities](https://arxiv.org/abs/2609.06673), preprint (2026), Theorem 1.2.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2023 source explicitly asks whether convexity forces a single blow-up point. The September 2026 construction concerns particular thin ellipsoids and adapted nonlinearities; it does not classify singular sets for all convex domains and all the stated nonlinearities. Searches for multiple singular points of convex-domain extremal solutions found no general resolution. This question is separate from whether the exponential nonlinearity always has a singular extremal state, which is excluded from this collection.

@@ -2,7 +2,7 @@
 
 **Area:** Inverse problems / anisotropic imaging
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ Let $M$ be a compact connected smooth manifold of dimension $n\geq3$ with nonemp
 
 Does $\Lambda_{g_1}=\Lambda_{g_2}$ imply the existence of a smooth diffeomorphism $F:M\to M$, with $F|_{\partial M}=\mathrm{Id}$, such that $g_1=F^*g_2$? The data consist of this single zero-frequency boundary operator for each metric.
 
-## Applied significance
+## Application
 
 Anisotropic electrical conductivity depends on direction as well as position. This question specifies the unavoidable coordinate ambiguity in recovering it from boundary electrical measurements.
 
@@ -22,6 +22,12 @@ Anisotropic electrical conductivity depends on direction as well as position. Th
 2. Y. Yi, *Riemannian and Lorentzian Calderón Problem Under Magnetic Perturbation*, IMRN **2025**, rnaf366, §1.1. [Paper](https://doi.org/10.1093/imrn/rnaf366).
 
 ## Status review
+
+**Known cases:** The cited Lee-Uhlmann theorem establishes uniqueness in its real-analytic setting.
+
+**Remaining target:** Uniqueness up to a boundary-fixing diffeomorphism for arbitrary smooth metrics from the single stated boundary map.
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Yi's December 2025 introduction explicitly identifies the smooth higher-dimensional Riemannian Calderón problem as open. The analytic theorem in reference 1 requires analyticity. Yi obtains metric recovery using a family of magnetic perturbations and their boundary maps, which supplies additional data absent here.
 

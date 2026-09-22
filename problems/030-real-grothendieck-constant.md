@@ -2,7 +2,7 @@
 
 **Area:** Operator norms and semidefinite optimization
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -14,7 +14,7 @@ $$\left|\sum_{i=1}^m\sum_{j=1}^n a_{ij}\langle u_i,v_j\rangle\right|
 \left|\sum_{i=1}^m\sum_{j=1}^n a_{ij}\epsilon_i\delta_j\right|.$$
 The target is the exact universal real constant, with matching sharp upper and lower bounds.
 
-## Applied significance
+## Application
 
 This constant measures the worst loss when a sign-constrained bilinear optimization is relaxed to vector inner products, the central step in several semidefinite approximation algorithms. It also bounds certain quantum correlation advantages.
 
@@ -25,6 +25,8 @@ This constant measures the worst loss when a sign-constrained bilinear optimizat
 3. C. Jones and G. Malavolta, [The Grothendieck Constant is Strictly Larger than Davie–Reeds’ Bound](https://arxiv.org/abs/2603.30039), 2026. Earlier improvement to the lower bound.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. The August 2026 preprint gives $6\pi/11\le K_G\le\pi/(2\log(1+\sqrt2))-10^{-4}$, leaving a nonzero gap. These recent improvements supersede older numerical intervals but do not determine the exact constant.
 

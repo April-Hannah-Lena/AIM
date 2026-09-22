@@ -2,7 +2,7 @@
 
 **Area:** Fair division and resource allocation
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-17
 
@@ -23,7 +23,7 @@ $$
 
 Thus any envy disappears after the hypothetical removal of any single good from the envied bundle, including a good valued at zero by the comparing agent. This convention is sometimes called $\mathrm{EFX}_0$. Its universal existence question is equivalent to the convention that tests only positively valued goods, by perturbing values to be positive and passing to a limit over the finite set of allocations. All goods must actually be assigned; the removal in the inequality is only a comparison. No efficiency, welfare-maximization, incentive or running-time condition is imposed.
 
-## Applied significance
+## Application
 
 When allocating indivisible assets, equipment or donated items, exact envy-freeness can fail even with two recipients and one desired object. EFX asks whether a strong relaxation is always feasible when each recipient's values add across items. A positive answer would justify this fairness requirement for every instance of the additive model; a counterexample would identify a limit that no allocation method can overcome. The question concerns comparisons between recipients' bundles, whereas [entry 290](290-general-santa-claus.md) asks for an efficient approximation to the largest possible minimum utility.
 
@@ -39,6 +39,12 @@ When allocating indivisible assets, equipment or donated items, exact envy-freen
 8. Hadi Hosseini, Payas Khurana, Shraddha Pathak and Rohit Vaish, *To EFX OR to MMS, That is the Question*, [arXiv:2608.10397v2](https://arxiv.org/html/2608.10397v2), revised September 15, 2026, Theorems 1, 3 and 4. Disjunctive fairness results with different valuation or efficiency assumptions.
 
 ## Status review
+
+**Known cases:** Complete EFX allocations exist when there are at most three distinct additive valuation functions, including the three-agent case.
+
+**Remaining target:** Exact complete EFX for arbitrary numbers of agents and goods with nonnegative additive valuations.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-17. Exact existence is known with at most three distinct additive valuation functions, including the three-agent case. The August 2026 preprint establishes four agents and at most nine goods, using computer-assisted certificates; those certificates were not independently run in this review. The July 2026 revision of reference 5 reports a general factor $(\sqrt5-1)/2\approx0.618$, which multiplies the right-hand side of the EFX inequality and therefore falls short of exact EFX.
 

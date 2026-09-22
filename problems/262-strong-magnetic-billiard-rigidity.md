@@ -2,13 +2,17 @@
 
 **Area:** Magnetic dynamics / charged-particle confinement
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $D\subset\mathbb R^2$ be bounded with $C^\infty$ boundary of strictly positive curvature $\kappa$, and let $B>\max_{\partial D}\kappa$. Between boundary collisions a unit-speed particle obeys $\ddot x=BJ\dot x$, where $J(a,b)=(-b,a)$; at a collision it reflects across the boundary tangent. Thus free arcs have radius $1/B$.
 
 Let $T$ be the collision return map on inward-pointing unit boundary velocities, with grazing velocities excluded. Suppose this phase annulus admits a foliation by continuous $T$-invariant simple curves, each winding once around it. Must $D$ be a disk? The hypothesis concerns boundary-colliding motion; interior circular trajectories without collisions are not part of this annulus.
 
-## Applied significance
+## Application
 
 This asks whether complete integrability can certify circular geometry in a strongly magnetized reflecting cavity.
 
@@ -20,8 +24,6 @@ This asks whether complete integrability can certify circular geometry in a stro
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 The weak-field theorem requires $B<\min\kappa$. The strong-field algebraic results restrict polynomial first integrals; they do not settle the stated continuous-foliation question. Searches included “strong magnetic billiards total integrability 2026”, “Bialy magnetic circular rigidity”, and “strong field magnetic billiard counterexample”. No full resolution was located.

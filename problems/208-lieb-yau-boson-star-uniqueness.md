@@ -2,6 +2,10 @@
 
 **Area:** Relativistic quantum matter; self-gravitating waves
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 For $u\in H^{1/2}(\mathbb R^3)$ define
@@ -11,7 +15,7 @@ The square roots are Fourier multipliers. For every $0<N<N_*$, the infimum of $\
 
 Is this minimizer unique modulo translation and constant phase for every such $N$? Precisely, must any two minimizers satisfy $v(x)=e^{i\theta}u(x-x_0)$ for some $\theta\in\mathbb R$, $x_0\in\mathbb R^3$?
 
-## Applied significance
+## Application
 
 The model balances relativistic kinetic energy and Newtonian attraction. Uniqueness would determine whether a fixed subcritical stellar mass selects a single equilibrium density profile.
 
@@ -22,9 +26,11 @@ The model balances relativistic kinetic energy and Newtonian attraction. Uniquen
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** Uniqueness modulo translation and phase is established for sufficiently small positive mass.
 
-**Last checked:** 2026-09-13.
+**Remaining target:** Uniqueness for every mass in the full subcritical interval.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The August 2026 paper expressly leaves the entire interval $0<N<N_*$ open. Its new proof, like the earlier result of Guo and Zeng, establishes uniqueness only for sufficiently small mass. Fixing the rest mass at one is a choice of units.
 

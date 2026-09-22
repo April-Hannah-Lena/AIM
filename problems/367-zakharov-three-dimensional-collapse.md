@@ -2,7 +2,7 @@
 
 **Area:** Plasma physics; coupled dispersive equations
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ has a finite maximal energy-space existence time $T_+<\infty$ and
 $$\limsup_{t\uparrow T_+}\left(\|u(t)\|_{H^1}+\|n(t)\|_{L^2}+\|\partial_tn(t)\|_{\dot H^{-1}}\right)=\infty?$$
 Here $\|g\|_{\dot H^{-1}}=\||D|^{-1}g\|_2$ and all norms are on $\mathbb R^3$. Unbounded growth only as $t\to\infty$ does not answer the question.
 
-## Applied significance
+## Application
 
 This coupled wave–Schrödinger model describes concentration of Langmuir waves and ion-density response. A finite-time singularity would rigorously identify wave collapse in the physical three-dimensional system.
 
@@ -25,5 +25,7 @@ This coupled wave–Schrödinger model describes concentration of Langmuir waves
 3. V. Masselin, [*A Result on the Blow-up Rate for the Zakharov System in Dimension 3*](https://doi.org/10.1137/S0036141099363687), SIAM Journal on Mathematical Analysis 33 (2001), 440–447, blowup-rate criterion conditional on a finite blowup time.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using three-dimensional Zakharov finite-time collapse, finite-energy blowup, and the August 2026 Guo–Nakanishi paper. That paper still allows finite or infinite time in its growup alternative. Blowup constructions for the two-dimensional system, the four-dimensional energy-critical system, the Klein–Gordon–Zakharov system, and Zakharov systems with extra nonlinearities have different equations or dimensions. The SIAM rate theorem assumes finite-time blowup rather than constructing it. No matching three-dimensional construction was located.

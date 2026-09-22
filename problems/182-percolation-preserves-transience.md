@@ -2,7 +2,7 @@
 
 **Area:** Diffusion in diluted networks
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-08
 
@@ -10,7 +10,7 @@
 
 Let $G$ be the Cayley graph of an infinite finitely generated group with a finite symmetric generating set. Assume simple random walk on $G$ is transient. For $p>p_c(G)$ retain each edge independently with probability $p$, where $p_c(G)$ is the infimum of parameters giving an infinite open component with positive probability. Must simple random walk on every infinite open component be transient, almost surely? Transience means that a walk starting at any vertex returns to it only finitely often almost surely.
 
-## Applied significance
+## Application
 
 Random deletion of conducting bonds can create trapping and bottlenecks. The question asks whether dilution above the connectivity threshold can change long-time diffusion from transient to recurrent.
 
@@ -20,6 +20,12 @@ Random deletion of conducting bonds can create trapping and bottlenecks. The que
 - [Itai Benjamini, Russell Lyons and Oded Schramm, *Percolation Perturbations in Potential Theory and Random Walks* (1999)](https://arxiv.org/abs/math/9804010), original general questions and partial results.
 
 ## Status review
+
+**Known cases:** Supercritical percolation preserves transience on Euclidean lattices in transient dimensions and on the cited nonamenable classes.
+
+**Remaining target:** Preservation of transience on every transient Cayley graph at every strictly supercritical parameter.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The updated book retains the conjecture. It is known for Euclidean lattices in transient dimensions and for important nonamenable classes; those results do not cover all transient Cayley graphs. This entry restricts to strictly supercritical parameters and does not assert anything at criticality.
 

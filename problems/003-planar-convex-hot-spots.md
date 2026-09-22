@@ -2,6 +2,10 @@
 
 **Area:** Heat flow and Neumann eigenfunctions
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^2$ be any bounded convex domain with $C^\infty$ boundary. Let $\mu_1>0$ be its first nonzero Neumann eigenvalue. For every nonzero real solution
@@ -10,7 +14,7 @@ $$-\Delta u=\mu_1u\quad\hbox{in }\Omega,\qquad\partial_\nu u=0\quad\hbox{on }\pa
 
 prove or disprove that every global maximum and every global minimum of $u$ on $\overline\Omega$ lies on $\partial\Omega$. Here $\nu$ is the outward unit normal; the assertion applies to every vector in the eigenspace when the eigenvalue is multiple.
 
-## Applied significance
+## Application
 
 The first nonconstant Neumann mode controls the long-time temperature profile in an insulated planar body. Its extreme values predict where the hottest and coldest regions persist.
 
@@ -22,9 +26,7 @@ The first nonconstant Neumann mode controls the long-time temperature profile in
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Rohleder explicitly describes the convex planar conjecture as unresolved in February 2026. The July 2026 paper gives quantitative restrictions, not a proof for all planar convex domains. De Dios Pont's counterexamples concern sufficiently high dimension. Consequently dimension two is an essential restriction.
 

@@ -2,7 +2,7 @@
 
 **Area:** Stochastic parabolic PDEs; quantitative regularity
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -19,14 +19,16 @@ Now assume that $b=(b_k)_k$ is smooth in $x$ and, for every integer $j\ge1$, obe
 $$\mathbb P\bigl(u\in C^{\gamma/2,\gamma}([\tau,T]\times\mathbb T^d)\bigr)=1?$$
 The Hölder norm itself may be random and unbounded. The question is whether the exponent can be chosen independently of the sample; no commuting-flow or spatially constant-noise assumption is allowed.
 
-## Applied significance
+## Application
 
-A deterministic regularity exponent would give a common spatial and temporal approximation scale across random realizations.
+The equation models diffusion subject to random transport, with a possibly irregular diffusion coefficient. A deterministic regularity exponent would give a common power for spatial and temporal approximation errors across random realizations. The error prefactor could still depend on the realization, as the proposed statement allows the Hölder norm to be random and unbounded.
 
 ## References
 
 1. A. Agresti, M. Sauerbrey and M. Veraar, *A stochastic flow approach to De Giorgi–Nash–Moser estimates for SPDEs with smooth transport noise* (2025 preprint, manuscript dated August 2026), Theorem 1.1, §1.2 and §4. [Full manuscript](https://arxiv.org/html/2511.12692v1).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 This is the second open question of §1.2. Theorem 1.1 gives positive sample-dependent exponents; Proposition 4.3 obtains deterministic ones only with extra structure. The example of an unbounded ellipticity ratio after the stochastic-flow transformation is an obstruction to that method, not a counterexample to the assertion. Searches on 2026-09-22 for uniform stochastic Hölder exponents and later De Giorgi–Nash–Moser results found no theorem for the full stated class. This keeps the smooth-noise hypothesis, unlike the separate rough-noise regularity problem.

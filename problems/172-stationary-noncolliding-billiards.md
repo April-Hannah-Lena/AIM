@@ -2,6 +2,10 @@
 
 **Area:** Kinetic geometry and hard-particle systems
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Does there exist a probability law for a nonempty locally finite set $S\subset\mathbb R^2$ with velocity marks $v:S\to\mathbb R^2$ satisfying all of the following almost surely?
@@ -14,7 +18,7 @@ $$
 
 The law must be invariant under translations, simultaneous rotations of positions and velocities, and the evolution $(x,v(x))\mapsto(x+tv(x),v(x))$. It must also be ergodic under translations: every translation-invariant event has probability zero or one.
 
-## Applied significance
+## Application
 
 This asks whether a statistically homogeneous and isotropic hard-disk system can move forever without any collisions while retaining distinct particle velocities.
 
@@ -26,8 +30,6 @@ This asks whether a statistically homogeneous and isotropic hard-disk system can
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The May 2026 primary paper explicitly poses this problem. Both May 22 and May 27 versions were checked. Searches for “Non-colliding billiards in the plane Benjamini Shamov” and “2605.23575 stationary isotropic solution” found no later resolution. The revision also asks a weaker ergodic version without the positive lower-speed bound. Its lattice construction does not supply all the invariances required here.

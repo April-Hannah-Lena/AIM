@@ -2,6 +2,10 @@
 
 **Area:** Nonlinear oscillations and dynamical systems
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Does there exist an integer $H_2<\infty$ such that every system
@@ -12,7 +16,7 @@ $$
 
 has at most $H_2$ distinct limit cycles in $\mathbb R^2$? A limit cycle is an isolated periodic orbit, counted once as a geometric curve, without multiplicity. The bound must be independent of all polynomial coefficients.
 
-## Applied significance
+## Application
 
 Quadratic rate equations model interacting populations, chemical kinetics, and nonlinear oscillators. A uniform bound would limit the number of isolated oscillatory regimes such models can support.
 
@@ -24,8 +28,6 @@ Quadratic rate equations model interacting populations, chemical kinetics, and n
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searches for “quadratic Hilbert sixteenth uniform bound solved 2026” and “Hilbert quadratic limit cycles 2025 2026” located new lower-bound and restricted-family results. The Gasull–Santana source explicitly leaves this finiteness question open. Individual polynomial systems are known to have finitely many limit cycles; that theorem supplies no coefficient-independent bound.

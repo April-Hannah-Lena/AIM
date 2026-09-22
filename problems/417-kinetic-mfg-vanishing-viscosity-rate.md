@@ -2,7 +2,7 @@
 
 **Area:** Kinetic PDEs / mean-field games
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -15,7 +15,7 @@ $$\partial_tm+v\cdot\nabla_xm-\nu\Delta_vm+\nabla_v\cdot a=0,\qquad m(0)=m_{\rm 
 Admissible pairs have narrowly continuous probability densities with finite second velocity moment, the equation holds distributionally, and $\mathcal J<\infty$; use $|a|^2/m=0$ at $(m,a)=(0,0)$ and $+\infty$ when $m=0$, $a\ne0$. Does there exist an exponent $\eta=\eta(d)>0$ such that for every such datum and horizon some $C<\infty$, independent of $\nu$, satisfies
 $$\|m_\nu-m_0\|_{L^2((0,T)\times Q)}\le C\nu^\eta\qquad(0<\nu\le1)?$$
 
-## Applied significance
+## Application
 
 Here agents control acceleration, and noise diffuses their velocities. The variational formulation is a local-congestion kinetic mean-field game; a rate would quantify the error introduced by stochastic regularization of deterministic traffic and crowd models.
 
@@ -25,5 +25,7 @@ Here agents control acceleration, and noise diffuses their velocities. The varia
 2. M. Griffin-Pickering and A. R. Mészáros, *A variational approach to first order kinetic mean field games with local couplings*, Communications in Partial Differential Equations 47 (2022), 1945–2022, equation (1.1), §3.2 and existence/uniqueness theorems. [DOI](https://doi.org/10.1080/03605302.2022.2101003); [arXiv:2112.03141](https://arxiv.org/abs/2112.03141).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The SIAM source explicitly asks for kinetic vanishing-viscosity rates. This formulation selects the quadratic acceleration and linear local-congestion case and defines the density through a strictly convex variational problem, including the inviscid density. The 2022 work establishes the underlying first-order variational theory, not a noise-dependent approximation rate. Searches through 22 September 2026 for kinetic MFG viscosity rates and acceleration-control convergence found no matching result.

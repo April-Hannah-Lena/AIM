@@ -2,6 +2,10 @@
 
 **Area:** Vortex dynamics and fluid mechanics
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\gamma:[0,T]\times(\mathbb R/L\mathbb Z)\to\mathbb R^3$ be a smooth embedded closed curve, parametrized by arclength, solving binormal curvature flow
@@ -18,7 +22,7 @@ $$
 
 Euler means $\partial_\tau u^\epsilon+(u^\epsilon\cdot\nabla)u^\epsilon+\nabla p^\epsilon=0$, $\operatorname{div}u^\epsilon=0$; $C$ is independent of $\epsilon$.
 
-## Applied significance
+## Application
 
 This would justify the moving-filament model used to approximate slender vortex tubes without imposing axial or helical symmetry.
 
@@ -30,8 +34,6 @@ This would justify the moving-filament model used to approximate slender vortex 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searches for “vortex filament conjecture general curve 2026”, “Xiaoyu Huang vortex filament 2026”, and “Global dynamics of a single vortex ring” found the strong 2026 ring theorem and helical constructions. These impose symmetries absent from a general moving closed curve. Jerrard–Seis assume the persistence of concentration that this existence formulation must establish. No unrestricted construction was located.

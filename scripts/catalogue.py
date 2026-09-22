@@ -12,9 +12,35 @@ from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = {"id", "title", "area", "file", "status", "last_checked"}
-SECTIONS = ("Problem statement", "Applied significance", "References", "Status review")
+SECTIONS = ("Problem statement", "Application", "References", "Status review")
 GENERATED_DOCUMENTS = ("README.md", "CATALOG.md", "RESOLVED.md")
-RETIRED_STATUSES = ("Solved", "Solution claimed", "Retired")
+STATUS_DISPLAY = {
+    "Open": "🔵 OPEN",
+    "Partially resolved": "🟡 PARTIAL",
+    "Solution claimed": "🟠 SOLUTION CLAIMED",
+    "Solved": "✅ SOLVED",
+    "Lean verified": "🏆 LEAN VERIFIED",
+    "Needs verification": "⚪ NEEDS VERIFICATION",
+    "Withdrawn": "⚫ WITHDRAWN",
+}
+OPEN_STATUSES = ("Open", "Partially resolved")
+RETIRED_STATUSES = tuple(status for status in STATUS_DISPLAY if status not in OPEN_STATUSES)
+
+
+def status_display(status):
+    return STATUS_DISPLAY.get(status, status)
+
+
+def date_errors(value, identifier):
+    try:
+        checked = date.fromisoformat(value)
+        if checked.isoformat() != value:
+            return [f"{identifier}: date must use YYYY-MM-DD"]
+        if checked > date.today():
+            return [f"{identifier}: status check is in the future"]
+    except (TypeError, ValueError):
+        return [f"{identifier}: invalid ISO date"]
+    return []
 
 
 def valid_id(value):
@@ -28,8 +54,8 @@ def load_manifest():
         manifest = json.loads((ROOT / "catalogue.json").read_text())
     except (ValueError, OSError) as exc:
         return {}, [f"catalogue.json: {exc}"]
-    if not isinstance(manifest, dict) or manifest.get("schema_version") != 1:
-        return {}, ["catalogue.json: expected schema_version 1"]
+    if not isinstance(manifest, dict) or manifest.get("schema_version") != 2:
+        return {}, ["catalogue.json: expected schema_version 2"]
     for key in ("groups", "batches", "retired"):
         if not isinstance(manifest.get(key), list):
             errors.append(f"catalogue.json: {key} must be an array")
@@ -55,18 +81,31 @@ def load_manifest():
                                      not all(valid_id(i) for i in item["ids"])):
                 errors.append(f"catalogue.json: invalid IDs in batch {item['key']}")
     for item in manifest["retired"]:
-        if (not isinstance(item, dict) or not valid_id(item.get("id")) or
-                not isinstance(item.get("reason"), str) or not item["reason"].strip() or
-                not isinstance(item.get("record"), str)):
-            errors.append("catalogue.json: retired ID needs id, reason and research record")
-        else:
-            record = (ROOT / item["record"]).resolve()
-            if ROOT / "research" not in record.parents or not record.is_file():
-                errors.append(f"catalogue.json: invalid retirement record for {item['id']}")
-            if "title" in item and (not isinstance(item["title"], str) or not item["title"].strip()):
-                errors.append(f"catalogue.json: invalid retired title for {item['id']}")
-            if item.get("status", "Retired") not in RETIRED_STATUSES:
-                errors.append(f"catalogue.json: invalid retired status for {item['id']}")
+        if not isinstance(item, dict) or not valid_id(item.get("id")):
+            errors.append("catalogue.json: retired ID needs a valid id")
+            continue
+        for field in ("title", "status", "last_checked", "reason", "record"):
+            if not isinstance(item.get(field), str) or not item[field].strip():
+                errors.append(f"catalogue.json: invalid retired {field} for {item['id']}")
+        if not isinstance(item.get("record"), str) or not item["record"].strip():
+            continue
+        record = (ROOT / item["record"]).resolve()
+        if (Path(item["record"]).is_absolute() or ROOT / "research" not in record.parents or
+                record.suffix != ".md" or not record.is_file()):
+            errors.append(f"catalogue.json: invalid retirement record for {item['id']}")
+        if item.get("status") not in RETIRED_STATUSES:
+            errors.append(f"catalogue.json: invalid retired status for {item['id']}")
+        errors.extend(date_errors(item.get("last_checked"), item["id"]))
+        if item.get("status") == "Lean verified":
+            value = item.get("verification_record")
+            if not isinstance(value, str) or not value.strip():
+                errors.append(f"{item['id']}: Lean verified requires a verification_record")
+            else:
+                evidence = (ROOT / value).resolve()
+                if (Path(value).is_absolute() or ROOT not in evidence.parents or
+                        evidence.suffix != ".md" or not evidence.is_file() or
+                        not evidence.read_text().strip()):
+                    errors.append(f"{item['id']}: invalid or empty Lean verification_record")
     return manifest if not errors else {}, errors
 
 
@@ -101,14 +140,9 @@ def load_entries(manifest):
             if not valid_id(row["id"]):
                 errors.append(f"{path.name}: invalid ID {row['id']}")
                 continue
-            try:
-                checked = date.fromisoformat(row["last_checked"])
-                if checked.isoformat() != row["last_checked"]:
-                    errors.append(f"{row['id']}: date must use YYYY-MM-DD")
-                if checked > date.today():
-                    errors.append(f"{row['id']}: status check is in the future")
-            except ValueError:
-                errors.append(f"{row['id']}: invalid ISO date")
+            if row["status"] not in OPEN_STATUSES:
+                errors.append(f"{row['id']}: invalid active status; use Open or Partially resolved")
+            errors.extend(date_errors(row["last_checked"], row["id"]))
             entries.append({**row, "group": stem})
     return sorted(entries, key=lambda row: int(row["id"])), errors
 
@@ -130,8 +164,11 @@ def subject_index(entries, manifest, document=""):
 def render_readme(entries, manifest):
     solved = sum(row.get("status") == "Solved" for row in manifest["retired"])
     claimed = sum(row.get("status") == "Solution claimed" for row in manifest["retired"])
-    other = len(manifest["retired"]) - solved - claimed
-    summary = (f"**{len(entries)} open targets** · **{solved} solved entries** · "
+    lean = sum(row["status"] == "Lean verified" for row in manifest["retired"])
+    partial = sum(row["status"] == "Partially resolved" for row in entries)
+    other = len(manifest["retired"]) - solved - claimed - lean
+    summary = (f"**{len(entries)} open targets** ({len(entries) - partial} open, {partial} partial) · "
+               f"**{solved} solved entries** · **{lean} Lean verified** · "
                f"**{claimed} solution claim{'s' if claimed != 1 else ''}**")
     if other:
         summary += f" · **{other} other retained entries**"
@@ -143,11 +180,21 @@ def render_readme(entries, manifest):
         "## Browse by subject", "",
         *subject_index(entries, manifest, "CATALOG.md"), "",
         "## Reading the collection", "",
-        "Each [problem page](problems/) records its assumptions and quantifiers, applied significance, references, status, and last review date. Permanent IDs remain reserved when an entry leaves the open catalogue; its original statement and status record are retained.", "",
+        "Each [problem page](problems/) records its assumptions and quantifiers, an explicit **Application** section, references, a status label, and its last review date. Applications describe a concrete use or modelling consequence, including what a resolution would enable. Permanent IDs remain reserved when an entry leaves the open catalogue; its original statement and status record are retained.", "",
         "The collection includes foundational questions as well as directly applied ones, with a wide range of difficulty. Related entries may imply one another; the count does not assert logical independence. Further additions exclude numerical linear algebra (NLA).", "",
+        "## Problem status", "",
+        "The same labels appear on problem pages and index rows. Only Open and Partial count as open targets; each problem counts once.", "",
+        "| Status | Meaning | Counted as open? |", "| --- | --- | --- |",
+        "| 🔵 OPEN | The target is unresolved in the literature checked for the entry. | Yes |",
+        "| 🟡 PARTIAL | Some substantive cases of the stated target are proved; the page identifies what remains. | Yes |",
+        "| 🟠 SOLUTION CLAIMED | A source claims a complete resolution; independent proof review is outstanding. | No |",
+        "| ✅ SOLVED | A publication or documented independent audit supports a complete resolution. | No |",
+        "| 🏆 LEAN VERIFIED | A complete resolution has reviewed Lean kernel-checking evidence and matches the original target. | No |",
+        "| ⚪ NEEDS VERIFICATION | A statement or status issue requires further review. | No |",
+        "| ⚫ WITHDRAWN | The entry was removed for a documented reason; its ID and original statement are retained. | No |", "",
+        "An informal audit, including an AI audit, does not establish Lean verification. Formal proofs of special cases do not settle the whole target. See the [status and evidence requirements](CONTRIBUTING.md#status-and-evidence) and the [resolution archive](RESOLVED.md).", "",
         "## What “open” means here", "",
         "An open target is unresolved in its cited literature, and targeted searches found no later resolution of its exact statement as of the entry's review date. Partial results and restrictions are explained on its page. These bounded checks cannot guarantee that no proof exists, and adding a batch does not revalidate earlier entries.", "",
-        "A **solution claim** matches the target but awaits independent proof review. A **solved** entry has a documented resolution supported by the review recorded on its page. Both are listed separately from open targets in [RESOLVED.md](RESOLVED.md); other retirement reasons are kept distinct.", "",
         "See the [research methodology](research/METHODOLOGY.md), [source maps and exclusion records](research/README.md), and [publication batches](CATALOG.md#publication-batches) for the evidence behind the catalogue.", "",
         "## Contributing", "",
         "Suggestions, references, corrections, and resolution reports are welcome through [GitHub issues](https://github.com/MColbrook/AIM/issues) and pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for admission criteria, status updates, and catalogue maintenance. A resolution report should link to the proof or counterexample and explain how it matches the exact target.", "",
@@ -171,19 +218,19 @@ def render_catalog(entries, manifest):
     lines = [
         "# Open targets", "",
         "[Repository overview](README.md) · [Solved and claimed solutions](RESOLVED.md)", "",
-        f"**{len(entries)} open targets**, grouped by subject. Each linked page gives the precise statement, references, partial results, and its own literature-review date. These are the active entries; solution claims and resolved or otherwise retired entries are excluded from this count.", "",
+        f"**{len(entries)} open targets**, grouped by subject. Open and Partial entries are counted once each. Every linked page gives the precise statement, an application, references, known cases, and its own literature-review date. See the [status legend](README.md#problem-status); all other statuses appear in the [resolution archive](RESOLVED.md).", "",
         "## Browse by subject", "",
         *subject_index(entries, manifest), "",
         "[Publication batches and review dates](#publication-batches)",
     ]
     for group in manifest["groups"]:
         title = group["title"]
-        lines += ["", f"## {title}", "", "| ID | Problem | Area |", "| --- | --- | --- |"]
+        lines += ["", f"## {title}", "", "| ID | Problem | Status | Area |", "| --- | --- | --- | --- |"]
         for row in entries:
             if row["group"] == group["key"]:
                 title_text = table_text(row["title"])
                 area = table_text(row["area"])
-                lines.append(f"| {row['id']} | [{title_text}]({row['file']}) | {area} |")
+                lines.append(f"| {row['id']} | [{title_text}]({row['file']}) | {status_display(row['status'])} | {area} |")
     lines += ["", "## Publication batches", "",
               "Adding a batch does not revalidate earlier entries. Counts below include only currently open targets; retired IDs retain their original batch membership.", "",
               "| Publication batch | Open targets | Entry review dates |", "| --- | ---: | --- |"]
@@ -204,19 +251,24 @@ def render_resolved(manifest):
         "This archive lists previously admitted targets that are no longer counted as open. A solution claim is not a verified solution. Each linked record preserves the original statement, permanent ID, sources, review date, and the scope of the review actually performed.", "",
     ]
     sections = (
+        ("Lean verified", "Lean verified", "Complete resolutions with a reviewed Lean proof, statement comparison, and reproducible kernel-checking evidence. The evidence link records exactly what was checked.", "No Lean-verified entries are currently recorded in this archive."),
         ("Solved", "Solved", "Documented resolutions of the exact target. Consult each record for the proof source and the kind of review performed.", "No solved entries are currently recorded in this archive."),
         ("Solution claimed", "Solution claimed", "A matching complete resolution has been announced, but independent proof review remains outstanding.", "No solution claims are currently recorded in this archive."),
-        ("Retired", "Other retained entries", "Entries removed for reasons other than a recorded solution or solution claim. Retirement alone does not mean that a target is solved.", "No other retired entries are currently recorded."),
+        ("Needs verification", "Needs verification", "Entries held for a material statement or status issue. This status does not assert a solution.", "No entries currently need verification in this archive."),
+        ("Withdrawn", "Withdrawn", "Entries removed for a documented reason, with their original statements and IDs retained. Withdrawal does not imply a solution.", "No withdrawn entries are currently recorded."),
     )
     for status, heading, description, empty in sections:
-        rows = sorted((row for row in manifest["retired"] if row.get("status", "Retired") == status),
+        rows = sorted((row for row in manifest["retired"] if row["status"] == status),
                       key=lambda row: int(row["id"]))
         lines += [f"## {heading}", "", description, ""]
         if rows:
-            lines += ["| ID | Problem and status record | Reason |", "| --- | --- | --- |"]
+            lines += ["| ID | Problem and status record | Status | Last checked | Reason |", "| --- | --- | --- | --- | --- |"]
             for row in rows:
-                title = table_text(row.get("title", f"Entry {row['id']}"))
-                lines.append(f"| {row['id']} | [{title}]({row['record']}) | {table_text(row['reason'])} |")
+                title = table_text(row["title"])
+                reason = table_text(row["reason"])
+                if status == "Lean verified":
+                    reason += f" [Verification evidence]({row['verification_record']})"
+                lines.append(f"| {row['id']} | [{title}]({row['record']}) | {status_display(status)} | {row['last_checked']} | {reason} |")
             lines.append("")
         else:
             lines += [empty, ""]
@@ -226,6 +278,53 @@ def render_resolved(manifest):
         "Candidates excluded before admission are documented in the [research records](research/README.md); they are not counted as resolved catalogue entries. This archive is generated from the `retired` records in [catalogue.json](catalogue.json).", "",
     ]
     return "\n".join(lines)
+
+
+def validate_page(row, path):
+    errors = []
+    content = path.read_text()
+    first = content.splitlines()[0] if content else ""
+    if not re.match(rf"^# {row['id']}(?:\.|\s+[—–-])\s+", first):
+        errors.append(f"{row['id']}: incorrect heading ID")
+    if row["title"] not in first:
+        errors.append(f"{row['id']}: heading title differs from metadata")
+    for section in SECTIONS:
+        match = re.search(rf"^## {re.escape(section)}[ \t]*\n(.*?)(?=^## |\Z)",
+                          content, re.MULTILINE | re.DOTALL)
+        if not match:
+            errors.append(f"{row['id']}: missing {section}")
+        elif section == "Application":
+            application = re.sub(r"<!--.*?-->", "", match[1], flags=re.DOTALL).strip()
+            plain = application.strip("*_` .\n\t").lower()
+            if not plain or re.fullmatch(r"(?:todo|tbd|n/?a|none|coming soon)[.!]?", plain):
+                errors.append(f"{row['id']}: empty or placeholder Application")
+    fields = (("Last checked", row["last_checked"]), ("Status", status_display(row["status"])))
+    if "area" in row:
+        fields += (("Area", row["area"]),)
+    elif not re.search(r"^\*\*Area:\*\*[ \t]*\S.+$", content, re.MULTILINE):
+        errors.append(f"{row['id']}: missing Area")
+    for field, value in fields:
+        matches = re.findall(rf"^\*\*{field}:\*\*[ \t]*(.+?)[ \t]*$", content, re.MULTILINE)
+        consistent = (len(matches) == 1 and
+                      (matches[0] == value if field == "Status" else matches[0].rstrip(".") == value.rstrip(".")))
+        if not consistent:
+            errors.append(f"{row['id']}: missing or inconsistent {field}")
+    header = re.split(r"^## ", content, maxsplit=1, flags=re.MULTILINE)[0]
+    if not re.search(r"^\*\*Status:\*\*", header, re.MULTILINE):
+        errors.append(f"{row['id']}: Status must appear before the first section")
+    if row["status"] == "Partially resolved":
+        review = re.search(r"^## Status review[ \t]*\n(.*?)(?=^## |\Z)",
+                           content, re.MULTILINE | re.DOTALL)
+        for field in ("Known cases", "Remaining target"):
+            if not review or not re.search(rf"^\*\*{field}:\*\*[ \t]*\S.+$", review[1], re.MULTILINE):
+                errors.append(f"{row['id']}: Partial requires {field} in Status review")
+    if len(re.findall(r"\]\(https?://", content)) < 1:
+        errors.append(f"{row['id']}: no linked external reference")
+    if re.search(r"(?<!\\)\\[\[\]()]", content):
+        errors.append(f"{row['id']}: use GitHub dollar math delimiters")
+    if content.count("$$") % 2:
+        errors.append(f"{row['id']}: unmatched display math delimiter")
+    return errors
 
 
 def validate(entries, manifest, documents=None):
@@ -255,25 +354,9 @@ def validate(entries, manifest, documents=None):
         if not path.is_file():
             errors.append(f"Missing {row['file']}")
             continue
-        content = path.read_text()
-        first = content.splitlines()[0] if content else ""
-        if not re.match(rf"^# {row['id']}(?:\.|\s+[—–-])\s+", first):
-            errors.append(f"{row['id']}: incorrect heading ID")
-        if row["title"] not in first:
-            errors.append(f"{row['id']}: heading title differs from metadata")
-        for section in SECTIONS:
-            if not re.search(rf"^## {re.escape(section)}\s*$", content, re.MULTILINE):
-                errors.append(f"{row['id']}: missing {section}")
-        for field, value in (("Area", row["area"]), ("Last checked", row["last_checked"]), ("Status", row["status"])):
-            matches = re.findall(rf"^\*\*{field}:\*\*\s*(.+?)\s*$", content, re.MULTILINE)
-            if len(matches) != 1 or matches[0].rstrip(".") != value.rstrip("."):
-                errors.append(f"{row['id']}: missing or inconsistent {field}")
-        if len(re.findall(r"\]\(https?://", content)) < 1:
-            errors.append(f"{row['id']}: no linked external reference")
-        if re.search(r"(?<!\\)\\[\[\]()]", content):
-            errors.append(f"{row['id']}: use GitHub dollar math delimiters")
-        if content.count("$$") % 2:
-            errors.append(f"{row['id']}: unmatched display math delimiter")
+        errors.extend(validate_page(row, path))
+    for row in manifest["retired"]:
+        errors.extend(validate_page(row, ROOT / row["record"]))
     actual = set((ROOT / "problems").glob("*.md"))
     for extra in sorted(actual - indexed):
         errors.append(f"Unindexed problem file: {extra.relative_to(ROOT)}")

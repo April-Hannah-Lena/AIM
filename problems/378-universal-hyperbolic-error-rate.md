@@ -2,7 +2,7 @@
 
 **Area:** Hyperbolic conservation laws; reliable simulation
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -16,7 +16,7 @@ $$|\mathcal R_{\mathrm{id},f}|\le\varepsilon(t-s+\varepsilon)\|\phi\|_{W^{1,\inf
 Is there $C=C(f,\eta,U,\delta,T,R,M)$ such that every such approximation satisfies
 $$\sup_{0\le t\le T}\|u(t)-S_tu_0\|_1\le C\sqrt\varepsilon\,|\log\varepsilon|?$$
 
-## Applied significance
+## Application
 
 A universal bound would certify computed shock flows using measured conservation residuals, entropy residuals and total variation, without tying the certificate to one particular numerical scheme.
 
@@ -27,5 +27,7 @@ A universal bound would certify computed shock flows using measured conservation
 3. A. Bressan, F. Huang, Y. Wang and T. Yang, [*On the Convergence Rate of Vanishing Viscosity Approximations for Nonlinear Hyperbolic Systems*](https://doi.org/10.1137/120869249), SIAM Journal on Mathematical Analysis 44 (2012), 3537–3563, main convergence-rate theorem.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using Bressan's universal convergence-rate problem, approximate entropy solutions and the square-root logarithmic rate. Compactness and uniqueness give some modulus tending to zero, without the displayed rate. The SIAM theorem concerns actual viscous approximations, which are a smaller class. The 2026 Glimm–Lax uniqueness advance concerns regularization and uniqueness for rough exact solutions, not residual-based quantitative estimates. No proof of the displayed universal bound or a counterexample was located. In the residual definition the terminal test value is at time $t$, as required by the weak conservation law.

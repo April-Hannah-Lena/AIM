@@ -1,9 +1,10 @@
 # 445. A resonance gap for arbitrary uniformly hyperbolic trapping in three dimensions
 
 **Area:** Scattering PDEs and wave decay
-**Status:** Open in cited literature; no later resolution located.
-**Last checked:** 2026-09-22
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-22
 ## Problem statement
 
 Let $V\in C_c^\infty(\mathbb R^3;\mathbb R)$, $P_h=-h^2\Delta+V$, and let $E>0$ be a regular value of $p(x,\xi)=|\xi|^2+V(x)$. Let $\Phi^t$ be its Hamiltonian flow and
@@ -13,7 +14,7 @@ Must there exist $\delta,\gamma,h_0>0$ such that $P_h$ has no scattering resonan
 $$\{z:|\operatorname{Re}z-E|<\delta,\ -\gamma h<\operatorname{Im}z\le0\}$$
 for $0<h<h_0$? Resonances are poles of the meromorphic continuation of the compactly localized outgoing resolvent from $\operatorname{Im}z>0$ across the positive real axis.
 
-## Applied significance
+## Application
 
 A resonance gap gives a uniform lower bound on the damping of metastable high-frequency wave packets. The question asks whether chaotic trapping alone prevents arbitrarily long-lived modes.
 
@@ -24,5 +25,7 @@ A resonance gap gives a uniform lower bound on the damping of metastable high-fr
 3. S. Dyatlov and M. Zworski, [Mathematical Theory of Scattering Resonances](https://math.mit.edu/~dyatlov/res/res_final.pdf), AMS, 2019, Chapter 6 and its notes.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The conjecture was compared with the two-dimensional gap theorem and the pressure-based and normally hyperbolic results. Searches through the review date for higher-dimensional fractal trapping and unconditional resonance gaps located no theorem covering every three-dimensional uniformly hyperbolic trapped set. No topological-pressure sign assumption is imposed here.

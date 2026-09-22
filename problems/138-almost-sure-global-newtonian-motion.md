@@ -2,6 +2,10 @@
 
 **Area:** Celestial mechanics / singular dynamics
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Fix $N\ge5$ positive masses $m_i$. Let
@@ -20,7 +24,7 @@ on its maximal classical forward interval $[0,T_{\max})$. Is the set of initial 
 
 Both collisions and finite-time noncollision singularities count as failures of global classical existence.
 
-## Applied significance
+## Application
 
 The question asks whether finite-time breakdown in ideal point-mass gravitational simulations is exceptional in the measure-theoretic sense, despite the existence of specially constructed singular motions.
 
@@ -31,8 +35,6 @@ The question asks whether finite-time breakdown in ideal point-mass gravitationa
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 The chapter reports measure-zero results for collision-producing initial conditions and almost-everywhere global existence for at most four bodies. Constructing noncollision singularities does not settle the measure of their initial-data set for $N\ge5$. Searches included “Newtonian n body almost all global existence measure zero 2025 2026” and “noncollision singularities initial conditions measure zero five body”. No later theorem covering the stated quantifiers was located.

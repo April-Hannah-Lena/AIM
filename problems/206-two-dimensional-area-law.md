@@ -2,6 +2,10 @@
 
 **Area:** Quantum many-body theory; entanglement
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Fix an integer $q\ge2$ and $\Delta>0$. On $\Lambda=\{1,\ldots,L\}\times\{1,\ldots,M\}$ put a copy of $\mathbb C^q$ at each vertex. Let $H=\sum_x h_x+\sum_{\{x,y\}\text{ nearest neighbors}}h_{xy}$ be self-adjoint, with each term supported on its indicated sites and of operator norm at most $1$. Assume a unique normalized ground state $\psi$ and spectral gap at least $\Delta$. For $1\le\ell<L$, let $A=\{1,\ldots,\ell\}\times\{1,\ldots,M\}$ and $\rho_A=\operatorname{Tr}_{\Lambda\setminus A}|\psi\rangle\langle\psi|$.
@@ -9,7 +13,7 @@ Fix an integer $q\ge2$ and $\Delta>0$. On $\Lambda=\{1,\ldots,L\}\times\{1,\ldot
 Does a constant $C(q,\Delta)$, independent of $L,M,\ell$ and the interaction, always satisfy
 $$-\operatorname{Tr}(\rho_A\log\rho_A)\le C(q,\Delta)M?$$
 
-## Applied significance
+## Application
 
 This would justify boundary-sized entanglement as a general structural principle for insulating quantum matter and tensor-network representations of its ground states.
 
@@ -20,9 +24,7 @@ This would justify boundary-sized entanglement as a general structural principle
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The cited two-dimensional theorem imposes frustration-freeness and a gap for local restrictions. A gap for the entire Hamiltonian alone does not supply those hypotheses. No general theorem for this class was located.
 

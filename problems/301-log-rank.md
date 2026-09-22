@@ -2,7 +2,7 @@
 
 **Area:** Communication complexity and distributed computation
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -18,7 +18,7 @@ $$
 
 All pairs $(i,j)$ are possible: there is no promise on the inputs. The real rank is exact, not an approximate rank. The additive constant inside the logarithm handles constant matrices. Requiring both participants to learn the output changes conventional one-output-party communication complexity by at most one bit and therefore does not change this conjecture.
 
-## Applied significance
+## Application
 
 This asks whether a linear-algebraic measure of a distributed decision table controls the communication needed to evaluate it. A positive answer would give a universal relation between real rank and exact interaction cost for processors with separate inputs. The relevance is to communication resources; the conjecture does not require efficient local computation or an efficient procedure for constructing the protocol.
 
@@ -31,6 +31,8 @@ This asks whether a linear-algebraic measure of a distributed decision table con
 5. Z. Song, [*Alphabet-Preserving Lifting for the Log-Rank Conjecture*](https://arxiv.org/html/2608.01812v1), arXiv:2608.01812v1, August 3, 2026; Theorems 1.1 and 3.5. Preprint.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The September 17, 2026 review searched the name and Lovász–Saks alias, mathematical wording, proof/disproof terms, recent authors, and 2025–2026 results, together with unrestricted-date searches and version checks. Hambardzumyan–Lovett–Shirley explicitly retain the conjecture in their August 2026 version. Independent work of Sudakov–Tomon proves an $O(\sqrt r)$ communication upper bound, leaving the polylogarithmic target unresolved.
 

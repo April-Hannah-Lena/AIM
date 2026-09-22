@@ -2,7 +2,7 @@
 
 **Area:** Superconductivity and Coulomb crystallization
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -14,7 +14,7 @@ where $\Lambda\subset\mathbb R^2$ is locally finite and $\sup_{R\geq1}\#(\Lambda
 $$W(E)=\limsup_{R\to\infty}\frac1{4R^2}\lim_{\eta\downarrow0}\left[\frac12\int_{\mathbb R^2\setminus\bigcup_{p\in\Lambda}B(p,\eta)}\chi_R|E|^2\,dx+\pi\log\eta\sum_{p\in\Lambda}\chi_R(p)\right].$$
 Let $\Lambda_\triangle=\sqrt{2/\sqrt3}\,[\mathbb Z(1,0)+\mathbb Z(1/2,\sqrt3/2)]$ and let $E_\triangle$ be the mean-zero periodic field in $\mathcal A_1$ associated to it. Is $W(E)\geq W(E_\triangle)$ for every $E\in\mathcal A_1$? No periodicity is required of competitors.
 
-## Applied significance
+## Application
 
 The energy describes the microscopic arrangement of vortices in type-II superconductors and point charges in a neutralizing background. Global optimality would derive the observed triangular pattern without assuming a lattice in advance.
 
@@ -24,5 +24,7 @@ The energy describes the microscopic arrangement of vortices in type-II supercon
 - Simona Rota Nodari and Sylvia Serfaty, [*Renormalized energy equidistribution and local charge balance in 2D Coulomb systems*](https://math.nyu.edu/~serfaty/REG_V12.pdf) (2013 manuscript), §1.1, Definitions 1, 3 and 4: precise admissible fields and renormalized-energy normalization; the introduction states the unresolved crystallization question.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “Abrikosov triangular lattice global renormalized energy minimizer proof 2025 2026” and “Coulomb crystallization Sandier Serfaty conjecture solved”. Located lattice optimality, local charge-balance and equidistribution results, not unrestricted global crystallization. The target is optimal energy, with no uniqueness claim: changing finitely many points need not change a thermodynamic energy density.

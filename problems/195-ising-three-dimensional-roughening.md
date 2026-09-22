@@ -2,7 +2,7 @@
 
 **Area:** Interfaces and equilibrium statistical mechanics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -14,7 +14,7 @@ with the spins outside $\Lambda$ fixed. Let $\beta_c(3)=\inf\{\beta:\mu_\beta^+(
 
 Does there exist $\beta_R>\beta_c(3)$ such that every Gibbs law is translation invariant for $\beta_c(3)<\beta<\beta_R$, while a Gibbs law that is not translation invariant exists for every $\beta>\beta_R$?
 
-## Applied significance
+## Application
 
 Nontranslation-invariant Gibbs laws describe a rigid phase boundary. The conjecture predicts an ordered-temperature interval in which interfaces become rough before bulk magnetization disappears.
 
@@ -24,6 +24,8 @@ Nontranslation-invariant Gibbs laws describe a rigid phase boundary. The conject
 - [Atsushi Ueda, Lander Burgelman, Luca Tagliacozzo and Laurens Vanderstraeten, *Interface roughening in the 3-D Ising model with tensor networks* (2026 preprint)](https://arxiv.org/abs/2601.07829), computational investigation.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The book poses this Gibbs-state formulation of roughening. Low-temperature interface rigidity is known. The January 2026 tensor-network study concerns numerical phase diagrams and does not establish the asserted interval or classify Gibbs laws there.
 

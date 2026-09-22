@@ -2,7 +2,7 @@
 
 **Area:** Gas dynamics; one-dimensional conservation laws
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ has at most one solution in the Glimm–Lax class? Here this class consists of b
 $$\|u(t)-d\|_\infty\le C_0\sqrt a,\qquad \sup_{b\in\mathbb R}\operatorname{TV}_{[b,b+L]}u(t)\le C_0(\sqrt a+L/t)$$
 for $t,L>0$, where $C_0$ is the fixed Glimm–Lax bound associated with $f,d$. No positive fractional Sobolev regularity of $u_0$ is assumed.
 
-## Applied significance
+## Application
 
 The Glimm–Lax construction provides weak gas-dynamic wave fields starting from bounded oscillatory data. Uniqueness is needed to predict a definite macroscopic evolution when the initial density or velocity has structure at arbitrarily small scales.
 
@@ -24,5 +24,7 @@ The Glimm–Lax construction provides weak gas-dynamic wave fields starting from
 2. A. Bressan, [*One Dimensional Hyperbolic Conservation Laws: Past and Future*](https://arxiv.org/abs/2310.16707), Journal of Hyperbolic Differential Equations 21 (2024), 523–561, §8, discussion of the Glimm–Lax construction and uniqueness beyond BV.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using Glimm–Lax uniqueness, bounded data without fractional Sobolev regularity, and recent entropy-solution uniqueness. The August 2026 paper proves uniqueness when $u_0\in W^{s,p}_{\rm loc}$ for some $s>0$, and explicitly asks about data outside every such space. Small-BV uniqueness and the new fractional-Sobolev theorem therefore do not cover the stated measurable-data class. No subsequent full resolution was located.

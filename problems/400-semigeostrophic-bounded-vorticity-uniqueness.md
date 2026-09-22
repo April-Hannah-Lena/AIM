@@ -2,7 +2,7 @@
 
 **Area:** Geophysical PDEs / nonlinear transport
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -13,7 +13,7 @@ Is there at most one distributional solution
 $$\partial_t\rho+\nabla_y\!\cdot\bigl[\rho J(y-T_t(y))\bigr]=0,\qquad \rho|_{t=0}=\rho_0,$$
 among nonnegative probability densities that are narrowly continuous in time and, on each finite interval $[0,T]$, are uniformly bounded in $L^\infty$ and supported in a common compact set? Narrow continuity means continuity of $\int\phi\rho_t$ for every bounded continuous $\phi$. Equality of solutions means equality of their measures at every time.
 
-## Applied significance
+## Application
 
 This asks whether bounded initial atmospheric potential vorticity determines a unique predicted semigeostrophic evolution. It concerns weak solutions, including fronts, rather than the separate persistence of smoothness.
 
@@ -23,5 +23,7 @@ This asks whether bounded initial atmospheric potential vorticity determines a u
 2. T. Lavier, *A semi-discrete optimal transport scheme for the 3D incompressible semi-geostrophic equations*, IMA Journal of Applied Mathematics 90 (2025), 443–464, Remark 1.1. [Full text](https://doi.org/10.1093/imamat/hxaf023).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Both sources distinguish available existence results from unresolved weak uniqueness. The ball and bounded-density assumptions select a concrete subclass of their question and make the transport velocity unambiguous almost everywhere. Searches through 22 September 2026 included semigeostrophic bounded-vorticity uniqueness, weak–strong uniqueness and entropic approximation. Local Hölder uniqueness and uniqueness relative to a uniformly convex strong solution do not prove uniqueness between two arbitrary bounded weak solutions.

@@ -2,7 +2,7 @@
 
 **Area:** Dispersive PDEs / boundary stabilization
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ do there exist $\delta,C,\alpha>0$ such that every solution with $\|y(0)\|_{L^2(
 $$\|y(t)\|_{L^2(0,L)}\le C(1+t)^{-\alpha}\qquad(t\ge0)?$$
 Solutions are taken in the usual energy class $C([0,\infty);L^2)\cap L^2_{\mathrm{loc}}([0,\infty);H^1_0)$. This length has three undamped linear modes: the integer pairs $(7,7),(2,11),(11,2)$ satisfy $L=2\pi\sqrt{(k^2+k\ell+\ell^2)/3}$.
 
-## Applied significance
+## Application
 
 KdV models long shallow-water waves. At critical channel lengths the boundary fails to damp some linear modes, so nonlinear energy transfer determines whether a quantitative algebraic stabilization rate exists.
 
@@ -24,5 +24,7 @@ KdV models long shallow-water waves. At critical channel lengths the boundary fa
 2. H.-M. Nguyen, *Decay for the nonlinear KdV equations at critical lengths*, Journal of Differential Equations 295 (2021), 249–291, main decay theorems and discussion of the dimension of the undamped subspace. [DOI](https://doi.org/10.1016/j.jde.2021.05.057); [arXiv:2012.08792](https://arxiv.org/abs/2012.08792).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The December 2025 paper expressly identifies polynomial decay for odd undamped dimension greater than one as open. The length 14π is a concrete instance with dimension three. Its completed classification of small-time controllability does not establish uncontrolled polynomial decay. Searches through 22 September 2026 for this length, odd critical modes and later decay results located no resolution.

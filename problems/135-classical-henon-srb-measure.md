@@ -2,6 +2,10 @@
 
 **Area:** Dissipative dynamics / chaotic statistics
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Consider the fixed polynomial diffeomorphism
@@ -14,7 +18,7 @@ Does $H$ admit a compactly supported ergodic invariant probability measure $\mu$
 
 These conditions define the nonuniformly hyperbolic SRB measure sought here. In particular, such a measure describes empirical time averages for a set of initial conditions of positive planar Lebesgue measure; an invariant measure carried only by a repelling periodic orbit does not qualify.
 
-## Applied significance
+## Application
 
 This is a standard numerical model of a chaotic attractor. An SRB measure would put the observed long-run statistical behavior at its original parameter values on a rigorous basis.
 
@@ -25,8 +29,6 @@ This is a standard numerical model of a chaotic attractor. An SRB measure would 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 Existence for a positive-measure set of parameters in sufficiently dissipative Hénon families does not certify the specific pair $(1.4,0.3)$. The 2024 collection retains the original conjecture. Searches included “Hénon 1.4 0.3 SRB measure proof 2025 2026” and “classical Hénon conjecture resolved”. Numerical Lyapunov exponents and theorems about other parameter values were not counted as resolutions.

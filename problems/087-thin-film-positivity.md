@@ -2,7 +2,7 @@
 
 **Area:** Thin films and lubrication
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -19,7 +19,7 @@ $$
 $$
 There are no disjoining-pressure, gravitational or stochastic terms. The question concerns strict positivity at every time, rather than nonnegative weak solutions or positivity at almost every time.
 
-## Applied significance
+## Application
 
 Cubic mobility is the no-slip lubrication model. A proof would exclude finite-time dry spots created solely by capillarity from an initially wet film.
 
@@ -29,6 +29,8 @@ Cubic mobility is the no-slip lubrication model. A proof would exclude finite-ti
 - [Florian Johannes Kunick, *Analysis and Numerics of Stochastic Gradient Flows* (doctoral thesis, Universität Leipzig, 2022), §3.10](https://d-nb.info/1296492575/34).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The thesis explicitly calls deterministic cubic-mobility positivity open and contrasts it with the proven higher-exponent case. The cited discretization preserves positivity at fixed discretization size; that does not prove a positive lower bound in the continuum limit. Searches through 2026 found no resolution for this deterministic cubic equation.
 

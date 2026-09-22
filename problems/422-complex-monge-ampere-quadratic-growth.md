@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear elliptic PDEs / geometric analysis
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ and for some $C\ge1$,
 $$C^{-1}(1+|z|^2)\le u(z)\le C(1+|z|^2)\qquad(z\in\mathbb C^n).$$
 Must $u$ be a polynomial of degree two in the $2n$ real coordinates? Neither real convexity nor completeness of the metric $(u_{i\bar j})$ is assumed.
 
-## Applied significance
+## Application
 
 This equation constructs Ricci-flat Kähler metrics and is a central nonlinear elliptic model. The question isolates whether a coarse growth constraint alone controls the geometry, without requiring derivative bounds or a prescribed quadratic asymptote.
 
@@ -25,5 +25,7 @@ This equation constructs Ricci-flat Kähler metrics and is a central nonlinear e
 3. H. Chen, J. Hu and L. Sheng, *Pogorelov interior estimates and a Liouville theorem for the complex Monge–Ampère equation*, preprint (16 September 2026), §1 discussion of Székelyhidi’s quadratic-growth question and Theorem 1.3. [Full text](https://arxiv.org/html/2609.18265v1).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The September 2026 source records the exact two-sided growth question and distinguishes known results requiring metric completeness. Its new rigidity theorem assumes real convexity, which is stronger than plurisubharmonicity and absent here. Searches through 22 September 2026 located no resolution under the displayed growth condition alone.

@@ -2,6 +2,10 @@
 
 **Area:** Spectral geometry
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $d\ge2$ and let $\Omega\subset\mathbb R^d$ be a bounded connected Lipschitz domain. Write $\lambda_1\le\lambda_2\le\cdots$ for the Dirichlet eigenvalues of $-\Delta$ and $0=\mu_0<\mu_1\le\cdots$ for its Neumann eigenvalues, with multiplicity. Let $\omega_d$ be the volume of the unit ball. Prove or disprove, for every $k\ge1$,
@@ -10,7 +14,7 @@ $$\mu_k(\Omega)\le4\pi^2\left(\frac{k}{\omega_d|\Omega|}\right)^{2/d}\le\lambda_
 
 The target is arbitrary domains; tiling domains and balls are established special cases.
 
-## Applied significance
+## Application
 
 These bounds would turn the leading Weyl approximation into a rigorous bound for every vibration frequency and diffusion mode, using only volume.
 
@@ -22,9 +26,11 @@ These bounds would turn the leading Weyl approximation into a rigorous bound for
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** The inequalities are established for tiling domains and Euclidean balls; the cited 2026 work completes the higher-dimensional Neumann ball case.
 
-**Last checked:** 2026-09-08.
+**Remaining target:** Both displayed inequalities for every bounded connected Lipschitz domain in every dimension at least two.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2023 paper states the general conjecture and proves ball cases. The 2026 annulus paper treats Dirichlet annuli. The July 2026 preprint completes the higher-dimensional Neumann ball case. None asserts the displayed inequalities for arbitrary Lipschitz domains.
 

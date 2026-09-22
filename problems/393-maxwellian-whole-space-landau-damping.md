@@ -2,7 +2,7 @@
 
 **Area:** Plasma kinetics; dispersive relaxation
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ Here $E$ is the Coulomb field that decays at spatial infinity. For $\lambda>0$ d
 $$\|h\|_{\mathcal A_\lambda}=\sum_{\alpha,\beta\in\mathbb N_0^3}\frac{\lambda^{|\alpha|+|\beta|}}{\alpha!\beta!}\left\|\langle x\rangle^4\langle v\rangle^6\partial_x^\alpha\partial_v^\beta h\right\|_{L^2_{x,v}},\qquad\langle z\rangle=(1+|z|^2)^{1/2}.$$
 Does every fixed $\lambda>0$ admit $\varepsilon_\lambda>0$ such that all initial data $f_0=\mu+h_0\ge0$ with $\int h_0\,dx\,dv=0$ and $\|h_0\|_{\mathcal A_\lambda}\le\varepsilon_\lambda$ generate a global classical solution satisfying $\|E(t)\|_{L^\infty_x}\to0$ as $t\to\infty$? This is a localized analytic formulation of the open nonlinear Maxwellian damping problem; no exponential time-decay rate is required.
 
-## Applied significance
+## Application
 
 Landau damping describes relaxation of the electric field in a collisionless plasma. Whole-space Maxwellian backgrounds have long-wavelength oscillations absent from the usual periodic stability argument.
 
@@ -24,5 +24,7 @@ Landau damping describes relaxation of the electric field in a collisionless pla
 2. A. D. Ionescu, B. Pausader, X. Wang and K. Widmayer, [*Nonlinear Landau damping for the Vlasov–Poisson system in $\mathbb R^3$: the Poisson equilibrium*](https://arxiv.org/abs/2205.04540), final version (2024), §1 and main theorem for an equilibrium with polynomial velocity tails.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using nonlinear whole-space Maxwellian Landau damping and recent Vlasov–Poisson stability results. The May 2026 version explicitly retains the Maxwellian problem. Whole-space nonlinear damping around the Poisson equilibrium uses polynomial tails, whereas the Maxwellian has Gaussian tails and a different low-frequency resonance structure. Screened interactions replace the Coulomb multiplier, and periodic analytic or Gevrey theorems have discrete spatial frequencies. Linear Maxwellian decay and weakly collisional models do not establish the displayed nonlinear collisionless assertion. No matching resolution was located.

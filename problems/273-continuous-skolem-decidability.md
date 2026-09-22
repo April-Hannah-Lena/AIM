@@ -2,6 +2,10 @@
 
 **Area:** Continuous dynamics / formal verification
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Is there an algorithm which, for every positive integer $n$, rational matrix $A\in\mathbb Q^{n\times n}$ and rational vectors $x_0,c\in\mathbb Q^n$, halts and correctly decides whether
@@ -12,7 +16,7 @@ $$
 
 The matrix exponential is $e^{tA}=\sum_{j\geq0}(tA)^j/j!$. Thus the question asks whether the exact solution of $x'=Ax$, $x(0)=x_0$, ever intersects the hyperplane $c^Tx=0$. Inputs are finite binary encodings of rational numbers; time is a real variable and is not discretized.
 
-## Applied significance
+## Application
 
 A decision procedure would settle whether a linear continuous-time model can reach an exactly specified switching or safety boundary, a basic operation in verification of hybrid systems.
 
@@ -23,8 +27,6 @@ A decision procedure would settle whether a linear continuous-time model can rea
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 Unconditional low-dimensional results and conditional bounded-time algorithms do not decide all dimensions over an unbounded time interval. The 2026 positive-characteristic Skolem theorem concerns discrete recurrences over a different coefficient structure. Searches included “continuous Skolem problem decidability 2026”, “linear ODE hyperplane reachability solved”, and “Chonev Ouaknine Worrell zeros exponential polynomials”. No general algorithm or undecidability proof for the displayed rational-input problem was located.

@@ -2,7 +2,7 @@
 
 **Area:** Reaction–diffusion; populations in perforated habitats
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ Let $f\in C^{1,\gamma}([0,\infty))$, $0<\gamma<1$, satisfy $f(0)=f(1)=0$, $f'(0)
 $$-\Delta u=f(u)\quad\hbox{in }\Omega,\qquad u=0\quad\hbox{on }\partial\Omega$$
 have exactly one bounded positive solution $u\in C^2(\Omega)\cap C(\overline\Omega)$? The per-capita growth rate $f(s)/s$ is allowed to increase, so the problem includes positive reactions outside the strong-KPP class. The obstacle separation is arbitrary subject to disjointness.
 
-## Applied significance
+## Application
 
 Two absorbing obstacles form a simple habitat in which their diffusion boundary layers can interact. The question asks whether this interaction alone can produce multiple positive equilibrium populations for a monostable growth law.
 
@@ -24,5 +24,7 @@ Two absorbing obstacles form a simple habitat in which their diffusion boundary 
 2. H. Berestycki and C. Graham, [*The steady states of strong-KPP reactions in general domains*](https://arxiv.org/abs/2212.06611), Journal of the European Mathematical Society, published online (2025), §1, comparison with uniqueness under the stronger reaction hypothesis; DOI [10.4171/JEMS/1578](https://doi.org/10.4171/JEMS/1578).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using the two-obstacle semilinear elliptic problem and later reaction–diffusion uniqueness results. The March 2026 primary paper asks this exact question. It proves uniqueness outside a single ball and explains why sufficiently separated balls are also covered. Its argument does not cover nearby disjoint obstacles. The general strong-KPP question imposes a decreasing growth quotient; the present problem instead fixes a simple geometry and permits a broader reaction class. No later result resolving arbitrary separation or giving a counterexample was located.

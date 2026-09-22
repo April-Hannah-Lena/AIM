@@ -2,7 +2,7 @@
 
 **Area:** Cross-diffusion PDEs; gas mixtures
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -18,7 +18,7 @@ Impose $J_i\cdot\nu=0$ on $\partial\Omega$. For every smooth initial composition
 
 There are no chemical reactions or bulk advection. In particular, do not impose the special representation $f_{ij}=g_i+g_j$ or closeness of the initial data to a constant composition.
 
-## Applied significance
+## Application
 
 Maxwell–Stefan equations describe coupled diffusion in multicomponent mixtures, including diffusion of a species against its own concentration gradient. Global smoothness would justify the continuum constitutive law for large concentration variations.
 
@@ -28,5 +28,7 @@ Maxwell–Stefan equations describe coupled diffusion in multicomponent mixtures
 2. D. Bothe, *Global strong solutions for Maxwell–Stefan diffusion with additive friction coefficients* (2026 preprint), §1 and its main theorem. [arXiv:2609.06732](https://arxiv.org/abs/2609.06732).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The older existence theory gives weak solutions and local classical solutions, with a general classical continuation problem remaining. The search on 2026-09-22 located Bothe’s September 2026 preprint and checked its coefficient assumptions: its global theorem requires additive pair friction. The statement above retains arbitrary positive symmetric pair friction and $N\ge4$, where additivity is a genuine restriction. Neither that theorem nor near-equilibrium global results settle this formulation. The recent result is cited as a preprint, rather than silently treating its special case as still open.

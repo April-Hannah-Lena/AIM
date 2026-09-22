@@ -2,6 +2,10 @@
 
 **Area:** Wave propagation; dispersive estimates
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 For a Schwartz function $f$ on $\mathbb R^3$, let
@@ -9,7 +13,7 @@ $$u(t,x)=e^{it\sqrt{-\Delta}}f(x),\qquad \widehat u(t,\xi)=e^{it|\xi|}\widehat f
 For every $3\le p<\infty$ and $\varepsilon>0$, is there a constant $C_{p,\varepsilon}$ such that, for every $\lambda\ge1$ and every $f$ with Fourier support in $\{\lambda\le|\xi|\le2\lambda\}$,
 $$\left(\int_1^2\int_{\mathbb R^3}|u(t,x)|^p\,dx\,dt\right)^{1/p}\le C_{p,\varepsilon}\lambda^{1-3/p+\varepsilon}\|f\|_{L^p(\mathbb R^3)}?$$
 
-## Applied significance
+## Application
 
 This measures the additional regularity gained by averaging a propagating wave over time. It constrains persistent wave focusing and supports estimates for nonlinear wave equations with rough initial data.
 
@@ -20,9 +24,7 @@ This measures the additional regularity gained by averaging a propagating wave o
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2026 application explicitly treats the three-dimensional critical estimate as conjectural. General Fourier-integral-operator theorems have different admissible exponents, and the proved two-dimensional wave result does not cover this dimension. The arbitrarily small loss $\varepsilon$ is part of the statement.
 

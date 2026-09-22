@@ -2,7 +2,7 @@
 
 **Area:** Mathematical neuroscience; nonlinear Fokker–Planck equations
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -13,7 +13,7 @@ $$\partial_t p+\partial_v\bigl[(-v+bN(t-d))p\bigr]-a\partial_{vv}p=N(t)\delta_{V
 $$p(t,V_F)=0,\qquad N(t)=-a\partial_v p(t,V_F),\qquad\int_{-\infty}^{V_F}p(t,v)\,dv=1$$
 has a nonnegative $T$-periodic solution with nonconstant firing rate $N$? Require $p$ to be continuous in $v$, classical away from $V_R$, with the derivative jump prescribed by the displayed distributional equation, vanishing probability flux at $-\infty$, and uniformly finite second voltage moment. Both $p$ and $N$ are defined for all real times so the delayed term is unambiguous.
 
-## Applied significance
+## Application
 
 This model represents a large inhibitory neuronal population with noise, firing resets and finite transmission time. Periodic solutions would rigorously establish self-sustained collective neural rhythms in the original density equation.
 
@@ -24,5 +24,7 @@ This model represents a large inhibitory neuronal population with noise, firing 
 3. C. Rieutord and D. Salort, [*Asymptotic dynamics of inhibitory networks for the NNLIF Model in the large-delay limit*](https://arxiv.org/abs/2606.17611), preprint (2026), §1.2, Theorem 1 and §7.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using delayed NNLIF periodic existence, Hopf bifurcation, and the cited authors. The 2022 theorem concerns a reduced delay equation, not the reset PDE. The 2025 survey explicitly reports that periodicity for the full model remains unproved. The 2026 paper proves oscillation between pseudo-equilibria on arbitrary finite rescaled intervals as the delay tends to infinity; this does not produce an exactly periodic orbit at any fixed finite delay. No later matching existence theorem was located.

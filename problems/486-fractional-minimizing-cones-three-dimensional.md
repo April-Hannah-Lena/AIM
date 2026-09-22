@@ -2,7 +2,7 @@
 
 **Area:** Nonlocal variational PDEs; phase interfaces
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-22
 
@@ -18,7 +18,7 @@ $\operatorname{Per}_s(E;U)\le\operatorname{Per}_s(F;U)$ for every measurable $F$
 
 Must $E$ agree almost everywhere with a half-space whose boundary passes through the origin? The problem quantifies over the whole interval $0<s<1$, including interaction orders not sufficiently close to either endpoint.
 
-## Applied significance
+## Application
 
 These cones are possible singularity models for interfaces minimizing an energy with long-range interactions. Their classification controls regularity of nonlocal phase boundaries.
 
@@ -29,5 +29,11 @@ These cones are possible singularity models for interfaces minimizing an energy 
 3. R. Tsiamis, *Stable $s$-minimal cones in $\mathbb R^3$ are flat for $s$ close to zero* (August 2026 preprint), Theorem 1.1 and Introduction. [Full preprint](https://arxiv.org/html/2608.21340v1).
 
 ## Status review
+
+**Known cases:** Flatness is proved for interaction orders sufficiently close to one; the cited August 2026 preprint supplies the sufficiently-small-order regime.
+
+**Remaining target:** Flatness for every interaction order strictly between zero and one, including the intervening orders.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The August 2026 theorem was included in the check: it proves flatness only for sufficiently small $s$, complementing the near-one theorem. Searches on 2026-09-22 for three-dimensional minimizing cones and all fractional orders located no result closing the intervening orders. This entry uses minimizing cones, a stronger assumption than stationarity or stability; nonflat stationary cones do not disprove it. It also differs from the catalogue's local one-phase cone and Allen–Cahn questions.

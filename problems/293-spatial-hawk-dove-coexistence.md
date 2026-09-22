@@ -2,7 +2,7 @@
 
 **Area:** Spatial ecology and evolutionary games
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -10,7 +10,7 @@
 
 At each $x\in\mathbb Z^2$ let $H_x,D_x\in\mathbb N_0$ count hawks and doves. Individuals migrate at rate $\mu$ to a uniform nearest neighbor and die from crowding at rate $\kappa(H_x+D_x)$. For $N_L=\{z:\|z\|_\infty\le L\}$ set $p_x=\sum_{z\in N_L}H_{x+z}/\sum_{z\in N_L}(H_{x+z}+D_{x+z})$, with $p_x=0$ when the denominator vanishes. The additional per-individual game rate is $r_H=-0.6p_x+0.9(1-p_x)$ for hawks and $r_D=-0.9p_x+0.37(1-p_x)$ for doves: positive rate creates an offspring at $x$, negative rate adds death at its absolute value. Do some finite $L\ge1$ and $\mu,\kappa>0$ admit a translation-invariant stationary law with finite mean population per site, supported on configurations containing infinitely many individuals of both types?
 
-## Applied significance
+## Application
 
 This tests whether local demographic fluctuations sustain species that a well-mixed approximation predicts will disappear.
 
@@ -20,6 +20,8 @@ This tests whether local demographic fluctuations sustain species that a well-mi
 - [Rick Durrett and Simon A. Levin, *The Importance of Being Discrete (and Spatial)*, Theoretical Population Biology 46 (1994), 363–394](https://doi.org/10.1006/tpbi.1994.1032), spatial game model and simulations.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The book explicitly requests a coexistence proof. Neighborhood frequency is normalized by the neighborhood population here; the manuscript’s displayed denominator omits hats. Finite simulations do not prove existence of the stated invariant law.
 

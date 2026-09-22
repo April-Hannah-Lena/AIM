@@ -2,6 +2,10 @@
 
 **Area:** Geometric inverse problems / local tomography
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $(M,g)$ be a smooth Riemannian surface with boundary, strictly convex at $p\in\partial M$. Is there a sufficiently small neighborhood $U$ of $p$ with the following property? For every $f\in C^\infty(\overline U\cap M)$, if
@@ -14,7 +18,7 @@ for every geodesic segment $\gamma$ lying in $U\cap M$ whose two endpoints lie o
 
 Only rays remaining in the small boundary neighborhood are available. The metric is smooth, without an analyticity assumption.
 
-## Applied significance
+## Application
 
 This asks whether measurements confined to a shallow part of a two-dimensional medium determine a scalar density there. It is the local uniqueness question behind reconstruction from grazing rays.
 
@@ -25,8 +29,6 @@ This asks whether measurements confined to a shallow part of a two-dimensional m
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 The book explicitly separates this surface problem from the local theorem in dimensions at least three. Euclidean and analytic special cases do not establish the statement for arbitrary smooth surface metrics. Searches included “local geodesic ray transform two dimensions open 2025 2026” and “local injectivity smooth surface Uhlmann Vasy solution”; no later general resolution was located.

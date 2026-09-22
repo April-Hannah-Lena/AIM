@@ -2,7 +2,7 @@
 
 **Area:** Spectral theory and spectral geometry
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -17,7 +17,7 @@ $$
 
 If $\lambda_j(\Omega_1)=\lambda_j(\Omega_2)$ for every $j\ge1$, must there exist $Q\in O(2)$ and $a\in\mathbb R^2$ such that $\Omega_2=Q\Omega_1+a$? Reflections are allowed. This is the smooth strictly convex case of the planar inverse spectral question in Levitin–Mangoubi–Polterovich, Open Problem 6.2.26; no symmetry, analyticity, or proximity to a special shape is assumed.
 
-## Applied significance
+## Application
 
 For a homogeneous membrane with fixed boundary, known tension and known mass density, the vibration frequencies are a known constant times $\sqrt{\lambda_j}$. This asks whether complete exact resonance measurements identify the membrane's convex shape. It is an ideal identifiability question underlying vibration-based shape inference; it does not assert reconstruction from finitely many noisy measurements.
 
@@ -30,6 +30,8 @@ For a homogeneous membrane with fixed boundary, known tension and known mass den
 - T. Hu, J. Shi and Q. Tang, [*Strictly Convex Steklov-Isospectral Plane Domains*](https://arxiv.org/html/2608.10557v2), arXiv:2608.10557v2, August 15, 2026, §1.1, Theorem 1.1.2, and §2.1 (preprint; different boundary condition).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The source book explicitly records the convex planar question as open, and De Simoi–Kaloshin–Wei independently discuss the unresolved smooth convex inverse problem. Disks and sufficiently low-eccentricity ellipses are known special cases. Hezari–Zelditch also prove deformation rigidity within the axially symmetric near-circle class; Koval's theorem concerns domains close to an ellipse outside an exceptional set. Neither supplies uniqueness for an arbitrary pair in the stated class.
 

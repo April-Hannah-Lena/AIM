@@ -2,6 +2,10 @@
 
 **Area:** Network information theory / cooperative communication
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Consider the memoryless real channel
@@ -15,7 +19,7 @@ where $a,b,c>0$ and all noises are independent $N(0,1)$ variables. A source enco
 
 Determine the capacity $C(a,b,c,P_s,P_r)$, the supremum of $(\log_2|\mathcal M|)/N$ achievable with error probability tending to zero as $N\to\infty$, for all these parameters.
 
-## Applied significance
+## Application
 
 This is a basic wireless link assisted by one cooperating relay. Exact capacity would specify the best possible gain from relaying when decoding, compression and analog forwarding compete.
 
@@ -27,8 +31,6 @@ This is a basic wireless link assisted by one cooperating relay. Exact capacity 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2022 work supplies a stronger upper bound, not a general capacity formula. The title of the Wu–Barnes–Özgür result should not be interpreted as solving the full Gaussian model above. Searches included “Gaussian relay channel capacity open problem 2025 2026”, “strengthened cutset Gaussian relay capacity” and “Cover relay channel solved capacity”. No matching general coding and converse theorem was located.

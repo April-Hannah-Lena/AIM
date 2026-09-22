@@ -2,7 +2,7 @@
 
 **Area:** Combinatorial probability, information theory and packing algorithms
 
-**Status:** Open in cited literature; no later resolution located as of 2026-09-19.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-19
 
@@ -31,7 +31,7 @@ $$
 
 The conjecture is $H_0(S_w)\leq2H_\infty(S_w)$. Jain, Sah and Sawhney propose this tradeoff; Li states the entropy formulation explicitly. The exponent two is sharp: for $w=(1,\ldots,1)$, $N(w)=n+1$ and $\rho(w)=2^{-n}\binom{n}{\lfloor n/2\rfloor}$, so $H_0/H_\infty\to2$ as $n\to\infty$.
 
-## Applied significance
+## Application
 
 In bin packing, items with given weights must be partitioned among bins without exceeding their capacities. Exact algorithms can exploit the number of attainable item-weight totals: fewer totals can mean fewer states in a dynamic program. Nederlof and coauthors use a tradeoff between this number and the largest multiplicity of a total in their algorithm for a fixed number of bins. Jain, Sah and Sawhney show that improving the tradeoff improves that algorithm's dependence on the number of bins. The probability above measures collisions among subsets of a fixed input; it imposes no random-input assumption. The entropy formulation also asks how much uncertainty in the most likely outcome controls the entire range of a weighted sum of fair bits.
 
@@ -42,6 +42,8 @@ In bin packing, items with given weights must be partitioned among bins without 
 - J. Nederlof, J. Pawlewicz, C. M. F. Swennenhuis and K. Węgrzycki, [*A Faster Exponential Time Algorithm for Bin Packing With a Constant Number of Bins via Additive Combinatorics*](https://arxiv.org/html/2007.08204v4), *SIAM Journal on Computing* **52**(6) (2023), 1369–1412, [DOI: 10.1137/22M1478112](https://doi.org/10.1137/22M1478112). Theorems 1.1–1.2, §1.1.1 and §3.2, Lemma 3.5; the linked author version is dated September 8, 2023.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located as of 2026-09-19.
 
 Checked on **2026-09-19** using the subset-sum, anticoncentration, maximum-atom and Rényi-entropy formulations, author names, and proof, counterexample, correction and recent-result searches. The published Jain–Sah–Sawhney paper and Li's September 2026 preprint explicitly state the conjecture. No later resolution of the full assertion was located.
 

@@ -2,6 +2,10 @@
 
 **Area:** Quantum integrability; spectral statistics
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 For $\alpha=(\alpha_1,\alpha_2,\alpha_3)\in\mathbb R^3$ with $\alpha_1>0$ and $4\alpha_1\alpha_3>\alpha_2^2$, define
@@ -13,7 +17,7 @@ in increasing order with multiplicity as $\lambda_1\le\lambda_2\le\cdots$. The n
 For Lebesgue-almost every such $\alpha$, is it true simultaneously for every $s\ge0$ that
 $$\lim_{N\to\infty}\frac1N\#\{j\le N:\lambda_{j+1}-\lambda_j\le s\}=1-e^{-s}?$$
 
-## Applied significance
+## Application
 
 These quadratic-form values are the energy levels of a free quantum particle on a flat torus. The conjecture tests whether integrable classical dynamics produces statistically uncorrelated quantum levels.
 
@@ -24,9 +28,7 @@ These quadratic-form values are the energy levels of a free quantum particle on 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2024 theorem controls averaged triple correlations and gives lower bounds on long gaps. Neither it nor Poisson pair correlation proves the nearest-neighbor distribution. Searches, including a February 2026 research lecture by Marklof on progress toward these conjectures, did not locate the full almost-everywhere spacing law.
 

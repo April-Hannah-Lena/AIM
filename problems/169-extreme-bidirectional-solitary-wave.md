@@ -2,6 +2,10 @@
 
 **Area:** Nonlinear water-wave models
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $K$ be the convolution kernel on $\mathbb R$ whose Fourier transform is $\widehat K(\xi)=\tanh\xi/\xi$, extended continuously at zero. Does there exist $c>1$ and an even continuous profile $v:\mathbb R\to(0,\infty)$, smooth away from zero, strictly decreasing for $x>0$, and tending to zero at infinity, such that
@@ -16,7 +20,7 @@ $$
 \partial_t\eta+\partial_x(K*v+\eta v)=0,\qquad\partial_tv+\partial_x(\eta+v^2/2)=0.
 $$
 
-## Applied significance
+## Application
 
 The question asks whether this bidirectional model has a solitary wave at its limiting crest height, a basic test of its treatment of extreme water waves.
 
@@ -28,8 +32,6 @@ The question asks whether this bidirectional model has a solitary wave at its li
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searches for “Whitham Boussinesq extreme solitary existence 2026” and “bidirectional Whitham highest solitary waves” located small-amplitude existence and periodic extreme waves, but no extreme solitary-wave construction for this specific system. Existence of highest solitary waves for the unidirectional Whitham equation is already known and is not the question recorded here.

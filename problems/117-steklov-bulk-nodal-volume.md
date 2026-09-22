@@ -2,6 +2,10 @@
 
 **Area:** Boundary-driven wave patterns
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $(M,g)$ be any smooth compact connected $d$-dimensional Riemannian manifold with smooth nonempty boundary, $d\ge2$. For a real nonzero Steklov eigenfunction
@@ -14,7 +18,7 @@ $$c_M\sigma\le\mathcal H^{d-1}_g(Z_u)\le C_M\sigma.$$
 
 Only the nodal set inside the medium is counted; the boundary trace has a different-dimensional zero set.
 
-## Applied significance
+## Application
 
 Nodal interfaces partition the interior of a boundary-loaded vibrating medium. The proposed law predicts their total size directly from the boundary spectral frequency.
 
@@ -27,9 +31,11 @@ Nodal interfaces partition the interior of a boundary-loaded vibrating medium. T
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** The two-sided linear interior nodal-length estimate is established for real-analytic Riemannian surfaces.
 
-**Last checked:** 2026-09-08.
+**Remaining target:** The corresponding two-sided interior nodal-volume estimate for every smooth manifold in every dimension at least two.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The analytic two-dimensional case is established. The 2024 survey asks for the general smooth estimates. The April 2026 paper improves estimates for boundary nodal sets and does not establish the displayed two-sided interior estimate.
 

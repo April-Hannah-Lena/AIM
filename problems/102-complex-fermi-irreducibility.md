@@ -2,6 +2,10 @@
 
 **Area:** Periodic quantum Hamiltonians
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $d\ge2$ and $V\in C^\infty(\mathbb R^d;\mathbb R)$ be $\mathbb Z^d$-periodic. On the unit torus set $H(k)=(-i\nabla+k)^2+V$, with domain $H^2(\mathbb T^d)$, for $k\in\mathbb C^d$. For real $E$ define
@@ -10,7 +14,7 @@ $$F_E=\{k\in\mathbb C^d:E\text{ is an eigenvalue of }H(k)\}.$$
 
 Prove or disprove that, for each $V$, there is a discrete set $S_V\subset\mathbb R$ such that $F_E/(2\pi\mathbb Z^d)$ is an irreducible complex analytic set whenever $E\notin S_V$. Here irreducible means it cannot be written as the union of two proper closed complex analytic subsets.
 
-## Applied significance
+## Application
 
 The geometry of these sets controls whether a rapidly decaying impurity can create an eigenvalue inside a crystal’s conducting spectrum.
 
@@ -22,9 +26,7 @@ The geometry of these sets controls whether a rapidly decaying impurity can crea
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The cited continuum partial results include separable potentials and certain partially separable three-dimensional potentials. Irreducibility results for finite-range or discrete periodic operators do not establish this continuum assertion. Searches through the review date found no general continuum resolution.
 

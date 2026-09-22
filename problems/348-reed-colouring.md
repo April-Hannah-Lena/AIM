@@ -2,7 +2,7 @@
 
 **Area:** Combinatorial optimization and conflict scheduling
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -20,7 +20,7 @@ $$
 
 The bound concerns ordinary integral colourings with a common palette, at every finite graph size and degree. It requires neither a large-degree hypothesis nor a restriction on induced subgraphs. The target is existence of a colouring, without an algorithmic running-time requirement. The ceiling cannot simply be removed: a cycle on five vertices has $\Delta=2$, $\omega=2$ and $\chi=3$. [1–3]
 
-## Applied significance
+## Application
 
 Consider unit-duration tasks with pairwise incompatibilities: vertices represent tasks, an edge means two tasks cannot run in the same slot, and colours represent slots. A proper colouring is exactly a feasible schedule in this model. A clique requires that many separate slots, while the elementary greedy argument guarantees at most $\Delta+1$ slots. The conjecture asks whether the rounded average of these lower and upper bounds always suffices.
 
@@ -36,6 +36,8 @@ This would give a universal guarantee for arbitrary conflict patterns. The conne
 6. Ken-ichi Kawarabayashi and Lucas Picasarri-Arrieta, *An analogue of Reed's conjecture for digraphs*, [arXiv:2407.05827v4](https://arxiv.org/html/2407.05827v4), revised September 8, 2026, preprint; a shorter version appeared in SODA 2025. §1, Conjectures 1.1 and 1.6, Theorem 1.7 and following discussion; §2.1, conventions.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Open in cited literature; no later resolution located as of 2026-09-18. Bonamy–Perrett–Postle explicitly state the conjecture. The independently authored July 2026 paper [3] retains the same exact inequality, as does the September 2026 revision [6]. The formulation here uses these full scholarly restatements; Reed's original 1998 article was not directly read.
 

@@ -2,7 +2,7 @@
 
 **Area:** PDE control / viscoelasticity
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ where $D(u)=(\nabla u+\nabla u^T)/2$, $u=f\mathbf1_\Gamma$ on the boundary, and 
 $$\|u(T)-u_T\|_{L^2(\Omega)}<\varepsilon?$$
 No terminal condition is imposed on $\tau$.
 
-## Applied significance
+## Application
 
 The stress relaxation equation represents memory in a viscoelastic fluid. Approximate steering of velocity under a time-dependent background flow is a prerequisite for controlling such fluids beyond a stationary linearization.
 
@@ -25,5 +25,7 @@ The stress relaxation equation represents memory in a viscoelastic fluid. Approx
 3. E. Fernández-Cara, J. L. F. Machado and D. A. Souza, *Non null controllability of Stokes equations with memory*, ESAIM: Control, Optimisation and Calculus of Variations 26 (2020), article 72. [DOI](https://doi.org/10.1051/cocv/2019067).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Problem 14 asks whether the approximate velocity-control theorem survives the added prescribed transport term. Smooth divergence-free backgrounds and compatible controls make the model unambiguous. The negative null-control result concerns exact arrival and does not answer this approximate question. Searches through 22 September 2026 for Oseen–Oldroyd, Jeffreys memory and time-dependent drift controllability found no resolution.

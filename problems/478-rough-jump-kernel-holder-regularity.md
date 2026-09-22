@@ -2,7 +2,7 @@
 
 **Area:** Nonlocal PDEs; heterogeneous jump diffusion
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -17,9 +17,9 @@ Do there exist $\gamma>0$ and $C<\infty$, depending only on $n,s,\lambda,\Lambda
 $$\|u\|_{C^\gamma(B_{1/2})}\le C\|u\|_{L^\infty(\mathbb R^n)}?$$
 Require no continuity or small-oscillation condition in $x$, and no pointwise density lower bound on the jump measures. Use test functions patched with $u$ outside the contact neighborhood to define the nonlocal viscosity inequalities.
 
-## Applied significance
+## Application
 
-The question asks whether diffusion in enough directions regularizes a field even when local jump directions vary measurably and can concentrate on thin sets.
+The jump measures describe a medium in which long-range transport can favor a few directions that change from place to place. A Hölder estimate would quantitatively limit the spatial variation of bounded stationary fields using directional transport strength alone, without imposing a smooth medium or jumps in every individual direction.
 
 ## References
 
@@ -28,5 +28,7 @@ The question asks whether diffusion in enough directions regularizes a field eve
 2. R. W. Schwab and L. Silvestre, *Regularity for parabolic integro-differential equations with very irregular kernels*, Analysis & PDE **9** (2016), 727–772. [Article](https://doi.org/10.2140/apde.2016.9.727).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The statement is Open Question 3.4, with equations (3.6.3)–(3.6.5), in §3.6.4 of the book. Searches on 2026-09-22 checked directional ellipticity, singular jump kernels and rough-coefficient Hölder estimates. Located theorems require positive-measure directional lower bounds, comparable energy forms, or small spatial oscillation. New regularity from a coercive Hamiltonian does not apply to this homogeneous linear equation. No matching resolution was found.

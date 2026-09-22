@@ -2,7 +2,7 @@
 
 **Area:** Travel-time tomography / geometric inverse problems
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -17,7 +17,7 @@ d_{g_1}(x,y)=d_{g_2}(x,y)\quad(x,y\in\partial M)
 $$
 for a diffeomorphism $F:M\to M$ satisfying $F|_{\partial M}=\mathrm{Id}$. Here $d_g$ is the intrinsic Riemannian distance. No curvature sign or convex-foliation hypothesis is assumed.
 
-## Applied significance
+## Application
 
 Boundary distances model first-arrival travel times in an anisotropic medium. The conjecture asks whether such arrival times determine its interior propagation geometry.
 
@@ -28,6 +28,8 @@ Boundary distances model first-arrival travel times in an anisotropic medium. Th
 3. J. Ilmavirta and F. Monard, *Integral geometry on manifolds with boundary and applications* (2019), open problems. [Author manuscript](https://users.jyu.fi/~jojapeil/pub/integral-geometry-review.pdf).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 References 1 and 3 identify the unrestricted higher-dimensional problem. Reference 2 establishes rigidity under convex-foliation hypotheses and several useful geometric cases. The simple surface theorem concerns dimension two.
 

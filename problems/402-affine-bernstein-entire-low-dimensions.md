@@ -2,7 +2,7 @@
 
 **Area:** Fourth-order elliptic PDEs / geometric variational problems
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ If $u$ satisfies the affine maximal surface equation
 $$\sum_{i,j=1}^n U^{ij}\partial_{ij}w=0\quad\text{on }\mathbb R^n,$$
 must $u$ be a quadratic polynomial with positive-definite quadratic part? This asks the entire-graph case of the affine Bernstein conjecture, without additional growth, bounded-Hessian or affine-metric completeness assumptions.
 
-## Applied significance
+## Application
 
 The equation is the Euler–Lagrange equation for affine surface area. Rigidity of entire profiles is a basic obstruction to singularity formation and loss of compactness in geometric optimization governed by this fourth-order PDE.
 
@@ -24,5 +24,7 @@ The equation is the Euler–Lagrange equation for affine surface area. Rigidity 
 2. Y. Sun, C. Xing and R. Xu, *New non-quadratic Euclidean complete affine maximal type hypersurfaces via Calabi affine geometry*, preprint (26 August 2026), §1, equations (1.1)–(1.3) and Theorem 1.3. [arXiv:2608.25330](https://arxiv.org/abs/2608.25330).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The August 2026 paper explicitly says the affine maximal conjecture remains open even in dimension three. Its new counterexamples have exponent a at least -n/(n+1), which does not include the affine maximal exponent -(n+1)/(n+2). The older dimension-ten example is nonsmooth and also outside the requested dimension range. Searches through 22 September 2026 for higher-dimensional Chern/affine Bernstein proofs and counterexamples found no matching resolution.

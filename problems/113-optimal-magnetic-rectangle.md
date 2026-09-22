@@ -2,6 +2,10 @@
 
 **Area:** Magnetic quantum wells
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 For $B\ge0$ put $A_B(x)=\frac B2(-x_2,x_1)$ and $q_{\Omega,B}[u]=\int_\Omega|(-i\nabla-A_B)u|^2\,dx$.
@@ -12,7 +16,7 @@ $$\lambda_1(R_a,B)=\inf_{0\ne u\in H_0^1(R_a;\mathbb C)}\frac{q_{R_a,B}[u]}{\|u\
 
 Prove or disprove that $\lambda_1(R_a,B)\ge\lambda_1(R_1,B)$ for every $a>0$ and every $B>0$. Thus area and field are fixed while the aspect ratio varies.
 
-## Applied significance
+## Application
 
 Rectangular confinement is common in quantum-well models. The question asks whether magnetic coupling can make a non-square aspect ratio energetically preferable.
 
@@ -23,9 +27,7 @@ Rectangular confinement is common in quantum-well models. The question asks whet
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 The nonmagnetic rectangle result follows from separation of variables, which the magnetic coupling prevents. The 2026 result establishes asymptotic symmetry at large field; it explicitly leaves optimality at each fixed field open.
 

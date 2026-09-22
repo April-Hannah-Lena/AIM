@@ -2,7 +2,7 @@
 
 **Area:** Scheduling, resource allocation and graph colouring
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-18
 
@@ -25,7 +25,7 @@ $$
 
 Equivalently, is $\chi'_\ell(G)=\chi'(G)$ for every finite loopless multigraph, where the list chromatic index $\chi'_\ell(G)$ is the smallest integer $k$ for which every assignment of lists of size at least $k$ permits a proper edge-colouring? The lower bound follows by taking identical lists on all edges. All lists are given in advance. The question asks for existence, without a running-time requirement. The empty-edge case is automatic and is omitted only to avoid a convention for its indices.
 
-## Applied significance
+## Application
 
 Interpret vertices as resources and edges as unit-duration jobs that each occupy their two endpoint resources simultaneously. Colours represent time slots; jobs sharing a resource cannot run together. The list of a job specifies its available slots. This includes a basic model of direct packet exchanges with node contention, discussed by Iliopoulos–Sinclair in §1.
 
@@ -44,6 +44,12 @@ The conjecture asks whether giving every job at least the common-palette optimum
 9. Yi-Jun Chang and Nima Dolatabadi, *Introvert Clustering for Distributed Graph Algorithms*, [arXiv:2609.10044v1](https://arxiv.org/html/2609.10044v1), September 9, 2026. Preprint; §1, distributed model and Theorem 1.
 
 ## Status review
+
+**Known cases:** Galvin's theorem proves the exact list edge-colouring assertion for bipartite multigraphs.
+
+**Remaining target:** The exact common-palette optimum as a sufficient list size for every finite loopless multigraph.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Schauz states the multigraph conjecture explicitly; independently authored Dhawan §1 retains it in the 2025 work. Galvin's theorem settles bipartite multigraphs. Kahn's Theorem 1.1 gives asymptotic agreement with the fractional chromatic index, and Iliopoulos–Sinclair make an asymptotic guarantee constructive. A relative error tending to zero does not imply exact equality for every graph.
 

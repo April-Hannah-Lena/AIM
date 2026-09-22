@@ -2,7 +2,7 @@
 
 **Area:** Decentralized coordination and search theory
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -24,7 +24,7 @@ The strategy may depend on $n$ and may have arbitrary memory and temporal correl
 
 The first visit occurs at time zero and may already be a meeting; the problem is not conditioned on distinct starting locations. Sources that count the first visit as step one have an expected value larger by one. All numbers of locations are one problem family here, rather than separate entries.
 
-## Applied significance
+## Application
 
 The model measures the cost of coordination when two identical agents can use the same protocol but cannot assign complementary roles or agree on location names. Alpern's telephone interpretation has two rooms of terminals joined by an unknown matching: the agents must select connected terminals simultaneously before they can communicate. Rendezvous protocols also model repeated attempts to find a common communication channel. The optimum would quantify the delay inherent in this information constraint and provide a benchmark for decentralized search protocols. This idealized model assumes synchronized attempts and equal travel cost between locations; it is not a complete physical search-and-rescue model.
 
@@ -37,6 +37,8 @@ The model measures the cost of coordination when two identical agents can use th
 5. Varsha Dani, Thomas P. Hayes, Cristopher Moore and Alexander Russell, *Codes, lower bounds, and phase transitions in the symmetric rendezvous problem*, Random Structures & Algorithms 49(4) (2016), 742–765, [DOI](https://doi.org/10.1002/rsa.20691), [author preprint](https://arxiv.org/pdf/1609.01582v1). §2, Definitions 1–3; §3, Theorems 1–3 and Proposition 9.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The September 17, 2026 investigation covered symmetric rendezvous, discrete locations, complete graphs, the Mozart Café name, the original and later authors, recent proofs, counterexamples, corrections and version histories. Alpern's explicit problem and the independent Cembrano–Fischer–Klimm August 2026 revision support the formulation and remaining gap. Full access and scope comparisons are recorded in the [evidence ledger](../research/expansion-2026-09/candidates/symmetric-rendezvous-discrete-locations.json).
 

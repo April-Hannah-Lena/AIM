@@ -2,7 +2,7 @@
 
 **Area:** Composite materials and homogenization
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -16,7 +16,7 @@ Give explicit necessary and sufficient conditions on a tensor $C$ for membership
 $$G_\theta(C_1,C_2)=\overline{\{C_\chi^{\mathrm{hom}}:\chi\text{ as above}\}}.$$
 The characterization must cover arbitrary microstructures and the full tensor, rather than one selected loading energy.
 
-## Applied significance
+## Application
 
 This set describes all stiffnesses that can be manufactured from two elastic constituents in fixed proportions. Its characterization would give exact feasibility constraints for structural optimization.
 
@@ -26,5 +26,7 @@ This set describes all stiffnesses that can be manufactured from two elastic con
 - Krešimir Burazin, Ivana Crnjac and Marko Vrdoljak, [*Explicit Hashin–Shtrikman bounds in 3D linearized elasticity*](https://doi.org/10.2298/FIL2417033B) (2024), §1, especially pp. 6034–6035: explicitly states that the elastic G-closure remains unknown and specifies two ordered isotropic phases.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “two isotropic elastic phases G closure characterization solved 2025 2026” and “three dimensional elastic G closure”. The 2024 paper computes sharp bounds for selected primal and complementary energies; this does not characterize simultaneous attainability of all tensor components. The analogous two-phase scalar conductivity problem has a complete characterization, but its field equations differ.

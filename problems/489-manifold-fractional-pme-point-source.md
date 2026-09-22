@@ -2,7 +2,7 @@
 
 **Area:** Nonlocal PDEs; anomalous diffusion from a point source
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -20,7 +20,7 @@ $$\int_0^\infty\!\int_M u\,\partial_t\phi=\int_0^\infty\!\int_Mu^m(-\Delta_M)^s\
 for compactly supported smooth tests (with integrable right side), and
 $\lim_{t\downarrow0}\int_Mu(t)\psi=A\psi(o)$ for every bounded continuous $\psi$. No radial symmetry or homogeneity of $M$ is assumed.
 
-## Applied significance
+## Application
 
 A fundamental solution represents release of a concentrated amount of material and supplies a candidate reference profile for the spread of general concentrations.
 
@@ -30,5 +30,7 @@ A fundamental solution represents release of a concentrated amount of material a
 2. G. Grillo, *The Fractional Porous Medium Equation on noncompact Riemannian manifolds*, Oberwolfach Reports 14/2025, contribution on weak dual solutions and unresolved uniqueness/fundamental solutions. [Workshop report](https://ems.press/content/serial-article-files/51358?nt=1).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Both §7 of the 2024 paper and the 2025 Oberwolfach report explicitly leave existence for Dirac initial data open on this manifold class. Searches on 2026-09-22 checked fundamental solutions, measure data and later manifold diffusion publications. Known measure-data results for Euclidean fractional diffusion and nonfractional negatively curved diffusion do not cover this combination of geometry and operator. Only existence is requested; no unsupported universal asymptotic profile on arbitrary manifolds is asserted.

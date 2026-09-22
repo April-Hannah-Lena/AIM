@@ -2,7 +2,7 @@
 
 **Area:** Rarefied-gas kinetics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -16,7 +16,7 @@ Are two nonnegative renormalized solutions with the same initial datum necessari
 $$(\partial_t+v\cdot\nabla_x)\beta(f)=\beta'(f)Q(f,f)$$
 holds distributionally for every $C^1$ renormalization with $|\beta'(z)|\leq C/(1+z)$. Require the initial trace in $L^1$, conservation of mass and momentum, the energy inequality, and the entropy inequality $H(f_t)+\int_0^tD(f_s)ds\leq H(f_0)$, where $H(f)=\int f\log f$ and $D(f)=-\int Q(f,f)\log f\geq0$ is interpreted by its nonnegative collision integral.
 
-## Applied significance
+## Application
 
 This asks whether the natural large-data kinetic theory determines one gas evolution from its initial distribution, without assuming the regularity needed for classical solutions.
 
@@ -27,5 +27,7 @@ This asks whether the natural large-data kinetic theory determines one gas evolu
 - Rafael Galeano Andrades and Mario Almanza Caro, [*Uniqueness of solutions to Boltzmann equations*](https://arxiv.org/abs/2006.08011) (2020 preprint), §2, Theorem 2.1 and subsequent contraction assumptions: a claim screened during the status check.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “DiPerna Lions renormalized Boltzmann uniqueness proof 2025 2026” and the title of the 2020 uniqueness preprint. That preprint introduces additional contraction hypotheses, including an explicit constant smaller than one; these are not consequences of finite mass, energy and entropy. The 2026 primary article continues to identify the unrestricted uniqueness problem as open. Boundary regularity and perturbative mild-solution uniqueness address narrower classes.

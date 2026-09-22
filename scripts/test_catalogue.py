@@ -2,6 +2,7 @@
 """Catalogue integrity tests on disposable copies; standard library only."""
 import json
 from pathlib import Path
+import re
 import shutil
 import subprocess
 import sys
@@ -10,6 +11,17 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 GENERATED = ('README.md', 'CATALOG.md', 'RESOLVED.md')
+BADGES = {
+    'Open': '🔵 OPEN',
+    'Partially resolved': '🟡 PARTIAL',
+    'Solution claimed': '🟠 SOLUTION CLAIMED',
+    'Solved': '✅ SOLVED',
+    'Lean verified': '🏆 LEAN VERIFIED',
+    'Needs verification': '⚪ NEEDS VERIFICATION',
+    'Withdrawn': '⚫ WITHDRAWN',
+}
+ARCHIVE_STATUSES = ('Lean verified', 'Solved', 'Solution claimed',
+                    'Needs verification', 'Withdrawn')
 
 
 class CatalogueTests(unittest.TestCase):
@@ -26,6 +38,7 @@ class CatalogueTests(unittest.TestCase):
         result = subprocess.run([sys.executable, 'scripts/catalogue.py', mode],
                                 cwd=self.root, capture_output=True, text=True)
         self.assertEqual(result.returncode, expected, result.stdout + result.stderr)
+        self.assertNotIn('Traceback (most recent call last)', result.stderr)
         if message:
             self.assertIn(message, result.stdout)
 
@@ -53,6 +66,59 @@ class CatalogueTests(unittest.TestCase):
         path = self.root / row['file']
         path.write_text(edit(path.read_text()))
 
+    def set_page_status(self, path, status):
+        path.write_text(re.sub(r'^\*\*Status:\*\*.*$',
+                               f'**Status:** {BADGES[status]}',
+                               path.read_text(), flags=re.MULTILINE))
+
+    def set_partial_page(self, path):
+        self.set_page_status(path, 'Partially resolved')
+        text = path.read_text()
+        notes = {
+            'Known cases': 'The cited work establishes the target for balls.',
+            'Remaining target': 'The target remains open for arbitrary admissible domains.',
+        }
+        for field, content in notes.items():
+            if f'**{field}:**' not in self.section(text, 'Status review'):
+                text = text.replace('## Status review\n',
+                                    f'## Status review\n\n**{field}:** {content}\n', 1)
+        path.write_text(text)
+
+    def set_application(self, body):
+        self.change_page(lambda text: re.sub(
+            r'(## Application\n).*?(?=\n## |\Z)',
+            lambda match: match[1] + '\n' + body + '\n', text, flags=re.DOTALL))
+
+    def add_retired_fixtures(self, statuses):
+        manifest = self.read_json('catalogue.json')
+        first_id = max(int(i) for batch in manifest['batches'] for i in batch['ids']) + 1
+        original = self.read_json('data/spectral.json')[0]
+        template = (self.root / original['file']).read_text()
+        fixtures = []
+        for offset, status in enumerate(statuses):
+            identifier = f'{first_id + offset:03d}'
+            row = {'id': identifier, 'title': f'Temporary {status.lower()} target',
+                   'status': status, 'last_checked': original['last_checked'],
+                   'reason': f'Temporary review for {identifier}',
+                   'record': f'research/test-{identifier}.md'}
+            content = template.replace(f"# {original['id']}. {original['title']}",
+                                       f"# {identifier}. {row['title']}", 1)
+            path = self.root / row['record']
+            path.write_text(content)
+            self.set_page_status(path, status)
+            if status == 'Lean verified':
+                row['verification_record'] = f'research/test-{identifier}-lean.md'
+                (self.root / row['verification_record']).write_text(
+                    '# Lean verification evidence\n\n'
+                    'Synthetic fixture: theorem name, proof commit, Lean version, '
+                    'build command and successful output are documented here.\n')
+            manifest['retired'].append(row)
+            fixtures.append(row)
+        manifest['batches'].append({'key': 'retained-test', 'title': 'Retained test',
+                                   'ids': [row['id'] for row in fixtures]})
+        self.write_json('catalogue.json', manifest)
+        return fixtures
+
     def test_baseline_and_preservation(self):
         originals = {p.relative_to(self.root): p.read_bytes()
                      for p in (self.root / 'problems').glob('*.md')}
@@ -76,16 +142,24 @@ class CatalogueTests(unittest.TestCase):
         self.assertNotRegex(readme, r'(?m)^\| \d{3,} \|')
         self.assertNotIn('| Publication batch |', readme)
         self.assertIn('| Publication batch |', catalogue)
+        self.assertEqual(manifest['schema_version'], 2)
+        self.assertIn('| Status |', catalogue)
         for group in manifest['groups']:
             self.assertNotIn(f"## {group['title']}\n", readme)
             section = self.section(catalogue, group['title'])
             for row in self.read_json(f"data/{group['key']}.json"):
                 self.assertIn(f"| {row['id']} |", section)
                 self.assertIn(f"]({row['file']})", section)
+                line = next(line for line in section.splitlines()
+                            if line.startswith(f"| {row['id']} |"))
+                self.assertIn(BADGES[row['status']], line)
         for row in manifest['retired']:
             self.assertNotIn(f"| {row['id']} |", catalogue)
             self.assertIn(f"| {row['id']} |", resolved)
             self.assertIn(f"]({row['record']})", resolved)
+            line = next(line for line in resolved.splitlines()
+                        if line.startswith(f"| {row['id']} |"))
+            self.assertIn(BADGES[row['status']], line)
         claimed = self.section(resolved, 'Solution claimed')
         self.assertIn('| 077 |', claimed)
         self.assertNotIn('| 077 |', self.section(resolved, 'Solved'))
@@ -101,6 +175,96 @@ class CatalogueTests(unittest.TestCase):
     def test_missing_metadata(self):
         self.change_row(lambda rows: rows[0].pop('status'))
         self.run_catalogue(expected=1, message='incomplete metadata')
+
+    def test_invalid_active_status(self):
+        original = self.read_json('data/spectral.json')
+        path = self.root / original[0]['file']
+        original_page = path.read_text()
+        for status in (*ARCHIVE_STATUSES, 'open', 'Retired', '', '   ', None, 123, [], {}):
+            with self.subTest(status=status):
+                self.write_json('data/spectral.json', original)
+                path.write_text(original_page)
+                self.change_row(lambda rows: rows[0].update(status=status))
+                if isinstance(status, str) and status in BADGES:
+                    self.set_page_status(path, status)
+                self.run_catalogue(expected=1)
+
+    def test_partial_status_remains_in_open_catalogue_and_count(self):
+        row = self.read_json('data/spectral.json')[0]
+        self.change_row(lambda rows: rows[0].update(status='Partially resolved'))
+        self.set_partial_page(self.root / row['file'])
+        self.run_catalogue()
+        self.run_catalogue('--check')
+        catalogue = (self.root / 'CATALOG.md').read_text()
+        line = next(line for line in catalogue.splitlines()
+                    if line.startswith(f"| {row['id']} |"))
+        self.assertIn('🟡 PARTIAL', line)
+        self.assertNotIn(f"| {row['id']} |", (self.root / 'RESOLVED.md').read_text())
+        self.assertIn(f'**{len(self.active_entries())} open targets**',
+                      (self.root / 'README.md').read_text())
+
+    def test_partial_status_requires_known_cases_and_remaining_target(self):
+        row = self.read_json('data/spectral.json')[0]
+        self.change_row(lambda rows: rows[0].update(status='Partially resolved'))
+        path = self.root / row['file']
+        self.set_partial_page(path)
+        original = path.read_text()
+        for field in ('Known cases', 'Remaining target'):
+            for change in ('missing', 'empty', 'outside review'):
+                with self.subTest(field=field, change=change):
+                    pattern = rf'^\*\*{field}:\*\*.*\n'
+                    content = re.search(pattern, original, re.MULTILINE)[0]
+                    replacement = f'**{field}:** \n' if change == 'empty' else ''
+                    text = re.sub(pattern, replacement, original, flags=re.MULTILINE)
+                    if change == 'outside review':
+                        text = text.replace('## Problem statement\n',
+                                            f'## Problem statement\n\n{content}', 1)
+                    path.write_text(text)
+                    self.run_catalogue(expected=1,
+                                       message=f'Partial requires {field} in Status review')
+
+    def test_status_badge_must_match_metadata(self):
+        row = self.read_json('data/spectral.json')[0]
+        path = self.root / row['file']
+        original = path.read_text()
+        for badge in ('Open', BADGES['Solved'], '', '🔵 OPEN in cited literature',
+                      BADGES[row['status']] + '.'):
+            with self.subTest(badge=badge):
+                path.write_text(re.sub(r'^\*\*Status:\*\*.*$',
+                                       '**Status:** ' + badge,
+                                       original, flags=re.MULTILINE))
+                self.run_catalogue(expected=1)
+
+    def test_status_badge_must_precede_first_section(self):
+        def move_status(text):
+            line = re.search(r'^\*\*Status:\*\*.*$', text, re.MULTILINE)[0]
+            text = text.replace(line + '\n', '', 1)
+            return text.replace('## Status review\n', '## Status review\n\n' + line, 1)
+        self.change_page(move_status)
+        self.run_catalogue(expected=1)
+
+    def test_missing_status_badge(self):
+        self.change_page(lambda text: re.sub(r'^\*\*Status:\*\*.*\n', '',
+                                            text, flags=re.MULTILINE))
+        self.run_catalogue(expected=1)
+
+    def test_missing_application(self):
+        self.change_page(lambda text: text.replace('## Application\n', '## Motivation\n'))
+        self.run_catalogue(expected=1, message='missing Application')
+
+    def test_empty_or_placeholder_application(self):
+        for body in ('', '   \n\t', 'TODO', 'TBD', 'N/A'):
+            with self.subTest(body=body):
+                self.set_application(body)
+                self.run_catalogue(expected=1)
+
+    def test_application_prose_is_preserved(self):
+        body = ('A positive result would give rigorous frequency bounds for vibrating '
+                'structures from geometric information, supporting resonance avoidance.')
+        self.set_application(body)
+        self.run_catalogue()
+        row = self.read_json('data/spectral.json')[0]
+        self.assertIn(body, (self.root / row['file']).read_text())
 
     def test_missing_heading(self):
         self.change_page(lambda text: text.replace('## References', '## Reading'))
@@ -206,8 +370,9 @@ class CatalogueTests(unittest.TestCase):
 
     def test_retired_id_cannot_be_reused(self):
         manifest = self.read_json('catalogue.json')
-        manifest['retired'].append({'id': '001', 'reason': 'Test only',
-                                    'record': 'research/METHODOLOGY.md'})
+        row = dict(manifest['retired'][0])
+        row['id'] = '001'
+        manifest['retired'].append(row)
         self.write_json('catalogue.json', manifest)
         self.run_catalogue(expected=1, message='Duplicate ID')
 
@@ -221,59 +386,58 @@ class CatalogueTests(unittest.TestCase):
         old_path = self.root / row['file']
         record = f"research/retired-{row['id']}.md"
         old_path.rename(self.root / record)
+        self.set_page_status(self.root / record, 'Withdrawn')
         for path in self.root.rglob('*.md'):
             content = path.read_text().replace(row['file'], record)
             if path.parent == self.root / 'problems':
                 content = content.replace(f']({old_path.name})', f'](../{record})')
             path.write_text(content)
-        manifest['retired'].append({'id': row['id'], 'reason': 'Test only', 'record': record})
+        manifest['retired'].append({'id': row['id'], 'title': row['title'],
+                                    'status': 'Withdrawn', 'last_checked': row['last_checked'],
+                                    'reason': 'Test only', 'record': record})
         self.write_json('catalogue.json', manifest)
         self.run_catalogue()
         self.run_catalogue('--check')
         resolved = (self.root / 'RESOLVED.md').read_text()
-        self.assertIn(f"[Entry {row['id']}]({record})",
-                      self.section(resolved, 'Other retained entries'))
+        self.assertIn(f"[{row['title']}]({record})",
+                      self.section(resolved, 'Withdrawn'))
+        self.assertIn('⚫ WITHDRAWN', self.section(resolved, 'Withdrawn'))
         self.assertIn('| 077 |', self.section(resolved, 'Solution claimed'))
         self.assertIn(f'**{len(self.active_entries())} open targets**',
                       (self.root / 'README.md').read_text())
 
     def test_retained_status_sections(self):
-        manifest = self.read_json('catalogue.json')
-        first_id = max(int(i) for batch in manifest['batches'] for i in batch['ids']) + 1
-        fixtures = []
-        for offset, status in enumerate(('Solved', 'Solution claimed', 'Retired')):
-            identifier = f'{first_id + offset:03d}'
-            row = {'id': identifier, 'title': f'Temporary {status.lower()} target',
-                   'status': status, 'reason': f'Temporary review for {identifier}',
-                   'record': f'research/test-{identifier}.md'}
-            (self.root / row['record']).write_text(f"# {row['title']}\n")
-            manifest['retired'].append(row)
-            fixtures.append(row)
-        manifest['batches'].append({'key': 'retained-test', 'title': 'Retained test',
-                                   'ids': [row['id'] for row in fixtures]})
-        self.write_json('catalogue.json', manifest)
+        fixtures = self.add_retired_fixtures(ARCHIVE_STATUSES)
         self.run_catalogue()
         self.run_catalogue('--check')
         resolved = (self.root / 'RESOLVED.md').read_text()
         catalogue = (self.root / 'CATALOG.md').read_text()
-        headings = ('Solved', 'Solution claimed', 'Other retained entries')
-        for row, heading in zip(fixtures, headings):
+        for row in fixtures:
             with self.subTest(status=row['status']):
-                section = self.section(resolved, heading)
+                section = self.section(resolved, row['status'])
                 self.assertIn(f"| {row['id']} |", section)
                 self.assertIn(f"[{row['title']}]({row['record']})", section)
                 self.assertIn(row['reason'], section)
+                self.assertIn('| Status |', section)
+                self.assertIn(BADGES[row['status']], section)
                 self.assertNotIn(f"| {row['id']} |", catalogue)
-                for other_heading in headings:
-                    if other_heading != heading:
+                if row['status'] == 'Lean verified':
+                    self.assertIn(f"]({row['verification_record']})", section)
+                for other_heading in ARCHIVE_STATUSES:
+                    if other_heading != row['status']:
                         self.assertNotIn(f"| {row['id']} |",
                                          self.section(resolved, other_heading))
-        self.assertIn(f'**{len(self.active_entries())} open targets**',
-                      (self.root / 'README.md').read_text())
+        readme = (self.root / 'README.md').read_text()
+        self.assertIn(f'**{len(self.active_entries())} open targets**', readme)
+        self.assertIn('**1 solved entr', readme)
+        self.assertIn('**1 Lean verified', readme)
+        self.assertIn('**2 solution claims**', readme)
+        self.assertNotIn('## Other retained entries', resolved)
 
-    def test_invalid_optional_retirement_metadata(self):
+    def test_invalid_retirement_metadata(self):
         for field, values in (('title', ('', '   ', None, 123)),
-                              ('status', ('', 'solved', 'Open', None, 123, [], {}))):
+                              ('status', ('', 'solved', 'Open', 'Partially resolved',
+                                          'Retired', None, 123, [], {}))):
             for value in values:
                 with self.subTest(field=field, value=value):
                     manifest = self.read_json('catalogue.json')
@@ -283,6 +447,74 @@ class CatalogueTests(unittest.TestCase):
                     self.run_catalogue(expected=1, message=f'invalid retired {field}')
                     manifest['retired'][0] = original
                     self.write_json('catalogue.json', manifest)
+
+    def test_missing_retirement_metadata(self):
+        original = self.read_json('catalogue.json')
+        for field in ('id', 'title', 'status', 'last_checked', 'reason', 'record'):
+            with self.subTest(field=field):
+                manifest = json.loads(json.dumps(original))
+                manifest['retired'][0].pop(field)
+                self.write_json('catalogue.json', manifest)
+                self.run_catalogue(expected=1)
+
+    def test_retired_page_metadata_must_match(self):
+        manifest = self.read_json('catalogue.json')
+        row = manifest['retired'][0]
+        path = self.root / row['record']
+        original = path.read_text()
+        edits = {
+            'title': lambda text: text.replace(row['title'], 'Wrong title', 1),
+            'id': lambda text: text.replace(f"# {row['id']}.", '# 999.', 1),
+            'status': lambda text: text.replace(BADGES[row['status']], BADGES['Solved'], 1),
+            'date': lambda text: text.replace(row['last_checked'], '2000-01-01'),
+            'area': lambda text: re.sub(r'^\*\*Area:\*\*.*$', '**Area:** ',
+                                        text, flags=re.MULTILINE),
+        }
+        for field, edit in edits.items():
+            with self.subTest(field=field):
+                path.write_text(edit(original))
+                self.run_catalogue(expected=1)
+
+    def test_retired_page_requires_complete_sections(self):
+        row = self.read_json('catalogue.json')['retired'][0]
+        path = self.root / row['record']
+        original = path.read_text()
+        for heading in ('Problem statement', 'Application', 'References', 'Status review'):
+            with self.subTest(heading=heading):
+                path.write_text(original.replace(f'## {heading}\n', '## Removed\n'))
+                self.run_catalogue(expected=1, message=f'missing {heading}')
+
+    def test_retired_application_cannot_be_empty(self):
+        row = self.read_json('catalogue.json')['retired'][0]
+        path = self.root / row['record']
+        path.write_text(re.sub(r'(## Application\n).*?(?=\n## |\Z)',
+                               r'\1\n   \n', path.read_text(), flags=re.DOTALL))
+        self.run_catalogue(expected=1)
+
+    def test_lean_verification_record_is_required(self):
+        self.add_retired_fixtures(('Lean verified',))
+        manifest = self.read_json('catalogue.json')
+        manifest['retired'][-1].pop('verification_record')
+        self.write_json('catalogue.json', manifest)
+        self.run_catalogue(expected=1)
+
+    def test_lean_verification_record_must_be_nonempty_local_markdown(self):
+        row = self.add_retired_fixtures(('Lean verified',))[0]
+        manifest = self.read_json('catalogue.json')
+        path = self.root / row['verification_record']
+        for value in ('', '   \n'):
+            with self.subTest(contents=value):
+                path.write_text(value)
+                self.run_catalogue(expected=1)
+        path.unlink()
+        self.run_catalogue(expected=1)
+        for value in ('https://example.com/proof.md', 'research/proof.txt', None, [], {}):
+            with self.subTest(record=value):
+                manifest['retired'][-1]['verification_record'] = value
+                self.write_json('catalogue.json', manifest)
+                if value == 'research/proof.txt':
+                    (self.root / value).write_text('This is not a Markdown evidence record.\n')
+                self.run_catalogue(expected=1)
 
 
 if __name__ == '__main__':

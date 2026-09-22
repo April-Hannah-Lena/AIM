@@ -2,7 +2,7 @@
 
 **Area:** Random interfaces and growth fluctuations
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ On the nearest-neighbor graph of $\mathbb Z^2$, let independent edge times have 
 $$\lim_{n\to\infty}\frac{\log\operatorname{Var}(T_n)}{\log n}=\frac23.$$
 Paths may move in all four lattice directions. This is the undirected minimum-passage model, not a directed maximum-passage model.
 
-## Applied significance
+## Application
 
 The exponent quantifies uncertainty in stochastic growth fronts and tests the predicted KPZ universality of propagation through random media.
 
@@ -22,6 +22,8 @@ The exponent quantifies uncertainty in stochastic growth fronts and tests the pr
 - [Riddhipratim Basu, Vladas Sidoravicius and Allan Sly, *Rotationally invariant first passage percolation: Breaking the n/log n variance barrier* (2026 preprint)](https://arxiv.org/abs/2604.01214), introduction and model scope.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The April 2026 paper obtains a polynomial improvement of a variance bound for a rotationally invariant Riemannian model. It explicitly distinguishes the unresolved lattice fluctuation problem. Exactly solvable last-passage results do not imply the displayed limit.
 

@@ -2,7 +2,7 @@
 
 **Area:** Liquid-crystal continuum mechanics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -12,7 +12,7 @@ Let $\Omega\subset\mathbb R^3$ be a bounded smooth domain, let $g:\partial\Omega
 $$E(n)=\frac12\int_\Omega\left[k_1(\operatorname{div}n)^2+k_2(n\cdot\operatorname{curl}n)^2+k_3|n\times\operatorname{curl}n|^2\right]dx.$$
 For every global minimizer, is its interior singular set locally finite? Here a point is singular if no neighborhood admits a smooth representative of $n$; locally finite means that every compact subset of $\Omega$ contains only finitely many such points.
 
-## Applied significance
+## Application
 
 Point-defect descriptions underlie simulations and optical predictions for nematics with unequal splay, twist and bend constants. A dimension bound alone does not justify a finite collection of defects.
 
@@ -22,5 +22,7 @@ Point-defect descriptions underlie simulations and optical predictions for nemat
 - Zhiyuan Dai, Haotong Fu, Huaijie Wang and Wei Wang, [*Boundary regularity for Oseen–Frank minimizers with arbitrary positive splay, twist, and bend constants*](https://arxiv.org/abs/2608.22287) (2026 preprint), §1.1 and Theorem 1.1: boundary regularity for the full range of positive constants.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “Oseen Frank minimizer interior singular set finite points” and “Oseen Frank regularity 2025 2026”. The August 2026 preprint proves smoothness in a neighborhood of the boundary. Its remaining interior estimate, like the older theory, does not establish isolated interior defects for arbitrary elastic constants. The omitted saddle-splay term is a null Lagrangian under the fixed trace and does not change the minimizing question.

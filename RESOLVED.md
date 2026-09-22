@@ -4,6 +4,12 @@
 
 This archive lists previously admitted targets that are no longer counted as open. A solution claim is not a verified solution. Each linked record preserves the original statement, permanent ID, sources, review date, and the scope of the review actually performed.
 
+## Lean verified
+
+Complete resolutions with a reviewed Lean proof, statement comparison, and reproducible kernel-checking evidence. The evidence link records exactly what was checked.
+
+No Lean-verified entries are currently recorded in this archive.
+
 ## Solved
 
 Documented resolutions of the exact target. Consult each record for the proof source and the kind of review performed.
@@ -14,15 +20,21 @@ No solved entries are currently recorded in this archive.
 
 A matching complete resolution has been announced, but independent proof review remains outstanding.
 
-| ID | Problem and status record | Reason |
-| --- | --- | --- |
-| 077 | [Finite-time singularity for smooth three-dimensional Euler flow without a boundary](research/expansion-2026-09-22/077-euler-claimed-resolution.md) | Matching Euler blow-up resolution announced on 2026-09-08; held outside the active count pending independent review. |
+| ID | Problem and status record | Status | Last checked | Reason |
+| --- | --- | --- | --- | --- |
+| 077 | [Finite-time singularity for smooth three-dimensional Euler flow without a boundary](research/expansion-2026-09-22/077-euler-claimed-resolution.md) | 🟠 SOLUTION CLAIMED | 2026-09-22 | Matching Euler blow-up resolution announced on 2026-09-08; held outside the active count pending independent review. |
 
-## Other retained entries
+## Needs verification
 
-Entries removed for reasons other than a recorded solution or solution claim. Retirement alone does not mean that a target is solved.
+Entries held for a material statement or status issue. This status does not assert a solution.
 
-No other retired entries are currently recorded.
+No entries currently need verification in this archive.
+
+## Withdrawn
+
+Entries removed for a documented reason, with their original statements and IDs retained. Withdrawal does not imply a solution.
+
+No withdrawn entries are currently recorded.
 
 ## Reporting a solution
 

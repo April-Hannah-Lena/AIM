@@ -2,7 +2,7 @@
 
 **Area:** Diffusion and transport in random environments
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ At each $x\in\mathbb Z^3$, sample independently an identically distributed proba
 $$P(X_n\cdot\ell\longrightarrow+\infty)=1$$
 imply the existence of a deterministic $v$ with $v\cdot\ell>0$ and $P(X_n/n\to v)=1$?
 
-## Applied significance
+## Application
 
 The statement asks whether persistent transport through an independently disordered medium must have positive macroscopic velocity, or can be slowed to zero by traps.
 
@@ -22,6 +22,8 @@ The statement asks whether persistent transport through an independently disorde
 - [Enrique Guerra and Alejandro F. Ramírez, *A proof of Sznitman's conjecture about ballistic RWRE* (2020)](https://arxiv.org/abs/1809.02011), abstract and main theorem.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Guerra–Ramírez prove equivalence of several quantitative ballisticity conditions, while explicitly distinguishing transience-implies-ballisticity. Their title therefore does not resolve this entry. The dimension is fixed at three and uniform ellipticity is essential to the intended question.
 

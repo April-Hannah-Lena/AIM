@@ -2,7 +2,7 @@
 
 **Area:** Inverse boundary problems / anisotropic wave media
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -15,7 +15,7 @@ $$
 $$
 Must $\Lambda_{g,q_1}=\Lambda_{g,q_2}$ imply $q_1=q_2$ for every such manifold and pair of potentials? The metric is fixed and known; the map is measured at the single frequency zero.
 
-## Applied significance
+## Application
 
 This separates recovery of an absorption or reaction coefficient from recovery of a known anisotropic background geometry in boundary imaging.
 
@@ -25,6 +25,8 @@ This separates recovery of an absorption or reaction coefficient from recovery o
 2. S. Ma, S. K. Sahoo and M. Salo, *The anisotropic Calderón problem at large fixed frequency on manifolds with invertible ray transform*, Journal of the London Mathematical Society **110** (2024), e13006, introduction. [Paper](https://doi.org/10.1112/jlms.13006); [preprint](https://arxiv.org/abs/2207.02623).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Both references explicitly distinguish the open smooth higher-dimensional fixed-frequency potential problem from results in special geometries. Reference 2 proves a high-frequency theorem under a stable ray-transform hypothesis; neither high frequency nor that geometry is assumed here. Full frequency-dependent data would constitute a stronger experiment.
 

@@ -2,7 +2,7 @@
 
 **Area:** Numerical PDE solvers and preconditioning
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -14,7 +14,7 @@ Construct an algebraic multigrid algorithm, with explicitly specified smoothing,
 $$aM^{-1}\preceq Z\preceq bM^{-1}$$
 for constants $0<a\le b<\infty$ independent of $n$ and $M$. Here $\preceq$ is the positive-semidefinite order, $\operatorname{nnz}$ counts nonzeros and $\widetilde O$ suppresses logarithms in $n$; constants may depend on fixed $c$.
 
-## Applied significance
+## Application
 
 This would give a uniformly convergent multilevel solver for a broad class of diffusion and network discretizations, with work proportional to the sparse input size per cycle.
 
@@ -24,6 +24,8 @@ This would give a uniformly convergent multilevel solver for a broad class of di
 2. N. Amsel et al., [Linear Systems and Eigenvalue Problems: Open Questions from a Simons Workshop](https://arxiv.org/abs/2602.05394), 2026; Definitions 2.1–2.2 and Problem 2.3.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. Problem 2.3 explicitly requests this AMG guarantee. General nearly linear Laplacian solvers do not automatically provide the specified multigrid structure. No subsequent solution was located.
 

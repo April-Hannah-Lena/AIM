@@ -2,6 +2,10 @@
 
 **Area:** Boundary-mode degeneracy
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Does there exist a fixed integer $b\ge1$ and a sequence of smooth compact connected orientable Riemannian surfaces $(M_j,g_j)$, each with exactly $b$ boundary components, such that
@@ -10,7 +14,7 @@ $$\dim\{u:\Delta_{g_j}u=0,\ \partial_\nu u=\sigma_1(M_j,g_j)u\}\longrightarrow\i
 
 Here $\sigma_1$ is the first positive eigenvalue of the ordinary, unweighted Steklov problem. The genus and metric may vary; $b$ must not vary. Boundary length may be normalized to one by scaling.
 
-## Applied significance
+## Application
 
 This asks whether arbitrarily many lowest boundary-vibration modes can coincide while the number of boundary components stays fixed, by increasing interior topology.
 
@@ -21,9 +25,7 @@ This asks whether arbitrarily many lowest boundary-vibration modes can coincide 
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Audet-Beaumont proves arbitrarily large first multiplicity when the number of boundary components also grows. Remark 1.3 separates the still-open fixed-count question. Fixed-genus upper bounds explain why the allowed genus must grow, and do not rule out the sequence asked for here.
 

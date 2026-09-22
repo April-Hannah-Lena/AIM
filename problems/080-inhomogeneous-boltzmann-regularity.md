@@ -2,7 +2,7 @@
 
 **Area:** Kinetic theory
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -18,7 +18,7 @@ where $v'=(v+v_*)/2+|v-v_*|\sigma/2$ and
 $v_*'=(v+v_*)/2-|v-v_*|\sigma/2$; all factors have the same $(t,x)$.
 For every strictly positive smooth datum, rapidly decreasing with all derivatives in $v$ and bounded below by some $a e^{-b|v|^2}$ with $a,b>0$, does a unique global smooth solution exist? This fixes the angular-cutoff hard-sphere kernel and imposes no closeness to a Maxwellian.
 
-## Applied significance
+## Application
 
 The question asks whether the kinetic model underlying dilute-gas simulation remains regular far from thermodynamic equilibrium.
 
@@ -28,6 +28,8 @@ The question asks whether the kinetic model underlying dilute-gas simulation rem
 - [Christopher Henderson, Stanley Snelson and Andrei Tarfulea, *Classical solutions of the Boltzmann equation with irregular initial data* (Ann. Sci. Éc. Norm. Supér., 2025), local large-data and global near-equilibrium results for the non-cutoff setting](https://arxiv.org/abs/2207.03497).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The survey separates unrestricted inhomogeneous smoothness from global renormalized solutions. The 2025 paper's global conclusion requires near-equilibrium data and concerns non-cutoff collisions. Searches for later large-data global theorems located results with additional restrictions, not this arbitrary-data hard-sphere assertion.
 

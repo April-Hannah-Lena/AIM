@@ -2,6 +2,10 @@
 
 **Area:** Geometric mechanics / constrained ray dynamics
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Does there exist a smooth embedding $\gamma:\mathbb R/\ell\mathbb Z\to\mathbb R^3$, parametrized by Euclidean arclength, with nowhere-zero curvature and nonplanar image, satisfying the following conditions?
@@ -14,7 +18,7 @@ $$
 
 with the unique next point $r$ distinct from $t$. Require the entire annulus of ordered distinct points to be foliated by continuous $T$-invariant simple curves winding once around it. The stationarity equation is the equal-angle reflection rule with respect to the wire tangent.
 
-## Applied significance
+## Application
 
 Wire billiards extend stationary optical paths to reflection constrained along a space curve. A nonplanar integrable example would provide a tractable three-dimensional model with a complete family of organized trajectories.
 
@@ -25,8 +29,6 @@ Wire billiards extend stationary optical paths to reflection constrained along a
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13
+**Literature check:** Open in cited literature; no later resolution located.
 
 Closed homogeneous examples in four or more dimensions and nonclosed round helices do not meet the statement. The original paper conjectures a rigidity principle that would preclude such a three-dimensional example. Searches included “wire billiards integrable closed R3 2026”, “nonplanar totally integrable wire”, and “Bialy Mironov Tabachnikov wire new examples”. No construction or exclusion theorem for this class was located.

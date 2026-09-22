@@ -2,7 +2,7 @@
 
 **Area:** Image segmentation and fracture
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -16,7 +16,7 @@ $$
 over relatively closed sets $K\subset\Omega$ of finite length and $u\in H^1(\Omega\setminus K)$. Use a reduced minimizer: remove irrelevant zero-length additions to $K$ and take $K$ to be the support in $\Omega$ of $\mathcal H^1\!\restriction K$.
 Must $K$ locally consist of finitely many embedded $C^1$ arcs whose only interior singularities are isolated free endpoints and junctions of three arcs with pairwise tangent angles $120^\circ$? In particular, neither singularities nor distinct components may accumulate inside $\Omega$. The assertion concerns the interior, not boundary regularity.
 
-## Applied significance
+## Application
 
 The functional is a standard model for image edges and brittle cracks. The conjecture predicts a finite, interpretable local structure for optimal discontinuity sets.
 
@@ -26,6 +26,8 @@ The functional is a standard model for image edges and brittle cracks. The conje
 - [Camille Labourie and Antoine Lemenant, *Finite number of traces for Mumford–Shah minimizers in dimension 2* (Comptes Rendus Mathématique, 2026), introduction](https://doi.org/10.5802/crmath.826).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2025 monograph treats the conjecture and its equivalent global-minimizer classifications. The April 2026 paper bounds the number of limit values near the singular set; this does not give its complete arc/junction structure. The full planar regularity conjecture was not resolved in the later literature located.
 

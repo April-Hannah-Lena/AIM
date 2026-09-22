@@ -2,6 +2,10 @@
 
 **Area:** Relativistic quantum chemistry
 
+**Status:** 🟡 PARTIAL
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $\sigma_1=\begin{pmatrix}0&1\\1&0\end{pmatrix}$, $\sigma_2=\begin{pmatrix}0&-i\\i&0\end{pmatrix}$, $\sigma_3=\operatorname{diag}(1,-1)$ be the Pauli matrices, $\alpha_j=\begin{pmatrix}0&\sigma_j\\\sigma_j&0\end{pmatrix}$, and $\beta=\operatorname{diag}(I_2,-I_2)$. Let $\mu$ be a nonnegative finite Borel measure on $\mathbb R^3$ with mass $\nu\in(0,1)$, and set
@@ -14,7 +18,7 @@ $$\lambda_1(\mu)=\inf_{0\ne\varphi\in C_c^\infty(\mathbb R^3;\mathbb C^2)}\ \sup
 
 Prove or disprove $\lambda_1(\mu)\ge\sqrt{1-\nu^2}$. The right side is the gap eigenvalue for $\mu=\nu\delta_0$; the assertion also prevents this first level from diving into the negative continuum.
 
-## Applied significance
+## Application
 
 It asks whether concentrating a fixed subcritical nuclear charge at one point produces the lowest relativistic electronic energy, a basic comparison for heavy nuclei and multi-center models.
 
@@ -25,9 +29,11 @@ It asks whether concentrating a fixed subcritical nuclear charge at one point pr
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
+**Known cases:** The displayed Dirac-level lower bound is established for radially symmetric charge measures.
 
-**Last checked:** 2026-09-08.
+**Remaining target:** The lower bound for every nonnegative charge measure of mass strictly between zero and one.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Part II proves existence and singular support properties of an optimizing charge measure below a critical coupling, not that the optimizer is a point mass. Radially symmetric measures are an established case. The search found no general resolution or improvement that establishes the displayed bound for every charge distribution of mass below one.
 

@@ -2,7 +2,7 @@
 
 **Area:** Stochastic PDEs; geophysical fluid dynamics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -17,7 +17,7 @@ in the Itô sense. The initial temperature $\theta_0$ is any deterministic smoot
 
 Does every such equation have a pathwise unique global adapted solution with paths in $C([0,T];H^3(\mathbb T^2))$ for every finite $T$, satisfying the integral equation in $H^1$? Equivalently, can its local $H^3$ solution blow up with positive probability? No smallness of the data or noise is imposed, and the $g_k$ need not be linear in $\theta$.
 
-## Applied significance
+## Application
 
 Critical SQG models surface temperature transport with borderline dissipative smoothing. The question tests whether that smoothing remains sufficient under nonlinear random forcing.
 
@@ -27,5 +27,7 @@ Critical SQG models surface temperature transport with borderline dissipative sm
 2. T. Liang and Y. Wang, *Sub-critical and critical stochastic quasi-geostrophic equations with infinite delay*, Discrete Contin. Dyn. Syst. B **26** (2021), 4697–4726, local pathwise theory at critical dissipation. [Article](https://doi.org/10.3934/dcdsb.2020309).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The survey explicitly leaves global existence and uniqueness at dissipation exponent $\alpha=1/2$ open; the statement selects smooth finite-dimensional Lipschitz noise to make the solution class concrete. Searches on 2026-09-22 checked critical stochastic SQG, nonlinear multiplicative forcing, and global regularity. Located results concern subcritical dissipation, local critical solutions, restricted noise, or modified SQG with Kraichnan transport noise; none settles the full class here. This is distinct from deterministic supercritical SQG already in the catalogue.

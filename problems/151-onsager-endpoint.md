@@ -2,6 +2,10 @@
 
 **Area:** Fluid mechanics and turbulence
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-08
+
 ## Problem statement
 
 Let $u\in C([0,T];C^{1/3}(\mathbb T^3;\mathbb R^3))$ solve, in distributions,
@@ -12,9 +16,9 @@ $$
 
 Here $C^{1/3}$ means that $\sup_{x\ne y}|u(x)-u(y)|/d(x,y)^{1/3}$ is finite. Must $E(t)=\tfrac12\int_{\mathbb T^3}|u(t,x)|^2\,dx$ be constant? Equivalently, decide whether an energy-changing weak Euler solution exists in this exact class.
 
-## Applied significance
+## Application
 
-This identifies whether the critical spatial roughness used in turbulence models can itself sustain an energy cascade.
+Turbulence models use transfer toward finer spatial scales to explain energy loss that persists at very small viscosity. This endpoint question determines whether an ideal incompressible flow with exactly one-third Hölder regularity can change its total kinetic energy, fixing the conservation threshold at the critical roughness.
 
 ## References
 
@@ -24,8 +28,6 @@ This identifies whether the critical spatial roughness used in turbulence models
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-08.
+**Literature check:** Open in cited literature; no later resolution located.
 
 Isett’s 2024 article explicitly leaves the endpoint open. The subcritical Onsager conjecture is already solved. Searches for “Onsager endpoint C 1/3 open problem 2026” and “Onsager energy conservation Cheskidov Constantin Friedlander Shvydkoy” found no resolution of the stated exact Hölder class. The vanishing small-scale increment condition used in known conservation theorems is stronger than the assumption here.

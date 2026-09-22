@@ -2,7 +2,7 @@
 
 **Area:** Matrix computation and complexity lower bounds
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -14,7 +14,7 @@ Construct a deterministic algorithm, polynomial in $n$, that outputs matrices $A
 $$R_{A_n}(\lfloor\alpha n\rfloor)\ge n^{1+\beta}.$$
 Equivalently, establish an explicit family at this linear target rank and superlinear alteration threshold. The field in the minimization is part of the requirement.
 
-## Applied significance
+## Application
 
 Rigidity measures whether a linear transform can be decomposed into a low-rank part plus a sparse correction. Explicit lower bounds constrain fast shallow circuits and clarify limits of such compression schemes.
 
@@ -25,6 +25,8 @@ Rigidity measures whether a linear transform can be decomposed into a low-rank p
 3. L. Hambardzumyan, K. Myasnikov, A. Riazanov, M. Shirley and A. Shraibman, [Spiky Rank and Its Applications to Rigidity and Circuits](https://drops.dagstuhl.de/storage/00lipics/lipics-vol374-icalp2026/html/LIPIcs.ICALP.2026.106/LIPIcs.ICALP.2026.106.html), ICALP 2026; introduction and open challenges. Confirms the explicit-construction gap.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. The 2026 sources still separate conditional or weaker constructions from the rigidity needed for Valiant’s application. No polynomial-time rational construction satisfying this bound over the complex numbers was located. Results for random matrices, exponentially encoded algebraic entries, or a different field do not automatically meet this formulation.
 

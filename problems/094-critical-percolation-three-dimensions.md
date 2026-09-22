@@ -2,7 +2,7 @@
 
 **Area:** Random media
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -14,7 +14,7 @@ $$
 $$
 The graph is the ordinary cubic lattice with only edges of Euclidean length one. This excludes long-range, hierarchical, slab and dependent percolation models.
 
-## Applied significance
+## Application
 
 The question asks whether the onset of macroscopic connectivity in a simple model of a porous medium is continuous.
 
@@ -24,6 +24,8 @@ The question asks whether the onset of macroscopic connectivity in a simple mode
 - [Hugo Duminil-Copin, Vladas Sidoravicius and Vincent Tassion, *Absence of infinite cluster for critical Bernoulli percolation on slabs* (2014 preprint), introduction](https://www.ihes.fr/~duminil/publi/2014criticalslab.pdf).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The first source explicitly contrasts long-range continuity with the open nearest-neighbor problem, including Z³. Slab results and recent hierarchical or Gaussian-free-field percolation results have different graphs or laws. Targeted searches through 2026 found no resolution of nearest-neighbor Bernoulli percolation at p_c in Z³.
 

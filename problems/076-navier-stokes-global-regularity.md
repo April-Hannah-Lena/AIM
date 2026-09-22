@@ -2,7 +2,7 @@
 
 **Area:** Fluid dynamics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -15,7 +15,7 @@ $$
 $$
 have a smooth solution on $\mathbb T^3\times[0,T]$ for every finite $T>0$ and every such datum? Pressure is normalized to have zero spatial mean. A negative answer must demonstrate failure of smooth continuation for an admissible datum. This is the periodic smooth-data version, with fixed positive viscosity.
 
-## Applied significance
+## Application
 
 This is the basic regularity question for the continuum model used in incompressible viscous-flow simulation.
 
@@ -27,6 +27,8 @@ This is the basic regularity question for the continuum model used in incompress
 - OpenAI, *Finite time blowup for Navier–Stokes* (September 2026 manuscript), Theorem 1.1 and Corollary 10.6. [Primary manuscript](https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 A September 8, 2026 announcement claims finite-time blowup for smooth **forced** Navier–Stokes flow. The primary manuscript’s Theorem 1.1 explicitly includes a smooth nonzero force and zero initial velocity; Corollary 10.6 transfers that construction to the torus. It therefore does not settle the **unforced** initial-value problem stated here. This distinction concerns the hypotheses, independently of whether the announced proof is ultimately accepted. No independent verification of that proof or its announced formalization is claimed by this catalogue.
 

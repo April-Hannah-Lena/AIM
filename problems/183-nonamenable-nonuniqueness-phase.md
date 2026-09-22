@@ -2,7 +2,7 @@
 
 **Area:** Percolation and network resilience
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ Let $G=(V,E)$ be infinite, connected, locally finite and vertex-transitive. Assu
 $$\inf_{\varnothing\ne K\subset V,\ |K|<\infty}\frac{|\partial_E K|}{|K|}>0,$$
 where $\partial_EK$ consists of edges with exactly one endpoint in $K$. For independent bond percolation, set $p_c=\inf\{p:\mathbb P_p(\text{an infinite open cluster exists})>0\}$ and $p_u=\inf\{p:\mathbb P_p(\text{exactly one infinite open cluster exists})=1\}$. Must $p_c<p_u$?
 
-## Applied significance
+## Application
 
 A strict gap gives a regime with several macroscopic conducting regions before the network forms one global connected phase.
 
@@ -23,6 +23,12 @@ A strict gap gives a regime with several macroscopic conducting regions before t
 - [Tom Hutchcroft and Minghao Pan, *Percolation at the uniqueness threshold via subgroup relativization* (2024 preprint)](https://arxiv.org/abs/2409.12283), later results about particular group structures and behavior at the uniqueness threshold.
 
 ## Status review
+
+**Known cases:** A strict nonuniqueness phase is established for the cited hyperbolic-graph class and other specified algebraic classes.
+
+**Remaining target:** A strict gap between the percolation and uniqueness thresholds for every transitive nonamenable graph in the statement.
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The updated book retains the general conjecture. Results for hyperbolic graphs, specially chosen generating sets, and particular algebraic classes do not cover every transitive nonamenable graph. The properties of the model at $p_u$ are a distinct issue from proving a strict gap.
 

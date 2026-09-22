@@ -2,7 +2,7 @@
 
 **Area:** Sparse constraint rounding
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🟡 PARTIAL
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ Is there a universal constant $C$ with the following property? For every finite 
 $$\left|\sum_{x\in S}\epsilon(x)\right|\le C\sqrt t\quad\text{for every }S\in\mathcal F.$$
 All sparsity regimes, including small $t$ relative to $|X|$, are included.
 
-## Applied significance
+## Application
 
 Sparse allocation and scheduling models often let each decision affect only a few constraints. The conjecture predicts the sharp order of rounding error based on that local participation count.
 
@@ -22,6 +22,12 @@ Sparse allocation and scheduling models often let each decision affect only a fe
 2. D. J. Altschuler and K. Tikhomirov, [Online Beck–Fiala Down to Logarithmic Sparsity](https://arxiv.org/abs/2607.14238), 2026. Further progress down toward logarithmic degree.
 
 ## Status review
+
+**Known cases:** The cited large-degree results establish the conjectured square-root discrepancy bound down toward logarithmic sparsity.
+
+**Remaining target:** A universal square-root bound in every sparsity regime, including the smaller degrees not covered by those results.
+
+**Literature check:** Open in cited literature; no later resolution located
 
 Checked on **2026-09-08**. The July 2026 preprint extends the proved degree regime to $t\ge(\log|X|)^{1+o(1)}$. It does not establish the full conjecture for all smaller degrees. This entry retains the universal offline statement, not a now-proved large-degree or online-Spencer subproblem.
 

@@ -2,7 +2,7 @@
 
 **Area:** Mathematical biology and microbial competition
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-18
 
@@ -35,7 +35,7 @@ $$
 
 Thus the species requiring the lowest nutrient concentration for zero net growth would exclude all competitors. The constants $d_i$ may differ from one another and from $D$. Growth depends only on nutrient concentration; neither variable yields nor direct density-dependent interference is included. This is Hsu's Open problem 1 for model (2.9), under hypothesis (H), with the constant feed written as $S_{\mathrm{in}}$ to distinguish it from the initial concentration.
 
-## Applied significance
+## Application
 
 Chemostat models describe microbial competition in continuously supplied cultures and bioreactors. A break-even concentration measures the nutrient level at which a population replaces its losses. Species-specific removal incorporates differences in losses or retention that a common washout rate omits. The problem asks whether this equilibrium-based ranking predicts the eventual winner for arbitrary increasing growth laws and all initially present populations. A resolution would establish, or identify a limitation of, that prediction in this single-resource model.
 
@@ -51,6 +51,8 @@ Chemostat models describe microbial competition in continuously supplied culture
 8. Jean-Baptiste Burie, Arnaud Ducrot and Quentin Griette, *Epidemic models in measure spaces: persistence, concentration and oscillations*, Journal of Evolution Equations 25 (2025), article 32. [Full paper](https://link.springer.com/article/10.1007/s00028-025-01060-2), model (2.1), Assumption 2.1, Theorem 2.2 and §2.3, Claim 2.14.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Hsu states the question explicitly and retains it in his 2019 lectures. Sari–Mazenc independently identify the same unresolved constant-yield problem on p. 828, despite their paper's broader treatment of variable yields. Their discussion separates general increasing growth from the solved Michaelis–Menten case. A single species and a common removal rate are also covered by established results; the unresolved assertion includes arbitrary species-dependent rates and general increasing responses.
 

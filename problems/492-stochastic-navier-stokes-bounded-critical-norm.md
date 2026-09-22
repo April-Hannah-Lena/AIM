@@ -2,7 +2,7 @@
 
 **Area:** Stochastic fluid PDEs; regularity criteria
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -26,7 +26,7 @@ $$
 $$
 Use the inhomogeneous Besov norm $\|u\|_{B^{-1/4}_{4,4}}=(\sum_{j\ge-1}2^{-j}\|\Delta_j u\|_4^4)^{1/4}$ for a smooth dyadic frequency partition. The question requires boundedness alone, without assuming that $u(t)$ has a limit at $\tau$.
 
-## Applied significance
+## Application
 
 Such a criterion would identify a measurable threshold for loss of regularity in fluid models with spatially varying random transport.
 
@@ -37,5 +37,7 @@ Such a criterion would identify a measurable threshold for loss of regularity in
 3. A. Agresti, *On the absence of blow-up in the 3D Navier–Stokes equations with transport noise* (2026 preprint). [Current preprint](https://arxiv.org/abs/2607.15140).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 This fixes the survey's parameters to $(p,\delta,\kappa,q)=(4,-1/2,1/2,4)$ and asks for its explicitly open improvement from existence of a critical-space limit to boundedness. The 2026 preprint proves high-probability global smoothness for suitably chosen noise, rather than this continuation criterion for arbitrary admissible spatial fields. Searches on 2026-09-22 for stochastic endpoint Serrin criteria and bounded critical Besov norms found no matching resolution. Constant transport fields, removable by translation, do not settle the spatially varying case.

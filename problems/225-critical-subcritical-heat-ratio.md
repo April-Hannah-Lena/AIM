@@ -2,6 +2,10 @@
 
 **Area:** Heat propagation / Schrödinger semigroups
 
+**Status:** 🔵 OPEN
+
+**Last checked:** 2026-09-13
+
 ## Problem statement
 
 Let $(M,g)$ be a connected, complete, noncompact smooth Riemannian manifold without boundary. For $j\in\{0,+\}$, let $V_j\in C^\infty(M;\mathbb R)$ be bounded below and let $H_j=-\Delta_g+V_j$ denote its Friedrichs realization on $L^2(M,d\mathrm{vol}_g)$. Assume $H_j\ge0$ and $\inf\sigma(H_j)=0$. Write $k_j(t,x,y)>0$ for the heat kernel of $e^{-tH_j}$.
@@ -19,7 +23,7 @@ $$
 $$
 No pointwise ordering between $V_+$ and $V_0$ is assumed.
 
-## Applied significance
+## Application
 
 Heat kernels give the temperature response to a localized pulse and also imaginary-time quantum propagation. This asks whether the potential-theoretic distinction between criticality and subcriticality universally determines their relative long-time decay, even when both spectral thresholds are zero.
 
@@ -30,9 +34,7 @@ Heat kernels give the temperature response to a localized pulse and also imagina
 
 ## Status review
 
-**Status:** Open in cited literature; no later resolution located.
-
-**Last checked:** 2026-09-13.
+**Literature check:** Open in cited literature; no later resolution located.
 
 This is the self-adjoint potential case of the cited conjecture, restricted to equal zero spectral thresholds and a null-critical reference. A positive spectral threshold or a positive-critical reference is already understood. The 2010 paper proves the comparison for nonnegative potential perturbations and under additional heat-kernel comparison assumptions; these are absent here. Counterexamples to Davies’ different, single-operator ratio conjecture do not themselves decide this two-operator question.
 

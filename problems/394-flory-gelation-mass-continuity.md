@@ -2,7 +2,7 @@
 
 **Area:** Coagulation equations; sol–gel phase transitions
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -14,7 +14,7 @@ Let $\mu_0$ be a finite nonnegative measure on $(0,\infty)$ with $\int x\,d\mu_0
 $$\langle\mu_t,\phi\rangle=\langle\mu_0,\phi\rangle+\frac12\int_0^t\!\iint K(x,y)[\phi(x+y)-\phi(x)-\phi(y)]\,d\mu_s(x)\,d\mu_s(y)\,ds-\int_0^t(1-M_1(s))\langle\mu_s,\ell\phi\rangle\,ds.$$
 For every such solution whose gelation time $T_g=\inf\{t:M_1(t)<1\}$ satisfies $0<T_g<\infty$, must $M_1$ be continuous at $T_g$, with $M_1(T_g)=\lim_{t\downarrow T_g}M_1(t)=1$?
 
-## Applied significance
+## Application
 
 Mass missing from finite clusters represents a macroscopic gel. Continuity would mean that this giant component starts with zero mass and grows continuously, rather than appearing with a finite jump.
 
@@ -25,5 +25,7 @@ Mass missing from finite clusters represents a macroscopic gel. Continuity would
 3. N. Fournier, [*On gelation for the Smoluchowski equation*](https://arxiv.org/abs/2501.03867), Comptes Rendus Mathématique 363 (2025), 583–591, finite-time gelation criteria; DOI [10.5802/crmath.738](https://doi.org/10.5802/crmath.738).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Checked on 22 September 2026 using continuity at gelation for strongly gelling Flory kernels and later bilinear-coagulation results. Fournier–Laurençot prove continuity strictly after gelation but explicitly leave the onset open. Heydecker–Patterson prove continuity under a bilinear representation in additive conserved particle types. General kernels in the displayed class do not possess that representation; even $x^\alpha$ is not additive under the merger $x+y$. The 2025 finite-gelation theorem determines occurrence, not continuity of mass at onset. No result covering the full stated kernel class was located.

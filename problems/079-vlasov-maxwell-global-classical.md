@@ -2,7 +2,7 @@
 
 **Area:** Kinetic theory and plasma physics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -21,7 +21,7 @@ j=\int\widehat v f\,dv
 $$
 have a classical solution for all $t\ge0$? Require the propagated Gauss constraints, finite field energy, and bounded particle-momentum support on every finite time interval. There is no smallness or symmetry assumption; units normalize the particle mass, charge and speed of light.
 
-## Applied significance
+## Application
 
 This is the self-consistent collisionless model for relativistic plasmas; momentum growth controls whether classical particle-field evolution remains predictive.
 
@@ -31,6 +31,8 @@ This is the self-consistent collisionless model for relativistic plasmas; moment
 - [Luis Silvestre, *Regularity estimates and open problems in kinetic equations* (2022), kinetic regularity background](https://arxiv.org/abs/2204.06401).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Han-Kwan–Nguyen–Rousset explicitly describe the three-dimensional large-data classical Cauchy problem as open in September 2025. Their linearized damping result is a different assertion. Known weak-solution, small-data and lower-dimensional results do not supply the stated continuation.
 

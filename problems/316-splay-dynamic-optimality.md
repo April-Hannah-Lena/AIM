@@ -2,7 +2,7 @@
 
 **Area:** Adaptive data structures and online computation
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -20,7 +20,7 @@ $$
 
 for every $n$, every initial tree $T$, and every finite request sequence $X$? The additive term depends only on the number of keys; $C$ is independent of that number and of the requests. This is the splay-tree dynamic optimality conjecture with an allowed initialization cost. The root-access and usual search-depth cost models are equivalent up to absolute factors.
 
-## Applied significance
+## Application
 
 An ordered dictionary must serve lookups whose frequencies and locality can change over time. This question asks whether one simple self-adjusting rule adapts as well, up to a universal factor, as a search tree designed with advance knowledge of the entire workload. It is a foundational performance question for comparison-based data structures.
 
@@ -32,6 +32,8 @@ An ordered dictionary must serve lookups whose frequencies and locality can chan
 4. J. Ian Munro, Richard Peng, Sebastian Wild and Lingyi Zhang, *Dynamic Optimality Refuted – For Tournament Heaps*, [author manuscript](https://www.wild-inter.net/publications/unordered-dynamic-optimality.pdf), August 10, 2019, Definition 1.1 and Theorems 1.2–1.3.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The July 2026 preprint reports a bound $O((\operatorname{OPT}+n)\log\log n\,\log^2\log\log n)$. Its competitive factor still grows with $n$. Russo's constant-factor comparison assumes the unproved regular-access conjecture. The tournament-heap refutation changes the allowed operations and removes the ordered-search model; it is not a refutation for splay trees.
 

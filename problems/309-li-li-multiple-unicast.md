@@ -2,7 +2,7 @@
 
 **Area:** Applied geometry, control and information
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-17
 
@@ -24,7 +24,7 @@ $$
 
 Is $\mathcal C_{\mathrm{NC}}=\mathcal C_{\mathrm{MCF}}$ for every such graph, capacity assignment and session collection? Equivalently, can coding ever increase independent-unicast throughput over fractional routing? Coding need not be linear, and terminal locations may be shared across sessions. [1, 2, 5]
 
-## Applied significance
+## Application
 
 The question determines whether routers can increase sustained data-transfer rates by mixing independent streams instead of optimally splitting and forwarding packets. It connects the information-theoretic performance of a bidirectional communication network to a multicommodity-flow optimization problem. [1, 2]
 
@@ -38,6 +38,8 @@ The question determines whether routers can increase sustained data-transfer rat
 6. Cheuk Ting Li, *Undecidability of Network Coding, Conditional Information Inequalities, and Conditional Independence Implication*, IEEE Transactions on Information Theory 69(6), 2023, 3493–3510, DOI [10.1109/TIT.2023.3247570](https://doi.org/10.1109/TIT.2023.3247570). Scope checked in [arXiv:2205.11461v3](https://arxiv.org/pdf/2205.11461v3), §IV, Theorems 22–23.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The August 2026 formulation [2] still treats the general conjecture as open. Its positive results restrict the terminal count, planar embedding, session pattern or number of coding nodes; its final reduction is conditional. Independent corroboration [3] explicitly distinguishes the unresolved unicast problem from its multicast separation. Multicast lets several destinations request the same message and is a different demand model.
 

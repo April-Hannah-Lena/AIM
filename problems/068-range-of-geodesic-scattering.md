@@ -2,7 +2,7 @@
 
 **Area:** Geometric inverse problems and data consistency
 
-**Status:** Open in cited literature; no later resolution located
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -12,7 +12,7 @@ Fix a smooth disk $M$ and a boundary metric $h$. Write $B_h^*\partial M=\{(x,\et
 
 Give necessary and sufficient conditions, expressed entirely in terms of a proposed boundary map $A$ and $h$, for $A=\alpha_g$ for some such $g$. The conditions must give an intrinsic characterization rather than restate the existence of an interior metric.
 
-## Applied significance
+## Application
 
 A range characterization would identify which measured ray directions can arise from a smooth medium and supply consistency tests for reconstruction.
 
@@ -22,5 +22,7 @@ A range characterization would identify which measured ray directions can arise 
 2. Jan Bohr and Gabriel P. Paternain, *The Transport Oka–Grauert Principle for Simple Surfaces*, Journal de l'École polytechnique — Mathématiques **10** (2023), 727–769. [DOI](https://doi.org/10.5802/jep.231).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located
 
 The book asks for the range of the metric-to-scattering map. Bohr–Paternain characterize a different range, that of the non-Abelian X-ray transform with a fixed metric. Searches on 2026-09-08: "scattering relation range simple surfaces 2025 2026" and "range metric scattering relation simple surface characterization". No full metric-scattering range characterization was located.

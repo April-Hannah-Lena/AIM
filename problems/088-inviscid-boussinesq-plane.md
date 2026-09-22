@@ -2,7 +2,7 @@
 
 **Area:** Geophysical fluid dynamics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -15,7 +15,7 @@ u_t+(u\cdot\nabla)u+\nabla p=\theta e_2,\qquad
 $$
 has a global smooth finite-energy solution. Here $e_2=(0,1)$, $(u,\theta)(0)=(u_0,\theta_0)$, and neither viscosity nor thermal diffusion is present. There is no external forcing beyond the displayed buoyancy coupling and no solid boundary. A finite-time singularity from these smooth data would resolve the question negatively.
 
-## Applied significance
+## Application
 
 The model captures buoyancy-driven transport and the production of vorticity by temperature gradients.
 
@@ -26,6 +26,8 @@ The model captures buoyancy-driven transport and the production of vorticity by 
 - [Terence Tao, *Finite time blowup with smooth forcing term for the incompressible porous medium, Boussinesq, and incompressible Euler equations* (7 September 2026), research commentary](https://terrytao.wordpress.com/2026/09/).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Boundary constructions and numerical singular profiles do not settle the stated whole-plane smooth-data problem. The September 2026 work discussed by Tao includes additional smooth forcing; it therefore does not resolve this unforced formulation. A March 2026 search result concerns a transformed sector model with weighted energy, rather than a verified Schwartz-data solution of this system.
 

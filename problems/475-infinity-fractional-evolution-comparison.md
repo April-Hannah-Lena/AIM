@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear parabolic PDEs; stochastic games
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -16,7 +16,7 @@ For bounded continuous viscosity sub- and supersolutions $u,v$, attaining their 
 $$u(\cdot,0)\le v(\cdot,0)\quad\Longrightarrow\quad u(x,t)\le v(x,t)\quad\text{for all }(x,t)\in\mathbb R^n\times[0,T]?$$
 No radial symmetry or monotonicity is assumed.
 
-## Applied significance
+## Application
 
 Comparison would make the continuum evolution associated with a non-Brownian tug-of-war game uniquely determined by its initial payoff.
 
@@ -25,5 +25,7 @@ Comparison would make the continuum evolution associated with a non-Brownian tug
 1. F. del Teso, J. Endal, E. R. Jakobsen and J. L. Vázquez, *Evolution driven by the infinity fractional Laplacian*, Calc. Var. PDE **62**, 136 (2023), viscosity definition, Theorem 2.6 and §§7, 9. [Article](https://doi.org/10.1007/s00526-023-02475-w); [preprint](https://arxiv.org/abs/2210.06414).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The paper constructs viscosity solutions but leaves their general uniqueness/comparison unresolved. Its comparison theorem requires one solution to be classical, and its explicit classical families have special symmetry or monotonicity. Searches on 2026-09-22 for infinity-fractional parabolic comparison, uniqueness and later work of the authors found no result covering two arbitrary viscosity solutions with the stated zero-gradient convention. The local infinity heat equation and the stationary nonlocal equation are different problems.

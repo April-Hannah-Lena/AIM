@@ -2,7 +2,7 @@
 
 **Area:** Operations research and routing
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -10,7 +10,7 @@
 
 On the complete graph $K_n$, let $c_e\ge0$ satisfy the triangle inequality. Write $\mathrm{OPT}(c)$ for the cheapest Hamiltonian cycle, and let $\mathrm{HK}(c)$ minimize $\sum_ec_ex_e$ subject to $x_e\ge0$, $\sum_{e\ni v}x_e=2$ for each vertex, and $\sum_{e\in\delta(S)}x_e\ge2$ for every nonempty proper vertex set $S$; $\delta(S)$ denotes its crossing edges. Must $\mathrm{OPT}(c)\le\tfrac43\mathrm{HK}(c)$ hold for every $n\ge3$ and every such metric?
 
-## Applied significance
+## Application
 
 This would give the sharp worst-case accuracy of a principal lower bound used in exact vehicle-routing and tour optimization.
 
@@ -20,6 +20,8 @@ This would give the sharp worst-case accuracy of a principal lower bound used in
 - [Billy Jin, Nathan Klein and David P. Williamson, *Maximum Entropy is a 10/7-Approximation Algorithm for the TSP on Half-Integral Cycle Cut Instances* (2026)](https://arxiv.org/abs/2607.01536), introductory four-thirds conjecture.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The 2026 papers verify bounded-size or restricted families. Neither establishes the inequality for arbitrary metrics. Lower-bound examples already approach four thirds, so the stated upper bound is the unresolved direction.
 

@@ -2,7 +2,7 @@
 
 **Area:** Nonlinear scalar fields
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-13
 
@@ -14,7 +14,7 @@ has the following asymptotics? There exist $c_\infty\in(-1,1)$ and $a\in C^1([0,
 $$\|\phi(t,a(t)+\cdot)-H_{c_\infty}\|_{H^1(-R,R)}+\|\phi_t(t,a(t)+\cdot)+c_\infty H'_{c_\infty}\|_{L^2(-R,R)}\longrightarrow0.$$
 No parity condition is imposed on either perturbation. The derivative in the second term is the physical time derivative before shifting coordinates.
 
-## Applied significance
+## Application
 
 The kink is a model of a persistent interface between two phases. The question asks whether its internal oscillation and emitted radiation decay locally under arbitrary small disturbances.
 
@@ -25,5 +25,7 @@ The kink is a model of a persistent interface between two phases. The question a
 - Claudio Muñoz, [*The asymptotic stability of kinks in scalar field models*](https://indico.ictp.it/event/11210/overview) (ICTP lecture, 9 December 2025), lecture abstract: explicitly identifies general energy-space perturbations of the phi-four kink as unresolved.
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Searched “phi4 kink asymptotic stability general perturbations 2025 2026”, “moving phi4 kink asymptotic stability”, and recent internal-mode results. Orbital stability controls distance to the family but does not prove the displayed local convergence. The cited newer scalar-field theorem still assumes odd perturbations.

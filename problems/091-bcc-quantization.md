@@ -2,7 +2,7 @@
 
 **Area:** Quantization and mesh generation
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-08
 
@@ -20,7 +20,7 @@ $$
 $$
 The left side optimizes over arbitrary point sets. This is the energy-constant version of the three-dimensional Gersho/BCC conjecture, without additionally demanding congruence of every asymptotic cell.
 
-## Applied significance
+## Application
 
 The constant governs the best mean-square vector quantization error and informs three-dimensional centroidal Voronoi mesh design.
 
@@ -30,6 +30,8 @@ The constant governs the best mean-square vector quantization error and informs 
 - [David P. Bourne and Riccardo Cristoferi, *Asymptotic Optimality of the Triangular Lattice for a Class of Optimal Location Problems* (Communications in Mathematical Physics, 2021), discussion of three-dimensional Gersho's conjecture](https://doi.org/10.1007/s00220-021-04216-6).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 Both references distinguish the still-open unrestricted three-dimensional problem from BCC optimality among lattices. The cited geometric-complexity bounds and computer-assisted proof proposal do not supply the claimed equality. Searches through 2026 located no completed resolution.
 

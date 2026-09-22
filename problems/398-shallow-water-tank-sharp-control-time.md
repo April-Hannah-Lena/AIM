@@ -2,7 +2,7 @@
 
 **Area:** PDE control / fluid–structure dynamics
 
-**Status:** Open in cited literature; no later resolution located.
+**Status:** 🔵 OPEN
 
 **Last checked:** 2026-09-22
 
@@ -21,7 +21,7 @@ $$
 $$
 Only sufficiency above $2$ is asked; the endpoint $T=2$ is not included.
 
-## Applied significance
+## Application
 
 This determines the shortest small-amplitude maneuver of a liquid-filled container that simultaneously returns the fluid to a prescribed shape and controls the tank position and velocity.
 
@@ -31,5 +31,7 @@ This determines the shortest small-amplitude maneuver of a liquid-filled contain
 2. J.-M. Coron, A. Koenig and H.-M. Nguyen, *Lack of local controllability for a water-tank system when the time is not large enough*, Annales de l’Institut Henri Poincaré C (2024 online), §1 and main noncontrollability theorem. [DOI](https://doi.org/10.4171/AIHPC/123); [publisher PDF](https://ems.press/content/serial-article-files/47556).
 
 ## Status review
+
+**Literature check:** Open in cited literature; no later resolution located.
 
 The book conjectures the threshold $2$ in this normalization. The 2024 paper proves the corresponding lower-time obstruction using the quadratic dynamics; it does not give local controllability for every time above the threshold. Searches through 22 September 2026 included tank Saint-Venant sharp/minimal control time and Coron–Koenig–Nguyen continuations. Large-time local controllability and feedback stabilization were distinguished from a proof for all $T>2$.
