@@ -246,5 +246,77 @@
     "file": "problems/351-integer-three-sum-hardness.md",
     "status": "Open in cited literature; no later resolution located as of 2026-09-19.",
     "last_checked": "2026-09-19"
+  },
+  {
+    "id": "438",
+    "title": "The sharp vector Riesz inequality for multidimensional potential fields",
+    "area": "Harmonic analysis and elliptic potential fields",
+    "file": "problems/438-vector-riesz-sharp-norm.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "443",
+    "title": "Poisson kernel bounds for elliptic boundary diffusion on Lipschitz domains",
+    "area": "Elliptic PDEs and boundary diffusion",
+    "file": "problems/443-dtn-poisson-bounds-lipschitz.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "444",
+    "title": "Analytic boundary diffusion on continuous functions for Lipschitz domains",
+    "area": "Elliptic PDEs and analytic semigroups",
+    "file": "problems/444-dtn-analyticity-continuous-boundary.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "459",
+    "title": "The sharp Beurling–Ahlfors bound for planar elliptic systems",
+    "area": "Planar elliptic PDEs and singular integral operators",
+    "file": "problems/459-beurling-ahlfors-sharp-norm.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "460",
+    "title": "A uniform L3 estimate for the triangular Hilbert transform",
+    "area": "Multilinear harmonic analysis and coupled signal interactions",
+    "file": "problems/460-triangular-hilbert-transform-l3.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "461",
+    "title": "Almost-everywhere Fourier reconstruction of L log L signals",
+    "area": "Fourier analysis and endpoint signal reconstruction",
+    "file": "problems/461-fourier-l-log-l-pointwise-convergence.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "462",
+    "title": "Hexagonal optimality for Gaussian time-frequency sampling",
+    "area": "Applied harmonic analysis and communication channels",
+    "file": "problems/462-gaussian-gabor-hexagonal-optimality.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "463",
+    "title": "Stein’s Hilbert-transform bound along Lipschitz directions",
+    "area": "Directional singular integrals and variable-direction propagation",
+    "file": "problems/463-stein-lipschitz-direction-hilbert-bound.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "465",
+    "title": "Finite-density time sampling of an infinite observation window",
+    "area": "Operator evolution and stable dynamical sampling",
+    "file": "problems/465-infinite-time-dynamical-frame-discretization.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
   }
 ]

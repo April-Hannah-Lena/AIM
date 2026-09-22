@@ -1,0 +1,22 @@
+{
+  "checked": "2026-09-22",
+  "baseline_commit": "3bc9f5a",
+  "active_entries": 500,
+  "new_entries": 141,
+  "new_id_range": [
+    "361",
+    "501"
+  ],
+  "retired_ids": [
+    "077"
+  ],
+  "catalogue_validation": "Validated 500 unique problems, metadata, required sections, math delimiters, local links, and README freshness.",
+  "new_page_math": {
+    "engine": "KaTeX 0.16.22",
+    "strict": "error",
+    "expressions": 1927,
+    "errors": []
+  },
+  "new_page_control_characters": [],
+  "scope": "Mechanical checks and cross-agent formulation review; not mathematical proof verification or a guarantee of open status."
+}

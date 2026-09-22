@@ -206,5 +206,53 @@
     "file": "problems/314-anderson-fixed-disorder-diffusion.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "435",
+    "title": "Nonempty spectrum for a magnetic complex Airy operator at every field strength",
+    "area": "Magnetic spectral PDEs and superconductivity",
+    "file": "problems/435-magnetic-airy-half-plane-spectrum.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "436",
+    "title": "Reality of the spectrum for a spherical strip with PT-symmetric boundary conditions",
+    "area": "Waveguides and nonselfadjoint boundary PDEs",
+    "file": "problems/436-spherical-pt-robin-real-spectrum.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "437",
+    "title": "Excess Floquet multiplicity for complex periodic Schrödinger equations",
+    "area": "Periodic wave media and nonselfadjoint spectral theory",
+    "file": "problems/437-complex-hill-excess-multiplicity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "440",
+    "title": "Completeness of modes for slowly growing imaginary Schrödinger potentials",
+    "area": "Nonselfadjoint Schrödinger equations and modal expansions",
+    "file": "problems/440-imaginary-sublinear-potential-completeness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "441",
+    "title": "An optimal Weyl remainder for interior transmission eigenvalues",
+    "area": "Transmission PDEs and wave scattering",
+    "file": "problems/441-transmission-eigenvalue-sharp-weyl-remainder.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "456",
+    "title": "The Weinstock inequality for convex domains in a sphere",
+    "area": "Elliptic boundary spectra and shape optimization",
+    "file": "problems/456-spherical-convex-weinstock-inequality.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
   }
 ]

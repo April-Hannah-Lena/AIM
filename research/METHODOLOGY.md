@@ -32,3 +32,9 @@ The exclusion notes are research records, not part of the active catalogue count
 ## September 17, 2026 expansion
 
 The first fifty additions, entries 301–350, have individual evidence ledgers, current resolution searches and a separated adversarial self-review by the researching agent. They are organized in five ten-entry batches checked on September 17–18; the [expansion records](expansion-2026-09/README.md) record each batch's publication state and distinguish accepted entries, held claims and discovery leads. These batches are partial progress toward the requested 200–300 additions; they do not revalidate the original 300. No independent agent or human review is claimed.
+
+## September 22, 2026 expansion to 500
+
+The [PDE-focused expansion](expansion-2026-09-22/README.md) adds 141 entries and holds earlier entry 077 outside the active count after locating a matching resolution claim. This produces 500 active entries without reusing an identifier. Entry 076 received a separate hypothesis comparison against the new forced Navier–Stokes claim. Other earlier review dates were preserved.
+
+Four research groups performed primary-source reading and targeted later-result searches. Each new group then received a cross-review by a different agent, with selected source reopening and a catalogue-wide duplicate check. This is stronger than a drafting agent’s self-check but is not human specialist peer review or independent verification of mathematical proofs. Source maps distinguish original questions, later open assessments, partial theorems and historical references. A matching unresolved proof claim can place an entry on hold without asserting that the claim has been accepted.

@@ -294,5 +294,69 @@
     "file": "problems/352-modified-integer-round-up.md",
     "status": "Open in cited literature; no later resolution located as of 2026-09-19.",
     "last_checked": "2026-09-19"
+  },
+  {
+    "id": "467",
+    "title": "Bourgain–Spencer accuracy for random elliptic media at finite contrast",
+    "area": "Stochastic homogenization; diffusion in heterogeneous media",
+    "file": "problems/467-bourgain-spencer-nonperturbative-homogenization.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "468",
+    "title": "Hölder continuity for parabolic SPDEs with merely bounded transport noise",
+    "area": "Stochastic parabolic PDEs; passive scalar transport",
+    "file": "problems/468-rough-transport-spde-holder.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "469",
+    "title": "A deterministic Hölder exponent for smooth-transport parabolic SPDEs",
+    "area": "Stochastic parabolic PDEs; quantitative regularity",
+    "file": "problems/469-smooth-transport-spde-deterministic-holder-exponent.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "470",
+    "title": "Global quadratic reaction–diffusion systems with general transport noise",
+    "area": "Stochastic PDEs; chemical and population kinetics",
+    "file": "problems/470-quadratic-mass-controlled-rd-transport-noise.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "471",
+    "title": "Transport-noise Navier–Stokes at critical smoothness minus one half",
+    "area": "Stochastic fluid PDEs; rough initial velocity",
+    "file": "problems/471-stochastic-navier-stokes-negative-half-critical-data.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "472",
+    "title": "Local no-slip Navier–Stokes theory under non-small transport noise",
+    "area": "Stochastic fluid PDEs; solid boundaries",
+    "file": "problems/472-stochastic-navier-stokes-no-slip-local.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "492",
+    "title": "A bounded critical norm continuation criterion for stochastic Navier–Stokes",
+    "area": "Stochastic fluid PDEs; regularity criteria",
+    "file": "problems/492-stochastic-navier-stokes-bounded-critical-norm.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "493",
+    "title": "Global regularity for critical SQG with state-dependent noise",
+    "area": "Stochastic PDEs; geophysical fluid dynamics",
+    "file": "problems/493-critical-stochastic-sqg-global-regularity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
   }
 ]

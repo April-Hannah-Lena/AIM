@@ -222,5 +222,525 @@
     "file": "problems/360-ulam-convex-solid-packing.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-19"
+  },
+  {
+    "id": "361",
+    "title": "Nonexistence of subcritical Lane–Emden equilibria in higher dimensions",
+    "area": "Nonlinear elliptic systems; reaction–diffusion",
+    "file": "problems/361-lane-emden-subcritical-system.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "362",
+    "title": "Can every bounded entire Burgers profile recur at late times?",
+    "area": "Viscous conservation laws; asymptotic dynamics",
+    "file": "problems/362-burgers-entire-limits.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "363",
+    "title": "Competitive exclusion by the slowest diffuser in a multispecies habitat",
+    "area": "Spatial ecology; reaction–diffusion",
+    "file": "problems/363-dockery-slowest-diffuser.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "364",
+    "title": "A genuinely periodic firing pattern in the delayed noisy integrate-and-fire PDE",
+    "area": "Mathematical neuroscience; nonlinear Fokker–Planck equations",
+    "file": "problems/364-delayed-nnlif-periodic.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "365",
+    "title": "Self-sustained oscillations in the full voltage–conductance neuron equation",
+    "area": "Mathematical neuroscience; kinetic equations",
+    "file": "problems/365-voltage-conductance-periodic.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "366",
+    "title": "Global smooth Schrödinger maps below the degree-zero energy threshold",
+    "area": "Ferromagnetism; geometric dispersive PDEs",
+    "file": "problems/366-schrodinger-map-threshold.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "367",
+    "title": "Finite-time Langmuir collapse for the three-dimensional Zakharov system",
+    "area": "Plasma physics; coupled dispersive equations",
+    "file": "problems/367-zakharov-three-dimensional-collapse.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "368",
+    "title": "Scattering of arbitrary small energy data for the three-dimensional Zakharov system",
+    "area": "Plasma physics; dispersive asymptotics",
+    "file": "problems/368-zakharov-small-energy-scattering.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "369",
+    "title": "Global regularity of the planar noncorotational FENE fluid",
+    "area": "Polymer rheology; kinetic–fluid coupling",
+    "file": "problems/369-fene-two-dimensional-regularity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "370",
+    "title": "Vanishing nonlinear viscosity without commuting transport and diffusion matrices",
+    "area": "Hyperbolic conservation laws; physical viscosity",
+    "file": "problems/370-noncommuting-viscosity-limit.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "371",
+    "title": "Uniqueness of Glimm–Lax solutions for arbitrarily rough bounded data",
+    "area": "Gas dynamics; one-dimensional conservation laws",
+    "file": "problems/371-glimm-lax-measurable-data-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "372",
+    "title": "Can one-dimensional entropy-dissipating systems have two bounded solutions?",
+    "area": "Continuum mechanics; admissibility of shock dynamics",
+    "file": "problems/372-one-dimensional-convex-entropy-nonuniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "373",
+    "title": "Global classical solutions for repulsive relativistic Vlasov–Poisson",
+    "area": "Plasma kinetics",
+    "file": "problems/373-relativistic-vlasov-poisson-global.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "374",
+    "title": "Are bounded ancient Landau–Coulomb distributions necessarily Maxwellians?",
+    "area": "Plasma collisions; kinetic regularity",
+    "file": "problems/374-landau-ancient-liouville.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "375",
+    "title": "Landau–Coulomb smoothing controlled only by macroscopic quantities",
+    "area": "Plasma kinetics; quantitative regularization",
+    "file": "problems/375-landau-macroscopic-smoothing.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "376",
+    "title": "Hölder regularity for nondivergence kinetic jump equations",
+    "area": "Kinetic transport; anomalous velocity diffusion",
+    "file": "problems/376-fractional-kinetic-krylov-safonov.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "377",
+    "title": "Continuation of the cutoff Boltzmann flow from macroscopic bounds",
+    "area": "Rarefied gases; nonlinear kinetic transport",
+    "file": "problems/377-cutoff-boltzmann-continuation.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "378",
+    "title": "A universal quantitative error bound for small-BV hyperbolic flows",
+    "area": "Hyperbolic conservation laws; reliable simulation",
+    "file": "problems/378-universal-hyperbolic-error-rate.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "379",
+    "title": "Existence of elastic equilibria under quasiconvexity and infinite compression energy",
+    "area": "Nonlinear elasticity; variational equilibrium",
+    "file": "problems/379-quasiconvex-physical-elastic-minimizers.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "380",
+    "title": "Does a bounded interface slope prevent two-phase Muskat singularities?",
+    "area": "Porous-media interfaces; free boundaries",
+    "file": "problems/380-muskat-bounded-slope-continuation.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "381",
+    "title": "Global regularity of viscous planar MHD without magnetic diffusion",
+    "area": "Magnetohydrodynamics; conducting fluids",
+    "file": "problems/381-nonresistive-planar-mhd.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "382",
+    "title": "Large-data weak solutions for three-dimensional stress-diffusive Oldroyd-B flow",
+    "area": "Viscoelastic fluids; polymer rheology",
+    "file": "problems/382-oldroyd-diffusive-three-dimensional-weak.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "383",
+    "title": "The three-dimensional steady Leray problem with unrestricted boundary fluxes",
+    "area": "Steady viscous flow; inlet–outlet boundary conditions",
+    "file": "problems/383-leray-three-dimensional-flux.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "384",
+    "title": "Quantization of radial finite-time collapse in fully parabolic Keller–Segel",
+    "area": "Chemotaxis; concentration of cell density",
+    "file": "problems/384-keller-segel-collapse-quantization.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "385",
+    "title": "Global smoothness of the one-dimensional surface-growth equation",
+    "area": "Epitaxial growth; fourth-order evolution equations",
+    "file": "problems/385-surface-growth-global-regularity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "386",
+    "title": "Global regularity for two-dimensional Kuramoto–Sivashinsky on arbitrary square tori",
+    "area": "Combustion fronts; nonlinear pattern formation",
+    "file": "problems/386-two-dimensional-kuramoto-sivashinsky-global.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "387",
+    "title": "The zero center-of-mass diffusion limit for kinetic FENE fluids",
+    "area": "Polymer kinetics; singular diffusion limits",
+    "file": "problems/387-fene-vanishing-center-of-mass-diffusion.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "388",
+    "title": "Global weak flow of three-dimensional nematic directors without a hemisphere restriction",
+    "area": "Liquid crystals; coupled fluid and harmonic-map flow",
+    "file": "problems/388-liquid-crystal-three-dimensional-weak.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "389",
+    "title": "Hard-sphere Boltzmann shock profiles at arbitrary Mach number",
+    "area": "Rarefied gas dynamics; kinetic shock layers",
+    "file": "problems/389-boltzmann-arbitrary-mach-shocks.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "390",
+    "title": "Uniqueness of strong-KPP equilibria on general unbounded domains",
+    "area": "Reaction–diffusion; population equilibria",
+    "file": "problems/390-strong-kpp-unbounded-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "391",
+    "title": "Extinction at the critical Dirichlet eigenvalue for strong-KPP reactions",
+    "area": "Reaction–diffusion; critical habitat thresholds",
+    "file": "problems/391-strong-kpp-critical-extinction.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "392",
+    "title": "Attainment of the three-dimensional neo-Hookean energy in the regular admissible class",
+    "area": "Nonlinear elasticity; critical-growth energy minimization",
+    "file": "problems/392-neo-hookean-critical-attainment.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "393",
+    "title": "Nonlinear Landau damping near a Maxwellian on the whole space",
+    "area": "Plasma kinetics; dispersive relaxation",
+    "file": "problems/393-maxwellian-whole-space-landau-damping.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "394",
+    "title": "Continuity of finite-cluster mass at the onset of Flory gelation",
+    "area": "Coagulation equations; sol–gel phase transitions",
+    "file": "problems/394-flory-gelation-mass-continuity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "395",
+    "title": "Uniqueness of positive reaction–diffusion equilibria outside two obstacles",
+    "area": "Reaction–diffusion; populations in perforated habitats",
+    "file": "problems/395-reaction-two-obstacle-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "454",
+    "title": "Global smooth propagation for a laser envelope coupled to ionization",
+    "area": "Dispersive PDEs and nonlinear optics",
+    "file": "problems/454-ionization-laser-envelope-global-regularity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "455",
+    "title": "Finite-time collapse in the planar self-steepening Schrödinger equation",
+    "area": "Derivative dispersive PDEs and optical pulses",
+    "file": "problems/455-planar-self-steepening-finite-time-collapse.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "466",
+    "title": "Bounded-Hessian Liouville rigidity in dimensions three and four",
+    "area": "Fully nonlinear elliptic PDEs; blow-up analysis",
+    "file": "problems/466-fully-nonlinear-bounded-hessian-liouville.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "473",
+    "title": "Higher regularity for concave stable nonlocal equations",
+    "area": "Nonlinear diffusion PDEs; stochastic control",
+    "file": "problems/473-concave-nonlocal-higher-regularity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "474",
+    "title": "Uniqueness of positive harmonic profiles for singular stable operators in cones",
+    "area": "Nonlocal elliptic PDEs; free-boundary blow-up profiles",
+    "file": "problems/474-singular-stable-cone-positive-solution-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "475",
+    "title": "Comparison for viscosity solutions of infinity-fractional diffusion",
+    "area": "Nonlinear parabolic PDEs; stochastic games",
+    "file": "problems/475-infinity-fractional-evolution-comparison.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "476",
+    "title": "A finite-integrability ABP estimate for general nonlocal Pucci operators",
+    "area": "Fully nonlinear nonlocal PDEs; maximum principles",
+    "file": "problems/476-nonlocal-pucci-finite-integrability-abp.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "477",
+    "title": "Calderón–Zygmund estimates for general concave nonlocal equations",
+    "area": "Fully nonlinear nonlocal PDEs; integrable forcing",
+    "file": "problems/477-concave-nonlocal-calderon-zygmund.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "478",
+    "title": "Hölder regularity under directional nonlocal ellipticity alone",
+    "area": "Nonlocal PDEs; heterogeneous jump diffusion",
+    "file": "problems/478-rough-jump-kernel-holder-regularity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "479",
+    "title": "Does directional ellipticity force a fractional energy bound?",
+    "area": "Nonlocal diffusion PDEs; coercivity of interaction energies",
+    "file": "problems/479-nonlocal-directional-ellipticity-coercivity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "480",
+    "title": "Optimal nonlocal obstacle regularity with a minimally smooth obstacle",
+    "area": "Nonlocal free-boundary PDEs; optimal stopping",
+    "file": "problems/480-nonlocal-obstacle-minimal-smoothness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "481",
+    "title": "Multidimensional weak uniqueness for porous-medium flow with fractional pressure",
+    "area": "Nonlocal PDEs; porous-medium transport",
+    "file": "problems/481-fractional-pressure-pme-multidimensional-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "482",
+    "title": "Continuity for degenerate fractional-pressure porous-medium flow",
+    "area": "Nonlocal PDEs; degenerate diffusion regularity",
+    "file": "problems/482-fractional-pressure-superquadratic-continuity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "483",
+    "title": "Instantaneous spreading for fractional-pressure flow in several dimensions",
+    "area": "Nonlocal PDEs; propagation of a diffusing front",
+    "file": "problems/483-fractional-pressure-multidimensional-instantaneous-spread.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "484",
+    "title": "The local limit of superlinear multispecies nonlocal diffusion",
+    "area": "Cross-diffusion PDEs; population dispersal",
+    "file": "problems/484-superlinear-skt-nonlocal-to-local-limit.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "485",
+    "title": "Instantaneous strict separation for three-dimensional local Cahn–Hilliard",
+    "area": "Phase-field PDEs; binary mixtures",
+    "file": "problems/485-local-cahn-hilliard-three-dimensional-separation.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "486",
+    "title": "Flatness of three-dimensional fractional minimizing cones for every interaction order",
+    "area": "Nonlocal variational PDEs; phase interfaces",
+    "file": "problems/486-fractional-minimizing-cones-three-dimensional.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "487",
+    "title": "Uniqueness of all weak dual solutions of fractional porous-medium flow",
+    "area": "Nonlocal PDEs; diffusion on curved spaces",
+    "file": "problems/487-manifold-fractional-pme-weak-dual-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "488",
+    "title": "Mass conservation for fractional porous-medium flow on noncompact manifolds",
+    "area": "Nonlocal PDEs; conservation of diffusing mass",
+    "file": "problems/488-manifold-fractional-pme-mass-conservation.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "489",
+    "title": "Point-source solutions of fractional porous-medium diffusion on manifolds",
+    "area": "Nonlocal PDEs; anomalous diffusion from a point source",
+    "file": "problems/489-manifold-fractional-pme-point-source.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "490",
+    "title": "Uniqueness for a point source in time-fractional porous-medium flow",
+    "area": "PDEs with memory; porous-medium diffusion",
+    "file": "problems/490-time-fractional-pme-dirac-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "491",
+    "title": "Barenblatt attraction for porous-medium diffusion with time memory",
+    "area": "PDEs with memory; nonlinear diffusion asymptotics",
+    "file": "problems/491-time-fractional-pme-barenblatt-attraction.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "494",
+    "title": "Global classical Maxwell–Stefan diffusion with arbitrary pair friction",
+    "area": "Cross-diffusion PDEs; gas mixtures",
+    "file": "problems/494-maxwell-stefan-arbitrary-friction-global-classical.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "495",
+    "title": "Weak uniqueness for fourth-order aggregation–diffusion",
+    "area": "Degenerate parabolic PDEs; cell adhesion",
+    "file": "problems/495-fourth-order-aggregation-weak-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "496",
+    "title": "Full-space minimizers for subcritical fourth-order aggregation energy",
+    "area": "Variational PDEs; aggregation and phase separation",
+    "file": "problems/496-fourth-order-aggregation-full-space-minimizer.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "497",
+    "title": "Finite propagation in fourth-order aggregation–diffusion",
+    "area": "Degenerate parabolic PDEs; moving tissue boundaries",
+    "file": "problems/497-fourth-order-aggregation-finite-propagation.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "498",
+    "title": "Unconditional uniqueness for entropy-dissipating reaction–diffusion",
+    "area": "Reaction–diffusion PDEs; chemical kinetics",
+    "file": "problems/498-entropy-reaction-diffusion-renormalized-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "499",
+    "title": "Automatic conservation laws for renormalized nonlinear diffusion",
+    "area": "Nonlinear diffusion PDEs; chemical mass conservation",
+    "file": "problems/499-nonlinear-diffusion-renormalization-mass-conservation.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "500",
+    "title": "Global attraction for complex-balanced reaction–diffusion with boundary equilibria",
+    "area": "Reaction–diffusion PDEs; chemical equilibration",
+    "file": "problems/500-complex-balanced-pde-global-attractor.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "501",
+    "title": "Optimal obstacle regularity for stable jump kernels with only angular integrability",
+    "area": "Nonlocal obstacle problems; anisotropic jump processes",
+    "file": "problems/501-general-stable-obstacle-optimal-regularity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
   }
 ]

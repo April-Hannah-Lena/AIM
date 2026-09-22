@@ -1,0 +1,282 @@
+[
+  {
+    "id": "431",
+    "slug": "infinity-harmonic-c1-three-dimensions",
+    "title": "Continuous gradients for three-dimensional infinity-harmonic functions",
+    "area": "Degenerate elliptic PDEs and supremal variational problems",
+    "group": "applied",
+    "file": "problems/431-infinity-harmonic-c1-three-dimensions.md"
+  },
+  {
+    "id": "432",
+    "slug": "sharp-p-poisson-gradient-regularity",
+    "title": "Sharp gradient regularity for higher-dimensional p-Poisson equations",
+    "area": "Nonlinear elliptic PDEs and nonlinear diffusion",
+    "group": "applied",
+    "file": "problems/432-sharp-p-poisson-gradient-regularity.md"
+  },
+  {
+    "id": "433",
+    "slug": "hyperbolic-cubic-nls-scattering",
+    "title": "Global L2 scattering for the planar hyperbolic cubic Schrödinger equation",
+    "area": "Dispersive PDEs and nonlinear wave envelopes",
+    "group": "spectral3",
+    "file": "problems/433-hyperbolic-cubic-nls-scattering.md"
+  },
+  {
+    "id": "434",
+    "slug": "complex-schrodinger-subunit-moments",
+    "title": "Subunit-moment eigenvalue bounds for complex Schrödinger potentials",
+    "area": "Nonselfadjoint Schrödinger PDEs and spectral bounds",
+    "group": "spectral3",
+    "file": "problems/434-complex-schrodinger-subunit-moments.md"
+  },
+  {
+    "id": "435",
+    "slug": "magnetic-airy-half-plane-spectrum",
+    "title": "Nonempty spectrum for a magnetic complex Airy operator at every field strength",
+    "area": "Magnetic spectral PDEs and superconductivity",
+    "group": "spectral2",
+    "file": "problems/435-magnetic-airy-half-plane-spectrum.md"
+  },
+  {
+    "id": "436",
+    "slug": "spherical-pt-robin-real-spectrum",
+    "title": "Reality of the spectrum for a spherical strip with PT-symmetric boundary conditions",
+    "area": "Waveguides and nonselfadjoint boundary PDEs",
+    "group": "spectral2",
+    "file": "problems/436-spherical-pt-robin-real-spectrum.md"
+  },
+  {
+    "id": "437",
+    "slug": "complex-hill-excess-multiplicity",
+    "title": "Excess Floquet multiplicity for complex periodic Schrödinger equations",
+    "area": "Periodic wave media and nonselfadjoint spectral theory",
+    "group": "spectral2",
+    "file": "problems/437-complex-hill-excess-multiplicity.md"
+  },
+  {
+    "id": "438",
+    "slug": "vector-riesz-sharp-norm",
+    "title": "The sharp vector Riesz inequality for multidimensional potential fields",
+    "area": "Harmonic analysis and elliptic potential fields",
+    "group": "operators",
+    "file": "problems/438-vector-riesz-sharp-norm.md"
+  },
+  {
+    "id": "439",
+    "slug": "p-harmonic-strong-comparison",
+    "title": "Strong comparison for ordered p-harmonic fields",
+    "area": "Nonlinear elliptic PDEs and comparison principles",
+    "group": "applied",
+    "file": "problems/439-p-harmonic-strong-comparison.md"
+  },
+  {
+    "id": "440",
+    "slug": "imaginary-sublinear-potential-completeness",
+    "title": "Completeness of modes for slowly growing imaginary Schrödinger potentials",
+    "area": "Nonselfadjoint Schrödinger equations and modal expansions",
+    "group": "spectral2",
+    "file": "problems/440-imaginary-sublinear-potential-completeness.md"
+  },
+  {
+    "id": "441",
+    "slug": "transmission-eigenvalue-sharp-weyl-remainder",
+    "title": "An optimal Weyl remainder for interior transmission eigenvalues",
+    "area": "Transmission PDEs and wave scattering",
+    "group": "spectral2",
+    "file": "problems/441-transmission-eigenvalue-sharp-weyl-remainder.md"
+  },
+  {
+    "id": "442",
+    "slug": "dissipative-schrodinger-uniform-decay",
+    "title": "Classical attenuation versus uniform semiclassical local decay",
+    "area": "Dissipative Schrödinger PDEs and high-frequency propagation",
+    "group": "spectral3",
+    "file": "problems/442-dissipative-schrodinger-uniform-decay.md"
+  },
+  {
+    "id": "443",
+    "slug": "dtn-poisson-bounds-lipschitz",
+    "title": "Poisson kernel bounds for elliptic boundary diffusion on Lipschitz domains",
+    "area": "Elliptic PDEs and boundary diffusion",
+    "group": "operators",
+    "file": "problems/443-dtn-poisson-bounds-lipschitz.md"
+  },
+  {
+    "id": "444",
+    "slug": "dtn-analyticity-continuous-boundary",
+    "title": "Analytic boundary diffusion on continuous functions for Lipschitz domains",
+    "area": "Elliptic PDEs and analytic semigroups",
+    "group": "operators",
+    "file": "problems/444-dtn-analyticity-continuous-boundary.md"
+  },
+  {
+    "id": "445",
+    "slug": "hyperbolic-trapping-resonance-gap-three-dimensions",
+    "title": "A resonance gap for arbitrary uniformly hyperbolic trapping in three dimensions",
+    "area": "Scattering PDEs and wave decay",
+    "group": "spectral3",
+    "file": "problems/445-hyperbolic-trapping-resonance-gap-three-dimensions.md"
+  },
+  {
+    "id": "446",
+    "slug": "very-weak-p-harmonic-energy-regularity",
+    "title": "A nonlinear Weyl lemma at the minimal p-harmonic integrability threshold",
+    "area": "Degenerate elliptic PDEs and nonlinear potential theory",
+    "group": "applied",
+    "file": "problems/446-very-weak-p-harmonic-energy-regularity.md"
+  },
+  {
+    "id": "447",
+    "slug": "p-harmonic-second-sobolev-derivatives",
+    "title": "Second-order Sobolev regularity of p-harmonic functions beyond the Cordes range",
+    "area": "Degenerate elliptic PDE regularity",
+    "group": "applied",
+    "file": "problems/447-p-harmonic-second-sobolev-derivatives.md"
+  },
+  {
+    "id": "448",
+    "slug": "degree-zero-harmonic-extension",
+    "title": "Continuous harmonic extension of every degree-zero sphere boundary map",
+    "area": "Elliptic systems and orientational order",
+    "group": "continuum2",
+    "file": "problems/448-degree-zero-harmonic-extension.md"
+  },
+  {
+    "id": "449",
+    "slug": "entire-ginzburg-landau-vortex-symmetry",
+    "title": "Radial classification of higher-degree entire planar Ginzburg–Landau vortices",
+    "area": "Elliptic PDEs and superfluid vortices",
+    "group": "continuum2",
+    "file": "problems/449-entire-ginzburg-landau-vortex-symmetry.md"
+  },
+  {
+    "id": "450",
+    "slug": "rof-gradient-bounded-variation",
+    "title": "Bounded variation of gradients in the Rudin–Osher–Fatemi denoising model",
+    "area": "Variational elliptic PDEs and image denoising",
+    "group": "applied",
+    "file": "problems/450-rof-gradient-bounded-variation.md"
+  },
+  {
+    "id": "451",
+    "slug": "mems-extremal-without-crandall-rabinowitz",
+    "title": "Regular MEMS extremal states without an asymptotic curvature condition",
+    "area": "Semilinear elliptic PDEs and electrostatic microdevices",
+    "group": "applied",
+    "file": "problems/451-mems-extremal-without-crandall-rabinowitz.md"
+  },
+  {
+    "id": "452",
+    "slug": "stable-semilinear-sign-changing-interior-bound",
+    "title": "Interior bounds for stable elliptic states with sign-changing reaction laws",
+    "area": "Semilinear elliptic PDEs and reaction equilibria",
+    "group": "applied",
+    "file": "problems/452-stable-semilinear-sign-changing-interior-bound.md"
+  },
+  {
+    "id": "453",
+    "slug": "convex-domain-extremal-single-singularity",
+    "title": "A single blow-up point for singular extremal states on convex domains",
+    "area": "Semilinear elliptic PDEs and thermal ignition",
+    "group": "applied",
+    "file": "problems/453-convex-domain-extremal-single-singularity.md"
+  },
+  {
+    "id": "454",
+    "slug": "ionization-laser-envelope-global-regularity",
+    "title": "Global smooth propagation for a laser envelope coupled to ionization",
+    "area": "Dispersive PDEs and nonlinear optics",
+    "group": "continuum3",
+    "file": "problems/454-ionization-laser-envelope-global-regularity.md"
+  },
+  {
+    "id": "455",
+    "slug": "planar-self-steepening-finite-time-collapse",
+    "title": "Finite-time collapse in the planar self-steepening Schrödinger equation",
+    "area": "Derivative dispersive PDEs and optical pulses",
+    "group": "continuum3",
+    "file": "problems/455-planar-self-steepening-finite-time-collapse.md"
+  },
+  {
+    "id": "456",
+    "slug": "spherical-convex-weinstock-inequality",
+    "title": "The Weinstock inequality for convex domains in a sphere",
+    "area": "Elliptic boundary spectra and shape optimization",
+    "group": "spectral2",
+    "file": "problems/456-spherical-convex-weinstock-inequality.md"
+  },
+  {
+    "id": "457",
+    "slug": "subquadratic-p-laplace-extremal-critical-dimension",
+    "title": "Optimal dimension for bounded subquadratic p-Laplace extremal states",
+    "area": "Singular quasilinear elliptic PDEs",
+    "group": "applied",
+    "file": "problems/457-subquadratic-p-laplace-extremal-critical-dimension.md"
+  },
+  {
+    "id": "458",
+    "slug": "positive-time-dependent-potential-localization",
+    "title": "Can bounded positive time-dependent potentials trap a Schrödinger wave?",
+    "area": "Time-dependent Schrödinger PDEs and quantum confinement",
+    "group": "spectral3",
+    "file": "problems/458-positive-time-dependent-potential-localization.md"
+  },
+  {
+    "id": "459",
+    "slug": "beurling-ahlfors-sharp-norm",
+    "title": "The sharp Beurling–Ahlfors bound for planar elliptic systems",
+    "area": "Planar elliptic PDEs and singular integral operators",
+    "group": "operators",
+    "file": "problems/459-beurling-ahlfors-sharp-norm.md"
+  },
+  {
+    "id": "460",
+    "slug": "triangular-hilbert-transform-l3",
+    "title": "A uniform L3 estimate for the triangular Hilbert transform",
+    "area": "Multilinear harmonic analysis and coupled signal interactions",
+    "group": "operators",
+    "file": "problems/460-triangular-hilbert-transform-l3.md"
+  },
+  {
+    "id": "461",
+    "slug": "fourier-l-log-l-pointwise-convergence",
+    "title": "Almost-everywhere Fourier reconstruction of L log L signals",
+    "area": "Fourier analysis and endpoint signal reconstruction",
+    "group": "operators",
+    "file": "problems/461-fourier-l-log-l-pointwise-convergence.md"
+  },
+  {
+    "id": "462",
+    "slug": "gaussian-gabor-hexagonal-optimality",
+    "title": "Hexagonal optimality for Gaussian time-frequency sampling",
+    "area": "Applied harmonic analysis and communication channels",
+    "group": "operators",
+    "file": "problems/462-gaussian-gabor-hexagonal-optimality.md"
+  },
+  {
+    "id": "463",
+    "slug": "stein-lipschitz-direction-hilbert-bound",
+    "title": "Stein’s Hilbert-transform bound along Lipschitz directions",
+    "area": "Directional singular integrals and variable-direction propagation",
+    "group": "operators",
+    "file": "problems/463-stein-lipschitz-direction-hilbert-bound.md"
+  },
+  {
+    "id": "464",
+    "slug": "bourgain-brezis-mixed-sobolev-gradient-estimate",
+    "title": "A mixed Sobolev estimate for reconstructing a scalar potential",
+    "area": "Elliptic potential reconstruction and critical function spaces",
+    "group": "applied",
+    "file": "problems/464-bourgain-brezis-mixed-sobolev-gradient-estimate.md"
+  },
+  {
+    "id": "465",
+    "slug": "infinite-time-dynamical-frame-discretization",
+    "title": "Finite-density time sampling of an infinite observation window",
+    "area": "Operator evolution and stable dynamical sampling",
+    "group": "operators",
+    "file": "problems/465-infinite-time-dynamical-frame-discretization.md"
+  }
+]

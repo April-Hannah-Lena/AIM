@@ -1,0 +1,290 @@
+[
+  {
+    "id": "466",
+    "slug": "fully-nonlinear-bounded-hessian-liouville",
+    "title": "Bounded-Hessian Liouville rigidity in dimensions three and four",
+    "area": "Fully nonlinear elliptic PDEs; blow-up analysis",
+    "group": "continuum3",
+    "file": "problems/466-fully-nonlinear-bounded-hessian-liouville.md"
+  },
+  {
+    "id": "467",
+    "slug": "bourgain-spencer-nonperturbative-homogenization",
+    "title": "Bourgain–Spencer accuracy for random elliptic media at finite contrast",
+    "area": "Stochastic homogenization; diffusion in heterogeneous media",
+    "group": "stochastic3",
+    "file": "problems/467-bourgain-spencer-nonperturbative-homogenization.md"
+  },
+  {
+    "id": "468",
+    "slug": "rough-transport-spde-holder",
+    "title": "Hölder continuity for parabolic SPDEs with merely bounded transport noise",
+    "area": "Stochastic parabolic PDEs; passive scalar transport",
+    "group": "stochastic3",
+    "file": "problems/468-rough-transport-spde-holder.md"
+  },
+  {
+    "id": "469",
+    "slug": "smooth-transport-spde-deterministic-holder-exponent",
+    "title": "A deterministic Hölder exponent for smooth-transport parabolic SPDEs",
+    "area": "Stochastic parabolic PDEs; quantitative regularity",
+    "group": "stochastic3",
+    "file": "problems/469-smooth-transport-spde-deterministic-holder-exponent.md"
+  },
+  {
+    "id": "470",
+    "slug": "quadratic-mass-controlled-rd-transport-noise",
+    "title": "Global quadratic reaction–diffusion systems with general transport noise",
+    "area": "Stochastic PDEs; chemical and population kinetics",
+    "group": "stochastic3",
+    "file": "problems/470-quadratic-mass-controlled-rd-transport-noise.md"
+  },
+  {
+    "id": "471",
+    "slug": "stochastic-navier-stokes-negative-half-critical-data",
+    "title": "Transport-noise Navier–Stokes at critical smoothness minus one half",
+    "area": "Stochastic fluid PDEs; rough initial velocity",
+    "group": "stochastic3",
+    "file": "problems/471-stochastic-navier-stokes-negative-half-critical-data.md"
+  },
+  {
+    "id": "472",
+    "slug": "stochastic-navier-stokes-no-slip-local",
+    "title": "Local no-slip Navier–Stokes theory under non-small transport noise",
+    "area": "Stochastic fluid PDEs; solid boundaries",
+    "group": "stochastic3",
+    "file": "problems/472-stochastic-navier-stokes-no-slip-local.md"
+  },
+  {
+    "id": "473",
+    "slug": "concave-nonlocal-higher-regularity",
+    "title": "Higher regularity for concave stable nonlocal equations",
+    "area": "Nonlinear diffusion PDEs; stochastic control",
+    "group": "continuum3",
+    "file": "problems/473-concave-nonlocal-higher-regularity.md"
+  },
+  {
+    "id": "474",
+    "slug": "singular-stable-cone-positive-solution-uniqueness",
+    "title": "Uniqueness of positive harmonic profiles for singular stable operators in cones",
+    "area": "Nonlocal elliptic PDEs; free-boundary blow-up profiles",
+    "group": "continuum3",
+    "file": "problems/474-singular-stable-cone-positive-solution-uniqueness.md"
+  },
+  {
+    "id": "475",
+    "slug": "infinity-fractional-evolution-comparison",
+    "title": "Comparison for viscosity solutions of infinity-fractional diffusion",
+    "area": "Nonlinear parabolic PDEs; stochastic games",
+    "group": "continuum3",
+    "file": "problems/475-infinity-fractional-evolution-comparison.md"
+  },
+  {
+    "id": "476",
+    "slug": "nonlocal-pucci-finite-integrability-abp",
+    "title": "A finite-integrability ABP estimate for general nonlocal Pucci operators",
+    "area": "Fully nonlinear nonlocal PDEs; maximum principles",
+    "group": "continuum3",
+    "file": "problems/476-nonlocal-pucci-finite-integrability-abp.md"
+  },
+  {
+    "id": "477",
+    "slug": "concave-nonlocal-calderon-zygmund",
+    "title": "Calderón–Zygmund estimates for general concave nonlocal equations",
+    "area": "Fully nonlinear nonlocal PDEs; integrable forcing",
+    "group": "continuum3",
+    "file": "problems/477-concave-nonlocal-calderon-zygmund.md"
+  },
+  {
+    "id": "478",
+    "slug": "rough-jump-kernel-holder-regularity",
+    "title": "Hölder regularity under directional nonlocal ellipticity alone",
+    "area": "Nonlocal PDEs; heterogeneous jump diffusion",
+    "group": "continuum3",
+    "file": "problems/478-rough-jump-kernel-holder-regularity.md"
+  },
+  {
+    "id": "479",
+    "slug": "nonlocal-directional-ellipticity-coercivity",
+    "title": "Does directional ellipticity force a fractional energy bound?",
+    "area": "Nonlocal diffusion PDEs; coercivity of interaction energies",
+    "group": "continuum3",
+    "file": "problems/479-nonlocal-directional-ellipticity-coercivity.md"
+  },
+  {
+    "id": "480",
+    "slug": "nonlocal-obstacle-minimal-smoothness",
+    "title": "Optimal nonlocal obstacle regularity with a minimally smooth obstacle",
+    "area": "Nonlocal free-boundary PDEs; optimal stopping",
+    "group": "continuum3",
+    "file": "problems/480-nonlocal-obstacle-minimal-smoothness.md"
+  },
+  {
+    "id": "481",
+    "slug": "fractional-pressure-pme-multidimensional-uniqueness",
+    "title": "Multidimensional weak uniqueness for porous-medium flow with fractional pressure",
+    "area": "Nonlocal PDEs; porous-medium transport",
+    "group": "continuum3",
+    "file": "problems/481-fractional-pressure-pme-multidimensional-uniqueness.md"
+  },
+  {
+    "id": "482",
+    "slug": "fractional-pressure-superquadratic-continuity",
+    "title": "Continuity for degenerate fractional-pressure porous-medium flow",
+    "area": "Nonlocal PDEs; degenerate diffusion regularity",
+    "group": "continuum3",
+    "file": "problems/482-fractional-pressure-superquadratic-continuity.md"
+  },
+  {
+    "id": "483",
+    "slug": "fractional-pressure-multidimensional-instantaneous-spread",
+    "title": "Instantaneous spreading for fractional-pressure flow in several dimensions",
+    "area": "Nonlocal PDEs; propagation of a diffusing front",
+    "group": "continuum3",
+    "file": "problems/483-fractional-pressure-multidimensional-instantaneous-spread.md"
+  },
+  {
+    "id": "484",
+    "slug": "superlinear-skt-nonlocal-to-local-limit",
+    "title": "The local limit of superlinear multispecies nonlocal diffusion",
+    "area": "Cross-diffusion PDEs; population dispersal",
+    "group": "continuum3",
+    "file": "problems/484-superlinear-skt-nonlocal-to-local-limit.md"
+  },
+  {
+    "id": "485",
+    "slug": "local-cahn-hilliard-three-dimensional-separation",
+    "title": "Instantaneous strict separation for three-dimensional local Cahn–Hilliard",
+    "area": "Phase-field PDEs; binary mixtures",
+    "group": "continuum3",
+    "file": "problems/485-local-cahn-hilliard-three-dimensional-separation.md"
+  },
+  {
+    "id": "486",
+    "slug": "fractional-minimizing-cones-three-dimensional",
+    "title": "Flatness of three-dimensional fractional minimizing cones for every interaction order",
+    "area": "Nonlocal variational PDEs; phase interfaces",
+    "group": "continuum3",
+    "file": "problems/486-fractional-minimizing-cones-three-dimensional.md"
+  },
+  {
+    "id": "487",
+    "slug": "manifold-fractional-pme-weak-dual-uniqueness",
+    "title": "Uniqueness of all weak dual solutions of fractional porous-medium flow",
+    "area": "Nonlocal PDEs; diffusion on curved spaces",
+    "group": "continuum3",
+    "file": "problems/487-manifold-fractional-pme-weak-dual-uniqueness.md"
+  },
+  {
+    "id": "488",
+    "slug": "manifold-fractional-pme-mass-conservation",
+    "title": "Mass conservation for fractional porous-medium flow on noncompact manifolds",
+    "area": "Nonlocal PDEs; conservation of diffusing mass",
+    "group": "continuum3",
+    "file": "problems/488-manifold-fractional-pme-mass-conservation.md"
+  },
+  {
+    "id": "489",
+    "slug": "manifold-fractional-pme-point-source",
+    "title": "Point-source solutions of fractional porous-medium diffusion on manifolds",
+    "area": "Nonlocal PDEs; anomalous diffusion from a point source",
+    "group": "continuum3",
+    "file": "problems/489-manifold-fractional-pme-point-source.md"
+  },
+  {
+    "id": "490",
+    "slug": "time-fractional-pme-dirac-uniqueness",
+    "title": "Uniqueness for a point source in time-fractional porous-medium flow",
+    "area": "PDEs with memory; porous-medium diffusion",
+    "group": "continuum3",
+    "file": "problems/490-time-fractional-pme-dirac-uniqueness.md"
+  },
+  {
+    "id": "491",
+    "slug": "time-fractional-pme-barenblatt-attraction",
+    "title": "Barenblatt attraction for porous-medium diffusion with time memory",
+    "area": "PDEs with memory; nonlinear diffusion asymptotics",
+    "group": "continuum3",
+    "file": "problems/491-time-fractional-pme-barenblatt-attraction.md"
+  },
+  {
+    "id": "492",
+    "slug": "stochastic-navier-stokes-bounded-critical-norm",
+    "title": "A bounded critical norm continuation criterion for stochastic Navier–Stokes",
+    "area": "Stochastic fluid PDEs; regularity criteria",
+    "group": "stochastic3",
+    "file": "problems/492-stochastic-navier-stokes-bounded-critical-norm.md"
+  },
+  {
+    "id": "493",
+    "slug": "critical-stochastic-sqg-global-regularity",
+    "title": "Global regularity for critical SQG with state-dependent noise",
+    "area": "Stochastic PDEs; geophysical fluid dynamics",
+    "group": "stochastic3",
+    "file": "problems/493-critical-stochastic-sqg-global-regularity.md"
+  },
+  {
+    "id": "494",
+    "slug": "maxwell-stefan-arbitrary-friction-global-classical",
+    "title": "Global classical Maxwell–Stefan diffusion with arbitrary pair friction",
+    "area": "Cross-diffusion PDEs; gas mixtures",
+    "group": "continuum3",
+    "file": "problems/494-maxwell-stefan-arbitrary-friction-global-classical.md"
+  },
+  {
+    "id": "495",
+    "slug": "fourth-order-aggregation-weak-uniqueness",
+    "title": "Weak uniqueness for fourth-order aggregation–diffusion",
+    "area": "Degenerate parabolic PDEs; cell adhesion",
+    "group": "continuum3",
+    "file": "problems/495-fourth-order-aggregation-weak-uniqueness.md"
+  },
+  {
+    "id": "496",
+    "slug": "fourth-order-aggregation-full-space-minimizer",
+    "title": "Full-space minimizers for subcritical fourth-order aggregation energy",
+    "area": "Variational PDEs; aggregation and phase separation",
+    "group": "continuum3",
+    "file": "problems/496-fourth-order-aggregation-full-space-minimizer.md"
+  },
+  {
+    "id": "497",
+    "slug": "fourth-order-aggregation-finite-propagation",
+    "title": "Finite propagation in fourth-order aggregation–diffusion",
+    "area": "Degenerate parabolic PDEs; moving tissue boundaries",
+    "group": "continuum3",
+    "file": "problems/497-fourth-order-aggregation-finite-propagation.md"
+  },
+  {
+    "id": "498",
+    "slug": "entropy-reaction-diffusion-renormalized-uniqueness",
+    "title": "Unconditional uniqueness for entropy-dissipating reaction–diffusion",
+    "area": "Reaction–diffusion PDEs; chemical kinetics",
+    "group": "continuum3",
+    "file": "problems/498-entropy-reaction-diffusion-renormalized-uniqueness.md"
+  },
+  {
+    "id": "499",
+    "slug": "nonlinear-diffusion-renormalization-mass-conservation",
+    "title": "Automatic conservation laws for renormalized nonlinear diffusion",
+    "area": "Nonlinear diffusion PDEs; chemical mass conservation",
+    "group": "continuum3",
+    "file": "problems/499-nonlinear-diffusion-renormalization-mass-conservation.md"
+  },
+  {
+    "id": "500",
+    "slug": "complex-balanced-pde-global-attractor",
+    "title": "Global attraction for complex-balanced reaction–diffusion with boundary equilibria",
+    "area": "Reaction–diffusion PDEs; chemical equilibration",
+    "group": "continuum3",
+    "file": "problems/500-complex-balanced-pde-global-attractor.md"
+  },
+  {
+    "id": "501",
+    "slug": "general-stable-obstacle-optimal-regularity",
+    "title": "Optimal obstacle regularity for stable jump kernels with only angular integrability",
+    "area": "Nonlocal obstacle problems; anisotropic jump processes",
+    "group": "continuum3",
+    "file": "problems/501-general-stable-obstacle-optimal-regularity.md"
+  }
+]

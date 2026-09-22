@@ -222,5 +222,45 @@
     "file": "problems/353-entanglement-of-purification-additivity.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-19"
+  },
+  {
+    "id": "433",
+    "title": "Global L2 scattering for the planar hyperbolic cubic Schrödinger equation",
+    "area": "Dispersive PDEs and nonlinear wave envelopes",
+    "file": "problems/433-hyperbolic-cubic-nls-scattering.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "434",
+    "title": "Subunit-moment eigenvalue bounds for complex Schrödinger potentials",
+    "area": "Nonselfadjoint Schrödinger PDEs and spectral bounds",
+    "file": "problems/434-complex-schrodinger-subunit-moments.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "442",
+    "title": "Classical attenuation versus uniform semiclassical local decay",
+    "area": "Dissipative Schrödinger PDEs and high-frequency propagation",
+    "file": "problems/442-dissipative-schrodinger-uniform-decay.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "445",
+    "title": "A resonance gap for arbitrary uniformly hyperbolic trapping in three dimensions",
+    "area": "Scattering PDEs and wave decay",
+    "file": "problems/445-hyperbolic-trapping-resonance-gap-three-dimensions.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "458",
+    "title": "Can bounded positive time-dependent potentials trap a Schrödinger wave?",
+    "area": "Time-dependent Schrödinger PDEs and quantum confinement",
+    "file": "problems/458-positive-time-dependent-potential-localization.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
   }
 ]

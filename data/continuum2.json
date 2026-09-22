@@ -206,5 +206,181 @@
     "file": "problems/308-landau-coulomb-inhomogeneous.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-17"
+  },
+  {
+    "id": "399",
+    "title": "Global smooth evolution of small semigeostrophic perturbations",
+    "area": "Geophysical PDEs / optimal transport",
+    "file": "problems/399-semigeostrophic-small-data-global-smoothness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "400",
+    "title": "Uniqueness of bounded semigeostrophic potential vorticity",
+    "area": "Geophysical PDEs / nonlinear transport",
+    "file": "problems/400-semigeostrophic-bounded-vorticity-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "401",
+    "title": "Sharp weak integrability of planar Monge–Ampère Hessians",
+    "area": "Nonlinear elliptic PDEs / optimal transport",
+    "file": "problems/401-planar-monge-ampere-sharp-hessian-integrability.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "402",
+    "title": "Affine Bernstein rigidity in dimensions three through nine",
+    "area": "Fourth-order elliptic PDEs / geometric variational problems",
+    "file": "problems/402-affine-bernstein-entire-low-dimensions.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "403",
+    "title": "Regularity of transport interfaces for nonconvex polyhedral targets",
+    "area": "Monge–Ampère PDEs / optimal transport",
+    "file": "problems/403-polyhedral-transport-singular-interface.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "404",
+    "title": "Singular-set dimension of polyhedral partial-transport free boundaries",
+    "area": "Free-boundary PDEs / optimal transport",
+    "file": "problems/404-polyhedral-partial-transport-free-boundary.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "407",
+    "title": "Polynomial decay for KdV with three critical linear modes",
+    "area": "Dispersive PDEs / boundary stabilization",
+    "file": "problems/407-critical-kdv-odd-mode-polynomial-decay.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "410",
+    "title": "Best convex shape for insulation of fixed thickness and perimeter",
+    "area": "Elliptic PDEs / thermal shape optimization",
+    "file": "problems/410-fixed-thickness-insulation-convex-perimeter.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "411",
+    "title": "Concentric-ball optimality for thermal insulation with radiative heat transfer",
+    "area": "Elliptic PDEs / nonlinear boundary laws",
+    "file": "problems/411-radiative-insulation-concentric-balls.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "412",
+    "title": "Continuity of manifold transport under MTW and convex injectivity domains",
+    "area": "Monge–Ampère PDEs / transport on manifolds",
+    "file": "problems/412-mtw-convex-domains-transport-continuity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "416",
+    "title": "Uniform convergence of value functions in local mean-field games",
+    "area": "Hamilton–Jacobi / Fokker–Planck PDE systems",
+    "file": "problems/416-local-mfg-uniform-vanishing-viscosity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "417",
+    "title": "An algebraic vanishing-noise rate for kinetic mean-field games",
+    "area": "Kinetic PDEs / mean-field games",
+    "file": "problems/417-kinetic-mfg-vanishing-viscosity-rate.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "418",
+    "title": "Stationarity of Lipschitz weak solutions of the minimal-surface system",
+    "area": "Nonlinear elliptic PDE systems / surface energy",
+    "file": "problems/418-lawson-osserman-stationarity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "419",
+    "title": "Polynomial growth of every entire minimal graph",
+    "area": "Quasilinear elliptic PDEs / minimal interfaces",
+    "file": "problems/419-entire-minimal-graphs-polynomial-growth.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "420",
+    "title": "Polynomial anisotropic minimal graphs in dimensions four and five",
+    "area": "Quasilinear elliptic PDEs / crystalline surface energy",
+    "file": "problems/420-polynomial-anisotropic-minimal-graphs.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "422",
+    "title": "Quadratic-growth rigidity for the complex Monge–Ampère equation",
+    "area": "Nonlinear elliptic PDEs / geometric analysis",
+    "file": "problems/422-complex-monge-ampere-quadratic-growth.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "425",
+    "title": "Intercritical norm inflation for the dispersion-managed Schrödinger equation",
+    "area": "Nonlocal dispersive PDEs / nonlinear optics",
+    "file": "problems/425-intercritical-dispersion-managed-norm-inflation.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "426",
+    "title": "Existence of a nonaffine polynomial minimal graph",
+    "area": "Quasilinear elliptic PDEs / minimal interfaces",
+    "file": "problems/426-isotropic-polynomial-minimal-graph.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "428",
+    "title": "Positive equilibrium attraction for an irreversible catalytic reaction",
+    "area": "Reaction–diffusion PDEs / chemical kinetics",
+    "file": "problems/428-catalytic-reaction-diffusion-positive-attractor.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "430",
+    "title": "Uniqueness of the zero-average dispersion-managed soliton",
+    "area": "Nonlocal dispersive PDEs / optical pulse design",
+    "file": "problems/430-zero-dispersion-soliton-uniqueness.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "448",
+    "title": "Continuous harmonic extension of every degree-zero sphere boundary map",
+    "area": "Elliptic systems and orientational order",
+    "file": "problems/448-degree-zero-harmonic-extension.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "449",
+    "title": "Radial classification of higher-degree entire planar Ginzburg–Landau vortices",
+    "area": "Elliptic PDEs and superfluid vortices",
+    "file": "problems/449-entire-ginzburg-landau-vortex-symmetry.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
   }
 ]

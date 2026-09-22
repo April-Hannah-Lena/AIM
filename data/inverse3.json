@@ -57,7 +57,7 @@
   },
   {
     "id": "258",
-    "title": "Existence of a flexible closed C\u00b2 surface in three-space",
+    "title": "Existence of a flexible closed C² surface in three-space",
     "area": "Differential geometry / shell kinematics",
     "file": "problems/258-smooth-flexible-closed-shell.md",
     "status": "Open in cited literature; no later resolution located.",
@@ -105,7 +105,7 @@
   },
   {
     "id": "264",
-    "title": "Small-time global null control of no-slip Navier\u2013Stokes flow",
+    "title": "Small-time global null control of no-slip Navier–Stokes flow",
     "area": "Fluid control / distributed actuation",
     "file": "problems/264-localized-navier-stokes-global-null-control.md",
     "status": "Open in cited literature; no later resolution located.",
@@ -161,7 +161,7 @@
   },
   {
     "id": "271",
-    "title": "Matheron\u2019s covariogram uniqueness problem in three dimensions",
+    "title": "Matheron’s covariogram uniqueness problem in three dimensions",
     "area": "Geometric tomography / phase retrieval",
     "file": "problems/271-three-dimensional-covariogram-uniqueness.md",
     "status": "Open in cited literature; no later resolution located.",
@@ -270,5 +270,125 @@
     "file": "problems/357-planar-halving-lines.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-19"
+  },
+  {
+    "id": "396",
+    "title": "Observability of an acoustic shell at equal bulk and surface speeds",
+    "area": "PDE control / acoustic boundary dynamics",
+    "file": "problems/396-equal-speed-wentzell-wave-observability.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "397",
+    "title": "Boundary observation of a Schrödinger field with slower surface dispersion",
+    "area": "PDE control / dispersive boundary dynamics",
+    "file": "problems/397-slow-surface-schrodinger-observability.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "398",
+    "title": "The sharp local maneuvering time for a shallow-water tank",
+    "area": "PDE control / fluid–structure dynamics",
+    "file": "problems/398-shallow-water-tank-sharp-control-time.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "405",
+    "title": "Villani’s convex-injectivity-domain conjecture",
+    "area": "Optimal transport / Riemannian geometry",
+    "file": "problems/405-villani-mtw-convex-injectivity-domains.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "406",
+    "title": "Exact null control of a harmonically confined kinetic equation from a wedge",
+    "area": "PDE control / kinetic transport",
+    "file": "problems/406-harmonic-kolmogorov-wedge-null-control.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "408",
+    "title": "Approximate velocity control of a viscoelastic fluid with prescribed transport",
+    "area": "PDE control / viscoelasticity",
+    "file": "problems/408-oseen-oldroyd-approximate-boundary-control.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "409",
+    "title": "Boundary control to equilibrium for a parabolic obstacle problem",
+    "area": "PDE control / variational inequalities",
+    "file": "problems/409-parabolic-obstacle-boundary-control.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "413",
+    "title": "Logarithmic convexity for subdiffusion with non-gradient drift",
+    "area": "Fractional PDEs / inverse initial-state recovery",
+    "file": "problems/413-fractional-drift-logarithmic-convexity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "414",
+    "title": "Logarithmic convexity for two coupled subdiffusion orders",
+    "area": "Fractional PDE systems / inverse problems",
+    "file": "problems/414-mixed-order-fractional-logarithmic-convexity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "415",
+    "title": "Sharp exponential cost of fast boundary quantum control",
+    "area": "PDE control / Schrödinger dynamics",
+    "file": "problems/415-schrodinger-sharp-fast-control-exponent.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "421",
+    "title": "Continuous selection of small-time null controls for analytic systems",
+    "area": "Nonlinear control / feedback design",
+    "file": "problems/421-analytic-controls-continuous-selection.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "423",
+    "title": "Continuity of states driven by bounded admissible inputs",
+    "area": "Infinite-dimensional control / evolution equations",
+    "file": "problems/423-bounded-input-state-continuity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "424",
+    "title": "Sharp vanishing-viscosity control time for downstream transport",
+    "area": "PDE control / advection–diffusion",
+    "file": "problems/424-positive-transport-sharp-uniform-control-time.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "427",
+    "title": "Uniform control of Neumann advection–diffusion for non-gradient flows",
+    "area": "PDE control / transport with weak diffusion",
+    "file": "problems/427-nongradient-neumann-uniform-control.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "429",
+    "title": "Polynomial growth of reachable neighborhoods for analytic control systems",
+    "area": "Nonlinear control / minimum-time regularity",
+    "file": "problems/429-analytic-reachable-set-polynomial-growth.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
   }
 ]

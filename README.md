@@ -1,6 +1,6 @@
-# AIM — 360 Open Applied Problems
+# AIM — 500 Open Applied Problems
 
-A sourced collection of **360 precise mathematical research problems** in spectral theory, operator theory, applied mathematics, and related fields. Each problem has a self-contained statement, an applied motivation, brief references, and a dated literature-status review. The problem pages do not attempt solutions.
+A sourced collection of **500 precise mathematical research problems** in spectral theory, operator theory, applied mathematics, and related fields. Each problem has a self-contained statement, an applied motivation, brief references, and a dated literature-status review. The problem pages do not attempt solutions.
 
 **Literature checks:** Each entry records its own review date. Adding a batch does not revalidate earlier entries. The entries are open in the cited literature, and targeted searches did not locate later resolutions of their exact statements as of their review dates. This is a documented literature check, not a guarantee that no proof exists. Restrictions and relevant partial results are explained on each page. Further additions exclude numerical linear algebra (NLA).
 
@@ -10,7 +10,7 @@ The collection includes foundational questions as well as directly applied ones,
 
 | Publication batch | Active entries | Entry review dates |
 | --- | ---: | --- |
-| Original collection | 100 | 2026-09-08 |
+| Original collection | 99 | 2026-09-08–2026-09-22 |
 | Second collection | 100 | 2026-09-08 |
 | Third collection | 100 | 2026-09-13 |
 | September 2026 expansion — batch 1 | 10 | 2026-09-17 |
@@ -19,21 +19,22 @@ The collection includes foundational questions as well as directly applied ones,
 | September 2026 expansion — batch 4 | 10 | 2026-09-18 |
 | September 2026 expansion — batch 5 | 10 | 2026-09-18 |
 | September 2026 expansion — batch 6 | 10 | 2026-09-19 |
+| September 22 expansion — PDE emphasis | 141 | 2026-09-22 |
 
 | Subject group | Problems |
 | --- | ---: |
 | [Spectral theory and spectral geometry](#spectral-theory-and-spectral-geometry) | 26 |
-| [Operators, matrices and computation](#operators-matrices-and-computation) | 31 |
+| [Operators, matrices and computation](#operators-matrices-and-computation) | 40 |
 | [Inverse problems, control and dynamics](#inverse-problems-control-and-dynamics) | 28 |
-| [PDEs, materials, probability and optimization](#pdes-materials-probability-and-optimization) | 37 |
-| [Waves, quantum systems and spectral geometry](#waves-quantum-systems-and-spectral-geometry) | 26 |
+| [PDEs, materials, probability and optimization](#pdes-materials-probability-and-optimization) | 47 |
+| [Waves, quantum systems and spectral geometry](#waves-quantum-systems-and-spectral-geometry) | 32 |
 | [Imaging, control, geometry and dynamics](#imaging-control-geometry-and-dynamics) | 29 |
-| [Fluids, kinetic theory and continuum mechanics](#fluids-kinetic-theory-and-continuum-mechanics) | 26 |
+| [Fluids, kinetic theory and continuum mechanics](#fluids-kinetic-theory-and-continuum-mechanics) | 48 |
 | [Stochastic growth, populations and statistical mechanics](#stochastic-growth-populations-and-statistical-mechanics) | 30 |
-| [Many-body physics, quantum information and wave analysis](#many-body-physics-quantum-information-and-wave-analysis) | 28 |
-| [Nonlinear evolution, materials and continuum models](#nonlinear-evolution-materials-and-continuum-models) | 28 |
-| [Applied geometry, control and information](#applied-geometry-control-and-information) | 34 |
-| [Stochastic dynamics, reaction networks and applied optimization](#stochastic-dynamics-reaction-networks-and-applied-optimization) | 37 |
+| [Many-body physics, quantum information and wave analysis](#many-body-physics-quantum-information-and-wave-analysis) | 33 |
+| [Nonlinear evolution, materials and continuum models](#nonlinear-evolution-materials-and-continuum-models) | 93 |
+| [Applied geometry, control and information](#applied-geometry-control-and-information) | 49 |
+| [Stochastic dynamics, reaction networks and applied optimization](#stochastic-dynamics-reaction-networks-and-applied-optimization) | 45 |
 
 ## Spectral theory and spectral geometry
 
@@ -101,6 +102,15 @@ The collection includes foundational questions as well as directly applied ones,
 | 336 | [A constant bound for fixed-order prefix discrepancy](problems/336-strong-komlos-prefix-discrepancy.md) | Discrepancy, cumulative allocation and integer optimization |
 | 338 | [Aaronson–Ambainis influential-variable conjecture](problems/338-aaronson-ambainis-influence.md) | Boolean Fourier analysis and quantum query complexity |
 | 351 | [The modern integer 3SUM conjecture](problems/351-integer-three-sum-hardness.md) | Exact algorithms and computational complexity |
+| 438 | [The sharp vector Riesz inequality for multidimensional potential fields](problems/438-vector-riesz-sharp-norm.md) | Harmonic analysis and elliptic potential fields |
+| 443 | [Poisson kernel bounds for elliptic boundary diffusion on Lipschitz domains](problems/443-dtn-poisson-bounds-lipschitz.md) | Elliptic PDEs and boundary diffusion |
+| 444 | [Analytic boundary diffusion on continuous functions for Lipschitz domains](problems/444-dtn-analyticity-continuous-boundary.md) | Elliptic PDEs and analytic semigroups |
+| 459 | [The sharp Beurling–Ahlfors bound for planar elliptic systems](problems/459-beurling-ahlfors-sharp-norm.md) | Planar elliptic PDEs and singular integral operators |
+| 460 | [A uniform L3 estimate for the triangular Hilbert transform](problems/460-triangular-hilbert-transform-l3.md) | Multilinear harmonic analysis and coupled signal interactions |
+| 461 | [Almost-everywhere Fourier reconstruction of L log L signals](problems/461-fourier-l-log-l-pointwise-convergence.md) | Fourier analysis and endpoint signal reconstruction |
+| 462 | [Hexagonal optimality for Gaussian time-frequency sampling](problems/462-gaussian-gabor-hexagonal-optimality.md) | Applied harmonic analysis and communication channels |
+| 463 | [Stein’s Hilbert-transform bound along Lipschitz directions](problems/463-stein-lipschitz-direction-hilbert-bound.md) | Directional singular integrals and variable-direction propagation |
+| 465 | [Finite-density time sampling of an infinite observation window](problems/465-infinite-time-dynamical-frame-discretization.md) | Operator evolution and stable dynamical sampling |
 
 ## Inverse problems, control and dynamics
 
@@ -140,7 +150,6 @@ The collection includes foundational questions as well as directly applied ones,
 | ID | Problem | Area |
 | --- | --- | --- |
 | 076 | [Global regularity of the three-dimensional Navier–Stokes equations](problems/076-navier-stokes-global-regularity.md) | Fluid dynamics |
-| 077 | [Finite-time singularity for smooth three-dimensional Euler flow without a boundary](problems/077-euler-smooth-free-space.md) | Fluid dynamics |
 | 078 | [Global regularity for supercritical dissipative surface quasi-geostrophic flow](problems/078-supercritical-sqg.md) | Geophysical fluid dynamics |
 | 079 | [Large-data global classical solutions of relativistic Vlasov–Maxwell](problems/079-vlasov-maxwell-global-classical.md) | Kinetic theory and plasma physics |
 | 080 | [Large-data global smoothness for the spatially inhomogeneous Boltzmann equation](problems/080-inhomogeneous-boltzmann-regularity.md) | Kinetic theory |
@@ -176,6 +185,17 @@ The collection includes foundational questions as well as directly applied ones,
 | 354 | [Private PAC learning with polynomial VC and iterated-logarithm sample cost](problems/354-private-pac-vc-logstar.md) | Statistical learning, data privacy and sample complexity |
 | 356 | [The sharp support–concentration bound for subset sums](problems/356-subset-sum-support-concentration.md) | Combinatorial probability, information theory and packing algorithms |
 | 358 | [Polynomial-time proper learning of univariate Gaussian mixtures](problems/358-univariate-gaussian-mixture-proper-learning.md) | Statistical density estimation and unsupervised learning |
+| 431 | [Continuous gradients for three-dimensional infinity-harmonic functions](problems/431-infinity-harmonic-c1-three-dimensions.md) | Degenerate elliptic PDEs and supremal variational problems |
+| 432 | [Sharp gradient regularity for higher-dimensional p-Poisson equations](problems/432-sharp-p-poisson-gradient-regularity.md) | Nonlinear elliptic PDEs and nonlinear diffusion |
+| 439 | [Strong comparison for ordered p-harmonic fields](problems/439-p-harmonic-strong-comparison.md) | Nonlinear elliptic PDEs and comparison principles |
+| 446 | [A nonlinear Weyl lemma at the minimal p-harmonic integrability threshold](problems/446-very-weak-p-harmonic-energy-regularity.md) | Degenerate elliptic PDEs and nonlinear potential theory |
+| 447 | [Second-order Sobolev regularity of p-harmonic functions beyond the Cordes range](problems/447-p-harmonic-second-sobolev-derivatives.md) | Degenerate elliptic PDE regularity |
+| 450 | [Bounded variation of gradients in the Rudin–Osher–Fatemi denoising model](problems/450-rof-gradient-bounded-variation.md) | Variational elliptic PDEs and image denoising |
+| 451 | [Regular MEMS extremal states without an asymptotic curvature condition](problems/451-mems-extremal-without-crandall-rabinowitz.md) | Semilinear elliptic PDEs and electrostatic microdevices |
+| 452 | [Interior bounds for stable elliptic states with sign-changing reaction laws](problems/452-stable-semilinear-sign-changing-interior-bound.md) | Semilinear elliptic PDEs and reaction equilibria |
+| 453 | [A single blow-up point for singular extremal states on convex domains](problems/453-convex-domain-extremal-single-singularity.md) | Semilinear elliptic PDEs and thermal ignition |
+| 457 | [Optimal dimension for bounded subquadratic p-Laplace extremal states](problems/457-subquadratic-p-laplace-extremal-critical-dimension.md) | Singular quasilinear elliptic PDEs |
+| 464 | [A mixed Sobolev estimate for reconstructing a scalar potential](problems/464-bourgain-brezis-mixed-sobolev-gradient-estimate.md) | Elliptic potential reconstruction and critical function spaces |
 
 ## Waves, quantum systems and spectral geometry
 
@@ -207,6 +227,12 @@ The collection includes foundational questions as well as directly applied ones,
 | 124 | [Boundary contact of the second nodal set in convex domains](problems/124-convex-higher-dimensional-payne.md) | Vibration interfaces and geometry |
 | 125 | [Subpolynomial compact-set peaks of Hecke–Maass waves](problems/125-sarnak-compact-supnorm.md) | Arithmetic quantum chaos |
 | 314 | [Diffusive mean-square displacement at fixed disorder](problems/314-anderson-fixed-disorder-diffusion.md) | Disordered quantum transport |
+| 435 | [Nonempty spectrum for a magnetic complex Airy operator at every field strength](problems/435-magnetic-airy-half-plane-spectrum.md) | Magnetic spectral PDEs and superconductivity |
+| 436 | [Reality of the spectrum for a spherical strip with PT-symmetric boundary conditions](problems/436-spherical-pt-robin-real-spectrum.md) | Waveguides and nonselfadjoint boundary PDEs |
+| 437 | [Excess Floquet multiplicity for complex periodic Schrödinger equations](problems/437-complex-hill-excess-multiplicity.md) | Periodic wave media and nonselfadjoint spectral theory |
+| 440 | [Completeness of modes for slowly growing imaginary Schrödinger potentials](problems/440-imaginary-sublinear-potential-completeness.md) | Nonselfadjoint Schrödinger equations and modal expansions |
+| 441 | [An optimal Weyl remainder for interior transmission eigenvalues](problems/441-transmission-eigenvalue-sharp-weyl-remainder.md) | Transmission PDEs and wave scattering |
+| 456 | [The Weinstock inequality for convex domains in a sphere](problems/456-spherical-convex-weinstock-inequality.md) | Elliptic boundary spectra and shape optimization |
 
 ## Imaging, control, geometry and dynamics
 
@@ -272,6 +298,28 @@ The collection includes foundational questions as well as directly applied ones,
 | 174 | [The Euler vortex-filament limit for a general moving curve](problems/174-vortex-filament-binormal.md) | Vortex dynamics and fluid mechanics |
 | 175 | [Sustained double-exponential gradient growth on the Euler torus](problems/175-euler-sustained-double-exponential-growth.md) | Fluid mixing and creation of small scales |
 | 308 | [Global classical solutions of the spatially inhomogeneous Landau–Coulomb equation](problems/308-landau-coulomb-inhomogeneous.md) | Fluids, kinetic theory and continuum mechanics |
+| 399 | [Global smooth evolution of small semigeostrophic perturbations](problems/399-semigeostrophic-small-data-global-smoothness.md) | Geophysical PDEs / optimal transport |
+| 400 | [Uniqueness of bounded semigeostrophic potential vorticity](problems/400-semigeostrophic-bounded-vorticity-uniqueness.md) | Geophysical PDEs / nonlinear transport |
+| 401 | [Sharp weak integrability of planar Monge–Ampère Hessians](problems/401-planar-monge-ampere-sharp-hessian-integrability.md) | Nonlinear elliptic PDEs / optimal transport |
+| 402 | [Affine Bernstein rigidity in dimensions three through nine](problems/402-affine-bernstein-entire-low-dimensions.md) | Fourth-order elliptic PDEs / geometric variational problems |
+| 403 | [Regularity of transport interfaces for nonconvex polyhedral targets](problems/403-polyhedral-transport-singular-interface.md) | Monge–Ampère PDEs / optimal transport |
+| 404 | [Singular-set dimension of polyhedral partial-transport free boundaries](problems/404-polyhedral-partial-transport-free-boundary.md) | Free-boundary PDEs / optimal transport |
+| 407 | [Polynomial decay for KdV with three critical linear modes](problems/407-critical-kdv-odd-mode-polynomial-decay.md) | Dispersive PDEs / boundary stabilization |
+| 410 | [Best convex shape for insulation of fixed thickness and perimeter](problems/410-fixed-thickness-insulation-convex-perimeter.md) | Elliptic PDEs / thermal shape optimization |
+| 411 | [Concentric-ball optimality for thermal insulation with radiative heat transfer](problems/411-radiative-insulation-concentric-balls.md) | Elliptic PDEs / nonlinear boundary laws |
+| 412 | [Continuity of manifold transport under MTW and convex injectivity domains](problems/412-mtw-convex-domains-transport-continuity.md) | Monge–Ampère PDEs / transport on manifolds |
+| 416 | [Uniform convergence of value functions in local mean-field games](problems/416-local-mfg-uniform-vanishing-viscosity.md) | Hamilton–Jacobi / Fokker–Planck PDE systems |
+| 417 | [An algebraic vanishing-noise rate for kinetic mean-field games](problems/417-kinetic-mfg-vanishing-viscosity-rate.md) | Kinetic PDEs / mean-field games |
+| 418 | [Stationarity of Lipschitz weak solutions of the minimal-surface system](problems/418-lawson-osserman-stationarity.md) | Nonlinear elliptic PDE systems / surface energy |
+| 419 | [Polynomial growth of every entire minimal graph](problems/419-entire-minimal-graphs-polynomial-growth.md) | Quasilinear elliptic PDEs / minimal interfaces |
+| 420 | [Polynomial anisotropic minimal graphs in dimensions four and five](problems/420-polynomial-anisotropic-minimal-graphs.md) | Quasilinear elliptic PDEs / crystalline surface energy |
+| 422 | [Quadratic-growth rigidity for the complex Monge–Ampère equation](problems/422-complex-monge-ampere-quadratic-growth.md) | Nonlinear elliptic PDEs / geometric analysis |
+| 425 | [Intercritical norm inflation for the dispersion-managed Schrödinger equation](problems/425-intercritical-dispersion-managed-norm-inflation.md) | Nonlocal dispersive PDEs / nonlinear optics |
+| 426 | [Existence of a nonaffine polynomial minimal graph](problems/426-isotropic-polynomial-minimal-graph.md) | Quasilinear elliptic PDEs / minimal interfaces |
+| 428 | [Positive equilibrium attraction for an irreversible catalytic reaction](problems/428-catalytic-reaction-diffusion-positive-attractor.md) | Reaction–diffusion PDEs / chemical kinetics |
+| 430 | [Uniqueness of the zero-average dispersion-managed soliton](problems/430-zero-dispersion-soliton-uniqueness.md) | Nonlocal dispersive PDEs / optical pulse design |
+| 448 | [Continuous harmonic extension of every degree-zero sphere boundary map](problems/448-degree-zero-harmonic-extension.md) | Elliptic systems and orientational order |
+| 449 | [Radial classification of higher-degree entire planar Ginzburg–Landau vortices](problems/449-entire-ginzburg-landau-vortex-symmetry.md) | Elliptic PDEs and superfluid vortices |
 
 ## Stochastic growth, populations and statistical mechanics
 
@@ -340,6 +388,11 @@ The collection includes foundational questions as well as directly applied ones,
 | 313 | [Does entanglement-assisted capacity equal the Lovász bound?](problems/313-entanglement-assisted-lovasz.md) | Quantum information and zero-error communication |
 | 320 | [Equal-weight decomposition of quantum channels with bounded Kraus rank](problems/320-ruskai-audenaert-decomposition.md) | Quantum information and channel simulation |
 | 353 | [Additivity of entanglement of purification](problems/353-entanglement-of-purification-additivity.md) | Quantum information and correlation preparation |
+| 433 | [Global L2 scattering for the planar hyperbolic cubic Schrödinger equation](problems/433-hyperbolic-cubic-nls-scattering.md) | Dispersive PDEs and nonlinear wave envelopes |
+| 434 | [Subunit-moment eigenvalue bounds for complex Schrödinger potentials](problems/434-complex-schrodinger-subunit-moments.md) | Nonselfadjoint Schrödinger PDEs and spectral bounds |
+| 442 | [Classical attenuation versus uniform semiclassical local decay](problems/442-dissipative-schrodinger-uniform-decay.md) | Dissipative Schrödinger PDEs and high-frequency propagation |
+| 445 | [A resonance gap for arbitrary uniformly hyperbolic trapping in three dimensions](problems/445-hyperbolic-trapping-resonance-gap-three-dimensions.md) | Scattering PDEs and wave decay |
+| 458 | [Can bounded positive time-dependent potentials trap a Schrödinger wave?](problems/458-positive-time-dependent-potential-localization.md) | Time-dependent Schrödinger PDEs and quantum confinement |
 
 ## Nonlinear evolution, materials and continuum models
 
@@ -373,6 +426,71 @@ The collection includes foundational questions as well as directly applied ones,
 | 315 | [Global classical continuation for a reversible mass-action reaction](problems/315-reversible-reaction-classical-continuation.md) | Chemical reaction–diffusion / continuum biology |
 | 335 | [Global classical continuation in the chemotaxis-consumption system](problems/335-chemotaxis-consumption-classical-continuation.md) | Mathematical biology / chemotaxis and cross-diffusion |
 | 360 | [The ball as the least densely packable convex solid](problems/360-ulam-convex-solid-packing.md) | Convex geometry and particle packing |
+| 361 | [Nonexistence of subcritical Lane–Emden equilibria in higher dimensions](problems/361-lane-emden-subcritical-system.md) | Nonlinear elliptic systems; reaction–diffusion |
+| 362 | [Can every bounded entire Burgers profile recur at late times?](problems/362-burgers-entire-limits.md) | Viscous conservation laws; asymptotic dynamics |
+| 363 | [Competitive exclusion by the slowest diffuser in a multispecies habitat](problems/363-dockery-slowest-diffuser.md) | Spatial ecology; reaction–diffusion |
+| 364 | [A genuinely periodic firing pattern in the delayed noisy integrate-and-fire PDE](problems/364-delayed-nnlif-periodic.md) | Mathematical neuroscience; nonlinear Fokker–Planck equations |
+| 365 | [Self-sustained oscillations in the full voltage–conductance neuron equation](problems/365-voltage-conductance-periodic.md) | Mathematical neuroscience; kinetic equations |
+| 366 | [Global smooth Schrödinger maps below the degree-zero energy threshold](problems/366-schrodinger-map-threshold.md) | Ferromagnetism; geometric dispersive PDEs |
+| 367 | [Finite-time Langmuir collapse for the three-dimensional Zakharov system](problems/367-zakharov-three-dimensional-collapse.md) | Plasma physics; coupled dispersive equations |
+| 368 | [Scattering of arbitrary small energy data for the three-dimensional Zakharov system](problems/368-zakharov-small-energy-scattering.md) | Plasma physics; dispersive asymptotics |
+| 369 | [Global regularity of the planar noncorotational FENE fluid](problems/369-fene-two-dimensional-regularity.md) | Polymer rheology; kinetic–fluid coupling |
+| 370 | [Vanishing nonlinear viscosity without commuting transport and diffusion matrices](problems/370-noncommuting-viscosity-limit.md) | Hyperbolic conservation laws; physical viscosity |
+| 371 | [Uniqueness of Glimm–Lax solutions for arbitrarily rough bounded data](problems/371-glimm-lax-measurable-data-uniqueness.md) | Gas dynamics; one-dimensional conservation laws |
+| 372 | [Can one-dimensional entropy-dissipating systems have two bounded solutions?](problems/372-one-dimensional-convex-entropy-nonuniqueness.md) | Continuum mechanics; admissibility of shock dynamics |
+| 373 | [Global classical solutions for repulsive relativistic Vlasov–Poisson](problems/373-relativistic-vlasov-poisson-global.md) | Plasma kinetics |
+| 374 | [Are bounded ancient Landau–Coulomb distributions necessarily Maxwellians?](problems/374-landau-ancient-liouville.md) | Plasma collisions; kinetic regularity |
+| 375 | [Landau–Coulomb smoothing controlled only by macroscopic quantities](problems/375-landau-macroscopic-smoothing.md) | Plasma kinetics; quantitative regularization |
+| 376 | [Hölder regularity for nondivergence kinetic jump equations](problems/376-fractional-kinetic-krylov-safonov.md) | Kinetic transport; anomalous velocity diffusion |
+| 377 | [Continuation of the cutoff Boltzmann flow from macroscopic bounds](problems/377-cutoff-boltzmann-continuation.md) | Rarefied gases; nonlinear kinetic transport |
+| 378 | [A universal quantitative error bound for small-BV hyperbolic flows](problems/378-universal-hyperbolic-error-rate.md) | Hyperbolic conservation laws; reliable simulation |
+| 379 | [Existence of elastic equilibria under quasiconvexity and infinite compression energy](problems/379-quasiconvex-physical-elastic-minimizers.md) | Nonlinear elasticity; variational equilibrium |
+| 380 | [Does a bounded interface slope prevent two-phase Muskat singularities?](problems/380-muskat-bounded-slope-continuation.md) | Porous-media interfaces; free boundaries |
+| 381 | [Global regularity of viscous planar MHD without magnetic diffusion](problems/381-nonresistive-planar-mhd.md) | Magnetohydrodynamics; conducting fluids |
+| 382 | [Large-data weak solutions for three-dimensional stress-diffusive Oldroyd-B flow](problems/382-oldroyd-diffusive-three-dimensional-weak.md) | Viscoelastic fluids; polymer rheology |
+| 383 | [The three-dimensional steady Leray problem with unrestricted boundary fluxes](problems/383-leray-three-dimensional-flux.md) | Steady viscous flow; inlet–outlet boundary conditions |
+| 384 | [Quantization of radial finite-time collapse in fully parabolic Keller–Segel](problems/384-keller-segel-collapse-quantization.md) | Chemotaxis; concentration of cell density |
+| 385 | [Global smoothness of the one-dimensional surface-growth equation](problems/385-surface-growth-global-regularity.md) | Epitaxial growth; fourth-order evolution equations |
+| 386 | [Global regularity for two-dimensional Kuramoto–Sivashinsky on arbitrary square tori](problems/386-two-dimensional-kuramoto-sivashinsky-global.md) | Combustion fronts; nonlinear pattern formation |
+| 387 | [The zero center-of-mass diffusion limit for kinetic FENE fluids](problems/387-fene-vanishing-center-of-mass-diffusion.md) | Polymer kinetics; singular diffusion limits |
+| 388 | [Global weak flow of three-dimensional nematic directors without a hemisphere restriction](problems/388-liquid-crystal-three-dimensional-weak.md) | Liquid crystals; coupled fluid and harmonic-map flow |
+| 389 | [Hard-sphere Boltzmann shock profiles at arbitrary Mach number](problems/389-boltzmann-arbitrary-mach-shocks.md) | Rarefied gas dynamics; kinetic shock layers |
+| 390 | [Uniqueness of strong-KPP equilibria on general unbounded domains](problems/390-strong-kpp-unbounded-uniqueness.md) | Reaction–diffusion; population equilibria |
+| 391 | [Extinction at the critical Dirichlet eigenvalue for strong-KPP reactions](problems/391-strong-kpp-critical-extinction.md) | Reaction–diffusion; critical habitat thresholds |
+| 392 | [Attainment of the three-dimensional neo-Hookean energy in the regular admissible class](problems/392-neo-hookean-critical-attainment.md) | Nonlinear elasticity; critical-growth energy minimization |
+| 393 | [Nonlinear Landau damping near a Maxwellian on the whole space](problems/393-maxwellian-whole-space-landau-damping.md) | Plasma kinetics; dispersive relaxation |
+| 394 | [Continuity of finite-cluster mass at the onset of Flory gelation](problems/394-flory-gelation-mass-continuity.md) | Coagulation equations; sol–gel phase transitions |
+| 395 | [Uniqueness of positive reaction–diffusion equilibria outside two obstacles](problems/395-reaction-two-obstacle-uniqueness.md) | Reaction–diffusion; populations in perforated habitats |
+| 454 | [Global smooth propagation for a laser envelope coupled to ionization](problems/454-ionization-laser-envelope-global-regularity.md) | Dispersive PDEs and nonlinear optics |
+| 455 | [Finite-time collapse in the planar self-steepening Schrödinger equation](problems/455-planar-self-steepening-finite-time-collapse.md) | Derivative dispersive PDEs and optical pulses |
+| 466 | [Bounded-Hessian Liouville rigidity in dimensions three and four](problems/466-fully-nonlinear-bounded-hessian-liouville.md) | Fully nonlinear elliptic PDEs; blow-up analysis |
+| 473 | [Higher regularity for concave stable nonlocal equations](problems/473-concave-nonlocal-higher-regularity.md) | Nonlinear diffusion PDEs; stochastic control |
+| 474 | [Uniqueness of positive harmonic profiles for singular stable operators in cones](problems/474-singular-stable-cone-positive-solution-uniqueness.md) | Nonlocal elliptic PDEs; free-boundary blow-up profiles |
+| 475 | [Comparison for viscosity solutions of infinity-fractional diffusion](problems/475-infinity-fractional-evolution-comparison.md) | Nonlinear parabolic PDEs; stochastic games |
+| 476 | [A finite-integrability ABP estimate for general nonlocal Pucci operators](problems/476-nonlocal-pucci-finite-integrability-abp.md) | Fully nonlinear nonlocal PDEs; maximum principles |
+| 477 | [Calderón–Zygmund estimates for general concave nonlocal equations](problems/477-concave-nonlocal-calderon-zygmund.md) | Fully nonlinear nonlocal PDEs; integrable forcing |
+| 478 | [Hölder regularity under directional nonlocal ellipticity alone](problems/478-rough-jump-kernel-holder-regularity.md) | Nonlocal PDEs; heterogeneous jump diffusion |
+| 479 | [Does directional ellipticity force a fractional energy bound?](problems/479-nonlocal-directional-ellipticity-coercivity.md) | Nonlocal diffusion PDEs; coercivity of interaction energies |
+| 480 | [Optimal nonlocal obstacle regularity with a minimally smooth obstacle](problems/480-nonlocal-obstacle-minimal-smoothness.md) | Nonlocal free-boundary PDEs; optimal stopping |
+| 481 | [Multidimensional weak uniqueness for porous-medium flow with fractional pressure](problems/481-fractional-pressure-pme-multidimensional-uniqueness.md) | Nonlocal PDEs; porous-medium transport |
+| 482 | [Continuity for degenerate fractional-pressure porous-medium flow](problems/482-fractional-pressure-superquadratic-continuity.md) | Nonlocal PDEs; degenerate diffusion regularity |
+| 483 | [Instantaneous spreading for fractional-pressure flow in several dimensions](problems/483-fractional-pressure-multidimensional-instantaneous-spread.md) | Nonlocal PDEs; propagation of a diffusing front |
+| 484 | [The local limit of superlinear multispecies nonlocal diffusion](problems/484-superlinear-skt-nonlocal-to-local-limit.md) | Cross-diffusion PDEs; population dispersal |
+| 485 | [Instantaneous strict separation for three-dimensional local Cahn–Hilliard](problems/485-local-cahn-hilliard-three-dimensional-separation.md) | Phase-field PDEs; binary mixtures |
+| 486 | [Flatness of three-dimensional fractional minimizing cones for every interaction order](problems/486-fractional-minimizing-cones-three-dimensional.md) | Nonlocal variational PDEs; phase interfaces |
+| 487 | [Uniqueness of all weak dual solutions of fractional porous-medium flow](problems/487-manifold-fractional-pme-weak-dual-uniqueness.md) | Nonlocal PDEs; diffusion on curved spaces |
+| 488 | [Mass conservation for fractional porous-medium flow on noncompact manifolds](problems/488-manifold-fractional-pme-mass-conservation.md) | Nonlocal PDEs; conservation of diffusing mass |
+| 489 | [Point-source solutions of fractional porous-medium diffusion on manifolds](problems/489-manifold-fractional-pme-point-source.md) | Nonlocal PDEs; anomalous diffusion from a point source |
+| 490 | [Uniqueness for a point source in time-fractional porous-medium flow](problems/490-time-fractional-pme-dirac-uniqueness.md) | PDEs with memory; porous-medium diffusion |
+| 491 | [Barenblatt attraction for porous-medium diffusion with time memory](problems/491-time-fractional-pme-barenblatt-attraction.md) | PDEs with memory; nonlinear diffusion asymptotics |
+| 494 | [Global classical Maxwell–Stefan diffusion with arbitrary pair friction](problems/494-maxwell-stefan-arbitrary-friction-global-classical.md) | Cross-diffusion PDEs; gas mixtures |
+| 495 | [Weak uniqueness for fourth-order aggregation–diffusion](problems/495-fourth-order-aggregation-weak-uniqueness.md) | Degenerate parabolic PDEs; cell adhesion |
+| 496 | [Full-space minimizers for subcritical fourth-order aggregation energy](problems/496-fourth-order-aggregation-full-space-minimizer.md) | Variational PDEs; aggregation and phase separation |
+| 497 | [Finite propagation in fourth-order aggregation–diffusion](problems/497-fourth-order-aggregation-finite-propagation.md) | Degenerate parabolic PDEs; moving tissue boundaries |
+| 498 | [Unconditional uniqueness for entropy-dissipating reaction–diffusion](problems/498-entropy-reaction-diffusion-renormalized-uniqueness.md) | Reaction–diffusion PDEs; chemical kinetics |
+| 499 | [Automatic conservation laws for renormalized nonlinear diffusion](problems/499-nonlinear-diffusion-renormalization-mass-conservation.md) | Nonlinear diffusion PDEs; chemical mass conservation |
+| 500 | [Global attraction for complex-balanced reaction–diffusion with boundary equilibria](problems/500-complex-balanced-pde-global-attractor.md) | Reaction–diffusion PDEs; chemical equilibration |
+| 501 | [Optimal obstacle regularity for stable jump kernels with only angular integrability](problems/501-general-stable-obstacle-optimal-regularity.md) | Nonlocal obstacle problems; anisotropic jump processes |
 
 ## Applied geometry, control and information
 
@@ -412,6 +530,21 @@ The collection includes foundational questions as well as directly applied ones,
 | 347 | [Capacity of the binary skew-symmetric broadcast channel](problems/347-binary-skew-symmetric-broadcast.md) | Network information theory and broadcast communication |
 | 355 | [The sharp degree bound for strong edge-colouring](problems/355-strong-edge-colouring.md) | Communication networks, interference scheduling and graph colouring |
 | 357 | [The near-linear bound for planar halving lines](problems/357-planar-halving-lines.md) | Computational geometry and parametric selection |
+| 396 | [Observability of an acoustic shell at equal bulk and surface speeds](problems/396-equal-speed-wentzell-wave-observability.md) | PDE control / acoustic boundary dynamics |
+| 397 | [Boundary observation of a Schrödinger field with slower surface dispersion](problems/397-slow-surface-schrodinger-observability.md) | PDE control / dispersive boundary dynamics |
+| 398 | [The sharp local maneuvering time for a shallow-water tank](problems/398-shallow-water-tank-sharp-control-time.md) | PDE control / fluid–structure dynamics |
+| 405 | [Villani’s convex-injectivity-domain conjecture](problems/405-villani-mtw-convex-injectivity-domains.md) | Optimal transport / Riemannian geometry |
+| 406 | [Exact null control of a harmonically confined kinetic equation from a wedge](problems/406-harmonic-kolmogorov-wedge-null-control.md) | PDE control / kinetic transport |
+| 408 | [Approximate velocity control of a viscoelastic fluid with prescribed transport](problems/408-oseen-oldroyd-approximate-boundary-control.md) | PDE control / viscoelasticity |
+| 409 | [Boundary control to equilibrium for a parabolic obstacle problem](problems/409-parabolic-obstacle-boundary-control.md) | PDE control / variational inequalities |
+| 413 | [Logarithmic convexity for subdiffusion with non-gradient drift](problems/413-fractional-drift-logarithmic-convexity.md) | Fractional PDEs / inverse initial-state recovery |
+| 414 | [Logarithmic convexity for two coupled subdiffusion orders](problems/414-mixed-order-fractional-logarithmic-convexity.md) | Fractional PDE systems / inverse problems |
+| 415 | [Sharp exponential cost of fast boundary quantum control](problems/415-schrodinger-sharp-fast-control-exponent.md) | PDE control / Schrödinger dynamics |
+| 421 | [Continuous selection of small-time null controls for analytic systems](problems/421-analytic-controls-continuous-selection.md) | Nonlinear control / feedback design |
+| 423 | [Continuity of states driven by bounded admissible inputs](problems/423-bounded-input-state-continuity.md) | Infinite-dimensional control / evolution equations |
+| 424 | [Sharp vanishing-viscosity control time for downstream transport](problems/424-positive-transport-sharp-uniform-control-time.md) | PDE control / advection–diffusion |
+| 427 | [Uniform control of Neumann advection–diffusion for non-gradient flows](problems/427-nongradient-neumann-uniform-control.md) | PDE control / transport with weak diffusion |
+| 429 | [Polynomial growth of reachable neighborhoods for analytic control systems](problems/429-analytic-reachable-set-polynomial-growth.md) | Nonlinear control / minimum-time regularity |
 
 ## Stochastic dynamics, reaction networks and applied optimization
 
@@ -454,6 +587,14 @@ The collection includes foundational questions as well as directly applied ones,
 | 345 | [Competitive exclusion in a chemostat with unequal removal rates](problems/345-chemostat-unequal-removal-exclusion.md) | Mathematical biology and microbial competition |
 | 350 | [Polynomial-factor hardness of scheduling unit jobs on prescribed machines](problems/350-unit-job-unique-machine-hardness.md) | Scheduling and approximation complexity |
 | 352 | [The modified integer round-up conjecture for cutting stock](problems/352-modified-integer-round-up.md) | Stochastic dynamics, reaction networks and applied optimization |
+| 467 | [Bourgain–Spencer accuracy for random elliptic media at finite contrast](problems/467-bourgain-spencer-nonperturbative-homogenization.md) | Stochastic homogenization; diffusion in heterogeneous media |
+| 468 | [Hölder continuity for parabolic SPDEs with merely bounded transport noise](problems/468-rough-transport-spde-holder.md) | Stochastic parabolic PDEs; passive scalar transport |
+| 469 | [A deterministic Hölder exponent for smooth-transport parabolic SPDEs](problems/469-smooth-transport-spde-deterministic-holder-exponent.md) | Stochastic parabolic PDEs; quantitative regularity |
+| 470 | [Global quadratic reaction–diffusion systems with general transport noise](problems/470-quadratic-mass-controlled-rd-transport-noise.md) | Stochastic PDEs; chemical and population kinetics |
+| 471 | [Transport-noise Navier–Stokes at critical smoothness minus one half](problems/471-stochastic-navier-stokes-negative-half-critical-data.md) | Stochastic fluid PDEs; rough initial velocity |
+| 472 | [Local no-slip Navier–Stokes theory under non-small transport noise](problems/472-stochastic-navier-stokes-no-slip-local.md) | Stochastic fluid PDEs; solid boundaries |
+| 492 | [A bounded critical norm continuation criterion for stochastic Navier–Stokes](problems/492-stochastic-navier-stokes-bounded-critical-norm.md) | Stochastic fluid PDEs; regularity criteria |
+| 493 | [Global regularity for critical SQG with state-dependent noise](problems/493-critical-stochastic-sqg-global-regularity.md) | Stochastic PDEs; geophysical fluid dynamics |
 
 ## Maintaining the collection
 

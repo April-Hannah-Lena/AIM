@@ -5,15 +5,7 @@
     "area": "Fluid dynamics",
     "file": "problems/076-navier-stokes-global-regularity.md",
     "status": "Open in cited literature; no later resolution located",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "077",
-    "title": "Finite-time singularity for smooth three-dimensional Euler flow without a boundary",
-    "area": "Fluid dynamics",
-    "file": "problems/077-euler-smooth-free-space.md",
-    "status": "Open in cited literature; no later resolution located",
-    "last_checked": "2026-09-08"
+    "last_checked": "2026-09-22"
   },
   {
     "id": "078",
@@ -294,5 +286,93 @@
     "file": "problems/358-univariate-gaussian-mixture-proper-learning.md",
     "status": "Open in cited literature; no later resolution located.",
     "last_checked": "2026-09-19"
+  },
+  {
+    "id": "431",
+    "title": "Continuous gradients for three-dimensional infinity-harmonic functions",
+    "area": "Degenerate elliptic PDEs and supremal variational problems",
+    "file": "problems/431-infinity-harmonic-c1-three-dimensions.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "432",
+    "title": "Sharp gradient regularity for higher-dimensional p-Poisson equations",
+    "area": "Nonlinear elliptic PDEs and nonlinear diffusion",
+    "file": "problems/432-sharp-p-poisson-gradient-regularity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "439",
+    "title": "Strong comparison for ordered p-harmonic fields",
+    "area": "Nonlinear elliptic PDEs and comparison principles",
+    "file": "problems/439-p-harmonic-strong-comparison.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "446",
+    "title": "A nonlinear Weyl lemma at the minimal p-harmonic integrability threshold",
+    "area": "Degenerate elliptic PDEs and nonlinear potential theory",
+    "file": "problems/446-very-weak-p-harmonic-energy-regularity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "447",
+    "title": "Second-order Sobolev regularity of p-harmonic functions beyond the Cordes range",
+    "area": "Degenerate elliptic PDE regularity",
+    "file": "problems/447-p-harmonic-second-sobolev-derivatives.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "450",
+    "title": "Bounded variation of gradients in the Rudin–Osher–Fatemi denoising model",
+    "area": "Variational elliptic PDEs and image denoising",
+    "file": "problems/450-rof-gradient-bounded-variation.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "451",
+    "title": "Regular MEMS extremal states without an asymptotic curvature condition",
+    "area": "Semilinear elliptic PDEs and electrostatic microdevices",
+    "file": "problems/451-mems-extremal-without-crandall-rabinowitz.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "452",
+    "title": "Interior bounds for stable elliptic states with sign-changing reaction laws",
+    "area": "Semilinear elliptic PDEs and reaction equilibria",
+    "file": "problems/452-stable-semilinear-sign-changing-interior-bound.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "453",
+    "title": "A single blow-up point for singular extremal states on convex domains",
+    "area": "Semilinear elliptic PDEs and thermal ignition",
+    "file": "problems/453-convex-domain-extremal-single-singularity.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "457",
+    "title": "Optimal dimension for bounded subquadratic p-Laplace extremal states",
+    "area": "Singular quasilinear elliptic PDEs",
+    "file": "problems/457-subquadratic-p-laplace-extremal-critical-dimension.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "464",
+    "title": "A mixed Sobolev estimate for reconstructing a scalar potential",
+    "area": "Elliptic potential reconstruction and critical function spaces",
+    "file": "problems/464-bourgain-brezis-mixed-sobolev-gradient-estimate.md",
+    "status": "Open in cited literature; no later resolution located.",
+    "last_checked": "2026-09-22"
   }
 ]

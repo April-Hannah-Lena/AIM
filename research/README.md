@@ -29,3 +29,7 @@ These records document editorial decisions made during the respective literature
 ## September 2026 expansion, beginning 17 September
 
 [Expansion progress and evidence](expansion-2026-09/README.md) records additions 301–360, each batch's publication state, held candidates, source discovery and the remaining work toward 200–300 new problems. See the [latest batch audit](expansion-2026-09/batch-06-review.md) and the linked earlier audits.
+
+## PDE-focused expansion to 500, 22 September 2026
+
+[Expansion overview and source maps](expansion-2026-09-22/README.md) document 141 new entries (361–501), later-result searches, cross-reviews and exclusions. One earlier Euler entry is held after a matching resolution announcement, leaving **500 active problems**. The [integration audit](expansion-2026-09-22/audit.md) records checks and the distinction between the new forced Navier–Stokes claim and the existing unforced question. Earlier records above remain historical checkpoints.

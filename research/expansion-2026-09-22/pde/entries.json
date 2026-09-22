@@ -1,0 +1,282 @@
+[
+  {
+    "id": "361",
+    "slug": "lane-emden-subcritical-system",
+    "title": "Nonexistence of subcritical Lane–Emden equilibria in higher dimensions",
+    "area": "Nonlinear elliptic systems; reaction–diffusion",
+    "group": "continuum3",
+    "file": "problems/361-lane-emden-subcritical-system.md"
+  },
+  {
+    "id": "362",
+    "slug": "burgers-entire-limits",
+    "title": "Can every bounded entire Burgers profile recur at late times?",
+    "area": "Viscous conservation laws; asymptotic dynamics",
+    "group": "continuum3",
+    "file": "problems/362-burgers-entire-limits.md"
+  },
+  {
+    "id": "363",
+    "slug": "dockery-slowest-diffuser",
+    "title": "Competitive exclusion by the slowest diffuser in a multispecies habitat",
+    "area": "Spatial ecology; reaction–diffusion",
+    "group": "continuum3",
+    "file": "problems/363-dockery-slowest-diffuser.md"
+  },
+  {
+    "id": "364",
+    "slug": "delayed-nnlif-periodic",
+    "title": "A genuinely periodic firing pattern in the delayed noisy integrate-and-fire PDE",
+    "area": "Mathematical neuroscience; nonlinear Fokker–Planck equations",
+    "group": "continuum3",
+    "file": "problems/364-delayed-nnlif-periodic.md"
+  },
+  {
+    "id": "365",
+    "slug": "voltage-conductance-periodic",
+    "title": "Self-sustained oscillations in the full voltage–conductance neuron equation",
+    "area": "Mathematical neuroscience; kinetic equations",
+    "group": "continuum3",
+    "file": "problems/365-voltage-conductance-periodic.md"
+  },
+  {
+    "id": "366",
+    "slug": "schrodinger-map-threshold",
+    "title": "Global smooth Schrödinger maps below the degree-zero energy threshold",
+    "area": "Ferromagnetism; geometric dispersive PDEs",
+    "group": "continuum3",
+    "file": "problems/366-schrodinger-map-threshold.md"
+  },
+  {
+    "id": "367",
+    "slug": "zakharov-three-dimensional-collapse",
+    "title": "Finite-time Langmuir collapse for the three-dimensional Zakharov system",
+    "area": "Plasma physics; coupled dispersive equations",
+    "group": "continuum3",
+    "file": "problems/367-zakharov-three-dimensional-collapse.md"
+  },
+  {
+    "id": "368",
+    "slug": "zakharov-small-energy-scattering",
+    "title": "Scattering of arbitrary small energy data for the three-dimensional Zakharov system",
+    "area": "Plasma physics; dispersive asymptotics",
+    "group": "continuum3",
+    "file": "problems/368-zakharov-small-energy-scattering.md"
+  },
+  {
+    "id": "369",
+    "slug": "fene-two-dimensional-regularity",
+    "title": "Global regularity of the planar noncorotational FENE fluid",
+    "area": "Polymer rheology; kinetic–fluid coupling",
+    "group": "continuum3",
+    "file": "problems/369-fene-two-dimensional-regularity.md"
+  },
+  {
+    "id": "370",
+    "slug": "noncommuting-viscosity-limit",
+    "title": "Vanishing nonlinear viscosity without commuting transport and diffusion matrices",
+    "area": "Hyperbolic conservation laws; physical viscosity",
+    "group": "continuum3",
+    "file": "problems/370-noncommuting-viscosity-limit.md"
+  },
+  {
+    "id": "371",
+    "slug": "glimm-lax-measurable-data-uniqueness",
+    "title": "Uniqueness of Glimm–Lax solutions for arbitrarily rough bounded data",
+    "area": "Gas dynamics; one-dimensional conservation laws",
+    "group": "continuum3",
+    "file": "problems/371-glimm-lax-measurable-data-uniqueness.md"
+  },
+  {
+    "id": "372",
+    "slug": "one-dimensional-convex-entropy-nonuniqueness",
+    "title": "Can one-dimensional entropy-dissipating systems have two bounded solutions?",
+    "area": "Continuum mechanics; admissibility of shock dynamics",
+    "group": "continuum3",
+    "file": "problems/372-one-dimensional-convex-entropy-nonuniqueness.md"
+  },
+  {
+    "id": "373",
+    "slug": "relativistic-vlasov-poisson-global",
+    "title": "Global classical solutions for repulsive relativistic Vlasov–Poisson",
+    "area": "Plasma kinetics",
+    "group": "continuum3",
+    "file": "problems/373-relativistic-vlasov-poisson-global.md"
+  },
+  {
+    "id": "374",
+    "slug": "landau-ancient-liouville",
+    "title": "Are bounded ancient Landau–Coulomb distributions necessarily Maxwellians?",
+    "area": "Plasma collisions; kinetic regularity",
+    "group": "continuum3",
+    "file": "problems/374-landau-ancient-liouville.md"
+  },
+  {
+    "id": "375",
+    "slug": "landau-macroscopic-smoothing",
+    "title": "Landau–Coulomb smoothing controlled only by macroscopic quantities",
+    "area": "Plasma kinetics; quantitative regularization",
+    "group": "continuum3",
+    "file": "problems/375-landau-macroscopic-smoothing.md"
+  },
+  {
+    "id": "376",
+    "slug": "fractional-kinetic-krylov-safonov",
+    "title": "Hölder regularity for nondivergence kinetic jump equations",
+    "area": "Kinetic transport; anomalous velocity diffusion",
+    "group": "continuum3",
+    "file": "problems/376-fractional-kinetic-krylov-safonov.md"
+  },
+  {
+    "id": "377",
+    "slug": "cutoff-boltzmann-continuation",
+    "title": "Continuation of the cutoff Boltzmann flow from macroscopic bounds",
+    "area": "Rarefied gases; nonlinear kinetic transport",
+    "group": "continuum3",
+    "file": "problems/377-cutoff-boltzmann-continuation.md"
+  },
+  {
+    "id": "378",
+    "slug": "universal-hyperbolic-error-rate",
+    "title": "A universal quantitative error bound for small-BV hyperbolic flows",
+    "area": "Hyperbolic conservation laws; reliable simulation",
+    "group": "continuum3",
+    "file": "problems/378-universal-hyperbolic-error-rate.md"
+  },
+  {
+    "id": "379",
+    "slug": "quasiconvex-physical-elastic-minimizers",
+    "title": "Existence of elastic equilibria under quasiconvexity and infinite compression energy",
+    "area": "Nonlinear elasticity; variational equilibrium",
+    "group": "continuum3",
+    "file": "problems/379-quasiconvex-physical-elastic-minimizers.md"
+  },
+  {
+    "id": "380",
+    "slug": "muskat-bounded-slope-continuation",
+    "title": "Does a bounded interface slope prevent two-phase Muskat singularities?",
+    "area": "Porous-media interfaces; free boundaries",
+    "group": "continuum3",
+    "file": "problems/380-muskat-bounded-slope-continuation.md"
+  },
+  {
+    "id": "381",
+    "slug": "nonresistive-planar-mhd",
+    "title": "Global regularity of viscous planar MHD without magnetic diffusion",
+    "area": "Magnetohydrodynamics; conducting fluids",
+    "group": "continuum3",
+    "file": "problems/381-nonresistive-planar-mhd.md"
+  },
+  {
+    "id": "382",
+    "slug": "oldroyd-diffusive-three-dimensional-weak",
+    "title": "Large-data weak solutions for three-dimensional stress-diffusive Oldroyd-B flow",
+    "area": "Viscoelastic fluids; polymer rheology",
+    "group": "continuum3",
+    "file": "problems/382-oldroyd-diffusive-three-dimensional-weak.md"
+  },
+  {
+    "id": "383",
+    "slug": "leray-three-dimensional-flux",
+    "title": "The three-dimensional steady Leray problem with unrestricted boundary fluxes",
+    "area": "Steady viscous flow; inlet–outlet boundary conditions",
+    "group": "continuum3",
+    "file": "problems/383-leray-three-dimensional-flux.md"
+  },
+  {
+    "id": "384",
+    "slug": "keller-segel-collapse-quantization",
+    "title": "Quantization of radial finite-time collapse in fully parabolic Keller–Segel",
+    "area": "Chemotaxis; concentration of cell density",
+    "group": "continuum3",
+    "file": "problems/384-keller-segel-collapse-quantization.md"
+  },
+  {
+    "id": "385",
+    "slug": "surface-growth-global-regularity",
+    "title": "Global smoothness of the one-dimensional surface-growth equation",
+    "area": "Epitaxial growth; fourth-order evolution equations",
+    "group": "continuum3",
+    "file": "problems/385-surface-growth-global-regularity.md"
+  },
+  {
+    "id": "386",
+    "slug": "two-dimensional-kuramoto-sivashinsky-global",
+    "title": "Global regularity for two-dimensional Kuramoto–Sivashinsky on arbitrary square tori",
+    "area": "Combustion fronts; nonlinear pattern formation",
+    "group": "continuum3",
+    "file": "problems/386-two-dimensional-kuramoto-sivashinsky-global.md"
+  },
+  {
+    "id": "387",
+    "slug": "fene-vanishing-center-of-mass-diffusion",
+    "title": "The zero center-of-mass diffusion limit for kinetic FENE fluids",
+    "area": "Polymer kinetics; singular diffusion limits",
+    "group": "continuum3",
+    "file": "problems/387-fene-vanishing-center-of-mass-diffusion.md"
+  },
+  {
+    "id": "388",
+    "slug": "liquid-crystal-three-dimensional-weak",
+    "title": "Global weak flow of three-dimensional nematic directors without a hemisphere restriction",
+    "area": "Liquid crystals; coupled fluid and harmonic-map flow",
+    "group": "continuum3",
+    "file": "problems/388-liquid-crystal-three-dimensional-weak.md"
+  },
+  {
+    "id": "389",
+    "slug": "boltzmann-arbitrary-mach-shocks",
+    "title": "Hard-sphere Boltzmann shock profiles at arbitrary Mach number",
+    "area": "Rarefied gas dynamics; kinetic shock layers",
+    "group": "continuum3",
+    "file": "problems/389-boltzmann-arbitrary-mach-shocks.md"
+  },
+  {
+    "id": "390",
+    "slug": "strong-kpp-unbounded-uniqueness",
+    "title": "Uniqueness of strong-KPP equilibria on general unbounded domains",
+    "area": "Reaction–diffusion; population equilibria",
+    "group": "continuum3",
+    "file": "problems/390-strong-kpp-unbounded-uniqueness.md"
+  },
+  {
+    "id": "391",
+    "slug": "strong-kpp-critical-extinction",
+    "title": "Extinction at the critical Dirichlet eigenvalue for strong-KPP reactions",
+    "area": "Reaction–diffusion; critical habitat thresholds",
+    "group": "continuum3",
+    "file": "problems/391-strong-kpp-critical-extinction.md"
+  },
+  {
+    "id": "392",
+    "slug": "neo-hookean-critical-attainment",
+    "title": "Attainment of the three-dimensional neo-Hookean energy in the regular admissible class",
+    "area": "Nonlinear elasticity; critical-growth energy minimization",
+    "group": "continuum3",
+    "file": "problems/392-neo-hookean-critical-attainment.md"
+  },
+  {
+    "id": "393",
+    "slug": "maxwellian-whole-space-landau-damping",
+    "title": "Nonlinear Landau damping near a Maxwellian on the whole space",
+    "area": "Plasma kinetics; dispersive relaxation",
+    "group": "continuum3",
+    "file": "problems/393-maxwellian-whole-space-landau-damping.md"
+  },
+  {
+    "id": "394",
+    "slug": "flory-gelation-mass-continuity",
+    "title": "Continuity of finite-cluster mass at the onset of Flory gelation",
+    "area": "Coagulation equations; sol–gel phase transitions",
+    "group": "continuum3",
+    "file": "problems/394-flory-gelation-mass-continuity.md"
+  },
+  {
+    "id": "395",
+    "slug": "reaction-two-obstacle-uniqueness",
+    "title": "Uniqueness of positive reaction–diffusion equilibria outside two obstacles",
+    "area": "Reaction–diffusion; populations in perforated habitats",
+    "group": "continuum3",
+    "file": "problems/395-reaction-two-obstacle-uniqueness.md"
+  }
+]

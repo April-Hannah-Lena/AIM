@@ -1,5 +1,7 @@
 # September 2026 expansion research
 
+**Historical checkpoint:** The counts and pending targets below describe the September 17–19 work. See the [September 22 expansion](../expansion-2026-09-22/README.md) for the later PDE-focused catalogue of 500 active entries.
+
 The active catalogue contains 360 entries: the original 300 and sixty reviewed additions, all published directly on main. [Batch 6](batch-06-review.md), entries 351–360, was pushed as [a79a6d8](https://github.com/MColbrook/AIM/commit/a79a6d875675959d143bcf4bc7396e1e2a61d1ee); a separate remote-ref read verified the exact commit on September 19, 2026. There are 67 accepted additions toward the requested 200–300, with a working target of 250. Seven accepted drafts, illumination, GNRS, Fourier entropy–influence, D-stable Lotka–Volterra attraction, general-graph perfect matching in NC, simple stochastic games and densest k-subgraph constant-gap hardness, await integration. Reaching the minimum requires 133 further acceptances and 140 integrations; the working target requires 183 further acceptances and 190 integrations.
 
 - [Progress and reading coverage](progress.json): counts, publication state and next actions.

@@ -86,7 +86,7 @@ Latest synchronization: no new, missing, renamed, duplicate, or inconsistent ent
 | 074 | [A strictly convex function on every simple manifold](../../problems/074-convex-function-on-simple-manifold.md) | open | queued |
 | 075 | [Non-Abelian ray transform for simple Gaussian thermostats](../../problems/075-thermostatic-nonabelian-tomography.md) | open | queued |
 | 076 | [Global regularity of the three-dimensional Navier–Stokes equations](../../problems/076-navier-stokes-global-regularity.md) | open | queued |
-| 077 | [Finite-time singularity for smooth three-dimensional Euler flow without a boundary](../../problems/077-euler-smooth-free-space.md) | open | queued |
+| 077 | [Finite-time singularity for smooth three-dimensional Euler flow without a boundary](../expansion-2026-09-22/077-euler-claimed-resolution.md) | matching resolution claim | held outside active catalogue |
 | 078 | [Global regularity for supercritical dissipative surface quasi-geostrophic flow](../../problems/078-supercritical-sqg.md) | open | queued |
 | 079 | [Large-data global classical solutions of relativistic Vlasov–Maxwell](../../problems/079-vlasov-maxwell-global-classical.md) | open | queued |
 | 080 | [Large-data global smoothness for the spatially inhomogeneous Boltzmann equation](../../problems/080-inhomogeneous-boltzmann-regularity.md) | open | queued |
