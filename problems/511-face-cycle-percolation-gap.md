@@ -13,11 +13,18 @@ Fix integers $D\ge3$ and $2\le d<D$. Let $X_\lambda$ be a homogeneous Poisson pr
 Two $d$-simplices are adjacent when they share a $(d-1)$-face. Let $F_d$ be the event that this adjacency graph has an infinite connected component. Let $C_d$ be the event that there is an infinite, locally finite, face-connected collection $M$ of $d$-simplices such that every $(d-1)$-face belongs to an even number of members of $M$.
 
 Define
-$$\lambda_d^{\mathrm{face}}=\inf\{\lambda>0:\mathbb P(F_d)>0\},\qquad
-\lambda_d^{\mathrm{cycle}}=\inf\{\lambda>0:\mathbb P(C_d)>0\}.$$
+
+$$
+\lambda_d^{\mathrm{face}}=\inf\{\lambda>0:\mathbb P(F_d)>0\},\qquad
+\lambda_d^{\mathrm{cycle}}=\inf\{\lambda>0:\mathbb P(C_d)>0\}.
+$$
 
 Is
-$$\lambda_d^{\mathrm{face}}<\lambda_d^{\mathrm{cycle}}$$
+
+$$
+\lambda_d^{\mathrm{face}}<\lambda_d^{\mathrm{cycle}}
+$$
+
 true for every such $D,d$?
 
 Here a cycle means precisely the even-incidence collection above; it need not represent a nonzero persistent or ordinary homology class.

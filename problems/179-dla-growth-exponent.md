@@ -9,7 +9,11 @@
 ## Problem statement
 
 Start with $A_1=\{0\}\subset\mathbb Z^2$. Given $A_n$, attach one site of its exterior vertex boundary according to harmonic measure from infinity: the limiting first-hit distribution on that boundary for simple random walk started arbitrarily far away. Let $R_n=\max\{|x|:x\in A_n\}$. Does there exist a deterministic $\beta\in(1/2,2/3]$ such that
-$$\lim_{n\to\infty}\frac{\log R_n}{\log n}=\beta\qquad\text{almost surely}?$$
+
+$$
+\lim_{n\to\infty}\frac{\log R_n}{\log n}=\beta\qquad\text{almost surely}?
+$$
+
 This is external diffusion-limited aggregation with one lattice site added at each step.
 
 ## Application

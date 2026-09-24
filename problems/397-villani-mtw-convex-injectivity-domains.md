@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $(M,g)$ be a smooth compact connected Riemannian manifold without boundary. Write
-$$I_x=\{v\in T_xM:\exists t>1\text{ with }d(x,\exp_x(tv))=t|v|_g\}.$$
+
+$$
+I_x=\{v\in T_xM:\exists t>1\text{ with }d(x,\exp_x(tv))=t|v|_g\}.
+$$
+
 For $v\in I_x$ and $\xi,\eta\in T_xM$, define
-$$S_{x,v}(\xi,\eta)=-\frac32\left.\partial_s^2\partial_t^2\frac{d^2(\exp_x(t\xi),\exp_x(v+s\eta))}{2}\right|_{s=t=0}.$$
+
+$$
+S_{x,v}(\xi,\eta)=-\frac32\left.\partial_s^2\partial_t^2\frac{d^2(\exp_x(t\xi),\exp_x(v+s\eta))}{2}\right|_{s=t=0}.
+$$
+
 Assume $S_{x,v}(\xi,\eta)\ge0$ whenever $\langle\xi,\eta\rangle_g=0$; this is the weak Ma–Trudinger–Wang condition. Must $I_x$ be convex for every $x\in M$? No hypothesis excluding focal points on the cut locus is imposed.
 
 ## Application

@@ -13,10 +13,17 @@ For $z\in\mathbb Z^2$, put $Q_z=z+[-1/2,1/2]^2$. A finite collection $C$ of squa
 Pin $Q_0$. A removal of $Q\ne Q_0$ is allowed if $C\setminus\{Q\}$ is a clump and $|C|$ strongly deformation retracts onto $|C\setminus\{Q\}|$ through a homotopy $H$ satisfying $H(Q\times[0,1])\subseteq Q$. Addition is the inverse move. Start the continuous-time chain $C_t$ at $\{Q_0\}$, with each allowed addition having rate $\beta$ and each allowed removal rate $1$.
 
 Let $a_n$ count square-lattice self-avoiding polygons of enclosed area $n$, up to translation, and let $\kappa=\lim_{n\to\infty}a_n^{1/n}$ be their area growth constant. Fix $0<\beta<1/\kappa$. Let $\zeta$ be the first return time to $\{Q_0\}$ after the chain has left that state, and set
-$$\xi=\sup_{0\le t<\zeta}\#C_t.$$
+
+$$
+\xi=\sup_{0\le t<\zeta}\#C_t.
+$$
 
 Is the exact exponential excursion-height asymptotic
-$$\lim_{T\to\infty,\ T\in\mathbb N}\mathbb P(\xi\ge T)^{1/T}=\kappa\beta$$
+
+$$
+\lim_{T\to\infty,\ T\in\mathbb N}\mathbb P(\xi\ge T)^{1/T}=\kappa\beta
+$$
+
 valid for every such $\beta$?
 
 Equivalently, for $\mu=\mathbb E\zeta\in(0,\infty)$ and $\eta_T=\mu/\mathbb P(\xi\ge T)$, the target is $\lim_{T\to\infty}\eta_T^{1/T}=1/(\kappa\beta)$.

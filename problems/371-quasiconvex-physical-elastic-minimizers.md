@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^3$ be bounded with Lipschitz boundary, $p>3$, and let $W:\mathbb R^{3\times3}\to[0,\infty]$ be finite and $C^1$ on $\mathrm{GL}^+(3)=\{F:\det F>0\}$, infinite otherwise. Assume $W(RF)=W(F)$ for $R\in SO(3)$, $W(F)\ge c|F|^p-C$, and $W(F_j)\to\infty$ whenever $\det F_j\downarrow0$. Assume quasiconvexity in the explicit sense
-$$W(F)\le\int_{(0,1)^3}W(F+D\varphi(x))\,dx\quad\text{for every }F\text{ and }\varphi\in C_c^\infty((0,1)^3;\mathbb R^3).$$
+
+$$
+W(F)\le\int_{(0,1)^3}W(F+D\varphi(x))\,dx\quad\text{for every }F\text{ and }\varphi\in C_c^\infty((0,1)^3;\mathbb R^3).
+$$
+
 For every prescribed trace $g$ for which the class
-$$\mathcal A_g=\{y\in W^{1,p}(\Omega;\mathbb R^3):\operatorname{Tr}y=g,\ I(y):=\int_\Omega W(Dy)\,dx<\infty\}$$
+
+$$
+\mathcal A_g=\{y\in W^{1,p}(\Omega;\mathbb R^3):\mathop{\mathrm{Tr}}\nolimits y=g,\ I(y):=\int_\Omega W(Dy)\,dx<\infty\}
+$$
+
 is nonempty, must $I$ attain its infimum on $\mathcal A_g$? No polyconvexity, polynomial upper growth or additional global-injectivity constraint is assumed.
 
 ## Application

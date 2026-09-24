@@ -8,9 +8,17 @@
 ## Problem statement
 
 For Schwartz functions $f,g:\mathbb R^2\to\mathbb C$ and $0<\varepsilon<R<\infty$, set
-$$H_{\varepsilon,R}(f,g)(x,y)=\int_{\varepsilon<|t|<R}f(x+t,y)g(x,y+t)\,\frac{dt}{t}.$$
+
+$$
+H_{\varepsilon,R}(f,g)(x,y)=\int_{\varepsilon<|t|<R}f(x+t,y)g(x,y+t)\,\frac{dt}{t}.
+$$
+
 Does there exist an absolute constant $C$ such that
-$$\|H_{\varepsilon,R}(f,g)\|_{L^{3/2}(\mathbb R^2)}\le C\|f\|_{L^3(\mathbb R^2)}\|g\|_{L^3(\mathbb R^2)}$$
+
+$$
+\|H_{\varepsilon,R}(f,g)\|_{L^{3/2}(\mathbb R^2)}\le C\|f\|_{L^3(\mathbb R^2)}\|g\|_{L^3(\mathbb R^2)}
+$$
+
 for every $f,g,\varepsilon,R$? The constant must be independent of both truncation scales.
 
 ## Application

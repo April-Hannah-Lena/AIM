@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $n\ge2$ and let $u\in C^\infty(\mathbb C^n;\mathbb R)$ be strictly plurisubharmonic, meaning that the Hermitian matrix $(u_{i\bar j})$ is positive definite. Use $\partial_{z_j}=\tfrac12(\partial_{x_j}-i\partial_{y_j})$. Suppose
-$$\det(u_{i\bar j})=1\quad\text{on }\mathbb C^n,$$
+
+$$
+\det(u_{i\bar j})=1\quad\text{on }\mathbb C^n,
+$$
+
 and for some $C\ge1$,
-$$C^{-1}(1+|z|^2)\le u(z)\le C(1+|z|^2)\qquad(z\in\mathbb C^n).$$
+
+$$
+C^{-1}(1+|z|^2)\le u(z)\le C(1+|z|^2)\qquad(z\in\mathbb C^n).
+$$
+
 Must $u$ be a polynomial of degree two in the $2n$ real coordinates? Neither real convexity nor completeness of the metric $(u_{i\bar j})$ is assumed.
 
 ## Application

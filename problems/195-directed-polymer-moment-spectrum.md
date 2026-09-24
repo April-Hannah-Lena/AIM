@@ -9,8 +9,12 @@
 ## Problem statement
 
 Let $(S_n)$ be simple random walk on $\mathbb Z^3$ from zero and let $\omega_{n,x}$ be iid standard Gaussians independent of the walk. For $\beta>0$, set
-$$W_N^\beta=E_S\exp\!\left(\sum_{n=1}^N(\beta\omega_{n,S_n}-\beta^2/2)\right),\qquad
-p^*(\beta)=\sup\{p\ge1:\sup_N\mathbb E_\omega[(W_N^\beta)^p]<\infty\}.$$
+
+$$
+W_N^\beta=E_S\exp\!\left(\sum_{n=1}^N(\beta\omega_{n,S_n}-\beta^2/2)\right),\qquad
+p^*(\beta)=\sup\{p\ge1:\sup_N\mathbb E_\omega[(W_N^\beta)^p]<\infty\}.
+$$
+
 Write $W_\infty^\beta$ for the nonnegative martingale limit and define $\beta_c=\sup\{\beta:P(W_\infty^\beta>0)=1\}$. Is $\beta\mapsto p^*(\beta)$ a continuous strictly decreasing bijection from $(0,\beta_c]$ onto $[5/3,\infty)$? Continuity at $\beta_c$ means continuity from the left.
 
 ## Application

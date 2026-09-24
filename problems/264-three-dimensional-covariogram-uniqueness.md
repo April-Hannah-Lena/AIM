@@ -11,7 +11,7 @@
 For a compact convex body $K\subset\mathbb R^3$ with nonempty interior, define
 
 $$
-g_K(x)=\operatorname{Vol}_3(K\cap(K+x)),\qquad x\in\mathbb R^3.
+g_K(x)=\mathop{\mathrm{Vol}}\nolimits_3(K\cap(K+x)),\qquad x\in\mathbb R^3.
 $$
 
 If two such bodies $K,L$ satisfy $g_K(x)=g_L(x)$ for every $x\in\mathbb R^3$, must $L=a+K$ or $L=a-K$ for some $a\in\mathbb R^3$? No smoothness, positive-curvature or polyhedral assumption is imposed. Translation and point reflection are the unavoidable ambiguities.

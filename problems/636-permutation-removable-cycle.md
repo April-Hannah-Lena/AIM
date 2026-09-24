@@ -9,7 +9,11 @@
 ## Problem statement
 
 A *cycle permutation graph* is a finite simple cubic graph admitting a spanning 2-factor $F$ consisting of two chordless cycles. Given such an $F$, a cycle $C$ of $G$ is *removable relative to $F$* if the spanning graph
-$$G-\bigl(E(C)\cap E(F)\bigr)$$
+
+$$
+G-\bigl(E(C)\cap E(F)\bigr)
+$$
+
 is 2-connected: it is connected and remains connected after deletion of any one vertex. Only the indicated edges are deleted; every vertex is retained.
 
 Prove or disprove the existential formulation of Goddyn's conjecture in [1, Conjecture 3]: every cycle permutation graph $G$ not isomorphic to the Petersen graph admits a permutation 2-factor $F$ and a cycle $C$ removable relative to $F$.

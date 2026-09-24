@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Write $M_d(\mathbb C)$ for the complex $d\times d$ matrices. A quantum channel $\Phi:M_m(\mathbb C)\to M_n(\mathbb C)$ is a complex-linear map that preserves trace and is completely positive: $\operatorname{id}_k\otimes\Phi$ preserves positive semidefiniteness for every integer $k\ge1$. Its Kraus rank is the least integer $r$ for which matrices $A_1,\ldots,A_r\in\mathbb C^{n\times m}$ satisfy
+Write $M_d(\mathbb C)$ for the complex $d\times d$ matrices. A quantum channel $\Phi:M_m(\mathbb C)\to M_n(\mathbb C)$ is a complex-linear map that preserves trace and is completely positive: $\mathop{\mathrm{id}}\nolimits_k\otimes\Phi$ preserves positive semidefiniteness for every integer $k\ge1$. Its Kraus rank is the least integer $r$ for which matrices $A_1,\ldots,A_r\in\mathbb C^{n\times m}$ satisfy
 
 $$
 \Phi(X)=\sum_{a=1}^r A_aXA_a^*,\qquad
@@ -20,7 +20,7 @@ For every pair of integers $m,n\ge2$ and every such channel $\Phi$, do there exi
 
 $$
 \Phi=\frac1n\sum_{j=1}^n\Phi_j,
-\qquad \operatorname{KrausRank}(\Phi_j)\le m\quad(1\le j\le n)?
+\qquad \mathop{\mathrm{KrausRank}}\nolimits(\Phi_j)\le m\quad(1\le j\le n)?
 $$
 
 Repeated channels are allowed. These rank-bounded channels are the generalized extreme points, meaning the closure of the extreme points of the convex set of channels; they need not themselves be extreme. The question requires exactly $n$ equal weights and exact equality of maps, with no unitality assumption. This is the strong Ruskai–Audenaert conjecture.

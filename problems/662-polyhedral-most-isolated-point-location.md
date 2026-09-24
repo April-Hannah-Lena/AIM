@@ -8,13 +8,17 @@
 
 Let $A\subset\mathbb R^3$ be a compact convex polyhedron with nonempty interior, and let $X_1,X_2,\ldots$ be independent uniform points in $A$. Set
 
-$$R_{n,i}=\min_{j\ne i}\|X_i-X_j\|.$$
+$$
+R_{n,i}=\min_{j\ne i}\|X_i-X_j\|.
+$$
 
 Let $I_n$ be the smallest index attaining $\max_{1\le i\le n}R_{n,i}$, and put $Z_n=X_{I_n}$. Thus $Z_n$ is a most isolated sample point, with an explicit rule for ties.
 
 For each edge $e$ of $A$, let $\alpha_e\in(0,\pi)$ be its interior dihedral angle, and set
 
-$$\alpha_* = \min_e\alpha_e,\qquad E_* = \bigcup_{\alpha_e=\alpha_*}e.$$
+$$
+\alpha_* = \min_e\alpha_e,\qquad E_* = \bigcup_{\alpha_e=\alpha_*}e.
+$$
 
 Prove or disprove the following two-regime statement:
 

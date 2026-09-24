@@ -9,17 +9,25 @@
 ## Problem statement
 
 Let $(Z,d_Z)$ be a nonempty, complete, separable, path-connected metric space. A $Z$-valued infinity-measure network is a triple $\mathcal X=(X,\omega_X,\mu_X)$, where $X$ is a Polish space, $\mu_X$ is a Borel probability measure, and $\omega_X:X\times X\to Z$ is measurable and essentially bounded: for some $z_0\in Z$,
-$$\operatorname*{ess\,sup}_{\mu_X\otimes\mu_X}d_Z(\omega_X,z_0)<\infty.$$
+
+$$
+\mathop{\mathrm{ess\,sup}}_{\mu_X\otimes\mu_X}d_Z(\omega_X,z_0)<\infty.
+$$
+
 No symmetry or metric axioms are imposed on the kernel $\omega_X$.
 
 For two such networks, define
-$$\operatorname{GW}^{Z}_{\infty}(\mathcal X,\mathcal Y)
+
+$$
+\mathop{\mathrm{GW}}\nolimits^{Z}_{\infty}(\mathcal X,\mathcal Y)
 =\frac12\inf_{\pi\in\Pi(\mu_X,\mu_Y)}
-\operatorname*{ess\,sup}_{\pi\otimes\pi}
-d_Z\bigl(\omega_X(x,x'),\omega_Y(y,y')\bigr),$$
+\mathop{\mathrm{ess\,sup}}_{\pi\otimes\pi}
+d_Z\bigl(\omega_X(x,x'),\omega_Y(y,y')\bigr),
+$$
+
 where $\Pi(\mu_X,\mu_Y)$ denotes their probability couplings. Let $\mathcal M_\infty(Z)$ be the metric space obtained by identifying networks at zero distance.
 
-Must $\mathcal M_\infty(Z)$ be path connected? Equivalently, can any two classes be joined by a path $[0,1]\to\mathcal M_\infty(Z)$ continuous in $\operatorname{GW}^{Z}_{\infty}$?
+Must $\mathcal M_\infty(Z)$ be path connected? Equivalently, can any two classes be joined by a path $[0,1]\to\mathcal M_\infty(Z)$ continuous in $\mathop{\mathrm{GW}}\nolimits^{Z}_{\infty}$?
 
 The hypothesis allows path-connected spaces $Z$ that are not geodesic. Essential boundedness is required separately for each network along the path.
 

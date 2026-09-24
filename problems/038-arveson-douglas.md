@@ -11,7 +11,11 @@
 Let $d\ge1$. Define the Drury–Arveson space $H_d^2$ on the unit ball of $\mathbb C^d$ as the reproducing-kernel Hilbert space with kernel $K(z,w)=(1-\langle z,w\rangle)^{-1}$. For a proper homogeneous polynomial ideal $I\subseteq\mathbb C[z_1,\ldots,z_d]$, let $Q=H_d^2\ominus\overline I$ and $S_j=P_QM_{z_j}|_Q$.
 
 Prove or disprove that
-$$[S_i,S_j^*]\in\mathcal S_p\qquad(1\le i,j\le d,\ p>\dim_{\mathbb C}V(I)),$$
+
+$$
+[S_i,S_j^*]\in\mathcal S_p\qquad(1\le i,j\le d,\ p>\dim_{\mathbb C}V(I)),
+$$
+
 where $[A,B]=AB-BA$, $V(I)=\{z:f(z)=0\ \forall f\in I\}$, and $\mathcal S_p$ consists of compact operators whose singular values have summable $p$th powers. The closure is in $H_d^2$.
 
 ## Application

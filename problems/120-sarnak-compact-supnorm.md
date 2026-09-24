@@ -8,17 +8,23 @@
 
 ## Problem statement
 
-Let $X=\operatorname{PSL}_2(\mathbb Z)\backslash\mathbb H$ have hyperbolic measure $dx\,dy/y^2$. Let $u$ be an $L^2$-normalized smooth real cusp form with
+Let $X=\mathop{\mathrm{PSL}}\nolimits_2(\mathbb Z)\backslash\mathbb H$ have hyperbolic measure $dx\,dy/y^2$. Let $u$ be an $L^2$-normalized smooth real cusp form with
 
-$$-y^2(\partial_x^2+\partial_y^2)u=(\tfrac14+t^2)u,\qquad t\ge0,$$
+$$
+-y^2(\partial_x^2+\partial_y^2)u=(\tfrac14+t^2)u,\qquad t\ge0,
+$$
 
 which is an eigenfunction of every Hecke operator
 
-$$(T_nf)(z)=n^{-1/2}\sum_{ad=n,\ a,d>0}\ \sum_{b=0}^{d-1}f\!\left(\frac{az+b}{d}\right).$$
+$$
+(T_nf)(z)=n^{-1/2}\sum_{ad=n,\ a,d>0}\ \sum_{b=0}^{d-1}f\!\left(\frac{az+b}{d}\right).
+$$
 
 The cusp condition means $\int_0^1u(x+iy)\,dx=0$ for every $y>0$. Prove or disprove that for each compact $K\subset X$ and every $\varepsilon>0$ there is $C_{K,\varepsilon}$, independent of $u,t$, such that
 
-$$\sup_K|u|\le C_{K,\varepsilon}(1+t)^\varepsilon.$$
+$$
+\sup_K|u|\le C_{K,\varepsilon}(1+t)^\varepsilon.
+$$
 
 The compact set is fixed as frequency grows.
 

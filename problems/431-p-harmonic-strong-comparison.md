@@ -7,7 +7,7 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-Let $d\ge3$, $1<p<\infty$, $p\ne2$, and let $\Omega\subset\mathbb R^d$ be a connected open set. Suppose $u,v\in W^{1,p}_{\mathrm{loc}}(\Omega)\cap C(\Omega)$ solve $\operatorname{div}(|\nabla u|^{p-2}\nabla u)=\operatorname{div}(|\nabla v|^{p-2}\nabla v)=0$ weakly. If $u\le v$ on $\Omega$ and $u(x_0)=v(x_0)$ at one interior point, must $u\equiv v$? The common contact point may be critical for both functions.
+Let $d\ge3$, $1<p<\infty$, $p\ne2$, and let $\Omega\subset\mathbb R^d$ be a connected open set. Suppose $u,v\in W^{1,p}_{\mathrm{loc}}(\Omega)\cap C(\Omega)$ solve $\mathop{\mathrm{div}}\nolimits(|\nabla u|^{p-2}\nabla u)=\mathop{\mathrm{div}}\nolimits(|\nabla v|^{p-2}\nabla v)=0$ weakly. If $u\le v$ on $\Omega$ and $u(x_0)=v(x_0)$ at one interior point, must $u\equiv v$? The common contact point may be critical for both functions.
 
 ## Application
 

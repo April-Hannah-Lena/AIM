@@ -11,14 +11,21 @@
 Let $T\subset\mathbb R^2$ be a nondegenerate triangle whose three interior angles are at most $\pi/2$. Let $p\ge0$ be an integer, and write $P_p(T)$ for the polynomials of total degree at most $p$. Denote by $\Pi_p$ the componentwise $L^2(T)$ orthogonal projection onto $P_p(T;\mathbb R^2)$.
 
 For $f\in H^1(T)$, define $G_{p+1}f\in P_{p+1}(T)$ by
-$$\int_T G_{p+1}f=\int_T f,\qquad
+
+$$
+\int_T G_{p+1}f=\int_T f,\qquad
 \int_T\nabla G_{p+1}f\cdot\nabla q=\int_T\nabla f\cdot\nabla q
-\quad(q\in P_{p+1}(T)).$$
+\quad(q\in P_{p+1}(T)).
+$$
 
 Prove or disprove the Carstensen–Gräßle–Tran conjecture
-$$\|\nabla(f-G_{p+1}f)\|_{L^2(T)}
+
+$$
+\|\nabla(f-G_{p+1}f)\|_{L^2(T)}
 \le\sqrt2\,\|(I-\Pi_p)\nabla f\|_{L^2(T)}
-\qquad(f\in H^1(T)).$$
+\qquad(f\in H^1(T)).
+$$
+
 The constant must hold for every polynomial degree and every nonobtuse triangle, without a positive lower bound on its smallest angle.
 
 ## Application

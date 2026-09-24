@@ -11,13 +11,20 @@
 Fix a field $k$. A constrained invertibility problem consists of two $n\times n$ patterns $P,Q\in\{0,*\}^{n\times n}$. It is feasible over $k$ if there exist $A,B\in k^{n\times n}$ with $AB=I_n$, such that $A_{ij}=0$ whenever $P_{ij}=0$ and $B_{ij}=0$ whenever $Q_{ij}=0$. A star permits any field element, including zero.
 
 Form the directed bipartite graph $G(P,Q)$ with vertices $u_1,\ldots,u_n,v_1,\ldots,v_n$ and edges
-$$u_i\longrightarrow v_j\quad\Longleftrightarrow\quad P_{j,i}=*,\qquad
-v_j\longrightarrow u_i\quad\Longleftrightarrow\quad Q_{i,j}=*.$$
+
+$$
+u_i\longrightarrow v_j\quad\Longleftrightarrow\quad P_{j,i}=*,\qquad
+v_j\longrightarrow u_i\quad\Longleftrightarrow\quad Q_{i,j}=*.
+$$
+
 Write $d_G(x,y)$ for the length of a shortest directed path, with value $+\infty$ if no such path exists.
 
 Does there exist an odd integer $c\ge1$, independent of $n,P,Q$, such that every feasible problem admits a permutation $\sigma$ of $\{1,\ldots,n\}$ satisfying
-$$d_G(u_i,v_{\sigma(i)})\le c\quad\text{and}\quad d_G(v_{\sigma(i)},u_i)\le c
-\qquad (1\le i\le n)?$$
+
+$$
+d_G(u_i,v_{\sigma(i)})\le c\quad\text{and}\quad d_G(v_{\sigma(i)},u_i)\le c
+\qquad (1\le i\le n)?
+$$
 
 The question is posed for each fixed field; no uniformity in the field is additionally required. All paths are measured in the original graph. Equivalently, add every edge between opposite parts that is reachable by a directed path of length at most $c$. The resulting patterns must admit a permutation matrix and its inverse as a feasible pair. This is Bjerkevik's Conjecture 6.10 [1].
 

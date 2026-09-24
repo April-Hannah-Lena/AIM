@@ -12,7 +12,9 @@ For $B\ge0$ put $A_B(x)=\frac B2(-x_2,x_1)$ and $q_{\Omega,B}[u]=\int_\Omega|(-i
 
 Let $\lambda_k(\Omega,B)$ be the $k$th eigenvalue, counted with multiplicity, of this form on $H_0^1(\Omega;\mathbb C)$. For every bounded simply connected planar domain $\Omega$, every integer $k\ge2$, and every $B$ satisfying $B|\Omega|\ge2\pi k$, prove or disprove
 
-$$\lambda_k(\Omega,B)\ge\lambda_k(D,B),\qquad |D|=|\Omega|,$$
+$$
+\lambda_k(\Omega,B)\ge\lambda_k(D,B),\qquad |D|=|\Omega|,
+$$
 
 where $D$ is a disk. The operator here is unshifted; subtracting the same $B$ from both spectra gives the equivalent shifted convention used in the 2026 reference.
 

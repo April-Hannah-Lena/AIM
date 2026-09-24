@@ -13,7 +13,11 @@ Let $\Sigma$ be a connected closed surface of positive genus $g$: either the ori
 Consider any finite simple graph $G$ embedded without crossings on $\Sigma$, with girth at least $\ell$, that is maximal for this fixed embedding: adding any edge between previously nonadjacent vertices without crossings would create a cycle of length less than $\ell$. Embeddings need not be cellular. A facial cycle must be a simple cycle forming the entire boundary of one face.
 
 Is there an absolute constant $C$ such that every facial cycle in every such embedding has length at most
-$$Cg\ell?$$
+
+$$
+Cg\ell?
+$$
+
 The same constant must work for both types of surface and for all $g,\ell$.
 
 ## Application

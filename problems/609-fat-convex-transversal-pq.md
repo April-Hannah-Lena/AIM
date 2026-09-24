@@ -9,7 +9,11 @@
 ## Problem statement
 
 Fix integers $d\ge3$, $1\le k\le d-2$, $p\ge k+2$, and a real number $\rho\ge1$. A compact convex body $K\subset\mathbb R^d$ is $\rho$-fat if there are a center $x_K$ and positive radii $r_K,R_K$ with
-$$B(x_K,r_K)\subseteq K\subseteq B(x_K,R_K),\qquad R_K\le\rho r_K.$$
+
+$$
+B(x_K,r_K)\subseteq K\subseteq B(x_K,R_K),\qquad R_K\le\rho r_K.
+$$
+
 The radii may vary between bodies. A $k$-flat is a $k$-dimensional affine subspace.
 
 Does there exist a constant $C=C(d,k,p,\rho)$ with the following property? Whenever $\mathcal F$ is a finite family of such bodies and every $p$ members contain $k+2$ members intersected by a common $k$-flat, at most $C$ $k$-flats together intersect every member of $\mathcal F$.

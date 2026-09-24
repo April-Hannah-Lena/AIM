@@ -11,7 +11,11 @@
 Let $M$ be a closed simply connected piecewise-linear $4$-manifold, and let $\beta_2(M)=\dim_{\mathbb Q}H_2(M;\mathbb Q)$. A generalized triangulation of $M$ consists of finitely many abstract $4$-simplices, called pentachora, with their tetrahedral faces paired by affine maps, whose quotient represents the given PL manifold. Multiple face identifications between simplices and identifications between distinct faces of the same simplex are allowed; no face may be identified with itself by a nonidentity map.
 
 Define $c(M)$ to be the minimum number of pentachora in such a triangulation. Prove or disprove that
-$$c(M)\ge 2\beta_2(M)+2$$
+
+$$
+c(M)\ge 2\beta_2(M)+2
+$$
+
 for every such $M$.
 
 ## Application

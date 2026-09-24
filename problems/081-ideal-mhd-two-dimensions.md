@@ -9,11 +9,13 @@
 ## Problem statement
 
 For every pair of divergence-free Schwartz fields $u_0,b_0:\mathbb R^2\to\mathbb R^2$, do the ideal magnetohydrodynamic equations
+
 $$
 u_t+(u\cdot\nabla)u+\nabla p=(b\cdot\nabla)b,\qquad
 b_t+(u\cdot\nabla)b=(b\cdot\nabla)u,\qquad
 \nabla\cdot u=\nabla\cdot b=0
 $$
+
 admit a global smooth finite-energy solution with $(u,b)(0)=(u_0,b_0)$? Both viscosity and magnetic resistivity are exactly zero. A finite-time singularity from data in this class would answer the question negatively.
 
 ## Application

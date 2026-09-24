@@ -11,11 +11,19 @@
 For $n\ge3$, equip the unit sphere $S^n\subset\mathbb R^{n+1}$ with the round geodesic metric $d(x,y)=\arccos\langle x,y\rangle$. Write $K_n(r)$ for the ordinary CW realization of its Vietoris–Rips complex: a finite subset spans a simplex exactly when its diameter is strictly less than $r$.
 
 Set
-$$r_n=\arccos\!\left(-\frac1{n+1}\right).$$
-This is the common distance between distinct vertices of a regular $(n+1)$-simplex inscribed in $S^n$. Its orientation-preserving symmetry group identifies the alternating group $A_{n+2}$ with a subgroup of $\operatorname{SO}(n+1)$. Let $Q_n=\operatorname{SO}(n+1)/A_{n+2}$ be the resulting quotient space. Write $X*Y$ for the topological join, obtained from $X\times Y\times[0,1]$ by collapsing the $Y$ coordinate at $0$ and the $X$ coordinate at $1$.
+
+$$
+r_n=\arccos\!\left(-\frac1{n+1}\right).
+$$
+
+This is the common distance between distinct vertices of a regular $(n+1)$-simplex inscribed in $S^n$. Its orientation-preserving symmetry group identifies the alternating group $A_{n+2}$ with a subgroup of $\mathop{\mathrm{SO}}\nolimits(n+1)$. Let $Q_n=\mathop{\mathrm{SO}}\nolimits(n+1)/A_{n+2}$ be the resulting quotient space. Write $X*Y$ for the topological join, obtained from $X\times Y\times[0,1]$ by collapsing the $Y$ coordinate at $0$ and the $X$ coordinate at $1$.
 
 Is it true that for every integer $n\ge3$ there exists $\varepsilon_n\in(0,\pi-r_n)$ such that
-$$K_n(r)\simeq S^n*Q_n\qquad\text{whenever }r_n<r<r_n+\varepsilon_n?$$
+
+$$
+K_n(r)\simeq S^n*Q_n\qquad\text{whenever }r_n<r<r_n+\varepsilon_n?
+$$
+
 Prove this assertion, or find a dimension in which no such interval exists.
 
 ## Application

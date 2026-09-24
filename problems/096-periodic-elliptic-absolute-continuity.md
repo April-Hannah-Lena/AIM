@@ -10,7 +10,9 @@
 
 For every $d\ge3$, let $A=(a_{ij})$ be a real symmetric $C^\infty$, $\mathbb Z^d$-periodic matrix field with $cI\le A(x)\le CI$ for some $0<c\le C<\infty$, and let $V$ be real, smooth and periodic. Let $H$ be the self-adjoint operator on $L^2(\mathbb R^d)$ associated with the quadratic form
 
-$$q[u]=\int_{\mathbb R^d}\big(\nabla\bar u\cdot A\nabla u+V|u|^2\big)\,dx,\qquad u\in H^1(\mathbb R^d).$$
+$$
+q[u]=\int_{\mathbb R^d}\big(\nabla\bar u\cdot A\nabla u+V|u|^2\big)\,dx,\qquad u\in H^1(\mathbb R^d).
+$$
 
 Prove or disprove that every spectral measure of $H$ is absolutely continuous with respect to Lebesgue measure. No reflection symmetry or product structure is assumed.
 

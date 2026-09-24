@@ -12,7 +12,9 @@ Let $\mathcal O$ be a union of at least three disjoint closed disks in $\mathbb 
 
 Let $K$ be the set of unit-speed billiard states that remain bounded for both positive and negative time and write $\dim_H K=2\delta+1$. Prove or disprove that there is $C_0>0$ such that, for every fixed $C>C_0$, there are $c_C,R_C>0$ with
 
-$$\#\{z\in\mathcal R:1\le\operatorname{Re}z\le R,\ -C\le\operatorname{Im}z<0\}\ge c_C R^{1+\delta}\quad(R\ge R_C).$$
+$$
+\#\{z\in\mathcal R:1\le\mathop{\mathrm{Re}}\nolimits z\le R,\ -C\le\mathop{\mathrm{Im}}\nolimits z<0\}\ge c_C R^{1+\delta}\quad(R\ge R_C).
+$$
 
 ## Application
 

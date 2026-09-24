@@ -14,7 +14,7 @@ $$
 R\gamma([0,1])+a\subset K.
 $$
 
-Determine $\inf_{K\in\mathcal C}\operatorname{Area}(K)$ and characterize the minimizers up to rigid motion. Curves may self-intersect and need not be closed. This is the convex version of Moser's worm problem.
+Determine $\inf_{K\in\mathcal C}\mathop{\mathrm{Area}}\nolimits(K)$ and characterize the minimizers up to rigid motion. Curves may self-intersect and need not be closed. This is the convex version of Moser's worm problem.
 
 ## Application
 

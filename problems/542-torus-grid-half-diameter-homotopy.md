@@ -9,11 +9,19 @@
 ## Problem statement
 
 For an integer $k\ge3$, give $T_{2k}=\{0,\ldots,2k-1\}^2$ the periodic grid metric
-$$d((a,b),(c,e))=\min\{|a-c|,2k-|a-c|\}+\min\{|b-e|,2k-|b-e|\}.$$
+
+$$
+d((a,b),(c,e))=\min\{|a-c|,2k-|a-c|\}+\min\{|b-e|,2k-|b-e|\}.
+$$
+
 Its diameter is $2k$. Let $K_{2k}(k)$ be the simplicial complex of subsets of diameter at most $k$.
 
 Prove or disprove the homotopy equivalence
-$$K_{2k}(k)\simeq S^3\vee\bigvee_{j=1}^{4k}S^{2k-1}$$
+
+$$
+K_{2k}(k)\simeq S^3\vee\bigvee_{j=1}^{4k}S^{2k-1}
+$$
+
 for every integer $k\ge3$, where $\vee$ denotes a wedge at a common base point.
 
 ## Application

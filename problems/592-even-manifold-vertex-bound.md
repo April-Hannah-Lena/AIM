@@ -11,7 +11,11 @@
 Let $d\ge4$ be even, and let $T$ be a finite generalized triangulation of a closed connected piecewise-linear $d$-manifold. Thus $T$ is obtained by affine pairings of the codimension-one faces of abstract $d$-simplices, permitting identifications within a simplex and multiple face pairings between simplices. No face is identified with itself by a nonidentity map, and the quotient has the local PL manifold structure.
 
 Write $f_0(T)$ for its number of vertices after the identifications and $f_d(T)$ for its number of top-dimensional simplices. Prove or disprove that
-$$f_0(T)\le\frac{f_d(T)}2+d$$
+
+$$
+f_0(T)\le\frac{f_d(T)}2+d
+$$
+
 for every such $T$.
 
 ## Application

@@ -9,7 +9,11 @@
 ## Problem statement
 
 Let $G=(V,E)$ be infinite, connected, locally finite and vertex-transitive. Assume it is nonamenable, meaning
-$$\inf_{\varnothing\ne K\subset V,\ |K|<\infty}\frac{|\partial_E K|}{|K|}>0,$$
+
+$$
+\inf_{\varnothing\ne K\subset V,\ |K|<\infty}\frac{|\partial_E K|}{|K|}>0,
+$$
+
 where $\partial_EK$ consists of edges with exactly one endpoint in $K$. For independent bond percolation, set $p_c=\inf\{p:\mathbb P_p(\text{an infinite open cluster exists})>0\}$ and $p_u=\inf\{p:\mathbb P_p(\text{exactly one infinite open cluster exists})=1\}$. Must $p_c<p_u$?
 
 ## Application

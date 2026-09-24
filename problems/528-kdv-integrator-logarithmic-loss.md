@@ -9,24 +9,44 @@
 ## Problem statement
 
 Consider the real periodic KdV equation
-$$\partial_tu+\partial_x^3u=\tfrac12\partial_x(u^2),\qquad x\in\mathbb T=\mathbb R/(2\pi\mathbb Z),\qquad u(0)=u_0,$$
+
+$$
+\partial_tu+\partial_x^3u=\tfrac12\partial_x(u^2),\qquad x\in\mathbb T=\mathbb R/(2\pi\mathbb Z),\qquad u(0)=u_0,
+$$
+
 where $u_0\in H^\gamma(\mathbb T)$ has mean zero and $0<\gamma\le1$. Let $S_t=e^{-t\partial_x^3}$, let $P_0f=(2\pi)^{-1}\int_{\mathbb T}f$, and let $P=I-P_0$. The multiplier $D^{-1}=\partial_x^{-1}$ has symbol $(ik)^{-1}$ for $k\ne0$ and zero for $k=0$; set $D^{-2}=(D^{-1})^2$.
 
 For $\tau=T/L$, define the Li–Wu time discretization by $u^0=u_0$ and
-$$u^{n+1}=S_\tau u^n+F_\tau(u^n)+H_\tau(u^n),$$
+
+$$
+u^{n+1}=S_\tau u^n+F_\tau(u^n)+H_\tau(u^n),
+$$
+
 where
-$$F_\tau(f)=\tfrac16P[(S_\tau D^{-1}f)^2]-\tfrac16S_\tau P[(D^{-1}f)^2],$$
+
+$$
+F_\tau(f)=\tfrac16P[(S_\tau D^{-1}f)^2]-\tfrac16S_\tau P[(D^{-1}f)^2],
+$$
+
 and
-$$\begin{aligned}
+
+$$
+\begin{aligned}
 H_\tau(f)={}&\tfrac13P[(S_\tau D^{-1}f)D^{-1}F_\tau(f)]
 +\tfrac\tau9(S_\tau D^{-1}f)P_0(f^2)\\
 &-\tfrac1{54}\left[S_{\tau-s}D^{-1}[(S_sD^{-1}f)^3]\right]_{s=0}^{s=\tau}\\
 &-\tfrac1{27\tau}\left[S_{\tau-s}D^{-2}[(S_{s-\tau}D^{-2}F_\tau(f))(S_sD^{-1}f)]\right]_{s=0}^{s=\tau}.
-\end{aligned}$$
+\end{aligned}
+$$
+
 The brackets denote the value at $s=\tau$ minus the value at $s=0$. This is the time discretization in equation (1.4) of reference [1], without a spatial frequency cutoff.
 
 For every $T>0$ and $0<\gamma\le1$, can the bound be sharpened to
-$$\max_{0\le n\le L}\|u(n\tau)-u^n\|_{L^2(\mathbb T)}\le C\tau^\gamma,$$
+
+$$
+\max_{0\le n\le L}\|u(n\tau)-u^n\|_{L^2(\mathbb T)}\le C\tau^\gamma,
+$$
+
 with $C$ and the admissible upper bound $\tau_0>0$ depending only on $T$, $\gamma$ and $\|u_0\|_{H^\gamma}$, for all $\tau=T/L\le\tau_0$? Prove this estimate or refute it for this particular scheme. No additional smoothness of $u_0$ is allowed.
 
 ## Application

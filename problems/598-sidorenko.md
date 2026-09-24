@@ -8,10 +8,13 @@
 
 ## Problem statement
 
-Let $H$ be a finite simple bipartite graph with $v$ vertices and $e\geq1$ edges. For a finite simple graph $G$ on $n\geq1$ vertices, let $\operatorname{hom}(H,G)$ count all maps $f:V(H)\to V(G)$ that preserve adjacency. These maps need not be injective. Define the edge density $p=2|E(G)|/n^2$.
+Let $H$ be a finite simple bipartite graph with $v$ vertices and $e\geq1$ edges. For a finite simple graph $G$ on $n\geq1$ vertices, let $\mathop{\mathrm{hom}}\nolimits(H,G)$ count all maps $f:V(H)\to V(G)$ that preserve adjacency. These maps need not be injective. Define the edge density $p=2|E(G)|/n^2$.
 
 Prove or disprove that, for every such pair of graphs,
-$$\frac{\operatorname{hom}(H,G)}{n^v}\geq p^e.$$
+
+$$
+\frac{\mathop{\mathrm{hom}}\nolimits(H,G)}{n^v}\geq p^e.
+$$
 
 This is Sidorenko's conjecture. It says that the density of any fixed bipartite pattern is at least the corresponding independent-edge baseline. The displayed inequality is the unweighted specialization of Conjecture I.1 in [1].
 

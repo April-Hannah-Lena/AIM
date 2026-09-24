@@ -13,8 +13,12 @@ Fix an integer $d\ge2$. Independently delete every vertex of the nearest-neighbo
 A board is a draw if neither player has a strategy that forces a win against every strategy of the opponent. Let $D_d(p)$ be the probability of this event, over the independently sampled board.
 
 For which dimensions $d\ge2$ does there exist $p\in(0,1)$ with $D_d(p)>0$? The conjectured picture suggested by the source is
-$$D_2(p)=0\quad\text{for every }p\in(0,1),\qquad
-\text{and for every }d\ge3\text{ there exists }p\in(0,1)\text{ with }D_d(p)>0.$$
+
+$$
+D_2(p)=0\quad\text{for every }p\in(0,1),\qquad
+\text{and for every }d\ge3\text{ there exists }p\in(0,1)\text{ with }D_d(p)>0.
+$$
+
 Prove or disprove this picture. The game is undirected and forbids revisiting vertices; directional percolation games have different rules.
 
 ## Application

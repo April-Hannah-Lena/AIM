@@ -9,14 +9,25 @@
 ## Problem statement
 
 Let $M$ be a closed, connected, oriented aspherical manifold of dimension $n\ge3$: its universal cover is contractible. Put $G=\pi_1(M)$ and let $Z(G)$ be its centre. Define the rank of this abelian group by
-$$z=\dim_{\mathbb Q}\bigl(Z(G)\otimes_{\mathbb Z}\mathbb Q\bigr).$$
 
-Use unreduced topological complexity: $\operatorname{TC}(M)$ is the least number of open sets covering $M\times M$ on each of which the endpoint map
-$$e:C([0,1],M)\longrightarrow M\times M,\qquad e(\gamma)=(\gamma(0),\gamma(1)),$$
+$$
+z=\dim_{\mathbb Q}\bigl(Z(G)\otimes_{\mathbb Z}\mathbb Q\bigr).
+$$
+
+Use unreduced topological complexity: $\mathop{\mathrm{TC}}\nolimits(M)$ is the least number of open sets covering $M\times M$ on each of which the endpoint map
+
+$$
+e:C([0,1],M)\longrightarrow M\times M,\qquad e(\gamma)=(\gamma(0),\gamma(1)),
+$$
+
 with the compact-open topology on the path space, admits a continuous section.
 
 Does every such manifold satisfy
-$$\operatorname{TC}(M)=2n+1-z?$$
+
+$$
+\mathop{\mathrm{TC}}\nolimits(M)=2n+1-z?
+$$
+
 Prove the formula or construct a counterexample. The target concerns ordinary two-endpoint motion planning, with no curvature assumption.
 
 ## Application

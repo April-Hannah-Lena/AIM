@@ -9,10 +9,18 @@
 ## Problem statement
 
 For $0<\gamma<1$, define a qubit channel
-$$\mathcal A_\gamma(\rho)=K_0\rho K_0^\dagger+K_1\rho K_1^\dagger,\quad K_0=\begin{pmatrix}1&0\\0&\sqrt{1-\gamma}\end{pmatrix},\quad K_1=\begin{pmatrix}0&\sqrt\gamma\\0&0\end{pmatrix}.$$
+
+$$
+\mathcal A_\gamma(\rho)=K_0\rho K_0^\dagger+K_1\rho K_1^\dagger,\quad K_0=\begin{pmatrix}1&0\\0&\sqrt{1-\gamma}\end{pmatrix},\quad K_1=\begin{pmatrix}0&\sqrt\gamma\\0&0\end{pmatrix}.
+$$
+
 For any finite-dimensional quantum channel $\Phi$, let
-$$\chi(\Phi)=\sup_{\{p_j,\rho_j\}}\left[S\!\left(\sum_jp_j\Phi(\rho_j)\right)-\sum_jp_jS(\Phi(\rho_j))\right],$$
-where the supremum is over finite ensembles of input density operators and $S(\rho)=-\operatorname{Tr}(\rho\log_2\rho)$.
+
+$$
+\chi(\Phi)=\sup_{\{p_j,\rho_j\}}\left[S\!\left(\sum_jp_j\Phi(\rho_j)\right)-\sum_jp_jS(\Phi(\rho_j))\right],
+$$
+
+where the supremum is over finite ensembles of input density operators and $S(\rho)=-\mathop{\mathrm{Tr}}\nolimits(\rho\log_2\rho)$.
 
 Is $\chi(\mathcal A_\gamma^{\otimes n})=n\chi(\mathcal A_\gamma)$ for every $n\ge1$ and every $0<\gamma<1$? Equivalently, does its unassisted classical capacity $\sup_{n\ge1}\chi(\mathcal A_\gamma^{\otimes n})/n$ equal the one-use Holevo information?
 

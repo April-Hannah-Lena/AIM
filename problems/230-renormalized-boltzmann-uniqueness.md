@@ -9,11 +9,19 @@
 ## Problem statement
 
 On $\mathbb T^3_x\times\mathbb R^3_v$, consider $\partial_tf+v\cdot\nabla_x f=Q(f,f)$, with hard-sphere collisions
-$$Q(f,f)(v)=\int_{\mathbb R^3}\int_{\mathbb S^2}|(v-v_*)\cdot\omega|\,[f(v')f(v_*')-f(v)f(v_*)]\,d\omega\,dv_*,$$
+
+$$
+Q(f,f)(v)=\int_{\mathbb R^3}\int_{\mathbb S^2}|(v-v_*)\cdot\omega|\,[f(v')f(v_*')-f(v)f(v_*)]\,d\omega\,dv_*,
+$$
+
 where $v'=v-[(v-v_*)\cdot\omega]\omega$ and $v_*'=v_*+[(v-v_*)\cdot\omega]\omega$; all factors have the same $(t,x)$.
 
 Are two nonnegative renormalized solutions with the same initial datum necessarily equal almost everywhere? Use the DiPerna–Lions finite-mass, finite-energy, finite-entropy class: on every finite time interval, $\int f(1+|v|^2+|\log f|)\,dx\,dv$ is bounded, $Q(f,f)/(1+f)\in L^1_{\mathrm{loc}}$, and
-$$(\partial_t+v\cdot\nabla_x)\beta(f)=\beta'(f)Q(f,f)$$
+
+$$
+(\partial_t+v\cdot\nabla_x)\beta(f)=\beta'(f)Q(f,f)
+$$
+
 holds distributionally for every $C^1$ renormalization with $|\beta'(z)|\leq C/(1+z)$. Require the initial trace in $L^1$, conservation of mass and momentum, the energy inequality, and the entropy inequality $H(f_t)+\int_0^tD(f_s)ds\leq H(f_0)$, where $H(f)=\int f\log f$ and $D(f)=-\int Q(f,f)\log f\geq0$ is interpreted by its nonnegative collision integral.
 
 ## Application

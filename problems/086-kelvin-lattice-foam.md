@@ -9,11 +9,13 @@
 ## Problem statement
 
 Let $L\subset\mathbb R^3$ range over full-rank lattices with covolume one. Let $E\subset\mathbb R^3$ range over bounded measurable sets of volume one and finite perimeter such that the translates $\{E+\ell:\ell\in L\}$ partition $\mathbb R^3$ up to sets of Lebesgue measure zero. Determine the exact value of
+
 $$
 \mathcal K_{\mathrm{lat},3}
-=\inf_{(L,E)}\frac12\,\operatorname{Per}(E)
+=\inf_{(L,E)}\frac12\,\mathop{\mathrm{Per}}\nolimits(E)
 $$
-and characterize the minimizing pairs, if the infimum is attained. Here $\operatorname{Per}(E)$ is the total variation of the distributional gradient of $1_E$; the factor $1/2$ counts each cell interface once. Curved interfaces and nonconvex cells are allowed.
+
+and characterize the minimizing pairs, if the infimum is attained. Here $\mathop{\mathrm{Per}}\nolimits(E)$ is the total variation of the distributional gradient of $1_E$; the factor $1/2$ counts each cell interface once. Curved interfaces and nonconvex cells are allowed.
 
 ## Application
 

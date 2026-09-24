@@ -11,28 +11,38 @@
 Let $X$ be a finite nonempty set and $\varnothing\ne\mathcal C\subseteq\{0,1\}^{X}$. Its VC dimension $v$ is the largest size of a subset of $X$ on which $\mathcal C$ realizes every binary labeling. Its Littlestone dimension $d$ is the largest depth of a complete binary tree with internal nodes labeled by points of $X$ and outgoing edges labeled $0,1$, such that every root-to-leaf path agrees with some $c\in\mathcal C$ at all its node-edge pairs. Assume $v\ge1$.
 
 For an integer $n\ge1$, consider a randomized learner
+
 $$
 A:(X\times\{0,1\})^n\longrightarrow\{0,1\}^{X}.
 $$
+
 The class is known to the learner. For every probability distribution $D$ on $X$ and target $c\in\mathcal C$, the learner receives only
+
 $$
 S=((x_1,c(x_1)),\ldots,(x_n,c(x_n))),\qquad x_i\ \text{independently drawn from }D.
 $$
+
 It must output $h=A(S)$ with
+
 $$
 \Pr_{S,A}\!\left[\Pr_{x\sim D}\{h(x)\ne c(x)\}\le\frac1{16}\right]\ge\frac{15}{16}.
 $$
+
 The inner probability uses a fresh input. In addition, for every pair of datasets $S,S'$ differing in one labeled record, and every set $E\subseteq\{0,1\}^{X}$, require
+
 $$
 \Pr[A(S)\in E]\le e^{0.1}\Pr[A(S')\in E]+\frac{1}{100n^3}.
 $$
+
 This privacy condition applies to all datasets, including those inconsistent with $\mathcal C$. The output may lie outside $\mathcal C$, and there is no running-time bound.
 
 Let $m_{\mathrm{priv}}(\mathcal C)$ be the smallest such sample size. Write $\log_2^* t$ for the number of iterated base-two logarithms needed to reduce $t$ to at most one. **Do universal constants $K>0$ and $q\in\mathbb N$, $q\ge1$, exist such that**
+
 $$
 m_{\mathrm{priv}}(\mathcal C)
 \le K\left(1+v+\log_2^*(\max\{2,d\})\right)^q
 $$
+
 **for every finite $X$ and every such class $\mathcal C$?**
 
 This is a finite-domain, fixed-accuracy formulation of the quantitative question in [1, §6] and [2, §2]. Those sources suppress privacy and accuracy dependence. Here the accuracy, confidence and multiplicative privacy constant are fixed, and the privacy slack is explicitly inverse cubic in sample size, within the small-slack regime of [1, Theorem 2]. This formulation does not assert equivalence with every privacy-parameter regime or with arbitrary infinite domains.

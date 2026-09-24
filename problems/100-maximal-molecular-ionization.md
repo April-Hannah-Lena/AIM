@@ -10,11 +10,15 @@
 
 For distinct nuclei $R_1,\ldots,R_M\in\mathbb R^3$ with charges $Z_a\in\mathbb N$, put $Z=\sum_aZ_a$ and let
 
-$$H_N=\sum_{j=1}^N\left(-\frac12\Delta_{x_j}-\sum_{a=1}^M\frac{Z_a}{|x_j-R_a|}\right)+\sum_{i<j}\frac1{|x_i-x_j|}$$
+$$
+H_N=\sum_{j=1}^N\left(-\frac12\Delta_{x_j}-\sum_{a=1}^M\frac{Z_a}{|x_j-R_a|}\right)+\sum_{i<j}\frac1{|x_i-x_j|}
+$$
 
 act on $\bigwedge^N L^2(\mathbb R^3;\mathbb C^2)$. Let $N_{\max}$ be the largest $N$ for which $\inf\sigma(H_N)$ is an eigenvalue, including a possible threshold eigenvalue. Prove or disprove that a universal finite constant $C$ satisfies
 
-$$N_{\max}\le Z+CM$$
+$$
+N_{\max}\le Z+CM
+$$
 
 for all choices of charges and nuclear positions.
 

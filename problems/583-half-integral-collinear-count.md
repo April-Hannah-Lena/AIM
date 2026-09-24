@@ -8,12 +8,14 @@
 
 ## Problem statement
 
-A half-integral polygon is a two-dimensional convex polygon $P\subset\mathbb R^2$ whose vertices belong to $\tfrac12\mathbb Z^2$. Integral polygons are included. Two polygons are considered equivalent when $P'=UP+b$ for some $U\in\operatorname{GL}_2(\mathbb Z)$ and $b\in\mathbb Z^2$.
+A half-integral polygon is a two-dimensional convex polygon $P\subset\mathbb R^2$ whose vertices belong to $\tfrac12\mathbb Z^2$. Integral polygons are included. Two polygons are considered equivalent when $P'=UP+b$ for some $U\in\mathop{\mathrm{GL}}\nolimits_2(\mathbb Z)$ and $b\in\mathbb Z^2$.
 
 For each integer $i\ge3$, let $N(i)$ be the number of these equivalence classes for which $P$ has exactly $i$ interior lattice points and all of those points lie on one line. Prove or disprove that
+
 $$
 N(i)=\frac{i+1}{1260}\left(512i^6+12928i^5+137740i^4+685145i^3+1582743i^2+1665222i+710640\right)
 $$
+
 for every $i\ge3$.
 
 ## Application

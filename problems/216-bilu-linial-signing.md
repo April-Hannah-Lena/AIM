@@ -9,13 +9,17 @@
 ## Problem statement
 
 For an integer $d\ge2$, let $G=(V,E)$ be any finite simple undirected $d$-regular graph. A signing is a map $s:E\to\{-1,1\}$. Its signed adjacency matrix is the real symmetric matrix
+
 $$
 (A_s)_{uv}=\begin{cases}s(\{u,v\}),&\{u,v\}\in E,\\0,&\text{otherwise}.\end{cases}
 $$
+
 Does every such graph admit a signing for which every eigenvalue $\lambda$ of $A_s$ satisfies
+
 $$
 |\lambda|\le2\sqrt{d-1}?
 $$
+
 Both ends of the spectrum must satisfy the bound.
 
 ## Application

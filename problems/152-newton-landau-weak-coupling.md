@@ -20,6 +20,8 @@ $$
 \partial_t f(v)=\nabla_v\cdot\int_{\mathbb R^3}a(v-w)[f(w)\nabla_v f(v)-f(v)\nabla_w f(w)]\,dw,\quad f(0)=f_0,
 $$
 
+
+
 $$
 a(z)=\frac12\int_{\mathbb R}\int_{\mathbb R^3}\nabla\Phi(y)\otimes\nabla\Phi(y+sz)\,dy\,ds.
 $$

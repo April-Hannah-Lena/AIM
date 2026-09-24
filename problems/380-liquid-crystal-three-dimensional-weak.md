@@ -9,10 +9,23 @@
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^3$ be a smooth bounded domain. Given smooth compatible data $u_0:\overline\Omega\to\mathbb R^3$, $\nabla\cdot u_0=0$, $u_0|_{\partial\Omega}=0$, and $d_0:\overline\Omega\to\mathbb S^2$, does there always exist a global distributional solution of
-$$u_t+u\cdot\nabla u-\Delta u+\nabla p=-\nabla\cdot(\nabla d\odot\nabla d),\quad\nabla\cdot u=0,$$
-$$d_t+u\cdot\nabla d=\Delta d+|\nabla d|^2d,\qquad |d|=1,$$
+
+$$
+u_t+u\cdot\nabla u-\Delta u+\nabla p=-\nabla\cdot(\nabla d\odot\nabla d),\quad\nabla\cdot u=0,
+$$
+
+
+
+$$
+d_t+u\cdot\nabla d=\Delta d+|\nabla d|^2d,\qquad |d|=1,
+$$
+
 with initial data $(u_0,d_0)$ and time-independent boundary values $u=0$, $d=d_0$? Here $(\nabla d\odot\nabla d)_{ij}=\partial_i d\cdot\partial_jd$. Require $u\in L^\infty_tL^2_x\cap L^2_tH^1_{0,x}$, $d\in L^\infty_tH^1_x$, $\tau=d_t+u\cdot\nabla d\in L^2_{t,x}$ on finite time intervals and
-$$\int_\Omega(|u(t)|^2+|\nabla d(t)|^2)+2\int_0^t\!\int_\Omega(|\nabla u|^2+|\tau|^2)\le\int_\Omega(|u_0|^2+|\nabla d_0|^2).$$
+
+$$
+\int_\Omega(|u(t)|^2+|\nabla d(t)|^2)+2\int_0^t\!\int_\Omega(|\nabla u|^2+|\tau|^2)\le\int_\Omega(|u_0|^2+|\nabla d_0|^2).
+$$
+
 The displayed elastic stress must hold without a defect measure. No hemisphere or small-energy restriction is imposed on $d_0$.
 
 ## Application

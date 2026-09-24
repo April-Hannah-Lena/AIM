@@ -9,11 +9,19 @@
 ## Problem statement
 
 Let $X_N$ be a normalized Gaussian unitary ensemble matrix of size $N^2$, viewed as an operator on $\mathbb C^N\otimes\mathbb C^N$. Thus its independent diagonal entries have variance $N^{-2}$, and its upper-triangular entries are centered complex Gaussians with $\mathbb E|(X_N)_{ab}|^2=N^{-2}$. On $(\mathbb C^N)^{\otimes3}$ define
-$$A_N=X_N\otimes I_N,\qquad B_N=I_N\otimes X_N.$$
+
+$$
+A_N=X_N\otimes I_N,\qquad B_N=I_N\otimes X_N.
+$$
+
 Both embeddings use exactly the same realization of $X_N$, in the indicated tensor-factor order.
 
 Let $s_1,s_2$ be freely independent centered semicircular elements of variance one in their reduced free-product $C^*$-algebra. Is it true that, for every noncommutative polynomial $P\in\mathbb C\langle x,y\rangle$,
-$$\|P(A_N,B_N)\|_{\mathrm{op}}\xrightarrow[N\to\infty]{\mathbb P}\|P(s_1,s_2)\|?$$
+
+$$
+\|P(A_N,B_N)\|_{\mathrm{op}}\xrightarrow[N\to\infty]{\mathbb P}\|P(s_1,s_2)\|?
+$$
+
 Prove this operator-norm convergence or exhibit a polynomial for which it fails. This is the three-site, two-interaction case of the repeated-matrix question in [1, Section 5(2)], whose authors conjecturally expect freeness when the same local interaction is placed on different tensor legs.
 
 ## Application

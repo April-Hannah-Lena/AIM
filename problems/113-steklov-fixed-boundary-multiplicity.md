@@ -10,7 +10,9 @@
 
 Does there exist a fixed integer $b\ge1$ and a sequence of smooth compact connected orientable Riemannian surfaces $(M_j,g_j)$, each with exactly $b$ boundary components, such that
 
-$$\dim\{u:\Delta_{g_j}u=0,\ \partial_\nu u=\sigma_1(M_j,g_j)u\}\longrightarrow\infty?$$
+$$
+\dim\{u:\Delta_{g_j}u=0,\ \partial_\nu u=\sigma_1(M_j,g_j)u\}\longrightarrow\infty?
+$$
 
 Here $\sigma_1$ is the first positive eigenvalue of the ordinary, unweighted Steklov problem. The genus and metric may vary; $b$ must not vary. Boundary length may be normalized to one by scaling.
 

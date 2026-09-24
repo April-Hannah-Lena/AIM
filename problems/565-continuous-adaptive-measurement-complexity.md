@@ -9,14 +9,25 @@
 ## Problem statement
 
 For $m\ge2$, let $N(m)$ be the smallest integer $n$ such that, for every $\varepsilon>0$, there exists a deterministic algorithm recovering each $x\in\mathbb R^m$ with Euclidean error at most $\varepsilon$ from at most $n$ exact real-valued measurements. The measurements are sequential:
-$$y_j=\lambda_{j,y_1,\ldots,y_{j-1}}(x),$$
+
+$$
+y_j=\lambda_{j,y_1,\ldots,y_{j-1}}(x),
+$$
+
 where, for every fixed history, $\lambda_{j,y_1,\ldots,y_{j-1}}:\mathbb R^m\to\mathbb R$ is continuous. The choice of the next functional may depend arbitrarily on the preceding values; no continuity in the history is imposed. The reconstruction $\Phi:\mathbb R^n\to\mathbb R^m$ is unrestricted, and the required guarantee is
-$$\sup_{x\in\mathbb R^m}\|x-\Phi(y_1,\ldots,y_n)\|_2\le\varepsilon.$$
+
+$$
+\sup_{x\in\mathbb R^m}\|x-\Phi(y_1,\ldots,y_n)\|_2\le\varepsilon.
+$$
 
 Determine $N(m)$, or its sharp asymptotic growth as $m\to\infty$. In particular, is $N(m)$ unbounded, or can an absolute constant number of such measurements achieve arbitrary precision in every dimension?
 
 The known bounds are
-$$2\le N(m)\le \lceil\log_2 m\rceil+1.$$
+
+$$
+2\le N(m)\le \lceil\log_2 m\rceil+1.
+$$
+
 The upper bound is the improved version in [2, Theorem 1, September 2026 revision]. The unresolved case $m=3,n=2$ is part of this single problem, rather than a separate entry.
 
 ## Application

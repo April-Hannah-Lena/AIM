@@ -9,7 +9,11 @@
 ## Problem statement
 
 Let $T\subset\mathbb R^3$ be a regular tetrahedron of side length one. A packing $\mathcal P$ is a locally finite collection of images of $T$ under Euclidean isometries, with pairwise disjoint interiors. Define
-$$\delta(\mathcal P)=\limsup_{R\to\infty}\frac{|B_R(0)\cap\bigcup_{P\in\mathcal P}P|}{|B_R(0)|},\qquad\delta_T=\sup_{\mathcal P}\delta(\mathcal P).$$
+
+$$
+\delta(\mathcal P)=\limsup_{R\to\infty}\frac{|B_R(0)\cap\bigcup_{P\in\mathcal P}P|}{|B_R(0)|},\qquad\delta_T=\sup_{\mathcal P}\delta(\mathcal P).
+$$
+
 Determine $\delta_T$ exactly, by giving a matching rigorous upper bound and packing construction. Arbitrary orientations and nonperiodic packings are allowed; the known density $4000/4671$ is a lower bound, not an assumption about optimality.
 
 ## Application

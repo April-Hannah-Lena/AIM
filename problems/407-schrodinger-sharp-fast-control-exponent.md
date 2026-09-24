@@ -9,11 +9,22 @@
 ## Problem statement
 
 Fix $L>0$ and consider complex-valued solutions of
-$$iy_t+y_{xx}=0\quad\text{on }(0,T)\times(0,L),\qquad y(t,0)=h(t),\quad y(t,L)=0.$$
+
+$$
+iy_t+y_{xx}=0\quad\text{on }(0,T)\times(0,L),\qquad y(t,0)=h(t),\quad y(t,L)=0.
+$$
+
 Define
-$$C_S(T,L)=\sup_{\|y_0\|_{H^{-1}(0,L)}=1}\inf\{\|h\|_{L^2(0,T)}:y(0)=y_0,\ y(T)=0\},$$
+
+$$
+C_S(T,L)=\sup_{\|y_0\|_{H^{-1}(0,L)}=1}\inf\{\|h\|_{L^2(0,T)}:y(0)=y_0,\ y(T)=0\},
+$$
+
 where solutions and boundary values are understood by transposition. Is it true that
-$$\lim_{T\downarrow0}T\log C_S(T,L)=L^2/4?$$
+
+$$
+\lim_{T\downarrow0}T\log C_S(T,L)=L^2/4?
+$$
 
 ## Application
 

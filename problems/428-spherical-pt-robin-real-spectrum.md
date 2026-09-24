@@ -8,8 +8,17 @@
 ## Problem statement
 
 For $0<a<\pi/2$, $\alpha\in\mathbb R$, and $m\in\mathbb Z$, put $\beta=\tfrac12\tan a$ and define on $L^2(-a,a)$
-$$H_{a,\alpha,m}u=-u''+\frac{8m^2-3-\cos(2x)}{8\cos^2x}\,u,$$
-$$D(H_{a,\alpha,m})=\{u\in H^2(-a,a):u'(\pm a)+(i\alpha\pm\beta)u(\pm a)=0\}.$$
+
+$$
+H_{a,\alpha,m}u=-u''+\frac{8m^2-3-\cos(2x)}{8\cos^2x}\,u,
+$$
+
+
+
+$$
+D(H_{a,\alpha,m})=\{u\in H^2(-a,a):u'(\pm a)+(i\alpha\pm\beta)u(\pm a)=0\}.
+$$
+
 Is $\sigma(H_{a,\alpha,m})\subset\mathbb R$ for every such triple? These separated operators represent the Laplace–Beltrami problem on a tubular neighborhood of the equator with the parity-and-time symmetric Robin conditions of the references.
 
 ## Application

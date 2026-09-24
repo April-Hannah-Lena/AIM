@@ -8,13 +8,17 @@
 
 ## Problem statement
 
-Let $X=\Gamma\backslash\mathbb H^2$ be an infinite-area hyperbolic surface of curvature $-1$, where $\Gamma\subset\operatorname{PSL}_2(\mathbb R)$ is discrete, torsion-free, non-elementary and convex co-compact. Write $\delta\in(0,1)$ for the Hausdorff dimension of its limit set. Let $\mathcal R_X$ be the poles of the meromorphic continuation of
+Let $X=\Gamma\backslash\mathbb H^2$ be an infinite-area hyperbolic surface of curvature $-1$, where $\Gamma\subset\mathop{\mathrm{PSL}}\nolimits_2(\mathbb R)$ is discrete, torsion-free, non-elementary and convex co-compact. Write $\delta\in(0,1)$ for the Hausdorff dimension of its limit set. Let $\mathcal R_X$ be the poles of the meromorphic continuation of
 
-$$(\Delta_X-s(1-s))^{-1}:C_c^\infty(X)\longrightarrow C^\infty(X),$$
+$$
+(\Delta_X-s(1-s))^{-1}:C_c^\infty(X)\longrightarrow C^\infty(X),
+$$
 
 where $\Delta_X$ is the nonnegative Laplacian, and define
 
-$$G_X=\inf\{a\in\mathbb R:\#\{s\in\mathcal R_X:\operatorname{Re}s\ge a\}<\infty\}.$$
+$$
+G_X=\inf\{a\in\mathbb R:\#\{s\in\mathcal R_X:\mathop{\mathrm{Re}}\nolimits s\ge a\}<\infty\}.
+$$
 
 Prove or disprove $G_X=\delta/2$. Equivalently, for every $\varepsilon>0$, there are finitely many resonances to the right of $\delta/2+\varepsilon$ and infinitely many to the right of $\delta/2-\varepsilon$.
 

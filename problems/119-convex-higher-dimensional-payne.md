@@ -10,7 +10,9 @@
 
 Let $d\ge3$ and let $\Omega\subset\mathbb R^d$ be any bounded connected convex domain with $C^\infty$ boundary. Write $0<\lambda_1<\lambda_2\le\cdots$ for its Dirichlet Laplacian eigenvalues with multiplicity. For every real nonzero $u$ satisfying $-\Delta u=\lambda_2u$ in $\Omega$ and $u=0$ on $\partial\Omega$, prove or disprove
 
-$$\overline{\{x\in\Omega:u(x)=0\}}\cap\partial\Omega\ne\varnothing.$$
+$$
+\overline{\{x\in\Omega:u(x)=0\}}\cap\partial\Omega\ne\varnothing.
+$$
 
 The closure is taken in $\mathbb R^d$ and concerns the interior zero set, rather than the boundary zeros imposed by the Dirichlet condition.
 

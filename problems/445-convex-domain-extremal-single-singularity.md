@@ -8,9 +8,17 @@
 ## Problem statement
 
 Let $d\ge10$, let $\Omega\subset\mathbb R^d$ be bounded, smooth and convex, and let $f\in C^\infty([0,\infty))$ be positive, increasing and convex with $f(t)/t\to\infty$. For the Dirichlet problem
-$$-\Delta u=\lambda f(u)\quad\hbox{in }\Omega,\qquad u=0\quad\hbox{on }\partial\Omega,$$
+
+$$
+-\Delta u=\lambda f(u)\quad\hbox{in }\Omega,\qquad u=0\quad\hbox{on }\partial\Omega,
+$$
+
 let $u_\lambda$ be the minimal positive classical branch, $\lambda^*$ its maximal parameter, and $u^*=\lim_{\lambda\uparrow\lambda^*}u_\lambda$. Suppose $u^*\notin L^\infty(\Omega)$. Must the set
-$$\Sigma=\{x\in\overline\Omega:\ \operatorname*{ess\,sup}_{\Omega\cap B_r(x)}u^*=\infty\ \hbox{for every }r>0\}$$
+
+$$
+\Sigma=\{x\in\overline\Omega:\ \mathop{\mathrm{ess\,sup}}_{\Omega\cap B_r(x)}u^*=\infty\ \hbox{for every }r>0\}
+$$
+
 consist of exactly one point?
 
 ## Application

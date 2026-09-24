@@ -16,7 +16,7 @@ $$
 d_h(x,y)\ge d_g(x,y)\qquad(x,y\in\partial M).
 $$
 
-Must $\operatorname{Vol}_h(N)\ge\operatorname{Vol}_g(M)$? The topology of $N$ is unrestricted; no equality-case rigidity is requested.
+Must $\mathop{\mathrm{Vol}}\nolimits_h(N)\ge\mathop{\mathrm{Vol}}\nolimits_g(M)$? The topology of $N$ is unrestricted; no equality-case rigidity is requested.
 
 ## Application
 

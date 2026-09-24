@@ -9,7 +9,11 @@
 ## Problem statement
 
 For every $L>\pi$ and real-valued $h_0\in C^\infty(\mathbb T_L^2)$ with zero mean, where $\mathbb T_L^2=(\mathbb R/(2L\mathbb Z))^2$, does
-$$\partial_t h+\Delta^2h+\Delta h+|\nabla h|^2-\frac1{4L^2}\int_{\mathbb T_L^2}|\nabla h(t,y)|^2\,dy=0,\qquad h(0)=h_0,$$
+
+$$
+\partial_t h+\Delta^2h+\Delta h+|\nabla h|^2-\frac1{4L^2}\int_{\mathbb T_L^2}|\nabla h(t,y)|^2\,dy=0,\qquad h(0)=h_0,
+$$
+
 have a global smooth solution? Require $h\in C([0,T];H^m(\mathbb T_L^2))$ for every finite $T$ and integer $m\ge0$, with no restriction on the size of the datum. The mean subtraction fixes the otherwise evolving additive constant.
 
 ## Application

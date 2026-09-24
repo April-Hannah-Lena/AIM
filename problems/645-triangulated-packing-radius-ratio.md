@@ -11,7 +11,10 @@
 A triangulated packing of the Euclidean plane consists of closed disks with pairwise disjoint interiors whose contact graph, drawn with straight segments between the centers of tangent disks, triangulates the entire plane. Assume the smallest and largest radii are attained and satisfy $0<r_{\min}\le r_{\max}<\infty$. Require at least two distinct radii and set $q=r_{\min}/r_{\max}$.
 
 Let $q_*=0.6510501858\ldots$ be the radius ratio of Fernique's three-radius packing, equivalently the root near $0.65105$ of
-$$89x^8+1344x^7+4008x^6-464x^5-2410x^4+176x^3+296x^2-96x+1=0.$$
+
+$$
+89x^8+1344x^7+4008x^6-464x^5-2410x^4+176x^3+296x^2-96x+1=0.
+$$
 
 Prove or disprove that every such packing satisfies $q\le q_*$. The competing packings need not be periodic, and there is no fixed upper bound on the number of distinct radii.
 

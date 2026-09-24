@@ -9,10 +9,12 @@
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^3$ be a bounded connected smooth domain. For smooth coefficients $\lambda,\mu$ satisfying $\mu>0$ and $3\lambda+2\mu>0$ on $\overline\Omega$, set
+
 $$
 \varepsilon(u)=\tfrac12(\nabla u+\nabla u^T),\qquad
 \sigma_{\lambda,\mu}(u)=\lambda(\nabla\cdot u)I+2\mu\varepsilon(u).
 $$
+
 For each boundary displacement $f\in H^{1/2}(\partial\Omega;\mathbb R^3)$, let $u$ solve $\nabla\cdot\sigma_{\lambda,\mu}(u)=0$ with trace $f$, and define the traction map $\Lambda_{\lambda,\mu}f=\sigma_{\lambda,\mu}(u)\nu$.
 
 Does equality of the full traction maps for two admissible coefficient pairs imply equality of both $\lambda$ and $\mu$ in $\Omega$? Both coefficients are arbitrary smooth spatial functions.

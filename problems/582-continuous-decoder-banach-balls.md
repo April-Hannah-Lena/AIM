@@ -9,11 +9,19 @@
 ## Problem statement
 
 Let $X,Y$ be real Banach spaces, let $B_X=\{x:\|x\|_X\le1\}$ with its norm topology, and let $S:X\to Y$ be bounded and linear. For $n\ge1$ define
-$$e_n(S)=\inf_{N,\phi}\sup_{x\in B_X}\|Sx-\phi(N(x))\|_Y,$$
+
+$$
+e_n(S)=\inf_{N,\phi}\sup_{x\in B_X}\|Sx-\phi(N(x))\|_Y,
+$$
+
 where $N:B_X\to\mathbb R^n$ is continuous and $\phi:\mathbb R^n\to Y$ is arbitrary. Define $\delta_n(S)$ by the same infimum with the additional requirement that $\phi$ be continuous on all of $\mathbb R^n$.
 
 Does there exist a universal constant $C<\infty$ such that
-$$\delta_n(S)\le C e_n(S)$$
+
+$$
+\delta_n(S)\le C e_n(S)
+$$
+
 for every $X,Y,S,n$? In particular, does $C=2$ suffice?
 
 The measurements are taken nonadaptively: $N$ is a single continuous map. Both infima optimize the measurement map as well as the reconstruction. No common Lipschitz constant is prescribed for either map.

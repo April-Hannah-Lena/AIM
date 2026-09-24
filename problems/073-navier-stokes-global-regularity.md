@@ -9,10 +9,12 @@
 ## Problem statement
 
 Let $\mathbb T^3=(\mathbb R/\mathbb Z)^3$, $\nu>0$, and let $u_0\in C^\infty(\mathbb T^3;\mathbb R^3)$ have zero mean and $\nabla\cdot u_0=0$. Does the unforced initial-value problem
+
 $$
 \partial_tu+(u\cdot\nabla)u+\nabla p=\nu\Delta u,\qquad
 \nabla\cdot u=0,\qquad u(0)=u_0
 $$
+
 have a smooth solution on $\mathbb T^3\times[0,T]$ for every finite $T>0$ and every such datum? Pressure is normalized to have zero spatial mean. A negative answer must demonstrate failure of smooth continuation for an admissible datum. This is the periodic smooth-data version, with fixed positive viscosity.
 
 ## Application

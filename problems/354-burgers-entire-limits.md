@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $\alpha<\beta$ and let $\mu$ be any Borel probability measure supported in $[\alpha,\beta]$. Define
-$$\phi_\mu(x)=\frac{\int z e^{-zx/2}\,d\mu(z)}{\int e^{-zx/2}\,d\mu(z)}.$$
+
+$$
+\phi_\mu(x)=\frac{\int z e^{-zx/2}\,d\mu(z)}{\int e^{-zx/2}\,d\mu(z)}.
+$$
+
 Does there exist $u_0\in L^\infty(\mathbb R)$ with $\alpha\le u_0\le\beta$ almost everywhere such that the solution of
-$$u_t+u u_x=u_{xx},\qquad u(0,x)=u_0(x),$$
+
+$$
+u_t+u u_x=u_{xx},\qquad u(0,x)=u_0(x),
+$$
+
 admits sequences $t_k\to\infty$ and $x_k\in\mathbb R$ for which $u(t_k,x+x_k)\to\phi_\mu(x)$ uniformly on every compact interval? The measure may be continuous or have infinitely many atoms; finite shock mergers alone do not settle the question.
 
 ## Application

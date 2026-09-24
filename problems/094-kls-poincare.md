@@ -9,11 +9,13 @@
 ## Problem statement
 
 Does there exist a universal constant $C<\infty$ such that, for every $n\ge1$, every probability density $e^{-V}$ on $\mathbb R^n$ with convex extended-real $V$, mean zero and covariance $I_n$, and every smooth compactly supported $f:\mathbb R^n\to\mathbb R$,
+
 $$
-\operatorname{Var}_\mu(f)
+\mathop{\mathrm{Var}}\nolimits_\mu(f)
 :=\int f^2\,d\mu-\left(\int f\,d\mu\right)^2
 \le C\int|\nabla f|^2\,d\mu?
 $$
+
 Extended-real convex potentials include uniform measures on convex bodies. The same $C$ must work in all dimensions and for all such densities and functions. This is the Poincaré formulation of KLS.
 
 ## Application

@@ -9,7 +9,11 @@
 ## Problem statement
 
 For every unital complex $C^*$-algebra $\mathcal A$, complex Hilbert space $H$, and bounded unital algebra homomorphism $\pi:\mathcal A\to\mathcal B(H)$, must there exist a bounded invertible $S\in\mathcal B(H)$ for which
-$$a\longmapsto S^{-1}\pi(a)S$$
+
+$$
+a\longmapsto S^{-1}\pi(a)S
+$$
+
 is a $*$-homomorphism? Thus the transformed map must satisfy $S^{-1}\pi(a^*)S=(S^{-1}\pi(a)S)^*$ for every $a\in\mathcal A$. No complete-boundedness assumption is permitted.
 
 ## Application

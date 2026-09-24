@@ -13,11 +13,13 @@ Let $G=([n],E)$ be a finite simple undirected graph, where $[n]=\{1,\ldots,n\}$ 
 Is there a deterministic algorithm in uniform $\mathrm{NC}$ that, on every such input, returns a perfect matching if one exists and correctly reports nonexistence otherwise? This is the general-graph search question stated by Svensson–Tarnawski and Anari–Vazirani. [1, 3]
 
 More precisely, seek absolute constants $K,c,k>0$ and a logspace-uniform family of Boolean circuits $(C_n)_{n\ge2}$ satisfying
+
 $$
-\operatorname{size}(C_n)\le K n^c,
+\mathop{\mathrm{size}}\nolimits(C_n)\le K n^c,
 \qquad
-\operatorname{depth}(C_n)\le K\bigl(\log_2(n+2)\bigr)^k.
+\mathop{\mathrm{depth}}\nolimits(C_n)\le K\bigl(\log_2(n+2)\bigr)^k.
 $$
+
 The gates are fan-in-two AND and OR, NOT, and constants. The output contains a success bit and an edge-incidence vector. Success must hold exactly when a perfect matching exists; on success, the vector must encode one. Logspace uniformity means that one deterministic machine, given $1^n$, writes the description of $C_n$ using $O(\log n)$ work space. This fixes the usual effective circuit convention for $\mathrm{NC}$. [2, Definition 7.1]
 
 The guarantee is worst-case and exact, over all input graphs. There is no bipartiteness, planarity, bounded-degree or uniqueness promise. A maximal matching, which cannot be enlarged by adding an edge, need not cover every vertex. Merely deciding whether a perfect matching exists is a related question; its equivalence to this search task is not assumed.

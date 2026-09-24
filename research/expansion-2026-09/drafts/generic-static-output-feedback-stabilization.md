@@ -9,24 +9,30 @@
 ## Problem statement
 
 For positive integers $m,p$, put $n=mp$ and consider all real matrix triples
+
 $$
 \mathcal A_{m,p}
 =\mathbb R^{n\times n}\times\mathbb R^{n\times m}
 \times\mathbb R^{p\times n}.
 $$
+
 A triple $(A,B,C)$ describes the continuous-time system
+
 $$
 \dot x=Ax+Bu,\qquad y=Cx,
 $$
+
 with $n$ state coordinates, $m$ inputs and $p$ measured outputs. A static output-feedback controller is a constant real matrix $K\in\mathbb R^{m\times p}$ implementing $u=Ky$. It gives the closed-loop matrix $A+BKC$.
 
 Call a real matrix **Hurwitz** when every eigenvalue has strictly negative real part, and define
+
 $$
 \mathcal S_{m,p}
 =\{(A,B,C)\in\mathcal A_{m,p}:
 \text{ there exists }K\in\mathbb R^{m\times p}
 \text{ for which }A+BKC\text{ is Hurwitz}\}.
 $$
+
 **Determine exactly which pairs $(m,p)$ make $\mathcal S_{m,p}$ dense in $\mathcal A_{m,p}$ in the ordinary Euclidean topology.**
 
 The set $\mathcal S_{m,p}$ is already open: a stabilizing gain continues to stabilize sufficiently small perturbations of its plant. Thus density means that an open dense set of plants admits some stabilizing gain, which may depend on the plant. The gain has no prescribed magnitude or sparsity, but it must be constant in time and use only the measured output. The question concerns real gains and continuous-time stability.

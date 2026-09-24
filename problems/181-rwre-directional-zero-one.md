@@ -9,7 +9,11 @@
 ## Problem statement
 
 Let $(\omega_x)_{x\in\mathbb Z^3}$ be iid nearest-neighbor transition probability vectors, with $\omega_x(e)\ge\kappa>0$ almost surely for each of the six unit lattice directions. Conditional on $\omega$, let the walk start at $0$ and take step $e$ from $x$ with probability $\omega_x(e)$. Under the joint law $P$ of the environment and the walk, must
-$$P(X_n\cdot\ell\longrightarrow+\infty)\in\{0,1\}$$
+
+$$
+P(X_n\cdot\ell\longrightarrow+\infty)\in\{0,1\}
+$$
+
 hold for every deterministic unit vector $\ell\in\mathbb R^3$?
 
 ## Application

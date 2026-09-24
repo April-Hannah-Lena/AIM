@@ -10,7 +10,9 @@
 
 On $\ell^2(\mathbb Z^3)$ define
 
-$$ (H_\eta\psi)(n)=\sum_{|m-n|_1=1}\psi(m)+\eta V_n\psi(n),$$
+$$
+(H_\eta\psi)(n)=\sum_{|m-n|_1=1}\psi(m)+\eta V_n\psi(n),
+$$
 
 where $(V_n)$ are independent uniform random variables on $[-1,1]$ and $\eta>0$. Prove or disprove that there exist $\eta_0>0$ and a nonempty open interval $I\subset(-6,6)$ such that, for every $0<\eta<\eta_0$, almost surely the restriction of $H_\eta$ to its spectral subspace for $I$ is purely absolutely continuous and $I\subset\sigma(H_\eta)$.
 

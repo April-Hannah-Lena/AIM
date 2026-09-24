@@ -9,8 +9,12 @@
 ## Problem statement
 
 Construct a deterministic algorithm polynomial in $N$ that, for every $1\le s\le N$, outputs an $m\times N$ rational matrix $A$ with polynomial-bit entries such that, for an absolute constant $C$,
-$$m\le C s\log(eN/s),\qquad
-\tfrac23\|x\|_2^2\le\|Ax\|_2^2\le\tfrac43\|x\|_2^2$$
+
+$$
+m\le C s\log(eN/s),\qquad
+\tfrac23\|x\|_2^2\le\|Ax\|_2^2\le\tfrac43\|x\|_2^2
+$$
+
 for every $x\in\mathbb R^N$ with at most $s$ nonzero coordinates. Thus the restricted-isometry constant at order $s$ is at most $1/3$, with the same order of measurements as random constructions. Enumerating all supports is not polynomial time when $s$ varies.
 
 ## Application

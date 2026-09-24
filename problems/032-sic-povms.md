@@ -9,7 +9,11 @@
 ## Problem statement
 
 For every integer $d\ge2$, do there exist $d^2$ unit vectors $\psi_1,\ldots,\psi_{d^2}\in\mathbb C^d$ such that
-$$|\langle\psi_j,\psi_k\rangle|^2=\frac1{d+1}\quad(j\ne k)?$$
+
+$$
+|\langle\psi_j,\psi_k\rangle|^2=\frac1{d+1}\quad(j\ne k)?
+$$
+
 Such a family is a symmetric informationally complete set. The measurement effects $E_j=d^{-1}\psi_j\psi_j^*$ then satisfy $\sum_jE_j=I_d$. No group-covariance assumption is imposed.
 
 ## Application

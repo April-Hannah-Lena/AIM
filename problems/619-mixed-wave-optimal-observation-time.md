@@ -9,15 +9,35 @@
 ## Problem statement
 
 Fix a bounded measurable potential $a:[0,1]\to[0,\infty)$, with its pointwise representative specified. For $N\ge1$, put $h=(N+1)^{-1}$ and
-$$M_h=\frac h4\operatorname{tridiag}(1,2,1),\qquad K_h=\frac1h\operatorname{tridiag}(-1,2,-1),\qquad L_h=h\operatorname{diag}(a(h),\ldots,a(Nh)).$$
+
+$$
+M_h=\frac h4\mathop{\mathrm{tridiag}}\nolimits(1,2,1),\qquad K_h=\frac1h\mathop{\mathrm{tridiag}}\nolimits(-1,2,-1),\qquad L_h=h\mathop{\mathrm{diag}}\nolimits(a(h),\ldots,a(Nh)).
+$$
+
 All matrices have size $N$. Consider arbitrary solutions $U=(u_1,\ldots,u_N)^T$ of
-$$M_h\ddot U+(K_h+L_h)U=0.$$
+
+$$
+M_h\ddot U+(K_h+L_h)U=0.
+$$
+
 Define
-$$\mathcal E_h(U^0,U^1)=(U^0)^*(K_h+L_h)U^0+(U^1)^*M_hU^1$$
+
+$$
+\mathcal E_h(U^0,U^1)=(U^0)^*(K_h+L_h)U^0+(U^1)^*M_hU^1
+$$
+
 and the observation
-$$\mathcal O_{h,T}(U)=\int_0^T\left(\left|\frac{u_1(t)}h\right|^2+\left|\frac{\dot u_1(t)}2\right|^2\right)dt.$$
+
+$$
+\mathcal O_{h,T}(U)=\int_0^T\left(\left|\frac{u_1(t)}h\right|^2+\left|\frac{\dot u_1(t)}2\right|^2\right)dt.
+$$
+
 Determine the optimal threshold
-$$T_*(a)=\inf\{T>0:\ \exists c(a,T)>0\ \forall N\ge1\ \forall(U^0,U^1),\quad \mathcal O_{h,T}(U)\ge c(a,T)\mathcal E_h(U^0,U^1)\}.$$
+
+$$
+T_*(a)=\inf\{T>0:\ \exists c(a,T)>0\ \forall N\ge1\ \forall(U^0,U^1),\quad \mathcal O_{h,T}(U)\ge c(a,T)\mathcal E_h(U^0,U^1)\}.
+$$
+
 In particular, is $T_*(a)=2$ for every such potential? The constant must be independent of the mesh size. This is the optimal-time question following Theorem 1 of [1].
 
 ## Application

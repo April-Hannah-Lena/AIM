@@ -9,19 +9,38 @@
 ## Problem statement
 
 Fix a field $\Bbbk$, an integer $n\ge1$, and a finite nonempty simplicial complex $K$ of dimension $d$. A filter assigns a vector $f(\sigma)\in[0,1]^n$ to every nonempty simplex, with $f(\tau)\le f(\sigma)$ coordinatewise whenever $\tau\subseteq\sigma$. Set
-$$K_u=\{\sigma\in K:f(\sigma)\le u\},\qquad M^q_u=H_q(K_u;\Bbbk),\qquad \mathbf M=(M^0,\ldots,M^d),$$
+
+$$
+K_u=\{\sigma\in K:f(\sigma)\le u\},\qquad M^q_u=H_q(K_u;\Bbbk),\qquad \mathbf M=(M^0,\ldots,M^d),
+$$
+
 using ordinary unreduced homology and the maps induced by inclusions.
 
 Let $\xi_i^q(u)$ be the multiplicity of a generator at grade $u$ in homological position $i$ of a minimal free resolution of the persistence module $M^q$. Here a free summand at $u$ is $\Bbbk$ at all grades $v\ge u$ and zero elsewhere, with identity maps between nonzero spaces. Equivalently, compute these multigraded Betti numbers after restricting to a finite grid determining the module and regrading its coordinate sets into $\mathbb Z^n$. Thus $\xi_0^q$ counts minimal generators, $\xi_1^q$ counts minimal relations, and higher $i$ count higher syzygies. Set $\xi_i^q=0$ for $q<0$ or $q>d$.
 
 Define
-$$G_j=\bigcup_{q=0}^d\{u_j:\xi_0^q(u)+\xi_1^q(u)>0\},\qquad G=G_1\times\cdots\times G_n.$$
+
+$$
+G_j=\bigcup_{q=0}^d\{u_j:\xi_0^q(u)+\xi_1^q(u)>0\},\qquad G=G_1\times\cdots\times G_n.
+$$
+
 This is the minimal grid determining the entire tuple $\mathbf M$, not a chosen sampling grid. Boundary values $0$ and $1$ are included only if they occur in these coordinate sets. Put
-$$b_q(u)=\max\left\{0,\ \xi_0^q(u)+\xi_1^{q-1}(u)-\sum_{p=1}^{n-1}\xi_{p+1}^{q-p}(u)\right\},$$
-$$\mathcal L(\mathbf M)=\sum_{u\in G}\sum_{q=0}^d b_q(u).$$
+
+$$
+b_q(u)=\max\left\{0,\ \xi_0^q(u)+\xi_1^{q-1}(u)-\sum_{p=1}^{n-1}\xi_{p+1}^{q-p}(u)\right\},
+$$
+
+
+
+$$
+\mathcal L(\mathbf M)=\sum_{u\in G}\sum_{q=0}^d b_q(u).
+$$
 
 Must every such filter satisfy
-$$|G_j|\le\mathcal L(\mathbf M)\qquad\text{for every }j=1,\ldots,n?$$
+
+$$
+|G_j|\le\mathcal L(\mathbf M)\qquad\text{for every }j=1,\ldots,n?
+$$
 
 This is the conjecture in Remark 5.12 of [1]. The tuple must arise from a filter on a finite simplicial complex; the question is not asserted for arbitrary unrelated persistence modules. Filters may assign equal coordinate values to distinct simplices.
 

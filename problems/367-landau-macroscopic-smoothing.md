@@ -9,9 +9,17 @@
 ## Problem statement
 
 Consider nonnegative smooth rapidly decaying solutions on $[0,T]\times\mathbb R^3$ of
-$$\partial_tf=\nabla_v\cdot(A[f]\nabla_vf-f\nabla_va[f]),\quad A[f]\,(v)=\frac1{8\pi}\int_{\mathbb R^3}\frac{I-\widehat{v-w}\otimes\widehat{v-w}}{|v-w|}f(w)\,dw,\quad a[f]\,(v)=\frac1{4\pi}\int_{\mathbb R^3}\frac{f(w)}{|v-w|}\,dw,$$
+
+$$
+\partial_tf=\nabla_v\cdot(A[f]\nabla_vf-f\nabla_va[f]),\quad A[f]\,(v)=\frac1{8\pi}\int_{\mathbb R^3}\frac{I-\widehat{v-w}\otimes\widehat{v-w}}{|v-w|}f(w)\,dw,\quad a[f]\,(v)=\frac1{4\pi}\int_{\mathbb R^3}\frac{f(w)}{|v-w|}\,dw,
+$$
+
 with $\widehat z=z/|z|$. Normalize $\int f\,dv=1$, $\int vf\,dv=0$ and $\int|v|^2f\,dv=3$. For every $H\in\mathbb R$ and $0<\tau<T$, is there a finite $C(H,\tau,T)$ such that
-$$\sup_{\tau\le t\le T}\|f(t)\|_{L^\infty_v}\le C(H,\tau,T)\quad\text{whenever}\quad\int f(0,v)\log f(0,v)\,dv\le H?$$
+
+$$
+\sup_{\tau\le t\le T}\|f(t)\|_{L^\infty_v}\le C(H,\tau,T)\quad\text{whenever}\quad\int f(0,v)\log f(0,v)\,dv\le H?
+$$
+
 The constant must be independent of all initial higher moments, Fisher information, pointwise bounds and derivative norms. The question asks for a bound, without prescribing a conjectural sharp time exponent.
 
 ## Application

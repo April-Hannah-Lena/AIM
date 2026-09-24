@@ -8,7 +8,11 @@
 ## Problem statement
 
 Let $n\ge3$ and let $\Omega$ be a smooth geodesically convex domain whose closure is contained in an open hemisphere of the unit sphere $S^n$. Define its first nonzero Steklov eigenvalue by
-$$\sigma_1(\Omega)=\inf\left\{\frac{\int_\Omega|\nabla u|^2\,dV}{\int_{\partial\Omega}u^2\,dS}:u\in H^1(\Omega),\ \int_{\partial\Omega}u\,dS=0,\ \int_{\partial\Omega}u^2\,dS>0\right\}.$$
+
+$$
+\sigma_1(\Omega)=\inf\left\{\frac{\int_\Omega|\nabla u|^2\,dV}{\int_{\partial\Omega}u^2\,dS}:u\in H^1(\Omega),\ \int_{\partial\Omega}u\,dS=0,\ \int_{\partial\Omega}u^2\,dS>0\right\}.
+$$
+
 Let $B\subset S^n$ be a geodesic ball of radius less than $\pi/2$ with $|\partial B|=|\partial\Omega|$. Is $\sigma_1(\Omega)\le\sigma_1(B)$, with equality only when $\Omega$ is a geodesic ball? Equivalently, the spectrum comes from $\Delta u=0$ in $\Omega$ and $\partial_\nu u=\sigma u$ on its boundary.
 
 ## Application

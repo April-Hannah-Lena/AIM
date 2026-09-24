@@ -10,7 +10,9 @@
 
 For a bounded simply connected planar domain $\Omega$ with smooth boundary and $\alpha<0$, set
 
-$$\lambda_1^\alpha(\Omega)=\inf_{0\ne u\in H^1(\Omega)}\frac{\int_\Omega|\nabla u|^2dx+\alpha\int_{\partial\Omega}|u|^2ds}{\int_\Omega|u|^2dx}.$$
+$$
+\lambda_1^\alpha(\Omega)=\inf_{0\ne u\in H^1(\Omega)}\frac{\int_\Omega|\nabla u|^2dx+\alpha\int_{\partial\Omega}|u|^2ds}{\int_\Omega|u|^2dx}.
+$$
 
 If $B$ is a disk with $|B|=|\Omega|$, prove or disprove $\lambda_1^\alpha(\Omega)\le\lambda_1^\alpha(B)$ for every $\alpha<0$. The area, not the perimeter, is fixed.
 

@@ -10,7 +10,9 @@
 
 Fix an integer $n\ge3$ and $L>0$. For a convex planar polygon $P$ with at most $n$ sides and perimeter $L$, let $\sigma_1(P)$ be the first positive Steklov eigenvalue, defined weakly by
 
-$$\Delta u=0\text{ in }P,\qquad\partial_\nu u=\sigma u\text{ on }\partial P.$$
+$$
+\Delta u=0\text{ in }P,\qquad\partial_\nu u=\sigma u\text{ on }\partial P.
+$$
 
 Let $R_n$ be the regular $n$-gon with perimeter $L$. Prove or disprove $\sigma_1(P)\le\sigma_1(R_n)$, with equality only for $P$ congruent to $R_n$.
 

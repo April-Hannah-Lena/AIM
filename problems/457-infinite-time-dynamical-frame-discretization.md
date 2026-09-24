@@ -8,11 +8,23 @@
 ## Problem statement
 
 Let $\mathcal H$ be a separable complex Hilbert space, let $A$ be bounded and normal, and let $(g_j)_{j\in J}$ be a countable Bessel family: $\sum_j|\langle f,g_j\rangle|^2\le B_0\|f\|^2$. Define $A^t$ by spectral calculus using $z^t=|z|^te^{it\arg z}$, $\arg z\in(-\pi,\pi]$, with $0^t=0$ for $t>0$ and $A^0=I$. Suppose
-$$m\|f\|^2\le\sum_j\int_0^\infty|\langle f,A^tg_j\rangle|^2\,dt\le M\|f\|^2\qquad(f\in\mathcal H)$$
+
+$$
+m\|f\|^2\le\sum_j\int_0^\infty|\langle f,A^tg_j\rangle|^2\,dt\le M\|f\|^2\qquad(f\in\mathcal H)
+$$
+
 for some $0<m\le M<\infty$. Must there be a locally finite set $T\subset[0,\infty)$ with
-$$D^+(T)=\limsup_{L\to\infty}\sup_{a\ge0}\frac{\#(T\cap[a,a+L])}{L}<\infty$$
+
+$$
+D^+(T)=\limsup_{L\to\infty}\sup_{a\ge0}\frac{\#(T\cap[a,a+L])}{L}<\infty
+$$
+
 and constants $0<m_T\le M_T<\infty$ such that
-$$m_T\|f\|^2\le\sum_{t\in T}\sum_j|\langle f,A^tg_j\rangle|^2\le M_T\|f\|^2\qquad(f\in\mathcal H)?$$
+
+$$
+m_T\|f\|^2\le\sum_{t\in T}\sum_j|\langle f,A^tg_j\rangle|^2\le M_T\|f\|^2\qquad(f\in\mathcal H)?
+$$
+
 No time-dependent weights may be inserted in the discrete sum.
 
 ## Application

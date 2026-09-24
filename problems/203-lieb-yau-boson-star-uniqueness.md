@@ -9,8 +9,17 @@
 ## Problem statement
 
 For $u\in H^{1/2}(\mathbb R^3)$ define
-$$D(u)=\iint\frac{|u(x)|^2|u(y)|^2}{|x-y|}\,dx\,dy,\qquad K(u)=\langle u,\sqrt{-\Delta}\,u\rangle,$$
-$$N_* =\inf_{u\ne0}\frac{2K(u)\|u\|_2^2}{D(u)},\qquad \mathcal E(u)=\langle u,(\sqrt{-\Delta+1}-1)u\rangle-\tfrac12D(u).$$
+
+$$
+D(u)=\iint\frac{|u(x)|^2|u(y)|^2}{|x-y|}\,dx\,dy,\qquad K(u)=\langle u,\sqrt{-\Delta}\,u\rangle,
+$$
+
+
+
+$$
+N_* =\inf_{u\ne0}\frac{2K(u)\|u\|_2^2}{D(u)},\qquad \mathcal E(u)=\langle u,(\sqrt{-\Delta+1}-1)u\rangle-\tfrac12D(u).
+$$
+
 The square roots are Fourier multipliers. For every $0<N<N_*$, the infimum of $\mathcal E$ over $\|u\|_2^2=N$ is attained.
 
 Is this minimizer unique modulo translation and constant phase for every such $N$? Precisely, must any two minimizers satisfy $v(x)=e^{i\theta}u(x-x_0)$ for some $\theta\in\mathbb R$, $x_0\in\mathbb R^3$?

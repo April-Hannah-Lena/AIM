@@ -9,10 +9,12 @@
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^d$ be a bounded connected $C^2$ domain and $\omega\subset\Omega$ a nonempty open control region. For every exponent $\alpha\in[3/2,2)$, every $T>0$, and every $y_0\in L^\infty(\Omega)$, determine whether there is $v\in L^\infty((0,T)\times\omega)$ such that
+
 $$
 \partial_t y-\Delta y+|y|\log^\alpha(2+|y|)=\mathbf1_\omega v,\qquad
 y|_{\partial\Omega}=0,\quad y(0)=y_0,
 $$
+
 has a bounded weak solution on $[0,T]$ with $y(T)=0$. The time $T$ is prescribed independently of the initial state; negative initial data are allowed.
 
 ## Application

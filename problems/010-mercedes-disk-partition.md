@@ -10,7 +10,9 @@
 
 Let $B=\{x\in\mathbb R^2:|x|<1\}$. Among triples of pairwise disjoint nonempty connected open subsets $(D_1,D_2,D_3)$ of $B$, minimize $\max_i\lambda_1(D_i)$, where $\lambda_1$ is the first Dirichlet eigenvalue. Prove or disprove that the three sectors obtained by three radii separated by angles $2\pi/3$ attain the minimum. Equivalently, is
 
-$$\inf_{(D_1,D_2,D_3)}\max_i\lambda_1(D_i)=j_{3/2,1}^2?$$
+$$
+\inf_{(D_1,D_2,D_3)}\max_i\lambda_1(D_i)=j_{3/2,1}^2?
+$$
 
 Here $j_{3/2,1}$ is the first positive zero of the Bessel function $J_{3/2}$. The optimization is over all such triples, with no prescribed interface topology or symmetry.
 

@@ -9,9 +9,17 @@
 ## Problem statement
 
 For $\delta>0$ and a Schwartz function $f$ on $\mathbb R^3$, define $B^\delta f$ through its Fourier transform by
-$$\widehat{B^\delta f}(\xi)=(1-|\xi|^2)_+^\delta\widehat f(\xi),\qquad r_+=\max\{r,0\}.$$
+
+$$
+\widehat{B^\delta f}(\xi)=(1-|\xi|^2)_+^\delta\widehat f(\xi),\qquad r_+=\max\{r,0\}.
+$$
+
 For every $1<p<\infty$ and
-$$\delta>\max\left\{3\left|\frac1p-\frac12\right|-\frac12,\,0\right\},$$
+
+$$
+\delta>\max\left\{3\left|\frac1p-\frac12\right|-\frac12,\,0\right\},
+$$
+
 does there exist $C_{p,\delta}<\infty$ such that $\|B^\delta f\|_{L^p}\le C_{p,\delta}\|f\|_{L^p}$ for all such $f$?
 
 ## Application

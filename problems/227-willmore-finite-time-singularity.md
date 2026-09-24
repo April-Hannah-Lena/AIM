@@ -10,8 +10,12 @@
 
 Does there exist a smooth closed connected orientable surface $\Sigma$ and a smooth immersion $f_0:\Sigma\to\mathbb R^3$ whose maximal smooth unconstrained Willmore flow has finite lifetime $T<\infty$?
 
-Precisely, for the induced metric $g$, second fundamental form $A$, mean curvature $H=\operatorname{tr}_g A$ and trace-free part $A^\circ=A-(H/2)g$, consider
-$$\partial_t f\cdot\nu=-\big(\Delta_gH+H|A^\circ|^2\big),\qquad f(0)=f_0,$$
+Precisely, for the induced metric $g$, second fundamental form $A$, mean curvature $H=\mathop{\mathrm{tr}}\nolimits_g A$ and trace-free part $A^\circ=A-(H/2)g$, consider
+
+$$
+\partial_t f\cdot\nu=-\big(\Delta_gH+H|A^\circ|^2\big),\qquad f(0)=f_0,
+$$
+
 with compatible curvature and normal conventions, and arbitrary tangential reparametrization. Seek an evolution that cannot be smoothly extended past a finite $T$, equivalently with curvature becoming unbounded as $t\uparrow T$. There are no area, volume or spontaneous-curvature terms in this flow.
 
 ## Application

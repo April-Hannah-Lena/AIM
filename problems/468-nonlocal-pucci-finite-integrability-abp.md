@@ -9,12 +9,24 @@
 ## Problem statement
 
 Fix $n\ge2$, $0<s<1$ and $0<\lambda\le\Lambda$. For $\delta^2u(x,y)=u(x+y)+u(x-y)-2u(x)$ define
-$$\mathcal M^+u(x)=\frac12\int_{\mathbb R^n}
-\frac{\Lambda(\delta^2u(x,y))_+-\lambda(\delta^2u(x,y))_-}{|y|^{n+2s}}\,dy.$$
+
+$$
+\mathcal M^+u(x)=\frac12\int_{\mathbb R^n}
+\frac{\Lambda(\delta^2u(x,y))_+-\lambda(\delta^2u(x,y))_-}{|y|^{n+2s}}\,dy.
+$$
+
 Do there exist $1\le p<\infty$, $\vartheta>0$ and $C<\infty$, depending only on $n,s,\lambda,\Lambda$, such that every bounded upper-semicontinuous viscosity subsolution
-$$\mathcal M^+u\ge f\ \text{in }B_1,\qquad u\le0\ \text{in }\mathbb R^n\setminus B_1,$$
+
+$$
+\mathcal M^+u\ge f\ \text{in }B_1,\qquad u\le0\ \text{in }\mathbb R^n\setminus B_1,
+$$
+
 with continuous $f$ and $\|f\|_\infty\le1$, satisfies
-$$\sup_{B_1}u\le C\|f_-\|_{L^p(B_1)}^\vartheta?$$
+
+$$
+\sup_{B_1}u\le C\|f_-\|_{L^p(B_1)}^\vartheta?
+$$
+
 Viscosity testing uses a smooth function near its contact point and the original $u$ outside that neighborhood. The constants must be independent of the size of the support of $f$.
 
 ## Application

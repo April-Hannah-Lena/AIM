@@ -9,11 +9,19 @@
 ## Problem statement
 
 For a coefficient of normal restitution $\alpha\in(0,1)$, define the three-dimensional hard-sphere collision operator weakly by
-$$\int Q_\alpha(F,F)\varphi\,dv=\frac12\iiint_{\mathbb R^3\times\mathbb R^3\times S^2}|(v-w)\cdot\omega|F(v)F(w)[\varphi(v')+\varphi(w')-\varphi(v)-\varphi(w)]\,d\omega\,dv\,dw,$$
+
+$$
+\int Q_\alpha(F,F)\varphi\,dv=\frac12\iiint_{\mathbb R^3\times\mathbb R^3\times S^2}|(v-w)\cdot\omega|F(v)F(w)[\varphi(v')+\varphi(w')-\varphi(v)-\varphi(w)]\,d\omega\,dv\,dw,
+$$
+
 where $v'=v-\frac{1+\alpha}{2}((v-w)\cdot\omega)\omega$ and $w'=w+\frac{1+\alpha}{2}((v-w)\cdot\omega)\omega$, and $d\omega$ is surface area.
 
 For every $\alpha\in(0,1)$, is there exactly one nonnegative density $F$ satisfying
-$$Q_\alpha(F,F)=\nabla_v\cdot(vF),\qquad \int F\,dv=1,\qquad \int vF\,dv=0,$$
+
+$$
+Q_\alpha(F,F)=\nabla_v\cdot(vF),\qquad \int F\,dv=1,\qquad \int vF\,dv=0,
+$$
+
 in distributions, with $\int(1+|v|^3)F\,dv<\infty$ and $\int F|\log F|\,dv<\infty$? The coefficient of the dilation term is fixed at one, which fixes the velocity scale. No rotational symmetry is imposed.
 
 ## Application

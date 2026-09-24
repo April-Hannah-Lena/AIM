@@ -10,7 +10,9 @@
 
 For each even integer $N\ge4$, put a three-dimensional spin space at every site of a periodic chain. On $\mathbb C^3$, indexed by $m=-1,0,1$, define $S^z|m\rangle=m|m\rangle$, $S^+|m\rangle=\sqrt{2-m(m+1)}|m+1\rangle$ (zero at $m=1$), $S^-=(S^+)^*$, $S^x=(S^++S^-)/2$, and $S^y=(S^+-S^-)/(2i)$. Let
 
-$$H_N=\sum_{j=1}^{N}\sum_{a=x,y,z}S_j^aS_{j+1}^a,\qquad S_{N+1}^a=S_1^a.$$
+$$
+H_N=\sum_{j=1}^{N}\sum_{a=x,y,z}S_j^aS_{j+1}^a,\qquad S_{N+1}^a=S_1^a.
+$$
 
 Write $E_0(N)<E_1(N)$ for its lowest two distinct eigenvalues. Prove or disprove that there is a constant $\Delta>0$, independent of even $N$, such that $E_1(N)-E_0(N)\ge\Delta$.
 

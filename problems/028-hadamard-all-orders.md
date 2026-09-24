@@ -9,7 +9,11 @@
 ## Problem statement
 
 For every integer $k\ge1$, does there exist $H\in\{-1,1\}^{4k\times4k}$ satisfying
-$$HH^{\mathsf T}=4k\,I_{4k}?$$
+
+$$
+HH^{\mathsf T}=4k\,I_{4k}?
+$$
+
 Equivalently, can $4k$ pairwise orthogonal sign vectors of length $4k$ always be constructed? The conjecture is about all positive multiples of four, not the existence of any particular previously missing order.
 
 ## Application

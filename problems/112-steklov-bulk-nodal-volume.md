@@ -10,11 +10,15 @@
 
 Let $(M,g)$ be any smooth compact connected $d$-dimensional Riemannian manifold with smooth nonempty boundary, $d\ge2$. For a real nonzero Steklov eigenfunction
 
-$$\Delta_g u=0\text{ in }M,\qquad\partial_\nu u=\sigma u\text{ on }\partial M,\qquad\sigma>0,$$
+$$
+\Delta_g u=0\text{ in }M,\qquad\partial_\nu u=\sigma u\text{ on }\partial M,\qquad\sigma>0,
+$$
 
-write $Z_u=\{x\in\operatorname{int}M:u(x)=0\}$. Prove or disprove that there are constants $0<c_M\le C_M<\infty$, independent of $u$ and $\sigma$, such that
+write $Z_u=\{x\in\mathop{\mathrm{int}}\nolimits M:u(x)=0\}$. Prove or disprove that there are constants $0<c_M\le C_M<\infty$, independent of $u$ and $\sigma$, such that
 
-$$c_M\sigma\le\mathcal H^{d-1}_g(Z_u)\le C_M\sigma.$$
+$$
+c_M\sigma\le\mathcal H^{d-1}_g(Z_u)\le C_M\sigma.
+$$
 
 Only the nodal set inside the medium is counted; the boundary trace has a different-dimensional zero set.
 

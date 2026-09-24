@@ -8,13 +8,25 @@
 
 ## Problem statement
 
-Let $n\ge2$, $0<s<1$, $\beta>1+s$ be noninteger, and $a\in\operatorname{Lip}(S^{n-1})$ be even with $0<\lambda\le a\le\Lambda$. Define
-$$Lu(x)=\operatorname{PV}\int_{\mathbb R^n}[u(x)-u(x+y)]\frac{a(y/|y|)}{|y|^{n+2s}}dy.$$
+Let $n\ge2$, $0<s<1$, $\beta>1+s$ be noninteger, and $a\in\mathop{\mathrm{Lip}}\nolimits(S^{n-1})$ be even with $0<\lambda\le a\le\Lambda$. Define
+
+$$
+Lu(x)=\mathop{\mathrm{PV}}\nolimits\int_{\mathbb R^n}[u(x)-u(x+y)]\frac{a(y/|y|)}{|y|^{n+2s}}dy.
+$$
+
 For every $\phi\in C^\beta(B_1)$ and bounded continuous viscosity solution of
-$$\min\{Lu,u-\phi\}=0\qquad\text{in }B_1,$$
+
+$$
+\min\{Lu,u-\phi\}=0\qquad\text{in }B_1,
+$$
+
 is the interior estimate
-$$\|u\|_{C^{1+s}(B_{1/2})}\le C\bigl(\|\phi\|_{C^\beta(B_1)}+\|u\|_{L^\infty(\mathbb R^n)}\bigr)$$
-valid with $C$ depending only on $n,s,\beta,\lambda,\Lambda$ and $\|a\|_{\operatorname{Lip}}$? The interesting range is $1+s<\beta\le1+2s$. Exterior values of $u$ are arbitrary bounded data; the coincidence set need not be separated from $\partial B_1$.
+
+$$
+\|u\|_{C^{1+s}(B_{1/2})}\le C\bigl(\|\phi\|_{C^\beta(B_1)}+\|u\|_{L^\infty(\mathbb R^n)}\bigr)
+$$
+
+valid with $C$ depending only on $n,s,\beta,\lambda,\Lambda$ and $\|a\|_{\mathop{\mathrm{Lip}}\nolimits}$? The interesting range is $1+s<\beta\le1+2s$. Exterior values of $u$ are arbitrary bounded data; the coincidence set need not be separated from $\partial B_1$.
 
 ## Application
 

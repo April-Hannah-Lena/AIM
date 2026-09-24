@@ -8,10 +8,14 @@
 
 ## Problem statement
 
-Let $H=(V,E)$ be a finite $4$-uniform hypergraph. A geometric embedding into $\mathbb R^3$ is an injection $\phi:V\to\mathbb R^3$ such that each $\operatorname{conv}\phi(e)$ is a nondegenerate tetrahedron and
-$$\operatorname{conv}\phi(e)\cap\operatorname{conv}\phi(f)
-=\operatorname{conv}\phi(e\cap f)\qquad(e,f\in E),$$
-with $\operatorname{conv}\varnothing=\varnothing$.
+Let $H=(V,E)$ be a finite $4$-uniform hypergraph. A geometric embedding into $\mathbb R^3$ is an injection $\phi:V\to\mathbb R^3$ such that each $\mathop{\mathrm{conv}}\nolimits\phi(e)$ is a nondegenerate tetrahedron and
+
+$$
+\mathop{\mathrm{conv}}\nolimits\phi(e)\cap\mathop{\mathrm{conv}}\nolimits\phi(f)
+=\mathop{\mathrm{conv}}\nolimits\phi(e\cap f)\qquad(e,f\in E),
+$$
+
+with $\mathop{\mathrm{conv}}\nolimits\varnothing=\varnothing$.
 
 The weak chromatic number is the minimum number of vertex colors for which no hyperedge is monochromatic. Is it unbounded over hypergraphs admitting such an embedding? Equivalently, for every integer $m$, does such a hypergraph exist with weak chromatic number greater than $m$?
 

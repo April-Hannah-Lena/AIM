@@ -11,34 +11,42 @@
 ## Problem statement
 
 Let $d\ge3$ be an integer and let $K\subset\mathbb R^d$ be compact and convex with nonempty interior. A direction $v\in S^{d-1}$ illuminates a boundary point $x\in\partial K$ if
+
 $$
-x+t v\in\operatorname{int}K
+x+t v\in\mathop{\mathrm{int}}\nolimits K
 \qquad\text{for some }t>0.
 $$
+
 Here $S^{d-1}$ is the unit sphere. The vector points in the direction in which the light travels; a source at infinity lies in the opposite direction. A finite set of directions illuminates $K$ when every boundary point is illuminated by at least one of them. Define
+
 $$
 I(K)=\min\left\{|V|:
 \begin{array}{l}
 V\subset S^{d-1}\text{ is finite, and}\\
 \forall x\in\partial K\ \exists v\in V\ \exists t>0:
-x+t v\in\operatorname{int}K
+x+t v\in\mathop{\mathrm{int}}\nolimits K
 \end{array}\right\}.
 $$
+
 The choices of $v$ and $t$ can depend on $x$, and the illuminating set can depend on $K$.
 
 The **Hadwiger–Boltyanski illumination conjecture** asks whether, for every such body,
+
 $$
 I(K)\le 2^d,
 \qquad
 I(K)=2^d\ \Longleftrightarrow\ K=a+A[0,1]^d
 $$
+
 for some $a\in\mathbb R^d$ and invertible linear map $A$. Thus the conjecture includes the assertion that only affine cubes require the full number of directions. All boundary points, including corners and edges, must be illuminated; smoothness and symmetry are not assumed.
 
 An equivalent covering formulation minimizes the integer $m$ for which
+
 $$
 K\subseteq\bigcup_{i=1}^{m}(a_i+\lambda_i K),
 \qquad a_i\in\mathbb R^d,\quad 0<\lambda_i<1.
 $$
+
 The minimum is $I(K)$. These are smaller positive homothetic copies: overlaps are allowed, and each copy may have its own translation and scale, but individual rotations and reflections are not allowed. The whole closed body must be covered. This covering formulation and the equivalent model using exterior point lights belong to the same problem. The planar case is already settled.
 
 ## Applied significance

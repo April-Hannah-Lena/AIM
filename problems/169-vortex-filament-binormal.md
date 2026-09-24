@@ -20,7 +20,7 @@ $$
 \sup_{0\le t\le T}\left|\int\omega^\epsilon\!\left(\frac{4\pi t}{|\log\epsilon|},x\right)\cdot\phi(x)\,dx-\int_0^L\partial_s\gamma(t,s)\cdot\phi(\gamma(t,s))\,ds\right|\to0?
 $$
 
-Euler means $\partial_\tau u^\epsilon+(u^\epsilon\cdot\nabla)u^\epsilon+\nabla p^\epsilon=0$, $\operatorname{div}u^\epsilon=0$; $C$ is independent of $\epsilon$.
+Euler means $\partial_\tau u^\epsilon+(u^\epsilon\cdot\nabla)u^\epsilon+\nabla p^\epsilon=0$, $\mathop{\mathrm{div}}\nolimits u^\epsilon=0$; $C$ is independent of $\epsilon$.
 
 ## Application
 

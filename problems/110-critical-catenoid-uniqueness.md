@@ -10,7 +10,9 @@
 
 Let $\Sigma\subset\overline{B^3}$ be a smooth compact connected properly embedded minimal annulus, with its interior in $B^3$ and its boundary in $S^2$, meeting $S^2$ orthogonally. Prove or disprove that a rotation carries $\Sigma$ onto the critical catenoid
 
-$$X(t,\theta)=a(\cosh t\cos\theta,\cosh t\sin\theta,t),\quad |t|\le t_0,\quad\theta\in\mathbb R/(2\pi\mathbb Z),$$
+$$
+X(t,\theta)=a(\cosh t\cos\theta,\cosh t\sin\theta,t),\quad |t|\le t_0,\quad\theta\in\mathbb R/(2\pi\mathbb Z),
+$$
 
 where $t_0>0$ solves $t_0\tanh t_0=1$ and $a=(\cosh^2t_0+t_0^2)^{-1/2}$.
 

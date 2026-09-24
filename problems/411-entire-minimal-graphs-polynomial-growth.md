@@ -9,9 +9,16 @@
 ## Problem statement
 
 For every integer $n\ge8$ and every smooth solution $u:\mathbb R^n\to\mathbb R$ of
-$$\operatorname{div}\left(\frac{\nabla u}{\sqrt{1+|\nabla u|^2}}\right)=0,$$
+
+$$
+\mathop{\mathrm{div}}\nolimits\left(\frac{\nabla u}{\sqrt{1+|\nabla u|^2}}\right)=0,
+$$
+
 must there exist finite constants $C>0$ and $p>0$, allowed to depend on $u$, such that
-$$|u(x)|\le C(1+|x|)^p\qquad\text{for all }x\in\mathbb R^n?$$
+
+$$
+|u(x)|\le C(1+|x|)^p\qquad\text{for all }x\in\mathbb R^n?
+$$
 
 ## Application
 

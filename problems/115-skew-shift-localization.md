@@ -10,7 +10,9 @@
 
 Let $\alpha\in\mathbb R$ be Diophantine: there are $c,\tau>0$ such that $\|q\alpha\|_{\mathbb R/\mathbb Z}\ge c|q|^{-\tau}$ for every nonzero integer $q$. For $\lambda>0$ and $(x,y)\in(\mathbb R/\mathbb Z)^2$, define on $\ell^2(\mathbb Z)$
 
-$$(H_{x,y}\psi)_n=\psi_{n+1}+\psi_{n-1}+2\lambda\cos\!\left(2\pi\left[y+nx+\tfrac{n(n-1)}2\alpha\right]\right)\psi_n.$$
+$$
+(H_{x,y}\psi)_n=\psi_{n+1}+\psi_{n-1}+2\lambda\cos\!\left(2\pi\left[y+nx+\tfrac{n(n-1)}2\alpha\right]\right)\psi_n.
+$$
 
 Prove or disprove that, for every such $\alpha$ and every $\lambda>0$, for Lebesgue-almost every $(x,y)$, $H_{x,y}$ has an orthonormal basis of eigenvectors, each satisfying $|\psi_n|\le C_\psi e^{-c_\psi|n|}$ for some $C_\psi,c_\psi>0$.
 

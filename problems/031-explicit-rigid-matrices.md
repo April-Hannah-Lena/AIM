@@ -9,9 +9,17 @@
 ## Problem statement
 
 For a matrix $A\in\mathbb Q^{n\times n}$ define
-$$R_A(r)=\min_{\operatorname{rank}_{\mathbb C}B\le r}\#\{(i,j):a_{ij}\ne b_{ij}\}.$$
+
+$$
+R_A(r)=\min_{\mathop{\mathrm{rank}}\nolimits_{\mathbb C}B\le r}\#\{(i,j):a_{ij}\ne b_{ij}\}.
+$$
+
 Construct a deterministic algorithm, polynomial in $n$, that outputs matrices $A_n$ with polynomial-bit rational entries, and constants $\alpha\in(0,1)$ and $\beta>0$, such that for all sufficiently large $n$,
-$$R_{A_n}(\lfloor\alpha n\rfloor)\ge n^{1+\beta}.$$
+
+$$
+R_{A_n}(\lfloor\alpha n\rfloor)\ge n^{1+\beta}.
+$$
+
 Equivalently, establish an explicit family at this linear target rank and superlinear alteration threshold. The field in the minimization is part of the requirement.
 
 ## Application

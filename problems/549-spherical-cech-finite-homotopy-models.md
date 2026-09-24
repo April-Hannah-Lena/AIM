@@ -9,7 +9,11 @@
 ## Problem statement
 
 Let $n\ge2$, and equip $S^n\subset\mathbb R^{n+1}$ with its round geodesic metric $d(x,y)=\arccos\langle x,y\rangle$. For $r>0$, let $C_n(r)$ be the abstract simplicial complex with vertex set $S^n$ in which a finite set $\sigma$ is a simplex precisely when
-$$\bigcap_{x\in\sigma}B_{S^n}(x;r)\ne\varnothing,\qquad B_{S^n}(x;r)=\{z\in S^n:d(x,z)<r\}.$$
+
+$$
+\bigcap_{x\in\sigma}B_{S^n}(x;r)\ne\varnothing,\qquad B_{S^n}(x;r)=\{z\in S^n:d(x,z)<r\}.
+$$
+
 Give its geometric realization $|C_n(r)|$ the ordinary CW topology.
 
 Is $|C_n(r)|$ homotopy equivalent to a finite CW complex for every $n\ge2$ and every $r>0$? The finite model may depend on $n$ and $r$; no uniform cell-count or dimension bound is required. Prove the assertion or give a counterexample.

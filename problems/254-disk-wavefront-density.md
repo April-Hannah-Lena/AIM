@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $D=\{x\in\mathbb R^2:|x|\leq1\}$ and $P\in\operatorname{int}D\setminus\{0\}$. Launch a unit-speed ray from $P$ in every direction, reflecting specularly at $\partial D$, and let $W_t(P)$ be their positions at time $t$. Is it true that
+Let $D=\{x\in\mathbb R^2:|x|\leq1\}$ and $P\in\mathop{\mathrm{int}}\nolimits D\setminus\{0\}$. Launch a unit-speed ray from $P$ in every direction, reflecting specularly at $\partial D$, and let $W_t(P)$ be their positions at time $t$. Is it true that
 
 $$
 \lim_{t\to\infty}\ \sup_{x\in D}\ \inf_{y\in W_t(P)}|x-y|=0

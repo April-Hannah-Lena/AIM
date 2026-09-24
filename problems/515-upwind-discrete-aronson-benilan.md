@@ -9,22 +9,43 @@
 ## Problem statement
 
 Fix $X,T,p_H>0$ and $G\in C^1([0,p_H])$ satisfying
-$$G(p_H)=0,\qquad G'(p)\le-\alpha<0.$$
+
+$$
+G(p_H)=0,\qquad G'(p)\le-\alpha<0.
+$$
+
 On a uniform grid $x_i=ih$ in $[-X,X]$, with $h=X/M$ and $-M\le i\le M$, consider nonnegative densities $n_i(t)$, pressures $p_i=n_i^\gamma$ with $\gamma>1$, and the semidiscrete scheme
-$$\dot n_i=\frac{n_{i+1/2}q_{i+1/2}-n_{i-1/2}q_{i-1/2}}h+n_iG(p_i),
-\qquad q_{i+1/2}=\frac{p_{i+1}-p_i}h,$$
-$$n_{i+1/2}=\begin{cases}n_i,&q_{i+1/2}\le0,\\n_{i+1},&q_{i+1/2}>0.\end{cases}$$
+
+$$
+\dot n_i=\frac{n_{i+1/2}q_{i+1/2}-n_{i-1/2}q_{i-1/2}}h+n_iG(p_i),
+\qquad q_{i+1/2}=\frac{p_{i+1}-p_i}h,
+$$
+
+
+
+$$
+n_{i+1/2}=\begin{cases}n_i,&q_{i+1/2}\le0,\\n_{i+1},&q_{i+1/2}>0.\end{cases}
+$$
+
 Use the reflected Neumann ghost values $n_{-M-1}=n_{-M+1}$ and $n_{M+1}=n_{M-1}$, with the same pressure law at the ghost nodes.
 
 Assume $0\le p_i(0)\le p_H$ and the initial-data bounds of (2.5) in [1], uniformly in $h$ and $\gamma$: for a fixed $C_0$, each of
-$$h\sum_i n_i(0),\quad h\sum_i p_i(0),\quad
-\sum_{i=-M}^{M-1}|n_{i+1}(0)-n_i(0)|,\quad h\sum_i|\dot n_i(0)|$$
+
+$$
+h\sum_i n_i(0),\quad h\sum_i p_i(0),\quad
+\sum_{i=-M}^{M-1}|n_{i+1}(0)-n_i(0)|,\quad h\sum_i|\dot n_i(0)|
+$$
+
 is at most $C_0$. Here unrestricted sums run over $-M\le i\le M$, and $\dot n_i(0)$ is evaluated using the scheme.
 
 Does there exist $C=C(X,T,p_H,G,C_0)$, independent of $h$ and $\gamma>1$, such that every such solution satisfies
-$$\frac{p_{i+1}(t)-2p_i(t)+p_{i-1}(t)}{h^2}+G(p_i(t))
+
+$$
+\frac{p_{i+1}(t)-2p_i(t)+p_{i-1}(t)}{h^2}+G(p_i(t))
 \ge-\frac{C}{\gamma t}
-\qquad(-M\le i\le M,\;0<t\le T)?$$
+\qquad(-M\le i\le M,\;0<t\le T)?
+$$
+
 Prove this uniform bound or give a counterexample under these assumptions. The target concerns the displayed fixed-grid upwind scheme, not an alternative discretization of the same continuum equation.
 
 ## Application

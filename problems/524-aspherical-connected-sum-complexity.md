@@ -10,12 +10,20 @@
 
 Let $M$ and $N$ be closed, connected, oriented aspherical manifolds of the same dimension $n\ge3$. Here aspherical means that the universal cover is contractible. Form the oriented connected sum $X=M\#N$ by removing the interiors of embedded $n$-balls and identifying their boundary spheres by an orientation-reversing map.
 
-Define $\operatorname{TC}(X)$ to be the least number of open sets covering $X\times X$ on which the endpoint map
-$$e:C([0,1],X)\longrightarrow X\times X,\qquad e(\gamma)=(\gamma(0),\gamma(1)),$$
+Define $\mathop{\mathrm{TC}}\nolimits(X)$ to be the least number of open sets covering $X\times X$ on which the endpoint map
+
+$$
+e:C([0,1],X)\longrightarrow X\times X,\qquad e(\gamma)=(\gamma(0),\gamma(1)),
+$$
+
 admits continuous sections; the path space has the compact-open topology. Thus this is unreduced topological complexity.
 
 Is the dimensional upper bound always attained,
-$$\operatorname{TC}(M\#N)=2n+1?$$
+
+$$
+\mathop{\mathrm{TC}}\nolimits(M\#N)=2n+1?
+$$
+
 Prove the assertion or exhibit an aspherical pair for which it fails. Asphericity is required of each summand, not of their connected sum.
 
 ## Application

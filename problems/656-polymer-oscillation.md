@@ -11,17 +11,33 @@
 Let $d\ge2$, $\mathcal R=\{e_1,\ldots,e_d\}$, and let $(X_n)$ start at $0$ with independent increments uniform on $\mathcal R$. Let $\omega=(\omega_x)_{x\in\mathbb Z^d}$ be an independent, identically distributed environment, independent of the walk, with values in a Borel subset of $\mathbb R$. Write $(T_x\omega)_y=\omega_{x+y}$. A measurable local potential has the form $V(\omega,z)=V_o(\omega_0,z)\in\mathbb R$; it may depend on the next step $z$.
 
 Impose the source's condition $V\in\mathcal L$: for every $z,z'\in\mathcal R$, $\mathbb E|V(\omega,z)|<\infty$ and, almost surely,
-$$\limsup_{\delta\downarrow0}\limsup_{n\to\infty}\max_{x\in\bigcup_{j=1}^nD_j}\frac1n\sum_{0\le i\le\delta n}|V(T_{x+iz'}\omega,z)|=0,$$
+
+$$
+\limsup_{\delta\downarrow0}\limsup_{n\to\infty}\max_{x\in\bigcup_{j=1}^nD_j}\frac1n\sum_{0\le i\le\delta n}|V(T_{x+iz'}\omega,z)|=0,
+$$
+
 where $D_j=\{x\in\mathbb Z_+^d:|x|_1=j\}$. For example, a finite $p$th moment for every step with some $p>d$ suffices.
 
 With $E_0$ denoting expectation over the walk with the environment fixed, define
-$$Z_n^\omega=E_0\exp\!\left\{\sum_{i=0}^{n-1}V(T_{X_i}\omega,X_{i+1}-X_i)\right\},$$
-$$\Lambda_q=\lim_{n\to\infty}\frac1n\log Z_n^\omega,\qquad
-\Lambda_a=\log\left(\frac1d\sum_{z\in\mathcal R}\mathbb E e^{V(\omega,z)}\right).$$
+
+$$
+Z_n^\omega=E_0\exp\!\left\{\sum_{i=0}^{n-1}V(T_{X_i}\omega,X_{i+1}-X_i)\right\},
+$$
+
+
+
+$$
+\Lambda_q=\lim_{n\to\infty}\frac1n\log Z_n^\omega,\qquad
+\Lambda_a=\log\left(\frac1d\sum_{z\in\mathcal R}\mathbb E e^{V(\omega,z)}\right).
+$$
+
 Assume $\Lambda_q<\infty$ and very strong disorder, meaning $\Lambda_q<\Lambda_a\le\infty$. Is it always true that
-$$\mathbb P\left(\liminf_{n\to\infty}e^{-n\Lambda_q}Z_n^\omega=0
+
+$$
+\mathbb P\left(\liminf_{n\to\infty}e^{-n\Lambda_q}Z_n^\omega=0
 \quad\text{and}\quad
-\limsup_{n\to\infty}e^{-n\Lambda_q}Z_n^\omega=\infty\right)=1?$$
+\limsup_{n\to\infty}e^{-n\Lambda_q}Z_n^\omega=\infty\right)=1?
+$$
 
 This is Conjecture 2.13 of Rassoul-Agha, Seppäläinen and Yilmaz. The normalization uses the quenched free energy $\Lambda_q$.
 

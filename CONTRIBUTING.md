@@ -46,6 +46,8 @@ A successful build alone is insufficient. Recheck the evidence when its source r
 
 Each `problems/NNN-slug.md` has **Area**, **Status**, **Last checked**, and the sections **Problem statement**, **Application**, **References**, and **Status review**. The Application section must contain an explanation or an explicit statement such as “No direct application is identified in this entry.” Such a statement is acceptable; an empty heading or unexplained placeholder is not. Retained problem records in `research/` use the same format. Use GitHub-compatible dollar delimiters for mathematics. The JSON files hold index metadata; the Markdown pages hold the mathematical content.
 
+Put each double-dollar display delimiter on its own line, with a blank line before the opening delimiter and after the closing delimiter, including between consecutive equations. Without those paragraph boundaries, GitHub can display the TeX as literal text. For named operators, use core TeX such as `\mathop{\mathrm{Per}}\nolimits(E)`; retain a space after a command when its operand begins with a letter. The catalogue check rejects unsupported operator-name macros and malformed display-block boundaries.
+
 From the repository root, using Python 3.10 or later:
 
 ```sh

@@ -11,7 +11,7 @@
 Fix a noise probability $0<\eta<1/2$, independent of the dimension $n$. Draw a secret $s$ uniformly from $\mathbb F_2^n$, where $\mathbb F_2=\{0,1\}$ with arithmetic modulo two. An algorithm receives $q(n)$ independent examples
 
 $$
-(a_i,b_i),\qquad a_i\sim\operatorname{Unif}(\mathbb F_2^n),\qquad
+(a_i,b_i),\qquad a_i\sim\mathop{\mathrm{Unif}}\nolimits(\mathbb F_2^n),\qquad
 b_i=\langle a_i,s\rangle+e_i\pmod2,
 $$
 

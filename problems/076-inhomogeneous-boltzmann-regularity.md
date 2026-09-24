@@ -9,11 +9,13 @@
 ## Problem statement
 
 On $\mathbb T_x^3\times\mathbb R_v^3$, consider
+
 $$
 \partial_t f+v\cdot\nabla_x f=Q(f,f),\qquad
 Q(f,f)(v)=\int_{\mathbb R^3}\int_{\mathbb S^2}
 |v-v_*|\,\big[f(v')f(v_*')-f(v)f(v_*)\big]\,d\sigma\,dv_*,
 $$
+
 where $v'=(v+v_*)/2+|v-v_*|\sigma/2$ and
 $v_*'=(v+v_*)/2-|v-v_*|\sigma/2$; all factors have the same $(t,x)$.
 For every strictly positive smooth datum, rapidly decreasing with all derivatives in $v$ and bounded below by some $a e^{-b|v|^2}$ with $a,b>0$, does a unique global smooth solution exist? This fixes the angular-cutoff hard-sphere kernel and imposes no closeness to a Maxwellian.

@@ -13,7 +13,7 @@ Does there exist a bounded simple polygon $P\subset\mathbb R^2$, with at least o
 More precisely, equip $P\times S^1$ with normalized Liouville measure
 
 $$
-d\mu=\frac{dx\,dy\,d\theta}{2\pi\,\operatorname{Area}(P)}.
+d\mu=\frac{dx\,dy\,d\theta}{2\pi\,\mathop{\mathrm{Area}}\nolimits(P)}.
 $$
 
 Straight motion inside $P$ is reflected at each side by equal incidence and reflection angles. Ignore the null set of trajectories hitting vertices. The requested example must have a measurable set $A$ invariant under this flow with $0<\mu(A)<1$.

@@ -9,11 +9,22 @@
 ## Problem statement
 
 Fix $d\ge1$, $T>0$, and a smooth nonnegative compactly supported probability density $m_{\rm in}$ on $Q=\mathbb T^d\times\mathbb R^d$. For each $0\le\nu\le1$, let $m_\nu$ be the density component minimizing
-$$\mathcal J(m,a)=\int_0^T\!\int_Q\left(\frac{|a|^2}{2m}+\frac{m^2}{2}\right)dx\,dv\,dt+\frac12\int_Q m(T)^2dx\,dv$$
+
+$$
+\mathcal J(m,a)=\int_0^T\!\int_Q\left(\frac{|a|^2}{2m}+\frac{m^2}{2}\right)dx\,dv\,dt+\frac12\int_Q m(T)^2dx\,dv
+$$
+
 subject to
-$$\partial_tm+v\cdot\nabla_xm-\nu\Delta_vm+\nabla_v\cdot a=0,\qquad m(0)=m_{\rm in}.$$
+
+$$
+\partial_tm+v\cdot\nabla_xm-\nu\Delta_vm+\nabla_v\cdot a=0,\qquad m(0)=m_{\rm in}.
+$$
+
 Admissible pairs have narrowly continuous probability densities with finite second velocity moment, the equation holds distributionally, and $\mathcal J<\infty$; use $|a|^2/m=0$ at $(m,a)=(0,0)$ and $+\infty$ when $m=0$, $a\ne0$. Does there exist an exponent $\eta=\eta(d)>0$ such that for every such datum and horizon some $C<\infty$, independent of $\nu$, satisfies
-$$\|m_\nu-m_0\|_{L^2((0,T)\times Q)}\le C\nu^\eta\qquad(0<\nu\le1)?$$
+
+$$
+\|m_\nu-m_0\|_{L^2((0,T)\times Q)}\le C\nu^\eta\qquad(0<\nu\le1)?
+$$
 
 ## Application
 

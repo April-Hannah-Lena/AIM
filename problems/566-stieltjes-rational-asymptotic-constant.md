@@ -9,16 +9,28 @@
 ## Problem statement
 
 Fix $0<a<b<\infty$ and $0<\gamma<1$. Let
-$$E_{n-1,n}(a,b;\gamma)=\inf_{p,q}\max_{x\in[a,b]}\left|x^{-\gamma}-\frac{p(x)}{q(x)}\right|,$$
+
+$$
+E_{n-1,n}(a,b;\gamma)=\inf_{p,q}\max_{x\in[a,b]}\left|x^{-\gamma}-\frac{p(x)}{q(x)}\right|,
+$$
+
 where $p,q$ are real polynomials with $\deg p\le n-1$, $\deg q\le n$, and $q$ has no zeros on $[a,b]$.
 
 Put
-$$k=\frac{\sqrt b-\sqrt a}{\sqrt b+\sqrt a},\qquad
+
+$$
+k=\frac{\sqrt b-\sqrt a}{\sqrt b+\sqrt a},\qquad
 K(k)=\int_0^{\pi/2}\frac{d\theta}{\sqrt{1-k^2\sin^2\theta}},\qquad
-\mu(k)=\frac{\pi K(\sqrt{1-k^2})}{2K(k)}.$$
+\mu(k)=\frac{\pi K(\sqrt{1-k^2})}{2K(k)}.
+$$
+
 Prove or disprove the Braess–Hackbusch conjecture
-$$\lim_{n\to\infty} e^{2n\mu(k)}E_{n-1,n}(a,b;\gamma)
-=4(ab)^{-\gamma/2}\sin(\pi\gamma).$$
+
+$$
+\lim_{n\to\infty} e^{2n\mu(k)}E_{n-1,n}(a,b;\gamma)
+=4(ab)^{-\gamma/2}\sin(\pi\gamma).
+$$
+
 The interval and exponent are fixed as $n\to\infty$. The target is absolute uniform error, with no restriction on poles outside the approximation interval.
 
 ## Application

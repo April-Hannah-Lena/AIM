@@ -9,12 +9,14 @@
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^n$, $n\geq3$, be a bounded connected smooth domain, and let $\Gamma$ be any nonempty relatively open subset of $\partial\Omega$. For a positive $\gamma\in C^\infty(\overline\Omega)$, impose smooth boundary voltages supported in $\Gamma$ and measure the flux on $\Gamma$:
+
 $$
 \Lambda^\Gamma_\gamma f
 =\gamma\partial_\nu u_f|_\Gamma,\quad
 \nabla\cdot(\gamma\nabla u_f)=0,\quad
 u_f|_{\partial\Omega}=f\in C_c^\infty(\Gamma).
 $$
+
 Is $\Lambda^\Gamma_{\gamma_1}=\Lambda^\Gamma_{\gamma_2}$ sufficient to conclude $\gamma_1=\gamma_2$ throughout $\Omega$? No condition is imposed on the shape of the inaccessible boundary, and the conductivities need not be known near it.
 
 ## Application

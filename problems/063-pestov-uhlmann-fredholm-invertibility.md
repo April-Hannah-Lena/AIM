@@ -9,9 +9,11 @@
 ## Problem statement
 
 Let $(M,g)$ be a smooth compact oriented simple Riemannian surface: its boundary is strictly convex and any two points are joined by a unique geodesic depending smoothly on its endpoints. On its unit tangent bundle $SM$, let $X$ generate geodesic motion, $V$ generate rotation in each unit circle, and $X_\perp=[X,V]$. For a smooth function $f$ on $M$, solve $Xu^f=-f$ with zero values at the incoming boundary of $SM$. Put
+
 $$
 Wf(x)=\frac1{2\pi}\int_{S_xM}X_\perp u^f(x,v)\,dS_x(v).
 $$
+
 The smoothing operator $W$ extends to $L^2(M;\mathbb C)$. Is $\mathrm{Id}+W^2$ invertible on that space for every such surface? Equivalently, does $\ker(\mathrm{Id}+W^2)=\{0\}$ always hold?
 
 ## Application

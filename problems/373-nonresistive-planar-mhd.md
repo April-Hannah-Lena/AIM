@@ -9,7 +9,11 @@
 ## Problem statement
 
 For every divergence-free $u_0,b_0\in\bigcap_{k\ge0}H^k(\mathbb R^2;\mathbb R^2)$, does
-$$\partial_tu+u\cdot\nabla u-\Delta u+\nabla P=b\cdot\nabla b,\qquad\partial_tb+u\cdot\nabla b=b\cdot\nabla u,\qquad\nabla\cdot u=\nabla\cdot b=0,$$
+
+$$
+\partial_tu+u\cdot\nabla u-\Delta u+\nabla P=b\cdot\nabla b,\qquad\partial_tb+u\cdot\nabla b=b\cdot\nabla u,\qquad\nabla\cdot u=\nabla\cdot b=0,
+$$
+
 with $(u,b)(0)=(u_0,b_0)$ have a unique solution $(u,b)\in C([0,\infty);H^k\times H^k)$ for every integer $k\ge0$? The magnetic field has no diffusion or damping. No smallness, symmetry or imposed constant background field is allowed.
 
 ## Application

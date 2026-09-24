@@ -9,7 +9,11 @@
 ## Problem statement
 
 Does there exist $n\in\{4,5\}$, a non-affine real polynomial $u$ on $\mathbb R^n$, and a positive even integrand $\Phi\in C^{2,1}(S^n)$ whose positively one-homogeneous extension to $\mathbb R^{n+1}\setminus\{0\}$ has uniformly convex level sets, such that
-$$\operatorname{div}\big(D F(\nabla u)\big)=0\quad\text{on }\mathbb R^n,\qquad F(p)=\Phi((-p,1))?$$
+
+$$
+\mathop{\mathrm{div}}\nolimits\big(D F(\nabla u)\big)=0\quad\text{on }\mathbb R^n,\qquad F(p)=\Phi((-p,1))?
+$$
+
 Here uniform convexity means that $D^2\Phi(\nu)$ restricted to $\nu^\perp$ is positive definite with a positive lower bound uniform over $\nu\in S^n$.
 
 ## Application

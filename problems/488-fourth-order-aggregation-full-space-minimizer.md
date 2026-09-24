@@ -9,14 +9,18 @@
 ## Problem statement
 
 For every $d\ge2$, $\chi>0$ and $1<m<2+2/d$, define
+
 $$
 \mathcal E_m(\rho)=\frac12\int_{\mathbb R^d}|\nabla\rho|^2\,dx
 -\frac{\chi}{m-1}\int_{\mathbb R^d}\rho^m\,dx
 $$
+
 on
+
 $$
 \mathcal A=\{\rho\in H^1(\mathbb R^d):\rho\ge0,\ \int\rho=1,\ \int|x|^2\rho(x)\,dx<\infty\}.
 $$
+
 Is $\inf_{\rho\in\mathcal A}\mathcal E_m(\rho)$ attained in $\mathcal A$? No external confining potential, prescribed support, or symmetry constraint is imposed. Translates of a minimizer are identified when discussing the lack of compactness, but the problem asks only for existence, not uniqueness or a formula.
 
 ## Application

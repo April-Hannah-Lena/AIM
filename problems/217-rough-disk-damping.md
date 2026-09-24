@@ -9,17 +9,21 @@
 ## Problem statement
 
 On the flat torus $\mathbb T^2=\mathbb R^2/(2\pi\mathbb Z)^2$, let $D=\{(x,y):x^2+y^2<1\}$ in the fundamental square $[-\pi,\pi)^2$, and let $W=\mathbf1_D$. For real $\lambda\ne0$, set
+
 $$
 P_\lambda=-\Delta+i\lambda W-\lambda^2,
 \qquad D(P_\lambda)=H^2(\mathbb T^2).
 $$
+
 Is the sharp high-frequency resolvent growth $|\lambda|^{2/5}$? Precisely, establish or refute the conjunction
+
 $$
 \exists C,\lambda_0>0\ \ \forall |\lambda|\ge\lambda_0:
 \quad\|P_\lambda^{-1}\|_{L^2\to L^2}\le C|\lambda|^{2/5},
 \qquad
 \limsup_{\lambda\to+\infty}\lambda^{-2/5}\|P_\lambda^{-1}\|_{L^2\to L^2}>0.
 $$
+
 The inverse is for the periodic problem; the circle is an interface in the damping coefficient, not a boundary condition.
 
 ## Application

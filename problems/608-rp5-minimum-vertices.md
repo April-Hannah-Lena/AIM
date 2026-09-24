@@ -9,9 +9,17 @@
 ## Problem statement
 
 A triangulation of $\mathbb{RP}^5$ means a finite simplicial complex whose geometric realization is homeomorphic to real projective $5$-space. Let
-$$\mu_5=\min\{f_0(K): |K|\cong\mathbb{RP}^5\},$$
+
+$$
+\mu_5=\min\{f_0(K): |K|\cong\mathbb{RP}^5\},
+$$
+
 where $f_0(K)$ is the number of vertices. Prove or disprove that
-$$\mu_5=24.$$
+
+$$
+\mu_5=24.
+$$
+
 The minimum is taken over all simplicial triangulations, without a symmetry or polytopal-realizability requirement.
 
 ## Application

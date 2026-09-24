@@ -11,11 +11,18 @@
 Let $n\ge2$ and assign nonnegative weights $w_B$ to the nonempty subsets $B\subseteq[n]$. Assume connectivity of the graph joining vertices that share a positive-weight subset. Let $U_B\le U(n)$ consist of matrices acting as the identity outside the coordinate subspace indexed by $B$, with normalized Haar measure $m_B$.
 
 For each nontrivial irreducible unitary representation $\rho$ of $U(n)$, define the positive semidefinite matrix
-$$A_\rho=\sum_Bw_B\left(I-\int_{U_B}\rho(V)\,dm_B(V)\right).$$
+
+$$
+A_\rho=\sum_Bw_B\left(I-\int_{U_B}\rho(V)\,dm_B(V)\right).
+$$
+
 Set $\gamma=\inf_{\rho\ne\mathbf1}\lambda_{\min}(A_\rho)$. This is the spectral gap of the process that, at rate $w_B$, multiplies its current unitary matrix by an independent Haar element of $U_B$.
 
 Write $\rho_1,\rho_2$ for the irreducible representations with highest weights $(1,0,\ldots,0,-1)$ and $(2,0,\ldots,0,-2)$, respectively; for $n=2$ the weights are $(1,-1)$ and $(2,-2)$. Prove or disprove
-$$\gamma=\min\{\lambda_{\min}(A_{\rho_1}),\lambda_{\min}(A_{\rho_2})\}.$$
+
+$$
+\gamma=\min\{\lambda_{\min}(A_{\rho_1}),\lambda_{\min}(A_{\rho_2})\}.
+$$
 
 ## Application
 

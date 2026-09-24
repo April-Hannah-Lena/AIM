@@ -9,18 +9,22 @@
 ## Problem statement
 
 Fix $L>0$. For viscosity $\varepsilon>0$, set $U^\varepsilon(x)=-\tanh(x/(2\varepsilon))$ and consider
+
 $$
 \partial_t u-\varepsilon\partial_x^2u+\partial_x(U^\varepsilon u)=0
 \quad(-L<x<L),\qquad
 u(t,-L)=h(t),\quad u(t,L)=0,\quad u(0)=u_0.
 $$
+
 Define
+
 $$
 C(T,\varepsilon)=\sup_{\|u_0\|_{L^2(-L,L)}=1}
  \inf\{\|h\|_{L^2(0,T)}:u(T)=0\},
 \quad
 T_{\rm unif}=\inf\{T>0:\limsup_{\varepsilon\downarrow0}C(T,\varepsilon)<\infty\}.
 $$
+
 Determine the exact dimensionless constant $T_{\rm unif}/L$, closing the known interval between $4\sqrt2-2$ and $4\sqrt3$.
 
 ## Application

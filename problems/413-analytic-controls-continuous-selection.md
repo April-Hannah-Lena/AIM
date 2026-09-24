@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $f_0,f_1:\mathbb R^n\to\mathbb R^n$ be real analytic with $f_0(0)=0$, and consider the scalar-input system
-$$\dot y=f_0(y)+u(t)f_1(y),\qquad y(0)=y_0.$$
+
+$$
+\dot y=f_0(y)+u(t)f_1(y),\qquad y(0)=y_0.
+$$
+
 Assume that for every $T>0$ some $\delta>0$ has the following property: every $|y_0|<\delta$ admits $u\in L^1(0,T)$ with $\|u\|_1\le T$ whose solution exists on $[0,T]$ and satisfies $y(T)=0$. Must it follow that for every $T>0$ there are $\delta_T>0$ and a continuous map
-$$U_T:B_{\delta_T}(0)\longrightarrow L^1(0,T),\qquad U_T(0)=0,$$
+
+$$
+U_T:B_{\delta_T}(0)\longrightarrow L^1(0,T),\qquad U_T(0)=0,
+$$
+
 such that the trajectory driven by $U_T(y_0)$ exists on $[0,T]$ and ends at zero for every $y_0\in B_{\delta_T}(0)$? Continuity refers to the norm topology of $L^1$.
 
 ## Application

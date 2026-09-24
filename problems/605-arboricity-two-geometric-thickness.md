@@ -11,7 +11,11 @@
 Let $G$ be a finite simple graph whose edge set can be partitioned into two forests, equivalently a graph of arboricity at most $2$. Define its geometric thickness $\bar\theta(G)$ to be the smallest number of edge colors in a straight-line drawing with no same-color crossings. All colors share the same positions of the vertices; vertices are distinct and no edge passes through a nonincident vertex.
 
 Does there exist an absolute constant $C$ such that
-$$\bar\theta(G)\le C$$
+
+$$
+\bar\theta(G)\le C
+$$
+
 for every such graph $G$?
 
 ## Application

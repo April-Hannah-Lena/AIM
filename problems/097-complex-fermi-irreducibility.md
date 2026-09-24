@@ -10,7 +10,9 @@
 
 Let $d\ge2$ and $V\in C^\infty(\mathbb R^d;\mathbb R)$ be $\mathbb Z^d$-periodic. On the unit torus set $H(k)=(-i\nabla+k)^2+V$, with domain $H^2(\mathbb T^d)$, for $k\in\mathbb C^d$. For real $E$ define
 
-$$F_E=\{k\in\mathbb C^d:E\text{ is an eigenvalue of }H(k)\}.$$
+$$
+F_E=\{k\in\mathbb C^d:E\text{ is an eigenvalue of }H(k)\}.
+$$
 
 Prove or disprove that, for each $V$, there is a discrete set $S_V\subset\mathbb R$ such that $F_E/(2\pi\mathbb Z^d)$ is an irreducible complex analytic set whenever $E\notin S_V$. Here irreducible means it cannot be written as the union of two proper closed complex analytic subsets.
 

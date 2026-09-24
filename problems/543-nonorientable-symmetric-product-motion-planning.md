@@ -9,14 +9,22 @@
 ## Problem statement
 
 Let $N_g=\#^g\mathbb{RP}^2$ be the closed non-orientable surface of genus $g\ge2$. For an integer $n\ge2$, let
-$$X_{n,g}=\operatorname{SP}^n(N_g)=N_g^n/\mathfrak S_n,$$
+
+$$
+X_{n,g}=\mathop{\mathrm{SP}}\nolimits^n(N_g)=N_g^n/\mathfrak S_n,
+$$
+
 where the symmetric group permutes coordinates; coincident points are allowed. Give this space the quotient topology.
 
-Use normalized topological complexity: $\operatorname{TC}(X)$ is the least integer $r$ such that $X\times X$ has an open cover $U_0,\ldots,U_r$ with continuous maps $s_i:U_i\to C([0,1],X)$ satisfying
-$$s_i(x,y)(0)=x,\qquad s_i(x,y)(1)=y.$$
+Use normalized topological complexity: $\mathop{\mathrm{TC}}\nolimits(X)$ is the least integer $r$ such that $X\times X$ has an open cover $U_0,\ldots,U_r$ with continuous maps $s_i:U_i\to C([0,1],X)$ satisfying
+
+$$
+s_i(x,y)(0)=x,\qquad s_i(x,y)(1)=y.
+$$
+
 The path space has the compact-open topology.
 
-Determine $\operatorname{TC}(X_{n,g})$ for all $n,g\ge2$. In particular, close the remaining gap between the known lower and upper bounds when $n$ is not a power of two.
+Determine $\mathop{\mathrm{TC}}\nolimits(X_{n,g})$ for all $n,g\ge2$. In particular, close the remaining gap between the known lower and upper bounds when $n$ is not a power of two.
 
 ## Application
 
@@ -30,13 +38,21 @@ The space describes unordered collections of points on a non-orientable surface,
 ## Status review
 
 **Known cases:** Write $2^e\le n<2^{e+1}$. The 2026 work [2] proves
-$$L(n,g)\le\operatorname{TC}(X_{n,g})\le4n-1,$$
+
+$$
+L(n,g)\le\mathop{\mathrm{TC}}\nolimits(X_{n,g})\le4n-1,
+$$
+
 where
-$$L(n,g)=\begin{cases}
+
+$$
+L(n,g)=\begin{cases}
 2^{e+2}+g-2,&g\le2n-2^{e+1}+1,\\
 2^{e+1}+2n-1,&g\ge2n-2^{e+1}+1.
-\end{cases}$$
-The two expressions agree at the boundary. Consequently $\operatorname{TC}(X_{2^e,g})=2^{e+2}-1$ for $e\ge1$.
+\end{cases}
+$$
+
+The two expressions agree at the boundary. Consequently $\mathop{\mathrm{TC}}\nolimits(X_{2^e,g})=2^{e+2}-1$ for $e\ge1$.
 
 **Remaining target:** Exact values for the other symmetric powers. The lower bound computes a mod-2 zero-divisor cup length; it is not an exact computation of topological complexity in all cases. Higher sequential-complexity results in [2] also do not settle this ordinary two-endpoint invariant.
 

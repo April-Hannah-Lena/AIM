@@ -9,11 +9,23 @@
 ## Problem statement
 
 On $\mathbb R^3$, let $\nu>0$ and let $b_1,\ldots,b_K\in C_c^\infty(\mathbb R^3;\mathbb R^3)$ be divergence-free, with
-$$\nu I-\tfrac12\sum_k b_k(x)\otimes b_k(x)\ge\delta I\quad(\delta>0).$$
+
+$$
+\nu I-\tfrac12\sum_k b_k(x)\otimes b_k(x)\ge\delta I\quad(\delta>0).
+$$
+
 Write $\mathbb P$ for the Helmholtz projection onto divergence-free fields. Is the Itô equation
-$$du=[\nu\Delta u-\mathbb P\nabla\cdot(u\otimes u)]dt+\sum_k\mathbb P[(b_k\cdot\nabla)u]dW^k_t$$
+
+$$
+du=[\nu\Delta u-\mathbb P\nabla\cdot(u\otimes u)]dt+\sum_k\mathbb P[(b_k\cdot\nabla)u]dW^k_t
+$$
+
 locally well posed for every deterministic divergence-free $u_0\in B^{-1/2}_{6,4}(\mathbb R^3)$? More precisely, does it admit a positive stopping time $\tau$ and an adapted mild solution with
-$$u\in C([0,\tau];B^{-1/2}_{6,4})\cap L^4(0,\tau;L^6)\quad\hbox{almost surely},$$
+
+$$
+u\in C([0,\tau];B^{-1/2}_{6,4})\cap L^4(0,\tau;L^6)\quad\hbox{almost surely},
+$$
+
 pathwise uniqueness in this class, and continuous dependence in probability in these norms after stopping on common local intervals? The mild equation uses the heat semigroup for both the drift and stochastic convolution. The initial Besov space is the usual inhomogeneous Littlewood–Paley space. The assertion must cover all such spatially varying transport fields, with no extra smallness assumption.
 
 ## Application

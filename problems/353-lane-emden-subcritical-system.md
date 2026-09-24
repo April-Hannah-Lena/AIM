@@ -9,9 +9,17 @@
 ## Problem statement
 
 For every integer $n\ge5$ and exponents $p,q>0$ satisfying
-$$\frac1{p+1}+\frac1{q+1}>1-\frac2n,$$
+
+$$
+\frac1{p+1}+\frac1{q+1}>1-\frac2n,
+$$
+
 is it impossible to find strictly positive functions $u,v\in C^2(\mathbb R^n)$ satisfying
-$$-\Delta u=v^p,\qquad-\Delta v=u^q\quad\hbox{on }\mathbb R^n?$$
+
+$$
+-\Delta u=v^p,\qquad-\Delta v=u^q\quad\hbox{on }\mathbb R^n?
+$$
+
 No radial symmetry, stability, decay, integrability or finite-energy assumption is imposed. This is the remaining higher-dimensional part of the Lane–Emden conjecture.
 
 ## Application

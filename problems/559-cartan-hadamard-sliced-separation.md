@@ -9,16 +9,28 @@
 ## Problem statement
 
 Let $(M,g)$ be a finite-dimensional, complete, simply connected Riemannian manifold with nonpositive sectional curvature. Fix $o\in M$, let $S_o$ be the unit sphere in $T_oM$, and let $\lambda_o$ be its uniform probability measure. For $v\in S_o$, set $\gamma_v(t)=\exp_o(tv)$ and define two real-valued projections:
-$$G_v(x)=\mathop{\rm argmin}_{t\in\mathbb R}d(x,\gamma_v(t))^2,
-\qquad H_v(x)=\lim_{t\to\infty}\bigl(d(x,\gamma_v(t))-t\bigr).$$
+
+$$
+G_v(x)=\mathop{\rm argmin}_{t\in\mathbb R}d(x,\gamma_v(t))^2,
+\qquad H_v(x)=\lim_{t\to\infty}\bigl(d(x,\gamma_v(t))-t\bigr).
+$$
+
 The first is the signed coordinate of the nearest point on a geodesic; the second is its Busemann function. Both are well-defined and 1-Lipschitz in $x$.
 
 For $1\le p<\infty$, let $\mathcal P_p(M)$ be the Borel probability measures with finite $p$th distance moment. For either choice $F=G$ or $F=H$, define
-$$D_{F,p}(\mu,\nu)^p=\int_{S_o}W_p^p\bigl((F_v)_\#\mu,(F_v)_\#\nu\bigr)\,d\lambda_o(v),$$
+
+$$
+D_{F,p}(\mu,\nu)^p=\int_{S_o}W_p^p\bigl((F_v)_\#\mu,(F_v)_\#\nu\bigr)\,d\lambda_o(v),
+$$
+
 where $W_p$ on the right is the usual Wasserstein distance on $\mathbb R$ and $\#$ denotes pushforward.
 
 Prove or disprove, for each of these two projection families, that
-$$D_{F,p}(\mu,\nu)=0\quad\Longrightarrow\quad\mu=\nu$$
+
+$$
+D_{F,p}(\mu,\nu)=0\quad\Longrightarrow\quad\mu=\nu
+$$
+
 for every such manifold, base point, exponent and pair $\mu,\nu\in\mathcal P_p(M)$. Equivalently, determine whether equality of the projected probability laws for $\lambda_o$-almost every direction determines the original measure. This is the distance-property conjecture in §5.1 of [1]. The two variants form one problem here; a result for one variant alone does not settle the other.
 
 The integration uses the entire tangent unit sphere. Restricting the directions, fixing relative direction weights on a product manifold, or replacing the probability measures by a particular smooth density class changes the question.

@@ -9,15 +9,19 @@
 ## Problem statement
 
 For $f\in C_c(\mathbb R^d)$, $d\geq3$, define
+
 $$
 Rf(x,r)=\int_{S^{d-1}}f(x+r\omega)\,d\omega,\qquad r>0.
 $$
+
 A set $S\subset\mathbb R^d$ is a noninjectivity set if some nonzero $f\in C_c(\mathbb R^d)$ satisfies $Rf(x,r)=0$ for all $x\in S$ and $r>0$.
 
 Prove or disprove that every noninjectivity set is contained in
+
 $$
 (a+\{x:h(x)=0\})\cup V,
 $$
+
 where $a\in\mathbb R^d$, $h$ is a nonzero homogeneous harmonic polynomial of positive degree, and $V$ is a real algebraic set of dimension at most $d-2$. Harmonic means $\Delta h=0$. This is the necessity direction of the higher-dimensional Agranovsky–Quinto classification conjecture.
 
 ## Application

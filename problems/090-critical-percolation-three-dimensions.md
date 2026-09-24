@@ -9,9 +9,11 @@
 ## Problem statement
 
 Independently retain each nearest-neighbor edge of $\mathbb Z^3$ with probability $p$. Let $\theta(p)=\mathbb P_p(0\leftrightarrow\infty)$ and $p_c=\inf\{p\in[0,1]:\theta(p)>0\}$, where $0\leftrightarrow\infty$ means that the open connected component containing the origin has infinitely many vertices. Prove or disprove
+
 $$
 \theta(p_c)=0.
 $$
+
 The graph is the ordinary cubic lattice with only edges of Euclidean length one. This excludes long-range, hierarchical, slab and dependent percolation models.
 
 ## Application

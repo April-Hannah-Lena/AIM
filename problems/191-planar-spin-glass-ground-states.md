@@ -9,8 +9,12 @@
 ## Problem statement
 
 For each nearest-neighbor edge $e$ of $\mathbb Z^2$, sample $J_e$ independently from the standard Gaussian distribution. A spin configuration $\sigma\in\{-1,1\}^{\mathbb Z^2}$ is a ground state if flipping any finite set of spins cannot decrease its energy; explicitly,
-$$\sum_{\{x,y\}\in\partial_E A}J_{\{x,y\}}\sigma_x\sigma_y\ge0
-\quad\text{for every finite }A\subset\mathbb Z^2,$$
+
+$$
+\sum_{\{x,y\}\in\partial_E A}J_{\{x,y\}}\sigma_x\sigma_y\ge0
+\quad\text{for every finite }A\subset\mathbb Z^2,
+$$
+
 where $\partial_E A$ contains edges with exactly one endpoint in $A$. Is it almost surely true that the set of all ground states is exactly $\{\sigma,-\sigma\}$ for some $\sigma$? The assertion concerns all infinite-volume ground states, without restricting the boundary conditions used to construct them.
 
 ## Application

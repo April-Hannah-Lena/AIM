@@ -9,11 +9,19 @@
 ## Problem statement
 
 On $\mathbb T^3=(\mathbb R/2\pi\mathbb Z)^3$, fix
-$$u=(\sin z+\cos y,\ \sin x+\cos z,\ \sin y+\cos x).$$
-For magnetic diffusivity $\eta>0$, let $L_\eta B=\eta\Delta B+\nabla\times(u\times B)$ on complex, mean-zero, divergence-free $L^2$ vector fields, with domain $H^2$ in that space. Write $s(\eta)=\sup\{\operatorname{Re}\lambda:\lambda\in\sigma(L_\eta)\}$.
+
+$$
+u=(\sin z+\cos y,\ \sin x+\cos z,\ \sin y+\cos x).
+$$
+
+For magnetic diffusivity $\eta>0$, let $L_\eta B=\eta\Delta B+\nabla\times(u\times B)$ on complex, mean-zero, divergence-free $L^2$ vector fields, with domain $H^2$ in that space. Write $s(\eta)=\sup\{\mathop{\mathrm{Re}}\nolimits\lambda:\lambda\in\sigma(L_\eta)\}$.
 
 Prove or disprove that this fixed velocity field is a fast kinematic dynamo in the spectral sense:
-$$\liminf_{\eta\downarrow0}s(\eta)>0.$$
+
+$$
+\liminf_{\eta\downarrow0}s(\eta)>0.
+$$
+
 The velocity and its three coefficients remain fixed while diffusivity tends to zero.
 
 ## Application

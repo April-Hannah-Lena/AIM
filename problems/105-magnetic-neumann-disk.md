@@ -12,7 +12,9 @@ For $B\ge0$ put $A_B(x)=\frac B2(-x_2,x_1)$ and $q_{\Omega,B}[u]=\int_\Omega|(-i
 
 For a bounded simply connected $C^\infty$ domain $\Omega\subset\mathbb R^2$, define
 
-$$\mu_1(\Omega,B)=\inf_{0\ne u\in H^1(\Omega;\mathbb C)}\frac{q_{\Omega,B}[u]}{\|u\|_2^2}.$$
+$$
+\mu_1(\Omega,B)=\inf_{0\ne u\in H^1(\Omega;\mathbb C)}\frac{q_{\Omega,B}[u]}{\|u\|_2^2}.
+$$
 
 If $D$ is a disk with $|D|=|\Omega|$, prove or disprove that $\mu_1(\Omega,B)\le\mu_1(D,B)$ for every $B>0$.
 

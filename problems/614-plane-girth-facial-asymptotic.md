@@ -13,7 +13,10 @@ For an integer $\ell\ge3$, consider finite simple graphs with fixed crossing-fre
 A facial cycle is a simple cycle that constitutes the entire boundary of a face. Let $F(\ell)$ be the maximum length of such a cycle over all the embeddings above; assign value zero to an embedding with no facial cycle.
 
 Prove or disprove that
-$$F(\ell)=3\ell+o(\ell)\qquad(\ell\to\infty).$$
+
+$$
+F(\ell)=3\ell+o(\ell)\qquad(\ell\to\infty).
+$$
 
 ## Application
 

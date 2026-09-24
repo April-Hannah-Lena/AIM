@@ -14,6 +14,8 @@ $$
 -\Delta u+(u\cdot\nabla)u+\nabla p=0,\qquad \nabla\cdot u=0,
 $$
 
+
+
 $$
 \int_{\mathbb R^3}|\nabla u|^2\,dx<\infty,\qquad \lim_{|x|\to\infty}u(x)=0.
 $$

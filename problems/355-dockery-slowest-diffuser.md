@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^n$ be a bounded connected smooth domain and let $m\in C^\alpha(\overline\Omega)$, $0<\alpha<1$, be nonnegative and nonconstant. For arbitrary $N\ge3$ and $0<d_1<\cdots<d_N$, consider
-$$\partial_tu_i=d_i\Delta u_i+u_i\left(m(x)-\sum_{j=1}^Nu_j\right),\qquad\partial_\nu u_i=0\quad\text{on }\partial\Omega.$$
+
+$$
+\partial_tu_i=d_i\Delta u_i+u_i\left(m(x)-\sum_{j=1}^Nu_j\right),\qquad\partial_\nu u_i=0\quad\text{on }\partial\Omega.
+$$
+
 Assume each initial density is continuous, nonnegative and not identically zero. Must
-$$u_1(t,\cdot)\to\theta_{d_1},\qquad u_i(t,\cdot)\to0\ (i\ge2)$$
+
+$$
+u_1(t,\cdot)\to\theta_{d_1},\qquad u_i(t,\cdot)\to0\ (i\ge2)
+$$
+
 hold uniformly on $\overline\Omega$? Here $\theta_d$ is the unique positive solution of $d\Delta\theta+\theta(m-\theta)=0$ with Neumann boundary condition. The environment is fixed in time; all species have identical local growth and competition parameters.
 
 ## Application

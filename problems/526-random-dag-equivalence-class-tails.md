@@ -9,11 +9,19 @@
 ## Problem statement
 
 Let $\mathcal D_n$ be the finite set of simple directed acyclic graphs on the labeled vertex set $[n]=\{1,\ldots,n\}$, and sample $G_n$ uniformly from $\mathcal D_n$. Its skeleton is the undirected graph obtained by forgetting edge orientations. A $v$-structure is a triple $i\to k\leftarrow j$ with $i,j$ nonadjacent. Define
-$$M(G)=\{H\in\mathcal D_n:H\text{ has the same skeleton and }v\text{-structures as }G\}.$$
+
+$$
+M(G)=\{H\in\mathcal D_n:H\text{ has the same skeleton and }v\text{-structures as }G\}.
+$$
+
 This is the Markov equivalence class of $G$: its members encode the same conditional independence relations.
 
 For every $\varepsilon\in(0,1)$, do constants $C_\varepsilon<\infty$ and $t_\varepsilon>1$ exist such that, simultaneously for every $n\ge1$ and every real $t\ge t_\varepsilon$,
-$$\Pr\bigl(|M(G_n)|>t\bigr)\le C_\varepsilon\exp\!\left[-(\log t)^{2-\varepsilon}\right]?$$
+
+$$
+\Pr\bigl(|M(G_n)|>t\bigr)\le C_\varepsilon\exp\!\left[-(\log t)^{2-\varepsilon}\right]?
+$$
+
 Here $\log$ is the natural logarithm. Prove this bound or refute it for some fixed $\varepsilon$. The distribution is uniform over labeled DAGs; uniform sampling of equivalence classes, or choosing an order and then random forward edges, gives different distributions.
 
 ## Application

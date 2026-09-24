@@ -9,13 +9,25 @@
 ## Problem statement
 
 Fix $1\le p<\infty$ and positive sequences $\alpha=(\alpha_k)$ and $\gamma=(\gamma_k)$. Equip
-$$X=\left\{x\in\mathbb R^{\mathbb N}:\sum_{k=1}^\infty|x_k/\alpha_k|^p<\infty\right\}$$
+
+$$
+X=\left\{x\in\mathbb R^{\mathbb N}:\sum_{k=1}^\infty|x_k/\alpha_k|^p<\infty\right\}
+$$
+
 with norm $\|x\|_X=(\sum_k|x_k/\alpha_k|^p)^{1/p}$. Let $\rho$ be a continuous, even probability density on $\mathbb R$, strictly decreasing on $[0,\infty)$. Fix $m\in X$. For independent random variables $Z_k$ with density $\rho$, let $\mu$ be the law of $(m_k+\gamma_k Z_k)_{k\ge1}$, and assume $\mu(X)=1$.
 
 For $h\in X$, define
-$$Q(h)=\sum_{k=1}^\infty\log\frac{\rho(0)}{\rho((h_k-m_k)/\gamma_k)}\in[0,\infty].$$
+
+$$
+Q(h)=\sum_{k=1}^\infty\log\frac{\rho(0)}{\rho((h_k-m_k)/\gamma_k)}\in[0,\infty].
+$$
+
 The assumptions imply $\rho(t)>0$ for every finite $t$. With $B_r(h)=\{x\in X:\|x-h\|_X<r\}$, prove or disprove that
-$$\lim_{r\downarrow0}\frac{\mu(B_r(h))}{\mu(B_r(m))}=e^{-Q(h)}\qquad\text{for every }h\in X,$$
+
+$$
+\lim_{r\downarrow0}\frac{\mu(B_r(h))}{\mu(B_r(m))}=e^{-Q(h)}\qquad\text{for every }h\in X,
+$$
+
 where $e^{-\infty}=0$.
 
 This is Conjecture 4.12 of [1]. The balls use the stated weighted $\ell^p$ norm. No differentiability, log-concavity or finite Fisher information assumption may be added to $\rho$.

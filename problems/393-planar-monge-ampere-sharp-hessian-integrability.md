@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $0<\lambda<1$, let $\Omega\subset\mathbb R^2$ be bounded and convex, and let $u$ be a convex Alexandrov solution with
-$$\lambda\le\det D^2u\le\lambda^{-1}\quad\text{in }\Omega.$$
+
+$$
+\lambda\le\det D^2u\le\lambda^{-1}\quad\text{in }\Omega.
+$$
+
 Here the inequalities mean $\lambda|E|\le|\partial u(E)|\le\lambda^{-1}|E|$ for every Borel $E\subset\Omega$. Is the distributional Hessian represented by a matrix field satisfying, for every $\Omega'\Subset\Omega$,
-$$\sup_{s>0}s^{p_\lambda}\bigl|\{x\in\Omega':|D^2u(x)|>s\}\bigr|<\infty,\qquad p_\lambda=\frac{1+\lambda^2}{1-\lambda^2}?$$
+
+$$
+\sup_{s>0}s^{p_\lambda}\bigl|\{x\in\Omega':|D^2u(x)|>s\}\bigr|<\infty,\qquad p_\lambda=\frac{1+\lambda^2}{1-\lambda^2}?
+$$
+
 This is the conjectured endpoint weak-$L^{p_\lambda}$ estimate, not merely integrability with some unspecified exponent larger than one.
 
 ## Application

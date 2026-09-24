@@ -9,11 +9,23 @@
 ## Problem statement
 
 Fix $n\ge2$, $0<s<1$ and $0<\lambda\le\Lambda$. For an arbitrary index set $A$, let
-$$L_a u(x)=\operatorname{PV}\int_{\mathbb R^n}[u(x)-u(x+y)]\frac{k_a(y/|y|)}{|y|^{n+2s}}\,dy,$$
+
+$$
+L_a u(x)=\mathop{\mathrm{PV}}\nolimits\int_{\mathbb R^n}[u(x)-u(x+y)]\frac{k_a(y/|y|)}{|y|^{n+2s}}\,dy,
+$$
+
 where the angular functions are even, $\lambda\le k_a\le\Lambda$, and $\sup_a\|k_a\|_{C^j(S^{n-1})}\le M_j$ for every integer $j\ge1$. Does there exist $\alpha\in(0,\min\{s,1-s\})$ such that every bounded continuous viscosity solution of
-$$\inf_{a\in A}(-L_a u)=0\quad\hbox{in }B_1$$
+
+$$
+\inf_{a\in A}(-L_a u)=0\quad\hbox{in }B_1
+$$
+
 satisfies $u\in C^{1+s+\alpha}(B_{1/2})$ and
-$$\|u\|_{C^{1+s+\alpha}(B_{1/2})}\le C\|u\|_{L^\infty(\mathbb R^n)}?$$
+
+$$
+\|u\|_{C^{1+s+\alpha}(B_{1/2})}\le C\|u\|_{L^\infty(\mathbb R^n)}?
+$$
+
 The exponent and constant may depend on $n,s,\lambda,\Lambda$ and the prescribed angular smoothness bounds, but not on $u$ or the family size. No differentiability of the minimizing index as a function of $x$ is assumed.
 
 ## Application

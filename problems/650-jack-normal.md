@@ -9,11 +9,23 @@
 ## Problem statement
 
 For an integer $n\ge3$ and $\alpha\ge1$, draw a partition $\lambda\vdash n$ with Jack probability
-$$\mathbb P_\alpha(\lambda)=\frac{\alpha^n n!}{\prod_{u\in\lambda}(\alpha a(u)+\ell(u)+1)(\alpha a(u)+\ell(u)+\alpha)},$$
+
+$$
+\mathbb P_\alpha(\lambda)=\frac{\alpha^n n!}{\prod_{u\in\lambda}(\alpha a(u)+\ell(u)+1)(\alpha a(u)+\ell(u)+\alpha)},
+$$
+
 where $a(u)$ and $\ell(u)$ count the boxes to the right of and below $u$ in its Young diagram. Write $\lambda_i$ and $\lambda_i'$ for its row and column lengths, and define
-$$W_{n,\alpha}=\frac{\sum_i\left[\alpha\binom{\lambda_i}{2}-\binom{\lambda_i'}{2}\right]}{\sqrt{\alpha\binom n2}}.$$
+
+$$
+W_{n,\alpha}=\frac{\sum_i\left[\alpha\binom{\lambda_i}{2}-\binom{\lambda_i'}{2}\right]}{\sqrt{\alpha\binom n2}}.
+$$
+
 Does a universal constant $C<\infty$, independent of both $n$ and $\alpha$, satisfy
-$$\sup_{x\in\mathbb R}\left|\mathbb P_\alpha(W_{n,\alpha}\le x)-\Phi(x)\right|\le C\max\left\{n^{-1/2},\frac{\sqrt\alpha}{n}\right\}$$
+
+$$
+\sup_{x\in\mathbb R}\left|\mathbb P_\alpha(W_{n,\alpha}\le x)-\Phi(x)\right|\le C\max\left\{n^{-1/2},\frac{\sqrt\alpha}{n}\right\}
+$$
+
 for all such $n,\alpha$, where $\Phi$ is the standard normal distribution function?
 
 The uniform dependence on $\alpha$ is essential: a bound with a constant depending on a fixed $\alpha$ does not settle the question.

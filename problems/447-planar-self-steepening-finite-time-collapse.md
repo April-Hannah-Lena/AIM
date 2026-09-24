@@ -8,9 +8,17 @@
 ## Problem statement
 
 Does there exist $u_0\in\mathcal S(\mathbb R^2;\mathbb C)$ and $0<T<\infty$ such that the equation
-$$i\partial_tu+\partial_x^2u+\partial_y^2u+|u|^2u+i\partial_y(|u|^2u)=0,\qquad u(0)=u_0,$$
+
+$$
+i\partial_tu+\partial_x^2u+\partial_y^2u+|u|^2u+i\partial_y(|u|^2u)=0,\qquad u(0)=u_0,
+$$
+
 has a classical solution on $[0,T)$, belonging to $C([0,T);H^m(\mathbb R^2))$ for every integer $m\ge3$, with
-$$\limsup_{t\uparrow T}\|u(t)\|_{L^\infty(\mathbb R^2)}=\infty?$$
+
+$$
+\limsup_{t\uparrow T}\|u(t)\|_{L^\infty(\mathbb R^2)}=\infty?
+$$
+
 The derivative coefficient is fixed and nonzero. Thus the question asks for an actual singular solution of the two-dimensional equation, not a dispersionless approximation or a periodic numerical discretization.
 
 ## Application

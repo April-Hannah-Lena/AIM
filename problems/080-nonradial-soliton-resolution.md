@@ -11,6 +11,7 @@
 Let $u$ be a global real strong solution of $u_{tt}-\Delta u-u^5=0$ on $\mathbb R^{1+3}$, meaning $(u,u_t)\in C([0,\infty);\dot H^1\times L^2)$, $u\in L^8([0,T]\times\mathbb R^3)$ for every finite $T>0$, and the equation holds in the standard Duhamel sense. Assume
 $\sup_{t\ge0}\|(u,u_t)(t)\|_{\dot H^1\times L^2}<\infty$.
 Must there exist a free wave $v_{tt}-\Delta v=0$, an integer $J\ge0$, nonzero stationary solutions $Q_j\in\dot H^1$ of $-\Delta Q_j=Q_j^5$, velocities $|\ell_j|<1$, scales $\lambda_j(t)>0$ and centers $x_j(t)$ such that
+
 $$
 \left\|(u,u_t)(t)-(v,v_t)(t)
 -\sum_{j=1}^J\left(
@@ -18,6 +19,7 @@ $$
 \lambda_j^{-3/2}\partial_sQ_{j,\ell_j}(0,\tfrac{\cdot-x_j}{\lambda_j})
 \right)\right\|_{\dot H^1\times L^2}\longrightarrow0?
 $$
+
 Here $Q_{j,\ell}$ is the Lorentz boost of $Q_j$:
 $Q_{j,\ell}(s,y)=Q_j(y+(\gamma_\ell-1)(y\cdot\ell)\ell/|\ell|^2-\gamma_\ell\ell s)$,
 $\gamma_\ell=(1-|\ell|^2)^{-1/2}$, with $Q_{j,0}=Q_j$.

@@ -9,16 +9,21 @@
 ## Problem statement
 
 Let $d\ge2$, let $\Omega\subset\mathbb R^d$ be any bounded connected $C^\infty$ domain, and let $C\in\mathbb C^{d\times d}$ be a constant matrix satisfying
+
 $$
-\operatorname{Re}\sum_{j,k}C_{jk}\xi_k\overline{\xi_j}\ge\mu|\xi|^2
+\mathop{\mathrm{Re}}\nolimits\sum_{j,k}C_{jk}\xi_k\overline{\xi_j}\ge\mu|\xi|^2
 \quad(\xi\in\mathbb C^d)
 $$
+
 for some $\mu>0$. For $\varphi\in H^{1/2}(\partial\Omega)\cap L^\infty(\partial\Omega)$, let $u_\varphi\in H^1(\Omega)$ have trace $\varphi$ and satisfy
+
 $$
 \int_\Omega C\nabla u_\varphi\cdot\overline{\nabla v}=0
 \quad(v\in H^1_0(\Omega)).
 $$
+
 Does there always exist a finite $K(\Omega,C)$ such that
+
 $$
 \|u_\varphi\|_{L^\infty(\Omega)}\le K(\Omega,C)\|\varphi\|_{L^\infty(\partial\Omega)}
 \quad\text{for every such }\varphi?

@@ -9,13 +9,20 @@
 ## Problem statement
 
 Consider two-dimensional irrotational water of unit rest depth and gravity, with no surface tension. Its surface variables $(\eta,\psi)$ on $\mathbb R$ satisfy
-$$\eta_t=G(\eta)\psi,\qquad \psi_t=-\eta-\frac12\psi_x^2+\frac{(G(\eta)\psi+\eta_x\psi_x)^2}{2(1+\eta_x^2)}.$$
+
+$$
+\eta_t=G(\eta)\psi,\qquad \psi_t=-\eta-\frac12\psi_x^2+\frac{(G(\eta)\psi+\eta_x\psi_x)^2}{2(1+\eta_x^2)}.
+$$
+
 Here $\psi$ is the surface velocity potential, and $G(\eta)\psi=(\phi_y-\eta_x\phi_x)|_{y=\eta}$, where $\Delta\phi=0$ in $-1<y<\eta(x)$, $\phi_y|_{y=-1}=0$, and $\phi|_{y=\eta}=\psi$. Potentials are taken modulo constants.
 
 Let $Q_c=(\eta_c,\psi_c)$ be the classical branch of smooth solitary elevation waves of speed $c>1$ bifurcating from zero at $c=1$; thus $Q_c(x-ct)$ solves this system and $(\eta_c,\psi_c')$ decays at infinity. Define $K$ by the Fourier multiplier $\widehat{Kf}(\xi)=\sqrt{|\xi|\tanh|\xi|}\,\widehat f(\xi)$ and $\|(a,b)\|_{X^s}=\|a\|_{H^s}+\|Kb\|_{H^s}$.
 
 Does there exist $c_*>1$ such that, for every $c\in(1,c_*)$ and $\varepsilon>0$, some $\delta>0$ has the following property? Every smooth initial state with positive depth, finite $\|Q_0-Q_c\|_{X^s}$ for all integers $s\geq0$, and $\|Q_0-Q_c\|_{X^6}<\delta$ generates a global smooth graph solution satisfying
-$$\sup_{t\geq0}\inf_{a\in\mathbb R}\|Q(t)-Q_c(\cdot-a)\|_{X^0}<\varepsilon.$$
+
+$$
+\sup_{t\geq0}\inf_{a\in\mathbb R}\|Q(t)-Q_c(\cdot-a)\|_{X^0}<\varepsilon.
+$$
 
 ## Application
 

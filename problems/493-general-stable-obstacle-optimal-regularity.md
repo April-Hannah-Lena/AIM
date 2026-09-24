@@ -9,13 +9,29 @@
 ## Problem statement
 
 Let $n\ge2$, $0<s<1$, and $0<\lambda\le\Lambda$. Let $a\in L^1(\mathbb S^{n-1})$ be nonnegative and even, with
-$$\int_{\mathbb S^{n-1}}a(\theta)\,d\theta\le\Lambda,\qquad \inf_{e\in\mathbb S^{n-1}}\int_{\mathbb S^{n-1}}|e\cdot\theta|^2a(\theta)\,d\theta\ge\lambda.$$
+
+$$
+\int_{\mathbb S^{n-1}}a(\theta)\,d\theta\le\Lambda,\qquad \inf_{e\in\mathbb S^{n-1}}\int_{\mathbb S^{n-1}}|e\cdot\theta|^2a(\theta)\,d\theta\ge\lambda.
+$$
+
 Set $K(y)=a(y/|y|)|y|^{-n-2s}$ and
-$$\mathcal E_a(w)=\frac14\int_{\mathbb R^n}\int_{\mathbb R^n}|w(x)-w(x+y)|^2K(y)\,dy\,dx.$$
+
+$$
+\mathcal E_a(w)=\frac14\int_{\mathbb R^n}\int_{\mathbb R^n}|w(x)-w(x+y)|^2K(y)\,dy\,dx.
+$$
+
 For any nonnegative $\phi\in C_c^\infty(\mathbb R^n)$, let $u$ be the unique minimizer of $\mathcal E_a$ over
-$$\{w\in L^{2n/(n-2s)}(\mathbb R^n):\mathcal E_a(w)<\infty,\ w\ge\phi\text{ almost everywhere}\}.$$
-This is the finite-energy obstacle solution associated with $Lu=\operatorname{p.v.}\int(u(x)-u(x+y))K(y)\,dy$. Does a constant $C=C(n,s,\lambda,\Lambda)$ always exist such that
-$$\|u\|_{C^{1,s}(\mathbb R^n)}\le C\|\phi\|_{C^3(\mathbb R^n)}?$$
+
+$$
+\{w\in L^{2n/(n-2s)}(\mathbb R^n):\mathcal E_a(w)<\infty,\ w\ge\phi\text{ almost everywhere}\}.
+$$
+
+This is the finite-energy obstacle solution associated with $Lu=\mathop{\mathrm{p.v.}}\nolimits\int(u(x)-u(x+y))K(y)\,dy$. Does a constant $C=C(n,s,\lambda,\Lambda)$ always exist such that
+
+$$
+\|u\|_{C^{1,s}(\mathbb R^n)}\le C\|\phi\|_{C^3(\mathbb R^n)}?
+$$
+
 Here the left side is $\|u\|_\infty+\|\nabla u\|_\infty+\sup_{x\ne y}|\nabla u(x)-\nabla u(y)|/|x-y|^s$. There is no assumption that $a$ belongs to any $L^p$ with $p>1$, or that the kernel is positive in every direction.
 
 ## Application

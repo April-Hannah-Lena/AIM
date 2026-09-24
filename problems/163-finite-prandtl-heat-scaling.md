@@ -11,7 +11,7 @@
 On $\Omega=(\mathbb R/\mathbb Z)\times(0,1)$, take Prandtl number one and consider the two-dimensional Boussinesq system
 
 $$
-\partial_tu+u\cdot\nabla u+\nabla p=\Delta u+\mathrm{Ra}\,T e_2,\quad\operatorname{div}u=0,\quad\partial_tT+u\cdot\nabla T=\Delta T.
+\partial_tu+u\cdot\nabla u+\nabla p=\Delta u+\mathrm{Ra}\,T e_2,\quad\mathop{\mathrm{div}}\nolimits u=0,\quad\partial_tT+u\cdot\nabla T=\Delta T.
 $$
 
 Impose horizontal periodicity, $u=0$ on the walls, $T(x,0)=1$ and $T(x,1)=0$. For each $\mathrm{Ra}>0$, let $\mathcal N(\mathrm{Ra})$ be the supremum, over smooth compatible initial data with $0\le T_0\le1$, of

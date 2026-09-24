@@ -11,10 +11,12 @@
 Let $M$ be a closed connected smooth manifold of dimension $n\geq3$, and let $g_1,g_2$ be smooth metrics with strictly negative sectional curvature. Every nontrivial free homotopy class $[\alpha]$ of closed curves has a unique closed geodesic for each metric. Write its length as $L_{g_j}([\alpha])$.
 
 Prove or disprove the marked length spectrum rigidity conjecture:
+
 $$
 L_{g_1}([\alpha])=L_{g_2}([\alpha])\text{ for every }[\alpha]
 \quad\Longrightarrow\quad g_1=F^*g_2
 $$
+
 for a diffeomorphism $F$ homotopic to the identity. The marking records which topological loop produced each measured length; unlabelled length sets are not the data.
 
 ## Application

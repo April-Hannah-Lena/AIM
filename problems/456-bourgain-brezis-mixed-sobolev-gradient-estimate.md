@@ -8,7 +8,11 @@
 ## Problem statement
 
 For every integer $d\ge2$, is there $C_d<\infty$ such that every real $\psi\in C^\infty(\mathbb T^d)$ with $\int_{\mathbb T^d}\psi=0$ satisfies
-$$\|\psi\|_{H^{1/2}(\mathbb T^d)+W^{1,1}(\mathbb T^d)}\le C_d\|\nabla\psi\|_{H^{-1/2}(\mathbb T^d;\mathbb R^d)+L^1(\mathbb T^d;\mathbb R^d)}?$$
+
+$$
+\|\psi\|_{H^{1/2}(\mathbb T^d)+W^{1,1}(\mathbb T^d)}\le C_d\|\nabla\psi\|_{H^{-1/2}(\mathbb T^d;\mathbb R^d)+L^1(\mathbb T^d;\mathbb R^d)}?
+$$
+
 Here $\mathbb T^d=\mathbb R^d/\mathbb Z^d$ has unit volume, $\|u\|_{H^s}^2=\sum_{k\in\mathbb Z^d}(1+4\pi^2|k|^2)^s|\widehat u(k)|^2$, $W^{1,1}$ has its usual norm, and $\|u\|_{X+Y}=\inf_{u=a+b}(\|a\|_X+\|b\|_Y)$. The vector-valued norms use Euclidean length and the sum of component Fourier energies.
 
 ## Application

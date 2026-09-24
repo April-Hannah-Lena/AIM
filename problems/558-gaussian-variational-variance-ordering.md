@@ -11,15 +11,31 @@
 Let $d\ge2$, let $\mu\in\mathbb R^d$, and let $\Sigma$ be a real symmetric positive-definite, non-diagonal $d\times d$ matrix. Write $p$ for the density of $N(\mu,\Sigma)$ and let $\mathcal Q$ be the family of all Gaussian densities $N(\nu,\Psi)$ with $\nu\in\mathbb R^d$ and positive diagonal covariance $\Psi$.
 
 For $\alpha>1$, define
-$$D_\alpha(p\Vert q)=\frac{1}{\alpha(\alpha-1)}\left(\int_{\mathbb R^d}p(x)^\alpha q(x)^{1-\alpha}\,dx-1\right),$$
+
+$$
+D_\alpha(p\Vert q)=\frac{1}{\alpha(\alpha-1)}\left(\int_{\mathbb R^d}p(x)^\alpha q(x)^{1-\alpha}\,dx-1\right),
+$$
+
 with value $+\infty$ when the integral diverges. Let $q_\alpha=N(\mu,\Psi(\alpha))$ minimize this divergence over $\mathcal Q$. The finite-divergence domain is
-$$\alpha\Sigma^{-1}+(1-\alpha)\Psi^{-1}\succ0.$$
+
+$$
+\alpha\Sigma^{-1}+(1-\alpha)\Psi^{-1}\succ0.
+$$
+
 The minimizing mean equals $\mu$. The covariance is well-defined and unique: in diagonal precision coordinates $T=\Psi^{-1}$, its optimization is equivalent to minimizing
-$$-\log\det\bigl(\alpha\Sigma^{-1}-(\alpha-1)T\bigr)-(\alpha-1)\log\det T$$
+
+$$
+-\log\det\bigl(\alpha\Sigma^{-1}-(\alpha-1)T\bigr)-(\alpha-1)\log\det T
+$$
+
 on the convex domain $T\succ0$, $\alpha\Sigma^{-1}-(\alpha-1)T\succ0$; this objective is strictly convex and diverges at the boundary.
 
 Prove or disprove that, for every such target and every $1<\alpha_1<\alpha_2$,
-$$\Psi_{ii}(\alpha_1)\le\Psi_{ii}(\alpha_2)\qquad(i=1,\ldots,d),$$
+
+$$
+\Psi_{ii}(\alpha_1)\le\Psi_{ii}(\alpha_2)\qquad(i=1,\ldots,d),
+$$
+
 with strict inequality for at least one coordinate. This is the conjecture in Remark 12 of [1], with the ordering convention of Definition 2. It compares marginal variances of separately optimized approximations, rather than divergence values at a fixed pair of distributions.
 
 ## Application

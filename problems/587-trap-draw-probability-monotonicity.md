@@ -11,8 +11,12 @@
 For $d\ge2$ and $p\in[0,1]$, independently delete vertices of the nearest-neighbor graph on $\mathbb Z^d$ with probability $p$. On the remaining graph, play the following perfect-information game starting at the origin. Players alternate moving a token to an adjacent vertex never previously visited; a player unable to move loses. A deleted starting vertex is declared a first-player win. A draw means that neither player can force a win.
 
 Write $D_d(p)$ for the unconditional probability of a draw. Is $D_d$ nonincreasing? More precisely, prove or disprove
-$$D_d(p_2)\le D_d(p_1)\qquad
-(d\ge2,\;0\le p_1\le p_2\le1).$$
+
+$$
+D_d(p_2)\le D_d(p_1)\qquad
+(d\ge2,\;0\le p_1\le p_2\le1).
+$$
+
 Both parity classes have the same deletion probability, and the probability is not conditioned on the origin surviving or belonging to an infinite cluster.
 
 ## Application

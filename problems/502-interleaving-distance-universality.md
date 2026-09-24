@@ -9,32 +9,42 @@
 ## Problem statement
 
 Let $k$ be a field, $n\ge1$ and $i\ge0$. An $n$-parameter persistence module is a functor $M:(\mathbb R^n,\le)\to\mathrm{Vect}_k$, where the order is coordinatewise. Write $\mathbf1=(1,\ldots,1)$, $M(\varepsilon)_a=M_{a+\varepsilon\mathbf1}$, and let $\eta_M^{2\varepsilon}:M\to M(2\varepsilon)$ be its structure morphism. Modules $M,N$ are $\varepsilon$-interleaved if there are natural transformations
+
 $$
 \varphi:M\to N(\varepsilon),\qquad \psi:N\to M(\varepsilon)
 $$
+
 satisfying
+
 $$
 \psi(\varepsilon)\circ\varphi=\eta_M^{2\varepsilon},\qquad
 \varphi(\varepsilon)\circ\psi=\eta_N^{2\varepsilon}.
 $$
+
 Define $d_I(M,N)$ as the infimum of such $\varepsilon\ge0$, with value $+\infty$ if none exists.
 
 For a topological space $X$ and a function $f:X\to\mathbb R^n$, let
+
 $$
 P_i(f)_a=H_i(\{x\in X:f(x)\le a\};k),
 $$
+
 using ordinary singular homology and the maps induced by sublevel-set inclusions. Functions need not be continuous. Let $\mathcal R_{n,i}(k)$ consist of modules isomorphic to some $P_i(f)$.
 
 Call an extended pseudometric $d$ on isomorphism classes of $n$-parameter modules **$i$-stable** if, for every $X$ and every pair $f,g:X\to\mathbb R^n$,
+
 $$
 d(P_i(f),P_i(g))\le\sup_{x\in X}\|f(x)-g(x)\|_\infty.
 $$
+
 An extended pseudometric is symmetric, vanishes on the diagonal and satisfies the triangle inequality, but may take value $+\infty$ or vanish on distinct classes. The supremum for empty $X$ is zero.
 
 **Conjecture.** For every field $k$, every $n\ge1$ and every $i\ge0$, each $i$-stable extended pseudometric satisfies
+
 $$
 d(M,N)\le d_I(M,N)\qquad\text{for all }M,N\in\mathcal R_{n,i}(k).
 $$
+
 The interleaving distance itself is $i$-stable. Thus the assertion is its maximality among stable distances on realizable modules. The realizability restriction is part of the conjecture; no finite-dimensionality assumption is imposed. This is Lesnick's Conjecture 5.7 with its definition of $i$-universality made explicit.
 
 ## Application

@@ -10,7 +10,9 @@
 
 For every $n\ge3$, let $\Sigma^{n-1}\subset\overline{B^n}$ be a smooth compact connected properly embedded minimal hypersurface meeting $S^{n-1}$ orthogonally along its nonempty boundary. Give $\Sigma$ the induced Euclidean metric and set
 
-$$\sigma_1(\Sigma)=\inf_{\substack{u\in H^1(\Sigma),\ \int_{\partial\Sigma}u=0\\\int_{\partial\Sigma}u^2>0}}\frac{\int_\Sigma|\nabla u|^2}{\int_{\partial\Sigma}u^2}.$$
+$$
+\sigma_1(\Sigma)=\inf_{\substack{u\in H^1(\Sigma),\ \int_{\partial\Sigma}u=0\\\int_{\partial\Sigma}u^2>0}}\frac{\int_\Sigma|\nabla u|^2}{\int_{\partial\Sigma}u^2}.
+$$
 
 Prove or disprove $\sigma_1(\Sigma)=1$. The coordinate functions are harmonic and satisfy $\partial_\eta x_j=x_j$ on the boundary, so the unresolved part is the exclusion of an eigenvalue in $(0,1)$.
 

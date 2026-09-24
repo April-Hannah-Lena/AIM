@@ -11,7 +11,11 @@
 Let $d\ge2$, let $K\subset\mathbb R^d$ be a compact convex body with nonempty interior, and set $n=d+2$. Draw $X_1,\ldots,X_n$ independently from normalized Lebesgue measure on $K$. Almost surely their Radon partition is unique: it divides the sample into two nonempty sets $A,B$ with intersecting convex hulls.
 
 Choose $A$ or $B$ with equal probability, independently of the sample, and let $p_k$ be the probability that the chosen set contains $k$ points. Prove or disprove that
-$$p_1\le p_2\le\cdots\le p_{\lfloor n/2\rfloor}.$$
+
+$$
+p_1\le p_2\le\cdots\le p_{\lfloor n/2\rfloor}.
+$$
+
 Since $p_k=p_{n-k}$, this is unimodality of the whole size distribution.
 
 ## Application

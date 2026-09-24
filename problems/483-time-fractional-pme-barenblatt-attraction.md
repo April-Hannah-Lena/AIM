@@ -9,11 +9,19 @@
 ## Problem statement
 
 Fix $d\ge1$, $m>1$ and $0<\alpha<1$. Let $u$ solve $D_t^\alpha u=\Delta(u^m)$ on $\mathbb R^d$ with nonnegative compactly supported $u_0\in L^1\cap L^\infty$, of mass $M>0$. Consider nonnegative weak solutions $u\in C([0,\infty);L^1(\mathbb R^d))$ with $u(0)=u_0$ in $L^1$, $u^m\in L^1_{\rm loc}([0,\infty)\times\mathbb R^d)$ and $\int u(t)=M$ for every $t$. The Caputo derivative is based at time zero, specified by the Volterra identity
-$$u(t)=u_0+\Gamma(\alpha)^{-1}\int_0^t(t-r)^{\alpha-1}\Delta(u(r)^m)\,dr$$
+
+$$
+u(t)=u_0+\Gamma(\alpha)^{-1}\int_0^t(t-r)^{\alpha-1}\Delta(u(r)^m)\,dr
+$$
+
 in spatial distributions. Set $b=\alpha/[d(m-1)+2]$ and $a=db$. Let $U_{\alpha,m,M}$ be the nonnegative radial self-similar profile of mass $M$ constructed in the cited paper, so $t^{-a}U_{\alpha,m,M}(t^{-b}x)$ is a point-source solution.
 
 Does every such $u$ satisfy
-$$\lim_{t\to\infty}\|t^a u(t,t^b\,\cdot)-U_{\alpha,m,M}\|_{L^1(\mathbb R^d)}=0?$$
+
+$$
+\lim_{t\to\infty}\|t^a u(t,t^b\,\cdot)-U_{\alpha,m,M}\|_{L^1(\mathbb R^d)}=0?
+$$
+
 The rescaling changes the observation variables only; it does not replace the original Caputo memory by a derivative with a shifted lower limit.
 
 ## Application

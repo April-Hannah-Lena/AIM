@@ -9,10 +9,12 @@
 ## Problem statement
 
 On $\mathbb T^2$, set $\Lambda=(-\Delta)^{1/2}$ and $R^\perp=(-R_2,R_1)$, with zero Fourier multiplier at frequency zero. Consider
+
 $$
 d\theta+[R^\perp\theta\cdot\nabla\theta+\Lambda\theta]dt
 =\sum_{k=1}^K g_k(x,\theta)\,dW^k_t,\qquad\theta(0)=\theta_0,
 $$
+
 in the Itô sense. The initial temperature $\theta_0$ is any deterministic smooth periodic function. The finite collection $g_k$ consists of smooth functions on $\mathbb T^2\times\mathbb R$, globally Lipschitz in their scalar argument uniformly in $x$, with bounded derivatives of positive order and bounded $g_k(\cdot,0)$. The $W^k$ are independent standard Brownian motions.
 
 Does every such equation have a pathwise unique global adapted solution with paths in $C([0,T];H^3(\mathbb T^2))$ for every finite $T$, satisfying the integral equation in $H^1$? Equivalently, can its local $H^3$ solution blow up with positive probability? No smallness of the data or noise is imposed, and the $g_k$ need not be linear in $\theta$.

@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $(M^n,g)$ be a complete simply connected smooth Riemannian manifold, with $n\ge5$ and sectional curvature everywhere nonpositive. Let $\Omega\Subset M$ be a domain with smooth boundary. Write $V=\operatorname{Vol}_g(\Omega)$, $A=\operatorname{Area}_g(\partial\Omega)$, and let $\omega_n$ be the volume of the Euclidean unit ball.
+Let $(M^n,g)$ be a complete simply connected smooth Riemannian manifold, with $n\ge5$ and sectional curvature everywhere nonpositive. Let $\Omega\Subset M$ be a domain with smooth boundary. Write $V=\mathop{\mathrm{Vol}}\nolimits_g(\Omega)$, $A=\mathop{\mathrm{Area}}\nolimits_g(\partial\Omega)$, and let $\omega_n$ be the volume of the Euclidean unit ball.
 
 Must
 

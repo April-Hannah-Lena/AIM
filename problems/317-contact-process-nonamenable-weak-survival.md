@@ -9,17 +9,23 @@
 ## Problem statement
 
 Let $\Gamma$ be an infinite finitely generated group, and let $S\subset\Gamma\setminus\{e\}$ be any finite symmetric generating set, where $e$ is the identity and symmetric means $S^{-1}=S$. Its undirected Cayley graph $G=(\Gamma,E)$ has an edge $\{x,xs\}$ for each $x\in\Gamma$ and $s\in S$. Assume $G$ is nonamenable:
+
 $$
 h_E(G):=\inf_{\substack{\varnothing\ne K\subset\Gamma\\ |K|<\infty}}
 \frac{|\partial_E K|}{|K|}>0,
 $$
+
 where $\partial_EK$ is the set of edges with exactly one endpoint in $K$.
 
 Consider the ordinary contact process $(\xi_t)_{t\ge0}$, whose state is the set of infected vertices. Each infected vertex becomes healthy at rate $1$; each healthy vertex becomes infected at rate $\lambda$ times its number of infected neighbors. Initially $\xi_0=\{e\}$. Write $\mathbb P_\lambda$ for its law and define
+
 $$
 \lambda_{\mathrm{g}}(G)
 =\inf\{\lambda>0:\mathbb P_\lambda(\xi_t\ne\varnothing\text{ for all }t\ge0)>0\},
 $$
+
+
+
 $$
 \lambda_{\mathrm{l}}(G)
 =\inf\{\lambda>0:\mathbb P_\lambda(e\in\xi_t\text{ for arbitrarily large }t)>0\}.

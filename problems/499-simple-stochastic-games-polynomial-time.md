@@ -9,19 +9,23 @@
 ## Problem statement
 
 Consider a finite directed simple graph $G=(V,E)$ with a partition
+
 $$
 V=V_{\max}\sqcup V_{\min}\sqcup V_{\mathrm{rand}}\sqcup\{0,1\}.
 $$
+
 The vertices $0$ and $1$ are sinks. Every other vertex has exactly two outgoing edges, and every vertex has a directed path to at least one sink. A nonsink vertex $o$ is the starting state.
 
 A token moves along the edges. At a vertex in $V_{\max}$, player Max chooses its next edge; at a vertex in $V_{\min}$, player Min chooses. At a vertex in $V_{\mathrm{rand}}$, an independent fair coin selects one of the two outgoing edges. The players observe the current state and the preceding play. Max receives payoff one if the token eventually reaches sink $1$, and zero otherwise, including when play continues forever.
 
 A pure positional strategy selects one outgoing edge at every vertex controlled by that player. For strategies $\sigma$ of Max and $\tau$ of Min, let $\mathbb P_o^{\sigma,\tau}$ denote the law of the resulting Markov chain, with the sinks treated as absorbing. Define
+
 $$
 v(o)=\max_\sigma\min_\tau
 \mathbb P_o^{\sigma,\tau}
 \bigl(\text{the token eventually reaches }1\bigr).
 $$
+
 Optimal pure positional strategies exist, so allowing strategies with memory or randomized choices does not change this value.
 
 **Does a deterministic polynomial-time algorithm decide whether $v(o)>1/2$ for every such game?** More precisely, if $L$ is the bit length of the explicit adjacency-list encoding, vertex types and starting state, seek one algorithm and constants $C,c>0$, independent of the input, which always return the correct answer within $C(L+1)^c$ steps.

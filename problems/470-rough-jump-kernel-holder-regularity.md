@@ -9,12 +9,24 @@
 ## Problem statement
 
 Fix $n\ge2$, $0<s<1$, $\lambda>0$ and $\Lambda>1$. For each $x\in B_1$, let $K_x$ be an even nonnegative measure on $\mathbb R^n\setminus\{0\}$, measurably dependent on $x$, satisfying for all $r>0$ and all unit $e$
-$$r^{2s}K_x(B_{2r}\setminus B_r)\le\Lambda,\qquad
-r^{2s-2}\int_{B_{\Lambda r}\setminus B_r}|e\cdot y|^2K_x(dy)\ge\lambda.$$
+
+$$
+r^{2s}K_x(B_{2r}\setminus B_r)\le\Lambda,\qquad
+r^{2s-2}\int_{B_{\Lambda r}\setminus B_r}|e\cdot y|^2K_x(dy)\ge\lambda.
+$$
+
 For smooth bounded $u$, set
-$$L_xu(x)=\frac12\int[2u(x)-u(x+y)-u(x-y)]K_x(dy).$$
+
+$$
+L_xu(x)=\frac12\int[2u(x)-u(x+y)-u(x-y)]K_x(dy).
+$$
+
 Do there exist $\gamma>0$ and $C<\infty$, depending only on $n,s,\lambda,\Lambda$, such that every bounded continuous viscosity solution of $L_xu=0$ in $B_1$ satisfies
-$$\|u\|_{C^\gamma(B_{1/2})}\le C\|u\|_{L^\infty(\mathbb R^n)}?$$
+
+$$
+\|u\|_{C^\gamma(B_{1/2})}\le C\|u\|_{L^\infty(\mathbb R^n)}?
+$$
+
 Require no continuity or small-oscillation condition in $x$, and no pointwise density lower bound on the jump measures. Use test functions patched with $u$ outside the contact neighborhood to define the nonlocal viscosity inequalities.
 
 ## Application

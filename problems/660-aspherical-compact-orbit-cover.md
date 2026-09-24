@@ -10,11 +10,15 @@ Let $M$ be a closed connected smooth aspherical manifold, and let $\widetilde M$
 
 Does there always exist a compact subset $K\subseteq\widetilde M$ such that
 
-$$\widetilde M=\bigcup_{g\in G}gK,$$
+$$
+\widetilde M=\bigcup_{g\in G}gK,
+$$
 
 and, for every finite nonempty subset $F\subseteq G$, the intersection
 
-$$\bigcap_{g\in F}gK$$
+$$
+\bigcap_{g\in F}gK
+$$
 
 is either empty or contractible?
 

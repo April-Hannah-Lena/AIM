@@ -9,6 +9,7 @@
 ## Problem statement
 
 A transmitter sends a bit $X$ to two receivers with binary outputs $Y$ and $Z$. Fix the memoryless channel whose transition matrices are
+
 $$
 P_{Y\mid X}=
 \begin{pmatrix}
@@ -22,17 +23,20 @@ P_{Z\mid X}=
 0&1
 \end{pmatrix}.
 $$
+
 Rows correspond to $X=0,1$ and columns to the output values $0,1$. Thus input zero is received without error by the first receiver, while input one is received without error by the second. The other output is a fair bit. The joint law is $W(y,z\mid x)=P_{Y\mid X}(y\mid x)P_{Z\mid X}(z\mid x)$; successive uses are conditionally independent given the transmitted sequence. [1, §5]
 
 For each block length $n$, let $W_1,W_2$ be independent uniform messages with respective message-set sizes $M_{1,n},M_{2,n}$. An arbitrary encoder maps the message pair to $X^n\in\{0,1\}^n$. Receiver one estimates $W_1$ from $Y^n$, and receiver two estimates $W_2$ from $Z^n$. The transmitter receives no feedback, and the receivers cannot communicate. There is no separately requested common message; common coding layers are allowed.
 
 A nonnegative rate pair $(R_1,R_2)$ is achievable if a sequence of these codes satisfies
+
 $$
 \liminf_{n\to\infty}\frac{\log_2 M_{i,n}}{n}\ge R_i
 \quad(i=1,2),
 \qquad
 \Pr\{\widehat W_1\ne W_1\ \text{or}\ \widehat W_2\ne W_2\}\longrightarrow0.
 $$
+
 Let $\mathcal C_{\mathrm{BSSC}}$ be the closure of the achievable rate pairs. **Determine $\mathcal C_{\mathrm{BSSC}}$ exactly, with matching achievability and converse bounds.** Rates are measured in bits per channel use. Codes need not be linear or computationally efficient, and the input distribution is unrestricted. This is the standard private-message problem for the fixed channel above. [1, §5; 2, §1.1]
 
 ## Applied significance

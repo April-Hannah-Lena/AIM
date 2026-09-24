@@ -17,7 +17,7 @@ $$
 Does every such system admit a finite-dimensional Lipschitz inertial manifold? Here this means a graph $\mathcal M=\{p+\Phi(p):p\in P H\}$ over a finite-rank orthogonal projection $P$, with Lipschitz $\Phi:PH\to(I-P)H$, such that $S(t)\mathcal M\subset\mathcal M$, the global attractor is contained in $\mathcal M$, and some $\gamma>0$ satisfies
 
 $$
-\sup_{u\in B}\operatorname{dist}_H(S(t)u,\mathcal M)\le C_Be^{-\gamma t}
+\sup_{u\in B}\mathop{\mathrm{dist}}\nolimits_H(S(t)u,\mathcal M)\le C_Be^{-\gamma t}
 $$
 
 for every bounded $B\subset H$ and all $t\ge0$.

@@ -9,7 +9,11 @@
 ## Problem statement
 
 For every $N\ge1$ and every list of positive integers $\ell_1,\ldots,\ell_N$ satisfying
-$$\sum_{i=1}^N 2^{-\ell_i}\le\frac34,$$
+
+$$
+\sum_{i=1}^N 2^{-\ell_i}\le\frac34,
+$$
+
 must there exist distinct binary words $c_1,\ldots,c_N$ with $|c_i|=\ell_i$ such that no word is a prefix or a suffix of another?
 
 Such a set is called **fix-free** (or **bifix**). Repeated lengths are allowed; the number of distinct lengths is unrestricted. The question concerns existence for every prescribed length list, rather than just a small average length for a given source distribution.

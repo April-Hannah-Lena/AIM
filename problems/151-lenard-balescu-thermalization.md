@@ -14,11 +14,13 @@ $$
 \exp\left[-\frac\beta2\sum_{j=1}^N|v_j|^2-\frac\beta{2N}\sum_{j\ne l}V(x_j-x_l)\right].
 $$
 
-Must the velocity law $f_N(\tau)$ of particle $0$ at time $N\tau$ converge as $N\to\infty$, weakly and uniformly on compact $\tau$ intervals, to the solution of $\partial_\tau f=\operatorname{div}_v(A(v)(\nabla_v f+\beta vf))$, $f(0)=f^\circ$? With $M(v)=(\beta/2\pi)^{3/2}e^{-\beta|v|^2/2}$, define
+Must the velocity law $f_N(\tau)$ of particle $0$ at time $N\tau$ converge as $N\to\infty$, weakly and uniformly on compact $\tau$ intervals, to the solution of $\partial_\tau f=\mathop{\mathrm{div}}\nolimits_v(A(v)(\nabla_v f+\beta vf))$, $f(0)=f^\circ$? With $M(v)=(\beta/2\pi)^{3/2}e^{-\beta|v|^2/2}$, define
 
 $$
 A(v)=\int_{\mathbb R^3}\sum_{k\in2\pi\mathbb Z^3\setminus\{0\}}\frac{\pi\widehat V(k)^2(k\otimes k)\delta(k\cdot(v-w))}{|\varepsilon(k,k\cdot v)|^2}M(w)\,dw,
 $$
+
+
 
 $$
 \varepsilon(k,\omega)=1+\widehat V(k)\lim_{a\downarrow0}\int_{\mathbb R^3}\frac{k\cdot\nabla M(w)}{\omega-k\cdot w-ia}\,dw.

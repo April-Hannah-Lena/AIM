@@ -9,11 +9,18 @@
 ## Problem statement
 
 For even $L\ge4$ and $U>0$, on $\Lambda_L=(\mathbb Z/L\mathbb Z)^2$ consider
-$$H_{L,U}=-\sum_{\{x,y\}\text{ nearest neighbors}}\sum_{s=\uparrow,\downarrow}(c_{xs}^\dagger c_{ys}+c_{ys}^\dagger c_{xs})+U\sum_x n_{x\uparrow}n_{x\downarrow}.$$
+
+$$
+H_{L,U}=-\sum_{\{x,y\}\text{ nearest neighbors}}\sum_{s=\uparrow,\downarrow}(c_{xs}^\dagger c_{ys}+c_{ys}^\dagger c_{xs})+U\sum_x n_{x\uparrow}n_{x\downarrow}.
+$$
+
 The fermionic operators satisfy $\{c_{xs},c_{yt}^\dagger\}=\delta_{xy}\delta_{st}$, $\{c_{xs},c_{yt}\}=0$, and $n_{xs}=c_{xs}^\dagger c_{xs}$. Restrict to exactly $L^2$ electrons and let $\psi_{L,U}$ be its normalized ground state. Define $S_x^3=(n_{x\uparrow}-n_{x\downarrow})/2$.
 
 Does every fixed $U>0$ satisfy
-$$\liminf_{\substack{L\to\infty\\L\text{ even}}}\frac1{L^4}\left\langle\psi_{L,U},\left(\sum_x(-1)^{x_1+x_2}S_x^3\right)^2\psi_{L,U}\right\rangle>0?$$
+
+$$
+\liminf_{\substack{L\to\infty\\L\text{ even}}}\frac1{L^4}\left\langle\psi_{L,U},\left(\sum_x(-1)^{x_1+x_2}S_x^3\right)^2\psi_{L,U}\right\rangle>0?
+$$
 
 ## Application
 

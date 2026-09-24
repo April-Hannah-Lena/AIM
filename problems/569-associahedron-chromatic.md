@@ -11,7 +11,11 @@
 For each integer $n\ge3$, let $A_n$ be the graph whose vertices are all triangulations of a convex polygon with $n$ labeled vertices. Two triangulations are adjacent when one is obtained from the other by replacing one diagonal of a convex quadrilateral by its other diagonal. A proper coloring assigns different colors to adjacent triangulations; write $\chi(A_n)$ for the least number of colors required.
 
 Prove or disprove that
-$$\sup_{n\ge3}\chi(A_n)=\infty.$$
+
+$$
+\sup_{n\ge3}\chi(A_n)=\infty.
+$$
+
 Equivalently, must every fixed number of colors fail for the flip graph of some sufficiently large convex polygon?
 
 ## Application

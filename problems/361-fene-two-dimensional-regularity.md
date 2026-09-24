@@ -9,8 +9,17 @@
 ## Problem statement
 
 Let $B=\{q\in\mathbb R^2:|q|<1\}$, $k>2$, $U(q)=-k\log(1-|q|^2)$ and $M(q)=Z^{-1}e^{-U(q)}$, with $\int_B M=1$. On $\mathbb R_x^2\times B_q$, consider
-$$u_t+u\cdot\nabla_xu-\Delta_xu+\nabla_xp=\nabla_x\cdot\tau,\qquad\nabla_x\cdot u=0,$$
-$$\psi_t+u\cdot\nabla_x\psi=\nabla_q\cdot\bigl(\nabla_q\psi+\psi\nabla_qU-(\nabla_xu)q\psi\bigr),\qquad \tau=\int_B q\otimes\nabla_qU\,\psi\,dq.$$
+
+$$
+u_t+u\cdot\nabla_xu-\Delta_xu+\nabla_xp=\nabla_x\cdot\tau,\qquad\nabla_x\cdot u=0,
+$$
+
+
+
+$$
+\psi_t+u\cdot\nabla_x\psi=\nabla_q\cdot\bigl(\nabla_q\psi+\psi\nabla_qU-(\nabla_xu)q\psi\bigr),\qquad \tau=\int_B q\otimes\nabla_qU\,\psi\,dq.
+$$
+
 Impose zero normal configuration flux at $\partial B$ and $\int_B\psi(t,x,q)\,dq=1$. For every smooth compatible initial datum with $u_0$ divergence free, $\psi_0=M g_0$, $g_0>0$, and $u_0,g_0-1$ smooth and compactly supported in $x$, must the local classical solution extend for all positive times? Require on each finite interval the usual strong norms $u\in C_tH_x^s$ and $\psi-M\in C_tH_x^s(L_q^2(M^{-1}dq))$ for every $s$, with smoothness for $q\in B$. There is no smallness assumption and no centre-of-mass diffusion in $x$.
 
 ## Application

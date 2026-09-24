@@ -10,7 +10,9 @@
 
 On $\ell^2(\mathbb Z^2)$ let
 
-$$ (H_\eta\psi)(n)=\sum_{|m-n|_1=1}\psi(m)+\eta V_n\psi(n),$$
+$$
+(H_\eta\psi)(n)=\sum_{|m-n|_1=1}\psi(m)+\eta V_n\psi(n),
+$$
 
 where the $V_n$ are independent uniform variables on $[-1,1]$. Prove or disprove that for every fixed $\eta>0$, almost surely $H_\eta$ has a complete orthonormal basis of exponentially decaying eigenfunctions. Explicitly, each basis vector $\phi$ must satisfy $|\phi(n)|\le C_\phi e^{-c_\phi|n-n_\phi|}$ for some $C_\phi,c_\phi>0$ and $n_\phi\in\mathbb Z^2$. No uniform decay rate across all eigenvalues is demanded.
 

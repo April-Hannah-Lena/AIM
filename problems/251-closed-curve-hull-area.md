@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $\gamma:[0,1]\to\mathbb R^3$ be any continuous rectifiable closed curve, of length $L$, and put $K=\operatorname{conv}(\gamma([0,1]))$. Define $A(K)$ to be the surface area of $\partial K$ when $K$ is three-dimensional, twice its planar area when it is two-dimensional, and zero otherwise. Is
+Let $\gamma:[0,1]\to\mathbb R^3$ be any continuous rectifiable closed curve, of length $L$, and put $K=\mathop{\mathrm{conv}}\nolimits(\gamma([0,1]))$. Define $A(K)$ to be the surface area of $\partial K$ when $K$ is three-dimensional, twice its planar area when it is two-dimensional, and zero otherwise. Is
 
 $$
 A(K)\leq \frac{L^2}{2\pi}

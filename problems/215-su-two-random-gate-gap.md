@@ -9,14 +9,18 @@
 ## Problem statement
 
 Let $G=\mathrm{SU}(2)=\{U\in\mathbb C^{2\times2}:U^*U=I,\det U=1\}$, with Haar probability measure $\mu$. For $a,b\in G$, define the lazy averaging operator on $L^2(G,\mu)$ by
+
 $$
 P_{a,b}f(g)=\frac12 f(g)+\frac18\bigl(f(ag)+f(a^{-1}g)+f(bg)+f(b^{-1}g)\bigr).
 $$
+
 Is it true that for $(\mu\otimes\mu)$-almost every pair $(a,b)$ there exists $\delta(a,b)>0$ such that
+
 $$
 \|P_{a,b}f\|_2\le(1-\delta(a,b))\|f\|_2
 \quad\text{whenever }f\in L^2(G,\mu),\quad\int_G f\,d\mu=0?
 $$
+
 The gap may depend on the chosen pair; no positive bound uniform over all pairs is requested.
 
 ## Application

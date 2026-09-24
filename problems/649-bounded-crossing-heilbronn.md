@@ -13,7 +13,10 @@ Fix $k\ge2$. For $n\ge3$, consider drawings of $K_n$ entirely inside the unit sq
 A nonzero $\mathbb F_2$-cycle is a nonempty subset of graph edges in which every vertex has even degree. It may be disconnected. For such a cycle $z$, define $A(z)$ as the area of the set of points having odd crossing parity with $z$ along a generic path to the unbounded component of its complement. This is the mod-two interior, so self-crossings do not require the cycle to bound a Jordan domain.
 
 Does there exist a function $\varepsilon_k(n)\to0$ as $n\to\infty$ such that every such drawing contains a nonzero cycle $z$ with
-$$A(z)\le\varepsilon_k(n)?$$
+
+$$
+A(z)\le\varepsilon_k(n)?
+$$
 
 The bound must be uniform over drawings, while $k$ remains fixed.
 

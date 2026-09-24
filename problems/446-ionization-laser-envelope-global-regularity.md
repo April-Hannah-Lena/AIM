@@ -8,8 +8,12 @@
 ## Problem statement
 
 Write $x=(x_1,x_2,z)\in\mathbb R^3$. Fix $\varepsilon,c,c_g,\alpha_4>0$, $\alpha_5\ge0$, and an integer $K\ge2$. Consider a complex envelope $u$ and real electron density $\rho$ satisfying
-$$\begin{aligned}i(\partial_t+c_g\partial_z)u+\varepsilon\Delta u+\varepsilon(|u|^2-\rho)u&=-i\varepsilon c\bigl(\alpha_4|u|^{2K-2}u+\alpha_5\rho u\bigr),\\
-\partial_t\rho&=\varepsilon\alpha_4|u|^{2K}+\varepsilon\alpha_5\rho|u|^2.\end{aligned}$$
+
+$$
+\begin{aligned}i(\partial_t+c_g\partial_z)u+\varepsilon\Delta u+\varepsilon(|u|^2-\rho)u&=-i\varepsilon c\bigl(\alpha_4|u|^{2K-2}u+\alpha_5\rho u\bigr),\\
+\partial_t\rho&=\varepsilon\alpha_4|u|^{2K}+\varepsilon\alpha_5\rho|u|^2.\end{aligned}
+$$
+
 For every Schwartz initial pair $(u_0,\rho_0)$ with $\rho_0\ge0$, must the local solution extend to all $t\ge0$, with $(u,\rho)\in C([0,\infty);H^m(\mathbb R^3))$ for every integer $m\ge3$? The Laplacian is elliptic in all three spatial coordinates, corresponding to anomalous group-velocity dispersion.
 
 ## Application

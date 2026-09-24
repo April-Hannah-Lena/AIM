@@ -9,9 +9,17 @@
 ## Problem statement
 
 Do there exist an integer $N\ge2$, an open convex state set $U\subset\mathbb R^N$, a smooth flux $f:U\to\mathbb R^N$ with $Df(u)$ having $N$ distinct real eigenvalues for every $u\in U$, and a smooth entropy pair $(\eta,q)$ satisfying
-$$D^2\eta(u)>0,\qquad Dq(u)=D\eta(u)Df(u),$$
+
+$$
+D^2\eta(u)>0,\qquad Dq(u)=D\eta(u)Df(u),
+$$
+
 together with $T>0$ and bounded measurable initial data $u_0$, for which two distinct bounded distributional solutions $u,v:(0,T)\times\mathbb R\to K\Subset U$ satisfy
-$$w_t+f(w)_x=0,\qquad \partial_t\eta(w)+\partial_xq(w)\le0\quad(w=u,v),$$
+
+$$
+w_t+f(w)_x=0,\qquad \partial_t\eta(w)+\partial_xq(w)\le0\quad(w=u,v),
+$$
+
 and both attain $u_0$ strongly in $L^1_{\rm loc}$ at $t=0$? Distinct means that they differ on a set of positive spacetime measure. The displayed entropy inequality must hold throughout spacetime, rather than only at jump discontinuities; no bounded-variation hypothesis is imposed.
 
 ## Application

@@ -10,15 +10,20 @@
 
 Set $\widehat v=v/\sqrt{1+|v|^2}$. For nonnegative $f_0\in C_c^\infty(\mathbb R_x^3\times\mathbb R_v^3)$ and smooth finite-energy electromagnetic data with bounded derivatives satisfying
 $\nabla\cdot E_0=\int f_0\,dv$ and $\nabla\cdot B_0=0$, does the system
+
 $$
 \partial_tf+\widehat v\cdot\nabla_x f+
 (E+\widehat v\times B)\cdot\nabla_v f=0,
 $$
+
+
+
 $$
 \partial_tE=\nabla\times B-j,\quad
 \partial_tB=-\nabla\times E,\quad
 j=\int\widehat v f\,dv
 $$
+
 have a classical solution for all $t\ge0$? Require the propagated Gauss constraints, finite field energy, and bounded particle-momentum support on every finite time interval. There is no smallness or symmetry assumption; units normalize the particle mass, charge and speed of light.
 
 ## Application

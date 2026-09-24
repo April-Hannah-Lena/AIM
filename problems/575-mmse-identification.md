@@ -9,12 +9,22 @@
 ## Problem statement
 
 Let $X$ and $Y$ be real random variables with finite second moments. For any such variable $U$, let $Z\sim N(0,1)$ be independent of $U$ and define its Gaussian-channel minimum mean-square error by
-$$\operatorname{mmse}_U(s)=\mathbb E\left[(U-\mathbb E[U\mid\sqrt{s}\,U+Z])^2\right],\qquad s>0.$$
+
+$$
+\mathop{\mathrm{mmse}}\nolimits_U(s)=\mathbb E\left[(U-\mathbb E[U\mid\sqrt{s}\,U+Z])^2\right],\qquad s>0.
+$$
 
 Prove or disprove that
-$$\operatorname{mmse}_X(s)=\operatorname{mmse}_Y(s)\quad\text{for every }s>0$$
+
+$$
+\mathop{\mathrm{mmse}}\nolimits_X(s)=\mathop{\mathrm{mmse}}\nolimits_Y(s)\quad\text{for every }s>0
+$$
+
 implies
-$$Y\stackrel{d}=a+\eta X\qquad\text{for some }a\in\mathbb R,\quad\eta\in\{-1,1\}.$$
+
+$$
+Y\stackrel{d}=a+\eta X\qquad\text{for some }a\in\mathbb R,\quad\eta\in\{-1,1\}.
+$$
 
 Translations and reflection leave the curve unchanged, so these ambiguities are unavoidable. The assertion concerns the complete curve, rather than only a finite collection of derivatives or moments. This is the finite-second-moment formulation of the MMSE conjecture in [1, Section 2.2].
 

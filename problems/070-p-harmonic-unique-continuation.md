@@ -9,10 +9,12 @@
 ## Problem statement
 
 For every integer $n\ge3$, exponent $1<p<\infty$ with $p\ne2$, and connected open set $\Omega\subset\mathbb R^n$, let $u\in W^{1,p}_{\mathrm{loc}}(\Omega)$ satisfy
+
 $$
 \int_\Omega|\nabla u|^{p-2}\nabla u\cdot\nabla\phi\,dx=0
 \qquad\text{for every }\phi\in C_c^\infty(\Omega).
 $$
+
 If $u=0$ almost everywhere in some nonempty open subset of $\Omega$, must $u=0$ almost everywhere throughout $\Omega$? This is weak unique continuation for a single p-harmonic function.
 
 ## Application

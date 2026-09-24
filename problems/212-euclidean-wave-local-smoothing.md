@@ -9,9 +9,16 @@
 ## Problem statement
 
 For a Schwartz function $f$ on $\mathbb R^3$, let
-$$u(t,x)=e^{it\sqrt{-\Delta}}f(x),\qquad \widehat u(t,\xi)=e^{it|\xi|}\widehat f(\xi).$$
+
+$$
+u(t,x)=e^{it\sqrt{-\Delta}}f(x),\qquad \widehat u(t,\xi)=e^{it|\xi|}\widehat f(\xi).
+$$
+
 For every $3\le p<\infty$ and $\varepsilon>0$, is there a constant $C_{p,\varepsilon}$ such that, for every $\lambda\ge1$ and every $f$ with Fourier support in $\{\lambda\le|\xi|\le2\lambda\}$,
-$$\left(\int_1^2\int_{\mathbb R^3}|u(t,x)|^p\,dx\,dt\right)^{1/p}\le C_{p,\varepsilon}\lambda^{1-3/p+\varepsilon}\|f\|_{L^p(\mathbb R^3)}?$$
+
+$$
+\left(\int_1^2\int_{\mathbb R^3}|u(t,x)|^p\,dx\,dt\right)^{1/p}\le C_{p,\varepsilon}\lambda^{1-3/p+\varepsilon}\|f\|_{L^p(\mathbb R^3)}?
+$$
 
 ## Application
 

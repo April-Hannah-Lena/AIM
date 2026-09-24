@@ -8,8 +8,17 @@
 ## Problem statement
 
 For each $0<\alpha\le1/2$, define $A_\alpha$ on $L^2(0,\infty)$ by
-$$A_\alpha u=-u''+i x^\alpha u,$$
-$$D(A_\alpha)=\{u\in L^2:u\in H^2_{\mathrm{loc}}([0,\infty)),\ -u''+ix^\alpha u\in L^2,\ u(0)=0\}.$$
+
+$$
+A_\alpha u=-u''+i x^\alpha u,
+$$
+
+
+
+$$
+D(A_\alpha)=\{u\in L^2:u\in H^2_{\mathrm{loc}}([0,\infty)),\ -u''+ix^\alpha u\in L^2,\ u(0)=0\}.
+$$
+
 Is the closed linear span of all its eigenfunctions equal to $L^2(0,\infty)$? Completeness alone is requested, with no Riesz-basis or stable-expansion assertion. This is the small-exponent part of Almog’s original $0<\alpha\le2/3$ question.
 
 ## Application

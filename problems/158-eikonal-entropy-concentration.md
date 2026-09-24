@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^2$ be open and $m\in L^\infty(\Omega;\mathbb R^2)$ satisfy $|m|=1$ almost everywhere and $\operatorname{div}m=0$ in distributions. Call $\Phi\in C^{1,1}(S^1;\mathbb R^2)$ an entropy if
+Let $\Omega\subset\mathbb R^2$ be open and $m\in L^\infty(\Omega;\mathbb R^2)$ satisfy $|m|=1$ almost everywhere and $\mathop{\mathrm{div}}\nolimits m=0$ in distributions. Call $\Phi\in C^{1,1}(S^1;\mathbb R^2)$ an entropy if
 
 $$
 \frac{d}{d\theta}\Phi(e^{i\theta})\cdot e^{i\theta}=0.
 $$
 
-Assume every $\mu_\Phi=\operatorname{div}\Phi(m)$ is a locally finite signed Radon measure. Must $|\mu_\Phi|(\Omega\setminus J_m)=0$ for every entropy? Here $J_m$ is the approximate jump set: at each of its points $m$ has two distinct constant limiting values in mean on the two half-balls determined by some line through that point. The assertion says all entropy production lies on these one-dimensional interfaces.
+Assume every $\mu_\Phi=\mathop{\mathrm{div}}\nolimits\Phi(m)$ is a locally finite signed Radon measure. Must $|\mu_\Phi|(\Omega\setminus J_m)=0$ for every entropy? Here $J_m$ is the approximate jump set: at each of its points $m$ has two distinct constant limiting values in mean on the two half-balls determined by some line through that point. The assertion says all entropy production lies on these one-dimensional interfaces.
 
 ## Application
 

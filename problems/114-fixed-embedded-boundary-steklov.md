@@ -10,7 +10,9 @@
 
 Let $d\ge1$ and $m\ge d+2$. Fix a smooth compact connected embedded $d$-dimensional submanifold $\Sigma\subset\mathbb R^m$ without boundary, and assume that it bounds at least one smooth compact connected embedded $(d+1)$-dimensional submanifold. Let $\mathcal F(\Sigma)$ be the set of all such fillings $\Omega\subset\mathbb R^m$ with $\partial\Omega=\Sigma$, equipped with their induced Euclidean metrics. Prove or disprove
 
-$$\sup_{\Omega\in\mathcal F(\Sigma)}\sigma_1(\Omega)=\infty$$
+$$
+\sup_{\Omega\in\mathcal F(\Sigma)}\sigma_1(\Omega)=\infty
+$$
 
 for every such $\Sigma$, where $\sigma_1$ is the first positive eigenvalue of $\Delta_\Omega u=0$, $\partial_\nu u=\sigma u$. No bound is imposed on the filling’s volume or topology.
 

@@ -10,16 +10,16 @@
 
 A convex polytope $P\subset\mathbb R^d$ is a bounded intersection of finitely many closed half-spaces. Assume $P$ has nonempty interior in $\mathbb R^d$, where $d\ge1$, and exactly $n$ facets, its faces of dimension $d-1$. In particular, $n\ge d+1$.
 
-The vertex-edge graph $G(P)$ has the vertices of $P$ as its nodes; two nodes are adjacent precisely when they are the endpoints of an edge of $P$. For vertices $u,v$, let $\operatorname{dist}_{G(P)}(u,v)$ be the minimum number of edges in a path joining them. Define
+The vertex-edge graph $G(P)$ has the vertices of $P$ as its nodes; two nodes are adjacent precisely when they are the endpoints of an edge of $P$. For vertices $u,v$, let $\mathop{\mathrm{dist}}\nolimits_{G(P)}(u,v)$ be the minimum number of edges in a path joining them. Define
 
 $$
-\operatorname{diam}G(P)=\max_{u,v\in V(P)}\operatorname{dist}_{G(P)}(u,v).
+\mathop{\mathrm{diam}}\nolimits G(P)=\max_{u,v\in V(P)}\mathop{\mathrm{dist}}\nolimits_{G(P)}(u,v).
 $$
 
 Do there exist absolute constants $C,k>0$ such that every such polytope satisfies
 
 $$
-\operatorname{diam}G(P)\le C(n+d)^k?
+\mathop{\mathrm{diam}}\nolimits G(P)\le C(n+d)^k?
 $$
 
 The same constants must work for all dimensions and all facet counts. There are no rationality, simplicity or conditioning assumptions. Paths use actual edges and may move in either direction; no linear objective is prescribed. This is the polynomial Hirsch conjecture for bounded polytopes. It asks for the existence of short paths, without requiring an algorithm to find them.

@@ -9,22 +9,25 @@
 ## Problem statement
 
 Let $G=(V,E)$ be a finite simple undirected unweighted graph, given explicitly, and let $n=|V|$. For an integer $2\leq k\leq n$, define
+
 $$
-\operatorname{OPT}_k(G)=
+\mathop{\mathrm{OPT}}\nolimits_k(G)=
 \max_{\substack{S\subseteq V\\ |S|=k}} |E(G[S])|,
 $$
+
 where $G[S]$ is the subgraph induced by $S$. The input also includes an integer $1\leq \ell\leq \binom{k}{2}$.
 
 **Does there exist an absolute rational constant $\lambda>1$ for which it is NP-hard to distinguish**
+
 $$
-\operatorname{OPT}_k(G)\geq \ell
+\mathop{\mathrm{OPT}}\nolimits_k(G)\geq \ell
 \qquad\text{from}\qquad
-\operatorname{OPT}_k(G)<\frac{\ell}{\lambda}\,?
+\mathop{\mathrm{OPT}}\nolimits_k(G)<\frac{\ell}{\lambda}\,?
 $$
 
 Here NP-hardness means a deterministic polynomial-time many-one reduction: one map must take every Boolean formula in 3-conjunctive normal form to an instance $(G,k,\ell)$, mapping satisfiable formulas to the first case and unsatisfiable formulas to the second. Its output size must be polynomial in the formula's length. The factor $\lambda$ is fixed independently of all input parameters; $k$ can grow with the input. Instances between the thresholds need not receive any prescribed answer.
 
-The target is an unconditional reduction. If such a reduction exists, then $\mathsf P\ne\mathsf{NP}$ would rule out a deterministic polynomial-time algorithm that always returns a $k$-vertex set with at least $\operatorname{OPT}_k(G)/\lambda$ edges. No Exponential Time Hypothesis, planted-clique assumption or other additional hardness conjecture is part of the requested reduction.
+The target is an unconditional reduction. If such a reduction exists, then $\mathsf P\ne\mathsf{NP}$ would rule out a deterministic polynomial-time algorithm that always returns a $k$-vertex set with at least $\mathop{\mathrm{OPT}}\nolimits_k(G)/\lambda$ edges. No Exponential Time Hypothesis, planted-clique assumption or other additional hardness conjecture is part of the requested reduction.
 
 This is the constant-gap question stated in [1, §1], using its Definition 1. Allowing a real constant would be equivalent: a slightly smaller rational factor preserves a hardness gap. Since the vertex count is exactly $k$, dividing the objective by $k$ or by $\binom{k}{2}$ does not change approximation ratios. The at-least-$k$ density problem, which permits the denominator to vary with the selected set, is a different optimization problem.
 

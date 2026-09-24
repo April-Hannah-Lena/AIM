@@ -8,10 +8,14 @@
 
 ## Problem statement
 
-For a packing of balls with pairwise disjoint interiors in $\mathbb R^d$, use the centers as vertices. Form the contact complex from subsets $E$ of at most $d+1$ centers for which the corresponding balls are pairwise tangent and $\operatorname{conv}(E)$ contains no other center. Call the packing **compact** when these simplices form a geometric simplicial complex whose underlying space is all of $\mathbb R^d$, with every simplex contained in a $d$-simplex.
+For a packing of balls with pairwise disjoint interiors in $\mathbb R^d$, use the centers as vertices. Form the contact complex from subsets $E$ of at most $d+1$ centers for which the corresponding balls are pairwise tangent and $\mathop{\mathrm{conv}}\nolimits(E)$ contains no other center. Call the packing **compact** when these simplices form a geometric simplicial complex whose underlying space is all of $\mathbb R^d$, with every simplex contained in a $d$-simplex.
 
 Fix integers $d\ge3$ and $n\ge2$. Let $\Pi_{d,n}$ consist of all tuples
-$$0<r_0<r_1<\cdots<r_{n-1}=1$$
+
+$$
+0<r_0<r_1<\cdots<r_{n-1}=1
+$$
+
 that occur as the exact set of radii in such a compact packing. Is $\Pi_{d,n}$ finite for every fixed pair $(d,n)$?
 
 All $n$ radii must occur. The packing need not be periodic, and the question counts radius tuples, not the number of packings.

@@ -11,7 +11,11 @@
 Fix $K>0$. For each $n$, let $d=d(n)\ge1$ satisfy $d=o(\sqrt{n/\log n})$, and fix $\varepsilon\in(0,1/2]$. Put $N=n^d$ and $m=\lfloor(1-\varepsilon)N\rfloor$. Let $x_{ik}\in\mathbb R^n$, $1\le i\le m$, $1\le k\le d$, have mutually independent coordinates, all with mean zero, variance one and subgaussian norm at most $K$. Here $\|\xi\|_{\psi_2}=\inf\{s>0:\mathbb E\exp(\xi^2/s^2)\le2\}$.
 
 Form the $N\times m$ matrix $A$ whose $i$th column is $x_{i1}\otimes\cdots\otimes x_{id}$. Does there exist $c_K>0$, independent of $n,d,\varepsilon$, such that
-$$\mathbb P\{s_{\min}(A)\ge c_K\varepsilon n^{d/2}\}\longrightarrow1$$
+
+$$
+\mathbb P\{s_{\min}(A)\ge c_K\varepsilon n^{d/2}\}\longrightarrow1
+$$
+
 for every such sequence of dimensions and coordinate distributions? The probability convergence is for each fixed $\varepsilon$, while the lower-bound constant is uniform in $\varepsilon$.
 
 This asks for the natural ambient-dimension scale in the improvement proposed in [1, Section 1.5]. The order $d$ may grow; bounds whose constants deteriorate exponentially with $d$ do not settle the question.

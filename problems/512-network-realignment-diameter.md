@@ -11,7 +11,11 @@
 Let $G_n$ have as vertices all trees with labelled vertex set $[n]=\{1,\ldots,n\}$. Two trees are adjacent when one can be obtained from the other by a single *leaf slide*: choose a leaf $v$ with neighbor $w$, choose a neighbor $u\ne v$ of $w$ in the current tree, delete $\{v,w\}$ and insert $\{v,u\}$.
 
 The graph $G_n$ is connected. Its distance is the minimum number of these individual slides needed to transform one labelled tree into another. Is
-$$\operatorname{diam}(G_n)=\left\lfloor\frac{n^2}{2}\right\rfloor-n$$
+
+$$
+\mathop{\mathrm{diam}}\nolimits(G_n)=\left\lfloor\frac{n^2}{2}\right\rfloor-n
+$$
+
 for every integer $n\ge6$?
 
 The permitted move follows one existing edge adjacent to the leaf's attachment point. Labels are fixed, and each slide has unit cost.

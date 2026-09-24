@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $n\ge2$, $0<s<1$, and let $\mu$ be a finite even nonnegative measure on $S^{n-1}$ such that
-$$\mu(S^{n-1})\le\Lambda,\qquad\inf_{|e|=1}\int_{S^{n-1}}|e\cdot\theta|^{2s}\,\mu(d\theta)\ge\lambda>0.$$
+
+$$
+\mu(S^{n-1})\le\Lambda,\qquad\inf_{|e|=1}\int_{S^{n-1}}|e\cdot\theta|^{2s}\,\mu(d\theta)\ge\lambda>0.
+$$
+
 Define the stable operator
-$$Lu(x)=\frac12\int_{S^{n-1}}\int_0^\infty[2u(x)-u(x+r\theta)-u(x-r\theta)]\frac{dr}{r^{1+2s}}\,\mu(d\theta).$$
+
+$$
+Lu(x)=\frac12\int_{S^{n-1}}\int_0^\infty[2u(x)-u(x+r\theta)-u(x-r\theta)]\frac{dr}{r^{1+2s}}\,\mu(d\theta).
+$$
+
 Let $\Sigma\subsetneq\mathbb R^n$ be a closed convex cone with nonempty interior. Suppose $w_1,w_2$ are continuous on $\mathbb R^n$, zero on $\Sigma$, strictly positive on $\Sigma^c$, and satisfy $Lw_i=0$ in $\Sigma^c$ in the viscosity sense. Assume $|w_i(x)|\le C_i(1+|x|)^{\beta_i}$ for some $\beta_i<2s$, so the tails in the equation are integrable. Must $w_1=cw_2$ for a constant $c>0$? Allow $\mu$ to be singular, including measures supported on finitely many directions.
 
 ## Application

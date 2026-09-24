@@ -9,11 +9,19 @@
 ## Problem statement
 
 Fix $n\ge2$, $0<s<1$, and $0<\lambda\le\Lambda$. Let $\{K_a\}_{a\in A}$ be any family of even measurable kernels satisfying
-$$\lambda|y|^{-n-2s}\le K_a(y)\le\Lambda|y|^{-n-2s}.$$
-Set $L_au(x)=\operatorname{PV}\int[u(x)-u(x+y)]K_a(y)dy$ and $Iu=\inf_{a\in A}(-L_au)$.
+
+$$
+\lambda|y|^{-n-2s}\le K_a(y)\le\Lambda|y|^{-n-2s}.
+$$
+
+Set $L_au(x)=\mathop{\mathrm{PV}}\nolimits\int[u(x)-u(x+y)]K_a(y)dy$ and $Iu=\inf_{a\in A}(-L_au)$.
 
 Is there a finite $p_*=p_*(n,s,\lambda,\Lambda)$ such that, for every $p>\max\{2,p_*\}$, bounded viscosity solutions of $Iu=f$ in $B_1$ with smooth $f$ satisfy
-$$\|u\|_{W^{2s,p}(B_{1/2})}\le C\bigl(\|u\|_{L^\infty(\mathbb R^n)}+\|f\|_{L^p(B_1)}\bigr),$$
+
+$$
+\|u\|_{W^{2s,p}(B_{1/2})}\le C\bigl(\|u\|_{L^\infty(\mathbb R^n)}+\|f\|_{L^p(B_1)}\bigr),
+$$
+
 where $C$ depends only on $n,s,p,\lambda,\Lambda$? Use the Slobodeckij Sobolev space for noninteger $2s$ and the ordinary Sobolev space when $2s=1$. The estimate must be uniform over the kernels and must not depend on stronger norms of $f$.
 
 ## Application

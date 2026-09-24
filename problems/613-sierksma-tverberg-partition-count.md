@@ -9,11 +9,23 @@
 ## Problem statement
 
 Let $d\ge2$ and $r\ge3$ be integers, and let $X\subset\mathbb R^d$ consist of exactly $(d+1)(r-1)+1$ distinct points. A Tverberg partition is an unordered partition
-$$X=X_1\sqcup\cdots\sqcup X_r$$
+
+$$
+X=X_1\sqcup\cdots\sqcup X_r
+$$
+
 into nonempty sets such that
-$$\bigcap_{i=1}^r\operatorname{conv}(X_i)\ne\varnothing.$$
+
+$$
+\bigcap_{i=1}^r\mathop{\mathrm{conv}}\nolimits(X_i)\ne\varnothing.
+$$
+
 Prove or disprove that every such $X$ has at least
-$$((r-1)!)^d$$
+
+$$
+((r-1)!)^d
+$$
+
 distinct Tverberg partitions. Partitions differing only by the order of their parts are counted once. The claim imposes no general-position assumption.
 
 ## Application

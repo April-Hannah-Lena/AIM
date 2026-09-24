@@ -9,7 +9,11 @@
 ## Problem statement
 
 For $\lambda\in\mathbb C$, let $Q_\lambda$ be the smallest subset of $\mathbb C$ containing $0,1$ and closed under the operation
-$$a\star_\lambda b=(1-\lambda)a+\lambda b.$$
+
+$$
+a\star_\lambda b=(1-\lambda)a+\lambda b.
+$$
+
 Only finitely many operations are used to generate each point; no topological closure is taken.
 
 Call $\lambda$ a **strong PV number** if it is an algebraic integer and every Galois conjugate other than $\lambda$ and $\overline\lambda$ lies in the real interval $(0,1)$. This definition includes integers and nonreal quadratic algebraic integers.

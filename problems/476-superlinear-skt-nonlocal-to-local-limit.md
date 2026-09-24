@@ -9,17 +9,33 @@
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^d$ be smooth, bounded and connected, $n\ge2$, and $s>1$. Set
-$$P_i(u)=u_i(a_{i0}+\sum_j a_{ij}u_j^s),\qquad
-f_i(u)=b_{i0}-\sum_jb_{ij}u_j,$$
+
+$$
+P_i(u)=u_i(a_{i0}+\sum_j a_{ij}u_j^s),\qquad
+f_i(u)=b_{i0}-\sum_jb_{ij}u_j,
+$$
+
 where $a_{i0}>0$, $b_{i0},b_{ij}\ge0$, and the symmetric matrix $(a_{ij})$ has nonnegative entries and satisfies
-$$a_{ii}>C(s)\sum_{j\ne i}a_{ij},\quad
-C(s)=\begin{cases}s^2/[2(s+1)(s-1)],&1<s<2,\\{[4(s-1)^2+1]}/[4(s+1)(s-1)],&s\ge2.\end{cases}$$
+
+$$
+a_{ii}>C(s)\sum_{j\ne i}a_{ij},\quad
+C(s)=\begin{cases}s^2/[2(s+1)(s-1)],&1<s<2,\\{[4(s-1)^2+1]}/[4(s+1)(s-1)],&s\ge2.\end{cases}
+$$
+
 Choose a smooth nonnegative radial compactly supported kernel $J$, positive near zero, normalized by $\tfrac12\int_{\mathbb R^d}J(z)z_1^2\,dz=1$, and $J_\varepsilon(z)=\varepsilon^{-d}J(z/\varepsilon)$. Let $u^\varepsilon$ be the global nonnegative strong solution of
-$$\partial_tu_i^\varepsilon=\varepsilon^{-2}\int_\Omega J_\varepsilon(x-y)[P_i(u^\varepsilon(y))-P_i(u^\varepsilon(x))]dy+u_i^\varepsilon f_i(u^\varepsilon)$$
+
+$$
+\partial_tu_i^\varepsilon=\varepsilon^{-2}\int_\Omega J_\varepsilon(x-y)[P_i(u^\varepsilon(y))-P_i(u^\varepsilon(x))]dy+u_i^\varepsilon f_i(u^\varepsilon)
+$$
+
 with fixed nonnegative $u_i^0\in L^\infty(\Omega)\cap BV(\Omega)$.
 
 As $\varepsilon\downarrow0$, does a subsequence converge strongly in $L^1((0,T)\times\Omega)^n$ for every finite $T$ to a global weak solution of
-$$\partial_tu_i=\Delta P_i(u)+u_if_i(u),\qquad\partial_\nu P_i(u)=0,\qquad u_i(0)=u_i^0?$$
+
+$$
+\partial_tu_i=\Delta P_i(u)+u_if_i(u),\qquad\partial_\nu P_i(u)=0,\qquad u_i(0)=u_i^0?
+$$
+
 The limiting fluxes and reactions must pass to the limit in the weak formulation, not just the densities.
 
 ## Application

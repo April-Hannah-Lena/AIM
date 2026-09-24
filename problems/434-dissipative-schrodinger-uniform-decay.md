@@ -8,11 +8,23 @@
 ## Problem statement
 
 Let $V_1,V_2\in C^\infty(\mathbb R^d;\mathbb R)$, $V_2\ge0$, $V_2\not\equiv0$, and assume that for some $\rho>0$,
-$$|\partial^\beta V_j(x)|\le C_\beta\langle x\rangle^{-\rho-|\beta|}\quad(j=1,2).$$
+
+$$
+|\partial^\beta V_j(x)|\le C_\beta\langle x\rangle^{-\rho-|\beta|}\quad(j=1,2).
+$$
+
 Set $P_h=-h^2\Delta+V_1-ihV_2$, $S_h(t)=e^{-itP_h/h}$, and let $x(t;y,\eta)$ be the position component of the Hamiltonian flow of $|\xi|^2+V_1(x)$ starting at $(y,\eta)$. Fix $s>0$. Suppose
-$$\lim_{t\to\infty}\sup_{(y,\eta)\in\mathbb R^{2d}}\langle x(t;y,\eta)\rangle^{-s}\exp\!\left(-2\int_0^tV_2(x(\tau;y,\eta))\,d\tau\right)\langle y\rangle^{-s}=0.$$
+
+$$
+\lim_{t\to\infty}\sup_{(y,\eta)\in\mathbb R^{2d}}\langle x(t;y,\eta)\rangle^{-s}\exp\!\left(-2\int_0^tV_2(x(\tau;y,\eta))\,d\tau\right)\langle y\rangle^{-s}=0.
+$$
+
 Must there exist $h_0>0$ such that
-$$\lim_{t\to\infty}\sup_{0<h\le h_0}\|\langle x\rangle^{-s}S_h(t)\langle x\rangle^{-s}\|_{L^2\to L^2}=0?$$
+
+$$
+\lim_{t\to\infty}\sup_{0<h\le h_0}\|\langle x\rangle^{-s}S_h(t)\langle x\rangle^{-s}\|_{L^2\to L^2}=0?
+$$
+
 The conclusion includes the zero-energy threshold and does not insert an energy cutoff.
 
 ## Application

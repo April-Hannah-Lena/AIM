@@ -9,11 +9,13 @@
 ## Problem statement
 
 Let $D\subset\mathbb C$ be a bounded simply connected smooth domain with four distinct boundary points $a,b,c,d$ in counterclockwise cyclic order. On the induced nearest-neighbor graph $D\cap\delta\mathbb Z^2$, declare each edge open independently with probability $1/2$. Let $P_\delta$ be the probability of an open path connecting the lattice approximations of boundary arcs $ab$ and $cd$; use vertices within $2\delta$ of those arcs. Choose a conformal map to the upper half-plane sending $(a,b,c,d)$ to $(0,\eta,1,\infty)$, with $0<\eta<1$. Prove or disprove
+
 $$
 \lim_{\delta\downarrow0}P_\delta
 =\frac{\Gamma(2/3)}{\Gamma(1/3)\Gamma(4/3)}
 \eta^{1/3}\,{}_2F_1(1/3,2/3;4/3;\eta).
 $$
+
 Here $\Gamma$ is the gamma function and $\,{}_2F_1$ the Gauss hypergeometric function.
 
 ## Application

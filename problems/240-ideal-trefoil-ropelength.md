@@ -8,10 +8,14 @@
 
 ## Problem statement
 
-For a closed $C^{1,1}$ embedded curve $\gamma:S^1\to\mathbb R^3$, define its thickness $\tau(\gamma)$ as its reach: the supremum of $r>0$ such that every point at distance less than $r$ from the curve has a unique nearest point on it. Define ropelength by $\mathcal R(\gamma)=\operatorname{Length}(\gamma)/\tau(\gamma)$.
+For a closed $C^{1,1}$ embedded curve $\gamma:S^1\to\mathbb R^3$, define its thickness $\tau(\gamma)$ as its reach: the supremum of $r>0$ such that every point at distance less than $r$ from the curve has a unique nearest point on it. Define ropelength by $\mathcal R(\gamma)=\mathop{\mathrm{Length}}\nolimits(\gamma)/\tau(\gamma)$.
 
 Determine the exact value
-$$\mathcal R_{3_1}=\inf\{\mathcal R(\gamma):\gamma\text{ is ambient isotopic to a trefoil}\}.$$
+
+$$
+\mathcal R_{3_1}=\inf\{\mathcal R(\gamma):\gamma\text{ is ambient isotopic to a trefoil}\}.
+$$
+
 A trefoil is the knot type represented, for $t\in[0,2\pi]$, by $((2+\cos3t)\cos2t,(2+\cos3t)\sin2t,\sin3t)$. Ambient isotopy means deformation by a continuous family of homeomorphisms of $\mathbb R^3$. Thickness here is a tube radius, not its diameter.
 
 ## Application

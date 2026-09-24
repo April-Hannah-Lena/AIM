@@ -8,22 +8,28 @@
 
 Let $d\ge2$ and let $X$ be a nonempty pure $d$-dimensional simplicial complex, possibly infinite. For a $(d-1)$-simplex $\sigma$, let $\deg(\sigma)$ count its incident $d$-simplices and put
 
-$$D=\sup_{\sigma\in X^{d-1}}\deg(\sigma).$$
+$$
+D=\sup_{\sigma\in X^{d-1}}\deg(\sigma).
+$$
 
 Choose orientations and give $(d-1)$-cochains the Hilbert norm
 
-$$\|f\|^2=\sum_{\sigma\in X^{d-1}}\deg(\sigma)|f(\sigma)|^2.$$
+$$
+\|f\|^2=\sum_{\sigma\in X^{d-1}}\deg(\sigma)|f(\sigma)|^2.
+$$
 
 Give $d$-cochains the counting-measure norm. The usual simplicial coboundary
 
-$$ (\delta f)([v_0,\ldots,v_d])=
-\sum_{i=0}^d(-1)^i f([v_0,\ldots,\widehat v_i,\ldots,v_d]) $$
+$$
+(\delta f)([v_0,\ldots,v_d])=
+\sum_{i=0}^d(-1)^i f([v_0,\ldots,\widehat v_i,\ldots,v_d])
+$$
 
 defines a bounded operator between these spaces. Let $\Delta^+=\delta^*\delta$ be the normalized upper Laplacian on $(d-1)$-cochains.
 
 Prove or disprove the following two assertions:
 
-1. If $D\le d+1$, then $0\in\operatorname{Spec}(\Delta^+)$.
+1. If $D\le d+1$, then $0\in\mathop{\mathrm{Spec}}\nolimits(\Delta^+)$.
 2. If $D\le d$, then $\ker\Delta^+\ne\{0\}$: zero is an eigenvalue with a nonzero square-summable cochain.
 
 The spectrum is taken on the full cochain Hilbert space. No finite-degree assumption is imposed on lower-dimensional faces. Equivalently, the branching-walk operator $A_0=I-\Delta^+$ must have $1$ in its spectrum, and under the stronger degree bound must have a nonzero eigenvector at $1$.

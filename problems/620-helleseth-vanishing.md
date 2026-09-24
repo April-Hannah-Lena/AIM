@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $F=\mathbb F_q$, where $q=p^n>2$ and $p$ is prime. Let $d$ be a positive integer satisfying
-$$\gcd(d,q-1)=1,\qquad d\equiv1\pmod{p-1}.$$
-Write $\operatorname{Tr}:F\to\mathbb F_p$ for the absolute trace and define
-$$W_{F,d}(a)=\sum_{x\in F}\exp\!\left(\frac{2\pi i}{p}\operatorname{Tr}(x^d-ax)\right).$$
+
+$$
+\gcd(d,q-1)=1,\qquad d\equiv1\pmod{p-1}.
+$$
+
+Write $\mathop{\mathrm{Tr}}\nolimits:F\to\mathbb F_p$ for the absolute trace and define
+
+$$
+W_{F,d}(a)=\sum_{x\in F}\exp\!\left(\frac{2\pi i}{p}\mathop{\mathrm{Tr}}\nolimits(x^d-ax)\right).
+$$
+
 Does there always exist $a\in F\setminus\{0\}$ for which $W_{F,d}(a)=0$?
 
 This is Helleseth's vanishing conjecture, also called the $-1$ conjecture for cross-correlation of maximum-length sequences. Excluding $a=0$ is essential: the permutation condition already gives $W_{F,d}(0)=0$.

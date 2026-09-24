@@ -9,13 +9,25 @@
 ## Problem statement
 
 Fix an integer $d\ge2$. A finite set $P\subset\mathbb R^d$ is in general position if every subset of at most $d+1$ points is affinely independent. A peeling sequence is an ordering $(p_1,\ldots,p_n)$ of $P$ such that $p_i$ is a vertex of
-$$\operatorname{conv}\{p_i,p_{i+1},\ldots,p_n\}$$
+
+$$
+\mathop{\mathrm{conv}}\nolimits\{p_i,p_{i+1},\ldots,p_n\}
+$$
+
 for every $i$. Let $g_d(P)$ be the number of such orderings and let
-$$g_d(n)=\min_{|P|=n}g_d(P),$$
+
+$$
+g_d(n)=\min_{|P|=n}g_d(P),
+$$
+
 where the minimum is over sets in general position.
 
 Prove or disprove that for every fixed $d\ge2$ there are constants $\varepsilon_d>0$ and $c_d>0$, independent of $n$, such that
-$$g_d(n)\ge c_d(d+1+\varepsilon_d)^n\qquad(n\ge1).$$
+
+$$
+g_d(n)\ge c_d(d+1+\varepsilon_d)^n\qquad(n\ge1).
+$$
+
 The question is a strict improvement of the exponential base, not just a larger multiplicative constant.
 
 ## Application

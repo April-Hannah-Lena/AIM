@@ -10,13 +10,17 @@
 
 For $Z>0$ and $N\ge1$, let $E(N,Z)$ be the infimum of the spectrum of
 
-$$H_{N,Z}=\sum_{j=1}^N\left(-\frac12\Delta_{x_j}-\frac Z{|x_j|}\right)+\sum_{1\le i<j\le N}\frac1{|x_i-x_j|}$$
+$$
+H_{N,Z}=\sum_{j=1}^N\left(-\frac12\Delta_{x_j}-\frac Z{|x_j|}\right)+\sum_{1\le i<j\le N}\frac1{|x_i-x_j|}
+$$
 
 on the antisymmetric space $\bigwedge^N L^2(\mathbb R^3;\mathbb C^2)$, with its standard quadratic-form realization. Set $E(0,Z)=0$.
 
 For neutral atoms with integer $Z\ge1$, the first ionization energy is
 
-$$I_1(Z)=E(Z-1,Z)-E(Z,Z).$$
+$$
+I_1(Z)=E(Z-1,Z)-E(Z,Z).
+$$
 
 Prove or disprove that $\sup_{Z\in\mathbb N}I_1(Z)<\infty$. The nuclear mass is infinite and electron spin has exactly two states.
 

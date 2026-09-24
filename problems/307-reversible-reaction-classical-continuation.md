@@ -9,28 +9,36 @@
 ## Problem statement
 
 Let $I,J,n\ge1$ be integers and let $\Omega\subset\mathbb R^n$ be a bounded connected domain with smooth boundary. Consider distinct chemical species undergoing one reversible reaction
+
 $$
 \sum_{i=1}^{I}\alpha_i A_i\ \rightleftarrows\ \sum_{j=1}^{J}\beta_j B_j,
 \qquad \alpha_i,\beta_j\in\{1,2,\ldots\}.
 $$
+
 For concentrations $a=(a_1,\ldots,a_I)$ and $b=(b_1,\ldots,b_J)$, set
+
 $$
 R(a,b)=k_+\prod_{i=1}^{I}a_i^{\alpha_i}
        -k_-\prod_{j=1}^{J}b_j^{\beta_j},\qquad k_+,k_->0.
 $$
+
 Fix arbitrary constant diffusivities $d_i,e_j>0$ and solve
+
 $$
 \partial_t a_i-d_i\Delta a_i=-\alpha_i R(a,b),\qquad
 \partial_t b_j-e_j\Delta b_j=\beta_j R(a,b)
 $$
+
 in $(0,\infty)\times\Omega$, with $\partial_\nu a_i=\partial_\nu b_j=0$ on the boundary, where $\nu$ is the outward normal. The initial concentrations are arbitrary nonnegative smooth functions on $\overline\Omega$ satisfying these boundary conditions.
 
 Must the unique local nonnegative classical solution extend to every finite time? Equivalently, can finite-time concentration blowup be excluded for every such reaction, domain, set of coefficients and initial state? The required bound is
+
 $$
 \sup_{0\le t\le T}\left(\sum_{i=1}^{I}\|a_i(t)\|_{L^\infty(\Omega)}
 +\sum_{j=1}^{J}\|b_j(t)\|_{L^\infty(\Omega)}\right)<\infty
 \quad\text{for each }T<\infty.
 $$
+
 Here classical means continuous to the initial data and continuously differentiable in time and twice in space for positive times, satisfying the equations and boundary conditions pointwise. Bounds may depend on $T$, the data and all coefficients. No upper bound on reaction order, smallness of the initial data, or closeness of diffusivities is assumed. This is the single-reaction, disjoint-species version of the broader chemical reaction-network regularity question; its parameter cases count as one entry.
 
 ## Application

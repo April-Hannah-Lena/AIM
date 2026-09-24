@@ -9,8 +9,12 @@
 ## Problem statement
 
 For $n\ge2$, $A\in\mathbb C^{n\times n}$ with $\|A\|_2\le1$, and $0<\delta<1$, construct a deterministic algorithm using $O(n^3\log^c(n/\delta))$ arithmetic operations that outputs $E$ with $\|E\|_2\le\delta$ such that $B=A+E$ has distinct eigenvalues and
-$$\frac{\kappa_V(B)}{\operatorname{gap}(B)}\le C(n/\delta)^c.$$
-Here $\operatorname{gap}(B)=\min_{i\ne j}|\lambda_i(B)-\lambda_j(B)|$ and $\kappa_V(B)=\inf\{\|V\|_2\|V^{-1}\|_2:B=VDV^{-1},\ D\text{ diagonal}\}$. The constants $C,c$ must be universal. The task is to find the perturbation; a full diagonalization is not required.
+
+$$
+\frac{\kappa_V(B)}{\mathop{\mathrm{gap}}\nolimits(B)}\le C(n/\delta)^c.
+$$
+
+Here $\mathop{\mathrm{gap}}\nolimits(B)=\min_{i\ne j}|\lambda_i(B)-\lambda_j(B)|$ and $\kappa_V(B)=\inf\{\|V\|_2\|V^{-1}\|_2:B=VDV^{-1},\ D\text{ diagonal}\}$. The constants $C,c$ must be universal. The task is to find the perturbation; a full diagonalization is not required.
 
 ## Application
 

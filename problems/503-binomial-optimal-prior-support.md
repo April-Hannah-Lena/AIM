@@ -9,21 +9,27 @@
 ## Problem statement
 
 For each integer $n\ge1$, let a parameter $\Theta\in[0,1]$ have probability law $\pi$, and observe
+
 $$
-Y\mid\Theta=\theta\sim\operatorname{Binomial}(n,\theta).
+Y\mid\Theta=\theta\sim\mathop{\mathrm{Binomial}}\nolimits(n,\theta).
 $$
+
 Write $b_{n,y}(\theta)=\binom ny\theta^y(1-\theta)^{n-y}$, using $0^0=1$, and $q_\pi(y)=\int b_{n,y}(\theta)\,\pi(d\theta)$. Define the mutual information, with natural logarithms, by
+
 $$
 I_n(\pi)=\sum_{y=0}^n\int_{[0,1]} b_{n,y}(\theta)
 \log\frac{b_{n,y}(\theta)}{q_\pi(y)}\,\pi(d\theta).
 $$
-Terms on events of zero probability contribute zero. Let $\pi_n^*$ maximize $I_n$ over all Borel probability laws on $[0,1]$. This maximizer is known to be unique and finitely supported; put $K_n=|\operatorname{supp}\pi_n^*|$.
+
+Terms on events of zero probability contribute zero. Let $\pi_n^*$ maximize $I_n$ over all Borel probability laws on $[0,1]$. This maximizer is known to be unique and finitely supported; put $K_n=|\mathop{\mathrm{supp}}\nolimits\pi_n^*|$.
 
 Prove or disprove the binomial case of the optimal-prior scaling conjecture:
+
 $$
 \lim_{n\to\infty}\frac{\log K_n}{\log n}=\frac23,
 \qquad\text{equivalently }K_n=n^{2/3+o(1)}.
 $$
+
 The target concerns the exact maximizing law at every $n$. A law attaining capacity within a vanishing error, or numerical support counts up to a fixed $n$, does not establish it. This logarithmic-exponent assertion does not additionally demand a limiting constant for $K_n/n^{2/3}$.
 
 ## Application

@@ -9,13 +9,25 @@
 ## Problem statement
 
 For $\mathbb F\in\{\mathbb R,\mathbb C\}$ and $n\ge1$, define
-$$\mathcal H_n(\mathbb F)=\{B\in\mathbb F^{n\times n}:\operatorname{Re}\lambda\le0\text{ for every }\lambda\in\sigma(B)\}.$$
+
+$$
+\mathcal H_n(\mathbb F)=\{B\in\mathbb F^{n\times n}:\mathop{\mathrm{Re}}\nolimits\lambda\le0\text{ for every }\lambda\in\sigma(B)\}.
+$$
+
 For $A\in\mathbb R^{n\times n}$ put
-$$d_{\mathbb F}(A)=\min_{B\in\mathcal H_n(\mathbb F)}\|A-B\|_F,$$
+
+$$
+d_{\mathbb F}(A)=\min_{B\in\mathcal H_n(\mathbb F)}\|A-B\|_F,
+$$
+
 where $\|M\|_F^2=\sum_{i,j}|M_{ij}|^2$.
 
 Prove or disprove the Noferini–Poloni conjecture that
-$$d_{\mathbb R}(A)=d_{\mathbb C}(A)$$
+
+$$
+d_{\mathbb R}(A)=d_{\mathbb C}(A)
+$$
+
 for every real square matrix $A$. Equivalently, does the complex minimization problem always have a real global minimizer?
 
 The admissible spectral region is the **closed** left half-plane. Eigenvalues on the imaginary axis may have arbitrary Jordan blocks; no semisimplicity condition is imposed. The minima exist because these feasible sets are nonempty and closed and the objective is coercive.

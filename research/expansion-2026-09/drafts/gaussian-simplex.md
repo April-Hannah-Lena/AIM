@@ -11,7 +11,7 @@
 Let $q\ge4$, $n\ge q-1$ and $0<\rho<1$. Let $X,Z$ be independent standard Gaussian vectors in $\mathbb R^n$ and put $Y=\rho X+\sqrt{1-\rho^2}Z$. For a measurable partition $\mathcal A=(A_1,\ldots,A_q)$ satisfying $\gamma_n(A_i)=1/q$, define
 
 $$
-\operatorname{Stab}_{\rho}(\mathcal A)
+\mathop{\mathrm{Stab}}\nolimits_{\rho}(\mathcal A)
 =\sum_{i=1}^{q}\mathbb P\{X\in A_i,\ Y\in A_i\}.
 $$
 
@@ -25,8 +25,8 @@ $$
 Ties may be assigned arbitrarily, since their Gaussian measure is zero. Does every such balanced partition satisfy
 
 $$
-\operatorname{Stab}_{\rho}(\mathcal A)
-\le\operatorname{Stab}_{\rho}(\mathcal S)?
+\mathop{\mathrm{Stab}}\nolimits_{\rho}(\mathcal A)
+\le\mathop{\mathrm{Stab}}\nolimits_{\rho}(\mathcal S)?
 $$
 
 The question covers all measurable partitions and every fixed positive correlation. No smoothness or hyperstability hypothesis is imposed. This is the $q\ge4$ part of the balanced, positive-correlation standard simplex conjecture.

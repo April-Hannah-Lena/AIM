@@ -9,12 +9,23 @@
 ## Problem statement
 
 Fix $\theta\in(0,1)$ and $\varepsilon>0$, and let $k=\lfloor n^\theta\rfloor$. Choose an unknown infected set $S\subseteq\{1,\ldots,n\}$ uniformly among the sets of size $k$. Independently form a binary testing matrix $X\in\{0,1\}^{N\times n}$ with independent entries of success probability
-$$q=1-2^{-1/k},\qquad N=\left\lceil(1+\varepsilon)\log_2\binom nk\right\rceil.$$
+
+$$
+q=1-2^{-1/k},\qquad N=\left\lceil(1+\varepsilon)\log_2\binom nk\right\rceil.
+$$
+
 The noiseless outcome of test $a$ is
-$$Y_a=\boldsymbol1\{\text{some }i\in S\text{ has }X_{ai}=1\}.$$
+
+$$
+Y_a=\boldsymbol1\{\text{some }i\in S\text{ has }X_{ai}=1\}.
+$$
 
 For every fixed $\theta$ and $\varepsilon$ as above, does there exist a possibly randomized decoder, with running time polynomial in $n$, which receives $(X,Y,k)$ and returns a set $\widehat S$ of size $k$ such that
-$$\frac{|\widehat S\triangle S|}{k}\xrightarrow{\mathbb P}0\qquad(n\to\infty)?$$
+
+$$
+\frac{|\widehat S\triangle S|}{k}\xrightarrow{\mathbb P}0\qquad(n\to\infty)?
+$$
+
 Probability is over the infected set, testing matrix and decoder randomness. The polynomial and algorithm may depend on the fixed parameters $\theta,\varepsilon$. The design is prescribed; the decoder cannot replace it with another pooling scheme.
 
 This asks whether polynomial-time approximate recovery can approach the Bernoulli design's information threshold with an arbitrarily small fixed multiplicative overhead. It does not request exact support recovery or success with literally zero overhead.

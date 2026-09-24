@@ -9,11 +9,19 @@
 ## Problem statement
 
 Let $(M,g)$ be a smooth compact Riemannian manifold, possibly with smooth boundary, and let $dV_g$ denote its volume measure. Let $\rho\ge0$ satisfy $\int_M\rho\,dV_g=1$ and $\sqrt\rho\in H^1(M)$. Its Fisher information is
-$$I(\rho)=4\int_M|\nabla\sqrt\rho|_g^2\,dV_g<\infty.$$
+
+$$
+I(\rho)=4\int_M|\nabla\sqrt\rho|_g^2\,dV_g<\infty.
+$$
+
 Define the score $s_\rho=2\nabla\sqrt\rho/\sqrt\rho$ on $\{\rho>0\}$ and zero elsewhere.
 
 Prove or disprove the conjecture following Theorem 4 of [1]: there exist $\varphi_j\in C^1(M)$, continuously differentiable up to the boundary, such that
-$$\int_M|\nabla\varphi_j-s_\rho|_g^2\rho\,dV_g\longrightarrow0.$$
+
+$$
+\int_M|\nabla\varphi_j-s_\rho|_g^2\rho\,dV_g\longrightarrow0.
+$$
+
 No convexity, uniform positivity, upper bound on $\rho$, or boundary condition on $\varphi_j$ is assumed.
 
 ## Application

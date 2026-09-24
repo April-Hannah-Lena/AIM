@@ -9,10 +9,23 @@
 ## Problem statement
 
 For every Mach number $\mathcal M>1$, set
-$$\rho_-=T_-=1,\quad u_-=\sqrt{5/3}\,\mathcal M,\quad r=\frac{4\mathcal M^2}{\mathcal M^2+3},\quad\rho_+=r,\quad u_+=u_-/r,\quad T_+=\frac{(5\mathcal M^2-1)(\mathcal M^2+3)}{16\mathcal M^2}.$$
+
+$$
+\rho_-=T_-=1,\quad u_-=\sqrt{5/3}\,\mathcal M,\quad r=\frac{4\mathcal M^2}{\mathcal M^2+3},\quad\rho_+=r,\quad u_+=u_-/r,\quad T_+=\frac{(5\mathcal M^2-1)(\mathcal M^2+3)}{16\mathcal M^2}.
+$$
+
 Let $M_\pm(v)=\rho_\pm(2\pi T_\pm)^{-3/2}\exp(-|v-u_\pm e_1|^2/(2T_\pm))$. Does there exist a nonnegative stationary planar profile $F(z,v)$ satisfying
-$$v_1\partial_zF=Q(F,F),\qquad z\in\mathbb R,\ v\in\mathbb R^3,$$
-$$Q(F,F)(v)=\int_{\mathbb R^3}\int_{\mathbb S^2}|(v-v_*)\cdot\omega|[F(v')F(v_*')-F(v)F(v_*)]\,d\omega\,dv_*,$$
+
+$$
+v_1\partial_zF=Q(F,F),\qquad z\in\mathbb R,\ v\in\mathbb R^3,
+$$
+
+
+
+$$
+Q(F,F)(v)=\int_{\mathbb R^3}\int_{\mathbb S^2}|(v-v_*)\cdot\omega|[F(v')F(v_*')-F(v)F(v_*)]\,d\omega\,dv_*,
+$$
+
 where $v'=v-((v-v_*)\cdot\omega)\omega$ and $v_*'=v_*+((v-v_*)\cdot\omega)\omega$, such that $F(z,\cdot)\to M_\pm$ in $L^1((1+|v|^2)\,dv)$ as $z\to\pm\infty$? Require continuity into this weighted space, locally finite entropy and a distributional solution of the profile equation. The end states obey the monatomic ideal-gas Rankine–Hugoniot relations; their jump need not be small.
 
 ## Application

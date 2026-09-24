@@ -10,7 +10,9 @@
 
 Fix an integer $n\ge5$ and an area $A>0$. For every simple planar polygon $P$ with exactly $n$ sides and area $A$, let $\lambda_1(P)$ be the least eigenvalue of $-\Delta$ with zero Dirichlet boundary values. If $R_n$ is the regular $n$-gon of area $A$, prove or disprove
 
-$$\lambda_1(P)\ge\lambda_1(R_n),$$
+$$
+\lambda_1(P)\ge\lambda_1(R_n),
+$$
 
 with equality only for polygons congruent to $R_n$. The polygon need not be convex.
 

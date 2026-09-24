@@ -54,7 +54,7 @@ Integer 3SUM is a reference problem for the limits of exact combinatorial algori
 
 ## Status review
 
-The current July and August 2026 sources [3, 6] independently retain the general fixed-power hypothesis. The July account gives the best general integer running time as $n^2\operatorname{poly}(\log\log n)/(\log n)^2$. It remains $n^{2-o(1)}$. The original strict-quadratic real-input conjecture was refuted in [4]; its Theorem 1.1 provides logarithmic algorithmic savings and a much smaller decision-tree depth. Counting comparisons in a decision tree does not supply a uniform machine implementation with that total running time.
+The current July and August 2026 sources [3, 6] independently retain the general fixed-power hypothesis. The July account gives the best general integer running time as $n^2\mathop{\mathrm{poly}}\nolimits(\log\log n)/(\log n)^2$. It remains $n^{2-o(1)}$. The original strict-quadratic real-input conjecture was refuted in [4]; its Theorem 1.1 provides logarithmic algorithmic savings and a much smaller decision-tree depth. Counting comparisons in a decision tree does not supply a uniform machine implementation with that total running time.
 
 Chan's Corollary 3.12 also retains exponent two at logarithmic word size [10]. Its §1 restates the logarithmic improvements by Freund and Gold–Sharir. Freund's publisher abstract was accessible, but the original subscription-restricted proof was not read; the exact bound was checked in Chan's full text. Algebraic 3SUM similarly has a fixed-power saving in decision-tree depth and only a logarithmic saving in its uniform algorithm [12]. Sopin's full runtime analysis requires sufficiently few surviving tuples after filtering, an additional condition not guaranteed for every input [11].
 

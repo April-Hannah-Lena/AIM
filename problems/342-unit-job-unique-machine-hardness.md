@@ -21,7 +21,7 @@ and, for distinct jobs $u,v$ with $M(u)=M(v)$, the intervals $[s(u),s(u)+1)$ and
 $$
 C_{\max}(s)=\max_{j\in J}(s(j)+1),
 \qquad
-\operatorname{OPT}(I)=\min_{s\text{ feasible}}C_{\max}(s).
+\mathop{\mathrm{OPT}}\nolimits(I)=\min_{s\text{ feasible}}C_{\max}(s).
 $$
 
 Integer starting times suffice: keep each machine's job order from any feasible schedule and move jobs to their earliest permitted times. The resulting precedence and machine-order graph is acyclic, so its longest-path schedule has integer times and no larger makespan.
@@ -29,7 +29,7 @@ Integer starting times suffice: keep each machine's job order from any feasible 
 Prove or disprove the **UMPS polynomial-factor hardness conjecture**: there is an absolute constant $\varepsilon\in(0,1)$ such that approximating this optimum within a factor $n^{\varepsilon}$ is NP-hard. Here an approximation algorithm must return a feasible schedule satisfying
 
 $$
-C_{\max}(s)\leq n^{\varepsilon}\operatorname{OPT}(I)
+C_{\max}(s)\leq n^{\varepsilon}\mathop{\mathrm{OPT}}\nolimits(I)
 $$
 
 on every instance and run in time polynomial in the explicit input length. NP-hardness is meant under polynomial-time reductions; it would rule out such a deterministic algorithm if $\mathsf P\ne\mathsf{NP}$. The conjecture asks for a fixed positive exponent, not merely exact optimization hardness or a fixed constant approximation barrier. It is Conjecture 1.1 in the published original [1], numbered Conjecture 2 in its preprint.

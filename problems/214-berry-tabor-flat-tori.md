@@ -9,13 +9,24 @@
 ## Problem statement
 
 For $\alpha=(\alpha_1,\alpha_2,\alpha_3)\in\mathbb R^3$ with $\alpha_1>0$ and $4\alpha_1\alpha_3>\alpha_2^2$, define
-$$q_\alpha(m,n)=\alpha_1m^2+\alpha_2mn+\alpha_3n^2.$$
+
+$$
+q_\alpha(m,n)=\alpha_1m^2+\alpha_2mn+\alpha_3n^2.
+$$
+
 Arrange the positive numbers
-$$\frac{\pi q_\alpha(m,n)}{\sqrt{4\alpha_1\alpha_3-\alpha_2^2}},\qquad (m,n)\in\mathbb Z^2,\quad m>0\text{ or }(m=0,n>0),$$
+
+$$
+\frac{\pi q_\alpha(m,n)}{\sqrt{4\alpha_1\alpha_3-\alpha_2^2}},\qquad (m,n)\in\mathbb Z^2,\quad m>0\text{ or }(m=0,n>0),
+$$
+
 in increasing order with multiplicity as $\lambda_1\le\lambda_2\le\cdots$. The normalization gives asymptotic mean spacing one and removes the automatic multiplicity from $(m,n)\leftrightarrow(-m,-n)$.
 
 For Lebesgue-almost every such $\alpha$, is it true simultaneously for every $s\ge0$ that
-$$\lim_{N\to\infty}\frac1N\#\{j\le N:\lambda_{j+1}-\lambda_j\le s\}=1-e^{-s}?$$
+
+$$
+\lim_{N\to\infty}\frac1N\#\{j\le N:\lambda_{j+1}-\lambda_j\le s\}=1-e^{-s}?
+$$
 
 ## Application
 

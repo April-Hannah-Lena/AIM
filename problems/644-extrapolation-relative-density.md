@@ -11,7 +11,11 @@
 For $\lambda\in\mathbb C$, let $Q_\lambda$ be the smallest set containing $0,1$ and closed under $(a,b)\mapsto(1-\lambda)a+\lambda b$, without taking a topological closure.
 
 Set $X_\lambda=\mathbb R$ when $\lambda\in\mathbb R\setminus[0,1]$, and $X_\lambda=\mathbb C$ when $\lambda\notin\mathbb R$. Is $Q_\lambda$ relatively dense in $X_\lambda$ for every such parameter? Explicitly, is there a finite constant $R_\lambda$ such that
-$$\forall z\in X_\lambda\quad\exists q\in Q_\lambda:\quad |z-q|\le R_\lambda?$$
+
+$$
+\forall z\in X_\lambda\quad\exists q\in Q_\lambda:\quad |z-q|\le R_\lambda?
+$$
+
 The radius may depend on $\lambda$. If the universal assertion fails, characterize the parameters for which it holds.
 
 ## Application

@@ -9,10 +9,12 @@
 ## Problem statement
 
 Fix $\theta_0\in S^2$ and $R>0$. Let $c\in C^\infty(\mathbb R^3)$ be positive and equal to one outside $B_R$. For each $k>0$, solve
+
 $$
 (\Delta+k^2c(x)^{-2})u=0,\qquad
 u=e^{ikx\cdot\theta_0}+u^s,
 $$
+
 with outgoing scattered field. Write
 $u^s(r\omega)=r^{-1}e^{ikr}a_c(\omega,k)+O(r^{-2})$.
 

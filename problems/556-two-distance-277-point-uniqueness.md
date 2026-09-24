@@ -9,11 +9,22 @@
 ## Problem statement
 
 For a finite set $X\subset\mathbb R^{23}$, put
-$$D(X)=\{\|x-y\|_2:x,y\in X,\ x\ne y\}.$$
+
+$$
+D(X)=\{\|x-y\|_2:x,y\in X,\ x\ne y\}.
+$$
+
 Is every pair of sets $X,Y\subset\mathbb R^{23}$ satisfying
-$$|X|=|Y|=277,\qquad |D(X)|=|D(Y)|=2$$
+
+$$
+|X|=|Y|=277,\qquad |D(X)|=|D(Y)|=2
+$$
+
 related by a Euclidean similarity? Explicitly, must there exist $\lambda>0$, an orthogonal matrix $Q\in\mathbb R^{23\times23}$ and $t\in\mathbb R^{23}$ such that
-$$Y=\{t+\lambda Qx:x\in X\}?$$
+
+$$
+Y=\{t+\lambda Qx:x\in X\}?
+$$
 
 Existence of such sets is known. The question is whether they form a single similarity class. No prescribed distance ratio, spherical constraint or containment of a particular smaller configuration is assumed. This is the uniqueness question posed in §3 of [1].
 

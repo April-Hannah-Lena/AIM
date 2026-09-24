@@ -8,13 +8,17 @@
 
 For a simplicial complex $X$ and a vertex subset $U$, write $X[U]$ for its induced subcomplex. Call a nonempty complex $X$ **three-ample** if, for every $U\subseteq V(X)$ with $|U|\le3$ and every simplicial subcomplex $A\subseteq X[U]$, there is a vertex $v\in V(X)\setminus U$ such that
 
-$$\operatorname{Lk}_X(v)\cap X[U]=A.$$
+$$
+\mathop{\mathrm{Lk}}\nolimits_X(v)\cap X[U]=A.
+$$
 
 Here $A$ can be empty and need not be induced. The link consists of simplices $\sigma$ not containing $v$ for which $\sigma\cup\{v\}$ is a simplex of $X$.
 
 Does there exist a **finite** three-ample simplicial complex with
 
-$$\pi_1(|X|)\ne\{1\}?$$
+$$
+\pi_1(|X|)\ne\{1\}?
+$$
 
 Every three-ample complex is connected, so the fundamental group can be taken at any basepoint. No restriction to flag complexes is imposed.
 

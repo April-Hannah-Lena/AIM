@@ -10,12 +10,12 @@
 
 An input is any finite sequence $I=(s_1,\ldots,s_n)$ of rational item sizes $0<s_i\le1$. Items arrive one at a time, and the length $n$ is not announced. An algorithm must assign each arriving item to a bin before seeing the next item. Every bin has capacity $1$: the sum of its assigned sizes must never exceed $1$. Assignments are irrevocable, and arbitrarily many bins are available.
 
-For a deterministic online algorithm $A$, let $A(I)$ be the number of nonempty bins it uses. Let $\operatorname{OPT}(I)$ be the minimum number of bins achievable with the entire sequence known in advance. Define
+For a deterministic online algorithm $A$, let $A(I)$ be the number of nonempty bins it uses. Let $\mathop{\mathrm{OPT}}\nolimits(I)$ be the minimum number of bins achievable with the entire sequence known in advance. Define
 
 $$
 R_\infty(A)=\lim_{N\to\infty}
-\sup_{\substack{I:\ \operatorname{OPT}(I)\ge N}}
-\frac{A(I)}{\operatorname{OPT}(I)},
+\sup_{\substack{I:\ \mathop{\mathrm{OPT}}\nolimits(I)\ge N}}
+\frac{A(I)}{\mathop{\mathrm{OPT}}\nolimits(I)},
 \qquad
 R_*=\inf_A R_\infty(A).
 $$
@@ -29,7 +29,7 @@ $$
 \ \le R_*\ \le 1.57828956,
 $$
 
-with the lower endpoint approximately $1.5427809065$. The task is to determine the optimum over all algorithms, rather than the performance of a particular heuristic. The definition does not assume that an algorithm attains the infimum. It also differs from the absolute competitive ratio, which takes a supremum over inputs of every size without the large-$\operatorname{OPT}$ limit.
+with the lower endpoint approximately $1.5427809065$. The task is to determine the optimum over all algorithms, rather than the performance of a particular heuristic. The definition does not assume that an algorithm attains the infimum. It also differs from the absolute competitive ratio, which takes a supremum over inputs of every size without the large-$\mathop{\mathrm{OPT}}\nolimits$ limit.
 
 ## Applied significance
 

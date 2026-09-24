@@ -9,8 +9,12 @@
 ## Problem statement
 
 For an integer $e\ge1$, let
-$$t(e)=\max\{\operatorname{tw}(G):G\text{ is a finite simple graph with }|E(G)|=e\}.$$
-Here a tree decomposition consists of vertex sets indexed by the nodes of a tree, with every graph vertex in some set, both endpoints of every edge in some set, and the sets containing any fixed vertex forming a connected subtree. Its width is the largest set size minus one, and $\operatorname{tw}(G)$ is the minimum such width.
+
+$$
+t(e)=\max\{\mathop{\mathrm{tw}}\nolimits(G):G\text{ is a finite simple graph with }|E(G)|=e\}.
+$$
+
+Here a tree decomposition consists of vertex sets indexed by the nodes of a tree, with every graph vertex in some set, both endpoints of every edge in some set, and the sets containing any fixed vertex forming a connected subtree. Its width is the largest set size minus one, and $\mathop{\mathrm{tw}}\nolimits(G)$ is the minimum such width.
 
 Determine $t(e)$ for general $e$: find a sharp edge-count bound valid for every finite simple graph and graph constructions attaining it. Equivalently, determine the minimum number of edges needed for treewidth at least $k$, for every positive integer $k$. Exhaustive enumeration for finitely many edge counts does not settle the general extremal question.
 
@@ -26,9 +30,13 @@ Exact computation of structured higher-order $U$-statistics can be reduced to te
 ## Status review
 
 **Known cases:** Reference1 proves
-$$t(e)=1\ (1\le e\le2),\quad 2\ (3\le e\le5),\quad
-3\ (6\le e\le9),\quad4\ (10\le e\le14),\quad t(15)=5.$$
-Reference2 gives the general upper bound $\operatorname{tw}(G)\le |E(G)|/5.769+O(\log |V(G)|)$. Isolated vertices can be removed, so this yields $t(e)\le e/5.769+O(\log e)$. Clique constructions give $t(e)\ge\lfloor(\sqrt{8e+1}-1)/2\rfloor$ by adding disjoint edges as needed; this elementary lower bound is not claimed optimal.
+
+$$
+t(e)=1\ (1\le e\le2),\quad 2\ (3\le e\le5),\quad
+3\ (6\le e\le9),\quad4\ (10\le e\le14),\quad t(15)=5.
+$$
+
+Reference2 gives the general upper bound $\mathop{\mathrm{tw}}\nolimits(G)\le |E(G)|/5.769+O(\log |V(G)|)$. Isolated vertices can be removed, so this yields $t(e)\le e/5.769+O(\log e)$. Clique constructions give $t(e)\ge\lfloor(\sqrt{8e+1}-1)/2\rfloor$ by adding disjoint edges as needed; this elementary lower bound is not claimed optimal.
 
 **Remaining target:** The sharp extremal function for unbounded edge counts. The listed small cases and general upper bound do not determine it.
 

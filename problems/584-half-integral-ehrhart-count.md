@@ -9,11 +9,19 @@
 ## Problem statement
 
 For a two-dimensional convex polygon $P$ with vertices in $\tfrac12\mathbb Z^2$, define its Ehrhart quasipolynomial by
-$$L_P(t)=|tP\cap\mathbb Z^2|\qquad(t\in\mathbb Z_{\ge0}).$$
+
+$$
+L_P(t)=|tP\cap\mathbb Z^2|\qquad(t\in\mathbb Z_{\ge0}).
+$$
+
 Its coefficient functions have period dividing two; integral polygons and polygons with period collapse are included.
 
 For an integer $i\ge2$, let $E(i)$ be the number of distinct functions $L_P$ arising from such polygons with exactly $i$ interior lattice points and at least two boundary lattice points. Prove or disprove that
-$$E(i)=\frac92 i^3+36i^2+\frac{175}{2}i+53\qquad(i\ge2).$$
+
+$$
+E(i)=\frac92 i^3+36i^2+\frac{175}{2}i+53\qquad(i\ge2).
+$$
+
 Different polygons with the same lattice-point counting function contribute only once. There is no collinearity assumption on the interior points.
 
 ## Application

@@ -9,10 +9,18 @@
 ## Problem statement
 
 Let $n\ge1$, let $A=(a_{ij})\in\mathbb C^{n\times n}$ be Hermitian positive semidefinite, and let $\chi$ be any irreducible character of the permutation group $S_n$. Define
-$$d_\chi(A)=\sum_{\sigma\in S_n}\chi(\sigma)\prod_{i=1}^n a_{i,\sigma(i)},\qquad
-\operatorname{per}A=\sum_{\sigma\in S_n}\prod_{i=1}^n a_{i,\sigma(i)}.$$
+
+$$
+d_\chi(A)=\sum_{\sigma\in S_n}\chi(\sigma)\prod_{i=1}^n a_{i,\sigma(i)},\qquad
+\mathop{\mathrm{per}}\nolimits A=\sum_{\sigma\in S_n}\prod_{i=1}^n a_{i,\sigma(i)}.
+$$
+
 Prove or disprove
-$$\frac{d_\chi(A)}{\chi(e)}\le\operatorname{per}A$$
+
+$$
+\frac{d_\chi(A)}{\chi(e)}\le\mathop{\mathrm{per}}\nolimits A
+$$
+
 for every such $n,A,\chi$, where $e$ denotes the identity permutation. On this matrix class these quantities are real.
 
 ## Application

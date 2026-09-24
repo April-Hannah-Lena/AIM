@@ -11,10 +11,12 @@
 A compact Riemannian manifold with boundary is called simple here if its boundary is strictly convex and any two points are joined by a unique geodesic depending smoothly on the endpoints. Let $M$ be a compact smooth manifold of dimension $n\geq3$, and let $g_1,g_2$ be smooth simple metrics.
 
 Prove or disprove Michel's boundary rigidity conjecture:
+
 $$
 d_{g_1}(x,y)=d_{g_2}(x,y)\quad(x,y\in\partial M)
 \quad\Longrightarrow\quad g_1=F^*g_2
 $$
+
 for a diffeomorphism $F:M\to M$ satisfying $F|_{\partial M}=\mathrm{Id}$. Here $d_g$ is the intrinsic Riemannian distance. No curvature sign or convex-foliation hypothesis is assumed.
 
 ## Application

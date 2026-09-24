@@ -9,33 +9,40 @@
 ## Problem statement
 
 For an integer $n\ge1$, let $f:\{-1,1\}^n\to\{-1,1\}$ be any Boolean-valued function, and write $[n]=\{1,\ldots,n\}$. Use the uniform probability measure on the cube. For every subset $S\subseteq[n]$, define
+
 $$
 \chi_S(x)=\prod_{i\in S}x_i,\qquad
 \widehat f(S)=2^{-n}\sum_{x\in\{-1,1\}^n}f(x)\chi_S(x),
 $$
+
 with $\chi_\varnothing=1$. Then $f=\sum_{S\subseteq[n]}\widehat f(S)\chi_S$ and $\sum_{S\subseteq[n]}\widehat f(S)^2=1$. Thus $p_f(S)=\widehat f(S)^2$ is a probability distribution on subsets of $[n]$. Its Shannon entropy in bits is
+
 $$
 H_{\mathrm F}(f)=
 \sum_{S\subseteq[n]}\widehat f(S)^2
 \log_2\frac{1}{\widehat f(S)^2},
 $$
+
 where a summand with $\widehat f(S)=0$ is zero. The empty subset is included.
 
 For a uniform random input $X$, let $X^{(i)}$ be $X$ with its $i$th coordinate flipped. Define the individual and total influences by
+
 $$
 \begin{aligned}
-\operatorname{Inf}_i(f)
+\mathop{\mathrm{Inf}}\nolimits_i(f)
 &=\Pr\{f(X)\ne f(X^{(i)})\}
 =\sum_{S\ni i}\widehat f(S)^2,\\
-I(f)&=\sum_{i=1}^n\operatorname{Inf}_i(f)
+I(f)&=\sum_{i=1}^n\mathop{\mathrm{Inf}}\nolimits_i(f)
 =\sum_{S\subseteq[n]}|S|\widehat f(S)^2.
 \end{aligned}
 $$
 
 Does there exist a finite universal constant $C>0$, independent of $n$ and $f$, such that
+
 $$
 H_{\mathrm F}(f)\le C I(f)
 $$
+
 for every such function? This is the Fourier entropy–influence conjecture of Friedgut and Kalai. No balance, monotonicity, symmetry or degree bound is imposed. Constant functions satisfy the inequality with both sides zero. The question asks for some universal constant, rather than prescribing its sharp numerical value. [1–3]
 
 ## Application
@@ -43,11 +50,13 @@ for every such function? This is the Fourier entropy–influence conjecture of F
 Boolean functions model classification rules and decisions from binary features. Total influence measures the expected number of single-feature flips that change the decision at a random input. Fourier entropy measures how broadly the model's squared coefficients are distributed among parity interactions. The conjecture would connect stability under these local changes to the existence of a compact spectral approximation.
 
 Specifically, for every $0<\varepsilon<1$, it would imply that some collection $\mathcal A$ of at most $2^{C I(f)/\varepsilon}$ subsets satisfies
+
 $$
 \mathbb E\left[
 \left(f(X)-\sum_{S\in\mathcal A}\widehat f(S)\chi_S(X)\right)^2
 \right]\le\varepsilon.
 $$
+
 This follows from the entropy concentration argument in [2, equation (1.2)] and Parseval's identity. It bounds representation size; locating the coefficients is an additional computational task. For DNF rules, the conjecture also implies a spectral-concentration form of Mansour's conjecture, with consequences for agnostic learning at fixed accuracy using membership queries—chosen inputs whose labels can be requested. This consequence does not provide the passive examples-only learner sought in entry 329. [1, §1.1; 5, §1.3.1]
 
 ## References

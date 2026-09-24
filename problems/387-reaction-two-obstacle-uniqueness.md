@@ -9,9 +9,17 @@
 ## Problem statement
 
 For any $d\ge2$, radii $r_a,r_b>0$ and centers $a,b\in\mathbb R^d$ with $|a-b|>r_a+r_b$, put
-$$\Omega=\mathbb R^d\setminus\bigl(\overline{B_{r_a}(a)}\cup\overline{B_{r_b}(b)}\bigr).$$
+
+$$
+\Omega=\mathbb R^d\setminus\bigl(\overline{B_{r_a}(a)}\cup\overline{B_{r_b}(b)}\bigr).
+$$
+
 Let $f\in C^{1,\gamma}([0,\infty))$, $0<\gamma<1$, satisfy $f(0)=f(1)=0$, $f'(0)>0$, $f'(1)<0$, $f>0$ on $(0,1)$ and $f<0$ on $(1,\infty)$. Must
-$$-\Delta u=f(u)\quad\hbox{in }\Omega,\qquad u=0\quad\hbox{on }\partial\Omega$$
+
+$$
+-\Delta u=f(u)\quad\hbox{in }\Omega,\qquad u=0\quad\hbox{on }\partial\Omega
+$$
+
 have exactly one bounded positive solution $u\in C^2(\Omega)\cap C(\overline\Omega)$? The per-capita growth rate $f(s)/s$ is allowed to increase, so the problem includes positive reactions outside the strong-KPP class. The obstacle separation is arbitrary subject to disjointness.
 
 ## Application

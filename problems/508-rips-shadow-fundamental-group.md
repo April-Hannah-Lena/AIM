@@ -9,11 +9,23 @@
 ## Problem statement
 
 Let $X\subset\mathbb R^n$ be a nonempty finite set, $n\ge1$, and $r>0$. Using Euclidean distances, form
-$$K=\operatorname{VR}_{<}(X;r)=\{\sigma\subseteq X:\operatorname{diam}(\sigma)<r\}.$$
+
+$$
+K=\mathop{\mathrm{VR}}\nolimits_{<}(X;r)=\{\sigma\subseteq X:\mathop{\mathrm{diam}}\nolimits(\sigma)<r\}.
+$$
+
 Its shadow is the geometric union
-$$S(X;r)=\bigcup_{\sigma\in K}\operatorname{conv}(\sigma)\subset\mathbb R^n.$$
+
+$$
+S(X;r)=\bigcup_{\sigma\in K}\mathop{\mathrm{conv}}\nolimits(\sigma)\subset\mathbb R^n.
+$$
+
 The vertex inclusion extends affinely on each simplex to a continuous map $p:|K|\to S(X;r)$. For every base vertex $x_0\in X$, is
-$$p_*:\pi_1(|K|,x_0)\longrightarrow\pi_1(S(X;r),x_0)$$
+
+$$
+p_*:\pi_1(|K|,x_0)\longrightarrow\pi_1(S(X;r),x_0)
+$$
+
 injective? Thus, can a nontrivial loop in the abstract Rips complex become null-homotopic after projection onto its shadow?
 
 This is Conjecture 7.2 of [1]. It concerns each finite sample at each fixed scale; no dense-sampling or vanishing-scale limit is assumed.

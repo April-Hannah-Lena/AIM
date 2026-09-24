@@ -9,13 +9,25 @@
 ## Problem statement
 
 Fix $d\ge2$ and $\chi>0$. For every compactly supported $\rho_0\in H^1(\mathbb R^d)$ with $\rho_0\ge0$ and $\int\rho_0=1$, does
-$$\partial_t\rho=-\nabla\cdot(\rho\nabla\Delta\rho)-\chi\Delta(\rho^2),\qquad \rho(0)=\rho_0,$$
+
+$$
+\partial_t\rho=-\nabla\cdot(\rho\nabla\Delta\rho)-\chi\Delta(\rho^2),\qquad \rho(0)=\rho_0,
+$$
+
 admit a nonnegative global weak solution with the following finite-propagation property: for every $T<\infty$, some $R_T<\infty$ satisfies $\rho(t,x)=0$ for almost every $(t,x)\in(0,T)\times(\mathbb R^d\setminus B_{R_T})$?
 
 Here a weak solution is a narrowly continuous probability-valued curve with finite second moment and
-$$\rho\in L^\infty(0,T;H^1)\cap L^2(0,T;H^2)$$
+
+$$
+\rho\in L^\infty(0,T;H^1)\cap L^2(0,T;H^2)
+$$
+
 for every finite $T$, satisfying, for all $\phi\in C_c^2(\mathbb R^d)$ and $0\le a<b$,
-$$\int\phi[\rho(b)-\rho(a)]=-\int_a^b\!\int\bigl(\rho\Delta\rho\Delta\phi+\Delta\rho\nabla\rho\cdot\nabla\phi+\chi\rho^2\Delta\phi\bigr)\,dx\,dt.$$
+
+$$
+\int\phi[\rho(b)-\rho(a)]=-\int_a^b\!\int\bigl(\rho\Delta\rho\Delta\phi+\Delta\rho\nabla\rho\cdot\nabla\phi+\chi\rho^2\Delta\phi\bigr)\,dx\,dt.
+$$
+
 Narrow continuity means continuity against bounded continuous spatial tests. Only existence of a solution preserving bounded support on finite time intervals is requested; weak uniqueness is a separate question.
 
 ## Application

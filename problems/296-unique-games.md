@@ -11,7 +11,7 @@
 A unique game consists of a finite bipartite graph $G=(L\sqcup R,E)$, with $E\ne\varnothing$, an alphabet $[r]=\{1,\ldots,r\}$ and a permutation $\pi_e:[r]\to[r]$ for each edge $e=(u,v)$ directed from $L$ to $R$. A labeling $\ell:L\sqcup R\to[r]$ satisfies $e$ when $\ell(v)=\pi_e(\ell(u))$. Define the classical value
 
 $$
-\operatorname{val}(G,\pi)=
+\mathop{\mathrm{val}}\nolimits(G,\pi)=
 \max_{\ell}\frac{1}{|E|}\sum_{e=(u,v)\in E}
 \mathbf 1\{\ell(v)=\pi_e(\ell(u))\}.
 $$
@@ -19,9 +19,9 @@ $$
 Is it true that, for every $0<\varepsilon<1/2$, there exists an integer $r=r(\varepsilon)$ such that it is NP-hard to distinguish instances satisfying
 
 $$
-\operatorname{val}(G,\pi)\ge 1-\varepsilon
+\mathop{\mathrm{val}}\nolimits(G,\pi)\ge 1-\varepsilon
 \qquad\text{from those satisfying}\qquad
-\operatorname{val}(G,\pi)\le\varepsilon?
+\mathop{\mathrm{val}}\nolimits(G,\pi)\le\varepsilon?
 $$
 
 The alphabet is fixed for each $\varepsilon$, independently of the number of vertices. This is a promise problem: behavior on intermediate values is unrestricted. The value uses ordinary classical labelings.
@@ -44,6 +44,6 @@ The September 17, 2026 review covered Unique Games and unique-label-cover aliase
 
 Kempe–Regev–Toner's algorithm concerns entangled game value. A small classical optimum need not imply a small entangled optimum, so it does not decide the displayed classical promise problem. Heilman's hardness theorem assumes Unique Games rather than proving it.
 
-The review also inspected two 2026 vertex-cover manuscripts by Frank Vega. The Hallelujah manuscript's displayed guarantee is strictly below $2\operatorname{OPT}$ for each finite graph; it supplies no uniform constant improvement below factor two. The Salvador manuscript explicitly conjectures its proposed $7/4$ upper bound. Neither displayed result supplies a contradiction to Unique Games. These are scope assessments, not certifications of their proofs; the accessible author versions and publisher-access limitation are documented in the [evidence record](../research/expansion-2026-09/candidates/unique-games.json).
+The review also inspected two 2026 vertex-cover manuscripts by Frank Vega. The Hallelujah manuscript's displayed guarantee is strictly below $2\mathop{\mathrm{OPT}}\nolimits$ for each finite graph; it supplies no uniform constant improvement below factor two. The Salvador manuscript explicitly conjectures its proposed $7/4$ upper bound. Neither displayed result supplies a contradiction to Unique Games. These are scope assessments, not certifications of their proofs; the accessible author versions and publisher-access limitation are documented in the [evidence record](../research/expansion-2026-09/candidates/unique-games.json).
 
 The record includes duplicate screening and a separate adversarial self-review. The classical constraint problem differs from the catalogue's quantum PCP and traveling-salesperson integrality-gap questions.

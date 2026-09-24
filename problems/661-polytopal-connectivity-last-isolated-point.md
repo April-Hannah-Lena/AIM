@@ -10,14 +10,18 @@ Fix $d\ge3$ and a compact convex polytope $A\subset\mathbb R^d$ with nonempty in
 
 Define
 
-$$L_n=\max_{1\le i\le n}\min_{j\ne i}\|X_i-X_j\|,
-\qquad M_n=\inf\{r\ge0:G_n(r)\text{ is connected}\}.$$
+$$
+L_n=\max_{1\le i\le n}\min_{j\ne i}\|X_i-X_j\|,
+\qquad M_n=\inf\{r\ge0:G_n(r)\text{ is connected}\}.
+$$
 
 Thus $L_n$ is the radius at which the graph first has no isolated vertices, and $L_n\le M_n$.
 
 Is it true for every such polytope $A$ that
 
-$$\lim_{n\to\infty}\Pr\{L_n=M_n\}=1?$$
+$$
+\lim_{n\to\infty}\Pr\{L_n=M_n\}=1?
+$$
 
 ## Application
 

@@ -10,18 +10,22 @@
 
 Let $\Omega\subset\mathbb R^d$, $d\ge2$, be bounded, connected and Lipschitz. Let $C\in L^\infty(\Omega;\mathbb R^{d\times d})$ be symmetric, with $\mu I\le C(x)\le\mu^{-1}I$ almost everywhere for some $\mu>0$.
 For $\varphi\in H^{1/2}(\partial\Omega)$ let $u_\varphi\in H^1(\Omega)$ be its weak $C$-harmonic extension. Define $\varphi\in D(N)$ and $N\varphi=h\in L^2(\partial\Omega)$ by
+
 $$
 \int_\Omega C\nabla u_\varphi\cdot\overline{\nabla v}
-=\int_{\partial\Omega}h\,\overline{\operatorname{Tr}v}\,dS
+=\int_{\partial\Omega}h\,\overline{\mathop{\mathrm{Tr}}\nolimits v}\,dS
 \quad(v\in H^1(\Omega)).
 $$
+
 For every $g\in C^\infty(\mathbb R^d)$, is there $K<\infty$ such that
+
 $$
 g\varphi\in D(N),\qquad
 \|N(g\varphi)-gN\varphi\|_{L^2(\partial\Omega)}
 \le K\|\varphi\|_{L^2(\partial\Omega)}
 \quad(\varphi\in D(N))?
 $$
+
 Here $g$ on the boundary means its restriction, and $K$ may depend on $\Omega,C,g$.
 
 ## Application

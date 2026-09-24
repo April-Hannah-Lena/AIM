@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $X_1,\ldots,X_n$ and $Y_1,\ldots,Y_n$ be independent fair binary strings. Let $L_n$ be the largest $k$ for which indices $i_1<\cdots<i_k$ and $j_1<\cdots<j_k$ in $\{1,\ldots,n\}$ satisfy $X_{i_r}=Y_{j_r}$ for all $r$. Is there a constant $c>0$ such that $\operatorname{Var}(L_n)\ge cn$ for every sufficiently large $n$? A matching upper bound of order $n$ is known. A negative answer would also resolve this formulation of the linear-variance question.
+Let $X_1,\ldots,X_n$ and $Y_1,\ldots,Y_n$ be independent fair binary strings. Let $L_n$ be the largest $k$ for which indices $i_1<\cdots<i_k$ and $j_1<\cdots<j_k$ in $\{1,\ldots,n\}$ satisfy $X_{i_r}=Y_{j_r}$ for all $r$. Is there a constant $c>0$ such that $\mathop{\mathrm{Var}}\nolimits(L_n)\ge cn$ for every sufficiently large $n$? A matching upper bound of order $n$ is known. A negative answer would also resolve this formulation of the linear-variance question.
 
 ## Application
 

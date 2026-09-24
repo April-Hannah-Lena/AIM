@@ -9,9 +9,17 @@
 ## Problem statement
 
 Do there exist smooth rapidly decaying initial data $u_0:\mathbb R^3\to\mathbb C$, $n_0,n_1:\mathbb R^3\to\mathbb R$ for which the Zakharov system
-$$i\partial_tu-\Delta u=nu,\qquad\partial_{tt}n-\Delta n=-\Delta|u|^2,\qquad (u,n,\partial_tn)|_{t=0}=(u_0,n_0,n_1)$$
+
+$$
+i\partial_tu-\Delta u=nu,\qquad\partial_{tt}n-\Delta n=-\Delta|u|^2,\qquad (u,n,\partial_tn)|_{t=0}=(u_0,n_0,n_1)
+$$
+
 has a finite maximal energy-space existence time $T_+<\infty$ and
-$$\limsup_{t\uparrow T_+}\left(\|u(t)\|_{H^1}+\|n(t)\|_{L^2}+\|\partial_tn(t)\|_{\dot H^{-1}}\right)=\infty?$$
+
+$$
+\limsup_{t\uparrow T_+}\left(\|u(t)\|_{H^1}+\|n(t)\|_{L^2}+\|\partial_tn(t)\|_{\dot H^{-1}}\right)=\infty?
+$$
+
 Here $\|g\|_{\dot H^{-1}}=\||D|^{-1}g\|_2$ and all norms are on $\mathbb R^3$. Unbounded growth only as $t\to\infty$ does not answer the question.
 
 ## Application

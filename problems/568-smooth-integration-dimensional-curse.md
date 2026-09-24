@@ -9,14 +9,22 @@
 ## Problem statement
 
 For each $d\ge1$, define
-$$F_d=\{f\in C^\infty([0,1]^d):\|D^\alpha f\|_\infty\le1\text{ for every }\alpha\in\mathbb N_0^d\},\qquad
-I_d(f)=\int_{[0,1]^d}f(x)\,dx.$$
+
+$$
+F_d=\{f\in C^\infty([0,1]^d):\|D^\alpha f\|_\infty\le1\text{ for every }\alpha\in\mathbb N_0^d\},\qquad
+I_d(f)=\int_{[0,1]^d}f(x)\,dx.
+$$
+
 The derivative condition includes $\alpha=0$ and every mixed derivative, with the same bound one at all orders.
 
 Let $n(\varepsilon,d)$ be the smallest number of exact function evaluations needed by a deterministic algorithm to approximate $I_d(f)$ with absolute error at most $\varepsilon$ for every $f\in F_d$. Sampling may be adaptive and reconstruction may be nonlinear; there is no restriction to positive quadrature weights.
 
 Does this integration problem suffer from the curse of dimensionality? Specifically, do there exist $\varepsilon_0\in(0,1)$, $c>0$ and $\rho>1$ such that
-$$n(\varepsilon_0,d)\ge c\rho^d$$
+
+$$
+n(\varepsilon_0,d)\ge c\rho^d
+$$
+
 for infinitely many dimensions $d$?
 
 ## Application

@@ -9,13 +9,24 @@
 ## Problem statement
 
 Fix $n\geq1$, a real symmetric interaction matrix $J\in\mathbb R^{n\times n}$, and a partition $\mathcal A$ of $[n]$. For $N\geq2$, write a spin configuration as $\sigma=(\sigma(1),\ldots,\sigma(N))\in(\{-1,1\}^n)^N$. Choose integers $M_A$, one for each $A\in\mathcal A$, such that
-$$\Omega_{N,M}=\left\{\sigma:\sum_{i=1}^N\sum_{j\in A}\sigma_j(i)=M_A\text{ for every }A\in\mathcal A\right\}$$
+
+$$
+\Omega_{N,M}=\left\{\sigma:\sum_{i=1}^N\sum_{j\in A}\sigma_j(i)=M_A\text{ for every }A\in\mathcal A\right\}
+$$
+
 is nonempty. For an arbitrary external field $v\in\mathbb R^{Nn}$, define the probability measure
-$$\nu_{N,M,v}(\sigma)=\frac{\mathbf1_{\Omega_{N,M}}(\sigma)}{Z_{N,M,v}}
-\exp\left\{\frac12\sum_{i=1}^N\sigma(i)^TJ\sigma(i)+\sum_{i=1}^N\sum_{j=1}^n v_{ij}\sigma_j(i)\right\}.$$
+
+$$
+\nu_{N,M,v}(\sigma)=\frac{\mathbf1_{\Omega_{N,M}}(\sigma)}{Z_{N,M,v}}
+\exp\left\{\frac12\sum_{i=1}^N\sigma(i)^TJ\sigma(i)+\sum_{i=1}^N\sum_{j=1}^n v_{ij}\sigma_j(i)\right\}.
+$$
 
 Does there exist a finite constant $C(J,\mathcal A)$ such that
-$$\bigl\|\operatorname{Cov}_{\nu_{N,M,v}}(\sigma)\bigr\|_{\mathrm{op}}\leq C(J,\mathcal A)$$
+
+$$
+\bigl\|\mathop{\mathrm{Cov}}\nolimits_{\nu_{N,M,v}}(\sigma)\bigr\|_{\mathrm{op}}\leq C(J,\mathcal A)
+$$
+
 for every $N$, every feasible $M$, and every $v$? The covariance is that of all $Nn$ spins, with the ordinary Euclidean operator norm. The constant may grow with the fixed interaction and dimension, but must be independent of the replica count, conserved magnetizations and external fields. Since there are finitely many partitions for fixed $n$, allowing dependence on $\mathcal A$ is equivalent to taking a maximum over partitions.
 
 This is the tilted canonical-Ising covariance conjecture in [1, Section 4.5], with the constrained state space and measure expanded from equations (1.23)–(1.24).

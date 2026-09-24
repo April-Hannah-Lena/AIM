@@ -9,11 +9,18 @@
 ## Problem statement
 
 Fix an integer $d\ge2$ and an infinite sequence $x_1,x_2,\ldots$ in $[0,1)^d$. For its first $N$ points, define the normalized star discrepancy
-$$D_N^*=\sup_{t\in[0,1]^d}\left|\frac1N\sum_{n=1}^N\mathbf1_{[0,t)}(x_n)-\prod_{j=1}^d t_j\right|,$$
+
+$$
+D_N^*=\sup_{t\in[0,1]^d}\left|\frac1N\sum_{n=1}^N\mathbf1_{[0,t)}(x_n)-\prod_{j=1}^d t_j\right|,
+$$
+
 where $[0,t)=\prod_{j=1}^d[0,t_j)$.
 
 Must every such sequence satisfy
-$$\limsup_{N\to\infty}\frac{N D_N^*}{(\log N)^d}>0?$$
+
+$$
+\limsup_{N\to\infty}\frac{N D_N^*}{(\log N)^d}>0?
+$$
 
 Equivalently, does every sequence have a positive constant $c$ for which $D_N^*\ge c(\log N)^d/N$ for infinitely many $N$? The constant may depend on the sequence and on $d$. Sequences attaining the corresponding upper order exist; the question is whether any sequence can improve that order at all sufficiently large prefixes.
 

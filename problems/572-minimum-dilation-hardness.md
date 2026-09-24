@@ -9,7 +9,10 @@
 ## Problem statement
 
 Let $P\subset\mathbb Q^2$ be a finite set of distinct points not all on one line. A triangulation $T$ is a maximal plane straight-line graph on exactly the vertex set $P$: edges have disjoint interiors and no edge passes through another vertex. Give each edge its Euclidean length. For $p,q\in P$, let $d_T(p,q)$ be the length of a shortest path in $T$, and define
-$$\delta(T)=\max_{p\ne q\in P}\frac{d_T(p,q)}{\|p-q\|_2}.$$
+
+$$
+\delta(T)=\max_{p\ne q\in P}\frac{d_T(p,q)}{\|p-q\|_2}.
+$$
 
 Is the following decision problem NP-hard under polynomial-time many-one reductions in the standard binary input model? Given rational coordinates for $P$ and a rational threshold $\tau\ge1$, decide whether some triangulation $T$ satisfies $\delta(T)\le\tau$.
 

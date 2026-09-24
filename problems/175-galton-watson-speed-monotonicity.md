@@ -9,7 +9,11 @@
 ## Problem statement
 
 Let $T$ be a Galton–Watson tree whose offspring distribution $(p_k)_{k\ge1}$ has finite support and mean $m>1$. There are no leaves. For $0<\lambda<m$, run the nearest-neighbor walk which, at a nonroot vertex with $k$ children, steps to its parent with probability $\lambda/(\lambda+k)$ and to each child with probability $1/(\lambda+k)$; at the root choose a child uniformly. Let
-$$v(\lambda)=\lim_{n\to\infty}\frac{d_T(X_n,\mathrm{root})}{n},$$
+
+$$
+v(\lambda)=\lim_{n\to\infty}\frac{d_T(X_n,\mathrm{root})}{n},
+$$
+
 the almost-sure deterministic speed. Must $v(\lambda_1)\ge v(\lambda_2)$ whenever $0<\lambda_1<\lambda_2<m$?
 
 ## Application

@@ -8,10 +8,18 @@
 
 ## Problem statement
 
-For $n\in\{3,4\}$, let $F\in C^\infty(\operatorname{Sym}_n)$ be uniformly elliptic: there exist $0<\lambda\le\Lambda$ such that
-$$\lambda\operatorname{tr}N\le F(M+N)-F(M)\le\Lambda\operatorname{tr}N\quad(M\in\operatorname{Sym}_n,\ N\ge0).$$
+For $n\in\{3,4\}$, let $F\in C^\infty(\mathop{\mathrm{Sym}}\nolimits_n)$ be uniformly elliptic: there exist $0<\lambda\le\Lambda$ such that
+
+$$
+\lambda\mathop{\mathrm{tr}}\nolimits N\le F(M+N)-F(M)\le\Lambda\mathop{\mathrm{tr}}\nolimits N\quad(M\in\mathop{\mathrm{Sym}}\nolimits_n,\ N\ge0).
+$$
+
 If $u\in C^\infty(\mathbb R^n)$ satisfies
-$$F(D^2u)=0\quad\hbox{on }\mathbb R^n,\qquad\sup_{\mathbb R^n}|D^2u|<\infty,$$
+
+$$
+F(D^2u)=0\quad\hbox{on }\mathbb R^n,\qquad\sup_{\mathbb R^n}|D^2u|<\infty,
+$$
+
 must $u$ be a polynomial of degree at most two? Neither convexity nor concavity of $F$ or its zero level set is assumed. The two dimensions are included in one problem, rather than counted separately.
 
 ## Application

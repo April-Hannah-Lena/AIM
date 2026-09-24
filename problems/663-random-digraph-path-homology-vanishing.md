@@ -10,15 +10,19 @@ Let $G_n$ be a random digraph on $[n]$, with each ordered edge $(i,j)$, $i\ne j$
 
 Use non-regular path homology over $\mathbb Q$. More explicitly, let $\Lambda_k$ be the vector space on all vertex sequences $[v_0,\ldots,v_k]$, allowing repetitions, with the alternating deletion boundary $\partial$. Let $A_k\subseteq\Lambda_k$ be spanned by the sequences whose successive ordered edges belong to $G_n$, and, for $k\ge1$, set
 
-$$\Omega_k=A_k\cap\partial^{-1}(A_{k-1}),\qquad
+$$
+\Omega_k=A_k\cap\partial^{-1}(A_{k-1}),\qquad
 \beta_1^{\mathrm{nr}}(G_n)=\dim_{\mathbb Q}
-\frac{\ker(\partial:\Omega_1\to\Omega_0)}{\partial\Omega_2}.$$
+\frac{\ker(\partial:\Omega_1\to\Omega_0)}{\partial\Omega_2}.
+$$
 
 No terms with repeated consecutive vertices are discarded when applying $\partial$; this specifies the non-regular convention. Here $\Omega_0=A_0$. This rational dimension is the rank of the integer path-homology group used in the source.
 
 Is it true that, for every fixed $-2/3<\alpha\le0$,
 
-$$\Pr\{\beta_1^{\mathrm{nr}}(G_n)=0\}\longrightarrow1?$$
+$$
+\Pr\{\beta_1^{\mathrm{nr}}(G_n)=0\}\longrightarrow1?
+$$
 
 ## Application
 

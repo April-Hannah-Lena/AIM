@@ -9,22 +9,28 @@
 ## Problem statement
 
 Partition $\Omega=(0,1)^3$ into $N^3$ congruent cubes, where $N\ge1$ and $h=1/N$. Subdivide every cube with lower corner $a$ into the six tetrahedra
+
 $$
-a+h\operatorname{conv}\{0,e_{\sigma(1)},e_{\sigma(1)}+e_{\sigma(2)},(1,1,1)\},\qquad \sigma\in S_3.
+a+h\mathop{\mathrm{conv}}\nolimits\{0,e_{\sigma(1)},e_{\sigma(1)}+e_{\sigma(2)},(1,1,1)\},\qquad \sigma\in S_3.
 $$
+
 Call this mesh $\mathcal T_h$. For an integer $k\ge5$, define the potential space
+
 $$
 \Sigma_{h,k}=\{w\in[C^0(\overline\Omega)]^3:
 w|_T\in[\mathbb P_{k+1}(T)]^3\ (T\in\mathcal T_h),\quad
-\operatorname{curl}w\in[C^0(\overline\Omega)]^3\}.
+\mathop{\mathrm{curl}}\nolimits w\in[C^0(\overline\Omega)]^3\}.
 $$
+
 Here $\mathbb P_r$ denotes polynomials of total degree at most $r$. No boundary condition is imposed. For each mesh vertex $v$, including boundary vertices, let $\omega_v$ be the union of the closed tetrahedra containing $v$.
 
 Does $\Sigma_{h,k}$ always have a basis whose every member is supported in some $\omega_v$? Equivalently, prove or disprove
+
 $$
-\Sigma_{h,k}=\sum_v\{w\in\Sigma_{h,k}:\operatorname{supp}w\subseteq\omega_v\}
+\Sigma_{h,k}=\sum_v\{w\in\Sigma_{h,k}:\mathop{\mathrm{supp}}\nolimits w\subseteq\omega_v\}
 \qquad(N\ge1,\ k\ge5).
 $$
+
 This is the local-support assertion in Conjecture 2(b) of [1]; a uniform bound on decomposition norms is a further question.
 
 ## Application

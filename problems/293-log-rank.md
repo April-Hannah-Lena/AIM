@@ -13,7 +13,7 @@ Let $M\in\{0,1\}^{m\times n}$ be a finite Boolean matrix known to both participa
 Do there exist absolute constants $C,c>0$ such that every such matrix satisfies
 
 $$
-D(M)\le C\bigl[\log_2(2+\operatorname{rank}_{\mathbb R}M)\bigr]^c?
+D(M)\le C\bigl[\log_2(2+\mathop{\mathrm{rank}}\nolimits_{\mathbb R}M)\bigr]^c?
 $$
 
 All pairs $(i,j)$ are possible: there is no promise on the inputs. The real rank is exact, not an approximate rank. The additive constant inside the logarithm handles constant matrices. Requiring both participants to learn the output changes conventional one-output-party communication complexity by at most one bit and therefore does not change this conjecture.

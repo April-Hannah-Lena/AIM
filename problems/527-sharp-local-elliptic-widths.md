@@ -9,17 +9,41 @@
 ## Problem statement
 
 Let $d\in\{2,3\}$, let $\omega\Subset\omega^*\subset\mathbb R^d$ be concentric open cubes, and let $A\in L^\infty(\omega^*;\mathbb R^{d\times d})$ be symmetric with
-$$\alpha|\xi|^2\le\xi^TA(x)\xi\le\beta|\xi|^2$$
+
+$$
+\alpha|\xi|^2\le\xi^TA(x)\xi\le\beta|\xi|^2
+$$
+
 for almost every $x$, every $\xi$, and fixed $0<\alpha\le\beta<\infty$. Write
-$$a_D(u,v)=\int_D A\nabla u\cdot\nabla v,\qquad \|u\|_{a,D}=a_D(u,u)^{1/2}.$$
+
+$$
+a_D(u,v)=\int_D A\nabla u\cdot\nabla v,\qquad \|u\|_{a,D}=a_D(u,u)^{1/2}.
+$$
+
 Choose a nonzero cutoff $\chi\in W^{1,\infty}(\omega)\cap H_0^1(\omega)$. Define the local harmonic space and its normalization by
-$$\mathcal H_A=\{u\in H^1(\omega^*):a_{\omega^*}(u,v)=0\text{ for every }v\in H_0^1(\omega^*)\},$$
-$$\mathcal H_A^0=\{u\in\mathcal H_A:a_\omega(\chi u,\chi)=0\}.$$
+
+$$
+\mathcal H_A=\{u\in H^1(\omega^*):a_{\omega^*}(u,v)=0\text{ for every }v\in H_0^1(\omega^*)\},
+$$
+
+
+
+$$
+\mathcal H_A^0=\{u\in\mathcal H_A:a_\omega(\chi u,\chi)=0\}.
+$$
+
 The normalization removes the constant kernel of the energy seminorm. Let $Tu=\chi(u|_\omega)$ and set
-$$d_n(T)=\inf_{\substack{V\subset H_0^1(\omega)\text{ linear}\\\dim V\le n}}\ \sup_{\substack{u\in\mathcal H_A^0\\\|u\|_{a,\omega^*}\le1}}\ \inf_{v\in V}\|Tu-v\|_{a,\omega}.$$
+
+$$
+d_n(T)=\inf_{\substack{V\subset H_0^1(\omega)\text{ linear}\\\dim V\le n}}\ \sup_{\substack{u\in\mathcal H_A^0\\\|u\|_{a,\omega^*}\le1}}\ \inf_{v\in V}\|Tu-v\|_{a,\omega}.
+$$
 
 Prove or refute that, for every such fixed choice of data, there are $C,c>0$, independent of $n$, such that
-$$d_n(T)\le C\exp\!\left(-c n^{1/(d-1)}\right)\qquad(n\ge1).$$
+
+$$
+d_n(T)\le C\exp\!\left(-c n^{1/(d-1)}\right)\qquad(n\ge1).
+$$
+
 No smoothness or scale separation of $A$ is assumed. The constants may depend on $A$, the cubes and $\chi$; contrast-independent constants are not part of the question. This is the scalar elliptic specialization of the local-width conjecture in reference [1].
 
 ## Application

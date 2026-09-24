@@ -9,21 +9,27 @@
 ## Problem statement
 
 On $\mathbb R^3$, let $P$ be the Helmholtz projection onto divergence-free vector fields and consider the Itô equation
+
 $$
 du=[\nu\Delta u-P((u\cdot\nabla)u)]\,dt+
 \sum_{k=1}^K P((b_k\cdot\nabla)u)\,dW^k_t.
 $$
+
 Here $\nu>0$, the $W^k$ are independent real Brownian motions, and $b_k\in C_c^\infty(\mathbb R^3;\mathbb R^3)$ are divergence-free, not all zero, and satisfy
+
 $$
 \tfrac12\sum_k|b_k(x)\cdot\xi|^2\le(\nu-\eta)|\xi|^2
 \quad(x,\xi\in\mathbb R^3)
 $$
+
 for some $\eta>0$. For a smooth compactly supported divergence-free $u_0$, let $(u,\tau)$ be the maximal local strong solution in the critical class
 $C([0,\tau);B^{-1/4}_{4,4})\cap L^4_{\mathrm{loc}}([0,\tau),t^{1/2}dt;H^{1/2,4})$.
 Is
+
 $$
 \mathbb P\!\left(\tau<\infty,\ \sup_{0\le t<\tau}\|u(t)\|_{B^{-1/4}_{4,4}(\mathbb R^3)}<\infty\right)=0?
 $$
+
 Use the inhomogeneous Besov norm $\|u\|_{B^{-1/4}_{4,4}}=(\sum_{j\ge-1}2^{-j}\|\Delta_j u\|_4^4)^{1/4}$ for a smooth dyadic frequency partition. The question requires boundedness alone, without assuming that $u(t)$ has a limit at $\tau$.
 
 ## Application

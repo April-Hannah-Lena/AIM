@@ -13,14 +13,18 @@ Let $d\ge2$, let $D\subset\mathbb R^d$ be a nonempty bounded connected open set,
 Between resampling events the particles move as independent standard Brownian motions, with generator $\tfrac12\Delta$. When a particle first reaches $\partial D$, choose one of the other $N-1$ particles uniformly and move the exiting particle instantly to its current position. The remaining particles stay where they are. Continue with independent Brownian increments and fresh uniform choices, conditional on the new configuration. This is the Brownian Fleming–Viot particle system with hard killing and uniform resampling.
 
 Let $\tau_0=0$ and let $\tau_k$ be the time of the $k$th resampling event. The construction defines the system up to
+
 $$
 \tau_\infty=\lim_{k\to\infty}\tau_k.
 $$
+
 Before this limit, simultaneous boundary exits have probability zero. **Is it always true that**
+
 $$
 \mathbb P_x(\tau_\infty=\infty)=1
 \qquad\text{for every }d,D,N,x\text{ as above}?
 $$
+
 Equivalently, must there almost surely be only finitely many resampling events in every finite time interval? The population size remains $N$ throughout the construction; the possible failure is accumulation of infinitely many events at a finite time. The question concerns each fixed finite $N$, with no drift, reflection or change to the resampling rule.
 
 ## Application

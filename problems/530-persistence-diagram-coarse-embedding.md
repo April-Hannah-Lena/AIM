@@ -9,12 +9,20 @@
 ## Problem statement
 
 Let $\mathcal D$ be the space of all finite multisets of points $(b,d)\in\mathbb R^2$ with $b<d$, including the empty multiset. There is no common cardinality or coordinate bound. Put $\Delta=\{(t,t):t\in\mathbb R\}$ and use the $\ell^\infty$ distance in the plane. For $1\le p\le2$, define
-$$W_p(D,E)^p=\min_{\substack{D'\subseteq D,\ E'\subseteq E\\\phi:D'\to E'\text{ bijective}}}\left(\sum_{x\in D'}\|x-\phi(x)\|_\infty^p+\sum_{x\in D\setminus D'}\operatorname{dist}_\infty(x,\Delta)^p+\sum_{y\in E\setminus E'}\operatorname{dist}_\infty(y,\Delta)^p\right),$$
+
+$$
+W_p(D,E)^p=\min_{\substack{D'\subseteq D,\ E'\subseteq E\\\phi:D'\to E'\text{ bijective}}}\left(\sum_{x\in D'}\|x-\phi(x)\|_\infty^p+\sum_{x\in D\setminus D'}\mathop{\mathrm{dist}}\nolimits_\infty(x,\Delta)^p+\sum_{y\in E\setminus E'}\mathop{\mathrm{dist}}\nolimits_\infty(y,\Delta)^p\right),
+$$
+
 where subsets and matchings respect multiplicity.
 
 Determine for which $p\in[1,2]$ there exist a Hilbert space $H$, a map $F:\mathcal D\to H$, and finite-valued nondecreasing functions $\rho_-,\rho_+:[0,\infty)\to[0,\infty)$ such that
-$$\lim_{t\to\infty}\rho_-(t)=\infty,\qquad
-\rho_-(W_p(D,E))\le\|F(D)-F(E)\|_H\le\rho_+(W_p(D,E))$$
+
+$$
+\lim_{t\to\infty}\rho_-(t)=\infty,\qquad
+\rho_-(W_p(D,E))\le\|F(D)-F(E)\|_H\le\rho_+(W_p(D,E))
+$$
+
 for every $D,E\in\mathcal D$. The map and control functions may depend on $p$, but must work for all diagrams simultaneously.
 
 ## Application

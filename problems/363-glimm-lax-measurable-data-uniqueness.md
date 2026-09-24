@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $f\in C^4(B_r(d);\mathbb R^2)$, with $Df$ strictly hyperbolic and both characteristic fields genuinely nonlinear. Is there $\delta>0$ such that, for every measurable $u_0:\mathbb R\to B_r(d)$ with $a=\|u_0-d\|_\infty\le\delta$, the equation
-$$u_t+f(u)_x=0,\qquad u(0)=u_0$$
+
+$$
+u_t+f(u)_x=0,\qquad u(0)=u_0
+$$
+
 has at most one solution in the Glimm–Lax class? Here this class consists of bounded distributional solutions attaining $u_0$ in $L^1_{\rm loc}$ as $t\downarrow0$, satisfying all convex entropy inequalities $\partial_t\eta(u)+\partial_xq(u)\le0$ with $Dq=D\eta Df$, and the bounds
-$$\|u(t)-d\|_\infty\le C_0\sqrt a,\qquad \sup_{b\in\mathbb R}\operatorname{TV}_{[b,b+L]}u(t)\le C_0(\sqrt a+L/t)$$
+
+$$
+\|u(t)-d\|_\infty\le C_0\sqrt a,\qquad \sup_{b\in\mathbb R}\mathop{\mathrm{TV}}\nolimits_{[b,b+L]}u(t)\le C_0(\sqrt a+L/t)
+$$
+
 for $t,L>0$, where $C_0$ is the fixed Glimm–Lax bound associated with $f,d$. No positive fractional Sobolev regularity of $u_0$ is assumed.
 
 ## Application

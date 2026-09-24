@@ -9,13 +9,26 @@
 ## Problem statement
 
 For an integer $n\ge3$, equip $T_n=\{0,\ldots,n-1\}^2$ with
-$$d((a,b),(c,e))=\min\{|a-c|,n-|a-c|\}+\min\{|b-e|,n-|b-e|\}.$$
-Let $K_n(r)$ contain precisely the subsets of $T_n$ whose diameter is at most $r$. Write $\beta_i(K)=\operatorname{rank}H_i(K;\mathbb Z)$.
+
+$$
+d((a,b),(c,e))=\min\{|a-c|,n-|a-c|\}+\min\{|b-e|,n-|b-e|\}.
+$$
+
+Let $K_n(r)$ contain precisely the subsets of $T_n$ whose diameter is at most $r$. Write $\beta_i(K)=\mathop{\mathrm{rank}}\nolimits H_i(K;\mathbb Z)$.
 
 Prove or disprove that, for every integer $k\ge5$,
-$$\widetilde H_i(K_{3k-2}(k);\mathbb Z)=0\quad(i\notin\{3,4\}),$$
-$$\beta_3(K_{3k-2}(k))=6k-2+(-1)^k,\qquad
-\beta_4(K_{3k-2}(k))=6k-3+(-1)^k.$$
+
+$$
+\widetilde H_i(K_{3k-2}(k);\mathbb Z)=0\quad(i\notin\{3,4\}),
+$$
+
+
+
+$$
+\beta_3(K_{3k-2}(k))=6k-2+(-1)^k,\qquad
+\beta_4(K_{3k-2}(k))=6k-3+(-1)^k.
+$$
+
 No assertion of torsion-freeness in degrees 3 and 4 is included.
 
 ## Application

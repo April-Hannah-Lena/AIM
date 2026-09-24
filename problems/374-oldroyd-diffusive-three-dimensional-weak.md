@@ -9,10 +9,23 @@
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^3$ be smooth and bounded and let $\nu,\mu>0$. Given smooth compatible $u_0$ with $\nabla\cdot u_0=0$, $u_0|_{\partial\Omega}=0$, and a smooth symmetric uniformly positive-definite tensor $\sigma_0$ with $\partial_n\sigma_0=0$, must there be a global distributional solution of
-$$u_t+u\cdot\nabla u-\nu\Delta u+\nabla p=\nabla\cdot\sigma,\quad\nabla\cdot u=0,$$
-$$\sigma_t+u\cdot\nabla\sigma-(\nabla u)\sigma-\sigma(\nabla u)^T-\mu\Delta\sigma+2(\sigma-I)=0$$
+
+$$
+u_t+u\cdot\nabla u-\nu\Delta u+\nabla p=\nabla\cdot\sigma,\quad\nabla\cdot u=0,
+$$
+
+
+
+$$
+\sigma_t+u\cdot\nabla\sigma-(\nabla u)\sigma-\sigma(\nabla u)^T-\mu\Delta\sigma+2(\sigma-I)=0
+$$
+
 with $u=0$, $\partial_n\sigma=0$ on the boundary and the prescribed initial traces? Require, on each finite time interval, $u\in L^\infty_tL^2_x\cap L^2_tH_0^1$, $\sigma\in L^\infty_tL^2_x\cap L^2_tH^1_x$, $\sigma$ positive semidefinite almost everywhere, and the integrated inequality
-$$E(t)+\nu\int_0^t\!\int_\Omega|\nabla u|^2+\int_0^t\!\int_\Omega(\operatorname{tr}\sigma-3)\le E(0),\qquad E(t)=\frac12\int_\Omega(|u|^2+\operatorname{tr}\sigma).$$
+
+$$
+E(t)+\nu\int_0^t\!\int_\Omega|\nabla u|^2+\int_0^t\!\int_\Omega(\mathop{\mathrm{tr}}\nolimits\sigma-3)\le E(0),\qquad E(t)=\frac12\int_\Omega(|u|^2+\mathop{\mathrm{tr}}\nolimits\sigma).
+$$
+
 The momentum equation must contain exactly $\nabla\cdot\sigma$, with no additional stress-defect measure.
 
 ## Application

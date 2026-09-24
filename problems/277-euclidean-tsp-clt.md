@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $X_1,X_2,\ldots$ be independent uniform points in $[0,1]^2$. Let $L_n$ be the minimum Euclidean length of a closed polygonal tour visiting $X_1,\ldots,X_n$. Does $(L_n-\mathbb E L_n)/\sqrt{\operatorname{Var}(L_n)}$ converge in distribution to the standard normal law as $n\to\infty$? The tour must be globally optimal; a tour produced by a specified heuristic is not substituted for $L_n$.
+Let $X_1,X_2,\ldots$ be independent uniform points in $[0,1]^2$. Let $L_n$ be the minimum Euclidean length of a closed polygonal tour visiting $X_1,\ldots,X_n$. Does $(L_n-\mathbb E L_n)/\sqrt{\mathop{\mathrm{Var}}\nolimits(L_n)}$ converge in distribution to the standard normal law as $n\to\infty$? The tour must be globally optimal; a tour produced by a specified heuristic is not substituted for $L_n$.
 
 ## Application
 

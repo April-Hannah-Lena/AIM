@@ -9,14 +9,18 @@
 ## Problem statement
 
 Let $\mathbb T=\mathbb R/\mathbb Z$ and let $W$ be one real standard Brownian motion. For an $\mathcal F_0$-measurable random initial condition $u_0\in L^2(\Omega;L^2(\mathbb T))$, consider the Itô equation
+
 $$
 du=(\partial_{xx}u+u-u^3)\,dt+\sqrt2\,u^2\,dW_t,\qquad u(0)=u_0.
 $$
+
 Use its global variational solution with almost surely continuous $L^2(\mathbb T)$ paths and locally square-integrable $H^1(\mathbb T)$ paths. Is it true that, for every finite $T>0$, there is a finite deterministic $C_T$, independent of the law of $u_0$, such that
+
 $$
 \mathbb E\sup_{0\le t\le T}\|u(t)\|_{L^2(\mathbb T)}^2
 \le C_T\bigl(1+\mathbb E\|u_0\|_{L^2(\mathbb T)}^2\bigr)?
 $$
+
 The coefficient $\sqrt2$ is part of the question: it is the endpoint at which the cubic damping and the Itô correction balance in the basic energy estimate.
 
 ## Applied significance

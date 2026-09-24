@@ -10,11 +10,15 @@
 
 For every bounded connected smooth domain $\Omega\subset\mathbb R^d$, $d\ge2$, let $0<\Gamma_1\le\Gamma_2\le\cdots$ be the eigenvalues, with multiplicity, of
 
-$$\Delta^2u=\Gamma u\text{ in }\Omega,\qquad u=\partial_nu=0\text{ on }\partial\Omega.$$
+$$
+\Delta^2u=\Gamma u\text{ in }\Omega,\qquad u=\partial_nu=0\text{ on }\partial\Omega.
+$$
 
 Prove or disprove, for every integer $k\ge1$,
 
-$$\sum_{i=1}^k(\Gamma_{k+1}-\Gamma_i)^2\le\frac8d\sum_{i=1}^k(\Gamma_{k+1}-\Gamma_i)\Gamma_i.$$
+$$
+\sum_{i=1}^k(\Gamma_{k+1}-\Gamma_i)^2\le\frac8d\sum_{i=1}^k(\Gamma_{k+1}-\Gamma_i)\Gamma_i.
+$$
 
 The constant is required to be independent of the domain and of $k$.
 

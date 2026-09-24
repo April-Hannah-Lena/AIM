@@ -9,11 +9,23 @@
 ## Problem statement
 
 Let $D\subset\mathbb R^3$ be bounded with smooth boundary, $\nu>0$, and $b_1,\ldots,b_K\in C^\infty(\overline D;\mathbb R^3)$ be divergence-free, tangent to $\partial D$, and satisfy
-$$\nu I-\tfrac12\sum_kb_k\otimes b_k\ge\delta I\quad(\delta>0).$$
+
+$$
+\nu I-\tfrac12\sum_kb_k\otimes b_k\ge\delta I\quad(\delta>0).
+$$
+
 For every smooth divergence-free $u_0$ vanishing on $\partial D$, does
-$$du=[\nu\mathbb P_D\Delta u-\mathbb P_D\nabla\cdot(u\otimes u)]dt+\sum_k\mathbb P_D[(b_k\cdot\nabla)u]dW^k_t,\qquad u|_{\partial D}=0,$$
+
+$$
+du=[\nu\mathbb P_D\Delta u-\mathbb P_D\nabla\cdot(u\otimes u)]dt+\sum_k\mathbb P_D[(b_k\cdot\nabla)u]dW^k_t,\qquad u|_{\partial D}=0,
+$$
+
 have a pathwise unique local adapted solution in
-$$C([0,\tau];B^{1/2}_{4,4}(D;\mathbb R^3))\cap L^4(0,\tau;W^{1,4}_0(D;\mathbb R^3))$$
+
+$$
+C([0,\tau];B^{1/2}_{4,4}(D;\mathbb R^3))\cap L^4(0,\tau;W^{1,4}_0(D;\mathbb R^3))
+$$
+
 for an almost surely positive stopping time $\tau$, with continuous dependence in probability after common stopping? Here $\mathbb P_D$ is the Helmholtz projection and the equation is understood in the weak solenoidal $W^{-1,4}$ space, or equivalently by the extrapolated Dirichlet Stokes semigroup. Require only the displayed stochastic parabolicity condition on noise amplitude, rather than a perturbatively small norm of $b$.
 
 ## Application

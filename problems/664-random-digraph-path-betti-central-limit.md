@@ -8,19 +8,25 @@
 
 Let $G_n$ be a random digraph on $[n]$, with every ordered edge $(i,j)$, $i\ne j$, present independently with probability $p_n$. Reciprocal edges are allowed. Assume
 
-$$np_n\longrightarrow\infty,\qquad n^{2/3}p_n\longrightarrow0.$$
+$$
+np_n\longrightarrow\infty,\qquad n^{2/3}p_n\longrightarrow0.
+$$
 
 Define the non-regular first path Betti number as follows. Over $\mathbb Q$, let $\Lambda_k$ be spanned by all vertex sequences $[v_0,\ldots,v_k]$, with the alternating deletion boundary $\partial$. Let $A_k$ be the span of sequences whose successive edges belong to $G_n$, and, for $k\ge1$, put
 
-$$\Omega_k=A_k\cap\partial^{-1}(A_{k-1}),\qquad
-B_n=\dim_{\mathbb Q}\frac{\ker(\partial:\Omega_1\to\Omega_0)}{\partial\Omega_2}.$$
+$$
+\Omega_k=A_k\cap\partial^{-1}(A_{k-1}),\qquad
+B_n=\dim_{\mathbb Q}\frac{\ker(\partial:\Omega_1\to\Omega_0)}{\partial\Omega_2}.
+$$
 
 Repeated vertices are permitted, and no terms with consecutive repetitions are discarded by the boundary. Here $\Omega_0=A_0$. This is the rank of the source's integer non-regular path homology.
 
 Does every sequence $(p_n)$ satisfying the two conditions obey
 
-$$\frac{B_n-\mathbb E B_n}{\sqrt{\operatorname{Var}(B_n)}}
-\xrightarrow{\ d\ }\mathcal N(0,1)?$$
+$$
+\frac{B_n-\mathbb E B_n}{\sqrt{\mathop{\mathrm{Var}}\nolimits(B_n)}}
+\xrightarrow{\ d\ }\mathcal N(0,1)?
+$$
 
 ## Application
 

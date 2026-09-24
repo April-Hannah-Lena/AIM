@@ -9,9 +9,16 @@
 ## Problem statement
 
 Let $q=p^r$, where $p$ is prime and $r\ge2$. Suppose $f:\mathbb F_q\to\mathbb F_q$ satisfies $f(0)=0$ and, for every $d\in\mathbb F_q\setminus\{1\}$, the map
-$$x\longmapsto f(dx)-f(x)$$
+
+$$
+x\longmapsto f(dx)-f(x)
+$$
+
 is a permutation of $\mathbb F_q$. Must there exist a positive integer $s$ with $\gcd(s,q-1)=1$ and an invertible $\mathbb F_p$-linear map $L:\mathbb F_q\to\mathbb F_q$ such that
-$$f(x)=L(x^s)\qquad\text{for every }x\in\mathbb F_q?$$
+
+$$
+f(x)=L(x^s)\qquad\text{for every }x\in\mathbb F_q?
+$$
 
 Equivalently, representing functions by polynomials modulo $x^q-x$, must every Costas polynomial be a permutation monomial followed by a linearized permutation polynomial $L(x)=\sum_{j=0}^{r-1}a_jx^{p^j}$?
 

@@ -9,15 +9,20 @@
 ## Problem statement
 
 For binary words $x,y\in\{0,1\}^n$, their Hamming distance is
+
 $$
 d_H(x,y)=\bigl|\{i\in\{1,\ldots,n\}:x_i\ne y_i\}\bigr|.
 $$
+
 For integers $n\ge1$ and $1\le d\le n$, define
+
 $$
 A_2(n,d)=\max\bigl\{|C|:C\subseteq\{0,1\}^n,\quad
 d_H(x,y)\ge d\text{ for every distinct }x,y\in C\bigr\}.
 $$
+
 The maximum ranges over all binary codes, including nonlinear ones. For each fixed real $\delta\in(0,1/2)$, set
+
 $$
 R_2(\delta)=\limsup_{n\to\infty}\frac{1}{n}
 \log_2 A_2\!\left(n,\lceil\delta n\rceil\right).
@@ -26,10 +31,12 @@ $$
 **Determine $R_2(\delta)$ throughout $0<\delta<1/2$.** This asks for the exact exponential growth rate, not just an improvement of a bound. The distance fraction is fixed before taking the limsup. The ceiling convention follows [2, 3]; [1] states the asymptotic question using floor rounding. No efficient construction, encoder or decoder is required. [1, §1; 2, §1; 3, §1.2]
 
 A classical benchmark is the Gilbert–Varshamov lower bound
+
 $$
 R_2(\delta)\ge 1-h_2(\delta),\qquad
 h_2(t)=-t\log_2t-(1-t)\log_2(1-t).
 $$
+
 Whether this benchmark gives the exact unrestricted rate is not assumed in the question. [1, 2]
 
 ## Applied significance

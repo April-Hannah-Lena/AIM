@@ -8,20 +8,26 @@
 
 Fix $p\in(0,1)$. For every nonempty subset $\sigma\subseteq[n]$, independently choose a Bernoulli variable $\xi_\sigma$ with success probability $p$. Define the random simplicial complex
 
-$$X_n=\{\sigma\subseteq[n]:\sigma\ne\varnothing,\ \xi_\tau=1
-\text{ for every nonempty }\tau\subseteq\sigma\}.$$
+$$
+X_n=\{\sigma\subseteq[n]:\sigma\ne\varnothing,\ \xi_\tau=1
+\text{ for every nonempty }\tau\subseteq\sigma\}.
+$$
 
 This is the homogeneous medial regime of the lower multiparameter model; vertices, as well as higher-dimensional faces, are sampled.
 
-For a path-connected space $Y$, use the reduced topological complexity $\operatorname{TC}(Y)$: the smallest $k\ge0$ such that $Y\times Y$ has an open cover by $k+1$ sets, each admitting a continuous local section of the endpoint map
+For a path-connected space $Y$, use the reduced topological complexity $\mathop{\mathrm{TC}}\nolimits(Y)$: the smallest $k\ge0$ such that $Y\times Y$ has an open cover by $k+1$ sets, each admitting a continuous local section of the endpoint map
 
-$$Y^{[0,1]}\longrightarrow Y\times Y,\qquad
-\gamma\longmapsto(\gamma(0),\gamma(1)).$$
+$$
+Y^{[0,1]}\longrightarrow Y\times Y,\qquad
+\gamma\longmapsto(\gamma(0),\gamma(1)).
+$$
 
 Is it true, for every fixed $p\in(0,1)$, that
 
-$$\Pr\{\,|X_n|\text{ is path-connected and }\operatorname{TC}(|X_n|)=2\,\}
-\longrightarrow1\qquad(n\longrightarrow\infty),$$
+$$
+\Pr\{\,|X_n|\text{ is path-connected and }\mathop{\mathrm{TC}}\nolimits(|X_n|)=2\,\}
+\longrightarrow1\qquad(n\longrightarrow\infty),
+$$
 
 with the limit taken over all positive integers $n$?
 
@@ -36,7 +42,7 @@ Topological complexity counts the continuous local rules needed for motion plann
 
 ## Status review
 
-**Known cases:** The 2026 preprint proves the upper bound $\operatorname{TC}(|X_n|)\le2$ with probability tending to one along all $n$. It proves equality with probability tending to one when $n$ is restricted to a suitable subset of the positive integers having natural density one.
+**Known cases:** The 2026 preprint proves the upper bound $\mathop{\mathrm{TC}}\nolimits(|X_n|)\le2$ with probability tending to one along all $n$. It proves equality with probability tending to one when $n$ is restricted to a suitable subset of the positive integers having natural density one.
 
 **Remaining target:** Remove that restriction on $n$ in the homogeneous model with fixed $p$.
 

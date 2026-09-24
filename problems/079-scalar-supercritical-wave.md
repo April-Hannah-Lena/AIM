@@ -9,15 +9,19 @@
 ## Problem statement
 
 For arbitrary real-valued $(u_0,u_1)\in C_c^\infty(\mathbb R^3)\times C_c^\infty(\mathbb R^3)$, does
+
 $$
 \partial_t^2u-\Delta u+u^7=0,\qquad
 u(0,x)=u_0(x),\quad \partial_tu(0,x)=u_1(x)
 $$
+
 have a smooth solution on every finite time interval? Alternatively, exhibit admissible data with finite-time breakdown. No symmetry or smallness hypothesis is permitted. The conserved energy is
+
 $$
 E(u)=\int_{\mathbb R^3}\left(\tfrac12|\partial_tu|^2+
 \tfrac12|\nabla u|^2+\tfrac18|u|^8\right)\,dx,
 $$
+
 but its scaling is supercritical for this equation.
 
 ## Application

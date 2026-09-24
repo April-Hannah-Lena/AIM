@@ -10,11 +10,15 @@
 
 For $0<\theta<\pi$, let $W_\theta=\{(r\cos\phi,r\sin\phi):r>0,\ 0<\phi<\theta\}$. Define the magnetic Neumann Laplacian $H_\theta$ by the closed form
 
-$$q_\theta[u]=\int_{W_\theta}|(-i\nabla-A)u|^2,\qquad A(x)=\tfrac12(-x_2,x_1),$$
+$$
+q_\theta[u]=\int_{W_\theta}|(-i\nabla-A)u|^2,\qquad A(x)=\tfrac12(-x_2,x_1),
+$$
 
 on $\{u\in L^2(W_\theta):(-i\nabla-A)u\in L^2(W_\theta)\}$, with distributional derivatives. Put $\mu(\theta)=\inf\sigma(H_\theta)$. Prove or disprove
 
-$$\mu(\theta_1)<\mu(\theta_2)\qquad\text{whenever }0<\theta_1<\theta_2<\pi.$$
+$$
+\mu(\theta_1)<\mu(\theta_2)\qquad\text{whenever }0<\theta_1<\theta_2<\pi.
+$$
 
 The field strength remains one while the opening angle varies.
 

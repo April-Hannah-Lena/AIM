@@ -9,18 +9,38 @@
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^d$ be a bounded Lipschitz domain, $T>0$, $V\in C^2(\overline\Omega)$ and $\pi=e^{-V}$. Define
-$$E(\rho)=\int_\Omega(\rho\log\rho-\rho+1+\rho V)\,dx,$$
+
+$$
+E(\rho)=\int_\Omega(\rho\log\rho-\rho+1+\rho V)\,dx,
+$$
+
 with $0\log0=0$. Consider nonnegative densities $\rho\in C([0,T];L^1_w(\Omega))$ of fixed positive mass, and a flux $F\in L^1((0,T)\times\Omega;\mathbb R^d)$. Here $L^1_w$ carries its weak topology. Assume $E(\rho(0))<\infty$ and the continuity equation with no boundary flux, in the precise weak form
-$$\int_0^T\!\int_\Omega(\rho\,\partial_t\varphi+F\cdot\nabla\varphi)\,dx\,dt
-=\int_\Omega\rho(T)\varphi(T)\,dx-\int_\Omega\rho(0)\varphi(0)\,dx$$
+
+$$
+\int_0^T\!\int_\Omega(\rho\,\partial_t\varphi+F\cdot\nabla\varphi)\,dx\,dt
+=\int_\Omega\rho(T)\varphi(T)\,dx-\int_\Omega\rho(0)\varphi(0)\,dx
+$$
+
 for every $\varphi\in C^1([0,T]\times\overline\Omega)$. Suppose moreover that the kinetic action and Fisher information are finite:
-$$\int_0^T\!\int_\Omega\left(\frac{|F|^2}{\rho}+4\pi\left|\nabla\sqrt{\rho/\pi}\right|^2\right)\,dx\,dt<\infty.$$
+
+$$
+\int_0^T\!\int_\Omega\left(\frac{|F|^2}{\rho}+4\pi\left|\nabla\sqrt{\rho/\pi}\right|^2\right)\,dx\,dt<\infty.
+$$
+
 The quotient is zero at $(\rho,F)=(0,0)$ and infinite when $\rho=0$, $F\ne0$; the Fisher term requires $\sqrt{\rho/\pi}\in H^1(\Omega)$ almost everywhere in time.
 
 Prove or disprove that $t\mapsto E(\rho(t))$ is absolutely continuous and satisfies
-$$\frac{d}{dt}E(\rho(t))=\int_\Omega F(t)\cdot\nabla\log(\rho(t)/\pi)\,dx\quad\text{for almost every }t.$$
+
+$$
+\frac{d}{dt}E(\rho(t))=\int_\Omega F(t)\cdot\nabla\log(\rho(t)/\pi)\,dx\quad\text{for almost every }t.
+$$
+
 Interpret the integrand as
-$$(F/\sqrt\rho)\cdot(2\nabla\sqrt\rho+\sqrt\rho\,\nabla V),$$
+
+$$
+(F/\sqrt\rho)\cdot(2\nabla\sqrt\rho+\sqrt\rho\,\nabla V),
+$$
+
 with $F/\sqrt\rho=0$ on $\{\rho=0\}$. The stated estimates make this integrable. The target is Proposition A.1 of [1] for general Lipschitz domains, including those that are both nonconvex and nonsmooth, without additional bounds on the density or gradient-approximation assumptions.
 
 ## Application

@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $\rho_A,\rho_B$ be arbitrary states of $n\ge1$ bosonic modes, each with finite expected total photon number. The joint input is $\rho_A\otimes\rho_B$. For $0\le\eta\le1$, mix corresponding modes by a beam-splitter unitary, so that the output annihilation operators are
-$$c_j=\sqrt\eta\,a_j+\sqrt{1-\eta}\,b_j,\qquad d_j=-\sqrt{1-\eta}\,a_j+\sqrt\eta\,b_j.$$
-Let $\rho_C$ be the reduced state of the $c$ modes after discarding the $d$ modes. With $S(\rho)=-\operatorname{Tr}(\rho\log\rho)$ and $g(t)=(t+1)\log(t+1)-t\log t$ for $t\ge0$, is
-$$g^{-1}\!\left(\frac{S(\rho_C)}n\right)\ge\eta g^{-1}\!\left(\frac{S(\rho_A)}n\right)+(1-\eta)g^{-1}\!\left(\frac{S(\rho_B)}n\right)$$
+
+$$
+c_j=\sqrt\eta\,a_j+\sqrt{1-\eta}\,b_j,\qquad d_j=-\sqrt{1-\eta}\,a_j+\sqrt\eta\,b_j.
+$$
+
+Let $\rho_C$ be the reduced state of the $c$ modes after discarding the $d$ modes. With $S(\rho)=-\mathop{\mathrm{Tr}}\nolimits(\rho\log\rho)$ and $g(t)=(t+1)\log(t+1)-t\log t$ for $t\ge0$, is
+
+$$
+g^{-1}\!\left(\frac{S(\rho_C)}n\right)\ge\eta g^{-1}\!\left(\frac{S(\rho_A)}n\right)+(1-\eta)g^{-1}\!\left(\frac{S(\rho_B)}n\right)
+$$
+
 always true? The inverse is on $[0,\infty)$; correlations among the $n$ modes within either input are allowed.
 
 ## Application

@@ -9,12 +9,29 @@
 ## Problem statement
 
 For $\psi\in H^1(\mathbb R^6)$ with $\|\psi\|_2=1$, set
-$$\rho_\psi(x)=\int(|\psi(x,y)|^2+|\psi(y,x)|^2)\,dy,$$
-$$\mathcal P_U(\psi)=\iint\left(|\nabla_x\psi|^2+|\nabla_y\psi|^2+\frac{U|\psi|^2}{|x-y|}\right)dx\,dy-\iint\frac{\rho_\psi(x)\rho_\psi(y)}{|x-y|}\,dx\,dy.$$
+
+$$
+\rho_\psi(x)=\int(|\psi(x,y)|^2+|\psi(y,x)|^2)\,dy,
+$$
+
+
+
+$$
+\mathcal P_U(\psi)=\iint\left(|\nabla_x\psi|^2+|\nabla_y\psi|^2+\frac{U|\psi|^2}{|x-y|}\right)dx\,dy-\iint\frac{\rho_\psi(x)\rho_\psi(y)}{|x-y|}\,dx\,dy.
+$$
+
 Write $E_2(U)=\inf\mathcal P_U$ and
-$$E_1=\inf_{\substack{\phi\in H^1(\mathbb R^3)\\\|\phi\|_2=1}}\left\{\int|\nabla\phi|^2-\iint\frac{|\phi(x)|^2|\phi(y)|^2}{|x-y|}\,dx\,dy\right\}.$$
+
+$$
+E_1=\inf_{\substack{\phi\in H^1(\mathbb R^3)\\\|\phi\|_2=1}}\left\{\int|\nabla\phi|^2-\iint\frac{|\phi(x)|^2|\phi(y)|^2}{|x-y|}\,dx\,dy\right\}.
+$$
+
 For every $U\ge0$ with $E_2(U)<2E_1$, must every minimizer, after a common translation of its coordinates, obey
-$$\psi(Rx,Ry)=\psi(x,y)\quad\text{for every }R\in O(3)?$$
+
+$$
+\psi(Rx,Ry)=\psi(x,y)\quad\text{for every }R\in O(3)?
+$$
+
 Equivalently, determine whether rotational symmetry breaking occurs anywhere in the binding regime.
 
 ## Application

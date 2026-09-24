@@ -10,7 +10,9 @@
 
 Let $\Omega\subset\mathbb R^2$ be a bounded connected $C^2$ domain, with outward unit normal $n=(n_1,n_2)$. On $L^2(\Omega;\mathbb C^2)$ consider the massless Dirac operator
 
-$$D_\Omega=\begin{pmatrix}0&-i\partial_1-\partial_2\\-i\partial_1+\partial_2&0\end{pmatrix},\qquad \operatorname{dom}D_\Omega=\{u\in H^1(\Omega;\mathbb C^2):u_2=i(n_1+in_2)u_1\text{ on }\partial\Omega\}.$$
+$$
+D_\Omega=\begin{pmatrix}0&-i\partial_1-\partial_2\\-i\partial_1+\partial_2&0\end{pmatrix},\qquad \mathop{\mathrm{dom}}\nolimits D_\Omega=\{u\in H^1(\Omega;\mathbb C^2):u_2=i(n_1+in_2)u_1\text{ on }\partial\Omega\}.
+$$
 
 Write $\lambda_+(\Omega)$ for its smallest positive eigenvalue, and let $B$ be a disk with $|B|=|\Omega|$. Prove or disprove $\lambda_+(\Omega)\ge\lambda_+(B)$, with equality only for disks.
 

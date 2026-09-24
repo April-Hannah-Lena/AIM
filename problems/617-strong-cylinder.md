@@ -9,11 +9,18 @@
 ## Problem statement
 
 Let $p$ be a prime and let $S\subseteq\mathbb F_p^3$ contain exactly $p^2$ points. Suppose every affine plane $H\subseteq\mathbb F_p^3$ satisfies
-$$|S\cap H|\equiv0\pmod p.$$
+
+$$
+|S\cap H|\equiv0\pmod p.
+$$
+
 Must $S$ be the union of $p$ distinct parallel affine lines?
 
 Equivalently, must there exist $v\in\mathbb F_p^3\setminus\{0\}$ and $a_1,\ldots,a_p\in\mathbb F_p^3$ such that
-$$S=\bigsqcup_{j=1}^{p}\bigl(a_j+\mathbb F_pv\bigr)?$$
+
+$$
+S=\bigsqcup_{j=1}^{p}\bigl(a_j+\mathbb F_pv\bigr)?
+$$
 
 This is Ball's strong cylinder conjecture. The condition concerns sets without repeated points, and $p$ must be prime.
 

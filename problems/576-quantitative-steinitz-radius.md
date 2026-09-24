@@ -9,9 +9,17 @@
 ## Problem statement
 
 Does there exist an absolute constant $c>0$ such that, for every integer $d\ge2$ and every finite set $Q\subset\mathbb R^d$ satisfying
-$$B_2^d\subseteq\operatorname{conv}(Q),\qquad B_2^d=\{x:\|x\|_2\le1\},$$
+
+$$
+B_2^d\subseteq\mathop{\mathrm{conv}}\nolimits(Q),\qquad B_2^d=\{x:\|x\|_2\le1\},
+$$
+
 there is a subset $F\subseteq Q$ with $|F|\le2d$ and
-$$\frac{c}{\sqrt d}B_2^d\subseteq\operatorname{conv}(F)?$$
+
+$$
+\frac{c}{\sqrt d}B_2^d\subseteq\mathop{\mathrm{conv}}\nolimits(F)?
+$$
+
 The retained ball has the same center, the origin. The constant must be independent of the dimension, the number of input points and their positions.
 
 ## Application

@@ -9,11 +9,13 @@
 ## Problem statement
 
 Fix a wavenumber $k>0$ and direction $\theta\in S^2$. Let $D\subset\mathbb R^3$ be a bounded domain with smooth boundary and connected exterior. The total field satisfies
+
 $$
 (\Delta+k^2)u=0\text{ in }\mathbb R^3\setminus\overline D,
 \quad u|_{\partial D}=0,
 \quad u=e^{ikx\cdot\theta}+u^s,
 $$
+
 where $u^s$ is outgoing. Let $a_D(\omega;\theta,k)$, $\omega\in S^2$, be its far-field amplitude, defined by $u^s(r\omega)=r^{-1}e^{ikr}a_D(\omega;\theta,k)+O(r^{-2})$.
 
 Must $a_{D_1}(\omega;\theta,k)=a_{D_2}(\omega;\theta,k)$ for every observation direction $\omega$ imply $D_1=D_2$? Frequency and incident direction remain fixed, and no size bound relative to the wavelength is assumed.

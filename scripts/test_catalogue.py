@@ -293,6 +293,32 @@ class CatalogueTests(unittest.TestCase):
         self.change_page(lambda text: text.replace('## References', '## Reading'))
         self.run_catalogue(expected=1, message='missing References')
 
+    def test_display_math_requires_block_boundaries(self):
+        row = self.read_json('data/spectral.json')[0]
+        path = self.root / row['file']
+        original = path.read_text(encoding="utf-8")
+        for block in ('Before\n$$\nx^2\n$$\n\nAfter',
+                      'Before\n\n$$\nx^2\n$$\nAfter',
+                      'Before\n\n$$x^2$$\n\nAfter',
+                      'Before\n\n$$\nx^2\n$$\n$$\ny^2\n$$\n\nAfter'):
+            with self.subTest(block=block):
+                path.write_text(original + '\n' + block + '\n', encoding="utf-8")
+                self.run_catalogue(expected=1, message='display math needs standalone delimiters')
+
+    def test_display_math_separated_from_prose_and_other_blocks(self):
+        self.change_page(lambda text: text + '\nBefore\n\n$$\nx^2\n$$\n\n$$\ny^2\n$$\n\nAfter\n')
+        self.run_catalogue('--check')
+
+    def test_unsupported_math_operator_names(self):
+        row = self.read_json('data/spectral.json')[0]
+        path = self.root / row['file']
+        original = path.read_text(encoding="utf-8")
+        for expression in (r'$\operatorname{Per}(E)$',
+                           '\n$$\n' + r'\operatorname*{ess\,sup}_t f(t)' + '\n$$\n'):
+            with self.subTest(expression=expression):
+                path.write_text(original + '\n' + expression + '\n', encoding="utf-8")
+                self.run_catalogue(expected=1, message='unsupported operator-name macro')
+
     def test_metadata_mismatch(self):
         self.change_row(lambda rows: rows[0].update(area='Incorrect area'))
         self.run_catalogue(expected=1, message='inconsistent Area')

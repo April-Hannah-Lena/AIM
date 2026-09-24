@@ -9,14 +9,19 @@
 ## Problem statement
 
 Let $(M,g)$ be a smooth compact oriented surface with boundary and $E$ a smooth vector field. Unit-speed thermostat trajectories satisfy
+
 $$
 \nabla_{\dot\gamma}\dot\gamma=E-\langle E,\dot\gamma\rangle_g\dot\gamma.
 $$
+
 Assume the thermostat is simple: its boundary is strictly convex for this flow and trajectories between points are unique and depend smoothly on endpoints. For $m\ge1$, let $A_j$ be smooth $\mathfrak u(m)$-valued one-forms and $\Phi_j$ smooth $\mathfrak u(m)$-valued functions, where $\mathfrak u(m)$ consists of skew-Hermitian matrices. Along each maximal trajectory solve
+
 $$
 \dot U_j+(A_j(\dot\gamma)+\Phi_j)U_j=0,\qquad U_j(0)=I_m .
 $$
+
 If the endpoint matrices agree for every boundary-to-boundary trajectory, must a smooth $Q:M\to U(m)$, equal to $I_m$ on $\partial M$, satisfy
+
 $$
 A_2=Q^{-1}A_1Q+Q^{-1}dQ,\qquad
 \Phi_2=Q^{-1}\Phi_1Q?

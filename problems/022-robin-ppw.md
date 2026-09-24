@@ -10,7 +10,9 @@
 
 Fix $d\ge2$ and $\alpha>0$. For every bounded convex smooth domain $\Omega\subset\mathbb R^d$, let $\rho_1(\Omega;\alpha)>0$ and $\rho_2(\Omega;\alpha)$ be the first two eigenvalues of $-\Delta$ with $\partial_\nu u+\alpha u=0$. If $B$ is a ball of the same volume, prove or disprove
 
-$$\frac{\rho_2(\Omega;\alpha)}{\rho_1(\Omega;\alpha)}\le\frac{\rho_2(B;\alpha)}{\rho_1(B;\alpha)}.$$
+$$
+\frac{\rho_2(\Omega;\alpha)}{\rho_1(\Omega;\alpha)}\le\frac{\rho_2(B;\alpha)}{\rho_1(B;\alpha)}.
+$$
 
 The comparison uses the same unscaled boundary parameter and fixes volume. It must hold for all positive $\alpha$.
 

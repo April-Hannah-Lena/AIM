@@ -10,7 +10,9 @@
 
 For every $d\ge2$, let $V:\mathbb R^d\to\mathbb R$ be bounded and measurable with
 
-$$\int_{\mathbb R^d}\frac{|V(x)|^2}{(1+|x|)^{d-1}}\,dx<\infty.$$
+$$
+\int_{\mathbb R^d}\frac{|V(x)|^2}{(1+|x|)^{d-1}}\,dx<\infty.
+$$
 
 For $H=-\Delta+V$ on $H^2(\mathbb R^d)\subset L^2(\mathbb R^d)$, prove or disprove that the absolutely continuous spectral part has infinite multiplicity at Lebesgue-almost every energy $E>0$. Thus the target concerns the multiplicity of propagating states, and does not exclude additional singular spectrum.
 

@@ -9,20 +9,31 @@
 ## Problem statement
 
 On $\Omega=\{x\in\mathbb R^2:1<|x|<2\}$ let $\Gamma_1$ and $\Gamma_0$ be the inner and outer circles. Consider
+
 $$
 iz_t+\Delta z=0\quad\text{in }\Omega,\qquad z=0\quad\text{on }\Gamma_0,
 $$
+
+
+
 $$
 z_\Gamma=z|_{\Gamma_1},\qquad
 iz_{\Gamma,t}+\tfrac12\Delta_\Gamma z_\Gamma-\partial_\nu z=0\quad\text{on }\Gamma_1.
 $$
+
 With $\nu$ outward from $\Omega$, set
-$$\|Z\|_{\mathcal E}^2=\int_\Omega|\nabla z|^2\,dx+
-\tfrac12\int_{\Gamma_1}|\nabla_\Gamma z_\Gamma|^2\,dS.$$
+
+$$
+\|Z\|_{\mathcal E}^2=\int_\Omega|\nabla z|^2\,dx+
+\tfrac12\int_{\Gamma_1}|\nabla_\Gamma z_\Gamma|^2\,dS.
+$$
+
 Is it true that for every $T>0$ a constant $C_T$ satisfies
+
 $$
 \|Z(0)\|_{\mathcal E}^2\le C_T\int_0^T\int_{\Gamma_0}|\partial_\nu z|^2\,dS\,dt
 $$
+
 for every smooth compatible solution? The fixed coefficient $1/2$ selects a concrete case of the unresolved regime in which surface dispersion is weaker than bulk dispersion.
 
 ## Application

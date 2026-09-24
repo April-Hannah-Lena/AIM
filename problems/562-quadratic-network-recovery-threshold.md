@@ -9,24 +9,47 @@
 ## Problem statement
 
 Fix $0<\kappa^*<\kappa<1$ and $\alpha>0$. As $d\to\infty$, take integers $m^*/d\to\kappa^*$, $m/d\to\kappa$, and $n/d^2\to\alpha$. Draw independent teacher vectors $w_i^*\sim N(0,I_d)$ and set
-$$Z^*=\frac1{m^*}\sum_{i=1}^{m^*}w_i^*w_i^{*\top}.$$
+
+$$
+Z^*=\frac1{m^*}\sum_{i=1}^{m^*}w_i^*w_i^{*\top}.
+$$
+
 Independently draw $n$ symmetric Gaussian sensing matrices $X_k$ with independent upper-triangular entries
-$$ (X_k)_{ij}\sim N\!\left(0,\frac{1+\delta_{ij}}d\right),\qquad i\le j,$$
-and observe the noiseless labels $z_k=\operatorname{Tr}(X_kZ^*)$.
+
+$$
+(X_k)_{ij}\sim N\!\left(0,\frac{1+\delta_{ij}}d\right),\qquad i\le j,
+$$
+
+and observe the noiseless labels $z_k=\mathop{\mathrm{Tr}}\nolimits(X_kZ^*)$.
 
 For $W\in\mathbb R^{d\times m}$, define
-$$\mathcal L_d(W)=\frac1{4n}\sum_{k=1}^n\bigl[\operatorname{Tr}(X_kWW^\top)-z_k\bigr]^2.$$
+
+$$
+\mathcal L_d(W)=\frac1{4n}\sum_{k=1}^n\bigl[\mathop{\mathrm{Tr}}\nolimits(X_kWW^\top)-z_k\bigr]^2.
+$$
+
 Run unregularized gradient flow $\dot W=-d\nabla\mathcal L_d(W)$, initialized independently with entries $W_{ij}(0)\sim N(0,1/m)$. Write
-$$R(\alpha;\kappa,\kappa^*)=\lim_{t\to\infty}\lim_{d\to\infty}
-\frac1d\mathbb E\|W(t)W(t)^\top-Z^*\|_F^2,$$
+
+$$
+R(\alpha;\kappa,\kappa^*)=\lim_{t\to\infty}\lim_{d\to\infty}
+\frac1d\mathbb E\|W(t)W(t)^\top-Z^*\|_F^2,
+$$
+
 where expectation includes the teacher, measurements and initialization. Establishing the limits is part of the question.
 
 Let $\sigma$ be the semicircle probability measure with density $\sqrt{4-x^2}/(2\pi)$ on $[-2,2]$, and choose $\omega\in(-2,2)$ by
-$$\sigma([\omega,2])=\frac{\kappa-\kappa^*}{1-\kappa^*}.$$
+
+$$
+\sigma([\omega,2])=\frac{\kappa-\kappa^*}{1-\kappa^*}.
+$$
+
 Define
-$$a_{\rm inter}=\kappa^*-\frac{(\kappa^*)^2}{2}
+
+$$
+a_{\rm inter}=\kappa^*-\frac{(\kappa^*)^2}{2}
 +\frac{(1-\kappa^*)^2}{2}\int_{\max(0,\omega)}^2 x^2\,d\sigma(x),
-\qquad a_{\rm PR}=\min\!\left\{\kappa-\frac{\kappa^2}{2},a_{\rm inter}\right\}.$$
+\qquad a_{\rm PR}=\min\!\left\{\kappa-\frac{\kappa^2}{2},a_{\rm inter}\right\}.
+$$
 
 Prove or disprove that $R(\alpha;\kappa,\kappa^*)=0$ for every $\alpha>a_{\rm PR}$ and $R(\alpha;\kappa,\kappa^*)>0$ for every $0<\alpha<a_{\rm PR}$. No assertion at the critical value is requested.
 

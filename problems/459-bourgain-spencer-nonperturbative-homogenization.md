@@ -9,12 +9,29 @@
 ## Problem statement
 
 Let $d\ge2$. Let $G=C_0*\xi$, where $\xi$ is vector-valued spatial Gaussian white noise and $C_0$ is a smooth compactly supported matrix-valued kernel. Let $a(x)=a_0(G(x))$, with $a_0\in C_b^1$ taking symmetric matrix values satisfying $\lambda I\le a_0\le I$ for some $\lambda>0$. For deterministic $f\in C_c^\infty(\mathbb R^d;\mathbb R^d)$, let $\nabla u_\varepsilon\in L^2$ be the unique gradient solving
-$$-\nabla\cdot a(x/\varepsilon)\nabla u_\varepsilon=\nabla\cdot f.$$
+
+$$
+-\nabla\cdot a(x/\varepsilon)\nabla u_\varepsilon=\nabla\cdot f.
+$$
+
 Do there exist constant tensors $A^1,\ldots,A^{2d}$, depending only on the law of $a$, with $A^1$ positive definite, for which the following approximation holds? Define deterministic gradients recursively by
-$$-\nabla\cdot A^1\nabla v_1=\nabla\cdot f,$$
-$$-\nabla\cdot A^1\nabla v_n=\nabla\cdot\sum_{k=2}^n A^k_{j_1\cdots j_{k-1}}\partial_{j_1}\cdots\partial_{j_{k-1}}\nabla v_{n+1-k},\quad 2\le n\le2d,$$
+
+$$
+-\nabla\cdot A^1\nabla v_1=\nabla\cdot f,
+$$
+
+
+
+$$
+-\nabla\cdot A^1\nabla v_n=\nabla\cdot\sum_{k=2}^n A^k_{j_1\cdots j_{k-1}}\partial_{j_1}\cdots\partial_{j_{k-1}}\nabla v_{n+1-k},\quad 2\le n\le2d,
+$$
+
 where $A^k_{j_1\cdots j_{k-1}}$ is a $d\times d$ matrix and repeated indices are summed. With $U_\varepsilon=\sum_{n=1}^{2d}\varepsilon^{n-1}v_n$, is
-$$\|\mathbb E\nabla u_\varepsilon-\nabla U_\varepsilon\|_{L^2(\mathbb R^d)}\le C_{f,\eta}\varepsilon^{2d-\eta}\qquad(0<\varepsilon\le1)$$
+
+$$
+\|\mathbb E\nabla u_\varepsilon-\nabla U_\varepsilon\|_{L^2(\mathbb R^d)}\le C_{f,\eta}\varepsilon^{2d-\eta}\qquad(0<\varepsilon\le1)
+$$
+
 valid for every $f$ and $0<\eta<1$? There is no small-contrast assumption on $a$. Constants may depend on its law and ellipticity.
 
 ## Application

@@ -8,22 +8,30 @@
 
 Fix an integer $k\ge2$. For a finite group $G$, put
 
-$$D(G)=\sum_{\rho\in\widehat G}\dim\rho,$$
+$$
+D(G)=\sum_{\rho\in\widehat G}\dim\rho,
+$$
 
 where $\widehat G$ indexes its irreducible complex representations. Form $k+1$ disjoint vertex sets $V_i=\{i\}\times G$. For $A\subseteq G$, let $Y_{A,k}$ contain the full $(k-1)$-skeleton of the join $V_1*\cdots*V_{k+1}$ and precisely the $k$-simplices
 
-$$\{(1,g_1),\ldots,(k+1,g_{k+1})\}\quad\text{with}\quad g_1\cdots g_{k+1}\in A.$$
+$$
+\{(1,g_1),\ldots,(k+1,g_{k+1})\}\quad\text{with}\quad g_1\cdots g_{k+1}\in A.
+$$
 
 Use simplicial cochains over $\mathbb F_2$, with coboundary $\delta$. For a cochain $\phi$, let $|\phi|$ count the faces on which it is nonzero, and write
 
-$$h_{k-1}(Y)=\min_{\phi\notin B^{k-1}(Y;\mathbb F_2)}
+$$
+h_{k-1}(Y)=\min_{\phi\notin B^{k-1}(Y;\mathbb F_2)}
 \frac{|\delta\phi|}{\min_{b\in B^{k-1}(Y;\mathbb F_2)}|\phi+b|},
-\qquad B^{k-1}=\operatorname{im}\delta_{k-2}.$$
+\qquad B^{k-1}=\mathop{\mathrm{im}}\nolimits\delta_{k-2}.
+$$
 
 Do constants $C_k,\varepsilon_k>0$ exist such that, for a uniformly random subset $A\subseteq G$ of size $\lceil C_k\log D(G)\rceil$,
 
-$$\Pr\{h_{k-1}(Y_{A,k})\ge\varepsilon_k\}\longrightarrow1
-\quad\text{as }|G|\longrightarrow\infty?$$
+$$
+\Pr\{h_{k-1}(Y_{A,k})\ge\varepsilon_k\}\longrightarrow1
+\quad\text{as }|G|\longrightarrow\infty?
+$$
 
 The constants must work along every sequence of finite groups with orders tending to infinity. Counts in the expansion ratio are unnormalized.
 

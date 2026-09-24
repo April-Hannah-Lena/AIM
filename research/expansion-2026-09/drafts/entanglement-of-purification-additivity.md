@@ -13,15 +13,15 @@ Let $A,B,C,D$ be arbitrary finite-dimensional complex Hilbert spaces. A density 
 $$
 E_P(A:B)_\rho=
 \min_{A',B',\,\psi}
-S\!\left(\operatorname{Tr}_{BB'}|\psi\rangle\langle\psi|\right),
+S\!\left(\mathop{\mathrm{Tr}}\nolimits_{BB'}|\psi\rangle\langle\psi|\right),
 \qquad
-\operatorname{Tr}_{A'B'}|\psi\rangle\langle\psi|=\rho_{AB}.
+\mathop{\mathrm{Tr}}\nolimits_{A'B'}|\psi\rangle\langle\psi|=\rho_{AB}.
 $$
 
-The minimum ranges over finite-dimensional auxiliary spaces $A',B'$ and unit vectors $\psi$ on $A\otimes A'\otimes B\otimes B'$. Here $\operatorname{Tr}$ with subsystem subscripts denotes partial trace, and
+The minimum ranges over finite-dimensional auxiliary spaces $A',B'$ and unit vectors $\psi$ on $A\otimes A'\otimes B\otimes B'$. Here $\mathop{\mathrm{Tr}}\nolimits$ with subsystem subscripts denotes partial trace, and
 
 $$
-S(\tau)=-\operatorname{Tr}(\tau\log_2\tau),\qquad 0\log_2 0=0,
+S(\tau)=-\mathop{\mathrm{Tr}}\nolimits(\tau\log_2\tau),\qquad 0\log_2 0=0,
 $$
 
 is the von Neumann entropy. The minimum is attained; no particular purification or auxiliary dimension is prescribed in the optimization.

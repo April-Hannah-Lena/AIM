@@ -8,7 +8,11 @@
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^d$, $d\ge2$, be a bounded smooth domain and $f\in C^\infty(\overline\Omega)$. Let $U$ be the unique minimizer over $BV(\Omega)\cap L^2(\Omega)$ of
-$$\mathcal E(u)=|Du|(\Omega)+\frac12\int_\Omega|u-f|^2\,dx,$$
+
+$$
+\mathcal E(u)=|Du|(\Omega)+\frac12\int_\Omega|u-f|^2\,dx,
+$$
+
 where $|Du|$ is the total variation of the distributional gradient; no boundary values are prescribed. Must $\nabla U\in BV(\Omega;\mathbb R^d)$? Equivalently, must all distributional second derivatives of $U$ be finite Radon measures on $\Omega$?
 
 ## Application

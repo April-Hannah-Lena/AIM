@@ -11,7 +11,11 @@
 Let $K$ and $L$ be finite simplicial complexes whose geometric realizations are homeomorphic to $S^d$, where $d\ge3$. Their facet-ridge graphs have one vertex per $d$-dimensional facet; two graph vertices are adjacent exactly when their facets share a $(d-1)$-face.
 
 Prove or disprove that every graph isomorphism
-$$\varphi:\operatorname{FR}(K)\longrightarrow\operatorname{FR}(L)$$
+
+$$
+\varphi:\mathop{\mathrm{FR}}\nolimits(K)\longrightarrow\mathop{\mathrm{FR}}\nolimits(L)
+$$
+
 is induced by a unique simplicial isomorphism $K\to L$. No shellability or polytopality assumption is imposed.
 
 ## Application

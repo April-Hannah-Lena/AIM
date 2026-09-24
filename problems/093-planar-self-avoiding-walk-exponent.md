@@ -9,14 +9,18 @@
 ## Problem statement
 
 Let $\mathcal W_N$ be the finite set of nearest-neighbor walks $\omega:\{0,\ldots,N\}\to\mathbb Z^2$ with $\omega(0)=0$ and $\omega(i)\ne\omega(j)$ for $i\ne j$. Give every walk in $\mathcal W_N$ equal probability, and write
+
 $$
 R_N^2=\frac1{|\mathcal W_N|}
 \sum_{\omega\in\mathcal W_N}|\omega(N)|^2.
 $$
+
 Prove or disprove
+
 $$
 \lim_{N\to\infty}\frac{\log R_N^2}{\log N}=\frac32.
 $$
+
 Thus the root-mean-square displacement would be $N^{3/4+o(1)}$. This asks only for the exponent, not existence of a multiplicative asymptotic constant or convergence of the entire path to SLE.
 
 ## Application

@@ -9,7 +9,11 @@
 ## Problem statement
 
 On the nearest-neighbor graph of $\mathbb Z^2$, let independent edge times have the exponential distribution of mean one, and let $T_n$ be the minimum total edge time over all paths from $(0,0)$ to $(n,0)$. Prove or disprove
-$$\lim_{n\to\infty}\frac{\log\operatorname{Var}(T_n)}{\log n}=\frac23.$$
+
+$$
+\lim_{n\to\infty}\frac{\log\mathop{\mathrm{Var}}\nolimits(T_n)}{\log n}=\frac23.
+$$
+
 Paths may move in all four lattice directions. This is the undirected minimum-passage model, not a directed maximum-passage model.
 
 ## Application

@@ -9,15 +9,31 @@
 ## Problem statement
 
 On $\mathbb T^3$, consider constant-viscosity barotropic flow
-$$\rho_t+\operatorname{div}(\rho u)=0,\qquad(\rho u)_t+\operatorname{div}(\rho u\otimes u)+\nabla\rho^{7/5}=\Delta u+\nabla\operatorname{div}u.$$
+
+$$
+\rho_t+\mathop{\mathrm{div}}\nolimits(\rho u)=0,\qquad(\rho u)_t+\mathop{\mathrm{div}}\nolimits(\rho u\otimes u)+\nabla\rho^{7/5}=\Delta u+\nabla\mathop{\mathrm{div}}\nolimits u.
+$$
+
 Does every initial density $\rho_0\geq0$ and momentum $m_0$ with
-$$E_0=\int_{\mathbb T^3}\left(\frac{|m_0|^2}{2\rho_0}+\frac52\rho_0^{7/5}\right)dx<\infty$$
+
+$$
+E_0=\int_{\mathbb T^3}\left(\frac{|m_0|^2}{2\rho_0}+\frac52\rho_0^{7/5}\right)dx<\infty
+$$
+
 admit a global finite-energy weak solution? The kinetic term is $0$ at $(\rho_0,m_0)=(0,0)$ and infinite if $\rho_0=0$, $m_0\ne0$.
 
 Require the displayed distributional equations and initial traces, $\rho\in L^\infty_{\mathrm{loc}}([0,\infty);L^{7/5})$, $u\in L^2_{\mathrm{loc}}([0,\infty);H^1)$, the renormalized continuity equation
-$$\partial_tb(\rho)+\operatorname{div}(b(\rho)u)+(\rho b'(\rho)-b(\rho))\operatorname{div}u=0$$
+
+$$
+\partial_tb(\rho)+\mathop{\mathrm{div}}\nolimits(b(\rho)u)+(\rho b'(\rho)-b(\rho))\mathop{\mathrm{div}}\nolimits u=0
+$$
+
 for $b\in C^1$ with compactly supported derivative, and, for almost every $t$,
-$$E(t)+\int_0^t\int(|\nabla u|^2+|\operatorname{div}u|^2)\,dx\,ds\leq E_0.$$
+
+$$
+E(t)+\int_0^t\int(|\nabla u|^2+|\mathop{\mathrm{div}}\nolimits u|^2)\,dx\,ds\leq E_0.
+$$
+
 Here $E(t)$ is the corresponding density-and-momentum energy.
 
 ## Application

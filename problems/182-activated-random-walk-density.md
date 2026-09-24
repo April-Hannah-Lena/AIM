@@ -11,7 +11,11 @@
 Fix a sleep rate $\lambda>0$. On $\mathbb Z^2$, active particles perform independent continuous-time simple random walks at jump rate one. A lone active particle sleeps at rate $\lambda$; arrival of an active particle wakes a sleeping one. Define $\zeta_c(\lambda)$ as the infimum of densities $\zeta$ for which the system started with iid Poisson$(\zeta)$ active particles fails to fixate almost surely; fixation means finitely many jumps at every site.
 
 For $\Lambda_n=[-n,n]^2\cap\mathbb Z^2$, kill particles that jump out. On stable configurations (at most one sleeping particle per site), repeatedly add one active particle at a uniformly chosen site and run to stabilization. Let $\pi_n$ be the stationary law of this finite Markov chain, and $N(\eta)$ its number of sleeping particles. Is
-$$\lim_{n\to\infty}\frac{\mathbb E_{\pi_n}N}{|\Lambda_n|}=\zeta_c(\lambda)$$
+
+$$
+\lim_{n\to\infty}\frac{\mathbb E_{\pi_n}N}{|\Lambda_n|}=\zeta_c(\lambda)
+$$
+
 for every $\lambda>0$?
 
 ## Application

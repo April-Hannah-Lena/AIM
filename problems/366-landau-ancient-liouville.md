@@ -9,7 +9,11 @@
 ## Problem statement
 
 Let $f:(-\infty,0]\times\mathbb R^3\to[0,1]$ be a smooth classical solution of the spatially homogeneous Landau–Coulomb equation
-$$\partial_tf=\nabla_v\cdot(A[f]\nabla_vf-f\nabla_va[f]),\quad A[f]\,(v)=\frac1{8\pi}\int_{\mathbb R^3}\frac{I-\widehat{v-w}\otimes\widehat{v-w}}{|v-w|}f(w)\,dw,\quad a[f]\,(v)=\frac1{4\pi}\int_{\mathbb R^3}\frac{f(w)}{|v-w|}\,dw,$$
+
+$$
+\partial_tf=\nabla_v\cdot(A[f]\nabla_vf-f\nabla_va[f]),\quad A[f]\,(v)=\frac1{8\pi}\int_{\mathbb R^3}\frac{I-\widehat{v-w}\otimes\widehat{v-w}}{|v-w|}f(w)\,dw,\quad a[f]\,(v)=\frac1{4\pi}\int_{\mathbb R^3}\frac{f(w)}{|v-w|}\,dw,
+$$
+
 where $\widehat z=z/|z|$. Suppose $\int f(t,v)(1+|v|^2)^{-1/2}\,dv<\infty$ for every $t\le0$. Must $f$ be stationary and equal to $A_0e^{-b|v-c|^2}$ for constants $A_0\ge0$, $b>0$, $c\in\mathbb R^3$? Ordinary mass, energy and entropy are not assumed finite. The zero solution is included.
 
 ## Application

@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $\Omega=B_R(0)\subset\mathbb R^2$. Consider radially symmetric nonnegative smooth compatible initial data for
-$$u_t=\Delta u-\nabla\cdot(u\nabla v),\qquad v_t=\Delta v-v+u,$$
+
+$$
+u_t=\Delta u-\nabla\cdot(u\nabla v),\qquad v_t=\Delta v-v+u,
+$$
+
 with $\partial_nu=\partial_nv=0$ on $\partial\Omega$. Suppose its maximal classical solution blows up at a finite time $T$ and has the measure limit
-$$u(\cdot,t)\,dx\stackrel{*}{\rightharpoonup}m\delta_0+f(x)\,dx\qquad(t\uparrow T),$$
+
+$$
+u(\cdot,t)\,dx\stackrel{*}{\rightharpoonup}m\delta_0+f(x)\,dx\qquad(t\uparrow T),
+$$
+
 where $f\in L^1(\Omega)$ is nonnegative and $m\ge8\pi$. Must $m=8\pi$? The signal equation retains its time derivative; the question concerns finite-time collapse in this fully parabolic system.
 
 ## Application

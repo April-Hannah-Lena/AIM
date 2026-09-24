@@ -10,12 +10,23 @@
 
 Let $(M,g)$ be a complete, connected, noncompact Riemannian manifold of dimension $N\ge2$, with $\mathrm{Ric}\ge-(N-1)k$ for some $k\ge0$ and the uniform Faber–Krahn inequality
 $\lambda_1(D)\ge c\,\mathrm{Vol}(D)^{-2/N}$ for all relatively compact smooth domains $D\subset M$, with $c>0$. Fix $m>1$ and $0<s<1$ and use the spectral fractional Laplace–Beltrami operator in
-$$\partial_tu+(-\Delta_M)^s(u^m)=0.$$
+
+$$
+\partial_tu+(-\Delta_M)^s(u^m)=0.
+$$
 
 Write $G_s(x,y)=\Gamma(s)^{-1}\int_0^\infty p_t(x,y)t^{s-1}\,dt$, where $p_t$ is the heat kernel, and set
-$$\|f\|_{1,x_0,G_s}=\int_{B_1(x_0)}|f|+\int_{M\setminus B_1(x_0)}|f(x)|G_s(x,x_0).$$
+
+$$
+\|f\|_{1,x_0,G_s}=\int_{B_1(x_0)}|f|+\int_{M\setminus B_1(x_0)}|f(x)|G_s(x,x_0).
+$$
+
 All integrals use Riemannian volume. A nonnegative weak dual solution has $u\in C([0,T];L^1_{x_0,G_s})$ for every $x_0,T$, $u^m\in L^1((0,T);L^1_{\rm loc}(M))$, and
-$$\int_0^T\!\int_M\bigl[(-\Delta_M)^{-s}u\,\partial_t\psi-u^m\psi\bigr]=0$$
+
+$$
+\int_0^T\!\int_M\bigl[(-\Delta_M)^{-s}u\,\partial_t\psi-u^m\psi\bigr]=0
+$$
+
 for every compactly supported smooth space-time test function $\psi$.
 
 Given any $u_0\ge0$ with $\sup_{x_0\in M}\|u_0\|_{1,x_0,G_s}<\infty$, are any two such solutions with trace $u_0$ identical? Do not restrict solutions to those constructed by a monotone sequence of bounded integrable approximations.

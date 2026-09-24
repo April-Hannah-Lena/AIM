@@ -9,7 +9,11 @@
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^d$, $d\ge2$, be connected, unbounded, and uniformly $C^{2,\gamma}$ for some $0<\gamma<1$: its boundary has graph charts of a common positive radius with uniformly bounded $C^{2,\gamma}$ norms. Let $f\in C^{1,\gamma}([0,\infty))$ satisfy $f(0)=f(1)=0$, $f'(0)>0$, $f>0$ on $(0,1)$, $f<0$ on $(1,\infty)$, and $f(s)/s$ strictly decreasing on $(0,1]$. For each fixed $\beta\in[0,1)$, is there at most one bounded positive classical solution of
-$$-\Delta u=f(u)\quad\hbox{in }\Omega,\qquad \beta\partial_nu+(1-\beta)u=0\quad\hbox{on }\partial\Omega?$$
+
+$$
+-\Delta u=f(u)\quad\hbox{in }\Omega,\qquad \beta\partial_nu+(1-\beta)u=0\quad\hbox{on }\partial\Omega?
+$$
+
 Here $n$ is the outward normal, and $\beta=0$ denotes Dirichlet boundary conditions. No periodicity or spectral-gap assumption at spatial infinity is made.
 
 ## Application

@@ -11,7 +11,11 @@
 A *cycle permutation graph* is a finite simple cubic graph with a spanning 2-factor consisting of two chordless cycles. Equivalently, for some integer $k\ge3$, it consists of two disjoint $k$-cycles and a perfect matching between their vertex sets. Such a graph is a *permutation snark* if its edges cannot be coloured with three colours so that incident edges have different colours.
 
 Does there exist a permutation snark $G$ satisfying
-$$|V(G)|\equiv6\pmod8?$$
+
+$$
+|V(G)|\equiv6\pmod8?
+$$
+
 Construct one, or prove that every cycle permutation graph with this order is 3-edge-colourable. Equivalently, with $k\equiv3\pmod4$, determine whether any matching between two $k$-cycles can produce a permutation snark. The existence of a single example is the target; no extra girth or connectivity condition is imposed.
 
 ## Application

@@ -9,7 +9,11 @@
 ## Problem statement
 
 For every nonnegative $f_0\in C_c^\infty(\mathbb R_x^3\times\mathbb R_p^3)$, does the system
-$$\partial_tf+\frac{p}{\sqrt{1+|p|^2}}\cdot\nabla_xf+E\cdot\nabla_pf=0,\quad E=-\nabla_x\Phi,\quad-\Delta_x\Phi=4\pi\int_{\mathbb R^3}f\,dp,\quad\Phi(x)\to0\ (|x|\to\infty)$$
+
+$$
+\partial_tf+\frac{p}{\sqrt{1+|p|^2}}\cdot\nabla_xf+E\cdot\nabla_pf=0,\quad E=-\nabla_x\Phi,\quad-\Delta_x\Phi=4\pi\int_{\mathbb R^3}f\,dp,\quad\Phi(x)\to0\ (|x|\to\infty)
+$$
+
 have a unique global classical solution with $f(0)=f_0$? More precisely, must its momentum support remain bounded on each finite time interval? No symmetry or smallness assumption is allowed. The sign displayed is repulsive.
 
 ## Application

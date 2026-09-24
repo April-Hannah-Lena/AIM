@@ -9,9 +9,13 @@
 ## Problem statement
 
 Determine the smallest real number $K_G$ such that, for all positive integers $m,n,d$, every real matrix $A=(a_{ij})\in\mathbb R^{m\times n}$ and all unit vectors $u_i,v_j\in\mathbb R^d$,
-$$\left|\sum_{i=1}^m\sum_{j=1}^n a_{ij}\langle u_i,v_j\rangle\right|
+
+$$
+\left|\sum_{i=1}^m\sum_{j=1}^n a_{ij}\langle u_i,v_j\rangle\right|
 \le K_G\max_{\epsilon_i,\delta_j\in\{-1,1\}}
-\left|\sum_{i=1}^m\sum_{j=1}^n a_{ij}\epsilon_i\delta_j\right|.$$
+\left|\sum_{i=1}^m\sum_{j=1}^n a_{ij}\epsilon_i\delta_j\right|.
+$$
+
 The target is the exact universal real constant, with matching sharp upper and lower bounds.
 
 ## Application

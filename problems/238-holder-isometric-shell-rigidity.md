@@ -9,7 +9,11 @@
 ## Problem statement
 
 Let $g$ be any smooth Riemannian metric on $S^2$ with strictly positive Gaussian curvature. For every $\alpha\in(1/2,1)$ and every $C^{1,\alpha}$ embedding $u:S^2\to\mathbb R^3$ satisfying the isometry condition
-$$Du(x)^TDu(x)=g(x)$$
+
+$$
+Du(x)^TDu(x)=g(x)
+$$
+
 in local coordinates, must $u(S^2)$ be the boundary of a convex body?
 
 Here $C^{1,\alpha}$ means that first derivatives are locally Hölder continuous with exponent $\alpha$, and an embedding is an injective immersion that is a homeomorphism onto its image. The unresolved assertion includes the interval $1/2<\alpha\leq2/3$.

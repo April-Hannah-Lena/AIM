@@ -8,9 +8,17 @@
 ## Problem statement
 
 For each real $c\ne0$, let $\Omega=\{(x,y)\in\mathbb R^2:y>0\}$ and consider the Dirichlet realization
-$$A_c=-\partial_x^2-\left(\partial_y-\frac{i x^2}{2}\right)^2+i c y$$
+
+$$
+A_c=-\partial_x^2-\left(\partial_y-\frac{i x^2}{2}\right)^2+i c y
+$$
+
 on $L^2(\Omega)$, with domain
-$$D(A_c)=H^1_0(\Omega)\cap\{u:A_cu\in L^2(\Omega)\},$$
+
+$$
+D(A_c)=H^1_0(\Omega)\cap\{u:A_cu\in L^2(\Omega)\},
+$$
+
 where $A_cu$ is understood distributionally. Is $\sigma(A_c)\ne\varnothing$ for every $c\ne0$? The issue is the intermediate values of $|c|$, beyond the small- and large-parameter regimes.
 
 ## Application

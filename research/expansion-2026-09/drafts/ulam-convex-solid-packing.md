@@ -9,27 +9,33 @@
 ## Problem statement
 
 Let $K\subset\mathbb R^3$ be a compact convex set with nonempty interior. A packing of congruent copies of $K$ is a locally finite family
+
 $$
 \mathcal P=\{a_i+Q_iK:i\in I\},
 \qquad a_i\in\mathbb R^3,\quad Q_i\in O(3),
 $$
+
 whose members have pairwise disjoint interiors. Here $O(3)$ is the group of orthogonal transformations. Together with the vectors $a_i$, this permits reflections, rotations and translations, following the full-isometry convention in Kallus's formulation. Every member has the same shape and size.
 
 Write $B_R$ for the ball of radius $R$ centred at the origin, and $|A|$ for the three-dimensional volume of a measurable set $A$. Define
+
 $$
 \overline d(\mathcal P)=\limsup_{R\to\infty}
 \frac{\left|B_R\cap\bigcup_{P\in\mathcal P}P\right|}{|B_R|},
 \qquad
 \delta(K)=\sup_{\mathcal P}\overline d(\mathcal P).
 $$
+
 The supremum ranges over all such packings; periodicity and a common orientation are not required. If $B$ is a ball, the Kepler theorem gives $\delta(B)=\pi/\sqrt{18}$.
 
 The question known as **Ulam's packing conjecture** asks whether
+
 $$
 \delta(K)\ge\frac{\pi}{\sqrt{18}}
 \qquad\text{for every compact convex }K\subset\mathbb R^3
 \text{ with nonempty interior}.
 $$
+
 Thus the proposed universal lower bound is the optimal density of congruent balls. There is no symmetry or smoothness assumption on $K$. The problem does not ask for a characterization of equality, and it imposes no packing protocol or finite container. Lattice packing, packing by translations alone and random packing have different optimization domains.
 
 ## Applied significance

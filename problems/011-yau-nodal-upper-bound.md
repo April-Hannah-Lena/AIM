@@ -10,7 +10,9 @@
 
 For every closed connected $C^\infty$ Riemannian manifold $(M,g)$ of dimension $d\ge2$, does there exist $C=C(M,g)$ such that every nonzero real eigenfunction $u$ satisfying $-\Delta_g u=\lambda u$, $\lambda>0$, obeys
 
-$$\mathcal H^{d-1}_g\bigl(\{x\in M:u(x)=0\}\bigr)\le C\sqrt\lambda?$$
+$$
+\mathcal H^{d-1}_g\bigl(\{x\in M:u(x)=0\}\bigr)\le C\sqrt\lambda?
+$$
 
 Here $\mathcal H^{d-1}_g$ is Hausdorff measure for the metric $g$. The constant must be uniform over all eigenvalues and all eigenfunctions, and no real-analyticity is assumed.
 

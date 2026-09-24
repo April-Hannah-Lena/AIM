@@ -9,11 +9,18 @@
 ## Problem statement
 
 For a finite set $X\subset\mathbb R^d$, define its set of nonzero pairwise distances by
-$$D(X)=\{\|x-y\|_2:x,y\in X,\ x\ne y\}.$$
+
+$$
+D(X)=\{\|x-y\|_2:x,y\in X,\ x\ne y\}.
+$$
+
 Call $X$ a two-distance set when $|D(X)|=2$.
 
 Does there exist a set $X\subset\mathbb R^{24}$ with
-$$|X|=325\qquad\text{and}\qquad |D(X)|=2?$$
+
+$$
+|X|=325\qquad\text{and}\qquad |D(X)|=2?
+$$
 
 The two distances are not prescribed, and the points need not lie on a sphere. The target is an exact construction or a proof of nonexistence. This is the final question in §3 of [1].
 

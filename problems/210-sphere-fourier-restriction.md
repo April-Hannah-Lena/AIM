@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $\sigma$ be surface area measure on $S^2=\{\omega\in\mathbb R^3:|\omega|=1\}$ and define
-$$Eg(x)=\int_{S^2}e^{2\pi i x\cdot\omega}g(\omega)\,d\sigma(\omega).$$
+
+$$
+Eg(x)=\int_{S^2}e^{2\pi i x\cdot\omega}g(\omega)\,d\sigma(\omega).
+$$
+
 Is it true that for every $p>3$ there exists $C_p<\infty$ such that
-$$\|Eg\|_{L^p(\mathbb R^3)}\le C_p\|g\|_{L^\infty(S^2,\sigma)}$$
+
+$$
+\|Eg\|_{L^p(\mathbb R^3)}\le C_p\|g\|_{L^\infty(S^2,\sigma)}
+$$
+
 for every bounded measurable $g:S^2\to\mathbb C$? The constant must be independent of the angular amplitude $g$.
 
 ## Application

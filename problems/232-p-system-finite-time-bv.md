@@ -11,12 +11,24 @@
 Can finite-time blowup of total variation occur for an exact entropy solution of the polytropic $p$-system while its state remains bounded away from vacuum and concentration?
 
 Specifically, determine whether there exist $\gamma>1$, $T<\infty$ and a distributional solution on $[0,T)\times\mathbb R$ of
-$$v_t-u_x=0,\qquad u_t+(v^{-\gamma})_x=0,$$
+
+$$
+v_t-u_x=0,\qquad u_t+(v^{-\gamma})_x=0,
+$$
+
 with initial data of finite total variation, with $0<a\leq v\leq b<\infty$ and $|u|\leq M$, such that for every $T'<T$,
-$$\operatorname*{ess\,sup}_{t\leq T'}[\operatorname{TV}v(t)+\operatorname{TV}u(t)]<\infty,$$
+
+$$
+\mathop{\mathrm{ess\,sup}}_{t\leq T'}[\mathop{\mathrm{TV}}\nolimits v(t)+\mathop{\mathrm{TV}}\nolimits u(t)]<\infty,
+$$
+
 but this bound diverges as $T'\uparrow T$. Require local $L^1$ continuity in time and the mechanical entropy inequality
-$$\partial_t\left(\frac{u^2}{2}+\frac{v^{1-\gamma}}{\gamma-1}\right)+\partial_x(uv^{-\gamma})\leq0.$$
-Here $v$ is specific volume, $u$ is velocity, and $\operatorname{TV}$ is spatial total variation on $\mathbb R$.
+
+$$
+\partial_t\left(\frac{u^2}{2}+\frac{v^{1-\gamma}}{\gamma-1}\right)+\partial_x(uv^{-\gamma})\leq0.
+$$
+
+Here $v$ is specific volume, $u$ is velocity, and $\mathop{\mathrm{TV}}\nolimits$ is spatial total variation on $\mathbb R$.
 
 ## Application
 

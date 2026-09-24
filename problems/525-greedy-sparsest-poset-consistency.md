@@ -13,15 +13,27 @@ Let $P$ be a distribution of observed variables $(X_i)_{i\in V}$, with $V$ finit
 Assume $P$ is Markov and restricted-faithful to a DMAG $G^*$. Markov means every separation in $I(G^*)$ is a conditional independence of $P$. Restricted faithfulness requires conditional dependence whenever a pair is $m$-connected given $S\subseteq V\setminus\{i,j\}$ and is either adjacent, the endpoints of a length-two path in the skeleton, or the endpoints of a discriminating path. A discriminating path for $k$ has form $\langle i,\ldots,k,j\rangle$, at least three edges, nonadjacent endpoints, and every vertex strictly between $i$ and $k$ is both a collider on the path and a parent of $j$.
 
 For a partial order $\pi$ on $V$, set
-$$D_\pi(i,j)=\{v:v\le_\pi i\text{ or }v\le_\pi j\}\setminus\{i,j\}.$$
-Construct $A(\pi,P)$ by placing an edge between $i,j$ exactly when $X_i$ and $X_j$ are conditionally dependent given $X_{D_\pi(i,j)}$. Orient it from the smaller to the larger vertex if comparable, and bidirect it otherwise. Let $\operatorname{po}(H)$ be the partial order of directed ancestry, including equality, and define
-$$G_\pi=\overline{A\bigl(\operatorname{po}(A(\pi,P)),P\bigr)}.$$
+
+$$
+D_\pi(i,j)=\{v:v\le_\pi i\text{ or }v\le_\pi j\}\setminus\{i,j\}.
+$$
+
+Construct $A(\pi,P)$ by placing an edge between $i,j$ exactly when $X_i$ and $X_j$ are conditionally dependent given $X_{D_\pi(i,j)}$. Orient it from the smaller to the larger vertex if comparable, and bidirect it otherwise. Let $\mathop{\mathrm{po}}\nolimits(H)$ be the partial order of directed ancestry, including equality, and define
+
+$$
+G_\pi=\overline{A\bigl(\mathop{\mathrm{po}}\nolimits(A(\pi,P)),P\bigr)}.
+$$
+
 The bar denotes the maximal ancestral closure: add edges between pairs that cannot be $m$-separated, preserving the separation model and ancestral orientations. Thus both the second application of $A$ and the closure are part of the definition.
 
-Form a directed search graph with vertices the distinct graphs $G_\pi$. From $H$ allow a move to $G_{\operatorname{po}(H')}$ whenever $H'$ comes from $H$ by changing one edge $i\to j$ to $i\leftrightarrow j$, or conversely, with $H'$ still a DMAG Markov equivalent to $H$. These are the legitimate mark changes.
+Form a directed search graph with vertices the distinct graphs $G_\pi$. From $H$ allow a move to $G_{\mathop{\mathrm{po}}\nolimits(H')}$ whenever $H'$ comes from $H$ by changing one edge $i\to j$ to $i\leftrightarrow j$, or conversely, with $H'$ still a DMAG Markov equivalent to $H$. These are the legitimate mark changes.
 
 Prove or refute that every starting vertex $H_0$ has a directed path $H_0,H_1,\ldots,H_r$ in this search graph satisfying
-$$|E(H_{t+1})|\le |E(H_t)|,\qquad |E(H_r)|=\min_\pi |E(G_\pi)|.$$
+
+$$
+|E(H_{t+1})|\le |E(H_t)|,\qquad |E(H_r)|=\min_\pi |E(G_\pi)|.
+$$
+
 The number being minimized is the number of graph edges. This is the oracle consistency conjecture for Greedy Sparsest Poset (GSPo) with sufficiently large search depth. It does not prescribe a fixed depth or a polynomial running time.
 
 ## Application

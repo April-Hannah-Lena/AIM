@@ -9,14 +9,26 @@
 ## Problem statement
 
 On $L^2(\mathbb R^3)$ let
-$$H=-\Delta-|x|^{-1},\qquad \psi_0(x)=(8\pi)^{-1/2}e^{-|x|/2}.$$
+
+$$
+H=-\Delta-|x|^{-1},\qquad \psi_0(x)=(8\pi)^{-1/2}e^{-|x|/2}.
+$$
+
 The normalized ground state satisfies $H\psi_0=-\tfrac14\psi_0$. For an integer $n\ge1$, define the first-order split evolution at the fixed final time $t=1$
-$$S_n=\left(e^{-i|x|^{-1}/n}e^{-i\Delta/n}\right)^n,$$
+
+$$
+S_n=\left(e^{-i|x|^{-1}/n}e^{-i\Delta/n}\right)^n,
+$$
+
 where the first factor is multiplication by its phase and the second is the free Schrödinger unitary.
 
 Prove or disprove that there are constants $c>0$ and $N$ such that
-$$\left\|S_n\psi_0-e^{iH}\psi_0\right\|_{L^2(\mathbb R^3)}\ge c n^{-1/4}
-\qquad(n\ge N).$$
+
+$$
+\left\|S_n\psi_0-e^{iH}\psi_0\right\|_{L^2(\mathbb R^3)}\ge c n^{-1/4}
+\qquad(n\ge N).
+$$
+
 This asks for the fixed-time $t=1$ instance of the source question. The time is held fixed while the number of steps tends to infinity. A one-step lower bound with the time tending to zero is a different assertion.
 
 ## Application

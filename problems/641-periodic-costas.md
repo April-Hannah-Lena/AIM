@@ -9,13 +9,29 @@
 ## Problem statement
 
 Write $[a]=\{1,\ldots,a\}$. Let $m\ge2$, $1\le m-k\le k$, and let $n_1,\ldots,n_m\ge2$ be integers satisfying
-$$n=\prod_{i=1}^{k}n_i=\prod_{i=k+1}^{m}n_i.$$
+
+$$
+n=\prod_{i=1}^{k}n_i=\prod_{i=k+1}^{m}n_i.
+$$
+
 For a bijection
-$$\varphi:\prod_{i=1}^{k}[n_i]\longrightarrow\prod_{i=k+1}^{m}[n_i],$$
+
+$$
+\varphi:\prod_{i=1}^{k}[n_i]\longrightarrow\prod_{i=k+1}^{m}[n_i],
+$$
+
 let $S=\{(x,\varphi(x))\}$ be its graph and extend it periodically to
-$$\widetilde S=S+(n_1\mathbb Z\times\cdots\times n_m\mathbb Z).$$
+
+$$
+\widetilde S=S+(n_1\mathbb Z\times\cdots\times n_m\mathbb Z).
+$$
+
 Assume that, for every $t\in\mathbb Z^m$, all nonzero ordered difference vectors between points of
-$$\widetilde S\cap\left(t+\prod_{i=1}^{m}[n_i]\right)$$
+
+$$
+\widetilde S\cap\left(t+\prod_{i=1}^{m}[n_i]\right)
+$$
+
 are distinct. Must $n=2^k$, equivalently $n_1=\cdots=n_k=2$?
 
 This is the periodic multidimensional Costas-array conjecture of Rubio and Torres. The differences in each window are ordinary integer vectors; they are not reduced modulo the side lengths.

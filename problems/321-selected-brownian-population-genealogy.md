@@ -13,18 +13,22 @@ Consider $N$ particles on $\mathbb R$. Each moves as an independent standard Bro
 Write $X_i(t)$ for the positions and $Y_i(t)=X_i(t)-\min_jX_j(t)$ for their offsets from the leftmost particle. The offset process has a unique stationary probability law $\psi_N$. Use this law to specify the population's equilibrium regime; it is a law on configurations of $N$ particles, not a product of limiting one-particle densities.
 
 Here is a finite-window formulation of the Brunet–Derrida genealogy conjecture. **Does there exist a constant $c>0$ such that the following holds?** Set $a_N=c(\log N)^3$. For every fixed integer $k\ge2$ and $T>0$, start the offset configuration with law $\psi_N$, run the population until time $a_NT$, and choose $k$ distinct surviving particles uniformly without replacement. For $0\le s\le T$, let $\Pi_{N,k,T}(s)$ partition $\{1,\ldots,k\}$ by declaring two sampled particles equivalent precisely when they have the same ancestor at time $a_N(T-s)$. As $N\to\infty$, is it true that
+
 $$
 \bigl(\Pi_{N,k,T}(s)\bigr)_{0\le s\le T}
 \ \Longrightarrow\
 \bigl(\Pi_k(s)\bigr)_{0\le s\le T}
 $$
+
 in finite-dimensional distributions, where $\Pi_k$ is the standard Bolthausen–Sznitman coalescent?
 
 For completeness, $\Pi_k(0)$ consists of $k$ singleton blocks. Whenever there are $b$ blocks, each specified collection of $r$ blocks, $2\le r\le b$, merges into one at rate
+
 $$
 \lambda_{b,r}=\int_0^1 x^{r-2}(1-x)^{b-r}\,dx
 =\frac{(r-2)!(b-r)!}{(b-1)!}.
 $$
+
 These are the only transitions. The same constant $c$ must work for all fixed sample sizes and time windows. It absorbs the time normalization of the population model. The question is convergence of the sampled partition process, not merely the order of a pair's expected coalescence time.
 
 ## Application

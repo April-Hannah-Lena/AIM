@@ -11,9 +11,16 @@
 Let $P\subset\mathbb R^2$ be a finite set in strictly convex position, and let $T,T'$ be straight-line spanning trees on $P$ whose edges do not cross within either tree. A flip deletes one edge and inserts another, leaving a non-crossing spanning tree; the deleted and inserted edges are allowed to cross each other.
 
 Write $d_{\mathrm{flip}}(T,T')$ for the minimum number of flips and
-$$\delta(T,T')=|E(T)\setminus E(T')|=\tfrac12|E(T)\mathbin{\triangle}E(T')|.$$
+
+$$
+\delta(T,T')=|E(T)\setminus E(T')|=\tfrac12|E(T)\mathbin{\triangle}E(T')|.
+$$
+
 Prove or disprove that every such pair satisfies
-$$d_{\mathrm{flip}}(T,T')\le\frac53\,\delta(T,T').$$
+
+$$
+d_{\mathrm{flip}}(T,T')\le\frac53\,\delta(T,T').
+$$
 
 ## Application
 

@@ -11,13 +11,24 @@
 Fix $N\ge2$, $0<s<1$, and $m=2$.
 
 On $\mathbb R^N$ use the model
-$$u_t=\nabla\cdot(u^{m-1}\nabla p),\qquad p=(-\Delta)^{-s}u,$$
+
+$$
+u_t=\nabla\cdot(u^{m-1}\nabla p),\qquad p=(-\Delta)^{-s}u,
+$$
+
 where the inverse fractional Laplacian has Fourier multiplier $|\xi|^{-2s}$. Take nonzero, nonnegative $u_0\in L^1\cap L^\infty$ with compact support. By a bounded energy weak solution mean a nonnegative distributional solution with the initial trace $u_0$, continuous into $L^1$ with its weak topology, conserving $\int u_0$, and satisfying $\|u(t)\|_\infty\le\|u_0\|_\infty$, locally integrable flux, and
-$$\frac12\|(-\Delta)^{-s/2}u(t)\|_2^2+
+
+$$
+\frac12\|(-\Delta)^{-s/2}u(t)\|_2^2+
 \int_0^t\!\int u^{m-1}|\nabla(-\Delta)^{-s}u|^2
-\le\frac12\|(-\Delta)^{-s/2}u_0\|_2^2.$$
+\le\frac12\|(-\Delta)^{-s/2}u_0\|_2^2.
+$$
+
 Use also the dissipative $L^q$ inequalities, for every $q>1$,
-$$\|u(t)\|_q^q+\frac{4q(q-1)}{(m+q-1)^2}\int_0^t\|(-\Delta)^{(1-s)/2}u^{(m+q-1)/2}\|_2^2\,dr\le\|u_0\|_q^q.$$
+
+$$
+\|u(t)\|_q^q+\frac{4q(q-1)}{(m+q-1)^2}\int_0^t\|(-\Delta)^{(1-s)/2}u^{(m+q-1)/2}\|_2^2\,dr\le\|u_0\|_q^q.
+$$
 
 Is there at most one bounded energy weak solution for each such initial density, without strict positivity or additional smoothness assumptions?
 

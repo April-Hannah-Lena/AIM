@@ -7,8 +7,8 @@ Verdict: the stated disk obstruction and the Dirichlet low-index band are correc
 On the unit disk, take `f0=1-r^2`, `f1=r(1-r^2)cos(theta)`, and `f2=r(1-r^2)sin(theta)`. They are linearly independent elements of `H_0^1`. Their mass and Dirichlet-energy matrices are respectively
 
 \[
-M=\pi\operatorname{diag}(1/3,1/24,1/24),\qquad
-K=\pi\operatorname{diag}(2,2/3,2/3).
+M=\pi\mathop{\mathrm{diag}}\nolimits(1/3,1/24,1/24),\qquad
+K=\pi\mathop{\mathrm{diag}}\nolimits(2,2/3,2/3).
 \]
 
 All off-diagonal entries vanish by angular orthogonality. The generalized Rayleigh quotients are exactly `6,16,16`; thus every vector in their three-dimensional span has quotient at most `16`, and min--max gives `lambda_3(disk)<=16`. Checking individual quotients alone would not have sufficed without the two orthogonalities.

@@ -10,11 +10,15 @@
 
 For a nonzero, nonnegative, radial $V\in C_c^\infty(\mathbb R^3)$, let $a>0$ be its scattering length: the solution of $(-\Delta+V/2)f=0$ with $f(x)\to1$ satisfies $f(x)=1-a/|x|$ outside the support. Let $E(N,L)$ be the ground energy of $N$ bosons in a periodic cube of side $L$, with kinetic energy $\sum_j-\Delta_j$ and pair potential given by the periodic extension of $V$. Define
 
-$$e(\rho)=\lim_{N,L\to\infty,\ N/L^3\to\rho}\frac{E(N,L)}{L^3}.$$
+$$
+e(\rho)=\lim_{N,L\to\infty,\ N/L^3\to\rho}\frac{E(N,L)}{L^3}.
+$$
 
 Prove or disprove the asymptotic formula, as $\rho\downarrow0$ with $V$ fixed,
 
-$$e(\rho)=4\pi a\rho^2\left[1+\frac{128}{15\sqrt\pi}(\rho a^3)^{1/2}+8\left(\frac{4\pi}{3}-\sqrt3\right)\rho a^3\log(\rho a^3)+o\big(\rho a^3|\log(\rho a^3)|\big)\right].$$
+$$
+e(\rho)=4\pi a\rho^2\left[1+\frac{128}{15\sqrt\pi}(\rho a^3)^{1/2}+8\left(\frac{4\pi}{3}-\sqrt3\right)\rho a^3\log(\rho a^3)+o\big(\rho a^3|\log(\rho a^3)|\big)\right].
+$$
 
 ## Application
 

@@ -10,15 +10,21 @@
 
 Let $\mathcal P_N$ be the symmetric complex polynomials in $z_1,\ldots,z_N$ of total degree at most $N(N-1)$, with inner product
 
-$$\langle F,G\rangle=\pi^{-N}\int_{\mathbb C^N}\overline{F(z)}G(z)e^{-\sum_j|z_j|^2}\,dz.$$
+$$
+\langle F,G\rangle=\pi^{-N}\int_{\mathbb C^N}\overline{F(z)}G(z)e^{-\sum_j|z_j|^2}\,dz.
+$$
 
 On the full polynomial space define the orthogonal projection
 
-$$(P_{ij}F)(z)=F\left(z_1,\ldots,\frac{z_i+z_j}{2},\ldots,\frac{z_i+z_j}{2},\ldots,z_N\right).$$
+$$
+(P_{ij}F)(z)=F\left(z_1,\ldots,\frac{z_i+z_j}{2},\ldots,\frac{z_i+z_j}{2},\ldots,z_N\right).
+$$
 
 The sum $H_N=\sum_{i<j}P_{ij}$ preserves $\mathcal P_N$. Its kernel contains the Laughlin polynomial $\prod_{i<j}(z_i-z_j)^2$. Does there exist $c>0$ such that, for every $N\ge2$,
 
-$$\inf\big(\sigma(H_N|_{\mathcal P_N})\setminus\{0\}\big)\ge c?$$
+$$
+\inf\big(\sigma(H_N|_{\mathcal P_N})\setminus\{0\}\big)\ge c?
+$$
 
 This fixes the contact-interaction normalization and the angular-momentum cutoff while letting particle number grow.
 

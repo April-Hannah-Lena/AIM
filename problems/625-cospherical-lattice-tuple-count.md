@@ -9,11 +9,19 @@
 ## Problem statement
 
 For fixed $d\ge3$ and $n\ge1$, let $S(n,d)$ count ordered tuples of $d+2$ pairwise distinct points of $\{1,\ldots,n\}^d$ that lie on some Euclidean sphere
-$$\{x\in\mathbb R^d:\|x-a\|_2=R\},\qquad a\in\mathbb R^d,\quad R>0.$$
+
+$$
+\{x\in\mathbb R^d:\|x-a\|_2=R\},\qquad a\in\mathbb R^d,\quad R>0.
+$$
+
 Count a tuple once even if several spheres contain it. Hyperplanes are not counted as spheres.
 
 Is there a constant $C_d$, independent of $n$, such that
-$$S(n,d)\le C_d n^{d^2+d-1}$$
+
+$$
+S(n,d)\le C_d n^{d^2+d-1}
+$$
+
 for all $n$?
 
 ## Application

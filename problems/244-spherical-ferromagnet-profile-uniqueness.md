@@ -9,12 +9,25 @@
 ## Problem statement
 
 For $\kappa\geq4$, consider the energy
-$$\mathcal E_\kappa(m)=\frac12\int_{S^2}[|\nabla_{S^2}m|^2+\kappa(1-(m(x)\cdot x)^2)]\,dS,$$
+
+$$
+\mathcal E_\kappa(m)=\frac12\int_{S^2}[|\nabla_{S^2}m|^2+\kappa(1-(m(x)\cdot x)^2)]\,dS,
+$$
+
 for unit magnetization fields $m:S^2\to S^2$. Write an axisymmetric field in spherical coordinates as $m(\theta,\varphi)=(\sin h(\theta)\cos\varphi,\sin h(\theta)\sin\varphi,\cos h(\theta))$.
 
 Is there exactly one profile $h\in C^\infty([0,\pi])$, inducing a smooth map on the whole sphere, that satisfies
-$$h''+\cot\theta\,h'-\frac{\sin(2h)}{2\sin^2\theta}-\frac\kappa2\sin(2h-2\theta)=0\quad(0<\theta<\pi),$$
-$$h(0)=0,\qquad h(\pi)=2\pi,\qquad h(\pi-\theta)=2\pi-h(\theta)?$$
+
+$$
+h''+\cot\theta\,h'-\frac{\sin(2h)}{2\sin^2\theta}-\frac\kappa2\sin(2h-2\theta)=0\quad(0<\theta<\pi),
+$$
+
+
+
+$$
+h(0)=0,\qquad h(\pi)=2\pi,\qquad h(\pi-\theta)=2\pi-h(\theta)?
+$$
+
 These boundary and reflection conditions specify the hemispheric class with one complete profile rotation; the corresponding map has degree zero.
 
 ## Application

@@ -9,9 +9,17 @@
 ## Problem statement
 
 For integers $n\geq3$ and $r\geq2$, define the discrete Lee ball
-$$B_1(n,r)=\left\{z\in\mathbb Z^n:\sum_{j=1}^n|z_j|\leq r\right\}.$$
+
+$$
+B_1(n,r)=\left\{z\in\mathbb Z^n:\sum_{j=1}^n|z_j|\leq r\right\}.
+$$
+
 Prove or disprove that there is no set $C\subseteq\mathbb Z^n$ for which
-$$\mathbb Z^n=\bigsqcup_{c\in C}\bigl(c+B_1(n,r)\bigr).$$
+
+$$
+\mathbb Z^n=\bigsqcup_{c\in C}\bigl(c+B_1(n,r)\bigr).
+$$
+
 Equivalently, no code in the integer lattice should correct every Lee-metric error of radius $r$ perfectly: every lattice point would have to lie within distance $r$ of exactly one codeword. This is the strong Golomb–Welch conjecture, stated as Conjecture 3 in [1, Section II]. The centers are arbitrary; no linearity, lattice, or periodicity assumption is imposed.
 
 ## Application

@@ -8,20 +8,28 @@
 
 ## Problem statement
 
-For each integer $m\ge2$, let $V=\operatorname{Sym}_m(\mathbb C)$, with independent coordinates $s_{ij}$ for $i\le j$. Use the trace pairing to define the symmetric matrix gradient:
-$$ (\nabla_S f)_{ij}=\frac{1}{2-\delta_{ij}}\frac{\partial f}{\partial s_{ij}},\qquad i\le j,$$
+For each integer $m\ge2$, let $V=\mathop{\mathrm{Sym}}\nolimits_m(\mathbb C)$, with independent coordinates $s_{ij}$ for $i\le j$. Use the trace pairing to define the symmetric matrix gradient:
+
+$$
+(\nabla_S f)_{ij}=\frac{1}{2-\delta_{ij}}\frac{\partial f}{\partial s_{ij}},\qquad i\le j,
+$$
+
 where $\delta_{ij}$ is the Kronecker delta and the lower-triangular entries are obtained by symmetry.
 
 Give an explicit structural parametrization of all nonzero rational functions $\Phi$ on $V$ satisfying
-$$\Phi(tS)=t^{-m}\Phi(S),\qquad
-\Phi(S)=\det\!\left(-\frac{\nabla_S\Phi(S)}{\Phi(S)}\right).$$
+
+$$
+\Phi(tS)=t^{-m}\Phi(S),\qquad
+\Phi(S)=\det\!\left(-\frac{\nabla_S\Phi(S)}{\Phi(S)}\right).
+$$
+
 The first identity holds for nonzero complex $t$, and both identities are rational identities on their domains of definition. Equality of solutions means equality as rational functions, without quotienting by arbitrary nonzero scalar factors.
 
 The requested parametrization should construct solutions from specified algebraic or combinatorial data and prove that every solution arises. An implicit restatement of the differential equation, a test of a supplied candidate, or a classification with a fixed bound on numerator and denominator degrees does not complete the target. This is the determinant specialization of the open parametrization problem in the introduction of [1].
 
 ## Application
 
-For a centered Gaussian model with concentration matrix $K$ and sample covariance $S$, the log-likelihood is proportional, up to an additive constant, to $\log\det K-\operatorname{tr}(KS)$. Solutions encode models whose algebraic likelihood equations have one complex critical point for generic data, yielding rational formulas for estimation. Real positive-definite points are required when using such a complex algebraic model as a statistical model.
+For a centered Gaussian model with concentration matrix $K$ and sample covariance $S$, the log-likelihood is proportional, up to an additive constant, to $\log\det K-\mathop{\mathrm{tr}}\nolimits(KS)$. Solutions encode models whose algebraic likelihood equations have one complex critical point for generic data, yielding rational formulas for estimation. Real positive-definite points are required when using such a complex algebraic model as a statistical model.
 
 ## References
 
@@ -31,7 +39,11 @@ For a centered Gaussian model with concentration matrix $K$ and sample covarianc
 ## Status review
 
 **Known cases:** Theorem 3.5 and Corollary 5.3 of [1] give a bijection between these solutions and projective varieties of Gaussian maximum-likelihood degree one:
-$$\Phi\longmapsto\mathbb P\!\left(\overline{\operatorname{im}(-\nabla_S\Phi/\Phi)}\right),$$
+
+$$
+\Phi\longmapsto\mathbb P\!\left(\overline{\mathop{\mathrm{im}}\nolimits(-\nabla_S\Phi/\Phi)}\right),
+$$
+
 with Zariski closure. The associated estimator is $-\nabla_S\Phi/\Phi$.
 
 Known solutions include $\Phi(S)=1/\det S$ for the unrestricted model and formulas for chordal undirected graphical models and directed acyclic graphical models. The paper also constructs nonlinear and colored examples. Linear concentration models have a further characterization through homaloidal determinant restrictions; later constructions in [2] supply additional families.

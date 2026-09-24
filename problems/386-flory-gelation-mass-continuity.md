@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $0<\alpha<1$ and let $K:(0,\infty)^2\to[0,\infty)$ be continuous and symmetric. Assume that for some $0<c<C<\infty$ and continuous $\ell>0$,
-$$c(x^\alpha y+xy^\alpha)\le K(x,y)\le C(x^\alpha y+xy^\alpha),\quad\lim_{y\to\infty}K(x,y)/y=\ell(x),\quad cx^\alpha\le\ell(x)\le Cx^\alpha.$$
+
+$$
+c(x^\alpha y+xy^\alpha)\le K(x,y)\le C(x^\alpha y+xy^\alpha),\quad\lim_{y\to\infty}K(x,y)/y=\ell(x),\quad cx^\alpha\le\ell(x)\le Cx^\alpha.
+$$
+
 Let $\mu_0$ be a finite nonnegative measure on $(0,\infty)$ with $\int x\,d\mu_0=1$. A Flory solution is a family of finite nonnegative measures with nonincreasing particle number and mass $M_1(t)=\int x\,d\mu_t$, satisfying for every $\phi\in C_c([0,\infty))$
-$$\langle\mu_t,\phi\rangle=\langle\mu_0,\phi\rangle+\frac12\int_0^t\!\iint K(x,y)[\phi(x+y)-\phi(x)-\phi(y)]\,d\mu_s(x)\,d\mu_s(y)\,ds-\int_0^t(1-M_1(s))\langle\mu_s,\ell\phi\rangle\,ds.$$
+
+$$
+\langle\mu_t,\phi\rangle=\langle\mu_0,\phi\rangle+\frac12\int_0^t\!\iint K(x,y)[\phi(x+y)-\phi(x)-\phi(y)]\,d\mu_s(x)\,d\mu_s(y)\,ds-\int_0^t(1-M_1(s))\langle\mu_s,\ell\phi\rangle\,ds.
+$$
+
 For every such solution whose gelation time $T_g=\inf\{t:M_1(t)<1\}$ satisfies $0<T_g<\infty$, must $M_1$ be continuous at $T_g$, with $M_1(T_g)=\lim_{t\downarrow T_g}M_1(t)=1$?
 
 ## Application

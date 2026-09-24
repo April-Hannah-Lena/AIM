@@ -9,15 +9,27 @@
 ## Problem statement
 
 On $\mathbb T^d$, $d\ge2$, consider the scalar Itô equation
-$$du=\nabla\cdot(a\nabla u)\,dt+\sum_{k\ge1}(b_k\cdot\nabla u)\,dW^k_t,\qquad u(0)=u_0,$$
+
+$$
+du=\nabla\cdot(a\nabla u)\,dt+\sum_{k\ge1}(b_k\cdot\nabla u)\,dW^k_t,\qquad u(0)=u_0,
+$$
+
 where the Brownian motions are independent, $u_0\in C^\infty(\mathbb T^d)$ is deterministic, and the coefficients are progressively measurable in $(t,\omega)$ and measurable in $x$. Assume fixed deterministic bounds
-$$|a|+\Big(\sum_k|b_k|^2\Big)^{1/2}\le M,\qquad
-\eta^\top\Big(a-\tfrac12\sum_kb_k\otimes b_k\Big)\eta\ge\nu|\eta|^2\quad(\eta\in\mathbb R^d),$$
+
+$$
+|a|+\Big(\sum_k|b_k|^2\Big)^{1/2}\le M,\qquad
+\eta^\top\Big(a-\tfrac12\sum_kb_k\otimes b_k\Big)\eta\ge\nu|\eta|^2\quad(\eta\in\mathbb R^d),
+$$
+
 with $M<\infty$ and $\nu>0$. Use the variational solution in $C([0,T];L^2)\cap L^2(0,T;H^1)$, defined by testing against smooth spatial functions and integrating the stochastic terms in the Itô sense.
 
 With no spatial regularity imposed on $a$ or $b$, does the solution have a modification such that, almost surely, for every $0<\tau<T<\infty$ there is a $\gamma=\gamma(\omega,\tau,T)>0$ with
-$$u\in C^{\gamma/2,\gamma}([\tau,T]\times\mathbb T^d)?$$
-Here the seminorm uses the denominator $|t-r|^{\gamma/2}+\operatorname{dist}(x,y)^\gamma$. The assertion concerns joint continuity on one probability-one event, not continuity almost surely at each separately fixed point.
+
+$$
+u\in C^{\gamma/2,\gamma}([\tau,T]\times\mathbb T^d)?
+$$
+
+Here the seminorm uses the denominator $|t-r|^{\gamma/2}+\mathop{\mathrm{dist}}\nolimits(x,y)^\gamma$. The assertion concerns joint continuity on one probability-one event, not continuity almost surely at each separately fixed point.
 
 ## Application
 

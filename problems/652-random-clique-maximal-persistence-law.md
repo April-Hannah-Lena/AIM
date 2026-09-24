@@ -8,16 +8,22 @@
 
 Assign independent uniform random variables $U_e\in[0,1]$ to the edges of the complete graph on $n$ vertices. Let $X_n(p)$ be the clique complex of the graph with edges $U_e\le p$. Fix $k\ge1$ and compute persistent homology over $\mathbb Q$. For its positive-length barcode intervals $[b,d)$, put
 
-$$M_k(n)=\max d/b,$$
+$$
+M_k(n)=\max d/b,
+$$
 
 with $M_k(n)=0$ if that barcode is empty. Define
 
-$$f_k(n)=n^{1/[k(k+1)]}(\log n)^{1/(k+1)}.$$
+$$
+f_k(n)=n^{1/[k(k+1)]}(\log n)^{1/(k+1)}.
+$$
 
 Does there exist a probability distribution $\mu_k$ on $\mathbb R$ and a constant $\lambda_k>0$ such that
 
-$$\frac{M_k(n)}{f_k(n)}\xrightarrow{\mathrm d}\mu_k,
-\qquad \mu_k([\lambda_k,\infty))=1?$$
+$$
+\frac{M_k(n)}{f_k(n)}\xrightarrow{\mathrm d}\mu_k,
+\qquad \mu_k([\lambda_k,\infty))=1?
+$$
 
 Prove this assertion or give a counterexample. The dimension $k$ stays fixed as $n\to\infty$; no particular named distribution is prescribed.
 

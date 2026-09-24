@@ -9,9 +9,17 @@
 ## Problem statement
 
 For integers $d\ge1$ and $n\ge d+3$, let $X_1,\ldots,X_n$ be independent standard Gaussian vectors in $\mathbb R^d$. For $1\le k\le n-1$, define
-$$q_k(n,d)=\mathbb P\!\left(\operatorname{conv}\{X_1,\ldots,X_k\}\cap\operatorname{conv}\{X_{k+1},\ldots,X_n\}\ne\varnothing\right).$$
+
+$$
+q_k(n,d)=\mathbb P\!\left(\mathop{\mathrm{conv}}\nolimits\{X_1,\ldots,X_k\}\cap\mathop{\mathrm{conv}}\nolimits\{X_{k+1},\ldots,X_n\}\ne\varnothing\right).
+$$
+
 Prove or disprove that this sequence is log-concave:
-$$q_k(n,d)^2\ge q_{k-1}(n,d)q_{k+1}(n,d)\qquad(2\le k\le n-2).$$
+
+$$
+q_k(n,d)^2\ge q_{k-1}(n,d)q_{k+1}(n,d)\qquad(2\le k\le n-2).
+$$
+
 By the symmetry $q_k=q_{n-k}$, this would also make the intersection probability increase as the two prescribed group sizes become more balanced.
 
 ## Application

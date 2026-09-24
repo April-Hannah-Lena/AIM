@@ -11,7 +11,11 @@
 Do there exist an integer $k\ge2$ and a constant $\varepsilon>0$ for which the following promise problem is QMA-hard under quantum polynomial-time reductions?
 
 The input consists of $m$ positive semidefinite operators $0\le h_j\le I$ on $n$ qubits, each acting on at most $k$ qubits, and rational numbers $0\le a<b\le1$ with $b-a\ge\varepsilon$. Local matrices and thresholds have polynomial-length binary descriptions. With
-$$H=\frac1m\sum_{j=1}^m h_j,$$
+
+$$
+H=\frac1m\sum_{j=1}^m h_j,
+$$
+
 distinguish $\lambda_{\min}(H)\le a$ from $\lambda_{\min}(H)\ge b$, promised that one holds.
 
 QMA comprises promise problems with polynomial-time quantum verifiers, polynomially many witness qubits, completeness at least $2/3$, and soundness at most $1/3$. Hardness here means that every such problem reduces to this one by a uniform polynomial-time quantum computation with bounded error.

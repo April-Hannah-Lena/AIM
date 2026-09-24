@@ -9,11 +9,19 @@
 ## Problem statement
 
 For integers $n\geq d\geq2$, define
-$$\sigma_{n,d}(x_1,\ldots,x_n)=\bigoplus_{1\leq i_1<\cdots<i_d\leq n}x_{i_1}\cdots x_{i_d},\qquad x\in\mathbb F_2^n.$$
+
+$$
+\sigma_{n,d}(x_1,\ldots,x_n)=\bigoplus_{1\leq i_1<\cdots<i_d\leq n}x_{i_1}\cdots x_{i_d},\qquad x\in\mathbb F_2^n.
+$$
+
 Here $\oplus$ is addition modulo two. A Boolean function is balanced if it takes each output value on exactly half its inputs.
 
 Prove or disprove the Cusick–Li–Stănică conjecture:
-$$\sigma_{n,d}\text{ is balanced}\quad\Longleftrightarrow\quad d=2^t\ \text{and}\ n=2^{t+1}\ell-1\quad\text{for some integers }t,\ell\geq1.$$
+
+$$
+\sigma_{n,d}\text{ is balanced}\quad\Longleftrightarrow\quad d=2^t\ \text{and}\ n=2^{t+1}\ell-1\quad\text{for some integers }t,\ell\geq1.
+$$
+
 The coefficient of every degree-$d$ squarefree monomial is one; arbitrary symmetric Boolean functions are outside this classification.
 
 ## Application

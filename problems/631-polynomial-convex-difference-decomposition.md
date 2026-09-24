@@ -11,7 +11,11 @@
 A continuous piecewise affine function $f:\mathbb R^d\to\mathbb R$ has $q$ pieces if $q$ is the smallest number of full-dimensional cells in a finite polyhedral complex covering $\mathbb R^d$ on whose cells $f$ is affine. Cells meet along common faces; pieces count regions, not merely distinct affine formulas.
 
 Does a universal polynomial $p$ exist such that every such $f$ admits
-$$f=g-h,$$
+
+$$
+f=g-h,
+$$
+
 where $g,h:\mathbb R^d\to\mathbb R$ are convex continuous piecewise affine functions, each with at most $p(d,q)$ pieces? The polynomial and its degree must be independent of $d$, $q$ and $f$.
 
 ## Application

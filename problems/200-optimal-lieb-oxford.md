@@ -10,11 +10,15 @@
 
 For every integer $N\ge1$, consider symmetric probability measures $P$ on $(\mathbb R^3)^N$ whose one-particle density $\rho_P$ is defined by $\int\rho_P=N$ and whose one-coordinate marginal has density $\rho_P/N$. Require $\rho_P\in L^{4/3}(\mathbb R^3)$ and all the following Coulomb integrals to be finite. Define
 
-$$E_{\rm ind}(P)=\int\sum_{i<j}\frac{1}{|x_i-x_j|}\,dP-\frac12\iint\frac{\rho_P(x)\rho_P(y)}{|x-y|}\,dx\,dy.$$
+$$
+E_{\rm ind}(P)=\int\sum_{i<j}\frac{1}{|x_i-x_j|}\,dP-\frac12\iint\frac{\rho_P(x)\rho_P(y)}{|x-y|}\,dx\,dy.
+$$
 
 Determine the sharp universal constant
 
-$$C_{\rm LO}=\sup_{N,P}\frac{-E_{\rm ind}(P)}{\int_{\mathbb R^3}\rho_P(x)^{4/3}\,dx}.$$
+$$
+C_{\rm LO}=\sup_{N,P}\frac{-E_{\rm ind}(P)}{\int_{\mathbb R^3}\rho_P(x)^{4/3}\,dx}.
+$$
 
 Sharpness means both a universal inequality with this constant and admissible distributions approaching equality. No numerical conjecture for its exact value is assumed.
 

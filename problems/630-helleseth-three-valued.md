@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $p\ge5$ be prime, $r\ge0$ an integer, and $F=\mathbb F_{p^{2^r}}$. For a positive integer $d$ coprime to $|F|-1$, define
-$$W_{F,d}(a)=\sum_{x\in F}\exp\!\left(\frac{2\pi i}{p}\operatorname{Tr}_{F/\mathbb F_p}(x^d-ax)\right).$$
+
+$$
+W_{F,d}(a)=\sum_{x\in F}\exp\!\left(\frac{2\pi i}{p}\mathop{\mathrm{Tr}}\nolimits_{F/\mathbb F_p}(x^d-ax)\right).
+$$
+
 Must the set
-$$\{W_{F,d}(a):a\in F\setminus\{0\}\}$$
+
+$$
+\{W_{F,d}(a):a\in F\setminus\{0\}\}
+$$
+
 have cardinality different from three?
 
 This is the unresolved characteristic range of Helleseth's three-valued conjecture. No assumption $d\equiv1\pmod{p-1}$ is imposed. Exponents congruent to a power of $p$ modulo $|F|-1$ are allowed, but their two-valued spectra already satisfy the assertion.

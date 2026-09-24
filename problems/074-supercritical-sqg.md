@@ -9,10 +9,12 @@
 ## Problem statement
 
 For each fixed $0<\gamma<1$, determine whether every smooth mean-zero real datum $\theta_0$ on $\mathbb T^2$ generates a global smooth solution of
+
 $$
 \partial_t\theta+(\mathcal R^\perp\theta)\cdot\nabla\theta+
 (-\Delta)^{\gamma/2}\theta=0,\qquad \theta(0)=\theta_0.
 $$
+
 Here $\mathcal R_j$ is the periodic Riesz transform with multiplier $-ik_j/|k|$ at nonzero Fourier mode $k$, $\mathcal R^\perp=(-\mathcal R_2,\mathcal R_1)$, and the fractional Laplacian has multiplier $(2\pi|k|)^\gamma$. No smallness restriction or dependence of $\gamma$ on the datum is allowed.
 
 ## Application

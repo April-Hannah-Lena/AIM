@@ -7,19 +7,25 @@
 ## Problem statement
 
 Fix an integer $N\ge2$, a vector $\rho\in\mathbb R^N$ with $\sum_i\rho_i=0$, and parameters $c,K>0$ satisfying $Kc<1$. Let
+
 $$
 Z_N=\{x\in\mathbb R^N:\textstyle\sum_i x_i=0\},
 \qquad b(u)=\tanh(cu).
 $$
+
 At each discrete time, choose an ordered pair of distinct players uniformly and independently of the past. Conditional on the pair $i,j$, draw a fresh score $S\in\{-1,1\}$, independently of the past, with
+
 $$
 \mathbb P(S=1\mid i,j)=\frac{1+b(\rho_i-\rho_j)}2.
 $$
+
 Starting from $X_0\in Z_N$, update only these two coordinates:
+
 $$
 X_i'=X_i+K\{S-b(X_i-X_j)\},\qquad
 X_j'=X_j-K\{S-b(X_i-X_j)\}.
 $$
+
 This Markov chain has a unique invariant probability measure $\pi_{N,\rho,c,K}$ on $Z_N$.
 
 Is $\pi_{N,\rho,c,K}$ absolutely continuous with respect to the $(N-1)$-dimensional Lebesgue measure on $Z_N$ for every such choice of parameters? Prove this assertion or exhibit admissible parameters for which it fails. This is the logistic, binary-score instance of the stationary-density question in Cortez and Tossounian, Section 6.

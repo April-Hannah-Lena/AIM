@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $G=(V,E)$ be a finite nonempty simple graph. Define $\alpha_*(G)$ as the largest integer $m$ for which there are a finite dimension $d$, a positive semidefinite matrix $\rho\in\mathbb C^{d\times d}$ with $\operatorname{Tr}\rho=1$, and positive semidefinite matrices $\rho_{i,x}$, for $1\le i\le m$ and $x\in V$, satisfying
+Let $G=(V,E)$ be a finite nonempty simple graph. Define $\alpha_*(G)$ as the largest integer $m$ for which there are a finite dimension $d$, a positive semidefinite matrix $\rho\in\mathbb C^{d\times d}$ with $\mathop{\mathrm{Tr}}\nolimits\rho=1$, and positive semidefinite matrices $\rho_{i,x}$, for $1\le i\le m$ and $x\in V$, satisfying
 
 $$
 \sum_{x\in V}\rho_{i,x}=\rho\quad(1\le i\le m),\qquad

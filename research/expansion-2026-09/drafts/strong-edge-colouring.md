@@ -13,6 +13,7 @@ Let $G=(V,E)$ be a finite undirected multigraph with no loops and at least one e
 A strong edge-colouring with $k$ colours is a map $c:E\to\{1,\ldots,k\}$ such that distinct edges receive different colours whenever they share an endpoint or there is a third edge sharing an endpoint with each of them. Write $\chi'_s(G)$ for the smallest possible $k$.
 
 Prove or disprove the **Erdős–Nešetřil strong edge-colouring conjecture**:
+
 $$
 \chi'_s(G)\le
 \begin{cases}

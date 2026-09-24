@@ -9,10 +9,16 @@
 ## Problem statement
 
 Let $L\subset\mathbb R^n$ be a full-rank integral unimodular lattice: $\langle x,z\rangle\in\mathbb Z$ for $x,z\in L$, and its covolume is one. For $y>0$, define
-$$\theta_L(y)=\sum_{x\in L}e^{-\pi y\|x\|_2^2},\qquad \Xi_L(y)=\frac{\theta_{\mathbb Z^n}(y)}{\theta_L(y)}.$$
+
+$$
+\theta_L(y)=\sum_{x\in L}e^{-\pi y\|x\|_2^2},\qquad \Xi_L(y)=\frac{\theta_{\mathbb Z^n}(y)}{\theta_L(y)}.
+$$
 
 Prove or disprove the Belfiore–Solé conjecture:
-$$\Xi_L(y)\leq\Xi_L(1)\qquad\text{for every }n,L\text{ and }y>0.$$
+
+$$
+\Xi_L(y)\leq\Xi_L(1)\qquad\text{for every }n,L\text{ and }y>0.
+$$
 
 The point $y=1$ is already a symmetry point under $y\mapsto1/y$. The question is whether it always gives a global maximum. Uniqueness is not required; for $L=\mathbb Z^n$ the function is constant.
 

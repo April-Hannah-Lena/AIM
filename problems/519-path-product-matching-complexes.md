@@ -9,13 +9,21 @@
 ## Problem statement
 
 Let $P_n$ be the path graph with vertex set $\{1,\ldots,n\}$ and edges $\{i,i+1\}$. Its categorical product with $P_m$ is the graph $G_{n,m}$ whose vertices are pairs $(i,j)$ and whose edges join $(i,j)$ to $(i',j')$ exactly when
-$$|i-i'|=|j-j'|=1.$$
+
+$$
+|i-i'|=|j-j'|=1.
+$$
+
 Thus both coordinates change along an edge; this is the categorical graph product.
 
 The matching complex $\mathsf M(G)$ is the finite abstract simplicial complex with vertex set $E(G)$ and with a simplex for each set of pairwise vertex-disjoint edges of $G$. Write $|\mathsf M(G)|$ for its geometric realization.
 
 For every pair of integers $n,m\ge6$, must there exist a finite list of nonnegative integers $d_1,\ldots,d_r$ such that
-$$|\mathsf M(G_{n,m})|\simeq\bigvee_{a=1}^{r} S^{d_a}?$$
+
+$$
+|\mathsf M(G_{n,m})|\simeq\bigvee_{a=1}^{r} S^{d_a}?
+$$
+
 Here $\simeq$ denotes homotopy equivalence, the spheres may have different dimensions, and an empty wedge means a point. Prove the assertion for all such pairs, or give a pair for which it fails.
 
 This is the unresolved range of Conjecture 6.2 in [1]. The source states $n\ge3$, $m\ge6$; symmetry of the factors and its proved results for widths at most five reduce the remaining question to $n,m\ge6$.

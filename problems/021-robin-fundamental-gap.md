@@ -10,7 +10,9 @@
 
 Let $d\ge2$, $\alpha>0$, and let $\Omega\subset\mathbb R^d$ be a bounded convex smooth domain of diameter $D$. Write $\rho_1(\Omega;\alpha)\le\rho_2(\Omega;\alpha)$ for the first two eigenvalues of $-\Delta$ with $\partial_\nu u+\alpha u=0$. On the interval $(0,D)$ use the same outward-normal Robin condition at both endpoints. Prove or disprove
 
-$$\rho_2(\Omega;\alpha)-\rho_1(\Omega;\alpha)>\rho_2((0,D);\alpha)-\rho_1((0,D);\alpha).$$
+$$
+\rho_2(\Omega;\alpha)-\rho_1(\Omega;\alpha)>\rho_2((0,D);\alpha)-\rho_1((0,D);\alpha).
+$$
 
 The one-dimensional comparison is approached by thin boxes.
 

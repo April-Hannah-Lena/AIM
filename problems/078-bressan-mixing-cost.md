@@ -9,15 +9,19 @@
 ## Problem statement
 
 Fix $0<\kappa<1/2$ and $A=\{x\in\mathbb T^2:0<x_1<1/2\}$ on the unit flat torus. Let $b:[0,1]\times\mathbb T^2\to\mathbb R^2$ be smooth and divergence-free, with flow $X_t$. Suppose, for every torus ball $B_\varepsilon(x)$ with $0<\varepsilon<1/4$,
+
 $$
 \kappa |B_\varepsilon|\le
 |X_1(A)\cap B_\varepsilon(x)|\le(1-\kappa)|B_\varepsilon|.
 $$
+
 Does there exist $c_\kappa>0$, independent of $b$ and $\varepsilon$, such that
+
 $$
 \int_0^1\int_{\mathbb T^2}|D_xb(t,x)|\,dx\,dt
 \ge c_\kappa\log(1/\varepsilon)?
 $$
+
 Use the Frobenius norm of the velocity gradient. This is the incompressible geometric-mixing version of the conjecture.
 
 ## Application

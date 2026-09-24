@@ -9,17 +9,37 @@
 ## Problem statement
 
 Fix a target variance $s>2$ and let $\pi=N(0,s)$ on $\mathbb R$. Use the Gaussian kernel
-$$k(x,y)=\exp\bigl(-(x-y)^2/2\bigr)$$
+
+$$
+k(x,y)=\exp\bigl(-(x-y)^2/2\bigr)
+$$
+
 and its integral operator on $L^2(\pi)$,
-$$T_\pi f(y)=\int_{\mathbb R}k(x,y)f(x)\,d\pi(x).$$
+
+$$
+T_\pi f(y)=\int_{\mathbb R}k(x,y)f(x)\,d\pi(x).
+$$
+
 For $0<v<s$, put $\nu_v=N(0,v)$ and $r_v=d\nu_v/d\pi-1$. For a fixed finite regularization parameter $\lambda>0$, define the normalized witness
-$$h_{v,\lambda}=T_\pi(T_\pi+\lambda I)^{-1}r_v.$$
+
+$$
+h_{v,\lambda}=T_\pi(T_\pi+\lambda I)^{-1}r_v.
+$$
+
 Here $r_v\in L^2(\pi)$, the resolvent is bounded, and the witness has a differentiable Gaussian-kernel representative.
 
 Prove or disprove that, for every $s>2$, $\lambda>0$ and $0<v<s$,
-$$\int_{\mathbb R}y\,h_{v,\lambda}'(y)\,d\nu_v(y)<0.$$
+
+$$
+\int_{\mathbb R}y\,h_{v,\lambda}'(y)\,d\nu_v(y)<0.
+$$
+
 This is the sign inequality underlying the variance-monotonicity conjecture in Appendix C of [1]. In the centered Gaussian moment approximation, it makes the scalar evolution
-$$\dot v(t)=-2(1+\lambda)\int_{\mathbb R}y\,h_{v(t),\lambda}'(y)\,d\nu_{v(t)}(y)$$
+
+$$
+\dot v(t)=-2(1+\lambda)\int_{\mathbb R}y\,h_{v(t),\lambda}'(y)\,d\nu_{v(t)}(y)
+$$
+
 strictly increase whenever $0<v(t)<s$. In particular it applies to the source's initialization $v(0)=s/2$; the target variance $v=s$ is an equilibrium.
 
 The normalized witness matches the spectral expansion used in Appendix C. Multiplying it by the positive factor 2 in the variational optimizer of equation (32) changes only the time scale, not the requested sign. The question concerns the Gaussian moment approximation with fixed $\lambda$. The unrestricted DrMMD transport flow need not preserve Gaussian distributions.

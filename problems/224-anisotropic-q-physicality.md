@@ -9,12 +9,20 @@
 ## Problem statement
 
 Let $S_0$ be the symmetric trace-free real $3\times3$ matrices. Define
-$$f(Q)=\inf_\rho\left\{\int_{\mathbb S^2}\rho\log\rho\,dS:\rho\geq0,\ \int\rho\,dS=1,\ \int(p\otimes p-I/3)\rho(p)\,dS=Q\right\},$$
+
+$$
+f(Q)=\inf_\rho\left\{\int_{\mathbb S^2}\rho\log\rho\,dS:\rho\geq0,\ \int\rho\,dS=1,\ \int(p\otimes p-I/3)\rho(p)\,dS=Q\right\},
+$$
+
 with the infimum $+\infty$ when no admissible density exists. Let $\Omega\subset\mathbb R^3$ be bounded and smooth, and prescribe smooth boundary values $Q_b$ whose eigenvalues lie in $[-1/3+\delta_0,2/3-\delta_0]$ for some $\delta_0>0$.
 
 For arbitrary $L_1,L_2,\theta,\kappa>0$, minimize
-$$\int_\Omega\left[L_1|\nabla Q|^2+L_2|\operatorname{div}Q|^2+\theta f(Q)-\kappa|Q|^2\right]dx$$
-over $H^1(\Omega;S_0)$ with trace $Q_b$, where $(\operatorname{div}Q)_i=\sum_j\partial_jQ_{ij}$. Must every global minimizer admit some $\delta>0$ with $\lambda_{\min}(Q(x))\geq-1/3+\delta$ almost everywhere? Trace zero then also separates the largest eigenvalue from $2/3$.
+
+$$
+\int_\Omega\left[L_1|\nabla Q|^2+L_2|\mathop{\mathrm{div}}\nolimits Q|^2+\theta f(Q)-\kappa|Q|^2\right]dx
+$$
+
+over $H^1(\Omega;S_0)$ with trace $Q_b$, where $(\mathop{\mathrm{div}}\nolimits Q)_i=\sum_j\partial_jQ_{ij}$. Must every global minimizer admit some $\delta>0$ with $\lambda_{\min}(Q(x))\geq-1/3+\delta$ almost everywhere? Trace zero then also separates the largest eigenvalue from $2/3$.
 
 ## Application
 

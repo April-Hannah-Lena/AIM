@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $(\omega_{ij})_{i,j\ge0}$ be independent standard normal variables. Let $\Pi_n$ be all up-right lattice paths from $(0,0)$ to $(n,n)$ and set $Z_n=\sum_{\pi\in\Pi_n}\exp(\sum_{v\in\pi}\omega_v)$, with each visited vertex counted once. Write $f=\lim_{n\to\infty}n^{-1}\mathbb E\log Z_n$, whose existence is known. Does there exist $s>0$ such that $(\log Z_n-nf)/(s n^{1/3})$ converges in distribution to the standard GUE Tracy–Widom law $F_2$? Here $F_2$ is the limit law of $N^{2/3}(\lambda_{\max}(M_N)-2)$ for complex Hermitian Gaussian matrices with density proportional to $\exp(-N\operatorname{Tr}M_N^2/2)$. The noise coefficient remains one as $n$ grows.
+Let $(\omega_{ij})_{i,j\ge0}$ be independent standard normal variables. Let $\Pi_n$ be all up-right lattice paths from $(0,0)$ to $(n,n)$ and set $Z_n=\sum_{\pi\in\Pi_n}\exp(\sum_{v\in\pi}\omega_v)$, with each visited vertex counted once. Write $f=\lim_{n\to\infty}n^{-1}\mathbb E\log Z_n$, whose existence is known. Does there exist $s>0$ such that $(\log Z_n-nf)/(s n^{1/3})$ converges in distribution to the standard GUE Tracy–Widom law $F_2$? Here $F_2$ is the limit law of $N^{2/3}(\lambda_{\max}(M_N)-2)$ for complex Hermitian Gaussian matrices with density proportional to $\exp(-N\mathop{\mathrm{Tr}}\nolimits M_N^2/2)$. The noise coefficient remains one as $n$ grows.
 
 ## Application
 

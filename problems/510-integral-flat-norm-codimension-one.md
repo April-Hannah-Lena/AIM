@@ -9,11 +9,18 @@
 ## Problem statement
 
 Let $T$ be a compactly supported integral $d$-current in $\mathbb R^{d+1}$, $d\ge1$. Thus $T$ and its boundary are integer-multiplicity rectifiable currents of finite mass. Write $\mathbf M$ for mass and define the real flat norm by
-$$\mathbb F(T)=\inf\{\mathbf M(X)+\mathbf M(S):T=X+\partial S,\ X\in\mathcal N_d^c,\ S\in\mathcal N_{d+1}^c\},$$
+
+$$
+\mathbb F(T)=\inf\{\mathbf M(X)+\mathbf M(S):T=X+\partial S,\ X\in\mathcal N_d^c,\ S\in\mathcal N_{d+1}^c\},
+$$
+
 where $\mathcal N_k^c$ consists of compactly supported real normal $k$-currents in the same ambient space.
 
 Must there exist compactly supported **integral** currents $X_I$ and $S_I$ such that
-$$T=X_I+\partial S_I,\qquad \mathbb F(T)=\mathbf M(X_I)+\mathbf M(S_I)?$$
+
+$$
+T=X_I+\partial S_I,\qquad \mathbb F(T)=\mathbf M(X_I)+\mathbf M(S_I)?
+$$
 
 The input is not required to satisfy $\partial T=0$. The question asks for at least one integral optimum of the real problem. Integrality of every optimum and optimality only within the integral class are different assertions.
 

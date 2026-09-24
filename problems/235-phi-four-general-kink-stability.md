@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $H(x)=\tanh(x/\sqrt2)$ and consider $\phi_{tt}-\phi_{xx}=\phi-\phi^3$ on $\mathbb R_t\times\mathbb R_x$. Does there exist $\varepsilon>0$ such that every initial datum
-$$\|\phi(0)-H\|_{H^1}+\|\phi_t(0)\|_{L^2}<\varepsilon$$
+
+$$
+\|\phi(0)-H\|_{H^1}+\|\phi_t(0)\|_{L^2}<\varepsilon
+$$
+
 has the following asymptotics? There exist $c_\infty\in(-1,1)$ and $a\in C^1([0,\infty))$ with $a'(t)\to c_\infty$ such that, writing $H_c(y)=H(y/\sqrt{1-c^2})$, for every $R>0$,
-$$\|\phi(t,a(t)+\cdot)-H_{c_\infty}\|_{H^1(-R,R)}+\|\phi_t(t,a(t)+\cdot)+c_\infty H'_{c_\infty}\|_{L^2(-R,R)}\longrightarrow0.$$
+
+$$
+\|\phi(t,a(t)+\cdot)-H_{c_\infty}\|_{H^1(-R,R)}+\|\phi_t(t,a(t)+\cdot)+c_\infty H'_{c_\infty}\|_{L^2(-R,R)}\longrightarrow0.
+$$
+
 No parity condition is imposed on either perturbation. The derivative in the second term is the physical time derivative before shifting coordinates.
 
 ## Application

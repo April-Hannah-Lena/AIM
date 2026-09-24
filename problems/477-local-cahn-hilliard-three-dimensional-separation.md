@@ -9,15 +9,21 @@
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^3$ be smooth, bounded and connected, and $0<\theta<\theta_0$. Consider
+
 $$
 \partial_tu=\Delta\mu,\qquad
 \mu=-\Delta u+\frac\theta2\log\frac{1+u}{1-u}-\theta_0u,
 \qquad\partial_\nu u=\partial_\nu\mu=0.
 $$
+
 Take $u_0\in H^1(\Omega)$ with $|u_0|\le1$ almost everywhere and $|\Omega|^{-1}\int_\Omega u_0\in(-1,1)$. Let $u$ be the global energy weak solution: $u\in L^\infty(0,T;H^1)\cap H^1(0,T;H^1{}^*)$, $\mu\in L^2(0,T;H^1)$, the equations hold weakly, and the free energy decreases by $\int|\nabla\mu|^2$. The logarithmic energy density uses the continuous convention $0\log0=0$.
 
 For every $\tau>0$, must there exist $\delta=\delta(\tau,u_0,\Omega,\theta,\theta_0)>0$ such that
-$$\mathop{\rm ess\,sup}_{(x,t)\in\Omega\times[\tau,\infty)}|u(x,t)|\le1-\delta?$$
+
+$$
+\mathop{\rm ess\,sup}_{(x,t)\in\Omega\times[\tau,\infty)}|u(x,t)|\le1-\delta?
+$$
+
 There is no initial separation or small-energy assumption. The Laplacian in the chemical potential is local and the mobility is constant.
 
 ## Application

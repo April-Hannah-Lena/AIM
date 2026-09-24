@@ -9,10 +9,12 @@
 ## Problem statement
 
 Let $(M,g)$ be any smooth compact simple Riemannian manifold of dimension $n\geq3$; simplicity means strictly convex boundary and unique geodesics depending smoothly on their endpoints. For a smooth symmetric covariant 2-tensor $f$, define
+
 $$
 I_2f(\gamma)=\int_0^{\ell_\gamma}
 f_{\gamma(t)}(\dot\gamma(t),\dot\gamma(t))\,dt
 $$
+
 on every maximal unit-speed geodesic joining boundary points.
 
 Is $I_2f=0$ equivalent to $f=d^sv$ for a smooth 1-form $v$ vanishing on $\partial M$, where

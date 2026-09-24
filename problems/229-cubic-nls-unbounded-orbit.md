@@ -9,9 +9,17 @@
 ## Problem statement
 
 On $\mathbb T^2=(\mathbb R/2\pi\mathbb Z)^2$, does there exist $u_0\in C^\infty(\mathbb T^2;\mathbb C)$ such that the global solution of
-$$i\partial_tu+\Delta u=|u|^2u,\qquad u(0)=u_0,$$
+
+$$
+i\partial_tu+\Delta u=|u|^2u,\qquad u(0)=u_0,
+$$
+
 satisfies
-$$\limsup_{t\to\infty}\|u(t)\|_{H^2(\mathbb T^2)}=\infty?$$
+
+$$
+\limsup_{t\to\infty}\|u(t)\|_{H^2(\mathbb T^2)}=\infty?
+$$
+
 Here $\|u\|_{H^2}^2=\sum_{k\in\mathbb Z^2}(1+|k|^2)^2|\widehat u(k)|^2$. A single fixed initial datum and its entire forward trajectory must realize the unbounded growth.
 
 ## Application

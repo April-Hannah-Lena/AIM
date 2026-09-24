@@ -9,15 +9,19 @@
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^3$ be a bounded connected domain with smooth boundary. For a real scalar conductivity $\gamma\in L^\infty(\Omega)$ satisfying $0<c\leq\gamma\leq C<\infty$ almost everywhere, let $u_f\in H^1(\Omega)$ solve
+
 $$
 \nabla\cdot(\gamma\nabla u_f)=0,\qquad u_f|_{\partial\Omega}=f.
 $$
+
 For $f,h\in H^{1/2}(\partial\Omega)$, define the weak Dirichlet-to-Neumann map by
 $\langle\Lambda_\gamma f,h\rangle=\int_\Omega\gamma\nabla u_f\cdot\nabla v_h\,dx$, where $v_h$ is any $H^1$ extension of the boundary trace $h$. Prove or disprove that
+
 $$
 \Lambda_{\gamma_1}=\Lambda_{\gamma_2}\quad\Longrightarrow\quad
 \gamma_1=\gamma_2\ \text{almost everywhere in }\Omega
 $$
+
 for every pair of such conductivities. No continuity, derivative, or known partition assumption is imposed.
 
 ## Application

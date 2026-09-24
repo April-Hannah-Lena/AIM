@@ -8,11 +8,19 @@
 ## Problem statement
 
 Let $V\in C_c^\infty(\mathbb R^3;\mathbb R)$, $P_h=-h^2\Delta+V$, and let $E>0$ be a regular value of $p(x,\xi)=|\xi|^2+V(x)$. Let $\Phi^t$ be its Hamiltonian flow and
-$$K_E=\{\rho\in p^{-1}(E):\{\Phi^t(\rho):t\in\mathbb R\}\text{ is bounded}\}.$$
+
+$$
+K_E=\{\rho\in p^{-1}(E):\{\Phi^t(\rho):t\in\mathbb R\}\text{ is bounded}\}.
+$$
+
 Assume $K_E$ is compact and uniformly hyperbolic: its tangent energy bundle splits continuously and invariantly into the flow direction and stable/unstable subbundles on which $d\Phi^{\pm t}$ contracts at most $Ce^{-ct}$ for $t\ge0$.
 Must there exist $\delta,\gamma,h_0>0$ such that $P_h$ has no scattering resonance in
-$$\{z:|\operatorname{Re}z-E|<\delta,\ -\gamma h<\operatorname{Im}z\le0\}$$
-for $0<h<h_0$? Resonances are poles of the meromorphic continuation of the compactly localized outgoing resolvent from $\operatorname{Im}z>0$ across the positive real axis.
+
+$$
+\{z:|\mathop{\mathrm{Re}}\nolimits z-E|<\delta,\ -\gamma h<\mathop{\mathrm{Im}}\nolimits z\le0\}
+$$
+
+for $0<h<h_0$? Resonances are poles of the meromorphic continuation of the compactly localized outgoing resolvent from $\mathop{\mathrm{Im}}\nolimits z>0$ across the positive real axis.
 
 ## Application
 

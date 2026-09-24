@@ -11,11 +11,19 @@
 For an integer $n\ge1$, let $B\in\mathbb C^{n\times n}$ be Hermitian positive semidefinite with $B_{ii}=1$ for every $i$. For a permutation $\sigma$ of $\{1,\ldots,n\}$, let $P_\sigma$ be its permutation matrix and let $L_\sigma$ denote the strictly lower triangular part of $P_\sigma BP_\sigma^*$.
 
 Prove or disprove Oswald's conjecture that every such $B$ admits a permutation satisfying
-$$\|L_\sigma\|_2\le\frac{2}{\pi}\|B\|_2,$$
+
+$$
+\|L_\sigma\|_2\le\frac{2}{\pi}\|B\|_2,
+$$
+
 where $\|\cdot\|_2$ is the spectral norm.
 
 Equivalently, determine whether
-$$\sup_{n\ge1}\ \sup_{\substack{B=B^*\succeq0\\B_{ii}=1}}\ \min_\sigma\frac{\|L_\sigma\|_2}{\|B\|_2}=\frac2\pi.$$
+
+$$
+\sup_{n\ge1}\ \sup_{\substack{B=B^*\succeq0\\B_{ii}=1}}\ \min_\sigma\frac{\|L_\sigma\|_2}{\|B\|_2}=\frac2\pi.
+$$
+
 The proposed constant is uniform in dimension. The all-ones matrices show that no smaller universal constant can work: permutations leave them unchanged and their strictly lower triangular parts have norm asymptotic to $2n/\pi$, while the full matrices have norm $n$.
 
 ## Application

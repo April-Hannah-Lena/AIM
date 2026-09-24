@@ -9,8 +9,17 @@
 ## Problem statement
 
 Let $x\in\mathbb T^3$, $q\in B_1(0)\subset\mathbb R^3$, $\nu>0$, $k>2$, $U(q)=-k\log(1-|q|^2)$ and $M=Z^{-1}e^{-U}$. For $\varepsilon>0$ consider
-$$u_t+u\cdot\nabla_xu-\nu\Delta_xu+\nabla_xp=\nabla_x\cdot\tau,\quad\nabla_x\cdot u=0,$$
-$$\psi_t+u\cdot\nabla_x\psi=\varepsilon\Delta_x\psi+\nabla_q\cdot\left[\nabla_q\psi+\psi\nabla_qU-(\nabla_xu)q\psi\right],\qquad \tau=\int_{B_1}q\otimes\nabla_qU\,\psi\,dq,$$
+
+$$
+u_t+u\cdot\nabla_xu-\nu\Delta_xu+\nabla_xp=\nabla_x\cdot\tau,\quad\nabla_x\cdot u=0,
+$$
+
+
+
+$$
+\psi_t+u\cdot\nabla_x\psi=\varepsilon\Delta_x\psi+\nabla_q\cdot\left[\nabla_q\psi+\psi\nabla_qU-(\nabla_xu)q\psi\right],\qquad \tau=\int_{B_1}q\otimes\nabla_qU\,\psi\,dq,
+$$
+
 with zero configuration-space flux. Fix smooth divergence-free $u_0$ and $\psi_0=M g_0$, where $g_0$ is smooth and bounded above and below by positive constants and $\int_{B_1}\psi_0(x,q)\,dq=1$. Can global finite-entropy weak solutions $(u_\varepsilon,\psi_\varepsilon)$ be chosen so that, along some $\varepsilon_j\downarrow0$, they converge to a global weak solution of exactly the same system with $\varepsilon=0$? Require $u_{\varepsilon_j}\to u$ strongly in $L^2$ on finite time intervals, $\psi_{\varepsilon_j}\rightharpoonup\psi$ weakly in $L^1$ there, and convergence of the stress and transport fluxes to those computed from $(u,\psi)$ in distributions, with no additional defect. Finite entropy means $\int\psi\log(\psi/M)<\infty$ and the usual kinetic-fluid entropy inequality.
 
 ## Application

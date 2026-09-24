@@ -8,10 +8,23 @@
 ## Problem statement
 
 Let $\Omega\subset\mathbb R^d$, $d\ge2$, be bounded, connected, with $C^\infty$ boundary, and fix a constant $n>1$. A nonzero number $z$ is an interior transmission eigenvalue if nonzero $(u,v)$ solve
-$$\Delta u+nzu=0,\quad\Delta v+zv=0\quad\text{in }\Omega,$$
-$$u=v,\qquad\partial_\nu u=\partial_\nu v\quad\text{on }\partial\Omega.$$
+
+$$
+\Delta u+nzu=0,\quad\Delta v+zv=0\quad\text{in }\Omega,
+$$
+
+
+
+$$
+u=v,\qquad\partial_\nu u=\partial_\nu v\quad\text{on }\partial\Omega.
+$$
+
 Use algebraic multiplicity for the closed transmission operator $A(u,v)=(-n^{-1}\Delta u,-\Delta v)$ on $L^2(\Omega)\oplus L^2(\Omega)$, with domain consisting of pairs whose distributional Laplacians lie in $L^2$ and whose Dirichlet and normal traces agree in the generalized trace sense. Algebraic multiplicity is the dimension of the Riesz spectral projection of $A$ around the nonzero eigenvalue. Let $N(r)$ count its nonzero eigenvalues with $|z|\le r^2$, including multiplicities. Must
-$$N(r)=\frac{\omega_d}{(2\pi)^d}|\Omega|(1+n^{d/2})r^d+O_{\Omega,n}(r^{d-1})\qquad(r\to\infty),$$
+
+$$
+N(r)=\frac{\omega_d}{(2\pi)^d}|\Omega|(1+n^{d/2})r^d+O_{\Omega,n}(r^{d-1})\qquad(r\to\infty),
+$$
+
 where $\omega_d=|B_1|$? This is the constant-index isotropic case of Vodev’s conjecture; no convexity is imposed.
 
 ## Application

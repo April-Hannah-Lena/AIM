@@ -12,9 +12,11 @@ Consider finite connected compact metric graphs with positive edge lengths linea
 
 Define $S$ by the limiting distribution of $s_n$ among generic indices in $\{1,\ldots,N\}$ as $N\to\infty$; these limits exist. Prove or disprove that for every sequence of these graphs with $\beta_j\to\infty$,
 
-$$\frac{S_j-\beta_j/2}{\sqrt{\operatorname{Var}(S_j)}}\ \Longrightarrow\ \mathcal N(0,1),$$
+$$
+\frac{S_j-\beta_j/2}{\sqrt{\mathop{\mathrm{Var}}\nolimits(S_j)}}\ \Longrightarrow\ \mathcal N(0,1),
+$$
 
-and that universal constants $c,C>0$ bound $c\beta_j\le\operatorname{Var}(S_j)\le C\beta_j$ for all sufficiently large $j$.
+and that universal constants $c,C>0$ bound $c\beta_j\le\mathop{\mathrm{Var}}\nolimits(S_j)\le C\beta_j$ for all sufficiently large $j$.
 
 ## Application
 

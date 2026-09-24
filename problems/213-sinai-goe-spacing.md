@@ -9,20 +9,26 @@
 ## Problem statement
 
 Let
+
 $$
 \Omega=\{(x,y)\in\mathbb R^2:0<y<x<1,\quad x^2+y^2>1/4\},
 $$
+
 and let $0<\lambda_1\le\lambda_2\le\cdots$ be the Dirichlet eigenvalues of $-\Delta$ on $\Omega$, counted with multiplicity. Set $\mu_j=|\Omega|\lambda_j/(4\pi)$.
 Define $F_{\mathrm{GOE}}$ as the bulk nearest-neighbor spacing distribution of the Gaussian orthogonal ensemble: for an $n\times n$ real symmetric random matrix $H_n$, the entries above the diagonal are independent centered Gaussians of variance $1/n$, and diagonal entries are independent centered Gaussians of variance $2/n$. If $\nu_1\le\cdots\le\nu_n$ are its eigenvalues and $k=\lfloor n/2\rfloor$, then
+
 $$
 F_{\mathrm{GOE}}(s)=\lim_{n\to\infty}\mathbb P\left\{\frac n\pi(\nu_{k+1}-\nu_k)\le s\right\}.
 $$
+
 Does the deterministic billiard spectrum satisfy
+
 $$
 \lim_{N\to\infty}\frac1N\#\{1\le j\le N:\mu_{j+1}-\mu_j\le s\}
 =F_{\mathrm{GOE}}(s)
 \quad\text{for every }s\ge0?
 $$
+
 This domain is one symmetry sector of a square containing a circular obstacle; Dirichlet conditions on the symmetry cuts prevent mixing different symmetry sectors.
 
 ## Application

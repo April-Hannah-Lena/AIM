@@ -11,8 +11,10 @@
 Let $D\subset\mathbb R^2$ be a bounded simply connected domain with smooth boundary, and $\Omega=\mathbb R^2\setminus\overline D$. For every viscosity $\nu>0$ and every constant $U\in\mathbb R^2\setminus\{0\}$, does there exist a smooth solution $(u,p)$ on $\Omega$, continuous up to the boundary, satisfying
 
 $$
--\nu\Delta u+(u\cdot\nabla)u+\nabla p=0,\qquad \operatorname{div}u=0,
+-\nu\Delta u+(u\cdot\nabla)u+\nabla p=0,\qquad \mathop{\mathrm{div}}\nolimits u=0,
 $$
+
+
 
 $$
 u|_{\partial D}=0,\qquad \lim_{|x|\to\infty}u(x)=U,\qquad\int_\Omega|\nabla u|^2\,dx<\infty?

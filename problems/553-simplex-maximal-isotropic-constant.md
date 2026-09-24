@@ -9,13 +9,24 @@
 ## Problem statement
 
 Let $K\subset\mathbb R^n$ be a compact convex set with nonempty interior, and let $X$ be uniformly distributed on $K$. Write
-$$c_K=\mathbb E X,\qquad A_K=\mathbb E[(X-c_K)(X-c_K)^T],\qquad L_K=\left(\frac{\det A_K}{\operatorname{vol}_n(K)^2}\right)^{1/(2n)}.$$
+
+$$
+c_K=\mathbb E X,\qquad A_K=\mathbb E[(X-c_K)(X-c_K)^T],\qquad L_K=\left(\frac{\det A_K}{\mathop{\mathrm{vol}}\nolimits_n(K)^2}\right)^{1/(2n)}.
+$$
+
 The quantity $L_K$ is invariant under invertible affine transformations. For every $n\ge1$ and every such $K$, is
-$$L_K\le L_{\Delta_n}=\frac{(n!)^{1/n}}{(n+1)^{(n+1)/(2n)}\sqrt{n+2}},$$
+
+$$
+L_K\le L_{\Delta_n}=\frac{(n!)^{1/n}}{(n+1)^{(n+1)/(2n)}\sqrt{n+2}},
+$$
+
 where $\Delta_n$ is any nondegenerate $n$-simplex?
 
 This is the strong isotropic constant conjecture, stated in [1, equation (1.2)]. The target is the displayed sharp inequality. No additional uniqueness or stability assertion is imposed. Equivalently, it asks for the sharp upper bound
-$$\det A_K\le \frac{(n!)^2}{(n+1)^{n+1}(n+2)^n}\operatorname{vol}_n(K)^2.$$
+
+$$
+\det A_K\le \frac{(n!)^2}{(n+1)^{n+1}(n+2)^n}\mathop{\mathrm{vol}}\nolimits_n(K)^2.
+$$
 
 ## Application
 

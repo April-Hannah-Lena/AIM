@@ -8,12 +8,12 @@
 
 ## Problem statement
 
-Let $\mathcal U$ be the class of compact convex sets $K\subset\mathbb R^2$ such that, for every nonempty compact set $E\subset\mathbb R^2$ with $\operatorname{diam}E\leq1$, there exists a Euclidean isometry $g$ with $g(E)\subseteq K$. Reflections as well as rotations and translations are allowed.
+Let $\mathcal U$ be the class of compact convex sets $K\subset\mathbb R^2$ such that, for every nonempty compact set $E\subset\mathbb R^2$ with $\mathop{\mathrm{diam}}\nolimits E\leq1$, there exists a Euclidean isometry $g$ with $g(E)\subseteq K$. Reflections as well as rotations and translations are allowed.
 
 Determine the exact value of
 
 $$
-a_{\mathrm{Leb}}=\inf_{K\in\mathcal U}\operatorname{Area}(K)
+a_{\mathrm{Leb}}=\inf_{K\in\mathcal U}\mathop{\mathrm{Area}}\nolimits(K)
 $$
 
 and characterize the minimizing covers. The objects being covered are arbitrary diameter-bounded sets, not only curves with a prescribed length.

@@ -9,11 +9,22 @@
 ## Problem statement
 
 For even $L\ge4$, let $\Lambda_L=(\mathbb Z/L\mathbb Z)^2$. At every site put spin operators $S_x^a=\sigma_x^a/2$, where
-$$\sigma^1=\begin{pmatrix}0&1\\1&0\end{pmatrix},\quad\sigma^2=\begin{pmatrix}0&-i\\i&0\end{pmatrix},\quad\sigma^3=\begin{pmatrix}1&0\\0&-1\end{pmatrix}.$$
+
+$$
+\sigma^1=\begin{pmatrix}0&1\\1&0\end{pmatrix},\quad\sigma^2=\begin{pmatrix}0&-i\\i&0\end{pmatrix},\quad\sigma^3=\begin{pmatrix}1&0\\0&-1\end{pmatrix}.
+$$
+
 Let $\psi_L$ be the normalized ground state of
-$$H_L=\sum_{\{x,y\}\text{ nearest neighbors}}\sum_{a=1}^3S_x^aS_y^a$$
+
+$$
+H_L=\sum_{\{x,y\}\text{ nearest neighbors}}\sum_{a=1}^3S_x^aS_y^a
+$$
+
 on $\bigotimes_{x\in\Lambda_L}\mathbb C^2$, with each bond counted once. Set $\eta_x=(-1)^{x_1+x_2}$. Prove or disprove
-$$\liminf_{\substack{L\to\infty\\L\text{ even}}}\frac1{L^4}\sum_{x,y\in\Lambda_L}\eta_x\eta_y\langle\psi_L,\mathbf S_x\cdot\mathbf S_y\psi_L\rangle>0.$$
+
+$$
+\liminf_{\substack{L\to\infty\\L\text{ even}}}\frac1{L^4}\sum_{x,y\in\Lambda_L}\eta_x\eta_y\langle\psi_L,\mathbf S_x\cdot\mathbf S_y\psi_L\rangle>0.
+$$
 
 ## Application
 

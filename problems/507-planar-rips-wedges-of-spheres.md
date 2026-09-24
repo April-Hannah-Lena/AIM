@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $X$ be a nonempty finite subset of $\mathbb R^2$ with its Euclidean metric, and let $r>0$. Define the Vietoris–Rips complex
-$$K=\operatorname{VR}_{<}(X;r)=\{\sigma\subseteq X:\operatorname{diam}(\sigma)<r\}.$$
+
+$$
+K=\mathop{\mathrm{VR}}\nolimits_{<}(X;r)=\{\sigma\subseteq X:\mathop{\mathrm{diam}}\nolimits(\sigma)<r\}.
+$$
+
 Assume that $K$ is connected. Must its geometric realization be homotopy equivalent to a finite wedge of spheres,
-$$|K|\simeq\bigvee_{j=1}^{m}S^{d_j},\qquad d_j\ge1,$$
+
+$$
+|K|\simeq\bigvee_{j=1}^{m}S^{d_j},\qquad d_j\ge1,
+$$
+
 where $m=0$ denotes a point? Equivalently, ask this separately for each connected component of an arbitrary finite planar Rips complex.
 
 This is the wedge-of-spheres question in Problem 7.3 of [1], retained as Conjecture 1.2 of [2]. The ambient point set is planar, but the simplicial complex can have arbitrarily high dimension.

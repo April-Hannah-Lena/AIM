@@ -9,8 +9,12 @@
 ## Problem statement
 
 For every $n,m\ge1$, $A\in\mathbb C^{n\times n}$, and polynomial $F(z)=\sum_{j=0}^d C_jz^j$ with coefficients $C_j\in\mathbb C^{m\times m}$, is
-$$\left\|\sum_{j=0}^d C_j\otimes A^j\right\|_2
-\le 2\max_{z\in W(A)}\|F(z)\|_2?$$
+
+$$
+\left\|\sum_{j=0}^d C_j\otimes A^j\right\|_2
+\le 2\max_{z\in W(A)}\|F(z)\|_2?
+$$
+
 Here $W(A)=\{x^*Ax:x\in\mathbb C^n,\ \|x\|_2=1\}$, $\otimes$ is the Kronecker product, and $\|\cdot\|_2$ is the Euclidean operator norm. The unresolved range is arbitrary $n\ge4$ and arbitrary matrix level $m$.
 
 ## Application

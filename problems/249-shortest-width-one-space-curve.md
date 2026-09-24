@@ -14,7 +14,7 @@ $$
 w(\gamma)=\min_{u\in S^2}\left(\max_{t\in[0,1]}\gamma(t)\cdot u-\min_{t\in[0,1]}\gamma(t)\cdot u\right).
 $$
 
-Determine the exact infimum of $\operatorname{Length}(\gamma)$ subject to $w(\gamma)=1$, and identify all minimizing images up to rigid motion. The endpoints are free and the curve is not required to close.
+Determine the exact infimum of $\mathop{\mathrm{Length}}\nolimits(\gamma)$ subject to $w(\gamma)=1$, and identify all minimizing images up to rigid motion. The endpoints are free and the curve is not required to close.
 
 ## Application
 

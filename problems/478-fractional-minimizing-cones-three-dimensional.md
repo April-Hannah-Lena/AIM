@@ -9,12 +9,14 @@
 ## Problem statement
 
 Fix any $s\in(0,1)$. For measurable $E\subset\mathbb R^3$ define
+
 $$
-\operatorname{Per}_s(E;U)=\int_{E\cap U}\!\int_{E^c}\frac{dy\,dx}{|x-y|^{3+s}}
+\mathop{\mathrm{Per}}\nolimits_s(E;U)=\int_{E\cap U}\!\int_{E^c}\frac{dy\,dx}{|x-y|^{3+s}}
 +\int_{E\setminus U}\!\int_{E^c\cap U}\frac{dy\,dx}{|x-y|^{3+s}}.
 $$
-Suppose $E$ is a nontrivial cone, meaning $rE=E$ up to null sets for every $r>0$ and both $E$ and $E^c$ have positive volume in the unit ball. Assume $\operatorname{Per}_s(E;U)<\infty$ for every bounded smooth $U$, and
-$\operatorname{Per}_s(E;U)\le\operatorname{Per}_s(F;U)$ for every measurable $F$ agreeing with $E$ outside $U$.
+
+Suppose $E$ is a nontrivial cone, meaning $rE=E$ up to null sets for every $r>0$ and both $E$ and $E^c$ have positive volume in the unit ball. Assume $\mathop{\mathrm{Per}}\nolimits_s(E;U)<\infty$ for every bounded smooth $U$, and
+$\mathop{\mathrm{Per}}\nolimits_s(E;U)\le\mathop{\mathrm{Per}}\nolimits_s(F;U)$ for every measurable $F$ agreeing with $E$ outside $U$.
 
 Must $E$ agree almost everywhere with a half-space whose boundary passes through the origin? The problem quantifies over the whole interval $0<s<1$, including interaction orders not sufficiently close to either endpoint.
 

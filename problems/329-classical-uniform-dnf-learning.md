@@ -11,18 +11,23 @@
 For positive integers $n,s$, let $\mathcal D_{n,s}$ be the Boolean functions on $\{0,1\}^n$ representable as a disjunction of at most $s$ terms. Each term is a conjunction of literals, and a literal is either a coordinate $x_j$ or its negation $1-x_j$. Term lengths, overlaps and signs are unrestricted.
 
 Does there exist a classical randomized algorithm $A$ and a polynomial $p$ with the following property? For every $n,s$, every unknown $f\in\mathcal D_{n,s}$, and every $\varepsilon,\delta\in(0,1/2)$, the algorithm is given $n,s,\varepsilon,\delta$ and access only to independent labeled examples
+
 $$
-(X,f(X)),\qquad X\sim\operatorname{Unif}(\{0,1\}^n).
+(X,f(X)),\qquad X\sim\mathop{\mathrm{Unif}}\nolimits(\{0,1\}^n).
 $$
+
 Within time at most
+
 $$
 p\!\left(n,s,\varepsilon^{-1},\log(1/\delta)\right),
 $$
+
 it outputs a description of a Boolean function $h:\{0,1\}^n\to\{0,1\}$ satisfying
+
 $$
 \Pr_{\text{training examples and algorithm}}\!
 \left[
-\Pr_{X\sim\operatorname{Unif}(\{0,1\}^n)}
+\Pr_{X\sim\mathop{\mathrm{Unif}}\nolimits(\{0,1\}^n)}
 \{h(X)\ne f(X)\}\le\varepsilon
 \right]\ge1-\delta?
 $$

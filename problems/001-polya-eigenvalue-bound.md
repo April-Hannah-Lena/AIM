@@ -10,7 +10,9 @@
 
 Let $d\ge2$ and let $\Omega\subset\mathbb R^d$ be a bounded connected Lipschitz domain. Write $\lambda_1\le\lambda_2\le\cdots$ for the Dirichlet eigenvalues of $-\Delta$ and $0=\mu_0<\mu_1\le\cdots$ for its Neumann eigenvalues, with multiplicity. Let $\omega_d$ be the volume of the unit ball. Prove or disprove, for every $k\ge1$,
 
-$$\mu_k(\Omega)\le4\pi^2\left(\frac{k}{\omega_d|\Omega|}\right)^{2/d}\le\lambda_k(\Omega).$$
+$$
+\mu_k(\Omega)\le4\pi^2\left(\frac{k}{\omega_d|\Omega|}\right)^{2/d}\le\lambda_k(\Omega).
+$$
 
 The target is arbitrary domains; tiling domains and balls are established special cases.
 

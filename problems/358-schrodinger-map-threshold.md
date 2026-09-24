@@ -9,9 +9,17 @@
 ## Problem statement
 
 Let $q\in\mathbb S^2$ and let $\phi_0:\mathbb R^2\to\mathbb S^2$ be smooth with $\phi_0-q\in\bigcap_{k\ge1}H^k(\mathbb R^2)$. Assume
-$$E(\phi_0)=\frac12\int_{\mathbb R^2}|\nabla\phi_0|^2\,dx<8\pi,\qquad \deg\phi_0=\frac1{4\pi}\int_{\mathbb R^2}\phi_0\cdot(\partial_1\phi_0\times\partial_2\phi_0)\,dx=0.$$
+
+$$
+E(\phi_0)=\frac12\int_{\mathbb R^2}|\nabla\phi_0|^2\,dx<8\pi,\qquad \deg\phi_0=\frac1{4\pi}\int_{\mathbb R^2}\phi_0\cdot(\partial_1\phi_0\times\partial_2\phi_0)\,dx=0.
+$$
+
 Must the solution of the isotropic Landau–Lifshitz equation without damping,
-$$\partial_t\phi=\phi\times\Delta\phi,\qquad\phi(0)=\phi_0,$$
+
+$$
+\partial_t\phi=\phi\times\Delta\phi,\qquad\phi(0)=\phi_0,
+$$
+
 extend uniquely to all $t\in\mathbb R$, with $\phi-q\in C(\mathbb R;H^k)$ for every integer $k\ge1$? No rotational symmetry or a priori spacetime bound is assumed. This is the global-regularity part of the strong threshold conjecture; the energy of a degree-one harmonic map in this normalization is $4\pi$.
 
 ## Application
