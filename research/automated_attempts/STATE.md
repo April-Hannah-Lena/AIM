@@ -1,14 +1,14 @@
 ---
 schema_version: 1
-revision: 6
+revision: 81
 current_problem: "001"
 phase: research
 status: open
 sol_attempts: 4
 astra_reviews: 2
 campaign_number: 1
-current_bottleneck: "The first untreated full-chain index is k=3. For planar Neumann mu_3, prove or refute a zero of the continuous reduced four-moment map for two global folds with four-sheet IMAGE overlap e<=V/15 (or the sharper quartic threshold). The mean center is uniquely solved. Planar Dirichlet needs k=3-specific lower-side stability."
-strongest_verified_result: "Known low-index chain, nodal band, exact method obstructions and standard product closure are confirmed. Astra 2 proves a conditional planar mu_3 bound using two continuous folds, an exact one-fifteenth overlap budget, and a unique continuous mean center; existence of the remaining four-moment zero is unproved."
+current_bottleneck: "The first untreated full-chain index is k=3. For planar Neumann mu_3, prove or refute a zero of the continuous reduced four-moment map for two global folds with four-sheet IMAGE overlap e<=V/15 (or the sharper quartic threshold). The recorded conditional argument asserts a unique mean center, still awaiting independent analytic verification. Planar Dirichlet needs k=3-specific lower-side stability."
+strongest_verified_result: "Known low-index chain, nodal band, exact method obstructions and standard product closure are confirmed. Astra 2 records a conditional planar mu_3 lemma awaiting an independent analytic check using two continuous folds, an exact one-fifteenth overlap budget, and a unique continuous mean center; existence of the remaining four-moment zero is unproved."
 strongest_conjectural_lead: "A degree or continuation theorem for the reduced R^4 moment map on its low-overlap parameter subset. First independently verify the new conditional lemma; neither equal dimension nor a numerical zero proves the required universal existence."
 next_actions:
   - "Sol 5: adversarially reconstruct the new fold/overlap theorem, its H^1 and multiplicity issues, both density rearrangements, quartic algebra, and unique mean-center continuity; run the exact Fraction verifier."
@@ -17,7 +17,7 @@ next_actions:
   - "Sol 8: if Neumann has no credible route, attack restricted planar Dirichlet lower-side stability; otherwise adversarially consolidate. Astra checkpoint after Sol 8 or immediately on a complete candidate."
 priorities:
   - "Verify the conditional two-global-fold Neumann theorem independently before using it."
-  - "Mean cancellation is solved uniquely and continuously; four signed moments plus simultaneous overlap control remain open."
+  - "The recorded conditional argument asserts unique continuous mean cancellation; independently verify it. Four signed moments plus simultaneous overlap control remain open."
   - "Correct binary-construction versus geometric-adjacency confusion; only globally continuous or explicitly trace-matched folds are admissible."
   - "Product closure is standard rediscovered machinery, not a novel domain-class breakthrough; do not allocate another attempt to it."
   - "Retain specialized Dirichlet lower-side k=3 stability and genuinely non-product Fourier compensation as alternatives."
@@ -59,13 +59,13 @@ current_campaign:
 last_sol_run: "research/automated_attempts/001/attempts/2026-09-08_1206_sol.md"
 last_astra_run: "2026-09-08T13:14:00Z"
 last_astra_review: "research/automated_attempts/001/reviews/2026-09-08_1314_astra.md"
-last_queue_sync: "2026-09-08T13:14:00Z"
-queue_snapshot_commit: "547378abf3ebdb35c2b36da09b474afd39b9594d"
+last_queue_sync: "2026-09-24T14:11:28.246955+00:00"
+queue_snapshot_commit: "a1c0794ee946eea5c145c1aad63610554c4380ff"
 queue_manifest_initial_commit: "05e95237c571731534faaee9d4aa29865b5962b1"
-current_problem_count_observed: 100
-newly_discovered_problems: []
+current_problem_count_observed: 665
+newly_discovered_problems: ["096", "097", "098", "099", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121", "122", "123", "124", "125", "126", "127", "128", "129", "130", "131", "132", "133", "134", "135", "136", "137", "138", "139", "140", "141", "142", "143", "144", "145", "146", "147", "148", "149", "150", "151", "152", "153", "154", "155", "156", "157", "158", "159", "160", "161", "162", "163", "164", "165", "166", "167", "168", "169", "170", "171", "172", "173", "174", "175", "176", "177", "178", "179", "180", "181", "182", "183", "184", "185", "186", "187", "188", "189", "190", "191", "192", "193", "194", "195", "196", "197", "198", "199", "200", "201", "202", "203", "204", "205", "206", "207", "208", "209", "210", "211", "212", "213", "214", "215", "216", "217", "218", "219", "220", "221", "222", "223", "224", "225", "226", "227", "228", "229", "230", "231", "232", "233", "234", "235", "236", "237", "238", "239", "240", "241", "242", "243", "244", "245", "246", "247", "248", "249", "250", "251", "252", "253", "254", "255", "256", "257", "258", "259", "260", "261", "262", "263", "264", "265", "266", "267", "268", "269", "270", "271", "272", "273", "274", "275", "276", "277", "278", "279", "280", "281", "282", "283", "284", "285", "286", "287", "288", "289", "290", "291", "292", "293", "294", "295", "296", "297", "298", "299", "300", "301", "302", "303", "304", "305", "306", "307", "308", "309", "310", "311", "312", "313", "314", "315", "316", "317", "318", "319", "320", "321", "322", "323", "324", "325", "326", "327", "328", "329", "330", "331", "332", "333", "334", "335", "336", "337", "338", "339", "340", "341", "342", "343", "344", "345", "346", "347", "348", "349", "350", "351", "352", "353", "354", "355", "356", "357", "358", "359", "360", "361", "362", "363", "364", "365", "366", "367", "368", "369", "370", "371", "372", "373", "374", "375", "376", "377", "378", "379", "380", "381", "382", "383", "384", "385", "386", "387", "388", "389", "390", "391", "392", "393", "394", "395", "396", "397", "398", "399", "400", "401", "402", "403", "404", "405", "406", "407", "408", "409", "410", "411", "412", "413", "414", "415", "416", "417", "418", "419", "420", "421", "422", "423", "424", "425", "426", "427", "428", "429", "430", "431", "432", "433", "434", "435", "436", "437", "438", "439", "440", "441", "442", "443", "444", "445", "446", "447", "448", "449", "450", "451", "452", "453", "454", "455", "456", "457", "458", "459", "460", "461", "462", "463", "464", "465", "466", "467", "468", "469", "470", "471", "472", "473", "474", "475", "476", "477", "478", "479", "480", "481", "482", "483", "484", "485", "486", "487", "488", "489", "490", "491", "492", "493", "494", "495", "496", "497", "498", "499", "500", "501", "502", "503", "504", "505", "506", "507", "508", "509", "510", "511", "512", "513", "514", "515", "516", "517", "518", "519", "520", "521", "522", "523", "524", "525", "526", "527", "528", "529", "530", "531", "532", "533", "534", "535", "536", "537", "538", "539", "540", "541", "542", "543", "544", "545", "546", "547", "548", "549", "550", "551", "552", "553", "554", "555", "556", "557", "558", "559", "560", "561", "562", "563", "564", "565", "566", "567", "568", "569", "570", "571", "572", "573", "574", "575", "576", "577", "578", "579", "580", "581", "582", "583", "584", "585", "586", "587", "588", "589", "590", "591", "592", "593", "594", "595", "596", "597", "598", "599", "600", "601", "602", "603", "604", "605", "606", "607", "608", "609", "610", "611", "612", "613", "614", "615", "616", "617", "618", "619", "620", "621", "622", "623", "624", "625", "626", "627", "628", "629", "630", "631", "632", "633", "634", "635", "636", "637", "638", "639", "640", "641", "642", "643", "644", "645", "646", "647", "648", "649", "650", "651", "652", "653", "654", "655", "656", "657", "658", "659", "660", "661", "662", "663", "664", "665"]
 queue_integrity_issues: []
-new_problem_ids_this_run: []
+new_problem_ids_this_run: ["096", "097", "098", "099", "100", "101", "102", "103", "104", "105", "106", "107", "108", "109", "110", "111", "112", "113", "114", "115", "116", "117", "118", "119", "120", "121", "122", "123", "124", "125", "126", "127", "128", "129", "130", "131", "132", "133", "134", "135", "136", "137", "138", "139", "140", "141", "142", "143", "144", "145", "146", "147", "148", "149", "150", "151", "152", "153", "154", "155", "156", "157", "158", "159", "160", "161", "162", "163", "164", "165", "166", "167", "168", "169", "170", "171", "172", "173", "174", "175", "176", "177", "178", "179", "180", "181", "182", "183", "184", "185", "186", "187", "188", "189", "190", "191", "192", "193", "194", "195", "196", "197", "198", "199", "200", "201", "202", "203", "204", "205", "206", "207", "208", "209", "210", "211", "212", "213", "214", "215", "216", "217", "218", "219", "220", "221", "222", "223", "224", "225", "226", "227", "228", "229", "230", "231", "232", "233", "234", "235", "236", "237", "238", "239", "240", "241", "242", "243", "244", "245", "246", "247", "248", "249", "250", "251", "252", "253", "254", "255", "256", "257", "258", "259", "260", "261", "262", "263", "264", "265", "266", "267", "268", "269", "270", "271", "272", "273", "274", "275", "276", "277", "278", "279", "280", "281", "282", "283", "284", "285", "286", "287", "288", "289", "290", "291", "292", "293", "294", "295", "296", "297", "298", "299", "300", "301", "302", "303", "304", "305", "306", "307", "308", "309", "310", "311", "312", "313", "314", "315", "316", "317", "318", "319", "320", "321", "322", "323", "324", "325", "326", "327", "328", "329", "330", "331", "332", "333", "334", "335", "336", "337", "338", "339", "340", "341", "342", "343", "344", "345", "346", "347", "348", "349", "350", "351", "352", "353", "354", "355", "356", "357", "358", "359", "360", "361", "362", "363", "364", "365", "366", "367", "368", "369", "370", "371", "372", "373", "374", "375", "376", "377", "378", "379", "380", "381", "382", "383", "384", "385", "386", "387", "388", "389", "390", "391", "392", "393", "394", "395", "396", "397", "398", "399", "400", "401", "402", "403", "404", "405", "406", "407", "408", "409", "410", "411", "412", "413", "414", "415", "416", "417", "418", "419", "420", "421", "422", "423", "424", "425", "426", "427", "428", "429", "430", "431", "432", "433", "434", "435", "436", "437", "438", "439", "440", "441", "442", "443", "444", "445", "446", "447", "448", "449", "450", "451", "452", "453", "454", "455", "456", "457", "458", "459", "460", "461", "462", "463", "464", "465", "466", "467", "468", "469", "470", "471", "472", "473", "474", "475", "476", "477", "478", "479", "480", "481", "482", "483", "484", "485", "486", "487", "488", "489", "490", "491", "492", "493", "494", "495", "496", "497", "498", "499", "500", "501", "502", "503", "504", "505", "506", "507", "508", "509", "510", "511", "512", "513", "514", "515", "516", "517", "518", "519", "520", "521", "522", "523", "524", "525", "526", "527", "528", "529", "530", "531", "532", "533", "534", "535", "536", "537", "538", "539", "540", "541", "542", "543", "544", "545", "546", "547", "548", "549", "550", "551", "552", "553", "554", "555", "556", "557", "558", "559", "560", "561", "562", "563", "564", "565", "566", "567", "568", "569", "570", "571", "572", "573", "574", "575", "576", "577", "578", "579", "580", "581", "582", "583", "584", "585", "586", "587", "588", "589", "590", "591", "592", "593", "594", "595", "596", "597", "598", "599", "600", "601", "602", "603", "604", "605", "606", "607", "608", "609", "610", "611", "612", "613", "614", "615", "616", "617", "618", "619", "620", "621", "622", "623", "624", "625", "626", "627", "628", "629", "630", "631", "632", "633", "634", "635", "636", "637", "638", "639", "640", "641", "642", "643", "644", "645", "646", "647", "648", "649", "650", "651", "652", "653", "654", "655", "656", "657", "658", "659", "660", "661", "662", "663", "664", "665"]
 queue_integrity_issue: null
 run_history:
   - "revision 1: Sol attempt 1 established the full k=1,2 chain, a Dirichlet nodal band, and a rigorous obstruction to the equal-ball extension."
@@ -74,9 +74,88 @@ run_history:
   - "revision 4: Sol attempt 3 formulated the exact mu_3 moment reduction and proved an odd-cycle H^1 gluing obstruction for the direct noncollinear three-center Voronoi fold."
   - "revision 5: Sol attempt 4 proved sharp Cartesian-product closure for each Polya counting side, yielding full-chain ball and interval products, and localized any half-Riesz violation to a base counting violation."
   - "revision 6: Astra senior review 2 confirmed Sol 2–4 mathematics, rejected automatic hierarchical tree adjacency, downgraded product novelty, and derived an exact conditional planar mu_3 fold-overlap theorem with unique continuous mean centering; four signed moments and low overlap remain open."
+  - "revision 7: Administrative maintenance on 2026-09-23; queue synchronized to 501 active entries, and Pólya conditional status clarified. No new attempt, senior review or proof verification."
+  - "revision 8: Administrative queue update after catalogue admission 501; 502 active entries. No research attempt or proof verification."
+  - "revision 9: Administrative queue update after catalogue admission 502; 503 active entries. No research attempt or proof verification."
+  - "revision 10: Administrative queue update after catalogue admission 503; 504 active entries. No research attempt or proof verification."
+  - "revision 11: Administrative queue update after catalogue admissions 504–505; 506 active entries. No research attempt or proof verification."
+  - "revision 12: Administrative queue update after catalogue admission 506; 507 active entries. No research attempt or proof verification."
+  - "revision 13: Administrative queue update after catalogue admissions 507–508; 509 active entries. No research attempt or proof verification."
+  - "revision 14: Administrative queue update after catalogue admissions 509–510; 511 active entries. No research attempt or proof verification."
+  - "revision 15: Administrative queue update after catalogue admission 511; 512 active entries. No research attempt or proof verification."
+  - "revision 16: Administrative queue update after catalogue admissions 512–513; 514 active entries. No research attempt or proof verification."
+  - "revision 17: Administrative queue update after catalogue admissions 514–515; 516 active entries. No research attempt or proof verification."
+  - "revision 18: Administrative queue update after catalogue admission 516; 517 active entries. No research attempt or proof verification."
+  - "revision 19: Administrative queue update after catalogue admission 517; 518 active entries. No research attempt or proof verification."
+  - "revision 20: Administrative queue update after catalogue admission 518; 519 active entries. No research attempt or proof verification."
+  - "revision 21: Administrative queue update after catalogue admission 519; 520 active entries. No research attempt or proof verification."
+  - "revision 22: Administrative queue update after catalogue admissions 520-522; 523 active entries. No research attempt or proof verification."
+  - "revision 23: Administrative queue update after catalogue admissions523-524;525active entries. No research attempt or proof verification."
+  - "revision 24: Administrative queue update after catalogue admission525;526active entries. No research attempt or proof verification."
+  - "revision 25: Administrative queue update after catalogue admission526;527active entries. No research attempt or proof verification."
+  - "revision 26: Administrative queue update after catalogue admission527;528active entries. No research attempt or proof verification."
+  - "revision 27: Administrative queue update after catalogue admission528;529active entries. No research attempt or proof verification."
+  - "revision 28: Administrative queue update after catalogue admission529;530 active entries. No research attempt or proof verification."
+  - "revision 29: Administrative queue update after catalogue admission530;531 active entries. No research attempt or proof verification."
+  - "revision 30: Administrative queue update after catalogue admission531;532 active entries. No research attempt or proof verification."
+  - "revision 31: Administrative queue update after catalogue admission532;533 active entries. No research attempt or proof verification."
+  - "revision 32: Administrative queue update after catalogue admission533;534 active entries. No research attempt or proof verification."
+  - "revision 33: Administrative queue update after catalogue admissions534–535;536 active entries. No research attempt or proof verification."
+  - "revision 34: Administrative queue update after catalogue admission536;537 active entries. No research attempt or proof verification."
+  - "revision 35: Administrative queue update after catalogue admission537;538 active entries. No research attempt or proof verification."
+  - "revision 36: Administrative queue update after catalogue admission538;539 active entries. No research attempt or proof verification."
+  - "revision 37: Administrative queue update after catalogue admission539;540 active entries. No research attempt or proof verification."
+  - "revision 38: Administrative queue update after catalogue admission540;541 active entries. No research attempt or proof verification."
+  - "revision 39: Administrative queue update after catalogue admissions541–542;543 active entries. No research attempt or proof verification."
+  - "revision 40: Administrative queue update after catalogue admission543;544 active entries. No research attempt or proof verification."
+  - "revision 41: Administrative queue update after catalogue admission544;545 active entries. No research attempt or proof verification."
+  - "revision 42: Administrative queue update after catalogue admission545;546 active entries. No research attempt or proof verification."
+  - "revision 43: Administrative queue update after catalogue admissions546-547;548 active entries. No research attempt or proof verification."
+  - "revision 44: Administrative queue update after catalogue admissions548-549;550 active entries. No research attempt or proof verification."
+  - "revision 45: Administrative queue update after catalogue admission550;551 active entries. No research attempt or proof verification."
+  - "revision 46: Administrative queue update after catalogue admission551;552 active entries. No research attempt or proof verification."
+  - "revision 47: Administrative queue update after catalogue admission552;553 active entries. No research attempt or proof verification."
+  - "revision 48: Administrative queue update after catalogue admission553;554 active entries. No research attempt or proof verification."
+  - "revision 49: Administrative queue update after catalogue admission554;555 active entries. No research attempt or proof verification."
+  - "revision 50: Administrative queue update after catalogue admissions555-556;557 active entries. No research attempt or proof verification."
+  - "revision 51: Administrative queue update after catalogue admission557;558 active entries. No research attempt or proof verification."
+  - "revision 52: Administrative queue update after catalogue admission558;559 active entries. No research attempt or proof verification."
+  - "revision 53: Administrative queue update after catalogue admissions559–560;561 active entries. No research attempt or proof verification."
+  - "revision 54: Administrative queue update after catalogue admission561;562 active entries. Moved misplaced revision53 note into run_history. No research attempt or proof verification."
+  - "revision 55: Administrative queue update after admission562;563 active. No research attempt or proof verification."
+  - "revision 56: Administrative queue update after admissions563–575;576 active. No research attempt or proof verification."
+  - "revision 57: Administrative queue update after admissions576–585;586 active. No research attempt or proof verification."
+  - "revision 58: Administrative queue update after admissions586–592;593 active. No research attempt or proof verification."
+  - "revision 59: Administrative queue update after admissions593–598;599 active. No research attempt or proof verification."
+  - "revision 60: Administrative queue update after admissions599–600;601 active. No research attempt or proof verification."
+  - "revision 61: Administrative queue update after admissions601–607;608 active. No research attempt or proof verification."
+  - "revision 62: Administrative queue update after admissions608–617;618 active. No research attempt or proof verification."
+  - "revision 63: Administrative queue update after admissions618–629;630 active. No research attempt or proof verification."
+  - "revision 64: Administrative queue update after admissions630–636;637 active. No research attempt or proof verification."
+  - "revision 66: Administrative queue update after admissions637–638;638 active. No research attempt or proof verification."
+  - "revision 67: Administrative queue update after admissions639–639;639 active. No research attempt or proof verification."
+  - "revision 68: Administrative queue update after admissions640–640;640 active. No research attempt or proof verification."
+  - "revision 69: Administrative queue update after admissions641–644;644 active. No research attempt or proof verification."
+  - "revision 70: Administrative queue update after admissions645–646;646 active. No research attempt or proof verification."
+  - "revision 71: Administrative queue update after admissions647–650;650 active. No research attempt or proof verification."
+  - "revision 72: Administrative queue update after admissions651–651;651 active. No research attempt or proof verification."
+  - "revision 73: Administrative queue update after admissions652–652;652 active. No research attempt or proof verification."
+  - "revision 74: Administrative queue update after admissions653–654;654 active. No research attempt or proof verification."
+  - "revision 75: Administrative queue update after admissions655–655;655 active. No research attempt or proof verification."
+  - "revision 76: Administrative queue update after admissions656–657;657 active. No research attempt or proof verification."
+  - "revision 77: Administrative queue update after admissions658–659;659 active. No research attempt or proof verification."
+  - "revision 78: Administrative queue update after admissions660–660;660 active. No research attempt or proof verification."
+  - "revision 79: Administrative queue update after admissions661–662;662 active. No research attempt or proof verification."
+  - "revision 80: Administrative queue update after admissions663–665;665 active. No research attempt or proof verification."
+  - "revision 81: Administrative removal of obsolete archive records; 665 active entries and no retained entries. No research attempt or proof verification."
+queue_snapshot_record: "research/automated_attempts/queue-sync-2026-09-23.json"
+queue_snapshot_includes_working_tree_changes: true
+retained_problem_count_observed: 0
+last_maintenance_kind: "administrative; no research or verification run"
 queue_sync_notes:
-  - "Every current problem file agrees with the persistent queue in this observed snapshot; no additions, deletions, duplicate identifiers, or renames were found."
-  - "Existing research/queued statuses are preserved as legacy active/unstarted aliases."
-  - "scripts/catalogue.py has fixed initial ranges; it remains read-only and must never cap discovery."
-  - "The observed count 100 is a snapshot, never a maximum or contiguity assumption."
+  - "All 665 active files and registered metadata agree."
+  - "Preserved programme statuses of 95 surviving active entries; added 570 current active entries as unstarted."
+  - "Owner-removed IDs remain excluded; no unexplained missing entries or queue integrity issues."
+  - "The catalogue validator supports dynamic membership and consecutive active IDs without deleted-ID reservations; there is no initial-range cap."
+  - "The snapshot includes local working-tree changes; the base commit alone does not reproduce it."
 ---

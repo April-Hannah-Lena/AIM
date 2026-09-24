@@ -2,7 +2,7 @@
 
 **Area:** Interacting particles and conditioned diffusion
 
-**Status:** Accepted; integrated as entry 359
+**Status:** Accepted; integrated as entry 351
 
 **Last checked:** 2026-09-19
 
@@ -45,4 +45,4 @@ The unrestricted claim in Burdzy–Hołyst–March has an acknowledged proof err
 
 Villemonais's general approximation theorem assumes non-explosion for its approximating particle systems. His separate sufficient criterion requires a twice continuously differentiable boundary-distance function in a boundary neighbourhood, or an appropriate regular substitute. Approximating an irregular domain by regular ones does not establish non-explosion of the original fixed-$N$ construction. Journel–Monmarché's later convergence theorems impose a $C^2$ boundary and further conditions on a drift potential. The extinction examples of Bieniek–Burdzy–Pal use singular drift and therefore do not disprove the Brownian question.
 
-The [evidence record](../candidates/brownian-fleming-viot-nonexplosion.json) records source access, theorem comparisons, current searches and the separated A61 adversarial self-review. No independent agent or human review was performed. This is one non-explosion family, covering all particle numbers and dimensions in the statement. Entry [329](../../../problems/329-selected-brownian-population-genealogy.md) concerns large-population ancestry under a different branching-and-selection rule; entries [282](../../../problems/282-reaction-network-positive-recurrence.md) and [325](../../../problems/325-contact-process-nonamenable-weak-survival.md) concern different stochastic dynamics.
+The [evidence record](../candidates/brownian-fleming-viot-nonexplosion.json) records source access, theorem comparisons, current searches and the separated A61 adversarial self-review. No independent agent or human review was performed. This is one non-explosion family, covering all particle numbers and dimensions in the statement. Entry [321](../../../problems/321-selected-brownian-population-genealogy.md) concerns large-population ancestry under a different branching-and-selection rule; entries [275](../../../problems/275-reaction-network-positive-recurrence.md) and [317](../../../problems/317-contact-process-nonamenable-weak-survival.md) concern different stochastic dynamics.

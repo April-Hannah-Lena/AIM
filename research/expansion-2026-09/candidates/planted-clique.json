@@ -1,6 +1,6 @@
 {
   "candidate_id": "planted-clique",
-  "proposed_catalogue_id": "303",
+  "proposed_catalogue_id": "295",
   "title": "Polynomial-time detection below the planted-clique square-root threshold",
   "aliases": [
     "planted clique conjecture",
@@ -297,15 +297,15 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "044",
+        "id": "041",
         "difference": "Deterministic RIP construction, not average-case graph detection."
       },
       {
-        "id": "034",
+        "id": "031",
         "difference": "Matrix rigidity, not planted random structure."
       },
       {
-        "id": "099",
+        "id": "094",
         "difference": "KLS geometric inequality, not algorithmic detection."
       }
     ],
@@ -352,7 +352,7 @@
     ],
     "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented."
   },
-  "public_page_path": "problems/303-planted-clique.md",
+  "public_page_path": "problems/295-planted-clique.md",
   "validation_results": [
     {
       "date": "2026-09-17",

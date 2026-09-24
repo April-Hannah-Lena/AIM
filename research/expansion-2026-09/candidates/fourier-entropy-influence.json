@@ -1,6 +1,6 @@
 {
   "candidate_id": "fourier-entropy-influence",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "496",
   "title": "The Fourier entropy–influence conjecture",
   "primary_section": "applied",
   "secondary_tags": [
@@ -42,23 +42,18 @@
   ],
   "nearest_existing_entries": [
     {
-      "id": "269",
-      "path": "problems/269-most-informative-boolean-function.md",
-      "difference": "Optimizes mutual information between one output bit and a noisy input vector; FEI bounds the entropy of the entire Fourier-weight distribution by average sensitivity, with no noise parameter."
-    },
-    {
-      "id": "337",
-      "path": "problems/337-classical-uniform-dnf-learning.md",
+      "id": "329",
+      "path": "problems/329-classical-uniform-dnf-learning.md",
       "difference": "Asks for an efficient learner using only independent labels for DNF targets. FEI is a structural inequality for all Boolean functions; its sourced agnostic-DNF learning consequence uses queries and fixed accuracy, and does not assert the examples-only algorithm."
     },
     {
-      "id": "338",
-      "path": "problems/338-aaronson-ambainis-influence.md",
+      "id": "330",
+      "path": "problems/330-aaronson-ambainis-influence.md",
       "difference": "Asks for one influential coordinate of a bounded real low-degree polynomial. FEI concerns total influence and Shannon Fourier entropy for Boolean-valued functions of unrestricted degree."
     }
   ],
   "duplicate_check": {
-    "baseline": "Established complete baseline inventory retained. Full closest pages 269, 337 and 338 reread September 19, 2026.",
+    "baseline": "Established complete baseline inventory retained. Full closest retained pages 337 and 338 reread September 19, 2026.",
     "local": "Alias and formulation search of problems, metadata and research records found no equivalent accepted entry. The AA record only mentions the quantum entropy-influence counterexample as a scope comparison.",
     "upstream": "SSH fetch completed September 19, 2026; HEAD and origin/main both 0d7311e1f5461d7fbbb60a82354c312d2bb1c3c5. Connected GitHub reports private repository with push access, no open PRs, and only main after complete branch pagination."
   },
@@ -337,7 +332,7 @@
       "independent_proof_certification": false
     }
   ],
-  "publication_state": "Accepted research draft and evidence uploaded directly to main; exact research commit separately verified September 19, 2026. No permanent ID or active catalogue integration.",
+  "publication_state": "Integrated in the local catalogue on 2026-09-23; no commit or remote publication performed by this integration.",
   "second_review": {
     "pass_id": "A65",
     "state": "passed",
@@ -395,7 +390,7 @@
     "Only one finite universal C is requested. Finite lower bounds on the best C and examples defeating a chosen small C do not disprove FEI.",
     "Spectral Shannon entropy is distinct from output entropy, min-entropy, relative/biased entropy and quantum operator entropy.",
     "Under FEI, retaining coefficients of squared magnitude at least 2^(-C I/epsilon) gives at most 2^(C I/epsilon) terms and omitted squared mass at most epsilon. Constants are handled separately. This is a representation statement, not an algorithm.",
-    "The stated DNF consequence allows membership queries and fixes accuracy. It does not solve entry 337's passive learning model; the stronger Mansour exponent O(log(1/epsilon)) is not asserted.",
+    "The stated DNF consequence allows membership queries and fixes accuracy. It does not solve entry 329's passive learning model; the stronger Mansour exponent O(log(1/epsilon)) is not asserted.",
     "Read-k counts variable occurrences over the entire tree. Restricted subclasses and equivalent formulations remain one candidate family."
   ],
   "discovery_access_limits": [
@@ -462,5 +457,14 @@
     "scope": "Research draft and evidence only; active catalogue remains 360.",
     "verified_by": "Successful direct fast-forward push followed by a separate git ls-remote returning the exact full commit.",
     "pull_request": null
+  },
+  "public_page_path": "problems/496-fourier-entropy-influence.md",
+  "integration_2026_09_23": {
+    "id": "496",
+    "group": "applied",
+    "status": "Partially resolved",
+    "status_checked_on": "2026-09-23",
+    "record": "research/integration-2026-09-23.md",
+    "scope": "Existing September 19 source audit plus bounded literature refresh; no independent proof certification."
   }
 }

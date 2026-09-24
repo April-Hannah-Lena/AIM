@@ -1,6 +1,6 @@
 {
   "candidate_id": "li-li-multiple-unicast",
-  "proposed_catalogue_id": "309",
+  "proposed_catalogue_id": "301",
   "title": "The Li–Li multiple-unicast conjecture",
   "aliases": [
     "undirected k-pairs conjecture",
@@ -312,19 +312,19 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "142",
+        "id": "137",
         "difference": "Binary multiplying two-way channel has a fixed noisy/interactive channel law; no arbitrary noiseless network comparison."
       },
       {
-        "id": "143",
+        "id": "138",
         "difference": "Gaussian relay channel concerns a different noisy three-node capacity question."
       },
       {
-        "id": "144",
+        "id": "139",
         "difference": "Binary deletion channel is a single stochastic channel."
       },
       {
-        "id": "270",
+        "id": "263",
         "difference": "Cycle-graph Shannon capacity is a zero-error confusability product problem, not network routing."
       },
       {
@@ -387,7 +387,7 @@
     ],
     "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented."
   },
-  "public_page_path": "problems/309-li-li-multiple-unicast.md",
+  "public_page_path": "problems/301-li-li-multiple-unicast.md",
   "validation_results": [
     {
       "date": "2026-09-17",

@@ -2,7 +2,7 @@
 
 **Area:** Network information theory and broadcast communication
 
-**Status:** Accepted; integrated as entry 347
+**Status:** Accepted; integrated as entry 339
 
 **Last checked:** 2026-09-18
 
@@ -59,8 +59,8 @@ The local tensorization result [2] concerns products of local optimizers and doe
 
 The September 18, 2026 investigation covered channel aliases, the exact matrices and coding model, current and unrestricted resolution searches, author publications, revisions and corrections. The withdrawn 2009 preprint was replaced by version 3; the later combined journal article [4] supplies the same pertinent inequality and bound evaluations. Bibliography access limitations and the complete theorem comparisons are recorded in the [evidence ledger](../candidates/binary-skew-symmetric-broadcast.json). A separated adversarial self-pass checked the newer version of [7] and distinguished a solved single-user channel with the same acronym. No independent agent or human review has occurred.
 
-This is one canonical channel problem. [Entry 310](../../../problems/310-gaussian-broadcast-feedback.md) has continuous Gaussian outputs, a power constraint and causal feedback. [Entry 142](../../../problems/142-binary-multiplying-two-way-capacity.md) concerns interactive two-way transmission, while [entry 143](../../../problems/143-gaussian-relay-capacity.md) has a cooperating relay. The [binary-code rate problem](binary-code-asymptotic-rate.md) requires worst-case codeword separation rather than vanishing average error on this broadcast channel. Other BSSC crossover probabilities and scalar objectives are not counted separately.
+This is one canonical channel problem. [Entry 302](../../../problems/302-gaussian-broadcast-feedback.md) has continuous Gaussian outputs, a power constraint and causal feedback. [Entry 137](../../../problems/137-binary-multiplying-two-way-capacity.md) concerns interactive two-way transmission, while [entry 138](../../../problems/138-gaussian-relay-capacity.md) has a cooperating relay. The [binary-code rate problem](binary-code-asymptotic-rate.md) requires worst-case codeword separation rather than vanishing average error on this broadcast channel. Other BSSC crossover probabilities and scalar objectives are not counted separately.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
 
-Integrated page: [347. Capacity of the binary skew-symmetric broadcast channel](../../../problems/347-binary-skew-symmetric-broadcast.md).
+Integrated page: [347. Capacity of the binary skew-symmetric broadcast channel](../../../problems/339-binary-skew-symmetric-broadcast.md).

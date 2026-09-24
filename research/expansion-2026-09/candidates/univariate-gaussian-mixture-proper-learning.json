@@ -1,6 +1,6 @@
 {
   "candidate_id": "univariate-gaussian-mixture-proper-learning",
-  "proposed_catalogue_id": "358",
+  "proposed_catalogue_id": "350",
   "title": "Polynomial-time proper learning of univariate Gaussian mixtures",
   "primary_section": "applied",
   "secondary_tags": [
@@ -383,17 +383,17 @@
   },
   "nearest_existing": [
     {
-      "path": "problems/318-linear-sample-compression.md",
+      "path": "problems/310-linear-sample-compression.md",
       "read": "Full page reread.",
       "difference": "Existence of small encodings for finite binary concept classes, with no runtime requirement; no density model or Gaussian output cap."
     },
     {
-      "path": "problems/328-gaussian-polynomial-unlinking.md",
+      "path": "problems/320-gaussian-polynomial-unlinking.md",
       "read": "Full page reread.",
       "difference": "A structural independence implication for Gaussian polynomial statistics, not density estimation from samples."
     },
     {
-      "path": "problems/337-classical-uniform-dnf-learning.md",
+      "path": "problems/329-classical-uniform-dnf-learning.md",
       "read": "Full page reread.",
       "difference": "Prediction from labelled Boolean examples under the uniform distribution, with improper output permitted; distinct model and target."
     },
@@ -496,7 +496,7 @@
     "external_link_record": "research/expansion-2026-09/univariate-gaussian-mixture-proper-learning-link-check.json",
     "structural": "Catalogue validation passed for 350 entries; all five draft local links resolve. All source and search IDs exist. Sixty-four records reconcile to 58 accepted, five claimed-resolution holds and one unverified hold; 50 integrated, eight pending. Coverage by primary section exactly matches the accepted records and sums to 58. Actual search log has 2,160 unique IDs. Git diff whitespace checks passed."
   },
-  "public_page_path": "problems/358-univariate-gaussian-mixture-proper-learning.md",
+  "public_page_path": "problems/350-univariate-gaussian-mixture-proper-learning.md",
   "batch_validation": {
     "batch": "351–360",
     "date": "2026-09-19",

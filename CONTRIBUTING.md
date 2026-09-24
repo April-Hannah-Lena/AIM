@@ -1,6 +1,6 @@
 # Contributing
 
-This collection contains distinct, precise research problems with an applied motivation and a traceable literature status. [README.md](README.md) provides the overview, [CATALOG.md](CATALOG.md) lists open targets, and [RESOLVED.md](RESOLVED.md) lists solved, claimed, and otherwise retired entries. Corrections to an existing statement or its status are especially useful. Further additions exclude numerical linear algebra; the original 001–300 and their review dates are preserved unless separately reviewed.
+This collection contains distinct, precise research problems with an applied motivation and a traceable literature status. [README.md](README.md) provides the overview, [CATALOG.md](CATALOG.md) lists open targets, and [RESOLVED.md](RESOLVED.md) lists solved, claimed, and otherwise retired entries. Corrections to an existing statement or its status are especially useful. Further additions exclude numerical linear algebra; the surviving original problems, now numbered 001–292, and their review dates are preserved unless separately reviewed.
 
 ## Adding or revising a problem
 
@@ -13,11 +13,11 @@ This collection contains distinct, precise research problems with an applied mot
 
 ## Reporting a resolution
 
-Include the permanent problem ID, a link to the proof or counterexample, and an explanation of why its hypotheses and conclusion match the entry. A title, abstract, search-engine snippet, or lack of citations alone is insufficient to adjudicate a disputed proof. Record the proof source, date, and the kind and scope of review actually performed.
+Include the current problem ID and repository commit, a link to the proof or counterexample, and an explanation of why its hypotheses and conclusion match the entry. A title, abstract, search-engine snippet, or lack of citations alone is insufficient to adjudicate a disputed proof. Record the proof source, date, and the kind and scope of review actually performed.
 
 Use the [status and evidence rules](#status-and-evidence) below. A partial result leaves the unresolved target in the open catalogue, with the remaining question explained on its page.
 
-For a complete resolution or matching claim placed on hold, move the entry out of the active collection into `research/`, preserving its original statement, application, and permanent ID. Remove its row from `data/`, repair incoming links, and add its title, status, review date, reason, and record path to `catalogue.json` as described below. Regenerate the indexes to list it in [RESOLVED.md](RESOLVED.md). A replacement must have a distinct statement and its own sources, and receives a new ID.
+Unless the repository owner explicitly requests complete removal, for a complete resolution or matching claim placed on hold, move the entry out of the active collection into `research/`, preserving its original statement, application, and status record. Remove its row from `data/`, repair incoming links, and add its title, status, review date, reason, and record path to `catalogue.json` as described below. Regenerate the indexes to list it in [RESOLVED.md](RESOLVED.md). A replacement must have a distinct statement and its own sources, and receives a new ID.
 
 ## Status and evidence
 
@@ -29,7 +29,7 @@ Use exactly one canonical metadata value: `Open`, `Partially resolved`, `Solutio
 - **Lean verified:** Supply the evidence below for a complete resolution. Formalized lemmas or special cases alone do not qualify.
 - **Needs verification / Withdrawn:** Record the unresolved statement/status issue or the reason for withdrawal. Neither label asserts that the problem has been solved.
 
-Only Open and Partial count as open targets, once each. All other statuses belong in the retained archive. Preserve the original statement, sources, and ID in every case. Change `last_checked` only when a new literature or evidence review actually occurs; formatting and label migrations do not renew a literature check.
+Only Open and Partial count as open targets, once each. All other statuses belong in the retained archive unless the repository owner explicitly requests complete removal. Preserve the original statement and sources for archived entries; place archive identifiers after the active sequence and update references when renumbering. Change `last_checked` only when a new literature or evidence review actually occurs; formatting and label migrations do not renew a literature check.
 
 ### Lean verification evidence
 
@@ -59,8 +59,8 @@ The write command rebuilds `README.md`, `CATALOG.md`, and `RESOLVED.md`; edit th
 
 `catalogue.json` (schema version 2) declares the twelve ordered subject groups and the publication batches. A group's `key` names its existing `data/KEY.json` file. Its `title` supplies the heading in `CATALOG.md` and the subject links in the README. Each active row has `id`, `title`, `area`, `file`, `status`, and `last_checked`; membership comes from the containing file, independently of ID. New IDs can therefore appear in any subject group.
 
-Allocate permanent IDs only after admission, in a single integration pass above the largest active or retired identifier. Append every admitted ID to exactly one named batch's `ids` array in the manifest. Batches record publication history, not subject ranges; their counts and review-date ranges are derived from active metadata. Existing pages keep their IDs and paths.
+Allocate problem IDs only after admission, after the largest current identifier. Active entries must be consecutively numbered from 001. Append every admitted ID to exactly one named publication batch. Batches record publication history, not subject ranges; membership must follow each problem when numbering changes.
 
-Never reuse an ID. If an entry leaves the open catalogue, move its page into `research/`, repair incoming links, and add a `retired` record with `id`, `title`, `status`, `last_checked`, `reason`, and a local Markdown `record` path. Use one of the five archive statuses above; include `verification_record` for Lean verified entries. Here `retired` means outside the active catalogue, not necessarily solved. Keep its batch membership. The validator requires every issued ID to be either active or explicitly retired and rejects reuse, silent gaps, unindexed pages, and unregistered metadata files. Retirement decisions do not count as new problems.
+For an owner-requested complete removal, delete the page and metadata, remove retained copies and incoming references, remove its batch membership, and renumber the remaining active entries consecutively. Do not reserve deleted identifiers or retain removal records. Update filenames, headings, metadata, indexes, queue records, research references and batch memberships together. If an entry is archived rather than deleted, keep its statement and evidence in `research/` and put archive identifiers after the active sequence. The validator rejects gaps, duplicate IDs, stale reservations, unindexed pages and unregistered metadata. IDs can change after deletions; citations should include the repository commit and problem title.
 
 Run `python3 scripts/test_catalogue.py` when changing the catalogue machinery. The integrity tests operate on temporary copies and remove their fixtures automatically.

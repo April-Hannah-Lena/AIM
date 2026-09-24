@@ -2,7 +2,7 @@
 
 **Area:** Statistical learning, data privacy and sample complexity
 
-**Status:** Accepted; integrated as entry 354
+**Status:** Accepted; integrated as entry 346
 
 **Last checked:** 2026-09-19
 
@@ -59,6 +59,6 @@ The September 2026 VALG manuscript reports results for Cartesian products of VC-
 
 The [evidence record](../candidates/private-pac-vc-logstar.json) also compares distribution-restricted learning, density-estimation impossibility, cryptographic computational separations, pure-private proper-learning lower bounds and private decision-list algorithms. The smoothness and feature-count bounds retain extra parameters even when applied to a finite class. None supplies a matching resolution for arbitrary finite binary classes with unrestricted training time. The record states access limits and the explicit parameter normalization.
 
-This differs from retaining a small reconstructing subsample in [entry 318](../../../problems/318-linear-sample-compression.md), efficient noisy-parity recovery in [entry 317](../../../problems/317-learning-parity-noise.md), and efficient uniform-DNF learning in [entry 337](../../../problems/337-classical-uniform-dnf-learning.md). Privacy restricts the distribution of the complete released classifier. One quantitative private-classification family is counted; no additional counts are assigned to its dimensions or parameter variants.
+This differs from retaining a small reconstructing subsample in [entry 310](../../../problems/310-linear-sample-compression.md), efficient noisy-parity recovery in [entry 309](../../../problems/309-learning-parity-noise.md), and efficient uniform-DNF learning in [entry 329](../../../problems/329-classical-uniform-dnf-learning.md). Privacy restricts the distribution of the complete released classifier. One quantitative private-classification family is counted; no additional counts are assigned to its dimensions or parameter variants.
 
 The separated A56 adversarial self-pass passed on September 19, 2026. This review is not an independent mathematical proof audit.

@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-23",
+  "method": "Existing September 19 audit plus bounded integration refresh; source-filtered search uses a union of domains and is not a full direct registry export.",
+  "entries": [
+    {
+      "id": "494",
+      "broad_query": "Hadwiger Boltyanski illumination conjecture proof 2026",
+      "source_filtered_query": "\"Hadwiger\" illumination proof solution",
+      "domains": [
+        "arxiv.org",
+        "zenodo.org",
+        "github.com",
+        "palomar-registry.org"
+      ],
+      "result": "No matching full-scope solution announcement located; new scope exclusions are recorded in integration-2026-09-23.md."
+    },
+    {
+      "id": "495",
+      "broad_query": "\"GNRS\" conjecture 2026 proof",
+      "source_filtered_query": "\"Gupta Newman Rabinovich Sinclair\" proof",
+      "domains": [
+        "arxiv.org",
+        "zenodo.org",
+        "github.com",
+        "palomar-registry.org"
+      ],
+      "result": "No matching full-scope solution announcement located; new scope exclusions are recorded in integration-2026-09-23.md."
+    },
+    {
+      "id": "496",
+      "broad_query": "Fourier entropy influence conjecture proof 2026",
+      "source_filtered_query": "\"Fourier entropy influence\" proof",
+      "domains": [
+        "arxiv.org",
+        "zenodo.org",
+        "github.com",
+        "palomar-registry.org"
+      ],
+      "result": "No matching full-scope solution announcement located; new scope exclusions are recorded in integration-2026-09-23.md."
+    },
+    {
+      "id": "497",
+      "broad_query": "\"D-stable\" \"Lotka\" counterexample conjecture",
+      "source_filtered_query": "\"Hofbauer Sigmund\" \"D-stable\"",
+      "domains": [
+        "arxiv.org",
+        "zenodo.org",
+        "github.com",
+        "palomar-registry.org"
+      ],
+      "result": "No matching full-scope solution announcement located; new scope exclusions are recorded in integration-2026-09-23.md."
+    },
+    {
+      "id": "498",
+      "broad_query": "\"general graph\" matching \"NC\" September 2026",
+      "source_filtered_query": "\"general graphs\" \"perfect matching\" \"NC\" proof",
+      "domains": [
+        "arxiv.org",
+        "zenodo.org",
+        "github.com",
+        "palomar-registry.org"
+      ],
+      "result": "No matching full-scope solution announcement located; new scope exclusions are recorded in integration-2026-09-23.md."
+    },
+    {
+      "id": "499",
+      "broad_query": "\"simple stochastic games\" polynomial time September 2026",
+      "source_filtered_query": "\"simple stochastic games\" polynomial solution",
+      "domains": [
+        "arxiv.org",
+        "zenodo.org",
+        "github.com",
+        "palomar-registry.org"
+      ],
+      "result": "No matching full-scope solution announcement located; new scope exclusions are recorded in integration-2026-09-23.md."
+    },
+    {
+      "id": "500",
+      "broad_query": "\"densest k-subgraph\" \"NP-hard\" \"constant\" 2026",
+      "source_filtered_query": "\"densest k-subgraph\" \"constant\" \"NP-hardness\"",
+      "domains": [
+        "arxiv.org",
+        "zenodo.org",
+        "github.com",
+        "palomar-registry.org"
+      ],
+      "result": "No matching full-scope solution announcement located; new scope exclusions are recorded in integration-2026-09-23.md."
+    }
+  ]
+}

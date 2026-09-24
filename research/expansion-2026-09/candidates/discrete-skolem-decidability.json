@@ -1,6 +1,6 @@
 {
   "candidate_id": "discrete-skolem-decidability",
-  "proposed_catalogue_id": "327",
+  "proposed_catalogue_id": "319",
   "title": "Decidability of zeros in integer linear recurrences",
   "aliases": [
     "Discrete Skolem problem",
@@ -777,7 +777,7 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": 273,
+        "id": 266,
         "distinction": "Real-time c^T exp(tA)x_0=0 for rational ODE data, versus natural-number powers and integer recurrence zeros."
       },
       {
@@ -822,7 +822,7 @@
       "Current v2 Theorem 2 and definitions read; no ambient-dimension padding argument.",
       "DSSEP26 full Theorems 1.5–1.6 checked; explicit September open status corroborates independently.",
       "PAD26 full Theorems 4–5 and rationality obstruction read; conjectural dependencies preserved.",
-      "Draft and fingerprint compared with SUR26 Problem 2 and existing 273; integer scaling and loop guard consistent."
+      "Draft and fingerprint compared with SUR26 Problem 2 and existing 266; integer scaling and loop guard consistent."
     ],
     "verdict": "pass"
   },
@@ -839,7 +839,7 @@
     "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
     "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": "problems/327-discrete-skolem-decidability.md",
+  "public_page_path": "problems/319-discrete-skolem-decidability.md",
   "draft_page_path": "research/expansion-2026-09/drafts/discrete-skolem-decidability.md",
   "validation_results": [
     "2026-09-17: candidate JSON, source IDs and actual search IDs resolve; all required draft headings and local links checked.",

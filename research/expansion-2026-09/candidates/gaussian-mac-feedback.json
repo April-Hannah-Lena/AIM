@@ -267,15 +267,15 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "142",
+        "id": "137",
         "difference": "Two-way binary multiplication."
       },
       {
-        "id": "143",
+        "id": "138",
         "difference": "Gaussian relay with one message."
       },
       {
-        "id": "144",
+        "id": "139",
         "difference": "Deletion capacity."
       },
       {

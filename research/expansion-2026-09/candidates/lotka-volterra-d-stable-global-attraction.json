@@ -1,6 +1,6 @@
 {
   "candidate_id": "lotka-volterra-d-stable-global-attraction",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "497",
   "title": "Global attraction in D-stable Lotka–Volterra systems",
   "primary_section": "stochastic2",
   "secondary_tags": [
@@ -37,23 +37,23 @@
   ],
   "nearest_existing_entries": [
     {
-      "id": "311",
-      "path": "problems/311-carrying-simplex-interior.md",
+      "id": "303",
+      "path": "problems/303-carrying-simplex-interior.md",
       "difference": "Interior differentiability of a carrying simplex for competitive discrete population maps, not global equilibrium convergence for continuous Lotka–Volterra systems."
     },
     {
-      "id": "345",
-      "path": "problems/345-chemostat-unequal-removal-exclusion.md",
+      "id": "337",
+      "path": "problems/337-chemostat-unequal-removal-exclusion.md",
       "difference": "Resource-mediated nutrient dynamics with increasing responses and species-specific removal; asks for exclusion, not coexistence attraction under a D-stable interaction matrix."
     },
     {
-      "id": "349",
-      "path": "problems/349-polynomial-local-stability-decidability.md",
+      "id": "341",
+      "path": "problems/341-polynomial-local-stability-decidability.md",
       "difference": "A terminating algorithm for local stability of arbitrary rational polynomial ODEs. Here local stability is automatic and the question is a universal global-convergence theorem for a specified ecological model."
     }
   ],
   "duplicate_check": {
-    "baseline": "Established full baseline inventory retained; full closest entries 311, 345 and 349 reread September 19, 2026.",
+    "baseline": "Established full baseline inventory retained; full closest entries 303, 337 and 341 reread September 19, 2026.",
     "local": "Alias/formulation searches across problems, metadata, accepted candidates and old exclusions found no equivalent accepted entry.",
     "upstream": "SSH fetch completed September 19, 2026; HEAD and origin/main both 3b8e31b754d4ac18645802cef2f713804b841be0. Connected GitHub reports private repository with push access, no open PRs, and only main after complete pagination."
   },
@@ -360,7 +360,7 @@
     "application_check": "Relates coexistence recovery from arbitrary positive population perturbations to local robustness across growth vectors, within the stated ordinary differential-equation model.",
     "search_limit": "The search and theorem-scope audit are not an exhaustive literature survey or independent certification of the cited proofs."
   },
-  "publication_state": "Accepted research draft and evidence uploaded directly to main; exact research commit separately verified September 19, 2026. No permanent ID or active catalogue integration.",
+  "publication_state": "Integrated in the local catalogue on 2026-09-23; no commit or remote publication performed by this integration.",
   "draft_path": "research/expansion-2026-09/drafts/lotka-volterra-d-stable-global-attraction.md",
   "aliases": [
     "Hofbauer–Sigmund conjecture",
@@ -460,5 +460,14 @@
     "scope": "Research draft and evidence only; active catalogue remains 360.",
     "verified_by": "Successful direct fast-forward push followed by a separate git ls-remote returning the exact full commit.",
     "pull_request": null
+  },
+  "public_page_path": "problems/497-lotka-volterra-d-stable-global-attraction.md",
+  "integration_2026_09_23": {
+    "id": "497",
+    "group": "stochastic2",
+    "status": "Partially resolved",
+    "status_checked_on": "2026-09-23",
+    "record": "research/integration-2026-09-23.md",
+    "scope": "Existing September 19 source audit plus bounded literature refresh; no independent proof certification."
   }
 }

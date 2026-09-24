@@ -10,7 +10,7 @@ No candidate has received a final exclusion decision in this expansion. The exis
 
 Held candidates do not count toward the expansion. The earlier withdrawal of Pedregal v3 does not settle the status of v5. The arXiv withdrawal of Jacobsen's separate SU(3) claim does not adjudicate Nielsen's manuscript.
 
-Fifty candidates have passed research review and are published as entries 301–350. Six candidates remain held, and no accepted draft awaits integration. See [progress](progress.json) and the [research overview](README.md). Equivalent formulations and parameter-only splits remain one canonical problem each.
+Fifty candidates have passed research review and are published as entries 293–342. Six candidates remain held, and no accepted draft awaits integration. See [progress](progress.json) and the [research overview](README.md). Equivalent formulations and parameter-only splits remain one canonical problem each.
 
 ## Gaussian multiple-access feedback capacity — held claim
 

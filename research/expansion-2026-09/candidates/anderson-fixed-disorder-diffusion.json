@@ -1,6 +1,6 @@
 {
   "candidate_id": "anderson-fixed-disorder-diffusion",
-  "proposed_catalogue_id": "314",
+  "proposed_catalogue_id": "306",
   "title": "Diffusive mean-square displacement at fixed disorder",
   "aliases": [
     "Anderson quantum diffusion conjecture",
@@ -393,11 +393,11 @@
         "difference": "Asks spectral localization in dimension two."
       },
       {
-        "id": "104",
+        "id": "099",
         "difference": "Deterministic potentials on R^d satisfying weighted square-integrability; asks absolutely continuous spectral multiplicity. The candidate has stationary iid lattice disorder and a dynamical observable."
       },
       {
-        "id": "120",
+        "id": "115",
         "difference": "Dynamically generated skew-shift potential and spectral localization, not iid transport."
       }
     ],
@@ -432,14 +432,14 @@
       "An exact limiting coefficient would be stronger than the selected order-of-growth target.",
       "Spectral delocalization, time-averaged estimates and weak-coupling limits may be confused with this assertion.",
       "Diffusion-pole papers use the same Anderson terminology and require full scope checks.",
-      "Initial duplicate note incorrectly described entry 104 as a random-potential problem."
+      "Initial duplicate note incorrectly described entry 099 as a random-potential problem."
     ],
     "issues_resolved": [
       "Used Spencer’s explicit disorder expectation and unprojected delta initial state.",
       "Kept only positive finite two-sided linear bounds.",
       "Retained fixed positive lambda, infinite lattice and no time averaging; checked ESY and BDH scope.",
       "Read JKS response identities and analyticity caveats and JK coefficient representation/approximation discussion.",
-      "Reread entry 104 and corrected its deterministic continuum model.",
+      "Reread entry 099 and corrected its deterministic continuum model.",
       "Unit-variance uniform law is a coupling rescaling of Simon’s box distribution. Spencer’s kinetic normalization differs by a constant energy shift and the parity unitary U psi(x)=(-1)^(x1+x2+x3) psi(x), preserving transition probabilities.",
       "Finite-range hopping makes the second moment finite at each finite time through bounded position commutators."
     ],
@@ -459,7 +459,7 @@
     "upstream_check": "git fetch origin main and git ls-remote --heads confirm only main at 7fe62d53378cb3f5ebbe7caeda9f3a4d72039395; GitHub connector open-PR search returned none. No intervening upstream content or competing addition.",
     "duplicate_scope": "All 310 active pages/metadata, prior exclusion/source records and all pending additions screened; closest full pages and statement scopes reviewed in each candidate ledger."
   },
-  "public_page_path": "problems/314-anderson-fixed-disorder-diffusion.md",
+  "public_page_path": "problems/306-anderson-fixed-disorder-diffusion.md",
   "validation_results": [
     {
       "check": "catalogue",

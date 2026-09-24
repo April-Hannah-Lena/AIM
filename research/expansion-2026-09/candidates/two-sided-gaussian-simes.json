@@ -1,6 +1,6 @@
 {
   "candidate_id": "two-sided-gaussian-simes",
-  "proposed_catalogue_id": "340",
+  "proposed_catalogue_id": "332",
   "title": "Simes error control for two-sided Gaussian tests",
   "decision": "accept_open",
   "decision_reason": "Explicit exact conjecture, independent specialist discussion, scoped current counterexamples, duplicate screening and separated A41 self-review passed.",
@@ -29,7 +29,7 @@
     }
   ],
   "draft_path": "research/expansion-2026-09/drafts/two-sided-gaussian-simes.md",
-  "public_page_path": "problems/340-two-sided-gaussian-simes.md",
+  "public_page_path": "problems/332-two-sided-gaussian-simes.md",
   "actual_status_check_date": "2026-09-18",
   "second_review": {
     "status": "passed",

@@ -2,7 +2,7 @@
 
 **Area:** Mathematical phylogenetics and ancestral-state inference
 
-**Status:** Accepted; integrated as entry 339
+**Status:** Accepted; integrated as entry 331
 
 **Last checked:** 2026-09-18
 
@@ -66,10 +66,10 @@ Herbst–Li–Steel proves the general bound $\Pr\{\widehat\sigma_\rho=\sigma_\r
 
 The non-clock counterexamples in Li–Steel–Zhang and Fischer–Thatte do not satisfy the equal-height hypothesis. Counterexamples to improvement over arbitrary subsets do not refute comparison with a single leaf. Other checked results concern prescribed leaf patterns, reconstruction of tree topology, or special tree shapes, rather than the asserted probability bound for all finite clock-like trees. No matching later resolution was located.
 
-This is one problem across alphabet sizes. Unequal substitution rates, arbitrary subsets, and the stronger non-clock coin-toss conjecture are not separate additions. It differs from [selected-population genealogy](../../../problems/329-selected-brownian-population-genealogy.md), which asks for a random ancestry process, and [trace reconstruction](polynomial-trace-reconstruction.md), which asks how many deletion-channel observations identify an unknown string.
+This is one problem across alphabet sizes. Unequal substitution rates, arbitrary subsets, and the stronger non-clock coin-toss conjecture are not separate additions. It differs from [selected-population genealogy](../../../problems/321-selected-brownian-population-genealogy.md), which asks for a random ancestry process, and [trace reconstruction](polynomial-trace-reconstruction.md), which asks how many deletion-channel observations identify an unknown string.
 
 Review was a separated adversarial self-pass after drafting. No independent agent or human review is claimed.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
 
-Integrated page: [339. Accuracy of parsimony reconstruction under a molecular clock](../../../problems/339-fitch-ultrametric-ancestral-accuracy.md).
+Integrated page: [339. Accuracy of parsimony reconstruction under a molecular clock](../../../problems/331-fitch-ultrametric-ancestral-accuracy.md).

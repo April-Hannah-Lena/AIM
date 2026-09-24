@@ -1,6 +1,6 @@
 {
   "candidate_id": "aaronson-ambainis-influence",
-  "proposed_catalogue_id": "338",
+  "proposed_catalogue_id": "330",
   "title": "Aaronson–Ambainis influential-variable conjecture",
   "aliases": [
     "AA conjecture",
@@ -555,19 +555,15 @@
     ],
     "closest_entries": [
       {
-        "entry": "269",
-        "difference": "All Boolean encoders and a binary-noise channel; maximize mutual information. No degree-dependent variance/influence conclusion."
-      },
-      {
-        "entry": "301",
+        "entry": "293",
         "difference": "All finite Boolean communication matrices; deterministic worst-case interaction bounded by a polylogarithm of exact real rank. Different two-party resource, observable and quantifiers."
       },
       {
-        "entry": "207",
+        "entry": "202",
         "difference": "QMA hardness of constant-gap local-Hamiltonian ground-energy approximation under quantum reductions. No cube influence theorem or average-input query simulation."
       },
       {
-        "entry": "328",
+        "entry": "320",
         "difference": "Two independent real polynomial statistics of a Gaussian vector; orthogonal separation into disjoint coordinate blocks. Different measure, independence premise and conclusion."
       },
       {
@@ -576,10 +572,9 @@
       }
     ],
     "nearest_pages_fully_reread": [
-      "problems/269-most-informative-boolean-function.md",
-      "problems/301-log-rank.md",
-      "problems/207-quantum-pcp.md",
-      "problems/328-gaussian-polynomial-unlinking.md",
+      "problems/293-log-rank.md",
+      "problems/202-quantum-pcp.md",
+      "problems/320-gaussian-polynomial-unlinking.md",
       "research/expansion-2026-09/drafts/classical-uniform-dnf-learning.md"
     ],
     "counting_rule": "One scalar influence family; no additional entries for simulation, L1 conventions, special degrees, homogeneous/block cases or noncommutative variants."
@@ -605,7 +600,7 @@
     "outcome": "pass",
     "changes": "Added the AB26 switching-lemma comparison; clarified that no converse to the simulation implication is asserted."
   },
-  "public_page_path": "problems/338-aaronson-ambainis-influence.md",
+  "public_page_path": "problems/330-aaronson-ambainis-influence.md",
   "draft_path": "research/expansion-2026-09/drafts/aaronson-ambainis-influence.md",
   "validation_results": {
     "checked_on": "2026-09-18",

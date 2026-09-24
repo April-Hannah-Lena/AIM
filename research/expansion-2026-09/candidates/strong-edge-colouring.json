@@ -1,6 +1,6 @@
 {
   "candidate_id": "strong-edge-colouring",
-  "proposed_catalogue_id": "355",
+  "proposed_catalogue_id": "347",
   "title": "The sharp degree bound for strong edge-colouring",
   "primary_section": "inverse3",
   "secondary_tags": [
@@ -98,7 +98,7 @@
       "Compared the full relevant theorem/model statements in the eleven-source ledger; separated ten scope comparisons from discovery-only items.",
       "Checked regular completion, dependence of the K_{t,t}-free threshold on fixed t, clique-versus-colouring and worst-case-versus-random quantifiers.",
       "Disclosed the artifact's certificate and literature assumptions and that its code was not rerun.",
-      "Repeated repository alias/formula searches, reread complete nearest entries 344 and 348, and checked current remote main."
+      "Repeated repository alias/formula searches, reread complete nearest entries 336 and 340, and checked current remote main."
     ],
     "application_check": "Frequency or slot assignment is an exact interpretation of the stated graph conflicts. No physical propagation model or efficient algorithm is promised.",
     "search_limit": "No independent certification of all proofs or formal artifacts. Version, read-location and access limits are recorded for each source; finite-order issue text remains only partly accessible."
@@ -462,14 +462,14 @@
   },
   "nearest_existing": [
     {
-      "id": 344,
-      "path": "problems/344-list-edge-colouring.md",
+      "id": 336,
+      "path": "problems/336-list-edge-colouring.md",
       "full_statement_read": true,
       "distinction": "Arbitrary edge-specific colour lists with only shared-endpoint conflicts; asks for equality with the ordinary chromatic index. The new question has a common palette, distance-two conflicts and a sharp degree bound."
     },
     {
-      "id": 348,
-      "path": "problems/348-reed-colouring.md",
+      "id": 340,
+      "path": "problems/340-reed-colouring.md",
       "full_statement_read": true,
       "distinction": "A vertex-colouring bound in the degree and clique number of the graph being coloured. Substitution H=L(G)^2 does not turn its right-hand side into the required expression in Delta(G); no logical independence is asserted."
     }
@@ -556,7 +556,7 @@
     "verified_remote_commit": "83ef0ce74c9b8214dc2ac42762338032e06146fb",
     "method": "Normal direct push; a subsequent authenticated ls-remote read matched the exact content commit. No PR, per user authorization."
   },
-  "public_page_path": "problems/355-strong-edge-colouring.md",
+  "public_page_path": "problems/347-strong-edge-colouring.md",
   "batch_validation": {
     "batch": "351–360",
     "date": "2026-09-19",

@@ -78,15 +78,15 @@
       "exists": true
     },
     {
-      "url": "../../../problems/311-carrying-simplex-interior.md",
+      "url": "../../../problems/303-carrying-simplex-interior.md",
       "exists": true
     },
     {
-      "url": "../../../problems/345-chemostat-unequal-removal-exclusion.md",
+      "url": "../../../problems/337-chemostat-unequal-removal-exclusion.md",
       "exists": true
     },
     {
-      "url": "../../../problems/349-polynomial-local-stability-decidability.md",
+      "url": "../../../problems/341-polynomial-local-stability-decidability.md",
       "exists": true
     }
   ]

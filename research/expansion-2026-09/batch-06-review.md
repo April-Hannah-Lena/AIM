@@ -8,23 +8,23 @@ Ten accepted additions are integrated and published on main as 351–360. Each h
 
 | ID | Topic | Primary section |
 | --- | --- | --- |
-| 351 | Modern integer 3SUM hardness | operators |
-| 352 | Modified integer round-up for cutting stock | stochastic3 |
-| 353 | Entanglement-of-purification additivity | spectral3 |
-| 354 | Private PAC VC/log-star sample cost | applied |
-| 355 | Sharp strong edge-colouring bound | inverse3 |
-| 356 | Subset-sum support and concentration | applied |
-| 357 | Near-linear planar halving-line count | inverse3 |
-| 358 | Proper univariate Gaussian-mixture learning | applied |
-| 359 | Brownian Fleming–Viot non-explosion | stochastic2 |
-| 360 | The ball as least densely packable convex solid | continuum3 |
+| 343 | Modern integer 3SUM hardness | operators |
+| 344 | Modified integer round-up for cutting stock | stochastic3 |
+| 345 | Entanglement-of-purification additivity | spectral3 |
+| 346 | Private PAC VC/log-star sample cost | applied |
+| 347 | Sharp strong edge-colouring bound | inverse3 |
+| 348 | Subset-sum support and concentration | applied |
+| 349 | Near-linear planar halving-line count | inverse3 |
+| 350 | Proper univariate Gaussian-mixture learning | applied |
+| 351 | Brownian Fleming–Viot non-explosion | stochastic2 |
+| 352 | The ball as least densely packable convex solid | continuum3 |
 
 The immediate publication queries are R6-1 through R6-21 in the [actual search log](search-log.json), following A53–A62. All ten complete drafts were reread. Primary arXiv histories for the July 19 strong-colouring, August 28 Rényi-purification and September 1 entropy-comparison preprints still list the reviewed versions. Existing scope comparisons remain applicable.
 
 Two additional full-statement checks were added to the evidence records:
 
-- Kopelowitz–Porat, [*The Strong 3SUM-INDEXING Conjecture is False*](https://arxiv.org/html/1907.11206v1), Theorems 1.1 and 2.1–2.2, §2 and footnote 1: the space/query-time result explicitly permits unlimited preprocessing. Entry 351 counts total computation, including preprocessing.
-- Villemonais, [*Uniform tightness for time-inhomogeneous particle systems and for conditional distributions of time-inhomogeneous diffusion processes*](https://arxiv.org/pdf/1203.4825v1), §2, Hypotheses 1–2 and complete Theorem 1, internal pp. 4–6: the non-explosion criterion requires a twice continuously differentiable boundary-distance function with bounded derivatives near the boundary. Entry 359 imposes no boundary regularity.
+- Kopelowitz–Porat, [*The Strong 3SUM-INDEXING Conjecture is False*](https://arxiv.org/html/1907.11206v1), Theorems 1.1 and 2.1–2.2, §2 and footnote 1: the space/query-time result explicitly permits unlimited preprocessing. Entry 343 counts total computation, including preprocessing.
+- Villemonais, [*Uniform tightness for time-inhomogeneous particle systems and for conditional distributions of time-inhomogeneous diffusion processes*](https://arxiv.org/pdf/1203.4825v1), §2, Hypotheses 1–2 and complete Theorem 1, internal pp. 4–6: the non-explosion criterion requires a twice continuously differentiable boundary-distance function with bounded derivatives near the boundary. Entry 351 imposes no boundary regularity.
 
 The packing review also inspected the model, full theorem and proof of Kuchel's [2025 complementary-body paper](https://arxiv.org/pdf/2508.11633v1), §§3.3, 3.6 and 4.1–4.3. Its fixed-FCC spherical-sector identity does not optimize congruent packings of an arbitrary convex solid. The paper's formulas were not independently certified. The packing entry preserves reflections, the weak inequality and the exact scope of the symmetric/local and directional partial results.
 

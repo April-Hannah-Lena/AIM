@@ -6,7 +6,7 @@ Checked through 22 September 2026. The35 entries contain31 PDE-related questions
 
 ### 1. Observability of an acoustic shell at equal bulk and surface speeds
 
-Admitted page: [equal-speed-wentzell-wave-observability](../../../problems/396-equal-speed-wentzell-wave-observability.md)
+Admitted page: [equal-speed-wentzell-wave-observability](../../../problems/388-equal-speed-wentzell-wave-observability.md)
 
 1. L. Baudouin, J. Dardé, S. Ervedoza and A. Mercado, *A unified strategy for observability of waves in an annulus with various boundary conditions*, Mathematical Reports 24 (2022), 59–112, §2 and Theorem 2.4. [Journal PDF](https://imar.ro/journals/Mathematical_Reports/Pdfs/2022/1-2/5.pdf).
 2. S. E. Chorfi, L. Maniar and R. Morales, *Controllability and Inverse Problems for Hyperbolic and Dispersive Equations with Dynamic Boundary Conditions*, preprint (2025), §3.1 and §5.1. [arXiv:2505.14795](https://arxiv.org/abs/2505.14795).
@@ -15,7 +15,7 @@ Review: The 2025 review explicitly leaves equal bulk and surface coefficients un
 
 ### 2. Boundary observation of a Schrödinger field with slower surface dispersion
 
-Admitted page: [slow-surface-schrodinger-observability](../../../problems/397-slow-surface-schrodinger-observability.md)
+Admitted page: [slow-surface-schrodinger-observability](../../../problems/389-slow-surface-schrodinger-observability.md)
 
 1. A. Mercado and R. Morales, *Exact Controllability for a Schrödinger Equation with Dynamic Boundary Conditions*, SIAM Journal on Control and Optimization 61 (2023), 3501–3525, main observability and controllability theorems. [DOI](https://doi.org/10.1137/21M1439407); [author preprint](https://arxiv.org/abs/2301.02573).
 2. S. E. Chorfi, L. Maniar and R. Morales, *Controllability and Inverse Problems for Hyperbolic and Dispersive Equations with Dynamic Boundary Conditions*, preprint (2025), equations (4.1)–(4.4) and §5.1. [arXiv:2505.14795](https://arxiv.org/abs/2505.14795).
@@ -24,7 +24,7 @@ Review: The SIAM theorem assumes the surface coefficient exceeds the bulk coeffi
 
 ### 3. The sharp local maneuvering time for a shallow-water tank
 
-Admitted page: [shallow-water-tank-sharp-control-time](../../../problems/398-shallow-water-tank-sharp-control-time.md)
+Admitted page: [shallow-water-tank-sharp-control-time](../../../problems/390-shallow-water-tank-sharp-control-time.md)
 
 1. J.-M. Coron, *Time for local controllability of a 1-D tank containing a fluid modeled by the shallow water equations*, Problem 7.1, pp. 247–250, in V. D. Blondel and A. Megretski (eds.), *Unsolved Problems in Mathematical Systems and Control Theory*, Princeton University Press (2004). [Publisher book](https://doi.org/10.1515/9781400826155).
 2. J.-M. Coron, A. Koenig and H.-M. Nguyen, *Lack of local controllability for a water-tank system when the time is not large enough*, Annales de l’Institut Henri Poincaré C (2024 online), §1 and main noncontrollability theorem. [DOI](https://doi.org/10.4171/AIHPC/123); [publisher PDF](https://ems.press/content/serial-article-files/47556).
@@ -33,7 +33,7 @@ Review: The book conjectures the threshold $2$ in this normalization. The 2024 p
 
 ### 4. Global smooth evolution of small semigeostrophic perturbations
 
-Admitted page: [semigeostrophic-small-data-global-smoothness](../../../problems/399-semigeostrophic-small-data-global-smoothness.md)
+Admitted page: [semigeostrophic-small-data-global-smoothness](../../../problems/391-semigeostrophic-small-data-global-smoothness.md)
 
 1. G. Loeper, *A Fully Nonlinear Version of the Incompressible Euler Equations: The Semigeostrophic System*, SIAM Journal on Mathematical Analysis 38 (2006), 795–823, local regularity and uniqueness results. [DOI](https://doi.org/10.1137/050629070).
 2. G. De Philippis and A. Figalli, *The Monge–Ampère Equation and Its Link to Optimal Transportation*, Bulletin of the AMS 51 (2014), 527–580, §2.5 and §5.2(3). [Publisher PDF](https://www.ams.org/journals/bull/2014-51-04/S0273-0979-2014-01459-4/S0273-0979-2014-01459-4.pdf).
@@ -43,7 +43,7 @@ Review: The concluding question in Figalli’s survey explicitly singles out ini
 
 ### 5. Uniqueness of bounded semigeostrophic potential vorticity
 
-Admitted page: [semigeostrophic-bounded-vorticity-uniqueness](../../../problems/400-semigeostrophic-bounded-vorticity-uniqueness.md)
+Admitted page: [semigeostrophic-bounded-vorticity-uniqueness](../../../problems/392-semigeostrophic-bounded-vorticity-uniqueness.md)
 
 1. D. P. Bourne, C. P. Egan, B. Pelloni and M. Wilkinson, *Semi-discrete optimal transport methods for the semi-geostrophic equations*, Calculus of Variations and PDE 61 (2022), article 39, §1, equations (1)–(2), and §3. [Full text](https://doi.org/10.1007/s00526-021-02133-z).
 2. T. Lavier, *A semi-discrete optimal transport scheme for the 3D incompressible semi-geostrophic equations*, IMA Journal of Applied Mathematics 90 (2025), 443–464, Remark 1.1. [Full text](https://doi.org/10.1093/imamat/hxaf023).
@@ -52,7 +52,7 @@ Review: Both sources distinguish available existence results from unresolved wea
 
 ### 6. Sharp weak integrability of planar Monge–Ampère Hessians
 
-Admitted page: [planar-monge-ampere-sharp-hessian-integrability](../../../problems/401-planar-monge-ampere-sharp-hessian-integrability.md)
+Admitted page: [planar-monge-ampere-sharp-hessian-integrability](../../../problems/393-planar-monge-ampere-sharp-hessian-integrability.md)
 
 1. G. De Philippis and A. Figalli, *The Monge–Ampère Equation and Its Link to Optimal Transportation*, Bulletin of the AMS 51 (2014), 527–580, §5.2(2). [Publisher PDF](https://www.ams.org/journals/bull/2014-51-04/S0273-0979-2014-01459-4/S0273-0979-2014-01459-4.pdf).
 2. G. De Philippis, A. Figalli and O. Savin, *A note on interior $W^{2,1+ε}$ estimates for the Monge–Ampère equation*, Mathematische Annalen 357 (2013), 11–22, Theorem 1.1. [DOI](https://doi.org/10.1007/s00208-012-0895-9); [preprint](https://arxiv.org/abs/1202.5566).
@@ -61,7 +61,7 @@ Review: The survey explicitly proposes this exponent using planar quasiconformal
 
 ### 7. Affine Bernstein rigidity in dimensions three through nine
 
-Admitted page: [affine-bernstein-entire-low-dimensions](../../../problems/402-affine-bernstein-entire-low-dimensions.md)
+Admitted page: [affine-bernstein-entire-low-dimensions](../../../problems/394-affine-bernstein-entire-low-dimensions.md)
 
 1. N. S. Trudinger and X.-J. Wang, *The Monge–Ampère equation and its geometric applications*, Handbook of Geometric Analysis, vol. I (2008), 467–524, §6.3, conjecture following Theorem 6.4. [Author chapter](https://maths-people.anu.edu.au/~wang/publications/MA.pdf).
 2. Y. Sun, C. Xing and R. Xu, *New non-quadratic Euclidean complete affine maximal type hypersurfaces via Calabi affine geometry*, preprint (26 August 2026), §1, equations (1.1)–(1.3) and Theorem 1.3. [arXiv:2608.25330](https://arxiv.org/abs/2608.25330).
@@ -70,7 +70,7 @@ Review: The August 2026 paper explicitly says the affine maximal conjecture rema
 
 ### 8. Regularity of transport interfaces for nonconvex polyhedral targets
 
-Admitted page: [polyhedral-transport-singular-interface](../../../problems/403-polyhedral-transport-singular-interface.md)
+Admitted page: [polyhedral-transport-singular-interface](../../../problems/395-polyhedral-transport-singular-interface.md)
 
 1. S. Chen, Y. Li and J. Liu, *Optimal (partial) transport to non-convex polygonal domains*, preprint, version 4 (17 May 2026), Conjecture 5.1. [Full text](https://arxiv.org/html/2311.15655v4).
 2. S. Chen and J. Liu, *Regularity of singular set in optimal transportation*, Inventiones Mathematicae 242 (2025), 1–44, introduction and principal regularity theorems. [DOI](https://doi.org/10.1007/s00222-025-01353-w); [preprint](https://arxiv.org/abs/2210.13841).
@@ -79,7 +79,7 @@ Review: Conjecture 5.1 is posed after the authors prove the planar polygonal cas
 
 ### 9. Singular-set dimension of polyhedral partial-transport free boundaries
 
-Admitted page: [polyhedral-partial-transport-free-boundary](../../../problems/404-polyhedral-partial-transport-free-boundary.md)
+Admitted page: [polyhedral-partial-transport-free-boundary](../../../problems/396-polyhedral-partial-transport-free-boundary.md)
 
 1. S. Chen, Y. Li and J. Liu, *Optimal (partial) transport to non-convex polygonal domains*, preprint, version 4 (17 May 2026), Conjecture 5.2 and §1 definition of the active regions. [Full text](https://arxiv.org/html/2311.15655v4).
 2. L. A. Caffarelli and R. J. McCann, *Free boundaries in optimal transport and Monge–Ampère obstacle problems*, Annals of Mathematics 171 (2010), 673–730, formulation and free-boundary regularity theory. [DOI](https://doi.org/10.4007/annals.2010.171.673).
@@ -88,7 +88,7 @@ Review: The 2026 source proves the two-dimensional polygonal result and explicit
 
 ### 10. Villani’s convex-injectivity-domain conjecture
 
-Admitted page: [villani-mtw-convex-injectivity-domains](../../../problems/405-villani-mtw-convex-injectivity-domains.md)
+Admitted page: [villani-mtw-convex-injectivity-domains](../../../problems/397-villani-mtw-convex-injectivity-domains.md)
 
 1. A. Figalli, T. Gallouët and L. Rifford, *On the convexity of injectivity domains on nonfocal manifolds*, SIAM Journal on Mathematical Analysis 47 (2015), 969–1000, Definition 1.1, Theorem 1.7 and the following Villani conjecture. [Author manuscript](https://cvgmt.sns.it/media/doc/paper/2531/MTWTCLNF_final.pdf).
 2. G. Khan and J. Zhang, *When Optimal Transport Meets Information Geometry*, preprint (2022), Conjecture 3. [arXiv:2206.14791](https://arxiv.org/abs/2206.14791).
@@ -97,7 +97,7 @@ Review: The SIAM theorem proves the conclusion under the additional nonfocal ass
 
 ### 11. Exact null control of a harmonically confined kinetic equation from a wedge
 
-Admitted page: [harmonic-kolmogorov-wedge-null-control](../../../problems/406-harmonic-kolmogorov-wedge-null-control.md)
+Admitted page: [harmonic-kolmogorov-wedge-null-control](../../../problems/398-harmonic-kolmogorov-wedge-null-control.md)
 
 1. K. Beauchard, M. Egidi and K. Pravda-Starov, *Geometric conditions for the null-controllability of hypoelliptic quadratic parabolic equations with moving control supports*, Comptes Rendus Mathématique 358 (2020), 651–700, preprint §2.4, Proposition 2.4(iii). [DOI](https://doi.org/10.5802/crmath.79); [arXiv:1908.10603](https://arxiv.org/abs/1908.10603).
 2. P. Alphonse and J. Martin, *Approximate Null Controllability with Uniform Cost for the Hypoelliptic Ornstein–Uhlenbeck Equations*, SIAM Journal on Control and Optimization 61 (2023), 1679–1711, §2.3, Example 2.7. [DOI](https://doi.org/10.1137/22M1487412); [arXiv:2201.01516](https://arxiv.org/abs/2201.01516).
@@ -106,7 +106,7 @@ Review: The 2020 source explicitly leaves null controllability above the rotatio
 
 ### 12. Polynomial decay for KdV with three critical linear modes
 
-Admitted page: [critical-kdv-odd-mode-polynomial-decay](../../../problems/407-critical-kdv-odd-mode-polynomial-decay.md)
+Admitted page: [critical-kdv-odd-mode-polynomial-decay](../../../problems/399-critical-kdv-odd-mode-polynomial-decay.md)
 
 1. J. Niu and S. Xiang, *Small-time local controllability of a KdV system for all critical lengths*, preprint, version 2 (16 December 2025), §2.4.5. [arXiv:2501.13640](https://arxiv.org/abs/2501.13640).
 2. H.-M. Nguyen, *Decay for the nonlinear KdV equations at critical lengths*, Journal of Differential Equations 295 (2021), 249–291, main decay theorems and discussion of the dimension of the undamped subspace. [DOI](https://doi.org/10.1016/j.jde.2021.05.057); [arXiv:2012.08792](https://arxiv.org/abs/2012.08792).
@@ -115,7 +115,7 @@ Review: The December 2025 paper expressly identifies polynomial decay for odd un
 
 ### 13. Approximate velocity control of a viscoelastic fluid with prescribed transport
 
-Admitted page: [oseen-oldroyd-approximate-boundary-control](../../../problems/408-oseen-oldroyd-approximate-boundary-control.md)
+Admitted page: [oseen-oldroyd-approximate-boundary-control](../../../problems/400-oseen-oldroyd-approximate-boundary-control.md)
 
 1. E. Fernández-Cara, *Remarks on control and inverse problems for PDEs*, SeMA Journal 82 (2025), 267–288, §7, equation (25), Theorem 7 and Problem 14. [Full text](https://doi.org/10.1007/s40324-024-00363-7).
 2. A. Doubova and E. Fernández-Cara, *On the control of viscoelastic Jeffreys fluids*, Systems & Control Letters 61 (2012), 573–579, approximate controllability result for the linear memory system. [DOI](https://doi.org/10.1016/j.sysconle.2012.02.003).
@@ -125,7 +125,7 @@ Review: Problem 14 asks whether the approximate velocity-control theorem survive
 
 ### 14. Boundary control to equilibrium for a parabolic obstacle problem
 
-Admitted page: [parabolic-obstacle-boundary-control](../../../problems/409-parabolic-obstacle-boundary-control.md)
+Admitted page: [parabolic-obstacle-boundary-control](../../../problems/401-parabolic-obstacle-boundary-control.md)
 
 1. B. Geshkovski, *Control in moving interfaces and deep learning*, doctoral thesis, Universidad Autónoma de Madrid (2021), §1.5.1, pp. 37–39, equations (1.5.1)–(1.5.3). [Thesis](https://repositorio.uam.es/bitstream/10486/696540/1/geshkovski_borjan.pdf).
 2. D. Pighin and E. Zuazua, *Controllability under positivity constraints of semilinear heat equations*, Mathematical Control and Related Fields 8 (2018), 935–964, §7, discussion of controllability of the obstacle problem. [DOI](https://doi.org/10.3934/mcrf.2018041); [arXiv:1711.07678](https://arxiv.org/abs/1711.07678).
@@ -134,7 +134,7 @@ Review: The thesis expressly poses boundary exact control to the stationary obst
 
 ### 15. Best convex shape for insulation of fixed thickness and perimeter
 
-Admitted page: [fixed-thickness-insulation-convex-perimeter](../../../problems/410-fixed-thickness-insulation-convex-perimeter.md)
+Admitted page: [fixed-thickness-insulation-convex-perimeter](../../../problems/402-fixed-thickness-insulation-convex-perimeter.md)
 
 1. F. Della Pietra, C. Nitsch and C. Trombetti, *An optimal insulation problem*, Mathematische Annalen 382 (2022), 745–759, §5, Open Problem 1 and the preceding compactness discussion. [Full text](https://doi.org/10.1007/s00208-020-02058-6).
 2. D. Bucur, M. Nahon, C. Nitsch and C. Trombetti, *Shape optimization of a thermal insulation problem*, Calculus of Variations and Partial Differential Equations 61 (2022), article 186, introduction and Theorem 1. [Full text](https://doi.org/10.1007/s00526-022-02298-1).
@@ -143,7 +143,7 @@ Review: Open Problem 1 asks precisely for this convex planar minimum; the source
 
 ### 16. Concentric-ball optimality for thermal insulation with radiative heat transfer
 
-Admitted page: [radiative-insulation-concentric-balls](../../../problems/411-radiative-insulation-concentric-balls.md)
+Admitted page: [radiative-insulation-concentric-balls](../../../problems/403-radiative-insulation-concentric-balls.md)
 
 1. D. Bucur, M. Nahon, C. Nitsch and C. Trombetti, *Shape optimization of a thermal insulation problem*, Calculus of Variations and Partial Differential Equations 61 (2022), article 186, equations (1), (3), (4), Theorems 1–3 and the open question after Remark 4. [Full text](https://doi.org/10.1007/s00526-022-02298-1).
 2. F. Della Pietra, C. Nitsch and C. Trombetti, *An optimal insulation problem*, Mathematische Annalen 382 (2022), 745–759, §1 energy formulation and §5 open shape questions. [Full text](https://doi.org/10.1007/s00208-020-02058-6).
@@ -152,7 +152,7 @@ Review: The primary source singles out radiative heat transfer as an unresolved 
 
 ### 17. Continuity of manifold transport under MTW and convex injectivity domains
 
-Admitted page: [mtw-convex-domains-transport-continuity](../../../problems/412-mtw-convex-domains-transport-continuity.md)
+Admitted page: [mtw-convex-domains-transport-continuity](../../../problems/404-mtw-convex-domains-transport-continuity.md)
 
 1. G. De Philippis and A. Figalli, *The Monge–Ampère equation and its link to optimal transportation*, Bulletin of the American Mathematical Society 51 (2014), 527–580, §5.2, open problem (7). [Author manuscript](https://arxiv.org/abs/1310.6167).
 2. A. Figalli, L. Rifford and C. Villani, *Necessary and sufficient conditions for continuity of optimal transport maps on Riemannian manifolds*, Tohoku Mathematical Journal 63 (2011), 855–876, introduction and continuity criteria. [Journal full text](https://www.jstage.jst.go.jp/article/tmj/63/4/63_855/_pdf/-char/ja).
@@ -161,7 +161,7 @@ Review: The cited sources establish necessity and sufficiency in dimension two a
 
 ### 18. Logarithmic convexity for subdiffusion with non-gradient drift
 
-Admitted page: [fractional-drift-logarithmic-convexity](../../../problems/413-fractional-drift-logarithmic-convexity.md)
+Admitted page: [fractional-drift-logarithmic-convexity](../../../problems/405-fractional-drift-logarithmic-convexity.md)
 
 1. S.-E. Chorfi, *Logarithmic convexity of evolution equations and application to inverse problems*, preprint (2025), §4, Theorem 6 and §5, open problem 2. [Full text](https://arxiv.org/html/2506.19954v1).
 2. S.-E. Chorfi, L. Maniar and M. Yamamoto, *Logarithmic convexity of non-symmetric time-fractional diffusion equations*, Mathematical Methods in the Applied Sciences 48 (2025), 2011–2021, gradient-drift assumption and main logarithmic convexity theorem. [DOI](https://doi.org/10.1002/mma.10421).
@@ -170,7 +170,7 @@ Review: The 2025 primary sources explicitly leave removal of the gradient-drift 
 
 ### 19. Logarithmic convexity for two coupled subdiffusion orders
 
-Admitted page: [mixed-order-fractional-logarithmic-convexity](../../../problems/414-mixed-order-fractional-logarithmic-convexity.md)
+Admitted page: [mixed-order-fractional-logarithmic-convexity](../../../problems/406-mixed-order-fractional-logarithmic-convexity.md)
 
 1. S.-E. Chorfi, *Logarithmic convexity of evolution equations and application to inverse problems*, preprint (2025), §5, open problem 1, displaying this mixed-order system. [Full text](https://arxiv.org/html/2506.19954v1).
 2. S.-E. Chorfi, L. Maniar and M. Yamamoto, *The backward problem for time-fractional evolution equations*, Applicable Analysis 103 (2024), 2194–2212, logarithmic convexity and conditional stability theorems. [DOI](https://doi.org/10.1080/00036811.2023.2290273); [arXiv:2211.16493](https://arxiv.org/abs/2211.16493).
@@ -179,7 +179,7 @@ Review: The recent source poses this exact coupled system. Its two distinct time
 
 ### 20. Sharp exponential cost of fast boundary quantum control
 
-Admitted page: [schrodinger-sharp-fast-control-exponent](../../../problems/415-schrodinger-sharp-fast-control-exponent.md)
+Admitted page: [schrodinger-sharp-fast-control-exponent](../../../problems/407-schrodinger-sharp-fast-control-exponent.md)
 
 1. P. Lissy, *Effective multipliers for weights whose log are Hölder continuous. Application to the cost of fast boundary controls for the 1D Schrödinger equation*, preprint (2025), §§3.1–3.2, conjecture preceding Theorem 3.1. [Full text](https://arxiv.org/html/2502.04859v1).
 2. P. Lissy, *On the cost of fast controls for some families of dispersive or parabolic equations in one space dimension*, SIAM Journal on Control and Optimization 52 (2014), 2651–2676, §1.2 and control-cost bounds. [Author manuscript](https://cermics.enpc.fr/~lissyp/Publi/KdV.pdf).
@@ -189,7 +189,7 @@ Review: The 2025 source explicitly conjectures the displayed coefficient and imp
 
 ### 21. Uniform convergence of value functions in local mean-field games
 
-Admitted page: [local-mfg-uniform-vanishing-viscosity](../../../problems/416-local-mfg-uniform-vanishing-viscosity.md)
+Admitted page: [local-mfg-uniform-vanishing-viscosity](../../../problems/408-local-mfg-uniform-vanishing-viscosity.md)
 
 1. W. Tang and Y. P. Zhang, *The Convergence Rate of Vanishing Viscosity Approximations for Mean Field Games*, SIAM Journal on Mathematical Analysis 57 (2025), 3217–3254, §2 assumption (H3*), Theorem 5.5 and §7, problem 2(a). [DOI](https://doi.org/10.1137/24M1640008); [Author PDF](https://www.columbia.edu/~wt2319/VV.pdf).
 2. P. J. Graber and A. R. Mészáros, *Sobolev regularity for first order mean field games*, Annales de l’Institut Henri Poincaré C, Analyse non linéaire 35 (2018), 1557–1576, Theorem 1.2. [DOI](https://doi.org/10.1016/j.anihpc.2018.01.002).
@@ -198,7 +198,7 @@ Review: The SIAM source asks for local uniform convergence beyond its weighted L
 
 ### 22. An algebraic vanishing-noise rate for kinetic mean-field games
 
-Admitted page: [kinetic-mfg-vanishing-viscosity-rate](../../../problems/417-kinetic-mfg-vanishing-viscosity-rate.md)
+Admitted page: [kinetic-mfg-vanishing-viscosity-rate](../../../problems/409-kinetic-mfg-vanishing-viscosity-rate.md)
 
 1. W. Tang and Y. P. Zhang, *The Convergence Rate of Vanishing Viscosity Approximations for Mean Field Games*, SIAM Journal on Mathematical Analysis 57 (2025), 3217–3254, §7, problem 4(b). [DOI](https://doi.org/10.1137/24M1640008); [Author PDF](https://www.columbia.edu/~wt2319/VV.pdf).
 2. M. Griffin-Pickering and A. R. Mészáros, *A variational approach to first order kinetic mean field games with local couplings*, Communications in Partial Differential Equations 47 (2022), 1945–2022, equation (1.1), §3.2 and existence/uniqueness theorems. [DOI](https://doi.org/10.1080/03605302.2022.2101003); [arXiv:2112.03141](https://arxiv.org/abs/2112.03141).
@@ -207,7 +207,7 @@ Review: The SIAM source explicitly asks for kinetic vanishing-viscosity rates. T
 
 ### 23. Stationarity of Lipschitz weak solutions of the minimal-surface system
 
-Admitted page: [lawson-osserman-stationarity](../../../problems/418-lawson-osserman-stationarity.md)
+Admitted page: [lawson-osserman-stationarity](../../../problems/410-lawson-osserman-stationarity.md)
 
 1. C. Mooney, *Bernstein theorems for nonlinear geometric PDEs*, survey (2024), §3, equations (7)–(8) and Remark 3.2. [Author PDF](https://www.math.uci.edu/~mooneycr/BernsteinTheorems_v5.pdf); [arXiv:2407.11903](https://arxiv.org/abs/2407.11903).
 2. J. Hirsch, C. Mooney and R. Tione, *On the Lawson–Osserman conjecture*, Inventiones mathematicae (2026), §1, Theorem 1.1 and Remark 1.2. [DOI and full text](https://doi.org/10.1007/s00222-026-01442-4).
@@ -217,7 +217,7 @@ Review: The 2026 Inventiones paper solves two-dimensional domains, and explicitl
 
 ### 24. Polynomial growth of every entire minimal graph
 
-Admitted page: [entire-minimal-graphs-polynomial-growth](../../../problems/419-entire-minimal-graphs-polynomial-growth.md)
+Admitted page: [entire-minimal-graphs-polynomial-growth](../../../problems/411-entire-minimal-graphs-polynomial-growth.md)
 
 1. C. Mooney, *Bernstein theorems for nonlinear geometric PDEs*, survey (2024), §7.1, first open question on entire graphs. [Author PDF](https://www.math.uci.edu/~mooneycr/BernsteinTheorems_v5.pdf); [arXiv:2407.11903](https://arxiv.org/abs/2407.11903).
 2. L. Simon, *Entire solutions of the minimal surface equation*, Journal of Differential Geometry 30 (1989), 643–688, introduction and construction of entire graphs asymptotic to cylinders. [DOI](https://doi.org/10.4310/jdg/1214443827).
@@ -226,7 +226,7 @@ Review: The survey distinguishes this growth question from the existence of exac
 
 ### 25. Polynomial anisotropic minimal graphs in dimensions four and five
 
-Admitted page: [polynomial-anisotropic-minimal-graphs](../../../problems/420-polynomial-anisotropic-minimal-graphs.md)
+Admitted page: [polynomial-anisotropic-minimal-graphs](../../../problems/412-polynomial-anisotropic-minimal-graphs.md)
 
 1. C. Mooney, *Bernstein theorems for nonlinear geometric PDEs*, survey (2024), §7.2, polynomial solutions in lower dimensions. [Author PDF](https://www.math.uci.edu/~mooneycr/BernsteinTheorems_v5.pdf).
 2. C. Mooney, *Entire solutions to equations of minimal surface type in six dimensions*, Journal of the European Mathematical Society 24 (2022), 4353–4361, §1 and Theorem 1.1. [DOI](https://doi.org/10.4171/JEMS/1202); [Author PDF](https://www.math.uci.edu/~mooneycr/Bernstein_6D_JEMS.pdf).
@@ -236,7 +236,7 @@ Review: The six-dimensional polynomial construction uses a C2,1 integrand, so th
 
 ### 26. Continuous selection of small-time null controls for analytic systems
 
-Admitted page: [analytic-controls-continuous-selection](../../../problems/421-analytic-controls-continuous-selection.md)
+Admitted page: [analytic-controls-continuous-selection](../../../problems/413-analytic-controls-continuous-selection.md)
 
 1. F. Marbach, *Time-iteration methods for controllability*, lecture notes (2026), Definition 4.16 and Open Problem 4.17. [Full text](https://arxiv.org/html/2602.19272v1).
 2. J.-M. Coron, *Control and Nonlinearity*, Mathematical Surveys and Monographs 136, AMS (2007), Chapter 11, Proposition 11.22. [Book DOI](https://doi.org/10.1090/surv/136).
@@ -246,7 +246,7 @@ Review: The February 2026 notes state the analytic implication as an open proble
 
 ### 27. Quadratic-growth rigidity for the complex Monge–Ampère equation
 
-Admitted page: [complex-monge-ampere-quadratic-growth](../../../problems/422-complex-monge-ampere-quadratic-growth.md)
+Admitted page: [complex-monge-ampere-quadratic-growth](../../../problems/414-complex-monge-ampere-quadratic-growth.md)
 
 1. C. Mooney, *Bernstein theorems for nonlinear geometric PDEs*, survey (2024), §7.4. [Author PDF](https://www.math.uci.edu/~mooneycr/BernsteinTheorems_v5.pdf).
 2. Y. Wang, *A Liouville Theorem for the Complex Monge–Ampère Equation*, preprint (2013), main theorem assuming a quadratic asymptote with an o(|z|²) error. [arXiv:1303.2403](https://arxiv.org/abs/1303.2403).
@@ -256,7 +256,7 @@ Review: The September 2026 source records the exact two-sided growth question an
 
 ### 28. Continuity of states driven by bounded admissible inputs
 
-Admitted page: [bounded-input-state-continuity](../../../problems/423-bounded-input-state-continuity.md)
+Admitted page: [bounded-input-state-continuity](../../../problems/415-bounded-input-state-continuity.md)
 
 1. G. Weiss, *Admissibility of Unbounded Control Operators*, SIAM Journal on Control and Optimization 27 (1989), 527–545, Problem 2.4. [DOI](https://doi.org/10.1137/0327028).
 2. F. Marbach, *Time-iteration methods for controllability*, lecture notes (2026), Remark 2.32. [Full text](https://arxiv.org/html/2602.19272v1).
@@ -266,7 +266,7 @@ Review: The May 2026 source explicitly describes its answer to Weiss’s questio
 
 ### 29. Sharp vanishing-viscosity control time for downstream transport
 
-Admitted page: [positive-transport-sharp-uniform-control-time](../../../problems/424-positive-transport-sharp-uniform-control-time.md)
+Admitted page: [positive-transport-sharp-uniform-control-time](../../../problems/416-positive-transport-sharp-uniform-control-time.md)
 
 1. J.-M. Coron and S. Guerrero, *Singular optimal control: A linear 1-D parabolic–hyperbolic example*, Asymptotic Analysis 44 (2005), 237–257, introduction and conjecture on optimal times. [DOI](https://doi.org/10.3233/ASY-2005-707).
 2. C. Laurent and M. Léautaud, *On uniform controllability of 1D transport equations in the vanishing viscosity limit*, Comptes Rendus Mathématique 361 (2023), 265–312, §1.1 and §4.4. [DOI](https://doi.org/10.5802/crmath.405); [Full PDF](https://www.numdam.org/item/10.5802/crmath.405.pdf).
@@ -276,7 +276,7 @@ Review: The negative-velocity part of the original Coron–Guerrero conjecture h
 
 ### 30. Intercritical norm inflation for the dispersion-managed Schrödinger equation
 
-Admitted page: [intercritical-dispersion-managed-norm-inflation](../../../problems/425-intercritical-dispersion-managed-norm-inflation.md)
+Admitted page: [intercritical-dispersion-managed-norm-inflation](../../../problems/417-intercritical-dispersion-managed-norm-inflation.md)
 
 1. M. Kowalski, *On ill-posedness for the Gabitov–Turitsyn equation*, preprint (2025), equation (GT), Definition 1.3 and §6.4. [Full text](https://arxiv.org/html/2510.11887v1).
 2. J. Kawakami and J. Murphy, *Small and large data scattering for the dispersion-managed NLS*, Discrete and Continuous Dynamical Systems 47 (2026), 256–285, introduction and scattering theorems. [DOI](https://doi.org/10.3934/dcds.2025118).
@@ -286,7 +286,7 @@ Review: Kowalski explicitly leaves the intercritical regime unresolved. Failure 
 
 ### 31. Existence of a nonaffine polynomial minimal graph
 
-Admitted page: [isotropic-polynomial-minimal-graph](../../../problems/426-isotropic-polynomial-minimal-graph.md)
+Admitted page: [isotropic-polynomial-minimal-graph](../../../problems/418-isotropic-polynomial-minimal-graph.md)
 
 1. Y. Guo, *On polynomial solutions to the minimal surface equation*, Calculus of Variations and Partial Differential Equations 65 (2026), 141, §1.1, Definition 1 and Theorems 1.1–1.3. [DOI](https://doi.org/10.1007/s00526-026-03316-2); [revised full text](https://arxiv.org/html/2404.00115v2).
 2. C. Mooney, *Bernstein theorems for nonlinear geometric PDEs*, survey (2024), §7.1, polynomial-solution question. [Author PDF](https://www.math.uci.edu/~mooneycr/BernsteinTheorems_v5.pdf).
@@ -296,7 +296,7 @@ Review: The March 2026 revision explicitly reports that no nonaffine scalar poly
 
 ### 32. Uniform control of Neumann advection–diffusion for non-gradient flows
 
-Admitted page: [nongradient-neumann-uniform-control](../../../problems/427-nongradient-neumann-uniform-control.md)
+Admitted page: [nongradient-neumann-uniform-control](../../../problems/419-nongradient-neumann-uniform-control.md)
 
 1. F. Et-Tahri, J. A. Bárcena-Petisco, I. Boutaayamou and L. Maniar, *On uniform null controllability of transport-diffusion equations with vanishing viscosity limit*, Mathematical Methods in the Applied Sciences 48 (2025), 6531–6552, equation (1), Definition 1.3, Theorem 1.5 and Remark 1.6. [DOI](https://doi.org/10.1002/mma.10693); [full text](https://arxiv.org/html/2412.16660v1).
 2. J. A. Bárcena-Petisco, *Cost of null controllability for parabolic equations with vanishing diffusivity and a transport term*, ESAIM: Control, Optimisation and Calculus of Variations 27 (2021), 106, introduction and main control-cost results. [DOI](https://doi.org/10.1051/cocv/2021103).
@@ -305,7 +305,7 @@ Review: Remark 1.6 explicitly identifies removal of the gradient-field assumptio
 
 ### 33. Positive equilibrium attraction for an irreversible catalytic reaction
 
-Admitted page: [catalytic-reaction-diffusion-positive-attractor](../../../problems/428-catalytic-reaction-diffusion-positive-attractor.md)
+Admitted page: [catalytic-reaction-diffusion-positive-attractor](../../../problems/420-catalytic-reaction-diffusion-positive-attractor.md)
 
 1. T. L. Nguyen and B. Q. Tang, *Stability analysis of irreversible chemical reaction-diffusion systems with boundary equilibria*, Zeitschrift für angewandte Mathematik und Physik 77 (2026), 199, equation (1.1), the conjecture after Table 1, Theorem 2.1 and §2.3. [DOI and full text](https://doi.org/10.1007/s00033-026-02847-0).
 2. K. Fellner, J. Morgan and B. Q. Tang, *Uniform-in-time bounds for quadratic reaction-diffusion systems with mass dissipation in higher dimensions*, Discrete and Continuous Dynamical Systems, Series S 14 (2021), 635–651, main boundedness theorem. [DOI](https://doi.org/10.3934/dcdss.2020334).
@@ -314,7 +314,7 @@ Review: The July 2026 paper proves boundedness, local stability of the positive 
 
 ### 34. Polynomial growth of reachable neighborhoods for analytic control systems
 
-Admitted page: [analytic-reachable-set-polynomial-growth](../../../problems/429-analytic-reachable-set-polynomial-growth.md)
+Admitted page: [analytic-reachable-set-polynomial-growth](../../../problems/421-analytic-reachable-set-polynomial-growth.md)
 
 1. S. Jafarpour, *On Small-Time Local Controllability*, SIAM Journal on Control and Optimization 58 (2020), 425–446, Conjecture 1.2 and its relation to finite-jet robustness. [DOI](https://doi.org/10.1137/16M1068797); [full preprint, Conjecture 2](https://arxiv.org/html/1604.02432).
 2. F. Marbach, *Time-iteration methods for controllability*, lecture notes (2026), §4.7, equation (4.29) and Open Problem 4.24, the related norm-budget formulation. [Full text](https://arxiv.org/html/2602.19272v1).
@@ -323,7 +323,7 @@ Review: Jafarpour separately states this quantitative growth conjecture and the 
 
 ### 35. Uniqueness of the zero-average dispersion-managed soliton
 
-Admitted page: [zero-dispersion-soliton-uniqueness](../../../problems/430-zero-dispersion-soliton-uniqueness.md)
+Admitted page: [zero-dispersion-soliton-uniqueness](../../../problems/422-zero-dispersion-soliton-uniqueness.md)
 
 1. D. Hundertmark and Y.-R. Lee, *On non-local variational problems with lack of compactness related to non-linear optics*, Journal of Nonlinear Science 22 (2012), 1–38, §1.1, equations (1.1) and (1.3), Theorem 1.1, and Appendix C on translations and boosts. [DOI](https://doi.org/10.1007/s00332-011-9106-1); [full preprint](https://arxiv.org/pdf/1008.4631).
 2. D. Hundertmark and R. Schnaubelt, *Dispersion Management*, KIT Collaborative Research Centre 1173, archived Project B2 (2015–2019; page last changed 2023), project summary identifying uniqueness modulo natural invariances as open. [Primary research-program description](https://www.waves.kit.edu/B2.php).

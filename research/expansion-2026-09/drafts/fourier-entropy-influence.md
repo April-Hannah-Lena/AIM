@@ -1,5 +1,7 @@
 # The Fourier entropy–influence conjecture
 
+**Integrated:** [504 — canonical entry](../../../problems/496-fourier-entropy-influence.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
+
 **Area:** Boolean models, statistical learning and Fourier analysis
 
 **Status:** Open in cited literature; no later resolution located.
@@ -48,7 +50,7 @@ $$
 \left(f(X)-\sum_{S\in\mathcal A}\widehat f(S)\chi_S(X)\right)^2
 \right]\le\varepsilon.
 $$
-This follows from the entropy concentration argument in [2, equation (1.2)] and Parseval's identity. It bounds representation size; locating the coefficients is an additional computational task. For DNF rules, the conjecture also implies a spectral-concentration form of Mansour's conjecture, with consequences for agnostic learning at fixed accuracy using membership queries—chosen inputs whose labels can be requested. This consequence does not provide the passive examples-only learner sought in entry 337. [1, §1.1; 5, §1.3.1]
+This follows from the entropy concentration argument in [2, equation (1.2)] and Parseval's identity. It bounds representation size; locating the coefficients is an additional computational task. For DNF rules, the conjecture also implies a spectral-concentration form of Mansour's conjecture, with consequences for agnostic learning at fixed accuracy using membership queries—chosen inputs whose labels can be requested. This consequence does not provide the passive examples-only learner sought in entry 329. [1, §1.1; 5, §1.3.1]
 
 ## References
 
@@ -74,4 +76,4 @@ The new families in [3] have explicit splitting/separation hypotheses. Its Propo
 
 The [evidence record](../candidates/fourier-entropy-influence.json) contains the detailed comparisons and access limits. The original 1996 publisher PDF was inaccessible; the complete explicit restatements in [1–4] were inspected. Research was followed by a separated adversarial self-review. No independent agent or human review, or certification of the cited proofs, is claimed.
 
-The [most-informative-bit question](../../../problems/269-most-informative-boolean-function.md) optimizes mutual information with noisy inputs. [Entry 338](../../../problems/338-aaronson-ambainis-influence.md) seeks one influential coordinate of a bounded real low-degree polynomial. The [DNF-learning question](../../../problems/337-classical-uniform-dnf-learning.md) asks for an algorithm with a specified data-access model. These are distinct from the spectral-entropy inequality. Equivalent formulations and its restricted cases receive no additional entries.
+[Entry 330](../../../problems/330-aaronson-ambainis-influence.md) seeks one influential coordinate of a bounded real low-degree polynomial. The [DNF-learning question](../../../problems/329-classical-uniform-dnf-learning.md) asks for an algorithm with a specified data-access model. These are distinct from the spectral-entropy inequality. Equivalent formulations and its restricted cases receive no additional entries.

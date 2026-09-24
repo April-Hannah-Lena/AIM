@@ -1,6 +1,6 @@
 {
   "candidate_id": "strong-thin-tree",
-  "proposed_catalogue_id": "334",
+  "proposed_catalogue_id": "326",
   "title": "Strong thin-tree conjecture",
   "aliases": [
     "O(1/k)-thin spanning trees",
@@ -388,7 +388,7 @@
     ],
     "verdict": "pass_for_research_draft"
   },
-  "public_page_path": "problems/334-strong-thin-tree.md",
+  "public_page_path": "problems/326-strong-thin-tree.md",
   "draft_page_path": "research/expansion-2026-09/drafts/strong-thin-tree.md",
   "actual_status_check_date": "2026-09-18",
   "statement_source_and_scope_match": "Klein–Olver–Yeoh (ICALP 2026), §1 and §2.1, with independent Anari–Oveis Gharan (2015), §1 Definition 1.1 and discussion after Conjecture 1.3. Their strong form fixes a universal numerator; the ICALP introduction's 'some constant k' is a typographical slip, resolved by its abstract and independent explicit strong formulation.",
@@ -515,28 +515,28 @@
     "review_scope": "Retained full baseline reading and all 330 current entries; fresh model/alias search over active pages, data, baseline inventory, exclusions and all candidate records. Read all accepted candidate conclusions and reread the closest five complete pages.",
     "closest_existing_or_new_entries": [
       {
-        "id": 181,
-        "path": "problems/181-three-dimensional-minimal-spanning-forest.md",
+        "id": 176,
+        "path": "problems/176-three-dimensional-minimal-spanning-forest.md",
         "difference": "Almost-sure connectivity of a random infinite-lattice minimum forest; no finite-graph cut-thinness bound."
       },
       {
-        "id": 253,
-        "path": "problems/253-durer-edge-unfolding.md",
+        "id": 247,
+        "path": "problems/247-durer-edge-unfolding.md",
         "difference": "Nonoverlapping unfolding along a polyhedral edge tree; no simultaneous network cut requirement."
       },
       {
-        "id": 285,
-        "path": "problems/285-metric-tsp-four-thirds.md",
+        "id": 278,
+        "path": "problems/278-metric-tsp-four-thirds.md",
         "difference": "Sharp 4/3 cost gap for symmetric metric Hamiltonian tours, not tree cut counts."
       },
       {
-        "id": 309,
-        "path": "problems/309-li-li-multiple-unicast.md",
+        "id": 301,
+        "path": "problems/301-li-li-multiple-unicast.md",
         "difference": "Equality of coding and fractional-flow throughput regions for independent messages; no spanning-tree existence criterion."
       },
       {
-        "id": 323,
-        "path": "problems/323-asymmetric-tsp-integrality-gap.md",
+        "id": 315,
+        "path": "problems/315-asymmetric-tsp-integrality-gap.md",
         "difference": "Sharp factor-two directed tour-cost certificate. Strong thin trees imply an unspecified constant gap already known by other methods, not the factor two or its converse."
       }
     ],

@@ -2,7 +2,7 @@
 
 **Area:** Population dynamics and nonlinear delayed feedback
 
-**Status:** Accepted; integrated as entry 333
+**Status:** Accepted; integrated as entry 325
 
 **Last checked:** 2026-09-18
 
@@ -47,8 +47,8 @@ The general hypotheses give attraction when $-f'(0)\le3/2$. Díaz–Hasík–Kop
 
 The classical Wright equation, corresponding to $f(u)=\alpha(e^{-u}-1)$, was solved by van den Berg–Jaquette. Balázs–Röst rule out subcritical Hopf bifurcations under negative Schwarzian, but that local result does not exclude all distant periodic orbits. Counterexamples obtained after dropping the Schwarzian condition do not refute the stated conjecture. Adimy et al.'s coexisting-orbit constructions instead use $z'(t)=-z(t)+Q(z(t-1))$; their numerical examples assume only $C^1$ joins and do not establish the required negative-Schwarzian hypothesis. Clark-equation counterexamples concern a discrete recurrence. The [evidence record](../candidates/generalized-wright-global-attraction.json) documents the precise scope comparisons and incomplete access to the original Clark paper.
 
-[Entry 296](../../../problems/296-nicholson-local-global-stability.md) concerns Nicholson's particular positive-population equation with instantaneous decay. That term and its parameter-dependent local stability test distinguish it from the pure-delay function class here. [Entry 311](../../../problems/311-carrying-simplex-interior.md) asks for geometric smoothness in competitive population maps. Neither has the same mathematical assertion.
+[Entry 288](../../../problems/288-nicholson-local-global-stability.md) concerns Nicholson's particular positive-population equation with instantaneous decay. That term and its parameter-dependent local stability test distinguish it from the pure-delay function class here. [Entry 303](../../../problems/303-carrying-simplex-interior.md) asks for geometric smoothness in competitive population maps. Neither has the same mathematical assertion.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
 
-Integrated page: [333. Global attraction for Wright-type delayed feedback](../../../problems/333-generalized-wright-global-attraction.md).
+Integrated page: [333. Global attraction for Wright-type delayed feedback](../../../problems/325-generalized-wright-global-attraction.md).

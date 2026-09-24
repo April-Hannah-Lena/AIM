@@ -81,15 +81,15 @@
       "exists": true
     },
     {
-      "target": "../../../problems/303-planted-clique.md",
+      "target": "../../../problems/295-planted-clique.md",
       "exists": true
     },
     {
-      "target": "../../../problems/304-unique-games.md",
+      "target": "../../../problems/296-unique-games.md",
       "exists": true
     },
     {
-      "target": "../../../problems/350-unit-job-unique-machine-hardness.md",
+      "target": "../../../problems/342-unit-job-unique-machine-hardness.md",
       "exists": true
     }
   ],

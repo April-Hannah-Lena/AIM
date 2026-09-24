@@ -2,7 +2,7 @@
 
 **Area:** Online selection and resource allocation
 
-**Status:** Accepted; integrated as entry 341
+**Status:** Accepted; integrated as entry 333
 
 **Last checked:** 2026-09-18
 
@@ -57,8 +57,8 @@ Searches on September 18, 2026 covered the strong conjecture, both competitive-r
 
 The published DOI for [2] blocked the direct link check; its accessible author manuscript supplied the full formulation. Review was performed by the researching agent with a separated adversarial self-pass.
 
-[Entry 326](../../../problems/326-online-bin-packing-optimal-ratio.md) minimizes bin count under adversarial arrival order. [Entries 289](../../../problems/289-unrelated-machine-makespan.md) and [290](../../../problems/290-general-santa-claus.md) concern offline scheduling and max-min allocation. [Entry 334](../../../problems/334-strong-thin-tree.md) asks for one tree satisfying all cut inequalities. None asks for this random-order selection guarantee.
+[Entry 318](../../../problems/318-online-bin-packing-optimal-ratio.md) minimizes bin count under adversarial arrival order. [Entries 281](../../../problems/281-unrelated-machine-makespan.md) and [282](../../../problems/282-general-santa-claus.md) concern offline scheduling and max-min allocation. [Entry 326](../../../problems/326-strong-thin-tree.md) asks for one tree satisfying all cut inequalities. None asks for this random-order selection guarantee.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
 
-Integrated page: [341. The sharp matroid secretary conjecture](../../../problems/341-sharp-matroid-secretary.md).
+Integrated page: [341. The sharp matroid secretary conjecture](../../../problems/333-sharp-matroid-secretary.md).

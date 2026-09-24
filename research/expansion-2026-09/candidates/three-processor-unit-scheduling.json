@@ -1,6 +1,6 @@
 {
   "candidate_id": "three-processor-unit-scheduling",
-  "proposed_catalogue_id": "312",
+  "proposed_catalogue_id": "304",
   "title": "Exact complexity of unit-job precedence scheduling on three processors",
   "aliases": [
     "P3|prec,p_j=1|Cmax",
@@ -348,19 +348,19 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "289",
+        "id": "281",
         "difference": "Asks for a better-than-two approximation with arbitrary machine-dependent processing times and no precedence constraints; candidate asks exact complexity with three identical processors and unit jobs."
       },
       {
-        "id": "290",
+        "id": "282",
         "difference": "Max-min item allocation with arbitrary values is not precedence scheduling."
       },
       {
-        "id": "100",
+        "id": "095",
         "difference": "Strongly polynomial simplex pivoting concerns linear programming and arithmetic magnitudes, not exact discrete scheduling."
       },
       {
-        "id": "304",
+        "id": "296",
         "difference": "Unique Games is a distinct general hardness conjecture; conditional approximation hardness for growing machine counts does not settle this exact fixed-machine question."
       }
     ],
@@ -424,7 +424,7 @@
     "upstream_check": "git fetch origin main and git ls-remote --heads confirm only main at 7fe62d53378cb3f5ebbe7caeda9f3a4d72039395; GitHub connector open-PR search returned none. No intervening upstream content or competing addition.",
     "duplicate_scope": "All 310 active pages/metadata, prior exclusion/source records and all pending additions screened; closest full pages and statement scopes reviewed in each candidate ledger."
   },
-  "public_page_path": "problems/312-three-processor-unit-scheduling.md",
+  "public_page_path": "problems/304-three-processor-unit-scheduling.md",
   "validation_results": [
     {
       "check": "catalogue",

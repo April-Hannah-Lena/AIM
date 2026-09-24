@@ -145,65 +145,57 @@
   },
   {
     "id": "019",
-    "title": "The Benguria–Loss ovals conjecture",
-    "area": "Geometric Schrödinger operators",
-    "file": "problems/019-ovals-conjecture.md",
+    "title": "The polygonal Payne–Pólya–Weinberger ratio conjecture",
+    "area": "Spectral shape optimization",
+    "file": "problems/019-polygonal-ppw.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "020",
-    "title": "The polygonal Payne–Pólya–Weinberger ratio conjecture",
-    "area": "Spectral shape optimization",
-    "file": "problems/020-polygonal-ppw.md",
+    "title": "Bareket's conjecture for simply connected planar domains",
+    "area": "Robin spectra and surface interactions",
+    "file": "problems/020-bareket-simply-connected.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "021",
-    "title": "Bareket's conjecture for simply connected planar domains",
-    "area": "Robin spectra and surface interactions",
-    "file": "problems/021-bareket-simply-connected.md",
+    "title": "The Robin fundamental gap conjecture",
+    "area": "Diffusion and elastically supported membranes",
+    "file": "problems/021-robin-fundamental-gap.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "022",
-    "title": "The Robin fundamental gap conjecture",
-    "area": "Diffusion and elastically supported membranes",
-    "file": "problems/022-robin-fundamental-gap.md",
-    "status": "Open",
+    "title": "The Robin eigenvalue ratio at fixed volume",
+    "area": "Robin spectra and resonator design",
+    "file": "problems/022-robin-ppw.md",
+    "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
     "id": "023",
-    "title": "The Robin eigenvalue ratio at fixed volume",
-    "area": "Robin spectra and resonator design",
-    "file": "problems/023-robin-ppw.md",
-    "status": "Partially resolved",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "024",
     "title": "The regular-polygon Steklov conjecture",
     "area": "Boundary spectral optimization",
-    "file": "problems/024-steklov-polygon-optimizer.md",
+    "file": "problems/023-steklov-polygon-optimizer.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
-    "id": "025",
+    "id": "024",
     "title": "Exponential interior decay for smooth Steklov domains",
     "area": "Boundary waves and harmonic extension",
-    "file": "problems/025-steklov-smooth-interior-decay.md",
+    "file": "problems/024-steklov-smooth-interior-decay.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
-    "id": "306",
+    "id": "298",
     "title": "Dirichlet spectral determination of smooth strictly convex planar domains",
     "area": "Spectral theory and spectral geometry",
-    "file": "problems/306-convex-dirichlet-spectrum.md",
+    "file": "problems/298-convex-dirichlet-spectrum.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   }

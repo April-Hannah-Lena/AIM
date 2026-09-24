@@ -209,15 +209,15 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "142",
+        "id": "137",
         "difference": "Binary multiplying two-way channel is a different discrete memoryless interaction model."
       },
       {
-        "id": "143",
+        "id": "138",
         "difference": "Gaussian relay capacity concerns a multi-terminal additive-noise channel, without this random-server timing model."
       },
       {
-        "id": "144",
+        "id": "139",
         "difference": "Deletion capacity concerns random symbol loss rather than random waiting/service times."
       }
     ],

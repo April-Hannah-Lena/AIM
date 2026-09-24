@@ -1,6 +1,6 @@
 {
   "candidate_id": "entanglement-assisted-lovasz",
-  "proposed_catalogue_id": "313",
+  "proposed_catalogue_id": "305",
   "title": "Does entanglement-assisted capacity equal the Lovász bound?",
   "aliases": [
     "entanglement-assisted Shannon capacity conjecture",
@@ -384,19 +384,19 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "270",
+        "id": "263",
         "difference": "The unassisted Shannon capacity of C7 does not permit quantum assistance; equality here would not determine that unassisted capacity."
       },
       {
-        "id": "038",
+        "id": "035",
         "difference": "Depolarizing quantum capacity transmits quantum states through a quantum channel with vanishing error."
       },
       {
-        "id": "214",
+        "id": "209",
         "difference": "Amplitude-damping Holevo additivity uses a quantum channel and permits vanishing error."
       },
       {
-        "id": "301",
+        "id": "293",
         "difference": "Log-rank concerns worst-case interactive communication complexity, without this asymptotic channel model."
       },
       {
@@ -450,7 +450,7 @@
       "Matched confusability/strong-product and exponential-rate conventions to LZ.",
       "Required trace-one common state and corrected the Remark 8 source locator.",
       "Read BMZ v3 definitions and full Section 4 theorem/corollary.",
-      "Rechecked the statement against related entries 038, 214, 270, 301, 309 and 310; the assertions differ."
+      "Rechecked the statement against related entries 035, 209, 263, 293, 301 and 302; the assertions differ."
     ],
     "verdict": "accept_open"
   },
@@ -467,7 +467,7 @@
     "upstream_check": "git fetch origin main and git ls-remote --heads confirm only main at 7fe62d53378cb3f5ebbe7caeda9f3a4d72039395; GitHub connector open-PR search returned none. No intervening upstream content or competing addition.",
     "duplicate_scope": "All 310 active pages/metadata, prior exclusion/source records and all pending additions screened; closest full pages and statement scopes reviewed in each candidate ledger."
   },
-  "public_page_path": "problems/313-entanglement-assisted-lovasz.md",
+  "public_page_path": "problems/305-entanglement-assisted-lovasz.md",
   "validation_results": [
     {
       "check": "catalogue",

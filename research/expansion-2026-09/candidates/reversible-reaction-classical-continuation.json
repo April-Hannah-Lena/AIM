@@ -1,6 +1,6 @@
 {
   "candidate_id": "reversible-reaction-classical-continuation",
-  "proposed_catalogue_id": "315",
+  "proposed_catalogue_id": "307",
   "title": "Global classical continuation for a reversible mass-action reaction",
   "aliases": [
     "single reversible reaction-diffusion global regularity",
@@ -665,23 +665,23 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "147",
+        "id": "142",
         "difference": "Scalar growing heat equation with a chosen internal control and Dirichlet boundary; asks exact null controllability."
       },
       {
-        "id": "197",
+        "id": "192",
         "difference": "Stochastic scalar heat equation with rough noise coefficient; asks pathwise uniqueness at a Hölder threshold."
       },
       {
-        "id": "282",
+        "id": "275",
         "difference": "Discrete molecular-count Markov chain; asks nonexplosion and positive recurrence."
       },
       {
-        "id": "283",
+        "id": "276",
         "difference": "Spatially homogeneous ODE; assumes a bounded global trajectory and asks asymptotic nonextinction."
       },
       {
-        "id": "236",
+        "id": "230",
         "difference": "Boltzmann kinetic equation in position/velocity variables; asks unconditional uniqueness of entropy-admissible renormalized solutions, not classical continuation of concentration PDEs."
       }
     ],
@@ -739,7 +739,7 @@
     "upstream_check": "git fetch origin main and git ls-remote --heads confirm only main at 7fe62d53378cb3f5ebbe7caeda9f3a4d72039395; GitHub connector open-PR search returned none. No intervening upstream content or competing addition.",
     "duplicate_scope": "All 310 active pages/metadata, prior exclusion/source records and all pending additions screened; closest full pages and statement scopes reviewed in each candidate ledger."
   },
-  "public_page_path": "problems/315-reversible-reaction-classical-continuation.md",
+  "public_page_path": "problems/307-reversible-reaction-classical-continuation.md",
   "validation_results": [
     {
       "check": "catalogue",

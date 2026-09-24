@@ -2,7 +2,7 @@
 
 **Area:** Quantum information and zero-error communication
 
-**Status:** Accepted; published as entry 313
+**Status:** Accepted; published as entry 305
 
 **Last checked:** 2026-09-17
 
@@ -50,4 +50,4 @@ The graph records which input symbols a noisy classical channel can confuse. The
 
 Li–Zuiddam explicitly pose this classical-graph equality; the independent Cubitt et al. paper explains why its single-use counterexample leaves the asymptotic question open. Li–Zuiddam prove that this conjecture and a separate conjecture restricting assistance to maximally entangled states and projective measurements cannot both hold, without deciding which fails. Wang–Duan's counterexample instead uses a quantum channel. Duan–Winter's operational theta interpretation allows stronger no-signalling resources. Bhattacharyya–Mehta–Zhao's corrected 2026 undecidability result concerns one-use capacity with maximal entanglement and projective encoding.
 
-The current search covered classical versus quantum channels, one-shot versus asymptotic capacity, proof/counterexample claims, 2025–2026 and unrestricted dates, and version/correction checks. No matching resolution was located. The [evidence ledger](../candidates/entanglement-assisted-lovasz.json) records exact scope comparisons and the lack of a newer explicit primary status statement. A separate adversarial self-pass passed on September 17, 2026; no independent agent or human review occurred. Integrated as [entry 313](../../../problems/313-entanglement-assisted-lovasz.md) after the September 17, 2026 batch refresh.
+The current search covered classical versus quantum channels, one-shot versus asymptotic capacity, proof/counterexample claims, 2025–2026 and unrestricted dates, and version/correction checks. No matching resolution was located. The [evidence ledger](../candidates/entanglement-assisted-lovasz.json) records exact scope comparisons and the lack of a newer explicit primary status statement. A separate adversarial self-pass passed on September 17, 2026; no independent agent or human review occurred. Integrated as [entry 305](../../../problems/305-entanglement-assisted-lovasz.md) after the September 17, 2026 batch refresh.

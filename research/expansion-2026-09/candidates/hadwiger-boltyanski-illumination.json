@@ -1,6 +1,6 @@
 {
   "candidate_id": "hadwiger-boltyanski-illumination",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "494",
   "title": "The sharp number of directions illuminating a convex body",
   "primary_section": "inverse3",
   "secondary_tags": [
@@ -35,18 +35,18 @@
   ],
   "nearest_existing_entries": [
     {
-      "id": "129",
-      "path": "problems/129-shortest-opaque-square-barrier.md",
+      "id": "124",
+      "path": "problems/124-shortest-opaque-square-barrier.md",
       "difference": "Minimizes the length of a planar barrier intersecting every line through a fixed square; it does not minimize directions that enter every boundary point of an arbitrary convex body."
     },
     {
-      "id": "272",
-      "path": "problems/272-lebesgue-universal-cover.md",
+      "id": "265",
+      "path": "problems/265-lebesgue-universal-cover.md",
       "difference": "Minimizes the area of one universal container for all diameter-one planar sets up to isometry; the proposed problem covers a single fixed body by finitely many smaller positive homothets of itself."
     },
     {
-      "id": "360",
-      "path": "problems/360-ulam-convex-solid-packing.md",
+      "id": "352",
+      "path": "problems/352-ulam-convex-solid-packing.md",
       "difference": "Asymptotic density of infinitely many congruent three-dimensional bodies with disjoint interiors and free isometries; the present finite covering permits overlaps and requires positive homothetic smaller copies."
     }
   ],
@@ -55,7 +55,7 @@
     "local": "Alias search of active problems, candidate records and source/exclusion records located no equivalent accepted entry. All sixty earlier additions are integrated, with no pending accepted draft.",
     "upstream": "September 19 SSH fetch matches HEAD and origin/main at af61ea4f7eaa98a14194d18942bc76b13fd6e441. Connected metadata confirms private MColbrook/AIM, main default and push permission. Open-PR search empty; two-page branch search returns only main."
   },
-  "publication_state": "Accepted research draft and evidence pushed directly to main; no permanent ID or catalogue integration.",
+  "publication_state": "Integrated in the local catalogue on 2026-09-23; no commit or remote publication performed by this integration.",
   "source_records": [
     {
       "source_id": "BK16",
@@ -545,5 +545,14 @@
     "scope": "Research draft and evidence only; active catalogue remains 360.",
     "verified_by": "Successful direct fast-forward push followed by a separate git ls-remote returning the exact full commit.",
     "pull_request": null
+  },
+  "public_page_path": "problems/494-hadwiger-boltyanski-illumination.md",
+  "integration_2026_09_23": {
+    "id": "494",
+    "group": "inverse3",
+    "status": "Partially resolved",
+    "status_checked_on": "2026-09-23",
+    "record": "research/integration-2026-09-23.md",
+    "scope": "Existing September 19 source audit plus bounded literature refresh; no independent proof certification."
   }
 }

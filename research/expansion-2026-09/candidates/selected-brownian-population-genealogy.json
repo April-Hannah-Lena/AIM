@@ -1,6 +1,6 @@
 {
   "candidate_id": "selected-brownian-population-genealogy",
-  "proposed_catalogue_id": "329",
+  "proposed_catalogue_id": "321",
   "title": "Bolthausen–Sznitman ancestry for a fixed-size selected population",
   "aliases": [
     "Brunet–Derrida genealogy conjecture",
@@ -1033,11 +1033,11 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": 190,
+        "id": 185,
         "distinction": "Two-type contact-process survival and competition on Z²; no fixed-size Brownian fitness genealogy."
       },
       {
-        "id": 280,
+        "id": 273,
         "distinction": "Finite-graph exclusion mixing; no reproduction or ancestral partition limit."
       }
     ],
@@ -1099,7 +1099,7 @@
     "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
     "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": "problems/329-selected-brownian-population-genealogy.md",
+  "public_page_path": "problems/321-selected-brownian-population-genealogy.md",
   "validation_results": [
     "2026-09-17: all 34 existing math expressions passed strict KaTeX; rendered statement and applied significance visually inspected.",
     "2026-09-17: source/search IDs, required headings and draft local links checked.",

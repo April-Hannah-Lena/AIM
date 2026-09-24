@@ -2,7 +2,7 @@
 
 **Area:** Coding theory and reliable data transmission
 
-**Status:** Accepted; integrated as entry 342
+**Status:** Accepted; integrated as entry 334
 
 **Last checked:** 2026-09-18
 
@@ -67,8 +67,8 @@ Searches on September 18, 2026 covered the rate–distance problem and its alias
 
 Two arXiv URLs rejected the direct automated link check, although their full texts were accessible through the research tool. The publisher DOI for [5] returned an empty HTTP 202 response; its accessible author manuscript supplied the theorem. These access details are retained in the ledger.
 
-[Entry 144](../../../problems/144-binary-deletion-channel-capacity.md) concerns stochastic deletion capacity. [Entry 270](../../../problems/270-seven-cycle-shannon-capacity.md) uses strong powers of a fixed seven-symbol confusability graph. [Entry 332](../../../problems/332-polynomial-trace-reconstruction.md) asks for a number of independent deletion traces. Their channel models and success criteria differ from this binary minimum-distance question.
+[Entry 139](../../../problems/139-binary-deletion-channel-capacity.md) concerns stochastic deletion capacity. [Entry 263](../../../problems/263-seven-cycle-shannon-capacity.md) uses strong powers of a fixed seven-symbol confusability graph. [Entry 324](../../../problems/324-polynomial-trace-reconstruction.md) asks for a number of independent deletion traces. Their channel models and success criteria differ from this binary minimum-distance question.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
 
-Integrated page: [342. The optimal asymptotic rate of binary error-correcting codes](../../../problems/342-binary-code-asymptotic-rate.md).
+Integrated page: [342. The optimal asymptotic rate of binary error-correcting codes](../../../problems/334-binary-code-asymptotic-rate.md).

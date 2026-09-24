@@ -1,6 +1,6 @@
 {
   "candidate_id": "asymmetric-tsp-integrality-gap",
-  "proposed_catalogue_id": "323",
+  "proposed_catalogue_id": "315",
   "title": "The factor-two integrality gap for asymmetric metric routing",
   "aliases": [
     "ATSP subtour integrality ratio two",
@@ -436,15 +436,15 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "285",
+        "id": "278",
         "difference": "Undirected symmetric metric costs, degree two and cut two, conjectured factor four-thirds. Here costs and tours are directed and asymmetric, with sharp lower bound two. This is the separately sourced general asymmetric model, not a renaming or a new constant for the same assertion."
       },
       {
-        "id": "284",
+        "id": "277",
         "difference": "Central limit law for optimal Euclidean tours through random planar points, not a deterministic integrality gap."
       }
     ],
-    "distinctness_reason": "Retained all-320 inventory and baseline full-page review; repeated title/alias/content screening and fully reread entries 284 and 285. No existing asymmetric subtour-gap entry.",
+    "distinctness_reason": "Retained all-320 inventory and baseline full-page review; repeated title/alias/content screening and fully reread entries 277 and 278. No existing asymmetric subtour-gap entry.",
     "implications_or_equivalences": [
       "Degree-constrained metric and balanced-circulation closed-walk LP formulations are counted once.",
       "The symmetric four-thirds assertion alone does not cover asymmetric costs.",
@@ -508,7 +508,7 @@
     "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
     "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": "problems/323-asymmetric-tsp-integrality-gap.md",
+  "public_page_path": "problems/315-asymmetric-tsp-integrality-gap.md",
   "validation_results": [
     {
       "checked_on": "2026-09-17",

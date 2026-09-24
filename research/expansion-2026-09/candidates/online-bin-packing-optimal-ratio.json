@@ -1,6 +1,6 @@
 {
   "candidate_id": "online-bin-packing-optimal-ratio",
-  "proposed_catalogue_id": "326",
+  "proposed_catalogue_id": "318",
   "title": "Optimal asymptotic competitiveness for online bin packing",
   "aliases": [
     "Optimal deterministic online bin-packing ratio",
@@ -664,19 +664,15 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": 286,
-        "distinction": "Fixed mobile servers, metric distance cost; not unit-bin count."
-      },
-      {
-        "id": 289,
+        "id": 281,
         "distinction": "Offline assignment on fixed unrelated machines with makespan objective."
       },
       {
-        "id": 312,
+        "id": 304,
         "distinction": "Exact precedence feasibility on three fixed processors, not online bin count."
       }
     ],
-    "distinctness_reason": "Baseline full reading retained; current metadata, accepted drafts and exclusions re-screened. Closest 286,289,312 pages reread. No bin-packing entry. One universal optimal-ratio question; no algorithm-specific or random-order variants counted.",
+    "distinctness_reason": "Baseline full reading retained; current metadata, accepted drafts and exclusions re-screened. Closest retained pages 289 and 312 reread. No bin-packing entry. One universal optimal-ratio question; no algorithm-specific or random-order variants counted.",
     "implications_or_equivalences": [
       "Absolute performance and stochastic/parallel/advice models recorded as related results, not equivalent targets."
     ]
@@ -704,13 +700,11 @@
     ],
     "issues_found": [
       "Absolute versus asymptotic quantifier mismatch is the main false-resolution hazard.",
-      "Finite-size alphabet scheme, estimates, parallel min and stochastic expectations can appear to beat the classical lower bound.",
-      "Draft's related 286 filename was initially incorrect."
+      "Finite-size alphabet scheme, estimates, parallel min and stochastic expectations can appear to beat the classical lower bound."
     ],
     "issues_resolved": [
       "Rational input and limit order copied in scope from UB; no polynomial-time or attained-infimum assertion added.",
-      "Full relevant theorem comparisons recorded; new A27 WADS source confirms interval and journal PAR metadata checked.",
-      "Corrected link to 286-deterministic-k-server.md."
+      "Full relevant theorem comparisons recorded; new A27 WADS source confirms interval and journal PAR metadata checked."
     ],
     "verdict": "pass"
   },
@@ -727,7 +721,7 @@
     "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
     "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": "problems/326-online-bin-packing-optimal-ratio.md",
+  "public_page_path": "problems/318-online-bin-packing-optimal-ratio.md",
   "draft_page_path": "research/expansion-2026-09/drafts/online-bin-packing-optimal-ratio.md",
   "validation_results": [
     "2026-09-17: candidate JSON parsed; source IDs and actual search IDs resolve.",

@@ -2,7 +2,7 @@
 
 **Area:** Symbolic computation and derandomization
 
-**Status:** Accepted; integrated as entry 321
+**Status:** Accepted; integrated as entry 313
 
 **Last checked:** 2026-09-17
 
@@ -47,4 +47,4 @@ Andrews–Kush–Tell assume uniform arithmetic hardness that their paper does n
 
 White-box PIT, stronger black-box hitting-set constructions, and the associated factorization equivalence are treated as one problem family for this expansion. The [evidence ledger](../candidates/deterministic-polynomial-identity-testing.json) records exact theorem scopes, source access, aliases and duplicate comparisons. The separated A22 adversarial self-pass passed on September 17, 2026; no independent agent or human review occurred.
 
-Integrated as [entry 321](../../../problems/321-deterministic-polynomial-identity-testing.md) after the September 17, 2026 batch refresh.
+Integrated as [entry 313](../../../problems/313-deterministic-polynomial-identity-testing.md) after the September 17, 2026 batch refresh.

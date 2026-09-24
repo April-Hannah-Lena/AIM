@@ -1,6 +1,6 @@
 {
   "candidate_id": "strong-komlos-prefix-discrepancy",
-  "proposed_catalogue_id": "336",
+  "proposed_catalogue_id": "328",
   "title": "A constant bound for fixed-order prefix discrepancy",
   "aliases": [
     "Strong Komlós conjecture",
@@ -29,7 +29,7 @@
   "fingerprint_recorded_before_drafting": true,
   "actual_status_check_date": "2026-09-18",
   "draft_path": "research/expansion-2026-09/drafts/strong-komlos-prefix-discrepancy.md",
-  "public_page_path": "problems/336-strong-komlos-prefix-discrepancy.md",
+  "public_page_path": "problems/328-strong-komlos-prefix-discrepancy.md",
   "source_records": [
     {
       "source_id": "BJMSS22",
@@ -596,7 +596,7 @@
       "DJJ26 Theorem 1.1 retains dimension dependence, and Lemma 5.2 has a polylogarithmic bound.",
       "Read GKN25 §3 and AT26 §1.1. Their adaptive information or input/horizon restrictions do not cover the candidate.",
       "Use O(sqrt(log(2T))) in the draft and general partial-result description.",
-      "Duplicate search and full rereading of entries 031, 032 and 221 found a separately sourced companion; half-allocation interpretation is exact, with no algorithmic promise."
+      "Duplicate search and full rereading of retained entry 216 found a separately sourced companion; half-allocation interpretation is exact, with no algorithmic promise."
     ],
     "verdict": "pass_for_research_draft"
   },
@@ -700,21 +700,11 @@
     "exclusion_records_screened": true,
     "pending_additions_screened": true,
     "other_new_candidates_screened": true,
-    "review_scope": "Retained complete baseline/all-active inventory reading; fresh alias/model search of problems, data and accepted drafts. Reread full pages 031, 032 and 221. No active or pending fixed-order prefix entry.",
+    "review_scope": "Retained complete baseline/all-active inventory reading; fresh alias/model search of problems, data and accepted drafts. Reread the full retained page 221. No active or pending fixed-order prefix entry.",
     "closest_existing_or_new_entries": [
       {
-        "id": 31,
-        "path": "problems/031-komlos.md",
-        "difference": "Only the terminal sum is constrained; the new sourced companion requires the same signs at every prefix. Implication disclosed."
-      },
-      {
-        "id": 32,
-        "path": "problems/032-beck-fiala.md",
-        "difference": "Terminal set-system discrepancy with element degree bound; no prescribed temporal prefixes."
-      },
-      {
-        "id": 221,
-        "path": "problems/221-bilu-linial-signing.md",
+        "id": 216,
+        "path": "problems/216-bilu-linial-signing.md",
         "difference": "Spectral norm of a signed adjacency matrix, rather than coordinate norms of cumulative vector sums."
       },
       {
@@ -738,7 +728,7 @@
   ],
   "search_outcomes": "Exact-name, spelling, mathematical, author, unrestricted/current/prior-year, version and correction routes found no matching all-input offline prefix proof or counterexample. The terminal, online, small-coordinate, discarded-term, complex-coloring, partial-coloring and structured-rounding leads were compared at full relevant statement/model level.",
   "open_status_evidence_summary": "Open in cited literature; no later resolution located as of 2026-09-17. BJMSS22 and independently authored KL26 explicitly retain the fixed-order, offline, universal all-prefix question. No unresolved matching claim was found after the recorded scope checks.",
-  "proposed_statement": "Does there exist an absolute constant $C>0$ with the following property? For every pair of positive integers $d,T$ and every ordered sequence $v_1,\\ldots,v_T\\in\\mathbb R^d$ with Euclidean norms $\\|v_i\\|_2\\le1$, one can choose signs $\\varepsilon_1,\\ldots,\\varepsilon_T\\in\\{-1,1\\}$ such that\n\n$$\n\\max_{1\\le k\\le T}\n\\left\\|\\sum_{i=1}^{k}\\varepsilon_i v_i\\right\\|_\\infty\n\\le C,\n\\qquad\n\\|z\\|_\\infty=\\max_{1\\le j\\le d}|z_j|?\n$$\n\nThe order is fixed. The signs may depend on the entire sequence, but the same signs must work for every prefix and coordinate. The constant must be independent of $d$, $T$ and the vectors. This is the strong, or prefix, Komlós conjecture. No online decision rule or efficient algorithm is required. [1, 2]\n\nTaking $k=T$ gives the ordinary terminal-sum question in [entry 031](../../../problems/031-komlos.md). Controlling each prefix with a separately chosen signing would not answer the stronger question here.",
+  "proposed_statement": "Does there exist an absolute constant $C>0$ with the following property? For every pair of positive integers $d,T$ and every ordered sequence $v_1,\\ldots,v_T\\in\\mathbb R^d$ with Euclidean norms $\\|v_i\\|_2\\le1$, one can choose signs $\\varepsilon_1,\\ldots,\\varepsilon_T\\in\\{-1,1\\}$ such that\n\n$$\n\\max_{1\\le k\\le T}\n\\left\\|\\sum_{i=1}^{k}\\varepsilon_i v_i\\right\\|_\\infty\n\\le C,\n\\qquad\n\\|z\\|_\\infty=\\max_{1\\le j\\le d}|z_j|?\n$$\n\nThe order is fixed. The signs may depend on the entire sequence, but the same signs must work for every prefix and coordinate. The constant must be independent of $d$, $T$ and the vectors. This is the strong, or prefix, Komlós conjecture. No online decision rule or efficient algorithm is required. [1, 2]\n\nTaking $k=T$ gives only terminal-sum control. Controlling each prefix with a separately chosen signing would not answer the stronger question here.",
   "validation": {
     "checked_on": "2026-09-17",
     "catalogue_write": "python3 scripts/catalogue.py --write: 330 indexed problems; no active-file change.",

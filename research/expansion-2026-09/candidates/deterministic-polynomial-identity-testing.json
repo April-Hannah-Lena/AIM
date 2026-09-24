@@ -1,6 +1,6 @@
 {
   "candidate_id": "deterministic-polynomial-identity-testing",
-  "proposed_catalogue_id": "321",
+  "proposed_catalogue_id": "313",
   "title": "Deterministic identity testing for arithmetic circuits",
   "aliases": [
     "PIT derandomization",
@@ -607,19 +607,19 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "033",
+        "id": "030",
         "difference": "Matrix multiplication exponent asks arithmetic cost of computing a particular bilinear map, not zero-testing arbitrary symbolic circuits."
       },
       {
-        "id": "034",
+        "id": "031",
         "difference": "Explicit rigidity is a matrix construction/lower-bound question, not this universal decision algorithm."
       },
       {
-        "id": "046",
+        "id": "043",
         "difference": "Pseudospectral shattering concerns numerical perturbation and eigenvalue conditioning, not exact formal polynomial equality."
       },
       {
-        "id": "301",
+        "id": "293",
         "difference": "Log-rank controls communication while allowing unrestricted local computation; it is not a Turing-runtime PIT assertion."
       }
     ],
@@ -681,7 +681,7 @@
     "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
     "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": "problems/321-deterministic-polynomial-identity-testing.md",
+  "public_page_path": "problems/313-deterministic-polynomial-identity-testing.md",
   "draft_path": "research/expansion-2026-09/drafts/deterministic-polynomial-identity-testing.md",
   "validation_results": [
     "Candidate schema, source references, decision counts and 613 distinct actual-query IDs validated.",

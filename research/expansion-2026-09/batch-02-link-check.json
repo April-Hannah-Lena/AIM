@@ -666,7 +666,7 @@
   "access_notes": [
     {
       "url": "https://doi.org/10.1080/10236198.2023.2285394",
-      "note": "HTTP 403 from publisher route; institutional full text listed on entry 311 and in source MB is accessible. This is an access limitation, not evidence that the DOI is invalid."
+      "note": "HTTP 403 from publisher route; institutional full text listed on entry 303 and in source MB is accessible. This is an access limitation, not evidence that the DOI is invalid."
     }
   ]
 }

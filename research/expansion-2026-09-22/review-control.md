@@ -16,7 +16,7 @@ Review date: 22 September 2026. A second agent read all 35 statements, bibliogra
 - The mean-field-game questions separate locally uniform value convergence in the presence of vacuum from a quantitative kinetic density convergence rate.
 - The minimal-surface questions distinguish inner stationarity, polynomial growth, exact polynomial solutions, and anisotropic constitutive laws. A dimension change alone is not being counted as a separate problem.
 - The complex Monge–Ampère question omits the real-convexity assumption of the September 2026 result.
-- The analytic-control selection and polynomial reachable-ball questions are distinct from existing entry 148 on finite-jet determination.
+- The analytic-control selection and polynomial reachable-ball questions are distinct from existing entry 143 on finite-jet determination.
 - The two weak-diffusion control questions distinguish a sharp one-dimensional time from a multidimensional non-gradient Neumann-flow theorem.
 - The irreversible catalytic reaction has strictly positive initial data. This removes the boundary-equilibrium counterexample allowed by the source’s broader printed wording. It is not a complex-balanced network.
 - The two dispersion-managed equations ask about norm inflation in three dimensions and uniqueness of a one-dimensional zero-average variational ground state.

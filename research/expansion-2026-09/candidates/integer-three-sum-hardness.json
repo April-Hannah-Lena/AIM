@@ -1,6 +1,6 @@
 {
   "candidate_id": "integer-three-sum-hardness",
-  "proposed_catalogue_id": "351",
+  "proposed_catalogue_id": "343",
   "title": "The modern integer 3SUM conjecture",
   "primary_section": "operators",
   "decision": "accept_open",
@@ -48,20 +48,20 @@
   },
   "nearest_existing": [
     {
-      "entry": "033",
-      "path": "problems/033-matrix-multiplication-exponent.md",
+      "entry": "030",
+      "path": "problems/030-matrix-multiplication-exponent.md",
       "full_statement_read": true,
       "comparison": "Complex scalar arithmetic for dense matrix products and exponent two; not a bounded-word integer decision problem or the same lower-bound assertion."
     },
     {
-      "entry": "301",
-      "path": "problems/301-log-rank.md",
+      "entry": "293",
+      "path": "problems/293-log-rank.md",
       "full_statement_read": true,
       "comparison": "Deterministic two-party communication with free local computation; not total randomized machine time on a single explicit input."
     },
     {
-      "entry": "321",
-      "path": "problems/321-deterministic-polynomial-identity-testing.md",
+      "entry": "313",
+      "path": "problems/313-deterministic-polynomial-identity-testing.md",
       "full_statement_read": true,
       "comparison": "Derandomizing identity testing for compact polynomial circuits; not an exponent lower bound for a fixed additive relation on an explicit set."
     }
@@ -445,7 +445,7 @@
     "verified_on": "2026-09-18",
     "verification": "A separate git ls-remote origin refs/heads/main call matched the full local commit after the push."
   },
-  "public_page_path": "problems/351-integer-three-sum-hardness.md",
+  "public_page_path": "problems/343-integer-three-sum-hardness.md",
   "prepublication_refresh": {
     "date": "2026-09-19",
     "latest_target_commit": "73c787d1add623ce7ede59766e018b51ea4e1a1e",

@@ -2,7 +2,7 @@
 
 **Area:** Switched systems, robust control and formal verification
 
-**Status:** Accepted; integrated as entry 343
+**Status:** Accepted; integrated as entry 335
 
 **Last checked:** 2026-09-18
 
@@ -60,10 +60,10 @@ The September 2026 Ninite–Jungers version makes the limitation explicit: its T
 
 The September 18 search covered strict stability, absolute asymptotic stability, rational matrix products, original and later authors, recent and unrestricted resolution claims, counterexamples, corrections and version histories. The [evidence ledger](../candidates/switched-linear-stability-decidability.json) gives the comparisons and source-access limits. Explicit formulations are older than the recent algorithm papers; this is a dated literature review, not a certification that an unindexed resolution cannot exist.
 
-The [continuous Skolem problem](../../../problems/273-continuous-skolem-decidability.md) and [discrete Skolem problem](../../../problems/327-discrete-skolem-decidability.md) concern reaching a hyperplane under one fixed evolution. The [static output-feedback entry](../../../problems/330-generic-static-output-feedback-stabilization.md) classifies dimensions for generic existence of a controller. Here the modes are supplied as input, and the quantifier ranges over every infinite switching sequence.
+The [continuous Skolem problem](../../../problems/266-continuous-skolem-decidability.md) and [discrete Skolem problem](../../../problems/319-discrete-skolem-decidability.md) concern reaching a hyperplane under one fixed evolution. The [static output-feedback entry](../../../problems/322-generic-static-output-feedback-stabilization.md) classifies dimensions for generic existence of a controller. Here the modes are supplied as input, and the quantifier ranges over every infinite switching sequence.
 
 A separated adversarial self-pass passed on September 18, 2026. No independent agent or human review is claimed.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
 
-Integrated page: [343. Decidability of stability under arbitrary switching](../../../problems/343-switched-linear-stability-decidability.md).
+Integrated page: [343. Decidability of stability under arbitrary switching](../../../problems/335-switched-linear-stability-decidability.md).

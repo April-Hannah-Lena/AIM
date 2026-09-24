@@ -1,5 +1,7 @@
 # Deterministic parallel perfect matching in general graphs
 
+**Integrated:** [506 — canonical entry](../../../problems/498-general-graph-perfect-matching-nc.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
+
 **Area:** Parallel algorithms and combinatorial optimization
 
 **Status:** Open in cited literature; no later resolution located.
@@ -62,4 +64,4 @@ The catalytic-logspace construction [11] does handle general graphs. Its model p
 
 The [evidence record](../candidates/general-graph-perfect-matching-nc.json) supplies reading locations, source histories, comparisons and review details. The thesis [2] shares an author with [1] and is not independent corroboration. The work has a separated adversarial self-review, not independent expert review or certification of the cited proofs.
 
-[Entry 321](../../../problems/321-deterministic-polynomial-identity-testing.md) concerns sequential polynomial-time identity testing for general arithmetic circuits. The Tutte-matrix connection does not equate that target with the present parallel search bound. [Entry 344](../../../problems/344-list-edge-colouring.md) asks for existence of an entire list-constrained edge-colouring, without a parallel algorithm. The general matching question and its contextual variants form one entry here.
+[Entry 313](../../../problems/313-deterministic-polynomial-identity-testing.md) concerns sequential polynomial-time identity testing for general arithmetic circuits. The Tutte-matrix connection does not equate that target with the present parallel search bound. [Entry 336](../../../problems/336-list-edge-colouring.md) asks for existence of an entire list-constrained edge-colouring, without a parallel algorithm. The general matching question and its contextual variants form one entry here.

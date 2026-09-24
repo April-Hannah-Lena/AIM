@@ -1,6 +1,6 @@
 {
   "candidate_id": "cerny",
-  "proposed_catalogue_id": "302",
+  "proposed_catalogue_id": "294",
   "title": "The Černý synchronizing-automaton conjecture",
   "aliases": [
     "Cerny",
@@ -287,11 +287,11 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "273",
+        "id": "266",
         "difference": "Continuous Skolem asks zero reachability of a continuous-time exponential polynomial, not reset words for every state of a finite automaton."
       },
       {
-        "id": "148",
+        "id": "143",
         "difference": "Analytic small-time local controllability concerns differential control systems, not finite-state synchronization."
       }
     ],
@@ -334,7 +334,7 @@
     ],
     "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented."
   },
-  "public_page_path": "problems/302-cerny.md",
+  "public_page_path": "problems/294-cerny.md",
   "validation_results": [
     {
       "date": "2026-09-17",

@@ -1,6 +1,6 @@
 {
   "candidate_id": "generalized-wright-global-attraction",
-  "proposed_catalogue_id": "333",
+  "proposed_catalogue_id": "325",
   "title": "Global attraction for Wright-type delayed feedback",
   "aliases": [
     "generalized Wright conjecture",
@@ -548,7 +548,7 @@
     ],
     "verdict": "pass_for_research_draft"
   },
-  "public_page_path": "problems/333-generalized-wright-global-attraction.md",
+  "public_page_path": "problems/325-generalized-wright-global-attraction.md",
   "draft_page_path": "research/expansion-2026-09/drafts/generalized-wright-global-attraction.md",
   "actual_status_check_date": "2026-09-18",
   "later_results_and_resolution_checks": [
@@ -720,18 +720,18 @@
     "review_scope": "Retained completed reading of all original 300 pages and metadata; all 330 current titles and accepted fingerprints screened. Closest complete pages reread; fresh Wright/Schwarzian/feedback search and exclusions inspection during A34.",
     "closest_existing_or_new_entries": [
       {
-        "id": 296,
-        "path": "problems/296-nicholson-local-global-stability.md",
+        "id": 288,
+        "path": "problems/288-nicholson-local-global-stability.md",
         "difference": "Nicholson has instantaneous −x(t), a particular positive unimodal recruitment term, positive histories and a two-parameter characteristic equation. It is not the autonomous pure-delay arbitrary-f conjecture."
       },
       {
-        "id": 311,
-        "path": "problems/311-carrying-simplex-interior.md",
+        "id": 303,
+        "path": "problems/303-carrying-simplex-interior.md",
         "difference": "Interior manifold regularity for d-dimensional competitive maps; no equivalent attraction assertion."
       },
       {
-        "id": 330,
-        "path": "problems/330-generic-static-output-feedback-stabilization.md",
+        "id": 322,
+        "path": "problems/322-generic-static-output-feedback-stabilization.md",
         "difference": "The keyword match is an author name; this problem concerns finite-dimensional linear output-feedback gains."
       }
     ],

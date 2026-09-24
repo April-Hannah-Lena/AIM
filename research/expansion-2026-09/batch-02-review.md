@@ -10,22 +10,22 @@ The refresh inspected the 2026 LPN hardness-amplification reductions, which assu
 
 | ID | Topic | Primary section |
 | --- | --- | --- |
-| 311 | Carrying-simplex interior regularity | inverse |
-| 312 | Three-processor unit scheduling | stochastic3 |
-| 313 | Entanglement-assisted Lovász bound | spectral3 |
-| 314 | Fixed-disorder quantum diffusion | spectral2 |
-| 315 | Reversible reaction–diffusion continuation | continuum3 |
-| 316 | Splay-tree dynamic optimality | operators |
-| 317 | Learning parity with noise | applied |
-| 318 | Linear sample compression | applied |
-| 319 | Belgian chocolate threshold | inverse |
-| 320 | Ruskai–Audenaert channel decomposition | spectral3 |
+| 303 | Carrying-simplex interior regularity | inverse |
+| 304 | Three-processor unit scheduling | stochastic3 |
+| 305 | Entanglement-assisted Lovász bound | spectral3 |
+| 306 | Fixed-disorder quantum diffusion | spectral2 |
+| 307 | Reversible reaction–diffusion continuation | continuum3 |
+| 308 | Splay-tree dynamic optimality | operators |
+| 309 | Learning parity with noise | applied |
+| 310 | Linear sample compression | applied |
+| 311 | Belgian chocolate threshold | inverse |
+| 312 | Ruskai–Audenaert channel decomposition | spectral3 |
 
 There are now 20 accepted and published additions, 320 active entries and four held candidates without numerical IDs. At least 180 further additions are needed for the requested minimum; the working target of 250 requires 230 more. All twelve primary sections have at least one accepted addition. No new numerical-linear-algebra problem is included.
 
 ## Integration and validation
 
-Permanent IDs were assigned centrally after admission. Before integration, `git fetch origin main` and the remote branch listing confirmed that `main` was the only remote branch, at the upstream commit above. The connected GitHub open-PR search returned none. There was no intervening upstream content or competing addition.
+Problem IDs were assigned centrally after admission. Before integration, `git fetch origin main` and the remote branch listing confirmed that `main` was the only remote branch, at the upstream commit above. The connected GitHub open-PR search returned none. There was no intervening upstream content or competing addition.
 
 - `python3 scripts/catalogue.py --write` and `--check` passed for all 320 unique entries, metadata, required sections, math delimiters, local links and README freshness.
 - All original 300 pages match baseline `a602073` byte-for-byte, and all 310 previously published pages match `7fe62d5`. All prior metadata rows and historical review dates are unchanged.

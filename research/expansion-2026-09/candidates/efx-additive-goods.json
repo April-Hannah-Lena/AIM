@@ -1,6 +1,6 @@
 {
   "candidate_id": "efx-additive-goods",
-  "proposed_catalogue_id": "324",
+  "proposed_catalogue_id": "316",
   "title": "Complete EFX allocation of indivisible goods with additive values",
   "aliases": [
     "EFX existence for additive goods",
@@ -814,11 +814,11 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "290",
+        "id": "282",
         "difference": "General Santa Claus optimizes minimum utility with an algorithmic approximation guarantee; EFX is exact pairwise envy relaxation feasibility."
       },
       {
-        "id": "289",
+        "id": "281",
         "difference": "Unrelated-machine makespan minimizes maximum load, not pairwise fairness of allocated utility."
       }
     ],
@@ -881,7 +881,7 @@
     "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
     "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": "problems/324-efx-additive-goods.md",
+  "public_page_path": "problems/316-efx-additive-goods.md",
   "validation_results": [
     {
       "checked_on": "2026-09-17",

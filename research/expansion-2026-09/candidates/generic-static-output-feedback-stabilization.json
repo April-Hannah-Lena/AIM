@@ -1,6 +1,6 @@
 {
   "candidate_id": "generic-static-output-feedback-stabilization",
-  "proposed_catalogue_id": "330",
+  "proposed_catalogue_id": "322",
   "title": "Generic stabilization by static output feedback",
   "aliases": [
     "Byrnes–Anderson generic stabilizability",
@@ -1453,15 +1453,15 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": 141,
+        "id": 136,
         "distinction": "Nonlinear decentralized Gaussian two-controller cost optimum."
       },
       {
-        "id": 273,
+        "id": 266,
         "distinction": "Uncontrolled rational ODE hyperplane reachability, not feedback stabilization."
       },
       {
-        "id": 319,
+        "id": 311,
         "distinction": "One-parameter scalar plant with stable dynamic controller of unrestricted order, not all matrix triples under memoryless gains."
       }
     ],
@@ -1523,7 +1523,7 @@
     "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
     "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": "problems/330-generic-static-output-feedback-stabilization.md",
+  "public_page_path": "problems/322-generic-static-output-feedback-stabilization.md",
   "validation_results": [
     {
       "checked_on": "2026-09-17",

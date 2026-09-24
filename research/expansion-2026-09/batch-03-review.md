@@ -10,16 +10,16 @@ The immediate publication refresh is recorded as R3-1 through R3-24 in the [sear
 
 | ID | Topic | Primary section |
 | --- | --- | --- |
-| 321 | Deterministic polynomial identity testing | operators |
-| 322 | Polynomial Hirsch conjecture | applied |
-| 323 | Asymmetric TSP integrality gap | stochastic3 |
-| 324 | Complete additive-goods EFX | stochastic3 |
-| 325 | Nonamenable contact-process weak survival | stochastic2 |
-| 326 | Optimal online bin-packing ratio | stochastic3 |
-| 327 | Discrete Skolem decidability | inverse3 |
-| 328 | Gaussian polynomial unlinking | applied |
-| 329 | Fixed-size Brownian population ancestry | stochastic2 |
-| 330 | Generic static output-feedback stabilization | inverse2 |
+| 313 | Deterministic polynomial identity testing | operators |
+| 314 | Polynomial Hirsch conjecture | applied |
+| 315 | Asymmetric TSP integrality gap | stochastic3 |
+| 316 | Complete additive-goods EFX | stochastic3 |
+| 317 | Nonamenable contact-process weak survival | stochastic2 |
+| 318 | Optimal online bin-packing ratio | stochastic3 |
+| 319 | Discrete Skolem decidability | inverse3 |
+| 320 | Gaussian polynomial unlinking | applied |
+| 321 | Fixed-size Brownian population ancestry | stochastic2 |
+| 322 | Generic static output-feedback stabilization | inverse2 |
 
 All 320 prior entries remain unchanged. Fresh fetch and SSH branch listing found only main at the upstream commit above; the connected GitHub open-PR search returned no results. Completed full-baseline reading was retained. Closest statement/application sections were reread during this batch, alongside current metadata and all pending candidates. No competing upstream addition or duplicate assertion was located.
 

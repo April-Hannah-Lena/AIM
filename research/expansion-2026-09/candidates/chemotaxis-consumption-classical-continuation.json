@@ -1,6 +1,6 @@
 {
   "candidate_id": "chemotaxis-consumption-classical-continuation",
-  "proposed_catalogue_id": "335",
+  "proposed_catalogue_id": "327",
   "title": "Global classical continuation in the chemotaxis-consumption system",
   "aliases": [
     "Fully parabolic nutrient-taxis global classical solvability",
@@ -31,7 +31,7 @@
   },
   "fingerprint_recorded_before_drafting": true,
   "actual_status_check_date": "2026-09-18",
-  "public_page_path": "problems/335-chemotaxis-consumption-classical-continuation.md",
+  "public_page_path": "problems/327-chemotaxis-consumption-classical-continuation.md",
   "draft_path": "research/expansion-2026-09/drafts/chemotaxis-consumption-classical-continuation.md",
   "source_records": [
     {
@@ -603,7 +603,7 @@
       "A 2026 global-classical theorem allows zero logistic growth in 3D, so a logistic-only dismissal would be incorrect.",
       "A 2026 Robin-boundary paper constructs actual blow-up; its full model and diffusion range needed checking.",
       "Conditional blow-up rates can be mistaken for an example; eventual smoothness can be mistaken for smoothness throughout the earlier interval.",
-      "The general-domain formulation, time-zero data class and distinction from reaction–diffusion entry 315 needed preserving."
+      "The general-domain formulation, time-zero data class and distinction from reaction–diffusion entry 307 needed preserving."
     ],
     "issues_resolved": [
       "PSX26 retains independent velocity dynamics and a different boundary condition even at zero logistic growth.",
@@ -779,18 +779,18 @@
     "review_scope": "Retained completed reading of baseline and all 330 current pages. Fresh model/alias search across active pages, data and research; reread complete pages 315, 147 and 197. No active or accepted chemotaxis-consumption entry found. Discovery-only production-model Keller–Segel lead is separately noted.",
     "closest_existing_or_new_entries": [
       {
-        "id": 315,
-        "path": "problems/315-reversible-reaction-classical-continuation.md",
+        "id": 307,
+        "path": "problems/307-reversible-reaction-classical-continuation.md",
         "difference": "Spatial mass-action reaction system with diagonal constant diffusion and reversible reaction terms. The candidate's directed flux −div(u grad v) is cross-diffusion and is not an included reaction term; the chemical is consumed without a reversible species network."
       },
       {
-        "id": 147,
-        "path": "problems/147-global-cubic-heat-null-control.md",
+        "id": 142,
+        "path": "problems/142-global-cubic-heat-null-control.md",
         "difference": "Existence of a chosen localized control for a scalar heat equation with cubic growth and Dirichlet conditions. Here no actuator is present and continuation of a coupled no-flux taxis system is asked."
       },
       {
-        "id": 197,
-        "path": "problems/197-stochastic-heat-critical-uniqueness.md",
+        "id": 192,
+        "path": "problems/192-stochastic-heat-critical-uniqueness.md",
         "difference": "Pathwise uniqueness for a one-dimensional stochastic mild equation. The candidate is deterministic, n≥3, and asks global classical existence."
       }
     ],

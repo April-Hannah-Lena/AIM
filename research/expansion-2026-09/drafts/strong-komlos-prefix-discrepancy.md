@@ -2,7 +2,7 @@
 
 **Area:** Discrepancy, cumulative allocation and integer optimization
 
-**Status:** Accepted; integrated as entry 336
+**Status:** Accepted; integrated as entry 328
 
 **Last checked:** 2026-09-18
 
@@ -20,7 +20,7 @@ $$
 
 The order is fixed. The signs may depend on the entire sequence, but the same signs must work for every prefix and coordinate. The constant must be independent of $d$, $T$ and the vectors. This is the strong, or prefix, Komlós conjecture. No online decision rule or efficient algorithm is required. [1, 2]
 
-Taking $k=T$ gives the ordinary terminal-sum question in [entry 031](../../../problems/031-komlos.md). Controlling each prefix with a separately chosen signing would not answer the stronger question here.
+Taking $k=T$ gives only terminal-sum control. Controlling each prefix with a separately chosen signing would not answer the stronger question here.
 
 ## Applied significance
 
@@ -47,4 +47,4 @@ The [evidence record](../candidates/strong-komlos-prefix-discrepancy.json) also 
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
 
-Integrated page: [336. A constant bound for fixed-order prefix discrepancy](../../../problems/336-strong-komlos-prefix-discrepancy.md).
+Integrated page: [336. A constant bound for fixed-order prefix discrepancy](../../../problems/328-strong-komlos-prefix-discrepancy.md).

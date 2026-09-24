@@ -1,6 +1,6 @@
 {
   "candidate_id": "polynomial-trace-reconstruction",
-  "proposed_catalogue_id": "332",
+  "proposed_catalogue_id": "324",
   "title": "Polynomial sample complexity for deletion-trace reconstruction",
   "aliases": [
     "worst-case trace reconstruction",
@@ -712,15 +712,15 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": 144,
+        "id": 139,
         "distinction": "Optimizes single-use code rate over chosen codebooks; here every string must be recovered from repeated traces."
       },
       {
-        "id": 288,
+        "id": 280,
         "distinction": "Exact asymptotic LCS mean between independent random strings, not inference of a shared unknown source."
       },
       {
-        "id": 297,
+        "id": 289,
         "distinction": "LCS variance for independent fair strings, not exact reconstruction sample complexity."
       }
     ],
@@ -783,7 +783,7 @@
     "upstream": "SSH fetch shows HEAD equals origin/main. Connected GitHub metadata verifies private MColbrook/AIM, main default and push permission; paginated branch search contains only main; open-PR search returns none.",
     "duplicate_scope": "Established full baseline and 330 active entries, all ten batch statements and closest prior families. No new upstream files or equivalent accepted statement located."
   },
-  "public_page_path": "problems/332-polynomial-trace-reconstruction.md",
+  "public_page_path": "problems/324-polynomial-trace-reconstruction.md",
   "draft_page_path": "research/expansion-2026-09/drafts/polynomial-trace-reconstruction.md",
   "validation_results": [
     "2026-09-17: 27 expressions passed strict KaTeX. Initial screenshot preceded math-font loading; rerendered with a font-loading delay and visually inspected the complete statement and applied paragraph, with no clipping.",

@@ -1,6 +1,6 @@
 {
   "candidate_id": "log-rank",
-  "proposed_catalogue_id": "301",
+  "proposed_catalogue_id": "293",
   "title": "The log-rank conjecture for deterministic communication",
   "aliases": [
     "log rank",
@@ -278,19 +278,19 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "034",
+        "id": "031",
         "difference": "Explicit rigidity changes entries to reduce rank and seeks circuit lower bounds; log-rank bounds communication of all Boolean matrices without perturbation."
       },
       {
-        "id": "030",
+        "id": "029",
         "difference": "Grothendieck asks an exact vector-versus-sign optimization constant; no communication-complexity assertion."
       },
       {
-        "id": "142",
+        "id": "137",
         "difference": "Adaptive zero-error channel capacity is an asymptotic rate, not exact deterministic two-party communication complexity."
       },
       {
-        "id": "270",
+        "id": "263",
         "difference": "Binary-channel zero-error capacity concerns block coding rather than a universal truth-table rank bound."
       }
     ],
@@ -334,7 +334,7 @@
     ],
     "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented."
   },
-  "public_page_path": "problems/301-log-rank.md",
+  "public_page_path": "problems/293-log-rank.md",
   "validation_results": [
     {
       "date": "2026-09-17",

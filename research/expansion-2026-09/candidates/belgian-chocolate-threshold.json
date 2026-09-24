@@ -1,6 +1,6 @@
 {
   "candidate_id": "belgian-chocolate-threshold",
-  "proposed_catalogue_id": "319",
+  "proposed_catalogue_id": "311",
   "title": "The sharp Belgian chocolate stabilization threshold",
   "aliases": [
     "Belgian chocolate problem",
@@ -295,15 +295,15 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "141",
+        "id": "136",
         "difference": "Decentralized noisy two-stage expected-cost optimization, not LTI polynomial stability."
       },
       {
-        "id": "148",
+        "id": "143",
         "difference": "Finite-jet local controllability of nonlinear analytic vector fields, not this scalar sharp stabilizability threshold."
       },
       {
-        "id": "273",
+        "id": "266",
         "difference": "Decidability of unbounded-time hyperplane reachability for rational linear ODEs, not existence of a stable polynomial controller."
       }
     ],
@@ -361,7 +361,7 @@
     "upstream_check": "git fetch origin main and git ls-remote --heads confirm only main at 7fe62d53378cb3f5ebbe7caeda9f3a4d72039395; GitHub connector open-PR search returned none. No intervening upstream content or competing addition.",
     "duplicate_scope": "All 310 active pages/metadata, prior exclusion/source records and all pending additions screened; closest full pages and statement scopes reviewed in each candidate ledger."
   },
-  "public_page_path": "problems/319-belgian-chocolate-threshold.md",
+  "public_page_path": "problems/311-belgian-chocolate-threshold.md",
   "validation_results": [
     {
       "check": "catalogue",

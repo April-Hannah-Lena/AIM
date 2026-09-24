@@ -20,13 +20,13 @@ The refresh additionally checked Rodaro–Venturi’s conditional reduction of �
 | Excluded candidate records | 0 |
 | Active total | 310 |
 | Remaining to minimum 200 additions | 190 |
-| Remaining to working target 250 | 240 |
+| Remaining to working target 244 | 240 |
 
 The held candidates are Morrey’s planar implication, Yang–Mills existence/mass gap, FIFO queue feedback and Gaussian multiple-access feedback. They have no active pages or numerical IDs. Discovery-only leads are not counted as investigated candidates or additions.
 
 ## Integration and validation
 
-- Assigned permanent IDs 301–310 centrally after admission; subject membership remains independent of ID.
+- Assigned problem IDs 293–302 centrally after admission; subject membership remains independent of ID.
 - Refreshed GitHub metadata, branch listing and open PR listing: main remains at the baseline commit, no other branch or pending PR was present. The connected account is `sgstepaniants`, with push permission and no administrative permission. Destination and private visibility are unchanged.
 - All original 300 problem pages match the baseline byte-for-byte. All original metadata rows and review dates are preserved.
 - `python3 scripts/catalogue.py --write` and `--check` passed for 310 unique entries, required sections, metadata, math delimiters, local links and generated README.

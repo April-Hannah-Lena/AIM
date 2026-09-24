@@ -1,6 +1,6 @@
 {
   "candidate_id": "learning-parity-noise",
-  "proposed_catalogue_id": "317",
+  "proposed_catalogue_id": "309",
   "title": "Classical hardness of learning parity with noise",
   "aliases": [
     "Learning Parity with Noise",
@@ -509,15 +509,11 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "303",
+        "id": "295",
         "difference": "Planted-clique detection observes random graphs and asks for nonvanishing distinguishing advantage; LPN recovers a binary secret from labeled parity examples."
       },
       {
-        "id": "269",
-        "difference": "Most-informative Boolean functions maximize a mutual-information inequality, without a recovery algorithm or complexity restriction."
-      },
-      {
-        "id": "044",
+        "id": "041",
         "difference": "Deterministic RIP constructs real sensing matrices; this uses random binary rows and noisy decoding."
       }
     ],
@@ -573,7 +569,7 @@
     "upstream_check": "git fetch origin main and git ls-remote --heads confirm only main at 7fe62d53378cb3f5ebbe7caeda9f3a4d72039395; GitHub connector open-PR search returned none. No intervening upstream content or competing addition.",
     "duplicate_scope": "All 310 active pages/metadata, prior exclusion/source records and all pending additions screened; closest full pages and statement scopes reviewed in each candidate ledger."
   },
-  "public_page_path": "problems/317-learning-parity-noise.md",
+  "public_page_path": "problems/309-learning-parity-noise.md",
   "validation_results": [
     {
       "check": "catalogue",

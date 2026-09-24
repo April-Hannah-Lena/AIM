@@ -1,6 +1,6 @@
 {
   "candidate_id": "reed-colouring",
-  "proposed_catalogue_id": "348",
+  "proposed_catalogue_id": "340",
   "title": "Reed's bound for the chromatic number",
   "decision": "accept_open",
   "decision_reason": "Explicit full formulation and independently authored current corroboration, exact-scope and duplicate checks, separated A49 self-review, bibliography checks and rendering passed. No unresolved material matching resolution claim located; accepted as one draft pending batch integration.",
@@ -80,8 +80,8 @@
   },
   "nearest_existing": [
     {
-      "entry": "279",
-      "path": "problems/279-coloring-glauber-threshold.md",
+      "entry": "272",
+      "path": "problems/272-coloring-glauber-threshold.md",
       "comparison": "Polynomial-time mixing of a Markov chain on q-colourings for q at least Delta+2. The proposed target instead asks for existence with an exact clique-sensitive number of colours; neither sampling nor mixing appears.",
       "full_statement_read": true
     },
@@ -346,7 +346,7 @@
     "pushed_on": "2026-09-18",
     "remote_verification": "Separate ls-remote read returned the exact full content commit after the successful direct push."
   },
-  "public_page_path": "problems/348-reed-colouring.md",
+  "public_page_path": "problems/340-reed-colouring.md",
   "prepublication_refresh": {
     "date": "2026-09-18",
     "latest_target_commit": "aa3087c2cf59db1e30215f90301f356385ce163c",

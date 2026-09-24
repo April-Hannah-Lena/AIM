@@ -1,6 +1,6 @@
 {
   "candidate_id": "gaussian-simplex",
-  "proposed_catalogue_id": "305",
+  "proposed_catalogue_id": "297",
   "title": "Balanced Gaussian simplex noise stability for four or more classes",
   "aliases": [
     "standard simplex conjecture",
@@ -344,15 +344,11 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "269",
-        "difference": "Binary mutual-information maximization has a different observable and alphabet."
-      },
-      {
-        "id": "245",
+        "id": "239",
         "difference": "Euclidean bubble perimeter is local, whereas this is nonlocal Gaussian stability at finite rho."
       },
       {
-        "id": "099",
+        "id": "094",
         "difference": "KLS is an isoperimetric bound for log-concave measures, not exact balanced multiclass Gaussian extremizers."
       }
     ],
@@ -406,7 +402,7 @@
     "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented.",
     "additional_scope_note": "MathDB Gaussian simplex measure hit describes a simplex containing a fixed ball and one Gaussian marginal measure, not noise stability of arbitrary equal-mass partitions. Its reader-submitted formalization is not used as specialist evidence; primary weak-simplex comparison already recorded."
   },
-  "public_page_path": "problems/305-gaussian-simplex.md",
+  "public_page_path": "problems/297-gaussian-simplex.md",
   "validation_results": [
     {
       "date": "2026-09-17",

@@ -1,6 +1,6 @@
 {
   "candidate_id": "densest-k-subgraph-constant-gap-hardness",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "500",
   "title": "Constant-gap NP-hardness of densest k-subgraph",
   "primary_section": "stochastic3",
   "secondary_tags": [
@@ -29,23 +29,23 @@
       "locator": "Section 1 explicit unresolved constant-factor NP-hardness of DkS; section 1.1 Definition 1 gives the exact gap promise."
     }
   ],
-  "publication_state": "Accepted research draft and evidence uploaded directly to main; exact research commit separately verified September 19, 2026. No permanent ID or active catalogue integration.",
+  "publication_state": "Integrated in the local catalogue on 2026-09-23; no commit or remote publication performed by this integration.",
   "draft_path": "research/expansion-2026-09/drafts/densest-k-subgraph-constant-gap-hardness.md",
   "nearest_existing_entries": [
     {
-      "id": 303,
+      "id": 295,
       "difference": "Average-case detection in an independently sampled Erdos-Renyi graph with a planted clique; target is an unconditional worst-case polynomial reduction for an edge-count promise."
     },
     {
-      "id": 304,
+      "id": 296,
       "difference": "Almost-satisfiable permutation constraints with an alphabet fixed by error; target is fixed-cardinality graph selection. No equivalence or consequence from Unique Games alone is asserted."
     },
     {
-      "id": 312,
+      "id": 304,
       "difference": "Exact deadline feasibility on three identical processors. Its evidence mentions a sparse DkS assumption, but the catalogue does not state the present graph-selection question."
     },
     {
-      "id": 350,
+      "id": 342,
       "difference": "Power-of-job-count hardness for precedence schedules on prescribed machines; distinct objective, input model and requested gap."
     }
   ],
@@ -469,5 +469,14 @@
     "pushed_on": "2026-09-19",
     "verification": "Successful direct push followed by a separate git ls-remote origin refs/heads/main; exact 40-character hash matched.",
     "pull_request": null
+  },
+  "public_page_path": "problems/500-densest-k-subgraph-constant-gap-hardness.md",
+  "integration_2026_09_23": {
+    "id": "500",
+    "group": "stochastic3",
+    "status": "Open",
+    "status_checked_on": "2026-09-23",
+    "record": "research/integration-2026-09-23.md",
+    "scope": "Existing September 19 source audit plus bounded literature refresh; no independent proof certification."
   }
 }

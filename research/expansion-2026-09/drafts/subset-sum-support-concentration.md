@@ -2,7 +2,7 @@
 
 **Area:** Combinatorial probability, information theory and packing algorithms
 
-**Status:** Accepted; integrated as entry 356
+**Status:** Accepted; integrated as entry 348
 
 **Last checked:** 2026-09-19
 
@@ -57,4 +57,4 @@ where $m$ is the number of nonzero weights and this displayed expression is used
 
 The audit also compares earlier high-multiplicity constructions, 2026 bounds for fixed-size random subsets of finite groups, and structural classifications of sets with few subset sums, including a September 14 revision. Their stated conclusions do not give the required bound for all real weight vectors with repetitions. The remaining question is the uniform, exact factor two for the full support, with fair independent bits. Biased bits are outside its scope.
 
-This differs from [integer 3SUM hardness](integer-three-sum-hardness.md), which asks about running time; [cutting-stock rounding](modified-integer-round-up.md), which asks about an integrality gap; and [online bin packing](../../../problems/326-online-bin-packing-optimal-ratio.md), which asks for an online competitive ratio. The probability, counting and entropy formulations above are one problem. Source versions, theorem-scope comparisons, access limits and the separated adversarial self-review are recorded in the [evidence ledger](../candidates/subset-sum-support-concentration.json).
+This differs from [integer 3SUM hardness](integer-three-sum-hardness.md), which asks about running time; [cutting-stock rounding](modified-integer-round-up.md), which asks about an integrality gap; and [online bin packing](../../../problems/318-online-bin-packing-optimal-ratio.md), which asks for an online competitive ratio. The probability, counting and entropy formulations above are one problem. Source versions, theorem-scope comparisons, access limits and the separated adversarial self-review are recorded in the [evidence ledger](../candidates/subset-sum-support-concentration.json).

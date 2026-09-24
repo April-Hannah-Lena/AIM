@@ -1,6 +1,6 @@
 {
   "candidate_id": "unique-games",
-  "proposed_catalogue_id": "304",
+  "proposed_catalogue_id": "296",
   "title": "The Unique Games Conjecture",
   "aliases": [
     "UGC",
@@ -354,11 +354,11 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "207",
+        "id": "202",
         "difference": "Quantum PCP concerns local Hamiltonians and quantum states, not classical permutation CSP value."
       },
       {
-        "id": "285",
+        "id": "278",
         "difference": "A particular traveling-salesperson integrality gap differs from general unique-game promise hardness."
       }
     ],
@@ -410,7 +410,7 @@
     ],
     "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented."
   },
-  "public_page_path": "problems/304-unique-games.md",
+  "public_page_path": "problems/296-unique-games.md",
   "validation_results": [
     {
       "date": "2026-09-17",

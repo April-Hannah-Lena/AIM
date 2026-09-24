@@ -2,7 +2,7 @@
 
 **Area:** Discrete dynamics and formal verification
 
-**Status:** Accepted; integrated as entry 327
+**Status:** Accepted; integrated as entry 319
 
 **Last checked:** 2026-09-17
 
@@ -49,8 +49,8 @@ Luca–Ouaknine–Worrell obtain general decidability assuming a strengthened Cr
 
 The September 17 search covered the problem's name, recurrence-zero and orbit formulations, recent and unrestricted dates, principal authors, resolution and counterexample claims, corrections and version histories. A title advertising a resolution for generalized Lucas sequences fixes a special recurrence family. A preliminary toric-certificate note explicitly requires certificates that it cannot produce for all inputs. Neither supplies a general decision procedure; the [candidate ledger](../candidates/discrete-skolem-decidability.json) records the theorem comparisons and access limits. This literature review does not certify the nonexistence of an unindexed result.
 
-The existing [continuous Skolem entry](../../../problems/273-continuous-skolem-decidability.md) asks about $c^Te^{tA}x_0=0$ at a real time $t\ge0$. Here the evolution is by integer powers at integer times. The sources treat them as separate decision problems. No separate entries are counted for particular orders, restricted root patterns or the equivalent discrete hyperplane formulation.
+The existing [continuous Skolem entry](../../../problems/266-continuous-skolem-decidability.md) asks about $c^Te^{tA}x_0=0$ at a real time $t\ge0$. Here the evolution is by integer powers at integer times. The sources treat them as separate decision problems. No separate entries are counted for particular orders, restricted root patterns or the equivalent discrete hyperplane formulation.
 
 The separated A28 adversarial self-pass passed on September 17, 2026.
 
-Integrated as [entry 327](../../../problems/327-discrete-skolem-decidability.md) after the September 17, 2026 batch refresh.
+Integrated as [entry 319](../../../problems/319-discrete-skolem-decidability.md) after the September 17, 2026 batch refresh.

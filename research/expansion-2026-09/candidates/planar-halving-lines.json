@@ -1,6 +1,6 @@
 {
   "candidate_id": "planar-halving-lines",
-  "proposed_catalogue_id": "357",
+  "proposed_catalogue_id": "349",
   "title": "The near-linear bound for planar halving lines",
   "primary_section": "inverse3",
   "secondary_tags": [
@@ -380,10 +380,6 @@
   },
   "nearest_existing": [
     {
-      "entry": "032-beck-fiala",
-      "difference": "Sparse set-system sign assignment, not counting geometric bisections."
-    },
-    {
       "entry": "129-shortest-opaque-square-barrier",
       "difference": "Minimum length of a set intersecting all lines through a region, not a finite point-set extremal count."
     },
@@ -450,7 +446,7 @@
     "external_link_record": "research/expansion-2026-09/planar-halving-lines-link-check.json",
     "structural": "Catalogue validation passed for 350 entries; all five draft local links resolve; 63 candidate records reconcile to 57 accepted and six held, with 50 integrated and seven pending. Coverage sums to 57. Git diff whitespace checks passed."
   },
-  "public_page_path": "problems/357-planar-halving-lines.md",
+  "public_page_path": "problems/349-planar-halving-lines.md",
   "batch_validation": {
     "batch": "351–360",
     "date": "2026-09-19",

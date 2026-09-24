@@ -2,7 +2,7 @@
 
 **Area:** Convex geometry and particle packing
 
-**Status:** Accepted; integrated as entry 360
+**Status:** Accepted; integrated as entry 352
 
 **Last checked:** 2026-09-19
 
@@ -53,6 +53,6 @@ Theorem 5 of Kallus's 2014 paper concerns origin-symmetric bodies sufficiently c
 
 Theorem 3 of the 2015 paper allows nonsymmetric directions, but treats the paths $(1-\lambda)B+\lambda K$ for $K$ in minimal-mean-width position. Its positive range $0<\lambda<\lambda_0(K)$ depends on the chosen direction. It neither gives a uniform neighbourhood for all shapes nor reaches every endpoint $K$. The 2016 random-packing calculation assumes a protocol producing isostatic sphere packings and a perturbative deformation model. Its observable is not the supremum $\delta(K)$ used here.
 
-The older suggestion that the regular tetrahedron might refute the conjecture is ruled out by explicit denser constructions: Chen–Engel–Glotzer obtain $4000/4671>\pi/\sqrt{18}$. Determining its exact optimal density remains the separate question in entry [247](../../../problems/247-regular-tetrahedron-packing.md). Entry [091](../../../problems/091-bcc-quantization.md) minimizes quantization error, and entry [251](../../../problems/251-constant-width-volume.md) minimizes the volume of one constant-width body; neither has the present packing objective.
+The older suggestion that the regular tetrahedron might refute the conjecture is ruled out by explicit denser constructions: Chen–Engel–Glotzer obtain $4000/4671>\pi/\sqrt{18}$. Determining its exact optimal density remains the separate question in entry [241](../../../problems/241-regular-tetrahedron-packing.md). Entry [087](../../../problems/087-bcc-quantization.md) minimizes quantization error, and entry [245](../../../problems/245-constant-width-volume.md) minimizes the volume of one constant-width body; neither has the present packing objective.
 
 The [evidence record](../candidates/ulam-convex-solid-packing.json) records the source scopes, access limits, current resolution searches and the separated adversarial self-review. This is one global shape-comparison family.

@@ -1,6 +1,6 @@
 {
   "candidate_id": "private-pac-vc-logstar",
-  "proposed_catalogue_id": "354",
+  "proposed_catalogue_id": "346",
   "title": "Private PAC learning with polynomial VC and iterated-logarithm sample cost",
   "primary_section": "applied",
   "secondary_tags": [
@@ -477,20 +477,20 @@
   },
   "nearest_existing": [
     {
-      "id": 318,
-      "path": "problems/318-linear-sample-compression.md",
+      "id": 310,
+      "path": "problems/310-linear-sample-compression.md",
       "full_statement_read": true,
       "distinction": "A set-and-bitstring compression scheme reconstructs every realizable sample. It need not privatize the released records or classifier."
     },
     {
-      "id": 317,
-      "path": "problems/317-learning-parity-noise.md",
+      "id": 309,
+      "path": "problems/309-learning-parity-noise.md",
       "full_statement_read": true,
       "distinction": "Average-case noisy-parity recovery with a polynomial-time restriction; no output-privacy condition."
     },
     {
-      "id": 337,
-      "path": "problems/337-classical-uniform-dnf-learning.md",
+      "id": 329,
+      "path": "problems/329-classical-uniform-dnf-learning.md",
       "full_statement_read": true,
       "distinction": "Efficient learning of one Boolean family under uniform inputs; no privacy constraint and a different runtime objective."
     }
@@ -556,7 +556,7 @@
     "verified_remote_commit": "9fa7854c5ee5195b22231421e4aec170fcc43a36",
     "method": "Normal direct push; subsequent authenticated ls-remote read matched the exact content commit. No PR, per user authorization."
   },
-  "public_page_path": "problems/354-private-pac-vc-logstar.md",
+  "public_page_path": "problems/346-private-pac-vc-logstar.md",
   "batch_validation": {
     "batch": "351–360",
     "date": "2026-09-19",

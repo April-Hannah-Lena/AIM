@@ -1,6 +1,6 @@
 {
   "candidate_id": "carrying-simplex-interior",
-  "proposed_catalogue_id": "311",
+  "proposed_catalogue_id": "303",
   "title": "Interior smoothness of carrying simplices in competitive population maps",
   "aliases": [
     "Hirsch carrying-simplex smoothness problem",
@@ -440,19 +440,19 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "154",
+        "id": "149",
         "difference": "Existence of a finite-dimensional Lipschitz inertial manifold for an infinite-dimensional Navier–Stokes PDE; candidate concerns C1 regularity of an already existing finite-dimensional population hypersurface."
       },
       {
-        "id": "190",
+        "id": "185",
         "difference": "Competitive exclusion for a spatial stochastic particle model, not discrete deterministic geometric regularity."
       },
       {
-        "id": "283",
+        "id": "276",
         "difference": "Persistence of bounded weakly reversible mass-action ODEs; neither map model nor regularity target agrees."
       },
       {
-        "id": "296",
+        "id": "288",
         "difference": "Global attraction for a scalar delay equation under local stability, not carrying-simplex differentiability."
       }
     ],
@@ -520,7 +520,7 @@
     "upstream_check": "git fetch origin main and git ls-remote --heads confirm only main at 7fe62d53378cb3f5ebbe7caeda9f3a4d72039395; GitHub connector open-PR search returned none. No intervening upstream content or competing addition.",
     "duplicate_scope": "All 310 active pages/metadata, prior exclusion/source records and all pending additions screened; closest full pages and statement scopes reviewed in each candidate ledger."
   },
-  "public_page_path": "problems/311-carrying-simplex-interior.md",
+  "public_page_path": "problems/303-carrying-simplex-interior.md",
   "validation_results": [
     {
       "check": "catalogue",

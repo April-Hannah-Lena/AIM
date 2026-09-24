@@ -28,7 +28,7 @@ These candidates were not admitted. A recent proof claim is enough to withhold a
 | Gaussian entanglement of formation, I3322 infinite-dimensional advantage | Recent potentially matching claims found; omitted rather than attempting to certify status. |
 | Stable Bernstein hypersurfaces in R7 | Other agent identified matching September 2026 claim [arXiv:2609.15720](https://arxiv.org/abs/2609.15720); not admitted. |
 
-All accepted entries also have individual status reviews. Searches establish what was located, not a proof of nonexistence of later literature. Existing 360 titles and nearby statements were checked before drafting; classical catalog entries such as Pólya, Ivrii, hot spots, QUE, Anderson transport, Bochner–Riesz, restriction and local smoothing were not reused.
+All accepted entries also have individual status reviews. Searches establish what was located, not a proof of nonexistence of later literature. Existing 352 titles and nearby statements were checked before drafting; classical catalog entries such as Pólya, Ivrii, hot spots, QUE, Anderson transport, Bochner–Riesz, restriction and local smoothing were not reused.
 
-- **p-harmonic weak unique continuation:** removed after root cross-deduplication found an exact match to existing problem 073. The strong comparison principle retained here is a different two-solution contact question.
+- **p-harmonic weak unique continuation:** removed after root cross-deduplication found an exact match to existing problem 070. The strong comparison principle retained here is a different two-solution contact question.
 - **Dimension-free weak-(1,1) vector Riesz bound:** excluded after checking Y. Ouyang, D. Spector and C. B. Stockdale, [arXiv:2608.18068](https://arxiv.org/abs/2608.18068), August 2026, which claims a dimension-independent constant 2. The retained sharp strong-Lp vector Riesz conjecture is distinct from this endpoint boundedness assertion.

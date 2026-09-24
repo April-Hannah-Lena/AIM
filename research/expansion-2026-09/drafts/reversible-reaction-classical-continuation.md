@@ -2,7 +2,7 @@
 
 **Area:** Chemical reaction–diffusion / continuum biology
 
-**Status:** Accepted; published as entry 315
+**Status:** Accepted; published as entry 307
 
 **Last checked:** 2026-09-17
 
@@ -55,6 +55,6 @@ Known generic mass-control blowup examples require a separate scope check. Pierr
 
 Searches on 2026-09-17 covered reversible mass-action classical existence, smooth continuation, blowup, counterexamples, recent results, version histories and corrections. The separate adversarial self-pass A16 checked additional diffusion-closeness and low-dimensional results; none covers the full statement. See the [evidence ledger](../candidates/reversible-reaction-classical-continuation.json).
 
-Related entries [282](../../../problems/282-reaction-network-positive-recurrence.md) and [283](../../../problems/283-reaction-network-persistence.md) concern stochastic molecule counts and spatially homogeneous ODE persistence, respectively; neither asks for PDE continuation.
+Related entries [275](../../../problems/275-reaction-network-positive-recurrence.md) and [276](../../../problems/276-reaction-network-persistence.md) concern stochastic molecule counts and spatially homogeneous ODE persistence, respectively; neither asks for PDE continuation.
 
-Integrated as [entry 315](../../../problems/315-reversible-reaction-classical-continuation.md) after the September 17, 2026 batch refresh.
+Integrated as [entry 307](../../../problems/307-reversible-reaction-classical-continuation.md) after the September 17, 2026 batch refresh.

@@ -100,15 +100,11 @@
       "exists": true
     },
     {
-      "url": "../../../problems/269-most-informative-boolean-function.md",
+      "url": "../../../problems/330-aaronson-ambainis-influence.md",
       "exists": true
     },
     {
-      "url": "../../../problems/338-aaronson-ambainis-influence.md",
-      "exists": true
-    },
-    {
-      "url": "../../../problems/337-classical-uniform-dnf-learning.md",
+      "url": "../../../problems/329-classical-uniform-dnf-learning.md",
       "exists": true
     }
   ]

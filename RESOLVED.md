@@ -2,7 +2,7 @@
 
 [Repository overview](README.md) · [Browse open targets](CATALOG.md)
 
-This archive lists previously admitted targets that are no longer counted as open. A solution claim is not a verified solution. Each linked record preserves the original statement, permanent ID, sources, review date, and the scope of the review actually performed.
+This archive lists previously admitted targets that are no longer counted as open. A solution claim is not a verified solution. Each linked record preserves the original statement, current ID, sources, review date, and the scope of the review actually performed.
 
 ## Lean verified
 
@@ -20,9 +20,7 @@ No solved entries are currently recorded in this archive.
 
 A matching complete resolution has been announced, but independent proof review remains outstanding.
 
-| ID | Problem and status record | Status | Last checked | Reason |
-| --- | --- | --- | --- | --- |
-| 077 | [Finite-time singularity for smooth three-dimensional Euler flow without a boundary](research/expansion-2026-09-22/077-euler-claimed-resolution.md) | 🟠 SOLUTION CLAIMED | 2026-09-22 | Matching Euler blow-up resolution announced on 2026-09-08; held outside the active count pending independent review. |
+No solution claims are currently recorded in this archive.
 
 ## Needs verification
 

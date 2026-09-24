@@ -1,4 +1,4 @@
-# Exclusions and proof-claim checks for problems 201–225
+# Exclusions and proof-claim checks for problems 196–220
 
 Checked on 2026-09-13. These candidates or superficially matching claims were inspected while selecting the batch. A recent preprint proof claim is sufficient reason to avoid presenting its exact target as safely open; the project does not independently certify every proof.
 
@@ -14,4 +14,4 @@ Checked on 2026-09-13. These candidates or superficially matching claims were in
 | Exact Hubbard order inferred from Hirsch mean-field gap asymptotics | [Edwin Langmann and Jonatan Lenells (2026)](https://doi.org/10.1007/s11005-026-02085-5) resolve a mean-field asymptotic. It does not resolve the interacting ground-state order in211. |
 | Full indicator-disk damping result inferred from superellipse decay | [Achammer and Kleinhenz (4 June 2026)](https://arxiv.org/abs/2606.06166), Theorem1.1, requires positive-order smooth vanishing of damping. The discontinuous indicator in222 remains outside its hypotheses. |
 
-Existing spectral problems001–025 and101–125 were also checked for overlap. In particular, eigenfunction random-wave behavior, quantum unique ergodicity, Anderson localization/delocalization, ionization bounds, and earlier spectral shape inequalities were not duplicated. BGS level spacings, Berry–Tabor nearest-neighbor statistics, quantum-information capacity, and many-body gap questions have different target objects and conclusions.
+Existing spectral problems001–024 and101–125 were also checked for overlap. In particular, eigenfunction random-wave behavior, quantum unique ergodicity, Anderson localization/delocalization, ionization bounds, and earlier spectral shape inequalities were not duplicated. BGS level spacings, Berry–Tabor nearest-neighbor statistics, quantum-information capacity, and many-body gap questions have different target objects and conclusions.

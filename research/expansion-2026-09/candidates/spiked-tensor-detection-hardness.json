@@ -45,20 +45,20 @@
   },
   "nearest_existing": [
     {
-      "entry": "303",
-      "path": "problems/303-planted-clique.md",
+      "entry": "295",
+      "path": "problems/295-planted-clique.md",
       "full_statement_read": true,
-      "comparison": "Bernoulli graph with a planted all-one vertex subset. Here an iid weakly biased parity observation model represents a dense rank-one tensor signal. No equality of distributions or established equivalence to entry 303 is asserted."
+      "comparison": "Bernoulli graph with a planted all-one vertex subset. Here an iid weakly biased parity observation model represents a dense rank-one tensor signal. No equality of distributions or established equivalence to entry 295 is asserted."
     },
     {
-      "entry": "317",
-      "path": "problems/317-learning-parity-noise.md",
+      "entry": "309",
+      "path": "problems/309-learning-parity-noise.md",
       "full_statement_read": true,
       "comparison": "Dense uniform F2 coefficient vectors, fixed noise below 1/2 and any polynomial sample budget, asking negligible probability of exact recovery. Here each observation touches exactly k fixed variables, noise tends to 1/2, m=n^k, and the target is a tensor-inference phase boundary. Known reductions are disclosed, not taken as equivalences of the full assertions."
     },
     {
-      "entry": "050",
-      "path": "problems/050-tensor-train-approximation.md",
+      "entry": "047",
+      "path": "problems/047-tensor-train-approximation.md",
       "full_statement_read": true,
       "comparison": "Worst-case deterministic tensor-train approximation in arithmetic operations. The candidate is an average-case binary hypothesis-testing problem, without approximation of an input tensor in a numerical norm."
     }

@@ -1,322 +1,314 @@
 [
   {
-    "id": "026",
+    "id": "025",
     "title": "The complete Crouzeix conjecture",
     "area": "Operator theory and numerical linear algebra",
-    "file": "problems/026-complete-crouzeix.md",
+    "file": "problems/025-complete-crouzeix.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
-    "id": "027",
+    "id": "026",
     "title": "Lieb’s permanental dominance conjecture",
     "area": "Matrix analysis and quantum information",
-    "file": "problems/027-lieb-permanental-dominance.md",
+    "file": "problems/026-lieb-permanental-dominance.md",
+    "status": "Open",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "027",
+    "title": "Chollet’s Hadamard-product permanent inequality",
+    "area": "Matrix analysis and bosonic computation",
+    "file": "problems/027-chollet-permanent.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "028",
-    "title": "Chollet’s Hadamard-product permanent inequality",
-    "area": "Matrix analysis and bosonic computation",
-    "file": "problems/028-chollet-permanent.md",
+    "title": "Hadamard matrices in every admissible order",
+    "area": "Matrix design, coding and experimental design",
+    "file": "problems/028-hadamard-all-orders.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "029",
-    "title": "Hadamard matrices in every admissible order",
-    "area": "Matrix design, coding and experimental design",
-    "file": "problems/029-hadamard-all-orders.md",
+    "title": "The exact real Grothendieck constant",
+    "area": "Operator norms and semidefinite optimization",
+    "file": "problems/029-real-grothendieck-constant.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "030",
-    "title": "The exact real Grothendieck constant",
-    "area": "Operator norms and semidefinite optimization",
-    "file": "problems/030-real-grothendieck-constant.md",
+    "title": "Is the matrix-multiplication exponent two?",
+    "area": "Numerical linear algebra and algebraic complexity",
+    "file": "problems/030-matrix-multiplication-exponent.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "031",
-    "title": "Komlós’s vector-balancing conjecture",
-    "area": "Discrepancy and matrix rounding",
-    "file": "problems/031-komlos.md",
+    "title": "Explicit matrices with Valiant-scale rigidity",
+    "area": "Matrix computation and complexity lower bounds",
+    "file": "problems/031-explicit-rigid-matrices.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "032",
-    "title": "The Beck–Fiala discrepancy conjecture",
-    "area": "Sparse constraint rounding",
-    "file": "problems/032-beck-fiala.md",
-    "status": "Partially resolved",
+    "title": "SIC measurements in every finite dimension",
+    "area": "Quantum measurement and frame theory",
+    "file": "problems/032-sic-povms.md",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "033",
-    "title": "Is the matrix-multiplication exponent two?",
-    "area": "Numerical linear algebra and algebraic complexity",
-    "file": "problems/033-matrix-multiplication-exponent.md",
+    "title": "The maximum number of mutually unbiased bases in dimension six",
+    "area": "Quantum information and matrix design",
+    "file": "problems/033-mub-dimension-six.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "034",
-    "title": "Explicit matrices with Valiant-scale rigidity",
-    "area": "Matrix computation and complexity lower bounds",
-    "file": "problems/034-explicit-rigid-matrices.md",
+    "title": "Existence of NPT bound entanglement",
+    "area": "Quantum information and positive operators",
+    "file": "problems/034-npt-bound-entanglement.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "035",
-    "title": "SIC measurements in every finite dimension",
-    "area": "Quantum measurement and frame theory",
-    "file": "problems/035-sic-povms.md",
+    "title": "Exact quantum capacity of the qubit depolarizing channel",
+    "area": "Quantum communication and operator optimization",
+    "file": "problems/035-depolarizing-quantum-capacity.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "036",
-    "title": "The maximum number of mutually unbiased bases in dimension six",
-    "area": "Quantum information and matrix design",
-    "file": "problems/036-mub-dimension-six.md",
+    "title": "Uniform spatial stability of von Neumann algebras",
+    "area": "Operator perturbation theory",
+    "file": "problems/036-kadison-kastler.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "037",
-    "title": "Existence of NPT bound entanglement",
-    "area": "Quantum information and positive operators",
-    "file": "problems/037-npt-bound-entanglement.md",
+    "title": "Are the standard quantum entropy inequalities complete?",
+    "area": "Quantum information and convex optimization",
+    "file": "problems/037-quantum-entropy-cone.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "038",
-    "title": "Exact quantum capacity of the qubit depolarizing channel",
-    "area": "Quantum communication and operator optimization",
-    "file": "problems/038-depolarizing-quantum-capacity.md",
+    "title": "Arveson–Douglas essential normality for homogeneous ideals",
+    "area": "Multivariable operator theory",
+    "file": "problems/038-arveson-douglas.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "039",
-    "title": "Uniform spatial stability of von Neumann algebras",
-    "area": "Operator perturbation theory",
-    "file": "problems/039-kadison-kastler.md",
+    "title": "Kadison’s similarity problem",
+    "area": "Operator representations and stability",
+    "file": "problems/039-kadison-similarity.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "040",
-    "title": "Are the standard quantum entropy inequalities complete?",
-    "area": "Quantum information and convex optimization",
-    "file": "problems/040-quantum-entropy-cone.md",
+    "title": "Dixmier’s unitarizability problem for countable groups",
+    "area": "Group representations and operator theory",
+    "file": "problems/040-dixmier-unitarizability.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "041",
-    "title": "Arveson–Douglas essential normality for homogeneous ideals",
-    "area": "Multivariable operator theory",
-    "file": "problems/041-arveson-douglas.md",
+    "title": "Deterministic sensing matrices with optimal RIP measurement count",
+    "area": "Compressed sensing and matrix construction",
+    "file": "problems/041-deterministic-rip.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "042",
-    "title": "Kadison’s similarity problem",
-    "area": "Operator representations and stability",
-    "file": "problems/042-kadison-similarity.md",
+    "title": "Uniformly effective algebraic multigrid for diagonally dominant systems",
+    "area": "Numerical PDE solvers and preconditioning",
+    "file": "problems/042-universal-algebraic-multigrid.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "043",
-    "title": "Dixmier’s unitarizability problem for countable groups",
-    "area": "Group representations and operator theory",
-    "file": "problems/043-dixmier-unitarizability.md",
+    "title": "Deterministic pseudospectral shattering in nearly cubic time",
+    "area": "Eigenvalue computation and nonnormal operators",
+    "file": "problems/043-deterministic-pseudospectral-shattering.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "044",
-    "title": "Deterministic sensing matrices with optimal RIP measurement count",
-    "area": "Compressed sensing and matrix construction",
-    "file": "problems/044-deterministic-rip.md",
+    "title": "Accurate selected bidiagonal singular vectors in O(kn) work",
+    "area": "Numerical linear algebra and low-rank approximation",
+    "file": "problems/044-accurate-bidiagonal-svd.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "045",
-    "title": "Uniformly effective algebraic multigrid for diagonally dominant systems",
-    "area": "Numerical PDE solvers and preconditioning",
-    "file": "problems/045-universal-algebraic-multigrid.md",
+    "title": "A nearly cubic Schur algorithm using only linear precision",
+    "area": "Stable algorithms for general eigenproblems",
+    "file": "problems/045-linear-precision-schur.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "046",
-    "title": "Deterministic pseudospectral shattering in nearly cubic time",
-    "area": "Eigenvalue computation and nonnormal operators",
-    "file": "problems/046-deterministic-pseudospectral-shattering.md",
+    "title": "Quadratic-scale bit complexity for well-conditioned sparse systems",
+    "area": "Sparse numerical linear algebra",
+    "file": "problems/046-sparse-linear-solve-bit-complexity.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "047",
-    "title": "Accurate selected bidiagonal singular vectors in O(kn) work",
-    "area": "Numerical linear algebra and low-rank approximation",
-    "file": "problems/047-accurate-bidiagonal-svd.md",
-    "status": "Open",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "048",
-    "title": "A nearly cubic Schur algorithm using only linear precision",
-    "area": "Stable algorithms for general eigenproblems",
-    "file": "problems/048-linear-precision-schur.md",
-    "status": "Open",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "049",
-    "title": "Quadratic-scale bit complexity for well-conditioned sparse systems",
-    "area": "Sparse numerical linear algebra",
-    "file": "problems/049-sparse-linear-solve-bit-complexity.md",
-    "status": "Open",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "050",
     "title": "Improve the worst-case tensor-train approximation factor",
     "area": "Tensor computation and high-dimensional models",
-    "file": "problems/050-tensor-train-approximation.md",
+    "file": "problems/047-tensor-train-approximation.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
-    "id": "301",
+    "id": "293",
     "title": "The log-rank conjecture for deterministic communication",
     "area": "Communication complexity and distributed computation",
-    "file": "problems/301-log-rank.md",
+    "file": "problems/293-log-rank.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "316",
+    "id": "308",
     "title": "Dynamic optimality of splay trees",
     "area": "Adaptive data structures and online computation",
-    "file": "problems/316-splay-dynamic-optimality.md",
+    "file": "problems/308-splay-dynamic-optimality.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "321",
+    "id": "313",
     "title": "Deterministic identity testing for arithmetic circuits",
     "area": "Symbolic computation and derandomization",
-    "file": "problems/321-deterministic-polynomial-identity-testing.md",
+    "file": "problems/313-deterministic-polynomial-identity-testing.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "336",
+    "id": "328",
     "title": "A constant bound for fixed-order prefix discrepancy",
     "area": "Discrepancy, cumulative allocation and integer optimization",
-    "file": "problems/336-strong-komlos-prefix-discrepancy.md",
+    "file": "problems/328-strong-komlos-prefix-discrepancy.md",
     "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
-    "id": "338",
+    "id": "330",
     "title": "Aaronson–Ambainis influential-variable conjecture",
     "area": "Boolean Fourier analysis and quantum query complexity",
-    "file": "problems/338-aaronson-ambainis-influence.md",
+    "file": "problems/330-aaronson-ambainis-influence.md",
     "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
-    "id": "351",
+    "id": "343",
     "title": "The modern integer 3SUM conjecture",
     "area": "Exact algorithms and computational complexity",
-    "file": "problems/351-integer-three-sum-hardness.md",
+    "file": "problems/343-integer-three-sum-hardness.md",
     "status": "Open",
     "last_checked": "2026-09-19"
   },
   {
-    "id": "438",
+    "id": "430",
     "title": "The sharp vector Riesz inequality for multidimensional potential fields",
     "area": "Harmonic analysis and elliptic potential fields",
-    "file": "problems/438-vector-riesz-sharp-norm.md",
+    "file": "problems/430-vector-riesz-sharp-norm.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "443",
+    "id": "435",
     "title": "Poisson kernel bounds for elliptic boundary diffusion on Lipschitz domains",
     "area": "Elliptic PDEs and boundary diffusion",
-    "file": "problems/443-dtn-poisson-bounds-lipschitz.md",
+    "file": "problems/435-dtn-poisson-bounds-lipschitz.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "444",
+    "id": "436",
     "title": "Analytic boundary diffusion on continuous functions for Lipschitz domains",
     "area": "Elliptic PDEs and analytic semigroups",
-    "file": "problems/444-dtn-analyticity-continuous-boundary.md",
+    "file": "problems/436-dtn-analyticity-continuous-boundary.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "459",
+    "id": "451",
     "title": "The sharp Beurling–Ahlfors bound for planar elliptic systems",
     "area": "Planar elliptic PDEs and singular integral operators",
-    "file": "problems/459-beurling-ahlfors-sharp-norm.md",
+    "file": "problems/451-beurling-ahlfors-sharp-norm.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "460",
+    "id": "452",
     "title": "A uniform L3 estimate for the triangular Hilbert transform",
     "area": "Multilinear harmonic analysis and coupled signal interactions",
-    "file": "problems/460-triangular-hilbert-transform-l3.md",
+    "file": "problems/452-triangular-hilbert-transform-l3.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "461",
+    "id": "453",
     "title": "Almost-everywhere Fourier reconstruction of L log L signals",
     "area": "Fourier analysis and endpoint signal reconstruction",
-    "file": "problems/461-fourier-l-log-l-pointwise-convergence.md",
+    "file": "problems/453-fourier-l-log-l-pointwise-convergence.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "462",
+    "id": "454",
     "title": "Hexagonal optimality for Gaussian time-frequency sampling",
     "area": "Applied harmonic analysis and communication channels",
-    "file": "problems/462-gaussian-gabor-hexagonal-optimality.md",
+    "file": "problems/454-gaussian-gabor-hexagonal-optimality.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "463",
+    "id": "455",
     "title": "Stein’s Hilbert-transform bound along Lipschitz directions",
     "area": "Directional singular integrals and variable-direction propagation",
-    "file": "problems/463-stein-lipschitz-direction-hilbert-bound.md",
+    "file": "problems/455-stein-lipschitz-direction-hilbert-bound.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "465",
+    "id": "457",
     "title": "Finite-density time sampling of an infinite observation window",
     "area": "Operator evolution and stable dynamical sampling",
-    "file": "problems/465-infinite-time-dynamical-frame-discretization.md",
+    "file": "problems/457-infinite-time-dynamical-frame-discretization.md",
     "status": "Open",
     "last_checked": "2026-09-22"
+  },
+  {
+    "id": "498",
+    "title": "Deterministic parallel perfect matching in general graphs",
+    "area": "Parallel algorithms and combinatorial optimization",
+    "file": "problems/498-general-graph-perfect-matching-nc.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-23"
   }
 ]

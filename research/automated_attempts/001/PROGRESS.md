@@ -5,6 +5,7 @@
 - Latest senior review: [Astra 2, 2026-09-08 13:14 UTC](reviews/2026-09-08_1314_astra.md).
 - Incorporated: Sol [1](attempts/2026-09-08_0825_sol.md), [2](attempts/2026-09-08_1002_sol.md), [3](attempts/2026-09-08_1104_sol.md), [4](attempts/2026-09-08_1206_sol.md); Astra reviews 1–2.
 - No complete candidate; zero successful principal candidate-verification reviews.
+- **Current evidence summary:** [STATUS.md](STATUS.md). The two-fold variational lemma is conditional and awaits an independent analytic check. Its missing universal moment/overlap existence statement remains unproved; algebra checks do not establish it.
 
 ## Exact target
 
@@ -13,7 +14,7 @@ mu_k <= 4*pi^2*(k/(omega_d*|Omega|))^(2/d) <= lambda_k.
 
 Endpoint form: N_D^le(E)<=C_d*V*E^(d/2)<=N_N^lt(E), C_d=omega_d/(2*pi)^d. The Neumann count includes zero at positive energy. Neither a planar third-mode result nor a product result solves this full target.
 
-## Established partial results
+## Verified results from previous programme reviews
 
 1. **Known full k=1,2 chain and Dirichlet nodal band.** Classical shape inequalities and Bucur--Henrot give both low-index sides. With beta_d=j_(d/2-1,1)^d*omega_d^2/(2*pi)^d, r nodal domains suffice when k<=r*beta_d. Universally 2<=k<=floor(2*beta_d) is covered, including k<=4 in d=3. The universal band follows from lambda_2 and monotonicity without regularity assumptions on nodal boundaries.
 2. **Equal-ball obstruction.** Exact disk quotients 6,16,16 and sum j_(0,n)^(-4)=1/32 give lambda_3(D)<=16<3*j_(0,1)^2. Equal k balls cannot supply the proposed all-k Dirichlet lower bound.
@@ -25,13 +26,13 @@ Endpoint form: N_D^le(E)<=C_d*V*E^(d/2)<=N_N^lt(E), C_d=omega_d/(2*pi)^d. The Ne
 
 Earlier proofs and artifacts remain intact: the first Astra review, third-mode stability notes, cylinder/Yang/square-tail notes, and Sol 2–4 certificates.
 
-## New in Astra 2: repaired Neumann reduction
+## Promising but unproved claims: the conditional Neumann route
 
 **Rejected inherited claim:** a binary construction need not have a tree-shaped interface graph. The cells x<0, x>0/y>0, x>0/y<0 form a triangle. A transverse second affine fold applied to only one child produces unmatched traces on part of the first interface. Special fixed-domain and parallel-cut cases are not excluded.
 
 **Positive replacement:** two GLOBAL halfspace folds phi=f_H2 o f_H1 give a continuous 1-Lipschitz piecewise isometry with at most four sheets. Its pushforward density rho has 0<=rho<=4 and integral rho=V. Set e=integral(rho-3)_+: four-sheet IMAGE area, not preimage mass.
 
-The [complete conditional theorem](artifacts/2026-09-08_1310_fold_overlap.md) uses
+The [recorded conditional lemma](artifacts/2026-09-08_1310_fold_overlap.md) uses
 R^2=(V-e)/(3*pi), g(s)=s-s^3/3 for s<=1 and 2/3 thereafter.
 If F=W_A o phi has all six moments against u_0,u_1,u_2 zero, then
 mu_3 V/pi <= (3+q)n(q)/d(q), q=3e/(V-e),
@@ -47,19 +48,23 @@ P is strictly increasing on [0,1], with P(3/14)<0<P(3/13). Thus **e<=V/15 suffic
 
 **Still unproved:** a zero of this reduced four-moment map with the overlap budget. Perpendicular disk folds solve all moments but have e=V/4; this does not rule out other disk parameters. The new result is a conditional variational lemma, not a complete solution or yet a publishable partial result. Independent adversarial checking is next.
 
-## Computation and rigor
+## Computational evidence and its limits
 
-Sol 2's exact verifier was rerun successfully. The new [Fraction verifier](artifacts/2026-09-08_1310_verify_fold_overlap.py) and [JSON results](artifacts/2026-09-08_1310_fold_overlap.json) pass all checks. They certify finite algebra, not eigenfunction moment existence. The analytic artifact proves the infinite conditional statement. No PDE numerics or arbitrary-domain spectral counterexample is claimed. External literature proofs, including ball computer-assisted components, are source-audited rather than independently reconstructed.
+Sol 2's exact verifier was rerun successfully. The new [Fraction verifier](artifacts/2026-09-08_1310_verify_fold_overlap.py) and [JSON results](artifacts/2026-09-08_1310_fold_overlap.json) pass all checks. They certify finite algebra, not eigenfunction moment existence. The analytic artifact contains an argument for the conditional statement; an independent analytic check remains outstanding. No PDE numerics or arbitrary-domain spectral counterexample is claimed. External literature proofs, including ball computer-assisted components, are source-audited rather than independently reconstructed.
 
-## Bottleneck and exhausted routes
+## Current bottleneck
 
 Primary: construct or rigorously obstruct a zero of the reduced four-moment map on the low-overlap subset. Need actual compactness, degree, and boundary control; equal dimensions do not imply a zero.
 
 Dirichlet alternative: on A<=lambda_2<=12 prove B-lambda_3<=K*sqrt(lambda_2-A), with K<=(B-12)/sqrt(12-A), or an adequate k=3-specific lower-side coefficient. Neither is proved; positive-part stability has the wrong direction.
 
-Independent alternative: genuinely non-product spatial compensation for the Fourier deficit. Do not repeat scalar unsmoothing, shared-global-C_2 extraction, triangular constant-frame folds, automatic hierarchical-tree claims, or standard product rediscovery. Also exhausted: replacing Courant's r<=k by r>=k, ignoring epsilon-dependent thresholds, and uniform improvement of the sharp lambda_2 bound on connected dumbbells.
+Independent alternative: genuinely non-product spatial compensation for the Fourier deficit. Do not repeat scalar unsmoothing, shared-global-C_2 extraction, triangular constant-frame folds, automatic hierarchical-tree claims, or standard product rediscovery.
 
-## Campaign allocation
+## Failed / exhausted routes
+
+The obstructions recorded above rule out the specified methods, not the full conjecture. Also exhausted: replacing Courant's r<=k by r>=k, ignoring epsilon-dependent thresholds, and uniform improvement of the sharp lambda_2 bound on connected dumbbells.
+
+## Next high-value attacks and campaign allocation
 
 Continue 001, campaign 1: Sol 4, Astra 2. The prior Sol 5 checkpoint is superseded; next checkpoint after Sol 8 or immediately on a complete candidate.
 
@@ -70,4 +75,4 @@ Continue 001, campaign 1: Sol 4, Astra 2. The prior Sol 5 checkpoint is supersed
 
 Only Astra may change current_problem. Complete candidates require verification phase, CANDIDATE_PROOF.md, and two separate principal-verification Astra runs before solved status.
 
-Queue synchronization found no additions, missing files, or integrity issues; observed count 100 is not a cap. All historical attempts and queue statuses are preserved.
+Administrative synchronization on 2026-09-23 covers 501 active entries; see [QUEUE.md](../QUEUE.md). It preserves the current campaign, four Sol attempts, two Astra reviews and zero successful principal candidate-verification reviews. No new research attempt or proof verification was performed.

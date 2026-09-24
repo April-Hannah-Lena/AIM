@@ -2,7 +2,7 @@
 
 **Area:** Decentralized coordination and search theory
 
-**Status:** Accepted; integrated as entry 331
+**Status:** Accepted; integrated as entry 323
 
 **Last checked:** 2026-09-18
 
@@ -46,10 +46,10 @@ Dani–Hayes–Moore–Russell give an asymptotic lower bound $(0.6389\ldots-o(1
 
 Other apparently relevant solutions use detectable tokens, one-step success probabilities, shared location labels, an infinite line, or restricted memory. In particular, the September 12, 2026 integer-line result concerns oblivious self-distance strategies and does not solve the complete-graph problem. The ledger records the exact restrictions and source-reading limits. Mathematical proofs have not been independently certified.
 
-Unlike [entry 302](../../../problems/302-cerny.md), this question concerns two agents with independent random choices and an unknown label matching, not one word resetting every state of a deterministic automaton. The online allocation objectives in [entry 286](../../../problems/286-deterministic-k-server.md) and [entry 326](../../../problems/326-online-bin-packing-optimal-ratio.md) instead compare performance with an offline optimum under adversarial requests. A recent matching claim for historical entry 286 is recorded in a [separate status follow-up](../baseline-status-followup.md).
+Unlike [entry 294](../../../problems/294-cerny.md), this question concerns two agents with independent random choices and an unknown label matching, not one word resetting every state of a deterministic automaton. The online allocation objective in [entry 318](../../../problems/318-online-bin-packing-optimal-ratio.md) instead compares performance with an offline optimum under adversarial requests.
 
 The separated A32 adversarial self-pass checked the time convention, unrestricted strategy class, source versions and related-result scopes. No independent agent or human review occurred.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
 
-Integrated page: [331. Optimal symmetric rendezvous among discrete locations](../../../problems/331-symmetric-rendezvous-discrete-locations.md).
+Integrated page: [331. Optimal symmetric rendezvous among discrete locations](../../../problems/323-symmetric-rendezvous-discrete-locations.md).

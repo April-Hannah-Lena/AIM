@@ -1,6 +1,6 @@
 {
   "candidate_id": "contact-process-nonamenable-weak-survival",
-  "proposed_catalogue_id": "325",
+  "proposed_catalogue_id": "317",
   "title": "Weak survival of the contact process on nonamenable Cayley graphs",
   "aliases": [
     "Nonamenable-group contact-process weak phase",
@@ -739,15 +739,15 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "183",
+        "id": "178",
         "difference": "Static Bernoulli bond percolation, pc<pu; no local/global contact-process events."
       },
       {
-        "id": "190",
+        "id": "185",
         "difference": "Two-type contact-process competitive exclusion on Z² from iid initial data; population ratios and stationary convergence."
       },
       {
-        "id": "179",
+        "id": "174",
         "difference": "Two irreversible growth types on Z² with unequal rates; no recovery."
       }
     ],
@@ -815,7 +815,7 @@
     "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
     "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": "problems/325-contact-process-nonamenable-weak-survival.md",
+  "public_page_path": "problems/317-contact-process-nonamenable-weak-survival.md",
   "validation_results": [
     "2026-09-17: candidate JSON parsed; source IDs and actual search IDs resolve.",
     "2026-09-17: required headings and local draft links checked.",

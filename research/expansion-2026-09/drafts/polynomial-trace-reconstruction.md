@@ -2,7 +2,7 @@
 
 **Area:** Statistical inference and molecular data retrieval
 
-**Status:** Accepted; integrated as entry 332
+**Status:** Accepted; integrated as entry 324
 
 **Last checked:** 2026-09-18
 
@@ -44,8 +44,8 @@ Chase's lower bound uses pairs of length $n=4k+3$ requiring $\Omega_q(n^{3/2}/\l
 
 The polynomial algorithms in the cited smoothed and mildly separated models impose additional assumptions on the source string. Sima–Bruck require a bounded edit-distance promise relative to a known reference. A separate Chen–De–Lee–Servedio–Sinha low-deletion theorem allows a deletion rate tending to zero with $n$, not an arbitrary fixed positive rate. Exponential lower bounds for mean-based or local-statistical-query methods restrict the decoder and do not establish an information-theoretic obstruction for general traces. These full-scope comparisons and access limitations are in the [evidence record](../candidates/polynomial-trace-reconstruction.json).
 
-Unlike [entry 144](../../../problems/144-binary-deletion-channel-capacity.md), this question allows repeated independent channel outputs and requires recovery of every input string instead of optimizing a codebook's transmission rate. [Entries 288](../../../problems/288-binary-lcs-constant.md) and [297](../../../problems/297-binary-lcs-linear-variance.md) study alignment statistics of two independent random strings, rather than observations of one unknown source. No independent mathematical proof certification is claimed.
+Unlike [entry 139](../../../problems/139-binary-deletion-channel-capacity.md), this question allows repeated independent channel outputs and requires recovery of every input string instead of optimizing a codebook's transmission rate. [Entries 280](../../../problems/280-binary-lcs-constant.md) and [289](../../../problems/289-binary-lcs-linear-variance.md) study alignment statistics of two independent random strings, rather than observations of one unknown source. No independent mathematical proof certification is claimed.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
 
-Integrated page: [332. Polynomial sample complexity for deletion-trace reconstruction](../../../problems/332-polynomial-trace-reconstruction.md).
+Integrated page: [332. Polynomial sample complexity for deletion-trace reconstruction](../../../problems/324-polynomial-trace-reconstruction.md).

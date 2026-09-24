@@ -48,10 +48,17 @@ def valid_id(value):
             and int(value) > 0 and value == f"{int(value):03d}")
 
 
+def next_problem_id(manifest):
+    """Allocate after the current consecutively numbered collection."""
+    issued = [identifier for batch in manifest["batches"] for identifier in batch["ids"]]
+    issued.extend(row["id"] for row in manifest["retired"])
+    return max(map(int, issued), default=0) + 1
+
+
 def load_manifest():
     errors = []
     try:
-        manifest = json.loads((ROOT / "catalogue.json").read_text())
+        manifest = json.loads((ROOT / "catalogue.json").read_text(encoding="utf-8"))
     except (ValueError, OSError) as exc:
         return {}, [f"catalogue.json: {exc}"]
     if not isinstance(manifest, dict) or manifest.get("schema_version") != 2:
@@ -61,6 +68,11 @@ def load_manifest():
             errors.append(f"catalogue.json: {key} must be an array")
     if errors:
         return {}, errors
+    removed = manifest.get("removed_ids", [])
+    if not isinstance(removed, list) or not all(valid_id(i) for i in removed):
+        return {}, ["catalogue.json: removed_ids must be an array of valid IDs"]
+    if removed:
+        return {}, ["catalogue.json: deleted IDs cannot be reserved; renumber remaining entries consecutively"]
     for key in ("groups", "batches"):
         items = manifest[key]
         if not items:
@@ -104,7 +116,7 @@ def load_manifest():
                 evidence = (ROOT / value).resolve()
                 if (Path(value).is_absolute() or ROOT not in evidence.parents or
                         evidence.suffix != ".md" or not evidence.is_file() or
-                        not evidence.read_text().strip()):
+                        not evidence.read_text(encoding="utf-8").strip()):
                     errors.append(f"{item['id']}: invalid or empty Lean verification_record")
     return manifest if not errors else {}, errors
 
@@ -123,7 +135,7 @@ def load_entries(manifest):
             errors.append(f"Missing {path.relative_to(ROOT)}")
             continue
         try:
-            rows = json.loads(path.read_text())
+            rows = json.loads(path.read_text(encoding="utf-8"))
         except (ValueError, OSError) as exc:
             errors.append(f"{path.name}: {exc}")
             continue
@@ -180,7 +192,7 @@ def render_readme(entries, manifest):
         "## Browse by subject", "",
         *subject_index(entries, manifest, "CATALOG.md"), "",
         "## Reading the collection", "",
-        "Each [problem page](problems/) records its assumptions and quantifiers, an **Application** section, references, a status label, and its last review date. The Application section describes a supported use where one is clear, labels indirect connections, or states that no direct application has been identified. Permanent IDs remain reserved when an entry leaves the open catalogue; its original statement and status record are retained.", "",
+        "Each [problem page](problems/) records its assumptions and quantifiers, an **Application** section, references, a status label, and its last review date. The Application section describes a supported use where one is clear, labels indirect connections, or states that no direct application has been identified. Active problems are numbered consecutively from 001. Complete deletion closes the gap: subsequent entries and their links are renumbered, and deleted numbers are not reserved. Cite the repository commit alongside an ID because numbering can change.", "",
         "The collection includes foundational questions as well as directly applied ones, with a wide range of difficulty. Related entries may imply one another; the count does not assert logical independence. Further additions exclude numerical linear algebra (NLA).", "",
         "## Problem status", "",
         "The same labels appear on problem pages and index rows. Only Open and Partial count as open targets; each problem counts once.", "",
@@ -209,7 +221,7 @@ def render_readme(entries, manifest):
         "  note   = {GitHub repository}",
         "}",
         "```", "",
-        "Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff). Include your access date or the commit used when referring to a particular version. For an individual problem, give its permanent ID and cite the original sources listed in the entry as well. When using a solution, also cite its authors and the proof source linked from the status record.", "",
+        "Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff). Include your access date or the commit used when referring to a particular version. For an individual problem, give its ID and the repository commit and cite the original sources listed in the entry as well. When using a solution, also cite its authors and the proof source linked from the status record.", "",
     ]
     return "\n".join(lines)
 
@@ -248,7 +260,7 @@ def render_resolved(manifest):
     lines = [
         "# Solved and claimed solutions", "",
         "[Repository overview](README.md) · [Browse open targets](CATALOG.md)", "",
-        "This archive lists previously admitted targets that are no longer counted as open. A solution claim is not a verified solution. Each linked record preserves the original statement, permanent ID, sources, review date, and the scope of the review actually performed.", "",
+        "This archive lists previously admitted targets that are no longer counted as open. A solution claim is not a verified solution. Each linked record preserves the original statement, current ID, sources, review date, and the scope of the review actually performed.", "",
     ]
     sections = (
         ("Lean verified", "Lean verified", "Complete resolutions with a reviewed Lean proof, statement comparison, and reproducible kernel-checking evidence. The evidence link records exactly what was checked.", "No Lean-verified entries are currently recorded in this archive."),
@@ -282,7 +294,7 @@ def render_resolved(manifest):
 
 def validate_page(row, path):
     errors = []
-    content = path.read_text()
+    content = path.read_text(encoding="utf-8")
     first = content.splitlines()[0] if content else ""
     if not re.match(rf"^# {row['id']}(?:\.|\s+[—–-])\s+", first):
         errors.append(f"{row['id']}: incorrect heading ID")
@@ -335,7 +347,9 @@ def validate(entries, manifest, documents=None):
     if len(set(issued)) != len(issued):
         errors.append("Duplicate ID in active or retired records")
     if not issued or set(issued) != {f"{i:03d}" for i in range(1, max(map(int, issued), default=0) + 1)}:
-        errors.append("Every issued ID must be active or explicitly retired; IDs cannot be silently removed")
+        errors.append("IDs must be consecutive across active and retired records; renumber after deletion")
+    if set(ids) != {f"{i:03d}" for i in range(1, len(ids) + 1)}:
+        errors.append("Active problem IDs must be consecutive from 001 with no gaps")
     batched = [identifier for batch in manifest["batches"] for identifier in batch["ids"]]
     if len(set(batched)) != len(batched) or set(batched) != set(issued):
         errors.append("Publication batches must partition all active and retired IDs exactly once")
@@ -361,7 +375,7 @@ def validate(entries, manifest, documents=None):
     for extra in sorted(actual - indexed):
         errors.append(f"Unindexed problem file: {extra.relative_to(ROOT)}")
     generated = {ROOT / name: content for name, content in (documents or {}).items()}
-    markdown = {path: path.read_text() for path in ROOT.rglob("*.md")
+    markdown = {path: path.read_text(encoding="utf-8") for path in ROOT.rglob("*.md")
                 if ".git" not in path.parts and path not in generated}
     markdown.update(generated)
     for path, content in markdown.items():
@@ -395,7 +409,7 @@ def main():
             path = ROOT / name
             if not path.is_file():
                 errors.append(f"{name} is missing; run python3 scripts/catalogue.py --write")
-            elif path.read_text() != content:
+            elif path.read_text(encoding="utf-8") != content:
                 errors.append(f"{name} is stale; run python3 scripts/catalogue.py --write")
     if errors:
         for error in errors:
@@ -403,7 +417,7 @@ def main():
         raise SystemExit(1)
     if args.write:
         for name, content in documents.items():
-            (ROOT / name).write_text(content)
+            (ROOT / name).write_text(content, encoding="utf-8")
         print(f"Wrote {', '.join(documents)} with {len(entries)} open targets and {len(manifest['retired'])} retained entries.")
     else:
         print(f"Validated {len(entries)} unique problems, metadata, required sections, math delimiters, local links, and freshness of {', '.join(documents)}.")

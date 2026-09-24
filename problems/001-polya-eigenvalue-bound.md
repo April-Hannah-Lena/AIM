@@ -35,3 +35,5 @@ These bounds would turn the leading Weyl approximation into a rigorous bound for
 The 2023 paper states the general conjecture and proves ball cases. The 2026 annulus paper treats Dirichlet annuli. The July 2026 preprint completes the higher-dimensional Neumann ball case. None asserts the displayed inequalities for arbitrary Lipschitz domains.
 
 **Search audit:** “Pólya conjecture Dirichlet Neumann general domains 2025 2026”; “Pólya higher dimensional Neumann balls”. Searches included proof, counterexample, and 2025–2026 updates. This is a literature search result, not a certification that no proof exists.
+
+**Repository research:** The [current programme record](../research/automated_attempts/001/STATUS.md) contains a conditional planar third-Neumann-mode route. The required simultaneous moment cancellation and overlap bound remain unproved, and the conditional analytic argument still needs independent checking. Finite algebra checks do not establish these hypotheses or resolve the all-index conjecture.

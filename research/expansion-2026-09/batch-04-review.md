@@ -8,16 +8,16 @@ Ten accepted additions are integrated and published on main as 331–340. All ha
 
 | ID | Topic | Primary section |
 | --- | --- | --- |
-| 331 | Symmetric rendezvous | stochastic3 |
-| 332 | Polynomial deletion-trace sample complexity | inverse3 |
-| 333 | Generalized Wright attraction | inverse |
-| 334 | Strong thin-tree conjecture | stochastic3 |
-| 335 | Chemotaxis-consumption classical continuation | continuum3 |
-| 336 | Fixed-order prefix discrepancy | operators |
-| 337 | Classical uniform DNF learning | applied |
-| 338 | Aaronson–Ambainis influence | operators |
-| 339 | Molecular-clock ancestral accuracy | stochastic2 |
-| 340 | Two-sided Gaussian Simes error control | applied |
+| 323 | Symmetric rendezvous | stochastic3 |
+| 324 | Polynomial deletion-trace sample complexity | inverse3 |
+| 325 | Generalized Wright attraction | inverse |
+| 326 | Strong thin-tree conjecture | stochastic3 |
+| 327 | Chemotaxis-consumption classical continuation | continuum3 |
+| 328 | Fixed-order prefix discrepancy | operators |
+| 329 | Classical uniform DNF learning | applied |
+| 330 | Aaronson–Ambainis influence | operators |
+| 331 | Molecular-clock ancestral accuracy | stochastic2 |
+| 332 | Two-sided Gaussian Simes error control | applied |
 
 The immediate status searches are R4-1 through R4-18 in the [actual search log](search-log.json), supplemented by the same-day A41/S297 Simes review. Individual ledgers record the outcomes and full earlier scope comparisons. Current primary records for the generalized Wright bound and ECCC TR26-188 were reopened. Daga's beyond-laminar title still has no manuscript link. Recurring search results concern restricted models already reviewed; AI-generated problem databases were not used as scholarly evidence.
 

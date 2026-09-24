@@ -1,6 +1,6 @@
 {
   "candidate_id": "subset-sum-support-concentration",
-  "proposed_catalogue_id": "356",
+  "proposed_catalogue_id": "348",
   "title": "The sharp support–concentration bound for subset sums",
   "primary_section": "applied",
   "secondary_tags": [
@@ -391,8 +391,8 @@
       "distinction": "A comparison of integer and fractional cutting-stock optima, with exact ceiling-plus-one gap. Shared packing relevance does not identify its assertion with a subset-sum entropy bound."
     },
     {
-      "id": 326,
-      "path": "problems/326-online-bin-packing-optimal-ratio.md",
+      "id": 318,
+      "path": "problems/318-online-bin-packing-optimal-ratio.md",
       "full_statement_read": true,
       "distinction": "The best asymptotic competitive ratio of deterministic online packing. Its unknown-arrival decision model and objective differ from this inequality for fixed input weights."
     }
@@ -468,7 +468,7 @@
     "verified_remote_commit": "0b1548b97fb283bd5478387bbeb21c6e233ca348",
     "method": "Normal direct push; a subsequent authenticated ls-remote read matched the exact content commit. No PR, per user authorization."
   },
-  "public_page_path": "problems/356-subset-sum-support-concentration.md",
+  "public_page_path": "problems/348-subset-sum-support-concentration.md",
   "batch_validation": {
     "batch": "351–360",
     "date": "2026-09-19",

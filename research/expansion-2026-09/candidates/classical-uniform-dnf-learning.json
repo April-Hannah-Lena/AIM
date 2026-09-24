@@ -1,6 +1,6 @@
 {
   "candidate_id": "classical-uniform-dnf-learning",
-  "proposed_catalogue_id": "337",
+  "proposed_catalogue_id": "329",
   "title": "Polynomial-time DNF learning from uniform random examples",
   "aliases": [
     "Uniform-distribution DNF learning",
@@ -748,15 +748,15 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "317",
+        "id": "309",
         "difference": "Dense fixed-noise parity-secret recovery asks for negligible recovery probability. This is noiseless prediction for arbitrary DNF; a general n-bit parity can require exponentially many DNF terms."
       },
       {
-        "id": "318",
+        "id": "310",
         "difference": "Compression maps for every finite VC class have no runtime requirement and reconstruct finite samples from retained data; this asks for a uniform efficient predictor for one representation class."
       },
       {
-        "id": "303",
+        "id": "295",
         "difference": "Planted-clique detection concerns two graph laws and nonvanishing testing advantage, not labeled Boolean-rule prediction."
       }
     ],
@@ -796,7 +796,7 @@
     ],
     "verdict": "accept_open"
   },
-  "public_page_path": "problems/337-classical-uniform-dnf-learning.md",
+  "public_page_path": "problems/329-classical-uniform-dnf-learning.md",
   "draft_path": "research/expansion-2026-09/drafts/classical-uniform-dnf-learning.md",
   "validation_results": [
     {

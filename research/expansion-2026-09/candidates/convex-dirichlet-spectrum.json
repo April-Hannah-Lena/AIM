@@ -1,6 +1,6 @@
 {
   "candidate_id": "convex-dirichlet-spectrum",
-  "proposed_catalogue_id": "306",
+  "proposed_catalogue_id": "298",
   "title": "Dirichlet spectral determination of smooth strictly convex planar domains",
   "aliases": [
     "hearing the shape of a convex drum",
@@ -274,11 +274,11 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "060",
+        "id": "057",
         "difference": "Boundary-distance recovery uses labeled geometric measurements rather than the Dirichlet eigenvalue multiset."
       },
       {
-        "id": "069",
+        "id": "066",
         "difference": "Billiard integrability characterizes ellipses; does not assert global inverse spectral uniqueness."
       },
       {
@@ -331,7 +331,7 @@
     ],
     "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented."
   },
-  "public_page_path": "problems/306-convex-dirichlet-spectrum.md",
+  "public_page_path": "problems/298-convex-dirichlet-spectrum.md",
   "validation_results": [
     {
       "date": "2026-09-17",

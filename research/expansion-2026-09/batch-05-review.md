@@ -8,16 +8,16 @@ Ten accepted additions are integrated and published on main as 341–350. Each h
 
 | ID | Topic | Primary section |
 | --- | --- | --- |
-| 341 | Sharp matroid secretary guarantee | stochastic3 |
-| 342 | Optimal asymptotic binary-code rate | inverse3 |
-| 343 | Stability under arbitrary switching | inverse2 |
-| 344 | List edge-colouring | stochastic3 |
-| 345 | Chemostat exclusion with unequal removal | stochastic3 |
-| 346 | Tuza triangle packing–covering | applied |
-| 347 | Binary skew-symmetric broadcast capacity | inverse3 |
-| 348 | Reed chromatic-number bound | applied |
-| 349 | Polynomial local-stability decidability | inverse2 |
-| 350 | Unit-job prescribed-machine scheduling hardness | stochastic3 |
+| 333 | Sharp matroid secretary guarantee | stochastic3 |
+| 334 | Optimal asymptotic binary-code rate | inverse3 |
+| 335 | Stability under arbitrary switching | inverse2 |
+| 336 | List edge-colouring | stochastic3 |
+| 337 | Chemostat exclusion with unequal removal | stochastic3 |
+| 338 | Tuza triangle packing–covering | applied |
+| 339 | Binary skew-symmetric broadcast capacity | inverse3 |
+| 340 | Reed chromatic-number bound | applied |
+| 341 | Polynomial local-stability decidability | inverse2 |
+| 342 | Unit-job prescribed-machine scheduling hardness | stochastic3 |
 
 The immediate publication searches are R5-1 through R5-27 in the [actual search log](search-log.json), following A42–A51 research reviews. All ten complete drafts were reread. Primary version records for the September 17 linear-matroid result and September 10 path-complete stability algorithm still match the versions already reviewed. Individual ledgers retain exact models, theorem locations and access limits.
 

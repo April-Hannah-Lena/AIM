@@ -2,7 +2,7 @@
 
 **Area:** Online optimization and resource allocation
 
-**Status:** Accepted; integrated as entry 326
+**Status:** Accepted; integrated as entry 318
 
 **Last checked:** 2026-09-17
 
@@ -52,6 +52,6 @@ Several nearby results require care. The optimal absolute ratio $5/3$ does not d
 
 Searches on September 17, 2026 covered asymptotic/absolute performance, classic online packing, current bounds, original and later authors, proof and counterexample claims, corrections and withdrawals, 2025–2026 and unrestricted dates. Full scope comparisons, independent corroboration and access limits are recorded in the [candidate ledger](../candidates/online-bin-packing-optimal-ratio.json). The dated review is not a certificate that no unindexed result exists.
 
-The [mobile-server problem](../../../problems/286-deterministic-k-server.md) concerns movement cost for a fixed number of servers; this question minimizes the number of fixed-capacity bins. Unrelated-machine and precedence scheduling likewise have different objectives and input models. This is one canonical competitive-ratio question, without separate entries for algorithms, size classes or numerical improvements.
+This question minimizes the number of fixed-capacity bins. Unrelated-machine and precedence scheduling likewise have different objectives and input models. This is one canonical competitive-ratio question, without separate entries for algorithms, size classes or numerical improvements.
 
-Integrated as [entry 326](../../../problems/326-online-bin-packing-optimal-ratio.md) after the September 17, 2026 batch refresh.
+Integrated as [entry 318](../../../problems/318-online-bin-packing-optimal-ratio.md) after the September 17, 2026 batch refresh.

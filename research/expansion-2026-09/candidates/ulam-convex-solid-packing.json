@@ -1,6 +1,6 @@
 {
   "candidate_id": "ulam-convex-solid-packing",
-  "proposed_catalogue_id": "360",
+  "proposed_catalogue_id": "352",
   "title": "The ball as the least densely packable convex solid",
   "primary_section": "continuum3",
   "secondary_tags": [
@@ -239,18 +239,18 @@
   ],
   "nearest_existing_entries": [
     {
-      "id": "247",
-      "path": "problems/247-regular-tetrahedron-packing.md",
+      "id": "241",
+      "path": "problems/241-regular-tetrahedron-packing.md",
       "difference": "Exact maximum density of one fixed regular tetrahedron; this entry compares every convex body to the sphere. Its tetrahedron instance already satisfies the lower bound, while the exact fixed-shape optimum is unknown."
     },
     {
-      "id": "091",
-      "path": "problems/091-bcc-quantization.md",
+      "id": "087",
+      "path": "problems/087-bcc-quantization.md",
       "difference": "Quadratic nearest-point distortion of point configurations and Voronoi cells, not volume occupied by nonoverlapping congruent solids."
     },
     {
-      "id": "251",
-      "path": "problems/251-constant-width-volume.md",
+      "id": "245",
+      "path": "problems/245-constant-width-volume.md",
       "difference": "Minimum volume of a single constant-width body, with a width constraint and no assembly-density optimization."
     }
   ],
@@ -370,7 +370,7 @@
     "external_link_record": "research/expansion-2026-09/ulam-convex-solid-packing-link-check.json",
     "local_links": "All 4 local links resolve."
   },
-  "public_page_path": "problems/360-ulam-convex-solid-packing.md",
+  "public_page_path": "problems/352-ulam-convex-solid-packing.md",
   "batch_validation": {
     "batch": "351–360",
     "date": "2026-09-19",

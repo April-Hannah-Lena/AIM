@@ -1,6 +1,6 @@
 {
   "candidate_id": "fitch-ultrametric-ancestral-accuracy",
-  "proposed_catalogue_id": "339",
+  "proposed_catalogue_id": "331",
   "title": "Accuracy of parsimony reconstruction under a molecular clock",
   "decision": "accept_open",
   "decision_reason": "Explicit source conjecture and independently authored specialist corroboration for r>4; later and potentially conflicting results compared at their actual scope; duplicate and separated A40 reviews passed.",
@@ -50,7 +50,7 @@
     }
   ],
   "draft_path": "research/expansion-2026-09/drafts/fitch-ultrametric-ancestral-accuracy.md",
-  "public_page_path": "problems/339-fitch-ultrametric-ancestral-accuracy.md",
+  "public_page_path": "problems/331-fitch-ultrametric-ancestral-accuracy.md",
   "actual_status_check_date": "2026-09-18",
   "second_review": {
     "status": "passed",

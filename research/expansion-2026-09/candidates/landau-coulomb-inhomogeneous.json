@@ -1,6 +1,6 @@
 {
   "candidate_id": "landau-coulomb-inhomogeneous",
-  "proposed_catalogue_id": "308",
+  "proposed_catalogue_id": "300",
   "title": "Global classical solutions of the spatially inhomogeneous Landau–Coulomb equation",
   "aliases": [
     "inhomogeneous Coulomb Landau global regularity",
@@ -570,23 +570,23 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "080",
+        "id": "076",
         "difference": "Boltzmann global classical regularity uses a different collision operator."
       },
       {
-        "id": "157",
+        "id": "152",
         "difference": "Homogeneous Landau particle approximation asks convergence of an N-particle model."
       },
       {
-        "id": "155",
+        "id": "150",
         "difference": "Vlasov mean-field limit has a different collisionless model and target."
       },
       {
-        "id": "156",
+        "id": "151",
         "difference": "Tagged-particle diffusion concerns a stochastic limit."
       },
       {
-        "id": "236",
+        "id": "230",
         "difference": "Weak Boltzmann uniqueness is not classical Landau continuation."
       }
     ],
@@ -642,7 +642,7 @@
     ],
     "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented."
   },
-  "public_page_path": "problems/308-landau-coulomb-inhomogeneous.md",
+  "public_page_path": "problems/300-landau-coulomb-inhomogeneous.md",
   "validation_results": [
     {
       "date": "2026-09-17",

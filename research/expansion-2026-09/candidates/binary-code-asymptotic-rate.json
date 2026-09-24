@@ -1,6 +1,6 @@
 {
   "candidate_id": "binary-code-asymptotic-rate",
-  "proposed_catalogue_id": "342",
+  "proposed_catalogue_id": "334",
   "title": "The optimal asymptotic rate of binary error-correcting codes",
   "decision": "accept_open",
   "decision_reason": "Explicit published problem, independent current specialist corroboration, full relevant claim-scope comparisons, duplicate screening and separated A43 self-review passed.",
@@ -473,7 +473,7 @@
     }
   ],
   "draft_path": "research/expansion-2026-09/drafts/binary-code-asymptotic-rate.md",
-  "public_page_path": "problems/342-binary-code-asymptotic-rate.md",
+  "public_page_path": "problems/334-binary-code-asymptotic-rate.md",
   "public_status": "Open in cited literature; no later resolution located as of 2026-09-18.",
   "second_review": {
     "status": "passed",

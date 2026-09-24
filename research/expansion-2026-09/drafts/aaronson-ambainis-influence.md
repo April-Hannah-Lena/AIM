@@ -2,7 +2,7 @@
 
 **Area:** Boolean Fourier analysis and quantum query complexity
 
-**Status:** Accepted; integrated as entry 338
+**Status:** Accepted; integrated as entry 330
 
 **Last checked:** 2026-09-18
 
@@ -52,8 +52,8 @@ In [4, Theorem 6.4], the influential coordinate belongs to a randomly restricted
 
 The [evidence record](../candidates/aaronson-ambainis-influence.json) also compares the Liu–Mutreja parallel-query theorem, noncommutative counterexamples, unconditional randomness certification, and Agarwal–Ben-David's 2026 switching lemma. The latter still applies after a dimension-dependent random restriction. The others concern different models or consequences. Relevant full statements and scope discussions were read; complete proofs have not been independently certified. Historical bounds were checked through explicit scholarly restatements.
 
-This differs from the mutual-information optimization in [entry 269](../../../problems/269-most-informative-boolean-function.md), exact communication in [entry 301](../../../problems/301-log-rank.md), and efficient learning from examples in the [DNF draft](classical-uniform-dnf-learning.md). Equivalent influence conventions and the simulation consequence receive no additional count. The separated A39 adversarial self-pass passed on September 18; no independent agent or human review is claimed.
+This differs from exact communication in [entry 293](../../../problems/293-log-rank.md), and efficient learning from examples in the [DNF draft](classical-uniform-dnf-learning.md). Equivalent influence conventions and the simulation consequence receive no additional count. The separated A39 adversarial self-pass passed on September 18; no independent agent or human review is claimed.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
 
-Integrated page: [338. Aaronson–Ambainis influential-variable conjecture](../../../problems/338-aaronson-ambainis-influence.md).
+Integrated page: [338. Aaronson–Ambainis influential-variable conjecture](../../../problems/330-aaronson-ambainis-influence.md).

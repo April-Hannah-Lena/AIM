@@ -7962,19 +7962,6 @@
     "limitations": "Some queries returned irrelevant popular summaries; those were not used as evidence. Source list records combined follow-up, not every query returning every source."
   },
   {
-    "search_id": "B286-1",
-    "searched_on": "2026-09-17",
-    "discovery_route": "web search",
-    "query": "\"k-server conjecture is true\" correction erratum withdrawn",
-    "date_filter_or_unrestricted": "unrestricted (literal year where shown)",
-    "review_stage": "Separate baseline status follow-up, not a new candidate.",
-    "results_inspected": [
-      "arXiv:2609.15979v1"
-    ],
-    "outcome": "Matching baseline k-server claim; version history still v1. See baseline-status-followup.md.",
-    "limitations": "Full proof and independent assessment not reviewed."
-  },
-  {
     "search_id": "S220-1",
     "searched_on": "2026-09-17",
     "discovery_route": "web search",
@@ -14496,7 +14483,7 @@
     "discovery_route": "web search",
     "query": "\"three machines\" \"unit\" \"precedence\" open problem 2026",
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
-    "review_stage": "Discovery; three-processor model already covered by entry 312. UMPS appeared as a separate lead."
+    "review_stage": "Discovery; three-processor model already covered by entry 304. UMPS appeared as a separate lead."
   },
   {
     "search_id": "S389-2",
@@ -14504,7 +14491,7 @@
     "discovery_route": "web search",
     "query": "\"P3\" \"prec\" \"complexity\" scheduling open",
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
-    "review_stage": "Discovery; three-processor model already covered by entry 312. UMPS appeared as a separate lead."
+    "review_stage": "Discovery; three-processor model already covered by entry 304. UMPS appeared as a separate lead."
   },
   {
     "search_id": "S389-3",
@@ -14512,7 +14499,7 @@
     "discovery_route": "web search",
     "query": "\"precedence constrained scheduling\" \"unit\" \"fixed\" 2025 2026 NP-hard",
     "date_filter_or_unrestricted": "unrestricted; literal years where shown",
-    "review_stage": "Discovery; three-processor model already covered by entry 312. UMPS appeared as a separate lead."
+    "review_stage": "Discovery; three-processor model already covered by entry 304. UMPS appeared as a separate lead."
   },
   {
     "search_id": "S390-1",
@@ -16232,7 +16219,7 @@
     "query": "\"opaque barrier\" square \"2026\"",
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal year where shown",
-    "review_stage": "New-family discovery after EoP publication: opaque-square lead is duplicate 129; carrying-simplex hits overlap 311; autocatalytic-core stationary uniqueness is an unreviewed biology lead."
+    "review_stage": "New-family discovery after EoP publication: opaque-square lead is duplicate 124; carrying-simplex hits overlap 311; autocatalytic-core stationary uniqueness is an unreviewed biology lead."
   },
   {
     "search_id": "S423-2",
@@ -16240,7 +16227,7 @@
     "query": "\"minimum opaque\" \"square\" open",
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal year where shown",
-    "review_stage": "New-family discovery after EoP publication: opaque-square lead is duplicate 129; carrying-simplex hits overlap 311; autocatalytic-core stationary uniqueness is an unreviewed biology lead."
+    "review_stage": "New-family discovery after EoP publication: opaque-square lead is duplicate 124; carrying-simplex hits overlap 311; autocatalytic-core stationary uniqueness is an unreviewed biology lead."
   },
   {
     "search_id": "S423-3",
@@ -16248,7 +16235,7 @@
     "query": "\"mathematical biology\" \"open conjecture\" \"2026\"",
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal year where shown",
-    "review_stage": "New-family discovery after EoP publication: opaque-square lead is duplicate 129; carrying-simplex hits overlap 311; autocatalytic-core stationary uniqueness is an unreviewed biology lead."
+    "review_stage": "New-family discovery after EoP publication: opaque-square lead is duplicate 124; carrying-simplex hits overlap 311; autocatalytic-core stationary uniqueness is an unreviewed biology lead."
   },
   {
     "search_id": "S423-4",
@@ -16256,7 +16243,7 @@
     "query": "\"carrying simplex\" \"conjecture\" \"open\" 2025 2026",
     "discovery_route": "web search",
     "date_filter_or_unrestricted": "unrestricted; literal year where shown",
-    "review_stage": "New-family discovery after EoP publication: opaque-square lead is duplicate 129; carrying-simplex hits overlap 311; autocatalytic-core stationary uniqueness is an unreviewed biology lead."
+    "review_stage": "New-family discovery after EoP publication: opaque-square lead is duplicate 124; carrying-simplex hits overlap 311; autocatalytic-core stationary uniqueness is an unreviewed biology lead."
   },
   {
     "search_id": "S424-1",

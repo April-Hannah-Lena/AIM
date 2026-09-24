@@ -1,5 +1,7 @@
 # Global attraction in D-stable Lotka–Volterra systems
 
+**Integrated:** [505 — canonical entry](../../../problems/497-lotka-volterra-d-stable-global-attraction.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
+
 **Area:** Population dynamics and nonlinear stability
 
 **Status:** Open in cited literature; no later resolution located.
@@ -61,4 +63,4 @@ The general Markus–Yamabe conjecture is false in dimensions at least three [5]
 
 The [evidence record](../candidates/lotka-volterra-d-stable-global-attraction.json) records theorem comparisons, source versions and access limits. The original Hofbauer–Sigmund book formulation was not inspected; the complete restatements in [1, 2] were read. The published Hong–Pego article's identity was checked, while its mathematics was read in the institutional manuscript. The author text [6] was readable through the browser despite a direct-download restriction. Research was followed by a separated adversarial self-review; no independent expert review or proof certification is claimed.
 
-The [carrying-simplex question](../../../problems/311-carrying-simplex-interior.md) concerns differentiability for discrete competitive population maps. The [chemostat question](../../../problems/345-chemostat-unequal-removal-exclusion.md) concerns resource-mediated competitive exclusion. The [local-stability decidability question](../../../problems/349-polynomial-local-stability-decidability.md) asks for a terminating algorithm for general polynomial systems. These have different models or conclusions. Dimensions, sign subclasses and equivalent formulations are counted as one family here.
+The [carrying-simplex question](../../../problems/303-carrying-simplex-interior.md) concerns differentiability for discrete competitive population maps. The [chemostat question](../../../problems/337-chemostat-unequal-removal-exclusion.md) concerns resource-mediated competitive exclusion. The [local-stability decidability question](../../../problems/341-polynomial-local-stability-decidability.md) asks for a terminating algorithm for general polynomial systems. These have different models or conclusions. Dimensions, sign subclasses and equivalent formulations are counted as one family here.

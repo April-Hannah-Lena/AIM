@@ -1,0 +1,552 @@
+[
+  {
+    "id": "001",
+    "classification": "withdrawn_or_corrected_claim",
+    "note": "Yue He's 2014 general Polya proof was withdrawn in v2, citing a crucial error on page 5.",
+    "sources": [
+      "https://arxiv.org/abs/1411.1135v2"
+    ]
+  },
+  {
+    "id": "004",
+    "classification": "partial_or_different_target",
+    "note": "Convex sufficiently large polygons or local torsion results do not prove global Dirichlet minimization for every polygon.",
+    "sources": [
+      "https://arxiv.org/abs/2609.18500"
+    ]
+  },
+  {
+    "id": "022",
+    "classification": "partial_or_different_target",
+    "note": "Robin parameter-ratio monotonicity is not fixed-volume maximization.",
+    "sources": [
+      "https://arxiv.org/abs/2609.23544"
+    ]
+  },
+  {
+    "id": "025",
+    "classification": "partial_or_different_target",
+    "note": "Scalar Crouzeix results do not settle all matrix amplifications. Palomar lean-operator-theory registers the 1+sqrt(2) polynomial bound, not the complete constant 2.",
+    "sources": [
+      "https://arxiv.org/abs/2608.03841"
+    ]
+  },
+  {
+    "id": "028",
+    "classification": "other_unverified_claim",
+    "note": "Sopin's 2022 EasyChair preprint explicitly claims all Hadamard orders via descent from 4nm to 4n. No accepted general resolution established. Palomar finite-order constructions do not prove all orders.",
+    "sources": [
+      "https://easychair.org/publications/preprint/tkTH",
+      "https://palomar-registry.org/entry?id=PALOMAR-2026-08-31-000001&version=1"
+    ]
+  },
+  {
+    "id": "034",
+    "classification": "other_unverified_claim",
+    "note": "Sperling-Vogel 2009 v2 explicitly claims that all NPT entanglement is distillable. The revision acknowledges criticism of the previous proof; current record is not withdrawn. No independent acceptance of a full resolution established; later literature still studies the open all-copy problem.",
+    "sources": [
+      "https://arxiv.org/abs/0910.0744v2"
+    ]
+  },
+  {
+    "id": "049",
+    "classification": "partial_or_different_target",
+    "note": "Near-Euclidean, quasianalytic or symmetry-restricted anisotropic inverse results do not settle arbitrary smooth metrics at zero potential/energy.",
+    "sources": [
+      "https://arxiv.org/abs/2609.17261",
+      "https://arxiv.org/abs/2608.15813",
+      "https://arxiv.org/abs/2605.21705"
+    ]
+  },
+  {
+    "id": "054",
+    "classification": "disputed_or_incomplete_claim",
+    "note": "Ramm's 2010 backscattering uniqueness claim has an explicit published gap identified by Rakesh-Uhlmann (2014), p.8: analytic scattering solutions are confused with CGO solutions. It is not an established resolution.",
+    "sources": [
+      "https://arxiv.org/abs/1007.2918",
+      "https://arxiv.org/pdf/1307.0877"
+    ]
+  },
+  {
+    "id": "056",
+    "classification": "other_unverified_claim",
+    "note": "Ramm 2016 Theorem 1 explicitly claims unrestricted obstacle uniqueness from fixed incident direction/frequency. Later Colton-Kress survey still calls the general question open. Record the published claim, but do not equate publication with settlement.",
+    "sources": [
+      "https://math.k-state.edu/~ramm/papers/661j.pdf",
+      "https://num.math.uni-goettingen.de/kress/looking-back.pdf"
+    ]
+  },
+  {
+    "id": "067",
+    "classification": "withdrawn_or_corrected_claim",
+    "note": "Knill's original 1999 standard-map entropy proof was deleted in the 2005 revision; current abstract explicitly calls it incorrect and retains the open problem.",
+    "sources": [
+      "https://arxiv.org/abs/math/9908014v2"
+    ]
+  },
+  {
+    "id": "073",
+    "classification": "other_unverified_claim",
+    "note": "Pavesi's Zenodo v3 (4 July 2026) explicitly claims smooth global existence and uniqueness for arbitrary smooth divergence-free data on T3. Aksman's 25 August Zenodo presentation makes another global-regularity claim, but its PDF scope could not be retrieved. No independent verification established. The Pavesi abstract is an exact-scope announcement; OpenAI's forced blowup is a different target.",
+    "sources": [
+      "https://zenodo.org/records/21194906",
+      "https://zenodo.org/records/22098919",
+      "https://openai.com/index/navier-stokes-solution/"
+    ]
+  },
+  {
+    "id": "080",
+    "classification": "partial_or_different_target",
+    "note": "Compact-data ground-state/velocity restrictions do not cover the unrestricted target.",
+    "sources": []
+  },
+  {
+    "id": "081",
+    "classification": "partial_or_different_target",
+    "note": "Zenodo spectral-confinement posting is conditional Navier-Stokes work and a magnetic-field discussion, not a theorem settling smooth 2D ideal MHD.",
+    "sources": [
+      "https://zenodo.org/records/20812093"
+    ]
+  },
+  {
+    "id": "090",
+    "classification": "partial_or_different_target",
+    "note": "The percolation result proves an alternative; it does not assert absence of an infinite cluster at the catalogue's 3D bond critical point.",
+    "sources": [
+      "https://arxiv.org/abs/2608.23661"
+    ]
+  },
+  {
+    "id": "091",
+    "classification": "partial_or_different_target",
+    "note": "Anisotropic KPZ is a different equation from the stated isotropic target.",
+    "sources": [
+      "https://arxiv.org/abs/2608.30904"
+    ]
+  },
+  {
+    "id": "093",
+    "classification": "other_unverified_claim",
+    "note": "Hueter's 2001 v2 claims the planar RMS exponent 3/4. Already mentioned in the repository. Current record retains the claim; later specialist literature still treats the exponent as unresolved. Do not label solved.",
+    "sources": [
+      "https://arxiv.org/abs/math/0108077v2"
+    ]
+  },
+  {
+    "id": "094",
+    "classification": "partial_or_different_target",
+    "note": "A logarithmic-dimensional bound does not give a dimension-free KLS constant.",
+    "sources": [
+      "https://arxiv.org/abs/2607.24164"
+    ]
+  },
+  {
+    "id": "095",
+    "classification": "other_unverified_claim",
+    "note": "Yan-Li-Guo's 2020 paper, current v14 (2022), claims a strongly polynomial simplex algorithm and at most n pivots. Full arithmetic cost, auxiliary computations and precise ordinary-pivot requirements were not validated. Later 2026 specialist source in the catalogue still states the general question as open.",
+    "sources": [
+      "https://arxiv.org/abs/2006.11466v14",
+      "https://doi.org/10.4230/LIPIcs.STACS.2026.31"
+    ]
+  },
+  {
+    "id": "099",
+    "classification": "partial_or_different_target",
+    "note": "Siraji's July 2026 manuscript explicitly says its selected-channel entropy obstruction neither proves nor disproves Simon's conjecture.",
+    "sources": [
+      "https://www.researchgate.net/publication/410759563_Simon%27s_Multidimensional_L_2_Conjecture_and_the_Failure_of_Fixed-Potential_Selected-Channel_Entropy_Plucker-Schur_reductions_and_a_reciprocal_Riesz-Talbot_construction"
+    ]
+  },
+  {
+    "id": "102",
+    "classification": "partial_or_different_target",
+    "note": "Multiple fractional nuclei differ from the one integer-charge atom; already distinguished in the catalogue.",
+    "sources": [
+      "https://arxiv.org/abs/2409.08632"
+    ]
+  },
+  {
+    "id": "113",
+    "classification": "partial_or_different_target",
+    "note": "Increasing boundary-component count does not settle multiplicity at fixed topology/boundary count.",
+    "sources": [
+      "https://arxiv.org/abs/2412.07692"
+    ]
+  },
+  {
+    "id": "127",
+    "classification": "partial_or_different_target",
+    "note": "Non-equiregular branching examples do not settle the equiregular target.",
+    "sources": [
+      "https://arxiv.org/abs/2603.23068"
+    ]
+  },
+  {
+    "id": "129",
+    "classification": "partial_or_different_target",
+    "note": "Cartan-Hadamard announcement covers dimensions 3 through 9; catalogue asks for every dimension >=5, leaving >=10.",
+    "sources": [
+      "https://arxiv.org/abs/2609.20517"
+    ]
+  },
+  {
+    "id": "131",
+    "classification": "withdrawn_or_corrected_claim",
+    "note": "Tibboel's Saari proof was withdrawn in v5 (22 March 2024) because of an error in the main theorem proof.",
+    "sources": [
+      "https://arxiv.org/abs/2212.09718v5"
+    ]
+  },
+  {
+    "id": "132",
+    "classification": "partial_or_different_target",
+    "note": "Located central-configuration results impose generic masses, a fixed subconfiguration or a fixed small body count; no all-mass/all-body theorem located.",
+    "sources": []
+  },
+  {
+    "id": "133",
+    "classification": "partial_or_different_target",
+    "note": "The latent-framework paper labels its general almost-everywhere assertion conditional; its unconditional N<=4 cases do not settle the target.",
+    "sources": [
+      "https://thalens.org/papers/phy_nbody_latent_solution/"
+    ]
+  },
+  {
+    "id": "136",
+    "classification": "partial_or_different_target",
+    "note": "Variational reformulation still optimizes over quantizers and gives numerical/asymptotic results rather than the exact global Witsenhausen optimum.",
+    "sources": [
+      "https://arxiv.org/abs/2609.18992"
+    ]
+  },
+  {
+    "id": "138",
+    "classification": "partial_or_different_target",
+    "note": "Critical bit-pipe relay capacity does not give the full Gaussian-relay capacity formula.",
+    "sources": [
+      "https://arxiv.org/abs/1701.02043"
+    ]
+  },
+  {
+    "id": "139",
+    "classification": "partial_or_different_target",
+    "note": "Capacity within 0.01 bit is not an exact binary deletion-channel capacity determination.",
+    "sources": [
+      "https://arxiv.org/abs/2609.19412"
+    ]
+  },
+  {
+    "id": "149",
+    "classification": "partial_or_different_target",
+    "note": "Li-Sun Theorem 1.2 is for a prepared, modified equation. It does not supply the catalogue's globally invariant graph for the original semigroup; the authors' 2026 conference abstract still calls the original problem open.",
+    "sources": [
+      "https://arxiv.org/abs/1910.05939"
+    ]
+  },
+  {
+    "id": "153",
+    "classification": "partial_or_different_target",
+    "note": "Liouville result assumes additional head-pressure/velocity asymptotics already excluded by the catalogue.",
+    "sources": []
+  },
+  {
+    "id": "155",
+    "classification": "partial_or_different_target",
+    "note": "Planar W2,1 result is not the three-dimensional target.",
+    "sources": [
+      "https://arxiv.org/abs/2604.04592"
+    ]
+  },
+  {
+    "id": "158",
+    "classification": "partial_or_different_target",
+    "note": "A supercritical regularity result does not settle the unrestricted formulation.",
+    "sources": [
+      "https://arxiv.org/abs/2509.16692"
+    ]
+  },
+  {
+    "id": "175",
+    "classification": "partial_or_different_target",
+    "note": "Biased random-walk speed monotonicity is proved in a restricted bias/offspring range, not the entire target range.",
+    "sources": [
+      "https://arxiv.org/abs/1610.08151"
+    ]
+  },
+  {
+    "id": "180",
+    "classification": "partial_or_different_target",
+    "note": "Equivalence of Sznitman-type ballisticity conditions does not prove directional transience implies ballisticity.",
+    "sources": [
+      "https://arxiv.org/abs/1809.02011"
+    ]
+  },
+  {
+    "id": "182",
+    "classification": "partial_or_different_target",
+    "note": "Activated random walk on the line is not the catalogue's Z2 assertion.",
+    "sources": [
+      "https://arxiv.org/abs/2406.01731"
+    ]
+  },
+  {
+    "id": "191",
+    "classification": "withdrawn_or_corrected_claim",
+    "note": "Itoi v6 erratum states that the infinite-volume conclusion is not proved; finite-lattice statements do not settle the infinite planar ground-state pair.",
+    "sources": [
+      "https://arxiv.org/html/2012.11801v6"
+    ]
+  },
+  {
+    "id": "192",
+    "classification": "partial_or_different_target",
+    "note": "Weak uniqueness with nondegeneracy differs from pathwise uniqueness at the degenerate three-quarter Hölder endpoint.",
+    "sources": [
+      "https://arxiv.org/abs/2608.01279"
+    ]
+  },
+  {
+    "id": "203",
+    "classification": "partial_or_different_target",
+    "note": "Massless critical boson-star uniqueness gives only a near-critical consequence for massive stars, not every subcritical mass.",
+    "sources": [
+      "https://arxiv.org/abs/2609.23771"
+    ]
+  },
+  {
+    "id": "208",
+    "classification": "partial_or_different_target",
+    "note": "Qubit PPT-square or eventual entanglement-breaking indices do not settle two compositions in every dimension.",
+    "sources": [
+      "https://arxiv.org/abs/2608.13551"
+    ]
+  },
+  {
+    "id": "210",
+    "classification": "withdrawn_or_corrected_claim",
+    "note": "Sawyer's full Fourier-extension proof claim was withdrawn/replaced. Current v8 concerns comparison of trilinear testing conditions rather than the full restriction conjecture.",
+    "sources": [
+      "https://arxiv.org/abs/2411.18457v8"
+    ]
+  },
+  {
+    "id": "227",
+    "classification": "partial_or_different_target",
+    "note": "The Anadihilo search hit is about Navier-Stokes on R3, not an unconstrained Willmore surface flow. Constrained Willmore results change the equation.",
+    "sources": [
+      "https://www.anadihilo.org/2026/05/analytical-proof-of-finite-time.html?m=1"
+    ]
+  },
+  {
+    "id": "256",
+    "classification": "partial_or_different_target",
+    "note": "Polynomial-integral/strong-field magnetic billiards are narrower than unrestricted integrability.",
+    "sources": [
+      "https://arxiv.org/abs/2609.18937"
+    ]
+  },
+  {
+    "id": "275",
+    "classification": "partial_or_different_target",
+    "note": "The August-Barahona claim concerns deterministic persistence, not stochastic positive recurrence.",
+    "sources": []
+  },
+  {
+    "id": "276",
+    "classification": "other_unverified_claim",
+    "note": "August-Barahona 2010 explicitly claims general weakly reversible mass-action persistence, which would include bounded trajectories. Later primary literature (including the catalogue's 2026 reference) still treats persistence as conjectural. No independent confirmation of this older claim established. Deterministic claim does not settle stochastic entry 275.",
+    "sources": [
+      "https://doi.org/10.3182/20100707-3-BE-2012.0018",
+      "https://skoge.folk.ntnu.no/prost/proceedings/dycops-2010/Papers_CAB2010_common/WeMT3-03.pdf"
+    ]
+  },
+  {
+    "id": "279",
+    "classification": "partial_or_different_target",
+    "note": "The disjoint-arc sqrt(2) result is different from the Euclidean Steiner ratio sqrt(3)/2.",
+    "sources": []
+  },
+  {
+    "id": "291",
+    "classification": "partial_or_different_target",
+    "note": "The new q=4 paper proves static thermodynamic/correlation exponents, not polynomial-time mixing of the specified dynamics.",
+    "sources": [
+      "https://www.unige.ch/~duminil/publi/2026exponentsq=4"
+    ]
+  },
+  {
+    "id": "294",
+    "classification": "disputed_or_incomplete_claim",
+    "note": "Trahtman full Cerny claims remain findable, but Volkov's 2025 survey records that Trahtman acknowledged an error in February 2024. Subsequent 2026 work retains the conjecture.",
+    "sources": [
+      "https://arxiv.org/abs/1202.4626",
+      "https://arxiv.org/abs/2003.06177",
+      "https://arxiv.org/abs/2508.15655"
+    ]
+  },
+  {
+    "id": "296",
+    "classification": "disputed_or_incomplete_claim",
+    "note": "Vega's Hallelujah paper explicitly claims a UGC disproof, but graphwise ratios strictly below 2 do not by themselves give the uniform 2-epsilon bound required for that conclusion. DeSantis's 2019 mailing-list posting announces an informal proof but supplies links/primitives rather than a complete argument. Neither is an established settlement.",
+    "sources": [
+      "https://www.tandfonline.com/doi/full/10.1080/17445760.2026.2660724",
+      "https://www.preprints.org/manuscript/202510.2392/v1",
+      "https://lists.w3.org/Archives/Public/public-bitcoin/2019Oct/0001.html"
+    ]
+  },
+  {
+    "id": "301",
+    "classification": "partial_or_different_target",
+    "note": "Beyond Cut Metrics still leaves the general flow-cut target open; the new cases have terminal/planarity restrictions.",
+    "sources": [
+      "https://arxiv.org/abs/2608.06070"
+    ]
+  },
+  {
+    "id": "332",
+    "classification": "partial_or_different_target",
+    "note": "Mixed-mean Gaussian FDR counterexamples do not settle the all-null Simes target; already distinguished by the repository.",
+    "sources": [
+      "https://arxiv.org/abs/2607.12208"
+    ]
+  },
+  {
+    "id": "333",
+    "classification": "partial_or_different_target",
+    "note": "Constant 1/4 for all matroids does not settle the exact 1/e target; 1/e results for linear/special matroids are not all abstract matroids.",
+    "sources": [
+      "https://arxiv.org/abs/2609.14555",
+      "https://arxiv.org/abs/2609.19118",
+      "https://arxiv.org/abs/2609.20797"
+    ]
+  },
+  {
+    "id": "345",
+    "classification": "partial_or_different_target",
+    "note": "Renyi parameters strictly below 1 do not settle von Neumann entropy at 1.",
+    "sources": [
+      "https://arxiv.org/abs/2608.28897"
+    ]
+  },
+  {
+    "id": "368",
+    "classification": "partial_or_different_target",
+    "note": "Local second-order kinetic Harnack results differ from the nonlocal jump operator.",
+    "sources": [
+      "https://arxiv.org/abs/2609.15534"
+    ]
+  },
+  {
+    "id": "378",
+    "classification": "partial_or_different_target",
+    "note": "Nonlinear instability is not a finite-time blowup construction.",
+    "sources": [
+      "https://arxiv.org/abs/2607.19887"
+    ]
+  },
+  {
+    "id": "379",
+    "classification": "partial_or_different_target",
+    "note": "Projection-lift results for FENE-Markov fluids do not establish the large-data zero center-of-mass diffusion limit with no stress/transport defect.",
+    "sources": [
+      "https://arxiv.org/abs/2607.16993"
+    ]
+  },
+  {
+    "id": "385",
+    "classification": "partial_or_different_target",
+    "note": "Large-box screened/Yukawa damping is not unscreened whole-space Maxwellian Coulomb damping.",
+    "sources": [
+      "https://arxiv.org/abs/2609.15238"
+    ]
+  },
+  {
+    "id": "411",
+    "classification": "partial_or_different_target",
+    "note": "Exact polynomial solutions and a lower gradient-growth gap do not give an upper polynomial growth bound for every entire smooth minimal graph.",
+    "sources": [
+      "https://arxiv.org/abs/2609.08972"
+    ]
+  },
+  {
+    "id": "425",
+    "classification": "partial_or_different_target",
+    "note": "A result for s>1/2 leaves the critical H1/2 endpoint.",
+    "sources": [
+      "https://arxiv.org/abs/2609.24830"
+    ]
+  },
+  {
+    "id": "441",
+    "classification": "partial_or_different_target",
+    "note": "Finite potential energy from modulus asymptotics addresses a different Brezis question from the catalogue's radial classification.",
+    "sources": [
+      "https://arxiv.org/abs/2609.19020"
+    ]
+  },
+  {
+    "id": "458",
+    "classification": "partial_or_different_target",
+    "note": "k-Hessian or degenerate Lane-Emden results do not settle general smooth uniformly elliptic problems in the stated low dimensions.",
+    "sources": [
+      "https://arxiv.org/abs/2608.04422",
+      "https://arxiv.org/abs/2607.21024"
+    ]
+  },
+  {
+    "id": "462",
+    "classification": "partial_or_different_target",
+    "note": "Specially chosen noise and high-probability global existence differ from the universal almost-sure assertion.",
+    "sources": [
+      "https://arxiv.org/abs/2608.13332"
+    ]
+  },
+  {
+    "id": "463",
+    "classification": "partial_or_different_target",
+    "note": "Global existence at high probability for selected noise is not the stated critical local theory for all admissible fields.",
+    "sources": [
+      "https://arxiv.org/abs/2607.15140"
+    ]
+  },
+  {
+    "id": "476",
+    "classification": "partial_or_different_target",
+    "note": "The nonlocal-source result does not prove the local target and explicitly leaves higher-dimensional localization open.",
+    "sources": [
+      "https://arxiv.org/abs/2609.09921"
+    ]
+  },
+  {
+    "id": "480",
+    "classification": "partial_or_different_target",
+    "note": "Nonnegative-Ricci existence/smoothing results do not settle mass conservation for all solutions under the broader Ricci lower-bound assumptions.",
+    "sources": [
+      "https://arxiv.org/abs/2609.12954"
+    ]
+  },
+  {
+    "id": "484",
+    "classification": "partial_or_different_target",
+    "note": "Deterministic bounded-critical-norm criteria and specially chosen transport noise do not establish the catalogue's stochastic continuation criterion.",
+    "sources": [
+      "https://arxiv.org/abs/2607.15140"
+    ]
+  },
+  {
+    "id": "485",
+    "classification": "partial_or_different_target",
+    "note": "Deterministic SQG results do not settle the stated nonlinear multiplicative-noise equation.",
+    "sources": [
+      "https://arxiv.org/abs/2608.24375"
+    ]
+  },
+  {
+    "id": "486",
+    "classification": "partial_or_different_target",
+    "note": "Additive pair-friction results do not cover the arbitrary particle-number/interaction target.",
+    "sources": [
+      "https://arxiv.org/abs/2609.06732"
+    ]
+  }
+]

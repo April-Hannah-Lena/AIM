@@ -1,6 +1,6 @@
 {
   "candidate_id": "gaussian-broadcast-feedback",
-  "proposed_catalogue_id": "310",
+  "proposed_catalogue_id": "302",
   "title": "Capacity of the two-receiver Gaussian broadcast channel with feedback",
   "aliases": [
     "AWGN-BC-F capacity region",
@@ -457,15 +457,15 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "142",
+        "id": "137",
         "difference": "Binary multiplying two-way channel has two encoders, not one broadcast encoder."
       },
       {
-        "id": "143",
+        "id": "138",
         "difference": "Gaussian relay channel includes a relay and one destination."
       },
       {
-        "id": "144",
+        "id": "139",
         "difference": "Deletion channel has a distinct synchronization-noise law."
       },
       {
@@ -525,7 +525,7 @@
     ],
     "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented."
   },
-  "public_page_path": "problems/310-gaussian-broadcast-feedback.md",
+  "public_page_path": "problems/302-gaussian-broadcast-feedback.md",
   "validation_results": [
     {
       "date": "2026-09-17",

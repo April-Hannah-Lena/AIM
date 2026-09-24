@@ -1,282 +1,282 @@
 [
   {
-    "id": "396",
+    "id": "388",
     "slug": "equal-speed-wentzell-wave-observability",
     "title": "Observability of an acoustic shell at equal bulk and surface speeds",
     "area": "PDE control / acoustic boundary dynamics",
     "group": "inverse3",
-    "file": "problems/396-equal-speed-wentzell-wave-observability.md"
+    "file": "problems/388-equal-speed-wentzell-wave-observability.md"
   },
   {
-    "id": "397",
+    "id": "389",
     "slug": "slow-surface-schrodinger-observability",
     "title": "Boundary observation of a Schrödinger field with slower surface dispersion",
     "area": "PDE control / dispersive boundary dynamics",
     "group": "inverse3",
-    "file": "problems/397-slow-surface-schrodinger-observability.md"
+    "file": "problems/389-slow-surface-schrodinger-observability.md"
   },
   {
-    "id": "398",
+    "id": "390",
     "slug": "shallow-water-tank-sharp-control-time",
     "title": "The sharp local maneuvering time for a shallow-water tank",
     "area": "PDE control / fluid–structure dynamics",
     "group": "inverse3",
-    "file": "problems/398-shallow-water-tank-sharp-control-time.md"
+    "file": "problems/390-shallow-water-tank-sharp-control-time.md"
   },
   {
-    "id": "399",
+    "id": "391",
     "slug": "semigeostrophic-small-data-global-smoothness",
     "title": "Global smooth evolution of small semigeostrophic perturbations",
     "area": "Geophysical PDEs / optimal transport",
     "group": "continuum2",
-    "file": "problems/399-semigeostrophic-small-data-global-smoothness.md"
+    "file": "problems/391-semigeostrophic-small-data-global-smoothness.md"
   },
   {
-    "id": "400",
+    "id": "392",
     "slug": "semigeostrophic-bounded-vorticity-uniqueness",
     "title": "Uniqueness of bounded semigeostrophic potential vorticity",
     "area": "Geophysical PDEs / nonlinear transport",
     "group": "continuum2",
-    "file": "problems/400-semigeostrophic-bounded-vorticity-uniqueness.md"
+    "file": "problems/392-semigeostrophic-bounded-vorticity-uniqueness.md"
   },
   {
-    "id": "401",
+    "id": "393",
     "slug": "planar-monge-ampere-sharp-hessian-integrability",
     "title": "Sharp weak integrability of planar Monge–Ampère Hessians",
     "area": "Nonlinear elliptic PDEs / optimal transport",
     "group": "continuum2",
-    "file": "problems/401-planar-monge-ampere-sharp-hessian-integrability.md"
+    "file": "problems/393-planar-monge-ampere-sharp-hessian-integrability.md"
   },
   {
-    "id": "402",
+    "id": "394",
     "slug": "affine-bernstein-entire-low-dimensions",
     "title": "Affine Bernstein rigidity in dimensions three through nine",
     "area": "Fourth-order elliptic PDEs / geometric variational problems",
     "group": "continuum2",
-    "file": "problems/402-affine-bernstein-entire-low-dimensions.md"
+    "file": "problems/394-affine-bernstein-entire-low-dimensions.md"
   },
   {
-    "id": "403",
+    "id": "395",
     "slug": "polyhedral-transport-singular-interface",
     "title": "Regularity of transport interfaces for nonconvex polyhedral targets",
     "area": "Monge–Ampère PDEs / optimal transport",
     "group": "continuum2",
-    "file": "problems/403-polyhedral-transport-singular-interface.md"
+    "file": "problems/395-polyhedral-transport-singular-interface.md"
   },
   {
-    "id": "404",
+    "id": "396",
     "slug": "polyhedral-partial-transport-free-boundary",
     "title": "Singular-set dimension of polyhedral partial-transport free boundaries",
     "area": "Free-boundary PDEs / optimal transport",
     "group": "continuum2",
-    "file": "problems/404-polyhedral-partial-transport-free-boundary.md"
+    "file": "problems/396-polyhedral-partial-transport-free-boundary.md"
   },
   {
-    "id": "405",
+    "id": "397",
     "slug": "villani-mtw-convex-injectivity-domains",
     "title": "Villani’s convex-injectivity-domain conjecture",
     "area": "Optimal transport / Riemannian geometry",
     "group": "inverse3",
-    "file": "problems/405-villani-mtw-convex-injectivity-domains.md"
+    "file": "problems/397-villani-mtw-convex-injectivity-domains.md"
   },
   {
-    "id": "406",
+    "id": "398",
     "slug": "harmonic-kolmogorov-wedge-null-control",
     "title": "Exact null control of a harmonically confined kinetic equation from a wedge",
     "area": "PDE control / kinetic transport",
     "group": "inverse3",
-    "file": "problems/406-harmonic-kolmogorov-wedge-null-control.md"
+    "file": "problems/398-harmonic-kolmogorov-wedge-null-control.md"
   },
   {
-    "id": "407",
+    "id": "399",
     "slug": "critical-kdv-odd-mode-polynomial-decay",
     "title": "Polynomial decay for KdV with three critical linear modes",
     "area": "Dispersive PDEs / boundary stabilization",
     "group": "continuum2",
-    "file": "problems/407-critical-kdv-odd-mode-polynomial-decay.md"
+    "file": "problems/399-critical-kdv-odd-mode-polynomial-decay.md"
   },
   {
-    "id": "408",
+    "id": "400",
     "slug": "oseen-oldroyd-approximate-boundary-control",
     "title": "Approximate velocity control of a viscoelastic fluid with prescribed transport",
     "area": "PDE control / viscoelasticity",
     "group": "inverse3",
-    "file": "problems/408-oseen-oldroyd-approximate-boundary-control.md"
+    "file": "problems/400-oseen-oldroyd-approximate-boundary-control.md"
   },
   {
-    "id": "409",
+    "id": "401",
     "slug": "parabolic-obstacle-boundary-control",
     "title": "Boundary control to equilibrium for a parabolic obstacle problem",
     "area": "PDE control / variational inequalities",
     "group": "inverse3",
-    "file": "problems/409-parabolic-obstacle-boundary-control.md"
+    "file": "problems/401-parabolic-obstacle-boundary-control.md"
   },
   {
-    "id": "410",
+    "id": "402",
     "slug": "fixed-thickness-insulation-convex-perimeter",
     "title": "Best convex shape for insulation of fixed thickness and perimeter",
     "area": "Elliptic PDEs / thermal shape optimization",
     "group": "continuum2",
-    "file": "problems/410-fixed-thickness-insulation-convex-perimeter.md"
+    "file": "problems/402-fixed-thickness-insulation-convex-perimeter.md"
   },
   {
-    "id": "411",
+    "id": "403",
     "slug": "radiative-insulation-concentric-balls",
     "title": "Concentric-ball optimality for thermal insulation with radiative heat transfer",
     "area": "Elliptic PDEs / nonlinear boundary laws",
     "group": "continuum2",
-    "file": "problems/411-radiative-insulation-concentric-balls.md"
+    "file": "problems/403-radiative-insulation-concentric-balls.md"
   },
   {
-    "id": "412",
+    "id": "404",
     "slug": "mtw-convex-domains-transport-continuity",
     "title": "Continuity of manifold transport under MTW and convex injectivity domains",
     "area": "Monge–Ampère PDEs / transport on manifolds",
     "group": "continuum2",
-    "file": "problems/412-mtw-convex-domains-transport-continuity.md"
+    "file": "problems/404-mtw-convex-domains-transport-continuity.md"
   },
   {
-    "id": "413",
+    "id": "405",
     "slug": "fractional-drift-logarithmic-convexity",
     "title": "Logarithmic convexity for subdiffusion with non-gradient drift",
     "area": "Fractional PDEs / inverse initial-state recovery",
     "group": "inverse3",
-    "file": "problems/413-fractional-drift-logarithmic-convexity.md"
+    "file": "problems/405-fractional-drift-logarithmic-convexity.md"
   },
   {
-    "id": "414",
+    "id": "406",
     "slug": "mixed-order-fractional-logarithmic-convexity",
     "title": "Logarithmic convexity for two coupled subdiffusion orders",
     "area": "Fractional PDE systems / inverse problems",
     "group": "inverse3",
-    "file": "problems/414-mixed-order-fractional-logarithmic-convexity.md"
+    "file": "problems/406-mixed-order-fractional-logarithmic-convexity.md"
   },
   {
-    "id": "415",
+    "id": "407",
     "slug": "schrodinger-sharp-fast-control-exponent",
     "title": "Sharp exponential cost of fast boundary quantum control",
     "area": "PDE control / Schrödinger dynamics",
     "group": "inverse3",
-    "file": "problems/415-schrodinger-sharp-fast-control-exponent.md"
+    "file": "problems/407-schrodinger-sharp-fast-control-exponent.md"
   },
   {
-    "id": "416",
+    "id": "408",
     "slug": "local-mfg-uniform-vanishing-viscosity",
     "title": "Uniform convergence of value functions in local mean-field games",
     "area": "Hamilton–Jacobi / Fokker–Planck PDE systems",
     "group": "continuum2",
-    "file": "problems/416-local-mfg-uniform-vanishing-viscosity.md"
+    "file": "problems/408-local-mfg-uniform-vanishing-viscosity.md"
   },
   {
-    "id": "417",
+    "id": "409",
     "slug": "kinetic-mfg-vanishing-viscosity-rate",
     "title": "An algebraic vanishing-noise rate for kinetic mean-field games",
     "area": "Kinetic PDEs / mean-field games",
     "group": "continuum2",
-    "file": "problems/417-kinetic-mfg-vanishing-viscosity-rate.md"
+    "file": "problems/409-kinetic-mfg-vanishing-viscosity-rate.md"
   },
   {
-    "id": "418",
+    "id": "410",
     "slug": "lawson-osserman-stationarity",
     "title": "Stationarity of Lipschitz weak solutions of the minimal-surface system",
     "area": "Nonlinear elliptic PDE systems / surface energy",
     "group": "continuum2",
-    "file": "problems/418-lawson-osserman-stationarity.md"
+    "file": "problems/410-lawson-osserman-stationarity.md"
   },
   {
-    "id": "419",
+    "id": "411",
     "slug": "entire-minimal-graphs-polynomial-growth",
     "title": "Polynomial growth of every entire minimal graph",
     "area": "Quasilinear elliptic PDEs / minimal interfaces",
     "group": "continuum2",
-    "file": "problems/419-entire-minimal-graphs-polynomial-growth.md"
+    "file": "problems/411-entire-minimal-graphs-polynomial-growth.md"
   },
   {
-    "id": "420",
+    "id": "412",
     "slug": "polynomial-anisotropic-minimal-graphs",
     "title": "Polynomial anisotropic minimal graphs in dimensions four and five",
     "area": "Quasilinear elliptic PDEs / crystalline surface energy",
     "group": "continuum2",
-    "file": "problems/420-polynomial-anisotropic-minimal-graphs.md"
+    "file": "problems/412-polynomial-anisotropic-minimal-graphs.md"
   },
   {
-    "id": "421",
+    "id": "413",
     "slug": "analytic-controls-continuous-selection",
     "title": "Continuous selection of small-time null controls for analytic systems",
     "area": "Nonlinear control / feedback design",
     "group": "inverse3",
-    "file": "problems/421-analytic-controls-continuous-selection.md"
+    "file": "problems/413-analytic-controls-continuous-selection.md"
   },
   {
-    "id": "422",
+    "id": "414",
     "slug": "complex-monge-ampere-quadratic-growth",
     "title": "Quadratic-growth rigidity for the complex Monge–Ampère equation",
     "area": "Nonlinear elliptic PDEs / geometric analysis",
     "group": "continuum2",
-    "file": "problems/422-complex-monge-ampere-quadratic-growth.md"
+    "file": "problems/414-complex-monge-ampere-quadratic-growth.md"
   },
   {
-    "id": "423",
+    "id": "415",
     "slug": "bounded-input-state-continuity",
     "title": "Continuity of states driven by bounded admissible inputs",
     "area": "Infinite-dimensional control / evolution equations",
     "group": "inverse3",
-    "file": "problems/423-bounded-input-state-continuity.md"
+    "file": "problems/415-bounded-input-state-continuity.md"
   },
   {
-    "id": "424",
+    "id": "416",
     "slug": "positive-transport-sharp-uniform-control-time",
     "title": "Sharp vanishing-viscosity control time for downstream transport",
     "area": "PDE control / advection–diffusion",
     "group": "inverse3",
-    "file": "problems/424-positive-transport-sharp-uniform-control-time.md"
+    "file": "problems/416-positive-transport-sharp-uniform-control-time.md"
   },
   {
-    "id": "425",
+    "id": "417",
     "slug": "intercritical-dispersion-managed-norm-inflation",
     "title": "Intercritical norm inflation for the dispersion-managed Schrödinger equation",
     "area": "Nonlocal dispersive PDEs / nonlinear optics",
     "group": "continuum2",
-    "file": "problems/425-intercritical-dispersion-managed-norm-inflation.md"
+    "file": "problems/417-intercritical-dispersion-managed-norm-inflation.md"
   },
   {
-    "id": "426",
+    "id": "418",
     "slug": "isotropic-polynomial-minimal-graph",
     "title": "Existence of a nonaffine polynomial minimal graph",
     "area": "Quasilinear elliptic PDEs / minimal interfaces",
     "group": "continuum2",
-    "file": "problems/426-isotropic-polynomial-minimal-graph.md"
+    "file": "problems/418-isotropic-polynomial-minimal-graph.md"
   },
   {
-    "id": "427",
+    "id": "419",
     "slug": "nongradient-neumann-uniform-control",
     "title": "Uniform control of Neumann advection–diffusion for non-gradient flows",
     "area": "PDE control / transport with weak diffusion",
     "group": "inverse3",
-    "file": "problems/427-nongradient-neumann-uniform-control.md"
+    "file": "problems/419-nongradient-neumann-uniform-control.md"
   },
   {
-    "id": "428",
+    "id": "420",
     "slug": "catalytic-reaction-diffusion-positive-attractor",
     "title": "Positive equilibrium attraction for an irreversible catalytic reaction",
     "area": "Reaction–diffusion PDEs / chemical kinetics",
     "group": "continuum2",
-    "file": "problems/428-catalytic-reaction-diffusion-positive-attractor.md"
+    "file": "problems/420-catalytic-reaction-diffusion-positive-attractor.md"
   },
   {
-    "id": "429",
+    "id": "421",
     "slug": "analytic-reachable-set-polynomial-growth",
     "title": "Polynomial growth of reachable neighborhoods for analytic control systems",
     "area": "Nonlinear control / minimum-time regularity",
     "group": "inverse3",
-    "file": "problems/429-analytic-reachable-set-polynomial-growth.md"
+    "file": "problems/421-analytic-reachable-set-polynomial-growth.md"
   },
   {
-    "id": "430",
+    "id": "422",
     "slug": "zero-dispersion-soliton-uniqueness",
     "title": "Uniqueness of the zero-average dispersion-managed soliton",
     "area": "Nonlocal dispersive PDEs / optical pulse design",
     "group": "continuum2",
-    "file": "problems/430-zero-dispersion-soliton-uniqueness.md"
+    "file": "problems/422-zero-dispersion-soliton-uniqueness.md"
   }
 ]

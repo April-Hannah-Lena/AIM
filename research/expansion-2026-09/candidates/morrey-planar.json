@@ -106,15 +106,15 @@
         "difference": "Sobolev homeomorphism approximation differs."
       },
       {
-        "id": "162",
+        "id": "157",
         "difference": "A specific tetragonal hull differs."
       },
       {
-        "id": "242",
+        "id": "236",
         "difference": "Linear composite G-closure differs."
       },
       {
-        "id": "230",
+        "id": "225",
         "difference": "Elastic force balance differs."
       }
     ],

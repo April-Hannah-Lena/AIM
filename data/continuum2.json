@@ -1,385 +1,385 @@
 [
   {
-    "id": "151",
+    "id": "146",
     "title": "Energy conservation at the exact Onsager Hölder exponent",
     "area": "Fluid mechanics and turbulence",
-    "file": "problems/151-onsager-endpoint.md",
+    "file": "problems/146-onsager-endpoint.md",
+    "status": "Open",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "147",
+    "title": "Surjectivity of the two-dimensional Euler endpoint map",
+    "area": "Geometric hydrodynamics",
+    "file": "problems/147-euler-endpoint-map.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "148",
+    "title": "A closed Lagrangian Euler trajectory on a surface of higher genus",
+    "area": "Geometric hydrodynamics",
+    "file": "problems/148-closed-euler-geodesic.md",
+    "status": "Open",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "149",
+    "title": "An inertial manifold for the two-dimensional Navier–Stokes flow",
+    "area": "Fluid mechanics and reduced models",
+    "file": "problems/149-navier-stokes-inertial-manifold.md",
+    "status": "Open",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "150",
+    "title": "The unregularized Coulomb mean-field limit",
+    "area": "Kinetic theory and plasma physics",
+    "file": "problems/150-uncut-coulomb-mean-field.md",
+    "status": "Open",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "151",
+    "title": "Tagged-particle thermalization with an interacting background",
+    "area": "Kinetic theory and plasma relaxation",
+    "file": "problems/151-lenard-balescu-thermalization.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "152",
-    "title": "Surjectivity of the two-dimensional Euler endpoint map",
-    "area": "Geometric hydrodynamics",
-    "file": "problems/152-euler-endpoint-map.md",
-    "status": "Partially resolved",
+    "title": "The nonlinear Landau limit of weakly interacting particles",
+    "area": "Kinetic theory and collisional relaxation",
+    "file": "problems/152-newton-landau-weak-coupling.md",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "153",
-    "title": "A closed Lagrangian Euler trajectory on a surface of higher genus",
-    "area": "Geometric hydrodynamics",
-    "file": "problems/153-closed-euler-geodesic.md",
+    "title": "The finite-Dirichlet Liouville problem for steady three-dimensional flow",
+    "area": "Viscous fluid mechanics",
+    "file": "problems/153-steady-navier-stokes-liouville.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "154",
-    "title": "An inertial manifold for the two-dimensional Navier–Stokes flow",
-    "area": "Fluid mechanics and reduced models",
-    "file": "problems/154-navier-stokes-inertial-manifold.md",
+    "title": "Steady planar flow around an obstacle at arbitrary Reynolds number",
+    "area": "Viscous flow around bodies",
+    "file": "problems/154-exterior-steady-flow.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "155",
-    "title": "The unregularized Coulomb mean-field limit",
-    "area": "Kinetic theory and plasma physics",
-    "file": "problems/155-uncut-coulomb-mean-field.md",
+    "title": "Smooth approximation of three-dimensional Sobolev homeomorphisms",
+    "area": "Nonlinear elasticity and approximation",
+    "file": "problems/155-ball-evans-three-dimensions.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "156",
-    "title": "Tagged-particle thermalization with an interacting background",
-    "area": "Kinetic theory and plasma relaxation",
-    "file": "problems/156-lenard-balescu-thermalization.md",
+    "title": "Approximation preserving a compressible elastic energy",
+    "area": "Nonlinear elasticity and variational approximation",
+    "file": "problems/156-elastic-energy-approximation.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "157",
-    "title": "The nonlinear Landau limit of weakly interacting particles",
-    "area": "Kinetic theory and collisional relaxation",
-    "file": "problems/157-newton-landau-weak-coupling.md",
+    "title": "The full set of zero-energy cubic-to-tetragonal strains",
+    "area": "Materials science and nonlinear elasticity",
+    "file": "problems/157-tetragonal-quasiconvex-hull.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "158",
-    "title": "The finite-Dirichlet Liouville problem for steady three-dimensional flow",
-    "area": "Viscous fluid mechanics",
-    "file": "problems/158-steady-navier-stokes-liouville.md",
+    "title": "Concentration of eikonal entropy production on jump curves",
+    "area": "Variational interfaces and nonlinear PDE",
+    "file": "problems/158-eikonal-entropy-concentration.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "159",
-    "title": "Steady planar flow around an obstacle at arbitrary Reynolds number",
-    "area": "Viscous flow around bodies",
-    "file": "problems/159-exterior-steady-flow.md",
+    "title": "The first dimension with a singular one-phase minimizing cone",
+    "area": "Free boundaries and fluid interfaces",
+    "file": "problems/159-one-phase-critical-dimension.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "160",
-    "title": "Smooth approximation of three-dimensional Sobolev homeomorphisms",
-    "area": "Nonlinear elasticity and approximation",
-    "file": "problems/160-ball-evans-three-dimensions.md",
-    "status": "Open",
+    "title": "Multiplicity one at planar network singularities",
+    "area": "Grain-boundary evolution",
+    "file": "problems/160-network-multiplicity-one.md",
+    "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
     "id": "161",
-    "title": "Approximation preserving a compressible elastic energy",
-    "area": "Nonlinear elasticity and variational approximation",
-    "file": "problems/161-elastic-energy-approximation.md",
+    "title": "Uniqueness of the limiting shape at a network singularity",
+    "area": "Grain-boundary evolution",
+    "file": "problems/161-network-tangent-uniqueness.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "162",
-    "title": "The full set of zero-energy cubic-to-tetragonal strains",
-    "area": "Materials science and nonlinear elasticity",
-    "file": "problems/162-tetragonal-quasiconvex-hull.md",
+    "title": "Sharp enstrophy-limited heat transport in two dimensions",
+    "area": "Heat transfer and flow optimization",
+    "file": "problems/162-two-dimensional-wall-transport.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "163",
-    "title": "Concentration of eikonal entropy production on jump curves",
-    "area": "Variational interfaces and nonlinear PDE",
-    "file": "problems/163-eikonal-entropy-concentration.md",
+    "title": "The maximal heat-transfer exponent at finite Prandtl number",
+    "area": "Buoyant convection and heat transfer",
+    "file": "problems/163-finite-prandtl-heat-scaling.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "164",
-    "title": "The first dimension with a singular one-phase minimizing cone",
-    "area": "Free boundaries and fluid interfaces",
-    "file": "problems/164-one-phase-critical-dimension.md",
+    "title": "An extreme solitary wave for the bidirectional Whitham system",
+    "area": "Nonlinear water-wave models",
+    "file": "problems/164-extreme-bidirectional-solitary-wave.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "165",
-    "title": "Multiplicity one at planar network singularities",
-    "area": "Grain-boundary evolution",
-    "file": "problems/165-network-multiplicity-one.md",
-    "status": "Partially resolved",
+    "title": "Uniqueness of the Brownian coagulation similarity profile",
+    "area": "Aerosol kinetics and aggregation",
+    "file": "problems/165-brownian-coagulation-profile.md",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "166",
-    "title": "Uniqueness of the limiting shape at a network singularity",
-    "area": "Grain-boundary evolution",
-    "file": "problems/166-network-tangent-uniqueness.md",
+    "title": "A uniform limit-cycle bound for quadratic planar dynamics",
+    "area": "Nonlinear oscillations and dynamical systems",
+    "file": "problems/166-quadratic-hilbert-sixteen.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "167",
-    "title": "Sharp enstrophy-limited heat transport in two dimensions",
-    "area": "Heat transfer and flow optimization",
-    "file": "problems/167-two-dimensional-wall-transport.md",
+    "title": "A stationary isotropic gas of freely moving non-colliding disks",
+    "area": "Kinetic geometry and hard-particle systems",
+    "file": "problems/167-stationary-noncolliding-billiards.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "168",
-    "title": "The maximal heat-transfer exponent at finite Prandtl number",
-    "area": "Buoyant convection and heat transfer",
-    "file": "problems/168-finite-prandtl-heat-scaling.md",
+    "title": "Anomalous viscous dissipation with fixed large-scale forcing",
+    "area": "Turbulence and energy transfer",
+    "file": "problems/168-large-scale-forced-dissipation.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "169",
-    "title": "An extreme solitary wave for the bidirectional Whitham system",
-    "area": "Nonlinear water-wave models",
-    "file": "problems/169-extreme-bidirectional-solitary-wave.md",
+    "title": "The Euler vortex-filament limit for a general moving curve",
+    "area": "Vortex dynamics and fluid mechanics",
+    "file": "problems/169-vortex-filament-binormal.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "170",
-    "title": "Uniqueness of the Brownian coagulation similarity profile",
-    "area": "Aerosol kinetics and aggregation",
-    "file": "problems/170-brownian-coagulation-profile.md",
-    "status": "Open",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "171",
-    "title": "A uniform limit-cycle bound for quadratic planar dynamics",
-    "area": "Nonlinear oscillations and dynamical systems",
-    "file": "problems/171-quadratic-hilbert-sixteen.md",
-    "status": "Open",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "172",
-    "title": "A stationary isotropic gas of freely moving non-colliding disks",
-    "area": "Kinetic geometry and hard-particle systems",
-    "file": "problems/172-stationary-noncolliding-billiards.md",
-    "status": "Open",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "173",
-    "title": "Anomalous viscous dissipation with fixed large-scale forcing",
-    "area": "Turbulence and energy transfer",
-    "file": "problems/173-large-scale-forced-dissipation.md",
-    "status": "Open",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "174",
-    "title": "The Euler vortex-filament limit for a general moving curve",
-    "area": "Vortex dynamics and fluid mechanics",
-    "file": "problems/174-vortex-filament-binormal.md",
-    "status": "Open",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "175",
     "title": "Sustained double-exponential gradient growth on the Euler torus",
     "area": "Fluid mixing and creation of small scales",
-    "file": "problems/175-euler-sustained-double-exponential-growth.md",
+    "file": "problems/170-euler-sustained-double-exponential-growth.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
-    "id": "308",
+    "id": "300",
     "title": "Global classical solutions of the spatially inhomogeneous Landau–Coulomb equation",
     "area": "Fluids, kinetic theory and continuum mechanics",
-    "file": "problems/308-landau-coulomb-inhomogeneous.md",
+    "file": "problems/300-landau-coulomb-inhomogeneous.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "399",
+    "id": "391",
     "title": "Global smooth evolution of small semigeostrophic perturbations",
     "area": "Geophysical PDEs / optimal transport",
-    "file": "problems/399-semigeostrophic-small-data-global-smoothness.md",
+    "file": "problems/391-semigeostrophic-small-data-global-smoothness.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "400",
+    "id": "392",
     "title": "Uniqueness of bounded semigeostrophic potential vorticity",
     "area": "Geophysical PDEs / nonlinear transport",
-    "file": "problems/400-semigeostrophic-bounded-vorticity-uniqueness.md",
+    "file": "problems/392-semigeostrophic-bounded-vorticity-uniqueness.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "401",
+    "id": "393",
     "title": "Sharp weak integrability of planar Monge–Ampère Hessians",
     "area": "Nonlinear elliptic PDEs / optimal transport",
-    "file": "problems/401-planar-monge-ampere-sharp-hessian-integrability.md",
+    "file": "problems/393-planar-monge-ampere-sharp-hessian-integrability.md",
+    "status": "Open",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "394",
+    "title": "Affine Bernstein rigidity in dimensions three through nine",
+    "area": "Fourth-order elliptic PDEs / geometric variational problems",
+    "file": "problems/394-affine-bernstein-entire-low-dimensions.md",
+    "status": "Open",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "395",
+    "title": "Regularity of transport interfaces for nonconvex polyhedral targets",
+    "area": "Monge–Ampère PDEs / optimal transport",
+    "file": "problems/395-polyhedral-transport-singular-interface.md",
+    "status": "Open",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "396",
+    "title": "Singular-set dimension of polyhedral partial-transport free boundaries",
+    "area": "Free-boundary PDEs / optimal transport",
+    "file": "problems/396-polyhedral-partial-transport-free-boundary.md",
+    "status": "Open",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "399",
+    "title": "Polynomial decay for KdV with three critical linear modes",
+    "area": "Dispersive PDEs / boundary stabilization",
+    "file": "problems/399-critical-kdv-odd-mode-polynomial-decay.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
     "id": "402",
-    "title": "Affine Bernstein rigidity in dimensions three through nine",
-    "area": "Fourth-order elliptic PDEs / geometric variational problems",
-    "file": "problems/402-affine-bernstein-entire-low-dimensions.md",
+    "title": "Best convex shape for insulation of fixed thickness and perimeter",
+    "area": "Elliptic PDEs / thermal shape optimization",
+    "file": "problems/402-fixed-thickness-insulation-convex-perimeter.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
     "id": "403",
-    "title": "Regularity of transport interfaces for nonconvex polyhedral targets",
-    "area": "Monge–Ampère PDEs / optimal transport",
-    "file": "problems/403-polyhedral-transport-singular-interface.md",
+    "title": "Concentric-ball optimality for thermal insulation with radiative heat transfer",
+    "area": "Elliptic PDEs / nonlinear boundary laws",
+    "file": "problems/403-radiative-insulation-concentric-balls.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
     "id": "404",
-    "title": "Singular-set dimension of polyhedral partial-transport free boundaries",
-    "area": "Free-boundary PDEs / optimal transport",
-    "file": "problems/404-polyhedral-partial-transport-free-boundary.md",
+    "title": "Continuity of manifold transport under MTW and convex injectivity domains",
+    "area": "Monge–Ampère PDEs / transport on manifolds",
+    "file": "problems/404-mtw-convex-domains-transport-continuity.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "407",
-    "title": "Polynomial decay for KdV with three critical linear modes",
-    "area": "Dispersive PDEs / boundary stabilization",
-    "file": "problems/407-critical-kdv-odd-mode-polynomial-decay.md",
+    "id": "408",
+    "title": "Uniform convergence of value functions in local mean-field games",
+    "area": "Hamilton–Jacobi / Fokker–Planck PDE systems",
+    "file": "problems/408-local-mfg-uniform-vanishing-viscosity.md",
+    "status": "Open",
+    "last_checked": "2026-09-22"
+  },
+  {
+    "id": "409",
+    "title": "An algebraic vanishing-noise rate for kinetic mean-field games",
+    "area": "Kinetic PDEs / mean-field games",
+    "file": "problems/409-kinetic-mfg-vanishing-viscosity-rate.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
     "id": "410",
-    "title": "Best convex shape for insulation of fixed thickness and perimeter",
-    "area": "Elliptic PDEs / thermal shape optimization",
-    "file": "problems/410-fixed-thickness-insulation-convex-perimeter.md",
+    "title": "Stationarity of Lipschitz weak solutions of the minimal-surface system",
+    "area": "Nonlinear elliptic PDE systems / surface energy",
+    "file": "problems/410-lawson-osserman-stationarity.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
     "id": "411",
-    "title": "Concentric-ball optimality for thermal insulation with radiative heat transfer",
-    "area": "Elliptic PDEs / nonlinear boundary laws",
-    "file": "problems/411-radiative-insulation-concentric-balls.md",
+    "title": "Polynomial growth of every entire minimal graph",
+    "area": "Quasilinear elliptic PDEs / minimal interfaces",
+    "file": "problems/411-entire-minimal-graphs-polynomial-growth.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
     "id": "412",
-    "title": "Continuity of manifold transport under MTW and convex injectivity domains",
-    "area": "Monge–Ampère PDEs / transport on manifolds",
-    "file": "problems/412-mtw-convex-domains-transport-continuity.md",
+    "title": "Polynomial anisotropic minimal graphs in dimensions four and five",
+    "area": "Quasilinear elliptic PDEs / crystalline surface energy",
+    "file": "problems/412-polynomial-anisotropic-minimal-graphs.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "416",
-    "title": "Uniform convergence of value functions in local mean-field games",
-    "area": "Hamilton–Jacobi / Fokker–Planck PDE systems",
-    "file": "problems/416-local-mfg-uniform-vanishing-viscosity.md",
+    "id": "414",
+    "title": "Quadratic-growth rigidity for the complex Monge–Ampère equation",
+    "area": "Nonlinear elliptic PDEs / geometric analysis",
+    "file": "problems/414-complex-monge-ampere-quadratic-growth.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
     "id": "417",
-    "title": "An algebraic vanishing-noise rate for kinetic mean-field games",
-    "area": "Kinetic PDEs / mean-field games",
-    "file": "problems/417-kinetic-mfg-vanishing-viscosity-rate.md",
+    "title": "Intercritical norm inflation for the dispersion-managed Schrödinger equation",
+    "area": "Nonlocal dispersive PDEs / nonlinear optics",
+    "file": "problems/417-intercritical-dispersion-managed-norm-inflation.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
     "id": "418",
-    "title": "Stationarity of Lipschitz weak solutions of the minimal-surface system",
-    "area": "Nonlinear elliptic PDE systems / surface energy",
-    "file": "problems/418-lawson-osserman-stationarity.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "419",
-    "title": "Polynomial growth of every entire minimal graph",
+    "title": "Existence of a nonaffine polynomial minimal graph",
     "area": "Quasilinear elliptic PDEs / minimal interfaces",
-    "file": "problems/419-entire-minimal-graphs-polynomial-growth.md",
+    "file": "problems/418-isotropic-polynomial-minimal-graph.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
     "id": "420",
-    "title": "Polynomial anisotropic minimal graphs in dimensions four and five",
-    "area": "Quasilinear elliptic PDEs / crystalline surface energy",
-    "file": "problems/420-polynomial-anisotropic-minimal-graphs.md",
+    "title": "Positive equilibrium attraction for an irreversible catalytic reaction",
+    "area": "Reaction–diffusion PDEs / chemical kinetics",
+    "file": "problems/420-catalytic-reaction-diffusion-positive-attractor.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
     "id": "422",
-    "title": "Quadratic-growth rigidity for the complex Monge–Ampère equation",
-    "area": "Nonlinear elliptic PDEs / geometric analysis",
-    "file": "problems/422-complex-monge-ampere-quadratic-growth.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "425",
-    "title": "Intercritical norm inflation for the dispersion-managed Schrödinger equation",
-    "area": "Nonlocal dispersive PDEs / nonlinear optics",
-    "file": "problems/425-intercritical-dispersion-managed-norm-inflation.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "426",
-    "title": "Existence of a nonaffine polynomial minimal graph",
-    "area": "Quasilinear elliptic PDEs / minimal interfaces",
-    "file": "problems/426-isotropic-polynomial-minimal-graph.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "428",
-    "title": "Positive equilibrium attraction for an irreversible catalytic reaction",
-    "area": "Reaction–diffusion PDEs / chemical kinetics",
-    "file": "problems/428-catalytic-reaction-diffusion-positive-attractor.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "430",
     "title": "Uniqueness of the zero-average dispersion-managed soliton",
     "area": "Nonlocal dispersive PDEs / optical pulse design",
-    "file": "problems/430-zero-dispersion-soliton-uniqueness.md",
+    "file": "problems/422-zero-dispersion-soliton-uniqueness.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "448",
+    "id": "440",
     "title": "Continuous harmonic extension of every degree-zero sphere boundary map",
     "area": "Elliptic systems and orientational order",
-    "file": "problems/448-degree-zero-harmonic-extension.md",
+    "file": "problems/440-degree-zero-harmonic-extension.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "449",
+    "id": "441",
     "title": "Radial classification of higher-degree entire planar Ginzburg–Landau vortices",
     "area": "Elliptic PDEs and superfluid vortices",
-    "file": "problems/449-entire-ginzburg-landau-vortex-symmetry.md",
+    "file": "problems/441-entire-ginzburg-landau-vortex-symmetry.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   }

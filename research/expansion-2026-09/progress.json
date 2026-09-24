@@ -2,7 +2,7 @@
   "repository": "MColbrook/AIM",
   "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
   "branch": "codex/expand-open-problems-2026-09",
-  "updated_on": "2026-09-19",
+  "updated_on": "2026-09-23",
   "goal_target": 250,
   "acceptable_range": [
     200,
@@ -10,7 +10,7 @@
   ],
   "baseline_active": 300,
   "new_accepted": 67,
-  "active_total": 360,
+  "active_total": 501,
   "candidates_investigated": 73,
   "held_unverified": 1,
   "held_claimed_resolution": 5,
@@ -73,7 +73,7 @@
     },
     {
       "commit": "7e1c7d7de3bf58063c7578edb77cc84e323a03fd",
-      "purpose": "Integrate entries 311–320 with source audits and batch validation; pushed directly to main."
+      "purpose": "Integrate entries 303–312 with source audits and batch validation; pushed directly to main."
     },
     {
       "commit": "0ad9dcd7ba00b2fddc73a7ad69e30f985811bf6e",
@@ -121,7 +121,7 @@
     },
     {
       "commit": "103e4cd6acc9efcb48f12b65f275249ec66f3825",
-      "purpose": "Integrate entries 321–330 with source audits and batch validation; pushed directly to main and independently verified."
+      "purpose": "Integrate entries 313–322 with source audits and batch validation; pushed directly to main and independently verified."
     },
     {
       "commit": "dd5b9c1b7aa188850706e1ac5c0fd4856c043833",
@@ -165,7 +165,7 @@
     },
     {
       "commit": "12ec3dcab61711bcf85b4ffab16eb38254d004e2",
-      "purpose": "Integrate entries 331–340 with source audits and batch validation; pushed directly to main and independently verified September 18, 2026."
+      "purpose": "Integrate entries 323–332 with source audits and batch validation; pushed directly to main and independently verified September 18, 2026."
     },
     {
       "commit": "bdcecb7dad63b280bdb2f0d91f9f1842d07c3f3b",
@@ -209,7 +209,7 @@
     },
     {
       "commit": "1240ebfbdae361901472a7d33ca0baa7073c51cb",
-      "purpose": "Integrate entries 341–350 with reviewed research, fresh status searches and validation; pushed directly to main and independently verified September 18, 2026."
+      "purpose": "Integrate entries 333–342 with reviewed research, fresh status searches and validation; pushed directly to main and independently verified September 18, 2026."
     },
     {
       "commit": "89cc7eb07875386f9912413f51573d6b253a9551",
@@ -253,7 +253,7 @@
     },
     {
       "commit": "a79a6d875675959d143bcf4bc7396e1e2a61d1ee",
-      "purpose": "Integrate entries 351–360 with refreshed source audits and batch validation; pushed directly to main and exact remote commit separately verified September 19, 2026."
+      "purpose": "Integrate entries 343–352 with refreshed source audits and batch validation; pushed directly to main and exact remote commit separately verified September 19, 2026."
     },
     {
       "commit": "3da24a78c1e9ef89eed406a5644f4bb981602c3d",
@@ -286,13 +286,8 @@
   ],
   "remote_state": "All sixty catalogue additions (301-360) are published directly on main. All seven accepted pending drafts and their evidence are uploaded, including densest k-subgraph constant-gap hardness. The latest research commit 824114b02bb996faa97ff3f0a5c897692f136c14 was separately verified on remote main September 19, 2026. Active total 360; seven accepted drafts await batch integration.",
   "next_actions": [
-    "Continue toward at least 200 integrated additions: 67 accepted, 60 published, seven pending drafts; 133 acceptances and 140 integrations remain to the minimum. Three more accepted drafts would form the next ten-entry batch before assigning permanent IDs.",
-    "Prioritize distinct families in statistics, information, biology, control and operations research alongside all twelve sections.",
-    "Keep the six formal holds and discovery-only claims outside admission; preserve original identifiers and historical review dates.",
-    "Continue the Carrasco and other discovery leads only after resolving the precise scope and corroboration gaps in their records.",
-    "Quantum Heisenberg magnetic-order discovery is saved separately with 27 targeted queries and four breadth queries. Obtain the relevant 2025 Green's-function paper's full scope and finish formulation/claim checks before drafting or counting it; no new formal candidate or accepted entry.",
-    "Preserve the discovery-only unknot claim warning and Boolean-network/private-memory leads; read their missing full scope and obtain independent corroboration before admission.",
-    "The accompanying statistics/breadth notes retain incomplete one-bit mean and logistic-bandit leads plus the unadjudicated Maxwell claim warning; none increases admission counts."
+    "No accepted drafts remain pending in this cohort. Canonical entries 494–500 and research/integration-2026-09-23.md record the final seven integrations.",
+    "Use catalogue.json and the generated catalogue for current membership and totals."
   ],
   "coverage": {
     "stochastic3": 14,
@@ -309,12 +304,49 @@
     "continuum2": 1
   },
   "review_arrangement": "Primary agent research followed by a clearly separated adversarial self-pass. No independent agent or human review has occurred.",
-  "new_integrated": 60,
-  "count_semantics": "Sixty-seven accepted additions: sixty integrated and published directly on main, seven pending drafts. Active total 360. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
+  "new_integrated": 67,
+  "count_semantics": "The September 17–19 research cohort contains 67 accepted additions, all now integrated locally; 60 were previously published. The separate September 22 expansion and owner-requested removals make the current whole-catalogue total 501. Campaign goal and remaining fields refer only to this historical cohort, not a new active goal.",
   "publication_preference": "Push reviewed batches directly to main; no PR required, per user clarification on 2026-09-17.",
   "new_published": 60,
-  "coverage_semantics": "Accepted additions by primary section include seven pending drafts: illumination (inverse3), GNRS and densest k-subgraph constant-gap hardness (stochastic3), Fourier entropy-influence (applied), D-stable Lotka-Volterra attraction (stochastic2), general-graph perfect matching in NC (operators), and simple stochastic games (inverse2). Sixty are integrated and published.",
-  "remaining_integrations_to_minimum": 140,
-  "remaining_integrations_to_target": 190,
-  "pending_accepted": 7
+  "coverage_semantics": "Accepted additions by primary section for this 67-entry research cohort; all are now integrated locally. Other expansion cohorts are not included in these per-group figures.",
+  "remaining_integrations_to_minimum": 133,
+  "remaining_integrations_to_target": 183,
+  "pending_accepted": 0,
+  "historical_checkpoint_note": "September 17–19 campaign fields below are historical. See current_catalogue_update for later integration; remote_state describes the recorded historical publication only.",
+  "current_catalogue_update": {
+    "date": "2026-09-23",
+    "active_total": 501,
+    "accepted_drafts_integrated": 7,
+    "ids": [
+      "494",
+      "495",
+      "496",
+      "497",
+      "498",
+      "499",
+      "500"
+    ],
+    "pending_accepted": 0,
+    "record": "research/integration-2026-09-23.md",
+    "publication": "Local working tree; not committed or pushed."
+  },
+  "historical_checkpoint_2026_09_19": {
+    "updated_on": "2026-09-19",
+    "new_integrated": 60,
+    "active_total": 360,
+    "pending_accepted": 7,
+    "count_semantics": "Sixty-seven accepted additions: sixty integrated and published directly on main, seven pending drafts. Active total 360. Six holds excluded: five claimed-resolution/scope holds and one formulation hold.",
+    "coverage_semantics": "Accepted additions by primary section include seven pending drafts: illumination (inverse3), GNRS and densest k-subgraph constant-gap hardness (stochastic3), Fourier entropy-influence (applied), D-stable Lotka-Volterra attraction (stochastic2), general-graph perfect matching in NC (operators), and simple stochastic games (inverse2). Sixty are integrated and published.",
+    "remaining_integrations_to_minimum": 140,
+    "remaining_integrations_to_target": 190,
+    "next_actions": [
+      "Continue toward at least 200 integrated additions: 67 accepted, 60 published, seven pending drafts; 133 acceptances and 140 integrations remain to the minimum. Three more accepted drafts would form the next ten-entry batch before assigning permanent IDs.",
+      "Prioritize distinct families in statistics, information, biology, control and operations research alongside all twelve sections.",
+      "Keep the six formal holds and discovery-only claims outside admission; preserve original identifiers and historical review dates.",
+      "Continue the Carrasco and other discovery leads only after resolving the precise scope and corroboration gaps in their records.",
+      "Quantum Heisenberg magnetic-order discovery is saved separately with 27 targeted queries and four breadth queries. Obtain the relevant 2025 Green's-function paper's full scope and finish formulation/claim checks before drafting or counting it; no new formal candidate or accepted entry.",
+      "Preserve the discovery-only unknot claim warning and Boolean-network/private-memory leads; read their missing full scope and obtain independent corroboration before admission.",
+      "The accompanying statistics/breadth notes retain incomplete one-bit mean and logistic-bandit leads plus the unadjudicated Maxwell claim warning; none increases admission counts."
+    ]
+  }
 }

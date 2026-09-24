@@ -1,6 +1,6 @@
 {
   "candidate_id": "list-edge-colouring",
-  "proposed_catalogue_id": "344",
+  "proposed_catalogue_id": "336",
   "title": "List edge-colouring with no extra colours",
   "decision": "accept_open",
   "decision_reason": "Precise primary formulation, independently authored scholarly corroboration, full relevant claim-scope comparisons, duplicate audit and separated A45 self-review passed.",
@@ -291,7 +291,7 @@
     "searched": "All active problem pages, data metadata and pending drafts; edge/list colouring, line graphs, chromatic index and named aliases.",
     "nearest_entries": [
       {
-        "id": 312,
+        "id": 304,
         "title": "Exact complexity of unit-job precedence scheduling on three processors",
         "difference": "Precedence DAG and one interchangeable processor per job, with an algorithmic complexity target; here specified pairs of resources and an existence guarantee under arbitrary availability sets."
       }
@@ -308,7 +308,7 @@
       "Checked ordinary vertex colouring, correspondence colouring, total colouring, online colouring and Kempe recolouring are not silently substituted.",
       "Reviewed later current claims and version histories; added the September 9 CD26 theorem comparison.",
       "Checked asymptotic estimates do not imply exact equality by graph-dependent epsilon selection.",
-      "Read entry 312 and reran catalogue/draft alias searches.",
+      "Read entry 304 and reran catalogue/draft alias searches.",
       "Checked applied scheduling interpretation states simultaneous two-resource occupancy and does not promise a short common horizon."
     ],
     "corrections": [
@@ -343,7 +343,7 @@
     "pull_request_url": null
   },
   "draft_path": "research/expansion-2026-09/drafts/list-edge-colouring.md",
-  "public_page_path": "problems/344-list-edge-colouring.md",
+  "public_page_path": "problems/336-list-edge-colouring.md",
   "prepublication_refresh": {
     "date": "2026-09-18",
     "latest_target_commit": "aa3087c2cf59db1e30215f90301f356385ce163c",

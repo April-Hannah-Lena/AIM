@@ -1,6 +1,6 @@
 {
   "candidate_id": "ruskai-audenaert-decomposition",
-  "proposed_catalogue_id": "320",
+  "proposed_catalogue_id": "312",
   "title": "Equal-weight decomposition of quantum channels with bounded Kraus rank",
   "aliases": [
     "Strong Ruskai–Audenaert conjecture",
@@ -345,19 +345,19 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "035",
+        "id": "032",
         "difference": "Existence of SIC measurements, not channel decompositions."
       },
       {
-        "id": "036",
+        "id": "033",
         "difference": "Maximum mutually unbiased bases in dimension six, not decomposition of an arbitrary channel."
       },
       {
-        "id": "213",
+        "id": "208",
         "difference": "Entanglement breaking after composition of two PPT channels; different operation and hypotheses."
       },
       {
-        "id": "214",
+        "id": "209",
         "difference": "Holevo additivity of amplitude damping; no bound on convex decomposition length."
       },
       {
@@ -419,7 +419,7 @@
     "upstream_check": "git fetch origin main and git ls-remote --heads confirm only main at 7fe62d53378cb3f5ebbe7caeda9f3a4d72039395; GitHub connector open-PR search returned none. No intervening upstream content or competing addition.",
     "duplicate_scope": "All 310 active pages/metadata, prior exclusion/source records and all pending additions screened; closest full pages and statement scopes reviewed in each candidate ledger."
   },
-  "public_page_path": "problems/320-ruskai-audenaert-decomposition.md",
+  "public_page_path": "problems/312-ruskai-audenaert-decomposition.md",
   "validation_results": [
     {
       "check": "catalogue",

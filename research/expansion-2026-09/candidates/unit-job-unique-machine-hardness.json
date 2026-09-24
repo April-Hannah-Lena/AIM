@@ -1,6 +1,6 @@
 {
   "candidate_id": "unit-job-unique-machine-hardness",
-  "proposed_catalogue_id": "350",
+  "proposed_catalogue_id": "342",
   "title": "Polynomial-factor hardness of scheduling unit jobs on prescribed machines",
   "decision": "accept_open",
   "decision_reason": "Complete primary formulation, independent July 2026 corroboration, six theorem-scope comparisons, full nearest-statement review, separated A51 self-review and rendering validation passed. No matching unresolved resolution claim located.",
@@ -75,14 +75,14 @@
   },
   "nearest_existing": [
     {
-      "entry": "312",
-      "path": "problems/312-three-processor-unit-scheduling.md",
+      "entry": "304",
+      "path": "problems/304-three-processor-unit-scheduling.md",
       "full_statement_read": true,
       "comparison": "Exact complexity for three interchangeable processors. UMPS fixes a unique eligible machine per job, lets the machine count vary, and asks for n^epsilon approximation hardness."
     },
     {
-      "entry": "289",
-      "path": "problems/289-unrelated-machine-makespan.md",
+      "entry": "281",
+      "path": "problems/281-unrelated-machine-makespan.md",
       "full_statement_read": true,
       "comparison": "Beat factor two for variable assignment-dependent processing times without precedence. UMPS has fixed assignments, unit lengths and an arbitrary precedence DAG."
     },
@@ -221,7 +221,7 @@
   },
   "duplicate_check": {
     "searched": "All active pages, metadata, candidate records and exclusion/discovery ledgers by UMPS, fixed/prescribed/unique machine, precedence and job-shop terms. Full nearest statements read.",
-    "findings": "Entry 312 excluded as an already covered discovery lead; the unique-machine approximation-gap target has no matching accepted entry.",
+    "findings": "Entry 304 excluded as an already covered discovery lead; the unique-machine approximation-gap target has no matching accepted entry.",
     "refreshed_on": "2026-09-18"
   },
   "access_limits": [
@@ -231,7 +231,7 @@
   ],
   "applied_significance": "Worst-case approximation limits for dependency-constrained tasks already assigned to processors or equipment. Communication-delay implications follow cited reductions; no empirical workload prediction or heuristic performance claim.",
   "publication_state": "Accepted, integrated and published directly to main in batch 5.",
-  "public_page_path": "problems/350-unit-job-unique-machine-hardness.md",
+  "public_page_path": "problems/342-unit-job-unique-machine-hardness.md",
   "prepublication_refresh": {
     "date": "2026-09-18",
     "latest_target_commit": "aa3087c2cf59db1e30215f90301f356385ce163c",

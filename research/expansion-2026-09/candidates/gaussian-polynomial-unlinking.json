@@ -1,6 +1,6 @@
 {
   "candidate_id": "gaussian-polynomial-unlinking",
-  "proposed_catalogue_id": "328",
+  "proposed_catalogue_id": "320",
   "title": "Orthogonal separation of independent Gaussian polynomial statistics",
   "aliases": [
     "Gaussian polynomial U-conjecture",
@@ -764,11 +764,7 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": 269,
-        "distinction": "Mutual-information extremization for Boolean inputs through binary noise, not Gaussian polynomial independence."
-      },
-      {
-        "id": 305,
+        "id": 297,
         "distinction": "Balanced measurable Gaussian partitions maximizing noisy agreement, not an orthogonal decomposition theorem."
       }
     ],
@@ -827,7 +823,7 @@
     "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
     "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": "problems/328-gaussian-polynomial-unlinking.md",
+  "public_page_path": "problems/320-gaussian-polynomial-unlinking.md",
   "validation_results": [
     "2026-09-17: source/search IDs, headings and all draft local links checked.",
     "2026-09-17: all 19 math expressions passed strict KaTeX; statement and applied-significance screenshot visually inspected.",

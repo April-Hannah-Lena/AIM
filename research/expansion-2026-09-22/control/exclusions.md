@@ -23,6 +23,6 @@ Status searches were performed through 22 September 2026. A recent matching clai
 - KdV fast-control cost order: [arXiv:2602.12698](https://arxiv.org/abs/2602.12698); excluded.
 - Full anisotropic Maxwell recovery: substantial partial results found, but no sufficiently explicit source formulation was admitted in this batch.
 - Variable-density Navier–Stokes global boundary control, complete Boussinesq control and one-control Stefan questions: excluded because the reviewed survey statements did not fix enough boundary, compatibility or coupling details for an unambiguous entry without additional source verification.
-- Polynomial controllability-radius growth is retained as Jafarpour's distinct quantitative conjecture, not a restatement of existing problem148 on finite-jet robustness.
+- Polynomial controllability-radius growth is retained as Jafarpour's distinct quantitative conjecture, not a restatement of existing problem143 on finite-jet robustness.
 - The catalytic reaction conjecture's literal nonnegative-data wording admits a stationary boundary equilibrium. The retained question explicitly requires strictly positive initial concentrations.
 - All numerical-linear-algebra candidates, including the control-book matrix questions, were excluded by scope.

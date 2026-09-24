@@ -14,9 +14,9 @@ The ten handoff seeds have no apparent equivalent in that baseline. Closest comp
 | Three-dimensional Edwards–Anderson order | 196 is two-dimensional zero-temperature ground-state uniqueness; 195 is ferromagnetic interface roughening. |
 | Yang–Mills | 201 and 202 concern discrete many-body gaps, not continuum gauge-field construction. |
 | Planar Morrey | 160/161 concern Sobolev homeomorphism approximation, 162 a particular hull, 242 linear G-closure, and 230 elastic force balance. |
-| Gaussian simplex noise stability | 269 is binary mutual information, 245 Euclidean perimeter minimization, and 099 KLS. |
+| Gaussian simplex noise stability | 245 concerns Euclidean perimeter minimization, and 099 KLS. |
 | Planted clique | 044 is deterministic RIP construction; 034 is rigidity and 099 is KLS. |
 
 These comparisons are preliminary screening, not acceptance of any seed. Each requires its own exact formulation and literature review.
 
-One baseline prose issue was observed but not changed: entry 298's status discussion calls entry 200 a continuum polymer, whereas entry 200 specifies a Gaussian-disorder lattice polymer on three-dimensional simple random walk. This does not create a new problem and is not counted toward the expansion.
+One baseline prose issue was observed but not changed: entry 290's status discussion calls entry 195 a continuum polymer, whereas entry 195 specifies a Gaussian-disorder lattice polymer on three-dimensional simple random walk. This does not create a new problem and is not counted toward the expansion.

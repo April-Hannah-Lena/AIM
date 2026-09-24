@@ -1,6 +1,6 @@
 {
   "candidate_id": "gnrs-minor-free-flow-cut",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "495",
   "title": "The GNRS conjecture for minor-free network flow",
   "primary_section": "stochastic3",
   "secondary_tags": [
@@ -42,13 +42,13 @@
   ],
   "nearest_existing_entries": [
     {
-      "id": "309",
-      "path": "problems/309-li-li-multiple-unicast.md",
+      "id": "301",
+      "path": "problems/301-li-li-multiple-unicast.md",
       "difference": "Asks equality of undirected network-coding and fractional-routing throughput regions for all networks. GNRS compares cut upper bounds with fractional routing on minor-free supply graphs; it does not allow coding or seek exact equality."
     },
     {
-      "id": "334",
-      "path": "problems/334-strong-thin-tree.md",
+      "id": "326",
+      "path": "problems/326-strong-thin-tree.md",
       "difference": "Seeks a single spanning tree with small usage of every unweighted cut. GNRS embeds all shortest-path distances or routes arbitrary fractional demands; no spanning-tree selection is required."
     }
   ],
@@ -57,7 +57,7 @@
     "local": "Alias/formulation search of problems, candidate records and discovery/source/exclusion records found no equivalent entry. Only illumination is an accepted pending draft.",
     "upstream": "September 19 SSH fetch matched HEAD and origin/main at f2aea88d26a7d5421d120d2d9412886c8dc9c314. Connected metadata confirmed private MColbrook/AIM, main default and push permission; open-PR search empty, branch search exhausted after main on the first page and an empty second page."
   },
-  "publication_state": "Accepted research draft and evidence pushed directly to main; no permanent ID or catalogue integration.",
+  "publication_state": "Integrated in the local catalogue on 2026-09-23; no commit or remote publication performed by this integration.",
   "source_records": [
     {
       "source_id": "GNRS04",
@@ -522,5 +522,14 @@
     "scope": "Research draft and evidence only; active catalogue remains 360.",
     "verified_by": "Successful direct fast-forward push followed by a separate git ls-remote returning the exact full commit.",
     "pull_request": null
+  },
+  "public_page_path": "problems/495-gnrs-minor-free-flow-cut.md",
+  "integration_2026_09_23": {
+    "id": "495",
+    "group": "stochastic3",
+    "status": "Partially resolved",
+    "status_checked_on": "2026-09-23",
+    "record": "research/integration-2026-09-23.md",
+    "scope": "Existing September 19 source audit plus bounded literature refresh; no independent proof certification."
   }
 }

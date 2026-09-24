@@ -2,7 +2,7 @@
 
 **Area:** Statistical learning, Boolean rules and computational complexity
 
-**Status:** Accepted; integrated as entry 337
+**Status:** Accepted; integrated as entry 329
 
 **Last checked:** 2026-09-18
 
@@ -53,8 +53,8 @@ The polynomial algorithms in [2, 4] use membership queries; [5] uses coherent qu
 
 The [evidence record](../candidates/classical-uniform-dnf-learning.json) additionally compares random-target algorithms, local queries, positive-only lower bounds and conditional distribution-free hardness. None supplies a matching result for the stated model. Historical results are sometimes checked through explicit scholarly restatements; complete proofs have not been independently certified.
 
-This differs from noisy-parity recovery in [entry 317](../../../problems/317-learning-parity-noise.md) and runtime-unrestricted sample compression in [entry 318](../../../problems/318-linear-sample-compression.md). All DNF sizes are one problem family; monotone, bounded-width and quantum variants receive no additional count. The separated A38 adversarial self-pass passed on September 18.
+This differs from noisy-parity recovery in [entry 309](../../../problems/309-learning-parity-noise.md) and runtime-unrestricted sample compression in [entry 310](../../../problems/310-linear-sample-compression.md). All DNF sizes are one problem family; monotone, bounded-width and quantum variants receive no additional count. The separated A38 adversarial self-pass passed on September 18.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
 
-Integrated page: [337. Polynomial-time DNF learning from uniform random examples](../../../problems/337-classical-uniform-dnf-learning.md).
+Integrated page: [337. Polynomial-time DNF learning from uniform random examples](../../../problems/329-classical-uniform-dnf-learning.md).

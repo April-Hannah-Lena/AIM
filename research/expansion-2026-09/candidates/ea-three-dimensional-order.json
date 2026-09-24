@@ -1,6 +1,6 @@
 {
   "candidate_id": "ea-three-dimensional-order",
-  "proposed_catalogue_id": "307",
+  "proposed_catalogue_id": "299",
   "title": "Positive-temperature order in the three-dimensional Edwards–Anderson spin glass",
   "aliases": [
     "3D EA spin-glass transition",
@@ -266,11 +266,11 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "196",
+        "id": "191",
         "difference": "Uniqueness of 2D infinite-volume ground-state pairs; here 3D finite-temperature thermal overlap positivity."
       },
       {
-        "id": "195",
+        "id": "190",
         "difference": "Ferromagnetic interface classification, without signed Gaussian disorder."
       }
     ],
@@ -321,7 +321,7 @@
     "outcome": "Baseline unchanged; only main branch and no open PRs. Accepted statements compared against baseline and each other; no collisions. No new matching resolution located; relevant scope distinctions documented.",
     "additional_scope_note": "Recent dAT, overlap-spectrum and tensor-network search hits expressly report numerical diagnostics or sampling performance, not a rigorous positive-temperature zero-field thermodynamic overlap theorem. Abstract/research-summary inspection only; not represented as theorem reads."
   },
-  "public_page_path": "problems/307-ea-three-dimensional-order.md",
+  "public_page_path": "problems/299-ea-three-dimensional-order.md",
   "validation_results": [
     {
       "date": "2026-09-17",

@@ -4,7 +4,7 @@ Repository: `MColbrook/AIM`; original base: `a602073d986b7f5ce57b1aa0db1687d1bd8
 
 The remote main ref matched the base during the initial read-only check. The connected account was `sgstepaniants`; connector metadata reported a private repository and push access, with no open pull requests and only the main remote branch. The normalized connector result did not expose a fork flag, so this audit does not independently refresh that field from the handoff. No remote mutation has occurred.
 
-`catalogue.json` separates permanent IDs, twelve section keys and explicit publication-batch membership. Original IDs 001–300, data records and problem pages are unchanged. `scripts/catalogue.py` derives counts and dated batch descriptions, validates membership and supports documented inactive identifiers without reuse. CONTRIBUTING and generated README describe this schema.
+`catalogue.json` separates problem IDs, twelve section keys and explicit publication-batch membership. The original infrastructure change preserved problem content. The current numbering policy supersedes the former permanent-ID policy: remaining active entries are numbered consecutively after deletions, and references and batch membership follow each problem. `scripts/catalogue.py` validates this policy. CONTRIBUTING and the generated README describe the current schema.
 
 Validation completed:
 

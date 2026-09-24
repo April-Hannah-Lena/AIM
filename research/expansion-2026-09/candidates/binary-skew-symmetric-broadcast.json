@@ -1,6 +1,6 @@
 {
   "candidate_id": "binary-skew-symmetric-broadcast",
-  "proposed_catalogue_id": "347",
+  "proposed_catalogue_id": "339",
   "title": "Capacity of the binary skew-symmetric broadcast channel",
   "decision": "accept_open",
   "decision_reason": "Exact formulation, independent corroboration, full resolution-scope comparisons, duplicate review, separated A48 adversarial self-review and repository/rendering checks passed; no unresolved material matching resolution claim located.",
@@ -333,9 +333,9 @@
       }
     ],
     "full_pages_read": [
-      "problems/310-gaussian-broadcast-feedback.md",
-      "problems/142-binary-multiplying-two-way-capacity.md",
-      "problems/143-gaussian-relay-capacity.md",
+      "problems/302-gaussian-broadcast-feedback.md",
+      "problems/137-binary-multiplying-two-way-capacity.md",
+      "problems/138-gaussian-relay-capacity.md",
       "research/expansion-2026-09/drafts/binary-code-asymptotic-rate.md"
     ],
     "counting_rule": "One canonical BSSC private-message capacity problem, no separate sum capacity, parameter or Marton-optimality entry."
@@ -411,7 +411,7 @@
       "result": "git diff --cached --check passed for exactly eight reviewed research files. No active catalogue page, original identifier, historical review date, code or user handoff file changed."
     }
   ],
-  "public_page_path": "problems/347-binary-skew-symmetric-broadcast.md",
+  "public_page_path": "problems/339-binary-skew-symmetric-broadcast.md",
   "publication_state": "Accepted, integrated and published directly to main in batch 5.",
   "batch_validation": {
     "state": "passed",

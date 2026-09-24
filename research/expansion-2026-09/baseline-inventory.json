@@ -2,7 +2,7 @@
   "repository": "MColbrook/AIM",
   "baseline_commit": "a602073d986b7f5ce57b1aa0db1687d1bd87761d",
   "captured_on": "2026-09-17",
-  "entry_count": 300,
+  "entry_count": 292,
   "note": "Mechanical source extraction for searching and scope comparisons. It does not by itself constitute a semantic duplicate or status review. Alias field contains only filename terms; named aliases must be traced during candidate review. Hypotheses, model, parameters and conclusions are preserved verbatim in statement_with_hypotheses.",
   "entries": [
     {
@@ -295,25 +295,9 @@
     },
     {
       "id": "019",
-      "title": "The Benguria–Loss ovals conjecture",
-      "area": "Geometric Schrödinger operators",
-      "file": "problems/019-ovals-conjecture.md",
-      "status": "Open in cited literature; no later resolution located",
-      "last_checked": "2026-09-08",
-      "section": "spectral",
-      "aliases_from_filename": [
-        "ovals conjecture"
-      ],
-      "statement_with_hypotheses": "Let $\\gamma$ be any smooth simple closed convex plane curve of length $2\\pi$, parametrized by arclength $s$, with curvature $\\kappa(s)$. Prove or disprove that every real periodic $f\\in H^1(0,2\\pi)$ satisfies\n\n$$\\int_0^{2\\pi}\\left(|f'(s)|^2+\\kappa(s)^2|f(s)|^2\\right)ds\\ge\\int_0^{2\\pi}|f(s)|^2ds.$$\n\nEquivalently, the lowest periodic eigenvalue of $-d^2/ds^2+\\kappa^2$ is at least one. No uniqueness of the circle is asserted: a family of distinct ovals attains the conjectural minimum.",
-      "references": "1. J. Bernstein and T. Mettler, [One-dimensional projective structures, convex curves and the ovals of Benguria & Loss](https://arxiv.org/abs/1403.8000), preprint (2014), introduction, equation (1.1).\n2. H. Linde, [An improved bound for the ground state of a Schrödinger operator on a loop](https://arxiv.org/abs/2504.20229), preprint (2025), abstract and Theorem 2.1.",
-      "status_review": "**Status:** Open in cited literature; no later resolution located.\n\n**Last checked:** 2026-09-08.\n\nLinde's April 2025 preprint explicitly leaves the conjecture open and improves a universal lower bound to 0.81, below the target one. Bernstein–Mettler's related geometric inequalities and local-minimality results do not establish the global statement.\n\n**Search audit:** “Benguria Loss ovals conjecture 2025 2026 proof”; “ovals conjecture lower bound Linde”. Searches included proof, counterexample, and 2025–2026 updates. This is a literature search result, not a certification that no proof exists.",
-      "page_sha256": "9a4574cec686f161766f706a1b15fc962ae175654b85ee77109a2d63f4ae2d63"
-    },
-    {
-      "id": "020",
       "title": "The polygonal Payne–Pólya–Weinberger ratio conjecture",
       "area": "Spectral shape optimization",
-      "file": "problems/020-polygonal-ppw.md",
+      "file": "problems/019-polygonal-ppw.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "spectral",
@@ -326,10 +310,10 @@
       "page_sha256": "baee7b7cc8b80d3b5a83d70eebc7a5fe5c6aa889b0f3d2ffabfa914c983ed834"
     },
     {
-      "id": "021",
+      "id": "020",
       "title": "Bareket's conjecture for simply connected planar domains",
       "area": "Robin spectra and surface interactions",
-      "file": "problems/021-bareket-simply-connected.md",
+      "file": "problems/020-bareket-simply-connected.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "spectral",
@@ -342,10 +326,10 @@
       "page_sha256": "196e1bc6c175e41842ed55015c2a5255e7d787873a703f5ac8f40411e74c8dca"
     },
     {
-      "id": "022",
+      "id": "021",
       "title": "The Robin fundamental gap conjecture",
       "area": "Diffusion and elastically supported membranes",
-      "file": "problems/022-robin-fundamental-gap.md",
+      "file": "problems/021-robin-fundamental-gap.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "spectral",
@@ -358,10 +342,10 @@
       "page_sha256": "ce80c03c97d1800cb11d6905b1848bc23e566d692de3b6d5e9273ee2592bf021"
     },
     {
-      "id": "023",
+      "id": "022",
       "title": "The Robin eigenvalue ratio at fixed volume",
       "area": "Robin spectra and resonator design",
-      "file": "problems/023-robin-ppw.md",
+      "file": "problems/022-robin-ppw.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "spectral",
@@ -374,10 +358,10 @@
       "page_sha256": "228290085b77f2ed3842e37bf17b42b4cc2df6a0c24641395d165b1c78e5f127"
     },
     {
-      "id": "024",
+      "id": "023",
       "title": "The regular-polygon Steklov conjecture",
       "area": "Boundary spectral optimization",
-      "file": "problems/024-steklov-polygon-optimizer.md",
+      "file": "problems/023-steklov-polygon-optimizer.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "spectral",
@@ -390,10 +374,10 @@
       "page_sha256": "f6ff52edfa2a9270bef45e925beb6d1a35eb2a827f65aa27040969a68f84fdaf"
     },
     {
-      "id": "025",
+      "id": "024",
       "title": "Exponential interior decay for smooth Steklov domains",
       "area": "Boundary waves and harmonic extension",
-      "file": "problems/025-steklov-smooth-interior-decay.md",
+      "file": "problems/024-steklov-smooth-interior-decay.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "spectral",
@@ -406,10 +390,10 @@
       "page_sha256": "6941e51fa7d00fd48c2786323b060cb046b53e14c4d48c51fa7ad37438f79c38"
     },
     {
-      "id": "026",
+      "id": "025",
       "title": "The complete Crouzeix conjecture",
       "area": "Operator theory and numerical linear algebra",
-      "file": "problems/026-complete-crouzeix.md",
+      "file": "problems/025-complete-crouzeix.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -422,10 +406,10 @@
       "page_sha256": "8079d4bc80067bd97fc90c6d4cf606f8895e7b92201c10993c7f16e4c663935e"
     },
     {
-      "id": "027",
+      "id": "026",
       "title": "Lieb’s permanental dominance conjecture",
       "area": "Matrix analysis and quantum information",
-      "file": "problems/027-lieb-permanental-dominance.md",
+      "file": "problems/026-lieb-permanental-dominance.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -438,10 +422,10 @@
       "page_sha256": "ecbaf548d817185d96aafbd7c11d9f34c1b804557fd94edf9794c495b6e48d7f"
     },
     {
-      "id": "028",
+      "id": "027",
       "title": "Chollet’s Hadamard-product permanent inequality",
       "area": "Matrix analysis and bosonic computation",
-      "file": "problems/028-chollet-permanent.md",
+      "file": "problems/027-chollet-permanent.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -454,10 +438,10 @@
       "page_sha256": "a74241d14d15c4b96b8130daeb5a619e07e10f39bf8f9e6f67d1b83b09d01099"
     },
     {
-      "id": "029",
+      "id": "028",
       "title": "Hadamard matrices in every admissible order",
       "area": "Matrix design, coding and experimental design",
-      "file": "problems/029-hadamard-all-orders.md",
+      "file": "problems/028-hadamard-all-orders.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -470,10 +454,10 @@
       "page_sha256": "1b994c43d4898d92557840f40976f143e66cc7aff6b15cda75e90012c5f06fbd"
     },
     {
-      "id": "030",
+      "id": "029",
       "title": "The exact real Grothendieck constant",
       "area": "Operator norms and semidefinite optimization",
-      "file": "problems/030-real-grothendieck-constant.md",
+      "file": "problems/029-real-grothendieck-constant.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -486,42 +470,10 @@
       "page_sha256": "86f555894d40a45883359d27e5054f88014aa58c535509397b65ad417ebb8127"
     },
     {
-      "id": "031",
-      "title": "Komlós’s vector-balancing conjecture",
-      "area": "Discrepancy and matrix rounding",
-      "file": "problems/031-komlos.md",
-      "status": "Open in cited literature; no later resolution located",
-      "last_checked": "2026-09-08",
-      "section": "operators",
-      "aliases_from_filename": [
-        "komlos"
-      ],
-      "statement_with_hypotheses": "Does there exist a universal constant $C<\\infty$ such that, for every $m,n\\ge1$ and every real matrix $A\\in\\mathbb R^{m\\times n}$ whose columns satisfy $\\sum_{i=1}^m a_{ij}^2\\le1$, there is $x\\in\\{-1,1\\}^n$ with\n$$\\|Ax\\|_\\infty\\le C?$$\nThe constant must be independent of both dimensions and of the matrix.",
-      "references": "1. N. Bansal and H. Jiang, [Decoupling via Affine Spectral-Independence: Beck-Fiala and Komlós Bounds Beyond Banaszczyk](https://arxiv.org/abs/2508.03961), 2025; STOC 2026. States the conjecture and improves the dimension-dependent bound.\n2. N. Bansal, D. Dadush and S. Garg, [An algorithm for Komlós conjecture matching Banaszczyk’s bound](https://arxiv.org/abs/1605.02882), 2016. Earlier constructive bound.",
-      "status_review": "Checked on **2026-09-08**. Bansal–Jiang obtain a bound of order $\\widetilde O((\\log n)^{1/4})$, where the suppressed factors are polylogarithmic in $\\log n$. This remains dimension-dependent; the title of the earlier “algorithm for Komlós” paper does not mean that the constant-bound conjecture was proved. No subsequent constant bound was located.\n\nSearches included: `Komlós conjecture 2026 solved`; `Decoupling Affine Spectral Independence Komlos`; `Komlos constant discrepancy proof`. This is a documented literature check, not a certification that no solution exists.",
-      "page_sha256": "503815958e8913b8456142100855341a4f1973ede2509090f74a6de0c491e66f"
-    },
-    {
-      "id": "032",
-      "title": "The Beck–Fiala discrepancy conjecture",
-      "area": "Sparse constraint rounding",
-      "file": "problems/032-beck-fiala.md",
-      "status": "Open in cited literature; no later resolution located",
-      "last_checked": "2026-09-08",
-      "section": "operators",
-      "aliases_from_filename": [
-        "beck fiala"
-      ],
-      "statement_with_hypotheses": "Is there a universal constant $C$ with the following property? For every finite set $X$, every family $\\mathcal F\\subseteq2^X$, and every integer $t\\ge1$ such that each element of $X$ belongs to at most $t$ members of $\\mathcal F$, there is a coloring $\\epsilon:X\\to\\{-1,1\\}$ satisfying\n$$\\left|\\sum_{x\\in S}\\epsilon(x)\\right|\\le C\\sqrt t\\quad\\text{for every }S\\in\\mathcal F.$$\nAll sparsity regimes, including small $t$ relative to $|X|$, are included.",
-      "references": "1. N. Bansal and H. Jiang, [Decoupling via Affine Spectral-Independence: Beck-Fiala and Komlós Bounds Beyond Banaszczyk](https://arxiv.org/abs/2508.03961), 2025; STOC 2026. Major progress for large degree.\n2. D. J. Altschuler and K. Tikhomirov, [Online Beck–Fiala Down to Logarithmic Sparsity](https://arxiv.org/abs/2607.14238), 2026. Further progress down toward logarithmic degree.",
-      "status_review": "Checked on **2026-09-08**. The July 2026 preprint extends the proved degree regime to $t\\ge(\\log|X|)^{1+o(1)}$. It does not establish the full conjecture for all smaller degrees. This entry retains the universal offline statement, not a now-proved large-degree or online-Spencer subproblem.\n\nSearches included: `Beck-Fiala conjecture 2026 solved`; `Online Beck-Fiala Down Logarithmic Sparsity`; `Beck Fiala small degree open`. This is a documented literature check, not a certification that no solution exists.",
-      "page_sha256": "ea2046856616dd9314f6480ab2ca66ea2803c62e89360ae3376d519318cf1313"
-    },
-    {
-      "id": "033",
+      "id": "030",
       "title": "Is the matrix-multiplication exponent two?",
       "area": "Numerical linear algebra and algebraic complexity",
-      "file": "problems/033-matrix-multiplication-exponent.md",
+      "file": "problems/030-matrix-multiplication-exponent.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -534,10 +486,10 @@
       "page_sha256": "4fd2c41e127ed5cee8b4fc665d7227704c84dbdd24600c1b7455ff1fc43c291d"
     },
     {
-      "id": "034",
+      "id": "031",
       "title": "Explicit matrices with Valiant-scale rigidity",
       "area": "Matrix computation and complexity lower bounds",
-      "file": "problems/034-explicit-rigid-matrices.md",
+      "file": "problems/031-explicit-rigid-matrices.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -550,10 +502,10 @@
       "page_sha256": "b63d3bd36e88837e5ec8ff300fc68f5ebf7ef1eff2d88c72c7ba1219a3531ec1"
     },
     {
-      "id": "035",
+      "id": "032",
       "title": "SIC measurements in every finite dimension",
       "area": "Quantum measurement and frame theory",
-      "file": "problems/035-sic-povms.md",
+      "file": "problems/032-sic-povms.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -566,10 +518,10 @@
       "page_sha256": "68bb8d215a5f3f8decda454664def5576ee1828ed763d80afe091be20f17c5be"
     },
     {
-      "id": "036",
+      "id": "033",
       "title": "The maximum number of mutually unbiased bases in dimension six",
       "area": "Quantum information and matrix design",
-      "file": "problems/036-mub-dimension-six.md",
+      "file": "problems/033-mub-dimension-six.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -582,10 +534,10 @@
       "page_sha256": "2470ec6aefbd256bd4b261a00d0598a978ea567204c0dea5032f83ac155a3c3c"
     },
     {
-      "id": "037",
+      "id": "034",
       "title": "Existence of NPT bound entanglement",
       "area": "Quantum information and positive operators",
-      "file": "problems/037-npt-bound-entanglement.md",
+      "file": "problems/034-npt-bound-entanglement.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -598,10 +550,10 @@
       "page_sha256": "e0d12dd0f88616a5f3c2b3c84eb54be95f299f9609ed0cee3b0c57efcddb259e"
     },
     {
-      "id": "038",
+      "id": "035",
       "title": "Exact quantum capacity of the qubit depolarizing channel",
       "area": "Quantum communication and operator optimization",
-      "file": "problems/038-depolarizing-quantum-capacity.md",
+      "file": "problems/035-depolarizing-quantum-capacity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -614,10 +566,10 @@
       "page_sha256": "5e77beffe1bfabf7e8cd3c0aab4df629ef2e315a22683ec5a260aab21fd15e5f"
     },
     {
-      "id": "039",
+      "id": "036",
       "title": "Uniform spatial stability of von Neumann algebras",
       "area": "Operator perturbation theory",
-      "file": "problems/039-kadison-kastler.md",
+      "file": "problems/036-kadison-kastler.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -630,10 +582,10 @@
       "page_sha256": "0c19c6275daa38f0c1f4e9f4e750f8c06c206fd9def6f244ccde8dd358b31e00"
     },
     {
-      "id": "040",
+      "id": "037",
       "title": "Are the standard quantum entropy inequalities complete?",
       "area": "Quantum information and convex optimization",
-      "file": "problems/040-quantum-entropy-cone.md",
+      "file": "problems/037-quantum-entropy-cone.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -646,10 +598,10 @@
       "page_sha256": "7e2ec9ecedfbb0be8518ec21825526b8ee8f3f9564575d7994dfc1c647bc1552"
     },
     {
-      "id": "041",
+      "id": "038",
       "title": "Arveson–Douglas essential normality for homogeneous ideals",
       "area": "Multivariable operator theory",
-      "file": "problems/041-arveson-douglas.md",
+      "file": "problems/038-arveson-douglas.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -662,10 +614,10 @@
       "page_sha256": "74439970eb42bdda87f630b8aef0779fb08583d7600e7efa0b460b7ea119b810"
     },
     {
-      "id": "042",
+      "id": "039",
       "title": "Kadison’s similarity problem",
       "area": "Operator representations and stability",
-      "file": "problems/042-kadison-similarity.md",
+      "file": "problems/039-kadison-similarity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -678,10 +630,10 @@
       "page_sha256": "509ccbee48358b64c5e90b67e1b34bd4e1ad7014ac2d26a5d0ecab8420b060fc"
     },
     {
-      "id": "043",
+      "id": "040",
       "title": "Dixmier’s unitarizability problem for countable groups",
       "area": "Group representations and operator theory",
-      "file": "problems/043-dixmier-unitarizability.md",
+      "file": "problems/040-dixmier-unitarizability.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -694,10 +646,10 @@
       "page_sha256": "dfd3d9b41df4030b6feae37a5edb1c96b25d15cb9f1239cb203a87f0a9c336de"
     },
     {
-      "id": "044",
+      "id": "041",
       "title": "Deterministic sensing matrices with optimal RIP measurement count",
       "area": "Compressed sensing and matrix construction",
-      "file": "problems/044-deterministic-rip.md",
+      "file": "problems/041-deterministic-rip.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -710,10 +662,10 @@
       "page_sha256": "409e339300ce26cb7b9e471092e6277613cc38d7d30a18ab1d4758e26dc43890"
     },
     {
-      "id": "045",
+      "id": "042",
       "title": "Uniformly effective algebraic multigrid for diagonally dominant systems",
       "area": "Numerical PDE solvers and preconditioning",
-      "file": "problems/045-universal-algebraic-multigrid.md",
+      "file": "problems/042-universal-algebraic-multigrid.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -726,10 +678,10 @@
       "page_sha256": "ba35aef481bde3ab8a8bb12a4c15bc20763129d117036a156dc14a542f58c133"
     },
     {
-      "id": "046",
+      "id": "043",
       "title": "Deterministic pseudospectral shattering in nearly cubic time",
       "area": "Eigenvalue computation and nonnormal operators",
-      "file": "problems/046-deterministic-pseudospectral-shattering.md",
+      "file": "problems/043-deterministic-pseudospectral-shattering.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -742,10 +694,10 @@
       "page_sha256": "982fe041f708ed3a5e75df36c8e543ef35a210787b2a5d7588175c207db4a4d0"
     },
     {
-      "id": "047",
+      "id": "044",
       "title": "Accurate selected bidiagonal singular vectors in O(kn) work",
       "area": "Numerical linear algebra and low-rank approximation",
-      "file": "problems/047-accurate-bidiagonal-svd.md",
+      "file": "problems/044-accurate-bidiagonal-svd.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -758,10 +710,10 @@
       "page_sha256": "340c8ab6001dc4244bbf2ec84dd38df88cea02333d676c7b9ceb79c56ae92c8e"
     },
     {
-      "id": "048",
+      "id": "045",
       "title": "A nearly cubic Schur algorithm using only linear precision",
       "area": "Stable algorithms for general eigenproblems",
-      "file": "problems/048-linear-precision-schur.md",
+      "file": "problems/045-linear-precision-schur.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -774,10 +726,10 @@
       "page_sha256": "f75b1e5717ecd22a9261d58e97ac3c680833ba01cc462f61c4be48b49fdc16bd"
     },
     {
-      "id": "049",
+      "id": "046",
       "title": "Quadratic-scale bit complexity for well-conditioned sparse systems",
       "area": "Sparse numerical linear algebra",
-      "file": "problems/049-sparse-linear-solve-bit-complexity.md",
+      "file": "problems/046-sparse-linear-solve-bit-complexity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -790,10 +742,10 @@
       "page_sha256": "98e26e46c30c89f54e99fd1371c15207cdfb4a8f4ea320024a4b8829ab118e79"
     },
     {
-      "id": "050",
+      "id": "047",
       "title": "Improve the worst-case tensor-train approximation factor",
       "area": "Tensor computation and high-dimensional models",
-      "file": "problems/050-tensor-train-approximation.md",
+      "file": "problems/047-tensor-train-approximation.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "operators",
@@ -806,10 +758,10 @@
       "page_sha256": "b69af8888e2a05273b23365b5c551ca4dc6a039f66077aa33ad9a13641a659dd"
     },
     {
-      "id": "051",
+      "id": "048",
       "title": "Calderón uniqueness for bounded measurable conductivities",
       "area": "Inverse problems / electrical impedance tomography",
-      "file": "problems/051-rough-conductivity-calderon.md",
+      "file": "problems/048-rough-conductivity-calderon.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -822,10 +774,10 @@
       "page_sha256": "c179f97d97eebf32e7b2dcffb94ffdecc7c7d32a16ed9ba8ba3ff806cd502939"
     },
     {
-      "id": "052",
+      "id": "049",
       "title": "Smooth anisotropic Calderón uniqueness",
       "area": "Inverse problems / anisotropic imaging",
-      "file": "problems/052-smooth-anisotropic-calderon.md",
+      "file": "problems/049-smooth-anisotropic-calderon.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -838,10 +790,10 @@
       "page_sha256": "f9262c7a059d8f64f02b44c2b711acf819e22b299ee90b8b89acf7375730ccbd"
     },
     {
-      "id": "053",
+      "id": "050",
       "title": "Calderón uniqueness from an arbitrary local boundary patch",
       "area": "Inverse problems / partial boundary data",
-      "file": "problems/053-arbitrary-local-calderon-data.md",
+      "file": "problems/050-arbitrary-local-calderon-data.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -854,10 +806,10 @@
       "page_sha256": "5f4321fff41463de1de643ec8947b40a848b159554dd38ba9958432b8d7d8406"
     },
     {
-      "id": "054",
+      "id": "051",
       "title": "Global conductivity uniqueness for the p-Laplacian in higher dimensions",
       "area": "Nonlinear inverse problems / electrical materials",
-      "file": "problems/054-nonlinear-p-calderon.md",
+      "file": "problems/051-nonlinear-p-calderon.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -870,10 +822,10 @@
       "page_sha256": "4ed87158eb9763437f3e8e578c5c47be4c071a08e0aa45f7d8722402c78a6d26"
     },
     {
-      "id": "055",
+      "id": "052",
       "title": "Recover both Lamé moduli from static boundary measurements",
       "area": "Inverse elasticity / nondestructive testing",
-      "file": "problems/055-static-lame-uniqueness.md",
+      "file": "problems/052-static-lame-uniqueness.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -886,10 +838,10 @@
       "page_sha256": "bf1c9e6c58ccc20deb388240c046fc12a226b3fd2fe91e0379d047232f26db3a"
     },
     {
-      "id": "056",
+      "id": "053",
       "title": "Recover a potential on a general known Riemannian manifold",
       "area": "Inverse boundary problems / anisotropic wave media",
-      "file": "problems/056-potential-on-general-manifold.md",
+      "file": "problems/053-potential-on-general-manifold.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -902,10 +854,10 @@
       "page_sha256": "0e6eacb5ce1c7ce7531368731d96fdcdc44480645f69479d2f2bbfebcfead2d1"
     },
     {
-      "id": "057",
+      "id": "054",
       "title": "Global uniqueness from inverse backscattering data",
       "area": "Inverse scattering / monostatic imaging",
-      "file": "problems/057-inverse-backscattering.md",
+      "file": "problems/054-inverse-backscattering.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -918,10 +870,10 @@
       "page_sha256": "1ab53e5745d6ed868d2d38bad54175b7a1b71eb3d0a5f5dc4d4837c13d8a1507"
     },
     {
-      "id": "058",
+      "id": "055",
       "title": "Recover an arbitrary sound speed from one incident direction",
       "area": "Inverse scattering / acoustic tomography",
-      "file": "problems/058-fixed-angle-sound-speed.md",
+      "file": "problems/055-fixed-angle-sound-speed.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -934,10 +886,10 @@
       "page_sha256": "d1de6345d7a763a3c23209fa9e5d9395b15ef580186fbba2a093fb390613a053"
     },
     {
-      "id": "059",
+      "id": "056",
       "title": "Determine a smooth sound-soft obstacle from one far-field pattern",
       "area": "Inverse obstacle scattering / acoustic detection",
-      "file": "problems/059-single-wave-obstacle.md",
+      "file": "problems/056-single-wave-obstacle.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -950,10 +902,10 @@
       "page_sha256": "a22e60c4a86c000d76510f60b622d1bd1edfe812c61ea81d23b21c50b948c054"
     },
     {
-      "id": "060",
+      "id": "057",
       "title": "Boundary rigidity of simple manifolds in dimensions at least three",
       "area": "Travel-time tomography / geometric inverse problems",
-      "file": "problems/060-simple-boundary-rigidity.md",
+      "file": "problems/057-simple-boundary-rigidity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -966,10 +918,10 @@
       "page_sha256": "1e4db9732fb590f563f6333430d206a595799d029b3a69af84ab9cd064fb2626"
     },
     {
-      "id": "061",
+      "id": "058",
       "title": "Solenoidal injectivity of the geodesic ray transform on 2-tensors",
       "area": "Tensor tomography / linearized travel-time imaging",
-      "file": "problems/061-tensor-ray-injectivity.md",
+      "file": "problems/058-tensor-ray-injectivity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -982,10 +934,10 @@
       "page_sha256": "4c1bfeb309573b910c0fa974eafbd36d181c9b426576cb7e0a091462dcac28d6"
     },
     {
-      "id": "062",
+      "id": "059",
       "title": "Marked length rigidity in negative curvature",
       "area": "Geometric inverse problems / periodic ray dynamics",
-      "file": "problems/062-marked-length-rigidity.md",
+      "file": "problems/059-marked-length-rigidity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -998,10 +950,10 @@
       "page_sha256": "3910f039c549b7e75c942e75cb5e998669c3fd9ac1d380a787ff1d49c6368cce"
     },
     {
-      "id": "063",
+      "id": "060",
       "title": "Classify noninjectivity sets of spherical mean tomography",
       "area": "Integral geometry / thermoacoustic imaging",
-      "file": "problems/063-spherical-mean-noninjectivity-sets.md",
+      "file": "problems/060-spherical-mean-noninjectivity-sets.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -1014,10 +966,10 @@
       "page_sha256": "657cb96846170370ea4a0e5df93784edefbed384612fe3414e41083b0628dfd0"
     },
     {
-      "id": "064",
+      "id": "061",
       "title": "Simultaneously recover sound speed and initial pressure",
       "area": "Photoacoustic tomography / inverse wave problems",
-      "file": "problems/064-photoacoustic-joint-recovery.md",
+      "file": "problems/061-photoacoustic-joint-recovery.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -1030,10 +982,10 @@
       "page_sha256": "db5e005dff35777912e9a6b6b1c528a4842bd6ca16808342d217467b6886a249"
     },
     {
-      "id": "065",
+      "id": "062",
       "title": "Broken-ray tomography with two smooth convex obstacles",
       "area": "Reflection tomography / integral geometry",
-      "file": "problems/065-two-obstacle-broken-rays.md",
+      "file": "problems/062-two-obstacle-broken-rays.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -1046,10 +998,10 @@
       "page_sha256": "1f8585d97c848262b0217ea97b3cb882c80f3fb97a41ed67c1dafc78f8b7104a"
     },
     {
-      "id": "066",
+      "id": "063",
       "title": "Invertibility of the Pestov–Uhlmann reconstruction operator",
       "area": "Integral geometry and computational tomography",
-      "file": "problems/066-pestov-uhlmann-fredholm-invertibility.md",
+      "file": "problems/063-pestov-uhlmann-fredholm-invertibility.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -1062,10 +1014,10 @@
       "page_sha256": "c065f7e6d97de285cac54165d36012b5f4bb896ec9b22ae2c60b2bd7e510ab91"
     },
     {
-      "id": "067",
+      "id": "064",
       "title": "Injectivity with attenuation of finite angular degree",
       "area": "Attenuated tomography",
-      "file": "problems/067-finite-angular-attenuation.md",
+      "file": "problems/064-finite-angular-attenuation.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -1078,10 +1030,10 @@
       "page_sha256": "10961b0e4dd86eb735901cef3353cb016d827a6ab2e8afea9311c00af13c37d1"
     },
     {
-      "id": "068",
+      "id": "065",
       "title": "Characterizing realizable geodesic scattering data",
       "area": "Geometric inverse problems and data consistency",
-      "file": "problems/068-range-of-geodesic-scattering.md",
+      "file": "problems/065-range-of-geodesic-scattering.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -1094,10 +1046,10 @@
       "page_sha256": "78779381b1d370bd9eede34fce09378a45d86cc9bd352c2421974a236f4a3242"
     },
     {
-      "id": "069",
+      "id": "066",
       "title": "Global Birkhoff billiard integrability conjecture",
       "area": "Hamiltonian dynamics and ray optics",
-      "file": "problems/069-birkhoff-billiard-integrability.md",
+      "file": "problems/066-birkhoff-billiard-integrability.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -1110,10 +1062,10 @@
       "page_sha256": "f5c52b40210a3a6e2affd14bc31badd57ff5ae5dc191b2ba500e8d10f91694fa"
     },
     {
-      "id": "070",
+      "id": "067",
       "title": "Positive metric entropy for a standard map",
       "area": "Hamiltonian chaos and transport",
-      "file": "problems/070-standard-map-metric-entropy.md",
+      "file": "problems/067-standard-map-metric-entropy.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -1126,10 +1078,10 @@
       "page_sha256": "bc7887b307d25c67a83416d49c422cce877c337bd640c271760c0ecb317c732f"
     },
     {
-      "id": "071",
+      "id": "068",
       "title": "Small-time global control of a slightly superlinear heat equation",
       "area": "Nonlinear PDE control",
-      "file": "problems/071-small-time-superlinear-heat-control.md",
+      "file": "problems/068-small-time-superlinear-heat-control.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -1142,10 +1094,10 @@
       "page_sha256": "c75185b09a1e05eea616d73247bfd74957261738cdd541fd567177a0730e77ea"
     },
     {
-      "id": "072",
+      "id": "069",
       "title": "Exact uniform control time near a viscous Burgers shock",
       "area": "Singular limits and control",
-      "file": "problems/072-burgers-shock-uniform-control-time.md",
+      "file": "problems/069-burgers-shock-uniform-control-time.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -1158,10 +1110,10 @@
       "page_sha256": "8e5892a6e4df596ccc3a498d177828aad5938c37e8b9f395115b40a9b3c42bbd"
     },
     {
-      "id": "073",
+      "id": "070",
       "title": "Unique continuation for the higher-dimensional p-Laplace equation",
       "area": "Nonlinear potential theory and inverse problems",
-      "file": "problems/073-p-harmonic-unique-continuation.md",
+      "file": "problems/070-p-harmonic-unique-continuation.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -1174,10 +1126,10 @@
       "page_sha256": "efa300402b1395d2b236f03cc535b28c5617b9f657414929b7d6eed68145ad64"
     },
     {
-      "id": "074",
+      "id": "071",
       "title": "A strictly convex function on every simple manifold",
       "area": "Geometric tomography",
-      "file": "problems/074-convex-function-on-simple-manifold.md",
+      "file": "problems/071-convex-function-on-simple-manifold.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -1190,10 +1142,10 @@
       "page_sha256": "2701b3d6f0c9a4644be000028509125de924d8759be14c5d57e33654016fcbf1"
     },
     {
-      "id": "075",
+      "id": "072",
       "title": "Non-Abelian ray transform for simple Gaussian thermostats",
       "area": "Matrix-valued transport tomography",
-      "file": "problems/075-thermostatic-nonabelian-tomography.md",
+      "file": "problems/072-thermostatic-nonabelian-tomography.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse",
@@ -1206,10 +1158,10 @@
       "page_sha256": "44b9a26e1cf64f5d89a9ffdeeb222aff2b649e181253092c2b9d7776f6527a45"
     },
     {
-      "id": "076",
+      "id": "073",
       "title": "Global regularity of the three-dimensional Navier–Stokes equations",
       "area": "Fluid dynamics",
-      "file": "problems/076-navier-stokes-global-regularity.md",
+      "file": "problems/073-navier-stokes-global-regularity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1222,26 +1174,10 @@
       "page_sha256": "4c69d7f78f30e2d2c9e127405c341a40bb2995b48e3921410bf23811637cac91"
     },
     {
-      "id": "077",
-      "title": "Finite-time singularity for smooth three-dimensional Euler flow without a boundary",
-      "area": "Fluid dynamics",
-      "file": "problems/077-euler-smooth-free-space.md",
-      "status": "Open in cited literature; no later resolution located",
-      "last_checked": "2026-09-08",
-      "section": "applied",
-      "aliases_from_filename": [
-        "euler smooth free space"
-      ],
-      "statement_with_hypotheses": "Does there exist a divergence-free Schwartz vector field $u_0:\\mathbb R^3\\to\\mathbb R^3$ whose classical solution of\n$$\n\\partial_tu+(u\\cdot\\nabla)u+\\nabla p=0,\\qquad\n\\nabla\\cdot u=0,\\qquad u(0)=u_0\n$$\nhas a finite maximal smooth lifespan? Equivalently, either construct such data, or prove that every datum in this class has a smooth solution for all positive time. Solutions must have finite kinetic energy; there is no forcing and the spatial domain is all of $\\mathbb R^3$.",
-      "references": "- [Jiajie Chen and Thomas Y. Hou, *Singularity formation in 3D Euler equations with smooth initial data and boundary* (PNAS, 2025), abstract and review](https://authors.library.caltech.edu/records/40zbk-gep55).\n- [Bojin Chen, De Huang and Xiangyuan Li, *Novel Self-similar Finite-time Blowups with Singular Profiles of the 1D Hou-Luo Model and the 2D Boussinesq Equations: A Numerical Investigation* (2026), introduction](https://arxiv.org/abs/2604.01868).",
-      "status_review": "The 2025 review explicitly leaves the general singularity problem unresolved; its construction uses a boundary. The 2026 numerical paper distinguishes free-space Euler from those results. Neither boundary blowup nor blowup from finite Hölder regularity supplies Schwartz data for this question.\n\nSearches run on 2026-09-08: `three dimensional Euler smooth compact support blowup open problem 2025 2026`; `Boussinesq smooth without boundary 2026`. This is a literature search, not a proof that no solution exists.",
-      "page_sha256": "e08cf2c9ce32fd7dba40ca3b85a78e96bf3855773b908f78dfb01a96cbae0faf"
-    },
-    {
-      "id": "078",
+      "id": "074",
       "title": "Global regularity for supercritical dissipative surface quasi-geostrophic flow",
       "area": "Geophysical fluid dynamics",
-      "file": "problems/078-supercritical-sqg.md",
+      "file": "problems/074-supercritical-sqg.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1254,10 +1190,10 @@
       "page_sha256": "3594ae3d345dcc4c5264b1c4c4c470ccbd2119afcd14a2af6c805bb12f46024e"
     },
     {
-      "id": "079",
+      "id": "075",
       "title": "Large-data global classical solutions of relativistic Vlasov–Maxwell",
       "area": "Kinetic theory and plasma physics",
-      "file": "problems/079-vlasov-maxwell-global-classical.md",
+      "file": "problems/075-vlasov-maxwell-global-classical.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1270,10 +1206,10 @@
       "page_sha256": "9316abff2ddf2802260714088473cedf3bd689a207eefae78d97cc834b99bf8c"
     },
     {
-      "id": "080",
+      "id": "076",
       "title": "Large-data global smoothness for the spatially inhomogeneous Boltzmann equation",
       "area": "Kinetic theory",
-      "file": "problems/080-inhomogeneous-boltzmann-regularity.md",
+      "file": "problems/076-inhomogeneous-boltzmann-regularity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1286,10 +1222,10 @@
       "page_sha256": "2e272e7d125a805b64da4837613183a8ef9f88f905d94734f4d04d9d1d3dce76"
     },
     {
-      "id": "081",
+      "id": "077",
       "title": "The no-slip inviscid limit in two dimensions",
       "area": "Fluid dynamics and boundary layers",
-      "file": "problems/081-no-slip-inviscid-limit.md",
+      "file": "problems/077-no-slip-inviscid-limit.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1302,10 +1238,10 @@
       "page_sha256": "c76b08e6b309638253c0dc6725e9466d018cc91def41527dad68b48da36fe430"
     },
     {
-      "id": "082",
+      "id": "078",
       "title": "Bressan's logarithmic lower bound on the cost of mixing",
       "area": "Transport and mixing",
-      "file": "problems/082-bressan-mixing-cost.md",
+      "file": "problems/078-bressan-mixing-cost.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1318,10 +1254,10 @@
       "page_sha256": "050b35ecfa40b4b96a4fcb67561a495d4f87f1e815379c00caf420d2fef4be6d"
     },
     {
-      "id": "083",
+      "id": "079",
       "title": "Global smoothness for the real scalar defocusing septic wave equation",
       "area": "Nonlinear waves",
-      "file": "problems/083-scalar-supercritical-wave.md",
+      "file": "problems/079-scalar-supercritical-wave.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1334,10 +1270,10 @@
       "page_sha256": "d7ecad7d935231ab80506a5f40ee0022ffdb8fd38f74e604fd7550869e236a52"
     },
     {
-      "id": "084",
+      "id": "080",
       "title": "Soliton resolution for bounded nonradial energy-critical waves",
       "area": "Nonlinear waves",
-      "file": "problems/084-nonradial-soliton-resolution.md",
+      "file": "problems/080-nonradial-soliton-resolution.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1350,10 +1286,10 @@
       "page_sha256": "eccd783cc9f594e6b8ef32884c1cea8ebb5263205da44950a492bc4af15ce899"
     },
     {
-      "id": "085",
+      "id": "081",
       "title": "Global regularity of two-dimensional ideal incompressible MHD",
       "area": "Magnetohydrodynamics",
-      "file": "problems/085-ideal-mhd-two-dimensions.md",
+      "file": "problems/081-ideal-mhd-two-dimensions.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1366,10 +1302,10 @@
       "page_sha256": "52b2422ce9fc9d7a8200c42fc97c3b51540ab5d5eddf52945539e527ec397a76"
     },
     {
-      "id": "086",
+      "id": "082",
       "title": "Large-data global regularity for creeping-flow Oldroyd–B without stress diffusion",
       "area": "Viscoelasticity",
-      "file": "problems/086-non-diffusive-oldroyd-b.md",
+      "file": "problems/082-non-diffusive-oldroyd-b.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1382,10 +1318,10 @@
       "page_sha256": "e4433f4ec5af406a99141d4f6cf9dda9d777847200fa03f8ca93419e25282c3f"
     },
     {
-      "id": "087",
+      "id": "083",
       "title": "Preservation of strict positivity for the cubic thin-film equation",
       "area": "Thin films and lubrication",
-      "file": "problems/087-thin-film-positivity.md",
+      "file": "problems/083-thin-film-positivity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1398,10 +1334,10 @@
       "page_sha256": "0fbba7a54ee42ceb12e8809085fa790a5e9b2e3855cbe93cd042a18d2e05b7f9"
     },
     {
-      "id": "088",
+      "id": "084",
       "title": "Smooth unforced inviscid Boussinesq evolution on the whole plane",
       "area": "Geophysical fluid dynamics",
-      "file": "problems/088-inviscid-boussinesq-plane.md",
+      "file": "problems/084-inviscid-boussinesq-plane.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1414,10 +1350,10 @@
       "page_sha256": "c4711498a9150e5196cabd7745bd02a9fd17ba17cf85e09adfe351467a097779"
     },
     {
-      "id": "089",
+      "id": "085",
       "title": "The bulk ground-state energy of the planar Lennard–Jones system",
       "area": "Atomistic materials",
-      "file": "problems/089-lennard-jones-planar-crystallization.md",
+      "file": "problems/085-lennard-jones-planar-crystallization.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1430,10 +1366,10 @@
       "page_sha256": "3f8139efb24ac9caf38bd0b6dfa14166edf1653c8914f9a254eaf3d494e5569b"
     },
     {
-      "id": "090",
+      "id": "086",
       "title": "The three-dimensional lattice-periodic Kelvin problem",
       "area": "Foams and geometric optimization",
-      "file": "problems/090-kelvin-lattice-foam.md",
+      "file": "problems/086-kelvin-lattice-foam.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1446,10 +1382,10 @@
       "page_sha256": "201ef81fde284b7d3edb17b56d80617201c05e8f15f5543ecb7038574cf934d3"
     },
     {
-      "id": "091",
+      "id": "087",
       "title": "The optimal three-dimensional quadratic quantization constant",
       "area": "Quantization and mesh generation",
-      "file": "problems/091-bcc-quantization.md",
+      "file": "problems/087-bcc-quantization.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1462,10 +1398,10 @@
       "page_sha256": "ebb3b78293fef1f9df8bdca7a5c0a3fea48be8564ee78de763a8a696bd4f7d92"
     },
     {
-      "id": "092",
+      "id": "088",
       "title": "The symmetric Mahler inequality in four dimensions",
       "area": "Convex geometry and optimization",
-      "file": "problems/092-mahler-symmetric-four-dimensions.md",
+      "file": "problems/088-mahler-symmetric-four-dimensions.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1478,10 +1414,10 @@
       "page_sha256": "2a4f90c5c322a016174aa34231341496582ea1ad8bfd0592fb5ace0b794d18a8"
     },
     {
-      "id": "093",
+      "id": "089",
       "title": "Gaussian-energy optimality of the triangular lattice among periodic configurations",
       "area": "Crystallization and energy minimization",
-      "file": "problems/093-triangular-universal-optimality.md",
+      "file": "problems/089-triangular-universal-optimality.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1494,10 +1430,10 @@
       "page_sha256": "e8333d504816347aff359af7bed53e2ee4e085c997b447f04d8c515418c3609e"
     },
     {
-      "id": "094",
+      "id": "090",
       "title": "Absence of an infinite cluster at criticality in three-dimensional percolation",
       "area": "Random media",
-      "file": "problems/094-critical-percolation-three-dimensions.md",
+      "file": "problems/090-critical-percolation-three-dimensions.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1510,26 +1446,10 @@
       "page_sha256": "601df49119991c61ee6fb0e595211e1cd3175a8fcad82bbd2f9da29d93c47e4c"
     },
     {
-      "id": "095",
-      "title": "The planar Mumford–Shah regularity conjecture",
-      "area": "Image segmentation and fracture",
-      "file": "problems/095-mumford-shah-planar-cracks.md",
-      "status": "Open in cited literature; no later resolution located",
-      "last_checked": "2026-09-08",
-      "section": "applied",
-      "aliases_from_filename": [
-        "mumford shah planar cracks"
-      ],
-      "statement_with_hypotheses": "Let $\\Omega\\subset\\mathbb R^2$ be bounded and smooth and $g\\in L^\\infty(\\Omega)$. Minimize\n$$\n\\mathcal F(u,K)=\\int_{\\Omega\\setminus K}\n\\big(|\\nabla u|^2+|u-g|^2\\big)\\,dx+\\mathcal H^1(K)\n$$\nover relatively closed sets $K\\subset\\Omega$ of finite length and $u\\in H^1(\\Omega\\setminus K)$. Use a reduced minimizer: remove irrelevant zero-length additions to $K$ and take $K$ to be the support in $\\Omega$ of $\\mathcal H^1\\!\\restriction K$.\nMust $K$ locally consist of finitely many embedded $C^1$ arcs whose only interior singularities are isolated free endpoints and junctions of three arcs with pairwise tangent angles $120^\\circ$? In particular, neither singularities nor distinct components may accumulate inside $\\Omega$. The assertion concerns the interior, not boundary regularity.",
-      "references": "- [Camillo De Lellis and Matteo Focardi, *The Regularity Theory for the Mumford–Shah Functional on the Plane* (EMS Monographs in Mathematics 13, 2025), Chapter 1](https://doi.org/10.4171/EMM/13).\n- [Camille Labourie and Antoine Lemenant, *Finite number of traces for Mumford–Shah minimizers in dimension 2* (Comptes Rendus Mathématique, 2026), introduction](https://doi.org/10.5802/crmath.826).",
-      "status_review": "The 2025 monograph treats the conjecture and its equivalent global-minimizer classifications. The April 2026 paper bounds the number of limit values near the singular set; this does not give its complete arc/junction structure. The full planar regularity conjecture was not resolved in the later literature located.\n\nStatus-search topics (2026-09-08): `Mumford-Shah conjecture 2026`; `The Regularity Theory for the Mumford–Shah Functional on the Plane authors`. This is a literature search, not a proof that no solution exists.",
-      "page_sha256": "8fbf7b21d2509591251ed24bdecdedc14685fb95dd6f1b295105abf899abd05c"
-    },
-    {
-      "id": "096",
+      "id": "091",
       "title": "One-dimensionality of monotone Allen–Cahn fronts in dimension five",
       "area": "Phase transitions",
-      "file": "problems/096-de-giorgi-dimension-five.md",
+      "file": "problems/091-de-giorgi-dimension-five.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1542,10 +1462,10 @@
       "page_sha256": "c39aa05bc57674a52c25aa79d1efb85a9c6989728d368bee7b425516aca8ee2a"
     },
     {
-      "id": "097",
+      "id": "092",
       "title": "Cardy's crossing formula for square-lattice bond percolation",
       "area": "Random media and conformal invariance",
-      "file": "problems/097-square-bond-cardy-formula.md",
+      "file": "problems/092-square-bond-cardy-formula.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1558,10 +1478,10 @@
       "page_sha256": "96055326d6a0e35cbd85cc3fe68ce260a6d7f7ac79bd41886a613a89afda2cdc"
     },
     {
-      "id": "098",
+      "id": "093",
       "title": "The planar self-avoiding-walk displacement exponent",
       "area": "Polymer models",
-      "file": "problems/098-planar-self-avoiding-walk-exponent.md",
+      "file": "problems/093-planar-self-avoiding-walk-exponent.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1574,10 +1494,10 @@
       "page_sha256": "92a13179af21b2f9e83330bbeb1d170ab36f0c9dcd38b168f01d75fafbe3fa38"
     },
     {
-      "id": "099",
+      "id": "094",
       "title": "The dimension-free Kannan–Lovász–Simonovits inequality",
       "area": "High-dimensional probability and sampling",
-      "file": "problems/099-kls-poincare.md",
+      "file": "problems/094-kls-poincare.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1590,10 +1510,10 @@
       "page_sha256": "e7a2ceb8c56d89be64e106888c0a06fde6ac0f0e0168ce6b51243edd21926e12"
     },
     {
-      "id": "100",
+      "id": "095",
       "title": "A strongly polynomial pivot rule for the simplex method",
       "area": "Numerical optimization",
-      "file": "problems/100-strongly-polynomial-simplex.md",
+      "file": "problems/095-strongly-polynomial-simplex.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "applied",
@@ -1606,10 +1526,10 @@
       "page_sha256": "ea37a827665cc07aa66bcec18310deccf7b1ac0c0e4b0339743af061c9b8f71c"
     },
     {
-      "id": "101",
+      "id": "096",
       "title": "Absolute continuity for smooth periodic scalar elliptic operators",
       "area": "Periodic media and spectral theory",
-      "file": "problems/101-periodic-elliptic-absolute-continuity.md",
+      "file": "problems/096-periodic-elliptic-absolute-continuity.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1622,10 +1542,10 @@
       "page_sha256": "3bba0dc2c4f0d9d4fd2b025238366ee516ec12fc92bdec3501212b60d501e01a"
     },
     {
-      "id": "102",
+      "id": "097",
       "title": "Irreducibility of complex Fermi varieties",
       "area": "Periodic quantum Hamiltonians",
-      "file": "problems/102-complex-fermi-irreducibility.md",
+      "file": "problems/097-complex-fermi-irreducibility.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1638,10 +1558,10 @@
       "page_sha256": "93a41b545c81ab4cf56468e9f7b0628b6005026ee66b402ef1a45ccca7c33144"
     },
     {
-      "id": "103",
+      "id": "098",
       "title": "Sunada’s no-gap conjecture for abelian covers",
       "area": "Wave spectra on periodic curved spaces",
-      "file": "problems/103-sunada-no-gap-cover.md",
+      "file": "problems/098-sunada-no-gap-cover.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1654,10 +1574,10 @@
       "page_sha256": "0f2e2cc3f30f45f232abeba4f9138c88e292cbe32a8539b7a8c6f977422950f3"
     },
     {
-      "id": "104",
+      "id": "099",
       "title": "Simon’s multidimensional weighted square-integrability conjecture",
       "area": "Quantum scattering and transport",
-      "file": "problems/104-simon-weighted-l2.md",
+      "file": "problems/099-simon-weighted-l2.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1670,10 +1590,10 @@
       "page_sha256": "80122051fbe7efad6a6a5ff44215553d11716aefaec5cca2a66b87448e36f5b4"
     },
     {
-      "id": "105",
+      "id": "100",
       "title": "A universal bound on excess molecular charge",
       "area": "Many-electron quantum mechanics",
-      "file": "problems/105-maximal-molecular-ionization.md",
+      "file": "problems/100-maximal-molecular-ionization.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1686,10 +1606,10 @@
       "page_sha256": "fded0a7763e6333de88527658807771b8593a5954304a150cf8636e43194351a"
     },
     {
-      "id": "106",
+      "id": "101",
       "title": "Uniform boundedness of the first atomic ionization energy",
       "area": "Atomic spectroscopy",
-      "file": "problems/106-uniform-first-ionization.md",
+      "file": "problems/101-uniform-first-ionization.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1702,10 +1622,10 @@
       "page_sha256": "0fe29f8006876dda5030b842e09d52ff62360ab677ae98a6407f0ab0a0e158c3"
     },
     {
-      "id": "107",
+      "id": "102",
       "title": "Convexity of atomic ground-state energy in electron number",
       "area": "Quantum chemistry and density functional theory",
-      "file": "problems/107-atomic-energy-convexity.md",
+      "file": "problems/102-atomic-energy-convexity.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1718,10 +1638,10 @@
       "page_sha256": "4dc3bfbcb87259e6c32c26619c2190a4fa4bc6874a1927ac3167b27972b5589d"
     },
     {
-      "id": "108",
+      "id": "103",
       "title": "Concentration of nuclear charge minimizes the Dirac gap level",
       "area": "Relativistic quantum chemistry",
-      "file": "problems/108-dirac-charge-concentration.md",
+      "file": "problems/103-dirac-charge-concentration.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1734,10 +1654,10 @@
       "page_sha256": "ba6f187f87df04b897e98e9920870d5d1774acadc051542341b1aa5300860bf7"
     },
     {
-      "id": "109",
+      "id": "104",
       "title": "Faber–Krahn inequality for graphene quantum dots",
       "area": "Dirac spectral geometry",
-      "file": "problems/109-quantum-dot-dirac-faber-krahn.md",
+      "file": "problems/104-quantum-dot-dirac-faber-krahn.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1750,10 +1670,10 @@
       "page_sha256": "7e9f874726fe776459deddb46082dea9d71bdd2c5a6c3516e428f5633989445c"
     },
     {
-      "id": "110",
+      "id": "105",
       "title": "The disk maximizes the first magnetic Neumann eigenvalue",
       "area": "Magnetic spectral optimization",
-      "file": "problems/110-magnetic-neumann-disk.md",
+      "file": "problems/105-magnetic-neumann-disk.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1766,10 +1686,10 @@
       "page_sha256": "50394bd8bd8e7295e81159d04539f91c11e83b60168c2f8f21dcb8018891a3f5"
     },
     {
-      "id": "111",
+      "id": "106",
       "title": "Strict angle monotonicity of magnetic wedge ground energy",
       "area": "Corner superconductivity",
-      "file": "problems/111-magnetic-wedge-angle-monotonicity.md",
+      "file": "problems/106-magnetic-wedge-angle-monotonicity.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1782,10 +1702,10 @@
       "page_sha256": "1ae1494064f28bf2a40c8dc853c2b3ed7cdf8f7e8ccb1b0f9ff687471521f49a"
     },
     {
-      "id": "112",
+      "id": "107",
       "title": "Baur’s high-field disk conjecture for all higher eigenvalues",
       "area": "Magnetic confinement and shape design",
-      "file": "problems/112-baur-high-field-disk.md",
+      "file": "problems/107-baur-high-field-disk.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1798,10 +1718,10 @@
       "page_sha256": "f5095c681ce797da814af7f14ad062643722bf1bf4e107041c2258c4472e8417"
     },
     {
-      "id": "113",
+      "id": "108",
       "title": "Is the optimal magnetic rectangle always a square?",
       "area": "Magnetic quantum wells",
-      "file": "problems/113-optimal-magnetic-rectangle.md",
+      "file": "problems/108-optimal-magnetic-rectangle.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1814,10 +1734,10 @@
       "page_sha256": "1f3c56d4011d91bc742e85422a369368dff2a5f9961fe50699708b40611e31a6"
     },
     {
-      "id": "114",
+      "id": "109",
       "title": "A sharp universal inequality for clamped-plate eigenvalues",
       "area": "Elastic vibration",
-      "file": "problems/114-clamped-plate-universal-bound.md",
+      "file": "problems/109-clamped-plate-universal-bound.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1830,10 +1750,10 @@
       "page_sha256": "4a84d666b1eba997d5b44a57750afad703e0bb13c056d69fcda98bb3c1e17871"
     },
     {
-      "id": "115",
+      "id": "110",
       "title": "Uniqueness of the critical catenoid",
       "area": "Capillary surfaces and spectral geometry",
-      "file": "problems/115-critical-catenoid-uniqueness.md",
+      "file": "problems/110-critical-catenoid-uniqueness.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1846,10 +1766,10 @@
       "page_sha256": "2646b846f5f521da05b4793ecefeca30bd904cd64c156782024f4d201e44a5da"
     },
     {
-      "id": "116",
+      "id": "111",
       "title": "The first Steklov eigenvalue of a free-boundary minimal hypersurface",
       "area": "Capillary geometry and boundary vibrations",
-      "file": "problems/116-free-boundary-first-steklov.md",
+      "file": "problems/111-free-boundary-first-steklov.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1862,10 +1782,10 @@
       "page_sha256": "0561b7073c946e14e23eee44355256ccc5859b679bf89f43742e8b8ee3da43d0"
     },
     {
-      "id": "117",
+      "id": "112",
       "title": "Linear growth of interior Steklov nodal volume",
       "area": "Boundary-driven wave patterns",
-      "file": "problems/117-steklov-bulk-nodal-volume.md",
+      "file": "problems/112-steklov-bulk-nodal-volume.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1878,10 +1798,10 @@
       "page_sha256": "bed0e6054268b68ce4e24235c82abd33118887c103e8d160e4f696834923bc6d"
     },
     {
-      "id": "118",
+      "id": "113",
       "title": "Unbounded first Steklov multiplicity with fixed boundary count",
       "area": "Boundary-mode degeneracy",
-      "file": "problems/118-steklov-fixed-boundary-multiplicity.md",
+      "file": "problems/113-steklov-fixed-boundary-multiplicity.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1894,10 +1814,10 @@
       "page_sha256": "237f6009510c03f838ca1876f9a7934ca75d2afca9f1ce0a8982afa0da2d6078"
     },
     {
-      "id": "119",
+      "id": "114",
       "title": "Arbitrarily large Steklov frequency with a prescribed embedded boundary",
       "area": "Geometric design of boundary-loaded media",
-      "file": "problems/119-fixed-embedded-boundary-steklov.md",
+      "file": "problems/114-fixed-embedded-boundary-steklov.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1910,10 +1830,10 @@
       "page_sha256": "0271087bc29276c2d04eb9c3845f36ffe94d66f28eac38b30cdcc063c07831d2"
     },
     {
-      "id": "120",
+      "id": "115",
       "title": "Anderson localization for the cosine skew-shift model at every coupling",
       "area": "Deterministic quantum disorder",
-      "file": "problems/120-skew-shift-localization.md",
+      "file": "problems/115-skew-shift-localization.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1926,10 +1846,10 @@
       "page_sha256": "bec3490abed46a9862e68e33b26969c06dd2be32304add18b56c63a429106c57"
     },
     {
-      "id": "121",
+      "id": "116",
       "title": "A universal central limit law for quantum-graph nodal surplus",
       "area": "Wave networks and quantum chaos",
-      "file": "problems/121-quantum-graph-nodal-clt.md",
+      "file": "problems/116-quantum-graph-nodal-clt.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1942,10 +1862,10 @@
       "page_sha256": "ce1c2e156844d38e164cc6d5f33ad8e50dbdc9d05c944b262f2fb186dcf39292"
     },
     {
-      "id": "122",
+      "id": "117",
       "title": "Jakobson–Naud’s essential spectral-gap conjecture",
       "area": "Open chaotic scattering",
-      "file": "problems/122-jakobson-naud-essential-gap.md",
+      "file": "problems/117-jakobson-naud-essential-gap.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1958,10 +1878,10 @@
       "page_sha256": "602638d8272d01aef433394f4b3c149063e3b5b90e1d834fed6950789316ccfd"
     },
     {
-      "id": "123",
+      "id": "118",
       "title": "Full-order resonance growth for every nonzero real compact potential",
       "area": "Wave scattering by a localized medium",
-      "file": "problems/123-full-order-potential-resonances.md",
+      "file": "problems/118-full-order-potential-resonances.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1974,10 +1894,10 @@
       "page_sha256": "7556bc3777074c16e02d1bf057056bc7c80995f7e86f05a1d527529833bd83fc"
     },
     {
-      "id": "124",
+      "id": "119",
       "title": "Boundary contact of the second nodal set in convex domains",
       "area": "Vibration interfaces and geometry",
-      "file": "problems/124-convex-higher-dimensional-payne.md",
+      "file": "problems/119-convex-higher-dimensional-payne.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -1990,10 +1910,10 @@
       "page_sha256": "c922b64e4bf75cd211a928bca724b5b9371d924eb2f1015d97f257b71aecc484"
     },
     {
-      "id": "125",
+      "id": "120",
       "title": "Subpolynomial compact-set peaks of Hecke–Maass waves",
       "area": "Arithmetic quantum chaos",
-      "file": "problems/125-sarnak-compact-supnorm.md",
+      "file": "problems/120-sarnak-compact-supnorm.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "spectral2",
@@ -2006,10 +1926,10 @@
       "page_sha256": "7707c3b52e6164fe7c820ad2e95beb9d45de4ca43098cc75767f41af111e0f5c"
     },
     {
-      "id": "126",
+      "id": "121",
       "title": "Local scalar geodesic tomography on smooth surfaces",
       "area": "Geometric inverse problems / local tomography",
-      "file": "problems/126-local-ray-injectivity-surfaces.md",
+      "file": "problems/121-local-ray-injectivity-surfaces.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2022,10 +1942,10 @@
       "page_sha256": "06d4fb5057695992d6a68bc5586110b697a354d97ae8006b46eefa73a99e9f68"
     },
     {
-      "id": "127",
+      "id": "122",
       "title": "Lens rigidity for nontrapping surfaces with conjugate points",
       "area": "Geometric inverse problems / travel-time imaging",
-      "file": "problems/127-nontrapping-surface-lens-rigidity.md",
+      "file": "problems/122-nontrapping-surface-lens-rigidity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2038,10 +1958,10 @@
       "page_sha256": "a4d3b380c2407dc7e3cc2725f7b91b1ddfb754faa8ca2024e93154f39a168fce"
     },
     {
-      "id": "128",
+      "id": "123",
       "title": "Minimal filling volume of a simple manifold",
       "area": "Geometric analysis / travel-time bounds",
-      "file": "problems/128-simple-manifold-minimal-filling.md",
+      "file": "problems/123-simple-manifold-minimal-filling.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2054,10 +1974,10 @@
       "page_sha256": "4572812fcf85f029d4c57e1ff623f76755634eb739f7d34bdff9191b8740c1f6"
     },
     {
-      "id": "129",
+      "id": "124",
       "title": "Exact minimum length of an opaque barrier for a square",
       "area": "Geometric optimization / sensing",
-      "file": "problems/129-shortest-opaque-square-barrier.md",
+      "file": "problems/124-shortest-opaque-square-barrier.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2070,10 +1990,10 @@
       "page_sha256": "71b017cefc2c31a2c2bc4b743524f9e293142bf77205c2ec5378b14de7fa7eae"
     },
     {
-      "id": "130",
+      "id": "125",
       "title": "Sard conjecture for smooth bracket-generating distributions",
       "area": "Nonholonomic control / sub-Riemannian geometry",
-      "file": "problems/130-sard-conjecture-endpoint-map.md",
+      "file": "problems/125-sard-conjecture-endpoint-map.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2086,10 +2006,10 @@
       "page_sha256": "b95d93c96efb13379752f407a7c5ccf0a35f5e5412431ff4fd06cb4690854f57"
     },
     {
-      "id": "131",
+      "id": "126",
       "title": "Continuous velocity of every sub-Riemannian length minimizer",
       "area": "Nonholonomic optimal control / regularity",
-      "file": "problems/131-c1-subriemannian-minimizers.md",
+      "file": "problems/126-c1-subriemannian-minimizers.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2102,10 +2022,10 @@
       "page_sha256": "3540c8e226ef387eda1b68a4abfb1eed6b4a747cbbe2d11a1f71e231c53f2ee4"
     },
     {
-      "id": "132",
+      "id": "127",
       "title": "Nonbranching of analytic equiregular sub-Riemannian geodesics",
       "area": "Nonholonomic geometry / optimal transport",
-      "file": "problems/132-equiregular-analytic-nonbranching.md",
+      "file": "problems/127-equiregular-analytic-nonbranching.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2118,10 +2038,10 @@
       "page_sha256": "ceec645a49ff48abdb91284dd14bbba284355bbee312dbe6bcd2ec6464bf76c8"
     },
     {
-      "id": "133",
+      "id": "128",
       "title": "Pansu's isoperimetric conjecture in the Heisenberg group",
       "area": "Sub-Riemannian geometric optimization",
-      "file": "problems/133-pansu-heisenberg-isoperimetry.md",
+      "file": "problems/128-pansu-heisenberg-isoperimetry.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2134,10 +2054,10 @@
       "page_sha256": "a8bf4bf366eaf94f12c93d272883e7544f6a1fcdcb2efd5820404aefa71038b3"
     },
     {
-      "id": "134",
+      "id": "129",
       "title": "Euclidean isoperimetry in higher-dimensional Cartan–Hadamard manifolds",
       "area": "Geometric analysis / volume and boundary optimization",
-      "file": "problems/134-cartan-hadamard-isoperimetry.md",
+      "file": "problems/129-cartan-hadamard-isoperimetry.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2150,10 +2070,10 @@
       "page_sha256": "18ba46ee08b87ac56bbfbcf93285832f0f4ed5cf61430bce5379b44d4539ce57"
     },
     {
-      "id": "135",
+      "id": "130",
       "title": "An SRB measure for the classical Hénon parameters",
       "area": "Dissipative dynamics / chaotic statistics",
-      "file": "problems/135-classical-henon-srb-measure.md",
+      "file": "problems/130-classical-henon-srb-measure.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2166,10 +2086,10 @@
       "page_sha256": "45e0360109c5182f89fb3d4c23ae33ebb9453c016221b41ce577fb9ed75dc842"
     },
     {
-      "id": "136",
+      "id": "131",
       "title": "Saari's constant-inertia conjecture for planar gravitation",
       "area": "Celestial mechanics / rigid gravitational motions",
-      "file": "problems/136-saari-constant-inertia.md",
+      "file": "problems/131-saari-constant-inertia.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2182,10 +2102,10 @@
       "page_sha256": "7ef785beee99ba76f66ac3bf750e8261668ff1eb5dcef6a2f78398b4c455788e"
     },
     {
-      "id": "137",
+      "id": "132",
       "title": "Finiteness of planar central configurations for fixed masses",
       "area": "Celestial mechanics / relative equilibria",
-      "file": "problems/137-finite-planar-central-configurations.md",
+      "file": "problems/132-finite-planar-central-configurations.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2198,10 +2118,10 @@
       "page_sha256": "8b6f34dbc30fbb048e597bac59d9f707ebba21f42ed82c162325ccedb19d7f0a"
     },
     {
-      "id": "138",
+      "id": "133",
       "title": "Almost-everywhere global existence for Newtonian gravitation",
       "area": "Celestial mechanics / singular dynamics",
-      "file": "problems/138-almost-sure-global-newtonian-motion.md",
+      "file": "problems/133-almost-sure-global-newtonian-motion.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2214,10 +2134,10 @@
       "page_sha256": "4f0887b4cee1b10dc227be9376f9465055d75553d643d55e79a160dfb4ba0dec"
     },
     {
-      "id": "139",
+      "id": "134",
       "title": "Exactly n or infinitely many periodic orbits on a convex energy surface",
       "area": "Hamiltonian mechanics / periodic motions",
-      "file": "problems/139-convex-hamiltonian-n-or-infinity.md",
+      "file": "problems/134-convex-hamiltonian-n-or-infinity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2230,10 +2150,10 @@
       "page_sha256": "b2c11bd0ee13d56dbb2236f5abbbad67c8ad33ab6bc529c5cff2ddfe8b1d4f20"
     },
     {
-      "id": "140",
+      "id": "135",
       "title": "Irrational ellipticity when a convex energy surface has finitely many orbits",
       "area": "Hamiltonian mechanics / orbital stability",
-      "file": "problems/140-finite-convex-orbits-irrational-ellipticity.md",
+      "file": "problems/135-finite-convex-orbits-irrational-ellipticity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2246,10 +2166,10 @@
       "page_sha256": "89be5aef84cc7846b85cc1bfc1963106b816a6fd2f89cf1b96cc89bf1fb217f6"
     },
     {
-      "id": "141",
+      "id": "136",
       "title": "Exact optimal control in the scalar Witsenhausen benchmark",
       "area": "Decentralized stochastic control",
-      "file": "problems/141-witsenhausen-exact-optimum.md",
+      "file": "problems/136-witsenhausen-exact-optimum.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2262,10 +2182,10 @@
       "page_sha256": "d2df9f63d90952eb60e8601e272554b59b0ebbaa4fbff5b8d5d1038c5dce2dc8"
     },
     {
-      "id": "142",
+      "id": "137",
       "title": "Symmetric capacity of the binary multiplying two-way channel",
       "area": "Interactive communication / information theory",
-      "file": "problems/142-binary-multiplying-two-way-capacity.md",
+      "file": "problems/137-binary-multiplying-two-way-capacity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2278,10 +2198,10 @@
       "page_sha256": "286a46d80002d2a62630e25a28e9bcb5f5349ac258fef023b986da22a2a7e292"
     },
     {
-      "id": "143",
+      "id": "138",
       "title": "Capacity of the Gaussian relay channel with independent receiver noises",
       "area": "Network information theory / cooperative communication",
-      "file": "problems/143-gaussian-relay-capacity.md",
+      "file": "problems/138-gaussian-relay-capacity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2294,10 +2214,10 @@
       "page_sha256": "445ab4996bb334a73a92ef248958f477babea73332efd93c4feed30b5d8237f1"
     },
     {
-      "id": "144",
+      "id": "139",
       "title": "Exact capacity of the binary deletion channel",
       "area": "Information theory / synchronization errors",
-      "file": "problems/144-binary-deletion-channel-capacity.md",
+      "file": "problems/139-binary-deletion-channel-capacity.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2310,10 +2230,10 @@
       "page_sha256": "cddd736ff7ea3a737ba31c892c54eeff9c20ebf67d51758ae5e7cde83fab0843"
     },
     {
-      "id": "145",
+      "id": "140",
       "title": "Uniqueness of nonnegative heat controls at the minimum time",
       "area": "Constrained PDE control / thermal processes",
-      "file": "problems/145-unique-minimum-time-positive-heat-control.md",
+      "file": "problems/140-unique-minimum-time-positive-heat-control.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2326,10 +2246,10 @@
       "page_sha256": "a1802ca0d189c0c6b2d4943a507304559b684ecb935a0fac8ca19baea466dffe"
     },
     {
-      "id": "146",
+      "id": "141",
       "title": "Sharp characterization of exactly trackable boundary heat fluxes",
       "area": "PDE control / thermal flux tracking",
-      "file": "problems/146-sharp-heat-tracking-range.md",
+      "file": "problems/141-sharp-heat-tracking-range.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2342,10 +2262,10 @@
       "page_sha256": "0c36fba62e39f86ae1f66a3533e4f638cdb7cabb02e2059542adc0ca3b427d9e"
     },
     {
-      "id": "147",
+      "id": "142",
       "title": "Global null control of a heat equation with cubic growth",
       "area": "Nonlinear PDE control / reaction-diffusion",
-      "file": "problems/147-global-cubic-heat-null-control.md",
+      "file": "problems/142-global-cubic-heat-null-control.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2358,10 +2278,10 @@
       "page_sha256": "4c25be0c83bca8c87d691226a3c6e55739c15539eb7dd1bbf40c44a953377905"
     },
     {
-      "id": "148",
+      "id": "143",
       "title": "Finite-jet determination of small-time local controllability",
       "area": "Nonlinear control / local system identification",
-      "file": "problems/148-finite-jet-small-time-control.md",
+      "file": "problems/143-finite-jet-small-time-control.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2374,10 +2294,10 @@
       "page_sha256": "65ef02799a56445613e66d582d895e844b7683442b648159111d271723e3cb20"
     },
     {
-      "id": "149",
+      "id": "144",
       "title": "An irrational polygon with nonergodic billiard flow",
       "area": "Billiard dynamics / transport and ergodicity",
-      "file": "problems/149-irrational-nonergodic-polygon.md",
+      "file": "problems/144-irrational-nonergodic-polygon.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2390,10 +2310,10 @@
       "page_sha256": "703937a88407cde0216c708440199d948138321c2347350680234af3c7189550"
     },
     {
-      "id": "150",
+      "id": "145",
       "title": "Positive metric entropy for billiards arbitrarily close to an ellipse",
       "area": "Hamiltonian billiards / chaotic ray transport",
-      "file": "problems/150-positive-entropy-billiards-near-ellipse.md",
+      "file": "problems/145-positive-entropy-billiards-near-ellipse.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "inverse2",
@@ -2406,10 +2326,10 @@
       "page_sha256": "53d89587a3ed0640966dcf12d2312ec482cc883a89b5d0a177b985ea9a275cf7"
     },
     {
-      "id": "151",
+      "id": "146",
       "title": "Energy conservation at the exact Onsager Hölder exponent",
       "area": "Fluid mechanics and turbulence",
-      "file": "problems/151-onsager-endpoint.md",
+      "file": "problems/146-onsager-endpoint.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2422,10 +2342,10 @@
       "page_sha256": "77ac3590e66bbbc92710d0a594612a9ea482a1277702ae40cf6e5edfccba592b"
     },
     {
-      "id": "152",
+      "id": "147",
       "title": "Surjectivity of the two-dimensional Euler endpoint map",
       "area": "Geometric hydrodynamics",
-      "file": "problems/152-euler-endpoint-map.md",
+      "file": "problems/147-euler-endpoint-map.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2438,10 +2358,10 @@
       "page_sha256": "4e71bd4f66d39370558d785a7a61895673a64102305dea81d8bb786034413cce"
     },
     {
-      "id": "153",
+      "id": "148",
       "title": "A closed Lagrangian Euler trajectory on a surface of higher genus",
       "area": "Geometric hydrodynamics",
-      "file": "problems/153-closed-euler-geodesic.md",
+      "file": "problems/148-closed-euler-geodesic.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2454,10 +2374,10 @@
       "page_sha256": "1995647a0b21ba61fa807b184a53a750cdb6ca09bea10f1cfd529ff24de24901"
     },
     {
-      "id": "154",
+      "id": "149",
       "title": "An inertial manifold for the two-dimensional Navier–Stokes flow",
       "area": "Fluid mechanics and reduced models",
-      "file": "problems/154-navier-stokes-inertial-manifold.md",
+      "file": "problems/149-navier-stokes-inertial-manifold.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2470,10 +2390,10 @@
       "page_sha256": "e543195663682ca4e8ebac6ecb4c24968aef81ecbbfd0a3167a156c6847a7b5a"
     },
     {
-      "id": "155",
+      "id": "150",
       "title": "The unregularized Coulomb mean-field limit",
       "area": "Kinetic theory and plasma physics",
-      "file": "problems/155-uncut-coulomb-mean-field.md",
+      "file": "problems/150-uncut-coulomb-mean-field.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2486,10 +2406,10 @@
       "page_sha256": "0a381aaeeb384bb4518bc7f9ae6d70fbf865ab0b487b51b13480a1fd7c72de9e"
     },
     {
-      "id": "156",
+      "id": "151",
       "title": "Tagged-particle thermalization with an interacting background",
       "area": "Kinetic theory and plasma relaxation",
-      "file": "problems/156-lenard-balescu-thermalization.md",
+      "file": "problems/151-lenard-balescu-thermalization.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2502,10 +2422,10 @@
       "page_sha256": "4d9d976831885a756bf2960e23c9fda271a45476fda505eac98506a1a978cb9c"
     },
     {
-      "id": "157",
+      "id": "152",
       "title": "The nonlinear Landau limit of weakly interacting particles",
       "area": "Kinetic theory and collisional relaxation",
-      "file": "problems/157-newton-landau-weak-coupling.md",
+      "file": "problems/152-newton-landau-weak-coupling.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2518,10 +2438,10 @@
       "page_sha256": "7726663ba38a6a4511c6b19dd76c34468a4d44f725827938c402d495f3ab89e7"
     },
     {
-      "id": "158",
+      "id": "153",
       "title": "The finite-Dirichlet Liouville problem for steady three-dimensional flow",
       "area": "Viscous fluid mechanics",
-      "file": "problems/158-steady-navier-stokes-liouville.md",
+      "file": "problems/153-steady-navier-stokes-liouville.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2534,10 +2454,10 @@
       "page_sha256": "548416cfe8af5f8f9452118e5738afef11db524d4fe3873bb7527ae84a081b6f"
     },
     {
-      "id": "159",
+      "id": "154",
       "title": "Steady planar flow around an obstacle at arbitrary Reynolds number",
       "area": "Viscous flow around bodies",
-      "file": "problems/159-exterior-steady-flow.md",
+      "file": "problems/154-exterior-steady-flow.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2550,10 +2470,10 @@
       "page_sha256": "3eaae3731a9fabee4eeb9e3148c70498875c41b4008ef7d34910c6fe7a31a05b"
     },
     {
-      "id": "160",
+      "id": "155",
       "title": "Smooth approximation of three-dimensional Sobolev homeomorphisms",
       "area": "Nonlinear elasticity and approximation",
-      "file": "problems/160-ball-evans-three-dimensions.md",
+      "file": "problems/155-ball-evans-three-dimensions.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2566,10 +2486,10 @@
       "page_sha256": "a9f78077027448528911ad7932c564c320d6b0259f502febb14d136d9ec9efe9"
     },
     {
-      "id": "161",
+      "id": "156",
       "title": "Approximation preserving a compressible elastic energy",
       "area": "Nonlinear elasticity and variational approximation",
-      "file": "problems/161-elastic-energy-approximation.md",
+      "file": "problems/156-elastic-energy-approximation.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2582,10 +2502,10 @@
       "page_sha256": "c45c4071d2d282a65b6d74fd29fdfc060c5e09bde112a19f0f4fe7b877a0582c"
     },
     {
-      "id": "162",
+      "id": "157",
       "title": "The full set of zero-energy cubic-to-tetragonal strains",
       "area": "Materials science and nonlinear elasticity",
-      "file": "problems/162-tetragonal-quasiconvex-hull.md",
+      "file": "problems/157-tetragonal-quasiconvex-hull.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2598,10 +2518,10 @@
       "page_sha256": "2cedd95b4813dce891294125c69e838e3288a9cee530a36f0bb175fd260911e3"
     },
     {
-      "id": "163",
+      "id": "158",
       "title": "Concentration of eikonal entropy production on jump curves",
       "area": "Variational interfaces and nonlinear PDE",
-      "file": "problems/163-eikonal-entropy-concentration.md",
+      "file": "problems/158-eikonal-entropy-concentration.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2614,10 +2534,10 @@
       "page_sha256": "1d9a5f4cfb954e4a4097b59dc61962de01c4a9e8e17e8322c2758950fbe933de"
     },
     {
-      "id": "164",
+      "id": "159",
       "title": "The first dimension with a singular one-phase minimizing cone",
       "area": "Free boundaries and fluid interfaces",
-      "file": "problems/164-one-phase-critical-dimension.md",
+      "file": "problems/159-one-phase-critical-dimension.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2630,10 +2550,10 @@
       "page_sha256": "9402c756ead1b7b23cf1765cdc207f095149b26a820f66fd0bfb4a601462c04a"
     },
     {
-      "id": "165",
+      "id": "160",
       "title": "Multiplicity one at planar network singularities",
       "area": "Grain-boundary evolution",
-      "file": "problems/165-network-multiplicity-one.md",
+      "file": "problems/160-network-multiplicity-one.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2646,10 +2566,10 @@
       "page_sha256": "baf2454a1c888f8c1edd7f0be71318f23b3f293001e28033a2106fe931cbcc26"
     },
     {
-      "id": "166",
+      "id": "161",
       "title": "Uniqueness of the limiting shape at a network singularity",
       "area": "Grain-boundary evolution",
-      "file": "problems/166-network-tangent-uniqueness.md",
+      "file": "problems/161-network-tangent-uniqueness.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2662,10 +2582,10 @@
       "page_sha256": "7b4ea2936175ff1e7f34d6e29cf43ab0eedd679b1f58639455305431c9e2fbc4"
     },
     {
-      "id": "167",
+      "id": "162",
       "title": "Sharp enstrophy-limited heat transport in two dimensions",
       "area": "Heat transfer and flow optimization",
-      "file": "problems/167-two-dimensional-wall-transport.md",
+      "file": "problems/162-two-dimensional-wall-transport.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2678,10 +2598,10 @@
       "page_sha256": "5f198d6be8f255357f38f2ec1d255fd1ba40b52a67e00328701a584eac478e5f"
     },
     {
-      "id": "168",
+      "id": "163",
       "title": "The maximal heat-transfer exponent at finite Prandtl number",
       "area": "Buoyant convection and heat transfer",
-      "file": "problems/168-finite-prandtl-heat-scaling.md",
+      "file": "problems/163-finite-prandtl-heat-scaling.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2694,10 +2614,10 @@
       "page_sha256": "fc379d1e0f374d1442a8b3f25bf6ca18556705b69172a25fad877ea3f527de92"
     },
     {
-      "id": "169",
+      "id": "164",
       "title": "An extreme solitary wave for the bidirectional Whitham system",
       "area": "Nonlinear water-wave models",
-      "file": "problems/169-extreme-bidirectional-solitary-wave.md",
+      "file": "problems/164-extreme-bidirectional-solitary-wave.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2710,10 +2630,10 @@
       "page_sha256": "62187dd636729fd81f1ad732a8b3162253cd59b19a3ab131d15100ccbbe15dc5"
     },
     {
-      "id": "170",
+      "id": "165",
       "title": "Uniqueness of the Brownian coagulation similarity profile",
       "area": "Aerosol kinetics and aggregation",
-      "file": "problems/170-brownian-coagulation-profile.md",
+      "file": "problems/165-brownian-coagulation-profile.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2726,10 +2646,10 @@
       "page_sha256": "51f98dd387adf811caf6fbcf4371b8d11af63f86c948ad11ac59e262c33ee268"
     },
     {
-      "id": "171",
+      "id": "166",
       "title": "A uniform limit-cycle bound for quadratic planar dynamics",
       "area": "Nonlinear oscillations and dynamical systems",
-      "file": "problems/171-quadratic-hilbert-sixteen.md",
+      "file": "problems/166-quadratic-hilbert-sixteen.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2742,10 +2662,10 @@
       "page_sha256": "82fb02d0e4b316a9ef9c9e599e32b937bcc57b6f1155329587eb9a9bea89def8"
     },
     {
-      "id": "172",
+      "id": "167",
       "title": "A stationary isotropic gas of freely moving non-colliding disks",
       "area": "Kinetic geometry and hard-particle systems",
-      "file": "problems/172-stationary-noncolliding-billiards.md",
+      "file": "problems/167-stationary-noncolliding-billiards.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2758,10 +2678,10 @@
       "page_sha256": "d2243d1f97c55e4d7ebb2c75a689dfb0884c932d4a6114d62becd447c6b917a0"
     },
     {
-      "id": "173",
+      "id": "168",
       "title": "Anomalous viscous dissipation with fixed large-scale forcing",
       "area": "Turbulence and energy transfer",
-      "file": "problems/173-large-scale-forced-dissipation.md",
+      "file": "problems/168-large-scale-forced-dissipation.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2774,10 +2694,10 @@
       "page_sha256": "736398b970f4caf8492cb676170472bbdc9a7e3995f99ac4d007b7027ea15043"
     },
     {
-      "id": "174",
+      "id": "169",
       "title": "The Euler vortex-filament limit for a general moving curve",
       "area": "Vortex dynamics and fluid mechanics",
-      "file": "problems/174-vortex-filament-binormal.md",
+      "file": "problems/169-vortex-filament-binormal.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2790,10 +2710,10 @@
       "page_sha256": "cf7147eefbc1803f9f5fb4390da48ed9cf6662472b0f5d9c7c6357a21994cd49"
     },
     {
-      "id": "175",
+      "id": "170",
       "title": "Sustained double-exponential gradient growth on the Euler torus",
       "area": "Fluid mixing and creation of small scales",
-      "file": "problems/175-euler-sustained-double-exponential-growth.md",
+      "file": "problems/170-euler-sustained-double-exponential-growth.md",
       "status": "Open in cited literature; no later resolution located",
       "last_checked": "2026-09-08",
       "section": "continuum2",
@@ -2806,10 +2726,10 @@
       "page_sha256": "4eba265c54523f17fd3df71bd4f3b61a30271dc52d85288774d74d5919895a04"
     },
     {
-      "id": "176",
+      "id": "171",
       "title": "Strict convexity of the planar exponential first-passage shape",
       "area": "Stochastic growth and random media",
-      "file": "problems/176-strict-convexity-fpp.md",
+      "file": "problems/171-strict-convexity-fpp.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -2822,10 +2742,10 @@
       "page_sha256": "c35f8668066a44503d12e357637e7ba9bf74cd084e8c9bf277ac1c211d18a8d9"
     },
     {
-      "id": "177",
+      "id": "172",
       "title": "The two-thirds passage-time variance exponent",
       "area": "Random interfaces and growth fluctuations",
-      "file": "problems/177-fpp-kpz-variance.md",
+      "file": "problems/172-fpp-kpz-variance.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -2838,10 +2758,10 @@
       "page_sha256": "9e8fe0a746c7233f11ac7ad9b7a4dde3fcba6a14c30f36c1dc2aa424ef6fba5b"
     },
     {
-      "id": "178",
+      "id": "173",
       "title": "Absence of doubly infinite minimizing paths in planar first-passage percolation",
       "area": "Optimal transport through random media",
-      "file": "problems/178-absence-fpp-bigeodesics.md",
+      "file": "problems/173-absence-fpp-bigeodesics.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -2854,10 +2774,10 @@
       "page_sha256": "5e592df52aae263fb1801272e2475fa12153e4923dbc397709c8bedc445d0337"
     },
     {
-      "id": "179",
+      "id": "174",
       "title": "Exclusion of coexistence for unequal Richardson growth rates",
       "area": "Competing infections and stochastic growth",
-      "file": "problems/179-unequal-richardson-competition.md",
+      "file": "problems/174-unequal-richardson-competition.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -2870,10 +2790,10 @@
       "page_sha256": "a5dc72ff3df43bdd0d8d479db2ac472943c40db4411956e5dda513e35a050120"
     },
     {
-      "id": "180",
+      "id": "175",
       "title": "Monotonicity of transport speed on Galton–Watson trees",
       "area": "Transport on random branching networks",
-      "file": "problems/180-galton-watson-speed-monotonicity.md",
+      "file": "problems/175-galton-watson-speed-monotonicity.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -2886,10 +2806,10 @@
       "page_sha256": "515060dfab1a1bf38712699a06ec2266144b59e19a0e44a5874cd14b29fab49e"
     },
     {
-      "id": "181",
+      "id": "176",
       "title": "Connectivity of the three-dimensional minimal spanning forest",
       "area": "Disordered network optimization",
-      "file": "problems/181-three-dimensional-minimal-spanning-forest.md",
+      "file": "problems/176-three-dimensional-minimal-spanning-forest.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -2902,10 +2822,10 @@
       "page_sha256": "e8f4c937348b6f7270eee744b13872da5345e84b8a825ec7458b4b1dcc0c5b63"
     },
     {
-      "id": "182",
+      "id": "177",
       "title": "Does supercritical percolation preserve transience?",
       "area": "Diffusion in diluted networks",
-      "file": "problems/182-percolation-preserves-transience.md",
+      "file": "problems/177-percolation-preserves-transience.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -2918,10 +2838,10 @@
       "page_sha256": "ebed19cc2800d1b24404c7d6ade716fa85e5f014f1ea7427c36944f99b89b53b"
     },
     {
-      "id": "183",
+      "id": "178",
       "title": "A nonuniqueness phase on every nonamenable transitive graph",
       "area": "Percolation and network resilience",
-      "file": "problems/183-nonamenable-nonuniqueness-phase.md",
+      "file": "problems/178-nonamenable-nonuniqueness-phase.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -2934,10 +2854,10 @@
       "page_sha256": "9a7906c22089cc2b32ea9003913facb62cfe878253a95065f884ba4636a9c36a"
     },
     {
-      "id": "184",
+      "id": "179",
       "title": "A deterministic nontrivial growth exponent for planar DLA",
       "area": "Aggregation and fractal growth",
-      "file": "problems/184-dla-growth-exponent.md",
+      "file": "problems/179-dla-growth-exponent.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -2950,10 +2870,10 @@
       "page_sha256": "68ae6bea5095a971b5f7476ecd22d2e1f77ee3f289aa3489613474c4db819608"
     },
     {
-      "id": "185",
+      "id": "180",
       "title": "Does directional transience imply ballistic transport in an iid medium?",
       "area": "Diffusion and transport in random environments",
-      "file": "problems/185-rwre-transience-ballisticity.md",
+      "file": "problems/180-rwre-transience-ballisticity.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -2966,10 +2886,10 @@
       "page_sha256": "7d3baec000b5fa86f5423d5b10c64e18912bcba774acf1da73f148b77a7b7f8c"
     },
     {
-      "id": "186",
+      "id": "181",
       "title": "The directional zero–one law in three-dimensional random media",
       "area": "Random transport and ergodicity",
-      "file": "problems/186-rwre-directional-zero-one.md",
+      "file": "problems/181-rwre-directional-zero-one.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -2978,14 +2898,14 @@
       ],
       "statement_with_hypotheses": "Let $(\\omega_x)_{x\\in\\mathbb Z^3}$ be iid nearest-neighbor transition probability vectors, with $\\omega_x(e)\\ge\\kappa>0$ almost surely for each of the six unit lattice directions. Conditional on $\\omega$, let the walk start at $0$ and take step $e$ from $x$ with probability $\\omega_x(e)$. Under the joint law $P$ of the environment and the walk, must\n$$P(X_n\\cdot\\ell\\longrightarrow+\\infty)\\in\\{0,1\\}$$\nhold for every deterministic unit vector $\\ell\\in\\mathbb R^3$?",
       "references": "- [Ofer Zeitouni, *Random Walks in Random Environments*, author survey (19 July 2006)](https://www.wisdom.weizmann.ac.il/~zeitouni/pdf/rwrereview.pdf), Conjecture 4.2 and Theorem 4.3.\n- [Martin P. W. Zerner and Franz Merkl, *A zero-one law for planar random walks in random environment* (2001)](https://doi.org/10.1214/aop/1015345769), the planar result.",
-      "status_review": "The survey separates the solved one- and two-dimensional cases from higher dimensions. Counterexamples under stationary dependent environments do not satisfy the iid assumption here. This asks for a directional probability law, whereas entry 185 assumes directional transience and asks for positive speed.\n\nSearch topics checked on 2026-09-08: Kalikow directional zero one law iid random environment dimension three 2025 2026 solved.",
+      "status_review": "The survey separates the solved one- and two-dimensional cases from higher dimensions. Counterexamples under stationary dependent environments do not satisfy the iid assumption here. This asks for a directional probability law, whereas entry 180 assumes directional transience and asks for positive speed.\n\nSearch topics checked on 2026-09-08: Kalikow directional zero one law iid random environment dimension three 2025 2026 solved.",
       "page_sha256": "4c94d481e2305e21b77105f56961695842f5082d130c15404bc880eec2310c4e"
     },
     {
-      "id": "187",
+      "id": "182",
       "title": "The density conjecture for activated random walk on the square lattice",
       "area": "Self-organized criticality",
-      "file": "problems/187-activated-random-walk-density.md",
+      "file": "problems/182-activated-random-walk-density.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -2998,10 +2918,10 @@
       "page_sha256": "dba60e4400e2a9f4085770e7d6209ed5ef20506f55bff81020bc499631415e5d"
     },
     {
-      "id": "188",
+      "id": "183",
       "title": "Coexistence for every positive cyclic invasion rate",
       "area": "Spatial ecology and evolutionary dynamics",
-      "file": "problems/188-cyclic-spatial-coexistence.md",
+      "file": "problems/183-cyclic-spatial-coexistence.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -3014,10 +2934,10 @@
       "page_sha256": "6664e2558cc15c02a7de7501c8c721f69c37b708330f6b9abcbcb714b3c49055"
     },
     {
-      "id": "189",
+      "id": "184",
       "title": "Coexistence in a three-strain colicin model",
       "area": "Spatial microbiology",
-      "file": "problems/189-three-strain-colicin-coexistence.md",
+      "file": "problems/184-three-strain-colicin-coexistence.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -3030,10 +2950,10 @@
       "page_sha256": "59ea5990ed78f21c85f058c2362e7645fdebd7ec6454fc34b6bf996806f9dd8d"
     },
     {
-      "id": "190",
+      "id": "185",
       "title": "Competitive exclusion with unequal death rates",
       "area": "Spatial epidemics and population competition",
-      "file": "problems/190-competing-contact-unequal-deaths.md",
+      "file": "problems/185-competing-contact-unequal-deaths.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -3046,10 +2966,10 @@
       "page_sha256": "f9d2be672888f54206e2aa45b2d29783f5a4063c2dd276e35a2ac4939c70dafc"
     },
     {
-      "id": "191",
+      "id": "186",
       "title": "Liouville invariance under changing local moves on a Cayley network",
       "area": "Random walks and network potential theory",
-      "file": "problems/191-liouville-generating-set-invariance.md",
+      "file": "problems/186-liouville-generating-set-invariance.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -3062,10 +2982,10 @@
       "page_sha256": "5b86cb3fcf65a96c6f1359e44e0b20d9784f1438721ce3bc8dc994582beb086a"
     },
     {
-      "id": "192",
+      "id": "187",
       "title": "Selection of the carbon-monoxide poisoning phase",
       "area": "Catalytic surface reactions",
-      "file": "problems/192-catalytic-carbon-monoxide-poisoning.md",
+      "file": "problems/187-catalytic-carbon-monoxide-poisoning.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -3078,10 +2998,10 @@
       "page_sha256": "1cd8c1e1b5af832c1a2728ffa29f25f7e17ec77b3d9d55960bf1cb9e94869558"
     },
     {
-      "id": "193",
+      "id": "188",
       "title": "Two stationary phases in a positive-rate nonlinear voter perturbation",
       "area": "Spatial population dynamics and phase coexistence",
-      "file": "problems/193-positive-rate-nonlinear-voter.md",
+      "file": "problems/188-positive-rate-nonlinear-voter.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -3094,10 +3014,10 @@
       "page_sha256": "c5aa420b038d77a2075d6870f38cb635a7ca92d3ba618ba39d619601e6afac80"
     },
     {
-      "id": "194",
+      "id": "189",
       "title": "A phase transition for continuum hard disks",
       "area": "Equilibrium fluids and phase transitions",
-      "file": "problems/194-hard-disk-phase-transition.md",
+      "file": "problems/189-hard-disk-phase-transition.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -3110,10 +3030,10 @@
       "page_sha256": "44c3a7240dc78ccdd835e7ddfbed1c1608f9a2c04e84b9a8ef8156b6a1e227f5"
     },
     {
-      "id": "195",
+      "id": "190",
       "title": "A roughening transition in the three-dimensional Ising model",
       "area": "Interfaces and equilibrium statistical mechanics",
-      "file": "problems/195-ising-three-dimensional-roughening.md",
+      "file": "problems/190-ising-three-dimensional-roughening.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -3126,10 +3046,10 @@
       "page_sha256": "848f96ed4f9baf1fd7fd1ea4c2b28f88fc83aceb9b53a68c0332be0a24f64b87"
     },
     {
-      "id": "196",
+      "id": "191",
       "title": "Uniqueness of the planar spin-glass ground-state pair",
       "area": "Disordered magnetic materials",
-      "file": "problems/196-planar-spin-glass-ground-states.md",
+      "file": "problems/191-planar-spin-glass-ground-states.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -3142,10 +3062,10 @@
       "page_sha256": "7e228ade309de36f147be359c7b4c5e0cec5fe40cf4a01b435a7e7492409ebac"
     },
     {
-      "id": "197",
+      "id": "192",
       "title": "Pathwise uniqueness at the three-quarter Hölder threshold",
       "area": "Stochastic reaction–diffusion equations",
-      "file": "problems/197-stochastic-heat-critical-uniqueness.md",
+      "file": "problems/192-stochastic-heat-critical-uniqueness.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -3158,10 +3078,10 @@
       "page_sha256": "ad670fbe566b08ac494cbd476113b774a1d301fb44f50e89eeaa3c9c72ca49a2"
     },
     {
-      "id": "198",
+      "id": "193",
       "title": "Strong disorder versus a shifted pinning threshold",
       "area": "Disordered polymers and adsorption",
-      "file": "problems/198-pinning-strong-disorder-critical-shift.md",
+      "file": "problems/193-pinning-strong-disorder-critical-shift.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -3174,10 +3094,10 @@
       "page_sha256": "53573b09d93e0ba38f8f01bc79fd32077ac2683db1b8dc3d75fc5bee25a661f7"
     },
     {
-      "id": "199",
+      "id": "194",
       "title": "Polynomial mixing of planar Ising dynamics with plus boundary",
       "area": "Statistical mechanics and stochastic relaxation",
-      "file": "problems/199-ising-plus-boundary-polynomial-mixing.md",
+      "file": "problems/194-ising-plus-boundary-polynomial-mixing.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -3190,10 +3110,10 @@
       "page_sha256": "04fe12aff5107d74028368d3b29359c744d5327c904904a7e1a8735fd6a85eb9"
     },
     {
-      "id": "200",
+      "id": "195",
       "title": "A continuous strictly decreasing moment spectrum for Gaussian polymers",
       "area": "Polymers in random media",
-      "file": "problems/200-directed-polymer-moment-spectrum.md",
+      "file": "problems/195-directed-polymer-moment-spectrum.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-08",
       "section": "stochastic2",
@@ -3206,10 +3126,10 @@
       "page_sha256": "db061e987a860917a6490318f2dd74d946d8e6450c656c03d4236e533464cbc2"
     },
     {
-      "id": "201",
+      "id": "196",
       "title": "A uniform gap for the spin-one Heisenberg chain",
       "area": "Quantum magnetism",
-      "file": "problems/201-haldane-gap.md",
+      "file": "problems/196-haldane-gap.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3222,10 +3142,10 @@
       "page_sha256": "9548a871812f355aa610afce313681d05698a42cf694cde4930cef3b444b9a9d"
     },
     {
-      "id": "202",
+      "id": "197",
       "title": "The bosonic Laughlin contact-interaction gap",
       "area": "Fractional quantum Hall physics",
-      "file": "problems/202-laughlin-gap.md",
+      "file": "problems/197-laughlin-gap.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3238,10 +3158,10 @@
       "page_sha256": "fb065e96843cd3c679d22aa9244659c383e3f0a95815b9bcf948fefd4e027dd4"
     },
     {
-      "id": "203",
+      "id": "198",
       "title": "Bose condensation at fixed dilute density",
       "area": "Ultracold quantum gases",
-      "file": "problems/203-thermodynamic-bose-condensation.md",
+      "file": "problems/198-thermodynamic-bose-condensation.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3254,10 +3174,10 @@
       "page_sha256": "91ee52ce9551fe8c0b18e598dc7ce7f69b862403fce5cf09cc03695cdb6ef174"
     },
     {
-      "id": "204",
+      "id": "199",
       "title": "The logarithmic correction to dilute Bose-gas energy",
       "area": "Quantum equations of state",
-      "file": "problems/204-wu-bose-energy.md",
+      "file": "problems/199-wu-bose-energy.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3270,10 +3190,10 @@
       "page_sha256": "54d36826d7179f06010c70228ec6c1620fd0044169ab955a833bdf24bd0d0e96"
     },
     {
-      "id": "205",
+      "id": "200",
       "title": "The optimal Lieb–Oxford constant",
       "area": "Electronic density-functional theory",
-      "file": "problems/205-optimal-lieb-oxford.md",
+      "file": "problems/200-optimal-lieb-oxford.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3286,10 +3206,10 @@
       "page_sha256": "6b1075287c0c68cd33fe4c045c37945561e8b25ab35384392a15ceb5c4e63c17"
     },
     {
-      "id": "206",
+      "id": "201",
       "title": "An area law for general gapped two-dimensional spin systems",
       "area": "Quantum many-body theory; entanglement",
-      "file": "problems/206-two-dimensional-area-law.md",
+      "file": "problems/201-two-dimensional-area-law.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3302,10 +3222,10 @@
       "page_sha256": "47b2a4c9877f7583a39c36899a5bc2dfc99d92809c3e43a9a3c89a626cbab513"
     },
     {
-      "id": "207",
+      "id": "202",
       "title": "The quantum PCP conjecture for local Hamiltonians",
       "area": "Quantum complexity; many-body energy approximation",
-      "file": "problems/207-quantum-pcp.md",
+      "file": "problems/202-quantum-pcp.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3318,10 +3238,10 @@
       "page_sha256": "ea329e15d3ddc6f29d606ca6d45e0db73ac2687540c338efa8a38f7887310029"
     },
     {
-      "id": "208",
+      "id": "203",
       "title": "Uniqueness of a boson star at every subcritical mass",
       "area": "Relativistic quantum matter; self-gravitating waves",
-      "file": "problems/208-lieb-yau-boson-star-uniqueness.md",
+      "file": "problems/203-lieb-yau-boson-star-uniqueness.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3334,10 +3254,10 @@
       "page_sha256": "f01de0591840ec758e7caf539a920534b6d9e160f1d6ab1d098be7c205304cd2"
     },
     {
-      "id": "209",
+      "id": "204",
       "title": "Does a bound bipolaron ever break rotational symmetry?",
       "area": "Polarons; nonlinear quantum energy minimization",
-      "file": "problems/209-bipolaron-rotation-symmetry.md",
+      "file": "problems/204-bipolaron-rotation-symmetry.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3350,10 +3270,10 @@
       "page_sha256": "8e2603564a18b62e9a143832c3d6b57af08f301b3662541aaee27d4becaeb258"
     },
     {
-      "id": "210",
+      "id": "205",
       "title": "Néel order in the square-lattice spin-one-half antiferromagnet",
       "area": "Quantum magnetism",
-      "file": "problems/210-square-lattice-neel-order.md",
+      "file": "problems/205-square-lattice-neel-order.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3366,10 +3286,10 @@
       "page_sha256": "0edd61851682bb1b04db00496b023e61ee29fe78a9bab40bc458249fc1c43cfe"
     },
     {
-      "id": "211",
+      "id": "206",
       "title": "Antiferromagnetic order in the half-filled square-lattice Hubbard model",
       "area": "Correlated electrons; quantum materials",
-      "file": "problems/211-hubbard-antiferromagnetism.md",
+      "file": "problems/206-hubbard-antiferromagnetism.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3382,10 +3302,10 @@
       "page_sha256": "121c2d8285eac9186f293c70b3dfbee7bc9b32bcd5ebfb8cbf240c9a38e3ba2c"
     },
     {
-      "id": "212",
+      "id": "207",
       "title": "The entropy photon-number inequality",
       "area": "Quantum optics; communication limits",
-      "file": "problems/212-entropy-photon-number.md",
+      "file": "problems/207-entropy-photon-number.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3398,10 +3318,10 @@
       "page_sha256": "7ab165888ee8432ee4a39fa3387bd4e911bc4599841a91d1e5971e605eaeb99b"
     },
     {
-      "id": "213",
+      "id": "208",
       "title": "Composing two PPT channels destroys all entanglement",
       "area": "Quantum information; repeater channels",
-      "file": "problems/213-ppt-squared.md",
+      "file": "problems/208-ppt-squared.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3414,10 +3334,10 @@
       "page_sha256": "7bb8e45104e718399283b8eb57e1c76391dd274cb7196b5a01e51cfc3290b2e9"
     },
     {
-      "id": "214",
+      "id": "209",
       "title": "Can entangled codewords improve amplitude-damping classical capacity?",
       "area": "Quantum communication; dissipative qubits",
-      "file": "problems/214-amplitude-damping-additivity.md",
+      "file": "problems/209-amplitude-damping-additivity.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3430,10 +3350,10 @@
       "page_sha256": "17c08f7a8df13f800abcad3c5ad123d290aac732d4e25077df74e65356c05886"
     },
     {
-      "id": "215",
+      "id": "210",
       "title": "Sharp Fourier extension from the sphere in three dimensions",
       "area": "Harmonic analysis; monochromatic wave concentration",
-      "file": "problems/215-sphere-fourier-restriction.md",
+      "file": "problems/210-sphere-fourier-restriction.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3446,10 +3366,10 @@
       "page_sha256": "c8790dc4caff5ca6cd0ed009b2db0dbaa0a138da17175dcdb57f980a83ac8cf4"
     },
     {
-      "id": "216",
+      "id": "211",
       "title": "Sharp Bochner–Riesz summability in three dimensions",
       "area": "Harmonic analysis; frequency filtering",
-      "file": "problems/216-bochner-riesz-three-dimensions.md",
+      "file": "problems/211-bochner-riesz-three-dimensions.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3462,10 +3382,10 @@
       "page_sha256": "d53ab5c1c7f288382f2bd164e51b0ec416152b842c7004ca80b6cf47b93731e0"
     },
     {
-      "id": "217",
+      "id": "212",
       "title": "Sharp local smoothing for the three-dimensional wave equation",
       "area": "Wave propagation; dispersive estimates",
-      "file": "problems/217-euclidean-wave-local-smoothing.md",
+      "file": "problems/212-euclidean-wave-local-smoothing.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3478,10 +3398,10 @@
       "page_sha256": "fe01eefb37428c7d09571571b3be5dcc1875236a112feed3a778093c47935a4f"
     },
     {
-      "id": "218",
+      "id": "213",
       "title": "GOE level spacings in a desymmetrized Sinai billiard",
       "area": "Quantum chaos / wave-cavity spectra",
-      "file": "problems/218-sinai-goe-spacing.md",
+      "file": "problems/213-sinai-goe-spacing.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3494,10 +3414,10 @@
       "page_sha256": "a029fd2a8551591cec89d961de0d6b4c8ba62c1bfeaa3246a2a6aa51702f8b73"
     },
     {
-      "id": "219",
+      "id": "214",
       "title": "Poisson nearest-neighbor spacings on almost every flat torus",
       "area": "Quantum integrability; spectral statistics",
-      "file": "problems/219-berry-tabor-flat-tori.md",
+      "file": "problems/214-berry-tabor-flat-tori.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3510,10 +3430,10 @@
       "page_sha256": "1662e5789352c37e56e0e54f6cf5e797f0e76bf0d901a157e9d87475bc77ca04"
     },
     {
-      "id": "220",
+      "id": "215",
       "title": "A spectral gap for almost every pair of quantum gates",
       "area": "Spectral theory / quantum dynamics",
-      "file": "problems/220-su-two-random-gate-gap.md",
+      "file": "problems/215-su-two-random-gate-gap.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3526,10 +3446,10 @@
       "page_sha256": "708198c8b7c0e094ef217d73c27b37804a83b9dce2ce0a9b7de87bfc53fea6f9"
     },
     {
-      "id": "221",
+      "id": "216",
       "title": "Optimal spectral signings of regular graphs",
       "area": "Spectral graph theory / network design",
-      "file": "problems/221-bilu-linial-signing.md",
+      "file": "problems/216-bilu-linial-signing.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3542,10 +3462,10 @@
       "page_sha256": "b99c5ccebf2fc528b7f4b86632df928c66c85b38de1786d6d961adfe67bef112"
     },
     {
-      "id": "222",
+      "id": "217",
       "title": "The sharp decay rate for waves damped on a disk",
       "area": "Wave propagation / damping",
-      "file": "problems/222-rough-disk-damping.md",
+      "file": "problems/217-rough-disk-damping.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3558,10 +3478,10 @@
       "page_sha256": "353251c5863bfe307f01798217b9cd0bbcb8d967b67939cdcffbac00387ae485"
     },
     {
-      "id": "223",
+      "id": "218",
       "title": "Bounded harmonic lifting for complex media",
       "area": "Elliptic equations / complex material coefficients",
-      "file": "problems/223-complex-harmonic-lifting.md",
+      "file": "problems/218-complex-harmonic-lifting.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3574,10 +3494,10 @@
       "page_sha256": "42042ce48871bc1ab262ed189277e77a0695690a446fe7e9cbd4c9c9f774e9cd"
     },
     {
-      "id": "224",
+      "id": "219",
       "title": "Boundary-flux commutators for rough conductors",
       "area": "Boundary operators / heterogeneous conduction",
-      "file": "problems/224-rough-coefficient-boundary-commutator.md",
+      "file": "problems/219-rough-coefficient-boundary-commutator.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3590,10 +3510,10 @@
       "page_sha256": "f0436c144202f2c22539205176019592097a247b51de7b5a8207607ba0d3cd74"
     },
     {
-      "id": "225",
+      "id": "220",
       "title": "Does subcritical heat flow always decay faster?",
       "area": "Heat propagation / Schrödinger semigroups",
-      "file": "problems/225-critical-subcritical-heat-ratio.md",
+      "file": "problems/220-critical-subcritical-heat-ratio.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "spectral3",
@@ -3606,10 +3526,10 @@
       "page_sha256": "fb25f218723bf1b06dc8efc6dc9da707d4726214ed4368c34fe1b1379ad7cc00"
     },
     {
-      "id": "226",
+      "id": "221",
       "title": "Fast dynamo action of the unit ABC flow",
       "area": "Magnetohydrodynamics",
-      "file": "problems/226-abc-fast-dynamo.md",
+      "file": "problems/221-abc-fast-dynamo.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3622,10 +3542,10 @@
       "page_sha256": "17d15b76087e2f7778b75689fd2b61aa3b1d0bf6502275fa8c6a9e3c9b438f22"
     },
     {
-      "id": "227",
+      "id": "222",
       "title": "Axisymmetry of equilibrium distributions for Onsager rods",
       "area": "Liquid-crystal statistical mechanics",
-      "file": "problems/227-onsager-axisymmetric-minimizers.md",
+      "file": "problems/222-onsager-axisymmetric-minimizers.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3638,10 +3558,10 @@
       "page_sha256": "42a90e73b20d9ecd5d4c2c814a9ca5e45aba6b0821cad1315f75b35c5ce32f62"
     },
     {
-      "id": "228",
+      "id": "223",
       "title": "Finiteness of interior defects in Oseen–Frank minimizers",
       "area": "Liquid-crystal continuum mechanics",
-      "file": "problems/228-oseen-frank-interior-defects.md",
+      "file": "problems/223-oseen-frank-interior-defects.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3654,10 +3574,10 @@
       "page_sha256": "82d41baa3644e25a2feda3e279dec95e419edbfd98ead11c2859759b39793c64"
     },
     {
-      "id": "229",
+      "id": "224",
       "title": "Strict physicality for anisotropic singular Q-tensor minimizers",
       "area": "Liquid-crystal continuum theory",
-      "file": "problems/229-anisotropic-q-physicality.md",
+      "file": "problems/224-anisotropic-q-physicality.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3670,10 +3590,10 @@
       "page_sha256": "52b0cce8f49b3b8336a6f9a8dbaf020b0b12d2753ae6c01570756d8021053e41"
     },
     {
-      "id": "230",
+      "id": "225",
       "title": "Do finite-energy elastic minimizers satisfy force balance?",
       "area": "Nonlinear elasticity",
-      "file": "problems/230-elastic-minimizer-equilibrium.md",
+      "file": "problems/225-elastic-minimizer-equilibrium.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3686,26 +3606,10 @@
       "page_sha256": "34572aee2b639d16e302fb50f9f9e0a41797dfca8565d06ae9354c52fa78a4ac"
     },
     {
-      "id": "231",
-      "title": "The critical mass threshold for continuous coagulation–fragmentation",
-      "area": "Aggregation and fragmentation kinetics",
-      "file": "problems/231-critical-coagulation-fragmentation.md",
-      "status": "Open in cited literature; no later resolution located.",
-      "last_checked": "2026-09-13",
-      "section": "continuum3",
-      "aliases_from_filename": [
-        "critical coagulation fragmentation"
-      ],
-      "statement_with_hypotheses": "Consider cluster sizes $s>0$, binary coagulation kernel $a(s,r)=sr$, and binary fragmentation kernel $b(s,r)=1$. For nonnegative measures $c_t$, the weak equation is\n$$\\begin{aligned}\n\\frac d{dt}\\int\\phi(s)c_t(ds)={}&\\frac12\\iint sr[\\phi(s+r)-\\phi(s)-\\phi(r)]c_t(ds)c_t(dr)\\\\\n&+\\frac12\\int\\!\\int_0^s[\\phi(r)+\\phi(s-r)-\\phi(s)]\\,dr\\,c_t(ds).\n\\end{aligned}$$\nIs it true that every nonnegative initial measure with $\\int(1+s^2)c_0(ds)<\\infty$ and mass $m=\\int s\\,c_0(ds)\\in[1/2,1]$ admits a global nonnegative weak solution satisfying this equation for compactly supported $C^1$ test functions and conserving $\\int s\\,c_t(ds)=m$ for every $t\\geq0$? Require weak continuity in time and locally integrable collision and fragmentation expressions.",
-      "references": "- Hung Vinh Tran and Truong-Son Van, [*Coagulation-fragmentation equations with multiplicative coagulation kernel and constant fragmentation kernel*](https://par.nsf.gov/servlets/purl/10330427) (2022), §1.3: the critical-mass conjecture and the proved subcritical range.\n- Hung Vinh Tran and Truong-Son Van, [*Local mass-conserving solution for a critical coagulation-fragmentation equation*](https://par.nsf.gov/servlets/purl/10418278) (2023), introduction and Theorem 1.1: local existence above the currently established global range.\n- Jiwoong Jang and Hung Vinh Tran, [*Discrete coagulation-fragmentation equations with multiplicative coagulation kernel and constant fragmentation kernel*](https://doi.org/10.1186/s13662-025-03946-4) (2025), introduction: the related discrete problem and comparison with the continuous model.",
-      "status_review": "Searched “critical coagulation fragmentation mass one half one conjecture”, “Tran Van global mass conservation 2025 2026”, and subsequent Bernstein-transform work. Global mass conservation for sufficiently small mass and finite-time gelation above mass one leave the displayed intermediate interval unresolved in the cited literature. Discrete-size results do not settle the continuous-size statement.",
-      "page_sha256": "948ffa00be1497022ed67aa234b25e85c8898c453067323441e25eae2f6f18af"
-    },
-    {
-      "id": "232",
+      "id": "226",
       "title": "Giga’s embedded curve-diffusion conjecture",
       "area": "Surface diffusion and geometric evolution",
-      "file": "problems/232-embedded-curve-diffusion.md",
+      "file": "problems/226-embedded-curve-diffusion.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3718,10 +3622,10 @@
       "page_sha256": "79c7b067a092d6f000195ea019fda392f70189a18c27f16ef3a784ce5f15efd0"
     },
     {
-      "id": "233",
+      "id": "227",
       "title": "Finite-time singularity formation for unconstrained Willmore flow",
       "area": "Membrane bending and geometric evolution",
-      "file": "problems/233-willmore-finite-time-singularity.md",
+      "file": "problems/227-willmore-finite-time-singularity.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3734,10 +3638,10 @@
       "page_sha256": "8cd722b54fc431ad3cb7607a12a1d0472b62e230e832f145ce70ba546c4ef088"
     },
     {
-      "id": "234",
+      "id": "228",
       "title": "A length-independent mean energy bound for Kuramoto–Sivashinsky",
       "area": "Combustion fronts and spatiotemporal chaos",
-      "file": "problems/234-kuramoto-sivashinsky-energy-density.md",
+      "file": "problems/228-kuramoto-sivashinsky-energy-density.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3750,10 +3654,10 @@
       "page_sha256": "ba0cca96bea5972e4763562ca62fdb349e9775a814dbac69f4df5ee81e1bc7cf"
     },
     {
-      "id": "235",
+      "id": "229",
       "title": "One cubic NLS trajectory with unbounded Sobolev norm",
       "area": "Nonlinear wave turbulence",
-      "file": "problems/235-cubic-nls-unbounded-orbit.md",
+      "file": "problems/229-cubic-nls-unbounded-orbit.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3766,10 +3670,10 @@
       "page_sha256": "ceef1c1c0361df52c6c1bcaae89a2a621c77da1fa76945d37c3bf819e1b3feaa"
     },
     {
-      "id": "236",
+      "id": "230",
       "title": "Uniqueness of entropy-admissible renormalized Boltzmann solutions",
       "area": "Rarefied-gas kinetics",
-      "file": "problems/236-renormalized-boltzmann-uniqueness.md",
+      "file": "problems/230-renormalized-boltzmann-uniqueness.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3782,10 +3686,10 @@
       "page_sha256": "252dab3bcb5c1a08a80ae64cf9b3ac2278cddc6544f0519a0ec5854b63843ff9"
     },
     {
-      "id": "237",
+      "id": "231",
       "title": "Fourier’s law for a boundary-thermostated anharmonic chain",
       "area": "Nonequilibrium heat transport",
-      "file": "problems/237-anharmonic-chain-fourier-law.md",
+      "file": "problems/231-anharmonic-chain-fourier-law.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3798,10 +3702,10 @@
       "page_sha256": "b835dfb5fe29ae4933dc3fa244db85c71839a49112f7706b5813f725e58af6d0"
     },
     {
-      "id": "238",
+      "id": "232",
       "title": "Finite-time growth of total variation in physical gas dynamics",
       "area": "Nonlinear hyperbolic conservation laws",
-      "file": "problems/238-p-system-finite-time-bv.md",
+      "file": "problems/232-p-system-finite-time-bv.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3814,10 +3718,10 @@
       "page_sha256": "a4451402d13795242612f321678e1b6cb0f2f9c1430b074de58f3df92c66ccf7"
     },
     {
-      "id": "239",
+      "id": "233",
       "title": "Global finite-energy compressible flow at the diatomic exponent",
       "area": "Viscous compressible gas dynamics",
-      "file": "problems/239-compressible-ns-physical-exponent.md",
+      "file": "problems/233-compressible-ns-physical-exponent.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3830,10 +3734,10 @@
       "page_sha256": "e71c8d1f6acd3d4eb437f5799bddf661a8dbf679ca9383c4d3e08089a1ec90ee"
     },
     {
-      "id": "240",
+      "id": "234",
       "title": "Nonlinear orbital stability of small solitary gravity waves",
       "area": "Free-surface fluid dynamics",
-      "file": "problems/240-solitary-gravity-wave-nonlinear-stability.md",
+      "file": "problems/234-solitary-gravity-wave-nonlinear-stability.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3846,10 +3750,10 @@
       "page_sha256": "400dcb56673a4ae376bc50d1d672d9248155d819bd9e5a7358726f11b3684480"
     },
     {
-      "id": "241",
+      "id": "235",
       "title": "Asymptotic stability of the phi-four kink without odd symmetry",
       "area": "Nonlinear scalar fields",
-      "file": "problems/241-phi-four-general-kink-stability.md",
+      "file": "problems/235-phi-four-general-kink-stability.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3862,10 +3766,10 @@
       "page_sha256": "38aa083207a9bf8a6eac9caed3d1046936ea3edb7531249aca527f68e074280c"
     },
     {
-      "id": "242",
+      "id": "236",
       "title": "The attainable stiffness tensors of two-phase elastic composites",
       "area": "Composite materials and homogenization",
-      "file": "problems/242-elastic-two-phase-g-closure.md",
+      "file": "problems/236-elastic-two-phase-g-closure.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3878,10 +3782,10 @@
       "page_sha256": "6d5bf81c6d488bc10b898b80a5a7f503071226fdf9e8dc4d7b3e26d1c6fcce10"
     },
     {
-      "id": "243",
+      "id": "237",
       "title": "Global optimality of the Abrikosov triangular lattice",
       "area": "Superconductivity and Coulomb crystallization",
-      "file": "problems/243-abrikosov-global-crystallization.md",
+      "file": "problems/237-abrikosov-global-crystallization.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3894,10 +3798,10 @@
       "page_sha256": "d2178558af5d841bccf1f6b640e7aff71e13259d495f8d50697a5703258a9a40"
     },
     {
-      "id": "244",
+      "id": "238",
       "title": "Rigidity of positively curved shells above one-half Hölder regularity",
       "area": "Thin-shell geometry and elasticity",
-      "file": "problems/244-holder-isometric-shell-rigidity.md",
+      "file": "problems/238-holder-isometric-shell-rigidity.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3910,10 +3814,10 @@
       "page_sha256": "b53c620eae1f921ef827deb6536db1af9dab032773642544e01e0d0f2976038a"
     },
     {
-      "id": "245",
+      "id": "239",
       "title": "The quadruple-bubble conjecture in three-dimensional space",
       "area": "Soap films and interfacial energy",
-      "file": "problems/245-spatial-quadruple-bubble.md",
+      "file": "problems/239-spatial-quadruple-bubble.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3926,10 +3830,10 @@
       "page_sha256": "420c8dca6939e4657fb392b761970eabcf1729da820d2a613f52efbed9f85d76"
     },
     {
-      "id": "246",
+      "id": "240",
       "title": "The exact minimum ropelength of a trefoil",
       "area": "Geometry of ropes and knotted polymers",
-      "file": "problems/246-ideal-trefoil-ropelength.md",
+      "file": "problems/240-ideal-trefoil-ropelength.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3942,10 +3846,10 @@
       "page_sha256": "75c5ea18a327891f49775dad1ec5f2684dce4fcc8730e76b9df51177cfd6e6b3"
     },
     {
-      "id": "247",
+      "id": "241",
       "title": "The densest packing of congruent regular tetrahedra",
       "area": "Granular packing and particle assembly",
-      "file": "problems/247-regular-tetrahedron-packing.md",
+      "file": "problems/241-regular-tetrahedron-packing.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3958,10 +3862,10 @@
       "page_sha256": "5d6f7ea48d527d4e0f1146fc08a9424c70500d543c174afdf4f0aaf4f83764fe"
     },
     {
-      "id": "248",
+      "id": "242",
       "title": "Uniqueness of the homogeneous cooling state for inelastic hard spheres",
       "area": "Granular-gas kinetic theory",
-      "file": "problems/248-inelastic-cooling-profile-uniqueness.md",
+      "file": "problems/242-inelastic-cooling-profile-uniqueness.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3974,10 +3878,10 @@
       "page_sha256": "966b525a1b9a6d86ebf6714c31da4af18ecd0541e3394344a8c6a5191be78a28"
     },
     {
-      "id": "249",
+      "id": "243",
       "title": "Existence of an optimal asymmetric Bloch wall of prescribed angle",
       "area": "Micromagnetics and magnetic interfaces",
-      "file": "problems/249-asymmetric-bloch-wall-attainment.md",
+      "file": "problems/243-asymmetric-bloch-wall-attainment.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -3990,10 +3894,10 @@
       "page_sha256": "97be3b84e699e9193ce41a6b9ecf0718b7e8630277f2c15b429133e4a8e0a657"
     },
     {
-      "id": "250",
+      "id": "244",
       "title": "Uniqueness of a hemispheric saddle profile on a magnetic sphere",
       "area": "Curved-film micromagnetics",
-      "file": "problems/250-spherical-ferromagnet-profile-uniqueness.md",
+      "file": "problems/244-spherical-ferromagnet-profile-uniqueness.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "continuum3",
@@ -4006,10 +3910,10 @@
       "page_sha256": "9f31760e58e97c070fbc403ec6e5910e9713edbd8295031d31fdf79cd932b5a7"
     },
     {
-      "id": "251",
+      "id": "245",
       "title": "Minimum volume of a three-dimensional body of constant width",
       "area": "Convex geometry / geometric design",
-      "file": "problems/251-constant-width-volume.md",
+      "file": "problems/245-constant-width-volume.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4022,10 +3926,10 @@
       "page_sha256": "15d7b03a3ac85708b3627a61400194aab9d3f420d1fe058fe601e45f21741ddc"
     },
     {
-      "id": "252",
+      "id": "246",
       "title": "The least-area convex cover of every unit-length planar curve",
       "area": "Geometric optimization / coverage",
-      "file": "problems/252-convex-worm-cover.md",
+      "file": "problems/246-convex-worm-cover.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4038,10 +3942,10 @@
       "page_sha256": "e082bd546b90c4f81ed8e4f7a1c05915d893a592b5c8d20ae526201b4555afdd"
     },
     {
-      "id": "253",
+      "id": "247",
       "title": "An overlap-free edge unfolding for every convex polyhedron",
       "area": "Computational geometry / sheet fabrication",
-      "file": "problems/253-durer-edge-unfolding.md",
+      "file": "problems/247-durer-edge-unfolding.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4054,10 +3958,10 @@
       "page_sha256": "da82b2d965aaf75539512dd48e71a24b74c9476a1a88863da4ffd3b380550e18"
     },
     {
-      "id": "254",
+      "id": "248",
       "title": "The full three-dimensional Newton minimum-resistance problem",
       "area": "Calculus of variations / aerodynamic shape optimization",
-      "file": "problems/254-newton-minimum-resistance.md",
+      "file": "problems/248-newton-minimum-resistance.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4070,10 +3974,10 @@
       "page_sha256": "e2709763e929d2cee5225d5ae4c2080f996ab2ecb23226de1c7302a45de16f4f"
     },
     {
-      "id": "255",
+      "id": "249",
       "title": "The shortest space curve of prescribed minimum width",
       "area": "Geometric optimization / search paths",
-      "file": "problems/255-shortest-width-one-space-curve.md",
+      "file": "problems/249-shortest-width-one-space-curve.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4086,10 +3990,10 @@
       "page_sha256": "3e4c30764e7af64875c37192f773f128f1a8c900028b630fe11850c312ea646a"
     },
     {
-      "id": "256",
+      "id": "250",
       "title": "Maximum convex-hull volume for a closed curve of fixed length",
       "area": "Geometric optimization / spatial enclosures",
-      "file": "problems/256-closed-curve-hull-volume.md",
+      "file": "problems/250-closed-curve-hull-volume.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4102,10 +4006,10 @@
       "page_sha256": "4d6f772f2fd88254fc12f8191464388e3d53240cf7ed148995cf143cad12d12d"
     },
     {
-      "id": "257",
+      "id": "251",
       "title": "A sharp surface-area bound for the convex hull of a closed curve",
       "area": "Geometric inequalities / enclosure design",
-      "file": "problems/257-closed-curve-hull-area.md",
+      "file": "problems/251-closed-curve-hull-area.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4118,10 +4022,10 @@
       "page_sha256": "d14ef4aa22ec66497b7cef3f69a8764f66453866d4c996bc4fd0e64931496fd8"
     },
     {
-      "id": "258",
+      "id": "252",
       "title": "Existence of a flexible closed C² surface in three-space",
       "area": "Differential geometry / shell kinematics",
-      "file": "problems/258-smooth-flexible-closed-shell.md",
+      "file": "problems/252-smooth-flexible-closed-shell.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4134,10 +4038,10 @@
       "page_sha256": "373819c39d27e111c565ad7b07e5644386b4979f4dfa2f136f63ed424d3526a0"
     },
     {
-      "id": "259",
+      "id": "253",
       "title": "A periodic nonsingular billiard trajectory in every triangle",
       "area": "Hamiltonian dynamics / ray transport",
-      "file": "problems/259-periodic-triangular-billiard.md",
+      "file": "problems/253-periodic-triangular-billiard.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4150,10 +4054,10 @@
       "page_sha256": "2ea252e0a7194038ea805e8571bd633a1e144734b38eea4fc546e5332ada5964"
     },
     {
-      "id": "260",
+      "id": "254",
       "title": "Asymptotic density of reflected wavefronts in a disk",
       "area": "Geometric optics / long-time propagation",
-      "file": "problems/260-disk-wavefront-density.md",
+      "file": "problems/254-disk-wavefront-density.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4166,10 +4070,10 @@
       "page_sha256": "94c94a969f4315e291161595be10b9bae439c482e52c6d2cd5f5501e692ba1fc"
     },
     {
-      "id": "261",
+      "id": "255",
       "title": "Rigidity of a totally integrable Minkowski billiard in its own unit ball",
       "area": "Finsler geometry / anisotropic ray mechanics",
-      "file": "problems/261-self-ball-minkowski-integrability.md",
+      "file": "problems/255-self-ball-minkowski-integrability.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4182,10 +4086,10 @@
       "page_sha256": "0e5f0bb739acd9d5a5d8f159181a7eeab1859457f7335808f2d4265f8741a47a"
     },
     {
-      "id": "262",
+      "id": "256",
       "title": "Circular rigidity of totally integrable strong-field magnetic billiards",
       "area": "Magnetic dynamics / charged-particle confinement",
-      "file": "problems/262-strong-magnetic-billiard-rigidity.md",
+      "file": "problems/256-strong-magnetic-billiard-rigidity.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4198,10 +4102,10 @@
       "page_sha256": "580063bb3f687d85a8257af24d1b25e5f1075ee4882bdf68cd77020bfc9ec6a5"
     },
     {
-      "id": "263",
+      "id": "257",
       "title": "Quadratic growth when a Hamiltonian map has infinitely many periodic orbits",
       "area": "Hamiltonian dynamics / recurrent mechanical motion",
-      "file": "problems/263-hamiltonian-periodic-orbit-growth.md",
+      "file": "problems/257-hamiltonian-periodic-orbit-growth.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4214,10 +4118,10 @@
       "page_sha256": "33a77f013a8d7c5ab05bbb6918acd4814201b5b8ed2e08d4fa7b31e6a09ebc3f"
     },
     {
-      "id": "264",
+      "id": "258",
       "title": "Small-time global null control of no-slip Navier–Stokes flow",
       "area": "Fluid control / distributed actuation",
-      "file": "problems/264-localized-navier-stokes-global-null-control.md",
+      "file": "problems/258-localized-navier-stokes-global-null-control.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4230,10 +4134,10 @@
       "page_sha256": "be1f3aa52829a55bda31fc3e663a2576be334ea8506dc6cd36cb9d976d78b67f"
     },
     {
-      "id": "265",
+      "id": "259",
       "title": "A data-independent time for global control of the defocusing cubic wave",
       "area": "Nonlinear wave control / vibration suppression",
-      "file": "problems/265-uniform-time-cubic-wave-control.md",
+      "file": "problems/259-uniform-time-cubic-wave-control.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4246,10 +4150,10 @@
       "page_sha256": "bda136ac4e92476622859653a6d159a793001a15e94aa5690684cd019513a1e6"
     },
     {
-      "id": "266",
+      "id": "260",
       "title": "A complete boundary-control criterion for coupled heat systems in higher dimensions",
       "area": "Parabolic control / coupled diffusion",
-      "file": "problems/266-boundary-coupled-heat-control-criterion.md",
+      "file": "problems/260-boundary-coupled-heat-control-criterion.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4262,10 +4166,10 @@
       "page_sha256": "40e5e8a2544159fe33fa479262aafa559b52fb38b928cfa323adc24e7b7b49d3"
     },
     {
-      "id": "267",
+      "id": "261",
       "title": "Global constrained null control of a two-phase Stefan interface",
       "area": "Free-boundary control / thermal processing",
-      "file": "problems/267-global-two-phase-stefan-control.md",
+      "file": "problems/261-global-two-phase-stefan-control.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4278,10 +4182,10 @@
       "page_sha256": "5526929f31258aa3c511442e99ac3434741ed858b8ccbd07c0178d20c0bde1fe"
     },
     {
-      "id": "268",
+      "id": "262",
       "title": "Minimum-time eradication of an expanding set inside a geographic barrier",
       "area": "Geometric optimal control / invasive-species containment",
-      "file": "problems/268-minimum-time-constrained-eradication.md",
+      "file": "problems/262-minimum-time-constrained-eradication.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4294,26 +4198,10 @@
       "page_sha256": "bc0de23c09950a4cc935cb78444862fd52b1a53d4688f2097269bfd722a3f95f"
     },
     {
-      "id": "269",
-      "title": "The most informative Boolean function conjecture",
-      "area": "Information theory / noisy one-bit compression",
-      "file": "problems/269-most-informative-boolean-function.md",
-      "status": "Open in cited literature; no later resolution located.",
-      "last_checked": "2026-09-13",
-      "section": "inverse3",
-      "aliases_from_filename": [
-        "most informative boolean function"
-      ],
-      "statement_with_hypotheses": "For every integer $n\\geq1$, let $X$ be uniform on $\\{0,1\\}^n$ and let $Y=X\\oplus Z$, where the coordinates of $Z$ are independent Bernoulli$(\\delta)$ variables independent of $X$, with $0\\leq\\delta\\leq1/2$. Is\n\n$$\nI(f(X);Y)\\leq1-h_2(\\delta)\n$$\n\ntrue for every $f:\\{0,1\\}^n\\to\\{0,1\\}$? Here $h_2(p)=-p\\log_2p-(1-p)\\log_2(1-p)$, with $0\\log_2 0=0$, and $I(U;V)=H(U)+H(V)-H(U,V)$ is mutual information in bits. A coordinate projection $f(X)=X_i$ attains the proposed bound.",
-      "references": "1. T. A. Courtade and G. R. Kumar, *Which Boolean Functions Maximize Mutual Information on Noisy Inputs?* (2014), [IEEE TIT 60, 4515–4525](https://doi.org/10.1109/TIT.2014.2326877); [author manuscript](https://people.eecs.berkeley.edu/~courtade/pdfs/CourtadeKumar_TransITAug2014.pdf), Conjecture 1. Original statement.\n2. A. Samorodnitsky, *The “Most informative boolean function” conjecture holds for high noise* (2015), [arXiv:1510.08656](https://arxiv.org/abs/1510.08656), main theorem. Proves a dimension-independent neighborhood of $\\delta=1/2$.\n3. Z. Chen, A. Gohari and C. Nair, *A Differential Equation Approach to the Most-Informative Boolean Function Conjecture* (2025; revised 5 August 2026), [arXiv:2502.10019v2](https://arxiv.org/abs/2502.10019v2), §I and Conjecture 1. Keeps the full question open while reducing a balanced case to additional inequalities.",
-      "status_review": "**Status:** Open in cited literature; no later resolution located.\n\n**Last checked:** 2026-09-13\n\nSearches included “most informative Boolean conjecture proof 2026”, “Courtade Kumar solved”, and the Chen–Gohari–Nair title. An older [2015 manuscript by M. Kesal](https://arxiv.org/abs/1511.01828) claims a proof, but the cited August 2026 primary work still treats the conjecture as unresolved. No independently established resolution of that discrepancy was located; the status here follows the later specialist literature, without certifying or refuting the old manuscript.",
-      "page_sha256": "e1990861d6d54db2f7f7888fdf59dce3a231d6332a290b03280272da05afe6bb"
-    },
-    {
-      "id": "270",
+      "id": "263",
       "title": "The exact zero-error Shannon capacity of the seven-cycle",
       "area": "Zero-error communication / combinatorial coding",
-      "file": "problems/270-seven-cycle-shannon-capacity.md",
+      "file": "problems/263-seven-cycle-shannon-capacity.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4326,10 +4214,10 @@
       "page_sha256": "e2fe1922f0cd554e6ea7470d606ef97ab83eaae9bfe8369431b55eb8e020299d"
     },
     {
-      "id": "271",
+      "id": "264",
       "title": "Matheron’s covariogram uniqueness problem in three dimensions",
       "area": "Geometric tomography / phase retrieval",
-      "file": "problems/271-three-dimensional-covariogram-uniqueness.md",
+      "file": "problems/264-three-dimensional-covariogram-uniqueness.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4342,10 +4230,10 @@
       "page_sha256": "6451f67d7d0d37df040d91c3e66f3dd4e9cfe84f2e2b9ac2cbb38b255f0d32a1"
     },
     {
-      "id": "272",
+      "id": "265",
       "title": "The minimum-area universal cover of planar diameter-one sets",
       "area": "Geometric optimization / universal containment",
-      "file": "problems/272-lebesgue-universal-cover.md",
+      "file": "problems/265-lebesgue-universal-cover.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4358,10 +4246,10 @@
       "page_sha256": "cdc760ffc9cab48fcd21deb5851ed7c4969e8845904042f2d7abc0282da9d95c"
     },
     {
-      "id": "273",
+      "id": "266",
       "title": "Decidability of exact hyperplane reachability for a linear ODE",
       "area": "Continuous dynamics / formal verification",
-      "file": "problems/273-continuous-skolem-decidability.md",
+      "file": "problems/266-continuous-skolem-decidability.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4374,10 +4262,10 @@
       "page_sha256": "9f7779bc525e3596bc1c4b06bc3af6fc0cc6af03788205388304e45e7cf09faa"
     },
     {
-      "id": "274",
+      "id": "267",
       "title": "A closed nonplanar totally integrable wire billiard in three-space",
       "area": "Geometric mechanics / constrained ray dynamics",
-      "file": "problems/274-nonplanar-integrable-wire-billiard.md",
+      "file": "problems/267-nonplanar-integrable-wire-billiard.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4390,10 +4278,10 @@
       "page_sha256": "e17f6e65d5e5d807c53e4c90ccded6ef695d3a9db3085b912beef19d5caa5d78"
     },
     {
-      "id": "275",
+      "id": "268",
       "title": "Are all totally integrable outer-length billiards ellipses?",
       "area": "Geometric dynamics / optimal circumscribed paths",
-      "file": "problems/275-outer-length-billiard-integrability.md",
+      "file": "problems/268-outer-length-billiard-integrability.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "inverse3",
@@ -4406,10 +4294,10 @@
       "page_sha256": "c84d1581e78df9bb82fbdc76bf632bddd8b4982ceded3c80021fdf5c73244c6b"
     },
     {
-      "id": "276",
+      "id": "269",
       "title": "Does stronger ferromagnetic coupling always slow Ising relaxation?",
       "area": "Statistical mechanics and Monte Carlo sampling",
-      "file": "problems/276-ising-gap-monotonicity.md",
+      "file": "problems/269-ising-gap-monotonicity.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4422,10 +4310,10 @@
       "page_sha256": "5672157897a415ed7bdee44a95f630d2dd015ba6c7ac345dd7fc19a9179e86cb"
     },
     {
-      "id": "277",
+      "id": "270",
       "title": "A constant comparison between systematic and random Ising updates",
       "area": "Monte Carlo simulation and update scheduling",
-      "file": "problems/277-ising-systematic-scan.md",
+      "file": "problems/270-ising-systematic-scan.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4438,10 +4326,10 @@
       "page_sha256": "22fd027a61f3158f4be1076a168c2630486df1edd342a2ead0fa8bbf4050235f"
     },
     {
-      "id": "278",
+      "id": "271",
       "title": "Abrupt equilibration on every family of transitive expanders",
       "area": "Transport and sampling on homogeneous networks",
-      "file": "problems/278-transitive-expander-cutoff.md",
+      "file": "problems/271-transitive-expander-cutoff.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4454,10 +4342,10 @@
       "page_sha256": "82a895a96e839bf406f13dbfa0028ad699d4bb3bc4ac8bc47597ccab72520e63"
     },
     {
-      "id": "279",
+      "id": "272",
       "title": "Rapid sampling of proper colorings at the ergodicity threshold",
       "area": "Antiferromagnetic spin systems and constrained sampling",
-      "file": "problems/279-coloring-glauber-threshold.md",
+      "file": "problems/272-coloring-glauber-threshold.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4470,10 +4358,10 @@
       "page_sha256": "fa22a936a693520bd5d7acd98979da0a8dceb3f03df3f52db7b7be7099bf3124"
     },
     {
-      "id": "280",
+      "id": "273",
       "title": "Does exclusion equilibrate as fast as independent particles?",
       "area": "Interacting particle transport",
-      "file": "problems/280-exclusion-independent-mixing.md",
+      "file": "problems/273-exclusion-independent-mixing.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4486,10 +4374,10 @@
       "page_sha256": "ffb28d65e20f72f606d53e2483a8dcdba445d9394fa30e4e1cdfd26b597582b4"
     },
     {
-      "id": "281",
+      "id": "274",
       "title": "A diameter bound for diffusion to uniform equilibrium",
       "area": "Diffusion on symmetric networks",
-      "file": "problems/281-transitive-mixing-diameter.md",
+      "file": "problems/274-transitive-mixing-diameter.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4502,10 +4390,10 @@
       "page_sha256": "a44216ae21c1f209fbb9278bf1498af3308deb20feaede1b1a61d65a56181f2f"
     },
     {
-      "id": "282",
+      "id": "275",
       "title": "Positive recurrence of every weakly reversible stochastic reaction network",
       "area": "Stochastic chemical kinetics",
-      "file": "problems/282-reaction-network-positive-recurrence.md",
+      "file": "problems/275-reaction-network-positive-recurrence.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4518,10 +4406,10 @@
       "page_sha256": "a11cff445ecf3782d28c79d6222a635a4c2b5f11ff2455d323c679eee2452490"
     },
     {
-      "id": "283",
+      "id": "276",
       "title": "No asymptotic extinction in bounded weakly reversible mass-action kinetics",
       "area": "Deterministic chemical reaction networks",
-      "file": "problems/283-reaction-network-persistence.md",
+      "file": "problems/276-reaction-network-persistence.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4534,10 +4422,10 @@
       "page_sha256": "7eb53eb8102c84e5c4e575a9b06ea4f0c3ae40ba621db4862206b8fd282bcb38"
     },
     {
-      "id": "284",
+      "id": "277",
       "title": "Gaussian fluctuations of the optimal Euclidean traveling-salesman tour",
       "area": "Spatial logistics and random optimization",
-      "file": "problems/284-euclidean-tsp-clt.md",
+      "file": "problems/277-euclidean-tsp-clt.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4550,10 +4438,10 @@
       "page_sha256": "33a5fabf13f0ddcba9727301dbebc9626f6181bb021edb38d6871014467609e2"
     },
     {
-      "id": "285",
+      "id": "278",
       "title": "The four-thirds integrality gap for metric routing",
       "area": "Operations research and routing",
-      "file": "problems/285-metric-tsp-four-thirds.md",
+      "file": "problems/278-metric-tsp-four-thirds.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4566,26 +4454,10 @@
       "page_sha256": "01ce3375ac4299c3812bd634ba1f37f065a41070da7b8480a96161bf76fc2355"
     },
     {
-      "id": "286",
-      "title": "Optimal deterministic competitiveness for mobile servers",
-      "area": "Online service and resource allocation",
-      "file": "problems/286-deterministic-k-server.md",
-      "status": "Open in cited literature; no later resolution located.",
-      "last_checked": "2026-09-13",
-      "section": "stochastic3",
-      "aliases_from_filename": [
-        "deterministic k server"
-      ],
-      "statement_with_hypotheses": "For any finite metric space $(M,d)$, integer $1\\le k<|M|$, and initial placement of $k$ servers, requests arrive one at a time at points of $M$. A deterministic online algorithm must move servers so that a server occupies the requested point before seeing the next request, paying total distance moved. Does there always exist such an algorithm $A$ and a finite constant $b$ independent of the request sequence with $\\mathrm{cost}_A(\\sigma)\\le k\\,\\mathrm{OPT}(\\sigma)+b$ for every finite sequence $\\sigma$? The offline optimum starts at the same placement and knows the entire sequence.",
-      "references": "- [Zhiyi Huang and Hanwen Zhang, *Deterministic 3-server on a circle and the limitation of canonical potentials* (2024)](https://doi.org/10.1016/j.tcs.2024.114844), Introduction.\n- [Kirill Brilliantov, Étienne Bamas and Emmanuel Abbé, *k-server-bench: Automating Potential Discovery for the k-Server Conjecture* (2026)](https://arxiv.org/abs/2604.07240), formulation and unresolved cases.",
-      "status_review": "The three-server circle result and partial searches for potential functions leave the universal deterministic question open. Randomized competitiveness is a separate problem; finite verification of candidate inequalities is not treated as a proof.\n\nSearch topics checked on 2026-09-13: `deterministic k server conjecture resolved 2026 competitive ratio general metric`. No later resolution of this exact statement was located; this is a literature check, not a certification that no proof exists.",
-      "page_sha256": "33dfacb79a74a9e3e7e92b66e09bfe19f22d044bda6a6a9434ac74be084416a1"
-    },
-    {
-      "id": "287",
+      "id": "279",
       "title": "The sharp savings from junctions in planar connection networks",
       "area": "Geometric network design",
-      "file": "problems/287-planar-steiner-ratio.md",
+      "file": "problems/279-planar-steiner-ratio.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4598,10 +4470,10 @@
       "page_sha256": "fb792828c843538428696e6e1693eeb27d57cc14a2b15479b9f9554afe5ec400"
     },
     {
-      "id": "288",
+      "id": "280",
       "title": "The exact asymptotic match fraction for independent binary sequences",
       "area": "Sequence comparison and computational biology",
-      "file": "problems/288-binary-lcs-constant.md",
+      "file": "problems/280-binary-lcs-constant.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4614,10 +4486,10 @@
       "page_sha256": "e7cbda8828960bcfbd5c9bc104e4baeb9a437f6d189e8efdaaef7737d907da07"
     },
     {
-      "id": "289",
+      "id": "281",
       "title": "Beat factor two for scheduling on unrelated machines",
       "area": "Scheduling and production planning",
-      "file": "problems/289-unrelated-machine-makespan.md",
+      "file": "problems/281-unrelated-machine-makespan.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4630,10 +4502,10 @@
       "page_sha256": "49d6bf4f21465870373531858c7a9caf9c1cd0116a9c1258e7753fded782b47c"
     },
     {
-      "id": "290",
+      "id": "282",
       "title": "A constant approximation for general max-min fair allocation",
       "area": "Fair allocation of indivisible resources",
-      "file": "problems/290-general-santa-claus.md",
+      "file": "problems/282-general-santa-claus.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4646,10 +4518,10 @@
       "page_sha256": "f37dc1982486cc3e70e390aacb9c083f58f5d2c3e24bd1fd16b5f444f2fb3ae5"
     },
     {
-      "id": "291",
+      "id": "283",
       "title": "Localization of light rays in the planar random mirror model",
       "area": "Transport in random optical media",
-      "file": "problems/291-planar-lorentz-mirrors.md",
+      "file": "problems/283-planar-lorentz-mirrors.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4662,10 +4534,10 @@
       "page_sha256": "5a341c305e152643c6887468fbf21192b60ff87883d6b60b73269a29ce4f0a2a"
     },
     {
-      "id": "292",
+      "id": "284",
       "title": "Existence of a planar sandpile avalanche-size exponent",
       "area": "Avalanches and self-organized criticality",
-      "file": "problems/292-planar-sandpile-size-exponent.md",
+      "file": "problems/284-planar-sandpile-size-exponent.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4678,10 +4550,10 @@
       "page_sha256": "dab96ff5252bccac8ee5482ea9fddf30cac9e3789dbffc145f9d328fa2a50170"
     },
     {
-      "id": "293",
+      "id": "285",
       "title": "Spatial coexistence despite extinction in the mean-field game",
       "area": "Spatial ecology and evolutionary games",
-      "file": "problems/293-spatial-hawk-dove-coexistence.md",
+      "file": "problems/285-spatial-hawk-dove-coexistence.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4694,10 +4566,10 @@
       "page_sha256": "a30749c7014ffce34e8ffa84b3310abcc79bd03c73d315faf8920c5b397d43ab"
     },
     {
-      "id": "294",
+      "id": "286",
       "title": "Consensus in the one-dimensional Axelrod model above the feature threshold",
       "area": "Cultural transmission and interacting populations",
-      "file": "problems/294-axelrod-multifeature-clustering.md",
+      "file": "problems/286-axelrod-multifeature-clustering.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4710,10 +4582,10 @@
       "page_sha256": "0b3e8765d89cc138aa05289b9f03269babfa340d836f181bf3aefbdb48077aab"
     },
     {
-      "id": "295",
+      "id": "287",
       "title": "A periodic high-density limit for bounded-confidence opinion clusters",
       "area": "Opinion dynamics and distributed agreement",
-      "file": "problems/295-hegselmann-krause-cluster-lattice.md",
+      "file": "problems/287-hegselmann-krause-cluster-lattice.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4726,10 +4598,10 @@
       "page_sha256": "02c303eb0db36e637b3649b5227da3ab17cb51a6e01550f2bc78990d848f8201"
     },
     {
-      "id": "296",
+      "id": "288",
       "title": "Does local stability imply global attraction for Nicholson’s blowflies equation?",
       "area": "Population dynamics with maturation delay",
-      "file": "problems/296-nicholson-local-global-stability.md",
+      "file": "problems/288-nicholson-local-global-stability.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4742,10 +4614,10 @@
       "page_sha256": "2230928c865baf3bbdfc91dc37d6582e8aa68b964c8a19c5c07b2eff28a7755d"
     },
     {
-      "id": "297",
+      "id": "289",
       "title": "Is the variance of fair binary sequence alignment linear?",
       "area": "Uncertainty in sequence similarity",
-      "file": "problems/297-binary-lcs-linear-variance.md",
+      "file": "problems/289-binary-lcs-linear-variance.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4754,14 +4626,14 @@
       ],
       "statement_with_hypotheses": "Let $X_1,\\ldots,X_n$ and $Y_1,\\ldots,Y_n$ be independent fair binary strings. Let $L_n$ be the largest $k$ for which indices $i_1<\\cdots<i_k$ and $j_1<\\cdots<j_k$ in $\\{1,\\ldots,n\\}$ satisfy $X_{i_r}=Y_{j_r}$ for all $r$. Is there a constant $c>0$ such that $\\operatorname{Var}(L_n)\\ge cn$ for every sufficiently large $n$? A matching upper bound of order $n$ is known. A negative answer would also resolve this formulation of the linear-variance question.",
       "references": "- [Jüri Lember and Heinrich Matzinger, *Standard deviation of the longest common subsequence*, Annals of Probability 37 (2009)](https://math.ut.ee/sites/default/files/inline-files/08-aop436.pdf), Introduction and biased binary result.\n- [Qingqing Liu, *Topics on the Longest Common Subsequences: Simulations, Computations, and Variance*, Georgia Institute of Technology dissertation (2018)](https://repository.gatech.edu/bitstreams/0312a292-44ee-435a-8440-7ce2883e6704/download), Chapter 1 and §3.1.",
-      "status_review": "Linear lower bounds for sufficiently biased strings and asymmetric or dependent models do not cover two independent fair binary strings. Competing fluctuation predictions make the unbiased case a question, rather than an asserted established scaling law. Entry 288 instead concerns the limiting mean coefficient.\n\nSearch topics checked on 2026-09-13: `unbiased fair binary longest common subsequence linear variance Waterman conjecture solved 2025 2026`. No later resolution of this exact statement was located; this is a literature check, not a certification that no proof exists.",
+      "status_review": "Linear lower bounds for sufficiently biased strings and asymmetric or dependent models do not cover two independent fair binary strings. Competing fluctuation predictions make the unbiased case a question, rather than an asserted established scaling law. Entry 280 instead concerns the limiting mean coefficient.\n\nSearch topics checked on 2026-09-13: `unbiased fair binary longest common subsequence linear variance Waterman conjecture solved 2025 2026`. No later resolution of this exact statement was located; this is a literature check, not a certification that no proof exists.",
       "page_sha256": "ff4cb604d3283a4f9e823f11b6b8eb882deaab00cfb4a5c11d6c911518157859"
     },
     {
-      "id": "298",
+      "id": "290",
       "title": "Tracy–Widom fluctuations for a Gaussian lattice polymer at fixed temperature",
       "area": "Random media and fluctuating interfaces",
-      "file": "problems/298-gaussian-polymer-tracy-widom.md",
+      "file": "problems/290-gaussian-polymer-tracy-widom.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4770,14 +4642,14 @@
       ],
       "statement_with_hypotheses": "Let $(\\omega_{ij})_{i,j\\ge0}$ be independent standard normal variables. Let $\\Pi_n$ be all up-right lattice paths from $(0,0)$ to $(n,n)$ and set $Z_n=\\sum_{\\pi\\in\\Pi_n}\\exp(\\sum_{v\\in\\pi}\\omega_v)$, with each visited vertex counted once. Write $f=\\lim_{n\\to\\infty}n^{-1}\\mathbb E\\log Z_n$, whose existence is known. Does there exist $s>0$ such that $(\\log Z_n-nf)/(s n^{1/3})$ converges in distribution to the standard GUE Tracy–Widom law $F_2$? Here $F_2$ is the limit law of $N^{2/3}(\\lambda_{\\max}(M_N)-2)$ for complex Hermitian Gaussian matrices with density proportional to $\\exp(-N\\operatorname{Tr}M_N^2/2)$. The noise coefficient remains one as $n$ grows.",
       "references": "- [Arjun Krishnan and Jeremy Quastel, *Tracy–Widom fluctuations for perturbations of the log-gamma polymer in intermediate disorder* (2016)](https://arxiv.org/abs/1610.06975), Introduction and universality conjecture.\n- [Pranay Agarwal, *Improved universality bounds for directed polymers in the intermediate disorder regime* (2025)](https://arxiv.org/abs/2509.21453), temperature scaling and moment-matching assumptions.\n- [Sen Mu, Abbas Ali Saberi, Roderich Moessner and Mehran Kardar, *Directed Polymer Transfer Matrices as a Unified Generator of Distinct One-Point Fluctuation Laws* (2026)](https://arxiv.org/abs/2603.14477), numerical study.",
-      "status_review": "Intermediate-disorder theorems send the noise strength to zero and often impose moment matching with an integrable law. The 2026 transfer-matrix paper reports numerical fluctuation laws. Neither proves the fixed-temperature, square-geometry Gaussian assertion. This differs from entry 200, which concerns a continuum polymer’s moment spectrum.\n\nSearch topics checked on 2026-09-13: `Gaussian lattice directed polymer fixed temperature Tracy Widom universality proof 2026`. No later resolution of this exact statement was located; this is a literature check, not a certification that no proof exists.",
+      "status_review": "Intermediate-disorder theorems send the noise strength to zero and often impose moment matching with an integrable law. The 2026 transfer-matrix paper reports numerical fluctuation laws. Neither proves the fixed-temperature, square-geometry Gaussian assertion. This differs from entry 195, which concerns a continuum polymer’s moment spectrum.\n\nSearch topics checked on 2026-09-13: `Gaussian lattice directed polymer fixed temperature Tracy Widom universality proof 2026`. No later resolution of this exact statement was located; this is a literature check, not a certification that no proof exists.",
       "page_sha256": "c134a4c321d3c5bee66b1ece9180ce15b115c57725189c7d06beadbe21779272"
     },
     {
-      "id": "299",
+      "id": "291",
       "title": "Polynomial equilibration at the four-state planar Potts critical point",
       "area": "Critical dynamics and statistical simulation",
-      "file": "problems/299-critical-four-state-potts-mixing.md",
+      "file": "problems/291-critical-four-state-potts-mixing.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",
@@ -4790,10 +4662,10 @@
       "page_sha256": "fd6225e87e262c0da06c3892bb7376979bd0c1d6871bd17f77fc6bab6c1d72bb"
     },
     {
-      "id": "300",
+      "id": "292",
       "title": "Does every strict initial majority win zero-temperature Ising dynamics?",
       "area": "Coarsening and phase selection",
-      "file": "problems/300-majority-ising-fixation.md",
+      "file": "problems/292-majority-ising-fixation.md",
       "status": "Open in cited literature; no later resolution located.",
       "last_checked": "2026-09-13",
       "section": "stochastic3",

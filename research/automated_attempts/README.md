@@ -1,6 +1,8 @@
 # Autonomous Mathematical Research Programme
 
-This is the persistent coordination layer for the repository's growing problem collection. Repository problem files and their established indexes determine membership. Never assume a fixed count, maximum identifier, contiguous numbering, or a static collection.
+This is the persistent coordination layer for the repository's growing problem collection. Repository problem files and their established indexes determine membership. Discover membership from the current metadata rather than assuming a fixed count or maximum identifier. Active IDs are consecutive from 001 and may change after deletions.
+
+**Current checkpoint (2026-09-24):** [665 active entries](QUEUE.md). Campaign 001 remains incomplete conditional research; see its [evidence summary](001/STATUS.md). This checkpoint is administrative, not a new research or verification run.
 
 ## Scope and layout
 
@@ -21,7 +23,7 @@ Keep canonical identifiers as strings. New senior reviews use UTC names `YYYY-MM
 
 1. Discover all current problem files, including files beyond the initial index ranges. Check their canonical headings against every current machine-readable index and [CATALOG.md](../../CATALOG.md). Check [RESOLVED.md](../../RESOLVED.md) for retained entries outside the open catalogue. Do not limit discovery to historical index ranges.
 2. Compare actual membership with `QUEUE.md`. Add newly discovered problems as `unstarted`, preserving canonical identifiers and titles. Preserve all existing statuses and history. Record actual discovery dates; do not invent old dates or priority scores.
-3. Preserve missing files' queue entries and research directories. Update a rename/renumber only when correspondence is unambiguous. Record duplicate IDs, contradictory indexes, malformed entries, and ambiguous correspondences as `queue_integrity_issues`; continue unaffected research.
+3. Preserve unexpectedly missing files' queue entries and research directories. Explicit owner-requested removals recorded in `catalogue.json` stay excluded; retained entries are kept separately and are ineligible for active selection. Update a rename/renumber only when correspondence is unambiguous. Record duplicate IDs, contradictory indexes, malformed entries, and ambiguous correspondences as `queue_integrity_issues`; continue unaffected research.
 4. Read `STATE.md`, `QUEUE.md`, the exact current statement, and current `PROGRESS.md`. A senior run also reads all Sol attempts since the preceding Astra review and the two most recent reviews, if present. Load older history only to resolve a claim.
 5. Record the starting revision. Audit claims adversarially, make substantive mathematical progress where possible, and write a new run record and substantial reproducibility artifacts.
 6. Update compact cumulative memory and current instructions. A senior run decides campaign allocation; only Astra may change `current_problem`.

@@ -1,6 +1,6 @@
 {
   "candidate_id": "polynomial-hirsch",
-  "proposed_catalogue_id": "322",
+  "proposed_catalogue_id": "314",
   "title": "Polynomial bounds for the graph diameter of polytopes",
   "aliases": [
     "polynomial Hirsch conjecture",
@@ -31,7 +31,7 @@
   },
   "statement_source_and_scope_match": "S12 Conjecture 1.3 asks for a polynomial in n alone; n>=d+1 makes this equivalent to an absolute polynomial bound in n+d. BX26 §1 and W25 §I explicitly use dimension and facet count. Bounded, full-dimensional representation loses no bounded polytope after passage to its affine hull. Vertices/edges/facets and graph distance agree with T14 and S19.",
   "proposed_statement_text": "A convex polytope $P\\subset\\mathbb R^d$ is a bounded intersection of finitely many closed half-spaces. Assume $P$ has nonempty interior in $\\mathbb R^d$, where $d\\ge1$, and exactly $n$ facets, its faces of dimension $d-1$. In particular, $n\\ge d+1$.\n\nThe vertex-edge graph $G(P)$ has the vertices of $P$ as its nodes; two nodes are adjacent precisely when they are the endpoints of an edge of $P$. For vertices $u,v$, let $\\operatorname{dist}_{G(P)}(u,v)$ be the minimum number of edges in a path joining them. Define\n\n$$\n\\operatorname{diam}G(P)=\\max_{u,v\\in V(P)}\\operatorname{dist}_{G(P)}(u,v).\n$$\n\nDo there exist absolute constants $C,k>0$ such that every such polytope satisfies\n\n$$\n\\operatorname{diam}G(P)\\le C(n+d)^k?\n$$\n\nThe same constants must work for all dimensions and all facet counts. There are no rationality, simplicity or conditioning assumptions. Paths use actual edges and may move in either direction; no linear objective is prescribed. This is the polynomial Hirsch conjecture for bounded polytopes. It asks for the existence of short paths, without requiring an algorithm to find them.",
-  "applied_significance": "A bounded feasible region in linear programming is a polytope, and nondegenerate simplex pivots move between its vertices along edges. Its graph diameter therefore gives a geometric lower bound on the worst-case number of pivots needed when the starting vertex and objective vary. A superpolynomial diameter family would obstruct every uniformly polynomial pivot bound. A polynomial diameter bound would remove that obstruction, while leaving the additional tasks of choosing objective-improving steps and computing them efficiently. These extra algorithmic requirements are the subject of existing [entry 100](../../../problems/100-strongly-polynomial-simplex.md); the present question concerns the geometry of the feasible region.",
+  "applied_significance": "A bounded feasible region in linear programming is a polytope, and nondegenerate simplex pivots move between its vertices along edges. Its graph diameter therefore gives a geometric lower bound on the worst-case number of pivots needed when the starting vertex and objective vary. A superpolynomial diameter family would obstruct every uniformly polynomial pivot bound. A polynomial diameter bound would remove that obstruction, while leaving the additional tasks of choosing objective-improving steps and computing them efficiently. These extra algorithmic requirements are the subject of existing [entry 095](../../../problems/095-strongly-polynomial-simplex.md); the present question concerns the geometry of the feasible region.",
   "application_evidence_source_ids": [
     "S12",
     "BX26",
@@ -380,11 +380,11 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": "100",
+        "id": "095",
         "difference": "Requests a computable deterministic monotone simplex pivot rule on rational LPs with bit-length and auxiliary-operation bounds. Here the assertion is existence of undirected short paths for every real bounded polytope; it gives no rule, objective monotonicity or cost for discovering paths."
       },
       {
-        "id": "311",
+        "id": "303",
         "difference": "Carrying simplex concerns regularity of a dynamical invariant hypersurface; the shared word simplex has no mathematical equivalence."
       },
       {
@@ -392,7 +392,7 @@
         "difference": "Arithmetic circuits are symbolic computation DAGs; circuit walks in the scope checks here are geometric kernel directions. No common assertion."
       }
     ],
-    "distinctness_reason": "Existing 320-entry inventory and all baseline full-page reading retained; titles, aliases, metadata, holds and exclusions searched again, and full entry 100 compared. This is a separately sourced geometric existence conjecture and a necessary geometric obstruction for pivot bounds; no numerical-linear-algebra problem is added.",
+    "distinctness_reason": "Existing 312-entry inventory and all baseline full-page reading retained; titles, aliases, metadata, holds and exclusions searched again, and full entry 095 compared. This is a separately sourced geometric existence conjecture and a necessary geometric obstruction for pivot bounds; no numerical-linear-algebra problem is added.",
     "implications_or_equivalences": [
       "Polynomial in n and d is equivalent to polynomial in n for bounded d-polytopes with n facets.",
       "The exact linear, monotone, strict monotone and coherent variants are not counted as additional entries.",
@@ -436,7 +436,7 @@
       "Newest lattice result could be mistaken for a graph-diameter counterexample.",
       "Initial partial-result bibliography stopped at Sukegawa 2017 instead of the asymptotic 2019 improvement.",
       "Stale facet-pivot abstracts preserve an author-withdrawn linear-bound claim.",
-      "Entry 100 requires explicit distinction between short paths and an efficient monotone pivot rule."
+      "Entry 095 requires explicit distinction between short paths and an efficient monotone pivot rule."
     ],
     "issues_resolved": [
       "Compared both full B26 theorems and their parameter dependencies.",
@@ -459,7 +459,7 @@
     "upstream_check": "Fresh fetch and SSH ls-remote: only main, at cde9391d9304f0bc7f18cdfd93bcf0ff5ad40e64. Connected GitHub open-PR search returned empty.",
     "duplicate_scope": "Completed full baseline reading retained; all additions and current metadata screened. Closest 22 statement/application pages reread during batch refresh; no matching assertions. No upstream content change."
   },
-  "public_page_path": "problems/322-polynomial-hirsch.md",
+  "public_page_path": "problems/314-polynomial-hirsch.md",
   "draft_path": "research/expansion-2026-09/drafts/polynomial-hirsch.md",
   "validation_results": [
     "Candidate fields, counts, source references and 649 distinct actual-query IDs validated.",

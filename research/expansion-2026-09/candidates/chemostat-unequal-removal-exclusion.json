@@ -1,6 +1,6 @@
 {
   "candidate_id": "chemostat-unequal-removal-exclusion",
-  "proposed_catalogue_id": "345",
+  "proposed_catalogue_id": "337",
   "title": "Competitive exclusion in a chemostat with unequal removal rates",
   "decision": "accept_open",
   "decision_reason": "Full primary formulation and independent scholarly corroboration, later model/theorem comparisons, duplicate checks and separated A46 adversarial self-review passed; no unresolved material matching resolution claim.",
@@ -364,15 +364,15 @@
     "searched": "All active problem pages, metadata, candidate/draft records and existing research inventories; chemostat, break-even, competitive exclusion, single nutrient and carrying simplex.",
     "nearest_entries": [
       {
-        "id": 190,
+        "id": 185,
         "difference": "Spatial stochastic contact process on Z2; no shared-resource chemostat ODE."
       },
       {
-        "id": 311,
+        "id": 303,
         "difference": "Interior smoothness of the carrying simplex for discrete population maps, rather than global selection of a resource competitor."
       },
       {
-        "id": 179,
+        "id": 174,
         "difference": "Irreversible spatial Richardson growth competition; not a finite-dimensional resource model."
       }
     ],
@@ -407,7 +407,7 @@
     "remaining_material_resolution_claims": []
   },
   "open_status_evidence_summary": "Open in cited literature; no later resolution located as of 2026-09-18. H05 and independent SM11 explicitly state the exact problem; H19 retains it. Current and unrestricted searches and full material model/theorem comparisons did not identify a resolution matching arbitrary finite n, general increasing constant-yield growth and unrestricted positive species removal.",
-  "public_page_path": "problems/345-chemostat-unequal-removal-exclusion.md",
+  "public_page_path": "problems/337-chemostat-unequal-removal-exclusion.md",
   "qa": {
     "status": "pass",
     "catalogue": "scripts/catalogue.py --write and --check passed, 340 active entries.",

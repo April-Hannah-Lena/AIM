@@ -1,6 +1,6 @@
 {
   "candidate_id": "general-graph-perfect-matching-nc",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "498",
   "title": "Deterministic parallel perfect matching in general graphs",
   "primary_section": "operators",
   "secondary_tags": [
@@ -41,23 +41,23 @@
   ],
   "nearest_existing_entries": [
     {
-      "id": "321",
-      "path": "problems/321-deterministic-polynomial-identity-testing.md",
+      "id": "313",
+      "path": "problems/313-deterministic-polynomial-identity-testing.md",
       "difference": "General rational arithmetic-circuit identity testing in sequential polynomial time; the present graph problem is already in sequential polynomial time and asks for polylogarithmic parallel depth."
     },
     {
-      "id": "322",
-      "path": "problems/322-polynomial-hirsch.md",
+      "id": "314",
+      "path": "problems/314-polynomial-hirsch.md",
       "difference": "Existence of short paths in polytope graphs, not a matching construction algorithm; a matching-polytope reference does not make the assertions equivalent."
     },
     {
-      "id": "334",
-      "path": "problems/334-strong-thin-tree.md",
+      "id": "326",
+      "path": "problems/326-strong-thin-tree.md",
       "difference": "One spanning tree with simultaneous cut bounds; its perfect-matching comparison concerns thinness, not parallel complexity."
     },
     {
-      "id": "344",
-      "path": "problems/344-list-edge-colouring.md",
+      "id": "336",
+      "path": "problems/336-list-edge-colouring.md",
       "difference": "Existence of edge-specific list colourings with no extra colours, without a complexity bound; not construction of a single vertex-covering matching."
     }
   ],
@@ -422,7 +422,7 @@
     "application_check": "Pairwise compatible exchanges provide a concrete model with explicitly limited asymptotic circuit implications.",
     "search_limit": "This is a status and theorem-scope audit, not exhaustive research or independent proof certification."
   },
-  "publication_state": "Accepted research draft and evidence uploaded directly to main; exact research commit separately verified September 19, 2026. No permanent ID or active catalogue integration.",
+  "publication_state": "Integrated in the local catalogue on 2026-09-23; no commit or remote publication performed by this integration.",
   "draft_path": "research/expansion-2026-09/drafts/general-graph-perfect-matching-nc.md",
   "aliases": [
     "Perfect matching in NC",
@@ -520,5 +520,14 @@
     "scope": "Research draft and evidence only; active catalogue remains 360.",
     "verified_by": "Successful direct fast-forward push followed by a separate git ls-remote returning the exact full commit.",
     "pull_request": null
+  },
+  "public_page_path": "problems/498-general-graph-perfect-matching-nc.md",
+  "integration_2026_09_23": {
+    "id": "498",
+    "group": "operators",
+    "status": "Partially resolved",
+    "status_checked_on": "2026-09-23",
+    "record": "research/integration-2026-09-23.md",
+    "scope": "Existing September 19 source audit plus bounded literature refresh; no independent proof certification."
   }
 }

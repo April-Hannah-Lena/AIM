@@ -4,12 +4,10 @@
   "active_entries": 500,
   "new_entries": 141,
   "new_id_range": [
-    "361",
-    "501"
+    "353",
+    "493"
   ],
-  "retired_ids": [
-    "077"
-  ],
+  "retired_ids": [],
   "catalogue_validation": "Validated 500 unique problems, metadata, required sections, math delimiters, local links, and README freshness.",
   "new_page_math": {
     "engine": "KaTeX 0.16.22",

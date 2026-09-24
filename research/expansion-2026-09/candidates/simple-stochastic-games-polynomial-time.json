@@ -1,6 +1,6 @@
 {
   "candidate_id": "simple-stochastic-games-polynomial-time",
-  "proposed_catalogue_id": null,
+  "proposed_catalogue_id": "499",
   "title": "Polynomial-time solution of simple stochastic games",
   "primary_section": "inverse2",
   "secondary_tags": [
@@ -42,23 +42,23 @@
   ],
   "nearest_existing_entries": [
     {
-      "id": "100",
-      "path": "problems/100-strongly-polynomial-simplex.md",
+      "id": "095",
+      "path": "problems/095-strongly-polynomial-simplex.md",
       "difference": "Strongly polynomial feasible simplex pivots for an LP; here any polynomial-bit-time decision algorithm for an adversarial reachability game is eligible."
     },
     {
-      "id": "141",
-      "path": "problems/141-witsenhausen-exact-optimum.md",
+      "id": "136",
+      "path": "problems/136-witsenhausen-exact-optimum.md",
       "difference": "Fixed scalar decentralized Gaussian control optimum with unequal information; here variable finite-state perfect-information zero-sum reachability complexity."
     },
     {
-      "id": "273",
-      "path": "problems/273-continuous-skolem-decidability.md",
+      "id": "266",
+      "path": "problems/266-continuous-skolem-decidability.md",
       "difference": "Decidability of exact hyperplane reachability for a deterministic real-time linear ODE; no adversarial players or probability threshold."
     },
     {
-      "id": "343",
-      "path": "problems/343-switched-linear-stability-decidability.md",
+      "id": "335",
+      "path": "problems/335-switched-linear-stability-decidability.md",
       "difference": "Unrestricted-time decidability of asymptotic stability under all matrix switching sequences; not polynomial-time finite-graph stochastic reachability."
     }
   ],
@@ -315,7 +315,7 @@
     "outcome": "No unresolved matching claim or formulation conflict located. Retained the sourced binary decision problem and recorded all material restrictions.",
     "search_limit": "Dated literature and theorem-scope review, not an exhaustive search or proof certification."
   },
-  "publication_state": "Accepted research draft and evidence uploaded directly to main; exact research commit separately verified September 19, 2026. No permanent ID or active catalogue integration.",
+  "publication_state": "Integrated in the local catalogue on 2026-09-23; no commit or remote publication performed by this integration.",
   "draft_path": "research/expansion-2026-09/drafts/simple-stochastic-games-polynomial-time.md",
   "independent_corroboration": {
     "statement": "GHH26 supplies the exact binary strict-threshold formulation; GH09 and HP11 explicitly pose the polynomial-time problem.",
@@ -379,5 +379,14 @@
     "scope": "Research draft and evidence only; active catalogue remains 360.",
     "verified_by": "Successful direct fast-forward push followed by separate git ls-remote returning the exact full commit.",
     "pull_request": null
+  },
+  "public_page_path": "problems/499-simple-stochastic-games-polynomial-time.md",
+  "integration_2026_09_23": {
+    "id": "499",
+    "group": "inverse2",
+    "status": "Partially resolved",
+    "status_checked_on": "2026-09-23",
+    "record": "research/integration-2026-09-23.md",
+    "scope": "Existing September 19 source audit plus bounded literature refresh; no independent proof certification."
   }
 }

@@ -1,6 +1,6 @@
 {
   "candidate_id": "entanglement-of-purification-additivity",
-  "proposed_catalogue_id": "353",
+  "proposed_catalogue_id": "345",
   "title": "Additivity of entanglement of purification",
   "primary_section": "spectral3",
   "decision": "accept_open",
@@ -47,32 +47,32 @@
   },
   "nearest_existing": [
     {
-      "entry": "214",
-      "path": "problems/214-amplitude-damping-additivity.md",
+      "entry": "209",
+      "path": "problems/209-amplitude-damping-additivity.md",
       "full_statement_read": true,
       "comparison": "Holevo-information additivity for powers of a fixed amplitude-damping channel; the optimized functional, admissible objects and communication resource are different."
     },
     {
-      "entry": "038",
-      "path": "problems/038-depolarizing-quantum-capacity.md",
+      "entry": "035",
+      "path": "problems/035-depolarizing-quantum-capacity.md",
       "full_statement_read": true,
       "comparison": "Exact unassisted quantum capacity of a depolarizing channel, defined by regularized coherent information; not minimum entropy over bipartite-state purifications."
     },
     {
-      "entry": "040",
-      "path": "problems/040-quantum-entropy-cone.md",
+      "entry": "037",
+      "path": "problems/037-quantum-entropy-cone.md",
       "full_statement_read": true,
       "comparison": "Universal linear inequalities for multipartite entropy vectors; does not ask whether an optimized purification cost is additive."
     },
     {
-      "entry": "313",
-      "path": "problems/313-entanglement-assisted-lovasz.md",
+      "entry": "305",
+      "path": "problems/305-entanglement-assisted-lovasz.md",
       "full_statement_read": true,
       "comparison": "Entanglement-assisted zero-error capacity of classical confusion graphs versus a semidefinite graph bound; different optimization, asymptotic object and success criterion."
     },
     {
-      "entry": "037",
-      "path": "problems/037-npt-bound-entanglement.md",
+      "entry": "034",
+      "path": "problems/034-npt-bound-entanglement.md",
       "full_statement_read": true,
       "comparison": "Existence of negative-partial-transpose states nondistillable at every copy count; concerns extraction under LOCC, not formation with vanishing communication rate."
     }
@@ -379,7 +379,7 @@
     "verified_on": "2026-09-19",
     "verification": "Normal HEAD:main push succeeded; a separate git ls-remote origin refs/heads/main returned the exact full content commit."
   },
-  "public_page_path": "problems/353-entanglement-of-purification-additivity.md",
+  "public_page_path": "problems/345-entanglement-of-purification-additivity.md",
   "prepublication_refresh": {
     "date": "2026-09-19",
     "latest_target_commit": "73c787d1add623ce7ede59766e018b51ea4e1a1e",

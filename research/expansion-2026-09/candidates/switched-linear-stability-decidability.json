@@ -1,6 +1,6 @@
 {
   "candidate_id": "switched-linear-stability-decidability",
-  "proposed_catalogue_id": "343",
+  "proposed_catalogue_id": "335",
   "title": "Decidability of stability under arbitrary switching",
   "decision": "accept_open",
   "decision_reason": "Explicit sourced question, independent scholarly corroboration, current theorem/version comparisons, duplicate audit and separated A44 adversarial self-review passed.",
@@ -249,26 +249,26 @@
     "nearest": [
       {
         "ids": [
-          273,
-          327
+          266,
+          319
         ],
         "difference": "Fixed continuous/discrete orbit hitting a hyperplane, not convergence under all switching sequences."
       },
       {
         "ids": [
-          319
+          311
         ],
         "difference": "Sharp threshold for existence of a stable dynamic controller for a scalar plant family."
       },
       {
         "ids": [
-          330
+          322
         ],
         "difference": "Generic dimension classification for existence of static output feedback; no arbitrary switching."
       },
       {
         "ids": [
-          148
+          143
         ],
         "difference": "Finite-jet determination of nonlinear local controllability."
       }
@@ -292,7 +292,7 @@
     "No specialist or independent human review has occurred. Literature search does not prove nonexistence of an unindexed resolution."
   ],
   "draft_path": "research/expansion-2026-09/drafts/switched-linear-stability-decidability.md",
-  "public_page_path": "problems/343-switched-linear-stability-decidability.md",
+  "public_page_path": "problems/335-switched-linear-stability-decidability.md",
   "public_status": "Open in cited literature; no later resolution located as of 2026-09-18.",
   "second_review": {
     "reviewer": "Primary agent in a separated adversarial self-pass after drafting",

@@ -1,6 +1,6 @@
 {
   "candidate_id": "brownian-fleming-viot-nonexplosion",
-  "proposed_catalogue_id": "359",
+  "proposed_catalogue_id": "351",
   "title": "Non-explosion of Brownian Fleming–Viot systems in arbitrary domains",
   "primary_section": "stochastic2",
   "secondary_tags": [
@@ -292,18 +292,18 @@
   ],
   "nearest_existing_entries": [
     {
-      "id": 329,
-      "path": "problems/329-selected-brownian-population-genealogy.md",
+      "id": 321,
+      "path": "problems/321-selected-brownian-population-genealogy.md",
       "comparison": "Rate-one binary branching on the whole line with removal of a leftmost particle; the target is large-N ancestry on a logarithmic clock. Here branching is triggered by domain exit, cloning is uniform and the target is fixed-N non-explosion."
     },
     {
-      "id": 282,
-      "path": "problems/282-reaction-network-positive-recurrence.md",
+      "id": 275,
+      "path": "problems/275-reaction-network-positive-recurrence.md",
       "comparison": "Discrete population-count mass-action jump chains with weakly reversible reaction graphs, arbitrary reaction order and a recurrence conclusion; neither state space nor jump rule matches Brownian boundary resampling."
     },
     {
-      "id": 325,
-      "path": "problems/325-contact-process-nonamenable-weak-survival.md",
+      "id": 317,
+      "path": "problems/317-contact-process-nonamenable-weak-survival.md",
       "comparison": "An infection process on a nonamenable graph and a gap between global and local survival thresholds; no fixed finite Brownian population or boundary-exit construction."
     }
   ],
@@ -344,7 +344,7 @@
       "Distinguish the almost-everywhere general Hunt-process theorem from the every-starting-point Brownian corollary.",
       "Published and preprint numbering differ; the published BBF page range is 293–332.",
       "Villemonais locators are Theorems 2.2 and 3.6 in the published text.",
-      "Initial draft used an incorrect filename for entry 282.",
+      "Initial draft used an incorrect filename for entry 275.",
       "Regular-domain approximations and drift-based counterexamples could be mistaken for resolutions."
     ],
     "issues_resolved": [
@@ -395,7 +395,7 @@
     "external_link_record": "research/expansion-2026-09/brownian-fleming-viot-nonexplosion-link-check.json",
     "structural": "Catalogue validation passed for 350 unique entries; all four draft local links resolve. All source/search IDs exist. Sixty-five records reconcile to 59 accepted, five claimed-resolution holds and one unverified hold; 50 integrated, nine pending. Primary-section coverage exactly matches accepted records. The search log has 2,208 unique IDs. Git whitespace checks passed."
   },
-  "public_page_path": "problems/359-brownian-fleming-viot-nonexplosion.md",
+  "public_page_path": "problems/351-brownian-fleming-viot-nonexplosion.md",
   "batch_validation": {
     "batch": "351–360",
     "date": "2026-09-19",

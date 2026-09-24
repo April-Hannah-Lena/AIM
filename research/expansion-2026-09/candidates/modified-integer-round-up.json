@@ -1,6 +1,6 @@
 {
   "candidate_id": "modified-integer-round-up",
-  "proposed_catalogue_id": "352",
+  "proposed_catalogue_id": "344",
   "title": "The modified integer round-up conjecture for cutting stock",
   "primary_section": "stochastic3",
   "decision": "accept_open",
@@ -50,20 +50,20 @@
   },
   "nearest_existing": [
     {
-      "entry": "326",
-      "path": "problems/326-online-bin-packing-optimal-ratio.md",
+      "entry": "318",
+      "path": "problems/318-online-bin-packing-optimal-ratio.md",
       "full_statement_read": true,
       "comparison": "Unknown adversarial arrivals and irrevocable placements; asks for a deterministic asymptotic multiplicative competitive ratio. The present offline assertion compares integer and fractional optima additively."
     },
     {
-      "entry": "336",
-      "path": "problems/336-strong-komlos-prefix-discrepancy.md",
+      "entry": "328",
+      "path": "problems/328-strong-komlos-prefix-discrepancy.md",
       "full_statement_read": true,
       "comparison": "Uniform infinity-norm discrepancy for signed prefixes of Euclidean unit vectors. Discrepancy can inform rounding methods, but it is not this fixed knapsack-pattern optimum inequality."
     },
     {
-      "entry": "285",
-      "path": "problems/285-metric-tsp-four-thirds.md",
+      "entry": "278",
+      "path": "problems/278-metric-tsp-four-thirds.md",
       "full_statement_read": true,
       "comparison": "A multiplicative Held–Karp gap for metric tours; different feasible configurations, polytope and objective."
     }
@@ -152,7 +152,7 @@
     ],
     "quantifier_checks": "All n>=1 and all positive integer capacities, lengths <=W and demands; one uniform additive one; same complete pattern set for integer and real variables; no algorithmic, fixed-type, divisibility or proper-pattern promise.",
     "application_check": "Idealized one-dimensional production planning with uniform stock length and stock-count objective; no unsupported guarantee for trim-loss, setup-cost or machine-restricted variants.",
-    "duplicate_check": "Fresh aliases searched across active pages, data, manifest and research records; full nearest entries 326, 336 and 285 compared. No equivalent accepted assertion located.",
+    "duplicate_check": "Fresh aliases searched across active pages, data, manifest and research records; full nearest entries 318, 328 and 278 compared. No equivalent accepted assertion located.",
     "search_limit": "No exhaustive proof certification or independent mathematical review. ST95/ST97 original full texts and the cited 2009 personal communication were unavailable; exact accessible restatements are identified. Computational enumerations were not rerun."
   },
   "source_records": [
@@ -434,7 +434,7 @@
     "verified_on": "2026-09-19",
     "verification": "A separate git ls-remote origin refs/heads/main call matched the full local content commit after the push."
   },
-  "public_page_path": "problems/352-modified-integer-round-up.md",
+  "public_page_path": "problems/344-modified-integer-round-up.md",
   "prepublication_refresh": {
     "date": "2026-09-19",
     "latest_target_commit": "73c787d1add623ce7ede59766e018b51ea4e1a1e",

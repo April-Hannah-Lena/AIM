@@ -1,6 +1,6 @@
 {
   "candidate_id": "symmetric-rendezvous-discrete-locations",
-  "proposed_catalogue_id": "331",
+  "proposed_catalogue_id": "323",
   "title": "Optimal symmetric rendezvous among discrete locations",
   "aliases": [
     "Mozart Café problem",
@@ -1056,15 +1056,11 @@
     "other_new_candidates_screened": true,
     "closest_existing_or_new_entries": [
       {
-        "id": 302,
+        "id": 294,
         "distinction": "A deterministic word simultaneously resets all automaton states; no independent agents or unknown label matching."
       },
       {
-        "id": 286,
-        "distinction": "Online metric service cost against an offline comparator; a later matching claim is separately flagged."
-      },
-      {
-        "id": 326,
+        "id": 318,
         "distinction": "Irrevocable bin assignments and asymptotic competitive ratio against offline packing."
       }
     ],
@@ -1100,8 +1096,7 @@
       "Time-zero, step-one and distinct-start conventions differ.",
       "A restricted block strategy could accidentally replace the full optimization class.",
       "A newer August revision changes locators.",
-      "Token and quantum search hits appear to solve K4.",
-      "Draft had an incorrect filename for entry 286."
+      "Token and quantum search hits appear to solve K4."
     ],
     "issues_resolved": [
       "Defined all randomness, starting convention and clock; checked W12 directly.",
@@ -1124,7 +1119,7 @@
     "upstream": "SSH fetch shows HEAD equals origin/main. Connected GitHub metadata verifies private MColbrook/AIM, main default and push permission; paginated branch search contains only main; open-PR search returns none.",
     "duplicate_scope": "Established full baseline and 330 active entries, all ten batch statements and closest prior families. No new upstream files or equivalent accepted statement located."
   },
-  "public_page_path": "problems/331-symmetric-rendezvous-discrete-locations.md",
+  "public_page_path": "problems/323-symmetric-rendezvous-discrete-locations.md",
   "draft_page_path": "research/expansion-2026-09/drafts/symmetric-rendezvous-discrete-locations.md",
   "validation_results": [
     "2026-09-17: 23 math expressions passed strict KaTeX. Rendered statement and applied-significance screenshot visually inspected; no clipping.",
