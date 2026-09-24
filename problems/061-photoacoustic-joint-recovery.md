@@ -8,16 +8,16 @@
 
 ## Problem statement
 
-Fix a ball $B\subset\mathbb R^3$. Let $c_j\in C^\infty(\mathbb R^3)$ be strictly positive, equal to one outside $B$, and nontrapping: every unit-speed geodesic of $c_j^{-2}dx^2$ eventually leaves each bounded set. Let $0\ne f_j\in C_c^\infty(B)$ be real. Define $u_j$ by
+Fix a ball $`B\subset\mathbb R^3`$. Let $`c_j\in C^\infty(\mathbb R^3)`$ be strictly positive, equal to one outside $`B`$, and nontrapping: every unit-speed geodesic of $`c_j^{-2}dx^2`$ eventually leaves each bounded set. Let $`0\ne f_j\in C_c^\infty(B)`$ be real. Define $`u_j`$ by
 
-$$
+```math
 \partial_t^2u_j-c_j^2\Delta u_j=0,
 \quad u_j(0,x)=f_j(x),\quad\partial_tu_j(0,x)=0.
-$$
+```
 
 Does
-$u_1|_{(0,\infty)\times\partial B}=u_2|_{(0,\infty)\times\partial B}$
-imply $c_1=c_2$ and $f_1=f_2$? Each experiment has just one unknown initial pressure. No ordering between the speeds or finite-dimensional source model is assumed.
+$`u_1|_{(0,\infty)\times\partial B}=u_2|_{(0,\infty)\times\partial B}`$
+imply $`c_1=c_2`$ and $`f_1=f_2`$? Each experiment has just one unknown initial pressure. No ordering between the speeds or finite-dimensional source model is assumed.
 
 ## Application
 

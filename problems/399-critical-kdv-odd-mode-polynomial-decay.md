@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Set $L=14\pi$. For the real-valued KdV problem
+Set $`L=14\pi`$. For the real-valued KdV problem
 
-$$
+```math
 y_t+y_x+y_{xxx}+yy_x=0,\quad 0<x<L,\qquad y(t,0)=y(t,L)=y_x(t,L)=0,
-$$
+```
 
-do there exist $\delta,C,\alpha>0$ such that every solution with $\|y(0)\|_{L^2(0,L)}\le\delta$ satisfies
+do there exist $`\delta,C,\alpha>0`$ such that every solution with $`\|y(0)\|_{L^2(0,L)}\le\delta`$ satisfies
 
-$$
+```math
 \|y(t)\|_{L^2(0,L)}\le C(1+t)^{-\alpha}\qquad(t\ge0)?
-$$
+```
 
-Solutions are taken in the usual energy class $C([0,\infty);L^2)\cap L^2_{\mathrm{loc}}([0,\infty);H^1_0)$. This length has three undamped linear modes: the integer pairs $(7,7),(2,11),(11,2)$ satisfy $L=2\pi\sqrt{(k^2+k\ell+\ell^2)/3}$.
+Solutions are taken in the usual energy class $`C([0,\infty);L^2)\cap L^2_{\mathrm{loc}}([0,\infty);H^1_0)`$. This length has three undamped linear modes: the integer pairs $`(7,7),(2,11),(11,2)`$ satisfy $`L=2\pi\sqrt{(k^2+k\ell+\ell^2)/3}`$.
 
 ## Application
 

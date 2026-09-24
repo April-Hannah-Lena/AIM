@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Fix an integer $d\ge2$ and $p\in(1/2,1]$. Start with independent spins on $\mathbb Z^d$, equal to $+1$ with probability $p$. Every site has a rate-one Poisson clock; when it rings, set its spin to the strict majority among its $2d$ nearest neighbors, breaking a tie by an independent fair coin. Is it almost surely true that for every site $x$ there is a finite random time $T_x$ such that $\sigma_t(x)=+1$ for all $t\ge T_x$? The conclusion concerns eventual fixation at each site, without a uniform fixation time over the infinite lattice.
+Fix an integer $`d\ge2`$ and $`p\in(1/2,1]`$. Start with independent spins on $`\mathbb Z^d`$, equal to $`+1`$ with probability $`p`$. Every site has a rate-one Poisson clock; when it rings, set its spin to the strict majority among its $`2d`$ nearest neighbors, breaking a tie by an independent fair coin. Is it almost surely true that for every site $`x`$ there is a finite random time $`T_x`$ such that $`\sigma_t(x)=+1`$ for all $`t\ge T_x`$? The conclusion concerns eventual fixation at each site, without a uniform fixation time over the infinite lattice.
 
 ## Application
 

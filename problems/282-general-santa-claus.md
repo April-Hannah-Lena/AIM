@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Given $m$ agents, $n$ indivisible items and nonnegative rational values $v_{ij}$, partition the items into sets $A_1,\ldots,A_m$. Define $V(A)=\min_i\sum_{j\in A_i}v_{ij}$ and $V^*=\max_A V(A)$. Does an absolute $C<\infty$ and a polynomial-time algorithm exist that always produces $V(A)\ge V^*/C$? Polynomial time is measured in the binary encoding length; a randomized algorithm with success probability at least $2/3$ is allowed. Values are arbitrary, not restricted to a common item value or zero.
+Given $`m`$ agents, $`n`$ indivisible items and nonnegative rational values $`v_{ij}`$, partition the items into sets $`A_1,\ldots,A_m`$. Define $`V(A)=\min_i\sum_{j\in A_i}v_{ij}`$ and $`V^*=\max_A V(A)`$. Does an absolute $`C<\infty`$ and a polynomial-time algorithm exist that always produces $`V(A)\ge V^*/C`$? Polynomial time is measured in the binary encoding length; a randomized algorithm with success probability at least $`2/3`$ is allowed. Values are arbitrary, not restricted to a common item value or zero.
 
 ## Application
 

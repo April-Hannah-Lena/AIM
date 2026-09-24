@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $(M,g)$ be a closed connected oriented Riemannian surface, $s>2$, and $\phi$ an area-preserving $H^s$ diffeomorphism in the identity component. Is there a divergence-free $u_0\in H^s(TM)$ such that the Euler solution
+Let $`(M,g)`$ be a closed connected oriented Riemannian surface, $`s>2`$, and $`\phi`$ an area-preserving $`H^s`$ diffeomorphism in the identity component. Is there a divergence-free $`u_0\in H^s(TM)`$ such that the Euler solution
 
-$$
+```math
 \partial_tu+\nabla_u u=-\mathop{\mathrm{grad}}\nolimits p,\qquad \mathop{\mathrm{div}}\nolimits u=0
-$$
+```
 
-has particle map $\eta(1)=\phi$, where $\partial_t\eta(t,x)=u(t,\eta(t,x))$ and $\eta(0,x)=x$? The assertion is quantified over every such $M,s,\phi$.
+has particle map $`\eta(1)=\phi`$, where $`\partial_t\eta(t,x)=u(t,\eta(t,x))`$ and $`\eta(0,x)=x`$? The assertion is quantified over every such $`M,s,\phi`$.
 
 ## Application
 

@@ -8,21 +8,21 @@
 
 ## Problem statement
 
-For every compact convex body $K\subset\mathbb R^4$ with nonempty interior and $K=-K$, define its polar
+For every compact convex body $`K\subset\mathbb R^4`$ with nonempty interior and $`K=-K`$, define its polar
 
-$$
+```math
 K^\circ=\{y\in\mathbb R^4:\langle x,y\rangle\le1
 \text{ for all }x\in K\}.
-$$
+```
 
 Is
 
-$$
+```math
 \mathop{\mathrm{vol}}\nolimits_4(K)\mathop{\mathrm{vol}}\nolimits_4(K^\circ)
 \ge\frac{4^4}{4!}?
-$$
+```
 
-The conjectured bound is attained by the cube and its polar cross-polytope. No polytope, unconditional-symmetry, or smoothness restriction may be placed on $K$. Only the inequality, not a complete equality classification, is requested.
+The conjectured bound is attained by the cube and its polar cross-polytope. No polytope, unconditional-symmetry, or smoothness restriction may be placed on $`K`$. Only the inequality, not a complete equality classification, is requested.
 
 ## Application
 

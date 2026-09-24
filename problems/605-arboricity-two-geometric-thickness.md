@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Let $G$ be a finite simple graph whose edge set can be partitioned into two forests, equivalently a graph of arboricity at most $2$. Define its geometric thickness $\bar\theta(G)$ to be the smallest number of edge colors in a straight-line drawing with no same-color crossings. All colors share the same positions of the vertices; vertices are distinct and no edge passes through a nonincident vertex.
+Let $`G`$ be a finite simple graph whose edge set can be partitioned into two forests, equivalently a graph of arboricity at most $`2`$. Define its geometric thickness $`\bar\theta(G)`$ to be the smallest number of edge colors in a straight-line drawing with no same-color crossings. All colors share the same positions of the vertices; vertices are distinct and no edge passes through a nonincident vertex.
 
-Does there exist an absolute constant $C$ such that
+Does there exist an absolute constant $`C`$ such that
 
-$$
+```math
 \bar\theta(G)\le C
-$$
+```
 
-for every such graph $G$?
+for every such graph $`G`$?
 
 ## Application
 
@@ -29,4 +29,4 @@ A positive answer would give a constant number of crossing-free straight-line la
 
 ## Status review
 
-The known $O(\log |V(G)|)$ upper bound [2] grows with the graph size. Reference [1] obtains a constant bound for the proper subclass of $2$-degenerate graphs and explicitly leaves boundedness for arboricity-two graphs open. This question concerns the existence of any universal constant on the larger class, rather than the precise constant for that subclass. Searches found no matching resolution or duplicate.
+The known $`O(\log |V(G)|)`$ upper bound [2] grows with the graph size. Reference [1] obtains a constant bound for the proper subclass of $`2`$-degenerate graphs and explicitly leaves boundedness for arboricity-two graphs open. This question concerns the existence of any universal constant on the larger class, rather than the precise constant for that subclass. Searches found no matching resolution or duplicate.

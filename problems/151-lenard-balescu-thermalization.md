@@ -8,25 +8,25 @@
 
 ## Problem statement
 
-Fix $\beta>0$ and a smooth even potential $V$ on the unit torus $\mathbb T^3$ with nonnegative Fourier coefficients. Evolve particles $0,\ldots,N$ by $\dot X_j=V_j$, $\dot V_j=-N^{-1}\sum_{l\ne j}\nabla V(X_j-X_l)$. Initially particle $0$ has uniform position and velocity density $f^\circ\in C_c^\infty(\mathbb R^3)$; independently of particle $0$, the joint background density of particles $1,\ldots,N$ is proportional to
+Fix $`\beta>0`$ and a smooth even potential $`V`$ on the unit torus $`\mathbb T^3`$ with nonnegative Fourier coefficients. Evolve particles $`0,\ldots,N`$ by $`\dot X_j=V_j`$, $`\dot V_j=-N^{-1}\sum_{l\ne j}\nabla V(X_j-X_l)`$. Initially particle $`0`$ has uniform position and velocity density $`f^\circ\in C_c^\infty(\mathbb R^3)`$; independently of particle $`0`$, the joint background density of particles $`1,\ldots,N`$ is proportional to
 
-$$
+```math
 \exp\left[-\frac\beta2\sum_{j=1}^N|v_j|^2-\frac\beta{2N}\sum_{j\ne l}V(x_j-x_l)\right].
-$$
+```
 
-Must the velocity law $f_N(\tau)$ of particle $0$ at time $N\tau$ converge as $N\to\infty$, weakly and uniformly on compact $\tau$ intervals, to the solution of $\partial_\tau f=\mathop{\mathrm{div}}\nolimits_v(A(v)(\nabla_v f+\beta vf))$, $f(0)=f^\circ$? With $M(v)=(\beta/2\pi)^{3/2}e^{-\beta|v|^2/2}$, define
+Must the velocity law $`f_N(\tau)`$ of particle $`0`$ at time $`N\tau`$ converge as $`N\to\infty`$, weakly and uniformly on compact $`\tau`$ intervals, to the solution of $`\partial_\tau f=\mathop{\mathrm{div}}\nolimits_v(A(v)(\nabla_v f+\beta vf))`$, $`f(0)=f^\circ`$? With $`M(v)=(\beta/2\pi)^{3/2}e^{-\beta|v|^2/2}`$, define
 
-$$
+```math
 A(v)=\int_{\mathbb R^3}\sum_{k\in2\pi\mathbb Z^3\setminus\{0\}}\frac{\pi\widehat V(k)^2(k\otimes k)\delta(k\cdot(v-w))}{|\varepsilon(k,k\cdot v)|^2}M(w)\,dw,
-$$
+```
 
 
 
-$$
+```math
 \varepsilon(k,\omega)=1+\widehat V(k)\lim_{a\downarrow0}\int_{\mathbb R^3}\frac{k\cdot\nabla M(w)}{\omega-k\cdot w-ia}\,dw.
-$$
+```
 
-Uniform weak convergence means $\sup_{0\le\tau\le T}|\int\psi\,df_N(\tau)-\int\psi(v)f(\tau,v)\,dv|\to0$ for every $T<\infty$ and $\psi\in C_b(\mathbb R^3)$. Here $\widehat V(k)=\int_{\mathbb T^3}V(x)e^{-ik\cdot x}dx$ and $\delta$ is the one-dimensional Dirac distribution.
+Uniform weak convergence means $`\sup_{0\le\tau\le T}|\int\psi\,df_N(\tau)-\int\psi(v)f(\tau,v)\,dv|\to0`$ for every $`T<\infty`$ and $`\psi\in C_b(\mathbb R^3)`$. Here $`\widehat V(k)=\int_{\mathbb T^3}V(x)e^{-ik\cdot x}dx`$ and $`\delta`$ is the one-dimensional Dirac distribution.
 
 ## Application
 

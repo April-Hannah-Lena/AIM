@@ -6,27 +6,27 @@
 
 ## Problem statement
 
-Let $G_n$ be a random digraph on $[n]$, with every ordered edge $(i,j)$, $i\ne j$, present independently with probability $p_n$. Reciprocal edges are allowed. Assume
+Let $`G_n`$ be a random digraph on $`[n]`$, with every ordered edge $`(i,j)`$, $`i\ne j`$, present independently with probability $`p_n`$. Reciprocal edges are allowed. Assume
 
-$$
+```math
 np_n\longrightarrow\infty,\qquad n^{2/3}p_n\longrightarrow0.
-$$
+```
 
-Define the non-regular first path Betti number as follows. Over $\mathbb Q$, let $\Lambda_k$ be spanned by all vertex sequences $[v_0,\ldots,v_k]$, with the alternating deletion boundary $\partial$. Let $A_k$ be the span of sequences whose successive edges belong to $G_n$, and, for $k\ge1$, put
+Define the non-regular first path Betti number as follows. Over $`\mathbb Q`$, let $`\Lambda_k`$ be spanned by all vertex sequences $`[v_0,\ldots,v_k]`$, with the alternating deletion boundary $`\partial`$. Let $`A_k`$ be the span of sequences whose successive edges belong to $`G_n`$, and, for $`k\ge1`$, put
 
-$$
+```math
 \Omega_k=A_k\cap\partial^{-1}(A_{k-1}),\qquad
 B_n=\dim_{\mathbb Q}\frac{\ker(\partial:\Omega_1\to\Omega_0)}{\partial\Omega_2}.
-$$
+```
 
-Repeated vertices are permitted, and no terms with consecutive repetitions are discarded by the boundary. Here $\Omega_0=A_0$. This is the rank of the source's integer non-regular path homology.
+Repeated vertices are permitted, and no terms with consecutive repetitions are discarded by the boundary. Here $`\Omega_0=A_0`$. This is the rank of the source's integer non-regular path homology.
 
-Does every sequence $(p_n)$ satisfying the two conditions obey
+Does every sequence $`(p_n)`$ satisfying the two conditions obey
 
-$$
+```math
 \frac{B_n-\mathbb E B_n}{\sqrt{\mathop{\mathrm{Var}}\nolimits(B_n)}}
 \xrightarrow{\ d\ }\mathcal N(0,1)?
-$$
+```
 
 ## Application
 
@@ -38,4 +38,4 @@ A central limit theorem would support calibrated significance tests for path-hom
 
 ## Status review
 
-Conjecture B.2 explicitly proposes this limit in the stated density range. The source proves $\mathbb E B_n\sim n(n-1)p_n$ and concentration relative to this mean, but those results do not give a limit for fluctuations at the standard-deviation scale. Its numerical normality tests are evidence, not a proof. Current searches found no matching solution or announced proof.
+Conjecture B.2 explicitly proposes this limit in the stated density range. The source proves $`\mathbb E B_n\sim n(n-1)p_n`$ and concentration relative to this mean, but those results do not give a limit for fluctuations at the standard-deviation scale. Its numerical normality tests are evidence, not a proof. Current searches found no matching solution or announced proof.

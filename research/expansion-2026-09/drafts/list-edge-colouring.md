@@ -8,22 +8,22 @@
 
 ## Problem statement
 
-Let $G=(V,E)$ be a finite undirected multigraph with no loops and at least one edge. Parallel edges are allowed. A proper edge-colouring assigns a colour to each edge so that distinct edges sharing an endpoint receive different colours. Write $\chi'(G)$ for the smallest number of colours needed when every edge may use the same palette.
+Let $`G=(V,E)`$ be a finite undirected multigraph with no loops and at least one edge. Parallel edges are allowed. A proper edge-colouring assigns a colour to each edge so that distinct edges sharing an endpoint receive different colours. Write $`\chi'(G)`$ for the smallest number of colours needed when every edge may use the same palette.
 
-For each edge $e$, let $L(e)$ be an arbitrary finite set of permitted colours. Prove or disprove the **List Edge-Colouring Conjecture**: for every such $G$ and every list assignment satisfying
+For each edge $`e`$, let $`L(e)`$ be an arbitrary finite set of permitted colours. Prove or disprove the **List Edge-Colouring Conjecture**: for every such $`G`$ and every list assignment satisfying
 
-$$
+```math
 |L(e)|\geq\chi'(G)\qquad(e\in E),
-$$
+```
 
-there is a function $c:E\to\bigcup_{e\in E}L(e)$ such that
+there is a function $`c:E\to\bigcup_{e\in E}L(e)`$ such that
 
-$$
+```math
 c(e)\in L(e)\quad(e\in E),\qquad
 c(e)\ne c(f)\quad\text{whenever distinct edges }e,f\text{ share an endpoint}.
-$$
+```
 
-Equivalently, is $\chi'_\ell(G)=\chi'(G)$ for every finite loopless multigraph, where the list chromatic index $\chi'_\ell(G)$ is the smallest integer $k$ for which every assignment of lists of size at least $k$ permits a proper edge-colouring? The lower bound follows by taking identical lists on all edges. All lists are given in advance. The question asks for existence, without a running-time requirement. The empty-edge case is automatic and is omitted only to avoid a convention for its indices.
+Equivalently, is $`\chi'_\ell(G)=\chi'(G)`$ for every finite loopless multigraph, where the list chromatic index $`\chi'_\ell(G)`$ is the smallest integer $`k`$ for which every assignment of lists of size at least $`k`$ permits a proper edge-colouring? The lower bound follows by taking identical lists on all edges. All lists are given in advance. The question asks for existence, without a running-time requirement. The empty-edge case is automatic and is omitted only to avoid a convention for its indices.
 
 ## Applied significance
 
@@ -53,7 +53,7 @@ Schauz's prime-degree complete-graph theorem is restricted to that family. Jafar
 
 The online result of Blikstad and coauthors requires additional colours; Theorem A.1 specifies a positive slack term depending on degree and graph size. Narboni's theorem concerns Kempe transformations between ordinary colourings, without edge-specific list constraints. Neither supplies the asserted list-size guarantee.
 
-The separate adversarial review also checked Chang–Dolatabadi's September 9 distributed algorithm. Their Theorem 1 assumes lists of size at least $(3/2+\varepsilon)\Delta$ and, outside the bipartite case, sufficiently large maximum degree $\Delta$. Its communication-round guarantee does not remove this extra-colour requirement.
+The separate adversarial review also checked Chang–Dolatabadi's September 9 distributed algorithm. Their Theorem 1 assumes lists of size at least $`(3/2+\varepsilon)\Delta`$ and, outside the bipartite case, sufficiently large maximum degree $`\Delta`$. Its communication-round guarantee does not remove this extra-colour requirement.
 
 The September 18 review included current and unrestricted proof, disproof, counterexample, correction and version searches. Exact reading locations and comparisons are in the [evidence ledger](../candidates/list-edge-colouring.json). The arXiv version history, rather than a regenerated date printed inside its HTML, dates the Bonamy–Delcourt–Lang–Postle manuscript.
 

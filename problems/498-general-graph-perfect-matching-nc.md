@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $G=([n],E)$ be a finite simple undirected graph, where $[n]=\{1,\ldots,n\}$ and $n\ge2$. A **perfect matching** is a subset $M\subseteq E$ such that every vertex belongs to exactly one edge of $M$. The input consists of the $\binom n2$ adjacency bits, one for each unordered pair of vertices.
+Let $`G=([n],E)`$ be a finite simple undirected graph, where $`[n]=\{1,\ldots,n\}`$ and $`n\ge2`$. A **perfect matching** is a subset $`M\subseteq E`$ such that every vertex belongs to exactly one edge of $`M`$. The input consists of the $`\binom n2`$ adjacency bits, one for each unordered pair of vertices.
 
-Is there a deterministic algorithm in uniform $\mathrm{NC}$ that, on every such input, returns a perfect matching if one exists and correctly reports nonexistence otherwise? This is the general-graph search question stated by Svensson–Tarnawski and Anari–Vazirani. [1, 3]
+Is there a deterministic algorithm in uniform $`\mathrm{NC}`$ that, on every such input, returns a perfect matching if one exists and correctly reports nonexistence otherwise? This is the general-graph search question stated by Svensson–Tarnawski and Anari–Vazirani. [1, 3]
 
-More precisely, seek absolute constants $K,c,k>0$ and a logspace-uniform family of Boolean circuits $(C_n)_{n\ge2}$ satisfying
+More precisely, seek absolute constants $`K,c,k>0`$ and a logspace-uniform family of Boolean circuits $`(C_n)_{n\ge2}`$ satisfying
 
-$$
+```math
 \mathop{\mathrm{size}}\nolimits(C_n)\le K n^c,
 \qquad
 \mathop{\mathrm{depth}}\nolimits(C_n)\le K\bigl(\log_2(n+2)\bigr)^k.
-$$
+```
 
-The gates are fan-in-two AND and OR, NOT, and constants. The output contains a success bit and an edge-incidence vector. Success must hold exactly when a perfect matching exists; on success, the vector must encode one. Logspace uniformity means that one deterministic machine, given $1^n$, writes the description of $C_n$ using $O(\log n)$ work space. This fixes the usual effective circuit convention for $\mathrm{NC}$. [2, Definition 7.1]
+The gates are fan-in-two AND and OR, NOT, and constants. The output contains a success bit and an edge-incidence vector. Success must hold exactly when a perfect matching exists; on success, the vector must encode one. Logspace uniformity means that one deterministic machine, given $`1^n`$, writes the description of $`C_n`$ using $`O(\log n)`$ work space. This fixes the usual effective circuit convention for $`\mathrm{NC}`$. [2, Definition 7.1]
 
 The guarantee is worst-case and exact, over all input graphs. There is no bipartiteness, planarity, bounded-degree or uniqueness promise. A maximal matching, which cannot be enlarged by adding an edge, need not cover every vertex. Merely deciding whether a perfect matching exists is a related question; its equivalence to this search task is not assumed.
 
@@ -54,17 +54,17 @@ A positive answer would establish that this global coordination task can be perf
 
 Open in cited literature; no later resolution located as of 2026-09-19. The independent research formulation in [3] retains the general-graph search question. After the bipartite breakthrough, Kalai explicitly identifies construction for general graphs as a remaining problem [7]. His statement is dated June 2026; it is not a September status certificate. Current and unrestricted searches, revisions and possible indirect resolutions were checked on the date above.
 
-Svensson–Tarnawski obtain depth $O(\log^3 n)$ with $n^{O(\log^2 n)}$ processors [1]. The latter bound is quasipolynomial, not polynomial. Randomized and pseudodeterministic parallel algorithms also leave a randomness requirement [3].
+Svensson–Tarnawski obtain depth $`O(\log^3 n)`$ with $`n^{O(\log^2 n)}`$ processors [1]. The latter bound is quasipolynomial, not polynomial. Randomized and pseudodeterministic parallel algorithms also leave a randomness requirement [3].
 
-The July revision of [4] gives deterministic $\mathrm{NC}$ algorithms for bipartite matching, including polynomially bounded weights, and for linear matroid intersection. The independently authored criterion [5] also requires a bipartite graph. Those results do not supply the general-graph construction requested here.
+The July revision of [4] gives deterministic $`\mathrm{NC}`$ algorithms for bipartite matching, including polynomially bounded weights, and for linear matroid intersection. The independently authored criterion [5] also requires a bipartite graph. Those results do not supply the general-graph construction requested here.
 
 The noncommutative-rank result in [4] needs a further distinction. For a general graph's Tutte matrix, ordinary rank detects integral matching whereas noncommutative rank corresponds to fractional matching [6]. The two ranks already differ for a triangle. Thus replacing the former by the latter is not an indirect solution.
 
-Anari–Vazirani's reduction [3] assumes an oracle for deciding whether a perfect matching of **weight at most a supplied threshold** exists, with polynomially bounded integer edge weights. Their latest revision explicitly distinguishes that oracle from unweighted existence. Their Corollary 39 solves embedded graphs with genus $O(\log n)$, a restricted class.
+Anari–Vazirani's reduction [3] assumes an oracle for deciding whether a perfect matching of **weight at most a supplied threshold** exists, with polynomially bounded integer edge weights. Their latest revision explicitly distinguishes that oracle from unweighted existence. Their Corollary 39 solves embedded graphs with genus $`O(\log n)`$, a restricted class.
 
-The GPU implementation [8] allows up to $n$ breadth-first-search iterations per phase and uses randomized initialization. Its empirical speedups do not establish the required deterministic polylogarithmic bound. Its full manuscript was read after verified HTTPS downloads failed; that transport limitation is recorded.
+The GPU implementation [8] allows up to $`n`$ breadth-first-search iterations per phase and uses randomized initialization. Its empirical speedups do not establish the required deterministic polylogarithmic bound. Its full manuscript was read after verified HTTPS downloads failed; that transport limitation is recorded.
 
-The September 17 rank-approximation preprint [9] assumes fixed accuracy $\varepsilon>0$. Its polynomial-size guarantee depends on a fixed parameter $k=\lceil1/\varepsilon-1\rceil$; choosing accuracy depending on graph size to force exact rank is not covered. Hirai's same-week result [10] identifies the second blow-up with a fractional relaxation and bounds its gap. It does not identify that relaxation with integral matchings or provide the requested parallel construction.
+The September 17 rank-approximation preprint [9] assumes fixed accuracy $`\varepsilon>0`$. Its polynomial-size guarantee depends on a fixed parameter $`k=\lceil1/\varepsilon-1\rceil`$; choosing accuracy depending on graph size to force exact rank is not covered. Hirai's same-week result [10] identifies the second blow-up with a fractional relaxation and bounds its gap. It does not identify that relaxation with integral matchings or provide the requested parallel construction.
 
 The catalytic-logspace construction [11] does handle general graphs. Its model permits a polynomial-sized auxiliary tape that must be restored, and its time bound is polynomial. Those resource bounds do not give the polylogarithmic depth requested here; the paper separately identifies the parallel question as unresolved.
 

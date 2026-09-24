@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-On $\mathbb T^2=(\mathbb R/2\pi\mathbb Z)^2$, equipped with normalized Lebesgue measure $m$, consider the area-preserving standard map
+On $`\mathbb T^2=(\mathbb R/2\pi\mathbb Z)^2`$, equipped with normalized Lebesgue measure $`m`$, consider the area-preserving standard map
 
-$$
+```math
 T_K(x,y)=(x+y+K\sin x,\ y+K\sin x)\pmod {2\pi}.
-$$
+```
 
-Prove that there exists a real $K\ne0$ with positive Kolmogorov–Sinai entropy $h_m(T_K)>0$. Here
+Prove that there exists a real $`K\ne0`$ with positive Kolmogorov–Sinai entropy $`h_m(T_K)>0`$. Here
 
-$$
+```math
 h_m(T)=\sup_{\mathcal P}\lim_{n\to\infty}\frac1n
  H_m\!\left(\bigvee_{j=0}^{n-1}T^{-j}\mathcal P\right),
 \quad H_m(\mathcal P)=-\sum_{P\in\mathcal P}m(P)\log m(P),
-$$
+```
 
 and the supremum runs over finite measurable partitions.
 

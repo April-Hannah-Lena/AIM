@@ -8,25 +8,25 @@
 
 ## Problem statement
 
-Let $K\subset\mathbb R^n$ be a compact convex set with nonempty interior, and let $X$ be uniformly distributed on $K$. Write
+Let $`K\subset\mathbb R^n`$ be a compact convex set with nonempty interior, and let $`X`$ be uniformly distributed on $`K`$. Write
 
-$$
+```math
 c_K=\mathbb E X,\qquad A_K=\mathbb E[(X-c_K)(X-c_K)^T],\qquad L_K=\left(\frac{\det A_K}{\mathop{\mathrm{vol}}\nolimits_n(K)^2}\right)^{1/(2n)}.
-$$
+```
 
-The quantity $L_K$ is invariant under invertible affine transformations. For every $n\ge1$ and every such $K$, is
+The quantity $`L_K`$ is invariant under invertible affine transformations. For every $`n\ge1`$ and every such $`K`$, is
 
-$$
+```math
 L_K\le L_{\Delta_n}=\frac{(n!)^{1/n}}{(n+1)^{(n+1)/(2n)}\sqrt{n+2}},
-$$
+```
 
-where $\Delta_n$ is any nondegenerate $n$-simplex?
+where $`\Delta_n`$ is any nondegenerate $`n`$-simplex?
 
 This is the strong isotropic constant conjecture, stated in [1, equation (1.2)]. The target is the displayed sharp inequality. No additional uniqueness or stability assertion is imposed. Equivalently, it asks for the sharp upper bound
 
-$$
+```math
 \det A_K\le \frac{(n!)^2}{(n+1)^{n+1}(n+2)^n}\mathop{\mathrm{vol}}\nolimits_n(K)^2.
-$$
+```
 
 ## Application
 
@@ -42,6 +42,6 @@ For a uniform distribution on a convex region, the covariance determinant measur
 
 **Known cases:** The inequality holds in dimension one and in dimension two; [1, §1] attributes the planar result to Campi, Colesanti and Gronchi. There are also structural restrictions on possible higher-dimensional maximizers: [3] treats simplicial polytopes, and [1, Theorem 1.2] records the stronger conclusion that a polytopal local maximizer with a simplicial vertex must be a simplex. These statements do not show that every maximizer has such a vertex.
 
-**Remaining target:** Prove the sharp inequality for arbitrary convex bodies in every dimension $n\ge3$, or exhibit a counterexample. The universal, unspecified constant obtained in the solution of Bourgain's slicing problem does not identify the dimension-specific simplex value. The 2026 source [1] explicitly distinguishes the two questions after discussing that solution.
+**Remaining target:** Prove the sharp inequality for arbitrary convex bodies in every dimension $`n\ge3`$, or exhibit a counterexample. The universal, unspecified constant obtained in the solution of Bourgain's slicing problem does not identify the dimension-specific simplex value. The 2026 source [1] explicitly distinguishes the two questions after discussing that solution.
 
 The literature and announcement checks found no matching resolution through the date above. They included live arXiv version records, 2025–2026 follow-ups, GitHub- and Zenodo-indexed searches, and native Palomar queries. Native Zenodo access returned HTTP 403. Related catalogue problems on KLS, Mahler volume products and illumination have different targets.

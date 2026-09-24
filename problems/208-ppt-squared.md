@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Let $d\ge2$ and let $\Phi,\Psi:M_d(\mathbb C)\to M_d(\mathbb C)$ be completely positive trace-preserving maps. Assume that $T\circ\Phi$ and $T\circ\Psi$ are also completely positive, where $T$ is matrix transposition in a fixed basis. Complete positivity means that $\mathop{\mathrm{id}}\nolimits_r\otimes\Phi$ preserves positive semidefiniteness for every $r\ge1$, and similarly for the other maps.
+Let $`d\ge2`$ and let $`\Phi,\Psi:M_d(\mathbb C)\to M_d(\mathbb C)`$ be completely positive trace-preserving maps. Assume that $`T\circ\Phi`$ and $`T\circ\Psi`$ are also completely positive, where $`T`$ is matrix transposition in a fixed basis. Complete positivity means that $`\mathop{\mathrm{id}}\nolimits_r\otimes\Phi`$ preserves positive semidefiniteness for every $`r\ge1`$, and similarly for the other maps.
 
-Must $\Psi\circ\Phi$ be entanglement breaking? Explicitly, for every density operator $\rho$ on $\mathbb C^d\otimes\mathbb C^d$, must
+Must $`\Psi\circ\Phi`$ be entanglement breaking? Explicitly, for every density operator $`\rho`$ on $`\mathbb C^d\otimes\mathbb C^d`$, must
 
-$$
+```math
 (\mathop{\mathrm{id}}\nolimits_d\otimes(\Psi\circ\Phi))(\rho)=\sum_{j=1}^k p_j\alpha_j\otimes\beta_j
-$$
+```
 
-for some finite $k$, probabilities $p_j$, and density operators $\alpha_j,\beta_j$?
+for some finite $`k`$, probabilities $`p_j`$, and density operators $`\alpha_j,\beta_j`$?
 
 ## Application
 

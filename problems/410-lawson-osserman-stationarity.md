@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-Let $n\ge3$, $m\ge2$ and $u\in W^{1,\infty}(B_1\subset\mathbb R^n;\mathbb R^m)$. Put $g_{ij}=\delta_{ij}+\sum_{\alpha=1}^m\partial_i u^\alpha\partial_j u^\alpha$, and let $(g^{ij})=g^{-1}$. Suppose, distributionally,
+Let $`n\ge3`$, $`m\ge2`$ and $`u\in W^{1,\infty}(B_1\subset\mathbb R^n;\mathbb R^m)`$. Put $`g_{ij}=\delta_{ij}+\sum_{\alpha=1}^m\partial_i u^\alpha\partial_j u^\alpha`$, and let $`(g^{ij})=g^{-1}`$. Suppose, distributionally,
 
-$$
+```math
 \sum_{i,j=1}^n\partial_i\big(\sqrt{\det g}\,g^{ij}\partial_j u^\alpha\big)=0\qquad(1\le\alpha\le m).
-$$
+```
 
 Must the domain-variation equations also hold distributionally,
 
-$$
+```math
 \sum_{i=1}^n\partial_i\big(\sqrt{\det g}\,g^{ij}\big)=0\qquad(1\le j\le n)?
-$$
+```
 
 No small-slope or area-decreasing condition is imposed.
 

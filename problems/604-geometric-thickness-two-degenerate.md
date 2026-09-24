@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-A finite simple graph is $2$-degenerate if every nonempty subgraph has a vertex of degree at most $2$. Its geometric thickness $\bar\theta(G)$ is the least number of colors in an edge coloring of some straight-line drawing of $G$ in the plane such that no two edges of the same color cross. Vertices are distinct, no edge passes through a nonincident vertex, and every color uses the same vertex positions.
+A finite simple graph is $`2`$-degenerate if every nonempty subgraph has a vertex of degree at most $`2`$. Its geometric thickness $`\bar\theta(G)`$ is the least number of colors in an edge coloring of some straight-line drawing of $`G`$ in the plane such that no two edges of the same color cross. Vertices are distinct, no edge passes through a nonincident vertex, and every color uses the same vertex positions.
 
-Determine whether every $2$-degenerate graph satisfies
+Determine whether every $`2`$-degenerate graph satisfies
 
-$$
+```math
 \bar\theta(G)\le 3.
-$$
+```
 
-Equivalently, does a $2$-degenerate graph of geometric thickness $4$ exist? The maximum is already known to be either $3$ or $4$.
+Equivalently, does a $`2`$-degenerate graph of geometric thickness $`4`$ exist? The maximum is already known to be either $`3`$ or $`4`$.
 
 ## Application
 
@@ -28,4 +28,4 @@ Geometric thickness measures the number of crossing-free layers required for str
 
 ## Status review
 
-The source proves a universal upper bound of four, even with each color class a forest, and constructs graphs requiring at least three. Its special monotone subclass admits three layers; this does not settle all $2$-degenerate graphs. A 2026 result about simple topological thickness allows curved edges and does not settle geometric thickness. Current searches found no matching solution announcement or duplicate.
+The source proves a universal upper bound of four, even with each color class a forest, and constructs graphs requiring at least three. Its special monotone subclass admits three layers; this does not settle all $`2`$-degenerate graphs. A 2026 result about simple topological thickness allows curved edges and does not settle geometric thickness. Current searches found no matching solution announcement or duplicate.

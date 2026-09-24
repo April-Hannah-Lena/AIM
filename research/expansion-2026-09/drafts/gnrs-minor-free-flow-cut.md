@@ -10,44 +10,44 @@
 
 ## Problem statement
 
-A graph contains $H$ as a *minor* if a sequence of edge contractions and edge or vertex deletions produces $H$. Fix any finite simple graph $H$. Let $G=(V,E)$ range over finite connected undirected simple graphs that contain no $H$ minor. Give its edges arbitrary nonnegative lengths $\ell:E\to[0,\infty)$, and let $d_\ell(u,v)$ be shortest-path distance. Distinct vertices may have distance zero.
+A graph contains $`H`$ as a *minor* if a sequence of edge contractions and edge or vertex deletions produces $`H`$. Fix any finite simple graph $`H`$. Let $`G=(V,E)`$ range over finite connected undirected simple graphs that contain no $`H`$ minor. Give its edges arbitrary nonnegative lengths $`\ell:E\to[0,\infty)`$, and let $`d_\ell(u,v)`$ be shortest-path distance. Distinct vertices may have distance zero.
 
-Does there exist a finite constant $C_H\ge1$, depending only on $H$, such that for every such $(G,\ell)$ there are an integer $m\ge1$ and a map $f:V\to\mathbb R^m$ satisfying
+Does there exist a finite constant $`C_H\ge1`$, depending only on $`H`$, such that for every such $`(G,\ell)`$ there are an integer $`m\ge1`$ and a map $`f:V\to\mathbb R^m`$ satisfying
 
-$$
+```math
 d_\ell(u,v)\le\|f(u)-f(v)\|_1\le C_Hd_\ell(u,v)
 \qquad\text{for every }u,v\in V,
-$$
+```
 
-where $\|z\|_1=\sum_{j=1}^m|z_j|$? The dimension and map may depend on the weighted graph. The constant must be independent of its size and length assignment. Zero-distance vertices may share an image. This is the Gupta–Newman–Rabinovich–Sinclair (GNRS) conjecture. [1, 2]
+where $`\|z\|_1=\sum_{j=1}^m|z_j|`$? The dimension and map may depend on the weighted graph. The constant must be independent of its size and length assignment. Zero-distance vertices may share an image. This is the Gupta–Newman–Rabinovich–Sinclair (GNRS) conjecture. [1, 2]
 
-An equivalent formulation concerns fractional network routing. On such a supply graph $G$, choose finite nonnegative capacities $c_e$ and demands $D_{uv}$ for unordered pairs $\{u,v\}\in\binom{V}{2}$, with at least one positive demand. Let $\mathcal P_{uv}$ be the set of simple paths joining $u$ and $v$. Define $\lambda^*$ as the maximum $\lambda\ge0$ for which nonnegative real path weights $x_{uv,P}$ satisfy
+An equivalent formulation concerns fractional network routing. On such a supply graph $`G`$, choose finite nonnegative capacities $`c_e`$ and demands $`D_{uv}`$ for unordered pairs $`\{u,v\}\in\binom{V}{2}`$, with at least one positive demand. Let $`\mathcal P_{uv}`$ be the set of simple paths joining $`u`$ and $`v`$. Define $`\lambda^*`$ as the maximum $`\lambda\ge0`$ for which nonnegative real path weights $`x_{uv,P}`$ satisfy
 
-$$
+```math
 \begin{aligned}
 \sum_{P\in\mathcal P_{uv}}x_{uv,P}&\ge\lambda D_{uv}
 &&\text{for every }\{u,v\}\in\binom{V}{2},\\
 \sum_{\{u,v\}\in\binom{V}{2}}\ \sum_{\substack{P\in\mathcal P_{uv}\\e\in P}}x_{uv,P}&\le c_e
 &&\text{for every }e\in E.
 \end{aligned}
-$$
+```
 
-Thus every demand receives the same multiplier, and traffic may split across paths. For a vertex set $S$, let $\delta_G(S)$ be the edges with exactly one endpoint in $S$, and set
+Thus every demand receives the same multiplier, and traffic may split across paths. For a vertex set $`S`$, let $`\delta_G(S)`$ be the edges with exactly one endpoint in $`S`$, and set
 
-$$
+```math
 D(S)=\sum_{\substack{\{u,v\}\in\binom{V}{2}\\|\{u,v\}\cap S|=1}}D_{uv},
 \qquad
 \Phi=\min_{\substack{S\subseteq V\\D(S)>0}}
 \frac{\sum_{e\in\delta_G(S)}c_e}{D(S)}.
-$$
+```
 
 Every cut bounds the routable multiplier from above. The equivalent conjecture asks for
 
-$$
+```math
 \frac{\Phi}{C_H}\le\lambda^*\le\Phi
-$$
+```
 
-for every capacity and demand assignment. This formulation also covers $\Phi=0$ without dividing by $\lambda^*$. The demand pairs are arbitrary; only the supply graph excludes $H$. No integral or single-path routing is required. The equivalence holds after taking the worst case over length assignments and, respectively, capacity and demand assignments on the same graph. [1, Theorem 3.2; 2, Theorem 1.1; 3, §19.1]
+for every capacity and demand assignment. This formulation also covers $`\Phi=0`$ without dividing by $`\lambda^*`$. The demand pairs are arbitrary; only the supply graph excludes $`H`$. No integral or single-path routing is required. The equivalence holds after taking the worst case over length assignments and, respectively, capacity and demand assignments on the same graph. [1, Theorem 3.2; 2, Theorem 1.1; 3, §19.1]
 
 ## Applied significance
 
@@ -68,11 +68,11 @@ The associated sparsest-cut relaxation is used to find network partitions and an
 
 ## Status review
 
-The May 2026 notes [3] explicitly retain GNRS and its planar case as open. The independently authored July 2026 paper [6, §1.3] still reports a planar flow-cut gap between the lower bound $2$ and the upper bound $O(\sqrt{\log n})$, where $n=|V|$. The upper bound grows with graph size. A constant bound for all planar supply graphs with arbitrary demands remains unproved in these sources.
+The May 2026 notes [3] explicitly retain GNRS and its planar case as open. The independently authored July 2026 paper [6, §1.3] still reports a planar flow-cut gap between the lower bound $`2`$ and the upper bound $`O(\sqrt{\log n})`$, where $`n=|V|`$. The upper bound grows with graph size. A constant bound for all planar supply graphs with arbitrary demands remains unproved in these sources.
 
-The original paper settles restricted classes, including graphs of treewidth two. Its bound in terms of $|E|-|V|+1$ concerns cycle rank, not surface genus. Lee–Sidiropoulos settle classes excluding a fixed tree and reduce general GNRS to planar and clique-sum conjectures; the reduction does not prove those remaining statements. [1, 2]
+The original paper settles restricted classes, including graphs of treewidth two. Its bound in terms of $`|E|-|V|+1`$ concerns cycle rank, not surface genus. Lee–Sidiropoulos settle classes excluding a fixed tree and reduce general GNRS to planar and clique-sum conjectures; the reduction does not prove those remaining statements. [1, 2]
 
-Filtser's terminal embedding has distortion $O(\sqrt{\log(\gamma+1)})$, where $\gamma$ is the number of faces needed to cover the terminals in a fixed planar drawing; the extra one accommodates the separately solved single-face case. This is constant for bounded $\gamma$, but not for unrestricted terminal placement. Kumar's constant bound requires each demanded pair to share a face. Such a face may vary between pairs, but arbitrary pairs need not share any face. [4, 5]
+Filtser's terminal embedding has distortion $`O(\sqrt{\log(\gamma+1)})`$, where $`\gamma`$ is the number of faces needed to cover the terminals in a fixed planar drawing; the extra one accommodates the separately solved single-face case. This is constant for bounded $`\gamma`$, but not for unrestricted terminal placement. Kumar's constant bound requires each demanded pair to share a face. Such a face may vary between pairs, but arbitrary pairs need not share any face. [4, 5]
 
 The 2026 outerplanar result rounds an already feasible fractional flow while allowing additive capacity overflow. The September result requires a strongly uncrossed fractional flow for its congestion rounding, and obtains approximation results for pairwise-planar demand layouts; its integral flow–multicut comparison uses a different objective from concurrent flow versus sparsest cut. The new tree sparsifier has a polylogarithmic quality bound. None gives the general size-independent constant sought here. [6–8]
 

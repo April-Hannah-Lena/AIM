@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $X,U$ be Banach spaces, let $A$ generate a strongly continuous semigroup $S(t)$ on $X$, and let $X_{-1}$ be the completion of $X$ for the norm $\|x\|_{-1}=\|(\lambda-A)^{-1}x\|_X$, where $\lambda$ belongs to the resolvent set of $A$. Denote the extended semigroup by $S_{-1}$ and fix $B\in\mathcal L(U,X_{-1})$. Assume $L^\infty$-admissibility: for every $T>0$, there is $K_T<\infty$ such that for every strongly measurable $u\in L^\infty(0,T;U)$,
+Let $`X,U`$ be Banach spaces, let $`A`$ generate a strongly continuous semigroup $`S(t)`$ on $`X`$, and let $`X_{-1}`$ be the completion of $`X`$ for the norm $`\|x\|_{-1}=\|(\lambda-A)^{-1}x\|_X`$, where $`\lambda`$ belongs to the resolvent set of $`A`$. Denote the extended semigroup by $`S_{-1}`$ and fix $`B\in\mathcal L(U,X_{-1})`$. Assume $`L^\infty`$-admissibility: for every $`T>0`$, there is $`K_T<\infty`$ such that for every strongly measurable $`u\in L^\infty(0,T;U)`$,
 
-$$
+```math
 \Phi_Tu:=\int_0^T S_{-1}(T-s)Bu(s)\,ds\in X,\qquad \|\Phi_Tu\|_X\le K_T\|u\|_{L^\infty}.
-$$
+```
 
-Must $t\mapsto\int_0^t S_{-1}(t-s)Bu(s)\,ds$ be continuous from $[0,T]$ to $X$ for every such input and every $T>0$?
+Must $`t\mapsto\int_0^t S_{-1}(t-s)Bu(s)\,ds`$ be continuous from $`[0,T]`$ to $`X`$ for every such input and every $`T>0`$?
 
 ## Application
 

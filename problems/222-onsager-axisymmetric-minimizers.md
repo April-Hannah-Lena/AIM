@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-For $\kappa>0$ and probability densities $\rho\geq0$ on $\mathbb S^2$ with respect to surface area, define
+For $`\kappa>0`$ and probability densities $`\rho\geq0`$ on $`\mathbb S^2`$ with respect to surface area, define
 
-$$
+```math
 \mathcal F_\kappa(\rho)=\int_{\mathbb S^2}\rho\log\rho\,dS+\frac\kappa2\iint_{\mathbb S^2\times\mathbb S^2}\sqrt{1-(p\cdot q)^2}\,\rho(p)\rho(q)\,dS_p\,dS_q,
-$$
+```
 
-with $0\log0=0$ and value $+\infty$ when the entropy is infinite. Is every global minimizer, for every $\kappa>0$, axisymmetric: does there exist $e\in\mathbb S^2$ such that $\rho(Rp)=\rho(p)$ almost everywhere for every rotation $R$ fixing $e$?
+with $`0\log0=0`$ and value $`+\infty`$ when the entropy is infinite. Is every global minimizer, for every $`\kappa>0`$, axisymmetric: does there exist $`e\in\mathbb S^2`$ such that $`\rho(Rp)=\rho(p)`$ almost everywhere for every rotation $`R`$ fixing $`e`$?
 
 ## Application
 

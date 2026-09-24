@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^d$, $d\ge2$, be connected, unbounded, and uniformly $C^{2,\gamma}$ for some $0<\gamma<1$: its boundary has graph charts of a common positive radius with uniformly bounded $C^{2,\gamma}$ norms. Let $f\in C^{1,\gamma}([0,\infty))$ satisfy $f(0)=f(1)=0$, $f'(0)>0$, $f>0$ on $(0,1)$, $f<0$ on $(1,\infty)$, and $f(s)/s$ strictly decreasing on $(0,1]$. For each fixed $\beta\in[0,1)$, is there at most one bounded positive classical solution of
+Let $`\Omega\subset\mathbb R^d`$, $`d\ge2`$, be connected, unbounded, and uniformly $`C^{2,\gamma}`$ for some $`0<\gamma<1`$: its boundary has graph charts of a common positive radius with uniformly bounded $`C^{2,\gamma}`$ norms. Let $`f\in C^{1,\gamma}([0,\infty))`$ satisfy $`f(0)=f(1)=0`$, $`f'(0)>0`$, $`f>0`$ on $`(0,1)`$, $`f<0`$ on $`(1,\infty)`$, and $`f(s)/s`$ strictly decreasing on $`(0,1]`$. For each fixed $`\beta\in[0,1)`$, is there at most one bounded positive classical solution of
 
-$$
+```math
 -\Delta u=f(u)\quad\hbox{in }\Omega,\qquad \beta\partial_nu+(1-\beta)u=0\quad\hbox{on }\partial\Omega?
-$$
+```
 
-Here $n$ is the outward normal, and $\beta=0$ denotes Dirichlet boundary conditions. No periodicity or spectral-gap assumption at spatial infinity is made.
+Here $`n`$ is the outward normal, and $`\beta=0`$ denotes Dirichlet boundary conditions. No periodicity or spectral-gap assumption at spatial infinity is made.
 
 ## Application
 
@@ -29,4 +29,4 @@ The strong KPP condition expresses a decreasing per-capita growth rate. Uniquene
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-Checked on 22 September 2026 using strong-KPP uniqueness in arbitrary unbounded domains. The 2026 paper explicitly retains this question. The JEMS theorem establishes uniqueness when the linear growth rate avoids the closure of the domain's principal spectrum; irregular domains at the remaining spectral values are not covered. The 2026 bounded-Lipschitz-domain theorem resolves a different earlier conjecture and is excluded from this collection. Weak KPP nonlinearities can admit multiplicity, but strict decrease of $f(s)/s$ excludes those examples. No resolution of the unrestricted strong-KPP assertion was located.
+Checked on 22 September 2026 using strong-KPP uniqueness in arbitrary unbounded domains. The 2026 paper explicitly retains this question. The JEMS theorem establishes uniqueness when the linear growth rate avoids the closure of the domain's principal spectrum; irregular domains at the remaining spectral values are not covered. The 2026 bounded-Lipschitz-domain theorem resolves a different earlier conjecture and is excluded from this collection. Weak KPP nonlinearities can admit multiplicity, but strict decrease of $`f(s)/s`$ excludes those examples. No resolution of the unrestricted strong-KPP assertion was located.

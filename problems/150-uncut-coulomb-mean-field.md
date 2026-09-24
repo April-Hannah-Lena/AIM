@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $K(x)=x/|x|^3$ on $\mathbb R^3\setminus\{0\}$. Draw $N$ initial position–velocity pairs independently with a probability density $f_0\in C_c^\infty(\mathbb R^6)$, and evolve them by
+Let $`K(x)=x/|x|^3`$ on $`\mathbb R^3\setminus\{0\}`$. Draw $`N`$ initial position–velocity pairs independently with a probability density $`f_0\in C_c^\infty(\mathbb R^6)`$, and evolve them by
 
-$$
+```math
 \dot X_i=V_i,\qquad \dot V_i=\frac1N\sum_{j\ne i}K(X_i-X_j).
-$$
+```
 
-Let $f$ be the classical solution with initial datum $f_0$ of $\partial_t f+v\cdot\nabla_x f+(K*\rho_f)\cdot\nabla_v f=0$, where $\rho_f(x)=\int f(x,v)\,dv$. For every $T,\delta>0$, prove or disprove
+Let $`f`$ be the classical solution with initial datum $`f_0`$ of $`\partial_t f+v\cdot\nabla_x f+(K*\rho_f)\cdot\nabla_v f=0`$, where $`\rho_f(x)=\int f(x,v)\,dv`$. For every $`T,\delta>0`$, prove or disprove
 
-$$
+```math
 \mathbb P\left(\sup_{0\le t\le T}W_1\left(\frac1N\sum_{i=1}^N\delta_{(X_i(t),V_i(t))},f(t)\,dx\,dv\right)>\delta\right)\longrightarrow0.
-$$
+```
 
-Here $W_1$ is the infimum of the mean Euclidean distance over couplings of the two probability measures. No particle-size regularization or force cutoff is allowed.
+Here $`W_1`$ is the infimum of the mean Euclidean distance over couplings of the two probability measures. No particle-size regularization or force cutoff is allowed.
 
 ## Application
 
@@ -36,4 +36,4 @@ Collisionless plasma models replace individual charged-particle trajectories by 
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-Searches on 2026-09-08 for “uncut Coulomb mean field Vlasov Poisson 2026” and “Vlasov Poisson propagation chaos no cutoff solved” found regularized and conditional results. Lazarovici–Pickl use a cutoff of order $N^{-1/3+\epsilon}$. Neither that theorem nor the cited ionic limit proves the exact Newtonian particle statement above.
+Searches on 2026-09-08 for “uncut Coulomb mean field Vlasov Poisson 2026” and “Vlasov Poisson propagation chaos no cutoff solved” found regularized and conditional results. Lazarovici–Pickl use a cutoff of order $`N^{-1/3+\epsilon}`$. Neither that theorem nor the cited ionic limit proves the exact Newtonian particle statement above.

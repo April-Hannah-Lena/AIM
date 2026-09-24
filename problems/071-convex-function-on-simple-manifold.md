@@ -8,14 +8,14 @@
 
 ## Problem statement
 
-Let $(M,g)$ be a smooth compact Riemannian manifold of dimension $n\ge3$ with boundary. Assume it is simple: the boundary is strictly convex, and any two points are joined by a unique geodesic depending smoothly on its endpoints. Must there exist $\rho\in C^\infty(M;\mathbb R)$ and a constant $c>0$ such that
+Let $`(M,g)`$ be a smooth compact Riemannian manifold of dimension $`n\ge3`$ with boundary. Assume it is simple: the boundary is strictly convex, and any two points are joined by a unique geodesic depending smoothly on its endpoints. Must there exist $`\rho\in C^\infty(M;\mathbb R)`$ and a constant $`c>0`$ such that
 
-$$
+```math
 \mathop{\mathrm{Hess}}\nolimits_g\rho(x)(v,v)\ge c\,g_x(v,v)
 \qquad\text{for every }x\in M,\ v\in T_xM?
-$$
+```
 
-Here $\mathop{\mathrm{Hess}}\nolimits_g\rho(v,v)=g(\nabla_v\nabla\rho,v)$. No condition that $\rho$ be constant on the boundary is imposed.
+Here $`\mathop{\mathrm{Hess}}\nolimits_g\rho(v,v)=g(\nabla_v\nabla\rho,v)`$. No condition that $`\rho`$ be constant on the boundary is imposed.
 
 ## Application
 

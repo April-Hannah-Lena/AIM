@@ -8,14 +8,14 @@
 
 ## Problem statement
 
-For arbitrary real Schwartz data $u_0:\mathbb R^2\to\mathbb R^2$ and $\theta_0:\mathbb R^2\to\mathbb R$ with $\nabla\cdot u_0=0$, determine whether
+For arbitrary real Schwartz data $`u_0:\mathbb R^2\to\mathbb R^2`$ and $`\theta_0:\mathbb R^2\to\mathbb R`$ with $`\nabla\cdot u_0=0`$, determine whether
 
-$$
+```math
 u_t+(u\cdot\nabla)u+\nabla p=\theta e_2,\qquad
 \theta_t+u\cdot\nabla\theta=0,\qquad \nabla\cdot u=0
-$$
+```
 
-has a global smooth finite-energy solution. Here $e_2=(0,1)$, $(u,\theta)(0)=(u_0,\theta_0)$, and neither viscosity nor thermal diffusion is present. There is no external forcing beyond the displayed buoyancy coupling and no solid boundary. A finite-time singularity from these smooth data would resolve the question negatively.
+has a global smooth finite-energy solution. Here $`e_2=(0,1)`$, $`(u,\theta)(0)=(u_0,\theta_0)`$, and neither viscosity nor thermal diffusion is present. There is no external forcing beyond the displayed buoyancy coupling and no solid boundary. A finite-time singularity from these smooth data would resolve the question negatively.
 
 ## Application
 

@@ -8,11 +8,11 @@
 
 ## Problem statement
 
-Let $\gamma:[0,1]\to\mathbb R^3$ range over continuous rectifiable curves with $\gamma(0)=\gamma(1)$ and $\mathop{\mathrm{Length}}\nolimits(\gamma)=1$. Determine
+Let $`\gamma:[0,1]\to\mathbb R^3`$ range over continuous rectifiable curves with $`\gamma(0)=\gamma(1)`$ and $`\mathop{\mathrm{Length}}\nolimits(\gamma)=1`$. Determine
 
-$$
+```math
 V_* =\sup_\gamma\mathop{\mathrm{Vol}}\nolimits_3\bigl(\mathop{\mathrm{conv}}\nolimits(\gamma([0,1]))\bigr),
-$$
+```
 
 and characterize the maximizing curves up to rigid motion and reparametrization. Self-intersections are allowed; no symmetry or bound on the number of intersections with a plane is assumed.
 

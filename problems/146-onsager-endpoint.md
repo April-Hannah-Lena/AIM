@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $u\in C([0,T];C^{1/3}(\mathbb T^3;\mathbb R^3))$ solve, in distributions,
+Let $`u\in C([0,T];C^{1/3}(\mathbb T^3;\mathbb R^3))`$ solve, in distributions,
 
-$$
+```math
 \partial_tu+\nabla\!\cdot(u\otimes u)+\nabla p=0,\qquad \nabla\!\cdot u=0.
-$$
+```
 
-Here $C^{1/3}$ means that $\sup_{x\ne y}|u(x)-u(y)|/d(x,y)^{1/3}$ is finite. Must $E(t)=\tfrac12\int_{\mathbb T^3}|u(t,x)|^2\,dx$ be constant? Equivalently, decide whether an energy-changing weak Euler solution exists in this exact class.
+Here $`C^{1/3}`$ means that $`\sup_{x\ne y}|u(x)-u(y)|/d(x,y)^{1/3}`$ is finite. Must $`E(t)=\tfrac12\int_{\mathbb T^3}|u(t,x)|^2\,dx`$ be constant? Equivalently, decide whether an energy-changing weak Euler solution exists in this exact class.
 
 ## Application
 

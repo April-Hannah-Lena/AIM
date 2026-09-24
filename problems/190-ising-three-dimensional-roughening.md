@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-For $\beta>0$, consider the nearest-neighbor ferromagnetic Ising model on $\mathbb Z^3$ at zero field. Its Gibbs laws have, in every finite $\Lambda$, conditional probabilities proportional to
+For $`\beta>0`$, consider the nearest-neighbor ferromagnetic Ising model on $`\mathbb Z^3`$ at zero field. Its Gibbs laws have, in every finite $`\Lambda`$, conditional probabilities proportional to
 
-$$
+```math
 \exp\!\left(\beta\!\!\sum_{\{x,y\}:\ |x-y|_1=1,\ \{x,y\}\cap\Lambda\ne\varnothing}\sigma_x\sigma_y\right),\qquad \sigma_x\in\{-1,1\},
-$$
+```
 
-with the spins outside $\Lambda$ fixed. Let $\beta_c(3)=\inf\{\beta:\mu_\beta^+(\sigma_0)>0\}$, where $\mu_\beta^+$ is the limit with all-plus boundary condition.
+with the spins outside $`\Lambda`$ fixed. Let $`\beta_c(3)=\inf\{\beta:\mu_\beta^+(\sigma_0)>0\}`$, where $`\mu_\beta^+`$ is the limit with all-plus boundary condition.
 
-Does there exist $\beta_R>\beta_c(3)$ such that every Gibbs law is translation invariant for $\beta_c(3)<\beta<\beta_R$, while a Gibbs law that is not translation invariant exists for every $\beta>\beta_R$?
+Does there exist $`\beta_R>\beta_c(3)`$ such that every Gibbs law is translation invariant for $`\beta_c(3)<\beta<\beta_R`$, while a Gibbs law that is not translation invariant exists for every $`\beta>\beta_R`$?
 
 ## Application
 

@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Does there exist an integer $n\ge8$ and a real polynomial $P:\mathbb R^n\to\mathbb R$ of degree at least two satisfying the polynomial identity
+Does there exist an integer $`n\ge8`$ and a real polynomial $`P:\mathbb R^n\to\mathbb R`$ of degree at least two satisfying the polynomial identity
 
-$$
+```math
 \big(1+|\nabla P|^2\big)\Delta P-\sum_{i,j=1}^nP_{x_i}P_{x_j}P_{x_ix_j}=0?
-$$
+```
 
-Equivalently, the entire scalar graph $\{(x,P(x)):x\in\mathbb R^n\}$ must have zero mean curvature. The unknown is an exact polynomial solution, not a smooth solution bounded by a polynomial.
+Equivalently, the entire scalar graph $`\{(x,P(x)):x\in\mathbb R^n\}`$ must have zero mean curvature. The unknown is an exact polynomial solution, not a smooth solution bounded by a polynomial.
 
 ## Application
 

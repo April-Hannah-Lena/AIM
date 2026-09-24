@@ -7,19 +7,19 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-For each real $c\ne0$, let $\Omega=\{(x,y)\in\mathbb R^2:y>0\}$ and consider the Dirichlet realization
+For each real $`c\ne0`$, let $`\Omega=\{(x,y)\in\mathbb R^2:y>0\}`$ and consider the Dirichlet realization
 
-$$
+```math
 A_c=-\partial_x^2-\left(\partial_y-\frac{i x^2}{2}\right)^2+i c y
-$$
+```
 
-on $L^2(\Omega)$, with domain
+on $`L^2(\Omega)`$, with domain
 
-$$
+```math
 D(A_c)=H^1_0(\Omega)\cap\{u:A_cu\in L^2(\Omega)\},
-$$
+```
 
-where $A_cu$ is understood distributionally. Is $\sigma(A_c)\ne\varnothing$ for every $c\ne0$? The issue is the intermediate values of $|c|$, beyond the small- and large-parameter regimes.
+where $`A_cu`$ is understood distributionally. Is $`\sigma(A_c)\ne\varnothing`$ for every $`c\ne0`$? The issue is the intermediate values of $`|c|`$, beyond the small- and large-parameter regimes.
 
 ## Application
 
@@ -38,4 +38,4 @@ This operator arises in linear stability analysis of superconductivity with elec
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-Almog records nonempty spectrum for sufficiently small and sufficiently large $|c|$. Searches through the review date for this magnetic half-plane operator, Almog–Helffer–Pan spectral nonemptiness, and later complex Airy papers did not locate a proof for every nonzero $c$. Empty-spectrum results for the nonmagnetic complex Airy operator do not apply.
+Almog records nonempty spectrum for sufficiently small and sufficiently large $`|c|`$. Searches through the review date for this magnetic half-plane operator, Almog–Helffer–Pan spectral nonemptiness, and later complex Airy papers did not locate a proof for every nonzero $`c`$. Empty-spectrum results for the nonmagnetic complex Airy operator do not apply.

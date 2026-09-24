@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Give every nearest-neighbor edge of $\mathbb Z^3$ an independent uniform label in $(0,1)$. Form a random subgraph $F$ by retaining an edge exactly when it is not the largest-labeled edge of any finite simple cycle. This is the free minimal spanning forest. Is $F$ connected with probability one? Equivalently, does the infinite-volume minimum-cost forest consist of a single spanning tree?
+Give every nearest-neighbor edge of $`\mathbb Z^3`$ an independent uniform label in $`(0,1)`$. Form a random subgraph $`F`$ by retaining an edge exactly when it is not the largest-labeled edge of any finite simple cycle. This is the free minimal spanning forest. Is $`F`$ connected with probability one? Equivalently, does the infinite-volume minimum-cost forest consist of a single spanning tree?
 
 ## Application
 

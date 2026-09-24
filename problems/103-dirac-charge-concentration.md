@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $\sigma_1=\begin{pmatrix}0&1\\1&0\end{pmatrix}$, $\sigma_2=\begin{pmatrix}0&-i\\i&0\end{pmatrix}$, $\sigma_3=\mathop{\mathrm{diag}}\nolimits(1,-1)$ be the Pauli matrices, $\alpha_j=\begin{pmatrix}0&\sigma_j\\\sigma_j&0\end{pmatrix}$, and $\beta=\mathop{\mathrm{diag}}\nolimits(I_2,-I_2)$. Let $\mu$ be a nonnegative finite Borel measure on $\mathbb R^3$ with mass $\nu\in(0,1)$, and set
+Let $`\sigma_1=\begin{pmatrix}0&1\\1&0\end{pmatrix}`$, $`\sigma_2=\begin{pmatrix}0&-i\\i&0\end{pmatrix}`$, $`\sigma_3=\mathop{\mathrm{diag}}\nolimits(1,-1)`$ be the Pauli matrices, $`\alpha_j=\begin{pmatrix}0&\sigma_j\\\sigma_j&0\end{pmatrix}`$, and $`\beta=\mathop{\mathrm{diag}}\nolimits(I_2,-I_2)`$. Let $`\mu`$ be a nonnegative finite Borel measure on $`\mathbb R^3`$ with mass $`\nu\in(0,1)`$, and set
 
-$$
+```math
 D_\mu=-i\alpha\cdot\nabla+\beta-V_\mu,\qquad V_\mu(x)=\int\frac{d\mu(y)}{|x-y|}.
-$$
+```
 
 Define its first upper/lower-spinor min–max level by
 
-$$
+```math
 \lambda_1(\mu)=\inf_{0\ne\varphi\in C_c^\infty(\mathbb R^3;\mathbb C^2)}\ \sup_{\chi\in C_c^\infty(\mathbb R^3;\mathbb C^2)}\frac{\langle(\varphi,\chi),D_\mu(\varphi,\chi)\rangle}{\|\varphi\|_2^2+\|\chi\|_2^2}.
-$$
+```
 
-Prove or disprove $\lambda_1(\mu)\ge\sqrt{1-\nu^2}$. The right side is the gap eigenvalue for $\mu=\nu\delta_0$; the assertion also prevents this first level from diving into the negative continuum.
+Prove or disprove $`\lambda_1(\mu)\ge\sqrt{1-\nu^2}`$. The right side is the gap eigenvalue for $`\mu=\nu\delta_0`$; the assertion also prevents this first level from diving into the negative continuum.
 
 ## Application
 

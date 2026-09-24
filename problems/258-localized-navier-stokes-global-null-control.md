@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^3$ be a bounded connected smooth domain, $\varnothing\ne\omega\Subset\Omega$ an open set, and $T>0$. Let $H$ be the $L^2(\Omega)^3$ closure of smooth compactly supported divergence-free vector fields. For every $u_0\in H$, does there exist $f\in L^2(\omega\times(0,T))^3$ and a Leray–Hopf weak solution of
+Let $`\Omega\subset\mathbb R^3`$ be a bounded connected smooth domain, $`\varnothing\ne\omega\Subset\Omega`$ an open set, and $`T>0`$. Let $`H`$ be the $`L^2(\Omega)^3`$ closure of smooth compactly supported divergence-free vector fields. For every $`u_0\in H`$, does there exist $`f\in L^2(\omega\times(0,T))^3`$ and a Leray–Hopf weak solution of
 
-$$
+```math
 \partial_tu+(u\cdot\nabla)u-\Delta u+\nabla p=\mathbf1_\omega f,\qquad \nabla\cdot u=0,
-$$
+```
 
-with $u=0$ on $\partial\Omega$, $u(0)=u_0$, and $u(T)=0$? Here the solution must belong to $L^\infty(0,T;H)\cap L^2(0,T;H_0^1(\Omega)^3)$, be weakly continuous in $L^2$, and satisfy the usual energy inequality with forcing. No smallness bound is imposed on $u_0$.
+with $`u=0`$ on $`\partial\Omega`$, $`u(0)=u_0`$, and $`u(T)=0`$? Here the solution must belong to $`L^\infty(0,T;H)\cap L^2(0,T;H_0^1(\Omega)^3)`$, be weakly continuous in $`L^2`$, and satisfy the usual energy inequality with forcing. No smallness bound is imposed on $`u_0`$.
 
 ## Application
 

@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-For a real potential $V\in L^{5/2}(\mathbb R^3)$, define $H=-\Delta+V$ on $L^2(\mathbb R^3)$ by its quadratic form. Let $(E_j)$ be all its negative eigenvalues, with multiplicity, and $V_-(x)=\max\{-V(x),0\}$. Prove or disprove
+For a real potential $`V\in L^{5/2}(\mathbb R^3)`$, define $`H=-\Delta+V`$ on $`L^2(\mathbb R^3)`$ by its quadratic form. Let $`(E_j)`$ be all its negative eigenvalues, with multiplicity, and $`V_-(x)=\max\{-V(x),0\}`$. Prove or disprove
 
-$$
+```math
 \sum_j|E_j|\le\frac{1}{15\pi^2}\int_{\mathbb R^3}V_-(x)^{5/2}\,dx.
-$$
+```
 
-The proposed coefficient is the semiclassical phase-space constant $L^{\rm cl}_{1,3}$; it is already a necessary lower bound for any universal coefficient.
+The proposed coefficient is the semiclassical phase-space constant $`L^{\rm cl}_{1,3}`$; it is already a necessary lower bound for any universal coefficient.
 
 ## Application
 

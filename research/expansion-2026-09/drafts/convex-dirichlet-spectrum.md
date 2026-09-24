@@ -8,18 +8,18 @@
 
 ## Problem statement
 
-Let $\Omega_1,\Omega_2\subset\mathbb R^2$ be bounded open strictly convex domains with $C^\infty$ boundaries. Here strict convexity means that the open segment between any two distinct points of $\overline\Omega_i$ lies in $\Omega_i$. Write their Dirichlet eigenvalues, repeated according to multiplicity, as
+Let $`\Omega_1,\Omega_2\subset\mathbb R^2`$ be bounded open strictly convex domains with $`C^\infty`$ boundaries. Here strict convexity means that the open segment between any two distinct points of $`\overline\Omega_i`$ lies in $`\Omega_i`$. Write their Dirichlet eigenvalues, repeated according to multiplicity, as
 
-$$
+```math
 0<\lambda_1(\Omega_i)\le\lambda_2(\Omega_i)\le\cdots,
 \qquad -\Delta u=\lambda u\text{ in }\Omega_i,\quad u|_{\partial\Omega_i}=0.
-$$
+```
 
-If $\lambda_j(\Omega_1)=\lambda_j(\Omega_2)$ for every $j\ge1$, must there exist $Q\in O(2)$ and $a\in\mathbb R^2$ such that $\Omega_2=Q\Omega_1+a$? Reflections are allowed. This is the smooth strictly convex case of the planar inverse spectral question in Levitin–Mangoubi–Polterovich, Open Problem 6.2.26; no symmetry, analyticity, or proximity to a special shape is assumed.
+If $`\lambda_j(\Omega_1)=\lambda_j(\Omega_2)`$ for every $`j\ge1`$, must there exist $`Q\in O(2)`$ and $`a\in\mathbb R^2`$ such that $`\Omega_2=Q\Omega_1+a`$? Reflections are allowed. This is the smooth strictly convex case of the planar inverse spectral question in Levitin–Mangoubi–Polterovich, Open Problem 6.2.26; no symmetry, analyticity, or proximity to a special shape is assumed.
 
 ## Applied significance
 
-For a homogeneous membrane with fixed boundary, known tension and known mass density, the vibration frequencies are a known constant times $\sqrt{\lambda_j}$. This asks whether complete exact resonance measurements identify the membrane's convex shape. It is an ideal identifiability question underlying vibration-based shape inference; it does not assert reconstruction from finitely many noisy measurements.
+For a homogeneous membrane with fixed boundary, known tension and known mass density, the vibration frequencies are a known constant times $`\sqrt{\lambda_j}`$. This asks whether complete exact resonance measurements identify the membrane's convex shape. It is an ideal identifiability question underlying vibration-based shape inference; it does not assert reconstruction from finitely many noisy measurements.
 
 ## References
 
@@ -33,6 +33,6 @@ For a homogeneous membrane with fixed boundary, known tension and known mass den
 
 The source book explicitly records the convex planar question as open, and De Simoi–Kaloshin–Wei independently discuss the unresolved smooth convex inverse problem. Disks and sufficiently low-eccentricity ellipses are known special cases. Hezari–Zelditch also prove deformation rigidity within the axially symmetric near-circle class; Koval's theorem concerns domains close to an ellipse outside an exceptional set. Neither supplies uniqueness for an arbitrary pair in the stated class.
 
-The August 2026 Steklov construction gives strictly convex analytic noncongruent pairs, but concerns $\Delta u=0$ with $\partial_\nu u=\sigma u$ on the boundary. It does not produce equal Dirichlet spectra. Searches on September 17, 2026 covered convex drums, smooth planar isospectrality, spectral determination, proof and counterexample claims, and current versions. The source book's January 2025 erratum and addendum were also checked. The relevant full texts were accessible, with the large book downloaded for local reading. Search coverage cannot certify absence of a later result.
+The August 2026 Steklov construction gives strictly convex analytic noncongruent pairs, but concerns $`\Delta u=0`$ with $`\partial_\nu u=\sigma u`$ on the boundary. It does not produce equal Dirichlet spectra. Searches on September 17, 2026 covered convex drums, smooth planar isospectrality, spectral determination, proof and counterexample claims, and current versions. The source book's January 2025 erratum and addendum were also checked. The relevant full texts were accessible, with the large book downloaded for local reading. Search coverage cannot certify absence of a later result.
 
 A separated adversarial self-pass checked quantifiers, reflections, boundary conditions and overlap with existing entries, and corrected the book subsection locator. The complete source, scope, duplicate and review record is in the [evidence ledger](../candidates/convex-dirichlet-spectrum.json). This question differs from boundary-distance rigidity and from billiard-integrability classification already in the catalogue.

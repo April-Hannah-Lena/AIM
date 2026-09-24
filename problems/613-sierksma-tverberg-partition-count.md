@@ -8,23 +8,23 @@
 
 ## Problem statement
 
-Let $d\ge2$ and $r\ge3$ be integers, and let $X\subset\mathbb R^d$ consist of exactly $(d+1)(r-1)+1$ distinct points. A Tverberg partition is an unordered partition
+Let $`d\ge2`$ and $`r\ge3`$ be integers, and let $`X\subset\mathbb R^d`$ consist of exactly $`(d+1)(r-1)+1`$ distinct points. A Tverberg partition is an unordered partition
 
-$$
+```math
 X=X_1\sqcup\cdots\sqcup X_r
-$$
+```
 
 into nonempty sets such that
 
-$$
+```math
 \bigcap_{i=1}^r\mathop{\mathrm{conv}}\nolimits(X_i)\ne\varnothing.
-$$
+```
 
-Prove or disprove that every such $X$ has at least
+Prove or disprove that every such $`X`$ has at least
 
-$$
+```math
 ((r-1)!)^d
-$$
+```
 
 distinct Tverberg partitions. Partitions differing only by the order of their parts are counted once. The claim imposes no general-position assumption.
 
@@ -39,4 +39,4 @@ The bound would quantify the multiplicity of convex consensus partitions, streng
 
 ## Status review
 
-Configurations attaining the proposed count are known, so the unresolved assertion is the universal lower bound. Reference [2] gives a new proof only for $(d,r)=(2,3)$, a case already known by topological methods. The general conjecture remains explicitly stated in the September 2026 source [1]. Current searches found no general solution announcement or duplicate.
+Configurations attaining the proposed count are known, so the unresolved assertion is the universal lower bound. Reference [2] gives a new proof only for $`(d,r)=(2,3)`$, a case already known by topological methods. The general conjecture remains explicitly stated in the September 2026 source [1]. Current searches found no general solution announcement or duplicate.

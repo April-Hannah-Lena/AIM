@@ -8,20 +8,20 @@
 
 ## Problem statement
 
-Let $G=(V,E)$ be a finite undirected loopless multigraph with at least two vertices. Parallel edges are counted separately. For a nonempty proper set $S\subsetneq V$, write $\delta_G(S)$ for the edges with exactly one endpoint in $S$. For an integer $k\ge1$, call $G$ $k$-edge-connected if $|\delta_G(S)|\ge k$ for every such $S$.
+Let $`G=(V,E)`$ be a finite undirected loopless multigraph with at least two vertices. Parallel edges are counted separately. For a nonempty proper set $`S\subsetneq V`$, write $`\delta_G(S)`$ for the edges with exactly one endpoint in $`S`$. For an integer $`k\ge1`$, call $`G`$ $`k`$-edge-connected if $`|\delta_G(S)|\ge k`$ for every such $`S`$.
 
-Does there exist an absolute constant $C>0$ such that every $k$-edge-connected $G$, for every $k\ge1$, has a spanning tree $T\subseteq E$ satisfying
+Does there exist an absolute constant $`C>0`$ such that every $`k`$-edge-connected $`G`$, for every $`k\ge1`$, has a spanning tree $`T\subseteq E`$ satisfying
 
-$$
+```math
 |T\cap\delta_G(S)|\le\frac{C}{k}\,|\delta_G(S)|
 \qquad\text{for every }\varnothing\ne S\subsetneq V?
-$$
+```
 
-The same tree must satisfy every cut inequality, and $C$ must be independent of $k$, $G$ and $|V|$. Edges are unweighted. This is the strong thin-tree conjecture; the question requires existence, without an efficient construction or verification algorithm. Goddyn's weaker version permits an arbitrary thinness bound tending to zero with connectivity. It is included here as context, without a separate count or a claim of equivalence. [1, 2]
+The same tree must satisfy every cut inequality, and $`C`$ must be independent of $`k`$, $`G`$ and $`|V|`$. Edges are unweighted. This is the strong thin-tree conjecture; the question requires existence, without an efficient construction or verification algorithm. Goddyn's weaker version permits an arbitrary thinness bound tending to zero with connectivity. It is included here as context, without a separate count or a claim of equivalence. [1, 2]
 
 ## Application
 
-A spanning tree supplies a connected backbone in a communication or transport network. Thinness limits the fraction of available links that this backbone uses across every partition of the network. A positive answer would also guarantee that, when $k>C$, removing the tree leaves edge connectivity at least $k-C$: every remaining cut has at least $(1-C/k)|\delta_G(S)|$ edges. This connects the conjecture to preserving network redundancy while reserving a connected subnetwork. [1]
+A spanning tree supplies a connected backbone in a communication or transport network. Thinness limits the fraction of available links that this backbone uses across every partition of the network. A positive answer would also guarantee that, when $`k>C`$, removing the tree leaves edge connectivity at least $`k-C`$: every remaining cut has at least $`(1-C/k)|\delta_G(S)|`$ edges. This connects the conjecture to preserving network redundancy while reserving a connected subnetwork. [1]
 
 Thin trees also support rounding arguments for asymmetric routing. An existence theorem would provide a constant integrality bound for the directed traveling-salesman relaxation; a corresponding efficient construction would yield an approximation algorithm. Constant bounds for that routing problem already exist by other methods. This connection does not establish the sharp factor two asked for in [entry 315](315-asymmetric-tsp-integrality-gap.md). [1, 2]
 
@@ -37,9 +37,9 @@ Thin trees also support rounding arguments for asymmetric routing. An existence 
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-Open in cited literature; no later resolution located as of 2026-09-18. The July 2026 publication [1] explicitly retains the strong conjecture. The general bound in [2, Corollary 1.8] has a numerator polynomial in $\log\log |V|$, so it does not give the required absolute constant. Spectral thinness imposes inequalities for all real vectors and is stronger than the cut condition here; spectral counterexamples do not refute this statement.
+Open in cited literature; no later resolution located as of 2026-09-18. The July 2026 publication [1] explicitly retains the strong conjecture. The general bound in [2, Corollary 1.8] has a numerator polynomial in $`\log\log |V|`$, so it does not give the required absolute constant. Spectral thinness imposes inequalities for all real vectors and is stronger than the cut condition here; spectral counterexamples do not refute this statement.
 
-Theorem 1 of [1] finds one tree crossing each cut of size less than $41k/40$ in at most $88$ edges. Its Theorem 2 gives $66/k$ thinness for a prescribed laminar family, whose shores are pairwise nested or disjoint. Neither result controls all cuts simultaneously. The example in §1.1 defeats a particular laminar-selection strategy, not the conjecture.
+Theorem 1 of [1] finds one tree crossing each cut of size less than $`41k/40`$ in at most $`88`$ edges. Its Theorem 2 gives $`66/k`$ thinness for a prescribed laminar family, whose shores are pairwise nested or disjoint. Neither result controls all cuts simultaneously. The example in §1.1 defeats a particular laminar-selection strategy, not the conjecture.
 
 The certification results [4] restrict the cuts under examination or allow a different tree for each cut. The verification-hardness claim [3] concerns a supplied tree and does not disprove existence. The matching counterexample [5] uses a fractional perfect-matching model with degree-one constraints, a different feasible class from connected spanning trees.
 

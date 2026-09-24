@@ -8,21 +8,21 @@
 
 ## Problem statement
 
-Let $p$ be a prime and let $S\subseteq\mathbb F_p^3$ contain exactly $p^2$ points. Suppose every affine plane $H\subseteq\mathbb F_p^3$ satisfies
+Let $`p`$ be a prime and let $`S\subseteq\mathbb F_p^3`$ contain exactly $`p^2`$ points. Suppose every affine plane $`H\subseteq\mathbb F_p^3`$ satisfies
 
-$$
+```math
 |S\cap H|\equiv0\pmod p.
-$$
+```
 
-Must $S$ be the union of $p$ distinct parallel affine lines?
+Must $`S`$ be the union of $`p`$ distinct parallel affine lines?
 
-Equivalently, must there exist $v\in\mathbb F_p^3\setminus\{0\}$ and $a_1,\ldots,a_p\in\mathbb F_p^3$ such that
+Equivalently, must there exist $`v\in\mathbb F_p^3\setminus\{0\}`$ and $`a_1,\ldots,a_p\in\mathbb F_p^3`$ such that
 
-$$
+```math
 S=\bigsqcup_{j=1}^{p}\bigl(a_j+\mathbb F_pv\bigr)?
-$$
+```
 
-This is Ball's strong cylinder conjecture. The condition concerns sets without repeated points, and $p$ must be prime.
+This is Ball's strong cylinder conjecture. The condition concerns sets without repeated points, and $`p`$ must be prime.
 
 ## Application
 
@@ -35,7 +35,7 @@ Point configurations over finite fields encode linear codes through generator ma
 
 ## Status review
 
-**Known cases:** The conjecture holds for primes $p\leq7$. A qualifying set containing a complete affine line is also known to be a cylinder. Reference [2] proves that every qualifying set's characteristic function is an integer linear combination of characteristic functions of cylinders.
+**Known cases:** The conjecture holds for primes $`p\leq7`$. A qualifying set containing a complete affine line is also known to be a cylinder. Reference [2] proves that every qualifying set's characteristic function is an integer linear combination of characteristic functions of cylinders.
 
 **Remaining target:** Show that every qualifying set is itself one cylinder. A signed integer combination of cylinder indicators does not establish this. Counterexamples over non-prime fields concern a broader statement.
 

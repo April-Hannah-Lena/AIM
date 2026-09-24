@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $\Omega,\Delta\subset\mathbb R^2$ be bounded domains, $1\le p<\infty$, $a>0$, and $f:\Omega\to\Delta$ an orientation-preserving Sobolev homeomorphism with $J_f=\det Df>0$ almost everywhere and
+Let $`\Omega,\Delta\subset\mathbb R^2`$ be bounded domains, $`1\le p<\infty`$, $`a>0`$, and $`f:\Omega\to\Delta`$ an orientation-preserving Sobolev homeomorphism with $`J_f=\det Df>0`$ almost everywhere and
 
-$$
+```math
 E(f)=\int_\Omega\left(|Df|^p+J_f^{-a}\right)\,dx<\infty.
-$$
+```
 
-Must there exist orientation-preserving smooth diffeomorphisms $f_j:\Omega\to\Delta$ with $f_j\to f$ strongly in $W^{1,p}(\Omega)$ and $E(f_j)\to E(f)$? The question is quantified over all these choices.
+Must there exist orientation-preserving smooth diffeomorphisms $`f_j:\Omega\to\Delta`$ with $`f_j\to f`$ strongly in $`W^{1,p}(\Omega)`$ and $`E(f_j)\to E(f)`$? The question is quantified over all these choices.
 
 ## Application
 
@@ -22,7 +22,7 @@ The determinant penalty models the energetic cost of compressing material into v
 
 ## References
 
-1. Stanislav Hencl, *Ball–Evans approximation problem: recent progress and open problems* (2025). [Paper](https://arxiv.org/abs/2502.01336). §2, Open problem 4, functional $E_1$, is the explicit source formulation.
+1. Stanislav Hencl, *Ball–Evans approximation problem: recent progress and open problems* (2025). [Paper](https://arxiv.org/abs/2502.01336). §2, Open problem 4, functional $`E_1`$, is the explicit source formulation.
 
 2. Tadeusz Iwaniec, Leonid Kovalev and Jani Onninen, *Diffeomorphic Approximation of Sobolev Homeomorphisms* (2011), main theorem. [Paper](https://arxiv.org/abs/1009.0286). Establishes the unweighted planar approximation used for comparison.
 

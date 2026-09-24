@@ -7,17 +7,17 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-For every $u_0\in L^2(\mathbb R^2)$, consider
+For every $`u_0\in L^2(\mathbb R^2)`$, consider
 
-$$
+```math
 i\partial_tu+\partial_x^2u-\partial_y^2u+|u|^2u=0,\qquad u(0)=u_0.
-$$
+```
 
-Does its unique local solution extend to $u\in C(\mathbb R;L^2)\cap L^4_{\mathrm{loc}}(\mathbb R\times\mathbb R^2)$, depend continuously on $u_0$ on compact time intervals, and admit $u_\pm\in L^2$ satisfying
+Does its unique local solution extend to $`u\in C(\mathbb R;L^2)\cap L^4_{\mathrm{loc}}(\mathbb R\times\mathbb R^2)`$, depend continuously on $`u_0`$ on compact time intervals, and admit $`u_\pm\in L^2`$ satisfying
 
-$$
+```math
 \lim_{t\to\pm\infty}\|u(t)-e^{it(\partial_x^2-\partial_y^2)}u_\pm\|_{L^2}=0?
-$$
+```
 
 Uniqueness is in the displayed local spacetime class. This is the scalar hyperbolic equation; no additional nonlocal Davey–Stewartson term is present.
 

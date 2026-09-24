@@ -8,24 +8,24 @@
 
 ## Problem statement
 
-A finite matroid is a pair $M=(E,\mathcal I)$, where $E$ is a finite set and $\mathcal I\subseteq 2^E$ contains $\varnothing$, is closed under taking subsets, and satisfies augmentation: if $I,J\in\mathcal I$ and $|I|<|J|$, some $x\in J\setminus I$ has $I\cup\{x\}\in\mathcal I$. Sets in $\mathcal I$ are called independent. [1, 2]
+A finite matroid is a pair $`M=(E,\mathcal I)`$, where $`E`$ is a finite set and $`\mathcal I\subseteq 2^E`$ contains $`\varnothing`$, is closed under taking subsets, and satisfies augmentation: if $`I,J\in\mathcal I`$ and $`|I|<|J|`$, some $`x\in J\setminus I`$ has $`I\cup\{x\}\in\mathcal I`$. Sets in $`\mathcal I`$ are called independent. [1, 2]
 
-The algorithm knows $E$ and the matroid before arrivals, and may test independence of any subset. An adversary fixes nonnegative weights $w:E\to[0,\infty)$, hidden from the algorithm. The labeled elements then arrive in a uniformly random permutation $\pi$, independent of the weights. On seeing $x$, the algorithm learns $w(x)$ and must immediately accept or reject it. Decisions are irrevocable, and the accepted set must always belong to $\mathcal I$. [1–3]
+The algorithm knows $`E`$ and the matroid before arrivals, and may test independence of any subset. An adversary fixes nonnegative weights $`w:E\to[0,\infty)`$, hidden from the algorithm. The labeled elements then arrive in a uniformly random permutation $`\pi`$, independent of the weights. On seeing $`x`$, the algorithm learns $`w(x)`$ and must immediately accept or reject it. Decisions are irrevocable, and the accepted set must always belong to $`\mathcal I`$. [1–3]
 
 Define
 
-$$
+```math
 \mathop{\mathrm{OPT}}\nolimits(M,w)=\max_{I\in\mathcal I}\sum_{x\in I}w(x).
-$$
+```
 
-Does every finite matroid $M$ admit a randomized online policy $A_M$, chosen without knowing $w$, such that for every $w$,
+Does every finite matroid $`M`$ admit a randomized online policy $`A_M`$, chosen without knowing $`w`$, such that for every $`w`$,
 
-$$
+```math
 \mathbb E_{\pi,A_M}\!\left[\sum_{x\in A_M(M,w,\pi)}w(x)\right]
 \ge \frac{1}{e}\mathop{\mathrm{OPT}}\nolimits(M,w)?
-$$
+```
 
-Here $e$ is Euler's number. The expectation includes the arrival order and the policy's randomness. This is the strong matroid secretary conjecture in its usual expected-weight form. No polynomial running-time bound is imposed. Numerical values of arrived elements are allowed; requiring only comparisons, or requiring each element of a fixed optimal basis to be selected with probability at least $1/e$, would strengthen the requirement. [1, 2]
+Here $`e`$ is Euler's number. The expectation includes the arrival order and the policy's randomness. This is the strong matroid secretary conjecture in its usual expected-weight form. No polynomial running-time bound is imposed. Numerical values of arrived elements are allowed; requiring only comparisons, or requiring each element of a fixed optimal basis to be selected with probability at least $`1/e`$, would strengthen the requirement. [1, 2]
 
 ## Applied significance
 
@@ -45,9 +45,9 @@ The remaining general question is foundational. Recent claims cover linear matro
 
 ## Status review
 
-The explicit strong conjecture in [1, 2] is retained in September 2026 sources [3, 4]. Singla's Theorem 3.1 claims expected reward at least $\mathop{\mathrm{OPT}}\nolimits/4$ for arbitrary matroids, and §4 expressly leaves the factor $e$ open. Its suggested factor near $3.16$ is labeled unverified by the author and would still fall short. This catalogue does not count the weaker constant-factor question separately.
+The explicit strong conjecture in [1, 2] is retained in September 2026 sources [3, 4]. Singla's Theorem 3.1 claims expected reward at least $`\mathop{\mathrm{OPT}}\nolimits/4`$ for arbitrary matroids, and §4 expressly leaves the factor $`e`$ open. Its suggested factor near $`3.16`$ is labeled unverified by the author and would still fall short. This catalogue does not count the weaker constant-factor question separately.
 
-Theorem 1.2 of [4] claims the $1/e$ guarantee for linear matroids using finite, potentially expensive computation. Its general-matroid guarantee is $1/64$. Theorem 1.3 concerns a prophet model with independent value samples; its $1/2$ guarantee does not transfer unchanged to this input model. The truncation counterexample in Appendix B refutes monotonicity in rank, not the $1/e$ conjecture. These recent preprints are reported as claims; their proofs have not been independently certified here.
+Theorem 1.2 of [4] claims the $`1/e`$ guarantee for linear matroids using finite, potentially expensive computation. Its general-matroid guarantee is $`1/64`$. Theorem 1.3 concerns a prophet model with independent value samples; its $`1/2`$ guarantee does not transfer unchanged to this input model. The truncation counterexample in Appendix B refutes monotonicity in rank, not the $`1/e`$ conjecture. These recent preprints are reported as claims; their proofs have not been independently certified here.
 
 The concurrent paper [7] extends its claim to known matroids admitting a finitary modular extension. Its §4 explains that this assumption is not universal, giving the Vámos matroid as an example outside the covered class. The extension theorem therefore does not settle the stated general question.
 

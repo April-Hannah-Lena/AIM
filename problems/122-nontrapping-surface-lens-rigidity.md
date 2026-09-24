@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Let $M$ be a compact connected smooth surface with boundary. Let $g_1,g_2$ be smooth metrics inducing the same metric on $\partial M$, with strictly convex boundaries, such that every maximal unit-speed geodesic exits $M$ in finite forward and backward time. Conjugate points are allowed.
+Let $`M`$ be a compact connected smooth surface with boundary. Let $`g_1,g_2`$ be smooth metrics inducing the same metric on $`\partial M`$, with strictly convex boundaries, such that every maximal unit-speed geodesic exits $`M`$ in finite forward and backward time. Conjugate points are allowed.
 
-For an inward unit vector $v$ at the boundary, let $\tau_g(v)$ be its first exit time and $S_g(v)$ its exit point and exit unit vector. Identify the incoming and outgoing boundary unit vectors using their tangential components and the inward or outward normal. Does
+For an inward unit vector $`v`$ at the boundary, let $`\tau_g(v)`$ be its first exit time and $`S_g(v)`$ its exit point and exit unit vector. Identify the incoming and outgoing boundary unit vectors using their tangential components and the inward or outward normal. Does
 
-$$
+```math
 (\tau_{g_1},S_{g_1})=(\tau_{g_2},S_{g_2})
-$$
+```
 
-imply $g_1=F^*g_2$ for a smooth diffeomorphism $F:M\to M$ fixing the boundary pointwise?
+imply $`g_1=F^*g_2`$ for a smooth diffeomorphism $`F:M\to M`$ fixing the boundary pointwise?
 
 ## Application
 

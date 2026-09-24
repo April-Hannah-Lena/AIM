@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Do there exist $a>0$, $b<0$, delay $d>0$, reset and firing voltages $V_R<V_F$, and a period $T>0$, for which
+Do there exist $`a>0`$, $`b<0`$, delay $`d>0`$, reset and firing voltages $`V_R<V_F`$, and a period $`T>0`$, for which
 
-$$
+```math
 \partial_t p+\partial_v\bigl[(-v+bN(t-d))p\bigr]-a\partial_{vv}p=N(t)\delta_{V_R},\quad v<V_F,
-$$
+```
 
 
 
-$$
+```math
 p(t,V_F)=0,\qquad N(t)=-a\partial_v p(t,V_F),\qquad\int_{-\infty}^{V_F}p(t,v)\,dv=1
-$$
+```
 
-has a nonnegative $T$-periodic solution with nonconstant firing rate $N$? Require $p$ to be continuous in $v$, classical away from $V_R$, with the derivative jump prescribed by the displayed distributional equation, vanishing probability flux at $-\infty$, and uniformly finite second voltage moment. Both $p$ and $N$ are defined for all real times so the delayed term is unambiguous.
+has a nonnegative $`T`$-periodic solution with nonconstant firing rate $`N`$? Require $`p`$ to be continuous in $`v`$, classical away from $`V_R`$, with the derivative jump prescribed by the displayed distributional equation, vanishing probability flux at $`-\infty`$, and uniformly finite second voltage moment. Both $`p`$ and $`N`$ are defined for all real times so the delayed term is unambiguous.
 
 ## Application
 

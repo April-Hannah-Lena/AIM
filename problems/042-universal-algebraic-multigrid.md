@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Let $M\in\mathbb R^{n\times n}$ be symmetric, $M_{ij}\le0$ for $i\ne j$, and $M_{ii}\ge\sum_{j\ne i}|M_{ij}|$. Require every row with equality to be connected, through nonzero off-diagonal entries, to a row with strict inequality. For a fixed positive integer $c$, assume $|M_{ij}|\le n^c$ and $n^cM_{ij}\in\mathbb Z$. These conditions make $M$ positive definite.
+Let $`M\in\mathbb R^{n\times n}`$ be symmetric, $`M_{ij}\le0`$ for $`i\ne j`$, and $`M_{ii}\ge\sum_{j\ne i}|M_{ij}|`$. Require every row with equality to be connected, through nonzero off-diagonal entries, to a row with strict inequality. For a fixed positive integer $`c`$, assume $`|M_{ij}|\le n^c`$ and $`n^cM_{ij}\in\mathbb Z`$. These conditions make $`M`$ positive definite.
 
-Construct an algebraic multigrid algorithm, with explicitly specified smoothing, interpolation and coarse-grid operators, whose setup takes $\widetilde O(\mathop{\mathrm{nnz}}\nolimits M)$ operations and whose symmetric approximate-inverse action $z\mapsto Zz$ takes $O(\mathop{\mathrm{nnz}}\nolimits M)$ operations, with
+Construct an algebraic multigrid algorithm, with explicitly specified smoothing, interpolation and coarse-grid operators, whose setup takes $`\widetilde O(\mathop{\mathrm{nnz}}\nolimits M)`$ operations and whose symmetric approximate-inverse action $`z\mapsto Zz`$ takes $`O(\mathop{\mathrm{nnz}}\nolimits M)`$ operations, with
 
-$$
+```math
 aM^{-1}\preceq Z\preceq bM^{-1}
-$$
+```
 
-for constants $0<a\le b<\infty$ independent of $n$ and $M$. Here $\preceq$ is the positive-semidefinite order, $\mathop{\mathrm{nnz}}\nolimits$ counts nonzeros and $\widetilde O$ suppresses logarithms in $n$; constants may depend on fixed $c$.
+for constants $`0<a\le b<\infty`$ independent of $`n`$ and $`M`$. Here $`\preceq`$ is the positive-semidefinite order, $`\mathop{\mathrm{nnz}}\nolimits`$ counts nonzeros and $`\widetilde O`$ suppresses logarithms in $`n`$; constants may depend on fixed $`c`$.
 
 ## Application
 

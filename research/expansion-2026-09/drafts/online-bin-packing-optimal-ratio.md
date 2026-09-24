@@ -8,28 +8,28 @@
 
 ## Problem statement
 
-An input is any finite sequence $I=(s_1,\ldots,s_n)$ of rational item sizes $0<s_i\le1$. Items arrive one at a time, and the length $n$ is not announced. An algorithm must assign each arriving item to a bin before seeing the next item. Every bin has capacity $1$: the sum of its assigned sizes must never exceed $1$. Assignments are irrevocable, and arbitrarily many bins are available.
+An input is any finite sequence $`I=(s_1,\ldots,s_n)`$ of rational item sizes $`0<s_i\le1`$. Items arrive one at a time, and the length $`n`$ is not announced. An algorithm must assign each arriving item to a bin before seeing the next item. Every bin has capacity $`1`$: the sum of its assigned sizes must never exceed $`1`$. Assignments are irrevocable, and arbitrarily many bins are available.
 
-For a deterministic online algorithm $A$, let $A(I)$ be the number of nonempty bins it uses. Let $\mathop{\mathrm{OPT}}\nolimits(I)$ be the minimum number of bins achievable with the entire sequence known in advance. Define
+For a deterministic online algorithm $`A`$, let $`A(I)`$ be the number of nonempty bins it uses. Let $`\mathop{\mathrm{OPT}}\nolimits(I)`$ be the minimum number of bins achievable with the entire sequence known in advance. Define
 
-$$
+```math
 R_\infty(A)=\lim_{N\to\infty}
 \sup_{\substack{I:\ \mathop{\mathrm{OPT}}\nolimits(I)\ge N}}
 \frac{A(I)}{\mathop{\mathrm{OPT}}\nolimits(I)},
 \qquad
 R_*=\inf_A R_\infty(A).
-$$
+```
 
-Determine the exact value of $R_*$. The infimum ranges over single deterministic online algorithms with no advice, predictions or advance information about the input, and with no restriction on their computation time or number of available bins. This is the classical adversarial-input problem; no probability distribution or random arrival order is imposed.
+Determine the exact value of $`R_*`$. The infimum ranges over single deterministic online algorithms with no advice, predictions or advance information about the input, and with no restriction on their computation time or number of available bins. This is the classical adversarial-input problem; no probability distribution or random arrival order is imposed.
 
 The lower-bound and algorithmic results cited below give
 
-$$
+```math
 \frac{1363-\sqrt{1387369}}{120}
 \ \le R_*\ \le 1.57828956,
-$$
+```
 
-with the lower endpoint approximately $1.5427809065$. The task is to determine the optimum over all algorithms, rather than the performance of a particular heuristic. The definition does not assume that an algorithm attains the infimum. It also differs from the absolute competitive ratio, which takes a supremum over inputs of every size without the large-$\mathop{\mathrm{OPT}}\nolimits$ limit.
+with the lower endpoint approximately $`1.5427809065`$. The task is to determine the optimum over all algorithms, rather than the performance of a particular heuristic. The definition does not assume that an algorithm attains the infimum. It also differs from the absolute competitive ratio, which takes a supremum over inputs of every size without the large-$`\mathop{\mathrm{OPT}}\nolimits`$ limit.
 
 ## Applied significance
 
@@ -48,7 +48,7 @@ The model isolates the capacity loss caused by irreversible decisions when futur
 
 The 2025 Gehnen–Usdenski introduction reports the same unresolved classical lower/upper gap; Herrmann–Pallez's June 2026 revision explicitly distinguishes the canonical open problem from improvements to empirical heuristics on specified input distributions. Epstein–Levin's WADS 2025 paper also retains the interval. The bounds above come from full theorem statements in the original manuscripts. Their complete proofs and computer-assisted upper-bound calculations were not independently certified.
 
-Several nearby results require care. The optimal absolute ratio $5/3$ does not determine $R_*$. Ayyadevara–Dabas–Khan–Sreenivas, ICALP 2022, Theorem 1 and Corollary 2, give near-optimal expected guarantees for independent identically distributed inputs. Gehnen–Usdenski's $3/2$ guarantee requires advance estimates of every item. Fekete and coauthors evaluate the best of several parallel packings, rather than one irrevocable packing. Chen–Ye–Zhang's competitive scheme approaches an optimal ratio in its finite integer-size model without determining the exact unrestricted constant. The resolved cardinality-constrained problem imposes an additional item-count limit per bin. These statements do not close the classical gap.
+Several nearby results require care. The optimal absolute ratio $`5/3`$ does not determine $`R_*`$. Ayyadevara–Dabas–Khan–Sreenivas, ICALP 2022, Theorem 1 and Corollary 2, give near-optimal expected guarantees for independent identically distributed inputs. Gehnen–Usdenski's $`3/2`$ guarantee requires advance estimates of every item. Fekete and coauthors evaluate the best of several parallel packings, rather than one irrevocable packing. Chen–Ye–Zhang's competitive scheme approaches an optimal ratio in its finite integer-size model without determining the exact unrestricted constant. The resolved cardinality-constrained problem imposes an additional item-count limit per bin. These statements do not close the classical gap.
 
 Searches on September 17, 2026 covered asymptotic/absolute performance, classic online packing, current bounds, original and later authors, proof and counterexample claims, corrections and withdrawals, 2025–2026 and unrestricted dates. Full scope comparisons, independent corroboration and access limits are recorded in the [candidate ledger](../candidates/online-bin-packing-optimal-ratio.json). The dated review is not a certificate that no unindexed result exists.
 

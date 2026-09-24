@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^2$ be open and $m\in L^\infty(\Omega;\mathbb R^2)$ satisfy $|m|=1$ almost everywhere and $\mathop{\mathrm{div}}\nolimits m=0$ in distributions. Call $\Phi\in C^{1,1}(S^1;\mathbb R^2)$ an entropy if
+Let $`\Omega\subset\mathbb R^2`$ be open and $`m\in L^\infty(\Omega;\mathbb R^2)`$ satisfy $`|m|=1`$ almost everywhere and $`\mathop{\mathrm{div}}\nolimits m=0`$ in distributions. Call $`\Phi\in C^{1,1}(S^1;\mathbb R^2)`$ an entropy if
 
-$$
+```math
 \frac{d}{d\theta}\Phi(e^{i\theta})\cdot e^{i\theta}=0.
-$$
+```
 
-Assume every $\mu_\Phi=\mathop{\mathrm{div}}\nolimits\Phi(m)$ is a locally finite signed Radon measure. Must $|\mu_\Phi|(\Omega\setminus J_m)=0$ for every entropy? Here $J_m$ is the approximate jump set: at each of its points $m$ has two distinct constant limiting values in mean on the two half-balls determined by some line through that point. The assertion says all entropy production lies on these one-dimensional interfaces.
+Assume every $`\mu_\Phi=\mathop{\mathrm{div}}\nolimits\Phi(m)`$ is a locally finite signed Radon measure. Must $`|\mu_\Phi|(\Omega\setminus J_m)=0`$ for every entropy? Here $`J_m`$ is the approximate jump set: at each of its points $`m`$ has two distinct constant limiting values in mean on the two half-balls determined by some line through that point. The assertion says all entropy production lies on these one-dimensional interfaces.
 
 ## Application
 
@@ -30,4 +30,4 @@ Entropy measures encode the limiting interfacial energy in the Aviles–Giga mod
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-The 2026 article leaves the critical case open. Its Theorem 1.1 proves concentration with additional Besov regularity $B^{1/p}_{p,\infty}$, $p<3$, for odd entropies plus constants (class $\widetilde{\mathrm{ENT}}$ in equation (1.4)). Searches for “eikonal entropy production rectifiability conjecture 2026” and the exact Lamy–Marconi title located no unconditional result. This entry concerns concentration, not identification of the entire Aviles–Giga $\Gamma$-limit.
+The 2026 article leaves the critical case open. Its Theorem 1.1 proves concentration with additional Besov regularity $`B^{1/p}_{p,\infty}`$, $`p<3`$, for odd entropies plus constants (class $`\widetilde{\mathrm{ENT}}`$ in equation (1.4)). Searches for “eikonal entropy production rectifiability conjecture 2026” and the exact Lamy–Marconi title located no unconditional result. This entry concerns concentration, not identification of the entire Aviles–Giga $`\Gamma`$-limit.

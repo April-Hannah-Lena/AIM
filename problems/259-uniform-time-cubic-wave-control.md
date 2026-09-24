@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^3$ be bounded and smooth, and let $\omega\subset\Omega$ be open. Assume the geometric control condition: for some $T_0<\infty$, every unit-speed generalized ray of the Dirichlet wave equation meets $\omega$ within time $T_0$.
+Let $`\Omega\subset\mathbb R^3`$ be bounded and smooth, and let $`\omega\subset\Omega`$ be open. Assume the geometric control condition: for some $`T_0<\infty`$, every unit-speed generalized ray of the Dirichlet wave equation meets $`\omega`$ within time $`T_0`$.
 
-Is there a time $T_*=T_*(\Omega,\omega)$ such that every two states in $H_0^1(\Omega)\times L^2(\Omega)$ can be joined in time $T_*$ by an energy-class solution of
+Is there a time $`T_*=T_*(\Omega,\omega)`$ such that every two states in $`H_0^1(\Omega)\times L^2(\Omega)`$ can be joined in time $`T_*`$ by an energy-class solution of
 
-$$
+```math
 u_{tt}-\Delta u+u^3=\mathbf1_\omega f,\qquad u|_{\partial\Omega}=0,
-$$
+```
 
-using $f\in L^2(\omega\times(0,T_*))$? Energy class means $(u,u_t)\in C([0,T_*];H_0^1\times L^2)$. The time may depend on the geometry but must be independent of the sizes of both endpoint states.
+using $`f\in L^2(\omega\times(0,T_*))`$? Energy class means $`(u,u_t)\in C([0,T_*];H_0^1\times L^2)`$. The time may depend on the geometry but must be independent of the sizes of both endpoint states.
 
 ## Application
 

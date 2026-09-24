@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-Fix a nonzero, nonnegative, radial potential $V\in C_c^\infty(\mathbb R^3)$. Let $\Lambda_L=(\mathbb R/L\mathbb Z)^3$ and $V_L(x)=\sum_{k\in\mathbb Z^3}V(x+Lk)$. On symmetric $L^2(\Lambda_L^N)$ define
+Fix a nonzero, nonnegative, radial potential $`V\in C_c^\infty(\mathbb R^3)`$. Let $`\Lambda_L=(\mathbb R/L\mathbb Z)^3`$ and $`V_L(x)=\sum_{k\in\mathbb Z^3}V(x+Lk)`$. On symmetric $`L^2(\Lambda_L^N)`$ define
 
-$$
+```math
 H_{N,L}=\sum_{j=1}^N-\Delta_{x_j}+\sum_{i<j}V_L(x_i-x_j).
-$$
+```
 
-Let $\Psi_{N,L}$ be its normalized nonnegative ground state, let $\gamma_{N,L}^{(1)}$ be its one-particle reduced density operator normalized to trace $N$, and put $\phi_L=L^{-3/2}$. Prove or disprove: there is $\rho_0(V)>0$ such that every fixed $0<\rho<\rho_0(V)$ satisfies
+Let $`\Psi_{N,L}`$ be its normalized nonnegative ground state, let $`\gamma_{N,L}^{(1)}`$ be its one-particle reduced density operator normalized to trace $`N`$, and put $`\phi_L=L^{-3/2}`$. Prove or disprove: there is $`\rho_0(V)>0`$ such that every fixed $`0<\rho<\rho_0(V)`$ satisfies
 
-$$
+```math
 \liminf_{\substack{L\to\infty,\ N\to\infty\\N/L^3\to\rho}}\frac{\langle\phi_L,\gamma_{N,L}^{(1)}\phi_L\rangle}{N}>0.
-$$
+```
 
 The potential and the density remain fixed during the thermodynamic limit.
 

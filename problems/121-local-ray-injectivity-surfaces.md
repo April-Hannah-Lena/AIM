@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $(M,g)$ be a smooth Riemannian surface with boundary, strictly convex at $p\in\partial M$. Is there a sufficiently small neighborhood $U$ of $p$ with the following property? For every $f\in C^\infty(\overline U\cap M)$, if
+Let $`(M,g)`$ be a smooth Riemannian surface with boundary, strictly convex at $`p\in\partial M`$. Is there a sufficiently small neighborhood $`U`$ of $`p`$ with the following property? For every $`f\in C^\infty(\overline U\cap M)`$, if
 
-$$
+```math
 \int_\gamma f\,ds_g=0
-$$
+```
 
-for every geodesic segment $\gamma$ lying in $U\cap M$ whose two endpoints lie on $U\cap\partial M$, then $f$ vanishes in some neighborhood of $p$ in $M$.
+for every geodesic segment $`\gamma`$ lying in $`U\cap M`$ whose two endpoints lie on $`U\cap\partial M`$, then $`f`$ vanishes in some neighborhood of $`p`$ in $`M`$.
 
 Only rays remaining in the small boundary neighborhood are available. The metric is smooth, without an analyticity assumption.
 

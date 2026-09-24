@@ -8,31 +8,31 @@
 
 ## Problem statement
 
-For positive integers $n,s$, let $\mathcal D_{n,s}$ be the Boolean functions on $\{0,1\}^n$ representable as a disjunction of at most $s$ terms. Each term is a conjunction of literals, and a literal is either a coordinate $x_j$ or its negation $1-x_j$. Term lengths, overlaps and signs are unrestricted.
+For positive integers $`n,s`$, let $`\mathcal D_{n,s}`$ be the Boolean functions on $`\{0,1\}^n`$ representable as a disjunction of at most $`s`$ terms. Each term is a conjunction of literals, and a literal is either a coordinate $`x_j`$ or its negation $`1-x_j`$. Term lengths, overlaps and signs are unrestricted.
 
-Does there exist a classical randomized algorithm $A$ and a polynomial $p$ with the following property? For every $n,s$, every unknown $f\in\mathcal D_{n,s}$, and every $\varepsilon,\delta\in(0,1/2)$, the algorithm is given $n,s,\varepsilon,\delta$ and access only to independent labeled examples
+Does there exist a classical randomized algorithm $`A`$ and a polynomial $`p`$ with the following property? For every $`n,s`$, every unknown $`f\in\mathcal D_{n,s}`$, and every $`\varepsilon,\delta\in(0,1/2)`$, the algorithm is given $`n,s,\varepsilon,\delta`$ and access only to independent labeled examples
 
-$$
+```math
 (X,f(X)),\qquad X\sim\mathop{\mathrm{Unif}}\nolimits(\{0,1\}^n).
-$$
+```
 
 Within time at most
 
-$$
+```math
 p\!\left(n,s,\varepsilon^{-1},\log(1/\delta)\right),
-$$
+```
 
-it outputs a description of a Boolean function $h:\{0,1\}^n\to\{0,1\}$ satisfying
+it outputs a description of a Boolean function $`h:\{0,1\}^n\to\{0,1\}`$ satisfying
 
-$$
+```math
 \Pr_{\text{training examples and algorithm}}\!
 \left[
 \Pr_{X\sim\mathop{\mathrm{Unif}}\nolimits(\{0,1\}^n)}
 \{h(X)\ne f(X)\}\le\varepsilon
 \right]\ge1-\delta?
-$$
+```
 
-The inner probability uses a fresh input. Reading examples and all preprocessing count toward the runtime; evaluating the resulting hypothesis on any input must also take polynomial time in the same parameters. The algorithm receives a size bound, not a formula for $f$. It may output a hypothesis outside the DNF class. Neither chosen label queries nor quantum examples are available. This is the noiseless, examples-only uniform-distribution PAC-learning question. [1–3]
+The inner probability uses a fresh input. Reading examples and all preprocessing count toward the runtime; evaluating the resulting hypothesis on any input must also take polynomial time in the same parameters. The algorithm receives a size bound, not a formula for $`f`$. It may output a hypothesis outside the DNF class. Neither chosen label queries nor quantum examples are available. This is the noiseless, examples-only uniform-distribution PAC-learning question. [1–3]
 
 ## Application
 
@@ -54,7 +54,7 @@ DNFs express rules in which any of several combinations of binary features can t
 
 Open in cited literature; no later resolution located as of 2026-09-18. Source [1, §1.2] explicitly poses the uniform examples-only gap. Independent sources [5, §1] and [7, §5.5] distinguish it from efficient learning with additional access. The September 18 review searched names, mathematical and oracle wording, recent work, author pages, versions, corrections and proof/counterexample claims.
 
-The general examples-only bound recalled in [3, §1.1] has runtime $n^{O(\log(s/\varepsilon))}$, with confidence amplification. The 2026 distribution-shift result [6] also retains quasipolynomial dependence for DNFs. Setting its training and test distributions equal and treating abstentions as errors does not turn its displayed runtime into a polynomial.
+The general examples-only bound recalled in [3, §1.1] has runtime $`n^{O(\log(s/\varepsilon))}`$, with confidence amplification. The 2026 distribution-shift result [6] also retains quasipolynomial dependence for DNFs. Setting its training and test distributions equal and treating abstentions as errors does not turn its displayed runtime into a polynomial.
 
 The polynomial algorithms in [2, 4] use membership queries; [5] uses coherent quantum examples. The numerical similarity queries in [1] supply information beyond ordinary labels. Smoothed-distribution learning in [2] succeeds with high probability over a random perturbation of the input law; that guarantee does not include every fixed law, such as the uniform one. The new local-mixing algorithms in [3] use queries and remain quasipolynomial; their full learning theorem also assumes equal term lengths.
 

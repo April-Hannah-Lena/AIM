@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $G$ be the Cayley graph of an infinite finitely generated group with a finite symmetric generating set. Assume simple random walk on $G$ is transient. For $p>p_c(G)$ retain each edge independently with probability $p$, where $p_c(G)$ is the infimum of parameters giving an infinite open component with positive probability. Must simple random walk on every infinite open component be transient, almost surely? Transience means that a walk starting at any vertex returns to it only finitely often almost surely.
+Let $`G`$ be the Cayley graph of an infinite finitely generated group with a finite symmetric generating set. Assume simple random walk on $`G`$ is transient. For $`p>p_c(G)`$ retain each edge independently with probability $`p`$, where $`p_c(G)`$ is the infimum of parameters giving an infinite open component with positive probability. Must simple random walk on every infinite open component be transient, almost surely? Transience means that a walk starting at any vertex returns to it only finitely often almost surely.
 
 ## Application
 

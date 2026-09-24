@@ -8,20 +8,20 @@
 
 ## Problem statement
 
-For $0\le p\le1/3$, let
+For $`0\le p\le1/3`$, let
 
-$$
+```math
 \mathcal D_p(\rho)=(1-3p)\rho+p(X\rho X+Y\rho Y+Z\rho Z),
-$$
+```
 
-where $X,Y,Z$ are the Pauli matrices. Determine the unassisted quantum capacity $Q(\mathcal D_p)$ throughout this interval. A precise characterization is
+where $`X,Y,Z`$ are the Pauli matrices. Determine the unassisted quantum capacity $`Q(\mathcal D_p)`$ throughout this interval. A precise characterization is
 
-$$
+```math
 Q(\mathcal D_p)=\sup_{k\ge1}\frac1k\max_{\rho_k}
 \left[S(\mathcal D_p^{\otimes k}(\rho_k))-S((\mathcal D_p^c)^{\otimes k}(\rho_k))\right],
-$$
+```
 
-where $\rho_k$ ranges over $k$-qubit density matrices, $S(\rho)=-\mathop{\mathrm{tr}}\nolimits(\rho\log_2\rho)$ and $\mathcal D_p^c$ is any complementary channel from an isometric dilation. The objective is an exact capacity formula, including the boundary between positive and zero capacity.
+where $`\rho_k`$ ranges over $`k`$-qubit density matrices, $`S(\rho)=-\mathop{\mathrm{tr}}\nolimits(\rho\log_2\rho)`$ and $`\mathcal D_p^c`$ is any complementary channel from an isometric dilation. The objective is an exact capacity formula, including the boundary between positive and zero capacity.
 
 ## Application
 

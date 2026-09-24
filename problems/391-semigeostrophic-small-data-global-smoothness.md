@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-On $\mathbb T^2=\mathbb R^2/\mathbb Z^2$, consider
+On $`\mathbb T^2=\mathbb R^2/\mathbb Z^2`$, consider
 
-$$
+```math
 \partial_t\rho+\nabla\!\cdot(\rho U)=0,\qquad U=J(x-\nabla P^*),\qquad \det D^2P^*=\rho,
-$$
+```
 
-where $J(a,b)=(-b,a)$, $P^*(t,x)-|x|^2/2$ is periodic with mean zero, and $P^*(t,\cdot)$ is convex. Does there exist an integer $k\ge2$ and $\varepsilon>0$ such that every $\rho_0\in C^\infty(\mathbb T^2)$ with $\rho_0>0$, $\int\rho_0=1$ and $\|\rho_0-1\|_{C^k}<\varepsilon$ produces a smooth solution for all $t\ge0$? Smoothness is required on every finite time interval, with $D^2P^*$ positive definite; no uniform-in-time bound is required.
+where $`J(a,b)=(-b,a)`$, $`P^*(t,x)-|x|^2/2`$ is periodic with mean zero, and $`P^*(t,\cdot)`$ is convex. Does there exist an integer $`k\ge2`$ and $`\varepsilon>0`$ such that every $`\rho_0\in C^\infty(\mathbb T^2)`$ with $`\rho_0>0`$, $`\int\rho_0=1`$ and $`\|\rho_0-1\|_{C^k}<\varepsilon`$ produces a smooth solution for all $`t\ge0`$? Smoothness is required on every finite time interval, with $`D^2P^*`$ positive definite; no uniform-in-time bound is required.
 
 ## Application
 

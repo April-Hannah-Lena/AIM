@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Consider a finite embedded planar network moving by curvature, with only $120^\circ$ triple junctions and fixed endpoints on the boundary of a smooth strictly convex domain. At an interior singular point $(x_0,T)$, set
+Consider a finite embedded planar network moving by curvature, with only $`120^\circ`$ triple junctions and fixed endpoints on the boundary of a smooth strictly convex domain. At an interior singular point $`(x_0,T)`$, set
 
-$$
+```math
 \widetilde\Gamma(t)=\frac{\Gamma(t)-x_0}{\sqrt{2(T-t)}}.
-$$
+```
 
-Is the limiting shrinker independent of the sequence $t_j\uparrow T$ used to obtain it? Precisely, must all locally convergent subsequences of the rescaled networks have the same limiting arclength varifold, including its integer multiplicities? No rotation of the limit is allowed when comparing subsequences.
+Is the limiting shrinker independent of the sequence $`t_j\uparrow T`$ used to obtain it? Precisely, must all locally convergent subsequences of the rescaled networks have the same limiting arclength varifold, including its integer multiplicities? No rotation of the limit is allowed when comparing subsequences.
 
 ## Application
 

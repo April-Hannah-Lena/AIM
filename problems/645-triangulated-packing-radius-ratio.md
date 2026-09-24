@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-A triangulated packing of the Euclidean plane consists of closed disks with pairwise disjoint interiors whose contact graph, drawn with straight segments between the centers of tangent disks, triangulates the entire plane. Assume the smallest and largest radii are attained and satisfy $0<r_{\min}\le r_{\max}<\infty$. Require at least two distinct radii and set $q=r_{\min}/r_{\max}$.
+A triangulated packing of the Euclidean plane consists of closed disks with pairwise disjoint interiors whose contact graph, drawn with straight segments between the centers of tangent disks, triangulates the entire plane. Assume the smallest and largest radii are attained and satisfy $`0<r_{\min}\le r_{\max}<\infty`$. Require at least two distinct radii and set $`q=r_{\min}/r_{\max}`$.
 
-Let $q_*=0.6510501858\ldots$ be the radius ratio of Fernique's three-radius packing, equivalently the root near $0.65105$ of
+Let $`q_*=0.6510501858\ldots`$ be the radius ratio of Fernique's three-radius packing, equivalently the root near $`0.65105`$ of
 
-$$
+```math
 89x^8+1344x^7+4008x^6-464x^5-2410x^4+176x^3+296x^2-96x+1=0.
-$$
+```
 
-Prove or disprove that every such packing satisfies $q\le q_*$. The competing packings need not be periodic, and there is no fixed upper bound on the number of distinct radii.
+Prove or disprove that every such packing satisfies $`q\le q_*`$. The competing packings need not be periodic, and there is no fixed upper bound on the number of distinct radii.
 
 ## Application
 
@@ -29,6 +29,6 @@ The problem asks how nearly uniform a triangulated disk packing can be before it
 
 ## Status review
 
-**Known cases:** A periodic packing using three radii attains $q_*$. Classifications with two and three sizes and local rigidity tests provide evidence, but do not cover arbitrarily many sizes.
+**Known cases:** A periodic packing using three radii attains $`q_*`$. Classifications with two and three sizes and local rigidity tests provide evidence, but do not cover arbitrarily many sizes.
 
-**Remaining target:** Establish the universal upper bound on the radius ratio. Fernique's density optimality result for a particular prescribed triple of radii does not resolve this problem of optimizing the radii themselves. The larger ratio near $0.658$ discussed in the source concerns a perturbed packing that is not triangulated. No matching solution announcement was found in the status checks.
+**Remaining target:** Establish the universal upper bound on the radius ratio. Fernique's density optimality result for a particular prescribed triple of radii does not resolve this problem of optimizing the radii themselves. The larger ratio near $`0.658`$ discussed in the source concerns a perturbed packing that is not triangulated. No matching solution announcement was found in the status checks.

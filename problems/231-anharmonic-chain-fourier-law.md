@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-For $N\geq2$, take scalar positions and momenta $(q_i,p_i)_{i=1}^N$, fixed endpoints $q_0=q_{N+1}=0$, and
+For $`N\geq2`$, take scalar positions and momenta $`(q_i,p_i)_{i=1}^N`$, fixed endpoints $`q_0=q_{N+1}=0`$, and
 
-$$
+```math
 H_N=\sum_{i=1}^N\left[\frac{p_i^2}{2}+U(q_i)\right]+\sum_{i=0}^NV(q_{i+1}-q_i),\qquad U(r)=V(r)=\frac{r^2}{2}+\frac{r^4}{4}.
-$$
+```
 
-In the interior use Hamilton’s equations. At sites $1,N$ add respectively $-p_1dt+\sqrt{4}\,dW_L$ and $-p_Ndt+\sqrt{2}\,dW_R$ to $dp_i$, with independent Brownian motions; thus the bath temperatures are $2$ and $1$. Let $\mu_N$ be the invariant probability measure.
+In the interior use Hamilton’s equations. At sites $`1,N`$ add respectively $`-p_1dt+\sqrt{4}\,dW_L`$ and $`-p_Ndt+\sqrt{2}\,dW_R`$ to $`dp_i`$, with independent Brownian motions; thus the bath temperatures are $`2`$ and $`1`$. Let $`\mu_N`$ be the invariant probability measure.
 
-For any interior bond put $j_i=-\frac12(p_i+p_{i+1})V'(q_{i+1}-q_i)$; stationarity makes $J_N=\int j_i\,d\mu_N$ independent of $i$. Prove or disprove
+For any interior bond put $`j_i=-\frac12(p_i+p_{i+1})V'(q_{i+1}-q_i)`$; stationarity makes $`J_N=\int j_i\,d\mu_N`$ independent of $`i`$. Prove or disprove
 
-$$
+```math
 \lim_{N\to\infty}N J_N\in(0,\infty).
-$$
+```
 
 There is no noise or extra forcing in the bulk.
 

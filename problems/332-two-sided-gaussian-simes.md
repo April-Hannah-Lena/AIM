@@ -8,29 +8,29 @@
 
 ## Problem statement
 
-Let $n\ge1$ and let $\Sigma$ be any real symmetric positive semidefinite $n\times n$ matrix with $\Sigma_{ii}=1$. Let
+Let $`n\ge1`$ and let $`\Sigma`$ be any real symmetric positive semidefinite $`n\times n`$ matrix with $`\Sigma_{ii}=1`$. Let
 
-$$
+```math
 X=(X_1,\ldots,X_n)\sim N_n(0,\Sigma),
 \qquad
 P_i=2\Phi(-|X_i|),
-$$
+```
 
-where $\Phi$ is the standard normal cumulative distribution function. Thus each $P_i$ is the two-sided Gaussian $p$-value for a zero mean, and every null hypothesis is true. Write $P_{(1)}\le\cdots\le P_{(n)}$ for their increasing order and define the Simes statistic
+where $`\Phi`$ is the standard normal cumulative distribution function. Thus each $`P_i`$ is the two-sided Gaussian $`p`$-value for a zero mean, and every null hypothesis is true. Write $`P_{(1)}\le\cdots\le P_{(n)}`$ for their increasing order and define the Simes statistic
 
-$$
+```math
 S_n=\min_{1\le k\le n}\frac{nP_{(k)}}{k}.
-$$
+```
 
 **Does the inequality**
 
-$$
+```math
 \Pr\{S_n\le\alpha\}\le\alpha
-$$
+```
 
-**hold for every $n$, every such $\Sigma$, and every $\alpha\in(0,1)$?**
+**hold for every $`n`$, every such $`\Sigma`$, and every $`\alpha\in(0,1)`$?**
 
-Equivalently, can the global test that rejects when some $P_{(k)}\le k\alpha/n$ have probability greater than $\alpha$ of rejecting a completely true null? The question asks for exact finite-dimensional control with arbitrary correlations. Marginal variances are known; no estimated covariance or Student $t$ statistic is involved. It is enough to settle positive definite $\Sigma$: approximation by $(1-\varepsilon)\Sigma+\varepsilon I_n$ extends the bound to singular matrices, because the rejection boundary has probability zero under the continuous marginal $p$-value laws.
+Equivalently, can the global test that rejects when some $`P_{(k)}\le k\alpha/n`$ have probability greater than $`\alpha`$ of rejecting a completely true null? The question asks for exact finite-dimensional control with arbitrary correlations. Marginal variances are known; no estimated covariance or Student $`t`$ statistic is involved. It is enough to settle positive definite $`\Sigma`$: approximation by $`(1-\varepsilon)\Sigma+\varepsilon I_n`$ extends the bound to singular matrices, because the rejection boundary has probability zero under the continuous marginal $`p`$-value laws.
 
 ## Application
 
@@ -54,7 +54,7 @@ Open in cited literature; no later resolution located as of 2026-09-18.
 
 Chi–Ramdas–Wang gives the exact conjecture, and Sarkar's 2023 introduction supplies an independently authored specialist discussion. Searches covered Simes and Gaussian global-null terminology, the cited authors, proofs and counterexamples, 2025–2026 results, unrestricted dates, corrections and version histories. The [evidence record](../research/expansion-2026-09/candidates/two-sided-gaussian-simes.json) gives the source-access limits and theorem comparisons. Finner–Roters–Strassburger's 2017 paper was accessible only in preview; its Section 7 was not read, so admission relies on the accessible explicit restatement and independent discussion.
 
-The bound is an equality for independent coordinates. Known sufficient dependence conditions also cover positive definite $\Sigma$ for which some diagonal matrix $D$ with entries in $\{-1,1\}$ makes every off-diagonal entry of $D\Sigma^{-1}D$ nonpositive. This restriction does not cover every correlation matrix. Sarkar's 1998 title therefore does not announce a solution of the unrestricted Gaussian problem. Chi–Ramdas–Wang's Theorem 8 concerns a different, monotone Gaussian-copula construction; Remark 11 explicitly separates the absolute-value case.
+The bound is an equality for independent coordinates. Known sufficient dependence conditions also cover positive definite $`\Sigma`$ for which some diagonal matrix $`D`$ with entries in $`\{-1,1\}`$ makes every off-diagonal entry of $`D\Sigma^{-1}D`$ nonpositive. This restriction does not cover every correlation matrix. Sarkar's 1998 title therefore does not announce a solution of the unrestricted Gaussian problem. Chi–Ramdas–Wang's Theorem 8 concerns a different, monotone Gaussian-copula construction; Remark 11 explicitly separates the absolute-value case.
 
 The 2026 Benjamini–Hochberg counterexamples concern false-discovery rate when some means are nonzero. Their constructions fail the all-zero hypothesis here. When all nulls are true, every rejection is false and false-discovery rate equals the probability of any rejection, giving exactly the displayed Simes question. The broader mixed-mean conjecture is not included. Weighted, shifted and covariance-calibrated procedures also change the statistic or thresholds, so their guarantees do not establish this inequality. An older all-null counterexample under weak dependence uses non-Gaussian uniform variables; its full construction was compared in the evidence record.
 

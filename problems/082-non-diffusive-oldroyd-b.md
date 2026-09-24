@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-On the unit torus $\mathbb T^2$, let $C_0$ be an arbitrary smooth symmetric positive-definite $2\times2$ matrix field. Set all material constants to one. Does
+On the unit torus $`\mathbb T^2`$, let $`C_0`$ be an arbitrary smooth symmetric positive-definite $`2\times2`$ matrix field. Set all material constants to one. Does
 
-$$
+```math
 -\Delta u+\nabla p=\nabla\cdot C,\qquad \nabla\cdot u=0,\qquad \int_{\mathbb T^2}u\,dx=0,
-$$
+```
 
 
 
-$$
+```math
 C_t+u\cdot\nabla C-(\nabla u)C-C(\nabla u)^T=-(C-I),\qquad C(0)=C_0
-$$
+```
 
-have a unique global smooth solution with $C$ positive definite? Pressure has zero mean. The velocity is determined by the elliptic Stokes equation at each time; there is no inertial term and no Laplacian acting on $C$. The question is for arbitrary large data.
+have a unique global smooth solution with $`C`$ positive definite? Pressure has zero mean. The velocity is determined by the elliptic Stokes equation at each time; there is no inertial term and no Laplacian acting on $`C`$. The question is for arbitrary large data.
 
 ## Application
 

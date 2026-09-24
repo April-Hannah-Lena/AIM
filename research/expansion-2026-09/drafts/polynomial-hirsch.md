@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-A convex polytope $P\subset\mathbb R^d$ is a bounded intersection of finitely many closed half-spaces. Assume $P$ has nonempty interior in $\mathbb R^d$, where $d\ge1$, and exactly $n$ facets, its faces of dimension $d-1$. In particular, $n\ge d+1$.
+A convex polytope $`P\subset\mathbb R^d`$ is a bounded intersection of finitely many closed half-spaces. Assume $`P`$ has nonempty interior in $`\mathbb R^d`$, where $`d\ge1`$, and exactly $`n`$ facets, its faces of dimension $`d-1`$. In particular, $`n\ge d+1`$.
 
-The vertex-edge graph $G(P)$ has the vertices of $P$ as its nodes; two nodes are adjacent precisely when they are the endpoints of an edge of $P$. For vertices $u,v$, let $\mathop{\mathrm{dist}}\nolimits_{G(P)}(u,v)$ be the minimum number of edges in a path joining them. Define
+The vertex-edge graph $`G(P)`$ has the vertices of $`P`$ as its nodes; two nodes are adjacent precisely when they are the endpoints of an edge of $`P`$. For vertices $`u,v`$, let $`\mathop{\mathrm{dist}}\nolimits_{G(P)}(u,v)`$ be the minimum number of edges in a path joining them. Define
 
-$$
+```math
 \mathop{\mathrm{diam}}\nolimits G(P)=\max_{u,v\in V(P)}\mathop{\mathrm{dist}}\nolimits_{G(P)}(u,v).
-$$
+```
 
-Do there exist absolute constants $C,k>0$ such that every such polytope satisfies
+Do there exist absolute constants $`C,k>0`$ such that every such polytope satisfies
 
-$$
+```math
 \mathop{\mathrm{diam}}\nolimits G(P)\le C(n+d)^k?
-$$
+```
 
 The same constants must work for all dimensions and all facet counts. There are no rationality, simplicity or conditioning assumptions. Paths use actual edges and may move in either direction; no linear objective is prescribed. This is the polynomial Hirsch conjecture for bounded polytopes. It asks for the existence of short paths, without requiring an algorithm to find them.
 
@@ -40,9 +40,9 @@ A bounded feasible region in linear programming is a polytope, and nondegenerate
 
 ## Status review
 
-Open in cited literature; no later resolution located as of 2026-09-17. The independently authored 2025 and 2026 sources retain the unrestricted graph-diameter question. General upper bounds remain quasipolynomial: Todd proves $(n-d)^{\log_2 d}$, while Sukegawa obtains an exponent of the form $\log_2 d-\log_2\log_2 d+O(1)$ for $d\ge2$. This exponent still grows with dimension. The original linear Hirsch bound $n-d$ is false, but its counterexamples do not refute every polynomial bound.
+Open in cited literature; no later resolution located as of 2026-09-17. The independently authored 2025 and 2026 sources retain the unrestricted graph-diameter question. General upper bounds remain quasipolynomial: Todd proves $`(n-d)^{\log_2 d}`$, while Sukegawa obtains an exponent of the form $`\log_2 d-\log_2\log_2 d+O(1)`$ for $`d\ge2`$. This exponent still grows with dimension. The original linear Hirsch bound $`n-d`$ is false, but its counterexamples do not refute every polynomial bound.
 
-Black–Xue's Theorem 1.1 concerns coherent monotone paths, a restricted class obtained by varying a linear objective along an affine line in objective space. Its exponential lower bound does not apply to all undirected edge paths. Natura's Theorem 1.1 bounds circuit walks, whose steps can pass through the interior and finish at nonvertices. Such walks are not paths in $G(P)$. Black's September 2026 Theorem 1.1 imposes objective monotonicity, while Theorem 1.2 concerns unbounded polyhedra and does not control facet count. Neither gives a counterexample to the statement here. Wulf's hardness theorem concerns deciding the diameter of an input polytope; it does not provide a family with superpolynomial diameter.
+Black–Xue's Theorem 1.1 concerns coherent monotone paths, a restricted class obtained by varying a linear objective along an affine line in objective space. Its exponential lower bound does not apply to all undirected edge paths. Natura's Theorem 1.1 bounds circuit walks, whose steps can pass through the interior and finish at nonvertices. Such walks are not paths in $`G(P)`$. Black's September 2026 Theorem 1.1 imposes objective monotonicity, while Theorem 1.2 concerns unbounded polyhedra and does not control facet count. Neither gives a counterexample to the statement here. Wulf's hardness theorem concerns deciding the diameter of an input polytope; it does not provide a family with superpolynomial diameter.
 
 The [evidence ledger](../candidates/polynomial-hirsch.json) records source versions, theorem comparisons, duplicate checks and the separate adversarial review. The separated A23 adversarial self-pass passed on September 17, 2026. No independent agent or human review is claimed.
 

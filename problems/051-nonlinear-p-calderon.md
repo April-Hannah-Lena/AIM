@@ -8,16 +8,16 @@
 
 ## Problem statement
 
-Fix $n\geq3$, $1<p<\infty$, $p\ne2$, and a bounded connected smooth domain $\Omega\subset\mathbb R^n$. Let $\gamma_j\in C^\infty(\overline\Omega)$ be strictly positive. For boundary data $f$, solve
+Fix $`n\geq3`$, $`1<p<\infty`$, $`p\ne2`$, and a bounded connected smooth domain $`\Omega\subset\mathbb R^n`$. Let $`\gamma_j\in C^\infty(\overline\Omega)`$ be strictly positive. For boundary data $`f`$, solve
 
-$$
+```math
 \nabla\cdot(\gamma_j|\nabla u|^{p-2}\nabla u)=0,
 \qquad u|_{\partial\Omega}=f,
-$$
+```
 
-and define the nonlinear Dirichlet-to-Neumann map $\Lambda_{\gamma_j,p}f=\gamma_j|\nabla u|^{p-2}\partial_\nu u$, interpreted weakly on the trace space of $W^{1,p}(\Omega)$.
+and define the nonlinear Dirichlet-to-Neumann map $`\Lambda_{\gamma_j,p}f=\gamma_j|\nabla u|^{p-2}\partial_\nu u`$, interpreted weakly on the trace space of $`W^{1,p}(\Omega)`$.
 
-Prove or disprove that equality of these maps for all boundary data implies $\gamma_1=\gamma_2$. Do not assume an ordering, smallness, analyticity, or invariance in one direction.
+Prove or disprove that equality of these maps for all boundary data implies $`\gamma_1=\gamma_2`$. Do not assume an ordering, smallness, analyticity, or invariance in one direction.
 
 ## Application
 
@@ -37,6 +37,6 @@ The power-law constitutive relation models nonlinear conducting media. The quest
 
 **Literature check:** Open in cited literature; no later resolution located
 
-Reference 2 explicitly records unrestricted interior uniqueness as open. The 2025 paper resolves smooth planar weights and certain higher-dimensional analytic or direction-independent weights. It does not prove the general smooth $n\geq3$ statement above.
+Reference 2 explicitly records unrestricted interior uniqueness as open. The 2025 paper resolves smooth planar weights and certain higher-dimensional analytic or direction-independent weights. It does not prove the general smooth $`n\geq3`$ statement above.
 
 Checked on 2026-09-08 using `p-Laplace Calderón open problem`, `p Calderon 2026 uniqueness`, and the exact title of reference 3. The theorem hypotheses were inspected to exclude its solved cases. No full higher-dimensional resolution was located.

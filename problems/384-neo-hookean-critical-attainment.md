@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^3$ be a smooth bounded domain, $\widetilde\Omega\Subset\Omega$ a smooth subdomain, and $b:\overline\Omega\to b(\overline\Omega)$ an orientation-preserving bi-Lipschitz homeomorphism. Let $H:(0,\infty)\to[0,\infty)$ be finite and convex with $H(t)\to\infty$ as $t\downarrow0$ and $H(t)/t\to\infty$ as $t\to\infty$. Put
+Let $`\Omega\subset\mathbb R^3`$ be a smooth bounded domain, $`\widetilde\Omega\Subset\Omega`$ a smooth subdomain, and $`b:\overline\Omega\to b(\overline\Omega)`$ an orientation-preserving bi-Lipschitz homeomorphism. Let $`H:(0,\infty)\to[0,\infty)`$ be finite and convex with $`H(t)\to\infty`$ as $`t\downarrow0`$ and $`H(t)/t\to\infty`$ as $`t\to\infty`$. Put
 
-$$
+```math
 E(u)=\int_\Omega\bigl(|Du|^2+H(\det Du)\bigr)\,dx.
-$$
+```
 
-Let $\mathcal A$ consist of $u\in H^1(\Omega;\mathbb R^3)$ that equal $b$ on $\Omega\setminus\widetilde\Omega$, are one-to-one almost everywhere, satisfy $\det Du>0$ almost everywhere and $E(u)<\infty$, and obey, for every $g\in C_c^1(\mathbb R^3;\mathbb R^3)$,
+Let $`\mathcal A`$ consist of $`u\in H^1(\Omega;\mathbb R^3)`$ that equal $`b`$ on $`\Omega\setminus\widetilde\Omega`$, are one-to-one almost everywhere, satisfy $`\det Du>0`$ almost everywhere and $`E(u)<\infty`$, and obey, for every $`g\in C_c^1(\mathbb R^3;\mathbb R^3)`$,
 
-$$
+```math
 \mathop{\mathrm{Div}}\nolimits\bigl((\mathop{\mathrm{adj}}\nolimits Du)g(u)\bigr)=(\mathop{\mathrm{div}}\nolimits g)(u)\det Du\quad\hbox{in distributions}.
-$$
+```
 
-Here $Du=(\partial_j u_i)_{ij}$ and $\mathop{\mathrm{adj}}\nolimits Du=(\mathop{\mathrm{cof}}\nolimits Du)^T$. Whenever $\mathcal A\ne\varnothing$, must $\inf_{u\in\mathcal A}E(u)$ be attained by an element of $\mathcal A$?
+Here $`Du=(\partial_j u_i)_{ij}`$ and $`\mathop{\mathrm{adj}}\nolimits Du=(\mathop{\mathrm{cof}}\nolimits Du)^T`$. Whenever $`\mathcal A\ne\varnothing`$, must $`\inf_{u\in\mathcal A}E(u)`$ be attained by an element of $`\mathcal A`$?
 
 ## Application
 

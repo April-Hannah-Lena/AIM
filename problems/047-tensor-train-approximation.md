@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-For a real order-$d$ tensor $A\in\mathbb R^{n_1\times\cdots\times n_d}$, $d\ge3$, fix rank bounds $r_1,\ldots,r_{d-1}$. Let $\mathcal T_r$ be the tensors whose matricization across the split $(1,\ldots,j)\mid(j+1,\ldots,d)$ has matrix rank at most $r_j$ for every $j$. Set $e_r(A)=\min_{X\in\mathcal T_r}\|A-X\|_F$.
+For a real order-$`d`$ tensor $`A\in\mathbb R^{n_1\times\cdots\times n_d}`$, $`d\ge3`$, fix rank bounds $`r_1,\ldots,r_{d-1}`$. Let $`\mathcal T_r`$ be the tensors whose matricization across the split $`(1,\ldots,j)\mid(j+1,\ldots,d)`$ has matrix rank at most $`r_j`$ for every $`j`$. Set $`e_r(A)=\min_{X\in\mathcal T_r}\|A-X\|_F`$.
 
-Does a polynomial-time algorithm return $\widehat A\in\mathcal T_r$ with
+Does a polynomial-time algorithm return $`\widehat A\in\mathcal T_r`$ with
 
-$$
+```math
 \|A-\widehat A\|_F^2<(d-1)\,e_r(A)^2
-$$
+```
 
-for every input with $e_r(A)>0$, over all dimensions and rank bounds? Use the standard arithmetic-operation model for dense tensor approximation, with polynomial work in the dense input size and rank data. When $e_r(A)=0$, exact recovery is required in exact arithmetic. The conventional sequential SVD guarantee uses a non-strict inequality with factor $d-1$. Any strict improvement is requested; the margin need not be uniform over inputs or dimensions.
+for every input with $`e_r(A)>0`$, over all dimensions and rank bounds? Use the standard arithmetic-operation model for dense tensor approximation, with polynomial work in the dense input size and rank data. When $`e_r(A)=0`$, exact recovery is required in exact arithmetic. The conventional sequential SVD guarantee uses a non-strict inequality with factor $`d-1`$. Any strict improvement is requested; the margin need not be uniform over inputs or dimensions.
 
 ## Application
 
@@ -32,6 +32,6 @@ Tensor trains represent high-dimensional states and functions in quantum dynamic
 
 **Literature check:** Open in cited literature; no later resolution located
 
-Checked on **2026-09-08**. Problem 6.1 explicitly asks even for a pointwise strict improvement of the conventional factor, with larger improvements also of interest. This entry takes its tensor-train special case and separates exact inputs to avoid demanding the impossible inequality $0<0$. The May 2026 Krylov paper concerns randomized construction and error estimates; no algorithm meeting the stated guarantee for every input was located.
+Checked on **2026-09-08**. Problem 6.1 explicitly asks even for a pointwise strict improvement of the conventional factor, with larger improvements also of interest. This entry takes its tensor-train special case and separates exact inputs to avoid demanding the impossible inequality $`0<0`$. The May 2026 Krylov paper concerns randomized construction and error estimates; no algorithm meeting the stated guarantee for every input was located.
 
 Searches included: `tensor train approximation 2026 optimal polynomial`; `tensor train approximation sqrt d lower bound 2026`; `randomized block Krylov tensor train approximation`. This is a documented literature check, not a certification that no solution exists.

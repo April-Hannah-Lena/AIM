@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-For every real-valued $h_0\in C^\infty(\mathbb T)$ of zero mean, where $\mathbb T=\mathbb R/(2\pi\mathbb Z)$, does the maximal classical solution of
+For every real-valued $`h_0\in C^\infty(\mathbb T)`$ of zero mean, where $`\mathbb T=\mathbb R/(2\pi\mathbb Z)`$, does the maximal classical solution of
 
-$$
+```math
 \partial_t h+\partial_x^4h+\partial_x^2\big((\partial_xh)^2\big)=0,\qquad h(0,x)=h_0(x),
-$$
+```
 
-exist for all $t\ge0$? Equivalently, is $\sup_{0\le t\le T}\|h(t)\|_{H^m(\mathbb T)}<\infty$ for every finite $T$ and integer $m\ge0$? There is no smallness assumption on $h_0$.
+exist for all $`t\ge0`$? Equivalently, is $`\sup_{0\le t\le T}\|h(t)\|_{H^m(\mathbb T)}<\infty`$ for every finite $`T`$ and integer $`m\ge0`$? There is no smallness assumption on $`h_0`$.
 
 ## Application
 

@@ -7,8 +7,8 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-For a bounded connected Lipschitz domain $\Omega\subset\mathbb R^d$, $d\ge2$, let $C$ be real symmetric uniformly positive definite with Lipschitz entries on $\overline\Omega$. Let $N$ be the weak Dirichlet-to-Neumann operator for $-\mathop{\mathrm{div}}\nolimits(C\nabla)$, defined by harmonic extension and conormal differentiation. Its semigroup restricts to a strongly continuous semigroup $T(t)$ on $C(\partial\Omega)$ with the supremum norm.
-Must there exist $\theta>0$ such that $T$ extends to an operator-valued holomorphic semigroup on $\{z\ne0:|\arg z|<\theta\}$, with $\sup_{0<|z|\le1,\ |\arg z|\le\theta'}\|T(z)\|<\infty$ for each $0<\theta'<\theta$?
+For a bounded connected Lipschitz domain $`\Omega\subset\mathbb R^d`$, $`d\ge2`$, let $`C`$ be real symmetric uniformly positive definite with Lipschitz entries on $`\overline\Omega`$. Let $`N`$ be the weak Dirichlet-to-Neumann operator for $`-\mathop{\mathrm{div}}\nolimits(C\nabla)`$, defined by harmonic extension and conormal differentiation. Its semigroup restricts to a strongly continuous semigroup $`T(t)`$ on $`C(\partial\Omega)`$ with the supremum norm.
+Must there exist $`\theta>0`$ such that $`T`$ extends to an operator-valued holomorphic semigroup on $`\{z\ne0:|\arg z|<\theta\}`$, with $`\sup_{0<|z|\le1,\ |\arg z|\le\theta'}\|T(z)\|<\infty`$ for each $`0<\theta'<\theta`$?
 
 ## Application
 

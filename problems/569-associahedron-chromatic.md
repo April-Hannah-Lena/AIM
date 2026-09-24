@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-For each integer $n\ge3$, let $A_n$ be the graph whose vertices are all triangulations of a convex polygon with $n$ labeled vertices. Two triangulations are adjacent when one is obtained from the other by replacing one diagonal of a convex quadrilateral by its other diagonal. A proper coloring assigns different colors to adjacent triangulations; write $\chi(A_n)$ for the least number of colors required.
+For each integer $`n\ge3`$, let $`A_n`$ be the graph whose vertices are all triangulations of a convex polygon with $`n`$ labeled vertices. Two triangulations are adjacent when one is obtained from the other by replacing one diagonal of a convex quadrilateral by its other diagonal. A proper coloring assigns different colors to adjacent triangulations; write $`\chi(A_n)`$ for the least number of colors required.
 
 Prove or disprove that
 
-$$
+```math
 \sup_{n\ge3}\chi(A_n)=\infty.
-$$
+```
 
 Equivalently, must every fixed number of colors fail for the flip graph of some sufficiently large convex polygon?
 
@@ -29,6 +29,6 @@ The graph describes local moves between triangulations and rotations of binary s
 
 ## Status review
 
-The logarithmic upper bound $\chi(A_n)=O(\log n)$ is proved in [1]. Its introduction states that no lower bound growing with $n$ is known and records $\chi(A_{10})\ge4$. The solved logarithmic upper-bound conjecture is distinct from the unboundedness question in [2]. Facet colorings of generalized associahedra concern another graph.
+The logarithmic upper bound $`\chi(A_n)=O(\log n)`$ is proved in [1]. Its introduction states that no lower bound growing with $`n`$ is known and records $`\chi(A_{10})\ge4`$. The solved logarithmic upper-bound conjecture is distinct from the unboundedness question in [2]. Facet colorings of generalized associahedra concern another graph.
 
 Current searches found no matching solution announcement. A public GitHub research repository for this exact question has an empty results record and a planned source-check attempt, rather than an announced proof.

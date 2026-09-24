@@ -12,26 +12,26 @@ Theorem 1.2 improves the exponent to `1/2` only for the **positive part** of `la
 
 Scale an actual planar domain to area `pi`. Let `D` be the unit disk and `Theta` the union of two disks of area `pi/2`. Put
 
-\[
+```math
 A=\lambda_2(\Theta)=2j_{0,1}^2<12,\qquad
 B=\lambda_3(\Theta)=2\lambda_2(D)>12.
-\]
+```
 
 The first strict inequality follows from the non-eigenfunction trial `1-r^2`, of Rayleigh quotient 6. The second requires no numerical Bessel value: Hong–Krahn–Szegő gives `lambda_2(D)>=2j_{0,1}^2`, while the independently checked Rayleigh sum gives `j_{0,1}^2>4sqrt(2)`. Hence `B>=4j_{0,1}^2>16sqrt(2)>12`.
 
 Assume a would-be violating domain has `lambda_3(Omega)<=12` (including equality only strengthens the exclusion). Then `A<=lambda_2(Omega)<=12`. Specializing the external theorem at `d=2,k=3` gives
 
-\[
+```math
 B-12\le B-\lambda_3(\Omega)
 \le81C_2\,12^{17/18}(\lambda_2(\Omega)-A)^{1/18}.
-\]
+```
 
 Thus it must satisfy
 
-\[
+```math
 \lambda_2(\Omega)-A\ge
 \eta:=\left(\frac{B-12}{81C_2\,12^{17/18}}\right)^{18}>0.
-\]
+```
 
 This excludes a genuine neighborhood of the two-ball degeneration for any counterexample, with no compactness or limiting-domain assumption added. The useful constant is presently unevaluated: this run did not obtain a validated numerical bound for `C_2`.
 

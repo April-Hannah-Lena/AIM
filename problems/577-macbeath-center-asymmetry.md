@@ -8,21 +8,21 @@
 
 ## Problem statement
 
-Let $K\subset\mathbb R^d$ be compact and convex with nonempty interior. Its Macbeath point is the unique maximizer $p$ of
+Let $`K\subset\mathbb R^d`$ be compact and convex with nonempty interior. Its Macbeath point is the unique maximizer $`p`$ of
 
-$$
+```math
 x\longmapsto\mathop{\mathrm{vol}}\nolimits_d\bigl(K\cap(2x-K)\bigr),
-$$
+```
 
-where $2x-K=\{2x-y:y\in K\}$ and $\mathop{\mathrm{vol}}\nolimits_d$ denotes Lebesgue volume.
+where $`2x-K=\{2x-y:y\in K\}`$ and $`\mathop{\mathrm{vol}}\nolimits_d`$ denotes Lebesgue volume.
 
 Prove or disprove that every such convex body satisfies
 
-$$
+```math
 K-p\subseteq-d(K-p).
-$$
+```
 
-Equivalently, for every $y\in K$, the point $p-(y-p)/d$ must also belong to $K$. The center is prescribed by the maximal symmetric intersection; finding some other center with the inclusion does not answer the question.
+Equivalently, for every $`y\in K`$, the point $`p-(y-p)/d`$ must also belong to $`K`$. The center is prescribed by the maximal symmetric intersection; finding some other center with the inclusion does not answer the question.
 
 ## Application
 

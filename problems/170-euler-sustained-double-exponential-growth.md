@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-For mean-zero $\omega_0\in C^\infty(\mathbb T^2)$, let $\omega$ solve
+For mean-zero $`\omega_0\in C^\infty(\mathbb T^2)`$, let $`\omega`$ solve
 
-$$
+```math
 \partial_t\omega+u\cdot\nabla\omega=0,\qquad u=\nabla^\perp\Delta^{-1}\omega,
-$$
+```
 
-where $\nabla^\perp=(-\partial_2,\partial_1)$ and $\Delta^{-1}$ is the inverse on mean-zero periodic functions. Does there exist one such initial datum, with $c>0$ and $t_0<\infty$, for which
+where $`\nabla^\perp=(-\partial_2,\partial_1)`$ and $`\Delta^{-1}`$ is the inverse on mean-zero periodic functions. Does there exist one such initial datum, with $`c>0`$ and $`t_0<\infty`$, for which
 
-$$
+```math
 \|\nabla\omega(t)\|_{L^\infty}\ge\exp(\exp(ct))\qquad\text{for every }t\ge t_0?
-$$
+```
 
 The initial datum must be fixed for the entire infinite time interval. The torus has no solid boundary.
 

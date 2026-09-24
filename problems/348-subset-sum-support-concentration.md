@@ -8,28 +8,28 @@
 
 ## Problem statement
 
-Let $n\geq1$ be an integer and let $w=(w_1,\ldots,w_n)\in\mathbb R^n$. For independent random variables $X_i$ with $\Pr(X_i=0)=\Pr(X_i=1)=1/2$, define
+Let $`n\geq1`$ be an integer and let $`w=(w_1,\ldots,w_n)\in\mathbb R^n`$. For independent random variables $`X_i`$ with $`\Pr(X_i=0)=\Pr(X_i=1)=1/2`$, define
 
-$$
+```math
 S_w=\sum_{i=1}^n w_iX_i,\qquad
 R(w)=\left\{\sum_{i=1}^n w_ix_i:x\in\{0,1\}^n\right\}.
-$$
+```
 
-Write $N(w)=|R(w)|$ for the number of distinct subset sums and $\rho(w)=\max_{t\in\mathbb R}\Pr(S_w=t)$ for the largest probability of a single sum. Prove or disprove the conjecture that, for every $n$ and $w$,
+Write $`N(w)=|R(w)|`$ for the number of distinct subset sums and $`\rho(w)=\max_{t\in\mathbb R}\Pr(S_w=t)`$ for the largest probability of a single sum. Prove or disprove the conjecture that, for every $`n`$ and $`w`$,
 
-$$
+```math
 N(w)\,\rho(w)^2\leq1.
-$$
+```
 
-Repeated, negative and zero weights are allowed. The subsets are labelled by their indices, and all $2^n$ subsets are equally likely. The sums and equality of their values are exact. The bound has no additional constant or asymptotic error. If every weight is zero, $N(w)=\rho(w)=1$.
+Repeated, negative and zero weights are allowed. The subsets are labelled by their indices, and all $`2^n`$ subsets are equally likely. The sums and equality of their values are exact. The bound has no additional constant or asymptotic error. If every weight is zero, $`N(w)=\rho(w)=1`$.
 
-In counting terms, if $M(w)$ is the greatest number of subsets having the same sum, then $M(w)=2^n\rho(w)$ and the conjecture is $N(w)M(w)^2\leq4^n$. Equivalently, with natural logarithms, define the order-zero and order-infinity Rényi entropies by
+In counting terms, if $`M(w)`$ is the greatest number of subsets having the same sum, then $`M(w)=2^n\rho(w)`$ and the conjecture is $`N(w)M(w)^2\leq4^n`$. Equivalently, with natural logarithms, define the order-zero and order-infinity Rényi entropies by
 
-$$
+```math
 H_0(S_w)=\log N(w),\qquad H_\infty(S_w)=-\log\rho(w).
-$$
+```
 
-The conjecture is $H_0(S_w)\leq2H_\infty(S_w)$. Jain, Sah and Sawhney propose this tradeoff; Li states the entropy formulation explicitly. The exponent two is sharp: for $w=(1,\ldots,1)$, $N(w)=n+1$ and $\rho(w)=2^{-n}\binom{n}{\lfloor n/2\rfloor}$, so $H_0/H_\infty\to2$ as $n\to\infty$.
+The conjecture is $`H_0(S_w)\leq2H_\infty(S_w)`$. Jain, Sah and Sawhney propose this tradeoff; Li states the entropy formulation explicitly. The exponent two is sharp: for $`w=(1,\ldots,1)`$, $`N(w)=n+1`$ and $`\rho(w)=2^{-n}\binom{n}{\lfloor n/2\rfloor}`$, so $`H_0/H_\infty\to2`$ as $`n\to\infty`$.
 
 ## Application
 
@@ -47,15 +47,15 @@ In bin packing, items with given weights must be partitioned among bins without 
 
 Checked on **2026-09-19** using the subset-sum, anticoncentration, maximum-atom and Rényi-entropy formulations, author names, and proof, counterexample, correction and recent-result searches. The published Jain–Sah–Sawhney paper and Li's September 2026 preprint explicitly state the conjecture. No later resolution of the full assertion was located.
 
-Jain, Sah and Sawhney prove that $\rho(w)\geq\exp(-\varepsilon n)$ implies $N(w)\leq\exp(C\sqrt\varepsilon\,n)$, for an absolute constant $C$, provided $\varepsilon>0$ and $n\geq\varepsilon^{-1/2}$. Li reports the stronger entropy comparison
+Jain, Sah and Sawhney prove that $`\rho(w)\geq\exp(-\varepsilon n)`$ implies $`N(w)\leq\exp(C\sqrt\varepsilon\,n)`$, for an absolute constant $`C`$, provided $`\varepsilon>0`$ and $`n\geq\varepsilon^{-1/2}`$. Li reports the stronger entropy comparison
 
-$$
+```math
 H_0(S_w)\leq
 \min\left\{\log_2(m+1),\ 2+\log_2\!\left(\frac{m\log2}{H_\infty(S_w)}\right)\right\}
 H_\infty(S_w),
-$$
+```
 
-where $m$ is the number of nonzero weights and this displayed expression is used for $w\ne0$. Its coefficient still depends on the input. Li also proves bounds for positive Rényi orders; their constants grow as the order approaches zero, so those statements do not supply the missing factor two at order zero. These are reported preprint results; their full proofs have not been independently certified here. The SIAM publisher link restricted direct access; its primary author manuscript was accessible.
+where $`m`$ is the number of nonzero weights and this displayed expression is used for $`w\ne0`$. Its coefficient still depends on the input. Li also proves bounds for positive Rényi orders; their constants grow as the order approaches zero, so those statements do not supply the missing factor two at order zero. These are reported preprint results; their full proofs have not been independently certified here. The SIAM publisher link restricted direct access; its primary author manuscript was accessible.
 
 The audit also compares earlier high-multiplicity constructions, 2026 bounds for fixed-size random subsets of finite groups, and structural classifications of sets with few subset sums, including a September 14 revision. Their stated conclusions do not give the required bound for all real weight vectors with repetitions. The remaining question is the uniform, exact factor two for the full support, with fair independent bits. Biased bits are outside its scope.
 

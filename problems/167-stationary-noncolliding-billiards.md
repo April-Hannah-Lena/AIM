@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Does there exist a probability law for a nonempty locally finite set $S\subset\mathbb R^2$ with velocity marks $v:S\to\mathbb R^2$ satisfying all of the following almost surely?
+Does there exist a probability law for a nonempty locally finite set $`S\subset\mathbb R^2`$ with velocity marks $`v:S\to\mathbb R^2`$ satisfying all of the following almost surely?
 
-For deterministic $0<m<M<\infty$, every speed lies in $[m,M]$ and distinct particles have different velocities. For all $x\ne y$ in $S$ and all $t\in\mathbb R$,
+For deterministic $`0<m<M<\infty`$, every speed lies in $`[m,M]`$ and distinct particles have different velocities. For all $`x\ne y`$ in $`S`$ and all $`t\in\mathbb R`$,
 
-$$
+```math
 |(x+tv(x))-(y+tv(y))|\ge1.
-$$
+```
 
-The law must be invariant under translations, simultaneous rotations of positions and velocities, and the evolution $(x,v(x))\mapsto(x+tv(x),v(x))$. It must also be ergodic under translations: every translation-invariant event has probability zero or one.
+The law must be invariant under translations, simultaneous rotations of positions and velocities, and the evolution $`(x,v(x))\mapsto(x+tv(x),v(x))`$. It must also be ergodic under translations: every translation-invariant event has probability zero or one.
 
 ## Application
 

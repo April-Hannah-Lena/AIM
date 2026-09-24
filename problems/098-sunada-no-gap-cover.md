@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $X$ be any closed connected orientable surface of genus $g\ge2$ with a metric of constant curvature $-1$. Let $\widetilde X$ be its universal cover and
+Let $`X`$ be any closed connected orientable surface of genus $`g\ge2`$ with a metric of constant curvature $`-1`$. Let $`\widetilde X`$ be its universal cover and
 
-$$
+```math
 Y=\widetilde X/[\pi_1(X),\pi_1(X)],
-$$
+```
 
-with the lifted metric, so that the deck group of $Y\to X$ is $H_1(X;\mathbb Z)\cong\mathbb Z^{2g}$. Prove or disprove
+with the lifted metric, so that the deck group of $`Y\to X`$ is $`H_1(X;\mathbb Z)\cong\mathbb Z^{2g}`$. Prove or disprove
 
-$$
+```math
 \sigma(-\Delta_Y)=[0,\infty),
-$$
+```
 
-for the self-adjoint Laplace–Beltrami operator on $L^2(Y)$.
+for the self-adjoint Laplace–Beltrami operator on $`L^2(Y)`$.
 
 ## Application
 

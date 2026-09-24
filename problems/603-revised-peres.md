@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-Let $\rho_{AB}$ be a finite-dimensional bipartite bound-entangled state: it is entangled, but its distillable entanglement under local quantum operations and public classical communication is zero.
+Let $`\rho_{AB}`$ be a finite-dimensional bipartite bound-entangled state: it is entangled, but its distillable entanglement under local quantum operations and public classical communication is zero.
 
-Prove or disprove that independent copies of $\rho_{AB}$ cannot yield a positive asymptotic secret-key rate in any device-independent quantum key distribution protocol. This is the revised Peres conjecture [1, Conjecture 11].
+Prove or disprove that independent copies of $`\rho_{AB}`$ cannot yield a positive asymptotic secret-key rate in any device-independent quantum key distribution protocol. This is the revised Peres conjecture [1, Conjecture 11].
 
 Device-independent security means that the shared output key must approach a uniform key independent of the adversary for every quantum realization consistent with the observed input-output statistics. Local measurements and classical public communication are allowed; the shared quantum resource is the supplied state. The target includes arbitrary protocols, beyond a fixed Bell test or one-way classical processing. Bell nonlocality alone is insufficient to answer this key-generation question.
 

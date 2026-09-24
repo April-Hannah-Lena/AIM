@@ -8,11 +8,11 @@
 
 ## Problem statement
 
-On $\mathbb Z^2$, let $\eta_t(x)\in\{1,2,3\}$ and $f_i(x,\eta)=\frac14\sum_{|y-x|_1=1}\mathbf1_{\{\eta(y)=i\}}$. The only transitions at a site are $3\to1$ at rate $\beta_1f_1$, $1\to2$ at rate $\beta_2f_2$, and $2\to3$ at rate $\beta_3f_3$. For every $\beta_1,\beta_2,\beta_3>0$, does this process possess a stationary probability measure $\nu$, invariant under lattice translations, such that
+On $`\mathbb Z^2`$, let $`\eta_t(x)\in\{1,2,3\}`$ and $`f_i(x,\eta)=\frac14\sum_{|y-x|_1=1}\mathbf1_{\{\eta(y)=i\}}`$. The only transitions at a site are $`3\to1`$ at rate $`\beta_1f_1`$, $`1\to2`$ at rate $`\beta_2f_2`$, and $`2\to3`$ at rate $`\beta_3f_3`$. For every $`\beta_1,\beta_2,\beta_3>0`$, does this process possess a stationary probability measure $`\nu`$, invariant under lattice translations, such that
 
-$$
+```math
 \nu\bigl(\#\{x\in\mathbb Z^2:\eta(x)=i\}=\infty\text{ for every }i=1,2,3\bigr)=1?
-$$
+```
 
 All three populations must coexist in the same configuration almost surely; a mixture of the three constant absorbing configurations does not qualify.
 

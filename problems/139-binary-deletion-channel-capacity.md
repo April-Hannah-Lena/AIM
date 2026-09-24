@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-Fix $d\in(0,1)$. A channel takes an input word $x_1\cdots x_N\in\{0,1\}^N$, independently deletes each bit with probability $d$, and returns the surviving subsequence in order. Deleted positions are not reported, and the transmitter receives no feedback.
+Fix $`d\in(0,1)`$. A channel takes an input word $`x_1\cdots x_N\in\{0,1\}^N`$, independently deletes each bit with probability $`d`$, and returns the surviving subsequence in order. Deleted positions are not reported, and the transmitter receives no feedback.
 
-Determine $C(d)$ for all $d\in(0,1)$, where $C(d)$ is the supremum of rates $R$ admitting binary block codes of length $N$ with at least $2^{NR}$ codewords and decoding error tending to zero as $N\to\infty$. Error is averaged over a uniform message and the independent deletions, and rate is measured per input bit.
+Determine $`C(d)`$ for all $`d\in(0,1)`$, where $`C(d)`$ is the supremum of rates $`R`$ admitting binary block codes of length $`N`$ with at least $`2^{NR}`$ codewords and decoding error tending to zero as $`N\to\infty`$. Error is averaged over a uniform message and the independent deletions, and rate is measured per input bit.
 
 ## Application
 

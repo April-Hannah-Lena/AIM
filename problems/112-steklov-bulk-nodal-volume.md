@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-Let $(M,g)$ be any smooth compact connected $d$-dimensional Riemannian manifold with smooth nonempty boundary, $d\ge2$. For a real nonzero Steklov eigenfunction
+Let $`(M,g)`$ be any smooth compact connected $`d`$-dimensional Riemannian manifold with smooth nonempty boundary, $`d\ge2`$. For a real nonzero Steklov eigenfunction
 
-$$
+```math
 \Delta_g u=0\text{ in }M,\qquad\partial_\nu u=\sigma u\text{ on }\partial M,\qquad\sigma>0,
-$$
+```
 
-write $Z_u=\{x\in\mathop{\mathrm{int}}\nolimits M:u(x)=0\}$. Prove or disprove that there are constants $0<c_M\le C_M<\infty$, independent of $u$ and $\sigma$, such that
+write $`Z_u=\{x\in\mathop{\mathrm{int}}\nolimits M:u(x)=0\}`$. Prove or disprove that there are constants $`0<c_M\le C_M<\infty`$, independent of $`u`$ and $`\sigma`$, such that
 
-$$
+```math
 c_M\sigma\le\mathcal H^{d-1}_g(Z_u)\le C_M\sigma.
-$$
+```
 
 Only the nodal set inside the medium is counted; the boundary trace has a different-dimensional zero set.
 
@@ -31,7 +31,7 @@ Nodal interfaces partition the interior of a boundary-loaded vibrating medium. T
 1. B. Colbois, A. Girouard, C. Gordon and D. Sher, [Some recent developments on the Steklov eigenvalue problem](https://doi.org/10.1007/s13163-023-00480-3), Revista Matemática Complutense 37 (2024), Open Question 10.7: proposed interior and boundary nodal estimates; this entry takes the interior question.
 2. C. D. Sogge, X. Wang and J. Zhu, [Lower bounds for interior nodal sets of Steklov eigenfunctions](https://arxiv.org/abs/1503.01091), preprint (2015), main theorem: nonsharp interior lower bound.
 3. I. Polterovich, D. A. Sher and J. A. Toth, [Nodal length of Steklov eigenfunctions on real-analytic Riemannian surfaces](https://arxiv.org/abs/1506.07600), preprint (2015), main theorem: the analytic surface case.
-4. X. Huang, Y. Sire, X. Wang and C. Zhang, [Sharp $L^p$ estimates for generalized Steklov eigenfunctions with an application to nodal sets](https://doi.org/10.4171/JST/598), Journal of Spectral Theory 16 (2026), §4 and Theorem 2: later boundary-nodal estimates.
+4. X. Huang, Y. Sire, X. Wang and C. Zhang, [Sharp $`L^p`$ estimates for generalized Steklov eigenfunctions with an application to nodal sets](https://doi.org/10.4171/JST/598), Journal of Spectral Theory 16 (2026), §4 and Theorem 2: later boundary-nodal estimates.
 
 ## Status review
 

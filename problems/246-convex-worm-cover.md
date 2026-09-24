@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $\mathcal C$ be the class of compact convex sets $K\subset\mathbb R^2$ with the following property: for every continuous rectifiable curve $\gamma:[0,1]\to\mathbb R^2$ of length one, there are a rotation $R\in SO(2)$ and a translation vector $a\in\mathbb R^2$ such that
+Let $`\mathcal C`$ be the class of compact convex sets $`K\subset\mathbb R^2`$ with the following property: for every continuous rectifiable curve $`\gamma:[0,1]\to\mathbb R^2`$ of length one, there are a rotation $`R\in SO(2)`$ and a translation vector $`a\in\mathbb R^2`$ such that
 
-$$
+```math
 R\gamma([0,1])+a\subset K.
-$$
+```
 
-Determine $\inf_{K\in\mathcal C}\mathop{\mathrm{Area}}\nolimits(K)$ and characterize the minimizers up to rigid motion. Curves may self-intersect and need not be closed. This is the convex version of Moser's worm problem.
+Determine $`\inf_{K\in\mathcal C}\mathop{\mathrm{Area}}\nolimits(K)`$ and characterize the minimizers up to rigid motion. Curves may self-intersect and need not be closed. This is the convex version of Moser's worm problem.
 
 ## Application
 

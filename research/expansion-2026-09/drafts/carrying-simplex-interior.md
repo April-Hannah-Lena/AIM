@@ -8,20 +8,20 @@
 
 ## Problem statement
 
-For an integer $d\ge3$, set $C=[0,\infty)^d$ and consider the population map $F_i(x)=x_i f_i(x)$. Suppose $f$ is $C^1$ on an open neighborhood of $C$, $f_i(x)>0$ and $\partial f_i/\partial x_j(x)<0$ on $C$ for all $i,j$. Each positive coordinate axis has a fixed point $q_i e_i$, with $q_i>0$. For $q=(q_1,\ldots,q_d)$ assume
+For an integer $`d\ge3`$, set $`C=[0,\infty)^d`$ and consider the population map $`F_i(x)=x_i f_i(x)`$. Suppose $`f`$ is $`C^1`$ on an open neighborhood of $`C`$, $`f_i(x)>0`$ and $`\partial f_i/\partial x_j(x)<0`$ on $`C`$ for all $`i,j`$. Each positive coordinate axis has a fixed point $`q_i e_i`$, with $`q_i>0`$. For $`q=(q_1,\ldots,q_d)`$ assume
 
-$$
+```math
 \rho(M(x))<1\quad(x\in[0,q]),\qquad
 M_{ij}(x)=-\frac{x_i}{f_i(x)}\frac{\partial f_i}{\partial x_j}(x),
-$$
+```
 
-where $\rho$ denotes spectral radius and $[0,q]=\prod_i[0,q_i]$. These hypotheses guarantee a carrying simplex $\Sigma\subset C\setminus\{0\}$: a compact invariant unordered hypersurface to whose trajectories every nonzero trajectory is asymptotic. Here unordered means that no two distinct points are comparable coordinatewise.
+where $`\rho`$ denotes spectral radius and $`[0,q]=\prod_i[0,q_i]`$. These hypotheses guarantee a carrying simplex $`\Sigma\subset C\setminus\{0\}`$: a compact invariant unordered hypersurface to whose trajectories every nonzero trajectory is asymptotic. Here unordered means that no two distinct points are comparable coordinatewise.
 
-Is $\Sigma\cap(0,\infty)^d$ necessarily a $C^1$ embedded $(d-1)$-dimensional submanifold for every such map? Equivalently, write $\Sigma=\{R(u)u:u\in\Delta\}$, where $\Delta=\{u\in C:\sum_i u_i=1\}$ and $R:\Delta\to(0,\infty)$ is its continuous radial representation: must $R$ be $C^1$ on the relative interior of $\Delta$? Only interior regularity is requested; no smoothness or transverse embedding at extinction faces is assumed.
+Is $`\Sigma\cap(0,\infty)^d`$ necessarily a $`C^1`$ embedded $`(d-1)`$-dimensional submanifold for every such map? Equivalently, write $`\Sigma=\{R(u)u:u\in\Delta\}`$, where $`\Delta=\{u\in C:\sum_i u_i=1\}`$ and $`R:\Delta\to(0,\infty)`$ is its continuous radial representation: must $`R`$ be $`C^1`$ on the relative interior of $`\Delta`$? Only interior regularity is requested; no smoothness or transverse embedding at extinction faces is assumed.
 
 ## Applied significance
 
-Competition maps describe populations whose per-capita growth decreases with every population density. Their carrying simplex contains the long-term nonzero dynamics. Interior $C^1$ regularity would justify smooth geometric reduction when analyzing coexistence, invariant manifolds and changes of stability.
+Competition maps describe populations whose per-capita growth decreases with every population density. Their carrying simplex contains the long-term nonzero dynamics. Interior $`C^1`$ regularity would justify smooth geometric reduction when analyzing coexistence, invariant manifolds and changes of stability.
 
 ## References
 

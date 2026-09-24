@@ -8,23 +8,23 @@
 
 ## Problem statement
 
-Let $X\subset\mathbb R^n$ be a nonempty finite set, $n\ge1$, and $r>0$. Using Euclidean distances, form
+Let $`X\subset\mathbb R^n`$ be a nonempty finite set, $`n\ge1`$, and $`r>0`$. Using Euclidean distances, form
 
-$$
+```math
 K=\mathop{\mathrm{VR}}\nolimits_{<}(X;r)=\{\sigma\subseteq X:\mathop{\mathrm{diam}}\nolimits(\sigma)<r\}.
-$$
+```
 
 Its shadow is the geometric union
 
-$$
+```math
 S(X;r)=\bigcup_{\sigma\in K}\mathop{\mathrm{conv}}\nolimits(\sigma)\subset\mathbb R^n.
-$$
+```
 
-The vertex inclusion extends affinely on each simplex to a continuous map $p:|K|\to S(X;r)$. For every base vertex $x_0\in X$, is
+The vertex inclusion extends affinely on each simplex to a continuous map $`p:|K|\to S(X;r)`$. For every base vertex $`x_0\in X`$, is
 
-$$
+```math
 p_*:\pi_1(|K|,x_0)\longrightarrow\pi_1(S(X;r),x_0)
-$$
+```
 
 injective? Thus, can a nontrivial loop in the abstract Rips complex become null-homotopic after projection onto its shadow?
 

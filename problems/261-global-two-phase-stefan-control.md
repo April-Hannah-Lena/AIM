@@ -8,18 +8,18 @@
 
 ## Problem statement
 
-Fix $L,d_l,d_r,\lambda,T>0$, $L_0,L_T\in(0,L)$, and arbitrary $y_0\in C_c^\infty(0,L_0)$, $z_0\in C_c^\infty(L_0,L)$. Can two controls $v_l,v_r\in L^\infty(0,T)$ produce a solution on the whole interval $[0,T]$ of
+Fix $`L,d_l,d_r,\lambda,T>0`$, $`L_0,L_T\in(0,L)`$, and arbitrary $`y_0\in C_c^\infty(0,L_0)`$, $`z_0\in C_c^\infty(L_0,L)`$. Can two controls $`v_l,v_r\in L^\infty(0,T)`$ produce a solution on the whole interval $`[0,T]`$ of
 
-$$
+```math
 \begin{aligned}
 y_t-d_ly_{xx}&=0&& (0<x<\ell(t)),\\
 z_t-d_rz_{xx}&=0&& (\ell(t)<x<L),\\
 y(\ell(t),t)=z(\ell(t),t)&=0,\qquad y(0,t)=v_l(t),\quad z(L,t)=v_r(t),\\
 d_ly_x(\ell(t)^-,t)-d_rz_x(\ell(t)^+,t)&=-\lambda\ell'(t),
 \end{aligned}
-$$
+```
 
-with initial data $(y_0,z_0,L_0)$ and terminal conditions $y(\cdot,T)=z(\cdot,T)=0$, $\ell(T)=L_T$? Require $\ell\in C^1([0,T])$ and $0<\ell(t)<L$ throughout, with the temperatures continuous in $L^2$ after extension by zero to $(0,L)$. These smooth data satisfy the initial interface compatibility conditions. No sign restrictions or smallness assumptions are imposed on the data or controls.
+with initial data $`(y_0,z_0,L_0)`$ and terminal conditions $`y(\cdot,T)=z(\cdot,T)=0`$, $`\ell(T)=L_T`$? Require $`\ell\in C^1([0,T])`$ and $`0<\ell(t)<L`$ throughout, with the temperatures continuous in $`L^2`$ after extension by zero to $`(0,L)`$. These smooth data satisfy the initial interface compatibility conditions. No sign restrictions or smallness assumptions are imposed on the data or controls.
 
 ## Application
 

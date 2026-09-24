@@ -8,26 +8,26 @@
 
 ## Problem statement
 
-Let $G=(V,E)$ be a finite undirected multigraph with no loops and at least one edge. Parallel edges are distinct elements of $E$. Let $\Delta$ be the maximum vertex degree, counting edge multiplicity.
+Let $`G=(V,E)`$ be a finite undirected multigraph with no loops and at least one edge. Parallel edges are distinct elements of $`E`$. Let $`\Delta`$ be the maximum vertex degree, counting edge multiplicity.
 
-A strong edge-colouring with $k$ colours is a map $c:E\to\{1,\ldots,k\}$ such that distinct edges receive different colours whenever they share an endpoint or there is a third edge sharing an endpoint with each of them. Write $\chi'_s(G)$ for the smallest possible $k$.
+A strong edge-colouring with $`k`$ colours is a map $`c:E\to\{1,\ldots,k\}`$ such that distinct edges receive different colours whenever they share an endpoint or there is a third edge sharing an endpoint with each of them. Write $`\chi'_s(G)`$ for the smallest possible $`k`$.
 
 Prove or disprove the **Erdős–Nešetřil strong edge-colouring conjecture**:
 
-$$
+```math
 \chi'_s(G)\le
 \begin{cases}
 \dfrac{5\Delta^2}{4}, & \Delta\ \text{even},\\[4pt]
 \dfrac{5\Delta^2-2\Delta+1}{4}, & \Delta\ \text{odd},
 \end{cases}
 \qquad\text{for every such }G.
-$$
+```
 
 The colours come from one common palette, and the colouring is integral. There is no restriction on graph size, degree, planarity, cycle lengths or bipartiteness, and no running-time requirement. Parallel edges are included explicitly in the conventions of [1, §1] and [2, §1].
 
-Equivalently, $\chi'_s(G)=\chi(L(G)^2)$: the line graph $L(G)$ has one vertex for each edge of $G$, with adjacency when the original edges share an endpoint, and its square additionally joins vertices at distance two. The degree in the conjectured bound is that of the original multigraph $G$.
+Equivalently, $`\chi'_s(G)=\chi(L(G)^2)`$: the line graph $`L(G)`$ has one vertex for each edge of $`G`$, with adjacency when the original edges share an endpoint, and its square additionally joins vertices at distance two. The degree in the conjectured bound is that of the original multigraph $`G`$.
 
-The proposed values are attained already by simple graphs. For even $\Delta$, replace each vertex of a five-cycle by an independent set of size $\Delta/2$ and each cycle edge by all edges between its two sets. For odd $\Delta\ge3$, use sets of size $(\Delta+1)/2$ at two consecutive cycle vertices and $(\Delta-1)/2$ at the other three. Every two edges conflict, and their number equals the proposed bound. A single edge handles $\Delta=1$. [1, p. 206; 3, §4.1]
+The proposed values are attained already by simple graphs. For even $`\Delta`$, replace each vertex of a five-cycle by an independent set of size $`\Delta/2`$ and each cycle edge by all edges between its two sets. For odd $`\Delta\ge3`$, use sets of size $`(\Delta+1)/2`$ at two consecutive cycle vertices and $`(\Delta-1)/2`$ at the other three. Every two edges conflict, and their number equals the proposed bound. A single edge handles $`\Delta=1`$. [1, p. 206; 3, §4.1]
 
 ## Application
 
@@ -51,11 +51,11 @@ The conjecture asks for the sharp worst-case number of slots as a function of th
 
 Open in cited literature; no later resolution located as of 2026-09-19. Sources [1–3] explicitly pose the parity-sensitive bound. The review checked current and unrestricted searches for proofs, counterexamples, corrected versions and related formulations.
 
-For the simple-graph case, the published general bound in [4, Theorem 1.6] is $1.772\Delta^2$ for sufficiently large $\Delta$. The July 2026 preprint [5, Theorem 1.1] reports an improvement to $1.73\Delta^2$, again at sufficiently large degree. Both constants exceed $5/4$. These simple-graph comparisons do not assert an unverified extension of the newer proofs to multigraphs. At degree four, [2, Theorem 2] gives $21$ colours, including for multigraphs; the target is $20$.
+For the simple-graph case, the published general bound in [4, Theorem 1.6] is $`1.772\Delta^2`$ for sufficiently large $`\Delta`$. The July 2026 preprint [5, Theorem 1.1] reports an improvement to $`1.73\Delta^2`$, again at sufficiently large degree. Both constants exceed $`5/4`$. These simple-graph comparisons do not assert an unverified extension of the newer proofs to multigraphs. At degree four, [2, Theorem 2] gives $`21`$ colours, including for multigraphs; the target is $`20`$.
 
 The bipartite and random-bipartite theorems in [5] impose additional hypotheses. Its random result holds with probability tending to one for fixed edge density and bounded part-size ratio; that does not cover every finite input. The accompanying [formalization record](https://github.com/rossjkang/localflagalgebras/blob/main/RESULTS.md), §§1 and 4, lists certificate calculations and an external colouring theorem among its remaining assumptions. The code and certificates were not rerun in this review.
 
-The counterexample in [7] refutes a different proposed bound of five colours for cubic bipartite graphs of large girth. Its conclusion is $\chi'_s(G)>5$, whereas the present bound at degree three is $10$. Likewise, bounding the largest clique of $L(G)^2$ or treating graphs whose every pair of edges conflicts does not by itself bound the chromatic number for arbitrary $G$.
+The counterexample in [7] refutes a different proposed bound of five colours for cubic bipartite graphs of large girth. Its conclusion is $`\chi'_s(G)>5`$, whereas the present bound at degree three is $`10`$. Likewise, bounding the largest clique of $`L(G)^2`$ or treating graphs whose every pair of edges conflicts does not by itself bound the chromatic number for arbitrary $`G`$.
 
 The [evidence record](../research/expansion-2026-09/candidates/strong-edge-colouring.json) records the full scope comparisons, source access limits and finite-order computational claims. This differs from [entry 336](336-list-edge-colouring.md), which uses edge-specific colour lists and only shared-endpoint conflicts, and [entry 340](340-reed-colouring.md), whose bound depends on the degree and clique number of the graph being vertex-coloured. Parity, fixed-degree cases and the equivalent line-graph formulation are one problem family.
 

@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-Let $K$ be the convolution kernel on $\mathbb R$ whose Fourier transform is $\widehat K(\xi)=\tanh\xi/\xi$, extended continuously at zero. Does there exist $c>1$ and an even continuous profile $v:\mathbb R\to(0,\infty)$, smooth away from zero, strictly decreasing for $x>0$, and tending to zero at infinity, such that
+Let $`K`$ be the convolution kernel on $`\mathbb R`$ whose Fourier transform is $`\widehat K(\xi)=\tanh\xi/\xi`$, extended continuously at zero. Does there exist $`c>1`$ and an even continuous profile $`v:\mathbb R\to(0,\infty)`$, smooth away from zero, strictly decreasing for $`x>0`$, and tending to zero at infinity, such that
 
-$$
+```math
 K*v=c^2v-\frac{3c}{2}v^2+\frac12v^3,\qquad v(0)=c\left(1-\frac1{\sqrt3}\right)?
-$$
+```
 
-The associated surface profile is $\eta=cv-v^2/2$, with $\eta(0)=c^2/3$. These profiles yield a traveling solution $(\eta(x-ct),v(x-ct))$ of
+The associated surface profile is $`\eta=cv-v^2/2`$, with $`\eta(0)=c^2/3`$. These profiles yield a traveling solution $`(\eta(x-ct),v(x-ct))`$ of
 
-$$
+```math
 \partial_t\eta+\partial_x(K*v+\eta v)=0,\qquad\partial_tv+\partial_x(\eta+v^2/2)=0.
-$$
+```
 
 ## Application
 

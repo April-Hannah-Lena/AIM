@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-Over $\mathbb C$, let $\omega$ be the infimum of all real $\tau$ for which two arbitrary $n\times n$ matrices can be multiplied using $O(n^\tau)$ scalar arithmetic operations. Determine whether $\omega=2$.
+Over $`\mathbb C`$, let $`\omega`$ be the infimum of all real $`\tau`$ for which two arbitrary $`n\times n`$ matrices can be multiplied using $`O(n^\tau)`$ scalar arithmetic operations. Determine whether $`\omega=2`$.
 
-Equivalently, for every $\varepsilon>0$, is there an arithmetic algorithm, with constants allowed to depend on $\varepsilon$, using $O(n^{2+\varepsilon})$ operations for every $n$? Arithmetic is exact; bit complexity and numerical stability are separate requirements.
+Equivalently, for every $`\varepsilon>0`$, is there an arithmetic algorithm, with constants allowed to depend on $`\varepsilon`$, using $`O(n^{2+\varepsilon})`$ operations for every $`n`$? Arithmetic is exact; bit complexity and numerical stability are separate requirements.
 
 ## Application
 
@@ -25,6 +25,6 @@ Matrix multiplication underlies dense factorizations, least squares, eigenvalue 
 
 **Literature check:** Open in cited literature; no later resolution located
 
-Checked on **2026-09-08**. The August 2026 result reports $\omega<2.371177$, which remains strictly above the conjectured value. No theorem establishing $\omega=2$ or a lower bound $\omega>2$ was located. A small improvement in the upper bound is not a resolution.
+Checked on **2026-09-08**. The August 2026 result reports $`\omega<2.371177`$, which remains strictly above the conjectured value. No theorem establishing $`\omega=2`$ or a lower bound $`\omega>2`$ was located. A small improvement in the upper bound is not a resolution.
 
 Searches included: `matrix multiplication exponent 2026`; `omega equals two matrix multiplication proof`; `Improving matrix multiplication exponent AlphaEvolve`. This is a documented literature check, not a certification that no solution exists.

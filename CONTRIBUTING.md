@@ -44,9 +44,19 @@ A successful build alone is insufficient. Recheck the evidence when its source r
 
 ## Repository format
 
-Each `problems/NNN-slug.md` has **Area**, **Status**, **Last checked**, and the sections **Problem statement**, **Application**, **References**, and **Status review**. The Application section must contain an explanation or an explicit statement such as “No direct application is identified in this entry.” Such a statement is acceptable; an empty heading or unexplained placeholder is not. Retained problem records in `research/` use the same format. Use GitHub-compatible dollar delimiters for mathematics. The JSON files hold index metadata; the Markdown pages hold the mathematical content.
+Each `problems/NNN-slug.md` has **Area**, **Status**, **Last checked**, and the sections **Problem statement**, **Application**, **References**, and **Status review**. The Application section must contain an explanation or an explicit statement such as “No direct application is identified in this entry.” Such a statement is acceptable; an empty heading or unexplained placeholder is not. Retained problem records in `research/` use the same format. Protect mathematics from Markdown processing as shown below. The JSON files hold index metadata; the Markdown pages hold the mathematical content.
 
-Put each double-dollar display delimiter on its own line, with a blank line before the opening delimiter and after the closing delimiter, including between consecutive equations. Without those paragraph boundaries, GitHub can display the TeX as literal text. For named operators, use core TeX such as `\mathop{\mathrm{Per}}\nolimits(E)`; retain a space after a command when its operand begins with a letter. The catalogue check rejects unsupported operator-name macros and malformed display-block boundaries.
+Use fenced code blocks labelled `math` for display equations and dollar-backtick delimiters for inline equations. Plain dollar delimiters allow Markdown to consume TeX escapes and interpret underscores or asterisks before MathJax sees them. In particular, Markdown turns `\left\{` into the invalid `\left{`. These protected forms are supported by [GitHub's math documentation](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions):
+
+````markdown
+An inline set is $`\left\{x,y\right\}`$.
+
+```math
+\left\{x\in\mathbb R:x>0\right\}
+```
+````
+
+For named operators, use core TeX such as `\mathop{\mathrm{Per}}\nolimits(E)`; retain a space after a command when its operand begins with a letter. The catalogue check rejects unprotected math, unmatched delimiters, and unsupported operator-name macros throughout the Markdown files, including research notes.
 
 From the repository root, using Python 3.10 or later:
 
@@ -56,6 +66,17 @@ python3 scripts/catalogue.py --check
 ```
 
 The write command rebuilds `README.md`, `CATALOG.md`, and `RESOLVED.md`; edit the metadata or the rendering functions in `scripts/catalogue.py` rather than the generated files. The check validates catalogue structure, allowed statuses, page/metadata agreement, required application content, local links, and freshness of all three documents. For Lean verified entries it also requires a nonempty local verification record. It does not run Lean, verify proofs, assess the substance of an application or evidence record, certify open status, or check availability of external websites. Keep the README citation and [CITATION.cff](CITATION.cff) consistent when updating citation details.
+
+For complete math-rendering QA, use the optional pinned dependencies below. They stay in a temporary environment; the ordinary catalogue commands require only the Python standard library.
+
+```sh
+python3 -m venv /tmp/aim-math-check
+/tmp/aim-math-check/bin/pip install -r scripts/requirements-math.txt
+npm install --prefix /tmp/aim-math-check --ignore-scripts --no-save mathjax-full@3.2.2
+NODE_PATH=/tmp/aim-math-check/node_modules /tmp/aim-math-check/bin/python scripts/check_math.py
+```
+
+This check runs every Markdown file through GitHub's `cmark-gfm` parser, verifies that every equation survives with its TeX unchanged, and renders the resulting expressions with MathJax. It fails on lost equations, altered escapes, or MathJax error output. Compiling TeX extracted directly from the source does not test the preceding Markdown stage.
 
 ### IDs, subject membership and publication batches
 

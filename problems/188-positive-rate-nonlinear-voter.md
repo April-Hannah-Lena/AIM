@@ -8,20 +8,20 @@
 
 ## Problem statement
 
-For $L\ge1$, put $N_L=([-L,L]^3\cap\mathbb Z^3)\setminus\{0\}$. Consider spins $\eta(x)\in\{0,1\}$ on $\mathbb Z^3$. At rate $\varepsilon^{-2}$ each site copies a uniformly chosen nearest neighbor. Independently, its additional flip rate is
+For $`L\ge1`$, put $`N_L=([-L,L]^3\cap\mathbb Z^3)\setminus\{0\}`$. Consider spins $`\eta(x)\in\{0,1\}`$ on $`\mathbb Z^3`$. At rate $`\varepsilon^{-2}`$ each site copies a uniformly chosen nearest neighbor. Independently, its additional flip rate is
 
-$$
+```math
 c_L(x,\eta)=\mathbb E\!\left[a_{K(x,\eta,Y)}+\frac1{100}\right],\quad
 (a_0,a_1,a_2,a_3,a_4)=(0,2,3,11/2,7),
-$$
+```
 
-where $Y=(Y_1,\ldots,Y_4)$ is sampled uniformly without replacement from $N_L$ and $K(x,\eta,Y)=\#\{j:\eta(x+Y_j)\ne\eta(x)\}$.
+where $`Y=(Y_1,\ldots,Y_4)`$ is sampled uniformly without replacement from $`N_L`$ and $`K(x,\eta,Y)=\#\{j:\eta(x+Y_j)\ne\eta(x)\}`$.
 
-Do there exist finite $L_0$ and, for every $L\ge L_0$, a number $\varepsilon_0(L)>0$ such that, for $0<\varepsilon<\varepsilon_0(L)$, there are two distinct translation-invariant stationary laws $\nu^-,\nu^+$ with
+Do there exist finite $`L_0`$ and, for every $`L\ge L_0`$, a number $`\varepsilon_0(L)>0`$ such that, for $`0<\varepsilon<\varepsilon_0(L)`$, there are two distinct translation-invariant stationary laws $`\nu^-,\nu^+`$ with
 
-$$
+```math
 \nu^-(\eta(0)=1)<1/2<\nu^+(\eta(0)=1)?
-$$
+```
 
 ## Application
 

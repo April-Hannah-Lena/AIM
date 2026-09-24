@@ -8,21 +8,21 @@
 
 ## Problem statement
 
-Let $K\subset\mathbb R^3$ be the closure of a bounded open set with smooth boundary and connected exterior $\Omega=\mathbb R^3\setminus K$. Consider the Dirichlet Laplacian $-\Delta_D$ on $\Omega$. Let $\mathop{\mathrm{Res}}\nolimits(K)$ be its scattering resonances, the poles of the meromorphic continuation of the outgoing resolvent
+Let $`K\subset\mathbb R^3`$ be the closure of a bounded open set with smooth boundary and connected exterior $`\Omega=\mathbb R^3\setminus K`$. Consider the Dirichlet Laplacian $`-\Delta_D`$ on $`\Omega`$. Let $`\mathop{\mathrm{Res}}\nolimits(K)`$ be its scattering resonances, the poles of the meromorphic continuation of the outgoing resolvent
 
-$$
+```math
 (-\Delta_D-z^2)^{-1}:L^2_{\mathrm{comp}}(\Omega)\longrightarrow H^2_{\mathrm{loc}}(\Omega),
-$$
+```
 
-continued from $\mathop{\mathrm{Im}}\nolimits z>0$ with the outgoing convention $e^{izr}/r$.
+continued from $`\mathop{\mathrm{Im}}\nolimits z>0`$ with the outgoing convention $`e^{izr}/r`$.
 
 Suppose the exterior billiard dynamics is trapping: there is a geometric-optics ray which remains in a bounded region for all forward time, with specular reflection at regular boundary encounters (and the generalized-ray interpretation at tangencies).
 
-Prove or disprove the modified Lax–Phillips conjecture in dimension three: there exists $C=C(K)>0$ such that
+Prove or disprove the modified Lax–Phillips conjecture in dimension three: there exists $`C=C(K)>0`$ such that
 
-$$
+```math
 \#\{z\in\mathop{\mathrm{Res}}\nolimits(K):-C\le\mathop{\mathrm{Im}}\nolimits z<0\}=\infty.
-$$
+```
 
 The strip width may depend on the obstacle. The claim does not require resonances whose imaginary parts approach zero.
 

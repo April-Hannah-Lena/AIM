@@ -8,20 +8,20 @@
 
 ## Problem statement
 
-Let $u\in C^2(\mathbb R^5;(-1,1))$ solve
+Let $`u\in C^2(\mathbb R^5;(-1,1))`$ solve
 
-$$
+```math
 -\Delta u=u-u^3\quad\text{in }\mathbb R^5,\qquad
 \partial_{x_5}u>0\quad\text{everywhere}.
-$$
+```
 
-Must there exist $a\in\mathbb R^5$ with $|a|=1$, $a_5>0$, and $b\in\mathbb R$ such that
+Must there exist $`a\in\mathbb R^5`$ with $`|a|=1`$, $`a_5>0`$, and $`b\in\mathbb R`$ such that
 
-$$
+```math
 u(x)=\tanh\!\left(\frac{a\cdot x-b}{\sqrt2}\right)?
-$$
+```
 
-Do not assume prescribed limits as $x_5\to\pm\infty$, minimizing energy, or an additional energy-growth bound. This is the original monotone De Giorgi question specialized to five dimensions.
+Do not assume prescribed limits as $`x_5\to\pm\infty`$, minimizing energy, or an additional energy-growth bound. This is the original monotone De Giorgi question specialized to five dimensions.
 
 ## Application
 

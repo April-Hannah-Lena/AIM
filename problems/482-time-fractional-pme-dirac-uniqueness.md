@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Fix $d\ge2$, $m>1$, $0<\alpha<1$ and $M>0$. For the Caputo equation $D_t^\alpha u=\Delta(u^m)$ on $\mathbb R^d$, is there at most one nonnegative mass-$M$ weak solution with initial measure $M\delta_0$?
+Fix $`d\ge2`$, $`m>1`$, $`0<\alpha<1`$ and $`M>0`$. For the Caputo equation $`D_t^\alpha u=\Delta(u^m)`$ on $`\mathbb R^d`$, is there at most one nonnegative mass-$`M`$ weak solution with initial measure $`M\delta_0`$?
 
-Here the weak class is $u\in C((0,\infty);L^1(\mathbb R^d))$, $u^m\in L^1_{\rm loc}([0,\infty)\times\mathbb R^d)$, $\int u(t)=M$, and, for each $\phi\in C_c^\infty(\mathbb R^d)$ and almost every $t>0$,
+Here the weak class is $`u\in C((0,\infty);L^1(\mathbb R^d))`$, $`u^m\in L^1_{\rm loc}([0,\infty)\times\mathbb R^d)`$, $`\int u(t)=M`$, and, for each $`\phi\in C_c^\infty(\mathbb R^d)`$ and almost every $`t>0`$,
 
-$$
+```math
 \int u(t,x)\phi(x)\,dx=M\phi(0)+\frac1{\Gamma(\alpha)}\int_0^t(t-r)^{\alpha-1}\int u(r,x)^m\Delta\phi(x)\,dx\,dr.
-$$
+```
 
-Require narrow convergence $u(t,x)dx\rightharpoonup M\delta_0$ as $t\downarrow0$. This Volterra identity specifies the Caputo convention for measure data. Do not impose self-similarity or radial symmetry; the known fundamental profile need not be bounded at the origin.
+Require narrow convergence $`u(t,x)dx\rightharpoonup M\delta_0`$ as $`t\downarrow0`$. This Volterra identity specifies the Caputo convention for measure data. Do not impose self-similarity or radial symmetry; the known fundamental profile need not be bounded at the origin.
 
 ## Application
 

@@ -8,21 +8,21 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^3$ be smooth, bounded and connected, and $0<\theta<\theta_0$. Consider
+Let $`\Omega\subset\mathbb R^3`$ be smooth, bounded and connected, and $`0<\theta<\theta_0`$. Consider
 
-$$
+```math
 \partial_tu=\Delta\mu,\qquad
 \mu=-\Delta u+\frac\theta2\log\frac{1+u}{1-u}-\theta_0u,
 \qquad\partial_\nu u=\partial_\nu\mu=0.
-$$
+```
 
-Take $u_0\in H^1(\Omega)$ with $|u_0|\le1$ almost everywhere and $|\Omega|^{-1}\int_\Omega u_0\in(-1,1)$. Let $u$ be the global energy weak solution: $u\in L^\infty(0,T;H^1)\cap H^1(0,T;H^1{}^*)$, $\mu\in L^2(0,T;H^1)$, the equations hold weakly, and the free energy decreases by $\int|\nabla\mu|^2$. The logarithmic energy density uses the continuous convention $0\log0=0$.
+Take $`u_0\in H^1(\Omega)`$ with $`|u_0|\le1`$ almost everywhere and $`|\Omega|^{-1}\int_\Omega u_0\in(-1,1)`$. Let $`u`$ be the global energy weak solution: $`u\in L^\infty(0,T;H^1)\cap H^1(0,T;H^1{}^*)`$, $`\mu\in L^2(0,T;H^1)`$, the equations hold weakly, and the free energy decreases by $`\int|\nabla\mu|^2`$. The logarithmic energy density uses the continuous convention $`0\log0=0`$.
 
-For every $\tau>0$, must there exist $\delta=\delta(\tau,u_0,\Omega,\theta,\theta_0)>0$ such that
+For every $`\tau>0`$, must there exist $`\delta=\delta(\tau,u_0,\Omega,\theta,\theta_0)>0`$ such that
 
-$$
+```math
 \mathop{\rm ess\,sup}_{(x,t)\in\Omega\times[\tau,\infty)}|u(x,t)|\le1-\delta?
-$$
+```
 
 There is no initial separation or small-energy assumption. The Laplacian in the chemical potential is local and the mobility is constant.
 
@@ -40,4 +40,4 @@ The separation bound prevents a binary-mixture order parameter from approaching 
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-The first two sources distinguish this open local three-dimensional problem from proved separation in two dimensions, at sufficiently late times, or near an energy minimizer. The third source resolves the nonlocal equation, whose chemical potential has an integral interaction operator instead of $-\Delta u$. Searches on 2026-09-22 for local three-dimensional logarithmic Cahn–Hilliard instantaneous separation found no matching theorem. Numerical separation, stronger singular potentials, and eventual separation do not settle the stated quantifier “every $\tau>0$.”
+The first two sources distinguish this open local three-dimensional problem from proved separation in two dimensions, at sufficiently late times, or near an energy minimizer. The third source resolves the nonlocal equation, whose chemical potential has an integral interaction operator instead of $`-\Delta u`$. Searches on 2026-09-22 for local three-dimensional logarithmic Cahn–Hilliard instantaneous separation found no matching theorem. Numerical separation, stronger singular potentials, and eventual separation do not settle the stated quantifier “every $`\tau>0`$.”

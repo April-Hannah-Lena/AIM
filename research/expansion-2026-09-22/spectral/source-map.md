@@ -18,7 +18,7 @@ Admitted page: [sharp-p-poisson-gradient-regularity](../../../problems/424-sharp
 1. S.-C. Lee and T. Lee, [The C-p-prime regularity conjecture near p = 2](https://arxiv.org/abs/2609.09966), preprint (2026), Conjecture 1.1 and Theorem 1.2.
 2. D. J. Araújo, E. V. Teixeira and J. M. Urbano, [A proof of the C-p-prime-regularity conjecture in the plane](https://doi.org/10.1016/j.aim.2017.06.027), *Advances in Mathematics* **316** (2017), 541–553, main theorem; [preprint](https://arxiv.org/abs/1901.03827).
 
-The September 9, 2026 preprint was checked directly: Theorem 1.2 covers $2<p<2+\varepsilon_d$, not arbitrary $p>2$. The planar theorem and higher-dimensional special classes also do not cover the quantifiers above. Searches for the conjecture, endpoint p-Poisson regularity, and 2026 proofs located no full higher-dimensional result beyond this near-quadratic range.
+The September 9, 2026 preprint was checked directly: Theorem 1.2 covers $`2<p<2+\varepsilon_d`$, not arbitrary $`p>2`$. The planar theorem and higher-dimensional special classes also do not cover the quantifiers above. Searches for the conjecture, endpoint p-Poisson regularity, and 2026 proofs located no full higher-dimensional result beyond this near-quadratic range.
 
 ## 3. Global L2 scattering for the planar hyperbolic cubic Schrödinger equation
 
@@ -36,7 +36,7 @@ Admitted page: [complex-schrodinger-subunit-moments](../../../problems/426-compl
 1. J.-C. Cuenin and R. L. Frank, [Open problem: Violation of locality for Schrödinger operators with complex potentials](https://arxiv.org/abs/2409.11285), preprint (2024), §1.2, Question 1, equation (7).
 2. M. Demuth, M. Hansmann and G. Katriel, [On the discrete spectrum of non-selfadjoint operators](https://doi.org/10.1016/j.jfa.2009.07.018), *Journal of Functional Analysis* **257** (2009), 2742–2759, eigenvalue bounds and Schrödinger applications.
 
-The known estimate quoted in the source assumes $\gamma\ge1$. Searches for Cuenin–Frank Question 1, complex Lieb–Thirring bounds with $\gamma<1$, and 2025–2026 eigenvalue-sum results found no unrestricted resolution. Counterexamples at $\sigma=d/2$ and to the unweighted Laptev–Safronov bound concern different estimates.
+The known estimate quoted in the source assumes $`\gamma\ge1`$. Searches for Cuenin–Frank Question 1, complex Lieb–Thirring bounds with $`\gamma<1`$, and 2025–2026 eigenvalue-sum results found no unrestricted resolution. Counterexamples at $`\sigma=d/2`$ and to the unweighted Laptev–Safronov bound concern different estimates.
 
 ## 5. Nonempty spectrum for a magnetic complex Airy operator at every field strength
 
@@ -45,7 +45,7 @@ Admitted page: [magnetic-airy-half-plane-spectrum](../../../problems/427-magneti
 1. Y. Almog, [Magnetic Schrödinger operator](https://nsa.fjfi.cvut.cz/problems/04_AIM_2015/2015-02/2015-02_AIM_Almog_2.pdf), AIM nonselfadjoint spectral theory problem 2015-02, p. 1.
 2. B. Helffer, [On spectral problems related to a time dependent model in superconductivity with electric current](https://doi.org/10.5802/jedp.56), *Journées Équations aux Dérivées Partielles* (2009), Exposé 3, 1–16, discussion of the Almog–Helffer–Pan magnetic models.
 
-Almog records nonempty spectrum for sufficiently small and sufficiently large $|c|$. Searches through the review date for this magnetic half-plane operator, Almog–Helffer–Pan spectral nonemptiness, and later complex Airy papers did not locate a proof for every nonzero $c$. Empty-spectrum results for the nonmagnetic complex Airy operator do not apply.
+Almog records nonempty spectrum for sufficiently small and sufficiently large $`|c|`$. Searches through the review date for this magnetic half-plane operator, Almog–Helffer–Pan spectral nonemptiness, and later complex Airy papers did not locate a proof for every nonzero $`c`$. Empty-spectrum results for the nonmagnetic complex Airy operator do not apply.
 
 ## 6. Reality of the spectrum for a spherical strip with PT-symmetric boundary conditions
 
@@ -91,7 +91,7 @@ Admitted page: [imaginary-sublinear-potential-completeness](../../../problems/43
 1. Y. Almog, [Completeness of eigenfunctions for Schrödinger operators with complex potentials](https://nsa.fjfi.cvut.cz/problems/04_AIM_2015/2015-01/2015-01_AIM_Almog_1.pdf), AIM problem 2015-01.
 2. S. Tumanov, [Completeness theorem for the system of eigenfunctions of the complex Schrödinger operator with power potential](https://arxiv.org/abs/2101.01680), *Journal of Differential Equations* **319** (2022), 80–99, introduction, Theorem 1 and its corollary.
 
-Tumanov proves completeness when $|\arg c|<\theta_0(\alpha)<\pi\alpha$, including $c=i$ for exponents sufficiently close to $2/3$. For $0<\alpha\le1/2$, this sector cannot contain $\arg i=\pi/2$. Searches for later Tumanov, Almog, and imaginary power-potential completeness results through the review date found no theorem covering this remaining range.
+Tumanov proves completeness when $`|\arg c|<\theta_0(\alpha)<\pi\alpha`$, including $`c=i`$ for exponents sufficiently close to $`2/3`$. For $`0<\alpha\le1/2`$, this sector cannot contain $`\arg i=\pi/2`$. Searches for later Tumanov, Almog, and imaginary power-potential completeness results through the review date found no theorem covering this remaining range.
 
 ## 11. An optimal Weyl remainder for interior transmission eigenvalues
 
@@ -100,7 +100,7 @@ Admitted page: [transmission-eigenvalue-sharp-weyl-remainder](../../../problems/
 1. G. Vodev, [Asymptotic behavior of the transmission eigenvalues](https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/2045-04.pdf), *RIMS Kôkyûroku* **2045** (2017), 61–66, §7, Conjecture 1, equation (19).
 2. V. Petkov and G. Vodev, [Asymptotics of the number of the interior transmission eigenvalues](https://www.math.u-bordeaux.fr/~vpetkov/publications/p-v2.pdf), *Journal of Spectral Theory* **7** (2017), §1, Theorem 1.1 and discussion of the remainder.
 
-The conjecture asks to remove the positive power loss from the almost optimal $O_\varepsilon(r^{d-1+\varepsilon})$ remainder. Searches for transmission Weyl remainders, Vodev’s conjecture, and 2023–2026 asymptotics located general leading-term and special-geometry results, but no $O(r^{d-1})$ theorem for every smooth domain in this isotropic class.
+The conjecture asks to remove the positive power loss from the almost optimal $`O_\varepsilon(r^{d-1+\varepsilon})`$ remainder. Searches for transmission Weyl remainders, Vodev’s conjecture, and 2023–2026 asymptotics located general leading-term and special-geometry results, but no $`O(r^{d-1})`$ theorem for every smooth domain in this isotropic class.
 
 ## 12. Classical attenuation versus uniform semiclassical local decay
 

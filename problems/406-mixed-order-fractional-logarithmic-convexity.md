@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^n$ be a bounded smooth domain and fix $0<\alpha_1<\alpha_2<1$ and $T>0$. For homogeneous Dirichlet boundary conditions consider
+Let $`\Omega\subset\mathbb R^n`$ be a bounded smooth domain and fix $`0<\alpha_1<\alpha_2<1`$ and $`T>0`$. For homogeneous Dirichlet boundary conditions consider
 
-$$
+```math
 \partial_t^{\alpha_1}u_1=\Delta u_1+u_1+u_2,\qquad \partial_t^{\alpha_2}u_2=\Delta u_2+u_1+u_2,
-$$
+```
 
-with initial pair $U_0\in L^2(\Omega)^2$. Each derivative is Caputo: $\partial_t^\alpha h=\Gamma(1-\alpha)^{-1}\int_0^t(t-s)^{-\alpha}h'(s)\,ds$. Writing $U=(u_1,u_2)$ and using the product $L^2$ norm, is there a constant $C=C(\Omega,\alpha_1,\alpha_2,T)$ independent of $U_0$ such that
+with initial pair $`U_0\in L^2(\Omega)^2`$. Each derivative is Caputo: $`\partial_t^\alpha h=\Gamma(1-\alpha)^{-1}\int_0^t(t-s)^{-\alpha}h'(s)\,ds`$. Writing $`U=(u_1,u_2)`$ and using the product $`L^2`$ norm, is there a constant $`C=C(\Omega,\alpha_1,\alpha_2,T)`$ independent of $`U_0`$ such that
 
-$$
+```math
 \|U(t)\|\le C\|U_0\|^{1-t/T}\|U(T)\|^{t/T}\qquad(0<t<T)
-$$
+```
 
 for every mild solution?
 

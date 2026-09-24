@@ -8,23 +8,23 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^n$ be a bounded connected smooth domain with $|\Omega|=1$, and let $d_1,d_2,d_3>0$. Consider the unique global bounded classical solution of
+Let $`\Omega\subset\mathbb R^n`$ be a bounded connected smooth domain with $`|\Omega|=1`$, and let $`d_1,d_2,d_3>0`$. Consider the unique global bounded classical solution of
 
-$$
+```math
 a_t-d_1\Delta a=b(c-a),\qquad b_t-d_2\Delta b=b(c-a),\qquad c_t-d_3\Delta c=-b(c-a),
-$$
+```
 
-with homogeneous Neumann boundary conditions. Assume $a_0,b_0,c_0\in C^2(\overline\Omega)$ are strictly positive and satisfy the Neumann compatibility conditions. Put
+with homogeneous Neumann boundary conditions. Assume $`a_0,b_0,c_0\in C^2(\overline\Omega)`$ are strictly positive and satisfy the Neumann compatibility conditions. Put
 
-$$
+```math
 M_1=\int_\Omega(a_0+c_0),\qquad M_2=\int_\Omega(b_0+c_0),
-$$
+```
 
-and assume $M_2\le M_1<2M_2$. Is it true that
+and assume $`M_2\le M_1<2M_2`$. Is it true that
 
-$$
+```math
 \lim_{t\to\infty}\left[\|a(t)-M_1/2\|_\infty+\|b(t)-(M_2-M_1/2)\|_\infty+\|c(t)-M_1/2\|_\infty\right]=0?
-$$
+```
 
 ## Application
 

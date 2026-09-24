@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $A>0$. For every bounded open set $\Omega\subset\mathbb R^2$ with $|\Omega|=A$, let $\lambda_3(\Omega)$ denote the third Dirichlet eigenvalue of $-\Delta$, counted with multiplicity. Let $B$ be the disk of area $A$. Prove or disprove
+Let $`A>0`$. For every bounded open set $`\Omega\subset\mathbb R^2`$ with $`|\Omega|=A`$, let $`\lambda_3(\Omega)`$ denote the third Dirichlet eigenvalue of $`-\Delta`$, counted with multiplicity. Let $`B`$ be the disk of area $`A`$. Prove or disprove
 
-$$
+```math
 \lambda_3(\Omega)\ge\lambda_3(B)=\frac{\pi j_{1,1}^2}{A},
-$$
+```
 
-where $j_{1,1}$ is the first positive zero of the Bessel function $J_1$. Disconnected competitors are allowed.
+where $`j_{1,1}`$ is the first positive zero of the Bessel function $`J_1`$. Disconnected competitors are allowed.
 
 ## Application
 

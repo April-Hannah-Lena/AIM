@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-At each $x\in\mathbb Z^2$ let $H_x,D_x\in\mathbb N_0$ count hawks and doves. Individuals migrate at rate $\mu$ to a uniform nearest neighbor and die from crowding at rate $\kappa(H_x+D_x)$. For $N_L=\{z:\|z\|_\infty\le L\}$ set $p_x=\sum_{z\in N_L}H_{x+z}/\sum_{z\in N_L}(H_{x+z}+D_{x+z})$, with $p_x=0$ when the denominator vanishes. The additional per-individual game rate is $r_H=-0.6p_x+0.9(1-p_x)$ for hawks and $r_D=-0.9p_x+0.37(1-p_x)$ for doves: positive rate creates an offspring at $x$, negative rate adds death at its absolute value. Do some finite $L\ge1$ and $\mu,\kappa>0$ admit a translation-invariant stationary law with finite mean population per site, supported on configurations containing infinitely many individuals of both types?
+At each $`x\in\mathbb Z^2`$ let $`H_x,D_x\in\mathbb N_0`$ count hawks and doves. Individuals migrate at rate $`\mu`$ to a uniform nearest neighbor and die from crowding at rate $`\kappa(H_x+D_x)`$. For $`N_L=\{z:\|z\|_\infty\le L\}`$ set $`p_x=\sum_{z\in N_L}H_{x+z}/\sum_{z\in N_L}(H_{x+z}+D_{x+z})`$, with $`p_x=0`$ when the denominator vanishes. The additional per-individual game rate is $`r_H=-0.6p_x+0.9(1-p_x)`$ for hawks and $`r_D=-0.9p_x+0.37(1-p_x)`$ for doves: positive rate creates an offspring at $`x`$, negative rate adds death at its absolute value. Do some finite $`L\ge1`$ and $`\mu,\kappa>0`$ admit a translation-invariant stationary law with finite mean population per site, supported on configurations containing infinitely many individuals of both types?
 
 ## Application
 

@@ -7,9 +7,9 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-Let $q\in L^1_{\mathrm{loc}}(\mathbb R;\mathbb C)$ have period $a>0$. For $-u''+qu=\lambda u$, let $c,s$ have initial values $(c,c')=(1,0)$ and $(s,s')=(0,1)$ at $x_0$. Write $M(\lambda)$ for the period monodromy matrix and $\Delta(\lambda)=\mathop{\mathrm{tr}}\nolimits M(\lambda)$. For each $\lambda$, define $d(\lambda)$ as its zero order in $\Delta^2-4$, and $p(x_0,\lambda),r(x_0,\lambda)$ as its zero orders in $s(x_0+a,x_0,\lambda)$ and $c'(x_0+a,x_0,\lambda)$; a nonzero value has order zero. Put $p_i=\min_{x_0\in[0,a]}p$ and $r_i=\min_{x_0\in[0,a]}r$.
+Let $`q\in L^1_{\mathrm{loc}}(\mathbb R;\mathbb C)`$ have period $`a>0`$. For $`-u''+qu=\lambda u`$, let $`c,s`$ have initial values $`(c,c')=(1,0)`$ and $`(s,s')=(0,1)`$ at $`x_0`$. Write $`M(\lambda)`$ for the period monodromy matrix and $`\Delta(\lambda)=\mathop{\mathrm{tr}}\nolimits M(\lambda)`$. For each $`\lambda`$, define $`d(\lambda)`$ as its zero order in $`\Delta^2-4`$, and $`p(x_0,\lambda),r(x_0,\lambda)`$ as its zero orders in $`s(x_0+a,x_0,\lambda)`$ and $`c'(x_0+a,x_0,\lambda)`$; a nonzero value has order zero. Put $`p_i=\min_{x_0\in[0,a]}p`$ and $`r_i=\min_{x_0\in[0,a]}r`$.
 
-Can $d(\lambda)>p_i(\lambda)+r_i(\lambda)$ occur when $M(\lambda)=I$ or $M(\lambda)=-I$? Equivalently, can positive excess multiplicity coexist with two linearly independent periodic or antiperiodic solutions? Either an example or a universal impossibility theorem resolves the question.
+Can $`d(\lambda)>p_i(\lambda)+r_i(\lambda)`$ occur when $`M(\lambda)=I`$ or $`M(\lambda)=-I`$? Equivalently, can positive excess multiplicity coexist with two linearly independent periodic or antiperiodic solutions? Either an example or a universal impossibility theorem resolves the question.
 
 ## Application
 

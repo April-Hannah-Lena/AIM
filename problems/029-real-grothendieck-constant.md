@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Determine the smallest real number $K_G$ such that, for all positive integers $m,n,d$, every real matrix $A=(a_{ij})\in\mathbb R^{m\times n}$ and all unit vectors $u_i,v_j\in\mathbb R^d$,
+Determine the smallest real number $`K_G`$ such that, for all positive integers $`m,n,d`$, every real matrix $`A=(a_{ij})\in\mathbb R^{m\times n}`$ and all unit vectors $`u_i,v_j\in\mathbb R^d`$,
 
-$$
+```math
 \left|\sum_{i=1}^m\sum_{j=1}^n a_{ij}\langle u_i,v_j\rangle\right|
 \le K_G\max_{\epsilon_i,\delta_j\in\{-1,1\}}
 \left|\sum_{i=1}^m\sum_{j=1}^n a_{ij}\epsilon_i\delta_j\right|.
-$$
+```
 
 The target is the exact universal real constant, with matching sharp upper and lower bounds.
 
@@ -32,6 +32,6 @@ This constant measures the worst loss when a sign-constrained bilinear optimizat
 
 **Literature check:** Open in cited literature; no later resolution located
 
-Checked on **2026-09-08**. The August 2026 preprint gives $6\pi/11\le K_G\le\pi/(2\log(1+\sqrt2))-10^{-4}$, leaving a nonzero gap. These recent improvements supersede older numerical intervals but do not determine the exact constant.
+Checked on **2026-09-08**. The August 2026 preprint gives $`6\pi/11\le K_G\le\pi/(2\log(1+\sqrt2))-10^{-4}`$, leaving a nonzero gap. These recent improvements supersede older numerical intervals but do not determine the exact constant.
 
 Searches included: `Grothendieck constant exact 2026`; `New Lower Upper Bounds Grothendieck Constant`; `Grothendieck constant solved`. This is a documented literature check, not a certification that no solution exists.

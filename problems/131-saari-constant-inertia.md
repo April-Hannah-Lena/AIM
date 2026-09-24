@@ -8,14 +8,14 @@
 
 ## Problem statement
 
-Fix $N\ge4$ and masses $m_1,\ldots,m_N>0$. Let collision-free planar positions $q_i:J\to\mathbb R^2$ solve Newton's equations on an open time interval $J$:
+Fix $`N\ge4`$ and masses $`m_1,\ldots,m_N>0`$. Let collision-free planar positions $`q_i:J\to\mathbb R^2`$ solve Newton's equations on an open time interval $`J`$:
 
-$$
+```math
 \ddot q_i=\sum_{j\ne i}m_j\frac{q_j-q_i}{|q_j-q_i|^3},
 \qquad \sum_i m_iq_i=0.
-$$
+```
 
-If the polar moment of inertia $I(t)=\sum_i m_i|q_i(t)|^2$ is constant, must the solution be a relative equilibrium? That is, must there be a constant $\omega$ such that $q_i(t)=R_{\omega(t-t_0)}q_i(t_0)$ for all $i,t$, where $R_\theta$ is planar rotation by $\theta$?
+If the polar moment of inertia $`I(t)=\sum_i m_i|q_i(t)|^2`$ is constant, must the solution be a relative equilibrium? That is, must there be a constant $`\omega`$ such that $`q_i(t)=R_{\omega(t-t_0)}q_i(t_0)`$ for all $`i,t`$, where $`R_\theta`$ is planar rotation by $`\theta`$?
 
 ## Application
 

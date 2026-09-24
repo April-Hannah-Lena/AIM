@@ -7,19 +7,19 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-Put $g(t)=2^{1/4}e^{-\pi t^2}$. For each $\delta>1$ and full-rank lattice $\Lambda\subset\mathbb R^2$ of covolume $1/\delta$, let $A_\Lambda,B_\Lambda$ be the largest lower and smallest upper constants in
+Put $`g(t)=2^{1/4}e^{-\pi t^2}`$. For each $`\delta>1`$ and full-rank lattice $`\Lambda\subset\mathbb R^2`$ of covolume $`1/\delta`$, let $`A_\Lambda,B_\Lambda`$ be the largest lower and smallest upper constants in
 
-$$
+```math
 A_\Lambda\|f\|_2^2\le\sum_{(x,\omega)\in\Lambda}\left|\int_{\mathbb R}f(t)\overline{e^{2\pi i\omega t}g(t-x)}\,dt\right|^2\le B_\Lambda\|f\|_2^2\qquad(f\in L^2(\mathbb R)).
-$$
+```
 
 These frame bounds are positive and finite. Let
 
-$$
+```math
 \Lambda_{\rm hex}=\delta^{-1/2}(2/\sqrt3)^{1/2}\begin{pmatrix}1&1/2\\0&\sqrt3/2\end{pmatrix}\mathbb Z^2.
-$$
+```
 
-Is $B_\Lambda/A_\Lambda\ge B_{\Lambda_{\rm hex}}/A_{\Lambda_{\rm hex}}$ for every such lattice and every $\delta>1$?
+Is $`B_\Lambda/A_\Lambda\ge B_{\Lambda_{\rm hex}}/A_{\Lambda_{\rm hex}}`$ for every such lattice and every $`\delta>1`$?
 
 ## Application
 

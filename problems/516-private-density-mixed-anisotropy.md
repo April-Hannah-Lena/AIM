@@ -8,39 +8,39 @@
 
 ## Problem statement
 
-Fix $d\ge2$, $R^2>d$, $A>0$, and vectors $\boldsymbol\beta,\boldsymbol\delta\in\mathbb N_{>0}^d$ such that $\beta_m/\delta_m$ is independent of $m$. Assume that some $\delta_m<d$ and some $\delta_k>d$.
+Fix $`d\ge2`$, $`R^2>d`$, $`A>0`$, and vectors $`\boldsymbol\beta,\boldsymbol\delta\in\mathbb N_{>0}^d`$ such that $`\beta_m/\delta_m`$ is independent of $`m`$. Assume that some $`\delta_m<d`$ and some $`\delta_k>d`$.
 
-Use the real Fourier basis $\phi_1(t)=1$, $\phi_{2j}(t)=\sqrt2\cos(2\pi jt)$ and $\phi_{2j+1}(t)=\sqrt2\sin(2\pi jt)$ for $j\ge1$, and its tensor products $\phi_{\mathbf j}(x)=\prod_m\phi_{j_m}(x_m)$. Write $\theta_{\mathbf j}(h)=\int_{[0,1]^d}h\phi_{\mathbf j}$ and define
+Use the real Fourier basis $`\phi_1(t)=1`$, $`\phi_{2j}(t)=\sqrt2\cos(2\pi jt)`$ and $`\phi_{2j+1}(t)=\sqrt2\sin(2\pi jt)`$ for $`j\ge1`$, and its tensor products $`\phi_{\mathbf j}(x)=\prod_m\phi_{j_m}(x_m)`$. Write $`\theta_{\mathbf j}(h)=\int_{[0,1]^d}h\phi_{\mathbf j}`$ and define
 
-$$
+```math
 W^{\mathbf s}(r)=\left\{h\in L^2([0,1]^d):
 \sum_{\mathbf j\in\mathbb N_{>0}^d}\left(\sum_{m=1}^d j_m^{2s_m}\right)|\theta_{\mathbf j}(h)|^2\le r^2\right\}.
-$$
+```
 
-Let $\mathcal F_{\boldsymbol\beta,R}$ be the probability densities in $W^{\boldsymbol\beta}(R)$, and set
+Let $`\mathcal F_{\boldsymbol\beta,R}`$ be the probability densities in $`W^{\boldsymbol\beta}(R)`$, and set
 
-$$
+```math
 d_{\boldsymbol\delta}(h,f)=\sup_{g\in W^{\boldsymbol\delta}(1)}\left|\int_{[0,1]^d}(h-f)g\right|.
-$$
+```
 
-Given $n$ independent observations with density $f$, a sequentially interactive $\alpha$-locally private mechanism releases $Z_i$ through a channel $Q_i(\cdot\mid X_i,Z_1,\ldots,Z_{i-1})$ satisfying
+Given $`n`$ independent observations with density $`f`$, a sequentially interactive $`\alpha`$-locally private mechanism releases $`Z_i`$ through a channel $`Q_i(\cdot\mid X_i,Z_1,\ldots,Z_{i-1})`$ satisfying
 
-$$
+```math
 Q_i(B\mid x,z_{<i})\le e^\alpha Q_i(B\mid x',z_{<i})
-$$
+```
 
-for every measurable $B$, all $x,x'$ and all histories $z_{<i}$. Denote the class of these mechanisms by $\mathcal Q_\alpha$.
+for every measurable $`B`$, all $`x,x'`$ and all histories $`z_{<i}`$. Denote the class of these mechanisms by $`\mathcal Q_\alpha`$.
 
-Determine, up to multiplicative constants independent of $n$ and $\alpha$, the minimax risk
+Determine, up to multiplicative constants independent of $`n`$ and $`\alpha`$, the minimax risk
 
-$$
+```math
 \mathcal R_{n,\alpha}(\boldsymbol\beta,\boldsymbol\delta)
 =\inf_{Q\in\mathcal Q_\alpha}\inf_{\widehat f}
 \sup_{f\in\mathcal F_{\boldsymbol\beta,R}}
 \mathbb E_{f,Q}\,d_{\boldsymbol\delta}(\widehat f,f),
-$$
+```
 
-for $0<\alpha\le A$ and $n\alpha^2\ge1$. Estimators are measurable $L^2$-valued functions of the released data. The parameters $d,R,\boldsymbol\beta,\boldsymbol\delta$ are known and fixed. Matching lower and upper bounds must include any necessary logarithmic factors.
+for $`0<\alpha\le A`$ and $`n\alpha^2\ge1`$. Estimators are measurable $`L^2`$-valued functions of the released data. The parameters $`d,R,\boldsymbol\beta,\boldsymbol\delta`$ are known and fixed. Matching lower and upper bounds must include any necessary logarithmic factors.
 
 ## Application
 
@@ -54,14 +54,14 @@ Different coordinates of a multivariate density can have different smoothness. S
 
 Theorem 10 of [1] gives the lower bound
 
-$$
+```math
 \mathcal R_{n,\alpha}\gtrsim
 \max\left\{(n\alpha^2)^{-(\bar\beta+\bar\delta)/(2\bar\beta+2d)},
 (n\alpha^2)^{-1/2}\right\},\qquad
 \bar\beta^{-1}=d^{-1}\sum_m\beta_m^{-1},\quad
 \bar\delta^{-1}=d^{-1}\sum_m\delta_m^{-1}.
-$$
+```
 
-Theorem 11 supplies matching rates when every discriminator smoothness is below $d$, or every one is above $d$. Its separate all-equal-to-$d$ bound has a logarithmic gap. The paragraph after that theorem explicitly leaves minimax optimality open when the coordinates do not share a regime. The target here is the strict mixed case; the displayed lower bound is not asserted to be sharp there.
+Theorem 11 supplies matching rates when every discriminator smoothness is below $`d`$, or every one is above $`d`$. Its separate all-equal-to-$`d`$ bound has a logarithmic gap. The paragraph after that theorem explicitly leaves minimax optimality open when the coordinates do not share a regime. The target here is the strict mixed case; the displayed lower bound is not asserted to be sharp there.
 
 The published March 2026 formulation and the arXiv version history (latest v2, July 2025) were checked. Title, author and topic searches on 24 September 2026, including indexed arXiv, Zenodo, GitHub and Palomar searches, located no matching resolution or announcement.

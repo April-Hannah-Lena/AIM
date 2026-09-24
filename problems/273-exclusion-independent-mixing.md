@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $G=(V,E)$ be any connected finite graph with $n$ vertices and positive symmetric edge rates $r_e$. In the $k$-particle exclusion process, each edge rings at rate $r_e$ and exchanges its endpoint occupations; $1\le k\le n/2$. Compare it with $k$ independent continuous-time walkers, each jumping across $e$ at rate $r_e$, allowing coincidences. The equilibrium laws are respectively uniform on $k$-subsets and uniform on $V^k$. With worst-start total-variation mixing times at error $1/4$, is there an absolute $C$ such that $t_{\rm mix}({\rm EX}(k))\le C\,t_{\rm mix}({\rm RW}^{\otimes k})$ for all choices of $G,r,k$?
+Let $`G=(V,E)`$ be any connected finite graph with $`n`$ vertices and positive symmetric edge rates $`r_e`$. In the $`k`$-particle exclusion process, each edge rings at rate $`r_e`$ and exchanges its endpoint occupations; $`1\le k\le n/2`$. Compare it with $`k`$ independent continuous-time walkers, each jumping across $`e`$ at rate $`r_e`$, allowing coincidences. The equilibrium laws are respectively uniform on $`k`$-subsets and uniform on $`V^k`$. With worst-start total-variation mixing times at error $`1/4`$, is there an absolute $`C`$ such that $`t_{\rm mix}({\rm EX}(k))\le C\,t_{\rm mix}({\rm RW}^{\otimes k})`$ for all choices of $`G,r,k`$?
 
 ## Application
 

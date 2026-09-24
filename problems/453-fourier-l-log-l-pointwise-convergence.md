@@ -7,13 +7,13 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-Let $\mathbb T=\mathbb R/\mathbb Z$ with normalized Lebesgue measure. Suppose $f:\mathbb T\to\mathbb C$ is measurable and
+Let $`\mathbb T=\mathbb R/\mathbb Z`$ with normalized Lebesgue measure. Suppose $`f:\mathbb T\to\mathbb C`$ is measurable and
 
-$$
+```math
 \int_{\mathbb T}|f(x)|\log(e+|f(x)|)\,dx<\infty.
-$$
+```
 
-Define $\widehat f(k)=\int_{\mathbb T}f(x)e^{-2\pi ikx}\,dx$ and the symmetric partial sums $S_Nf(x)=\sum_{k=-N}^{N}\widehat f(k)e^{2\pi ikx}$. Must $S_Nf(x)\to f(x)$ for almost every $x$ as $N\to\infty$? The assertion concerns the full sequence of partial sums, without averaging or restriction to a sparse subsequence.
+Define $`\widehat f(k)=\int_{\mathbb T}f(x)e^{-2\pi ikx}\,dx`$ and the symmetric partial sums $`S_Nf(x)=\sum_{k=-N}^{N}\widehat f(k)e^{2\pi ikx}`$. Must $`S_Nf(x)\to f(x)`$ for almost every $`x`$ as $`N\to\infty`$? The assertion concerns the full sequence of partial sums, without averaging or restriction to a sparse subsequence.
 
 ## Application
 

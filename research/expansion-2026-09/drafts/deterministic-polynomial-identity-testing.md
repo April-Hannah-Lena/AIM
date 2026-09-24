@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-An arithmetic circuit is a finite directed acyclic graph with one designated output. Input gates contain variables $x_1,\ldots,x_n$ or rational constants; every other gate has two inputs and applies addition or multiplication. Gates may feed more than one later gate. Operations take place in the ordinary commutative, associative polynomial ring $\mathbb Q[x_1,\ldots,x_n]$; subtraction can be implemented using the constant $-1$.
+An arithmetic circuit is a finite directed acyclic graph with one designated output. Input gates contain variables $`x_1,\ldots,x_n`$ or rational constants; every other gate has two inputs and applies addition or multiplication. Gates may feed more than one later gate. Operations take place in the ordinary commutative, associative polynomial ring $`\mathbb Q[x_1,\ldots,x_n]`$; subtraction can be implemented using the constant $`-1`$.
 
-Let $L$ be the bit length of an explicit encoding of the graph, its gate labels and its rational constants, whose numerators and nonzero denominators are written in binary. The input also contains an integer $d\ge1$ in unary, with the promise that the polynomial computed at every gate has total degree at most $d$. The zero polynomial is permitted at any gate. Write $f_C$ for the output polynomial.
+Let $`L`$ be the bit length of an explicit encoding of the graph, its gate labels and its rational constants, whose numerators and nonzero denominators are written in binary. The input also contains an integer $`d\ge1`$ in unary, with the promise that the polynomial computed at every gate has total degree at most $`d`$. The zero polynomial is permitted at any gate. Write $`f_C`$ for the output polynomial.
 
-Do there exist a deterministic Turing machine $A$ and absolute constants $K,c>0$ such that, for every valid input $(C,d)$, $A$ uses at most $K(L+d)^c$ bit operations and correctly decides whether
+Do there exist a deterministic Turing machine $`A`$ and absolute constants $`K,c>0`$ such that, for every valid input $`(C,d)`$, $`A`$ uses at most $`K(L+d)^c`$ bit operations and correctly decides whether
 
-$$
+```math
 f_C\equiv0\quad\text{in }\mathbb Q[x_1,\ldots,x_n]?
-$$
+```
 
 The machine receives the entire circuit and must work for all inputs satisfying the degree promise. There is no restriction on circuit depth, number of occurrences of a variable, or number of monomials. The conclusion is unconditional and requires no random choices. This is the rational-coefficient, bounded-degree, white-box version of polynomial identity testing (PIT).
 
@@ -32,7 +32,7 @@ Testing whether two symbolic computations are exactly equivalent reduces to appl
 4. Partha Mukhopadhyay, C. Ramya and Pratik Shastri, *Efficient Polynomial Identity Testing Over Nonassociative Algebras*, [arXiv:2509.11349v1](https://arxiv.org/html/2509.11349v1), September 14, 2025, §1 and Theorem 3. Independent statement of the ordinary PIT gap and a result for a different algebra.
 5. Robert Andrews, Deepanshu Kush and Roei Tell, *Polynomial-Time PIT from (Almost) Necessary Assumptions*, [ECCC TR25-042](https://eccc.weizmann.ac.il/report/2025/042/), April 8, 2025, Theorems 1.2–1.4 and 7.3–7.4, and Remark 1.5. Conditional derandomization and its computational model.
 6. Amir Shpilka and Yann Tal, *Polynomial Identity Testing and Reconstruction for Depth-4 Powering Circuits of High Degree*, [arXiv:2602.20832v1](https://arxiv.org/abs/2602.20832v1), February 24, 2026; [full text](https://eccc.weizmann.ac.il/report/2026/029/download), Theorem 1.1. Restricted powering circuits.
-7. Zeyu Guo, *A Note on Deterministic PIT for $\Sigma^{[3]}\Pi\Sigma\Pi^{[\delta]}$ Circuits*, [ECCC TR26-168](https://eccc.weizmann.ac.il/report/2026/168/), posted September 6, 2026, Theorem 2.6 and Corollary 2.7. Three summands and fixed bottom degree.
+7. Zeyu Guo, *A Note on Deterministic PIT for $`\Sigma^{[3]}\Pi\Sigma\Pi^{[\delta]}`$ Circuits*, [ECCC TR26-168](https://eccc.weizmann.ac.il/report/2026/168/), posted September 6, 2026, Theorem 2.6 and Corollary 2.7. Three summands and fixed bottom degree.
 8. Nimrod Kaplan and Amir Shpilka, *Polynomial Identity Testing for Read-4 Arithmetic Formulas*, CCC 2026, LIPIcs 383, 25:1–25:18, [published paper](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.CCC.2026.25), July 23, 2026, §1.1, Theorems 2–3.
 
 ## Status review

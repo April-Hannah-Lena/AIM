@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Determine $M(6)$, the largest integer $r$ for which there exist orthonormal bases $B_a=\{u_{a1},\ldots,u_{a6}\}$ of $\mathbb C^6$, $1\le a\le r$, with
+Determine $`M(6)`$, the largest integer $`r`$ for which there exist orthonormal bases $`B_a=\{u_{a1},\ldots,u_{a6}\}`$ of $`\mathbb C^6`$, $`1\le a\le r`$, with
 
-$$
+```math
 |\langle u_{ai},u_{bj}\rangle|^2=\frac16\quad(a\ne b,\ 1\le i,j\le6).
-$$
+```
 
-In particular, decide whether four such bases exist. The known general bounds are $3\le M(6)\le7$; constructions in prime-power dimensions do not settle dimension six.
+In particular, decide whether four such bases exist. The known general bounds are $`3\le M(6)\le7`$; constructions in prime-power dimensions do not settle dimension six.
 
 ## Application
 

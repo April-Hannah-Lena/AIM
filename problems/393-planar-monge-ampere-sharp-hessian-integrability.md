@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $0<\lambda<1$, let $\Omega\subset\mathbb R^2$ be bounded and convex, and let $u$ be a convex Alexandrov solution with
+Let $`0<\lambda<1`$, let $`\Omega\subset\mathbb R^2`$ be bounded and convex, and let $`u`$ be a convex Alexandrov solution with
 
-$$
+```math
 \lambda\le\det D^2u\le\lambda^{-1}\quad\text{in }\Omega.
-$$
+```
 
-Here the inequalities mean $\lambda|E|\le|\partial u(E)|\le\lambda^{-1}|E|$ for every Borel $E\subset\Omega$. Is the distributional Hessian represented by a matrix field satisfying, for every $\Omega'\Subset\Omega$,
+Here the inequalities mean $`\lambda|E|\le|\partial u(E)|\le\lambda^{-1}|E|`$ for every Borel $`E\subset\Omega`$. Is the distributional Hessian represented by a matrix field satisfying, for every $`\Omega'\Subset\Omega`$,
 
-$$
+```math
 \sup_{s>0}s^{p_\lambda}\bigl|\{x\in\Omega':|D^2u(x)|>s\}\bigr|<\infty,\qquad p_\lambda=\frac{1+\lambda^2}{1-\lambda^2}?
-$$
+```
 
-This is the conjectured endpoint weak-$L^{p_\lambda}$ estimate, not merely integrability with some unspecified exponent larger than one.
+This is the conjectured endpoint weak-$`L^{p_\lambda}`$ estimate, not merely integrability with some unspecified exponent larger than one.
 
 ## Application
 
@@ -29,7 +29,7 @@ Hessian bounds control distortion and sensitivity of transport maps used in mesh
 ## References
 
 1. G. De Philippis and A. Figalli, *The Monge–Ampère Equation and Its Link to Optimal Transportation*, Bulletin of the AMS 51 (2014), 527–580, §5.2(2). [Publisher PDF](https://www.ams.org/journals/bull/2014-51-04/S0273-0979-2014-01459-4/S0273-0979-2014-01459-4.pdf).
-2. G. De Philippis, A. Figalli and O. Savin, *A note on interior $W^{2,1+ε}$ estimates for the Monge–Ampère equation*, Mathematische Annalen 357 (2013), 11–22, Theorem 1.1. [DOI](https://doi.org/10.1007/s00208-012-0895-9); [preprint](https://arxiv.org/abs/1202.5566).
+2. G. De Philippis, A. Figalli and O. Savin, *A note on interior $`W^{2,1+ε}`$ estimates for the Monge–Ampère equation*, Mathematische Annalen 357 (2013), 11–22, Theorem 1.1. [DOI](https://doi.org/10.1007/s00208-012-0895-9); [preprint](https://arxiv.org/abs/1202.5566).
 
 ## Status review
 

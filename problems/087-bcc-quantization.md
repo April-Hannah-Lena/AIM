@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-For $N\ge1$, define
+For $`N\ge1`$, define
 
-$$
+```math
 q_N=\inf_{z_1,\ldots,z_N\in[0,1]^3}
 \int_{[0,1]^3}\min_i|x-z_i|^2\,dx.
-$$
+```
 
-Let $L_{\mathrm{BCC}}=2^{1/3}\big(\mathbb Z^3\cup(\mathbb Z^3+(1/2,1/2,1/2))\big)$, which has one point per unit volume, and let $V_{\mathrm{BCC}}$ be the Voronoi cell of its origin. Prove or disprove
+Let $`L_{\mathrm{BCC}}=2^{1/3}\big(\mathbb Z^3\cup(\mathbb Z^3+(1/2,1/2,1/2))\big)`$, which has one point per unit volume, and let $`V_{\mathrm{BCC}}`$ be the Voronoi cell of its origin. Prove or disprove
 
-$$
+```math
 \lim_{N\to\infty}N^{2/3}q_N
 =\int_{V_{\mathrm{BCC}}}|x|^2\,dx.
-$$
+```
 
 The left side optimizes over arbitrary point sets. This is the energy-constant version of the three-dimensional Gersho/BCC conjecture, without additionally demanding congruence of every asymptotic cell.
 

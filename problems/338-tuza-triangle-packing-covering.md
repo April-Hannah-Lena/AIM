@@ -8,30 +8,30 @@
 
 ## Problem statement
 
-Let $G=(V,E)$ be any finite simple undirected graph. Write $\mathcal T(G)$ for the collection of three-edge subsets of $E$ that form triangles. Define the triangle packing and covering numbers by
+Let $`G=(V,E)`$ be any finite simple undirected graph. Write $`\mathcal T(G)`$ for the collection of three-edge subsets of $`E`$ that form triangles. Define the triangle packing and covering numbers by
 
-$$
+```math
 \nu_\triangle(G)=\max\bigl\{|\mathcal P|:\mathcal P\subseteq\mathcal T(G),\quad
 T\cap T'=\varnothing\text{ for distinct }T,T'\in\mathcal P\bigr\}
-$$
+```
 
 and
 
-$$
+```math
 \tau_\triangle(G)=\min\bigl\{|F|:F\subseteq E,\quad
 F\cap T\ne\varnothing\text{ for every }T\in\mathcal T(G)\bigr\}.
-$$
+```
 
-Thus a packing consists of edge-disjoint triangles, which may share vertices. A cover selects edges whose deletion removes every triangle. Both numbers are zero when $G$ has no triangles.
+Thus a packing consists of edge-disjoint triangles, which may share vertices. A cover selects edges whose deletion removes every triangle. Both numbers are zero when $`G`$ has no triangles.
 
 Prove or disprove **Tuza's triangle packing–covering conjecture**:
 
-$$
+```math
 \tau_\triangle(G)\leq 2\nu_\triangle(G)
 \qquad\text{for every finite simple undirected graph }G.
-$$
+```
 
-The extrema are integral and unweighted. The bound must hold exactly, without an additive error or a restriction on graph size, degree or density. This is an existence assertion; it does not require a polynomial-time algorithm. The constant cannot be reduced: the complete graph $K_4$ has packing number one and covering number two. [1, 2]
+The extrema are integral and unweighted. The bound must hold exactly, without an additive error or a restriction on graph size, degree or density. This is an existence assertion; it does not require a polynomial-time algorithm. The constant cannot be reduced: the complete graph $`K_4`$ has packing number one and covering number two. [1, 2]
 
 ## Application
 
@@ -54,11 +54,11 @@ Equivalently, form a hypergraph whose vertices are the network edges and whose h
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-Open in cited literature; no later resolution located as of 2026-09-18. Krivelevich gives the full formulation, while the independently authored 2026 paper [3] retains it and reports Haxell's general bound $\tau_\triangle\leq(66/23)\nu_\triangle$. The unresolved target is the exact factor two for every graph.
+Open in cited literature; no later resolution located as of 2026-09-18. Krivelevich gives the full formulation, while the independently authored 2026 paper [3] retains it and reports Haxell's general bound $`\tau_\triangle\leq(66/23)\nu_\triangle`$. The unresolved target is the exact factor two for every graph.
 
-Krivelevich proves $\tau_\triangle\leq2\tau_\triangle^*$ and $\nu_\triangle^*\leq2\nu_\triangle$, where stars denote fractional optima and linear-programming duality gives $\tau_\triangle^*=\nu_\triangle^*$. These two inequalities do not combine into the conjectured factor two. His integral result excludes subdivisions of $K_{3,3}$. Guruswami–Sandeep's counterexamples to a proposed forbidden-subhypergraph explanation concern a larger hypergraph family; they do not refute the triangle-hypergraph assertion. [1, 2]
+Krivelevich proves $`\tau_\triangle\leq2\tau_\triangle^*`$ and $`\nu_\triangle^*\leq2\nu_\triangle`$, where stars denote fractional optima and linear-programming duality gives $`\tau_\triangle^*=\nu_\triangle^*`$. These two inequalities do not combine into the conjectured factor two. His integral result excludes subdivisions of $`K_{3,3}`$. Guruswami–Sandeep's counterexamples to a proposed forbidden-subhypergraph explanation concern a larger hypergraph family; they do not refute the triangle-hypergraph assertion. [1, 2]
 
-Kahn–Park prove the inequality with probability tending to one in $G(n,p)$ for every function $p=p(n)$. Bennett and coauthors obtain it for random geometric graphs in specified sparse and dense radius ranges. Neither is an assertion about every finite graph. Baron–Kahn's construction refutes Yuster's proposed improvement in dense graphs and approaches Tuza's factor two; their theorem does not assert a violation of Tuza's inequality. [3–5]
+Kahn–Park prove the inequality with probability tending to one in $`G(n,p)`$ for every function $`p=p(n)`$. Bennett and coauthors obtain it for random geometric graphs in specified sparse and dense radius ranges. Neither is an assertion about every finite graph. Baron–Kahn's construction refutes Yuster's proposed improvement in dense graphs and approaches Tuza's factor two; their theorem does not assert a violation of Tuza's inequality. [3–5]
 
 Gupta's August 2026 preprint claims the maximum-degree-seven case. Zeng's theorem assumes a split partition with an eight-vertex clique and at most two active neighborhood types; its additional maximum-cut criterion is sufficient, not automatic. The September Épi artifact extends the fixed-eight-clique result to three active neighborhood types with arbitrary multiplicities. Their complete relevant statements were checked, but their computer-assisted certificates were not independently rerun. All retain hypotheses absent from the unrestricted question. [6–8]
 

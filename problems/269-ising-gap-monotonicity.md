@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $G=(V,E)$ be a finite simple graph with at least one vertex. For $J\in[0,\infty)^E$ let $\pi_J(\sigma)\propto\exp(\sum_{uv\in E}J_{uv}\sigma_u\sigma_v)$ on $\{-1,1\}^V$, with zero external field. Each vertex, at rate one, resamples its spin from the conditional law under $\pi_J$. Write $\gamma(J)$ for the smallest positive eigenvalue of the negative generator. For every edge $e$ and $s\ge0$, must $\gamma(J+s\mathbf1_e)\le\gamma(J)$?
+Let $`G=(V,E)`$ be a finite simple graph with at least one vertex. For $`J\in[0,\infty)^E`$ let $`\pi_J(\sigma)\propto\exp(\sum_{uv\in E}J_{uv}\sigma_u\sigma_v)`$ on $`\{-1,1\}^V`$, with zero external field. Each vertex, at rate one, resamples its spin from the conditional law under $`\pi_J`$. Write $`\gamma(J)`$ for the smallest positive eigenvalue of the negative generator. For every edge $`e`$ and $`s\ge0`$, must $`\gamma(J+s\mathbf1_e)\le\gamma(J)`$?
 
 ## Application
 

@@ -8,26 +8,26 @@
 
 ## Problem statement
 
-Let $(V_x)_{x\in\mathbb Z^3}$ be independent random variables, each uniform on $[-\sqrt3,\sqrt3]$. For $\lambda>0$, define the bounded self-adjoint operator
+Let $`(V_x)_{x\in\mathbb Z^3}`$ be independent random variables, each uniform on $`[-\sqrt3,\sqrt3]`$. For $`\lambda>0`$, define the bounded self-adjoint operator
 
-$$
+```math
 (H_{\lambda,\omega}\psi)(x)=\sum_{|y-x|_1=1}\psi(y)+\lambda V_x(\omega)\psi(x)
-$$
+```
 
-on $\ell^2(\mathbb Z^3)$. Let $\delta_0$ be the unit vector at the origin and set
+on $`\ell^2(\mathbb Z^3)`$. Let $`\delta_0`$ be the unit vector at the origin and set
 
-$$
+```math
 M_\lambda(t)=\mathbb E_\omega\!\left[\sum_{x\in\mathbb Z^3}|x|_2^2\,
 \big|\langle\delta_x,e^{-itH_{\lambda,\omega}}\delta_0\rangle\big|^2\right].
-$$
+```
 
-Does there exist $\lambda_0>0$ such that, for every $0<\lambda<\lambda_0$, there are constants $0<c_\lambda\le C_\lambda<\infty$ and $t_\lambda<\infty$ with
+Does there exist $`\lambda_0>0`$ such that, for every $`0<\lambda<\lambda_0`$, there are constants $`0<c_\lambda\le C_\lambda<\infty`$ and $`t_\lambda<\infty`$ with
 
-$$
+```math
 c_\lambda t\le M_\lambda(t)\le C_\lambda t\qquad(t\ge t_\lambda)?
-$$
+```
 
-The expectation averages the static random potential. The lattice is infinite, the initial state is fixed, and $\lambda$ is held fixed as $t\to\infty$. This asks for the disorder-averaged, order-of-growth form of quantum diffusion for a standard bounded single-site law. It does not prescribe a limiting diffusion coefficient or a Brownian path limit.
+The expectation averages the static random potential. The lattice is infinite, the initial state is fixed, and $`\lambda`$ is held fixed as $`t\to\infty`$. This asks for the disorder-averaged, order-of-growth form of quantum diffusion for a standard bounded single-site law. It does not prescribe a limiting diffusion coefficient or a Brownian path limit.
 
 ## Application
 

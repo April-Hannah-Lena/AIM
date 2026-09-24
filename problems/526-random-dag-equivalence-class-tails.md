@@ -8,21 +8,21 @@
 
 ## Problem statement
 
-Let $\mathcal D_n$ be the finite set of simple directed acyclic graphs on the labeled vertex set $[n]=\{1,\ldots,n\}$, and sample $G_n$ uniformly from $\mathcal D_n$. Its skeleton is the undirected graph obtained by forgetting edge orientations. A $v$-structure is a triple $i\to k\leftarrow j$ with $i,j$ nonadjacent. Define
+Let $`\mathcal D_n`$ be the finite set of simple directed acyclic graphs on the labeled vertex set $`[n]=\{1,\ldots,n\}`$, and sample $`G_n`$ uniformly from $`\mathcal D_n`$. Its skeleton is the undirected graph obtained by forgetting edge orientations. A $`v`$-structure is a triple $`i\to k\leftarrow j`$ with $`i,j`$ nonadjacent. Define
 
-$$
+```math
 M(G)=\{H\in\mathcal D_n:H\text{ has the same skeleton and }v\text{-structures as }G\}.
-$$
+```
 
-This is the Markov equivalence class of $G$: its members encode the same conditional independence relations.
+This is the Markov equivalence class of $`G`$: its members encode the same conditional independence relations.
 
-For every $\varepsilon\in(0,1)$, do constants $C_\varepsilon<\infty$ and $t_\varepsilon>1$ exist such that, simultaneously for every $n\ge1$ and every real $t\ge t_\varepsilon$,
+For every $`\varepsilon\in(0,1)`$, do constants $`C_\varepsilon<\infty`$ and $`t_\varepsilon>1`$ exist such that, simultaneously for every $`n\ge1`$ and every real $`t\ge t_\varepsilon`$,
 
-$$
+```math
 \Pr\bigl(|M(G_n)|>t\bigr)\le C_\varepsilon\exp\!\left[-(\log t)^{2-\varepsilon}\right]?
-$$
+```
 
-Here $\log$ is the natural logarithm. Prove this bound or refute it for some fixed $\varepsilon$. The distribution is uniform over labeled DAGs; uniform sampling of equivalence classes, or choosing an order and then random forward edges, gives different distributions.
+Here $`\log`$ is the natural logarithm. Prove this bound or refute it for some fixed $`\varepsilon`$. The distribution is uniform over labeled DAGs; uniform sampling of equivalence classes, or choosing an order and then random forward edges, gives different distributions.
 
 ## Application
 
@@ -36,6 +36,6 @@ Even exact observational independence information can leave several causal graph
 
 ## Status review
 
-Reference [1] proves a uniform tail estimate with power $1+1/20$ on $\log t$ and explicitly asks whether the power can approach two from below. It also proves positive limiting ratios for counts of equivalence classes and essential DAGs, so those older existence questions are not included here. The target is a stronger tail bound, without asserting the endpoint power two.
+Reference [1] proves a uniform tail estimate with power $`1+1/20`$ on $`\log t`$ and explicitly asks whether the power can approach two from below. It also proves positive limiting ratios for counts of equivalence classes and essential DAGs, so those older existence questions are not included here. The target is a stronger tail bound, without asserting the endpoint power two.
 
 Reference [3] gives large-class lower bounds under sparse DAG priors and in mixed or cyclic graph models. These changed assumptions do not resolve the stated uniform-DAG question. Searches on 24 September 2026, including indexed arXiv, Zenodo, GitHub and Palomar records, found no matching resolution or announced solution.

@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-On the nearest-neighbor torus $V_n=(\mathbb Z/n\mathbb Z)^2$, $n\ge3$, let $\pi_n(\sigma)\propto\exp((\log3)\sum_{xy\in E_n}\mathbf1_{\sigma_x=\sigma_y})$ for $\sigma\in\{1,2,3,4\}^{V_n}$. At each vertex, independently at rate one, resample its color from the conditional law under $\pi_n$. Let $t_{\rm mix}(n)=\inf\{t:\max_\sigma\|\mathcal L_\sigma(\sigma_t)-\pi_n\|_{\rm TV}\le1/4\}$. Do finite constants $C,a>0$ exist with $t_{\rm mix}(n)\le Cn^a$ for every $n$?
+On the nearest-neighbor torus $`V_n=(\mathbb Z/n\mathbb Z)^2`$, $`n\ge3`$, let $`\pi_n(\sigma)\propto\exp((\log3)\sum_{xy\in E_n}\mathbf1_{\sigma_x=\sigma_y})`$ for $`\sigma\in\{1,2,3,4\}^{V_n}`$. At each vertex, independently at rate one, resample its color from the conditional law under $`\pi_n`$. Let $`t_{\rm mix}(n)=\inf\{t:\max_\sigma\|\mathcal L_\sigma(\sigma_t)-\pi_n\|_{\rm TV}\le1/4\}`$. Do finite constants $`C,a>0`$ exist with $`t_{\rm mix}(n)\le Cn^a`$ for every $`n`$?
 
 ## Application
 

@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $\mathcal R$ be a finite set of reactions $y\to y'$ in $\mathbb N_0^d$, each lying on a directed cycle of the complex graph, and fix positive reaction constants $\kappa_{y\to y'}$. Consider $\dot x=\sum_{y\to y'\in\mathcal R}\kappa_{y\to y'}x^y(y'-y)$ with $x(0)\in(0,\infty)^d$ and $x^y=\prod_i x_i^{y_i}$. For every solution defined and bounded on $[0,\infty)$, must $\liminf_{t\to\infty}x_i(t)>0$ for every species $i$? No complex-balance assumption is permitted.
+Let $`\mathcal R`$ be a finite set of reactions $`y\to y'`$ in $`\mathbb N_0^d`$, each lying on a directed cycle of the complex graph, and fix positive reaction constants $`\kappa_{y\to y'}`$. Consider $`\dot x=\sum_{y\to y'\in\mathcal R}\kappa_{y\to y'}x^y(y'-y)`$ with $`x(0)\in(0,\infty)^d`$ and $`x^y=\prod_i x_i^{y_i}`$. For every solution defined and bounded on $`[0,\infty)`$, must $`\liminf_{t\to\infty}x_i(t)>0`$ for every species $`i`$? No complex-balance assumption is permitted.
 
 ## Application
 

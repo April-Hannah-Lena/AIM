@@ -10,6 +10,8 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import unquote
 
+from markdown_math import validate_math
+
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = {"id", "title", "area", "file", "status", "last_checked"}
 SECTIONS = ("Problem statement", "Application", "References", "Status review")
@@ -332,19 +334,6 @@ def validate_page(row, path):
                 errors.append(f"{row['id']}: Partial requires {field} in Status review")
     if len(re.findall(r"\]\(https?://", content)) < 1:
         errors.append(f"{row['id']}: no linked external reference")
-    if re.search(r"(?<!\\)\\[\[\]()]", content):
-        errors.append(f"{row['id']}: use GitHub dollar math delimiters")
-    if content.count("$$") % 2:
-        errors.append(f"{row['id']}: unmatched display math delimiter")
-    if re.search(r"(?<!\\)\\operatorname\b", content):
-        errors.append(f"{row['id']}: unsupported operator-name macro")
-    for block in re.finditer(r"\$\$(.*?)\$\$", content, re.DOTALL):
-        before, after = content[:block.start()], content[block.end():]
-        if (not block[1].startswith("\n") or not block[1].endswith("\n") or
-                (before and not re.search(r"\n[ \t]*\n\Z", before)) or
-                (after and not re.match(r"\n[ \t]*(?:\n|\Z)", after))):
-            errors.append(f"{row['id']}: display math needs standalone delimiters and blank lines around the block")
-            break
     return errors
 
 
@@ -388,6 +377,7 @@ def validate(entries, manifest, documents=None):
                 if ".git" not in path.parts and path not in generated}
     markdown.update(generated)
     for path, content in markdown.items():
+        errors.extend(f"{path.relative_to(ROOT)}: {error}" for error in validate_math(content))
         for target in re.findall(r"\]\(([^)\s]+)\)", content):
             if "://" in target or target.startswith(("#", "mailto:")):
                 continue

@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-For a compact convex body $K\subset\mathbb R^3$ with nonempty interior, define
+For a compact convex body $`K\subset\mathbb R^3`$ with nonempty interior, define
 
-$$
+```math
 g_K(x)=\mathop{\mathrm{Vol}}\nolimits_3(K\cap(K+x)),\qquad x\in\mathbb R^3.
-$$
+```
 
-If two such bodies $K,L$ satisfy $g_K(x)=g_L(x)$ for every $x\in\mathbb R^3$, must $L=a+K$ or $L=a-K$ for some $a\in\mathbb R^3$? No smoothness, positive-curvature or polyhedral assumption is imposed. Translation and point reflection are the unavoidable ambiguities.
+If two such bodies $`K,L`$ satisfy $`g_K(x)=g_L(x)`$ for every $`x\in\mathbb R^3`$, must $`L=a+K`$ or $`L=a-K`$ for some $`a\in\mathbb R^3`$? No smoothness, positive-curvature or polyhedral assumption is imposed. Translation and point reflection are the unavoidable ambiguities.
 
 ## Application
 
@@ -27,10 +27,10 @@ The covariogram is the autocorrelation of a shape indicator. Its Fourier transfo
 
 ## Status review
 
-**Known cases:** Covariogram uniqueness is established for three-dimensional convex polytopes, and for pairs of sufficiently smooth positively curved bodies under the cited $C^9$ hypotheses.
+**Known cases:** Covariogram uniqueness is established for three-dimensional convex polytopes, and for pairs of sufficiently smooth positively curved bodies under the cited $`C^9`$ hypotheses.
 
 **Remaining target:** Uniqueness up to translation and point reflection for arbitrary three-dimensional convex bodies without polyhedral or smoothness assumptions.
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-Planar convex-body uniqueness and three-dimensional polytope uniqueness are known. The smooth result described in the chapter, Theorem 3.25, requires both bodies to be $C^9$ with positive curvature in dimension three. Counterexamples in dimension at least four do not answer this question. Searches included “Matheron covariogram three dimensional 2026 solved”, “Bianchi covariogram uniqueness 2025 2026”, and “covariogram general convex bodies R3”. No general resolution was located.
+Planar convex-body uniqueness and three-dimensional polytope uniqueness are known. The smooth result described in the chapter, Theorem 3.25, requires both bodies to be $`C^9`$ with positive curvature in dimension three. Counterexamples in dimension at least four do not answer this question. Searches included “Matheron covariogram three dimensional 2026 solved”, “Bianchi covariogram uniqueness 2025 2026”, and “covariogram general convex bodies R3”. No general resolution was located.

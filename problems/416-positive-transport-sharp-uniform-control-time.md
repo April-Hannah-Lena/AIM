@@ -8,25 +8,25 @@
 
 ## Problem statement
 
-Fix $L,M>0$. For $\varepsilon>0$, consider
+Fix $`L,M>0`$. For $`\varepsilon>0`$, consider
 
-$$
+```math
 y_t+My_x-\varepsilon y_{xx}=0\quad\text{in }(0,T)\times(0,L),\qquad y(t,0)=h(t),\quad y(t,L)=0,
-$$
+```
 
-with $y(0)=y_0\in L^2(0,L)$, interpreted by transposition for boundary inputs $h\in L^2(0,T)$. Define
+with $`y(0)=y_0\in L^2(0,L)`$, interpreted by transposition for boundary inputs $`h\in L^2(0,T)`$. Define
 
-$$
+```math
 C(T,\varepsilon)=\sup_{\|y_0\|_2\le1}\inf\{\|h\|_{L^2(0,T)}:y(T)=0\}.
-$$
+```
 
-Is it true that for every $T>L/M$,
+Is it true that for every $`T>L/M`$,
 
-$$
+```math
 \lim_{\varepsilon\downarrow0}C(T,\varepsilon)=0?
-$$
+```
 
-The actuator is at the inflow endpoint and $M$ is strictly positive.
+The actuator is at the inflow endpoint and $`M`$ is strictly positive.
 
 ## Application
 

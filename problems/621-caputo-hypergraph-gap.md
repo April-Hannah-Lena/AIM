@@ -8,23 +8,23 @@
 
 ## Problem statement
 
-Let $n\ge2$ and give each subset $B\subseteq[n]$ with $|B|\ge2$ a weight $w_B\ge0$. Assume the graph joining vertices that share a positive-weight subset is connected.
+Let $`n\ge2`$ and give each subset $`B\subseteq[n]`$ with $`|B|\ge2`$ a weight $`w_B\ge0`$. Assume the graph joining vertices that share a positive-weight subset is connected.
 
-Place one distinct label at each vertex. Independently, each $B$ rings at rate $w_B$ and uniformly permutes its labels. Let $L_{\rm IP}$ be this continuous-time generator on $S_n$. The position of one label has generator
+Place one distinct label at each vertex. Independently, each $`B`$ rings at rate $`w_B`$ and uniformly permutes its labels. Let $`L_{\rm IP}`$ be this continuous-time generator on $`S_n`$. The position of one label has generator
 
-$$
+```math
 L_{\rm RW}f(x)=\sum_{B\ni x}w_B\left(\frac1{|B|}\sum_{y\in B}f(y)-f(x)\right).
-$$
+```
 
-For either reversible chain, let $\lambda$ be the smallest positive eigenvalue of its negative generator. Prove or disprove Caputo's conjecture:
+For either reversible chain, let $`\lambda`$ be the smallest positive eigenvalue of its negative generator. Prove or disprove Caputo's conjecture:
 
-$$
+```math
 \lambda_{\rm IP}=\lambda_{\rm RW}.
-$$
+```
 
 ## Application
 
-The equality would determine the relaxation rate of a many-label block shuffle from a matrix with only $n$ states, supporting analysis of sampling algorithms with collective updates.
+The equality would determine the relaxation rate of a many-label block shuffle from a matrix with only $`n`$ states, supporting analysis of sampling algorithms with collective updates.
 
 ## References
 

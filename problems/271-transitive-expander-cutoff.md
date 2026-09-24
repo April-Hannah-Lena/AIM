@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $G_n$ be connected vertex-transitive finite simple graphs with $|V(G_n)|\to\infty$, degrees bounded by a fixed $D$, and lazy-random-walk gaps bounded below by a fixed $\gamma>0$. A lazy step stays put with probability $1/2$ and otherwise chooses a uniform neighbor. Define $t_n(\varepsilon)=\min\{t:\max_x\|P_n^t(x,\cdot)-\mathrm{Unif}(V(G_n))\|_{\rm TV}\le\varepsilon\}$. Must $t_n(\varepsilon)/t_n(1-\varepsilon)\to1$ for every $0<\varepsilon<1/2$?
+Let $`G_n`$ be connected vertex-transitive finite simple graphs with $`|V(G_n)|\to\infty`$, degrees bounded by a fixed $`D`$, and lazy-random-walk gaps bounded below by a fixed $`\gamma>0`$. A lazy step stays put with probability $`1/2`$ and otherwise chooses a uniform neighbor. Define $`t_n(\varepsilon)=\min\{t:\max_x\|P_n^t(x,\cdot)-\mathrm{Unif}(V(G_n))\|_{\rm TV}\le\varepsilon\}`$. Must $`t_n(\varepsilon)/t_n(1-\varepsilon)\to1`$ for every $`0<\varepsilon<1/2`$?
 
 ## Application
 

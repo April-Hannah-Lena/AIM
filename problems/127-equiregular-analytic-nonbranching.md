@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-Let $(M,\Delta,g)$ be real analytic, with $g$ a positive inner product on the bracket-generating distribution $\Delta$. Define $\Delta^1=\Delta$ and let $\Delta^{j+1}$ be spanned by $\Delta^j$ and brackets of local sections of $\Delta$ with sections of $\Delta^j$. Assume equiregularity: the rank of each $\Delta^j$ is constant on $M$.
+Let $`(M,\Delta,g)`$ be real analytic, with $`g`$ a positive inner product on the bracket-generating distribution $`\Delta`$. Define $`\Delta^1=\Delta`$ and let $`\Delta^{j+1}`$ be spanned by $`\Delta^j`$ and brackets of local sections of $`\Delta`$ with sections of $`\Delta^j`$. Assume equiregularity: the rank of each $`\Delta^j`$ is constant on $`M`$.
 
-Are length-minimizing geodesics nonbranching? Precisely, if $\gamma_1,\gamma_2:[0,L]\to M$ are unit-speed horizontal length minimizers and agree on $[0,\varepsilon]$ for some $\varepsilon>0$, must they agree on all of $[0,L]$?
+Are length-minimizing geodesics nonbranching? Precisely, if $`\gamma_1,\gamma_2:[0,L]\to M`$ are unit-speed horizontal length minimizers and agree on $`[0,\varepsilon]`$ for some $`\varepsilon>0`$, must they agree on all of $`[0,L]`$?
 
 ## Application
 
@@ -25,4 +25,4 @@ Branching allows optimal motions to share an initial trajectory and then split. 
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-Rossi–Schiavoni Piazza–Socionovo construct analytic branching minimizers in a non-equiregular Martinet region and explicitly pose the remaining equiregular question. Smoothness or $C^1$ regularity alone does not settle branching. Searches included “equiregular real analytic sub-Riemannian nonbranching 2026” and “2603.23068 branching equiregular solution”. No subsequent answer to the stated question was located.
+Rossi–Schiavoni Piazza–Socionovo construct analytic branching minimizers in a non-equiregular Martinet region and explicitly pose the remaining equiregular question. Smoothness or $`C^1`$ regularity alone does not settle branching. Searches included “equiregular real analytic sub-Riemannian nonbranching 2026” and “2603.23068 branching equiregular solution”. No subsequent answer to the stated question was located.

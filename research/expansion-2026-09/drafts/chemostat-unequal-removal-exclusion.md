@@ -8,32 +8,32 @@
 
 ## Problem statement
 
-Consider $n\ge1$ microbial species competing for one growth-limiting nutrient in a well-mixed continuous culture. Let $D>0$ be the nutrient dilution rate, $S_{\mathrm{in}}>0$ the feed concentration, and $d_i>0$ the removal rate of species $i$. For each species let $f_i:[0,\infty)\to[0,\infty)$ be $C^1$, with $f_i(0)=0$ and $f_i'(s)>0$ for $s>0$. Suppose each equation $f_i(\lambda_i)=d_i$ has a finite positive solution and, after relabelling,
+Consider $`n\ge1`$ microbial species competing for one growth-limiting nutrient in a well-mixed continuous culture. Let $`D>0`$ be the nutrient dilution rate, $`S_{\mathrm{in}}>0`$ the feed concentration, and $`d_i>0`$ the removal rate of species $`i`$. For each species let $`f_i:[0,\infty)\to[0,\infty)`$ be $`C^1`$, with $`f_i(0)=0`$ and $`f_i'(s)>0`$ for $`s>0`$. Suppose each equation $`f_i(\lambda_i)=d_i`$ has a finite positive solution and, after relabelling,
 
-$$
+```math
 0<\lambda_1<\lambda_2\le\cdots\le\lambda_n,
 \qquad \lambda_1<S_{\mathrm{in}}.
-$$
+```
 
-For $n=1$, only the conditions on $\lambda_1$ apply. With constant yields absorbed into the biomass variables, the nutrient concentration $S(t)$ and species concentrations $x_i(t)$ satisfy
+For $`n=1`$, only the conditions on $`\lambda_1`$ apply. With constant yields absorbed into the biomass variables, the nutrient concentration $`S(t)`$ and species concentrations $`x_i(t)`$ satisfy
 
-$$
+```math
 \dot S=D(S_{\mathrm{in}}-S)-\sum_{i=1}^n f_i(S)x_i,
 \qquad
 \dot x_i=(f_i(S)-d_i)x_i\quad(1\le i\le n).
-$$
+```
 
-Prove or disprove that, for every such system and every initial state $S(0)\ge0$, $x_i(0)>0$, its solution satisfies
+Prove or disprove that, for every such system and every initial state $`S(0)\ge0`$, $`x_i(0)>0`$, its solution satisfies
 
-$$
+```math
 \lim_{t\to\infty}S(t)=\lambda_1,
 \qquad
 \lim_{t\to\infty}x_1(t)=\frac{D(S_{\mathrm{in}}-\lambda_1)}{d_1},
 \qquad
 \lim_{t\to\infty}x_i(t)=0\quad(i\ge2).
-$$
+```
 
-Thus the species requiring the lowest nutrient concentration for zero net growth would exclude all competitors. The constants $d_i$ may differ from one another and from $D$. Growth depends only on nutrient concentration; neither variable yields nor direct density-dependent interference is included. This is Hsu's Open problem 1 for model (2.9), under hypothesis (H), with the constant feed written as $S_{\mathrm{in}}$ to distinguish it from the initial concentration.
+Thus the species requiring the lowest nutrient concentration for zero net growth would exclude all competitors. The constants $`d_i`$ may differ from one another and from $`D`$. Growth depends only on nutrient concentration; neither variable yields nor direct density-dependent interference is included. This is Hsu's Open problem 1 for model (2.9), under hypothesis (H), with the constant feed written as $`S_{\mathrm{in}}`$ to distinguish it from the initial concentration.
 
 ## Applied significance
 
@@ -54,7 +54,7 @@ Chemostat models describe microbial competition in continuously supplied culture
 
 Hsu states the question explicitly and retains it in his 2019 lectures. Sari–Mazenc independently identify the same unresolved constant-yield problem on p. 828, despite their paper's broader treatment of variable yields. Their discussion separates general increasing growth from the solved Michaelis–Menten case. A single species and a common removal rate are also covered by established results; the unresolved assertion includes arbitrary species-dependent rates and general increasing responses.
 
-Sari–Mazenc Theorem 3 restates the Wolkowicz–Lu global-convergence result with an additional separation condition on response-function ratios. Sari's Theorems 1.2 and 4.1 likewise require extra inequalities comparing species. Those sufficient conditions are not assumed here. The notation differs between sources: Sari's net growth function already subtracts removal, whereas $f_i$ in this entry denotes gross growth.
+Sari–Mazenc Theorem 3 restates the Wolkowicz–Lu global-convergence result with an additional separation condition on response-function ratios. Sari's Theorems 1.2 and 4.1 likewise require extra inequalities comparing species. Those sufficient conditions are not assumed here. The notation differs between sources: Sari's net growth function already subtracts removal, whereas $`f_i`$ in this entry denotes gross growth.
 
 Fiedler–Hsu Theorem 1.1 excludes positive nonstationary periodic solutions under its additional inequality (1.9). It neither applies without that inequality nor by itself proves convergence of every trajectory. Rapaport–Veruete Proposition 1 allows arbitrary increasing responses, but model (1) uses the same dilution rate in every species equation.
 

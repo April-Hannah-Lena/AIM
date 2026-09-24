@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-Let $M$ be a compact connected smooth manifold of dimension $n\geq3$ with nonempty smooth boundary. For a smooth Riemannian metric $g$, define $\Lambda_g f=\partial_{\nu_g}u|_{\partial M}$, where $\Delta_g u=0$ and $u|_{\partial M}=f$. Consider two metrics inducing the same boundary metric, so their boundary operators have the same interpretation.
+Let $`M`$ be a compact connected smooth manifold of dimension $`n\geq3`$ with nonempty smooth boundary. For a smooth Riemannian metric $`g`$, define $`\Lambda_g f=\partial_{\nu_g}u|_{\partial M}`$, where $`\Delta_g u=0`$ and $`u|_{\partial M}=f`$. Consider two metrics inducing the same boundary metric, so their boundary operators have the same interpretation.
 
-Does $\Lambda_{g_1}=\Lambda_{g_2}$ imply the existence of a smooth diffeomorphism $F:M\to M$, with $F|_{\partial M}=\mathrm{Id}$, such that $g_1=F^*g_2$? The data consist of this single zero-frequency boundary operator for each metric.
+Does $`\Lambda_{g_1}=\Lambda_{g_2}`$ imply the existence of a smooth diffeomorphism $`F:M\to M`$, with $`F|_{\partial M}=\mathrm{Id}`$, such that $`g_1=F^*g_2`$? The data consist of this single zero-frequency boundary operator for each metric.
 
 ## Application
 

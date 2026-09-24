@@ -8,25 +8,25 @@
 
 ## Problem statement
 
-Fix $\theta\in(0,1)$ and $\varepsilon>0$, and let $k=\lfloor n^\theta\rfloor$. Choose an unknown infected set $S\subseteq\{1,\ldots,n\}$ uniformly among the sets of size $k$. Independently form a binary testing matrix $X\in\{0,1\}^{N\times n}$ with independent entries of success probability
+Fix $`\theta\in(0,1)`$ and $`\varepsilon>0`$, and let $`k=\lfloor n^\theta\rfloor`$. Choose an unknown infected set $`S\subseteq\{1,\ldots,n\}`$ uniformly among the sets of size $`k`$. Independently form a binary testing matrix $`X\in\{0,1\}^{N\times n}`$ with independent entries of success probability
 
-$$
+```math
 q=1-2^{-1/k},\qquad N=\left\lceil(1+\varepsilon)\log_2\binom nk\right\rceil.
-$$
+```
 
-The noiseless outcome of test $a$ is
+The noiseless outcome of test $`a`$ is
 
-$$
+```math
 Y_a=\boldsymbol1\{\text{some }i\in S\text{ has }X_{ai}=1\}.
-$$
+```
 
-For every fixed $\theta$ and $\varepsilon$ as above, does there exist a possibly randomized decoder, with running time polynomial in $n$, which receives $(X,Y,k)$ and returns a set $\widehat S$ of size $k$ such that
+For every fixed $`\theta`$ and $`\varepsilon`$ as above, does there exist a possibly randomized decoder, with running time polynomial in $`n`$, which receives $`(X,Y,k)`$ and returns a set $`\widehat S`$ of size $`k`$ such that
 
-$$
+```math
 \frac{|\widehat S\triangle S|}{k}\xrightarrow{\mathbb P}0\qquad(n\to\infty)?
-$$
+```
 
-Probability is over the infected set, testing matrix and decoder randomness. The polynomial and algorithm may depend on the fixed parameters $\theta,\varepsilon$. The design is prescribed; the decoder cannot replace it with another pooling scheme.
+Probability is over the infected set, testing matrix and decoder randomness. The polynomial and algorithm may depend on the fixed parameters $`\theta,\varepsilon`$. The design is prescribed; the decoder cannot replace it with another pooling scheme.
 
 This asks whether polynomial-time approximate recovery can approach the Bernoulli design's information threshold with an arbitrarily small fixed multiplicative overhead. It does not request exact support recovery or success with literally zero overhead.
 
@@ -42,7 +42,7 @@ Group testing economizes on pooled diagnostic tests and sparse-identification me
 
 ## Status review
 
-The 2026 journal article retains the polynomial-time decoding question. Exhaustive search attains approximate recovery above the information threshold. The cited separate-list decoder needs a multiplicative test overhead $1/\log 2$; results for specially designed pools do not remove the gap for independent Bernoulli tests.
+The 2026 journal article retains the polynomial-time decoding question. Exhaustive search attains approximate recovery above the information threshold. The cited separate-list decoder needs a multiplicative test overhead $`1/\log 2`$; results for specially designed pools do not remove the gap for independent Bernoulli tests.
 
 The source rules out a proposed family of low-temperature Markov-chain methods in a sufficiently sparse regime and disproves an earlier first-moment landscape prediction. These are algorithm-class restrictions, not a lower bound against every polynomial-time decoder. The low-degree result in2 is also a restricted computational obstruction, stated for detection.
 

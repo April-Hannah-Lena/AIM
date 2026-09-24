@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-Does there exist an absolute constant $c>0$ such that, for every integer $d\ge2$ and every finite set $Q\subset\mathbb R^d$ satisfying
+Does there exist an absolute constant $`c>0`$ such that, for every integer $`d\ge2`$ and every finite set $`Q\subset\mathbb R^d`$ satisfying
 
-$$
+```math
 B_2^d\subseteq\mathop{\mathrm{conv}}\nolimits(Q),\qquad B_2^d=\{x:\|x\|_2\le1\},
-$$
+```
 
-there is a subset $F\subseteq Q$ with $|F|\le2d$ and
+there is a subset $`F\subseteq Q`$ with $`|F|\le2d`$ and
 
-$$
+```math
 \frac{c}{\sqrt d}B_2^d\subseteq\mathop{\mathrm{conv}}\nolimits(F)?
-$$
+```
 
 The retained ball has the same center, the origin. The constant must be independent of the dimension, the number of input points and their positions.
 
@@ -34,6 +34,6 @@ This asks how well a large convex hull can retain its size after selecting only 
 
 ## Status review
 
-The proved uniform radius in [2] is $1/(6d^2)$. The $d^{-1/2}$ target is explicitly conjectured there and retained in [1]. Examples show that its order in the dimension would be sharp up to an absolute constant. The September 2026 paper [3] still uses the $1/(6d^2)$ estimate; its new colorful result has different assumptions and does not establish the displayed radius.
+The proved uniform radius in [2] is $`1/(6d^2)`$. The $`d^{-1/2}`$ target is explicitly conjectured there and retained in [1]. Examples show that its order in the dimension would be sharp up to an absolute constant. The September 2026 paper [3] still uses the $`1/(6d^2)`$ estimate; its new colorful result has different assumptions and does not establish the displayed radius.
 
 This is a point-selection problem, distinct from Steinitz rearrangement and vector-signing bounds. A public numerical algorithm repository implements the known polarity estimate and explicitly describes the sharp order as conjectural. Current checks found no matching resolution.

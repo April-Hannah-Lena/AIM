@@ -8,31 +8,31 @@
 
 ## Problem statement
 
-Let $P$ be a distribution of observed variables $(X_i)_{i\in V}$, with $V$ finite. A directed maximal ancestral graph (DMAG) on $V$ has directed and bidirected edges, at most one edge per pair, no directed cycles, and no directed path between endpoints of a bidirected edge. Maximality means that every nonadjacent pair can be separated as follows. A path is $m$-connecting given $S$ if each internal noncollider is outside $S$ and each internal collider has a directed descendant in $S$, allowing itself as a descendant. A collider has two arrowheads pointing into it along the path. Absence of such a path defines $m$-separation. Write $I(H)$ for the conditional independences encoded by this separation rule; two DMAGs are Markov equivalent when their $I(H)$ agree.
+Let $`P`$ be a distribution of observed variables $`(X_i)_{i\in V}`$, with $`V`$ finite. A directed maximal ancestral graph (DMAG) on $`V`$ has directed and bidirected edges, at most one edge per pair, no directed cycles, and no directed path between endpoints of a bidirected edge. Maximality means that every nonadjacent pair can be separated as follows. A path is $`m`$-connecting given $`S`$ if each internal noncollider is outside $`S`$ and each internal collider has a directed descendant in $`S`$, allowing itself as a descendant. A collider has two arrowheads pointing into it along the path. Absence of such a path defines $`m`$-separation. Write $`I(H)`$ for the conditional independences encoded by this separation rule; two DMAGs are Markov equivalent when their $`I(H)`$ agree.
 
-Assume $P$ is Markov and restricted-faithful to a DMAG $G^*$. Markov means every separation in $I(G^*)$ is a conditional independence of $P$. Restricted faithfulness requires conditional dependence whenever a pair is $m$-connected given $S\subseteq V\setminus\{i,j\}$ and is either adjacent, the endpoints of a length-two path in the skeleton, or the endpoints of a discriminating path. A discriminating path for $k$ has form $\langle i,\ldots,k,j\rangle$, at least three edges, nonadjacent endpoints, and every vertex strictly between $i$ and $k$ is both a collider on the path and a parent of $j$.
+Assume $`P`$ is Markov and restricted-faithful to a DMAG $`G^*`$. Markov means every separation in $`I(G^*)`$ is a conditional independence of $`P`$. Restricted faithfulness requires conditional dependence whenever a pair is $`m`$-connected given $`S\subseteq V\setminus\{i,j\}`$ and is either adjacent, the endpoints of a length-two path in the skeleton, or the endpoints of a discriminating path. A discriminating path for $`k`$ has form $`\langle i,\ldots,k,j\rangle`$, at least three edges, nonadjacent endpoints, and every vertex strictly between $`i`$ and $`k`$ is both a collider on the path and a parent of $`j`$.
 
-For a partial order $\pi$ on $V$, set
+For a partial order $`\pi`$ on $`V`$, set
 
-$$
+```math
 D_\pi(i,j)=\{v:v\le_\pi i\text{ or }v\le_\pi j\}\setminus\{i,j\}.
-$$
+```
 
-Construct $A(\pi,P)$ by placing an edge between $i,j$ exactly when $X_i$ and $X_j$ are conditionally dependent given $X_{D_\pi(i,j)}$. Orient it from the smaller to the larger vertex if comparable, and bidirect it otherwise. Let $\mathop{\mathrm{po}}\nolimits(H)$ be the partial order of directed ancestry, including equality, and define
+Construct $`A(\pi,P)`$ by placing an edge between $`i,j`$ exactly when $`X_i`$ and $`X_j`$ are conditionally dependent given $`X_{D_\pi(i,j)}`$. Orient it from the smaller to the larger vertex if comparable, and bidirect it otherwise. Let $`\mathop{\mathrm{po}}\nolimits(H)`$ be the partial order of directed ancestry, including equality, and define
 
-$$
+```math
 G_\pi=\mathop{\mathrm{cl}}\nolimits_{\mathrm{ma}}\left(A\bigl(\mathop{\mathrm{po}}\nolimits(A(\pi,P)),P\bigr)\right).
-$$
+```
 
-The operator $\mathop{\mathrm{cl}}\nolimits_{\mathrm{ma}}$ denotes the maximal ancestral closure: add edges between pairs that cannot be $m$-separated, preserving the separation model and ancestral orientations. Thus both the second application of $A$ and the closure are part of the definition.
+The operator $`\mathop{\mathrm{cl}}\nolimits_{\mathrm{ma}}`$ denotes the maximal ancestral closure: add edges between pairs that cannot be $`m`$-separated, preserving the separation model and ancestral orientations. Thus both the second application of $`A`$ and the closure are part of the definition.
 
-Form a directed search graph with vertices the distinct graphs $G_\pi$. From $H$ allow a move to $G_{\mathop{\mathrm{po}}\nolimits(H')}$ whenever $H'$ comes from $H$ by changing one edge $i\to j$ to $i\leftrightarrow j$, or conversely, with $H'$ still a DMAG Markov equivalent to $H$. These are the legitimate mark changes.
+Form a directed search graph with vertices the distinct graphs $`G_\pi`$. From $`H`$ allow a move to $`G_{\mathop{\mathrm{po}}\nolimits(H')}`$ whenever $`H'`$ comes from $`H`$ by changing one edge $`i\to j`$ to $`i\leftrightarrow j`$, or conversely, with $`H'`$ still a DMAG Markov equivalent to $`H`$. These are the legitimate mark changes.
 
-Prove or refute that every starting vertex $H_0$ has a directed path $H_0,H_1,\ldots,H_r$ in this search graph satisfying
+Prove or refute that every starting vertex $`H_0`$ has a directed path $`H_0,H_1,\ldots,H_r`$ in this search graph satisfying
 
-$$
+```math
 |E(H_{t+1})|\le |E(H_t)|,\qquad |E(H_r)|=\min_\pi |E(G_\pi)|.
-$$
+```
 
 The number being minimized is the number of graph edges. This is the oracle consistency conjecture for Greedy Sparsest Poset (GSPo) with sufficiently large search depth. It does not prescribe a fixed depth or a polynomial running time.
 
@@ -48,6 +48,6 @@ Unobserved common causes can make ordinary directed acyclic models of measured v
 
 ## Status review
 
-Theorem 2 of [1] proves that a globally sparsest $G_\pi$ belongs to the true Markov equivalence class. Conjecture 1 asks whether the prescribed nonincreasing search can always reach one. Reference [2] explicitly retains this as open. The fixed depth used in simulations is not the universal assertion.
+Theorem 2 of [1] proves that a globally sparsest $`G_\pi`$ belongs to the true Markov equivalence class. Conjecture 1 asks whether the prescribed nonincreasing search can always reach one. Reference [2] explicitly retains this as open. The fixed depth used in simulations is not the universal assertion.
 
 Searches on 24 September 2026, including indexed arXiv, Zenodo, GitHub and Palomar records, found no matching resolution or announced solution. Later results about orienting an already specified equivalence class do not establish this search property.

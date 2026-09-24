@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-For $A\in\mathbb C^{n\times n}$ with $\|A\|_2\le1$ and $0<\delta<1$, construct a randomized floating-point algorithm that, with probability at least $0.99$, returns $Q,T\in\mathbb C^{n\times n}$, with $T$ upper triangular, such that
+For $`A\in\mathbb C^{n\times n}`$ with $`\|A\|_2\le1`$ and $`0<\delta<1`$, construct a randomized floating-point algorithm that, with probability at least $`0.99`$, returns $`Q,T\in\mathbb C^{n\times n}`$, with $`T`$ upper triangular, such that
 
-$$
+```math
 \|Q^*Q-I\|_2\le\delta,\qquad \|A-QTQ^*\|_2\le\delta.
-$$
+```
 
-Require $O(n^3\log^c(n/\delta))$ arithmetic operations and mantissa length $O(\log(n/\delta))$ bits, with universal constants, for every input, independently of eigenvalue gaps and nonnormality. Input entries are supplied to the working precision; input rounding must be included in the error bound. As usual in this floating-point model, exclude overflow and underflow.
+Require $`O(n^3\log^c(n/\delta))`$ arithmetic operations and mantissa length $`O(\log(n/\delta))`$ bits, with universal constants, for every input, independently of eigenvalue gaps and nonnormality. Input entries are supplied to the working precision; input rounding must be included in the error bound. As usual in this floating-point model, exclude overflow and underflow.
 
 ## Application
 

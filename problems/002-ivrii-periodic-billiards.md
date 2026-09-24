@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-For every bounded strictly convex domain $\Omega\subset\mathbb R^d$, $d\ge2$, with $C^\infty$ boundary, consider unit-speed rays that reflect specularly at the boundary (angle of incidence equals angle of reflection). The billiard map acts on the inward, nongrazing unit covectors at $\partial\Omega$. Equip this section with its invariant Liouville measure. Prove or disprove that the union of the sets of $k$-periodic points, over all integers $k\ge2$, has measure zero.
+For every bounded strictly convex domain $`\Omega\subset\mathbb R^d`$, $`d\ge2`$, with $`C^\infty`$ boundary, consider unit-speed rays that reflect specularly at the boundary (angle of incidence equals angle of reflection). The billiard map acts on the inward, nongrazing unit covectors at $`\partial\Omega`$. Equip this section with its invariant Liouville measure. Prove or disprove that the union of the sets of $`k`$-periodic points, over all integers $`k\ge2`$, has measure zero.
 
 ## Application
 

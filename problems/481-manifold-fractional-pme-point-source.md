@@ -8,28 +8,28 @@
 
 ## Problem statement
 
-Let $(M,g)$ be a complete, connected, noncompact Riemannian manifold of dimension $N\ge2$, with $\mathrm{Ric}\ge-(N-1)k$ for some $k\ge0$ and the uniform Faber–Krahn inequality
-$\lambda_1(D)\ge c\,\mathrm{Vol}(D)^{-2/N}$ for all relatively compact smooth domains $D\subset M$, with $c>0$. Fix $m>1$ and $0<s<1$ and use the spectral fractional Laplace–Beltrami operator in
+Let $`(M,g)`$ be a complete, connected, noncompact Riemannian manifold of dimension $`N\ge2`$, with $`\mathrm{Ric}\ge-(N-1)k`$ for some $`k\ge0`$ and the uniform Faber–Krahn inequality
+$`\lambda_1(D)\ge c\,\mathrm{Vol}(D)^{-2/N}`$ for all relatively compact smooth domains $`D\subset M`$, with $`c>0`$. Fix $`m>1`$ and $`0<s<1`$ and use the spectral fractional Laplace–Beltrami operator in
 
-$$
+```math
 \partial_tu+(-\Delta_M)^s(u^m)=0.
-$$
+```
 
-For every $o\in M$ and $A>0$, does there exist a nonnegative distributional solution $u$ for $t>0$ with
+For every $`o\in M`$ and $`A>0`$, does there exist a nonnegative distributional solution $`u`$ for $`t>0`$ with
 
-$$
+```math
 u\in C((0,\infty);L^1(M))\cap L^\infty_{\rm loc}((0,\infty)\times M),\qquad
 0<\sup_{0<t<T}\|u(t)\|_1\le A\quad(T>0),
-$$
+```
 
-whose initial trace is $A\delta_o$? Precisely, require $u^m\in L^1_{\rm loc}((0,\infty)\times M)$, the identity
+whose initial trace is $`A\delta_o`$? Precisely, require $`u^m\in L^1_{\rm loc}((0,\infty)\times M)`$, the identity
 
-$$
+```math
 \int_0^\infty\!\int_M u\,\partial_t\phi=\int_0^\infty\!\int_Mu^m(-\Delta_M)^s\phi
-$$
+```
 
 for compactly supported smooth tests (with integrable right side), and
-$\lim_{t\downarrow0}\int_Mu(t)\psi=A\psi(o)$ for every bounded continuous $\psi$. No radial symmetry or homogeneity of $M$ is assumed.
+$`\lim_{t\downarrow0}\int_Mu(t)\psi=A\psi(o)`$ for every bounded continuous $`\psi`$. No radial symmetry or homogeneity of $`M`$ is assumed.
 
 ## Application
 

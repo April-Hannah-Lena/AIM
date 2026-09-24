@@ -8,11 +8,11 @@
 
 ## Problem statement
 
-Let $(W,S)$ be a finite Coxeter system, let $Q=(q_1,\ldots,q_m)$ be a word in its simple generators, and let $w\in W$. A reduced expression for $w$ is an expression using the smallest possible number $\ell(w)$ of simple generators.
+Let $`(W,S)`$ be a finite Coxeter system, let $`Q=(q_1,\ldots,q_m)`$ be a word in its simple generators, and let $`w\in W`$. A reduced expression for $`w`$ is an expression using the smallest possible number $`\ell(w)`$ of simple generators.
 
-Define $\Delta(Q,w)$ to have facets exactly the sets $I\subseteq\{1,\ldots,m\}$ for which the complementary subword $Q_{\{1,\ldots,m\}\setminus I}$ is a reduced expression for $w$. Its faces are the subsets of these facets.
+Define $`\Delta(Q,w)`$ to have facets exactly the sets $`I\subseteq\{1,\ldots,m\}`$ for which the complementary subword $`Q_{\{1,\ldots,m\}\setminus I}`$ is a reduced expression for $`w`$. Its faces are the subsets of these facets.
 
-Assume $\Delta(Q,w)$ is homeomorphic to a sphere of dimension $m-\ell(w)-1\ge0$. Must it be combinatorially isomorphic to the boundary complex of a convex simplicial polytope of dimension $m-\ell(w)$?
+Assume $`\Delta(Q,w)`$ is homeomorphic to a sphere of dimension $`m-\ell(w)-1\ge0`$. Must it be combinatorially isomorphic to the boundary complex of a convex simplicial polytope of dimension $`m-\ell(w)`$?
 
 ## Application
 

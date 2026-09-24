@@ -8,35 +8,35 @@
 
 ## Problem statement
 
-Let $x\in\mathbb T^3=(\mathbb R/\mathbb Z)^3$ and $v\in\mathbb R^3$. Consider the classical Landau equation without an external or self-consistent force,
+Let $`x\in\mathbb T^3=(\mathbb R/\mathbb Z)^3`$ and $`v\in\mathbb R^3`$. Consider the classical Landau equation without an external or self-consistent force,
 
-$$
+```math
 \partial_t f+v\cdot\nabla_x f=Q(f,f),\qquad
 Q(f,f)=\nabla_v\cdot\int_{\mathbb R^3}a(v-w)
 \big[f(t,x,w)\nabla_v f(t,x,v)-f(t,x,v)\nabla_w f(t,x,w)\big]\,dw,
-$$
+```
 
 with Coulomb kernel
 
-$$
+```math
 a(z)=|z|^{-1}\left(I-\frac{z\otimes z}{|z|^2}\right),\qquad z\ne0.
-$$
+```
 
-Suppose $f_0\ge0$ is smooth and rapidly decreasing in velocity: for every $m\ge0$ and multi-indices $\alpha,\beta$,
+Suppose $`f_0\ge0`$ is smooth and rapidly decreasing in velocity: for every $`m\ge0`$ and multi-indices $`\alpha,\beta`$,
 
-$$
+```math
 \sup_{x,v}\langle v\rangle^m|\partial_x^\alpha\partial_v^\beta f_0(x,v)|<\infty,
 \qquad \langle v\rangle=(1+|v|^2)^{1/2}.
-$$
+```
 
-Assume also that $f_0(x,v)\ge\delta$ for every $x$ and $|v|\le r$, for some $\delta,r>0$. No smallness or closeness to a Maxwellian is imposed.
+Assume also that $`f_0(x,v)\ge\delta`$ for every $`x`$ and $`|v|\le r`$, for some $`\delta,r>0`$. No smallness or closeness to a Maxwellian is imposed.
 
-Does the local nonnegative classical solution with $f(0)=f_0$ always extend to all $t\ge0$, continuously at $t=0$, smoothly for $t>0$, with
+Does the local nonnegative classical solution with $`f(0)=f_0`$ always extend to all $`t\ge0`$, continuously at $`t=0`$, smoothly for $`t>0`$, with
 
-$$
+```math
 \sup_{0\le t\le T}\|\langle v\rangle^m f(t)\|_{L^\infty_{x,v}}<\infty
 \quad\text{for every finite }T\text{ and every }m\ge0?
-$$
+```
 
 This asks whether the maximal classical existence time is infinite in a precise nice-data class supported by the local theory of Henderson–Snelson–Tarfulea. Uniqueness within that local classical class is already known; the unresolved issue is global continuation.
 
@@ -59,6 +59,6 @@ The Coulomb Landau operator describes collisional redistribution of charged-part
 
 The cited local theory gives existence and uniqueness for this data class. The 2026 continuation papers leave large-data inhomogeneous global regularity open. Their conditional bounds are not consequences of conservation of total mass and energy alone. Golding–Henderson–Silvestre explicitly include the periodic domain and Coulomb kernel.
 
-Guillen–Silvestre's global theorem concerns spatially homogeneous solutions. The August 2026 quantum result uses Pauli factors and a density cap that degenerates in the classical limit. The February 2026 singularity construction instead requires potential exponent $\gamma\in(\sqrt3,2]$, whereas Coulomb interactions have $\gamma=-3$. These results do not decide the displayed problem.
+Guillen–Silvestre's global theorem concerns spatially homogeneous solutions. The August 2026 quantum result uses Pauli factors and a density cap that degenerates in the classical limit. The February 2026 singularity construction instead requires potential exponent $`\gamma\in(\sqrt3,2]`$, whereas Coulomb interactions have $`\gamma=-3`$. These results do not decide the displayed problem.
 
 Searches on September 17, 2026 also checked semiclassical limits, fuzzy collision operators, enhanced-reaction blowup and gravitational isotropic models. Their full relevant theorems were compared in the [evidence ledger](../research/expansion-2026-09/candidates/landau-coulomb-inhomogeneous.json). Author versions supplied full text where publisher access or HTML parsing failed. The problem differs from the catalogue's Boltzmann regularity and homogeneous Landau particle-limit questions. A separated adversarial self-pass checked the equation, local solution class, periodic setting, continuation assumptions, indirect limits and duplicate boundaries; no matching resolution was located.

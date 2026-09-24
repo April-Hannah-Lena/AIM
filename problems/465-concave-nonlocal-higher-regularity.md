@@ -8,25 +8,25 @@
 
 ## Problem statement
 
-Fix $n\ge2$, $0<s<1$ and $0<\lambda\le\Lambda$. For an arbitrary index set $A$, let
+Fix $`n\ge2`$, $`0<s<1`$ and $`0<\lambda\le\Lambda`$. For an arbitrary index set $`A`$, let
 
-$$
+```math
 L_a u(x)=\mathop{\mathrm{PV}}\nolimits\int_{\mathbb R^n}[u(x)-u(x+y)]\frac{k_a(y/|y|)}{|y|^{n+2s}}\,dy,
-$$
+```
 
-where the angular functions are even, $\lambda\le k_a\le\Lambda$, and $\sup_a\|k_a\|_{C^j(S^{n-1})}\le M_j$ for every integer $j\ge1$. Does there exist $\alpha\in(0,\min\{s,1-s\})$ such that every bounded continuous viscosity solution of
+where the angular functions are even, $`\lambda\le k_a\le\Lambda`$, and $`\sup_a\|k_a\|_{C^j(S^{n-1})}\le M_j`$ for every integer $`j\ge1`$. Does there exist $`\alpha\in(0,\min\{s,1-s\})`$ such that every bounded continuous viscosity solution of
 
-$$
+```math
 \inf_{a\in A}(-L_a u)=0\quad\hbox{in }B_1
-$$
+```
 
-satisfies $u\in C^{1+s+\alpha}(B_{1/2})$ and
+satisfies $`u\in C^{1+s+\alpha}(B_{1/2})`$ and
 
-$$
+```math
 \|u\|_{C^{1+s+\alpha}(B_{1/2})}\le C\|u\|_{L^\infty(\mathbb R^n)}?
-$$
+```
 
-The exponent and constant may depend on $n,s,\lambda,\Lambda$ and the prescribed angular smoothness bounds, but not on $u$ or the family size. No differentiability of the minimizing index as a function of $x$ is assumed.
+The exponent and constant may depend on $`n,s,\lambda,\Lambda`$ and the prescribed angular smoothness bounds, but not on $`u`$ or the family size. No differentiability of the minimizing index as a function of $`x`$ is assumed.
 
 ## Application
 
@@ -42,4 +42,4 @@ The equation is a value equation for control of a jump process, where a controll
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-Open Question 3.1 in the book asks whether smooth kernels give $C^{1+s+\alpha}$ regularity. The displayed homogeneous equation is its translation-invariant, zero-source formulation. The 2025 paper discusses the remaining gap beyond the established $C^{\max\{1,2s\}+\varepsilon}$ estimates. Searches on 2026-09-22 for concave nonlocal higher regularity and smooth stable kernels found no general theorem reaching the target. Linear Schauder estimates and the classical second-order Evans–Krylov theorem concern different operators.
+Open Question 3.1 in the book asks whether smooth kernels give $`C^{1+s+\alpha}`$ regularity. The displayed homogeneous equation is its translation-invariant, zero-source formulation. The 2025 paper discusses the remaining gap beyond the established $`C^{\max\{1,2s\}+\varepsilon}`$ estimates. Searches on 2026-09-22 for concave nonlocal higher regularity and smooth stable kernels found no general theorem reaching the target. Linear Schauder estimates and the classical second-order Evans–Krylov theorem concern different operators.

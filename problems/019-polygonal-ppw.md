@@ -8,11 +8,11 @@
 
 ## Problem statement
 
-For every integer $n\ge4$, let $P$ be any simple bounded planar $n$-gon and $R_n$ a regular $n$-gon. If $\lambda_1,\lambda_2$ are the first two Dirichlet eigenvalues, counted with multiplicity, prove or disprove
+For every integer $`n\ge4`$, let $`P`$ be any simple bounded planar $`n`$-gon and $`R_n`$ a regular $`n`$-gon. If $`\lambda_1,\lambda_2`$ are the first two Dirichlet eigenvalues, counted with multiplicity, prove or disprove
 
-$$
+```math
 \frac{\lambda_2(P)}{\lambda_1(P)}\le\frac{\lambda_2(R_n)}{\lambda_1(R_n)}.
-$$
+```
 
 There is no area constraint because the ratio is invariant under dilation. The problem is the full polygon class, not only parallelograms or small perturbations of regular polygons.
 

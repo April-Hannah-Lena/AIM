@@ -8,33 +8,33 @@
 
 ## Problem statement
 
-Let $M$ be a closed, connected, oriented aspherical $n$-manifold, and let $2\le k\le n$. All homology and cohomology below have rational coefficients. Suppose there is $\alpha\in H_k(M;\mathbb Q)$ with
+Let $`M`$ be a closed, connected, oriented aspherical $`n`$-manifold, and let $`2\le k\le n`$. All homology and cohomology below have rational coefficients. Suppose there is $`\alpha\in H_k(M;\mathbb Q)`$ with
 
-$$
+```math
 \|\alpha\|_1=\inf\left\{\sum_j|a_j|:\ \sum_j a_j\sigma_j\text{ is a singular cycle representing }\alpha\right\}>0.
-$$
+```
 
-For $u\in H^k(M;\mathbb Q)$ write
+For $`u\in H^k(M;\mathbb Q)`$ write
 
-$$
+```math
 \bar u=1\times u-u\times1\in H^k(M\times M;\mathbb Q).
-$$
+```
 
-Let $e:C([0,1],M)\to M\times M$ be the endpoint fibration, with the compact-open topology on the path space. The unreduced Schwarz genus of a fibration is the least number of open sets covering its base on which it has continuous sections. Define
+Let $`e:C([0,1],M)\to M\times M`$ be the endpoint fibration, with the compact-open topology on the path space. The unreduced Schwarz genus of a fibration is the least number of open sets covering its base on which it has continuous sections. Define
 
-$$
+```math
 \mathop{\mathrm{wgt}}\nolimits_{\mathop{\mathrm{TC}}\nolimits}(\bar u)=\sup\{r\ge0:\ f^*\bar u=0\text{ for every continuous }f:Y\to M\times M\text{ with }\mathop{\mathrm{genus}}\nolimits(f^*e)\le r\},
-$$
+```
 
-where $r$ ranges over integers and $Y$ over topological spaces.
+where $`r`$ ranges over integers and $`Y`$ over topological spaces.
 
-Must there exist a nonzero $u\in H^k(M;\mathbb Q)$ such that
+Must there exist a nonzero $`u\in H^k(M;\mathbb Q)`$ such that
 
-$$
+```math
 \mathop{\mathrm{wgt}}\nolimits_{\mathop{\mathrm{TC}}\nolimits}(\bar u)\ge k?
-$$
+```
 
-Prove the assertion or give a counterexample. The cohomology class may be chosen freely; the question does not assert the bound for every class or specify a dual to $\alpha$. This is Question 5.1(a) of [1].
+Prove the assertion or give a counterexample. The cohomology class may be chosen freely; the question does not assert the bound for every class or specify a dual to $`\alpha`$. This is Question 5.1(a) of [1].
 
 ## Application
 
@@ -46,7 +46,7 @@ TC weight strengthens cohomological lower bounds for the number of continuous lo
 
 ## Status review
 
-The degree bound for sectional weight makes the requested inequality an equality. Theorem 3.4 of [1] proves weight at least two for every nonzero degree-at-least-two class on a negatively curved manifold; it does not establish the requested degree-$k$ bound for general $M$ and $k$.
+The degree bound for sectional weight makes the requested inequality an equality. Theorem 3.4 of [1] proves weight at least two for every nonzero degree-at-least-two class on a negatively curved manifold; it does not establish the requested degree-$`k`$ bound for general $`M`$ and $`k`$.
 
 For even-dimensional manifolds, an affirmative answer would imply the [positive-volume maximal-complexity statement](534-positive-volume-motion-planning.md), by applying the product-weight estimate to the fundamental cohomology class. This implication does not identify the two questions: the present target also concerns lower-degree classes and a specific cohomological invariant.
 

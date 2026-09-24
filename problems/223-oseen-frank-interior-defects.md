@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^3$ be a bounded smooth domain, let $g:\partial\Omega\to\mathbb S^2$ be smooth with a nonempty $H^1$ extension class, and let $k_1,k_2,k_3>0$. For $n\in H^1(\Omega;\mathbb S^2)$ with trace $g$, set
+Let $`\Omega\subset\mathbb R^3`$ be a bounded smooth domain, let $`g:\partial\Omega\to\mathbb S^2`$ be smooth with a nonempty $`H^1`$ extension class, and let $`k_1,k_2,k_3>0`$. For $`n\in H^1(\Omega;\mathbb S^2)`$ with trace $`g`$, set
 
-$$
+```math
 E(n)=\frac12\int_\Omega\left[k_1(\mathop{\mathrm{div}}\nolimits n)^2+k_2(n\cdot\mathop{\mathrm{curl}}\nolimits n)^2+k_3|n\times\mathop{\mathrm{curl}}\nolimits n|^2\right]dx.
-$$
+```
 
-For every global minimizer, is its interior singular set locally finite? Here a point is singular if no neighborhood admits a smooth representative of $n$; locally finite means that every compact subset of $\Omega$ contains only finitely many such points.
+For every global minimizer, is its interior singular set locally finite? Here a point is singular if no neighborhood admits a smooth representative of $`n`$; locally finite means that every compact subset of $`\Omega`$ contains only finitely many such points.
 
 ## Application
 

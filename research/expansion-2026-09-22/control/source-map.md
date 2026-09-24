@@ -29,7 +29,7 @@ Admitted page: [shallow-water-tank-sharp-control-time](../../../problems/390-sha
 1. J.-M. Coron, *Time for local controllability of a 1-D tank containing a fluid modeled by the shallow water equations*, Problem 7.1, pp. 247–250, in V. D. Blondel and A. Megretski (eds.), *Unsolved Problems in Mathematical Systems and Control Theory*, Princeton University Press (2004). [Publisher book](https://doi.org/10.1515/9781400826155).
 2. J.-M. Coron, A. Koenig and H.-M. Nguyen, *Lack of local controllability for a water-tank system when the time is not large enough*, Annales de l’Institut Henri Poincaré C (2024 online), §1 and main noncontrollability theorem. [DOI](https://doi.org/10.4171/AIHPC/123); [publisher PDF](https://ems.press/content/serial-article-files/47556).
 
-Review: The book conjectures the threshold $2$ in this normalization. The 2024 paper proves the corresponding lower-time obstruction using the quadratic dynamics; it does not give local controllability for every time above the threshold. Searches through 22 September 2026 included tank Saint-Venant sharp/minimal control time and Coron–Koenig–Nguyen continuations. Large-time local controllability and feedback stabilization were distinguished from a proof for all $T>2$.
+Review: The book conjectures the threshold $`2`$ in this normalization. The 2024 paper proves the corresponding lower-time obstruction using the quadratic dynamics; it does not give local controllability for every time above the threshold. Searches through 22 September 2026 included tank Saint-Venant sharp/minimal control time and Coron–Koenig–Nguyen continuations. Large-time local controllability and feedback stabilization were distinguished from a proof for all $`T>2`$.
 
 ### 4. Global smooth evolution of small semigeostrophic perturbations
 
@@ -55,7 +55,7 @@ Review: Both sources distinguish available existence results from unresolved wea
 Admitted page: [planar-monge-ampere-sharp-hessian-integrability](../../../problems/393-planar-monge-ampere-sharp-hessian-integrability.md)
 
 1. G. De Philippis and A. Figalli, *The Monge–Ampère Equation and Its Link to Optimal Transportation*, Bulletin of the AMS 51 (2014), 527–580, §5.2(2). [Publisher PDF](https://www.ams.org/journals/bull/2014-51-04/S0273-0979-2014-01459-4/S0273-0979-2014-01459-4.pdf).
-2. G. De Philippis, A. Figalli and O. Savin, *A note on interior $W^{2,1+ε}$ estimates for the Monge–Ampère equation*, Mathematische Annalen 357 (2013), 11–22, Theorem 1.1. [DOI](https://doi.org/10.1007/s00208-012-0895-9); [preprint](https://arxiv.org/abs/1202.5566).
+2. G. De Philippis, A. Figalli and O. Savin, *A note on interior $`W^{2,1+ε}`$ estimates for the Monge–Ampère equation*, Mathematische Annalen 357 (2013), 11–22, Theorem 1.1. [DOI](https://doi.org/10.1007/s00208-012-0895-9); [preprint](https://arxiv.org/abs/1202.5566).
 
 Review: The survey explicitly proposes this exponent using planar quasiconformal theory. Searches through 22 September 2026 covered sharp planar Hessian integrability, the stated exponent, and subsequent work by De Philippis, Figalli, Savin and Mooney. Higher integrability with a non-sharp positive epsilon is established; the upper-bound-only degenerate problem has counterexamples, but those remove the positive lower bound essential here. No endpoint resolution was located.
 

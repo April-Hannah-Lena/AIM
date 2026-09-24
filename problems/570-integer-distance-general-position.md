@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Is it true that for every positive integer $n$ there is a set $P\subset\mathbb R^2$ of $n$ distinct points satisfying all three conditions?
+Is it true that for every positive integer $`n`$ there is a set $`P\subset\mathbb R^2`$ of $`n`$ distinct points satisfying all three conditions?
 
-- $\|p-q\|_2$ is an integer for every pair of distinct points $p,q\in P$.
-- No three points of $P$ lie on a line.
-- No four points of $P$ lie on a circle.
+- $`\|p-q\|_2`$ is an integer for every pair of distinct points $`p,q\in P`$.
+- No three points of $`P`$ lie on a line.
+- No four points of $`P`$ lie on a circle.
 
-The set may depend on $n$, and there is no prescribed bound on its diameter. This is a question about arbitrarily large finite configurations, not an infinite configuration with all pairwise distances integral.
+The set may depend on $`n`$, and there is no prescribed bound on its diameter. This is a question about arbitrarily large finite configurations, not an infinite configuration with all pairwise distances integral.
 
 ## Application
 
@@ -30,4 +30,4 @@ These configurations test the compatibility of exact distance constraints with g
 
 The journal source explicitly retains this question. Seven-point configurations are known. The structure and diameter estimates of [2] constrain the size inside a bounded region, and [3] bounds the number of points in terms of the diameter of a general-position reference simplex. Neither gives a diameter-independent upper bound or constructs arbitrarily large examples.
 
-A current GitHub announcement concerning Erdős problem 130 constructs integer-distance graphs with infinite chromatic number and clique number two; its README explicitly leaves the extremal clique question open. A separate formalization certifies the known seven-point construction and explicitly does not claim the case $n\ge8$. Thus neither announcement settles this question.
+A current GitHub announcement concerning Erdős problem 130 constructs integer-distance graphs with infinite chromatic number and clique number two; its README explicitly leaves the extremal clique question open. A separate formalization certifies the known seven-point construction and explicitly does not claim the case $`n\ge8`$. Thus neither announcement settles this question.

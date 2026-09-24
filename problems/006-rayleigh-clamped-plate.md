@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-For each integer $d\ge4$ and each bounded smooth domain $\Omega\subset\mathbb R^d$, define
+For each integer $`d\ge4`$ and each bounded smooth domain $`\Omega\subset\mathbb R^d`$, define
 
-$$
+```math
 \Gamma_1(\Omega)=\inf_{0\ne u\in H^2_0(\Omega)}\frac{\int_\Omega|\Delta u|^2\,dx}{\int_\Omega|u|^2\,dx}.
-$$
+```
 
-Here $H^2_0$ is the closure of compactly supported smooth functions in the Sobolev $H^2$ norm; for smooth boundaries it imposes $u=\partial_\nu u=0$. Prove or disprove $\Gamma_1(\Omega)\ge\Gamma_1(B)$ for a ball $B$ with $|B|=|\Omega|$.
+Here $`H^2_0`$ is the closure of compactly supported smooth functions in the Sobolev $`H^2`$ norm; for smooth boundaries it imposes $`u=\partial_\nu u=0`$. Prove or disprove $`\Gamma_1(\Omega)\ge\Gamma_1(B)`$ for a ball $`B`$ with $`|B|=|\Omega|`$.
 
 ## Application
 

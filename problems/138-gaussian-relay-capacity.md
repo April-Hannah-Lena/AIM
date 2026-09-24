@@ -10,14 +10,14 @@
 
 Consider the memoryless real channel
 
-$$
+```math
 Y_{r,t}=aX_{s,t}+Z_{r,t},\qquad
 Y_{d,t}=bX_{s,t}+cX_{r,t}+Z_{d,t},
-$$
+```
 
-where $a,b,c>0$ and all noises are independent $N(0,1)$ variables. A source encodes a uniform message $M$ without feedback. A relay uses strictly causal rules $X_{r,t}=f_t(Y_r^{t-1})$, and the destination estimates $M$ from $Y_d^N$. Impose average block-power constraints $N^{-1}\sum_t\mathbb E X_{s,t}^2\le P_s$ and $N^{-1}\sum_t\mathbb E X_{r,t}^2\le P_r$, with $P_s,P_r>0$.
+where $`a,b,c>0`$ and all noises are independent $`N(0,1)`$ variables. A source encodes a uniform message $`M`$ without feedback. A relay uses strictly causal rules $`X_{r,t}=f_t(Y_r^{t-1})`$, and the destination estimates $`M`$ from $`Y_d^N`$. Impose average block-power constraints $`N^{-1}\sum_t\mathbb E X_{s,t}^2\le P_s`$ and $`N^{-1}\sum_t\mathbb E X_{r,t}^2\le P_r`$, with $`P_s,P_r>0`$.
 
-Determine the capacity $C(a,b,c,P_s,P_r)$, the supremum of $(\log_2|\mathcal M|)/N$ achievable with error probability tending to zero as $N\to\infty$, for all these parameters.
+Determine the capacity $`C(a,b,c,P_s,P_r)`$, the supremum of $`(\log_2|\mathcal M|)/N`$ achievable with error probability tending to zero as $`N\to\infty`$, for all these parameters.
 
 ## Application
 

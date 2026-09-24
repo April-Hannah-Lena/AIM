@@ -8,21 +8,21 @@
 
 ## Problem statement
 
-Let $\Omega=\mathbb R\times(-1,1)$, with coordinates $(x_1,x_3)$. For $\theta\in(0,\pi/2]$, let $\mathcal L_\theta$ consist of maps $m=(m_1,m_2,m_3)\in H^1_{\mathrm{loc}}(\Omega;S^2)$ satisfying
+Let $`\Omega=\mathbb R\times(-1,1)`$, with coordinates $`(x_1,x_3)`$. For $`\theta\in(0,\pi/2]`$, let $`\mathcal L_\theta`$ consist of maps $`m=(m_1,m_2,m_3)\in H^1_{\mathrm{loc}}(\Omega;S^2)`$ satisfying
 
-$$
+```math
 \int_\Omega|\nabla m|^2<\infty,\quad \partial_1m_1+\partial_3m_3=0,\quad m_3|_{\partial\Omega}=0,
-$$
+```
 
 and
 
-$$
+```math
 \int_{\Omega\cap\{\pm x_1>0\}}|m-(\cos\theta,\pm\sin\theta,0)|^2\,dx<\infty
-$$
+```
 
-for both signs. Impose boundary winding number $+1$: under the conformal identification $z=x_1+ix_3\mapsto\tanh(\pi z/4)$ with the unit disk, the boundary trace $w=m_1+im_2$ lies in $H^{1/2}(S^1;S^1)$ and has degree one. Precisely, if $\widehat w_k=(2\pi)^{-1}\int_0^{2\pi}w(e^{it})e^{-ikt}\,dt$, this means $\sum_{k\in\mathbb Z}k|\widehat w_k|^2=1$.
+for both signs. Impose boundary winding number $`+1`$: under the conformal identification $`z=x_1+ix_3\mapsto\tanh(\pi z/4)`$ with the unit disk, the boundary trace $`w=m_1+im_2`$ lies in $`H^{1/2}(S^1;S^1)`$ and has degree one. Precisely, if $`\widehat w_k=(2\pi)^{-1}\int_0^{2\pi}w(e^{it})e^{-ikt}\,dt`$, this means $`\sum_{k\in\mathbb Z}k|\widehat w_k|^2=1`$.
 
-Is $\inf_{m\in\mathcal L_\theta}\int_\Omega|\nabla m|^2\,dx$ attained for every $\theta\in(0,\pi/2]$?
+Is $`\inf_{m\in\mathcal L_\theta}\int_\Omega|\nabla m|^2\,dx`$ attained for every $`\theta\in(0,\pi/2]`$?
 
 ## Application
 

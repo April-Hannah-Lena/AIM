@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Given a bounded connected smooth domain $\Omega\subset\mathbb R^d$, $d\geq2$, a nonempty relatively open $\Gamma\subset\partial\Omega$, $T>0$, and constant real matrices $A\in\mathbb R^{n\times n}$ and $B\in\mathbb R^{n\times m}$ with $m<n$, consider
+Given a bounded connected smooth domain $`\Omega\subset\mathbb R^d`$, $`d\geq2`$, a nonempty relatively open $`\Gamma\subset\partial\Omega`$, $`T>0`$, and constant real matrices $`A\in\mathbb R^{n\times n}`$ and $`B\in\mathbb R^{n\times m}`$ with $`m<n`$, consider
 
-$$
+```math
 y_t-\Delta y-Ay=0,\qquad y|_{\partial\Omega}=Bf\,\mathbf1_\Gamma,\qquad y(0)=y_0\in L^2(\Omega)^n.
-$$
+```
 
-Find a necessary and sufficient spectral/algebraic condition for null controllability by $f\in L^\infty(\Gamma\times(0,T))^m$: every $y_0$ must admit such a control with $y(T)=0$, interpreted by transposition. The criterion should identify the interaction of $A,B$ with the Dirichlet Laplacian spectral data of $\Omega$ and the active boundary. Merely restating controllability as an adjoint observability inequality is not the requested characterization.
+Find a necessary and sufficient spectral/algebraic condition for null controllability by $`f\in L^\infty(\Gamma\times(0,T))^m`$: every $`y_0`$ must admit such a control with $`y(T)=0`$, interpreted by transposition. The criterion should identify the interaction of $`A,B`$ with the Dirichlet Laplacian spectral data of $`\Omega`$ and the active boundary. Merely restating controllability as an adjoint observability inequality is not the requested characterization.
 
 ## Application
 

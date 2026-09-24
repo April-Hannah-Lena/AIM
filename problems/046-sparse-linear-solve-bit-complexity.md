@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-For each fixed positive integer $c$, let $A\in\mathbb Q^{n\times n}$ be nonsingular with $m=\mathop{\mathrm{nnz}}\nolimits(A)$ and $\kappa_2(A)=\|A\|_2\|A^{-1}\|_2\le n^c$, and let $b\in\mathbb Q^n\setminus\{0\}$. Assume all numerators and denominators in the input have at most $c\lceil\log_2(2n)\rceil$ bits.
+For each fixed positive integer $`c`$, let $`A\in\mathbb Q^{n\times n}`$ be nonsingular with $`m=\mathop{\mathrm{nnz}}\nolimits(A)`$ and $`\kappa_2(A)=\|A\|_2\|A^{-1}\|_2\le n^c`$, and let $`b\in\mathbb Q^n\setminus\{0\}`$. Assume all numerators and denominators in the input have at most $`c\lceil\log_2(2n)\rceil`$ bits.
 
-Is there a randomized algorithm using $\widetilde O(nm)$ bit operations which, with probability at least $0.99$, outputs a rational $\widehat x$ satisfying
+Is there a randomized algorithm using $`\widetilde O(nm)`$ bit operations which, with probability at least $`0.99`$, outputs a rational $`\widehat x`$ satisfying
 
-$$
+```math
 \|\widehat x-A^{-1}b\|_2\le n^{-c}\|A^{-1}b\|_2?
-$$
+```
 
-Here $\widetilde O$ hides powers of $\log n$, with constants allowed to depend on fixed $c$. The input is given by its sparse nonzero list. The target is a finite-precision complexity bound, including all arithmetic costs.
+Here $`\widetilde O`$ hides powers of $`\log n`$, with constants allowed to depend on fixed $`c`$. The input is given by its sparse nonzero list. The target is a finite-precision complexity bound, including all arithmetic costs.
 
 ## Application
 

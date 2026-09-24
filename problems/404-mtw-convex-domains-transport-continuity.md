@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $(M,g)$ be a compact connected smooth Riemannian manifold without boundary, of dimension $n\ge3$, and $c(x,y)=d_g(x,y)^2/2$. For each $x$ let $I_x\subset T_xM$ be the open set of vectors along which $\exp_x$ is minimizing beyond time one. Assume $I_x$ is convex, and assume the weak MTW condition
+Let $`(M,g)`$ be a compact connected smooth Riemannian manifold without boundary, of dimension $`n\ge3`$, and $`c(x,y)=d_g(x,y)^2/2`$. For each $`x`$ let $`I_x\subset T_xM`$ be the open set of vectors along which $`\exp_x`$ is minimizing beyond time one. Assume $`I_x`$ is convex, and assume the weak MTW condition
 
-$$
+```math
 -\frac32\left.\partial_s^2\partial_t^2 c(\exp_x(t\xi),\exp_x(v+s\eta))\right|_{s=t=0}\ge0\quad(v\in I_x,\ \xi\perp\eta).
-$$
+```
 
-For every pair of probability densities $f,g_1$ with respect to Riemannian volume satisfying $0<a\le f,g_1\le b<\infty$ almost everywhere, must the unique almost-everywhere optimal map transporting $f$ to $g_1$ for cost $c$ have a continuous representative on $M$?
+For every pair of probability densities $`f,g_1`$ with respect to Riemannian volume satisfying $`0<a\le f,g_1\le b<\infty`$ almost everywhere, must the unique almost-everywhere optimal map transporting $`f`$ to $`g_1`$ for cost $`c`$ have a continuous representative on $`M`$?
 
 ## Application
 

@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-For $p>1$ and $\tau>0$ consider $x'(t)=-x(t)+p\,x(t-\tau)e^{-x(t-\tau)}$ with arbitrary continuous history $x(s)>0$ on $[-\tau,0]$. The positive equilibrium is $x_* =\log p$. Suppose every root of $z+1-(1-\log p)e^{-z\tau}=0$ has strictly negative real part, so the equilibrium is locally exponentially stable. Must every such positive solution satisfy $x(t)\to\log p$ as $t\to\infty$? Parameter values with imaginary characteristic roots are excluded from the premise.
+For $`p>1`$ and $`\tau>0`$ consider $`x'(t)=-x(t)+p\,x(t-\tau)e^{-x(t-\tau)}`$ with arbitrary continuous history $`x(s)>0`$ on $`[-\tau,0]`$. The positive equilibrium is $`x_* =\log p`$. Suppose every root of $`z+1-(1-\log p)e^{-z\tau}=0`$ has strictly negative real part, so the equilibrium is locally exponentially stable. Must every such positive solution satisfy $`x(t)\to\log p`$ as $`t\to\infty`$? Parameter values with imaginary characteristic roots are excluded from the premise.
 
 ## Application
 

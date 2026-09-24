@@ -8,21 +8,21 @@
 
 ## Problem statement
 
-Let $(M,g)$ be a smooth compact Riemannian manifold, possibly with smooth boundary, and let $dV_g$ denote its volume measure. Let $\rho\ge0$ satisfy $\int_M\rho\,dV_g=1$ and $\sqrt\rho\in H^1(M)$. Its Fisher information is
+Let $`(M,g)`$ be a smooth compact Riemannian manifold, possibly with smooth boundary, and let $`dV_g`$ denote its volume measure. Let $`\rho\ge0`$ satisfy $`\int_M\rho\,dV_g=1`$ and $`\sqrt\rho\in H^1(M)`$. Its Fisher information is
 
-$$
+```math
 I(\rho)=4\int_M|\nabla\sqrt\rho|_g^2\,dV_g<\infty.
-$$
+```
 
-Define the score $s_\rho=2\nabla\sqrt\rho/\sqrt\rho$ on $\{\rho>0\}$ and zero elsewhere.
+Define the score $`s_\rho=2\nabla\sqrt\rho/\sqrt\rho`$ on $`\{\rho>0\}`$ and zero elsewhere.
 
-Prove or disprove the conjecture following Theorem 4 of [1]: there exist $\varphi_j\in C^1(M)$, continuously differentiable up to the boundary, such that
+Prove or disprove the conjecture following Theorem 4 of [1]: there exist $`\varphi_j\in C^1(M)`$, continuously differentiable up to the boundary, such that
 
-$$
+```math
 \int_M|\nabla\varphi_j-s_\rho|_g^2\rho\,dV_g\longrightarrow0.
-$$
+```
 
-No convexity, uniform positivity, upper bound on $\rho$, or boundary condition on $\varphi_j$ is assumed.
+No convexity, uniform positivity, upper bound on $`\rho`$, or boundary condition on $`\varphi_j`$ is assumed.
 
 ## Application
 
@@ -35,7 +35,7 @@ The approximation would remove an extra hypothesis from entropy chain rules on s
 
 ## Status review
 
-**Known cases:** Lemma A.3 of [1] establishes the conclusion when $0<c\le\rho\le C<\infty$.
+**Known cases:** Lemma A.3 of [1] establishes the conclusion when $`0<c\le\rho\le C<\infty`$.
 
 **Remaining target:** Allow arbitrary finite Fisher information, including vanishing or unbounded densities. This is a static approximation question on smooth geometry; the separate Lipschitz-domain chain-rule problem concerns time-dependent curves and rough geometry.
 

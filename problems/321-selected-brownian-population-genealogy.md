@@ -8,28 +8,28 @@
 
 ## Problem statement
 
-Consider $N$ particles on $\mathbb R$. Each moves as an independent standard Brownian motion (variance $t$ over time $t$) and, independently, splits into two particles at its current position at rate $1$. Immediately after each split, remove a leftmost particle, keeping exactly $N$ particles. Record the parent of each surviving child. This is the $N$-branching Brownian motion with selection, or $N$-BBM.
+Consider $`N`$ particles on $`\mathbb R`$. Each moves as an independent standard Brownian motion (variance $`t`$ over time $`t`$) and, independently, splits into two particles at its current position at rate $`1`$. Immediately after each split, remove a leftmost particle, keeping exactly $`N`$ particles. Record the parent of each surviving child. This is the $`N`$-branching Brownian motion with selection, or $`N`$-BBM.
 
-Write $X_i(t)$ for the positions and $Y_i(t)=X_i(t)-\min_jX_j(t)$ for their offsets from the leftmost particle. The offset process has a unique stationary probability law $\psi_N$. Use this law to specify the population's equilibrium regime; it is a law on configurations of $N$ particles, not a product of limiting one-particle densities.
+Write $`X_i(t)`$ for the positions and $`Y_i(t)=X_i(t)-\min_jX_j(t)`$ for their offsets from the leftmost particle. The offset process has a unique stationary probability law $`\psi_N`$. Use this law to specify the population's equilibrium regime; it is a law on configurations of $`N`$ particles, not a product of limiting one-particle densities.
 
-Here is a finite-window formulation of the Brunet–Derrida genealogy conjecture. **Does there exist a constant $c>0$ such that the following holds?** Set $a_N=c(\log N)^3$. For every fixed integer $k\ge2$ and $T>0$, start the offset configuration with law $\psi_N$, run the population until time $a_NT$, and choose $k$ distinct surviving particles uniformly without replacement. For $0\le s\le T$, let $\Pi_{N,k,T}(s)$ partition $\{1,\ldots,k\}$ by declaring two sampled particles equivalent precisely when they have the same ancestor at time $a_N(T-s)$. As $N\to\infty$, is it true that
+Here is a finite-window formulation of the Brunet–Derrida genealogy conjecture. **Does there exist a constant $`c>0`$ such that the following holds?** Set $`a_N=c(\log N)^3`$. For every fixed integer $`k\ge2`$ and $`T>0`$, start the offset configuration with law $`\psi_N`$, run the population until time $`a_NT`$, and choose $`k`$ distinct surviving particles uniformly without replacement. For $`0\le s\le T`$, let $`\Pi_{N,k,T}(s)`$ partition $`\{1,\ldots,k\}`$ by declaring two sampled particles equivalent precisely when they have the same ancestor at time $`a_N(T-s)`$. As $`N\to\infty`$, is it true that
 
-$$
+```math
 \bigl(\Pi_{N,k,T}(s)\bigr)_{0\le s\le T}
 \ \Longrightarrow\
 \bigl(\Pi_k(s)\bigr)_{0\le s\le T}
-$$
+```
 
-in finite-dimensional distributions, where $\Pi_k$ is the standard Bolthausen–Sznitman coalescent?
+in finite-dimensional distributions, where $`\Pi_k`$ is the standard Bolthausen–Sznitman coalescent?
 
-For completeness, $\Pi_k(0)$ consists of $k$ singleton blocks. Whenever there are $b$ blocks, each specified collection of $r$ blocks, $2\le r\le b$, merges into one at rate
+For completeness, $`\Pi_k(0)`$ consists of $`k`$ singleton blocks. Whenever there are $`b`$ blocks, each specified collection of $`r`$ blocks, $`2\le r\le b`$, merges into one at rate
 
-$$
+```math
 \lambda_{b,r}=\int_0^1 x^{r-2}(1-x)^{b-r}\,dx
 =\frac{(r-2)!(b-r)!}{(b-1)!}.
-$$
+```
 
-These are the only transitions. The same constant $c$ must work for all fixed sample sizes and time windows. It absorbs the time normalization of the population model. The question is convergence of the sampled partition process, not merely the order of a pair's expected coalescence time.
+These are the only transitions. The same constant $`c`$ must work for all fixed sample sizes and time windows. It absorbs the time normalization of the population model. The question is convergence of the sampled partition process, not merely the order of a pair's expected coalescence time.
 
 ## Application
 
@@ -40,7 +40,7 @@ Particle position represents inherited fitness, Brownian motion models changes i
 - [Julien Berestycki, *Topics on Branching Brownian motion*, EBP XVIII lecture notes, 7 August 2014](https://www.stats.ox.ac.uk/~berestyc/Articles/EBP18_v2.pdf), §9.1.1, Model 2, and §9.1.3, Conjecture 86, printed pp. 71–74.
 - [Nathanaël Berestycki, *Recent progress in coalescent theory*, Ensaios Matemáticos 16 (2009), 1–193](https://www.stat.berkeley.edu/~aldous/206-Exch/Papers/berestycki.pdf), §6.1 Eq. (6.1) and §6.3.3 Conjecture 6.1, for the coalescent rates and finite-dimensional formulation in the related discrete model.
 - [Pascal Maillard, *Speed and fluctuations of N-particle branching Brownian motion with spatial selection*, Probability Theory and Related Fields 166 (2016), 1061–1173; journal-version manuscript v4, 19 June 2018](https://arxiv.org/abs/1304.0562), Theorem 1.1 and §§1.3–1.4.
-- [Sarah Penington, Matthew I. Roberts and Zsófia Talyigás, *Genealogy and spatial distribution of the N-particle branching random walk with polynomial tails*, Electronic Journal of Probability 27 (2022), article 93](https://doi.org/10.1214/22-EJP806), §1.6; [author manuscript](https://arxiv.org/abs/2102.12424), p. 6, explicitly distinguishes the unproved light-tail and $N$-BBM conjectures from its polynomial-tail theorem.
+- [Sarah Penington, Matthew I. Roberts and Zsófia Talyigás, *Genealogy and spatial distribution of the N-particle branching random walk with polynomial tails*, Electronic Journal of Probability 27 (2022), article 93](https://doi.org/10.1214/22-EJP806), §1.6; [author manuscript](https://arxiv.org/abs/2102.12424), p. 6, explicitly distinguishes the unproved light-tail and $`N`$-BBM conjectures from its polynomial-tail theorem.
 - [Julien Berestycki and Oliver Tough, *Selection principle for the N-BBM*, arXiv:2407.05792v1, 8 July 2024](https://arxiv.org/abs/2407.05792), Theorems 1.1–1.4, for the stationary law and spatial-profile limit.
 - [Julien Berestycki, Nathanaël Berestycki and Jason Schweinsberg, *The genealogy of branching Brownian motion with absorption*, Annals of Probability 41 (2013), 527–618](https://arxiv.org/abs/1001.2337), §1.4, Proposition 1 and Theorem 3.
 - [Aser Cortines and Bastien Mallein, *A N-branching random walk with random selection*, ALEA 14 (2017), 117–137](https://alea.impa.br/articles/v14/14-07.pdf), §1 and Theorem 1.2.

@@ -8,25 +8,25 @@
 
 ## Problem statement
 
-On $\mathbb T^d$, $1\le d\le3$, fix $T>0$, a nonnegative smooth probability density $m_{\rm in}$, and a smooth terminal cost $g$. For $\nu>0$, let $(u_\nu,m_\nu)$ solve
+On $`\mathbb T^d`$, $`1\le d\le3`$, fix $`T>0`$, a nonnegative smooth probability density $`m_{\rm in}`$, and a smooth terminal cost $`g`$. For $`\nu>0`$, let $`(u_\nu,m_\nu)`$ solve
 
-$$
+```math
 -\partial_tu_\nu-\nu\Delta u_\nu+\tfrac12|\nabla u_\nu|^2=m_\nu,\qquad \partial_tm_\nu-\nu\Delta m_\nu-\nabla\cdot(m_\nu\nabla u_\nu)=0,
-$$
+```
 
 
 
-$$
+```math
 m_\nu(0)=m_{\rm in},\qquad u_\nu(T)=g.
-$$
+```
 
-Is there a continuous function $u$ on $(0,T)\times\mathbb T^d$ such that for every $0<\tau<T/2$,
+Is there a continuous function $`u`$ on $`(0,T)\times\mathbb T^d`$ such that for every $`0<\tau<T/2`$,
 
-$$
+```math
 \|u_\nu-u\|_{L^\infty([\tau,T-\tau]\times\mathbb T^d)}\longrightarrow0\quad\text{as }\nu\downarrow0?
-$$
+```
 
-No strictly positive lower bound on $m_{\rm in}$ is imposed; vacuum regions are allowed.
+No strictly positive lower bound on $`m_{\rm in}`$ is imposed; vacuum regions are allowed.
 
 ## Application
 

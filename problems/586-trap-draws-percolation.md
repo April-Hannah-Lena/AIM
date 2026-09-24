@@ -8,16 +8,16 @@
 
 ## Problem statement
 
-Fix an integer $d\ge2$. Independently delete every vertex of the nearest-neighbor graph on $\mathbb Z^d$ with probability $p\in(0,1)$. Both players know the resulting graph. A token starts at the origin, and the players alternate moving it along an edge to an undeleted vertex that has never previously been visited. A player with no legal move loses. If the origin is deleted, declare the first player the winner, so this outcome is never a draw.
+Fix an integer $`d\ge2`$. Independently delete every vertex of the nearest-neighbor graph on $`\mathbb Z^d`$ with probability $`p\in(0,1)`$. Both players know the resulting graph. A token starts at the origin, and the players alternate moving it along an edge to an undeleted vertex that has never previously been visited. A player with no legal move loses. If the origin is deleted, declare the first player the winner, so this outcome is never a draw.
 
-A board is a draw if neither player has a strategy that forces a win against every strategy of the opponent. Let $D_d(p)$ be the probability of this event, over the independently sampled board.
+A board is a draw if neither player has a strategy that forces a win against every strategy of the opponent. Let $`D_d(p)`$ be the probability of this event, over the independently sampled board.
 
-For which dimensions $d\ge2$ does there exist $p\in(0,1)$ with $D_d(p)>0$? The conjectured picture suggested by the source is
+For which dimensions $`d\ge2`$ does there exist $`p\in(0,1)`$ with $`D_d(p)>0`$? The conjectured picture suggested by the source is
 
-$$
+```math
 D_2(p)=0\quad\text{for every }p\in(0,1),\qquad
 \text{and for every }d\ge3\text{ there exists }p\in(0,1)\text{ with }D_d(p)>0.
-$$
+```
 
 Prove or disprove this picture. The game is undirected and forbids revisiting vertices; directional percolation games have different rules.
 
@@ -33,6 +33,6 @@ The game connects optimal strategies on random networks to maximum-cardinality m
 
 ## Status review
 
-At $p=0$ the full lattice gives a draw. For sufficiently large deletion probability every open cluster is finite, excluding draws. The asymmetric model in [1], with different deletion probabilities on the two parity classes, also has a proved region without draws; this does not settle equal positive deletion probabilities.
+At $`p=0`$ the full lattice gives a draw. For sufficiently large deletion probability every open cluster is finite, excluding draws. The asymmetric model in [1], with different deletion probabilities on the two parity classes, also has a proved region without draws; this does not settle equal positive deletion probabilities.
 
 The later discussion [2] retains the undirected question. The planar no-draw result in [3] permits only steps in two positive coordinate directions and therefore does not resolve this problem. Current literature, arXiv-indexed, public GitHub and native Palomar checks found no matching solution announcement. Zenodo's native API returned HTTP 403; indexed searches found no matching announcement.

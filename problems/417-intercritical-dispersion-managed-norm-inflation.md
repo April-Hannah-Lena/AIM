@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-On $\mathbb R^3$, consider the defocusing Gabitov–Turitsyn equation
+On $`\mathbb R^3`$, consider the defocusing Gabitov–Turitsyn equation
 
-$$
+```math
 i\partial_tu-\Delta u+\int_0^1e^{-i\sigma\Delta}\left(|e^{i\sigma\Delta}u|^4e^{i\sigma\Delta}u\right)\,d\sigma=0.
-$$
+```
 
-For every $\varepsilon>0$, do there exist $u_0\in\mathcal S(\mathbb R^3)$ and a time $t_\varepsilon$ with $0<|t_\varepsilon|<\varepsilon$, lying in the smooth solution's interval of existence, such that
+For every $`\varepsilon>0`$, do there exist $`u_0\in\mathcal S(\mathbb R^3)`$ and a time $`t_\varepsilon`$ with $`0<|t_\varepsilon|<\varepsilon`$, lying in the smooth solution's interval of existence, such that
 
-$$
+```math
 \|u_0\|_{\dot H^{1/4}}<\varepsilon,\qquad \|u(t_\varepsilon)\|_{\dot H^{1/4}}>\varepsilon^{-1}?
-$$
+```
 
-Here $u(0)=u_0$, $e^{i\sigma\Delta}$ is the free Schrödinger group, and $\|f\|_{\dot H^{1/4}}^2=\int|\xi|^{1/2}|\widehat f(\xi)|^2\,d\xi$. This fixes one positive regularity strictly below the integrated scaling threshold $s_i=1/2$.
+Here $`u(0)=u_0`$, $`e^{i\sigma\Delta}`$ is the free Schrödinger group, and $`\|f\|_{\dot H^{1/4}}^2=\int|\xi|^{1/2}|\widehat f(\xi)|^2\,d\xi`$. This fixes one positive regularity strictly below the integrated scaling threshold $`s_i=1/2`$.
 
 ## Application
 

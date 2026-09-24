@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^d$, $d\ge2$, be a connected unbounded uniformly $C^{2,\gamma}$ domain, and define
+Let $`\Omega\subset\mathbb R^d`$, $`d\ge2`$, be a connected unbounded uniformly $`C^{2,\gamma}`$ domain, and define
 
-$$
+```math
 \lambda_1(\Omega)=\inf_{0\ne\phi\in C_c^\infty(\Omega)}\frac{\int_\Omega|\nabla\phi|^2}{\int_\Omega\phi^2}.
-$$
+```
 
-Let $f\in C^{1,\gamma}([0,\infty))$ satisfy $f(0)=f(1)=0$, $f'(0)>0$, $f>0$ on $(0,1)$, $f<0$ on $(1,\infty)$, and strict decrease of $f(s)/s$ on $(0,1]$. If $\lambda_1(\Omega)=f'(0)$, must the Dirichlet problem
+Let $`f\in C^{1,\gamma}([0,\infty))`$ satisfy $`f(0)=f(1)=0`$, $`f'(0)>0`$, $`f>0`$ on $`(0,1)`$, $`f<0`$ on $`(1,\infty)`$, and strict decrease of $`f(s)/s`$ on $`(0,1]`$. If $`\lambda_1(\Omega)=f'(0)`$, must the Dirichlet problem
 
-$$
+```math
 -\Delta u=f(u)\quad\hbox{in }\Omega,\qquad u=0\quad\hbox{on }\partial\Omega
-$$
+```
 
-have no bounded positive classical solution? Uniform boundary regularity means common-radius boundary graph charts with uniformly bounded $C^{2,\gamma}$ norms. The domain need not be periodic or geometrically convergent at infinity.
+have no bounded positive classical solution? Uniform boundary regularity means common-radius boundary graph charts with uniformly bounded $`C^{2,\gamma}`$ norms. The domain need not be periodic or geometrically convergent at infinity.
 
 ## Application
 

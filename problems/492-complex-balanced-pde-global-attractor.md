@@ -8,27 +8,27 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^d$ be smooth, bounded and connected, with $|\Omega|=1$. A finite mass-action network consists of reactions $y_r\to y'_r$ in $\mathbb N_0^N$ and rates $k_r>0$. Put $z^y=\prod_i z_i^{y_i}$ and
+Let $`\Omega\subset\mathbb R^d`$ be smooth, bounded and connected, with $`|\Omega|=1`$. A finite mass-action network consists of reactions $`y_r\to y'_r`$ in $`\mathbb N_0^N`$ and rates $`k_r>0`$. Put $`z^y=\prod_i z_i^{y_i}`$ and
 
-$$
+```math
 f(z)=\sum_r k_r z^{y_r}(y'_r-y_r),\qquad S=\mathop{\mathrm{span}}\nolimits\{y'_r-y_r\}_r.
-$$
+```
 
-Assume complex balance: some $c_*\in(0,\infty)^N$ satisfies, for every complex $y$,
+Assume complex balance: some $`c_*\in(0,\infty)^N`$ satisfies, for every complex $`y`$,
 
-$$
+```math
 \sum_{r:y_r=y}k_r c_*^{y_r}=\sum_{r:y'_r=y}k_r c_*^{y_r}.
-$$
+```
 
-For arbitrary diffusion constants $d_i>0$, consider
+For arbitrary diffusion constants $`d_i>0`$, consider
 
-$$
+```math
 \partial_tu_i=d_i\Delta u_i+f_i(u),\qquad\partial_\nu u_i=0.
-$$
+```
 
-Let $u_0$ be smooth, strictly positive and boundary-compatible, and suppose its classical solution exists globally and satisfies $\sup_{t\ge0}\|u(t)\|_{L^\infty}<\infty$. Let $c_\infty$ be the unique positive equilibrium with $\int_\Omega u_0-c_\infty\in S$.
+Let $`u_0`$ be smooth, strictly positive and boundary-compatible, and suppose its classical solution exists globally and satisfies $`\sup_{t\ge0}\|u(t)\|_{L^\infty}<\infty`$. Let $`c_\infty`$ be the unique positive equilibrium with $`\int_\Omega u_0-c_\infty\in S`$.
 
-Must $\|u(t)-c_\infty\|_{L^1(\Omega)}\to0$ as $t\to\infty$, even when the same stoichiometric class contains equilibria with zero components? No uniform positive lower bound on $u$ is assumed, and the diffusion constants need not be large or nearly equal.
+Must $`\|u(t)-c_\infty\|_{L^1(\Omega)}\to0`$ as $`t\to\infty`$, even when the same stoichiometric class contains equilibria with zero components? No uniform positive lower bound on $`u`$ is assumed, and the diffusion constants need not be large or nearly equal.
 
 ## Application
 

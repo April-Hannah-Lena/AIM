@@ -8,18 +8,18 @@
 
 ## Problem statement
 
-An input consists of a positive integer $n$ and a polynomial vector field
+An input consists of a positive integer $`n`$ and a polynomial vector field
 
-$$
+```math
 f\in\mathbb{Q}[x_1,\ldots,x_n]^n,\qquad f(0)=0,
-$$
+```
 
-given by a finite list of monomials with exactly encoded rational coefficients and nonnegative integer exponents. Dimension and degree may vary. Consider the autonomous continuous-time system $\dot x=f(x)$ on $\mathbb{R}^n$. Write $\phi(t,x_0)$ for its unique maximal classical solution from $x_0$, and use the Euclidean norm.
+given by a finite list of monomials with exactly encoded rational coefficients and nonnegative integer exponents. Dimension and degree may vary. Consider the autonomous continuous-time system $`\dot x=f(x)`$ on $`\mathbb{R}^n`$. Write $`\phi(t,x_0)`$ for its unique maximal classical solution from $`x_0`$, and use the Euclidean norm.
 
-The equilibrium $0$ is **locally asymptotically stable** when both conditions hold:
+The equilibrium $`0`$ is **locally asymptotically stable** when both conditions hold:
 
-1. For every $\varepsilon>0$, some $\delta>0$ has the following property: every $x_0$ with $\|x_0\|<\delta$ gives a solution defined for all $t\geq0$ with $\|\phi(t,x_0)\|<\varepsilon$ for all $t\geq0$.
-2. Some $r>0$ has the following property: every $x_0$ with $\|x_0\|<r$ gives a solution defined for all $t\geq0$ and satisfying $\lim_{t\to\infty}\phi(t,x_0)=0$.
+1. For every $`\varepsilon>0`$, some $`\delta>0`$ has the following property: every $`x_0`$ with $`\|x_0\|<\delta`$ gives a solution defined for all $`t\geq0`$ with $`\|\phi(t,x_0)\|<\varepsilon`$ for all $`t\geq0`$.
+2. Some $`r>0`$ has the following property: every $`x_0`$ with $`\|x_0\|<r`$ gives a solution defined for all $`t\geq0`$ and satisfying $`\lim_{t\to\infty}\phi(t,x_0)=0`$.
 
 **Open question:** Does a Turing algorithm exist that halts on every such finite input and correctly decides whether these two conditions hold? This is the local-asymptotic-stability version of Arnold's polynomial stability question, explicitly discussed in [1, §3].
 

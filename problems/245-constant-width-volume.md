@@ -8,11 +8,11 @@
 
 ## Problem statement
 
-For a compact convex body $K\subset\mathbb R^3$ with nonempty interior, define its support function by $h_K(u)=\max_{x\in K}x\cdot u$ for $u\in S^2$. Determine the exact value of
+For a compact convex body $`K\subset\mathbb R^3`$ with nonempty interior, define its support function by $`h_K(u)=\max_{x\in K}x\cdot u`$ for $`u\in S^2`$. Determine the exact value of
 
-$$
+```math
 v_3=\inf\left\{\mathop{\mathrm{Vol}}\nolimits_3(K):h_K(u)+h_K(-u)=1\text{ for every }u\in S^2\right\},
-$$
+```
 
 and characterize all bodies attaining this value, up to rigid motion. The condition prescribes width one in every direction. The infimum is over all such convex bodies; no rotational or polyhedral symmetry is imposed.
 

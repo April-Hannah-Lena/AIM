@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Let $\Gamma$ be an infinite finitely generated group with identity $e$, and let $S,T\subset\Gamma\setminus\{e\}$ be finite symmetric generating sets: $S=S^{-1}$ and $T=T^{-1}$. For $A\in\{S,T\}$, the $A$-walk moves from $g$ to $ga$ with probability $1/|A|$ for each $a\in A$.
+Let $`\Gamma`$ be an infinite finitely generated group with identity $`e`$, and let $`S,T\subset\Gamma\setminus\{e\}`$ be finite symmetric generating sets: $`S=S^{-1}`$ and $`T=T^{-1}`$. For $`A\in\{S,T\}`$, the $`A`$-walk moves from $`g`$ to $`ga`$ with probability $`1/|A|`$ for each $`a\in A`$.
 
-Call this walk Liouville if every bounded function $f:\Gamma\to\mathbb R$ satisfying
+Call this walk Liouville if every bounded function $`f:\Gamma\to\mathbb R`$ satisfying
 
-$$
+```math
 f(g)=\frac1{|A|}\sum_{a\in A}f(ga)\qquad\text{for all }g\in\Gamma
-$$
+```
 
-is constant. Must the $S$-walk be Liouville if and only if the $T$-walk is Liouville, for every choice of $(\Gamma,S,T)$?
+is constant. Must the $`S`$-walk be Liouville if and only if the $`T`$-walk is Liouville, for every choice of $`(\Gamma,S,T)`$?
 
 Both walks use uniform probabilities on symmetric generating sets. Arbitrary changes to the graph, directed steps, or unbounded jump distributions are outside this statement.
 

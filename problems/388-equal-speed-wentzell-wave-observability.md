@@ -8,31 +8,31 @@
 
 ## Problem statement
 
-Let $\Omega=\{x\in\mathbb R^2:1<|x|<2\}$, $\Gamma_1=\{|x|=1\}$ and $\Gamma_0=\{|x|=2\}$. Consider
+Let $`\Omega=\{x\in\mathbb R^2:1<|x|<2\}`$, $`\Gamma_1=\{|x|=1\}`$ and $`\Gamma_0=\{|x|=2\}`$. Consider
 
-$$
+```math
 z_{tt}-\Delta z=0\quad\text{in }\Omega,\qquad z=0\quad\text{on }\Gamma_0,
-$$
+```
 
 
 
-$$
+```math
 z_\Gamma=z|_{\Gamma_1},\qquad
 z_{\Gamma,tt}-\Delta_\Gamma z_\Gamma+\partial_\nu z=0\quad\text{on }\Gamma_1.
-$$
+```
 
-Here $\nu$ is the outward normal of the annulus and $\Delta_\Gamma$ is the circle's Laplace operator. Define the conserved energy
+Here $`\nu`$ is the outward normal of the annulus and $`\Delta_\Gamma`$ is the circle's Laplace operator. Define the conserved energy
 
-$$
+```math
 E(t)=\int_\Omega(|z_t|^2+|\nabla z|^2)\,dx+
 \int_{\Gamma_1}(|z_{\Gamma,t}|^2+|\nabla_\Gamma z_\Gamma|^2)\,dS.
-$$
+```
 
-Does there exist a finite $T_0$ such that for every $T>T_0$ there is $C_T<\infty$ with
+Does there exist a finite $`T_0`$ such that for every $`T>T_0`$ there is $`C_T<\infty`$ with
 
-$$
+```math
 E(0)\le C_T\int_0^T\int_{\Gamma_0}|\partial_\nu z|^2\,dS\,dt
-$$
+```
 
 for every smooth compatible solution? By density this is an energy-space observability question. This annular equal-speed case is a concrete instance of the open threshold problem.
 

@@ -8,24 +8,24 @@
 
 ## Problem statement
 
-Let $(M,g)$ be a connected, complete, noncompact smooth Riemannian manifold without boundary. For $j\in\{0,+\}$, let $V_j\in C^\infty(M;\mathbb R)$ be bounded below and let $H_j=-\Delta_g+V_j$ denote its Friedrichs realization on $L^2(M,d\mathrm{vol}_g)$. Assume $H_j\ge0$ and $\inf\sigma(H_j)=0$. Write $k_j(t,x,y)>0$ for the heat kernel of $e^{-tH_j}$.
-Assume, for some distinct $x_*,y_*\in M$,
+Let $`(M,g)`$ be a connected, complete, noncompact smooth Riemannian manifold without boundary. For $`j\in\{0,+\}`$, let $`V_j\in C^\infty(M;\mathbb R)`$ be bounded below and let $`H_j=-\Delta_g+V_j`$ denote its Friedrichs realization on $`L^2(M,d\mathrm{vol}_g)`$. Assume $`H_j\ge0`$ and $`\inf\sigma(H_j)=0`$. Write $`k_j(t,x,y)>0`$ for the heat kernel of $`e^{-tH_j}`$.
+Assume, for some distinct $`x_*,y_*\in M`$,
 
-$$
+```math
 \int_0^\infty k_+(t,x_*,y_*)\,dt<\infty,
 \qquad
 \int_0^\infty k_0(t,x_*,y_*)\,dt=\infty,
-$$
+```
 
-and assume $\ker_{L^2}H_0=\{0\}$. These assumptions specify a subcritical operator and a null-critical reference operator. Must
+and assume $`\ker_{L^2}H_0=\{0\}`$. These assumptions specify a subcritical operator and a null-critical reference operator. Must
 
-$$
+```math
 \lim_{t\to\infty}\ \sup_{(x,y)\in K}
 \frac{k_+(t,x,y)}{k_0(t,x,y)}=0
 \quad\text{for every compact }K\subset M\times M?
-$$
+```
 
-No pointwise ordering between $V_+$ and $V_0$ is assumed.
+No pointwise ordering between $`V_+`$ and $`V_0`$ is assumed.
 
 ## Application
 

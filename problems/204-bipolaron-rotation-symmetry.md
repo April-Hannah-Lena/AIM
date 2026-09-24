@@ -8,29 +8,29 @@
 
 ## Problem statement
 
-For $\psi\in H^1(\mathbb R^6)$ with $\|\psi\|_2=1$, set
+For $`\psi\in H^1(\mathbb R^6)`$ with $`\|\psi\|_2=1`$, set
 
-$$
+```math
 \rho_\psi(x)=\int(|\psi(x,y)|^2+|\psi(y,x)|^2)\,dy,
-$$
+```
 
 
 
-$$
+```math
 \mathcal P_U(\psi)=\iint\left(|\nabla_x\psi|^2+|\nabla_y\psi|^2+\frac{U|\psi|^2}{|x-y|}\right)dx\,dy-\iint\frac{\rho_\psi(x)\rho_\psi(y)}{|x-y|}\,dx\,dy.
-$$
+```
 
-Write $E_2(U)=\inf\mathcal P_U$ and
+Write $`E_2(U)=\inf\mathcal P_U`$ and
 
-$$
+```math
 E_1=\inf_{\substack{\phi\in H^1(\mathbb R^3)\\\|\phi\|_2=1}}\left\{\int|\nabla\phi|^2-\iint\frac{|\phi(x)|^2|\phi(y)|^2}{|x-y|}\,dx\,dy\right\}.
-$$
+```
 
-For every $U\ge0$ with $E_2(U)<2E_1$, must every minimizer, after a common translation of its coordinates, obey
+For every $`U\ge0`$ with $`E_2(U)<2E_1`$, must every minimizer, after a common translation of its coordinates, obey
 
-$$
+```math
 \psi(Rx,Ry)=\psi(x,y)\quad\text{for every }R\in O(3)?
-$$
+```
 
 Equivalently, determine whether rotational symmetry breaking occurs anywhere in the binding regime.
 
@@ -51,6 +51,6 @@ A bipolaron consists of two electrons coupled through a polarizable medium. The 
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-The theorem covers sufficiently small repulsion only. The primary paper explicitly asks what occurs near the binding threshold. Its choice $\alpha=1/2$ is rescaled here to $\alpha=1$; the question concerns all binding values and is unchanged by that normalization.
+The theorem covers sufficiently small repulsion only. The primary paper explicitly asks what occurs near the binding threshold. Its choice $`\alpha=1/2`$ is rescaled here to $`\alpha=1`$; the question concerns all binding values and is unchanged by that normalization.
 
 **Search audit:** Queries: “bipolaron rotational symmetry breaking Pekar Tomasevich proof 2025 2026”, “Frank Lieb Seiringer symmetry bipolaron critical repulsion”. Searches included later proofs, counterexamples, and 2025–2026 updates. No resolution matching the stated hypotheses was located.

@@ -8,36 +8,36 @@
 
 ## Problem statement
 
-Let $d\ge2$ and let $\Omega\subset\mathbb R^d$ be bounded, connected and Lipschitz. Partition its boundary, up to surface measure zero, into relatively open pressure and flux parts $\Sigma_p,\Sigma_v$. Let $2\le r<\infty$ and $s=r/(r-1)$. Suppose $\phi_1:[0,1]\to[0,\infty)$ and $\phi_2:[1,\infty)\to[0,\infty)$ are continuous and nondecreasing, with
+Let $`d\ge2`$ and let $`\Omega\subset\mathbb R^d`$ be bounded, connected and Lipschitz. Partition its boundary, up to surface measure zero, into relatively open pressure and flux parts $`\Sigma_p,\Sigma_v`$. Let $`2\le r<\infty`$ and $`s=r/(r-1)`$. Suppose $`\phi_1:[0,1]\to[0,\infty)`$ and $`\phi_2:[1,\infty)\to[0,\infty)`$ are continuous and nondecreasing, with
 
-$$
+```math
 c a^{(r-2)/2}\le\phi_2(a)\le C(1+a^{(r-2)/2})\quad(a\ge1),\qquad 0<\phi_2(1)<\phi_1(1),
-$$
+```
 
-for constants $c,C>0$. The last inequality is a negative jump in inverse permeability (drag) at the normalized speed threshold one.
+for constants $`c,C>0`$. The last inequality is a negative jump in inverse permeability (drag) at the normalized speed threshold one.
 
-For $u\in L^r(\Omega;\mathbb R^d)$ define the multivalued constitutive law
+For $`u\in L^r(\Omega;\mathbb R^d)`$ define the multivalued constitutive law
 
-$$
+```math
 \Lambda(u)=\left\{\phi_1(|u|^2)u\,\mathbf1_{\{|u|<1\}}+\phi_2(|u|^2)u\,\mathbf1_{\{|u|>1\}}+h\,\mathbf1_{\{|u|=1\}}:h\in L^s(\Omega;\mathbb R^d)\right\}.
-$$
+```
 
-The transition law is free on $\{|u|=1\}$; it is neither a prescribed branch value nor a prescribed convex combination.
+The transition law is free on $`\{|u|=1\}`$; it is neither a prescribed branch value nor a prescribed convex combination.
 
-Take $q\in L^r(\Omega)$, $f\in L^s(\Omega;\mathbb R^d)$ and $u_0\in L^r(\Sigma_v)$. If $\Sigma_p$ has positive surface measure, prescribe pressure through an extension $P\in W^{1,s}(\Omega)$ and put
+Take $`q\in L^r(\Omega)`$, $`f\in L^s(\Omega;\mathbb R^d)`$ and $`u_0\in L^r(\Sigma_v)`$. If $`\Sigma_p`$ has positive surface measure, prescribe pressure through an extension $`P\in W^{1,s}(\Omega)`$ and put
 
-$$
+```math
 V=\{\psi\in W^{1,s}(\Omega):\mathop{\mathrm{Tr}}\nolimits\psi=0\text{ on }\Sigma_p\}.
-$$
+```
 
-If $\Sigma_p=\varnothing$, put $P=0$, $V=\{\psi\in W^{1,s}(\Omega):\int_\Omega\psi=0\}$ and impose $\int_\Omega q=\int_{\partial\Omega}u_0$.
+If $`\Sigma_p=\varnothing`$, put $`P=0`$, $`V=\{\psi\in W^{1,s}(\Omega):\int_\Omega\psi=0\}`$ and impose $`\int_\Omega q=\int_{\partial\Omega}u_0`$.
 
-Does every such choice of domain, laws and data admit $u\in L^r(\Omega;\mathbb R^d)$, $p\in P+V$ and $\zeta\in\Lambda(u)$ satisfying
+Does every such choice of domain, laws and data admit $`u\in L^r(\Omega;\mathbb R^d)`$, $`p\in P+V`$ and $`\zeta\in\Lambda(u)`$ satisfying
 
-$$
+```math
 \zeta=f-\nabla p\quad\text{a.e. in }\Omega,\qquad
 \int_\Omega u\cdot\nabla\psi=-\int_\Omega q\psi+\int_{\Sigma_v}u_0\psi\quad(\psi\in V)?
-$$
+```
 
 Prove this existence assertion or construct admissible data for which it fails. The target is a weak solution of the stated law, without an additional requirement that it minimize an energy.
 

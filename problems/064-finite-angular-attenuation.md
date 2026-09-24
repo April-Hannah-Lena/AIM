@@ -8,14 +8,14 @@
 
 ## Problem statement
 
-Let $M$ be a smooth compact oriented simple Riemannian surface, with strictly convex boundary and unique smoothly varying geodesics. Let $a\in C^\infty(SM;\mathbb C)$ have finite angular degree: there is a single integer $N\ge0$ such that its angular Fourier coefficients satisfy $a_k(x)=0$ for every $x\in M$ and $|k|>N$. For every maximal unit-speed boundary-to-boundary geodesic $\gamma:[0,\ell]\to M$, define
+Let $`M`$ be a smooth compact oriented simple Riemannian surface, with strictly convex boundary and unique smoothly varying geodesics. Let $`a\in C^\infty(SM;\mathbb C)`$ have finite angular degree: there is a single integer $`N\ge0`$ such that its angular Fourier coefficients satisfy $`a_k(x)=0`$ for every $`x\in M`$ and $`|k|>N`$. For every maximal unit-speed boundary-to-boundary geodesic $`\gamma:[0,\ell]\to M`$, define
 
-$$
+```math
 I_af(\gamma)=\int_0^\ell
  \exp\!\left(\int_0^t a(\gamma(s),\dot\gamma(s))\,ds\right)f(\gamma(t))\,dt.
-$$
+```
 
-For every such $a$, does $I_af=0$ imply $f=0$ for smooth scalar functions $f$ on $M$?
+For every such $`a`$, does $`I_af=0`$ imply $`f=0`$ for smooth scalar functions $`f`$ on $`M`$?
 
 ## Application
 

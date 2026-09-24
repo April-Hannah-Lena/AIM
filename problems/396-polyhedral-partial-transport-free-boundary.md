@@ -8,8 +8,8 @@
 
 ## Problem statement
 
-Let $n\ge3$, and let bounded domains $\Omega,\Omega^*\subset\mathbb R^n$ be strictly separated by a hyperplane; assume $\Omega^*$ has boundary made of finitely many flat polygonal facets and may be nonconvex. Fix $0<m<\min(|\Omega|,|\Omega^*|)$. Minimize $\int|x-y|^2\,d\gamma$ over nonnegative measures of mass $m$ whose marginals are bounded by $\mathbf1_\Omega dx$ and $\mathbf1_{\Omega^*}dy$. Let $U\subset\Omega$ be the open active source region of the optimal plan and $\mathcal F=\partial U\cap\Omega$ its interior free boundary.
-Must $\mathcal F$ be locally a smooth embedded hypersurface outside a relatively closed set of Hausdorff dimension at most $n-2$?
+Let $`n\ge3`$, and let bounded domains $`\Omega,\Omega^*\subset\mathbb R^n`$ be strictly separated by a hyperplane; assume $`\Omega^*`$ has boundary made of finitely many flat polygonal facets and may be nonconvex. Fix $`0<m<\min(|\Omega|,|\Omega^*|)`$. Minimize $`\int|x-y|^2\,d\gamma`$ over nonnegative measures of mass $`m`$ whose marginals are bounded by $`\mathbf1_\Omega dx`$ and $`\mathbf1_{\Omega^*}dy`$. Let $`U\subset\Omega`$ be the open active source region of the optimal plan and $`\mathcal F=\partial U\cap\Omega`$ its interior free boundary.
+Must $`\mathcal F`$ be locally a smooth embedded hypersurface outside a relatively closed set of Hausdorff dimension at most $`n-2`$?
 
 ## Application
 

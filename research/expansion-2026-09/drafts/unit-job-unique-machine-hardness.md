@@ -8,31 +8,31 @@
 
 ## Problem statement
 
-An instance $I$ consists of $n\geq1$ jobs, a directed acyclic graph $G=(J,E)$ of precedence constraints, and a map $M:J\to\{1,\ldots,m\}$ specifying the only machine on which each job may run. Each job requires exactly one unit of uninterrupted processing. Each machine can process at most one job at a time. The machine count is part of the input; unused machines may be discarded.
+An instance $`I`$ consists of $`n\geq1`$ jobs, a directed acyclic graph $`G=(J,E)`$ of precedence constraints, and a map $`M:J\to\{1,\ldots,m\}`$ specifying the only machine on which each job may run. Each job requires exactly one unit of uninterrupted processing. Each machine can process at most one job at a time. The machine count is part of the input; unused machines may be discarded.
 
-A feasible schedule gives each job a nonnegative starting time $s(j)$ such that
+A feasible schedule gives each job a nonnegative starting time $`s(j)`$ such that
 
-$$
+```math
 s(v)\geq s(u)+1\quad((u,v)\in E),
-$$
+```
 
-and, for distinct jobs $u,v$ with $M(u)=M(v)$, the intervals $[s(u),s(u)+1)$ and $[s(v),s(v)+1)$ are disjoint. Jobs are executed once, without release dates or additional communication delays. The makespan and optimum are
+and, for distinct jobs $`u,v`$ with $`M(u)=M(v)`$, the intervals $`[s(u),s(u)+1)`$ and $`[s(v),s(v)+1)`$ are disjoint. Jobs are executed once, without release dates or additional communication delays. The makespan and optimum are
 
-$$
+```math
 C_{\max}(s)=\max_{j\in J}(s(j)+1),
 \qquad
 \mathop{\mathrm{OPT}}\nolimits(I)=\min_{s\text{ feasible}}C_{\max}(s).
-$$
+```
 
 Integer starting times suffice: keep each machine's job order from any feasible schedule and move jobs to their earliest permitted times. The resulting precedence and machine-order graph is acyclic, so its longest-path schedule has integer times and no larger makespan.
 
-Prove or disprove the **UMPS polynomial-factor hardness conjecture**: there is an absolute constant $\varepsilon\in(0,1)$ such that approximating this optimum within a factor $n^{\varepsilon}$ is NP-hard. Here an approximation algorithm must return a feasible schedule satisfying
+Prove or disprove the **UMPS polynomial-factor hardness conjecture**: there is an absolute constant $`\varepsilon\in(0,1)`$ such that approximating this optimum within a factor $`n^{\varepsilon}`$ is NP-hard. Here an approximation algorithm must return a feasible schedule satisfying
 
-$$
+```math
 C_{\max}(s)\leq n^{\varepsilon}\mathop{\mathrm{OPT}}\nolimits(I)
-$$
+```
 
-on every instance and run in time polynomial in the explicit input length. NP-hardness is meant under polynomial-time reductions; it would rule out such a deterministic algorithm if $\mathsf P\ne\mathsf{NP}$. The conjecture asks for a fixed positive exponent, not merely exact optimization hardness or a fixed constant approximation barrier. It is Conjecture 1.1 in the published original [1], numbered Conjecture 2 in its preprint.
+on every instance and run in time polynomial in the explicit input length. NP-hardness is meant under polynomial-time reductions; it would rule out such a deterministic algorithm if $`\mathsf P\ne\mathsf{NP}`$. The conjecture asks for a fixed positive exponent, not merely exact optimization hardness or a fixed constant approximation barrier. It is Conjecture 1.1 in the published original [1], numbered Conjecture 2 in its preprint.
 
 ## Applied significance
 
@@ -50,7 +50,7 @@ The conjecture asks whether even a guarantee that deteriorates as a power of wor
 
 Open in cited literature; no later resolution located as of 2026-09-18. The original published paper [1] explicitly poses the conjecture. The independently authored July 2026 preprint [2] repeats it and identifies its own results as progress toward it.
 
-Theorem 1.2 of [2] establishes NP-hardness for each fixed approximation factor greater than one. Theorem 1.3 rules out a factor $(\log N)^{\gamma}$ for some constant $\gamma>0$, where $N$ is input size, assuming NP has no deterministic quasipolynomial-time algorithms. Its proof uses a quasipolynomial-size reduction. Neither statement gives the conjectured power-of-$n$ gap under polynomial-time reductions. The paper's complete model, theorem statements and §3.4 proofs were read for this comparison; its underlying hardness proofs were not independently certified.
+Theorem 1.2 of [2] establishes NP-hardness for each fixed approximation factor greater than one. Theorem 1.3 rules out a factor $`(\log N)^{\gamma}`$ for some constant $`\gamma>0`$, where $`N`$ is input size, assuming NP has no deterministic quasipolynomial-time algorithms. Its proof uses a quasipolynomial-size reduction. Neither statement gives the conjectured power-of-$`n`$ gap under polynomial-time reductions. The paper's complete model, theorem statements and §3.4 proofs were read for this comparison; its underlying hardness proofs were not independently certified.
 
 The older logarithmic hardness in [1, Corollary 2.1] allows nonunit processing times. The positive algorithms in [3] allow machine assignment and impose additive structure on delays; some also allow duplication or an additive delay term in the guarantee. Its Theorem 4 instead reduces UMPS to an arbitrary job-machine delay model. The direction and hypotheses of those results do not supply an approximation algorithm for the input above.
 

@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-For $\delta>0$ and a Schwartz function $f$ on $\mathbb R^3$, define $B^\delta f$ through its Fourier transform by
+For $`\delta>0`$ and a Schwartz function $`f`$ on $`\mathbb R^3`$, define $`B^\delta f`$ through its Fourier transform by
 
-$$
+```math
 \widehat{B^\delta f}(\xi)=(1-|\xi|^2)_+^\delta\widehat f(\xi),\qquad r_+=\max\{r,0\}.
-$$
+```
 
-For every $1<p<\infty$ and
+For every $`1<p<\infty`$ and
 
-$$
+```math
 \delta>\max\left\{3\left|\frac1p-\frac12\right|-\frac12,\,0\right\},
-$$
+```
 
-does there exist $C_{p,\delta}<\infty$ such that $\|B^\delta f\|_{L^p}\le C_{p,\delta}\|f\|_{L^p}$ for all such $f$?
+does there exist $`C_{p,\delta}<\infty`$ such that $`\|B^\delta f\|_{L^p}\le C_{p,\delta}\|f\|_{L^p}`$ for all such $`f`$?
 
 ## Application
 
@@ -39,6 +39,6 @@ Bochner–Riesz means smooth a spherical frequency cutoff. The sharp threshold d
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-The cited results reach $\max\{p,p/(p-1)\}\ge13/4$ with the predicted threshold. They do not cover all intermediate exponents. Two-dimensional results and improvements for maximal or weighted variants do not establish this full three-dimensional strong-type assertion.
+The cited results reach $`\max\{p,p/(p-1)\}\ge13/4`$ with the predicted threshold. They do not cover all intermediate exponents. Two-dimensional results and improvements for maximal or weighted variants do not establish this full three-dimensional strong-type assertion.
 
 **Search audit:** Queries: “Bochner Riesz conjecture R3 proof 2025 2026”, “Wu Guo Oh Wang Zhang Bochner Riesz sharp range”. Searches included later proofs, counterexamples, and 2025–2026 updates. No resolution matching the stated hypotheses was located.

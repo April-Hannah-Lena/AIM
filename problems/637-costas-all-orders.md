@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-For each positive integer $n$, does there exist a permutation $f$ of $\{1,\ldots,n\}$ such that, for every $h\in\{1,\ldots,n-1\}$, the integers
+For each positive integer $`n`$, does there exist a permutation $`f`$ of $`\{1,\ldots,n\}`$ such that, for every $`h\in\{1,\ldots,n-1\}`$, the integers
 
-$$
+```math
 f(i+h)-f(i),\qquad 1\le i\le n-h,
-$$
+```
 
-are pairwise distinct? All differences are taken in the integers, without reduction modulo $n$.
+are pairwise distinct? All differences are taken in the integers, without reduction modulo $`n`$.
 
 Such a permutation describes a Costas array. Settle existence for every order, either by proving the assertion or by proving nonexistence at some order. Failure of a search or of a particular algebraic construction is insufficient for the negative answer.
 
@@ -30,7 +30,7 @@ Costas arrays prescribe frequency-hopping patterns with distinct displacement ve
 
 ## Status review
 
-**Known cases:** Finite-field constructions produce infinitely many orders, including $p-1$ for primes $p$ and $q-2$ for prime powers $q\ge3$. Enumeration supplies further examples.
+**Known cases:** Finite-field constructions produce infinitely many orders, including $`p-1`$ for primes $`p`$ and $`q-2`$ for prime powers $`q\ge3`$. Enumeration supplies further examples.
 
 **Remaining target:** Decide the universal existence assertion. The 2026 framework in [3] introduces search tools and does not establish existence at arbitrary order. The August 2026 census arXiv:2608.28690 concerns main-diagonal symmetric arrays of orders37–42, not a universal construction or a nonexistence result for unrestricted arrays.
 

@@ -6,26 +6,26 @@
 
 ## Problem statement
 
-Let $A\subset\mathbb R^3$ be a compact convex polyhedron with nonempty interior, and let $X_1,X_2,\ldots$ be independent uniform points in $A$. Set
+Let $`A\subset\mathbb R^3`$ be a compact convex polyhedron with nonempty interior, and let $`X_1,X_2,\ldots`$ be independent uniform points in $`A`$. Set
 
-$$
+```math
 R_{n,i}=\min_{j\ne i}\|X_i-X_j\|.
-$$
+```
 
-Let $I_n$ be the smallest index attaining $\max_{1\le i\le n}R_{n,i}$, and put $Z_n=X_{I_n}$. Thus $Z_n$ is a most isolated sample point, with an explicit rule for ties.
+Let $`I_n`$ be the smallest index attaining $`\max_{1\le i\le n}R_{n,i}`$, and put $`Z_n=X_{I_n}`$. Thus $`Z_n`$ is a most isolated sample point, with an explicit rule for ties.
 
-For each edge $e$ of $A$, let $\alpha_e\in(0,\pi)$ be its interior dihedral angle, and set
+For each edge $`e`$ of $`A`$, let $`\alpha_e\in(0,\pi)`$ be its interior dihedral angle, and set
 
-$$
+```math
 \alpha_* = \min_e\alpha_e,\qquad E_* = \bigcup_{\alpha_e=\alpha_*}e.
-$$
+```
 
 Prove or disprove the following two-regime statement:
 
-- If $\alpha_*>\pi/2$, then $Z_n$ converges in distribution to normalized surface-area measure on $\partial A$.
-- If $\alpha_*<\pi/2$, then $Z_n$ converges in distribution to normalized length measure on $E_*$.
+- If $`\alpha_*>\pi/2`$, then $`Z_n`$ converges in distribution to normalized surface-area measure on $`\partial A`$.
+- If $`\alpha_*<\pi/2`$, then $`Z_n`$ converges in distribution to normalized length measure on $`E_*`$.
 
-Explicitly, the proposed limits are respectively $\mathcal H^2|_{\partial A}/\mathcal H^2(\partial A)$ and $\mathcal H^1|_{E_*}/\mathcal H^1(E_*)$, where $\mathcal H^s$ denotes $s$-dimensional Hausdorff measure. The critical case $\alpha_*=\pi/2$ is outside this question.
+Explicitly, the proposed limits are respectively $`\mathcal H^2|_{\partial A}/\mathcal H^2(\partial A)`$ and $`\mathcal H^1|_{E_*}/\mathcal H^1(E_*)`$, where $`\mathcal H^s`$ denotes $`s`$-dimensional Hausdorff measure. The critical case $`\alpha_*=\pi/2`$ is outside this question.
 
 ## Application
 

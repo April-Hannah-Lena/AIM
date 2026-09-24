@@ -8,32 +8,32 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^d$, $d\ge2$, be bounded with smooth boundary, and let $N\ge2$, $d_i>0$. Let $f:[0,\infty)^N\to\mathbb R^N$ be locally Lipschitz, with $f_i(z)\ge0$ when $z_i=0$, and suppose some $\mu\in\mathbb R^N$ satisfies
+Let $`\Omega\subset\mathbb R^d`$, $`d\ge2`$, be bounded with smooth boundary, and let $`N\ge2`$, $`d_i>0`$. Let $`f:[0,\infty)^N\to\mathbb R^N`$ be locally Lipschitz, with $`f_i(z)\ge0`$ when $`z_i=0`$, and suppose some $`\mu\in\mathbb R^N`$ satisfies
 
-$$
+```math
 \sum_i f_i(z)(\log z_i+\mu_i)\le0\qquad(z_i>0).
-$$
+```
 
-No growth bound on $f$ is imposed. For nonnegative $u_0$ with $\sum_i\int_\Omega u_{i,0}(1+|\log u_{i,0}|)<\infty$, is the renormalized solution of
+No growth bound on $`f`$ is imposed. For nonnegative $`u_0`$ with $`\sum_i\int_\Omega u_{i,0}(1+|\log u_{i,0}|)<\infty`$, is the renormalized solution of
 
-$$
+```math
 \partial_tu_i=d_i\Delta u_i+f_i(u),\qquad\partial_\nu u_i=0,\qquad u_i(0)=u_{i,0},
-$$
+```
 
 unique?
 
-Precisely, the comparison class consists of nonnegative $u_i\in L^\infty(0,T;L^1)$, $\sqrt{u_i}\in L^2(0,T;H^1)$ for every $T<\infty$, such that for each smooth $\xi:[0,\infty)^N\to\mathbb R$ with compactly supported $D\xi$, each smooth $\psi$ on $\overline\Omega\times[0,T]$, and almost every $T$,
+Precisely, the comparison class consists of nonnegative $`u_i\in L^\infty(0,T;L^1)`$, $`\sqrt{u_i}\in L^2(0,T;H^1)`$ for every $`T<\infty`$, such that for each smooth $`\xi:[0,\infty)^N\to\mathbb R`$ with compactly supported $`D\xi`$, each smooth $`\psi`$ on $`\overline\Omega\times[0,T]`$, and almost every $`T`$,
 
-$$
+```math
 \begin{aligned}
 \int_\Omega\xi(u(T))\psi(T)-\int_\Omega\xi(u_0)\psi(0)-\int_0^T\!\int_\Omega\xi(u)\partial_t\psi
 ={}&-\sum_{i,j}d_i\int_0^T\!\int_\Omega\psi\xi_{ij}(u)\nabla u_i\cdot\nabla u_j\\
 &-\sum_i d_i\int_0^T\!\int_\Omega\xi_i(u)\nabla u_i\cdot\nabla\psi
 +\sum_i\int_0^T\!\int_\Omega\xi_i(u)f_i(u)\psi .
 \end{aligned}
-$$
+```
 
-Products of gradients are interpreted using $\nabla u_i=2\sqrt{u_i}\nabla\sqrt{u_i}$; the cutoff makes all displayed terms integrable. The question is equality almost everywhere of any two such solutions with the same initial data, without assuming that a bounded strong solution exists.
+Products of gradients are interpreted using $`\nabla u_i=2\sqrt{u_i}\nabla\sqrt{u_i}`$; the cutoff makes all displayed terms integrable. The question is equality almost everywhere of any two such solutions with the same initial data, without assuming that a bounded strong solution exists.
 
 ## Application
 

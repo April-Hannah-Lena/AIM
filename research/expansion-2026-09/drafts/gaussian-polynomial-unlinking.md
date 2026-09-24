@@ -8,22 +8,22 @@
 
 ## Problem statement
 
-Let $n\ge2$, let $X\sim N(0,I_n)$ be a standard real Gaussian vector, and let $f,g\in\mathbb R[x_1,\ldots,x_n]$ be nonconstant polynomials. Suppose that the random variables $f(X)$ and $g(X)$ are independent: for every pair of Borel sets $A,B\subseteq\mathbb R$,
+Let $`n\ge2`$, let $`X\sim N(0,I_n)`$ be a standard real Gaussian vector, and let $`f,g\in\mathbb R[x_1,\ldots,x_n]`$ be nonconstant polynomials. Suppose that the random variables $`f(X)`$ and $`g(X)`$ are independent: for every pair of Borel sets $`A,B\subseteq\mathbb R`$,
 
-$$
+```math
 \mathbb P\{f(X)\in A,\ g(X)\in B\}
 =\mathbb P\{f(X)\in A\}\mathbb P\{g(X)\in B\}.
-$$
+```
 
-Must there exist an orthogonal matrix $O\in\mathbb R^{n\times n}$, an integer $1\le k<n$, and polynomials $F\in\mathbb R[y_1,\ldots,y_k]$ and $G\in\mathbb R[y_{k+1},\ldots,y_n]$ such that, for every $y\in\mathbb R^n$,
+Must there exist an orthogonal matrix $`O\in\mathbb R^{n\times n}`$, an integer $`1\le k<n`$, and polynomials $`F\in\mathbb R[y_1,\ldots,y_k]`$ and $`G\in\mathbb R[y_{k+1},\ldots,y_n]`$ such that, for every $`y\in\mathbb R^n`$,
 
-$$
+```math
 O^TO=I_n,\qquad
 f(Oy)=F(y_1,\ldots,y_k),\qquad
 g(Oy)=G(y_{k+1},\ldots,y_n)?
-$$
+```
 
-This is the **U-conjecture**, or Gaussian polynomial unlinking conjecture, attributed to Kagan, Linnik and Rao. The requested conclusion separates the two statistics into disjoint coordinate blocks after one orthogonal change of variables. Its converse follows from independence of the coordinates of $O^TX$. The general question permits arbitrary finite polynomial degrees; it imposes no convexity, symmetry or single-chaos assumption. Independence is essential: zero covariance alone is not the hypothesis. The two-dimensional case is known; the unresolved general assertion concerns higher dimensions.
+This is the **U-conjecture**, or Gaussian polynomial unlinking conjecture, attributed to Kagan, Linnik and Rao. The requested conclusion separates the two statistics into disjoint coordinate blocks after one orthogonal change of variables. Its converse follows from independence of the coordinates of $`O^TX`$. The general question permits arbitrary finite polynomial degrees; it imposes no convexity, symmetry or single-chaos assumption. Independence is essential: zero covariance alone is not the hypothesis. The two-dimensional case is known; the unresolved general assertion concerns higher dimensions.
 
 ## Applied significance
 
@@ -41,7 +41,7 @@ Polynomial functions of Gaussian observations include linear contrasts, quadrati
 
 Hong–Hu explicitly retain the general question while proving unlinking when both polynomials are even and quasi-convex. Here quasi-convexity means that every sublevel set is convex. Hargé's Theorem 1.2 assumes two convex functions, with one analytic and attaining its minimum at the origin. These hypotheses do not include arbitrary polynomials.
 
-Malicet–Nourdin–Peccati–Poly prove unlinking for their class of finite sums $\sum_{j=1}^m F_j^2$, where $F_j$ belongs to the $j$th Wiener chaos. That is the eigenspace with eigenvalue $-j$ of the Gaussian Ornstein–Uhlenbeck operator $\mathcal L=\Delta-x\cdot\nabla$. Their proof uses nonnegative covariances of the squared chaos components. General polynomial expansions need not have this form. The 2024 Wishart paper independently restates the unrestricted question; multiple versions of a work are not counted as independent evidence.
+Malicet–Nourdin–Peccati–Poly prove unlinking for their class of finite sums $`\sum_{j=1}^m F_j^2`$, where $`F_j`$ belongs to the $`j`$th Wiener chaos. That is the eigenspace with eigenvalue $`-j`$ of the Gaussian Ornstein–Uhlenbeck operator $`\mathcal L=\Delta-x\cdot\nabla`$. Their proof uses nonnegative covariances of the squared chaos components. General polynomial expansions need not have this form. The 2024 Wishart paper independently restates the unrestricted question; multiple versions of a work are not counted as independent evidence.
 
 The September 17, 2026 searches covered the name, unlinking and independence formulations, authors, unrestricted dates, 2025–2026, proofs, counterexamples, corrections and withdrawals. Two recent neighboring claims were checked at statement level. Ouimet–Greaves' [strong Gaussian product-inequality manuscript](https://www.researchgate.net/publication/410720385_A_proof_of_the_strong_Gaussian_product_inequality_conjecture), Theorem 2.1, concerns products of absolute powers of jointly Gaussian coordinates. Long's [Gaussian-moments counterexample](https://arxiv.org/html/2607.18186v1), Theorem 5.1, uses complex polynomials and vanishing moments, without an independent pair of real polynomial statistics. Neither statement supplies the conclusion or a counterexample required here. This scope comparison does not certify those proofs.
 

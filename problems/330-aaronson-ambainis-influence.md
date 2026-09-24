@@ -8,34 +8,34 @@
 
 ## Problem statement
 
-Let $n,d\ge1$ be integers and let $p:\{-1,1\}^n\to\mathbb R$ have the multilinear expansion
+Let $`n,d\ge1`$ be integers and let $`p:\{-1,1\}^n\to\mathbb R`$ have the multilinear expansion
 
-$$
+```math
 p(x)=\sum_{S\subseteq[n]}\widehat p(S)\prod_{j\in S}x_j,
 \qquad [n]=\{1,\ldots,n\},
-$$
+```
 
-with $\widehat p(S)=0$ whenever $|S|>d$. Assume $|p(x)|\le1$ for every vertex of the cube. For a uniform random vertex $X$, write $X^{(i)}$ for $X$ with coordinate $i$ flipped, and define
+with $`\widehat p(S)=0`$ whenever $`|S|>d`$. Assume $`|p(x)|\le1`$ for every vertex of the cube. For a uniform random vertex $`X`$, write $`X^{(i)}`$ for $`X`$ with coordinate $`i`$ flipped, and define
 
-$$
+```math
 \mathop{\mathrm{Var}}\nolimits(p)=\mathbb E\bigl[(p(X)-\mathbb E p(X))^2\bigr],
 \qquad
 \mathop{\mathrm{Inf}}\nolimits_i(p)=\mathbb E\!\left[\left(\frac{p(X)-p(X^{(i)})}{2}\right)^2\right]
 =\sum_{S\ni i}\widehat p(S)^2.
-$$
+```
 
-Do there exist absolute constants $c,C>0$, independent of $n,d,p$, such that every such polynomial satisfies
+Do there exist absolute constants $`c,C>0`$, independent of $`n,d,p`$, such that every such polynomial satisfies
 
-$$
+```math
 \max_{1\le i\le n}\mathop{\mathrm{Inf}}\nolimits_i(p)
 \ \ge\ c\left(\frac{\mathop{\mathrm{Var}}\nolimits(p)}{d}\right)^C?
-$$
+```
 
-This is a bound for all scalar-valued polynomials bounded on the cube, including nonhomogeneous ones. No matrix-input norm bound or special decomposition is assumed. Constant polynomials satisfy the inequality trivially. The statement asks for existence of an influential coordinate, without requiring an efficient procedure to find it. It is the normalization used in [2, Conjecture 1.2]; the $[0,1]$ formulation in [1] is equivalent by affine changes of input and output.
+This is a bound for all scalar-valued polynomials bounded on the cube, including nonhomogeneous ones. No matrix-input norm bound or special decomposition is assumed. Constant polynomials satisfy the inequality trivially. The statement asks for existence of an influential coordinate, without requiring an efficient procedure to find it. It is the normalization used in [2, Conjecture 1.2]; the $`[0,1]`$ formulation in [1] is equivalent by affine changes of input and output.
 
 ## Application
 
-The acceptance probability of a quantum algorithm making $T$ queries to a binary input is a bounded polynomial of degree at most $2T$. The conjecture would let a classical decision tree repeatedly query influential coordinates and reduce the remaining uncertainty. As [1, Theorem 1.8] shows, it would imply that, for any positive errors $\varepsilon,\delta$, a deterministic classical algorithm can approximate that acceptance probability to additive error $\varepsilon$ on a $1-\delta$ fraction of uniformly distributed inputs using $\mathop{\mathrm{poly}}\nolimits(T,1/\varepsilon,1/\delta)$ queries. This would constrain quantum advantage on typical inputs in the query model. It is a statement about access to input bits, not total runtime or simulation on every input. The reverse implication from the simulation conjecture to the influence conjecture is not asserted.
+The acceptance probability of a quantum algorithm making $`T`$ queries to a binary input is a bounded polynomial of degree at most $`2T`$. The conjecture would let a classical decision tree repeatedly query influential coordinates and reduce the remaining uncertainty. As [1, Theorem 1.8] shows, it would imply that, for any positive errors $`\varepsilon,\delta`$, a deterministic classical algorithm can approximate that acceptance probability to additive error $`\varepsilon`$ on a $`1-\delta`$ fraction of uniformly distributed inputs using $`\mathop{\mathrm{poly}}\nolimits(T,1/\varepsilon,1/\delta)`$ queries. This would constrain quantum advantage on typical inputs in the query model. It is a statement about access to input bits, not total runtime or simulation on every input. The reverse implication from the simulation conjecture to the influence conjecture is not asserted.
 
 ## References
 
@@ -52,7 +52,7 @@ The acceptance probability of a quantum algorithm making $T$ queries to a binary
 
 Open in cited literature; no later resolution located as of 2026-09-18. The review searched the name, influential-variable and bounded-polynomial formulations, authors, proof and counterexample claims, 2024–2026 work, unrestricted dates, and version/correction records. Independently authored [3, §1] and [4, Conjecture 1.3] corroborate the general problem, which [2] also explicitly retains in September 2026.
 
-For unrestricted bounded polynomials, the general influence estimate recalled in [1, §1.2] and [3, §1] has inverse-exponential dependence on degree, rather than the desired inverse-polynomial dependence. The known Boolean-valued case does not cover arbitrary real values in $[-1,1]$. Theorems [2, 1.3] and [5, 1.6–1.8] impose completely bounded structure, with homogeneity in one case; scalar boundedness alone does not provide these stronger norm bounds. The general junta estimate [2, Theorem 1.4] depends on a sum of square roots of influences that can grow exponentially with degree.
+For unrestricted bounded polynomials, the general influence estimate recalled in [1, §1.2] and [3, §1] has inverse-exponential dependence on degree, rather than the desired inverse-polynomial dependence. The known Boolean-valued case does not cover arbitrary real values in $`[-1,1]`$. Theorems [2, 1.3] and [5, 1.6–1.8] impose completely bounded structure, with homogeneity in one case; scalar boundedness alone does not provide these stronger norm bounds. The general junta estimate [2, Theorem 1.4] depends on a sum of square roots of influences that can grow exponentially with degree.
 
 In [4, Theorem 6.4], the influential coordinate belongs to a randomly restricted polynomial, with a variance hypothesis and a probability guarantee over restrictions. The coordinate can vary with the restriction; this is not a dimension-free bound for a fixed coordinate of the original polynomial. The algorithmic result [3, Theorem 1] is polynomial for a fixed number of query rounds, with constants and exponents depending on that number. It does not prove the unrestricted scalar-polynomial assertion. The authors of [6] explicitly withdrew their proof because a flaw in Lemma 5.3 invalidated the argument.
 

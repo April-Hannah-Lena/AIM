@@ -8,22 +8,22 @@
 
 ## Problem statement
 
-Let $n\ge3$ and let $X_0,\ldots,X_m$ be real-analytic vector fields near $0\in\mathbb R^n$, with $X_0(0)=0$. Controls are measurable maps into $[-1,1]^m$, and trajectories satisfy
+Let $`n\ge3`$ and let $`X_0,\ldots,X_m`$ be real-analytic vector fields near $`0\in\mathbb R^n`$, with $`X_0(0)=0`$. Controls are measurable maps into $`[-1,1]^m`$, and trajectories satisfy
 
-$$
+```math
 \dot x=X_0(x)+\sum_{j=1}^m u_j(t)X_j(x).
-$$
+```
 
-Call the system small-time locally controllable at $0$ if, for every sufficiently small $t>0$, its points reachable from $0$ in time at most $t$ contain a neighborhood of $0$.
+Call the system small-time locally controllable at $`0`$ if, for every sufficiently small $`t>0`$, its points reachable from $`0`$ in time at most $`t`$ contain a neighborhood of $`0`$.
 
-If this property holds, must there exist an integer $N$ such that every real-analytic tuple $Y_0,\ldots,Y_m$ with
+If this property holds, must there exist an integer $`N`$ such that every real-analytic tuple $`Y_0,\ldots,Y_m`$ with
 
-$$
+```math
 D^\alpha Y_j(0)=D^\alpha X_j(0)\quad
 (0\le j\le m,\ |\alpha|\le N)
-$$
+```
 
-has the same controllability property with the same control set? Here $\alpha$ is a multi-index; $N$ may depend on the original system.
+has the same controllability property with the same control set? Here $`\alpha`$ is a multi-index; $`N`$ may depend on the original system.
 
 ## Application
 
@@ -42,4 +42,4 @@ The conjecture asks whether finitely many locally measured Taylor coefficients c
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-Jafarpour records the conjecture as open for $n\ge3$, and proves it under a polynomial lower-growth condition on reachable neighborhoods. The planar case is established. Searches included “finite jet small-time local controllability conjecture solved 2026” and “Jafarpour finite differentiations controllability Beauchard Marbach”. The 2026 obstruction theorems do not establish finite-jet determination for all analytic systems.
+Jafarpour records the conjecture as open for $`n\ge3`$, and proves it under a polynomial lower-growth condition on reachable neighborhoods. The planar case is established. Searches included “finite jet small-time local controllability conjecture solved 2026” and “Jafarpour finite differentiations controllability Beauchard Marbach”. The 2026 obstruction theorems do not establish finite-jet determination for all analytic systems.

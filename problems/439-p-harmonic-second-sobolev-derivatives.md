@@ -7,7 +7,7 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-For every $p\ge5$, every open $\Omega\subset\mathbb R^3$, and every weak solution $u\in W^{1,p}_{\mathrm{loc}}(\Omega)$ of $\mathop{\mathrm{div}}\nolimits(|\nabla u|^{p-2}\nabla u)=0$, must $u\in W^{2,2}_{\mathrm{loc}}(\Omega)$? Thus every distributional second derivative is required to belong locally to $L^2$, including neighborhoods of critical points where $\nabla u=0$.
+For every $`p\ge5`$, every open $`\Omega\subset\mathbb R^3`$, and every weak solution $`u\in W^{1,p}_{\mathrm{loc}}(\Omega)`$ of $`\mathop{\mathrm{div}}\nolimits(|\nabla u|^{p-2}\nabla u)=0`$, must $`u\in W^{2,2}_{\mathrm{loc}}(\Omega)`$? Thus every distributional second derivative is required to belong locally to $`L^2`$, including neighborhoods of critical points where $`\nabla u=0`$.
 
 ## Application
 

@@ -8,25 +8,25 @@
 
 ## Problem statement
 
-Fix $d\ge1$, $s\in(0,1)$ and $0<\lambda\le\Lambda$. Let $K(t,x,v,w)$ be measurable, even in $w$, and satisfy
+Fix $`d\ge1`$, $`s\in(0,1)`$ and $`0<\lambda\le\Lambda`$. Let $`K(t,x,v,w)`$ be measurable, even in $`w`$, and satisfy
 
-$$
+```math
 \lambda|w|^{-d-2s}\le K(t,x,v,w)\le\Lambda|w|^{-d-2s}.
-$$
+```
 
-Suppose bounded $f:[0,1]\times B_1\times\mathbb R^d\to\mathbb R$ solves, classically on $(0,1]\times B_1\times B_1$,
+Suppose bounded $`f:[0,1]\times B_1\times\mathbb R^d\to\mathbb R`$ solves, classically on $`(0,1]\times B_1\times B_1`$,
 
-$$
+```math
 \partial_tf+v\cdot\nabla_xf=\mathop{\mathrm{PV}}\nolimits\int_{\mathbb R^d}[f(t,x,v+w)-f(t,x,v)]K(t,x,v,w)\,dw+h,
-$$
+```
 
-where $h$ is bounded there. Must there be $\alpha>0$ and $C$, depending only on $d,s,\lambda,\Lambda$, for which
+where $`h`$ is bounded there. Must there be $`\alpha>0`$ and $`C`$, depending only on $`d,s,\lambda,\Lambda`$, for which
 
-$$
+```math
 \|f\|_{C^\alpha((1/2,1)\times B_{1/2}\times B_{1/2})}\le C(\|f\|_{L^\infty([0,1]\times B_1\times\mathbb R^d)}+\|h\|_{L^\infty((0,1]\times B_1\times B_1)})?
-$$
+```
 
-Here $C^\alpha$ uses ordinary Euclidean distance. In particular, do not assume interchange symmetry $K(t,x,v,w)=K(t,x,v+w,-w)$ or continuity of the coefficients.
+Here $`C^\alpha`$ uses ordinary Euclidean distance. In particular, do not assume interchange symmetry $`K(t,x,v,w)=K(t,x,v+w,-w)`$ or continuity of the coefficients.
 
 ## Application
 

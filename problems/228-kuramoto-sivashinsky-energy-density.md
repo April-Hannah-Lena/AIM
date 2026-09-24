@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-For each $L\geq1$, let $u$ solve the one-dimensional Kuramoto–Sivashinsky equation
+For each $`L\geq1`$, let $`u`$ solve the one-dimensional Kuramoto–Sivashinsky equation
 
-$$
+```math
 u_t+uu_x+u_{xx}+u_{xxxx}=0
-$$
+```
 
-with spatial period $2\pi L$ and arbitrary smooth mean-zero initial data. Does there exist an absolute constant $C$, independent of $L$ and the initial data, such that
+with spatial period $`2\pi L`$ and arbitrary smooth mean-zero initial data. Does there exist an absolute constant $`C`$, independent of $`L`$ and the initial data, such that
 
-$$
+```math
 \limsup_{T\to\infty}\frac1{2\pi L T}\int_0^T\int_{-\pi L}^{\pi L}|u(x,t)|^2\,dx\,dt\leq C?
-$$
+```
 
 This concerns the full equation on intervals of unbounded length, with its coefficients fixed.
 

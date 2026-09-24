@@ -10,7 +10,7 @@
 
 A finite simplicial complex is **flag** if every clique of its one-skeleton is a simplex. It is **flag-no-square** if it is flag and its one-skeleton has no induced cycle of length four.
 
-Does there exist a closed connected topological $4$-manifold $M$ with odd Euler characteristic that admits a finite flag-no-square triangulation? Here closed means compact without boundary; orientability is not required.
+Does there exist a closed connected topological $`4`$-manifold $`M`$ with odd Euler characteristic that admits a finite flag-no-square triangulation? Here closed means compact without boundary; orientability is not required.
 
 ## Application
 

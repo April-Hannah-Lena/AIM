@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Does there exist an integer $H_2<\infty$ such that every system
+Does there exist an integer $`H_2<\infty`$ such that every system
 
-$$
+```math
 \dot x=P(x,y),\qquad\dot y=Q(x,y),\qquad P,Q\in\mathbb R[x,y],\quad\max(\deg P,\deg Q)\le2,
-$$
+```
 
-has at most $H_2$ distinct limit cycles in $\mathbb R^2$? A limit cycle is an isolated periodic orbit, counted once as a geometric curve, without multiplicity. The bound must be independent of all polynomial coefficients.
+has at most $`H_2`$ distinct limit cycles in $`\mathbb R^2`$? A limit cycle is an isolated periodic orbit, counted once as a geometric curve, without multiplicity. The bound must be independent of all polynomial coefficients.
 
 ## Application
 

@@ -8,26 +8,26 @@
 
 ## Problem statement
 
-Fix $P,N_1,N_2>0$. At time $t$, a real memoryless broadcast channel has outputs
+Fix $`P,N_1,N_2>0`$. At time $`t`$, a real memoryless broadcast channel has outputs
 
-$$
+```math
 Y_{k,t}=X_t+Z_{k,t},\qquad k\in\{1,2\},
-$$
+```
 
-where all $Z_{k,t}$ are mutually independent, $Z_{k,t}\sim\mathcal N(0,N_k)$, and the noises are independent of the messages. The transmitter knows two independent uniform messages $W_k\in\{1,\ldots,M_k\}$, with $W_k$ intended only for receiver $k$. It receives noiseless feedback of both past output sequences and may use arbitrary measurable encoders
+where all $`Z_{k,t}`$ are mutually independent, $`Z_{k,t}\sim\mathcal N(0,N_k)`$, and the noises are independent of the messages. The transmitter knows two independent uniform messages $`W_k\in\{1,\ldots,M_k\}`$, with $`W_k`$ intended only for receiver $`k`$. It receives noiseless feedback of both past output sequences and may use arbitrary measurable encoders
 
-$$
+```math
 X_t=f_t(W_1,W_2,Y_1^{t-1},Y_2^{t-1}),\qquad
 \frac1n\sum_{t=1}^n\mathbb E[X_t^2]\le P.
-$$
+```
 
-Receiver $k$ estimates its message using only $Y_k^n$. Define $\mathcal C_{\mathrm{fb}}(P,N_1,N_2)$ as the closure of all nonnegative rate pairs obtainable by a sequence of such codes with $\liminf_{n\to\infty}n^{-1}\log_2 M_k\ge R_k$ and
+Receiver $`k`$ estimates its message using only $`Y_k^n`$. Define $`\mathcal C_{\mathrm{fb}}(P,N_1,N_2)`$ as the closure of all nonnegative rate pairs obtainable by a sequence of such codes with $`\liminf_{n\to\infty}n^{-1}\log_2 M_k\ge R_k`$ and
 
-$$
+```math
 \Pr\{\widehat W_1\ne W_1\ \text{or}\ \widehat W_2\ne W_2\}\longrightarrow0.
-$$
+```
 
-Determine this capacity region for every fixed $P,N_1,N_2>0$, with matching achievability and converse bounds. Encoding is not restricted to linear feedback schemes. [1, 2]
+Determine this capacity region for every fixed $`P,N_1,N_2>0`$, with matching achievability and converse bounds. Encoding is not restricted to linear feedback schemes. [1, 2]
 
 ## Application
 
@@ -48,7 +48,7 @@ This is the basic model of one transmitter sending separate data streams to two 
 
 Sources [1] and the independent work [2] explicitly identify the unrestricted capacity problem as open. The duality theorem [3] characterizes the linear-feedback region through a multiple-access channel; its linearity restriction does not supply a converse for all broadcast codes. Posterior matching [4] attains the symmetric linear-feedback sum rate, leaving the same restriction.
 
-The high-signal-to-noise result [1] determines a sum-capacity asymptotic as $P\to\infty$, rather than the full region at fixed power. The 2025 learned-code study [5] improves finite-block error performance and supplies no unrestricted capacity characterization. The no-feedback-gain theorem [6] assumes physically degraded, correlated receiver noises; it does not apply to the independent-noise channel above. Targeted later-result and resolution searches found no theorem settling this exact formulation as of the review date.
+The high-signal-to-noise result [1] determines a sum-capacity asymptotic as $`P\to\infty`$, rather than the full region at fixed power. The 2025 learned-code study [5] improves finite-block error performance and supplies no unrestricted capacity characterization. The no-feedback-gain theorem [6] assumes physically degraded, correlated receiver noises; it does not apply to the independent-noise channel above. Targeted later-result and resolution searches found no theorem settling this exact formulation as of the review date.
 
 The [evidence record](../research/expansion-2026-09/candidates/gaussian-broadcast-feedback.json) documents exact searches, source access, scope comparisons, duplicate screening and the separate adversarial self-review.
 

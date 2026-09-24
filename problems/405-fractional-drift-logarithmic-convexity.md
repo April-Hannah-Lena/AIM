@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^n$, $n\ge2$, be a bounded smooth domain, $0<\alpha<1$ and $T>0$. Let $A(x)$ be a smooth symmetric uniformly positive-definite matrix field, $B(x)$ a smooth real vector field and $p(x)$ a smooth real scalar field. Define $Lu=\nabla\cdot(A\nabla u)+B\cdot\nabla u+pu$ with homogeneous Dirichlet boundary conditions. Does there exist $C=C(\Omega,A,B,p,\alpha,T)$ such that every solution of
+Let $`\Omega\subset\mathbb R^n`$, $`n\ge2`$, be a bounded smooth domain, $`0<\alpha<1`$ and $`T>0`$. Let $`A(x)`$ be a smooth symmetric uniformly positive-definite matrix field, $`B(x)`$ a smooth real vector field and $`p(x)`$ a smooth real scalar field. Define $`Lu=\nabla\cdot(A\nabla u)+B\cdot\nabla u+pu`$ with homogeneous Dirichlet boundary conditions. Does there exist $`C=C(\Omega,A,B,p,\alpha,T)`$ such that every solution of
 
-$$
+```math
 \partial_t^\alpha u=Lu,\qquad u(0)=u_0\in L^2(\Omega),
-$$
+```
 
 satisfies
 
-$$
+```math
 \|u(t)\|_{L^2}\le C\|u_0\|_{L^2}^{1-t/T}\|u(T)\|_{L^2}^{t/T}\qquad(0<t<T)?
-$$
+```
 
-Here $\partial_t^\alpha u=\Gamma(1-\alpha)^{-1}\int_0^t(t-s)^{-\alpha}u'(s)\,ds$ is the Caputo derivative, extended to mild solutions. No representation $B=A\nabla b$ is assumed.
+Here $`\partial_t^\alpha u=\Gamma(1-\alpha)^{-1}\int_0^t(t-s)^{-\alpha}u'(s)\,ds`$ is the Caputo derivative, extended to mild solutions. No representation $`B=A\nabla b`$ is assumed.
 
 ## Application
 

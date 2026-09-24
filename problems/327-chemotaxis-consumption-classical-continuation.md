@@ -8,32 +8,32 @@
 
 ## Problem statement
 
-Let $n\ge3$ and let $\Omega\subset\mathbb R^n$ be a bounded connected domain with smooth boundary. Let $u_0,v_0\in W^{1,\infty}(\Omega)$, with $u_0\ge0$, $u_0\not\equiv0$, and $v_0>0$ on $\overline\Omega$. Consider
+Let $`n\ge3`$ and let $`\Omega\subset\mathbb R^n`$ be a bounded connected domain with smooth boundary. Let $`u_0,v_0\in W^{1,\infty}(\Omega)`$, with $`u_0\ge0`$, $`u_0\not\equiv0`$, and $`v_0>0`$ on $`\overline\Omega`$. Consider
 
-$$
+```math
 \begin{aligned}
 \partial_tu&=\Delta u-\nabla\!\cdot(u\nabla v),\\
 \partial_tv&=\Delta v-uv
 \end{aligned}
 \qquad\text{in }\Omega\times(0,\infty),
-$$
+```
 
-with homogeneous Neumann conditions $\partial_\nu u=\partial_\nu v=0$ on $\partial\Omega$, where $\nu$ is the outward unit normal, and initial values $(u,v)|_{t=0}=(u_0,v_0)$.
+with homogeneous Neumann conditions $`\partial_\nu u=\partial_\nu v=0`$ on $`\partial\Omega`$, where $`\nu`$ is the outward unit normal, and initial values $`(u,v)|_{t=0}=(u_0,v_0)`$.
 
 Does the maximal local classical solution extend to all positive times for every such domain and initial pair, without any smallness assumption? The required solution class is
 
-$$
+```math
 \begin{aligned}
 u&\in C^0(\overline\Omega\times[0,\infty))
        \cap C^{2,1}(\overline\Omega\times(0,\infty)),\\
 v&\in C^{2,1}(\overline\Omega\times(0,\infty))
        \cap\bigcap_{n<q<\infty}C^0([0,\infty);W^{1,q}(\Omega)),
 \end{aligned}
-$$
+```
 
-with $u\ge0$ and $v>0$ for positive times. Here $C^{2,1}$ means continuous spatial derivatives through order two and a continuous first time derivative; the equations and boundary conditions hold pointwise. The initial conditions are attained in the displayed spaces. No derivative compatibility at time zero is imposed beyond these data assumptions. [1]
+with $`u\ge0`$ and $`v>0`$ for positive times. Here $`C^{2,1}`$ means continuous spatial derivatives through order two and a continuous first time derivative; the equations and boundary conditions hold pointwise. The initial conditions are attained in the displayed spaces. No derivative compatibility at time zero is imposed beyond these data assumptions. [1]
 
-Both diffusivities, the attraction coefficient and the consumption coefficient are fixed at one. The question concerns classical continuation through every finite time; a uniform bound as $t\to\infty$ or a specified convergence rate is not an additional requirement. All dimensions $n\ge3$ form one problem family. [1, 3, 6]
+Both diffusivities, the attraction coefficient and the consumption coefficient are fixed at one. The question concerns classical continuation through every finite time; a uniform bound as $`t\to\infty`$ or a specified convergence rate is not an additional requirement. All dimensions $`n\ge3`$ form one problem family. [1, 3, 6]
 
 ## Application
 
@@ -42,7 +42,7 @@ The variables represent a bacterial or cell density and the concentration of a n
 ## References
 
 1. Johannes Lankeit and Michael Winkler, [*Depleting the signal: Analysis of chemotaxis-consumption models – A survey*](https://arxiv.org/html/2304.02449v1), *Studies in Applied Mathematics* 151(4) (2023), 1197–1229, [DOI](https://doi.org/10.1111/sapm.12625). Author version §1, (CC1), and §2, (2.7)–(2.8): the open question immediately after Theorem 2.2 supplies the formulation.
-2. André Luiz Corrêa Vianna Filho and Francisco Guillén-González, [*A Review on the Analysis and Optimal Control of Chemotaxis-Consumption Models*](https://link.springer.com/article/10.1007/s40324-024-00362-8), *SeMA Journal* 82 (2025), 317–350; first published online July 19, 2024. §§1–2, equation (1) with $s=1$, and the discussion of the unresolved three-dimensional case provide independent corroboration.
+2. André Luiz Corrêa Vianna Filho and Francisco Guillén-González, [*A Review on the Analysis and Optimal Control of Chemotaxis-Consumption Models*](https://link.springer.com/article/10.1007/s40324-024-00362-8), *SeMA Journal* 82 (2025), 317–350; first published online July 19, 2024. §§1–2, equation (1) with $`s=1`$, and the discussion of the unresolved three-dimensional case provide independent corroboration.
 3. Johannes Lankeit and Michael Winkler, [*Chemotaxis-consumption interaction: Solvability and asymptotics in general high-dimensional domains*](https://arxiv.org/html/2502.17338v1), *Nonlinear Analysis* 260 (2025), 113853, [DOI](https://doi.org/10.1016/j.na.2025.113853). Author-version Definition 1.1 and Theorem 1.2 give global weak solutions with eventual smoothness.
 4. Jie Jiang, Hao Wu and Songmu Zheng, [*Blow-up for a Three Dimensional Keller-Segel Model with Consumption of Chemoattractant*](https://arxiv.org/pdf/1610.06684), *Journal of Differential Equations* 264(8) (2018), 5432–5464. §1, Theorems 1.1–1.3, gives criteria and lower rates conditional on finite-time blow-up.
 5. Jiashan Zheng and Yuying Wang, [*Blow-up prevention and rate of convergence of solutions for N-dimensional parabolic-parabolic systems with consumption of chemoattractant*](https://ejde.math.txstate.edu/Volumes/2025/98/zheng.pdf), *Electronic Journal of Differential Equations* 2025, No. 98, 1–21. Theorem 2.1 and (2.5) retain an explicit initial-signal smallness condition.

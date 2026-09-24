@@ -7,13 +7,13 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-Let $3\le d\le6$, let $\Omega\subset\mathbb R^d$ be a bounded smooth domain, and let $f\in C^2([0,1))$ be positive, nondecreasing and convex, with $f(t)\to\infty$ as $t\uparrow1$ and $\int_0^1 f(t)\,dt=\infty$. Consider
+Let $`3\le d\le6`$, let $`\Omega\subset\mathbb R^d`$ be a bounded smooth domain, and let $`f\in C^2([0,1))`$ be positive, nondecreasing and convex, with $`f(t)\to\infty`$ as $`t\uparrow1`$ and $`\int_0^1 f(t)\,dt=\infty`$. Consider
 
-$$
+```math
 -\Delta u=\lambda f(u)\quad\hbox{in }\Omega,\qquad u=0\quad\hbox{on }\partial\Omega,\qquad0<u<1.
-$$
+```
 
-Let $\lambda^*$ be the supremum of parameters admitting a classical solution, let $u_\lambda$ be the pointwise minimal classical solution for $0<\lambda<\lambda^*$, and set $u^*=\lim_{\lambda\uparrow\lambda^*}u_\lambda$. Must $\|u^*\|_{L^\infty(\Omega)}<1$, without assuming $\liminf_{t\uparrow1}f(t)f''(t)/f'(t)^2>1$?
+Let $`\lambda^*`$ be the supremum of parameters admitting a classical solution, let $`u_\lambda`$ be the pointwise minimal classical solution for $`0<\lambda<\lambda^*`$, and set $`u^*=\lim_{\lambda\uparrow\lambda^*}u_\lambda`$. Must $`\|u^*\|_{L^\infty(\Omega)}<1`$, without assuming $`\liminf_{t\uparrow1}f(t)f''(t)/f'(t)^2>1`$?
 
 ## Application
 

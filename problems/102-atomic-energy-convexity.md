@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-For $Z>0$ and $N\ge1$, let $E(N,Z)$ be the infimum of the spectrum of
+For $`Z>0`$ and $`N\ge1`$, let $`E(N,Z)`$ be the infimum of the spectrum of
 
-$$
+```math
 H_{N,Z}=\sum_{j=1}^N\left(-\frac12\Delta_{x_j}-\frac Z{|x_j|}\right)+\sum_{1\le i<j\le N}\frac1{|x_i-x_j|}
-$$
+```
 
-on the antisymmetric space $\bigwedge^N L^2(\mathbb R^3;\mathbb C^2)$, with its standard quadratic-form realization. Set $E(0,Z)=0$.
+on the antisymmetric space $`\bigwedge^N L^2(\mathbb R^3;\mathbb C^2)`$, with its standard quadratic-form realization. Set $`E(0,Z)=0`$.
 
-For every integer nuclear charge $Z\ge1$ and every integer $N\ge1$, prove or disprove
+For every integer nuclear charge $`Z\ge1`$ and every integer $`N\ge1`$, prove or disprove
 
-$$
+```math
 E(N+1,Z)+E(N-1,Z)\ge2E(N,Z).
-$$
+```
 
 The external potential is the attractive Coulomb potential of one point nucleus. Arbitrary external potentials and multi-nucleus molecules are outside this statement.
 

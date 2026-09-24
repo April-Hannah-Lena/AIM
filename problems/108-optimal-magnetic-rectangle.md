@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-For $B\ge0$ put $A_B(x)=\frac B2(-x_2,x_1)$ and $q_{\Omega,B}[u]=\int_\Omega|(-i\nabla-A_B)u|^2\,dx$.
+For $`B\ge0`$ put $`A_B(x)=\frac B2(-x_2,x_1)`$ and $`q_{\Omega,B}[u]=\int_\Omega|(-i\nabla-A_B)u|^2\,dx`$.
 
-For $a>0$, set $R_a=(0,a)\times(0,a^{-1})$ and
+For $`a>0`$, set $`R_a=(0,a)\times(0,a^{-1})`$ and
 
-$$
+```math
 \lambda_1(R_a,B)=\inf_{0\ne u\in H_0^1(R_a;\mathbb C)}\frac{q_{R_a,B}[u]}{\|u\|_2^2}.
-$$
+```
 
-Prove or disprove that $\lambda_1(R_a,B)\ge\lambda_1(R_1,B)$ for every $a>0$ and every $B>0$. Thus area and field are fixed while the aspect ratio varies.
+Prove or disprove that $`\lambda_1(R_a,B)\ge\lambda_1(R_1,B)`$ for every $`a>0`$ and every $`B>0`$. Thus area and field are fixed while the aspect ratio varies.
 
 ## Application
 

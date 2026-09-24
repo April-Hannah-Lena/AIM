@@ -8,25 +8,25 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^d$, $d\ge2$, be bounded, connected and Lipschitz. Let $C\in L^\infty(\Omega;\mathbb R^{d\times d})$ be symmetric, with $\mu I\le C(x)\le\mu^{-1}I$ almost everywhere for some $\mu>0$.
-For $\varphi\in H^{1/2}(\partial\Omega)$ let $u_\varphi\in H^1(\Omega)$ be its weak $C$-harmonic extension. Define $\varphi\in D(N)$ and $N\varphi=h\in L^2(\partial\Omega)$ by
+Let $`\Omega\subset\mathbb R^d`$, $`d\ge2`$, be bounded, connected and Lipschitz. Let $`C\in L^\infty(\Omega;\mathbb R^{d\times d})`$ be symmetric, with $`\mu I\le C(x)\le\mu^{-1}I`$ almost everywhere for some $`\mu>0`$.
+For $`\varphi\in H^{1/2}(\partial\Omega)`$ let $`u_\varphi\in H^1(\Omega)`$ be its weak $`C`$-harmonic extension. Define $`\varphi\in D(N)`$ and $`N\varphi=h\in L^2(\partial\Omega)`$ by
 
-$$
+```math
 \int_\Omega C\nabla u_\varphi\cdot\overline{\nabla v}
 =\int_{\partial\Omega}h\,\overline{\mathop{\mathrm{Tr}}\nolimits v}\,dS
 \quad(v\in H^1(\Omega)).
-$$
+```
 
-For every $g\in C^\infty(\mathbb R^d)$, is there $K<\infty$ such that
+For every $`g\in C^\infty(\mathbb R^d)`$, is there $`K<\infty`$ such that
 
-$$
+```math
 g\varphi\in D(N),\qquad
 \|N(g\varphi)-gN\varphi\|_{L^2(\partial\Omega)}
 \le K\|\varphi\|_{L^2(\partial\Omega)}
 \quad(\varphi\in D(N))?
-$$
+```
 
-Here $g$ on the boundary means its restriction, and $K$ may depend on $\Omega,C,g$.
+Here $`g`$ on the boundary means its restriction, and $`K`$ may depend on $`\Omega,C,g`$.
 
 ## Application
 
@@ -42,6 +42,6 @@ The operator maps an imposed boundary potential to outward current. The estimate
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-The stated question drops Hölder continuity but retains symmetry and real coefficients. Half-space results impose additional structure, including independence from the normal coordinate, and do not cover arbitrary bounded Lipschitz domains and arbitrary measurable $C(x)$.
+The stated question drops Hölder continuity but retains symmetry and real coefficients. Half-space results impose additional structure, including independence from the normal coordinate, and do not cover arbitrary bounded Lipschitz domains and arbitrary measurable $`C(x)`$.
 
 **Search audit:** Searched “Dirichlet to Neumann commutator bounded measurable coefficients 2026”, “rough coefficient Lipschitz domain commutator Shen”, and follow-ups to the 2025 Question 2. Searches included later proofs, counterexamples, and 2025–2026 updates. No resolution matching the stated hypotheses was located.

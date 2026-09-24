@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-For a finite zero-field ferromagnetic Ising measure $\pi$ on an $n$-vertex graph, let $K_v$ resample the spin at $v$ conditionally on all other spins. Set $P=n^{-1}\sum_vK_v$ and $P_\alpha=K_{\alpha(1)}\cdots K_{\alpha(n)}$ for a permutation $\alpha$ of the vertices. For a kernel $Q$ define $t_{\rm mix}(Q)=\min\{t\in\mathbb N:\max_\sigma\|Q^t(\sigma,\cdot)-\pi\|_{\rm TV}\le1/4\}$. Is there an absolute $C<\infty$ such that $n\,t_{\rm mix}(P_\alpha)\le C\,t_{\rm mix}(P)$ for every graph, every finite nonnegative set of couplings, and every $\alpha$? One step of $P_\alpha$ is a complete sweep.
+For a finite zero-field ferromagnetic Ising measure $`\pi`$ on an $`n`$-vertex graph, let $`K_v`$ resample the spin at $`v`$ conditionally on all other spins. Set $`P=n^{-1}\sum_vK_v`$ and $`P_\alpha=K_{\alpha(1)}\cdots K_{\alpha(n)}`$ for a permutation $`\alpha`$ of the vertices. For a kernel $`Q`$ define $`t_{\rm mix}(Q)=\min\{t\in\mathbb N:\max_\sigma\|Q^t(\sigma,\cdot)-\pi\|_{\rm TV}\le1/4\}`$. Is there an absolute $`C<\infty`$ such that $`n\,t_{\rm mix}(P_\alpha)\le C\,t_{\rm mix}(P)`$ for every graph, every finite nonnegative set of couplings, and every $`\alpha`$? One step of $`P_\alpha`$ is a complete sweep.
 
 ## Application
 

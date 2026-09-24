@@ -8,35 +8,35 @@
 
 ## Problem statement
 
-Let $K\subset\mathbb R^3$ be a compact convex set with nonempty interior. A packing of congruent copies of $K$ is a locally finite family
+Let $`K\subset\mathbb R^3`$ be a compact convex set with nonempty interior. A packing of congruent copies of $`K`$ is a locally finite family
 
-$$
+```math
 \mathcal P=\{a_i+Q_iK:i\in I\},
 \qquad a_i\in\mathbb R^3,\quad Q_i\in O(3),
-$$
+```
 
-whose members have pairwise disjoint interiors. Here $O(3)$ is the group of orthogonal transformations. Together with the vectors $a_i$, this permits reflections, rotations and translations, following the full-isometry convention in Kallus's formulation. Every member has the same shape and size.
+whose members have pairwise disjoint interiors. Here $`O(3)`$ is the group of orthogonal transformations. Together with the vectors $`a_i`$, this permits reflections, rotations and translations, following the full-isometry convention in Kallus's formulation. Every member has the same shape and size.
 
-Write $B_R$ for the ball of radius $R$ centred at the origin, and $|A|$ for the three-dimensional volume of a measurable set $A$. Define
+Write $`B_R`$ for the ball of radius $`R`$ centred at the origin, and $`|A|`$ for the three-dimensional volume of a measurable set $`A`$. Define
 
-$$
+```math
 \overline d(\mathcal P)=\limsup_{R\to\infty}
 \frac{\left|B_R\cap\bigcup_{P\in\mathcal P}P\right|}{|B_R|},
 \qquad
 \delta(K)=\sup_{\mathcal P}\overline d(\mathcal P).
-$$
+```
 
-The supremum ranges over all such packings; periodicity and a common orientation are not required. If $B$ is a ball, the Kepler theorem gives $\delta(B)=\pi/\sqrt{18}$.
+The supremum ranges over all such packings; periodicity and a common orientation are not required. If $`B`$ is a ball, the Kepler theorem gives $`\delta(B)=\pi/\sqrt{18}`$.
 
 The question known as **Ulam's packing conjecture** asks whether
 
-$$
+```math
 \delta(K)\ge\frac{\pi}{\sqrt{18}}
 \qquad\text{for every compact convex }K\subset\mathbb R^3
 \text{ with nonempty interior}.
-$$
+```
 
-Thus the proposed universal lower bound is the optimal density of congruent balls. There is no symmetry or smoothness assumption on $K$. The problem does not ask for a characterization of equality, and it imposes no packing protocol or finite container. Lattice packing, packing by translations alone and random packing have different optimization domains.
+Thus the proposed universal lower bound is the optimal density of congruent balls. There is no symmetry or smoothness assumption on $`K`$. The problem does not ask for a characterization of equality, and it imposes no packing protocol or finite container. Lattice packing, packing by translations alone and random packing have different optimization domains.
 
 ## Application
 
@@ -59,8 +59,8 @@ Open in cited literature; no later resolution located as of 2026-09-19. Kallus s
 
 Theorem 5 of Kallus's 2014 paper concerns origin-symmetric bodies sufficiently close to a ball. It proves a strict improvement in lattice density for nonellipsoidal bodies in that neighbourhood. Ellipsoids are excluded from that strict lattice statement because lattice density is invariant under invertible linear maps. The ensuing unrestricted symmetric local result is described in Remark 1. This does not address arbitrary convex bodies far from a ball.
 
-Theorem 3 of the 2015 paper allows nonsymmetric directions, but treats the paths $(1-\lambda)B+\lambda K$ for $K$ in minimal-mean-width position. Its positive range $0<\lambda<\lambda_0(K)$ depends on the chosen direction. It neither gives a uniform neighbourhood for all shapes nor reaches every endpoint $K$. The 2016 random-packing calculation assumes a protocol producing isostatic sphere packings and a perturbative deformation model. Its observable is not the supremum $\delta(K)$ used here.
+Theorem 3 of the 2015 paper allows nonsymmetric directions, but treats the paths $`(1-\lambda)B+\lambda K`$ for $`K`$ in minimal-mean-width position. Its positive range $`0<\lambda<\lambda_0(K)`$ depends on the chosen direction. It neither gives a uniform neighbourhood for all shapes nor reaches every endpoint $`K`$. The 2016 random-packing calculation assumes a protocol producing isostatic sphere packings and a perturbative deformation model. Its observable is not the supremum $`\delta(K)`$ used here.
 
-The older suggestion that the regular tetrahedron might refute the conjecture is ruled out by explicit denser constructions: Chen–Engel–Glotzer obtain $4000/4671>\pi/\sqrt{18}$. Determining its exact optimal density remains the separate question in entry [241](241-regular-tetrahedron-packing.md). Entry [087](087-bcc-quantization.md) minimizes quantization error, and entry [245](245-constant-width-volume.md) minimizes the volume of one constant-width body; neither has the present packing objective.
+The older suggestion that the regular tetrahedron might refute the conjecture is ruled out by explicit denser constructions: Chen–Engel–Glotzer obtain $`4000/4671>\pi/\sqrt{18}`$. Determining its exact optimal density remains the separate question in entry [241](241-regular-tetrahedron-packing.md). Entry [087](087-bcc-quantization.md) minimizes quantization error, and entry [245](245-constant-width-volume.md) minimizes the volume of one constant-width body; neither has the present packing objective.
 
 The [evidence record](../research/expansion-2026-09/candidates/ulam-convex-solid-packing.json) records the source scopes, access limits, current resolution searches and the separated adversarial self-review. This is one global shape-comparison family.

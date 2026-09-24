@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-Let $V\subset\mathbb R^2$ be a bounded connected Lipschitz domain and $M>0$. A motion is a measurable set $E\subset(0,T)\times V$ of finite perimeter, meaning its indicator has distributional gradient given by a finite vector measure. Write $\partial^*E$ for its reduced boundary, $\nu=(\nu_0,\nu_1,\nu_2)$ for its generalized **inner** unit normal, and $\mathcal H^2$ for surface measure. Require
+Let $`V\subset\mathbb R^2`$ be a bounded connected Lipschitz domain and $`M>0`$. A motion is a measurable set $`E\subset(0,T)\times V`$ of finite perimeter, meaning its indicator has distributional gradient given by a finite vector measure. Write $`\partial^*E`$ for its reduced boundary, $`\nu=(\nu_0,\nu_1,\nu_2)`$ for its generalized **inner** unit normal, and $`\mathcal H^2`$ for surface measure. Require
 
-$$
+```math
 \int_{\partial^*E\cap((a,b)\times V)}
 \max\{-\nu_0+\sqrt{\nu_1^2+\nu_2^2},0\}\,d\mathcal H^2
 \leq M(b-a)\qquad(0\leq a<b\leq T).
-$$
+```
 
-The slices $\Omega(t)=\{x:(t,x)\in E\}$ must have endpoint traces $\mathbf1_{\Omega(t)}\to\mathbf1_V$ as $t\downarrow0$ and $\mathbf1_{\Omega(t)}\to0$ as $t\uparrow T$, in $L^1(V)$. For every $(V,M)$ permitting such a motion, determine the least $T$ and characterize its minimizers.
+The slices $`\Omega(t)=\{x:(t,x)\in E\}`$ must have endpoint traces $`\mathbf1_{\Omega(t)}\to\mathbf1_V`$ as $`t\downarrow0`$ and $`\mathbf1_{\Omega(t)}\to0`$ as $`t\uparrow T`$, in $`L^1(V)`$. For every $`(V,M)`$ permitting such a motion, determine the least $`T`$ and characterize its minimizers.
 
-This is the published BV formulation. At a smooth front with inward speed $\beta$, effort is $\int_{\partial\Omega(t)\cap V}\max\{1+\beta,0\}\,ds$; the integrated constraint and endpoint traces account for all removal, including possible discontinuities.
+This is the published BV formulation. At a smooth front with inward speed $`\beta`$, effort is $`\int_{\partial\Omega(t)\cap V}\max\{1+\beta,0\}\,ds`$; the integrated constraint and endpoint traces account for all removal, including possible discontinuities.
 
 ## Application
 

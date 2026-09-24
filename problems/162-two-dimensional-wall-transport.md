@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-On $\Omega=(\mathbb R/\mathbb Z)\times(0,1)$, let $u$ range over smooth steady divergence-free velocities, periodic horizontally, with $u=0$ at both walls and $\int_\Omega|\nabla u|^2\le\mathrm{Pe}^2$. Let $T_u$ solve
+On $`\Omega=(\mathbb R/\mathbb Z)\times(0,1)`$, let $`u`$ range over smooth steady divergence-free velocities, periodic horizontally, with $`u=0`$ at both walls and $`\int_\Omega|\nabla u|^2\le\mathrm{Pe}^2`$. Let $`T_u`$ solve
 
-$$
+```math
 u\cdot\nabla T_u=\Delta T_u,\qquad T_u(x,0)=1,\qquad T_u(x,1)=0.
-$$
+```
 
-Define $M_2(\mathrm{Pe})=\sup_u\int_\Omega|\nabla T_u|^2$. Is there $c>0$ such that $M_2(\mathrm{Pe})\ge c\,\mathrm{Pe}^{2/3}$ for all sufficiently large $\mathrm{Pe}$? Equivalently, can the known upper scaling be achieved without a logarithmic loss in two dimensions?
+Define $`M_2(\mathrm{Pe})=\sup_u\int_\Omega|\nabla T_u|^2`$. Is there $`c>0`$ such that $`M_2(\mathrm{Pe})\ge c\,\mathrm{Pe}^{2/3}`$ for all sufficiently large $`\mathrm{Pe}`$? Equivalently, can the known upper scaling be achieved without a logarithmic loss in two dimensions?
 
 ## Application
 

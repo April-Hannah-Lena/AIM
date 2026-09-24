@@ -8,31 +8,31 @@
 
 ## Problem statement
 
-Over $\mathbb R$, let $\mathfrak P$ consist of Lie algebras $L=\bigoplus_{n\ge0}L_n$ satisfying
+Over $`\mathbb R`$, let $`\mathfrak P`$ consist of Lie algebras $`L=\bigoplus_{n\ge0}L_n`$ satisfying
 
-$$
+```math
 [L_n,L_m]\subseteq L_{n+m-1}\quad(n+m>0),\qquad [L_0,L_0]=0.
-$$
+```
 
-Let $F$ be freely generated in this class by $A$ of degree two and $B$ of degree zero: every degree-preserving assignment of these generators extends uniquely to a homomorphism.
+Let $`F`$ be freely generated in this class by $`A`$ of degree two and $`B`$ of degree zero: every degree-preserving assignment of these generators extends uniquely to a homomorphism.
 
-For $d\ge1$ and $V\in C^\infty(\mathbb R^d;\mathbb R)$, define
+For $`d\ge1`$ and $`V\in C^\infty(\mathbb R^d;\mathbb R)`$, define
 
-$$
+```math
 \Phi_V:F\longrightarrow C^\infty_{\mathrm{pol}}(\mathbb R^{2d}),\qquad A\mapsto\tfrac12|p|^2,\quad B\mapsto V(q).
-$$
+```
 
-The target consists of smooth functions polynomial in $p$, with bracket
+The target consists of smooth functions polynomial in $`p`$, with bracket
 
-$$
+```math
 \{f,g\}=\sum_{j=1}^d(\partial_{q_j}f\,\partial_{p_j}g-\partial_{p_j}f\,\partial_{q_j}g).
-$$
+```
 
 Prove or refute
 
-$$
+```math
 \bigcap_{d\ge1}\ \bigcap_{V\in C^\infty(\mathbb R^d;\mathbb R)}\ker\Phi_V=\{0\}.
-$$
+```
 
 The quantifier ranges over all dimensions and potentials; injectivity for each individual potential is not asserted.
 

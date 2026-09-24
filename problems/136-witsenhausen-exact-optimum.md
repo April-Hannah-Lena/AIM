@@ -8,14 +8,14 @@
 
 ## Problem statement
 
-Let $X_0\sim N(0,25)$ and $Z\sim N(0,1)$ be independent. Controller one sees $X_0$ and chooses $U_1=f(X_0)$; controller two sees only $Y=X_0+U_1+Z$ and chooses $U_2=g(Y)$. Determine the exact value and an optimal measurable pair for
+Let $`X_0\sim N(0,25)`$ and $`Z\sim N(0,1)`$ be independent. Controller one sees $`X_0`$ and chooses $`U_1=f(X_0)`$; controller two sees only $`Y=X_0+U_1+Z`$ and chooses $`U_2=g(Y)`$. Determine the exact value and an optimal measurable pair for
 
-$$
+```math
 J_*=\inf_{f,g}\mathbb E\!\left[0.04\,f(X_0)^2+
 \bigl(X_0+f(X_0)-g(X_0+f(X_0)+Z)\bigr)^2\right],
-$$
+```
 
-where the infimum runs over Borel functions $f,g:\mathbb R\to\mathbb R$ of finite cost. A characterization must establish global optimality over this class; stationarity or numerical optimization over a chosen family of functions is insufficient.
+where the infimum runs over Borel functions $`f,g:\mathbb R\to\mathbb R`$ of finite cost. A characterization must establish global optimality over this class; stationarity or numerical optimization over a chosen family of functions is insufficient.
 
 ## Application
 

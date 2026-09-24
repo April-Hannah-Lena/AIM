@@ -8,23 +8,23 @@
 
 ## Problem statement
 
-Give the unit sphere $S^n\subset\mathbb R^{n+1}$ its geodesic metric $d(x,y)=\arccos\langle x,y\rangle$. For $r>0$, let $K_n(r)$ be the ordinary geometric realization, with the CW topology, of the abstract simplicial complex whose vertices are all points of $S^n$ and whose simplices are the finite subsets of diameter strictly less than $r$.
+Give the unit sphere $`S^n\subset\mathbb R^{n+1}`$ its geodesic metric $`d(x,y)=\arccos\langle x,y\rangle`$. For $`r>0`$, let $`K_n(r)`$ be the ordinary geometric realization, with the CW topology, of the abstract simplicial complex whose vertices are all points of $`S^n`$ and whose simplices are the finite subsets of diameter strictly less than $`r`$.
 
-For a path-connected space $Y$, define
+For a path-connected space $`Y`$, define
 
-$$
+```math
 \mathop{\mathrm{conn}}\nolimits(Y)=\sup\{k\in\mathbb Z_{\ge0}:\pi_i(Y,y_0)=0\text{ for every }1\le i\le k\},
-$$
+```
 
-with value $+\infty$ if all these homotopy groups vanish. The spaces $K_n(r)$ are path-connected for $r>0$.
+with value $`+\infty`$ if all these homotopy groups vanish. The spaces $`K_n(r)`$ are path-connected for $`r>0`$.
 
-Prove or refute the assertion that, for every integer $n\ge2$ and every $0<r<s$,
+Prove or refute the assertion that, for every integer $`n\ge2`$ and every $`0<r<s`$,
 
-$$
+```math
 \mathop{\mathrm{conn}}\nolimits(K_n(r))\le\mathop{\mathrm{conn}}\nolimits(K_n(s)).
-$$
+```
 
-This compares the first possible nonzero homotopy-group dimension at different scales. It does not assert that the inclusion $K_n(r)\hookrightarrow K_n(s)$ is a homotopy equivalence.
+This compares the first possible nonzero homotopy-group dimension at different scales. It does not assert that the inclusion $`K_n(r)\hookrightarrow K_n(s)`$ is a homotopy equivalence.
 
 ## Application
 

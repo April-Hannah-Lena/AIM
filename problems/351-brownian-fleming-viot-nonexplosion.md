@@ -8,24 +8,24 @@
 
 ## Problem statement
 
-Let $d\ge2$, let $D\subset\mathbb R^d$ be a nonempty bounded connected open set, and fix an integer $N\ge3$. No regularity assumption is imposed on $\partial D$. Start $N$ labelled particles at any deterministic configuration $x=(x_1,\ldots,x_N)\in D^N$; coincident starting positions are allowed.
+Let $`d\ge2`$, let $`D\subset\mathbb R^d`$ be a nonempty bounded connected open set, and fix an integer $`N\ge3`$. No regularity assumption is imposed on $`\partial D`$. Start $`N`$ labelled particles at any deterministic configuration $`x=(x_1,\ldots,x_N)\in D^N`$; coincident starting positions are allowed.
 
-Between resampling events the particles move as independent standard Brownian motions, with generator $\tfrac12\Delta$. When a particle first reaches $\partial D$, choose one of the other $N-1$ particles uniformly and move the exiting particle instantly to its current position. The remaining particles stay where they are. Continue with independent Brownian increments and fresh uniform choices, conditional on the new configuration. This is the Brownian Fleming–Viot particle system with hard killing and uniform resampling.
+Between resampling events the particles move as independent standard Brownian motions, with generator $`\tfrac12\Delta`$. When a particle first reaches $`\partial D`$, choose one of the other $`N-1`$ particles uniformly and move the exiting particle instantly to its current position. The remaining particles stay where they are. Continue with independent Brownian increments and fresh uniform choices, conditional on the new configuration. This is the Brownian Fleming–Viot particle system with hard killing and uniform resampling.
 
-Let $\tau_0=0$ and let $\tau_k$ be the time of the $k$th resampling event. The construction defines the system up to
+Let $`\tau_0=0`$ and let $`\tau_k`$ be the time of the $`k`$th resampling event. The construction defines the system up to
 
-$$
+```math
 \tau_\infty=\lim_{k\to\infty}\tau_k.
-$$
+```
 
 Before this limit, simultaneous boundary exits have probability zero. **Is it always true that**
 
-$$
+```math
 \mathbb P_x(\tau_\infty=\infty)=1
 \qquad\text{for every }d,D,N,x\text{ as above}?
-$$
+```
 
-Equivalently, must there almost surely be only finitely many resampling events in every finite time interval? The population size remains $N$ throughout the construction; the possible failure is accumulation of infinitely many events at a finite time. The question concerns each fixed finite $N$, with no drift, reflection or change to the resampling rule.
+Equivalently, must there almost surely be only finitely many resampling events in every finite time interval? The population size remains $`N`$ throughout the construction; the possible failure is accumulation of infinitely many events at a finite time. The question concerns each fixed finite $`N`$, with no drift, reflection or change to the resampling rule.
 
 ## Application
 
@@ -47,8 +47,8 @@ Resampling lets a particle population approximate the distribution of a diffusio
 
 Open in cited literature; no later resolution located as of 2026-09-19. Burdzy's Problem 6 explicitly poses the bounded-domain question. Kwaśnicki's independently authored Remark 1.2 retains the question for more than two particles. His Corollary 1.4 establishes non-explosion for two Brownian particles from every interior initial configuration, including coincident positions; the almost-everywhere qualification in the more general Theorem 1.1 is therefore not a remaining Brownian obstruction.
 
-The unrestricted claim in Burdzy–Hołyst–March has an acknowledged proof error. Bieniek–Burdzy–Finch identify the faulty induction leading to equation (2.1); Kwaśnicki and Burdzy's problem page explicitly retain the unsolved remainder. The preprint's Theorem 5.1 proves non-explosion for bounded Lipschitz domains with a sufficiently small Lipschitz constant depending on $N$ and $d$. Its polyhedral theorem treats two particles. These results do not cover arbitrary rough domains with $N\ge3$.
+The unrestricted claim in Burdzy–Hołyst–March has an acknowledged proof error. Bieniek–Burdzy–Finch identify the faulty induction leading to equation (2.1); Kwaśnicki and Burdzy's problem page explicitly retain the unsolved remainder. The preprint's Theorem 5.1 proves non-explosion for bounded Lipschitz domains with a sufficiently small Lipschitz constant depending on $`N`$ and $`d`$. Its polyhedral theorem treats two particles. These results do not cover arbitrary rough domains with $`N\ge3`$.
 
-Villemonais's general approximation theorem assumes non-explosion for its approximating particle systems. His separate sufficient criterion requires a twice continuously differentiable boundary-distance function in a boundary neighbourhood, or an appropriate regular substitute. Approximating an irregular domain by regular ones does not establish non-explosion of the original fixed-$N$ construction. Journel–Monmarché's later convergence theorems impose a $C^2$ boundary and further conditions on a drift potential. The extinction examples of Bieniek–Burdzy–Pal use singular drift and therefore do not disprove the Brownian question.
+Villemonais's general approximation theorem assumes non-explosion for its approximating particle systems. His separate sufficient criterion requires a twice continuously differentiable boundary-distance function in a boundary neighbourhood, or an appropriate regular substitute. Approximating an irregular domain by regular ones does not establish non-explosion of the original fixed-$`N`$ construction. Journel–Monmarché's later convergence theorems impose a $`C^2`$ boundary and further conditions on a drift potential. The extinction examples of Bieniek–Burdzy–Pal use singular drift and therefore do not disprove the Brownian question.
 
 The [evidence record](../research/expansion-2026-09/candidates/brownian-fleming-viot-nonexplosion.json) records source access, theorem comparisons, current searches and the separated A61 adversarial self-review. No independent agent or human review was performed. This is one non-explosion family, covering all particle numbers and dimensions in the statement. Entry [321](321-selected-brownian-population-genealogy.md) concerns large-population ancestry under a different branching-and-selection rule; entries [275](275-reaction-network-positive-recurrence.md) and [317](317-contact-process-nonamenable-weak-survival.md) concern different stochastic dynamics.

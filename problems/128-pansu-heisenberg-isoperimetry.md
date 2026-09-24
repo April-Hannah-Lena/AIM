@@ -8,22 +8,22 @@
 
 ## Problem statement
 
-On $\mathbb R^3$ with coordinates $(x,y,t)$, put $X=\partial_x-\frac y2\partial_t$ and $Y=\partial_y+\frac x2\partial_t$. For a measurable set $E$ define horizontal perimeter by
+On $`\mathbb R^3`$ with coordinates $`(x,y,t)`$, put $`X=\partial_x-\frac y2\partial_t`$ and $`Y=\partial_y+\frac x2\partial_t`$. For a measurable set $`E`$ define horizontal perimeter by
 
-$$
+```math
 P_H(E)=\sup\left\{\int_E(Xa+Yb)\,dx\,dy\,dt:
 a,b\in C_c^1(\mathbb R^3),\ a^2+b^2\le1\right\}.
-$$
+```
 
-For $R>0$ define the bubble
+For $`R>0`$ define the bubble
 
-$$
+```math
 B_R=\left\{x^2+y^2<R^2,\quad
 |t|<\tfrac14\left(r\sqrt{R^2-r^2}+R^2\arccos(r/R)\right)\right\},
 \qquad r=\sqrt{x^2+y^2}.
-$$
+```
 
-Does every measurable $E$ of finite positive Lebesgue volume and finite horizontal perimeter satisfy $P_H(E)\ge P_H(B_R)$ when $|E|=|B_R|$? This asks for global optimality among all finite-perimeter sets, without symmetry or boundary-regularity assumptions.
+Does every measurable $`E`$ of finite positive Lebesgue volume and finite horizontal perimeter satisfy $`P_H(E)\ge P_H(B_R)`$ when $`|E|=|B_R|`$? This asks for global optimality among all finite-perimeter sets, without symmetry or boundary-regularity assumptions.
 
 ## Application
 

@@ -8,21 +8,21 @@
 
 ## Problem statement
 
-A full-dimensional lattice polytope $P\subset\mathbb R^d$ is reflexive if $0\in\mathop{\mathrm{int}}\nolimits P$ and its polar
+A full-dimensional lattice polytope $`P\subset\mathbb R^d`$ is reflexive if $`0\in\mathop{\mathrm{int}}\nolimits P`$ and its polar
 
-$$
+```math
 P^*=\{y\in\mathbb R^d:\langle x,y\rangle\le1\text{ for every }x\in P\}
-$$
+```
 
-is also a lattice polytope. Write $f_{d-1}(P)$ for its number of facets.
+is also a lattice polytope. Write $`f_{d-1}(P)`$ for its number of facets.
 
 Prove or disprove that every reflexive lattice polytope satisfies
 
-$$
+```math
 f_{d-1}(P)\le6^{d/2}.
-$$
+```
 
-The unresolved range is $d\ge5$. No simplicity, simpliciality or symmetry assumption is imposed.
+The unresolved range is $`d\ge5`$. No simplicity, simpliciality or symmetry assumption is imposed.
 
 ## Application
 

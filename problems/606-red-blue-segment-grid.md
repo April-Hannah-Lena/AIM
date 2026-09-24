@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-For each integer $k\ge 1$, consider $3k$ pairwise disjoint red straight-line segments and $3k$ pairwise disjoint blue straight-line segments in the plane. Suppose every red segment crosses every blue segment in their relative interiors.
+For each integer $`k\ge 1`$, consider $`3k`$ pairwise disjoint red straight-line segments and $`3k`$ pairwise disjoint blue straight-line segments in the plane. Suppose every red segment crosses every blue segment in their relative interiors.
 
-Must there be $k$ red and $k$ blue segments whose arrangement is combinatorially equivalent to the arrangement of $k$ horizontal segments crossing $k$ vertical segments?
+Must there be $`k`$ red and $`k`$ blue segments whose arrangement is combinatorially equivalent to the arrangement of $`k`$ horizontal segments crossing $`k`$ vertical segments?
 
 Here combinatorial equivalence concerns the embedded planar graph obtained by subdividing segments at their crossings, including its cyclic orders and unbounded face, with the red and blue segment families preserved. Thus the required conclusion is a rectangular grid arrangement, not merely the already assumed complete red–blue intersection pattern.
 
@@ -24,4 +24,4 @@ The proposed linear threshold would improve a geometric extraction step used to 
 
 ## Status review
 
-The source proves an exponential sufficient size and explicitly asks whether $3k$ segments of each color suffice. It also gives arrangements with $3k$ segments of each color containing no grid of size $k+1$, which do not refute the displayed size-$k$ target. General intersection-graph grid statements use a weaker notion and do not resolve this embedding requirement. Current searches found no matching resolution or duplicate.
+The source proves an exponential sufficient size and explicitly asks whether $`3k`$ segments of each color suffice. It also gives arrangements with $`3k`$ segments of each color containing no grid of size $`k+1`$, which do not refute the displayed size-$`k`$ target. General intersection-graph grid statements use a weaker notion and do not resolve this embedding requirement. Current searches found no matching resolution or duplicate.

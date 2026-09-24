@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Independently at each vertex of $\mathbb Z^2$, put no mirror with probability $1-p$, a mirror of slope $+1$ with probability $p/2$, or a mirror of slope $-1$ with probability $p/2$. A ray moves along nearest-neighbor lattice edges. At each encountered vertex it continues straight if no mirror is present and otherwise undergoes specular reflection through the indicated diagonal mirror. Launch a ray from the origin pointing east, and subsequently apply these rules also on returns to the origin. For every $p\in(0,1]$, is the set of visited vertices almost surely finite? Equivalently, must the directed trajectory eventually close into a finite orbit?
+Independently at each vertex of $`\mathbb Z^2`$, put no mirror with probability $`1-p`$, a mirror of slope $`+1`$ with probability $`p/2`$, or a mirror of slope $`-1`$ with probability $`p/2`$. A ray moves along nearest-neighbor lattice edges. At each encountered vertex it continues straight if no mirror is present and otherwise undergoes specular reflection through the indicated diagonal mirror. Launch a ray from the origin pointing east, and subsequently apply these rules also on returns to the origin. For every $`p\in(0,1]`$, is the set of visited vertices almost surely finite? Equivalently, must the directed trajectory eventually close into a finite orbit?
 
 ## Application
 

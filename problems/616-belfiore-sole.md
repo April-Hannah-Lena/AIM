@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $L\subset\mathbb R^n$ be a full-rank integral unimodular lattice: $\langle x,z\rangle\in\mathbb Z$ for $x,z\in L$, and its covolume is one. For $y>0$, define
+Let $`L\subset\mathbb R^n`$ be a full-rank integral unimodular lattice: $`\langle x,z\rangle\in\mathbb Z`$ for $`x,z\in L`$, and its covolume is one. For $`y>0`$, define
 
-$$
+```math
 \theta_L(y)=\sum_{x\in L}e^{-\pi y\|x\|_2^2},\qquad \Xi_L(y)=\frac{\theta_{\mathbb Z^n}(y)}{\theta_L(y)}.
-$$
+```
 
 Prove or disprove the Belfiore–Solé conjecture:
 
-$$
+```math
 \Xi_L(y)\leq\Xi_L(1)\qquad\text{for every }n,L\text{ and }y>0.
-$$
+```
 
-The point $y=1$ is already a symmetry point under $y\mapsto1/y$. The question is whether it always gives a global maximum. Uniqueness is not required; for $L=\mathbb Z^n$ the function is constant.
+The point $`y=1`$ is already a symmetry point under $`y\mapsto1/y`$. The question is whether it always gives a global maximum. Uniqueness is not required; for $`L=\mathbb Z^n`$ the function is constant.
 
 ## Application
 
@@ -35,6 +35,6 @@ The secrecy function compares lattice theta sums in Gaussian wiretap coding. Loc
 
 **Known cases:** Reference [1] verifies the conjecture for the extremal even unimodular lattices known there. Reference [2] gives further sufficient criteria and reviews verified lattice families.
 
-**Remaining target:** Prove the maximum assertion for every integral unimodular lattice, or give a counterexample. The disproof of the generalized conjecture for certain $\ell$-modular lattices with $\ell>1$ does not resolve this question.
+**Remaining target:** Prove the maximum assertion for every integral unimodular lattice, or give a counterexample. The disproof of the generalized conjecture for certain $`\ell`$-modular lattices with $`\ell>1`$ does not resolve this question.
 
-The 2026 paper [A Sharp Reverse Minkowski Inequality for the Gaussian Mass of Integral Unimodular Lattices Through Rank 32](https://arxiv.org/html/2606.01347v1), Section 1, explicitly distinguishes its bound $\Xi_L(y)\geq1$ from the unresolved maximum-location conjecture. Searches through 24 September 2026 found no matching general resolution or repository duplicate. Native GitHub, Zenodo, and Palomar searches returned no matching record.
+The 2026 paper [A Sharp Reverse Minkowski Inequality for the Gaussian Mass of Integral Unimodular Lattices Through Rank 32](https://arxiv.org/html/2606.01347v1), Section 1, explicitly distinguishes its bound $`\Xi_L(y)\geq1`$ from the unresolved maximum-location conjecture. Searches through 24 September 2026 found no matching general resolution or repository duplicate. Native GitHub, Zenodo, and Palomar searches returned no matching record.

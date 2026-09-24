@@ -8,11 +8,11 @@
 
 ## Problem statement
 
-Assign independent mean-one exponential times to the nearest-neighbor edges of $\mathbb Z^2$, and let $T(x,y)$ be the minimum path time. A bigeodesic is an injective path $(v_k)_{k\in\mathbb Z}$ such that, for every pair of integers $i<j$,
+Assign independent mean-one exponential times to the nearest-neighbor edges of $`\mathbb Z^2`$, and let $`T(x,y)`$ be the minimum path time. A bigeodesic is an injective path $`(v_k)_{k\in\mathbb Z}`$ such that, for every pair of integers $`i<j`$,
 
-$$
+```math
 \sum_{k=i}^{j-1}\tau_{\{v_k,v_{k+1}\}}=T(v_i,v_j).
-$$
+```
 
 Is the probability that any bigeodesic exists equal to zero? There is no restriction on its direction, and both ends lie in the full plane.
 

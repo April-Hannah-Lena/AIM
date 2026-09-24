@@ -8,29 +8,29 @@
 
 ## Problem statement
 
-Let $\Gamma\subset\mathbb R^2$ be a smooth embedded closed curve with a smooth periodic parametrization $\gamma:\mathbb R/(2\pi\mathbb Z)\to\Gamma$ satisfying $0<|\gamma'(t)|<c_{\max}$. Consider the oscillatory logarithmic-kernel coefficients from equation (9.6) of the reference:
+Let $`\Gamma\subset\mathbb R^2`$ be a smooth embedded closed curve with a smooth periodic parametrization $`\gamma:\mathbb R/(2\pi\mathbb Z)\to\Gamma`$ satisfying $`0<|\gamma'(t)|<c_{\max}`$. Consider the oscillatory logarithmic-kernel coefficients from equation (9.6) of the reference:
 
-$$
+```math
 L_{1,k}(t,\tau)=k\int_{S^1}e^{ik\langle\gamma(t)-\gamma(\tau),\omega\rangle}f_k(\omega,t,\tau)\,dS(\omega),
-$$
+```
 
-where $f_k$ is smooth and periodic in $t,\tau$, with every derivative in $(\omega,t,\tau)$ bounded independently of $k$. Define
+where $`f_k`$ is smooth and periodic in $`t,\tau`$, with every derivative in $`(\omega,t,\tau)`$ bounded independently of $`k`$. Define
 
-$$
+```math
 \widehat L_{1,k,m}(t)=\frac1{\sqrt{2\pi}}\int_0^{2\pi}e^{-im\tau}L_{1,k}(t,\tau)\,d\tau,\qquad \langle z\rangle=(1+|z|^2)^{1/2}.
-$$
+```
 
-Identify functions of $t$ with functions on $\Gamma$. Write $H_k^s(\Gamma)$ for the Sobolev norm with derivatives weighted by $k^{-1}$, equivalently $\|u\|_{H_k^s}=\|(I-k^{-2}\Delta_\Gamma)^{s/2}u\|_{L^2(\Gamma)}$.
+Identify functions of $`t`$ with functions on $`\Gamma`$. Write $`H_k^s(\Gamma)`$ for the Sobolev norm with derivatives weighted by $`k^{-1}`$, equivalently $`\|u\|_{H_k^s}=\|(I-k^{-2}\Delta_\Gamma)^{s/2}u\|_{L^2(\Gamma)}`$.
 
-Is it true that, for every $k_0>0$ and $s\in\mathbb R$, there is a constant $C$ such that
+Is it true that, for every $`k_0>0`$ and $`s\in\mathbb R`$, there is a constant $`C`$ such that
 
-$$
+```math
 \frac1k\sum_{0<|m|\le(1-\epsilon)N}\|\widehat L_{1,k,m}\|_{H_k^s(\Gamma)}\langle m/k\rangle^s\le C
-$$
+```
 
-for all $k>k_0$, $N>0$ and $0<\epsilon<1$? The constant may depend on the fixed curve, parametrization, amplitude bounds, $s$ and $k_0$, but must be independent of $k,N,\epsilon$.
+for all $`k>k_0`$, $`N>0`$ and $`0<\epsilon<1`$? The constant may depend on the fixed curve, parametrization, amplitude bounds, $`s`$ and $`k_0`$, but must be independent of $`k,N,\epsilon`$.
 
-This is Conjecture 11.4, with $F_L^{s,\epsilon}(N,L)$ expanded using (9.3)–(9.4). The bound is proved for unit-speed convex curves with nonvanishing curvature in Lemma 11.3. For general smooth curves, the available estimate in Lemma 11.1 loses a factor $\sqrt{\log k}$ at high frequency.
+This is Conjecture 11.4, with $`F_L^{s,\epsilon}(N,L)`$ expanded using (9.3)–(9.4). The bound is proved for unit-speed convex curves with nonvanishing curvature in Lemma 11.3. For general smooth curves, the available estimate in Lemma 11.1 loses a factor $`\sqrt{\log k}`$ at high frequency.
 
 ## Application
 

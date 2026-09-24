@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-For every closed connected oriented smooth Riemannian surface $(M,g)$ of genus at least two and every $s>2$, does there exist a nonzero divergence-free $u_0\in H^s(TM)$ and $T>0$ whose Euler solution has
+For every closed connected oriented smooth Riemannian surface $`(M,g)`$ of genus at least two and every $`s>2`$, does there exist a nonzero divergence-free $`u_0\in H^s(TM)`$ and $`T>0`$ whose Euler solution has
 
-$$
+```math
 \eta(T)=\mathop{\mathrm{id}}\nolimits_M,\qquad u(T)=u_0?
-$$
+```
 
-The equations are $\partial_tu+\nabla_u u=-\mathop{\mathrm{grad}}\nolimits p$, $\mathop{\mathrm{div}}\nolimits u=0$, and $\partial_t\eta=u\circ\eta$, with $\eta(0)=\mathop{\mathrm{id}}\nolimits_M$. Thus every marked particle, as well as the velocity, must return; $u_0=0$ is excluded.
+The equations are $`\partial_tu+\nabla_u u=-\mathop{\mathrm{grad}}\nolimits p`$, $`\mathop{\mathrm{div}}\nolimits u=0`$, and $`\partial_t\eta=u\circ\eta`$, with $`\eta(0)=\mathop{\mathrm{id}}\nolimits_M`$. Thus every marked particle, as well as the velocity, must return; $`u_0=0`$ is excluded.
 
 ## Application
 

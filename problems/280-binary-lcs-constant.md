@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $(X_i)$ and $(Y_i)$ be independent sequences of independent fair bits. Define $L_n=\max\{k:\exists i_1<\cdots<i_k\le n,\ j_1<\cdots<j_k\le n,\ X_{i_r}=Y_{j_r}\ (1\le r\le k)\}$. Determine the exact value of the Chvátal–Sankoff constant $\gamma_2=\lim_{n\to\infty}\mathbb E[L_n]/n$. Its existence is known. An exact evaluation or characterization that determines the constant explicitly is sought, beyond successively improved numerical bounds or a restatement of this limit.
+Let $`(X_i)`$ and $`(Y_i)`$ be independent sequences of independent fair bits. Define $`L_n=\max\{k:\exists i_1<\cdots<i_k\le n,\ j_1<\cdots<j_k\le n,\ X_{i_r}=Y_{j_r}\ (1\le r\le k)\}`$. Determine the exact value of the Chvátal–Sankoff constant $`\gamma_2=\lim_{n\to\infty}\mathbb E[L_n]/n`$. Its existence is known. An exact evaluation or characterization that determines the constant explicitly is sought, beyond successively improved numerical bounds or a restatement of this limit.
 
 ## Application
 

@@ -8,23 +8,23 @@
 
 ## Problem statement
 
-Let $X$ and $Y$ be real random variables with finite second moments. For any such variable $U$, let $Z\sim N(0,1)$ be independent of $U$ and define its Gaussian-channel minimum mean-square error by
+Let $`X`$ and $`Y`$ be real random variables with finite second moments. For any such variable $`U`$, let $`Z\sim N(0,1)`$ be independent of $`U`$ and define its Gaussian-channel minimum mean-square error by
 
-$$
+```math
 \mathop{\mathrm{mmse}}\nolimits_U(s)=\mathbb E\left[(U-\mathbb E[U\mid\sqrt{s}\,U+Z])^2\right],\qquad s>0.
-$$
+```
 
 Prove or disprove that
 
-$$
+```math
 \mathop{\mathrm{mmse}}\nolimits_X(s)=\mathop{\mathrm{mmse}}\nolimits_Y(s)\quad\text{for every }s>0
-$$
+```
 
 implies
 
-$$
+```math
 Y\stackrel{d}=a+\eta X\qquad\text{for some }a\in\mathbb R,\quad\eta\in\{-1,1\}.
-$$
+```
 
 Translations and reflection leave the curve unchanged, so these ambiguities are unavoidable. The assertion concerns the complete curve, rather than only a finite collection of derivatives or moments. This is the finite-second-moment formulation of the MMSE conjecture in [1, Section 2.2].
 
@@ -39,7 +39,7 @@ The curve records the optimal denoising error at every signal-to-noise ratio. Id
 
 ## Status review
 
-**Known cases:** Cumulant methods prove identification under additional restrictions. In [1, Theorem 2.15], a symmetric moment-determinate $X$ with strictly positive even cumulants is identified among centered competitors with moments of every order. Theorem 2.17 covers alternating even-cumulant signs when the competitor has matching fourth-cumulant sign. These include the uniform and Rademacher examples under the stated competitor restriction.
+**Known cases:** Cumulant methods prove identification under additional restrictions. In [1, Theorem 2.15], a symmetric moment-determinate $`X`$ with strictly positive even cumulants is identified among centered competitors with moments of every order. Theorem 2.17 covers alternating even-cumulant signs when the competitor has matching fourth-cumulant sign. These include the uniform and Rademacher examples under the stated competitor restriction.
 
 **Remaining target:** Prove identification for arbitrary finite-variance laws, or construct two laws with identical curves that are not translations or reflections of each other.
 

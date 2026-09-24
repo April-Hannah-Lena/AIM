@@ -8,21 +8,21 @@
 
 ## Problem statement
 
-Let $G=(V,E)$ be a finite connected undirected graph with capacities $c_e\geq0$. Specify finitely many sessions $(s_i,t_i)$, with $s_i\ne t_i$. Session $i$ has its own independent message, initially known at $s_i$, and requests its exact recovery at $t_i$.
+Let $`G=(V,E)`$ be a finite connected undirected graph with capacities $`c_e\geq0`$. Specify finitely many sessions $`(s_i,t_i)`$, with $`s_i\ne t_i`$. Session $`i`$ has its own independent message, initially known at $`s_i`$, and requests its exact recovery at $`t_i`$.
 
-Use noiseless links and causal network coding: each transmitted symbol may be any function of the sender's initial messages and previously received symbols. Both directions of an edge share its capacity. Define the zero-error throughput region $\mathcal C_{\mathrm{NC}}$ by arbitrary finite block protocols and asymptotic packet scaling: at scale $b$, messages have $br_i$ symbols and edge $e$ carries at most $bc_e$ symbols in total, with integer rounding and closure as $b\to\infty$. A common finite alphabet may be chosen for each protocol. There is no additional completion-time constraint.
+Use noiseless links and causal network coding: each transmitted symbol may be any function of the sender's initial messages and previously received symbols. Both directions of an edge share its capacity. Define the zero-error throughput region $`\mathcal C_{\mathrm{NC}}`$ by arbitrary finite block protocols and asymptotic packet scaling: at scale $`b`$, messages have $`br_i`$ symbols and edge $`e`$ carries at most $`bc_e`$ symbols in total, with integer rounding and closure as $`b\to\infty`$. A common finite alphabet may be chosen for each protocol. There is no additional completion-time constraint.
 
-For each session, let $\mathcal P_i$ be its set of simple source-to-destination paths. Its fractional routing region is
+For each session, let $`\mathcal P_i`$ be its set of simple source-to-destination paths. Its fractional routing region is
 
-$$
+```math
 \mathcal C_{\mathrm{MCF}}=
 \left\{r\geq0:\ \exists x_{i,P}\geq0,\quad
 \sum_{P\in\mathcal P_i}x_{i,P}\geq r_i\ \text{for all }i,\quad
 \sum_i\sum_{\substack{P\in\mathcal P_i\\e\in P}}x_{i,P}\leq c_e\ \text{for all }e
 \right\}.
-$$
+```
 
-Is $\mathcal C_{\mathrm{NC}}=\mathcal C_{\mathrm{MCF}}$ for every such graph, capacity assignment and session collection? Equivalently, can coding ever increase independent-unicast throughput over fractional routing? Coding need not be linear, and terminal locations may be shared across sessions. [1, 2, 5]
+Is $`\mathcal C_{\mathrm{NC}}=\mathcal C_{\mathrm{MCF}}`$ for every such graph, capacity assignment and session collection? Equivalently, can coding ever increase independent-unicast throughput over fractional routing? Coding need not be linear, and terminal locations may be shared across sessions. [1, 2, 5]
 
 ## Application
 

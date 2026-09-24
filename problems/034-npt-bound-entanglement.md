@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Does there exist a density matrix $\rho\ge0$, $\mathop{\mathrm{tr}}\nolimits\rho=1$, on some finite-dimensional $\mathbb C^{d_A}\otimes\mathbb C^{d_B}$ such that $\rho^{T_B}$ has a negative eigenvalue, yet for every integer $k\ge1$ and every vector $v$ of Schmidt rank at most two across $A^k:B^k$,
+Does there exist a density matrix $`\rho\ge0`$, $`\mathop{\mathrm{tr}}\nolimits\rho=1`$, on some finite-dimensional $`\mathbb C^{d_A}\otimes\mathbb C^{d_B}`$ such that $`\rho^{T_B}`$ has a negative eigenvalue, yet for every integer $`k\ge1`$ and every vector $`v`$ of Schmidt rank at most two across $`A^k:B^k`$,
 
-$$
+```math
 \langle v,(\rho^{T_B})^{\otimes k}v\rangle\ge0?
-$$
+```
 
-Here $T_B$ transposes matrix entries on the second tensor factor in a fixed product basis. Schmidt rank is the rank of the coefficient matrix of $v$. The all-$k$ condition is the finite-copy criterion for nondistillability under local operations and classical communication.
+Here $`T_B`$ transposes matrix entries on the second tensor factor in a fixed product basis. Schmidt rank is the rank of the coefficient matrix of $`v`$. The all-$`k`$ condition is the finite-copy criterion for nondistillability under local operations and classical communication.
 
 ## Application
 

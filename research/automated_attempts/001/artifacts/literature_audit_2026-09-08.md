@@ -6,17 +6,17 @@ This is a source-scope audit, not independent verification of every cited proof.
 
 Put `p=d/2`, `a=omega_d*|Omega|/(2*pi)^d`. The repository's indexing is Dirichlet `lambda_1,lambda_2,...` and Neumann `mu_0=0,mu_1,...`, with multiplicity. Its target is
 
-\[
+```math
 \mu_k\le (k/a)^{1/p}\le\lambda_k\qquad(k\ge1).
-\]
+```
 
 FLPS 2023, Remark 1.1, uses `mu_1=0` and writes `mu_{n+1} <= (n/a)^{1/p} <= lambda_n`, so the statements agree exactly after shifting the Neumann index. Their counting variable is frequency: eigenvalues are compared with `lambda^2`, not `lambda`. [Publisher full text](https://link.springer.com/article/10.1007/s00222-023-01198-1).
 
 For energy `E>=0`, an equivalent endpoint-safe form is
 
-\[
+```math
 N_D^{\le}(E)\le aE^p\le N_N^{<}(E).
-\]
+```
 
 Here the Neumann count includes the zero eigenvalue when `E>0`, and both counts use multiplicity. Elementary verification: if `m=N_N^<(E)`, then `mu_m>=E`, and the eigenvalue bound gives `aE^p<=m` when `m>=1`; the case `E=0` is trivial. Conversely, if `mu_k>(k/a)^{1/p}`, choose `E` strictly between these numbers: `N_N^<(E)<=k<aE^p`, a contradiction. Dirichlet equivalence follows by evaluating at eigenvalues. Using `N_N^<=` instead gives an equivalent family only when required for every energy and interpreted with the appropriate one-sided limits. In fact the target implies `N_N^<=(E)>aE^p` for every positive `E`: if its value is `m`, then `mu_m>E`, so `aE^p<m`.
 
@@ -36,9 +36,9 @@ Here the Neumann count includes the zero eigenvalue when `E>0`, and both counts 
 
 6. **Jiang–Lin, CPAM, first published 12 June 2026, DOI 10.1002/cpa.70058.** For each bounded Lipschitz domain and each `epsilon in (0,1)`, gives an explicit `Lambda(epsilon,Omega)` above which
 
-\[
+```math
 k\le(1+\epsilon)a\lambda_k^{d/2}.
-\]
+```
 
 This makes the **epsilon-loss** version finitely checkable for a specified domain. One cannot send `epsilon->0` at a fixed eigenvalue without controlling the epsilon-dependent threshold. Additional exact domain-class results exist, but this does not settle the full target. Publisher abstract and publication metadata were checked; the explicit threshold proof was not independently audited. [Published abstract](https://onlinelibrary.wiley.com/doi/abs/10.1002/cpa.70058), [preprint](https://arxiv.org/abs/2507.04307).
 
@@ -64,31 +64,31 @@ This makes the **epsilon-loss** version finitely checkable for a specified domai
 
 **Source check.** Bucur–Henrot, *Acta Mathematica* 222 (2019), 337–361, Theorem 1, applies in every `d>=2` to bounded open “regular” sets, defined by compact embedding `H^1(Omega)->L^2(Omega)`, explicitly including Lipschitz sets. Connectedness is not assumed. Indexing is exactly `mu_0=0<=mu_1<=mu_2`, with multiplicities. Their theorem is equivalent to
 
-\[
+```math
 \mu_2(\Omega)\le\mu_1(B_{V/2}),\qquad V=|\Omega|,
-\]
+```
 
 where `B_v` denotes a ball of volume `v`. Equality requires two equal disjoint balls almost everywhere. Corollary 2 explicitly states Neumann Pólya at index 2 in every dimension. Their density extension involves relaxed eigenvalues and is unnecessary here. The introduction also records all-dimensional Szegő–Weinberger and Hong–Krahn–Szegő. [Primary PDF, pp. 1–4](https://arxiv.org/pdf/1801.07435), [published DOI](https://doi.org/10.4310/ACTA.2019.v222.n2.a2).
 
 **Independent elementary check avoiding July 2026 ball results.** The coordinate trial function `x_1` on a centered radius-`R` ball has mean zero and Rayleigh quotient `(d+2)/R^2`. Moreover
 
-\[
+```math
 d+2\le4\Gamma(d/2+1)^{4/d}=4\pi^2/\omega_d^{4/d}.
-\]
+```
 
 For an elementary proof, set
 
-\[
+```math
 F(x)=\Gamma(x+1)^2\left(\frac2{x+1}\right)^x.
-\]
+```
 
 Then `F(1)=1`, `F(3/2)=9*pi/(10*sqrt(5))>1`, and
 
-\[
+```math
 \frac{F(x+1)}{F(x)}
 =2(x+1)\left(1+\frac1{x+1}\right)^{-(x+1)}
 >\frac{2(x+1)}e>1\quad(x\ge1).
-\]
+```
 
 Induction on the two parity classes proves the comparison for every integer `d>=2`. Thus the first ball Neumann bound needs only a Rayleigh test and elementary constants.
 

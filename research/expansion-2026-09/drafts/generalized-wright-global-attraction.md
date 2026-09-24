@@ -8,23 +8,23 @@
 
 ## Problem statement
 
-Let $f\in C^3(\mathbb R,\mathbb R)$ satisfy $f(0)=0$ and $u f(u)<0$ for $u\ne0$. Assume that $f$ is bounded below and has at most one critical point; if a critical point exists, it is a local extremum. At every point with $f'(u)\ne0$, require the Schwarzian derivative to satisfy
+Let $`f\in C^3(\mathbb R,\mathbb R)`$ satisfy $`f(0)=0`$ and $`u f(u)<0`$ for $`u\ne0`$. Assume that $`f`$ is bounded below and has at most one critical point; if a critical point exists, it is a local extremum. At every point with $`f'(u)\ne0`$, require the Schwarzian derivative to satisfy
 
-$$
+```math
 (Sf)(u)=\frac{f'''(u)}{f'(u)}
 -\frac32\left(\frac{f''(u)}{f'(u)}\right)^2<0.
-$$
+```
 
-Suppose also that $0<-f'(0)<\pi/2$. For an arbitrary continuous history $\phi:[-1,0]\to\mathbb R$, consider the scalar delay equation
+Suppose also that $`0<-f'(0)<\pi/2`$. For an arbitrary continuous history $`\phi:[-1,0]\to\mathbb R`$, consider the scalar delay equation
 
-$$
+```math
 x'(t)=f(x(t-1))\quad(t\ge0),
 \qquad x(s)=\phi(s)\quad(-1\le s\le0).
-$$
+```
 
-**Must every such solution satisfy $\lim_{t\to\infty}x(t)=0$?**
+**Must every such solution satisfy $`\lim_{t\to\infty}x(t)=0`$?**
 
-This is the strict-parameter version of the generalized Wright conjecture in Liz–Pinto–Robledo–Trofimchuk–Tkachenko, Conjecture 1.2. The slope condition makes the zero equilibrium locally exponentially stable; the question concerns convergence from every history, with no smallness or sign restriction. No uniform convergence rate is requested. The delay is normalized to one: for delay $\tau>0$, time rescaling replaces the slope by $\tau f'(0)$. Later formulations also include the boundary $-f'(0)=\pi/2$; that extension belongs to the same problem family and is not counted separately.
+This is the strict-parameter version of the generalized Wright conjecture in Liz–Pinto–Robledo–Trofimchuk–Tkachenko, Conjecture 1.2. The slope condition makes the zero equilibrium locally exponentially stable; the question concerns convergence from every history, with no smallness or sign restriction. No uniform convergence rate is requested. The delay is normalized to one: for delay $`\tau>0`$, time rescaling replaces the slope by $`\tau f'(0)`$. Later formulations also include the boundary $`-f'(0)=\pi/2`$; that extension belongs to the same problem family and is not counted separately.
 
 ## Applied significance
 
@@ -43,9 +43,9 @@ Delayed density feedback models reproduction responding to an earlier population
 
 **Open in cited literature; no later resolution located as of 2026-09-18.** Searches covered generalized Wright and negative-Schwarzian terminology, author names, proof and counterexample claims, recent years, unrestricted dates, corrections and version histories. The 2025 manuscript published in 2026 explicitly retains the conjecture; Balázs–Röst provide independent specialist corroboration.
 
-The general hypotheses give attraction when $-f'(0)\le3/2$. Díaz–Hasík–Kopfová–Trofimchuk extend this to $-f'(0)\le37/24$ for decreasing $f$, and cover the full range up to $\pi/2$ when $f$ is decreasing and $f''(0)=0$. Their conclusions leave general feedback shapes and the near-critical interval unresolved. The interval-arithmetic computations supporting their partial theorem were not rerun here.
+The general hypotheses give attraction when $`-f'(0)\le3/2`$. Díaz–Hasík–Kopfová–Trofimchuk extend this to $`-f'(0)\le37/24`$ for decreasing $`f`$, and cover the full range up to $`\pi/2`$ when $`f`$ is decreasing and $`f''(0)=0`$. Their conclusions leave general feedback shapes and the near-critical interval unresolved. The interval-arithmetic computations supporting their partial theorem were not rerun here.
 
-The classical Wright equation, corresponding to $f(u)=\alpha(e^{-u}-1)$, was solved by van den Berg–Jaquette. Balázs–Röst rule out subcritical Hopf bifurcations under negative Schwarzian, but that local result does not exclude all distant periodic orbits. Counterexamples obtained after dropping the Schwarzian condition do not refute the stated conjecture. Adimy et al.'s coexisting-orbit constructions instead use $z'(t)=-z(t)+Q(z(t-1))$; their numerical examples assume only $C^1$ joins and do not establish the required negative-Schwarzian hypothesis. Clark-equation counterexamples concern a discrete recurrence. The [evidence record](../candidates/generalized-wright-global-attraction.json) documents the precise scope comparisons and incomplete access to the original Clark paper.
+The classical Wright equation, corresponding to $`f(u)=\alpha(e^{-u}-1)`$, was solved by van den Berg–Jaquette. Balázs–Röst rule out subcritical Hopf bifurcations under negative Schwarzian, but that local result does not exclude all distant periodic orbits. Counterexamples obtained after dropping the Schwarzian condition do not refute the stated conjecture. Adimy et al.'s coexisting-orbit constructions instead use $`z'(t)=-z(t)+Q(z(t-1))`$; their numerical examples assume only $`C^1`$ joins and do not establish the required negative-Schwarzian hypothesis. Clark-equation counterexamples concern a discrete recurrence. The [evidence record](../candidates/generalized-wright-global-attraction.json) documents the precise scope comparisons and incomplete access to the original Clark paper.
 
 [Entry 288](../../../problems/288-nicholson-local-global-stability.md) concerns Nicholson's particular positive-population equation with instantaneous decay. That term and its parameter-dependent local stability test distinguish it from the pure-delay function class here. [Entry 303](../../../problems/303-carrying-simplex-interior.md) asks for geometric smoothness in competitive population maps. Neither has the same mathematical assertion.
 

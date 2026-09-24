@@ -8,14 +8,14 @@
 
 ## Problem statement
 
-Let $(M,g)$ be any known compact connected smooth Riemannian manifold of dimension $n\geq3$ with smooth nonempty boundary. For real $q\in C^\infty(M)$, assume zero is not a Dirichlet eigenvalue of $-\Delta_g+q$. Define
+Let $`(M,g)`$ be any known compact connected smooth Riemannian manifold of dimension $`n\geq3`$ with smooth nonempty boundary. For real $`q\in C^\infty(M)`$, assume zero is not a Dirichlet eigenvalue of $`-\Delta_g+q`$. Define
 
-$$
+```math
 \Lambda_{g,q}f=\partial_{\nu_g}u|_{\partial M},\qquad
 (-\Delta_g+q)u=0,\quad u|_{\partial M}=f.
-$$
+```
 
-Must $\Lambda_{g,q_1}=\Lambda_{g,q_2}$ imply $q_1=q_2$ for every such manifold and pair of potentials? The metric is fixed and known; the map is measured at the single frequency zero.
+Must $`\Lambda_{g,q_1}=\Lambda_{g,q_2}`$ imply $`q_1=q_2`$ for every such manifold and pair of potentials? The metric is fixed and known; the map is measured at the single frequency zero.
 
 ## Application
 

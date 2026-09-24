@@ -7,22 +7,22 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-For an integer $d\ge2$ and a real-valued $f\in C_c^\infty(\mathbb R^d)$, define $R_j f$ by
+For an integer $`d\ge2`$ and a real-valued $`f\in C_c^\infty(\mathbb R^d)`$, define $`R_j f`$ by
 
-$$
+```math
 \widehat{R_j f}(\xi)=-i\frac{\xi_j}{|\xi|}\widehat f(\xi),\qquad j=1,\ldots,d,
-$$
+```
 
-where $\widehat f(\xi)=\int e^{-ix\cdot\xi}f(x)\,dx$. Put $Rf=(R_1f,\ldots,R_df)$, use the Euclidean norm on its vector values, and set $p^*=\max\{p,p/(p-1)\}$.
+where $`\widehat f(\xi)=\int e^{-ix\cdot\xi}f(x)\,dx`$. Put $`Rf=(R_1f,\ldots,R_df)`$, use the Euclidean norm on its vector values, and set $`p^*=\max\{p,p/(p-1)\}`$.
 
-Is it true that for every $1<p<\infty$,
+Is it true that for every $`1<p<\infty`$,
 
-$$
+```math
 \left\|\left(\sum_{j=1}^d|R_jf|^2\right)^{1/2}\right\|_{L^p(\mathbb R^d)}
 \le \cot\!\left(\frac{\pi}{2p^*}\right)\|f\|_{L^p(\mathbb R^d)}?
-$$
+```
 
-The displayed constant is a necessary lower bound already from one component. Thus the assertion identifies the exact norm, uniformly in dimension; Plancherel proves its $p=2$ case.
+The displayed constant is a necessary lower bound already from one component. Thus the assertion identifies the exact norm, uniformly in dimension; Plancherel proves its $`p=2`$ case.
 
 ## Application
 

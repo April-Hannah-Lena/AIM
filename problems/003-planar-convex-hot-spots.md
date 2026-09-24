@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^2$ be any bounded convex domain with $C^\infty$ boundary. Let $\mu_1>0$ be its first nonzero Neumann eigenvalue. For every nonzero real solution
+Let $`\Omega\subset\mathbb R^2`$ be any bounded convex domain with $`C^\infty`$ boundary. Let $`\mu_1>0`$ be its first nonzero Neumann eigenvalue. For every nonzero real solution
 
-$$
+```math
 -\Delta u=\mu_1u\quad\hbox{in }\Omega,\qquad\partial_\nu u=0\quad\hbox{on }\partial\Omega,
-$$
+```
 
-prove or disprove that every global maximum and every global minimum of $u$ on $\overline\Omega$ lies on $\partial\Omega$. Here $\nu$ is the outward unit normal; the assertion applies to every vector in the eigenspace when the eigenvalue is multiple.
+prove or disprove that every global maximum and every global minimum of $`u`$ on $`\overline\Omega`$ lies on $`\partial\Omega`$. Here $`\nu`$ is the outward unit normal; the assertion applies to every vector in the eigenspace when the eigenvalue is multiple.
 
 ## Application
 

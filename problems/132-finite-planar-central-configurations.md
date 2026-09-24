@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-For every integer $N\ge5$ and every fixed tuple $m_1,\ldots,m_N>0$, are there only finitely many planar central configurations up to rotation?
+For every integer $`N\ge5`$ and every fixed tuple $`m_1,\ldots,m_N>0`$, are there only finitely many planar central configurations up to rotation?
 
-Precisely, consider labelled points $q_i\in\mathbb R^2$ satisfying $q_i\ne q_j$ for $i\ne j$,
+Precisely, consider labelled points $`q_i\in\mathbb R^2`$ satisfying $`q_i\ne q_j`$ for $`i\ne j`$,
 
-$$
+```math
 \sum_i m_iq_i=0,\qquad \sum_i m_i|q_i|^2=1,\qquad
 \sum_{j\ne i}m_j\frac{q_j-q_i}{|q_j-q_i|^3}=-\lambda q_i
 \quad(i=1,\ldots,N)
-$$
+```
 
-for some $\lambda>0$. Must the solution set have finitely many orbits under the common action of $SO(2)$? The normalizations remove translation and scale; the assertion includes exceptional mass ratios.
+for some $`\lambda>0`$. Must the solution set have finitely many orbits under the common action of $`SO(2)`$? The normalizations remove translation and scale; the assertion includes exceptional mass ratios.
 
 ## Application
 

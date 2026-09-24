@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^3$ be any bounded connected smooth domain whose boundary has finitely many connected components $\Gamma_0,\ldots,\Gamma_m$. Given arbitrary $\nu>0$, $f\in C^\infty(\overline\Omega;\mathbb R^3)$ and $a\in C^\infty(\partial\Omega;\mathbb R^3)$ satisfying only
+Let $`\Omega\subset\mathbb R^3`$ be any bounded connected smooth domain whose boundary has finitely many connected components $`\Gamma_0,\ldots,\Gamma_m`$. Given arbitrary $`\nu>0`$, $`f\in C^\infty(\overline\Omega;\mathbb R^3)`$ and $`a\in C^\infty(\partial\Omega;\mathbb R^3)`$ satisfying only
 
-$$
+```math
 \sum_{j=0}^m\int_{\Gamma_j}a\cdot n\,dS=0,
-$$
+```
 
-does there exist $u\in H^1(\Omega;\mathbb R^3)$ with $\nabla\cdot u=0$, trace $a$, and
+does there exist $`u\in H^1(\Omega;\mathbb R^3)`$ with $`\nabla\cdot u=0`$, trace $`a`$, and
 
-$$
+```math
 \nu\int_\Omega\nabla u:\nabla\varphi+\int_\Omega(u\cdot\nabla)u\cdot\varphi=\int_\Omega f\cdot\varphi
-$$
+```
 
-for every smooth compactly supported divergence-free $\varphi$? Individual component fluxes may be nonzero and arbitrarily large; neither the domain nor the data are assumed axisymmetric.
+for every smooth compactly supported divergence-free $`\varphi`$? Individual component fluxes may be nonzero and arbitrarily large; neither the domain nor the data are assumed axisymmetric.
 
 ## Application
 

@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-Does every nondegenerate Euclidean triangle $D\subset\mathbb R^2$ admit a periodic specular billiard trajectory?
+Does every nondegenerate Euclidean triangle $`D\subset\mathbb R^2`$ admit a periodic specular billiard trajectory?
 
-Precisely, find an integer $m\geq2$ and boundary points $q_0,\ldots,q_{m-1}$ in the relative interiors of sides, with consecutive points distinct, such that the segments $[q_i,q_{i+1}]$ lie in $D$ and the incoming and outgoing unit velocities at each $q_i$ are related by reflection across that side's tangent line. Indices are cyclic. Vertices and grazing collisions are excluded; the final position and direction must both repeat.
+Precisely, find an integer $`m\geq2`$ and boundary points $`q_0,\ldots,q_{m-1}`$ in the relative interiors of sides, with consecutive points distinct, such that the segments $`[q_i,q_{i+1}]`$ lie in $`D`$ and the incoming and outgoing unit velocities at each $`q_i`$ are related by reflection across that side's tangent line. Indices are cyclic. Vertices and grazing collisions are excluded; the final position and direction must both repeat.
 
 ## Application
 

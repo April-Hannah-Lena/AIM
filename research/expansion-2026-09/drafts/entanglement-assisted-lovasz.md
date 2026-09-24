@@ -8,34 +8,34 @@
 
 ## Problem statement
 
-Let $G=(V,E)$ be a finite nonempty simple graph. Define $\alpha_*(G)$ as the largest integer $m$ for which there are a finite dimension $d$, a positive semidefinite matrix $\rho\in\mathbb C^{d\times d}$ with $\mathop{\mathrm{Tr}}\nolimits\rho=1$, and positive semidefinite matrices $\rho_{i,x}$, for $1\le i\le m$ and $x\in V$, satisfying
+Let $`G=(V,E)`$ be a finite nonempty simple graph. Define $`\alpha_*(G)`$ as the largest integer $`m`$ for which there are a finite dimension $`d`$, a positive semidefinite matrix $`\rho\in\mathbb C^{d\times d}`$ with $`\mathop{\mathrm{Tr}}\nolimits\rho=1`$, and positive semidefinite matrices $`\rho_{i,x}`$, for $`1\le i\le m`$ and $`x\in V`$, satisfying
 
-$$
+```math
 \sum_{x\in V}\rho_{i,x}=\rho\quad(1\le i\le m),\qquad
 \rho_{i,x}\rho_{j,y}=0\quad\text{if }i\ne j\text{ and }(x=y\text{ or }\{x,y\}\in E).
-$$
+```
 
-For $n\ge1$, the strong power $G^{\boxtimes n}$ has vertex set $V^n$; two distinct words are adjacent exactly when their entries are equal or adjacent in every coordinate. Set
+For $`n\ge1`$, the strong power $`G^{\boxtimes n}`$ has vertex set $`V^n`$; two distinct words are adjacent exactly when their entries are equal or adjacent in every coordinate. Set
 
-$$
+```math
 \Theta_*(G)=\sup_{n\ge1}\alpha_*(G^{\boxtimes n})^{1/n}.
-$$
+```
 
-This also equals the limit as $n\to\infty$. The dimension and shared state may vary with $n$.
+This also equals the limit as $`n\to\infty`$. The dimension and shared state may vary with $`n`$.
 
 Define the Lovász number by
 
-$$
+```math
 \vartheta(G)=\inf_{c,(u_x)}\max_{x\in V}\frac{1}{|c^Tu_x|^2},
-$$
+```
 
-where $c$ and the $u_x$ are real unit vectors in a common finite-dimensional space, and $u_x^Tu_y=0$ whenever $x\ne y$ and $\{x,y\}\notin E$. A zero denominator has value $+\infty$.
+where $`c`$ and the $`u_x`$ are real unit vectors in a common finite-dimensional space, and $`u_x^Tu_y=0`$ whenever $`x\ne y`$ and $`\{x,y\}\notin E`$. A zero denominator has value $`+\infty`$.
 
-Is $\Theta_*(G)=\vartheta(G)$ for every such graph? The inequality $\Theta_*(G)\le\vartheta(G)$ is known. The question allows arbitrary finite-dimensional shared entanglement and local measurements and concerns exact zero error at each block length.
+Is $`\Theta_*(G)=\vartheta(G)`$ for every such graph? The inequality $`\Theta_*(G)\le\vartheta(G)`$ is known. The question allows arbitrary finite-dimensional shared entanglement and local measurements and concerns exact zero error at each block length.
 
 ## Applied significance
 
-The graph records which input symbols a noisy classical channel can confuse. The matrices describe coding with a shared quantum state, and the logarithm of $\Theta_*$ gives the rate in bits per use with no decoding errors. Equality would turn a regularized optimization over arbitrarily large codes and quantum resources into an efficiently approximable semidefinite quantity. A strict gap would identify a limitation of entanglement that this familiar upper bound misses.
+The graph records which input symbols a noisy classical channel can confuse. The matrices describe coding with a shared quantum state, and the logarithm of $`\Theta_*`$ gives the rate in bits per use with no decoding errors. Equality would turn a regularized optimization over arbitrarily large codes and quantum resources into an efficiently approximable semidefinite quantity. A strict gap would identify a limitation of entanglement that this familiar upper bound misses.
 
 ## References
 

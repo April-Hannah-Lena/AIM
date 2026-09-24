@@ -8,26 +8,26 @@
 
 ## Problem statement
 
-For an integer $n\ge3$, equip $T_n=\{0,\ldots,n-1\}^2$ with
+For an integer $`n\ge3`$, equip $`T_n=\{0,\ldots,n-1\}^2`$ with
 
-$$
+```math
 d((a,b),(c,e))=\min\{|a-c|,n-|a-c|\}+\min\{|b-e|,n-|b-e|\}.
-$$
+```
 
-Let $K_n(r)$ contain precisely the subsets of $T_n$ whose diameter is at most $r$. Write $\beta_i(K)=\mathop{\mathrm{rank}}\nolimits H_i(K;\mathbb Z)$.
+Let $`K_n(r)`$ contain precisely the subsets of $`T_n`$ whose diameter is at most $`r`$. Write $`\beta_i(K)=\mathop{\mathrm{rank}}\nolimits H_i(K;\mathbb Z)`$.
 
-Prove or disprove that, for every integer $k\ge5$,
+Prove or disprove that, for every integer $`k\ge5`$,
 
-$$
+```math
 \widetilde H_i(K_{3k-2}(k);\mathbb Z)=0\quad(i\notin\{3,4\}),
-$$
+```
 
 
 
-$$
+```math
 \beta_3(K_{3k-2}(k))=6k-2+(-1)^k,\qquad
 \beta_4(K_{3k-2}(k))=6k-3+(-1)^k.
-$$
+```
 
 No assertion of torsion-freeness in degrees 3 and 4 is included.
 
@@ -41,6 +41,6 @@ This family would provide exact benchmarks for topology detected from periodic g
 
 ## Status review
 
-This is the $k\ge5$ part of Question 8.4, using the integral-homology convention in §3.6. The paper's tables instead use mod-2 computations; these do not establish the displayed integral statement. The neighboring families with grid sizes $3k$ and $3k-1$ are proved in the paper but have different homology.
+This is the $`k\ge5`$ part of Question 8.4, using the integral-homology convention in §3.6. The paper's tables instead use mod-2 computations; these do not establish the displayed integral statement. The neighboring families with grid sizes $`3k`$ and $`3k-1`$ are proved in the paper but have different homology.
 
-Primary-source and announcement checks on 24 September 2026 found no matching resolution. A live [counterexample announcement](https://zenodo.org/records/22250420) concerns third-homology inclusion maps for grids with side length $3k-1$, a different family from the side lengths $3k-2$ here. Its statements do not settle this target.
+Primary-source and announcement checks on 24 September 2026 found no matching resolution. A live [counterexample announcement](https://zenodo.org/records/22250420) concerns third-homology inclusion maps for grids with side length $`3k-1`$, a different family from the side lengths $`3k-2`$ here. Its statements do not settle this target.

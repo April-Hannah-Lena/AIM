@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Fix $N\ge5$ positive masses $m_i$. Let
+Fix $`N\ge5`$ positive masses $`m_i`$. Let
 
-$$
+```math
 \mathcal P=\{(q_1,\ldots,q_N,v_1,\ldots,v_N)\in\mathbb R^{6N}:q_i\ne q_j\ (i\ne j)\}.
-$$
+```
 
-For each initial state in $\mathcal P$, solve $\dot q_i=v_i$ and
+For each initial state in $`\mathcal P`$, solve $`\dot q_i=v_i`$ and
 
-$$
+```math
 \dot v_i=\sum_{j\ne i}m_j\frac{q_j-q_i}{|q_j-q_i|^3}
-$$
+```
 
-on its maximal classical forward interval $[0,T_{\max})$. Is the set of initial states with $T_{\max}<\infty$ of $6N$-dimensional Lebesgue measure zero?
+on its maximal classical forward interval $`[0,T_{\max})`$. Is the set of initial states with $`T_{\max}<\infty`$ of $`6N`$-dimensional Lebesgue measure zero?
 
 Both collisions and finite-time noncollision singularities count as failures of global classical existence.
 
@@ -37,4 +37,4 @@ The question asks whether finite-time breakdown in ideal point-mass gravitationa
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-The chapter reports measure-zero results for collision-producing initial conditions and almost-everywhere global existence for at most four bodies. Constructing noncollision singularities does not settle the measure of their initial-data set for $N\ge5$. Searches included “Newtonian n body almost all global existence measure zero 2025 2026” and “noncollision singularities initial conditions measure zero five body”. No later theorem covering the stated quantifiers was located.
+The chapter reports measure-zero results for collision-producing initial conditions and almost-everywhere global existence for at most four bodies. Constructing noncollision singularities does not settle the measure of their initial-data set for $`N\ge5`$. Searches included “Newtonian n body almost all global existence measure zero 2025 2026” and “noncollision singularities initial conditions measure zero five body”. No later theorem covering the stated quantifiers was located.

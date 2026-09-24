@@ -6,22 +6,22 @@
 
 ## Problem statement
 
-Fix $d\ge3$ and a compact convex polytope $A\subset\mathbb R^d$ with nonempty interior. Let $X_1,X_2,\ldots$ be independent points uniformly distributed in $A$. For $n\ge2$, let $G_n(r)$ have vertex set $\{X_1,\ldots,X_n\}$ and join two vertices when their Euclidean distance is at most $r$.
+Fix $`d\ge3`$ and a compact convex polytope $`A\subset\mathbb R^d`$ with nonempty interior. Let $`X_1,X_2,\ldots`$ be independent points uniformly distributed in $`A`$. For $`n\ge2`$, let $`G_n(r)`$ have vertex set $`\{X_1,\ldots,X_n\}`$ and join two vertices when their Euclidean distance is at most $`r`$.
 
 Define
 
-$$
+```math
 L_n=\max_{1\le i\le n}\min_{j\ne i}\|X_i-X_j\|,
 \qquad M_n=\inf\{r\ge0:G_n(r)\text{ is connected}\}.
-$$
+```
 
-Thus $L_n$ is the radius at which the graph first has no isolated vertices, and $L_n\le M_n$.
+Thus $`L_n`$ is the radius at which the graph first has no isolated vertices, and $`L_n\le M_n`$.
 
-Is it true for every such polytope $A$ that
+Is it true for every such polytope $`A`$ that
 
-$$
+```math
 \lim_{n\to\infty}\Pr\{L_n=M_n\}=1?
-$$
+```
 
 ## Application
 
@@ -34,7 +34,7 @@ For a wireless network or a graph built from sampled data, the statement would m
 
 ## Status review
 
-**Known cases:** The equality holds with probability tending to one for a cube. The later Penrose–Yang result proves it for convex polygons and for compact Euclidean domains with $C^2$ boundary. For every polytope in the question, the source already proves $M_n/L_n\to1$ almost surely.
+**Known cases:** The equality holds with probability tending to one for a cube. The later Penrose–Yang result proves it for convex polygons and for compact Euclidean domains with $`C^2`$ boundary. For every polytope in the question, the source already proves $`M_n/L_n\to1`$ almost surely.
 
 **Remaining target:** Exact equality with high probability for arbitrary convex polytopes in dimension at least three; asymptotic equality of the ratio does not establish this.
 

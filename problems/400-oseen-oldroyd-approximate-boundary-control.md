@@ -8,25 +8,25 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^2$ be a bounded connected smooth domain, $\Gamma\subset\partial\Omega$ a nonempty relatively open set, $T>0$, and $a,b,\nu>0$. Given $z\in C^\infty(\overline\Omega\times[0,T];\mathbb R^2)$ with $\nabla\cdot z=0$ and $z=0$ on the boundary, consider
+Let $`\Omega\subset\mathbb R^2`$ be a bounded connected smooth domain, $`\Gamma\subset\partial\Omega`$ a nonempty relatively open set, $`T>0`$, and $`a,b,\nu>0`$. Given $`z\in C^\infty(\overline\Omega\times[0,T];\mathbb R^2)`$ with $`\nabla\cdot z=0`$ and $`z=0`$ on the boundary, consider
 
-$$
+```math
 u_t+(z\cdot\nabla)u-\nu\Delta u+\nabla p=\nabla\cdot\tau,\quad \nabla\cdot u=0,\qquad \tau_t+a\tau=bD(u),
-$$
+```
 
-where $D(u)=(\nabla u+\nabla u^T)/2$, $u=f\mathbf1_\Gamma$ on the boundary, and $\tau$ is symmetric. Define
+where $`D(u)=(\nabla u+\nabla u^T)/2`$, $`u=f\mathbf1_\Gamma`$ on the boundary, and $`\tau`$ is symmetric. Define
 
-$$
+```math
 H_\sigma=\mathop{\mathrm{cl}}\nolimits_{L^2}\{v\in C_c^\infty(\Omega;\mathbb R^2):\nabla\cdot v=0\},
-$$
+```
 
-where $\mathop{\mathrm{cl}}\nolimits_{L^2}$ denotes closure in $L^2(\Omega;\mathbb R^2)$. Is it true that for every $u_0,u_T\in H_\sigma$, $\tau_0\in L^2(\Omega;\mathbb R_{\rm sym}^{2\times2})$ and $\varepsilon>0$, there is a boundary control $f\in L^2(\Gamma\times(0,T);\mathbb R^2)$ satisfying the zero-total-flux compatibility condition, and an associated weak solution continuous in $L^2$ at $0,T$, such that
+where $`\mathop{\mathrm{cl}}\nolimits_{L^2}`$ denotes closure in $`L^2(\Omega;\mathbb R^2)`$. Is it true that for every $`u_0,u_T\in H_\sigma`$, $`\tau_0\in L^2(\Omega;\mathbb R_{\rm sym}^{2\times2})`$ and $`\varepsilon>0`$, there is a boundary control $`f\in L^2(\Gamma\times(0,T);\mathbb R^2)`$ satisfying the zero-total-flux compatibility condition, and an associated weak solution continuous in $`L^2`$ at $`0,T`$, such that
 
-$$
+```math
 \|u(T)-u_T\|_{L^2(\Omega)}<\varepsilon?
-$$
+```
 
-No terminal condition is imposed on $\tau$.
+No terminal condition is imposed on $`\tau`$.
 
 ## Application
 

@@ -8,11 +8,11 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^2$ be any bounded connected domain with $C^\infty$ boundary. Let $u_j$ be Steklov eigenfunctions satisfying $\Delta u_j=0$ in $\Omega$, $\partial_\nu u_j=\sigma_j u_j$ on $\partial\Omega$, and $\|u_j\|_{L^2(\partial\Omega)}=1$, with $\sigma_j\to\infty$. Is it true that, for every compact $K\subset\Omega$, there are constants $C_K,c_K>0$, independent of $j$ and of the choice of normalized eigenfunction, such that
+Let $`\Omega\subset\mathbb R^2`$ be any bounded connected domain with $`C^\infty`$ boundary. Let $`u_j`$ be Steklov eigenfunctions satisfying $`\Delta u_j=0`$ in $`\Omega`$, $`\partial_\nu u_j=\sigma_j u_j`$ on $`\partial\Omega`$, and $`\|u_j\|_{L^2(\partial\Omega)}=1`$, with $`\sigma_j\to\infty`$. Is it true that, for every compact $`K\subset\Omega`$, there are constants $`C_K,c_K>0`$, independent of $`j`$ and of the choice of normalized eigenfunction, such that
 
-$$
+```math
 \sup_{x\in K}|u_j(x)|\le C_K e^{-c_K\sigma_j}?
-$$
+```
 
 Prove the estimate in this smooth class, or construct a smooth domain and eigenfunction sequence that violates it.
 

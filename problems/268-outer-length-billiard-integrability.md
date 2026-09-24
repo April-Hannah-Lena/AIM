@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-Let $K\subset\mathbb R^2$ be a compact convex body whose smooth boundary has positive curvature. Define its outer-length billiard map $T$ on $\mathbb R^2\setminus K$ as follows. From $P$ draw the two support lines $\ell_1,\ell_2$, labeling them so that travel from $K$ toward $P$ along $\ell_1$ keeps $K$ on the left. Let $C$ be the exterior circle tangent to both lines and tangent to $\ell_2$ at its contact with $K$. If $\ell_3$ is the third common support line of $C$ and $K$, put $T(P)=\ell_2\cap\ell_3$.
+Let $`K\subset\mathbb R^2`$ be a compact convex body whose smooth boundary has positive curvature. Define its outer-length billiard map $`T`$ on $`\mathbb R^2\setminus K`$ as follows. From $`P`$ draw the two support lines $`\ell_1,\ell_2`$, labeling them so that travel from $`K`$ toward $`P`$ along $`\ell_1`$ keeps $`K`$ on the left. Let $`C`$ be the exterior circle tangent to both lines and tangent to $`\ell_2`$ at its contact with $`K`$. If $`\ell_3`$ is the third common support line of $`C`$ and $`K`$, put $`T(P)=\ell_2\cap\ell_3`$.
 
-If the entire exterior is foliated by continuous $T$-invariant simple closed curves surrounding $K$, must $\partial K$ be an ellipse?
+If the entire exterior is foliated by continuous $`T`$-invariant simple closed curves surrounding $`K`$, must $`\partial K`$ be an ellipse?
 
 ## Application
 

@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $f\ge0$ be a smooth solution on $[0,T)\times\mathbb T^3_x\times\mathbb R^3_v$, $T<\infty$, of the hard-sphere cutoff equation
+Let $`f\ge0`$ be a smooth solution on $`[0,T)\times\mathbb T^3_x\times\mathbb R^3_v`$, $`T<\infty`$, of the hard-sphere cutoff equation
 
-$$
+```math
 \partial_tf+v\cdot\nabla_xf=\int_{\mathbb R^3}\int_{\mathbb S^2}|v-v_*|\,[f(v')f(v_*')-f(v)f(v_*)]\,d\sigma\,dv_*,
-$$
+```
 
-where $v'=(v+v_*)/2+|v-v_*|\sigma/2$ and $v_*'=(v+v_*)/2-|v-v_*|\sigma/2$; all factors share $(t,x)$. Assume $f(0)$ and all its derivatives decay faster than any inverse power of $|v|$. Suppose constants $m_0,M_0,E_0>0$ and $H_0\in\mathbb R$ satisfy, for all $(t,x)$,
+where $`v'=(v+v_*)/2+|v-v_*|\sigma/2`$ and $`v_*'=(v+v_*)/2-|v-v_*|\sigma/2`$; all factors share $`(t,x)`$. Assume $`f(0)`$ and all its derivatives decay faster than any inverse power of $`|v|`$. Suppose constants $`m_0,M_0,E_0>0`$ and $`H_0\in\mathbb R`$ satisfy, for all $`(t,x)`$,
 
-$$
+```math
 m_0\le\int f\,dv\le M_0,\qquad\int |v|^2f\,dv\le E_0,\qquad\int f\log f\,dv\le H_0.
-$$
+```
 
-Must $f$ extend beyond $T$ as a smooth solution with the same rapid velocity decay? No a priori bound on $f$ itself or on its derivatives is assumed.
+Must $`f`$ extend beyond $`T`$ as a smooth solution with the same rapid velocity decay? No a priori bound on $`f`$ itself or on its derivatives is assumed.
 
 ## Application
 

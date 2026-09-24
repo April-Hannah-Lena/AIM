@@ -8,33 +8,33 @@
 
 ## Problem statement
 
-Fix a positive integer stock length $W$ and $n\geq1$ item types. Type $i$ has integer length $1\leq\ell_i\leq W$ and positive integer demand $b_i$. A cutting pattern is a vector in
+Fix a positive integer stock length $`W`$ and $`n\geq1`$ item types. Type $`i`$ has integer length $`1\leq\ell_i\leq W`$ and positive integer demand $`b_i`$. A cutting pattern is a vector in
 
-$$
+```math
 \mathcal P=\left\{a\in\mathbb Z_{\geq0}^{n}:
 \sum_{i=1}^{n}\ell_i a_i\leq W\right\}.
-$$
+```
 
-Use every capacity-feasible pattern: there is no additional restriction $a_i\leq b_i$. Thus the relaxation below includes patterns containing more copies of an item than its demand, sometimes called *nonproper patterns*.
+Use every capacity-feasible pattern: there is no additional restriction $`a_i\leq b_i`$. Thus the relaxation below includes patterns containing more copies of an item than its demand, sometimes called *nonproper patterns*.
 
 Let the minimum number of stock pieces needed to meet all demands be
 
-$$
+```math
 \begin{aligned}
 z_{\mathrm{IP}}=\min\quad&\sum_{a\in\mathcal P}x_a\\
 \text{subject to}\quad&\sum_{a\in\mathcal P}a_i x_a\geq b_i
 \quad(1\leq i\leq n),\\
 &x_a\in\mathbb Z_{\geq0}\quad(a\in\mathcal P).
 \end{aligned}
-$$
+```
 
-Define $z_{\mathrm{LP}}$ by replacing the integer constraint with $x\in\mathbb R_{\geq0}^{\mathcal P}$. Each use of a pattern counts as one stock piece, including repeated uses.
+Define $`z_{\mathrm{LP}}`$ by replacing the integer constraint with $`x\in\mathbb R_{\geq0}^{\mathcal P}`$. Each use of a pattern counts as one stock piece, including repeated uses.
 
 Does every such instance satisfy
 
-$$
+```math
 z_{\mathrm{IP}}\leq\left\lceil z_{\mathrm{LP}}\right\rceil+1?
-$$
+```
 
 This is the modified integer round-up property (MIRUP) conjectured by Scheithauer and Terno. The ceiling is the least integer no smaller than its argument. The question requires the same additive one for arbitrary item types, lengths, capacity and demands. It compares the two optima and does not prescribe the time needed to find a packing.
 
@@ -57,11 +57,11 @@ Cutting stock models production from standard rolls or bars, including paper and
 
 The June 2026 preprint states the exact ceiling-plus-one conjecture with nonproper patterns and reports no known violating instance. Its polynomial and pseudopolynomial algorithms exploit the specifically constructed AI and ANI benchmark families; their optimality guarantees do not extend to arbitrary input instances.
 
-Hoberg–Rothvoss prove a general additive $O(\log(2+z_{\mathrm{LP}}))$ bound. This leaves the uniform one-piece target unresolved. Their randomized algorithm runs in expected time polynomial in the total number of individual items; this is not a claim about polynomial time in binary-encoded demands. The discrepancy-based lower bounds of Eisenbrand–Pálvölgyi–Rothvoß restrict the patterns available to the rounding procedure, as specified in their Definition 1. They do not give that lower bound for the unrestricted integer optimum.
+Hoberg–Rothvoss prove a general additive $`O(\log(2+z_{\mathrm{LP}}))`$ bound. This leaves the uniform one-piece target unresolved. Their randomized algorithm runs in expected time polynomial in the total number of individual items; this is not a claim about polynomial time in binary-encoded demands. The discrepancy-based lower bounds of Eisenbrand–Pálvölgyi–Rothvoß restrict the patterns available to the rounding procedure, as specified in their Definition 1. They do not give that lower bound for the unrestricted integer optimum.
 
-The stronger ordinary integer round-up assertion $z_{\mathrm{IP}}=\lceil z_{\mathrm{LP}}\rceil$ is false. Goulimis records an instance with $W=132$, lengths $(44,33,12)$ and demands $(2,3,6)$, for which $z_{\mathrm{LP}}=259/132$ and $z_{\mathrm{IP}}=3$; it satisfies MIRUP. The same paper's distinct-pattern counterexample concerns the support of a waste-optimal production plan, a different objective from the total stock count here.
+The stronger ordinary integer round-up assertion $`z_{\mathrm{IP}}=\lceil z_{\mathrm{LP}}\rceil`$ is false. Goulimis records an instance with $`W=132`$, lengths $`(44,33,12)`$ and demands $`(2,3,6)`$, for which $`z_{\mathrm{LP}}=259/132`$ and $`z_{\mathrm{IP}}=3`$; it satisfies MIRUP. The same paper's distinct-pattern counterexample concerns the support of a waste-optimal production plan, a different objective from the total stock count here.
 
-For the special case in which $W/\ell_i$ is an integer for every item type, Martinovic proves the stronger bound $z_{\mathrm{IP}}-z_{\mathrm{LP}}<4/3$. That divisibility hypothesis is absent from the general conjecture.
+For the special case in which $`W/\ell_i`$ is an integer for every item type, Martinovic proves the stronger bound $`z_{\mathrm{IP}}-z_{\mathrm{LP}}<4/3`$. That divisibility hypothesis is absent from the general conjecture.
 
 [Entry 318](318-online-bin-packing-optimal-ratio.md) asks for an online competitive ratio under unknown future arrivals. [Entry 328](328-strong-komlos-prefix-discrepancy.md) concerns signed vector prefixes, and [entry 278](278-metric-tsp-four-thirds.md) concerns a routing relaxation. Their full statements were compared; none is the displayed offline stock-count inequality.
 

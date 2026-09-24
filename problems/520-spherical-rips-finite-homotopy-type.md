@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-For an integer $n\ge2$, equip the unit sphere $S^n\subset\mathbb R^{n+1}$ with its round geodesic distance $d(x,y)=\arccos\langle x,y\rangle$, so its diameter is $\pi$. For $r>0$, let
+For an integer $`n\ge2`$, equip the unit sphere $`S^n\subset\mathbb R^{n+1}`$ with its round geodesic distance $`d(x,y)=\arccos\langle x,y\rangle`$, so its diameter is $`\pi`$. For $`r>0`$, let
 
-$$
+```math
 \mathop{\mathrm{VR}}\nolimits_{<}(S^n;r)=\{\sigma\subset S^n:\sigma\text{ is finite and }\mathop{\mathrm{diam}}\nolimits(\sigma)<r\}.
-$$
+```
 
 Use the ordinary geometric realization of this abstract simplicial complex, with its CW topology.
 
-Is $|\mathop{\mathrm{VR}}\nolimits_{<}(S^n;r)|$ homotopy equivalent to a finite CW complex for every $n\ge2$ and every $r>0$? The finite model may depend on both $n$ and $r$, and no uniform bound on its dimension or number of cells is requested. Prove the assertion or give a counterexample.
+Is $`|\mathop{\mathrm{VR}}\nolimits_{<}(S^n;r)|`$ homotopy equivalent to a finite CW complex for every $`n\ge2`$ and every $`r>0`$? The finite model may depend on both $`n`$ and $`r`$, and no uniform bound on its dimension or number of cells is requested. Prove the assertion or give a counterexample.
 
 This is the higher-dimensional, positive-scale part of Conjecture 7.3 in [1]. Finiteness of Betti numbers alone does not supply the required homotopy equivalence.
 

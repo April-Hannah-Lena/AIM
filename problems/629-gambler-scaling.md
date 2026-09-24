@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Three players start with positive integer capitals $A,B,C$. At each step, choose uniformly among pairs of surviving players, toss a fair coin, and transfer one unit from the loser to the winner. Remove a player when their capital reaches zero. Let $P_{A,B,C}(\sigma)$ be the probability of elimination order $\sigma\in S_3$, with the final winner listed last.
+Three players start with positive integer capitals $`A,B,C`$. At each step, choose uniformly among pairs of surviving players, toss a fair coin, and transfer one unit from the loser to the winner. Remove a player when their capital reaches zero. Let $`P_{A,B,C}(\sigma)`$ be the probability of elimination order $`\sigma\in S_3`$, with the final winner listed last.
 
-Write $N=A+B+C$ and let
+Write $`N=A+B+C`$ and let
 
-$$
+```math
 P^{\rm BM}_{A,B,C}(\sigma)=\lim_{m\to\infty}P_{mA,mB,mC}(\sigma),
-$$
+```
 
-whose existence follows from the Brownian diffusion limit. For every fixed $A,B,C$ and $\sigma$, is
+whose existence follows from the Brownian diffusion limit. For every fixed $`A,B,C`$ and $`\sigma`$, is
 
-$$
+```math
 \left|P_{nA,nB,nC}(\sigma)-P^{\rm BM}_{A,B,C}(\sigma)\right|=O\!\left((nN)^{-4}\right)\qquad(n\to\infty)?
-$$
+```
 
 The implied constant may depend on the fixed capital proportions and elimination order. This is Conjecture 4.2(b) of Diaconis and Ethier.
 

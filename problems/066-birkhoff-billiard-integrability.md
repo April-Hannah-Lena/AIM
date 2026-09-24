@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-Let $D\subset\mathbb R^2$ be a bounded strictly convex domain with a single $C^\infty$ boundary curve and everywhere positive curvature. Its billiard map sends a boundary impact with inward direction to the next impact, using specular reflection. Parameterize the phase annulus by boundary arclength $s$ and angle $\varphi\in(0,\pi)$ from the positive tangent.
+Let $`D\subset\mathbb R^2`$ be a bounded strictly convex domain with a single $`C^\infty`$ boundary curve and everywhere positive curvature. Its billiard map sends a boundary impact with inward direction to the next impact, using specular reflection. Parameterize the phase annulus by boundary arclength $`s`$ and angle $`\varphi\in(0,\pi)`$ from the positive tangent.
 
-Suppose an open annular neighborhood of the grazing boundary $\varphi=0$ is foliated by smooth invariant essential graphs $\varphi=\varphi_c(s)$; thus a full neighborhood, including its rational rotation levels, is integrable. Prove that $\partial D$ is an ellipse. No assumption that $D$ is close to an ellipse or centrally symmetric is allowed.
+Suppose an open annular neighborhood of the grazing boundary $`\varphi=0`$ is foliated by smooth invariant essential graphs $`\varphi=\varphi_c(s)`$; thus a full neighborhood, including its rational rotation levels, is integrable. Prove that $`\partial D`$ is an ellipse. No assumption that $`D`$ is close to an ellipse or centrally symmetric is allowed.
 
 ## Application
 

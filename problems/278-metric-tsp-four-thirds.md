@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-On the complete graph $K_n$, let $c_e\ge0$ satisfy the triangle inequality. Write $\mathrm{OPT}(c)$ for the cheapest Hamiltonian cycle, and let $\mathrm{HK}(c)$ minimize $\sum_ec_ex_e$ subject to $x_e\ge0$, $\sum_{e\ni v}x_e=2$ for each vertex, and $\sum_{e\in\delta(S)}x_e\ge2$ for every nonempty proper vertex set $S$; $\delta(S)$ denotes its crossing edges. Must $\mathrm{OPT}(c)\le\tfrac43\mathrm{HK}(c)$ hold for every $n\ge3$ and every such metric?
+On the complete graph $`K_n`$, let $`c_e\ge0`$ satisfy the triangle inequality. Write $`\mathrm{OPT}(c)`$ for the cheapest Hamiltonian cycle, and let $`\mathrm{HK}(c)`$ minimize $`\sum_ec_ex_e`$ subject to $`x_e\ge0`$, $`\sum_{e\ni v}x_e=2`$ for each vertex, and $`\sum_{e\in\delta(S)}x_e\ge2`$ for every nonempty proper vertex set $`S`$; $`\delta(S)`$ denotes its crossing edges. Must $`\mathrm{OPT}(c)\le\tfrac43\mathrm{HK}(c)`$ hold for every $`n\ge3`$ and every such metric?
 
 ## Application
 

@@ -8,16 +8,16 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^n$, $n\geq3$, be a bounded connected smooth domain, and let $\Gamma$ be any nonempty relatively open subset of $\partial\Omega$. For a positive $\gamma\in C^\infty(\overline\Omega)$, impose smooth boundary voltages supported in $\Gamma$ and measure the flux on $\Gamma$:
+Let $`\Omega\subset\mathbb R^n`$, $`n\geq3`$, be a bounded connected smooth domain, and let $`\Gamma`$ be any nonempty relatively open subset of $`\partial\Omega`$. For a positive $`\gamma\in C^\infty(\overline\Omega)`$, impose smooth boundary voltages supported in $`\Gamma`$ and measure the flux on $`\Gamma`$:
 
-$$
+```math
 \Lambda^\Gamma_\gamma f
 =\gamma\partial_\nu u_f|_\Gamma,\quad
 \nabla\cdot(\gamma\nabla u_f)=0,\quad
 u_f|_{\partial\Omega}=f\in C_c^\infty(\Gamma).
-$$
+```
 
-Is $\Lambda^\Gamma_{\gamma_1}=\Lambda^\Gamma_{\gamma_2}$ sufficient to conclude $\gamma_1=\gamma_2$ throughout $\Omega$? No condition is imposed on the shape of the inaccessible boundary, and the conductivities need not be known near it.
+Is $`\Lambda^\Gamma_{\gamma_1}=\Lambda^\Gamma_{\gamma_2}`$ sufficient to conclude $`\gamma_1=\gamma_2`$ throughout $`\Omega`$? No condition is imposed on the shape of the inaccessible boundary, and the conductivities need not be known near it.
 
 ## Application
 
@@ -35,4 +35,4 @@ In electrical imaging, electrodes may cover only one accessible part of an objec
 
 Reference 1 explicitly lists the unrestricted partial-data problem. The 2025 comparison still describes classical partial-data uniqueness as unresolved in general. Existing reflection and Carleman-weight results impose geometric or measurement-set hypotheses; uniqueness for a linearization does not establish this nonlinear statement.
 
-Searches on 2026-09-08 included `partial data Calderon arbitrary open boundary subset disjoint open problem 2025 2026`, `Calderón partial data open problem 2024`, and `Calderón arbitrary local 2026`. No proof for arbitrary $\Omega$ and $\Gamma$ was located. Fractional conductivity results concern a different forward operator.
+Searches on 2026-09-08 included `partial data Calderon arbitrary open boundary subset disjoint open problem 2025 2026`, `Calderón partial data open problem 2024`, and `Calderón arbitrary local 2026`. No proof for arbitrary $`\Omega`$ and $`\Gamma`$ was located. Fractional conductivity results concern a different forward operator.

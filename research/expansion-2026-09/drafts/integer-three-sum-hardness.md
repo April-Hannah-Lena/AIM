@@ -8,30 +8,30 @@
 
 ## Problem statement
 
-For each integer $n\geq3$, the input is an explicitly listed set
+For each integer $`n\geq3`$, the input is an explicitly listed set
 
-$$
+```math
 S\subseteq\{-n^3,-n^3+1,\ldots,n^3\},\qquad |S|=n.
-$$
+```
 
-The decision problem is whether there exist three **pairwise distinct** elements $a,b,c\in S$ such that $a+b=c$. Integers are encoded in binary. Use the classical word-RAM model with word size $w=\Theta(\log n)$, large enough to store an input integer and an address. Standard arithmetic and bit operations on words, comparisons and indexed memory accesses have unit cost.
+The decision problem is whether there exist three **pairwise distinct** elements $`a,b,c\in S`$ such that $`a+b=c`$. Integers are encoded in binary. Use the classical word-RAM model with word size $`w=\Theta(\log n)`$, large enough to store an input integer and an address. Standard arithmetic and bit operations on words, comparisons and indexed memory accesses have unit cost.
 
-An algorithm must be uniform: a single finite program works for every input size. It may use randomness, but for every valid input its yes/no answer must be correct with probability at least $2/3$. All computation, including preprocessing depending on the input, contributes to its running time. There is no free advice or supplied data structure.
+An algorithm must be uniform: a single finite program works for every input size. It may use randomness, but for every valid input its yes/no answer must be correct with probability at least $`2/3`$. All computation, including preprocessing depending on the input, contributes to its running time. There is no free advice or supplied data structure.
 
-For such an algorithm $A$, let
+For such an algorithm $`A`$, let
 
-$$
+```math
 T_A(n)=\max_{\substack{S\subseteq\{-n^3,\ldots,n^3\}\\|S|=n}}
 \mathbb E[\text{number of word-RAM steps used by }A(S)],
-$$
+```
 
-where the expectation is over its random choices. **Conjecture:** There are no fixed $\varepsilon>0$ and such algorithm $A$ satisfying
+where the expectation is over its random choices. **Conjecture:** There are no fixed $`\varepsilon>0`$ and such algorithm $`A`$ satisfying
 
-$$
+```math
 T_A(n)=O(n^{2-\varepsilon})\qquad(n\to\infty).
-$$
+```
 
-The exponent improvement must remain positive as $n$ grows. The finite-input problem and bounded-error convention follow [1, §§1.1–2.1]. Pătraşcu's original expected-time statement uses zero-error algorithms [9, §1.3]; the bounded-error convention here is explicitly supplied by [1]. Within bounded-error algorithms, a constant-factor timeout and amplification preserve the existence of a fixed-power speedup, so using expected time does not change that target. The standard three-set and zero-sum formulations are discussed in [2, §2.1] and are treated as one problem here. Logarithmic savings are compatible with this conjecture.
+The exponent improvement must remain positive as $`n`$ grows. The finite-input problem and bounded-error convention follow [1, §§1.1–2.1]. Pătraşcu's original expected-time statement uses zero-error algorithms [9, §1.3]; the bounded-error convention here is explicitly supplied by [1]. Within bounded-error algorithms, a constant-factor timeout and amplification preserve the existence of a fixed-power speedup, so using expected time does not change that target. The standard three-set and zero-sum formulations are discussed in [2, §2.1] and are treated as one problem here. Logarithmic savings are compatible with this conjecture.
 
 ## Applied significance
 
@@ -54,15 +54,15 @@ Integer 3SUM is a reference problem for the limits of exact combinatorial algori
 
 ## Status review
 
-The current July and August 2026 sources [3, 6] independently retain the general fixed-power hypothesis. The July account gives the best general integer running time as $n^2\mathop{\mathrm{poly}}\nolimits(\log\log n)/(\log n)^2$. It remains $n^{2-o(1)}$. The original strict-quadratic real-input conjecture was refuted in [4]; its Theorem 1.1 provides logarithmic algorithmic savings and a much smaller decision-tree depth. Counting comparisons in a decision tree does not supply a uniform machine implementation with that total running time.
+The current July and August 2026 sources [3, 6] independently retain the general fixed-power hypothesis. The July account gives the best general integer running time as $`n^2\mathop{\mathrm{poly}}\nolimits(\log\log n)/(\log n)^2`$. It remains $`n^{2-o(1)}`$. The original strict-quadratic real-input conjecture was refuted in [4]; its Theorem 1.1 provides logarithmic algorithmic savings and a much smaller decision-tree depth. Counting comparisons in a decision tree does not supply a uniform machine implementation with that total running time.
 
 Chan's Corollary 3.12 also retains exponent two at logarithmic word size [10]. Its §1 restates the logarithmic improvements by Freund and Gold–Sharir. Freund's publisher abstract was accessible, but the original subscription-restricted proof was not read; the exact bound was checked in Chan's full text. Algebraic 3SUM similarly has a fixed-power saving in decision-tree depth and only a logarithmic saving in its uniform algorithm [12]. Sopin's full runtime analysis requires sufficiently few surviving tuples after filtering, an additional condition not guaranteed for every input [11].
 
-Theorem 1 of [3], Theorem 1.1 of [6] and Theorem 4 of [7] give improved space or query costs after preprocessing whose stated time remains $\widetilde O(n^2)$. Here $\widetilde O$ suppresses logarithmic factors. The current problem counts preprocessing and the decision together, so these are not the required general algorithms. The August result strengthens the guarantee to adaptive queries without removing this preprocessing cost.
+Theorem 1 of [3], Theorem 1.1 of [6] and Theorem 4 of [7] give improved space or query costs after preprocessing whose stated time remains $`\widetilde O(n^2)`$. Here $`\widetilde O`$ suppresses logarithmic factors. The current problem counts preprocessing and the decision together, so these are not the required general algorithms. The August result strengthens the guarantee to adaptive queries without removing this preprocessing cost.
 
 Chan–Lewenstein's truly subquadratic result assumes that an input set can be covered by fewer than linearly many short intervals, with a fixed power saving in the number of intervals [5, Corollary 4.3]. An arbitrary set in the cubic universe need not satisfy that promise. Likewise, direct convolution is fast for sufficiently small universes; its dependence on the universe size matters here. Jin–Xu's reductions and hardness on Sidon sets are conditional on 3SUM, rather than proofs of the base hypothesis.
 
-The 2026 triangle algorithms [8] save factors depending on the word size. At $w=\Theta(\log n)$ their relevant guarantees supply logarithmic savings, preserving the polynomial exponents. Their four-cycle result allowing larger words and their dense-graph special case do not establish the displayed general 3SUM speedup.
+The 2026 triangle algorithms [8] save factors depending on the word size. At $`w=\Theta(\log n)`$ their relevant guarantees supply logarithmic savings, preserving the polynomial exponents. Their four-cycle result allowing larger words and their dense-graph special case do not establish the displayed general 3SUM speedup.
 
 The September 18–19, 2026 searches covered the integer and modern 3SUM names, proof and refutation claims, unrestricted dates, 2025–2026 results, author corrections and version histories. The [evidence ledger](../candidates/integer-three-sum-hardness.json) records exact scopes and the separated review. Supporting proofs were inspected as needed for scope, not independently certified in full.
 

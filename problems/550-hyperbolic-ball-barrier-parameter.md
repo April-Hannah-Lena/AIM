@@ -8,21 +8,21 @@
 
 ## Problem statement
 
-Let $\mathbb H^2$ have constant curvature $-1$, fix $o\in\mathbb H^2$, and put $D_R=\{x:d(o,x)<R\}$. Use the Levi-Civita connection to define covariant derivatives. A $\theta$-barrier on $D_R$ is a function $F\in C^3(D_R)$ whose Hessian $H_x=(\nabla^2F)_x$ is positive definite, whose epigraph is closed in $\mathbb H^2\times\mathbb R$, and which satisfies, for every $x\in D_R$ and $u,v,w\in T_x\mathbb H^2$,
+Let $`\mathbb H^2`$ have constant curvature $`-1`$, fix $`o\in\mathbb H^2`$, and put $`D_R=\{x:d(o,x)<R\}`$. Use the Levi-Civita connection to define covariant derivatives. A $`\theta`$-barrier on $`D_R`$ is a function $`F\in C^3(D_R)`$ whose Hessian $`H_x=(\nabla^2F)_x`$ is positive definite, whose epigraph is closed in $`\mathbb H^2\times\mathbb R`$, and which satisfies, for every $`x\in D_R`$ and $`u,v,w\in T_x\mathbb H^2`$,
 
-$$
+```math
 | (\nabla^3F)_x(u,v,w)|\le 2\sqrt{H_x(u,u)H_x(v,v)H_x(w,w)},\qquad |dF_x(v)|^2\le\theta H_x(v,v).
-$$
+```
 
-The first inequality is required for arbitrary triples, not just three equal vectors. Closedness imposes divergence of $F$ at the boundary of the ball.
+The first inequality is required for arbitrary triples, not just three equal vectors. Closedness imposes divergence of $`F`$ at the boundary of the ball.
 
 Define
 
-$$
+```math
 \theta_*(R)=\inf\{\theta\ge0:\text{a $\theta$-barrier on $D_R$ exists}\}.
-$$
+```
 
-Determine the asymptotic order of $\theta_*(R)$ as $R\to\infty$, up to multiplicative constants independent of $R$. In particular, is $\theta_*(R)=O(\sqrt R)$? The barrier may depend on $R$, and no rotational symmetry or evaluation algorithm is assumed.
+Determine the asymptotic order of $`\theta_*(R)`$ as $`R\to\infty`$, up to multiplicative constants independent of $`R`$. In particular, is $`\theta_*(R)=O(\sqrt R)`$? The barrier may depend on $`R`$, and no rotational symmetry or evaluation algorithm is assumed.
 
 ## Application
 
@@ -37,10 +37,10 @@ The barrier parameter controls iteration bounds for interior-point methods on cu
 
 The known bounds leave the gap
 
-$$
+```math
 \frac{\sqrt R}{128}-\frac14\le\theta_*(R)\le C(1+R^2)
-$$
+```
 
-for a universal constant $C$. The lower bound in [1] even holds for the weaker notion of self-concordance along geodesics; the construction in [2] gives the upper bound for the full definition used here. Neither bound determines the sharp order.
+for a universal constant $`C`$. The lower bound in [1] even holds for the weaker notion of self-concordance along geodesics; the construction in [2] gives the upper bound for the full definition used here. Neither bound determines the sharp order.
 
 The current version of [1] explicitly retains this gap. No matching solution announcement was found in the literature, author-page, GitHub, Zenodo-indexed and Palomar checks on the date above. Native Zenodo access returned HTTP 403.

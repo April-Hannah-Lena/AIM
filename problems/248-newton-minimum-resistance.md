@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Write $D=\{x\in\mathbb R^2:|x|<1\}$. For each height $M>0$, let $\mathcal U_M$ consist of concave functions $u:D\to[0,M]$. Determine the exact minimum
+Write $`D=\{x\in\mathbb R^2:|x|<1\}`$. For each height $`M>0`$, let $`\mathcal U_M`$ consist of concave functions $`u:D\to[0,M]`$. Determine the exact minimum
 
-$$
+```math
 \inf_{u\in\mathcal U_M} J(u),\qquad J(u)=\int_D\frac{1}{1+|\nabla u(x)|^2}\,dx,
-$$
+```
 
-and characterize all minimizing functions, up to rotations of $D$. The gradient is the almost-everywhere gradient of a concave function. No axial or other symmetry is assumed.
+and characterize all minimizing functions, up to rotations of $`D`$. The gradient is the almost-everywhere gradient of a concave function. No axial or other symmetry is assumed.
 
 This is the convex-body formulation of Newton's resistance functional for a body with circular base and bounded height in a dilute, parallel particle stream.
 

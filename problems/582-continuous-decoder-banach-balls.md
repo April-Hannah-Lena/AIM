@@ -8,23 +8,23 @@
 
 ## Problem statement
 
-Let $X,Y$ be real Banach spaces, let $B_X=\{x:\|x\|_X\le1\}$ with its norm topology, and let $S:X\to Y$ be bounded and linear. For $n\ge1$ define
+Let $`X,Y`$ be real Banach spaces, let $`B_X=\{x:\|x\|_X\le1\}`$ with its norm topology, and let $`S:X\to Y`$ be bounded and linear. For $`n\ge1`$ define
 
-$$
+```math
 e_n(S)=\inf_{N,\phi}\sup_{x\in B_X}\|Sx-\phi(N(x))\|_Y,
-$$
+```
 
-where $N:B_X\to\mathbb R^n$ is continuous and $\phi:\mathbb R^n\to Y$ is arbitrary. Define $\delta_n(S)$ by the same infimum with the additional requirement that $\phi$ be continuous on all of $\mathbb R^n$.
+where $`N:B_X\to\mathbb R^n`$ is continuous and $`\phi:\mathbb R^n\to Y`$ is arbitrary. Define $`\delta_n(S)`$ by the same infimum with the additional requirement that $`\phi`$ be continuous on all of $`\mathbb R^n`$.
 
-Does there exist a universal constant $C<\infty$ such that
+Does there exist a universal constant $`C<\infty`$ such that
 
-$$
+```math
 \delta_n(S)\le C e_n(S)
-$$
+```
 
-for every $X,Y,S,n$? In particular, does $C=2$ suffice?
+for every $`X,Y,S,n`$? In particular, does $`C=2`$ suffice?
 
-The measurements are taken nonadaptively: $N$ is a single continuous map. Both infima optimize the measurement map as well as the reconstruction. No common Lipschitz constant is prescribed for either map.
+The measurements are taken nonadaptively: $`N`$ is a single continuous map. Both infima optimize the measurement map as well as the reconstruction. No common Lipschitz constant is prescribed for either map.
 
 ## Application
 
@@ -37,7 +37,7 @@ Finite-dimensional representations of functions and solutions are useful only wh
 
 ## Status review
 
-For continuous solution maps on compact metric input sets, the corresponding inequality holds with factor $2$. Banach unit balls in their norm topology generally lack this compactness. The source explicitly leaves such a bound for Banach unit balls unresolved; for operators between Hilbert spaces the two errors are equal.
+For continuous solution maps on compact metric input sets, the corresponding inequality holds with factor $`2`$. Banach unit balls in their norm topology generally lack this compactness. The source explicitly leaves such a bound for Banach unit balls unresolved; for operators between Hilbert spaces the two errors are equal.
 
 The latest revision [2] retains compactness in Lemma 9 and expressly notes that its compact-set theorem does not cover infinite-dimensional Banach unit balls. Results about adaptive measurements or uniformly Lipschitz encoders and decoders concern different restrictions.
 

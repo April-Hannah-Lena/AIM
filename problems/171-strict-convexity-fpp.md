@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Give each nearest-neighbor edge $e$ of $\mathbb Z^2$ an independent exponential random variable $\tau_e$ of mean one. Let $T(x,y)$ be the minimum of $\sum_{e\in\gamma}\tau_e$ over lattice paths from $x$ to $y$, and let $\mu(v)=\lim_{n\to\infty}T(0,\lfloor nv\rfloor)/n$, the deterministic time constant. Is the unit ball $B_\mu=\{v\in\mathbb R^2:\mu(v)\le1\}$ strictly convex? Equivalently, must $\mu(su+(1-s)v)<1$ hold for distinct $u,v\in\partial B_\mu$ and every $0<s<1$? The exponential law is fixed; no curvature or straightness hypothesis may be assumed.
+Give each nearest-neighbor edge $`e`$ of $`\mathbb Z^2`$ an independent exponential random variable $`\tau_e`$ of mean one. Let $`T(x,y)`$ be the minimum of $`\sum_{e\in\gamma}\tau_e`$ over lattice paths from $`x`$ to $`y`$, and let $`\mu(v)=\lim_{n\to\infty}T(0,\lfloor nv\rfloor)/n`$, the deterministic time constant. Is the unit ball $`B_\mu=\{v\in\mathbb R^2:\mu(v)\le1\}`$ strictly convex? Equivalently, must $`\mu(su+(1-s)v)<1`$ hold for distinct $`u,v\in\partial B_\mu`$ and every $`0<s<1`$? The exponential law is fixed; no curvature or straightness hypothesis may be assumed.
 
 ## Application
 

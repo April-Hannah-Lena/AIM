@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-Fix $k\ge2$. For $n\ge3$, consider drawings of $K_n$ entirely inside the unit square. Vertices are distinct points; edges are non-self-intersecting piecewise smooth arcs avoiding other vertices. Interior intersections are transverse crossings, and each pair of distinct edges has at most $k$ intersection points, counting a shared endpoint when present.
+Fix $`k\ge2`$. For $`n\ge3`$, consider drawings of $`K_n`$ entirely inside the unit square. Vertices are distinct points; edges are non-self-intersecting piecewise smooth arcs avoiding other vertices. Interior intersections are transverse crossings, and each pair of distinct edges has at most $`k`$ intersection points, counting a shared endpoint when present.
 
-A nonzero $\mathbb F_2$-cycle is a nonempty subset of graph edges in which every vertex has even degree. It may be disconnected. For such a cycle $z$, define $A(z)$ as the area of the set of points having odd crossing parity with $z$ along a generic path to the unbounded component of its complement. This is the mod-two interior, so self-crossings do not require the cycle to bound a Jordan domain.
+A nonzero $`\mathbb F_2`$-cycle is a nonempty subset of graph edges in which every vertex has even degree. It may be disconnected. For such a cycle $`z`$, define $`A(z)`$ as the area of the set of points having odd crossing parity with $`z`$ along a generic path to the unbounded component of its complement. This is the mod-two interior, so self-crossings do not require the cycle to bound a Jordan domain.
 
-Does there exist a function $\varepsilon_k(n)\to0$ as $n\to\infty$ such that every such drawing contains a nonzero cycle $z$ with
+Does there exist a function $`\varepsilon_k(n)\to0`$ as $`n\to\infty`$ such that every such drawing contains a nonzero cycle $`z`$ with
 
-$$
+```math
 A(z)\le\varepsilon_k(n)?
-$$
+```
 
-The bound must be uniform over drawings, while $k$ remains fixed.
+The bound must be uniform over drawings, while $`k`$ remains fixed.
 
 ## Application
 
@@ -31,6 +31,6 @@ This extends small-area phenomena in geometric point configurations to graph dra
 
 ## Status review
 
-**Known cases:** For simple drawings, corresponding to $k=1$, Zeng proves an $O(1/n)$ area bound for a non-self-intersecting four-cycle. Without a uniform bound on intersections, Hubard and Suk construct drawings in which every nonzero mod-two cycle has area bounded below by a positive constant.
+**Known cases:** For simple drawings, corresponding to $`k=1`$, Zeng proves an $`O(1/n)`$ area bound for a non-self-intersecting four-cycle. Without a uniform bound on intersections, Hubard and Suk construct drawings in which every nonzero mod-two cycle has area bounded below by a positive constant.
 
-**Remaining target:** Decide the vanishing-area statement for every fixed $k\ge2$. The later improvement for simple drawings does not allow an edge pair to intersect more than once. This question uses all nonzero mod-two cycles, not just triangles or Jordan cycles.
+**Remaining target:** Decide the vanishing-area statement for every fixed $`k\ge2`$. The later improvement for simple drawings does not allow an edge pair to intersect more than once. This question uses all nonzero mod-two cycles, not just triangles or Jordan cycles.

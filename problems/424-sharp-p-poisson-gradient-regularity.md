@@ -7,19 +7,19 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-For every integer $d\ge3$ and every $p>2$, does there exist $C=C(d,p)$ such that each weak solution $u\in W^{1,p}(B_1)$ of
+For every integer $`d\ge3`$ and every $`p>2`$, does there exist $`C=C(d,p)`$ such that each weak solution $`u\in W^{1,p}(B_1)`$ of
 
-$$
+```math
 -\mathop{\mathrm{div}}\nolimits(|\nabla u|^{p-2}\nabla u)=f,\qquad f\in L^\infty(B_1),
-$$
+```
 
 satisfies
 
-$$
+```math
 \|u\|_{C^{1,1/(p-1)}(\overline B_{1/2})}\le C\left(\|u\|_{L^p(B_1)}+\|f\|_{L^\infty(B_1)}^{1/(p-1)}\right)?
-$$
+```
 
-Here $B_r$ is the centered Euclidean ball in $\mathbb R^d$, and the weak equation means $\int |\nabla u|^{p-2}\nabla u\cdot\nabla\varphi=\int f\varphi$ for all compactly supported smooth $\varphi$. The endpoint Hölder exponent, not merely every smaller exponent, is requested.
+Here $`B_r`$ is the centered Euclidean ball in $`\mathbb R^d`$, and the weak equation means $`\int |\nabla u|^{p-2}\nabla u\cdot\nabla\varphi=\int f\varphi`$ for all compactly supported smooth $`\varphi`$. The endpoint Hölder exponent, not merely every smaller exponent, is requested.
 
 ## Application
 
@@ -34,4 +34,4 @@ The p-Poisson equation models stationary nonlinear conduction and power-law diff
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-The September 9, 2026 preprint was checked directly: Theorem 1.2 covers $2<p<2+\varepsilon_d$, not arbitrary $p>2$. The planar theorem and higher-dimensional special classes also do not cover the quantifiers above. Searches for the conjecture, endpoint p-Poisson regularity, and 2026 proofs located no full higher-dimensional result beyond this near-quadratic range.
+The September 9, 2026 preprint was checked directly: Theorem 1.2 covers $`2<p<2+\varepsilon_d`$, not arbitrary $`p>2`$. The planar theorem and higher-dimensional special classes also do not cover the quantifiers above. Searches for the conjecture, endpoint p-Poisson regularity, and 2026 proofs located no full higher-dimensional result beyond this near-quadratic range.

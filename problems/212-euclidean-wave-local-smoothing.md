@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-For a Schwartz function $f$ on $\mathbb R^3$, let
+For a Schwartz function $`f`$ on $`\mathbb R^3`$, let
 
-$$
+```math
 u(t,x)=e^{it\sqrt{-\Delta}}f(x),\qquad \widehat u(t,\xi)=e^{it|\xi|}\widehat f(\xi).
-$$
+```
 
-For every $3\le p<\infty$ and $\varepsilon>0$, is there a constant $C_{p,\varepsilon}$ such that, for every $\lambda\ge1$ and every $f$ with Fourier support in $\{\lambda\le|\xi|\le2\lambda\}$,
+For every $`3\le p<\infty`$ and $`\varepsilon>0`$, is there a constant $`C_{p,\varepsilon}`$ such that, for every $`\lambda\ge1`$ and every $`f`$ with Fourier support in $`\{\lambda\le|\xi|\le2\lambda\}`$,
 
-$$
+```math
 \left(\int_1^2\int_{\mathbb R^3}|u(t,x)|^p\,dx\,dt\right)^{1/p}\le C_{p,\varepsilon}\lambda^{1-3/p+\varepsilon}\|f\|_{L^p(\mathbb R^3)}?
-$$
+```
 
 ## Application
 
@@ -33,6 +33,6 @@ This measures the additional regularity gained by averaging a propagating wave o
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-The 2026 application explicitly treats the three-dimensional critical estimate as conjectural. General Fourier-integral-operator theorems have different admissible exponents, and the proved two-dimensional wave result does not cover this dimension. The arbitrarily small loss $\varepsilon$ is part of the statement.
+The 2026 application explicitly treats the three-dimensional critical estimate as conjectural. General Fourier-integral-operator theorems have different admissible exponents, and the proved two-dimensional wave result does not cover this dimension. The arbitrarily small loss $`\varepsilon`$ is part of the statement.
 
 **Search audit:** Queries: “local smoothing conjecture Euclidean wave R3 2026”, “local smoothing rough wave equations 2608.01440”; checked its conjectured endpoint discussion rather than interpreting “sharp” as the full Euclidean range. Searches included later proofs, counterexamples, and 2025–2026 updates. No resolution matching the stated hypotheses was located.

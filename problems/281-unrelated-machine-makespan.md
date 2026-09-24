@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Input consists of $m$ machines, $n$ jobs, and nonnegative rational processing times $p_{ij}$ for running job $j$ on machine $i$. An assignment $f:\{1,\ldots,n\}\to\{1,\ldots,m\}$ has makespan $C(f)=\max_i\sum_{j:f(j)=i}p_{ij}$. Is there an absolute $\varepsilon>0$ and an algorithm, polynomial in the binary input length, that always returns $f$ with $C(f)\le(2-\varepsilon)\min_g C(g)$? A randomized algorithm succeeding with probability at least $2/3$ also counts.
+Input consists of $`m`$ machines, $`n`$ jobs, and nonnegative rational processing times $`p_{ij}`$ for running job $`j`$ on machine $`i`$. An assignment $`f:\{1,\ldots,n\}\to\{1,\ldots,m\}`$ has makespan $`C(f)=\max_i\sum_{j:f(j)=i}p_{ij}`$. Is there an absolute $`\varepsilon>0`$ and an algorithm, polynomial in the binary input length, that always returns $`f`$ with $`C(f)\le(2-\varepsilon)\min_g C(g)`$? A randomized algorithm succeeding with probability at least $`2/3`$ also counts.
 
 ## Application
 

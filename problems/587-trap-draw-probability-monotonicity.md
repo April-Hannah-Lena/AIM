@@ -8,14 +8,14 @@
 
 ## Problem statement
 
-For $d\ge2$ and $p\in[0,1]$, independently delete vertices of the nearest-neighbor graph on $\mathbb Z^d$ with probability $p$. On the remaining graph, play the following perfect-information game starting at the origin. Players alternate moving a token to an adjacent vertex never previously visited; a player unable to move loses. A deleted starting vertex is declared a first-player win. A draw means that neither player can force a win.
+For $`d\ge2`$ and $`p\in[0,1]`$, independently delete vertices of the nearest-neighbor graph on $`\mathbb Z^d`$ with probability $`p`$. On the remaining graph, play the following perfect-information game starting at the origin. Players alternate moving a token to an adjacent vertex never previously visited; a player unable to move loses. A deleted starting vertex is declared a first-player win. A draw means that neither player can force a win.
 
-Write $D_d(p)$ for the unconditional probability of a draw. Is $D_d$ nonincreasing? More precisely, prove or disprove
+Write $`D_d(p)`$ for the unconditional probability of a draw. Is $`D_d`$ nonincreasing? More precisely, prove or disprove
 
-$$
+```math
 D_d(p_2)\le D_d(p_1)\qquad
 (d\ge2,\;0\le p_1\le p_2\le1).
-$$
+```
 
 Both parity classes have the same deletion probability, and the probability is not conditioned on the origin surviving or belonging to an infinite cluster.
 
@@ -29,6 +29,6 @@ Monotonicity would constrain the possible phase diagram of this game on a dilute
 
 ## Status review
 
-The endpoint values are $D_d(0)=1$ and $D_d(1)=0$, and sufficiently sparse surviving graphs have no draws because their components are finite. These facts do not prove monotonicity between the endpoints. Deleting vertices of only one parity favors one player, whereas deleting both parities changes both players' options; the standard percolation coupling does not directly order the draw event.
+The endpoint values are $`D_d(0)=1`$ and $`D_d(1)=0`$, and sufficiently sparse surviving graphs have no draws because their components are finite. These facts do not prove monotonicity between the endpoints. Deleting vertices of only one parity favors one player, whereas deleting both parities changes both players' options; the standard percolation coupling does not directly order the draw event.
 
 The source lists monotonicity separately from existence of a positive-probability draw phase. Either phase-existence answer in one dimension need not classify the probability function in all other dimensions. Directed games and games on Galton–Watson trees have different state spaces and do not resolve the displayed inequality. Current literature and announcement checks found no matching proof or counterexample.

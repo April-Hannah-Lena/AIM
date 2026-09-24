@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-On $\mathbb Z^2$, a site has state $0,1,2$ or $3$, with $0$ vacant. Put $f_i(x,\eta)=\frac14\sum_{|y-x|_1=1}\mathbf1_{\{\eta(y)=i\}}$. Vacant sites change to type $i$ at rate $\beta_i f_i$. Types $1$ and $2$ die at rate one; type $3$ dies at rate $1+\gamma_1f_1+\gamma_2f_2$. Do there exist parameters
+On $`\mathbb Z^2`$, a site has state $`0,1,2`$ or $`3`$, with $`0`$ vacant. Put $`f_i(x,\eta)=\frac14\sum_{|y-x|_1=1}\mathbf1_{\{\eta(y)=i\}}`$. Vacant sites change to type $`i`$ at rate $`\beta_i f_i`$. Types $`1`$ and $`2`$ die at rate one; type $`3`$ dies at rate $`1+\gamma_1f_1+\gamma_2f_2`$. Do there exist parameters
 
-$$
+```math
 0<\beta_1<\beta_2<\beta_3,\qquad 0<\gamma_2<\gamma_1
-$$
+```
 
-for which there is a stationary probability measure $\nu$, invariant under lattice translations, satisfying
+for which there is a stationary probability measure $`\nu`$, invariant under lattice translations, satisfying
 
-$$
+```math
 \nu\bigl(\#\{x\in\mathbb Z^2:\eta(x)=i\}=\infty\text{ for every }i=1,2,3\bigr)=1?
-$$
+```
 
 The support condition requires coexistence within a configuration, excluding mixtures of laws in which one or more strains are absent.
 

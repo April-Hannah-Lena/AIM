@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-Let $G$ be a countable discrete group. Suppose that for every complex Hilbert space $H$ and every representation $\pi:G\to GL(H)$ with $\sup_{g\in G}\|\pi(g)\|<\infty$, there exists a bounded invertible $S$ such that $S^{-1}\pi(g)S$ is unitary for every $g$.
+Let $`G`$ be a countable discrete group. Suppose that for every complex Hilbert space $`H`$ and every representation $`\pi:G\to GL(H)`$ with $`\sup_{g\in G}\|\pi(g)\|<\infty`$, there exists a bounded invertible $`S`$ such that $`S^{-1}\pi(g)S`$ is unitary for every $`g`$.
 
-Must $G$ be amenable? Here amenability means that $\ell^\infty(G)$ has a positive linear functional $m$ with $m(1)=1$ and $m(f(g^{-1}\cdot))=m(f)$ for all $g\in G$. The reverse implication is the Day–Dixmier theorem.
+Must $`G`$ be amenable? Here amenability means that $`\ell^\infty(G)`$ has a positive linear functional $`m`$ with $`m(1)=1`$ and $`m(f(g^{-1}\cdot))=m(f)`$ for all $`g\in G`$. The reverse implication is the Day–Dixmier theorem.
 
 ## Application
 

@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Consider finite connected compact metric graphs with positive edge lengths linearly independent over $\mathbb Q$. Impose the standard Kirchhoff Laplacian: $-u''$ on edges, continuity at vertices, and zero sum of outgoing derivatives at each vertex. Number its eigenvalues $0=\lambda_1\le\lambda_2\le\cdots$. Call an index generic if its eigenvalue is simple and a real eigenfunction is nonzero at every vertex. For a generic index $n$, let $\phi_n$ be the number of interior-edge zeros and let $s_n=\phi_n-(n-1)$. With cycle rank $\beta=|E|-|V|+1$, one has $0\le s_n\le\beta$.
+Consider finite connected compact metric graphs with positive edge lengths linearly independent over $`\mathbb Q`$. Impose the standard Kirchhoff Laplacian: $`-u''`$ on edges, continuity at vertices, and zero sum of outgoing derivatives at each vertex. Number its eigenvalues $`0=\lambda_1\le\lambda_2\le\cdots`$. Call an index generic if its eigenvalue is simple and a real eigenfunction is nonzero at every vertex. For a generic index $`n`$, let $`\phi_n`$ be the number of interior-edge zeros and let $`s_n=\phi_n-(n-1)`$. With cycle rank $`\beta=|E|-|V|+1`$, one has $`0\le s_n\le\beta`$.
 
-Define $S$ by the limiting distribution of $s_n$ among generic indices in $\{1,\ldots,N\}$ as $N\to\infty$; these limits exist. Prove or disprove that for every sequence of these graphs with $\beta_j\to\infty$,
+Define $`S`$ by the limiting distribution of $`s_n`$ among generic indices in $`\{1,\ldots,N\}`$ as $`N\to\infty`$; these limits exist. Prove or disprove that for every sequence of these graphs with $`\beta_j\to\infty`$,
 
-$$
+```math
 \frac{S_j-\beta_j/2}{\sqrt{\mathop{\mathrm{Var}}\nolimits(S_j)}}\ \Longrightarrow\ \mathcal N(0,1),
-$$
+```
 
-and that universal constants $c,C>0$ bound $c\beta_j\le\mathop{\mathrm{Var}}\nolimits(S_j)\le C\beta_j$ for all sufficiently large $j$.
+and that universal constants $`c,C>0`$ bound $`c\beta_j\le\mathop{\mathrm{Var}}\nolimits(S_j)\le C\beta_j`$ for all sufficiently large $`j`$.
 
 ## Application
 

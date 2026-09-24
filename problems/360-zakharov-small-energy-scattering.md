@@ -8,23 +8,23 @@
 
 ## Problem statement
 
-Is there $\varepsilon>0$ such that every datum $(u_0,n_0,n_1)\in H^1(\mathbb R^3;\mathbb C)\times L^2(\mathbb R^3;\mathbb R)\times\dot H^{-1}(\mathbb R^3;\mathbb R)$ satisfying
+Is there $`\varepsilon>0`$ such that every datum $`(u_0,n_0,n_1)\in H^1(\mathbb R^3;\mathbb C)\times L^2(\mathbb R^3;\mathbb R)\times\dot H^{-1}(\mathbb R^3;\mathbb R)`$ satisfying
 
-$$
+```math
 \|u_0\|_{H^1}+\|n_0\|_2+\|n_1\|_{\dot H^{-1}}<\varepsilon
-$$
+```
 
 produces a global solution of
 
-$$
+```math
 i\partial_tu-\Delta u=nu,\qquad\partial_{tt}n-\Delta n=-\Delta|u|^2
-$$
+```
 
-that scatters as $t\to\pm\infty$? Precisely, for each sign require a free Schrödinger solution $u_{\pm}^{\rm lin}$ and a free wave $n_{\pm}^{\rm lin}$ such that
+that scatters as $`t\to\pm\infty`$? Precisely, for each sign require a free Schrödinger solution $`u_{\pm}^{\rm lin}`$ and a free wave $`n_{\pm}^{\rm lin}`$ such that
 
-$$
+```math
 \|u-u_{\pm}^{\rm lin}\|_{H^1}+\|n-n_{\pm}^{\rm lin}\|_2+\|\partial_tn-\partial_tn_{\pm}^{\rm lin}\|_{\dot H^{-1}}\longrightarrow0.
-$$
+```
 
 No radial symmetry, spatial weights or additional angular regularity may be imposed.
 

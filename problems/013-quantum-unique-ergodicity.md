@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $(M,g)$ be any closed connected smooth Riemannian manifold of dimension at least two with strictly negative sectional curvature. For every sequence of $L^2$-normalized eigenfunctions $u_j$ with $-\Delta_g u_j=\lambda_j u_j$ and $\lambda_j\to\infty$, put $h_j=\lambda_j^{-1/2}$. Prove or disprove that, for every smooth compactly supported symbol $a$ on $T^*M$,
+Let $`(M,g)`$ be any closed connected smooth Riemannian manifold of dimension at least two with strictly negative sectional curvature. For every sequence of $`L^2`$-normalized eigenfunctions $`u_j`$ with $`-\Delta_g u_j=\lambda_j u_j`$ and $`\lambda_j\to\infty`$, put $`h_j=\lambda_j^{-1/2}`$. Prove or disprove that, for every smooth compactly supported symbol $`a`$ on $`T^*M`$,
 
-$$
+```math
 \langle\mathop{\mathrm{Op}}\nolimits_{h_j}(a)u_j,u_j\rangle\longrightarrow\int_{S^*M}a\,dL,
-$$
+```
 
-where $S^*M=\{(x,\xi):|\xi|_g=1\}$, $L$ is normalized Liouville measure, and $\mathop{\mathrm{Op}}\nolimits_h$ is any standard semiclassical quantization. The limit is required for every sequence, without discarding exceptional eigenfunctions.
+where $`S^*M=\{(x,\xi):|\xi|_g=1\}`$, $`L`$ is normalized Liouville measure, and $`\mathop{\mathrm{Op}}\nolimits_h`$ is any standard semiclassical quantization. The limit is required for every sequence, without discarding exceptional eigenfunctions.
 
 ## Application
 

@@ -10,13 +10,13 @@
 
 Can a smooth elliptical billiard be approximated by smooth strictly convex billiards with positive metric entropy?
 
-Precisely, find a noncircular ellipse with boundary embedding $\gamma_E:S^1\to\mathbb R^2$ and smooth embeddings $\gamma_j$ bounding strictly convex domains $D_j$, such that $\gamma_j\to\gamma_E$ in $C^\infty$ and
+Precisely, find a noncircular ellipse with boundary embedding $`\gamma_E:S^1\to\mathbb R^2`$ and smooth embeddings $`\gamma_j`$ bounding strictly convex domains $`D_j`$, such that $`\gamma_j\to\gamma_E`$ in $`C^\infty`$ and
 
-$$
+```math
 h_{\mu_j}(B_j)>0\qquad\text{for every }j.
-$$
+```
 
-Here $B_j$ is the specular billiard collision map, with phase coordinates $(s,\varphi)$: boundary arclength $s$ and outgoing angle $\varphi\in(0,\pi)$ measured from the positive tangent. Its invariant probability measure is $d\mu_j=\sin\varphi\,ds\,d\varphi/(2|\partial D_j|)$, and $h_{\mu_j}$ is Kolmogorov–Sinai entropy.
+Here $`B_j`$ is the specular billiard collision map, with phase coordinates $`(s,\varphi)`$: boundary arclength $`s`$ and outgoing angle $`\varphi\in(0,\pi)`$ measured from the positive tangent. Its invariant probability measure is $`d\mu_j=\sin\varphi\,ds\,d\varphi/(2|\partial D_j|)`$, and $`h_{\mu_j}`$ is Kolmogorov–Sinai entropy.
 
 The perturbation must come from changing the billiard table itself.
 

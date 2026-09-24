@@ -8,21 +8,21 @@
 
 ## Problem statement
 
-For a real potential $q\in C_c^\infty(\mathbb R^3)$, let $u=e^{ikx\cdot\theta}+u^s$ be the outgoing solution of
+For a real potential $`q\in C_c^\infty(\mathbb R^3)`$, let $`u=e^{ikx\cdot\theta}+u^s`$ be the outgoing solution of
 
-$$
+```math
 (-\Delta+q-k^2)u=0,\qquad k>0,\quad\theta\in S^2.
-$$
+```
 
 Define its scattering amplitude by
-$u^s(r\omega)=r^{-1}e^{ikr}a_q(\omega,\theta,k)+O(r^{-2})$, for $\omega\in S^2$. Prove or disprove that
+$`u^s(r\omega)=r^{-1}e^{ikr}a_q(\omega,\theta,k)+O(r^{-2})`$, for $`\omega\in S^2`$. Prove or disprove that
 
-$$
+```math
 a_{q_1}(-\theta,\theta,k)=a_{q_2}(-\theta,\theta,k)
 \quad\text{for every }(\theta,k)\in S^2\times(0,\infty)
-$$
+```
 
-implies $q_1=q_2$. No smallness, symmetry, or angular-control assumption is imposed.
+implies $`q_1=q_2`$. No smallness, symmetry, or angular-control assumption is imposed.
 
 ## Application
 

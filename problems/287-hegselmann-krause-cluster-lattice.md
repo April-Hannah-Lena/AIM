@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Start with a homogeneous Poisson point process of intensity $\lambda>0$ on $\mathbb R$, regarding its points as agent opinions. In synchronous discrete time, replace every opinion by the arithmetic mean of all current opinions at distance at most one, including itself and counting agents with multiplicity. Almost surely the initial gaps exceeding one split the process into finite isolated groups, so each agent has a final opinion. Let $C_\lambda$ be the simple counting measure on distinct final opinions, with one atom per cluster. As $\lambda\to\infty$, does $C_\lambda$ converge in distribution, in the vague topology on locally finite measures, to $\sum_{j\in\mathbb Z}\delta_{U+2j}$ with $U$ uniform on $[0,2)$?
+Start with a homogeneous Poisson point process of intensity $`\lambda>0`$ on $`\mathbb R`$, regarding its points as agent opinions. In synchronous discrete time, replace every opinion by the arithmetic mean of all current opinions at distance at most one, including itself and counting agents with multiplicity. Almost surely the initial gaps exceeding one split the process into finite isolated groups, so each agent has a final opinion. Let $`C_\lambda`$ be the simple counting measure on distinct final opinions, with one atom per cluster. As $`\lambda\to\infty`$, does $`C_\lambda`$ converge in distribution, in the vague topology on locally finite measures, to $`\sum_{j\in\mathbb Z}\delta_{U+2j}`$ with $`U`$ uniform on $`[0,2)`$?
 
 ## Application
 

@@ -7,13 +7,13 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-Let $B^3$ be the unit ball and $g\in C^\infty(S^2;S^2)$ have topological degree zero. Must there exist
+Let $`B^3`$ be the unit ball and $`g\in C^\infty(S^2;S^2)`$ have topological degree zero. Must there exist
 
-$$
+```math
 u\in H^1(B^3;\mathbb R^3)\cap C(\overline B^3;S^2),\qquad u|_{S^2}=g,
-$$
+```
 
-such that $-\Delta u=|\nabla u|^2u$ distributionally in $B^3$? The conclusion asks for at least one continuous harmonic map; it does not require that map to minimize the Dirichlet energy among all Sobolev competitors.
+such that $`-\Delta u=|\nabla u|^2u`$ distributionally in $`B^3`$? The conclusion asks for at least one continuous harmonic map; it does not require that map to minimize the Dirichlet energy among all Sobolev competitors.
 
 ## Application
 

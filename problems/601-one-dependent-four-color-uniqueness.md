@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Is there exactly one probability law for a stationary process $X=(X_j)_{j\in\mathbb Z}$ with values in $\{1,2,3,4\}$ such that $X_j\ne X_{j+1}$ almost surely and the restrictions to any two finite index sets at distance greater than one are independent?
+Is there exactly one probability law for a stationary process $`X=(X_j)_{j\in\mathbb Z}`$ with values in $`\{1,2,3,4\}`$ such that $`X_j\ne X_{j+1}`$ almost surely and the restrictions to any two finite index sets at distance greater than one are independent?
 
-The known Holroyd–Liggett law has cylinder probabilities $P_*(x)$ specified as follows. Set $P_*(\varnothing)=1$. For any nonempty word $x=(x_1,\ldots,x_m)$ that has two equal neighboring symbols, set $P_*(x)=0$. For every other word, set
+The known Holroyd–Liggett law has cylinder probabilities $`P_*(x)`$ specified as follows. Set $`P_*(\varnothing)=1`$. For any nonempty word $`x=(x_1,\ldots,x_m)`$ that has two equal neighboring symbols, set $`P_*(x)=0`$. For every other word, set
 
-$$
+```math
 P_*(x)=\frac1{2(m+1)}\sum_{j=1}^{m}P_*(x_1,\ldots,x_{j-1},x_{j+1},\ldots,x_m).
-$$
+```
 
 Prove that every stationary one-dependent proper four-coloring has these cylinder probabilities, or construct a different law. Reflection symmetry and invariance under permutations of colors are not assumed of a competing process; they hold for the proposed unique law.
 

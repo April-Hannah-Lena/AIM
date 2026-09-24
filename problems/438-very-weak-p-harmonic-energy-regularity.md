@@ -7,13 +7,13 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-Let $d\ge3$, $p>2$, and $\Omega\subset\mathbb R^d$ be open. If $u\in W^{1,p-1}_{\mathrm{loc}}(\Omega)$ satisfies
+Let $`d\ge3`$, $`p>2`$, and $`\Omega\subset\mathbb R^d`$ be open. If $`u\in W^{1,p-1}_{\mathrm{loc}}(\Omega)`$ satisfies
 
-$$
+```math
 \int_\Omega |\nabla u|^{p-2}\nabla u\cdot\nabla\varphi\,dx=0\qquad(\varphi\in C_c^\infty(\Omega)),
-$$
+```
 
-must $u\in W^{1,p}_{\mathrm{loc}}(\Omega)$? Equivalently, must this distributional solution have a representative that is an ordinary weak p-harmonic function? The endpoint assumption ensures integrability of the flux but does not assume finite p-energy.
+must $`u\in W^{1,p}_{\mathrm{loc}}(\Omega)`$? Equivalently, must this distributional solution have a representative that is an ordinary weak p-harmonic function? The endpoint assumption ensures integrability of the flux but does not assume finite p-energy.
 
 ## Application
 

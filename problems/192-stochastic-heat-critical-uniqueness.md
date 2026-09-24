@@ -8,20 +8,20 @@
 
 ## Problem statement
 
-Let $\sigma:\mathbb R\to\mathbb R$ satisfy $|\sigma(a)-\sigma(b)|\le C|a-b|^{3/4}$ for all $a,b$, and let $u_0$ be bounded and continuous. On $\mathbb R$, consider the Itô–Walsh mild equation
+Let $`\sigma:\mathbb R\to\mathbb R`$ satisfy $`|\sigma(a)-\sigma(b)|\le C|a-b|^{3/4}`$ for all $`a,b`$, and let $`u_0`$ be bounded and continuous. On $`\mathbb R`$, consider the Itô–Walsh mild equation
 
-$$
+```math
 u(t,x)=(p_t*u_0)(x)+\int_0^t\!\int_{\mathbb R}p_{t-s}(x-y)\sigma(u(s,y))\,W(ds,dy),
-$$
+```
 
-where $p_t(x)=(2\pi t)^{-1/2}e^{-x^2/(2t)}$ and $W$ is space–time white noise.
+where $`p_t(x)=(2\pi t)^{-1/2}e^{-x^2/(2t)}`$ and $`W`$ is space–time white noise.
 
-Must any two adapted continuous mild solutions with the same $u_0$ and the same noise be indistinguishable, in the class satisfying
+Must any two adapted continuous mild solutions with the same $`u_0`$ and the same noise be indistinguishable, in the class satisfying
 
-$$
+```math
 \sup_{0\le t\le T,\ x\in\mathbb R}e^{-a|x|}|u(t,x)|<\infty
 \quad\text{almost surely for every }a,T>0?
-$$
+```
 
 The coefficient may vanish and solutions may have either sign.
 

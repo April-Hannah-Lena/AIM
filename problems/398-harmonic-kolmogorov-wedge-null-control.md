@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-For $0<\theta<\pi/4$ let $\omega_\theta=\{(x,v)\in\mathbb R^2:v=\alpha x\text{ for some }0<\alpha<\tan\theta\}$. Consider
+For $`0<\theta<\pi/4`$ let $`\omega_\theta=\{(x,v)\in\mathbb R^2:v=\alpha x\text{ for some }0<\alpha<\tan\theta\}`$. Consider
 
-$$
+```math
 \partial_t f+v\partial_x f-x\partial_v f-\partial_v^2f=\mathbf1_{\omega_\theta}h,\qquad f(0)=f_0\in L^2(\mathbb R^2).
-$$
+```
 
-Is it true that for every $T>\pi-\theta$ and every $f_0$ there is $h\in L^2((0,T)\times\omega_\theta)$ for which the mild solution satisfies $f(T)=0$? The assertion is exact null controllability; convergence to an arbitrarily small terminal error is insufficient.
+Is it true that for every $`T>\pi-\theta`$ and every $`f_0`$ there is $`h\in L^2((0,T)\times\omega_\theta)`$ for which the mild solution satisfies $`f(T)=0`$? The assertion is exact null controllability; convergence to an arbitrarily small terminal error is insufficient.
 
 ## Application
 

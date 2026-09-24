@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-For $\lambda\in\mathbb C$, let $Q_\lambda$ be the smallest subset of $\mathbb C$ containing $0,1$ and closed under the operation
+For $`\lambda\in\mathbb C`$, let $`Q_\lambda`$ be the smallest subset of $`\mathbb C`$ containing $`0,1`$ and closed under the operation
 
-$$
+```math
 a\star_\lambda b=(1-\lambda)a+\lambda b.
-$$
+```
 
 Only finitely many operations are used to generate each point; no topological closure is taken.
 
-Call $\lambda$ a **strong PV number** if it is an algebraic integer and every Galois conjugate other than $\lambda$ and $\overline\lambda$ lies in the real interval $(0,1)$. This definition includes integers and nonreal quadratic algebraic integers.
+Call $`\lambda`$ a **strong PV number** if it is an algebraic integer and every Galois conjugate other than $`\lambda`$ and $`\overline\lambda`$ lies in the real interval $`(0,1)`$. This definition includes integers and nonreal quadratic algebraic integers.
 
-Prove or disprove that $Q_\lambda$ is discrete if and only if $\lambda$ is a strong PV number. For these generated sets, discreteness is equivalent to uniform discreteness: there exists $\delta>0$ such that distinct $x,y\in Q_\lambda$ satisfy $|x-y|\ge\delta$.
+Prove or disprove that $`Q_\lambda`$ is discrete if and only if $`\lambda`$ is a strong PV number. For these generated sets, discreteness is equivalent to uniform discreteness: there exists $`\delta>0`$ such that distinct $`x,y\in Q_\lambda`$ satisfy $`|x-y|\ge\delta`$.
 
 ## Application
 

@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-For a packing of balls with pairwise disjoint interiors in $\mathbb R^d$, use the centers as vertices. Form the contact complex from subsets $E$ of at most $d+1$ centers for which the corresponding balls are pairwise tangent and $\mathop{\mathrm{conv}}\nolimits(E)$ contains no other center. Call the packing **compact** when these simplices form a geometric simplicial complex whose underlying space is all of $\mathbb R^d$, with every simplex contained in a $d$-simplex.
+For a packing of balls with pairwise disjoint interiors in $`\mathbb R^d`$, use the centers as vertices. Form the contact complex from subsets $`E`$ of at most $`d+1`$ centers for which the corresponding balls are pairwise tangent and $`\mathop{\mathrm{conv}}\nolimits(E)`$ contains no other center. Call the packing **compact** when these simplices form a geometric simplicial complex whose underlying space is all of $`\mathbb R^d`$, with every simplex contained in a $`d`$-simplex.
 
-Fix integers $d\ge3$ and $n\ge2$. Let $\Pi_{d,n}$ consist of all tuples
+Fix integers $`d\ge3`$ and $`n\ge2`$. Let $`\Pi_{d,n}`$ consist of all tuples
 
-$$
+```math
 0<r_0<r_1<\cdots<r_{n-1}=1
-$$
+```
 
-that occur as the exact set of radii in such a compact packing. Is $\Pi_{d,n}$ finite for every fixed pair $(d,n)$?
+that occur as the exact set of radii in such a compact packing. Is $`\Pi_{d,n}`$ finite for every fixed pair $`(d,n)`$?
 
-All $n$ radii must occur. The packing need not be periodic, and the question counts radius tuples, not the number of packings.
+All $`n`$ radii must occur. The packing need not be periodic, and the question counts radius tuples, not the number of packings.
 
 ## Application
 
@@ -33,4 +33,4 @@ Compact packings describe tightly constrained arrangements relevant to self-asse
 
 **Known cases:** Finiteness is proved in dimension two for every fixed number of radii. The three-dimensional two-radius case is classified. The source also establishes finiteness in every dimension under an additional condition on the associated spherical triangulations.
 
-**Remaining target:** Remove the additional geometric condition and prove finiteness for all fixed $d\ge3,n\ge2$, or exhibit a fixed pair admitting infinitely many normalized radius tuples. The June 2026 follow-up still describes the higher-dimensional theorem as conditional. Equal-radius densest packings and finite classifications with prescribed few radii do not resolve this target.
+**Remaining target:** Remove the additional geometric condition and prove finiteness for all fixed $`d\ge3,n\ge2`$, or exhibit a fixed pair admitting infinitely many normalized radius tuples. The June 2026 follow-up still describes the higher-dimensional theorem as conditional. Equal-radius densest packings and finite classifications with prescribed few radii do not resolve this target.

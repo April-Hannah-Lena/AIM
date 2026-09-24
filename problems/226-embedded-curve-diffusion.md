@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Let $\gamma:S^1\times[0,T)\to\mathbb R^2$ be the maximal smooth evolution of a smooth closed regular curve by curve diffusion:
+Let $`\gamma:S^1\times[0,T)\to\mathbb R^2`$ be the maximal smooth evolution of a smooth closed regular curve by curve diffusion:
 
-$$
+```math
 \partial_t\gamma\cdot\nu=-\partial_s^2\kappa,
-$$
+```
 
-where $s$ is arclength, $\nu$ is a chosen unit normal and $\kappa$ is the signed curvature in the compatible convention. Tangential velocity only reparametrizes the curve.
+where $`s`$ is arclength, $`\nu`$ is a chosen unit normal and $`\kappa`$ is the signed curvature in the compatible convention. Tangential velocity only reparametrizes the curve.
 
-If $\gamma(\cdot,t)$ is an embedding for every $0\leq t<T$, must $T=\infty$? Equivalently, must every finite-time singular evolution have lost embeddedness at a strictly earlier regular time?
+If $`\gamma(\cdot,t)`$ is an embedding for every $`0\leq t<T`$, must $`T=\infty`$? Equivalently, must every finite-time singular evolution have lost embeddedness at a strictly earlier regular time?
 
 ## Application
 

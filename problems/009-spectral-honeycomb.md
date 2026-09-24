@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^2$ be a bounded connected Lipschitz domain of area $A$. For $k\ge1$, set
+Let $`\Omega\subset\mathbb R^2`$ be a bounded connected Lipschitz domain of area $`A`$. For $`k\ge1`$, set
 
-$$
+```math
 \mathcal L_k(\Omega)=\inf_{(D_1,\ldots,D_k)}\max_{1\le i\le k}\lambda_1(D_i),
-$$
+```
 
-where the infimum runs over pairwise disjoint nonempty connected open subsets of $\Omega$, and $\lambda_1$ is the first Dirichlet eigenvalue. Let $H$ be a regular hexagon of area one. Prove or disprove
+where the infimum runs over pairwise disjoint nonempty connected open subsets of $`\Omega`$, and $`\lambda_1`$ is the first Dirichlet eigenvalue. Let $`H`$ be a regular hexagon of area one. Prove or disprove
 
-$$
+```math
 \lim_{k\to\infty}\frac{A\mathcal L_k(\Omega)}{k}=\lambda_1(H).
-$$
+```
 
 In particular, the competitors are not required to be convex.
 

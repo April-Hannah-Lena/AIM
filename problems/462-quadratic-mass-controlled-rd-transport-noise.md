@@ -8,31 +8,31 @@
 
 ## Problem statement
 
-Let $d\ge2$, $N\ge2$, and $\nu_i>0$. On $\mathbb T^d$, consider
+Let $`d\ge2`$, $`N\ge2`$, and $`\nu_i>0`$. On $`\mathbb T^d`$, consider
 
-$$
+```math
 du_i=(\nu_i\Delta u_i+f_i(u))\,dt+\sum_{k=1}^K\bigl[b_{ki}(x)\cdot\nabla u_i+g_{ki}(u)\bigr]dW^k_t.
-$$
+```
 
-The vector fields $b_{ki}$ are smooth and divergence-free, and, for each $i$,
+The vector fields $`b_{ki}`$ are smooth and divergence-free, and, for each $`i`$,
 
-$$
+```math
 \nu_i I-\tfrac12\sum_k b_{ki}\otimes b_{ki}\ge\delta I\quad\hbox{for some }\delta>0.
-$$
+```
 
-The smooth functions $g_i:\mathbb R^N\to\mathbb R^K$ are globally Lipschitz and vanish on $\{u\ge0:u_i=0\}$. The locally Lipschitz reactions satisfy, for nonnegative $u,v$,
+The smooth functions $`g_i:\mathbb R^N\to\mathbb R^K`$ are globally Lipschitz and vanish on $`\{u\ge0:u_i=0\}`$. The locally Lipschitz reactions satisfy, for nonnegative $`u,v`$,
 
-$$
+```math
 f_i(u)\ge0\ \hbox{if }u_i=0,\qquad \sum_i f_i(u)\le C(1+\sum_i u_i),
-$$
+```
 
 
 
-$$
+```math
 |f(u)-f(v)|\le C(1+|u|+|v|)|u-v|.
-$$
+```
 
-For every nonnegative smooth initial condition, is the maximal local strong solution global almost surely, with $\sup_{t\le T}\|u(t)\|_\infty<\infty$ almost surely for each finite $T$? Local solutions are understood in the parabolic strong-solution class, continuous in space and time and satisfying the integral SPDE; the continuation criterion is divergence of the spatial supremum norm. The transport fields may differ between species and are arbitrary subject to the displayed parabolicity condition.
+For every nonnegative smooth initial condition, is the maximal local strong solution global almost surely, with $`\sup_{t\le T}\|u(t)\|_\infty<\infty`$ almost surely for each finite $`T`$? Local solutions are understood in the parabolic strong-solution class, continuous in space and time and satisfying the integral SPDE; the continuation criterion is divergence of the spatial supremum norm. The transport fields may differ between species and are arbitrary subject to the displayed parabolicity condition.
 
 ## Application
 

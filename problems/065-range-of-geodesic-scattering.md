@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-Fix a smooth disk $M$ and a boundary metric $h$. Write $B_h^*\partial M=\{(x,\eta)\in T^*\partial M:|\eta|_h<1\}$. Every smooth simple metric $g$ inducing $h$ gives a scattering map $\alpha_g:B_h^*\partial M\to B_h^*\partial M$: extend $\eta$ to the inward unit covector, follow its geodesic, and record the exit point and tangential exit covector. Simplicity means strictly convex boundary and unique smoothly varying geodesics between points.
+Fix a smooth disk $`M`$ and a boundary metric $`h`$. Write $`B_h^*\partial M=\{(x,\eta)\in T^*\partial M:|\eta|_h<1\}`$. Every smooth simple metric $`g`$ inducing $`h`$ gives a scattering map $`\alpha_g:B_h^*\partial M\to B_h^*\partial M`$: extend $`\eta`$ to the inward unit covector, follow its geodesic, and record the exit point and tangential exit covector. Simplicity means strictly convex boundary and unique smoothly varying geodesics between points.
 
-Give necessary and sufficient conditions, expressed entirely in terms of a proposed boundary map $A$ and $h$, for $A=\alpha_g$ for some such $g$. The conditions must give an intrinsic characterization rather than restate the existence of an interior metric.
+Give necessary and sufficient conditions, expressed entirely in terms of a proposed boundary map $`A`$ and $`h`$, for $`A=\alpha_g`$ for some such $`g`$. The conditions must give an intrinsic characterization rather than restate the existence of an interior metric.
 
 ## Application
 

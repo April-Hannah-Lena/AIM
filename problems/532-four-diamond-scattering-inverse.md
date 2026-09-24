@@ -8,31 +8,31 @@
 
 ## Problem statement
 
-Let $Q=(-\pi,\pi)^2$ and $U_r=\bigcup_{a,b\in\{-1,1\}}B((a\pi,b\pi),r)$, where $B(x,r)$ is the open Euclidean ball. A four-diamond obstacle is a bounded union $\Omega_-=\bigcup_{j=1}^4\Omega_j\subset\mathbb R^2$ of disjoint open convex sets with smooth boundary, as in Definition 8.19 of [1]. Writing $\Gamma=\partial\Omega_-$, require, for some $0<\epsilon<\pi/2$,
+Let $`Q=(-\pi,\pi)^2`$ and $`U_r=\bigcup_{a,b\in\{-1,1\}}B((a\pi,b\pi),r)`$, where $`B(x,r)`$ is the open Euclidean ball. A four-diamond obstacle is a bounded union $`\Omega_-=\bigcup_{j=1}^4\Omega_j\subset\mathbb R^2`$ of disjoint open convex sets with smooth boundary, as in Definition 8.19 of [1]. Writing $`\Gamma=\partial\Omega_-`$, require, for some $`0<\epsilon<\pi/2`$,
 
-$$
+```math
 \partial Q\setminus U_\epsilon\subseteq\Gamma\subseteq\mathbb R^2\setminus U_{\epsilon/2},\qquad \Omega_-\cap Q=\varnothing.
-$$
+```
 
-For wavenumber $k>0$, put $\Phi_k(x,y)=\frac{i}{4}H_0^{(1)}(k|x-y|)$, the outgoing two-dimensional Helmholtz fundamental solution. On $L^2(\Gamma)$ define the single- and double-layer operators
+For wavenumber $`k>0`$, put $`\Phi_k(x,y)=\frac{i}{4}H_0^{(1)}(k|x-y|)`$, the outgoing two-dimensional Helmholtz fundamental solution. On $`L^2(\Gamma)`$ define the single- and double-layer operators
 
-$$
+```math
 V_k\phi(x)=\int_\Gamma\Phi_k(x,y)\phi(y)\,ds(y),\qquad K_k\phi(x)=\int_\Gamma\partial_{\nu(y)}\Phi_k(x,y)\phi(y)\,ds(y),
-$$
+```
 
-where $\nu$ points out of $\Omega_-$. Let $K'_k$ use $\partial_{\nu(x)}\Phi_k(x,y)$ in place of $\partial_{\nu(y)}\Phi_k(x,y)$, and set
+where $`\nu`$ points out of $`\Omega_-`$. Let $`K'_k`$ use $`\partial_{\nu(x)}\Phi_k(x,y)`$ in place of $`\partial_{\nu(y)}\Phi_k(x,y)`$, and set
 
-$$
+```math
 A_k=\tfrac12I+K_k-ikV_k,\qquad A'_k=\tfrac12I+K'_k-ikV_k.
-$$
+```
 
-Prove or refute that, for every fixed four-diamond obstacle and every $k_0>0$, there is $C<\infty$ such that
+Prove or refute that, for every fixed four-diamond obstacle and every $`k_0>0`$, there is $`C<\infty`$ such that
 
-$$
+```math
 \|A_k^{-1}\|_{L^2(\Gamma)\to L^2(\Gamma)}+\|(A'_k)^{-1}\|_{L^2(\Gamma)\to L^2(\Gamma)}\le Ck\qquad(k\ge k_0).
-$$
+```
 
-The constant may depend on the obstacle and $k_0$. The bound must hold at every such real frequency; excluding a small exceptional set of frequencies does not settle the problem.
+The constant may depend on the obstacle and $`k_0`$. The bound must hold at every such real frequency; excluding a small exceptional set of frequencies does not settle the problem.
 
 ## Application
 

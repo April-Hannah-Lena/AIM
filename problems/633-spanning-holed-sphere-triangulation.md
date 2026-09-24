@@ -8,11 +8,11 @@
 
 ## Problem statement
 
-Let $\mathbb S_g$ be the sphere with $g$ pairwise disjoint open disks removed, with disjoint closures. A triangulation of a compact surface is an embedding of a finite simple graph, containing the surface boundary, such that every complementary face is an open disk bounded by a triangle.
+Let $`\mathbb S_g`$ be the sphere with $`g`$ pairwise disjoint open disks removed, with disjoint closures. A triangulation of a compact surface is an embedding of a finite simple graph, containing the surface boundary, such that every complementary face is an open disk bounded by a triangle.
 
-The Euler genus of a closed orientable surface with $h$ handles is $2h$; that of a closed nonorientable surface with $h$ crosscaps is $h$.
+The Euler genus of a closed orientable surface with $`h`$ handles is $`2h`$; that of a closed nonorientable surface with $`h`$ crosscaps is $`h`$.
 
-Is it true that every triangulation $G$ of every closed connected surface of Euler genus $g$ contains a spanning subgraph that is a triangulation of $\mathbb S_g$? Spanning means retaining all vertices; no new vertices may be added.
+Is it true that every triangulation $`G`$ of every closed connected surface of Euler genus $`g`$ contains a spanning subgraph that is a triangulation of $`\mathbb S_g`$? Spanning means retaining all vertices; no new vertices may be added.
 
 ## Application
 

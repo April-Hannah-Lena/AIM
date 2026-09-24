@@ -7,19 +7,19 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-For each $d\in\{6,7,8,9\}$, does there exist $C_d<\infty$ such that, for every $f\in C^1(\mathbb R)$ and every $u\in C^2(B_1)$ satisfying
+For each $`d\in\{6,7,8,9\}`$, does there exist $`C_d<\infty`$ such that, for every $`f\in C^1(\mathbb R)`$ and every $`u\in C^2(B_1)`$ satisfying
 
-$$
+```math
 -\Delta u=f(u),\qquad \int_{B_1} f'(u)\varphi^2\le\int_{B_1}|\nabla\varphi|^2\quad(\varphi\in C_c^\infty(B_1)),
-$$
+```
 
 one has
 
-$$
+```math
 \|u\|_{L^\infty(B_{1/2})}\le C_d\|u\|_{W^{1,2}(B_1)}?
-$$
+```
 
-Here $B_r\subset\mathbb R^d$ is a centered ball, stability means the displayed nonnegative second-variation inequality, and no sign assumption is imposed on $f$ or $u$. The constant must be independent of the reaction law.
+Here $`B_r\subset\mathbb R^d`$ is a centered ball, stability means the displayed nonnegative second-variation inequality, and no sign assumption is imposed on $`f`$ or $`u`$. The constant must be independent of the reaction law.
 
 ## Application
 

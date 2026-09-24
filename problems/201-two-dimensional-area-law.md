@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Fix an integer $q\ge2$ and $\Delta>0$. On $\Lambda=\{1,\ldots,L\}\times\{1,\ldots,M\}$ put a copy of $\mathbb C^q$ at each vertex. Let $H=\sum_x h_x+\sum_{\{x,y\}\text{ nearest neighbors}}h_{xy}$ be self-adjoint, with each term supported on its indicated sites and of operator norm at most $1$. Assume a unique normalized ground state $\psi$ and spectral gap at least $\Delta$. For $1\le\ell<L$, let $A=\{1,\ldots,\ell\}\times\{1,\ldots,M\}$ and $\rho_A=\mathop{\mathrm{Tr}}\nolimits_{\Lambda\setminus A}|\psi\rangle\langle\psi|$.
+Fix an integer $`q\ge2`$ and $`\Delta>0`$. On $`\Lambda=\{1,\ldots,L\}\times\{1,\ldots,M\}`$ put a copy of $`\mathbb C^q`$ at each vertex. Let $`H=\sum_x h_x+\sum_{\{x,y\}\text{ nearest neighbors}}h_{xy}`$ be self-adjoint, with each term supported on its indicated sites and of operator norm at most $`1`$. Assume a unique normalized ground state $`\psi`$ and spectral gap at least $`\Delta`$. For $`1\le\ell<L`$, let $`A=\{1,\ldots,\ell\}\times\{1,\ldots,M\}`$ and $`\rho_A=\mathop{\mathrm{Tr}}\nolimits_{\Lambda\setminus A}|\psi\rangle\langle\psi|`$.
 
-Does a constant $C(q,\Delta)$, independent of $L,M,\ell$ and the interaction, always satisfy
+Does a constant $`C(q,\Delta)`$, independent of $`L,M,\ell`$ and the interaction, always satisfy
 
-$$
+```math
 -\mathop{\mathrm{Tr}}\nolimits(\rho_A\log\rho_A)\le C(q,\Delta)M?
-$$
+```
 
 ## Application
 

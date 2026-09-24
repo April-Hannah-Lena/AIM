@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $G=(V,E)$ be infinite, connected, locally finite and vertex-transitive. Assume it is nonamenable, meaning
+Let $`G=(V,E)`$ be infinite, connected, locally finite and vertex-transitive. Assume it is nonamenable, meaning
 
-$$
+```math
 \inf_{\varnothing\ne K\subset V,\ |K|<\infty}\frac{|\partial_E K|}{|K|}>0,
-$$
+```
 
-where $\partial_EK$ consists of edges with exactly one endpoint in $K$. For independent bond percolation, set $p_c=\inf\{p:\mathbb P_p(\text{an infinite open cluster exists})>0\}$ and $p_u=\inf\{p:\mathbb P_p(\text{exactly one infinite open cluster exists})=1\}$. Must $p_c<p_u$?
+where $`\partial_EK`$ consists of edges with exactly one endpoint in $`K`$. For independent bond percolation, set $`p_c=\inf\{p:\mathbb P_p(\text{an infinite open cluster exists})>0\}`$ and $`p_u=\inf\{p:\mathbb P_p(\text{exactly one infinite open cluster exists})=1\}`$. Must $`p_c<p_u`$?
 
 ## Application
 
@@ -34,6 +34,6 @@ A strict gap gives a regime with several macroscopic conducting regions before t
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-The updated book retains the general conjecture. Results for hyperbolic graphs, specially chosen generating sets, and particular algebraic classes do not cover every transitive nonamenable graph. The properties of the model at $p_u$ are a distinct issue from proving a strict gap.
+The updated book retains the general conjecture. Results for hyperbolic graphs, specially chosen generating sets, and particular algebraic classes do not cover every transitive nonamenable graph. The properties of the model at $`p_u`$ are a distinct issue from proving a strict gap.
 
 Search topics checked on 2026-09-08: `nonamenable transitive pc pu conjecture 2025 2026; Benjamini Schramm nonuniqueness phase resolution`. No later resolution of the exact statement was located; this is not a certification that no proof exists.

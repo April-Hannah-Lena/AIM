@@ -8,20 +8,20 @@
 
 ## Problem statement
 
-Let $N=\{1,\ldots,n\}$ be a finite set of agents, with $n\ge1$, and let $M$ be a finite set of indivisible goods. Agent $i$ assigns a nonnegative real value $v_{ig}$ to each good $g$. The value of a bundle $S\subseteq M$ is additive:
+Let $`N=\{1,\ldots,n\}`$ be a finite set of agents, with $`n\ge1`$, and let $`M`$ be a finite set of indivisible goods. Agent $`i`$ assigns a nonnegative real value $`v_{ig}`$ to each good $`g`$. The value of a bundle $`S\subseteq M`$ is additive:
 
-$$
+```math
 v_i(S)=\sum_{g\in S}v_{ig}.
-$$
+```
 
-A complete allocation is a partition $(A_1,\ldots,A_n)$ of $M$; empty bundles are allowed. Does every such valuation profile admit a complete allocation satisfying
+A complete allocation is a partition $`(A_1,\ldots,A_n)`$ of $`M`$; empty bundles are allowed. Does every such valuation profile admit a complete allocation satisfying
 
-$$
+```math
 v_i(A_i)\ge v_i(A_j\setminus\{g\})
 \qquad\text{for all }i,j\in N\text{ and every }g\in A_j?
-$$
+```
 
-Thus any envy disappears after the hypothetical removal of any single good from the envied bundle, including a good valued at zero by the comparing agent. This convention is sometimes called $\mathrm{EFX}_0$. Its universal existence question is equivalent to the convention that tests only positively valued goods, by perturbing values to be positive and passing to a limit over the finite set of allocations. All goods must actually be assigned; the removal in the inequality is only a comparison. No efficiency, welfare-maximization, incentive or running-time condition is imposed.
+Thus any envy disappears after the hypothetical removal of any single good from the envied bundle, including a good valued at zero by the comparing agent. This convention is sometimes called $`\mathrm{EFX}_0`$. Its universal existence question is equivalent to the convention that tests only positively valued goods, by perturbing values to be positive and passing to a limit over the finite set of allocations. All goods must actually be assigned; the removal in the inequality is only a comparison. No efficiency, welfare-maximization, incentive or running-time condition is imposed.
 
 ## Applied significance
 
@@ -40,7 +40,7 @@ When allocating indivisible assets, equipment or donated items, exact envy-freen
 
 ## Status review
 
-Open in cited literature; no later resolution located as of 2026-09-17. Exact existence is known with at most three distinct additive valuation functions, including the three-agent case. The August 2026 preprint establishes four agents and at most nine goods, using computer-assisted certificates; those certificates were not independently run in this review. The July 2026 revision of reference 5 reports a general factor $(\sqrt5-1)/2\approx0.618$, which multiplies the right-hand side of the EFX inequality and therefore falls short of exact EFX.
+Open in cited literature; no later resolution located as of 2026-09-17. Exact existence is known with at most three distinct additive valuation functions, including the three-agent case. The August 2026 preprint establishes four agents and at most nine goods, using computer-assisted certificates; those certificates were not independently run in this review. The July 2026 revision of reference 5 reports a general factor $`(\sqrt5-1)/2\approx0.618`$, which multiplies the right-hand side of the EFX inequality and therefore falls short of exact EFX.
 
 The 2026 [submodular counterexamples](https://arxiv.org/html/2605.06451v1) use nonadditive values. The additive-chore counterexample removes an item from the comparing agent's own bundle and reverses the preference inequality, so it does not establish impossibility for goods. Recent [positive results for multigraph valuations](https://arxiv.org/html/2606.18665v1) limit each good's positive values to its endpoints. The simultaneous [epistemic EFX and EFL guarantee](https://arxiv.org/html/2602.11732v2) uses, for its epistemic condition, a potentially different rearrangement of the remaining goods for each agent. It does not ensure EFX of the single actual allocation. The September PMMS counterexample concerns a stronger fairness condition; the EFX-or-MMS counterexamples require nonadditive values or an additional efficiency condition. These results, partial allocations and successful local-search experiments leave the unrestricted complete additive-goods question unresolved.
 

@@ -8,39 +8,39 @@
 
 ## Problem statement
 
-Let $S:X\to Y$ be a bounded linear operator between real Banach spaces. Inputs lie in the closed unit ball $B_X$. A deterministic nonadaptive algorithm has the form
+Let $`S:X\to Y`$ be a bounded linear operator between real Banach spaces. Inputs lie in the closed unit ball $`B_X`$. A deterministic nonadaptive algorithm has the form
 
-$$
+```math
 A(x)=\Phi(\lambda_1(x),\ldots,\lambda_n(x)),
-$$
+```
 
-where $\lambda_j\in X'$ are fixed continuous linear functionals and $\Phi:\mathbb R^n\to Y$ is unrestricted. Define
+where $`\lambda_j\in X'`$ are fixed continuous linear functionals and $`\Phi:\mathbb R^n\to Y`$ is unrestricted. Define
 
-$$
+```math
 e_n^{\rm det}(S)=\inf_A\sup_{x\in B_X}\|Sx-A(x)\|_Y.
-$$
+```
 
-A randomized nonadaptive algorithm chooses such a complete measurement list and reconstruction using a random seed $\omega$ independently of the input. Require the error to be jointly measurable, and set
+A randomized nonadaptive algorithm chooses such a complete measurement list and reconstruction using a random seed $`\omega`$ independently of the input. Require the error to be jointly measurable, and set
 
-$$
+```math
 e_n^{\rm ran}(S)=\inf_{(A_\omega)}\sup_{x\in B_X}\mathbb E_\omega\|Sx-A_\omega(x)\|_Y.
-$$
+```
 
-Every realization uses at most $n$ measurements. The error criterion is expected norm, not root-mean-square norm.
+Every realization uses at most $`n`$ measurements. The error criterion is expected norm, not root-mean-square norm.
 
-For a nonnegative sequence $u=(u_n)$ define
+For a nonnegative sequence $`u=(u_n)`$ define
 
-$$
+```math
 \mathop{\mathrm{rate}}\nolimits(u)=\sup\{\alpha\ge0:u_n=O(n^{-\alpha})\}.
-$$
+```
 
 Determine the maximal increase
 
-$$
+```math
 G=\sup_S\left[\mathop{\mathrm{rate}}\nolimits(e_n^{\rm ran}(S))-\mathop{\mathrm{rate}}\nolimits(e_n^{\rm det}(S))\right],
-$$
+```
 
-where the supremum is over bounded operators between real Banach spaces with finite rates. Current results give $1/2\le G\le1$. In particular, can nonadaptive randomization improve the polynomial rate by strictly more than $1/2$?
+where the supremum is over bounded operators between real Banach spaces with finite rates. Current results give $`1/2\le G\le1`$. In particular, can nonadaptive randomization improve the polynomial rate by strictly more than $`1/2`$?
 
 ## Application
 
@@ -54,6 +54,6 @@ The answer quantifies the strongest possible information savings from randomly c
 
 ## Status review
 
-The lower bound $1/2$ comes from Sobolev approximation examples. The general upper bound of one is known, and gains of one are attainable when adaptive randomized measurements are allowed. Those adaptive examples do not settle this nonadaptive question. The vector-approximation results in [3] are among the advances already incorporated in the 2026 survey.
+The lower bound $`1/2`$ comes from Sobolev approximation examples. The general upper bound of one is known, and gains of one are attainable when adaptive randomized measurements are allowed. Those adaptive examples do not settle this nonadaptive question. The vector-approximation results in [3] are among the advances already incorporated in the 2026 survey.
 
 Current arXiv and author-publication checks found no solution of this remaining gap. Public GitHub and Palomar searches found no matching announcement; Zenodo's API returned an access denial, and indexed searches found none. The accompanying numerical-journal review records the checked sources and limitations. No equivalent existing catalogue entry was found.

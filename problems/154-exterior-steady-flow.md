@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $D\subset\mathbb R^2$ be a bounded simply connected domain with smooth boundary, and $\Omega=\mathbb R^2\setminus\overline D$. For every viscosity $\nu>0$ and every constant $U\in\mathbb R^2\setminus\{0\}$, does there exist a smooth solution $(u,p)$ on $\Omega$, continuous up to the boundary, satisfying
+Let $`D\subset\mathbb R^2`$ be a bounded simply connected domain with smooth boundary, and $`\Omega=\mathbb R^2\setminus\overline D`$. For every viscosity $`\nu>0`$ and every constant $`U\in\mathbb R^2\setminus\{0\}`$, does there exist a smooth solution $`(u,p)`$ on $`\Omega`$, continuous up to the boundary, satisfying
 
-$$
+```math
 -\nu\Delta u+(u\cdot\nabla)u+\nabla p=0,\qquad \mathop{\mathrm{div}}\nolimits u=0,
-$$
+```
 
 
 
-$$
+```math
 u|_{\partial D}=0,\qquad \lim_{|x|\to\infty}u(x)=U,\qquad\int_\Omega|\nabla u|^2\,dx<\infty?
-$$
+```
 
-The far-field convergence is uniform, and no smallness condition on $|U|/\nu$ is permitted.
+The far-field convergence is uniform, and no smallness condition on $`|U|/\nu`$ is permitted.
 
 ## Application
 
@@ -36,4 +36,4 @@ This is the basic existence question for a stationary viscous flow past a two-di
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-Searches for “stationary Navier Stokes exterior two dimensional arbitrary velocity infinity existence open 2026”, “Leray plane arbitrary Reynolds prescribed velocity infinity”, and “Korobkov Ren 2026 infinity” located small-data far-field results and later estimates. Nontriviality and convergence to some constant do not identify that constant with prescribed $U$. No arbitrary-Reynolds existence theorem satisfying all conditions above was located.
+Searches for “stationary Navier Stokes exterior two dimensional arbitrary velocity infinity existence open 2026”, “Leray plane arbitrary Reynolds prescribed velocity infinity”, and “Korobkov Ren 2026 infinity” located small-data far-field results and later estimates. Nontriviality and convergence to some constant do not identify that constant with prescribed $`U`$. No arbitrary-Reynolds existence theorem satisfying all conditions above was located.

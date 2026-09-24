@@ -8,38 +8,38 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^d$ be smooth and bounded, $N\ge2$, $d_i>0$, and $m_i\in(0,2)$, with at least one $m_i\ne1$. Let $f:[0,\infty)^N\to\mathbb R^N$ be locally Lipschitz and quasi-positive ($f_i(z)\ge0$ if $z_i=0$), and assume
+Let $`\Omega\subset\mathbb R^d`$ be smooth and bounded, $`N\ge2`$, $`d_i>0`$, and $`m_i\in(0,2)`$, with at least one $`m_i\ne1`$. Let $`f:[0,\infty)^N\to\mathbb R^N`$ be locally Lipschitz and quasi-positive ($`f_i(z)\ge0`$ if $`z_i=0`$), and assume
 
-$$
+```math
 \sum_i f_i(z)(\log z_i+\mu_i)\le C\sum_i(1+z_i\log z_i)\qquad(z_i>0)
-$$
+```
 
-for some constants $C\ge0$ and $\mu_i\in\mathbb R$. Take nonnegative finite-entropy initial data $u_0$.
+for some constants $`C\ge0`$ and $`\mu_i\in\mathbb R`$. Take nonnegative finite-entropy initial data $`u_0`$.
 
-Consider nonnegative functions $u_i\in L^\infty(0,T;L^1(\Omega))$, $u_i^{m_i/2}\in L^2(0,T;H^1(\Omega))$ for every finite $T$, satisfying the following truncated form of $\partial_tu_i=d_i\Delta u_i^{m_i}+f_i(u)$ with no-flux boundary conditions. For every smooth $\xi$ with compactly supported $D\xi$, every smooth space-time test $\psi$ on the closed domain, and almost every $T$,
+Consider nonnegative functions $`u_i\in L^\infty(0,T;L^1(\Omega))`$, $`u_i^{m_i/2}\in L^2(0,T;H^1(\Omega))`$ for every finite $`T`$, satisfying the following truncated form of $`\partial_tu_i=d_i\Delta u_i^{m_i}+f_i(u)`$ with no-flux boundary conditions. For every smooth $`\xi`$ with compactly supported $`D\xi`$, every smooth space-time test $`\psi`$ on the closed domain, and almost every $`T`$,
 
-$$
+```math
 \begin{aligned}
 \int_\Omega\xi(u(T))\psi(T)-\int_\Omega\xi(u_0)\psi(0)-\int_0^T\!\int_\Omega\xi(u)\partial_t\psi
 ={}&-\sum_{i,j}d_i m_i\int_0^T\!\int_\Omega\psi\xi_{ij}(u)u_i^{m_i-1}\nabla u_i\cdot\nabla u_j\\
 &-\sum_i d_i m_i\int_0^T\!\int_\Omega\xi_i(u)u_i^{m_i-1}\nabla u_i\cdot\nabla\psi
 +\sum_i\int_0^T\!\int_\Omega\xi_i(u)f_i(u)\psi.
 \end{aligned}
-$$
+```
 
-The flux is interpreted as $u_i^{m_i-1}\nabla u_i=(2/m_i)u_i^{m_i/2}\nabla u_i^{m_i/2}$, and the gradient product as
+The flux is interpreted as $`u_i^{m_i-1}\nabla u_i=(2/m_i)u_i^{m_i/2}\nabla u_i^{m_i/2}`$, and the gradient product as
 
-$$
+```math
 u_i^{m_i-1}\nabla u_i\cdot\nabla u_j=\frac4{m_i m_j}u_i^{m_i/2}u_j^{1-m_j/2}\nabla u_i^{m_i/2}\cdot\nabla u_j^{m_j/2}.
-$$
+```
 
-Does this identity alone imply, for every $q\in\mathbb R^N$ with $q\cdot f(z)=0$ for all $z\ge0$,
+Does this identity alone imply, for every $`q\in\mathbb R^N`$ with $`q\cdot f(z)=0`$ for all $`z\ge0`$,
 
-$$
+```math
 \sum_i q_i\int_\Omega u_i(t)=\sum_i q_i\int_\Omega u_{i,0}\qquad\text{for almost every }t>0?
-$$
+```
 
-Neither this conservation law nor an entropy inequality is added as a solution axiom. Finite entropy of the initial data means $\sum_i\int u_{i,0}(1+|\log u_{i,0}|)<\infty$, with $0|\log0|=0$.
+Neither this conservation law nor an entropy inequality is added as a solution axiom. Finite entropy of the initial data means $`\sum_i\int u_{i,0}(1+|\log u_{i,0}|)<\infty`$, with $`0|\log0|=0`$.
 
 ## Application
 

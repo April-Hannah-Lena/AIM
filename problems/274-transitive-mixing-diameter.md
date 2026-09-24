@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $G$ be any connected finite vertex-transitive simple graph with at least two vertices, degree $d$ and graph diameter $D$. Let $A_G$ be its adjacency matrix. For the lazy simple random walk $P=\tfrac12I+\tfrac1{2d}A_G$, let $t_{\rm mix}$ be the smallest integer $t$ for which $\max_x\|P^t(x,\cdot)-\mathrm{Unif}(V(G))\|_{\rm TV}\le1/4$. Is there a universal constant $C$ with $t_{\rm mix}\le C dD^2$ for every such $G$?
+Let $`G`$ be any connected finite vertex-transitive simple graph with at least two vertices, degree $`d`$ and graph diameter $`D`$. Let $`A_G`$ be its adjacency matrix. For the lazy simple random walk $`P=\tfrac12I+\tfrac1{2d}A_G`$, let $`t_{\rm mix}`$ be the smallest integer $`t`$ for which $`\max_x\|P^t(x,\cdot)-\mathrm{Unif}(V(G))\|_{\rm TV}\le1/4`$. Is there a universal constant $`C`$ with $`t_{\rm mix}\le C dD^2`$ for every such $`G`$?
 
 ## Application
 

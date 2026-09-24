@@ -8,20 +8,20 @@
 
 ## Problem statement
 
-Let $\mathbb T=\mathbb R/\mathbb Z$ and let $W$ be one real standard Brownian motion. For an $\mathcal F_0$-measurable random initial condition $u_0\in L^2(\Omega;L^2(\mathbb T))$, consider the Itô equation
+Let $`\mathbb T=\mathbb R/\mathbb Z`$ and let $`W`$ be one real standard Brownian motion. For an $`\mathcal F_0`$-measurable random initial condition $`u_0\in L^2(\Omega;L^2(\mathbb T))`$, consider the Itô equation
 
-$$
+```math
 du=(\partial_{xx}u+u-u^3)\,dt+\sqrt2\,u^2\,dW_t,\qquad u(0)=u_0.
-$$
+```
 
-Use its global variational solution with almost surely continuous $L^2(\mathbb T)$ paths and locally square-integrable $H^1(\mathbb T)$ paths. Is it true that, for every finite $T>0$, there is a finite deterministic $C_T$, independent of the law of $u_0$, such that
+Use its global variational solution with almost surely continuous $`L^2(\mathbb T)`$ paths and locally square-integrable $`H^1(\mathbb T)`$ paths. Is it true that, for every finite $`T>0`$, there is a finite deterministic $`C_T`$, independent of the law of $`u_0`$, such that
 
-$$
+```math
 \mathbb E\sup_{0\le t\le T}\|u(t)\|_{L^2(\mathbb T)}^2
 \le C_T\bigl(1+\mathbb E\|u_0\|_{L^2(\mathbb T)}^2\bigr)?
-$$
+```
 
-The coefficient $\sqrt2$ is part of the question: it is the endpoint at which the cubic damping and the Itô correction balance in the basic energy estimate.
+The coefficient $`\sqrt2`$ is part of the question: it is the endpoint at which the cubic damping and the Itô correction balance in the basic energy estimate.
 
 ## Applied significance
 
@@ -34,7 +34,7 @@ This asks whether a phase-field model retains an integrable maximum energy when 
 
 ## Status review
 
-The survey explicitly isolates this one-dimensional model and the endpoint $\gamma^2=2$; its estimates for $\gamma^2<2$ do not answer the question. Searches on 2026-09-22 for the equation, “quadratic noise”, endpoint energy moments, and Agresti–Veraar found no later endpoint estimate or counterexample. Boundary-preserving Allen–Cahn approximations using noise $1-u^2$ concern a different coefficient and bounded state interval. This entry asks for a moment estimate, not for existence of the already constructed variational solution.
+The survey explicitly isolates this one-dimensional model and the endpoint $`\gamma^2=2`$; its estimates for $`\gamma^2<2`$ do not answer the question. Searches on 2026-09-22 for the equation, “quadratic noise”, endpoint energy moments, and Agresti–Veraar found no later endpoint estimate or counterexample. Boundary-preserving Allen–Cahn approximations using noise $`1-u^2`$ concern a different coefficient and bounded state interval. This entry asks for a moment estimate, not for existence of the already constructed variational solution.
 
 ## Editorial hold
 

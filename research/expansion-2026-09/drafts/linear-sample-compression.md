@@ -8,25 +8,25 @@
 
 ## Problem statement
 
-Let $X$ be a finite set and let $\varnothing\ne\mathcal C\subseteq\{0,1\}^{X}$. A set $B\subseteq X$ is shattered if every binary labeling of $B$ is the restriction of a member of $\mathcal C$; write $d$ for the largest size of such a set. Assume $d\ge1$.
+Let $`X`$ be a finite set and let $`\varnothing\ne\mathcal C\subseteq\{0,1\}^{X}`$. A set $`B\subseteq X`$ is shattered if every binary labeling of $`B`$ is the restriction of a member of $`\mathcal C`$; write $`d`$ for the largest size of such a set. Assume $`d\ge1`$.
 
-Let $\mathcal S_{\mathcal C}$ consist of labeled samples $S\subseteq X\times\{0,1\}$ consistent with some $c\in\mathcal C$. A compression scheme consists of maps
+Let $`\mathcal S_{\mathcal C}`$ consist of labeled samples $`S\subseteq X\times\{0,1\}`$ consistent with some $`c\in\mathcal C`$. A compression scheme consists of maps
 
-$$
+```math
 \kappa:\mathcal S_{\mathcal C}\longrightarrow
 \mathcal S_{\mathcal C}\times\{0,1\}^{*},\qquad
 \rho:\mathcal S_{\mathcal C}\times\{0,1\}^{*}
 \longrightarrow\{0,1\}^{X}.
-$$
+```
 
-For every $S$, writing $\kappa(S)=(T,b)$, require $T\subseteq S$ and $\rho(T,b)(x)=y$ for all $(x,y)\in S$. Here $b$ is a finite bitstring. The size of the scheme is
+For every $`S`$, writing $`\kappa(S)=(T,b)`$, require $`T\subseteq S`$ and $`\rho(T,b)(x)=y`$ for all $`(x,y)\in S`$. Here $`b`$ is a finite bitstring. The size of the scheme is
 
-$$
+```math
 \max_{S\in\mathcal S_{\mathcal C}}|T(S)|
 +\max_{S\in\mathcal S_{\mathcal C}}|b(S)|.
-$$
+```
 
-Does a universal constant $K$ exist such that every such class admits a scheme of size at most $Kd$? The maps may depend on $X$ and $\mathcal C$, but the same maps must serve every realizable sample. No runtime bound is imposed. The reconstructor receives only $(T,b)$ and may output a function outside $\mathcal C$. The retained sample is an unordered set; additional ordering information must be encoded in $b$.
+Does a universal constant $`K`$ exist such that every such class admits a scheme of size at most $`Kd`$? The maps may depend on $`X`$ and $`\mathcal C`$, but the same maps must serve every realizable sample. No runtime bound is imposed. The reconstructor receives only $`(T,b)`$ and may output a function outside $`\mathcal C`$. The retained sample is an unordered set; additional ordering information must be encoded in $`b`$.
 
 ## Applied significance
 
@@ -41,9 +41,9 @@ Sample compression models learning from a small selection of observed examples. 
 
 ## Status review
 
-The April 2026 graph paper explicitly retains the linear-size conjecture with the set-and-bitstring convention used here. Attias–Hanneke–Ramaswami independently discuss the unresolved binary conjecture. Moran–Yehudayoff prove a general exponential bound in $d$, already independent of sample size; the remaining issue is linear dependence on dimension.
+The April 2026 graph paper explicitly retains the linear-size conjecture with the set-and-bitstring convention used here. Attias–Hanneke–Ramaswami independently discuss the unresolved binary conjecture. Moran–Yehudayoff prove a general exponential bound in $`d`$, already independent of sample size; the remaining issue is linear dependence on dimension.
 
-The embedding obstruction rules out one proposed route through extremal classes, rather than all compression maps. Results for graph balls and complexes of oriented matroids impose structural hypotheses. The Pálvölgyi–Tardos counterexample concerns unlabeled compression of size exactly $d$. A 2026 negative result additionally requires monotonicity under inserted examples. Neither is a counterexample to this formulation.
+The embedding obstruction rules out one proposed route through extremal classes, rather than all compression maps. Results for graph balls and complexes of oriented matroids impose structural hypotheses. The Pálvölgyi–Tardos counterexample concerns unlabeled compression of size exactly $`d`$. A 2026 negative result additionally requires monotonicity under inserted examples. Neither is a counterexample to this formulation.
 
 The apparent March 2026 compression claim, later retitled, is [withdrawn in arXiv v4](https://arxiv.org/abs/2603.23561), with the authors reporting an incorrect proof of Lemma 2. Its withdrawal is not an independent verification of the argument. Full scope comparisons and source limitations are in the [evidence ledger](../candidates/linear-sample-compression.json). This family is counted once, without separate entries for stronger or restricted compression variants.
 

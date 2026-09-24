@@ -8,27 +8,27 @@
 
 ## Problem statement
 
-For an integer $n\ge3$ and $\alpha\ge1$, draw a partition $\lambda\vdash n$ with Jack probability
+For an integer $`n\ge3`$ and $`\alpha\ge1`$, draw a partition $`\lambda\vdash n`$ with Jack probability
 
-$$
+```math
 \mathbb P_\alpha(\lambda)=\frac{\alpha^n n!}{\prod_{u\in\lambda}(\alpha a(u)+\ell(u)+1)(\alpha a(u)+\ell(u)+\alpha)},
-$$
+```
 
-where $a(u)$ and $\ell(u)$ count the boxes to the right of and below $u$ in its Young diagram. Write $\lambda_i$ and $\lambda_i'$ for its row and column lengths, and define
+where $`a(u)`$ and $`\ell(u)`$ count the boxes to the right of and below $`u`$ in its Young diagram. Write $`\lambda_i`$ and $`\lambda_i'`$ for its row and column lengths, and define
 
-$$
+```math
 W_{n,\alpha}=\frac{\sum_i\left[\alpha\binom{\lambda_i}{2}-\binom{\lambda_i'}{2}\right]}{\sqrt{\alpha\binom n2}}.
-$$
+```
 
-Does a universal constant $C<\infty$, independent of both $n$ and $\alpha$, satisfy
+Does a universal constant $`C<\infty`$, independent of both $`n`$ and $`\alpha`$, satisfy
 
-$$
+```math
 \sup_{x\in\mathbb R}\left|\mathbb P_\alpha(W_{n,\alpha}\le x)-\Phi(x)\right|\le C\max\left\{n^{-1/2},\frac{\sqrt\alpha}{n}\right\}
-$$
+```
 
-for all such $n,\alpha$, where $\Phi$ is the standard normal distribution function?
+for all such $`n,\alpha`$, where $`\Phi`$ is the standard normal distribution function?
 
-The uniform dependence on $\alpha$ is essential: a bound with a constant depending on a fixed $\alpha$ does not settle the question.
+The uniform dependence on $`\alpha`$ is essential: a bound with a constant depending on a fixed $`\alpha`$ does not settle the question.
 
 ## Application
 
@@ -42,8 +42,8 @@ Jack measures model dependent random partitions and serve as discrete counterpar
 
 ## Status review
 
-**Known cases:** The conjectured order holds in Wasserstein distance. In Kolmogorov distance, the 2021 bound is $8.2\max\{n^{-1/2},\sqrt\alpha\log(n)/n\}$; this has the desired order for $1\le\alpha\le n/\log^2 n$. For each fixed $\delta>0$, the desired order also holds when $\alpha\ge n^{1+\delta}$, with a constant depending on $\delta$.
+**Known cases:** The conjectured order holds in Wasserstein distance. In Kolmogorov distance, the 2021 bound is $`8.2\max\{n^{-1/2},\sqrt\alpha\log(n)/n\}`$; this has the desired order for $`1\le\alpha\le n/\log^2 n`$. For each fixed $`\delta>0`$, the desired order also holds when $`\alpha\ge n^{1+\delta}`$, with a constant depending on $`\delta`$.
 
-**Remaining target:** Remove the logarithmic loss with one constant valid across the full parameter range, including the transition around $\alpha=n$.
+**Remaining target:** Remove the logarithmic loss with one constant valid across the full parameter range, including the transition around $`\alpha=n`$.
 
-The 2025 follow-up explicitly recalls the logarithmic gap and proves a non-uniform-in-$x$ bound only on a restricted parameter range. Current web and arXiv searches, together with native GitHub, Zenodo and Palomar checks, found no full-scope solution announcement.
+The 2025 follow-up explicitly recalls the logarithmic gap and proves a non-uniform-in-$`x`$ bound only on a restricted parameter range. Current web and arXiv searches, together with native GitHub, Zenodo and Palomar checks, found no full-scope solution announcement.

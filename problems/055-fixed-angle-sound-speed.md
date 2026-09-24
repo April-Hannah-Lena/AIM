@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-Fix $\theta_0\in S^2$ and $R>0$. Let $c\in C^\infty(\mathbb R^3)$ be positive and equal to one outside $B_R$. For each $k>0$, solve
+Fix $`\theta_0\in S^2`$ and $`R>0`$. Let $`c\in C^\infty(\mathbb R^3)`$ be positive and equal to one outside $`B_R`$. For each $`k>0`$, solve
 
-$$
+```math
 (\Delta+k^2c(x)^{-2})u=0,\qquad
 u=e^{ikx\cdot\theta_0}+u^s,
-$$
+```
 
 with outgoing scattered field. Write
-$u^s(r\omega)=r^{-1}e^{ikr}a_c(\omega,k)+O(r^{-2})$.
+$`u^s(r\omega)=r^{-1}e^{ikr}a_c(\omega,k)+O(r^{-2})`$.
 
-Does equality of $a_{c_1}(\omega,k)$ and $a_{c_2}(\omega,k)$ for all $\omega\in S^2$ and $k>0$ force $c_1=c_2$? Both speeds may be far from constant. Only one incoming plane-wave direction is used.
+Does equality of $`a_{c_1}(\omega,k)`$ and $`a_{c_2}(\omega,k)`$ for all $`\omega\in S^2`$ and $`k>0`$ force $`c_1=c_2`$? Both speeds may be far from constant. Only one incoming plane-wave direction is used.
 
 ## Application
 

@@ -8,25 +8,25 @@
 
 ## Problem statement
 
-For some $v_E>v_F>0$, $y_L,a_*,y_*,c>0$, does the following model admit a nonnegative probability density $F(t,v,y)$ that is $T$-periodic for some $T>0$ and has nonconstant firing rate $N(t)$? Put
+For some $`v_E>v_F>0`$, $`y_L,a_*,y_*,c>0`$, does the following model admit a nonnegative probability density $`F(t,v,y)`$ that is $`T`$-periodic for some $`T>0`$ and has nonconstant firing rate $`N(t)`$? Put
 
-$$
+```math
 J(v,y)=y(v_E-v)-y_Lv,\quad y_F=\frac{y_Lv_F}{v_E-v_F},\quad N(t)=\int_{y_F}^{\infty}J(v_F,y)F(t,v_F,y)\,dy,
-$$
+```
 
 
 
-$$
+```math
 K_F(t,y)=y_*+cN(t)-y,\qquad a_F(t)=a_*+c^2N(t).
-$$
+```
 
-On $(v,y)\in(0,v_F)\times(0,\infty)$ require
+On $`(v,y)\in(0,v_F)\times(0,\infty)`$ require
 
-$$
+```math
 \partial_tF+\partial_v(JF)+\partial_y(K_FF)-a_F\partial_{yy}F=0,\qquad \iint F\,dv\,dy=1.
-$$
+```
 
-For $0<y<y_F$, impose $F(t,0,y)=F(t,v_F,y)=0$; for $y>y_F$, impose $J(0,y)F(t,0,y)=J(v_F,y)F(t,v_F,y)$. At $y=0$ impose $K_FF-a_F\partial_yF=0$, with vanishing flux as $y\to\infty$. Seek a distributional solution continuous in time into $L^1$, with these boundary traces, finite entropy and uniformly finite second $y$-moment over one period.
+For $`0<y<y_F`$, impose $`F(t,0,y)=F(t,v_F,y)=0`$; for $`y>y_F`$, impose $`J(0,y)F(t,0,y)=J(v_F,y)F(t,v_F,y)`$. At $`y=0`$ impose $`K_FF-a_F\partial_yF=0`$, with vanishing flux as $`y\to\infty`$. Seek a distributional solution continuous in time into $`L^1`$, with these boundary traces, finite entropy and uniformly finite second $`y`$-moment over one period.
 
 ## Application
 

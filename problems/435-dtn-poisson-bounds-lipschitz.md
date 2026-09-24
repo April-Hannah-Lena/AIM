@@ -7,14 +7,14 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^d$, $d\ge2$, be a bounded connected Lipschitz domain, $\Gamma=\partial\Omega$, and let $C(x)$ be a real smooth symmetric matrix on a neighborhood of $\overline\Omega$, with $\xi^TC(x)\xi\ge\mu|\xi|^2$ for some $\mu>0$. Define $N\varphi=\nu\cdot C\nabla u$ weakly, where $\mathop{\mathrm{div}}\nolimits(C\nabla u)=0$ and $u|_\Gamma=\varphi$.
-Does $e^{-tN}$ have an integral kernel, with respect to surface measure, satisfying
+Let $`\Omega\subset\mathbb R^d`$, $`d\ge2`$, be a bounded connected Lipschitz domain, $`\Gamma=\partial\Omega`$, and let $`C(x)`$ be a real smooth symmetric matrix on a neighborhood of $`\overline\Omega`$, with $`\xi^TC(x)\xi\ge\mu|\xi|^2`$ for some $`\mu>0`$. Define $`N\varphi=\nu\cdot C\nabla u`$ weakly, where $`\mathop{\mathrm{div}}\nolimits(C\nabla u)=0`$ and $`u|_\Gamma=\varphi`$.
+Does $`e^{-tN}`$ have an integral kernel, with respect to surface measure, satisfying
 
-$$
+```math
 |K_t(z,w)|\le M t^{-(d-1)}e^{\omega t}\left(1+\frac{|z-w|}{t}\right)^{-d}
-$$
+```
 
-for every $t>0$ and almost every $z,w\in\Gamma$, with $M,\omega$ depending only on the domain and coefficients? The weak definition uses $u\in H^1(\Omega)$ and the Green identity against all $H^1(\Omega)$ test functions.
+for every $`t>0`$ and almost every $`z,w\in\Gamma`$, with $`M,\omega`$ depending only on the domain and coefficients? The weak definition uses $`u\in H^1(\Omega)`$ and the Green identity against all $`H^1(\Omega)`$ test functions.
 
 ## Application
 

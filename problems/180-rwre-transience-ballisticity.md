@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-At each $x\in\mathbb Z^3$, sample independently an identically distributed probability vector $(\omega_x(e))_{|e|_1=1}$. Assume a deterministic $\kappa>0$ satisfies $\omega_x(e)\ge\kappa$ almost surely for every direction $e$. Given the environment, start $X_0=0$ and use transition probabilities $P_\omega(X_{n+1}=x+e\mid X_n=x)=\omega_x(e)$. Write $P$ for the joint law of environment and walk. For any unit vector $\ell$, does
+At each $`x\in\mathbb Z^3`$, sample independently an identically distributed probability vector $`(\omega_x(e))_{|e|_1=1}`$. Assume a deterministic $`\kappa>0`$ satisfies $`\omega_x(e)\ge\kappa`$ almost surely for every direction $`e`$. Given the environment, start $`X_0=0`$ and use transition probabilities $`P_\omega(X_{n+1}=x+e\mid X_n=x)=\omega_x(e)`$. Write $`P`$ for the joint law of environment and walk. For any unit vector $`\ell`$, does
 
-$$
+```math
 P(X_n\cdot\ell\longrightarrow+\infty)=1
-$$
+```
 
-imply the existence of a deterministic $v$ with $v\cdot\ell>0$ and $P(X_n/n\to v)=1$?
+imply the existence of a deterministic $`v`$ with $`v\cdot\ell>0`$ and $`P(X_n/n\to v)=1`$?
 
 ## Application
 

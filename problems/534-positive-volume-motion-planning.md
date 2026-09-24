@@ -8,33 +8,33 @@
 
 ## Problem statement
 
-Let $M$ be a closed, connected, oriented aspherical manifold of dimension $n\ge3$. Thus its universal cover is contractible. Define its simplicial volume using rational singular cycles by
+Let $`M`$ be a closed, connected, oriented aspherical manifold of dimension $`n\ge3`$. Thus its universal cover is contractible. Define its simplicial volume using rational singular cycles by
 
-$$
+```math
 \|M\|=\inf\left\{\sum_j|a_j|:\ \sum_j a_j\sigma_j\text{ represents }[M]\in H_n(M;\mathbb Q)\right\}.
-$$
+```
 
-Assume $\|M\|>0$.
+Assume $`\|M\|>0`$.
 
-Use unreduced topological complexity: $\mathop{\mathrm{TC}}\nolimits(M)$ is the least number of open sets covering $M\times M$ on each of which the endpoint map
+Use unreduced topological complexity: $`\mathop{\mathrm{TC}}\nolimits(M)`$ is the least number of open sets covering $`M\times M`$ on each of which the endpoint map
 
-$$
+```math
 e:C([0,1],M)\longrightarrow M\times M,\qquad e(\gamma)=(\gamma(0),\gamma(1)),
-$$
+```
 
 with the compact-open topology on the path space, has a continuous section.
 
 Must
 
-$$
+```math
 \mathop{\mathrm{TC}}\nolimits(M)=2n+1?
-$$
+```
 
-Prove this for every such $M$, or construct a counterexample. No curvature hypothesis is imposed. This is Question 5.1(b) of [1], with the already understood surface case omitted.
+Prove this for every such $`M`$, or construct a counterexample. No curvature hypothesis is imposed. This is Question 5.1(b) of [1], with the already understood surface case omitted.
 
 ## Application
 
-When $M$ models a configuration space, each local section is a continuous path-planning rule. The proposed equality would certify that positive simplicial volume forces the largest possible number of such rules allowed by dimension. It would extend a geometric obstruction to motion planning beyond negatively curved spaces.
+When $`M`$ models a configuration space, each local section is a continuous path-planning rule. The proposed equality would certify that positive simplicial volume forces the largest possible number of such rules allowed by dimension. It would extend a geometric obstruction to motion planning beyond negatively curved spaces.
 
 ## References
 

@@ -8,20 +8,20 @@
 
 ## Problem statement
 
-For each $N\ge4$, let $\Gamma_N^Q$ be the closure of the conic hull of vectors $(S(\rho_I))_{\varnothing\ne I\subseteq[N]}$, over all finite-dimensional $N$-party density matrices and all local dimensions. Here $\rho_I$ is the reduced state and $S(\rho)=-\mathop{\mathrm{tr}}\nolimits(\rho\log_2\rho)$.
+For each $`N\ge4`$, let $`\Gamma_N^Q`$ be the closure of the conic hull of vectors $`(S(\rho_I))_{\varnothing\ne I\subseteq[N]}`$, over all finite-dimensional $`N`$-party density matrices and all local dimensions. Here $`\rho_I`$ is the reduced state and $`S(\rho)=-\mathop{\mathrm{tr}}\nolimits(\rho\log_2\rho)`$.
 
-Let $\Sigma_N$ be the cone of vectors $h$ with $h(\varnothing)=0$, $h(I)\ge0$, and, for every pairwise disjoint $I,J,K$,
+Let $`\Sigma_N`$ be the cone of vectors $`h`$ with $`h(\varnothing)=0`$, $`h(I)\ge0`$, and, for every pairwise disjoint $`I,J,K`$,
 
-$$
+```math
 \begin{aligned}
 h(I)+h(J)&\ge h(IJ),\\
 h(I)+h(IJ)&\ge h(J),\\
 h(IJ)+h(JK)&\ge h(J)+h(IJK),\\
 h(IJ)+h(JK)&\ge h(I)+h(K),
 \end{aligned}
-$$
+```
 
-where juxtaposition denotes union. Determine whether $\Gamma_N^Q=\Sigma_N$ for every $N\ge4$, or exhibit a universal homogeneous linear inequality not implied by these constraints.
+where juxtaposition denotes union. Determine whether $`\Gamma_N^Q=\Sigma_N`$ for every $`N\ge4`$, or exhibit a universal homogeneous linear inequality not implied by these constraints.
 
 ## Application
 

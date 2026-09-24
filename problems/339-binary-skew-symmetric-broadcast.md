@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-A transmitter sends a bit $X$ to two receivers with binary outputs $Y$ and $Z$. Fix the memoryless channel whose transition matrices are
+A transmitter sends a bit $`X`$ to two receivers with binary outputs $`Y`$ and $`Z`$. Fix the memoryless channel whose transition matrices are
 
-$$
+```math
 P_{Y\mid X}=
 \begin{pmatrix}
 1&0\\
@@ -22,22 +22,22 @@ P_{Z\mid X}=
 1/2&1/2\\
 0&1
 \end{pmatrix}.
-$$
+```
 
-Rows correspond to $X=0,1$ and columns to the output values $0,1$. Thus input zero is received without error by the first receiver, while input one is received without error by the second. The other output is a fair bit. The joint law is $W(y,z\mid x)=P_{Y\mid X}(y\mid x)P_{Z\mid X}(z\mid x)$; successive uses are conditionally independent given the transmitted sequence. [1, §5]
+Rows correspond to $`X=0,1`$ and columns to the output values $`0,1`$. Thus input zero is received without error by the first receiver, while input one is received without error by the second. The other output is a fair bit. The joint law is $`W(y,z\mid x)=P_{Y\mid X}(y\mid x)P_{Z\mid X}(z\mid x)`$; successive uses are conditionally independent given the transmitted sequence. [1, §5]
 
-For each block length $n$, let $W_1,W_2$ be independent uniform messages with respective message-set sizes $M_{1,n},M_{2,n}$. An arbitrary encoder maps the message pair to $X^n\in\{0,1\}^n$. Receiver one estimates $W_1$ from $Y^n$, and receiver two estimates $W_2$ from $Z^n$. The transmitter receives no feedback, and the receivers cannot communicate. There is no separately requested common message; common coding layers are allowed.
+For each block length $`n`$, let $`W_1,W_2`$ be independent uniform messages with respective message-set sizes $`M_{1,n},M_{2,n}`$. An arbitrary encoder maps the message pair to $`X^n\in\{0,1\}^n`$. Receiver one estimates $`W_1`$ from $`Y^n`$, and receiver two estimates $`W_2`$ from $`Z^n`$. The transmitter receives no feedback, and the receivers cannot communicate. There is no separately requested common message; common coding layers are allowed.
 
-A nonnegative rate pair $(R_1,R_2)$ is achievable if a sequence of these codes satisfies
+A nonnegative rate pair $`(R_1,R_2)`$ is achievable if a sequence of these codes satisfies
 
-$$
+```math
 \liminf_{n\to\infty}\frac{\log_2 M_{i,n}}{n}\ge R_i
 \quad(i=1,2),
 \qquad
 \Pr\{\widehat W_1\ne W_1\ \text{or}\ \widehat W_2\ne W_2\}\longrightarrow0.
-$$
+```
 
-Let $\mathcal C_{\mathrm{BSSC}}$ be the closure of the achievable rate pairs. **Determine $\mathcal C_{\mathrm{BSSC}}$ exactly, with matching achievability and converse bounds.** Rates are measured in bits per channel use. Codes need not be linear or computationally efficient, and the input distribution is unrestricted. This is the standard private-message problem for the fixed channel above. [1, §5; 2, §1.1]
+Let $`\mathcal C_{\mathrm{BSSC}}`$ be the closure of the achievable rate pairs. **Determine $`\mathcal C_{\mathrm{BSSC}}`$ exactly, with matching achievability and converse bounds.** Rates are measured in bits per channel use. Codes need not be linear or computationally efficient, and the input distribution is unrestricted. This is the standard private-message problem for the fixed channel above. [1, §5; 2, §1.1]
 
 ## Application
 
@@ -59,9 +59,9 @@ This channel is a basic model of one sender delivering separate data streams to 
 
 Dou and coauthors [1] explicitly retain the fixed channel's capacity-region question, independently of Nair's account [2]. The January 2026 manuscript [6] still states that even its sum capacity is unknown. These sources use equivalent conventions obtained by interchanging receiver names or relabelling bits.
 
-The established information inequality in [3, 4] evaluates Marton's achievable sum rate as approximately $0.36164288$ bits per use, while the older UV upper bound is approximately $0.3725562$. This proves a gap between those two descriptions; their equality is not the open question. Source [5] develops stronger auxiliary-receiver converses. Source [6] reports a numerical evaluation of approximately $0.36929634$ for its newer bound, which still exceeds the achievable sum rate. That numerical optimization was not independently reproduced or certified here. Determining even the maximum sum rate would not by itself characterize the entire capacity boundary.
+The established information inequality in [3, 4] evaluates Marton's achievable sum rate as approximately $`0.36164288`$ bits per use, while the older UV upper bound is approximately $`0.3725562`$. This proves a gap between those two descriptions; their equality is not the open question. Source [5] develops stronger auxiliary-receiver converses. Source [6] reports a numerical evaluation of approximately $`0.36929634`$ for its newer bound, which still exceeds the achievable sum rate. That numerical optimization was not independently reproduced or certified here. Determining even the maximum sum rate would not by itself characterize the entire capacity boundary.
 
-The local tensorization result [2] concerns products of local optimizers and does not establish the global optimality needed for a capacity theorem. The algorithms in [1] evaluate inner and outer bounds under stated convergence hypotheses; they do not prove that a bound equals capacity. The June 2026 exact-capacity theorem [7] requires a disjoint sum of component channels, with the component identifiable from either output. From the matrices above, both inputs can produce $Y=0$, and both can produce $Z=1$. Thus this BSSC fails the theorem's output-disjointness requirement for a nontrivial sum.
+The local tensorization result [2] concerns products of local optimizers and does not establish the global optimality needed for a capacity theorem. The algorithms in [1] evaluate inner and outer bounds under stated convergence hypotheses; they do not prove that a bound equals capacity. The June 2026 exact-capacity theorem [7] requires a disjoint sum of component channels, with the component identifiable from either output. From the matrices above, both inputs can produce $`Y=0`$, and both can produce $`Z=1`$. Thus this BSSC fails the theorem's output-disjointness requirement for a nontrivial sum.
 
 The September 18, 2026 investigation covered channel aliases, the exact matrices and coding model, current and unrestricted resolution searches, author publications, revisions and corrections. The withdrawn 2009 preprint was replaced by version 3; the later combined journal article [4] supplies the same pertinent inequality and bound evaluations. Bibliography access limitations and the complete theorem comparisons are recorded in the [evidence ledger](../research/expansion-2026-09/candidates/binary-skew-symmetric-broadcast.json). A separated adversarial self-pass checked the newer version of [7] and distinguished a solved single-user channel with the same acronym. No independent agent or human review has occurred.
 

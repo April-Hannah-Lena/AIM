@@ -8,30 +8,30 @@
 
 ## Problem statement
 
-Let $\Gamma$ be an infinite finitely generated group, and let $S\subset\Gamma\setminus\{e\}$ be any finite symmetric generating set, where $e$ is the identity and symmetric means $S^{-1}=S$. Its undirected Cayley graph $G=(\Gamma,E)$ has an edge $\{x,xs\}$ for each $x\in\Gamma$ and $s\in S$. Assume $G$ is nonamenable:
+Let $`\Gamma`$ be an infinite finitely generated group, and let $`S\subset\Gamma\setminus\{e\}`$ be any finite symmetric generating set, where $`e`$ is the identity and symmetric means $`S^{-1}=S`$. Its undirected Cayley graph $`G=(\Gamma,E)`$ has an edge $`\{x,xs\}`$ for each $`x\in\Gamma`$ and $`s\in S`$. Assume $`G`$ is nonamenable:
 
-$$
+```math
 h_E(G):=\inf_{\substack{\varnothing\ne K\subset\Gamma\\ |K|<\infty}}
 \frac{|\partial_E K|}{|K|}>0,
-$$
+```
 
-where $\partial_EK$ is the set of edges with exactly one endpoint in $K$.
+where $`\partial_EK`$ is the set of edges with exactly one endpoint in $`K`$.
 
-Consider the ordinary contact process $(\xi_t)_{t\ge0}$, whose state is the set of infected vertices. Each infected vertex becomes healthy at rate $1$; each healthy vertex becomes infected at rate $\lambda$ times its number of infected neighbors. Initially $\xi_0=\{e\}$. Write $\mathbb P_\lambda$ for its law and define
+Consider the ordinary contact process $`(\xi_t)_{t\ge0}`$, whose state is the set of infected vertices. Each infected vertex becomes healthy at rate $`1`$; each healthy vertex becomes infected at rate $`\lambda`$ times its number of infected neighbors. Initially $`\xi_0=\{e\}`$. Write $`\mathbb P_\lambda`$ for its law and define
 
-$$
+```math
 \lambda_{\mathrm{g}}(G)
 =\inf\{\lambda>0:\mathbb P_\lambda(\xi_t\ne\varnothing\text{ for all }t\ge0)>0\},
-$$
+```
 
 
 
-$$
+```math
 \lambda_{\mathrm{l}}(G)
 =\inf\{\lambda>0:\mathbb P_\lambda(e\in\xi_t\text{ for arbitrarily large }t)>0\}.
-$$
+```
 
-**Must $\lambda_{\mathrm{g}}(G)<\lambda_{\mathrm{l}}(G)$ for every such Cayley graph?**
+**Must $`\lambda_{\mathrm{g}}(G)<\lambda_{\mathrm{l}}(G)`$ for every such Cayley graph?**
 
 This is the isotropic Cayley-graph form of the weak-survival conjecture discussed by Lyons, Lalley and Swart. A strict gap gives an interval of infection rates with positive probability of survival forever, while each fixed finite set is eventually infection-free almost surely. The generating set is arbitrary but fixed when defining the process; finding a favorable generating set for each group would not answer the question. No behavior at either endpoint is asserted.
 
@@ -51,7 +51,7 @@ The contact process is a basic susceptible–infected–susceptible epidemic mod
 
 The literature check on 2026-09-17 covered weak/intermediate survival, distinct local and global critical values, Cayley/transitive nonamenable graphs, proof and counterexample searches, and author corrections. The [evidence record](../candidates/contact-process-nonamenable-weak-survival.json) gives exact queries, hypotheses and access limits.
 
-The gap is established for regular trees and for transitive degree-$d$ graphs satisfying $h_E(G)/d\ge1/\sqrt2$; see Lyons’s Theorems 8.1 and 8.7. Huang’s Theorem 7 extends tree results to general periodic trees. These restrictions leave nonamenable Cayley graphs with cycles and without the stated quantitative expansion bound untreated. Swart’s critical-extinction theorem applies to this model, but extinction at $\lambda_{\mathrm{g}}$ does not itself separate $\lambda_{\mathrm{g}}$ from $\lambda_{\mathrm{l}}$.
+The gap is established for regular trees and for transitive degree-$`d`$ graphs satisfying $`h_E(G)/d\ge1/\sqrt2`$; see Lyons’s Theorems 8.1 and 8.7. Huang’s Theorem 7 extends tree results to general periodic trees. These restrictions leave nonamenable Cayley graphs with cycles and without the stated quantitative expansion bound untreated. Swart’s critical-extinction theorem applies to this model, but extinction at $`\lambda_{\mathrm{g}}`$ does not itself separate $`\lambda_{\mathrm{g}}`$ from $`\lambda_{\mathrm{l}}`$.
 
 Pemantle–Stacey counterexamples show that nonamenability alone is insufficient on arbitrary bounded-degree trees. Their primary manuscript was inaccessible, so this fact was checked through Lyons’s explicit restatement on p. 34. Such a counterexample cannot be a Cayley tree: Cayley graphs are regular, and the regular-tree theorem gives a strict gap. This scope conclusion is an inference from the two statements, not a claim to have read the inaccessible construction. The separate adversarial review is recorded in the ledger.
 

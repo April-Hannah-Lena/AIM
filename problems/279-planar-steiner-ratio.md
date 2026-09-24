@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-For a finite set $A\subset\mathbb R^2$ with at least two distinct points, let $M(A)$ be the minimum total edge length of a tree with vertex set exactly $A$. Let $S(A)$ be the infimum of the lengths of finite straight-edge trees whose vertex sets contain $A$ and may contain additional junctions anywhere in the plane. Is $S(A)\ge(\sqrt3/2)M(A)$ for every $A$?
+For a finite set $`A\subset\mathbb R^2`$ with at least two distinct points, let $`M(A)`$ be the minimum total edge length of a tree with vertex set exactly $`A`$. Let $`S(A)`$ be the infimum of the lengths of finite straight-edge trees whose vertex sets contain $`A`$ and may contain additional junctions anywhere in the plane. Is $`S(A)\ge(\sqrt3/2)M(A)`$ for every $`A`$?
 
 ## Application
 

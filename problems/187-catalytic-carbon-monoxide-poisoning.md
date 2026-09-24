@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Consider states $0$ (vacant), $1$ (CO) and $2$ (oxygen) on $\mathbb Z^2$. A vacant site becomes $1$ at rate $p$. Each unordered nearest-neighbor pair in state $(0,0)$ changes to $(2,2)$ at rate $q/4$, and each pair containing one $1$ and one $2$ changes to $(0,0)$ at rate $r/4$. Each pair also exchanges its states at rate $\gamma$. Assume $p>q>0$, $0<r<\infty$ and $0<\gamma<\infty$.
+Consider states $`0`$ (vacant), $`1`$ (CO) and $`2`$ (oxygen) on $`\mathbb Z^2`$. A vacant site becomes $`1`$ at rate $`p`$. Each unordered nearest-neighbor pair in state $`(0,0)`$ changes to $`(2,2)`$ at rate $`q/4`$, and each pair containing one $`1`$ and one $`2`$ changes to $`(0,0)`$ at rate $`r/4`$. Each pair also exchanges its states at rate $`\gamma`$. Assume $`p>q>0`$, $`0<r<\infty`$ and $`0<\gamma<\infty`$.
 
-Let the initial site states be independent and identically distributed with $P(\eta_0(0)=1)>0$. For every such initial law and every choice of the parameters above, is it true that, for every finite $K\subset\mathbb Z^2$,
+Let the initial site states be independent and identically distributed with $`P(\eta_0(0)=1)>0`$. For every such initial law and every choice of the parameters above, is it true that, for every finite $`K\subset\mathbb Z^2`$,
 
-$$
+```math
 \lim_{t\to\infty}P(\eta_t(x)=1\text{ for all }x\in K)=1?
-$$
+```
 
 ## Application
 
@@ -29,6 +29,6 @@ A surface poisoned by CO can no longer oxidize the pollutant. The statement asks
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-The book proves clustering into the two poisoned states under translation-invariant initial laws, but leaves selection of the CO state open. This entry takes independent positive-CO-density initial laws and positive finite stirring, within the setting of the original conjecture. Strict $p>q$ avoids the borderline parameter. Reaction rate $r$ is finite; results for monatomic arrivals or instantaneous reactions address different models.
+The book proves clustering into the two poisoned states under translation-invariant initial laws, but leaves selection of the CO state open. This entry takes independent positive-CO-density initial laws and positive finite stirring, within the setting of the original conjecture. Strict $`p>q`$ avoids the borderline parameter. Reaction rate $`r`$ is finite; results for monatomic arrivals or instantaneous reactions address different models.
 
 Search topics checked on 2026-09-08: catalytic surface CO poisoning Durrett Swindle open problem; catalyst model poisoning convergence 2026; Grannan Swindle monatomic instantaneous reaction versus diatomic finite reaction.

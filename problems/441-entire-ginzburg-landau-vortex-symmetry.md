@@ -7,19 +7,19 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-Let $u\in C^\infty(\mathbb R^2;\mathbb C)$ satisfy
+Let $`u\in C^\infty(\mathbb R^2;\mathbb C)`$ satisfy
 
-$$
+```math
 -\Delta u=u(1-|u|^2),\qquad \lim_{|x|\to\infty}|u(x)|=1,
-$$
+```
 
-and let its degree on sufficiently large circles be an integer $q\ge2$. Must there exist $x_0\in\mathbb R^2$ and $\alpha\in\mathbb C$, $|\alpha|=1$, such that
+and let its degree on sufficiently large circles be an integer $`q\ge2`$. Must there exist $`x_0\in\mathbb R^2`$ and $`\alpha\in\mathbb C`$, $`|\alpha|=1`$, such that
 
-$$
+```math
 u(x_0+re^{i\theta})=\alpha e^{iq\theta}g_q(r)?
-$$
+```
 
-Here $g_q$ is the positive radial vortex profile solving $g_q''+r^{-1}g_q'-q^2r^{-2}g_q+g_q(1-g_q^2)=0$, $g_q(0)=0$, $g_q(r)\to1$. A single nonradial entire solution in this class would disprove the assertion.
+Here $`g_q`$ is the positive radial vortex profile solving $`g_q''+r^{-1}g_q'-q^2r^{-2}g_q+g_q(1-g_q^2)=0`$, $`g_q(0)=0`$, $`g_q(r)\to1`$. A single nonradial entire solution in this class would disprove the assertion.
 
 ## Application
 

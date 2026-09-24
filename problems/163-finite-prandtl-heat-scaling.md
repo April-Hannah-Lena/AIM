@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-On $\Omega=(\mathbb R/\mathbb Z)\times(0,1)$, take Prandtl number one and consider the two-dimensional Boussinesq system
+On $`\Omega=(\mathbb R/\mathbb Z)\times(0,1)`$, take Prandtl number one and consider the two-dimensional Boussinesq system
 
-$$
+```math
 \partial_tu+u\cdot\nabla u+\nabla p=\Delta u+\mathrm{Ra}\,T e_2,\quad\mathop{\mathrm{div}}\nolimits u=0,\quad\partial_tT+u\cdot\nabla T=\Delta T.
-$$
+```
 
-Impose horizontal periodicity, $u=0$ on the walls, $T(x,0)=1$ and $T(x,1)=0$. For each $\mathrm{Ra}>0$, let $\mathcal N(\mathrm{Ra})$ be the supremum, over smooth compatible initial data with $0\le T_0\le1$, of
+Impose horizontal periodicity, $`u=0`$ on the walls, $`T(x,0)=1`$ and $`T(x,1)=0`$. For each $`\mathrm{Ra}>0`$, let $`\mathcal N(\mathrm{Ra})`$ be the supremum, over smooth compatible initial data with $`0\le T_0\le1`$, of
 
-$$
+```math
 \limsup_{\tau\to\infty}\frac1\tau\int_0^\tau\int_\Omega|\nabla T(t,x)|^2\,dx\,dt.
-$$
+```
 
-Determine the number $\beta_*:=\limsup_{\mathrm{Ra}\to\infty}\log\mathcal N(\mathrm{Ra})/\log\mathrm{Ra}$. This asks for the optimal power-law exponent for actual solutions with these fixed boundary conditions and finite Prandtl number.
+Determine the number $`\beta_*:=\limsup_{\mathrm{Ra}\to\infty}\log\mathcal N(\mathrm{Ra})/\log\mathrm{Ra}`$. This asks for the optimal power-law exponent for actual solutions with these fixed boundary conditions and finite Prandtl number.
 
 ## Application
 

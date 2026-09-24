@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-Fix constants $a,b>0$, $a\ne b$. On the rod $(0,1)$ consider $y_t=y_{xx}$, $y(0,x)=a$, with nonnegative Dirichlet controls $y(t,0)=u_0(t)$ and $y(t,1)=u_1(t)$. Let $T_*$ be the infimum of times in which bounded nonnegative controls can produce $y(T,x)=b$.
+Fix constants $`a,b>0`$, $`a\ne b`$. On the rod $`(0,1)`$ consider $`y_t=y_{xx}`$, $`y(0,x)=a`$, with nonnegative Dirichlet controls $`y(t,0)=u_0(t)`$ and $`y(t,1)=u_1(t)`$. Let $`T_*`$ be the infimum of times in which bounded nonnegative controls can produce $`y(T,x)=b`$.
 
-Is the pair of nonnegative finite Radon measures attaining this minimum time unique? To specify attainment without an implicit weak-solution convention, a pair $(\mu_0,\mu_1)$ on $[0,T_*]$ is admissible exactly when, for every integer $k\ge1$,
+Is the pair of nonnegative finite Radon measures attaining this minimum time unique? To specify attainment without an implicit weak-solution convention, a pair $`(\mu_0,\mu_1)`$ on $`[0,T_*]`$ is admissible exactly when, for every integer $`k\ge1`$,
 
-$$
+```math
 \int_{[0,T_*]}e^{-k^2\pi^2(T_*-t)}
 \bigl(d\mu_0(t)-(-1)^k d\mu_1(t)\bigr)
 =\frac{(1-(-1)^k)(b-ae^{-k^2\pi^2T_*})}{k^2\pi^2}.
-$$
+```
 
-These are the terminal-state sine-mode equations. The question is whether they have exactly one nonnegative measure pair at $T_*$, for every $a,b$ above.
+These are the terminal-state sine-mode equations. The question is whether they have exactly one nonnegative measure pair at $`T_*`$, for every $`a,b`$ above.
 
 ## Application
 

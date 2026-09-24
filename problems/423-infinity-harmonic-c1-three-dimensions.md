@@ -7,13 +7,13 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^3$ be open and let $u\in C(\Omega)$ be a viscosity solution of
+Let $`\Omega\subset\mathbb R^3`$ be open and let $`u\in C(\Omega)`$ be a viscosity solution of
 
-$$
+```math
 -\Delta_\infty u=-\sum_{i,j=1}^3(\partial_i u)(\partial_j u)\partial_{ij}u=0.
-$$
+```
 
-Must $u\in C^1_{\mathrm{loc}}(\Omega)$? Here the viscosity convention tests the displayed operator against smooth functions touching $u$ from above or below. This asks for continuity of the gradient, beyond its known existence at every point; it imposes no nonvanishing-gradient hypothesis.
+Must $`u\in C^1_{\mathrm{loc}}(\Omega)`$? Here the viscosity convention tests the displayed operator against smooth functions touching $`u`$ from above or below. This asks for continuity of the gradient, beyond its known existence at every point; it imposes no nonvanishing-gradient hypothesis.
 
 ## Application
 

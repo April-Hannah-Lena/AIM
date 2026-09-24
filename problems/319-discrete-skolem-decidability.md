@@ -8,26 +8,26 @@
 
 ## Problem statement
 
-An input consists of a positive integer $d$, integer coefficients $c_1,\ldots,c_d$ with $c_d\ne0$, and integer initial values $u_0,\ldots,u_{d-1}$, all given by finite binary encodings. These data determine the sequence
+An input consists of a positive integer $`d`$, integer coefficients $`c_1,\ldots,c_d`$ with $`c_d\ne0`$, and integer initial values $`u_0,\ldots,u_{d-1}`$, all given by finite binary encodings. These data determine the sequence
 
-$$
+```math
 u_{n+d}=c_1u_{n+d-1}+\cdots+c_du_n,
 \qquad n\in\mathbb N_0=\{0,1,2,\ldots\}.
-$$
+```
 
 Does there exist an algorithm which, for every such input, halts and correctly decides whether
 
-$$
+```math
 \exists n\in\mathbb N_0:\quad u_n=0?
-$$
+```
 
-This is the discrete Skolem problem. The order is unbounded across inputs, and the search has no supplied upper bound on $n$. Repeated characteristic roots are allowed. No running-time bound is requested: the question concerns decidability itself. The nonzero trailing coefficient is the standard nonsingular recurrence convention; rational coefficients and rational initial values give an equivalent decision problem by an effective scaling that preserves zeros.
+This is the discrete Skolem problem. The order is unbounded across inputs, and the search has no supplied upper bound on $`n`$. Repeated characteristic roots are allowed. No running-time bound is requested: the question concerns decidability itself. The nonzero trailing coefficient is the standard nonsingular recurrence convention; rational coefficients and rational initial values give an equivalent decision problem by an effective scaling that preserves zeros.
 
-To see its dynamical meaning, set $x_n=(u_n,\ldots,u_{n+d-1})^T$. The recurrence gives an integer companion matrix $A$ with $x_{n+1}=Ax_n$, and $u_n=e_1^TA^nx_0$, where $e_1$ is the first coordinate vector. Thus the question asks whether this discrete orbit ever meets the hyperplane whose first coordinate is zero. The recurrence and hyperplane formulations are one problem, not separate additions.
+To see its dynamical meaning, set $`x_n=(u_n,\ldots,u_{n+d-1})^T`$. The recurrence gives an integer companion matrix $`A`$ with $`x_{n+1}=Ax_n`$, and $`u_n=e_1^TA^nx_0`$, where $`e_1`$ is the first coordinate vector. Thus the question asks whether this discrete orbit ever meets the hyperplane whose first coordinate is zero. The recurrence and hyperplane formulations are one problem, not separate additions.
 
 ## Application
 
-Exact reachability is a basic verification task for systems updated at discrete time steps. For example, a program that repeatedly replaces $x$ by $Ax$ while $e_1^Tx\ne0$ terminates from the specified initial state exactly when the corresponding recurrence has a zero. A general decision procedure would therefore settle termination for this simple class of linear loops, including a reliable negative answer when no terminating step exists. The connection also informs verification of switching boundaries in discrete linear models. This is a foundational question about exact dynamics; floating-point simulation over a long finite horizon cannot certify that a later zero is impossible.
+Exact reachability is a basic verification task for systems updated at discrete time steps. For example, a program that repeatedly replaces $`x`$ by $`Ax`$ while $`e_1^Tx\ne0`$ terminates from the specified initial state exactly when the corresponding recurrence has a zero. A general decision procedure would therefore settle termination for this simple class of linear loops, including a reliable negative answer when no terminating step exists. The connection also informs verification of switching boundaries in discrete linear models. This is a foundational question about exact dynamics; floating-point simulation over a long finite horizon cannot certify that a later zero is impossible.
 
 ## References
 
@@ -45,13 +45,13 @@ Exact reachability is a basic verification task for systems updated at discrete 
 
 The survey states the problem explicitly, Dong–Shafrir independently retain the integer case as open, and Bacik's September 14 manuscript still identifies the unresolved decidability question. Dong–Shafrir's September follow-up also retains the characteristic-zero gap. The Skolem–Mahler–Lech theorem describes the zero set as finitely many arithmetic progressions and a finite exceptional set, but does not provide the general effective information needed to decide emptiness.
 
-Unconditional decidability is known through order four; Bacik–Ouaknine–Worrell place this case in randomized polynomial time. Their algorithm for higher fixed orders takes a finite horizon as part of its input. Iterating finite-horizon searches does not supply a halting negative answer. The survey also records conditional decidability for simple recurrences under the exponential local-global principle and the weak $p$-adic Schanuel conjecture.
+Unconditional decidability is known through order four; Bacik–Ouaknine–Worrell place this case in randomized polynomial time. Their algorithm for higher fixed orders takes a finite horizon as part of its input. Iterating finite-horizon searches does not supply a halting negative answer. The survey also records conditional decidability for simple recurrences under the exponential local-global principle and the weak $`p`$-adic Schanuel conjecture.
 
 Luca–Ouaknine–Worrell obtain general decidability assuming a strengthened Cramér-type prime-gap conjecture. Their unconditional density-one result still leaves an exceptional set of possible zero indices. Dong–Shafrir's theorem requires positive characteristic, whereas the integers have characteristic zero. Bacik–Varonka decide specified relations between inherent orbit dimension and target dimension; these do not include arbitrary hyperplanes. Bacik's September counterexample concerns a prime-power strengthening of a local-global principle and is not an undecidability proof for the displayed problem.
 
 The September 17 search covered the problem's name, recurrence-zero and orbit formulations, recent and unrestricted dates, principal authors, resolution and counterexample claims, corrections and version histories. A title advertising a resolution for generalized Lucas sequences fixes a special recurrence family. A preliminary toric-certificate note explicitly requires certificates that it cannot produce for all inputs. Neither supplies a general decision procedure; the [candidate ledger](../research/expansion-2026-09/candidates/discrete-skolem-decidability.json) records the theorem comparisons and access limits. This literature review does not certify the nonexistence of an unindexed result.
 
-The existing [continuous Skolem entry](266-continuous-skolem-decidability.md) asks about $c^Te^{tA}x_0=0$ at a real time $t\ge0$. Here the evolution is by integer powers at integer times. The sources treat them as separate decision problems. No separate entries are counted for particular orders, restricted root patterns or the equivalent discrete hyperplane formulation.
+The existing [continuous Skolem entry](266-continuous-skolem-decidability.md) asks about $`c^Te^{tA}x_0=0`$ at a real time $`t\ge0`$. Here the evolution is by integer powers at integer times. The sources treat them as separate decision problems. No separate entries are counted for particular orders, restricted root patterns or the equivalent discrete hyperplane formulation.
 
 The separated A28 adversarial self-pass passed on September 17, 2026.
 

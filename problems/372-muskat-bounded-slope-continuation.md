@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $f_0\in\bigcap_{k\ge0}H^k(\mathbb R)$ be real and let $f$ be the classical solution on its maximal interval $[0,T_*)$ of
+Let $`f_0\in\bigcap_{k\ge0}H^k(\mathbb R)`$ be real and let $`f`$ be the classical solution on its maximal interval $`[0,T_*)`$ of
 
-$$
+```math
 \partial_tf(t,x)=\mathop{\mathrm{PV}}\nolimits\int_{\mathbb R}\frac{\alpha[\partial_xf(t,x)-\partial_xf(t,x-\alpha)]}{\alpha^2+[f(t,x)-f(t,x-\alpha)]^2}\,d\alpha,\qquad f(0)=f_0.
-$$
+```
 
-This is the equal-viscosity, zero-surface-tension, two-phase Muskat equation on the whole plane, normalized with the heavier fluid below the graph. If $T_*<\infty$ and $\sup_{t<T_*}\|\partial_xf(t)\|_\infty<\infty$, must $f$ extend as a classical solution beyond $T_*$? No common modulus of continuity of $\partial_x f(t)$ is assumed.
+This is the equal-viscosity, zero-surface-tension, two-phase Muskat equation on the whole plane, normalized with the heavier fluid below the graph. If $`T_*<\infty`$ and $`\sup_{t<T_*}\|\partial_xf(t)\|_\infty<\infty`$, must $`f`$ extend as a classical solution beyond $`T_*`$? No common modulus of continuity of $`\partial_x f(t)`$ is assumed.
 
 ## Application
 

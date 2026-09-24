@@ -8,16 +8,16 @@
 
 ## Problem statement
 
-Let $\Lambda_\triangle\subset\mathbb R^2$ be the triangular lattice scaled to covolume one. For any integer $N\ge1$, a lattice $L$ of covolume $N$, and points $a_1,\ldots,a_N$ distinct modulo $L$, set $P=\bigcup_i(a_i+L)$. Prove or disprove, for every $\alpha>0$,
+Let $`\Lambda_\triangle\subset\mathbb R^2`$ be the triangular lattice scaled to covolume one. For any integer $`N\ge1`$, a lattice $`L`$ of covolume $`N`$, and points $`a_1,\ldots,a_N`$ distinct modulo $`L`$, set $`P=\bigcup_i(a_i+L)`$. Prove or disprove, for every $`\alpha>0`$,
 
-$$
+```math
 \frac1N\sum_{i,j=1}^{N}\ \sum_{\substack{v\in L\\(i,j,v)\ne(i,i,0)}}
 e^{-\pi\alpha|a_i-a_j-v|^2}
 \ \ge\
 \sum_{v\in\Lambda_\triangle\setminus\{0\}}e^{-\pi\alpha|v|^2}.
-$$
+```
 
-In the left sum, omit only the self-interaction $j=i,v=0$ for each $i$. All configurations have point density one. This is the periodic Gaussian formulation of triangular-lattice universal optimality.
+In the left sum, omit only the self-interaction $`j=i,v=0`$ for each $`i`$. All configurations have point density one. This is the periodic Gaussian formulation of triangular-lattice universal optimality.
 
 ## Application
 

@@ -8,40 +8,40 @@
 
 ## Problem statement
 
-For binary words $x,y\in\{0,1\}^n$, their Hamming distance is
+For binary words $`x,y\in\{0,1\}^n`$, their Hamming distance is
 
-$$
+```math
 d_H(x,y)=\bigl|\{i\in\{1,\ldots,n\}:x_i\ne y_i\}\bigr|.
-$$
+```
 
-For integers $n\ge1$ and $1\le d\le n$, define
+For integers $`n\ge1`$ and $`1\le d\le n`$, define
 
-$$
+```math
 A_2(n,d)=\max\bigl\{|C|:C\subseteq\{0,1\}^n,\quad
 d_H(x,y)\ge d\text{ for every distinct }x,y\in C\bigr\}.
-$$
+```
 
-The maximum ranges over all binary codes, including nonlinear ones. For each fixed real $\delta\in(0,1/2)$, set
+The maximum ranges over all binary codes, including nonlinear ones. For each fixed real $`\delta\in(0,1/2)`$, set
 
-$$
+```math
 R_2(\delta)=\limsup_{n\to\infty}\frac{1}{n}
 \log_2 A_2\!\left(n,\lceil\delta n\rceil\right).
-$$
+```
 
-**Determine $R_2(\delta)$ throughout $0<\delta<1/2$.** This asks for the exact exponential growth rate, not just an improvement of a bound. The distance fraction is fixed before taking the limsup. The ceiling convention follows [2, 3]; [1] states the asymptotic question using floor rounding. No efficient construction, encoder or decoder is required. [1, §1; 2, §1; 3, §1.2]
+**Determine $`R_2(\delta)`$ throughout $`0<\delta<1/2`$.** This asks for the exact exponential growth rate, not just an improvement of a bound. The distance fraction is fixed before taking the limsup. The ceiling convention follows [2, 3]; [1] states the asymptotic question using floor rounding. No efficient construction, encoder or decoder is required. [1, §1; 2, §1; 3, §1.2]
 
 A classical benchmark is the Gilbert–Varshamov lower bound
 
-$$
+```math
 R_2(\delta)\ge 1-h_2(\delta),\qquad
 h_2(t)=-t\log_2t-(1-t)\log_2(1-t).
-$$
+```
 
 Whether this benchmark gives the exact unrestricted rate is not assumed in the question. [1, 2]
 
 ## Application
 
-A code assigns a different binary word to each message. Minimum distance $d$ permits unambiguous recovery after any set of at most $\lfloor(d-1)/2\rfloor$ bit substitutions: two such error balls cannot intersect. Thus $R_2$ describes the greatest asymptotic information density compatible with a prescribed worst-case separation, and hence a fundamental redundancy cost in communication and storage. This is an existence limit; practical encoding and decoding impose additional requirements. [2, §1]
+A code assigns a different binary word to each message. Minimum distance $`d`$ permits unambiguous recovery after any set of at most $`\lfloor(d-1)/2\rfloor`$ bit substitutions: two such error balls cannot intersect. Thus $`R_2`$ describes the greatest asymptotic information density compatible with a prescribed worst-case separation, and hence a fundamental redundancy cost in communication and storage. This is an existence limit; practical encoding and decoding impose additional requirements. [2, §1]
 
 The noise model matters. Shannon capacity for independent random bit errors permits an average probability of decoding error tending to zero. Here separation must hold for every pair of codewords, supporting correction of arbitrary error locations within the radius. A formula for the stochastic channel capacity does not determine this tradeoff. [2, §1]
 
@@ -64,11 +64,11 @@ The noise model matters. Shannon capacity for independent random bit errors perm
 
 The published question in [1] remains unresolved in the current accounts [2, 3]. The author lists of [1] and [2] are disjoint. The August 2026 papers report upper bounds improving the historical McEliece–Rodemich–Rumsey–Welch bounds: [2] uses classical–quantum channels, [8] uses moving projections, and [3] develops further representation-based bounds. Barg [4] gives a subsequent specialist account. These advances do not identify the exact rate. The recent manuscripts are reported with their stated scope; their proofs have not been independently certified here.
 
-Theorem 9.2 of [3] recovers $A_2(n,d)$ at sufficiently high hierarchy order, specifically at anchor order at least $A_2(n,d)$. This finite completeness statement does not evaluate the asymptotic rate function. The linear-code hierarchy in [1] likewise supplies finite relaxations, while its unrestricted version collapses to the original Delsarte program. Neither result closes the stated asymptotic question.
+Theorem 9.2 of [3] recovers $`A_2(n,d)`$ at sufficiently high hierarchy order, specifically at anchor order at least $`A_2(n,d)`$. This finite completeness statement does not evaluate the asymptotic rate function. The linear-code hierarchy in [1] likewise supplies finite relaxations, while its unrestricted version collapses to the original Delsarte program. Neither result closes the stated asymptotic question.
 
 Salmon's September 2026 preprint [9] claims an exact half-rate point for the asymptotic Delsarte linear-programming relaxation. Its definitions explicitly distinguish the relaxation exponent from the rate of realizable binary codes. Theorem 1.1 evaluates the former; it does not give a matching code construction or determine the unrestricted rate function. The complete definitions and theorem were checked, without independently certifying the proof.
 
-The lower-bound improvements in [5, 6] require a separate distinction. Jiang–Vardy adds a factor proportional to $\log_2 V(n,d-1)$, where $V(n,r)=\sum_{i=0}^r\binom ni$, in its stated range. Yuan–Zhu obtains a square-root-in-$n$ gain in its linear-code existence criterion. At fixed positive relative distance, these factors contribute only $O(\log n/n)$ to normalized logarithmic rate. They do not establish a larger limiting exponent or determine $R_2$.
+The lower-bound improvements in [5, 6] require a separate distinction. Jiang–Vardy adds a factor proportional to $`\log_2 V(n,d-1)`$, where $`V(n,r)=\sum_{i=0}^r\binom ni`$, in its stated range. Yuan–Zhu obtains a square-root-in-$`n`$ gain in its linear-code existence criterion. At fixed positive relative distance, these factors contribute only $`O(\log n/n)`$ to normalized logarithmic rate. They do not establish a larger limiting exponent or determine $`R_2`$.
 
 The older preprint [7] claims asymptotic tightness for linear codes. Its model uses linear subspaces and parity-check matrices; it supplies no matching upper bound for all nonlinear codes. Its proof has not been adjudicated here, and the claim is not used as an established rate theorem. No separate linear-code variant is admitted.
 

@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Let $(M^{2n},\omega)$ be a closed connected symplectic manifold and $\phi$ the time-one map of a smooth time-periodic Hamiltonian on $M$. Let $P(T)$ count distinct primitive periodic orbits of $\phi$ whose least integer period is at most $T$; points on the same orbit and repeated traversals are counted only once. Allow $P(T)=\infty$.
+Let $`(M^{2n},\omega)`$ be a closed connected symplectic manifold and $`\phi`$ the time-one map of a smooth time-periodic Hamiltonian on $`M`$. Let $`P(T)`$ count distinct primitive periodic orbits of $`\phi`$ whose least integer period is at most $`T`$; points on the same orbit and repeated traversals are counted only once. Allow $`P(T)=\infty`$.
 
-If $\phi$ has infinitely many periodic orbits, is
+If $`\phi`$ has infinitely many periodic orbits, is
 
-$$
+```math
 \liminf_{T\to\infty}\frac{\log P(T)}{\log T}\geq2
-$$
+```
 
-always true, with $\log\infty=\infty$?
+always true, with $`\log\infty=\infty`$?
 
 ## Application
 

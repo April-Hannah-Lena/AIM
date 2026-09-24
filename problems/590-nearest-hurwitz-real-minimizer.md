@@ -8,27 +8,27 @@
 
 ## Problem statement
 
-For $\mathbb F\in\{\mathbb R,\mathbb C\}$ and $n\ge1$, define
+For $`\mathbb F\in\{\mathbb R,\mathbb C\}`$ and $`n\ge1`$, define
 
-$$
+```math
 \mathcal H_n(\mathbb F)=\{B\in\mathbb F^{n\times n}:\mathop{\mathrm{Re}}\nolimits\lambda\le0\text{ for every }\lambda\in\sigma(B)\}.
-$$
+```
 
-For $A\in\mathbb R^{n\times n}$ put
+For $`A\in\mathbb R^{n\times n}`$ put
 
-$$
+```math
 d_{\mathbb F}(A)=\min_{B\in\mathcal H_n(\mathbb F)}\|A-B\|_F,
-$$
+```
 
-where $\|M\|_F^2=\sum_{i,j}|M_{ij}|^2$.
+where $`\|M\|_F^2=\sum_{i,j}|M_{ij}|^2`$.
 
 Prove or disprove the Noferini–Poloni conjecture that
 
-$$
+```math
 d_{\mathbb R}(A)=d_{\mathbb C}(A)
-$$
+```
 
-for every real square matrix $A$. Equivalently, does the complex minimization problem always have a real global minimizer?
+for every real square matrix $`A`$. Equivalently, does the complex minimization problem always have a real global minimizer?
 
 The admissible spectral region is the **closed** left half-plane. Eigenvalues on the imaginary axis may have arbitrary Jordan blocks; no semisimplicity condition is imposed. The minima exist because these feasible sets are nonempty and closed and the objective is coercive.
 
@@ -38,7 +38,7 @@ Approximating an unstable model by a nearby matrix with nonpositive spectral abs
 
 ## References
 
-1. V. Noferini and F. Poloni, [Nearest $\Omega$-stable matrix via Riemannian optimization](https://doi.org/10.1007/s00211-021-01217-4), *Numerische Mathematik* **148** (2021), 817–851; [arXiv:2002.07052](https://arxiv.org/abs/2002.07052). Section 7.6, Conjecture 1; the closed-half-plane convention is specified on page 818.
+1. V. Noferini and F. Poloni, [Nearest $`\Omega`$-stable matrix via Riemannian optimization](https://doi.org/10.1007/s00211-021-01217-4), *Numerische Mathematik* **148** (2021), 817–851; [arXiv:2002.07052](https://arxiv.org/abs/2002.07052). Section 7.6, Conjecture 1; the closed-half-plane convention is specified on page 818.
 2. [Authors' accompanying code](https://github.com/fph/nearest-omega-stable).
 
 ## Status review

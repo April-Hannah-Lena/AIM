@@ -8,11 +8,11 @@
 
 ## Problem statement
 
-Consider a continuous-time process on $\mathbb Z^2$ with states $0,1,2$. Initially only two distinct sites $x_1,x_2$ are occupied, with types $1,2$ respectively. A vacant site $x$ changes to type $i$ at rate $\lambda_i$ times the number of its nearest neighbors of type $i$, where $\lambda_1,\lambda_2>0$. Occupied sites never change type. Write $C_i$ for the set of sites that eventually receive type $i$. For every $\lambda_1\ne\lambda_2$, is
+Consider a continuous-time process on $`\mathbb Z^2`$ with states $`0,1,2`$. Initially only two distinct sites $`x_1,x_2`$ are occupied, with types $`1,2`$ respectively. A vacant site $`x`$ changes to type $`i`$ at rate $`\lambda_i`$ times the number of its nearest neighbors of type $`i`$, where $`\lambda_1,\lambda_2>0`$. Occupied sites never change type. Write $`C_i`$ for the set of sites that eventually receive type $`i`$. For every $`\lambda_1\ne\lambda_2`$, is
 
-$$
+```math
 \mathbb P(|C_1|=\infty,\ |C_2|=\infty)=0?
-$$
+```
 
 This asks about every unequal pair of rates, not almost every ratio.
 

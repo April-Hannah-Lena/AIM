@@ -8,21 +8,21 @@
 
 ## Problem statement
 
-Let $T$ be a compactly supported integral $d$-current in $\mathbb R^{d+1}$, $d\ge1$. Thus $T$ and its boundary are integer-multiplicity rectifiable currents of finite mass. Write $\mathbf M$ for mass and define the real flat norm by
+Let $`T`$ be a compactly supported integral $`d`$-current in $`\mathbb R^{d+1}`$, $`d\ge1`$. Thus $`T`$ and its boundary are integer-multiplicity rectifiable currents of finite mass. Write $`\mathbf M`$ for mass and define the real flat norm by
 
-$$
+```math
 \mathbb F(T)=\inf\{\mathbf M(X)+\mathbf M(S):T=X+\partial S,\ X\in\mathcal N_d^c,\ S\in\mathcal N_{d+1}^c\},
-$$
+```
 
-where $\mathcal N_k^c$ consists of compactly supported real normal $k$-currents in the same ambient space.
+where $`\mathcal N_k^c`$ consists of compactly supported real normal $`k`$-currents in the same ambient space.
 
-Must there exist compactly supported **integral** currents $X_I$ and $S_I$ such that
+Must there exist compactly supported **integral** currents $`X_I`$ and $`S_I`$ such that
 
-$$
+```math
 T=X_I+\partial S_I,\qquad \mathbb F(T)=\mathbf M(X_I)+\mathbf M(S_I)?
-$$
+```
 
-The input is not required to satisfy $\partial T=0$. The question asks for at least one integral optimum of the real problem. Integrality of every optimum and optimality only within the integral class are different assertions.
+The input is not required to satisfy $`\partial T=0`$. The question asks for at least one integral optimum of the real problem. Integrality of every optimum and optimality only within the integral class are different assertions.
 
 ## Application
 
@@ -36,6 +36,6 @@ The flat norm compares oriented shapes by balancing a residual against a filling
 
 **Known cases:** Corollary 3.8 of [1] proves the result for integral one-currents in the plane. The introduction records the known case of codimension-one boundaries. Theorem 3.7 gives a conditional extension through the subdivision/approximation statement associated with Conjecture 3.4.
 
-**Remaining target:** General compactly supported integral $d$-currents in $\mathbb R^{d+1}$ for $d\ge2$, allowing nonzero boundary, without assuming that subdivision conjecture.
+**Remaining target:** General compactly supported integral $`d`$-currents in $`\mathbb R^{d+1}`$ for $`d\ge2`$, allowing nonzero boundary, without assuming that subdivision conjecture.
 
-The source's counterexamples in ambient dimension at least $d+3$ do not settle this codimension-one question. Searches on 23 September 2026 found no matching resolution or announcement. Later results concerning integral homogeneous flat norms or approximation of cycles have different targets.
+The source's counterexamples in ambient dimension at least $`d+3`$ do not settle this codimension-one question. Searches on 23 September 2026 found no matching resolution or announcement. Later results concerning integral homogeneous flat norms or approximation of cycles have different targets.

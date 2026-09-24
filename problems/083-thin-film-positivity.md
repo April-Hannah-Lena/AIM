@@ -8,18 +8,18 @@
 
 ## Problem statement
 
-Let $h_0\in C^\infty(\mathbb T)$ satisfy $\min h_0>0$, where $\mathbb T=\mathbb R/\mathbb Z$. For
+Let $`h_0\in C^\infty(\mathbb T)`$ satisfy $`\min h_0>0`$, where $`\mathbb T=\mathbb R/\mathbb Z`$. For
 
-$$
+```math
 h_t+\partial_x(h^3\partial_x^3h)=0,\qquad h(0,x)=h_0(x),
-$$
+```
 
 does the positive classical solution extend to every finite time and satisfy
 
-$$
+```math
 \inf_{(t,x)\in[0,T]\times\mathbb T}h(t,x)>0
 \quad\text{for every }T<\infty?
-$$
+```
 
 There are no disjoining-pressure, gravitational or stochastic terms. The question concerns strict positivity at every time, rather than nonnegative weak solutions or positivity at almost every time.
 

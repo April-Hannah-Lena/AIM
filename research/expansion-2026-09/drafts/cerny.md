@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Let $Q$ be a nonempty set of $n$ states, let $\Sigma$ be a nonempty finite alphabet, and let $\delta:Q\times\Sigma\to Q$ be a total transition map. Extend $\delta$ to words by successive application of their letters. A word $w\in\Sigma^*$ is a **reset word** if $\delta(q,w)$ is the same state for every $q\in Q$. The automaton is synchronizing when it has at least one reset word.
+Let $`Q`$ be a nonempty set of $`n`$ states, let $`\Sigma`$ be a nonempty finite alphabet, and let $`\delta:Q\times\Sigma\to Q`$ be a total transition map. Extend $`\delta`$ to words by successive application of their letters. A word $`w\in\Sigma^*`$ is a **reset word** if $`\delta(q,w)`$ is the same state for every $`q\in Q`$. The automaton is synchronizing when it has at least one reset word.
 
-Must every synchronizing complete deterministic automaton with $n$ states have a reset word of length at most
+Must every synchronizing complete deterministic automaton with $`n`$ states have a reset word of length at most
 
-$$
+```math
 (n-1)^2?
-$$
+```
 
-Each original alphabet letter costs one step. The question imposes no one-cluster, Eulerian, binary-alphabet or other structural restriction. It asks for existence of a short word, rather than an efficient algorithm for finding a shortest one. For $n=1$, the empty word has length zero.
+Each original alphabet letter costs one step. The question imposes no one-cluster, Eulerian, binary-alphabet or other structural restriction. It asks for existence of a short word, rather than an efficient algorithm for finding a shortest one. For $`n=1`$, the empty word has length zero.
 
 ## Applied significance
 
@@ -33,9 +33,9 @@ A reset word drives a finite-state device from an unknown initial state to a kno
 
 The September 17, 2026 review included Černý/Cerny/Starke aliases, reset-word wording, proof and counterexample searches, 2025–2026 updates, unrestricted searches and version/withdrawal checks. Szykuła's August 2026 specialist survey independently lists the full conjecture as open. The general upper bound reported by that survey and Volkov is
 
-$$
+```math
 \left(\frac7{48}+\frac{15625}{798768}\right)n^3+o(n^3),
-$$
+```
 
 which leaves the quadratic target unresolved.
 

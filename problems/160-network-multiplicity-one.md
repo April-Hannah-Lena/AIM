@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $\Gamma(t)$ be a smooth embedded finite network in a bounded smooth strictly convex planar domain. Its interior vertices are triple junctions with $120^\circ$ angles, its boundary endpoints are fixed, and each edge moves with normal velocity equal to its curvature. Let $T<\infty$ be its first singular time and $x_0$ an interior singular point.
+Let $`\Gamma(t)`$ be a smooth embedded finite network in a bounded smooth strictly convex planar domain. Its interior vertices are triple junctions with $`120^\circ`$ angles, its boundary endpoints are fixed, and each edge moves with normal velocity equal to its curvature. Let $`T<\infty`$ be its first singular time and $`x_0`$ an interior singular point.
 
 Must every self-similarly shrinking limit obtained from the parabolic rescalings
 
-$$
+```math
 \Gamma_j(s)=\lambda_j\bigl(\Gamma(T+s/\lambda_j^2)-x_0\bigr),\qquad\lambda_j\to\infty,\quad s<0,
-$$
+```
 
 be embedded and have multiplicity one? Multiplicity counts how many rescaled arcs converge to the same limiting arc; it is retained by taking limits of the associated arclength varifolds.
 

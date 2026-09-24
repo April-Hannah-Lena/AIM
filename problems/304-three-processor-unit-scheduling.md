@@ -8,16 +8,16 @@
 
 ## Problem statement
 
-Let $G=(J,E)$ be a directed acyclic graph with $n$ vertices, one for each job, and let $T$ be a nonnegative integer supplied in binary. Every job takes exactly one unit of time on any of three identical processors. A job must finish before any of its successors begins. Jobs cannot be interrupted; each processor runs at most one job at a time; all jobs are available at time zero subject to the precedence constraints.
+Let $`G=(J,E)`$ be a directed acyclic graph with $`n`$ vertices, one for each job, and let $`T`$ be a nonnegative integer supplied in binary. Every job takes exactly one unit of time on any of three identical processors. A job must finish before any of its successors begins. Jobs cannot be interrupted; each processor runs at most one job at a time; all jobs are available at time zero subject to the precedence constraints.
 
-Decide whether there is a schedule that completes all jobs by time $T$. Equivalently, does there exist a map $s:J\to\{0,\ldots,T-1\}$ such that
+Decide whether there is a schedule that completes all jobs by time $`T`$. Equivalently, does there exist a map $`s:J\to\{0,\ldots,T-1\}`$ such that
 
-$$
+```math
 s(v)\ge s(u)+1\quad((u,v)\in E),\qquad
 |\{j\in J:s(j)=t\}|\le3\quad(0\le t<T)?
-$$
+```
 
-Determine the computational complexity of this decision problem, conventionally written $P3\mid\mathrm{prec},p_j=1\mid C_{\max}$. In particular, is it solvable by a deterministic algorithm polynomial in the input length, or can NP-completeness be established under polynomial-time many-one reductions? No dichotomy between these outcomes is assumed. The number of processors is fixed at three, while the job graph and deadline are unrestricted input. The goal is exact feasibility, not an approximation to the minimum completion time.
+Determine the computational complexity of this decision problem, conventionally written $`P3\mid\mathrm{prec},p_j=1\mid C_{\max}`$. In particular, is it solvable by a deterministic algorithm polynomial in the input length, or can NP-completeness be established under polynomial-time many-one reductions? No dichotomy between these outcomes is assumed. The number of processors is fixed at three, while the job graph and deadline are unrestricted input. The goal is exact feasibility, not an approximation to the minimum completion time.
 
 ## Application
 
@@ -33,6 +33,6 @@ Precedence edges represent dependencies between computational tasks or project a
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-Nederlof–Swennenhuis–Węgrzycki pose the exact three-processor problem and give an algorithm with running time $2^{O(\sqrt n\log n)}$. Independent papers by Das–Wiese and Büsing–Draeger–Mathwieser identify the remaining fixed-machine gap. Approximation schemes do not give exact polynomial-time feasibility by taking arbitrarily small error. The inspected hardness reductions either let the number of processors grow or introduce OR dependencies; a makespan of three must not be confused with three processors.
+Nederlof–Swennenhuis–Węgrzycki pose the exact three-processor problem and give an algorithm with running time $`2^{O(\sqrt n\log n)}`$. Independent papers by Das–Wiese and Büsing–Draeger–Mathwieser identify the remaining fixed-machine gap. Approximation schemes do not give exact polynomial-time feasibility by taking arbitrarily small error. The inspected hardness reductions either let the number of processors grow or introduce OR dependencies; a makespan of three must not be confused with three processors.
 
 Current resolution searches cover the three-field notation, unit execution times, three machines/processors, author names, proof and counterexample claims, 2025–2026 and unrestricted dates, and version/correction checks. The [candidate ledger](../research/expansion-2026-09/candidates/three-processor-unit-scheduling.json) records the comparisons and access limits. A separate adversarial self-pass also checked processor-allocation hardness and the outforest restriction in an older linear-time algorithm. Resolution searches and duplicate checks were refreshed immediately before the September 17, 2026 batch integration.

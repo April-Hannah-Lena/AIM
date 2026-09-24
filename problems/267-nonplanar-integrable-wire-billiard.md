@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Does there exist a smooth embedding $\gamma:\mathbb R/\ell\mathbb Z\to\mathbb R^3$, parametrized by Euclidean arclength, with nowhere-zero curvature and nonplanar image, satisfying the following conditions?
+Does there exist a smooth embedding $`\gamma:\mathbb R/\ell\mathbb Z\to\mathbb R^3`$, parametrized by Euclidean arclength, with nowhere-zero curvature and nonplanar image, satisfying the following conditions?
 
-For $L(s,t)=|\gamma(t)-\gamma(s)|$, require $\partial_s\partial_t L(s,t)>0$ for distinct parameters. The wire-billiard map $T(s,t)=(t,r)$ is then specified by
+For $`L(s,t)=|\gamma(t)-\gamma(s)|`$, require $`\partial_s\partial_t L(s,t)>0`$ for distinct parameters. The wire-billiard map $`T(s,t)=(t,r)`$ is then specified by
 
-$$
+```math
 \partial_2L(s,t)+\partial_1L(t,r)=0,
-$$
+```
 
-with the unique next point $r$ distinct from $t$. Require the entire annulus of ordered distinct points to be foliated by continuous $T$-invariant simple curves winding once around it. The stationarity equation is the equal-angle reflection rule with respect to the wire tangent.
+with the unique next point $`r`$ distinct from $`t`$. Require the entire annulus of ordered distinct points to be foliated by continuous $`T`$-invariant simple curves winding once around it. The stationarity equation is the equal-angle reflection rule with respect to the wire tangent.
 
 ## Application
 

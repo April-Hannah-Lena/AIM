@@ -92,7 +92,7 @@ Admitted page: [review page](../../../problems/366-landau-ancient-liouville.md)
 
 Admitted page: [review page](../../../problems/367-landau-macroscopic-smoothing.md)
 
-1. W. Golding, M. Gualdani and A. Loher, [*Global Smooth Solutions to the Landau–Coulomb Equation in $L^{3/2}$*](https://doi.org/10.1007/s00205-025-02107-x), Archive for Rational Mechanics and Analysis 249 (2025), article 34, §1, first item under “Open Problems.”
+1. W. Golding, M. Gualdani and A. Loher, [*Global Smooth Solutions to the Landau–Coulomb Equation in $`L^{3/2}`$*](https://doi.org/10.1007/s00205-025-02107-x), Archive for Rational Mechanics and Analysis 249 (2025), article 34, §1, first item under “Open Problems.”
 
 ## 16. Hölder regularity for nondivergence kinetic jump equations
 
@@ -206,7 +206,7 @@ Admitted page: [review page](../../../problems/385-maxwellian-whole-space-landau
 
 Admitted page: [review page](../../../problems/386-flory-gelation-mass-continuity.md)
 
-1. N. Fournier and P. Laurençot, [*Marcus–Lushnikov processes, Smoluchowski's and Flory's models*](https://arxiv.org/abs/0706.2057), Stochastic Processes and their Applications 119 (2009), 167–189, §2, Assumption $(A_\alpha)$, Definition 2.2, Proposition 2.3 and the explicit open question immediately following it.
+1. N. Fournier and P. Laurençot, [*Marcus–Lushnikov processes, Smoluchowski's and Flory's models*](https://arxiv.org/abs/0706.2057), Stochastic Processes and their Applications 119 (2009), 167–189, §2, Assumption $`(A_\alpha)`$, Definition 2.2, Proposition 2.3 and the explicit open question immediately following it.
 
 ## 35. Uniqueness of positive reaction–diffusion equilibria outside two obstacles
 

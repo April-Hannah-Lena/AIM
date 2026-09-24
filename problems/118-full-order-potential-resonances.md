@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-For every odd integer $d\ge3$ and every real nonzero $V\in L^\infty(\mathbb R^d)$ of compact support, let $N_V(r)$ count, with algebraic multiplicity, the poles $z$ with $|z|\le r$ of the meromorphic continuation of
+For every odd integer $`d\ge3`$ and every real nonzero $`V\in L^\infty(\mathbb R^d)`$ of compact support, let $`N_V(r)`$ count, with algebraic multiplicity, the poles $`z`$ with $`|z|\le r`$ of the meromorphic continuation of
 
-$$
+```math
 R_V(z)=(-\Delta+V-z^2)^{-1}:L^2_{\rm comp}(\mathbb R^d)\longrightarrow L^2_{\rm loc}(\mathbb R^d).
-$$
+```
 
-Prove or disprove that there are $c_V>0$ and $r_V<\infty$ with $N_V(r)\ge c_Vr^d$ for every $r\ge r_V$. Nonzero means not zero almost everywhere.
+Prove or disprove that there are $`c_V>0`$ and $`r_V<\infty`$ with $`N_V(r)\ge c_Vr^d`$ for every $`r\ge r_V`$. Nonzero means not zero almost everywhere.
 
 ## Application
 

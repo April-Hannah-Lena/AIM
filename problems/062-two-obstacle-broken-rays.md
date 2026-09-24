@@ -8,11 +8,11 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^2$ be a bounded smooth strictly convex domain. Let $K_1,K_2\Subset\Omega$ be disjoint compact convex obstacles with smooth boundaries, with at least one strictly convex. Put $M=\overline\Omega\setminus(K_1^\circ\cup K_2^\circ)$.
+Let $`\Omega\subset\mathbb R^2`$ be a bounded smooth strictly convex domain. Let $`K_1,K_2\Subset\Omega`$ be disjoint compact convex obstacles with smooth boundaries, with at least one strictly convex. Put $`M=\overline\Omega\setminus(K_1^\circ\cup K_2^\circ)`$.
 
-A measured broken ray is a finite piecewise straight unit-speed path in $M$ that starts and ends on $\partial\Omega$, has no intermediate outer-boundary contacts, and reflects specularly at obstacle boundaries: outgoing velocity equals incoming velocity minus twice its normal component. Include rays with no reflection; discard grazing contacts.
+A measured broken ray is a finite piecewise straight unit-speed path in $`M`$ that starts and ends on $`\partial\Omega`$, has no intermediate outer-boundary contacts, and reflects specularly at obstacle boundaries: outgoing velocity equals incoming velocity minus twice its normal component. Include rays with no reflection; discard grazing contacts.
 
-For $f\in C^\infty(M)$, set $Bf(\gamma)=\int_\gamma f\,ds$. Is $Bf=0$ for every measured ray sufficient to conclude $f=0$ on $M$, for every admissible geometry?
+For $`f\in C^\infty(M)`$, set $`Bf(\gamma)=\int_\gamma f\,ds`$. Is $`Bf=0`$ for every measured ray sufficient to conclude $`f=0`$ on $`M`$, for every admissible geometry?
 
 ## Application
 

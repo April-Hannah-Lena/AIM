@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-Let $P\subset\mathbb R^2$ be a finite set of at least three points with no three collinear. Form a graph $\mathcal F(P)$ whose vertices are all non-crossing straight-line Hamiltonian paths on $P$, viewed as undirected edge sets. Two vertices of $\mathcal F(P)$ are adjacent if one path can be obtained from the other by deleting one edge and inserting one edge, leaving a non-crossing Hamiltonian path. Endpoints may change, and the deleted and inserted edges may cross each other.
+Let $`P\subset\mathbb R^2`$ be a finite set of at least three points with no three collinear. Form a graph $`\mathcal F(P)`$ whose vertices are all non-crossing straight-line Hamiltonian paths on $`P`$, viewed as undirected edge sets. Two vertices of $`\mathcal F(P)`$ are adjacent if one path can be obtained from the other by deleting one edge and inserting one edge, leaving a non-crossing Hamiltonian path. Endpoints may change, and the deleted and inserted edges may cross each other.
 
-Prove or disprove that $\mathcal F(P)$ is connected for every such point set $P$.
+Prove or disprove that $`\mathcal F(P)`$ is connected for every such point set $`P`$.
 
 ## Application
 

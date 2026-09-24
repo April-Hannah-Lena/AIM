@@ -7,19 +7,19 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-For $f\in C_c^\infty(\mathbb C;\mathbb C)$, with planar Lebesgue measure $dA$, define
+For $`f\in C_c^\infty(\mathbb C;\mathbb C)`$, with planar Lebesgue measure $`dA`$, define
 
-$$
+```math
 \mathcal B f(z)=-\frac1\pi\lim_{\varepsilon\downarrow0}\int_{|z-w|>\varepsilon}\frac{f(w)}{(z-w)^2}\,dA(w).
-$$
+```
 
-For every $1<p<\infty$, is
+For every $`1<p<\infty`$, is
 
-$$
+```math
 \|\mathcal B f\|_{L^p(\mathbb C)}\le(p^*-1)\|f\|_{L^p(\mathbb C)},\qquad p^*=\max\{p,p/(p-1)\}?
-$$
+```
 
-The proposed constant is the known lower bound for the operator norm; the question is the matching upper bound. The case $p=2$ is known.
+The proposed constant is the known lower bound for the operator norm; the question is the matching upper bound. The case $`p=2`$ is known.
 
 ## Application
 

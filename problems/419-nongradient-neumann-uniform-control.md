@@ -8,20 +8,20 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^d$, $d\ge2$, be a bounded connected smooth domain, $\omega\Subset\Omega$ nonempty open, and $B\in W^{2,\infty}(\mathbb R^d;\mathbb R^d)$. Assume $B\cdot\nu\ge c_0>0$ on $\partial\Omega$. Write $X'(s)=-B(X(s))$, $X(0)=x$. Assume that some $T_0,r_0>0$ satisfy: for each $x\in\overline\Omega$ there is $s_x\in(0,T_0)$ with $X(s_x;B(x,r_0))\subset\omega$.
-For $\varepsilon>0$, consider
+Let $`\Omega\subset\mathbb R^d`$, $`d\ge2`$, be a bounded connected smooth domain, $`\omega\Subset\Omega`$ nonempty open, and $`B\in W^{2,\infty}(\mathbb R^d;\mathbb R^d)`$. Assume $`B\cdot\nu\ge c_0>0`$ on $`\partial\Omega`$. Write $`X'(s)=-B(X(s))`$, $`X(0)=x`$. Assume that some $`T_0,r_0>0`$ satisfy: for each $`x\in\overline\Omega`$ there is $`s_x\in(0,T_0)`$ with $`X(s_x;B(x,r_0))\subset\omega`$.
+For $`\varepsilon>0`$, consider
 
-$$
+```math
 y_t-\varepsilon\Delta y+B\cdot\nabla y=1_\omega h,\quad \partial_\nu y=0,\quad y(0)=y_0\in L^2(\Omega).
-$$
+```
 
-Must there exist $T_*<\infty$ such that, for every $T>T_*$, some $C_T,\varepsilon_T>0$ satisfy: every $0<\varepsilon<\varepsilon_T$ and every $y_0$ admit $h\in L^2((0,T)\times\omega)$ with $y(T)=0$ and
+Must there exist $`T_*<\infty`$ such that, for every $`T>T_*`$, some $`C_T,\varepsilon_T>0`$ satisfy: every $`0<\varepsilon<\varepsilon_T`$ and every $`y_0`$ admit $`h\in L^2((0,T)\times\omega)`$ with $`y(T)=0`$ and
 
-$$
+```math
 \|h\|_2\le C_T\|y_0\|_2?
-$$
+```
 
-No scalar potential representation $B=\nabla f$ is imposed.
+No scalar potential representation $`B=\nabla f`$ is imposed.
 
 ## Application
 

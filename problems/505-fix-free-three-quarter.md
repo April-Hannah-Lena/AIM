@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-For every $N\ge1$ and every list of positive integers $\ell_1,\ldots,\ell_N$ satisfying
+For every $`N\ge1`$ and every list of positive integers $`\ell_1,\ldots,\ell_N`$ satisfying
 
-$$
+```math
 \sum_{i=1}^N 2^{-\ell_i}\le\frac34,
-$$
+```
 
-must there exist distinct binary words $c_1,\ldots,c_N$ with $|c_i|=\ell_i$ such that no word is a prefix or a suffix of another?
+must there exist distinct binary words $`c_1,\ldots,c_N`$ with $`|c_i|=\ell_i`$ such that no word is a prefix or a suffix of another?
 
 Such a set is called **fix-free** (or **bifix**). Repeated lengths are allowed; the number of distinct lengths is unrestricted. The question concerns existence for every prescribed length list, rather than just a small average length for a given source distribution.
 
@@ -30,8 +30,8 @@ Fix-free codes allow a concatenated message to be parsed from either end. This s
 
 ## Status review
 
-**Known cases:** Yekhanin's Theorem 1 proves existence for every prescribed binary length list with Kraft sum at most $5/8$. These instances lie inside the displayed target.
+**Known cases:** Yekhanin's Theorem 1 proves existence for every prescribed binary length list with Kraft sum at most $`5/8`$. These instances lie inside the displayed target.
 
-**Remaining target:** Establish the $3/4$ guarantee for arbitrary length lists, including Kraft sums above $5/8$, or produce a counterexample. This is one conjecture, not separate entries for different numbers of lengths.
+**Remaining target:** Establish the $`3/4`$ guarantee for arbitrary length lists, including Kraft sums above $`5/8`$, or produce a counterexample. This is one conjecture, not separate entries for different numbers of lengths.
 
-The September 2026 preprint [3] announces the $3/4$ guarantee when at most three distinct lengths occur. Its theorem was checked for scope; its proof was not independently audited. It does not claim the unrestricted target. Searches through 23 September 2026, including indexed arXiv, Zenodo, GitHub and Palomar, found no matching general resolution.
+The September 2026 preprint [3] announces the $`3/4`$ guarantee when at most three distinct lengths occur. Its theorem was checked for scope; its proof was not independently audited. It does not claim the unrestricted target. Searches through 23 September 2026, including indexed arXiv, Zenodo, GitHub and Palomar, found no matching general resolution.

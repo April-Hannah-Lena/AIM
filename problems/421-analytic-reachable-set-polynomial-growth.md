@@ -8,17 +8,17 @@
 
 ## Problem statement
 
-Let $n\ge3$ and let $X_0,\ldots,X_m$ be real-analytic vector fields near $0\in\mathbb R^n$, with $X_0(0)=0$. For measurable controls $u(t)\in[-1,1]^m$, consider
+Let $`n\ge3`$ and let $`X_0,\ldots,X_m`$ be real-analytic vector fields near $`0\in\mathbb R^n`$, with $`X_0(0)=0`$. For measurable controls $`u(t)\in[-1,1]^m`$, consider
 
-$$
+```math
 \dot x=X_0(x)+\sum_{j=1}^mu_j(t)X_j(x),\qquad x(0)=0.
-$$
+```
 
-Let $R_{\le t}(0)$ contain all endpoints reached in time at most $t$ by trajectories that exist in the vector fields' domain. Assume $0\in\mathop{\mathrm{int}}\nolimits R_{\le t}(0)$ for every sufficiently small $t>0$. Must there exist $C,T>0$ and an integer $N\ge1$, depending on the system, such that
+Let $`R_{\le t}(0)`$ contain all endpoints reached in time at most $`t`$ by trajectories that exist in the vector fields' domain. Assume $`0\in\mathop{\mathrm{int}}\nolimits R_{\le t}(0)`$ for every sufficiently small $`t>0`$. Must there exist $`C,T>0`$ and an integer $`N\ge1`$, depending on the system, such that
 
-$$
+```math
 B(0,Ct^N)\subseteq R_{\le t}(0)\qquad(0<t<T)?
-$$
+```
 
 ## Application
 

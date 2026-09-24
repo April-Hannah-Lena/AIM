@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $I=(0,1)$ and $\psi\in C^\infty([0,1])$ satisfy $\psi(0),\psi(1)<0$ and $\max\psi>0$. Let $\bar y\in H^1_0(I)$ be the unique minimizer of $\int_I|y_x|^2$ subject to $y\ge\psi$. For every $y_0\in H^1_0(I)$ with $y_0\ge\psi$, do there exist a finite $T>0$ and endpoint controls $g_0,g_1\in H^1(0,T)$, with $g_i(0)=g_i(T)=0$ and $g_i(t)\ge\psi(i)$, such that the variational solution of
+Let $`I=(0,1)`$ and $`\psi\in C^\infty([0,1])`$ satisfy $`\psi(0),\psi(1)<0`$ and $`\max\psi>0`$. Let $`\bar y\in H^1_0(I)`$ be the unique minimizer of $`\int_I|y_x|^2`$ subject to $`y\ge\psi`$. For every $`y_0\in H^1_0(I)`$ with $`y_0\ge\psi`$, do there exist a finite $`T>0`$ and endpoint controls $`g_0,g_1\in H^1(0,T)`$, with $`g_i(0)=g_i(T)=0`$ and $`g_i(t)\ge\psi(i)`$, such that the variational solution of
 
-$$
+```math
 \min\{y_t-y_{xx},y-\psi\}=0,\qquad y(t,i)=g_i(t),\qquad y(0)=y_0,
-$$
+```
 
-satisfies $y(T)=\bar y$ in $L^2(I)$? The minimum equation means $y\ge\psi$, $y_t-y_{xx}\ge0$ and $(y-\psi)(y_t-y_{xx})=0$, interpreted by the associated parabolic variational inequality.
+satisfies $`y(T)=\bar y`$ in $`L^2(I)`$? The minimum equation means $`y\ge\psi`$, $`y_t-y_{xx}\ge0`$ and $`(y-\psi)(y_t-y_{xx})=0`$, interpreted by the associated parabolic variational inequality.
 
 ## Application
 

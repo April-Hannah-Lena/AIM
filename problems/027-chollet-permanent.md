@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-For every $n\ge1$ and Hermitian positive semidefinite matrices $A,B\in\mathbb C^{n\times n}$, determine whether
+For every $`n\ge1`$ and Hermitian positive semidefinite matrices $`A,B\in\mathbb C^{n\times n}`$, determine whether
 
-$$
+```math
 \mathop{\mathrm{per}}\nolimits(A\circ B)\le\mathop{\mathrm{per}}\nolimits(A)\mathop{\mathrm{per}}\nolimits(B).
-$$
+```
 
-The Hadamard product is $(A\circ B)_{ij}=a_{ij}b_{ij}$ and $\mathop{\mathrm{per}}\nolimits(C)=\sum_{\sigma\in S_n}\prod_i c_{i,\sigma(i)}$. No sign condition on individual off-diagonal entries is imposed.
+The Hadamard product is $`(A\circ B)_{ij}=a_{ij}b_{ij}`$ and $`\mathop{\mathrm{per}}\nolimits(C)=\sum_{\sigma\in S_n}\prod_i c_{i,\sigma(i)}`$. No sign condition on individual off-diagonal entries is imposed.
 
 ## Application
 

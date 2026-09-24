@@ -8,14 +8,14 @@
 
 ## Problem statement
 
-Fix a ball $\Omega\subset\mathbb R^3$ of volume one and a compactly supported probability density $\rho_0\in L^\infty(\mathbb R^3)$. For every $t$, let $T_t=\nabla P_t^*$ be the quadratic-cost optimal transport map carrying $\rho_t(y)\,dy$ to $\mathbf1_\Omega(x)\,dx$. Set $J(a,b,c)=(-b,a,0)$.
+Fix a ball $`\Omega\subset\mathbb R^3`$ of volume one and a compactly supported probability density $`\rho_0\in L^\infty(\mathbb R^3)`$. For every $`t`$, let $`T_t=\nabla P_t^*`$ be the quadratic-cost optimal transport map carrying $`\rho_t(y)\,dy`$ to $`\mathbf1_\Omega(x)\,dx`$. Set $`J(a,b,c)=(-b,a,0)`$.
 Is there at most one distributional solution
 
-$$
+```math
 \partial_t\rho+\nabla_y\!\cdot\bigl[\rho J(y-T_t(y))\bigr]=0,\qquad \rho|_{t=0}=\rho_0,
-$$
+```
 
-among nonnegative probability densities that are narrowly continuous in time and, on each finite interval $[0,T]$, are uniformly bounded in $L^\infty$ and supported in a common compact set? Narrow continuity means continuity of $\int\phi\rho_t$ for every bounded continuous $\phi$. Equality of solutions means equality of their measures at every time.
+among nonnegative probability densities that are narrowly continuous in time and, on each finite interval $`[0,T]`$, are uniformly bounded in $`L^\infty`$ and supported in a common compact set? Narrow continuity means continuity of $`\int\phi\rho_t`$ for every bounded continuous $`\phi`$. Equality of solutions means equality of their measures at every time.
 
 ## Application
 

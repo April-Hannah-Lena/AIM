@@ -10,31 +10,31 @@
 
 ## Problem statement
 
-Let $n\ge1$, let $A=(a_{ij})\in\mathbb R^{n\times n}$, and fix a vector $x^\ast\in(0,\infty)^n$. Consider the population system
+Let $`n\ge1`$, let $`A=(a_{ij})\in\mathbb R^{n\times n}`$, and fix a vector $`x^\ast\in(0,\infty)^n`$. Consider the population system
 
-$$
+```math
 \frac{dx_i}{dt}
 =x_i\sum_{j=1}^n a_{ij}(x_j-x_j^\ast),
 \qquad i=1,\ldots,n.
-$$
+```
 
-In particular, $x^\ast$ is a strictly positive equilibrium. Assume that $A$ is **D-stable**: for every constant diagonal matrix
+In particular, $`x^\ast`$ is a strictly positive equilibrium. Assume that $`A`$ is **D-stable**: for every constant diagonal matrix
 
-$$
+```math
 D=\mathop{\mathrm{diag}}\nolimits(d_1,\ldots,d_n),\qquad d_i>0,
-$$
+```
 
-all eigenvalues of $DA$ have strictly negative real parts.
+all eigenvalues of $`DA`$ have strictly negative real parts.
 
-Must every solution starting from $x(0)\in(0,\infty)^n$ exist for all forward times and converge to the coexistence equilibrium?
+Must every solution starting from $`x(0)\in(0,\infty)^n`$ exist for all forward times and converge to the coexistence equilibrium?
 
-$$
+```math
 \lim_{t\to\infty}x(t)=x^\ast.
-$$
+```
 
-This is the Hofbauer–Sigmund global-stability conjecture, in the explicit formulation of Lu–Takeuchi and Hong–Pego. Equivalently, write $\dot x=\mathop{\mathrm{diag}}\nolimits(x)(b+Ax)$ with $b=-Ax^\ast$. Hong–Pego use the interaction sign convention $-B=A$. [1, §2; 2, §2.4]
+This is the Hofbauer–Sigmund global-stability conjecture, in the explicit formulation of Lu–Takeuchi and Hong–Pego. Equivalently, write $`\dot x=\mathop{\mathrm{diag}}\nolimits(x)(b+Ax)`$ with $`b=-Ax^\ast`$. Hong–Pego use the interaction sign convention $`-B=A`$. [1, §2; 2, §2.4]
 
-The question ranges over all finite dimensions and real interaction matrices satisfying the stated condition. It does not assume symmetry, a competitive or cooperative sign pattern, diagonal dominance, or boundedness of the trajectory. Forward existence is part of the requested conclusion. Initial states with an extinct species are excluded: the corresponding coordinate remains zero. The equilibrium is already locally asymptotically stable because its Jacobian is $\mathop{\mathrm{diag}}\nolimits(x^\ast)A$. The unresolved issue is attraction from every strictly positive initial population.
+The question ranges over all finite dimensions and real interaction matrices satisfying the stated condition. It does not assume symmetry, a competitive or cooperative sign pattern, diagonal dominance, or boundedness of the trajectory. Forward existence is part of the requested conclusion. Initial states with an extinct species are excluded: the corresponding coordinate remains zero. The equilibrium is already locally asymptotically stable because its Jacobian is $`\mathop{\mathrm{diag}}\nolimits(x^\ast)A`$. The unresolved issue is attraction from every strictly positive initial population.
 
 ## Applied significance
 
@@ -55,11 +55,11 @@ D-stability ensures local stability at every feasible positive equilibrium when 
 
 The explicit open assessment inspected is Hong–Pego's 2021 discussion [2, §2.4]. The September 19, 2026 check covered the conjecture's names, D-stability and global-attraction formulations, proofs, counterexamples, recent work, revisions and corrections. The newer papers [3, 4] address stronger assumptions and related dynamics; neither is cited as a new statement of the exact conjecture.
 
-A standard sufficient condition is **Volterra–Lyapunov stability**: there exists a positive diagonal matrix $H$ such that
+A standard sufficient condition is **Volterra–Lyapunov stability**: there exists a positive diagonal matrix $`H`$ such that
 
-$$
+```math
 HA+A^{\mathsf T}H\prec0.
-$$
+```
 
 This means the symmetric matrix is negative definite. It yields a Lyapunov function and global convergence. D-stability does not supply this stronger certificate. Theorems 5 and 8 of [3] retain the Volterra–Lyapunov assumption; Question 35 asks about extending their invasion-graph conclusions to broader matrix classes. Lu–Takeuchi's Theorem 2 [1] proves global stability under qualitative stability, which requires stability for every matrix with the same entrywise sign pattern. That is an additional restriction.
 

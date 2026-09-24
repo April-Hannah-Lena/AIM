@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Is there an algorithm which, for every positive integer $n$, rational matrix $A\in\mathbb Q^{n\times n}$ and rational vectors $x_0,c\in\mathbb Q^n$, halts and correctly decides whether
+Is there an algorithm which, for every positive integer $`n`$, rational matrix $`A\in\mathbb Q^{n\times n}`$ and rational vectors $`x_0,c\in\mathbb Q^n`$, halts and correctly decides whether
 
-$$
+```math
 \exists t\geq0:\quad c^T e^{tA}x_0=0?
-$$
+```
 
-The matrix exponential is $e^{tA}=\sum_{j\geq0}(tA)^j/j!$. Thus the question asks whether the exact solution of $x'=Ax$, $x(0)=x_0$, ever intersects the hyperplane $c^Tx=0$. Inputs are finite binary encodings of rational numbers; time is a real variable and is not discretized.
+The matrix exponential is $`e^{tA}=\sum_{j\geq0}(tA)^j/j!`$. Thus the question asks whether the exact solution of $`x'=Ax`$, $`x(0)=x_0`$, ever intersects the hyperplane $`c^Tx=0`$. Inputs are finite binary encodings of rational numbers; time is a real variable and is not discretized.
 
 ## Application
 

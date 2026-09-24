@@ -8,24 +8,24 @@
 
 ## Problem statement
 
-Let $\mathcal P_n$ be the set of integer partitions of $n\ge2$, and let $u_n$ be its uniform probability measure. Define a Markov kernel $Q_n$ by the following step from $\lambda\in\mathcal P_n$:
+Let $`\mathcal P_n`$ be the set of integer partitions of $`n\ge2`$, and let $`u_n`$ be its uniform probability measure. Define a Markov kernel $`Q_n`$ by the following step from $`\lambda\in\mathcal P_n`$:
 
-1. Transpose the Young diagram of $\lambda$, obtaining the conjugate partition $\lambda^{\mathsf T}$.
-2. Choose any permutation $\sigma\in S_n$ with cycle type $\lambda^{\mathsf T}$, and sample $\tau$ uniformly from its centralizer
+1. Transpose the Young diagram of $`\lambda`$, obtaining the conjugate partition $`\lambda^{\mathsf T}`$.
+2. Choose any permutation $`\sigma\in S_n`$ with cycle type $`\lambda^{\mathsf T}`$, and sample $`\tau`$ uniformly from its centralizer
 
-$$
+```math
 C_{S_n}(\sigma)=\{\tau\in S_n:\tau\sigma=\sigma\tau\}.
-$$
+```
 
-3. Return the cycle type of $\tau$.
+3. Return the cycle type of $`\tau`$.
 
-The resulting kernel is independent of the representative $\sigma$ and has stationary distribution $u_n$. Define its worst-case total-variation mixing time by
+The resulting kernel is independent of the representative $`\sigma`$ and has stationary distribution $`u_n`$. Define its worst-case total-variation mixing time by
 
-$$
+```math
 t_n=\min\left\{t\in\mathbb N_0:\max_{\lambda\in\mathcal P_n}\frac12\sum_{\mu\in\mathcal P_n}\left|Q_n^t(\lambda,\mu)-\frac1{|\mathcal P_n|}\right|\le\frac14\right\}.
-$$
+```
 
-Determine the asymptotic order of $t_n$ as $n\to\infty$. In particular, is $t_n=O(\log n)$? This asks about the distribution of the entire partition, uniformly over starting states.
+Determine the asymptotic order of $`t_n`$ as $`n\to\infty`$. In particular, is $`t_n=O(\log n)`$? This asks about the distribution of the entire partition, uniformly over starting states.
 
 ## Application
 

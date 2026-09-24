@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Given rational $A\in\mathbb Q^{m\times n}$ of full row rank, $b\in\mathbb Q^m$, $c\in\mathbb Q^n$, and an initial feasible basis for
+Given rational $`A\in\mathbb Q^{m\times n}`$ of full row rank, $`b\in\mathbb Q^m`$, $`c\in\mathbb Q^n`$, and an initial feasible basis for
 
-$$
+```math
 \min\{c^Tx:Ax=b,\ x\ge0\},
-$$
+```
 
-assume the optimal value is finite. Is there a deterministic simplex pivot rule that reaches an optimal basis using a number of rational arithmetic operations and comparisons bounded by a polynomial in $m+n$ alone, with every intermediate rational having bit length polynomial in the total input bit length? Successive bases must be connected by ordinary feasible simplex pivots along nonincreasing objective values; degenerate pivots are permitted. Rule selection and auxiliary computations count toward the bound, so a pivot oracle of unbounded computational cost is not allowed.
+assume the optimal value is finite. Is there a deterministic simplex pivot rule that reaches an optimal basis using a number of rational arithmetic operations and comparisons bounded by a polynomial in $`m+n`$ alone, with every intermediate rational having bit length polynomial in the total input bit length? Successive bases must be connected by ordinary feasible simplex pivots along nonincreasing objective values; degenerate pivots are permitted. Rule selection and auxiliary computations count toward the bound, so a pivot oracle of unbounded computational cost is not allowed.
 
 ## Application
 

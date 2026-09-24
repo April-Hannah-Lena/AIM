@@ -8,21 +8,21 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^3$ be smooth and bounded, and let $y_0$ be a smooth orientation-preserving diffeomorphism on a neighborhood of $\overline\Omega$. Consider a frame-indifferent, polyconvex stored energy $W\in C^1(GL^+(3))$, extended by $+\infty$ when $\det F\leq0$. Assume, for some $p>3$ and positive constants,
+Let $`\Omega\subset\mathbb R^3`$ be smooth and bounded, and let $`y_0`$ be a smooth orientation-preserving diffeomorphism on a neighborhood of $`\overline\Omega`$. Consider a frame-indifferent, polyconvex stored energy $`W\in C^1(GL^+(3))`$, extended by $`+\infty`$ when $`\det F\leq0`$. Assume, for some $`p>3`$ and positive constants,
 
-$$
+```math
 W(F)\geq c|F|^p-C,\qquad W(F)\to\infty\ \text{as }\det F\downarrow0,
-$$
+```
 
-and $|DW(F)F^T|+|F^TDW(F)|\leq C(1+W(F))$, after adding a constant so that $W\geq0$.
+and $`|DW(F)F^T|+|F^TDW(F)|\leq C(1+W(F))`$, after adding a constant so that $`W\geq0`$.
 
-If $y$ globally minimizes $\int_\Omega W(Dy)\,dx$ over $W^{1,p}$ maps of trace $y_0$, must $DW(Dy)\in L^1_{\mathrm{loc}}$ and
+If $`y`$ globally minimizes $`\int_\Omega W(Dy)\,dx`$ over $`W^{1,p}`$ maps of trace $`y_0`$, must $`DW(Dy)\in L^1_{\mathrm{loc}}`$ and
 
-$$
+```math
 \int_\Omega DW(Dy):D\varphi\,dx=0\qquad(\varphi\in C_c^\infty(\Omega;\mathbb R^3))?
-$$
+```
 
-Polyconvex means $W(F)$ is a convex function of $(F,\mathop{\mathrm{cof}}\nolimits F,\det F)$. The class includes energies with inverse powers of the determinant; additive perturbations need not preserve positive determinant.
+Polyconvex means $`W(F)`$ is a convex function of $`(F,\mathop{\mathrm{cof}}\nolimits F,\det F)`$. The class includes energies with inverse powers of the determinant; additive perturbations need not preserve positive determinant.
 
 ## Application
 

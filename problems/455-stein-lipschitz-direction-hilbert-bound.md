@@ -7,17 +7,17 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-Do absolute constants $K\ge1$ and $C<\infty$ exist such that the following holds? For every $v:\mathbb R^2\to S^1$ satisfying $|v(x)-v(y)|\le|x-y|$, every Schwartz function $f$, and every $\lambda>0$, define
+Do absolute constants $`K\ge1`$ and $`C<\infty`$ exist such that the following holds? For every $`v:\mathbb R^2\to S^1`$ satisfying $`|v(x)-v(y)|\le|x-y|`$, every Schwartz function $`f`$, and every $`\lambda>0`$, define
 
-$$
+```math
 H_vf(x)=\lim_{\varepsilon\downarrow0}\int_{\varepsilon<|t|<1/K}f(x-tv(x))\,\frac{dt}{t}.
-$$
+```
 
 Then require
 
-$$
+```math
 \lambda^2\big|\{x\in\mathbb R^2:|H_vf(x)|>\lambda\}\big|\le C\|f\|_{L^2(\mathbb R^2)}^2.
-$$
+```
 
 The constants must be uniform over all such direction fields, including fields depending on both spatial coordinates.
 

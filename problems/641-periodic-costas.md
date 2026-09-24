@@ -8,31 +8,31 @@
 
 ## Problem statement
 
-Write $[a]=\{1,\ldots,a\}$. Let $m\ge2$, $1\le m-k\le k$, and let $n_1,\ldots,n_m\ge2$ be integers satisfying
+Write $`[a]=\{1,\ldots,a\}`$. Let $`m\ge2`$, $`1\le m-k\le k`$, and let $`n_1,\ldots,n_m\ge2`$ be integers satisfying
 
-$$
+```math
 n=\prod_{i=1}^{k}n_i=\prod_{i=k+1}^{m}n_i.
-$$
+```
 
 For a bijection
 
-$$
+```math
 \varphi:\prod_{i=1}^{k}[n_i]\longrightarrow\prod_{i=k+1}^{m}[n_i],
-$$
+```
 
-let $S=\{(x,\varphi(x))\}$ be its graph and extend it periodically to
+let $`S=\{(x,\varphi(x))\}`$ be its graph and extend it periodically to
 
-$$
+```math
 \widetilde S=S+(n_1\mathbb Z\times\cdots\times n_m\mathbb Z).
-$$
+```
 
-Assume that, for every $t\in\mathbb Z^m$, all nonzero ordered difference vectors between points of
+Assume that, for every $`t\in\mathbb Z^m`$, all nonzero ordered difference vectors between points of
 
-$$
+```math
 \widetilde S\cap\left(t+\prod_{i=1}^{m}[n_i]\right)
-$$
+```
 
-are distinct. Must $n=2^k$, equivalently $n_1=\cdots=n_k=2$?
+are distinct. Must $`n=2^k`$, equivalently $`n_1=\cdots=n_k=2`$?
 
 This is the periodic multidimensional Costas-array conjecture of Rubio and Torres. The differences in each window are ordinary integer vectors; they are not reduced modulo the side lengths.
 
@@ -47,7 +47,7 @@ Distinct displacement vectors limit ambiguity in multidimensional correlation pa
 
 ## Status review
 
-**Known cases:** The assertion holds in dimensions two and three. Odd orders cannot satisfy the periodic condition in any dimension. The source also supplies nonexistence criteria for additional even-order shapes and examples of periodic arrays of size $2\times2\times4$.
+**Known cases:** The assertion holds in dimensions two and three. Odd orders cannot satisfy the periodic condition in any dimension. The source also supplies nonexistence criteria for additional even-order shapes and examples of periodic arrays of size $`2\times2\times4`$.
 
 **Remaining target:** Prove the assertion for arbitrary dimensions at least four, or give a periodic array exceeding the proposed minimum order.
 

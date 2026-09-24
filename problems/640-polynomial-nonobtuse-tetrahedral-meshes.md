@@ -8,11 +8,11 @@
 
 ## Problem statement
 
-Let $P\subset\mathbb R^3$ be the closure of a bounded polyhedral domain with a finite polygonal boundary, and let $n$ be its boundary combinatorial complexity (vertices, edges and faces).
+Let $`P\subset\mathbb R^3`$ be the closure of a bounded polyhedral domain with a finite polygonal boundary, and let $`n`$ be its boundary combinatorial complexity (vertices, edges and faces).
 
-Do universal constants $C,k>0$ exist such that every such $P$ admits a conforming tetrahedralization with at most $Cn^k$ tetrahedra, all of whose interior dihedral angles are at most $\pi/2$?
+Do universal constants $`C,k>0`$ exist such that every such $`P`$ admits a conforming tetrahedralization with at most $`Cn^k`$ tetrahedra, all of whose interior dihedral angles are at most $`\pi/2`$?
 
-Here the tetrahedra have disjoint interiors and cover $P$; intersections are common faces, edges or vertices, and each input boundary face is a union of mesh triangles. Arbitrary additional vertices on the boundary and in the interior are allowed. The bound must be independent of geometric aspect ratios. The target is an element-count bound, without a prescribed polynomial-time construction.
+Here the tetrahedra have disjoint interiors and cover $`P`$; intersections are common faces, edges or vertices, and each input boundary face is a union of mesh triangles. Arbitrary additional vertices on the boundary and in the interior are allowed. The bound must be independent of geometric aspect ratios. The target is an element-count bound, without a prescribed polynomial-time construction.
 
 ## Application
 

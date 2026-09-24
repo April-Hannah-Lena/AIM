@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Fix $\beta>\beta_c^{(2)}=\frac12\log(1+\sqrt2)$. On $\Lambda_n=\{1,\ldots,n\}^2$ take Ising spins with all exterior spins fixed to $+1$ and Gibbs weight proportional to $\exp(\beta\sum_{x\sim y}\sigma_x\sigma_y)$, summing over edges meeting $\Lambda_n$. Run continuous-time heat-bath Glauber dynamics: each interior site, at rate one, resamples its spin from the Gibbs conditional law.
+Fix $`\beta>\beta_c^{(2)}=\frac12\log(1+\sqrt2)`$. On $`\Lambda_n=\{1,\ldots,n\}^2`$ take Ising spins with all exterior spins fixed to $`+1`$ and Gibbs weight proportional to $`\exp(\beta\sum_{x\sim y}\sigma_x\sigma_y)`$, summing over edges meeting $`\Lambda_n`$. Run continuous-time heat-bath Glauber dynamics: each interior site, at rate one, resamples its spin from the Gibbs conditional law.
 
 Let
 
-$$
+```math
 t_{\rm mix}(n,\beta)=\inf\{t:\max_\eta\|P_t(\eta,\cdot)-\mu_{n,\beta}^+\|_{\rm TV}\le1/4\}.
-$$
+```
 
-For every fixed $\beta>\beta_c^{(2)}$, do finite constants $C_\beta,a_\beta$ exist with $t_{\rm mix}(n,\beta)\le C_\beta n^{a_\beta}$ for all $n\ge1$?
+For every fixed $`\beta>\beta_c^{(2)}`$, do finite constants $`C_\beta,a_\beta`$ exist with $`t_{\rm mix}(n,\beta)\le C_\beta n^{a_\beta}`$ for all $`n\ge1`$?
 
 ## Application
 

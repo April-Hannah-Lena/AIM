@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $P\subset\mathbb R^2$ be a finite set in strictly convex position, and let $T,T'$ be straight-line spanning trees on $P$ whose edges do not cross within either tree. A flip deletes one edge and inserts another, leaving a non-crossing spanning tree; the deleted and inserted edges are allowed to cross each other.
+Let $`P\subset\mathbb R^2`$ be a finite set in strictly convex position, and let $`T,T'`$ be straight-line spanning trees on $`P`$ whose edges do not cross within either tree. A flip deletes one edge and inserts another, leaving a non-crossing spanning tree; the deleted and inserted edges are allowed to cross each other.
 
-Write $d_{\mathrm{flip}}(T,T')$ for the minimum number of flips and
+Write $`d_{\mathrm{flip}}(T,T')`$ for the minimum number of flips and
 
-$$
+```math
 \delta(T,T')=|E(T)\setminus E(T')|=\tfrac12|E(T)\mathbin{\triangle}E(T')|.
-$$
+```
 
 Prove or disprove that every such pair satisfies
 
-$$
+```math
 d_{\mathrm{flip}}(T,T')\le\frac53\,\delta(T,T').
-$$
+```
 
 ## Application
 
@@ -34,4 +34,4 @@ The bound would control the number of geometric network updates by the actual di
 
 ## Status review
 
-Reference [1] constructs pairs with $\delta=3k$ requiring exactly $5k$ flips, so the proposed constant cannot be reduced. Bounds with leading constant $5/3$ in the number of vertices do not imply this statement, because many edges may be shared. Reference [2] explicitly identifies removing its extra common-boundary-edge term as an open improvement. The later hardness and diameter results [3] do not provide the required bound in $\delta$. Current searches found no matching resolution or duplicate.
+Reference [1] constructs pairs with $`\delta=3k`$ requiring exactly $`5k`$ flips, so the proposed constant cannot be reduced. Bounds with leading constant $`5/3`$ in the number of vertices do not imply this statement, because many edges may be shared. Reference [2] explicitly identifies removing its extra common-boundary-edge term as an open improvement. The later hardness and diameter results [3] do not provide the required bound in $`\delta`$. Current searches found no matching resolution or duplicate.

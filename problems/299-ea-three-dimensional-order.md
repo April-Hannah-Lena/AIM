@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $\Lambda_L=\{1,\ldots,L\}^3\subset\mathbb Z^3$. Give each unordered nearest-neighbor edge $e=\{x,y\}$ an independent standard normal coupling $J_e$. With free boundary conditions and zero external field, define
+Let $`\Lambda_L=\{1,\ldots,L\}^3\subset\mathbb Z^3`$. Give each unordered nearest-neighbor edge $`e=\{x,y\}`$ an independent standard normal coupling $`J_e`$. With free boundary conditions and zero external field, define
 
-$$
+```math
 H_{L,J}(\sigma)=-\sum_{\substack{\{x,y\}\subset\Lambda_L\\|x-y|_1=1}}J_{\{x,y\}}\sigma_x\sigma_y,
 \qquad \mu_{L,\beta,J}(\sigma)=Z_{L,\beta,J}^{-1}e^{-\beta H_{L,J}(\sigma)},
 \quad\sigma\in\{-1,1\}^{\Lambda_L}.
-$$
+```
 
-Conditionally on the same $J$, sample $\sigma^1,\sigma^2$ independently from $\mu_{L,\beta,J}$ and set $R_L=L^{-3}\sum_{x\in\Lambda_L}\sigma_x^1\sigma_x^2$. Does there exist $0<\beta_0<\infty$ such that, for every fixed $\beta>\beta_0$,
+Conditionally on the same $`J`$, sample $`\sigma^1,\sigma^2`$ independently from $`\mu_{L,\beta,J}`$ and set $`R_L=L^{-3}\sum_{x\in\Lambda_L}\sigma_x^1\sigma_x^2`$. Does there exist $`0<\beta_0<\infty`$ such that, for every fixed $`\beta>\beta_0`$,
 
-$$
+```math
 \limsup_{L\to\infty}\mathbb E_J\!\left[\mathbb E_{\mu_{L,\beta,J}^{\otimes2}} R_L^2\right]>0?
-$$
+```
 
 This uses the overlap-broadening criterion of Itoi–Mukaida–Tasaki, Eq. (3.3), for the expected low-temperature order in dimension three. The volume limit is taken at a fixed finite inverse temperature. The limsup convention does not presuppose convergence of the full overlap distribution.
 
@@ -40,8 +40,8 @@ The model represents a magnet with frozen random interactions that favor incompa
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-Itoi–Mukaida–Tasaki give the precise order parameter and state the expected low-temperature order for $d\ge3$. Their theorem shows that positive overlap broadening implies a positive Edwards–Anderson order parameter; it does not prove positivity. Newman–Stein independently formulate the finite-temperature transition problem, and Hukushima–Krauth report that the three-dimensional transition remains without a rigorous proof.
+Itoi–Mukaida–Tasaki give the precise order parameter and state the expected low-temperature order for $`d\ge3`$. Their theorem shows that positive overlap broadening implies a positive Edwards–Anderson order parameter; it does not prove positivity. Newman–Stein independently formulate the finite-temperature transition problem, and Hukushima–Krauth report that the three-dimensional transition remains without a rigorous proof.
 
-Chatterjee's results concern zero-temperature ground states, including overlaps under changes of disorder. They do not establish positive overlap for thermal replicas at fixed finite $\beta$. Itoi–Sakamoto's site-overlap self-averaging theorem assumes a positive random field; §5.2 explicitly leaves its zero-field argument unavailable. Their separate zero-field bond-overlap result concerns a different observable and does not refute the assertion above.
+Chatterjee's results concern zero-temperature ground states, including overlaps under changes of disorder. They do not establish positive overlap for thermal replicas at fixed finite $`\beta`$. Itoi–Sakamoto's site-overlap self-averaging theorem assumes a positive random field; §5.2 explicitly leaves its zero-field argument unavailable. Their separate zero-field bond-overlap result concerns a different observable and does not refute the assertion above.
 
 Searches on September 17, 2026 covered finite-temperature EA order, squared overlap, phase-transition proof and disproof claims, recent versions and corrections. Relevant source sections and both recent preprint version histories were read. The problem is distinct from the catalogue's two-dimensional ground-state uniqueness question. No independent expert review has occurred; full evidence and the separate adversarial self-pass are recorded in the [evidence ledger](../research/expansion-2026-09/candidates/ea-three-dimensional-order.json).

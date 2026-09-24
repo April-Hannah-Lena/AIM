@@ -8,11 +8,11 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^2$ be any bounded connected domain with piecewise smooth Lipschitz boundary. Choose any real orthonormal Dirichlet eigenbasis $(u_k)$, ordered by nondecreasing eigenvalue with multiplicity. Let $\nu(u_k)$ be the number of connected components of $\Omega\setminus\{u_k=0\}$. Prove or disprove
+Let $`\Omega\subset\mathbb R^2`$ be any bounded connected domain with piecewise smooth Lipschitz boundary. Choose any real orthonormal Dirichlet eigenbasis $`(u_k)`$, ordered by nondecreasing eigenvalue with multiplicity. Let $`\nu(u_k)`$ be the number of connected components of $`\Omega\setminus\{u_k=0\}`$. Prove or disprove
 
-$$
+```math
 \limsup_{k\to\infty}\frac{\nu(u_k)}{k}\le\frac2\pi.
-$$
+```
 
 The assertion is uniform in the choice of domain and eigenbasis. The proposed constant is attained asymptotically by rectangular examples.
 

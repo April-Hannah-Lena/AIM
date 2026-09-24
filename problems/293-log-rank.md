@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-Let $M\in\{0,1\}^{m\times n}$ be a finite Boolean matrix known to both participants. Alice receives $i\in\{1,\ldots,m\}$, Bob receives $j\in\{1,\ldots,n\}$, and they exchange bits to determine $M_{ij}$ exactly. Let $D(M)$ be the least worst-case number of bits in a deterministic interactive protocol, with unrestricted local computation and with both participants learning the answer.
+Let $`M\in\{0,1\}^{m\times n}`$ be a finite Boolean matrix known to both participants. Alice receives $`i\in\{1,\ldots,m\}`$, Bob receives $`j\in\{1,\ldots,n\}`$, and they exchange bits to determine $`M_{ij}`$ exactly. Let $`D(M)`$ be the least worst-case number of bits in a deterministic interactive protocol, with unrestricted local computation and with both participants learning the answer.
 
-Do there exist absolute constants $C,c>0$ such that every such matrix satisfies
+Do there exist absolute constants $`C,c>0`$ such that every such matrix satisfies
 
-$$
+```math
 D(M)\le C\bigl[\log_2(2+\mathop{\mathrm{rank}}\nolimits_{\mathbb R}M)\bigr]^c?
-$$
+```
 
-All pairs $(i,j)$ are possible: there is no promise on the inputs. The real rank is exact, not an approximate rank. The additive constant inside the logarithm handles constant matrices. Requiring both participants to learn the output changes conventional one-output-party communication complexity by at most one bit and therefore does not change this conjecture.
+All pairs $`(i,j)`$ are possible: there is no promise on the inputs. The real rank is exact, not an approximate rank. The additive constant inside the logarithm handles constant matrices. Requiring both participants to learn the output changes conventional one-output-party communication complexity by at most one bit and therefore does not change this conjecture.
 
 ## Application
 
@@ -34,7 +34,7 @@ This asks whether a linear-algebraic measure of a distributed decision table con
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-The September 17, 2026 review searched the name and Lovász–Saks alias, mathematical wording, proof/disproof terms, recent authors, and 2025–2026 results, together with unrestricted-date searches and version checks. Hambardzumyan–Lovett–Shirley explicitly retain the conjecture in their August 2026 version. Independent work of Sudakov–Tomon proves an $O(\sqrt r)$ communication upper bound, leaving the polylogarithmic target unresolved.
+The September 17, 2026 review searched the name and Lovász–Saks alias, mathematical wording, proof/disproof terms, recent authors, and 2025–2026 results, together with unrestricted-date searches and version checks. Hambardzumyan–Lovett–Shirley explicitly retain the conjecture in their August 2026 version. Independent work of Sudakov–Tomon proves an $`O(\sqrt r)`$ communication upper bound, leaving the polylogarithmic target unresolved.
 
 The apparent refutations above have different scopes. Chattopadhyay–Mande–Sherif separate randomized bounded-error communication from approximate rank. Hatami and coauthors disprove auxiliary Fourier-support claims and explain in §5 why their examples do not refute log-rank itself. Song's displayed polylogarithmic lower bound remains compatible with an upper bound having a sufficiently large fixed exponent; this review does not claim it is the strongest lower bound in every formulation.
 

@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-On $\mathbb Z^2$, let each site be vacant or occupied by one individual of type $1$ or $2$. A vacant site changes to type $i$ at rate $\beta_i f_i$, where $f_i$ is the fraction of its four nearest neighbors of type $i$, and a type-$i$ individual dies at rate $\delta_i>0$. Let $\lambda_c$ be the critical birth parameter for the one-type contact process with death rate one and birth rate $\lambda f$.
+On $`\mathbb Z^2`$, let each site be vacant or occupied by one individual of type $`1`$ or $`2`$. A vacant site changes to type $`i`$ at rate $`\beta_i f_i`$, where $`f_i`$ is the fraction of its four nearest neighbors of type $`i`$, and a type-$`i`$ individual dies at rate $`\delta_i>0`$. Let $`\lambda_c`$ be the critical birth parameter for the one-type contact process with death rate one and birth rate $`\lambda f`$.
 
-Assume $\beta_2/\delta_2>\max\{\beta_1/\delta_1,\lambda_c\}$. Starting from any iid site distribution assigning positive probability to each type, must the law converge on finite sets to the upper stationary distribution of the type-$2$ contact process (the limit starting from all type $2$)?
+Assume $`\beta_2/\delta_2>\max\{\beta_1/\delta_1,\lambda_c\}`$. Starting from any iid site distribution assigning positive probability to each type, must the law converge on finite sets to the upper stationary distribution of the type-$`2`$ contact process (the limit starting from all type $`2`$)?
 
 ## Application
 

@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $P\subset\mathbb R^3$ be a convex polytope with nonempty interior, and let $G$ be the graph formed by its vertices and edges. Does there always exist a spanning tree $T\subset G$ such that cutting $\partial P$ along $T$ and developing the resulting intrinsic Euclidean surface into the plane produces a single net whose face interiors are pairwise disjoint?
+Let $`P\subset\mathbb R^3`$ be a convex polytope with nonempty interior, and let $`G`$ be the graph formed by its vertices and edges. Does there always exist a spanning tree $`T\subset G`$ such that cutting $`\partial P`$ along $`T`$ and developing the resulting intrinsic Euclidean surface into the plane produces a single net whose face interiors are pairwise disjoint?
 
 Each face must retain its original shape and size. Cuts may use only original edges; the question permits contact along boundaries of unfolded faces, but no overlapping interiors.
 

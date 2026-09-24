@@ -10,6 +10,7 @@ import sys
 import tempfile
 import unittest
 from catalogue import next_problem_id
+from markdown_math import expressions, validate_math
 
 ROOT = Path(__file__).resolve().parents[1]
 GENERATED = ('README.md', 'CATALOG.md', 'RESOLVED.md')
@@ -40,6 +41,31 @@ class NumberAllocationTests(unittest.TestCase):
         manifest = {'batches': [{'ids': ['998', '1000', '999']}],
                     'retired': []}
         self.assertEqual(next_problem_id(manifest), 1001)
+
+
+class MathFormattingTests(unittest.TestCase):
+    def test_protected_inline_and_display_preserve_tex(self):
+        tex = r'\left\{x_1,x_2\right\}'
+        content = '$`' + tex + '`$\n\n```math\n' + tex + '\n```\n'
+        found, errors = expressions(content)
+        self.assertEqual(errors, [])
+        self.assertEqual([(e.tex, e.display) for e in found], [(tex, False), (tex, True)])
+        self.assertEqual(validate_math(content), [])
+
+    def test_unprotected_and_legacy_math_are_rejected(self):
+        for content in ('$x$', '$$\nx\n$$', r'\(x\)', r'\[x\]'):
+            with self.subTest(content=content):
+                self.assertTrue(any('protect math' in error for error in validate_math(content)))
+
+    def test_code_examples_and_escaped_dollars_are_not_math(self):
+        content = '`$x$` and \\$5\n\n````markdown\n```math\nx\n```\n$x$\n````\n'
+        self.assertEqual(expressions(content), ([], []))
+        self.assertEqual(validate_math(content), [])
+
+    def test_unclosed_math_and_fences_are_rejected(self):
+        for content in ('$`x', '```math\nx\n', '$x'):
+            with self.subTest(content=content):
+                self.assertTrue(any('unclosed' in error for error in validate_math(content)))
 
 
 class CatalogueTests(unittest.TestCase):
@@ -293,7 +319,7 @@ class CatalogueTests(unittest.TestCase):
         self.change_page(lambda text: text.replace('## References', '## Reading'))
         self.run_catalogue(expected=1, message='missing References')
 
-    def test_display_math_requires_block_boundaries(self):
+    def test_math_requires_markdown_protection(self):
         row = self.read_json('data/spectral.json')[0]
         path = self.root / row['file']
         original = path.read_text(encoding="utf-8")
@@ -303,18 +329,23 @@ class CatalogueTests(unittest.TestCase):
                       'Before\n\n$$\nx^2\n$$\n$$\ny^2\n$$\n\nAfter'):
             with self.subTest(block=block):
                 path.write_text(original + '\n' + block + '\n', encoding="utf-8")
-                self.run_catalogue(expected=1, message='display math needs standalone delimiters')
+                self.run_catalogue(expected=1, message='protect math')
 
-    def test_display_math_separated_from_prose_and_other_blocks(self):
-        self.change_page(lambda text: text + '\nBefore\n\n$$\nx^2\n$$\n\n$$\ny^2\n$$\n\nAfter\n')
+    def test_protected_display_and_inline_math(self):
+        self.change_page(lambda text: text + '\nBefore $`x^2`$.\n\n```math\ny^2\n```\n\nAfter\n')
         self.run_catalogue('--check')
+
+    def test_math_protection_applies_to_research_files(self):
+        (self.root / 'research/math-regression.md').write_text(
+            r'An unsafe expression: $\left\{x\right\}$.', encoding='utf-8')
+        self.run_catalogue(expected=1, message='research/math-regression.md: line 1: protect math')
 
     def test_unsupported_math_operator_names(self):
         row = self.read_json('data/spectral.json')[0]
         path = self.root / row['file']
         original = path.read_text(encoding="utf-8")
-        for expression in (r'$\operatorname{Per}(E)$',
-                           '\n$$\n' + r'\operatorname*{ess\,sup}_t f(t)' + '\n$$\n'):
+        for expression in (r'$`\operatorname{Per}(E)`$',
+                           '\n```math\n' + r'\operatorname*{ess\,sup}_t f(t)' + '\n```\n'):
             with self.subTest(expression=expression):
                 path.write_text(original + '\n' + expression + '\n', encoding="utf-8")
                 self.run_catalogue(expected=1, message='unsupported operator-name macro')

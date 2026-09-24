@@ -8,25 +8,25 @@
 
 ## Problem statement
 
-Does there exist a nonzero, time-independent, mean-zero, divergence-free trigonometric polynomial $f$ on $\mathbb T^3$, a sequence $\nu_j\downarrow0$, and global Leray–Hopf solutions $u_j$ of
+Does there exist a nonzero, time-independent, mean-zero, divergence-free trigonometric polynomial $`f`$ on $`\mathbb T^3`$, a sequence $`\nu_j\downarrow0`$, and global Leray–Hopf solutions $`u_j`$ of
 
-$$
+```math
 \partial_tu_j+(u_j\cdot\nabla)u_j+\nabla p_j=\nu_j\Delta u_j+f,\qquad\mathop{\mathrm{div}}\nolimits u_j=0,
-$$
+```
 
-with mean-zero initial velocities uniformly bounded in $L^2$, such that
+with mean-zero initial velocities uniformly bounded in $`L^2`$, such that
 
-$$
+```math
 \sup_j\limsup_{T\to\infty}\frac1T\int_0^T\|u_j(t)\|_2^2\,dt<\infty,
-$$
+```
 
 
 
-$$
+```math
 0<\lim_{j\to\infty}\left[\limsup_{T\to\infty}\frac{\nu_j}{T}\int_0^T\|\nabla u_j(t)\|_2^2\,dt\right]<\infty?
-$$
+```
 
-Leray–Hopf means distributional solutions in $L^\infty_{\mathrm{loc},t}L^2_x\cap L^2_{\mathrm{loc},t}H^1_x$ satisfying the energy inequality. The same finite set of forced spatial frequencies and the same forcing amplitudes are used for every viscosity.
+Leray–Hopf means distributional solutions in $`L^\infty_{\mathrm{loc},t}L^2_x\cap L^2_{\mathrm{loc},t}H^1_x`$ satisfying the energy inequality. The same finite set of forced spatial frequencies and the same forcing amplitudes are used for every viscosity.
 
 ## Application
 

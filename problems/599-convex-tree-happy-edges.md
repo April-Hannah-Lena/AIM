@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $P\subset\mathbb R^2$ be a finite set in strictly convex position. A plane spanning tree on $P$ has vertex set $P$, straight edges, and no crossing between the interiors of its edges. A flip removes one edge and inserts another, with the resulting graph again a plane spanning tree. The removed and inserted edges may cross each other.
+Let $`P\subset\mathbb R^2`$ be a finite set in strictly convex position. A plane spanning tree on $`P`$ has vertex set $`P`$, straight edges, and no crossing between the interiors of its edges. A flip removes one edge and inserts another, with the resulting graph again a plane spanning tree. The removed and inserted edges may cross each other.
 
-For any two such trees $T$ and $T'$, prove or disprove that there is a shortest flip sequence
+For any two such trees $`T`$ and $`T'`$, prove or disprove that there is a shortest flip sequence
 
-$$
+```math
 T=T_0,T_1,\ldots,T_k=T'
-$$
+```
 
 such that
 
-$$
+```math
 E(T)\cap E(T')\subseteq E(T_i)\qquad(0\le i\le k).
-$$
+```
 
 Thus all edges shared by the endpoints of the sequence can be retained simultaneously throughout some optimal reconfiguration.
 

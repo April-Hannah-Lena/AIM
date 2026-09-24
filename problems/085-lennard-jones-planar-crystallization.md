@@ -8,22 +8,22 @@
 
 ## Problem statement
 
-For distinct points $x_1,\ldots,x_N\in\mathbb R^2$, define
+For distinct points $`x_1,\ldots,x_N\in\mathbb R^2`$, define
 
-$$
+```math
 E_N(x_1,\ldots,x_N)=\sum_{1\le i<j\le N}
 \left(|x_i-x_j|^{-12}-2|x_i-x_j|^{-6}\right),\qquad
 e_\infty=\liminf_{N\to\infty}\frac1N\inf E_N.
-$$
+```
 
-Let $\Lambda_\triangle=\mathbb Z(1,0)+\mathbb Z(1/2,\sqrt3/2)$ and
+Let $`\Lambda_\triangle=\mathbb Z(1,0)+\mathbb Z(1/2,\sqrt3/2)`$ and
 
-$$
+```math
 e_\triangle=\inf_{a>0}\frac12\sum_{p\in\Lambda_\triangle\setminus\{0\}}
 \left(|ap|^{-12}-2|ap|^{-6}\right).
-$$
+```
 
-Prove or disprove $e_\infty=e_\triangle$. The finite configurations are unrestricted; they are not assumed to be lattices. This asks for the energy form of bulk crystallization, not the stronger geometric convergence of every minimizing configuration.
+Prove or disprove $`e_\infty=e_\triangle`$. The finite configurations are unrestricted; they are not assumed to be lattices. This asks for the energy form of bulk crystallization, not the stronger geometric convergence of every minimizing configuration.
 
 ## Application
 

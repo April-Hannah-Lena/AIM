@@ -10,21 +10,21 @@ This is an unaccepted working formulation. The review found a potential shifted-
 
 ## Problem statement
 
-Let $S$ be a nonnegative, absolutely continuous random variable with $0<\mathbb E S<\infty$ and finite differential entropy. Consider an initially empty, work-conserving, first-in-first-out single-server queue with unlimited buffer. Packets carry information only in their arrival times. For ordered arrivals $0\le a_1\le\cdots\le a_n$, departure times satisfy
+Let $`S`$ be a nonnegative, absolutely continuous random variable with $`0<\mathbb E S<\infty`$ and finite differential entropy. Consider an initially empty, work-conserving, first-in-first-out single-server queue with unlimited buffer. Packets carry information only in their arrival times. For ordered arrivals $`0\le a_1\le\cdots\le a_n`$, departure times satisfy
 
-$$
+```math
 d_0=0,\qquad d_i=\max\{a_i,d_{i-1}\}+S_i,
-$$
+```
 
-where the $S_i$ are independent copies of $S$, independent of the message.
+where the $`S_i`$ are independent copies of $`S`$, independent of the message.
 
-An $n$-packet code sends one of $M_n$ equiprobable messages. A decoder observes all $n$ departure times; require its average error to tend to zero and $\mathbb E d_n\le T_n$. The rate is $\log_2(M_n)/T_n$, with $n,T_n\to\infty$. Let $C(S)$ be the supremum of achievable rates when all arrival times depend only on the message. Define $C_F(S)$ similarly when the encoder also receives instantaneous, noiseless, causal feedback of departures and can adapt subsequent arrivals.
+An $`n`$-packet code sends one of $`M_n`$ equiprobable messages. A decoder observes all $`n`$ departure times; require its average error to tend to zero and $`\mathbb E d_n\le T_n`$. The rate is $`\log_2(M_n)/T_n`$, with $`n,T_n\to\infty`$. Let $`C(S)`$ be the supremum of achievable rates when all arrival times depend only on the message. Define $`C_F(S)`$ similarly when the encoder also receives instantaneous, noiseless, causal feedback of departures and can adapt subsequent arrivals.
 
-If $S$ is not exponentially distributed, must
+If $`S`$ is not exponentially distributed, must
 
-$$
+```math
 C_F(S)>C(S)?
-$$
+```
 
 The question includes unbounded service-time distributions. The finite-entropy density assumption excludes singular or deterministic service laws that can have infinite continuous-time timing capacity. Capacities are measured per expected time of the final **departure**, with no fixed packet-output rate imposed.
 

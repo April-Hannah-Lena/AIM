@@ -8,14 +8,14 @@
 
 ## Problem statement
 
-Let $\Omega\subset\mathbb R^2$ be a bounded smooth simply connected domain and $u_0\in C_c^\infty(\Omega;\mathbb R^2)$ be divergence-free. Let $u^\nu$ solve incompressible Navier–Stokes with viscosity $\nu>0$, no forcing, initial value $u_0$ and boundary condition $u^\nu=0$. Let $u^E$ solve Euler with the same datum and $u^E\cdot n=0$ on $\partial\Omega$. Is
+Let $`\Omega\subset\mathbb R^2`$ be a bounded smooth simply connected domain and $`u_0\in C_c^\infty(\Omega;\mathbb R^2)`$ be divergence-free. Let $`u^\nu`$ solve incompressible Navier–Stokes with viscosity $`\nu>0`$, no forcing, initial value $`u_0`$ and boundary condition $`u^\nu=0`$. Let $`u^E`$ solve Euler with the same datum and $`u^E\cdot n=0`$ on $`\partial\Omega`$. Is
 
-$$
+```math
 \lim_{\nu\downarrow0}\sup_{0\le t\le T}
 \|u^\nu(t)-u^E(t)\|_{L^2(\Omega)}=0
-$$
+```
 
-for every $T<\infty$ and every such $(\Omega,u_0)$? A counterexample within these hypotheses also resolves the question. The datum is fixed independently of viscosity.
+for every $`T<\infty`$ and every such $`(\Omega,u_0)`$? A counterexample within these hypotheses also resolves the question. The datum is fixed independently of viscosity.
 
 ## Application
 

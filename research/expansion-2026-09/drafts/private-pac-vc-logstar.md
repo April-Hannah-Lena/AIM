@@ -8,42 +8,42 @@
 
 ## Problem statement
 
-Let $X$ be a finite nonempty set and $\varnothing\ne\mathcal C\subseteq\{0,1\}^{X}$. Its VC dimension $v$ is the largest size of a subset of $X$ on which $\mathcal C$ realizes every binary labeling. Its Littlestone dimension $d$ is the largest depth of a complete binary tree with internal nodes labeled by points of $X$ and outgoing edges labeled $0,1$, such that every root-to-leaf path agrees with some $c\in\mathcal C$ at all its node-edge pairs. Assume $v\ge1$.
+Let $`X`$ be a finite nonempty set and $`\varnothing\ne\mathcal C\subseteq\{0,1\}^{X}`$. Its VC dimension $`v`$ is the largest size of a subset of $`X`$ on which $`\mathcal C`$ realizes every binary labeling. Its Littlestone dimension $`d`$ is the largest depth of a complete binary tree with internal nodes labeled by points of $`X`$ and outgoing edges labeled $`0,1`$, such that every root-to-leaf path agrees with some $`c\in\mathcal C`$ at all its node-edge pairs. Assume $`v\ge1`$.
 
-For an integer $n\ge1$, consider a randomized learner
+For an integer $`n\ge1`$, consider a randomized learner
 
-$$
+```math
 A:(X\times\{0,1\})^n\longrightarrow\{0,1\}^{X}.
-$$
+```
 
-The class is known to the learner. For every probability distribution $D$ on $X$ and target $c\in\mathcal C$, the learner receives only
+The class is known to the learner. For every probability distribution $`D`$ on $`X`$ and target $`c\in\mathcal C`$, the learner receives only
 
-$$
+```math
 S=((x_1,c(x_1)),\ldots,(x_n,c(x_n))),\qquad x_i\ \text{independently drawn from }D.
-$$
+```
 
-It must output $h=A(S)$ with
+It must output $`h=A(S)`$ with
 
-$$
+```math
 \Pr_{S,A}\!\left[\Pr_{x\sim D}\{h(x)\ne c(x)\}\le\frac1{16}\right]\ge\frac{15}{16}.
-$$
+```
 
-The inner probability uses a fresh input. In addition, for every pair of datasets $S,S'$ differing in one labeled record, and every set $E\subseteq\{0,1\}^{X}$, require
+The inner probability uses a fresh input. In addition, for every pair of datasets $`S,S'`$ differing in one labeled record, and every set $`E\subseteq\{0,1\}^{X}`$, require
 
-$$
+```math
 \Pr[A(S)\in E]\le e^{0.1}\Pr[A(S')\in E]+\frac{1}{100n^3}.
-$$
+```
 
-This privacy condition applies to all datasets, including those inconsistent with $\mathcal C$. The output may lie outside $\mathcal C$, and there is no running-time bound.
+This privacy condition applies to all datasets, including those inconsistent with $`\mathcal C`$. The output may lie outside $`\mathcal C`$, and there is no running-time bound.
 
-Let $m_{\mathrm{priv}}(\mathcal C)$ be the smallest such sample size. Write $\log_2^* t$ for the number of iterated base-two logarithms needed to reduce $t$ to at most one. **Do universal constants $K>0$ and $q\in\mathbb N$, $q\ge1$, exist such that**
+Let $`m_{\mathrm{priv}}(\mathcal C)`$ be the smallest such sample size. Write $`\log_2^* t`$ for the number of iterated base-two logarithms needed to reduce $`t`$ to at most one. **Do universal constants $`K>0`$ and $`q\in\mathbb N`$, $`q\ge1`$, exist such that**
 
-$$
+```math
 m_{\mathrm{priv}}(\mathcal C)
 \le K\left(1+v+\log_2^*(\max\{2,d\})\right)^q
-$$
+```
 
-**for every finite $X$ and every such class $\mathcal C$?**
+**for every finite $`X`$ and every such class $`\mathcal C`$?**
 
 This is a finite-domain, fixed-accuracy formulation of the quantitative question in [1, §6] and [2, §2]. Those sources suppress privacy and accuracy dependence. Here the accuracy, confidence and multiplicative privacy constant are fixed, and the privacy slack is explicitly inverse cubic in sample size, within the small-slack regime of [1, Theorem 2]. This formulation does not assert equivalence with every privacy-parameter regime or with arbitrary infinite domains.
 
@@ -63,7 +63,7 @@ The question asks how many sensitive labeled records are fundamentally needed to
 
 Open in cited literature; no later resolution located as of 2026-09-19. Sources [1] and the independently authored [2] pose the polynomial VC/iterated-logarithm question. The review searched its mathematical wording, later bounds, purported resolutions, versions and corrections.
 
-The known general upper bound has polynomial dependence on $d$, with Lyu's bound involving $d^5$ and logarithmic privacy factors. The lower bound is of order $v+\log^*d$ in the stated small-slack regime. Substituting the specified privacy slack into the upper bounds leaves a polynomial-in-$d$ guarantee, not the requested polynomial-in-$v+\log^*d$ guarantee. Yan proves nearly matching dependence on $\log^*d$ when $v=1$; the question here is uniform over all VC dimensions.
+The known general upper bound has polynomial dependence on $`d`$, with Lyu's bound involving $`d^5`$ and logarithmic privacy factors. The lower bound is of order $`v+\log^*d`$ in the stated small-slack regime. Substituting the specified privacy slack into the upper bounds leaves a polynomial-in-$`d`$ guarantee, not the requested polynomial-in-$`v+\log^*d`$ guarantee. Yan proves nearly matching dependence on $`\log^*d`$ when $`v=1`$; the question here is uniform over all VC dimensions.
 
 The September 2026 VALG manuscript reports results for Cartesian products of VC-one classes and a threshold-minor lower bound. Its complete assumptions retain the product structure, and its lower bound does not give a superpolynomial separation from the target here. These reported results are not independently certified proofs.
 

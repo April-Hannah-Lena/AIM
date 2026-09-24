@@ -6,23 +6,23 @@
 
 ## Problem statement
 
-Let $M$ be a closed connected smooth aspherical manifold, and let $\widetilde M$ be its universal cover. Thus $M$ is compact without boundary and $\widetilde M$ is contractible. Write $G=\pi_1(M)$ for the group acting on $\widetilde M$ by deck transformations.
+Let $`M`$ be a closed connected smooth aspherical manifold, and let $`\widetilde M`$ be its universal cover. Thus $`M`$ is compact without boundary and $`\widetilde M`$ is contractible. Write $`G=\pi_1(M)`$ for the group acting on $`\widetilde M`$ by deck transformations.
 
-Does there always exist a compact subset $K\subseteq\widetilde M$ such that
+Does there always exist a compact subset $`K\subseteq\widetilde M`$ such that
 
-$$
+```math
 \widetilde M=\bigcup_{g\in G}gK,
-$$
+```
 
-and, for every finite nonempty subset $F\subseteq G$, the intersection
+and, for every finite nonempty subset $`F\subseteq G`$, the intersection
 
-$$
+```math
 \bigcap_{g\in F}gK
-$$
+```
 
 is either empty or contractible?
 
-The condition includes singleton $F$, so $K$ itself must be contractible. The entire cover must consist of translates of this one compact set.
+The condition includes singleton $`F`$, so $`K`$ itself must be contractible. The entire cover must consist of translates of this one compact set.
 
 ## Application
 

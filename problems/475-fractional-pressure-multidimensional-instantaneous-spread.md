@@ -8,33 +8,33 @@
 
 ## Problem statement
 
-Fix $N\ge2$, $1<m<2$ and $0<s<1$.
+Fix $`N\ge2`$, $`1<m<2`$ and $`0<s<1`$.
 
-On $\mathbb R^N$ use the model
+On $`\mathbb R^N`$ use the model
 
-$$
+```math
 u_t=\nabla\cdot(u^{m-1}\nabla p),\qquad p=(-\Delta)^{-s}u,
-$$
+```
 
-where the inverse fractional Laplacian has Fourier multiplier $|\xi|^{-2s}$. Take nonzero, nonnegative $u_0\in L^1\cap L^\infty$ with compact support. By a bounded energy weak solution mean a nonnegative distributional solution with the initial trace $u_0$, continuous into $L^1$ with its weak topology, conserving $\int u_0$, and satisfying $\|u(t)\|_\infty\le\|u_0\|_\infty$, locally integrable flux, and
+where the inverse fractional Laplacian has Fourier multiplier $`|\xi|^{-2s}`$. Take nonzero, nonnegative $`u_0\in L^1\cap L^\infty`$ with compact support. By a bounded energy weak solution mean a nonnegative distributional solution with the initial trace $`u_0`$, continuous into $`L^1`$ with its weak topology, conserving $`\int u_0`$, and satisfying $`\|u(t)\|_\infty\le\|u_0\|_\infty`$, locally integrable flux, and
 
-$$
+```math
 \frac12\|(-\Delta)^{-s/2}u(t)\|_2^2+
 \int_0^t\!\int u^{m-1}|\nabla(-\Delta)^{-s}u|^2
 \le\frac12\|(-\Delta)^{-s/2}u_0\|_2^2.
-$$
+```
 
-Use also the dissipative $L^q$ inequalities, for every $q>1$,
+Use also the dissipative $`L^q`$ inequalities, for every $`q>1`$,
 
-$$
+```math
 \|u(t)\|_q^q+\frac{4q(q-1)}{(m+q-1)^2}\int_0^t\|(-\Delta)^{(1-s)/2}u^{(m+q-1)/2}\|_2^2\,dr\le\|u_0\|_q^q.
-$$
+```
 
 Does every bounded energy weak solution satisfy
 
-$$
+```math
 \int_{\{|x|>R\}}u(t,x)\,dx>0\qquad\text{for every }R>0\text{ and }t>0?
-$$
+```
 
 This asks for unbounded essential support immediately after time zero. It does not require pointwise positivity everywhere or assume radial symmetry.
 
@@ -52,4 +52,4 @@ The assertion would locate the transition between a moving compact front and imm
 
 **Literature check:** Open in cited literature; no later resolution located.
 
-Remark 7 of the survey explicitly leaves the multidimensional extension of infinite propagation open. The 2026 PDE review still states the infinite-propagation result only for dimension one. Searches on 2026-09-22 checked higher-dimensional spreading and later pressure-model papers; no whole-space result for the stated class was located. Infinite spreading of self-similar profiles, results on a torus, and finite propagation for $m\ge2$ do not answer this question. The weak formulation uses positive exterior mass because continuity is not being assumed.
+Remark 7 of the survey explicitly leaves the multidimensional extension of infinite propagation open. The 2026 PDE review still states the infinite-propagation result only for dimension one. Searches on 2026-09-22 checked higher-dimensional spreading and later pressure-model papers; no whole-space result for the stated class was located. Infinite spreading of self-similar profiles, results on a torus, and finite propagation for $`m\ge2`$ do not answer this question. The weak formulation uses positive exterior mass because continuity is not being assumed.

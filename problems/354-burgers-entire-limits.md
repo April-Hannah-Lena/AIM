@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $\alpha<\beta$ and let $\mu$ be any Borel probability measure supported in $[\alpha,\beta]$. Define
+Let $`\alpha<\beta`$ and let $`\mu`$ be any Borel probability measure supported in $`[\alpha,\beta]`$. Define
 
-$$
+```math
 \phi_\mu(x)=\frac{\int z e^{-zx/2}\,d\mu(z)}{\int e^{-zx/2}\,d\mu(z)}.
-$$
+```
 
-Does there exist $u_0\in L^\infty(\mathbb R)$ with $\alpha\le u_0\le\beta$ almost everywhere such that the solution of
+Does there exist $`u_0\in L^\infty(\mathbb R)`$ with $`\alpha\le u_0\le\beta`$ almost everywhere such that the solution of
 
-$$
+```math
 u_t+u u_x=u_{xx},\qquad u(0,x)=u_0(x),
-$$
+```
 
-admits sequences $t_k\to\infty$ and $x_k\in\mathbb R$ for which $u(t_k,x+x_k)\to\phi_\mu(x)$ uniformly on every compact interval? The measure may be continuous or have infinitely many atoms; finite shock mergers alone do not settle the question.
+admits sequences $`t_k\to\infty`$ and $`x_k\in\mathbb R`$ for which $`u(t_k,x+x_k)\to\phi_\mu(x)`$ uniformly on every compact interval? The measure may be continuous or have infinitely many atoms; finite shock mergers alone do not settle the question.
 
 ## Application
 
@@ -29,7 +29,7 @@ Burgers dynamics models nonlinear transport with viscosity. The question asks ho
 ## References
 
 1. T. Gallay and A. Scheel, [*Viscous shocks and long-time behavior of scalar conservation laws*](https://arxiv.org/abs/2306.13341), Communications on Pure and Applied Analysis 23 (2024), 1448–1482, §6 immediately after Proposition 6.2 and §7.
-2. E. Hopf, [*The partial differential equation $u_t+uu_x=\mu u_{xx}$*](https://doi.org/10.1002/cpa.3160030302), Communications on Pure and Applied Mathematics 3 (1950), 201–230; the linearizing transformation underlying the profile representation.
+2. E. Hopf, [*The partial differential equation $`u_t+uu_x=\mu u_{xx}`$*](https://doi.org/10.1002/cpa.3160030302), Communications on Pure and Applied Mathematics 3 (1950), 201–230; the linearizing transformation underlying the profile representation.
 
 ## Status review
 

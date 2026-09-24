@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-For each integer $3\le n\le9$, let $u\in C^4(\mathbb R^n)$ have positive-definite Hessian everywhere. Define
+For each integer $`3\le n\le9`$, let $`u\in C^4(\mathbb R^n)`$ have positive-definite Hessian everywhere. Define
 
-$$
+```math
 U^{ij}=\mathop{\mathrm{cof}}\nolimits(D^2u)_{ij},\qquad w=(\det D^2u)^{-(n+1)/(n+2)}.
-$$
+```
 
-If $u$ satisfies the affine maximal surface equation
+If $`u`$ satisfies the affine maximal surface equation
 
-$$
+```math
 \sum_{i,j=1}^n U^{ij}\partial_{ij}w=0\quad\text{on }\mathbb R^n,
-$$
+```
 
-must $u$ be a quadratic polynomial with positive-definite quadratic part? This asks the entire-graph case of the affine Bernstein conjecture, without additional growth, bounded-Hessian or affine-metric completeness assumptions.
+must $`u`$ be a quadratic polynomial with positive-definite quadratic part? This asks the entire-graph case of the affine Bernstein conjecture, without additional growth, bounded-Hessian or affine-metric completeness assumptions.
 
 ## Application
 

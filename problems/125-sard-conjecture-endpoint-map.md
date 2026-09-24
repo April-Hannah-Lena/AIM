@@ -8,16 +8,16 @@
 
 ## Problem statement
 
-Let $M$ be a smooth $n$-manifold and let smooth vector fields $X_1,\ldots,X_r$ span a constant-rank distribution $\Delta\subset TM$. Suppose their iterated Lie brackets span $T_xM$ at every $x$. For fixed $x_0$, define the endpoint map
+Let $`M`$ be a smooth $`n`$-manifold and let smooth vector fields $`X_1,\ldots,X_r`$ span a constant-rank distribution $`\Delta\subset TM`$. Suppose their iterated Lie brackets span $`T_xM`$ at every $`x`$. For fixed $`x_0`$, define the endpoint map
 
-$$
+```math
 E_{x_0}:u\longmapsto x_u(1),\qquad
 \dot x_u(t)=\sum_{j=1}^r u_j(t)X_j(x_u(t)),\quad x_u(0)=x_0,
-$$
+```
 
-on the open subset of $L^2([0,1];\mathbb R^r)$ for which the trajectory exists. Call a control singular when the differential $DE_{x_0}(u)$ is not onto $T_{E_{x_0}(u)}M$.
+on the open subset of $`L^2([0,1];\mathbb R^r)`$ for which the trajectory exists. Call a control singular when the differential $`DE_{x_0}(u)`$ is not onto $`T_{E_{x_0}(u)}M`$.
 
-Is the set of endpoints of all singular controls null for every smooth positive volume density on $M$, for every such distribution and every $x_0$?
+Is the set of endpoints of all singular controls null for every smooth positive volume density on $`M`$, for every such distribution and every $`x_0`$?
 
 ## Application
 

@@ -8,32 +8,32 @@
 
 ## Problem statement
 
-Let $B\in\mathbb R^{n\times n}$ be upper bidiagonal, with singular values $\sigma_1(B)\ge\cdots\ge\sigma_n(B)\ge0$. Given $k$ distinct requested indices $j_1,\ldots,j_k\in\{1,\ldots,n\}$, construct a floating-point algorithm that computes corresponding singular triplets $(\widehat\sigma_i,\widehat u_i,\widehat v_i)$ in $O(kn)$ arithmetic operations, with unit vectors, nonnegative estimates, and
+Let $`B\in\mathbb R^{n\times n}`$ be upper bidiagonal, with singular values $`\sigma_1(B)\ge\cdots\ge\sigma_n(B)\ge0`$. Given $`k`$ distinct requested indices $`j_1,\ldots,j_k\in\{1,\ldots,n\}`$, construct a floating-point algorithm that computes corresponding singular triplets $`(\widehat\sigma_i,\widehat u_i,\widehat v_i)`$ in $`O(kn)`$ arithmetic operations, with unit vectors, nonnegative estimates, and
 
-$$
+```math
 |\widehat\sigma_i-\sigma_{j_i}(B)|\le C\epsilon n\|B\|_2,
-$$
+```
 
 
 
-$$
+```math
 \|B\widehat v_i-\widehat\sigma_i\widehat u_i\|_2\le C\epsilon n\|B\|_2,
-$$
+```
 
 
 
-$$
+```math
 \|B^T\widehat u_i-\widehat\sigma_i\widehat v_i\|_2\le C\epsilon n\|B\|_2,
-$$
+```
 
 
 
-$$
+```math
 |\widehat u_i^T\widehat u_j|\le C\epsilon n,\qquad
 |\widehat v_i^T\widehat v_j|\le C\epsilon n\quad(i\ne j).
-$$
+```
 
-Here $\epsilon$ is unit roundoff and $C$ is a universal constant, independent of singular-value gaps or clusters; assume $\epsilon n$ is small and exclude overflow and underflow. A repeated value permits any orthonormal basis of its singular subspace.
+Here $`\epsilon`$ is unit roundoff and $`C`$ is a universal constant, independent of singular-value gaps or clusters; assume $`\epsilon n`$ is small and exclude overflow and underflow. A repeated value permits any orthonormal basis of its singular subspace.
 
 ## Application
 

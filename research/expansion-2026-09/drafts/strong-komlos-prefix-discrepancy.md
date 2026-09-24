@@ -8,23 +8,23 @@
 
 ## Problem statement
 
-Does there exist an absolute constant $C>0$ with the following property? For every pair of positive integers $d,T$ and every ordered sequence $v_1,\ldots,v_T\in\mathbb R^d$ with Euclidean norms $\|v_i\|_2\le1$, one can choose signs $\varepsilon_1,\ldots,\varepsilon_T\in\{-1,1\}$ such that
+Does there exist an absolute constant $`C>0`$ with the following property? For every pair of positive integers $`d,T`$ and every ordered sequence $`v_1,\ldots,v_T\in\mathbb R^d`$ with Euclidean norms $`\|v_i\|_2\le1`$, one can choose signs $`\varepsilon_1,\ldots,\varepsilon_T\in\{-1,1\}`$ such that
 
-$$
+```math
 \max_{1\le k\le T}
 \left\|\sum_{i=1}^{k}\varepsilon_i v_i\right\|_\infty
 \le C,
 \qquad
 \|z\|_\infty=\max_{1\le j\le d}|z_j|?
-$$
+```
 
-The order is fixed. The signs may depend on the entire sequence, but the same signs must work for every prefix and coordinate. The constant must be independent of $d$, $T$ and the vectors. This is the strong, or prefix, Komlós conjecture. No online decision rule or efficient algorithm is required. [1, 2]
+The order is fixed. The signs may depend on the entire sequence, but the same signs must work for every prefix and coordinate. The constant must be independent of $`d`$, $`T`$ and the vectors. This is the strong, or prefix, Komlós conjecture. No online decision rule or efficient algorithm is required. [1, 2]
 
-Taking $k=T$ gives only terminal-sum control. Controlling each prefix with a separately chosen signing would not answer the stronger question here.
+Taking $`k=T`$ gives only terminal-sum control. Controlling each prefix with a separately chosen signing would not answer the stronger question here.
 
 ## Applied significance
 
-View each vector as the feature or resource contributions of one indivisible item in a prescribed sequence. Its sign assigns it to one of two groups. The prefix sums then measure cumulative imbalance at each stage, so the conjecture asks for a uniform buffer independent of the number of items and tracked resources. Equivalently, putting $x_i=(1+\varepsilon_i)/2$ rounds a half-allocation to whole items with coordinate error at most $C/2$ at every prefix. These are interpretations of the stated model. Prefix discrepancy also feeds into Steinitz rearrangement bounds, which have applications in integer programming and scheduling. [1, §1] An existence result alone would not supply an efficient allocation algorithm.
+View each vector as the feature or resource contributions of one indivisible item in a prescribed sequence. Its sign assigns it to one of two groups. The prefix sums then measure cumulative imbalance at each stage, so the conjecture asks for a uniform buffer independent of the number of items and tracked resources. Equivalently, putting $`x_i=(1+\varepsilon_i)/2`$ rounds a half-allocation to whole items with coordinate error at most $`C/2`$ at every prefix. These are interpretations of the stated model. Prefix discrepancy also feeds into Steinitz rearrangement bounds, which have applications in integer programming and scheduling. [1, §1] An existence result alone would not supply an efficient allocation algorithm.
 
 ## References
 
@@ -39,7 +39,7 @@ View each vector as the feature or resource contributions of one indivisible ite
 
 Open in cited literature; no later resolution located as of 2026-09-18. The independently authored source [2, Conjecture 1.6] explicitly retains this question. The September manuscripts [2, 3] claim universal constants for the final sum and explicitly distinguish that result from controlling all prefixes.
 
-For general fixed inputs, [4, Theorem 2] gives an $O(\sqrt{\log(2T)})$ prefix bound at fixed positive success probability, with an online algorithm. Its online optimality does not establish an offline lower bound. The smoothed-input theorem and branching-path counterexamples in [1] change, respectively, the input assumptions and the family of constraints.
+For general fixed inputs, [4, Theorem 2] gives an $`O(\sqrt{\log(2T)})`$ prefix bound at fixed positive success probability, with an online algorithm. Its online optimality does not establish an offline lower bound. The smoothed-input theorem and branching-path counterexamples in [1] change, respectively, the input assumptions and the family of constraints.
 
 The constant bounds in [5] require sufficiently small coordinates; their failure estimates can be vacuous without that restriction. Its lower bound concerns online signing, while the signs here may use future vectors. Source [6] permits discarding some terms, which this question forbids.
 

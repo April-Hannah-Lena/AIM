@@ -8,7 +8,7 @@
 
 ## Problem statement
 
-Let $\nu$ be the infinite-volume weak limit of uniform recurrent Abelian sandpile configurations on wired square boxes in $\mathbb Z^2$. Stable heights are $0,1,2,3$; wiring identifies the exterior with a sink before taking the limit. Sample from $\nu$, add one grain at the origin and stabilize, toppling a site with at least four grains by sending one grain to each nearest neighbor. Let $S$ be the total number of topplings, counting repeated topplings of a site separately; $S<\infty$ almost surely is known. Does there exist $a\in[0,\infty)$ such that $\lim_{k\to\infty}\log\nu(S\ge k)/\log k=-a$? The target is existence of the exponent, without requiring a conjectural numerical value.
+Let $`\nu`$ be the infinite-volume weak limit of uniform recurrent Abelian sandpile configurations on wired square boxes in $`\mathbb Z^2`$. Stable heights are $`0,1,2,3`$; wiring identifies the exterior with a sink before taking the limit. Sample from $`\nu`$, add one grain at the origin and stabilize, toppling a site with at least four grains by sending one grain to each nearest neighbor. Let $`S`$ be the total number of topplings, counting repeated topplings of a site separately; $`S<\infty`$ almost surely is known. Does there exist $`a\in[0,\infty)`$ such that $`\lim_{k\to\infty}\log\nu(S\ge k)/\log k=-a`$? The target is existence of the exponent, without requiring a conjectural numerical value.
 
 ## Application
 

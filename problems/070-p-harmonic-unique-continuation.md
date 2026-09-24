@@ -8,14 +8,14 @@
 
 ## Problem statement
 
-For every integer $n\ge3$, exponent $1<p<\infty$ with $p\ne2$, and connected open set $\Omega\subset\mathbb R^n$, let $u\in W^{1,p}_{\mathrm{loc}}(\Omega)$ satisfy
+For every integer $`n\ge3`$, exponent $`1<p<\infty`$ with $`p\ne2`$, and connected open set $`\Omega\subset\mathbb R^n`$, let $`u\in W^{1,p}_{\mathrm{loc}}(\Omega)`$ satisfy
 
-$$
+```math
 \int_\Omega|\nabla u|^{p-2}\nabla u\cdot\nabla\phi\,dx=0
 \qquad\text{for every }\phi\in C_c^\infty(\Omega).
-$$
+```
 
-If $u=0$ almost everywhere in some nonempty open subset of $\Omega$, must $u=0$ almost everywhere throughout $\Omega$? This is weak unique continuation for a single p-harmonic function.
+If $`u=0`$ almost everywhere in some nonempty open subset of $`\Omega`$, must $`u=0`$ almost everywhere throughout $`\Omega`$? This is weak unique continuation for a single p-harmonic function.
 
 ## Application
 
@@ -30,4 +30,4 @@ Unique continuation constrains hidden fields in nonlinear conductivity models an
 
 **Literature check:** Open in cited literature; no later resolution located
 
-Granlund–Marola explicitly identify higher-dimensional p-harmonic unique continuation as open and give conditional results. The 2023 paper distinguishes the unresolved local problem from nonlocal unique-continuation theorems. Planar p-harmonic unique continuation and the linear case $p=2$ are excluded here. Search on 2026-09-08: "p-Laplace unique continuation 2025 2026". Located fractional and conditional results do not settle this local statement.
+Granlund–Marola explicitly identify higher-dimensional p-harmonic unique continuation as open and give conditional results. The 2023 paper distinguishes the unresolved local problem from nonlocal unique-continuation theorems. Planar p-harmonic unique continuation and the linear case $`p=2`$ are excluded here. Search on 2026-09-08: "p-Laplace unique continuation 2025 2026". Located fractional and conditional results do not settle this local statement.

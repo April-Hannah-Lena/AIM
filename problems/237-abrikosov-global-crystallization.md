@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $\mathcal A_1$ consist of planar vector fields $E$ satisfying, distributionally,
+Let $`\mathcal A_1`$ consist of planar vector fields $`E`$ satisfying, distributionally,
 
-$$
+```math
 \mathop{\mathrm{div}}\nolimits E=2\pi\left(\sum_{p\in\Lambda}\delta_p-1\right),\qquad\mathop{\mathrm{curl}}\nolimits E=0,
-$$
+```
 
-where $\Lambda\subset\mathbb R^2$ is locally finite and $\sup_{R\geq1}\#(\Lambda\cap[-R,R]^2)/R^2<\infty$. The fields are locally square-integrable away from the points. Fix smooth cutoffs $0\leq\chi_R\leq1$, equal to one on $[-R+1,R-1]^2$, supported in $[-R,R]^2$, with uniformly bounded gradient. Define
+where $`\Lambda\subset\mathbb R^2`$ is locally finite and $`\sup_{R\geq1}\#(\Lambda\cap[-R,R]^2)/R^2<\infty`$. The fields are locally square-integrable away from the points. Fix smooth cutoffs $`0\leq\chi_R\leq1`$, equal to one on $`[-R+1,R-1]^2`$, supported in $`[-R,R]^2`$, with uniformly bounded gradient. Define
 
-$$
+```math
 W(E)=\limsup_{R\to\infty}\frac1{4R^2}\lim_{\eta\downarrow0}\left[\frac12\int_{\mathbb R^2\setminus\bigcup_{p\in\Lambda}B(p,\eta)}\chi_R|E|^2\,dx+\pi\log\eta\sum_{p\in\Lambda}\chi_R(p)\right].
-$$
+```
 
-Let $\Lambda_\triangle=\sqrt{2/\sqrt3}\,[\mathbb Z(1,0)+\mathbb Z(1/2,\sqrt3/2)]$ and let $E_\triangle$ be the mean-zero periodic field in $\mathcal A_1$ associated to it. Is $W(E)\geq W(E_\triangle)$ for every $E\in\mathcal A_1$? No periodicity is required of competitors.
+Let $`\Lambda_\triangle=\sqrt{2/\sqrt3}\,[\mathbb Z(1,0)+\mathbb Z(1/2,\sqrt3/2)]`$ and let $`E_\triangle`$ be the mean-zero periodic field in $`\mathcal A_1`$ associated to it. Is $`W(E)\geq W(E_\triangle)`$ for every $`E\in\mathcal A_1`$? No periodicity is required of competitors.
 
 ## Application
 

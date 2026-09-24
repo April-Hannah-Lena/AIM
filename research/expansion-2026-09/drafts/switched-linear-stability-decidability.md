@@ -8,31 +8,31 @@
 
 ## Problem statement
 
-An input consists of positive integers $n,m$ and matrices $A_1,\ldots,A_m\in\mathbb Q^{n\times n}$. Each rational entry is specified exactly by a finite binary encoding of its integer numerator and nonzero integer denominator. For an arbitrary switching signal $\sigma:\mathbb N_0\to\{1,\ldots,m\}$, consider
+An input consists of positive integers $`n,m`$ and matrices $`A_1,\ldots,A_m\in\mathbb Q^{n\times n}`$. Each rational entry is specified exactly by a finite binary encoding of its integer numerator and nonzero integer denominator. For an arbitrary switching signal $`\sigma:\mathbb N_0\to\{1,\ldots,m\}`$, consider
 
-$$
+```math
 x_{k+1}=A_{\sigma(k)}x_k,\qquad k\in\mathbb N_0=\{0,1,2,\ldots\}.
-$$
+```
 
 Does there exist an algorithm that halts on every such input and correctly decides whether
 
-$$
+```math
 \text{for every }x_0\in\mathbb R^n\text{ and every }\sigma,
 \qquad \lim_{k\to\infty}\|x_k\|_2=0?
-$$
+```
 
-Here $\|\cdot\|_2$ is the Euclidean norm. This property is called absolute asymptotic stability. Both the number of modes $m$ and the dimension $n$ may vary across inputs. Switching is unrestricted, and no running-time bound is imposed on the requested decision algorithm.
+Here $`\|\cdot\|_2`$ is the Euclidean norm. This property is called absolute asymptotic stability. Both the number of modes $`m`$ and the dimension $`n`$ may vary across inputs. Switching is unrestricted, and no running-time bound is imposed on the requested decision algorithm.
 
-Equivalently, with $\mathcal A=\{A_1,\ldots,A_m\}$ and the induced matrix norm, define the joint spectral radius
+Equivalently, with $`\mathcal A=\{A_1,\ldots,A_m\}`$ and the induced matrix norm, define the joint spectral radius
 
-$$
+```math
 \widehat\rho(\mathcal A)
 =\lim_{\ell\to\infty}
 \max_{i_1,\ldots,i_\ell\in\{1,\ldots,m\}}
 \bigl\|A_{i_\ell}\cdots A_{i_1}\bigr\|_2^{1/\ell}.
-$$
+```
 
-The limit exists, is independent of the norm, and the displayed stability property holds exactly when $\widehat\rho(\mathcal A)<1$. Thus the algorithm must decide this **strict** inequality without a promised gap around one. An input with $\widehat\rho(\mathcal A)=1$ requires a negative answer. The dynamical and spectral formulations constitute one problem.
+The limit exists, is independent of the norm, and the displayed stability property holds exactly when $`\widehat\rho(\mathcal A)<1`$. Thus the algorithm must decide this **strict** inequality without a promised gap around one. An input with $`\widehat\rho(\mathcal A)=1`$ requires a negative answer. The dynamical and spectral formulations constitute one problem.
 
 ## Applied significance
 
@@ -52,7 +52,7 @@ Finite-mode linear systems model dynamics that change with an operating mode or 
 
 Jungers poses the strict-threshold decision question explicitly, and the independently authored *Polynomial Norms* retains it as unresolved. The latter's contracting-polynomial-norm characterization certifies stability when an appropriate degree and form are found; it does not provide a procedure guaranteed to terminate on every unstable input.
 
-Blondel–Tsitsiklis prove undecidability for boundedness of all products and for $\widehat\rho\le1$. Their §1 explicitly distinguishes the strict inequality. Bui's later bilinear-growth undecidability results likewise concern a nonstrict threshold or a different model; his computable approximation theorem is not an exact threshold decider.
+Blondel–Tsitsiklis prove undecidability for boundedness of all products and for $`\widehat\rho\le1`$. Their §1 explicitly distinguishes the strict inequality. Bui's later bilinear-growth undecidability results likewise concern a nonstrict threshold or a different model; his computable approximation theorem is not an exact threshold decider.
 
 Finite products give upper and lower bounds on the joint spectral radius. Under the finiteness property, some finite product attains it through its normalized ordinary spectral radius, and Jungers–Blondel's Proposition 1 gives decidability for that class. Such a class assumption cannot simply be imposed on arbitrary rational inputs. Approximation bounds alone do not guarantee a finite stopping rule at the boundary value one.
 

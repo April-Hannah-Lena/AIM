@@ -8,15 +8,15 @@
 
 ## Problem statement
 
-A compact Riemannian manifold $(M^n,g)$ is simple if its boundary is strictly convex and any two points are joined by a unique minimizing geodesic depending smoothly on its endpoints. Is every such manifold, for $n\ge2$, a minimal filling in the following sense?
+A compact Riemannian manifold $`(M^n,g)`$ is simple if its boundary is strictly convex and any two points are joined by a unique minimizing geodesic depending smoothly on its endpoints. Is every such manifold, for $`n\ge2`$, a minimal filling in the following sense?
 
-For every compact oriented Riemannian $n$-manifold $(N,h)$ with an identified boundary $\partial N=\partial M$, assume its intrinsic distance satisfies
+For every compact oriented Riemannian $`n`$-manifold $`(N,h)`$ with an identified boundary $`\partial N=\partial M`$, assume its intrinsic distance satisfies
 
-$$
+```math
 d_h(x,y)\ge d_g(x,y)\qquad(x,y\in\partial M).
-$$
+```
 
-Must $\mathop{\mathrm{Vol}}\nolimits_h(N)\ge\mathop{\mathrm{Vol}}\nolimits_g(M)$? The topology of $N$ is unrestricted; no equality-case rigidity is requested.
+Must $`\mathop{\mathrm{Vol}}\nolimits_h(N)\ge\mathop{\mathrm{Vol}}\nolimits_g(M)`$? The topology of $`N`$ is unrestricted; no equality-case rigidity is requested.
 
 ## Application
 

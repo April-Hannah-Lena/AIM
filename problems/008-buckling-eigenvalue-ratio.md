@@ -8,19 +8,19 @@
 
 ## Problem statement
 
-Let $d\ge2$ and let $\Omega\subset\mathbb R^d$ be a bounded connected smooth domain. Let $0<\Lambda_1\le\Lambda_2\le\cdots$ be the eigenvalues, with multiplicity, of
+Let $`d\ge2`$ and let $`\Omega\subset\mathbb R^d`$ be a bounded connected smooth domain. Let $`0<\Lambda_1\le\Lambda_2\le\cdots`$ be the eigenvalues, with multiplicity, of
 
-$$
+```math
 \Delta^2u=-\Lambda\Delta u,\qquad u=\partial_\nu u=0\text{ on }\partial\Omega.
-$$
+```
 
 Prove or disprove the sharp inequality
 
-$$
+```math
 \frac{\Lambda_2(\Omega)}{\Lambda_1(\Omega)}\le\frac{j_{d/2+1,1}^2}{j_{d/2,1}^2},
-$$
+```
 
-where $j_{a,1}$ is the first positive zero of $J_a$. The right side is the ratio for a ball.
+where $`j_{a,1}`$ is the first positive zero of $`J_a`$. The right side is the ratio for a ball.
 
 ## Application
 

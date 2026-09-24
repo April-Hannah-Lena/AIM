@@ -8,25 +8,25 @@
 
 ## Problem statement
 
-Let $F=\mathbb F_q$, where $q=p^n>2$ and $p$ is prime. Let $d$ be a positive integer satisfying
+Let $`F=\mathbb F_q`$, where $`q=p^n>2`$ and $`p`$ is prime. Let $`d`$ be a positive integer satisfying
 
-$$
+```math
 \gcd(d,q-1)=1,\qquad d\equiv1\pmod{p-1}.
-$$
+```
 
-Write $\mathop{\mathrm{Tr}}\nolimits:F\to\mathbb F_p$ for the absolute trace and define
+Write $`\mathop{\mathrm{Tr}}\nolimits:F\to\mathbb F_p`$ for the absolute trace and define
 
-$$
+```math
 W_{F,d}(a)=\sum_{x\in F}\exp\!\left(\frac{2\pi i}{p}\mathop{\mathrm{Tr}}\nolimits(x^d-ax)\right).
-$$
+```
 
-Does there always exist $a\in F\setminus\{0\}$ for which $W_{F,d}(a)=0$?
+Does there always exist $`a\in F\setminus\{0\}`$ for which $`W_{F,d}(a)=0`$?
 
-This is Helleseth's vanishing conjecture, also called the $-1$ conjecture for cross-correlation of maximum-length sequences. Excluding $a=0$ is essential: the permutation condition already gives $W_{F,d}(0)=0$.
+This is Helleseth's vanishing conjecture, also called the $`-1`$ conjecture for cross-correlation of maximum-length sequences. Excluding $`a=0`$ is essential: the permutation condition already gives $`W_{F,d}(0)=0`$.
 
 ## Application
 
-The sums determine cross-correlation values of decimated maximum-length shift-register sequences. Such sequences are used in communications and remote sensing. Their spectra also determine weight information for associated cyclic codes; a zero sum corresponds to a cross-correlation value of $-1$.
+The sums determine cross-correlation values of decimated maximum-length shift-register sequences. Such sequences are used in communications and remote sensing. Their spectra also determine weight information for associated cyclic codes; a zero sum corresponds to a cross-correlation value of $`-1`$.
 
 ## References
 
@@ -36,8 +36,8 @@ The sums determine cross-correlation values of decimated maximum-length shift-re
 
 ## Status review
 
-**Known cases:** Niho exponents satisfy the conjecture. This includes invertible exponents over $\mathbb F_{p^{2m}}$ congruent to a power of $p$ modulo $p^m-1$. Further families related to complete permutation polynomials are addressed in reference [1]. Exponents congruent to a power of $p$ modulo $q-1$ are elementary cases.
+**Known cases:** Niho exponents satisfy the conjecture. This includes invertible exponents over $`\mathbb F_{p^{2m}}`$ congruent to a power of $`p`$ modulo $`p^m-1`$. Further families related to complete permutation polynomials are addressed in reference [1]. Exponents congruent to a power of $`p`$ modulo $`q-1`$ are elementary cases.
 
-**Remaining target:** All invertible exponents obeying the congruence modulo $p-1$. The established binary and ternary cases of Helleseth's separate three-valued conjecture do not settle this target.
+**Remaining target:** All invertible exponents obeying the congruence modulo $`p-1`$. The established binary and ternary cases of Helleseth's separate three-valued conjecture do not settle this target.
 
 Current searches found no matching resolution or repository duplicate. Exact Helleseth/conjecture searches in GitHub issues and repositories, Zenodo, and Palomar returned no announcement. The precise formulation was checked in the complete author manuscript [2]; the IEEE article was traced through its registry record and indexed abstract, without obtaining its complete text. No recent comprehensive status survey was located.

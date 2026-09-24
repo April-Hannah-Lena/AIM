@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $n\ge3$, let $\Omega\subset\mathbb R^n$ be a bounded domain, and let $\Omega^*$ be a bounded nonconvex polyhedral domain of the same volume. Here polyhedral means that its boundary is a finite union of flat polygonal facets. Let $u$ be a convex Brenier potential satisfying $(\nabla u)_\#\mathbf1_\Omega=\mathbf1_{\Omega^*}$, and set
+Let $`n\ge3`$, let $`\Omega\subset\mathbb R^n`$ be a bounded domain, and let $`\Omega^*`$ be a bounded nonconvex polyhedral domain of the same volume. Here polyhedral means that its boundary is a finite union of flat polygonal facets. Let $`u`$ be a convex Brenier potential satisfying $`(\nabla u)_\#\mathbf1_\Omega=\mathbf1_{\Omega^*}`$, and set
 
-$$
+```math
 A=\{x\in\Omega:u\text{ is not differentiable at }x\},\qquad \Sigma=\overline A\cap\Omega.
-$$
+```
 
-Is there a relatively closed $S\subset\Sigma$ with $\dim_H S\le n-2$ such that $\Sigma\setminus S$ is locally a smooth embedded hypersurface? The empty singular set is allowed.
+Is there a relatively closed $`S\subset\Sigma`$ with $`\dim_H S\le n-2`$ such that $`\Sigma\setminus S`$ is locally a smooth embedded hypersurface? The empty singular set is allowed.
 
 ## Application
 

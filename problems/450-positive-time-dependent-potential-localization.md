@@ -7,17 +7,17 @@
 **Last checked:** 2026-09-22
 ## Problem statement
 
-Is it possible to find $V\in C^\infty([0,\infty)\times\mathbb R^3;\mathbb R)$ with $V\ge0$, every space-time derivative bounded, and $\mathop{\mathrm{supp}}\nolimits V(t,\cdot)\subset B_R$ for one fixed $R<\infty$, together with $\psi_0\in L^2(\mathbb R^3)$ of norm one, such that the unitary solution of
+Is it possible to find $`V\in C^\infty([0,\infty)\times\mathbb R^3;\mathbb R)`$ with $`V\ge0`$, every space-time derivative bounded, and $`\mathop{\mathrm{supp}}\nolimits V(t,\cdot)\subset B_R`$ for one fixed $`R<\infty`$, together with $`\psi_0\in L^2(\mathbb R^3)`$ of norm one, such that the unitary solution of
 
-$$
+```math
 i\partial_t\psi=(-\Delta+V(t,x))\psi,\qquad \psi(0)=\psi_0,
-$$
+```
 
 is uniformly localized in the sense
 
-$$
+```math
 \lim_{L\to\infty}\ \sup_{t\ge0}\int_{|x|>L}|\psi(t,x)|^2\,dx=0?
-$$
+```
 
 A negative answer would say that no nonzero state stays spatially tight under any potential in this class. The potential may vary arbitrarily in time within the stated bounds.
 

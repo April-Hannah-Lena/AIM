@@ -6,23 +6,23 @@
 
 ## Problem statement
 
-Let $G_n$ be a random digraph on $[n]$, with each ordered edge $(i,j)$, $i\ne j$, present independently with probability $p_n=n^\alpha$; reciprocal edges are allowed.
+Let $`G_n`$ be a random digraph on $`[n]`$, with each ordered edge $`(i,j)`$, $`i\ne j`$, present independently with probability $`p_n=n^\alpha`$; reciprocal edges are allowed.
 
-Use non-regular path homology over $\mathbb Q$. More explicitly, let $\Lambda_k$ be the vector space on all vertex sequences $[v_0,\ldots,v_k]$, allowing repetitions, with the alternating deletion boundary $\partial$. Let $A_k\subseteq\Lambda_k$ be spanned by the sequences whose successive ordered edges belong to $G_n$, and, for $k\ge1$, set
+Use non-regular path homology over $`\mathbb Q`$. More explicitly, let $`\Lambda_k`$ be the vector space on all vertex sequences $`[v_0,\ldots,v_k]`$, allowing repetitions, with the alternating deletion boundary $`\partial`$. Let $`A_k\subseteq\Lambda_k`$ be spanned by the sequences whose successive ordered edges belong to $`G_n`$, and, for $`k\ge1`$, set
 
-$$
+```math
 \Omega_k=A_k\cap\partial^{-1}(A_{k-1}),\qquad
 \beta_1^{\mathrm{nr}}(G_n)=\dim_{\mathbb Q}
 \frac{\ker(\partial:\Omega_1\to\Omega_0)}{\partial\Omega_2}.
-$$
+```
 
-No terms with repeated consecutive vertices are discarded when applying $\partial$; this specifies the non-regular convention. Here $\Omega_0=A_0$. This rational dimension is the rank of the integer path-homology group used in the source.
+No terms with repeated consecutive vertices are discarded when applying $`\partial`$; this specifies the non-regular convention. Here $`\Omega_0=A_0`$. This rational dimension is the rank of the integer path-homology group used in the source.
 
-Is it true that, for every fixed $-2/3<\alpha\le0$,
+Is it true that, for every fixed $`-2/3<\alpha\le0`$,
 
-$$
+```math
 \Pr\{\beta_1^{\mathrm{nr}}(G_n)=0\}\longrightarrow1?
-$$
+```
 
 ## Application
 
@@ -34,8 +34,8 @@ The threshold would identify when first path homology ceases to detect statistic
 
 ## Status review
 
-**Known cases:** Vanishing is proved for $\alpha>-1/3$, whereas nonzero first Betti number occurs with high probability for $-1<\alpha<-2/3$. The source also proves vanishing when $p_n\gg(\log n/n)^{1/3}$.
+**Known cases:** Vanishing is proved for $`\alpha>-1/3`$, whereas nonzero first Betti number occurs with high probability for $`-1<\alpha<-2/3`$. The source also proves vanishing when $`p_n\gg(\log n/n)^{1/3}`$.
 
-**Remaining target:** Establish vanishing throughout $-2/3<\alpha\le-1/3$, or disprove the proposed exponent. The critical value $\alpha=-2/3$ is not included.
+**Remaining target:** Establish vanishing throughout $`-2/3<\alpha\le-1/3`$, or disprove the proposed exponent. The critical value $`\alpha=-2/3`$ is not included.
 
 The regular first path Betti number is at most the non-regular one, so this assertion also implies the regular version posed in the same conjecture. These are kept as one problem. Current searches found no matching solution or announced proof.

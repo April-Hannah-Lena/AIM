@@ -8,25 +8,25 @@
 
 ## Problem statement
 
-Fix $n\ge2$, $\beta>0$, $\gamma\ge0$ and $R>1$, and put
+Fix $`n\ge2`$, $`\beta>0`$, $`\gamma\ge0`$ and $`R>1`$, and put
 
-$$
+```math
 \Theta(s)=\beta\left(s^5/5+\gamma s^4+2\gamma^2s^3+2\gamma^3s^2\right).
-$$
+```
 
-For a bounded Lipschitz open set $\Omega\subset\mathbb R^n$ and a measurable $K\subset\Omega$, define
+For a bounded Lipschitz open set $`\Omega\subset\mathbb R^n`$ and a measurable $`K\subset\Omega`$, define
 
-$$
+```math
 E_\Theta(K,\Omega)=\min_{\substack{v\in H^1(\Omega),\ 0\le v\le1\\v=1\ {\rm a.e.\ on}\ K}}\left(\int_\Omega|\nabla v|^2dx+\int_{\partial\Omega}\Theta(v)d\mathcal H^{n-1}\right).
-$$
+```
 
-Writing $\omega_n=|B_1|$, is the inequality
+Writing $`\omega_n=|B_1|`$, is the inequality
 
-$$
+```math
 E_\Theta(K,\Omega)\ge\min_{1\le r\le R}E_\Theta(B_1,B_r)
-$$
+```
 
-valid whenever $|K|=\omega_n$ and $|\Omega|\le\omega_nR^n$? For $r=1$ the right side uses $K=\Omega=B_1$, so unused insulation is allowed.
+valid whenever $`|K|=\omega_n`$ and $`|\Omega|\le\omega_nR^n`$? For $`r=1`$ the right side uses $`K=\Omega=B_1`$, so unused insulation is allowed.
 
 ## Application
 

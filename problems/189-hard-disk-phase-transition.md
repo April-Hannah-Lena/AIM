@@ -8,9 +8,9 @@
 
 ## Problem statement
 
-Let $\Omega$ be the locally finite subsets $\omega\subset\mathbb R^2$ satisfying $|x-y|\ge1$ for distinct points. For $z>0$, call a probability law $\mu$ on $\Omega$ a hard-disk Gibbs law if, for every bounded Borel set $\Lambda$, its conditional law inside $\Lambda$ given the outside configuration is the Poisson process of intensity $z$ restricted to $\Lambda$, conditioned on the combined configuration having all pair distances at least one.
+Let $`\Omega`$ be the locally finite subsets $`\omega\subset\mathbb R^2`$ satisfying $`|x-y|\ge1`$ for distinct points. For $`z>0`$, call a probability law $`\mu`$ on $`\Omega`$ a hard-disk Gibbs law if, for every bounded Borel set $`\Lambda`$, its conditional law inside $`\Lambda`$ given the outside configuration is the Poisson process of intensity $`z`$ restricted to $`\Lambda`$, conditioned on the combined configuration having all pair distances at least one.
 
-Does there exist a finite activity $z>0$ for which two distinct such infinite-volume Gibbs laws exist? The particles have only the hard-core interaction; no extra attraction, lattice restriction or particle labels are allowed.
+Does there exist a finite activity $`z>0`$ for which two distinct such infinite-volume Gibbs laws exist? The particles have only the hard-core interaction; no extra attraction, lattice restriction or particle labels are allowed.
 
 ## Application
 

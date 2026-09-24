@@ -8,13 +8,13 @@
 
 ## Problem statement
 
-Let $T\subset\mathbb R^3$ be a regular tetrahedron of side length one. A packing $\mathcal P$ is a locally finite collection of images of $T$ under Euclidean isometries, with pairwise disjoint interiors. Define
+Let $`T\subset\mathbb R^3`$ be a regular tetrahedron of side length one. A packing $`\mathcal P`$ is a locally finite collection of images of $`T`$ under Euclidean isometries, with pairwise disjoint interiors. Define
 
-$$
+```math
 \delta(\mathcal P)=\limsup_{R\to\infty}\frac{|B_R(0)\cap\bigcup_{P\in\mathcal P}P|}{|B_R(0)|},\qquad\delta_T=\sup_{\mathcal P}\delta(\mathcal P).
-$$
+```
 
-Determine $\delta_T$ exactly, by giving a matching rigorous upper bound and packing construction. Arbitrary orientations and nonperiodic packings are allowed; the known density $4000/4671$ is a lower bound, not an assumption about optimality.
+Determine $`\delta_T`$ exactly, by giving a matching rigorous upper bound and packing construction. Arbitrary orientations and nonperiodic packings are allowed; the known density $`4000/4671`$ is a lower bound, not an assumption about optimality.
 
 ## Application
 
@@ -22,7 +22,7 @@ The optimum constrains dense granular assemblies and crystalline structures made
 
 ## References
 
-- Elizabeth R. Chen, Michael Engel and Sharon C. Glotzer, [*Dense crystalline dimer packings of regular tetrahedra*](https://arxiv.org/abs/1001.0586) (2010), abstract and densest dimer construction: density $4000/4671$ and limited-cell numerical optimality evidence.
+- Elizabeth R. Chen, Michael Engel and Sharon C. Glotzer, [*Dense crystalline dimer packings of regular tetrahedra*](https://arxiv.org/abs/1001.0586) (2010), abstract and densest dimer construction: density $`4000/4671`$ and limited-cell numerical optimality evidence.
 - Simon Gravel, Veit Elser and Yoav Kallus, [*Upper bound on the packing density of regular tetrahedra and octahedra*](https://arxiv.org/abs/1008.2830) (2010 preprint; 2011 publication), abstract and tetrahedron bound: a strictly positive unavoidable void fraction.
 
 ## Status review
