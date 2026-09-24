@@ -1,13 +1,5 @@
 [
   {
-    "id": "221",
-    "title": "Fast dynamo action of the unit ABC flow",
-    "area": "Magnetohydrodynamics",
-    "file": "problems/221-abc-fast-dynamo.md",
-    "status": "Open",
-    "last_checked": "2026-09-13"
-  },
-  {
     "id": "222",
     "title": "Axisymmetry of equilibrium distributions for Onsager rods",
     "area": "Liquid-crystal statistical mechanics",
@@ -64,58 +56,10 @@
     "last_checked": "2026-09-13"
   },
   {
-    "id": "229",
-    "title": "One cubic NLS trajectory with unbounded Sobolev norm",
-    "area": "Nonlinear wave turbulence",
-    "file": "problems/229-cubic-nls-unbounded-orbit.md",
-    "status": "Open",
-    "last_checked": "2026-09-13"
-  },
-  {
-    "id": "230",
-    "title": "Uniqueness of entropy-admissible renormalized Boltzmann solutions",
-    "area": "Rarefied-gas kinetics",
-    "file": "problems/230-renormalized-boltzmann-uniqueness.md",
-    "status": "Open",
-    "last_checked": "2026-09-13"
-  },
-  {
     "id": "231",
     "title": "Fourier’s law for a boundary-thermostated anharmonic chain",
     "area": "Nonequilibrium heat transport",
     "file": "problems/231-anharmonic-chain-fourier-law.md",
-    "status": "Open",
-    "last_checked": "2026-09-13"
-  },
-  {
-    "id": "232",
-    "title": "Finite-time growth of total variation in physical gas dynamics",
-    "area": "Nonlinear hyperbolic conservation laws",
-    "file": "problems/232-p-system-finite-time-bv.md",
-    "status": "Open",
-    "last_checked": "2026-09-13"
-  },
-  {
-    "id": "233",
-    "title": "Global finite-energy compressible flow at the diatomic exponent",
-    "area": "Viscous compressible gas dynamics",
-    "file": "problems/233-compressible-ns-physical-exponent.md",
-    "status": "Open",
-    "last_checked": "2026-09-13"
-  },
-  {
-    "id": "234",
-    "title": "Nonlinear orbital stability of small solitary gravity waves",
-    "area": "Free-surface fluid dynamics",
-    "file": "problems/234-solitary-gravity-wave-nonlinear-stability.md",
-    "status": "Open",
-    "last_checked": "2026-09-13"
-  },
-  {
-    "id": "235",
-    "title": "Asymptotic stability of the phi-four kink without odd symmetry",
-    "area": "Nonlinear scalar fields",
-    "file": "problems/235-phi-four-general-kink-stability.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
@@ -168,14 +112,6 @@
     "last_checked": "2026-09-13"
   },
   {
-    "id": "242",
-    "title": "Uniqueness of the homogeneous cooling state for inelastic hard spheres",
-    "area": "Granular-gas kinetic theory",
-    "file": "problems/242-inelastic-cooling-profile-uniqueness.md",
-    "status": "Partially resolved",
-    "last_checked": "2026-09-13"
-  },
-  {
     "id": "243",
     "title": "Existence of an optimal asymmetric Bloch wall of prescribed angle",
     "area": "Micromagnetics and magnetic interfaces",
@@ -224,14 +160,6 @@
     "last_checked": "2026-09-22"
   },
   {
-    "id": "354",
-    "title": "Can every bounded entire Burgers profile recur at late times?",
-    "area": "Viscous conservation laws; asymptotic dynamics",
-    "file": "problems/354-burgers-entire-limits.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
     "id": "355",
     "title": "Competitive exclusion by the slowest diffuser in a multispecies habitat",
     "area": "Spatial ecology; reaction–diffusion",
@@ -240,162 +168,10 @@
     "last_checked": "2026-09-22"
   },
   {
-    "id": "356",
-    "title": "A genuinely periodic firing pattern in the delayed noisy integrate-and-fire PDE",
-    "area": "Mathematical neuroscience; nonlinear Fokker–Planck equations",
-    "file": "problems/356-delayed-nnlif-periodic.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "357",
-    "title": "Self-sustained oscillations in the full voltage–conductance neuron equation",
-    "area": "Mathematical neuroscience; kinetic equations",
-    "file": "problems/357-voltage-conductance-periodic.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "358",
-    "title": "Global smooth Schrödinger maps below the degree-zero energy threshold",
-    "area": "Ferromagnetism; geometric dispersive PDEs",
-    "file": "problems/358-schrodinger-map-threshold.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "359",
-    "title": "Finite-time Langmuir collapse for the three-dimensional Zakharov system",
-    "area": "Plasma physics; coupled dispersive equations",
-    "file": "problems/359-zakharov-three-dimensional-collapse.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "360",
-    "title": "Scattering of arbitrary small energy data for the three-dimensional Zakharov system",
-    "area": "Plasma physics; dispersive asymptotics",
-    "file": "problems/360-zakharov-small-energy-scattering.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "361",
-    "title": "Global regularity of the planar noncorotational FENE fluid",
-    "area": "Polymer rheology; kinetic–fluid coupling",
-    "file": "problems/361-fene-two-dimensional-regularity.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "362",
-    "title": "Vanishing nonlinear viscosity without commuting transport and diffusion matrices",
-    "area": "Hyperbolic conservation laws; physical viscosity",
-    "file": "problems/362-noncommuting-viscosity-limit.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "363",
-    "title": "Uniqueness of Glimm–Lax solutions for arbitrarily rough bounded data",
-    "area": "Gas dynamics; one-dimensional conservation laws",
-    "file": "problems/363-glimm-lax-measurable-data-uniqueness.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "364",
-    "title": "Can one-dimensional entropy-dissipating systems have two bounded solutions?",
-    "area": "Continuum mechanics; admissibility of shock dynamics",
-    "file": "problems/364-one-dimensional-convex-entropy-nonuniqueness.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "365",
-    "title": "Global classical solutions for repulsive relativistic Vlasov–Poisson",
-    "area": "Plasma kinetics",
-    "file": "problems/365-relativistic-vlasov-poisson-global.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "366",
-    "title": "Are bounded ancient Landau–Coulomb distributions necessarily Maxwellians?",
-    "area": "Plasma collisions; kinetic regularity",
-    "file": "problems/366-landau-ancient-liouville.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "367",
-    "title": "Landau–Coulomb smoothing controlled only by macroscopic quantities",
-    "area": "Plasma kinetics; quantitative regularization",
-    "file": "problems/367-landau-macroscopic-smoothing.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "368",
-    "title": "Hölder regularity for nondivergence kinetic jump equations",
-    "area": "Kinetic transport; anomalous velocity diffusion",
-    "file": "problems/368-fractional-kinetic-krylov-safonov.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "369",
-    "title": "Continuation of the cutoff Boltzmann flow from macroscopic bounds",
-    "area": "Rarefied gases; nonlinear kinetic transport",
-    "file": "problems/369-cutoff-boltzmann-continuation.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "370",
-    "title": "A universal quantitative error bound for small-BV hyperbolic flows",
-    "area": "Hyperbolic conservation laws; reliable simulation",
-    "file": "problems/370-universal-hyperbolic-error-rate.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
     "id": "371",
     "title": "Existence of elastic equilibria under quasiconvexity and infinite compression energy",
     "area": "Nonlinear elasticity; variational equilibrium",
     "file": "problems/371-quasiconvex-physical-elastic-minimizers.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "372",
-    "title": "Does a bounded interface slope prevent two-phase Muskat singularities?",
-    "area": "Porous-media interfaces; free boundaries",
-    "file": "problems/372-muskat-bounded-slope-continuation.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "373",
-    "title": "Global regularity of viscous planar MHD without magnetic diffusion",
-    "area": "Magnetohydrodynamics; conducting fluids",
-    "file": "problems/373-nonresistive-planar-mhd.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "374",
-    "title": "Large-data weak solutions for three-dimensional stress-diffusive Oldroyd-B flow",
-    "area": "Viscoelastic fluids; polymer rheology",
-    "file": "problems/374-oldroyd-diffusive-three-dimensional-weak.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "375",
-    "title": "The three-dimensional steady Leray problem with unrestricted boundary fluxes",
-    "area": "Steady viscous flow; inlet–outlet boundary conditions",
-    "file": "problems/375-leray-three-dimensional-flux.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
@@ -424,26 +200,10 @@
     "last_checked": "2026-09-22"
   },
   {
-    "id": "379",
-    "title": "The zero center-of-mass diffusion limit for kinetic FENE fluids",
-    "area": "Polymer kinetics; singular diffusion limits",
-    "file": "problems/379-fene-vanishing-center-of-mass-diffusion.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
     "id": "380",
     "title": "Global weak flow of three-dimensional nematic directors without a hemisphere restriction",
     "area": "Liquid crystals; coupled fluid and harmonic-map flow",
     "file": "problems/380-liquid-crystal-three-dimensional-weak.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "381",
-    "title": "Hard-sphere Boltzmann shock profiles at arbitrary Mach number",
-    "area": "Rarefied gas dynamics; kinetic shock layers",
-    "file": "problems/381-boltzmann-arbitrary-mach-shocks.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
@@ -472,14 +232,6 @@
     "last_checked": "2026-09-22"
   },
   {
-    "id": "385",
-    "title": "Nonlinear Landau damping near a Maxwellian on the whole space",
-    "area": "Plasma kinetics; dispersive relaxation",
-    "file": "problems/385-maxwellian-whole-space-landau-damping.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
     "id": "386",
     "title": "Continuity of finite-cluster mass at the onset of Flory gelation",
     "area": "Coagulation equations; sol–gel phase transitions",
@@ -492,22 +244,6 @@
     "title": "Uniqueness of positive reaction–diffusion equilibria outside two obstacles",
     "area": "Reaction–diffusion; populations in perforated habitats",
     "file": "problems/387-reaction-two-obstacle-uniqueness.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "446",
-    "title": "Global smooth propagation for a laser envelope coupled to ionization",
-    "area": "Dispersive PDEs and nonlinear optics",
-    "file": "problems/446-ionization-laser-envelope-global-regularity.md",
-    "status": "Open",
-    "last_checked": "2026-09-22"
-  },
-  {
-    "id": "447",
-    "title": "Finite-time collapse in the planar self-steepening Schrödinger equation",
-    "area": "Derivative dispersive PDEs and optical pulses",
-    "file": "problems/447-planar-self-steepening-finite-time-collapse.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },

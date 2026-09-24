@@ -14,8 +14,24 @@
       "title": "Inverse problems, control and dynamics"
     },
     {
-      "key": "applied",
-      "title": "PDEs, materials, probability and optimization"
+      "key": "pdes-materials",
+      "title": "PDEs, fluids and materials"
+    },
+    {
+      "key": "probability-statistics",
+      "title": "Probability, statistics and learning"
+    },
+    {
+      "key": "numerical-analysis",
+      "title": "Numerical analysis and scientific computing"
+    },
+    {
+      "key": "geometry-topology",
+      "title": "Geometry and topology"
+    },
+    {
+      "key": "optimization-information",
+      "title": "Combinatorics, optimization and information theory"
     },
     {
       "key": "spectral2",
@@ -38,8 +54,12 @@
       "title": "Many-body physics, quantum information and wave analysis"
     },
     {
-      "key": "continuum3",
-      "title": "Nonlinear evolution, materials and continuum models"
+      "key": "waves-fluids-kinetics",
+      "title": "Nonlinear waves, fluids and kinetic equations"
+    },
+    {
+      "key": "diffusion-materials",
+      "title": "Diffusion, materials and variational problems"
     },
     {
       "key": "inverse3",

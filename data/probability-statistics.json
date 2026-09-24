@@ -1,0 +1,370 @@
+[
+  {
+    "id": "090",
+    "title": "Absence of an infinite cluster at criticality in three-dimensional percolation",
+    "area": "Random media",
+    "file": "problems/090-critical-percolation-three-dimensions.md",
+    "status": "Open",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "092",
+    "title": "Cardy's crossing formula for square-lattice bond percolation",
+    "area": "Random media and conformal invariance",
+    "file": "problems/092-square-bond-cardy-formula.md",
+    "status": "Open",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "093",
+    "title": "The planar self-avoiding-walk displacement exponent",
+    "area": "Polymer models",
+    "file": "problems/093-planar-self-avoiding-walk-exponent.md",
+    "status": "Open",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "094",
+    "title": "The dimension-free Kannan–Lovász–Simonovits inequality",
+    "area": "High-dimensional probability and sampling",
+    "file": "problems/094-kls-poincare.md",
+    "status": "Open",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "309",
+    "title": "Classical hardness of learning parity with noise",
+    "area": "Statistical learning and average-case computational complexity",
+    "file": "problems/309-learning-parity-noise.md",
+    "status": "Open",
+    "last_checked": "2026-09-17"
+  },
+  {
+    "id": "310",
+    "title": "Linear-size sample compression for binary concept classes",
+    "area": "Statistical learning and combinatorial dimension",
+    "file": "problems/310-linear-sample-compression.md",
+    "status": "Open",
+    "last_checked": "2026-09-17"
+  },
+  {
+    "id": "320",
+    "title": "Orthogonal separation of independent Gaussian polynomial statistics",
+    "area": "Probability and mathematical statistics",
+    "file": "problems/320-gaussian-polynomial-unlinking.md",
+    "status": "Open",
+    "last_checked": "2026-09-17"
+  },
+  {
+    "id": "329",
+    "title": "Polynomial-time DNF learning from uniform random examples",
+    "area": "Statistical learning, Boolean rules and computational complexity",
+    "file": "problems/329-classical-uniform-dnf-learning.md",
+    "status": "Open",
+    "last_checked": "2026-09-18"
+  },
+  {
+    "id": "332",
+    "title": "Simes error control for two-sided Gaussian tests",
+    "area": "Multiple testing and statistical inference",
+    "file": "problems/332-two-sided-gaussian-simes.md",
+    "status": "Open",
+    "last_checked": "2026-09-18"
+  },
+  {
+    "id": "346",
+    "title": "Private PAC learning with polynomial VC and iterated-logarithm sample cost",
+    "area": "Statistical learning, data privacy and sample complexity",
+    "file": "problems/346-private-pac-vc-logstar.md",
+    "status": "Open",
+    "last_checked": "2026-09-19"
+  },
+  {
+    "id": "348",
+    "title": "The sharp support–concentration bound for subset sums",
+    "area": "Combinatorial probability, information theory and packing algorithms",
+    "file": "problems/348-subset-sum-support-concentration.md",
+    "status": "Open",
+    "last_checked": "2026-09-19"
+  },
+  {
+    "id": "350",
+    "title": "Polynomial-time proper learning of univariate Gaussian mixtures",
+    "area": "Statistical density estimation and unsupervised learning",
+    "file": "problems/350-univariate-gaussian-mixture-proper-learning.md",
+    "status": "Open",
+    "last_checked": "2026-09-19"
+  },
+  {
+    "id": "501",
+    "title": "Minimax entropy estimation beyond two derivatives",
+    "area": "Nonparametric statistics and information estimation",
+    "file": "problems/501-high-smoothness-entropy-estimation.md",
+    "status": "Open",
+    "last_checked": "2026-09-23"
+  },
+  {
+    "id": "503",
+    "title": "Support growth of the information-maximizing binomial prior",
+    "area": "Statistical inference and information theory",
+    "file": "problems/503-binomial-optimal-prior-support.md",
+    "status": "Open",
+    "last_checked": "2026-09-23"
+  },
+  {
+    "id": "506",
+    "title": "Small-ball ratios for general symmetric product priors",
+    "area": "Bayesian inverse problems and infinite-dimensional probability",
+    "file": "problems/506-product-prior-small-ball-ratios.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-23"
+  },
+  {
+    "id": "516",
+    "title": "Minimax rates for private density estimation with mixed anisotropy",
+    "area": "Statistical inference and local differential privacy",
+    "file": "problems/516-private-density-mixed-anisotropy.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "517",
+    "title": "Sharp interactive privacy rates for spectral density estimation",
+    "area": "Statistical inference, time series and local differential privacy",
+    "file": "problems/517-interactive-private-spectral-density.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "525",
+    "title": "Consistency of the Greedy Sparsest Poset algorithm",
+    "area": "Statistical inference and causal discovery",
+    "file": "problems/525-greedy-sparsest-poset-consistency.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "526",
+    "title": "Tail bounds for causal equivalence classes of uniform random DAGs",
+    "area": "Statistical inference and random graphical models",
+    "file": "problems/526-random-dag-equivalence-class-tails.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "538",
+    "title": "Minimax estimation of topic distributions with weak sparsity",
+    "area": "Statistical inference and topic models",
+    "file": "problems/538-weak-sparse-topic-minimax.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "540",
+    "title": "Classifying Gaussian models with rational maximum-likelihood estimators",
+    "area": "Statistical inference and algebraic statistics",
+    "file": "problems/540-rational-gaussian-mle-classification.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "545",
+    "title": "Mixing time of the reflected Burnside sampler for integer partitions",
+    "area": "Monte Carlo sampling and statistical computation",
+    "file": "problems/545-reflected-burnside-mixing.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "558",
+    "title": "Variance ordering for Gaussian alpha-divergence approximations",
+    "area": "Bayesian uncertainty quantification and variational inference",
+    "file": "problems/558-gaussian-variational-variance-ordering.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "559",
+    "title": "Separation of measures by Cartan–Hadamard sliced distances",
+    "area": "Statistical inference and optimal transport on manifolds",
+    "file": "problems/559-cartan-hadamard-sliced-separation.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "560",
+    "title": "Monotone variance in the Gaussian approximation to DrMMD flow",
+    "area": "Sampling and kernel gradient flows",
+    "file": "problems/560-drmmd-gaussian-variance-monotonicity.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "561",
+    "title": "Ordinary posterior contraction for heavy-tailed neural-network priors",
+    "area": "Bayesian nonparametrics and neural networks",
+    "file": "problems/561-heavy-tailed-network-ordinary-posterior.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "562",
+    "title": "Perfect recovery threshold for unregularized quadratic-network training",
+    "area": "High-dimensional statistics and nonconvex learning",
+    "file": "problems/562-quadratic-network-recovery-threshold.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "564",
+    "title": "Polynomial-time Bernoulli group testing at the information threshold",
+    "area": "High-dimensional inference and computational statistics",
+    "file": "problems/564-bernoulli-group-testing.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "574",
+    "title": "Sharp least-singular-value bounds for independent random tensor columns",
+    "area": "Random matrices and tensor methods",
+    "file": "problems/574-tensor-singular-value.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "575",
+    "title": "Identifying a distribution from its Gaussian-channel MMSE curve",
+    "area": "Statistical estimation and information theory",
+    "file": "problems/575-mmse-identification.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "586",
+    "title": "Draws in the undirected trapping game on percolation clusters",
+    "area": "Applied probability and random combinatorial games",
+    "file": "problems/586-trap-draws-percolation.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "587",
+    "title": "Monotonicity of draw probabilities under random vertex deletion",
+    "area": "Applied probability and random combinatorial games",
+    "file": "problems/587-trap-draw-probability-monotonicity.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "588",
+    "title": "Uniform covariance bounds for constrained Ising replicas",
+    "area": "Probability, statistical mechanics and sampling",
+    "file": "problems/588-ising-replica-covariance.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "589",
+    "title": "Strong freeness for one random interaction on overlapping tensor legs",
+    "area": "Random matrices and quantum many-body systems",
+    "file": "problems/589-repeated-gue-strong-freeness.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "596",
+    "title": "Automorphism-invariant one-dependent colorings of regular trees",
+    "area": "Applied probability and distributed graph coloring",
+    "file": "problems/596-regular-tree-one-dependent-coloring.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "597",
+    "title": "Extending a symmetric one-dependent four-color law across a branch",
+    "area": "Applied probability and random graph coloring",
+    "file": "problems/597-four-color-branched-ray.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "601",
+    "title": "Uniqueness of the stationary one-dependent four-coloring",
+    "area": "Probability and constrained stochastic processes",
+    "file": "problems/601-one-dependent-four-color-uniqueness.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "611",
+    "title": "Log-concavity of Gaussian convex-hull intersection probabilities",
+    "area": "Stochastic geometry and convexity",
+    "file": "problems/611-gaussian-radon-intersection-logconcavity.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "612",
+    "title": "Unimodality of Radon partitions for uniform convex samples",
+    "area": "Stochastic geometry and convexity",
+    "file": "problems/612-uniform-convex-radon-unimodality.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "621",
+    "title": "Hypergraph shuffles and the one-particle spectral gap",
+    "area": "Markov chains and spectral graph theory",
+    "file": "problems/621-caputo-hypergraph-gap.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "622",
+    "title": "A degree-two spectral gap for Brownian energy exchange",
+    "area": "Interacting diffusions and sampling",
+    "file": "problems/622-brownian-energy-quadratic-gap.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "623",
+    "title": "Low-degree representations determining a unitary shuffle's gap",
+    "area": "Random unitary sampling and spectral analysis",
+    "file": "problems/623-unitary-hypergraph-gap.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "629",
+    "title": "Fourth-order diffusion approximation for three-player ruin",
+    "area": "Applied probability and diffusion approximation",
+    "file": "problems/629-gambler-scaling.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "650",
+    "title": "A uniform Gaussian approximation bound for Jack measures",
+    "area": "Probability and random matrix models",
+    "file": "problems/650-jack-normal.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "651",
+    "title": "Absolute continuity of stationary Elo ratings",
+    "area": "Probability, statistics, and uncertainty quantification",
+    "file": "problems/651-elo-density.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "656",
+    "title": "Oscillation of partition functions under very strong disorder",
+    "area": "Probability and statistical mechanics",
+    "file": "problems/656-polymer-oscillation.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  }
+]

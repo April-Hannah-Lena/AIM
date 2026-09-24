@@ -57,7 +57,7 @@ The write command rebuilds `README.md`, `CATALOG.md`, and `RESOLVED.md`; edit th
 
 ### IDs, subject membership and publication batches
 
-`catalogue.json` (schema version 2) declares the twelve ordered subject groups and the publication batches. A group's `key` names its existing `data/KEY.json` file. Its `title` supplies the heading in `CATALOG.md` and the subject links in the README. Each active row has `id`, `title`, `area`, `file`, `status`, and `last_checked`; membership comes from the containing file, independently of ID. New IDs can therefore appear in any subject group.
+`catalogue.json` (schema version 2) declares the ordered subject groups and the publication batches. A group's `key` names its existing `data/KEY.json` file. Its `title` supplies the heading in `CATALOG.md` and the subject links in the README. Each active row has `id`, `title`, `area`, `file`, `status`, and `last_checked`; membership comes from the containing file, independently of ID. New IDs can therefore appear in any subject group.
 
 Allocate problem IDs only after admission, after the largest current identifier. Active entries must be consecutively numbered from 001. Append every admitted ID to exactly one named publication batch. Batches record publication history, not subject ranges; membership must follow each problem when numbering changes.
 

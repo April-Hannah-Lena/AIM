@@ -1,0 +1,210 @@
+[
+  {
+    "id": "095",
+    "title": "A strongly polynomial pivot rule for the simplex method",
+    "area": "Numerical optimization",
+    "file": "problems/095-strongly-polynomial-simplex.md",
+    "status": "Open",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "296",
+    "title": "The Unique Games Conjecture",
+    "area": "Constraint satisfaction and approximation algorithms",
+    "file": "problems/296-unique-games.md",
+    "status": "Open",
+    "last_checked": "2026-09-17"
+  },
+  {
+    "id": "338",
+    "title": "The factor-two relation between triangle deletion and packing",
+    "area": "Combinatorial optimization and network modification",
+    "file": "problems/338-tuza-triangle-packing-covering.md",
+    "status": "Open",
+    "last_checked": "2026-09-18"
+  },
+  {
+    "id": "340",
+    "title": "Reed's bound for the chromatic number",
+    "area": "Combinatorial optimization and conflict scheduling",
+    "file": "problems/340-reed-colouring.md",
+    "status": "Open",
+    "last_checked": "2026-09-18"
+  },
+  {
+    "id": "496",
+    "title": "The Fourier entropy–influence conjecture",
+    "area": "Boolean models, statistical learning and Fourier analysis",
+    "file": "problems/496-fourier-entropy-influence.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-23"
+  },
+  {
+    "id": "505",
+    "title": "The three-quarter conjecture for binary fix-free codes",
+    "area": "Information theory and lossless compression",
+    "file": "problems/505-fix-free-three-quarter.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-23"
+  },
+  {
+    "id": "550",
+    "title": "Sharp barrier-parameter growth for hyperbolic balls",
+    "area": "Numerical optimization on manifolds",
+    "file": "problems/550-hyperbolic-ball-barrier-parameter.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "563",
+    "title": "Maximum treewidth at a prescribed edge count",
+    "area": "Statistical computation and extremal graph theory",
+    "file": "problems/563-treewidth-edge-count.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "569",
+    "title": "Unbounded chromatic number of associahedron graphs",
+    "area": "Discrete and computational geometry",
+    "file": "problems/569-associahedron-chromatic.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "579",
+    "title": "Perfect Lee codes beyond dimension two",
+    "area": "Coding theory and discrete geometry",
+    "file": "problems/579-golomb-welch.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "598",
+    "title": "Sidorenko's lower bound for bipartite homomorphism counts",
+    "area": "Information theory and graphical models",
+    "file": "problems/598-sidorenko.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "602",
+    "title": "Classifying balanced elementary symmetric Boolean functions",
+    "area": "Cryptography and Boolean functions",
+    "file": "problems/602-balanced-elementary-boolean.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "603",
+    "title": "Can bound entanglement produce a device-independent secret key?",
+    "area": "Quantum information and cryptography",
+    "file": "problems/603-revised-peres.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "614",
+    "title": "The sharp asymptotic facial length in girth-saturated plane graphs",
+    "area": "Graph theory and topological graph embeddings",
+    "file": "problems/614-plane-girth-facial-asymptotic.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "615",
+    "title": "A linear genus–girth bound for facial cycles",
+    "area": "Graph theory and topological graph embeddings",
+    "file": "problems/615-surface-girth-facial-linear-bound.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "616",
+    "title": "The symmetry point of a unimodular lattice's secrecy function",
+    "area": "Lattice coding and information theory",
+    "file": "problems/616-belfiore-sole.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "617",
+    "title": "Divisible point sets as unions of parallel lines",
+    "area": "Coding theory and finite geometry",
+    "file": "problems/617-strong-cylinder.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "620",
+    "title": "A zero in the nontrivial spectrum of a power permutation",
+    "area": "Information theory, sequence design and finite fields",
+    "file": "problems/620-helleseth-vanishing.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "626",
+    "title": "Decomposing complete graphs into squares of Hamilton cycles",
+    "area": "Graph theory and combinatorial designs",
+    "file": "problems/626-hamilton-square-decomposition.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "630",
+    "title": "Excluding three correlation levels in quadratic field towers",
+    "area": "Coding theory and sequence design",
+    "file": "problems/630-helleseth-three-valued.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "634",
+    "title": "Permutation snarks with order congruent to six modulo eight",
+    "area": "Computational graph theory and edge colouring",
+    "file": "problems/634-permutation-snark-order-residue.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "635",
+    "title": "Permutation snarks without five-cycles",
+    "area": "Computational graph theory and edge colouring",
+    "file": "problems/635-permutation-snark-large-girth.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "636",
+    "title": "Removable cycles in cycle permutation graphs",
+    "area": "Computational graph theory and graph connectivity",
+    "file": "problems/636-permutation-removable-cycle.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "637",
+    "title": "Costas arrays at every order",
+    "area": "Combinatorial signal design",
+    "file": "problems/637-costas-all-orders.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "641",
+    "title": "Smallest orders for periodic multidimensional Costas arrays",
+    "area": "Combinatorial signal design",
+    "file": "problems/641-periodic-costas.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "646",
+    "title": "Classifying Costas polynomials over extension fields",
+    "area": "Finite-field signal design",
+    "file": "problems/646-costas-polynomial.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  }
+]

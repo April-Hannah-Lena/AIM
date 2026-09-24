@@ -13,13 +13,18 @@ A sourced collection of precise mathematical research problems in spectral theor
 | [Spectral theory and spectral geometry](CATALOG.md#spectral-theory-and-spectral-geometry) | 25 |
 | [Operators, matrices and computation](CATALOG.md#operators-matrices-and-computation) | 39 |
 | [Inverse problems, control and dynamics](CATALOG.md#inverse-problems-control-and-dynamics) | 28 |
-| [PDEs, materials, probability and optimization](CATALOG.md#pdes-materials-probability-and-optimization) | 212 |
+| [PDEs, fluids and materials](CATALOG.md#pdes-fluids-and-materials) | 32 |
+| [Probability, statistics and learning](CATALOG.md#probability-statistics-and-learning) | 46 |
+| [Numerical analysis and scientific computing](CATALOG.md#numerical-analysis-and-scientific-computing) | 29 |
+| [Geometry and topology](CATALOG.md#geometry-and-topology) | 79 |
+| [Combinatorics, optimization and information theory](CATALOG.md#combinatorics-optimization-and-information-theory) | 26 |
 | [Waves, quantum systems and spectral geometry](CATALOG.md#waves-quantum-systems-and-spectral-geometry) | 32 |
 | [Imaging, control, geometry and dynamics](CATALOG.md#imaging-control-geometry-and-dynamics) | 30 |
 | [Fluids, kinetic theory and continuum mechanics](CATALOG.md#fluids-kinetic-theory-and-continuum-mechanics) | 48 |
 | [Stochastic growth, populations and statistical mechanics](CATALOG.md#stochastic-growth-populations-and-statistical-mechanics) | 31 |
 | [Many-body physics, quantum information and wave analysis](CATALOG.md#many-body-physics-quantum-information-and-wave-analysis) | 33 |
-| [Nonlinear evolution, materials and continuum models](CATALOG.md#nonlinear-evolution-materials-and-continuum-models) | 92 |
+| [Nonlinear waves, fluids and kinetic equations](CATALOG.md#nonlinear-waves-fluids-and-kinetic-equations) | 33 |
+| [Diffusion, materials and variational problems](CATALOG.md#diffusion-materials-and-variational-problems) | 59 |
 | [Applied geometry, control and information](CATALOG.md#applied-geometry-control-and-information) | 49 |
 | [Stochastic dynamics, reaction networks and applied optimization](CATALOG.md#stochastic-dynamics-reaction-networks-and-applied-optimization) | 46 |
 

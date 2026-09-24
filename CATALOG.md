@@ -11,13 +11,18 @@
 | [Spectral theory and spectral geometry](#spectral-theory-and-spectral-geometry) | 25 |
 | [Operators, matrices and computation](#operators-matrices-and-computation) | 39 |
 | [Inverse problems, control and dynamics](#inverse-problems-control-and-dynamics) | 28 |
-| [PDEs, materials, probability and optimization](#pdes-materials-probability-and-optimization) | 212 |
+| [PDEs, fluids and materials](#pdes-fluids-and-materials) | 32 |
+| [Probability, statistics and learning](#probability-statistics-and-learning) | 46 |
+| [Numerical analysis and scientific computing](#numerical-analysis-and-scientific-computing) | 29 |
+| [Geometry and topology](#geometry-and-topology) | 79 |
+| [Combinatorics, optimization and information theory](#combinatorics-optimization-and-information-theory) | 26 |
 | [Waves, quantum systems and spectral geometry](#waves-quantum-systems-and-spectral-geometry) | 32 |
 | [Imaging, control, geometry and dynamics](#imaging-control-geometry-and-dynamics) | 30 |
 | [Fluids, kinetic theory and continuum mechanics](#fluids-kinetic-theory-and-continuum-mechanics) | 48 |
 | [Stochastic growth, populations and statistical mechanics](#stochastic-growth-populations-and-statistical-mechanics) | 31 |
 | [Many-body physics, quantum information and wave analysis](#many-body-physics-quantum-information-and-wave-analysis) | 33 |
-| [Nonlinear evolution, materials and continuum models](#nonlinear-evolution-materials-and-continuum-models) | 92 |
+| [Nonlinear waves, fluids and kinetic equations](#nonlinear-waves-fluids-and-kinetic-equations) | 33 |
+| [Diffusion, materials and variational problems](#diffusion-materials-and-variational-problems) | 59 |
 | [Applied geometry, control and information](#applied-geometry-control-and-information) | 49 |
 | [Stochastic dynamics, reaction networks and applied optimization](#stochastic-dynamics-reaction-networks-and-applied-optimization) | 46 |
 
@@ -130,7 +135,7 @@
 | 311 | [The sharp Belgian chocolate stabilization threshold](problems/311-belgian-chocolate-threshold.md) | 🔵 OPEN | Feedback control and polynomial stability |
 | 325 | [Global attraction for Wright-type delayed feedback](problems/325-generalized-wright-global-attraction.md) | 🔵 OPEN | Population dynamics and nonlinear delayed feedback |
 
-## PDEs, materials, probability and optimization
+## PDEs, fluids and materials
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -149,26 +154,8 @@
 | 085 | [The bulk ground-state energy of the planar Lennard–Jones system](problems/085-lennard-jones-planar-crystallization.md) | 🔵 OPEN | Atomistic materials |
 | 086 | [The three-dimensional lattice-periodic Kelvin problem](problems/086-kelvin-lattice-foam.md) | 🔵 OPEN | Foams and geometric optimization |
 | 087 | [The optimal three-dimensional quadratic quantization constant](problems/087-bcc-quantization.md) | 🔵 OPEN | Quantization and mesh generation |
-| 088 | [The symmetric Mahler inequality in four dimensions](problems/088-mahler-symmetric-four-dimensions.md) | 🔵 OPEN | Convex geometry and optimization |
 | 089 | [Gaussian-energy optimality of the triangular lattice among periodic configurations](problems/089-triangular-universal-optimality.md) | 🟡 PARTIAL | Crystallization and energy minimization |
-| 090 | [Absence of an infinite cluster at criticality in three-dimensional percolation](problems/090-critical-percolation-three-dimensions.md) | 🔵 OPEN | Random media |
 | 091 | [One-dimensionality of monotone Allen–Cahn fronts in dimension five](problems/091-de-giorgi-dimension-five.md) | 🔵 OPEN | Phase transitions |
-| 092 | [Cardy's crossing formula for square-lattice bond percolation](problems/092-square-bond-cardy-formula.md) | 🔵 OPEN | Random media and conformal invariance |
-| 093 | [The planar self-avoiding-walk displacement exponent](problems/093-planar-self-avoiding-walk-exponent.md) | 🔵 OPEN | Polymer models |
-| 094 | [The dimension-free Kannan–Lovász–Simonovits inequality](problems/094-kls-poincare.md) | 🔵 OPEN | High-dimensional probability and sampling |
-| 095 | [A strongly polynomial pivot rule for the simplex method](problems/095-strongly-polynomial-simplex.md) | 🔵 OPEN | Numerical optimization |
-| 296 | [The Unique Games Conjecture](problems/296-unique-games.md) | 🔵 OPEN | Constraint satisfaction and approximation algorithms |
-| 309 | [Classical hardness of learning parity with noise](problems/309-learning-parity-noise.md) | 🔵 OPEN | Statistical learning and average-case computational complexity |
-| 310 | [Linear-size sample compression for binary concept classes](problems/310-linear-sample-compression.md) | 🔵 OPEN | Statistical learning and combinatorial dimension |
-| 314 | [Polynomial bounds for the graph diameter of polytopes](problems/314-polynomial-hirsch.md) | 🔵 OPEN | Convex geometry and linear optimization |
-| 320 | [Orthogonal separation of independent Gaussian polynomial statistics](problems/320-gaussian-polynomial-unlinking.md) | 🔵 OPEN | Probability and mathematical statistics |
-| 329 | [Polynomial-time DNF learning from uniform random examples](problems/329-classical-uniform-dnf-learning.md) | 🔵 OPEN | Statistical learning, Boolean rules and computational complexity |
-| 332 | [Simes error control for two-sided Gaussian tests](problems/332-two-sided-gaussian-simes.md) | 🔵 OPEN | Multiple testing and statistical inference |
-| 338 | [The factor-two relation between triangle deletion and packing](problems/338-tuza-triangle-packing-covering.md) | 🔵 OPEN | Combinatorial optimization and network modification |
-| 340 | [Reed's bound for the chromatic number](problems/340-reed-colouring.md) | 🔵 OPEN | Combinatorial optimization and conflict scheduling |
-| 346 | [Private PAC learning with polynomial VC and iterated-logarithm sample cost](problems/346-private-pac-vc-logstar.md) | 🔵 OPEN | Statistical learning, data privacy and sample complexity |
-| 348 | [The sharp support–concentration bound for subset sums](problems/348-subset-sum-support-concentration.md) | 🔵 OPEN | Combinatorial probability, information theory and packing algorithms |
-| 350 | [Polynomial-time proper learning of univariate Gaussian mixtures](problems/350-univariate-gaussian-mixture-proper-learning.md) | 🔵 OPEN | Statistical density estimation and unsupervised learning |
 | 423 | [Continuous gradients for three-dimensional infinity-harmonic functions](problems/423-infinity-harmonic-c1-three-dimensions.md) | 🔵 OPEN | Degenerate elliptic PDEs and supremal variational problems |
 | 424 | [Sharp gradient regularity for higher-dimensional p-Poisson equations](problems/424-sharp-p-poisson-gradient-regularity.md) | 🔵 OPEN | Nonlinear elliptic PDEs and nonlinear diffusion |
 | 431 | [Strong comparison for ordered p-harmonic fields](problems/431-p-harmonic-strong-comparison.md) | 🔵 OPEN | Nonlinear elliptic PDEs and comparison principles |
@@ -180,13 +167,103 @@
 | 445 | [A single blow-up point for singular extremal states on convex domains](problems/445-convex-domain-extremal-single-singularity.md) | 🔵 OPEN | Semilinear elliptic PDEs and thermal ignition |
 | 449 | [Optimal dimension for bounded subquadratic p-Laplace extremal states](problems/449-subquadratic-p-laplace-extremal-critical-dimension.md) | 🔵 OPEN | Singular quasilinear elliptic PDEs |
 | 456 | [A mixed Sobolev estimate for reconstructing a scalar potential](problems/456-bourgain-brezis-mixed-sobolev-gradient-estimate.md) | 🔵 OPEN | Elliptic potential reconstruction and critical function spaces |
-| 496 | [The Fourier entropy–influence conjecture](problems/496-fourier-entropy-influence.md) | 🟡 PARTIAL | Boolean models, statistical learning and Fourier analysis |
+| 610 | [Entropy chain rule on nonsmooth nonconvex Lipschitz domains](problems/610-entropy-chain-rule-lipschitz.md) | 🟡 PARTIAL | Numerical analysis of diffusion and optimal transport |
+| 618 | [Smooth-gradient approximation of finite-Fisher-information scores](problems/618-fisher-score-gradient-closure.md) | 🟡 PARTIAL | Optimal transport and weighted Sobolev approximation |
+| 645 | [Largest radius ratio in nonuniform triangulated circle packings](problems/645-triangulated-packing-radius-ratio.md) | 🟡 PARTIAL | Discrete geometry and circle packing |
+| 648 | [Finitely many radius sets for compact sphere packings](problems/648-compact-packing-radius-finiteness.md) | 🟡 PARTIAL | Discrete geometry and sphere packing |
+
+## Probability, statistics and learning
+
+| ID | Problem | Status | Area |
+| --- | --- | --- | --- |
+| 090 | [Absence of an infinite cluster at criticality in three-dimensional percolation](problems/090-critical-percolation-three-dimensions.md) | 🔵 OPEN | Random media |
+| 092 | [Cardy's crossing formula for square-lattice bond percolation](problems/092-square-bond-cardy-formula.md) | 🔵 OPEN | Random media and conformal invariance |
+| 093 | [The planar self-avoiding-walk displacement exponent](problems/093-planar-self-avoiding-walk-exponent.md) | 🔵 OPEN | Polymer models |
+| 094 | [The dimension-free Kannan–Lovász–Simonovits inequality](problems/094-kls-poincare.md) | 🔵 OPEN | High-dimensional probability and sampling |
+| 309 | [Classical hardness of learning parity with noise](problems/309-learning-parity-noise.md) | 🔵 OPEN | Statistical learning and average-case computational complexity |
+| 310 | [Linear-size sample compression for binary concept classes](problems/310-linear-sample-compression.md) | 🔵 OPEN | Statistical learning and combinatorial dimension |
+| 320 | [Orthogonal separation of independent Gaussian polynomial statistics](problems/320-gaussian-polynomial-unlinking.md) | 🔵 OPEN | Probability and mathematical statistics |
+| 329 | [Polynomial-time DNF learning from uniform random examples](problems/329-classical-uniform-dnf-learning.md) | 🔵 OPEN | Statistical learning, Boolean rules and computational complexity |
+| 332 | [Simes error control for two-sided Gaussian tests](problems/332-two-sided-gaussian-simes.md) | 🔵 OPEN | Multiple testing and statistical inference |
+| 346 | [Private PAC learning with polynomial VC and iterated-logarithm sample cost](problems/346-private-pac-vc-logstar.md) | 🔵 OPEN | Statistical learning, data privacy and sample complexity |
+| 348 | [The sharp support–concentration bound for subset sums](problems/348-subset-sum-support-concentration.md) | 🔵 OPEN | Combinatorial probability, information theory and packing algorithms |
+| 350 | [Polynomial-time proper learning of univariate Gaussian mixtures](problems/350-univariate-gaussian-mixture-proper-learning.md) | 🔵 OPEN | Statistical density estimation and unsupervised learning |
 | 501 | [Minimax entropy estimation beyond two derivatives](problems/501-high-smoothness-entropy-estimation.md) | 🔵 OPEN | Nonparametric statistics and information estimation |
-| 502 | [Universality of the interleaving distance over arbitrary fields](problems/502-interleaving-distance-universality.md) | 🟡 PARTIAL | Applied topology and multiparameter persistent homology |
 | 503 | [Support growth of the information-maximizing binomial prior](problems/503-binomial-optimal-prior-support.md) | 🔵 OPEN | Statistical inference and information theory |
-| 504 | [Global uniqueness of fine-mesh semilinear Galerkin solutions](problems/504-semilinear-galerkin-global-uniqueness.md) | 🟡 PARTIAL | Numerical PDEs and optimal control |
-| 505 | [The three-quarter conjecture for binary fix-free codes](problems/505-fix-free-three-quarter.md) | 🟡 PARTIAL | Information theory and lossless compression |
 | 506 | [Small-ball ratios for general symmetric product priors](problems/506-product-prior-small-ball-ratios.md) | 🟡 PARTIAL | Bayesian inverse problems and infinite-dimensional probability |
+| 516 | [Minimax rates for private density estimation with mixed anisotropy](problems/516-private-density-mixed-anisotropy.md) | 🔵 OPEN | Statistical inference and local differential privacy |
+| 517 | [Sharp interactive privacy rates for spectral density estimation](problems/517-interactive-private-spectral-density.md) | 🔵 OPEN | Statistical inference, time series and local differential privacy |
+| 525 | [Consistency of the Greedy Sparsest Poset algorithm](problems/525-greedy-sparsest-poset-consistency.md) | 🔵 OPEN | Statistical inference and causal discovery |
+| 526 | [Tail bounds for causal equivalence classes of uniform random DAGs](problems/526-random-dag-equivalence-class-tails.md) | 🔵 OPEN | Statistical inference and random graphical models |
+| 538 | [Minimax estimation of topic distributions with weak sparsity](problems/538-weak-sparse-topic-minimax.md) | 🔵 OPEN | Statistical inference and topic models |
+| 540 | [Classifying Gaussian models with rational maximum-likelihood estimators](problems/540-rational-gaussian-mle-classification.md) | 🟡 PARTIAL | Statistical inference and algebraic statistics |
+| 545 | [Mixing time of the reflected Burnside sampler for integer partitions](problems/545-reflected-burnside-mixing.md) | 🔵 OPEN | Monte Carlo sampling and statistical computation |
+| 558 | [Variance ordering for Gaussian alpha-divergence approximations](problems/558-gaussian-variational-variance-ordering.md) | 🔵 OPEN | Bayesian uncertainty quantification and variational inference |
+| 559 | [Separation of measures by Cartan–Hadamard sliced distances](problems/559-cartan-hadamard-sliced-separation.md) | 🟡 PARTIAL | Statistical inference and optimal transport on manifolds |
+| 560 | [Monotone variance in the Gaussian approximation to DrMMD flow](problems/560-drmmd-gaussian-variance-monotonicity.md) | 🔵 OPEN | Sampling and kernel gradient flows |
+| 561 | [Ordinary posterior contraction for heavy-tailed neural-network priors](problems/561-heavy-tailed-network-ordinary-posterior.md) | 🔵 OPEN | Bayesian nonparametrics and neural networks |
+| 562 | [Perfect recovery threshold for unregularized quadratic-network training](problems/562-quadratic-network-recovery-threshold.md) | 🔵 OPEN | High-dimensional statistics and nonconvex learning |
+| 564 | [Polynomial-time Bernoulli group testing at the information threshold](problems/564-bernoulli-group-testing.md) | 🔵 OPEN | High-dimensional inference and computational statistics |
+| 574 | [Sharp least-singular-value bounds for independent random tensor columns](problems/574-tensor-singular-value.md) | 🟡 PARTIAL | Random matrices and tensor methods |
+| 575 | [Identifying a distribution from its Gaussian-channel MMSE curve](problems/575-mmse-identification.md) | 🟡 PARTIAL | Statistical estimation and information theory |
+| 586 | [Draws in the undirected trapping game on percolation clusters](problems/586-trap-draws-percolation.md) | 🔵 OPEN | Applied probability and random combinatorial games |
+| 587 | [Monotonicity of draw probabilities under random vertex deletion](problems/587-trap-draw-probability-monotonicity.md) | 🔵 OPEN | Applied probability and random combinatorial games |
+| 588 | [Uniform covariance bounds for constrained Ising replicas](problems/588-ising-replica-covariance.md) | 🟡 PARTIAL | Probability, statistical mechanics and sampling |
+| 589 | [Strong freeness for one random interaction on overlapping tensor legs](problems/589-repeated-gue-strong-freeness.md) | 🔵 OPEN | Random matrices and quantum many-body systems |
+| 596 | [Automorphism-invariant one-dependent colorings of regular trees](problems/596-regular-tree-one-dependent-coloring.md) | 🔵 OPEN | Applied probability and distributed graph coloring |
+| 597 | [Extending a symmetric one-dependent four-color law across a branch](problems/597-four-color-branched-ray.md) | 🔵 OPEN | Applied probability and random graph coloring |
+| 601 | [Uniqueness of the stationary one-dependent four-coloring](problems/601-one-dependent-four-color-uniqueness.md) | 🔵 OPEN | Probability and constrained stochastic processes |
+| 611 | [Log-concavity of Gaussian convex-hull intersection probabilities](problems/611-gaussian-radon-intersection-logconcavity.md) | 🔵 OPEN | Stochastic geometry and convexity |
+| 612 | [Unimodality of Radon partitions for uniform convex samples](problems/612-uniform-convex-radon-unimodality.md) | 🔵 OPEN | Stochastic geometry and convexity |
+| 621 | [Hypergraph shuffles and the one-particle spectral gap](problems/621-caputo-hypergraph-gap.md) | 🟡 PARTIAL | Markov chains and spectral graph theory |
+| 622 | [A degree-two spectral gap for Brownian energy exchange](problems/622-brownian-energy-quadratic-gap.md) | 🟡 PARTIAL | Interacting diffusions and sampling |
+| 623 | [Low-degree representations determining a unitary shuffle's gap](problems/623-unitary-hypergraph-gap.md) | 🟡 PARTIAL | Random unitary sampling and spectral analysis |
+| 629 | [Fourth-order diffusion approximation for three-player ruin](problems/629-gambler-scaling.md) | 🟡 PARTIAL | Applied probability and diffusion approximation |
+| 650 | [A uniform Gaussian approximation bound for Jack measures](problems/650-jack-normal.md) | 🟡 PARTIAL | Probability and random matrix models |
+| 651 | [Absolute continuity of stationary Elo ratings](problems/651-elo-density.md) | 🟡 PARTIAL | Probability, statistics, and uncertainty quantification |
+| 656 | [Oscillation of partition functions under very strong disorder](problems/656-polymer-oscillation.md) | 🟡 PARTIAL | Probability and statistical mechanics |
+
+## Numerical analysis and scientific computing
+
+| ID | Problem | Status | Area |
+| --- | --- | --- | --- |
+| 504 | [Global uniqueness of fine-mesh semilinear Galerkin solutions](problems/504-semilinear-galerkin-global-uniqueness.md) | 🟡 PARTIAL | Numerical PDEs and optimal control |
+| 515 | [A discrete Aronson–Bénilan estimate for an upwind growth scheme](problems/515-upwind-discrete-aronson-benilan.md) | 🔵 OPEN | Numerical PDE analysis and free-boundary limits |
+| 527 | [Sharp local approximation widths for rough elliptic equations](problems/527-sharp-local-elliptic-widths.md) | 🔵 OPEN | Numerical PDE analysis and multiscale approximation |
+| 528 | [Removing the logarithmic loss in the Li–Wu KdV integrator](problems/528-kdv-integrator-logarithmic-loss.md) | 🔵 OPEN | Numerical PDE analysis and dispersive equations |
+| 529 | [Universal identities for Euclidean mechanical Lie brackets](problems/529-euclidean-mechanical-lie-algebra.md) | 🔵 OPEN | Geometric numerical integration and numerical PDEs |
+| 532 | [Linear inverse bounds for four-diamond scattering](problems/532-four-diamond-scattering-inverse.md) | 🔵 OPEN | Numerical PDEs and acoustic scattering |
+| 533 | [Removing the logarithmic loss in Helmholtz Nyström estimates](problems/533-nystrom-logarithmic-loss.md) | 🟡 PARTIAL | Numerical PDEs and boundary integral equations |
+| 537 | [Existence for adaptive porous flow with a negative drag jump](problems/537-negative-jump-adaptive-flow.md) | 🔵 OPEN | Numerical PDEs and porous-media flow |
+| 546 | [Optimal star-discrepancy lower bound for infinite sequences](problems/546-star-discrepancy-sequence-lower-bound.md) | 🔵 OPEN | Uncertainty quantification and quasi-Monte Carlo integration |
+| 551 | [Low-degree convergence of relaxed minimal-deformation surface elements](problems/551-low-degree-relaxed-minimal-deformation.md) | 🔵 OPEN | Numerical analysis of evolving surfaces |
+| 552 | [Optimal stable manifold widths of Besov balls](problems/552-stable-manifold-widths-besov.md) | 🟡 PARTIAL | Stable nonlinear approximation and numerical analysis |
+| 565 | [Minimum number of continuous adaptive measurements for vector recovery](problems/565-continuous-adaptive-measurement-complexity.md) | 🔵 OPEN | Information-based complexity and approximation theory |
+| 566 | [Sharp asymptotic constant for rational approximation of fractional inverse powers](problems/566-stieltjes-rational-asymptotic-constant.md) | 🔵 OPEN | Rational approximation and numerical analysis |
+| 567 | [Maximal gain from randomization with nonadaptive linear measurements](problems/567-nonadaptive-randomization-gain.md) | 🔵 OPEN | Information-based complexity and randomized approximation |
+| 568 | [Does integration of uniformly derivative-bounded analytic functions suffer the dimensional curse?](problems/568-smooth-integration-dimensional-curse.md) | 🔵 OPEN | Numerical integration and information-based complexity |
+| 573 | [A fixed-time lower bound for Trotter splitting of the hydrogen ground state](problems/573-hydrogen-trotter-lower-bound.md) | 🔵 OPEN | Numerical analysis and quantum dynamics |
+| 580 | [Sharp permutation bound for triangular parts of correlation matrices](problems/580-sor-permutation-sharp-constant.md) | 🔵 OPEN | Numerical linear algebra and iterative methods |
+| 581 | [A sharp Galerkin projection bound on nonobtuse triangles](problems/581-nonobtuse-galerkin-projection-constant.md) | 🔵 OPEN | Finite element approximation and numerical PDEs |
+| 582 | [The cost of continuous reconstruction on Banach unit balls](problems/582-continuous-decoder-banach-balls.md) | 🔵 OPEN | Information-based complexity and nonlinear approximation |
+| 590 | [A real nearest matrix with spectrum in the closed left half-plane](problems/590-nearest-hurwitz-real-minimizer.md) | 🔵 OPEN | Numerical linear algebra and matrix optimization |
+| 593 | [Logarithmic controlled bandwidth for locally analytic functions](problems/593-analytic-controlled-bandwidth.md) | 🔵 OPEN | Numerical approximation and oscillatory quadrature |
+| 594 | [Infinitely many obstacle resonances in a fixed strip under trapping](problems/594-modified-lax-phillips-trapping.md) | 🟡 PARTIAL | Scattering theory and numerical wave propagation |
+| 595 | [Full Sobolev invertibility range for Hausdorff-measure screen operators](problems/595-fractal-screen-sobolev-invertibility.md) | 🟡 PARTIAL | Boundary integral equations and numerical scattering |
+| 619 | [Optimal uniform observation time for mixed finite element waves](problems/619-mixed-wave-optimal-observation-time.md) | 🟡 PARTIAL | Numerical control and inverse problems |
+| 640 | [Polynomial-size nonobtuse tetrahedral meshes](problems/640-polynomial-nonobtuse-tetrahedral-meshes.md) | 🟡 PARTIAL | Numerical PDEs and computational geometry |
+| 647 | [Local potential bases on Freudenthal meshes](problems/647-freudenthal-local-potential-basis.md) | 🔵 OPEN | Finite elements and multigrid methods |
+| 653 | [Strong convergence rate of the fractional WIS Euler integrator](problems/653-wis-fractional-euler-rate.md) | 🟡 PARTIAL | Numerical stochastic differential equations |
+| 655 | [Bos's cubic and quartic simplex interpolation nodes](problems/655-bos-simplex-interpolation-nodes.md) | 🟡 PARTIAL | Multivariate approximation and optimal experimental design |
+| 665 | [Global convergence of the simple CRDT conformal-mapping iteration](problems/665-simple-crdt-convergence.md) | 🔵 OPEN | Numerical conformal mapping |
+
+## Geometry and topology
+
+| ID | Problem | Status | Area |
+| --- | --- | --- | --- |
+| 088 | [The symmetric Mahler inequality in four dimensions](problems/088-mahler-symmetric-four-dimensions.md) | 🔵 OPEN | Convex geometry and optimization |
+| 314 | [Polynomial bounds for the graph diameter of polytopes](problems/314-polynomial-hirsch.md) | 🔵 OPEN | Convex geometry and linear optimization |
+| 502 | [Universality of the interleaving distance over arbitrary fields](problems/502-interleaving-distance-universality.md) | 🟡 PARTIAL | Applied topology and multiparameter persistent homology |
 | 507 | [Planar Rips complexes as wedges of spheres](problems/507-planar-rips-wedges-of-spheres.md) | 🟡 PARTIAL | Applied topology and geometric complexes |
 | 508 | [Injectivity of the Rips shadow map on fundamental groups](problems/508-rips-shadow-fundamental-group.md) | 🟡 PARTIAL | Applied topology and geometric reconstruction |
 | 509 | [Ergodicity of higher-dimensional Ising clumps](problems/509-higher-dimensional-ising-clumps.md) | 🟡 PARTIAL | Applied topology and Markov-chain sampling |
@@ -195,9 +272,6 @@
 | 512 | [Exact diameter of the leaf-slide graph on labelled trees](problems/512-network-realignment-diameter.md) | 🔵 OPEN | Applied topology and network reconfiguration |
 | 513 | [Exponential excursion tails for topology-preserving Ising disks](problems/513-ising-disks-excursion-tail.md) | 🔵 OPEN | Applied topology, stochastic geometry and rare-event sampling |
 | 514 | [Path connectivity of the infinity Z-Gromov–Wasserstein space](problems/514-z-gw-infinity-path-connectivity.md) | 🟡 PARTIAL | Applied topology, metric geometry and network comparison |
-| 515 | [A discrete Aronson–Bénilan estimate for an upwind growth scheme](problems/515-upwind-discrete-aronson-benilan.md) | 🔵 OPEN | Numerical PDE analysis and free-boundary limits |
-| 516 | [Minimax rates for private density estimation with mixed anisotropy](problems/516-private-density-mixed-anisotropy.md) | 🔵 OPEN | Statistical inference and local differential privacy |
-| 517 | [Sharp interactive privacy rates for spectral density estimation](problems/517-interactive-private-spectral-density.md) | 🔵 OPEN | Statistical inference, time series and local differential privacy |
 | 518 | [Monotonicity of unordered graph motion-planning complexity](problems/518-unordered-graph-motion-monotonicity.md) | 🔵 OPEN | Applied topology and robot motion planning |
 | 519 | [Wedge-of-spheres structure of path-product matching complexes](problems/519-path-product-matching-complexes.md) | 🔵 OPEN | Applied and computational topology |
 | 520 | [Finite homotopy models for spherical Rips complexes](problems/520-spherical-rips-finite-homotopy-type.md) | 🔵 OPEN | Applied and computational topology |
@@ -205,138 +279,59 @@
 | 522 | [The first Rips homotopy transition for higher-dimensional spheres](problems/522-spherical-rips-first-transition.md) | 🔵 OPEN | Applied and computational topology |
 | 523 | [The centre-rank formula for aspherical motion planning](problems/523-aspherical-motion-planning-center.md) | 🔵 OPEN | Applied topology and robot motion planning |
 | 524 | [Maximal motion-planning complexity of aspherical connected sums](problems/524-aspherical-connected-sum-complexity.md) | 🔵 OPEN | Applied topology and robot motion planning |
-| 525 | [Consistency of the Greedy Sparsest Poset algorithm](problems/525-greedy-sparsest-poset-consistency.md) | 🔵 OPEN | Statistical inference and causal discovery |
-| 526 | [Tail bounds for causal equivalence classes of uniform random DAGs](problems/526-random-dag-equivalence-class-tails.md) | 🔵 OPEN | Statistical inference and random graphical models |
-| 527 | [Sharp local approximation widths for rough elliptic equations](problems/527-sharp-local-elliptic-widths.md) | 🔵 OPEN | Numerical PDE analysis and multiscale approximation |
-| 528 | [Removing the logarithmic loss in the Li–Wu KdV integrator](problems/528-kdv-integrator-logarithmic-loss.md) | 🔵 OPEN | Numerical PDE analysis and dispersive equations |
-| 529 | [Universal identities for Euclidean mechanical Lie brackets](problems/529-euclidean-mechanical-lie-algebra.md) | 🔵 OPEN | Geometric numerical integration and numerical PDEs |
 | 530 | [Coarse Hilbert embeddings of persistence diagrams](problems/530-persistence-diagram-coarse-embedding.md) | 🔵 OPEN | Applied topology and metric geometry |
 | 531 | [Six-point persistence on the Euclidean two-sphere](problems/531-six-point-sphere-persistence.md) | 🔵 OPEN | Applied topology and geometric data analysis |
-| 532 | [Linear inverse bounds for four-diamond scattering](problems/532-four-diamond-scattering-inverse.md) | 🔵 OPEN | Numerical PDEs and acoustic scattering |
-| 533 | [Removing the logarithmic loss in Helmholtz Nyström estimates](problems/533-nystrom-logarithmic-loss.md) | 🟡 PARTIAL | Numerical PDEs and boundary integral equations |
 | 534 | [Maximal motion-planning complexity from positive simplicial volume](problems/534-positive-volume-motion-planning.md) | 🔵 OPEN | Applied topology and robot motion planning |
 | 535 | [Maximal TC weight from positive homological norm](problems/535-positive-norm-tc-weight.md) | 🔵 OPEN | Applied topology and robot motion planning |
 | 536 | [Exact motion-planning complexity of real projective spaces](problems/536-projective-motion-planning.md) | 🟡 PARTIAL | Applied topology and robot motion planning |
-| 537 | [Existence for adaptive porous flow with a negative drag jump](problems/537-negative-jump-adaptive-flow.md) | 🔵 OPEN | Numerical PDEs and porous-media flow |
-| 538 | [Minimax estimation of topic distributions with weak sparsity](problems/538-weak-sparse-topic-minimax.md) | 🔵 OPEN | Statistical inference and topic models |
 | 539 | [Limiting Betti-number distributions in preferential-attachment networks](problems/539-preferential-attachment-betti-limit.md) | 🔵 OPEN | Applied topology and random networks |
-| 540 | [Classifying Gaussian models with rational maximum-likelihood estimators](problems/540-rational-gaussian-mle-classification.md) | 🟡 PARTIAL | Statistical inference and algebraic statistics |
 | 541 | [Homology at the second transition of torus-grid Rips complexes](problems/541-torus-grid-transition-homology.md) | 🔵 OPEN | Applied topology and persistent homology |
 | 542 | [Homotopy type of torus-grid Rips complexes at half the diameter](problems/542-torus-grid-half-diameter-homotopy.md) | 🔵 OPEN | Applied topology and persistent homology |
 | 543 | [Motion-planning complexity of symmetric products of non-orientable surfaces](problems/543-nonorientable-symmetric-product-motion-planning.md) | 🟡 PARTIAL | Applied topology and motion planning |
 | 544 | [Triangle inequality for the pullback distance of verbose persistence barcodes](problems/544-verbose-persistence-pullback-triangle.md) | 🔵 OPEN | Applied topology and persistent homology |
-| 545 | [Mixing time of the reflected Burnside sampler for integer partitions](problems/545-reflected-burnside-mixing.md) | 🔵 OPEN | Monte Carlo sampling and statistical computation |
-| 546 | [Optimal star-discrepancy lower bound for infinite sequences](problems/546-star-discrepancy-sequence-lower-bound.md) | 🔵 OPEN | Uncertainty quantification and quasi-Monte Carlo integration |
 | 547 | [Betti numbers of a persistence fiber with no finite bars](problems/547-persistence-fiber-betti-numbers.md) | 🔵 OPEN | Applied topology and inverse persistent homology |
 | 548 | [Monotonicity of connectivity in spherical Čech filtrations](problems/548-spherical-cech-connectivity-monotonicity.md) | 🔵 OPEN | Applied and computational topology |
 | 549 | [Finite homotopy models for spherical Čech complexes](problems/549-spherical-cech-finite-homotopy-models.md) | 🔵 OPEN | Applied and computational topology |
-| 550 | [Sharp barrier-parameter growth for hyperbolic balls](problems/550-hyperbolic-ball-barrier-parameter.md) | 🔵 OPEN | Numerical optimization on manifolds |
-| 551 | [Low-degree convergence of relaxed minimal-deformation surface elements](problems/551-low-degree-relaxed-minimal-deformation.md) | 🔵 OPEN | Numerical analysis of evolving surfaces |
-| 552 | [Optimal stable manifold widths of Besov balls](problems/552-stable-manifold-widths-besov.md) | 🟡 PARTIAL | Stable nonlinear approximation and numerical analysis |
 | 553 | [Simplices maximize the isotropic constant](problems/553-simplex-maximal-isotropic-constant.md) | 🟡 PARTIAL | Geometric probability and covariance bounds |
 | 554 | [Bounded weakening for constrained invertibility](problems/554-constrained-invertibility-bounded-weakening.md) | 🔵 OPEN | Applied topology and structured linear algebra |
 | 555 | [A 325-point two-distance set in dimension 24](problems/555-two-distance-325-points-dimension24.md) | 🔵 OPEN | Computational geometry and Euclidean distance matrices |
 | 556 | [Uniqueness of 277-point two-distance sets in dimension 23](problems/556-two-distance-277-point-uniqueness.md) | 🔵 OPEN | Computational geometry and Euclidean distance matrices |
 | 557 | [Minimal persistence grids versus homological Morse lower bounds](problems/557-minimal-persistence-grid-morse-bound.md) | 🟡 PARTIAL | Applied topology and inverse persistent homology |
-| 558 | [Variance ordering for Gaussian alpha-divergence approximations](problems/558-gaussian-variational-variance-ordering.md) | 🔵 OPEN | Bayesian uncertainty quantification and variational inference |
-| 559 | [Separation of measures by Cartan–Hadamard sliced distances](problems/559-cartan-hadamard-sliced-separation.md) | 🟡 PARTIAL | Statistical inference and optimal transport on manifolds |
-| 560 | [Monotone variance in the Gaussian approximation to DrMMD flow](problems/560-drmmd-gaussian-variance-monotonicity.md) | 🔵 OPEN | Sampling and kernel gradient flows |
-| 561 | [Ordinary posterior contraction for heavy-tailed neural-network priors](problems/561-heavy-tailed-network-ordinary-posterior.md) | 🔵 OPEN | Bayesian nonparametrics and neural networks |
-| 562 | [Perfect recovery threshold for unregularized quadratic-network training](problems/562-quadratic-network-recovery-threshold.md) | 🔵 OPEN | High-dimensional statistics and nonconvex learning |
-| 563 | [Maximum treewidth at a prescribed edge count](problems/563-treewidth-edge-count.md) | 🟡 PARTIAL | Statistical computation and extremal graph theory |
-| 564 | [Polynomial-time Bernoulli group testing at the information threshold](problems/564-bernoulli-group-testing.md) | 🔵 OPEN | High-dimensional inference and computational statistics |
-| 565 | [Minimum number of continuous adaptive measurements for vector recovery](problems/565-continuous-adaptive-measurement-complexity.md) | 🔵 OPEN | Information-based complexity and approximation theory |
-| 566 | [Sharp asymptotic constant for rational approximation of fractional inverse powers](problems/566-stieltjes-rational-asymptotic-constant.md) | 🔵 OPEN | Rational approximation and numerical analysis |
-| 567 | [Maximal gain from randomization with nonadaptive linear measurements](problems/567-nonadaptive-randomization-gain.md) | 🔵 OPEN | Information-based complexity and randomized approximation |
-| 568 | [Does integration of uniformly derivative-bounded analytic functions suffer the dimensional curse?](problems/568-smooth-integration-dimensional-curse.md) | 🔵 OPEN | Numerical integration and information-based complexity |
-| 569 | [Unbounded chromatic number of associahedron graphs](problems/569-associahedron-chromatic.md) | 🔵 OPEN | Discrete and computational geometry |
 | 570 | [Arbitrarily large integer-distance sets in general position](problems/570-integer-distance-general-position.md) | 🔵 OPEN | Discrete geometry and arithmetic geometry |
 | 571 | [Deciding nonnegativity of unnormalized univariate trace polynomials](problems/571-univariate-trace-decidability.md) | 🔵 OPEN | Real algebraic geometry and matrix inequalities |
 | 572 | [Hardness of minimum-dilation triangulation](problems/572-minimum-dilation-hardness.md) | 🔵 OPEN | Computational geometry and optimization |
-| 573 | [A fixed-time lower bound for Trotter splitting of the hydrogen ground state](problems/573-hydrogen-trotter-lower-bound.md) | 🔵 OPEN | Numerical analysis and quantum dynamics |
-| 574 | [Sharp least-singular-value bounds for independent random tensor columns](problems/574-tensor-singular-value.md) | 🟡 PARTIAL | Random matrices and tensor methods |
-| 575 | [Identifying a distribution from its Gaussian-channel MMSE curve](problems/575-mmse-identification.md) | 🟡 PARTIAL | Statistical estimation and information theory |
 | 576 | [The sharp radius in quantitative Steinitz selection](problems/576-quantitative-steinitz-radius.md) | 🔵 OPEN | Convex geometry and sparse approximation |
 | 577 | [Asymmetry at the Macbeath point of a convex body](problems/577-macbeath-center-asymmetry.md) | 🔵 OPEN | Convex geometry and geometric approximation |
 | 578 | [Improving the exponential lower bound for peeling sequences](problems/578-peeling-sequences-lower-base.md) | 🔵 OPEN | Discrete geometry and geometric counting |
-| 579 | [Perfect Lee codes beyond dimension two](problems/579-golomb-welch.md) | 🟡 PARTIAL | Coding theory and discrete geometry |
-| 580 | [Sharp permutation bound for triangular parts of correlation matrices](problems/580-sor-permutation-sharp-constant.md) | 🔵 OPEN | Numerical linear algebra and iterative methods |
-| 581 | [A sharp Galerkin projection bound on nonobtuse triangles](problems/581-nonobtuse-galerkin-projection-constant.md) | 🔵 OPEN | Finite element approximation and numerical PDEs |
-| 582 | [The cost of continuous reconstruction on Banach unit balls](problems/582-continuous-decoder-banach-balls.md) | 🔵 OPEN | Information-based complexity and nonlinear approximation |
 | 583 | [Counting half-integral polygons with collinear interior lattice points](problems/583-half-integral-collinear-count.md) | 🔵 OPEN | Discrete geometry and lattice-point enumeration |
 | 584 | [Counting Ehrhart quasipolynomials of half-integral polygons](problems/584-half-integral-ehrhart-count.md) | 🔵 OPEN | Discrete geometry and Ehrhart theory |
 | 585 | [Unimodal connectivity by 2–3 and 3–2 Pachner moves](problems/585-unimodal-pachner-connectivity.md) | 🔵 OPEN | Computational topology and triangulated 3-manifolds |
-| 586 | [Draws in the undirected trapping game on percolation clusters](problems/586-trap-draws-percolation.md) | 🔵 OPEN | Applied probability and random combinatorial games |
-| 587 | [Monotonicity of draw probabilities under random vertex deletion](problems/587-trap-draw-probability-monotonicity.md) | 🔵 OPEN | Applied probability and random combinatorial games |
-| 588 | [Uniform covariance bounds for constrained Ising replicas](problems/588-ising-replica-covariance.md) | 🟡 PARTIAL | Probability, statistical mechanics and sampling |
-| 589 | [Strong freeness for one random interaction on overlapping tensor legs](problems/589-repeated-gue-strong-freeness.md) | 🔵 OPEN | Random matrices and quantum many-body systems |
-| 590 | [A real nearest matrix with spectrum in the closed left half-plane](problems/590-nearest-hurwitz-real-minimizer.md) | 🔵 OPEN | Numerical linear algebra and matrix optimization |
 | 591 | [A sharp Betti-number bound for 4-manifold triangulation complexity](problems/591-four-manifold-triangulation-complexity.md) | 🔵 OPEN | Computational topology and triangulation complexity |
 | 592 | [Sharp vertex bounds for generalized triangulations in even dimensions](problems/592-even-manifold-vertex-bound.md) | 🔵 OPEN | Computational topology and face-number bounds |
-| 593 | [Logarithmic controlled bandwidth for locally analytic functions](problems/593-analytic-controlled-bandwidth.md) | 🔵 OPEN | Numerical approximation and oscillatory quadrature |
-| 594 | [Infinitely many obstacle resonances in a fixed strip under trapping](problems/594-modified-lax-phillips-trapping.md) | 🟡 PARTIAL | Scattering theory and numerical wave propagation |
-| 595 | [Full Sobolev invertibility range for Hausdorff-measure screen operators](problems/595-fractal-screen-sobolev-invertibility.md) | 🟡 PARTIAL | Boundary integral equations and numerical scattering |
-| 596 | [Automorphism-invariant one-dependent colorings of regular trees](problems/596-regular-tree-one-dependent-coloring.md) | 🔵 OPEN | Applied probability and distributed graph coloring |
-| 597 | [Extending a symmetric one-dependent four-color law across a branch](problems/597-four-color-branched-ray.md) | 🔵 OPEN | Applied probability and random graph coloring |
-| 598 | [Sidorenko's lower bound for bipartite homomorphism counts](problems/598-sidorenko.md) | 🟡 PARTIAL | Information theory and graphical models |
 | 599 | [The happy-edge conjecture for convex plane spanning trees](problems/599-convex-tree-happy-edges.md) | 🔵 OPEN | Computational geometry and geometric reconfiguration |
 | 600 | [A sharp differing-edge bound for convex plane-tree flips](problems/600-convex-tree-difference-bound.md) | 🔵 OPEN | Computational geometry and geometric reconfiguration |
-| 601 | [Uniqueness of the stationary one-dependent four-coloring](problems/601-one-dependent-four-color-uniqueness.md) | 🔵 OPEN | Probability and constrained stochastic processes |
-| 602 | [Classifying balanced elementary symmetric Boolean functions](problems/602-balanced-elementary-boolean.md) | 🟡 PARTIAL | Cryptography and Boolean functions |
-| 603 | [Can bound entanglement produce a device-independent secret key?](problems/603-revised-peres.md) | 🟡 PARTIAL | Quantum information and cryptography |
 | 604 | [Three or four layers for 2-degenerate graphs](problems/604-geometric-thickness-two-degenerate.md) | 🔵 OPEN | Computational geometry and graph drawing |
 | 605 | [Bounded geometric thickness for unions of two forests](problems/605-arboricity-two-geometric-thickness.md) | 🔵 OPEN | Computational geometry and graph drawing |
 | 606 | [A linear threshold for extracting a segment grid](problems/606-red-blue-segment-grid.md) | 🔵 OPEN | Computational geometry and graph drawing |
 | 607 | [Connectivity of plane spanning-path reconfiguration](problems/607-plane-spanning-path-connectivity.md) | 🔵 OPEN | Computational geometry and geometric reconfiguration |
 | 608 | [The minimum vertex number of a triangulation of real projective 5-space](problems/608-rp5-minimum-vertices.md) | 🔵 OPEN | Computational topology and triangulated manifolds |
 | 609 | [A bounded number of flat transversals for fat convex sets](problems/609-fat-convex-transversal-pq.md) | 🔵 OPEN | Discrete geometry and geometric transversal theory |
-| 610 | [Entropy chain rule on nonsmooth nonconvex Lipschitz domains](problems/610-entropy-chain-rule-lipschitz.md) | 🟡 PARTIAL | Numerical analysis of diffusion and optimal transport |
-| 611 | [Log-concavity of Gaussian convex-hull intersection probabilities](problems/611-gaussian-radon-intersection-logconcavity.md) | 🔵 OPEN | Stochastic geometry and convexity |
-| 612 | [Unimodality of Radon partitions for uniform convex samples](problems/612-uniform-convex-radon-unimodality.md) | 🔵 OPEN | Stochastic geometry and convexity |
 | 613 | [Sierksma's lower bound for Tverberg partitions](problems/613-sierksma-tverberg-partition-count.md) | 🔵 OPEN | Discrete geometry and convexity |
-| 614 | [The sharp asymptotic facial length in girth-saturated plane graphs](problems/614-plane-girth-facial-asymptotic.md) | 🔵 OPEN | Graph theory and topological graph embeddings |
-| 615 | [A linear genus–girth bound for facial cycles](problems/615-surface-girth-facial-linear-bound.md) | 🔵 OPEN | Graph theory and topological graph embeddings |
-| 616 | [The symmetry point of a unimodular lattice's secrecy function](problems/616-belfiore-sole.md) | 🟡 PARTIAL | Lattice coding and information theory |
-| 617 | [Divisible point sets as unions of parallel lines](problems/617-strong-cylinder.md) | 🟡 PARTIAL | Coding theory and finite geometry |
-| 618 | [Smooth-gradient approximation of finite-Fisher-information scores](problems/618-fisher-score-gradient-closure.md) | 🟡 PARTIAL | Optimal transport and weighted Sobolev approximation |
-| 619 | [Optimal uniform observation time for mixed finite element waves](problems/619-mixed-wave-optimal-observation-time.md) | 🟡 PARTIAL | Numerical control and inverse problems |
-| 620 | [A zero in the nontrivial spectrum of a power permutation](problems/620-helleseth-vanishing.md) | 🟡 PARTIAL | Information theory, sequence design and finite fields |
-| 621 | [Hypergraph shuffles and the one-particle spectral gap](problems/621-caputo-hypergraph-gap.md) | 🟡 PARTIAL | Markov chains and spectral graph theory |
-| 622 | [A degree-two spectral gap for Brownian energy exchange](problems/622-brownian-energy-quadratic-gap.md) | 🟡 PARTIAL | Interacting diffusions and sampling |
-| 623 | [Low-degree representations determining a unitary shuffle's gap](problems/623-unitary-hypergraph-gap.md) | 🟡 PARTIAL | Random unitary sampling and spectral analysis |
 | 624 | [Nill's facet bound for reflexive lattice polytopes](problems/624-reflexive-polytope-facet-bound.md) | 🔵 OPEN | Discrete geometry and toric geometry |
 | 625 | [Counting cospherical tuples in lattice cubes](problems/625-cospherical-lattice-tuple-count.md) | 🔵 OPEN | Discrete geometry and lattice-point counting |
-| 626 | [Decomposing complete graphs into squares of Hamilton cycles](problems/626-hamilton-square-decomposition.md) | 🔵 OPEN | Graph theory and combinatorial designs |
 | 627 | [Unbounded weak chromatic number for geometric tetrahedral complexes](problems/627-tetrahedral-weak-chromatic.md) | 🔵 OPEN | Combinatorial topology and geometric hypergraphs |
 | 628 | [Transversal ratio approaching one for simplicial four-polytopes](problems/628-four-polytope-transversal-ratio.md) | 🔵 OPEN | Discrete geometry and extremal topology |
-| 629 | [Fourth-order diffusion approximation for three-player ruin](problems/629-gambler-scaling.md) | 🟡 PARTIAL | Applied probability and diffusion approximation |
-| 630 | [Excluding three correlation levels in quadratic field towers](problems/630-helleseth-three-valued.md) | 🟡 PARTIAL | Coding theory and sequence design |
 | 631 | [Polynomial-size convex difference decompositions](problems/631-polynomial-convex-difference-decomposition.md) | 🔵 OPEN | Polyhedral geometry and optimization |
 | 632 | [Reconstructing simplicial spheres from facet adjacency](problems/632-kalai-sphere-reconstruction.md) | 🟡 PARTIAL | Combinatorial topology and polyhedral geometry |
 | 633 | [Spanning triangulated spheres with holes in surface triangulations](problems/633-spanning-holed-sphere-triangulation.md) | 🟡 PARTIAL | Topological graph theory and rigidity |
-| 634 | [Permutation snarks with order congruent to six modulo eight](problems/634-permutation-snark-order-residue.md) | 🟡 PARTIAL | Computational graph theory and edge colouring |
-| 635 | [Permutation snarks without five-cycles](problems/635-permutation-snark-large-girth.md) | 🟡 PARTIAL | Computational graph theory and edge colouring |
-| 636 | [Removable cycles in cycle permutation graphs](problems/636-permutation-removable-cycle.md) | 🟡 PARTIAL | Computational graph theory and graph connectivity |
-| 637 | [Costas arrays at every order](problems/637-costas-all-orders.md) | 🟡 PARTIAL | Combinatorial signal design |
 | 638 | [Convex realizations of spherical subword complexes](problems/638-subword-polytopality.md) | 🟡 PARTIAL | Polyhedral geometry and combinatorial topology |
 | 639 | [Eventual classification of simplicial line arrangements](problems/639-simplicial-arrangement-classification.md) | 🟡 PARTIAL | Computational geometry and incidence geometry |
-| 640 | [Polynomial-size nonobtuse tetrahedral meshes](problems/640-polynomial-nonobtuse-tetrahedral-meshes.md) | 🟡 PARTIAL | Numerical PDEs and computational geometry |
-| 641 | [Smallest orders for periodic multidimensional Costas arrays](problems/641-periodic-costas.md) | 🟡 PARTIAL | Combinatorial signal design |
 | 642 | [Odd Euler characteristic for flag-no-square four-manifolds](problems/642-odd-euler-flag-no-square.md) | 🔵 OPEN | Combinatorial topology and geometric group theory |
 | 643 | [Characterizing discrete sets generated by fixed-parameter extrapolation](problems/643-extrapolation-discreteness.md) | 🟡 PARTIAL | Discrete geometry and aperiodic order |
 | 644 | [Relative density of sets generated by fixed-parameter extrapolation](problems/644-extrapolation-relative-density.md) | 🟡 PARTIAL | Discrete geometry and aperiodic order |
-| 645 | [Largest radius ratio in nonuniform triangulated circle packings](problems/645-triangulated-packing-radius-ratio.md) | 🟡 PARTIAL | Discrete geometry and circle packing |
-| 646 | [Classifying Costas polynomials over extension fields](problems/646-costas-polynomial.md) | 🟡 PARTIAL | Finite-field signal design |
-| 647 | [Local potential bases on Freudenthal meshes](problems/647-freudenthal-local-potential-basis.md) | 🔵 OPEN | Finite elements and multigrid methods |
-| 648 | [Finitely many radius sets for compact sphere packings](problems/648-compact-packing-radius-finiteness.md) | 🟡 PARTIAL | Discrete geometry and sphere packing |
 | 649 | [Small mod-two area cycles in drawings with bounded pairwise intersections](problems/649-bounded-crossing-heilbronn.md) | 🟡 PARTIAL | Topological graph theory and discrete geometry |
-| 650 | [A uniform Gaussian approximation bound for Jack measures](problems/650-jack-normal.md) | 🟡 PARTIAL | Probability and random matrix models |
-| 651 | [Absolute continuity of stationary Elo ratings](problems/651-elo-density.md) | 🟡 PARTIAL | Probability, statistics, and uncertainty quantification |
 | 652 | [A limiting law for maximal persistence in random clique complexes](problems/652-random-clique-maximal-persistence-law.md) | 🟡 PARTIAL | Applied topology / stochastic topology |
-| 653 | [Strong convergence rate of the fractional WIS Euler integrator](problems/653-wis-fractional-euler-rate.md) | 🟡 PARTIAL | Numerical stochastic differential equations |
 | 654 | [Coboundary expansion of random balanced Cayley complexes](problems/654-random-balanced-cayley-expansion.md) | 🟡 PARTIAL | Applied topology / high-dimensional expansion |
-| 655 | [Bos's cubic and quartic simplex interpolation nodes](problems/655-bos-simplex-interpolation-nodes.md) | 🟡 PARTIAL | Multivariate approximation and optimal experimental design |
-| 656 | [Oscillation of partition functions under very strong disorder](problems/656-polymer-oscillation.md) | 🟡 PARTIAL | Probability and statistical mechanics |
 | 657 | [Zero in the upper-Laplacian spectrum of low-degree simplicial complexes](problems/657-low-degree-simplicial-zero-spectrum.md) | 🟡 PARTIAL | Applied topology / spectral theory |
 | 658 | [Topological complexity in the homogeneous medial regime for all sample sizes](problems/658-medial-regime-topological-complexity.md) | 🟡 PARTIAL | Applied topology / random complexes |
 | 659 | [A finite three-ample complex with nontrivial fundamental group](problems/659-finite-three-ample-nonsimply-connected.md) | 🟡 PARTIAL | Applied topology / simplicial complexes |
@@ -345,7 +340,37 @@
 | 662 | [Location of the most isolated point in a random polyhedral sample](problems/662-polyhedral-most-isolated-point-location.md) | 🔵 OPEN | Applied topology / stochastic geometry |
 | 663 | [Vanishing threshold for first path homology of a random digraph](problems/663-random-digraph-path-homology-vanishing.md) | 🟡 PARTIAL | Applied topology / random graphs |
 | 664 | [Central limit theorem for the first path Betti number](problems/664-random-digraph-path-betti-central-limit.md) | 🔵 OPEN | Applied topology / probability |
-| 665 | [Global convergence of the simple CRDT conformal-mapping iteration](problems/665-simple-crdt-convergence.md) | 🔵 OPEN | Numerical conformal mapping |
+
+## Combinatorics, optimization and information theory
+
+| ID | Problem | Status | Area |
+| --- | --- | --- | --- |
+| 095 | [A strongly polynomial pivot rule for the simplex method](problems/095-strongly-polynomial-simplex.md) | 🔵 OPEN | Numerical optimization |
+| 296 | [The Unique Games Conjecture](problems/296-unique-games.md) | 🔵 OPEN | Constraint satisfaction and approximation algorithms |
+| 338 | [The factor-two relation between triangle deletion and packing](problems/338-tuza-triangle-packing-covering.md) | 🔵 OPEN | Combinatorial optimization and network modification |
+| 340 | [Reed's bound for the chromatic number](problems/340-reed-colouring.md) | 🔵 OPEN | Combinatorial optimization and conflict scheduling |
+| 496 | [The Fourier entropy–influence conjecture](problems/496-fourier-entropy-influence.md) | 🟡 PARTIAL | Boolean models, statistical learning and Fourier analysis |
+| 505 | [The three-quarter conjecture for binary fix-free codes](problems/505-fix-free-three-quarter.md) | 🟡 PARTIAL | Information theory and lossless compression |
+| 550 | [Sharp barrier-parameter growth for hyperbolic balls](problems/550-hyperbolic-ball-barrier-parameter.md) | 🔵 OPEN | Numerical optimization on manifolds |
+| 563 | [Maximum treewidth at a prescribed edge count](problems/563-treewidth-edge-count.md) | 🟡 PARTIAL | Statistical computation and extremal graph theory |
+| 569 | [Unbounded chromatic number of associahedron graphs](problems/569-associahedron-chromatic.md) | 🔵 OPEN | Discrete and computational geometry |
+| 579 | [Perfect Lee codes beyond dimension two](problems/579-golomb-welch.md) | 🟡 PARTIAL | Coding theory and discrete geometry |
+| 598 | [Sidorenko's lower bound for bipartite homomorphism counts](problems/598-sidorenko.md) | 🟡 PARTIAL | Information theory and graphical models |
+| 602 | [Classifying balanced elementary symmetric Boolean functions](problems/602-balanced-elementary-boolean.md) | 🟡 PARTIAL | Cryptography and Boolean functions |
+| 603 | [Can bound entanglement produce a device-independent secret key?](problems/603-revised-peres.md) | 🟡 PARTIAL | Quantum information and cryptography |
+| 614 | [The sharp asymptotic facial length in girth-saturated plane graphs](problems/614-plane-girth-facial-asymptotic.md) | 🔵 OPEN | Graph theory and topological graph embeddings |
+| 615 | [A linear genus–girth bound for facial cycles](problems/615-surface-girth-facial-linear-bound.md) | 🔵 OPEN | Graph theory and topological graph embeddings |
+| 616 | [The symmetry point of a unimodular lattice's secrecy function](problems/616-belfiore-sole.md) | 🟡 PARTIAL | Lattice coding and information theory |
+| 617 | [Divisible point sets as unions of parallel lines](problems/617-strong-cylinder.md) | 🟡 PARTIAL | Coding theory and finite geometry |
+| 620 | [A zero in the nontrivial spectrum of a power permutation](problems/620-helleseth-vanishing.md) | 🟡 PARTIAL | Information theory, sequence design and finite fields |
+| 626 | [Decomposing complete graphs into squares of Hamilton cycles](problems/626-hamilton-square-decomposition.md) | 🔵 OPEN | Graph theory and combinatorial designs |
+| 630 | [Excluding three correlation levels in quadratic field towers](problems/630-helleseth-three-valued.md) | 🟡 PARTIAL | Coding theory and sequence design |
+| 634 | [Permutation snarks with order congruent to six modulo eight](problems/634-permutation-snark-order-residue.md) | 🟡 PARTIAL | Computational graph theory and edge colouring |
+| 635 | [Permutation snarks without five-cycles](problems/635-permutation-snark-large-girth.md) | 🟡 PARTIAL | Computational graph theory and edge colouring |
+| 636 | [Removable cycles in cycle permutation graphs](problems/636-permutation-removable-cycle.md) | 🟡 PARTIAL | Computational graph theory and graph connectivity |
+| 637 | [Costas arrays at every order](problems/637-costas-all-orders.md) | 🟡 PARTIAL | Combinatorial signal design |
+| 641 | [Smallest orders for periodic multidimensional Costas arrays](problems/641-periodic-costas.md) | 🟡 PARTIAL | Combinatorial signal design |
+| 646 | [Classifying Costas polynomials over extension fields](problems/646-costas-polynomial.md) | 🟡 PARTIAL | Finite-field signal design |
 
 ## Waves, quantum systems and spectral geometry
 
@@ -546,40 +571,19 @@
 | 437 | [A resonance gap for arbitrary uniformly hyperbolic trapping in three dimensions](problems/437-hyperbolic-trapping-resonance-gap-three-dimensions.md) | 🔵 OPEN | Scattering PDEs and wave decay |
 | 450 | [Can bounded positive time-dependent potentials trap a Schrödinger wave?](problems/450-positive-time-dependent-potential-localization.md) | 🔵 OPEN | Time-dependent Schrödinger PDEs and quantum confinement |
 
-## Nonlinear evolution, materials and continuum models
+## Nonlinear waves, fluids and kinetic equations
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
 | 221 | [Fast dynamo action of the unit ABC flow](problems/221-abc-fast-dynamo.md) | 🔵 OPEN | Magnetohydrodynamics |
-| 222 | [Axisymmetry of equilibrium distributions for Onsager rods](problems/222-onsager-axisymmetric-minimizers.md) | 🔵 OPEN | Liquid-crystal statistical mechanics |
-| 223 | [Finiteness of interior defects in Oseen–Frank minimizers](problems/223-oseen-frank-interior-defects.md) | 🔵 OPEN | Liquid-crystal continuum mechanics |
-| 224 | [Strict physicality for anisotropic singular Q-tensor minimizers](problems/224-anisotropic-q-physicality.md) | 🔵 OPEN | Liquid-crystal continuum theory |
-| 225 | [Do finite-energy elastic minimizers satisfy force balance?](problems/225-elastic-minimizer-equilibrium.md) | 🔵 OPEN | Nonlinear elasticity |
-| 226 | [Giga’s embedded curve-diffusion conjecture](problems/226-embedded-curve-diffusion.md) | 🔵 OPEN | Surface diffusion and geometric evolution |
-| 227 | [Finite-time singularity formation for unconstrained Willmore flow](problems/227-willmore-finite-time-singularity.md) | 🔵 OPEN | Membrane bending and geometric evolution |
-| 228 | [A length-independent mean energy bound for Kuramoto–Sivashinsky](problems/228-kuramoto-sivashinsky-energy-density.md) | 🔵 OPEN | Combustion fronts and spatiotemporal chaos |
 | 229 | [One cubic NLS trajectory with unbounded Sobolev norm](problems/229-cubic-nls-unbounded-orbit.md) | 🔵 OPEN | Nonlinear wave turbulence |
 | 230 | [Uniqueness of entropy-admissible renormalized Boltzmann solutions](problems/230-renormalized-boltzmann-uniqueness.md) | 🔵 OPEN | Rarefied-gas kinetics |
-| 231 | [Fourier’s law for a boundary-thermostated anharmonic chain](problems/231-anharmonic-chain-fourier-law.md) | 🔵 OPEN | Nonequilibrium heat transport |
 | 232 | [Finite-time growth of total variation in physical gas dynamics](problems/232-p-system-finite-time-bv.md) | 🔵 OPEN | Nonlinear hyperbolic conservation laws |
 | 233 | [Global finite-energy compressible flow at the diatomic exponent](problems/233-compressible-ns-physical-exponent.md) | 🔵 OPEN | Viscous compressible gas dynamics |
 | 234 | [Nonlinear orbital stability of small solitary gravity waves](problems/234-solitary-gravity-wave-nonlinear-stability.md) | 🔵 OPEN | Free-surface fluid dynamics |
 | 235 | [Asymptotic stability of the phi-four kink without odd symmetry](problems/235-phi-four-general-kink-stability.md) | 🔵 OPEN | Nonlinear scalar fields |
-| 236 | [The attainable stiffness tensors of two-phase elastic composites](problems/236-elastic-two-phase-g-closure.md) | 🔵 OPEN | Composite materials and homogenization |
-| 237 | [Global optimality of the Abrikosov triangular lattice](problems/237-abrikosov-global-crystallization.md) | 🔵 OPEN | Superconductivity and Coulomb crystallization |
-| 238 | [Rigidity of positively curved shells above one-half Hölder regularity](problems/238-holder-isometric-shell-rigidity.md) | 🟡 PARTIAL | Thin-shell geometry and elasticity |
-| 239 | [The quadruple-bubble conjecture in three-dimensional space](problems/239-spatial-quadruple-bubble.md) | 🔵 OPEN | Soap films and interfacial energy |
-| 240 | [The exact minimum ropelength of a trefoil](problems/240-ideal-trefoil-ropelength.md) | 🔵 OPEN | Geometry of ropes and knotted polymers |
-| 241 | [The densest packing of congruent regular tetrahedra](problems/241-regular-tetrahedron-packing.md) | 🔵 OPEN | Granular packing and particle assembly |
 | 242 | [Uniqueness of the homogeneous cooling state for inelastic hard spheres](problems/242-inelastic-cooling-profile-uniqueness.md) | 🟡 PARTIAL | Granular-gas kinetic theory |
-| 243 | [Existence of an optimal asymmetric Bloch wall of prescribed angle](problems/243-asymmetric-bloch-wall-attainment.md) | 🔵 OPEN | Micromagnetics and magnetic interfaces |
-| 244 | [Uniqueness of a hemispheric saddle profile on a magnetic sphere](problems/244-spherical-ferromagnet-profile-uniqueness.md) | 🔵 OPEN | Curved-film micromagnetics |
-| 307 | [Global classical continuation for a reversible mass-action reaction](problems/307-reversible-reaction-classical-continuation.md) | 🔵 OPEN | Chemical reaction–diffusion / continuum biology |
-| 327 | [Global classical continuation in the chemotaxis-consumption system](problems/327-chemotaxis-consumption-classical-continuation.md) | 🔵 OPEN | Mathematical biology / chemotaxis and cross-diffusion |
-| 352 | [The ball as the least densely packable convex solid](problems/352-ulam-convex-solid-packing.md) | 🔵 OPEN | Convex geometry and particle packing |
-| 353 | [Nonexistence of subcritical Lane–Emden equilibria in higher dimensions](problems/353-lane-emden-subcritical-system.md) | 🔵 OPEN | Nonlinear elliptic systems; reaction–diffusion |
 | 354 | [Can every bounded entire Burgers profile recur at late times?](problems/354-burgers-entire-limits.md) | 🔵 OPEN | Viscous conservation laws; asymptotic dynamics |
-| 355 | [Competitive exclusion by the slowest diffuser in a multispecies habitat](problems/355-dockery-slowest-diffuser.md) | 🔵 OPEN | Spatial ecology; reaction–diffusion |
 | 356 | [A genuinely periodic firing pattern in the delayed noisy integrate-and-fire PDE](problems/356-delayed-nnlif-periodic.md) | 🔵 OPEN | Mathematical neuroscience; nonlinear Fokker–Planck equations |
 | 357 | [Self-sustained oscillations in the full voltage–conductance neuron equation](problems/357-voltage-conductance-periodic.md) | 🔵 OPEN | Mathematical neuroscience; kinetic equations |
 | 358 | [Global smooth Schrödinger maps below the degree-zero energy threshold](problems/358-schrodinger-map-threshold.md) | 🔵 OPEN | Ferromagnetism; geometric dispersive PDEs |
@@ -595,25 +599,51 @@
 | 368 | [Hölder regularity for nondivergence kinetic jump equations](problems/368-fractional-kinetic-krylov-safonov.md) | 🔵 OPEN | Kinetic transport; anomalous velocity diffusion |
 | 369 | [Continuation of the cutoff Boltzmann flow from macroscopic bounds](problems/369-cutoff-boltzmann-continuation.md) | 🔵 OPEN | Rarefied gases; nonlinear kinetic transport |
 | 370 | [A universal quantitative error bound for small-BV hyperbolic flows](problems/370-universal-hyperbolic-error-rate.md) | 🔵 OPEN | Hyperbolic conservation laws; reliable simulation |
-| 371 | [Existence of elastic equilibria under quasiconvexity and infinite compression energy](problems/371-quasiconvex-physical-elastic-minimizers.md) | 🔵 OPEN | Nonlinear elasticity; variational equilibrium |
 | 372 | [Does a bounded interface slope prevent two-phase Muskat singularities?](problems/372-muskat-bounded-slope-continuation.md) | 🔵 OPEN | Porous-media interfaces; free boundaries |
 | 373 | [Global regularity of viscous planar MHD without magnetic diffusion](problems/373-nonresistive-planar-mhd.md) | 🔵 OPEN | Magnetohydrodynamics; conducting fluids |
 | 374 | [Large-data weak solutions for three-dimensional stress-diffusive Oldroyd-B flow](problems/374-oldroyd-diffusive-three-dimensional-weak.md) | 🔵 OPEN | Viscoelastic fluids; polymer rheology |
 | 375 | [The three-dimensional steady Leray problem with unrestricted boundary fluxes](problems/375-leray-three-dimensional-flux.md) | 🔵 OPEN | Steady viscous flow; inlet–outlet boundary conditions |
+| 379 | [The zero center-of-mass diffusion limit for kinetic FENE fluids](problems/379-fene-vanishing-center-of-mass-diffusion.md) | 🔵 OPEN | Polymer kinetics; singular diffusion limits |
+| 381 | [Hard-sphere Boltzmann shock profiles at arbitrary Mach number](problems/381-boltzmann-arbitrary-mach-shocks.md) | 🔵 OPEN | Rarefied gas dynamics; kinetic shock layers |
+| 385 | [Nonlinear Landau damping near a Maxwellian on the whole space](problems/385-maxwellian-whole-space-landau-damping.md) | 🔵 OPEN | Plasma kinetics; dispersive relaxation |
+| 446 | [Global smooth propagation for a laser envelope coupled to ionization](problems/446-ionization-laser-envelope-global-regularity.md) | 🔵 OPEN | Dispersive PDEs and nonlinear optics |
+| 447 | [Finite-time collapse in the planar self-steepening Schrödinger equation](problems/447-planar-self-steepening-finite-time-collapse.md) | 🔵 OPEN | Derivative dispersive PDEs and optical pulses |
+
+## Diffusion, materials and variational problems
+
+| ID | Problem | Status | Area |
+| --- | --- | --- | --- |
+| 222 | [Axisymmetry of equilibrium distributions for Onsager rods](problems/222-onsager-axisymmetric-minimizers.md) | 🔵 OPEN | Liquid-crystal statistical mechanics |
+| 223 | [Finiteness of interior defects in Oseen–Frank minimizers](problems/223-oseen-frank-interior-defects.md) | 🔵 OPEN | Liquid-crystal continuum mechanics |
+| 224 | [Strict physicality for anisotropic singular Q-tensor minimizers](problems/224-anisotropic-q-physicality.md) | 🔵 OPEN | Liquid-crystal continuum theory |
+| 225 | [Do finite-energy elastic minimizers satisfy force balance?](problems/225-elastic-minimizer-equilibrium.md) | 🔵 OPEN | Nonlinear elasticity |
+| 226 | [Giga’s embedded curve-diffusion conjecture](problems/226-embedded-curve-diffusion.md) | 🔵 OPEN | Surface diffusion and geometric evolution |
+| 227 | [Finite-time singularity formation for unconstrained Willmore flow](problems/227-willmore-finite-time-singularity.md) | 🔵 OPEN | Membrane bending and geometric evolution |
+| 228 | [A length-independent mean energy bound for Kuramoto–Sivashinsky](problems/228-kuramoto-sivashinsky-energy-density.md) | 🔵 OPEN | Combustion fronts and spatiotemporal chaos |
+| 231 | [Fourier’s law for a boundary-thermostated anharmonic chain](problems/231-anharmonic-chain-fourier-law.md) | 🔵 OPEN | Nonequilibrium heat transport |
+| 236 | [The attainable stiffness tensors of two-phase elastic composites](problems/236-elastic-two-phase-g-closure.md) | 🔵 OPEN | Composite materials and homogenization |
+| 237 | [Global optimality of the Abrikosov triangular lattice](problems/237-abrikosov-global-crystallization.md) | 🔵 OPEN | Superconductivity and Coulomb crystallization |
+| 238 | [Rigidity of positively curved shells above one-half Hölder regularity](problems/238-holder-isometric-shell-rigidity.md) | 🟡 PARTIAL | Thin-shell geometry and elasticity |
+| 239 | [The quadruple-bubble conjecture in three-dimensional space](problems/239-spatial-quadruple-bubble.md) | 🔵 OPEN | Soap films and interfacial energy |
+| 240 | [The exact minimum ropelength of a trefoil](problems/240-ideal-trefoil-ropelength.md) | 🔵 OPEN | Geometry of ropes and knotted polymers |
+| 241 | [The densest packing of congruent regular tetrahedra](problems/241-regular-tetrahedron-packing.md) | 🔵 OPEN | Granular packing and particle assembly |
+| 243 | [Existence of an optimal asymmetric Bloch wall of prescribed angle](problems/243-asymmetric-bloch-wall-attainment.md) | 🔵 OPEN | Micromagnetics and magnetic interfaces |
+| 244 | [Uniqueness of a hemispheric saddle profile on a magnetic sphere](problems/244-spherical-ferromagnet-profile-uniqueness.md) | 🔵 OPEN | Curved-film micromagnetics |
+| 307 | [Global classical continuation for a reversible mass-action reaction](problems/307-reversible-reaction-classical-continuation.md) | 🔵 OPEN | Chemical reaction–diffusion / continuum biology |
+| 327 | [Global classical continuation in the chemotaxis-consumption system](problems/327-chemotaxis-consumption-classical-continuation.md) | 🔵 OPEN | Mathematical biology / chemotaxis and cross-diffusion |
+| 352 | [The ball as the least densely packable convex solid](problems/352-ulam-convex-solid-packing.md) | 🔵 OPEN | Convex geometry and particle packing |
+| 353 | [Nonexistence of subcritical Lane–Emden equilibria in higher dimensions](problems/353-lane-emden-subcritical-system.md) | 🔵 OPEN | Nonlinear elliptic systems; reaction–diffusion |
+| 355 | [Competitive exclusion by the slowest diffuser in a multispecies habitat](problems/355-dockery-slowest-diffuser.md) | 🔵 OPEN | Spatial ecology; reaction–diffusion |
+| 371 | [Existence of elastic equilibria under quasiconvexity and infinite compression energy](problems/371-quasiconvex-physical-elastic-minimizers.md) | 🔵 OPEN | Nonlinear elasticity; variational equilibrium |
 | 376 | [Quantization of radial finite-time collapse in fully parabolic Keller–Segel](problems/376-keller-segel-collapse-quantization.md) | 🔵 OPEN | Chemotaxis; concentration of cell density |
 | 377 | [Global smoothness of the one-dimensional surface-growth equation](problems/377-surface-growth-global-regularity.md) | 🔵 OPEN | Epitaxial growth; fourth-order evolution equations |
 | 378 | [Global regularity for two-dimensional Kuramoto–Sivashinsky on arbitrary square tori](problems/378-two-dimensional-kuramoto-sivashinsky-global.md) | 🔵 OPEN | Combustion fronts; nonlinear pattern formation |
-| 379 | [The zero center-of-mass diffusion limit for kinetic FENE fluids](problems/379-fene-vanishing-center-of-mass-diffusion.md) | 🔵 OPEN | Polymer kinetics; singular diffusion limits |
 | 380 | [Global weak flow of three-dimensional nematic directors without a hemisphere restriction](problems/380-liquid-crystal-three-dimensional-weak.md) | 🔵 OPEN | Liquid crystals; coupled fluid and harmonic-map flow |
-| 381 | [Hard-sphere Boltzmann shock profiles at arbitrary Mach number](problems/381-boltzmann-arbitrary-mach-shocks.md) | 🔵 OPEN | Rarefied gas dynamics; kinetic shock layers |
 | 382 | [Uniqueness of strong-KPP equilibria on general unbounded domains](problems/382-strong-kpp-unbounded-uniqueness.md) | 🔵 OPEN | Reaction–diffusion; population equilibria |
 | 383 | [Extinction at the critical Dirichlet eigenvalue for strong-KPP reactions](problems/383-strong-kpp-critical-extinction.md) | 🔵 OPEN | Reaction–diffusion; critical habitat thresholds |
 | 384 | [Attainment of the three-dimensional neo-Hookean energy in the regular admissible class](problems/384-neo-hookean-critical-attainment.md) | 🔵 OPEN | Nonlinear elasticity; critical-growth energy minimization |
-| 385 | [Nonlinear Landau damping near a Maxwellian on the whole space](problems/385-maxwellian-whole-space-landau-damping.md) | 🔵 OPEN | Plasma kinetics; dispersive relaxation |
 | 386 | [Continuity of finite-cluster mass at the onset of Flory gelation](problems/386-flory-gelation-mass-continuity.md) | 🔵 OPEN | Coagulation equations; sol–gel phase transitions |
 | 387 | [Uniqueness of positive reaction–diffusion equilibria outside two obstacles](problems/387-reaction-two-obstacle-uniqueness.md) | 🔵 OPEN | Reaction–diffusion; populations in perforated habitats |
-| 446 | [Global smooth propagation for a laser envelope coupled to ionization](problems/446-ionization-laser-envelope-global-regularity.md) | 🔵 OPEN | Dispersive PDEs and nonlinear optics |
-| 447 | [Finite-time collapse in the planar self-steepening Schrödinger equation](problems/447-planar-self-steepening-finite-time-collapse.md) | 🔵 OPEN | Derivative dispersive PDEs and optical pulses |
 | 458 | [Bounded-Hessian Liouville rigidity in dimensions three and four](problems/458-fully-nonlinear-bounded-hessian-liouville.md) | 🔵 OPEN | Fully nonlinear elliptic PDEs; blow-up analysis |
 | 465 | [Higher regularity for concave stable nonlocal equations](problems/465-concave-nonlocal-higher-regularity.md) | 🔵 OPEN | Nonlinear diffusion PDEs; stochastic control |
 | 466 | [Uniqueness of positive harmonic profiles for singular stable operators in cones](problems/466-singular-stable-cone-positive-solution-uniqueness.md) | 🔵 OPEN | Nonlocal elliptic PDEs; free-boundary blow-up profiles |
