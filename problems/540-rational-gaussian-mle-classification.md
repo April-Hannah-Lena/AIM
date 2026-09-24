@@ -41,10 +41,10 @@ For a centered Gaussian model with concentration matrix $K$ and sample covarianc
 **Known cases:** Theorem 3.5 and Corollary 5.3 of [1] give a bijection between these solutions and projective varieties of Gaussian maximum-likelihood degree one:
 
 $$
-\Phi\longmapsto\mathbb P\!\left(\overline{\mathop{\mathrm{im}}\nolimits(-\nabla_S\Phi/\Phi)}\right),
+\Phi\longmapsto\mathbb P\!\left(\mathop{\mathrm{cl}}\nolimits_{\mathrm{Zar}}\bigl(\mathop{\mathrm{im}}\nolimits(-\nabla_S\Phi/\Phi)\bigr)\right),
 $$
 
-with Zariski closure. The associated estimator is $-\nabla_S\Phi/\Phi$.
+where $\mathop{\mathrm{cl}}\nolimits_{\mathrm{Zar}}$ denotes Zariski closure. The associated estimator is $-\nabla_S\Phi/\Phi$.
 
 Known solutions include $\Phi(S)=1/\det S$ for the unrestricted model and formulas for chordal undirected graphical models and directed acyclic graphical models. The paper also constructs nonlinear and colored examples. Linear concentration models have a further characterization through homaloidal determinant restrictions; later constructions in [2] supply additional families.
 

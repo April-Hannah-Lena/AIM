@@ -21,10 +21,10 @@ $$
 Construct $A(\pi,P)$ by placing an edge between $i,j$ exactly when $X_i$ and $X_j$ are conditionally dependent given $X_{D_\pi(i,j)}$. Orient it from the smaller to the larger vertex if comparable, and bidirect it otherwise. Let $\mathop{\mathrm{po}}\nolimits(H)$ be the partial order of directed ancestry, including equality, and define
 
 $$
-G_\pi=\overline{A\bigl(\mathop{\mathrm{po}}\nolimits(A(\pi,P)),P\bigr)}.
+G_\pi=\mathop{\mathrm{cl}}\nolimits_{\mathrm{ma}}\left(A\bigl(\mathop{\mathrm{po}}\nolimits(A(\pi,P)),P\bigr)\right).
 $$
 
-The bar denotes the maximal ancestral closure: add edges between pairs that cannot be $m$-separated, preserving the separation model and ancestral orientations. Thus both the second application of $A$ and the closure are part of the definition.
+The operator $\mathop{\mathrm{cl}}\nolimits_{\mathrm{ma}}$ denotes the maximal ancestral closure: add edges between pairs that cannot be $m$-separated, preserving the separation model and ancestral orientations. Thus both the second application of $A$ and the closure are part of the definition.
 
 Form a directed search graph with vertices the distinct graphs $G_\pi$. From $H$ allow a move to $G_{\mathop{\mathrm{po}}\nolimits(H')}$ whenever $H'$ comes from $H$ by changing one edge $i\to j$ to $i\leftrightarrow j$, or conversely, with $H'$ still a DMAG Markov equivalent to $H$. These are the legitimate mark changes.
 

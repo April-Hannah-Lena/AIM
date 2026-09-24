@@ -19,10 +19,10 @@ where $e(\varphi)=(D\varphi+D\varphi^T)/2$.
 Give explicit necessary and sufficient conditions on a tensor $C$ for membership in the finite-dimensional closure
 
 $$
-G_\theta(C_1,C_2)=\overline{\{C_\chi^{\mathrm{hom}}:\chi\text{ as above}\}}.
+G_\theta(C_1,C_2)=\mathop{\mathrm{cl}}\nolimits\{C_\chi^{\mathrm{hom}}:\chi\text{ as above}\}.
 $$
 
-The characterization must cover arbitrary microstructures and the full tensor, rather than one selected loading energy.
+Here $\mathop{\mathrm{cl}}\nolimits$ denotes closure in the finite-dimensional space of elasticity tensors, including limits of attainable effective tensors. The characterization must cover arbitrary microstructures and the full tensor, rather than one selected loading energy.
 
 ## Application
 
