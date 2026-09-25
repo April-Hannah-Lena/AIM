@@ -1,6 +1,8 @@
 # AIM — Open Applied Problems
 
-A sourced collection of precise mathematical research problems in spectral theory, operator theory, applied mathematics, and related fields. Each entry has a self-contained statement, a discussion of applications or mathematical significance, references, and a dated literature-status review. There are several motivations for starting this repository which have been formed after consultation with a wide number of mathematicians from different areas:
+A sourced collection of precise mathematical research problems in spectral theory, operator theory, applied mathematics, and related fields. Each entry has a self-contained statement, a discussion of applications or mathematical significance, references, and a dated literature-status review.
+
+After consultation with a wide number of mathematicians from different areas, there are several motivations for starting this repository (please do email the collaborators of this repo with further comments and suggestions):
 - We are a few weeks (if that) away from an AI company or hobbyists from looping over our literature and solving many of our precise conjectures, without much understanding. We would like our community to solve them first and digest the consequences. This also creates a more protected environment where ECRs can (and should) gain credit for human digestion of proofs.
 - Many precise conjectures can now be solved by the best AI models on the market. We are mourning just like you are.
 - It seems wise to collect the solutions in one place because they are coming in fast.
@@ -9,7 +11,7 @@ If one of your favourite open problems is solved here, we strongly encourage you
 
 https://mathematics-explained.com
 
-to collect human digestion, explanation and extension of proofs from this repo. Please email the collaborators of this repo for any comments and suggestions.
+to collect human digestion, explanation and extension of proofs from this repo.
 
 
 
