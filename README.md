@@ -1,6 +1,15 @@
 # AIM — Open Applied Problems
 
-A sourced collection of precise mathematical research problems in spectral theory, operator theory, applied mathematics, and related fields. Each entry has a self-contained statement, a discussion of applications or mathematical significance, references, and a dated literature-status review.
+A sourced collection of precise mathematical research problems in spectral theory, operator theory, applied mathematics, and related fields. Each entry has a self-contained statement, a discussion of applications or mathematical significance, references, and a dated literature-status review. There are several motivations for starting this repository which have been formed after consultation with a wide number of mathematicians from different areas:
+- We are a few weeks (if that) away from an AI company or hobbyists from looping over our literature and solving many of our precise conjectures, without much understanding. We would like our community to solve them first and digest the consequences. This also creates an environment where ECRs can (and should) gain credit for human digestion of proofs in a protected environment.
+- Many precise conjectures can now be solved by the best AI models on the market. We are mourning just like you are.
+- It seems wise to collect the solutions in one place because they are coming in fast.
+If one of your favourite open problems is solved here, we strongly encourage you to improve the proof, write about it, and publish it. We only have three hopes: (1) You will reference this GitHub repository as a proof source (see below), (2) Add your preprint to the repository, and (3) Update any information about the problem in the repository. We have set up a website 
+mathematics-explained.com
+to collect human digestion, explanation and extension of proofs from this repo.
+
+
+
 
 **665 open targets** (548 open, 117 partial) · **0 solved entries** · **0 Lean verified** · **0 solution claims**. Counts reflect the statuses recorded in this collection.
 
