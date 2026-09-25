@@ -7,11 +7,13 @@ After consultation with a wide number of mathematicians from different areas, th
 - Many precise conjectures can now be solved by the best AI models on the market. We are mourning just like you are.
 - It seems wise to collect the solutions in one place because they are coming in fast.
 
-If one of your favourite open problems is solved here, we strongly encourage you to improve the proof, write about it, and publish it. We only have three hopes: (1) You will reference this GitHub repository as a proof source (see below), (2) Add your preprint to the repository, and (3) Update any information about the problem in the repository. We have set up a website
+We have set up a website
 
 https://mathematics-explained.com
 
 to collect human digestion, explanation and extension of proofs from this repo.
+
+If one of your favourite open problems is solved here, we strongly encourage you to improve the proof, write about it, and publish it. We only have three hopes: (1) You will reference this GitHub repository as a proof source (see below), (2) Add your preprint to the repository, and (3) Update any information about the problem in the repository. 
 
 
 
