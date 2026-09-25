@@ -4,7 +4,7 @@ A sourced collection of precise mathematical research problems in spectral theor
 
 After consultation with a wide number of mathematicians from different areas, there are several motivations for starting this repository (please do email the collaborators of this repo with further comments and suggestions):
 - We are a few weeks (if that) away from an AI company or hobbyists from looping over our literature and solving many of our precise conjectures, without much understanding. We would like our community to solve them first and digest the consequences. This also creates a more protected environment where ECRs can (and should) gain credit for human digestion of proofs.
-- Many precise conjectures can now be solved by the best AI models on the market. We are mourning just like you are.
+- Many conjectures can now be solved by the best AI models on the market. We are mourning just like you are.
 - It seems wise to collect the solutions in one place because they are coming in fast.
 
 We have set up a website
