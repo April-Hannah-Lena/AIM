@@ -83,7 +83,7 @@ If you use this collection, please cite:
 
 ```bibtex
 @misc{aim2026openproblems,
-  author = {{Colbrook, Matthew J., George Stepaniants, and Alex Townsend}},
+  author = {{Brunton, Steve, Matthew J. Colbrook, Maarten V. de Hoop, George Stepaniants, Alex Townsend, and Rachel Ward}},
   title  = {{AIM — Open Applied Problems}},
   year   = {2026},
   url    = {https://github.com/MColbrook/AIM},
