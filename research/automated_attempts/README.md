@@ -45,7 +45,7 @@ Before requesting volunteer human review, prepare a compact review packet linked
 5. Reproduction commands, pinned source or artifact revisions, and the logs or certificates needed for any computational component.
 6. A specific, bounded requested task, with an estimated effort where possible, such as checking one lemma or reproducing one certificate.
 
-Review is voluntary. Agree the requested scope with the reviewer; do not treat silence or an unfinished review as acceptance. Obtain consent before naming a reviewer publicly, and record the agreed review scope and contribution. See [CONTRIBUTING.md](../../CONTRIBUTING.md) for the public contribution and credit policy. Preparing a packet does not authorize unsolicited messages to potential reviewers.
+Review is voluntary. Agree the requested scope with the reviewer; do not treat silence or an unfinished review as acceptance. Obtain consent before naming a reviewer publicly, and record the agreed review scope and contribution. See the [volunteer review guidance](../../CONTRIBUTING.md#volunteer-review). Preparing a packet does not authorize unsolicited messages to potential reviewers.
 
 ## Campaigns and fair selection
 

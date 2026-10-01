@@ -2,13 +2,16 @@
 
 A sourced collection of precise mathematical research problems in spectral theory, operator theory, applied mathematics, and related fields. Each entry has a self-contained statement, a discussion of applications or mathematical significance, references, and a dated literature-status review.
 
-This collection supports mathematical discovery and understanding. We value new proofs and counterexamples, careful checking, explanation, applications, extensions, and the questions that guide research. We aim to credit each contribution and the prior work on which it builds.
+After discussions with mathematicians from different areas, we started this collection with several motivations:
 
-AI is changing mathematical work, and people may feel excitement, loss, uncertainty, or a mixture of these. Contributions made with or without AI are welcome, at every career stage and from outside academia. There is no expectation that contributors use AI or match the pace of automated output.
+- AI tools are increasingly being used to search the literature and tackle conjectures. We would like our community to help shape this work, solve problems and understand their consequences.
+- These changes can bring excitement, uncertainty or a sense of loss. We hope this project will create opportunities for mathematicians, especially early-career researchers, to gain recognition for understanding, explaining, improving and extending proofs.
+- We want to explore where applications, conceptual insight and asking the right questions fit into mathematical research.
+- We want to collect proposed proofs and established solutions in one place, making them easier to find, check and build on.
 
-Our [contribution credit](CONTRIBUTING.md#crediting-contributions) and [support policies](CONTRIBUTING.md#support-and-private-concerns) describe practical support for contributors, including early-career researchers: a private contact for credit concerns and voluntary collaboration or mentoring.
+Contributions made with or without AI are welcome.
 
-**AIM explanation website — coming soon.** We are preparing a companion website for explanations, context, applications and extensions of work in this collection. The planned address is `mathematics-explained.com`; submission and review details will follow.
+**AIM explanation website — coming soon.** We are preparing a companion website to collect human explanations, context, applications and extensions of work in this collection, with credit to the authors of these contributions and their sources. The planned address is `mathematics-explained.com`; further details will follow.
 
 If a problem here is resolved, we encourage you to improve the proof, explain its ideas, explore its applications, and publish your work. Cite the actual proof and its authors, and cite AIM where you use its curation or research. You are welcome to share your preprint and corrections with the repository so that others can find and build on your contribution.
 
@@ -84,4 +87,4 @@ If you use this collection, please cite:
 }
 ```
 
-Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff). Include your access date or the commit used when referring to a particular version. For an individual problem, give its ID and the repository commit and cite the original sources listed in the entry as well. When using a solution or explanation, cite its authors and the specific source and revision. The collection citation does not replace credit for individual contributions; see [Crediting contributions](CONTRIBUTING.md#crediting-contributions).
+Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff). Include your access date or the commit used when referring to a particular version. For an individual problem, give its ID and the repository commit and cite the original sources listed in the entry as well. When using a solution or explanation, cite its authors and the specific source and revision.
