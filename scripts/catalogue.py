@@ -195,7 +195,7 @@ def render_readme(entries, manifest):
         "- We want to explore where applications, conceptual insight and asking the right questions fit into mathematical research.",
         "- We want to collect proposed proofs and established solutions in one place, making them easier to find, check and build on.", "",
         "Contributions made with or without AI are welcome.", "",
-        "**AIM explanation website — coming soon.** We are preparing a companion website to collect human explanations, context, applications and extensions of work in this collection, with credit to the authors of these contributions and their sources. The planned address is `mathematics-explained.com`; further details will follow.", "",
+        "**[AIM, explained](https://mathematics-explained.com/)** is our companion website for explanations of the problems, known results, proofs and applications in this collection. Papers and videos are welcome; you do not need to solve a problem to contribute. The aim is to improve human understanding, with credit to explanation authors and their sources.", "",
         "If a problem here is resolved, we encourage you to improve the proof, explain its ideas, explore its applications, and publish your work. Cite the actual proof and its authors, and cite AIM where you use its curation or research. You are welcome to share your preprint and corrections with the repository so that others can find and build on your contribution.", "",
         summary + ". Counts reflect the statuses recorded in this collection.", "",
         f"**[Browse all {len(entries)} open targets →](CATALOG.md)** · **[Solved and claimed solutions →](RESOLVED.md)**", "",
