@@ -2,22 +2,15 @@
 
 A sourced collection of precise mathematical research problems in spectral theory, operator theory, applied mathematics, and related fields. Each entry has a self-contained statement, a discussion of applications or mathematical significance, references, and a dated literature-status review.
 
-After consultation with a wide number of mathematicians from different areas, there are several motivations for starting this repository (please do email the collaborators of this repo with further comments and suggestions):
-- We are a few weeks (if that) away from an AI company or hobbyists from looping over our literature and solving many of our precise conjectures, without much understanding. We would like our community to solve them first and digest the consequences. This also creates a more protected environment where ECRs can (and should) gain credit for human digestion of proofs.
-- Many conjectures can now be solved by the best AI models on the market. We are mourning just like you are.
-- We hope this can be a space to explore how applications and asking the right questions fit into the mix.
-- It seems wise to collect the solutions in one place because they are coming in fast.
+This collection supports mathematical discovery and understanding. We value new proofs and counterexamples, careful checking, explanation, applications, extensions, and the questions that guide research. We aim to credit each contribution and the prior work on which it builds.
 
-We have set up a website
+AI is changing mathematical work, and people may feel excitement, loss, uncertainty, or a mixture of these. Contributions made with or without AI are welcome, at every career stage and from outside academia. There is no expectation that contributors use AI or match the pace of automated output.
 
-https://mathematics-explained.com
+Our [contribution credit](CONTRIBUTING.md#crediting-contributions) and [support policies](CONTRIBUTING.md#support-and-private-concerns) describe practical support for contributors, including early-career researchers: a private contact for credit concerns and voluntary collaboration or mentoring.
 
-to collect human digestion, explanation and extension of proofs from this repo.
+**AIM explanation website — coming soon.** We are preparing a companion website for explanations, context, applications and extensions of work in this collection. The planned address is `mathematics-explained.com`; submission and review details will follow.
 
-If one of your favourite open problems is solved here, we strongly encourage you to improve the proof, write about it, and publish it. We only have three hopes: (1) You will reference this GitHub repository as a proof source (see below), (2) Add your preprint to the repository, and (3) Update any information about the problem in the repository. 
-
-
-
+If a problem here is resolved, we encourage you to improve the proof, explain its ideas, explore its applications, and publish your work. Cite the actual proof and its authors, and cite AIM where you use its curation or research. You are welcome to share your preprint and corrections with the repository so that others can find and build on your contribution.
 
 **665 open targets** (548 open, 117 partial) · **0 solved entries** · **0 Lean verified** · **0 solution claims**. Counts reflect the statuses recorded in this collection.
 
@@ -83,7 +76,7 @@ If you use this collection, please cite:
 
 ```bibtex
 @misc{aim2026openproblems,
-  author = {{Brunton, Steve, Matthew J. Colbrook, Maarten V. de Hoop, George Stepaniants, Alex Townsend, and Rachel Ward}},
+  author = {Brunton, Steve and Colbrook, Matthew J. and de Hoop, Maarten V. and Stepaniants, George and Townsend, Alex and Ward, Rachel},
   title  = {{AIM — Open Applied Problems}},
   year   = {2026},
   url    = {https://github.com/MColbrook/AIM},
@@ -91,4 +84,4 @@ If you use this collection, please cite:
 }
 ```
 
-Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff). Include your access date or the commit used when referring to a particular version. For an individual problem, give its ID and the repository commit and cite the original sources listed in the entry as well. When using a solution, also cite its authors and the proof source linked from the status record.
+Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff). Include your access date or the commit used when referring to a particular version. For an individual problem, give its ID and the repository commit and cite the original sources listed in the entry as well. When using a solution or explanation, cite its authors and the specific source and revision. The collection citation does not replace credit for individual contributions; see [Crediting contributions](CONTRIBUTING.md#crediting-contributions).

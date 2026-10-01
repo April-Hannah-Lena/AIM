@@ -34,6 +34,19 @@ Keep canonical identifiers as strings. New senior reviews use UTC names `YYYY-MM
 
 An apparent complete solution changes `phase` to `verification` and requires `CANDIDATE_PROOF.md`: reconstruct the proof coherently and enumerate every dependency. Direct subsequent Sol runs to adversarial checking. Use `solved_candidate_verified` only after at least TWO separate Astra senior-review invocations whose principal purpose was verification survive without an unresolved critical gap. Subagents within one invocation are not separate senior-review runs. Computer-assisted proofs require an explicit finite mathematical reduction, rigorous exact/interval certification, and reproducible artifacts. A diagnostic lemma or a special case does not enter full-problem verification.
 
+## Preparing a request for human review
+
+Before requesting volunteer human review, prepare a compact review packet linked from the current status summary. Include:
+
+1. The precise proposed theorem, its hypotheses and conclusion, and how its scope compares with the catalogue target.
+2. The claimed new contribution, relevant prior work and its attribution, and any rediscovered results.
+3. An argument map identifying the main steps and dependencies, with links to the full argument.
+4. All known gaps, conditional assumptions and outstanding checks, and what has actually been checked so far.
+5. Reproduction commands, pinned source or artifact revisions, and the logs or certificates needed for any computational component.
+6. A specific, bounded requested task, with an estimated effort where possible, such as checking one lemma or reproducing one certificate.
+
+Review is voluntary. Agree the requested scope with the reviewer; do not treat silence or an unfinished review as acceptance. Obtain consent before naming a reviewer publicly, and record the agreed review scope and contribution. See [CONTRIBUTING.md](../../CONTRIBUTING.md) for the public contribution and credit policy. Preparing a packet does not authorize unsolicited messages to potential reviewers.
+
 ## Campaigns and fair selection
 
 A campaign normally receives roughly sixteen Sol attempts and four Astra reviews, with evidence-based extension or early reassessment. Extend concrete promising work or candidate verification. After a substantial unproductive campaign, record `deferred_after_campaign`, preserve the strongest result and remaining gap, and choose a successor from the CURRENT synchronized queue. New arrivals do not automatically end a campaign.

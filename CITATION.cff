@@ -1,16 +1,38 @@
 cff-version: 1.2.0
-message: "If you use this collection, please cite it as below. Include the access date or commit used, and cite individual problems and proof sources separately."
+message: "If you use this collection, please cite it as below. Include the access date or commit used, and cite the authors and sources of individual problems, proofs and explanations separately."
 type: dataset
 title: "AIM — Open Applied Problems"
 authors:
-  - name: "AIM contributors"
+  - family-names: "Brunton"
+    given-names: "Steve"
+  - family-names: "Colbrook"
+    given-names: "Matthew J."
+  - family-names: "de Hoop"
+    given-names: "Maarten V."
+  - family-names: "Stepaniants"
+    given-names: "George"
+  - family-names: "Townsend"
+    given-names: "Alex"
+  - family-names: "Ward"
+    given-names: "Rachel"
 url: "https://github.com/MColbrook/AIM"
 repository-code: "https://github.com/MColbrook/AIM"
 preferred-citation:
   type: generic
   title: "AIM — Open Applied Problems"
   authors:
-    - name: "AIM contributors"
+    - family-names: "Brunton"
+      given-names: "Steve"
+    - family-names: "Colbrook"
+      given-names: "Matthew J."
+    - family-names: "de Hoop"
+      given-names: "Maarten V."
+    - family-names: "Stepaniants"
+      given-names: "George"
+    - family-names: "Townsend"
+      given-names: "Alex"
+    - family-names: "Ward"
+      given-names: "Rachel"
   year: 2026
   url: "https://github.com/MColbrook/AIM"
   notes: "GitHub repository"

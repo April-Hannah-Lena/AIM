@@ -2,6 +2,28 @@
 
 This collection contains distinct, precise research problems with an applied motivation and a traceable literature status. [README.md](README.md) provides the overview, [CATALOG.md](CATALOG.md) lists open targets, and [RESOLVED.md](RESOLVED.md) lists solved, claimed, and otherwise retired entries. Corrections to an existing statement or its status are especially useful. Further additions exclude numerical linear algebra; the surviving original problems, now numbered 001–292, and their review dates are preserved unless separately reviewed.
 
+Contributions made with or without AI are welcome. Please read the guidance on [credit](#crediting-contributions), [support and private concerns](#support-and-private-concerns), and [volunteer review](#volunteer-review) alongside the mathematical requirements below.
+
+## Crediting contributions
+
+Cite the original question and relevant prior results, and describe what each new contribution adds. Recognize proof discovery, exposition and simplification, finding gaps, checking arguments, formalization, extensions, and useful negative attempts. These are substantive parts of mathematical research, and the contribution record should distinguish them.
+
+Include a short account of contributors and their roles with a submission. Agree public names and role descriptions with the people concerned, including permission before naming a reviewer. Repository curation, a proof, and an explanation may have different contributors; credit each accordingly. Authorship and academic recognition depend on the work and the relevant publication or institution; AIM cannot guarantee them.
+
+Disclose any AI tools used, the model or version where known, and what they contributed. Acknowledge tools separately from human authors. Contributors remain responsible for the claims they submit. Treat people who use AI and people who choose not to use it with the same respect.
+
+## Support and private concerns
+
+For a private concern about attribution, an entry, or its effect on your research, contact [Matthew Colbrook](mailto:mjc249@cam.ac.uk). Explain the relevant problem or contribution and the outcome you would find helpful; you need not post unpublished work in a public issue. Maintainers will discuss proposed handling with you and share details only as needed with your agreement. Possible responses include clarifying contribution records, correcting credit, or discussing a collaboration.
+
+Early-career researchers and other contributors may also ask for help finding a willing mentor or collaborator. Participation is voluntary, and availability, authorship arrangements, and academic credit cannot be promised.
+
+## Volunteer review
+
+When requesting review, provide a short review packet: the exact target and how the argument matches it, a link to a fixed version of the argument, a map of the main steps and dependencies, what is new relative to prior results, known gaps or uncertainties, relevant reproduction commands and verification evidence, and a specific question for the reviewer. Propose a bounded task, such as checking one reduction or comparing a theorem's hypotheses, and agree any expected time commitment with a willing reviewer. Submitters are responsible for preparing this packet; volunteers are not expected to reconstruct an argument from a stream of automated output.
+
+Review is voluntary. People may decline a request, limit its scope, or stop without needing to justify their decision. Obtain permission before naming them, and describe only the review they actually performed. An acknowledgement of a limited check must not imply endorsement of the whole argument. The [status and evidence rules](#status-and-evidence) continue to govern mathematical labels.
+
 ## Adding or revising a problem
 
 1. Identify a source that explicitly poses the problem or clearly states that the requested case is unresolved. Prefer the author's paper, a scholarly monograph, a research survey, or an expert-maintained problem list.
