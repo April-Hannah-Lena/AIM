@@ -1,0 +1,22 @@
+Numerical verification environment, 1 October 2026
+
+Python 3.12.14
+NumPy 2.3.5
+SciPy 1.18.1
+Platform: Windows, 64-bit
+
+The pinned dependencies require Python 3.12 or newer (SciPy 1.18.1 requires
+Python >=3.12; NumPy 2.3.5 requires Python >=3.11).
+
+Run from the directory containing check_steklov.py:
+
+    python -m pip install -r requirements.txt
+    python check_steklov.py --order 256 --samples 8192 --output results_order256.csv
+    python check_steklov.py --order 384 --samples 16384 --output results_order384.csv
+
+Both runs use the default epsilon = 0.01. Their console diagnostics are saved
+as numerical_check.txt and numerical_check_order384.txt, respectively.
+
+These are non-certified finite cosine-Galerkin approximations. Library and
+platform changes can alter the final floating-point digits. The calculations
+do not establish continuum error bounds or prove the infinite-series theorem.

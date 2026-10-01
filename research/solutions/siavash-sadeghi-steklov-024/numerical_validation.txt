@@ -1,0 +1,66 @@
+Numerical validation record, 1 October 2026
+
+Both documented command-line runs completed successfully. The numerical
+implementation was not changed. The CSV files and their console logs were
+regenerated in the environment recorded in ENVIRONMENT.txt.
+
+Checks of the original supplied data
+-----------------------------------
+Order 256, 8192 samples: 257 sequential rows, with a zero eigenvalue followed
+by strictly increasing positive eigenvalues. The maximum difference from the
+supplied CSV was 1.42109e-13 in an eigenvalue and 3.38271e-17 in an absolute
+center value.
+
+Order 384, 16384 samples: 385 sequential rows, with a zero eigenvalue followed
+by strictly increasing positive eigenvalues. The maximum difference from the
+supplied CSV was 2.55795e-13 in an eigenvalue and 5.65954e-17 in an absolute
+center value.
+
+For both original CSVs, the index sequence and the computed logarithmic-ratio
+column were consistent; the zero-eigenvalue ratio is intentionally NaN.
+The four manuscript table rows agree with the recomputed order-256 values at
+every printed digit.
+
+Matrix diagnostics
+------------------
+                          order 256       order 384
+Weighted orthogonality    3.07419e-14      4.24361e-14
+Relative residual         1.18812e-14      1.73121e-14
+
+Here weighted orthogonality is ||V^T W V - I||_infinity, and the relative
+residual is ||D V - W V diag(sigma)||_infinity / max(1, max(sigma)), as in
+the program. These are finite matrix diagnostics, not continuum error bounds.
+
+Independent implementation checks
+---------------------------------
+At order 12 with 1024 samples, a separately constructed cosine basis and
+direct sampled weighted inner products agreed with the FFT-based generalized
+eigenproblem to 5.32907e-15 in eigenvalues. Absolute center values agreed to
+relative tolerance 1e-10 and absolute tolerance 1e-14.
+
+The constant eigenfunction has center magnitude 0.3989367365320033, agreeing
+with 1/sqrt(boundary length), where the sampled length was 6.283359938381909.
+This checks conversion to physical Euclidean boundary norm one.
+
+With epsilon = 1e-14, order 12 and 1024 samples, the eigenvalues approached
+the disk values 0,...,12 with maximum error 8.88178e-15; all positive-mode
+center magnitudes were at most 2.07675e-15.
+
+Six invalid-input cases were rejected: order zero; too few samples; an odd
+sample count; epsilon zero; epsilon above 0.01; and NaN epsilon.
+
+Resolution comparison and limitations
+-------------------------------------
+At the manuscript's indices 32, 64, 128 and 192, the relative changes in center
+magnitude between the two orders were approximately 4.72e-14, 1.05e-11,
+8.42e-9 and 4.81e-6. At index 192 the eigenvalue changed by 1.59e-8.
+
+Values near the truncation edge are less stable: at index 256 the order-256
+eigenvalue differs from the order-384 value by about 1.79323, and its center
+magnitude differs by about 164 percent. The full CSVs therefore should not
+be interpreted as uniformly resolved continuum data.
+
+All of these computations use finite truncations of q and floating-point
+arithmetic. No certified enclosure or continuum convergence rate is supplied.
+The infinite-dimensional result depends on the exact proof and full infinite
+series, independently of this numerical supplement.

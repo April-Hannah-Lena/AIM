@@ -1,0 +1,330 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,mathtools,microtype}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={A smooth strictly convex counterexample to exponential interior decay of Steklov eigenfunctions},pdfauthor={Siavash Sadeghi (contributor and submitter); AI-generated research draft},pdfsubject={Proposed resolution of AIM Problem 024; not externally reviewed}}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Steklov interior decay}
+\fancyhead[R]{\small Research proof draft}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+\setlength{\parskip}{4pt}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\D}{\mathbb D}
+\newcommand{\T}{\mathbb T}
+\newcommand{\Hh}{\mathcal H}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\ip}[2]{\langle #1,#2\rangle_a}
+\newcommand{\an}{\widehat a}
+\DeclareMathOperator{\Rea}{Re}
+\title{A smooth strictly convex counterexample to exponential interior decay of Steklov eigenfunctions}
+\author{Siavash Sadeghi\\{\small Contributor and submitter; AI-generated research draft}}
+\date{1 October 2026}
+\begin{document}
+\maketitle
+\begin{center}
+\small\textbf{Review status:} This is a proposed research resolution, not an externally reviewed or published result. The argument is presented in full for mathematical checking. Review by Codex and a separate AI reviewer is recorded in the accompanying report; no human or formal proof review is claimed.
+\end{center}
+\begin{abstract}
+We give an explicit bounded, simply connected planar domain with smooth strictly convex boundary on which uniform exponential interior decay of boundary-normalized Steklov eigenfunctions fails. At a fixed interior point, the squared eigenfunction values have no finite positive exponential spectral moment. The construction uses a conformal map with reciprocal boundary speed having nonnegative, subexponentially decaying Fourier coefficients. Positivity supplies lower bounds on all spectral moments, avoiding perturbative estimates of individual eigenfunctions. The result addresses the precise universal statement in Problem 024 of the AIM repository at the revision pinned in the references. All eigenfunctions and the domain in the proof are exact; finite-dimensional numerics are only supplementary.
+\end{abstract}
+
+\section{Statement and context}
+The target in \cite{catalog} asks whether every bounded connected smooth planar domain satisfies
+\begin{equation}\label{eq:target}
+ \sup_{x\in K}|u_j(x)|\leq C_K e^{-c_K\sigma_j}
+\end{equation}
+for every compact $K\Subset\Omega$, uniformly over eigenfunctions satisfying
+\[
+ \Delta u_j=0\text{ in }\Omega,\qquad
+ \partial_\nu u_j=\sigma_j u_j\text{ on }\partial\Omega,\qquad
+ \int_{\partial\Omega}|u_j|^2\,ds=1.
+\]
+The smooth-versus-analytic decay question also appears as Open Question 10.4 in \cite{survey}. Exponential decay in the real-analytic setting is established in \cite{GT}. The construction below disproves \eqref{eq:target} in the stated smooth Euclidean class.
+
+\begin{theorem}\label{thm:main}
+Let
+\begin{equation}\label{eq:qF}
+ \eps=\frac1{100},\qquad
+ q(z)=1+\eps\sum_{n=1}^{\infty}e^{-\sqrt n}z^n,\qquad
+ F(z)=\int_0^z q(\zeta)^{-2}\,d\zeta,
+ \qquad \Omega=F(\D).
+\end{equation}
+Then $\Omega$ is a bounded simply connected domain with $C^\infty$ strictly convex boundary and $0\in\Omega$. For any complete orthonormal basis of real Steklov boundary eigenfunctions, with harmonic extensions $u_j$ and eigenvalues $\sigma_j$, one has
+\begin{equation}\label{eq:expdiv}
+ \sum_{j=0}^{\infty} e^{t\sigma_j}|u_j(0)|^2=+\infty
+ \qquad\text{for every }t>0.
+\end{equation}
+In particular there is a subsequence $j_k$ such that $\sigma_{j_k}\geq k^2$ and
+\begin{equation}\label{eq:subsequence}
+ |u_{j_k}(0)|>e^{-\sigma_{j_k}/k}.
+\end{equation}
+Consequently, for every $c>0$,
+\[
+ e^{c\sigma_{j_k}}|u_{j_k}(0)|\longrightarrow+\infty.
+\]
+Thus \eqref{eq:target} fails already for $K=\{0\}$, and also for any compact subset of $\Omega$ containing $0$.
+\end{theorem}
+
+\section{The domain is an admissible Euclidean domain}
+For every nonnegative integer $r$, the series $\sum_{n\geq1}n^r e^{-\sqrt n}$ converges. Therefore $q$ is holomorphic in $\D$ and smooth on $\overline\D$. Since $x\mapsto e^{-\sqrt x}$ decreases,
+\[
+ \sum_{n=1}^{\infty}e^{-\sqrt n}
+ \leq\int_0^\infty e^{-\sqrt x}\,dx=2.
+\]
+It follows that
+\begin{equation}\label{eq:qbound}
+ |q(z)-1|\leq\frac1{50},\qquad
+ \frac{49}{50}\leq|q(z)|\leq\frac{51}{50}
+ \quad(z\in\overline\D).
+\end{equation}
+In particular $q$ has no zeros, and $F$ in \eqref{eq:qF} is a well-defined holomorphic primitive, smooth on the closed disk. Moreover,
+\begin{equation}\label{eq:derivbound}
+ |F'(z)-1|=|q(z)^{-2}-1|
+ \leq\frac{(1/50)(2+1/50)}{(1-1/50)^2}
+ =\frac{101}{2401}=:\eta<\frac1{20}.
+\end{equation}
+Integrating $F'-1$ along the line segment joining $z,w\in\overline\D$ gives
+\[
+ |F(z)-F(w)-(z-w)|\leq\eta|z-w|.
+\]
+Thus $|F(z)-F(w)|\geq(1-\eta)|z-w|$, so $F$ is injective on the closed disk. The curve $F(e^{i\theta})$ is a smooth embedded closed curve with nonzero derivative. It bounds the bounded simply connected domain $F(\D)$.
+
+For completeness, the example is strictly convex. On each interval $[n-1,n]$,
+$n e^{-\sqrt n}\leq (x+1)e^{-\sqrt x}$. Hence
+\[
+ \sum_{n=1}^\infty n e^{-\sqrt n}
+ \leq\int_0^\infty(x+1)e^{-\sqrt x}\,dx=14,
+ \qquad \|q'\|_\infty\leq\frac7{50}.
+\]
+Since $F''/F'=-2q'/q$, \eqref{eq:qbound} gives
+\begin{equation}\label{eq:convex}
+ \Rea\left(1+\frac{zF''(z)}{F'(z)}\right)
+ \geq 1-\frac{2(7/50)}{49/50}=\frac57>0.
+\end{equation}
+For $z=e^{i\theta}$, the left side is the rate of change of the tangent angle of the embedded boundary curve. Its curvature is this quantity divided by $|F'(e^{i\theta})|$, so the curvature is strictly positive. Thus the domain is strictly convex.
+
+Also, $F(0)=0$ and $|F(e^{i\theta})|\geq1-\eta>1/2$. Since $0\in\Omega$, the disk $\overline{B(0,1/2)}$ is contained in $\Omega$. This gives a compact set with nonempty interior on which the proposed estimate fails.
+
+\section{Exact conformal reduction and normalization}
+Use the Fourier convention
+\[
+ \widehat h(n)=\frac1{2\pi}\int_0^{2\pi}h(\theta)e^{-in\theta}\,d\theta,
+ \qquad \Lambda e^{in\theta}=|n|e^{in\theta}.
+\]
+The disk Dirichlet-to-Neumann operator is $\Lambda$. Its eigenvalues, counted with multiplicity, are $0,1,1,2,2,\ldots$. The conformal reduction used below is standard; see \cite{MS}. We include the calculation to fix the reciprocal weight and the normalization.
+
+Define
+\begin{equation}\label{eq:a}
+ a(\theta)=\frac1{|F'(e^{i\theta})|}=|q(e^{i\theta})|^2,
+ \qquad
+ \Hh_a=L^2\left(\T,\frac{d\theta}{a(\theta)}\right),
+ \qquad A=a\Lambda.
+\end{equation}
+For a harmonic $u$ on $\Omega$, let $v=u\circ F$ and $\varphi=v|_{\T}$. Harmonicity is preserved by the conformal map, and at the boundary
+\[
+ \partial_r v=|F'|(\partial_\nu u)\circ F.
+\]
+Therefore $\partial_\nu u=\sigma u$ is equivalent to
+\[
+ \Lambda\varphi=\sigma a^{-1}\varphi,
+ \qquad A\varphi=\sigma\varphi.
+\]
+The boundary length element is $ds=|F'|d\theta=a^{-1}d\theta$, so
+\begin{equation}\label{eq:norm}
+ \|u\|_{L^2(\partial\Omega)}=\|\varphi\|_{\Hh_a}.
+\end{equation}
+There is no variable boundary density in the final problem: the weight is precisely ordinary Euclidean arc length after pullback.
+
+The operator $A$ is nonnegative and self-adjoint in $\Hh_a$. One way to see this is through its closed quadratic form
+\[
+ \mathfrak q(\varphi,\psi)=\int_0^{2\pi}(\Lambda^{1/2}\varphi)
+ \overline{\Lambda^{1/2}\psi}\,d\theta,
+ \qquad \operatorname{Dom}\mathfrak q=H^{1/2}(\T).
+\]
+The form norm is equivalent to the $H^{1/2}$ norm because $a$ is bounded above and below by positive constants. The associated operator is $a\Lambda$, with domain $H^1(\T)$, and has compact resolvent by the compact embedding $H^{1/2}(\T)\hookrightarrow L^2(\T)$. Thus it has a complete orthonormal eigenbasis $\varphi_j$. Its eigenfunctions are smooth: the equation $\Lambda\varphi_j=\sigma_j a^{-1}\varphi_j$ and Fourier Sobolev estimates bootstrap regularity one derivative at a time.
+
+Order the eigenvalues nondecreasingly, counted with multiplicity. With $\sigma_0=0$, min--max comparison with $\Lambda$ yields
+\begin{equation}\label{eq:growth}
+ \sigma_j\geq (\min a)\left\lceil\frac j2\right\rceil
+ \geq\left(\frac{49}{50}\right)^2\frac j2
+ \quad(j\geq1).
+\end{equation}
+Indeed the Rayleigh quotient is
+\[
+ \frac{\int\overline\varphi\Lambda\varphi\,d\theta}
+      {\int|\varphi|^2a^{-1}\,d\theta}
+ \geq (\min a)
+ \frac{\int\overline\varphi\Lambda\varphi\,d\theta}
+      {\int|\varphi|^2\,d\theta}.
+\]
+In particular, $\sum_j e^{-s\sigma_j}<\infty$ for every $s>0$.
+
+Choose the eigenbasis real. The mean-value identity in the disk gives
+\begin{equation}\label{eq:eval}
+ c_j:=\ip{a}{\varphi_j}
+ =\int_0^{2\pi}\varphi_j(\theta)\,d\theta
+ =2\pi u_j(0).
+\end{equation}
+Thus the vector representing evaluation at the conformal center is $a/(2\pi)$, not the constant function in the weighted Hilbert space.
+
+\section{Fourier positivity forces divergent spectral moments}
+Write $q(z)=\sum_{n\geq0}b_n z^n$, where $b_0=1$ and $b_n=\eps e^{-\sqrt n}$ for $n\geq1$. By \eqref{eq:a},
+\begin{equation}\label{eq:apos}
+ \an(n)=\sum_{k=0}^\infty b_{k+n}b_k\quad(n\geq0),
+ \qquad \an(-n)=\an(n).
+\end{equation}
+Consequently
+\begin{equation}\label{eq:tail}
+ \an(n)\geq0\ (n\in\mathbb Z),\qquad
+ \an(0)\geq1,\qquad
+ \an(n)\geq\eps e^{-\sqrt n}\ (n\geq1).
+\end{equation}
+Every Fourier convolution involving a fixed finite power of $A$ converges absolutely, since its factors are smooth. The later exponential series are allowed to be infinite.
+
+\begin{lemma}\label{lem:positive}
+Let $a>0$ be smooth, with all $\an(n)\geq0$ and $\an(0)\geq1$, and put $A=a\Lambda$ on $\Hh_a$. For every integer $m\geq1$,
+\begin{equation}\label{eq:momentlower}
+ \ip{a}{A^m a}\geq
+ 2\pi\sum_{n\ne0}|n|^m\an(n)^2.
+\end{equation}
+\end{lemma}
+\begin{proof}
+For any smooth $h$ with nonnegative Fourier coefficients,
+\[
+ \widehat{Ah}(n)=\sum_{k\in\mathbb Z}\an(n-k)|k|\widehat h(k)\geq0.
+\]
+Retaining the term $k=n$ gives
+$\widehat{Ah}(n)\geq\an(0)|n|\widehat h(n)\geq|n|\widehat h(n)$.
+Starting from $h=a$, induction shows
+\begin{equation}\label{eq:powerlower}
+ \widehat{A^r a}(n)\geq |n|^r\an(n)
+ \qquad(n\ne0,\ r\geq0).
+\end{equation}
+Since $a$ and all $A^m a$ are real,
+\begin{align*}
+ \ip{a}{A^m a}
+ &=\int_0^{2\pi}A^m a\,d\theta
+ =2\pi\widehat{A^m a}(0)\\
+ &=2\pi\sum_{n\in\mathbb Z}\an(-n)|n|\widehat{A^{m-1}a}(n)\\
+ &\geq2\pi\sum_{n\ne0}|n|^m\an(n)^2.
+\end{align*}
+Here $\an(-n)=\an(n)$ because $a$ is real and its Fourier coefficients are real. This proves the claim.
+\end{proof}
+
+All powers $A^m a$ are smooth, so $a$ belongs to the domain of every power of $A$. The spectral theorem and \eqref{eq:eval} imply
+\begin{equation}\label{eq:spectralmoment}
+ \ip{a}{A^m a}=\sum_{j=0}^\infty\sigma_j^m|c_j|^2.
+\end{equation}
+For any $t>0$, apply Tonelli's theorem to nonnegative terms, using \eqref{eq:momentlower}:
+\begin{align}
+ \sum_j|c_j|^2(e^{t\sigma_j}-1)
+ &=\sum_{m=1}^\infty\frac{t^m}{m!}\ip{a}{A^m a}\notag\\
+ &\geq 2\pi\sum_{n\ne0}\an(n)^2
+       \sum_{m=1}^\infty\frac{(t|n|)^m}{m!}\notag\\
+ &=2\pi\sum_{n\ne0}\an(n)^2(e^{t|n|}-1)\notag\\
+ &\geq4\pi\eps^2\sum_{n=1}^\infty
+       e^{-2\sqrt n}(e^{tn}-1)=+\infty.\label{eq:tonelli}
+\end{align}
+The last summands themselves tend to infinity. No convergence of an unbounded operator exponential is assumed: the equalities and inequalities are in the extended nonnegative reals. Dividing by $4\pi^2$ in view of \eqref{eq:eval} proves \eqref{eq:expdiv}.
+
+\section{Failure of the estimate and the violating sequence}
+If constants $C,c>0$ gave $|u_j(0)|\leq C e^{-c\sigma_j}$ for all $j$, then \eqref{eq:growth} would imply
+\[
+ \sum_j e^{c\sigma_j}|u_j(0)|^2
+ \leq C^2\sum_j e^{-c\sigma_j}<\infty,
+\]
+contradicting \eqref{eq:expdiv}. The same reasoning excludes a bound holding only for sufficiently large $j$, since finitely many omitted terms have finite contribution.
+
+For each positive integer $k$, there must therefore be infinitely many $j$ satisfying
+$|u_j(0)|>e^{-\sigma_j/k}$. Choose such an index $j_k$ beyond $j_{k-1}$ and with $\sigma_{j_k}\geq k^2$. For fixed $c>0$ and all sufficiently large $k$,
+\[
+ e^{c\sigma_{j_k}}|u_{j_k}(0)|
+ >e^{(c-1/k)\sigma_{j_k}}
+ \geq e^{c\sigma_{j_k}/2}\longrightarrow\infty.
+\]
+This proves all assertions of Theorem~\ref{thm:main}. The argument works for any complete real orthonormal eigenbasis; eigenvalue multiplicities do not create an exception. The domain and $\eps$ are fixed throughout.
+
+\section{Scope and compatibility with existing results}
+Smooth-domain estimates giving decay faster than every fixed inverse power are compatible with this counterexample; see \cite[Theorem 10.1 and Remark 10.2]{survey}. The smooth estimates in a boundary collar in \cite[Corollary 2]{WZ} contain an exponentially decreasing term plus an $O(\sigma^{-N})$ remainder for each fixed $N$. The argument above shows why such a remainder cannot universally be replaced by a pure exponential estimate on fixed interior compact sets.
+
+The construction is not based on corners, holes, a varying sequence of domains, or approximate eigenfunctions. The analytic-domain theorem \cite{GT} is not contradicted: smoothness of a holomorphic map on the closed disk does not imply holomorphic extension across its boundary. Here the coefficient tail has radius of convergence exactly one.
+
+Finally, every $0<\eps\leq1/100$ gives the same conclusion. For each fixed derivative order, $F_\eps\to\operatorname{id}$ smoothly on the closed disk as $\eps\downarrow0$. Thus counterexamples approach the disk in the $C^\infty$ topology while remaining strictly convex.
+
+\appendix
+\section{A factorial-growth check avoiding the exponential-moment sum}
+There is a second way to obtain the contradiction from the same positive Fourier recursion. Suppose $|u_j(0)|\leq C e^{-c\sigma_j}$, and choose $0<t<c$. Equations \eqref{eq:growth} and \eqref{eq:eval} imply
+\[
+ M^2:=\sum_j e^{2t\sigma_j}|c_j|^2<\infty.
+\]
+Using $x^m\leq m!t^{-m}e^{tx}$ for $x\geq0$ in the spectral expansion gives
+\begin{equation}\label{eq:factorialupper}
+ \|A^m a\|_{\Hh_a}\leq M m!t^{-m}.
+\end{equation}
+On the other hand, \eqref{eq:powerlower} with $n=4m^2$ and \eqref{eq:tail} gives
+\[
+ \widehat{A^m a}(4m^2)\geq\eps(4m^2)^m e^{-2m}.
+\]
+The Fourier-coefficient inequality and norm equivalence yield
+\[
+ \|A^m a\|_{\Hh_a}
+ \geq\sqrt{\frac{2\pi}{\max a}}\,
+      \eps(4m^2)^m e^{-2m}.
+\]
+Combining this with \eqref{eq:factorialupper} and $m!\leq m^m$ would bound a positive constant times $(4tm/e^2)^m$ by $M$ for every $m$, which is impossible. This check uses only finite powers of $A$ and convergent Hilbert-space expansions.
+
+\section{Reproducible numerical supplement}
+The accompanying Python program uses a cosine Galerkin approximation of
+$\Lambda\varphi=\sigma a^{-1}\varphi$. The even sector is sufficient because $a$ is even, and odd modes vanish at the center. The basis $1,\sqrt2\cos\theta,\ldots$ is orthonormal for $d\theta/(2\pi)$. The code explicitly converts the generalized-eigenvector normalization to Euclidean boundary length, dividing center values by $\sqrt{2\pi}$.
+
+For $N=256$ and $8192$ quadrature points, representative finite-dimensional values are:
+\begin{center}
+\begin{tabular}{rrrr}
+\toprule
+Even-sector index & Eigenvalue & $|u(0)|$ & $-\log|u(0)|/\sigma$\\
+\midrule
+32  & 31.99923  & $2.1214\cdot10^{-5}$ & 0.33628\\
+64  & 63.99823  & $2.1297\cdot10^{-6}$ & 0.20406\\
+128 & 127.99644 & $8.2034\cdot10^{-8}$ & 0.12747\\
+192 & 191.99466 & $6.7255\cdot10^{-9}$ & 0.09801\\
+\bottomrule
+\end{tabular}
+\end{center}
+These calculations are not a proof of an infinite-dimensional asymptotic statement. In particular, finite truncations make the boundary analytic. The proof depends on the full infinite series and on the exact positivity inequalities, not on this table.
+
+\begin{thebibliography}{9}
+\bibitem{catalog}
+AIM contributors, \emph{AIM repository, Problem 024: Exponential interior decay for smooth Steklov domains}, problem page and spectral-theory catalog. Accessed 1 October 2026; page review date 8 September 2026.\
+Repository revision \path{aa776a01d7d48a79f93251af11fde9454b0aea95}.
+\href{https://github.com/MColbrook/AIM/blob/aa776a01d7d48a79f93251af11fde9454b0aea95/problems/024-steklov-smooth-interior-decay.md}{Repository problem statement}.
+
+\bibitem{survey}
+B.~Colbois, A.~Girouard, C.~Gordon, and D.~Sher,
+\emph{Some recent developments on the Steklov eigenvalue problem}, Revista Matem\'atica Complutense (2024), Section 10.1, especially Open Question 10.4.
+\href{https://doi.org/10.1007/s13163-023-00480-3}{DOI: 10.1007/s13163-023-00480-3}.
+
+\bibitem{GT}
+J.~Galkowski and J.~A.~Toth,
+\emph{Pointwise bounds for Steklov eigenfunctions}, Journal of Geometric Analysis \textbf{29} (2019), 142--193.
+\href{https://arxiv.org/abs/1611.05363}{arXiv:1611.05363}.
+
+\bibitem{MS}
+E.~Malkovich and V.~Sharafutdinov,
+\emph{Zeta-invariants of the Steklov spectrum for a planar domain} (2014), Section 1.
+\href{https://arxiv.org/abs/1404.2117}{arXiv:1404.2117}.
+
+\bibitem{WZ}
+X.~Wang and C.~Zhang,
+\emph{A few sharp estimates of harmonic functions with applications to Steklov eigenfunctions} (2024), Theorem 2 and Corollary 2.
+\href{https://arxiv.org/abs/2412.13955}{arXiv:2412.13955}.
+\end{thebibliography}
+\end{document}
