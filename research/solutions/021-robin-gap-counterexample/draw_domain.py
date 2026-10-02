@@ -113,7 +113,7 @@ def main():
     fig.supxlabel('Transverse axes are enlarged by 10^12. The drawn smoothing is illustrative; its spectral gap is not certified.',fontsize=9)
     fig.savefig(ROOT/'domain.svg',bbox_inches='tight')
     svg = ROOT/'domain.svg'
-    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text(encoding='utf-8').splitlines())+'\n', encoding='utf-8')
+    svg.write_text('\n'.join(line.rstrip() for line in svg.read_text(encoding='utf-8').splitlines())+'\n', encoding='utf-8', newline='\n')
     fig.savefig(ROOT/'domain.png',dpi=180,bbox_inches='tight')
     plt.close(fig)
 
@@ -150,7 +150,7 @@ def main():
     else:
         marker = r'\section{A uniform small-parameter Robin estimate on every fiber}'
         text = text.replace(marker,figure+'\n'+marker)
-    tex.write_text(text,encoding='utf-8')
+    tex.write_text(text,encoding='utf-8',newline='\n')
     print('Wrote domain.svg, domain.png and an embedded vector figure in the manuscript.')
 
 

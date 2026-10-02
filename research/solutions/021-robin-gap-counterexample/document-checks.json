@@ -5,7 +5,9 @@
   "pages": 9,
   "final_warnings": [],
   "pdf_author": "Matthew J. Colbrook",
-  "source_sha256": "7874017c718fcebd8fa7b6fe6f2688584ffecfc68659c86dd088a5365978f6f0",
+  "source_sha256": "a435eca47c63fd92c41d93bf1b8728e02a4c72d036fed19d1976ac9b19f44748",
   "visual_review": "All nine pages inspected after rendering; final reference formatting rechecked.",
-  "builtin_compiler": "Unavailable: Unable to find standard directories for platform."
+  "builtin_compiler": "Unavailable: Unable to find standard directories for platform.",
+  "compiler_input_sha256": "7874017c718fcebd8fa7b6fe6f2688584ffecfc68659c86dd088a5365978f6f0",
+  "source_encoding": "UTF-8; LF in repository; compilation input used equivalent CRLF line endings."
 }

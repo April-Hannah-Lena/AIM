@@ -116,7 +116,7 @@ def main():
               'fiber_results':fiber_results,'polyhedral_gap_upper':str(upper),
               'interval_gap_lower':str(lower),'limits':['No PDE eigenvalue computation.',
               'No numerical smoothing threshold.', 'Functional-analytic steps require the written mathematical audit.']}
-    (ROOT/'independent-checks.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
+    (ROOT/'independent-checks.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8',newline='\n')
     print(f'Passed {len(checks)} independent exact geometry, symbolic and cross-reference checks.')
 
 

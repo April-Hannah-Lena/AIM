@@ -8,7 +8,7 @@
 
 **Author and submission:** Matthew J. Colbrook; [PR #16](https://github.com/MColbrook/AIM/pull/16). Department of Applied Mathematics and Theoretical Physics, University of Cambridge; [m.colbrook@damtp.cam.ac.uk](mailto:m.colbrook@damtp.cam.ac.uk). The owner requested this attribution. The uploaded argument is AI-assisted; neither attribution nor the originating checks constitute independent proof review.
 
-**Pinned submission head:** `dd0e96874add04c0ea8bbd10342fd2f6bd630639`. The audited PDF has SHA-256 `ed022e624bad6f5b703884e51810e49464dc3e8939159077f61be2d6a2a1e5df`; the source has SHA-256 `7874017c718fcebd8fa7b6fe6f2688584ffecfc68659c86dd088a5365978f6f0`.
+**Pinned submission head:** `dd0e96874add04c0ea8bbd10342fd2f6bd630639`. The audited PDF has SHA-256 `ed022e624bad6f5b703884e51810e49464dc3e8939159077f61be2d6a2a1e5df`; the committed LF source has SHA-256 `a435eca47c63fd92c41d93bf1b8728e02a4c72d036fed19d1976ac9b19f44748`. The document-production record separately identifies the equivalent CRLF source used by the compiler. Final verification corrected the initial manifest's Windows-working-copy hashes to the committed LF bytes; the proof content and PDF are unchanged.
 
 **Pinned target:** [Original 021 at revision 37a25361f243be77daea0ae0b3c5167b57f1b5f3](https://github.com/MColbrook/AIM/blob/37a25361f243be77daea0ae0b3c5167b57f1b5f3/problems/021-robin-fundamental-gap.md).
 

@@ -173,7 +173,7 @@ def main() -> None:
         ],
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(result, indent=2)+"\n", encoding="utf-8")
+    args.output.write_text(json.dumps(result, indent=2)+"\n", encoding="utf-8", newline="\n")
     print(f"Passed {len(exact_checks)} exact arithmetic checks and {len(samples)} polygon checks.")
     print("Certified comparison: polyhedral gap < 0.021; interval gap > 2.9.")
     print(f"Wrote {args.output}")

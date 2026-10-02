@@ -30,6 +30,8 @@ python research/solutions/021-robin-gap-counterexample/check_counterexample.py -
 
 It passes 25 exact rational checks and nine floating-point polygon checks. [checks.json](checks.json) records the output; it agrees with the uploaded result. These computations check arithmetic and geometry, not the full three-dimensional eigenproblem.
 
+Packaged text and generated JSON use UTF-8 with LF line endings on every platform. The packaged checker changes only that output encoding convention from the unchanged uploaded script. The checksum manifest identifies the repository bytes; the document-production record also identifies the equivalent CRLF source used for compilation.
+
 The separate auditor requires SymPy (tested with 1.14.0):
 
 ```sh
