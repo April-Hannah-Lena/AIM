@@ -1,0 +1,69 @@
+Steklov package review - 1 October 2026
+Contributor / submitter: Siavash Sadeghi
+Target revision: aa776a01d7d48a79f93251af11fde9454b0aea95
+
+SCOPE AND SUBMISSION
+
+Reviewed the package README, complete LaTeX manuscript, numerical program and
+data, repository README, CONTRIBUTING.md, research README, and target 024.
+The current upstream main revision matched the pinned target revision above.
+The source archive's seven files matched the existing extraction byte for byte.
+
+The repository accepts a resolution report through a pull request, with the
+problem ID, pinned revision, proof link, full-target comparison and disclosure
+of review. This package supplies those items under
+research/solutions/siavash-sadeghi-steklov-024/ and proposes no catalogue change.
+Evidence is presented as Solution claimed pending independent mathematical
+review, rather than as an accepted resolution.
+
+CHANGES
+
+- Added Siavash Sadeghi as contributor and submitter to the README, report,
+  manuscript title block and PDF author metadata. Preserved AI provenance.
+- Pinned the target and contribution guide to the checked repository revision.
+- Clarified that eigenvalues in the min-max comparison are ordered with
+  multiplicity, and that the cited Wang-Zhang estimate holds in a boundary collar.
+- Added a full hypothesis-to-target report, precise AI review disclosure,
+  tested dependencies, reproduction environment, numerical validation and hashes.
+- Regenerated both numerical runs and their logs. The numerical program and
+  the mathematical construction, constants and proof method were not changed.
+
+MATHEMATICAL REVIEW
+
+Codex (coordinating AI assistant) read the complete proof and target. A separate
+Codex AI mathematical reviewer checked the domain estimates and strict convexity,
+conformal reduction and physical boundary normalization, self-adjoint operator
+domain and compact resolvent, Fourier positivity, spectral Tonelli argument,
+factorial-growth alternative, and sequence quantifiers. No blocking flaw was
+identified. Cited primary-source assumptions were spot-checked as described
+in RESOLUTION_REPORT_024.md.
+
+This is AI review within the preparation workflow. No human peer review,
+formal proof-assistant verification, publication acceptance, or exhaustive
+novelty certification is claimed. No independent proof review is attributed
+to Siavash Sadeghi.
+
+NUMERICAL CHECKS
+
+A separate Codex AI numerical reviewer reproduced both documented runs, checked
+the supplied CSV data and printed manuscript table, and independently checked
+the FFT matrix against direct cosine quadrature, the physical normalization,
+the disk limit and six invalid-input cases. All checks passed. Full measured
+results and truncation-edge limitations are in numerical_validation.txt.
+
+The maximum scaled matrix residual was 1.74e-14 and the maximum weighted
+orthogonality error was 4.25e-14. These diagnose finite matrices, not continuum
+error or the infinite-series asymptotic claim. The proof is independent of
+the numerical evidence.
+
+DOCUMENT CHECKS
+
+The built-in editor compiler could not initialize its platform directories.
+The existing MiKTeX compiler completed both passes without LaTeX or box warnings.
+All six final PDF pages were rendered with Poppler and visually checked for
+readability, equations, references and clipping. No layout defect was found.
+The contributor's name is present on the title page and in PDF metadata.
+
+The package checksum manifest covers every final file except itself. The
+repository catalogue checker is run on the unchanged pinned repository; it
+does not validate the mathematics or imply integration into the catalogue.
