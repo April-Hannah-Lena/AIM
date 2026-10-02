@@ -1,6 +1,6 @@
 # Polynomial-time solution of simple stochastic games
 
-**Integrated:** [507 — canonical entry](../../../problems/492-simple-stochastic-games-polynomial-time.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
+**Integrated:** [507 — canonical entry](../../../problems/491-simple-stochastic-games-polynomial-time.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
 
 **Area:** Stochastic control, formal verification and algorithmic game theory
 
@@ -60,6 +60,6 @@ The reduction in [5] leads to **exact semidefinite feasibility**, itself not kno
 
 The September 19 search covered binary and stopping games, reachability thresholds, polynomial algorithms, proofs and counterexamples, current and preceding years, unrestricted dates, original and later authors, corrections and version histories. The [evidence ledger](../candidates/simple-stochastic-games-polynomial-time.json) records nine source audits and the full relevant scope comparisons. Condon’s historical original is accessed through explicit scholarly restatements; its proof is not claimed to have been checked. The related 2022 journal extension of [6] was not retrieved in full, so the cited theorem locator refers to the accessible 2018 version.
 
-The [simplex pivot-rule problem](../../../problems/094-strongly-polynomial-simplex.md) asks for a stronger arithmetic guarantee within a specified LP algorithm family. The [continuous Skolem problem](../../../problems/264-continuous-skolem-decidability.md) concerns decidability for deterministic continuous-time dynamics. Neither has the finite stochastic-game assertion above.
+The [simplex pivot-rule problem](../../../problems/093-strongly-polynomial-simplex.md) asks for a stronger arithmetic guarantee within a specified LP algorithm family. The [continuous Skolem problem](../../../problems/263-continuous-skolem-decidability.md) concerns decidability for deterministic continuous-time dynamics. Neither has the finite stochastic-game assertion above.
 
 A separated adversarial self-pass passed on September 19, 2026. No independent agent or human review is claimed.

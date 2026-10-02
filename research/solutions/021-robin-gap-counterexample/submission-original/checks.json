@@ -1,0 +1,119 @@
+{
+  "status": "Arithmetic checks passed; analytic proof is not independently or formally verified.",
+  "exact_check_count": 25,
+  "exact_checks": [
+    "rational enclosure of sqrt(82)",
+    "16 < kappa < 17",
+    "p(1/2) < 3/2",
+    "central barrier numerator is positive at t=3/4",
+    "central barrier numerator is increasing on [3/4,1]",
+    "minimizer t_* > 1/3",
+    "minimizer t_* < 1/2",
+    "p(t) <= 2 follows from kappa < 18",
+    "uniform Poincare constant is 244",
+    "sqrt(244) < 16",
+    "uniform trace bound < 808",
+    "fiber perimeter < 25",
+    "uniform Robin remainder <= 10100",
+    "global |p''| bound is below 200",
+    "axial coefficient is below 9, using pi^2 < 10",
+    "epsilon roots are exact",
+    "small-beta condition",
+    "trial support stays away from the ends and x=0",
+    "diameter is the opposite-endpoint distance",
+    "mass upper bound is below 1",
+    "polyhedral gap upper bound is below 0.021",
+    "sin(2)+2cos(2)>0, so -2cot(2)<1",
+    "half-length < 1.01 < 4/3 < tan(1)",
+    "interval gap lower bound exceeds 2.9",
+    "strict polyhedral counterexample margin"
+  ],
+  "epsilon": {
+    "exact": "1/1000000000000",
+    "decimal": 1e-12
+  },
+  "central_mass_upper": {
+    "exact": "1300101/1000000000",
+    "decimal": 0.001300101
+  },
+  "polyhedral_gap_upper": {
+    "exact": "20801616/998699899",
+    "decimal": 0.020828695407728283
+  },
+  "interval_gap_lower": {
+    "exact": "500000000000000000000000/166666666666666666666667",
+    "decimal": 3.0
+  },
+  "floating_diagnostics": {
+    "t_star": 0.39520795489157395,
+    "x_star": 0.6047920451084261,
+    "minimum_perimeter_area_ratio": 1.479918263418822,
+    "interval_length_2_first_two_eigenvalues": [
+      0.740173884394967,
+      4.115858365694522
+    ],
+    "interval_length_2_gap": 3.375684481299555,
+    "independent_fiber_polygon_checks": [
+      {
+        "t": 0.0,
+        "area": 4.0,
+        "perimeter": 8.0,
+        "p": 2.0
+      },
+      {
+        "t": 0.125,
+        "area": 6.109375,
+        "perimeter": 10.013846284534354,
+        "p": 1.6390950440158534
+      },
+      {
+        "t": 0.25,
+        "area": 7.9375,
+        "perimeter": 12.027692569068709,
+        "p": 1.5152998512212545
+      },
+      {
+        "t": 0.375,
+        "area": 9.484375,
+        "perimeter": 14.041538853603061,
+        "p": 1.4804917407423326
+      },
+      {
+        "t": 0.5,
+        "area": 10.75,
+        "perimeter": 16.055385138137417,
+        "p": 1.493524198896504
+      },
+      {
+        "t": 0.625,
+        "area": 11.734375,
+        "perimeter": 18.06923142267177,
+        "p": 1.5398546085898712
+      },
+      {
+        "t": 0.75,
+        "area": 12.4375,
+        "perimeter": 20.083077707206122,
+        "p": 1.6147198156547635
+      },
+      {
+        "t": 0.875,
+        "area": 12.859375,
+        "perimeter": 22.09692399174048,
+        "p": 1.7183513189202801
+      },
+      {
+        "t": 1.0,
+        "area": 13.0,
+        "perimeter": 24.110770276274835,
+        "p": 1.8546746366365257
+      }
+    ]
+  },
+  "limitations": [
+    "No continuum eigenvalues of the three-dimensional example were numerically computed.",
+    "No quantitative smooth-approximation parameter delta is certified by this script.",
+    "The smoothing step and the PDE estimates are justified analytically in the manuscript.",
+    "No novelty, peer-review, or formal proof-assistant verification claim is made."
+  ]
+}

@@ -8,9 +8,11 @@
 
 **Pinned target:** Problem 562 at repository commit `61dec31d3c3ffe6e15aae8ad84ecf0968a18866d`; [original page at that revision](https://github.com/April-Hannah-Lena/AIM/blob/61dec31d3c3ffe6e15aae8ad84ecf0968a18866d/problems/562-hydrogen-trotter-lower-bound.md), [verbatim local statement](statement.md).
 
-**Reviewed proof:** [PROOF.md](PROOF.md), SHA-256 `8837c2a5a913669b6a998f79db89c34cbc87c171b4290328aea70d1dc21b98c6`.
+**Reviewed proof:** [PROOF.md](PROOF.md), SHA-256 `cac159018343ff49ddff55bedfa784bba28ffdbc570ecba00cc97c3c83045b45`.
 
-**Current catalogue record:** [Archive 652](../../resolved/652-hydrogen-trotter-lower-bound.md). [ID mapping](id-mapping.json).
+**Current catalogue record:** [Archive 651](../../resolved/651-hydrogen-trotter-lower-bound.md). [Current integration mapping](../../solution_reviews/2026-10-02/562-merge-id-mapping.json); [original submission mapping](id-mapping.json).
+
+**Catalogue integration:** The original audit and submission are retained at commit `1a187cd00296b87fcbbd261a161aa1b3b9a30881`. Merging upstream `fa98b7525fa3f78317536a8825f9cfa0ae1c369c` moves this record from archive 652 to 651 because upstream independently archived the Robin gap problem. The proof's catalogue link and its pinned digest have been updated; its mathematical content is unchanged.
 
 ## Provenance and scope
 

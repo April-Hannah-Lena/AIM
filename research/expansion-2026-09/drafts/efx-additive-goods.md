@@ -25,7 +25,7 @@ Thus any envy disappears after the hypothetical removal of any single good from 
 
 ## Applied significance
 
-When allocating indivisible assets, equipment or donated items, exact envy-freeness can fail even with two recipients and one desired object. EFX asks whether a strong relaxation is always feasible when each recipient's values add across items. A positive answer would justify this fairness requirement for every instance of the additive model; a counterexample would identify a limit that no allocation method can overcome. The question concerns comparisons between recipients' bundles, whereas [entry 280](../../../problems/280-general-santa-claus.md) asks for an efficient approximation to the largest possible minimum utility.
+When allocating indivisible assets, equipment or donated items, exact envy-freeness can fail even with two recipients and one desired object. EFX asks whether a strong relaxation is always feasible when each recipient's values add across items. A positive answer would justify this fairness requirement for every instance of the additive model; a counterexample would identify a limit that no allocation method can overcome. The question concerns comparisons between recipients' bundles, whereas [entry 280](../../../problems/279-general-santa-claus.md) asks for an efficient approximation to the largest possible minimum utility.
 
 ## References
 
@@ -46,4 +46,4 @@ The 2026 [submodular counterexamples](https://arxiv.org/html/2605.06451v1) use n
 
 The [evidence ledger](../candidates/efx-additive-goods.json) records full theorem comparisons, current versions, duplicate screening and access limits. The separated A25 adversarial self-pass passed on 2026-09-17; no independent agent or human review is claimed.
 
-Integrated as [entry 314](../../../problems/314-efx-additive-goods.md) after the September 17, 2026 batch refresh.
+Integrated as [entry 314](../../../problems/313-efx-additive-goods.md) after the September 17, 2026 batch refresh.

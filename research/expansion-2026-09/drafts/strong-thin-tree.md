@@ -23,7 +23,7 @@ The same tree must satisfy every cut inequality, and $`C`$ must be independent o
 
 A spanning tree supplies a connected backbone in a communication or transport network. Thinness limits the fraction of available links that this backbone uses across every partition of the network. A positive answer would also guarantee that, when $`k>C`$, removing the tree leaves edge connectivity at least $`k-C`$: every remaining cut has at least $`(1-C/k)|\delta_G(S)|`$ edges. This connects the conjecture to preserving network redundancy while reserving a connected subnetwork. [1]
 
-Thin trees also support rounding arguments for asymmetric routing. An existence theorem would provide a constant integrality bound for the directed traveling-salesman relaxation; a corresponding efficient construction would yield an approximation algorithm. Constant bounds for that routing problem already exist by other methods. This connection does not establish the sharp factor two asked for in [entry 313](../../../problems/313-asymmetric-tsp-integrality-gap.md). [1, 2]
+Thin trees also support rounding arguments for asymmetric routing. An existence theorem would provide a constant integrality bound for the directed traveling-salesman relaxation; a corresponding efficient construction would yield an approximation algorithm. Constant bounds for that routing problem already exist by other methods. This connection does not establish the sharp factor two asked for in [entry 313](../../../problems/312-asymmetric-tsp-integrality-gap.md). [1, 2]
 
 ## References
 
@@ -47,4 +47,4 @@ The September 17, 2026 check covered named and mathematical formulations, author
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
 
-Integrated page: [334. Strong thin-tree conjecture](../../../problems/324-strong-thin-tree.md).
+Integrated page: [334. Strong thin-tree conjecture](../../../problems/323-strong-thin-tree.md).

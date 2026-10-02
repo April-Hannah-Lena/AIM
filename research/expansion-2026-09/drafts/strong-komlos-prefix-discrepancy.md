@@ -47,4 +47,4 @@ The [evidence record](../candidates/strong-komlos-prefix-discrepancy.json) also 
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
 
-Integrated page: [336. A constant bound for fixed-order prefix discrepancy](../../../problems/326-strong-komlos-prefix-discrepancy.md).
+Integrated page: [336. A constant bound for fixed-order prefix discrepancy](../../../problems/325-strong-komlos-prefix-discrepancy.md).

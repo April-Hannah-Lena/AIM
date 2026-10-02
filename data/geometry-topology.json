@@ -1,625 +1,625 @@
 [
   {
-    "id": "087",
+    "id": "086",
     "title": "The symmetric Mahler inequality in four dimensions",
     "area": "Convex geometry and optimization",
-    "file": "problems/087-mahler-symmetric-four-dimensions.md",
+    "file": "problems/086-mahler-symmetric-four-dimensions.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
-    "id": "312",
+    "id": "311",
     "title": "Polynomial bounds for the graph diameter of polytopes",
     "area": "Convex geometry and linear optimization",
-    "file": "problems/312-polynomial-hirsch.md",
+    "file": "problems/311-polynomial-hirsch.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "495",
+    "id": "494",
     "title": "Universality of the interleaving distance over arbitrary fields",
     "area": "Applied topology and multiparameter persistent homology",
-    "file": "problems/495-interleaving-distance-universality.md",
+    "file": "problems/494-interleaving-distance-universality.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-23"
+  },
+  {
+    "id": "498",
+    "title": "Planar Rips complexes as wedges of spheres",
+    "area": "Applied topology and geometric complexes",
+    "file": "problems/498-planar-rips-wedges-of-spheres.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-23"
   },
   {
     "id": "499",
-    "title": "Planar Rips complexes as wedges of spheres",
-    "area": "Applied topology and geometric complexes",
-    "file": "problems/499-planar-rips-wedges-of-spheres.md",
+    "title": "Injectivity of the Rips shadow map on fundamental groups",
+    "area": "Applied topology and geometric reconstruction",
+    "file": "problems/499-rips-shadow-fundamental-group.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-23"
   },
   {
     "id": "500",
-    "title": "Injectivity of the Rips shadow map on fundamental groups",
-    "area": "Applied topology and geometric reconstruction",
-    "file": "problems/500-rips-shadow-fundamental-group.md",
+    "title": "Ergodicity of higher-dimensional Ising clumps",
+    "area": "Applied topology and Markov-chain sampling",
+    "file": "problems/500-higher-dimensional-ising-clumps.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-23"
   },
   {
     "id": "501",
-    "title": "Ergodicity of higher-dimensional Ising clumps",
-    "area": "Applied topology and Markov-chain sampling",
-    "file": "problems/501-higher-dimensional-ising-clumps.md",
+    "title": "Integral optimal flat-norm decompositions in codimension one",
+    "area": "Applied topology, geometric measure theory and shape comparison",
+    "file": "problems/501-integral-flat-norm-codimension-one.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-23"
   },
   {
     "id": "502",
-    "title": "Integral optimal flat-norm decompositions in codimension one",
-    "area": "Applied topology, geometric measure theory and shape comparison",
-    "file": "problems/502-integral-flat-norm-codimension-one.md",
-    "status": "Partially resolved",
+    "title": "A strict gap between face and cycle percolation thresholds",
+    "area": "Applied topology and random geometric complexes",
+    "file": "problems/502-face-cycle-percolation-gap.md",
+    "status": "Open",
     "last_checked": "2026-09-23"
   },
   {
     "id": "503",
-    "title": "A strict gap between face and cycle percolation thresholds",
-    "area": "Applied topology and random geometric complexes",
-    "file": "problems/503-face-cycle-percolation-gap.md",
+    "title": "Exact diameter of the leaf-slide graph on labelled trees",
+    "area": "Applied topology and network reconfiguration",
+    "file": "problems/503-network-realignment-diameter.md",
     "status": "Open",
     "last_checked": "2026-09-23"
   },
   {
     "id": "504",
-    "title": "Exact diameter of the leaf-slide graph on labelled trees",
-    "area": "Applied topology and network reconfiguration",
-    "file": "problems/504-network-realignment-diameter.md",
+    "title": "Exponential excursion tails for topology-preserving Ising disks",
+    "area": "Applied topology, stochastic geometry and rare-event sampling",
+    "file": "problems/504-ising-disks-excursion-tail.md",
     "status": "Open",
     "last_checked": "2026-09-23"
   },
   {
-    "id": "505",
-    "title": "Exponential excursion tails for topology-preserving Ising disks",
-    "area": "Applied topology, stochastic geometry and rare-event sampling",
-    "file": "problems/505-ising-disks-excursion-tail.md",
+    "id": "508",
+    "title": "Monotonicity of unordered graph motion-planning complexity",
+    "area": "Applied topology and robot motion planning",
+    "file": "problems/508-unordered-graph-motion-monotonicity.md",
     "status": "Open",
-    "last_checked": "2026-09-23"
+    "last_checked": "2026-09-24"
   },
   {
     "id": "509",
-    "title": "Monotonicity of unordered graph motion-planning complexity",
-    "area": "Applied topology and robot motion planning",
-    "file": "problems/509-unordered-graph-motion-monotonicity.md",
+    "title": "Wedge-of-spheres structure of path-product matching complexes",
+    "area": "Applied and computational topology",
+    "file": "problems/509-path-product-matching-complexes.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "510",
-    "title": "Wedge-of-spheres structure of path-product matching complexes",
+    "title": "Finite homotopy models for spherical Rips complexes",
     "area": "Applied and computational topology",
-    "file": "problems/510-path-product-matching-complexes.md",
+    "file": "problems/510-spherical-rips-finite-homotopy-type.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "511",
-    "title": "Finite homotopy models for spherical Rips complexes",
+    "title": "Monotonicity of connectivity in spherical Rips filtrations",
     "area": "Applied and computational topology",
-    "file": "problems/511-spherical-rips-finite-homotopy-type.md",
+    "file": "problems/511-spherical-rips-connectivity-monotonicity.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "512",
-    "title": "Monotonicity of connectivity in spherical Rips filtrations",
+    "title": "The first Rips homotopy transition for higher-dimensional spheres",
     "area": "Applied and computational topology",
-    "file": "problems/512-spherical-rips-connectivity-monotonicity.md",
+    "file": "problems/512-spherical-rips-first-transition.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "513",
-    "title": "The first Rips homotopy transition for higher-dimensional spheres",
-    "area": "Applied and computational topology",
-    "file": "problems/513-spherical-rips-first-transition.md",
+    "title": "The centre-rank formula for aspherical motion planning",
+    "area": "Applied topology and robot motion planning",
+    "file": "problems/513-aspherical-motion-planning-center.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "514",
-    "title": "The centre-rank formula for aspherical motion planning",
+    "title": "Maximal motion-planning complexity of aspherical connected sums",
     "area": "Applied topology and robot motion planning",
-    "file": "problems/514-aspherical-motion-planning-center.md",
+    "file": "problems/514-aspherical-connected-sum-complexity.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "515",
-    "title": "Maximal motion-planning complexity of aspherical connected sums",
-    "area": "Applied topology and robot motion planning",
-    "file": "problems/515-aspherical-connected-sum-complexity.md",
+    "id": "520",
+    "title": "Coarse Hilbert embeddings of persistence diagrams",
+    "area": "Applied topology and metric geometry",
+    "file": "problems/520-persistence-diagram-coarse-embedding.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "521",
-    "title": "Coarse Hilbert embeddings of persistence diagrams",
-    "area": "Applied topology and metric geometry",
-    "file": "problems/521-persistence-diagram-coarse-embedding.md",
+    "title": "Six-point persistence on the Euclidean two-sphere",
+    "area": "Applied topology and geometric data analysis",
+    "file": "problems/521-six-point-sphere-persistence.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "522",
-    "title": "Six-point persistence on the Euclidean two-sphere",
-    "area": "Applied topology and geometric data analysis",
-    "file": "problems/522-six-point-sphere-persistence.md",
+    "id": "524",
+    "title": "Maximal motion-planning complexity from positive simplicial volume",
+    "area": "Applied topology and robot motion planning",
+    "file": "problems/524-positive-volume-motion-planning.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "525",
-    "title": "Maximal motion-planning complexity from positive simplicial volume",
+    "title": "Maximal TC weight from positive homological norm",
     "area": "Applied topology and robot motion planning",
-    "file": "problems/525-positive-volume-motion-planning.md",
+    "file": "problems/525-positive-norm-tc-weight.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "526",
-    "title": "Maximal TC weight from positive homological norm",
-    "area": "Applied topology and robot motion planning",
-    "file": "problems/526-positive-norm-tc-weight.md",
-    "status": "Open",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "527",
     "title": "Exact motion-planning complexity of real projective spaces",
     "area": "Applied topology and robot motion planning",
-    "file": "problems/527-projective-motion-planning.md",
+    "file": "problems/526-projective-motion-planning.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "530",
+    "id": "529",
     "title": "Limiting Betti-number distributions in preferential-attachment networks",
     "area": "Applied topology and random networks",
-    "file": "problems/530-preferential-attachment-betti-limit.md",
+    "file": "problems/529-preferential-attachment-betti-limit.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "531",
+    "title": "Homology at the second transition of torus-grid Rips complexes",
+    "area": "Applied topology and persistent homology",
+    "file": "problems/531-torus-grid-transition-homology.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "532",
-    "title": "Homology at the second transition of torus-grid Rips complexes",
+    "title": "Homotopy type of torus-grid Rips complexes at half the diameter",
     "area": "Applied topology and persistent homology",
-    "file": "problems/532-torus-grid-transition-homology.md",
+    "file": "problems/532-torus-grid-half-diameter-homotopy.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "533",
-    "title": "Homotopy type of torus-grid Rips complexes at half the diameter",
-    "area": "Applied topology and persistent homology",
-    "file": "problems/533-torus-grid-half-diameter-homotopy.md",
-    "status": "Open",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "534",
     "title": "Motion-planning complexity of symmetric products of non-orientable surfaces",
     "area": "Applied topology and motion planning",
-    "file": "problems/534-nonorientable-symmetric-product-motion-planning.md",
+    "file": "problems/533-nonorientable-symmetric-product-motion-planning.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "535",
+    "id": "534",
     "title": "Triangle inequality for the pullback distance of verbose persistence barcodes",
     "area": "Applied topology and persistent homology",
-    "file": "problems/535-verbose-persistence-pullback-triangle.md",
+    "file": "problems/534-verbose-persistence-pullback-triangle.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "537",
+    "title": "Betti numbers of a persistence fiber with no finite bars",
+    "area": "Applied topology and inverse persistent homology",
+    "file": "problems/537-persistence-fiber-betti-numbers.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "538",
-    "title": "Betti numbers of a persistence fiber with no finite bars",
-    "area": "Applied topology and inverse persistent homology",
-    "file": "problems/538-persistence-fiber-betti-numbers.md",
+    "title": "Monotonicity of connectivity in spherical Čech filtrations",
+    "area": "Applied and computational topology",
+    "file": "problems/538-spherical-cech-connectivity-monotonicity.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "539",
-    "title": "Monotonicity of connectivity in spherical Čech filtrations",
-    "area": "Applied and computational topology",
-    "file": "problems/539-spherical-cech-connectivity-monotonicity.md",
-    "status": "Open",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "540",
     "title": "Finite homotopy models for spherical Čech complexes",
     "area": "Applied and computational topology",
-    "file": "problems/540-spherical-cech-finite-homotopy-models.md",
+    "file": "problems/539-spherical-cech-finite-homotopy-models.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "544",
+    "id": "543",
     "title": "Simplices maximize the isotropic constant",
     "area": "Geometric probability and covariance bounds",
-    "file": "problems/544-simplex-maximal-isotropic-constant.md",
+    "file": "problems/543-simplex-maximal-isotropic-constant.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "545",
+    "id": "544",
     "title": "Bounded weakening for constrained invertibility",
     "area": "Applied topology and structured linear algebra",
-    "file": "problems/545-constrained-invertibility-bounded-weakening.md",
+    "file": "problems/544-constrained-invertibility-bounded-weakening.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "545",
+    "title": "A 325-point two-distance set in dimension 24",
+    "area": "Computational geometry and Euclidean distance matrices",
+    "file": "problems/545-two-distance-325-points-dimension24.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "546",
-    "title": "A 325-point two-distance set in dimension 24",
+    "title": "Uniqueness of 277-point two-distance sets in dimension 23",
     "area": "Computational geometry and Euclidean distance matrices",
-    "file": "problems/546-two-distance-325-points-dimension24.md",
+    "file": "problems/546-two-distance-277-point-uniqueness.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "547",
-    "title": "Uniqueness of 277-point two-distance sets in dimension 23",
-    "area": "Computational geometry and Euclidean distance matrices",
-    "file": "problems/547-two-distance-277-point-uniqueness.md",
-    "status": "Open",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "548",
     "title": "Minimal persistence grids versus homological Morse lower bounds",
     "area": "Applied topology and inverse persistent homology",
-    "file": "problems/548-minimal-persistence-grid-morse-bound.md",
+    "file": "problems/547-minimal-persistence-grid-morse-bound.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "559",
+    "id": "558",
     "title": "Arbitrarily large integer-distance sets in general position",
     "area": "Discrete geometry and arithmetic geometry",
-    "file": "problems/559-integer-distance-general-position.md",
+    "file": "problems/558-integer-distance-general-position.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "559",
+    "title": "Deciding nonnegativity of unnormalized univariate trace polynomials",
+    "area": "Real algebraic geometry and matrix inequalities",
+    "file": "problems/559-univariate-trace-decidability.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "560",
-    "title": "Deciding nonnegativity of unnormalized univariate trace polynomials",
-    "area": "Real algebraic geometry and matrix inequalities",
-    "file": "problems/560-univariate-trace-decidability.md",
+    "title": "Hardness of minimum-dilation triangulation",
+    "area": "Computational geometry and optimization",
+    "file": "problems/560-minimum-dilation-hardness.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "561",
-    "title": "Hardness of minimum-dilation triangulation",
-    "area": "Computational geometry and optimization",
-    "file": "problems/561-minimum-dilation-hardness.md",
+    "id": "563",
+    "title": "The sharp radius in quantitative Steinitz selection",
+    "area": "Convex geometry and sparse approximation",
+    "file": "problems/563-quantitative-steinitz-radius.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "564",
-    "title": "The sharp radius in quantitative Steinitz selection",
-    "area": "Convex geometry and sparse approximation",
-    "file": "problems/564-quantitative-steinitz-radius.md",
+    "title": "Asymmetry at the Macbeath point of a convex body",
+    "area": "Convex geometry and geometric approximation",
+    "file": "problems/564-macbeath-center-asymmetry.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "565",
-    "title": "Asymmetry at the Macbeath point of a convex body",
-    "area": "Convex geometry and geometric approximation",
-    "file": "problems/565-macbeath-center-asymmetry.md",
+    "title": "Improving the exponential lower bound for peeling sequences",
+    "area": "Discrete geometry and geometric counting",
+    "file": "problems/565-peeling-sequences-lower-base.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "566",
-    "title": "Improving the exponential lower bound for peeling sequences",
-    "area": "Discrete geometry and geometric counting",
-    "file": "problems/566-peeling-sequences-lower-base.md",
+    "id": "570",
+    "title": "Counting half-integral polygons with collinear interior lattice points",
+    "area": "Discrete geometry and lattice-point enumeration",
+    "file": "problems/570-half-integral-collinear-count.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "571",
-    "title": "Counting half-integral polygons with collinear interior lattice points",
-    "area": "Discrete geometry and lattice-point enumeration",
-    "file": "problems/571-half-integral-collinear-count.md",
+    "title": "Counting Ehrhart quasipolynomials of half-integral polygons",
+    "area": "Discrete geometry and Ehrhart theory",
+    "file": "problems/571-half-integral-ehrhart-count.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "572",
-    "title": "Counting Ehrhart quasipolynomials of half-integral polygons",
-    "area": "Discrete geometry and Ehrhart theory",
-    "file": "problems/572-half-integral-ehrhart-count.md",
+    "title": "Unimodal connectivity by 2–3 and 3–2 Pachner moves",
+    "area": "Computational topology and triangulated 3-manifolds",
+    "file": "problems/572-unimodal-pachner-connectivity.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "573",
-    "title": "Unimodal connectivity by 2–3 and 3–2 Pachner moves",
-    "area": "Computational topology and triangulated 3-manifolds",
-    "file": "problems/573-unimodal-pachner-connectivity.md",
+    "id": "578",
+    "title": "A sharp Betti-number bound for 4-manifold triangulation complexity",
+    "area": "Computational topology and triangulation complexity",
+    "file": "problems/578-four-manifold-triangulation-complexity.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "579",
-    "title": "A sharp Betti-number bound for 4-manifold triangulation complexity",
-    "area": "Computational topology and triangulation complexity",
-    "file": "problems/579-four-manifold-triangulation-complexity.md",
+    "title": "Sharp vertex bounds for generalized triangulations in even dimensions",
+    "area": "Computational topology and face-number bounds",
+    "file": "problems/579-even-manifold-vertex-bound.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "580",
-    "title": "Sharp vertex bounds for generalized triangulations in even dimensions",
-    "area": "Computational topology and face-number bounds",
-    "file": "problems/580-even-manifold-vertex-bound.md",
+    "id": "585",
+    "title": "The happy-edge conjecture for convex plane spanning trees",
+    "area": "Computational geometry and geometric reconfiguration",
+    "file": "problems/585-convex-tree-happy-edges.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "586",
-    "title": "The happy-edge conjecture for convex plane spanning trees",
+    "title": "A sharp differing-edge bound for convex plane-tree flips",
     "area": "Computational geometry and geometric reconfiguration",
-    "file": "problems/586-convex-tree-happy-edges.md",
+    "file": "problems/586-convex-tree-difference-bound.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "587",
-    "title": "A sharp differing-edge bound for convex plane-tree flips",
-    "area": "Computational geometry and geometric reconfiguration",
-    "file": "problems/587-convex-tree-difference-bound.md",
+    "id": "590",
+    "title": "Three or four layers for 2-degenerate graphs",
+    "area": "Computational geometry and graph drawing",
+    "file": "problems/590-geometric-thickness-two-degenerate.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "591",
-    "title": "Three or four layers for 2-degenerate graphs",
+    "title": "Bounded geometric thickness for unions of two forests",
     "area": "Computational geometry and graph drawing",
-    "file": "problems/591-geometric-thickness-two-degenerate.md",
+    "file": "problems/591-arboricity-two-geometric-thickness.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "592",
-    "title": "Bounded geometric thickness for unions of two forests",
+    "title": "A linear threshold for extracting a segment grid",
     "area": "Computational geometry and graph drawing",
-    "file": "problems/592-arboricity-two-geometric-thickness.md",
+    "file": "problems/592-red-blue-segment-grid.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "593",
-    "title": "A linear threshold for extracting a segment grid",
-    "area": "Computational geometry and graph drawing",
-    "file": "problems/593-red-blue-segment-grid.md",
+    "title": "Connectivity of plane spanning-path reconfiguration",
+    "area": "Computational geometry and geometric reconfiguration",
+    "file": "problems/593-plane-spanning-path-connectivity.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "594",
-    "title": "Connectivity of plane spanning-path reconfiguration",
-    "area": "Computational geometry and geometric reconfiguration",
-    "file": "problems/594-plane-spanning-path-connectivity.md",
+    "title": "The minimum vertex number of a triangulation of real projective 5-space",
+    "area": "Computational topology and triangulated manifolds",
+    "file": "problems/594-rp5-minimum-vertices.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "595",
-    "title": "The minimum vertex number of a triangulation of real projective 5-space",
-    "area": "Computational topology and triangulated manifolds",
-    "file": "problems/595-rp5-minimum-vertices.md",
-    "status": "Open",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "596",
     "title": "A bounded number of flat transversals for fat convex sets",
     "area": "Discrete geometry and geometric transversal theory",
-    "file": "problems/596-fat-convex-transversal-pq.md",
+    "file": "problems/595-fat-convex-transversal-pq.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "600",
+    "id": "599",
     "title": "Sierksma's lower bound for Tverberg partitions",
     "area": "Discrete geometry and convexity",
-    "file": "problems/600-sierksma-tverberg-partition-count.md",
+    "file": "problems/599-sierksma-tverberg-partition-count.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "609",
+    "title": "Nill's facet bound for reflexive lattice polytopes",
+    "area": "Discrete geometry and toric geometry",
+    "file": "problems/609-reflexive-polytope-facet-bound.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "610",
-    "title": "Nill's facet bound for reflexive lattice polytopes",
-    "area": "Discrete geometry and toric geometry",
-    "file": "problems/610-reflexive-polytope-facet-bound.md",
+    "title": "Counting cospherical tuples in lattice cubes",
+    "area": "Discrete geometry and lattice-point counting",
+    "file": "problems/610-cospherical-lattice-tuple-count.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "611",
-    "title": "Counting cospherical tuples in lattice cubes",
-    "area": "Discrete geometry and lattice-point counting",
-    "file": "problems/611-cospherical-lattice-tuple-count.md",
+    "id": "612",
+    "title": "Unbounded weak chromatic number for geometric tetrahedral complexes",
+    "area": "Combinatorial topology and geometric hypergraphs",
+    "file": "problems/612-tetrahedral-weak-chromatic.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "613",
-    "title": "Unbounded weak chromatic number for geometric tetrahedral complexes",
-    "area": "Combinatorial topology and geometric hypergraphs",
-    "file": "problems/613-tetrahedral-weak-chromatic.md",
+    "title": "Transversal ratio approaching one for simplicial four-polytopes",
+    "area": "Discrete geometry and extremal topology",
+    "file": "problems/613-four-polytope-transversal-ratio.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "614",
-    "title": "Transversal ratio approaching one for simplicial four-polytopes",
-    "area": "Discrete geometry and extremal topology",
-    "file": "problems/614-four-polytope-transversal-ratio.md",
+    "id": "616",
+    "title": "Polynomial-size convex difference decompositions",
+    "area": "Polyhedral geometry and optimization",
+    "file": "problems/616-polynomial-convex-difference-decomposition.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "617",
-    "title": "Polynomial-size convex difference decompositions",
-    "area": "Polyhedral geometry and optimization",
-    "file": "problems/617-polynomial-convex-difference-decomposition.md",
-    "status": "Open",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "618",
     "title": "Reconstructing simplicial spheres from facet adjacency",
     "area": "Combinatorial topology and polyhedral geometry",
-    "file": "problems/618-kalai-sphere-reconstruction.md",
+    "file": "problems/617-kalai-sphere-reconstruction.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "619",
+    "id": "618",
     "title": "Spanning triangulated spheres with holes in surface triangulations",
     "area": "Topological graph theory and rigidity",
-    "file": "problems/619-spanning-holed-sphere-triangulation.md",
+    "file": "problems/618-spanning-holed-sphere-triangulation.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "623",
+    "title": "Convex realizations of spherical subword complexes",
+    "area": "Polyhedral geometry and combinatorial topology",
+    "file": "problems/623-subword-polytopality.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "624",
-    "title": "Convex realizations of spherical subword complexes",
-    "area": "Polyhedral geometry and combinatorial topology",
-    "file": "problems/624-subword-polytopality.md",
-    "status": "Partially resolved",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "625",
     "title": "Eventual classification of simplicial line arrangements",
     "area": "Computational geometry and incidence geometry",
-    "file": "problems/625-simplicial-arrangement-classification.md",
+    "file": "problems/624-simplicial-arrangement-classification.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "628",
+    "id": "627",
     "title": "Odd Euler characteristic for flag-no-square four-manifolds",
     "area": "Combinatorial topology and geometric group theory",
-    "file": "problems/628-odd-euler-flag-no-square.md",
+    "file": "problems/627-odd-euler-flag-no-square.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "629",
+    "id": "628",
     "title": "Characterizing discrete sets generated by fixed-parameter extrapolation",
     "area": "Discrete geometry and aperiodic order",
-    "file": "problems/629-extrapolation-discreteness.md",
+    "file": "problems/628-extrapolation-discreteness.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "630",
+    "id": "629",
     "title": "Relative density of sets generated by fixed-parameter extrapolation",
     "area": "Discrete geometry and aperiodic order",
-    "file": "problems/630-extrapolation-relative-density.md",
+    "file": "problems/629-extrapolation-relative-density.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "635",
+    "id": "634",
     "title": "Small mod-two area cycles in drawings with bounded pairwise intersections",
     "area": "Topological graph theory and discrete geometry",
-    "file": "problems/635-bounded-crossing-heilbronn.md",
+    "file": "problems/634-bounded-crossing-heilbronn.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "638",
+    "id": "637",
     "title": "A limiting law for maximal persistence in random clique complexes",
     "area": "Applied topology / stochastic topology",
-    "file": "problems/638-random-clique-maximal-persistence-law.md",
+    "file": "problems/637-random-clique-maximal-persistence-law.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "640",
+    "id": "639",
     "title": "Coboundary expansion of random balanced Cayley complexes",
     "area": "Applied topology / high-dimensional expansion",
-    "file": "problems/640-random-balanced-cayley-expansion.md",
+    "file": "problems/639-random-balanced-cayley-expansion.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "642",
+    "title": "Zero in the upper-Laplacian spectrum of low-degree simplicial complexes",
+    "area": "Applied topology / spectral theory",
+    "file": "problems/642-low-degree-simplicial-zero-spectrum.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "643",
-    "title": "Zero in the upper-Laplacian spectrum of low-degree simplicial complexes",
-    "area": "Applied topology / spectral theory",
-    "file": "problems/643-low-degree-simplicial-zero-spectrum.md",
+    "title": "Topological complexity in the homogeneous medial regime for all sample sizes",
+    "area": "Applied topology / random complexes",
+    "file": "problems/643-medial-regime-topological-complexity.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "644",
-    "title": "Topological complexity in the homogeneous medial regime for all sample sizes",
-    "area": "Applied topology / random complexes",
-    "file": "problems/644-medial-regime-topological-complexity.md",
+    "title": "A finite three-ample complex with nontrivial fundamental group",
+    "area": "Applied topology / simplicial complexes",
+    "file": "problems/644-finite-three-ample-nonsimply-connected.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "645",
-    "title": "A finite three-ample complex with nontrivial fundamental group",
-    "area": "Applied topology / simplicial complexes",
-    "file": "problems/645-finite-three-ample-nonsimply-connected.md",
+    "title": "Compact orbit covers of aspherical manifolds",
+    "area": "Applied topology / geometric topology",
+    "file": "problems/645-aspherical-compact-orbit-cover.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "646",
-    "title": "Compact orbit covers of aspherical manifolds",
-    "area": "Applied topology / geometric topology",
-    "file": "problems/646-aspherical-compact-orbit-cover.md",
+    "title": "Connectivity when the last isolated point disappears in a polytope",
+    "area": "Applied topology / stochastic geometry",
+    "file": "problems/646-polytopal-connectivity-last-isolated-point.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "647",
-    "title": "Connectivity when the last isolated point disappears in a polytope",
-    "area": "Applied topology / stochastic geometry",
-    "file": "problems/647-polytopal-connectivity-last-isolated-point.md",
-    "status": "Partially resolved",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "648",
     "title": "Location of the most isolated point in a random polyhedral sample",
     "area": "Applied topology / stochastic geometry",
-    "file": "problems/648-polyhedral-most-isolated-point-location.md",
+    "file": "problems/647-polyhedral-most-isolated-point-location.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "649",
+    "id": "648",
     "title": "Vanishing threshold for first path homology of a random digraph",
     "area": "Applied topology / random graphs",
-    "file": "problems/649-random-digraph-path-homology-vanishing.md",
+    "file": "problems/648-random-digraph-path-homology-vanishing.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "650",
+    "id": "649",
     "title": "Central limit theorem for the first path Betti number",
     "area": "Applied topology / probability",
-    "file": "problems/650-random-digraph-path-betti-central-limit.md",
+    "file": "problems/649-random-digraph-path-betti-central-limit.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   }
