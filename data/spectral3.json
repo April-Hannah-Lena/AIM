@@ -1,257 +1,257 @@
 [
   {
-    "id": "195",
+    "id": "194",
     "title": "A uniform gap for the spin-one Heisenberg chain",
     "area": "Quantum magnetism",
-    "file": "problems/195-haldane-gap.md",
+    "file": "problems/194-haldane-gap.md",
+    "status": "Open",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "195",
+    "title": "The bosonic Laughlin contact-interaction gap",
+    "area": "Fractional quantum Hall physics",
+    "file": "problems/195-laughlin-gap.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "196",
-    "title": "The bosonic Laughlin contact-interaction gap",
-    "area": "Fractional quantum Hall physics",
-    "file": "problems/196-laughlin-gap.md",
+    "title": "Bose condensation at fixed dilute density",
+    "area": "Ultracold quantum gases",
+    "file": "problems/196-thermodynamic-bose-condensation.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "197",
-    "title": "Bose condensation at fixed dilute density",
-    "area": "Ultracold quantum gases",
-    "file": "problems/197-thermodynamic-bose-condensation.md",
+    "title": "The logarithmic correction to dilute Bose-gas energy",
+    "area": "Quantum equations of state",
+    "file": "problems/197-wu-bose-energy.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "198",
-    "title": "The logarithmic correction to dilute Bose-gas energy",
-    "area": "Quantum equations of state",
-    "file": "problems/198-wu-bose-energy.md",
+    "title": "The optimal Lieb–Oxford constant",
+    "area": "Electronic density-functional theory",
+    "file": "problems/198-optimal-lieb-oxford.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "199",
-    "title": "The optimal Lieb–Oxford constant",
-    "area": "Electronic density-functional theory",
-    "file": "problems/199-optimal-lieb-oxford.md",
+    "title": "An area law for general gapped two-dimensional spin systems",
+    "area": "Quantum many-body theory; entanglement",
+    "file": "problems/199-two-dimensional-area-law.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "200",
-    "title": "An area law for general gapped two-dimensional spin systems",
-    "area": "Quantum many-body theory; entanglement",
-    "file": "problems/200-two-dimensional-area-law.md",
+    "title": "The quantum PCP conjecture for local Hamiltonians",
+    "area": "Quantum complexity; many-body energy approximation",
+    "file": "problems/200-quantum-pcp.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "201",
-    "title": "The quantum PCP conjecture for local Hamiltonians",
-    "area": "Quantum complexity; many-body energy approximation",
-    "file": "problems/201-quantum-pcp.md",
-    "status": "Open",
+    "title": "Uniqueness of a boson star at every subcritical mass",
+    "area": "Relativistic quantum matter; self-gravitating waves",
+    "file": "problems/201-lieb-yau-boson-star-uniqueness.md",
+    "status": "Partially resolved",
     "last_checked": "2026-09-13"
   },
   {
     "id": "202",
-    "title": "Uniqueness of a boson star at every subcritical mass",
-    "area": "Relativistic quantum matter; self-gravitating waves",
-    "file": "problems/202-lieb-yau-boson-star-uniqueness.md",
+    "title": "Does a bound bipolaron ever break rotational symmetry?",
+    "area": "Polarons; nonlinear quantum energy minimization",
+    "file": "problems/202-bipolaron-rotation-symmetry.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-13"
   },
   {
     "id": "203",
-    "title": "Does a bound bipolaron ever break rotational symmetry?",
-    "area": "Polarons; nonlinear quantum energy minimization",
-    "file": "problems/203-bipolaron-rotation-symmetry.md",
-    "status": "Partially resolved",
+    "title": "Néel order in the square-lattice spin-one-half antiferromagnet",
+    "area": "Quantum magnetism",
+    "file": "problems/203-square-lattice-neel-order.md",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "204",
-    "title": "Néel order in the square-lattice spin-one-half antiferromagnet",
-    "area": "Quantum magnetism",
-    "file": "problems/204-square-lattice-neel-order.md",
+    "title": "Antiferromagnetic order in the half-filled square-lattice Hubbard model",
+    "area": "Correlated electrons; quantum materials",
+    "file": "problems/204-hubbard-antiferromagnetism.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "205",
-    "title": "Antiferromagnetic order in the half-filled square-lattice Hubbard model",
-    "area": "Correlated electrons; quantum materials",
-    "file": "problems/205-hubbard-antiferromagnetism.md",
+    "title": "The entropy photon-number inequality",
+    "area": "Quantum optics; communication limits",
+    "file": "problems/205-entropy-photon-number.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "206",
-    "title": "The entropy photon-number inequality",
-    "area": "Quantum optics; communication limits",
-    "file": "problems/206-entropy-photon-number.md",
-    "status": "Open",
-    "last_checked": "2026-09-13"
-  },
-  {
-    "id": "207",
     "title": "Composing two PPT channels destroys all entanglement",
     "area": "Quantum information; repeater channels",
-    "file": "problems/207-ppt-squared.md",
+    "file": "problems/206-ppt-squared.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-13"
   },
   {
-    "id": "208",
+    "id": "207",
     "title": "Can entangled codewords improve amplitude-damping classical capacity?",
     "area": "Quantum communication; dissipative qubits",
-    "file": "problems/208-amplitude-damping-additivity.md",
+    "file": "problems/207-amplitude-damping-additivity.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
-    "id": "209",
+    "id": "208",
     "title": "Sharp Fourier extension from the sphere in three dimensions",
     "area": "Harmonic analysis; monochromatic wave concentration",
-    "file": "problems/209-sphere-fourier-restriction.md",
+    "file": "problems/208-sphere-fourier-restriction.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "209",
+    "title": "Sharp Bochner–Riesz summability in three dimensions",
+    "area": "Harmonic analysis; frequency filtering",
+    "file": "problems/209-bochner-riesz-three-dimensions.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-13"
   },
   {
     "id": "210",
-    "title": "Sharp Bochner–Riesz summability in three dimensions",
-    "area": "Harmonic analysis; frequency filtering",
-    "file": "problems/210-bochner-riesz-three-dimensions.md",
-    "status": "Partially resolved",
+    "title": "Sharp local smoothing for the three-dimensional wave equation",
+    "area": "Wave propagation; dispersive estimates",
+    "file": "problems/210-euclidean-wave-local-smoothing.md",
+    "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "211",
-    "title": "Sharp local smoothing for the three-dimensional wave equation",
-    "area": "Wave propagation; dispersive estimates",
-    "file": "problems/211-euclidean-wave-local-smoothing.md",
+    "title": "GOE level spacings in a desymmetrized Sinai billiard",
+    "area": "Quantum chaos / wave-cavity spectra",
+    "file": "problems/211-sinai-goe-spacing.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "212",
-    "title": "GOE level spacings in a desymmetrized Sinai billiard",
-    "area": "Quantum chaos / wave-cavity spectra",
-    "file": "problems/212-sinai-goe-spacing.md",
+    "title": "Poisson nearest-neighbor spacings on almost every flat torus",
+    "area": "Quantum integrability; spectral statistics",
+    "file": "problems/212-berry-tabor-flat-tori.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "213",
-    "title": "Poisson nearest-neighbor spacings on almost every flat torus",
-    "area": "Quantum integrability; spectral statistics",
-    "file": "problems/213-berry-tabor-flat-tori.md",
+    "title": "A spectral gap for almost every pair of quantum gates",
+    "area": "Spectral theory / quantum dynamics",
+    "file": "problems/213-su-two-random-gate-gap.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "214",
-    "title": "A spectral gap for almost every pair of quantum gates",
-    "area": "Spectral theory / quantum dynamics",
-    "file": "problems/214-su-two-random-gate-gap.md",
-    "status": "Open",
-    "last_checked": "2026-09-13"
-  },
-  {
-    "id": "215",
     "title": "Optimal spectral signings of regular graphs",
     "area": "Spectral graph theory / network design",
-    "file": "problems/215-bilu-linial-signing.md",
+    "file": "problems/214-bilu-linial-signing.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-13"
   },
   {
-    "id": "216",
+    "id": "215",
     "title": "The sharp decay rate for waves damped on a disk",
     "area": "Wave propagation / damping",
-    "file": "problems/216-rough-disk-damping.md",
+    "file": "problems/215-rough-disk-damping.md",
+    "status": "Open",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "216",
+    "title": "Boundary-flux commutators for rough conductors",
+    "area": "Boundary operators / heterogeneous conduction",
+    "file": "problems/216-rough-coefficient-boundary-commutator.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "217",
-    "title": "Boundary-flux commutators for rough conductors",
-    "area": "Boundary operators / heterogeneous conduction",
-    "file": "problems/217-rough-coefficient-boundary-commutator.md",
-    "status": "Open",
-    "last_checked": "2026-09-13"
-  },
-  {
-    "id": "218",
     "title": "Does subcritical heat flow always decay faster?",
     "area": "Heat propagation / Schrödinger semigroups",
-    "file": "problems/218-critical-subcritical-heat-ratio.md",
+    "file": "problems/217-critical-subcritical-heat-ratio.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
-    "id": "303",
+    "id": "302",
     "title": "Does entanglement-assisted capacity equal the Lovász bound?",
     "area": "Quantum information and zero-error communication",
-    "file": "problems/303-entanglement-assisted-lovasz.md",
+    "file": "problems/302-entanglement-assisted-lovasz.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "310",
+    "id": "309",
     "title": "Equal-weight decomposition of quantum channels with bounded Kraus rank",
     "area": "Quantum information and channel simulation",
-    "file": "problems/310-ruskai-audenaert-decomposition.md",
+    "file": "problems/309-ruskai-audenaert-decomposition.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "343",
+    "id": "342",
     "title": "Additivity of entanglement of purification",
     "area": "Quantum information and correlation preparation",
-    "file": "problems/343-entanglement-of-purification-additivity.md",
+    "file": "problems/342-entanglement-of-purification-additivity.md",
     "status": "Open",
     "last_checked": "2026-09-19"
   },
   {
-    "id": "422",
+    "id": "421",
     "title": "Global L2 scattering for the planar hyperbolic cubic Schrödinger equation",
     "area": "Dispersive PDEs and nonlinear wave envelopes",
-    "file": "problems/422-hyperbolic-cubic-nls-scattering.md",
+    "file": "problems/421-hyperbolic-cubic-nls-scattering.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "423",
+    "id": "422",
     "title": "Subunit-moment eigenvalue bounds for complex Schrödinger potentials",
     "area": "Nonselfadjoint Schrödinger PDEs and spectral bounds",
-    "file": "problems/423-complex-schrodinger-subunit-moments.md",
+    "file": "problems/422-complex-schrodinger-subunit-moments.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "431",
+    "id": "430",
     "title": "Classical attenuation versus uniform semiclassical local decay",
     "area": "Dissipative Schrödinger PDEs and high-frequency propagation",
-    "file": "problems/431-dissipative-schrodinger-uniform-decay.md",
+    "file": "problems/430-dissipative-schrodinger-uniform-decay.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "433",
+    "id": "432",
     "title": "A resonance gap for arbitrary uniformly hyperbolic trapping in three dimensions",
     "area": "Scattering PDEs and wave decay",
-    "file": "problems/433-hyperbolic-trapping-resonance-gap-three-dimensions.md",
+    "file": "problems/432-hyperbolic-trapping-resonance-gap-three-dimensions.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "446",
+    "id": "445",
     "title": "Can bounded positive time-dependent potentials trap a Schrödinger wave?",
     "area": "Time-dependent Schrödinger PDEs and quantum confinement",
-    "file": "problems/446-positive-time-dependent-potential-localization.md",
+    "file": "problems/445-positive-time-dependent-potential-localization.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   }

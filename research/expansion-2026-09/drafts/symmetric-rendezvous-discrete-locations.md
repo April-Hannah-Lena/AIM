@@ -46,10 +46,10 @@ Dani–Hayes–Moore–Russell give an asymptotic lower bound $`(0.6389\ldots-o(
 
 Other apparently relevant solutions use detectable tokens, one-step success probabilities, shared location labels, an infinite line, or restricted memory. In particular, the September 12, 2026 integer-line result concerns oblivious self-distance strategies and does not solve the complete-graph problem. The ledger records the exact restrictions and source-reading limits. Mathematical proofs have not been independently certified.
 
-Unlike [entry 292](../../../problems/292-cerny.md), this question concerns two agents with independent random choices and an unknown label matching, not one word resetting every state of a deterministic automaton. The online allocation objective in [entry 316](../../../problems/316-online-bin-packing-optimal-ratio.md) instead compares performance with an offline optimum under adversarial requests.
+Unlike [entry 292](../../../problems/291-cerny.md), this question concerns two agents with independent random choices and an unknown label matching, not one word resetting every state of a deterministic automaton. The online allocation objective in [entry 316](../../../problems/315-online-bin-packing-optimal-ratio.md) instead compares performance with an offline optimum under adversarial requests.
 
 The separated A32 adversarial self-pass checked the time convention, unrestricted strategy class, source versions and related-result scopes. No independent agent or human review occurred.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
 
-Integrated page: [331. Optimal symmetric rendezvous among discrete locations](../../../problems/321-symmetric-rendezvous-discrete-locations.md).
+Integrated page: [331. Optimal symmetric rendezvous among discrete locations](../../../problems/320-symmetric-rendezvous-discrete-locations.md).

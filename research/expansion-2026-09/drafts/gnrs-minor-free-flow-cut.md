@@ -1,6 +1,6 @@
 # The GNRS conjecture for minor-free network flow
 
-**Integrated:** [503 — canonical entry](../../../problems/488-gnrs-minor-free-flow-cut.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
+**Integrated:** [503 — canonical entry](../../../problems/487-gnrs-minor-free-flow-cut.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
 
 **Area:** Network routing, metric geometry and combinatorial optimization
 
@@ -78,4 +78,4 @@ The 2026 outerplanar result rounds an already feasible fractional flow while all
 
 The [evidence record](../candidates/gnrs-minor-free-flow-cut.json) records actual searches, source versions, theorem-scope comparisons and access limits. The publisher's original GNRS text and Filtser's journal text were not accessed in full; author versions were inspected. The September 19, 2026 check covered named and mathematical formulations, recent and unrestricted-date resolution searches, author pages, revisions and corrections. A64 was a separated adversarial self-review by the same assistant; it also checked directed-flow results and constant-distortion embeddings into the maximum norm. It was not an independent expert review or a certification of the cited proofs.
 
-The [Li–Li question](../../../problems/299-li-li-multiple-unicast.md) compares coding with fractional routing. The [strong thin-tree question](../../../problems/324-strong-thin-tree.md) selects a spanning tree under cut constraints. Neither is this comparison of cut bottlenecks with fractional routing. The planar case and equivalent metric formulation receive no separate entry.
+The [Li–Li question](../../../problems/298-li-li-multiple-unicast.md) compares coding with fractional routing. The [strong thin-tree question](../../../problems/323-strong-thin-tree.md) selects a spanning tree under cut constraints. Neither is this comparison of cut bottlenecks with fractional routing. The planar case and equivalent metric formulation receive no separate entry.

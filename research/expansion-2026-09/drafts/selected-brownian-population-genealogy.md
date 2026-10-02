@@ -59,4 +59,4 @@ Berestycki–Berestycki–Schweinsberg prove the coalescent limit for absorption
 
 This is one genealogy problem. The discrete branching-random-walk analogue, other mutation laws, pairwise moments and alternative normalizations are not counted as separate additions. Existing entries on spatial competition and exclusion concern different observables and mechanisms.
 
-Integrated as [entry 319](../../../problems/319-selected-brownian-population-genealogy.md) after the September 17, 2026 batch refresh.
+Integrated as [entry 319](../../../problems/318-selected-brownian-population-genealogy.md) after the September 17, 2026 batch refresh.

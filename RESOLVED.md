@@ -10,6 +10,7 @@ Documented resolutions of the exact target. Proof and review links give the argu
 
 | ID | Problem | Status | Outcome | Last checked | Proof | Review |
 | --- | --- | --- | --- | --- | --- | --- |
+| 652 | [The Robin fundamental gap conjecture](research/resolved/652-robin-fundamental-gap.md) | ✅ SOLVED | Counterexample | 2026-10-02 | [Proof](research/solutions/021-robin-gap-counterexample/robin_gap_021.pdf) | [Review](research/solution_reviews/2026-10-02/021-review.md) |
 | 653 | [Exponential interior decay for smooth Steklov domains](research/resolved/653-steklov-smooth-interior-decay.md) | ✅ SOLVED | Counterexample | 2026-10-02 | [Proof](research/solutions/siavash-sadeghi-steklov-024/steklov_counterexample.pdf) | [Review](research/solution_reviews/2026-10-02/024-review.md) |
 | 654 | [Bounded harmonic lifting for complex media](research/resolved/654-complex-harmonic-lifting.md) | ✅ SOLVED | Affirmative proof | 2026-10-02 | [Proof](research/solutions/218-complex-harmonic-lifting/PROOF.md) | [Review](research/solution_reviews/2026-10-02/218-review.md) |
 | 655 | [Logarithmic convexity for subdiffusion with non-gradient drift](research/resolved/655-fractional-drift-logarithmic-convexity.md) | ✅ SOLVED | Counterexample | 2026-10-02 | [Proof](research/solutions/405-fractional-drift/PROOF.md) | [Review](research/solution_reviews/2026-10-02/405-review.md) |

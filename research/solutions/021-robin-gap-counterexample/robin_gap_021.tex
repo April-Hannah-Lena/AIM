@@ -1,0 +1,490 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,microtype}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,array}
+\usepackage{tikz}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={Positive-Robin gap collapse in smooth convex three-dimensional domains},
+ pdfauthor={Matthew J. Colbrook},
+ pdfsubject={Proposed counterexample to AIM 021; pending independent review}}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\setlength{\parskip}{4pt}
+\setlength{\parindent}{0pt}
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Positive-Robin gap collapse}
+\fancyhead[R]{\small AIM \#021: proposed counterexample}
+\fancyfoot[C]{\thepage}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\R}{\mathbb R}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\gap}{\operatorname{gap}}
+\newcommand{\diam}{\operatorname{diam}}
+\newcommand{\conv}{\operatorname{conv}}
+\newcommand{\ds}{\,dS}
+\newcommand{\dx}{\,dx}
+\newcommand{\dy}{\,dy}
+\title{Positive-Robin gap collapse\\in smooth convex three-dimensional domains}
+\author{Matthew J. Colbrook\\[3pt]
+\small Department of Applied Mathematics and Theoretical Physics\\
+\small University of Cambridge, Cambridge CB3 0WA, United Kingdom\\
+\small\href{mailto:m.colbrook@damtp.cam.ac.uk}{\texttt{m.colbrook@damtp.cam.ac.uk}}}
+\date{2 October 2026}
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+We give a candidate disproof of the diameter-normalized positive-Robin fundamental-gap conjecture stated as AIM problem \#021. A convex polytope with square end sections and one transverse central protrusion is made thin in two directions. The first transverse Robin energy has leading term equal to the boundary parameter times the fiber perimeter-to-area ratio. That ratio has two reflection-related minima and a central barrier. An elementary uniform fiber estimate, a localized test function, and a ground-state cutoff imply that the full three-dimensional spectral gap tends to zero, although the diameter tends to two. Explicit estimates give a polyhedral gap below $0.021$ at thickness $10^{-12}$, whereas the interval comparison exceeds $2.9$. A specified smooth strongly convex approximation and a quadratic-form convergence argument transfer this strict violation to a single smooth convex domain.
+\end{abstract}
+
+\medskip
+\textbf{Evidence status.} Proposed resolution, pending independent mathematical review. The supplied argument was developed with AI assistance. Repository packaging, reference checks and a separate mathematical audit are documented with the submission. No external peer review, proof-assistant verification, or novelty determination is claimed. The accompanying program checks finite arithmetic and elementary geometry; it is not a numerical solution or formal verification of the three-dimensional eigenproblem.
+
+\section{Target and precise claim}
+For a bounded Lipschitz domain $U$ and $\alpha>0$, write $\rho_j(U;\alpha)$ for the eigenvalues associated with
+\[
+ q_{U,\alpha}[v]=\int_U |\nabla v|^2+\alpha\int_{\partial U}v^2,
+ \qquad v\in H^1(U).
+\]
+The form realization, discreteness and principal-eigenvalue properties are standard Robin theory; see \cite{daners}. Sobolev density and trace results on Lipschitz domains are used as in \cite[Chapter 3]{mclean}. These are the ordinary Euclidean Robin eigenvalues, with outward-normal condition $\partial_\nu v+\alpha v=0$. Define
+\[
+ \gap(U;\alpha)=\rho_2(U;\alpha)-\rho_1(U;\alpha),\qquad
+ g(D;\alpha)=\gap((0,D);\alpha).
+\]
+The repository asks whether $\gap(U;\alpha)>g(\diam U;\alpha)$ for every bounded smooth convex $U\subset\R^d$, $d\ge2$, and every $\alpha>0$; see \cite{aim,laugesen,andrews2020}. One counterexample in $d=3$, at $\alpha=1$, disproves that universal statement.
+
+\begin{theorem}\label{thm:main}
+There is a bounded $C^\infty$ strictly convex domain $U\subset\R^3$ such that
+\[
+ \gap(U;1)<0.221<2<g(\diam U;1).
+\]
+This gives a counterexample to the universal inequality in AIM \#021.
+\end{theorem}
+
+The proof gives an explicit polytope and an explicit smooth approximating family. The positive-Robin conjecture and the obstruction to a ground-state log-concavity proof are discussed in \cite{laugesen,andrews2020}. One-dimensional comparison results appear in \cite{andrews2021}. Kielty's double-cone degeneration \cite{kielty} concerns negative Robin parameters and is not the positive-parameter result proved here. The existence of a sufficiently small smoothing parameter is proved, rather than numerically certified. The evidence status of the entire argument is stated on the first page.
+
+\section{A convex geometry with a central perimeter-to-area barrier}
+Let
+\[
+ K=[-1,1]^2,\qquad a=(10,0),\qquad H=\conv(K\cup\{a\}),
+\]
+and for $0\le t\le1$ let $K_t=(1-t)K+tH$. Its vertices, with repetitions permitted at $t=0,1$, are
+\[
+ (-1,-1),\ (1,-1),\ (1+9t,-1+t),\ (1+9t,1-t),\ (1,1),\ (-1,1).
+\]
+Direct polygon formulas give
+\begin{equation}\label{eq:AP}
+ A(t)=|K_t|=4+18t-9t^2,\qquad
+ P(t)=|\partial K_t|=8+\kappa t,\qquad
+ \kappa=2\sqrt{82}-2.
+\end{equation}
+Set $p(t)=P(t)/A(t)$ and $m=\min_{[0,1]}p$. Figure~\ref{fig:domain} shows the geometry and the transverse-energy barrier.
+
+\begin{lemma}\label{lem:barrier}
+The function $p$ has a unique minimum at some $t_*\in(1/3,1/2)$. Moreover,
+\[
+ 0<p(t)\le2,\qquad m<\frac32,\qquad
+ p(t)\ge\frac85\quad\hbox{for }\frac34\le t\le1,
+\]
+and $|p''(t)|<200$ on $[0,1]$.
+\end{lemma}
+\begin{proof}
+We have $16<\kappa<17$, $4\le A\le13$, and
+\[
+ p'(t)=\frac{N(t)}{A(t)^2},\qquad
+ N(t)=4\kappa-144+144t+9\kappa t^2.
+\]
+The numerator is strictly increasing, with $N(1/3)=5\kappa-96<0$ and $N(1/2)=25\kappa/4-72>0$. This proves the unique minimum and its location. Also
+\[
+ 2A-P=t(36-\kappa-18t)\ge t(18-\kappa)\ge0,
+\]
+and
+\[
+ p(1/2)=\frac{4(7+\sqrt{82})}{43}<\frac32
+\]
+because $\sqrt{82}<73/8$.
+
+For the central barrier, put
+\[
+ B(t)=P(t)-\frac85A(t)
+ =\frac85+\left(\kappa-\frac{144}{5}\right)t+\frac{72}{5}t^2.
+\]
+At $t=3/4$, $B(3/4)=\tfrac32\sqrt{82}-\tfrac{67}{5}>0$. On $[3/4,1]$,
+$B'(t)\ge\kappa-36/5>0$. Thus $p\ge8/5$ there.
+Finally, $|N|<221$, $|N'|<450$, $|A'|\le18$, and $A\ge4$, so
+\[
+ |p''|\le\frac{450}{16}+\frac{2\cdot221\cdot18}{64}<200.
+\]
+\end{proof}
+
+Define the unscaled three-dimensional polytope
+\[
+ C=\conv\bigl((\{-1,1\}\times K)\cup\{(0,10,0)\}\bigr)
+\]
+and its anisotropic thinning
+\begin{equation}\label{eq:domain}
+ \Omega_\eps=\{(x,\eps y):(x,y)\in\operatorname{int}C\}.
+\end{equation}
+For $|x|<1$, its transverse section is $\eps\operatorname{int}K_{1-|x|}$. Indeed, the section of the convex hull is
+\[
+ \conv\bigl(K,\ |x|K+(1-|x|)a\bigr)
+ =|x|K+(1-|x|)H.
+\]
+Equivalently, in coordinates $(x,z_1,z_2)$,
+\begin{equation}\label{eq:halfspaces}
+ \Omega_\eps=\left\{
+ \begin{array}{l}
+ |x|<1,\quad |z_2|<\eps,\quad z_1>-\eps,\\
+ z_1+9|z_2|<10\eps,\quad z_1+9\eps|x|<10\eps
+ \end{array}\right\}.
+\end{equation}
+This is an intersection of nine open half-spaces, hence is bounded, convex, connected, and Lipschitz. It is invariant under $x\mapsto-x$.
+
+The diameter of a polytope is attained between vertices. The two possible largest squared vertex distances are $4+8\eps^2$ and $1+122\eps^2$. Therefore, for $114\eps^2\le3$,
+\begin{equation}\label{eq:diam}
+ D_\eps:=\diam\Omega_\eps=2\sqrt{1+2\eps^2}.
+\end{equation}
+
+% BEGIN GENERATED DOMAIN FIGURE
+\begin{figure}[tb]
+\centering
+\begin{tikzpicture}[scale=0.9]
+\draw[fill=cyan!12,fill opacity=.4,draw=black!65,line width=.5pt] (0.90000,-0.80000) -- (-1.60000,-0.80000) -- (-0.90000,-0.30000) -- (1.60000,-0.30000) -- cycle;
+\draw[fill=cyan!12,fill opacity=.4,draw=black!65,line width=.5pt] (1.60000,-0.30000) -- (-0.90000,-0.30000) -- (3.50000,2.50000) -- cycle;
+\draw[fill=cyan!12,fill opacity=.4,draw=black!65,line width=.5pt] (0.90000,0.30000) -- (0.90000,-0.80000) -- (1.60000,-0.30000) -- (1.60000,0.80000) -- cycle;
+\draw[fill=cyan!12,fill opacity=.4,draw=black!65,line width=.5pt] (-0.90000,-0.30000) -- (-1.60000,-0.80000) -- (-1.60000,0.30000) -- (-0.90000,0.80000) -- cycle;
+\draw[fill=cyan!12,fill opacity=.4,draw=black!65,line width=.5pt] (-1.60000,0.30000) -- (-1.60000,-0.80000) -- (0.90000,-0.80000) -- (0.90000,0.30000) -- cycle;
+\draw[fill=cyan!12,fill opacity=.4,draw=black!65,line width=.5pt] (1.60000,0.80000) -- (1.60000,-0.30000) -- (3.50000,2.50000) -- cycle;
+\draw[fill=cyan!12,fill opacity=.4,draw=black!65,line width=.5pt] (3.50000,2.50000) -- (-0.90000,-0.30000) -- (-0.90000,0.80000) -- cycle;
+\draw[fill=cyan!12,fill opacity=.4,draw=black!65,line width=.5pt] (3.50000,2.50000) -- (-0.90000,0.80000) -- (1.60000,0.80000) -- cycle;
+\draw[fill=cyan!12,fill opacity=.4,draw=black!65,line width=.5pt] (-0.90000,0.80000) -- (-1.60000,0.30000) -- (0.90000,0.30000) -- (1.60000,0.80000) -- cycle;
+\node[align=center] at (1,3.6) {Starting polytope\\$(x,z_1/\varepsilon,z_2/\varepsilon)$};
+\begin{scope}[shift={(5.6,-.9)}]
+\draw[->] (0,0) -- (6,0) node[right] {$x$};
+\draw[->] (0,0) -- (0,4.4) node[above] {$p(1-|x|)$};
+\fill[orange!15] (2.15625,0) rectangle (3.59375,4);
+\draw[blue!60!black,thick] plot coordinates {(0.00000,3.60000) (0.03594,3.25081) (0.07188,2.94392) (0.10781,2.67274) (0.14375,2.43203) (0.17969,2.21752) (0.21562,2.02573) (0.25156,1.85376) (0.28750,1.69921) (0.32344,1.56005) (0.35938,1.43457) (0.39531,1.32132) (0.43125,1.21904) (0.46719,1.12665) (0.50313,1.04323) (0.53906,0.96796) (0.57500,0.90013) (0.61094,0.83911) (0.64687,0.78437) (0.68281,0.73541) (0.71875,0.69180) (0.75469,0.65316) (0.79063,0.61915) (0.82656,0.58947) (0.86250,0.56384) (0.89844,0.54201) (0.93437,0.52377) (0.97031,0.50892) (1.00625,0.49727) (1.04219,0.48866) (1.07812,0.48295) (1.11406,0.48000) (1.15000,0.47970) (1.18594,0.48192) (1.22188,0.48659) (1.25781,0.49359) (1.29375,0.50285) (1.32969,0.51431) (1.36563,0.52788) (1.40156,0.54351) (1.43750,0.56115) (1.47344,0.58074) (1.50938,0.60224) (1.54531,0.62561) (1.58125,0.65082) (1.61719,0.67783) (1.65313,0.70662) (1.68906,0.73717) (1.72500,0.76944) (1.76094,0.80344) (1.79688,0.83913) (1.83281,0.87651) (1.86875,0.91557) (1.90469,0.95631) (1.94063,0.99871) (1.97656,1.04279) (2.01250,1.08853) (2.04844,1.13595) (2.08438,1.18505) (2.12031,1.23584) (2.15625,1.28832) (2.19219,1.34251) (2.22812,1.39842) (2.26406,1.45607) (2.30000,1.51548) (2.33594,1.57667) (2.37188,1.63965) (2.40781,1.70446) (2.44375,1.77112) (2.47969,1.83966) (2.51562,1.91011) (2.55156,1.98250) (2.58750,2.05687) (2.62344,2.13325) (2.65938,2.21169) (2.69531,2.29223) (2.73125,2.37491) (2.76719,2.45978) (2.80313,2.54689) (2.83906,2.63629) (2.87500,2.72805) (2.91094,2.63629) (2.94688,2.54689) (2.98281,2.45978) (3.01875,2.37491) (3.05469,2.29223) (3.09062,2.21169) (3.12656,2.13325) (3.16250,2.05687) (3.19844,1.98250) (3.23438,1.91011) (3.27031,1.83966) (3.30625,1.77112) (3.34219,1.70446) (3.37813,1.63965) (3.41406,1.57667) (3.45000,1.51548) (3.48594,1.45607) (3.52188,1.39842) (3.55781,1.34251) (3.59375,1.28832) (3.62969,1.23584) (3.66563,1.18505) (3.70156,1.13595) (3.73750,1.08853) (3.77344,1.04279) (3.80938,0.99871) (3.84531,0.95631) (3.88125,0.91557) (3.91719,0.87651) (3.95312,0.83913) (3.98906,0.80344) (4.02500,0.76944) (4.06094,0.73717) (4.09687,0.70662) (4.13281,0.67783) (4.16875,0.65082) (4.20469,0.62561) (4.24063,0.60224) (4.27656,0.58074) (4.31250,0.56115) (4.34844,0.54351) (4.38438,0.52788) (4.42031,0.51431) (4.45625,0.50285) (4.49219,0.49359) (4.52813,0.48659) (4.56406,0.48192) (4.60000,0.47970) (4.63594,0.48000) (4.67188,0.48295) (4.70781,0.48866) (4.74375,0.49727) (4.77969,0.50892) (4.81562,0.52377) (4.85156,0.54201) (4.88750,0.56384) (4.92344,0.58947) (4.95938,0.61915) (4.99531,0.65316) (5.03125,0.69180) (5.06719,0.73541) (5.10313,0.78437) (5.13906,0.83911) (5.17500,0.90013) (5.21094,0.96796) (5.24688,1.04323) (5.28281,1.12665) (5.31875,1.21904) (5.35469,1.32132) (5.39062,1.43457) (5.42656,1.56005) (5.46250,1.69921) (5.49844,1.85376) (5.53437,2.02573) (5.57031,2.21752) (5.60625,2.43203) (5.64219,2.67274) (5.67813,2.94392) (5.71406,3.25081) (5.75000,3.60000)};
+\draw[orange!70!black,dashed] (0,1.2) -- (5.75,1.2);
+\node[left] at (0,1.2) {$8/5$};
+\node[left] at (0,3.6) {$2$};
+\node[below] at (0,0) {$-1$};
+\node[below] at (2.875,0) {$0$};
+\node[below] at (5.75,0) {$1$};
+\end{scope}
+\end{tikzpicture}
+\caption{The convex polytope is shown with transverse coordinates rescaled by $\varepsilon^{-1}$; it is not drawn at physical aspect ratio. The right panel shows the two minima of the fiber perimeter-to-area ratio and the central slab (shaded). The smooth counterexample is a sufficiently small member of the explicit family in Section~\ref{sec:smoothing}.}
+\label{fig:domain}
+\end{figure}
+% END GENERATED DOMAIN FIGURE
+
+\section{A uniform small-parameter Robin estimate on every fiber}
+We provide the uniform remainder explicitly. No thin-domain spectral-limit theorem is assumed.
+
+\begin{lemma}\label{lem:fiber}
+Let $\mu_1(K_t;\beta)$ be the first Robin eigenvalue on the interior of $K_t$. For every $t\in[0,1]$ and $0<\beta\le1/976$,
+\begin{equation}\label{eq:fiber}
+ \beta p(t)-10100\beta^2\le\mu_1(K_t;\beta)\le\beta p(t).
+\end{equation}
+\end{lemma}
+\begin{proof}
+Every $K_t$ contains the unit disk, is contained in the disk of radius ten, has area at least four, has perimeter less than twenty-five, and has diameter at most $\sqrt{122}$.
+
+First, every convex planar set $V$ of diameter $d$ satisfies
+\begin{equation}\label{eq:poincare}
+ \int_V|w-w_V|^2\le2d^2\int_V|\nabla w|^2,
+ \qquad w_V=|V|^{-1}\int_Vw.
+\end{equation}
+For completeness, the variance equals $(2|V|)^{-1}\int_{V\times V}|w(y)-w(z)|^2\,dy\,dz$. Along the segment from $z$ to $y$, the squared difference is at most
+$d^2\int_0^1|\nabla w((1-s)z+sy)|^2\,ds$. For $s\ge1/2$, change $y$ to the intermediate point; the Jacobian is at most four. For $s\le1/2$, change $z$ instead. Convexity keeps the intermediate points in $V$. Integrating gives \eqref{eq:poincare}, first for smooth functions and then by density. Thus the fibers have the common Poincare constant $C_P=244$.
+
+Let $w$ have mean zero on $K_t$ and write $E=\int_{K_t}|\nabla w|^2$. Since $y\cdot\nu\ge1$ almost everywhere on its boundary, the divergence theorem gives
+\begin{align*}
+ \int_{\partial K_t}w^2
+ &\le\int_{\partial K_t}(y\cdot\nu)w^2\\
+ &=2\int_{K_t}w^2+2\int_{K_t}w\,y\cdot\nabla w\\
+ &\le(488+20\sqrt{244})E<808E.
+\end{align*}
+The identity and inequality extend to $H^1$ by density and the trace theorem.
+
+Now take any real $v=b+w$ with mean-zero $w$ and $\int_{K_t}v^2=1$. Then $|b|\le1/2$ and $A(t)b^2=1-\|w\|_2^2$. Dropping the nonnegative term $\beta\int_{\partial K_t}w^2$ and estimating the cross term,
+\begin{align*}
+ \int_{K_t}|\nabla v|^2+\beta\int_{\partial K_t}v^2
+ &\ge E+\beta P(t)b^2-2\beta|b|\left|\int_{\partial K_t}w\right|\\
+ &\ge\beta p(t)+(1-244\beta p(t))E
+        -\beta\sqrt{25\cdot808}\sqrt E\\
+ &\ge\beta p(t)+\tfrac12 E-\beta\sqrt{20200}\sqrt E\\
+ &\ge\beta p(t)-10100\beta^2.
+\end{align*}
+We used $p(t)\le2$ and $\beta\le1/976$. Minimize over $v$ for the lower bound. A constant test function gives the upper bound.
+\end{proof}
+
+\section{Three-dimensional ground energy and central mass}
+In this and the next two sections $\alpha=1$. Let $u_\eps$ be the positive ground state on $\Omega_\eps$, normalized by $\int_{\Omega_\eps}u_\eps^2=1$, and write $\lambda_\eps=\rho_1(\Omega_\eps;1)$.
+
+\subsection{Lower bound by transverse slicing}
+On each lateral facet the surface measure has the form $\sqrt{1+|V_n|^2}\,ds_z\,dx$, where $V_n$ is the fiber boundary's normal velocity. The factor is at least one. Summing over facets (or using the surface coarea formula) implies, for $v\in H^1(\Omega_\eps)$,
+\[
+ \int_{\partial\Omega_\eps}v^2
+ \ge\int_{-1}^1\int_{\partial(\eps K_{1-|x|})}v(x,z)^2\,ds_z\,dx.
+\]
+Indeed, the tangential gradient of the coordinate $x$ has length at most one. End faces may be discarded because the boundary parameter is positive. For $H^1$ functions, use density and slicing.
+
+Discarding longitudinal gradient energy and applying Lemma~\ref{lem:fiber} with $\beta=\eps$ on each section gives, when $\eps\le1/976$,
+\begin{equation}\label{eq:full-lower}
+ q_{\Omega_\eps,1}[v]\ge
+ \int_{-1}^1\left(\frac{p(1-|x|)}{\eps}-10100\right)
+ \int_{\eps K_{1-|x|}}v(x,z)^2\,dz\,dx.
+\end{equation}
+Here the scaling identity is
+$\mu_1(\eps K_t;1)=\eps^{-2}\mu_1(K_t;\eps)$.
+
+Let
+\[
+ M_\eps=\int_{\Omega_\eps\cap\{|x|\le1/4\}}u_\eps^2.
+\]
+On this slab, $1-|x|\ge3/4$, so $p(1-|x|)-m\ge1/10$. Consequently,
+\begin{equation}\label{eq:mass-lower}
+ \lambda_\eps\ge\frac m\eps-10100+\frac{M_\eps}{10\eps}.
+\end{equation}
+
+\subsection{Upper bound from a localized, transversely constant function}
+For a function $v(x,z)=f(x)$, supported away from $x=\pm1$, its volume and gradient integrals are exactly
+\[
+ \int_{\Omega_\eps}v^2=\eps^2\int_{-1}^1 A(1-|x|)f^2\,dx,\qquad
+ \int_{\Omega_\eps}|\nabla v|^2=\eps^2\int_{-1}^1 A(1-|x|)|f'|^2\,dx.
+\]
+The lateral boundary integral is
+\begin{equation}\label{eq:lateral}
+ \int_{\partial\Omega_\eps}v^2
+ =\eps\int_{-1}^1\left[P(1-|x|)
+ +2|x|\left(\sqrt{1+81\eps^2}-1\right)\right]f^2\,dx.
+\end{equation}
+To check this formula directly, three fixed fiber sides have total length six, two fixed slanted sides have combined length $2t\sqrt{82}$, and the moving right side has length $2(1-t)$ and physical normal speed $9\eps$. Its surface factor is therefore $\sqrt{1+81\eps^2}$. The end faces give zero because of the support of $f$.
+
+Put $x_*=1-t_*\in(1/2,2/3)$, $h=\eps^{1/4}\le1/4$, and choose
+\[
+ f(x)=\begin{cases}
+ \cos\bigl(\pi(x-x_*)/(2h)\bigr),&|x-x_*|\le h,\\
+ 0,&|x-x_*|>h.
+ \end{cases}
+\]
+This is an admissible $H^1$ function, supported in $0<x<1$. Since $4\le A\le13$,
+\[
+ \frac{\int A|f'|^2}{\int Af^2}\le\frac{13\pi^2}{16h^2}<\frac9{h^2}.
+\]
+Lemma~\ref{lem:barrier} and $p'(t_*)=0$ give $p(1-x)-m\le100h^2$ on the support. Finally,
+$\sqrt{1+81\eps^2}-1\le81\eps^2/2$, and the extra term in \eqref{eq:lateral}, after division by the mass, is at most $81\eps/4<21\eps$. The Rayleigh principle yields
+\begin{equation}\label{eq:full-upper}
+ \lambda_\eps\le\frac m\eps+\frac9{h^2}+\frac{100h^2}\eps+21\eps
+ \le\frac m\eps+130\eps^{-1/2}
+\end{equation}
+for $0<\eps\le1/256$. Combining \eqref{eq:mass-lower} and \eqref{eq:full-upper},
+\begin{equation}\label{eq:mass}
+ M_\eps\le1300\sqrt\eps+101000\eps
+ \qquad (0<\eps\le1/976).
+\end{equation}
+
+\section{A ground-state cutoff makes the gap small}
+The first eigenvalue on a bounded connected Lipschitz domain is simple, and its ground state can be chosen positive. Reflection symmetry therefore gives $u_\eps(-x,z)=u_\eps(x,z)$. Define the odd Lipschitz function
+\[
+ \chi(x)=\begin{cases}-1,&x\le-1/4,\\4x,&|x|\le1/4,\\1,&x\ge1/4.\end{cases}
+\]
+Then $\chi u_\eps\perp u_\eps$ in $L^2(\Omega_\eps)$ and
+$\|\chi u_\eps\|_2^2\ge1-M_\eps$. Testing the ground-state equation against $\chi^2u_\eps$ proves the exact identity
+\begin{equation}\label{eq:ground-id}
+ q_{\Omega_\eps,1}[\chi u_\eps]
+ -\lambda_\eps\|\chi u_\eps\|_2^2
+ =\int_{\Omega_\eps}u_\eps^2|\nabla\chi|^2=16M_\eps.
+\end{equation}
+Thus, whenever the right side of \eqref{eq:mass} is less than one,
+\begin{equation}\label{eq:gap}
+ 0<\gap(\Omega_\eps;1)
+ \le\frac{16M_\eps}{1-M_\eps}
+ \le\frac{16(1300\sqrt\eps+101000\eps)}{1-1300\sqrt\eps-101000\eps}.
+\end{equation}
+In particular, the gap is $O(\sqrt\eps)$ and tends to zero.
+
+At the explicit choice $\eps_*=10^{-12}$,
+\[
+ M_{\eps_*}\le\frac{1300101}{10^9},\qquad
+ \gap(\Omega_{\eps_*};1)
+ \le\frac{20801616}{998699899}<0.021.
+\]
+This is an analytic upper bound, not a computed three-dimensional eigenvalue.
+
+\section{The interval comparison stays separated from zero}
+Let $D=D_{\eps_*}$ and $L=D/2=\sqrt{1+2\eps_*^2}$. Translating the interval to $(-L,L)$, its first two eigenvalues are $q_1^2/L^2$ and $q_2^2/L^2$, where
+\[
+ q_1\tan q_1=L,\quad 0<q_1<\pi/2;\qquad
+ -q_2\cot q_2=L,\quad \pi/2<q_2<\pi.
+\]
+The corresponding even and odd eigenfunctions have respectively zero and one interior zero, so these are indeed the first two eigenvalues.
+
+Since $L<1.01<4/3<\tan1$, monotonicity of $q\tan q$ gives $q_1<1$. Also $-2\cot2<1\le L$, so $q_2>2$. The latter elementary inequality can be certified without decimal trigonometry: alternating Taylor bounds give
+\[
+ \sin2>2-\frac{2^3}{3!}+\frac{2^5}{5!}-\frac{2^7}{7!},\qquad
+ \cos2>1-\frac{2^2}{2!}+\frac{2^4}{4!}-\frac{2^6}{6!},
+\]
+and the sum of the first lower bound and twice the second is $4/63>0$. Therefore,
+\begin{equation}\label{eq:interval}
+ g(D;1)>\frac3{L^2}=\frac3{1+2\eps_*^2}>2.9.
+\end{equation}
+The inequality $\tan1>4/3$ follows, for example, from $\tan x>x$ and integration of $(\tan x)'=1+\tan^2x$ on $(0,1)$.
+
+Equations \eqref{eq:gap} and \eqref{eq:interval} already give a strict counterexample in the convex polyhedral class. The remaining section proves the required smoothness transfer.
+
+\section{Explicit smoothing and convergence of the Robin spectrum}\label{sec:smoothing}
+\subsection{A smooth strongly convex defining function}
+Fix $\eps=\eps_*$ and put $P=\overline{\Omega_{\eps_*}}$. Write the nine inequalities in \eqref{eq:halfspaces} as $a_i\cdot X<1$. Explicitly the vectors are
+\begin{align*}
+ &(1,0,0),\ (-1,0,0),\ (0,0,\eps^{-1}),\ (0,0,-\eps^{-1}),\ (0,-\eps^{-1},0),\\
+ &(0,(10\eps)^{-1},9(10\eps)^{-1}),\
+ (0,(10\eps)^{-1},-9(10\eps)^{-1}),\\
+ &(9/10,(10\eps)^{-1},0),\ (-9/10,(10\eps)^{-1},0).
+\end{align*}
+The Minkowski gauge of $P$ is $G(X)=\max_i a_i\cdot X$. For $\delta>0$, define
+\begin{equation}\label{eq:smoothing}
+ \Phi_\delta(X)=\delta\log\left(\sum_{i=1}^9
+ e^{a_i\cdot X/\delta}\right)+\delta|X|^2,
+ \qquad U_\delta=\{X:\Phi_\delta(X)<1\}.
+\end{equation}
+We have $D^2\Phi_\delta\ge2\delta I$. For sufficiently small $\delta$, $\Phi_\delta(0)=\delta\log9<1$, so $U_\delta$ is nonempty. A strongly convex differentiable function has no critical point on a level strictly above its minimum. Hence $U_\delta$ has a $C^\infty$ boundary with positive definite second fundamental form. It is bounded and strictly convex.
+
+The inequalities
+\[
+ G(X)\le\Phi_\delta(X)\le G(X)+\delta\log9+\delta|X|^2
+\]
+imply that $U_\delta\subset\operatorname{int}P$ and that their closures converge to $P$ in Hausdorff distance. In particular, their diameters converge to $D$.
+
+\subsection{Why the Robin eigenvalues converge}
+We include this step to avoid incorrectly using domain monotonicity, which is not available for arbitrary positive-Robin inclusions.
+
+\begin{lemma}\label{lem:smoothing-spectrum}
+For each fixed $j$,
+\[
+ \rho_j(U_\delta;1)\longrightarrow\rho_j(\Omega_{\eps_*};1)
+ \quad\hbox{as }\delta\downarrow0.
+\]
+\end{lemma}
+\begin{proof}
+Write the boundaries radially as $R(\theta)\theta$ and $R_\delta(\theta)\theta$, $\theta\in\mathbb S^2$. The bodies contain a common ball about zero and lie in a common bounded ball. Their radial functions are uniformly positive and uniformly Lipschitz. More explicitly, uniform convergence follows from the displayed estimate on $\Phi_\delta-G$. The radial derivative of $\Phi_\delta$ at its level surface has a positive lower bound: convexity gives
+\[
+ X\cdot\nabla\Phi_\delta(X)\ge\Phi_\delta(X)-\Phi_\delta(0)
+ =1-\delta\log9\ge\tfrac12.
+\]
+The gradients $\nabla\Phi_\delta$ are bounded on the fixed enclosing ball for this fixed $\eps$. Implicit differentiation consequently gives the asserted uniform Lipschitz bound for $R_\delta$.
+
+Except on a surface-measure-zero set of directions hitting a polytope edge or vertex, one facet $a_i$ is uniquely active. At those directions, the soft maximum has gradient tending to $a_i$. Implicit differentiation of
+$\Phi_\delta(R_\delta(\theta)\theta)=1$ then yields
+\[
+ R_\delta\to R\ \hbox{uniformly},\qquad
+ \nabla_{\mathbb S^2}R_\delta\to\nabla_{\mathbb S^2}R
+ \quad\hbox{almost everywhere}.
+\]
+The radial maps
+\[
+ F_\delta(r\theta)=r\frac{R_\delta(\theta)}{R(\theta)}\theta
+\]
+are uniformly bi-Lipschitz from $\Omega_{\eps_*}$ onto $U_\delta$. They satisfy $DF_\delta\to I$ almost everywhere, and their tangential derivatives tend to the identity almost everywhere on each face of $\partial P$.
+
+Pull the forms and mass integrals back to the fixed space $H^1(\Omega_{\eps_*})$. With $J_\delta=\det DF_\delta$, surface Jacobian $b_\delta$, and
+\[
+ A_\delta=J_\delta DF_\delta^{-1}DF_\delta^{-T},
+\]
+they become
+\[
+ q_\delta[v]=\int_{\Omega_{\eps_*}}A_\delta\nabla v\cdot\nabla v
+     +\int_{\partial\Omega_{\eps_*}}b_\delta v^2,
+ \qquad m_\delta[v]=\int_{\Omega_{\eps_*}}J_\delta v^2.
+\]
+The coefficients are uniformly bounded, $A_\delta$ is uniformly elliptic, the volume and surface Jacobians are bounded away from zero, and
+$A_\delta\to I$, $J_\delta\to1$, $b_\delta\to1$ almost everywhere. All constants here may depend on the already fixed $\eps_*$. Dominated convergence on a fixed finite-dimensional eigenspace and the min--max principle give
+\[
+ \limsup_{\delta\downarrow0}\rho_j(U_\delta;1)
+ \le\rho_j(\Omega_{\eps_*};1).
+\]
+For the reverse bound, take the first $j$ normalized eigenfunctions on $U_\delta$ and pull them back. The preceding upper bound and ellipticity give uniform $H^1$ bounds. Along a subsequence they converge weakly in $H^1$, strongly in $L^2$ of the fixed domain, and strongly in $L^2$ of its boundary by compactness of the trace map. The limiting functions are orthonormal: strong $L^2$ convergence and bounded almost-everywhere convergence of $J_\delta$ pass their weighted inner products to the limit.
+
+The boundary form and mass pass to the limit. For example, strong boundary $L^2$ convergence passes products to $L^1$, while bounded almost-everywhere convergence of $b_\delta$ handles the remaining fixed product by dominated convergence. For the gradient term, if $v_\delta\rightharpoonup v$ in $H^1$, then
+$A_\delta^{1/2}\nabla v_\delta\rightharpoonup\nabla v$ in $L^2$: test against a fixed $L^2$ field and use bounded almost-everywhere convergence of $A_\delta^{1/2}$. Thus
+\[
+ \int|\nabla v|^2\le\liminf\int A_\delta\nabla v_\delta\cdot\nabla v_\delta.
+\]
+Apply this to every linear combination of the first $j$ pulled-back eigenfunctions along a subsequence realizing the lower limit of the $j$th eigenvalue. The min--max principle on their limiting $j$-dimensional span gives the reverse lower bound. This proves convergence.
+\end{proof}
+
+\subsection{One fixed smooth counterexample}
+The interval eigenvalues, hence $g(D;1)$, depend continuously on $D>0$, either by their root equations or by scaling the interval to unit length. By Lemma~\ref{lem:smoothing-spectrum}, for all sufficiently small $\delta>0$,
+\[
+ |\rho_i(U_\delta;1)-\rho_i(\Omega_{\eps_*};1)|<0.1,
+ \qquad i=1,2,
+\]
+and, by diameter convergence and \eqref{eq:interval}, $g(\diam U_\delta;1)>2$. Consequently,
+\[
+ \gap(U_\delta;1)<0.021+0.2=0.221<2<g(\diam U_\delta;1).
+\]
+Choose any one such $\delta$. The resulting $U=U_\delta$ is a fixed bounded smooth strictly convex domain satisfying Theorem~\ref{thm:main}. \qed
+
+\section{Scope, checks, and possible audit points}
+\textbf{Exact target match.} The construction uses $d=3$, which is allowed by $d\ge2$; the same positive parameter $\alpha=1$ is used on the domain and the comparison interval. The comparison uses the domain's actual diameter. The ultimate domain is Euclidean, connected, $C^\infty$, and strictly convex. The conclusion is a strict violation on a single fixed smooth domain, not merely on a polyhedral or changing-domain model.
+
+\textbf{What this does not establish.} It does not settle a separately posed planar-only version. It makes no claim about novelty or external acceptance. No quantitative numerical value of the smoothing parameter $\delta$ has been certified; its sufficiently-small regime is justified by the proved spectral convergence.
+
+\textbf{Reproducibility.} The program \texttt{check\_counterexample.py} requires only the Python standard library. It checks 25 finite inequalities using exact rational arithmetic and independently checks the fiber area and perimeter by polygon formulas at nine sample parameters. It also supplies clearly labeled floating-point values for the geometric minimum and the length-two interval eigenvalues. It does not solve the three-dimensional PDE numerically.
+
+\textbf{Main proof points for independent review.} The substantive steps are the fiber identity \eqref{eq:AP}, the uniform estimate \eqref{eq:fiber}, the coarea lower bound \eqref{eq:full-lower}, the exact lateral measure \eqref{eq:lateral}, the ground-state identity \eqref{eq:ground-id}, and the smooth spectral convergence in Lemma~\ref{lem:smoothing-spectrum}. No numerical approximation is used in place of these steps.
+
+\textbf{Consistency of limits.} The construction keeps $\alpha>0$ fixed while two transverse dimensions shrink. It does not take the Neumann limit $\alpha\to0$ or the Dirichlet limit $\alpha\to\infty$ on a fixed domain. Thus it does not conflict with the corresponding Neumann or Dirichlet diameter-gap theorems discussed in \cite{laugesen}.
+
+\begingroup\raggedright
+\begin{thebibliography}{9}
+\bibitem{aim}
+S. Brunton, M. J. Colbrook, M. V. de Hoop, G. Stepaniants, A. Townsend and R. Ward,
+\emph{AIM---Open Applied Problems}, problem 021, \emph{The Robin fundamental gap conjecture},
+repository revision \texttt{37a2536} (2 October 2026).\\
+\href{https://github.com/MColbrook/AIM/blob/37a25361f243be77daea0ae0b3c5167b57f1b5f3/problems/021-robin-fundamental-gap.md}{Pinned repository statement and original references}.
+
+\bibitem{laugesen}
+R. S. Laugesen, \emph{The Robin Laplacian---spectral conjectures, rectangular theorems},
+Journal of Mathematical Physics \textbf{60} (2019), 121507, Conjecture F and Theorem 3.8.\\
+\href{https://doi.org/10.1063/1.5116253}{doi:10.1063/1.5116253}; \url{https://arxiv.org/abs/1905.07658}.
+
+\bibitem{andrews2020}
+B. Andrews, J. Clutterbuck and D. Hauer, \emph{Non-concavity of the Robin ground state},
+Cambridge Journal of Mathematics \textbf{8} (2020), 243--310, Sections 2 and 10.\\
+\href{https://doi.org/10.4310/CJM.2020.v8.n2.a1}{doi:10.4310/CJM.2020.v8.n2.a1}.
+The earlier preprint has the title \emph{Non-concavity of Robin eigenfunctions},
+\url{https://arxiv.org/abs/1711.02779}.
+
+\bibitem{andrews2021}
+B. Andrews, J. Clutterbuck and D. Hauer, \emph{The fundamental gap for a one-dimensional
+Schr\"odinger operator with Robin boundary conditions}, Proceedings of the American
+Mathematical Society \textbf{149} (2021), 1481--1493.\\
+\href{https://doi.org/10.1090/proc/15140}{doi:10.1090/proc/15140}; \url{https://arxiv.org/abs/2002.06900}.
+
+\bibitem{kielty}
+D. Kielty, \emph{Degeneration of the spectral gap with negative Robin parameter},
+arXiv:2105.02323v2 (2022), Theorem 2.\\
+\url{https://arxiv.org/abs/2105.02323v2}.
+
+\bibitem{daners}
+D. Daners, \emph{Robin boundary value problems on arbitrary domains},
+Transactions of the American Mathematical Society \textbf{352} (2000), 4207--4236.\\
+\href{https://doi.org/10.1090/S0002-9947-00-02444-2}{doi:10.1090/S0002-9947-00-02444-2}.
+
+\bibitem{mclean}
+W. McLean, \emph{Strongly Elliptic Systems and Boundary Integral Equations},
+Cambridge University Press, Cambridge, 2000, Chapter 3. ISBN 978-0-521-66332-8.\\
+\url{https://www.cambridge.org/9780521663328}.
+\end{thebibliography}
+\endgroup
+\end{document}

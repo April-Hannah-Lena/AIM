@@ -57,8 +57,8 @@ Searches on September 18, 2026 covered the strong conjecture, both competitive-r
 
 The published DOI for [2] blocked the direct link check; its accessible author manuscript supplied the full formulation. Review was performed by the researching agent with a separated adversarial self-pass.
 
-[Entry 316](../../../problems/316-online-bin-packing-optimal-ratio.md) minimizes bin count under adversarial arrival order. [Entries 279](../../../problems/279-unrelated-machine-makespan.md) and [280](../../../problems/280-general-santa-claus.md) concern offline scheduling and max-min allocation. [Entry 324](../../../problems/324-strong-thin-tree.md) asks for one tree satisfying all cut inequalities. None asks for this random-order selection guarantee.
+[Entry 316](../../../problems/315-online-bin-packing-optimal-ratio.md) minimizes bin count under adversarial arrival order. [Entries 279](../../../problems/278-unrelated-machine-makespan.md) and [280](../../../problems/279-general-santa-claus.md) concern offline scheduling and max-min allocation. [Entry 324](../../../problems/323-strong-thin-tree.md) asks for one tree satisfying all cut inequalities. None asks for this random-order selection guarantee.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
 
-Integrated page: [341. The sharp matroid secretary conjecture](../../../problems/331-sharp-matroid-secretary.md).
+Integrated page: [341. The sharp matroid secretary conjecture](../../../problems/330-sharp-matroid-secretary.md).

@@ -56,8 +56,8 @@ The older logarithmic hardness in [1, Corollary 2.1] allows nonunit processing t
 
 The review covered aliases, current and unrestricted dates, proof, disproof, algorithm, correction and version searches. Detailed comparisons and source limits appear in the [evidence ledger](../candidates/unit-job-unique-machine-hardness.json). The companion conjecture restricting the machine count and the downstream delay problems are not counted as additional entries.
 
-Unlike [three-processor unit-job scheduling](../../../problems/302-three-processor-unit-scheduling.md), machines here are prescribed separately for each job and their number varies; the target is a growing approximation gap. [Unrelated-machine makespan](../../../problems/279-unrelated-machine-makespan.md) has assignment-dependent durations but no precedence constraints. [List edge-colouring](list-edge-colouring.md) asks for an existence guarantee for two-resource jobs under availability lists.
+Unlike [three-processor unit-job scheduling](../../../problems/301-three-processor-unit-scheduling.md), machines here are prescribed separately for each job and their number varies; the target is a growing approximation gap. [Unrelated-machine makespan](../../../problems/278-unrelated-machine-makespan.md) has assignment-dependent durations but no precedence constraints. [List edge-colouring](list-edge-colouring.md) asks for an existence guarantee for two-resource jobs under availability lists.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
 
-Integrated page: [350. Polynomial-factor hardness of scheduling unit jobs on prescribed machines](../../../problems/340-unit-job-unique-machine-hardness.md).
+Integrated page: [350. Polynomial-factor hardness of scheduling unit jobs on prescribed machines](../../../problems/339-unit-job-unique-machine-hardness.md).

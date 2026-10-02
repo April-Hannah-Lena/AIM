@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-revision: 82
+revision: 83
 current_problem: "001"
 phase: research
 status: open
@@ -59,10 +59,10 @@ current_campaign:
 last_sol_run: "research/automated_attempts/001/attempts/2026-09-08_1206_sol.md"
 last_astra_run: "2026-09-08T13:14:00Z"
 last_astra_review: "research/automated_attempts/001/reviews/2026-09-08_1314_astra.md"
-last_queue_sync: "2026-10-02T06:51:20.777871+00:00"
-queue_snapshot_commit: "21aba183ad8281c02f3b2eb9c12743c9cbecf93a"
+last_queue_sync: "2026-10-02T08:58:31.960491+00:00"
+queue_snapshot_commit: "dd0e96874add04c0ea8bbd10342fd2f6bd630639"
 queue_manifest_initial_commit: "05e95237c571731534faaee9d4aa29865b5962b1"
-current_problem_count_observed: 652
+current_problem_count_observed: 651
 newly_discovered_problems: []
 queue_integrity_issues: []
 new_problem_ids_this_run: []
@@ -148,14 +148,17 @@ run_history:
   - "revision 79: Administrative queue update after admissions661–662;662 active. No research attempt or proof verification."
   - "revision 80: Administrative queue update after admissions663–665;665 active. No research attempt or proof verification."
   - "revision 82: Administrative update after thirteen independently AI-reviewed resolutions; 652 active, 13 retained. No programme research or Astra invocation."
+  - "revision 83: Administrative update after external Robin gap resolution PR #16; 651 active, 14 retained. No programme attempt or Astra invocation; all campaign counters preserved."
   - "revision 81: Administrative removal of obsolete archive records; 665 active entries and no retained entries. No research attempt or proof verification."
-queue_snapshot_record: "research/automated_attempts/queue-sync-2026-10-02.json"
+queue_snapshot_record: "research/automated_attempts/queue-sync-2026-10-02-robin-gap.json"
 queue_snapshot_includes_working_tree_changes: true
-retained_problem_count_observed: 13
+retained_problem_count_observed: 14
 last_maintenance_kind: "administrative queue sync after independent AI solution review; no programme research or Astra invocation"
-renumbering_record: "research/solution_reviews/2026-10-02/id-mapping.json"
+renumbering_record: "research/solution_reviews/2026-10-02/021-id-mapping.json"
+previous_renumbering_record: "research/solution_reviews/2026-10-02/id-mapping.json"
 queue_sync_notes:
-  - "652 active and 13 solved retained records agree with the catalogue."
+  - "External Robin gap resolution PR #16; original 021 is now archive 652."
+  - "651 active and 14 solved retained records agree with the catalogue."
   - "Every surviving programme status and discovery date is preserved."
   - "Retired entries are ineligible; the historical snapshot and ID mapping are retained."
   - "Campaign 001 and its research/verification counters are unchanged."

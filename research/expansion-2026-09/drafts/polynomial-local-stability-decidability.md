@@ -53,8 +53,8 @@ Theorem 3 of [4] proves undecidability for a **discrete-time** system with ReLU 
 
 Unrestricted and recent resolution, counterexample, correction and version searches, theorem comparisons and access limits are recorded in the [evidence ledger](../candidates/polynomial-local-stability-decidability.json). Several sources are cited as exact preprint versions. Wiley's text conversion omitted formula images; its complete degree-bound and failure-branch prose was accessible. This review does not certify all cited proofs or rerun formalizations.
 
-The [arbitrary-switching problem](switched-linear-stability-decidability.md) concerns products of multiple linear maps in discrete time. [Generic static output feedback](../../../problems/320-generic-static-output-feedback-stabilization.md) concerns existence of a stabilizing gain, and [continuous Skolem](../../../problems/264-continuous-skolem-decidability.md) concerns a specified linear trajectory hitting a hyperplane. None states this nonlinear equilibrium decision problem. Global, homogeneous and fixed-degree variants are not counted separately.
+The [arbitrary-switching problem](switched-linear-stability-decidability.md) concerns products of multiple linear maps in discrete time. [Generic static output feedback](../../../problems/319-generic-static-output-feedback-stabilization.md) concerns existence of a stabilizing gain, and [continuous Skolem](../../../problems/263-continuous-skolem-decidability.md) concerns a specified linear trajectory hitting a hyperplane. None states this nonlinear equilibrium decision problem. Global, homogeneous and fixed-degree variants are not counted separately.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
 
-Integrated page: [349. Decidability of local asymptotic stability for polynomial ODEs](../../../problems/339-polynomial-local-stability-decidability.md).
+Integrated page: [349. Decidability of local asymptotic stability for polynomial ODEs](../../../problems/338-polynomial-local-stability-decidability.md).

@@ -8,13 +8,13 @@ All seven full drafts and their stated references, scope exclusions and prior re
 
 | ID | Canonical problem | Catalogue status |
 | --- | --- | --- |
-| 494 | [The sharp number of directions illuminating a convex body](../problems/487-hadwiger-boltyanski-illumination.md) | Partially resolved |
-| 495 | [The GNRS conjecture for minor-free network flow](../problems/488-gnrs-minor-free-flow-cut.md) | Partially resolved |
-| 496 | [The Fourier entropy–influence conjecture](../problems/489-fourier-entropy-influence.md) | Partially resolved |
-| 497 | [Global attraction in D-stable Lotka–Volterra systems](../problems/490-lotka-volterra-d-stable-global-attraction.md) | Partially resolved |
-| 498 | [Deterministic parallel perfect matching in general graphs](../problems/491-general-graph-perfect-matching-nc.md) | Partially resolved |
-| 499 | [Polynomial-time solution of simple stochastic games](../problems/492-simple-stochastic-games-polynomial-time.md) | Partially resolved |
-| 500 | [Constant-gap NP-hardness of densest k-subgraph](../problems/493-densest-k-subgraph-constant-gap-hardness.md) | Open |
+| 494 | [The sharp number of directions illuminating a convex body](../problems/486-hadwiger-boltyanski-illumination.md) | Partially resolved |
+| 495 | [The GNRS conjecture for minor-free network flow](../problems/487-gnrs-minor-free-flow-cut.md) | Partially resolved |
+| 496 | [The Fourier entropy–influence conjecture](../problems/488-fourier-entropy-influence.md) | Partially resolved |
+| 497 | [Global attraction in D-stable Lotka–Volterra systems](../problems/489-lotka-volterra-d-stable-global-attraction.md) | Partially resolved |
+| 498 | [Deterministic parallel perfect matching in general graphs](../problems/490-general-graph-perfect-matching-nc.md) | Partially resolved |
+| 499 | [Polynomial-time solution of simple stochastic games](../problems/491-simple-stochastic-games-polynomial-time.md) | Partially resolved |
+| 500 | [Constant-gap NP-hardness of densest k-subgraph](../problems/492-densest-k-subgraph-constant-gap-hardness.md) | Open |
 
 Six entries are marked Partial because the cited literature proves cases within their displayed targets. Each has explicit Known cases and Remaining target notes. The densest-k-subgraph entry stays Open: exact NP-hardness, stronger complexity assumptions and restricted-method lower bounds do not establish its unconditional constant-gap reduction.
 
