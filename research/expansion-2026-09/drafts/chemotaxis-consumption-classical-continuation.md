@@ -54,8 +54,8 @@ The planar version has global classical solutions. In higher dimensions, [3] pro
 
 Searches on 2026-09-17 covered chemotaxis-consumption, nutrient taxis, classical continuation, arbitrary data, proofs, counterexamples, author/version histories and corrections. A separated adversarial self-pass also compared a 2026 Robin-boundary result with an elliptic signal and a 2026 global theorem with an independently evolving migration velocity. Neither supplies the stated continuation result. The [evidence ledger](../candidates/chemotaxis-consumption-classical-continuation.json) records the full relevant theorem comparisons, the supplementary fluid-coupled weak-solution result, and access limitations. A 2025 small-data paper was accessible only through its publisher preview and is not used as decisive status evidence. The review was conducted by the same agent in separate passes.
 
-Related entry [305](../../../problems/305-reversible-reaction-classical-continuation.md) concerns reversible mass-action reactions with diagonal diffusion. Its formulation does not include the directed cross-diffusion flux in this problem.
+Related entry [305](../../../problems/304-reversible-reaction-classical-continuation.md) concerns reversible mass-action reactions with diagonal diffusion. Its formulation does not include the directed cross-diffusion flux in this problem.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
 
-Integrated page: [335. Global classical continuation in the chemotaxis-consumption system](../../../problems/325-chemotaxis-consumption-classical-continuation.md).
+Integrated page: [335. Global classical continuation in the chemotaxis-consumption system](../../../problems/324-chemotaxis-consumption-classical-continuation.md).

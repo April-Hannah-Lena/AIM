@@ -46,4 +46,4 @@ Aggarwal et al. derive hardness from additional worst-case assumptions rather th
 
 The September 17 searches also checked recent balanced-code preprocessing and sparse-XOR algorithms. Their full theorem statements change the advice or example distribution and do not settle this dense, uniform, fixed-noise question. The [evidence ledger](../candidates/learning-parity-noise.json) records these comparisons, version checks, duplicate screening and access limits. Search/decision formulations are treated as one problem family, not separate additions.
 
-A clearly separated adversarial self-pass passed on September 17. Integrated as [entry 307](../../../problems/307-learning-parity-noise.md) after the September 17, 2026 batch refresh.
+A clearly separated adversarial self-pass passed on September 17. Integrated as [entry 307](../../../problems/306-learning-parity-noise.md) after the September 17, 2026 batch refresh.

@@ -1,6 +1,6 @@
 # Expansion to 500: PDE emphasis, 22 September 2026
 
-This expansion added **141 problems**, now numbered **353–493**, bringing the collection at that historical checkpoint to **500 active problems**. The additions emphasize PDEs and their applications, including fluid and kinetic models, reaction–diffusion, nonlinear waves, free boundaries, geometric equations, control, nonlocal diffusion and stochastic PDEs. No numerical linear algebra problems were added.
+This expansion added **141 problems**, now numbered **352–492**, bringing the collection at that historical checkpoint to **500 active problems**. The additions emphasize PDEs and their applications, including fluid and kinetic models, reaction–diffusion, nonlinear waves, free boundaries, geometric equations, control, nonlocal diffusion and stochastic PDEs. No numerical linear algebra problems were added.
 
 Every new page has a mathematical statement, applied motivation, references with source locators, and a status review dated **2026-09-22**. “Open” means open in the cited literature with no later matching resolution found in targeted searches. It does not certify that no proof exists.
 

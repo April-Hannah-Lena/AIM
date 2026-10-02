@@ -26,7 +26,7 @@ The same constants must work for all dimensions and all facet counts. There are 
 
 ## Applied significance
 
-A bounded feasible region in linear programming is a polytope, and nondegenerate simplex pivots move between its vertices along edges. Its graph diameter therefore gives a geometric lower bound on the worst-case number of pivots needed when the starting vertex and objective vary. A superpolynomial diameter family would obstruct every uniformly polynomial pivot bound. A polynomial diameter bound would remove that obstruction, while leaving the additional tasks of choosing objective-improving steps and computing them efficiently. These extra algorithmic requirements are the subject of existing [entry 094](../../../problems/094-strongly-polynomial-simplex.md); the present question concerns the geometry of the feasible region.
+A bounded feasible region in linear programming is a polytope, and nondegenerate simplex pivots move between its vertices along edges. Its graph diameter therefore gives a geometric lower bound on the worst-case number of pivots needed when the starting vertex and objective vary. A superpolynomial diameter family would obstruct every uniformly polynomial pivot bound. A polynomial diameter bound would remove that obstruction, while leaving the additional tasks of choosing objective-improving steps and computing them efficiently. These extra algorithmic requirements are the subject of existing [entry 094](../../../problems/093-strongly-polynomial-simplex.md); the present question concerns the geometry of the feasible region.
 
 ## References
 
@@ -46,4 +46,4 @@ Black–Xue's Theorem 1.1 concerns coherent monotone paths, a restricted class o
 
 The [evidence ledger](../candidates/polynomial-hirsch.json) records source versions, theorem comparisons, duplicate checks and the separate adversarial review. The separated A23 adversarial self-pass passed on September 17, 2026. No independent agent or human review is claimed.
 
-Integrated as [entry 312](../../../problems/312-polynomial-hirsch.md) after the September 17, 2026 batch refresh.
+Integrated as [entry 312](../../../problems/311-polynomial-hirsch.md) after the September 17, 2026 batch refresh.

@@ -4,7 +4,7 @@ Twelve pull requests open at the start of the review supplied thirteen complete 
 
 All thirteen recorded targets are marked **Solved**, using the documented-independent-audit convention. This is AI review; it does not assert human peer review, proof-assistant verification, journal acceptance or novelty priority. Solved includes counterexamples to universal statements.
 
-Original IDs refer to revision aa776a01d7d48a79f93251af11fde9454b0aea95. The active collection now has 652 consecutive entries, and the retired records have IDs 653–665. [The complete mapping](id-mapping.json) preserves all 665 identities. Submitted files retain their original IDs, pinned links and pending-review wording.
+Original IDs refer to revision aa776a01d7d48a79f93251af11fde9454b0aea95. At this checkpoint the active collection had 652 consecutive entries, and the retired records have IDs 653–665. [The complete mapping](id-mapping.json) preserves all 665 identities. Submitted files retain their original IDs, pinned links and pending-review wording.
 
 | Original ID | Archive ID | PR | Conclusion | Mathematical audit |
 | --- | --- | --- | --- | --- |
@@ -38,3 +38,7 @@ Run [reproduce.py](reproduce.py) with its documented dependencies to recreate th
 The [catalogue preservation check](catalogue-preservation.json) compared all 665 identities against the pinned baseline, including statements, applications, references, publication batches and programme histories. Archive pages retain their statements, applications, references and previous status reviews. Current IDs, status, dated review and navigation were updated. Surviving active entries retain their statements, statuses and review dates. Publication-batch membership follows each identity through renumbering.
 
 Historical research checkpoints retain historical IDs; use the mapping to interpret them. The research queue was synchronized administratively with programme statuses and discovery dates preserved. Solved entries are ineligible. Campaign 001 and its attempt/review counters were not advanced.
+
+## Subsequent Robin gap submission
+
+[PR #16](https://github.com/MColbrook/AIM/pull/16) supplied a separate counterexample for original 021 at revision 37a2536. The [complete AI audit](021-review.md) and [subsequent identity mapping](021-id-mapping.json) record its classification as Solved, now archive 652. The current collection has 651 active and 14 retained solved entries. The earlier mapping and checks above remain historical records of the thirteen-request batch.
