@@ -1,0 +1,17 @@
+AIM 506 repository duplicate-submission audit
+Checked UTC: 2026-10-01T23:51:34.168596+00:00
+
+Result: no matching prior repository submission found in the public sources inspected.
+
+Scope: 12 indexed PRs (9 open, 3 closed); 10 available dedicated PR records; 2 issue comments; 0 inline comments or submitted reviews; 82 changed-file records; 995 tracked main files. Previously fetched immutable file patches were reused only after fresh base/head SHA equality checks. All current review endpoints were read.
+
+Four focused GitHub searches for 506, small-ball, Onsager and quartic each returned zero results with incomplete_results=false. Direct searches of titles, bodies, comments and file patches for these terms and Conjecture 4.12 also found no matching submission.
+
+Current main and inspected local snapshot both equal aa776a01d7d48a79f93251af11fde9454b0aea95. The target is Partial, with the general finite-energy lower-bound conjecture remaining open; its research queue is unstarted. Relevant main matches are target/catalogue/source-screening history. Broader terminology matches concern different measures, PDEs, approximation or spectral questions.
+
+Limitations: two closed index entries have unavailable dedicated PR endpoints, although their retained title/body/comment evidence identifies unrelated targets. Deleted, private, unsubmitted or unindexed work cannot be excluded. This is a bounded repository check, not proof of literature novelty or mathematical correctness. No external change was made during this audit.
+
+Final pre-submission refresh: 2026-10-02 00:09:56 UTC.
+All 12 indexed entries and 10 available detailed PR records were unchanged.
+No new matching AIM 506 submission; focused search returned zero matches with
+incomplete_results=false. Main revision remained unchanged.

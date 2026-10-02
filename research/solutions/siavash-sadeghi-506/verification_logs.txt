@@ -1,0 +1,43 @@
+Command (from package folder): python verify_exact.py --output exact_results.json
+PASS: 31 exact supporting checks
+kappa lower (decimal display): 0.133020019395433251281174429161
+kappa upper (decimal display): 0.133020020824184237247882094668
+Certified improvement: kappa > 1/8; quadratic penalty >= 1/4.
+Runtime seconds: 0.201
+
+Command (from package folder): python -O verify_exact.py --output exact_results.json
+PASS: 31 exact supporting checks
+kappa lower (decimal display): 0.133020019395433251281174429161
+kappa upper (decimal display): 0.133020020824184237247882094668
+Certified improvement: kappa > 1/8; quadratic penalty >= 1/4.
+Runtime seconds: 0.231
+
+Command (from package folder): python verify_numerical.py --output numerical_results.json
+Direct convolution checks complete
+Product check j=1: log prefix -1.349604403064132
+Product check j=2: log prefix -3.485882728957108
+Product check j=4: log prefix -13.08548097093794
+Product check j=6: log prefix -49.84489340450021
+PASS: 80 numerical supporting checks
+Maximum independent quadrature discrepancy: 2.29994038630935816769806496148701336839718916e-16
+Runtime seconds: 17.100
+
+Command (from package folder): python -O verify_numerical.py --output numerical_results.json
+Direct convolution checks complete
+Product check j=1: log prefix -1.349604403064132
+Product check j=2: log prefix -3.485882728957108
+Product check j=4: log prefix -13.08548097093794
+Product check j=6: log prefix -49.84489340450021
+PASS: 80 numerical supporting checks
+Maximum independent quadrature discrepancy: 2.29994038630935816769806496148701336839718916e-16
+Runtime seconds: 12.799
+
+Command (from package folder): python test_numerical_guards.py
+PASS: 21 focused scipy_direct regression cases
+Covered nonfinite integrals/error estimates, negative errors, nonpositive
+integrals, computed overflow, and an unchanged valid finite control.
+
+Command (from package folder): python -O test_numerical_guards.py
+PASS: 21 focused scipy_direct regression cases
+Covered nonfinite integrals/error estimates, negative errors, nonpositive
+integrals, computed overflow, and an unchanged valid finite control.
