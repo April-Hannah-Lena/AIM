@@ -200,146 +200,146 @@
     "last_checked": "2026-09-24"
   },
   {
-    "id": "563",
+    "id": "562",
     "title": "Sharp least-singular-value bounds for independent random tensor columns",
     "area": "Random matrices and tensor methods",
-    "file": "problems/563-tensor-singular-value.md",
+    "file": "problems/562-tensor-singular-value.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "564",
+    "id": "563",
     "title": "Identifying a distribution from its Gaussian-channel MMSE curve",
     "area": "Statistical estimation and information theory",
-    "file": "problems/564-mmse-identification.md",
+    "file": "problems/563-mmse-identification.md",
     "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "574",
+    "title": "Draws in the undirected trapping game on percolation clusters",
+    "area": "Applied probability and random combinatorial games",
+    "file": "problems/574-trap-draws-percolation.md",
+    "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "575",
-    "title": "Draws in the undirected trapping game on percolation clusters",
+    "title": "Monotonicity of draw probabilities under random vertex deletion",
     "area": "Applied probability and random combinatorial games",
-    "file": "problems/575-trap-draws-percolation.md",
+    "file": "problems/575-trap-draw-probability-monotonicity.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "576",
-    "title": "Monotonicity of draw probabilities under random vertex deletion",
-    "area": "Applied probability and random combinatorial games",
-    "file": "problems/576-trap-draw-probability-monotonicity.md",
-    "status": "Open",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "577",
     "title": "Uniform covariance bounds for constrained Ising replicas",
     "area": "Probability, statistical mechanics and sampling",
-    "file": "problems/577-ising-replica-covariance.md",
+    "file": "problems/576-ising-replica-covariance.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "578",
+    "id": "577",
     "title": "Strong freeness for one random interaction on overlapping tensor legs",
     "area": "Random matrices and quantum many-body systems",
-    "file": "problems/578-repeated-gue-strong-freeness.md",
+    "file": "problems/577-repeated-gue-strong-freeness.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "583",
+    "title": "Automorphism-invariant one-dependent colorings of regular trees",
+    "area": "Applied probability and distributed graph coloring",
+    "file": "problems/583-regular-tree-one-dependent-coloring.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "584",
-    "title": "Automorphism-invariant one-dependent colorings of regular trees",
-    "area": "Applied probability and distributed graph coloring",
-    "file": "problems/584-regular-tree-one-dependent-coloring.md",
-    "status": "Open",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "585",
     "title": "Extending a symmetric one-dependent four-color law across a branch",
     "area": "Applied probability and random graph coloring",
-    "file": "problems/585-four-color-branched-ray.md",
+    "file": "problems/584-four-color-branched-ray.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "589",
+    "id": "588",
     "title": "Uniqueness of the stationary one-dependent four-coloring",
     "area": "Probability and constrained stochastic processes",
-    "file": "problems/589-one-dependent-four-color-uniqueness.md",
+    "file": "problems/588-one-dependent-four-color-uniqueness.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "598",
+    "title": "Log-concavity of Gaussian convex-hull intersection probabilities",
+    "area": "Stochastic geometry and convexity",
+    "file": "problems/598-gaussian-radon-intersection-logconcavity.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "599",
-    "title": "Log-concavity of Gaussian convex-hull intersection probabilities",
+    "title": "Unimodality of Radon partitions for uniform convex samples",
     "area": "Stochastic geometry and convexity",
-    "file": "problems/599-gaussian-radon-intersection-logconcavity.md",
+    "file": "problems/599-uniform-convex-radon-unimodality.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "600",
-    "title": "Unimodality of Radon partitions for uniform convex samples",
-    "area": "Stochastic geometry and convexity",
-    "file": "problems/600-uniform-convex-radon-unimodality.md",
-    "status": "Open",
+    "id": "607",
+    "title": "Hypergraph shuffles and the one-particle spectral gap",
+    "area": "Markov chains and spectral graph theory",
+    "file": "problems/607-caputo-hypergraph-gap.md",
+    "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "608",
-    "title": "Hypergraph shuffles and the one-particle spectral gap",
-    "area": "Markov chains and spectral graph theory",
-    "file": "problems/608-caputo-hypergraph-gap.md",
+    "title": "A degree-two spectral gap for Brownian energy exchange",
+    "area": "Interacting diffusions and sampling",
+    "file": "problems/608-brownian-energy-quadratic-gap.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "609",
-    "title": "A degree-two spectral gap for Brownian energy exchange",
-    "area": "Interacting diffusions and sampling",
-    "file": "problems/609-brownian-energy-quadratic-gap.md",
-    "status": "Partially resolved",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "610",
     "title": "Low-degree representations determining a unitary shuffle's gap",
     "area": "Random unitary sampling and spectral analysis",
-    "file": "problems/610-unitary-hypergraph-gap.md",
+    "file": "problems/609-unitary-hypergraph-gap.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "616",
+    "id": "615",
     "title": "Fourth-order diffusion approximation for three-player ruin",
     "area": "Applied probability and diffusion approximation",
-    "file": "problems/616-gambler-scaling.md",
+    "file": "problems/615-gambler-scaling.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "636",
+    "title": "A uniform Gaussian approximation bound for Jack measures",
+    "area": "Probability and random matrix models",
+    "file": "problems/636-jack-normal.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "637",
-    "title": "A uniform Gaussian approximation bound for Jack measures",
-    "area": "Probability and random matrix models",
-    "file": "problems/637-jack-normal.md",
-    "status": "Partially resolved",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "638",
     "title": "Absolute continuity of stationary Elo ratings",
     "area": "Probability, statistics, and uncertainty quantification",
-    "file": "problems/638-elo-density.md",
+    "file": "problems/637-elo-density.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "643",
+    "id": "642",
     "title": "Oscillation of partition functions under very strong disorder",
     "area": "Probability and statistical mechanics",
-    "file": "problems/643-polymer-oscillation.md",
+    "file": "problems/642-polymer-oscillation.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   }

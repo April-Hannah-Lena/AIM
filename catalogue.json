@@ -713,6 +713,7 @@
         "559",
         "560",
         "561",
+        "652",
         "562",
         "563",
         "564",
@@ -732,8 +733,8 @@
         "578",
         "579",
         "580",
-        "581",
         "664",
+        "581",
         "582",
         "583",
         "584",
@@ -757,8 +758,8 @@
         "602",
         "603",
         "604",
-        "605",
         "665",
+        "605",
         "606",
         "607",
         "608",
@@ -804,12 +805,24 @@
         "648",
         "649",
         "650",
-        "651",
-        "652"
+        "651"
       ]
     }
   ],
   "retired": [
+    {
+      "id": "652",
+      "title": "A fixed-time lower bound for Trotter splitting of the hydrogen ground state",
+      "area": "Numerical analysis and quantum dynamics",
+      "status": "Solved",
+      "last_checked": "2026-10-02",
+      "reason": "Disproof by an O(n^(-3/8)) global upper bound; documented Codex AI audit of the complete supplied argument (original 562).",
+      "record": "research/resolved/652-hydrogen-trotter-lower-bound.md",
+      "group": "numerical-analysis",
+      "outcome": "Disproof",
+      "proof": "research/solutions/562-hydrogen-trotter-disproof/PROOF.md",
+      "review": "research/solutions/562-hydrogen-trotter-disproof/REVIEW.md"
+    },
     {
       "id": "653",
       "title": "Exponential interior decay for smooth Steklov domains",

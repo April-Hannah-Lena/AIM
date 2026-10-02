@@ -224,26 +224,26 @@
     "last_checked": "2026-09-22"
   },
   {
-    "id": "598",
+    "id": "597",
     "title": "Entropy chain rule on nonsmooth nonconvex Lipschitz domains",
     "area": "Numerical analysis of diffusion and optimal transport",
-    "file": "problems/598-entropy-chain-rule-lipschitz.md",
+    "file": "problems/597-entropy-chain-rule-lipschitz.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "632",
+    "id": "631",
     "title": "Largest radius ratio in nonuniform triangulated circle packings",
     "area": "Discrete geometry and circle packing",
-    "file": "problems/632-triangulated-packing-radius-ratio.md",
+    "file": "problems/631-triangulated-packing-radius-ratio.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "635",
+    "id": "634",
     "title": "Finitely many radius sets for compact sphere packings",
     "area": "Discrete geometry and sphere packing",
-    "file": "problems/635-compact-packing-radius-finiteness.md",
+    "file": "problems/634-compact-packing-radius-finiteness.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   }

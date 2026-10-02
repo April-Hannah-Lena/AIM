@@ -2,6 +2,7 @@
 
 [Repository overview](../README.md) · [Open targets](../CATALOG.md) · [Solved and claimed solutions](../RESOLVED.md)
 
+- [Hydrogen Trotter disproof and complete AI audit, 2026-10-02](solutions/562-hydrogen-trotter-disproof/REVIEW.md)
 - [Independent review of twelve solution pull requests, 2026-10-02](solution_reviews/2026-10-02/README.md)
 - [Selection and status-check methodology](METHODOLOGY.md)
 - [Spectral candidates excluded or narrowed](excluded-spectral.md)
@@ -9,7 +10,7 @@
 - [Inverse-problem and control candidates excluded or narrowed](excluded-inverse.md)
 - [Related applied-analysis candidates excluded or narrowed](excluded-applied.md)
 
-Dated source maps, JSON inventories and candidate ledgers retain historical admission IDs and paths. Their dated evidence can be read at the original Git revision; the mapping below gives the current location of each identity. The [2026-10-02 ID mapping](solution_reviews/2026-10-02/id-mapping.json) gives current problem and archive paths.
+Dated source maps, JSON inventories and candidate ledgers retain historical admission IDs and paths. Their dated evidence can be read at the original Git revision; the mapping below gives the current location of each identity. The [2026-10-02 ID mapping](solution_reviews/2026-10-02/id-mapping.json) gives problem and archive paths at that checkpoint. The subsequent [hydrogen-resolution mapping](solutions/562-hydrogen-trotter-disproof/id-mapping.json), based on commit `61dec31d3c3ffe6e15aae8ad84ecf0968a18866d`, records the changes from that checkpoint to the current catalogue.
 
 ## Second collection: sources and screening, 8 September 2026
 

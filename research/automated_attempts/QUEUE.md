@@ -1,12 +1,12 @@
 # Research Queue
 
-Synchronized at **2026-10-02T06:51:20.777871+00:00** against the current working tree: **652 active problems** and **13 retained solved entries**. Snapshot base commit: 21aba183ad8281c02f3b2eb9c12743c9cbecf93a; this checkpoint includes the catalogue changes in the working tree.
+Synchronized on **2026-10-02** against this submission: **651 active problems** and **14 retained solved entries**. Baseline commit: 61dec31d3c3ffe6e15aae8ad84ecf0968a18866d; this checkpoint includes the catalogue changes in the working tree.
 
-The queue covers every current problem and all registered metadata. Active IDs are consecutive from 001. [The independent review and original-ID mapping](../solution_reviews/2026-10-02/README.md) explain the thirteen resolutions.
+The queue covers every current problem and all registered metadata. Active IDs are consecutive from 001. [The independent review and original-ID mapping](../solution_reviews/2026-10-02/README.md) explain the previous thirteen resolutions. The [hydrogen disproof and AI audit](../solutions/562-hydrogen-trotter-disproof/REVIEW.md) document the additional resolution; its [ID mapping](../solutions/562-hydrogen-trotter-disproof/id-mapping.json) records the current changes.
 
-Every surviving entry keeps its programme status and discovery date. Retained entries preserve their histories but are ineligible for selection. This synchronization is administrative: campaign 001, its phase and its attempt and senior-review counters are unchanged.
+Every surviving entry keeps its programme status and discovery date. The hydrogen entry retains its unstarted programme status and its 2026-09-24 discovery date in the previous queue snapshot. Retained entries preserve their histories but are ineligible for selection. This synchronization is administrative: campaign 001, its phase and its attempt and senior-review counters are unchanged.
 
-[Current snapshot](queue-sync-2026-10-02.json) · [Previous historical snapshot](queue-sync-2026-09-23.json) · [Programme state](STATE.md) · [Pólya research status](001/STATUS.md)
+[Previous queue snapshot](queue-sync-2026-10-02.json) · [Previous historical snapshot](queue-sync-2026-09-23.json) · [Programme state](STATE.md) · [Pólya research status](001/STATUS.md)
 
 ## Active queue
 
@@ -573,102 +573,102 @@ Every surviving entry keeps its programme status and discovery date. Retained en
 | 559 | [Arbitrarily large integer-distance sets in general position](../../problems/559-integer-distance-general-position.md) | Open | unstarted | 2026-09-24 |
 | 560 | [Deciding nonnegativity of unnormalized univariate trace polynomials](../../problems/560-univariate-trace-decidability.md) | Open | unstarted | 2026-09-24 |
 | 561 | [Hardness of minimum-dilation triangulation](../../problems/561-minimum-dilation-hardness.md) | Open | unstarted | 2026-09-24 |
-| 562 | [A fixed-time lower bound for Trotter splitting of the hydrogen ground state](../../problems/562-hydrogen-trotter-lower-bound.md) | Open | unstarted | 2026-09-24 |
-| 563 | [Sharp least-singular-value bounds for independent random tensor columns](../../problems/563-tensor-singular-value.md) | Partially resolved | unstarted | 2026-09-24 |
-| 564 | [Identifying a distribution from its Gaussian-channel MMSE curve](../../problems/564-mmse-identification.md) | Partially resolved | unstarted | 2026-09-24 |
-| 565 | [The sharp radius in quantitative Steinitz selection](../../problems/565-quantitative-steinitz-radius.md) | Open | unstarted | 2026-09-24 |
-| 566 | [Asymmetry at the Macbeath point of a convex body](../../problems/566-macbeath-center-asymmetry.md) | Open | unstarted | 2026-09-24 |
-| 567 | [Improving the exponential lower bound for peeling sequences](../../problems/567-peeling-sequences-lower-base.md) | Open | unstarted | 2026-09-24 |
-| 568 | [Perfect Lee codes beyond dimension two](../../problems/568-golomb-welch.md) | Partially resolved | unstarted | 2026-09-24 |
-| 569 | [Sharp permutation bound for triangular parts of correlation matrices](../../problems/569-sor-permutation-sharp-constant.md) | Open | unstarted | 2026-09-24 |
-| 570 | [A sharp Galerkin projection bound on nonobtuse triangles](../../problems/570-nonobtuse-galerkin-projection-constant.md) | Open | unstarted | 2026-09-24 |
-| 571 | [The cost of continuous reconstruction on Banach unit balls](../../problems/571-continuous-decoder-banach-balls.md) | Open | unstarted | 2026-09-24 |
-| 572 | [Counting half-integral polygons with collinear interior lattice points](../../problems/572-half-integral-collinear-count.md) | Open | unstarted | 2026-09-24 |
-| 573 | [Counting Ehrhart quasipolynomials of half-integral polygons](../../problems/573-half-integral-ehrhart-count.md) | Open | unstarted | 2026-09-24 |
-| 574 | [Unimodal connectivity by 2–3 and 3–2 Pachner moves](../../problems/574-unimodal-pachner-connectivity.md) | Open | unstarted | 2026-09-24 |
-| 575 | [Draws in the undirected trapping game on percolation clusters](../../problems/575-trap-draws-percolation.md) | Open | unstarted | 2026-09-24 |
-| 576 | [Monotonicity of draw probabilities under random vertex deletion](../../problems/576-trap-draw-probability-monotonicity.md) | Open | unstarted | 2026-09-24 |
-| 577 | [Uniform covariance bounds for constrained Ising replicas](../../problems/577-ising-replica-covariance.md) | Partially resolved | unstarted | 2026-09-24 |
-| 578 | [Strong freeness for one random interaction on overlapping tensor legs](../../problems/578-repeated-gue-strong-freeness.md) | Open | unstarted | 2026-09-24 |
-| 579 | [A real nearest matrix with spectrum in the closed left half-plane](../../problems/579-nearest-hurwitz-real-minimizer.md) | Open | unstarted | 2026-09-24 |
-| 580 | [A sharp Betti-number bound for 4-manifold triangulation complexity](../../problems/580-four-manifold-triangulation-complexity.md) | Open | unstarted | 2026-09-24 |
-| 581 | [Sharp vertex bounds for generalized triangulations in even dimensions](../../problems/581-even-manifold-vertex-bound.md) | Open | unstarted | 2026-09-24 |
-| 582 | [Infinitely many obstacle resonances in a fixed strip under trapping](../../problems/582-modified-lax-phillips-trapping.md) | Partially resolved | unstarted | 2026-09-24 |
-| 583 | [Full Sobolev invertibility range for Hausdorff-measure screen operators](../../problems/583-fractal-screen-sobolev-invertibility.md) | Partially resolved | unstarted | 2026-09-24 |
-| 584 | [Automorphism-invariant one-dependent colorings of regular trees](../../problems/584-regular-tree-one-dependent-coloring.md) | Open | unstarted | 2026-09-24 |
-| 585 | [Extending a symmetric one-dependent four-color law across a branch](../../problems/585-four-color-branched-ray.md) | Open | unstarted | 2026-09-24 |
-| 586 | [Sidorenko's lower bound for bipartite homomorphism counts](../../problems/586-sidorenko.md) | Partially resolved | unstarted | 2026-09-24 |
-| 587 | [The happy-edge conjecture for convex plane spanning trees](../../problems/587-convex-tree-happy-edges.md) | Open | unstarted | 2026-09-24 |
-| 588 | [A sharp differing-edge bound for convex plane-tree flips](../../problems/588-convex-tree-difference-bound.md) | Open | unstarted | 2026-09-24 |
-| 589 | [Uniqueness of the stationary one-dependent four-coloring](../../problems/589-one-dependent-four-color-uniqueness.md) | Open | unstarted | 2026-09-24 |
-| 590 | [Classifying balanced elementary symmetric Boolean functions](../../problems/590-balanced-elementary-boolean.md) | Partially resolved | unstarted | 2026-09-24 |
-| 591 | [Can bound entanglement produce a device-independent secret key?](../../problems/591-revised-peres.md) | Partially resolved | unstarted | 2026-09-24 |
-| 592 | [Three or four layers for 2-degenerate graphs](../../problems/592-geometric-thickness-two-degenerate.md) | Open | unstarted | 2026-09-24 |
-| 593 | [Bounded geometric thickness for unions of two forests](../../problems/593-arboricity-two-geometric-thickness.md) | Open | unstarted | 2026-09-24 |
-| 594 | [A linear threshold for extracting a segment grid](../../problems/594-red-blue-segment-grid.md) | Open | unstarted | 2026-09-24 |
-| 595 | [Connectivity of plane spanning-path reconfiguration](../../problems/595-plane-spanning-path-connectivity.md) | Open | unstarted | 2026-09-24 |
-| 596 | [The minimum vertex number of a triangulation of real projective 5-space](../../problems/596-rp5-minimum-vertices.md) | Open | unstarted | 2026-09-24 |
-| 597 | [A bounded number of flat transversals for fat convex sets](../../problems/597-fat-convex-transversal-pq.md) | Open | unstarted | 2026-09-24 |
-| 598 | [Entropy chain rule on nonsmooth nonconvex Lipschitz domains](../../problems/598-entropy-chain-rule-lipschitz.md) | Partially resolved | unstarted | 2026-09-24 |
-| 599 | [Log-concavity of Gaussian convex-hull intersection probabilities](../../problems/599-gaussian-radon-intersection-logconcavity.md) | Open | unstarted | 2026-09-24 |
-| 600 | [Unimodality of Radon partitions for uniform convex samples](../../problems/600-uniform-convex-radon-unimodality.md) | Open | unstarted | 2026-09-24 |
-| 601 | [Sierksma's lower bound for Tverberg partitions](../../problems/601-sierksma-tverberg-partition-count.md) | Open | unstarted | 2026-09-24 |
-| 602 | [The sharp asymptotic facial length in girth-saturated plane graphs](../../problems/602-plane-girth-facial-asymptotic.md) | Open | unstarted | 2026-09-24 |
-| 603 | [A linear genus–girth bound for facial cycles](../../problems/603-surface-girth-facial-linear-bound.md) | Open | unstarted | 2026-09-24 |
-| 604 | [The symmetry point of a unimodular lattice's secrecy function](../../problems/604-belfiore-sole.md) | Partially resolved | unstarted | 2026-09-24 |
-| 605 | [Divisible point sets as unions of parallel lines](../../problems/605-strong-cylinder.md) | Partially resolved | unstarted | 2026-09-24 |
-| 606 | [Optimal uniform observation time for mixed finite element waves](../../problems/606-mixed-wave-optimal-observation-time.md) | Partially resolved | unstarted | 2026-09-24 |
-| 607 | [A zero in the nontrivial spectrum of a power permutation](../../problems/607-helleseth-vanishing.md) | Partially resolved | unstarted | 2026-09-24 |
-| 608 | [Hypergraph shuffles and the one-particle spectral gap](../../problems/608-caputo-hypergraph-gap.md) | Partially resolved | unstarted | 2026-09-24 |
-| 609 | [A degree-two spectral gap for Brownian energy exchange](../../problems/609-brownian-energy-quadratic-gap.md) | Partially resolved | unstarted | 2026-09-24 |
-| 610 | [Low-degree representations determining a unitary shuffle's gap](../../problems/610-unitary-hypergraph-gap.md) | Partially resolved | unstarted | 2026-09-24 |
-| 611 | [Nill's facet bound for reflexive lattice polytopes](../../problems/611-reflexive-polytope-facet-bound.md) | Open | unstarted | 2026-09-24 |
-| 612 | [Counting cospherical tuples in lattice cubes](../../problems/612-cospherical-lattice-tuple-count.md) | Open | unstarted | 2026-09-24 |
-| 613 | [Decomposing complete graphs into squares of Hamilton cycles](../../problems/613-hamilton-square-decomposition.md) | Open | unstarted | 2026-09-24 |
-| 614 | [Unbounded weak chromatic number for geometric tetrahedral complexes](../../problems/614-tetrahedral-weak-chromatic.md) | Open | unstarted | 2026-09-24 |
-| 615 | [Transversal ratio approaching one for simplicial four-polytopes](../../problems/615-four-polytope-transversal-ratio.md) | Open | unstarted | 2026-09-24 |
-| 616 | [Fourth-order diffusion approximation for three-player ruin](../../problems/616-gambler-scaling.md) | Partially resolved | unstarted | 2026-09-24 |
-| 617 | [Excluding three correlation levels in quadratic field towers](../../problems/617-helleseth-three-valued.md) | Partially resolved | unstarted | 2026-09-24 |
-| 618 | [Polynomial-size convex difference decompositions](../../problems/618-polynomial-convex-difference-decomposition.md) | Open | unstarted | 2026-09-24 |
-| 619 | [Reconstructing simplicial spheres from facet adjacency](../../problems/619-kalai-sphere-reconstruction.md) | Partially resolved | unstarted | 2026-09-24 |
-| 620 | [Spanning triangulated spheres with holes in surface triangulations](../../problems/620-spanning-holed-sphere-triangulation.md) | Partially resolved | unstarted | 2026-09-24 |
-| 621 | [Permutation snarks with order congruent to six modulo eight](../../problems/621-permutation-snark-order-residue.md) | Partially resolved | unstarted | 2026-09-24 |
-| 622 | [Permutation snarks without five-cycles](../../problems/622-permutation-snark-large-girth.md) | Partially resolved | unstarted | 2026-09-24 |
-| 623 | [Removable cycles in cycle permutation graphs](../../problems/623-permutation-removable-cycle.md) | Partially resolved | unstarted | 2026-09-24 |
-| 624 | [Costas arrays at every order](../../problems/624-costas-all-orders.md) | Partially resolved | unstarted | 2026-09-24 |
-| 625 | [Convex realizations of spherical subword complexes](../../problems/625-subword-polytopality.md) | Partially resolved | unstarted | 2026-09-24 |
-| 626 | [Eventual classification of simplicial line arrangements](../../problems/626-simplicial-arrangement-classification.md) | Partially resolved | unstarted | 2026-09-24 |
-| 627 | [Polynomial-size nonobtuse tetrahedral meshes](../../problems/627-polynomial-nonobtuse-tetrahedral-meshes.md) | Partially resolved | unstarted | 2026-09-24 |
-| 628 | [Smallest orders for periodic multidimensional Costas arrays](../../problems/628-periodic-costas.md) | Partially resolved | unstarted | 2026-09-24 |
-| 629 | [Odd Euler characteristic for flag-no-square four-manifolds](../../problems/629-odd-euler-flag-no-square.md) | Open | unstarted | 2026-09-24 |
-| 630 | [Characterizing discrete sets generated by fixed-parameter extrapolation](../../problems/630-extrapolation-discreteness.md) | Partially resolved | unstarted | 2026-09-24 |
-| 631 | [Relative density of sets generated by fixed-parameter extrapolation](../../problems/631-extrapolation-relative-density.md) | Partially resolved | unstarted | 2026-09-24 |
-| 632 | [Largest radius ratio in nonuniform triangulated circle packings](../../problems/632-triangulated-packing-radius-ratio.md) | Partially resolved | unstarted | 2026-09-24 |
-| 633 | [Classifying Costas polynomials over extension fields](../../problems/633-costas-polynomial.md) | Partially resolved | unstarted | 2026-09-24 |
-| 634 | [Local potential bases on Freudenthal meshes](../../problems/634-freudenthal-local-potential-basis.md) | Open | unstarted | 2026-09-24 |
-| 635 | [Finitely many radius sets for compact sphere packings](../../problems/635-compact-packing-radius-finiteness.md) | Partially resolved | unstarted | 2026-09-24 |
-| 636 | [Small mod-two area cycles in drawings with bounded pairwise intersections](../../problems/636-bounded-crossing-heilbronn.md) | Partially resolved | unstarted | 2026-09-24 |
-| 637 | [A uniform Gaussian approximation bound for Jack measures](../../problems/637-jack-normal.md) | Partially resolved | unstarted | 2026-09-24 |
-| 638 | [Absolute continuity of stationary Elo ratings](../../problems/638-elo-density.md) | Partially resolved | unstarted | 2026-09-24 |
-| 639 | [A limiting law for maximal persistence in random clique complexes](../../problems/639-random-clique-maximal-persistence-law.md) | Partially resolved | unstarted | 2026-09-24 |
-| 640 | [Strong convergence rate of the fractional WIS Euler integrator](../../problems/640-wis-fractional-euler-rate.md) | Partially resolved | unstarted | 2026-09-24 |
-| 641 | [Coboundary expansion of random balanced Cayley complexes](../../problems/641-random-balanced-cayley-expansion.md) | Partially resolved | unstarted | 2026-09-24 |
-| 642 | [Bos's cubic and quartic simplex interpolation nodes](../../problems/642-bos-simplex-interpolation-nodes.md) | Partially resolved | unstarted | 2026-09-24 |
-| 643 | [Oscillation of partition functions under very strong disorder](../../problems/643-polymer-oscillation.md) | Partially resolved | unstarted | 2026-09-24 |
-| 644 | [Zero in the upper-Laplacian spectrum of low-degree simplicial complexes](../../problems/644-low-degree-simplicial-zero-spectrum.md) | Partially resolved | unstarted | 2026-09-24 |
-| 645 | [Topological complexity in the homogeneous medial regime for all sample sizes](../../problems/645-medial-regime-topological-complexity.md) | Partially resolved | unstarted | 2026-09-24 |
-| 646 | [A finite three-ample complex with nontrivial fundamental group](../../problems/646-finite-three-ample-nonsimply-connected.md) | Partially resolved | unstarted | 2026-09-24 |
-| 647 | [Compact orbit covers of aspherical manifolds](../../problems/647-aspherical-compact-orbit-cover.md) | Partially resolved | unstarted | 2026-09-24 |
-| 648 | [Connectivity when the last isolated point disappears in a polytope](../../problems/648-polytopal-connectivity-last-isolated-point.md) | Partially resolved | unstarted | 2026-09-24 |
-| 649 | [Location of the most isolated point in a random polyhedral sample](../../problems/649-polyhedral-most-isolated-point-location.md) | Open | unstarted | 2026-09-24 |
-| 650 | [Vanishing threshold for first path homology of a random digraph](../../problems/650-random-digraph-path-homology-vanishing.md) | Partially resolved | unstarted | 2026-09-24 |
-| 651 | [Central limit theorem for the first path Betti number](../../problems/651-random-digraph-path-betti-central-limit.md) | Open | unstarted | 2026-09-24 |
-| 652 | [Global convergence of the simple CRDT conformal-mapping iteration](../../problems/652-simple-crdt-convergence.md) | Open | unstarted | 2026-09-24 |
+| 562 | [Sharp least-singular-value bounds for independent random tensor columns](../../problems/562-tensor-singular-value.md) | Partially resolved | unstarted | 2026-09-24 |
+| 563 | [Identifying a distribution from its Gaussian-channel MMSE curve](../../problems/563-mmse-identification.md) | Partially resolved | unstarted | 2026-09-24 |
+| 564 | [The sharp radius in quantitative Steinitz selection](../../problems/564-quantitative-steinitz-radius.md) | Open | unstarted | 2026-09-24 |
+| 565 | [Asymmetry at the Macbeath point of a convex body](../../problems/565-macbeath-center-asymmetry.md) | Open | unstarted | 2026-09-24 |
+| 566 | [Improving the exponential lower bound for peeling sequences](../../problems/566-peeling-sequences-lower-base.md) | Open | unstarted | 2026-09-24 |
+| 567 | [Perfect Lee codes beyond dimension two](../../problems/567-golomb-welch.md) | Partially resolved | unstarted | 2026-09-24 |
+| 568 | [Sharp permutation bound for triangular parts of correlation matrices](../../problems/568-sor-permutation-sharp-constant.md) | Open | unstarted | 2026-09-24 |
+| 569 | [A sharp Galerkin projection bound on nonobtuse triangles](../../problems/569-nonobtuse-galerkin-projection-constant.md) | Open | unstarted | 2026-09-24 |
+| 570 | [The cost of continuous reconstruction on Banach unit balls](../../problems/570-continuous-decoder-banach-balls.md) | Open | unstarted | 2026-09-24 |
+| 571 | [Counting half-integral polygons with collinear interior lattice points](../../problems/571-half-integral-collinear-count.md) | Open | unstarted | 2026-09-24 |
+| 572 | [Counting Ehrhart quasipolynomials of half-integral polygons](../../problems/572-half-integral-ehrhart-count.md) | Open | unstarted | 2026-09-24 |
+| 573 | [Unimodal connectivity by 2–3 and 3–2 Pachner moves](../../problems/573-unimodal-pachner-connectivity.md) | Open | unstarted | 2026-09-24 |
+| 574 | [Draws in the undirected trapping game on percolation clusters](../../problems/574-trap-draws-percolation.md) | Open | unstarted | 2026-09-24 |
+| 575 | [Monotonicity of draw probabilities under random vertex deletion](../../problems/575-trap-draw-probability-monotonicity.md) | Open | unstarted | 2026-09-24 |
+| 576 | [Uniform covariance bounds for constrained Ising replicas](../../problems/576-ising-replica-covariance.md) | Partially resolved | unstarted | 2026-09-24 |
+| 577 | [Strong freeness for one random interaction on overlapping tensor legs](../../problems/577-repeated-gue-strong-freeness.md) | Open | unstarted | 2026-09-24 |
+| 578 | [A real nearest matrix with spectrum in the closed left half-plane](../../problems/578-nearest-hurwitz-real-minimizer.md) | Open | unstarted | 2026-09-24 |
+| 579 | [A sharp Betti-number bound for 4-manifold triangulation complexity](../../problems/579-four-manifold-triangulation-complexity.md) | Open | unstarted | 2026-09-24 |
+| 580 | [Sharp vertex bounds for generalized triangulations in even dimensions](../../problems/580-even-manifold-vertex-bound.md) | Open | unstarted | 2026-09-24 |
+| 581 | [Infinitely many obstacle resonances in a fixed strip under trapping](../../problems/581-modified-lax-phillips-trapping.md) | Partially resolved | unstarted | 2026-09-24 |
+| 582 | [Full Sobolev invertibility range for Hausdorff-measure screen operators](../../problems/582-fractal-screen-sobolev-invertibility.md) | Partially resolved | unstarted | 2026-09-24 |
+| 583 | [Automorphism-invariant one-dependent colorings of regular trees](../../problems/583-regular-tree-one-dependent-coloring.md) | Open | unstarted | 2026-09-24 |
+| 584 | [Extending a symmetric one-dependent four-color law across a branch](../../problems/584-four-color-branched-ray.md) | Open | unstarted | 2026-09-24 |
+| 585 | [Sidorenko's lower bound for bipartite homomorphism counts](../../problems/585-sidorenko.md) | Partially resolved | unstarted | 2026-09-24 |
+| 586 | [The happy-edge conjecture for convex plane spanning trees](../../problems/586-convex-tree-happy-edges.md) | Open | unstarted | 2026-09-24 |
+| 587 | [A sharp differing-edge bound for convex plane-tree flips](../../problems/587-convex-tree-difference-bound.md) | Open | unstarted | 2026-09-24 |
+| 588 | [Uniqueness of the stationary one-dependent four-coloring](../../problems/588-one-dependent-four-color-uniqueness.md) | Open | unstarted | 2026-09-24 |
+| 589 | [Classifying balanced elementary symmetric Boolean functions](../../problems/589-balanced-elementary-boolean.md) | Partially resolved | unstarted | 2026-09-24 |
+| 590 | [Can bound entanglement produce a device-independent secret key?](../../problems/590-revised-peres.md) | Partially resolved | unstarted | 2026-09-24 |
+| 591 | [Three or four layers for 2-degenerate graphs](../../problems/591-geometric-thickness-two-degenerate.md) | Open | unstarted | 2026-09-24 |
+| 592 | [Bounded geometric thickness for unions of two forests](../../problems/592-arboricity-two-geometric-thickness.md) | Open | unstarted | 2026-09-24 |
+| 593 | [A linear threshold for extracting a segment grid](../../problems/593-red-blue-segment-grid.md) | Open | unstarted | 2026-09-24 |
+| 594 | [Connectivity of plane spanning-path reconfiguration](../../problems/594-plane-spanning-path-connectivity.md) | Open | unstarted | 2026-09-24 |
+| 595 | [The minimum vertex number of a triangulation of real projective 5-space](../../problems/595-rp5-minimum-vertices.md) | Open | unstarted | 2026-09-24 |
+| 596 | [A bounded number of flat transversals for fat convex sets](../../problems/596-fat-convex-transversal-pq.md) | Open | unstarted | 2026-09-24 |
+| 597 | [Entropy chain rule on nonsmooth nonconvex Lipschitz domains](../../problems/597-entropy-chain-rule-lipschitz.md) | Partially resolved | unstarted | 2026-09-24 |
+| 598 | [Log-concavity of Gaussian convex-hull intersection probabilities](../../problems/598-gaussian-radon-intersection-logconcavity.md) | Open | unstarted | 2026-09-24 |
+| 599 | [Unimodality of Radon partitions for uniform convex samples](../../problems/599-uniform-convex-radon-unimodality.md) | Open | unstarted | 2026-09-24 |
+| 600 | [Sierksma's lower bound for Tverberg partitions](../../problems/600-sierksma-tverberg-partition-count.md) | Open | unstarted | 2026-09-24 |
+| 601 | [The sharp asymptotic facial length in girth-saturated plane graphs](../../problems/601-plane-girth-facial-asymptotic.md) | Open | unstarted | 2026-09-24 |
+| 602 | [A linear genus–girth bound for facial cycles](../../problems/602-surface-girth-facial-linear-bound.md) | Open | unstarted | 2026-09-24 |
+| 603 | [The symmetry point of a unimodular lattice's secrecy function](../../problems/603-belfiore-sole.md) | Partially resolved | unstarted | 2026-09-24 |
+| 604 | [Divisible point sets as unions of parallel lines](../../problems/604-strong-cylinder.md) | Partially resolved | unstarted | 2026-09-24 |
+| 605 | [Optimal uniform observation time for mixed finite element waves](../../problems/605-mixed-wave-optimal-observation-time.md) | Partially resolved | unstarted | 2026-09-24 |
+| 606 | [A zero in the nontrivial spectrum of a power permutation](../../problems/606-helleseth-vanishing.md) | Partially resolved | unstarted | 2026-09-24 |
+| 607 | [Hypergraph shuffles and the one-particle spectral gap](../../problems/607-caputo-hypergraph-gap.md) | Partially resolved | unstarted | 2026-09-24 |
+| 608 | [A degree-two spectral gap for Brownian energy exchange](../../problems/608-brownian-energy-quadratic-gap.md) | Partially resolved | unstarted | 2026-09-24 |
+| 609 | [Low-degree representations determining a unitary shuffle's gap](../../problems/609-unitary-hypergraph-gap.md) | Partially resolved | unstarted | 2026-09-24 |
+| 610 | [Nill's facet bound for reflexive lattice polytopes](../../problems/610-reflexive-polytope-facet-bound.md) | Open | unstarted | 2026-09-24 |
+| 611 | [Counting cospherical tuples in lattice cubes](../../problems/611-cospherical-lattice-tuple-count.md) | Open | unstarted | 2026-09-24 |
+| 612 | [Decomposing complete graphs into squares of Hamilton cycles](../../problems/612-hamilton-square-decomposition.md) | Open | unstarted | 2026-09-24 |
+| 613 | [Unbounded weak chromatic number for geometric tetrahedral complexes](../../problems/613-tetrahedral-weak-chromatic.md) | Open | unstarted | 2026-09-24 |
+| 614 | [Transversal ratio approaching one for simplicial four-polytopes](../../problems/614-four-polytope-transversal-ratio.md) | Open | unstarted | 2026-09-24 |
+| 615 | [Fourth-order diffusion approximation for three-player ruin](../../problems/615-gambler-scaling.md) | Partially resolved | unstarted | 2026-09-24 |
+| 616 | [Excluding three correlation levels in quadratic field towers](../../problems/616-helleseth-three-valued.md) | Partially resolved | unstarted | 2026-09-24 |
+| 617 | [Polynomial-size convex difference decompositions](../../problems/617-polynomial-convex-difference-decomposition.md) | Open | unstarted | 2026-09-24 |
+| 618 | [Reconstructing simplicial spheres from facet adjacency](../../problems/618-kalai-sphere-reconstruction.md) | Partially resolved | unstarted | 2026-09-24 |
+| 619 | [Spanning triangulated spheres with holes in surface triangulations](../../problems/619-spanning-holed-sphere-triangulation.md) | Partially resolved | unstarted | 2026-09-24 |
+| 620 | [Permutation snarks with order congruent to six modulo eight](../../problems/620-permutation-snark-order-residue.md) | Partially resolved | unstarted | 2026-09-24 |
+| 621 | [Permutation snarks without five-cycles](../../problems/621-permutation-snark-large-girth.md) | Partially resolved | unstarted | 2026-09-24 |
+| 622 | [Removable cycles in cycle permutation graphs](../../problems/622-permutation-removable-cycle.md) | Partially resolved | unstarted | 2026-09-24 |
+| 623 | [Costas arrays at every order](../../problems/623-costas-all-orders.md) | Partially resolved | unstarted | 2026-09-24 |
+| 624 | [Convex realizations of spherical subword complexes](../../problems/624-subword-polytopality.md) | Partially resolved | unstarted | 2026-09-24 |
+| 625 | [Eventual classification of simplicial line arrangements](../../problems/625-simplicial-arrangement-classification.md) | Partially resolved | unstarted | 2026-09-24 |
+| 626 | [Polynomial-size nonobtuse tetrahedral meshes](../../problems/626-polynomial-nonobtuse-tetrahedral-meshes.md) | Partially resolved | unstarted | 2026-09-24 |
+| 627 | [Smallest orders for periodic multidimensional Costas arrays](../../problems/627-periodic-costas.md) | Partially resolved | unstarted | 2026-09-24 |
+| 628 | [Odd Euler characteristic for flag-no-square four-manifolds](../../problems/628-odd-euler-flag-no-square.md) | Open | unstarted | 2026-09-24 |
+| 629 | [Characterizing discrete sets generated by fixed-parameter extrapolation](../../problems/629-extrapolation-discreteness.md) | Partially resolved | unstarted | 2026-09-24 |
+| 630 | [Relative density of sets generated by fixed-parameter extrapolation](../../problems/630-extrapolation-relative-density.md) | Partially resolved | unstarted | 2026-09-24 |
+| 631 | [Largest radius ratio in nonuniform triangulated circle packings](../../problems/631-triangulated-packing-radius-ratio.md) | Partially resolved | unstarted | 2026-09-24 |
+| 632 | [Classifying Costas polynomials over extension fields](../../problems/632-costas-polynomial.md) | Partially resolved | unstarted | 2026-09-24 |
+| 633 | [Local potential bases on Freudenthal meshes](../../problems/633-freudenthal-local-potential-basis.md) | Open | unstarted | 2026-09-24 |
+| 634 | [Finitely many radius sets for compact sphere packings](../../problems/634-compact-packing-radius-finiteness.md) | Partially resolved | unstarted | 2026-09-24 |
+| 635 | [Small mod-two area cycles in drawings with bounded pairwise intersections](../../problems/635-bounded-crossing-heilbronn.md) | Partially resolved | unstarted | 2026-09-24 |
+| 636 | [A uniform Gaussian approximation bound for Jack measures](../../problems/636-jack-normal.md) | Partially resolved | unstarted | 2026-09-24 |
+| 637 | [Absolute continuity of stationary Elo ratings](../../problems/637-elo-density.md) | Partially resolved | unstarted | 2026-09-24 |
+| 638 | [A limiting law for maximal persistence in random clique complexes](../../problems/638-random-clique-maximal-persistence-law.md) | Partially resolved | unstarted | 2026-09-24 |
+| 639 | [Strong convergence rate of the fractional WIS Euler integrator](../../problems/639-wis-fractional-euler-rate.md) | Partially resolved | unstarted | 2026-09-24 |
+| 640 | [Coboundary expansion of random balanced Cayley complexes](../../problems/640-random-balanced-cayley-expansion.md) | Partially resolved | unstarted | 2026-09-24 |
+| 641 | [Bos's cubic and quartic simplex interpolation nodes](../../problems/641-bos-simplex-interpolation-nodes.md) | Partially resolved | unstarted | 2026-09-24 |
+| 642 | [Oscillation of partition functions under very strong disorder](../../problems/642-polymer-oscillation.md) | Partially resolved | unstarted | 2026-09-24 |
+| 643 | [Zero in the upper-Laplacian spectrum of low-degree simplicial complexes](../../problems/643-low-degree-simplicial-zero-spectrum.md) | Partially resolved | unstarted | 2026-09-24 |
+| 644 | [Topological complexity in the homogeneous medial regime for all sample sizes](../../problems/644-medial-regime-topological-complexity.md) | Partially resolved | unstarted | 2026-09-24 |
+| 645 | [A finite three-ample complex with nontrivial fundamental group](../../problems/645-finite-three-ample-nonsimply-connected.md) | Partially resolved | unstarted | 2026-09-24 |
+| 646 | [Compact orbit covers of aspherical manifolds](../../problems/646-aspherical-compact-orbit-cover.md) | Partially resolved | unstarted | 2026-09-24 |
+| 647 | [Connectivity when the last isolated point disappears in a polytope](../../problems/647-polytopal-connectivity-last-isolated-point.md) | Partially resolved | unstarted | 2026-09-24 |
+| 648 | [Location of the most isolated point in a random polyhedral sample](../../problems/648-polyhedral-most-isolated-point-location.md) | Open | unstarted | 2026-09-24 |
+| 649 | [Vanishing threshold for first path homology of a random digraph](../../problems/649-random-digraph-path-homology-vanishing.md) | Partially resolved | unstarted | 2026-09-24 |
+| 650 | [Central limit theorem for the first path Betti number](../../problems/650-random-digraph-path-betti-central-limit.md) | Open | unstarted | 2026-09-24 |
+| 651 | [Global convergence of the simple CRDT conformal-mapping iteration](../../problems/651-simple-crdt-convergence.md) | Open | unstarted | 2026-09-24 |
 
 ## Retained entries — excluded from active selection
 
 | ID | Record | Literature status | Preserved programme status | Eligible |
 | --- | --- | --- | --- | --- |
+| 652 | [A fixed-time lower bound for Trotter splitting of the hydrogen ground state](../../research/resolved/652-hydrogen-trotter-lower-bound.md) | Solved | unstarted | No |
 | 653 | [Exponential interior decay for smooth Steklov domains](../../research/resolved/653-steklov-smooth-interior-decay.md) | Solved | queued | No |
 | 654 | [Bounded harmonic lifting for complex media](../../research/resolved/654-complex-harmonic-lifting.md) | Solved | unstarted | No |
 | 655 | [Logarithmic convexity for subdiffusion with non-gradient drift](../../research/resolved/655-fractional-drift-logarithmic-convexity.md) | Solved | unstarted | No |

@@ -120,106 +120,98 @@
     "last_checked": "2026-09-24"
   },
   {
-    "id": "562",
-    "title": "A fixed-time lower bound for Trotter splitting of the hydrogen ground state",
-    "area": "Numerical analysis and quantum dynamics",
-    "file": "problems/562-hydrogen-trotter-lower-bound.md",
+    "id": "568",
+    "title": "Sharp permutation bound for triangular parts of correlation matrices",
+    "area": "Numerical linear algebra and iterative methods",
+    "file": "problems/568-sor-permutation-sharp-constant.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "569",
-    "title": "Sharp permutation bound for triangular parts of correlation matrices",
-    "area": "Numerical linear algebra and iterative methods",
-    "file": "problems/569-sor-permutation-sharp-constant.md",
+    "title": "A sharp Galerkin projection bound on nonobtuse triangles",
+    "area": "Finite element approximation and numerical PDEs",
+    "file": "problems/569-nonobtuse-galerkin-projection-constant.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "570",
-    "title": "A sharp Galerkin projection bound on nonobtuse triangles",
-    "area": "Finite element approximation and numerical PDEs",
-    "file": "problems/570-nonobtuse-galerkin-projection-constant.md",
-    "status": "Open",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "571",
     "title": "The cost of continuous reconstruction on Banach unit balls",
     "area": "Information-based complexity and nonlinear approximation",
-    "file": "problems/571-continuous-decoder-banach-balls.md",
+    "file": "problems/570-continuous-decoder-banach-balls.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "579",
+    "id": "578",
     "title": "A real nearest matrix with spectrum in the closed left half-plane",
     "area": "Numerical linear algebra and matrix optimization",
-    "file": "problems/579-nearest-hurwitz-real-minimizer.md",
+    "file": "problems/578-nearest-hurwitz-real-minimizer.md",
     "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "581",
+    "title": "Infinitely many obstacle resonances in a fixed strip under trapping",
+    "area": "Scattering theory and numerical wave propagation",
+    "file": "problems/581-modified-lax-phillips-trapping.md",
+    "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "582",
-    "title": "Infinitely many obstacle resonances in a fixed strip under trapping",
-    "area": "Scattering theory and numerical wave propagation",
-    "file": "problems/582-modified-lax-phillips-trapping.md",
-    "status": "Partially resolved",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "583",
     "title": "Full Sobolev invertibility range for Hausdorff-measure screen operators",
     "area": "Boundary integral equations and numerical scattering",
-    "file": "problems/583-fractal-screen-sobolev-invertibility.md",
+    "file": "problems/582-fractal-screen-sobolev-invertibility.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "606",
+    "id": "605",
     "title": "Optimal uniform observation time for mixed finite element waves",
     "area": "Numerical control and inverse problems",
-    "file": "problems/606-mixed-wave-optimal-observation-time.md",
+    "file": "problems/605-mixed-wave-optimal-observation-time.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "627",
+    "id": "626",
     "title": "Polynomial-size nonobtuse tetrahedral meshes",
     "area": "Numerical PDEs and computational geometry",
-    "file": "problems/627-polynomial-nonobtuse-tetrahedral-meshes.md",
+    "file": "problems/626-polynomial-nonobtuse-tetrahedral-meshes.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "634",
+    "id": "633",
     "title": "Local potential bases on Freudenthal meshes",
     "area": "Finite elements and multigrid methods",
-    "file": "problems/634-freudenthal-local-potential-basis.md",
+    "file": "problems/633-freudenthal-local-potential-basis.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "640",
+    "id": "639",
     "title": "Strong convergence rate of the fractional WIS Euler integrator",
     "area": "Numerical stochastic differential equations",
-    "file": "problems/640-wis-fractional-euler-rate.md",
+    "file": "problems/639-wis-fractional-euler-rate.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "642",
+    "id": "641",
     "title": "Bos's cubic and quartic simplex interpolation nodes",
     "area": "Multivariate approximation and optimal experimental design",
-    "file": "problems/642-bos-simplex-interpolation-nodes.md",
+    "file": "problems/641-bos-simplex-interpolation-nodes.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "652",
+    "id": "651",
     "title": "Global convergence of the simple CRDT conformal-mapping iteration",
     "area": "Numerical conformal mapping",
-    "file": "problems/652-simple-crdt-convergence.md",
+    "file": "problems/651-simple-crdt-convergence.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   }

@@ -304,322 +304,322 @@
     "last_checked": "2026-09-24"
   },
   {
-    "id": "565",
+    "id": "564",
     "title": "The sharp radius in quantitative Steinitz selection",
     "area": "Convex geometry and sparse approximation",
-    "file": "problems/565-quantitative-steinitz-radius.md",
+    "file": "problems/564-quantitative-steinitz-radius.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "565",
+    "title": "Asymmetry at the Macbeath point of a convex body",
+    "area": "Convex geometry and geometric approximation",
+    "file": "problems/565-macbeath-center-asymmetry.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "566",
-    "title": "Asymmetry at the Macbeath point of a convex body",
-    "area": "Convex geometry and geometric approximation",
-    "file": "problems/566-macbeath-center-asymmetry.md",
+    "title": "Improving the exponential lower bound for peeling sequences",
+    "area": "Discrete geometry and geometric counting",
+    "file": "problems/566-peeling-sequences-lower-base.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "567",
-    "title": "Improving the exponential lower bound for peeling sequences",
-    "area": "Discrete geometry and geometric counting",
-    "file": "problems/567-peeling-sequences-lower-base.md",
+    "id": "571",
+    "title": "Counting half-integral polygons with collinear interior lattice points",
+    "area": "Discrete geometry and lattice-point enumeration",
+    "file": "problems/571-half-integral-collinear-count.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "572",
-    "title": "Counting half-integral polygons with collinear interior lattice points",
-    "area": "Discrete geometry and lattice-point enumeration",
-    "file": "problems/572-half-integral-collinear-count.md",
+    "title": "Counting Ehrhart quasipolynomials of half-integral polygons",
+    "area": "Discrete geometry and Ehrhart theory",
+    "file": "problems/572-half-integral-ehrhart-count.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "573",
-    "title": "Counting Ehrhart quasipolynomials of half-integral polygons",
-    "area": "Discrete geometry and Ehrhart theory",
-    "file": "problems/573-half-integral-ehrhart-count.md",
+    "title": "Unimodal connectivity by 2–3 and 3–2 Pachner moves",
+    "area": "Computational topology and triangulated 3-manifolds",
+    "file": "problems/573-unimodal-pachner-connectivity.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "574",
-    "title": "Unimodal connectivity by 2–3 and 3–2 Pachner moves",
-    "area": "Computational topology and triangulated 3-manifolds",
-    "file": "problems/574-unimodal-pachner-connectivity.md",
+    "id": "579",
+    "title": "A sharp Betti-number bound for 4-manifold triangulation complexity",
+    "area": "Computational topology and triangulation complexity",
+    "file": "problems/579-four-manifold-triangulation-complexity.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "580",
-    "title": "A sharp Betti-number bound for 4-manifold triangulation complexity",
-    "area": "Computational topology and triangulation complexity",
-    "file": "problems/580-four-manifold-triangulation-complexity.md",
+    "title": "Sharp vertex bounds for generalized triangulations in even dimensions",
+    "area": "Computational topology and face-number bounds",
+    "file": "problems/580-even-manifold-vertex-bound.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "581",
-    "title": "Sharp vertex bounds for generalized triangulations in even dimensions",
-    "area": "Computational topology and face-number bounds",
-    "file": "problems/581-even-manifold-vertex-bound.md",
+    "id": "586",
+    "title": "The happy-edge conjecture for convex plane spanning trees",
+    "area": "Computational geometry and geometric reconfiguration",
+    "file": "problems/586-convex-tree-happy-edges.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "587",
-    "title": "The happy-edge conjecture for convex plane spanning trees",
+    "title": "A sharp differing-edge bound for convex plane-tree flips",
     "area": "Computational geometry and geometric reconfiguration",
-    "file": "problems/587-convex-tree-happy-edges.md",
+    "file": "problems/587-convex-tree-difference-bound.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "588",
-    "title": "A sharp differing-edge bound for convex plane-tree flips",
-    "area": "Computational geometry and geometric reconfiguration",
-    "file": "problems/588-convex-tree-difference-bound.md",
+    "id": "591",
+    "title": "Three or four layers for 2-degenerate graphs",
+    "area": "Computational geometry and graph drawing",
+    "file": "problems/591-geometric-thickness-two-degenerate.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "592",
-    "title": "Three or four layers for 2-degenerate graphs",
+    "title": "Bounded geometric thickness for unions of two forests",
     "area": "Computational geometry and graph drawing",
-    "file": "problems/592-geometric-thickness-two-degenerate.md",
+    "file": "problems/592-arboricity-two-geometric-thickness.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "593",
-    "title": "Bounded geometric thickness for unions of two forests",
+    "title": "A linear threshold for extracting a segment grid",
     "area": "Computational geometry and graph drawing",
-    "file": "problems/593-arboricity-two-geometric-thickness.md",
+    "file": "problems/593-red-blue-segment-grid.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "594",
-    "title": "A linear threshold for extracting a segment grid",
-    "area": "Computational geometry and graph drawing",
-    "file": "problems/594-red-blue-segment-grid.md",
+    "title": "Connectivity of plane spanning-path reconfiguration",
+    "area": "Computational geometry and geometric reconfiguration",
+    "file": "problems/594-plane-spanning-path-connectivity.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "595",
-    "title": "Connectivity of plane spanning-path reconfiguration",
-    "area": "Computational geometry and geometric reconfiguration",
-    "file": "problems/595-plane-spanning-path-connectivity.md",
+    "title": "The minimum vertex number of a triangulation of real projective 5-space",
+    "area": "Computational topology and triangulated manifolds",
+    "file": "problems/595-rp5-minimum-vertices.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "596",
-    "title": "The minimum vertex number of a triangulation of real projective 5-space",
-    "area": "Computational topology and triangulated manifolds",
-    "file": "problems/596-rp5-minimum-vertices.md",
-    "status": "Open",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "597",
     "title": "A bounded number of flat transversals for fat convex sets",
     "area": "Discrete geometry and geometric transversal theory",
-    "file": "problems/597-fat-convex-transversal-pq.md",
+    "file": "problems/596-fat-convex-transversal-pq.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "601",
+    "id": "600",
     "title": "Sierksma's lower bound for Tverberg partitions",
     "area": "Discrete geometry and convexity",
-    "file": "problems/601-sierksma-tverberg-partition-count.md",
+    "file": "problems/600-sierksma-tverberg-partition-count.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "610",
+    "title": "Nill's facet bound for reflexive lattice polytopes",
+    "area": "Discrete geometry and toric geometry",
+    "file": "problems/610-reflexive-polytope-facet-bound.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "611",
-    "title": "Nill's facet bound for reflexive lattice polytopes",
-    "area": "Discrete geometry and toric geometry",
-    "file": "problems/611-reflexive-polytope-facet-bound.md",
+    "title": "Counting cospherical tuples in lattice cubes",
+    "area": "Discrete geometry and lattice-point counting",
+    "file": "problems/611-cospherical-lattice-tuple-count.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "612",
-    "title": "Counting cospherical tuples in lattice cubes",
-    "area": "Discrete geometry and lattice-point counting",
-    "file": "problems/612-cospherical-lattice-tuple-count.md",
+    "id": "613",
+    "title": "Unbounded weak chromatic number for geometric tetrahedral complexes",
+    "area": "Combinatorial topology and geometric hypergraphs",
+    "file": "problems/613-tetrahedral-weak-chromatic.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "614",
-    "title": "Unbounded weak chromatic number for geometric tetrahedral complexes",
-    "area": "Combinatorial topology and geometric hypergraphs",
-    "file": "problems/614-tetrahedral-weak-chromatic.md",
+    "title": "Transversal ratio approaching one for simplicial four-polytopes",
+    "area": "Discrete geometry and extremal topology",
+    "file": "problems/614-four-polytope-transversal-ratio.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "615",
-    "title": "Transversal ratio approaching one for simplicial four-polytopes",
-    "area": "Discrete geometry and extremal topology",
-    "file": "problems/615-four-polytope-transversal-ratio.md",
+    "id": "617",
+    "title": "Polynomial-size convex difference decompositions",
+    "area": "Polyhedral geometry and optimization",
+    "file": "problems/617-polynomial-convex-difference-decomposition.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "618",
-    "title": "Polynomial-size convex difference decompositions",
-    "area": "Polyhedral geometry and optimization",
-    "file": "problems/618-polynomial-convex-difference-decomposition.md",
-    "status": "Open",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "619",
     "title": "Reconstructing simplicial spheres from facet adjacency",
     "area": "Combinatorial topology and polyhedral geometry",
-    "file": "problems/619-kalai-sphere-reconstruction.md",
+    "file": "problems/618-kalai-sphere-reconstruction.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "620",
+    "id": "619",
     "title": "Spanning triangulated spheres with holes in surface triangulations",
     "area": "Topological graph theory and rigidity",
-    "file": "problems/620-spanning-holed-sphere-triangulation.md",
+    "file": "problems/619-spanning-holed-sphere-triangulation.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "624",
+    "title": "Convex realizations of spherical subword complexes",
+    "area": "Polyhedral geometry and combinatorial topology",
+    "file": "problems/624-subword-polytopality.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "625",
-    "title": "Convex realizations of spherical subword complexes",
-    "area": "Polyhedral geometry and combinatorial topology",
-    "file": "problems/625-subword-polytopality.md",
-    "status": "Partially resolved",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "626",
     "title": "Eventual classification of simplicial line arrangements",
     "area": "Computational geometry and incidence geometry",
-    "file": "problems/626-simplicial-arrangement-classification.md",
+    "file": "problems/625-simplicial-arrangement-classification.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "629",
+    "id": "628",
     "title": "Odd Euler characteristic for flag-no-square four-manifolds",
     "area": "Combinatorial topology and geometric group theory",
-    "file": "problems/629-odd-euler-flag-no-square.md",
+    "file": "problems/628-odd-euler-flag-no-square.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "630",
+    "id": "629",
     "title": "Characterizing discrete sets generated by fixed-parameter extrapolation",
     "area": "Discrete geometry and aperiodic order",
-    "file": "problems/630-extrapolation-discreteness.md",
+    "file": "problems/629-extrapolation-discreteness.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "631",
+    "id": "630",
     "title": "Relative density of sets generated by fixed-parameter extrapolation",
     "area": "Discrete geometry and aperiodic order",
-    "file": "problems/631-extrapolation-relative-density.md",
+    "file": "problems/630-extrapolation-relative-density.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "636",
+    "id": "635",
     "title": "Small mod-two area cycles in drawings with bounded pairwise intersections",
     "area": "Topological graph theory and discrete geometry",
-    "file": "problems/636-bounded-crossing-heilbronn.md",
+    "file": "problems/635-bounded-crossing-heilbronn.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "639",
+    "id": "638",
     "title": "A limiting law for maximal persistence in random clique complexes",
     "area": "Applied topology / stochastic topology",
-    "file": "problems/639-random-clique-maximal-persistence-law.md",
+    "file": "problems/638-random-clique-maximal-persistence-law.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "641",
+    "id": "640",
     "title": "Coboundary expansion of random balanced Cayley complexes",
     "area": "Applied topology / high-dimensional expansion",
-    "file": "problems/641-random-balanced-cayley-expansion.md",
+    "file": "problems/640-random-balanced-cayley-expansion.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "643",
+    "title": "Zero in the upper-Laplacian spectrum of low-degree simplicial complexes",
+    "area": "Applied topology / spectral theory",
+    "file": "problems/643-low-degree-simplicial-zero-spectrum.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "644",
-    "title": "Zero in the upper-Laplacian spectrum of low-degree simplicial complexes",
-    "area": "Applied topology / spectral theory",
-    "file": "problems/644-low-degree-simplicial-zero-spectrum.md",
+    "title": "Topological complexity in the homogeneous medial regime for all sample sizes",
+    "area": "Applied topology / random complexes",
+    "file": "problems/644-medial-regime-topological-complexity.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "645",
-    "title": "Topological complexity in the homogeneous medial regime for all sample sizes",
-    "area": "Applied topology / random complexes",
-    "file": "problems/645-medial-regime-topological-complexity.md",
+    "title": "A finite three-ample complex with nontrivial fundamental group",
+    "area": "Applied topology / simplicial complexes",
+    "file": "problems/645-finite-three-ample-nonsimply-connected.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "646",
-    "title": "A finite three-ample complex with nontrivial fundamental group",
-    "area": "Applied topology / simplicial complexes",
-    "file": "problems/646-finite-three-ample-nonsimply-connected.md",
+    "title": "Compact orbit covers of aspherical manifolds",
+    "area": "Applied topology / geometric topology",
+    "file": "problems/646-aspherical-compact-orbit-cover.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "647",
-    "title": "Compact orbit covers of aspherical manifolds",
-    "area": "Applied topology / geometric topology",
-    "file": "problems/647-aspherical-compact-orbit-cover.md",
+    "title": "Connectivity when the last isolated point disappears in a polytope",
+    "area": "Applied topology / stochastic geometry",
+    "file": "problems/647-polytopal-connectivity-last-isolated-point.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "648",
-    "title": "Connectivity when the last isolated point disappears in a polytope",
-    "area": "Applied topology / stochastic geometry",
-    "file": "problems/648-polytopal-connectivity-last-isolated-point.md",
-    "status": "Partially resolved",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "649",
     "title": "Location of the most isolated point in a random polyhedral sample",
     "area": "Applied topology / stochastic geometry",
-    "file": "problems/649-polyhedral-most-isolated-point-location.md",
+    "file": "problems/648-polyhedral-most-isolated-point-location.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "650",
+    "id": "649",
     "title": "Vanishing threshold for first path homology of a random digraph",
     "area": "Applied topology / random graphs",
-    "file": "problems/650-random-digraph-path-homology-vanishing.md",
+    "file": "problems/649-random-digraph-path-homology-vanishing.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "651",
+    "id": "650",
     "title": "Central limit theorem for the first path Betti number",
     "area": "Applied topology / probability",
-    "file": "problems/651-random-digraph-path-betti-central-limit.md",
+    "file": "problems/650-random-digraph-path-betti-central-limit.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   }

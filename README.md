@@ -15,9 +15,9 @@ Contributions made with or without AI are welcome.
 
 If a problem here is resolved, we encourage you to improve the proof, explain its ideas, explore its applications, and publish your work. Cite the actual proof and its authors, and cite AIM where you use its curation or research. You are welcome to share your preprint and corrections with the repository so that others can find and build on your contribution.
 
-**652 open targets** (539 open, 113 partial) · **13 solved entries** · **0 Lean verified** · **0 solution claims**. Counts reflect the statuses recorded in this collection.
+**651 open targets** (538 open, 113 partial) · **14 solved entries** · **0 Lean verified** · **0 solution claims**. Counts reflect the statuses recorded in this collection.
 
-**[Browse all 652 open targets →](CATALOG.md)** · **[Solved and claimed solutions →](RESOLVED.md)**
+**[Browse all 651 open targets →](CATALOG.md)** · **[Solved and claimed solutions →](RESOLVED.md)**
 
 ## Browse by subject
 
@@ -28,7 +28,7 @@ If a problem here is resolved, we encourage you to improve the proof, explain it
 | [Inverse problems, control and dynamics](CATALOG.md#inverse-problems-control-and-dynamics) | [28](CATALOG.md#inverse-open) | [0](CATALOG.md#inverse-solved) |
 | [PDEs, fluids and materials](CATALOG.md#pdes-fluids-and-materials) | [31](CATALOG.md#pdes-materials-open) | [1](CATALOG.md#pdes-materials-solved) |
 | [Probability, statistics and learning](CATALOG.md#probability-statistics-and-learning) | [43](CATALOG.md#probability-statistics-open) | [3](CATALOG.md#probability-statistics-solved) |
-| [Numerical analysis and scientific computing](CATALOG.md#numerical-analysis-and-scientific-computing) | [28](CATALOG.md#numerical-analysis-open) | [1](CATALOG.md#numerical-analysis-solved) |
+| [Numerical analysis and scientific computing](CATALOG.md#numerical-analysis-and-scientific-computing) | [27](CATALOG.md#numerical-analysis-open) | [2](CATALOG.md#numerical-analysis-solved) |
 | [Geometry and topology](CATALOG.md#geometry-and-topology) | [78](CATALOG.md#geometry-topology-open) | [1](CATALOG.md#geometry-topology-solved) |
 | [Combinatorics, optimization and information theory](CATALOG.md#combinatorics-optimization-and-information-theory) | [26](CATALOG.md#optimization-information-open) | [0](CATALOG.md#optimization-information-solved) |
 | [Waves, quantum systems and spectral geometry](CATALOG.md#waves-quantum-systems-and-spectral-geometry) | [32](CATALOG.md#spectral2-open) | [0](CATALOG.md#spectral2-solved) |
@@ -47,6 +47,7 @@ Complete resolutions recorded in this collection, including counterexamples to t
 
 | ID | Problem | Status | Outcome | Proof | Review |
 | --- | --- | --- | --- | --- | --- |
+| 652 | [A fixed-time lower bound for Trotter splitting of the hydrogen ground state](research/resolved/652-hydrogen-trotter-lower-bound.md) | ✅ SOLVED | Disproof | [Proof](research/solutions/562-hydrogen-trotter-disproof/PROOF.md) | [Review](research/solutions/562-hydrogen-trotter-disproof/REVIEW.md) |
 | 653 | [Exponential interior decay for smooth Steklov domains](research/resolved/653-steklov-smooth-interior-decay.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/siavash-sadeghi-steklov-024/steklov_counterexample.pdf) | [Review](research/solution_reviews/2026-10-02/024-review.md) |
 | 654 | [Bounded harmonic lifting for complex media](research/resolved/654-complex-harmonic-lifting.md) | ✅ SOLVED | Affirmative proof | [Proof](research/solutions/218-complex-harmonic-lifting/PROOF.md) | [Review](research/solution_reviews/2026-10-02/218-review.md) |
 | 655 | [Logarithmic convexity for subdiffusion with non-gradient drift](research/resolved/655-fractional-drift-logarithmic-convexity.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/405-fractional-drift/PROOF.md) | [Review](research/solution_reviews/2026-10-02/405-review.md) |
