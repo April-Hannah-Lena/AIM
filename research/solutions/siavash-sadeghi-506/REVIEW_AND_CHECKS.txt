@@ -1,0 +1,67 @@
+AIM 506 review and reproduction record
+Review date: 2 October 2026 Europe/London
+Contributor / submitter: Siavash Sadeghi
+Target revision: aa776a01d7d48a79f93251af11fde9454b0aea95
+
+WHAT WAS REVIEWED AND BY WHOM
+The supplied research argument and programs are AI-generated. Codex read the
+complete proof, README, target audit, resolution report, exact repository target
+and contribution instructions. Separate Codex AI reviewers examined the full
+mathematical proof and primary paper, verifier programs, and public repository
+submissions. These reviews are part of this preparation workflow. No independent
+human peer review, publication acceptance or proof-assistant verification is
+claimed, and no proof review is attributed to Siavash Sadeghi.
+
+MATHEMATICAL REVIEW
+No blocking flaw was found. Reviewed: support and full support on ell^2, all
+construction series, density assumptions, convolution tilt/derivative inequality,
+quadratic penalty, convergence of product ratios with positive denominators,
+the selected-block bound, Laplace averaging and concentration near zero,
+quantitative radii, small-energy scaling and polynomial-scale extension.
+The exact integral enclosure and analytic omitted-coordinate bound were checked.
+The published Ayanbayev-Klebanov-Lie-Sullivan paper's Assumption 4.1(A1)-(A3),
+Theorem 4.10 and Conjecture 4.12 were compared with the target. The example meets
+the optional smoothness/Fisher-information assumptions, but its standardized
+center is outside ell^2, so the established restricted lower bound does not apply.
+The result is a zero liminf, not a claim that the full ball-ratio limit is zero.
+
+VALIDATION
+All 12 original SHA256SUMS entries matched before editing.
+31 exact supporting checks pass in normal and optimized (-O) Python; JSON equals
+the original package exactly. The exact verifier is byte-for-byte unchanged.
+80 numerical checks pass at 60 decimal digits in both modes, including 25
+independent mpmath/SciPy convolution comparisons. Maximum discrepancy:
+2.29994038630935816769806496148701336839718916e-16, tolerance 3e-12.
+21 focused regression cases pass in both modes, covering nonfinite integrals
+and error estimates, negative estimates, nonpositive integrals, arithmetic
+overflow and an unchanged valid finite control. Invalid precision arguments
+54, 0, -1 and nonnumeric values were rejected.
+Normal and optimized final numerical JSON agree exactly. All mathematical
+values match the original package; seven SciPy error-estimate diagnostics differ
+by at most 6.291469045e-17 under SciPy 1.18.1 versus the original 1.17.0.
+The finite-prefix numerical quadrature error is not interval-certified.
+
+CHANGES
+Added the contributor/submitter name, preserved AI provenance, refreshed
+environment/run records, replaced an outdated duplicate-submission discussion
+with the current audit, and removed unrelated prior-task references.
+Clarified the liminf inference and positive-denominator wording without changing
+the construction or conclusion. scipy_direct now rejects nonfinite or negative
+quadrature-error diagnostics and nonfinite computed results. Numerical algorithms
+and tolerances are unchanged; valid outputs before/after the guard change agree.
+Added the focused, reproducible guard regression script.
+Replaced unavailable optional lastpage/titlesec dependencies with standard LaTeX
+page labels/section formatting, preserving the document's layout and mathematics.
+Final PDF: eight pages, two successful LaTeX passes without warnings or box
+warnings; every rendered page inspected for text/equations, layout and references.
+The built-in editor compiler was unavailable (platform-directory error); the
+existing MiKTeX installation produced the checked PDF. No TeX installation made.
+
+SUBMISSION
+The dated public audit found no matching prior AIM 506 submission. Its scope and
+limitations are recorded in repository_submission_check.txt.
+Repository guidance requests a pinned target, proof link, full-target comparison,
+and reviewer disclosure through an issue or PR. The package supplies these as
+a Solution claimed contribution under research/solutions/siavash-sadeghi-506/.
+No catalogue status change is proposed. Mathematical acceptance remains subject
+to independent review; structural catalogue validation is not proof verification.

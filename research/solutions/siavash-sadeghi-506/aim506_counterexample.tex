@@ -1,0 +1,458 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=0.82in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{microtype,booktabs,array}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage[colorlinks=true,linkcolor=MidnightBlue,citecolor=MidnightBlue,urlcolor=MidnightBlue]{hyperref}
+\makeatletter
+\renewcommand{\section}{\@startsection{section}{1}{0pt}
+  {-3.5ex plus -1ex minus -.2ex}{2.3ex plus .2ex}
+  {\normalfont\large\bfseries\color{MidnightBlue}}}
+\renewcommand{\subsection}{\@startsection{subsection}{2}{0pt}
+  {-3.25ex plus -1ex minus -.2ex}{1.5ex plus .2ex}
+  {\normalfont\normalsize\bfseries}}
+\makeatother
+\setlength{\headheight}{14pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small AIM 506 \quad Quartic product-prior counterexample}
+\fancyhead[R]{\small Proposed resolution}
+\fancyfoot[L]{\small Independent review outstanding}
+\fancyfoot[R]{\small \thepage\ / \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.3pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\setlength{\abovedisplayskip}{8pt}
+\setlength{\belowdisplayskip}{8pt}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathbb R}
+\newcommand{\N}{\mathbb N}
+\newcommand{\dd}{\,\mathrm d}
+\newcommand{\norm}[1]{\left\lVert #1\right\rVert}
+\newcommand{\law}{\operatorname{Law}}
+\newcommand{\Cov}{\operatorname{Cov}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\code}[1]{\texttt{#1}}
+\allowdisplaybreaks[1]
+\hypersetup{pdftitle={A quartic product-prior counterexample to AIM 506},pdfauthor={Siavash Sadeghi (contributor and submitter); AI-generated research note},pdfsubject={Proposed disproof of Conjecture 4.12 on product-prior small-ball ratios}}
+\begin{document}
+\thispagestyle{empty}
+{\small\color{MidnightBlue}\textbf{RESEARCH NOTE \quad / \quad AIM PROBLEM 506}}
+\vspace{8pt}
+
+{\LARGE\bfseries A quartic product-prior counterexample\par}
+\vspace{4pt}
+{\Large to the general small-ball ratio conjecture\par}
+\vspace{9pt}
+{\normalsize Contributor and submitter: \textbf{Siavash Sadeghi}}\par
+{\small 2 October 2026 \quad Reviewed version 1.1 \quad Status: solution claimed}
+\vspace{9pt}
+
+\begin{abstract}
+\noindent
+We give a proposed counterexample to the unresolved general statement in AIM Problem 506, equivalently Conjecture 4.12 of Ayanbayev, Klebanov, Lie and Sullivan. On $\ell^2$ we construct a countable product of scaled copies of the density $\rho(z)\propto e^{-z^4}$ and an explicit center $h$ with formal energy $Q(h)=1$, but
+\[
+\liminf_{r\downarrow0}\frac{\mu(B_r(h))}{\mu(B_r(0))}=0\ne e^{-1}.
+\]
+The density is positive, real analytic and log-concave, with finite Fisher information. A one-dimensional Gaussian-convolution inequality and a Laplace-transform averaging identity give a self-contained analytic disproof. We also give explicit bounds on a vanishing sequence of ball ratios, arbitrarily small-energy counterexamples, and a second example with polynomial coordinate scales. Exact-arithmetic certificates and separate numerical checks are supplementary, not prerequisites for the main theorem. No assertion that the full small-ball ratio limit exists is needed or made.
+\end{abstract}
+
+\section{Target, construction and admissibility}
+AIM Problem 506 \cite{aim506} asks, for scaled symmetric product priors on weighted $\ell^p$ spaces, whether
+\begin{equation}\label{eq:conjecture}
+\lim_{r\downarrow0}\frac{\mu(B_r(h))}{\mu(B_r(m))}=e^{-Q(h)},
+\qquad
+Q(h)=\sum_{k=1}^{\infty}\log\frac{\rho(0)}{\rho((h_k-m_k)/\gamma_k)}.
+\end{equation}
+This is Conjecture 4.12 of \cite{AKLS}, under its Assumption 4.1(A1)--(A3). The repository labels the entry \emph{Partial}: several cases are proved, but the unrestricted finite-energy lower bound remains open. The example below addresses that remaining target, rather than reproving a known case.
+
+\begin{theorem}[Explicit counterexample]\label{thm:main}
+Let $X=\ell^2(\N)$, $m=0$, and let the independent $Z_k$ have density
+\begin{equation}\label{eq:density}
+\rho(z)=Z_0^{-1}e^{-z^4},\qquad Z_0=\int_\R e^{-z^4}\dd z=\tfrac12\Gamma(1/4).
+\end{equation}
+Partition $\N$ into consecutive blocks $I_j$ of cardinality $8^j$, $j\ge1$. On $I_j$, set
+\begin{equation}\label{eq:construction}
+\gamma_k=4^{-j},\qquad h_k=8^{-j},\qquad d_k:=h_k/\gamma_k=2^{-j}.
+\end{equation}
+Write $Y=(\gamma_k Z_k)_{k\ge1}$ and $\mu=\law(Y)$. Then $\mu$ is a probability measure with full support on $\ell^2$, $h\in\ell^2$, and
+\begin{equation}\label{eq:main}
+Q(h)=1,\qquad \norm{h}_2^2=\frac17,\qquad
+\liminf_{r\downarrow0}\frac{\mu(B_r(h))}{\mu(B_r(0))}=0.
+\end{equation}
+Consequently \eqref{eq:conjecture} is false under its stated assumptions.
+\end{theorem}
+
+\subsection{Verification of all hypotheses}
+The block endpoints may be taken as $M_0=0$ and
+$M_j=\sum_{i=1}^j8^i=8(8^j-1)/7$, with $I_j=\{M_{j-1}+1,\ldots,M_j\}$.
+The parameters in the repository are $p=2$ and $\alpha_k=1$. The density in \eqref{eq:density} is even, positive and strictly decreasing on $[0,\infty)$. It is real analytic and log-concave. Every polynomial moment is finite.
+Integration of $(z e^{-z^4})'$ over $\R$ gives $\E Z^4=1/4$, so Cauchy--Schwarz yields $\E Z^2\le1/2$.
+
+All relevant series are explicit:
+\begin{align}
+\sum_k\gamma_k^2&=\sum_{j=1}^\infty8^j16^{-j}=1,\label{eq:scale}\\
+\norm{h}_2^2&=\sum_{j=1}^\infty8^j64^{-j}=\frac17,\label{eq:hnorm}\\
+Q(h)&=\sum_k d_k^4=\sum_{j=1}^\infty8^j16^{-j}=1,\label{eq:energy}\\
+\sum_k d_k^2&=\sum_{j=1}^\infty2^j=\infty.\label{eq:notl2}
+\end{align}
+Tonelli's theorem and \eqref{eq:scale} imply
+$\E\sum_k\gamma_k^2 Z_k^2\le1/2$, hence the random sequence is in $\ell^2$ almost surely. It is an $\ell^2$-valued measurable random variable, being the almost-sure norm limit of its finite-coordinate truncations.
+
+For completeness, every open ball centered at $x\in\ell^2$ has positive mass. Fix $r>0$ and choose a coordinate cutoff $M$ such that
+$\norm{x_{>M}}_2<r/4$ and
+$\E\norm{Y_{>M}}_2^2<r^2/32$.
+Markov's inequality gives
+$\mathbb P(\norm{Y_{>M}}_2<r/4)>1/2$.
+The first $M$ coordinates have a positive joint density, so
+$\mathbb P(\norm{Y_{\le M}-x_{\le M}}_2<r/2)>0$.
+Independence and the triangle inequality show $\mu(B_r(x))>0$.
+
+There is no lack-of-smoothness issue: $\rho'=-4z^3\rho$ and
+$\rho''=(16z^6-12z^2)\rho$, so
+\[
+\int_\R\frac{(\rho')^2}{\rho}\dd z=16\E Z^6<\infty,
+\qquad \rho''\in L^1(\R).
+\]
+Thus the example even satisfies the optional regularity assumptions (A4) and (A5) of \cite{AKLS}. Its standardized displacement is not square summable, as \eqref{eq:notl2} records.
+
+\section{A one-dimensional convolution inequality}
+For $a>0$ and $d\in\R$, define
+\begin{equation}\label{eq:Ra}
+\ell(a,d)=\E e^{-a(Z-d)^2},\qquad
+R_a(d)=\frac{\ell(a,d)}{\ell(a,0)},\qquad
+f_a(d)=\int_\R e^{-z^4-a(z-d)^2}\dd z.
+\end{equation}
+The normalization $Z_0$ cancels in $R_a(d)=f_a(d)/f_a(0)$.
+
+\begin{lemma}[Centered convolution and a quadratic penalty]\label{lem:oned}
+For every $a>0$ and $d\in\R$,
+\begin{equation}\label{eq:universal}
+e^{-ad^2}\le R_a(d)\le1.
+\end{equation}
+Moreover, for $|d|\le1$,
+\begin{equation}\label{eq:penalty}
+R_1(d)\le\exp(-d^2/144).
+\end{equation}
+\end{lemma}
+\begin{proof}
+The convolution of two even nonincreasing functions is maximized at zero; here this can be seen without a rearrangement theorem. Write $e^{-a(z-d)^2}$ by its level sets. Each level set is an interval centered at $d$, and, for $r\ge0$, the integral of the even decreasing density $e^{-z^4}$ over $[d-r,d+r]$ is maximal at $d=0$. For $d\ge0$ its derivative is
+$e^{-(d+r)^4}-e^{-(d-r)^4}\le0$. Tonelli's theorem proves $f_a(d)\le f_a(0)$.
+
+Let $\eta_{a,0}$ be the probability measure proportional to $e^{-z^4-az^2}\dd z$ and let $\eta_{a,d}$ be its tilt proportional to $e^{2adz}$. By symmetry,
+\begin{equation}\label{eq:cosh}
+R_a(d)=e^{-ad^2}\E_{\eta_{a,0}}\cosh(2adZ)\ge e^{-ad^2}.
+\end{equation}
+All differentiations below are dominated on compact parameter sets by an integrable quartic exponential times a polynomial. Integration of the derivative in $z$ gives
+\[
+4\E_{\eta_{a,d}}Z^3+2a(\E_{\eta_{a,d}}Z-d)=0,
+\]
+so
+\begin{equation}\label{eq:derivative}
+(\log f_a)'(d)
+=2a(\E_{\eta_{a,d}}Z-d)=-4\E_{\eta_{a,d}}Z^3.
+\end{equation}
+Set $\kappa(a)=\E_{\eta_{a,0}} Z^4$. For $d\ge0$,
+\[
+\E_{\eta_{a,0}}[Z^3 e^{2adZ}]
+=\E_{\eta_{a,0}}[Z^3\sinh(2adZ)]\ge2ad\,\kappa(a).
+\]
+The inequality follows pointwise from $t\sinh t\ge t^2$. Also,
+\[
+\E_{\eta_{a,0}}e^{2adZ}=e^{ad^2}R_a(d)\le e^{ad^2}.
+\]
+Substituting into \eqref{eq:derivative} and integrating from $0$ to $d$ yields, by evenness also for negative $d$,
+\begin{equation}\label{eq:kappa-bound}
+\log R_a(d)\le-4\kappa(a)(1-e^{-ad^2}).
+\end{equation}
+
+It remains to bound $\kappa:=\kappa(1)$ by an elementary positive constant.
+The denominator $\int_\R e^{-z^4-z^2}\dd z$ is smaller than $\sqrt\pi<2$.
+On $[-1,-1/2]\cup[1/2,1]$, a set of total length $1$, one has $z^4\ge1/16$ and $z^4+z^2\le2$. Hence the numerator is at least $e^{-2}/16>1/144$, since $e<3$. Therefore
+\begin{equation}\label{eq:kappa-elementary}
+\kappa>\frac1{288}.
+\end{equation}
+For $0\le u\le1$, Taylor's inequality gives
+$1-e^{-u}\ge u-u^2/2\ge u/2$.
+Applying this with $u=d^2$ in \eqref{eq:kappa-bound} proves \eqref{eq:penalty}.
+\end{proof}
+
+\begin{remark}[Why a quartic density can generate a quadratic cost]\label{rem:quadratic}
+A second integration by parts gives
+$1=4\kappa+2\E_{\eta_{1,0}}Z^2$. Expanding the analytic even function $\log R_1(d)$ at zero therefore gives
+\[
+\log R_1(d)=-4\kappa d^2+O(d^4).
+\]
+The formal density cost is $d^4$, but Gaussian convolution at the active coordinate scale produces a strictly positive quadratic displacement cost. This mismatch drives the construction.
+\end{remark}
+
+\section{Laplace transforms and the small-ball contradiction}
+For $x\in\ell^2$ and $\tau>0$, define
+\begin{equation}\label{eq:Laplace}
+L_x(\tau)=\E e^{-\tau\norm{Y-x}_2^2}.
+\end{equation}
+Since the random norm is finite almost surely, $0<L_x(\tau)\le1$.
+Independence gives factorization over finite coordinate prefixes. Dominated convergence then gives, for the full product,
+\begin{equation}\label{eq:factor}
+\frac{L_h(\tau)}{L_0(\tau)}
+=\prod_{j=1}^{\infty}R_{\tau16^{-j}}(2^{-j})^{8^j}.
+\end{equation}
+This identity is the limit of ratios of finite products whose denominators converge to the positive number $L_0(\tau)$; no vanishing denominator occurs in this limit.
+
+Every factor in \eqref{eq:factor} lies in $(0,1]$. At the selected scale $\tau_j=16^j$, Lemma~\ref{lem:oned} applied to the $j$th block gives
+\begin{equation}\label{eq:Laplace-upper}
+0<\frac{L_h(16^j)}{L_0(16^j)}
+\le R_1(2^{-j})^{8^j}
+\le\exp\left(-\frac{8^j4^{-j}}{144}\right)
+=\exp(-2^j/144)\longrightarrow0.
+\end{equation}
+The following lemma turns this statement into the required small-ball contradiction.
+
+\begin{lemma}[Laplace averaging detects a vanishing ball-ratio liminf]\label{lem:bridge}
+Let $\mu$ be a probability measure on a normed space with $\mu(B_r(0))>0$ for every $r>0$, and let $h$ belong to that space. Define $L_x$ by \eqref{eq:Laplace}. If, along some sequence $\tau_j\to\infty$,
+$L_h(\tau_j)/L_0(\tau_j)\to0$, then
+\[
+\liminf_{r\downarrow0}\frac{\mu(B_r(h))}{\mu(B_r(0))}=0.
+\]
+\end{lemma}
+\begin{proof}
+Tonelli's theorem and the identity
+$e^{-\tau s^2}=\int_s^\infty2\tau r e^{-\tau r^2}\dd r$
+give
+\begin{equation}\label{eq:layercake}
+L_x(\tau)=\int_0^\infty2\tau r e^{-\tau r^2}\mu(B_r(x))\dd r.
+\end{equation}
+Open versus closed balls do not affect this identity, since the possible equality $r=s$ is a single Lebesgue-null point for each fixed $s$.
+Define the probability measure
+\[
+\dd\omega_\tau(r)=\frac{2\tau r e^{-\tau r^2}\mu(B_r(0))}{L_0(\tau)}\dd r
+\quad (r>0),
+\qquad g(r)=\frac{\mu(B_r(h))}{\mu(B_r(0))}.
+\]
+Then
+\begin{equation}\label{eq:average}
+\frac{L_h(\tau)}{L_0(\tau)}=\int_0^\infty g(r)\dd\omega_\tau(r).
+\end{equation}
+For any $\varepsilon>0$,
+\begin{equation}\label{eq:concentration}
+\begin{aligned}
+\omega_\tau([\varepsilon,\infty))
+&\le\frac{e^{-\tau\varepsilon^2}}{L_0(\tau)}\\
+&\le\frac{e^{-3\tau\varepsilon^2/4}}{\mu(B_{\varepsilon/2}(0))}
+\longrightarrow0.
+\end{aligned}
+\end{equation}
+The last inequality follows by restricting $L_0(\tau)$ to $B_{\varepsilon/2}(0)$.
+If $\liminf_{r\downarrow0}g(r)>0$, there exist $c,\varepsilon>0$ such that $g(r)\ge c$ whenever $0<r<\varepsilon$. Nonnegativity in \eqref{eq:average} gives
+$L_h(\tau)/L_0(\tau)\ge c\,\omega_\tau((0,\varepsilon))$, hence $\liminf_{\tau\to\infty}L_h(\tau)/L_0(\tau)\ge c$, contradicting the assumed zero subsequence. Since $g\ge0$, its liminf must be zero.
+\end{proof}
+
+\begin{proof}[Completion of Theorem~\ref{thm:main}]
+Admissibility, full support and $Q(h)=1$ were proved in Section~1. Apply Lemma~\ref{lem:bridge} to \eqref{eq:Laplace-upper}. The resulting liminf is $0$, whereas the conjecture prescribes the positive limit $e^{-1}$.
+\end{proof}
+
+\begin{remark}[Exact scope]
+The argument proves a complete disproof of the universal limit formula. It does not establish that the full ball-ratio limit for this example is zero, and does not need that stronger claim. No Tauberian converse is being asserted: the only inference is the positive-liminf contradiction in Lemma~\ref{lem:bridge}.
+\end{remark}
+
+\section{Quantitative and robust forms}
+\subsection{Explicit shrinking bounds on counterexample radii}
+\begin{proposition}\label{prop:radius}
+For every integer $j\ge1$, some radius $r_j$ satisfies
+\begin{equation}\label{eq:radius}
+0<r_j<3\cdot2^{-j},\qquad
+\frac{\mu(B_{r_j}(h))}{\mu(B_{r_j}(0))}<2e^{-4^j/144}.
+\end{equation}
+In particular $r_j\to0$. No specific value of $r_j$ is required or claimed.
+\end{proposition}
+\begin{proof}
+We first show
+\begin{equation}\label{eq:Laplace-lower}
+L_0(16^J)\ge e^{-5\cdot8^J}\qquad(J\ge1).
+\end{equation}
+The normalizer $Z_0$ is smaller than $3$: on $[-1,1]$ its integral is at most $2$, and outside this interval $e^{-z^4}\le e^{-|z|}$ gives a tail at most $2/e<1$.
+For $a\ge1$, restricting the defining integral to $|z|\le a^{-1/2}$ gives
+\[
+\ell(a,0)\ge\frac{2}{27}a^{-1/2}\ge e^{-3}a^{-1/2},
+\]
+using $e<3$ and $e^3>27/2$.
+For a block $i\le J$, $a=16^{J-i}$ and hence
+$-\log\ell(a,0)\le3+2(J-i)$, since $\log4<2$.
+The total contribution of these blocks is bounded by
+\[
+8^J\sum_{l=0}^\infty8^{-l}(3+2l)=\frac{184}{49}8^J.
+\]
+For $i>J$, Jensen's inequality and $\E Z^2\le1/2$ give
+$-\log\ell(16^{J-i},0)\le16^{J-i}/2$.
+Their total contribution is at most
+\[
+\frac12\sum_{i>J}8^i16^{J-i}=\frac12 8^J.
+\]
+The sum of the two constants is $417/98<5$, proving \eqref{eq:Laplace-lower}.
+
+Now choose $\tau=16^{2j}$ and $\varepsilon_j=3\cdot2^{-j}$ in the first line of \eqref{eq:concentration}. Equation~\eqref{eq:Laplace-lower} yields
+\[
+\omega_{16^{2j}}([\varepsilon_j,\infty))
+\le e^{-9\cdot64^j+5\cdot64^j}=e^{-4\cdot64^j}<\tfrac12.
+\]
+Equation~\eqref{eq:Laplace-upper} bounds the $\omega_{16^{2j}}$-average of $g$ by $e^{-4^j/144}$. If $g(r)\ge2e^{-4^j/144}$ for every $0<r<\varepsilon_j$, that average would be strictly larger than $e^{-4^j/144}$, a contradiction. This proves \eqref{eq:radius}.
+\end{proof}
+
+\subsection{Arbitrarily small formal energy}
+For every $\eta>0$, replace $h$ by $\eta h$ in the same measure. Then
+\[
+Q(\eta h)=\eta^4,\qquad \norm{\eta h}_2^2=\eta^2/7.
+\]
+For all sufficiently large $j$, $\eta2^{-j}\le1$, and the selected block estimate becomes
+\[
+\frac{L_{\eta h}(16^j)}{L_0(16^j)}\le e^{-\eta^2 2^j/144}\longrightarrow0.
+\]
+Lemma~\ref{lem:bridge} again gives a zero ball-ratio liminf, although the conjectured answer is $e^{-\eta^4}>0$. Thus imposing merely a small bound on the formal energy does not repair the conjecture.
+
+\subsection{A second example with polynomial scales}
+The block construction is not essential. With the same reference density and $X=\ell^2$, take
+\begin{equation}\label{eq:polynomial}
+\gamma_k=k^{-1},\qquad h_k=k^{-4/3},\qquad d_k=k^{-1/3}.
+\end{equation}
+Then $\sum\gamma_k^2<\infty$, $h\in\ell^2$, and $Q(h)=\sum_k k^{-4/3}=\zeta(4/3)<\infty$. Support and measurability follow as before.
+
+To obtain a uniform version of the convolution estimate, note that
+\[
+\kappa'(a)=-\Cov_{\eta_{a,0}}(Z^4,Z^2)\le0.
+\]
+Indeed, for independent nonnegative $U,U'$ with the law of $Z^2$, twice the covariance of $U^2$ and $U$ equals
+$\E[(U-U')^2(U+U')]\ge0$.
+Thus $\kappa(a)\ge\kappa(1)>1/288$ for $1/4\le a\le1$.
+Equation~\eqref{eq:kappa-bound} gives, for these $a$ and $|d|\le1$,
+\begin{equation}\label{eq:uniform}
+\log R_a(d)\le-2\kappa(a)ad^2\le-d^2/576.
+\end{equation}
+At $\tau=n^2$, the $n$ coordinates $n\le k<2n$ satisfy
+$1/4\le\tau\gamma_k^2\le1$. Keeping just these factors in the Laplace ratio yields
+\[
+\frac{L_h(n^2)}{L_0(n^2)}
+\le\exp\left(-\frac1{576}\sum_{k=n}^{2n-1}k^{-2/3}\right)
+\le\exp\left(-\frac{2^{-2/3}}{576}n^{1/3}\right)\longrightarrow0.
+\]
+This proves a second counterexample to the conjecture using the single smooth power-law scale sequence \eqref{eq:polynomial}.
+
+\section{Relation to established results and evidence status}
+Theorem 4.10 of \cite{AKLS}, printed p.11, proves the general upper limsup bound. Under its smoothness assumption (A5), its lower bound is stated for finite-energy centers in $m+\ell^2_\gamma$. The conjecture on printed p.12 removes that center restriction. Our example satisfies (A5), but \eqref{eq:notl2} shows that its center lies outside $\ell^2_\gamma$; hence it does not contradict the established theorem. It shows that smoothness, log-concavity and finite Fisher information alone do not justify removal of that restriction.
+
+The application stated in \cite{aim506,AKLS} concerns using small-ball ratios to identify an Onsager--Machlup functional for product priors in Bayesian inverse problems. The result here rules out identifying that functional with the formal quartic energy on \emph{all} finite-energy centers under the stated general assumptions. It does not rule out restricted-domain formulas, the known Gaussian cases, or all forms of maximum a posteriori estimation.
+
+The main-branch problem entry and the pinned revision were checked, together with public submission records \cite{prs}. The current audit inspected all indexed issues and pull requests, available comments, reviews and file changes, the main branch, and focused subject searches. No matching AIM~506 submission was found. The dated audit accompanies this package and states its coverage limits. A bounded literature search found no same-target resolution; this does not establish exhaustive priority.
+
+The supplied argument is AI-generated. Codex and separate Codex AI reviewers checked the complete argument, primary-source match and verification programs during preparation. No human peer review or proof-assistant verification is claimed; the accompanying review record states the scope. Under the repository's evidence rules \cite{contributing}, the appropriate proposed status is \emph{Solution claimed}. This submission contains the proof package; no catalogue status change is proposed. The analytic proof, exact supporting certificate and floating-point experiments must be distinguished.
+
+\appendix
+\section{Optional exact-arithmetic integral certificate}\label{app:exact}
+The main proof uses only the elementary bound $\kappa>1/288$. The supplied standard-library program \code{verify\_exact.py} additionally encloses the integrals
+\[
+A_r=\int_\R z^r e^{-z^4-z^2}\dd z\qquad(r=0,4)
+\]
+with rational arithmetic and certifies $\kappa=A_4/A_0>1/8$. This strengthens \eqref{eq:penalty} to $R_1(d)\le e^{-d^2/4}$ for $|d|\le1$, but is not needed for the disproof.
+
+Here is the entire enclosure method. For $u\ge0$, Taylor's remainder implies
+$S_{101}(u)\le e^{-u}\le S_{100}(u)$, where
+$S_N(u)=\sum_{m=0}^N(-u)^m/m!$.
+Integrating over $[-2,2]$ gives the exact rational numbers
+\[
+T_{r,N}=\sum_{m=0}^N\frac{(-1)^m}{m!}
+\sum_{k=0}^m\binom mk\frac{2^{r+2m+2k+2}}{r+2m+2k+1}.
+\]
+For $P(x)=x^4+x^2$ and $x\ge2$, convexity gives
+$P(x)\ge20+36(x-2)$, while
+$x^4\le16e^{2(x-2)}$ follows from $\log(x/2)\le(x-2)/2$.
+Thus the two-sided tails satisfy
+\[
+\int_{|x|>2}e^{-P(x)}\dd x\le\frac{e^{-20}}{18},\qquad
+\int_{|x|>2}x^4e^{-P(x)}\dd x\le\frac{16e^{-20}}{17}.
+\]
+An upper bound on $e^{-20}$ is obtained by taking the reciprocal of a finite positive Taylor lower bound for $e^{20}$. Consequently,
+\begin{align*}
+A_0&\in[T_{0,101},\ T_{0,100}+e^{-20}/18],\\
+A_4&\in[T_{4,101},\ T_{4,100}+16e^{-20}/17],
+\end{align*}
+with the exponential upper bounds substituted as rational numbers.
+
+The exact certificate in \code{exact\_results.json} proves
+\[
+0.13302001<\kappa<0.13302003,\qquad \kappa>1/8.
+\]
+All certificate decisions use integers and fractions; decimal conversions are for display only. The recorded run passes 31 supporting checks, including block arithmetic, geometric series, the quantitative radius constants and the integral enclosures. This does not constitute a formal verification of the measure-theoretic proof.
+
+\section{Numerical cross-checks and reproduction}\label{app:numerics}
+The separate script \code{verify\_numerical.py} uses 60-digit \code{mpmath} quadrature and a direct convolution implementation with \code{scipy.integrate.quad}. The recorded run passes 80 numerical checks. Across 25 comparisons, the maximum absolute discrepancy of the logarithmic one-dimensional ratios is below the portable tolerance $3\times10^{-12}$. The current machine-readable report records the measured maximum.
+
+For example, the following are logarithms of \emph{single-block factors}, not direct measurements of small-ball probabilities:
+\begin{center}
+\begin{tabular}{rrr}
+\toprule
+$j$ & $d=2^{-j}$ & $\log\bigl(R_1(2^{-j})^{8^j}\bigr)$ \\
+\midrule
+1 & $1/2$ & $-1.0742745865383273$ \\
+2 & $1/4$ & $-2.1334827031180223$ \\
+4 & $1/16$ & $-8.5145804142510394$ \\
+6 & $1/64$ & $-34.0534502189846013$ \\
+8 & $1/256$ & $-136.2125824831589036$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+The script also computes numerical prefixes of the full Laplace product. From \eqref{eq:universal}, the omitted logarithmic tail beyond block $K$ obeys the analytic bound
+\[
+-\frac{\tau8^{-K}}7\le
+\sum_{i>K}8^i\log R_{\tau16^{-i}}(2^{-i})\le0.
+\]
+The quadrature of the retained prefix is \emph{not} certified interval arithmetic, so those floating-point values remain corroborations, even though the omitted-coordinate bound is analytic. No finite parameter grid is used as a substitute for the proof.
+
+From the extracted package directory, run:
+\begin{verbatim}
+python3 verify_exact.py --output exact_results.json
+python3 -m pip install -r requirements-numerical.txt
+python3 verify_numerical.py --output numerical_results.json
+\end{verbatim}
+The first command requires only Python's standard library. The second command installs optional numerical-check dependencies. To rebuild this note:
+\begin{verbatim}
+pdflatex -interaction=nonstopmode -halt-on-error aim506_counterexample.tex
+pdflatex -interaction=nonstopmode -halt-on-error aim506_counterexample.tex
+\end{verbatim}
+The package also includes a target audit, a resolution report, environment versions and file hashes. Neither a proof assistant nor an independent human review has verified this result.
+
+\begin{thebibliography}{9}
+\bibitem{AKLS}
+B.~Ayanbayev, I.~Klebanov, H.~C.~Lie and T.~J.~Sullivan,
+\emph{$\Gamma$-convergence of Onsager--Machlup functionals: II. Infinite product measures on Banach spaces},
+Inverse Problems \textbf{38} (2022), 025006.
+\href{https://doi.org/10.1088/1361-6420/ac3f82}{doi:10.1088/1361-6420/ac3f82}.
+See Assumption 4.1, Theorem 4.10 and Conjecture 4.12, printed pp.6, 11--12.
+\href{https://arxiv.org/abs/2108.04598}{arXiv:2108.04598}, version 3, 29 November 2021.
+
+\bibitem{aim506}
+MColbrook/AIM, \emph{Problem 506: Small-ball ratios for general symmetric product priors}.
+\href{https://github.com/MColbrook/AIM/blob/aa776a01d7d48a79f93251af11fde9454b0aea95/problems/506-product-prior-small-ball-ratios.md}{Pinned repository entry}; main-branch entry also inspected.
+Repository status: Partial; entry's last review: 23 September 2026.
+
+\bibitem{prs}
+MColbrook/AIM, \emph{Public pull-request list}, inspected during this session on 2 October 2026.
+\url{https://github.com/MColbrook/AIM/pulls?page=1}.
+This is a bounded public-status check, not an exhaustive literature registry.
+
+\bibitem{contributing}
+MColbrook/AIM, \emph{Contributing guidelines}, revision
+\path{aa776a01d7d48a79f93251af11fde9454b0aea95}.
+\href{https://github.com/MColbrook/AIM/blob/aa776a01d7d48a79f93251af11fde9454b0aea95/CONTRIBUTING.md}{Evidence requirements and status definitions}.
+\end{thebibliography}
+\label{LastPage}
+\end{document}

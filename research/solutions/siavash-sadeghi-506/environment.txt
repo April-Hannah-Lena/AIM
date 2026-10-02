@@ -1,0 +1,13 @@
+Current reviewed execution environment, 2 October 2026
+Contributor / submitter: Siavash Sadeghi
+Platform: Windows 11
+Python: 3.12.14
+mpmath: 1.3.0
+SciPy: 1.18.1
+NumPy: 2.3.5 (SciPy dependency)
+Working precision: 60 decimal digits
+OPENBLAS_NUM_THREADS=1
+Exact verifier: Python standard library only
+PDF: existing MiKTeX pdfLaTeX; two successful passes; Poppler visual inspection.
+
+Original uploaded package: Python 3.13.5, Linux, mpmath 1.3.0, SciPy 1.17.0.
