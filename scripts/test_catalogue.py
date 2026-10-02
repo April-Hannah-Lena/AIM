@@ -9,7 +9,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
-from catalogue import next_problem_id
+from catalogue import next_problem_id, render_catalog, render_readme, render_resolved, subject_index
 from markdown_math import expressions, validate_math
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -25,6 +25,66 @@ BADGES = {
 }
 ARCHIVE_STATUSES = ('Lean verified', 'Solved', 'Solution claimed',
                     'Needs verification', 'Withdrawn')
+
+
+class ResolutionPresentationTests(unittest.TestCase):
+    def setUp(self):
+        self.entries = [{'id': '001', 'title': 'Still open', 'area': 'Example',
+                         'file': 'problems/001-open.md', 'status': 'Partially resolved',
+                         'last_checked': '2026-01-01', 'group': 'first'}]
+        self.solved = {'id': '002', 'title': 'A resolved target', 'group': 'first',
+                       'status': 'Solved', 'last_checked': '2026-01-01',
+                       'record': 'research/002.md', 'reason': 'Full review notes',
+                       'outcome': 'Counterexample', 'proof': 'research/proof.md',
+                       'review': 'research/review.md'}
+        self.claim = {**self.solved, 'id': '003', 'title': 'An outstanding claim',
+                      'status': 'Solution claimed', 'record': 'research/003.md'}
+        self.lean = {**self.solved, 'id': '004', 'title': 'A formal proof',
+                     'status': 'Lean verified', 'record': 'research/004.md',
+                     'verification_record': 'research/lean-evidence.md'}
+        self.manifest = {'groups': [{'key': 'first', 'title': 'First subject'},
+                                    {'key': 'empty', 'title': 'Empty subject'}],
+                         'batches': [{'title': 'Example', 'ids': ['001', '002', '003', '004']}],
+                         'retired': [self.solved, self.claim, self.lean]}
+
+    def test_counts_link_to_each_subject_list_and_exclude_claims(self):
+        index = '\n'.join(subject_index(self.entries, self.manifest, 'CATALOG.md'))
+        self.assertIn('| [First subject](CATALOG.md#first-subject) | '
+                      '[1](CATALOG.md#first-open) | [2](CATALOG.md#first-solved) |', index)
+        self.assertIn('[0](CATALOG.md#empty-open) | [0](CATALOG.md#empty-solved)', index)
+
+    def test_catalogue_pairs_open_and_solved_and_separates_claims(self):
+        text = render_catalog(self.entries, self.manifest)
+        first = text.split('## First subject\n', 1)[1].split('\n## Empty subject', 1)[0]
+        opened, solved = first.split('### Solved problems', 1)
+        solved, claimed = solved.split('### Solution claimed', 1)
+        self.assertIn('| 001 |', opened)
+        self.assertNotIn('| 002 |', opened)
+        self.assertIn('| 002 |', solved)
+        self.assertIn('| 004 |', solved)
+        self.assertNotIn('| 003 |', solved)
+        self.assertIn('| 003 |', claimed)
+        for group in self.manifest['groups']:
+            for section in ('open', 'solved'):
+                self.assertIn(f'<a name="{group["key"]}-{section}"></a>', text)
+        self.assertIn('No solved problems are currently recorded in this subject.', text)
+
+    def test_readme_shows_proofs_and_reviews_for_complete_resolutions(self):
+        text = render_readme(self.entries, self.manifest)
+        self.assertIn('| 002 |', text)
+        self.assertIn('| 004 |', text)
+        self.assertNotIn('| 001 |', text)
+        self.assertNotIn('| 003 |', text)
+        self.assertIn('| Counterexample | [Proof](research/proof.md) | [Review](research/review.md)', text)
+        self.assertIn('[Lean evidence](research/lean-evidence.md)', text)
+
+    def test_archive_starts_with_solved_and_omits_empty_statuses(self):
+        text = render_resolved(self.manifest)
+        self.assertLess(text.index('## Solved\n'), text.index('## Lean verified\n'))
+        self.assertLess(text.index('## Lean verified\n'), text.index('## Solution claimed\n'))
+        self.assertNotIn('## Needs verification\n', text)
+        self.assertNotIn('## Withdrawn\n', text)
+        self.assertIn('| Counterexample | 2026-01-01 | [Proof](research/proof.md) | [Review](research/review.md)', text)
 
 
 class NumberAllocationTests(unittest.TestCase):
@@ -145,6 +205,7 @@ class CatalogueTests(unittest.TestCase):
         for offset, status in enumerate(statuses):
             identifier = f'{first_id + offset:03d}'
             row = {'id': identifier, 'title': f'Temporary {status.lower()} target',
+                   'group': 'spectral',
                    'status': status, 'last_checked': original['last_checked'],
                    'reason': f'Temporary review for {identifier}',
                    'record': f'research/test-{identifier}.md'}
@@ -153,6 +214,12 @@ class CatalogueTests(unittest.TestCase):
             path = self.root / row['record']
             path.write_text(content, encoding="utf-8")
             self.set_page_status(path, status)
+            if status in ('Solved', 'Lean verified'):
+                row['outcome'] = 'Affirmative proof'
+                row['proof'] = f'research/test-{identifier}-proof.md'
+                row['review'] = f'research/test-{identifier}-review.md'
+                for field in ('proof', 'review'):
+                    (self.root / row[field]).write_text(f'# Synthetic {field} fixture\n', encoding='utf-8')
             if status == 'Lean verified':
                 row['verification_record'] = f'research/test-{identifier}-lean.md'
                 (self.root / row['verification_record']).write_text(
@@ -174,7 +241,7 @@ class CatalogueTests(unittest.TestCase):
         self.assertTrue(all((self.root / p).read_bytes() == text
                             for p, text in originals.items()))
 
-    def test_browsing_is_separate_from_readme(self):
+    def test_open_and_solved_browsing(self):
         self.run_catalogue()
         readme = (self.root / 'README.md').read_text(encoding="utf-8")
         catalogue = (self.root / 'CATALOG.md').read_text(encoding="utf-8")
@@ -186,7 +253,9 @@ class CatalogueTests(unittest.TestCase):
         self.assertIn('](CATALOG.md)', readme)
         self.assertIn('](RESOLVED.md)', readme)
         self.assertIn('](CITATION.cff)', readme)
-        self.assertNotRegex(readme, r'(?m)^\| \d{3,} \|')
+        solved_ids = {row['id'] for row in manifest['retired']
+                      if row['status'] in ('Solved', 'Lean verified')}
+        self.assertEqual(set(re.findall(r'(?m)^\| (\d{3,}) \|', readme)), solved_ids)
         self.assertNotIn('| Publication batch |', readme)
         self.assertIn('| Publication batch |', catalogue)
         self.assertEqual(manifest['schema_version'], 2)
@@ -194,24 +263,40 @@ class CatalogueTests(unittest.TestCase):
         for group in manifest['groups']:
             self.assertNotIn(f"## {group['title']}\n", readme)
             section = self.section(catalogue, group['title'])
-            for row in self.read_json(f"data/{group['key']}.json"):
+            open_rows = self.read_json(f"data/{group['key']}.json")
+            solved_count = sum(row['group'] == group['key'] and row['id'] in solved_ids
+                               for row in manifest['retired'])
+            self.assertIn(f"[{len(open_rows)}](CATALOG.md#{group['key']}-open) | "
+                          f"[{solved_count}](CATALOG.md#{group['key']}-solved)", readme)
+            self.assertIn(f'<a name="{group["key"]}-open"></a>', section)
+            self.assertIn(f'<a name="{group["key"]}-solved"></a>', section)
+            self.assertLess(section.index('### Open problems'), section.index('### Solved problems'))
+            for row in open_rows:
                 self.assertIn(f"| {row['id']} |", section)
                 self.assertIn(f"]({row['file']})", section)
                 line = next(line for line in section.splitlines()
                             if line.startswith(f"| {row['id']} |"))
                 self.assertIn(BADGES[row['status']], line)
         for row in manifest['retired']:
-            self.assertNotIn(f"| {row['id']} |", catalogue)
+            group = next(group for group in manifest['groups'] if group['key'] == row['group'])
+            self.assertIn(f"| {row['id']} |", self.section(catalogue, group['title']))
             self.assertIn(f"| {row['id']} |", resolved)
             self.assertIn(f"]({row['record']})", resolved)
             line = next(line for line in resolved.splitlines()
                         if line.startswith(f"| {row['id']} |"))
             self.assertIn(BADGES[row['status']], line)
-        claimed = self.section(resolved, 'Solution claimed')
-        for row in manifest['retired']:
+            if row['id'] in solved_ids:
+                for text in (readme, catalogue, resolved):
+                    line = next(line for line in text.splitlines() if line.startswith(f"| {row['id']} |"))
+                    self.assertIn(row['outcome'], line)
+                    self.assertIn(f"[Proof]({row['proof']})", line)
+                    self.assertIn(f"[Review]({row['review']})", line)
             if row['status'] == 'Solution claimed':
-                self.assertIn(f"| {row['id']} |", claimed)
+                self.assertIn(f"| {row['id']} |", self.section(resolved, 'Solution claimed'))
                 self.assertNotIn(f"| {row['id']} |", self.section(resolved, 'Solved'))
+        for status in ARCHIVE_STATUSES:
+            if not any(row['status'] == status for row in manifest['retired']):
+                self.assertNotIn(f'## {status}\n', resolved)
 
     def test_duplicate_id(self):
         self.change_row(lambda rows: rows.append(dict(rows[0])))
@@ -407,24 +492,16 @@ class CatalogueTests(unittest.TestCase):
 
     def test_noncontiguous_grouping_and_counts(self):
         manifest = self.read_json('catalogue.json')
-        first_id = max(int(i) for batch in manifest['batches'] for i in batch['ids']) + 1
-        ids = []
-        for offset, stem in enumerate(('spectral', 'operators', 'spectral')):
-            rows = self.read_json(f'data/{stem}.json')
-            original = rows[0]
-            row = dict(original)
-            row['id'] = f'{first_id + offset:03d}'
-            row['title'] = 'Temporary test ' + row['id']
-            row['file'] = f"problems/{row['id']}-temporary-test.md"
-            content = (self.root / original['file']).read_text(encoding="utf-8")
-            content = content.replace(original['id'], row['id'], 1)
-            content = content.replace(original['title'], row['title'], 1)
-            (self.root / row['file']).write_text(content, encoding="utf-8")
-            rows.append(row)
+        grouped = {group['key']: self.read_json(f"data/{group['key']}.json")
+                   for group in manifest['groups']}
+        moved = sorted(self.active_entries(), key=lambda row: int(row['id']))[-3:]
+        ids = [row['id'] for row in moved]
+        for rows in grouped.values():
+            rows[:] = [row for row in rows if row['id'] not in ids]
+        for row, stem in zip(moved, ('spectral', 'operators', 'spectral')):
+            grouped[stem].append(row)
+        for stem, rows in grouped.items():
             self.write_json(f'data/{stem}.json', rows)
-            ids.append(row['id'])
-        manifest['batches'].append({'key': 'test', 'title': 'Temporary test', 'ids': ids})
-        self.write_json('catalogue.json', manifest)
         self.run_catalogue()
         self.run_catalogue('--check')
         readme = (self.root / 'README.md').read_text(encoding="utf-8")
@@ -436,7 +513,10 @@ class CatalogueTests(unittest.TestCase):
         self.assertNotIn(f'| {ids[1]} |', spectral)
         self.assertIn(f'| {ids[1]} |', operators)
         self.assertIn(f'**{len(self.active_entries())} open targets**', readme)
-        self.assertNotRegex(readme, r'(?m)^\| \d{3,} \|')
+        for identifier in ids:
+            self.assertNotIn(f'| {identifier} |', readme)
+        spectral_count = len(grouped['spectral'])
+        self.assertIn(f'[{spectral_count}](CATALOG.md#spectral-open)', readme)
 
     def test_missing_batch_membership(self):
         manifest = self.read_json('catalogue.json')
@@ -496,6 +576,7 @@ class CatalogueTests(unittest.TestCase):
                 content = content.replace(f']({old_path.name})', f'](../{record})')
             path.write_text(content, encoding="utf-8")
         manifest['retired'].append({'id': row['id'], 'title': row['title'],
+                                    'group': stem,
                                     'status': 'Withdrawn', 'last_checked': row['last_checked'],
                                     'reason': 'Test only', 'record': record})
         self.write_json('catalogue.json', manifest)
@@ -522,10 +603,10 @@ class CatalogueTests(unittest.TestCase):
                 section = self.section(resolved, row['status'])
                 self.assertIn(f"| {row['id']} |", section)
                 self.assertIn(f"[{row['title']}]({row['record']})", section)
-                self.assertIn(row['reason'], section)
+                self.assertIn(row.get('outcome', row['reason']), section)
                 self.assertIn('| Status |', section)
                 self.assertIn(BADGES[row['status']], section)
-                self.assertNotIn(f"| {row['id']} |", catalogue)
+                self.assertIn(f"| {row['id']} |", catalogue)
                 if row['status'] == 'Lean verified':
                     self.assertIn(f"]({row['verification_record']})", section)
                 for other_heading in ARCHIVE_STATUSES:
@@ -546,6 +627,10 @@ class CatalogueTests(unittest.TestCase):
     def test_invalid_retirement_metadata(self):
         self.add_retired_fixtures(('Solution claimed',))
         for field, values in (('title', ('', '   ', None, 123)),
+                              ('group', ('unregistered-subject', None, [])),
+                              ('outcome', ('', None)),
+                              ('proof', ('research/missing-proof.md', 'research/', None)),
+                              ('review', ('research/missing-review.md', None)),
                               ('status', ('', 'solved', 'Open', 'Partially resolved',
                                           'Retired', None, 123, [], {}))):
             for value in values:
@@ -561,7 +646,8 @@ class CatalogueTests(unittest.TestCase):
     def test_missing_retirement_metadata(self):
         self.add_retired_fixtures(('Solution claimed',))
         original = self.read_json('catalogue.json')
-        for field in ('id', 'title', 'status', 'last_checked', 'reason', 'record'):
+        for field in ('id', 'title', 'group', 'status', 'last_checked', 'reason', 'record',
+                      'outcome', 'proof', 'review'):
             with self.subTest(field=field):
                 manifest = json.loads(json.dumps(original))
                 manifest['retired'][0].pop(field)
@@ -577,7 +663,7 @@ class CatalogueTests(unittest.TestCase):
         edits = {
             'title': lambda text: text.replace(row['title'], 'Wrong title', 1),
             'id': lambda text: text.replace(f"# {row['id']}.", '# 999.', 1),
-            'status': lambda text: text.replace(BADGES[row['status']], BADGES['Solved'], 1),
+            'status': lambda text: text.replace(BADGES[row['status']], BADGES['Open'], 1),
             'date': lambda text: text.replace(row['last_checked'], '2000-01-01'),
             'area': lambda text: re.sub(r'^\*\*Area:\*\*.*$', '**Area:** ',
                                         text, flags=re.MULTILINE),

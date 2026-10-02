@@ -21,6 +21,8 @@ Use the [status labels](README.md#problem-status), keeping the page badge and me
 
 Only `Open` and `Partially resolved` stay in the active catalogue. Archive other statuses in `research/` and `catalogue.json`, preserving the original statement and evidence. Update `last_checked` only after an actual literature or evidence review.
 
+Retained entries need a subject `group`; solved entries also need an `outcome` and direct `proof` and `review` links for the generated lists.
+
 ## Updating the catalogue
 
 Problem pages need **Area**, **Status**, **Last checked**, and the sections **Problem statement**, **Application**, **References**, and **Status review**. Put the status badge before the first section. Use `math` fences for display equations and dollar-backtick delimiters for inline equations, with core TeX operators such as `\mathop{\mathrm{Per}}`.

@@ -21,25 +21,45 @@ If a problem here is resolved, we encourage you to improve the proof, explain it
 
 ## Browse by subject
 
-| Subject group | Open targets |
-| --- | ---: |
-| [Spectral theory and spectral geometry](CATALOG.md#spectral-theory-and-spectral-geometry) | 24 |
-| [Operators, matrices and computation](CATALOG.md#operators-matrices-and-computation) | 37 |
-| [Inverse problems, control and dynamics](CATALOG.md#inverse-problems-control-and-dynamics) | 28 |
-| [PDEs, fluids and materials](CATALOG.md#pdes-fluids-and-materials) | 31 |
-| [Probability, statistics and learning](CATALOG.md#probability-statistics-and-learning) | 43 |
-| [Numerical analysis and scientific computing](CATALOG.md#numerical-analysis-and-scientific-computing) | 28 |
-| [Geometry and topology](CATALOG.md#geometry-and-topology) | 78 |
-| [Combinatorics, optimization and information theory](CATALOG.md#combinatorics-optimization-and-information-theory) | 26 |
-| [Waves, quantum systems and spectral geometry](CATALOG.md#waves-quantum-systems-and-spectral-geometry) | 32 |
-| [Imaging, control, geometry and dynamics](CATALOG.md#imaging-control-geometry-and-dynamics) | 30 |
-| [Fluids, kinetic theory and continuum mechanics](CATALOG.md#fluids-kinetic-theory-and-continuum-mechanics) | 48 |
-| [Stochastic growth, populations and statistical mechanics](CATALOG.md#stochastic-growth-populations-and-statistical-mechanics) | 31 |
-| [Many-body physics, quantum information and wave analysis](CATALOG.md#many-body-physics-quantum-information-and-wave-analysis) | 32 |
-| [Nonlinear waves, fluids and kinetic equations](CATALOG.md#nonlinear-waves-fluids-and-kinetic-equations) | 33 |
-| [Diffusion, materials and variational problems](CATALOG.md#diffusion-materials-and-variational-problems) | 57 |
-| [Applied geometry, control and information](CATALOG.md#applied-geometry-control-and-information) | 48 |
-| [Stochastic dynamics, reaction networks and applied optimization](CATALOG.md#stochastic-dynamics-reaction-networks-and-applied-optimization) | 46 |
+| Subject group | Open targets | Solved |
+| --- | ---: | ---: |
+| [Spectral theory and spectral geometry](CATALOG.md#spectral-theory-and-spectral-geometry) | [24](CATALOG.md#spectral-open) | [1](CATALOG.md#spectral-solved) |
+| [Operators, matrices and computation](CATALOG.md#operators-matrices-and-computation) | [37](CATALOG.md#operators-open) | [2](CATALOG.md#operators-solved) |
+| [Inverse problems, control and dynamics](CATALOG.md#inverse-problems-control-and-dynamics) | [28](CATALOG.md#inverse-open) | [0](CATALOG.md#inverse-solved) |
+| [PDEs, fluids and materials](CATALOG.md#pdes-fluids-and-materials) | [31](CATALOG.md#pdes-materials-open) | [1](CATALOG.md#pdes-materials-solved) |
+| [Probability, statistics and learning](CATALOG.md#probability-statistics-and-learning) | [43](CATALOG.md#probability-statistics-open) | [3](CATALOG.md#probability-statistics-solved) |
+| [Numerical analysis and scientific computing](CATALOG.md#numerical-analysis-and-scientific-computing) | [28](CATALOG.md#numerical-analysis-open) | [1](CATALOG.md#numerical-analysis-solved) |
+| [Geometry and topology](CATALOG.md#geometry-and-topology) | [78](CATALOG.md#geometry-topology-open) | [1](CATALOG.md#geometry-topology-solved) |
+| [Combinatorics, optimization and information theory](CATALOG.md#combinatorics-optimization-and-information-theory) | [26](CATALOG.md#optimization-information-open) | [0](CATALOG.md#optimization-information-solved) |
+| [Waves, quantum systems and spectral geometry](CATALOG.md#waves-quantum-systems-and-spectral-geometry) | [32](CATALOG.md#spectral2-open) | [0](CATALOG.md#spectral2-solved) |
+| [Imaging, control, geometry and dynamics](CATALOG.md#imaging-control-geometry-and-dynamics) | [30](CATALOG.md#inverse2-open) | [0](CATALOG.md#inverse2-solved) |
+| [Fluids, kinetic theory and continuum mechanics](CATALOG.md#fluids-kinetic-theory-and-continuum-mechanics) | [48](CATALOG.md#continuum2-open) | [0](CATALOG.md#continuum2-solved) |
+| [Stochastic growth, populations and statistical mechanics](CATALOG.md#stochastic-growth-populations-and-statistical-mechanics) | [31](CATALOG.md#stochastic2-open) | [0](CATALOG.md#stochastic2-solved) |
+| [Many-body physics, quantum information and wave analysis](CATALOG.md#many-body-physics-quantum-information-and-wave-analysis) | [32](CATALOG.md#spectral3-open) | [1](CATALOG.md#spectral3-solved) |
+| [Nonlinear waves, fluids and kinetic equations](CATALOG.md#nonlinear-waves-fluids-and-kinetic-equations) | [33](CATALOG.md#waves-fluids-kinetics-open) | [0](CATALOG.md#waves-fluids-kinetics-solved) |
+| [Diffusion, materials and variational problems](CATALOG.md#diffusion-materials-and-variational-problems) | [57](CATALOG.md#diffusion-materials-open) | [2](CATALOG.md#diffusion-materials-solved) |
+| [Applied geometry, control and information](CATALOG.md#applied-geometry-control-and-information) | [48](CATALOG.md#inverse3-open) | [1](CATALOG.md#inverse3-solved) |
+| [Stochastic dynamics, reaction networks and applied optimization](CATALOG.md#stochastic-dynamics-reaction-networks-and-applied-optimization) | [46](CATALOG.md#stochastic3-open) | [0](CATALOG.md#stochastic3-solved) |
+
+## Solved problems
+
+Complete resolutions recorded in this collection, including counterexamples to the stated conjectures. Follow the proof and review links for the argument and the scope of its review. The [resolution archive](RESOLVED.md) includes review dates and any outstanding claims.
+
+| ID | Problem | Status | Outcome | Proof | Review |
+| --- | --- | --- | --- | --- | --- |
+| 653 | [Exponential interior decay for smooth Steklov domains](research/resolved/653-steklov-smooth-interior-decay.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/siavash-sadeghi-steklov-024/steklov_counterexample.pdf) | [Review](research/solution_reviews/2026-10-02/024-review.md) |
+| 654 | [Bounded harmonic lifting for complex media](research/resolved/654-complex-harmonic-lifting.md) | ✅ SOLVED | Affirmative proof | [Proof](research/solutions/218-complex-harmonic-lifting/PROOF.md) | [Review](research/solution_reviews/2026-10-02/218-review.md) |
+| 655 | [Logarithmic convexity for subdiffusion with non-gradient drift](research/resolved/655-fractional-drift-logarithmic-convexity.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/405-fractional-drift/PROOF.md) | [Review](research/solution_reviews/2026-10-02/405-review.md) |
+| 656 | [Poisson kernel bounds for elliptic boundary diffusion on Lipschitz domains](research/resolved/656-dtn-poisson-bounds-lipschitz.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/435-corner-poisson-counterexample/PROOF.md) | [Review](research/solution_reviews/2026-10-02/435-review.md) |
+| 657 | [Finite-density time sampling of an infinite observation window](research/resolved/657-infinite-time-dynamical-frame-discretization.md) | ✅ SOLVED | Affirmative proof | [Proof](research/solutions/siavash-sadeghi-457-558/aim_457_uniform_sampling.pdf) | [Review](research/solution_reviews/2026-10-02/457-review.md) |
+| 658 | [Does directional ellipticity force a fractional energy bound?](research/resolved/658-nonlocal-directional-ellipticity-coercivity.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/471-nonlocal-coercivity/PROOF.md) | [Review](research/solution_reviews/2026-10-02/471-review.md) |
+| 659 | [Full-space minimizers for subcritical fourth-order aggregation energy](research/resolved/659-fourth-order-aggregation-full-space-minimizer.md) | ✅ SOLVED | Affirmative proof | [Proof](research/solutions/488-aggregation-minimizer/PROOF.md) | [Review](research/solution_reviews/2026-10-02/488-review.md) |
+| 660 | [Small-ball ratios for general symmetric product priors](research/resolved/660-product-prior-small-ball-ratios.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/siavash-sadeghi-506/aim506_counterexample.pdf) | [Review](research/solution_reviews/2026-10-02/506-review.md) |
+| 661 | [Path connectivity of the infinity Z-Gromov–Wasserstein space](research/resolved/661-z-gw-infinity-path-connectivity.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/514-infinity-z-gw/PROOF.md) | [Review](research/solution_reviews/2026-10-02/514-review.md) |
+| 662 | [Variance ordering for Gaussian alpha-divergence approximations](research/resolved/662-gaussian-variational-variance-ordering.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/siavash-sadeghi-457-558/aim_558_counterexample.pdf) | [Review](research/solution_reviews/2026-10-02/558-review.md) |
+| 663 | [Monotone variance in the Gaussian approximation to DrMMD flow](research/resolved/663-drmmd-gaussian-variance-monotonicity.md) | ✅ SOLVED | Affirmative proof | [Proof](research/solutions/siavash-sadeghi-560/aim560_proof.pdf) | [Review](research/solution_reviews/2026-10-02/560-review.md) |
+| 664 | [Logarithmic controlled bandwidth for locally analytic functions](research/resolved/664-analytic-controlled-bandwidth.md) | ✅ SOLVED | Affirmative proof | [Proof](research/solutions/593-analytic-bandwidth/PROOF.md) | [Review](research/solution_reviews/2026-10-02/593-review.md) |
+| 665 | [Smooth-gradient approximation of finite-Fisher-information scores](research/resolved/665-fisher-score-gradient-closure.md) | ✅ SOLVED | Affirmative proof | [Proof](research/solutions/618-fisher-score/PROOF.md) | [Review](research/solution_reviews/2026-10-02/618-review.md) |
 
 ## Reading the collection
 

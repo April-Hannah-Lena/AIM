@@ -817,7 +817,11 @@
       "status": "Solved",
       "last_checked": "2026-10-02",
       "reason": "Counterexample; complete independent Codex AI audit (original 024, PR #11).",
-      "record": "research/resolved/653-steklov-smooth-interior-decay.md"
+      "record": "research/resolved/653-steklov-smooth-interior-decay.md",
+      "group": "spectral",
+      "outcome": "Counterexample",
+      "proof": "research/solutions/siavash-sadeghi-steklov-024/steklov_counterexample.pdf",
+      "review": "research/solution_reviews/2026-10-02/024-review.md"
     },
     {
       "id": "654",
@@ -826,7 +830,11 @@
       "status": "Solved",
       "last_checked": "2026-10-02",
       "reason": "Affirmative proof; complete independent Codex AI audit (original 218, PR #14).",
-      "record": "research/resolved/654-complex-harmonic-lifting.md"
+      "record": "research/resolved/654-complex-harmonic-lifting.md",
+      "group": "spectral3",
+      "outcome": "Affirmative proof",
+      "proof": "research/solutions/218-complex-harmonic-lifting/PROOF.md",
+      "review": "research/solution_reviews/2026-10-02/218-review.md"
     },
     {
       "id": "655",
@@ -835,7 +843,11 @@
       "status": "Solved",
       "last_checked": "2026-10-02",
       "reason": "Counterexample; complete independent Codex AI audit (original 405, PR #1).",
-      "record": "research/resolved/655-fractional-drift-logarithmic-convexity.md"
+      "record": "research/resolved/655-fractional-drift-logarithmic-convexity.md",
+      "group": "inverse3",
+      "outcome": "Counterexample",
+      "proof": "research/solutions/405-fractional-drift/PROOF.md",
+      "review": "research/solution_reviews/2026-10-02/405-review.md"
     },
     {
       "id": "656",
@@ -844,7 +856,11 @@
       "status": "Solved",
       "last_checked": "2026-10-02",
       "reason": "Counterexample; complete independent Codex AI audit (original 435, PR #15).",
-      "record": "research/resolved/656-dtn-poisson-bounds-lipschitz.md"
+      "record": "research/resolved/656-dtn-poisson-bounds-lipschitz.md",
+      "group": "operators",
+      "outcome": "Counterexample",
+      "proof": "research/solutions/435-corner-poisson-counterexample/PROOF.md",
+      "review": "research/solution_reviews/2026-10-02/435-review.md"
     },
     {
       "id": "657",
@@ -853,7 +869,11 @@
       "status": "Solved",
       "last_checked": "2026-10-02",
       "reason": "Affirmative proof; complete independent Codex AI audit (original 457, PR #10).",
-      "record": "research/resolved/657-infinite-time-dynamical-frame-discretization.md"
+      "record": "research/resolved/657-infinite-time-dynamical-frame-discretization.md",
+      "group": "operators",
+      "outcome": "Affirmative proof",
+      "proof": "research/solutions/siavash-sadeghi-457-558/aim_457_uniform_sampling.pdf",
+      "review": "research/solution_reviews/2026-10-02/457-review.md"
     },
     {
       "id": "658",
@@ -862,7 +882,11 @@
       "status": "Solved",
       "last_checked": "2026-10-02",
       "reason": "Counterexample; complete independent Codex AI audit (original 471, PR #5).",
-      "record": "research/resolved/658-nonlocal-directional-ellipticity-coercivity.md"
+      "record": "research/resolved/658-nonlocal-directional-ellipticity-coercivity.md",
+      "group": "diffusion-materials",
+      "outcome": "Counterexample",
+      "proof": "research/solutions/471-nonlocal-coercivity/PROOF.md",
+      "review": "research/solution_reviews/2026-10-02/471-review.md"
     },
     {
       "id": "659",
@@ -871,7 +895,11 @@
       "status": "Solved",
       "last_checked": "2026-10-02",
       "reason": "Affirmative proof; complete independent Codex AI audit (original 488, PR #6).",
-      "record": "research/resolved/659-fourth-order-aggregation-full-space-minimizer.md"
+      "record": "research/resolved/659-fourth-order-aggregation-full-space-minimizer.md",
+      "group": "diffusion-materials",
+      "outcome": "Affirmative proof",
+      "proof": "research/solutions/488-aggregation-minimizer/PROOF.md",
+      "review": "research/solution_reviews/2026-10-02/488-review.md"
     },
     {
       "id": "660",
@@ -880,7 +908,11 @@
       "status": "Solved",
       "last_checked": "2026-10-02",
       "reason": "Counterexample; complete independent Codex AI audit (original 506, PR #13).",
-      "record": "research/resolved/660-product-prior-small-ball-ratios.md"
+      "record": "research/resolved/660-product-prior-small-ball-ratios.md",
+      "group": "probability-statistics",
+      "outcome": "Counterexample",
+      "proof": "research/solutions/siavash-sadeghi-506/aim506_counterexample.pdf",
+      "review": "research/solution_reviews/2026-10-02/506-review.md"
     },
     {
       "id": "661",
@@ -889,7 +921,11 @@
       "status": "Solved",
       "last_checked": "2026-10-02",
       "reason": "Counterexample; complete independent Codex AI audit (original 514, PR #2).",
-      "record": "research/resolved/661-z-gw-infinity-path-connectivity.md"
+      "record": "research/resolved/661-z-gw-infinity-path-connectivity.md",
+      "group": "geometry-topology",
+      "outcome": "Counterexample",
+      "proof": "research/solutions/514-infinity-z-gw/PROOF.md",
+      "review": "research/solution_reviews/2026-10-02/514-review.md"
     },
     {
       "id": "662",
@@ -898,7 +934,11 @@
       "status": "Solved",
       "last_checked": "2026-10-02",
       "reason": "Counterexample; complete independent Codex AI audit (original 558, PR #10).",
-      "record": "research/resolved/662-gaussian-variational-variance-ordering.md"
+      "record": "research/resolved/662-gaussian-variational-variance-ordering.md",
+      "group": "probability-statistics",
+      "outcome": "Counterexample",
+      "proof": "research/solutions/siavash-sadeghi-457-558/aim_558_counterexample.pdf",
+      "review": "research/solution_reviews/2026-10-02/558-review.md"
     },
     {
       "id": "663",
@@ -907,7 +947,11 @@
       "status": "Solved",
       "last_checked": "2026-10-02",
       "reason": "Affirmative proof; complete independent Codex AI audit (original 560, PR #12).",
-      "record": "research/resolved/663-drmmd-gaussian-variance-monotonicity.md"
+      "record": "research/resolved/663-drmmd-gaussian-variance-monotonicity.md",
+      "group": "probability-statistics",
+      "outcome": "Affirmative proof",
+      "proof": "research/solutions/siavash-sadeghi-560/aim560_proof.pdf",
+      "review": "research/solution_reviews/2026-10-02/560-review.md"
     },
     {
       "id": "664",
@@ -916,7 +960,11 @@
       "status": "Solved",
       "last_checked": "2026-10-02",
       "reason": "Affirmative proof; complete independent Codex AI audit (original 593, PR #8).",
-      "record": "research/resolved/664-analytic-controlled-bandwidth.md"
+      "record": "research/resolved/664-analytic-controlled-bandwidth.md",
+      "group": "numerical-analysis",
+      "outcome": "Affirmative proof",
+      "proof": "research/solutions/593-analytic-bandwidth/PROOF.md",
+      "review": "research/solution_reviews/2026-10-02/593-review.md"
     },
     {
       "id": "665",
@@ -925,7 +973,11 @@
       "status": "Solved",
       "last_checked": "2026-10-02",
       "reason": "Affirmative proof; complete independent Codex AI audit (original 618, PR #4).",
-      "record": "research/resolved/665-fisher-score-gradient-closure.md"
+      "record": "research/resolved/665-fisher-score-gradient-closure.md",
+      "group": "pdes-materials",
+      "outcome": "Affirmative proof",
+      "proof": "research/solutions/618-fisher-score/PROOF.md",
+      "review": "research/solution_reviews/2026-10-02/618-review.md"
     }
   ]
 }

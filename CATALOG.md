@@ -1,34 +1,38 @@
-# Open targets
+# Open and solved problems
 
 [Repository overview](README.md) · [Solved and claimed solutions](RESOLVED.md)
 
-**652 open targets**, grouped by subject. Open and Partial entries are counted once each. Every linked page gives the precise statement, an application where one is identified or a note on its mathematical significance, references, known cases, and its own literature-review date. See the [status legend](README.md#problem-status); all other statuses appear in the [resolution archive](RESOLVED.md).
+**652 open targets**, grouped by subject with solved problems listed immediately below each open list. Open and Partial entries are counted once each; Solved and Lean verified entries count in the Solved column. Every linked page gives the precise statement, an application where one is identified or a note on its mathematical significance, references, known cases, and its own literature-review date. See the [status legend](README.md#problem-status) and the [resolution archive](RESOLVED.md).
 
 ## Browse by subject
 
-| Subject group | Open targets |
-| --- | ---: |
-| [Spectral theory and spectral geometry](#spectral-theory-and-spectral-geometry) | 24 |
-| [Operators, matrices and computation](#operators-matrices-and-computation) | 37 |
-| [Inverse problems, control and dynamics](#inverse-problems-control-and-dynamics) | 28 |
-| [PDEs, fluids and materials](#pdes-fluids-and-materials) | 31 |
-| [Probability, statistics and learning](#probability-statistics-and-learning) | 43 |
-| [Numerical analysis and scientific computing](#numerical-analysis-and-scientific-computing) | 28 |
-| [Geometry and topology](#geometry-and-topology) | 78 |
-| [Combinatorics, optimization and information theory](#combinatorics-optimization-and-information-theory) | 26 |
-| [Waves, quantum systems and spectral geometry](#waves-quantum-systems-and-spectral-geometry) | 32 |
-| [Imaging, control, geometry and dynamics](#imaging-control-geometry-and-dynamics) | 30 |
-| [Fluids, kinetic theory and continuum mechanics](#fluids-kinetic-theory-and-continuum-mechanics) | 48 |
-| [Stochastic growth, populations and statistical mechanics](#stochastic-growth-populations-and-statistical-mechanics) | 31 |
-| [Many-body physics, quantum information and wave analysis](#many-body-physics-quantum-information-and-wave-analysis) | 32 |
-| [Nonlinear waves, fluids and kinetic equations](#nonlinear-waves-fluids-and-kinetic-equations) | 33 |
-| [Diffusion, materials and variational problems](#diffusion-materials-and-variational-problems) | 57 |
-| [Applied geometry, control and information](#applied-geometry-control-and-information) | 48 |
-| [Stochastic dynamics, reaction networks and applied optimization](#stochastic-dynamics-reaction-networks-and-applied-optimization) | 46 |
+| Subject group | Open targets | Solved |
+| --- | ---: | ---: |
+| [Spectral theory and spectral geometry](#spectral-theory-and-spectral-geometry) | [24](#spectral-open) | [1](#spectral-solved) |
+| [Operators, matrices and computation](#operators-matrices-and-computation) | [37](#operators-open) | [2](#operators-solved) |
+| [Inverse problems, control and dynamics](#inverse-problems-control-and-dynamics) | [28](#inverse-open) | [0](#inverse-solved) |
+| [PDEs, fluids and materials](#pdes-fluids-and-materials) | [31](#pdes-materials-open) | [1](#pdes-materials-solved) |
+| [Probability, statistics and learning](#probability-statistics-and-learning) | [43](#probability-statistics-open) | [3](#probability-statistics-solved) |
+| [Numerical analysis and scientific computing](#numerical-analysis-and-scientific-computing) | [28](#numerical-analysis-open) | [1](#numerical-analysis-solved) |
+| [Geometry and topology](#geometry-and-topology) | [78](#geometry-topology-open) | [1](#geometry-topology-solved) |
+| [Combinatorics, optimization and information theory](#combinatorics-optimization-and-information-theory) | [26](#optimization-information-open) | [0](#optimization-information-solved) |
+| [Waves, quantum systems and spectral geometry](#waves-quantum-systems-and-spectral-geometry) | [32](#spectral2-open) | [0](#spectral2-solved) |
+| [Imaging, control, geometry and dynamics](#imaging-control-geometry-and-dynamics) | [30](#inverse2-open) | [0](#inverse2-solved) |
+| [Fluids, kinetic theory and continuum mechanics](#fluids-kinetic-theory-and-continuum-mechanics) | [48](#continuum2-open) | [0](#continuum2-solved) |
+| [Stochastic growth, populations and statistical mechanics](#stochastic-growth-populations-and-statistical-mechanics) | [31](#stochastic2-open) | [0](#stochastic2-solved) |
+| [Many-body physics, quantum information and wave analysis](#many-body-physics-quantum-information-and-wave-analysis) | [32](#spectral3-open) | [1](#spectral3-solved) |
+| [Nonlinear waves, fluids and kinetic equations](#nonlinear-waves-fluids-and-kinetic-equations) | [33](#waves-fluids-kinetics-open) | [0](#waves-fluids-kinetics-solved) |
+| [Diffusion, materials and variational problems](#diffusion-materials-and-variational-problems) | [57](#diffusion-materials-open) | [2](#diffusion-materials-solved) |
+| [Applied geometry, control and information](#applied-geometry-control-and-information) | [48](#inverse3-open) | [1](#inverse3-solved) |
+| [Stochastic dynamics, reaction networks and applied optimization](#stochastic-dynamics-reaction-networks-and-applied-optimization) | [46](#stochastic3-open) | [0](#stochastic3-solved) |
 
 [Publication batches and review dates](#publication-batches)
 
 ## Spectral theory and spectral geometry
+
+<a name="spectral-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -57,7 +61,19 @@
 | 023 | [The regular-polygon Steklov conjecture](problems/023-steklov-polygon-optimizer.md) | 🔵 OPEN | Boundary spectral optimization |
 | 296 | [Dirichlet spectral determination of smooth strictly convex planar domains](problems/296-convex-dirichlet-spectrum.md) | 🔵 OPEN | Spectral theory and spectral geometry |
 
+<a name="spectral-solved"></a>
+
+### Solved problems
+
+| ID | Problem | Status | Outcome | Proof | Review |
+| --- | --- | --- | --- | --- | --- |
+| 653 | [Exponential interior decay for smooth Steklov domains](research/resolved/653-steklov-smooth-interior-decay.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/siavash-sadeghi-steklov-024/steklov_counterexample.pdf) | [Review](research/solution_reviews/2026-10-02/024-review.md) |
+
 ## Operators, matrices and computation
+
+<a name="operators-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -99,7 +115,20 @@
 | 451 | [Stein’s Hilbert-transform bound along Lipschitz directions](problems/451-stein-lipschitz-direction-hilbert-bound.md) | 🔵 OPEN | Directional singular integrals and variable-direction propagation |
 | 491 | [Deterministic parallel perfect matching in general graphs](problems/491-general-graph-perfect-matching-nc.md) | 🟡 PARTIAL | Parallel algorithms and combinatorial optimization |
 
+<a name="operators-solved"></a>
+
+### Solved problems
+
+| ID | Problem | Status | Outcome | Proof | Review |
+| --- | --- | --- | --- | --- | --- |
+| 656 | [Poisson kernel bounds for elliptic boundary diffusion on Lipschitz domains](research/resolved/656-dtn-poisson-bounds-lipschitz.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/435-corner-poisson-counterexample/PROOF.md) | [Review](research/solution_reviews/2026-10-02/435-review.md) |
+| 657 | [Finite-density time sampling of an infinite observation window](research/resolved/657-infinite-time-dynamical-frame-discretization.md) | ✅ SOLVED | Affirmative proof | [Proof](research/solutions/siavash-sadeghi-457-558/aim_457_uniform_sampling.pdf) | [Review](research/solution_reviews/2026-10-02/457-review.md) |
+
 ## Inverse problems, control and dynamics
+
+<a name="inverse-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -132,7 +161,17 @@
 | 309 | [The sharp Belgian chocolate stabilization threshold](problems/309-belgian-chocolate-threshold.md) | 🔵 OPEN | Feedback control and polynomial stability |
 | 323 | [Global attraction for Wright-type delayed feedback](problems/323-generalized-wright-global-attraction.md) | 🔵 OPEN | Population dynamics and nonlinear delayed feedback |
 
+<a name="inverse-solved"></a>
+
+### Solved problems
+
+No solved problems are currently recorded in this subject.
+
 ## PDEs, fluids and materials
+
+<a name="pdes-materials-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -168,7 +207,19 @@
 | 632 | [Largest radius ratio in nonuniform triangulated circle packings](problems/632-triangulated-packing-radius-ratio.md) | 🟡 PARTIAL | Discrete geometry and circle packing |
 | 635 | [Finitely many radius sets for compact sphere packings](problems/635-compact-packing-radius-finiteness.md) | 🟡 PARTIAL | Discrete geometry and sphere packing |
 
+<a name="pdes-materials-solved"></a>
+
+### Solved problems
+
+| ID | Problem | Status | Outcome | Proof | Review |
+| --- | --- | --- | --- | --- | --- |
+| 665 | [Smooth-gradient approximation of finite-Fisher-information scores](research/resolved/665-fisher-score-gradient-closure.md) | ✅ SOLVED | Affirmative proof | [Proof](research/solutions/618-fisher-score/PROOF.md) | [Review](research/solution_reviews/2026-10-02/618-review.md) |
+
 ## Probability, statistics and learning
+
+<a name="probability-statistics-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -216,7 +267,21 @@
 | 638 | [Absolute continuity of stationary Elo ratings](problems/638-elo-density.md) | 🟡 PARTIAL | Probability, statistics, and uncertainty quantification |
 | 643 | [Oscillation of partition functions under very strong disorder](problems/643-polymer-oscillation.md) | 🟡 PARTIAL | Probability and statistical mechanics |
 
+<a name="probability-statistics-solved"></a>
+
+### Solved problems
+
+| ID | Problem | Status | Outcome | Proof | Review |
+| --- | --- | --- | --- | --- | --- |
+| 660 | [Small-ball ratios for general symmetric product priors](research/resolved/660-product-prior-small-ball-ratios.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/siavash-sadeghi-506/aim506_counterexample.pdf) | [Review](research/solution_reviews/2026-10-02/506-review.md) |
+| 662 | [Variance ordering for Gaussian alpha-divergence approximations](research/resolved/662-gaussian-variational-variance-ordering.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/siavash-sadeghi-457-558/aim_558_counterexample.pdf) | [Review](research/solution_reviews/2026-10-02/558-review.md) |
+| 663 | [Monotone variance in the Gaussian approximation to DrMMD flow](research/resolved/663-drmmd-gaussian-variance-monotonicity.md) | ✅ SOLVED | Affirmative proof | [Proof](research/solutions/siavash-sadeghi-560/aim560_proof.pdf) | [Review](research/solution_reviews/2026-10-02/560-review.md) |
+
 ## Numerical analysis and scientific computing
+
+<a name="numerical-analysis-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -249,7 +314,19 @@
 | 642 | [Bos's cubic and quartic simplex interpolation nodes](problems/642-bos-simplex-interpolation-nodes.md) | 🟡 PARTIAL | Multivariate approximation and optimal experimental design |
 | 652 | [Global convergence of the simple CRDT conformal-mapping iteration](problems/652-simple-crdt-convergence.md) | 🔵 OPEN | Numerical conformal mapping |
 
+<a name="numerical-analysis-solved"></a>
+
+### Solved problems
+
+| ID | Problem | Status | Outcome | Proof | Review |
+| --- | --- | --- | --- | --- | --- |
+| 664 | [Logarithmic controlled bandwidth for locally analytic functions](research/resolved/664-analytic-controlled-bandwidth.md) | ✅ SOLVED | Affirmative proof | [Proof](research/solutions/593-analytic-bandwidth/PROOF.md) | [Review](research/solution_reviews/2026-10-02/593-review.md) |
+
 ## Geometry and topology
+
+<a name="geometry-topology-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -332,7 +409,19 @@
 | 650 | [Vanishing threshold for first path homology of a random digraph](problems/650-random-digraph-path-homology-vanishing.md) | 🟡 PARTIAL | Applied topology / random graphs |
 | 651 | [Central limit theorem for the first path Betti number](problems/651-random-digraph-path-betti-central-limit.md) | 🔵 OPEN | Applied topology / probability |
 
+<a name="geometry-topology-solved"></a>
+
+### Solved problems
+
+| ID | Problem | Status | Outcome | Proof | Review |
+| --- | --- | --- | --- | --- | --- |
+| 661 | [Path connectivity of the infinity Z-Gromov–Wasserstein space](research/resolved/661-z-gw-infinity-path-connectivity.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/514-infinity-z-gw/PROOF.md) | [Review](research/solution_reviews/2026-10-02/514-review.md) |
+
 ## Combinatorics, optimization and information theory
+
+<a name="optimization-information-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -363,7 +452,17 @@
 | 628 | [Smallest orders for periodic multidimensional Costas arrays](problems/628-periodic-costas.md) | 🟡 PARTIAL | Combinatorial signal design |
 | 633 | [Classifying Costas polynomials over extension fields](problems/633-costas-polynomial.md) | 🟡 PARTIAL | Finite-field signal design |
 
+<a name="optimization-information-solved"></a>
+
+### Solved problems
+
+No solved problems are currently recorded in this subject.
+
 ## Waves, quantum systems and spectral geometry
+
+<a name="spectral2-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -400,7 +499,17 @@
 | 430 | [An optimal Weyl remainder for interior transmission eigenvalues](problems/430-transmission-eigenvalue-sharp-weyl-remainder.md) | 🔵 OPEN | Transmission PDEs and wave scattering |
 | 444 | [The Weinstock inequality for convex domains in a sphere](problems/444-spherical-convex-weinstock-inequality.md) | 🔵 OPEN | Elliptic boundary spectra and shape optimization |
 
+<a name="spectral2-solved"></a>
+
+### Solved problems
+
+No solved problems are currently recorded in this subject.
+
 ## Imaging, control, geometry and dynamics
+
+<a name="inverse2-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -435,7 +544,17 @@
 | 339 | [Decidability of local asymptotic stability for polynomial ODEs](problems/339-polynomial-local-stability-decidability.md) | 🔵 OPEN | Nonlinear control and algorithmic verification |
 | 492 | [Polynomial-time solution of simple stochastic games](problems/492-simple-stochastic-games-polynomial-time.md) | 🟡 PARTIAL | Stochastic control, formal verification and algorithmic game theory |
 
+<a name="inverse2-solved"></a>
+
+### Solved problems
+
+No solved problems are currently recorded in this subject.
+
 ## Fluids, kinetic theory and continuum mechanics
+
+<a name="continuum2-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -488,7 +607,17 @@
 | 436 | [Continuous harmonic extension of every degree-zero sphere boundary map](problems/436-degree-zero-harmonic-extension.md) | 🔵 OPEN | Elliptic systems and orientational order |
 | 437 | [Radial classification of higher-degree entire planar Ginzburg–Landau vortices](problems/437-entire-ginzburg-landau-vortex-symmetry.md) | 🔵 OPEN | Elliptic PDEs and superfluid vortices |
 
+<a name="continuum2-solved"></a>
+
+### Solved problems
+
+No solved problems are currently recorded in this subject.
+
 ## Stochastic growth, populations and statistical mechanics
+
+<a name="stochastic2-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -524,7 +653,17 @@
 | 349 | [Non-explosion of Brownian Fleming–Viot systems in arbitrary domains](problems/349-brownian-fleming-viot-nonexplosion.md) | 🔵 OPEN | Interacting particles and conditioned diffusion |
 | 490 | [Global attraction in D-stable Lotka–Volterra systems](problems/490-lotka-volterra-d-stable-global-attraction.md) | 🟡 PARTIAL | Population dynamics and nonlinear stability |
 
+<a name="stochastic2-solved"></a>
+
+### Solved problems
+
+No solved problems are currently recorded in this subject.
+
 ## Many-body physics, quantum information and wave analysis
+
+<a name="spectral3-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -561,7 +700,19 @@
 | 433 | [A resonance gap for arbitrary uniformly hyperbolic trapping in three dimensions](problems/433-hyperbolic-trapping-resonance-gap-three-dimensions.md) | 🔵 OPEN | Scattering PDEs and wave decay |
 | 446 | [Can bounded positive time-dependent potentials trap a Schrödinger wave?](problems/446-positive-time-dependent-potential-localization.md) | 🔵 OPEN | Time-dependent Schrödinger PDEs and quantum confinement |
 
+<a name="spectral3-solved"></a>
+
+### Solved problems
+
+| ID | Problem | Status | Outcome | Proof | Review |
+| --- | --- | --- | --- | --- | --- |
+| 654 | [Bounded harmonic lifting for complex media](research/resolved/654-complex-harmonic-lifting.md) | ✅ SOLVED | Affirmative proof | [Proof](research/solutions/218-complex-harmonic-lifting/PROOF.md) | [Review](research/solution_reviews/2026-10-02/218-review.md) |
+
 ## Nonlinear waves, fluids and kinetic equations
+
+<a name="waves-fluids-kinetics-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -599,7 +750,17 @@
 | 442 | [Global smooth propagation for a laser envelope coupled to ionization](problems/442-ionization-laser-envelope-global-regularity.md) | 🔵 OPEN | Dispersive PDEs and nonlinear optics |
 | 443 | [Finite-time collapse in the planar self-steepening Schrödinger equation](problems/443-planar-self-steepening-finite-time-collapse.md) | 🔵 OPEN | Derivative dispersive PDEs and optical pulses |
 
+<a name="waves-fluids-kinetics-solved"></a>
+
+### Solved problems
+
+No solved problems are currently recorded in this subject.
+
 ## Diffusion, materials and variational problems
+
+<a name="diffusion-materials-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -661,7 +822,20 @@
 | 485 | [Global attraction for complex-balanced reaction–diffusion with boundary equilibria](problems/485-complex-balanced-pde-global-attractor.md) | 🔵 OPEN | Reaction–diffusion PDEs; chemical equilibration |
 | 486 | [Optimal obstacle regularity for stable jump kernels with only angular integrability](problems/486-general-stable-obstacle-optimal-regularity.md) | 🔵 OPEN | Nonlocal obstacle problems; anisotropic jump processes |
 
+<a name="diffusion-materials-solved"></a>
+
+### Solved problems
+
+| ID | Problem | Status | Outcome | Proof | Review |
+| --- | --- | --- | --- | --- | --- |
+| 658 | [Does directional ellipticity force a fractional energy bound?](research/resolved/658-nonlocal-directional-ellipticity-coercivity.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/471-nonlocal-coercivity/PROOF.md) | [Review](research/solution_reviews/2026-10-02/471-review.md) |
+| 659 | [Full-space minimizers for subcritical fourth-order aggregation energy](research/resolved/659-fourth-order-aggregation-full-space-minimizer.md) | ✅ SOLVED | Affirmative proof | [Proof](research/solutions/488-aggregation-minimizer/PROOF.md) | [Review](research/solution_reviews/2026-10-02/488-review.md) |
+
 ## Applied geometry, control and information
+
+<a name="inverse3-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -714,7 +888,19 @@
 | 418 | [Polynomial growth of reachable neighborhoods for analytic control systems](problems/418-analytic-reachable-set-polynomial-growth.md) | 🔵 OPEN | Nonlinear control / minimum-time regularity |
 | 487 | [The sharp number of directions illuminating a convex body](problems/487-hadwiger-boltyanski-illumination.md) | 🟡 PARTIAL | Convex geometry and geometric coverage |
 
+<a name="inverse3-solved"></a>
+
+### Solved problems
+
+| ID | Problem | Status | Outcome | Proof | Review |
+| --- | --- | --- | --- | --- | --- |
+| 655 | [Logarithmic convexity for subdiffusion with non-gradient drift](research/resolved/655-fractional-drift-logarithmic-convexity.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/405-fractional-drift/PROOF.md) | [Review](research/solution_reviews/2026-10-02/405-review.md) |
+
 ## Stochastic dynamics, reaction networks and applied optimization
+
+<a name="stochastic3-open"></a>
+
+### Open problems
 
 | ID | Problem | Status | Area |
 | --- | --- | --- | --- |
@@ -764,6 +950,12 @@
 | 479 | [Global regularity for critical SQG with state-dependent noise](problems/479-critical-stochastic-sqg-global-regularity.md) | 🔵 OPEN | Stochastic PDEs; geophysical fluid dynamics |
 | 488 | [The GNRS conjecture for minor-free network flow](problems/488-gnrs-minor-free-flow-cut.md) | 🟡 PARTIAL | Network routing, metric geometry and combinatorial optimization |
 | 493 | [Constant-gap NP-hardness of densest k-subgraph](problems/493-densest-k-subgraph-constant-gap-hardness.md) | 🔵 OPEN | Network optimization and approximation complexity |
+
+<a name="stochastic3-solved"></a>
+
+### Solved problems
+
+No solved problems are currently recorded in this subject.
 
 ## Publication batches
 

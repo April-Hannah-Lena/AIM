@@ -26,6 +26,7 @@ STATUS_DISPLAY = {
     "Withdrawn": "⚫ WITHDRAWN",
 }
 OPEN_STATUSES = ("Open", "Partially resolved")
+SOLVED_STATUSES = ("Solved", "Lean verified")
 RETIRED_STATUSES = tuple(status for status in STATUS_DISPLAY if status not in OPEN_STATUSES)
 
 
@@ -94,6 +95,8 @@ def load_manifest():
                                      not item["ids"] or
                                      not all(valid_id(i) for i in item["ids"])):
                 errors.append(f"catalogue.json: invalid IDs in batch {item['key']}")
+    group_keys = {group["key"] for group in manifest["groups"]
+                  if isinstance(group, dict) and isinstance(group.get("key"), str)}
     for item in manifest["retired"]:
         if not isinstance(item, dict) or not valid_id(item.get("id")):
             errors.append("catalogue.json: retired ID needs a valid id")
@@ -101,6 +104,24 @@ def load_manifest():
         for field in ("title", "status", "last_checked", "reason", "record"):
             if not isinstance(item.get(field), str) or not item[field].strip():
                 errors.append(f"catalogue.json: invalid retired {field} for {item['id']}")
+        if not isinstance(item.get("group"), str) or item["group"] not in group_keys:
+            errors.append(f"catalogue.json: invalid retired group for {item['id']}")
+        resolved = item.get("status") in SOLVED_STATUSES
+        if resolved or "outcome" in item:
+            if not isinstance(item.get("outcome"), str) or not item["outcome"].strip():
+                errors.append(f"catalogue.json: invalid retired outcome for {item['id']}")
+        for field in ("proof", "review"):
+            if not resolved and field not in item:
+                continue
+            value = item.get(field)
+            if not isinstance(value, str) or not value.strip():
+                errors.append(f"catalogue.json: invalid retired {field} for {item['id']}")
+                continue
+            if re.fullmatch(r"https?://\S+", value):
+                continue
+            evidence = (ROOT / value).resolve()
+            if Path(value).is_absolute() or ROOT not in evidence.parents or not evidence.is_file():
+                errors.append(f"catalogue.json: invalid retired {field} link for {item['id']}")
         if not isinstance(item.get("record"), str) or not item["record"].strip():
             continue
         record = (ROOT / item["record"]).resolve()
@@ -166,12 +187,34 @@ def table_text(value):
 
 
 def subject_index(entries, manifest, document=""):
-    lines = ["| Subject group | Open targets |", "| --- | ---: |"]
+    lines = ["| Subject group | Open targets | Solved |", "| --- | ---: | ---: |"]
     for group in manifest["groups"]:
         title = group["title"]
         anchor = title.lower().replace(",", "").replace(" ", "-")
         count = sum(row["group"] == group["key"] for row in entries)
-        lines.append(f"| [{title}]({document}#{anchor}) | {count} |")
+        solved = sum(row["group"] == group["key"] and row["status"] in SOLVED_STATUSES
+                     for row in manifest["retired"])
+        lines.append(f"| [{title}]({document}#{anchor}) | "
+                     f"[{count}]({document}#{group['key']}-open) | "
+                     f"[{solved}]({document}#{group['key']}-solved) |")
+    return lines
+
+
+def resolution_table(rows, dated=False):
+    date_heading = " Last checked |" if dated else ""
+    date_separator = " --- |" if dated else ""
+    lines = [f"| ID | Problem | Status | Outcome |{date_heading} Proof | Review |",
+             f"| --- | --- | --- | --- |{date_separator} --- | --- |"]
+    for row in sorted(rows, key=lambda row: int(row["id"])):
+        title = table_text(row["title"])
+        outcome = table_text(row.get("outcome", row["reason"]))
+        proof = f"[Proof]({row['proof']})" if row.get("proof") else "—"
+        review = f"[Review]({row['review']})" if row.get("review") else "—"
+        if row["status"] == "Lean verified":
+            review += f" · [Lean evidence]({row['verification_record']})"
+        date_cell = f" {row['last_checked']} |" if dated else ""
+        lines.append(f"| {row['id']} | [{title}]({row['record']}) | "
+                     f"{status_display(row['status'])} | {outcome} |{date_cell} {proof} | {review} |")
     return lines
 
 
@@ -201,6 +244,15 @@ def render_readme(entries, manifest):
         f"**[Browse all {len(entries)} open targets →](CATALOG.md)** · **[Solved and claimed solutions →](RESOLVED.md)**", "",
         "## Browse by subject", "",
         *subject_index(entries, manifest, "CATALOG.md"), "",
+    ]
+    resolutions = [row for row in manifest["retired"] if row["status"] in SOLVED_STATUSES]
+    if resolutions:
+        lines += [
+            "## Solved problems", "",
+            "Complete resolutions recorded in this collection, including counterexamples to the stated conjectures. Follow the proof and review links for the argument and the scope of its review. The [resolution archive](RESOLVED.md) includes review dates and any outstanding claims.", "",
+            *resolution_table(resolutions), "",
+        ]
+    lines += [
         "## Reading the collection", "",
         "Each [problem page](problems/) records its assumptions and quantifiers, an **Application** section, references, a status label, and its last review date. The Application section describes a supported use where one is clear, labels indirect connections, or states that no direct application has been identified. Active problems are numbered consecutively from 001. Complete deletion closes the gap: subsequent entries and their links are renumbered, and deleted numbers are not reserved. Cite the repository commit alongside an ID because numbering can change.", "",
         "The collection includes foundational questions as well as directly applied ones, with a wide range of difficulty. Related entries may imply one another; the count does not assert logical independence. Further additions exclude numerical linear algebra (NLA).", "",
@@ -238,21 +290,30 @@ def render_readme(entries, manifest):
 
 def render_catalog(entries, manifest):
     lines = [
-        "# Open targets", "",
+        "# Open and solved problems", "",
         "[Repository overview](README.md) · [Solved and claimed solutions](RESOLVED.md)", "",
-        f"**{len(entries)} open targets**, grouped by subject. Open and Partial entries are counted once each. Every linked page gives the precise statement, an application where one is identified or a note on its mathematical significance, references, known cases, and its own literature-review date. See the [status legend](README.md#problem-status); all other statuses appear in the [resolution archive](RESOLVED.md).", "",
+        f"**{len(entries)} open targets**, grouped by subject with solved problems listed immediately below each open list. Open and Partial entries are counted once each; Solved and Lean verified entries count in the Solved column. Every linked page gives the precise statement, an application where one is identified or a note on its mathematical significance, references, known cases, and its own literature-review date. See the [status legend](README.md#problem-status) and the [resolution archive](RESOLVED.md).", "",
         "## Browse by subject", "",
         *subject_index(entries, manifest), "",
         "[Publication batches and review dates](#publication-batches)",
     ]
     for group in manifest["groups"]:
         title = group["title"]
-        lines += ["", f"## {title}", "", "| ID | Problem | Status | Area |", "| --- | --- | --- | --- |"]
+        lines += ["", f"## {title}", "", f'<a name="{group["key"]}-open"></a>', "",
+                  "### Open problems", "", "| ID | Problem | Status | Area |", "| --- | --- | --- | --- |"]
         for row in entries:
             if row["group"] == group["key"]:
                 title_text = table_text(row["title"])
                 area = table_text(row["area"])
                 lines.append(f"| {row['id']} | [{title_text}]({row['file']}) | {status_display(row['status'])} | {area} |")
+        retained = [row for row in manifest["retired"] if row["group"] == group["key"]]
+        solved = [row for row in retained if row["status"] in SOLVED_STATUSES]
+        lines += ["", f'<a name="{group["key"]}-solved"></a>', "", "### Solved problems", ""]
+        lines += resolution_table(solved) if solved else ["No solved problems are currently recorded in this subject."]
+        for status in ("Solution claimed", "Needs verification", "Withdrawn"):
+            rows = [row for row in retained if row["status"] == status]
+            if rows:
+                lines += ["", f"### {status}", "", *resolution_table(rows)]
     lines += ["", "## Publication batches", "",
               "Adding a batch does not revalidate earlier entries. Counts below include only currently open targets; retired IDs retain their original batch membership.", "",
               "| Publication batch | Open targets | Entry review dates |", "| --- | ---: | --- |"]
@@ -273,27 +334,18 @@ def render_resolved(manifest):
         "This archive lists previously admitted targets that are no longer counted as open. A solution claim is not a verified solution. Each linked record preserves the original statement, current ID, sources, review date, and the scope of the review actually performed.", "",
     ]
     sections = (
-        ("Lean verified", "Lean verified", "Complete resolutions with a reviewed Lean proof, statement comparison, and reproducible kernel-checking evidence. The evidence link records exactly what was checked.", "No Lean-verified entries are currently recorded in this archive."),
-        ("Solved", "Solved", "Documented resolutions of the exact target. Consult each record for the proof source and the kind of review performed.", "No solved entries are currently recorded in this archive."),
-        ("Solution claimed", "Solution claimed", "A matching complete resolution has been announced, but independent proof review remains outstanding.", "No solution claims are currently recorded in this archive."),
-        ("Needs verification", "Needs verification", "Entries held for a material statement or status issue. This status does not assert a solution.", "No entries currently need verification in this archive."),
-        ("Withdrawn", "Withdrawn", "Entries removed for a documented reason, with their original statements and IDs retained. Withdrawal does not imply a solution.", "No withdrawn entries are currently recorded."),
+        ("Solved", "Documented resolutions of the exact target. Proof and review links give the argument and the kind of review performed; the problem link preserves the original statement and full status record."),
+        ("Lean verified", "Complete resolutions with a reviewed Lean proof, statement comparison, and reproducible kernel-checking evidence. The evidence link records exactly what was checked."),
+        ("Solution claimed", "A matching complete resolution has been announced, but independent proof review remains outstanding."),
+        ("Needs verification", "Entries held for a material statement or status issue. This status does not assert a solution."),
+        ("Withdrawn", "Entries removed for a documented reason, with their original statements and IDs retained. Withdrawal does not imply a solution."),
     )
-    for status, heading, description, empty in sections:
+    for status, description in sections:
         rows = sorted((row for row in manifest["retired"] if row["status"] == status),
                       key=lambda row: int(row["id"]))
-        lines += [f"## {heading}", "", description, ""]
-        if rows:
-            lines += ["| ID | Problem and status record | Status | Last checked | Reason |", "| --- | --- | --- | --- | --- |"]
-            for row in rows:
-                title = table_text(row["title"])
-                reason = table_text(row["reason"])
-                if status == "Lean verified":
-                    reason += f" [Verification evidence]({row['verification_record']})"
-                lines.append(f"| {row['id']} | [{title}]({row['record']}) | {status_display(status)} | {row['last_checked']} | {reason} |")
-            lines.append("")
-        else:
-            lines += [empty, ""]
+        if not rows:
+            continue
+        lines += [f"## {status}", "", description, "", *resolution_table(rows, dated=True), ""]
     lines += [
         "## Reporting a solution", "",
         "Open a [GitHub issue](https://github.com/MColbrook/AIM/issues) or pull request with the problem ID, a direct proof or counterexample reference, and a comparison with the entry's assumptions and conclusion. State whether the result is a claim, a published result, or an independently reviewed argument, and identify the review evidence. See [CONTRIBUTING.md](CONTRIBUTING.md#reporting-a-resolution) for how to update the record and index.", "",
