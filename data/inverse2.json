@@ -232,10 +232,10 @@
     "last_checked": "2026-09-18"
   },
   {
-    "id": "491",
+    "id": "490",
     "title": "Polynomial-time solution of simple stochastic games",
     "area": "Stochastic control, formal verification and algorithmic game theory",
-    "file": "problems/491-simple-stochastic-games-polynomial-time.md",
+    "file": "problems/490-simple-stochastic-games-polynomial-time.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-23"
   }

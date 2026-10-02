@@ -1,217 +1,217 @@
 [
   {
-    "id": "496",
+    "id": "495",
     "title": "Global uniqueness of fine-mesh semilinear Galerkin solutions",
     "area": "Numerical PDEs and optimal control",
-    "file": "problems/496-semilinear-galerkin-global-uniqueness.md",
+    "file": "problems/495-semilinear-galerkin-global-uniqueness.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-23"
   },
   {
-    "id": "505",
+    "id": "504",
     "title": "A discrete Aronson–Bénilan estimate for an upwind growth scheme",
     "area": "Numerical PDE analysis and free-boundary limits",
-    "file": "problems/505-upwind-discrete-aronson-benilan.md",
+    "file": "problems/504-upwind-discrete-aronson-benilan.md",
     "status": "Open",
     "last_checked": "2026-09-23"
   },
   {
-    "id": "517",
+    "id": "516",
     "title": "Sharp local approximation widths for rough elliptic equations",
     "area": "Numerical PDE analysis and multiscale approximation",
-    "file": "problems/517-sharp-local-elliptic-widths.md",
+    "file": "problems/516-sharp-local-elliptic-widths.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "517",
+    "title": "Removing the logarithmic loss in the Li–Wu KdV integrator",
+    "area": "Numerical PDE analysis and dispersive equations",
+    "file": "problems/517-kdv-integrator-logarithmic-loss.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "518",
-    "title": "Removing the logarithmic loss in the Li–Wu KdV integrator",
-    "area": "Numerical PDE analysis and dispersive equations",
-    "file": "problems/518-kdv-integrator-logarithmic-loss.md",
+    "title": "Universal identities for Euclidean mechanical Lie brackets",
+    "area": "Geometric numerical integration and numerical PDEs",
+    "file": "problems/518-euclidean-mechanical-lie-algebra.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "519",
-    "title": "Universal identities for Euclidean mechanical Lie brackets",
-    "area": "Geometric numerical integration and numerical PDEs",
-    "file": "problems/519-euclidean-mechanical-lie-algebra.md",
+    "id": "521",
+    "title": "Linear inverse bounds for four-diamond scattering",
+    "area": "Numerical PDEs and acoustic scattering",
+    "file": "problems/521-four-diamond-scattering-inverse.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "522",
-    "title": "Linear inverse bounds for four-diamond scattering",
-    "area": "Numerical PDEs and acoustic scattering",
-    "file": "problems/522-four-diamond-scattering-inverse.md",
-    "status": "Open",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "523",
     "title": "Removing the logarithmic loss in Helmholtz Nyström estimates",
     "area": "Numerical PDEs and boundary integral equations",
-    "file": "problems/523-nystrom-logarithmic-loss.md",
+    "file": "problems/522-nystrom-logarithmic-loss.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "527",
+    "id": "526",
     "title": "Existence for adaptive porous flow with a negative drag jump",
     "area": "Numerical PDEs and porous-media flow",
-    "file": "problems/527-negative-jump-adaptive-flow.md",
+    "file": "problems/526-negative-jump-adaptive-flow.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "536",
+    "id": "535",
     "title": "Optimal star-discrepancy lower bound for infinite sequences",
     "area": "Uncertainty quantification and quasi-Monte Carlo integration",
-    "file": "problems/536-star-discrepancy-sequence-lower-bound.md",
+    "file": "problems/535-star-discrepancy-sequence-lower-bound.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "540",
+    "title": "Low-degree convergence of relaxed minimal-deformation surface elements",
+    "area": "Numerical analysis of evolving surfaces",
+    "file": "problems/540-low-degree-relaxed-minimal-deformation.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "541",
-    "title": "Low-degree convergence of relaxed minimal-deformation surface elements",
-    "area": "Numerical analysis of evolving surfaces",
-    "file": "problems/541-low-degree-relaxed-minimal-deformation.md",
-    "status": "Open",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "542",
     "title": "Optimal stable manifold widths of Besov balls",
     "area": "Stable nonlinear approximation and numerical analysis",
-    "file": "problems/542-stable-manifold-widths-besov.md",
+    "file": "problems/541-stable-manifold-widths-besov.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "553",
+    "id": "552",
     "title": "Minimum number of continuous adaptive measurements for vector recovery",
     "area": "Information-based complexity and approximation theory",
-    "file": "problems/553-continuous-adaptive-measurement-complexity.md",
+    "file": "problems/552-continuous-adaptive-measurement-complexity.md",
+    "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "553",
+    "title": "Sharp asymptotic constant for rational approximation of fractional inverse powers",
+    "area": "Rational approximation and numerical analysis",
+    "file": "problems/553-stieltjes-rational-asymptotic-constant.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "554",
-    "title": "Sharp asymptotic constant for rational approximation of fractional inverse powers",
-    "area": "Rational approximation and numerical analysis",
-    "file": "problems/554-stieltjes-rational-asymptotic-constant.md",
+    "title": "Maximal gain from randomization with nonadaptive linear measurements",
+    "area": "Information-based complexity and randomized approximation",
+    "file": "problems/554-nonadaptive-randomization-gain.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "555",
-    "title": "Maximal gain from randomization with nonadaptive linear measurements",
-    "area": "Information-based complexity and randomized approximation",
-    "file": "problems/555-nonadaptive-randomization-gain.md",
+    "title": "Does integration of uniformly derivative-bounded analytic functions suffer the dimensional curse?",
+    "area": "Numerical integration and information-based complexity",
+    "file": "problems/555-smooth-integration-dimensional-curse.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "556",
-    "title": "Does integration of uniformly derivative-bounded analytic functions suffer the dimensional curse?",
-    "area": "Numerical integration and information-based complexity",
-    "file": "problems/556-smooth-integration-dimensional-curse.md",
+    "id": "566",
+    "title": "Sharp permutation bound for triangular parts of correlation matrices",
+    "area": "Numerical linear algebra and iterative methods",
+    "file": "problems/566-sor-permutation-sharp-constant.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "567",
-    "title": "Sharp permutation bound for triangular parts of correlation matrices",
-    "area": "Numerical linear algebra and iterative methods",
-    "file": "problems/567-sor-permutation-sharp-constant.md",
+    "title": "A sharp Galerkin projection bound on nonobtuse triangles",
+    "area": "Finite element approximation and numerical PDEs",
+    "file": "problems/567-nonobtuse-galerkin-projection-constant.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
     "id": "568",
-    "title": "A sharp Galerkin projection bound on nonobtuse triangles",
-    "area": "Finite element approximation and numerical PDEs",
-    "file": "problems/568-nonobtuse-galerkin-projection-constant.md",
-    "status": "Open",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "569",
     "title": "The cost of continuous reconstruction on Banach unit balls",
     "area": "Information-based complexity and nonlinear approximation",
-    "file": "problems/569-continuous-decoder-banach-balls.md",
+    "file": "problems/568-continuous-decoder-banach-balls.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "577",
+    "id": "576",
     "title": "A real nearest matrix with spectrum in the closed left half-plane",
     "area": "Numerical linear algebra and matrix optimization",
-    "file": "problems/577-nearest-hurwitz-real-minimizer.md",
+    "file": "problems/576-nearest-hurwitz-real-minimizer.md",
     "status": "Open",
+    "last_checked": "2026-09-24"
+  },
+  {
+    "id": "579",
+    "title": "Infinitely many obstacle resonances in a fixed strip under trapping",
+    "area": "Scattering theory and numerical wave propagation",
+    "file": "problems/579-modified-lax-phillips-trapping.md",
+    "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
     "id": "580",
-    "title": "Infinitely many obstacle resonances in a fixed strip under trapping",
-    "area": "Scattering theory and numerical wave propagation",
-    "file": "problems/580-modified-lax-phillips-trapping.md",
-    "status": "Partially resolved",
-    "last_checked": "2026-09-24"
-  },
-  {
-    "id": "581",
     "title": "Full Sobolev invertibility range for Hausdorff-measure screen operators",
     "area": "Boundary integral equations and numerical scattering",
-    "file": "problems/581-fractal-screen-sobolev-invertibility.md",
+    "file": "problems/580-fractal-screen-sobolev-invertibility.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "604",
+    "id": "603",
     "title": "Optimal uniform observation time for mixed finite element waves",
     "area": "Numerical control and inverse problems",
-    "file": "problems/604-mixed-wave-optimal-observation-time.md",
+    "file": "problems/603-mixed-wave-optimal-observation-time.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "625",
+    "id": "624",
     "title": "Polynomial-size nonobtuse tetrahedral meshes",
     "area": "Numerical PDEs and computational geometry",
-    "file": "problems/625-polynomial-nonobtuse-tetrahedral-meshes.md",
+    "file": "problems/624-polynomial-nonobtuse-tetrahedral-meshes.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "632",
+    "id": "631",
     "title": "Local potential bases on Freudenthal meshes",
     "area": "Finite elements and multigrid methods",
-    "file": "problems/632-freudenthal-local-potential-basis.md",
+    "file": "problems/631-freudenthal-local-potential-basis.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "638",
+    "id": "637",
     "title": "Strong convergence rate of the fractional WIS Euler integrator",
     "area": "Numerical stochastic differential equations",
-    "file": "problems/638-wis-fractional-euler-rate.md",
+    "file": "problems/637-wis-fractional-euler-rate.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "640",
+    "id": "639",
     "title": "Bos's cubic and quartic simplex interpolation nodes",
     "area": "Multivariate approximation and optimal experimental design",
-    "file": "problems/640-bos-simplex-interpolation-nodes.md",
+    "file": "problems/639-bos-simplex-interpolation-nodes.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-24"
   },
   {
-    "id": "650",
+    "id": "649",
     "title": "Global convergence of the simple CRDT conformal-mapping iteration",
     "area": "Numerical conformal mapping",
-    "file": "problems/650-simple-crdt-convergence.md",
+    "file": "problems/649-simple-crdt-convergence.md",
     "status": "Open",
     "last_checked": "2026-09-24"
   }

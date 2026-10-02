@@ -15,9 +15,9 @@ Contributions made with or without AI are welcome.
 
 If a problem here is resolved, we encourage you to improve the proof, explain its ideas, explore its applications, and publish your work. Cite the actual proof and its authors, and cite AIM where you use its curation or research. You are welcome to share your preprint and corrections with the repository so that others can find and build on your contribution.
 
-**650 open targets** (537 open, 113 partial) · **15 solved entries** · **0 Lean verified** · **0 solution claims**. Counts reflect the statuses recorded in this collection.
+**649 open targets** (537 open, 112 partial) · **16 solved entries** · **0 Lean verified** · **0 solution claims**. Counts reflect the statuses recorded in this collection.
 
-**[Browse all 650 open targets →](CATALOG.md)** · **[Solved and claimed solutions →](RESOLVED.md)**
+**[Browse all 649 open targets →](CATALOG.md)** · **[Solved and claimed solutions →](RESOLVED.md)**
 
 ## Browse by subject
 
@@ -34,7 +34,7 @@ If a problem here is resolved, we encourage you to improve the proof, explain it
 | [Waves, quantum systems and spectral geometry](CATALOG.md#waves-quantum-systems-and-spectral-geometry) | [32](CATALOG.md#spectral2-open) | [0](CATALOG.md#spectral2-solved) |
 | [Imaging, control, geometry and dynamics](CATALOG.md#imaging-control-geometry-and-dynamics) | [30](CATALOG.md#inverse2-open) | [0](CATALOG.md#inverse2-solved) |
 | [Fluids, kinetic theory and continuum mechanics](CATALOG.md#fluids-kinetic-theory-and-continuum-mechanics) | [48](CATALOG.md#continuum2-open) | [0](CATALOG.md#continuum2-solved) |
-| [Stochastic growth, populations and statistical mechanics](CATALOG.md#stochastic-growth-populations-and-statistical-mechanics) | [31](CATALOG.md#stochastic2-open) | [0](CATALOG.md#stochastic2-solved) |
+| [Stochastic growth, populations and statistical mechanics](CATALOG.md#stochastic-growth-populations-and-statistical-mechanics) | [30](CATALOG.md#stochastic2-open) | [1](CATALOG.md#stochastic2-solved) |
 | [Many-body physics, quantum information and wave analysis](CATALOG.md#many-body-physics-quantum-information-and-wave-analysis) | [32](CATALOG.md#spectral3-open) | [1](CATALOG.md#spectral3-solved) |
 | [Nonlinear waves, fluids and kinetic equations](CATALOG.md#nonlinear-waves-fluids-and-kinetic-equations) | [33](CATALOG.md#waves-fluids-kinetics-open) | [0](CATALOG.md#waves-fluids-kinetics-solved) |
 | [Diffusion, materials and variational problems](CATALOG.md#diffusion-materials-and-variational-problems) | [57](CATALOG.md#diffusion-materials-open) | [2](CATALOG.md#diffusion-materials-solved) |
@@ -47,6 +47,7 @@ Complete resolutions recorded in this collection, including counterexamples to t
 
 | ID | Problem | Status | Outcome | Proof | Review |
 | --- | --- | --- | --- | --- | --- |
+| 650 | [Global attraction in D-stable Lotka–Volterra systems](research/resolved/650-lotka-volterra-d-stable-global-attraction.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/490-lotka-volterra-counterexample/PROOF.md) | [Review](research/solutions/490-lotka-volterra-counterexample/REVIEW.md) |
 | 651 | [A fixed-time lower bound for Trotter splitting of the hydrogen ground state](research/resolved/651-hydrogen-trotter-lower-bound.md) | ✅ SOLVED | Disproof | [Proof](research/solutions/562-hydrogen-trotter-disproof/PROOF.md) | [Review](research/solutions/562-hydrogen-trotter-disproof/REVIEW.md) |
 | 652 | [The Robin fundamental gap conjecture](research/resolved/652-robin-fundamental-gap.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/021-robin-gap-counterexample/robin_gap_021.pdf) | [Review](research/solution_reviews/2026-10-02/021-review.md) |
 | 653 | [Exponential interior decay for smooth Steklov domains](research/resolved/653-steklov-smooth-interior-decay.md) | ✅ SOLVED | Counterexample | [Proof](research/solutions/siavash-sadeghi-steklov-024/steklov_counterexample.pdf) | [Review](research/solution_reviews/2026-10-02/024-review.md) |

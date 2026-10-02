@@ -10,6 +10,7 @@ Documented resolutions of the exact target. Proof and review links give the argu
 
 | ID | Problem | Status | Outcome | Last checked | Proof | Review |
 | --- | --- | --- | --- | --- | --- | --- |
+| 650 | [Global attraction in D-stable Lotka–Volterra systems](research/resolved/650-lotka-volterra-d-stable-global-attraction.md) | ✅ SOLVED | Counterexample | 2026-10-02 | [Proof](research/solutions/490-lotka-volterra-counterexample/PROOF.md) | [Review](research/solutions/490-lotka-volterra-counterexample/REVIEW.md) |
 | 651 | [A fixed-time lower bound for Trotter splitting of the hydrogen ground state](research/resolved/651-hydrogen-trotter-lower-bound.md) | ✅ SOLVED | Disproof | 2026-10-02 | [Proof](research/solutions/562-hydrogen-trotter-disproof/PROOF.md) | [Review](research/solutions/562-hydrogen-trotter-disproof/REVIEW.md) |
 | 652 | [The Robin fundamental gap conjecture](research/resolved/652-robin-fundamental-gap.md) | ✅ SOLVED | Counterexample | 2026-10-02 | [Proof](research/solutions/021-robin-gap-counterexample/robin_gap_021.pdf) | [Review](research/solution_reviews/2026-10-02/021-review.md) |
 | 653 | [Exponential interior decay for smooth Steklov domains](research/resolved/653-steklov-smooth-interior-decay.md) | ✅ SOLVED | Counterexample | 2026-10-02 | [Proof](research/solutions/siavash-sadeghi-steklov-024/steklov_counterexample.pdf) | [Review](research/solution_reviews/2026-10-02/024-review.md) |

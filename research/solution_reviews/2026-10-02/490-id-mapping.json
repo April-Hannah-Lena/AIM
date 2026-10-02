@@ -1,0 +1,1308 @@
+{
+  "baseline_commit": "823ea0c6f9151792238d8ccbe7d64ea7d66faf5d",
+  "date": "2026-10-02",
+  "scope": "Only changed IDs are listed. All other active and retained identities are unchanged. The Lotka–Volterra target was 490 at 37a25361f243be77daea0ae0b3c5167b57f1b5f3, 489 at this baseline, and is archive 650 after this transition.",
+  "previous_mapping": "research/solution_reviews/2026-10-02/562-merge-id-mapping.json",
+  "active_count_before": 650,
+  "active_count_after": 649,
+  "retained_count_before": 15,
+  "retained_count_after": 16,
+  "entries": [
+    {
+      "original_id": "489",
+      "current_id": "650",
+      "title": "Global attraction in D-stable Lotka–Volterra systems",
+      "original_file": "problems/489-lotka-volterra-d-stable-global-attraction.md",
+      "current_file": "research/resolved/650-lotka-volterra-d-stable-global-attraction.md",
+      "membership": "retained"
+    },
+    {
+      "original_id": "490",
+      "current_id": "489",
+      "title": "Deterministic parallel perfect matching in general graphs",
+      "original_file": "problems/490-general-graph-perfect-matching-nc.md",
+      "current_file": "problems/489-general-graph-perfect-matching-nc.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "491",
+      "current_id": "490",
+      "title": "Polynomial-time solution of simple stochastic games",
+      "original_file": "problems/491-simple-stochastic-games-polynomial-time.md",
+      "current_file": "problems/490-simple-stochastic-games-polynomial-time.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "492",
+      "current_id": "491",
+      "title": "Constant-gap NP-hardness of densest k-subgraph",
+      "original_file": "problems/492-densest-k-subgraph-constant-gap-hardness.md",
+      "current_file": "problems/491-densest-k-subgraph-constant-gap-hardness.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "493",
+      "current_id": "492",
+      "title": "Minimax entropy estimation beyond two derivatives",
+      "original_file": "problems/493-high-smoothness-entropy-estimation.md",
+      "current_file": "problems/492-high-smoothness-entropy-estimation.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "494",
+      "current_id": "493",
+      "title": "Universality of the interleaving distance over arbitrary fields",
+      "original_file": "problems/494-interleaving-distance-universality.md",
+      "current_file": "problems/493-interleaving-distance-universality.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "495",
+      "current_id": "494",
+      "title": "Support growth of the information-maximizing binomial prior",
+      "original_file": "problems/495-binomial-optimal-prior-support.md",
+      "current_file": "problems/494-binomial-optimal-prior-support.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "496",
+      "current_id": "495",
+      "title": "Global uniqueness of fine-mesh semilinear Galerkin solutions",
+      "original_file": "problems/496-semilinear-galerkin-global-uniqueness.md",
+      "current_file": "problems/495-semilinear-galerkin-global-uniqueness.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "497",
+      "current_id": "496",
+      "title": "The three-quarter conjecture for binary fix-free codes",
+      "original_file": "problems/497-fix-free-three-quarter.md",
+      "current_file": "problems/496-fix-free-three-quarter.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "498",
+      "current_id": "497",
+      "title": "Planar Rips complexes as wedges of spheres",
+      "original_file": "problems/498-planar-rips-wedges-of-spheres.md",
+      "current_file": "problems/497-planar-rips-wedges-of-spheres.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "499",
+      "current_id": "498",
+      "title": "Injectivity of the Rips shadow map on fundamental groups",
+      "original_file": "problems/499-rips-shadow-fundamental-group.md",
+      "current_file": "problems/498-rips-shadow-fundamental-group.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "500",
+      "current_id": "499",
+      "title": "Ergodicity of higher-dimensional Ising clumps",
+      "original_file": "problems/500-higher-dimensional-ising-clumps.md",
+      "current_file": "problems/499-higher-dimensional-ising-clumps.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "501",
+      "current_id": "500",
+      "title": "Integral optimal flat-norm decompositions in codimension one",
+      "original_file": "problems/501-integral-flat-norm-codimension-one.md",
+      "current_file": "problems/500-integral-flat-norm-codimension-one.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "502",
+      "current_id": "501",
+      "title": "A strict gap between face and cycle percolation thresholds",
+      "original_file": "problems/502-face-cycle-percolation-gap.md",
+      "current_file": "problems/501-face-cycle-percolation-gap.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "503",
+      "current_id": "502",
+      "title": "Exact diameter of the leaf-slide graph on labelled trees",
+      "original_file": "problems/503-network-realignment-diameter.md",
+      "current_file": "problems/502-network-realignment-diameter.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "504",
+      "current_id": "503",
+      "title": "Exponential excursion tails for topology-preserving Ising disks",
+      "original_file": "problems/504-ising-disks-excursion-tail.md",
+      "current_file": "problems/503-ising-disks-excursion-tail.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "505",
+      "current_id": "504",
+      "title": "A discrete Aronson–Bénilan estimate for an upwind growth scheme",
+      "original_file": "problems/505-upwind-discrete-aronson-benilan.md",
+      "current_file": "problems/504-upwind-discrete-aronson-benilan.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "506",
+      "current_id": "505",
+      "title": "Minimax rates for private density estimation with mixed anisotropy",
+      "original_file": "problems/506-private-density-mixed-anisotropy.md",
+      "current_file": "problems/505-private-density-mixed-anisotropy.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "507",
+      "current_id": "506",
+      "title": "Sharp interactive privacy rates for spectral density estimation",
+      "original_file": "problems/507-interactive-private-spectral-density.md",
+      "current_file": "problems/506-interactive-private-spectral-density.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "508",
+      "current_id": "507",
+      "title": "Monotonicity of unordered graph motion-planning complexity",
+      "original_file": "problems/508-unordered-graph-motion-monotonicity.md",
+      "current_file": "problems/507-unordered-graph-motion-monotonicity.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "509",
+      "current_id": "508",
+      "title": "Wedge-of-spheres structure of path-product matching complexes",
+      "original_file": "problems/509-path-product-matching-complexes.md",
+      "current_file": "problems/508-path-product-matching-complexes.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "510",
+      "current_id": "509",
+      "title": "Finite homotopy models for spherical Rips complexes",
+      "original_file": "problems/510-spherical-rips-finite-homotopy-type.md",
+      "current_file": "problems/509-spherical-rips-finite-homotopy-type.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "511",
+      "current_id": "510",
+      "title": "Monotonicity of connectivity in spherical Rips filtrations",
+      "original_file": "problems/511-spherical-rips-connectivity-monotonicity.md",
+      "current_file": "problems/510-spherical-rips-connectivity-monotonicity.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "512",
+      "current_id": "511",
+      "title": "The first Rips homotopy transition for higher-dimensional spheres",
+      "original_file": "problems/512-spherical-rips-first-transition.md",
+      "current_file": "problems/511-spherical-rips-first-transition.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "513",
+      "current_id": "512",
+      "title": "The centre-rank formula for aspherical motion planning",
+      "original_file": "problems/513-aspherical-motion-planning-center.md",
+      "current_file": "problems/512-aspherical-motion-planning-center.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "514",
+      "current_id": "513",
+      "title": "Maximal motion-planning complexity of aspherical connected sums",
+      "original_file": "problems/514-aspherical-connected-sum-complexity.md",
+      "current_file": "problems/513-aspherical-connected-sum-complexity.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "515",
+      "current_id": "514",
+      "title": "Consistency of the Greedy Sparsest Poset algorithm",
+      "original_file": "problems/515-greedy-sparsest-poset-consistency.md",
+      "current_file": "problems/514-greedy-sparsest-poset-consistency.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "516",
+      "current_id": "515",
+      "title": "Tail bounds for causal equivalence classes of uniform random DAGs",
+      "original_file": "problems/516-random-dag-equivalence-class-tails.md",
+      "current_file": "problems/515-random-dag-equivalence-class-tails.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "517",
+      "current_id": "516",
+      "title": "Sharp local approximation widths for rough elliptic equations",
+      "original_file": "problems/517-sharp-local-elliptic-widths.md",
+      "current_file": "problems/516-sharp-local-elliptic-widths.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "518",
+      "current_id": "517",
+      "title": "Removing the logarithmic loss in the Li–Wu KdV integrator",
+      "original_file": "problems/518-kdv-integrator-logarithmic-loss.md",
+      "current_file": "problems/517-kdv-integrator-logarithmic-loss.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "519",
+      "current_id": "518",
+      "title": "Universal identities for Euclidean mechanical Lie brackets",
+      "original_file": "problems/519-euclidean-mechanical-lie-algebra.md",
+      "current_file": "problems/518-euclidean-mechanical-lie-algebra.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "520",
+      "current_id": "519",
+      "title": "Coarse Hilbert embeddings of persistence diagrams",
+      "original_file": "problems/520-persistence-diagram-coarse-embedding.md",
+      "current_file": "problems/519-persistence-diagram-coarse-embedding.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "521",
+      "current_id": "520",
+      "title": "Six-point persistence on the Euclidean two-sphere",
+      "original_file": "problems/521-six-point-sphere-persistence.md",
+      "current_file": "problems/520-six-point-sphere-persistence.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "522",
+      "current_id": "521",
+      "title": "Linear inverse bounds for four-diamond scattering",
+      "original_file": "problems/522-four-diamond-scattering-inverse.md",
+      "current_file": "problems/521-four-diamond-scattering-inverse.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "523",
+      "current_id": "522",
+      "title": "Removing the logarithmic loss in Helmholtz Nyström estimates",
+      "original_file": "problems/523-nystrom-logarithmic-loss.md",
+      "current_file": "problems/522-nystrom-logarithmic-loss.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "524",
+      "current_id": "523",
+      "title": "Maximal motion-planning complexity from positive simplicial volume",
+      "original_file": "problems/524-positive-volume-motion-planning.md",
+      "current_file": "problems/523-positive-volume-motion-planning.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "525",
+      "current_id": "524",
+      "title": "Maximal TC weight from positive homological norm",
+      "original_file": "problems/525-positive-norm-tc-weight.md",
+      "current_file": "problems/524-positive-norm-tc-weight.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "526",
+      "current_id": "525",
+      "title": "Exact motion-planning complexity of real projective spaces",
+      "original_file": "problems/526-projective-motion-planning.md",
+      "current_file": "problems/525-projective-motion-planning.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "527",
+      "current_id": "526",
+      "title": "Existence for adaptive porous flow with a negative drag jump",
+      "original_file": "problems/527-negative-jump-adaptive-flow.md",
+      "current_file": "problems/526-negative-jump-adaptive-flow.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "528",
+      "current_id": "527",
+      "title": "Minimax estimation of topic distributions with weak sparsity",
+      "original_file": "problems/528-weak-sparse-topic-minimax.md",
+      "current_file": "problems/527-weak-sparse-topic-minimax.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "529",
+      "current_id": "528",
+      "title": "Limiting Betti-number distributions in preferential-attachment networks",
+      "original_file": "problems/529-preferential-attachment-betti-limit.md",
+      "current_file": "problems/528-preferential-attachment-betti-limit.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "530",
+      "current_id": "529",
+      "title": "Classifying Gaussian models with rational maximum-likelihood estimators",
+      "original_file": "problems/530-rational-gaussian-mle-classification.md",
+      "current_file": "problems/529-rational-gaussian-mle-classification.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "531",
+      "current_id": "530",
+      "title": "Homology at the second transition of torus-grid Rips complexes",
+      "original_file": "problems/531-torus-grid-transition-homology.md",
+      "current_file": "problems/530-torus-grid-transition-homology.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "532",
+      "current_id": "531",
+      "title": "Homotopy type of torus-grid Rips complexes at half the diameter",
+      "original_file": "problems/532-torus-grid-half-diameter-homotopy.md",
+      "current_file": "problems/531-torus-grid-half-diameter-homotopy.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "533",
+      "current_id": "532",
+      "title": "Motion-planning complexity of symmetric products of non-orientable surfaces",
+      "original_file": "problems/533-nonorientable-symmetric-product-motion-planning.md",
+      "current_file": "problems/532-nonorientable-symmetric-product-motion-planning.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "534",
+      "current_id": "533",
+      "title": "Triangle inequality for the pullback distance of verbose persistence barcodes",
+      "original_file": "problems/534-verbose-persistence-pullback-triangle.md",
+      "current_file": "problems/533-verbose-persistence-pullback-triangle.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "535",
+      "current_id": "534",
+      "title": "Mixing time of the reflected Burnside sampler for integer partitions",
+      "original_file": "problems/535-reflected-burnside-mixing.md",
+      "current_file": "problems/534-reflected-burnside-mixing.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "536",
+      "current_id": "535",
+      "title": "Optimal star-discrepancy lower bound for infinite sequences",
+      "original_file": "problems/536-star-discrepancy-sequence-lower-bound.md",
+      "current_file": "problems/535-star-discrepancy-sequence-lower-bound.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "537",
+      "current_id": "536",
+      "title": "Betti numbers of a persistence fiber with no finite bars",
+      "original_file": "problems/537-persistence-fiber-betti-numbers.md",
+      "current_file": "problems/536-persistence-fiber-betti-numbers.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "538",
+      "current_id": "537",
+      "title": "Monotonicity of connectivity in spherical Čech filtrations",
+      "original_file": "problems/538-spherical-cech-connectivity-monotonicity.md",
+      "current_file": "problems/537-spherical-cech-connectivity-monotonicity.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "539",
+      "current_id": "538",
+      "title": "Finite homotopy models for spherical Čech complexes",
+      "original_file": "problems/539-spherical-cech-finite-homotopy-models.md",
+      "current_file": "problems/538-spherical-cech-finite-homotopy-models.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "540",
+      "current_id": "539",
+      "title": "Sharp barrier-parameter growth for hyperbolic balls",
+      "original_file": "problems/540-hyperbolic-ball-barrier-parameter.md",
+      "current_file": "problems/539-hyperbolic-ball-barrier-parameter.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "541",
+      "current_id": "540",
+      "title": "Low-degree convergence of relaxed minimal-deformation surface elements",
+      "original_file": "problems/541-low-degree-relaxed-minimal-deformation.md",
+      "current_file": "problems/540-low-degree-relaxed-minimal-deformation.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "542",
+      "current_id": "541",
+      "title": "Optimal stable manifold widths of Besov balls",
+      "original_file": "problems/542-stable-manifold-widths-besov.md",
+      "current_file": "problems/541-stable-manifold-widths-besov.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "543",
+      "current_id": "542",
+      "title": "Simplices maximize the isotropic constant",
+      "original_file": "problems/543-simplex-maximal-isotropic-constant.md",
+      "current_file": "problems/542-simplex-maximal-isotropic-constant.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "544",
+      "current_id": "543",
+      "title": "Bounded weakening for constrained invertibility",
+      "original_file": "problems/544-constrained-invertibility-bounded-weakening.md",
+      "current_file": "problems/543-constrained-invertibility-bounded-weakening.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "545",
+      "current_id": "544",
+      "title": "A 325-point two-distance set in dimension 24",
+      "original_file": "problems/545-two-distance-325-points-dimension24.md",
+      "current_file": "problems/544-two-distance-325-points-dimension24.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "546",
+      "current_id": "545",
+      "title": "Uniqueness of 277-point two-distance sets in dimension 23",
+      "original_file": "problems/546-two-distance-277-point-uniqueness.md",
+      "current_file": "problems/545-two-distance-277-point-uniqueness.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "547",
+      "current_id": "546",
+      "title": "Minimal persistence grids versus homological Morse lower bounds",
+      "original_file": "problems/547-minimal-persistence-grid-morse-bound.md",
+      "current_file": "problems/546-minimal-persistence-grid-morse-bound.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "548",
+      "current_id": "547",
+      "title": "Separation of measures by Cartan–Hadamard sliced distances",
+      "original_file": "problems/548-cartan-hadamard-sliced-separation.md",
+      "current_file": "problems/547-cartan-hadamard-sliced-separation.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "549",
+      "current_id": "548",
+      "title": "Ordinary posterior contraction for heavy-tailed neural-network priors",
+      "original_file": "problems/549-heavy-tailed-network-ordinary-posterior.md",
+      "current_file": "problems/548-heavy-tailed-network-ordinary-posterior.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "550",
+      "current_id": "549",
+      "title": "Perfect recovery threshold for unregularized quadratic-network training",
+      "original_file": "problems/550-quadratic-network-recovery-threshold.md",
+      "current_file": "problems/549-quadratic-network-recovery-threshold.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "551",
+      "current_id": "550",
+      "title": "Maximum treewidth at a prescribed edge count",
+      "original_file": "problems/551-treewidth-edge-count.md",
+      "current_file": "problems/550-treewidth-edge-count.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "552",
+      "current_id": "551",
+      "title": "Polynomial-time Bernoulli group testing at the information threshold",
+      "original_file": "problems/552-bernoulli-group-testing.md",
+      "current_file": "problems/551-bernoulli-group-testing.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "553",
+      "current_id": "552",
+      "title": "Minimum number of continuous adaptive measurements for vector recovery",
+      "original_file": "problems/553-continuous-adaptive-measurement-complexity.md",
+      "current_file": "problems/552-continuous-adaptive-measurement-complexity.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "554",
+      "current_id": "553",
+      "title": "Sharp asymptotic constant for rational approximation of fractional inverse powers",
+      "original_file": "problems/554-stieltjes-rational-asymptotic-constant.md",
+      "current_file": "problems/553-stieltjes-rational-asymptotic-constant.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "555",
+      "current_id": "554",
+      "title": "Maximal gain from randomization with nonadaptive linear measurements",
+      "original_file": "problems/555-nonadaptive-randomization-gain.md",
+      "current_file": "problems/554-nonadaptive-randomization-gain.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "556",
+      "current_id": "555",
+      "title": "Does integration of uniformly derivative-bounded analytic functions suffer the dimensional curse?",
+      "original_file": "problems/556-smooth-integration-dimensional-curse.md",
+      "current_file": "problems/555-smooth-integration-dimensional-curse.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "557",
+      "current_id": "556",
+      "title": "Unbounded chromatic number of associahedron graphs",
+      "original_file": "problems/557-associahedron-chromatic.md",
+      "current_file": "problems/556-associahedron-chromatic.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "558",
+      "current_id": "557",
+      "title": "Arbitrarily large integer-distance sets in general position",
+      "original_file": "problems/558-integer-distance-general-position.md",
+      "current_file": "problems/557-integer-distance-general-position.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "559",
+      "current_id": "558",
+      "title": "Deciding nonnegativity of unnormalized univariate trace polynomials",
+      "original_file": "problems/559-univariate-trace-decidability.md",
+      "current_file": "problems/558-univariate-trace-decidability.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "560",
+      "current_id": "559",
+      "title": "Hardness of minimum-dilation triangulation",
+      "original_file": "problems/560-minimum-dilation-hardness.md",
+      "current_file": "problems/559-minimum-dilation-hardness.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "561",
+      "current_id": "560",
+      "title": "Sharp least-singular-value bounds for independent random tensor columns",
+      "original_file": "problems/561-tensor-singular-value.md",
+      "current_file": "problems/560-tensor-singular-value.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "562",
+      "current_id": "561",
+      "title": "Identifying a distribution from its Gaussian-channel MMSE curve",
+      "original_file": "problems/562-mmse-identification.md",
+      "current_file": "problems/561-mmse-identification.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "563",
+      "current_id": "562",
+      "title": "The sharp radius in quantitative Steinitz selection",
+      "original_file": "problems/563-quantitative-steinitz-radius.md",
+      "current_file": "problems/562-quantitative-steinitz-radius.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "564",
+      "current_id": "563",
+      "title": "Asymmetry at the Macbeath point of a convex body",
+      "original_file": "problems/564-macbeath-center-asymmetry.md",
+      "current_file": "problems/563-macbeath-center-asymmetry.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "565",
+      "current_id": "564",
+      "title": "Improving the exponential lower bound for peeling sequences",
+      "original_file": "problems/565-peeling-sequences-lower-base.md",
+      "current_file": "problems/564-peeling-sequences-lower-base.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "566",
+      "current_id": "565",
+      "title": "Perfect Lee codes beyond dimension two",
+      "original_file": "problems/566-golomb-welch.md",
+      "current_file": "problems/565-golomb-welch.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "567",
+      "current_id": "566",
+      "title": "Sharp permutation bound for triangular parts of correlation matrices",
+      "original_file": "problems/567-sor-permutation-sharp-constant.md",
+      "current_file": "problems/566-sor-permutation-sharp-constant.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "568",
+      "current_id": "567",
+      "title": "A sharp Galerkin projection bound on nonobtuse triangles",
+      "original_file": "problems/568-nonobtuse-galerkin-projection-constant.md",
+      "current_file": "problems/567-nonobtuse-galerkin-projection-constant.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "569",
+      "current_id": "568",
+      "title": "The cost of continuous reconstruction on Banach unit balls",
+      "original_file": "problems/569-continuous-decoder-banach-balls.md",
+      "current_file": "problems/568-continuous-decoder-banach-balls.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "570",
+      "current_id": "569",
+      "title": "Counting half-integral polygons with collinear interior lattice points",
+      "original_file": "problems/570-half-integral-collinear-count.md",
+      "current_file": "problems/569-half-integral-collinear-count.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "571",
+      "current_id": "570",
+      "title": "Counting Ehrhart quasipolynomials of half-integral polygons",
+      "original_file": "problems/571-half-integral-ehrhart-count.md",
+      "current_file": "problems/570-half-integral-ehrhart-count.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "572",
+      "current_id": "571",
+      "title": "Unimodal connectivity by 2–3 and 3–2 Pachner moves",
+      "original_file": "problems/572-unimodal-pachner-connectivity.md",
+      "current_file": "problems/571-unimodal-pachner-connectivity.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "573",
+      "current_id": "572",
+      "title": "Draws in the undirected trapping game on percolation clusters",
+      "original_file": "problems/573-trap-draws-percolation.md",
+      "current_file": "problems/572-trap-draws-percolation.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "574",
+      "current_id": "573",
+      "title": "Monotonicity of draw probabilities under random vertex deletion",
+      "original_file": "problems/574-trap-draw-probability-monotonicity.md",
+      "current_file": "problems/573-trap-draw-probability-monotonicity.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "575",
+      "current_id": "574",
+      "title": "Uniform covariance bounds for constrained Ising replicas",
+      "original_file": "problems/575-ising-replica-covariance.md",
+      "current_file": "problems/574-ising-replica-covariance.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "576",
+      "current_id": "575",
+      "title": "Strong freeness for one random interaction on overlapping tensor legs",
+      "original_file": "problems/576-repeated-gue-strong-freeness.md",
+      "current_file": "problems/575-repeated-gue-strong-freeness.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "577",
+      "current_id": "576",
+      "title": "A real nearest matrix with spectrum in the closed left half-plane",
+      "original_file": "problems/577-nearest-hurwitz-real-minimizer.md",
+      "current_file": "problems/576-nearest-hurwitz-real-minimizer.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "578",
+      "current_id": "577",
+      "title": "A sharp Betti-number bound for 4-manifold triangulation complexity",
+      "original_file": "problems/578-four-manifold-triangulation-complexity.md",
+      "current_file": "problems/577-four-manifold-triangulation-complexity.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "579",
+      "current_id": "578",
+      "title": "Sharp vertex bounds for generalized triangulations in even dimensions",
+      "original_file": "problems/579-even-manifold-vertex-bound.md",
+      "current_file": "problems/578-even-manifold-vertex-bound.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "580",
+      "current_id": "579",
+      "title": "Infinitely many obstacle resonances in a fixed strip under trapping",
+      "original_file": "problems/580-modified-lax-phillips-trapping.md",
+      "current_file": "problems/579-modified-lax-phillips-trapping.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "581",
+      "current_id": "580",
+      "title": "Full Sobolev invertibility range for Hausdorff-measure screen operators",
+      "original_file": "problems/581-fractal-screen-sobolev-invertibility.md",
+      "current_file": "problems/580-fractal-screen-sobolev-invertibility.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "582",
+      "current_id": "581",
+      "title": "Automorphism-invariant one-dependent colorings of regular trees",
+      "original_file": "problems/582-regular-tree-one-dependent-coloring.md",
+      "current_file": "problems/581-regular-tree-one-dependent-coloring.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "583",
+      "current_id": "582",
+      "title": "Extending a symmetric one-dependent four-color law across a branch",
+      "original_file": "problems/583-four-color-branched-ray.md",
+      "current_file": "problems/582-four-color-branched-ray.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "584",
+      "current_id": "583",
+      "title": "Sidorenko's lower bound for bipartite homomorphism counts",
+      "original_file": "problems/584-sidorenko.md",
+      "current_file": "problems/583-sidorenko.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "585",
+      "current_id": "584",
+      "title": "The happy-edge conjecture for convex plane spanning trees",
+      "original_file": "problems/585-convex-tree-happy-edges.md",
+      "current_file": "problems/584-convex-tree-happy-edges.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "586",
+      "current_id": "585",
+      "title": "A sharp differing-edge bound for convex plane-tree flips",
+      "original_file": "problems/586-convex-tree-difference-bound.md",
+      "current_file": "problems/585-convex-tree-difference-bound.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "587",
+      "current_id": "586",
+      "title": "Uniqueness of the stationary one-dependent four-coloring",
+      "original_file": "problems/587-one-dependent-four-color-uniqueness.md",
+      "current_file": "problems/586-one-dependent-four-color-uniqueness.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "588",
+      "current_id": "587",
+      "title": "Classifying balanced elementary symmetric Boolean functions",
+      "original_file": "problems/588-balanced-elementary-boolean.md",
+      "current_file": "problems/587-balanced-elementary-boolean.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "589",
+      "current_id": "588",
+      "title": "Can bound entanglement produce a device-independent secret key?",
+      "original_file": "problems/589-revised-peres.md",
+      "current_file": "problems/588-revised-peres.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "590",
+      "current_id": "589",
+      "title": "Three or four layers for 2-degenerate graphs",
+      "original_file": "problems/590-geometric-thickness-two-degenerate.md",
+      "current_file": "problems/589-geometric-thickness-two-degenerate.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "591",
+      "current_id": "590",
+      "title": "Bounded geometric thickness for unions of two forests",
+      "original_file": "problems/591-arboricity-two-geometric-thickness.md",
+      "current_file": "problems/590-arboricity-two-geometric-thickness.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "592",
+      "current_id": "591",
+      "title": "A linear threshold for extracting a segment grid",
+      "original_file": "problems/592-red-blue-segment-grid.md",
+      "current_file": "problems/591-red-blue-segment-grid.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "593",
+      "current_id": "592",
+      "title": "Connectivity of plane spanning-path reconfiguration",
+      "original_file": "problems/593-plane-spanning-path-connectivity.md",
+      "current_file": "problems/592-plane-spanning-path-connectivity.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "594",
+      "current_id": "593",
+      "title": "The minimum vertex number of a triangulation of real projective 5-space",
+      "original_file": "problems/594-rp5-minimum-vertices.md",
+      "current_file": "problems/593-rp5-minimum-vertices.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "595",
+      "current_id": "594",
+      "title": "A bounded number of flat transversals for fat convex sets",
+      "original_file": "problems/595-fat-convex-transversal-pq.md",
+      "current_file": "problems/594-fat-convex-transversal-pq.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "596",
+      "current_id": "595",
+      "title": "Entropy chain rule on nonsmooth nonconvex Lipschitz domains",
+      "original_file": "problems/596-entropy-chain-rule-lipschitz.md",
+      "current_file": "problems/595-entropy-chain-rule-lipschitz.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "597",
+      "current_id": "596",
+      "title": "Log-concavity of Gaussian convex-hull intersection probabilities",
+      "original_file": "problems/597-gaussian-radon-intersection-logconcavity.md",
+      "current_file": "problems/596-gaussian-radon-intersection-logconcavity.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "598",
+      "current_id": "597",
+      "title": "Unimodality of Radon partitions for uniform convex samples",
+      "original_file": "problems/598-uniform-convex-radon-unimodality.md",
+      "current_file": "problems/597-uniform-convex-radon-unimodality.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "599",
+      "current_id": "598",
+      "title": "Sierksma's lower bound for Tverberg partitions",
+      "original_file": "problems/599-sierksma-tverberg-partition-count.md",
+      "current_file": "problems/598-sierksma-tverberg-partition-count.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "600",
+      "current_id": "599",
+      "title": "The sharp asymptotic facial length in girth-saturated plane graphs",
+      "original_file": "problems/600-plane-girth-facial-asymptotic.md",
+      "current_file": "problems/599-plane-girth-facial-asymptotic.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "601",
+      "current_id": "600",
+      "title": "A linear genus–girth bound for facial cycles",
+      "original_file": "problems/601-surface-girth-facial-linear-bound.md",
+      "current_file": "problems/600-surface-girth-facial-linear-bound.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "602",
+      "current_id": "601",
+      "title": "The symmetry point of a unimodular lattice's secrecy function",
+      "original_file": "problems/602-belfiore-sole.md",
+      "current_file": "problems/601-belfiore-sole.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "603",
+      "current_id": "602",
+      "title": "Divisible point sets as unions of parallel lines",
+      "original_file": "problems/603-strong-cylinder.md",
+      "current_file": "problems/602-strong-cylinder.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "604",
+      "current_id": "603",
+      "title": "Optimal uniform observation time for mixed finite element waves",
+      "original_file": "problems/604-mixed-wave-optimal-observation-time.md",
+      "current_file": "problems/603-mixed-wave-optimal-observation-time.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "605",
+      "current_id": "604",
+      "title": "A zero in the nontrivial spectrum of a power permutation",
+      "original_file": "problems/605-helleseth-vanishing.md",
+      "current_file": "problems/604-helleseth-vanishing.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "606",
+      "current_id": "605",
+      "title": "Hypergraph shuffles and the one-particle spectral gap",
+      "original_file": "problems/606-caputo-hypergraph-gap.md",
+      "current_file": "problems/605-caputo-hypergraph-gap.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "607",
+      "current_id": "606",
+      "title": "A degree-two spectral gap for Brownian energy exchange",
+      "original_file": "problems/607-brownian-energy-quadratic-gap.md",
+      "current_file": "problems/606-brownian-energy-quadratic-gap.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "608",
+      "current_id": "607",
+      "title": "Low-degree representations determining a unitary shuffle's gap",
+      "original_file": "problems/608-unitary-hypergraph-gap.md",
+      "current_file": "problems/607-unitary-hypergraph-gap.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "609",
+      "current_id": "608",
+      "title": "Nill's facet bound for reflexive lattice polytopes",
+      "original_file": "problems/609-reflexive-polytope-facet-bound.md",
+      "current_file": "problems/608-reflexive-polytope-facet-bound.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "610",
+      "current_id": "609",
+      "title": "Counting cospherical tuples in lattice cubes",
+      "original_file": "problems/610-cospherical-lattice-tuple-count.md",
+      "current_file": "problems/609-cospherical-lattice-tuple-count.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "611",
+      "current_id": "610",
+      "title": "Decomposing complete graphs into squares of Hamilton cycles",
+      "original_file": "problems/611-hamilton-square-decomposition.md",
+      "current_file": "problems/610-hamilton-square-decomposition.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "612",
+      "current_id": "611",
+      "title": "Unbounded weak chromatic number for geometric tetrahedral complexes",
+      "original_file": "problems/612-tetrahedral-weak-chromatic.md",
+      "current_file": "problems/611-tetrahedral-weak-chromatic.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "613",
+      "current_id": "612",
+      "title": "Transversal ratio approaching one for simplicial four-polytopes",
+      "original_file": "problems/613-four-polytope-transversal-ratio.md",
+      "current_file": "problems/612-four-polytope-transversal-ratio.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "614",
+      "current_id": "613",
+      "title": "Fourth-order diffusion approximation for three-player ruin",
+      "original_file": "problems/614-gambler-scaling.md",
+      "current_file": "problems/613-gambler-scaling.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "615",
+      "current_id": "614",
+      "title": "Excluding three correlation levels in quadratic field towers",
+      "original_file": "problems/615-helleseth-three-valued.md",
+      "current_file": "problems/614-helleseth-three-valued.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "616",
+      "current_id": "615",
+      "title": "Polynomial-size convex difference decompositions",
+      "original_file": "problems/616-polynomial-convex-difference-decomposition.md",
+      "current_file": "problems/615-polynomial-convex-difference-decomposition.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "617",
+      "current_id": "616",
+      "title": "Reconstructing simplicial spheres from facet adjacency",
+      "original_file": "problems/617-kalai-sphere-reconstruction.md",
+      "current_file": "problems/616-kalai-sphere-reconstruction.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "618",
+      "current_id": "617",
+      "title": "Spanning triangulated spheres with holes in surface triangulations",
+      "original_file": "problems/618-spanning-holed-sphere-triangulation.md",
+      "current_file": "problems/617-spanning-holed-sphere-triangulation.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "619",
+      "current_id": "618",
+      "title": "Permutation snarks with order congruent to six modulo eight",
+      "original_file": "problems/619-permutation-snark-order-residue.md",
+      "current_file": "problems/618-permutation-snark-order-residue.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "620",
+      "current_id": "619",
+      "title": "Permutation snarks without five-cycles",
+      "original_file": "problems/620-permutation-snark-large-girth.md",
+      "current_file": "problems/619-permutation-snark-large-girth.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "621",
+      "current_id": "620",
+      "title": "Removable cycles in cycle permutation graphs",
+      "original_file": "problems/621-permutation-removable-cycle.md",
+      "current_file": "problems/620-permutation-removable-cycle.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "622",
+      "current_id": "621",
+      "title": "Costas arrays at every order",
+      "original_file": "problems/622-costas-all-orders.md",
+      "current_file": "problems/621-costas-all-orders.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "623",
+      "current_id": "622",
+      "title": "Convex realizations of spherical subword complexes",
+      "original_file": "problems/623-subword-polytopality.md",
+      "current_file": "problems/622-subword-polytopality.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "624",
+      "current_id": "623",
+      "title": "Eventual classification of simplicial line arrangements",
+      "original_file": "problems/624-simplicial-arrangement-classification.md",
+      "current_file": "problems/623-simplicial-arrangement-classification.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "625",
+      "current_id": "624",
+      "title": "Polynomial-size nonobtuse tetrahedral meshes",
+      "original_file": "problems/625-polynomial-nonobtuse-tetrahedral-meshes.md",
+      "current_file": "problems/624-polynomial-nonobtuse-tetrahedral-meshes.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "626",
+      "current_id": "625",
+      "title": "Smallest orders for periodic multidimensional Costas arrays",
+      "original_file": "problems/626-periodic-costas.md",
+      "current_file": "problems/625-periodic-costas.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "627",
+      "current_id": "626",
+      "title": "Odd Euler characteristic for flag-no-square four-manifolds",
+      "original_file": "problems/627-odd-euler-flag-no-square.md",
+      "current_file": "problems/626-odd-euler-flag-no-square.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "628",
+      "current_id": "627",
+      "title": "Characterizing discrete sets generated by fixed-parameter extrapolation",
+      "original_file": "problems/628-extrapolation-discreteness.md",
+      "current_file": "problems/627-extrapolation-discreteness.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "629",
+      "current_id": "628",
+      "title": "Relative density of sets generated by fixed-parameter extrapolation",
+      "original_file": "problems/629-extrapolation-relative-density.md",
+      "current_file": "problems/628-extrapolation-relative-density.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "630",
+      "current_id": "629",
+      "title": "Largest radius ratio in nonuniform triangulated circle packings",
+      "original_file": "problems/630-triangulated-packing-radius-ratio.md",
+      "current_file": "problems/629-triangulated-packing-radius-ratio.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "631",
+      "current_id": "630",
+      "title": "Classifying Costas polynomials over extension fields",
+      "original_file": "problems/631-costas-polynomial.md",
+      "current_file": "problems/630-costas-polynomial.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "632",
+      "current_id": "631",
+      "title": "Local potential bases on Freudenthal meshes",
+      "original_file": "problems/632-freudenthal-local-potential-basis.md",
+      "current_file": "problems/631-freudenthal-local-potential-basis.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "633",
+      "current_id": "632",
+      "title": "Finitely many radius sets for compact sphere packings",
+      "original_file": "problems/633-compact-packing-radius-finiteness.md",
+      "current_file": "problems/632-compact-packing-radius-finiteness.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "634",
+      "current_id": "633",
+      "title": "Small mod-two area cycles in drawings with bounded pairwise intersections",
+      "original_file": "problems/634-bounded-crossing-heilbronn.md",
+      "current_file": "problems/633-bounded-crossing-heilbronn.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "635",
+      "current_id": "634",
+      "title": "A uniform Gaussian approximation bound for Jack measures",
+      "original_file": "problems/635-jack-normal.md",
+      "current_file": "problems/634-jack-normal.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "636",
+      "current_id": "635",
+      "title": "Absolute continuity of stationary Elo ratings",
+      "original_file": "problems/636-elo-density.md",
+      "current_file": "problems/635-elo-density.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "637",
+      "current_id": "636",
+      "title": "A limiting law for maximal persistence in random clique complexes",
+      "original_file": "problems/637-random-clique-maximal-persistence-law.md",
+      "current_file": "problems/636-random-clique-maximal-persistence-law.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "638",
+      "current_id": "637",
+      "title": "Strong convergence rate of the fractional WIS Euler integrator",
+      "original_file": "problems/638-wis-fractional-euler-rate.md",
+      "current_file": "problems/637-wis-fractional-euler-rate.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "639",
+      "current_id": "638",
+      "title": "Coboundary expansion of random balanced Cayley complexes",
+      "original_file": "problems/639-random-balanced-cayley-expansion.md",
+      "current_file": "problems/638-random-balanced-cayley-expansion.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "640",
+      "current_id": "639",
+      "title": "Bos's cubic and quartic simplex interpolation nodes",
+      "original_file": "problems/640-bos-simplex-interpolation-nodes.md",
+      "current_file": "problems/639-bos-simplex-interpolation-nodes.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "641",
+      "current_id": "640",
+      "title": "Oscillation of partition functions under very strong disorder",
+      "original_file": "problems/641-polymer-oscillation.md",
+      "current_file": "problems/640-polymer-oscillation.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "642",
+      "current_id": "641",
+      "title": "Zero in the upper-Laplacian spectrum of low-degree simplicial complexes",
+      "original_file": "problems/642-low-degree-simplicial-zero-spectrum.md",
+      "current_file": "problems/641-low-degree-simplicial-zero-spectrum.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "643",
+      "current_id": "642",
+      "title": "Topological complexity in the homogeneous medial regime for all sample sizes",
+      "original_file": "problems/643-medial-regime-topological-complexity.md",
+      "current_file": "problems/642-medial-regime-topological-complexity.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "644",
+      "current_id": "643",
+      "title": "A finite three-ample complex with nontrivial fundamental group",
+      "original_file": "problems/644-finite-three-ample-nonsimply-connected.md",
+      "current_file": "problems/643-finite-three-ample-nonsimply-connected.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "645",
+      "current_id": "644",
+      "title": "Compact orbit covers of aspherical manifolds",
+      "original_file": "problems/645-aspherical-compact-orbit-cover.md",
+      "current_file": "problems/644-aspherical-compact-orbit-cover.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "646",
+      "current_id": "645",
+      "title": "Connectivity when the last isolated point disappears in a polytope",
+      "original_file": "problems/646-polytopal-connectivity-last-isolated-point.md",
+      "current_file": "problems/645-polytopal-connectivity-last-isolated-point.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "647",
+      "current_id": "646",
+      "title": "Location of the most isolated point in a random polyhedral sample",
+      "original_file": "problems/647-polyhedral-most-isolated-point-location.md",
+      "current_file": "problems/646-polyhedral-most-isolated-point-location.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "648",
+      "current_id": "647",
+      "title": "Vanishing threshold for first path homology of a random digraph",
+      "original_file": "problems/648-random-digraph-path-homology-vanishing.md",
+      "current_file": "problems/647-random-digraph-path-homology-vanishing.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "649",
+      "current_id": "648",
+      "title": "Central limit theorem for the first path Betti number",
+      "original_file": "problems/649-random-digraph-path-betti-central-limit.md",
+      "current_file": "problems/648-random-digraph-path-betti-central-limit.md",
+      "membership": "active"
+    },
+    {
+      "original_id": "650",
+      "current_id": "649",
+      "title": "Global convergence of the simple CRDT conformal-mapping iteration",
+      "original_file": "problems/650-simple-crdt-convergence.md",
+      "current_file": "problems/649-simple-crdt-convergence.md",
+      "membership": "active"
+    }
+  ]
+}

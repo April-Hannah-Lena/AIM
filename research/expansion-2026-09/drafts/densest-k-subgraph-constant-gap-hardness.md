@@ -1,6 +1,6 @@
 # Constant-gap NP-hardness of densest k-subgraph
 
-**Integrated:** [508 — canonical entry](../../../problems/492-densest-k-subgraph-constant-gap-hardness.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
+**Integrated:** [508 — canonical entry](../../../problems/491-densest-k-subgraph-constant-gap-hardness.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
 
 **Area:** Network optimization and approximation complexity
 

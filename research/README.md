@@ -2,6 +2,7 @@
 
 [Repository overview](../README.md) · [Open targets](../CATALOG.md) · [Solved and claimed solutions](../RESOLVED.md)
 
+- [D-stable Lotka–Volterra counterexample and exact-certificate audit](solutions/490-lotka-volterra-counterexample/REVIEW.md)
 - [Hydrogen Trotter disproof and complete AI audit](solutions/562-hydrogen-trotter-disproof/REVIEW.md)
 - [Robin gap counterexample review, PR #16](solution_reviews/2026-10-02/021-review.md)
 - [Independent review of twelve solution pull requests, 2026-10-02](solution_reviews/2026-10-02/README.md)
@@ -11,7 +12,7 @@
 - [Inverse-problem and control candidates excluded or narrowed](excluded-inverse.md)
 - [Related applied-analysis candidates excluded or narrowed](excluded-applied.md)
 
-Dated source maps, JSON inventories and candidate ledgers retain historical admission IDs and paths. Their dated evidence can be read at the original Git revision; the mapping below gives the current location of each identity. The [2026-10-02 ID mapping](solution_reviews/2026-10-02/id-mapping.json) records the earlier thirteen resolutions; the [subsequent Robin gap mapping](solution_reviews/2026-10-02/021-id-mapping.json) records their locations after PR #16. The [hydrogen integration mapping](solution_reviews/2026-10-02/562-merge-id-mapping.json) gives subsequent changes in the merged catalogue. The [original hydrogen submission mapping](solutions/562-hydrogen-trotter-disproof/id-mapping.json) remains a historical record of its separate branch.
+Dated source maps, JSON inventories and candidate ledgers retain historical admission IDs and paths. Their dated evidence can be read at the original Git revision; the mapping below gives the current location of each identity. The [2026-10-02 ID mapping](solution_reviews/2026-10-02/id-mapping.json) records the earlier thirteen resolutions; the [subsequent Robin gap mapping](solution_reviews/2026-10-02/021-id-mapping.json) records their locations after PR #16. The [hydrogen integration mapping](solution_reviews/2026-10-02/562-merge-id-mapping.json) gives subsequent changes in the merged catalogue. The [original hydrogen submission mapping](solutions/562-hydrogen-trotter-disproof/id-mapping.json) remains a historical record of its separate branch. The [Lotka–Volterra mapping](solution_reviews/2026-10-02/490-id-mapping.json) records the latest transition to 649 active and 16 retained entries.
 
 ## Second collection: sources and screening, 8 September 2026
 

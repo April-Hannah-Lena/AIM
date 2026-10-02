@@ -288,10 +288,10 @@
     "last_checked": "2026-09-22"
   },
   {
-    "id": "490",
+    "id": "489",
     "title": "Deterministic parallel perfect matching in general graphs",
     "area": "Parallel algorithms and combinatorial optimization",
-    "file": "problems/490-general-graph-perfect-matching-nc.md",
+    "file": "problems/489-general-graph-perfect-matching-nc.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-23"
   }

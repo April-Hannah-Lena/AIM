@@ -2,7 +2,7 @@
 
 This is the persistent coordination layer for the repository's growing problem collection. Repository problem files and their established indexes determine membership. Discover membership from the current metadata rather than assuming a fixed count or maximum identifier. Active IDs are consecutive from 001 and may change after deletions.
 
-**Current checkpoint (2026-10-02):** [650 active and 15 retained solved entries](QUEUE.md). Campaign 001 remains incomplete conditional research; see [its evidence summary](001/STATUS.md). This queue checkpoint is administrative; external solution reviews are recorded [separately](../solution_reviews/2026-10-02/README.md), with the additional [hydrogen disproof audit](../solutions/562-hydrogen-trotter-disproof/REVIEW.md).
+**Current checkpoint (2026-10-02):** [649 active and 16 retained solved entries](QUEUE.md). Campaign 001 remains incomplete conditional research; see [its evidence summary](001/STATUS.md). This queue checkpoint is administrative; external solution reviews are recorded [separately](../solution_reviews/2026-10-02/README.md), with the additional [hydrogen disproof audit](../solutions/562-hydrogen-trotter-disproof/REVIEW.md) and [Lotka–Volterra counterexample audit](../solutions/490-lotka-volterra-counterexample/REVIEW.md).
 
 ## Scope and layout
 

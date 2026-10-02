@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-revision: 84
+revision: 85
 current_problem: "001"
 phase: research
 status: open
@@ -59,10 +59,10 @@ current_campaign:
 last_sol_run: "research/automated_attempts/001/attempts/2026-09-08_1206_sol.md"
 last_astra_run: "2026-09-08T13:14:00Z"
 last_astra_review: "research/automated_attempts/001/reviews/2026-09-08_1314_astra.md"
-last_queue_sync: "2026-10-02T09:29:24.746627+00:00"
-queue_snapshot_commit: "fa98b7525fa3f78317536a8825f9cfa0ae1c369c"
+last_queue_sync: "2026-10-02T09:59:30.112651+00:00"
+queue_snapshot_commit: "823ea0c6f9151792238d8ccbe7d64ea7d66faf5d"
 queue_manifest_initial_commit: "05e95237c571731534faaee9d4aa29865b5962b1"
-current_problem_count_observed: 650
+current_problem_count_observed: 649
 newly_discovered_problems: []
 queue_integrity_issues: []
 new_problem_ids_this_run: []
@@ -151,16 +151,18 @@ run_history:
   - "revision 83: Administrative update after external Robin gap resolution PR #16; 651 active, 14 retained. No programme attempt or Astra invocation; all campaign counters preserved."
   - "revision 81: Administrative removal of obsolete archive records; 665 active entries and no retained entries. No research attempt or proof verification."
   - "revision 84: Administrative integration of the hydrogen disproof with upstream Robin gap resolution; 650 active, 15 retained. No programme attempt or Astra invocation; all campaign counters preserved."
-queue_snapshot_record: "research/automated_attempts/queue-sync-2026-10-02-hydrogen-merge.json"
+  - "revision 85: Administrative update after the independently AI-reviewed Lotka–Volterra counterexample; 649 active, 16 retained. No programme attempt or Astra invocation; campaign counters preserved."
+queue_snapshot_record: "research/automated_attempts/queue-sync-2026-10-02-lotka-volterra.json"
 queue_snapshot_includes_working_tree_changes: true
-retained_problem_count_observed: 15
+retained_problem_count_observed: 16
 last_maintenance_kind: "administrative queue sync after independent AI solution review; no programme research or Astra invocation"
-renumbering_record: "research/solution_reviews/2026-10-02/562-merge-id-mapping.json"
-previous_renumbering_record: "research/solution_reviews/2026-10-02/021-id-mapping.json"
+renumbering_record: "research/solution_reviews/2026-10-02/490-id-mapping.json"
+previous_renumbering_record: "research/solution_reviews/2026-10-02/562-merge-id-mapping.json"
 queue_sync_notes:
   - "External Robin gap resolution PR #16; original 021 is now archive 652."
   - "Hydrogen target 562 at the submission baseline is now archive 651; Robin gap remains archive 652."
-  - "650 active and 15 solved retained records agree with the catalogue."
+  - "Lotka–Volterra target 489 at the submission baseline (formerly 490) is now archive 650."
+  - "649 active and 16 solved retained records agree with the catalogue."
   - "Every surviving programme status and discovery date is preserved."
   - "Retired entries are ineligible; the historical snapshot and ID mapping are retained."
   - "Campaign 001 and its research/verification counters are unchanged."

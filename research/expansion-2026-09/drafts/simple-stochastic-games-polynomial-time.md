@@ -1,6 +1,6 @@
 # Polynomial-time solution of simple stochastic games
 
-**Integrated:** [507 — canonical entry](../../../problems/491-simple-stochastic-games-polynomial-time.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
+**Integrated:** [507 — canonical entry](../../../problems/490-simple-stochastic-games-polynomial-time.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
 
 **Area:** Stochastic control, formal verification and algorithmic game theory
 

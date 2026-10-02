@@ -1,6 +1,6 @@
 # Deterministic parallel perfect matching in general graphs
 
-**Integrated:** [506 — canonical entry](../../../problems/490-general-graph-perfect-matching-nc.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
+**Integrated:** [506 — canonical entry](../../../problems/489-general-graph-perfect-matching-nc.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
 
 **Area:** Parallel algorithms and combinatorial optimization
 

@@ -1,6 +1,6 @@
 # Global attraction in D-stable Lotka–Volterra systems
 
-**Integrated:** [505 — canonical entry](../../../problems/489-lotka-volterra-d-stable-global-attraction.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
+**Integrated:** [505 — canonical entry](../../resolved/650-lotka-volterra-d-stable-global-attraction.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
 
 **Area:** Population dynamics and nonlinear stability
 

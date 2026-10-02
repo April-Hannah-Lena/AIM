@@ -238,13 +238,5 @@
     "file": "problems/348-brownian-fleming-viot-nonexplosion.md",
     "status": "Open",
     "last_checked": "2026-09-19"
-  },
-  {
-    "id": "489",
-    "title": "Global attraction in D-stable Lotka–Volterra systems",
-    "area": "Population dynamics and nonlinear stability",
-    "file": "problems/489-lotka-volterra-d-stable-global-attraction.md",
-    "status": "Partially resolved",
-    "last_checked": "2026-09-23"
   }
 ]
