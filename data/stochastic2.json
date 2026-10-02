@@ -1,249 +1,249 @@
 [
   {
-    "id": "171",
+    "id": "170",
     "title": "Strict convexity of the planar exponential first-passage shape",
     "area": "Stochastic growth and random media",
-    "file": "problems/171-strict-convexity-fpp.md",
+    "file": "problems/170-strict-convexity-fpp.md",
+    "status": "Open",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "171",
+    "title": "The two-thirds passage-time variance exponent",
+    "area": "Random interfaces and growth fluctuations",
+    "file": "problems/171-fpp-kpz-variance.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "172",
-    "title": "The two-thirds passage-time variance exponent",
-    "area": "Random interfaces and growth fluctuations",
-    "file": "problems/172-fpp-kpz-variance.md",
+    "title": "Absence of doubly infinite minimizing paths in planar first-passage percolation",
+    "area": "Optimal transport through random media",
+    "file": "problems/172-absence-fpp-bigeodesics.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "173",
-    "title": "Absence of doubly infinite minimizing paths in planar first-passage percolation",
-    "area": "Optimal transport through random media",
-    "file": "problems/173-absence-fpp-bigeodesics.md",
-    "status": "Open",
+    "title": "Exclusion of coexistence for unequal Richardson growth rates",
+    "area": "Competing infections and stochastic growth",
+    "file": "problems/173-unequal-richardson-competition.md",
+    "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
     "id": "174",
-    "title": "Exclusion of coexistence for unequal Richardson growth rates",
-    "area": "Competing infections and stochastic growth",
-    "file": "problems/174-unequal-richardson-competition.md",
+    "title": "Monotonicity of transport speed on Galton–Watson trees",
+    "area": "Transport on random branching networks",
+    "file": "problems/174-galton-watson-speed-monotonicity.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
     "id": "175",
-    "title": "Monotonicity of transport speed on Galton–Watson trees",
-    "area": "Transport on random branching networks",
-    "file": "problems/175-galton-watson-speed-monotonicity.md",
-    "status": "Partially resolved",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "176",
     "title": "Connectivity of the three-dimensional minimal spanning forest",
     "area": "Disordered network optimization",
-    "file": "problems/176-three-dimensional-minimal-spanning-forest.md",
+    "file": "problems/175-three-dimensional-minimal-spanning-forest.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
-    "id": "177",
+    "id": "176",
     "title": "Does supercritical percolation preserve transience?",
     "area": "Diffusion in diluted networks",
-    "file": "problems/177-percolation-preserves-transience.md",
+    "file": "problems/176-percolation-preserves-transience.md",
+    "status": "Partially resolved",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "177",
+    "title": "A nonuniqueness phase on every nonamenable transitive graph",
+    "area": "Percolation and network resilience",
+    "file": "problems/177-nonamenable-nonuniqueness-phase.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
     "id": "178",
-    "title": "A nonuniqueness phase on every nonamenable transitive graph",
-    "area": "Percolation and network resilience",
-    "file": "problems/178-nonamenable-nonuniqueness-phase.md",
-    "status": "Partially resolved",
+    "title": "A deterministic nontrivial growth exponent for planar DLA",
+    "area": "Aggregation and fractal growth",
+    "file": "problems/178-dla-growth-exponent.md",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "179",
-    "title": "A deterministic nontrivial growth exponent for planar DLA",
-    "area": "Aggregation and fractal growth",
-    "file": "problems/179-dla-growth-exponent.md",
+    "title": "Does directional transience imply ballistic transport in an iid medium?",
+    "area": "Diffusion and transport in random environments",
+    "file": "problems/179-rwre-transience-ballisticity.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "180",
-    "title": "Does directional transience imply ballistic transport in an iid medium?",
-    "area": "Diffusion and transport in random environments",
-    "file": "problems/180-rwre-transience-ballisticity.md",
+    "title": "The directional zero–one law in three-dimensional random media",
+    "area": "Random transport and ergodicity",
+    "file": "problems/180-rwre-directional-zero-one.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "181",
-    "title": "The directional zero–one law in three-dimensional random media",
-    "area": "Random transport and ergodicity",
-    "file": "problems/181-rwre-directional-zero-one.md",
+    "title": "The density conjecture for activated random walk on the square lattice",
+    "area": "Self-organized criticality",
+    "file": "problems/181-activated-random-walk-density.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "182",
-    "title": "The density conjecture for activated random walk on the square lattice",
-    "area": "Self-organized criticality",
-    "file": "problems/182-activated-random-walk-density.md",
+    "title": "Coexistence for every positive cyclic invasion rate",
+    "area": "Spatial ecology and evolutionary dynamics",
+    "file": "problems/182-cyclic-spatial-coexistence.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "183",
-    "title": "Coexistence for every positive cyclic invasion rate",
-    "area": "Spatial ecology and evolutionary dynamics",
-    "file": "problems/183-cyclic-spatial-coexistence.md",
+    "title": "Coexistence in a three-strain colicin model",
+    "area": "Spatial microbiology",
+    "file": "problems/183-three-strain-colicin-coexistence.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "184",
-    "title": "Coexistence in a three-strain colicin model",
-    "area": "Spatial microbiology",
-    "file": "problems/184-three-strain-colicin-coexistence.md",
+    "title": "Competitive exclusion with unequal death rates",
+    "area": "Spatial epidemics and population competition",
+    "file": "problems/184-competing-contact-unequal-deaths.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "185",
-    "title": "Competitive exclusion with unequal death rates",
-    "area": "Spatial epidemics and population competition",
-    "file": "problems/185-competing-contact-unequal-deaths.md",
+    "title": "Liouville invariance under changing local moves on a Cayley network",
+    "area": "Random walks and network potential theory",
+    "file": "problems/185-liouville-generating-set-invariance.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "186",
-    "title": "Liouville invariance under changing local moves on a Cayley network",
-    "area": "Random walks and network potential theory",
-    "file": "problems/186-liouville-generating-set-invariance.md",
+    "title": "Selection of the carbon-monoxide poisoning phase",
+    "area": "Catalytic surface reactions",
+    "file": "problems/186-catalytic-carbon-monoxide-poisoning.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "187",
-    "title": "Selection of the carbon-monoxide poisoning phase",
-    "area": "Catalytic surface reactions",
-    "file": "problems/187-catalytic-carbon-monoxide-poisoning.md",
+    "title": "Two stationary phases in a positive-rate nonlinear voter perturbation",
+    "area": "Spatial population dynamics and phase coexistence",
+    "file": "problems/187-positive-rate-nonlinear-voter.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "188",
-    "title": "Two stationary phases in a positive-rate nonlinear voter perturbation",
-    "area": "Spatial population dynamics and phase coexistence",
-    "file": "problems/188-positive-rate-nonlinear-voter.md",
+    "title": "A phase transition for continuum hard disks",
+    "area": "Equilibrium fluids and phase transitions",
+    "file": "problems/188-hard-disk-phase-transition.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "189",
-    "title": "A phase transition for continuum hard disks",
-    "area": "Equilibrium fluids and phase transitions",
-    "file": "problems/189-hard-disk-phase-transition.md",
+    "title": "A roughening transition in the three-dimensional Ising model",
+    "area": "Interfaces and equilibrium statistical mechanics",
+    "file": "problems/189-ising-three-dimensional-roughening.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "190",
-    "title": "A roughening transition in the three-dimensional Ising model",
-    "area": "Interfaces and equilibrium statistical mechanics",
-    "file": "problems/190-ising-three-dimensional-roughening.md",
+    "title": "Uniqueness of the planar spin-glass ground-state pair",
+    "area": "Disordered magnetic materials",
+    "file": "problems/190-planar-spin-glass-ground-states.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "191",
-    "title": "Uniqueness of the planar spin-glass ground-state pair",
-    "area": "Disordered magnetic materials",
-    "file": "problems/191-planar-spin-glass-ground-states.md",
+    "title": "Pathwise uniqueness at the three-quarter Hölder threshold",
+    "area": "Stochastic reaction–diffusion equations",
+    "file": "problems/191-stochastic-heat-critical-uniqueness.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "192",
-    "title": "Pathwise uniqueness at the three-quarter Hölder threshold",
-    "area": "Stochastic reaction–diffusion equations",
-    "file": "problems/192-stochastic-heat-critical-uniqueness.md",
+    "title": "Strong disorder versus a shifted pinning threshold",
+    "area": "Disordered polymers and adsorption",
+    "file": "problems/192-pinning-strong-disorder-critical-shift.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "193",
-    "title": "Strong disorder versus a shifted pinning threshold",
-    "area": "Disordered polymers and adsorption",
-    "file": "problems/193-pinning-strong-disorder-critical-shift.md",
+    "title": "Polynomial mixing of planar Ising dynamics with plus boundary",
+    "area": "Statistical mechanics and stochastic relaxation",
+    "file": "problems/193-ising-plus-boundary-polynomial-mixing.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "194",
-    "title": "Polynomial mixing of planar Ising dynamics with plus boundary",
-    "area": "Statistical mechanics and stochastic relaxation",
-    "file": "problems/194-ising-plus-boundary-polynomial-mixing.md",
-    "status": "Open",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "195",
     "title": "A continuous strictly decreasing moment spectrum for Gaussian polymers",
     "area": "Polymers in random media",
-    "file": "problems/195-directed-polymer-moment-spectrum.md",
+    "file": "problems/194-directed-polymer-moment-spectrum.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
-    "id": "299",
+    "id": "297",
     "title": "Positive-temperature order in the three-dimensional Edwards–Anderson spin glass",
     "area": "Stochastic growth, populations and statistical mechanics",
-    "file": "problems/299-ea-three-dimensional-order.md",
+    "file": "problems/297-ea-three-dimensional-order.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "317",
+    "id": "315",
     "title": "Weak survival of the contact process on nonamenable Cayley graphs",
     "area": "Spatial epidemics and nonequilibrium phase transitions",
-    "file": "problems/317-contact-process-nonamenable-weak-survival.md",
+    "file": "problems/315-contact-process-nonamenable-weak-survival.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "321",
+    "id": "319",
     "title": "Bolthausen–Sznitman ancestry for a fixed-size selected population",
     "area": "Population genetics and stochastic selection",
-    "file": "problems/321-selected-brownian-population-genealogy.md",
+    "file": "problems/319-selected-brownian-population-genealogy.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "331",
+    "id": "329",
     "title": "Accuracy of parsimony reconstruction under a molecular clock",
     "area": "Mathematical phylogenetics and ancestral-state inference",
-    "file": "problems/331-fitch-ultrametric-ancestral-accuracy.md",
+    "file": "problems/329-fitch-ultrametric-ancestral-accuracy.md",
     "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
-    "id": "351",
+    "id": "349",
     "title": "Non-explosion of Brownian Fleming–Viot systems in arbitrary domains",
     "area": "Interacting particles and conditioned diffusion",
-    "file": "problems/351-brownian-fleming-viot-nonexplosion.md",
+    "file": "problems/349-brownian-fleming-viot-nonexplosion.md",
     "status": "Open",
     "last_checked": "2026-09-19"
   },
   {
-    "id": "497",
+    "id": "490",
     "title": "Global attraction in D-stable Lotka–Volterra systems",
     "area": "Population dynamics and nonlinear stability",
-    "file": "problems/497-lotka-volterra-d-stable-global-attraction.md",
+    "file": "problems/490-lotka-volterra-d-stable-global-attraction.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-23"
   }

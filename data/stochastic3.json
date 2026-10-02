@@ -1,369 +1,369 @@
 [
   {
-    "id": "269",
+    "id": "267",
     "title": "Does stronger ferromagnetic coupling always slow Ising relaxation?",
     "area": "Statistical mechanics and Monte Carlo sampling",
-    "file": "problems/269-ising-gap-monotonicity.md",
+    "file": "problems/267-ising-gap-monotonicity.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-13"
   },
   {
-    "id": "270",
+    "id": "268",
     "title": "A constant comparison between systematic and random Ising updates",
     "area": "Monte Carlo simulation and update scheduling",
-    "file": "problems/270-ising-systematic-scan.md",
+    "file": "problems/268-ising-systematic-scan.md",
+    "status": "Open",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "269",
+    "title": "Abrupt equilibration on every family of transitive expanders",
+    "area": "Transport and sampling on homogeneous networks",
+    "file": "problems/269-transitive-expander-cutoff.md",
+    "status": "Open",
+    "last_checked": "2026-09-13"
+  },
+  {
+    "id": "270",
+    "title": "Rapid sampling of proper colorings at the ergodicity threshold",
+    "area": "Antiferromagnetic spin systems and constrained sampling",
+    "file": "problems/270-coloring-glauber-threshold.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "271",
-    "title": "Abrupt equilibration on every family of transitive expanders",
-    "area": "Transport and sampling on homogeneous networks",
-    "file": "problems/271-transitive-expander-cutoff.md",
+    "title": "Does exclusion equilibrate as fast as independent particles?",
+    "area": "Interacting particle transport",
+    "file": "problems/271-exclusion-independent-mixing.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "272",
-    "title": "Rapid sampling of proper colorings at the ergodicity threshold",
-    "area": "Antiferromagnetic spin systems and constrained sampling",
-    "file": "problems/272-coloring-glauber-threshold.md",
+    "title": "A diameter bound for diffusion to uniform equilibrium",
+    "area": "Diffusion on symmetric networks",
+    "file": "problems/272-transitive-mixing-diameter.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "273",
-    "title": "Does exclusion equilibrate as fast as independent particles?",
-    "area": "Interacting particle transport",
-    "file": "problems/273-exclusion-independent-mixing.md",
+    "title": "Positive recurrence of every weakly reversible stochastic reaction network",
+    "area": "Stochastic chemical kinetics",
+    "file": "problems/273-reaction-network-positive-recurrence.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "274",
-    "title": "A diameter bound for diffusion to uniform equilibrium",
-    "area": "Diffusion on symmetric networks",
-    "file": "problems/274-transitive-mixing-diameter.md",
+    "title": "No asymptotic extinction in bounded weakly reversible mass-action kinetics",
+    "area": "Deterministic chemical reaction networks",
+    "file": "problems/274-reaction-network-persistence.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "275",
-    "title": "Positive recurrence of every weakly reversible stochastic reaction network",
-    "area": "Stochastic chemical kinetics",
-    "file": "problems/275-reaction-network-positive-recurrence.md",
+    "title": "Gaussian fluctuations of the optimal Euclidean traveling-salesman tour",
+    "area": "Spatial logistics and random optimization",
+    "file": "problems/275-euclidean-tsp-clt.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "276",
-    "title": "No asymptotic extinction in bounded weakly reversible mass-action kinetics",
-    "area": "Deterministic chemical reaction networks",
-    "file": "problems/276-reaction-network-persistence.md",
+    "title": "The four-thirds integrality gap for metric routing",
+    "area": "Operations research and routing",
+    "file": "problems/276-metric-tsp-four-thirds.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "277",
-    "title": "Gaussian fluctuations of the optimal Euclidean traveling-salesman tour",
-    "area": "Spatial logistics and random optimization",
-    "file": "problems/277-euclidean-tsp-clt.md",
+    "title": "The sharp savings from junctions in planar connection networks",
+    "area": "Geometric network design",
+    "file": "problems/277-planar-steiner-ratio.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "278",
-    "title": "The four-thirds integrality gap for metric routing",
-    "area": "Operations research and routing",
-    "file": "problems/278-metric-tsp-four-thirds.md",
+    "title": "The exact asymptotic match fraction for independent binary sequences",
+    "area": "Sequence comparison and computational biology",
+    "file": "problems/278-binary-lcs-constant.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "279",
-    "title": "The sharp savings from junctions in planar connection networks",
-    "area": "Geometric network design",
-    "file": "problems/279-planar-steiner-ratio.md",
+    "title": "Beat factor two for scheduling on unrelated machines",
+    "area": "Scheduling and production planning",
+    "file": "problems/279-unrelated-machine-makespan.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "280",
-    "title": "The exact asymptotic match fraction for independent binary sequences",
-    "area": "Sequence comparison and computational biology",
-    "file": "problems/280-binary-lcs-constant.md",
+    "title": "A constant approximation for general max-min fair allocation",
+    "area": "Fair allocation of indivisible resources",
+    "file": "problems/280-general-santa-claus.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "281",
-    "title": "Beat factor two for scheduling on unrelated machines",
-    "area": "Scheduling and production planning",
-    "file": "problems/281-unrelated-machine-makespan.md",
+    "title": "Localization of light rays in the planar random mirror model",
+    "area": "Transport in random optical media",
+    "file": "problems/281-planar-lorentz-mirrors.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "282",
-    "title": "A constant approximation for general max-min fair allocation",
-    "area": "Fair allocation of indivisible resources",
-    "file": "problems/282-general-santa-claus.md",
+    "title": "Existence of a planar sandpile avalanche-size exponent",
+    "area": "Avalanches and self-organized criticality",
+    "file": "problems/282-planar-sandpile-size-exponent.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "283",
-    "title": "Localization of light rays in the planar random mirror model",
-    "area": "Transport in random optical media",
-    "file": "problems/283-planar-lorentz-mirrors.md",
+    "title": "Spatial coexistence despite extinction in the mean-field game",
+    "area": "Spatial ecology and evolutionary games",
+    "file": "problems/283-spatial-hawk-dove-coexistence.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "284",
-    "title": "Existence of a planar sandpile avalanche-size exponent",
-    "area": "Avalanches and self-organized criticality",
-    "file": "problems/284-planar-sandpile-size-exponent.md",
+    "title": "Consensus in the one-dimensional Axelrod model above the feature threshold",
+    "area": "Cultural transmission and interacting populations",
+    "file": "problems/284-axelrod-multifeature-clustering.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "285",
-    "title": "Spatial coexistence despite extinction in the mean-field game",
-    "area": "Spatial ecology and evolutionary games",
-    "file": "problems/285-spatial-hawk-dove-coexistence.md",
+    "title": "A periodic high-density limit for bounded-confidence opinion clusters",
+    "area": "Opinion dynamics and distributed agreement",
+    "file": "problems/285-hegselmann-krause-cluster-lattice.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "286",
-    "title": "Consensus in the one-dimensional Axelrod model above the feature threshold",
-    "area": "Cultural transmission and interacting populations",
-    "file": "problems/286-axelrod-multifeature-clustering.md",
+    "title": "Does local stability imply global attraction for Nicholson’s blowflies equation?",
+    "area": "Population dynamics with maturation delay",
+    "file": "problems/286-nicholson-local-global-stability.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "287",
-    "title": "A periodic high-density limit for bounded-confidence opinion clusters",
-    "area": "Opinion dynamics and distributed agreement",
-    "file": "problems/287-hegselmann-krause-cluster-lattice.md",
+    "title": "Is the variance of fair binary sequence alignment linear?",
+    "area": "Uncertainty in sequence similarity",
+    "file": "problems/287-binary-lcs-linear-variance.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "288",
-    "title": "Does local stability imply global attraction for Nicholson’s blowflies equation?",
-    "area": "Population dynamics with maturation delay",
-    "file": "problems/288-nicholson-local-global-stability.md",
+    "title": "Tracy–Widom fluctuations for a Gaussian lattice polymer at fixed temperature",
+    "area": "Random media and fluctuating interfaces",
+    "file": "problems/288-gaussian-polymer-tracy-widom.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "289",
-    "title": "Is the variance of fair binary sequence alignment linear?",
-    "area": "Uncertainty in sequence similarity",
-    "file": "problems/289-binary-lcs-linear-variance.md",
+    "title": "Polynomial equilibration at the four-state planar Potts critical point",
+    "area": "Critical dynamics and statistical simulation",
+    "file": "problems/289-critical-four-state-potts-mixing.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
     "id": "290",
-    "title": "Tracy–Widom fluctuations for a Gaussian lattice polymer at fixed temperature",
-    "area": "Random media and fluctuating interfaces",
-    "file": "problems/290-gaussian-polymer-tracy-widom.md",
-    "status": "Open",
-    "last_checked": "2026-09-13"
-  },
-  {
-    "id": "291",
-    "title": "Polynomial equilibration at the four-state planar Potts critical point",
-    "area": "Critical dynamics and statistical simulation",
-    "file": "problems/291-critical-four-state-potts-mixing.md",
-    "status": "Open",
-    "last_checked": "2026-09-13"
-  },
-  {
-    "id": "292",
     "title": "Does every strict initial majority win zero-temperature Ising dynamics?",
     "area": "Coarsening and phase selection",
-    "file": "problems/292-majority-ising-fixation.md",
+    "file": "problems/290-majority-ising-fixation.md",
     "status": "Open",
     "last_checked": "2026-09-13"
   },
   {
-    "id": "297",
+    "id": "295",
     "title": "Balanced Gaussian simplex noise stability for four or more classes",
     "area": "Gaussian geometry and noise robustness",
-    "file": "problems/297-gaussian-simplex.md",
+    "file": "problems/295-gaussian-simplex.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "304",
+    "id": "302",
     "title": "Exact complexity of unit-job precedence scheduling on three processors",
     "area": "Scheduling and operations research",
-    "file": "problems/304-three-processor-unit-scheduling.md",
+    "file": "problems/302-three-processor-unit-scheduling.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "315",
+    "id": "313",
     "title": "The factor-two integrality gap for asymmetric metric routing",
     "area": "Operations research and directed routing",
-    "file": "problems/315-asymmetric-tsp-integrality-gap.md",
+    "file": "problems/313-asymmetric-tsp-integrality-gap.md",
     "status": "Open",
+    "last_checked": "2026-09-17"
+  },
+  {
+    "id": "314",
+    "title": "Complete EFX allocation of indivisible goods with additive values",
+    "area": "Fair division and resource allocation",
+    "file": "problems/314-efx-additive-goods.md",
+    "status": "Partially resolved",
     "last_checked": "2026-09-17"
   },
   {
     "id": "316",
-    "title": "Complete EFX allocation of indivisible goods with additive values",
-    "area": "Fair division and resource allocation",
-    "file": "problems/316-efx-additive-goods.md",
-    "status": "Partially resolved",
-    "last_checked": "2026-09-17"
-  },
-  {
-    "id": "318",
     "title": "Optimal asymptotic competitiveness for online bin packing",
     "area": "Online optimization and resource allocation",
-    "file": "problems/318-online-bin-packing-optimal-ratio.md",
+    "file": "problems/316-online-bin-packing-optimal-ratio.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "323",
+    "id": "321",
     "title": "Optimal symmetric rendezvous among discrete locations",
     "area": "Decentralized coordination and search theory",
-    "file": "problems/323-symmetric-rendezvous-discrete-locations.md",
+    "file": "problems/321-symmetric-rendezvous-discrete-locations.md",
     "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
-    "id": "326",
+    "id": "324",
     "title": "Strong thin-tree conjecture",
     "area": "Network design and combinatorial optimization",
-    "file": "problems/326-strong-thin-tree.md",
+    "file": "problems/324-strong-thin-tree.md",
     "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
-    "id": "333",
+    "id": "331",
     "title": "The sharp matroid secretary conjecture",
     "area": "Online selection and resource allocation",
-    "file": "problems/333-sharp-matroid-secretary.md",
+    "file": "problems/331-sharp-matroid-secretary.md",
     "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
-    "id": "336",
+    "id": "334",
     "title": "List edge-colouring with no extra colours",
     "area": "Scheduling, resource allocation and graph colouring",
-    "file": "problems/336-list-edge-colouring.md",
+    "file": "problems/334-list-edge-colouring.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-18"
   },
   {
-    "id": "337",
+    "id": "335",
     "title": "Competitive exclusion in a chemostat with unequal removal rates",
     "area": "Mathematical biology and microbial competition",
-    "file": "problems/337-chemostat-unequal-removal-exclusion.md",
+    "file": "problems/335-chemostat-unequal-removal-exclusion.md",
+    "status": "Open",
+    "last_checked": "2026-09-18"
+  },
+  {
+    "id": "340",
+    "title": "Polynomial-factor hardness of scheduling unit jobs on prescribed machines",
+    "area": "Scheduling and approximation complexity",
+    "file": "problems/340-unit-job-unique-machine-hardness.md",
     "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
     "id": "342",
-    "title": "Polynomial-factor hardness of scheduling unit jobs on prescribed machines",
-    "area": "Scheduling and approximation complexity",
-    "file": "problems/342-unit-job-unique-machine-hardness.md",
-    "status": "Open",
-    "last_checked": "2026-09-18"
-  },
-  {
-    "id": "344",
     "title": "The modified integer round-up conjecture for cutting stock",
     "area": "Stochastic dynamics, reaction networks and applied optimization",
-    "file": "problems/344-modified-integer-round-up.md",
+    "file": "problems/342-modified-integer-round-up.md",
     "status": "Open",
     "last_checked": "2026-09-19"
   },
   {
-    "id": "459",
+    "id": "454",
     "title": "Bourgain–Spencer accuracy for random elliptic media at finite contrast",
     "area": "Stochastic homogenization; diffusion in heterogeneous media",
-    "file": "problems/459-bourgain-spencer-nonperturbative-homogenization.md",
+    "file": "problems/454-bourgain-spencer-nonperturbative-homogenization.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "460",
+    "id": "455",
     "title": "Hölder continuity for parabolic SPDEs with merely bounded transport noise",
     "area": "Stochastic parabolic PDEs; passive scalar transport",
-    "file": "problems/460-rough-transport-spde-holder.md",
+    "file": "problems/455-rough-transport-spde-holder.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "461",
+    "id": "456",
     "title": "A deterministic Hölder exponent for smooth-transport parabolic SPDEs",
     "area": "Stochastic parabolic PDEs; quantitative regularity",
-    "file": "problems/461-smooth-transport-spde-deterministic-holder-exponent.md",
+    "file": "problems/456-smooth-transport-spde-deterministic-holder-exponent.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "462",
+    "id": "457",
     "title": "Global quadratic reaction–diffusion systems with general transport noise",
     "area": "Stochastic PDEs; chemical and population kinetics",
-    "file": "problems/462-quadratic-mass-controlled-rd-transport-noise.md",
+    "file": "problems/457-quadratic-mass-controlled-rd-transport-noise.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "463",
+    "id": "458",
     "title": "Transport-noise Navier–Stokes at critical smoothness minus one half",
     "area": "Stochastic fluid PDEs; rough initial velocity",
-    "file": "problems/463-stochastic-navier-stokes-negative-half-critical-data.md",
+    "file": "problems/458-stochastic-navier-stokes-negative-half-critical-data.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "464",
+    "id": "459",
     "title": "Local no-slip Navier–Stokes theory under non-small transport noise",
     "area": "Stochastic fluid PDEs; solid boundaries",
-    "file": "problems/464-stochastic-navier-stokes-no-slip-local.md",
+    "file": "problems/459-stochastic-navier-stokes-no-slip-local.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "484",
+    "id": "478",
     "title": "A bounded critical norm continuation criterion for stochastic Navier–Stokes",
     "area": "Stochastic fluid PDEs; regularity criteria",
-    "file": "problems/484-stochastic-navier-stokes-bounded-critical-norm.md",
+    "file": "problems/478-stochastic-navier-stokes-bounded-critical-norm.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "485",
+    "id": "479",
     "title": "Global regularity for critical SQG with state-dependent noise",
     "area": "Stochastic PDEs; geophysical fluid dynamics",
-    "file": "problems/485-critical-stochastic-sqg-global-regularity.md",
+    "file": "problems/479-critical-stochastic-sqg-global-regularity.md",
     "status": "Open",
     "last_checked": "2026-09-22"
   },
   {
-    "id": "495",
+    "id": "488",
     "title": "The GNRS conjecture for minor-free network flow",
     "area": "Network routing, metric geometry and combinatorial optimization",
-    "file": "problems/495-gnrs-minor-free-flow-cut.md",
+    "file": "problems/488-gnrs-minor-free-flow-cut.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-23"
   },
   {
-    "id": "500",
+    "id": "493",
     "title": "Constant-gap NP-hardness of densest k-subgraph",
     "area": "Network optimization and approximation complexity",
-    "file": "problems/500-densest-k-subgraph-constant-gap-hardness.md",
+    "file": "problems/493-densest-k-subgraph-constant-gap-hardness.md",
     "status": "Open",
     "last_checked": "2026-09-23"
   }

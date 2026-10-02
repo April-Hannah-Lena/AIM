@@ -4,7 +4,7 @@
 
 ## 1. Bounded-Hessian Liouville rigidity in dimensions three and four
 
-Admitted page: [fully-nonlinear-bounded-hessian-liouville](../../../problems/458-fully-nonlinear-bounded-hessian-liouville.md)
+Admitted page: [fully-nonlinear-bounded-hessian-liouville](../../../problems/453-fully-nonlinear-bounded-hessian-liouville.md)
 
 1. C. Mooney, *Bernstein theorems for nonlinear geometric PDEs* (2024), §2, equation (4) and the discussion following it. [Author manuscript](https://arxiv.org/abs/2407.11903).
 2. D. Li and L. Liang, *A new proof for the Liouville theorem of fully nonlinear elliptic equations*, Discrete Contin. Dyn. Syst. B **30** (2025), 4643–4650, Theorem 1.1. [Article](https://doi.org/10.3934/dcdsb.2025071); [preprint](https://arxiv.org/abs/2501.19075).
@@ -14,7 +14,7 @@ Mooney explicitly identifies dimensions three and four as open, with dimension t
 
 ## 2. Bourgain–Spencer accuracy for random elliptic media at finite contrast
 
-Admitted page: [bourgain-spencer-nonperturbative-homogenization](../../../problems/459-bourgain-spencer-nonperturbative-homogenization.md)
+Admitted page: [bourgain-spencer-nonperturbative-homogenization](../../../problems/454-bourgain-spencer-nonperturbative-homogenization.md)
 
 1. M. Duerinckx, *Non-perturbative approach to the Bourgain–Spencer conjecture in stochastic homogenization*, J. Math. Pures Appl. **176** (2023), 183–225, Conjecture 1 and Definition 3.3. [Article](https://doi.org/10.1016/j.matpur.2023.06.005); [author manuscript](https://arxiv.org/abs/2102.06319).
 2. M. Duerinckx, M. Lemm and F. Pagano, *On Bourgain's approach to stochastic homogenization*, Arch. Ration. Mech. Anal. **249**, 81 (2025), §2.3 and Remark 2.3. [Author manuscript](https://arxiv.org/abs/2406.09909).
@@ -23,7 +23,7 @@ The statement specializes Conjecture 1 to smooth finite-range Gaussian-generated
 
 ## 3. Hölder continuity for parabolic SPDEs with merely bounded transport noise
 
-Admitted page: [rough-transport-spde-holder](../../../problems/460-rough-transport-spde-holder.md)
+Admitted page: [rough-transport-spde-holder](../../../problems/455-rough-transport-spde-holder.md)
 
 1. A. Agresti, M. Sauerbrey and M. Veraar, *A stochastic flow approach to De Giorgi–Nash–Moser estimates for SPDEs with smooth transport noise* (2025 preprint, manuscript dated August 2026), Theorem 1.1, §1.2 and §4. [Full manuscript](https://arxiv.org/html/2511.12692v1).
 
@@ -31,7 +31,7 @@ The first open question in §1.2 asks to remove the spatial regularity of the tr
 
 ## 4. A deterministic Hölder exponent for smooth-transport parabolic SPDEs
 
-Admitted page: [smooth-transport-spde-deterministic-holder-exponent](../../../problems/461-smooth-transport-spde-deterministic-holder-exponent.md)
+Admitted page: [smooth-transport-spde-deterministic-holder-exponent](../../../problems/456-smooth-transport-spde-deterministic-holder-exponent.md)
 
 1. A. Agresti, M. Sauerbrey and M. Veraar, *A stochastic flow approach to De Giorgi–Nash–Moser estimates for SPDEs with smooth transport noise* (2025 preprint, manuscript dated August 2026), Theorem 1.1, §1.2 and §4. [Full manuscript](https://arxiv.org/html/2511.12692v1).
 
@@ -39,7 +39,7 @@ This is the second open question of §1.2. Theorem 1.1 gives positive sample-dep
 
 ## 5. Global quadratic reaction–diffusion systems with general transport noise
 
-Admitted page: [quadratic-mass-controlled-rd-transport-noise](../../../problems/462-quadratic-mass-controlled-rd-transport-noise.md)
+Admitted page: [quadratic-mass-controlled-rd-transport-noise](../../../problems/457-quadratic-mass-controlled-rd-transport-noise.md)
 
 1. A. Agresti and M. Veraar, *Nonlinear SPDEs and maximal regularity: an extended survey*, NoDEA **32**, 123 (2025), Open Problem 8 and §8.2. [Article](https://doi.org/10.1007/s00030-025-01090-2).
 2. A. Agresti and M. Veraar, *Reaction-Diffusion Equations with Transport Noise and Critical Superlinear Diffusion: Global Well-Posedness of Weakly Dissipative Systems*, SIAM J. Math. Anal. (2024). [Article](https://doi.org/10.1137/23M1562482).
@@ -50,7 +50,7 @@ The survey explicitly poses this quadratic mass-control extension. Searches on 2
 
 ## 6. Transport-noise Navier–Stokes at critical smoothness minus one half
 
-Admitted page: [stochastic-navier-stokes-negative-half-critical-data](../../../problems/463-stochastic-navier-stokes-negative-half-critical-data.md)
+Admitted page: [stochastic-navier-stokes-negative-half-critical-data](../../../problems/458-stochastic-navier-stokes-negative-half-critical-data.md)
 
 1. A. Agresti and M. Veraar, *Nonlinear SPDEs and maximal regularity: an extended survey*, NoDEA **32**, 123 (2025), Open Problem 10 and Theorem 8.26. [Article](https://doi.org/10.1007/s00030-025-01090-2).
 2. A. Agresti, *On the absence of blow-up in the 3D Navier–Stokes equations with transport noise* (2026 preprint), local theory and noise-selection hypotheses. [Preprint](https://arxiv.org/abs/2607.15140).
@@ -59,7 +59,7 @@ This fixes an endpoint case of Open Problem 10, rather than asking vaguely for t
 
 ## 7. Local no-slip Navier–Stokes theory under non-small transport noise
 
-Admitted page: [stochastic-navier-stokes-no-slip-local](../../../problems/464-stochastic-navier-stokes-no-slip-local.md)
+Admitted page: [stochastic-navier-stokes-no-slip-local](../../../problems/459-stochastic-navier-stokes-no-slip-local.md)
 
 1. A. Agresti and M. Veraar, *Nonlinear SPDEs and maximal regularity: an extended survey*, NoDEA **32**, 123 (2025), Open Problem 9. [Article](https://doi.org/10.1007/s00030-025-01090-2).
 2. D. Goodair, *Navier-Stokes Equations with Navier Boundary Conditions and Stochastic Lie Transport: Well-Posedness and Inviscid Limit*, discussion of the no-slip obstruction. [Author manuscript](https://arxiv.org/abs/2308.04290).
@@ -69,7 +69,7 @@ Open Problem 9 requests a non-small-noise local theory for no-slip domains; the 
 
 ## 8. Higher regularity for concave stable nonlocal equations
 
-Admitted page: [concave-nonlocal-higher-regularity](../../../problems/465-concave-nonlocal-higher-regularity.md)
+Admitted page: [concave-nonlocal-higher-regularity](../../../problems/460-concave-nonlocal-higher-regularity.md)
 
 1. X. Fernández-Real and X. Ros-Oton, *Integro-Differential Elliptic Equations*, Progress in Mathematics **350**, Birkhäuser (2024). [Book](https://doi.org/10.1007/978-3-031-54242-8); [author manuscript](https://arxiv.org/abs/2411.12455).
 
@@ -79,7 +79,7 @@ Open Question 3.1 in the book asks whether smooth kernels give $`C^{1+s+\alpha}`
 
 ## 9. Uniqueness of positive harmonic profiles for singular stable operators in cones
 
-Admitted page: [singular-stable-cone-positive-solution-uniqueness](../../../problems/466-singular-stable-cone-positive-solution-uniqueness.md)
+Admitted page: [singular-stable-cone-positive-solution-uniqueness](../../../problems/461-singular-stable-cone-positive-solution-uniqueness.md)
 
 1. X. Fernández-Real and X. Ros-Oton, *Integro-Differential Elliptic Equations*, Progress in Mathematics **350**, Birkhäuser (2024). [Book](https://doi.org/10.1007/978-3-031-54242-8); [author manuscript](https://arxiv.org/abs/2411.12455).
 
@@ -89,7 +89,7 @@ This is the integrable-growth version of Open Question 4.4. The published 2026 p
 
 ## 10. Comparison for viscosity solutions of infinity-fractional diffusion
 
-Admitted page: [infinity-fractional-evolution-comparison](../../../problems/467-infinity-fractional-evolution-comparison.md)
+Admitted page: [infinity-fractional-evolution-comparison](../../../problems/462-infinity-fractional-evolution-comparison.md)
 
 1. F. del Teso, J. Endal, E. R. Jakobsen and J. L. Vázquez, *Evolution driven by the infinity fractional Laplacian*, Calc. Var. PDE **62**, 136 (2023), viscosity definition, Theorem 2.6 and §§7, 9. [Article](https://doi.org/10.1007/s00526-023-02475-w); [preprint](https://arxiv.org/abs/2210.06414).
 
@@ -97,7 +97,7 @@ The paper constructs viscosity solutions but leaves their general uniqueness/com
 
 ## 11. A finite-integrability ABP estimate for general nonlocal Pucci operators
 
-Admitted page: [nonlocal-pucci-finite-integrability-abp](../../../problems/468-nonlocal-pucci-finite-integrability-abp.md)
+Admitted page: [nonlocal-pucci-finite-integrability-abp](../../../problems/463-nonlocal-pucci-finite-integrability-abp.md)
 
 1. X. Fernández-Real and X. Ros-Oton, *Integro-Differential Elliptic Equations*, Progress in Mathematics **350**, Birkhäuser (2024). [Book](https://doi.org/10.1007/978-3-031-54242-8); [author manuscript](https://arxiv.org/abs/2411.12455).
 
@@ -108,7 +108,7 @@ This is Open Question 3.3 in §3.6.2 of the book, with the extremal operator exp
 
 ## 12. Calderón–Zygmund estimates for general concave nonlocal equations
 
-Admitted page: [concave-nonlocal-calderon-zygmund](../../../problems/469-concave-nonlocal-calderon-zygmund.md)
+Admitted page: [concave-nonlocal-calderon-zygmund](../../../problems/464-concave-nonlocal-calderon-zygmund.md)
 
 1. X. Fernández-Real and X. Ros-Oton, *Integro-Differential Elliptic Equations*, Progress in Mathematics **350**, Birkhäuser (2024). [Book](https://doi.org/10.1007/978-3-031-54242-8); [author manuscript](https://arxiv.org/abs/2411.12455).
 
@@ -118,7 +118,7 @@ Open Question 3.2 in §3.6.2 asks for this nonlocal $`W^{2s,p}`$ theory at suffi
 
 ## 13. Hölder regularity under directional nonlocal ellipticity alone
 
-Admitted page: [rough-jump-kernel-holder-regularity](../../../problems/470-rough-jump-kernel-holder-regularity.md)
+Admitted page: [rough-jump-kernel-holder-regularity](../../../problems/465-rough-jump-kernel-holder-regularity.md)
 
 1. X. Fernández-Real and X. Ros-Oton, *Integro-Differential Elliptic Equations*, Progress in Mathematics **350**, Birkhäuser (2024). [Book](https://doi.org/10.1007/978-3-031-54242-8); [author manuscript](https://arxiv.org/abs/2411.12455).
 
@@ -128,7 +128,7 @@ The statement is Open Question 3.4, with equations (3.6.3)–(3.6.5), in §3.6.4
 
 ## 14. Does directional ellipticity force a fractional energy bound?
 
-Admitted page: [nonlocal-directional-ellipticity-coercivity](../../../problems/471-nonlocal-directional-ellipticity-coercivity.md)
+Admitted page: [nonlocal-directional-ellipticity-coercivity](../../resolved/658-nonlocal-directional-ellipticity-coercivity.md)
 
 1. X. Fernández-Real and X. Ros-Oton, *Integro-Differential Elliptic Equations*, Progress in Mathematics **350**, Birkhäuser (2024). [Book](https://doi.org/10.1007/978-3-031-54242-8); [author manuscript](https://arxiv.org/abs/2411.12455).
 
@@ -138,7 +138,7 @@ The book poses this precise coercivity question immediately after Open Question 
 
 ## 15. Optimal nonlocal obstacle regularity with a minimally smooth obstacle
 
-Admitted page: [nonlocal-obstacle-minimal-smoothness](../../../problems/472-nonlocal-obstacle-minimal-smoothness.md)
+Admitted page: [nonlocal-obstacle-minimal-smoothness](../../../problems/466-nonlocal-obstacle-minimal-smoothness.md)
 
 1. X. Fernández-Real and X. Ros-Oton, *Integro-Differential Elliptic Equations*, Progress in Mathematics **350**, Birkhäuser (2024). [Book](https://doi.org/10.1007/978-3-031-54242-8); [author manuscript](https://arxiv.org/abs/2411.12455).
 
@@ -148,7 +148,7 @@ This is Open Question 4.1 in §4.6.1. The cited theorem proves the estimate with
 
 ## 16. Multidimensional weak uniqueness for porous-medium flow with fractional pressure
 
-Admitted page: [fractional-pressure-pme-multidimensional-uniqueness](../../../problems/473-fractional-pressure-pme-multidimensional-uniqueness.md)
+Admitted page: [fractional-pressure-pme-multidimensional-uniqueness](../../../problems/467-fractional-pressure-pme-multidimensional-uniqueness.md)
 
 1. D. Stan, F. del Teso and J. L. Vázquez, *Porous medium equation with nonlocal pressure* (2018), Definition 2.1, Theorems 5.1–5.5, Remark 7 and §7. [Author preprint](https://arxiv.org/abs/1801.04244).
 2. D. Stan, F. del Teso and J. L. Vázquez, *Existence of weak solutions for a general porous medium equation with nonlocal pressure*, Arch. Ration. Mech. Anal. (2019), existence and energy estimates. [Author preprint](https://arxiv.org/abs/1609.05139).
@@ -160,7 +160,7 @@ The survey explicitly distinguishes multidimensional weak uniqueness from the on
 
 ## 17. Continuity for degenerate fractional-pressure porous-medium flow
 
-Admitted page: [fractional-pressure-superquadratic-continuity](../../../problems/474-fractional-pressure-superquadratic-continuity.md)
+Admitted page: [fractional-pressure-superquadratic-continuity](../../../problems/468-fractional-pressure-superquadratic-continuity.md)
 
 1. D. Stan, F. del Teso and J. L. Vázquez, *Porous medium equation with nonlocal pressure* (2018), Definition 2.1, Theorems 5.1–5.5, Remark 7 and §7. [Author preprint](https://arxiv.org/abs/1801.04244).
 2. D. Stan, F. del Teso and J. L. Vázquez, *Existence of weak solutions for a general porous medium equation with nonlocal pressure*, Arch. Ration. Mech. Anal. (2019), existence and energy estimates. [Author preprint](https://arxiv.org/abs/1609.05139).
@@ -170,7 +170,7 @@ Section 7 of the survey identifies continuity of weak solutions beyond $`m=2`$ a
 
 ## 18. Instantaneous spreading for fractional-pressure flow in several dimensions
 
-Admitted page: [fractional-pressure-multidimensional-instantaneous-spread](../../../problems/475-fractional-pressure-multidimensional-instantaneous-spread.md)
+Admitted page: [fractional-pressure-multidimensional-instantaneous-spread](../../../problems/469-fractional-pressure-multidimensional-instantaneous-spread.md)
 
 1. D. Stan, F. del Teso and J. L. Vázquez, *Porous medium equation with nonlocal pressure* (2018), Definition 2.1, Theorems 5.1–5.5, Remark 7 and §7. [Author preprint](https://arxiv.org/abs/1801.04244).
 2. D. Stan, F. del Teso and J. L. Vázquez, *Existence of weak solutions for a general porous medium equation with nonlocal pressure*, Arch. Ration. Mech. Anal. (2019), existence and energy estimates. [Author preprint](https://arxiv.org/abs/1609.05139).
@@ -180,7 +180,7 @@ Remark 7 of the survey explicitly leaves the multidimensional extension of infin
 
 ## 19. The local limit of superlinear multispecies nonlocal diffusion
 
-Admitted page: [superlinear-skt-nonlocal-to-local-limit](../../../problems/476-superlinear-skt-nonlocal-to-local-limit.md)
+Admitted page: [superlinear-skt-nonlocal-to-local-limit](../../../problems/470-superlinear-skt-nonlocal-to-local-limit.md)
 
 1. P. Hirvonen, A. Jüngel and A. Pollino, *Superlinear nonlocal diffusion systems for multispecies populations: well-posedness and discrete chain rules* (September 2026 preprint), §1.1, assumptions (A1)–(A5a), and Theorem 1. [Full preprint](https://arxiv.org/html/2609.09921v1).
 2. G. Galiano and J. Velasco, *Convergence of solutions of a rescaled evolution nonlocal cross-diffusion problem to its local diffusion counterpart*, Rev. R. Acad. Cienc. Exactas Fís. Nat. Ser. A Math. **116**, 93 (2022), the two-species $`s=1`$ result. [Article](https://doi.org/10.1007/s13398-022-01231-7).
@@ -189,7 +189,7 @@ The September 2026 source explicitly calls extension of the localization argumen
 
 ## 20. Instantaneous strict separation for three-dimensional local Cahn–Hilliard
 
-Admitted page: [local-cahn-hilliard-three-dimensional-separation](../../../problems/477-local-cahn-hilliard-three-dimensional-separation.md)
+Admitted page: [local-cahn-hilliard-three-dimensional-separation](../../../problems/471-local-cahn-hilliard-three-dimensional-separation.md)
 
 1. C. G. Gal and A. Poiatti, *Unified framework for the separation property in binary phase-segregation processes with singular entropy densities*, European J. Appl. Math. **36** (2025), 40–67, §§6.1.1–6.3. [Article](https://doi.org/10.1017/S0956792524000196).
 2. C. Hurm, P. Knopf and A. Poiatti, *Nonlocal-to-local convergence rates for strong solutions to a Navier–Stokes–Cahn–Hilliard system with singular potential*, Comm. Partial Differential Equations **49** (2024), 832–871, Introduction's discussion of the missing uniform separation bound. [Article](https://doi.org/10.1080/03605302.2024.2401445).
@@ -199,7 +199,7 @@ The first two sources distinguish this open local three-dimensional problem from
 
 ## 21. Flatness of three-dimensional fractional minimizing cones for every interaction order
 
-Admitted page: [fractional-minimizing-cones-three-dimensional](../../../problems/478-fractional-minimizing-cones-three-dimensional.md)
+Admitted page: [fractional-minimizing-cones-three-dimensional](../../../problems/472-fractional-minimizing-cones-three-dimensional.md)
 
 1. L. Caffarelli, J.-M. Roquejoffre and O. Savin, *Nonlocal minimal surfaces*, Comm. Pure Appl. Math. **63** (2010), 1111–1144, minimizing cones and dimension reduction. [Article](https://doi.org/10.1002/cpa.20331).
 2. X. Cabré, E. Cinti and J. Serra, *Stable $`s`$-minimal cones in $`\mathbb R^3`$ are flat for $`s\sim1`$*, J. Reine Angew. Math. (2020). [Preprint](https://arxiv.org/abs/1710.08722).
@@ -209,7 +209,7 @@ The August 2026 theorem was included in the check: it proves flatness only for s
 
 ## 22. Uniqueness of all weak dual solutions of fractional porous-medium flow
 
-Admitted page: [manifold-fractional-pme-weak-dual-uniqueness](../../../problems/479-manifold-fractional-pme-weak-dual-uniqueness.md)
+Admitted page: [manifold-fractional-pme-weak-dual-uniqueness](../../../problems/473-manifold-fractional-pme-weak-dual-uniqueness.md)
 
 1. E. Berchio, M. Bonforte, G. Grillo and M. Muratori, *The fractional porous medium equation on noncompact Riemannian manifolds*, Math. Ann. **389** (2024), 3603–3651, Assumption 2.1, Definition 2.1 and §7. [Article](https://doi.org/10.1007/s00208-023-02731-6); [accepted manuscript](https://iris.polito.it/retrieve/handle/11583/2984889/691780).
 2. G. Grillo, *The Fractional Porous Medium Equation on noncompact Riemannian manifolds*, Oberwolfach Reports 14/2025, contribution on weak dual solutions and unresolved uniqueness/fundamental solutions. [Workshop report](https://ems.press/content/serial-article-files/51358?nt=1).
@@ -218,7 +218,7 @@ The 2024 paper proves uniqueness only within its monotone approximation construc
 
 ## 23. Mass conservation for fractional porous-medium flow on noncompact manifolds
 
-Admitted page: [manifold-fractional-pme-mass-conservation](../../../problems/480-manifold-fractional-pme-mass-conservation.md)
+Admitted page: [manifold-fractional-pme-mass-conservation](../../../problems/474-manifold-fractional-pme-mass-conservation.md)
 
 1. E. Berchio, M. Bonforte, G. Grillo and M. Muratori, *The fractional porous medium equation on noncompact Riemannian manifolds*, Math. Ann. **389** (2024), 3603–3651, Assumption 2.1, Definition 2.1 and §7. [Article](https://doi.org/10.1007/s00208-023-02731-6); [accepted manuscript](https://iris.polito.it/retrieve/handle/11583/2984889/691780).
 2. G. Grillo, *The Fractional Porous Medium Equation on noncompact Riemannian manifolds*, Oberwolfach Reports 14/2025, contribution on weak dual solutions and unresolved uniqueness/fundamental solutions. [Workshop report](https://ems.press/content/serial-article-files/51358?nt=1).
@@ -227,7 +227,7 @@ Mass conservation under these geometric assumptions is explicitly listed in §7 
 
 ## 24. Point-source solutions of fractional porous-medium diffusion on manifolds
 
-Admitted page: [manifold-fractional-pme-point-source](../../../problems/481-manifold-fractional-pme-point-source.md)
+Admitted page: [manifold-fractional-pme-point-source](../../../problems/475-manifold-fractional-pme-point-source.md)
 
 1. E. Berchio, M. Bonforte, G. Grillo and M. Muratori, *The fractional porous medium equation on noncompact Riemannian manifolds*, Math. Ann. **389** (2024), 3603–3651, Assumption 2.1, Definition 2.1 and §7. [Article](https://doi.org/10.1007/s00208-023-02731-6); [accepted manuscript](https://iris.polito.it/retrieve/handle/11583/2984889/691780).
 2. G. Grillo, *The Fractional Porous Medium Equation on noncompact Riemannian manifolds*, Oberwolfach Reports 14/2025, contribution on weak dual solutions and unresolved uniqueness/fundamental solutions. [Workshop report](https://ems.press/content/serial-article-files/51358?nt=1).
@@ -236,7 +236,7 @@ Both §7 of the 2024 paper and the 2025 Oberwolfach report explicitly leave exis
 
 ## 25. Uniqueness for a point source in time-fractional porous-medium flow
 
-Admitted page: [time-fractional-pme-dirac-uniqueness](../../../problems/482-time-fractional-pme-dirac-uniqueness.md)
+Admitted page: [time-fractional-pme-dirac-uniqueness](../../../problems/476-time-fractional-pme-dirac-uniqueness.md)
 
 1. D. Gómez-Castro, Ł. Płociniczak and J. L. Vázquez, *Self-similar solutions to the time-fractional Porous-Medium Equation* (2026 preprint), §1 and §8, “Uniqueness of weak solutions with Dirac initial data” and “Asymptotic behavior for general initial data.” [Full preprint](https://arxiv.org/html/2604.09281v1).
 2. J. Caballero, H. Okrasińska-Płociniczak, Ł. Płociniczak and K. Sadarangani, *Barenblatt solutions for the time-fractional porous medium equation: approach via integral equations*, Fract. Calc. Appl. Anal. (2026), construction of the self-similar profiles. [Article](https://doi.org/10.1007/s13540-026-00514-9).
@@ -246,7 +246,7 @@ The April 2026 preprint constructs and characterizes self-similar solutions but 
 
 ## 26. Barenblatt attraction for porous-medium diffusion with time memory
 
-Admitted page: [time-fractional-pme-barenblatt-attraction](../../../problems/483-time-fractional-pme-barenblatt-attraction.md)
+Admitted page: [time-fractional-pme-barenblatt-attraction](../../../problems/477-time-fractional-pme-barenblatt-attraction.md)
 
 1. D. Gómez-Castro, Ł. Płociniczak and J. L. Vázquez, *Self-similar solutions to the time-fractional Porous-Medium Equation* (2026 preprint), §1 and §8, “Uniqueness of weak solutions with Dirac initial data” and “Asymptotic behavior for general initial data.” [Full preprint](https://arxiv.org/html/2604.09281v1).
 2. J. Caballero, H. Okrasińska-Płociniczak, Ł. Płociniczak and K. Sadarangani, *Barenblatt solutions for the time-fractional porous medium equation: approach via integral equations*, Fract. Calc. Appl. Anal. (2026), construction of the self-similar profiles. [Article](https://doi.org/10.1007/s13540-026-00514-9).
@@ -256,7 +256,7 @@ Section 8 of the 2026 preprint explicitly asks whether its profiles attract gene
 
 ## 27. A bounded critical norm continuation criterion for stochastic Navier–Stokes
 
-Admitted page: [stochastic-navier-stokes-bounded-critical-norm](../../../problems/484-stochastic-navier-stokes-bounded-critical-norm.md)
+Admitted page: [stochastic-navier-stokes-bounded-critical-norm](../../../problems/478-stochastic-navier-stokes-bounded-critical-norm.md)
 
 1. A. Agresti and M. Veraar, *Nonlinear SPDEs and maximal regularity: an extended survey*, NoDEA **32**, 123 (2025), Theorems 8.26–8.27 and Open Problem 11. [Article](https://doi.org/10.1007/s00030-025-01090-2).
 2. A. Agresti and M. Veraar, *Stochastic Navier–Stokes equations for turbulent flows in critical spaces*, Commun. Math. Phys. (2024), critical local theory and continuation criteria. [Preprint](https://arxiv.org/abs/2107.03953).
@@ -266,7 +266,7 @@ This fixes the survey's parameters to $`(p,\delta,\kappa,q)=(4,-1/2,1/2,4)`$ and
 
 ## 28. Global regularity for critical SQG with state-dependent noise
 
-Admitted page: [critical-stochastic-sqg-global-regularity](../../../problems/485-critical-stochastic-sqg-global-regularity.md)
+Admitted page: [critical-stochastic-sqg-global-regularity](../../../problems/479-critical-stochastic-sqg-global-regularity.md)
 
 1. A. Agresti and M. Veraar, *Nonlinear SPDEs and maximal regularity: an extended survey*, NoDEA **32**, 123 (2025), equation (8.23), Theorem 8.22 and Remark 8.23. [Article](https://doi.org/10.1007/s00030-025-01090-2).
 2. T. Liang and Y. Wang, *Sub-critical and critical stochastic quasi-geostrophic equations with infinite delay*, Discrete Contin. Dyn. Syst. B **26** (2021), 4697–4726, local pathwise theory at critical dissipation. [Article](https://doi.org/10.3934/dcdsb.2020309).
@@ -275,7 +275,7 @@ The survey explicitly leaves global existence and uniqueness at dissipation expo
 
 ## 29. Global classical Maxwell–Stefan diffusion with arbitrary pair friction
 
-Admitted page: [maxwell-stefan-arbitrary-friction-global-classical](../../../problems/486-maxwell-stefan-arbitrary-friction-global-classical.md)
+Admitted page: [maxwell-stefan-arbitrary-friction-global-classical](../../../problems/480-maxwell-stefan-arbitrary-friction-global-classical.md)
 
 1. E. S. Daus, A. Jüngel and B. Q. Tang, *Exponential time decay of solutions to reaction-cross-diffusion systems of Maxwell–Stefan type*, Arch. Ration. Mech. Anal. **235** (2020), Remark 2. [Full article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7021190/).
 2. D. Bothe, *Global strong solutions for Maxwell–Stefan diffusion with additive friction coefficients* (2026 preprint), §1 and its main theorem. [arXiv:2609.06732](https://arxiv.org/abs/2609.06732).
@@ -284,7 +284,7 @@ The older existence theory gives weak solutions and local classical solutions, w
 
 ## 30. Weak uniqueness for fourth-order aggregation–diffusion
 
-Admitted page: [fourth-order-aggregation-weak-uniqueness](../../../problems/487-fourth-order-aggregation-weak-uniqueness.md)
+Admitted page: [fourth-order-aggregation-weak-uniqueness](../../../problems/481-fourth-order-aggregation-weak-uniqueness.md)
 
 1. J. A. Carrillo, A. Esposito, C. Falcó and A. Fernández-Jiménez, *Competing effects in fourth-order aggregation–diffusion equations*, Proc. Lond. Math. Soc. **129**, e12623 (2024), Introduction, Definition 2.1 and Theorem 2.2. [Article](https://doi.org/10.1112/plms.12623).
 2. C. Falcó, R. E. Baker and J. A. Carrillo, *A nonlocal-to-local approach to aggregation-diffusion equations*, SIAM Review **67** (2025), 353–372, §4. [Article](https://doi.org/10.1137/25M1726248).
@@ -293,7 +293,7 @@ The formulation is the $`m=2`$ subcritical model and weak solution class of the 
 
 ## 31. Full-space minimizers for subcritical fourth-order aggregation energy
 
-Admitted page: [fourth-order-aggregation-full-space-minimizer](../../../problems/488-fourth-order-aggregation-full-space-minimizer.md)
+Admitted page: [fourth-order-aggregation-full-space-minimizer](../../resolved/659-fourth-order-aggregation-full-space-minimizer.md)
 
 1. J. A. Carrillo, A. Esposito, C. Falcó and A. Fernández-Jiménez, *Competing effects in fourth-order aggregation–diffusion equations*, Proc. Lond. Math. Soc. **129**, e12623 (2024), Introduction, Theorem 2.1 and §3. [Article](https://doi.org/10.1112/plms.12623).
 2. C. Falcó, R. E. Baker and J. A. Carrillo, *A nonlocal-to-local approach to aggregation-diffusion equations*, SIAM Review **67** (2025), 353–372, §4. [Article](https://doi.org/10.1137/25M1726248).
@@ -302,7 +302,7 @@ The source proves a lower energy bound in this subcritical range and treats crit
 
 ## 32. Finite propagation in fourth-order aggregation–diffusion
 
-Admitted page: [fourth-order-aggregation-finite-propagation](../../../problems/489-fourth-order-aggregation-finite-propagation.md)
+Admitted page: [fourth-order-aggregation-finite-propagation](../../../problems/482-fourth-order-aggregation-finite-propagation.md)
 
 1. J. A. Carrillo, A. Esposito, C. Falcó and A. Fernández-Jiménez, *Competing effects in fourth-order aggregation–diffusion equations*, Proc. Lond. Math. Soc. **129**, e12623 (2024), Introduction, Definition 2.1 and Theorem 2.2. [Article](https://doi.org/10.1112/plms.12623).
 2. C. Falcó, R. E. Baker and J. A. Carrillo, *A nonlocal-to-local approach to aggregation-diffusion equations*, SIAM Review **67** (2025), 353–372, §4. [Article](https://doi.org/10.1137/25M1726248).
@@ -311,7 +311,7 @@ The 2024 paper constructs weak solutions and explicitly identifies preservation 
 
 ## 33. Unconditional uniqueness for entropy-dissipating reaction–diffusion
 
-Admitted page: [entropy-reaction-diffusion-renormalized-uniqueness](../../../problems/490-entropy-reaction-diffusion-renormalized-uniqueness.md)
+Admitted page: [entropy-reaction-diffusion-renormalized-uniqueness](../../../problems/483-entropy-reaction-diffusion-renormalized-uniqueness.md)
 
 1. J. Fischer, *Weak-strong uniqueness of solutions to entropy-dissipating reaction-diffusion equations*, Nonlinear Analysis **159** (2017), 181–207, Definition 2 and Theorem 7. [Author manuscript](https://arxiv.org/abs/1703.00730).
 2. K. Fellner, J. Fischer, M. Kniely and B. Q. Tang, *Global renormalised solutions and equilibration of reaction–diffusion systems with nonlinear diffusion*, J. Nonlinear Sci. **33**, 66 (2023), Remark 1.4. [Article](https://doi.org/10.1007/s00332-023-09926-w).
@@ -321,7 +321,7 @@ Fischer proves uniqueness conditional on a strong solution, while the 2023 discu
 
 ## 34. Automatic conservation laws for renormalized nonlinear diffusion
 
-Admitted page: [nonlinear-diffusion-renormalization-mass-conservation](../../../problems/491-nonlinear-diffusion-renormalization-mass-conservation.md)
+Admitted page: [nonlinear-diffusion-renormalization-mass-conservation](../../../problems/484-nonlinear-diffusion-renormalization-mass-conservation.md)
 
 1. K. Fellner, J. Fischer, M. Kniely and B. Q. Tang, *Global renormalised solutions and equilibration of reaction–diffusion systems with nonlinear diffusion*, J. Nonlinear Sci. **33**, 66 (2023), Definition 1.1, identities (1.4)–(1.6), and Remark 1.2. [Article](https://doi.org/10.1007/s00332-023-09926-w).
 2. J. Fischer, *Weak-strong uniqueness of solutions to entropy-dissipating reaction-diffusion equations*, Nonlinear Analysis **159** (2017), 181–207, linear-diffusion renormalization arguments. [Preprint](https://arxiv.org/abs/1703.00730).
@@ -330,7 +330,7 @@ Remark 1.2 explicitly asks whether the truncated identity entails the conservati
 
 ## 35. Global attraction for complex-balanced reaction–diffusion with boundary equilibria
 
-Admitted page: [complex-balanced-pde-global-attractor](../../../problems/492-complex-balanced-pde-global-attractor.md)
+Admitted page: [complex-balanced-pde-global-attractor](../../../problems/485-complex-balanced-pde-global-attractor.md)
 
 1. L. Desvillettes, K. Fellner and B. Q. Tang, *Trend to equilibrium for reaction-diffusion systems arising from complex balanced chemical reaction networks*, SIAM J. Math. Anal. **49** (2017), 2666–2709, §3 and Remark 3.6. [Article](https://doi.org/10.1137/16M1073935); [author manuscript](https://imsc.uni-graz.at/fellnerk/preprints/DFT.pdf).
 2. K. Fellner and B. Q. Tang, *Convergence to equilibrium of renormalised solutions to nonlinear chemical reaction-diffusion systems*, Z. Angew. Math. Phys. **69**, 54 (2018), discussion of boundary equilibria. [Author manuscript](https://imsc.uni-graz.at/fellnerk/preprints/FTRenorm.pdf).
@@ -340,7 +340,7 @@ The SIAM paper explicitly leaves general systems with boundary equilibria open. 
 
 ## 36. Optimal obstacle regularity for stable jump kernels with only angular integrability
 
-Admitted page: [general-stable-obstacle-optimal-regularity](../../../problems/493-general-stable-obstacle-optimal-regularity.md)
+Admitted page: [general-stable-obstacle-optimal-regularity](../../../problems/486-general-stable-obstacle-optimal-regularity.md)
 
 1. X. Fernández-Real and X. Ros-Oton, [*Integro-Differential Elliptic Equations*](https://doi.org/10.1007/978-3-031-54242-8), Progress in Mathematics 350, Birkhäuser (2024), §4.6.2, Open Question 4.3, and Theorem 4.5.1; [author draft](https://arxiv.org/abs/2411.12455), pp. 297 and 302.
 2. X. Ros-Oton and M. Weidner, [*Obstacle problems for nonlocal operators with singular kernels*](https://arxiv.org/abs/2308.01695), Annali della Scuola Normale Superiore di Pisa, Classe di Scienze 27 (2026), 535–588, Theorem 1.3 and the open-problem paragraph immediately following it; DOI [10.2422/2036-2145.202309_010](https://doi.org/10.2422/2036-2145.202309_010).

@@ -2,11 +2,14 @@
 
 [Repository overview](../README.md) · [Open targets](../CATALOG.md) · [Solved and claimed solutions](../RESOLVED.md)
 
+- [Independent review of twelve solution pull requests, 2026-10-02](solution_reviews/2026-10-02/README.md)
 - [Selection and status-check methodology](METHODOLOGY.md)
 - [Spectral candidates excluded or narrowed](excluded-spectral.md)
 - [Operator and numerical candidates excluded or narrowed](excluded-operators.md)
 - [Inverse-problem and control candidates excluded or narrowed](excluded-inverse.md)
 - [Related applied-analysis candidates excluded or narrowed](excluded-applied.md)
+
+Dated source maps, JSON inventories and candidate ledgers retain historical admission IDs and paths. Their dated evidence can be read at the original Git revision; the mapping below gives the current location of each identity. The [2026-10-02 ID mapping](solution_reviews/2026-10-02/id-mapping.json) gives current problem and archive paths.
 
 ## Second collection: sources and screening, 8 September 2026
 

@@ -37,4 +37,4 @@ The July 2026 preprint reports a bound $`O((\mathop{\mathrm{OPT}}\nolimits+n)\lo
 
 The September 17 review searched the conjecture and aliases, authors, constant competitiveness, proofs and counterexamples, recent and unrestricted dates, corrections and version histories. The [evidence ledger](../candidates/splay-dynamic-optimality.json) records the source comparisons, initialization convention and duplicate review. A constant factor for this particular algorithm remains the requested conclusion; existence of some dynamically optimal search tree is not counted as a second entry here.
 
-A clearly separated adversarial self-pass passed on September 17. Integrated as [entry 308](../../../problems/308-splay-dynamic-optimality.md) after the September 17, 2026 batch refresh.
+A clearly separated adversarial self-pass passed on September 17. Integrated as [entry 306](../../../problems/306-splay-dynamic-optimality.md) after the September 17, 2026 batch refresh.

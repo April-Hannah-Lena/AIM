@@ -184,18 +184,10 @@
     "last_checked": "2026-09-08"
   },
   {
-    "id": "024",
-    "title": "Exponential interior decay for smooth Steklov domains",
-    "area": "Boundary waves and harmonic extension",
-    "file": "problems/024-steklov-smooth-interior-decay.md",
-    "status": "Partially resolved",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "298",
+    "id": "296",
     "title": "Dirichlet spectral determination of smooth strictly convex planar domains",
     "area": "Spectral theory and spectral geometry",
-    "file": "problems/298-convex-dirichlet-spectrum.md",
+    "file": "problems/296-convex-dirichlet-spectrum.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   }

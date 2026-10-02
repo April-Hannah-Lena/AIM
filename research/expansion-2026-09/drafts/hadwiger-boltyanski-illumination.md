@@ -1,6 +1,6 @@
 # The sharp number of directions illuminating a convex body
 
-**Integrated:** [502 — canonical entry](../../../problems/494-hadwiger-boltyanski-illumination.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
+**Integrated:** [502 — canonical entry](../../../problems/487-hadwiger-boltyanski-illumination.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
 
 **Area:** Convex geometry and geometric coverage
 
@@ -74,4 +74,4 @@ Sun–Vritsiou handle bodies invariant under every coordinate sign change in dim
 
 Bezdek–Khan §2.1 explicitly reports gaps in Boltyanski's 2000 announced three-dimensional proof and states the subsequent restricted result. The original announcement was not available in full text in this review; its disposition is taken from that specialist survey and checked against the later explicit open formulations, rather than independently adjudicated. The primary-source scope audit also distinguishes a separate corrected argument for complex polydiscs. Computer certificates underlying numerical covering bounds were not rerun.
 
-Entry [124](../../../problems/124-shortest-opaque-square-barrier.md) minimizes the length of a line-blocking barrier, entry [265](../../../problems/265-lebesgue-universal-cover.md) minimizes one universal planar container, and entry [352](../../../problems/352-ulam-convex-solid-packing.md) concerns infinite packing density with disjoint interiors. Their objectives differ from the present finite illumination number. The [evidence record](../candidates/hadwiger-boltyanski-illumination.json) preserves the full comparisons, access limits and review checks. This is one problem family across all dimensions and equivalent formulations.
+Entry [123](../../../problems/123-shortest-opaque-square-barrier.md) minimizes the length of a line-blocking barrier, entry [263](../../../problems/263-lebesgue-universal-cover.md) minimizes one universal planar container, and entry [350](../../../problems/350-ulam-convex-solid-packing.md) concerns infinite packing density with disjoint interiors. Their objectives differ from the present finite illumination number. The [evidence record](../candidates/hadwiger-boltyanski-illumination.json) preserves the full comparisons, access limits and review checks. This is one problem family across all dimensions and equivalent formulations.

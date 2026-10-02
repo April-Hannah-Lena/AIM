@@ -54,4 +54,4 @@ Searches on September 17, 2026 covered asymptotic/absolute performance, classic 
 
 This question minimizes the number of fixed-capacity bins. Unrelated-machine and precedence scheduling likewise have different objectives and input models. This is one canonical competitive-ratio question, without separate entries for algorithms, size classes or numerical improvements.
 
-Integrated as [entry 318](../../../problems/318-online-bin-packing-optimal-ratio.md) after the September 17, 2026 batch refresh.
+Integrated as [entry 316](../../../problems/316-online-bin-packing-optimal-ratio.md) after the September 17, 2026 batch refresh.

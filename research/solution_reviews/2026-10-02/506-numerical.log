@@ -1,0 +1,8 @@
+Direct convolution checks complete
+Product check j=1: log prefix -1.349604403064132
+Product check j=2: log prefix -3.485882728957108
+Product check j=4: log prefix -13.08548097093794
+Product check j=6: log prefix -49.84489340450021
+PASS: 80 numerical supporting checks
+Maximum independent quadrature discrepancy: 2.29994038630935816769806496148701336839718916e-16
+Saved C:\Users\MatthewColbrook\Documents\git_repos\AIM\research\solution_reviews\2026-10-02\506-numerical.json

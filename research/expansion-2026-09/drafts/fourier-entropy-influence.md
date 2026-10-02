@@ -1,6 +1,6 @@
 # The Fourier entropy–influence conjecture
 
-**Integrated:** [504 — canonical entry](../../../problems/496-fourier-entropy-influence.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
+**Integrated:** [504 — canonical entry](../../../problems/489-fourier-entropy-influence.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
 
 **Area:** Boolean models, statistical learning and Fourier analysis
 
@@ -85,4 +85,4 @@ The new families in [3] have explicit splitting/separation hypotheses. Its Propo
 
 The [evidence record](../candidates/fourier-entropy-influence.json) contains the detailed comparisons and access limits. The original 1996 publisher PDF was inaccessible; the complete explicit restatements in [1–4] were inspected. Research was followed by a separated adversarial self-review. No independent agent or human review, or certification of the cited proofs, is claimed.
 
-[Entry 330](../../../problems/330-aaronson-ambainis-influence.md) seeks one influential coordinate of a bounded real low-degree polynomial. The [DNF-learning question](../../../problems/329-classical-uniform-dnf-learning.md) asks for an algorithm with a specified data-access model. These are distinct from the spectral-entropy inequality. Equivalent formulations and its restricted cases receive no additional entries.
+[Entry 328](../../../problems/328-aaronson-ambainis-influence.md) seeks one influential coordinate of a bounded real low-degree polynomial. The [DNF-learning question](../../../problems/327-classical-uniform-dnf-learning.md) asks for an algorithm with a specified data-access model. These are distinct from the spectral-entropy inequality. Equivalent formulations and its restricted cases receive no additional entries.

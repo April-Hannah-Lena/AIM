@@ -1,0 +1,95 @@
+{
+  "checked_at_utc": "2026-10-02T06:35:02.057276+00:00",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "results": [
+    {
+      "check": "558-exact",
+      "exit_code": 0,
+      "script": "research/solutions/siavash-sadeghi-457-558/verify_558.py",
+      "arguments": [],
+      "log": "558-exact.log"
+    },
+    {
+      "check": "558-symbolic",
+      "exit_code": 0,
+      "script": "research/solutions/siavash-sadeghi-457-558/symbolic_audit_558.py",
+      "arguments": [],
+      "log": "558-symbolic.log"
+    },
+    {
+      "check": "506-exact",
+      "exit_code": 0,
+      "script": "research/solutions/siavash-sadeghi-506/verify_exact.py",
+      "arguments": [
+        "--output",
+        "506-exact.json"
+      ],
+      "log": "506-exact.log"
+    },
+    {
+      "check": "560-exact",
+      "exit_code": 0,
+      "script": "research/solutions/siavash-sadeghi-560/verify_exact.py",
+      "arguments": [
+        "--json",
+        "560-exact.json"
+      ],
+      "log": "560-exact.log"
+    },
+    {
+      "check": "024-numerical",
+      "exit_code": 0,
+      "script": "research/solutions/siavash-sadeghi-steklov-024/check_steklov.py",
+      "arguments": [
+        "--order",
+        "256",
+        "--samples",
+        "8192",
+        "--output",
+        "024-numerical.csv"
+      ],
+      "log": "024-numerical.log"
+    },
+    {
+      "check": "560-guards",
+      "exit_code": 0,
+      "script": "research/solutions/siavash-sadeghi-560/test_verify_numerics.py",
+      "arguments": [],
+      "log": "560-guards.log"
+    },
+    {
+      "check": "506-guards",
+      "exit_code": 0,
+      "script": "research/solutions/siavash-sadeghi-506/test_numerical_guards.py",
+      "arguments": [],
+      "log": "506-guards.log"
+    },
+    {
+      "check": "560-numerical",
+      "exit_code": 0,
+      "script": "research/solutions/siavash-sadeghi-560/verify_numerics.py",
+      "arguments": [
+        "--json",
+        "560-numerical.json"
+      ],
+      "log": "560-numerical.log"
+    },
+    {
+      "check": "506-numerical",
+      "exit_code": 0,
+      "script": "research/solutions/siavash-sadeghi-506/verify_numerical.py",
+      "arguments": [
+        "--output",
+        "506-numerical.json"
+      ],
+      "log": "506-numerical.log"
+    }
+  ],
+  "scope": "Reproduced supporting computations, not proof-assistant verification"
+}

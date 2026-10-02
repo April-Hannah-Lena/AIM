@@ -36,7 +36,7 @@ This is the asymmetric traveling-salesman subtour integrality-gap conjecture. Kn
 
 ## Applied significance
 
-Directed routing models allow travel costs to depend on direction, as with one-way roads and direction-dependent journey times. Shortest-path costs in a strongly connected nonnegative road network satisfy the directed triangle inequality. The subtour LP provides a lower bound on the optimal tour cost. Determining its worst-case gap would identify the accuracy of this certificate and a target for rounding fractional routing solutions. The directed model differs from the symmetric metric model in [entry 278](../../../problems/278-metric-tsp-four-thirds.md).
+Directed routing models allow travel costs to depend on direction, as with one-way roads and direction-dependent journey times. Shortest-path costs in a strongly connected nonnegative road network satisfy the directed triangle inequality. The subtour LP provides a lower bound on the optimal tour cost. Determining its worst-case gap would identify the accuracy of this certificate and a target for rounding fractional routing solutions. The directed model differs from the symmetric metric model in [entry 276](../../../problems/276-metric-tsp-four-thirds.md).
 
 ## References
 
@@ -53,4 +53,4 @@ Sosso–Bernardelli–Gualandi examine half-integer extreme points with at most 
 
 The [evidence ledger](../candidates/asymmetric-tsp-integrality-gap.json) records source versions, scope comparisons and duplicate checks. The separate A24 adversarial self-pass passed on September 17, 2026; no independent agent or human review is claimed.
 
-Integrated as [entry 315](../../../problems/315-asymmetric-tsp-integrality-gap.md) after the September 17, 2026 batch refresh.
+Integrated as [entry 313](../../../problems/313-asymmetric-tsp-integrality-gap.md) after the September 17, 2026 batch refresh.

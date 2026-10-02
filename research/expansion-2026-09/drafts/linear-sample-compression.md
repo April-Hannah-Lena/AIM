@@ -47,4 +47,4 @@ The embedding obstruction rules out one proposed route through extremal classes,
 
 The apparent March 2026 compression claim, later retitled, is [withdrawn in arXiv v4](https://arxiv.org/abs/2603.23561), with the authors reporting an incorrect proof of Lemma 2. Its withdrawal is not an independent verification of the argument. Full scope comparisons and source limitations are in the [evidence ledger](../candidates/linear-sample-compression.json). This family is counted once, without separate entries for stronger or restricted compression variants.
 
-A clearly separated adversarial self-pass passed on September 17. Integrated as [entry 310](../../../problems/310-linear-sample-compression.md) after the September 17, 2026 batch refresh.
+A clearly separated adversarial self-pass passed on September 17. Integrated as [entry 308](../../../problems/308-linear-sample-compression.md) after the September 17, 2026 batch refresh.

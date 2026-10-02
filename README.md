@@ -15,30 +15,30 @@ Contributions made with or without AI are welcome.
 
 If a problem here is resolved, we encourage you to improve the proof, explain its ideas, explore its applications, and publish your work. Cite the actual proof and its authors, and cite AIM where you use its curation or research. You are welcome to share your preprint and corrections with the repository so that others can find and build on your contribution.
 
-**665 open targets** (548 open, 117 partial) · **0 solved entries** · **0 Lean verified** · **0 solution claims**. Counts reflect the statuses recorded in this collection.
+**652 open targets** (539 open, 113 partial) · **13 solved entries** · **0 Lean verified** · **0 solution claims**. Counts reflect the statuses recorded in this collection.
 
-**[Browse all 665 open targets →](CATALOG.md)** · **[Solved and claimed solutions →](RESOLVED.md)**
+**[Browse all 652 open targets →](CATALOG.md)** · **[Solved and claimed solutions →](RESOLVED.md)**
 
 ## Browse by subject
 
 | Subject group | Open targets |
 | --- | ---: |
-| [Spectral theory and spectral geometry](CATALOG.md#spectral-theory-and-spectral-geometry) | 25 |
-| [Operators, matrices and computation](CATALOG.md#operators-matrices-and-computation) | 39 |
+| [Spectral theory and spectral geometry](CATALOG.md#spectral-theory-and-spectral-geometry) | 24 |
+| [Operators, matrices and computation](CATALOG.md#operators-matrices-and-computation) | 37 |
 | [Inverse problems, control and dynamics](CATALOG.md#inverse-problems-control-and-dynamics) | 28 |
-| [PDEs, fluids and materials](CATALOG.md#pdes-fluids-and-materials) | 32 |
-| [Probability, statistics and learning](CATALOG.md#probability-statistics-and-learning) | 46 |
-| [Numerical analysis and scientific computing](CATALOG.md#numerical-analysis-and-scientific-computing) | 29 |
-| [Geometry and topology](CATALOG.md#geometry-and-topology) | 79 |
+| [PDEs, fluids and materials](CATALOG.md#pdes-fluids-and-materials) | 31 |
+| [Probability, statistics and learning](CATALOG.md#probability-statistics-and-learning) | 43 |
+| [Numerical analysis and scientific computing](CATALOG.md#numerical-analysis-and-scientific-computing) | 28 |
+| [Geometry and topology](CATALOG.md#geometry-and-topology) | 78 |
 | [Combinatorics, optimization and information theory](CATALOG.md#combinatorics-optimization-and-information-theory) | 26 |
 | [Waves, quantum systems and spectral geometry](CATALOG.md#waves-quantum-systems-and-spectral-geometry) | 32 |
 | [Imaging, control, geometry and dynamics](CATALOG.md#imaging-control-geometry-and-dynamics) | 30 |
 | [Fluids, kinetic theory and continuum mechanics](CATALOG.md#fluids-kinetic-theory-and-continuum-mechanics) | 48 |
 | [Stochastic growth, populations and statistical mechanics](CATALOG.md#stochastic-growth-populations-and-statistical-mechanics) | 31 |
-| [Many-body physics, quantum information and wave analysis](CATALOG.md#many-body-physics-quantum-information-and-wave-analysis) | 33 |
+| [Many-body physics, quantum information and wave analysis](CATALOG.md#many-body-physics-quantum-information-and-wave-analysis) | 32 |
 | [Nonlinear waves, fluids and kinetic equations](CATALOG.md#nonlinear-waves-fluids-and-kinetic-equations) | 33 |
-| [Diffusion, materials and variational problems](CATALOG.md#diffusion-materials-and-variational-problems) | 59 |
-| [Applied geometry, control and information](CATALOG.md#applied-geometry-control-and-information) | 49 |
+| [Diffusion, materials and variational problems](CATALOG.md#diffusion-materials-and-variational-problems) | 57 |
+| [Applied geometry, control and information](CATALOG.md#applied-geometry-control-and-information) | 48 |
 | [Stochastic dynamics, reaction networks and applied optimization](CATALOG.md#stochastic-dynamics-reaction-networks-and-applied-optimization) | 46 |
 
 ## Reading the collection

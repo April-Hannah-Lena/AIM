@@ -1,0 +1,5 @@
+PASS: 31 exact supporting checks
+kappa lower (decimal display): 0.133020019395433251281174429161
+kappa upper (decimal display): 0.133020020824184237247882094668
+Certified improvement: kappa > 1/8; quadratic penalty >= 1/4.
+Saved C:\Users\MatthewColbrook\Documents\git_repos\AIM\research\solution_reviews\2026-10-02\506-exact.json

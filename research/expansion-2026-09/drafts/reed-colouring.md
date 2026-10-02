@@ -47,8 +47,8 @@ The July 2026 directed theorem [3, Theorem 7] requires the degree parameter to e
 
 The review covered unrestricted and recent proof, disproof, counterexample, correction and version searches. Source locations, namesake resolution claims and access limits are in the [evidence record](../candidates/reed-colouring.json). Regenerated dates printed inside older documents were not treated as revision dates.
 
-This differs from [rapid sampling of proper colourings](../../../problems/272-coloring-glauber-threshold.md), which concerns mixing with at least $`\Delta+2`$ colours, and from [list edge-colouring](list-edge-colouring.md), which asks for a guarantee under arbitrary lists on edges. The [triangle packing–covering question](tuza-triangle-packing-covering.md) compares edge deletion and packing optima.
+This differs from [rapid sampling of proper colourings](../../../problems/270-coloring-glauber-threshold.md), which concerns mixing with at least $`\Delta+2`$ colours, and from [list edge-colouring](list-edge-colouring.md), which asks for a guarantee under arbitrary lists on edges. The [triangle packing–covering question](tuza-triangle-packing-covering.md) compares edge deletion and packing optima.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
 
-Integrated page: [348. Reed's bound for the chromatic number](../../../problems/340-reed-colouring.md).
+Integrated page: [348. Reed's bound for the chromatic number](../../../problems/338-reed-colouring.md).

@@ -1,241 +1,241 @@
 [
   {
-    "id": "121",
+    "id": "120",
     "title": "Local scalar geodesic tomography on smooth surfaces",
     "area": "Geometric inverse problems / local tomography",
-    "file": "problems/121-local-ray-injectivity-surfaces.md",
+    "file": "problems/120-local-ray-injectivity-surfaces.md",
+    "status": "Open",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "121",
+    "title": "Lens rigidity for nontrapping surfaces with conjugate points",
+    "area": "Geometric inverse problems / travel-time imaging",
+    "file": "problems/121-nontrapping-surface-lens-rigidity.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "122",
-    "title": "Lens rigidity for nontrapping surfaces with conjugate points",
-    "area": "Geometric inverse problems / travel-time imaging",
-    "file": "problems/122-nontrapping-surface-lens-rigidity.md",
+    "title": "Minimal filling volume of a simple manifold",
+    "area": "Geometric analysis / travel-time bounds",
+    "file": "problems/122-simple-manifold-minimal-filling.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "123",
-    "title": "Minimal filling volume of a simple manifold",
-    "area": "Geometric analysis / travel-time bounds",
-    "file": "problems/123-simple-manifold-minimal-filling.md",
+    "title": "Exact minimum length of an opaque barrier for a square",
+    "area": "Geometric optimization / sensing",
+    "file": "problems/123-shortest-opaque-square-barrier.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "124",
-    "title": "Exact minimum length of an opaque barrier for a square",
-    "area": "Geometric optimization / sensing",
-    "file": "problems/124-shortest-opaque-square-barrier.md",
-    "status": "Open",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "125",
     "title": "Sard conjecture for smooth bracket-generating distributions",
     "area": "Nonholonomic control / sub-Riemannian geometry",
-    "file": "problems/125-sard-conjecture-endpoint-map.md",
+    "file": "problems/124-sard-conjecture-endpoint-map.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
-    "id": "126",
+    "id": "125",
     "title": "Continuous velocity of every sub-Riemannian length minimizer",
     "area": "Nonholonomic optimal control / regularity",
-    "file": "problems/126-c1-subriemannian-minimizers.md",
+    "file": "problems/125-c1-subriemannian-minimizers.md",
+    "status": "Open",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "126",
+    "title": "Nonbranching of analytic equiregular sub-Riemannian geodesics",
+    "area": "Nonholonomic geometry / optimal transport",
+    "file": "problems/126-equiregular-analytic-nonbranching.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "127",
-    "title": "Nonbranching of analytic equiregular sub-Riemannian geodesics",
-    "area": "Nonholonomic geometry / optimal transport",
-    "file": "problems/127-equiregular-analytic-nonbranching.md",
+    "title": "Pansu's isoperimetric conjecture in the Heisenberg group",
+    "area": "Sub-Riemannian geometric optimization",
+    "file": "problems/127-pansu-heisenberg-isoperimetry.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "128",
-    "title": "Pansu's isoperimetric conjecture in the Heisenberg group",
-    "area": "Sub-Riemannian geometric optimization",
-    "file": "problems/128-pansu-heisenberg-isoperimetry.md",
+    "title": "Euclidean isoperimetry in higher-dimensional Cartan–Hadamard manifolds",
+    "area": "Geometric analysis / volume and boundary optimization",
+    "file": "problems/128-cartan-hadamard-isoperimetry.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "129",
-    "title": "Euclidean isoperimetry in higher-dimensional Cartan–Hadamard manifolds",
-    "area": "Geometric analysis / volume and boundary optimization",
-    "file": "problems/129-cartan-hadamard-isoperimetry.md",
+    "title": "An SRB measure for the classical Hénon parameters",
+    "area": "Dissipative dynamics / chaotic statistics",
+    "file": "problems/129-classical-henon-srb-measure.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "130",
-    "title": "An SRB measure for the classical Hénon parameters",
-    "area": "Dissipative dynamics / chaotic statistics",
-    "file": "problems/130-classical-henon-srb-measure.md",
+    "title": "Saari's constant-inertia conjecture for planar gravitation",
+    "area": "Celestial mechanics / rigid gravitational motions",
+    "file": "problems/130-saari-constant-inertia.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "131",
-    "title": "Saari's constant-inertia conjecture for planar gravitation",
-    "area": "Celestial mechanics / rigid gravitational motions",
-    "file": "problems/131-saari-constant-inertia.md",
-    "status": "Open",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "132",
     "title": "Finiteness of planar central configurations for fixed masses",
     "area": "Celestial mechanics / relative equilibria",
-    "file": "problems/132-finite-planar-central-configurations.md",
+    "file": "problems/131-finite-planar-central-configurations.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
-    "id": "133",
+    "id": "132",
     "title": "Almost-everywhere global existence for Newtonian gravitation",
     "area": "Celestial mechanics / singular dynamics",
-    "file": "problems/133-almost-sure-global-newtonian-motion.md",
+    "file": "problems/132-almost-sure-global-newtonian-motion.md",
+    "status": "Open",
+    "last_checked": "2026-09-08"
+  },
+  {
+    "id": "133",
+    "title": "Exactly n or infinitely many periodic orbits on a convex energy surface",
+    "area": "Hamiltonian mechanics / periodic motions",
+    "file": "problems/133-convex-hamiltonian-n-or-infinity.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "134",
-    "title": "Exactly n or infinitely many periodic orbits on a convex energy surface",
-    "area": "Hamiltonian mechanics / periodic motions",
-    "file": "problems/134-convex-hamiltonian-n-or-infinity.md",
+    "title": "Irrational ellipticity when a convex energy surface has finitely many orbits",
+    "area": "Hamiltonian mechanics / orbital stability",
+    "file": "problems/134-finite-convex-orbits-irrational-ellipticity.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "135",
-    "title": "Irrational ellipticity when a convex energy surface has finitely many orbits",
-    "area": "Hamiltonian mechanics / orbital stability",
-    "file": "problems/135-finite-convex-orbits-irrational-ellipticity.md",
+    "title": "Exact optimal control in the scalar Witsenhausen benchmark",
+    "area": "Decentralized stochastic control",
+    "file": "problems/135-witsenhausen-exact-optimum.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "136",
-    "title": "Exact optimal control in the scalar Witsenhausen benchmark",
-    "area": "Decentralized stochastic control",
-    "file": "problems/136-witsenhausen-exact-optimum.md",
+    "title": "Symmetric capacity of the binary multiplying two-way channel",
+    "area": "Interactive communication / information theory",
+    "file": "problems/136-binary-multiplying-two-way-capacity.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "137",
-    "title": "Symmetric capacity of the binary multiplying two-way channel",
-    "area": "Interactive communication / information theory",
-    "file": "problems/137-binary-multiplying-two-way-capacity.md",
+    "title": "Capacity of the Gaussian relay channel with independent receiver noises",
+    "area": "Network information theory / cooperative communication",
+    "file": "problems/137-gaussian-relay-capacity.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "138",
-    "title": "Capacity of the Gaussian relay channel with independent receiver noises",
-    "area": "Network information theory / cooperative communication",
-    "file": "problems/138-gaussian-relay-capacity.md",
+    "title": "Exact capacity of the binary deletion channel",
+    "area": "Information theory / synchronization errors",
+    "file": "problems/138-binary-deletion-channel-capacity.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "139",
-    "title": "Exact capacity of the binary deletion channel",
-    "area": "Information theory / synchronization errors",
-    "file": "problems/139-binary-deletion-channel-capacity.md",
+    "title": "Uniqueness of nonnegative heat controls at the minimum time",
+    "area": "Constrained PDE control / thermal processes",
+    "file": "problems/139-unique-minimum-time-positive-heat-control.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "140",
-    "title": "Uniqueness of nonnegative heat controls at the minimum time",
-    "area": "Constrained PDE control / thermal processes",
-    "file": "problems/140-unique-minimum-time-positive-heat-control.md",
+    "title": "Sharp characterization of exactly trackable boundary heat fluxes",
+    "area": "PDE control / thermal flux tracking",
+    "file": "problems/140-sharp-heat-tracking-range.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "141",
-    "title": "Sharp characterization of exactly trackable boundary heat fluxes",
-    "area": "PDE control / thermal flux tracking",
-    "file": "problems/141-sharp-heat-tracking-range.md",
-    "status": "Open",
+    "title": "Global null control of a heat equation with cubic growth",
+    "area": "Nonlinear PDE control / reaction-diffusion",
+    "file": "problems/141-global-cubic-heat-null-control.md",
+    "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
     "id": "142",
-    "title": "Global null control of a heat equation with cubic growth",
-    "area": "Nonlinear PDE control / reaction-diffusion",
-    "file": "problems/142-global-cubic-heat-null-control.md",
+    "title": "Finite-jet determination of small-time local controllability",
+    "area": "Nonlinear control / local system identification",
+    "file": "problems/142-finite-jet-small-time-control.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-08"
   },
   {
     "id": "143",
-    "title": "Finite-jet determination of small-time local controllability",
-    "area": "Nonlinear control / local system identification",
-    "file": "problems/143-finite-jet-small-time-control.md",
-    "status": "Partially resolved",
+    "title": "An irrational polygon with nonergodic billiard flow",
+    "area": "Billiard dynamics / transport and ergodicity",
+    "file": "problems/143-irrational-nonergodic-polygon.md",
+    "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
     "id": "144",
-    "title": "An irrational polygon with nonergodic billiard flow",
-    "area": "Billiard dynamics / transport and ergodicity",
-    "file": "problems/144-irrational-nonergodic-polygon.md",
-    "status": "Open",
-    "last_checked": "2026-09-08"
-  },
-  {
-    "id": "145",
     "title": "Positive metric entropy for billiards arbitrarily close to an ellipse",
     "area": "Hamiltonian billiards / chaotic ray transport",
-    "file": "problems/145-positive-entropy-billiards-near-ellipse.md",
+    "file": "problems/144-positive-entropy-billiards-near-ellipse.md",
     "status": "Open",
     "last_checked": "2026-09-08"
   },
   {
-    "id": "294",
+    "id": "292",
     "title": "The Černý synchronizing-automaton conjecture",
     "area": "Finite-state control and synchronization",
-    "file": "problems/294-cerny.md",
+    "file": "problems/292-cerny.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "322",
+    "id": "320",
     "title": "Generic stabilization by static output feedback",
     "area": "Feedback control and real algebraic geometry",
-    "file": "problems/322-generic-static-output-feedback-stabilization.md",
+    "file": "problems/320-generic-static-output-feedback-stabilization.md",
     "status": "Open",
     "last_checked": "2026-09-17"
   },
   {
-    "id": "335",
+    "id": "333",
     "title": "Decidability of stability under arbitrary switching",
     "area": "Switched systems, robust control and formal verification",
-    "file": "problems/335-switched-linear-stability-decidability.md",
+    "file": "problems/333-switched-linear-stability-decidability.md",
     "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
-    "id": "341",
+    "id": "339",
     "title": "Decidability of local asymptotic stability for polynomial ODEs",
     "area": "Nonlinear control and algorithmic verification",
-    "file": "problems/341-polynomial-local-stability-decidability.md",
+    "file": "problems/339-polynomial-local-stability-decidability.md",
     "status": "Open",
     "last_checked": "2026-09-18"
   },
   {
-    "id": "499",
+    "id": "492",
     "title": "Polynomial-time solution of simple stochastic games",
     "area": "Stochastic control, formal verification and algorithmic game theory",
-    "file": "problems/499-simple-stochastic-games-polynomial-time.md",
+    "file": "problems/492-simple-stochastic-games-polynomial-time.md",
     "status": "Partially resolved",
     "last_checked": "2026-09-23"
   }

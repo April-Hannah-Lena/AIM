@@ -1,0 +1,18 @@
+Finite Galerkin approximation; no rigorous numerical error bounds.
+order=256, samples=8192, epsilon=0.01
+max_abs_q_minus_one: 0.0167041
+min_weight: 0.967411
+max_weight: 1.00453
+max_imaginary_weight_coefficient: 4.34405e-19
+weighted_orthogonality_inf_norm: 3.13133e-14
+residual_inf_norm_divided_by_max_eigenvalue: 1.18587e-14
+index   eigenvalue        abs(center)       -log(abs(center))/eigenvalue
+    8      8.001251257   3.395999541e-04   0.998311637
+   16     16.000132402   1.076224334e-04   0.571050365
+   32     31.999226152   2.121408945e-05   0.336284539
+   64     63.998230187   2.129732636e-06   0.204060551
+   96     95.997333005   3.640983895e-07   0.154440142
+  128    127.996442719   8.203435091e-08   0.127473291
+  160    159.995553212   2.205708118e-08   0.110188263
+  192    191.994663836   6.725501508e-09   0.098009804
+Wrote C:\Users\MatthewColbrook\Documents\git_repos\AIM\research\solution_reviews\2026-10-02\024-numerical.csv

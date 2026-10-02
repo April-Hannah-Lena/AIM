@@ -14,7 +14,21 @@ No Lean-verified entries are currently recorded in this archive.
 
 Documented resolutions of the exact target. Consult each record for the proof source and the kind of review performed.
 
-No solved entries are currently recorded in this archive.
+| ID | Problem and status record | Status | Last checked | Reason |
+| --- | --- | --- | --- | --- |
+| 653 | [Exponential interior decay for smooth Steklov domains](research/resolved/653-steklov-smooth-interior-decay.md) | ✅ SOLVED | 2026-10-02 | Counterexample; complete independent Codex AI audit (original 024, PR #11). |
+| 654 | [Bounded harmonic lifting for complex media](research/resolved/654-complex-harmonic-lifting.md) | ✅ SOLVED | 2026-10-02 | Affirmative proof; complete independent Codex AI audit (original 218, PR #14). |
+| 655 | [Logarithmic convexity for subdiffusion with non-gradient drift](research/resolved/655-fractional-drift-logarithmic-convexity.md) | ✅ SOLVED | 2026-10-02 | Counterexample; complete independent Codex AI audit (original 405, PR #1). |
+| 656 | [Poisson kernel bounds for elliptic boundary diffusion on Lipschitz domains](research/resolved/656-dtn-poisson-bounds-lipschitz.md) | ✅ SOLVED | 2026-10-02 | Counterexample; complete independent Codex AI audit (original 435, PR #15). |
+| 657 | [Finite-density time sampling of an infinite observation window](research/resolved/657-infinite-time-dynamical-frame-discretization.md) | ✅ SOLVED | 2026-10-02 | Affirmative proof; complete independent Codex AI audit (original 457, PR #10). |
+| 658 | [Does directional ellipticity force a fractional energy bound?](research/resolved/658-nonlocal-directional-ellipticity-coercivity.md) | ✅ SOLVED | 2026-10-02 | Counterexample; complete independent Codex AI audit (original 471, PR #5). |
+| 659 | [Full-space minimizers for subcritical fourth-order aggregation energy](research/resolved/659-fourth-order-aggregation-full-space-minimizer.md) | ✅ SOLVED | 2026-10-02 | Affirmative proof; complete independent Codex AI audit (original 488, PR #6). |
+| 660 | [Small-ball ratios for general symmetric product priors](research/resolved/660-product-prior-small-ball-ratios.md) | ✅ SOLVED | 2026-10-02 | Counterexample; complete independent Codex AI audit (original 506, PR #13). |
+| 661 | [Path connectivity of the infinity Z-Gromov–Wasserstein space](research/resolved/661-z-gw-infinity-path-connectivity.md) | ✅ SOLVED | 2026-10-02 | Counterexample; complete independent Codex AI audit (original 514, PR #2). |
+| 662 | [Variance ordering for Gaussian alpha-divergence approximations](research/resolved/662-gaussian-variational-variance-ordering.md) | ✅ SOLVED | 2026-10-02 | Counterexample; complete independent Codex AI audit (original 558, PR #10). |
+| 663 | [Monotone variance in the Gaussian approximation to DrMMD flow](research/resolved/663-drmmd-gaussian-variance-monotonicity.md) | ✅ SOLVED | 2026-10-02 | Affirmative proof; complete independent Codex AI audit (original 560, PR #12). |
+| 664 | [Logarithmic controlled bandwidth for locally analytic functions](research/resolved/664-analytic-controlled-bandwidth.md) | ✅ SOLVED | 2026-10-02 | Affirmative proof; complete independent Codex AI audit (original 593, PR #8). |
+| 665 | [Smooth-gradient approximation of finite-Fisher-information scores](research/resolved/665-fisher-score-gradient-closure.md) | ✅ SOLVED | 2026-10-02 | Affirmative proof; complete independent Codex AI audit (original 618, PR #4). |
 
 ## Solution claimed
 

@@ -1,0 +1,3 @@
+PASS: 21 focused scipy_direct regression cases
+Covered nonfinite integrals/error estimates, negative errors, nonpositive
+integrals, computed overflow, and an unchanged valid finite control.

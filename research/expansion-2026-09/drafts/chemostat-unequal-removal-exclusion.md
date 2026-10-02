@@ -64,8 +64,8 @@ Burie–Ducrot–Griette use growth linear in the resource, with a measure descr
 
 Current and unrestricted resolution, counterexample, correction and version searches are recorded in the [evidence ledger](../candidates/chemostat-unequal-removal-exclusion.json). A separated adversarial self-pass passed on September 18, 2026; no independent agent or human review is claimed. Access limitations and additional model comparisons are explicit in the ledger. This review does not certify the cited proofs independently.
 
-The closest catalogue question, [competitive exclusion with unequal death rates](../../../problems/185-competing-contact-unequal-deaths.md), concerns a spatial stochastic contact process. [Carrying-simplex interior smoothness](../../../problems/303-carrying-simplex-interior.md) concerns geometric regularity for discrete population maps. Neither asks for this deterministic resource-mediated convergence theorem. The present family is counted once across species numbers, growth laws and removal parameters.
+The closest catalogue question, [competitive exclusion with unequal death rates](../../../problems/184-competing-contact-unequal-deaths.md), concerns a spatial stochastic contact process. [Carrying-simplex interior smoothness](../../../problems/301-carrying-simplex-interior.md) concerns geometric regularity for discrete population maps. Neither asks for this deterministic resource-mediated convergence theorem. The present family is counted once across species numbers, growth laws and removal parameters.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 5 audit](../batch-05-review.md). No matching later resolution was located.
 
-Integrated page: [345. Competitive exclusion in a chemostat with unequal removal rates](../../../problems/337-chemostat-unequal-removal-exclusion.md).
+Integrated page: [345. Competitive exclusion in a chemostat with unequal removal rates](../../../problems/335-chemostat-unequal-removal-exclusion.md).

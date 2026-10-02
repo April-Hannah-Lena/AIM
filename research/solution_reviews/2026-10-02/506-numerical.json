@@ -1,0 +1,406 @@
+{
+  "problem": "AIM 506",
+  "status": "Floating-point corroboration, not a proof",
+  "working_decimal_digits": 60,
+  "passed": 80,
+  "checks": [
+    "Integration-by-parts moment identity",
+    "kappa in exact-certificate display interval",
+    "Local quadratic coefficient positive",
+    "Direct scipy convolution a=0.0625,d=0.0625",
+    "Universal ratio bounds a=0.0625,d=0.0625",
+    "Direct scipy convolution a=0.0625,d=0.125",
+    "Universal ratio bounds a=0.0625,d=0.125",
+    "Direct scipy convolution a=0.0625,d=0.25",
+    "Universal ratio bounds a=0.0625,d=0.25",
+    "Direct scipy convolution a=0.0625,d=0.5",
+    "Universal ratio bounds a=0.0625,d=0.5",
+    "Direct scipy convolution a=0.0625,d=1.0",
+    "Universal ratio bounds a=0.0625,d=1.0",
+    "Direct scipy convolution a=0.25,d=0.0625",
+    "Universal ratio bounds a=0.25,d=0.0625",
+    "Direct scipy convolution a=0.25,d=0.125",
+    "Universal ratio bounds a=0.25,d=0.125",
+    "Direct scipy convolution a=0.25,d=0.25",
+    "Universal ratio bounds a=0.25,d=0.25",
+    "Direct scipy convolution a=0.25,d=0.5",
+    "Universal ratio bounds a=0.25,d=0.5",
+    "Direct scipy convolution a=0.25,d=1.0",
+    "Universal ratio bounds a=0.25,d=1.0",
+    "Direct scipy convolution a=1.0,d=0.0625",
+    "Universal ratio bounds a=1.0,d=0.0625",
+    "Analytic quadratic penalty d=0.0625",
+    "Certificate-improved penalty d=0.0625",
+    "Direct scipy convolution a=1.0,d=0.125",
+    "Universal ratio bounds a=1.0,d=0.125",
+    "Analytic quadratic penalty d=0.125",
+    "Certificate-improved penalty d=0.125",
+    "Direct scipy convolution a=1.0,d=0.25",
+    "Universal ratio bounds a=1.0,d=0.25",
+    "Analytic quadratic penalty d=0.25",
+    "Certificate-improved penalty d=0.25",
+    "Direct scipy convolution a=1.0,d=0.5",
+    "Universal ratio bounds a=1.0,d=0.5",
+    "Analytic quadratic penalty d=0.5",
+    "Certificate-improved penalty d=0.5",
+    "Direct scipy convolution a=1.0,d=1.0",
+    "Universal ratio bounds a=1.0,d=1.0",
+    "Analytic quadratic penalty d=1.0",
+    "Certificate-improved penalty d=1.0",
+    "Direct scipy convolution a=4.0,d=0.0625",
+    "Universal ratio bounds a=4.0,d=0.0625",
+    "Direct scipy convolution a=4.0,d=0.125",
+    "Universal ratio bounds a=4.0,d=0.125",
+    "Direct scipy convolution a=4.0,d=0.25",
+    "Universal ratio bounds a=4.0,d=0.25",
+    "Direct scipy convolution a=4.0,d=0.5",
+    "Universal ratio bounds a=4.0,d=0.5",
+    "Direct scipy convolution a=4.0,d=1.0",
+    "Universal ratio bounds a=4.0,d=1.0",
+    "Direct scipy convolution a=16.0,d=0.0625",
+    "Universal ratio bounds a=16.0,d=0.0625",
+    "Direct scipy convolution a=16.0,d=0.125",
+    "Universal ratio bounds a=16.0,d=0.125",
+    "Direct scipy convolution a=16.0,d=0.25",
+    "Universal ratio bounds a=16.0,d=0.25",
+    "Direct scipy convolution a=16.0,d=0.5",
+    "Universal ratio bounds a=16.0,d=0.5",
+    "Direct scipy convolution a=16.0,d=1.0",
+    "Universal ratio bounds a=16.0,d=1.0",
+    "Block suppression j=1",
+    "Block suppression j=2",
+    "Block suppression j=3",
+    "Block suppression j=4",
+    "Block suppression j=5",
+    "Block suppression j=6",
+    "Block suppression j=7",
+    "Block suppression j=8",
+    "Local quadratic asymptotic",
+    "Product bounded by selected block j=1",
+    "Positive tail bound j=1",
+    "Product bounded by selected block j=2",
+    "Positive tail bound j=2",
+    "Product bounded by selected block j=4",
+    "Positive tail bound j=4",
+    "Product bounded by selected block j=6",
+    "Positive tail bound j=6"
+  ],
+  "A0": "1.36842685573550877311107189899356993172492668",
+  "A2": "0.320157090360146487978811636273641479710742174",
+  "A4": "0.182028168753803949288362156611571743075860584",
+  "kappa": "0.133020020756583702840644675417346090097829528",
+  "moment_identity_absolute_residual": "0.0",
+  "quadratic_coefficient": "0.53208008302633481136257870166938436039131811",
+  "local_quadratic_coefficient_error_at_1e_minus4": "0.000000000207945104891944749492521547452463366872459689",
+  "max_direct_quadrature_discrepancy": "2.29994038630935816769806496148701336839718916e-16",
+  "direct_quadrature_comparisons": [
+    {
+      "a": "0.0625",
+      "d": "0.0625",
+      "log_ratio_mpmath": "-0.000234080431885598843580749340228520986031054137",
+      "log_ratio_scipy": "-0.00023408043188576766",
+      "absolute_discrepancy": "1.68819461597657441985439461877020092414282942e-16",
+      "scipy_estimated_log_error": "1.751661074769236e-13"
+    },
+    {
+      "a": "0.0625",
+      "d": "0.125",
+      "log_ratio_mpmath": "-0.000936321888313511558393063768866440623603933188",
+      "log_ratio_scipy": "-0.0009363218883135161",
+      "absolute_discrepancy": "4.55286019030172350579923839804224543941838718e-18",
+      "scipy_estimated_log_error": "1.7520229182463891e-13"
+    },
+    {
+      "a": "0.0625",
+      "d": "0.25",
+      "log_ratio_mpmath": "-0.00374529012547440603498336648941844008377078974",
+      "log_ratio_scipy": "-0.0037452901254743398",
+      "absolute_discrepancy": "6.6271854760338319319758827575085890204344195e-17",
+      "scipy_estimated_log_error": "1.7537319394373986e-13"
+    },
+    {
+      "a": "0.0625",
+      "d": "0.5",
+      "log_ratio_mpmath": "-0.0149812016499051594101427779842256239738790768",
+      "log_ratio_scipy": "-0.014981201649905374",
+      "absolute_discrepancy": "2.14444267273153394406229955099246318694856075e-16",
+      "scipy_estimated_log_error": "1.7579565768473012e-13"
+    },
+    {
+      "a": "0.0625",
+      "d": "1.0",
+      "log_ratio_mpmath": "-0.0599254644870158341027751190481772875955185837",
+      "log_ratio_scipy": "-0.059925464487016064",
+      "absolute_discrepancy": "2.29994038630935816769806496148701336839718916e-16",
+      "scipy_estimated_log_error": "1.7774872040528352e-13"
+    },
+    {
+      "a": "0.25",
+      "d": "0.0625",
+      "log_ratio_mpmath": "-0.000826983554576009029742329326784707344682820619",
+      "log_ratio_scipy": "-0.0008269835545757926",
+      "absolute_discrepancy": "2.16412985005588188110604147360206010504281679e-16",
+      "scipy_estimated_log_error": "3.3371660076691196e-13"
+    },
+    {
+      "a": "0.25",
+      "d": "0.125",
+      "log_ratio_mpmath": "-0.00330796750943606050772985199193389181746389577",
+      "log_ratio_scipy": "-0.0033079675094359272",
+      "absolute_discrepancy": "1.33272051753224099038029091766567953544554322e-16",
+      "scipy_estimated_log_error": "3.345454406930505e-13"
+    },
+    {
+      "a": "0.25",
+      "d": "0.25",
+      "log_ratio_mpmath": "-0.0132324023499926174351791795199727434445620853",
+      "log_ratio_scipy": "-0.013232402349992617",
+      "absolute_discrepancy": "2.02591169252381726844653614177808738064942828e-19",
+      "scipy_estimated_log_error": "3.382783623532117e-13"
+    },
+    {
+      "a": "0.25",
+      "d": "0.5",
+      "log_ratio_mpmath": "-0.0529381043329134776418262858298986449551267675",
+      "log_ratio_scipy": "-0.05293810433291344",
+      "absolute_discrepancy": "3.80548767636212288399871869138239423459734076e-17",
+      "scipy_estimated_log_error": "3.5298612545470137e-13"
+    },
+    {
+      "a": "0.25",
+      "d": "1.0",
+      "log_ratio_mpmath": "-0.211886942463530907890162854160990452735389599",
+      "log_ratio_scipy": "-0.2118869424635308",
+      "absolute_discrepancy": "1.16020987735825002080171073802753311410926682e-16",
+      "scipy_estimated_log_error": "2.3353775240995345e-13"
+    },
+    {
+      "a": "1.0",
+      "d": "0.0625",
+      "log_ratio_mpmath": "-0.00207875498394800766355895366601227192365074322",
+      "log_ratio_scipy": "-0.002078754983948063",
+      "absolute_discrepancy": "5.54858869858354350838002890928029295695565818e-17",
+      "scipy_estimated_log_error": "1.9186719827287174e-13"
+    },
+    {
+      "a": "1.0",
+      "d": "0.125",
+      "log_ratio_mpmath": "-0.00831881917337014994334717895149941491063505506",
+      "log_ratio_scipy": "-0.008318819173370195",
+      "absolute_discrepancy": "4.48593941163964148594056460251875430297414273e-17",
+      "scipy_estimated_log_error": "2.302780030411491e-13"
+    },
+    {
+      "a": "1.0",
+      "d": "0.25",
+      "log_ratio_mpmath": "-0.0333356672362190992158747159066333844707496825",
+      "log_ratio_scipy": "-0.03333566723621911",
+      "absolute_discrepancy": "1.38806211870303886533333770569567435489978073e-17",
+      "scipy_estimated_log_error": "2.10692592964943e-13"
+    },
+    {
+      "a": "1.0",
+      "d": "0.5",
+      "log_ratio_mpmath": "-0.134284323317290908522752030103232042543600721",
+      "log_ratio_scipy": "-0.13428432331729087",
+      "absolute_discrepancy": "3.72869113754404799841866003698212973988876567e-17",
+      "scipy_estimated_log_error": "2.6628106845161793e-13"
+    },
+    {
+      "a": "1.0",
+      "d": "1.0",
+      "log_ratio_mpmath": "-0.550814871839014495689008900630007624444308187",
+      "log_ratio_scipy": "-0.5508148718390145",
+      "absolute_discrepancy": "4.29854998501503832040398739826455901952129628e-17",
+      "scipy_estimated_log_error": "1.0876264062685466e-13"
+    },
+    {
+      "a": "4.0",
+      "d": "0.0625",
+      "log_ratio_mpmath": "-0.00206221977649799653831560347218871596715447354",
+      "log_ratio_scipy": "-0.0020622197764981398",
+      "absolute_discrepancy": "1.43238583473263883231412814586878149718943084e-16",
+      "scipy_estimated_log_error": "3.7963766010642784e-13"
+    },
+    {
+      "a": "4.0",
+      "d": "0.125",
+      "log_ratio_mpmath": "-0.00832512693496620999664081051582132158710839415",
+      "log_ratio_scipy": "-0.008325126934966209",
+      "absolute_discrepancy": "9.74747497479932171245135685450706004681134463e-19",
+      "scipy_estimated_log_error": "2.1131642160942765e-13"
+    },
+    {
+      "a": "4.0",
+      "d": "0.25",
+      "log_ratio_mpmath": "-0.0344938564789073428260238965201299532153704291",
+      "log_ratio_scipy": "-0.03449385647890751",
+      "absolute_discrepancy": "1.6439763959016388774506514285746970841711772e-16",
+      "scipy_estimated_log_error": "2.92213763780343e-13"
+    },
+    {
+      "a": "4.0",
+      "d": "0.5",
+      "log_ratio_mpmath": "-0.15555154557804092657951847026907171814830631",
+      "log_ratio_scipy": "-0.15555154557804077",
+      "absolute_discrepancy": "1.59153742544865785480878666341307459142783509e-16",
+      "scipy_estimated_log_error": "3.184978671325502e-13"
+    },
+    {
+      "a": "4.0",
+      "d": "1.0",
+      "log_ratio_mpmath": "-0.837080502562821280502573523045315285784657686",
+      "log_ratio_scipy": "-0.8370805025628213",
+      "absolute_discrepancy": "1.31413618822255797035866420579694486656305158e-17",
+      "scipy_estimated_log_error": "4.393810744850849e-13"
+    },
+    {
+      "a": "16.0",
+      "d": "0.0625",
+      "log_ratio_mpmath": "-0.000724664011880786879807579518994896098718573634",
+      "log_ratio_scipy": "-0.0007246640118808063",
+      "absolute_discrepancy": "1.94354973908141072230856133947923964434333918e-17",
+      "scipy_estimated_log_error": "3.28947019568824e-13"
+    },
+    {
+      "a": "16.0",
+      "d": "0.125",
+      "log_ratio_mpmath": "-0.00306714056658808290835227465880325973652176016",
+      "log_ratio_scipy": "-0.003067140566588048",
+      "absolute_discrepancy": "3.48445015058603148710254008268673899995750587e-17",
+      "scipy_estimated_log_error": "3.3627591557840735e-13"
+    },
+    {
+      "a": "16.0",
+      "d": "0.25",
+      "log_ratio_mpmath": "-0.014929346544718952814133587256790717336085799",
+      "log_ratio_scipy": "-0.014929346544719085",
+      "absolute_discrepancy": "1.32584833153028895965573641297579640793825261e-16",
+      "scipy_estimated_log_error": "1.827587749886412e-13"
+    },
+    {
+      "a": "16.0",
+      "d": "0.5",
+      "log_ratio_mpmath": "-0.100217590254295996890602464189240303480971735",
+      "log_ratio_scipy": "-0.10021759025429595",
+      "absolute_discrepancy": "4.23134785137317779610249885734189865446819117e-17",
+      "scipy_estimated_log_error": "3.158705356029228e-13"
+    },
+    {
+      "a": "16.0",
+      "d": "1.0",
+      "log_ratio_mpmath": "-0.947018114147668431115697319389461084734569478",
+      "log_ratio_scipy": "-0.9470181141476686",
+      "absolute_discrepancy": "1.34889525281844520465005268168228571773280062e-16",
+      "scipy_estimated_log_error": "1.8387672198955853e-13"
+    }
+  ],
+  "single_block_factors": [
+    {
+      "j": 1,
+      "d": "0.5",
+      "log_R_over_d_squared": "-0.537137293269163634091008120412928170174402883",
+      "log_single_block_factor": "-1.07427458653832726818201624082585634034880577",
+      "analytic_log_upper_bound": "-0.0138888888888888888888888888888888888888888889"
+    },
+    {
+      "j": 2,
+      "d": "0.25",
+      "log_R_over_d_squared": "-0.533370675779505587453995454506134151531994921",
+      "log_single_block_factor": "-2.13348270311802234981598181802453660612797968",
+      "analytic_log_upper_bound": "-0.0277777777777777777777777777777777777777777778"
+    },
+    {
+      "j": 3,
+      "d": "0.125",
+      "log_R_over_d_squared": "-0.532404427095689596374219452895962554280643524",
+      "log_single_block_factor": "-4.25923541676551677099375562316770043424514819",
+      "analytic_log_upper_bound": "-0.0555555555555555555555555555555555555555555556"
+    },
+    {
+      "j": 4,
+      "d": "0.0625",
+      "log_R_over_d_squared": "-0.532161275890689961871092138499141612454590265",
+      "log_single_block_factor": "-8.51458041425103938993747421598626579927344424",
+      "analytic_log_upper_bound": "-0.111111111111111111111111111111111111111111111"
+    },
+    {
+      "j": 5,
+      "d": "0.03125",
+      "log_R_over_d_squared": "-0.532100387933835990866079173138256344739986892",
+      "log_single_block_factor": "-17.0272124138827517077145335404242030316795806",
+      "analytic_log_upper_bound": "-0.222222222222222222222222222222222222222222222"
+    },
+    {
+      "j": 6,
+      "d": "0.015625",
+      "log_R_over_d_squared": "-0.532085159671634395332937016336802079200531001",
+      "log_single_block_factor": "-34.0534502189846013013079690455553330688339841",
+      "analytic_log_upper_bound": "-0.444444444444444444444444444444444444444444444"
+    },
+    {
+      "j": 7,
+      "d": "0.0078125",
+      "log_R_over_d_squared": "-0.532081352213814524427795745160977418674576648",
+      "log_single_block_factor": "-68.106413083368259126757855380605109590345811",
+      "analytic_log_upper_bound": "-0.888888888888888888888888888888888888888888889"
+    },
+    {
+      "j": 8,
+      "d": "0.00390625",
+      "log_R_over_d_squared": "-0.532080400324839467250293717047955282466248608",
+      "log_single_block_factor": "-136.212582483158903616075191564276552311359644",
+      "analytic_log_upper_bound": "-1.77777777777777777777777777777777777777777778"
+    }
+  ],
+  "full_product_numerical_prefixes": [
+    {
+      "j": 1,
+      "tau": "16",
+      "cutoff_block": 24,
+      "numerical_log_product_prefix": "-1.34960440306413198765331422240942079063165085",
+      "analytic_omitted_log_tail_interval": [
+        "-4.84018827002457336610470000388366835457938058e-22",
+        "0"
+      ],
+      "single_block_log_upper_bound": "-1.07427458653832726818201624082585634034880577",
+      "warning": "Finite-prefix quadrature error is not certified."
+    },
+    {
+      "j": 2,
+      "tau": "256",
+      "cutoff_block": 24,
+      "numerical_log_product_prefix": "-3.48588272895710753320917172749252308919517509",
+      "analytic_omitted_log_tail_interval": [
+        "-7.74430123203931738576752000621386936732700893e-21",
+        "0"
+      ],
+      "single_block_log_upper_bound": "-2.13348270311802234981598181802453660612797968",
+      "warning": "Finite-prefix quadrature error is not certified."
+    },
+    {
+      "j": 4,
+      "tau": "65536",
+      "cutoff_block": 24,
+      "numerical_log_product_prefix": "-13.0854809709379411892330790557576933743161998",
+      "analytic_omitted_log_tail_interval": [
+        "-1.98254111540206525075648512159075055803571429e-18",
+        "0"
+      ],
+      "single_block_log_upper_bound": "-8.51458041425103938993747421598626579927344424",
+      "warning": "Finite-prefix quadrature error is not certified."
+    },
+    {
+      "j": 6,
+      "tau": "16777216",
+      "cutoff_block": 24,
+      "numerical_log_product_prefix": "-49.8448934045002089208450368415207211212192672",
+      "analytic_omitted_log_tail_interval": [
+        "-5.07530525542928704193660191127232142857142857e-16",
+        "0"
+      ],
+      "single_block_log_upper_bound": "-34.0534502189846013013079690455553330688339841",
+      "warning": "Finite-prefix quadrature error is not certified."
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 This is the persistent coordination layer for the repository's growing problem collection. Repository problem files and their established indexes determine membership. Discover membership from the current metadata rather than assuming a fixed count or maximum identifier. Active IDs are consecutive from 001 and may change after deletions.
 
-**Current checkpoint (2026-09-24):** [665 active entries](QUEUE.md). Campaign 001 remains incomplete conditional research; see its [evidence summary](001/STATUS.md). This checkpoint is administrative, not a new research or verification run.
+**Current checkpoint (2026-10-02):** [652 active and 13 retained solved entries](QUEUE.md). Campaign 001 remains incomplete conditional research; see [its evidence summary](001/STATUS.md). This queue checkpoint is administrative; external solution reviews are recorded [separately](../solution_reviews/2026-10-02/README.md).
 
 ## Scope and layout
 

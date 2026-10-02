@@ -1,0 +1,13 @@
+{
+  "baseline_commit": "aa776a01d7d48a79f93251af11fde9454b0aea95",
+  "checked_entries": 665,
+  "active": 652,
+  "retired_solved": 13,
+  "unchanged_active_statuses_and_review_dates": 652,
+  "preserved_programme_statuses_and_discovery_dates": 665,
+  "preserved_campaign_state": true,
+  "preserved_submitted_packages": true,
+  "preserved_publication_batches": true,
+  "all_open_pr_heads_integrated": true,
+  "scope": "Exact statement, application and reference comparison allowing only repaired local navigation."
+}

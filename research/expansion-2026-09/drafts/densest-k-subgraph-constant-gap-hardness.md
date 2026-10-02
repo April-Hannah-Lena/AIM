@@ -1,6 +1,6 @@
 # Constant-gap NP-hardness of densest k-subgraph
 
-**Integrated:** [508 — canonical entry](../../../problems/500-densest-k-subgraph-constant-gap-hardness.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
+**Integrated:** [508 — canonical entry](../../../problems/493-densest-k-subgraph-constant-gap-hardness.md) on 2026-09-23. This file preserves the September 19 research draft; use the canonical page for current status and wording.
 
 **Area:** Network optimization and approximation complexity
 
@@ -60,6 +60,6 @@ The January 2026 metric-graph paper [6] separates exact NP-hardness in Theorem 1
 
 The September 19 searches covered names and aliases, gap promises, fixed-factor algorithms, proof and refutation terms, current and preceding years, unrestricted dates, author pages, versions, corrections and withdrawals. The [evidence ledger](../candidates/densest-k-subgraph-constant-gap-hardness.json) records the theorem comparisons and additional semimetric-diversity check. The HAL manuscript supplied the full relevant metric-graph text after publisher access failed. The later journal text of [1] and TMLR version of [7] were not retrieved in full; all locators above refer to the specified accessible versions.
 
-The [planted-clique problem](../../../problems/295-planted-clique.md) asks for average-case detection hardness in a random graph model. The [Unique Games Conjecture](../../../problems/296-unique-games.md) concerns permutation constraints. The [prescribed-machine scheduling conjecture](../../../problems/342-unit-job-unique-machine-hardness.md) asks for a growing approximation gap for a different objective. None has the worst-case graph-selection assertion above.
+The [planted-clique problem](../../../problems/293-planted-clique.md) asks for average-case detection hardness in a random graph model. The [Unique Games Conjecture](../../../problems/294-unique-games.md) concerns permutation constraints. The [prescribed-machine scheduling conjecture](../../../problems/340-unit-job-unique-machine-hardness.md) asks for a growing approximation gap for a different objective. None has the worst-case graph-selection assertion above.
 
 A separated adversarial self-pass passed on September 19, 2026. It also traced abbreviated no-PTAS claims to Khot's stronger complexity assumption, stated explicitly in [8, pp. 38:2–38:3]. No independent agent or human review is claimed.

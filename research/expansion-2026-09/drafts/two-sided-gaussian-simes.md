@@ -56,10 +56,10 @@ The bound is an equality for independent coordinates. Known sufficient dependenc
 
 The 2026 Benjamini–Hochberg counterexamples concern false-discovery rate when some means are nonzero. Their constructions fail the all-zero hypothesis here. When all nulls are true, every rejection is false and false-discovery rate equals the probability of any rejection, giving exactly the displayed Simes question. The broader mixed-mean conjecture is not included. Weighted, shifted and covariance-calibrated procedures also change the statistic or thresholds, so their guarantees do not establish this inequality. An older all-null counterexample under weak dependence uses non-Gaussian uniform variables; its full construction was compared in the evidence record.
 
-This is one problem across dimensions and correlation patterns. It differs from [Gaussian polynomial unlinking](../../../problems/320-gaussian-polynomial-unlinking.md), which concerns independence of polynomial statistics, and [Gaussian simplex noise stability](../../../problems/297-gaussian-simplex.md), which optimizes partitions.
+This is one problem across dimensions and correlation patterns. It differs from [Gaussian polynomial unlinking](../../../problems/318-gaussian-polynomial-unlinking.md), which concerns independence of polynomial statistics, and [Gaussian simplex noise stability](../../../problems/295-gaussian-simplex.md), which optimizes partitions.
 
 The separated A41 adversarial self-pass passed on September 18. No independent agent or human review is claimed. The final batch refresh is recorded in the evidence ledger.
 
 A publication refresh on September 18, 2026 rechecked status and upstream duplicates; see the [batch 4 audit](../batch-04-review.md). No matching later resolution was located.
 
-Integrated page: [340. Simes error control for two-sided Gaussian tests](../../../problems/332-two-sided-gaussian-simes.md).
+Integrated page: [340. Simes error control for two-sided Gaussian tests](../../../problems/330-two-sided-gaussian-simes.md).
